@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'No Black Hole Evaporation: dM/dn ≥ 0 and Information Preserved'
 permalink: /results/problem/no-bh-evaporation/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: consequence
+importance_class: consequence-reframing
+status_code: C
+domain_group: "Black Holes"
 summary_short: Black hole mass is non-decreasing in the τ-framework (dM/dn ≥ 0 exactly);
   Hawking evaporation does not occur and information is preserved.
 canonical_books: []

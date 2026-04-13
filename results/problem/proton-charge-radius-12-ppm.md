@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Proton Charge Radius r_p at +12 ppm (37× Improvement in Wave 46)
 permalink: /results/problem/proton-charge-radius-12-ppm/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Nuclear Physics"
 summary_short: The proton charge radius r_p = 0.84088 fm is predicted at +12 ppm from
   PRad-II/MUSE — a 37-fold improvement over the prior +450 ppm estimate achieved in
   Wave 46.

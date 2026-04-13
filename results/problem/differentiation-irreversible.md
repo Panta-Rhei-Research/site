@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Differentiation Is Irreversible: Waddington Descent Monotone'
 permalink: /results/problem/differentiation-irreversible/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: 'Cellular differentiation is provably irreversible: the Waddington
   descent function is a monotone that cannot increase.'
 canonical_books: []

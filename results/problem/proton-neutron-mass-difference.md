@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Proton-Neutron Mass Difference at +33 ppm
 permalink: /results/problem/proton-neutron-mass-difference/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: The proton-neutron mass difference Δm = m_n − m_p is derived from a
   two-sector formula at +33 ppm from the measured value.
 canonical_books: []

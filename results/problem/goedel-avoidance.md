@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Gödel Avoidance: Five Mechanisms Prevent Diagonal Self-Negation in τ'
 permalink: /results/problem/goedel-avoidance/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: consequence
+importance_class: high-impact-frontier-problem
+status_code: R
+domain_group: "Logic / Inference"
 summary_short: Five independent mechanisms in Category τ prevent the diagonal self-negation
   that underlies Gödel's incompleteness theorems.
 canonical_books: []

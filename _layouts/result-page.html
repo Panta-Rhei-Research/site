@@ -5,10 +5,23 @@ layout: default
 <div class="hero-card">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Result · {{ page.layer | capitalize }}</span>
-    {% if page.result_type %}
+    {% if page.result_kind %}
+    <span class="chip chip-kind">{{ page.result_kind | replace: "-", " " | capitalize }}</span>
+    {% elsif page.result_type %}
     <span class="chip">{{ page.result_type | replace: "_", " " | capitalize }}</span>
     {% endif %}
-    {% if page.bridge_status %}
+    {% if page.status_code %}
+    <span class="chip chip-status chip-status-{{ page.status_code | downcase }}">
+      {% case page.status_code %}
+        {% when 'R' %}Resolved
+        {% when 'P' %}Partial
+        {% when 'Q' %}Qualitative
+        {% when 'C' %}Contradicted
+        {% when 'N' %}Not Addressed
+        {% else %}{{ page.status_code }}
+      {% endcase %}
+    </span>
+    {% elsif page.bridge_status %}
     <span class="chip">{{ page.bridge_status | capitalize }}</span>
     {% endif %}
   </div>
@@ -18,7 +31,12 @@ layout: default
   {% endif %}
   <div class="chip-row">
     {% if page.topic %}<span class="chip">{{ page.topic | capitalize }}</span>{% endif %}
-    {% if page.layer %}<span class="chip">{{ page.layer | capitalize }}</span>{% endif %}
+    {% if page.importance_class %}
+    <span class="chip chip-importance">{{ page.importance_class | replace: "-", " " | capitalize }}</span>
+    {% endif %}
+    {% if page.domain_group and page.domain_group != "" %}
+    <span class="chip">{{ page.domain_group }}</span>
+    {% endif %}
     {% for book in page.canonical_books %}
     <span class="chip">Book {{ book }}</span>
     {% endfor %}

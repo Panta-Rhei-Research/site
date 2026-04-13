@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Vacuum Energy = 0: Cosmological Constant Problem Dissolved'
 permalink: /results/problem/vacuum-energy-zero/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: The τ-vacuum energy is structurally zero (V.T139), dissolving the cosmological
   constant problem without fine-tuning.
 canonical_books: []

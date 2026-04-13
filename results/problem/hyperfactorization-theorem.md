@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Hyperfactorization: Every Object Has a Unique Canonical Normal Form'
 permalink: /results/problem/hyperfactorization-theorem/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: Every object in Category τ carries a unique canonical normal form given
   by the ABCD coordinate chart, generalising Gödel numbering.
 canonical_books: []

@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Black Holes Are Alive: BH Satisfies All 5+3 Conditions'
 permalink: /results/problem/black-holes-alive/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: Black holes satisfy all 5 τ-Distinction and 3 SelfDesc conditions,
   making them alive by modus ponens — not by analogy.
 canonical_books: []

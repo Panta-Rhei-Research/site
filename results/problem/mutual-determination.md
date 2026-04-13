@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Mutual Determination: Five Characterizations of Holomorphic Functions'
 permalink: /results/problem/mutual-determination/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: Five characterizations of τ-holomorphic functions are mutually equivalent,
   making the theory structurally over-determined.
 canonical_books: []

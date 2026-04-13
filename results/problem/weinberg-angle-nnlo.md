@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Weinberg Angle NNLO at −0.7 ppm
 permalink: /results/problem/weinberg-angle-nnlo/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The weak mixing angle sin²θ_W is derived at NNLO to −0.7 ppm accuracy
   using the Window Universality W₃(4) = 5 correction.
 canonical_books: []

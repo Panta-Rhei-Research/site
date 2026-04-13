@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Fine-Structure Constant α⁻¹ = 137.036 from ι_τ
 permalink: /results/problem/fine-structure-constant-alpha-inverse-137/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The dimensionless fine-structure constant α⁻¹ = 137.036 is derived
   from ι_τ at approximately zero ppm agreement with CODATA — no free parameters.
 canonical_books: []

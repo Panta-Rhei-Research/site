@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Tau-Identity Theorem: Agreement at One Depth Implies Agreement Everywhere'
 permalink: /results/problem/tau-identity-theorem/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: If two τ-holomorphic functions agree at any single depth level, they
   agree at all depths — the τ-analogue of the identity theorem for holomorphic functions.
 canonical_books: []

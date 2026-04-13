@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Abiogenesis Is Inevitable: Life Is a Thermodynamic Attractor'
 permalink: /results/problem/abiogenesis-inevitability/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: A 7-link chain from axioms K0–K6 to absorbing basin proves that abiogenesis
   is structurally forced, not a lucky accident.
 canonical_books: []

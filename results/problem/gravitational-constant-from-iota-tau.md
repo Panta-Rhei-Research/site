@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Gravitational Constant from ι_τ: α_G at 3 ppm'
 permalink: /results/problem/gravitational-constant-from-iota-tau/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The gravitational fine structure constant is derived as α_G = α¹⁸√3(1
   − (3/π)α) at 3 ppm from observation.
 canonical_books: []

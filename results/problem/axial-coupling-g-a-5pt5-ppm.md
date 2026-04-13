@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Axial Coupling g_A at +5.5 ppm via κ_D² /ι_τ with CF Window NLO
 permalink: /results/problem/axial-coupling-g-a-5pt5-ppm/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The nucleon axial coupling g_A = 1.27637 is derived at +5.5 ppm from
   PDG using κ_D²/ι_τ with a continued-fraction window NLO correction.
 canonical_books: []

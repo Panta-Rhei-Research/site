@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: W-Boson Mass Prediction at −0.5 ppm
 permalink: /results/problem/w-boson-mass-prediction/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Electroweak"
 summary_short: The W-boson mass is derived as M_W = (17/5)ι_τ⁻³ m_n [1 + (5/17)αι_τ²]
   at −0.5 ppm from the PDG value.
 canonical_books: []

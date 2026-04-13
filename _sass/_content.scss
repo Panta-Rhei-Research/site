@@ -72,6 +72,28 @@
   margin-bottom: 8px;
 }
 
+// Result status chips (v2)
+.chip-status {
+  font-weight: 600;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.chip-status-r { background: rgba(52, 168, 83, 0.14); color: #1e7e34; border-color: rgba(52, 168, 83, 0.22); }
+.chip-status-p { background: rgba(66, 133, 244, 0.12); color: #1a5bc4; border-color: rgba(66, 133, 244, 0.22); }
+.chip-status-q { background: rgba(251, 188, 4, 0.14); color: #a66d00; border-color: rgba(251, 188, 4, 0.22); }
+.chip-status-c { background: rgba(234, 67, 53, 0.12); color: #c5221f; border-color: rgba(234, 67, 53, 0.22); }
+.chip-status-n { background: rgba(0, 0, 0, 0.06); color: $text-muted; }
+
+.chip-kind {
+  font-weight: 600;
+  color: $accent;
+}
+
+.chip-importance {
+  font-size: 0.74rem;
+}
+
 // Lane grid (2-col)
 .lane-grid {
   display: grid;

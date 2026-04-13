@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Modal Logic S4 as Theorem: τ-Modal Operators and Kripke Soundness'
 permalink: /results/problem/modal-logic-s4-theorem/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The modal logic S4 is derived as a theorem within Category τ — possibility
   and necessity operators arise from the ρ-orbit and depth structure.
 canonical_books: []

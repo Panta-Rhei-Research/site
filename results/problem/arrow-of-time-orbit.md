@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Arrow of Time from Orbit Direction: Unique and Irreversible'
 permalink: /results/problem/arrow-of-time-orbit/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The arrow of time is derived from the non-invertibility of the ρ-orbit
   at E₁ — a structural asymmetry, not a statistical one.
 canonical_books: []

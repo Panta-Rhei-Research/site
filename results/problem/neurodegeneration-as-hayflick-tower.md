@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Neurodegeneration as Hayflick Tower Crossing
 permalink: /results/problem/neurodegeneration-as-hayflick-tower/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: Neurodegenerative diseases are structurally identified as specific
   levels of the neural defect tower reaching their Hayflick bound before the organismal
   limit.

@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Li-7 Problem Resolved: ⁷Li/H via Fiber Suppression S = 1/3'
 permalink: /results/problem/lithium-7-problem-resolved/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: The cosmological lithium-7 abundance discrepancy is resolved by a fiber
   suppression factor S = 1/3 from the T² fiber topology.
 canonical_books: []

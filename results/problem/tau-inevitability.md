@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Inevitability: Six Ontic Requirements Force the τ-Kernel'
 permalink: /results/problem/tau-inevitability/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: Six ontic requirements OR1–OR6 together force K0–K6 and 5 generators;
   independence is proved by six counterexamples.
 canonical_books: []

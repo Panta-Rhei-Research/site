@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Baryogenesis: η_B = α·ι_τ¹⁵·(5/6) at −1%'
 permalink: /results/problem/baryogenesis-eta-b/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The baryon-to-photon ratio η_B is derived as α·ι_τ¹⁵·(5/6) at −1%,
   with the three Sakharov conditions satisfied structurally.
 canonical_books: []

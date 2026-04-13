@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Muon Anomalous Magnetic Moment a_μ at +8.8 ppm
 permalink: /results/problem/muon-anomalous-magnetic-moment-8pt8-ppm/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Particle Physics"
 summary_short: The muon anomalous magnetic moment a_μ is derived at +8.8 ppm from
   FNAL g–2 by propagating α_τ through the QED corrections.
 canonical_books: []

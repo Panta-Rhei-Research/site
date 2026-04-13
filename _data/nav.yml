@@ -76,6 +76,12 @@ results_nav:
     url: "/results/by-domain/"
   - title: "By Book"
     url: "/results/by-book/"
+  - title: "Why So Many Results"
+    url: "/results/why-so-many-results/"
+  - title: "How to Read a Result"
+    url: "/results/how-to-read-a-result-page/"
+  - title: "Status & Claim Typing"
+    url: "/results/status-and-claim-typing/"
 
 registry_nav:
   - title: "Overview"

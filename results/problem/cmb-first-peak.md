@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'CMB First Peak ℓ₁: LO at +2840 ppm, NLO at +69 ppm'
 permalink: /results/problem/cmb-first-peak/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: The CMB first acoustic peak position ℓ₁ = 220.6 is derived at LO to
   +2840 ppm and at NLO to +69 ppm using δ_h = ι_τ/W₅(3).
 canonical_books: []

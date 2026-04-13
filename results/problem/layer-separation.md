@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Layer Separation: SelfDesc Is Unavailable at E₁'
 permalink: /results/problem/layer-separation/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: SelfDesc (the self-description predicate) is strictly unavailable at
   enrichment level E₁ — life requires E₂.
 canonical_books: []

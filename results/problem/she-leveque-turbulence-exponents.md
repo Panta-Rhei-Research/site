@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: She–Lévêque Turbulence Exponents Exact from τ³ Dimensions
 permalink: /results/problem/she-leveque-turbulence-exponents/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The She–Lévêque anomalous turbulence scaling exponents ζ_p = p/9 +
   2[1–(2/3)^{p/3}] are derived exactly from the dimension of τ³ with no free parameters.
 canonical_books: []

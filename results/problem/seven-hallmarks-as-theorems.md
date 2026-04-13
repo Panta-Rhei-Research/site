@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Seven Hallmarks of Life as Theorems
 permalink: /results/problem/seven-hallmarks-as-theorems/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: The seven canonical hallmarks of life are derived as theorems VI.T08–T14
   from the 5+3 conditions rather than observed as biological facts.
 canonical_books: []

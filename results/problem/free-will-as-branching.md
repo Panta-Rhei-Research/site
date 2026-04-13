@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Free Will as Branching: Compatibilism Dissolved as Scale Confusion'
 permalink: /results/problem/free-will-as-branching/
@@ -7,6 +8,10 @@ topic: philosophy
 layer: metaphysics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Philosophy"
 summary_short: Free will is defined as branching at E₂-level ρ-orbit choice; the free
   will vs. determinism debate is dissolved as a confusion of enrichment levels.
 canonical_books: []

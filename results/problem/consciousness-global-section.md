@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Consciousness Is a Global Section: Γ(Mind)'
 permalink: /results/problem/consciousness-global-section/
@@ -7,6 +8,10 @@ topic: philosophy
 layer: metaphysics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: core-foundational-problem
+status_code: P
+domain_group: "Mind"
 summary_short: Consciousness is a global section of the mind sheaf; binding is sheaf
   gluing; CC1–CC3 are testable necessary and sufficient conditions.
 canonical_books: []

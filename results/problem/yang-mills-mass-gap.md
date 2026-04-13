@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Yang-Mills Mass Gap: δ∞^s > 0 Spectrally Isolated'
 permalink: /results/problem/yang-mills-mass-gap/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: core-foundational-problem
+status_code: P
+domain_group: "Millennium Problems"
 summary_short: The τ-Yang-Mills spectral gap δ∞^s > 0 is derived; the orthodox Yang-Mills
   mass gap problem is addressed via the Master Schema bridge.
 canonical_books: []

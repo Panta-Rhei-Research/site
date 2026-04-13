@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Electron Mass at 0.025 ppm: 10-Link Derivation from K0–K6'
 permalink: /results/problem/electron-mass-0025-ppm/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: The electron mass m_e = 0.510998937 MeV is derived from a 10-link chain
   starting at axioms K0–K6, achieving 0.025 ppm agreement with CODATA.
 canonical_books: []

@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Homochirality Universality: 12-Step Derivation from K0–K6 to L-Amino Acids'
 permalink: /results/problem/homochirality-universality-12-step-derivation/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: high-impact-frontier-problem
+status_code: R
+domain_group: "Origin of Life"
 summary_short: The universal chirality of life — L-amino acids and D-sugars — is derived
   in a 12-step chain from K0–K6 through the Parity Bridge. Open problem VI.OP9 is
   solved.

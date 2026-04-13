@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: The Categorical Imperative Is the Unique j-Closed Fixed Point
 permalink: /results/problem/categorical-imperative-fixed-point/
@@ -7,6 +8,10 @@ topic: philosophy
 layer: metaphysics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: core-foundational-problem
+status_code: R
+domain_group: "Ethics"
 summary_short: Kant's Categorical Imperative is proven to be the unique j-closed fixed
   point of the τ-digestion operator — ethics derived, not postulated.
 canonical_books: []

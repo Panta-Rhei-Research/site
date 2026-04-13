@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Parity Bridge Theorem: E₁ → 2_τ → E₂ Factors Through the Weak Sector'
 permalink: /results/problem/parity-bridge-theorem/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: The Parity Bridge Theorem proves that the transition from E₁ (physics)
   to E₂ (life) must factor uniquely through the weak sector — parity violation is
   structurally required for life.

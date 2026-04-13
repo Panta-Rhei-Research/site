@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Central Theorem: O(τ³) ≅ A_spec(L)'
 permalink: /results/problem/central-theorem/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: core-foundational-problem
+status_code: R
+domain_group: "Mathematics"
 summary_short: The algebra of holomorphic functions on τ³ is isomorphic to the spectral
   algebra of the lemniscate boundary — interior fully determined by boundary.
 canonical_books: []

@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Fourth Quadrant Resolution: QM and GR Unified in τ'
 permalink: /results/problem/fourth-quadrant-resolution/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: 'The Unification Obstruction (II.T45) is bypassed: QM and GR coexist
   in the τ³ fibration as fiber (T²) and base (τ¹) structures respectively.'
 canonical_books: []

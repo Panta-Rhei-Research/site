@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Flat Galaxy Rotation Curves from Capacity Gradient
 permalink: /results/problem/flat-rotation-curves/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: Flat rotation curves follow from v_∞ = (GM_b c²/(2ℓ_τ))^(1/4) — the
   Baryonic Tully-Fisher Relation derived with zero free parameters.
 canonical_books: []

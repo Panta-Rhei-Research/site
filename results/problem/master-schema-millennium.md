@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Master Schema: All Eight Millennium Problems Are Instances of Mutual Determination'
 permalink: /results/problem/master-schema-millennium/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: All eight Clay Millennium Prize Problems are instances of the Mutual
   Determination Schema at varying enrichment levels.
 canonical_books: []
