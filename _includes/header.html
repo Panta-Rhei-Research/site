@@ -7,7 +7,13 @@
     </span>
   </a>
 
-  <nav class="header-nav">
+  <button class="header-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav" type="button">
+    <span class="hamburger-bar"></span>
+    <span class="hamburger-bar"></span>
+    <span class="hamburger-bar"></span>
+  </button>
+
+  <nav class="header-nav" id="mobile-nav">
     {% for item in site.data.nav.header %}
     <a href="{{ item.url | relative_url }}" class="header-nav-link{% if page.url contains item.match %} active{% endif %}">{{ item.title }}</a>
     {% endfor %}

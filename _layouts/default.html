@@ -8,6 +8,7 @@
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   {% include header.html %}
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
 
   <div class="page-grid">
     {% include left-rail.html %}
@@ -107,6 +108,35 @@
 
       tocLinks.forEach(function(t) { observer.observe(t.el); });
     });
+  </script>
+
+  <script>
+    // Mobile hamburger menu toggle
+    (function() {
+      var hamburger = document.querySelector('.header-hamburger');
+      var nav = document.getElementById('mobile-nav');
+      var backdrop = document.getElementById('drawer-backdrop');
+      if (!hamburger || !nav) return;
+
+      function toggle(open) {
+        var isOpen = typeof open === 'boolean' ? open : !nav.classList.contains('is-open');
+        nav.classList.toggle('is-open', isOpen);
+        backdrop.classList.toggle('is-active', isOpen);
+        hamburger.setAttribute('aria-expanded', String(isOpen));
+        hamburger.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+        document.body.classList.toggle('nav-open', isOpen);
+      }
+
+      hamburger.addEventListener('click', function() { toggle(); });
+      backdrop.addEventListener('click', function() { toggle(false); });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && nav.classList.contains('is-open')) toggle(false);
+      });
+
+      // Auto-close on resize above mobile breakpoint
+      var mq = window.matchMedia('(min-width: 761px)');
+      mq.addEventListener('change', function(e) { if (e.matches) toggle(false); });
+    })();
   </script>
 
 </body>
