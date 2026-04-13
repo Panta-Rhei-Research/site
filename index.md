@@ -2,7 +2,7 @@
 layout: homepage
 title: "Panta Rhei Research Program"
 hero_line: "An independent open research program."
-hero_body: "Exploring whether one constrained formal kernel can support a unified model of mathematics, physics, life, and metaphysics — with every claim typed, every derivation machine-checked, and every prediction publicly inspectable."
+hero_body: "A research program by Dr. Thorsten Fuchs and Anna-Sophie Fuchs, exploring whether one constrained formal kernel can support a unified model of mathematics, physics, life, and metaphysics — with every claim typed, every derivation machine-checked, and every prediction publicly inspectable."
 hero_ctas:
   - label: "Explore the Framework"
     url: /framework/about/
@@ -67,12 +67,12 @@ The master constant iota_tau = 2/(pi+e) governs all quantitative predictions. Ze
 
 The program currently presents **{{ result_count }} key results** across four domains, each with typed epistemic status. A small selection of flagship claims:
 
-- **Dark sector closure** — dark matter and dark energy as structural artifacts of the boundary reading, not new particles
-- **Hubble tension resolved** — h = 2/3 + iota_tau^2/17 at -120 ppm, zero free parameters
-- **Genetic code optimality** — top 0.01% for error minimization, derived from BSD-motivic structure
-- **Categorical Imperative** — Kant's CI derived as the unique j-closed fixed point, not postulated
-- **Hierarchy problem** — the 10^32 gravity/EM ratio from structural sector separation
-- **Gettier Problem dissolved** — knowledge as global section, Gettier cases as cover failures
+- **Dark sector closure** [Resolved] — dark matter and dark energy as structural artifacts of the boundary reading, not new particles
+- **Hubble tension** [Resolved] — h = 2/3 + iota_tau^2/17 at -120 ppm, zero free parameters
+- **Genetic code optimality** [Resolved] — top 0.01% for error minimization, derived from BSD-motivic structure
+- **Categorical Imperative** [Resolved] — Kant's CI derived as the unique j-closed fixed point, not postulated
+- **Hierarchy problem** [Resolved] — the 10^32 gravity/EM ratio from structural sector separation
+- **Gettier Problem** [Resolved] — knowledge as global section, Gettier cases as cover failures
 
 Every claim carries a status: resolved, partial, qualitative, or contradicted. The typing is not optional — it is the program's principal epistemic commitment.
 
@@ -91,7 +91,7 @@ This is not a program that asks for trust. It is a program that provides inspect
 - **TauLib** — 450 Lean 4 modules, 125,771 lines, 4,332 machine-checked theorems, 0 sorry in Books I-VI
 - **{{ registry_count }} registry objects** — every definition, theorem, and proposition with dependency graphs
 - **8 guided tours** — interactive Lean walkthroughs for skeptics, mathematicians, physicists, biologists, and philosophers
-- **220+ quantitative predictions** — with explicit precision claims and falsification routes
+- **220+ quantitative predictions** — specific numerical values with explicit precision and falsification routes (a subset of the {{ result_count }} total results)
 
 The decisive empirical test: CMB-S4 will measure the tensor-to-scalar ratio *r*. If *r* is inconsistent with iota_tau^4, the framework's cosmological predictions fail.
 
@@ -105,9 +105,14 @@ The decisive empirical test: CMB-S4 will measure the tensor-to-scalar ratio *r*.
 <div class="content-card homepage-section">
 <h2><svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>Why this could matter if it holds</h2>
 
-If the framework holds — or partially holds — consequences could propagate into public-good domains. The program's impact lane explores 11 conditional deployment portfolios across agriculture, climate, energy, ocean science, public health, and more, grounded in 44 companion papers.
+If the framework holds — or partially holds — consequences could propagate into public-good domains. The program's impact lane explores 11 conditional deployment portfolios grounded in 44 companion papers:
 
-The word *if* is load-bearing. These are scenario analyses, not predictions of social adoption. The framework must survive empirical testing before any downstream consequence becomes real.
+- **Climate and weather** — causal-tree legibility for mitigation, adaptation, and resilience planning
+- **Energy** — grid optimization, fusion digital twins, renewable integration
+- **Life sciences** — precision agriculture, public health, biodiversity monitoring
+- **Ocean and water** — marine ecosystem modeling, water security, coastal resilience
+
+The word *if* is load-bearing. These are scenario analyses, not predictions of social adoption. The framework must survive empirical testing before any downstream consequence becomes real. The program is independent research — not yet peer-reviewed in traditional journals. All claims carry explicit scope labels.
 
 <a href="{{ '/impact/' | relative_url }}" class="btn-secondary">Potential Impact</a>
 </div>
