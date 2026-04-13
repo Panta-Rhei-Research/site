@@ -21,6 +21,14 @@
   @media (max-width: $bp-stack) {
     flex-direction: column;
     text-align: center;
+    padding: 18px 16px;
+  }
+}
+
+@media (max-width: $bp-stack) {
+  .site-footer-wrap {
+    padding: 0 10px 20px;
+    margin-top: 32px;
   }
 }
 

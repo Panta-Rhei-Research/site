@@ -541,3 +541,36 @@
     }
   }
 }
+
+// ── Mobile card padding reductions ──────────────────────────────
+
+@media (max-width: $bp-stack) {
+  .content-card {
+    padding: 16px 14px;
+  }
+
+  .hero-card {
+    padding: 20px 16px;
+  }
+
+  .summary-card {
+    padding: 14px 12px;
+  }
+
+  .summary-cards {
+    grid-template-columns: 1fr; // stack summary cards on mobile
+    gap: 10px;
+  }
+
+  .lane-card {
+    padding: 16px 14px;
+  }
+
+  .homepage-hero h1 {
+    font-size: 1.3rem;
+  }
+
+  .format-section-title {
+    font-size: 0.92rem;
+  }
+}
