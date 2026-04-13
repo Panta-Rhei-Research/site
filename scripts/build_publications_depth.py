@@ -290,14 +290,6 @@ Book {roman} is part of the **{layer_name}** layer ({layer_code}) of the Panta R
 - **Registry**: [{chapter_count} chapters mapped to registry objects](/registry/books/{book_slug}/)
 - **Dashboard**: [Formalization status and dependency graph](/registry/dashboards/{book_slug}/)
 - **Formalization**: [TauLib Book{roman}](https://github.com/Panta-Rhei-Framework/formalization) — Lean 4 verification
-
-## Available Formats
-
-- Hardcover (7×10)
-- Paperback (6×9)
-- Kindle (print replica)
-
-Available on Amazon KDP.
 """)
 
 

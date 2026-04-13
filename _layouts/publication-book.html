@@ -2,6 +2,14 @@
 layout: default
 ---
 
+{% comment %}Look up Amazon metadata for this book{% endcomment %}
+{% assign amazon = nil %}
+{% for entry in site.data.publications.amazon %}
+  {% if entry.slug == page.book_slug %}
+    {% assign amazon = entry %}
+  {% endif %}
+{% endfor %}
+
 <div class="hero-card">
   <span class="eyebrow">Publications · Books</span>
   <h1>{{ page.title }}</h1>
@@ -20,3 +28,65 @@ layout: default
     {{ content }}
   </div>
 </div>
+
+{% if amazon %}
+<div class="content-card">
+  <h2 class="format-section-title">Available Formats</h2>
+  <div class="format-cards">
+
+    <div class="format-card">
+      <div class="format-card-header">
+        <span class="format-label">Kindle eBook</span>
+        {% if amazon.ebook_status == "LIVE" %}
+        <span class="status-badge status-live">Live</span>
+        {% else %}
+        <span class="status-badge status-publishing">{{ amazon.ebook_status }}</span>
+        {% endif %}
+      </div>
+      <div class="format-price">${{ amazon.ebook_price_usd }}</div>
+      <div class="format-asin">ASIN {{ amazon.ebook_asin }}</div>
+      <div class="format-links">
+        <a href="{{ amazon.ebook_url_amazon_de }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.de</a>
+        <a href="{{ amazon.ebook_url_amazon_com }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.com</a>
+      </div>
+    </div>
+
+    <div class="format-card">
+      <div class="format-card-header">
+        <span class="format-label">Hardcover</span>
+        {% if amazon.hardcover_status == "LIVE" %}
+        <span class="status-badge status-live">Live</span>
+        {% else %}
+        <span class="status-badge status-publishing">{{ amazon.hardcover_status }}</span>
+        {% endif %}
+      </div>
+      <div class="format-price">${{ amazon.hardcover_price_usd }}</div>
+      <div class="format-asin">ASIN {{ amazon.hardcover_asin }}</div>
+      <div class="format-links">
+        <a href="{{ amazon.hardcover_url_amazon_de }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.de</a>
+        <a href="{{ amazon.hardcover_url_amazon_com }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.com</a>
+      </div>
+    </div>
+
+    <div class="format-card">
+      <div class="format-card-header">
+        <span class="format-label">Paperback</span>
+        {% if amazon.paperback_status == "LIVE" %}
+        <span class="status-badge status-live">Live</span>
+        {% elsif amazon.paperback_status == "PUBLISHING" %}
+        <span class="status-badge status-publishing">Publishing</span>
+        {% else %}
+        <span class="status-badge">{{ amazon.paperback_status }}</span>
+        {% endif %}
+      </div>
+      <div class="format-price">${{ amazon.paperback_price_usd }}</div>
+      <div class="format-asin">ASIN {{ amazon.paperback_asin }}</div>
+      <div class="format-links">
+        <a href="{{ amazon.paperback_url_amazon_de }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.de</a>
+        <a href="{{ amazon.paperback_url_amazon_com }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.com</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endif %}
