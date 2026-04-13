@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'No Singularity: Profinite Structure Blocks a → 0'
 permalink: /results/problem/no-singularity-theorem/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The profinite structure of τ³ ensures bounded norms at all stages,
   so a → 0 cannot occur. The Big Bang is a bounded opening regime.
 canonical_books: []

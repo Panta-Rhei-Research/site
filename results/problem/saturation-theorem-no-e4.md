@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Saturation Theorem: The Enrichment Ladder Terminates at E₃'
 permalink: /results/problem/saturation-theorem-no-e4/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: 'Three independent structural blockages prevent any E₄: No-New-Lobe,
   No-New-Crossing-Mediator, and Carrier Closure. The ladder has exactly four layers.'
 canonical_books: []

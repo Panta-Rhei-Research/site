@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Hubble Tension Resolved: h = 2/3 + ι_τ²/17 at –120 ppm'
 permalink: /results/problem/hubble-tension-resolved-h-formula/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: high-impact-frontier-problem
+status_code: R
+domain_group: "Cosmology"
 summary_short: The Hubble constant h = 0.6735 is derived as h = 2/3 + ι_τ²/17 at –120
   ppm from SH0ES/JWST, resolving the Hubble tension without free parameters.
 canonical_books: []

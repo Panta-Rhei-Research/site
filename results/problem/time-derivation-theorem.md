@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Time Derivation Theorem: Proper Time from K0–K6'
 permalink: /results/problem/time-derivation-theorem/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: Proper time is derived from the τ-axioms K0–K6 as the parameter of
   ρ-orbit traversal — time is not postulated but proven.
 canonical_books: []

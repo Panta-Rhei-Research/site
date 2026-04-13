@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'ATP Currency Uniqueness: Topology and Coupling Fix the Energy Scale'
 permalink: /results/problem/atp-currency-uniqueness/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Cellular Biology"
 summary_short: 'ATP is the unique energy currency of life: topology plus coupling
   constraints admit exactly one energy oscillation mode at the biological scale.'
 canonical_books: []

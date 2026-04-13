@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Hinge Theorem: Books IV–VII Are Sector Instantiations of Book III'
 permalink: /results/problem/hinge-theorem-no-knobs/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: All content of Books IV–VII is a sector instantiation of the Book III
   template; all inter-sector couplings are rational functions of ι_τ with zero free
   parameters.

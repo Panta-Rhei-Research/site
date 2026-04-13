@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'τ-Admissibility Collapse: P = NP Within τ'
 permalink: /results/problem/tau-admissibility-collapse-p-np/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: core-foundational-problem
+status_code: Q
+domain_group: "Millennium Problems"
 summary_short: 'Within Category τ, P = NP: the τ-admissibility condition collapses
   polynomial-time verifiability to polynomial-time solvability at E₂.'
 canonical_books: []

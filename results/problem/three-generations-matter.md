@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Three Generations of Matter from H₁(τ³;ℤ) ≅ ℤ³
 permalink: /results/problem/three-generations-matter/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: high-impact-frontier-problem
+status_code: R
+domain_group: "Particle Physics"
 summary_short: 'Exactly three independent proofs that the number of fermion generations
   is three: first homology, primitive winding classes, and lemniscate regions.'
 canonical_books: []

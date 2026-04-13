@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Higgs Self-Coupling λ_H = 0.12928 at +16 ppm
 permalink: /results/problem/higgs-self-coupling-lambda-h-16-ppm/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: The Higgs self-coupling λ_H = 0.12928 is derived from the τ-coherence
   fixing potential at +16 ppm from the Standard Model value, completing the EW arc.
 canonical_books: []

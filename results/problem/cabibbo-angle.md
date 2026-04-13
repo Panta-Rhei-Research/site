@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Cabibbo Angle: sin θ_C = ι_τ(1 − ι_τ) at −2327 ppm'
 permalink: /results/problem/cabibbo-angle/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The Cabibbo angle is derived as sin θ_C = ι_τ(1 − ι_τ) = 0.22456...,
   at −2327 ppm from the experimental value.
 canonical_books: []

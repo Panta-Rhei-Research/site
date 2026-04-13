@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'The τ-Coherence Kernel: Seven Axioms on Five Generators'
 permalink: /results/problem/tau-kernel-coherence/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: core-foundational-problem
+status_code: R
+domain_group: "Foundations"
 summary_short: Category τ is uniquely determined by seven axioms K0–K6 on five generators
   and one operator. The static kernel has a unique model up to isomorphism.
 canonical_books: []

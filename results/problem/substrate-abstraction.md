@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Substrate Abstraction: The 5+3 Life Conditions Are Substrate-Free'
 permalink: /results/problem/substrate-abstraction/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: consequence
+importance_class: consequence-reframing
+status_code: R
+domain_group: "Life Definition"
 summary_short: The 5 τ-Distinction and 3 SelfDesc conditions are jointly necessary
   and sufficient for life, with no mention of any physical substrate.
 canonical_books: []

@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Rydberg Constant at Seven Significant Figures from τ
 permalink: /results/problem/rydberg-constant-seven-significant-figures/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The Rydberg constant R_∞ is derived to seven significant figures —
   at 0.026 ppm agreement with CODATA — from the τ-framework with zero free parameters.
 canonical_books: []

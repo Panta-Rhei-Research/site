@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Kolmogorov Constant C_K = 3/2 Exact from dim(τ³)/dim(T²)
 permalink: /results/problem/kolmogorov-constant-c-k-exact/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The Kolmogorov constant C_K = 3/2 is derived exactly as dim(τ³)/dim(T²)
   = 3/2, with no free parameters.
 canonical_books: []

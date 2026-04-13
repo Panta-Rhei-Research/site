@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Neutrino Mass Sum Σm_ν = 0.089 eV, Normal Ordering Derived
 permalink: /results/problem/neutrino-mass-sum-0pt089-ev-normal-ordering/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: high-impact-frontier-problem
+status_code: R
+domain_group: "Particle Physics"
 summary_short: The neutrino mass sum Σm_ν = 0.089 eV and normal mass ordering are
   derived from the τ-framework. Normal hierarchy is Lean-verified from p < q.
 canonical_books: []

@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Exactly Three Colors: N_c = 3 from Primorial Depth'
 permalink: /results/problem/three-colors-derived/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The number of color charges N_c = 3 is derived from the primorial depth
   d = 3 of the strong sector.
 canonical_books: []

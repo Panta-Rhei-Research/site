@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Identity as NF-Address Persistence: Personal Identity Across Change'
 permalink: /results/problem/identity-as-nf-address-persistence/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: Personal identity is defined as persistence of the ABCD Normal Form
   address across state changes — a formal resolution of the Ship of Theseus problem.
 canonical_books: []

@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'S₈ Tension Resolved: S₈ = 0.783 from f_supp × f_growth × f_ν'
 permalink: /results/problem/s8-tension-resolved-0pt783/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: 'The S₈ structure-growth tension is resolved at S₈ = 0.783, derived
   from three multiplicative suppressions: matter suppression, growth factor, and neutrino
   free-streaming.'

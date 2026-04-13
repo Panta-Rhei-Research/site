@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'No Dark Matter Particle: Sector Exhaustion Theorem'
 permalink: /results/problem/no-dark-matter-particle/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: core-foundational-problem
+status_code: R
+domain_group: "Cosmology"
 summary_short: The Sector Exhaustion Theorem proves no additional sector can be added,
   therefore no dark matter particle exists.
 canonical_books: []

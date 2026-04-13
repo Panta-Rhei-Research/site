@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Helium-4 Primordial Abundance Y_p = 20/81 at 0.43σ from Planck
 permalink: /results/problem/helium-4-abundance-y-p-20-over-81/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: The primordial helium-4 mass fraction Y_p = 20/81 ≈ 0.24691 is derived
   at 0.43σ from the Planck+BBN value 0.2449 ± 0.0040.
 canonical_books: []

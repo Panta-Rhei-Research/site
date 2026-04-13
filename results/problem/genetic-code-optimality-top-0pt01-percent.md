@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Genetic Code Optimality: Top 0.01% for Error Minimization'
 permalink: /results/problem/genetic-code-optimality-top-0pt01-percent/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: The standard genetic code is derived as a BSD-motivic structure achieving
   top 0.01% performance for error minimization among all possible codes.
 canonical_books: []

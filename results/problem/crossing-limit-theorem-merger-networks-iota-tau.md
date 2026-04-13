@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Crossing-Limit Theorem: Merger Networks Converge to ι_τ'
 permalink: /results/problem/crossing-limit-theorem-merger-networks-iota-tau/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: 'The merger-directed network of ω-codes converges to ι_τ: the universe
   trends toward maximal aliveness, with the cosmological endstate having code exactly
   ι_τ.'

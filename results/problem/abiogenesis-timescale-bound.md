@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Abiogenesis Timescale Bound from Geometric Decay
 permalink: /results/problem/abiogenesis-timescale-bound/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: high-impact-frontier-problem
+status_code: R
+domain_group: "Origin of Life"
 summary_short: The timescale for abiogenesis is bounded above by T_abio ≤ n_{1/2}
   · ⌈log₂(N/8)⌉, a logarithmic bound from the half-life of the defect complexity budget.
 canonical_books: []

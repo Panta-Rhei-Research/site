@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: Cosmological Flatness Ω_k = 0 Exact from τ³ Compactness
 permalink: /results/problem/cosmological-flatness-omega-k-zero/
@@ -7,6 +8,10 @@ topic: physics
 layer: physics
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Physics"
 summary_short: Spatial flatness of the universe, Ω_k = 0 exactly, is derived as a
   structural consequence of the compactness of τ³ — not from inflation or fine-tuning.
 canonical_books: []

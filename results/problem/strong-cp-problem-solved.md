@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Strong CP Problem Solved: θ_QCD = 0 from SA-i Admissibility'
 permalink: /results/problem/strong-cp-problem-solved/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: structural-support-result
+status_code: R
+domain_group: "Mathematics"
 summary_short: θ_QCD = 0 exactly, derived from the SA-i admissibility condition on
   η-winding mod-3 structure. No axion mechanism needed.
 canonical_books: []

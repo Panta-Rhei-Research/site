@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Stars Are Not Alive: Quadrant III — Distinction Without SelfDesc'
 permalink: /results/problem/stars-not-alive/
@@ -7,6 +8,10 @@ topic: biology
 layer: life
 result_type: structural_readout
 bridge_status: internal
+result_kind: frontier-problem
+importance_class: domain-level-open-problem
+status_code: R
+domain_group: "Biology"
 summary_short: Stars satisfy τ-Distinction but not SelfDesc, placing them in Quadrant
   III of the 2×2 matrix — alive by common speech but not by the formal definition.
 canonical_books: []

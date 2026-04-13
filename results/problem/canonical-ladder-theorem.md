@@ -1,4 +1,5 @@
 ---
+
 layout: result-page
 title: 'Canonical Ladder: E₀ ⊊ E₁ ⊊ E₂ ⊊ E₃ Is the Unique Maximal Enrichment Chain'
 permalink: /results/problem/canonical-ladder-theorem/
@@ -7,6 +8,10 @@ topic: mathematics
 layer: mathematics
 result_type: structural_readout
 bridge_status: internal
+result_kind: foundational-math
+importance_class: core-foundational-problem
+status_code: R
+domain_group: "Enriched Category Theory"
 summary_short: The enrichment chain E₀ ⊊ E₁ ⊊ E₂ ⊊ E₃ is the unique maximal chain;
   it terminates at E₃ with no possible E₄.
 canonical_books: []
