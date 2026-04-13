@@ -132,6 +132,12 @@
           main.parentNode.insertBefore(details, main);
         }
       }
+
+      // Close rail-collapse on mobile (opened by default for desktop)
+      if (!window.matchMedia('(min-width: 1081px)').matches) {
+        var railCollapse = document.querySelector('.rail-collapse');
+        if (railCollapse) railCollapse.removeAttribute('open');
+      }
     });
   </script>
 

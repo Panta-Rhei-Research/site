@@ -115,7 +115,9 @@
 
 // ── Collapsible left-rail for mobile ────────────────────────────
 
-// Desktop: details wrapper is invisible
+// Desktop: <details open> with display:contents makes the wrapper
+// transparent. The summary is hidden. Content is always visible.
+// On mobile, JS removes the open attribute so it collapses.
 .rail-collapse {
   display: contents;
 }
