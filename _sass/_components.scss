@@ -144,3 +144,104 @@
   color: $text-muted;
   margin-top: 4px;
 }
+
+// ================================================================
+// Format Cards (Amazon book formats)
+// ================================================================
+
+.format-section-title {
+  font-family: $font-display;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: $text;
+  margin: 0;
+  padding: 20px 20px 12px;
+}
+
+.format-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  padding: 0 20px 20px;
+
+  @media (max-width: $bp-stack) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.format-card {
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid $panel-border;
+  border-radius: $radius-md;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .format-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .format-label {
+    font-family: $font-ui;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: $text;
+  }
+
+  .format-price {
+    font-family: $font-ui;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: $accent;
+  }
+
+  .format-asin {
+    font-family: $font-mono;
+    font-size: 0.75rem;
+    color: $text-muted;
+  }
+
+  .format-links {
+    display: flex;
+    gap: 8px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+  }
+
+  .format-btn {
+    font-size: 0.78rem;
+    height: 32px;
+    padding: 0 12px;
+  }
+}
+
+// ================================================================
+// Status Badges
+// ================================================================
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: $font-ui;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: $radius-pill;
+  white-space: nowrap;
+}
+
+.status-live {
+  background: rgba(52, 168, 83, 0.14);
+  color: #1e7e34;
+}
+
+.status-publishing {
+  background: rgba(251, 188, 4, 0.16);
+  color: #a66d00;
+}
