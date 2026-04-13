@@ -9,6 +9,8 @@ collections:
   framework:
     output: true
     permalink: /framework/:name/
+  taulib_docs:
+    output: true
 
 collections_dir: .
 

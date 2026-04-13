@@ -1,0 +1,105 @@
+---
+layout: taulib-doc
+title: "TauLib.BookI.Sets.Powerset"
+permalink: /verify/taulib/docs/book-i-sets-powerset/
+lane: verify
+module_name: "TauLib.BookI.Sets.Powerset"
+book: "I"
+book_label: "Foundations"
+right_rail:
+  related:
+  - title: TauLib Overview
+    url: /verify/taulib/
+  - title: Architecture
+    url: /verify/taulib/architecture/
+  artifacts:
+  - title: Source on GitHub
+    url: https://github.com/Panta-Rhei-Framework/taulib
+    external: true
+  meta:
+    type: "API Documentation"
+    book: "Book I"
+    status: "Frozen"
+    updated: "April 2026"
+---
+
+
+<div class="mod_doc"><h1 class="markdown-heading" id="TauLib-Sets-Powerset">TauLib.Sets.Powerset <a class="hover-link" href="#TauLib-Sets-Powerset">#</a></h1><p>Well-foundedness of strict τ-membership and the powerset hierarchy.</p><h2 class="markdown-heading" id="Registry-Cross-References">Registry Cross-References <a class="hover-link" href="#Registry-Cross-References">#</a></h2><ul>
+<li>[I.D33] Strict Membership — <code><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a></code></li>
+<li>[I.P12] Well-Foundedness — <code><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_wf">tau_strict_mem_wf</a></code></li>
+</ul><h2 class="markdown-heading" id="Ground-Truth-Sources">Ground Truth Sources <a class="hover-link" href="#Ground-Truth-Sources">#</a></h2><ul>
+<li>chunk_0360_M003055: Well-foundedness of the divisibility order on Nat</li>
+</ul><h2 class="markdown-heading" id="Mathematical-Content">Mathematical Content <a class="hover-link" href="#Mathematical-Content">#</a></h2><p>In the τ-arithmetic encoding, strict membership a ∈^strict_τ b means
+a | b with a ≠ b. For b ≠ 0, this implies a < b, so strict membership
+is well-founded (no infinite descending chains).</p><p>This well-foundedness is the arithmetic analogue of the Foundation Axiom
+(Regularity) in ZF set theory: there is no infinite chain
+... ∈_τ x₂ ∈_τ x₁ ∈_τ x₀ (unless 0 is involved).</p><p>The restriction to nonzero sets is essential: 0 is the universal set
+(everything divides 0), so chains through 0 are degenerate.</p></div><div class="decl" id="Tau.Sets.tau_strict_mem"><div class="def"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L38-L39">source</a></div><div class="decl_header"><span class="decl_kind">def</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">a </span><span class="fn">b</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><a href="../../.././foundational_types.html">Prop</a></div></div><p>[I.D33] Strict τ-membership: a properly divides b (a | b and a ≠ b).</p><details><summary>Equations</summary><ul class="equations"><li class="equation"><span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">Tau.Sets.tau_strict_mem</a> <span class="fn">a</span> <span class="fn">b</span></span> <a href="../../.././Init/Prelude.html#Eq">=</a> (<span class="fn"><a href="../../.././TauLib/BookI/Sets/Membership.html#Tau.Sets.tau_mem">Tau.Sets.tau_mem</a> <span class="fn">a</span> <span class="fn">b</span></span> <a href="../../.././Init/Prelude.html#And">∧</a> <span class="fn">a</span> <a href="../../.././Init/Core.html#Ne">≠</a> <span class="fn">b</span>)</li></ul></details><details id="instances-for-list-Tau.Sets.tau_strict_mem" class="instances-for-list"><summary>Instances For</summary><ul class="instances-for-enum"></ul></details></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_irrefl"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L41-L43">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_irrefl"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_irrefl</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">a</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><a href="../../.././Init/Prelude.html#Not">¬</a><span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">a</span> <span class="fn">a</span></span></div></div><p>Strict membership is irreflexive.</p></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_trans"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L45-L50">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_trans"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_trans</span></a></span><span class="impl_arg"><span class="decl_args">
+<span class="fn">{<span class="fn">a </span><span class="fn">b </span><span class="fn">c</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>}</span></span>
+</span><span class="decl_args">
+<span class="fn">(<span class="fn">h1</span> : <span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">a</span> <span class="fn">b</span></span>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">h2</span> : <span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">b</span> <span class="fn">c</span></span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">a</span> <span class="fn">c</span></span></div></div><p>Strict membership is transitive.</p></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_lt"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L56-L61">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_lt"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_lt</span></a></span><span class="impl_arg"><span class="decl_args">
+<span class="fn">{<span class="fn">a </span><span class="fn">b</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>}</span></span>
+</span><span class="decl_args">
+<span class="fn">(<span class="fn">h</span> : <span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">a</span> <span class="fn">b</span></span>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">hb</span> : <span class="fn">b</span> <a href="../../.././Init/Core.html#Ne">≠</a> <span class="fn">0</span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn">a</span> <a href="../../.././Init/Prelude.html#LT.lt"><</a> <span class="fn">b</span></div></div><p>Strict membership with nonzero target implies strict inequality.
+If a | b, a ≠ b, and b ≠ 0, then a < b.</p></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_one"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L63-L65">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_one"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_one</span></a></span><span class="impl_arg"><span class="decl_args">
+<span class="fn">{<span class="fn">n</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>}</span></span>
+</span><span class="decl_args">
+<span class="fn">(<span class="fn">hn</span> : <span class="fn">n</span> <a href="../../.././Init/Prelude.html#GE.ge">≥</a> <span class="fn">2</span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">1</span> <span class="fn">n</span></span></div></div><p>1 is a strict member of any n ≥ 2.</p></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_bound"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L67-L70">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_bound"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_bound</span></a></span><span class="impl_arg"><span class="decl_args">
+<span class="fn">{<span class="fn">a </span><span class="fn">b</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>}</span></span>
+</span><span class="decl_args">
+<span class="fn">(<span class="fn">h</span> : <span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">a</span> <span class="fn">b</span></span>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">hb</span> : <span class="fn">b</span> <a href="../../.././Init/Prelude.html#GT.gt">></a> <span class="fn">0</span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn">a</span> <a href="../../.././Init/Prelude.html#LT.lt"><</a> <span class="fn">b</span></div></div><p>If a is a strict member of b, and b > 0, then a is strictly smaller.</p></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_nz"><div class="def"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L82-L83">source</a></div><div class="decl_header"><span class="decl_kind">def</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_nz"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_nz</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">a </span><span class="fn">b</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><a href="../../.././foundational_types.html">Prop</a></div></div><p>The "nonzero strict membership" relation: a strictly divides b and b ≠ 0.</p><details><summary>Equations</summary><ul class="equations"><li class="equation"><span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_nz">Tau.Sets.tau_strict_mem_nz</a> <span class="fn">a</span> <span class="fn">b</span></span> <a href="../../.././Init/Prelude.html#Eq">=</a> (<span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">Tau.Sets.tau_strict_mem</a> <span class="fn">a</span> <span class="fn">b</span></span> <a href="../../.././Init/Prelude.html#And">∧</a> <span class="fn">b</span> <a href="../../.././Init/Core.html#Ne">≠</a> <span class="fn">0</span>)</li></ul></details><details id="instances-for-list-Tau.Sets.tau_strict_mem_nz" class="instances-for-list"><summary>Instances For</summary><ul class="instances-for-enum"></ul></details></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_wf"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L90-L100">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_wf"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_wf</span></a></span><span class="decl_args"> :</span><div class="decl_type"><span class="fn"><a href="../../.././Init/WF.html#WellFounded">WellFounded</a> <a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_nz">tau_strict_mem_nz</a></span></div></div><p>[I.P12] Well-foundedness of nonzero strict τ-membership:
+there is no infinite descending chain
+... ∈^strict_τ x₂ ∈^strict_τ x₁ ∈^strict_τ x₀
+when all elements are nonzero.</p><p>Proof: tau_strict_mem_nz is a subrelation of Nat.lt (via identity),
+and Nat.lt is well-founded.</p></div></div><div class="decl" id="Tau.Sets.tau_strict_mem_induction"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L102-L108">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_induction"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_strict_mem_induction</span></a></span><span class="impl_arg"><span class="decl_args">
+<span class="fn">{<span class="fn">P</span> : <span class="fn"><a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a> → <a href="../../.././foundational_types.html">Prop</a></span>}</span></span>
+</span><span class="decl_args">
+<span class="fn">(<span class="fn">h</span> : <span class="fn">∀ (<span class="fn">n</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>), <span class="fn"><span class="fn">(∀ (<span class="fn">m</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>), <span class="fn"><span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem_nz">tau_strict_mem_nz</a> <span class="fn">m</span> <span class="fn">n</span></span> → <span class="fn"><span class="fn">P</span> <span class="fn">m</span></span></span>)</span> → <span class="fn"><span class="fn">P</span> <span class="fn">n</span></span></span></span>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">n</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn"><span class="fn">P</span> <span class="fn">n</span></span></div></div><p>From well-foundedness: strong induction on τ-membership.
+For nonzero indices, if P holds for all strict τ-members of n,
+then P holds for n.</p></div></div><div class="decl" id="Tau.Sets.tau_mem_bounded"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L114-L117">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_mem_bounded"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">tau_mem_bounded</span></a></span><span class="impl_arg"><span class="decl_args">
+<span class="fn">{<span class="fn">b</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>}</span></span>
+</span><span class="decl_args">
+<span class="fn">(<span class="fn">hb</span> : <span class="fn">b</span> <a href="../../.././Init/Core.html#Ne">≠</a> <span class="fn">0</span>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">a</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">h</span> : <span class="fn"><a href="../../.././TauLib/BookI/Sets/Membership.html#Tau.Sets.tau_mem">tau_mem</a> <span class="fn">a</span> <span class="fn">b</span></span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn">a</span> <a href="../../.././Init/Prelude.html#LE.le">≤</a> <span class="fn">b</span></div></div><p>For nonzero b, the set of τ-members is bounded: every member is ≤ b.</p></div></div><div class="decl" id="Tau.Sets.strict_mem_chain_bound"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Sets/Powerset.lean#L119-L124">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.strict_mem_chain_bound"><span class="name">Tau</span>.<span class="name">Sets</span>.<span class="name">strict_mem_chain_bound</span></a></span><span class="impl_arg"><span class="decl_args">
+<span class="fn">{<span class="fn">a </span><span class="fn">b</span> : <a href="../../.././TauLib/BookI/Denotation/TauIdx.html#Tau.Denotation.TauIdx">Denotation.TauIdx</a>}</span></span>
+</span><span class="decl_args">
+<span class="fn">(<span class="fn">hb</span> : <span class="fn">b</span> <a href="../../.././Init/Prelude.html#GT.gt">></a> <span class="fn">0</span>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">h</span> : <span class="fn"><a href="../../.././TauLib/BookI/Sets/Powerset.html#Tau.Sets.tau_strict_mem">tau_strict_mem</a> <span class="fn">a</span> <span class="fn">b</span></span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn">a</span> <a href="../../.././Init/Prelude.html#LT.lt"><</a> <span class="fn">b</span></div></div><p>For nonzero b, strict membership decreases: if a ∈^strict_τ b then a < b.
+Combined with a ≥ 1 (since 0 divides nothing nonzero), this bounds
+the length of any descending chain to at most b steps.</p></div></div>
