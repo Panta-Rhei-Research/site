@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: space-between;
   @include glass;
+  border: none; // replaced by spectral ::after border
   border-radius: 18px;
   transition: background $transition;
 
