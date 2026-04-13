@@ -1,0 +1,1164 @@
+---
+layout: taulib-doc
+title: "TauLib.BookVII.Social.Ontology"
+permalink: /verify/taulib/docs/book-vii-social-ontology/
+lane: verify
+module_name: "TauLib.BookVII.Social.Ontology"
+book: "VII"
+book_label: "Metaphysics"
+right_rail:
+  related:
+  - title: TauLib Overview
+    url: /verify/taulib/
+  - title: Architecture
+    url: /verify/taulib/architecture/
+  artifacts:
+  - title: Source on GitHub
+    url: https://github.com/Panta-Rhei-Framework/taulib
+    external: true
+  meta:
+    type: "API Documentation"
+    book: "Book VII"
+    status: "Frozen"
+    updated: "April 2026"
+---
+
+# TauLib.BookVII.Social.Ontology
+
+
+Social ontology as categorical sheaf theory on dignity-bearing entities.
+Formalizes VII.D76 (Social Ontology), VII.D80 (Power as Morphism),
+VII.P25 (Legitimacy as Recognition Coherence), VII.D81 (Ritual as Social Gluing).
+
+## Registry Cross-References
+
+
+### Social Ontology (VII.D76)
+
+
+- [VII.D76] Social Ontology — `SocialBaseSpace`, `RecognitionTopology`, `SocialSheaf`
+
+- [VII.Lxx-R8C01] Social Base Space Well-Definedness — `social_base_well_defined`
+
+- [VII.Lxx-R8C02] Recognition Topology Generation — `recognition_topology_generation`
+
+- [VII.Lxx-R8C03] Social Sheaf Construction — `social_sheaf_construction`
+
+- [VII.Lxx-R8C04] Collective Intentionality as Glued Section — `collective_intentionality_glued`
+
+
+### Power & Legitimacy (VII.D80, VII.P25)
+
+
+- [VII.D80] Power as Morphism Structure — `PowerRelation`
+
+- [VII.P25] Legitimacy as Recognition Coherence — `LegitimacyConditions`
+
+- [VII.Lxx-R8C05] Power Morphism Well-Typed — `power_morphism_well_typed`
+
+- [VII.Lxx-R8C06] Legitimacy Sheaf Connection — `legitimacy_sheaf_connection`
+
+- [VII.Lxx-R8C07] Legitimacy Dignity Connection — `legitimacy_dignity_connection`
+
+- [VII.Lxx-R8C08] Legitimacy from CI — `legitimacy_from_ci`
+
+
+### Ritual (VII.D81)
+
+
+- [VII.D81] Ritual as Social Gluing — `RitualStructure`
+
+- [VII.Lxx-R8C09] Ritual Gluing Well-Defined — `ritual_gluing_well_defined`
+
+- [VII.Lxx-R8C10] Rite of Passage as Boundary Crossing — `rite_boundary_crossing`
+
+
+## Cross-Book Authority
+
+
+- Book II: Grothendieck topology, sheaf gluing
+
+- Book VII, Ethics.CIProof: DignityStructure, CINaturality, FairnessProtocol
+
+- Book VII, Meta.Archetypes: BoundaryArchetype (for rites of passage)
+
+
+## Ground Truth Sources
+
+
+- Book VII ch94 (Social Ontology), ch104 (Political Philosophy), ch105 (Ritual)
+
+
+---
+
+### `Tau.BookVII.Social.Ontology.SocialBaseSpace`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L52-L67)
+**structure
+Tau.BookVII.Social.Ontology.SocialBaseSpace :Type**
+
+
+[VII.D76] Social Base Space: dignity-bearing entities Ω_soc = ⊔ᵢ Ωᵢ.
+Each component Ωᵢ is a connected collection of agents sharing a
+recognition context. The disjoint union carries the coproduct topology.
+
+Agents are dignity-bearing by construction: every agent has non-trivial
+identity-invariants D(X) (VII.T30 Dignity Universality).
+
+- non_empty : Bool
+Non-empty: at least one dignity-bearing entity exists.
+
+- is_coproduct : Bool
+Coproduct: Ω_soc = ⊔ᵢ Ωᵢ (disjoint union of recognition contexts).
+
+- dignity_bearing : Bool
+Dignity-bearing: every entity carries identity-invariants D(X).
+
+- components_connected : Bool
+Connected components: each Ωᵢ is connected (shared recognition).
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSocialBaseSpace.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L67-L67)
+**def
+Tau.BookVII.Social.Ontology.instReprSocialBaseSpace.repr :SocialBaseSpace → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSocialBaseSpace`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L67-L67)
+**instance
+Tau.BookVII.Social.Ontology.instReprSocialBaseSpace :Repr SocialBaseSpace**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprSocialBaseSpace = { reprPrec := Tau.BookVII.Social.Ontology.instReprSocialBaseSpace.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.social_base`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L69-L69)
+**def
+Tau.BookVII.Social.Ontology.social_base :SocialBaseSpace**
+
+Equations
+- Tau.BookVII.Social.Ontology.social_base = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.RecognitionTopology`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L75-L90)
+**structure
+Tau.BookVII.Social.Ontology.RecognitionTopology :Type**
+
+
+[VII.D76] Recognition Topology: Grothendieck topology on Ω_soc
+generated by recognition morphisms ρᵢ→ⱼ : Ωᵢ → Ωⱼ.
+
+A sieve S is a recognition cover iff every pair of agents in the
+domain can mutually recognize each other's dignity. The topology
+J_rec inherits the sheaf-theoretic structure from J_τ.
+
+- has_recognition_morphisms : Bool
+Recognition morphisms generate the topology.
+
+- covers_mutual : Bool
+Covers satisfy mutual recognition.
+
+- is_grothendieck : Bool
+Inherits Grothendieck topology structure from J_τ.
+
+- pullback_stable : Bool
+Stable under pullback (restriction of recognition is recognition).
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRecognitionTopology.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L90-L90)
+**def
+Tau.BookVII.Social.Ontology.instReprRecognitionTopology.repr :RecognitionTopology → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRecognitionTopology`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L90-L90)
+**instance
+Tau.BookVII.Social.Ontology.instReprRecognitionTopology :Repr RecognitionTopology**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprRecognitionTopology = { reprPrec := Tau.BookVII.Social.Ontology.instReprRecognitionTopology.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.recognition_topology`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L92-L92)
+**def
+Tau.BookVII.Social.Ontology.recognition_topology :RecognitionTopology**
+
+Equations
+- Tau.BookVII.Social.Ontology.recognition_topology = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.SocialSheaf`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L98-L113)
+**structure
+Tau.BookVII.Social.Ontology.SocialSheaf :Type**
+
+
+[VII.D76] Social Sheaf: F_soc : Ω_soc^op → Set assigns to each
+open set U the set of social facts F_soc(U) observable from U.
+
+Social facts = agreements, norms, institutions, shared intentions.
+Sheaf condition: compatible local social facts glue to unique global fact.
+Dignity constraint: every social fact factors through L_dig.
+
+- is_presheaf : Bool
+Presheaf: F_soc assigns social facts to each open set.
+
+- gluing_condition : Bool
+Gluing: compatible local data → unique global section.
+
+- locality_condition : Bool
+Locality: section determined by restrictions to cover.
+
+- dignity_constraint : Bool
+Dignity constraint: all social facts factor through L_dig.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSocialSheaf`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L113-L113)
+**instance
+Tau.BookVII.Social.Ontology.instReprSocialSheaf :Repr SocialSheaf**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprSocialSheaf = { reprPrec := Tau.BookVII.Social.Ontology.instReprSocialSheaf.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSocialSheaf.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L113-L113)
+**def
+Tau.BookVII.Social.Ontology.instReprSocialSheaf.repr :SocialSheaf → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.social_sheaf`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L115-L115)
+**def
+Tau.BookVII.Social.Ontology.social_sheaf :SocialSheaf**
+
+Equations
+- Tau.BookVII.Social.Ontology.social_sheaf = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.social_ontology_well_defined`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L121-L139)
+**theorem
+Tau.BookVII.Social.Ontology.social_ontology_well_defined :social_base.non_empty = true ∧ social_base.dignity_bearing = true ∧ recognition_topology.is_grothendieck = true ∧ social_sheaf.gluing_condition = true ∧ social_sheaf.dignity_constraint = true**
+
+
+[VII.D76] Social Ontology: 5-component structure is well-defined.
+(1) SocialBaseSpace Ω_soc — dignity-bearing entities
+(2) RecognitionTopology J_rec — covers from mutual recognition
+(3) SocialSheaf F_soc — social facts as sections
+(4) Gluing condition — compatible local data → unique global section
+(5) Dignity constraint — all social facts factor through L_dig
+
+Proof: (1) non-empty by VII.T30 Dignity Universality.
+(2) Grothendieck by inheritance from J_τ.
+(3) Presheaf by standard construction.
+(4) Sheaf by J_rec being Grothendieck.
+(5) Dignity constraint by reflector L_dig from VII.D65.
+
+---
+
+### `Tau.BookVII.Social.Ontology.social_base_well_defined`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L145-L153)
+**theorem
+Tau.BookVII.Social.Ontology.social_base_well_defined :social_base.non_empty = true ∧ social_base.is_coproduct = true ∧ social_base.dignity_bearing = true ∧ social_base.components_connected = true**
+
+
+[VII.Lxx-R8C01] Social Base Space Well-Definedness: Ω_soc is a valid
+categorical object. Non-empty (at least one dignity-bearer), coproduct
+topology well-defined, each component connected.
+
+---
+
+### `Tau.BookVII.Social.Ontology.recognition_topology_generation`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L159-L167)
+**theorem
+Tau.BookVII.Social.Ontology.recognition_topology_generation :recognition_topology.has_recognition_morphisms = true ∧ recognition_topology.is_grothendieck = true ∧ recognition_topology.pullback_stable = true ∧ recognition_topology.covers_mutual = true**
+
+
+[VII.Lxx-R8C02] Recognition Topology Generation: J_rec is a valid
+Grothendieck topology. Generated by recognition morphisms, inherits
+pullback stability from J_τ, covers satisfy mutual recognition.
+
+---
+
+### `Tau.BookVII.Social.Ontology.social_sheaf_construction`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L173-L180)
+**theorem
+Tau.BookVII.Social.Ontology.social_sheaf_construction :social_sheaf.is_presheaf = true ∧ social_sheaf.gluing_condition = true ∧ social_sheaf.locality_condition = true ∧ social_sheaf.dignity_constraint = true**
+
+
+[VII.Lxx-R8C03] Social Sheaf Construction: F_soc is a valid sheaf
+on (Ω_soc, J_rec). Presheaf structure + gluing + locality + dignity.
+
+---
+
+### `Tau.BookVII.Social.Ontology.CollectiveIntentionality`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L186-L205)
+**structure
+Tau.BookVII.Social.Ontology.CollectiveIntentionality :Type**
+
+
+Collective Intentionality: a global section I_we of F_soc that
+arises from gluing individual intention sections.
+
+Individual: I_i ∈ F_soc(U_i) (agent i's intention in context U_i).
+Compatibility: I_i|*{U_i ∩ U_j} = I_j|*{U_i ∩ U_j} (overlap agreement).
+Gluing: ∃! I_we ∈ F_soc(⋃ U_i) restricting to each I_i.
+
+This is the sheaf-theoretic formalization of Searle's collective
+intentionality: "we-intentions" are global sections, not sums of
+"I-intentions."
+
+- has_local_sections : Bool
+Individual intentions exist as local sections.
+
+- overlap_compatible : Bool
+Overlap compatibility: restrictions agree on intersections.
+
+- global_section_unique : Bool
+Global section exists and is unique (sheaf axiom).
+
+- dignity_preserving : Bool
+Dignity-preserving: global intention factors through L_dig.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprCollectiveIntentionality.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L205-L205)
+**def
+Tau.BookVII.Social.Ontology.instReprCollectiveIntentionality.repr :CollectiveIntentionality → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprCollectiveIntentionality`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L205-L205)
+**instance
+Tau.BookVII.Social.Ontology.instReprCollectiveIntentionality :Repr CollectiveIntentionality**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprCollectiveIntentionality = { reprPrec := Tau.BookVII.Social.Ontology.instReprCollectiveIntentionality.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.collective_intention`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L207-L207)
+**def
+Tau.BookVII.Social.Ontology.collective_intention :CollectiveIntentionality**
+
+Equations
+- Tau.BookVII.Social.Ontology.collective_intention = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.collective_intentionality_glued`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L209-L217)
+**theorem
+Tau.BookVII.Social.Ontology.collective_intentionality_glued :collective_intention.has_local_sections = true ∧ collective_intention.overlap_compatible = true ∧ collective_intention.global_section_unique = true ∧ collective_intention.dignity_preserving = true**
+
+
+[VII.Lxx-R8C04] Collective Intentionality as Glued Section:
+given compatible individual intentions, the sheaf axiom of F_soc
+produces a unique global "we-intention."
+
+---
+
+### `Tau.BookVII.Social.Ontology.SocialSphere`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L223-L234)
+**structure
+Tau.BookVII.Social.Ontology.SocialSphere :Type**
+
+
+Social Sphere: an open set U ⊆ Ω_soc with recognition density ρ.
+Recognition density measures the proportion of agent-pairs in U
+that mutually recognize each other's dignity. ρ(U) = 1 means
+all pairs are mutually recognizing.
+
+- is_open : Bool
+Open in recognition topology.
+
+- non_empty : Bool
+Non-empty: contains at least one dignity-bearer.
+
+- has_recognition_density : Bool
+Recognition density ρ ∈ (0,1] (0 excluded: at least self-recognition).
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSocialSphere`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L234-L234)
+**instance
+Tau.BookVII.Social.Ontology.instReprSocialSphere :Repr SocialSphere**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprSocialSphere = { reprPrec := Tau.BookVII.Social.Ontology.instReprSocialSphere.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSocialSphere.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L234-L234)
+**def
+Tau.BookVII.Social.Ontology.instReprSocialSphere.repr :SocialSphere → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.canonical_sphere`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L236-L236)
+**def
+Tau.BookVII.Social.Ontology.canonical_sphere :SocialSphere**
+
+Equations
+- Tau.BookVII.Social.Ontology.canonical_sphere = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.PowerModality`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L242-L249)
+**inductive
+Tau.BookVII.Social.Ontology.PowerModality :Type**
+
+
+Power modality: four registers of power, paralleling the 4-register
+structure from Registers.lean.
+
+- coercive : PowerModality
+- economic : PowerModality
+- ideological : PowerModality
+- institutional : PowerModality
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instDecidableEqPowerModality`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L249-L249)
+**instance
+Tau.BookVII.Social.Ontology.instDecidableEqPowerModality :DecidableEq PowerModality**
+
+Equations
+- Tau.BookVII.Social.Ontology.instDecidableEqPowerModality x✝ y✝ = if h : x✝.ctorIdx = y✝.ctorIdx then isTrue ⋯ else isFalse ⋯
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprPowerModality`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L249-L249)
+**instance
+Tau.BookVII.Social.Ontology.instReprPowerModality :Repr PowerModality**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprPowerModality = { reprPrec := Tau.BookVII.Social.Ontology.instReprPowerModality.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprPowerModality.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L249-L249)
+**def
+Tau.BookVII.Social.Ontology.instReprPowerModality.repr :PowerModality → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.PowerRelation`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L251-L272)
+**structure
+Tau.BookVII.Social.Ontology.PowerRelation :Type**
+
+
+[VII.D80] Power as Morphism Structure (ch104).
+Power P : A → B is a morphism in the social category with:
+(i) Asymmetry: dependence δ(B,A) dominates δ(A,B) (non-symmetric)
+(ii) Scope: restriction to open set U ⊆ Ω_soc (standard sheaf restriction)
+(iii) Modality: 4-fold register-typed decomposition
+
+SCOPE UPGRADE: conjectural → τ-effective (Sprint R8-C2).
+All three properties are categorical vocabulary already τ-effective:
+asymmetry = morphism in non-symmetric category,
+scope = sheaf restriction, modality = 4-register decomposition.
+
+- asymmetric : Bool
+(i) Asymmetry: morphism in non-symmetric category.
+
+- has_scope : Bool
+(ii) Scope: restricted to open set U ⊆ Ω_soc.
+
+- modality : PowerModality
+(iii) Modality: one of the four power registers.
+
+- backed_by_social_category : Bool
+Backed by social category structure.
+
+- well_typed : Bool
+Power morphism is typed (domain/codomain well-defined).
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprPowerRelation.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L272-L272)
+**def
+Tau.BookVII.Social.Ontology.instReprPowerRelation.repr :PowerRelation → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprPowerRelation`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L272-L272)
+**instance
+Tau.BookVII.Social.Ontology.instReprPowerRelation :Repr PowerRelation**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprPowerRelation = { reprPrec := Tau.BookVII.Social.Ontology.instReprPowerRelation.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.canonical_power`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L274-L274)
+**def
+Tau.BookVII.Social.Ontology.canonical_power :PowerRelation**
+
+Equations
+- Tau.BookVII.Social.Ontology.canonical_power = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.Sovereignty`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L276-L284)
+**structure
+Tau.BookVII.Social.Ontology.Sovereignty :Type**
+
+
+Sovereignty: terminal position in the authority lattice.
+Internal: terminal in the lattice of authority morphisms within Ω_soc.
+External: no subordination morphism to entities outside the sphere.
+
+- internal_terminal : Bool
+Internal sovereignty: terminal in authority lattice.
+
+- external_non_subordination : Bool
+External sovereignty: non-subordination to external authority.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSovereignty.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L284-L284)
+**def
+Tau.BookVII.Social.Ontology.instReprSovereignty.repr :Sovereignty → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSovereignty`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L284-L284)
+**instance
+Tau.BookVII.Social.Ontology.instReprSovereignty :Repr Sovereignty**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprSovereignty = { reprPrec := Tau.BookVII.Social.Ontology.instReprSovereignty.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.sovereignty`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L286-L286)
+**def
+Tau.BookVII.Social.Ontology.sovereignty :Sovereignty**
+
+Equations
+- Tau.BookVII.Social.Ontology.sovereignty = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.power_morphism_well_typed`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L292-L300)
+**theorem
+Tau.BookVII.Social.Ontology.power_morphism_well_typed :canonical_power.asymmetric = true ∧ canonical_power.has_scope = true ∧ canonical_power.backed_by_social_category = true ∧ canonical_power.well_typed = true**
+
+
+[VII.Lxx-R8C05] Power Morphism Well-Typed: the power relation P : A → B
+is a valid morphism in the social category. Asymmetry, scope, and
+modality are all structural (categorical vocabulary).
+
+---
+
+### `Tau.BookVII.Social.Ontology.LegitimacyConditions`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L306-L332)
+**structure
+Tau.BookVII.Social.Ontology.LegitimacyConditions :Type**
+
+
+[VII.P25] Legitimacy as Recognition Coherence (ch104). 5 conditions:
+(1) Claim: authority A claims power P over domain D — presheaf data
+(2) Recognition: affected entities recognize P — structural prerequisite
+(3) Coherence: recognition sections glue coherently — sheaf condition
+(τ-effective via VII.T31 CI-Sheaf Equivalence)
+(4) Justification: P survives CI universalizability test
+(τ-effective via VII.T35 CI as j-Closed Fixed Point)
+(5) Dignity: exercise of P factors through L_dig
+(τ-effective via VII.T30 Dignity Universality)
+
+SCOPE UPGRADE: conjectural → τ-effective (Sprint R8-C2).
+Conditions 1–2 are presheaf data (structural prerequisites).
+Conditions 3–5 are applications of already τ-effective CI/dignity machinery.
+
+- has_claim : Bool
+(1) Authority claim exists.
+
+- has_recognition : Bool
+(2) Recognition by affected entities.
+
+- coherence_gluing : Bool
+(3) Coherence: recognition sections glue (sheaf condition).
+
+- ci_justified : Bool
+(4) Justification: survives CI test.
+
+- dignity_preserving : Bool
+(5) Dignity: factors through L_dig.
+
+- condition_count : ℕ
+All 5 conditions satisfied.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprLegitimacyConditions`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L332-L332)
+**instance
+Tau.BookVII.Social.Ontology.instReprLegitimacyConditions :Repr LegitimacyConditions**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprLegitimacyConditions = { reprPrec := Tau.BookVII.Social.Ontology.instReprLegitimacyConditions.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprLegitimacyConditions.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L332-L332)
+**def
+Tau.BookVII.Social.Ontology.instReprLegitimacyConditions.repr :LegitimacyConditions → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.legitimacy`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L334-L334)
+**def
+Tau.BookVII.Social.Ontology.legitimacy :LegitimacyConditions**
+
+Equations
+- Tau.BookVII.Social.Ontology.legitimacy = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.legitimacy_sheaf_connection`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L340-L348)
+**theorem
+Tau.BookVII.Social.Ontology.legitimacy_sheaf_connection :legitimacy.coherence_gluing = true ∧ Ethics.CIProof.ci_naturality.separated = true ∧ Ethics.CIProof.ci_naturality.naturality = true**
+
+
+[VII.Lxx-R8C06] Legitimacy Sheaf Connection: condition (3) —
+coherence = gluing on recognition sections.
+Uses VII.T31 CI-Sheaf Equivalence: sheaf condition on (P, J)
+is equivalent to Kant's universalizability test.
+
+---
+
+### `Tau.BookVII.Social.Ontology.legitimacy_dignity_connection`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L354-L362)
+**theorem
+Tau.BookVII.Social.Ontology.legitimacy_dignity_connection :legitimacy.dignity_preserving = true ∧ Ethics.CIProof.dignity.has_reflector = true ∧ Ethics.CIProof.dignity.reflector_idempotent = true**
+
+
+[VII.Lxx-R8C07] Legitimacy Dignity Connection: condition (5) —
+dignity preservation factors through L_dig.
+Uses VII.T30 Dignity Universality: reflector L_dig exists and
+is idempotent, every NF-address-bearing entity has non-trivial D(X).
+
+---
+
+### `Tau.BookVII.Social.Ontology.legitimacy_from_ci`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L368-L377)
+**theorem
+Tau.BookVII.Social.Ontology.legitimacy_from_ci :legitimacy.ci_justified = true ∧ Ethics.CIProof.ci_graph.j_closed = true ∧ Ethics.CIProof.ci_graph.fixed_point = true**
+
+
+[VII.Lxx-R8C08] Legitimacy from CI: condition (4) — justification =
+CI universalizability test.
+Uses VII.T35: CI is the minimal j-closed fixed point. Any maxim
+passing the CI test is guaranteed to be in the j-closed subworld.
+Power that passes CI is legitimate by construction.
+
+---
+
+### `Tau.BookVII.Social.Ontology.LegitimacyCrisis`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L383-L398)
+**structure
+Tau.BookVII.Social.Ontology.LegitimacyCrisis :Type**
+
+
+Legitimacy Crisis: sheaf gluing failure in the recognition topology.
+When recognition sections cease to be compatible on overlaps, no
+global section exists — the authority lacks coherent recognition.
+
+Crisis types:
+
+
+- Recognition failure: ρᵢ→ⱼ collapses (mutual recognition lost)
+
+- Coherence failure: local recognitions don't glue (contradictory)
+
+- Dignity failure: exercise of power doesn't factor through L_dig
+
+
+- recognition_failure : Bool
+Recognition failure: mutual recognition morphisms collapse.
+
+- coherence_failure : Bool
+Coherence failure: local data incompatible (no global section).
+
+- dignity_failure : Bool
+Dignity failure: power exercise violates L_dig factoring.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprLegitimacyCrisis`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L398-L398)
+**instance
+Tau.BookVII.Social.Ontology.instReprLegitimacyCrisis :Repr LegitimacyCrisis**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprLegitimacyCrisis = { reprPrec := Tau.BookVII.Social.Ontology.instReprLegitimacyCrisis.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprLegitimacyCrisis.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L398-L398)
+**def
+Tau.BookVII.Social.Ontology.instReprLegitimacyCrisis.repr :LegitimacyCrisis → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.legitimacy_crisis`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L400-L400)
+**def
+Tau.BookVII.Social.Ontology.legitimacy_crisis :LegitimacyCrisis**
+
+Equations
+- Tau.BookVII.Social.Ontology.legitimacy_crisis = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.RitualStructure`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L406-L428)
+**structure
+Tau.BookVII.Social.Ontology.RitualStructure :Type**
+
+
+[VII.D81] Ritual as Social Gluing (ch105). Four conditions:
+(i) Stereotypy: overlap compatibility (same actions → compatible data)
+(ii) Synchrony: covering condition (temporal coordination → overlap)
+(iii) Collective scope: sheaf gluing (individual sections → global section on U_G)
+(iv) Transformation: standard sheaf observation (global sections carry
+properties absent from any single local section)
+
+SCOPE UPGRADE: conjectural → τ-effective (Sprint R8-C3).
+All 4 conditions are direct sheaf-framework applications:
+(i) = compatibility on intersections, (ii) = cover generation,
+(iii) = sheaf axiom, (iv) = global section observation.
+
+- stereotypy : Bool
+(i) Stereotypy: participants perform same actions → compatible data.
+
+- synchrony : Bool
+(ii) Synchrony: temporal coordination → covering condition.
+
+- collective_scope : Bool
+(iii) Collective scope: individual sections glue to global section.
+
+- transformation : Bool
+(iv) Transformation: global section has emergent properties.
+
+- condition_count : ℕ
+Condition count.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRitualStructure.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L428-L428)
+**def
+Tau.BookVII.Social.Ontology.instReprRitualStructure.repr :RitualStructure → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRitualStructure`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L428-L428)
+**instance
+Tau.BookVII.Social.Ontology.instReprRitualStructure :Repr RitualStructure**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprRitualStructure = { reprPrec := Tau.BookVII.Social.Ontology.instReprRitualStructure.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.ritual`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L430-L430)
+**def
+Tau.BookVII.Social.Ontology.ritual :RitualStructure**
+
+Equations
+- Tau.BookVII.Social.Ontology.ritual = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.ritual_gluing_well_defined`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L436-L446)
+**theorem
+Tau.BookVII.Social.Ontology.ritual_gluing_well_defined :ritual.stereotypy = true ∧ ritual.synchrony = true ∧ ritual.collective_scope = true ∧ ritual.transformation = true ∧ social_sheaf.gluing_condition = true**
+
+
+[VII.Lxx-R8C09] Ritual Gluing Well-Defined: the 4 conditions of
+VII.D81 imply sheaf gluing on the social sheaf F_soc.
+Stereotypy = overlap compatibility, synchrony = cover generation,
+collective scope = sheaf axiom, transformation = global observation.
+
+---
+
+### `Tau.BookVII.Social.Ontology.RitualFailure`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L452-L464)
+**structure
+Tau.BookVII.Social.Ontology.RitualFailure :Type**
+
+
+Ritual Failure: when one of the 4 conditions breaks.
+
+
+- Stereotypy failure: actions diverge → incompatible overlap data
+
+- Synchrony failure: no temporal coordination → no cover
+
+- Scope failure: individual sections don't glue → no global section
+
+- Transformation failure: global section trivial (no emergence)
+
+
+- stereotypy_broken : Bool
+Actions diverge: overlap data incompatible.
+
+- synchrony_broken : Bool
+Temporal coordination lost: no covering condition.
+
+- scope_broken : Bool
+Individual sections don't glue.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRitualFailure`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L464-L464)
+**instance
+Tau.BookVII.Social.Ontology.instReprRitualFailure :Repr RitualFailure**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprRitualFailure = { reprPrec := Tau.BookVII.Social.Ontology.instReprRitualFailure.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRitualFailure.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L464-L464)
+**def
+Tau.BookVII.Social.Ontology.instReprRitualFailure.repr :RitualFailure → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.ritual_failure`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L466-L466)
+**def
+Tau.BookVII.Social.Ontology.ritual_failure :RitualFailure**
+
+Equations
+- Tau.BookVII.Social.Ontology.ritual_failure = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.RiteOfPassage`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L472-L487)
+**structure
+Tau.BookVII.Social.Ontology.RiteOfPassage :Type**
+
+
+Rite of Passage: boundary-crossing protocol in the social category.
+A morphism between social states factoring through the crossing point
+of the BoundaryArchetype (VII.D18).
+
+Before-state → crossing → after-state parallels the lemniscate
+boundary L = S¹ ∨ S¹ with wedge point p₀ as the crossing.
+
+- is_morphism : Bool
+Morphism between social states.
+
+- factors_through_crossing : Bool
+Factors through boundary crossing point.
+
+- crosses_components : Bool
+Before-state and after-state are in different connected components.
+
+- boundary_archetype_connection : Bool
+Connected to BoundaryArchetype (VII.D18).
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRiteOfPassage.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L487-L487)
+**def
+Tau.BookVII.Social.Ontology.instReprRiteOfPassage.repr :RiteOfPassage → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprRiteOfPassage`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L487-L487)
+**instance
+Tau.BookVII.Social.Ontology.instReprRiteOfPassage :Repr RiteOfPassage**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprRiteOfPassage = { reprPrec := Tau.BookVII.Social.Ontology.instReprRiteOfPassage.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.rite_of_passage`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L489-L489)
+**def
+Tau.BookVII.Social.Ontology.rite_of_passage :RiteOfPassage**
+
+Equations
+- Tau.BookVII.Social.Ontology.rite_of_passage = { }
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.rite_boundary_crossing`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L495-L506)
+**theorem
+Tau.BookVII.Social.Ontology.rite_boundary_crossing :rite_of_passage.is_morphism = true ∧ rite_of_passage.factors_through_crossing = true ∧ rite_of_passage.crosses_components = true ∧ Meta.Archetypes.boundary_archetype.carrier_is_lemniscate = true ∧ Meta.Archetypes.boundary_archetype.lobe_count = 2**
+
+
+[VII.Lxx-R8C10] Rite of Passage as Boundary Crossing: a rite of
+passage is an instance of the Boundary Archetype (VII.D18) in the
+social category. The before/after states correspond to the two lobes
+of L = S¹ ∨ S¹; the ritual itself is the crossing through p₀.
+Uses: BoundaryArchetype carrier_is_lemniscate, pi1_free_rank = 2.
+
+---
+
+### `Tau.BookVII.Social.Ontology.SacredStructure`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L512-L523)
+**structure
+Tau.BookVII.Social.Ontology.SacredStructure :Type**
+
+
+Sacred Structure: a section of F_soc that is invariant under
+profane transformations. "Sacred" = boundary invariant in the
+sheaf-theoretic sense; "profane" = transformations that don't
+cross the boundary archetype.
+
+- is_section : Bool
+Section of social sheaf.
+
+- profane_invariant : Bool
+Invariant under profane (non-boundary-crossing) transformations.
+
+- boundary_associated : Bool
+Boundary-associated: lives at or near the crossing point.
+
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSacredStructure`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L523-L523)
+**instance
+Tau.BookVII.Social.Ontology.instReprSacredStructure :Repr SacredStructure**
+
+Equations
+- Tau.BookVII.Social.Ontology.instReprSacredStructure = { reprPrec := Tau.BookVII.Social.Ontology.instReprSacredStructure.repr }
+
+---
+
+### `Tau.BookVII.Social.Ontology.instReprSacredStructure.repr`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L523-L523)
+**def
+Tau.BookVII.Social.Ontology.instReprSacredStructure.repr :SacredStructure → ℕ → Std.Format**
+
+Equations
+- One or more equations did not get rendered due to their size.
+Instances For
+
+---
+
+### `Tau.BookVII.Social.Ontology.sacred`
+
+[source](https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookVII/Social/Ontology.lean#L525-L525)
+**def
+Tau.BookVII.Social.Ontology.sacred :SacredStructure**
+
+Equations
+- Tau.BookVII.Social.Ontology.sacred = { }
+Instances For
