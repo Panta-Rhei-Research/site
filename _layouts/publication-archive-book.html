@@ -77,7 +77,15 @@ layout: default
 </div>
 {% endif %}
 
-{% comment %}Availability card{% endcomment %}
+{% comment %}Look up Amazon metadata for this 1st-edition book{% endcomment %}
+{% assign fe_amazon = nil %}
+{% for entry in site.data.publications.first_edition_amazon %}
+  {% if entry.slug == page.book_slug %}
+    {% assign fe_amazon = entry %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}Availability card with Amazon format cards{% endcomment %}
 <div class="content-card">
   <h2 class="format-section-title">Availability</h2>
   {% if fe_book %}
@@ -89,45 +97,61 @@ layout: default
     {% elsif fe_book.availability_state == "open-archival-only" %}
     <p>Available as an open archival PDF for reference.</p>
     {% endif %}
+  </div>
+  {% endif %}
 
-    <div class="format-cards" style="margin-top: 16px;">
-      <div class="format-card">
-        <div class="format-card-header">
-          <span class="format-label">Hardcover</span>
-          <span class="status-badge status-archived">Archived</span>
-        </div>
-        <div class="format-asin">ISBN {{ fe_book.isbn_hardcover }}</div>
-        {% if fe_book.amazon_url %}
-        <div class="format-links">
-          <a href="{{ fe_book.amazon_url }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon</a>
-        </div>
-        {% endif %}
-      </div>
+  {% if fe_amazon %}
+  <div class="format-cards" style="margin-top: 16px;">
 
-      <div class="format-card">
-        <div class="format-card-header">
-          <span class="format-label">Paperback</span>
-          <span class="status-badge status-archived">Archived</span>
-        </div>
-        <div class="format-asin">ISBN {{ fe_book.isbn_paperback }}</div>
-        {% if fe_book.amazon_url %}
-        <div class="format-links">
-          <a href="{{ fe_book.amazon_url }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon</a>
-        </div>
-        {% endif %}
+    <div class="format-card">
+      <div class="format-card-header">
+        <span class="format-label">Kindle eBook</span>
+        <span class="status-badge status-archived">Archived</span>
       </div>
+      <div class="format-asin">ASIN {{ fe_amazon.ebook_asin }}</div>
+      <div class="format-links">
+        <a href="{{ fe_amazon.ebook_url_amazon_de }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.de</a>
+        <a href="{{ fe_amazon.ebook_url_amazon_com }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.com</a>
+      </div>
+    </div>
 
-      {% if fe_book.open_pdf_url %}
-      <div class="format-card">
-        <div class="format-card-header">
-          <span class="format-label">Open Archival PDF</span>
-          <span class="status-badge status-live">Available</span>
-        </div>
-        <div class="format-links">
-          <a href="{{ fe_book.open_pdf_url }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Download PDF</a>
-        </div>
+    <div class="format-card">
+      <div class="format-card-header">
+        <span class="format-label">Hardcover</span>
+        <span class="status-badge status-archived">Archived</span>
       </div>
-      {% endif %}
+      <div class="format-asin">ASIN {{ fe_amazon.hardcover_asin }}</div>
+      <div class="format-links">
+        <a href="{{ fe_amazon.hardcover_url_amazon_de }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.de</a>
+        <a href="{{ fe_amazon.hardcover_url_amazon_com }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.com</a>
+      </div>
+    </div>
+
+    <div class="format-card">
+      <div class="format-card-header">
+        <span class="format-label">Paperback</span>
+        <span class="status-badge status-archived">Archived</span>
+      </div>
+      <div class="format-asin">ASIN {{ fe_amazon.paperback_asin }}</div>
+      <div class="format-links">
+        <a href="{{ fe_amazon.paperback_url_amazon_de }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.de</a>
+        <a href="{{ fe_amazon.paperback_url_amazon_com }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Amazon.com</a>
+      </div>
+    </div>
+
+  </div>
+  {% endif %}
+
+  {% if fe_book and fe_book.open_pdf_url %}
+  <div class="format-cards" style="margin-top: 16px;">
+    <div class="format-card">
+      <div class="format-card-header">
+        <span class="format-label">Open Archival PDF</span>
+        <span class="status-badge status-live">Available</span>
+      </div>
+      <div class="format-links">
+        <a href="{{ fe_book.open_pdf_url }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Download PDF</a>
+      </div>
     </div>
   </div>
   {% endif %}
