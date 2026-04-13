@@ -73,43 +73,39 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // Auto-generate TOC from H2 elements
-      var toc = document.getElementById('toc');
-      if (!toc) return;
-      // Find headings in ALL content areas (prose, content-card, main-content)
-      var headings = document.querySelectorAll('.prose h2, .content-card h2, .main-content h2');
-      var tocLinks = [];
+      // Assign ids to H2 elements (matching Liquid slugify for TOC anchor targets)
+      var headings = document.querySelectorAll('.main-content h2');
       headings.forEach(function(h) {
-        if (!h.id) h.id = h.textContent.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-        var a = document.createElement('a');
-        a.href = '#' + h.id;
-        a.className = 'toc-link';
-        a.textContent = h.textContent;
-        toc.appendChild(a);
-        tocLinks.push({ el: h, link: a });
+        if (!h.id) h.id = h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
       });
 
-      // Hide TOC container if no headings found
-      if (tocLinks.length === 0) {
-        var tocTitle = toc.previousElementSibling;
-        if (tocTitle && tocTitle.classList.contains('toc-title')) tocTitle.style.display = 'none';
-        toc.style.display = 'none';
-        return;
+      // IntersectionObserver for active TOC link highlighting (TOC is pre-rendered by Liquid)
+      var toc = document.getElementById('toc');
+      if (!toc) return;
+      var tocLinks = [];
+      var tocAnchors = toc.querySelectorAll('.toc-link');
+      tocAnchors.forEach(function(a) {
+        var targetId = a.getAttribute('href').replace('#', '');
+        var el = document.getElementById(targetId);
+        if (el) tocLinks.push({ el: el, link: a });
+      });
+
+      if (tocLinks.length > 0) {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              tocLinks.forEach(function(t) { t.link.classList.remove('active'); });
+              var match = tocLinks.find(function(t) { return t.el === entry.target; });
+              if (match) match.link.classList.add('active');
+            }
+          });
+        }, { rootMargin: '-80px 0px -70% 0px', threshold: 0 });
+
+        tocLinks.forEach(function(t) { observer.observe(t.el); });
       }
-      var observer = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-          if (entry.isIntersecting) {
-            tocLinks.forEach(function(t) { t.link.classList.remove('active'); });
-            var match = tocLinks.find(function(t) { return t.el === entry.target; });
-            if (match) match.link.classList.add('active');
-          }
-        });
-      }, { rootMargin: '-80px 0px -70% 0px', threshold: 0 });
 
-      tocLinks.forEach(function(t) { observer.observe(t.el); });
-
-      // Mobile TOC: clone above main content on small screens
-      if (!window.matchMedia('(min-width: 1081px)').matches && tocLinks.length > 0) {
+      // Mobile TOC: clone pre-rendered TOC above main content on small screens
+      if (!window.matchMedia('(min-width: 1081px)').matches && tocAnchors.length > 0) {
         var details = document.createElement('details');
         details.className = 'mobile-toc';
         var summary = document.createElement('summary');
@@ -119,8 +115,8 @@
 
         var body = document.createElement('div');
         body.className = 'mobile-toc-body';
-        tocLinks.forEach(function(t) {
-          var clone = t.link.cloneNode(true);
+        tocAnchors.forEach(function(a) {
+          var clone = a.cloneNode(true);
           clone.className = 'mobile-toc-link';
           clone.addEventListener('click', function() { details.open = false; });
           body.appendChild(clone);
