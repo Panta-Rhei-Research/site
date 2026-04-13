@@ -201,6 +201,55 @@
   }
 }
 
+// TauLib doc-gen4 content
+.taulib-doc-content {
+  .decl { margin-bottom: 16px; }
+  .def, .theorem, .structure { margin-bottom: 20px; }
+
+  .doc-string {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: $text;
+    margin: 8px 0;
+  }
+
+  pre, code {
+    font-family: $font-mono;
+    font-size: 0.82rem;
+  }
+
+  pre {
+    background: rgba(0, 0, 0, 0.03);
+    padding: 12px 14px;
+    border-radius: $radius-sm;
+    overflow-x: auto;
+  }
+
+  .decl_header {
+    font-family: $font-mono;
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: $accent;
+    padding: 8px 12px;
+    background: rgba(41, 75, 102, 0.06);
+    border-radius: $radius-sm;
+    margin-bottom: 8px;
+    overflow-x: auto;
+  }
+
+  .attributes { color: $text-muted; font-size: 0.78rem; }
+
+  h1 { font-size: 1.3rem; margin-top: 1.5em; }
+  h2 { font-size: 1.1rem; margin-top: 1.2em; }
+  h3 { font-size: 0.95rem; margin-top: 1em; }
+}
+
+.taulib-module-title {
+  font-family: $font-mono;
+  font-size: 1.1rem;
+  word-break: break-all;
+}
+
 // Prose content
 .prose {
   h2:first-child { margin-top: 0; }

@@ -70,6 +70,7 @@ Each TauLib module corresponds to a specific chapter or section in the monograph
 ## Entry Points
 
 ### Documentation
+- [API Documentation]({{ '/verify/taulib/docs/' | relative_url }}) — 445 module pages generated from Lean 4 source
 - [Architecture]({{ '/verify/taulib/architecture/' | relative_url }}) — Module dependency graph and reading paths
 - [Formalization Status]({{ '/verify/taulib/status/' | relative_url }}) — Per-book statistics, axiom inventory, sorry inventory
 - [Scope Labels]({{ '/verify/taulib/scope-labels/' | relative_url }}) — The 4-tier scope classification system

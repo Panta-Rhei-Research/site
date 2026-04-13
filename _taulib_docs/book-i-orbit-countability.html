@@ -1,0 +1,72 @@
+---
+layout: taulib-doc
+title: "TauLib.BookI.Orbit.Countability"
+permalink: /verify/taulib/docs/book-i-orbit-countability/
+lane: verify
+module_name: "TauLib.BookI.Orbit.Countability"
+book: "I"
+book_label: "Foundations"
+right_rail:
+  related:
+  - title: TauLib Overview
+    url: /verify/taulib/
+  - title: Architecture
+    url: /verify/taulib/architecture/
+  artifacts:
+  - title: Source on GitHub
+    url: https://github.com/Panta-Rhei-Framework/taulib
+    external: true
+  meta:
+    type: "API Documentation"
+    book: "Book I"
+    status: "Frozen"
+    updated: "April 2026"
+---
+
+
+<div class="mod_doc"><h1 class="markdown-heading" id="TauLib-Orbit-Countability">TauLib.Orbit.Countability <a class="hover-link" href="#TauLib-Orbit-Countability">#</a></h1><p>Each orbit ray is countable (bijection with Nat), and Obj(τ) is countable.</p><h2 class="markdown-heading" id="Registry-Cross-References">Registry Cross-References <a class="hover-link" href="#Registry-Cross-References">#</a></h2><ul>
+<li>[I.P04] Orbit Countability — <code>orbit_countable</code>, <code><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.tauObj_countable">tauObj_countable</a></code></li>
+</ul><h2 class="markdown-heading" id="Mathematical-Content">Mathematical Content <a class="hover-link" href="#Mathematical-Content">#</a></h2><p>Each orbit ray O_g is in bijection with Nat via the map n ↦ ⟨g, n⟩.
+The full universe Obj(τ) is countable: we construct an injection TauObj → Nat.</p></div><div class="decl" id="Tau.Orbit.orbitEnumerate"><div class="def"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Orbit/Countability.lean#L26-L28">source</a></div><div class="decl_header"><span class="decl_kind">def</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbitEnumerate"><span class="name">Tau</span>.<span class="name">Orbit</span>.<span class="name">orbitEnumerate</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">g</span> : <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator">Kernel.Generator</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">_hg</span> : <span class="fn">g</span> <a href="../../.././Init/Core.html#Ne">≠</a> <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator.omega">Kernel.Generator.omega</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">n</span> : <a href="../../.././Init/Prelude.html#Nat">Nat</a>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj">Kernel.TauObj</a></div></div><p>Canonical enumeration of orbit ray O_g: n ↦ ⟨g, n⟩.</p><details><summary>Equations</summary><ul class="equations"><li class="equation"><span class="fn"><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbitEnumerate">Tau.Orbit.orbitEnumerate</a> <span class="fn">g</span> <span class="fn">_hg</span> <span class="fn">n</span></span> <a href="../../.././Init/Prelude.html#Eq">=</a> <a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj.mk">{</a> <span class="fn">seed</span> := <span class="fn">g</span>, <span class="fn">depth</span> := <span class="fn">n</span> <a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj.mk">}</a></li></ul></details><details id="instances-for-list-Tau.Orbit.orbitEnumerate" class="instances-for-list"><summary>Instances For</summary><ul class="instances-for-enum"></ul></details></div></div><div class="decl" id="Tau.Orbit.orbit_enumerate_injective"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Orbit/Countability.lean#L30-L35">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbit_enumerate_injective"><span class="name">Tau</span>.<span class="name">Orbit</span>.<span class="name">orbit_enumerate_injective</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">g</span> : <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator">Kernel.Generator</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">hg</span> : <span class="fn">g</span> <a href="../../.././Init/Core.html#Ne">≠</a> <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator.omega">Kernel.Generator.omega</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">n </span><span class="fn">m</span> : <a href="../../.././Init/Prelude.html#Nat">Nat</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">h</span> : <span class="fn"><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbitEnumerate">orbitEnumerate</a> <span class="fn">g</span> <span class="fn">hg</span> <span class="fn">n</span></span> <a href="../../.././Init/Prelude.html#Eq">=</a> <span class="fn"><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbitEnumerate">orbitEnumerate</a> <span class="fn">g</span> <span class="fn">hg</span> <span class="fn">m</span></span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn">n</span> <a href="../../.././Init/Prelude.html#Eq">=</a> <span class="fn">m</span></div></div><p>[I.P04 part 1] Orbit enumeration is injective.</p></div></div><div class="decl" id="Tau.Orbit.orbit_enumerate_surjective"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Orbit/Countability.lean#L37-L43">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbit_enumerate_surjective"><span class="name">Tau</span>.<span class="name">Orbit</span>.<span class="name">orbit_enumerate_surjective</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">g</span> : <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator">Kernel.Generator</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">hg</span> : <span class="fn">g</span> <a href="../../.././Init/Core.html#Ne">≠</a> <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator.omega">Kernel.Generator.omega</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">x</span> : <a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj">Kernel.TauObj</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">hx</span> : <span class="fn"><a href="../../.././TauLib/BookI/Orbit/Generation.html#Tau.Orbit.OrbitRay">OrbitRay</a> <span class="fn">g</span> <span class="fn">x</span></span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><a href="../../.././Init/Core.html#Exists">∃</a> <a href="../../.././Init/Core.html#Exists">(</a><span class="fn">n</span> <a href="../../.././Init/Core.html#Exists">:</a> <a href="../../.././Init/Prelude.html#Nat">Nat</a><a href="../../.././Init/Core.html#Exists">)</a><a href="../../.././Init/Core.html#Exists">,</a> <span class="fn"><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbitEnumerate">orbitEnumerate</a> <span class="fn">g</span> <span class="fn">hg</span> <span class="fn">n</span></span> <a href="../../.././Init/Prelude.html#Eq">=</a> <span class="fn">x</span></div></div><p>[I.P04 part 2] Orbit enumeration hits every orbit ray element.</p></div></div><div class="decl" id="Tau.Orbit.orbit_enumerate_in_ray"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Orbit/Countability.lean#L45-L48">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbit_enumerate_in_ray"><span class="name">Tau</span>.<span class="name">Orbit</span>.<span class="name">orbit_enumerate_in_ray</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">g</span> : <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator">Kernel.Generator</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">hg</span> : <span class="fn">g</span> <a href="../../.././Init/Core.html#Ne">≠</a> <a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator.omega">Kernel.Generator.omega</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">n</span> : <a href="../../.././Init/Prelude.html#Nat">Nat</a>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn"><a href="../../.././TauLib/BookI/Orbit/Generation.html#Tau.Orbit.OrbitRay">OrbitRay</a> <span class="fn">g</span> <span class="fn">(<a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.orbitEnumerate">orbitEnumerate</a> <span class="fn">g</span> <span class="fn">hg</span> <span class="fn">n</span>)</span></span></div></div><p>Orbit enumeration produces elements in the orbit ray.</p></div></div><div class="decl" id="Tau.Orbit.tauObj_encode"><div class="def"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Orbit/Countability.lean#L54-L57">source</a></div><div class="decl_header"><span class="decl_kind">def</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.tauObj_encode"><span class="name">Tau</span>.<span class="name">Orbit</span>.<span class="name">tauObj_encode</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">x</span> : <a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj">Kernel.TauObj</a>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><a href="../../.././Init/Prelude.html#Nat">Nat</a></div></div><p>Encode a TauObj as a natural number: 5 * depth + seed_index.
+This gives a computable injection TauObj → Nat.</p><details><summary>Equations</summary><ul class="equations"><li class="equation"><span class="fn"><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.tauObj_encode">Tau.Orbit.tauObj_encode</a> <span class="fn">x</span></span> <a href="../../.././Init/Prelude.html#Eq">=</a> <span class="fn">5</span> <a href="../../.././Init/Prelude.html#HMul.hMul">*</a> <span class="fn"><span class="fn">x</span>.<a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj.depth">depth</a></span> <a href="../../.././Init/Prelude.html#HAdd.hAdd">+</a> <span class="fn"><span class="fn"><span class="fn">x</span>.<a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj.seed">seed</a></span>.<a href="../../.././TauLib/BookI/Kernel/Signature.html#Tau.Kernel.Generator.toNat">toNat</a></span></li></ul></details><details id="instances-for-list-Tau.Orbit.tauObj_encode" class="instances-for-list"><summary>Instances For</summary><ul class="instances-for-enum"></ul></details></div></div><div class="decl" id="Tau.Orbit.tauObj_encode_injective"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Orbit/Countability.lean#L59-L70">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.tauObj_encode_injective"><span class="name">Tau</span>.<span class="name">Orbit</span>.<span class="name">tauObj_encode_injective</span></a></span><span class="decl_args">
+<span class="fn">(<span class="fn">x </span><span class="fn">y</span> : <a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj">Kernel.TauObj</a>)</span></span>
+<span class="decl_args">
+<span class="fn">(<span class="fn">h</span> : <span class="fn"><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.tauObj_encode">tauObj_encode</a> <span class="fn">x</span></span> <a href="../../.././Init/Prelude.html#Eq">=</a> <span class="fn"><a href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.tauObj_encode">tauObj_encode</a> <span class="fn">y</span></span>)</span></span>
+<span class="decl_args"> :</span><div class="decl_type"><span class="fn">x</span> <a href="../../.././Init/Prelude.html#Eq">=</a> <span class="fn">y</span></div></div><p>The encoding is injective: distinct TauObjs yield distinct codes.</p></div></div><div class="decl" id="Tau.Orbit.tauObj_countable"><div class="theorem"><div class="gh_link"><a href="https://github.com/ThorFuchs/PantaRhei-2ndEd/blob/87ff63f4499acab4176a3022155d2ef1751f3e06/lean4/TauLib/TauLib/BookI/Orbit/Countability.lean#L72-L74">source</a></div><div class="decl_header"><span class="decl_kind">theorem</span>
+<span class="decl_name"><a class="break_within" href="../../.././TauLib/BookI/Orbit/Countability.html#Tau.Orbit.tauObj_countable"><span class="name">Tau</span>.<span class="name">Orbit</span>.<span class="name">tauObj_countable</span></a></span><span class="decl_args"> :</span><div class="decl_type"><a href="../../.././Init/Core.html#Exists">∃</a> <a href="../../.././Init/Core.html#Exists">(</a><span class="fn">f</span> <a href="../../.././Init/Core.html#Exists">:</a> <span class="fn"><a href="../../.././TauLib/BookI/Kernel/Axioms.html#Tau.Kernel.TauObj">Kernel.TauObj</a> → <a href="../../.././Init/Prelude.html#Nat">Nat</a></span><a href="../../.././Init/Core.html#Exists">)</a><a href="../../.././Init/Core.html#Exists">,</a> <span class="fn"><a href="../../.././Init/Data/Function.html#Function.Injective">Function.Injective</a> <span class="fn">f</span></span></div></div><p>[I.P04] Obj(τ) is countable: there exists an injection TauObj → Nat.</p></div></div>

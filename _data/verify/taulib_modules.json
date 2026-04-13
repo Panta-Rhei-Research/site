@@ -1,0 +1,3562 @@
+[
+  {
+    "module": "TauLib.BookI",
+    "slug": "book-i",
+    "book": "",
+    "book_label": "",
+    "url": "/verify/taulib/docs/book-i/",
+    "title": "TauLib.BookI"
+  },
+  {
+    "module": "TauLib.BookII",
+    "slug": "book-ii",
+    "book": "",
+    "book_label": "",
+    "url": "/verify/taulib/docs/book-ii/",
+    "title": "TauLib.BookII"
+  },
+  {
+    "module": "TauLib.BookIII",
+    "slug": "book-iii",
+    "book": "",
+    "book_label": "",
+    "url": "/verify/taulib/docs/book-iii/",
+    "title": "TauLib.BookIII"
+  },
+  {
+    "module": "TauLib.BookIV",
+    "slug": "book-iv",
+    "book": "",
+    "book_label": "",
+    "url": "/verify/taulib/docs/book-iv/",
+    "title": "TauLib.BookIV"
+  },
+  {
+    "module": "TauLib.BookV",
+    "slug": "book-v",
+    "book": "",
+    "book_label": "",
+    "url": "/verify/taulib/docs/book-v/",
+    "title": "TauLib.BookV"
+  },
+  {
+    "module": "TauLib.BookVI",
+    "slug": "book-vi",
+    "book": "",
+    "book_label": "",
+    "url": "/verify/taulib/docs/book-vi/",
+    "title": "TauLib.BookVI"
+  },
+  {
+    "module": "TauLib.BookVII",
+    "slug": "book-vii",
+    "book": "",
+    "book_label": "",
+    "url": "/verify/taulib/docs/book-vii/",
+    "title": "TauLib.BookVII"
+  },
+  {
+    "module": "TauLib.BookIII.Sectors.BoundaryCharacters",
+    "slug": "book-iii-sectors-boundary-characters",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/",
+    "title": "TauLib.BookIII.Sectors.BoundaryCharacters"
+  },
+  {
+    "module": "TauLib.BookIII.Sectors.Decomposition",
+    "slug": "book-iii-sectors-decomposition",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-sectors-decomposition/",
+    "title": "TauLib.BookIII.Sectors.Decomposition"
+  },
+  {
+    "module": "TauLib.BookIII.Sectors.LanglandsReflection",
+    "slug": "book-iii-sectors-langlands-reflection",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-sectors-langlands-reflection/",
+    "title": "TauLib.BookIII.Sectors.LanglandsReflection"
+  },
+  {
+    "module": "TauLib.BookIII.Sectors.ParityBridge",
+    "slug": "book-iii-sectors-parity-bridge",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-sectors-parity-bridge/",
+    "title": "TauLib.BookIII.Sectors.ParityBridge"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.BridgeAxiom",
+    "slug": "book-iii-bridge-bridge-axiom",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/",
+    "title": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.ConjectureGaps",
+    "slug": "book-iii-bridge-conjecture-gaps",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/",
+    "title": "TauLib.BookIII.Bridge.ConjectureGaps"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.ForbiddenMoves",
+    "slug": "book-iii-bridge-forbidden-moves",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-forbidden-moves/",
+    "title": "TauLib.BookIII.Bridge.ForbiddenMoves"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.Incompleteness",
+    "slug": "book-iii-bridge-incompleteness",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-incompleteness/",
+    "title": "TauLib.BookIII.Bridge.Incompleteness"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.TranslationArith",
+    "slug": "book-iii-bridge-translation-arith",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-translation-arith/",
+    "title": "TauLib.BookIII.Bridge.TranslationArith"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.TranslationObstruction",
+    "slug": "book-iii-bridge-translation-obstruction",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-translation-obstruction/",
+    "title": "TauLib.BookIII.Bridge.TranslationObstruction"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.TranslationTopo",
+    "slug": "book-iii-bridge-translation-topo",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-translation-topo/",
+    "title": "TauLib.BookIII.Bridge.TranslationTopo"
+  },
+  {
+    "module": "TauLib.BookIII.Bridge.ZFCasVM",
+    "slug": "book-iii-bridge-zf-cas-vm",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-bridge-zf-cas-vm/",
+    "title": "TauLib.BookIII.Bridge.ZFCasVM"
+  },
+  {
+    "module": "TauLib.BookIII.Prologue.HartogsBulk",
+    "slug": "book-iii-prologue-hartogs-bulk",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-prologue-hartogs-bulk/",
+    "title": "TauLib.BookIII.Prologue.HartogsBulk"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.AdditiveConjectures",
+    "slug": "book-iii-spectral-additive-conjectures",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-additive-conjectures/",
+    "title": "TauLib.BookIII.Spectral.AdditiveConjectures"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.Adeles",
+    "slug": "book-iii-spectral-adeles",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-adeles/",
+    "title": "TauLib.BookIII.Spectral.Adeles"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.BipolarClassifier",
+    "slug": "book-iii-spectral-bipolar-classifier",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-bipolar-classifier/",
+    "title": "TauLib.BookIII.Spectral.BipolarClassifier"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.CRT",
+    "slug": "book-iii-spectral-crt",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-crt/",
+    "title": "TauLib.BookIII.Spectral.CRT"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.ConfinementBridge",
+    "slug": "book-iii-spectral-confinement-bridge",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/",
+    "title": "TauLib.BookIII.Spectral.ConfinementBridge"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.GoldbachDeep",
+    "slug": "book-iii-spectral-goldbach-deep",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/",
+    "title": "TauLib.BookIII.Spectral.GoldbachDeep"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.HenselLifting",
+    "slug": "book-iii-spectral-hensel-lifting",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-hensel-lifting/",
+    "title": "TauLib.BookIII.Spectral.HenselLifting"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.LocalFields",
+    "slug": "book-iii-spectral-local-fields",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-local-fields/",
+    "title": "TauLib.BookIII.Spectral.LocalFields"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.ModularForms",
+    "slug": "book-iii-spectral-modular-forms",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/",
+    "title": "TauLib.BookIII.Spectral.ModularForms"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.PrimorialLadder",
+    "slug": "book-iii-spectral-primorial-ladder",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/",
+    "title": "TauLib.BookIII.Spectral.PrimorialLadder"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.SieveInfrastructure",
+    "slug": "book-iii-spectral-sieve-infrastructure",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/",
+    "title": "TauLib.BookIII.Spectral.SieveInfrastructure"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.Trichotomy",
+    "slug": "book-iii-spectral-trichotomy",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/",
+    "title": "TauLib.BookIII.Spectral.Trichotomy"
+  },
+  {
+    "module": "TauLib.BookIII.Spectral.TwinPrimeDeep",
+    "slug": "book-iii-spectral-twin-prime-deep",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectral-twin-prime-deep/",
+    "title": "TauLib.BookIII.Spectral.TwinPrimeDeep"
+  },
+  {
+    "module": "TauLib.BookIII.Computation.Admissibility",
+    "slug": "book-iii-computation-admissibility",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-computation-admissibility/",
+    "title": "TauLib.BookIII.Computation.Admissibility"
+  },
+  {
+    "module": "TauLib.BookIII.Computation.CompBiSquare",
+    "slug": "book-iii-computation-comp-bi-square",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-computation-comp-bi-square/",
+    "title": "TauLib.BookIII.Computation.CompBiSquare"
+  },
+  {
+    "module": "TauLib.BookIII.Computation.E2Agent",
+    "slug": "book-iii-computation-e2agent",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-computation-e2agent/",
+    "title": "TauLib.BookIII.Computation.E2Agent"
+  },
+  {
+    "module": "TauLib.BookIII.Computation.E2Witness",
+    "slug": "book-iii-computation-e2witness",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-computation-e2witness/",
+    "title": "TauLib.BookIII.Computation.E2Witness"
+  },
+  {
+    "module": "TauLib.BookIII.Computation.TowerMachine",
+    "slug": "book-iii-computation-tower-machine",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-computation-tower-machine/",
+    "title": "TauLib.BookIII.Computation.TowerMachine"
+  },
+  {
+    "module": "TauLib.BookIII.Computation.WitnessSearch",
+    "slug": "book-iii-computation-witness-search",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-computation-witness-search/",
+    "title": "TauLib.BookIII.Computation.WitnessSearch"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.BridgeTightening",
+    "slug": "book-iii-doors-bridge-tightening",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-bridge-tightening/",
+    "title": "TauLib.BookIII.Doors.BridgeTightening"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.CriticalLine",
+    "slug": "book-iii-doors-critical-line",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-critical-line/",
+    "title": "TauLib.BookIII.Doors.CriticalLine"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.GrandGRH",
+    "slug": "book-iii-doors-grand-grh",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-grand-grh/",
+    "title": "TauLib.BookIII.Doors.GrandGRH"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.LemniscateOperator",
+    "slug": "book-iii-doors-lemniscate-operator",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-lemniscate-operator/",
+    "title": "TauLib.BookIII.Doors.LemniscateOperator"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.MasterSchema",
+    "slug": "book-iii-doors-master-schema",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-master-schema/",
+    "title": "TauLib.BookIII.Doors.MasterSchema"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.MutualDetermination",
+    "slug": "book-iii-doors-mutual-determination",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/",
+    "title": "TauLib.BookIII.Doors.MutualDetermination"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.Poincare",
+    "slug": "book-iii-doors-poincare",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-poincare/",
+    "title": "TauLib.BookIII.Doors.Poincare"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.SpectralCorrespondence",
+    "slug": "book-iii-doors-spectral-correspondence",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/",
+    "title": "TauLib.BookIII.Doors.SpectralCorrespondence"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.SpectralDecomp",
+    "slug": "book-iii-doors-spectral-decomp",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/",
+    "title": "TauLib.BookIII.Doors.SpectralDecomp"
+  },
+  {
+    "module": "TauLib.BookIII.Doors.SplitComplexZeta",
+    "slug": "book-iii-doors-split-complex-zeta",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-doors-split-complex-zeta/",
+    "title": "TauLib.BookIII.Doors.SplitComplexZeta"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.ABCConjecture",
+    "slug": "book-iii-arithmetic-abc-conjecture",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-abc-conjecture/",
+    "title": "TauLib.BookIII.Arithmetic.ABCConjecture"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.ABCDeep",
+    "slug": "book-iii-arithmetic-abc-deep",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-abc-deep/",
+    "title": "TauLib.BookIII.Arithmetic.ABCDeep"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.BSD",
+    "slug": "book-iii-arithmetic-bsd",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-bsd/",
+    "title": "TauLib.BookIII.Arithmetic.BSD"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.EnrFunctor01",
+    "slug": "book-iii-arithmetic-enr-functor01",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/",
+    "title": "TauLib.BookIII.Arithmetic.EnrFunctor01"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
+    "slug": "book-iii-arithmetic-enriched-bi-square",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
+    "title": "TauLib.BookIII.Arithmetic.EnrichedBiSquare"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.Langlands",
+    "slug": "book-iii-arithmetic-langlands",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/",
+    "title": "TauLib.BookIII.Arithmetic.Langlands"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.ProtoCodes",
+    "slug": "book-iii-arithmetic-proto-codes",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/",
+    "title": "TauLib.BookIII.Arithmetic.ProtoCodes"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.RationalPoints",
+    "slug": "book-iii-arithmetic-rational-points",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-rational-points/",
+    "title": "TauLib.BookIII.Arithmetic.RationalPoints"
+  },
+  {
+    "module": "TauLib.BookIII.Arithmetic.TowerAssembly",
+    "slug": "book-iii-arithmetic-tower-assembly",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/",
+    "title": "TauLib.BookIII.Arithmetic.TowerAssembly"
+  },
+  {
+    "module": "TauLib.BookIII.Hinge.DependencyChain",
+    "slug": "book-iii-hinge-dependency-chain",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-hinge-dependency-chain/",
+    "title": "TauLib.BookIII.Hinge.DependencyChain"
+  },
+  {
+    "module": "TauLib.BookIII.Hinge.HingeTheorem",
+    "slug": "book-iii-hinge-hinge-theorem",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/",
+    "title": "TauLib.BookIII.Hinge.HingeTheorem"
+  },
+  {
+    "module": "TauLib.BookIII.Enrichment.CanonicalLadder",
+    "slug": "book-iii-enrichment-canonical-ladder",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-enrichment-canonical-ladder/",
+    "title": "TauLib.BookIII.Enrichment.CanonicalLadder"
+  },
+  {
+    "module": "TauLib.BookIII.Enrichment.Functor",
+    "slug": "book-iii-enrichment-functor",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-enrichment-functor/",
+    "title": "TauLib.BookIII.Enrichment.Functor"
+  },
+  {
+    "module": "TauLib.BookIII.Enrichment.LayerTemplate",
+    "slug": "book-iii-enrichment-layer-template",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-enrichment-layer-template/",
+    "title": "TauLib.BookIII.Enrichment.LayerTemplate"
+  },
+  {
+    "module": "TauLib.BookIII.Physics.FluidData",
+    "slug": "book-iii-physics-fluid-data",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-physics-fluid-data/",
+    "title": "TauLib.BookIII.Physics.FluidData"
+  },
+  {
+    "module": "TauLib.BookIII.Physics.GapTheorem",
+    "slug": "book-iii-physics-gap-theorem",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-physics-gap-theorem/",
+    "title": "TauLib.BookIII.Physics.GapTheorem"
+  },
+  {
+    "module": "TauLib.BookIII.Physics.HartogsFlow",
+    "slug": "book-iii-physics-hartogs-flow",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-physics-hartogs-flow/",
+    "title": "TauLib.BookIII.Physics.HartogsFlow"
+  },
+  {
+    "module": "TauLib.BookIII.Physics.Hodge",
+    "slug": "book-iii-physics-hodge",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-physics-hodge/",
+    "title": "TauLib.BookIII.Physics.Hodge"
+  },
+  {
+    "module": "TauLib.BookIII.Physics.PhysicsAssembly",
+    "slug": "book-iii-physics-physics-assembly",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-physics-physics-assembly/",
+    "title": "TauLib.BookIII.Physics.PhysicsAssembly"
+  },
+  {
+    "module": "TauLib.BookIII.Physics.PositiveRegularity",
+    "slug": "book-iii-physics-positive-regularity",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-physics-positive-regularity/",
+    "title": "TauLib.BookIII.Physics.PositiveRegularity"
+  },
+  {
+    "module": "TauLib.BookIII.Physics.StrongSector",
+    "slug": "book-iii-physics-strong-sector",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-physics-strong-sector/",
+    "title": "TauLib.BookIII.Physics.StrongSector"
+  },
+  {
+    "module": "TauLib.BookIII.Spectrum.InterfaceWidth",
+    "slug": "book-iii-spectrum-interface-width",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/",
+    "title": "TauLib.BookIII.Spectrum.InterfaceWidth"
+  },
+  {
+    "module": "TauLib.BookIII.Spectrum.KernelHinge",
+    "slug": "book-iii-spectrum-kernel-hinge",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/",
+    "title": "TauLib.BookIII.Spectrum.KernelHinge"
+  },
+  {
+    "module": "TauLib.BookIII.Spectrum.TTM",
+    "slug": "book-iii-spectrum-ttm",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectrum-ttm/",
+    "title": "TauLib.BookIII.Spectrum.TTM"
+  },
+  {
+    "module": "TauLib.BookIII.Spectrum.ThreeSAT",
+    "slug": "book-iii-spectrum-three-sat",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-spectrum-three-sat/",
+    "title": "TauLib.BookIII.Spectrum.ThreeSAT"
+  },
+  {
+    "module": "TauLib.BookIII.Mirror.E3Witness",
+    "slug": "book-iii-mirror-e3witness",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-mirror-e3witness/",
+    "title": "TauLib.BookIII.Mirror.E3Witness"
+  },
+  {
+    "module": "TauLib.BookIII.Mirror.ProofTheoryE3",
+    "slug": "book-iii-mirror-proof-theory-e3",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-mirror-proof-theory-e3/",
+    "title": "TauLib.BookIII.Mirror.ProofTheoryE3"
+  },
+  {
+    "module": "TauLib.BookIII.Mirror.Saturation",
+    "slug": "book-iii-mirror-saturation",
+    "book": "III",
+    "book_label": "Spectrum",
+    "url": "/verify/taulib/docs/book-iii-mirror-saturation/",
+    "title": "TauLib.BookIII.Mirror.Saturation"
+  },
+  {
+    "module": "TauLib.BookVI.Closure.ClosureSector",
+    "slug": "book-vi-closure-closure-sector",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-closure-closure-sector/",
+    "title": "TauLib.BookVI.Closure.ClosureSector"
+  },
+  {
+    "module": "TauLib.BookVI.Closure.Ecosystem",
+    "slug": "book-vi-closure-ecosystem",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-closure-ecosystem/",
+    "title": "TauLib.BookVI.Closure.Ecosystem"
+  },
+  {
+    "module": "TauLib.BookVI.Sectors.Absence",
+    "slug": "book-vi-sectors-absence",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-sectors-absence/",
+    "title": "TauLib.BookVI.Sectors.Absence"
+  },
+  {
+    "module": "TauLib.BookVI.Sectors.FourPlusOne",
+    "slug": "book-vi-sectors-four-plus-one",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/",
+    "title": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "module": "TauLib.BookVI.Sectors.Hallmarks",
+    "slug": "book-vi-sectors-hallmarks",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/",
+    "title": "TauLib.BookVI.Sectors.Hallmarks"
+  },
+  {
+    "module": "TauLib.BookVI.Sectors.LifeLoop",
+    "slug": "book-vi-sectors-life-loop",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-sectors-life-loop/",
+    "title": "TauLib.BookVI.Sectors.LifeLoop"
+  },
+  {
+    "module": "TauLib.BookVI.CosmicLife.BHDist",
+    "slug": "book-vi-cosmic-life-bh-dist",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-cosmic-life-bh-dist/",
+    "title": "TauLib.BookVI.CosmicLife.BHDist"
+  },
+  {
+    "module": "TauLib.BookVI.CosmicLife.BHSelfDesc",
+    "slug": "book-vi-cosmic-life-bh-self-desc",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-cosmic-life-bh-self-desc/",
+    "title": "TauLib.BookVI.CosmicLife.BHSelfDesc"
+  },
+  {
+    "module": "TauLib.BookVI.CosmicLife.CrossLimit",
+    "slug": "book-vi-cosmic-life-cross-limit",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/",
+    "title": "TauLib.BookVI.CosmicLife.CrossLimit"
+  },
+  {
+    "module": "TauLib.BookVI.CosmicLife.GalaxyBasin",
+    "slug": "book-vi-cosmic-life-galaxy-basin",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/",
+    "title": "TauLib.BookVI.CosmicLife.GalaxyBasin"
+  },
+  {
+    "module": "TauLib.BookVI.LifeCore.Distinction",
+    "slug": "book-vi-life-core-distinction",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-life-core-distinction/",
+    "title": "TauLib.BookVI.LifeCore.Distinction"
+  },
+  {
+    "module": "TauLib.BookVI.LifeCore.LayerSep",
+    "slug": "book-vi-life-core-layer-sep",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/",
+    "title": "TauLib.BookVI.LifeCore.LayerSep"
+  },
+  {
+    "module": "TauLib.BookVI.LifeCore.ParityBridge",
+    "slug": "book-vi-life-core-parity-bridge",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/",
+    "title": "TauLib.BookVI.LifeCore.ParityBridge"
+  },
+  {
+    "module": "TauLib.BookVI.LifeCore.SelfDesc",
+    "slug": "book-vi-life-core-self-desc",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-life-core-self-desc/",
+    "title": "TauLib.BookVI.LifeCore.SelfDesc"
+  },
+  {
+    "module": "TauLib.BookVI.Source.Epigenetics",
+    "slug": "book-vi-source-epigenetics",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-source-epigenetics/",
+    "title": "TauLib.BookVI.Source.Epigenetics"
+  },
+  {
+    "module": "TauLib.BookVI.Source.GeneticCode",
+    "slug": "book-vi-source-genetic-code",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-source-genetic-code/",
+    "title": "TauLib.BookVI.Source.GeneticCode"
+  },
+  {
+    "module": "TauLib.BookVI.Source.SourceSector",
+    "slug": "book-vi-source-source-sector",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-source-source-sector/",
+    "title": "TauLib.BookVI.Source.SourceSector"
+  },
+  {
+    "module": "TauLib.BookVI.Agency.AgencySector",
+    "slug": "book-vi-agency-agency-sector",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-agency-agency-sector/",
+    "title": "TauLib.BookVI.Agency.AgencySector"
+  },
+  {
+    "module": "TauLib.BookVI.Agency.MetabolicEnergy",
+    "slug": "book-vi-agency-metabolic-energy",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/",
+    "title": "TauLib.BookVI.Agency.MetabolicEnergy"
+  },
+  {
+    "module": "TauLib.BookVI.Persistence.PersistenceSector",
+    "slug": "book-vi-persistence-persistence-sector",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/",
+    "title": "TauLib.BookVI.Persistence.PersistenceSector"
+  },
+  {
+    "module": "TauLib.BookVI.Persistence.TemporalLemniscate",
+    "slug": "book-vi-persistence-temporal-lemniscate",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/",
+    "title": "TauLib.BookVI.Persistence.TemporalLemniscate"
+  },
+  {
+    "module": "TauLib.BookVI.Mind.Bridge",
+    "slug": "book-vi-mind-bridge",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-mind-bridge/",
+    "title": "TauLib.BookVI.Mind.Bridge"
+  },
+  {
+    "module": "TauLib.BookVI.Mind.Consciousness",
+    "slug": "book-vi-mind-consciousness",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-mind-consciousness/",
+    "title": "TauLib.BookVI.Mind.Consciousness"
+  },
+  {
+    "module": "TauLib.BookVI.Consumer.ConsumerMixer",
+    "slug": "book-vi-consumer-consumer-mixer",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/",
+    "title": "TauLib.BookVI.Consumer.ConsumerMixer"
+  },
+  {
+    "module": "TauLib.BookVI.Consumer.Evolution",
+    "slug": "book-vi-consumer-evolution",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-consumer-evolution/",
+    "title": "TauLib.BookVI.Consumer.Evolution"
+  },
+  {
+    "module": "TauLib.BookVI.Consumer.FiberRegime",
+    "slug": "book-vi-consumer-fiber-regime",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-consumer-fiber-regime/",
+    "title": "TauLib.BookVI.Consumer.FiberRegime"
+  },
+  {
+    "module": "TauLib.BookVI.Consumer.Identity",
+    "slug": "book-vi-consumer-identity",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-consumer-identity/",
+    "title": "TauLib.BookVI.Consumer.Identity"
+  },
+  {
+    "module": "TauLib.BookVI.Consumer.Immune",
+    "slug": "book-vi-consumer-immune",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-consumer-immune/",
+    "title": "TauLib.BookVI.Consumer.Immune"
+  },
+  {
+    "module": "TauLib.BookVI.Consumer.Neural",
+    "slug": "book-vi-consumer-neural",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-consumer-neural/",
+    "title": "TauLib.BookVI.Consumer.Neural"
+  },
+  {
+    "module": "TauLib.BookVI.Consumer.Reproduction",
+    "slug": "book-vi-consumer-reproduction",
+    "book": "VI",
+    "book_label": "Life",
+    "url": "/verify/taulib/docs/book-vi-consumer-reproduction/",
+    "title": "TauLib.BookVI.Consumer.Reproduction"
+  },
+  {
+    "module": "TauLib.BookVII.Meta.Archetypes",
+    "slug": "book-vii-meta-archetypes",
+    "book": "VII",
+    "book_label": "Metaphysics",
+    "url": "/verify/taulib/docs/book-vii-meta-archetypes/",
+    "title": "TauLib.BookVII.Meta.Archetypes"
+  },
+  {
+    "module": "TauLib.BookVII.Meta.Registers",
+    "slug": "book-vii-meta-registers",
+    "book": "VII",
+    "book_label": "Metaphysics",
+    "url": "/verify/taulib/docs/book-vii-meta-registers/",
+    "title": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "module": "TauLib.BookVII.Meta.Saturation",
+    "slug": "book-vii-meta-saturation",
+    "book": "VII",
+    "book_label": "Metaphysics",
+    "url": "/verify/taulib/docs/book-vii-meta-saturation/",
+    "title": "TauLib.BookVII.Meta.Saturation"
+  },
+  {
+    "module": "TauLib.BookVII.Logos.Sector",
+    "slug": "book-vii-logos-sector",
+    "book": "VII",
+    "book_label": "Metaphysics",
+    "url": "/verify/taulib/docs/book-vii-logos-sector/",
+    "title": "TauLib.BookVII.Logos.Sector"
+  },
+  {
+    "module": "TauLib.BookVII.Social.Ontology",
+    "slug": "book-vii-social-ontology",
+    "book": "VII",
+    "book_label": "Metaphysics",
+    "url": "/verify/taulib/docs/book-vii-social-ontology/",
+    "title": "TauLib.BookVII.Social.Ontology"
+  },
+  {
+    "module": "TauLib.BookVII.Ethics.CIProof",
+    "slug": "book-vii-ethics-ci-proof",
+    "book": "VII",
+    "book_label": "Metaphysics",
+    "url": "/verify/taulib/docs/book-vii-ethics-ci-proof/",
+    "title": "TauLib.BookVII.Ethics.CIProof"
+  },
+  {
+    "module": "TauLib.BookVII.Final.Boundary",
+    "slug": "book-vii-final-boundary",
+    "book": "VII",
+    "book_label": "Metaphysics",
+    "url": "/verify/taulib/docs/book-vii-final-boundary/",
+    "title": "TauLib.BookVII.Final.Boundary"
+  },
+  {
+    "module": "TauLib.BookII.Closure.BSDbridge",
+    "slug": "book-ii-closure-bs-dbridge",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-closure-bs-dbridge/",
+    "title": "TauLib.BookII.Closure.BSDbridge"
+  },
+  {
+    "module": "TauLib.BookII.Closure.Connection",
+    "slug": "book-ii-closure-connection",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-closure-connection/",
+    "title": "TauLib.BookII.Closure.Connection"
+  },
+  {
+    "module": "TauLib.BookII.Closure.Curvature",
+    "slug": "book-ii-closure-curvature",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-closure-curvature/",
+    "title": "TauLib.BookII.Closure.Curvature"
+  },
+  {
+    "module": "TauLib.BookII.Closure.DiffGeoAgenda",
+    "slug": "book-ii-closure-diff-geo-agenda",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/",
+    "title": "TauLib.BookII.Closure.DiffGeoAgenda"
+  },
+  {
+    "module": "TauLib.BookII.Closure.ForwardBook3",
+    "slug": "book-ii-closure-forward-book3",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-closure-forward-book3/",
+    "title": "TauLib.BookII.Closure.ForwardBook3"
+  },
+  {
+    "module": "TauLib.BookII.Closure.GeometricBiSquare",
+    "slug": "book-ii-closure-geometric-bi-square",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-closure-geometric-bi-square/",
+    "title": "TauLib.BookII.Closure.GeometricBiSquare"
+  },
+  {
+    "module": "TauLib.BookII.Closure.TauManifold",
+    "slug": "book-ii-closure-tau-manifold",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-closure-tau-manifold/",
+    "title": "TauLib.BookII.Closure.TauManifold"
+  },
+  {
+    "module": "TauLib.BookII.Topology.BoundaryMinimality",
+    "slug": "book-ii-topology-boundary-minimality",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-topology-boundary-minimality/",
+    "title": "TauLib.BookII.Topology.BoundaryMinimality"
+  },
+  {
+    "module": "TauLib.BookII.Topology.CoherenceConnectivity",
+    "slug": "book-ii-topology-coherence-connectivity",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/",
+    "title": "TauLib.BookII.Topology.CoherenceConnectivity"
+  },
+  {
+    "module": "TauLib.BookII.Topology.DimensionFour",
+    "slug": "book-ii-topology-dimension-four",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-topology-dimension-four/",
+    "title": "TauLib.BookII.Topology.DimensionFour"
+  },
+  {
+    "module": "TauLib.BookII.Topology.Invariant",
+    "slug": "book-ii-topology-invariant",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-topology-invariant/",
+    "title": "TauLib.BookII.Topology.Invariant"
+  },
+  {
+    "module": "TauLib.BookII.Topology.StoneSpace",
+    "slug": "book-ii-topology-stone-space",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-topology-stone-space/",
+    "title": "TauLib.BookII.Topology.StoneSpace"
+  },
+  {
+    "module": "TauLib.BookII.Topology.TorusDegeneration",
+    "slug": "book-ii-topology-torus-degeneration",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-topology-torus-degeneration/",
+    "title": "TauLib.BookII.Topology.TorusDegeneration"
+  },
+  {
+    "module": "TauLib.BookII.Domains.Cylinders",
+    "slug": "book-ii-domains-cylinders",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-domains-cylinders/",
+    "title": "TauLib.BookII.Domains.Cylinders"
+  },
+  {
+    "module": "TauLib.BookII.Domains.HolImpliesCont",
+    "slug": "book-ii-domains-hol-implies-cont",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-domains-hol-implies-cont/",
+    "title": "TauLib.BookII.Domains.HolImpliesCont"
+  },
+  {
+    "module": "TauLib.BookII.Domains.Ultrametric",
+    "slug": "book-ii-domains-ultrametric",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-domains-ultrametric/",
+    "title": "TauLib.BookII.Domains.Ultrametric"
+  },
+  {
+    "module": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
+    "slug": "book-ii-central-theorem-boundary-characters",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/",
+    "title": "TauLib.BookII.CentralTheorem.BoundaryCharacters"
+  },
+  {
+    "module": "TauLib.BookII.CentralTheorem.Categoricity",
+    "slug": "book-ii-central-theorem-categoricity",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-central-theorem-categoricity/",
+    "title": "TauLib.BookII.CentralTheorem.Categoricity"
+  },
+  {
+    "module": "TauLib.BookII.CentralTheorem.CentralTheorem",
+    "slug": "book-ii-central-theorem-central-theorem",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/",
+    "title": "TauLib.BookII.CentralTheorem.CentralTheorem"
+  },
+  {
+    "module": "TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms",
+    "slug": "book-ii-central-theorem-extensions-omega-germs",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-central-theorem-extensions-omega-germs/",
+    "title": "TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms"
+  },
+  {
+    "module": "TauLib.BookII.CentralTheorem.HartogsExtension",
+    "slug": "book-ii-central-theorem-hartogs-extension",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-central-theorem-hartogs-extension/",
+    "title": "TauLib.BookII.CentralTheorem.HartogsExtension"
+  },
+  {
+    "module": "TauLib.BookII.CentralTheorem.SheafCohomology",
+    "slug": "book-ii-central-theorem-sheaf-cohomology",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-central-theorem-sheaf-cohomology/",
+    "title": "TauLib.BookII.CentralTheorem.SheafCohomology"
+  },
+  {
+    "module": "TauLib.BookII.CentralTheorem.YonedaApplied",
+    "slug": "book-ii-central-theorem-yoneda-applied",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-central-theorem-yoneda-applied/",
+    "title": "TauLib.BookII.CentralTheorem.YonedaApplied"
+  },
+  {
+    "module": "TauLib.BookII.Prologue.SplitComplexInterior",
+    "slug": "book-ii-prologue-split-complex-interior",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/",
+    "title": "TauLib.BookII.Prologue.SplitComplexInterior"
+  },
+  {
+    "module": "TauLib.BookII.Regularity.CodeDecode",
+    "slug": "book-ii-regularity-code-decode",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-regularity-code-decode/",
+    "title": "TauLib.BookII.Regularity.CodeDecode"
+  },
+  {
+    "module": "TauLib.BookII.Regularity.IdempotentDecomposition",
+    "slug": "book-ii-regularity-idempotent-decomposition",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/",
+    "title": "TauLib.BookII.Regularity.IdempotentDecomposition"
+  },
+  {
+    "module": "TauLib.BookII.Regularity.PositiveRegularity",
+    "slug": "book-ii-regularity-positive-regularity",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-regularity-positive-regularity/",
+    "title": "TauLib.BookII.Regularity.PositiveRegularity"
+  },
+  {
+    "module": "TauLib.BookII.Regularity.PreYoneda",
+    "slug": "book-ii-regularity-pre-yoneda",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/",
+    "title": "TauLib.BookII.Regularity.PreYoneda"
+  },
+  {
+    "module": "TauLib.BookII.Regularity.ThreeLemmaChain",
+    "slug": "book-ii-regularity-three-lemma-chain",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/",
+    "title": "TauLib.BookII.Regularity.ThreeLemmaChain"
+  },
+  {
+    "module": "TauLib.BookII.Enrichment.EnrichmentLadder",
+    "slug": "book-ii-enrichment-enrichment-ladder",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/",
+    "title": "TauLib.BookII.Enrichment.EnrichmentLadder"
+  },
+  {
+    "module": "TauLib.BookII.Enrichment.Homological",
+    "slug": "book-ii-enrichment-homological",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-enrichment-homological/",
+    "title": "TauLib.BookII.Enrichment.Homological"
+  },
+  {
+    "module": "TauLib.BookII.Enrichment.SelfDescribing",
+    "slug": "book-ii-enrichment-self-describing",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-enrichment-self-describing/",
+    "title": "TauLib.BookII.Enrichment.SelfDescribing"
+  },
+  {
+    "module": "TauLib.BookII.Enrichment.SelfEnrichment",
+    "slug": "book-ii-enrichment-self-enrichment",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/",
+    "title": "TauLib.BookII.Enrichment.SelfEnrichment"
+  },
+  {
+    "module": "TauLib.BookII.Enrichment.TwoCategories",
+    "slug": "book-ii-enrichment-two-categories",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-enrichment-two-categories/",
+    "title": "TauLib.BookII.Enrichment.TwoCategories"
+  },
+  {
+    "module": "TauLib.BookII.Enrichment.YonedaTheorem",
+    "slug": "book-ii-enrichment-yoneda-theorem",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/",
+    "title": "TauLib.BookII.Enrichment.YonedaTheorem"
+  },
+  {
+    "module": "TauLib.BookII.Geometry.Betweenness",
+    "slug": "book-ii-geometry-betweenness",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-geometry-betweenness/",
+    "title": "TauLib.BookII.Geometry.Betweenness"
+  },
+  {
+    "module": "TauLib.BookII.Geometry.CausalStructure",
+    "slug": "book-ii-geometry-causal-structure",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/",
+    "title": "TauLib.BookII.Geometry.CausalStructure"
+  },
+  {
+    "module": "TauLib.BookII.Geometry.Congruence",
+    "slug": "book-ii-geometry-congruence",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-geometry-congruence/",
+    "title": "TauLib.BookII.Geometry.Congruence"
+  },
+  {
+    "module": "TauLib.BookII.Geometry.OrthodoxBridge",
+    "slug": "book-ii-geometry-orthodox-bridge",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-geometry-orthodox-bridge/",
+    "title": "TauLib.BookII.Geometry.OrthodoxBridge"
+  },
+  {
+    "module": "TauLib.BookII.Geometry.PaschParallel",
+    "slug": "book-ii-geometry-pasch-parallel",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-geometry-pasch-parallel/",
+    "title": "TauLib.BookII.Geometry.PaschParallel"
+  },
+  {
+    "module": "TauLib.BookII.Interior.ABCDRigidity",
+    "slug": "book-ii-interior-abcd-rigidity",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-interior-abcd-rigidity/",
+    "title": "TauLib.BookII.Interior.ABCDRigidity"
+  },
+  {
+    "module": "TauLib.BookII.Interior.BipolarDecomposition",
+    "slug": "book-ii-interior-bipolar-decomposition",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-interior-bipolar-decomposition/",
+    "title": "TauLib.BookII.Interior.BipolarDecomposition"
+  },
+  {
+    "module": "TauLib.BookII.Interior.OmegaReadout",
+    "slug": "book-ii-interior-omega-readout",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-interior-omega-readout/",
+    "title": "TauLib.BookII.Interior.OmegaReadout"
+  },
+  {
+    "module": "TauLib.BookII.Interior.Tau3Fibration",
+    "slug": "book-ii-interior-tau3fibration",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-interior-tau3fibration/",
+    "title": "TauLib.BookII.Interior.Tau3Fibration"
+  },
+  {
+    "module": "TauLib.BookII.Interior.TauAdmissible",
+    "slug": "book-ii-interior-tau-admissible",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/",
+    "title": "TauLib.BookII.Interior.TauAdmissible"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.BndLift",
+    "slug": "book-ii-hartogs-bnd-lift",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/",
+    "title": "TauLib.BookII.Hartogs.BndLift"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
+    "slug": "book-ii-hartogs-calibrated-split-complex",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/",
+    "title": "TauLib.BookII.Hartogs.CalibratedSplitComplex"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.CanonicalBasis",
+    "slug": "book-ii-hartogs-canonical-basis",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-canonical-basis/",
+    "title": "TauLib.BookII.Hartogs.CanonicalBasis"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.CategoryStructure",
+    "slug": "book-ii-hartogs-category-structure",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-category-structure/",
+    "title": "TauLib.BookII.Hartogs.CategoryStructure"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.EvolutionOperator",
+    "slug": "book-ii-hartogs-evolution-operator",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-evolution-operator/",
+    "title": "TauLib.BookII.Hartogs.EvolutionOperator"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.L2Space",
+    "slug": "book-ii-hartogs-l2space",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-l2space/",
+    "title": "TauLib.BookII.Hartogs.L2Space"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.LaurentResidue",
+    "slug": "book-ii-hartogs-laurent-residue",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-laurent-residue/",
+    "title": "TauLib.BookII.Hartogs.LaurentResidue"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.MutualDetermination",
+    "slug": "book-ii-hartogs-mutual-determination",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-mutual-determination/",
+    "title": "TauLib.BookII.Hartogs.MutualDetermination"
+  },
+  {
+    "module": "TauLib.BookII.Hartogs.SheafCoherence",
+    "slug": "book-ii-hartogs-sheaf-coherence",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-hartogs-sheaf-coherence/",
+    "title": "TauLib.BookII.Hartogs.SheafCoherence"
+  },
+  {
+    "module": "TauLib.BookII.Mirror.DimensionalLadder",
+    "slug": "book-ii-mirror-dimensional-ladder",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/",
+    "title": "TauLib.BookII.Mirror.DimensionalLadder"
+  },
+  {
+    "module": "TauLib.BookII.Mirror.Inventory",
+    "slug": "book-ii-mirror-inventory",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-mirror-inventory/",
+    "title": "TauLib.BookII.Mirror.Inventory"
+  },
+  {
+    "module": "TauLib.BookII.Mirror.PhysicsQuadrant",
+    "slug": "book-ii-mirror-physics-quadrant",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-mirror-physics-quadrant/",
+    "title": "TauLib.BookII.Mirror.PhysicsQuadrant"
+  },
+  {
+    "module": "TauLib.BookII.Mirror.SignClassification",
+    "slug": "book-ii-mirror-sign-classification",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-mirror-sign-classification/",
+    "title": "TauLib.BookII.Mirror.SignClassification"
+  },
+  {
+    "module": "TauLib.BookII.Mirror.WaveHolomorphy",
+    "slug": "book-ii-mirror-wave-holomorphy",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/",
+    "title": "TauLib.BookII.Mirror.WaveHolomorphy"
+  },
+  {
+    "module": "TauLib.BookII.Transcendentals.Circles",
+    "slug": "book-ii-transcendentals-circles",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-transcendentals-circles/",
+    "title": "TauLib.BookII.Transcendentals.Circles"
+  },
+  {
+    "module": "TauLib.BookII.Transcendentals.EEarned",
+    "slug": "book-ii-transcendentals-e-earned",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-transcendentals-e-earned/",
+    "title": "TauLib.BookII.Transcendentals.EEarned"
+  },
+  {
+    "module": "TauLib.BookII.Transcendentals.IotaTauConfirmed",
+    "slug": "book-ii-transcendentals-iota-tau-confirmed",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/",
+    "title": "TauLib.BookII.Transcendentals.IotaTauConfirmed"
+  },
+  {
+    "module": "TauLib.BookII.Transcendentals.JReplacesI",
+    "slug": "book-ii-transcendentals-j-replaces-i",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-transcendentals-j-replaces-i/",
+    "title": "TauLib.BookII.Transcendentals.JReplacesI"
+  },
+  {
+    "module": "TauLib.BookII.Transcendentals.Lines",
+    "slug": "book-ii-transcendentals-lines",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-transcendentals-lines/",
+    "title": "TauLib.BookII.Transcendentals.Lines"
+  },
+  {
+    "module": "TauLib.BookII.Transcendentals.PiEarned",
+    "slug": "book-ii-transcendentals-pi-earned",
+    "book": "II",
+    "book_label": "Holomorphy",
+    "url": "/verify/taulib/docs/book-ii-transcendentals-pi-earned/",
+    "title": "TauLib.BookII.Transcendentals.PiEarned"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.Closure",
+    "slug": "book-i-orbit-closure",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-closure/",
+    "title": "TauLib.BookI.Orbit.Closure"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.Countability",
+    "slug": "book-i-orbit-countability",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-countability/",
+    "title": "TauLib.BookI.Orbit.Countability"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.Generation",
+    "slug": "book-i-orbit-generation",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-generation/",
+    "title": "TauLib.BookI.Orbit.Generation"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.Ladder",
+    "slug": "book-i-orbit-ladder",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-ladder/",
+    "title": "TauLib.BookI.Orbit.Ladder"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.Rigidity",
+    "slug": "book-i-orbit-rigidity",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-rigidity/",
+    "title": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.Saturation",
+    "slug": "book-i-orbit-saturation",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-saturation/",
+    "title": "TauLib.BookI.Orbit.Saturation"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.TooFew",
+    "slug": "book-i-orbit-too-few",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-too-few/",
+    "title": "TauLib.BookI.Orbit.TooFew"
+  },
+  {
+    "module": "TauLib.BookI.Orbit.TooMany",
+    "slug": "book-i-orbit-too-many",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-orbit-too-many/",
+    "title": "TauLib.BookI.Orbit.TooMany"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.ABCD",
+    "slug": "book-i-coordinates-abcd",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-abcd/",
+    "title": "TauLib.BookI.Coordinates.ABCD"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.ChebyshevBias",
+    "slug": "book-i-coordinates-chebyshev-bias",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-chebyshev-bias/",
+    "title": "TauLib.BookI.Coordinates.ChebyshevBias"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.Descent",
+    "slug": "book-i-coordinates-descent",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-descent/",
+    "title": "TauLib.BookI.Coordinates.Descent"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.Hyperfact",
+    "slug": "book-i-coordinates-hyperfact",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/",
+    "title": "TauLib.BookI.Coordinates.Hyperfact"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.IteratedPrime",
+    "slug": "book-i-coordinates-iterated-prime",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-iterated-prime/",
+    "title": "TauLib.BookI.Coordinates.IteratedPrime"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.NoTie",
+    "slug": "book-i-coordinates-no-tie",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-no-tie/",
+    "title": "TauLib.BookI.Coordinates.NoTie"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.NormalForm",
+    "slug": "book-i-coordinates-normal-form",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-normal-form/",
+    "title": "TauLib.BookI.Coordinates.NormalForm"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.PrimeEnumeration",
+    "slug": "book-i-coordinates-prime-enumeration",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-prime-enumeration/",
+    "title": "TauLib.BookI.Coordinates.PrimeEnumeration"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.Primes",
+    "slug": "book-i-coordinates-primes",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-primes/",
+    "title": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "module": "TauLib.BookI.Coordinates.TowerAtoms",
+    "slug": "book-i-coordinates-tower-atoms",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-coordinates-tower-atoms/",
+    "title": "TauLib.BookI.Coordinates.TowerAtoms"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Characters",
+    "slug": "book-i-boundary-characters",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-characters/",
+    "title": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.ComplexField",
+    "slug": "book-i-boundary-complex-field",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-complex-field/",
+    "title": "TauLib.BookI.Boundary.ComplexField"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.ConstructiveReals",
+    "slug": "book-i-boundary-constructive-reals",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/",
+    "title": "TauLib.BookI.Boundary.ConstructiveReals"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Cyclotomic",
+    "slug": "book-i-boundary-cyclotomic",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-cyclotomic/",
+    "title": "TauLib.BookI.Boundary.Cyclotomic"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Fourier",
+    "slug": "book-i-boundary-fourier",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-fourier/",
+    "title": "TauLib.BookI.Boundary.Fourier"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Galois",
+    "slug": "book-i-boundary-galois",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-galois/",
+    "title": "TauLib.BookI.Boundary.Galois"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Integration",
+    "slug": "book-i-boundary-integration",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-integration/",
+    "title": "TauLib.BookI.Boundary.Integration"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Iota",
+    "slug": "book-i-boundary-iota",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-iota/",
+    "title": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Measure",
+    "slug": "book-i-boundary-measure",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-measure/",
+    "title": "TauLib.BookI.Boundary.Measure"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.NumberTower",
+    "slug": "book-i-boundary-number-tower",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-number-tower/",
+    "title": "TauLib.BookI.Boundary.NumberTower"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Quaternions",
+    "slug": "book-i-boundary-quaternions",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-quaternions/",
+    "title": "TauLib.BookI.Boundary.Quaternions"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Ring",
+    "slug": "book-i-boundary-ring",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-ring/",
+    "title": "TauLib.BookI.Boundary.Ring"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.Spectral",
+    "slug": "book-i-boundary-spectral",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-spectral/",
+    "title": "TauLib.BookI.Boundary.Spectral"
+  },
+  {
+    "module": "TauLib.BookI.Boundary.SplitComplex",
+    "slug": "book-i-boundary-split-complex",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-boundary-split-complex/",
+    "title": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "module": "TauLib.BookI.CF.WindowAlgebra",
+    "slug": "book-i-cf-window-algebra",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-cf-window-algebra/",
+    "title": "TauLib.BookI.CF.WindowAlgebra"
+  },
+  {
+    "module": "TauLib.BookI.Logic.BooleanRecovery",
+    "slug": "book-i-logic-boolean-recovery",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/",
+    "title": "TauLib.BookI.Logic.BooleanRecovery"
+  },
+  {
+    "module": "TauLib.BookI.Logic.Explosion",
+    "slug": "book-i-logic-explosion",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-logic-explosion/",
+    "title": "TauLib.BookI.Logic.Explosion"
+  },
+  {
+    "module": "TauLib.BookI.Logic.Truth4",
+    "slug": "book-i-logic-truth4",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-logic-truth4/",
+    "title": "TauLib.BookI.Logic.Truth4"
+  },
+  {
+    "module": "TauLib.BookI.MetaLogic.DiagonalResonance",
+    "slug": "book-i-meta-logic-diagonal-resonance",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/",
+    "title": "TauLib.BookI.MetaLogic.DiagonalResonance"
+  },
+  {
+    "module": "TauLib.BookI.MetaLogic.LinearDiscipline",
+    "slug": "book-i-meta-logic-linear-discipline",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/",
+    "title": "TauLib.BookI.MetaLogic.LinearDiscipline"
+  },
+  {
+    "module": "TauLib.BookI.MetaLogic.LinearityAudit",
+    "slug": "book-i-meta-logic-linearity-audit",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-meta-logic-linearity-audit/",
+    "title": "TauLib.BookI.MetaLogic.LinearityAudit"
+  },
+  {
+    "module": "TauLib.BookI.MetaLogic.OnticInvariance",
+    "slug": "book-i-meta-logic-ontic-invariance",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/",
+    "title": "TauLib.BookI.MetaLogic.OnticInvariance"
+  },
+  {
+    "module": "TauLib.BookI.MetaLogic.ReceptionCriterion",
+    "slug": "book-i-meta-logic-reception-criterion",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/",
+    "title": "TauLib.BookI.MetaLogic.ReceptionCriterion"
+  },
+  {
+    "module": "TauLib.BookI.MetaLogic.StructuralExclusion",
+    "slug": "book-i-meta-logic-structural-exclusion",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/",
+    "title": "TauLib.BookI.MetaLogic.StructuralExclusion"
+  },
+  {
+    "module": "TauLib.BookI.MetaLogic.Substrate",
+    "slug": "book-i-meta-logic-substrate",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-meta-logic-substrate/",
+    "title": "TauLib.BookI.MetaLogic.Substrate"
+  },
+  {
+    "module": "TauLib.BookI.Topos.CartesianProduct",
+    "slug": "book-i-topos-cartesian-product",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-topos-cartesian-product/",
+    "title": "TauLib.BookI.Topos.CartesianProduct"
+  },
+  {
+    "module": "TauLib.BookI.Topos.EarnedArrows",
+    "slug": "book-i-topos-earned-arrows",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-topos-earned-arrows/",
+    "title": "TauLib.BookI.Topos.EarnedArrows"
+  },
+  {
+    "module": "TauLib.BookI.Topos.EarnedTopos",
+    "slug": "book-i-topos-earned-topos",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-topos-earned-topos/",
+    "title": "TauLib.BookI.Topos.EarnedTopos"
+  },
+  {
+    "module": "TauLib.BookI.Topos.Functors",
+    "slug": "book-i-topos-functors",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-topos-functors/",
+    "title": "TauLib.BookI.Topos.Functors"
+  },
+  {
+    "module": "TauLib.BookI.Topos.InternalHom",
+    "slug": "book-i-topos-internal-hom",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-topos-internal-hom/",
+    "title": "TauLib.BookI.Topos.InternalHom"
+  },
+  {
+    "module": "TauLib.BookI.Topos.LimitsSites",
+    "slug": "book-i-topos-limits-sites",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-topos-limits-sites/",
+    "title": "TauLib.BookI.Topos.LimitsSites"
+  },
+  {
+    "module": "TauLib.BookI.Topos.WedgeProduct",
+    "slug": "book-i-topos-wedge-product",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-topos-wedge-product/",
+    "title": "TauLib.BookI.Topos.WedgeProduct"
+  },
+  {
+    "module": "TauLib.BookI.Sets.CantorRefutation",
+    "slug": "book-i-sets-cantor-refutation",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-cantor-refutation/",
+    "title": "TauLib.BookI.Sets.CantorRefutation"
+  },
+  {
+    "module": "TauLib.BookI.Sets.Counting",
+    "slug": "book-i-sets-counting",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-counting/",
+    "title": "TauLib.BookI.Sets.Counting"
+  },
+  {
+    "module": "TauLib.BookI.Sets.Membership",
+    "slug": "book-i-sets-membership",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-membership/",
+    "title": "TauLib.BookI.Sets.Membership"
+  },
+  {
+    "module": "TauLib.BookI.Sets.Operations",
+    "slug": "book-i-sets-operations",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-operations/",
+    "title": "TauLib.BookI.Sets.Operations"
+  },
+  {
+    "module": "TauLib.BookI.Sets.OrbitSets",
+    "slug": "book-i-sets-orbit-sets",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-orbit-sets/",
+    "title": "TauLib.BookI.Sets.OrbitSets"
+  },
+  {
+    "module": "TauLib.BookI.Sets.Powerset",
+    "slug": "book-i-sets-powerset",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-powerset/",
+    "title": "TauLib.BookI.Sets.Powerset"
+  },
+  {
+    "module": "TauLib.BookI.Sets.UniqueInfinity",
+    "slug": "book-i-sets-unique-infinity",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-unique-infinity/",
+    "title": "TauLib.BookI.Sets.UniqueInfinity"
+  },
+  {
+    "module": "TauLib.BookI.Sets.Universe",
+    "slug": "book-i-sets-universe",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-sets-universe/",
+    "title": "TauLib.BookI.Sets.Universe"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.BipolarAlgebra",
+    "slug": "book-i-polarity-bipolar-algebra",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-bipolar-algebra/",
+    "title": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.CRTBasis",
+    "slug": "book-i-polarity-crt-basis",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-crt-basis/",
+    "title": "TauLib.BookI.Polarity.CRTBasis"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.ChineseRemainder",
+    "slug": "book-i-polarity-chinese-remainder",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/",
+    "title": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.ExtGCD",
+    "slug": "book-i-polarity-ext-gcd",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/",
+    "title": "TauLib.BookI.Polarity.ExtGCD"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.Lemniscate",
+    "slug": "book-i-polarity-lemniscate",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-lemniscate/",
+    "title": "TauLib.BookI.Polarity.Lemniscate"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.ModArith",
+    "slug": "book-i-polarity-mod-arith",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-mod-arith/",
+    "title": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.NthPrime",
+    "slug": "book-i-polarity-nth-prime",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-nth-prime/",
+    "title": "TauLib.BookI.Polarity.NthPrime"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.OmegaGerms",
+    "slug": "book-i-polarity-omega-germs",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-omega-germs/",
+    "title": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.OmegaRing",
+    "slug": "book-i-polarity-omega-ring",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-omega-ring/",
+    "title": "TauLib.BookI.Polarity.OmegaRing"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.Polarity",
+    "slug": "book-i-polarity-polarity",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-polarity/",
+    "title": "TauLib.BookI.Polarity.Polarity"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.PolarizedGerms",
+    "slug": "book-i-polarity-polarized-germs",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-polarized-germs/",
+    "title": "TauLib.BookI.Polarity.PolarizedGerms"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.PrimeBridge",
+    "slug": "book-i-polarity-prime-bridge",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-prime-bridge/",
+    "title": "TauLib.BookI.Polarity.PrimeBridge"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.Spectral",
+    "slug": "book-i-polarity-spectral",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-spectral/",
+    "title": "TauLib.BookI.Polarity.Spectral"
+  },
+  {
+    "module": "TauLib.BookI.Polarity.TeichmuellerLift",
+    "slug": "book-i-polarity-teichmueller-lift",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-polarity-teichmueller-lift/",
+    "title": "TauLib.BookI.Polarity.TeichmuellerLift"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.Arithmetic",
+    "slug": "book-i-denotation-arithmetic",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-arithmetic/",
+    "title": "TauLib.BookI.Denotation.Arithmetic"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.Equality",
+    "slug": "book-i-denotation-equality",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-equality/",
+    "title": "TauLib.BookI.Denotation.Equality"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.GrowthEscape",
+    "slug": "book-i-denotation-growth-escape",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-growth-escape/",
+    "title": "TauLib.BookI.Denotation.GrowthEscape"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.Order",
+    "slug": "book-i-denotation-order",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-order/",
+    "title": "TauLib.BookI.Denotation.Order"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.ProgramMonoid",
+    "slug": "book-i-denotation-program-monoid",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-program-monoid/",
+    "title": "TauLib.BookI.Denotation.ProgramMonoid"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.RankTransfer",
+    "slug": "book-i-denotation-rank-transfer",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/",
+    "title": "TauLib.BookI.Denotation.RankTransfer"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.SolenoidPitch",
+    "slug": "book-i-denotation-solenoid-pitch",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/",
+    "title": "TauLib.BookI.Denotation.SolenoidPitch"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.Structural",
+    "slug": "book-i-denotation-structural",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-structural/",
+    "title": "TauLib.BookI.Denotation.Structural"
+  },
+  {
+    "module": "TauLib.BookI.Denotation.TauIdx",
+    "slug": "book-i-denotation-tau-idx",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-denotation-tau-idx/",
+    "title": "TauLib.BookI.Denotation.TauIdx"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.BoundaryInterior",
+    "slug": "book-i-holomorphy-boundary-interior",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/",
+    "title": "TauLib.BookI.Holomorphy.BoundaryInterior"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.DHolomorphic",
+    "slug": "book-i-holomorphy-d-holomorphic",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-d-holomorphic/",
+    "title": "TauLib.BookI.Holomorphy.DHolomorphic"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.DiagonalProtection",
+    "slug": "book-i-holomorphy-diagonal-protection",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-diagonal-protection/",
+    "title": "TauLib.BookI.Holomorphy.DiagonalProtection"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.GlobalHartogs",
+    "slug": "book-i-holomorphy-global-hartogs",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/",
+    "title": "TauLib.BookI.Holomorphy.GlobalHartogs"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.IdentityTheorem",
+    "slug": "book-i-holomorphy-identity-theorem",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/",
+    "title": "TauLib.BookI.Holomorphy.IdentityTheorem"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.PresheafEssence",
+    "slug": "book-i-holomorphy-presheaf-essence",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/",
+    "title": "TauLib.BookI.Holomorphy.PresheafEssence"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.SpectralCoefficients",
+    "slug": "book-i-holomorphy-spectral-coefficients",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/",
+    "title": "TauLib.BookI.Holomorphy.SpectralCoefficients"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.TauHolomorphic",
+    "slug": "book-i-holomorphy-tau-holomorphic",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/",
+    "title": "TauLib.BookI.Holomorphy.TauHolomorphic"
+  },
+  {
+    "module": "TauLib.BookI.Holomorphy.Thinness",
+    "slug": "book-i-holomorphy-thinness",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-holomorphy-thinness/",
+    "title": "TauLib.BookI.Holomorphy.Thinness"
+  },
+  {
+    "module": "TauLib.BookI.Kernel.ActionQuantum",
+    "slug": "book-i-kernel-action-quantum",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-kernel-action-quantum/",
+    "title": "TauLib.BookI.Kernel.ActionQuantum"
+  },
+  {
+    "module": "TauLib.BookI.Kernel.Axioms",
+    "slug": "book-i-kernel-axioms",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-kernel-axioms/",
+    "title": "TauLib.BookI.Kernel.Axioms"
+  },
+  {
+    "module": "TauLib.BookI.Kernel.Diagonal",
+    "slug": "book-i-kernel-diagonal",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-kernel-diagonal/",
+    "title": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "module": "TauLib.BookI.Kernel.Signature",
+    "slug": "book-i-kernel-signature",
+    "book": "I",
+    "book_label": "Foundations",
+    "url": "/verify/taulib/docs/book-i-kernel-signature/",
+    "title": "TauLib.BookI.Kernel.Signature"
+  },
+  {
+    "module": "TauLib.Tour.CentralTheorem",
+    "slug": "tour-central-theorem",
+    "book": "Tour",
+    "book_label": "Tours",
+    "url": "/verify/taulib/docs/tour-central-theorem/",
+    "title": "TauLib.Tour.CentralTheorem"
+  },
+  {
+    "module": "TauLib.Tour.Foundations",
+    "slug": "tour-foundations",
+    "book": "Tour",
+    "book_label": "Tours",
+    "url": "/verify/taulib/docs/tour-foundations/",
+    "title": "TauLib.Tour.Foundations"
+  },
+  {
+    "module": "TauLib.Tour.Physics",
+    "slug": "tour-physics",
+    "book": "Tour",
+    "book_label": "Tours",
+    "url": "/verify/taulib/docs/tour-physics/",
+    "title": "TauLib.Tour.Physics"
+  },
+  {
+    "module": "TauLib.BookIV.Sectors.BoundaryFiltration",
+    "slug": "book-iv-sectors-boundary-filtration",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/",
+    "title": "TauLib.BookIV.Sectors.BoundaryFiltration"
+  },
+  {
+    "module": "TauLib.BookIV.Sectors.CouplingFormulas",
+    "slug": "book-iv-sectors-coupling-formulas",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-sectors-coupling-formulas/",
+    "title": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "module": "TauLib.BookIV.Sectors.FineStructure",
+    "slug": "book-iv-sectors-fine-structure",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-sectors-fine-structure/",
+    "title": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "module": "TauLib.BookIV.Sectors.ModeCensus",
+    "slug": "book-iv-sectors-mode-census",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-sectors-mode-census/",
+    "title": "TauLib.BookIV.Sectors.ModeCensus"
+  },
+  {
+    "module": "TauLib.BookIV.Sectors.SectorParameters",
+    "slug": "book-iv-sectors-sector-parameters",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-sectors-sector-parameters/",
+    "title": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "module": "TauLib.BookIV.Sectors.SpectralPage",
+    "slug": "book-iv-sectors-spectral-page",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/",
+    "title": "TauLib.BookIV.Sectors.SpectralPage"
+  },
+  {
+    "module": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
+    "slug": "book-iv-quantum-mechanics-address-obstruction",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
+    "title": "TauLib.BookIV.QuantumMechanics.AddressObstruction"
+  },
+  {
+    "module": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
+    "slug": "book-iv-quantum-mechanics-cr-address-space",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-quantum-mechanics-cr-address-space/",
+    "title": "TauLib.BookIV.QuantumMechanics.CRAddressSpace"
+  },
+  {
+    "module": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
+    "slug": "book-iv-quantum-mechanics-energy-entropy",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/",
+    "title": "TauLib.BookIV.QuantumMechanics.EnergyEntropy"
+  },
+  {
+    "module": "TauLib.BookIV.QuantumMechanics.HilbertSpace",
+    "slug": "book-iv-quantum-mechanics-hilbert-space",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/",
+    "title": "TauLib.BookIV.QuantumMechanics.HilbertSpace"
+  },
+  {
+    "module": "TauLib.BookIV.QuantumMechanics.Measurement",
+    "slug": "book-iv-quantum-mechanics-measurement",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/",
+    "title": "TauLib.BookIV.QuantumMechanics.Measurement"
+  },
+  {
+    "module": "TauLib.BookIV.QuantumMechanics.Quantization",
+    "slug": "book-iv-quantum-mechanics-quantization",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/",
+    "title": "TauLib.BookIV.QuantumMechanics.Quantization"
+  },
+  {
+    "module": "TauLib.BookIV.QuantumMechanics.QuantumCharacters",
+    "slug": "book-iv-quantum-mechanics-quantum-characters",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/",
+    "title": "TauLib.BookIV.QuantumMechanics.QuantumCharacters"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.CalibrationAnchor",
+    "slug": "book-iv-calibration-calibration-anchor",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/",
+    "title": "TauLib.BookIV.Calibration.CalibrationAnchor"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
+    "slug": "book-iv-calibration-calibration-anchor-ext",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/",
+    "title": "TauLib.BookIV.Calibration.CalibrationAnchorExt"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.ConstantsLedger",
+    "slug": "book-iv-calibration-constants-ledger",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger/",
+    "title": "TauLib.BookIV.Calibration.ConstantsLedger"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.ConstantsLedgerExt",
+    "slug": "book-iv-calibration-constants-ledger-ext",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/",
+    "title": "TauLib.BookIV.Calibration.ConstantsLedgerExt"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.DimensionalBridge",
+    "slug": "book-iv-calibration-dimensional-bridge",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/",
+    "title": "TauLib.BookIV.Calibration.DimensionalBridge"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.DimensionalBridgeExt",
+    "slug": "book-iv-calibration-dimensional-bridge-ext",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/",
+    "title": "TauLib.BookIV.Calibration.DimensionalBridgeExt"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.DimensionlessAlpha",
+    "slug": "book-iv-calibration-dimensionless-alpha",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/",
+    "title": "TauLib.BookIV.Calibration.DimensionlessAlpha"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.DimensionlessCouplings",
+    "slug": "book-iv-calibration-dimensionless-couplings",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/",
+    "title": "TauLib.BookIV.Calibration.DimensionlessCouplings"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.DimensionlessCouplings2",
+    "slug": "book-iv-calibration-dimensionless-couplings2",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/",
+    "title": "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.DimensionlessNearMatch",
+    "slug": "book-iv-calibration-dimensionless-near-match",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/",
+    "title": "TauLib.BookIV.Calibration.DimensionlessNearMatch"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.EpsteinZeta",
+    "slug": "book-iv-calibration-epstein-zeta",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/",
+    "title": "TauLib.BookIV.Calibration.EpsteinZeta"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.MassRatioFormula",
+    "slug": "book-iv-calibration-mass-ratio-formula",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/",
+    "title": "TauLib.BookIV.Calibration.MassRatioFormula"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.RunningRegime",
+    "slug": "book-iv-calibration-running-regime",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-running-regime/",
+    "title": "TauLib.BookIV.Calibration.RunningRegime"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.SIReference",
+    "slug": "book-iv-calibration-si-reference",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-si-reference/",
+    "title": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "module": "TauLib.BookIV.Calibration.SharedOntology",
+    "slug": "book-iv-calibration-shared-ontology",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/",
+    "title": "TauLib.BookIV.Calibration.SharedOntology"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.ColorHolonomy",
+    "slug": "book-iv-strong-color-holonomy",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-color-holonomy/",
+    "title": "TauLib.BookIV.Strong.ColorHolonomy"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.Confinement",
+    "slug": "book-iv-strong-confinement",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-confinement/",
+    "title": "TauLib.BookIV.Strong.Confinement"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.GapMetaTheorem",
+    "slug": "book-iv-strong-gap-meta-theorem",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-gap-meta-theorem/",
+    "title": "TauLib.BookIV.Strong.GapMetaTheorem"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.QuarksGluons",
+    "slug": "book-iv-strong-quarks-gluons",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-quarks-gluons/",
+    "title": "TauLib.BookIV.Strong.QuarksGluons"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.StrongCoupling",
+    "slug": "book-iv-strong-strong-coupling",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-strong-coupling/",
+    "title": "TauLib.BookIV.Strong.StrongCoupling"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.StrongVacuum",
+    "slug": "book-iv-strong-strong-vacuum",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-strong-vacuum/",
+    "title": "TauLib.BookIV.Strong.StrongVacuum"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.VacuumCatastrophe",
+    "slug": "book-iv-strong-vacuum-catastrophe",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/",
+    "title": "TauLib.BookIV.Strong.VacuumCatastrophe"
+  },
+  {
+    "module": "TauLib.BookIV.Strong.YangMillsGap",
+    "slug": "book-iv-strong-yang-mills-gap",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/",
+    "title": "TauLib.BookIV.Strong.YangMillsGap"
+  },
+  {
+    "module": "TauLib.BookIV.ManyBody.CondensedMatter",
+    "slug": "book-iv-many-body-condensed-matter",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/",
+    "title": "TauLib.BookIV.ManyBody.CondensedMatter"
+  },
+  {
+    "module": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
+    "slug": "book-iv-many-body-defect-functional-ext",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/",
+    "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt"
+  },
+  {
+    "module": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
+    "slug": "book-iv-many-body-defect-functional-ext2",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/",
+    "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt2"
+  },
+  {
+    "module": "TauLib.BookIV.ManyBody.FluidRegimes",
+    "slug": "book-iv-many-body-fluid-regimes",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-many-body-fluid-regimes/",
+    "title": "TauLib.BookIV.ManyBody.FluidRegimes"
+  },
+  {
+    "module": "TauLib.BookIV.ManyBody.Magnetism",
+    "slug": "book-iv-many-body-magnetism",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-many-body-magnetism/",
+    "title": "TauLib.BookIV.ManyBody.Magnetism"
+  },
+  {
+    "module": "TauLib.BookIV.ManyBody.NFLBoundary",
+    "slug": "book-iv-many-body-nfl-boundary",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-many-body-nfl-boundary/",
+    "title": "TauLib.BookIV.ManyBody.NFLBoundary"
+  },
+  {
+    "module": "TauLib.BookIV.Particles.BetaDecay",
+    "slug": "book-iv-particles-beta-decay",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-particles-beta-decay/",
+    "title": "TauLib.BookIV.Particles.BetaDecay"
+  },
+  {
+    "module": "TauLib.BookIV.Particles.HadronsNuclei",
+    "slug": "book-iv-particles-hadrons-nuclei",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/",
+    "title": "TauLib.BookIV.Particles.HadronsNuclei"
+  },
+  {
+    "module": "TauLib.BookIV.Particles.PeriodicTable",
+    "slug": "book-iv-particles-periodic-table",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-particles-periodic-table/",
+    "title": "TauLib.BookIV.Particles.PeriodicTable"
+  },
+  {
+    "module": "TauLib.BookIV.Particles.SectorAtlas",
+    "slug": "book-iv-particles-sector-atlas",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-particles-sector-atlas/",
+    "title": "TauLib.BookIV.Particles.SectorAtlas"
+  },
+  {
+    "module": "TauLib.BookIV.Particles.SpectrumComplete",
+    "slug": "book-iv-particles-spectrum-complete",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/",
+    "title": "TauLib.BookIV.Particles.SpectrumComplete"
+  },
+  {
+    "module": "TauLib.BookIV.Particles.StrongCP",
+    "slug": "book-iv-particles-strong-cp",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-particles-strong-cp/",
+    "title": "TauLib.BookIV.Particles.StrongCP"
+  },
+  {
+    "module": "TauLib.BookIV.Particles.ThreeGenerations",
+    "slug": "book-iv-particles-three-generations",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-particles-three-generations/",
+    "title": "TauLib.BookIV.Particles.ThreeGenerations"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.AlphaDerivation",
+    "slug": "book-iv-electroweak-alpha-derivation",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/",
+    "title": "TauLib.BookIV.Electroweak.AlphaDerivation"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.EWMixing",
+    "slug": "book-iv-electroweak-ew-mixing",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-ew-mixing/",
+    "title": "TauLib.BookIV.Electroweak.EWMixing"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.EWProjection",
+    "slug": "book-iv-electroweak-ew-projection",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-ew-projection/",
+    "title": "TauLib.BookIV.Electroweak.EWProjection"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.EWSynthesis",
+    "slug": "book-iv-electroweak-ew-synthesis",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-ew-synthesis/",
+    "title": "TauLib.BookIV.Electroweak.EWSynthesis"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.GaugeInvariance",
+    "slug": "book-iv-electroweak-gauge-invariance",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/",
+    "title": "TauLib.BookIV.Electroweak.GaugeInvariance"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.GaugeInvariance2",
+    "slug": "book-iv-electroweak-gauge-invariance2",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/",
+    "title": "TauLib.BookIV.Electroweak.GaugeInvariance2"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.MajoranaStructure",
+    "slug": "book-iv-electroweak-majorana-structure",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/",
+    "title": "TauLib.BookIV.Electroweak.MajoranaStructure"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.NeutrinoMode",
+    "slug": "book-iv-electroweak-neutrino-mode",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/",
+    "title": "TauLib.BookIV.Electroweak.NeutrinoMode"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.PhotonMode",
+    "slug": "book-iv-electroweak-photon-mode",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/",
+    "title": "TauLib.BookIV.Electroweak.PhotonMode"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.TauHiggs",
+    "slug": "book-iv-electroweak-tau-higgs",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/",
+    "title": "TauLib.BookIV.Electroweak.TauHiggs"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.TauHiggs2",
+    "slug": "book-iv-electroweak-tau-higgs2",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/",
+    "title": "TauLib.BookIV.Electroweak.TauHiggs2"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.TauMaxwell",
+    "slug": "book-iv-electroweak-tau-maxwell",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-tau-maxwell/",
+    "title": "TauLib.BookIV.Electroweak.TauMaxwell"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.WeakChirality",
+    "slug": "book-iv-electroweak-weak-chirality",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality/",
+    "title": "TauLib.BookIV.Electroweak.WeakChirality"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.WeakChirality2",
+    "slug": "book-iv-electroweak-weak-chirality2",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality2/",
+    "title": "TauLib.BookIV.Electroweak.WeakChirality2"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.WeakHolonomy",
+    "slug": "book-iv-electroweak-weak-holonomy",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy/",
+    "title": "TauLib.BookIV.Electroweak.WeakHolonomy"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.WeakHolonomy2",
+    "slug": "book-iv-electroweak-weak-holonomy2",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy2/",
+    "title": "TauLib.BookIV.Electroweak.WeakHolonomy2"
+  },
+  {
+    "module": "TauLib.BookIV.Electroweak.WeinbergNLO",
+    "slug": "book-iv-electroweak-weinberg-nlo",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/",
+    "title": "TauLib.BookIV.Electroweak.WeinbergNLO"
+  },
+  {
+    "module": "TauLib.BookIV.Arena.ActorsDynamics",
+    "slug": "book-iv-arena-actors-dynamics",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/",
+    "title": "TauLib.BookIV.Arena.ActorsDynamics"
+  },
+  {
+    "module": "TauLib.BookIV.Arena.BoundaryHolonomy",
+    "slug": "book-iv-arena-boundary-holonomy",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/",
+    "title": "TauLib.BookIV.Arena.BoundaryHolonomy"
+  },
+  {
+    "module": "TauLib.BookIV.Arena.CoherenceKernel",
+    "slug": "book-iv-arena-coherence-kernel",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/",
+    "title": "TauLib.BookIV.Arena.CoherenceKernel"
+  },
+  {
+    "module": "TauLib.BookIV.Arena.FiveSectors",
+    "slug": "book-iv-arena-five-sectors",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-arena-five-sectors/",
+    "title": "TauLib.BookIV.Arena.FiveSectors"
+  },
+  {
+    "module": "TauLib.BookIV.Arena.RefinementTower",
+    "slug": "book-iv-arena-refinement-tower",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-arena-refinement-tower/",
+    "title": "TauLib.BookIV.Arena.RefinementTower"
+  },
+  {
+    "module": "TauLib.BookIV.Arena.Tau3Arena",
+    "slug": "book-iv-arena-tau3arena",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-arena-tau3arena/",
+    "title": "TauLib.BookIV.Arena.Tau3Arena"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.DefectFunctional",
+    "slug": "book-iv-physics-defect-functional",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-defect-functional/",
+    "title": "TauLib.BookIV.Physics.DefectFunctional"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.HolonomyCorrection",
+    "slug": "book-iv-physics-holonomy-correction",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-holonomy-correction/",
+    "title": "TauLib.BookIV.Physics.HolonomyCorrection"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.InternalEquations",
+    "slug": "book-iv-physics-internal-equations",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-internal-equations/",
+    "title": "TauLib.BookIV.Physics.InternalEquations"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.LemniscateCapacity",
+    "slug": "book-iv-physics-lemniscate-capacity",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-lemniscate-capacity/",
+    "title": "TauLib.BookIV.Physics.LemniscateCapacity"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.MassEnergy",
+    "slug": "book-iv-physics-mass-energy",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-mass-energy/",
+    "title": "TauLib.BookIV.Physics.MassEnergy"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.NucleonMassSplitting",
+    "slug": "book-iv-physics-nucleon-mass-splitting",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/",
+    "title": "TauLib.BookIV.Physics.NucleonMassSplitting"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.PlanckCharacter",
+    "slug": "book-iv-physics-planck-character",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-planck-character/",
+    "title": "TauLib.BookIV.Physics.PlanckCharacter"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.QuantityFramework",
+    "slug": "book-iv-physics-quantity-framework",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-quantity-framework/",
+    "title": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.ReadoutFunctor",
+    "slug": "book-iv-physics-readout-functor",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-readout-functor/",
+    "title": "TauLib.BookIV.Physics.ReadoutFunctor"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.Thermodynamics",
+    "slug": "book-iv-physics-thermodynamics",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/",
+    "title": "TauLib.BookIV.Physics.Thermodynamics"
+  },
+  {
+    "module": "TauLib.BookIV.Physics.TickUnits",
+    "slug": "book-iv-physics-tick-units",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-physics-tick-units/",
+    "title": "TauLib.BookIV.Physics.TickUnits"
+  },
+  {
+    "module": "TauLib.BookIV.MassDerivation.BreathingModes",
+    "slug": "book-iv-mass-derivation-breathing-modes",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/",
+    "title": "TauLib.BookIV.MassDerivation.BreathingModes"
+  },
+  {
+    "module": "TauLib.BookIV.MassDerivation.ElectronMass",
+    "slug": "book-iv-mass-derivation-electron-mass",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-mass-derivation-electron-mass/",
+    "title": "TauLib.BookIV.MassDerivation.ElectronMass"
+  },
+  {
+    "module": "TauLib.BookIV.MassDerivation.HolonomyDetail",
+    "slug": "book-iv-mass-derivation-holonomy-detail",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
+    "title": "TauLib.BookIV.MassDerivation.HolonomyDetail"
+  },
+  {
+    "module": "TauLib.BookIV.Coda.CompleteLedger",
+    "slug": "book-iv-coda-complete-ledger",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-coda-complete-ledger/",
+    "title": "TauLib.BookIV.Coda.CompleteLedger"
+  },
+  {
+    "module": "TauLib.BookIV.Coda.LawsAsStructure",
+    "slug": "book-iv-coda-laws-as-structure",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/",
+    "title": "TauLib.BookIV.Coda.LawsAsStructure"
+  },
+  {
+    "module": "TauLib.BookIV.Coda.SelfDescribing",
+    "slug": "book-iv-coda-self-describing",
+    "book": "IV",
+    "book_label": "Microcosm",
+    "url": "/verify/taulib/docs/book-iv-coda-self-describing/",
+    "title": "TauLib.BookIV.Coda.SelfDescribing"
+  },
+  {
+    "module": "TauLib.BookV.Temporal.BaseCircle",
+    "slug": "book-v-temporal-base-circle",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-temporal-base-circle/",
+    "title": "TauLib.BookV.Temporal.BaseCircle"
+  },
+  {
+    "module": "TauLib.BookV.Temporal.BoundaryData",
+    "slug": "book-v-temporal-boundary-data",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-temporal-boundary-data/",
+    "title": "TauLib.BookV.Temporal.BoundaryData"
+  },
+  {
+    "module": "TauLib.BookV.Temporal.CosmicAPI",
+    "slug": "book-v-temporal-cosmic-api",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/",
+    "title": "TauLib.BookV.Temporal.CosmicAPI"
+  },
+  {
+    "module": "TauLib.BookV.Temporal.DistanceLadder",
+    "slug": "book-v-temporal-distance-ladder",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/",
+    "title": "TauLib.BookV.Temporal.DistanceLadder"
+  },
+  {
+    "module": "TauLib.BookV.Temporal.HighEnergy",
+    "slug": "book-v-temporal-high-energy",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-temporal-high-energy/",
+    "title": "TauLib.BookV.Temporal.HighEnergy"
+  },
+  {
+    "module": "TauLib.BookV.Temporal.MacroReadout",
+    "slug": "book-v-temporal-macro-readout",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-temporal-macro-readout/",
+    "title": "TauLib.BookV.Temporal.MacroReadout"
+  },
+  {
+    "module": "TauLib.BookV.Temporal.TemporalIgnition",
+    "slug": "book-v-temporal-temporal-ignition",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-temporal-temporal-ignition/",
+    "title": "TauLib.BookV.Temporal.TemporalIgnition"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.AccretionJets",
+    "slug": "book-v-astrophysics-accretion-jets",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/",
+    "title": "TauLib.BookV.Astrophysics.AccretionJets"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.BinaryMergersGW",
+    "slug": "book-v-astrophysics-binary-mergers-gw",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/",
+    "title": "TauLib.BookV.Astrophysics.BinaryMergersGW"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.BulletClusterLSS",
+    "slug": "book-v-astrophysics-bullet-cluster-lss",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-bullet-cluster-lss/",
+    "title": "TauLib.BookV.Astrophysics.BulletClusterLSS"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.ClassicalIllusion",
+    "slug": "book-v-astrophysics-classical-illusion",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/",
+    "title": "TauLib.BookV.Astrophysics.ClassicalIllusion"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.CompactObjects",
+    "slug": "book-v-astrophysics-compact-objects",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/",
+    "title": "TauLib.BookV.Astrophysics.CompactObjects"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.EHTReread",
+    "slug": "book-v-astrophysics-eht-reread",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-eht-reread/",
+    "title": "TauLib.BookV.Astrophysics.EHTReread"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.GalaxyRelational",
+    "slug": "book-v-astrophysics-galaxy-relational",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-galaxy-relational/",
+    "title": "TauLib.BookV.Astrophysics.GalaxyRelational"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.H0TensionLCDM",
+    "slug": "book-v-astrophysics-h0tension-lcdm",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-h0tension-lcdm/",
+    "title": "TauLib.BookV.Astrophysics.H0TensionLCDM"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
+    "slug": "book-v-astrophysics-kepler-solar-system",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/",
+    "title": "TauLib.BookV.Astrophysics.KeplerSolarSystem"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.RotationCurves",
+    "slug": "book-v-astrophysics-rotation-curves",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-rotation-curves/",
+    "title": "TauLib.BookV.Astrophysics.RotationCurves"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.SectorExhaustion",
+    "slug": "book-v-astrophysics-sector-exhaustion",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/",
+    "title": "TauLib.BookV.Astrophysics.SectorExhaustion"
+  },
+  {
+    "module": "TauLib.BookV.Astrophysics.Supernovae",
+    "slug": "book-v-astrophysics-supernovae",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/",
+    "title": "TauLib.BookV.Astrophysics.Supernovae"
+  },
+  {
+    "module": "TauLib.BookV.Gravity.BHTopoModes",
+    "slug": "book-v-gravity-bh-topo-modes",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-bh-topo-modes/",
+    "title": "TauLib.BookV.Gravity.BHTopoModes"
+  },
+  {
+    "module": "TauLib.BookV.Gravity.CoRotorCoupling",
+    "slug": "book-v-gravity-co-rotor-coupling",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-co-rotor-coupling/",
+    "title": "TauLib.BookV.Gravity.CoRotorCoupling"
+  },
+  {
+    "module": "TauLib.BookV.Gravity.EinsteinEquation",
+    "slug": "book-v-gravity-einstein-equation",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/",
+    "title": "TauLib.BookV.Gravity.EinsteinEquation"
+  },
+  {
+    "module": "TauLib.BookV.Gravity.GravitationalConstant",
+    "slug": "book-v-gravity-gravitational-constant",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/",
+    "title": "TauLib.BookV.Gravity.GravitationalConstant"
+  },
+  {
+    "module": "TauLib.BookV.Gravity.Schwarzschild",
+    "slug": "book-v-gravity-schwarzschild",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/",
+    "title": "TauLib.BookV.Gravity.Schwarzschild"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.BipolarHolonomy",
+    "slug": "book-v-gravity-field-bipolar-holonomy",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/",
+    "title": "TauLib.BookV.GravityField.BipolarHolonomy"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.CalibrationTriangle",
+    "slug": "book-v-gravity-field-calibration-triangle",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/",
+    "title": "TauLib.BookV.GravityField.CalibrationTriangle"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.ClosingIdentity",
+    "slug": "book-v-gravity-field-closing-identity",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-closing-identity/",
+    "title": "TauLib.BookV.GravityField.ClosingIdentity"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.ExponentDerivation",
+    "slug": "book-v-gravity-field-exponent-derivation",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-exponent-derivation/",
+    "title": "TauLib.BookV.GravityField.ExponentDerivation"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.FrameHolonomy",
+    "slug": "book-v-gravity-field-frame-holonomy",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-frame-holonomy/",
+    "title": "TauLib.BookV.GravityField.FrameHolonomy"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.LinearEinstein",
+    "slug": "book-v-gravity-field-linear-einstein",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-linear-einstein/",
+    "title": "TauLib.BookV.GravityField.LinearEinstein"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.LorentzNoMinkowski",
+    "slug": "book-v-gravity-field-lorentz-no-minkowski",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
+    "title": "TauLib.BookV.GravityField.LorentzNoMinkowski"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.NonlinearEinstein",
+    "slug": "book-v-gravity-field-nonlinear-einstein",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/",
+    "title": "TauLib.BookV.GravityField.NonlinearEinstein"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.TOVPhaseBoundary",
+    "slug": "book-v-gravity-field-tov-phase-boundary",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-tov-phase-boundary/",
+    "title": "TauLib.BookV.GravityField.TOVPhaseBoundary"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.TOVStarBuilder",
+    "slug": "book-v-gravity-field-tov-star-builder",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-tov-star-builder/",
+    "title": "TauLib.BookV.GravityField.TOVStarBuilder"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.TauEinsteinEq",
+    "slug": "book-v-gravity-field-tau-einstein-eq",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
+    "title": "TauLib.BookV.GravityField.TauEinsteinEq"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.TauSchwarzschild",
+    "slug": "book-v-gravity-field-tau-schwarzschild",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
+    "title": "TauLib.BookV.GravityField.TauSchwarzschild"
+  },
+  {
+    "module": "TauLib.BookV.GravityField.TauSchwarzschildScale",
+    "slug": "book-v-gravity-field-tau-schwarzschild-scale",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/",
+    "title": "TauLib.BookV.GravityField.TauSchwarzschildScale"
+  },
+  {
+    "module": "TauLib.BookV.Prologue.ExportContract",
+    "slug": "book-v-prologue-export-contract",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-prologue-export-contract/",
+    "title": "TauLib.BookV.Prologue.ExportContract"
+  },
+  {
+    "module": "TauLib.BookV.Prologue.HermeticPrinciple",
+    "slug": "book-v-prologue-hermetic-principle",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/",
+    "title": "TauLib.BookV.Prologue.HermeticPrinciple"
+  },
+  {
+    "module": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact",
+    "slug": "book-v-thermodynamics-dark-energy-artifact",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/",
+    "title": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact"
+  },
+  {
+    "module": "TauLib.BookV.Thermodynamics.DefectExhaustion",
+    "slug": "book-v-thermodynamics-defect-exhaustion",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/",
+    "title": "TauLib.BookV.Thermodynamics.DefectExhaustion"
+  },
+  {
+    "module": "TauLib.BookV.Thermodynamics.EntropySplitting",
+    "slug": "book-v-thermodynamics-entropy-splitting",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/",
+    "title": "TauLib.BookV.Thermodynamics.EntropySplitting"
+  },
+  {
+    "module": "TauLib.BookV.Thermodynamics.HeatEM",
+    "slug": "book-v-thermodynamics-heat-em",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/",
+    "title": "TauLib.BookV.Thermodynamics.HeatEM"
+  },
+  {
+    "module": "TauLib.BookV.Thermodynamics.Inversion",
+    "slug": "book-v-thermodynamics-inversion",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-thermodynamics-inversion/",
+    "title": "TauLib.BookV.Thermodynamics.Inversion"
+  },
+  {
+    "module": "TauLib.BookV.Thermodynamics.VacuumNoVoid",
+    "slug": "book-v-thermodynamics-vacuum-no-void",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/",
+    "title": "TauLib.BookV.Thermodynamics.VacuumNoVoid"
+  },
+  {
+    "module": "TauLib.BookV.FluidMacro.ChargeObstruction",
+    "slug": "book-v-fluid-macro-charge-obstruction",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/",
+    "title": "TauLib.BookV.FluidMacro.ChargeObstruction"
+  },
+  {
+    "module": "TauLib.BookV.FluidMacro.NavierStokesMacro",
+    "slug": "book-v-fluid-macro-navier-stokes-macro",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/",
+    "title": "TauLib.BookV.FluidMacro.NavierStokesMacro"
+  },
+  {
+    "module": "TauLib.BookV.FluidMacro.PhaseTransitions",
+    "slug": "book-v-fluid-macro-phase-transitions",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/",
+    "title": "TauLib.BookV.FluidMacro.PhaseTransitions"
+  },
+  {
+    "module": "TauLib.BookV.FluidMacro.TauAlfven",
+    "slug": "book-v-fluid-macro-tau-alfven",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/",
+    "title": "TauLib.BookV.FluidMacro.TauAlfven"
+  },
+  {
+    "module": "TauLib.BookV.FluidMacro.TauMHD",
+    "slug": "book-v-fluid-macro-tau-mhd",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/",
+    "title": "TauLib.BookV.FluidMacro.TauMHD"
+  },
+  {
+    "module": "TauLib.BookV.FluidMacro.TauPlasma",
+    "slug": "book-v-fluid-macro-tau-plasma",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/",
+    "title": "TauLib.BookV.FluidMacro.TauPlasma"
+  },
+  {
+    "module": "TauLib.BookV.FluidMacro.Turbulence",
+    "slug": "book-v-fluid-macro-turbulence",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/",
+    "title": "TauLib.BookV.FluidMacro.Turbulence"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.BBNBaryogenesis",
+    "slug": "book-v-cosmology-bbn-baryogenesis",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-bbn-baryogenesis/",
+    "title": "TauLib.BookV.Cosmology.BBNBaryogenesis"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
+    "slug": "book-v-cosmology-bbn-nuclear-network",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-bbn-nuclear-network/",
+    "title": "TauLib.BookV.Cosmology.BBNNuclearNetwork"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.BHBipolarFusion",
+    "slug": "book-v-cosmology-bh-bipolar-fusion",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-bh-bipolar-fusion/",
+    "title": "TauLib.BookV.Cosmology.BHBipolarFusion"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.BHBirthTopology",
+    "slug": "book-v-cosmology-bh-birth-topology",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-bh-birth-topology/",
+    "title": "TauLib.BookV.Cosmology.BHBirthTopology"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry",
+    "slug": "book-v-cosmology-baryogenesis-asymmetry",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/",
+    "title": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.BigBangRegime",
+    "slug": "book-v-cosmology-big-bang-regime",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/",
+    "title": "TauLib.BookV.Cosmology.BigBangRegime"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.BoundaryUnification",
+    "slug": "book-v-cosmology-boundary-unification",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/",
+    "title": "TauLib.BookV.Cosmology.BoundaryUnification"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.CMBSpectrum",
+    "slug": "book-v-cosmology-cmb-spectrum",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-cmb-spectrum/",
+    "title": "TauLib.BookV.Cosmology.CMBSpectrum"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.CosmologicalEndstate",
+    "slug": "book-v-cosmology-cosmological-endstate",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/",
+    "title": "TauLib.BookV.Cosmology.CosmologicalEndstate"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.FalsificationPack",
+    "slug": "book-v-cosmology-falsification-pack",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/",
+    "title": "TauLib.BookV.Cosmology.FalsificationPack"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.GlobalFiniteness",
+    "slug": "book-v-cosmology-global-finiteness",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/",
+    "title": "TauLib.BookV.Cosmology.GlobalFiniteness"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.HeliumFraction",
+    "slug": "book-v-cosmology-helium-fraction",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-helium-fraction/",
+    "title": "TauLib.BookV.Cosmology.HeliumFraction"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.InflationRegime",
+    "slug": "book-v-cosmology-inflation-regime",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-inflation-regime/",
+    "title": "TauLib.BookV.Cosmology.InflationRegime"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.MergerNormalForm",
+    "slug": "book-v-cosmology-merger-normal-form",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-merger-normal-form/",
+    "title": "TauLib.BookV.Cosmology.MergerNormalForm"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.NeutrinoBackground",
+    "slug": "book-v-cosmology-neutrino-background",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/",
+    "title": "TauLib.BookV.Cosmology.NeutrinoBackground"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.NoShrinkExtended",
+    "slug": "book-v-cosmology-no-shrink-extended",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/",
+    "title": "TauLib.BookV.Cosmology.NoShrinkExtended"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.Reionization",
+    "slug": "book-v-cosmology-reionization",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-reionization/",
+    "title": "TauLib.BookV.Cosmology.Reionization"
+  },
+  {
+    "module": "TauLib.BookV.Cosmology.ThresholdLadder",
+    "slug": "book-v-cosmology-threshold-ladder",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/",
+    "title": "TauLib.BookV.Cosmology.ThresholdLadder"
+  },
+  {
+    "module": "TauLib.BookV.Coda.BridgeToLife",
+    "slug": "book-v-coda-bridge-to-life",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-coda-bridge-to-life/",
+    "title": "TauLib.BookV.Coda.BridgeToLife"
+  },
+  {
+    "module": "TauLib.BookV.Coda.CalibrationChain",
+    "slug": "book-v-coda-calibration-chain",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-coda-calibration-chain/",
+    "title": "TauLib.BookV.Coda.CalibrationChain"
+  },
+  {
+    "module": "TauLib.BookV.Coda.ConstantsLedger",
+    "slug": "book-v-coda-constants-ledger",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-coda-constants-ledger/",
+    "title": "TauLib.BookV.Coda.ConstantsLedger"
+  },
+  {
+    "module": "TauLib.BookV.Coda.GAlphaBridge",
+    "slug": "book-v-coda-g-alpha-bridge",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-coda-g-alpha-bridge/",
+    "title": "TauLib.BookV.Coda.GAlphaBridge"
+  },
+  {
+    "module": "TauLib.BookV.Coda.HermeticClosure",
+    "slug": "book-v-coda-hermetic-closure",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-coda-hermetic-closure/",
+    "title": "TauLib.BookV.Coda.HermeticClosure"
+  },
+  {
+    "module": "TauLib.BookV.Orthodox.CorrespondenceMap",
+    "slug": "book-v-orthodox-correspondence-map",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-orthodox-correspondence-map/",
+    "title": "TauLib.BookV.Orthodox.CorrespondenceMap"
+  },
+  {
+    "module": "TauLib.BookV.Orthodox.EmergentGeometry",
+    "slug": "book-v-orthodox-emergent-geometry",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/",
+    "title": "TauLib.BookV.Orthodox.EmergentGeometry"
+  },
+  {
+    "module": "TauLib.BookV.Orthodox.FalsifiableSeams",
+    "slug": "book-v-orthodox-falsifiable-seams",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/",
+    "title": "TauLib.BookV.Orthodox.FalsifiableSeams"
+  },
+  {
+    "module": "TauLib.BookV.Orthodox.MeasurementUnification",
+    "slug": "book-v-orthodox-measurement-unification",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-orthodox-measurement-unification/",
+    "title": "TauLib.BookV.Orthodox.MeasurementUnification"
+  },
+  {
+    "module": "TauLib.BookV.Orthodox.OtherApproaches",
+    "slug": "book-v-orthodox-other-approaches",
+    "book": "V",
+    "book_label": "Macrocosm",
+    "url": "/verify/taulib/docs/book-v-orthodox-other-approaches/",
+    "title": "TauLib.BookV.Orthodox.OtherApproaches"
+  }
+]

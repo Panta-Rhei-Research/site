@@ -1,0 +1,1450 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.051/juliamono.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px;
+    font-variant-ligatures: none;
+    font-family: 'Lato Medium';
+    color: var(--text-color);
+    background: var(--body-bg);
+}
+
+input, select, textarea, button{font-family:inherit;}
+
+a {
+   color: var(--link-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato Medium';
+}
+
+body { line-height: 1.5; }
+nav { line-height: normal; }
+
+:root {
+    --header-height: 3em;
+    --fragment-offset: calc(var(--header-height) + 1em);
+    --content-width: 55vw;
+
+    --header-bg: #f8f8f8;
+    --body-bg: white;
+    --code-bg: #f3f3f3;
+    --text-color: black;
+    --link-color: hsl(210, 100%, 30%);
+
+    --implicit-arg-text-color: var(--text-color);
+
+    --def-color: #92dce5;
+    --def-color-hsl-angle: 187;
+    --theorem-color: #8fe388;
+    --theorem-color-hsl-angle: 115;
+    --axiom-and-constant-color: #f44708;
+    --axiom-and-constant-color-hsl-angle: 16;
+    --structure-and-inductive-color: #f0a202;
+    --structure-and-inductive-color-hsl-angle: 40;
+    --starting-percentage: 100;
+
+    --hamburger-bg-color: #eee;
+    --hamburger-active-color: white;
+    --hamburger-border-color: #ccc;
+
+    --tags-border-color: #555;
+
+    --fragment-offset: calc(var(--header-height) + 1em);
+    --content-width: 55vw;
+}
+/* automatic dark theme if no javascript */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-bg: #111010;
+        --body-bg: #171717;
+        --code-bg: #363333;
+        --text-color: #eee;
+        --link-color: #58a6ff;
+
+        --implicit-arg-text-color: var(--text-color);
+
+        --def-color: #1F497F;
+        --def-color-hsl-angle: 214;
+        --theorem-color: #134E2D;
+        --theorem-color-hsl-angle: 146;
+        --axiom-and-constant-color: #6B1B1A;
+        --axiom-and-constant-color-hsl-angle: 1;
+        --structure-and-inductive-color: #73461C;
+        --structure-and-inductive-color-hsl-angle: 29;
+        --starting-percentage: 30;
+
+        --hamburger-bg-color: #2d2c2c;
+        --hamburger-active-color: black;
+        --hamburger-border-color: #717171;
+
+        --tags-border-color: #AAA;
+    }
+}
+
+[data-theme="light"] {
+    color-scheme: light;
+
+    --header-height: 3em;
+    --fragment-offset: calc(var(--header-height) + 1em);
+    --content-width: 55vw;
+
+    --header-bg: #f8f8f8;
+    --body-bg: white;
+    --code-bg: #f3f3f3;
+    --text-color: black;
+    --link-color: hsl(210, 100%, 30%);
+
+    --implicit-arg-text-color: var(--text-color);
+
+    --def-color: #92dce5;
+    --def-color-hsl-angle: 187;
+    --theorem-color: #8fe388;
+    --theorem-color-hsl-angle: 115;
+    --axiom-and-constant-color: #f44708;
+    --axiom-and-constant-color-hsl-angle: 16;
+    --structure-and-inductive-color: #f0a202;
+    --structure-and-inductive-color-hsl-angle: 40;
+    --starting-percentage: 100;
+
+    --hamburger-bg-color: #eee;
+    --hamburger-active-color: white;
+    --hamburger-border-color: #ccc;
+
+    --tags-border-color: #555;
+
+    --fragment-offset: calc(var(--header-height) + 1em);
+    --content-width: 55vw;
+}
+
+[data-theme="dark"] {
+    color-scheme: dark;
+
+    --header-bg: #111010;
+    --body-bg: #171717;
+    --code-bg: #363333;
+    --text-color: #eee;
+    --link-color: #58a6ff;
+
+    --implicit-arg-text-color: var(--text-color);
+
+    --def-color: #1F497F;
+    --def-color-hsl-angle: 214;
+    --theorem-color: #134E2D;
+    --theorem-color-hsl-angle: 146;
+    --axiom-and-constant-color: #6B1B1A;
+    --axiom-and-constant-color-hsl-angle: 1;
+    --structure-and-inductive-color: #73461C;
+    --structure-and-inductive-color-hsl-angle: 29;
+    --starting-percentage: 30;
+
+    --hamburger-bg-color: #2d2c2c;
+    --hamburger-active-color: black;
+    --hamburger-border-color: #717171;
+
+    --tags-border-color: #AAA;
+}
+
+@supports (width: min(10px, 5vw)) {
+    :root {
+        --content-width: clamp(20em, 55vw, 60em);
+    }
+}
+
+#nav_toggle {
+    display: none;
+}
+label[for="nav_toggle"] {
+    display: none;
+}
+
+header {
+    height: var(--header-height);
+    float: left;
+    position: fixed;
+    width: 100vw;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    --header-side-padding: 1em;
+    padding: 0 var(--header-side-padding);
+    background: var(--header-bg);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --content-width: 100vw;
+    }
+
+    .internal_nav {
+        display: none;
+    }
+
+    body .nav {
+        width: 100vw;
+        max-width: 100vw;
+        margin-left: 1em;
+        z-index: 1;
+    }
+
+    body main {
+        width: unset;
+        max-width: unset;
+        margin-left: unset;
+        margin-right: unset;
+    }
+    body .decl > div {
+        overflow-x: unset;
+    }
+
+    #nav_toggle:not(:checked) ~ .nav {
+        display: none;
+    }
+    #nav_toggle:checked ~ main {
+        visibility: hidden;
+    }
+
+    label[for="nav_toggle"]::before {
+        content: '≡';
+    }
+    label[for="nav_toggle"] {
+        display: inline-block;
+        margin-right: 1em;
+        border: 1px solid var(--hamburger-border-color);
+        padding: 0.5ex 1ex;
+        cursor: pointer;
+        background: var(--hamburger-bg-color);
+    }
+    #nav_toggle:checked ~ * label[for="nav_toggle"] {
+        background: var(--hamburger-active-color);
+    }
+
+    body header h1 {
+        font-size: 100%;
+    }
+
+    header {
+        --header-side-padding: 1ex;
+    }
+}
+@media screen and (max-width: 700px) {
+    header h1 span { display: none; }
+    :root { --header-side-padding: 1ex; }
+    #search_form button { display: none; }
+    #search_form input { width: 100%; }
+    header #autocomplete_results {
+        left: 1ex;
+        right: 1ex;
+        width: inherit;
+    }
+    body header > * { margin: 0; }
+}
+
+header > * {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+header .header_filename {
+    font-size: 17px;
+    color: gray;
+    text-align: center;
+    line-height: 95%;
+}
+
+/* inserted by nav.js */
+#autocomplete_results {
+    position: absolute;
+    top: var(--header-height);
+    right: calc(var(--header-side-padding));
+    width: calc(20em + 4em);
+    z-index: 1;
+    background: var(--header-bg);
+    border: 1px solid #aaa;
+    border-top: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: calc(100vh - var(--header-height));
+}
+
+#autocomplete_results:empty {
+    display: none;
+}
+
+#autocomplete_results[state="loading"]:empty {
+    display: block;
+    cursor: progress;
+}
+#autocomplete_results[state="loading"]:empty::before {
+    display: block;
+    content: ' 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 ';
+    padding: 1ex;
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+    0% { transform: translate(100%, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+#autocomplete_results[state="done"]:empty {
+    display: block;
+    text-align: center;
+    padding: 1ex;
+}
+#autocomplete_results[state="done"]:empty::before {
+    content: '(no results)';
+    font-style: italic;
+}
+
+#autocomplete_results a {
+    display: block;
+    color: inherit;
+    padding: 1ex;
+    border-left: 0.5ex solid transparent;
+    padding-left: 0.5ex;
+    cursor: pointer;
+}
+
+#autocomplete_results .selected .result_link a {
+    background: var(--body-bg);
+    border-color: var(--structure-and-inductive-color);
+}
+
+
+#search_results {
+    width: 100%;
+}
+#search_results[state="done"]:empty::before {
+    content: '(no results)';
+    font-style: italic;
+}
+
+#search_results .result_link, #search_results .result_doc {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.search_result_block {
+    width: 100%;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 75em;
+}
+
+.search_result_block_inner {
+    display: table;
+    width: 100%;
+}
+
+.search_result {
+    display: table-row;
+}
+
+.result_link, .result_doc {
+    display: table-cell;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+main, nav {
+    margin-top: calc(var(--header-height) + 1em);
+}
+
+/* extra space for scrolling things to the top */
+main {
+    margin-bottom: 90vh;
+}
+
+main {
+    max-width: var(--content-width);
+    /* center it: */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    float: left;
+    height: calc(100vh - var(--header-height) - 1em);
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+nav:hover {
+    scrollbar-color: gray transparent;
+}
+
+nav {
+    --column-available-space: calc((100vw - var(--content-width) - 5em)/2);
+    --column-width: calc(var(--column-available-space) - 1ex);
+    --dist-to-edge: 1ex;
+    width: var(--content-width);
+    max-width: var(--column-width);
+}
+@supports (width: min(10px, 5vw)) {
+    .nav { --desired-column-width: 20em; }
+    .internal_nav { --desired-column-width: 30em; }
+    nav {
+        --column-available-space: calc(max(0px, (100vw - var(--content-width) - 5em)/2));
+        --column-width: calc(clamp(0px, var(--column-available-space) - 1ex, var(--desired-column-width)));
+        --dist-to-edge: calc(max(1ex, var(--column-available-space) - var(--column-width)));
+    }
+}
+
+.nav { left: var(--dist-to-edge); }
+.internal_nav { right: var(--dist-to-edge); }
+
+.internal_nav .nav_link, .taclink {
+    /* indent everything but first line by 2ex */
+    text-indent: -2ex; padding-left: 2ex;
+}
+
+.navframe {
+    height: 100%;
+    width: 100%;
+}
+
+.navframe .nav {
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+}
+
+.internal_nav .imports {
+    margin-bottom: 1rem;
+}
+
+.tagfilter-div {
+    margin-bottom: 1em;
+}
+.tagfilter-div > summary {
+    margin-bottom: 1ex;
+}
+
+/* top-level modules in left navbar */
+.nav .module_list > details {
+    margin-top: 1ex;
+}
+
+.nav details > * {
+    padding-left: 2ex;
+}
+
+.nav summary {
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.nav summary::marker {
+    font-size: 85%;
+}
+
+.nav .nav_file {
+    display: inline-block;
+}
+
+.nav h3 {
+    margin-block-end: 4px;
+}
+
+/* People use way too long declaration names. */
+.internal_nav, .decl_name {
+    overflow-wrap: break-word;
+}
+
+/* Add a linebreak after a declaration name. */
+.decl_name::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.nav_link {
+    overflow-wrap: break-word;
+}
+
+.navframe {
+    --header-height: 0;
+}
+
+#settings {
+    margin-top: 5em;
+}
+#settings h3 {
+    font-size: inherit;
+}
+
+#color-theme-switcher {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2ex;
+    flex-flow: row wrap;
+}
+
+/* custom radio buttons for dark/light switch */
+#color-theme-switcher input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    box-sizing: content-box;
+    height: 1em;
+    width: 1em;
+    background-clip: content-box;
+    padding: 2px;
+    border: 2px solid transparent;
+    margin-bottom: -4px;
+    border-radius: 50%;
+}
+#color-theme-dark { background-color: #444; }
+#color-theme-light { background-color: #ccc; }
+#color-theme-system {
+    background-image: linear-gradient(60deg, #444, #444 50%, #CCC 50%, #CCC);
+}
+#color-theme-switcher input:checked {
+    border-color: var(--text-color);
+}
+
+.decl > div, .mod_doc {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.decl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.decl > div {
+    /* sometimes declarations arguments are way too long
+       and would continue into the right column,
+       so put a scroll bar there: */
+    overflow-x: auto;
+}
+
+/* Make `#id` links appear below header. */
+.decl, h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+    scroll-margin-top: var(--fragment-offset);
+}
+/* don't need as much vertical space for these
+inline elements */
+a[id], li[id] {
+    scroll-margin-top: var(--header-height);
+}
+
+/* HACK: Safari doesn't support scroll-margin-top for
+fragment links (yet?)
+https://caniuse.com/mdn-css_properties_scroll-margin-top
+https://bugs.webkit.org/show_bug.cgi?id=189265
+*/
+@supports not (scroll-margin-top: var(--fragment-offset)) {
+    .decl::before, h1[id]::before, h2[id]::before, h3[id]::before,
+    h4[id]::before, h5[id]::before, h6[id]::before,
+    a[id]::before, li[id]::before {
+        content: "";
+        display: block;
+        height:      var(--fragment-offset);
+        margin-top:  calc(-1 * var(--fragment-offset));
+        box-sizing: inherit;
+        visibility: hidden;
+        width: 1px;
+    }
+}
+
+
+/* hide # after markdown headings except on hover */
+.markdown-heading:not(:hover) > .hover-link {
+    visibility: hidden;
+}
+
+main h2, main h3, main h4, main h5, main h6 {
+    margin-top: 1rem;
+    margin-bottom: -0.4rem;
+}
+.decl + .mod_doc > h2,
+        .decl + .mod_doc > h3,
+        .decl + .mod_doc > h4,
+        .decl + .mod_doc > h5,
+        .decl + .mod_doc > h6 {
+    margin-top: 4rem;
+}
+
+.def, .instance {
+    border-left: 10px solid var(--text-color);
+    border-top: 2px solid var(--text-color);
+}
+
+.theorem {
+    border-left: 10px solid var(--theorem-color);
+    border-top: 2px solid var(--theorem-color);
+}
+
+.axiom, .opaque {
+    border-left: 10px solid var(--axiom-and-constant-color);
+    border-top: 2px solid var(--axiom-and-constant-color);
+}
+
+.structure, .inductive, .class {
+    border-left: 10px solid var(--structure-and-inductive-color);
+    border-top: 2px solid var(--structure-and-inductive-color);
+}
+
+.fn {
+    display: inline-block;
+    /* border: 1px dashed red; */
+    text-indent: -1ex;
+    padding-left: 1ex;
+    white-space: pre-wrap;
+    vertical-align: top;
+}
+
+.fn { --fn: 1; }
+.fn .fn { --fn: 2; }
+.fn .fn .fn { --fn: 3; }
+.fn .fn .fn .fn { --fn: 4; }
+.fn .fn .fn .fn .fn { --fn: 5; }
+.fn .fn .fn .fn .fn .fn { --fn: 6; }
+.fn .fn .fn .fn .fn .fn .fn { --fn: 7; }
+.fn .fn .fn .fn .fn .fn .fn .fn { --fn: 8; }
+.fn {
+    transition: background-color 100ms ease-in-out;
+}
+
+.def .fn:hover, .instance .fn:hover {
+    background-color: hsla(var(--def-color-hsl-angle), 61%, calc(var(--starting-percentage) - 5%*var(--fn)));
+    box-shadow: 0 0 0 1px hsla(var(--def-color-hsl-angle), 61%, calc(var(--starting-percentage) - 5%*(var(--fn) + 1)));
+    border-radius: 5px;
+}
+.theorem .fn:hover {
+    background-color: hsla(var(--theorem-color-hsl-angle), 62%, calc(var(--starting-percentage) - 5%*var(--fn)));
+    box-shadow: 0 0 0 1px hsla(var(--theorem-color-hsl-angle), 62%, calc(var(--starting-percentage) - 5%*(var(--fn) + 1)));
+    border-radius: 5px;
+}
+.axiom .fn:hover, .opaque .fn:hover {
+    background-color: hsla(var(--axiom-and-constant-color-hsl-angle), 94%, calc(var(--starting-percentage) - 5%*var(--fn)));
+    box-shadow: 0 0 0 1px hsla(var(--axiom-and-constant-color-hsl-angle), 94%, calc(var(--starting-percentage) - 5%*(var(--fn) + 1)));
+    border-radius: 5px;
+}
+.structure .fn:hover, .inductive .fn:hover, .class .fn:hover {
+    background-color: hsla(var(--structure-and-inductive-color-hsl-angle), 98%, calc(var(--starting-percentage) - 5%*var(--fn)));
+    box-shadow: 0 0 0 1px hsla(var(--structure-and-inductive-color-hsl-angle), 98%, calc(var(--starting-percentage) - 5%*(var(--fn) + 1)));
+    border-radius: 5px;
+}
+
+.decl_args, .decl_type .decl_parent {
+    font-weight: normal;
+}
+
+.implicits, .impl_arg {
+    color: var(--text-color);
+    white-space: normal;
+}
+
+.decl_kind, .decl_name, .decl_extends {
+    font-weight: bold;
+}
+
+/* break long declaration names at periods where possible */
+.break_within {
+    word-break: break-all;
+}
+
+.break_within .name {
+    word-break: normal;
+}
+
+.decl_header {
+    /* indent everything but first line twice as much as decl_type */
+    text-indent: -8ex; padding-left: 8ex;
+}
+
+.decl_type {
+    margin-top: 2px;
+    margin-left: 4ex; /* extra indentation */
+}
+
+.decl.sorried .decl_name {
+    text-decoration: underline wavy #cca733;
+}
+
+.decl .sorry_msg > strong {
+    color: #a90000;
+}
+
+.imports li, code, .decl_header, .attributes, .structure_field_info,
+        .constructor, .instances li, .instances-for-list li, .equation, .structure_ext_ctor {
+    font-size: 92%;
+    font-family: 'JuliaMono', monospace;
+}
+
+pre {
+    white-space: break-spaces;
+}
+
+code, pre { background: var(--code-bg); }
+code, pre { border-radius: 5px; }
+code { padding: 1px 3px; }
+pre { padding: 1ex; }
+pre code { padding: 0 0; }
+
+#howabout code { background: inherit; }
+#howabout li { margin-bottom: 0.5ex; }
+
+.structure_fields, .constructors {
+    display: block;
+    padding-inline-start: 0;
+    margin-top: 1ex;
+    text-indent: -2ex; padding-left: 2ex;
+}
+
+.structure_field {
+    display: block;
+    margin-left: 2ex;
+}
+
+.inductive_ctor_doc  {
+    text-indent: 0;
+    margin-left: 2ex;
+    font-family: 'Lato Medium';
+    font-size: 17px;
+}
+
+.structure_field_doc {
+    text-indent: 0;
+    font-family: 'Lato Medium';
+    font-size: 17px;
+}
+
+.structure_ext_fields {
+    display: block;
+    padding-inline-start: 0;
+    margin-top: 1ex;
+    text-indent: -2ex; padding-left: 2ex;
+}
+
+.structure_ext_fields .structure_field {
+    margin-left: -1ex !important;
+}
+
+.structure_ext_ctor {
+    display: block;
+    text-indent: -3ex;
+}
+
+.constructor {
+    display: block;
+}
+.constructor:before {
+    content: '| ';
+    color: gray;
+}
+
+/** Don't show underline on types, to prevent the ≤ vs < confusion. **/
+a:link, a:visited, a:active {
+    color:var(--link-color);
+    text-decoration: none;
+}
+
+/** Show it on hover though. **/
+a:hover {
+    text-decoration: underline;
+}
+
+.impl_arg {
+    font-style: italic;
+    transition: opacity 300ms ease-in;
+}
+
+.decl_header:not(:hover) .impl_arg,
+        .constructor:not(:hover) .impl_arg,
+        .structure_field_info:not(:hover) .impl_arg {
+    opacity: 30%;
+    transition: opacity 1000ms ease-out;
+}
+
+.inherited_field {
+    transition: opacity 300ms ease-in;
+}
+
+.structure_fields:not(:hover) .inherited_field {
+    opacity: 30%;
+    transition: opacity 1000ms ease-out;
+}
+
+.gh_link {
+    float: right;
+    margin-left: 10px;
+}
+
+.ink_link {
+    float: right;
+    margin-left: 20px;
+}
+
+
+.docfile h2, .note h2 {
+    margin-block-start: 3px;
+    margin-block-end: 0px;
+}
+
+.docfile h2 a {
+    color: var(--text-color);
+}
+
+.tags {
+    margin-bottom: 1ex;
+}
+
+.tags ul {
+    display: inline;
+    padding: 0;
+}
+
+.tags li {
+    border: 1px solid var(--tags-border-color);
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 1px 3px;
+    margin-left: 1ex;
+    display: inline-block;
+}
+
+/* used by nav.js */
+.hide { display: none; }
+
+.tactic, .note {
+    border-top: 3px solid #0479c7;
+    padding-top: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+/* ================================================================
+   TauLib / Panta Rhei — Documentation Theme
+   ================================================================
+
+   Brand-consistent with panta-rhei.site while optimized for
+   technical documentation readability. Appended to doc-gen4's
+   style.css during post-build (Step 4 of build_docs.sh).
+
+   Design tokens extracted from the main website:
+     Font:      Manrope (self-hosted woff2, latin + latin-ext)
+     Palette:   void (deep navy-black), paper (warm parchment),
+                ink (cool gray scale), 7 book accent colors
+     Radii:     24px cards, 999px pills
+     Shadows:   soft diffuse, paper inset, accent glow
+     Motion:    cubic-bezier(.22, 1, .36, 1)
+
+   Approach: The main website is immersive and cinematic (dark void
+   background, glassmorphism, orb animations). The docs are clean
+   and focused — a "paper" reading surface with the same type, color
+   tokens, and micro-interactions, but stripped of spectacle.
+
+   ================================================================ */
+
+/* ----------------------------------------------------------------
+   Self-hosted Manrope — matching panta-rhei.site exactly
+   ---------------------------------------------------------------- */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('fonts/manrope-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+    U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F,
+    U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113,
+    U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('fonts/manrope-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+    U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ----------------------------------------------------------------
+   Light Theme (default) — "Paper" surface
+   ----------------------------------------------------------------
+   Warm parchment from the website's --gradient-paper and
+   --paper-050, with ink-scale text colors. The header uses the
+   website's void palette for visual anchoring.
+   ---------------------------------------------------------------- */
+:root {
+  /* ---- Header: void-925 from website ---- */
+  --header-bg: #09101d;
+
+  /* ---- Body: warm paper from website's --paper-050 ---- */
+  --body-bg: #f7f4ee;
+
+  /* ---- Code: slightly cooler paper tone ---- */
+  --code-bg: #f0ede6;
+
+  /* ---- Text: website's --ink-900 ---- */
+  --text-color: #121a2a;
+
+  /* ---- Links: website's --accent (purple) for distinction ---- */
+  --link-color: #7b5fbf;
+
+  /* ---- Implicit args: softer than main text ---- */
+  --implicit-arg-text-color: #32415b;
+
+  /* ---- Declaration badges — 4 book colors from website ---- */
+  --def-color: #8fb6ff;                          /* Book I blue: definitions */
+  --def-color-hsl-angle: 218;
+  --theorem-color: #95f3a1;                      /* Book IV green: theorems */
+  --theorem-color-hsl-angle: 130;
+  --axiom-and-constant-color: #ff6156;           /* Book VI red: axioms */
+  --axiom-and-constant-color-hsl-angle: 3;
+  --structure-and-inductive-color: #ffb24d;      /* Book V amber: structures */
+  --structure-and-inductive-color-hsl-angle: 35;
+
+  /* ---- Starting percentage for fn hover gradients ---- */
+  --starting-percentage: 95;
+
+  /* ---- UI chrome ---- */
+  --hamburger-bg-color: #eef3fb;
+  --hamburger-active-color: white;
+  --hamburger-border-color: #dce5f2;
+  --tags-border-color: #32415b;
+
+  /* ---- Panta Rhei tokens (new) ---- */
+  --pr-accent: #b28fff;
+  --pr-accent-soft: rgba(178, 143, 255, 0.12);
+  --pr-radius: 8px;
+  --pr-radius-lg: 12px;
+  --pr-shadow-soft: 0 2px 12px rgba(18, 26, 42, 0.06);
+  --pr-shadow-card: 0 4px 16px rgba(18, 26, 42, 0.08);
+  --pr-transition: 200ms cubic-bezier(.22, 1, .36, 1);
+  --pr-spectral: linear-gradient(135deg,
+    #7fb3ff 0%, #b28fff 18%, #80ebff 38%,
+    #8ff0b0 58%, #ffbd58 78%, #ff6b62 100%);
+  --pr-header-border: rgba(178, 143, 255, 0.3);
+}
+
+/* ----------------------------------------------------------------
+   Dark Theme — "Void" surface
+   ----------------------------------------------------------------
+   Directly from the website's void palette: deep navy-black
+   with ink-scale text and muted book-color badges.
+   ---------------------------------------------------------------- */
+[data-theme="dark"] {
+  /* ---- Header: deepest void ---- */
+  --header-bg: #03060f;
+
+  /* ---- Body: website's void-900 ---- */
+  --body-bg: #0b1020;
+
+  /* ---- Code: void-850 ---- */
+  --code-bg: #12192b;
+
+  /* ---- Text: website's ink-050 ---- */
+  --text-color: #f6fbff;
+
+  /* ---- Links: brighter accent for dark bg ---- */
+  --link-color: #b28fff;
+
+  /* ---- Implicit args ---- */
+  --implicit-arg-text-color: #a9b8d0;
+
+  /* ---- Badges: same hues, reduced lightness ---- */
+  --def-color: #4a7cc9;
+  --def-color-hsl-angle: 218;
+  --theorem-color: #3a8a48;
+  --theorem-color-hsl-angle: 130;
+  --axiom-and-constant-color: #b04038;
+  --axiom-and-constant-color-hsl-angle: 3;
+  --structure-and-inductive-color: #b07830;
+  --structure-and-inductive-color-hsl-angle: 35;
+
+  --starting-percentage: 30;
+
+  /* ---- UI chrome ---- */
+  --hamburger-bg-color: #172033;
+  --hamburger-active-color: #0b1020;
+  --hamburger-border-color: #32415b;
+  --tags-border-color: #a9b8d0;
+
+  /* ---- Panta Rhei tokens ---- */
+  --pr-accent: #b28fff;
+  --pr-accent-soft: rgba(178, 143, 255, 0.18);
+  --pr-shadow-soft: 0 2px 12px rgba(0, 0, 0, 0.3);
+  --pr-shadow-card: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --pr-header-border: rgba(178, 143, 255, 0.2);
+}
+
+/* Also override the @media prefers-color-scheme dark defaults */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-bg: #03060f;
+    --body-bg: #0b1020;
+    --code-bg: #12192b;
+    --text-color: #f6fbff;
+    --link-color: #b28fff;
+    --implicit-arg-text-color: #a9b8d0;
+    --def-color: #4a7cc9;
+    --def-color-hsl-angle: 218;
+    --theorem-color: #3a8a48;
+    --theorem-color-hsl-angle: 130;
+    --axiom-and-constant-color: #b04038;
+    --axiom-and-constant-color-hsl-angle: 3;
+    --structure-and-inductive-color: #b07830;
+    --structure-and-inductive-color-hsl-angle: 35;
+    --starting-percentage: 30;
+    --hamburger-bg-color: #172033;
+    --hamburger-active-color: #0b1020;
+    --hamburger-border-color: #32415b;
+    --tags-border-color: #a9b8d0;
+    --pr-accent: #b28fff;
+    --pr-accent-soft: rgba(178, 143, 255, 0.18);
+    --pr-shadow-soft: 0 2px 12px rgba(0, 0, 0, 0.3);
+    --pr-shadow-card: 0 4px 16px rgba(0, 0, 0, 0.4);
+    --pr-header-border: rgba(178, 143, 255, 0.2);
+  }
+}
+
+/* Explicit light override */
+[data-theme="light"] {
+  --header-bg: #09101d;
+  --body-bg: #f7f4ee;
+  --code-bg: #f0ede6;
+  --text-color: #121a2a;
+  --link-color: #7b5fbf;
+  --implicit-arg-text-color: #32415b;
+  --def-color: #8fb6ff;
+  --def-color-hsl-angle: 218;
+  --theorem-color: #95f3a1;
+  --theorem-color-hsl-angle: 130;
+  --axiom-and-constant-color: #ff6156;
+  --axiom-and-constant-color-hsl-angle: 3;
+  --structure-and-inductive-color: #ffb24d;
+  --structure-and-inductive-color-hsl-angle: 35;
+  --starting-percentage: 95;
+  --hamburger-bg-color: #eef3fb;
+  --hamburger-active-color: white;
+  --hamburger-border-color: #dce5f2;
+  --tags-border-color: #32415b;
+  --pr-accent: #b28fff;
+  --pr-accent-soft: rgba(178, 143, 255, 0.12);
+  --pr-shadow-soft: 0 2px 12px rgba(18, 26, 42, 0.06);
+  --pr-shadow-card: 0 4px 16px rgba(18, 26, 42, 0.08);
+  --pr-header-border: rgba(178, 143, 255, 0.3);
+}
+
+/* ----------------------------------------------------------------
+   Typography — Manrope replaces Lato
+   ---------------------------------------------------------------- */
+body {
+  font-family: 'Manrope', system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manrope', system-ui, -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+main h1 { font-size: 1.8rem; margin-top: 0; }
+main h2 { font-size: 1.35rem; }
+main h3 { font-size: 1.15rem; }
+
+/* Module docstrings — the primary reading surface */
+.mod_doc {
+  line-height: 1.72;
+  max-width: 72ch;
+}
+
+.mod_doc p {
+  margin-bottom: 0.8em;
+}
+
+.mod_doc ul, .mod_doc ol {
+  padding-left: 1.5em;
+}
+
+.mod_doc li {
+  margin-bottom: 0.3em;
+}
+
+/* ----------------------------------------------------------------
+   Header — void-dark with spectral accent border
+   ---------------------------------------------------------------- */
+header {
+  border-bottom: 2px solid var(--pr-header-border);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+  transition: background var(--pr-transition);
+}
+
+header h1 {
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.3em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+header a,
+header .header_filename {
+  color: #dfe8f6 !important;
+  transition: color var(--pr-transition);
+}
+
+header a:hover {
+  color: #f6fbff !important;
+  text-decoration: none;
+}
+
+header .header_filename {
+  color: #a9b8d0 !important;
+  font-size: 15px;
+}
+
+/* ----------------------------------------------------------------
+   Spectral accent bar under header
+   ----------------------------------------------------------------
+   A 2px gradient line using the website's spectral gradient,
+   providing the signature Panta Rhei visual identity.
+   ---------------------------------------------------------------- */
+header::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--pr-spectral);
+  opacity: 0.7;
+}
+
+/* ----------------------------------------------------------------
+   Navigation sidebar
+   ---------------------------------------------------------------- */
+.nav {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.nav summary {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: color var(--pr-transition);
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin-left: -4px;
+}
+
+.nav summary:hover {
+  color: var(--link-color);
+  background: var(--pr-accent-soft);
+}
+
+.nav .nav_link {
+  font-size: 13px;
+  padding: 1px 0;
+  transition: color var(--pr-transition);
+}
+
+.nav .nav_link:hover {
+  color: var(--link-color);
+}
+
+/* ----------------------------------------------------------------
+   Declarations — the core documentation blocks
+   ---------------------------------------------------------------- */
+.decl {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 0 var(--pr-radius) var(--pr-radius) 0;
+  background: var(--code-bg);
+  box-shadow: var(--pr-shadow-soft);
+  transition: box-shadow var(--pr-transition), transform var(--pr-transition);
+  overflow: hidden;
+}
+
+.decl:hover {
+  box-shadow: var(--pr-shadow-card);
+}
+
+.decl > div {
+  padding: 10px 14px;
+}
+
+/* Declaration type badges — refined borders */
+.def, .instance {
+  border-left: 4px solid var(--def-color);
+  border-top: 1px solid color-mix(in srgb, var(--def-color) 40%, transparent);
+}
+
+.theorem {
+  border-left: 4px solid var(--theorem-color);
+  border-top: 1px solid color-mix(in srgb, var(--theorem-color) 40%, transparent);
+}
+
+.axiom, .opaque {
+  border-left: 4px solid var(--axiom-and-constant-color);
+  border-top: 1px solid color-mix(in srgb, var(--axiom-and-constant-color) 40%, transparent);
+}
+
+.structure, .inductive, .class {
+  border-left: 4px solid var(--structure-and-inductive-color);
+  border-top: 1px solid color-mix(in srgb, var(--structure-and-inductive-color) 40%, transparent);
+}
+
+/* Sorried declarations — subtle but clear */
+.decl.sorried {
+  position: relative;
+}
+.decl.sorried::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #cca733;
+  border-left: 20px solid transparent;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+/* ----------------------------------------------------------------
+   Code — monospace with refined presentation
+   ---------------------------------------------------------------- */
+code, pre {
+  border-radius: var(--pr-radius);
+}
+
+pre {
+  padding: 14px 16px;
+  box-shadow: var(--pr-shadow-soft);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="dark"] pre {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+code {
+  padding: 2px 6px;
+  font-size: 90%;
+}
+
+/* ----------------------------------------------------------------
+   Links — smooth transitions
+   ---------------------------------------------------------------- */
+a:link, a:visited, a:active {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color var(--pr-transition);
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ----------------------------------------------------------------
+   Search — polished autocomplete
+   ---------------------------------------------------------------- */
+#search_form input {
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-size: 14px;
+  border-radius: 999px;
+  padding: 6px 14px;
+  border: 1px solid var(--hamburger-border-color);
+  background: var(--hamburger-bg-color);
+  color: var(--text-color);
+  transition: border-color var(--pr-transition), box-shadow var(--pr-transition);
+  outline: none;
+}
+
+#search_form input:focus {
+  border-color: var(--pr-accent);
+  box-shadow: 0 0 0 3px var(--pr-accent-soft);
+}
+
+#autocomplete_results {
+  border-radius: 0 0 var(--pr-radius-lg) var(--pr-radius-lg);
+  border: 1px solid var(--hamburger-border-color);
+  box-shadow: var(--pr-shadow-card);
+  overflow: hidden;
+}
+
+#autocomplete_results a {
+  padding: 8px 12px;
+  transition: background var(--pr-transition);
+  border-left: 3px solid transparent;
+}
+
+#autocomplete_results .selected .result_link a {
+  background: var(--pr-accent-soft);
+  border-left-color: var(--pr-accent);
+}
+
+/* ----------------------------------------------------------------
+   Tags and pills
+   ---------------------------------------------------------------- */
+.tags li {
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-color: var(--tags-border-color);
+  transition: background var(--pr-transition);
+}
+
+.tags li:hover {
+  background: var(--pr-accent-soft);
+}
+
+/* ----------------------------------------------------------------
+   Dark/light theme switcher — refined radio buttons
+   ---------------------------------------------------------------- */
+#color-theme-switcher input {
+  border-radius: 50%;
+  transition: border-color var(--pr-transition), box-shadow var(--pr-transition);
+}
+
+#color-theme-switcher input:checked {
+  box-shadow: 0 0 0 2px var(--pr-accent-soft);
+}
+
+#color-theme-dark { background-color: #0b1020; }
+#color-theme-light { background-color: #f7f4ee; }
+#color-theme-system {
+  background-image: linear-gradient(60deg, #0b1020, #0b1020 50%, #f7f4ee 50%, #f7f4ee);
+}
+
+/* ----------------------------------------------------------------
+   Scrollbar — minimal, matching the palette
+   ---------------------------------------------------------------- */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+*:hover {
+  scrollbar-color: rgba(178, 143, 255, 0.3) transparent;
+}
+
+/* Webkit scrollbar (Safari, Chrome) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(178, 143, 255, 0.2);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(178, 143, 255, 0.4);
+}
+
+/* ----------------------------------------------------------------
+   Responsive refinements
+   ---------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  label[for="nav_toggle"] {
+    border-radius: var(--pr-radius);
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-weight: 700;
+    padding: 6px 12px;
+    transition: background var(--pr-transition);
+  }
+
+  label[for="nav_toggle"]:hover {
+    background: var(--pr-accent-soft);
+  }
+}
+
+/* ----------------------------------------------------------------
+   Selection highlight — brand accent
+   ---------------------------------------------------------------- */
+::selection {
+  background: rgba(178, 143, 255, 0.25);
+  color: inherit;
+}
+
+/* ----------------------------------------------------------------
+   Subtle page transitions — fade content in
+   ---------------------------------------------------------------- */
+main {
+  animation: fadeIn 300ms cubic-bezier(.22, 1, .36, 1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ----------------------------------------------------------------
+   Tactic/note blocks — refined separators
+   ---------------------------------------------------------------- */
+.tactic, .note {
+  border-top: 2px solid var(--pr-accent);
+  border-radius: 0;
+}
+
+/* ----------------------------------------------------------------
+   Implicit arguments — smoother fade
+   ---------------------------------------------------------------- */
+.decl_header:not(:hover) .impl_arg,
+.constructor:not(:hover) .impl_arg,
+.structure_field_info:not(:hover) .impl_arg {
+  opacity: 25%;
+  transition: opacity 600ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.impl_arg {
+  transition: opacity 200ms cubic-bezier(.22, 1, .36, 1);
+}
+
+/* ----------------------------------------------------------------
+   Print styles — clean output
+   ---------------------------------------------------------------- */
+@media print {
+  header { position: static; border-bottom: 1px solid #ccc; }
+  header::after { display: none; }
+  .nav, .internal_nav { display: none; }
+  main { margin: 0; max-width: 100%; }
+  .decl { box-shadow: none; border: 1px solid #ddd; }
+  a { color: inherit; }
+  a::after { content: " (" attr(href) ")"; font-size: 80%; color: #666; }
+}
