@@ -33,37 +33,33 @@
     </div>
   </div>
 
-  <script type="module">
-    // Pagefind search initialization
-    async function initSearch() {
-      try {
-        const pagefindPath = "{{ '/pagefind/pagefind-ui.js' | relative_url }}";
-        const { PagefindUI } = await import(pagefindPath);
+  <script>
+    // Pagefind search initialization (uses globally loaded PagefindUI from head.html)
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof PagefindUI !== 'undefined') {
         new PagefindUI({
           element: "#search-container",
           showSubResults: true,
           showImages: false,
-          resetStyles: false,
         });
-      } catch (e) {
+      } else {
         document.getElementById('search-container').innerHTML =
-          '<p style="padding:16px;color:#5b6772;font-size:0.88rem;">Search index not yet available. Run <code>npx pagefind --site _site</code> after building.</p>';
+          '<p style="padding:16px;color:#5b6772;font-size:0.88rem;">Search will be available once the site is deployed.</p>';
       }
-    }
-    initSearch();
+    });
 
-    window.openSearch = function() {
+    function openSearch() {
       document.getElementById('search-overlay').hidden = false;
       document.body.style.overflow = 'hidden';
-      setTimeout(() => {
-        const input = document.querySelector('#search-container input');
+      setTimeout(function() {
+        var input = document.querySelector('#search-container input');
         if (input) input.focus();
       }, 100);
-    };
-    window.closeSearch = function() {
+    }
+    function closeSearch() {
       document.getElementById('search-overlay').hidden = true;
       document.body.style.overflow = '';
-    };
+    }
 
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') closeSearch();
