@@ -69,16 +69,31 @@ def clean_latex(s):
     s = re.sub(r"\{\\em\s+([^}]*)\}", r"\1", s)
     s = s.replace("\\&", "&")
     s = s.replace("\\%", "%")
-    s = s.replace("\\'e", "e")
-    s = s.replace("\\'a", "a")
-    s = s.replace('\\"o', "o")
-    s = s.replace('\\"u', "u")
-    s = s.replace('\\"a', "a")
-    s = s.replace("\\`e", "e")
-    s = s.replace("\\^e", "e")
-    s = s.replace("\\c{c}", "c")
+    # Accented characters — comprehensive
+    s = re.sub(r"\\'([aeiouncAEIOUNC])", r"\1", s)  # \'e → e
+    s = re.sub(r'\\\"([aeiouyAEIOUY])', r"\1", s)   # \"o → o
+    s = re.sub(r"\\`([aeiouyAEIOUY])", r"\1", s)     # \`e → e
+    s = re.sub(r"\\\^([aeiouyAEIOUY])", r"\1", s)    # \^e → e
+    s = re.sub(r"\\~([anoANO])", r"\1", s)            # \~n → n
+    s = re.sub(r"\\c\{([cC])\}", r"\1", s)           # \c{c} → c
+    s = re.sub(r"\\v\{([a-zA-Z])\}", r"\1", s)       # \v{s} → s
+    s = re.sub(r"\\k\{([a-zA-Z])\}", r"\1", s)       # \k{a} → a
+    s = re.sub(r"\\[Hud]\{([a-zA-Z])\}", r"\1", s)   # \H{o}, \u{a}, \d{t} → o, a, t
+    # Common LaTeX symbols
+    s = s.replace("\\ss", "ss")
+    s = s.replace("\\o", "o")
+    s = s.replace("\\O", "O")
+    s = s.replace("\\ae", "ae")
+    s = s.replace("\\AE", "AE")
+    s = s.replace("\\i", "i")
+    s = s.replace("\\l", "l")
+    s = s.replace("\\L", "L")
+    # Remove any remaining backslash commands (catch-all for \in, \alpha, etc.)
+    s = re.sub(r"\\[a-zA-Z]+", "", s)
+    # Dashes
     s = s.replace("---", "\u2014")
     s = s.replace("--", "\u2013")
+    # Clean braces and whitespace
     s = re.sub(r"[{}]", "", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
@@ -254,14 +269,10 @@ def yaml_str(s):
     """Safely quote a string for YAML frontmatter."""
     if not s:
         return '""'
-    # If it contains special characters, quote it
-    if any(c in s for c in ':"\'{}[]&*?|>!%@`#,'):
-        escaped = s.replace('"', '\\"')
-        return f'"{escaped}"'
-    if s.startswith(("-", " ")) or s.endswith(" "):
-        escaped = s.replace('"', '\\"')
-        return f'"{escaped}"'
-    return f'"{s}"'
+    # Always double-quote and escape problematic characters
+    escaped = s.replace("\\", "\\\\")  # backslashes first
+    escaped = escaped.replace('"', '\\"')
+    return f'"{escaped}"'
 
 
 # ─── Generator ────────────────────────────────────────────────────────────────
