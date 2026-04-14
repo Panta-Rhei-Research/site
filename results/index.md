@@ -37,6 +37,8 @@ Every result distinguishes:
 - The **canonical grounding** — where in books, framework, [registry]({{ '/registry/' | relative_url }})
 - The **[verification]({{ '/verify/' | relative_url }}) route** — how to inspect further
 
+**Overall status:** 197 Resolved, 20 Partial, 2 Qualitative, 6 Contradicted, 9 Not Addressed. Every result carries an explicit [scope label]({{ '/results/status-and-claim-typing/' | relative_url }}). For guidance on reading result pages, see [How to Read a Result Page]({{ '/results/how-to-read-a-result-page/' | relative_url }}).
+
 ## Featured Results
 
 - [Central Theorem: O(τ³) ≅ A_spec(L)](/results/problem/central-theorem/) — The algebra of holomorphic functions on τ³ is isomorphic to the spectral algebra of the lemniscate boundary — interior f

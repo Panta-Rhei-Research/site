@@ -19,6 +19,8 @@ right_rail:
 
 ## Results by Domain
 
+The 234 results are organized into four domains corresponding to the [framework's enrichment layers]({{ '/framework/mathematics-canonical-ladder/' | relative_url }}): Mathematics (<math><msub><mi>E</mi><mn>0</mn></msub></math>, 76 results), Physics (<math><msub><mi>E</mi><mn>1</mn></msub></math>, 60 results), Biology (<math><msub><mi>E</mi><mn>2</mn></msub></math>, 53 results), and Philosophy (<math><msub><mi>E</mi><mn>3</mn></msub></math>, 45 results). Each result carries a [typed epistemic status]({{ '/results/status-and-claim-typing/' | relative_url }}): Resolved (R), Partial (P), Qualitative (Q), Contradicted (C), or Not Addressed (N).
+
 ### [Biology](/results/topic/biology/) — 53 results
 
 - [Abiogenesis Is Inevitable: Life Is a Thermodynamic Attractor](/results/problem/abiogenesis-inevitability/) — Resolved
