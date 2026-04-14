@@ -19,6 +19,8 @@ right_rail:
 
 ## All Results (234)
 
+All 234 results in alphabetical order. Each carries a [typed epistemic status]({{ '/results/status-and-claim-typing/' | relative_url }}) and a result kind (Frontier Problem, Foundational Math, or Consequence). For domain-grouped or book-grouped views, see [By Domain]({{ '/results/by-domain/' | relative_url }}) or [By Book]({{ '/results/by-book/' | relative_url }}).
+
 - [0νββ / Majorana Neutrinos](/results/problem/0-majorana-neutrinos/) — *Frontier Problem* · Resolved
 - [ABC Conjecture](/results/problem/abc-conjecture/) — *Frontier Problem* · Not Addressed
 - [Abiogenesis Is Inevitable: Life Is a Thermodynamic Attractor](/results/problem/abiogenesis-inevitability/) — *Frontier Problem* · Resolved

@@ -14,7 +14,9 @@ right_rail:
 
 ## Physics
 
-60 results in this topic area.
+60 results across particle physics, cosmology, gravity, condensed matter, and nuclear physics. The physics results span the <math><msub><mi>E</mi><mn>1</mn></msub></math> layer -- both the [microcosm]({{ '/framework/physics-self-description/' | relative_url }}) (fiber <math><msup><mi>T</mi><mn>2</mn></msup></math>, Book IV) and the [macrocosm]({{ '/framework/physics-hermetic-principle/' | relative_url }}) (base <math><msup><mi>&tau;</mi><mn>1</mn></msup></math>, Book V). Crown jewels include the [fine-structure constant]({{ '/results/problem/fine-structure-constant-alpha-inverse-137/' | relative_url }}) at 9.8 ppm, the [Hubble tension resolution]({{ '/results/problem/hubble-tension-resolved-h-formula/' | relative_url }}) at -120 ppm, the [dark sector closure]({{ '/results/problem/no-dark-matter-particle/' | relative_url }}), and the [CMB pipeline]({{ '/results/problem/tensor-to-scalar-ratio/' | relative_url }}) pre-registered for CMB-S4. All derived from <math><mrow><msub><mi>&iota;</mi><mi>&tau;</mi></msub><mo>=</mo><mfrac><mn>2</mn><mrow><mi>&pi;</mi><mo>+</mo><mi>e</mi></mrow></mfrac></mrow></math> with zero free parameters.
+
+**Status:** 48 Resolved, 6 Partial, 3 Contradicted, 3 Not Addressed.
 
 ## Results
 

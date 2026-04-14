@@ -14,7 +14,9 @@ right_rail:
 
 ## Biology
 
-53 results in this topic area.
+53 results across the origin of life, the genetic code, evolution, ecology, and the cosmic life spectrum. The biology results form the <math><msub><mi>E</mi><mn>2</mn></msub></math> layer -- where [Distinction and SelfDesc]({{ '/framework/life-life-defined/' | relative_url }}) replace classical laundry-list definitions of life, and the [seven hallmarks]({{ '/framework/life-seven-hallmarks/' | relative_url }}) are derived as theorems. Highlights include [abiogenesis as thermodynamic inevitability]({{ '/results/problem/abiogenesis-inevitability/' | relative_url }}), the [genetic code's BSD-motivic structure]({{ '/results/problem/homochirality-universality-12-step-derivation/' | relative_url }}) (top 0.01% error minimization), [black holes satisfy all seven hallmarks]({{ '/results/problem/black-holes-alive/' | relative_url }}), and the [Crossing-Limit Theorem]({{ '/framework/life-crossing-limit/' | relative_url }}) (merger net converges to <math><msub><mi>&iota;</mi><mi>&tau;</mi></msub></math>).
+
+**Status:** 47 Resolved, 1 Partial, 1 Qualitative, 1 Contradicted, 3 Not Addressed.
 
 ## Results
 

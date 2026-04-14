@@ -21,7 +21,7 @@ right_rail:
 
 ## Results by Canonical Book
 
-Results are grouped by the book(s) where their canonical derivation is grounded. Some results appear under multiple books when the argument spans volumes.
+Results are grouped by the [canonical book]({{ '/publications/books/' | relative_url }}) where their derivation is grounded. Some results appear under multiple books when the argument spans volumes. The seven books follow the [enrichment ladder]({{ '/framework/mathematics-canonical-ladder/' | relative_url }}): Books I-III (mathematics), Books IV-V (physics), Book VI (life), Book VII (metaphysics).
 
 ### [Book I: Categorical Foundations]({{ '/publications/books/book-i/' | relative_url }}) — 24 results
 *How Mathematics Is Earned* · E₀ Mathematics
