@@ -33,10 +33,25 @@ right_rail:
 
 ## Overview
 
-Two independent routes converge on the same identity; the gravitational constant is derived from α and structural geometry.
+The **hierarchy problem** -- why gravity is <math><msup><mn>10</mn><mn>32</mn></msup></math> times weaker than electromagnetism -- is one of the great unsolved puzzles of physics. The Standard Model offers no explanation. In Category <math><mi>&tau;</mi></math>, the ratio is a structural consequence of the [sector template]({{ '/framework/mathematics-sector-template/' | relative_url }}): two independent derivation routes converge on the same **gravitational closing identity** (V.T04), predicting the gravitational coupling constant <math><msub><mi>&alpha;</mi><mi>G</mi></msub></math> to approximately **3 parts per million**.
 
-This module belongs to the **Physics** layer (E1) within the **macrocosm** strand.
+## The Core Idea
 
-## Canonical Source
+The gravitational closing identity (V.D11) expresses the gravitational coupling as a function of the [fine-structure constant]({{ '/framework/physics-fine-structure/' | relative_url }}) <math><mi>&alpha;</mi></math> and structural geometry:
 
-This module traces to **Book V**, Part V.2.
+<math display="block"><mrow><msub><mi>&alpha;</mi><mi>G</mi></msub><mo>=</mo><msup><mi>&alpha;</mi><mn>18</mn></msup><mo>&sdot;</mo><msqrt><mn>3</mn></msqrt><mo>&sdot;</mo><mrow><mo>(</mo><mn>1</mn><mo>&minus;</mo><mfrac><mrow><mn>3</mn><mi>&alpha;</mi></mrow><mi>&pi;</mi></mfrac><mo>)</mo></mrow></mrow></math>
+
+The exponent 18 arises from the product of four orbit channels (each contributing a fourth power of <math><mi>&alpha;</mi></math>) plus a quadratic correction from the [lemniscate]({{ '/framework/mathematics-prime-polarity/' | relative_url }}) capacity. The factor <math><msqrt><mn>3</mn></msqrt></math> is the same lemniscate capacity that appears in the [electron mass prediction]({{ '/framework/physics-electron-mass/' | relative_url }}). The correction <math><mrow><mo>(</mo><mn>1</mn><mo>&minus;</mo><mn>3</mn><mi>&alpha;</mi><mo>/</mo><mi>&pi;</mi><mo>)</mo></mrow></math> is a radiative correction from the EM sector.
+
+Two independent derivation routes (V.T04) converge on this identity: one via the [spectral algebra]({{ '/framework/mathematics-spectral-algebra/' | relative_url }}) of sector couplings, the other via the torus vacuum shape ratio <math><mrow><mi>r</mi><mo>/</mo><mi>R</mi><mo>=</mo><msub><mi>&iota;</mi><mi>&tau;</mi></msub></mrow></math>. Their agreement is a structural consistency check.
+
+## Why This Matters
+
+The hierarchy between gravity and electromagnetism is now *explained*: it is the 18th power of <math><mi>&alpha;</mi></math>. This explains why gravity is weak -- it is exponentially suppressed by the fine-structure constant. The 3 ppm precision makes this one of the framework's most testable predictions.
+
+## Key Claims
+
+1. **V.T04** -- Gravitational closing identity: two routes converge *(tau-effective)*
+2. **V.D11** -- <math><mrow><msub><mi>&alpha;</mi><mi>G</mi></msub><mo>=</mo><msup><mi>&alpha;</mi><mn>18</mn></msup><mo>&sdot;</mo><msqrt><mn>3</mn></msqrt><mo>&sdot;</mo><mo>(</mo><mn>1</mn><mo>&minus;</mo><mn>3</mn><mi>&alpha;</mi><mo>/</mo><mi>&pi;</mi><mo>)</mo></mrow></math> at ~3 ppm *(tau-effective)*
+3. Hierarchy problem resolved: gravity's weakness is the 18th power of <math><mi>&alpha;</mi></math> *(tau-effective)*
+4. Lemniscate capacity <math><msqrt><mn>3</mn></msqrt></math> connects gravitational and [electron mass]({{ '/framework/physics-electron-mass/' | relative_url }}) derivations *(tau-effective)*
