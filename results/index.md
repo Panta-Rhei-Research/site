@@ -75,6 +75,17 @@ The [Life World Readout]({{ '/results/world-readout/life/' | relative_url }}) de
 - [The Morphological Grammar of Life]({{ '/results/world-readout/life/the-morphological-grammar-of-life-four-plus-one-sectors/' | relative_url }}) — E2 sector structure and the tree of life
 - [Grounded in Physics, Irreducible in Life]({{ '/results/world-readout/life/grounded-in-physics-irreducible-in-life/' | relative_url }}) — biology as enriched physics
 
+## Metaphysics World Readout
+
+The [Metaphysics World Readout]({{ '/results/world-readout/metaphysics/' | relative_url }}) is the terminal reflective layer of the enrichment ladder — the place where the framework becomes maximally formal about reflection itself. Six pages in sequence, closing at the boundary where proof meets commitment:
+
+- [The Final Self-Enrichment: Why There Is No E4]({{ '/results/world-readout/metaphysics/the-final-self-enrichment-why-there-is-no-e4/' | relative_url }}) — why E3 is terminal
+- [Relational Ontology and Phenomenology]({{ '/results/world-readout/metaphysics/relational-ontology-and-phenomenology/' | relative_url }}) — what exists and how it is known
+- [Pattern, Language, and Proof]({{ '/results/world-readout/metaphysics/pattern-language-and-proof/' | relative_url }}) — beauty, symbol, logic, and truth at E3
+- [Dignity, Ethics, and Social Worlds]({{ '/results/world-readout/metaphysics/dignity-ethics-and-social-worlds/' | relative_url }}) — normativity and society as real structures
+- [Mind, Consciousness, and the Self-Model]({{ '/results/world-readout/metaphysics/mind-consciousness-and-the-self-model/' | relative_url }}) — selfhood, free will, and the hard problem
+- [Logos and the Final Boundary]({{ '/results/world-readout/metaphysics/logos-and-the-final-boundary/' | relative_url }}) — where proof meets commitment
+
 ## Featured Results
 
 - [Central Theorem: O(τ³) ≅ A_spec(L)](/results/problem/central-theorem/) — The algebra of holomorphic functions on τ³ is isomorphic to the spectral algebra of the lemniscate boundary — interior f
