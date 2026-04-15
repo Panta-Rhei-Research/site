@@ -1,0 +1,27 @@
+{%- comment -%}
+  breadcrumb-nav.html — Visual breadcrumb navigation.
+
+  Reads breadcrumb_items array from breadcrumb-data.html. Renders the same
+  data as the JSON-LD BreadcrumbList, preventing drift between visual and
+  structured markup.
+{%- endcomment -%}
+
+{%- include breadcrumb-data.html -%}
+
+{%- if has_breadcrumbs -%}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  {%- for item in breadcrumb_items -%}
+    {%- assign parts = item | split: '::' -%}
+    {%- assign item_name = parts[0] | strip -%}
+    {%- assign item_url = parts[1] | strip -%}
+    {%- if item_name != '' and item_url != '' -%}
+      {%- if forloop.last -%}
+  <span class="breadcrumb-current">{{ item_name }}</span>
+      {%- else -%}
+  <a href="{{ item_url | relative_url }}">{{ item_name }}</a>
+  <span class="breadcrumb-sep">/</span>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+</nav>
+{%- endif -%}

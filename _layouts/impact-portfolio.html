@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<div class="hero-card">
+{% include breadcrumb-nav.html %}
+
+<header class="hero-card">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Impact · Portfolio</span>
     {% if page.time_horizon != "" %}<span class="chip">{{ page.time_horizon | capitalize }} horizon</span>{% endif %}
@@ -12,10 +14,10 @@ layout: default
   {% if page.summary_short %}
   <p>{{ page.summary_short }}</p>
   {% endif %}
-</div>
+</header>
 
-<div class="content-card">
+<section class="content-card">
   <div class="prose">
     {{ content }}
   </div>
-</div>
+</section>

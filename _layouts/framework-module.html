@@ -11,7 +11,10 @@ layout: default
   {% endif %}
 {% endfor %}
 
-<div class="hero-card">
+{% include breadcrumb-nav.html %}
+
+<article class="module-article">
+<header class="hero-card">
   <div class="module-eyebrow-row">
     <span class="eyebrow">{{ layer_label }} · {{ page.strand | capitalize }}</span>
     <span class="eyebrow module-id-badge">{{ page.module_id }}</span>
@@ -30,9 +33,9 @@ layout: default
     <span class="chip">{{ page.key_registry | size }} registry anchors</span>
     {% endif %}
   </div>
-</div>
+</header>
 
-<div class="content-card">
+<section class="content-card">
   <div class="prose">
     {% if page.thesis %}
     <h2>Module Thesis</h2>
@@ -41,7 +44,8 @@ layout: default
 
     {{ content }}
   </div>
-</div>
+</section>
+</article>
 
 {% if page.depends_on.size > 0 or page.unlocks.size > 0 %}
 <div class="content-card">

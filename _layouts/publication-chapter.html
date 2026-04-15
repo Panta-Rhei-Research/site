@@ -2,19 +2,10 @@
 layout: default
 ---
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="{{ '/publications/' | relative_url }}">Publications</a>
-  <span class="breadcrumb-sep">/</span>
-  <a href="{{ '/publications/books/' | relative_url }}">Books</a>
-  <span class="breadcrumb-sep">/</span>
-  <a href="{{ page.canonical_book_url | relative_url }}">Book {{ page.book_id }}</a>
-  <span class="breadcrumb-sep">/</span>
-  <a href="{{ page.canonical_part_url | relative_url }}">{{ page.part_display | default: "Part" }}</a>
-  <span class="breadcrumb-sep">/</span>
-  <span class="breadcrumb-current">Chapter {{ page.chapter_number }}</span>
-</nav>
+{% include breadcrumb-nav.html %}
 
-<div class="hero-card">
+<article class="chapter-article">
+<header class="hero-card">
   <span class="eyebrow">Book {{ page.book_id }} · Chapter {{ page.chapter_number }}</span>
   <h1>{{ page.title }}</h1>
   {% if page.page_in_book %}
@@ -24,13 +15,14 @@ layout: default
     <a href="{{ page.canonical_book_url | relative_url }}" class="btn-secondary">Book {{ page.book_id }}</a>
     <a href="{{ page.canonical_part_url | relative_url }}" class="btn-secondary">{{ page.canonical_part_title | truncate: 40 }}</a>
   </div>
-</div>
+</header>
 
-<div class="content-card">
+<section class="content-card">
   <div class="prose">
     {{ content }}
   </div>
-</div>
+</section>
+</article>
 
 {% if page.prev_chapter_url or page.next_chapter_url %}
 <nav class="chapter-nav content-card" aria-label="Chapter navigation">

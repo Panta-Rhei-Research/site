@@ -1,0 +1,90 @@
+{%- comment -%}
+  breadcrumb-data.html — Single source of truth for breadcrumb hierarchies.
+
+  Computes a Liquid array `breadcrumb_items` of {name, url} pairs based on
+  page.layout and page front matter. Used by both breadcrumb-nav.html (visual)
+  and breadcrumb-jsonld.html (structured data) to prevent drift.
+
+  Array format: captured JSON-like string with entries separated by '|' and
+  fields separated by '::'. We then split on each use.
+
+  Design: we emit a single `breadcrumb_items_raw` string that downstream
+  includes parse. This is the simplest way to share a structured list in
+  Liquid without data files.
+{%- endcomment -%}
+
+{%- capture breadcrumb_items_raw -%}
+{%- case page.layout -%}
+
+{%- when 'publication-chapter' -%}
+Home::/|Publications::/publications/|Books::/publications/books/|Book {{ page.book_id }}::{{ page.canonical_book_url }}|{{ page.canonical_part_title | default: 'Part' | replace: '|', ' ' }}::{{ page.canonical_part_url }}|Chapter {{ page.chapter_number }}::{{ page.url }}
+
+{%- when 'publication-part' -%}
+Home::/|Publications::/publications/|Books::/publications/books/|Book {{ page.book_id }}::{{ page.canonical_book_url }}|{{ page.part_display | default: 'Part' | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'publication-book' -%}
+Home::/|Publications::/publications/|Books::/publications/books/|Book {{ page.book_id }}::{{ page.url }}
+
+{%- when 'publication-archive-book' -%}
+Home::/|Publications::/publications/|Archived Editions::/publications/archived/first-edition/|Book {{ page.book_id }} (1st Ed.)::{{ page.url }}
+
+{%- when 'framework-module' -%}
+{%- assign layer_name = 'Framework' -%}
+{%- case page.layer -%}
+  {%- when 'E0' -%}{%- assign layer_name = 'Mathematics' -%}{%- assign layer_url = '/framework/mathematics/' -%}
+  {%- when 'E1' -%}{%- assign layer_name = 'Physics' -%}{%- assign layer_url = '/framework/physics/' -%}
+  {%- when 'E2' -%}{%- assign layer_name = 'Life' -%}{%- assign layer_url = '/framework/life/' -%}
+  {%- when 'E3' -%}{%- assign layer_name = 'Metaphysics' -%}{%- assign layer_url = '/framework/metaphysics/' -%}
+  {%- else -%}{%- assign layer_url = '/framework/about/' -%}
+{%- endcase -%}
+Home::/|Framework::/framework/about/|{{ layer_name }}::{{ layer_url }}|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'result-page' -%}
+Home::/|Key Results::/results/|{{ page.topic | default: page.domain_group | default: 'Results' | replace: '|', ' ' | capitalize }}::/results/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'registry-object' -%}
+Home::/|Registry::/registry/|Book {{ page.book }}::/registry/books/book-{{ page.book | downcase }}/|{{ page.registry_id | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'registry-book' -%}
+Home::/|Registry::/registry/|Book {{ page.book_id | default: page.title }}::{{ page.url }}
+
+{%- when 'registry-dashboard' -%}
+Home::/|Registry::/registry/|Dashboard::{{ page.url }}
+
+{%- when 'bibliography-entry' -%}
+Home::/|Bibliography::/bibliography/|{{ page.domain_group | default: 'References' | replace: '|', ' ' }}::/bibliography/|{{ page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'research-note' -%}
+Home::/|Engage::/engage/|Research Notes::/research-notes/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'research-notes-index' -%}
+Home::/|Engage::/engage/|Research Notes::{{ page.url }}
+
+{%- when 'taulib-doc' -%}
+Home::/|Verify::/verify/|TauLib::/verify/taulib/|API Docs::/verify/taulib/docs/|{% if page.book %}Book {{ page.book }}::/verify/taulib/docs/|{% endif %}{{ page.title | truncate: 50 | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'impact-paper' -%}
+Home::/|Impact::/impact/|Portfolios::/impact/|{{ page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'impact-portfolio' -%}
+Home::/|Impact::/impact/|Portfolios::/impact/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'changelog-entry' -%}
+Home::/|Changelog::/changelog/|{{ page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'changelog-index' -%}
+Home::/|Changelog::{{ page.url }}
+
+{%- when 'bibliography-index' -%}
+Home::/|Bibliography::{{ page.url }}
+
+{%- endcase -%}
+{%- endcapture -%}
+
+{%- assign breadcrumb_items_raw = breadcrumb_items_raw | strip_newlines | strip -%}
+{%- if breadcrumb_items_raw != '' -%}
+  {%- assign breadcrumb_items = breadcrumb_items_raw | split: '|' -%}
+  {%- assign has_breadcrumbs = true -%}
+{%- else -%}
+  {%- assign has_breadcrumbs = false -%}
+{%- endif -%}
