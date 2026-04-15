@@ -65,6 +65,16 @@ The [Physics World Readout]({{ '/results/world-readout/physics/' | relative_url 
 - [What This Physics Makes True]({{ '/results/world-readout/physics/what-this-physics-makes-true/' | relative_url }}) — summary of consequence families
 - [Two Routes from Tau to Reality]({{ '/results/world-readout/physics/two-routes-from-tau-to-reality/' | relative_url }}) — ontic and empirical bridges
 
+## Life World Readout
+
+The [Life World Readout]({{ '/results/world-readout/life/' | relative_url }}) describes what life is in the Tau framework and how it emerges from E1 physics as a genuinely new layer of reality (E2). Five pages in sequence:
+
+- [Life as Self-Decoding Distinction]({{ '/results/world-readout/life/life-as-self-decoding-distinction/' | relative_url }}) — categorical definition of life; three orders of identity
+- [Rational Points, Codes, and the Possibility of Life]({{ '/results/world-readout/life/rational-points-codes-and-the-possibility-of-life/' | relative_url }}) — code-bearing structures and the bridge from E1 to E2
+- [Why Life Is Structurally Favored]({{ '/results/world-readout/life/why-life-is-structurally-favored-in-tau/' | relative_url }}) — dynamically favored, not accidental; black holes as maximally alive
+- [The Morphological Grammar of Life]({{ '/results/world-readout/life/the-morphological-grammar-of-life-four-plus-one-sectors/' | relative_url }}) — E2 sector structure and the tree of life
+- [Grounded in Physics, Irreducible in Life]({{ '/results/world-readout/life/grounded-in-physics-irreducible-in-life/' | relative_url }}) — biology as enriched physics
+
 ## Featured Results
 
 - [Central Theorem: O(τ³) ≅ A_spec(L)](/results/problem/central-theorem/) — The algebra of holomorphic functions on τ³ is isomorphic to the spectral algebra of the lemniscate boundary — interior f
