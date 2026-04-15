@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<div class="hero-card">
+{% include breadcrumb-nav.html %}
+
+<article class="registry-article">
+<header class="hero-card">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Registry · {{ page.object_type | capitalize }}</span>
     <span class="eyebrow module-id-badge">{{ page.registry_id }}</span>
@@ -23,11 +26,18 @@ layout: default
     {% if page.chapter %}<span class="chip">Ch. {{ page.chapter }}</span>{% endif %}
     {% if page.has_lean_link %}<span class="chip">Lean ✓</span>{% endif %}
   </div>
-</div>
+</header>
+
+<section class="content-card">
+  <div class="prose">
+    {{ content }}
+  </div>
+</section>
+</article>
 
 {% if page.depends_on.size > 0 or page.depended_by.size > 0 %}
-<div class="content-card">
-  <h2>Dependency Graph</h2>
+<section class="content-card" aria-labelledby="registry-dep-heading">
+  <h2 id="registry-dep-heading">Dependency Graph</h2>
 
   {% if page.depends_on.size > 0 %}
   <h3>Depends on ({{ page.dep_count }})</h3>
@@ -50,17 +60,15 @@ layout: default
     {% endfor %}
   </div>
   {% endif %}
-</div>
+</section>
 {% endif %}
 
 {% if page.lean_module != "" %}
-<div class="content-card">
-  <h2>Lean Formalization</h2>
+<section class="content-card" aria-labelledby="registry-lean-heading">
+  <h2 id="registry-lean-heading">Lean Formalization</h2>
   <p><strong>Module:</strong> <code>{{ page.lean_module }}</code></p>
   {% if page.lean_name != "" %}
   <p><strong>Symbol:</strong> <code>{{ page.lean_name }}</code></p>
   {% endif %}
-</div>
+</section>
 {% endif %}
-
-{{ content }}

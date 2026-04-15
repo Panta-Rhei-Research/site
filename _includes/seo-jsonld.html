@@ -1,0 +1,548 @@
+{%- comment -%}
+  seo-jsonld.html — Page-type-specific JSON-LD structured data.
+
+  Emits ONE <script type="application/ld+json"> block tailored to the page
+  type, plus an Organization reference where appropriate. For the homepage,
+  also emits the ResearchOrganization and WebSite schemas as a sibling block.
+
+  Schema.org types validated against Google Search Central guidelines for
+  scholarly/research content.
+{%- endcomment -%}
+
+{%- comment -%} Compute author JSON fragment (reused across schemas) {%- endcomment -%}
+{%- capture authors_json -%}[{"@type":"Person","name":"Thorsten Fuchs"},{"@type":"Person","name":"Anna-Sophie Fuchs"}]{%- endcapture -%}
+
+{%- comment -%} Compute publisher Organization reference {%- endcomment -%}
+{%- capture publisher_json -%}{"@type":"Organization","name":"Panta Rhei Research Program","url":"{{ site.url }}"}{%- endcapture -%}
+
+{%- comment -%} Escape the description for JSON embedding {%- endcomment -%}
+{%- capture json_description -%}{{ seo_description | strip_html | replace: '"', '\"' | replace: '\', '\\' | strip_newlines }}{%- endcapture -%}
+
+{%- capture json_title -%}{{ page.title | default: site.title | strip_html | replace: '"', '\"' }}{%- endcapture -%}
+
+{%- case page.layout -%}
+
+{%- when 'homepage' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": {{ json_title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "publisher": { "@id": "{{ site.url }}/#organization" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ResearchOrganization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "Panta Rhei Research Program",
+      "url": "{{ site.url }}",
+      "description": {{ site.description | jsonify }},
+      "founder": [
+        { "@type": "Person", "name": "Thorsten Fuchs" },
+        { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+      ],
+      "sameAs": ["https://github.com/Panta-Rhei-Research/taulib"]
+    }
+  ]
+}
+</script>
+
+{%- when 'program-doc' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
+  "primaryImageOfPage": { "@type": "ImageObject", "url": "{{ '/assets/og-image.png' | absolute_url }}" },
+  "mainEntity": {
+    "@type": "ResearchOrganization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}",
+    "founder": [
+      { "@type": "Person", "name": "Thorsten Fuchs" },
+      { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+    ]
+  }
+}
+</script>
+
+{%- when 'framework-module' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  }{% if page.layer %},
+  "about": {
+    "@type": "DefinedTerm",
+    "termCode": {{ page.layer | jsonify }},
+    "name": {{ page.layer | jsonify }}
+  }{% endif %}{% if page.strand %},
+  "articleSection": {{ page.strand | jsonify }}{% endif %}{% if page.module_id %},
+  "identifier": {{ page.module_id | jsonify }}{% endif %},
+  "isPartOf": { "@type": "CreativeWorkSeries", "name": "Panta Rhei Framework" }
+}
+</script>
+
+{%- when 'result-page' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  }{% if page.topic %},
+  "about": {
+    "@type": "DefinedTerm",
+    "name": {{ page.topic | jsonify }}
+  }{% endif %}{% if page.layer %},
+  "articleSection": {{ page.layer | jsonify }}{% endif %}
+}
+</script>
+
+{%- when 'publication-book' -%}
+{%- assign book_doi = nil -%}
+{%- for d in site.data.publications.dois -%}{% if d.slug == page.book_slug %}{% assign book_doi = d %}{% endif %}{%- endfor -%}
+{%- assign book_amazon = nil -%}
+{%- for a in site.data.publications.amazon -%}{% if a.slug == page.book_slug %}{% assign book_amazon = a %}{% endif %}{%- endfor -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": {{ json_title | jsonify }},{% if page.subtitle %}
+  "alternateName": {{ page.subtitle | jsonify }},{% endif %}
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  }{% if book_doi %},
+  "datePublished": {{ book_doi.publication_date | jsonify }},
+  "sameAs": {{ book_doi.version_doi_url | jsonify }},
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": {{ book_doi.version_doi | jsonify }}
+  }{% endif %}{% if book_amazon %},
+  "workExample": [
+    {
+      "@type": "Book",
+      "@id": "{{ page.url | absolute_url }}#ebook",
+      "bookFormat": "https://schema.org/EBook",
+      "isbn": {{ book_amazon.ebook_asin | jsonify }},
+      "url": {{ book_amazon.ebook_url_amazon_com | jsonify }},
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": [
+          { "@type": "EntryPoint", "urlTemplate": {{ book_amazon.ebook_url_amazon_com | jsonify }} },
+          { "@type": "EntryPoint", "urlTemplate": {{ book_amazon.ebook_url_amazon_de | jsonify }} }
+        ]
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "{{ page.url | absolute_url }}#hardcover",
+      "bookFormat": "https://schema.org/Hardcover",
+      "isbn": {{ book_amazon.hardcover_asin | jsonify }},
+      "url": {{ book_amazon.hardcover_url_amazon_com | jsonify }}
+    },
+    {
+      "@type": "Book",
+      "@id": "{{ page.url | absolute_url }}#paperback",
+      "bookFormat": "https://schema.org/Paperback",
+      "isbn": {{ book_amazon.paperback_asin | jsonify }},
+      "url": {{ book_amazon.paperback_url_amazon_com | jsonify }}
+    }
+  ]{% endif %},
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Panta Rhei Research Program",
+    "numberOfItems": 7
+  }
+}
+</script>
+
+{%- when 'publication-archive-book' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": {{ json_title | jsonify }},{% if page.subtitle %}
+  "alternateName": {{ page.subtitle | jsonify }},{% endif %}
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  },
+  "bookEdition": "1st Edition",
+  "datePublished": "2025-12-01"
+}
+</script>
+
+{%- when 'publication-part' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Chapter",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  }{% if page.part_number %},
+  "position": {{ page.part_number }}{% endif %}{% if page.canonical_book_url %},
+  "isPartOf": {
+    "@type": "Book",
+    "name": {{ page.canonical_book_title | default: 'Panta Rhei' | jsonify }},
+    "url": "{{ page.canonical_book_url | absolute_url }}"
+  }{% endif %}
+}
+</script>
+
+{%- when 'publication-chapter' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Chapter",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  }{% if page.chapter_number %},
+  "position": {{ page.chapter_number }}{% endif %}{% if page.page_in_book %},
+  "pageStart": {{ page.page_in_book }}{% endif %}{% if page.canonical_part_url %},
+  "isPartOf": {
+    "@type": "Chapter",
+    "name": {{ page.canonical_part_title | default: 'Part' | jsonify }},
+    "url": "{{ page.canonical_part_url | absolute_url }}",
+    "isPartOf": {
+      "@type": "Book",
+      "name": {{ page.canonical_book_title | default: 'Panta Rhei' | jsonify }},
+      "url": "{{ page.canonical_book_url | absolute_url }}"
+    }
+  }{% endif %}
+}
+</script>
+
+{%- when 'bibliography-entry' -%}
+{%- comment -%} Branch on entry_type for the right subtype {%- endcomment -%}
+{%- assign bib_type = 'CreativeWork' -%}
+{%- case page.entry_type -%}
+  {%- when 'article' -%}{%- assign bib_type = 'ScholarlyArticle' -%}
+  {%- when 'inproceedings' -%}{%- assign bib_type = 'ScholarlyArticle' -%}
+  {%- when 'book' -%}{%- assign bib_type = 'Book' -%}
+  {%- when 'inbook' -%}{%- assign bib_type = 'Book' -%}
+  {%- when 'incollection' -%}{%- assign bib_type = 'Book' -%}
+  {%- when 'phdthesis' -%}{%- assign bib_type = 'Thesis' -%}
+  {%- when 'mastersthesis' -%}{%- assign bib_type = 'Thesis' -%}
+{%- endcase -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ bib_type }}",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en"{% if page.authors and page.authors != '' %},
+  "author": {{ page.authors | strip_html | jsonify }}{% endif %}{% if page.year and page.year != '' %},
+  "datePublished": {{ page.year | jsonify }}{% endif %}{% if page.publisher and page.publisher != '' %},
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ page.publisher | jsonify }}
+  }{% endif %}{% if page.journal_or_booktitle and page.journal_or_booktitle != '' %},
+  "isPartOf": {
+    "@type": "{% if bib_type == 'ScholarlyArticle' %}Periodical{% else %}Book{% endif %}",
+    "name": {{ page.journal_or_booktitle | jsonify }}
+  }{% endif %}{% if page.volume and page.volume != '' %},
+  "volumeNumber": {{ page.volume | jsonify }}{% endif %}{% if page.pages and page.pages != '' %},
+  "pagination": {{ page.pages | jsonify }}{% endif %}{% if page.doi and page.doi != '' %},
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": {{ page.doi | jsonify }}
+  },
+  "sameAs": "https://doi.org/{{ page.doi }}"{% endif %}{% if page.isbn and page.isbn != '' %},
+  "isbn": {{ page.isbn | jsonify }}{% endif %}{% if page.arxiv and page.arxiv != '' %},
+  "citation": "arXiv:{{ page.arxiv }}"{% endif %}
+}
+</script>
+
+{%- when 'registry-object' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": {{ json_title | jsonify }},
+  "termCode": {{ page.registry_id | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "Panta Rhei Registry",
+    "url": "{{ '/registry/' | absolute_url }}"
+  }{% if page.object_type %},
+  "additionalType": {{ page.object_type | jsonify }}{% endif %}{% if page.book %},
+  "isPartOf": {
+    "@type": "Book",
+    "name": "Book {{ page.book }}",
+    "url": "{{ '/publications/books/book-' | append: page.book | downcase | append: '/' | absolute_url }}"
+  }{% endif %}
+}
+</script>
+
+{%- when 'research-note' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "image": "{{ '/assets/og-image.png' | absolute_url }}",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}",
+    "logo": { "@type": "ImageObject", "url": "{{ '/assets/og-image.png' | absolute_url }}" }
+  }{% if page.date %},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.date | date_to_xmlschema | jsonify }}{% endif %}{% if page.topics %},
+  "keywords": {{ page.topics | join: ', ' | jsonify }}{% endif %},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }
+}
+</script>
+
+{%- when 'changelog-entry' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en"{% if page.date %},
+  "dateModified": {{ page.date | date_to_xmlschema | jsonify }}{% endif %},
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- when 'taulib-doc' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "APIReference",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "programmingModel": "Lean 4",
+  "targetPlatform": "Lean 4",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "about": {
+    "@type": "SoftwareSourceCode",
+    "name": "TauLib",
+    "codeRepository": "https://github.com/Panta-Rhei-Research/taulib",
+    "programmingLanguage": "Lean 4"
+  }{% if page.module_name %},
+  "identifier": {{ page.module_name | jsonify }}{% endif %}
+}
+</script>
+
+{%- when 'impact-paper' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  },
+  "isPartOf": { "@type": "CollectionPage", "name": "Impact Portfolios" }
+}
+</script>
+
+{%- when 'impact-portfolio' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- when 'bibliography-index' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "numberOfItems": 1124,
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- when 'research-notes-index' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- when 'changelog-index' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- when 'registry-book' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- when 'registry-dashboard' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- when 'result-topic' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- else -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+}
+</script>
+
+{%- endcase -%}
+
+{%- comment -%} Append BreadcrumbList for pages that have one (Phase 4) {%- endcomment -%}
+{%- include breadcrumb-jsonld.html -%}

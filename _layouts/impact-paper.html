@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<div class="hero-card">
+{% include breadcrumb-nav.html %}
+
+<article class="impact-paper-article">
+<header class="hero-card">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Impact · Companion Paper</span>
     {% if page.portfolio_id != "" %}<span class="chip">{{ page.portfolio_id | replace: "impact-", "" | capitalize }}</span>{% endif %}
@@ -17,10 +20,11 @@ layout: default
     <a href="{{ '/impact/portfolio/' | append: pf_slug | append: '/' | relative_url }}" class="btn-secondary">Back to Portfolio</a>
     {% endif %}
   </div>
-</div>
+</header>
 
-<div class="content-card">
+<section class="content-card">
   <div class="prose">
     {{ content }}
   </div>
-</div>
+</section>
+</article>

@@ -1,17 +1,77 @@
+{%- comment -%}
+  head.html — Hand-crafted SEO. No jekyll-seo-tag.
+
+  Emits exactly one of each meta tag per page:
+    - <title>
+    - <meta name="description">
+    - Open Graph (og:*)
+    - Twitter Card (summary_large_image)
+    - canonical link
+    - robots directive
+    - theme-color, favicon, viewport, charset
+    - Font preconnect + Inter
+    - Main CSS + Pagefind search
+    - Skip-link style
+    - Page-type JSON-LD (via seo-jsonld.html)
+    - Google Scholar + Dublin Core meta (via scholar-citation-meta.html)
+    - Umami analytics
+{%- endcomment -%}
+
+{%- include seo-description.html -%}
+
+{%- comment -%} og:type per layout: article for most content, book for publication-book, website for indexes {%- endcomment -%}
+{%- case page.layout -%}
+  {%- when 'homepage' -%}{%- assign og_type = 'website' -%}
+  {%- when 'publication-book' -%}{%- assign og_type = 'book' -%}
+  {%- when 'publication-archive-book' -%}{%- assign og_type = 'book' -%}
+  {%- when 'bibliography-index' -%}{%- assign og_type = 'website' -%}
+  {%- when 'changelog-index' -%}{%- assign og_type = 'website' -%}
+  {%- when 'research-notes-index' -%}{%- assign og_type = 'website' -%}
+  {%- when 'registry-dashboard' -%}{%- assign og_type = 'website' -%}
+  {%- when 'program-doc' -%}{%- assign og_type = 'website' -%}
+  {%- else -%}{%- assign og_type = 'article' -%}
+{%- endcase -%}
+
+{%- comment -%} Computed title: "Page Title — Site Title" except on homepage {%- endcomment -%}
+{%- if page.url == '/' or page.layout == 'homepage' -%}
+  {%- assign computed_title = site.title -%}
+{%- elsif page.title and page.title != site.title -%}
+  {%- assign computed_title = page.title | append: ' — ' | append: site.title -%}
+{%- else -%}
+  {%- assign computed_title = site.title -%}
+{%- endif -%}
+
+{%- comment -%} Robots directive: honor page.robots front matter, default to full indexing {%- endcomment -%}
+{%- assign robots_directive = page.robots | default: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' -%}
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if page.title and page.title != site.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-<meta name="description" content="{{ page.summary_short | default: site.description | strip_html | truncate: 160 }}">
+<title>{{ computed_title }}</title>
+<meta name="description" content="{{ seo_description }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta name="robots" content="{{ robots_directive }}">
+<meta name="generator" content="Jekyll">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ page.title | default: site.title }}">
-<meta property="og:description" content="{{ page.summary_short | default: site.description | strip_html | truncate: 200 }}">
-<meta property="og:type" content="website">
+<meta property="og:description" content="{{ seo_description }}">
+<meta property="og:type" content="{{ og_type }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_US">
 <meta property="og:image" content="{{ '/assets/og-image.png' | absolute_url }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ site.title }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ seo_description }}">
+<meta name="twitter:image" content="{{ '/assets/og-image.png' | absolute_url }}">
+
+<!-- Theme color (mobile browser UI tinting) -->
+<meta name="theme-color" content="#294b66">
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
@@ -23,7 +83,8 @@
 <!-- Fonts: Inter (UI) -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@380;400;500;520;580;600;650;700;800&display=swap" rel="stylesheet">
 
-<!-- Styles -->
+<!-- Styles: preload + stylesheet for faster LCP -->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <!-- Pagefind search (CSS + JS loaded from post-build index) -->
@@ -33,23 +94,11 @@
 <!-- Skip to content (a11y) -->
 <style>.skip-link{position:absolute;top:-100%;left:0;padding:8px 16px;background:#294b66;color:#fff;z-index:100;font-size:0.85rem;border-radius:0 0 8px 0;}.skip-link:focus{top:0;}</style>
 
-<!-- Structured data: Organization -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ResearchOrganization",
-  "name": "Panta Rhei Research Program",
-  "url": "{{ site.url }}",
-  "description": "{{ site.description | strip_html }}",
-  "founder": [
-    { "@type": "Person", "name": "Thorsten Fuchs" },
-    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
-  ],
-  "sameAs": ["https://github.com/Panta-Rhei-Research/taulib"]
-}
-</script>
+<!-- Google Scholar + Dublin Core citation metadata -->
+{%- include scholar-citation-meta.html -%}
+
+<!-- Structured data: page-type-specific JSON-LD -->
+{%- include seo-jsonld.html -%}
 
 <!-- Analytics: Umami (privacy-friendly, no cookies) -->
 <script defer src="https://cloud.umami.is/script.js" data-website-id="690d10bc-07c8-4025-aef0-7f3b6e7b5969" data-performance="true"></script>
-
-{% seo %}

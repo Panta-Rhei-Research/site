@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<div class="hero-card">
+{% include breadcrumb-nav.html %}
+
+<article class="result-article">
+<header class="hero-card">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Result · {{ page.layer | capitalize }}</span>
     {% if page.result_kind %}
@@ -41,10 +44,11 @@ layout: default
     <span class="chip">Book {{ book }}</span>
     {% endfor %}
   </div>
-</div>
+</header>
 
-<div class="content-card">
+<section class="content-card">
   <div class="prose">
     {{ content }}
   </div>
-</div>
+</section>
+</article>

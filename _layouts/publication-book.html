@@ -18,7 +18,10 @@ layout: default
   {% endif %}
 {% endfor %}
 
-<div class="hero-card book-hero">
+{% include breadcrumb-nav.html %}
+
+<article class="book-article">
+<header class="hero-card book-hero">
   <div class="book-hero-inner">
     <div class="book-hero-text">
       <span class="eyebrow">Publications · Books</span>
@@ -47,26 +50,27 @@ layout: default
       >
     </div>
   </div>
-</div>
+</header>
 
 {% include summary-cards.html %}
 
-<div class="content-card">
+<section class="content-card">
   <div class="prose">
     {{ content }}
   </div>
-</div>
+</section>
+</article>
 
 {% if doi_entry %}
-<div class="content-card doi-card">
-  <h2 class="format-section-title">Citation / DOI</h2>
+<section class="content-card doi-card" aria-labelledby="citation-doi-heading">
+  <h2 id="citation-doi-heading" class="format-section-title">Citation / DOI</h2>
   <div class="doi-block">
     <div class="doi-primary">
       <span class="doi-label">Zenodo DOI</span>
       <a href="{{ doi_entry.version_doi_url }}" class="doi-link" target="_blank" rel="noopener">{{ doi_entry.version_doi }}</a>
     </div>
     <div class="doi-citation">
-      {{ doi_entry.creators | join: " & " }} ({{ doi_entry.publication_date | slice: 0, 4 }}). <em>{{ doi_entry.title }}: {{ doi_entry.subtitle }}</em>. Panta Rhei Research Program, 2nd Edition. Zenodo. <a href="{{ doi_entry.version_doi_url }}" target="_blank" rel="noopener">{{ doi_entry.version_doi_url }}</a>
+      {{ doi_entry.creators | join: " & " }} (<time datetime="{{ doi_entry.publication_date }}">{{ doi_entry.publication_date | slice: 0, 4 }}</time>). <em>{{ doi_entry.title }}: {{ doi_entry.subtitle }}</em>. Panta Rhei Research Program, 2nd Edition. Zenodo. <a href="{{ doi_entry.version_doi_url }}" target="_blank" rel="noopener">{{ doi_entry.version_doi_url }}</a>
     </div>
     <div class="doi-meta">
       <a href="{{ doi_entry.record_url }}" class="btn-secondary format-btn" target="_blank" rel="noopener">Zenodo Record</a>
@@ -77,11 +81,11 @@ layout: default
     </div>
     <p class="doi-note">Canonical DOI for the current 2nd-edition manuscript record. Retail formats (Kindle, hardcover, paperback) share the same manuscript content.</p>
   </div>
-</div>
+</section>
 {% endif %}
 
 {% if amazon %}
-<div class="content-card">
+<section class="content-card" aria-labelledby="available-formats">
   <h2 class="format-section-title" id="available-formats">Available Formats</h2>
   <div class="format-cards">
 
@@ -139,5 +143,5 @@ layout: default
     </div>
 
   </div>
-</div>
+</section>
 {% endif %}

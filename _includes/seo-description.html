@@ -1,0 +1,83 @@
+{%- comment -%}
+  seo-description.html
+
+  Computes a unique, semantically rich meta description per page type.
+  Sets the `seo_description` variable (<= 300 chars) for use by head.html.
+
+  Must be included BEFORE any <meta name="description">, <meta property="og:description">,
+  or twitter:description tag is emitted.
+{%- endcomment -%}
+
+{%- capture seo_description_raw -%}
+{%- case page.layout -%}
+
+{%- when 'homepage' -%}
+{{ site.description }}
+
+{%- when 'bibliography-entry' -%}
+{{ page.authors | strip_html }} ({{ page.year }}). {{ page.title | strip_html }}.{% if page.journal_or_booktitle and page.journal_or_booktitle != '' %} {{ page.journal_or_booktitle | strip_html }}.{% endif %}{% if page.publisher and page.publisher != '' %} {{ page.publisher | strip_html }}.{% endif %} {{ page.role_display | default: 'Reference' }} for {{ page.domain_group | default: 'the research program' }}.
+
+{%- when 'registry-object' -%}
+{{ page.registry_id }} — {{ page.object_type | default: 'object' | capitalize }} in Book {{ page.book }}{% if page.chapter %}, Chapter {{ page.chapter }}{% endif %}{% if page.scope and page.scope != '' %} ({{ page.scope }}){% endif %}. {% if page.summary and page.summary != '' %}{{ page.summary | strip_html | strip_newlines | truncate: 180 }}{% else %}{{ page.title | strip_html }}{% endif %}
+
+{%- when 'framework-module' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% elsif page.thesis and page.thesis != '' %}{{ page.thesis | strip_html | truncate: 200 }}{% else %}{{ page.title }} — {{ page.layer }} framework module in the Panta Rhei research program.{% endif %}
+
+{%- when 'result-page' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}{{ page.title }} — Key result in the {{ page.layer | default: page.domain_group }} domain.{% endif %}
+
+{%- when 'publication-book' -%}
+{{ page.title }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %}. Book {{ page.book_id }} of the Panta Rhei Research Program, 2nd Edition (2026).
+
+{%- when 'publication-part' -%}
+{{ page.part_display | default: 'Part' }} of Book {{ page.book_id }}: {{ page.title }}.{% if page.summary_short and page.summary_short != '' %} {{ page.summary_short | strip_html | truncate: 200 }}{% endif %}
+
+{%- when 'publication-chapter' -%}
+Chapter {{ page.chapter_number }} of Book {{ page.book_id }}: {{ page.title }}.{% if page.page_in_book %} Printed page {{ page.page_in_book }}.{% endif %}{% if page.summary_short and page.summary_short != '' %} {{ page.summary_short | strip_html | truncate: 160 }}{% endif %}
+
+{%- when 'publication-archive-book' -%}
+{{ page.title }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %}. Archived First Edition (December 2025) of Book {{ page.book_id }}.
+
+{%- when 'research-note' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Research Note from {{ page.date | date: '%B %Y' }}: {{ page.title }}. Panta Rhei Research Program.{% endif %}
+
+{%- when 'changelog-entry' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Changelog entry: {{ page.title }}{% if page.date %} ({{ page.date | date: '%B %Y' }}){% endif %}.{% endif %}
+
+{%- when 'taulib-doc' -%}
+TauLib API reference: {{ page.module_name | default: page.title }}{% if page.book %} — Book {{ page.book }}{% if page.book_label and page.book_label != '' %} ({{ page.book_label }}){% endif %}{% endif %}. Lean 4 formalization of the Panta Rhei framework.
+
+{%- when 'impact-paper' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Impact paper: {{ page.title }}. Conditional public-good scenario in the Panta Rhei research program.{% endif %}
+
+{%- when 'impact-portfolio' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Impact portfolio: {{ page.title }}. Conditional deployment scenarios in the Panta Rhei research program.{% endif %}
+
+{%- when 'bibliography-index' -%}
+Bibliography of the Panta Rhei Research Program — 1,124 references across 8 domain groups, downloadable as BibTeX.
+
+{%- when 'research-notes-index' -%}
+Research Notes from the Panta Rhei Research Program — substantial explanatory essays published irregularly when there is something real to report.
+
+{%- when 'changelog-index' -%}
+Changelog for the Panta Rhei Research Program website — tracked updates and structural changes.
+
+{%- when 'registry-book' -%}
+Registry dashboard for Book {{ page.book_id | default: page.title }} — typed mathematical objects with dependency graphs and formalization status.
+
+{%- when 'registry-dashboard' -%}
+Registry dashboard — 4,547 typed mathematical objects across the seven books of the Panta Rhei Research Program.
+
+{%- when 'result-topic' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Results in the {{ page.title | downcase }} domain of the Panta Rhei Research Program.{% endif %}
+
+{%- when 'program-doc' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}{{ page.title }} — Panta Rhei Research Program.{% endif %}
+
+{%- else -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% elsif page.description and page.description != '' %}{{ page.description | strip_html }}{% else %}{{ site.description }}{% endif %}
+
+{%- endcase -%}
+{%- endcapture -%}
+
+{%- assign seo_description = seo_description_raw | strip_newlines | replace: '  ', ' ' | strip | truncate: 300 -%}

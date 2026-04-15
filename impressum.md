@@ -2,6 +2,7 @@
 layout: program-doc
 title: "Impressum"
 lane: utility
+lang: de
 permalink: /impressum/
 summary_short: "Anbieterkennzeichnung gemäß § 5 DDG."
 right_rail:

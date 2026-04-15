@@ -2,19 +2,22 @@
 layout: default
 ---
 
-<div class="hero-card">
+{% include breadcrumb-nav.html %}
+
+<article class="bibliography-article">
+<header class="hero-card">
   <span class="eyebrow">Bibliography &middot; {{ page.domain_group }}</span>
   <h1>{{ page.title }}</h1>
   <div class="chip-row" style="margin-top: 10px;">
-    <span class="chip">{{ page.year }}</span>
+    <span class="chip"><time datetime="{{ page.year }}">{{ page.year }}</time></span>
     <span class="chip">{{ page.type_display }}</span>
     <span class="chip">{{ page.role_display }}</span>
     <span class="chip">{{ page.domain_group }}</span>
   </div>
-</div>
+</header>
 
-<div class="content-card">
-  <h2>Citation</h2>
+<section class="content-card" aria-labelledby="bib-citation-heading">
+  <h2 id="bib-citation-heading">Citation</h2>
   <div class="citation-block">
     {{ page.formatted_citation | markdownify }}
   </div>
@@ -31,23 +34,23 @@ layout: default
     {% endif %}
   </div>
   {% endif %}
-</div>
+</section>
 
 {% if content != "" %}
-<div class="content-card">
-  <h2>Why this reference is included</h2>
+<section class="content-card" aria-labelledby="bib-role-heading">
+  <h2 id="bib-role-heading">Why this reference is included</h2>
   <div class="prose">
     {{ content }}
   </div>
-</div>
+</section>
 {% endif %}
 
-<div class="content-card">
-  <h2>Bibliographic Details</h2>
+<section class="content-card" aria-labelledby="bib-details-heading">
+  <h2 id="bib-details-heading">Bibliographic Details</h2>
   <div class="meta-list" style="font-size: 0.88rem;">
     <div class="meta-item"><span>BibTeX Key</span><span class="meta-value" style="font-family: var(--font-mono, monospace); font-size: 0.82rem;">{{ page.bib_key }}</span></div>
     <div class="meta-item"><span>Authors</span><span class="meta-value">{{ page.authors }}</span></div>
-    <div class="meta-item"><span>Year</span><span class="meta-value">{{ page.year }}</span></div>
+    <div class="meta-item"><span>Year</span><span class="meta-value"><time datetime="{{ page.year }}">{{ page.year }}</time></span></div>
     <div class="meta-item"><span>Type</span><span class="meta-value">{{ page.type_display }}</span></div>
     {% if page.journal_or_booktitle != "" %}
     <div class="meta-item"><span>Journal / Book</span><span class="meta-value">{{ page.journal_or_booktitle }}</span></div>
@@ -71,4 +74,5 @@ layout: default
     <div class="meta-item"><span>ISBN</span><span class="meta-value">{{ page.isbn }}</span></div>
     {% endif %}
   </div>
-</div>
+</section>
+</article>

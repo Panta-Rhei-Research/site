@@ -1,0 +1,33 @@
+{%- comment -%}
+  breadcrumb-jsonld.html — Emits BreadcrumbList structured data.
+
+  Reads breadcrumb_items array from breadcrumb-data.html (included here so
+  this include can be called independently from seo-jsonld.html or head.html).
+{%- endcomment -%}
+
+{%- include breadcrumb-data.html -%}
+
+{%- if has_breadcrumbs -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {%- for item in breadcrumb_items -%}
+      {%- assign parts = item | split: '::' -%}
+      {%- assign item_name = parts[0] | strip -%}
+      {%- assign item_url = parts[1] | strip -%}
+      {%- if item_name != '' and item_url != '' -%}
+        {%- unless forloop.first %},{%- endunless %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "name": {{ item_name | jsonify }},
+      "item": "{{ item_url | absolute_url }}"
+    }
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}
