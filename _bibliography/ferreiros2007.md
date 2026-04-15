@@ -2,10 +2,10 @@
 title: "Labyrinth of Thought: A History of Set Theory and Its Role in Modern Mathematics"
 bib_key: "Ferreiros2007"
 entry_type: "book"
-authors: "Ferreir\\'os, Jos\\'e"
+authors: "Ferreirós, José"
 year: "2007"
 journal_or_booktitle: ""
-publisher: "Birkh\\\"auser"
+publisher: "Birkhäuser"
 volume: ""
 number: ""
 pages: ""
@@ -19,7 +19,7 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Ferreir\\'os, Jos\\'e. (2007). *Labyrinth of Thought: A History of Set Theory and Its Role in Modern Mathematics*. Birkh\\\"auser."
+formatted_citation: "Ferreirós, José. (2007). *Labyrinth of Thought: A History of Set Theory and Its Role in Modern Mathematics*. Birkhäuser."
 right_rail:
   toc: false
   related:

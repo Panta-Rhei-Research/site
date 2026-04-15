@@ -4,7 +4,7 @@ bib_key: "Hurwitz1898"
 entry_type: "article"
 authors: "Adolf Hurwitz"
 year: "1898"
-journal_or_booktitle: "Nachrichten von der Gesellschaft der Wissenschaften zu G\"ottingen"
+journal_or_booktitle: "Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen"
 publisher: ""
 volume: ""
 number: ""
@@ -19,7 +19,7 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Adolf Hurwitz. (1898). *Uber die Komposition der quadratischen Formen von beliebig vielen Variablen*. Nachrichten von der Gesellschaft der Wissenschaften zu G\"ottingen. pp. 309–316."
+formatted_citation: "Adolf Hurwitz. (1898). *Uber die Komposition der quadratischen Formen von beliebig vielen Variablen*. Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen. pp. 309–316."
 right_rail:
   toc: false
   related:
