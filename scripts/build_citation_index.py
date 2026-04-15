@@ -51,23 +51,37 @@ PART_RE = re.compile(r"part(\d+)")
 # LaTeX text cleaners
 # ---------------------------------------------------------------------------
 
+# Accent patterns — carefully crafted to avoid matching longer commands like
+# \texorpdfstring, \textit, \circ, \beta, \delta, \varkappa, etc.
+#
+# Safe pattern: \ACCENT MUST be followed by either:
+#   - a brace group with a single letter: \"{o}, \c{s}
+#   - a single letter NOT followed by another letter: \"o , \'e , \~n (end of word)
+#
+# We require the letter+accent form uses negative lookahead to ensure the
+# letter isn't followed by more letters (which would indicate a longer command).
 LATEX_ACCENTS = [
-    # Umlaut
-    (re.compile(r'\\"\s*\{?([a-zA-Z])\}?'), lambda m: _combine_diacritic(m.group(1), "\u0308")),
+    # Umlaut: \"x or \"{x}
+    (re.compile(r'\\"\s*\{([a-zA-Z])\}'), lambda m: _combine_diacritic(m.group(1), "\u0308")),
+    (re.compile(r'\\"([a-zA-Z])(?![a-zA-Z])'), lambda m: _combine_diacritic(m.group(1), "\u0308")),
     # Acute
-    (re.compile(r"\\'\s*\{?([a-zA-Z])\}?"), lambda m: _combine_diacritic(m.group(1), "\u0301")),
+    (re.compile(r"\\'\s*\{([a-zA-Z])\}"), lambda m: _combine_diacritic(m.group(1), "\u0301")),
+    (re.compile(r"\\'([a-zA-Z])(?![a-zA-Z])"), lambda m: _combine_diacritic(m.group(1), "\u0301")),
     # Grave
-    (re.compile(r"\\`\s*\{?([a-zA-Z])\}?"), lambda m: _combine_diacritic(m.group(1), "\u0300")),
+    (re.compile(r"\\`\s*\{([a-zA-Z])\}"), lambda m: _combine_diacritic(m.group(1), "\u0300")),
+    (re.compile(r"\\`([a-zA-Z])(?![a-zA-Z])"), lambda m: _combine_diacritic(m.group(1), "\u0300")),
     # Circumflex
-    (re.compile(r"\\\^\s*\{?([a-zA-Z])\}?"), lambda m: _combine_diacritic(m.group(1), "\u0302")),
+    (re.compile(r"\\\^\s*\{([a-zA-Z])\}"), lambda m: _combine_diacritic(m.group(1), "\u0302")),
+    (re.compile(r"\\\^([a-zA-Z])(?![a-zA-Z])"), lambda m: _combine_diacritic(m.group(1), "\u0302")),
     # Tilde
-    (re.compile(r"\\~\s*\{?([a-zA-Z])\}?"), lambda m: _combine_diacritic(m.group(1), "\u0303")),
-    # Cedilla
-    (re.compile(r"\\c\s*\{?([a-zA-Z])\}?"), lambda m: _combine_diacritic(m.group(1), "\u0327")),
-    # Ring above
-    (re.compile(r"\\r\s*\{?([a-zA-Z])\}?"), lambda m: _combine_diacritic(m.group(1), "\u030A")),
-    # Caron
-    (re.compile(r"\\v\s*\{?([a-zA-Z])\}?"), lambda m: _combine_diacritic(m.group(1), "\u030C")),
+    (re.compile(r"\\~\s*\{([a-zA-Z])\}"), lambda m: _combine_diacritic(m.group(1), "\u0303")),
+    (re.compile(r"\\~([a-zA-Z])(?![a-zA-Z])"), lambda m: _combine_diacritic(m.group(1), "\u0303")),
+    # Cedilla \c{x} — require brace form to avoid matching \circ, \cite, etc.
+    (re.compile(r"\\c\s*\{([a-zA-Z])\}"), lambda m: _combine_diacritic(m.group(1), "\u0327")),
+    # Caron \v{x}
+    (re.compile(r"\\v\s*\{([a-zA-Z])\}"), lambda m: _combine_diacritic(m.group(1), "\u030C")),
+    # Double acute \H{x}
+    (re.compile(r"\\H\s*\{([a-zA-Z])\}"), lambda m: _combine_diacritic(m.group(1), "\u030B")),
 ]
 
 
@@ -142,6 +156,25 @@ GREEK = {
     r"\\mathbb\{Q\}": "ℚ",
     r"\\mathbb\{H\}": "ℍ",
     r"\\mathbb\{F\}": "𝔽",
+    r"\\circ": "∘",
+    r"\\ast": "∗",
+    r"\\pm": "±",
+    r"\\mp": "∓",
+    r"\\ldots": "…",
+    r"\\cdot": "·",
+    r"\\vdash": "⊢",
+    r"\\models": "⊨",
+    r"\\square": "□",
+    r"\\Box": "□",
+    r"\\Diamond": "◇",
+    r"\\lbrack": "[",
+    r"\\rbrack": "]",
+    r"\\{": "{",
+    r"\\}": "}",
+    r"\\;": " ",
+    r"\\!": "",
+    r"\\:": " ",
+    r"\\>": " ",
 }
 
 
@@ -184,27 +217,58 @@ def clean_context_text(text: str) -> str:
     text = CITE_RE.sub("", text)
     # Strip \footnote{...} entirely (content usually not needed)
     text = re.sub(r"\\footnote\s*\{(?:[^{}]|\{[^{}]*\})*\}", "", text)
-    # Unwrap \textit{x}, \textbf{x}, \emph{x}, \mbox{x}
-    for cmd in ["textit", "textbf", "emph", "mbox", "text", "textsc", "underline"]:
+    # \texorpdfstring{A}{B} → A  (we want the first/TeX version for display)
+    text = re.sub(
+        r"\\texorpdfstring\s*\{([^{}]*)\}\s*\{[^{}]*\}",
+        r"\1",
+        text,
+    )
+    # Strip \index{...} first (including nested braces) — this MUST run before
+    # the accent regex which would match \i as dotless-i.
+    # Nested index entries like \index{foo!bar@\textbf{baz}} need a deeper match.
+    for _ in range(3):
+        text = re.sub(r"\\index\s*\{(?:[^{}]|\{[^{}]*\})*\}", "", text)
+    # Strip \label{...}, \ref{...} and similar markup commands
+    for drop_cmd in ["label", "ref", "eqref", "pageref", "autoref",
+                     "nameref", "cref", "Cref", "caption"]:
+        text = re.sub(r"\\" + drop_cmd + r"\s*\{[^{}]*\}", "", text)
+    # Dash conversions: --- → em-dash, -- → en-dash (done before accent pass so
+    # the dashes are settled)
+    text = text.replace("---", "\u2014").replace("--", "\u2013")
+    # Strip \begin{env} ... \end{env} markers (keep content)
+    text = re.sub(r"\\begin\s*\{[^{}]*\}(?:\[[^\]]*\])?", "", text)
+    text = re.sub(r"\\end\s*\{[^{}]*\}", "", text)
+    # Resolve \% to %, \& to &, \_ to _, \# to #
+    text = text.replace(r"\%", "%").replace(r"\&", "&")
+    text = text.replace(r"\_", "_").replace(r"\#", "#")
+    # Resolve \colon → :
+    text = text.replace(r"\colon", ":")
+    # Resolve common math operator commands
+    text = text.replace(r"\to", "→").replace(r"\,", " ")
+    # LaTeX row/newline separator \\ → comma-space (for matrix rows)
+    text = re.sub(r"\\\\\s*", ", ", text)
+    # LaTeX forced space \<space> → <space>
+    text = re.sub(r"\\\s", " ", text)
+    # Unwrap \textit{x}, \textbf{x}, \emph{x}, \mbox{x} etc.
+    for cmd in ["textit", "textbf", "emph", "mbox", "text", "textsc",
+                "underline", "textsf", "texttt", "textsl"]:
         text = re.sub(r"\\" + cmd + r"\{([^{}]*)\}", r"\1", text)
-    # Resolve \% to %
-    text = text.replace(r"\%", "%")
     # Tilde-binding → space
     text = text.replace("~", " ")
     # Accents
     text = resolve_latex_accents(text)
     # Greek/math symbols
     text = resolve_greek(text)
-    # Strip remaining \command{...} → content
+    # Strip remaining \command{...} → content (one-arg commands)
     text = re.sub(r"\\[a-zA-Z]+\*?\s*\{([^{}]*)\}", r"\1", text)
     # Strip remaining bare \command
     text = re.sub(r"\\[a-zA-Z]+\*?", "", text)
-    # Strip leftover braces
-    text = text.replace("{", "").replace("}", "")
+    # Strip leftover braces and $ delimiters
+    text = text.replace("{", "").replace("}", "").replace("$", "")
     # Collapse whitespace
     text = re.sub(r"\s+", " ", text).strip()
     # Strip leading/trailing punctuation debris
-    text = text.strip(" ,.;:")
+    text = text.strip(" ,.;:—–-")
     return text
 
 
@@ -219,7 +283,22 @@ def find_chapter_title(src: str) -> str | None:
     if not match:
         return None
     title = match.group(1)
-    return clean_context_text(title) or None
+
+    # Use MathML converter for proper plain-text math handling
+    try:
+        import sys
+        from pathlib import Path
+        scripts_dir = Path(__file__).parent
+        if str(scripts_dir) not in sys.path:
+            sys.path.insert(0, str(scripts_dir))
+        from latex_to_mathml import convert_title
+        _, plain = convert_title(title)
+        # Further normalize
+        plain = re.sub(r"\s+", " ", plain).strip()
+        return plain or None
+    except Exception:
+        # Fallback
+        return clean_context_text(title) or None
 
 
 def parse_part_from_path(path: Path) -> str:
