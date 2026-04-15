@@ -6,6 +6,12 @@ lane: results
 section: "Results · Life World Readout"
 nav_order: 4
 summary_short: "Why life is not a freak accident in Tau but a structurally favored form of organization."
+key_registry:
+  - VI.T14
+  - VI.T27
+  - VI.T30
+  - VI.T32
+  - VI.R21
 right_rail:
   related:
   - title: Life World Readout
@@ -74,6 +80,15 @@ That means the universe is not merely compatible with life. It evolves into form
 ## Conclusion
 
 In Tau, life is not a marginal accident of a mostly lifeless cosmos. It is one of the structurally favored forms of organization toward which a coherent universe can evolve once code-bearing self-distinction becomes available. That is why life in Tau is not local ornament but a deep expression of the universe’s own architecture.
+
+
+## Canonical References
+
+- [VI.T14]({{ '/registry/object/VI.T14/' | relative_url }}) — Evolution as PPAS Optimization
+- [VI.T27]({{ '/registry/object/VI.T27/' | relative_url }}) — Evolution as Optimization
+- [VI.T30]({{ '/registry/object/VI.T30/' | relative_url }}) — BH SelfDesc Theorem
+- [VI.T32]({{ '/registry/object/VI.T32/' | relative_url }}) — BH Seven Hallmarks Verified
+- [VI.R21]({{ '/registry/object/VI.R21/' | relative_url }}) — BH Alive Is Theorem Not Metaphor
 
 ---
 

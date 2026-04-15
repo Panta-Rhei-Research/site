@@ -6,6 +6,11 @@ lane: results
 section: "Results · Life World Readout"
 nav_order: 6
 summary_short: "How E2 sits on E1 without collapsing into it."
+key_registry:
+  - VI.T04
+  - VI.D53
+  - VI.L08
+  - VI.D50
 right_rail:
   related:
   - title: Life World Readout
@@ -94,6 +99,14 @@ That means:
 ## Conclusion
 
 The detailed processes of life remain physical, but the structures that make those processes count as living—distinction, code, self-decoding, and optimization toward persistent identity—belong to E2 and are not native to E1 alone. Tau therefore treats life as fully natural, fully grounded, and yet irreducible in level.
+
+
+## Canonical References
+
+- [VI.T04]({{ '/registry/object/VI.T04/' | relative_url }}) — Layer Separation Lemma
+- [VI.D53]({{ '/registry/object/VI.D53/' | relative_url }}) — SelfDesc over Code Not Carrier
+- [VI.L08]({{ '/registry/object/VI.L08/' | relative_url }}) — Substrate Replacement Preserves Life-Equivalence
+- [VI.D50]({{ '/registry/object/VI.D50/' | relative_url }}) — PPAS Algorithm on Fitness Landscapes
 
 ---
 

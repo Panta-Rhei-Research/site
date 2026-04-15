@@ -6,6 +6,10 @@ lane: results
 section: "Results · Life World Readout"
 nav_order: 3
 summary_short: "Why raw E1 discreteness is not enough, and how stable code-bearing structures first become possible."
+key_registry:
+  - VI.D40
+  - VI.T22
+  - VI.P06
 right_rail:
   related:
   - title: Life World Readout
@@ -90,6 +94,13 @@ That is the formal substrate of life.
 ## Conclusion
 
 Tau therefore proposes that life becomes possible not merely because the world is discrete, but because the world is code-capable. Rational points and stabilized code structures provide the bridge by which E2 becomes thinkable. In this sense, the possibility of life is already encoded in the world before life visibly appears.
+
+
+## Canonical References
+
+- [VI.D40]({{ '/registry/object/VI.D40/' | relative_url }}) — BSD Motivic Structure of the Genetic Code
+- [VI.T22]({{ '/registry/object/VI.T22/' | relative_url }}) — Codon Degeneracy as Error Correction
+- [VI.P06]({{ '/registry/object/VI.P06/' | relative_url }}) — Thermodynamic Necessity at E2
 
 ---
 

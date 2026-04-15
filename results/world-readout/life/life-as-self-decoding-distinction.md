@@ -6,6 +6,11 @@ lane: results
 section: "Results · Life World Readout"
 nav_order: 2
 summary_short: "A categorical definition of life as self-decoding distinction."
+key_registry:
+  - VI.D04
+  - VI.D06
+  - VI.D67
+  - VI.T04
 right_rail:
   related:
   - title: Life World Readout
@@ -79,6 +84,14 @@ This is exactly what enrichment was needed for.
 Tau therefore does not define life by empirical checklist, by metabolism list, or by mere taxonomic habit. It identifies a structure that arises in E2: a self-decoding distinction whose identity persists across lower-level material change.
 
 That is why the framework claims not only to classify life, but to explain what kind of thing life is.
+
+
+## Canonical References
+
+- [VI.D04]({{ '/registry/object/VI.D04/' | relative_url }}) — Tau-Distinction
+- [VI.D06]({{ '/registry/object/VI.D06/' | relative_url }}) — SelfDesc Predicate
+- [VI.D67]({{ '/registry/object/VI.D67/' | relative_url }}) — Three Identity Regimes
+- [VI.T04]({{ '/registry/object/VI.T04/' | relative_url }}) — Layer Separation Lemma
 
 ---
 
