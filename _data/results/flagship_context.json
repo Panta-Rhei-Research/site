@@ -1,0 +1,82 @@
+{
+  "riemann-hypothesis": {
+    "problem_statement_short": "The Riemann Hypothesis asks whether every non-trivial zero of the Riemann zeta function has real part exactly 1/2. It is one of the seven Clay Millennium Problems and arguably the most famous open problem in pure mathematics.",
+    "why_hard_short": "Despite 160 years of attack by the deepest tools of analytic number theory, random matrix theory, and operator theory, no approach has produced a proof. The difficulty is that RH ties arithmetic (prime distribution) and complex analysis (zeta zeros) together in a way no existing framework cleanly bridges."
+  },
+  "p-vs-np": {
+    "problem_statement_short": "P vs NP asks whether every problem whose solution can be verified in polynomial time can also be solved in polynomial time. A positive answer would collapse the distinction between finding and checking across cryptography, optimization, and computer science.",
+    "why_hard_short": "Decades of work on relativization, natural proofs, and algebrization have shown that essentially all standard proof techniques are provably incapable of separating P from NP. Any resolution must use genuinely new methods that sidestep these known barriers."
+  },
+  "navier-stokes-regularity": {
+    "problem_statement_short": "Navier–Stokes regularity asks whether smooth initial data for the three-dimensional incompressible Navier–Stokes equations always yield globally smooth solutions, or whether finite-time blow-up can occur. It is one of the seven Clay Millennium Problems.",
+    "why_hard_short": "The equations are supercritical — the scaling that preserves them does not preserve any quantity strong enough to control vorticity. Every attempt since Leray's 1934 weak-solution framework has failed to rule out singularities at the critical spatial scale."
+  },
+  "yang-mills-mass-gap": {
+    "problem_statement_short": "The Yang–Mills mass gap problem asks whether a quantum Yang–Mills theory on four-dimensional spacetime exists as a rigorous mathematical object with a strictly positive mass gap — i.e. no massless excitations. It is the mathematical heart of why the strong force is short-ranged.",
+    "why_hard_short": "Non-perturbative quantum field theory on four-manifolds has resisted every formal construction attempted since the 1970s. Lattice approaches give numerical evidence but no continuum proof, and analytic approaches run into ultraviolet divergences that no renormalization scheme has tamed."
+  },
+  "bsd-conjecture-approach": {
+    "problem_statement_short": "The Birch and Swinnerton-Dyer conjecture predicts that the rank of an elliptic curve over the rationals equals the order of vanishing of its L-function at s = 1. It connects the arithmetic of rational points on curves to the analytic behavior of L-functions.",
+    "why_hard_short": "BSD has been proved only for rank 0 and 1 via the Gross–Zagier–Kolyvagin theorem; every attempt to extend to higher ranks has stalled. The obstruction is that the arithmetic and analytic sides speak different languages, and no bridge strong enough to cover all ranks has been found."
+  },
+  "hubble-tension-resolved-h-formula": {
+    "problem_statement_short": "The Hubble tension is the 5-sigma discrepancy between the Hubble constant measured from the early universe (Planck CMB: H₀ ≈ 67 km/s/Mpc) and from the late universe (SH0ES / JWST Cepheid-calibrated supernovae: H₀ ≈ 73 km/s/Mpc). The two values should agree within the standard ΛCDM cosmology but do not.",
+    "why_hard_short": "Every proposed resolution within ΛCDM — early dark energy, modified neutrino physics, changes to recombination — either fails to close the gap or breaks agreement with other cosmological observables. The tension appears to require either a systematic error nobody has found or new physics of a kind ΛCDM does not naturally accommodate."
+  },
+  "no-dark-matter-particle": {
+    "problem_statement_short": "Dark matter is the hypothesized non-luminous component making up roughly 85% of matter in the universe, inferred from galaxy rotation curves, gravitational lensing, and cosmic microwave background structure. The standard picture assumes a new fundamental particle (WIMP, axion, or similar) that has so far eluded all direct and indirect detection experiments.",
+    "why_hard_short": "Forty years of direct-detection experiments (LUX, XENON, CDMS, PandaX) have found nothing, collider searches at the LHC have produced no new particles at the required mass scales, and every proposed alternative (MOND, modified gravity) struggles with the Bullet Cluster and CMB peaks. The particle interpretation is increasingly constrained without being falsified."
+  },
+  "muon-g-2-anomaly": {
+    "problem_statement_short": "The muon anomalous magnetic moment (g−2) is the small quantum correction to the muon's intrinsic magnetic moment, one of the most precisely measured quantities in physics. Fermilab's 2023 combined result shows a ≈ 4-5 sigma tension with Standard Model predictions based on the e+e- data-driven calculation.",
+    "why_hard_short": "The tension depends critically on hadronic vacuum polarization — the most difficult Standard Model contribution to compute. Lattice QCD (BMW 2020) and data-driven methods disagree by about the size of the anomaly itself, and until the hadronic input is resolved the physics interpretation remains genuinely ambiguous."
+  },
+  "three-generations-matter": {
+    "problem_statement_short": "The Standard Model contains exactly three generations of fermions — electron, muon, tau leptons and their corresponding neutrinos and quarks — each a copy of the previous with heavier masses. Why three, and not two or seven, is one of the oldest unexplained facts in particle physics.",
+    "why_hard_short": "The Standard Model simply postulates three generations as an empirical input; nothing in its structure requires or predicts the number. Every attempt to derive it from grand unification, string theory, or flavor symmetry has either reproduced it as an additional assumption or failed to match the observed mass pattern."
+  },
+  "theta-qcd-0-strong-cp-problem": {
+    "problem_statement_short": "Quantum chromodynamics contains a dimensionless parameter θ that could in principle take any value between 0 and 2π, yet measurements of the neutron electric dipole moment constrain it to below 10⁻¹⁰. The question is why nature fine-tunes θ to zero with such extreme precision.",
+    "why_hard_short": "No Standard Model mechanism forbids a large θ; the usual explanation invokes a Peccei–Quinn symmetry and a hypothetical axion, but axion dark matter searches have so far found nothing. The strong CP problem is one of the few Standard Model fine-tunings with no empirical resolution after fifty years of searching."
+  },
+  "baryon-asymmetry": {
+    "problem_statement_short": "The observable universe contains vastly more matter than antimatter, with a baryon-to-photon ratio of about 6 × 10⁻¹⁰. Big Bang cosmology on its own predicts a symmetric universe — explaining where the asymmetry came from is one of the central open questions in cosmology.",
+    "why_hard_short": "Sakharov's three conditions (baryon number violation, C and CP violation, departure from equilibrium) are satisfiable in principle, but the Standard Model's CP violation is quantitatively far too small and its electroweak phase transition is too smooth. Every proposed mechanism — leptogenesis, GUT baryogenesis, Affleck–Dine — requires new physics that has not been observed."
+  },
+  "what-is-life": {
+    "problem_statement_short": "The question of what distinguishes living systems from non-living matter has no agreed definition. Biology, chemistry, and philosophy have produced dozens of proposed criteria — metabolism, replication, homeostasis, information processing — none of which draws a sharp boundary that survives all edge cases.",
+    "why_hard_short": "Every candidate definition either admits non-living counterexamples (fire metabolizes; crystals replicate) or excludes clear living entities (viruses, spores, certain extremophiles). The difficulty is that life appears to be a structural pattern across many scales, not a single property one can point to in any component."
+  },
+  "homochirality-universality-12-step-derivation": {
+    "problem_statement_short": "All known terrestrial life uses L-amino acids and D-sugars exclusively, despite both chiralities being chemically equivalent in abiotic conditions. Why life universally selected one enantiomer over the other is a 200-year-old puzzle going back to Louis Pasteur's first observations.",
+    "why_hard_short": "Prebiotic syntheses produce racemic mixtures, and no plausible environmental mechanism — polarized light, parity violation in weak decay, mineral surfaces — has been shown strong enough to amplify a small initial excess into the near-perfect enantiomeric purity that life exhibits. The selection appears to require structural principles no purely chemical account has provided."
+  },
+  "abiogenesis-timescale-bound": {
+    "problem_statement_short": "Abiogenesis asks how self-replicating, metabolizing, enclosed cells arose from non-living chemistry on the early Earth. The question of how long such a transition takes, and whether it is inevitable or a vanishingly rare accident, remains fundamentally unsettled.",
+    "why_hard_short": "The shortest plausible timescales inferred from the geological record (roughly 200–500 million years between a habitable Earth and the first fossil cells) leave little room for slow stochastic search. Every combinatorial estimate of the probability of assembling even a minimal proto-cell by random chemistry gives numbers so small that life seems to demand an accelerating principle."
+  },
+  "consciousness-global-section": {
+    "problem_statement_short": "Consciousness — the fact that there is something it is like to be a subject of experience — is among the most philosophically contested phenomena. Even agreeing on what a scientific theory of consciousness would look like is a live open problem, separate from explaining any specific experience.",
+    "why_hard_short": "Neuroscience can correlate conscious states with brain activity but cannot bridge the gap between third-person neural description and first-person experience. This explanatory gap — Chalmers's hard problem — is not just a gap in current knowledge but seems to be a gap in the very form of explanation physicalism can offer."
+  },
+  "categorical-imperative-fixed-point": {
+    "problem_statement_short": "Kant's Categorical Imperative commands one to act only on maxims one could will to become universal laws. It is the most famous attempt to derive a universal ethical principle from pure practical reason alone, without appealing to consequences or divine command.",
+    "why_hard_short": "Two centuries of Kant scholarship have not settled whether the Categorical Imperative is coherently derivable or merely asserted, nor how to apply it to real cases without either trivializing it or generating contradictions. The standard critique — that many conflicting maxims pass the universalizability test — remains open."
+  },
+  "hard-problem-of-consciousness": {
+    "problem_statement_short": "The hard problem of consciousness, named by David Chalmers in 1995, is the question of why any physical process should be accompanied by subjective experience at all. It is distinguished from 'easy' problems of explaining cognitive function, which (however technically demanding) do not face this explanatory gap.",
+    "why_hard_short": "No physical description of brain processes — however complete — appears to entail why those processes feel like anything from the inside. Every proposed solution either denies the phenomenon (eliminativism), adds a new ontological primitive (dualism, panpsychism), or changes the subject (functionalism)."
+  },
+  "goedel-avoidance": {
+    "problem_statement_short": "Gödel's incompleteness theorems show that any consistent formal system rich enough to express arithmetic must contain true statements it cannot prove, and cannot prove its own consistency. They are often taken to place an absolute limit on what formal mathematics can achieve.",
+    "why_hard_short": "The theorems apply to any system meeting certain conditions — including a fixed-point or diagonal construction, unrestricted self-reference, and a standard classical logic. Any framework that hopes to escape their conclusions must either weaken one of these conditions or argue it does not satisfy them, and most such attempts have been shown to fail or to sacrifice too much expressive power."
+  },
+  "gettier-problem": {
+    "problem_statement_short": "Gettier cases are scenarios in which a belief is both true and justified yet intuitively fails to count as knowledge. Edmund Gettier's 1963 three-page paper showed that the classical 'justified true belief' definition of knowledge — dating back to Plato — is insufficient.",
+    "why_hard_short": "Every post-Gettier attempt to patch the definition (causal theories, no-defeaters conditions, safety and sensitivity accounts, virtue epistemology) has been met with new counterexamples that match the patch's own pattern. Sixty years of analysis have not produced a definition of knowledge that resists all Gettier-style constructions."
+  },
+  "problem-of-universals": {
+    "problem_statement_short": "The problem of universals asks what it is for distinct particular things to share a property or belong to the same kind. When two red apples are both red, is redness itself a real entity, a mental construction, or nothing more than a linguistic convenience?",
+    "why_hard_short": "Realism about universals faces the third-man regress and the question of how abstract entities could be causally connected to physical particulars. Nominalism avoids these problems but struggles to explain why our classifications track real similarities and support successful prediction. The debate has been live since Plato and Aristotle with no settled resolution."
+  }
+}

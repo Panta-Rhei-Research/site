@@ -238,6 +238,59 @@
   }
 }
 
+// ---------- Result page problem-context block (flagship pages only) ----------
+.result-problem-context {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding: 22px 24px;
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: $radius-lg;
+  box-shadow: 0 4px 16px rgba(22, 29, 37, 0.04);
+
+  @media (max-width: $bp-stack) {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 18px 20px;
+  }
+}
+
+.result-problem-context-block {
+  .eyebrow {
+    // Override global .eyebrow (which has chip-bg background and padding)
+    display: block;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-family: $font-ui;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $accent;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .eyebrow-hard {
+    color: #a66d00;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: $text;
+    font-style: italic;
+  }
+}
+
 // ---------- Result page crosslink blocks ----------
 .result-external-context,
 .result-registry-anchors {

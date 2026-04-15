@@ -1,0 +1,26 @@
+{%- comment -%}
+  result-page-problem-context.html
+  Renders the orthodox problem framing for flagship result pages.
+  Looks up the current page slug in site.data.results.flagship_context
+  and renders a "Problem context" card with two sub-sections:
+    - "Orthodox problem" — what the wider world is asking
+    - "Why it's hard" — historical record / technical obstruction
+  Renders nothing (zero output) for the other 214 result pages.
+  Used from _layouts/result-page.html between the hero and the content.
+{%- endcomment -%}
+
+{%- assign slug_match = page.permalink | remove: "/results/problem/" | remove: "/" -%}
+{%- assign ctx = site.data.results.flagship_context[slug_match] -%}
+
+{%- if ctx -%}
+<aside class="result-problem-context">
+  <div class="result-problem-context-block">
+    <span class="eyebrow eyebrow-orthodox">Orthodox problem</span>
+    <p>{{ ctx.problem_statement_short }}</p>
+  </div>
+  <div class="result-problem-context-block">
+    <span class="eyebrow eyebrow-hard">Why it's hard</span>
+    <p>{{ ctx.why_hard_short }}</p>
+  </div>
+</aside>
+{%- endif -%}
