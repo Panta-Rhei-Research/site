@@ -6,6 +6,15 @@ lane: results
 section: "Results · Metaphysics World Readout"
 nav_order: 6
 summary_short: "How Tau reads mind, selfhood, and consciousness at E3."
+key_registry:
+  - VII.D82
+  - VII.T39
+  - VII.D83
+  - VII.T40
+  - VII.T41
+  - VII.L14
+  - VII.T43
+  - VII.R41
 right_rail:
   related:
   - title: Metaphysics World Readout
@@ -66,6 +75,18 @@ That caution is part of the page’s credibility.
 ## Conclusion
 
 Tau therefore treats mind, selfhood, and consciousness as real structures of the reflective layer. They are grounded in the world, but not exhausted by lower-level description. In this sense, E3 becomes the layer at which the world is no longer only knowable, but knowable from within.
+
+
+## Canonical References
+
+- [VII.D82]({{ '/registry/object/VII.D82/' | relative_url }}) — Mind-Topos
+- [VII.T39]({{ '/registry/object/VII.T39/' | relative_url }}) — Mind-Topos Structure Theorem
+- [VII.D83]({{ '/registry/object/VII.D83/' | relative_url }}) — Story Functor
+- [VII.T40]({{ '/registry/object/VII.T40/' | relative_url }}) — Narrative Identity as Functor
+- [VII.T41]({{ '/registry/object/VII.T41/' | relative_url }}) — Consciousness as Global Section
+- [VII.L14]({{ '/registry/object/VII.L14/' | relative_url }}) — Binding as Gluing
+- [VII.T43]({{ '/registry/object/VII.T43/' | relative_url }}) — Free Will as Branching
+- [VII.R41]({{ '/registry/object/VII.R41/' | relative_url }}) — Hard Problem Status
 
 ---
 

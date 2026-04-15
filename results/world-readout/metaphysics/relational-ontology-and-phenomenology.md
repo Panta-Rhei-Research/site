@@ -6,6 +6,12 @@ lane: results
 section: "Results · Metaphysics World Readout"
 nav_order: 3
 summary_short: "What exists, and how it is known, at the reflective level of Tau."
+key_registry:
+  - VII.D40
+  - VII.D42
+  - VII.T18
+  - VII.P10
+  - VII.D45
 right_rail:
   related:
   - title: Metaphysics World Readout
@@ -70,6 +76,15 @@ Tau proposes a more exact answer. The world is ontic, but its reflective articul
 ## Conclusion
 
 At E3, ontology and phenomenology are no longer safely separable. Tau therefore describes a world in which what exists and how it is given belong to the same relational architecture. That is the first true subject-matter of metaphysics in the framework.
+
+
+## Canonical References
+
+- [VII.D40]({{ '/registry/object/VII.D40/' | relative_url }}) — Non-Dualistic Platonism
+- [VII.D42]({{ '/registry/object/VII.D42/' | relative_url }}) — Knowledge as Global Section
+- [VII.T18]({{ '/registry/object/VII.T18/' | relative_url }}) — Ontology-Epistemology Collapse
+- [VII.P10]({{ '/registry/object/VII.P10/' | relative_url }}) — Perspectival Gluing Grounds Objectivity
+- [VII.D45]({{ '/registry/object/VII.D45/' | relative_url }}) — Temporal Experience Structure
 
 ---
 
