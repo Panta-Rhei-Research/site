@@ -6,6 +6,12 @@ lane: results
 section: "Results · Metaphysics World Readout"
 nav_order: 4
 summary_short: "How pattern, symbol, language, logic, and proof belong together at E3."
+key_registry:
+  - VII.T19
+  - VII.D46
+  - VII.D47
+  - VII.T21
+  - VII.D55
 right_rail:
   related:
   - title: Metaphysics World Readout
@@ -62,6 +68,15 @@ At E3, proof is no longer just one more formal output. It becomes one of the ref
 ## Conclusion
 
 Pattern, language, and proof are not separate provinces in Tau. They are three expressions of one reflective capacity: the world’s ability to become articulate to itself. That is why E3 can speak at once about beauty, meaning, logic, and machine language without treating them as unrelated themes.
+
+
+## Canonical References
+
+- [VII.T19]({{ '/registry/object/VII.T19/' | relative_url }}) — Beauty as Invariance
+- [VII.D46]({{ '/registry/object/VII.D46/' | relative_url }}) — Pre-Symbolic Resonance
+- [VII.D47]({{ '/registry/object/VII.D47/' | relative_url }}) — Aesthetic Functional
+- [VII.T21]({{ '/registry/object/VII.T21/' | relative_url }}) — Syntax-Semantics Collapse
+- [VII.D55]({{ '/registry/object/VII.D55/' | relative_url }}) — Para-Mind
 
 ---
 

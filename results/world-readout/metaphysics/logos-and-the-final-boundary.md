@@ -6,6 +6,14 @@ lane: results
 section: "Results · Metaphysics World Readout"
 nav_order: 7
 summary_short: "How the E3 layer ends at the boundary where proof gives way to commitment."
+key_registry:
+  - VII.D11
+  - VII.D86
+  - VII.T45
+  - VII.T47
+  - VII.D89
+  - VII.D21
+  - VII.R45
 right_rail:
   related:
   - title: Metaphysics World Readout
@@ -76,6 +84,17 @@ That is why the metaphysics cluster must end here.
 ## Conclusion
 
 Logos is the final boundary of the Tau world-readout. It is the place where meaning, proof, world-order, and commitment come nearest to one another without collapsing into one. In that sense, it is not only the end of Book VII. It is the final edge of the whole result-prologue arc before the detailed atlas begins.
+
+
+## Canonical References
+
+- [VII.D11]({{ '/registry/object/VII.D11/' | relative_url }}) — Logos Sector (Mixed)
+- [VII.D86]({{ '/registry/object/VII.D86/' | relative_url }}) — Logos Sector Extended
+- [VII.T45]({{ '/registry/object/VII.T45/' | relative_url }}) — Logos Sector Uniqueness
+- [VII.T47]({{ '/registry/object/VII.T47/' | relative_url }}) — No Forced Stance Theorem
+- [VII.D89]({{ '/registry/object/VII.D89/' | relative_url }}) — Subject-Tool Collapse
+- [VII.D21]({{ '/registry/object/VII.D21/' | relative_url }}) — Synchronicity as Kernel Invariant
+- [VII.R45]({{ '/registry/object/VII.R45/' | relative_url }}) — Logos Synchronicity
 
 ---
 

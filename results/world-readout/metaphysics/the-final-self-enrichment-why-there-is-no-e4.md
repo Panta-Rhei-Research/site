@@ -6,6 +6,15 @@ lane: results
 section: "Results · Metaphysics World Readout"
 nav_order: 2
 summary_short: "Why E3 is the terminal layer of self-enrichment in Tau."
+key_registry:
+  - VII.T06
+  - VII.T03
+  - VII.D07
+  - VII.D08
+  - VII.D09
+  - VII.D10
+  - VII.D11
+  - VII.L05
 right_rail:
   related:
   - title: Metaphysics World Readout
@@ -84,6 +93,18 @@ That is why E3 is both the most abstract and, in a sense, the most inevitable la
 ## Conclusion
 
 E3 is the final self-enrichment because it is the first layer at which the system can model the fact that it carries and decodes its own world. That is why there is no E4. The metaphysics layer is therefore not an optional philosophical afterword. It is the terminal reflective form of the framework itself.
+
+
+## Canonical References
+
+- [VII.T06]({{ '/registry/object/VII.T06/' | relative_url }}) — Saturation Theorem
+- [VII.T03]({{ '/registry/object/VII.T03/' | relative_url }}) — Sector Decomposition Theorem
+- [VII.D07]({{ '/registry/object/VII.D07/' | relative_url }}) — Empirical Sector
+- [VII.D08]({{ '/registry/object/VII.D08/' | relative_url }}) — Practical Sector
+- [VII.D09]({{ '/registry/object/VII.D09/' | relative_url }}) — Diagrammatic Sector
+- [VII.D10]({{ '/registry/object/VII.D10/' | relative_url }}) — Commitment Sector
+- [VII.D11]({{ '/registry/object/VII.D11/' | relative_url }}) — Logos Sector (Mixed)
+- [VII.L05]({{ '/registry/object/VII.L05/' | relative_url }}) — No-New-Lobe Lemma
 
 ---
 

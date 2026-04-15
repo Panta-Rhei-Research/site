@@ -6,6 +6,13 @@ lane: results
 section: "Results · Metaphysics World Readout"
 nav_order: 5
 summary_short: "How normativity and society arise as real structures within E3."
+key_registry:
+  - VII.D65
+  - VII.T30
+  - VII.T35
+  - VII.D76
+  - VII.P25
+  - VII.D81
 right_rail:
   related:
   - title: Metaphysics World Readout
@@ -60,6 +67,16 @@ That is exactly the kind of claim that belongs in E3.
 ## Conclusion
 
 Tau therefore treats dignity, ethics, and society not as arbitrary overlays on top of a neutral world, but as real structures of reflective being. This is why the metaphysics layer cannot stop at ontology and language. It must also become social and normative.
+
+
+## Canonical References
+
+- [VII.D65]({{ '/registry/object/VII.D65/' | relative_url }}) — Dignity as Structural Status
+- [VII.T30]({{ '/registry/object/VII.T30/' | relative_url }}) — Dignity Universality
+- [VII.T35]({{ '/registry/object/VII.T35/' | relative_url }}) — Categorical Imperative as j-Closed Fixed Point
+- [VII.D76]({{ '/registry/object/VII.D76/' | relative_url }}) — Social Ontology
+- [VII.P25]({{ '/registry/object/VII.P25/' | relative_url }}) — Legitimacy as Recognition Coherence
+- [VII.D81]({{ '/registry/object/VII.D81/' | relative_url }}) — Ritual as Social Gluing
 
 ---
 
