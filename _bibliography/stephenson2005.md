@@ -1,5 +1,6 @@
 ---
 title: "Introduction to circle packing"
+title_plain: "Introduction to circle packing"
 bib_key: "Stephenson2005"
 entry_type: "book"
 authors: "Stephenson, Kenneth"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Stephenson, Kenneth. (2005). *Introduction to circle packing*. Cambridge University Press."
+formatted_citation: "Stephenson, Kenneth. (2005). <em>Introduction to circle packing</em>. Cambridge University Press."
+formatted_citation_plain: "Stephenson, Kenneth. (2005). <em>Introduction to circle packing</em>. Cambridge University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2005"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Stephenson's <em>Introduction to circle packing</em> (2005) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

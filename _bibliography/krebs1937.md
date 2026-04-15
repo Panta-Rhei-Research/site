@@ -1,5 +1,6 @@
 ---
 title: "The Role of Citric Acid in Intermediate Metabolism in Animal Tissues"
+title_plain: "The Role of Citric Acid in Intermediate Metabolism in Animal Tissues"
 bib_key: "krebs1937"
 entry_type: "article"
 authors: "Krebs, Hans Adolf and Johnson, William Arthur"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Enzymologia"
 publisher: ""
 volume: "4"
 number: ""
-pages: "148–156"
+pages: "148--156"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Krebs, Hans Adolf and Johnson, William Arthur. (1937). *The Role of Citric Acid in Intermediate Metabolism in Animal Tissues*. Enzymologia. **4**. pp. 148–156."
+formatted_citation: "Krebs, Hans Adolf and Johnson, William Arthur. (1937). <em>The Role of Citric Acid in Intermediate Metabolism in Animal Tissues</em>. <em>Enzymologia</em>. <strong>4</strong>. pp. 148--156."
+formatted_citation_plain: "Krebs, Hans Adolf and Johnson, William Arthur. (1937). <em>The Role of Citric Acid in Intermediate Metabolism in Animal Tissues</em>. <em>Enzymologia</em>. <strong>4</strong>. pp. 148--156."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1937"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Krebs and Johnson's <em>The Role of Citric Acid in Intermediate Metabolism in Animal Tissues</em> (1937) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

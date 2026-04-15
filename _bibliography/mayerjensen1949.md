@@ -1,5 +1,6 @@
 ---
 title: "On Closed Shells in Nuclei. II"
+title_plain: "On Closed Shells in Nuclei. II"
 bib_key: "MayerJensen1949"
 entry_type: "article"
 authors: "Maria Goeppert Mayer"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Physical Review"
 publisher: ""
 volume: "75"
 number: ""
-pages: "1969–1970"
+pages: "1969--1970"
 doi: "10.1103/PhysRev.75.1969"
 url: ""
 isbn: ""
@@ -19,7 +20,17 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Maria Goeppert Mayer. (1949). *On Closed Shells in Nuclei. II*. Physical Review. **75**. pp. 1969–1970."
+formatted_citation: "Maria Goeppert Mayer. (1949). <em>On Closed Shells in Nuclei. II</em>. <em>Physical Review</em>. <strong>75</strong>. pp. 1969--1970."
+formatted_citation_plain: "Maria Goeppert Mayer. (1949). <em>On Closed Shells in Nuclei. II</em>. <em>Physical Review</em>. <strong>75</strong>. pp. 1969--1970."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "IV"
+    book_title: "Categorical Microcosm"
+    part: "Part 5"
+    chapter_file: "ch40-light-nuclei"
+    chapter_title: "Light Nuclei: Helium to Iron"
+    excerpt: "The Nuclear Shell Model With spin-orbit coupling (Mayer, Jensen 1949) : 1s_1/2, 1p_3/2, 1p_1/2, 1d_5/2, 2s_1/2, 1d_3/2, … Shell closures at cumulative occupancies 2, 8, 20, 28, 50, 82, 126—exactly the magic numbers"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1949"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Mayer's 1949 <em>On Closed Shells in Nuclei. II</em>, published in *Physical Review*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 5, Chapter *Light Nuclei: Helium to Iron*, where the program draws on it in the context of “The Nuclear Shell Model With spin-orbit coupling (Mayer, Jensen 1949) : 1s_1/2, 1p_3/2, 1p_1/2, 1d_5/2, 2s_1/2, 1d_3/2, … Shell closures at cumulative occupancies 2, 8, 20, 28,….”

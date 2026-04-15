@@ -1,5 +1,6 @@
 ---
 title: "Toroidal embeddings I"
+title_plain: "Toroidal embeddings I"
 bib_key: "MumfordToroidal1972"
 entry_type: "incollection"
 authors: "Mumford, David and others"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book Chapter"
-formatted_citation: "Mumford, David and others. (1972). *Toroidal embeddings I*. Lecture Notes in Mathematics. Springer."
+formatted_citation: "Mumford, David and others. (1972). <em>Toroidal embeddings I</em>. <em>Lecture Notes in Mathematics</em>. Springer."
+formatted_citation_plain: "Mumford, David and others. (1972). <em>Toroidal embeddings I</em>. <em>Lecture Notes in Mathematics</em>. Springer."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1972"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Mumford and others' <em>Toroidal embeddings I</em> (1972) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

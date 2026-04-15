@@ -1,5 +1,6 @@
 ---
 title: "Categories for the Working Mathematician"
+title_plain: "Categories for the Working Mathematician"
 bib_key: "maclane1998categories"
 entry_type: "book"
 authors: "Mac Lane, Saunders"
@@ -19,7 +20,11 @@ domain_group: "Category Theory"
 role_in_program: "foundational-source"
 role_display: "Foundational Source"
 type_display: "Book"
-formatted_citation: "Mac Lane, Saunders. (1998). *Categories for the Working Mathematician*. **5**. Springer."
+formatted_citation: "Mac Lane, Saunders. (1998). <em>Categories for the Working Mathematician</em>. <strong>5</strong>. Springer."
+formatted_citation_plain: "Mac Lane, Saunders. (1998). <em>Categories for the Working Mathematician</em>. <strong>5</strong>. Springer."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1998"
     domain: "Category Theory"
     role: "Foundational Source"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a foundational source for Category Theory on which the program directly builds.
+Mac Lane's <em>Categories for the Working Mathematician</em> (1998) sits in the program's reference corpus as a standing technical source in Category Theory. It forms part of the foundational literature the program builds upon, though it is not directly cited in the currently published volumes of *Panta Rhei*.

@@ -1,5 +1,6 @@
 ---
-title: "Revetements etales et groupe fondamental (SGA 1)"
+title: "Revêtements étales et groupe fondamental (SGA 1)"
+title_plain: "Revêtements étales et groupe fondamental (SGA 1)"
 bib_key: "SGA1"
 entry_type: "incollection"
 authors: "Grothendieck et al."
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book Chapter"
-formatted_citation: "Grothendieck et al.. (1971). *Revetements etales et groupe fondamental (SGA 1)*. Seminaire de Geometrie Algebrique du Bois Marie 1960–61."
+formatted_citation: "Grothendieck et al.. (1971). <em>Revêtements étales et groupe fondamental (SGA 1)</em>. <em>Seminaire de Geometrie Algebrique du Bois Marie 1960–61</em>."
+formatted_citation_plain: "Grothendieck et al.. (1971). <em>Revêtements étales et groupe fondamental (SGA 1)</em>. <em>Seminaire de Geometrie Algebrique du Bois Marie 1960–61</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1971"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+al.'s <em>Revêtements étales et groupe fondamental (SGA 1)</em> (1971) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

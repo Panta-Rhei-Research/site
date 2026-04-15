@@ -1,8 +1,9 @@
 ---
 title: "Permutation group algorithms"
+title_plain: "Permutation group algorithms"
 bib_key: "Seress2003"
 entry_type: "book"
-authors: "Unknown"
+authors: "Seress, Ákos"
 year: "2003"
 journal_or_booktitle: ""
 publisher: "Cambridge University Press"
@@ -19,7 +20,11 @@ domain_group: "Computation and Complexity"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Unknown. (2003). *Permutation group algorithms*. Cambridge University Press."
+formatted_citation: "Seress, Ákos. (2003). <em>Permutation group algorithms</em>. Cambridge University Press."
+formatted_citation_plain: "Seress, Ákos. (2003). <em>Permutation group algorithms</em>. Cambridge University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2003"
     domain: "Computation and Complexity"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Computation and Complexity.
+Seress' <em>Permutation group algorithms</em> (2003) is part of the program's reference corpus as standard domain context for Computation and Complexity. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

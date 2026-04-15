@@ -1,5 +1,6 @@
 ---
 title: "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole"
+title_plain: "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole"
 bib_key: "eht2019first"
 entry_type: "article"
 authors: "Event Horizon Telescope Collaboration and Akiyama, Kazunori and others"
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Event Horizon Telescope Collaboration and Akiyama, Kazunori and others. (2019). *First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole*. Astrophysical Journal Letters. **875**. pp. L1."
+formatted_citation: "Event Horizon Telescope Collaboration and Akiyama, Kazunori and others. (2019). <em>First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole</em>. <em>Astrophysical Journal Letters</em>. <strong>875</strong>. pp. L1."
+formatted_citation_plain: "Event Horizon Telescope Collaboration and Akiyama, Kazunori and others. (2019). <em>First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole</em>. <em>Astrophysical Journal Letters</em>. <strong>875</strong>. pp. L1."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2019"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+The collaboration's <em>First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole</em> (2019) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

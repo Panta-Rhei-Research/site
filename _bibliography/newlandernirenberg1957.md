@@ -1,5 +1,6 @@
 ---
 title: "Complex analytic coordinates in almost complex manifolds"
+title_plain: "Complex analytic coordinates in almost complex manifolds"
 bib_key: "NewlanderNirenberg1957"
 entry_type: "article"
 authors: "Newlander, A. and Nirenberg, L."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Annals of Mathematics"
 publisher: ""
 volume: "65"
 number: "3"
-pages: "391–404"
+pages: "391--404"
 doi: "10.2307/1970009"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Newlander, A. and Nirenberg, L.. (1957). *Complex analytic coordinates in almost complex manifolds*. Annals of Mathematics. **65**(3). pp. 391–404."
+formatted_citation: "Newlander, A. and Nirenberg, L.. (1957). <em>Complex analytic coordinates in almost complex manifolds</em>. <em>Annals of Mathematics</em>. <strong>65</strong>(3). pp. 391--404."
+formatted_citation_plain: "Newlander, A. and Nirenberg, L.. (1957). <em>Complex analytic coordinates in almost complex manifolds</em>. <em>Annals of Mathematics</em>. <strong>65</strong>(3). pp. 391--404."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1957"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Newlander and Nirenberg's <em>Complex analytic coordinates in almost complex manifolds</em> (1957) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

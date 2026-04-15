@@ -1,5 +1,6 @@
 ---
 title: "On Ext and Exact Sequences"
+title_plain: "On Ext and Exact Sequences"
 bib_key: "Yoneda1960"
 entry_type: "article"
 authors: "Nobuo Yoneda"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Journal of the Faculty of Science, University of Tokyo. S
 publisher: ""
 volume: "8"
 number: ""
-pages: "507–576"
+pages: "507--576"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Nobuo Yoneda. (1960). *On Ext and Exact Sequences*. Journal of the Faculty of Science, University of Tokyo. Section I. **8**. pp. 507–576."
+formatted_citation: "Nobuo Yoneda. (1960). <em>On Ext and Exact Sequences</em>. <em>Journal of the Faculty of Science, University of Tokyo. Section I</em>. <strong>8</strong>. pp. 507--576."
+formatted_citation_plain: "Nobuo Yoneda. (1960). <em>On Ext and Exact Sequences</em>. <em>Journal of the Faculty of Science, University of Tokyo. Section I</em>. <strong>8</strong>. pp. 507--576."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1960"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Yoneda's <em>On Ext and Exact Sequences</em> (1960) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

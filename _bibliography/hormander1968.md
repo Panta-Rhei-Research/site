@@ -1,14 +1,15 @@
 ---
 title: "The spectral function of an elliptic operator"
+title_plain: "The spectral function of an elliptic operator"
 bib_key: "Hormander1968"
 entry_type: "article"
-authors: "Hormander, Lars"
+authors: "Hörmander, Lars"
 year: "1968"
 journal_or_booktitle: "Acta Mathematica"
 publisher: ""
 volume: "121"
 number: ""
-pages: "193–218"
+pages: "193--218"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Hormander, Lars. (1968). *The spectral function of an elliptic operator*. Acta Mathematica. **121**. pp. 193–218."
+formatted_citation: "Hörmander, Lars. (1968). <em>The spectral function of an elliptic operator</em>. <em>Acta Mathematica</em>. <strong>121</strong>. pp. 193--218."
+formatted_citation_plain: "Hörmander, Lars. (1968). <em>The spectral function of an elliptic operator</em>. <em>Acta Mathematica</em>. <strong>121</strong>. pp. 193--218."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1968"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Hörmander's <em>The spectral function of an elliptic operator</em> (1968) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

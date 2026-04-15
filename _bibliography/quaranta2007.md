@@ -1,5 +1,6 @@
 ---
 title: "Asymmetric Tail-Wagging Responses by Dogs to Different Emotive Stimuli"
+title_plain: "Asymmetric Tail-Wagging Responses by Dogs to Different Emotive Stimuli"
 bib_key: "Quaranta2007"
 entry_type: "book"
 authors: "Angelo Quaranta and Marcello Siniscalchi and Giorgio Vallortigara"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Current Biology"
 publisher: ""
 volume: "17"
 number: ""
-pages: "199–201"
+pages: "199--201"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,17 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Angelo Quaranta and Marcello Siniscalchi and Giorgio Vallortigara. (2007). *Asymmetric Tail-Wagging Responses by Dogs to Different Emotive Stimuli*. Current Biology. **17**. pp. 199–201."
+formatted_citation: "Angelo Quaranta and Marcello Siniscalchi and Giorgio Vallortigara. (2007). <em>Asymmetric Tail-Wagging Responses by Dogs to Different Emotive Stimuli</em>. <em>Current Biology</em>. <strong>17</strong>. pp. 199--201."
+formatted_citation_plain: "Angelo Quaranta and Marcello Siniscalchi and Giorgio Vallortigara. (2007). <em>Asymmetric Tail-Wagging Responses by Dogs to Different Emotive Stimuli</em>. <em>Current Biology</em>. <strong>17</strong>. pp. 199--201."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 5"
+    chapter_file: "ch55"
+    chapter_title: "The Subsymbolic Is Real"
+    excerpt: "A dog navigates spatial structure without possessing spatial vocabulary"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "2007"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Quaranta, Siniscalchi, and Vallortigara's <em>Asymmetric Tail-Wagging Responses by Dogs to Different Emotive Stimuli</em> (2007) sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 5, Chapter *The Subsymbolic Is Real*, where the program draws on it in the context of “A dog navigates spatial structure without possessing spatial vocabulary.”

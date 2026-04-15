@@ -1,5 +1,6 @@
 ---
 title: "Kleinian groups"
+title_plain: "Kleinian groups"
 bib_key: "Maskit1988"
 entry_type: "book"
 authors: "Maskit, Bernard"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Maskit, Bernard. (1988). *Kleinian groups*. Springer."
+formatted_citation: "Maskit, Bernard. (1988). <em>Kleinian groups</em>. Springer."
+formatted_citation_plain: "Maskit, Bernard. (1988). <em>Kleinian groups</em>. Springer."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1988"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Maskit's <em>Kleinian groups</em> (1988) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

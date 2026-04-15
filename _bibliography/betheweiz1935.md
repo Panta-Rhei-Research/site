@@ -1,14 +1,15 @@
 ---
 title: "Zur Theorie der Kernmassen"
+title_plain: "Zur Theorie der Kernmassen"
 bib_key: "BetheWeiz1935"
 entry_type: "article"
-authors: "Carl Friedrich von Weizsacker"
+authors: "Carl Friedrich von Weizsäcker"
 year: "1935"
-journal_or_booktitle: "Zeitschrift fur Physik"
+journal_or_booktitle: "Zeitschrift für Physik"
 publisher: ""
 volume: "96"
 number: ""
-pages: "431–458"
+pages: "431--458"
 doi: "10.1007/BF01337700"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Carl Friedrich von Weizsacker. (1935). *Zur Theorie der Kernmassen*. Zeitschrift fur Physik. **96**. pp. 431–458."
+formatted_citation: "Carl Friedrich von Weizsäcker. (1935). <em>Zur Theorie der Kernmassen</em>. <em>Zeitschrift für Physik</em>. <strong>96</strong>. pp. 431--458."
+formatted_citation_plain: "Carl Friedrich von Weizsäcker. (1935). <em>Zur Theorie der Kernmassen</em>. <em>Zeitschrift für Physik</em>. <strong>96</strong>. pp. 431--458."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1935"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Weizsäcker's <em>Zur Theorie der Kernmassen</em> (1935) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

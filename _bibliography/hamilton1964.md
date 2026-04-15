@@ -1,5 +1,6 @@
 ---
 title: "The Genetical Evolution of Social Behaviour. I and II"
+title_plain: "The Genetical Evolution of Social Behaviour. I and II"
 bib_key: "hamilton1964"
 entry_type: "article"
 authors: "Hamilton, William D."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Journal of Theoretical Biology"
 publisher: ""
 volume: "7"
 number: ""
-pages: "1–52"
+pages: "1--52"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Hamilton, William D.. (1964). *The Genetical Evolution of Social Behaviour. I and II*. Journal of Theoretical Biology. **7**. pp. 1–52."
+formatted_citation: "Hamilton, William D.. (1964). <em>The Genetical Evolution of Social Behaviour. I and II</em>. <em>Journal of Theoretical Biology</em>. <strong>7</strong>. pp. 1--52."
+formatted_citation_plain: "Hamilton, William D.. (1964). <em>The Genetical Evolution of Social Behaviour. I and II</em>. <em>Journal of Theoretical Biology</em>. <strong>7</strong>. pp. 1--52."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1964"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Hamilton's <em>The Genetical Evolution of Social Behaviour. I and II</em> (1964) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

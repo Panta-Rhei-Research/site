@@ -1,8 +1,9 @@
 ---
 title: "The Major Transitions in Evolution"
+title_plain: "The Major Transitions in Evolution"
 bib_key: "smith1995"
 entry_type: "article"
-authors: "Smith, John Maynard and Szathmary, Eors"
+authors: "Smith, John Maynard and Szathmáry, Eörs"
 year: "1995"
 journal_or_booktitle: ""
 publisher: "W. H. Freeman"
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Smith, John Maynard and Szathmary, Eors. (1995). *The Major Transitions in Evolution*. W. H. Freeman."
+formatted_citation: "Smith, John Maynard and Szathmáry, Eörs. (1995). <em>The Major Transitions in Evolution</em>. W. H. Freeman."
+formatted_citation_plain: "Smith, John Maynard and Szathmáry, Eörs. (1995). <em>The Major Transitions in Evolution</em>. W. H. Freeman."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1995"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Smith and Szathmáry's <em>The Major Transitions in Evolution</em> (1995) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

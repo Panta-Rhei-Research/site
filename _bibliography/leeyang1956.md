@@ -1,5 +1,6 @@
 ---
 title: "Question of Parity Conservation in Weak Interactions"
+title_plain: "Question of Parity Conservation in Weak Interactions"
 bib_key: "LeeYang1956"
 entry_type: "article"
 authors: "Tsung-Dao Lee and Chen-Ning Yang"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Physical Review"
 publisher: ""
 volume: "104"
 number: ""
-pages: "254–258"
+pages: "254--258"
 doi: "10.1103/PhysRev.104.254"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Tsung-Dao Lee and Chen-Ning Yang. (1956). *Question of Parity Conservation in Weak Interactions*. Physical Review. **104**. pp. 254–258."
+formatted_citation: "Tsung-Dao Lee and Chen-Ning Yang. (1956). <em>Question of Parity Conservation in Weak Interactions</em>. <em>Physical Review</em>. <strong>104</strong>. pp. 254--258."
+formatted_citation_plain: "Tsung-Dao Lee and Chen-Ning Yang. (1956). <em>Question of Parity Conservation in Weak Interactions</em>. <em>Physical Review</em>. <strong>104</strong>. pp. 254--258."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1956"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Lee and Yang's <em>Question of Parity Conservation in Weak Interactions</em> (1956) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

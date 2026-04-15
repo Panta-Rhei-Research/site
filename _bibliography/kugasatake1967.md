@@ -1,5 +1,6 @@
 ---
 title: "Abelian varieties attached to polarized K3 surfaces"
+title_plain: "Abelian varieties attached to polarized K3 surfaces"
 bib_key: "KugaSatake1967"
 entry_type: "article"
 authors: "Michio Kuga and Ikuo Satake"
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Michio Kuga and Ikuo Satake. (1967). *Abelian varieties attached to polarized K3 surfaces*. American Journal of Mathematics."
+formatted_citation: "Michio Kuga and Ikuo Satake. (1967). <em>Abelian varieties attached to polarized K3 surfaces</em>. <em>American Journal of Mathematics</em>."
+formatted_citation_plain: "Michio Kuga and Ikuo Satake. (1967). <em>Abelian varieties attached to polarized K3 surfaces</em>. <em>American Journal of Mathematics</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1967"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Kuga and Satake's <em>Abelian varieties attached to polarized K3 surfaces</em> (1967) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

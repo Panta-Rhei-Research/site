@@ -1,5 +1,6 @@
 ---
 title: "The Serial Cultivation of Human Diploid Cell Strains"
+title_plain: "The Serial Cultivation of Human Diploid Cell Strains"
 bib_key: "hayflick1961"
 entry_type: "article"
 authors: "Hayflick, Leonard and Moorhead, Paul S."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Experimental Cell Research"
 publisher: ""
 volume: "25"
 number: ""
-pages: "585–621"
+pages: "585--621"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Hayflick, Leonard and Moorhead, Paul S.. (1961). *The Serial Cultivation of Human Diploid Cell Strains*. Experimental Cell Research. **25**. pp. 585–621."
+formatted_citation: "Hayflick, Leonard and Moorhead, Paul S.. (1961). <em>The Serial Cultivation of Human Diploid Cell Strains</em>. <em>Experimental Cell Research</em>. <strong>25</strong>. pp. 585--621."
+formatted_citation_plain: "Hayflick, Leonard and Moorhead, Paul S.. (1961). <em>The Serial Cultivation of Human Diploid Cell Strains</em>. <em>Experimental Cell Research</em>. <strong>25</strong>. pp. 585--621."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1961"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Hayflick and Moorhead's <em>The Serial Cultivation of Human Diploid Cell Strains</em> (1961) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

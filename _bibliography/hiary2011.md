@@ -1,5 +1,6 @@
 ---
 title: "Fast methods to compute the Riemann zeta function"
+title_plain: "Fast methods to compute the Riemann zeta function"
 bib_key: "Hiary2011"
 entry_type: "article"
 authors: "G. A. Hiary"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Mathematics of Computation"
 publisher: ""
 volume: "80"
 number: "273"
-pages: "1979–1999"
+pages: "1979--1999"
 doi: "10.1090/S0025-5718-2011-02520-6"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "G. A. Hiary. (2011). *Fast methods to compute the Riemann zeta function*. Mathematics of Computation. **80**(273). pp. 1979–1999."
+formatted_citation: "G. A. Hiary. (2011). <em>Fast methods to compute the Riemann zeta function</em>. <em>Mathematics of Computation</em>. <strong>80</strong>(273). pp. 1979--1999."
+formatted_citation_plain: "G. A. Hiary. (2011). <em>Fast methods to compute the Riemann zeta function</em>. <em>Mathematics of Computation</em>. <strong>80</strong>(273). pp. 1979--1999."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2011"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Hiary's <em>Fast methods to compute the Riemann zeta function</em> (2011) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -1,5 +1,6 @@
 ---
 title: "R-torsion and the Laplacian on Riemannian Manifolds"
+title_plain: "R-torsion and the Laplacian on Riemannian Manifolds"
 bib_key: "RaySinger1971"
 entry_type: "article"
 authors: "Daniel B. Ray and Isadore M. Singer"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Advances in Mathematics"
 publisher: ""
 volume: "7"
 number: ""
-pages: "145–210"
+pages: "145--210"
 doi: "10.1016/0001-8708(71)90034-3"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Daniel B. Ray and Isadore M. Singer. (1971). *R-torsion and the Laplacian on Riemannian Manifolds*. Advances in Mathematics. **7**. pp. 145–210."
+formatted_citation: "Daniel B. Ray and Isadore M. Singer. (1971). <em>R-torsion and the Laplacian on Riemannian Manifolds</em>. <em>Advances in Mathematics</em>. <strong>7</strong>. pp. 145--210."
+formatted_citation_plain: "Daniel B. Ray and Isadore M. Singer. (1971). <em>R-torsion and the Laplacian on Riemannian Manifolds</em>. <em>Advances in Mathematics</em>. <strong>7</strong>. pp. 145--210."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1971"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Ray and Singer's <em>R-torsion and the Laplacian on Riemannian Manifolds</em> (1971) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

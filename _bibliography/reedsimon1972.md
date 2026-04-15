@@ -1,5 +1,6 @@
 ---
 title: "Methods of Modern Mathematical Physics. I. Functional Analysis"
+title_plain: "Methods of Modern Mathematical Physics. I. Functional Analysis"
 bib_key: "ReedSimon1972"
 entry_type: "book"
 authors: "Michael Reed and Barry Simon"
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Michael Reed and Barry Simon. (1972). *Methods of Modern Mathematical Physics. I. Functional Analysis*. Academic Press."
+formatted_citation: "Michael Reed and Barry Simon. (1972). <em>Methods of Modern Mathematical Physics. I. Functional Analysis</em>. Academic Press."
+formatted_citation_plain: "Michael Reed and Barry Simon. (1972). <em>Methods of Modern Mathematical Physics. I. Functional Analysis</em>. Academic Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1972"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Reed and Simon's <em>Methods of Modern Mathematical Physics. I. Functional Analysis</em> (1972) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

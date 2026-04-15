@@ -1,5 +1,6 @@
 ---
 title: "Modeling Infectious Diseases in Humans and Animals"
+title_plain: "Modeling Infectious Diseases in Humans and Animals"
 bib_key: "Keeling2009"
 entry_type: "book"
 authors: "Matt J. Keeling and Pejman Rohani"
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Matt J. Keeling and Pejman Rohani. (2008). *Modeling Infectious Diseases in Humans and Animals*. Princeton University Press."
+formatted_citation: "Matt J. Keeling and Pejman Rohani. (2008). <em>Modeling Infectious Diseases in Humans and Animals</em>. Princeton University Press."
+formatted_citation_plain: "Matt J. Keeling and Pejman Rohani. (2008). <em>Modeling Infectious Diseases in Humans and Animals</em>. Princeton University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2008"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Keeling and Rohani's <em>Modeling Infectious Diseases in Humans and Animals</em> (2008) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

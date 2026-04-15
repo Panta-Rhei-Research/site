@@ -1,5 +1,6 @@
 ---
 title: "An introduction to harmonic analysis"
+title_plain: "An introduction to harmonic analysis"
 bib_key: "Katznelson2004"
 entry_type: "book"
 authors: "Katznelson, Yitzhak"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Katznelson, Yitzhak. (2004). *An introduction to harmonic analysis*. Cambridge University Press."
+formatted_citation: "Katznelson, Yitzhak. (2004). <em>An introduction to harmonic analysis</em>. Cambridge University Press."
+formatted_citation_plain: "Katznelson, Yitzhak. (2004). <em>An introduction to harmonic analysis</em>. Cambridge University Press."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 9"
+    chapter_file: "ch47-boundary-characters-idempotent"
+    chapter_title: "Boundary Characters via Idempotent Support"
+    excerpt: "In classical Fourier analysis on a group G , a character χ : G → ℂ^× is a ``frequency detector'' — it measures how much of a given frequency component is present in a signal"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "2004"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Katznelson's <em>An introduction to harmonic analysis</em> (2004), published by Cambridge University Press, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 9, Chapter *Boundary Characters via Idempotent Support*, where the program draws on it in the context of “In classical Fourier analysis on a group G , a character χ : G → ℂ^× is a ``frequency detector'' — it measures how much of a given frequency component is present in a signal.”

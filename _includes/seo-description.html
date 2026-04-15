@@ -15,7 +15,7 @@
 {{ site.description }}
 
 {%- when 'bibliography-entry' -%}
-{{ page.authors | strip_html }} ({{ page.year }}). {{ page.title | strip_html }}.{% if page.journal_or_booktitle and page.journal_or_booktitle != '' %} {{ page.journal_or_booktitle | strip_html }}.{% endif %}{% if page.publisher and page.publisher != '' %} {{ page.publisher | strip_html }}.{% endif %} {{ page.role_display | default: 'Reference' }} for {{ page.domain_group | default: 'the research program' }}.
+{{ page.authors | strip_html }} ({{ page.year }}). {{ page.title_plain | default: page.title | strip_html }}.{% if page.journal_or_booktitle and page.journal_or_booktitle != '' %} {{ page.journal_or_booktitle | strip_html }}.{% endif %}{% if page.publisher and page.publisher != '' %} {{ page.publisher | strip_html }}.{% endif %} {{ page.role_display | default: 'Reference' }} for {{ page.domain_group | default: 'the research program' }}.
 
 {%- when 'registry-object' -%}
 {{ page.registry_id }} — {{ page.object_type | default: 'object' | capitalize }} in Book {{ page.book }}{% if page.chapter %}, Chapter {{ page.chapter }}{% endif %}{% if page.scope and page.scope != '' %} ({{ page.scope }}){% endif %}. {% if page.summary and page.summary != '' %}{{ page.summary | strip_html | strip_newlines | truncate: 180 }}{% else %}{{ page.title | strip_html }}{% endif %}

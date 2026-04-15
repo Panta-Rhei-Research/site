@@ -1,5 +1,6 @@
 ---
 title: "Animal Liberation"
+title_plain: "Animal Liberation"
 bib_key: "singer1975"
 entry_type: "book"
 authors: "Peter Singer"
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Peter Singer. (1975). *Animal Liberation*. Random House."
+formatted_citation: "Peter Singer. (1975). <em>Animal Liberation</em>. Random House."
+formatted_citation_plain: "Peter Singer. (1975). <em>Animal Liberation</em>. Random House."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1975"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Singer's <em>Animal Liberation</em> (1975) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

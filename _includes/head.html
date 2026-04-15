@@ -32,11 +32,15 @@
   {%- else -%}{%- assign og_type = 'article' -%}
 {%- endcase -%}
 
-{%- comment -%} Computed title: "Page Title — Site Title" except on homepage {%- endcomment -%}
+{%- comment -%} Computed title: "Page Title — Site Title" except on homepage.
+  Bibliography entries set page.title_plain for a Unicode-only variant safe
+  for use in <title> and meta tags (MathML from page.title is HTML and
+  would leak angle brackets into text-only contexts). {%- endcomment -%}
+{%- assign raw_page_title = page.title_plain | default: page.title -%}
 {%- if page.url == '/' or page.layout == 'homepage' -%}
   {%- assign computed_title = site.title -%}
-{%- elsif page.title and page.title != site.title -%}
-  {%- assign computed_title = page.title | append: ' — ' | append: site.title -%}
+{%- elsif raw_page_title and raw_page_title != site.title -%}
+  {%- assign computed_title = raw_page_title | append: ' — ' | append: site.title -%}
 {%- else -%}
   {%- assign computed_title = site.title -%}
 {%- endif -%}
@@ -53,7 +57,7 @@
 <meta name="generator" content="Jekyll">
 
 <!-- Open Graph -->
-<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:title" content="{{ raw_page_title | default: site.title }}">
 <meta property="og:description" content="{{ seo_description }}">
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
@@ -66,7 +70,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:title" content="{{ raw_page_title | default: site.title }}">
 <meta name="twitter:description" content="{{ seo_description }}">
 <meta name="twitter:image" content="{{ '/assets/og-image.png' | absolute_url }}">
 

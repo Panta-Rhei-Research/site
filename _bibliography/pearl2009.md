@@ -1,5 +1,6 @@
 ---
 title: "Causality: Models, Reasoning, and Inference"
+title_plain: "Causality: Models, Reasoning, and Inference"
 bib_key: "pearl2009"
 entry_type: "book"
 authors: "Judea Pearl"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Judea Pearl. (2009). *Causality: Models, Reasoning, and Inference*. Cambridge University Press."
+formatted_citation: "Judea Pearl. (2009). <em>Causality: Models, Reasoning, and Inference</em>. Cambridge University Press."
+formatted_citation_plain: "Judea Pearl. (2009). <em>Causality: Models, Reasoning, and Inference</em>. Cambridge University Press."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 2"
+    chapter_file: "ch24"
+    chapter_title: "Causation, Space, and Time"
+    excerpt: "Interventionist theories (Woodward, Pearl ) analysed causation in terms of hypothetical manipulations; the result was epistemically powerful but ontologically circular (interventions are themselves causal)"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "2009"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Pearl's <em>Causality: Models, Reasoning, and Inference</em> (2009), published by Cambridge University Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 2, Chapter *Causation, Space, and Time*, where the program draws on it in the context of “Interventionist theories (Woodward, Pearl ) analysed causation in terms of hypothetical manipulations; the result was epistemically powerful but ontologically circular….”

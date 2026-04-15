@@ -2,104 +2,230 @@
 """
 build_bibliography.py — Parse references.bib and generate Jekyll collection items + data files.
 
-Outputs:
-  _bibliography/<slug>.md          (one per entry, ~1125 files)
-  _data/bibliography/index.json    (flat lookup array)
-  _data/bibliography/groups.json   (entries grouped by domain)
-  assets/bibliography/references.bib (downloadable copy)
-"""
+Consumes:
+  _data/bibliography/citation_index.json  (from build_citation_index.py)
+  _data/bibliography/overrides.yml        (hand-crafted editorial prose)
+  scripts/latex_to_mathml.py              (MathML converter)
 
-import re
-import os
+Outputs:
+  _bibliography/<slug>.md                 (one per entry, ~1125 files)
+  _data/bibliography/index.json           (flat lookup array)
+  _data/bibliography/groups.json          (entries grouped by domain)
+  assets/bibliography/references.bib      (downloadable copy)
+
+Per-item frontmatter schema:
+  title: MathML-enabled title for <h1> rendering (may contain <math> tags)
+  title_plain: Unicode-only title for SEO meta tags, JSON-LD, <title>
+  formatted_citation: MathML-enabled citation string
+  formatted_citation_plain: Unicode-only citation
+  cited_in: [{book, book_title, part, chapter_file, chapter_title, excerpt}, ...]
+  is_orphan: true if not cited in any book manuscript
+  has_manual_override: true if overrides.yml has an entry for this key
+
+Body content:
+  Editorial prose from overrides.yml if present, else orphan template.
+"""
+from __future__ import annotations
+
+import argparse
 import json
+import os
+import re
 import shutil
+import sys
 from collections import defaultdict
+from pathlib import Path
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 
-SITE_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BIB_SOURCE = os.path.join(
-    os.path.expanduser("~"),
-    "Books/PantaRhei-2ndEd/website/specs/bibliography-briefing-pack/references.bib",
+SITE_ROOT = Path(__file__).parent.parent.resolve()
+sys.path.insert(0, str(Path(__file__).parent))
+
+from latex_to_mathml import (
+    convert_title,
+    clean_bibfield,
+    latex_accents_to_unicode,
 )
-OUT_COLLECTION = os.path.join(SITE_ROOT, "_bibliography")
-OUT_DATA = os.path.join(SITE_ROOT, "_data", "bibliography")
-OUT_ASSET = os.path.join(SITE_ROOT, "assets", "bibliography")
+
+BIB_SOURCE = Path(
+    os.path.expanduser(
+        "~/Books/PantaRhei-2ndEd/website/specs/bibliography-briefing-pack/references.bib"
+    )
+)
+OUT_COLLECTION_DEFAULT = SITE_ROOT / "_bibliography"
+OUT_DATA = SITE_ROOT / "_data" / "bibliography"
+OUT_ASSET = SITE_ROOT / "assets" / "bibliography"
+CITATION_INDEX_PATH = OUT_DATA / "citation_index.json"
+OVERRIDES_PATH = OUT_DATA / "overrides.yml"
 
 
 # ─── BibTeX parser ────────────────────────────────────────────────────────────
 
-def parse_bib(path):
-    """Parse a BibTeX file into a list of dicts. No external deps needed."""
+
+def _find_matching_brace(text: str, open_pos: int) -> int:
+    """Return the index of the matching `}` for the `{` at open_pos.
+
+    Returns -1 if not found. Handles arbitrary nesting.
+    """
+    assert text[open_pos] == "{"
+    depth = 1
+    i = open_pos + 1
+    while i < len(text):
+        ch = text[i]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return i
+        i += 1
+    return -1
+
+
+def _parse_entry_fields(body: str) -> dict:
+    """Parse fields out of a BibTeX entry body with full brace matching."""
+    fields = {}
+    i = 0
+    n = len(body)
+    while i < n:
+        # Skip whitespace and commas
+        while i < n and body[i] in " \t\n\r,":
+            i += 1
+        if i >= n:
+            break
+
+        # Read field name (alphanumeric / underscore)
+        name_start = i
+        while i < n and (body[i].isalnum() or body[i] == "_"):
+            i += 1
+        if i == name_start:
+            # No valid field name; skip to next safe char
+            i += 1
+            continue
+        field_name = body[name_start:i].lower()
+
+        # Skip to `=`
+        while i < n and body[i] in " \t\n\r":
+            i += 1
+        if i >= n or body[i] != "=":
+            continue
+        i += 1  # past `=`
+
+        # Skip whitespace
+        while i < n and body[i] in " \t\n\r":
+            i += 1
+        if i >= n:
+            break
+
+        # Value is: {nested}, "quoted", or bare number/ident
+        if body[i] == "{":
+            end = _find_matching_brace(body, i)
+            if end == -1:
+                break
+            value = body[i + 1:end]
+            i = end + 1
+        elif body[i] == '"':
+            # Find closing " (ignore escaped \")
+            j = i + 1
+            while j < n:
+                if body[j] == '"' and (j == 0 or body[j - 1] != "\\"):
+                    break
+                j += 1
+            if j >= n:
+                break
+            value = body[i + 1:j]
+            i = j + 1
+        else:
+            # Bare value up to comma or newline or `}`
+            j = i
+            while j < n and body[j] not in ",\n}":
+                j += 1
+            value = body[i:j].strip()
+            i = j
+
+        fields[field_name] = value.strip()
+
+    return fields
+
+
+def parse_bib(path: Path):
+    """Parse a BibTeX file into a list of entry dicts."""
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
 
     entries = []
-    # Match @type{key, ... }  (handles nested braces up to 3 levels)
-    pattern = r"@(\w+)\{([^,]+),\s*((?:[^{}]|\{(?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*\})*)\}"
-    for m in re.finditer(pattern, content):
-        entry_type = m.group(1).lower()
-        key = m.group(2).strip()
-        body = m.group(3)
+    i = 0
+    n = len(content)
+    while i < n:
+        # Find next @entry
+        at = content.find("@", i)
+        if at == -1:
+            break
+        i = at + 1
+
+        # Read entry type
+        name_start = i
+        while i < n and (content[i].isalnum() or content[i] == "_"):
+            i += 1
+        entry_type = content[name_start:i].lower()
 
         if entry_type == "comment":
+            # Skip the comment
+            if i < n and content[i] == "{":
+                end = _find_matching_brace(content, i)
+                i = end + 1 if end != -1 else n
             continue
 
-        entry = {"key": key, "entry_type": entry_type}
+        # Skip whitespace
+        while i < n and content[i] in " \t\n\r":
+            i += 1
+        if i >= n or content[i] != "{":
+            continue
 
-        # Parse fields: field = {value} or field = "value" or field = number
-        field_pat = r"(\w+)\s*=\s*(?:\{((?:[^{}]|\{[^{}]*\})*)\}|\"([^\"]*)\"|(\d+))"
-        for fm in re.finditer(field_pat, body):
-            field_name = fm.group(1).lower()
-            value = fm.group(2) or fm.group(3) or fm.group(4) or ""
-            entry[field_name] = clean_latex(value.strip())
+        # Find matching close brace for the whole entry
+        entry_close = _find_matching_brace(content, i)
+        if entry_close == -1:
+            break
+        entry_body_with_key = content[i + 1:entry_close]
+        i = entry_close + 1
 
-        entries.append(entry)
+        # Split key from body: key is everything before the first comma (outside braces)
+        depth = 0
+        key_end = -1
+        for k in range(len(entry_body_with_key)):
+            ch = entry_body_with_key[k]
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+            elif ch == "," and depth == 0:
+                key_end = k
+                break
+        if key_end == -1:
+            continue
+        key = entry_body_with_key[:key_end].strip()
+        body = entry_body_with_key[key_end + 1:]
+
+        fields = _parse_entry_fields(body)
+        entries.append({
+            "key": key,
+            "entry_type": entry_type,
+            "_raw": fields,
+        })
 
     return entries
 
 
-def clean_latex(s):
-    """Remove common LaTeX markup from field values."""
-    s = re.sub(r"\\texorpdfstring\{[^}]*\}\{([^}]*)\}", r"\1", s)
-    s = re.sub(r"\\textit\{([^}]*)\}", r"\1", s)
-    s = re.sub(r"\\textbf\{([^}]*)\}", r"\1", s)
-    s = re.sub(r"\\emph\{([^}]*)\}", r"\1", s)
-    s = re.sub(r"\\textsc\{([^}]*)\}", r"\1", s)
-    s = re.sub(r"\{\\em\s+([^}]*)\}", r"\1", s)
-    s = s.replace("\\&", "&")
-    s = s.replace("\\%", "%")
-    # Accented characters — comprehensive
-    s = re.sub(r"\\'([aeiouncAEIOUNC])", r"\1", s)  # \'e → e
-    s = re.sub(r'\\\"([aeiouyAEIOUY])', r"\1", s)   # \"o → o
-    s = re.sub(r"\\`([aeiouyAEIOUY])", r"\1", s)     # \`e → e
-    s = re.sub(r"\\\^([aeiouyAEIOUY])", r"\1", s)    # \^e → e
-    s = re.sub(r"\\~([anoANO])", r"\1", s)            # \~n → n
-    s = re.sub(r"\\c\{([cC])\}", r"\1", s)           # \c{c} → c
-    s = re.sub(r"\\v\{([a-zA-Z])\}", r"\1", s)       # \v{s} → s
-    s = re.sub(r"\\k\{([a-zA-Z])\}", r"\1", s)       # \k{a} → a
-    s = re.sub(r"\\[Hud]\{([a-zA-Z])\}", r"\1", s)   # \H{o}, \u{a}, \d{t} → o, a, t
-    # Common LaTeX symbols
-    s = s.replace("\\ss", "ss")
-    s = s.replace("\\o", "o")
-    s = s.replace("\\O", "O")
-    s = s.replace("\\ae", "ae")
-    s = s.replace("\\AE", "AE")
-    s = s.replace("\\i", "i")
-    s = s.replace("\\l", "l")
-    s = s.replace("\\L", "L")
-    # Remove any remaining backslash commands (catch-all for \in, \alpha, etc.)
-    s = re.sub(r"\\[a-zA-Z]+", "", s)
-    # Dashes
-    s = s.replace("---", "\u2014")
-    s = s.replace("--", "\u2013")
-    # Clean braces and whitespace
-    s = re.sub(r"[{}]", "", s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
+def field(entry: dict, *names: str) -> str:
+    """Fetch the first non-empty value for any of the given field names."""
+    for name in names:
+        val = entry.get("_raw", {}).get(name)
+        if val:
+            return val
+    return ""
 
 
-def slugify(key):
+def slugify(key: str) -> str:
     """Turn a BibTeX key into a URL-safe slug."""
     s = key.lower()
     s = re.sub(r"[^a-z0-9]+", "-", s)
@@ -156,15 +282,15 @@ DOMAIN_RULES = [
 ]
 
 
-def classify_domain(entry):
+def classify_domain(entry: dict) -> str:
     """Classify an entry into a domain group based on keyword heuristics."""
     search_text = " ".join([
-        entry.get("title", ""),
-        entry.get("journal", ""),
-        entry.get("booktitle", ""),
-        entry.get("series", ""),
-        entry.get("publisher", ""),
-        entry.get("note", ""),
+        field(entry, "title"),
+        field(entry, "journal", "journaltitle"),
+        field(entry, "booktitle"),
+        field(entry, "series"),
+        field(entry, "publisher"),
+        field(entry, "note"),
     ]).lower()
 
     for domain, keywords in DOMAIN_RULES:
@@ -172,69 +298,40 @@ def classify_domain(entry):
             if kw in search_text:
                 return domain
 
-    return "Foundations and Logic"  # conservative default
+    return "Foundations and Logic"
 
 
-# ─── Role classification ──────────────────────────────────────────────────────
-
-def classify_role(entry, domain):
+def classify_role(entry: dict, domain: str) -> str:
     """Auto-assign a role in the research program."""
-    authors = entry.get("author", "").lower()
-    title = entry.get("title", "").lower()
+    authors = field(entry, "author").lower()
+    title = field(entry, "title").lower()
     entry_type = entry.get("entry_type", "")
 
     # Program authors → foundational-source
     if "fuchs" in authors and ("panta" in title or "categorical" in title):
         return "foundational-source"
 
-    # Standard textbooks
-    textbook_signals = ["introduction", "course", "graduate texts", "textbook",
-                        "primer", "handbook", "encyclopedia"]
+    textbook_signals = [
+        "introduction", "course", "graduate texts", "textbook",
+        "primer", "handbook", "encyclopedia",
+    ]
     if entry_type == "book" and any(s in title for s in textbook_signals):
         return "domain-context"
 
-    # Core category theory
     if domain == "Category Theory":
-        if entry_type == "book":
-            return "foundational-source"
-        return "formal-antecedent"
+        return "foundational-source" if entry_type == "book" else "formal-antecedent"
 
-    # Foundations
     if domain == "Foundations and Logic":
         return "formal-antecedent"
 
-    # Philosophy → conceptual bridge
     if domain == "Metaphysics and Philosophy":
         return "conceptual-bridge"
 
-    # Physics/biology → domain context
     if domain in ("Physics", "Life and Biology"):
         return "domain-context"
 
-    # Default
     return "domain-context"
 
-
-# ─── Editorial notes ──────────────────────────────────────────────────────────
-
-ROLE_NOTE_TEMPLATES = {
-    "foundational-source":
-        "Included as a foundational source for {domain} on which the program directly builds.",
-    "formal-antecedent":
-        "Included as a formal antecedent establishing structures that the program extends or reinterprets.",
-    "historical-lineage":
-        "Included as a historical lineage marker in the intellectual tradition the program inhabits.",
-    "methodological-anchor":
-        "Included as a methodological anchor informing the program's approach to {domain}.",
-    "conceptual-bridge":
-        "Included as a conceptual bridge connecting {domain} to the program's coherence framework.",
-    "comparative-reference":
-        "Included as a comparative reference against which the program's claims can be measured.",
-    "contrast-or-foil":
-        "Included as a contrast or foil defining an alternative framing the program positions against.",
-    "domain-context":
-        "Included to provide standard reference context for {domain}.",
-}
 
 ROLE_DISPLAY = {
     "foundational-source": "Foundational Source",
@@ -258,88 +355,343 @@ TYPE_DISPLAY = {
 }
 
 
-def editorial_note(role, domain):
-    template = ROLE_NOTE_TEMPLATES.get(role, ROLE_NOTE_TEMPLATES["domain-context"])
-    return template.format(domain=domain)
+# ─── Orphan editorial prose ───────────────────────────────────────────────────
+
+
+ORPHAN_TEMPLATES = {
+    "foundational-source": (
+        "{authors_poss} {title_md}{year_clause} sits in the program's reference "
+        "corpus as a standing technical source in {domain}. It forms part of the "
+        "foundational literature the program builds upon, though it is not "
+        "directly cited in the currently published volumes of *Panta Rhei*."
+    ),
+    "formal-antecedent": (
+        "{authors_poss} {title_md}{year_clause} is part of the program's reference "
+        "corpus, acknowledged as a formal antecedent in {domain} whose structures "
+        "inform the framework's vocabulary. It is retained in the corpus for "
+        "completeness, though it is not directly cited in the currently published "
+        "volumes of *Panta Rhei*."
+    ),
+    "historical-lineage": (
+        "{authors_poss} {title_md}{year_clause} sits in the program's reference "
+        "corpus as a historical-lineage marker in {domain}, part of the intellectual "
+        "tradition the program inhabits. It is not directly cited in the currently "
+        "published volumes of *Panta Rhei*."
+    ),
+    "methodological-anchor": (
+        "{authors_poss} {title_md}{year_clause} is retained in the program's "
+        "reference corpus as a methodological anchor informing the approach to "
+        "{domain}. It is not directly cited in the currently published volumes of "
+        "*Panta Rhei*."
+    ),
+    "conceptual-bridge": (
+        "{authors_poss} {title_md}{year_clause} sits in the program's reference "
+        "corpus as a conceptual bridge between {domain} and the framework's "
+        "broader aims. It is not directly cited in the currently published volumes "
+        "of *Panta Rhei*, but remains part of the standing reference shelf."
+    ),
+    "comparative-reference": (
+        "{authors_poss} {title_md}{year_clause} is part of the program's reference "
+        "corpus as a comparative reference in {domain}. It is not directly cited "
+        "in the currently published volumes of *Panta Rhei*."
+    ),
+    "contrast-or-foil": (
+        "{authors_poss} {title_md}{year_clause} is part of the program's reference "
+        "corpus as a contrast or foil in {domain}, marking an alternative framing "
+        "the program positions against. It is not directly cited in the currently "
+        "published volumes of *Panta Rhei*."
+    ),
+    "domain-context": (
+        "{authors_poss} {title_md}{year_clause} is part of the program's reference "
+        "corpus as standard domain context for {domain}. It is not directly cited "
+        "in the currently published volumes of *Panta Rhei*, but is retained as "
+        "part of the research shelf."
+    ),
+}
+
+
+def _possessive(name: str) -> str:
+    if not name or name == "Unknown":
+        return "The"
+    if name.endswith("s"):
+        return name + "'"
+    return name + "'s"
+
+
+def _simple_author_label(authors_raw: str) -> str:
+    """Produce a simple surname-based label for orphan prose."""
+    if not authors_raw:
+        return "Unknown"
+    # Resolve accents
+    s = latex_accents_to_unicode(authors_raw)
+    # Collapse whitespace
+    s = re.sub(r"\s+", " ", s).strip()
+    # Handle collaborations
+    if "Collaboration" in s or "collaboration" in s:
+        return "The collaboration"
+    parts = [p.strip() for p in re.split(r"\s+and\s+", s)]
+
+    def surname(person: str) -> str:
+        if "," in person:
+            return person.split(",")[0].strip()
+        tokens = person.split()
+        if not tokens:
+            return person
+        return tokens[-1]
+
+    surnames = [surname(p) for p in parts]
+    if len(surnames) == 1:
+        return surnames[0]
+    if len(surnames) == 2:
+        return f"{surnames[0]} and {surnames[1]}"
+    return f"{surnames[0]} et al."
+
+
+def orphan_prose(role: str, domain: str, authors: str, title: str, year: str) -> str:
+    """Generate editorial prose for an entry not cited in any book manuscript."""
+    template = ORPHAN_TEMPLATES.get(role, ORPHAN_TEMPLATES["domain-context"])
+    author_label = _simple_author_label(authors)
+    authors_poss = _possessive(author_label)
+    # Escape literal asterisks in the title so kramdown doesn't misinterpret
+    # them as Markdown italic markers when rendering the <em> block.
+    title_escaped = (title or "").rstrip(".").replace("*", "&#42;")
+    title_md = f"<em>{title_escaped}</em>" if title_escaped else "this reference"
+    year_clause = f" ({year})" if year else ""
+    return template.format(
+        authors_poss=authors_poss,
+        title_md=title_md,
+        year_clause=year_clause,
+        domain=domain,
+    )
+
+
+# ─── Overrides loading ────────────────────────────────────────────────────────
+
+
+def load_overrides() -> dict:
+    """Load the editorial overrides YAML, or return empty dict if missing."""
+    if not OVERRIDES_PATH.exists():
+        return {}
+    try:
+        import yaml
+    except ImportError:
+        print("WARNING: PyYAML not available; overrides not loaded", file=sys.stderr)
+        return {}
+    with open(OVERRIDES_PATH, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    return data
+
+
+def load_citation_index() -> dict:
+    """Load the citation index built by build_citation_index.py."""
+    if not CITATION_INDEX_PATH.exists():
+        return {}
+    with open(CITATION_INDEX_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 # ─── YAML helpers ─────────────────────────────────────────────────────────────
 
-def yaml_str(s):
-    """Safely quote a string for YAML frontmatter."""
-    if not s:
+
+def yaml_str(s: str) -> str:
+    """Safely double-quote a string for YAML frontmatter. Preserves HTML/MathML."""
+    if s is None or s == "":
         return '""'
-    # Always double-quote and escape problematic characters
-    escaped = s.replace("\\", "\\\\")  # backslashes first
-    escaped = escaped.replace('"', '\\"')
+    # Escape backslash and double-quote. MathML uses <tags> and single-quoted
+    # attributes, so there are no backslashes or double-quotes in valid output.
+    escaped = s.replace("\\", "\\\\").replace('"', '\\"')
     return f'"{escaped}"'
+
+
+def yaml_block(text: str, indent: int = 2) -> str:
+    """Emit a multi-line string as a YAML block scalar (|)."""
+    prefix = " " * indent
+    lines = text.rstrip().split("\n")
+    return "\n".join(prefix + line for line in lines)
 
 
 # ─── Generator ────────────────────────────────────────────────────────────────
 
-def generate_all(entries):
+
+def build_formatted_citation(
+    authors: str, year: str, title_md: str, title_plain: str,
+    journal: str, publisher: str, volume: str, number: str, pages: str,
+    use_mathml_title: bool = False,
+):
+    """Build two citation strings: one with MathML title, one plain.
+
+    Uses HTML <em> for italic (not Markdown *...*) because some titles
+    start or end with asterisks (e.g., "$*$-Autonomous Categories") which
+    break Markdown parsing.
+    """
+    def build(title_variant):
+        parts = []
+        if authors:
+            parts.append(authors)
+        if year:
+            parts.append(f"({year})")
+        if title_variant:
+            parts.append(f"<em>{title_variant}</em>")
+        if journal:
+            parts.append(f"<em>{journal}</em>")
+        if volume:
+            vol_str = f"<strong>{volume}</strong>"
+            if number:
+                vol_str += f"({number})"
+            parts.append(vol_str)
+        if pages:
+            parts.append(f"pp. {pages}")
+        if publisher:
+            parts.append(publisher)
+        return ". ".join(parts) + "."
+
+    return build(title_md), build(title_plain)
+
+
+def generate_all(entries, out_collection: Path, dry_run: bool = False):
     """Generate all output files."""
-    # Clean output directories
-    if os.path.exists(OUT_COLLECTION):
-        shutil.rmtree(OUT_COLLECTION)
-    os.makedirs(OUT_COLLECTION, exist_ok=True)
-    os.makedirs(OUT_DATA, exist_ok=True)
-    os.makedirs(OUT_ASSET, exist_ok=True)
+    citation_index = load_citation_index()
+    overrides = load_overrides()
+
+    if not out_collection.exists():
+        out_collection.mkdir(parents=True, exist_ok=True)
+    elif not dry_run:
+        shutil.rmtree(out_collection)
+        out_collection.mkdir(parents=True, exist_ok=True)
+
+    OUT_DATA.mkdir(parents=True, exist_ok=True)
+    OUT_ASSET.mkdir(parents=True, exist_ok=True)
 
     index_data = []
     groups = defaultdict(list)
 
+    stats = {
+        "total": 0,
+        "overrides_applied": 0,
+        "cited_entries": 0,
+        "orphan_entries": 0,
+        "mathml_titles": 0,
+    }
+
     for entry in entries:
         key = entry["key"]
         slug = slugify(key)
-        title = entry.get("title", key)
-        authors = entry.get("author", "Unknown")
-        year = entry.get("year", "n.d.")
-        entry_type = entry.get("entry_type", "misc")
-        journal = entry.get("journal", entry.get("booktitle", ""))
-        publisher = entry.get("publisher", "")
-        volume = entry.get("volume", "")
-        number = entry.get("number", "")
-        pages = entry.get("pages", "")
-        doi = entry.get("doi", "")
-        url = entry.get("url", "")
-        isbn = entry.get("isbn", "")
-        series = entry.get("series", "")
-        edition = entry.get("edition", "")
-        arxiv = entry.get("eprint", entry.get("arxiv", ""))
 
-        domain = classify_domain(entry)
-        role = classify_role(entry, domain)
-        note = editorial_note(role, domain)
+        # Raw fields (still with LaTeX)
+        raw_title = field(entry, "title")
+        raw_authors = field(entry, "author")
+        raw_journal = field(entry, "journal", "journaltitle")
+        raw_booktitle = field(entry, "booktitle")
+        raw_publisher = field(entry, "publisher")
+        raw_series = field(entry, "series")
+
+        # Title → (MathML, plain) pair
+        try:
+            title_mathml, title_plain = convert_title(raw_title) if raw_title else ("", "")
+        except Exception as e:
+            print(f"WARN: convert_title failed for {key}: {e}", file=sys.stderr)
+            title_mathml = raw_title
+            title_plain = raw_title
+        if title_mathml != title_plain and "<math" in title_mathml:
+            stats["mathml_titles"] += 1
+
+        # Other fields: clean_bibfield (non-destructive)
+        authors = clean_bibfield(raw_authors) or "Unknown"
+        year = field(entry, "year") or "n.d."
+        entry_type = entry.get("entry_type", "misc")
+        journal = clean_bibfield(raw_journal) or clean_bibfield(raw_booktitle)
+        publisher = clean_bibfield(raw_publisher)
+        series = clean_bibfield(raw_series)
+        edition = clean_bibfield(field(entry, "edition"))
+
+        volume = field(entry, "volume")
+        number = field(entry, "number")
+        pages = field(entry, "pages")
+        doi = field(entry, "doi")
+        url = field(entry, "url")
+        isbn = field(entry, "isbn")
+        arxiv = field(entry, "eprint", "arxiv")
+
+        # Handle \& in pages etc
+        for f_var in ["volume", "number", "pages", "doi", "url", "isbn", "arxiv"]:
+            val = locals().get(f_var, "")
+            if isinstance(val, str) and "\\" in val:
+                locals()[f_var] = clean_bibfield(val)
+
+        # Classification
+        entry_for_classify = {
+            "_raw": entry["_raw"],
+            "entry_type": entry_type,
+        }
+        domain = classify_domain(entry_for_classify)
+        role = classify_role(entry_for_classify, domain)
+
+        # Citation lookup
+        citations = citation_index.get(key, [])
+        is_orphan = len(citations) == 0
+        if is_orphan:
+            stats["orphan_entries"] += 1
+        else:
+            stats["cited_entries"] += 1
+
+        # Build cited_in YAML list
+        cited_in_list = []
+        for c in citations:
+            cited_in_list.append({
+                "book": c.get("book", ""),
+                "book_title": c.get("book_title", ""),
+                "part": c.get("part", ""),
+                "chapter_file": c.get("chapter_file", ""),
+                "chapter_title": c.get("chapter_title", ""),
+                "excerpt": c.get("context", ""),
+            })
+
+        # Build body text
+        override_entry = overrides.get(key)
+        if isinstance(override_entry, dict) and override_entry.get("why_included"):
+            body_text = override_entry["why_included"].strip()
+            has_override = True
+            stats["overrides_applied"] += 1
+        else:
+            has_override = False
+            if is_orphan:
+                body_text = orphan_prose(role, domain, authors, title_plain, year)
+            else:
+                # Entry is cited but has no override — should be rare given Commit 2
+                # wrote overrides for all 210 cited keys. Fallback: minimal grounded
+                # template using the first citation.
+                first = citations[0]
+                author_label = _simple_author_label(raw_authors)
+                authors_poss = _possessive(author_label)
+                title_md = f"*{title_plain.rstrip('.')}*"
+                year_clause = f" ({year})" if year else ""
+                where = f"Book {first.get('book', '')} ({first.get('part', '')}, {first.get('chapter_title', '')})"
+                body_text = (
+                    f"{authors_poss} {title_md}{year_clause} is cited in {where} "
+                    f"within the program's reference corpus."
+                )
+
+        # Build formatted citation (two variants)
+        citation_mathml, citation_plain = build_formatted_citation(
+            authors=authors,
+            year=year,
+            title_md=title_mathml if title_mathml else title_plain,
+            title_plain=title_plain,
+            journal=journal,
+            publisher=publisher,
+            volume=volume,
+            number=number,
+            pages=pages,
+        )
 
         type_display = TYPE_DISPLAY.get(entry_type, entry_type.title())
         role_display = ROLE_DISPLAY.get(role, role.replace("-", " ").title())
 
-        # Build formatted citation
-        citation_parts = []
-        if authors:
-            citation_parts.append(authors)
-        if year:
-            citation_parts.append(f"({year})")
-        if title:
-            citation_parts.append(f"*{title}*")
-        if journal:
-            citation_parts.append(journal)
-        if volume:
-            vol_str = f"**{volume}**"
-            if number:
-                vol_str += f"({number})"
-            citation_parts.append(vol_str)
-        if pages:
-            citation_parts.append(f"pp. {pages}")
-        if publisher:
-            citation_parts.append(publisher)
-        citation = ". ".join(citation_parts) + "."
-
-        # ── Write collection item ──
+        # ── Build markdown ──
         md_lines = [
             "---",
-            f"title: {yaml_str(title)}",
+            f"title: {yaml_str(title_mathml if title_mathml else title_plain)}",
+            f"title_plain: {yaml_str(title_plain)}",
             f"bib_key: {yaml_str(key)}",
             f"entry_type: {yaml_str(entry_type)}",
             f"authors: {yaml_str(authors)}",
@@ -359,7 +711,25 @@ def generate_all(entries):
             f"role_in_program: {yaml_str(role)}",
             f"role_display: {yaml_str(role_display)}",
             f"type_display: {yaml_str(type_display)}",
-            f"formatted_citation: {yaml_str(citation)}",
+            f"formatted_citation: {yaml_str(citation_mathml)}",
+            f"formatted_citation_plain: {yaml_str(citation_plain)}",
+            f"is_orphan: {'true' if is_orphan else 'false'}",
+            f"has_manual_override: {'true' if has_override else 'false'}",
+        ]
+
+        if cited_in_list:
+            md_lines.append("cited_in:")
+            for c in cited_in_list:
+                md_lines.append(f"  - book: {yaml_str(c['book'])}")
+                md_lines.append(f"    book_title: {yaml_str(c['book_title'])}")
+                md_lines.append(f"    part: {yaml_str(c['part'])}")
+                md_lines.append(f"    chapter_file: {yaml_str(c['chapter_file'])}")
+                md_lines.append(f"    chapter_title: {yaml_str(c['chapter_title'])}")
+                md_lines.append(f"    excerpt: {yaml_str(c['excerpt'])}")
+        else:
+            md_lines.append("cited_in: []")
+
+        md_lines.extend([
             "right_rail:",
             "  toc: false",
             "  related:",
@@ -375,22 +745,26 @@ def generate_all(entries):
             f"    year: {yaml_str(year)}",
             f"    domain: {yaml_str(domain)}",
             f"    role: {yaml_str(role_display)}",
+            f"    cited_in_books: {'true' if cited_in_list else 'false'}",
             '    updated: "April 2026"',
             "---",
             "",
-            note,
+            body_text,
             "",
-        ]
+        ])
 
-        out_path = os.path.join(OUT_COLLECTION, f"{slug}.md")
+        out_path = out_collection / f"{slug}.md"
         with open(out_path, "w", encoding="utf-8") as f:
             f.write("\n".join(md_lines))
 
-        # ── Index data ──
+        stats["total"] += 1
+
+        # ── Index data (uses title_plain for JSON safety) ──
         index_entry = {
             "key": key,
             "slug": slug,
-            "title": title,
+            "title": title_mathml or title_plain,  # MathML OK — Jekyll Liquid doesn't escape
+            "title_plain": title_plain,
             "authors": authors,
             "year": year,
             "entry_type": entry_type,
@@ -402,19 +776,31 @@ def generate_all(entries):
             "publisher": publisher,
             "doi": doi,
             "url": f"/bibliography/{slug}/",
+            "is_orphan": is_orphan,
+            "cited_in_count": len(cited_in_list),
         }
         index_data.append(index_entry)
         groups[domain].append(index_entry)
 
     # Sort index by year desc, then author asc
-    index_data.sort(key=lambda e: (-int(e["year"]) if e["year"].isdigit() else 0, e["authors"]))
+    index_data.sort(
+        key=lambda e: (
+            -int(e["year"]) if e["year"].isdigit() else 0,
+            e["authors"],
+        )
+    )
 
     # Sort groups
     domain_order = [d for d, _ in DOMAIN_RULES]
     groups_output = []
     for domain in domain_order:
         items = groups.get(domain, [])
-        items.sort(key=lambda e: (-int(e["year"]) if e["year"].isdigit() else 0, e["authors"]))
+        items.sort(
+            key=lambda e: (
+                -int(e["year"]) if e["year"].isdigit() else 0,
+                e["authors"],
+            )
+        )
         groups_output.append({
             "domain": domain,
             "slug": slugify(domain),
@@ -422,30 +808,62 @@ def generate_all(entries):
             "entries": items,
         })
 
-    # Write data files
-    with open(os.path.join(OUT_DATA, "index.json"), "w", encoding="utf-8") as f:
-        json.dump(index_data, f, indent=2, ensure_ascii=False)
+    # Write data files (only on real build, not dry-run)
+    if not dry_run:
+        with open(OUT_DATA / "index.json", "w", encoding="utf-8") as f:
+            json.dump(index_data, f, indent=2, ensure_ascii=False)
+        with open(OUT_DATA / "groups.json", "w", encoding="utf-8") as f:
+            json.dump(groups_output, f, indent=2, ensure_ascii=False)
+        if BIB_SOURCE.exists():
+            shutil.copy2(BIB_SOURCE, OUT_ASSET / "references.bib")
 
-    with open(os.path.join(OUT_DATA, "groups.json"), "w", encoding="utf-8") as f:
-        json.dump(groups_output, f, indent=2, ensure_ascii=False)
-
-    # Copy raw .bib as downloadable asset
-    shutil.copy2(BIB_SOURCE, os.path.join(OUT_ASSET, "references.bib"))
-
-    # Summary
-    print(f"Generated {len(entries)} collection items in {OUT_COLLECTION}/")
-    print(f"Generated index.json ({len(index_data)} entries)")
-    print(f"Generated groups.json ({len(groups_output)} groups)")
+    # Print summary
+    print(f"\n{'='*60}")
+    print(f"Bibliography build summary")
+    print(f"{'='*60}")
+    print(f"  Output directory: {out_collection}")
+    print(f"  Total items:      {stats['total']:>6}")
+    print(f"  Cited entries:    {stats['cited_entries']:>6}")
+    print(f"  Orphan entries:   {stats['orphan_entries']:>6}")
+    print(f"  Override applied: {stats['overrides_applied']:>6}")
+    print(f"  MathML in title:  {stats['mathml_titles']:>6}")
+    print(f"\nPer-domain:")
     for g in groups_output:
-        print(f"  {g['domain']}: {g['count']} entries")
-    print(f"Copied references.bib to {OUT_ASSET}/")
+        print(f"  {g['domain']:<30} {g['count']:>4}")
+
+    return stats
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
-if __name__ == "__main__":
-    print(f"Parsing {BIB_SOURCE}...")
+
+def main():
+    parser = argparse.ArgumentParser(description="Build bibliography collection")
+    parser.add_argument(
+        "--out-dir",
+        default=str(OUT_COLLECTION_DEFAULT),
+        help="Output directory for bibliography items (default: _bibliography/)",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Write items to out-dir but don't update _data/bibliography/*.json",
+    )
+    args = parser.parse_args()
+
+    out_dir = Path(args.out_dir)
+
+    print(f"Parsing {BIB_SOURCE}")
     entries = parse_bib(BIB_SOURCE)
     print(f"Found {len(entries)} entries")
-    generate_all(entries)
-    print("Done!")
+
+    generate_all(entries, out_dir, dry_run=args.dry_run)
+
+    if args.dry_run:
+        print("\n[DRY RUN] No changes written to _data/bibliography/")
+    else:
+        print("\nDone!")
+
+
+if __name__ == "__main__":
+    main()

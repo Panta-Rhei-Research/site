@@ -1,5 +1,6 @@
 ---
 title: "Group representations in probability and statistics"
+title_plain: "Group representations in probability and statistics"
 bib_key: "Diaconis1988"
 entry_type: "incollection"
 authors: "Diaconis, Persi"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book Chapter"
-formatted_citation: "Diaconis, Persi. (1988). *Group representations in probability and statistics*. Institute of Mathematical Statistics Lecture Notes–Monograph Series. IMS."
+formatted_citation: "Diaconis, Persi. (1988). <em>Group representations in probability and statistics</em>. <em>Institute of Mathematical Statistics Lecture Notes–Monograph Series</em>. IMS."
+formatted_citation_plain: "Diaconis, Persi. (1988). <em>Group representations in probability and statistics</em>. <em>Institute of Mathematical Statistics Lecture Notes–Monograph Series</em>. IMS."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1988"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Diaconis' <em>Group representations in probability and statistics</em> (1988) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

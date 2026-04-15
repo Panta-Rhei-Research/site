@@ -1,5 +1,6 @@
 ---
 title: "The Arithmetic of Elliptic Curves"
+title_plain: "The Arithmetic of Elliptic Curves"
 bib_key: "SilvermanAEC2009"
 entry_type: "book"
 authors: "Joseph H. Silverman"
@@ -19,7 +20,17 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Joseph H. Silverman. (2009). *The Arithmetic of Elliptic Curves*. Springer."
+formatted_citation: "Joseph H. Silverman. (2009). <em>The Arithmetic of Elliptic Curves</em>. Springer."
+formatted_citation_plain: "Joseph H. Silverman. (2009). <em>The Arithmetic of Elliptic Curves</em>. Springer."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "III"
+    book_title: "Categorical Spectrum"
+    part: "Part 6"
+    chapter_file: "ch45-tau-rational-interior-points"
+    chapter_title: "τ-Rational Interior Points"
+    excerpt: "The Mordell–Weil Analogue The classical Mordell–Weil theorem states that E(ℚ) is finitely generated for every elliptic curve E/ℚ"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "2009"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Silverman's <em>The Arithmetic of Elliptic Curves</em> (2009), published by Springer, sits in the program's reference corpus as a standing technical source. Cited in Book III (*Categorical Spectrum*), Part 6, Chapter *τ-Rational Interior Points*, where the program draws on it in the context of “The Mordell–Weil Analogue The classical Mordell–Weil theorem states that E(ℚ) is finitely generated for every elliptic curve E/ℚ.”

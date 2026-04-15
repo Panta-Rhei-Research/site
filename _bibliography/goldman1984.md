@@ -1,5 +1,6 @@
 ---
 title: "The symplectic nature of fundamental groups of surfaces"
+title_plain: "The symplectic nature of fundamental groups of surfaces"
 bib_key: "Goldman1984"
 entry_type: "article"
 authors: "William M. Goldman"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Advances in Mathematics"
 publisher: ""
 volume: "54"
 number: ""
-pages: "200–225"
+pages: "200--225"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "William M. Goldman. (1984). *The symplectic nature of fundamental groups of surfaces*. Advances in Mathematics. **54**. pp. 200–225."
+formatted_citation: "William M. Goldman. (1984). <em>The symplectic nature of fundamental groups of surfaces</em>. <em>Advances in Mathematics</em>. <strong>54</strong>. pp. 200--225."
+formatted_citation_plain: "William M. Goldman. (1984). <em>The symplectic nature of fundamental groups of surfaces</em>. <em>Advances in Mathematics</em>. <strong>54</strong>. pp. 200--225."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1984"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Goldman's <em>The symplectic nature of fundamental groups of surfaces</em> (1984) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

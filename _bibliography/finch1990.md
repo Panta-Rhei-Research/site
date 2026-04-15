@@ -1,5 +1,6 @@
 ---
 title: "Longevity, Senescence, and the Genome"
+title_plain: "Longevity, Senescence, and the Genome"
 bib_key: "finch1990"
 entry_type: "book"
 authors: "Finch, Caleb E."
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Finch, Caleb E.. (1990). *Longevity, Senescence, and the Genome*. University of Chicago Press."
+formatted_citation: "Finch, Caleb E.. (1990). <em>Longevity, Senescence, and the Genome</em>. University of Chicago Press."
+formatted_citation_plain: "Finch, Caleb E.. (1990). <em>Longevity, Senescence, and the Genome</em>. University of Chicago Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1990"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Finch's <em>Longevity, Senescence, and the Genome</em> (1990) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

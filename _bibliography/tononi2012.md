@@ -1,5 +1,6 @@
 ---
 title: "Phi: A Voyage from the Brain to the Soul"
+title_plain: "Phi: A Voyage from the Brain to the Soul"
 bib_key: "tononi2012"
 entry_type: "book"
 authors: "Giulio Tononi"
@@ -19,7 +20,23 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Giulio Tononi. (2012). *Phi: A Voyage from the Brain to the Soul*. Pantheon Books."
+formatted_citation: "Giulio Tononi. (2012). <em>Phi: A Voyage from the Brain to the Soul</em>. Pantheon Books."
+formatted_citation_plain: "Giulio Tononi. (2012). <em>Phi: A Voyage from the Brain to the Soul</em>. Pantheon Books."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 9"
+    chapter_file: "ch108"
+    chapter_title: "Consciousness as Global Section"
+    excerpt: "Integrated Information Theory"
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 9"
+    chapter_file: "ch115"
+    chapter_title: "The Phenomenal Self-Model: Metzinger Comparison"
+    excerpt: "Integrated information theory (Tononi ): consciousness correlates with the amount of integrated information (Φ)"
 right_rail:
   toc: false
   related:
@@ -35,7 +52,8 @@ right_rail:
     year: "2012"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Tononi's <em>Phi: A Voyage from the Brain to the Soul</em> (2012), published by Pantheon Books, sits in the program's reference corpus as a standing technical source. Cited across Book VII (*Categorical Metaphysics*), Part 9, Chapter *Consciousness as Global Section*; Book VII (*Categorical Metaphysics*), Part 9, Chapter *The Phenomenal Self-Model: Metzinger Comparison* — the central framing is “Integrated Information Theory”.

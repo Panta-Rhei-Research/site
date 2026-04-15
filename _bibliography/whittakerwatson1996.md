@@ -1,5 +1,6 @@
 ---
 title: "A Course of Modern Analysis"
+title_plain: "A Course of Modern Analysis"
 bib_key: "WhittakerWatson1996"
 entry_type: "book"
 authors: "E. T. Whittaker and G. N. Watson"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "E. T. Whittaker and G. N. Watson. (1996). *A Course of Modern Analysis*. Cambridge University Press."
+formatted_citation: "E. T. Whittaker and G. N. Watson. (1996). <em>A Course of Modern Analysis</em>. Cambridge University Press."
+formatted_citation_plain: "E. T. Whittaker and G. N. Watson. (1996). <em>A Course of Modern Analysis</em>. Cambridge University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1996"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Whittaker and Watson's <em>A Course of Modern Analysis</em> (1996) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

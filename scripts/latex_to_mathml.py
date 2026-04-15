@@ -196,19 +196,74 @@ def _resolve_literal_letters(text: str) -> str:
     return text
 
 
+# Text-mode LaTeX escape characters (outside math mode)
+TEXT_ESCAPES = {
+    r"\&": "&",
+    r"\%": "%",
+    r"\_": "_",
+    r"\#": "#",
+    r"\$": "$",  # literal dollar, not math delimiter
+    r"\{": "{",
+    r"\}": "}",
+}
+
+
 def latex_accents_to_unicode(text: str) -> str:
     """Resolve LaTeX accent commands to Unicode combining characters.
+
+    Also handles:
+    - Literal letter commands (\\ss, \\o, \\ae, etc.) → ß, ø, æ
+    - Text-mode escape characters (\\&, \\%, \\_, \\#) → &, %, _, #
+    - Forced spaces (\\space, \\ ) → space
+    - Explicit math-mode commands outside delimiters (\\mathbb, etc.)
 
     Examples:
         H\\"ormander  → Hörmander
         {\\"o}        → ö
         Poincar\\'e   → Poincaré
         Erd\\H{o}s    → Erdős
-        \\c{s}        → ş
-        Sto\\ss      → Stoß
+        Sto\\ss       → Stoß
+        Vol.\\ I      → Vol. I
+        \\&           → &
+        \\mathbb R    → ℝ
     """
     # First: literal letter commands (\ss, \o, \ae, etc.)
     text = _resolve_literal_letters(text)
+
+    # Text escapes (\&, \%, \_, \#, \$, \{, \})
+    for pattern, replacement in TEXT_ESCAPES.items():
+        text = text.replace(pattern, replacement)
+
+    # Forced spaces and spacing commands: \<space>, \,, \;, \:, \!, \>, and \/.
+    # These non-letter sequences can't collide with multi-letter commands, so
+    # no lookahead is needed.
+    text = re.sub(r"\\[ ,;:!>]", " ", text)
+    text = re.sub(r"\\/", "", text)
+
+    # Unbraced \mathbb X, \mathrm X, etc. — when no explicit $...$ delimiter,
+    # these still need to be resolved (bad BibTeX). Handle a few common cases.
+    for mb in ["R", "C", "N", "Z", "Q", "H", "F", "P", "E"]:
+        text = re.sub(
+            r"\\mathbb\s*\{" + mb + r"\}",
+            {
+                "R": "ℝ", "C": "ℂ", "N": "ℕ", "Z": "ℤ", "Q": "ℚ",
+                "H": "ℍ", "F": "𝔽", "P": "ℙ", "E": "𝔼",
+            }[mb],
+            text,
+        )
+        text = re.sub(
+            r"\\mathbb\s+" + mb + r"(?![a-zA-Z])",
+            {
+                "R": "ℝ", "C": "ℂ", "N": "ℕ", "Z": "ℤ", "Q": "ℚ",
+                "H": "ℍ", "F": "𝔽", "P": "ℙ", "E": "𝔼",
+            }[mb],
+            text,
+        )
+
+    # Strip \mathrm{x}, \mathbf{x}, etc. (unwrap content)
+    for cmd in ["mathrm", "mathbf", "mathsf", "mathit", "mathcal", "text",
+                "textit", "textbf", "emph", "mbox", "textsc", "underline"]:
+        text = re.sub(r"\\" + cmd + r"\s*\{([^{}]*)\}", r"\1", text)
 
     # Pattern matches: \ACCENT letter, \ACCENT{letter}, {\ACCENT letter}, {\ACCENT{letter}}
     def replace(match: re.Match) -> str:
@@ -220,8 +275,6 @@ def latex_accents_to_unicode(text: str) -> str:
         return combined
 
     # \"o  \"{o}  {\"o}  {\"{o}}
-    #   Accent is one of: " ' ` ^ ~ = . (single-char)
-    #   Or \\v{x} \\c{x} \\r{x} \\u{x} \\H{x} \\k{x} \\b{x} \\d{x}
     pattern = re.compile(
         r"""
         \{?                     # optional leading brace
@@ -235,7 +288,9 @@ def latex_accents_to_unicode(text: str) -> str:
         """,
         re.VERBOSE,
     )
-    return pattern.sub(replace, text)
+    text = pattern.sub(replace, text)
+
+    return text
 
 
 # ---------------------------------------------------------------------------
@@ -279,63 +334,20 @@ def _tokenize_dollar_math(s: str):
 # ---------------------------------------------------------------------------
 
 
-def _convert_math_to_plain(math: str) -> str:
-    """Convert the inside of a $...$ token to Unicode plain text."""
-    # Handle \mathbb{X}
+def _resolve_commands(math: str) -> str:
+    """Replace \\mathbb{X}, \\mathrm{X}, Greek letters, and operators in a math
+    expression. Does NOT handle super/subscripts or over/under marks — those
+    require structural parsing."""
+    # \mathbb{X}
     math = re.sub(
         r"\\mathbb\s*\{([A-Z])\}",
         lambda m: BLACKBOARD.get(m.group(1), (m.group(1), m.group(1)))[0],
         math,
     )
-    # Handle \mathrm{X} \mathbf{X} \mathsf{X} \mathit{X} — just keep content
+    # \mathrm \mathbf \mathsf \mathit \mathcal — keep content
     math = re.sub(r"\\math(?:rm|bf|sf|it|cal)\s*\{([^{}]*)\}", r"\1", math)
-    # Handle \overline{X}  →  X̄ (combining overline)
-    math = re.sub(
-        r"\\overline\s*\{([^{}]*)\}",
-        lambda m: _overline(m.group(1)),
-        math,
-    )
-    # Handle \hat{X} → X̂
-    math = re.sub(
-        r"\\hat\s*\{([^{}]*)\}",
-        lambda m: m.group(1) + "\u0302",
-        math,
-    )
-    # Handle \tilde{X} → X̃
-    math = re.sub(
-        r"\\tilde\s*\{([^{}]*)\}",
-        lambda m: m.group(1) + "\u0303",
-        math,
-    )
-    # Handle \vec{X} → X⃗
-    math = re.sub(
-        r"\\vec\s*\{([^{}]*)\}",
-        lambda m: m.group(1) + "\u20D7",
-        math,
-    )
-    # Handle superscripts: X^{abc}, X^a
-    math = re.sub(
-        r"\^\s*\{([^{}]*)\}",
-        lambda m: _superscript(m.group(1)),
-        math,
-    )
-    math = re.sub(
-        r"\^\s*([A-Za-z0-9+\-])",
-        lambda m: _superscript(m.group(1)),
-        math,
-    )
-    # Handle subscripts
-    math = re.sub(
-        r"_\s*\{([^{}]*)\}",
-        lambda m: _subscript(m.group(1)),
-        math,
-    )
-    math = re.sub(
-        r"_\s*([A-Za-z0-9+\-])",
-        lambda m: _subscript(m.group(1)),
-        math,
-    )
-    # Handle Greek letters and operators
+
+    # Greek / operators / symbols
     def sub_command(match: re.Match) -> str:
         cmd = match.group(1)
         if cmd in GREEK_LOWER:
@@ -347,6 +359,74 @@ def _convert_math_to_plain(math: str) -> str:
         return match.group(0)
 
     math = re.sub(r"\\([a-zA-Z]+)", sub_command, math)
+    return math
+
+
+def _convert_math_to_plain(math: str) -> str:
+    """Convert the inside of a $...$ token to Unicode plain text.
+
+    Order: Greek/operator commands resolved FIRST so that subsequent
+    structural marks (\\overline, \\hat, superscripts) apply to the
+    Unicode character, not the raw \\command token.
+    """
+    # FIRST PASS: resolve Greek, operators, and \\mathbb inside structural
+    # marks. We do this by walking one-argument commands and resolving their
+    # argument recursively.
+    def resolve_one_arg(match: re.Match, transform):
+        inner = match.group(1)
+        inner = _resolve_commands(inner)
+        return transform(inner)
+
+    # \overline{X}: resolve inner first, then apply combining overline
+    math = re.sub(
+        r"\\overline\s*\{([^{}]*)\}",
+        lambda m: resolve_one_arg(m, _overline),
+        math,
+    )
+    # \hat{X} → X̂
+    math = re.sub(
+        r"\\hat\s*\{([^{}]*)\}",
+        lambda m: resolve_one_arg(m, lambda s: s + "\u0302"),
+        math,
+    )
+    # \tilde{X} → X̃
+    math = re.sub(
+        r"\\tilde\s*\{([^{}]*)\}",
+        lambda m: resolve_one_arg(m, lambda s: s + "\u0303"),
+        math,
+    )
+    # \vec{X} → X⃗
+    math = re.sub(
+        r"\\vec\s*\{([^{}]*)\}",
+        lambda m: resolve_one_arg(m, lambda s: s + "\u20D7"),
+        math,
+    )
+
+    # Now resolve remaining commands globally
+    math = _resolve_commands(math)
+
+    # Superscripts: X^{abc}, X^a
+    math = re.sub(
+        r"\^\s*\{([^{}]*)\}",
+        lambda m: _superscript(m.group(1)),
+        math,
+    )
+    math = re.sub(
+        r"\^\s*([A-Za-z0-9+\-])",
+        lambda m: _superscript(m.group(1)),
+        math,
+    )
+    # Subscripts
+    math = re.sub(
+        r"_\s*\{([^{}]*)\}",
+        lambda m: _subscript(m.group(1)),
+        math,
+    )
+    math = re.sub(
+        r"_\s*([A-Za-z0-9+\-])",
+        lambda m: _subscript(m.group(1)),
+        math,
+    )
     # Strip any remaining braces and backslashes
     math = math.replace("{", "").replace("}", "").replace("\\", "")
     return math

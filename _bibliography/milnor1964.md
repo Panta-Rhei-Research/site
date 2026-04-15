@@ -1,5 +1,6 @@
 ---
 title: "Eigenvalues of the Laplace operator on certain manifolds"
+title_plain: "Eigenvalues of the Laplace operator on certain manifolds"
 bib_key: "Milnor1964"
 entry_type: "article"
 authors: "John Milnor"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Proceedings of the National Academy of Sciences"
 publisher: ""
 volume: "51"
 number: ""
-pages: "542–544"
+pages: "542--544"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "John Milnor. (1964). *Eigenvalues of the Laplace operator on certain manifolds*. Proceedings of the National Academy of Sciences. **51**. pp. 542–544."
+formatted_citation: "John Milnor. (1964). <em>Eigenvalues of the Laplace operator on certain manifolds</em>. <em>Proceedings of the National Academy of Sciences</em>. <strong>51</strong>. pp. 542--544."
+formatted_citation_plain: "John Milnor. (1964). <em>Eigenvalues of the Laplace operator on certain manifolds</em>. <em>Proceedings of the National Academy of Sciences</em>. <strong>51</strong>. pp. 542--544."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1964"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Milnor's <em>Eigenvalues of the Laplace operator on certain manifolds</em> (1964) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

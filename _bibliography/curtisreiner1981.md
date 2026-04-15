@@ -1,5 +1,6 @@
 ---
-title: "Methods of representation theory, Vol.\\ I"
+title: "Methods of representation theory, Vol. I"
+title_plain: "Methods of representation theory, Vol. I"
 bib_key: "CurtisReiner1981"
 entry_type: "book"
 authors: "Curtis, Charles W. and Reiner, Irving"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Curtis, Charles W. and Reiner, Irving. (1981). *Methods of representation theory, Vol.\\ I*. John Wiley & Sons."
+formatted_citation: "Curtis, Charles W. and Reiner, Irving. (1981). <em>Methods of representation theory, Vol. I</em>. John Wiley & Sons."
+formatted_citation_plain: "Curtis, Charles W. and Reiner, Irving. (1981). <em>Methods of representation theory, Vol. I</em>. John Wiley & Sons."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1981"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Curtis and Reiner's <em>Methods of representation theory, Vol. I</em> (1981) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

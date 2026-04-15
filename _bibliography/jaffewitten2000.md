@@ -1,5 +1,6 @@
 ---
 title: "Quantum Yang–Mills Theory and the Mass Gap"
+title_plain: "Quantum Yang–Mills Theory and the Mass Gap"
 bib_key: "JaffeWitten2000"
 entry_type: "misc"
 authors: "Arthur Jaffe and Edward Witten"
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Miscellaneous"
-formatted_citation: "Arthur Jaffe and Edward Witten. (2000). *Quantum Yang–Mills Theory and the Mass Gap*."
+formatted_citation: "Arthur Jaffe and Edward Witten. (2000). <em>Quantum Yang–Mills Theory and the Mass Gap</em>."
+formatted_citation_plain: "Arthur Jaffe and Edward Witten. (2000). <em>Quantum Yang–Mills Theory and the Mass Gap</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2000"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Jaffe and Witten's <em>Quantum Yang–Mills Theory and the Mass Gap</em> (2000) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

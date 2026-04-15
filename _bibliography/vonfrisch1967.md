@@ -1,5 +1,6 @@
 ---
 title: "The Dance Language and Orientation of Bees"
+title_plain: "The Dance Language and Orientation of Bees"
 bib_key: "vonFrisch1967"
 entry_type: "book"
 authors: "Karl von Frisch"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Karl von Frisch. (1967). *The Dance Language and Orientation of Bees*. Harvard University Press."
+formatted_citation: "Karl von Frisch. (1967). <em>The Dance Language and Orientation of Bees</em>. Harvard University Press."
+formatted_citation_plain: "Karl von Frisch. (1967). <em>The Dance Language and Orientation of Bees</em>. Harvard University Press."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 5"
+    chapter_file: "ch55"
+    chapter_title: "The Subsymbolic Is Real"
+    excerpt: "Animal Cognition Non-human animals navigate complex environments, recognize conspecifics, anticipate predators, and coordinate social behaviour without symbolic language"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1967"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+von Frisch's <em>The Dance Language and Orientation of Bees</em> (1967), published by Harvard University Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 5, Chapter *The Subsymbolic Is Real*, where the program draws on it in the context of “Animal Cognition Non-human animals navigate complex environments, recognize conspecifics, anticipate predators, and coordinate social behaviour without symbolic language.”

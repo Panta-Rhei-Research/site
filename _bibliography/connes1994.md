@@ -1,5 +1,6 @@
 ---
 title: "Noncommutative Geometry"
+title_plain: "Noncommutative Geometry"
 bib_key: "Connes1994"
 entry_type: "book"
 authors: "Connes, Alain"
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Connes, Alain. (1994). *Noncommutative Geometry*. Academic Press."
+formatted_citation: "Connes, Alain. (1994). <em>Noncommutative Geometry</em>. Academic Press."
+formatted_citation_plain: "Connes, Alain. (1994). <em>Noncommutative Geometry</em>. Academic Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1994"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Connes' <em>Noncommutative Geometry</em> (1994) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

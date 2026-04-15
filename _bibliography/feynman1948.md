@@ -1,5 +1,6 @@
 ---
 title: "Space-Time Approach to Non-Relativistic Quantum Mechanics"
+title_plain: "Space-Time Approach to Non-Relativistic Quantum Mechanics"
 bib_key: "Feynman1948"
 entry_type: "article"
 authors: "Richard P. Feynman"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Reviews of Modern Physics"
 publisher: ""
 volume: "20"
 number: ""
-pages: "367–387"
+pages: "367--387"
 doi: "10.1103/RevModPhys.20.367"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Richard P. Feynman. (1948). *Space-Time Approach to Non-Relativistic Quantum Mechanics*. Reviews of Modern Physics. **20**. pp. 367–387."
+formatted_citation: "Richard P. Feynman. (1948). <em>Space-Time Approach to Non-Relativistic Quantum Mechanics</em>. <em>Reviews of Modern Physics</em>. <strong>20</strong>. pp. 367--387."
+formatted_citation_plain: "Richard P. Feynman. (1948). <em>Space-Time Approach to Non-Relativistic Quantum Mechanics</em>. <em>Reviews of Modern Physics</em>. <strong>20</strong>. pp. 367--387."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1948"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Feynman's <em>Space-Time Approach to Non-Relativistic Quantum Mechanics</em> (1948) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

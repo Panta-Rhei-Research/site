@@ -1,5 +1,6 @@
 ---
-title: "Pictures of Ultrametric Spaces, the $p$-adic Numbers, and Valued Fields"
+title: "Pictures of Ultrametric Spaces, the <math><mi>p</mi></math>-adic Numbers, and Valued Fields"
+title_plain: "Pictures of Ultrametric Spaces, the p-adic Numbers, and Valued Fields"
 bib_key: "Holly2001"
 entry_type: "article"
 authors: "Jan E. Holly"
@@ -8,7 +9,7 @@ journal_or_booktitle: "American Mathematical Monthly"
 publisher: ""
 volume: "108"
 number: "8"
-pages: "721–728"
+pages: "721--728"
 doi: "10.2307/2695615"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Jan E. Holly. (2001). *Pictures of Ultrametric Spaces, the $p$-adic Numbers, and Valued Fields*. American Mathematical Monthly. **108**(8). pp. 721–728."
+formatted_citation: "Jan E. Holly. (2001). <em>Pictures of Ultrametric Spaces, the <math><mi>p</mi></math>-adic Numbers, and Valued Fields</em>. <em>American Mathematical Monthly</em>. <strong>108</strong>(8). pp. 721--728."
+formatted_citation_plain: "Jan E. Holly. (2001). <em>Pictures of Ultrametric Spaces, the p-adic Numbers, and Valued Fields</em>. <em>American Mathematical Monthly</em>. <strong>108</strong>(8). pp. 721--728."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2001"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Holly's <em>Pictures of Ultrametric Spaces, the p-adic Numbers, and Valued Fields</em> (2001) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

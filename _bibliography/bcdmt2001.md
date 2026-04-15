@@ -1,5 +1,6 @@
 ---
-title: "On the modularity of elliptic curves over $Q$: wild 3-adic exercises"
+title: "On the modularity of elliptic curves over <math><mi mathvariant='double-struck'>Q</mi></math>: wild 3-adic exercises"
+title_plain: "On the modularity of elliptic curves over ℚ: wild 3-adic exercises"
 bib_key: "BCDMT2001"
 entry_type: "article"
 authors: "Christophe Breuil and Brian Conrad and Fred Diamond and Richard Taylor"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Journal of the American Mathematical Society"
 publisher: ""
 volume: "14"
 number: ""
-pages: "843–939"
+pages: "843--939"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Christophe Breuil and Brian Conrad and Fred Diamond and Richard Taylor. (2001). *On the modularity of elliptic curves over $Q$: wild 3-adic exercises*. Journal of the American Mathematical Society. **14**. pp. 843–939."
+formatted_citation: "Christophe Breuil and Brian Conrad and Fred Diamond and Richard Taylor. (2001). <em>On the modularity of elliptic curves over <math><mi mathvariant='double-struck'>Q</mi></math>: wild 3-adic exercises</em>. <em>Journal of the American Mathematical Society</em>. <strong>14</strong>. pp. 843--939."
+formatted_citation_plain: "Christophe Breuil and Brian Conrad and Fred Diamond and Richard Taylor. (2001). <em>On the modularity of elliptic curves over ℚ: wild 3-adic exercises</em>. <em>Journal of the American Mathematical Society</em>. <strong>14</strong>. pp. 843--939."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2001"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Breuil et al.'s <em>On the modularity of elliptic curves over ℚ: wild 3-adic exercises</em> (2001) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

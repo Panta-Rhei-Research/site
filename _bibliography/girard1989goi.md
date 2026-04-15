@@ -1,5 +1,6 @@
 ---
 title: "Geometry of Interaction I: Interpretation of System~F"
+title_plain: "Geometry of Interaction I: Interpretation of System~F"
 bib_key: "Girard1989GoI"
 entry_type: "incollection"
 authors: "Jean-Yves Girard"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Logic Colloquium '88"
 publisher: "North-Holland"
 volume: ""
 number: ""
-pages: "221–260"
+pages: "221--260"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book Chapter"
-formatted_citation: "Jean-Yves Girard. (1989). *Geometry of Interaction I: Interpretation of System~F*. Logic Colloquium '88. pp. 221–260. North-Holland."
+formatted_citation: "Jean-Yves Girard. (1989). <em>Geometry of Interaction I: Interpretation of System~F</em>. <em>Logic Colloquium '88</em>. pp. 221--260. North-Holland."
+formatted_citation_plain: "Jean-Yves Girard. (1989). <em>Geometry of Interaction I: Interpretation of System~F</em>. <em>Logic Colloquium '88</em>. pp. 221--260. North-Holland."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "I"
+    book_title: "Categorical Foundations"
+    part: "Part 18"
+    chapter_file: "ch73-enrichment-frontier"
+    chapter_title: "The Enrichment Frontier"
+    excerpt: "Girard's Geometry of Interaction reconceives proofs as interactive processes that respect linear resource discipline"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1989"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Girard's chapter <em>Geometry of Interaction I: Interpretation of System~F</em> (1989) in *Logic Colloquium '88* sits in the program's reference corpus. Cited in Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier*, where the program draws on it in the context of “Girard's Geometry of Interaction reconceives proofs as interactive processes that respect linear resource discipline.”

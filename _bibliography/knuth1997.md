@@ -1,5 +1,6 @@
 ---
 title: "The Art of Computer Programming, Volume 2: Seminumerical Algorithms"
+title_plain: "The Art of Computer Programming, Volume 2: Seminumerical Algorithms"
 bib_key: "Knuth1997"
 entry_type: "book"
 authors: "Donald E. Knuth"
@@ -19,7 +20,11 @@ domain_group: "Computation and Complexity"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Donald E. Knuth. (1997). *The Art of Computer Programming, Volume 2: Seminumerical Algorithms*. Addison-Wesley."
+formatted_citation: "Donald E. Knuth. (1997). <em>The Art of Computer Programming, Volume 2: Seminumerical Algorithms</em>. Addison-Wesley."
+formatted_citation_plain: "Donald E. Knuth. (1997). <em>The Art of Computer Programming, Volume 2: Seminumerical Algorithms</em>. Addison-Wesley."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1997"
     domain: "Computation and Complexity"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Computation and Complexity.
+Knuth's <em>The Art of Computer Programming, Volume 2: Seminumerical Algorithms</em> (1997) is part of the program's reference corpus as standard domain context for Computation and Complexity. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

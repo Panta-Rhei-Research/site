@@ -1,5 +1,6 @@
 ---
 title: "Set Theory: An Introduction to Independence Proofs"
+title_plain: "Set Theory: An Introduction to Independence Proofs"
 bib_key: "Kunen1980"
 entry_type: "book"
 authors: "Kenneth Kunen"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Kenneth Kunen. (1980). *Set Theory: An Introduction to Independence Proofs*. **102**. North-Holland."
+formatted_citation: "Kenneth Kunen. (1980). <em>Set Theory: An Introduction to Independence Proofs</em>. <strong>102</strong>. North-Holland."
+formatted_citation_plain: "Kenneth Kunen. (1980). <em>Set Theory: An Introduction to Independence Proofs</em>. <strong>102</strong>. North-Holland."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1980"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Kunen's <em>Set Theory: An Introduction to Independence Proofs</em> (1980) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

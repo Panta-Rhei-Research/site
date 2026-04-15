@@ -1,5 +1,6 @@
 ---
 title: "Log-Sobolev inequalities for infinite spin systems"
+title_plain: "Log-Sobolev inequalities for infinite spin systems"
 bib_key: "Zegarlinski1992"
 entry_type: "article"
 authors: "B. Zegarlinski"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Journal of Functional Analysis"
 publisher: ""
 volume: "106"
 number: ""
-pages: "77–111"
+pages: "77--111"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "B. Zegarlinski. (1992). *Log-Sobolev inequalities for infinite spin systems*. Journal of Functional Analysis. **106**. pp. 77–111."
+formatted_citation: "B. Zegarlinski. (1992). <em>Log-Sobolev inequalities for infinite spin systems</em>. <em>Journal of Functional Analysis</em>. <strong>106</strong>. pp. 77--111."
+formatted_citation_plain: "B. Zegarlinski. (1992). <em>Log-Sobolev inequalities for infinite spin systems</em>. <em>Journal of Functional Analysis</em>. <strong>106</strong>. pp. 77--111."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1992"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Zegarlinski's <em>Log-Sobolev inequalities for infinite spin systems</em> (1992) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

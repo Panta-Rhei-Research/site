@@ -1,11 +1,12 @@
 ---
-title: "Une introduction aux motifs (motifs purs, motifs mixtes, periodes)"
+title: "Une introduction aux motifs (motifs purs, motifs mixtes, périodes)"
+title_plain: "Une introduction aux motifs (motifs purs, motifs mixtes, périodes)"
 bib_key: "Andre2004"
 entry_type: "book"
-authors: "Yves Andre"
+authors: "Yves André"
 year: "2004"
 journal_or_booktitle: ""
-publisher: "SMF/Nous"
+publisher: "SMF/Noûs"
 volume: ""
 number: ""
 pages: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Yves Andre. (2004). *Une introduction aux motifs (motifs purs, motifs mixtes, periodes)*. SMF/Nous."
+formatted_citation: "Yves André. (2004). <em>Une introduction aux motifs (motifs purs, motifs mixtes, périodes)</em>. SMF/Noûs."
+formatted_citation_plain: "Yves André. (2004). <em>Une introduction aux motifs (motifs purs, motifs mixtes, périodes)</em>. SMF/Noûs."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2004"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+André's <em>Une introduction aux motifs (motifs purs, motifs mixtes, périodes)</em> (2004) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

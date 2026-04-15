@@ -1,5 +1,6 @@
 ---
 title: "Particle Creation by Black Holes"
+title_plain: "Particle Creation by Black Holes"
 bib_key: "hawking1975particle"
 entry_type: "article"
 authors: "Hawking, Stephen W."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Communications in Mathematical Physics"
 publisher: ""
 volume: "43"
 number: ""
-pages: "199–220"
+pages: "199--220"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Hawking, Stephen W.. (1975). *Particle Creation by Black Holes*. Communications in Mathematical Physics. **43**. pp. 199–220."
+formatted_citation: "Hawking, Stephen W.. (1975). <em>Particle Creation by Black Holes</em>. <em>Communications in Mathematical Physics</em>. <strong>43</strong>. pp. 199--220."
+formatted_citation_plain: "Hawking, Stephen W.. (1975). <em>Particle Creation by Black Holes</em>. <em>Communications in Mathematical Physics</em>. <strong>43</strong>. pp. 199--220."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1975"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Hawking's <em>Particle Creation by Black Holes</em> (1975) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

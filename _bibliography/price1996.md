@@ -1,5 +1,6 @@
 ---
 title: "Time's Arrow and Archimedes' Point: New Directions for the Physics of Time"
+title_plain: "Time's Arrow and Archimedes' Point: New Directions for the Physics of Time"
 bib_key: "Price1996"
 entry_type: "book"
 authors: "Huw Price"
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Huw Price. (1996). *Time's Arrow and Archimedes' Point: New Directions for the Physics of Time*. Oxford University Press."
+formatted_citation: "Huw Price. (1996). <em>Time's Arrow and Archimedes' Point: New Directions for the Physics of Time</em>. Oxford University Press."
+formatted_citation_plain: "Huw Price. (1996). <em>Time's Arrow and Archimedes' Point: New Directions for the Physics of Time</em>. Oxford University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1996"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Price's <em>Time's Arrow and Archimedes' Point: New Directions for the Physics of Time</em> (1996) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

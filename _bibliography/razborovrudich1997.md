@@ -1,5 +1,6 @@
 ---
 title: "Natural proofs"
+title_plain: "Natural proofs"
 bib_key: "RazborovRudich1997"
 entry_type: "article"
 authors: "Alexander A. Razborov and Steven Rudich"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Journal of Computer and System Sciences"
 publisher: ""
 volume: "55"
 number: "1"
-pages: "24–35"
+pages: "24--35"
 doi: "10.1006/jcss.1997.1494"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Alexander A. Razborov and Steven Rudich. (1997). *Natural proofs*. Journal of Computer and System Sciences. **55**(1). pp. 24–35."
+formatted_citation: "Alexander A. Razborov and Steven Rudich. (1997). <em>Natural proofs</em>. <em>Journal of Computer and System Sciences</em>. <strong>55</strong>(1). pp. 24--35."
+formatted_citation_plain: "Alexander A. Razborov and Steven Rudich. (1997). <em>Natural proofs</em>. <em>Journal of Computer and System Sciences</em>. <strong>55</strong>(1). pp. 24--35."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1997"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Razborov and Rudich's <em>Natural proofs</em> (1997) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

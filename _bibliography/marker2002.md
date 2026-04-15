@@ -1,5 +1,6 @@
 ---
 title: "Model Theory: An Introduction"
+title_plain: "Model Theory: An Introduction"
 bib_key: "Marker2002"
 entry_type: "book"
 authors: "David Marker"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "David Marker. (2002). *Model Theory: An Introduction*. **217**. Springer."
+formatted_citation: "David Marker. (2002). <em>Model Theory: An Introduction</em>. <strong>217</strong>. Springer."
+formatted_citation_plain: "David Marker. (2002). <em>Model Theory: An Introduction</em>. <strong>217</strong>. Springer."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2002"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Marker's <em>Model Theory: An Introduction</em> (2002) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

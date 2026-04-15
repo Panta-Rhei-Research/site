@@ -1,5 +1,6 @@
 ---
 title: "The Yang-Mills equations over Riemann surfaces"
+title_plain: "The Yang-Mills equations over Riemann surfaces"
 bib_key: "AtiyahBott1983"
 entry_type: "article"
 authors: "Atiyah, M. F. and Bott, R."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Philosophical Transactions of the Royal Society of London
 publisher: ""
 volume: "308"
 number: "1505"
-pages: "523–615"
+pages: "523--615"
 doi: "10.1098/rsta.1983.0010"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Atiyah, M. F. and Bott, R.. (1983). *The Yang-Mills equations over Riemann surfaces*. Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences. **308**(1505). pp. 523–615."
+formatted_citation: "Atiyah, M. F. and Bott, R.. (1983). <em>The Yang-Mills equations over Riemann surfaces</em>. <em>Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences</em>. <strong>308</strong>(1505). pp. 523--615."
+formatted_citation_plain: "Atiyah, M. F. and Bott, R.. (1983). <em>The Yang-Mills equations over Riemann surfaces</em>. <em>Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences</em>. <strong>308</strong>(1505). pp. 523--615."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1983"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Atiyah and Bott's <em>The Yang-Mills equations over Riemann surfaces</em> (1983) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

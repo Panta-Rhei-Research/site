@@ -1,14 +1,15 @@
 ---
-title: "Wechselwirkung neutraler Atome und homoopolare Bindung nach der Quantenmechanik"
+title: "Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik"
+title_plain: "Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik"
 bib_key: "HeitlerLondon1927"
 entry_type: "article"
 authors: "Walter Heitler and Fritz London"
 year: "1927"
-journal_or_booktitle: "Zeitschrift fur Physik"
+journal_or_booktitle: "Zeitschrift für Physik"
 publisher: ""
 volume: "44"
 number: ""
-pages: "455–472"
+pages: "455--472"
 doi: "10.1007/BF01397394"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Walter Heitler and Fritz London. (1927). *Wechselwirkung neutraler Atome und homoopolare Bindung nach der Quantenmechanik*. Zeitschrift fur Physik. **44**. pp. 455–472."
+formatted_citation: "Walter Heitler and Fritz London. (1927). <em>Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik</em>. <em>Zeitschrift für Physik</em>. <strong>44</strong>. pp. 455--472."
+formatted_citation_plain: "Walter Heitler and Fritz London. (1927). <em>Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik</em>. <em>Zeitschrift für Physik</em>. <strong>44</strong>. pp. 455--472."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1927"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Heitler and London's <em>Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik</em> (1927) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

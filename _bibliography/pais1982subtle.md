@@ -1,5 +1,6 @@
 ---
 title: "Subtle Is the Lord: The Science and the Life of Albert Einstein"
+title_plain: "Subtle Is the Lord: The Science and the Life of Albert Einstein"
 bib_key: "pais1982subtle"
 entry_type: "book"
 authors: "Pais, Abraham"
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Pais, Abraham. (1982). *Subtle Is the Lord: The Science and the Life of Albert Einstein*. Oxford University Press."
+formatted_citation: "Pais, Abraham. (1982). <em>Subtle Is the Lord: The Science and the Life of Albert Einstein</em>. Oxford University Press."
+formatted_citation_plain: "Pais, Abraham. (1982). <em>Subtle Is the Lord: The Science and the Life of Albert Einstein</em>. Oxford University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1982"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Pais' <em>Subtle Is the Lord: The Science and the Life of Albert Einstein</em> (1982) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

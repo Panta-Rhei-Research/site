@@ -1,5 +1,6 @@
 ---
 title: "Is Justified True Belief Knowledge?"
+title_plain: "Is Justified True Belief Knowledge?"
 bib_key: "gettier1963"
 entry_type: "article"
 authors: "Edmund L. Gettier"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Analysis"
 publisher: ""
 volume: "23"
 number: "6"
-pages: "121–123"
+pages: "121--123"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Edmund L. Gettier. (1963). *Is Justified True Belief Knowledge?*. Analysis. **23**(6). pp. 121–123."
+formatted_citation: "Edmund L. Gettier. (1963). <em>Is Justified True Belief Knowledge?</em>. <em>Analysis</em>. <strong>23</strong>(6). pp. 121--123."
+formatted_citation_plain: "Edmund L. Gettier. (1963). <em>Is Justified True Belief Knowledge?</em>. <em>Analysis</em>. <strong>23</strong>(6). pp. 121--123."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 3"
+    chapter_file: "ch33"
+    chapter_title: "Knowledge as Sections over Experience"
+    excerpt: "It was destabilized by Gettier's 1963 counterexamples and has never been satisfactorily repaired"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1963"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Gettier's 1963 <em>Is Justified True Belief Knowledge?</em>, published in *Analysis*, is one of the program's working technical references. Cited in Book VII (*Categorical Metaphysics*), Part 3, Chapter *Knowledge as Sections over Experience*, where the program draws on it in the context of “It was destabilized by Gettier's 1963 counterexamples and has never been satisfactorily repaired.”

@@ -1,5 +1,6 @@
 ---
 title: "Hilbert's Tenth Problem"
+title_plain: "Hilbert's Tenth Problem"
 bib_key: "Matiyasevich1993"
 entry_type: "book"
 authors: "Yuri Matiyasevich"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Yuri Matiyasevich. (1993). *Hilbert's Tenth Problem*. MIT Press."
+formatted_citation: "Yuri Matiyasevich. (1993). <em>Hilbert's Tenth Problem</em>. MIT Press."
+formatted_citation_plain: "Yuri Matiyasevich. (1993). <em>Hilbert's Tenth Problem</em>. MIT Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1993"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Matiyasevich's <em>Hilbert's Tenth Problem</em> (1993) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

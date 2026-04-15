@@ -1,5 +1,6 @@
 ---
 title: "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC"
+title_plain: "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC"
 bib_key: "CMSHiggs2012"
 entry_type: "article"
 authors: "CMS Collaboration"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Physics Letters B"
 publisher: ""
 volume: "716"
 number: ""
-pages: "30–61"
+pages: "30--61"
 doi: "10.1016/j.physletb.2012.08.021"
 url: ""
 isbn: ""
@@ -19,7 +20,17 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "CMS Collaboration. (2012). *Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC*. Physics Letters B. **716**. pp. 30–61."
+formatted_citation: "CMS Collaboration. (2012). <em>Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC</em>. <em>Physics Letters B</em>. <strong>716</strong>. pp. 30--61."
+formatted_citation_plain: "CMS Collaboration. (2012). <em>Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC</em>. <em>Physics Letters B</em>. <strong>716</strong>. pp. 30--61."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "IV"
+    book_title: "Categorical Microcosm"
+    part: "Part 3"
+    chapter_file: "ch26-tau-higgs"
+    chapter_title: "The τ-Higgs Mechanism"
+    excerpt: "The ATLAS and CMS collaborations, after analyzing trillions of proton-proton collisions, had each independently found a new particle at 125 GeV with scalar quantum numbers"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "2012"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+the CMS Collaboration's 2012 <em>Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC</em>, published in *Physics Letters B*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 3, Chapter *The τ-Higgs Mechanism*, where the program draws on it in the context of “The ATLAS and CMS collaborations, after analyzing trillions of proton-proton collisions, had each independently found a new particle at 125 GeV with scalar quantum numbers.”

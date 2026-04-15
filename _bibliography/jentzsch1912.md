@@ -1,5 +1,6 @@
 ---
 title: "Über Integralgleichungen mit positivem Kern"
+title_plain: "Über Integralgleichungen mit positivem Kern"
 bib_key: "Jentzsch1912"
 entry_type: "article"
 authors: "R. Jentzsch"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Journal für die reine und angewandte Mathematik"
 publisher: ""
 volume: "141"
 number: ""
-pages: "235–244"
+pages: "235--244"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "R. Jentzsch. (1912). *Über Integralgleichungen mit positivem Kern*. Journal für die reine und angewandte Mathematik. **141**. pp. 235–244."
+formatted_citation: "R. Jentzsch. (1912). <em>Über Integralgleichungen mit positivem Kern</em>. <em>Journal für die reine und angewandte Mathematik</em>. <strong>141</strong>. pp. 235--244."
+formatted_citation_plain: "R. Jentzsch. (1912). <em>Über Integralgleichungen mit positivem Kern</em>. <em>Journal für die reine und angewandte Mathematik</em>. <strong>141</strong>. pp. 235--244."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1912"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Jentzsch's <em>Über Integralgleichungen mit positivem Kern</em> (1912) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

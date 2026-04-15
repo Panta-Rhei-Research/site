@@ -18,7 +18,7 @@
 {%- comment -%} Escape the description for JSON embedding {%- endcomment -%}
 {%- capture json_description -%}{{ seo_description | strip_html | replace: '"', '\"' | replace: '\', '\\' | strip_newlines }}{%- endcapture -%}
 
-{%- capture json_title -%}{{ page.title | default: site.title | strip_html | replace: '"', '\"' }}{%- endcapture -%}
+{%- capture json_title -%}{{ page.title_plain | default: page.title | default: site.title | strip_html | replace: '"', '\"' }}{%- endcapture -%}
 
 {%- case page.layout -%}
 

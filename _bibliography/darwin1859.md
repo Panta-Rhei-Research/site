@@ -1,5 +1,6 @@
 ---
 title: "On the Origin of Species by Means of Natural Selection"
+title_plain: "On the Origin of Species by Means of Natural Selection"
 bib_key: "darwin1859"
 entry_type: "book"
 authors: "Darwin, Charles"
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Darwin, Charles. (1859). *On the Origin of Species by Means of Natural Selection*. John Murray."
+formatted_citation: "Darwin, Charles. (1859). <em>On the Origin of Species by Means of Natural Selection</em>. John Murray."
+formatted_citation_plain: "Darwin, Charles. (1859). <em>On the Origin of Species by Means of Natural Selection</em>. John Murray."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1859"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Darwin's <em>On the Origin of Species by Means of Natural Selection</em> (1859) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

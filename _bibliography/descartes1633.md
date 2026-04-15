@@ -1,8 +1,9 @@
 ---
 title: "Treatise on Man (L'Homme)"
+title_plain: "Treatise on Man (L'Homme)"
 bib_key: "descartes1633"
 entry_type: "book"
-authors: "Descartes, Rene"
+authors: "Descartes, René"
 year: "1633"
 journal_or_booktitle: ""
 publisher: "Thomas Steele"
@@ -19,7 +20,17 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Descartes, Rene. (1633). *Treatise on Man (L'Homme)*. Thomas Steele."
+formatted_citation: "Descartes, René. (1633). <em>Treatise on Man (L'Homme)</em>. Thomas Steele."
+formatted_citation_plain: "Descartes, René. (1633). <em>Treatise on Man (L'Homme)</em>. Thomas Steele."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VI"
+    book_title: "Categorical Life"
+    part: "Part 8"
+    chapter_file: "ch51-consciousness"
+    chapter_title: "Consciousness: Structural Definition of the Self-Model"
+    excerpt: "Descartes' cogito —``I think, therefore I am''—is a first-person report of Eval^(2): the thinker models the fact of thinking"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1633"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Descartes' <em>Treatise on Man (L'Homme)</em> (1633), published by Thomas Steele, sits in the program's reference corpus as a standing technical source. Cited in Book VI (*Categorical Life*), Part 8, Chapter *Consciousness: Structural Definition of the Self-Model*, where the program draws on it in the context of “Descartes' cogito —``I think, therefore I am''—is a first-person report of Eval^(2): the thinker models the fact of thinking.”

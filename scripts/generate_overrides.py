@@ -130,11 +130,21 @@ def possessive(name: str) -> str:
 
 
 def italicize_title(title: str) -> str:
-    """Wrap title in *asterisks* for Markdown italic. Trim trailing period."""
+    """Wrap title in HTML <em> tags for italic rendering. Trim trailing period.
+
+    Uses <em> rather than Markdown `*...*` because some titles contain
+    leading/trailing asterisks (e.g., "$*$-Autonomous Categories") which
+    break Markdown italic parsing. Additionally escapes `*` inside the
+    title as the HTML entity `&#42;` so kramdown's markdown processor
+    doesn't treat them as italic markers when rendering the <em> block.
+    """
     t = title.strip()
     if t.endswith("."):
         t = t[:-1]
-    return f"*{t}*"
+    # Replace literal asterisks with the HTML entity so kramdown doesn't
+    # interpret them as Markdown italic markers when processing the <em>.
+    t = t.replace("*", "&#42;")
+    return f"<em>{t}</em>"
 
 
 def format_entry_type_phrase(entry_type: str, publisher: str, journal: str, booktitle: str) -> str:

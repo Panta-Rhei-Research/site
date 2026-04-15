@@ -1,14 +1,15 @@
 ---
 title: "Notes on elliptic curves. I"
+title_plain: "Notes on elliptic curves. I"
 bib_key: "BirchSwinnertonDyer1965"
 entry_type: "article"
 authors: "Bryan J. Birch and Peter Swinnerton-Dyer"
 year: "1965"
-journal_or_booktitle: "Journal für die reine und angewandte Mathematik"
+journal_or_booktitle: "Journal f\"ur die reine und angewandte Mathematik"
 publisher: ""
 volume: "212"
 number: ""
-pages: "7–25"
+pages: "7--25"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Bryan J. Birch and Peter Swinnerton-Dyer. (1965). *Notes on elliptic curves. I*. Journal für die reine und angewandte Mathematik. **212**. pp. 7–25."
+formatted_citation: "Bryan J. Birch and Peter Swinnerton-Dyer. (1965). <em>Notes on elliptic curves. I</em>. <em>Journal f\"ur die reine und angewandte Mathematik</em>. <strong>212</strong>. pp. 7--25."
+formatted_citation_plain: "Bryan J. Birch and Peter Swinnerton-Dyer. (1965). <em>Notes on elliptic curves. I</em>. <em>Journal f\"ur die reine und angewandte Mathematik</em>. <strong>212</strong>. pp. 7--25."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1965"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Birch and Swinnerton-Dyer's <em>Notes on elliptic curves. I</em> (1965) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

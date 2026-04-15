@@ -1,11 +1,12 @@
 ---
 title: "Discrete Exterior Calculus"
+title_plain: "Discrete Exterior Calculus"
 bib_key: "DesbrunHiraniLeokMarsden2005"
 entry_type: "incollection"
 authors: "Mathieu Desbrun and Ananya N. Hirani and Melvin Leok and Jerrold E. Marsden"
 year: "2005"
 journal_or_booktitle: "Discrete Differential Geometry (Oberwolfach Seminars)"
-publisher: "Birkhauser"
+publisher: "Birkhäuser"
 volume: ""
 number: ""
 pages: ""
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book Chapter"
-formatted_citation: "Mathieu Desbrun and Ananya N. Hirani and Melvin Leok and Jerrold E. Marsden. (2005). *Discrete Exterior Calculus*. Discrete Differential Geometry (Oberwolfach Seminars). Birkhauser."
+formatted_citation: "Mathieu Desbrun and Ananya N. Hirani and Melvin Leok and Jerrold E. Marsden. (2005). <em>Discrete Exterior Calculus</em>. <em>Discrete Differential Geometry (Oberwolfach Seminars)</em>. Birkhäuser."
+formatted_citation_plain: "Mathieu Desbrun and Ananya N. Hirani and Melvin Leok and Jerrold E. Marsden. (2005). <em>Discrete Exterior Calculus</em>. <em>Discrete Differential Geometry (Oberwolfach Seminars)</em>. Birkhäuser."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2005"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Desbrun et al.'s <em>Discrete Exterior Calculus</em> (2005) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

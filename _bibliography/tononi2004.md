@@ -1,5 +1,6 @@
 ---
 title: "An Information Integration Theory of Consciousness"
+title_plain: "An Information Integration Theory of Consciousness"
 bib_key: "tononi2004"
 entry_type: "article"
 authors: "Tononi, Giulio"
@@ -19,7 +20,23 @@ domain_group: "Metaphysics and Philosophy"
 role_in_program: "conceptual-bridge"
 role_display: "Conceptual Bridge"
 type_display: "Article"
-formatted_citation: "Tononi, Giulio. (2004). *An Information Integration Theory of Consciousness*. BMC Neuroscience. **5**. pp. 42."
+formatted_citation: "Tononi, Giulio. (2004). <em>An Information Integration Theory of Consciousness</em>. <em>BMC Neuroscience</em>. <strong>5</strong>. pp. 42."
+formatted_citation_plain: "Tononi, Giulio. (2004). <em>An Information Integration Theory of Consciousness</em>. <em>BMC Neuroscience</em>. <strong>5</strong>. pp. 42."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 9"
+    chapter_file: "ch108"
+    chapter_title: "Consciousness as Global Section"
+    excerpt: "Integrated Information Theory"
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 9"
+    chapter_file: "ch115"
+    chapter_title: "The Phenomenal Self-Model: Metzinger Comparison"
+    excerpt: "Integrated information theory (Tononi ): consciousness correlates with the amount of integrated information (Φ)"
 right_rail:
   toc: false
   related:
@@ -35,7 +52,8 @@ right_rail:
     year: "2004"
     domain: "Metaphysics and Philosophy"
     role: "Conceptual Bridge"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a conceptual bridge connecting Metaphysics and Philosophy to the program's coherence framework.
+Tononi's 2004 <em>An Information Integration Theory of Consciousness</em>, published in *BMC Neuroscience*, is one of the program's working technical references. Cited across Book VII (*Categorical Metaphysics*), Part 9, Chapter *Consciousness as Global Section*; Book VII (*Categorical Metaphysics*), Part 9, Chapter *The Phenomenal Self-Model: Metzinger Comparison* — the central framing is “Integrated Information Theory”.

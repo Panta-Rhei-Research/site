@@ -1,5 +1,6 @@
 ---
 title: "The Evolution of Cooperation"
+title_plain: "The Evolution of Cooperation"
 bib_key: "axelrod1981"
 entry_type: "article"
 authors: "Axelrod, Robert and Hamilton, William D."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Science"
 publisher: ""
 volume: "211"
 number: ""
-pages: "1390–1396"
+pages: "1390--1396"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Axelrod, Robert and Hamilton, William D.. (1981). *The Evolution of Cooperation*. Science. **211**. pp. 1390–1396."
+formatted_citation: "Axelrod, Robert and Hamilton, William D.. (1981). <em>The Evolution of Cooperation</em>. <em>Science</em>. <strong>211</strong>. pp. 1390--1396."
+formatted_citation_plain: "Axelrod, Robert and Hamilton, William D.. (1981). <em>The Evolution of Cooperation</em>. <em>Science</em>. <strong>211</strong>. pp. 1390--1396."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1981"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Axelrod and Hamilton's <em>The Evolution of Cooperation</em> (1981) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

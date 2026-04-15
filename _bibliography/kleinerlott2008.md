@@ -1,5 +1,6 @@
 ---
 title: "Notes on Perelman's papers"
+title_plain: "Notes on Perelman's papers"
 bib_key: "KleinerLott2008"
 entry_type: "misc"
 authors: "Kleiner, Bruce and Lott, John"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Miscellaneous"
-formatted_citation: "Kleiner, Bruce and Lott, John. (2008). *Notes on Perelman's papers*."
+formatted_citation: "Kleiner, Bruce and Lott, John. (2008). <em>Notes on Perelman's papers</em>."
+formatted_citation_plain: "Kleiner, Bruce and Lott, John. (2008). <em>Notes on Perelman's papers</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2008"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Kleiner and Lott's <em>Notes on Perelman's papers</em> (2008) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.
