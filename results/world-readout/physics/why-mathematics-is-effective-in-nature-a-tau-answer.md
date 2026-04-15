@@ -6,6 +6,10 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 11
 summary_short: "Tau’s answer to the question of why mathematics and physical law fit one another so deeply."
+key_registry:
+  - VII.D36
+  - VII.D22
+  - VII.T01
 right_rail:
   related:
   - title: Physics World Readout
@@ -64,6 +68,13 @@ That is why a framework like Tau can hope to derive lawfulness rather than merel
 ## Conclusion
 
 Tau’s answer to the effectiveness of mathematics is therefore not that mathematics is a miraculous language for an alien world. It is that the same structured reality that unfolds physically also becomes readable mathematically. Law and becoming are two articulations of one coherence.
+
+
+## Canonical References
+
+- [VII.D36]({{ '/registry/object/VII.D36/' | relative_url }}) — Abstract Objects and Structural Realism
+- [VII.D22]({{ '/registry/object/VII.D22/' | relative_url }}) — Readout Functor
+- [VII.T01]({{ '/registry/object/VII.T01/' | relative_url }}) — Register Independence
 
 ---
 

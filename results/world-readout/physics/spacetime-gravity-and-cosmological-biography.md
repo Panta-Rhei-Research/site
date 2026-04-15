@@ -6,6 +6,13 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 10
 summary_short: "How Tau reads out gravitation, proper time, and a coherent cosmological biography."
+key_registry:
+  - V.T06
+  - V.D14
+  - V.T46
+  - V.T47
+  - V.T40
+  - V.C12
 right_rail:
   related:
   - title: Physics World Readout
@@ -73,6 +80,16 @@ This is one of the reasons the later physical result pages are so strong: they a
 ## Conclusion
 
 Tau proposes a universe whose cosmology is the unfolding of one already coherent world. Gravity, proper time, horizon structure, black-hole topology, and finite saturation are not disconnected features. They are chapters of one cosmological biography.
+
+
+## Canonical References
+
+- [V.T06]({{ '/registry/object/V.T06/' | relative_url }}) — Time Derivation
+- [V.D14]({{ '/registry/object/V.D14/' | relative_url }}) — Proper Time as Arc Length
+- [V.T46]({{ '/registry/object/V.T46/' | relative_url }}) — H0 Tension Resolution
+- [V.T47]({{ '/registry/object/V.T47/' | relative_url }}) — Dark Sector Closure
+- [V.T40]({{ '/registry/object/V.T40/' | relative_url }}) — No-Shrink Theorem
+- [V.C12]({{ '/registry/object/V.C12/' | relative_url }}) — No BH Evaporation
 
 ---
 

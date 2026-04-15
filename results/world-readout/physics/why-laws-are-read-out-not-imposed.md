@@ -6,6 +6,12 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 7
 summary_short: "Why physical laws in Tau are intrinsic readouts of the world’s own dynamics."
+key_registry:
+  - IV.T100
+  - IV.T180
+  - IV.T107
+  - VII.D31
+  - VII.T12
 right_rail:
   related:
   - title: Physics World Readout
@@ -72,6 +78,15 @@ This is the philosophical and physical significance of the page.
 ## Conclusion
 
 In Tau, laws are not external commands governing otherwise independent things. They are the theorem-readable form of the same structural dynamics through which those things first become identifiable. That is why lawfulness, ontology, and world-structure remain tied together from the beginning.
+
+
+## Canonical References
+
+- [IV.T100]({{ '/registry/object/IV.T100/' | relative_url }}) — Internal Law Thesis
+- [IV.T180]({{ '/registry/object/IV.T180/' | relative_url }}) — Conservation as Naturality
+- [IV.T107]({{ '/registry/object/IV.T107/' | relative_url }}) — Running Is Readout Drift
+- [VII.D31]({{ '/registry/object/VII.D31/' | relative_url }}) — Law as Admissible Continuation
+- [VII.T12]({{ '/registry/object/VII.T12/' | relative_url }}) — Operator Realism
 
 ---
 

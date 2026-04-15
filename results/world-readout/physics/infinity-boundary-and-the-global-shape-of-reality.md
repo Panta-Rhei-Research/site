@@ -6,6 +6,11 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 4
 summary_short: "How Tau yields a globally completed, lemniscatic, compact yet unbounded universe."
+key_registry:
+  - V.T109
+  - V.T43
+  - V.D63
+  - V.T254
 right_rail:
   related:
   - title: Physics World Readout
@@ -95,6 +100,14 @@ Tau therefore proposes a universe that is:
 - and topologically deepening through its own history.
 
 That is not a familiar cosmological option. It is one of the strongest signs that the Tau world-picture is trying to describe a real global form of reality rather than a local patch of equations.
+
+
+## Canonical References
+
+- [V.T109]({{ '/registry/object/V.T109/' | relative_url }}) — BH Toroidal Topology
+- [V.T43]({{ '/registry/object/V.T43/' | relative_url }}) — Cosmic Web from Holonomy Loops
+- [V.D63]({{ '/registry/object/V.D63/' | relative_url }}) — Wilson Skeleton
+- [V.T254]({{ '/registry/object/V.T254/' | relative_url }}) — Generative-Refinement Transition
 
 ---
 

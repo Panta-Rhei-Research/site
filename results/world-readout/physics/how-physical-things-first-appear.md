@@ -6,6 +6,11 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 6
 summary_short: "How stable denotational patterns in E1 become admissible as physical things."
+key_registry:
+  - IV.D14
+  - IV.D15
+  - IV.T254
+  - IV.D59
 right_rail:
   related:
   - title: Physics World Readout
@@ -79,6 +84,14 @@ Tau’s later physical results depend on this move. Without it, there would be n
 - physical thing.
 
 That is how physical reality first becomes populated.
+
+
+## Canonical References
+
+- [IV.D14]({{ '/registry/object/IV.D14/' | relative_url }}) — Ontic Particle
+- [IV.D15]({{ '/registry/object/IV.D15/' | relative_url }}) — Stability
+- [IV.T254]({{ '/registry/object/IV.T254/' | relative_url }}) — Existence of Stable Modes
+- [IV.D59]({{ '/registry/object/IV.D59/' | relative_url }}) — Calibration Anchor
 
 ---
 

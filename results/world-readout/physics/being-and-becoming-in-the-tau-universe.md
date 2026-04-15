@@ -6,6 +6,11 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 5
 summary_short: "How Tau combines an eternal substrate with real becoming."
+key_registry:
+  - V.T09
+  - V.T10
+  - V.T11
+  - VII.L04
 right_rail:
   related:
   - title: Physics World Readout
@@ -104,6 +109,14 @@ If that claim holds, then enrichment is not merely a technical construction. It 
 ## Conclusion
 
 Tau therefore describes a universe in which being is real, becoming is real, and higher forms of reality are neither illusory nor supernatural. The substrate is eternal. The dynamics are not. The higher is grounded, but not flattened. In that sense, Tau proposes not only a physics, but a more exact grammar of reality itself.
+
+
+## Canonical References
+
+- [V.T09]({{ '/registry/object/V.T09/' | relative_url }}) — Epoch Existence
+- [V.T10]({{ '/registry/object/V.T10/' | relative_url }}) — Now-Within-Epoch
+- [V.T11]({{ '/registry/object/V.T11/' | relative_url }}) — Opening Regime
+- [VII.L04]({{ '/registry/object/VII.L04/' | relative_url }}) — Strictness Between Layers
 
 ---
 
