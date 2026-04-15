@@ -1,5 +1,6 @@
 ---
 title: "Zur Riemannschen Zetafunktion (On the Riemann zeta function)"
+title_plain: "Zur Riemannschen Zetafunktion (On the Riemann zeta function)"
 bib_key: "Mangoldt1895"
 entry_type: "article"
 authors: "von Mangoldt, Hans"
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "von Mangoldt, Hans. (1895). *Zur Riemannschen Zetafunktion (On the Riemann zeta function)*. Nachrichten der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse."
+formatted_citation: "von Mangoldt, Hans. (1895). <em>Zur Riemannschen Zetafunktion (On the Riemann zeta function)</em>. <em>Nachrichten der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse</em>."
+formatted_citation_plain: "von Mangoldt, Hans. (1895). <em>Zur Riemannschen Zetafunktion (On the Riemann zeta function)</em>. <em>Nachrichten der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1895"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+von Mangoldt's <em>Zur Riemannschen Zetafunktion (On the Riemann zeta function)</em> (1895) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

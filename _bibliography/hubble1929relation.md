@@ -1,5 +1,6 @@
 ---
 title: "A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae"
+title_plain: "A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae"
 bib_key: "hubble1929relation"
 entry_type: "article"
 authors: "Hubble, Edwin"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Proceedings of the National Academy of Sciences"
 publisher: ""
 volume: "15"
 number: ""
-pages: "168–173"
+pages: "168--173"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,29 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Hubble, Edwin. (1929). *A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae*. Proceedings of the National Academy of Sciences. **15**. pp. 168–173."
+formatted_citation: "Hubble, Edwin. (1929). <em>A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae</em>. <em>Proceedings of the National Academy of Sciences</em>. <strong>15</strong>. pp. 168--173."
+formatted_citation_plain: "Hubble, Edwin. (1929). <em>A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae</em>. <em>Proceedings of the National Academy of Sciences</em>. <strong>15</strong>. pp. 168--173."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "V"
+    book_title: "Categorical Macrocosm"
+    part: "Part 1"
+    chapter_file: "ch07-macro-readout"
+    chapter_title: "The Macro Readout: Operational Distance and Photon Ontology"
+    excerpt: "At the current depth n_*, H(n_*) ≡ H_0 is the value identified with the Hubble constant of orthodox cosmology"
+  - book: "V"
+    book_title: "Categorical Macrocosm"
+    part: "Part 7"
+    chapter_file: "ch61-gr-emergent-geometry"
+    chapter_title: "General Relativity as Emergent Geometry"
+    excerpt: "Cosmological expansion (Hubble, 1929 ; Perlmutter/Riess, 1998 ): the Friedmann equations (derived from GR) predict the expansion history of the universe"
+  - book: "V"
+    book_title: "Categorical Macrocosm"
+    part: "Part 7"
+    chapter_file: "ch63-dark-sector"
+    chapter_title: "The Dark Sector Dissolved"
+    excerpt: "Cosmological expansion (Hubble, 1929 ; Perlmutter/Riess, 1998 ): the Friedmann equations predict the expansion history"
 right_rail:
   toc: false
   related:
@@ -35,7 +58,8 @@ right_rail:
     year: "1929"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Hubble's 1929 <em>A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae</em>, published in *Proceedings of the National Academy of Sciences*, is one of the program's working technical references. Cited across Book V (*Categorical Macrocosm*), Part 1, Chapter *The Macro Readout: Operational Distance and Photon Ontology*; Book V (*Categorical Macrocosm*), Part 7, Chapter *General Relativity as Emergent Geometry*; Book V (*Categorical Macrocosm*), Part 7, Chapter *The Dark Sector Dissolved* — the central framing is “At the current depth n_*, H(n_*) ≡ H_0 is the value identified with the Hubble constant of orthodox cosmology”.

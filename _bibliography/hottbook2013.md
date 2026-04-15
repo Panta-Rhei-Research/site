@@ -1,5 +1,6 @@
 ---
 title: "Homotopy Type Theory: Univalent Foundations of Mathematics"
+title_plain: "Homotopy Type Theory: Univalent Foundations of Mathematics"
 bib_key: "HoTTBook2013"
 entry_type: "book"
 authors: "The Univalent Foundations Program"
@@ -19,7 +20,29 @@ domain_group: "Category Theory"
 role_in_program: "foundational-source"
 role_display: "Foundational Source"
 type_display: "Book"
-formatted_citation: "The Univalent Foundations Program. (2013). *Homotopy Type Theory: Univalent Foundations of Mathematics*. Institute for Advanced Study."
+formatted_citation: "The Univalent Foundations Program. (2013). <em>Homotopy Type Theory: Univalent Foundations of Mathematics</em>. Institute for Advanced Study."
+formatted_citation_plain: "The Univalent Foundations Program. (2013). <em>Homotopy Type Theory: Univalent Foundations of Mathematics</em>. Institute for Advanced Study."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "I"
+    book_title: "Categorical Foundations"
+    part: "Part 18"
+    chapter_file: "ch71-self-hosting-landscape"
+    chapter_title: "The Self-Hosting Landscape"
+    excerpt: "Homotopy Type Theory provides the internal language of (∞,1)-toposes"
+  - book: "I"
+    book_title: "Categorical Foundations"
+    part: "Part 18"
+    chapter_file: "ch73-enrichment-frontier"
+    chapter_title: "The Enrichment Frontier"
+    excerpt: "The HoTT Book demonstrates that the internal language of (∞,1)-toposes is homotopy type theory — a dependent type theory with univalence"
+  - book: "I"
+    book_title: "Categorical Foundations"
+    part: "Part 18"
+    chapter_file: "ch80-diagonal-resonance"
+    chapter_title: "Diagonal Resonance and Identity Slippage"
+    excerpt: "Component (L): Structural rules in the meta-theory. Homotopy Type Theory is formulated within a type theory that retains the standard structural rules"
 right_rail:
   toc: false
   related:
@@ -35,7 +58,8 @@ right_rail:
     year: "2013"
     domain: "Category Theory"
     role: "Foundational Source"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a foundational source for Category Theory on which the program directly builds.
+Program's <em>Homotopy Type Theory: Univalent Foundations of Mathematics</em> (2013), published by Institute for Advanced Study, sits in the program's reference corpus as a standing technical source. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*; Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier*; Book I (*Categorical Foundations*), Part 18, Chapter *Diagonal Resonance and Identity Slippage* — the central framing is “Homotopy Type Theory provides the internal language of (∞,1)-toposes”.

@@ -1,5 +1,6 @@
 ---
 title: "Elementary Applied Topology"
+title_plain: "Elementary Applied Topology"
 bib_key: "Ghrist2014"
 entry_type: "book"
 authors: "Robert Ghrist"
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Robert Ghrist. (2014). *Elementary Applied Topology*. CreateSpace Independent Publishing Platform."
+formatted_citation: "Robert Ghrist. (2014). <em>Elementary Applied Topology</em>. CreateSpace Independent Publishing Platform."
+formatted_citation_plain: "Robert Ghrist. (2014). <em>Elementary Applied Topology</em>. CreateSpace Independent Publishing Platform."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2014"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Ghrist's <em>Elementary Applied Topology</em> (2014) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

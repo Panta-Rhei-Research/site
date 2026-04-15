@@ -1,10 +1,11 @@
 ---
 title: "On Levi's problem and the embedding of real-analytic manifolds"
+title_plain: "On Levi's problem and the embedding of real-analytic manifolds"
 bib_key: "Grauert1958"
 entry_type: "article"
 authors: "Grauert, Hans"
 year: "1958"
-journal_or_booktitle: ""
+journal_or_booktitle: "Annals of Mathematics"
 publisher: ""
 volume: ""
 number: ""
@@ -19,7 +20,17 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Grauert, Hans. (1958). *On Levi's problem and the embedding of real-analytic manifolds*."
+formatted_citation: "Grauert, Hans. (1958). <em>On Levi's problem and the embedding of real-analytic manifolds</em>. <em>Annals of Mathematics</em>."
+formatted_citation_plain: "Grauert, Hans. (1958). <em>On Levi's problem and the embedding of real-analytic manifolds</em>. <em>Annals of Mathematics</em>."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 11"
+    chapter_file: "ch65-dimensional-ladder-collapse"
+    chapter_title: "Why τ³ Has No Dimensional Ladder"
+    excerpt: "The reason, as Grauert showed , is that complex subvarieties living in the boundary obstruct biholomorphic flexibility"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1958"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Grauert's 1958 <em>On Levi's problem and the embedding of real-analytic manifolds</em>, published in *Annals of Mathematics*, is one of the program's working technical references. Cited in Book II (*Categorical Holomorphy*), Part 11, Chapter *Why τ³ Has No Dimensional Ladder*, where the program draws on it in the context of “The reason, as Grauert showed , is that complex subvarieties living in the boundary obstruct biholomorphic flexibility.”

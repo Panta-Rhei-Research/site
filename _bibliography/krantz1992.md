@@ -1,5 +1,6 @@
 ---
 title: "Function theory of several complex variables"
+title_plain: "Function theory of several complex variables"
 bib_key: "Krantz1992"
 entry_type: "book"
 authors: "Krantz, Steven G."
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Krantz, Steven G.. (1992). *Function theory of several complex variables*. Wadsworth & Brooks/Cole."
+formatted_citation: "Krantz, Steven G.. (1992). <em>Function theory of several complex variables</em>. Wadsworth & Brooks/Cole."
+formatted_citation_plain: "Krantz, Steven G.. (1992). <em>Function theory of several complex variables</em>. Wadsworth & Brooks/Cole."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 11"
+    chapter_file: "ch65-dimensional-ladder-collapse"
+    chapter_title: "Why τ³ Has No Dimensional Ladder"
+    excerpt: "We survey the ladder rung by rung, following the standard development of Krantz , Range , and Hörmander"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1992"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Krantz's <em>Function theory of several complex variables</em> (1992), published by Wadsworth & Brooks/Cole, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 11, Chapter *Why τ³ Has No Dimensional Ladder*, where the program draws on it in the context of “We survey the ladder rung by rung, following the standard development of Krantz , Range , and Hörmander.”

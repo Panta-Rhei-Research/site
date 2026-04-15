@@ -1,5 +1,6 @@
 ---
 title: "Direct neutrino-mass measurement with sub-electronvolt sensitivity"
+title_plain: "Direct neutrino-mass measurement with sub-electronvolt sensitivity"
 bib_key: "KATRIN2022"
 entry_type: "article"
 authors: "KATRIN Collaboration"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Nature Physics"
 publisher: ""
 volume: "18"
 number: ""
-pages: "160–166"
+pages: "160--166"
 doi: "10.1038/s41567-021-01463-1"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "KATRIN Collaboration. (2022). *Direct neutrino-mass measurement with sub-electronvolt sensitivity*. Nature Physics. **18**. pp. 160–166."
+formatted_citation: "KATRIN Collaboration. (2022). <em>Direct neutrino-mass measurement with sub-electronvolt sensitivity</em>. <em>Nature Physics</em>. <strong>18</strong>. pp. 160--166."
+formatted_citation_plain: "KATRIN Collaboration. (2022). <em>Direct neutrino-mass measurement with sub-electronvolt sensitivity</em>. <em>Nature Physics</em>. <strong>18</strong>. pp. 160--166."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2022"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+The collaboration's <em>Direct neutrino-mass measurement with sub-electronvolt sensitivity</em> (2022) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

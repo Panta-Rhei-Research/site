@@ -1,5 +1,6 @@
 ---
 title: "Differential cohomology in a cohesive infinity-topos"
+title_plain: "Differential cohomology in a cohesive infinity-topos"
 bib_key: "Schreiber2013"
 entry_type: "misc"
 authors: "Urs Schreiber"
@@ -19,7 +20,11 @@ domain_group: "Category Theory"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Miscellaneous"
-formatted_citation: "Urs Schreiber. (2013). *Differential cohomology in a cohesive infinity-topos*."
+formatted_citation: "Urs Schreiber. (2013). <em>Differential cohomology in a cohesive infinity-topos</em>."
+formatted_citation_plain: "Urs Schreiber. (2013). <em>Differential cohomology in a cohesive infinity-topos</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2013"
     domain: "Category Theory"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Schreiber's <em>Differential cohomology in a cohesive infinity-topos</em> (2013) is part of the program's reference corpus, acknowledged as a formal antecedent in Category Theory whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

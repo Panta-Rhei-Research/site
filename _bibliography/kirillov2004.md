@@ -1,5 +1,6 @@
 ---
 title: "Lectures on the Orbit Method"
+title_plain: "Lectures on the Orbit Method"
 bib_key: "Kirillov2004"
 entry_type: "book"
 authors: "Alexander Kirillov Jr."
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Alexander Kirillov Jr.. (2004). *Lectures on the Orbit Method*. **64**. American Mathematical Society."
+formatted_citation: "Alexander Kirillov Jr.. (2004). <em>Lectures on the Orbit Method</em>. <strong>64</strong>. American Mathematical Society."
+formatted_citation_plain: "Alexander Kirillov Jr.. (2004). <em>Lectures on the Orbit Method</em>. <strong>64</strong>. American Mathematical Society."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2004"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Jr.'s <em>Lectures on the Orbit Method</em> (2004) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

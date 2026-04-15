@@ -1,8 +1,9 @@
 ---
 title: "Intuitionistic Type Theory"
+title_plain: "Intuitionistic Type Theory"
 bib_key: "MartinLof1984"
 entry_type: "book"
-authors: "Per Martin-Lof"
+authors: "Per Martin-Löf"
 year: "1984"
 journal_or_booktitle: ""
 publisher: "Bibliopolis"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Per Martin-Lof. (1984). *Intuitionistic Type Theory*. Bibliopolis."
+formatted_citation: "Per Martin-Löf. (1984). <em>Intuitionistic Type Theory</em>. Bibliopolis."
+formatted_citation_plain: "Per Martin-Löf. (1984). <em>Intuitionistic Type Theory</em>. Bibliopolis."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1984"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Martin-Löf's <em>Intuitionistic Type Theory</em> (1984) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

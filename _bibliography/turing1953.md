@@ -1,5 +1,6 @@
 ---
 title: "Some calculations of the Riemann zeta-function"
+title_plain: "Some calculations of the Riemann zeta-function"
 bib_key: "Turing1953"
 entry_type: "article"
 authors: "A. M. Turing"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Proceedings of the London Mathematical Society"
 publisher: ""
 volume: "3"
 number: ""
-pages: "99–117"
+pages: "99--117"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "A. M. Turing. (1953). *Some calculations of the Riemann zeta-function*. Proceedings of the London Mathematical Society. **3**. pp. 99–117."
+formatted_citation: "A. M. Turing. (1953). <em>Some calculations of the Riemann zeta-function</em>. <em>Proceedings of the London Mathematical Society</em>. <strong>3</strong>. pp. 99--117."
+formatted_citation_plain: "A. M. Turing. (1953). <em>Some calculations of the Riemann zeta-function</em>. <em>Proceedings of the London Mathematical Society</em>. <strong>3</strong>. pp. 99--117."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1953"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Turing's <em>Some calculations of the Riemann zeta-function</em> (1953) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

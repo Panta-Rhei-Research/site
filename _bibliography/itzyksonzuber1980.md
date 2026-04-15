@@ -1,5 +1,6 @@
 ---
 title: "Quantum Field Theory"
+title_plain: "Quantum Field Theory"
 bib_key: "ItzyksonZuber1980"
 entry_type: "book"
 authors: "Claude Itzykson and Jean-Bernard Zuber"
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Claude Itzykson and Jean-Bernard Zuber. (1980). *Quantum Field Theory*. McGraw-Hill."
+formatted_citation: "Claude Itzykson and Jean-Bernard Zuber. (1980). <em>Quantum Field Theory</em>. McGraw-Hill."
+formatted_citation_plain: "Claude Itzykson and Jean-Bernard Zuber. (1980). <em>Quantum Field Theory</em>. McGraw-Hill."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1980"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Itzykson and Zuber's <em>Quantum Field Theory</em> (1980) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

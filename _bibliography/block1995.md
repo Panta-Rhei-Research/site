@@ -1,5 +1,6 @@
 ---
 title: "The Nature of Consciousness: Philosophical Debates"
+title_plain: "The Nature of Consciousness: Philosophical Debates"
 bib_key: "block1995"
 entry_type: "book"
 authors: "Ned Block and Owen Flanagan and Güven Güzeldere"
@@ -19,7 +20,11 @@ domain_group: "Metaphysics and Philosophy"
 role_in_program: "conceptual-bridge"
 role_display: "Conceptual Bridge"
 type_display: "Book"
-formatted_citation: "Ned Block and Owen Flanagan and Güven Güzeldere. (1997). *The Nature of Consciousness: Philosophical Debates*. MIT Press."
+formatted_citation: "Ned Block and Owen Flanagan and Güven Güzeldere. (1997). <em>The Nature of Consciousness: Philosophical Debates</em>. MIT Press."
+formatted_citation_plain: "Ned Block and Owen Flanagan and Güven Güzeldere. (1997). <em>The Nature of Consciousness: Philosophical Debates</em>. MIT Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1997"
     domain: "Metaphysics and Philosophy"
     role: "Conceptual Bridge"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a conceptual bridge connecting Metaphysics and Philosophy to the program's coherence framework.
+Block et al.'s <em>The Nature of Consciousness: Philosophical Debates</em> (1997) sits in the program's reference corpus as a conceptual bridge between Metaphysics and Philosophy and the framework's broader aims. It is not directly cited in the currently published volumes of *Panta Rhei*, but remains part of the standing reference shelf.

@@ -1,5 +1,6 @@
 ---
 title: "Discrete Exterior Calculus"
+title_plain: "Discrete Exterior Calculus"
 bib_key: "Hirani2003"
 entry_type: "phdthesis"
 authors: "Ananya N. Hirani"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "PhD Thesis"
-formatted_citation: "Ananya N. Hirani. (2003). *Discrete Exterior Calculus*."
+formatted_citation: "Ananya N. Hirani. (2003). <em>Discrete Exterior Calculus</em>."
+formatted_citation_plain: "Ananya N. Hirani. (2003). <em>Discrete Exterior Calculus</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2003"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Hirani's <em>Discrete Exterior Calculus</em> (2003) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

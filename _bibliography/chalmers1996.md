@@ -1,5 +1,6 @@
 ---
 title: "The Conscious Mind: In Search of a Fundamental Theory"
+title_plain: "The Conscious Mind: In Search of a Fundamental Theory"
 bib_key: "chalmers1996"
 entry_type: "book"
 authors: "Chalmers, David J."
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Chalmers, David J.. (1996). *The Conscious Mind: In Search of a Fundamental Theory*. Oxford University Press."
+formatted_citation: "Chalmers, David J.. (1996). <em>The Conscious Mind: In Search of a Fundamental Theory</em>. Oxford University Press."
+formatted_citation_plain: "Chalmers, David J.. (1996). <em>The Conscious Mind: In Search of a Fundamental Theory</em>. Oxford University Press."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VI"
+    book_title: "Categorical Life"
+    part: "Part 8"
+    chapter_file: "ch51-consciousness"
+    chapter_title: "Consciousness: Structural Definition of the Self-Model"
+    excerpt: "Chalmers' formulation of the hard problem (1995) sharpens Nagel's question into a challenge for any physical theory"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1996"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Chalmers' <em>The Conscious Mind: In Search of a Fundamental Theory</em> (1996), published by Oxford University Press, sits in the program's reference corpus as a standing technical source. Cited in Book VI (*Categorical Life*), Part 8, Chapter *Consciousness: Structural Definition of the Self-Model*, where the program draws on it in the context of “Chalmers' formulation of the hard problem (1995) sharpens Nagel's question into a challenge for any physical theory.”

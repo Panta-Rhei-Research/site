@@ -1,5 +1,6 @@
 ---
 title: "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number"
+title_plain: "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number"
 bib_key: "Livio2003"
 entry_type: "book"
 authors: "Mario Livio"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Mario Livio. (2003). *The Golden Ratio: The Story of Phi, the World's Most Astonishing Number*. Broadway Books."
+formatted_citation: "Mario Livio. (2003). <em>The Golden Ratio: The Story of Phi, the World's Most Astonishing Number</em>. Broadway Books."
+formatted_citation_plain: "Mario Livio. (2003). <em>The Golden Ratio: The Story of Phi, the World's Most Astonishing Number</em>. Broadway Books."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 4"
+    chapter_file: "ch46"
+    chapter_title: "The Golden Ratio"
+    excerpt: "Architecture and Proportion The claim that the Parthenon was designed to golden-ratio proportions is, at best, approximate: the relevant ratios cluster near but are not exact, and the ancient Greeks left no documentary evidence that they consciously employed in architectural design"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "2003"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Livio's <em>The Golden Ratio: The Story of Phi, the World's Most Astonishing Number</em> (2003), published by Broadway Books, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 4, Chapter *The Golden Ratio*, where the program draws on it in the context of “Architecture and Proportion The claim that the Parthenon was designed to golden-ratio proportions is, at best, approximate: the relevant ratios cluster near but are not exact, and….”

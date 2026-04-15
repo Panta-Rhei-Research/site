@@ -1,5 +1,6 @@
 ---
 title: "On Quaternions and Octonions"
+title_plain: "On Quaternions and Octonions"
 bib_key: "Conway2003"
 entry_type: "book"
 authors: "Conway, John H. and Smith, Derek A."
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Conway, John H. and Smith, Derek A.. (2003). *On Quaternions and Octonions*. A K Peters."
+formatted_citation: "Conway, John H. and Smith, Derek A.. (2003). <em>On Quaternions and Octonions</em>. A K Peters."
+formatted_citation_plain: "Conway, John H. and Smith, Derek A.. (2003). <em>On Quaternions and Octonions</em>. A K Peters."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2003"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Conway and Smith's <em>On Quaternions and Octonions</em> (2003) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

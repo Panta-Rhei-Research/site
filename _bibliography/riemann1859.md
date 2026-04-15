@@ -1,5 +1,6 @@
 ---
 title: "Über die Anzahl der Primzahlen unter einer gegebenen Grösse"
+title_plain: "Über die Anzahl der Primzahlen unter einer gegebenen Grösse"
 bib_key: "Riemann1859"
 entry_type: "incollection"
 authors: "Riemann, Bernhard"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book Chapter"
-formatted_citation: "Riemann, Bernhard. (1859). *Über die Anzahl der Primzahlen unter einer gegebenen Grösse*. Gesammelte Mathematische Werke und Wissenschaftlicher Nachlass."
+formatted_citation: "Riemann, Bernhard. (1859). <em>Über die Anzahl der Primzahlen unter einer gegebenen Grösse</em>. <em>Gesammelte Mathematische Werke und Wissenschaftlicher Nachlass</em>."
+formatted_citation_plain: "Riemann, Bernhard. (1859). <em>Über die Anzahl der Primzahlen unter einer gegebenen Grösse</em>. <em>Gesammelte Mathematische Werke und Wissenschaftlicher Nachlass</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1859"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Riemann's <em>Über die Anzahl der Primzahlen unter einer gegebenen Grösse</em> (1859) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

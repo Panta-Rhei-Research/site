@@ -1,5 +1,6 @@
 ---
 title: "Native Type Theory"
+title_plain: "Native Type Theory"
 bib_key: "WilliamsStay2021"
 entry_type: "article"
 authors: "Christian Williams and Michael Stay"
@@ -19,7 +20,29 @@ domain_group: "Category Theory"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Christian Williams and Michael Stay. (2021). *Native Type Theory*."
+formatted_citation: "Christian Williams and Michael Stay. (2021). <em>Native Type Theory</em>."
+formatted_citation_plain: "Christian Williams and Michael Stay. (2021). <em>Native Type Theory</em>."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "I"
+    book_title: "Categorical Foundations"
+    part: "Part 18"
+    chapter_file: "ch72-star-autonomous-barrier"
+    chapter_title: "Star-Autonomous Categories and the Diagonal Barrier"
+    excerpt: "to related work. The structural exclusion theorem connects to three active research programs that pursue type theories with substructural features: Williams–Stay native type theory : type constructors derived from term constructors via embedding into a presheaf topos"
+  - book: "I"
+    book_title: "Categorical Foundations"
+    part: "Part 18"
+    chapter_file: "ch73-enrichment-frontier"
+    chapter_title: "The Enrichment Frontier"
+    excerpt: "Williams and Stay propose native type theory — type theories with natively *-autonomous semantics rather than cartesian-closed semantics"
+  - book: "I"
+    book_title: "Categorical Foundations"
+    part: "Part 18"
+    chapter_file: "ch73-enrichment-frontier"
+    chapter_title: "The Enrichment Frontier"
+    excerpt: "Williams–Stay : native *-autonomous type theory (programmatic)"
 right_rail:
   toc: false
   related:
@@ -35,7 +58,8 @@ right_rail:
     year: "2021"
     domain: "Category Theory"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Williams and Stay's paper <em>Native Type Theory</em> (2021) is one of the program's working technical references. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *Star-Autonomous Categories and the Diagonal Barrier*; Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier* — the central framing is “to related work. The structural exclusion theorem connects to three active research programs that pursue type theories with substructural features: Williams–Stay native type…”.

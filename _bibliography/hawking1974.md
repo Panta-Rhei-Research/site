@@ -1,5 +1,6 @@
 ---
 title: "Black Hole Explosions?"
+title_plain: "Black Hole Explosions?"
 bib_key: "hawking1974"
 entry_type: "article"
 authors: "Hawking, Stephen W."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Nature"
 publisher: ""
 volume: "248"
 number: ""
-pages: "30–31"
+pages: "30--31"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Hawking, Stephen W.. (1974). *Black Hole Explosions?*. Nature. **248**. pp. 30–31."
+formatted_citation: "Hawking, Stephen W.. (1974). <em>Black Hole Explosions?</em>. <em>Nature</em>. <strong>248</strong>. pp. 30--31."
+formatted_citation_plain: "Hawking, Stephen W.. (1974). <em>Black Hole Explosions?</em>. <em>Nature</em>. <strong>248</strong>. pp. 30--31."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1974"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Hawking's <em>Black Hole Explosions?</em> (1974) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

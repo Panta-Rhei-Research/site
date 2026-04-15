@@ -1,5 +1,6 @@
 ---
 title: "Order Out of Chaos: Man's New Dialogue with Nature"
+title_plain: "Order Out of Chaos: Man's New Dialogue with Nature"
 bib_key: "prigogine1984"
 entry_type: "book"
 authors: "Prigogine, Ilya and Stengers, Isabelle"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Prigogine, Ilya and Stengers, Isabelle. (1984). *Order Out of Chaos: Man's New Dialogue with Nature*. Bantam Books."
+formatted_citation: "Prigogine, Ilya and Stengers, Isabelle. (1984). <em>Order Out of Chaos: Man's New Dialogue with Nature</em>. Bantam Books."
+formatted_citation_plain: "Prigogine, Ilya and Stengers, Isabelle. (1984). <em>Order Out of Chaos: Man's New Dialogue with Nature</em>. Bantam Books."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1984"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Prigogine and Stengers' <em>Order Out of Chaos: Man's New Dialogue with Nature</em> (1984) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

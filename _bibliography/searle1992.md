@@ -1,5 +1,6 @@
 ---
 title: "The Rediscovery of the Mind"
+title_plain: "The Rediscovery of the Mind"
 bib_key: "searle1992"
 entry_type: "book"
 authors: "John Searle"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "John Searle. (1992). *The Rediscovery of the Mind*. MIT Press."
+formatted_citation: "John Searle. (1992). <em>The Rediscovery of the Mind</em>. MIT Press."
+formatted_citation_plain: "John Searle. (1992). <em>The Rediscovery of the Mind</em>. MIT Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1992"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Searle's <em>The Rediscovery of the Mind</em> (1992) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

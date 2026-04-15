@@ -1,5 +1,6 @@
 ---
 title: "Detection of the Free Neutrino: A Confirmation"
+title_plain: "Detection of the Free Neutrino: A Confirmation"
 bib_key: "CowenReines1956"
 entry_type: "article"
 authors: "Clyde L. Cowan and Frederick Reines and others"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Science"
 publisher: ""
 volume: "124"
 number: ""
-pages: "103–104"
+pages: "103--104"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Clyde L. Cowan and Frederick Reines and others. (1956). *Detection of the Free Neutrino: A Confirmation*. Science. **124**. pp. 103–104."
+formatted_citation: "Clyde L. Cowan and Frederick Reines and others. (1956). <em>Detection of the Free Neutrino: A Confirmation</em>. <em>Science</em>. <strong>124</strong>. pp. 103--104."
+formatted_citation_plain: "Clyde L. Cowan and Frederick Reines and others. (1956). <em>Detection of the Free Neutrino: A Confirmation</em>. <em>Science</em>. <strong>124</strong>. pp. 103--104."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "IV"
+    book_title: "Categorical Microcosm"
+    part: "Part 3"
+    chapter_file: "ch24-neutrino-time-eigenmode"
+    chapter_title: "The Neutrino as Time Eigenmode"
+    excerpt: "Cowan and Reines placed a detector near the Savannah River reactor, looking for inverse beta decay: ν_e + p → n + e^+"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1956"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Cowan, Reines, and others' 1956 <em>Detection of the Free Neutrino: A Confirmation</em>, published in *Science*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 3, Chapter *The Neutrino as Time Eigenmode*, where the program draws on it in the context of “Cowan and Reines placed a detector near the Savannah River reactor, looking for inverse beta decay: ν_e + p → n + e^+.”

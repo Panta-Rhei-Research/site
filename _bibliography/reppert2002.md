@@ -1,5 +1,6 @@
 ---
 title: "Coordination of Circadian Timing in Mammals"
+title_plain: "Coordination of Circadian Timing in Mammals"
 bib_key: "reppert2002"
 entry_type: "article"
 authors: "Reppert, Steven M. and Weaver, David R."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Nature"
 publisher: ""
 volume: "418"
 number: ""
-pages: "935–941"
+pages: "935--941"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Reppert, Steven M. and Weaver, David R.. (2002). *Coordination of Circadian Timing in Mammals*. Nature. **418**. pp. 935–941."
+formatted_citation: "Reppert, Steven M. and Weaver, David R.. (2002). <em>Coordination of Circadian Timing in Mammals</em>. <em>Nature</em>. <strong>418</strong>. pp. 935--941."
+formatted_citation_plain: "Reppert, Steven M. and Weaver, David R.. (2002). <em>Coordination of Circadian Timing in Mammals</em>. <em>Nature</em>. <strong>418</strong>. pp. 935--941."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2002"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Reppert and Weaver's <em>Coordination of Circadian Timing in Mammals</em> (2002) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

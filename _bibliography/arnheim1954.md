@@ -1,5 +1,6 @@
 ---
 title: "Art and Visual Perception: A Psychology of the Creative Eye"
+title_plain: "Art and Visual Perception: A Psychology of the Creative Eye"
 bib_key: "arnheim1954"
 entry_type: "book"
 authors: "Rudolf Arnheim"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Rudolf Arnheim. (1954). *Art and Visual Perception: A Psychology of the Creative Eye*. University of California Press."
+formatted_citation: "Rudolf Arnheim. (1954). <em>Art and Visual Perception: A Psychology of the Creative Eye</em>. University of California Press."
+formatted_citation_plain: "Rudolf Arnheim. (1954). <em>Art and Visual Perception: A Psychology of the Creative Eye</em>. University of California Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1954"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Arnheim's <em>Art and Visual Perception: A Psychology of the Creative Eye</em> (1954) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

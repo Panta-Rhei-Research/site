@@ -1,5 +1,6 @@
 ---
 title: "Complex Powers of an Elliptic Operator"
+title_plain: "Complex Powers of an Elliptic Operator"
 bib_key: "Seeley1967"
 entry_type: "incollection"
 authors: "R. T. Seeley"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Singular Integrals (Proc. Sympos. Pure Math., Chicago, 19
 publisher: "American Mathematical Society"
 volume: ""
 number: ""
-pages: "288–307"
+pages: "288--307"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book Chapter"
-formatted_citation: "R. T. Seeley. (1967). *Complex Powers of an Elliptic Operator*. Singular Integrals (Proc. Sympos. Pure Math., Chicago, 1966). pp. 288–307. American Mathematical Society."
+formatted_citation: "R. T. Seeley. (1967). <em>Complex Powers of an Elliptic Operator</em>. <em>Singular Integrals (Proc. Sympos. Pure Math., Chicago, 1966)</em>. pp. 288--307. American Mathematical Society."
+formatted_citation_plain: "R. T. Seeley. (1967). <em>Complex Powers of an Elliptic Operator</em>. <em>Singular Integrals (Proc. Sympos. Pure Math., Chicago, 1966)</em>. pp. 288--307. American Mathematical Society."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1967"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Seeley's <em>Complex Powers of an Elliptic Operator</em> (1967) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

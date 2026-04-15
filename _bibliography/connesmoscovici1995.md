@@ -1,5 +1,6 @@
 ---
 title: "The local index formula in noncommutative geometry"
+title_plain: "The local index formula in noncommutative geometry"
 bib_key: "ConnesMoscovici1995"
 entry_type: "article"
 authors: "Connes, Alain and Moscovici, Henri"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Geometric and Functional Analysis"
 publisher: ""
 volume: "5"
 number: "2"
-pages: "174–243"
+pages: "174--243"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Connes, Alain and Moscovici, Henri. (1995). *The local index formula in noncommutative geometry*. Geometric and Functional Analysis. **5**(2). pp. 174–243."
+formatted_citation: "Connes, Alain and Moscovici, Henri. (1995). <em>The local index formula in noncommutative geometry</em>. <em>Geometric and Functional Analysis</em>. <strong>5</strong>(2). pp. 174--243."
+formatted_citation_plain: "Connes, Alain and Moscovici, Henri. (1995). <em>The local index formula in noncommutative geometry</em>. <em>Geometric and Functional Analysis</em>. <strong>5</strong>(2). pp. 174--243."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1995"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Connes and Moscovici's <em>The local index formula in noncommutative geometry</em> (1995) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

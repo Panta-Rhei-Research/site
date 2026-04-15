@@ -1,5 +1,6 @@
 ---
 title: "Evidence for Oscillation of Atmospheric Neutrinos"
+title_plain: "Evidence for Oscillation of Atmospheric Neutrinos"
 bib_key: "SuperKamiokande1998"
 entry_type: "article"
 authors: "Super-Kamiokande Collaboration"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Physical Review Letters"
 publisher: ""
 volume: "81"
 number: ""
-pages: "1562–1567"
+pages: "1562--1567"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,17 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Super-Kamiokande Collaboration. (1998). *Evidence for Oscillation of Atmospheric Neutrinos*. Physical Review Letters. **81**. pp. 1562–1567."
+formatted_citation: "Super-Kamiokande Collaboration. (1998). <em>Evidence for Oscillation of Atmospheric Neutrinos</em>. <em>Physical Review Letters</em>. <strong>81</strong>. pp. 1562--1567."
+formatted_citation_plain: "Super-Kamiokande Collaboration. (1998). <em>Evidence for Oscillation of Atmospheric Neutrinos</em>. <em>Physical Review Letters</em>. <strong>81</strong>. pp. 1562--1567."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "IV"
+    book_title: "Categorical Microcosm"
+    part: "Part 3"
+    chapter_file: "ch24-neutrino-time-eigenmode"
+    chapter_title: "The Neutrino as Time Eigenmode"
+    excerpt: "Super-Kamiokande (1998) and SNO (2001) proved that neutrinos oscillate between flavors—which requires mass differences"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1998"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+the collaboration's 1998 <em>Evidence for Oscillation of Atmospheric Neutrinos</em>, published in *Physical Review Letters*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 3, Chapter *The Neutrino as Time Eigenmode*, where the program draws on it in the context of “Super-Kamiokande (1998) and SNO (2001) proved that neutrinos oscillate between flavors—which requires mass differences.”

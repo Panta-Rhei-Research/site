@@ -1,25 +1,30 @@
 ---
-title: "Geometrie algebrique et geometrie analytique"
+title: "Géométrie algébrique et géométrie analytique"
+title_plain: "Géométrie algébrique et géométrie analytique"
 bib_key: "Serre1956"
 entry_type: "article"
 authors: "Serre, Jean-Pierre"
 year: "1956"
-journal_or_booktitle: ""
+journal_or_booktitle: "Annales de l'Institut Fourier"
 publisher: ""
 volume: "6"
 number: ""
-pages: "1–42"
+pages: "1--42"
 doi: ""
 url: ""
 isbn: ""
 arxiv: ""
 series: ""
 edition: ""
-domain_group: "Topology and Geometry"
-role_in_program: "domain-context"
-role_display: "Domain Context"
+domain_group: "Foundations and Logic"
+role_in_program: "formal-antecedent"
+role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Serre, Jean-Pierre. (1956). *Geometrie algebrique et geometrie analytique*. **6**. pp. 1–42."
+formatted_citation: "Serre, Jean-Pierre. (1956). <em>Géométrie algébrique et géométrie analytique</em>. <em>Annales de l'Institut Fourier</em>. <strong>6</strong>. pp. 1--42."
+formatted_citation_plain: "Serre, Jean-Pierre. (1956). <em>Géométrie algébrique et géométrie analytique</em>. <em>Annales de l'Institut Fourier</em>. <strong>6</strong>. pp. 1--42."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -33,9 +38,10 @@ right_rail:
   meta:
     type: "Article"
     year: "1956"
-    domain: "Topology and Geometry"
-    role: "Domain Context"
+    domain: "Foundations and Logic"
+    role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Serre's <em>Géométrie algébrique et géométrie analytique</em> (1956) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

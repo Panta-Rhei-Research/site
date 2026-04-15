@@ -1,5 +1,6 @@
 ---
 title: "The Electromagnetic Equations of the Supraconductor"
+title_plain: "The Electromagnetic Equations of the Supraconductor"
 bib_key: "london1935electromagnetic"
 entry_type: "article"
 authors: "London, Fritz and London, Heinz"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Proceedings of the Royal Society A"
 publisher: ""
 volume: "149"
 number: ""
-pages: "71–88"
+pages: "71--88"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "London, Fritz and London, Heinz. (1935). *The Electromagnetic Equations of the Supraconductor*. Proceedings of the Royal Society A. **149**. pp. 71–88."
+formatted_citation: "London, Fritz and London, Heinz. (1935). <em>The Electromagnetic Equations of the Supraconductor</em>. <em>Proceedings of the Royal Society A</em>. <strong>149</strong>. pp. 71--88."
+formatted_citation_plain: "London, Fritz and London, Heinz. (1935). <em>The Electromagnetic Equations of the Supraconductor</em>. <em>Proceedings of the Royal Society A</em>. <strong>149</strong>. pp. 71--88."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1935"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+London and London's <em>The Electromagnetic Equations of the Supraconductor</em> (1935) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

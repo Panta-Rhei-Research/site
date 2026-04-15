@@ -1,14 +1,15 @@
 ---
 title: "On Epstein's Zeta Function"
+title_plain: "On Epstein's Zeta Function"
 bib_key: "ChowlaSelberg1967"
 entry_type: "article"
 authors: "Sarvadaman Chowla and Atle Selberg"
 year: "1967"
-journal_or_booktitle: "Journal fur die reine und angewandte Mathematik"
+journal_or_booktitle: "Journal für die reine und angewandte Mathematik"
 publisher: ""
 volume: "227"
 number: ""
-pages: "86–110"
+pages: "86--110"
 doi: "10.1515/crll.1967.227.86"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Sarvadaman Chowla and Atle Selberg. (1967). *On Epstein's Zeta Function*. Journal fur die reine und angewandte Mathematik. **227**. pp. 86–110."
+formatted_citation: "Sarvadaman Chowla and Atle Selberg. (1967). <em>On Epstein's Zeta Function</em>. <em>Journal für die reine und angewandte Mathematik</em>. <strong>227</strong>. pp. 86--110."
+formatted_citation_plain: "Sarvadaman Chowla and Atle Selberg. (1967). <em>On Epstein's Zeta Function</em>. <em>Journal für die reine und angewandte Mathematik</em>. <strong>227</strong>. pp. 86--110."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1967"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Chowla and Selberg's <em>On Epstein's Zeta Function</em> (1967) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -1,5 +1,6 @@
 ---
 title: "Quantum graphs: I. Some basic structures"
+title_plain: "Quantum graphs: I. Some basic structures"
 bib_key: "Kuchment2004"
 entry_type: "article"
 authors: "Pavel Kuchment"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Waves in Random and Complex Media"
 publisher: ""
 volume: "14"
 number: "1"
-pages: "S107–S128"
+pages: "S107--S128"
 doi: "VERIFY"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Pavel Kuchment. (2004). *Quantum graphs: I. Some basic structures*. Waves in Random and Complex Media. **14**(1). pp. S107–S128."
+formatted_citation: "Pavel Kuchment. (2004). <em>Quantum graphs: I. Some basic structures</em>. <em>Waves in Random and Complex Media</em>. <strong>14</strong>(1). pp. S107--S128."
+formatted_citation_plain: "Pavel Kuchment. (2004). <em>Quantum graphs: I. Some basic structures</em>. <em>Waves in Random and Complex Media</em>. <strong>14</strong>(1). pp. S107--S128."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2004"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Kuchment's <em>Quantum graphs: I. Some basic structures</em> (2004) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

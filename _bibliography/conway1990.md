@@ -1,5 +1,6 @@
 ---
 title: "A Course in Functional Analysis"
+title_plain: "A Course in Functional Analysis"
 bib_key: "Conway1990"
 entry_type: "book"
 authors: "Conway, John B."
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Conway, John B.. (1990). *A Course in Functional Analysis*. **96**. Springer."
+formatted_citation: "Conway, John B.. (1990). <em>A Course in Functional Analysis</em>. <strong>96</strong>. Springer."
+formatted_citation_plain: "Conway, John B.. (1990). <em>A Course in Functional Analysis</em>. <strong>96</strong>. Springer."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1990"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Conway's <em>A Course in Functional Analysis</em> (1990) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

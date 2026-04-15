@@ -1,5 +1,6 @@
 ---
 title: "A Theory of Justice"
+title_plain: "A Theory of Justice"
 bib_key: "rawls1971"
 entry_type: "book"
 authors: "John Rawls"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "John Rawls. (1971). *A Theory of Justice*. Harvard University Press."
+formatted_citation: "John Rawls. (1971). <em>A Theory of Justice</em>. Harvard University Press."
+formatted_citation_plain: "John Rawls. (1971). <em>A Theory of Justice</em>. Harvard University Press."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 7"
+    chapter_file: "ch76"
+    chapter_title: "Dignity as Meta-Ethical Foundation"
+    excerpt: "The Meta-Ethical Question Different ethical frameworks disagree about what to optimize or how to justify obligations: utility , duty , virtue , care, contract"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1971"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Rawls' <em>A Theory of Justice</em> (1971), published by Harvard University Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 7, Chapter *Dignity as Meta-Ethical Foundation*, where the program draws on it in the context of “The Meta-Ethical Question Different ethical frameworks disagree about what to optimize or how to justify obligations: utility , duty , virtue , care, contract.”

@@ -1,14 +1,15 @@
 ---
 title: "Ueber den arithmetischen Charakter der Darstellung der endlichen Gruppen"
+title_plain: "Ueber den arithmetischen Charakter der Darstellung der endlichen Gruppen"
 bib_key: "Maschke1887"
 entry_type: "article"
 authors: "Maschke, Heinrich"
 year: "1887"
-journal_or_booktitle: ""
+journal_or_booktitle: "Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse"
 publisher: ""
 volume: ""
 number: ""
-pages: "236–243"
+pages: "236--243"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Maschke, Heinrich. (1887). *Ueber den arithmetischen Charakter der Darstellung der endlichen Gruppen*. pp. 236–243."
+formatted_citation: "Maschke, Heinrich. (1887). <em>Ueber den arithmetischen Charakter der Darstellung der endlichen Gruppen</em>. <em>Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse</em>. pp. 236--243."
+formatted_citation_plain: "Maschke, Heinrich. (1887). <em>Ueber den arithmetischen Charakter der Darstellung der endlichen Gruppen</em>. <em>Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse</em>. pp. 236--243."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1887"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Maschke's <em>Ueber den arithmetischen Charakter der Darstellung der endlichen Gruppen</em> (1887) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

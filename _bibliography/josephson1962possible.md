@@ -1,5 +1,6 @@
 ---
 title: "Possible New Effects in Superconductive Tunnelling"
+title_plain: "Possible New Effects in Superconductive Tunnelling"
 bib_key: "josephson1962possible"
 entry_type: "article"
 authors: "Josephson, Brian D."
@@ -8,7 +9,7 @@ journal_or_booktitle: "Physics Letters"
 publisher: ""
 volume: "1"
 number: ""
-pages: "251–253"
+pages: "251--253"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Josephson, Brian D.. (1962). *Possible New Effects in Superconductive Tunnelling*. Physics Letters. **1**. pp. 251–253."
+formatted_citation: "Josephson, Brian D.. (1962). <em>Possible New Effects in Superconductive Tunnelling</em>. <em>Physics Letters</em>. <strong>1</strong>. pp. 251--253."
+formatted_citation_plain: "Josephson, Brian D.. (1962). <em>Possible New Effects in Superconductive Tunnelling</em>. <em>Physics Letters</em>. <strong>1</strong>. pp. 251--253."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1962"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Josephson's <em>Possible New Effects in Superconductive Tunnelling</em> (1962) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -1,5 +1,6 @@
 ---
 title: "Abstract Harmonic Analysis. Vol. I: Structure of Topological Groups, Integration Theory, Group Representations"
+title_plain: "Abstract Harmonic Analysis. Vol. I: Structure of Topological Groups, Integration Theory, Group Representations"
 bib_key: "HewittRoss1979"
 entry_type: "book"
 authors: "Hewitt, Edwin and Ross, Kenneth A."
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Hewitt, Edwin and Ross, Kenneth A.. (1979). *Abstract Harmonic Analysis. Vol. I: Structure of Topological Groups, Integration Theory, Group Representations*. Springer."
+formatted_citation: "Hewitt, Edwin and Ross, Kenneth A.. (1979). <em>Abstract Harmonic Analysis. Vol. I: Structure of Topological Groups, Integration Theory, Group Representations</em>. Springer."
+formatted_citation_plain: "Hewitt, Edwin and Ross, Kenneth A.. (1979). <em>Abstract Harmonic Analysis. Vol. I: Structure of Topological Groups, Integration Theory, Group Representations</em>. Springer."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1979"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Hewitt and Ross' <em>Abstract Harmonic Analysis. Vol. I: Structure of Topological Groups, Integration Theory, Group Representations</em> (1979) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

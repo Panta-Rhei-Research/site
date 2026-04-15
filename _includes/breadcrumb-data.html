@@ -52,7 +52,7 @@ Home::/|Registry::/registry/|Book {{ page.book_id | default: page.title }}::{{ p
 Home::/|Registry::/registry/|Dashboard::{{ page.url }}
 
 {%- when 'bibliography-entry' -%}
-Home::/|Bibliography::/bibliography/|{{ page.domain_group | default: 'References' | replace: '|', ' ' }}::/bibliography/|{{ page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
+Home::/|Bibliography::/bibliography/|{{ page.domain_group | default: 'References' | replace: '|', ' ' }}::/bibliography/|{{ page.title_plain | default: page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
 
 {%- when 'research-note' -%}
 Home::/|Engage::/engage/|Research Notes::/research-notes/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}

@@ -1,5 +1,6 @@
 ---
 title: "A Model of Leptons"
+title_plain: "A Model of Leptons"
 bib_key: "Weinberg1967"
 entry_type: "article"
 authors: "Steven Weinberg"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Physical Review Letters"
 publisher: ""
 volume: "19"
 number: ""
-pages: "1264–1266"
+pages: "1264--1266"
 doi: "10.1103/PhysRevLett.19.1264"
 url: ""
 isbn: ""
@@ -19,7 +20,29 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Steven Weinberg. (1967). *A Model of Leptons*. Physical Review Letters. **19**. pp. 1264–1266."
+formatted_citation: "Steven Weinberg. (1967). <em>A Model of Leptons</em>. <em>Physical Review Letters</em>. <strong>19</strong>. pp. 1264--1266."
+formatted_citation_plain: "Steven Weinberg. (1967). <em>A Model of Leptons</em>. <em>Physical Review Letters</em>. <strong>19</strong>. pp. 1264--1266."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "IV"
+    book_title: "Categorical Microcosm"
+    part: "Part 3"
+    chapter_file: "ch22-weak-force-chirality"
+    chapter_title: "The Weak Force and Chirality"
+    excerpt: "Glashow (1961) proposed SU(2)×U(1) unification; Weinberg (1967) and Salam (1968) added the Higgs mechanism"
+  - book: "IV"
+    book_title: "Categorical Microcosm"
+    part: "Part 3"
+    chapter_file: "ch22-weak-force-chirality"
+    chapter_title: "The Weak Force and Chirality"
+    excerpt: "The modern electroweak theory of Glashow, Weinberg, and Salam replaced this with SU(2)_L×U(1)_Y gauge symmetry, spontaneously broken by the Higgs mechanism"
+  - book: "IV"
+    book_title: "Categorical Microcosm"
+    part: "Part 3"
+    chapter_file: "ch23-weak-holonomy-wz"
+    chapter_title: "Weak Holonomy and the W/Z Bosons"
+    excerpt: "The electroweak theory of Glashow , Weinberg , and Salam had predicted their existence and masses a decade earlier"
 right_rail:
   toc: false
   related:
@@ -35,7 +58,8 @@ right_rail:
     year: "1967"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Weinberg's 1967 <em>A Model of Leptons</em>, published in *Physical Review Letters*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 3, Chapter *The Weak Force and Chirality*; Book IV (*Categorical Microcosm*), Part 3, Chapter *Weak Holonomy and the W/Z Bosons* — the central framing is “Glashow (1961) proposed SU(2)×U(1) unification; Weinberg (1967) and Salam (1968) added the Higgs mechanism”.

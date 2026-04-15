@@ -1,5 +1,6 @@
 ---
 title: "A summation formula in the theory of the zeta-function"
+title_plain: "A summation formula in the theory of the zeta-function"
 bib_key: "Guinand1958"
 entry_type: "article"
 authors: "Guinand, A. P."
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Guinand, A. P.. (1958). *A summation formula in the theory of the zeta-function*. Proceedings of the Cambridge Philosophical Society."
+formatted_citation: "Guinand, A. P.. (1958). <em>A summation formula in the theory of the zeta-function</em>. <em>Proceedings of the Cambridge Philosophical Society</em>."
+formatted_citation_plain: "Guinand, A. P.. (1958). <em>A summation formula in the theory of the zeta-function</em>. <em>Proceedings of the Cambridge Philosophical Society</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1958"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Guinand's <em>A summation formula in the theory of the zeta-function</em> (1958) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

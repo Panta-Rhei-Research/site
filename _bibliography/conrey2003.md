@@ -1,5 +1,6 @@
 ---
 title: "The Riemann Hypothesis"
+title_plain: "The Riemann Hypothesis"
 bib_key: "Conrey2003"
 entry_type: "article"
 authors: "J. Brian Conrey"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Notices of the AMS"
 publisher: ""
 volume: "50"
 number: ""
-pages: "341–353"
+pages: "341--353"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "J. Brian Conrey. (2003). *The Riemann Hypothesis*. Notices of the AMS. **50**. pp. 341–353."
+formatted_citation: "J. Brian Conrey. (2003). <em>The Riemann Hypothesis</em>. <em>Notices of the AMS</em>. <strong>50</strong>. pp. 341--353."
+formatted_citation_plain: "J. Brian Conrey. (2003). <em>The Riemann Hypothesis</em>. <em>Notices of the AMS</em>. <strong>50</strong>. pp. 341--353."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2003"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Conrey's <em>The Riemann Hypothesis</em> (2003) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

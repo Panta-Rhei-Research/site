@@ -1,5 +1,6 @@
 ---
 title: "The Large N Limit of Superconformal Field Theories and Supergravity"
+title_plain: "The Large N Limit of Superconformal Field Theories and Supergravity"
 bib_key: "Maldacena1999"
 entry_type: "article"
 authors: "Juan Maldacena"
@@ -8,7 +9,7 @@ journal_or_booktitle: "International Journal of Theoretical Physics"
 publisher: ""
 volume: "38"
 number: ""
-pages: "1113–1133"
+pages: "1113--1133"
 doi: "10.1023/A:1026654312961"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Juan Maldacena. (1999). *The Large N Limit of Superconformal Field Theories and Supergravity*. International Journal of Theoretical Physics. **38**. pp. 1113–1133."
+formatted_citation: "Juan Maldacena. (1999). <em>The Large N Limit of Superconformal Field Theories and Supergravity</em>. <em>International Journal of Theoretical Physics</em>. <strong>38</strong>. pp. 1113--1133."
+formatted_citation_plain: "Juan Maldacena. (1999). <em>The Large N Limit of Superconformal Field Theories and Supergravity</em>. <em>International Journal of Theoretical Physics</em>. <strong>38</strong>. pp. 1113--1133."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1999"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Maldacena's <em>The Large N Limit of Superconformal Field Theories and Supergravity</em> (1999) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

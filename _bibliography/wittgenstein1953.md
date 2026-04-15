@@ -1,5 +1,6 @@
 ---
 title: "Philosophische Untersuchungen"
+title_plain: "Philosophische Untersuchungen"
 bib_key: "wittgenstein1953"
 entry_type: "book"
 authors: "Ludwig Wittgenstein"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Ludwig Wittgenstein. (1953). *Philosophische Untersuchungen*. Blackwell."
+formatted_citation: "Ludwig Wittgenstein. (1953). <em>Philosophische Untersuchungen</em>. Blackwell."
+formatted_citation_plain: "Ludwig Wittgenstein. (1953). <em>Philosophische Untersuchungen</em>. Blackwell."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 5"
+    chapter_file: "ch55"
+    chapter_title: "The Subsymbolic Is Real"
+    excerpt: "Wittgenstein: The Limits of Language Wittgenstein's dictum that ``the limits of my language mean the limits of my world'' (Tractatus 5.6) and his private language argument (Investigations 243–315) together suggest that there is no meaningful experience outside the scope of linguistic expression"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1953"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Wittgenstein's <em>Philosophische Untersuchungen</em> (1953), published by Blackwell, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 5, Chapter *The Subsymbolic Is Real*, where the program draws on it in the context of “Wittgenstein: The Limits of Language Wittgenstein's dictum that ``the limits of my language mean the limits of my world'' (Tractatus 5.6) and his private language argument….”

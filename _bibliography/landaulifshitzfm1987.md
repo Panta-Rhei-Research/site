@@ -1,5 +1,6 @@
 ---
 title: "Fluid Mechanics"
+title_plain: "Fluid Mechanics"
 bib_key: "LandauLifshitzFM1987"
 entry_type: "book"
 authors: "L. D. Landau and E. M. Lifshitz"
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "L. D. Landau and E. M. Lifshitz. (1987). *Fluid Mechanics*. Pergamon."
+formatted_citation: "L. D. Landau and E. M. Lifshitz. (1987). <em>Fluid Mechanics</em>. Pergamon."
+formatted_citation_plain: "L. D. Landau and E. M. Lifshitz. (1987). <em>Fluid Mechanics</em>. Pergamon."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1987"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Landau and Lifshitz's <em>Fluid Mechanics</em> (1987) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

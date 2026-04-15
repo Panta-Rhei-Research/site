@@ -1,5 +1,6 @@
 ---
 title: "Harmonic cochains and combinatorial Hodge theory"
+title_plain: "Harmonic cochains and combinatorial Hodge theory"
 bib_key: "Eckmann1944"
 entry_type: "article"
 authors: "Beno Eckmann"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Beno Eckmann. (1944). *Harmonic cochains and combinatorial Hodge theory*. Commentarii Mathematici Helvetici."
+formatted_citation: "Beno Eckmann. (1944). <em>Harmonic cochains and combinatorial Hodge theory</em>. <em>Commentarii Mathematici Helvetici</em>."
+formatted_citation_plain: "Beno Eckmann. (1944). <em>Harmonic cochains and combinatorial Hodge theory</em>. <em>Commentarii Mathematici Helvetici</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1944"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Eckmann's <em>Harmonic cochains and combinatorial Hodge theory</em> (1944) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

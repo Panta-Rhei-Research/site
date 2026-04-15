@@ -1,14 +1,15 @@
 ---
 title: "La conjecture de Weil. I"
+title_plain: "La conjecture de Weil. I"
 bib_key: "DeligneWeil"
 entry_type: "article"
 authors: "P. Deligne"
 year: "1974"
-journal_or_booktitle: "Publications Mathematiques de l'IHES"
+journal_or_booktitle: "Publications Mathématiques de l'IHÉS"
 publisher: ""
 volume: "43"
 number: ""
-pages: "273–307"
+pages: "273--307"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "P. Deligne. (1974). *La conjecture de Weil. I*. Publications Mathematiques de l'IHES. **43**. pp. 273–307."
+formatted_citation: "P. Deligne. (1974). <em>La conjecture de Weil. I</em>. <em>Publications Mathématiques de l'IHÉS</em>. <strong>43</strong>. pp. 273--307."
+formatted_citation_plain: "P. Deligne. (1974). <em>La conjecture de Weil. I</em>. <em>Publications Mathématiques de l'IHÉS</em>. <strong>43</strong>. pp. 273--307."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1974"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Deligne's <em>La conjecture de Weil. I</em> (1974) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

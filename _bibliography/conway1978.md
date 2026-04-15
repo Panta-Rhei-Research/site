@@ -1,5 +1,6 @@
 ---
 title: "Functions of One Complex Variable I"
+title_plain: "Functions of One Complex Variable I"
 bib_key: "Conway1978"
 entry_type: "book"
 authors: "John B. Conway"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "John B. Conway. (1978). *Functions of One Complex Variable I*. **11**. Springer-Verlag."
+formatted_citation: "John B. Conway. (1978). <em>Functions of One Complex Variable I</em>. <strong>11</strong>. Springer-Verlag."
+formatted_citation_plain: "John B. Conway. (1978). <em>Functions of One Complex Variable I</em>. <strong>11</strong>. Springer-Verlag."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 6"
+    chapter_file: "ch34-laurent-residues"
+    chapter_title: "Laurent Series and Residues"
+    excerpt: "Laurent Series and Residues Classical Laurent theory expands a holomorphic function in an annulus r_1 < |z| < r_2 as a doubly-infinite power series _n=-∞^∞ a_n z^n, with the residue a_-1 computed by contour integration around the singularity"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1978"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Conway's <em>Functions of One Complex Variable I</em> (1978), published by Springer-Verlag, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 6, Chapter *Laurent Series and Residues*, where the program draws on it in the context of “Laurent Series and Residues Classical Laurent theory expands a holomorphic function in an annulus r_1 < |z| < r_2 as a doubly-infinite power series _n=-∞^∞ a_n z^n, with the….”

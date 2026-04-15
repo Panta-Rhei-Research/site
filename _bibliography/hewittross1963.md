@@ -1,5 +1,6 @@
 ---
 title: "Abstract harmonic analysis"
+title_plain: "Abstract harmonic analysis"
 bib_key: "HewittRoss1963"
 entry_type: "book"
 authors: "Hewitt, E. and Ross, K. A."
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Hewitt, E. and Ross, K. A.. (1963). *Abstract harmonic analysis*. **1**. Springer."
+formatted_citation: "Hewitt, E. and Ross, K. A.. (1963). <em>Abstract harmonic analysis</em>. <strong>1</strong>. Springer."
+formatted_citation_plain: "Hewitt, E. and Ross, K. A.. (1963). <em>Abstract harmonic analysis</em>. <strong>1</strong>. Springer."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 9"
+    chapter_file: "ch47-boundary-characters-idempotent"
+    chapter_title: "Boundary Characters via Idempotent Support"
+    excerpt: "In classical Fourier analysis on a group G , a character χ : G → ℂ^× is a ``frequency detector'' — it measures how much of a given frequency component is present in a signal"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1963"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Hewitt and Ross' <em>Abstract harmonic analysis</em> (1963), published by Springer, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 9, Chapter *Boundary Characters via Idempotent Support*, where the program draws on it in the context of “In classical Fourier analysis on a group G , a character χ : G → ℂ^× is a ``frequency detector'' — it measures how much of a given frequency component is present in a signal.”

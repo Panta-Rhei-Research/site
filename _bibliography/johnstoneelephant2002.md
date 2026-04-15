@@ -1,5 +1,6 @@
 ---
 title: "Sketches of an Elephant: A Topos Theory Compendium"
+title_plain: "Sketches of an Elephant: A Topos Theory Compendium"
 bib_key: "JohnstoneElephant2002"
 entry_type: "book"
 authors: "Johnstone, Peter T."
@@ -19,7 +20,11 @@ domain_group: "Category Theory"
 role_in_program: "foundational-source"
 role_display: "Foundational Source"
 type_display: "Book"
-formatted_citation: "Johnstone, Peter T.. (2002). *Sketches of an Elephant: A Topos Theory Compendium*. Oxford University Press."
+formatted_citation: "Johnstone, Peter T.. (2002). <em>Sketches of an Elephant: A Topos Theory Compendium</em>. Oxford University Press."
+formatted_citation_plain: "Johnstone, Peter T.. (2002). <em>Sketches of an Elephant: A Topos Theory Compendium</em>. Oxford University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2002"
     domain: "Category Theory"
     role: "Foundational Source"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a foundational source for Category Theory on which the program directly builds.
+Johnstone's <em>Sketches of an Elephant: A Topos Theory Compendium</em> (2002) sits in the program's reference corpus as a standing technical source in Category Theory. It forms part of the foundational literature the program builds upon, though it is not directly cited in the currently published volumes of *Panta Rhei*.

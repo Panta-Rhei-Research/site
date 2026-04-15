@@ -1,5 +1,6 @@
 ---
-title: "A Course in $p$-adic Analysis"
+title: "A Course in <math><mi>p</mi></math>-adic Analysis"
+title_plain: "A Course in p-adic Analysis"
 bib_key: "RobertAM2000"
 entry_type: "book"
 authors: "Alain M. Robert"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Alain M. Robert. (2000). *A Course in $p$-adic Analysis*. **198**. Springer."
+formatted_citation: "Alain M. Robert. (2000). <em>A Course in <math><mi>p</mi></math>-adic Analysis</em>. <strong>198</strong>. Springer."
+formatted_citation_plain: "Alain M. Robert. (2000). <em>A Course in p-adic Analysis</em>. <strong>198</strong>. Springer."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2000"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Robert's <em>A Course in p-adic Analysis</em> (2000) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

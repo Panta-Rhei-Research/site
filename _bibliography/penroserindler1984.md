@@ -1,5 +1,6 @@
 ---
 title: "Spinors and Space-Time: Volume 2, Spinor and Twistor Methods in Space-Time Geometry"
+title_plain: "Spinors and Space-Time: Volume 2, Spinor and Twistor Methods in Space-Time Geometry"
 bib_key: "PenroseRindler1984"
 entry_type: "book"
 authors: "Roger Penrose and Wolfgang Rindler"
@@ -19,7 +20,11 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Roger Penrose and Wolfgang Rindler. (1986). *Spinors and Space-Time: Volume 2, Spinor and Twistor Methods in Space-Time Geometry*. Cambridge University Press."
+formatted_citation: "Roger Penrose and Wolfgang Rindler. (1986). <em>Spinors and Space-Time: Volume 2, Spinor and Twistor Methods in Space-Time Geometry</em>. Cambridge University Press."
+formatted_citation_plain: "Roger Penrose and Wolfgang Rindler. (1986). <em>Spinors and Space-Time: Volume 2, Spinor and Twistor Methods in Space-Time Geometry</em>. Cambridge University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1986"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Penrose and Rindler's <em>Spinors and Space-Time: Volume 2, Spinor and Twistor Methods in Space-Time Geometry</em> (1986) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

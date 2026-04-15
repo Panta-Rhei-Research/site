@@ -1,14 +1,15 @@
 ---
 title: "Discrete complex analysis on isoradial graphs"
+title_plain: "Discrete complex analysis on isoradial graphs"
 bib_key: "ChelkakSmirnov2016"
 entry_type: "article"
 authors: "Chelkak, Dmitry and Smirnov, Stanislav"
 year: "2012"
-journal_or_booktitle: ""
+journal_or_booktitle: "Advances in Mathematics"
 publisher: ""
 volume: "229"
 number: "3"
-pages: "1745–1814"
+pages: "1745--1814"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Chelkak, Dmitry and Smirnov, Stanislav. (2012). *Discrete complex analysis on isoradial graphs*. **229**(3). pp. 1745–1814."
+formatted_citation: "Chelkak, Dmitry and Smirnov, Stanislav. (2012). <em>Discrete complex analysis on isoradial graphs</em>. <em>Advances in Mathematics</em>. <strong>229</strong>(3). pp. 1745--1814."
+formatted_citation_plain: "Chelkak, Dmitry and Smirnov, Stanislav. (2012). <em>Discrete complex analysis on isoradial graphs</em>. <em>Advances in Mathematics</em>. <strong>229</strong>(3). pp. 1745--1814."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2012"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Chelkak and Smirnov's <em>Discrete complex analysis on isoradial graphs</em> (2012) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

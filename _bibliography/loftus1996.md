@@ -1,5 +1,6 @@
 ---
 title: "The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse"
+title_plain: "The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse"
 bib_key: "Loftus1996"
 entry_type: "book"
 authors: "Elizabeth Loftus and Katherine Ketcham"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Elizabeth Loftus and Katherine Ketcham. (1996). *The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse*. St. Martin's Press."
+formatted_citation: "Elizabeth Loftus and Katherine Ketcham. (1996). <em>The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse</em>. St. Martin's Press."
+formatted_citation_plain: "Elizabeth Loftus and Katherine Ketcham. (1996). <em>The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse</em>. St. Martin's Press."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 9"
+    chapter_file: "ch113"
+    chapter_title: "Personal Identity Over Time"
+    excerpt: "The malleability of memory further shows that memory is a reconstructive process, not a faithful archive"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1996"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Loftus and Ketcham's <em>The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse</em> (1996), published by St. Martin's Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 9, Chapter *Personal Identity Over Time*, where the program draws on it in the context of “The malleability of memory further shows that memory is a reconstructive process, not a faithful archive.”

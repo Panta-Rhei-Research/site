@@ -1,5 +1,6 @@
 ---
 title: "Measurements of the Hubble Constant: Tensions in Perspective"
+title_plain: "Measurements of the Hubble Constant: Tensions in Perspective"
 bib_key: "freedman2021measurements"
 entry_type: "article"
 authors: "Freedman, Wendy L."
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Freedman, Wendy L.. (2021). *Measurements of the Hubble Constant: Tensions in Perspective*. Astrophysical Journal. **919**. pp. 16."
+formatted_citation: "Freedman, Wendy L.. (2021). <em>Measurements of the Hubble Constant: Tensions in Perspective</em>. <em>Astrophysical Journal</em>. <strong>919</strong>. pp. 16."
+formatted_citation_plain: "Freedman, Wendy L.. (2021). <em>Measurements of the Hubble Constant: Tensions in Perspective</em>. <em>Astrophysical Journal</em>. <strong>919</strong>. pp. 16."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2021"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Freedman's <em>Measurements of the Hubble Constant: Tensions in Perspective</em> (2021) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

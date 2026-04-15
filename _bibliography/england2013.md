@@ -1,5 +1,6 @@
 ---
 title: "Statistical Physics of Self-Replication"
+title_plain: "Statistical Physics of Self-Replication"
 bib_key: "england2013"
 entry_type: "article"
 authors: "England, Jeremy L."
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "England, Jeremy L.. (2013). *Statistical Physics of Self-Replication*. The Journal of Chemical Physics. **139**. pp. 121923."
+formatted_citation: "England, Jeremy L.. (2013). <em>Statistical Physics of Self-Replication</em>. <em>The Journal of Chemical Physics</em>. <strong>139</strong>. pp. 121923."
+formatted_citation_plain: "England, Jeremy L.. (2013). <em>Statistical Physics of Self-Replication</em>. <em>The Journal of Chemical Physics</em>. <strong>139</strong>. pp. 121923."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2013"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+England's <em>Statistical Physics of Self-Replication</em> (2013) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

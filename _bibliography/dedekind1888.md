@@ -1,10 +1,11 @@
 ---
 title: "Was sind und was sollen die Zahlen?"
+title_plain: "Was sind und was sollen die Zahlen?"
 bib_key: "Dedekind1888"
 entry_type: "article"
 authors: "Dedekind, Richard"
 year: "1888"
-journal_or_booktitle: ""
+journal_or_booktitle: "Vieweg"
 publisher: ""
 volume: ""
 number: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Dedekind, Richard. (1888). *Was sind und was sollen die Zahlen?*."
+formatted_citation: "Dedekind, Richard. (1888). <em>Was sind und was sollen die Zahlen?</em>. <em>Vieweg</em>."
+formatted_citation_plain: "Dedekind, Richard. (1888). <em>Was sind und was sollen die Zahlen?</em>. <em>Vieweg</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1888"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Dedekind's <em>Was sind und was sollen die Zahlen?</em> (1888) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

@@ -1,5 +1,6 @@
 ---
 title: "Consciousness Explained"
+title_plain: "Consciousness Explained"
 bib_key: "dennett1991"
 entry_type: "book"
 authors: "Daniel C. Dennett"
@@ -19,7 +20,11 @@ domain_group: "Metaphysics and Philosophy"
 role_in_program: "conceptual-bridge"
 role_display: "Conceptual Bridge"
 type_display: "Book"
-formatted_citation: "Daniel C. Dennett. (1991). *Consciousness Explained*. Little, Brown and Company."
+formatted_citation: "Daniel C. Dennett. (1991). <em>Consciousness Explained</em>. Little, Brown and Company."
+formatted_citation_plain: "Daniel C. Dennett. (1991). <em>Consciousness Explained</em>. Little, Brown and Company."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1991"
     domain: "Metaphysics and Philosophy"
     role: "Conceptual Bridge"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a conceptual bridge connecting Metaphysics and Philosophy to the program's coherence framework.
+Dennett's <em>Consciousness Explained</em> (1991) sits in the program's reference corpus as a conceptual bridge between Metaphysics and Philosophy and the framework's broader aims. It is not directly cited in the currently published volumes of *Panta Rhei*, but remains part of the standing reference shelf.

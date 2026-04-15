@@ -1,5 +1,6 @@
 ---
 title: "Regularization and Renormalization of Gauge Fields"
+title_plain: "Regularization and Renormalization of Gauge Fields"
 bib_key: "tHooftVeltman1972"
 entry_type: "article"
 authors: "G. 't Hooft and M. Veltman"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Nuclear Physics B"
 publisher: ""
 volume: "44"
 number: ""
-pages: "189–213"
+pages: "189--213"
 doi: "10.1016/0550-3213(72)90279-9"
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "G. 't Hooft and M. Veltman. (1972). *Regularization and Renormalization of Gauge Fields*. Nuclear Physics B. **44**. pp. 189–213."
+formatted_citation: "G. 't Hooft and M. Veltman. (1972). <em>Regularization and Renormalization of Gauge Fields</em>. <em>Nuclear Physics B</em>. <strong>44</strong>. pp. 189--213."
+formatted_citation_plain: "G. 't Hooft and M. Veltman. (1972). <em>Regularization and Renormalization of Gauge Fields</em>. <em>Nuclear Physics B</em>. <strong>44</strong>. pp. 189--213."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1972"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Hooft and Veltman's <em>Regularization and Renormalization of Gauge Fields</em> (1972) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

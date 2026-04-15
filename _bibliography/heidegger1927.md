@@ -1,5 +1,6 @@
 ---
 title: "Sein und Zeit"
+title_plain: "Sein und Zeit"
 bib_key: "heidegger1927"
 entry_type: "book"
 authors: "Martin Heidegger"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Martin Heidegger. (1927). *Sein und Zeit*. Max Niemeyer."
+formatted_citation: "Martin Heidegger. (1927). <em>Sein und Zeit</em>. Max Niemeyer."
+formatted_citation_plain: "Martin Heidegger. (1927). <em>Sein und Zeit</em>. Max Niemeyer."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 5"
+    chapter_file: "ch54"
+    chapter_title: "What Language Adds"
+    excerpt: "Anxiety becomes structural. Heidegger's analysis of Angst as the confrontation with one's own finitude is precisely the phenomenological consequence of temporalization applied reflexively"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1927"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Heidegger's <em>Sein und Zeit</em> (1927), published by Max Niemeyer, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 5, Chapter *What Language Adds*, where the program draws on it in the context of “Anxiety becomes structural. Heidegger's analysis of Angst as the confrontation with one's own finitude is precisely the phenomenological consequence of temporalization applied….”

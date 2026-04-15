@@ -45,6 +45,37 @@ layout: default
 </section>
 {% endif %}
 
+{% if page.cited_in and page.cited_in.size > 0 %}
+<section class="content-card" aria-labelledby="bib-cited-in-heading">
+  <h2 id="bib-cited-in-heading">Cited in</h2>
+  <ul class="cited-in-list">
+    {% for c in page.cited_in %}
+    <li class="cited-in-item">
+      <div class="cited-in-head">
+        <strong>Book {{ c.book }} — <em>{{ c.book_title }}</em></strong>
+        {% if c.part != "" %}<span class="cited-in-part">{{ c.part }}</span>{% endif %}
+      </div>
+      {% if c.chapter_title != "" %}
+      <div class="cited-in-chapter">Chapter <em>{{ c.chapter_title }}</em></div>
+      {% endif %}
+      {% if c.excerpt != "" %}
+      <blockquote class="cited-in-excerpt">{{ c.excerpt }}</blockquote>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% elsif page.is_orphan %}
+<section class="content-card" aria-labelledby="bib-corpus-heading">
+  <h2 id="bib-corpus-heading">Corpus status</h2>
+  <p>
+    <span class="chip">In the corpus only</span>
+    This reference is part of the research corpus but is not directly cited
+    in the currently published volumes of <em>Panta Rhei</em>.
+  </p>
+</section>
+{% endif %}
+
 <section class="content-card" aria-labelledby="bib-details-heading">
   <h2 id="bib-details-heading">Bibliographic Details</h2>
   <div class="meta-list" style="font-size: 0.88rem;">

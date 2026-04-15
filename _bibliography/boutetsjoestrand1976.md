@@ -1,14 +1,15 @@
 ---
-title: "BoutetSjoestrand1976"
+title: "Sur la singularité des noyaux de Bergman et de {Szegő"
+title_plain: "Sur la singularité des noyaux de Bergman et de {Szegő"
 bib_key: "BoutetSjoestrand1976"
 entry_type: "article"
-authors: "Boutet de Monvel, Louis and Sjostrand, Johannes"
+authors: "Boutet de Monvel, Louis and Sjöstrand, Johannes"
 year: "1976"
-journal_or_booktitle: ""
+journal_or_booktitle: "Astérisque"
 publisher: ""
 volume: ""
-number: "34–35"
-pages: "123–164"
+number: "34--35"
+pages: "123--164"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Boutet de Monvel, Louis and Sjostrand, Johannes. (1976). *BoutetSjoestrand1976*. pp. 123–164."
+formatted_citation: "Boutet de Monvel, Louis and Sjöstrand, Johannes. (1976). <em>Sur la singularité des noyaux de Bergman et de {Szegő</em>. <em>Astérisque</em>. pp. 123--164."
+formatted_citation_plain: "Boutet de Monvel, Louis and Sjöstrand, Johannes. (1976). <em>Sur la singularité des noyaux de Bergman et de {Szegő</em>. <em>Astérisque</em>. pp. 123--164."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1976"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Boutet de Monvel and Sjöstrand's <em>Sur la singularité des noyaux de Bergman et de {Szegő</em> (1976) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

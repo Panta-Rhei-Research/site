@@ -1,5 +1,6 @@
 ---
 title: "Differential Structure, Tangent Structure, and Differential Categories"
+title_plain: "Differential Structure, Tangent Structure, and Differential Categories"
 bib_key: "CockettCruttwell2012"
 entry_type: "article"
 authors: "Robin Cockett and Richard A. G. Cruttwell"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Theory and Applications of Categories"
 publisher: ""
 volume: "27"
 number: ""
-pages: "582–620"
+pages: "582--620"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Category Theory"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Robin Cockett and Richard A. G. Cruttwell. (2012). *Differential Structure, Tangent Structure, and Differential Categories*. Theory and Applications of Categories. **27**. pp. 582–620."
+formatted_citation: "Robin Cockett and Richard A. G. Cruttwell. (2012). <em>Differential Structure, Tangent Structure, and Differential Categories</em>. <em>Theory and Applications of Categories</em>. <strong>27</strong>. pp. 582--620."
+formatted_citation_plain: "Robin Cockett and Richard A. G. Cruttwell. (2012). <em>Differential Structure, Tangent Structure, and Differential Categories</em>. <em>Theory and Applications of Categories</em>. <strong>27</strong>. pp. 582--620."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2012"
     domain: "Category Theory"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Cockett and Cruttwell's <em>Differential Structure, Tangent Structure, and Differential Categories</em> (2012) is part of the program's reference corpus, acknowledged as a formal antecedent in Category Theory whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

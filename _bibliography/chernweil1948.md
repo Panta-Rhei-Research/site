@@ -1,8 +1,9 @@
 ---
 title: "On the Theory of Characteristic Classes"
+title_plain: "On the Theory of Characteristic Classes"
 bib_key: "ChernWeil1948"
 entry_type: "article"
-authors: "Shiing-Shen Chern and Andre Weil"
+authors: "Shiing-Shen Chern and André Weil"
 year: "1948"
 journal_or_booktitle: "Proceedings of the National Academy of Sciences"
 publisher: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "Shiing-Shen Chern and Andre Weil. (1948). *On the Theory of Characteristic Classes*. Proceedings of the National Academy of Sciences."
+formatted_citation: "Shiing-Shen Chern and André Weil. (1948). <em>On the Theory of Characteristic Classes</em>. <em>Proceedings of the National Academy of Sciences</em>."
+formatted_citation_plain: "Shiing-Shen Chern and André Weil. (1948). <em>On the Theory of Characteristic Classes</em>. <em>Proceedings of the National Academy of Sciences</em>."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1948"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Chern and Weil's <em>On the Theory of Characteristic Classes</em> (1948) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

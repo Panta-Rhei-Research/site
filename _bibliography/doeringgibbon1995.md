@@ -1,5 +1,6 @@
 ---
 title: "Applied Analysis of the Navier–Stokes Equations"
+title_plain: "Applied Analysis of the Navier–Stokes Equations"
 bib_key: "DoeringGibbon1995"
 entry_type: "book"
 authors: "Charles R. Doering and James D. Gibbon"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Charles R. Doering and James D. Gibbon. (1995). *Applied Analysis of the Navier–Stokes Equations*. Cambridge University Press."
+formatted_citation: "Charles R. Doering and James D. Gibbon. (1995). <em>Applied Analysis of the Navier–Stokes Equations</em>. Cambridge University Press."
+formatted_citation_plain: "Charles R. Doering and James D. Gibbon. (1995). <em>Applied Analysis of the Navier–Stokes Equations</em>. Cambridge University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1995"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Doering and Gibbon's <em>Applied Analysis of the Navier–Stokes Equations</em> (1995) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

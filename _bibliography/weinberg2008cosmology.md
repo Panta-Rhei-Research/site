@@ -1,5 +1,6 @@
 ---
 title: "Cosmology"
+title_plain: "Cosmology"
 bib_key: "weinberg2008cosmology"
 entry_type: "book"
 authors: "Weinberg, Steven"
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Weinberg, Steven. (2008). *Cosmology*. Oxford University Press."
+formatted_citation: "Weinberg, Steven. (2008). <em>Cosmology</em>. Oxford University Press."
+formatted_citation_plain: "Weinberg, Steven. (2008). <em>Cosmology</em>. Oxford University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2008"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Weinberg's <em>Cosmology</em> (2008) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

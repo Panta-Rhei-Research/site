@@ -1,5 +1,6 @@
 ---
 title: "The Penrose transform: its interaction with representation theory"
+title_plain: "The Penrose transform: its interaction with representation theory"
 bib_key: "BastonEastwood1989"
 entry_type: "book"
 authors: "Baston, Ronald J. and Eastwood, Michael G."
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Baston, Ronald J. and Eastwood, Michael G.. (1989). *The Penrose transform: its interaction with representation theory*. Oxford University Press."
+formatted_citation: "Baston, Ronald J. and Eastwood, Michael G.. (1989). <em>The Penrose transform: its interaction with representation theory</em>. Oxford University Press."
+formatted_citation_plain: "Baston, Ronald J. and Eastwood, Michael G.. (1989). <em>The Penrose transform: its interaction with representation theory</em>. Oxford University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1989"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Baston and Eastwood's <em>The Penrose transform: its interaction with representation theory</em> (1989) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

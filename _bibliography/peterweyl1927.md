@@ -1,5 +1,6 @@
 ---
 title: "Die Vollständigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe"
+title_plain: "Die Vollständigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe"
 bib_key: "PeterWeyl1927"
 entry_type: "article"
 authors: "F. Peter and H. Weyl"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Mathematische Annalen"
 publisher: ""
 volume: "97"
 number: ""
-pages: "737–755"
+pages: "737--755"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Article"
-formatted_citation: "F. Peter and H. Weyl. (1927). *Die Vollständigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe*. Mathematische Annalen. **97**. pp. 737–755."
+formatted_citation: "F. Peter and H. Weyl. (1927). <em>Die Vollständigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe</em>. <em>Mathematische Annalen</em>. <strong>97</strong>. pp. 737--755."
+formatted_citation_plain: "F. Peter and H. Weyl. (1927). <em>Die Vollständigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe</em>. <em>Mathematische Annalen</em>. <strong>97</strong>. pp. 737--755."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1927"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Peter and Weyl's <em>Die Vollständigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe</em> (1927) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

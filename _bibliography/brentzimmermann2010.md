@@ -1,5 +1,6 @@
 ---
 title: "Modern computer arithmetic"
+title_plain: "Modern computer arithmetic"
 bib_key: "BrentZimmermann2010"
 entry_type: "book"
 authors: "Brent, Richard P. and Zimmermann, Paul"
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Brent, Richard P. and Zimmermann, Paul. (2010). *Modern computer arithmetic*. Cambridge University Press."
+formatted_citation: "Brent, Richard P. and Zimmermann, Paul. (2010). <em>Modern computer arithmetic</em>. Cambridge University Press."
+formatted_citation_plain: "Brent, Richard P. and Zimmermann, Paul. (2010). <em>Modern computer arithmetic</em>. Cambridge University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "2010"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Brent and Zimmermann's <em>Modern computer arithmetic</em> (2010) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

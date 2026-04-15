@@ -1,5 +1,6 @@
 ---
 title: "Modular elliptic curves and Fermat's Last Theorem"
+title_plain: "Modular elliptic curves and Fermat's Last Theorem"
 bib_key: "Wiles95"
 entry_type: "article"
 authors: "A. Wiles"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Annals of Mathematics"
 publisher: ""
 volume: "141"
 number: "3"
-pages: "443–551"
+pages: "443--551"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "A. Wiles. (1995). *Modular elliptic curves and Fermat's Last Theorem*. Annals of Mathematics. **141**(3). pp. 443–551."
+formatted_citation: "A. Wiles. (1995). <em>Modular elliptic curves and Fermat's Last Theorem</em>. <em>Annals of Mathematics</em>. <strong>141</strong>(3). pp. 443--551."
+formatted_citation_plain: "A. Wiles. (1995). <em>Modular elliptic curves and Fermat's Last Theorem</em>. <em>Annals of Mathematics</em>. <strong>141</strong>(3). pp. 443--551."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1995"
     domain: "Number Theory and Analysis"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Number Theory and Analysis.
+Wiles' <em>Modular elliptic curves and Fermat's Last Theorem</em> (1995) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

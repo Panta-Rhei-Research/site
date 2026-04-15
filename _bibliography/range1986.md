@@ -1,5 +1,6 @@
 ---
 title: "Holomorphic functions and integral representations in several complex variables"
+title_plain: "Holomorphic functions and integral representations in several complex variables"
 bib_key: "Range1986"
 entry_type: "book"
 authors: "Range, R. Michael"
@@ -19,7 +20,23 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Range, R. Michael. (1986). *Holomorphic functions and integral representations in several complex variables*. Springer."
+formatted_citation: "Range, R. Michael. (1986). <em>Holomorphic functions and integral representations in several complex variables</em>. Springer."
+formatted_citation_plain: "Range, R. Michael. (1986). <em>Holomorphic functions and integral representations in several complex variables</em>. Springer."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 9"
+    chapter_file: "ch48-hartogs-extension-h-tau"
+    chapter_title: "Hartogs Extension in H_τ"
+    excerpt: "Classical several complex variables (SCV) answers a related question via the Hartogs extension theorem : a holomorphic function defined on the complement of a compact subset of a domain in ℂ^n (n ≥ 2) extends uniquely to the full domain"
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 11"
+    chapter_file: "ch65-dimensional-ladder-collapse"
+    chapter_title: "Why τ³ Has No Dimensional Ladder"
+    excerpt: "We survey the ladder rung by rung, following the standard development of Krantz , Range , and Hörmander"
 right_rail:
   toc: false
   related:
@@ -35,7 +52,8 @@ right_rail:
     year: "1986"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Range's <em>Holomorphic functions and integral representations in several complex variables</em> (1986), published by Springer, sits in the program's reference corpus as a standing technical source. Cited across Book II (*Categorical Holomorphy*), Part 9, Chapter *Hartogs Extension in H_τ*; Book II (*Categorical Holomorphy*), Part 11, Chapter *Why τ³ Has No Dimensional Ladder* — the central framing is “Classical several complex variables (SCV) answers a related question via the Hartogs extension theorem : a holomorphic function defined on the complement of a compact subset of a…”.

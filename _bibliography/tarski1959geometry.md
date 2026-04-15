@@ -1,5 +1,6 @@
 ---
 title: "What is Elementary Geometry?"
+title_plain: "What is Elementary Geometry?"
 bib_key: "Tarski1959Geometry"
 entry_type: "incollection"
 authors: "Alfred Tarski"
@@ -8,7 +9,7 @@ journal_or_booktitle: "The Axiomatic Method with Special Reference to Geometry a
 publisher: "North-Holland"
 volume: ""
 number: ""
-pages: "16–29"
+pages: "16--29"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book Chapter"
-formatted_citation: "Alfred Tarski. (1959). *What is Elementary Geometry?*. The Axiomatic Method with Special Reference to Geometry and Physics. pp. 16–29. North-Holland."
+formatted_citation: "Alfred Tarski. (1959). <em>What is Elementary Geometry?</em>. <em>The Axiomatic Method with Special Reference to Geometry and Physics</em>. pp. 16--29. North-Holland."
+formatted_citation_plain: "Alfred Tarski. (1959). <em>What is Elementary Geometry?</em>. <em>The Axiomatic Method with Special Reference to Geometry and Physics</em>. pp. 16--29. North-Holland."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1959"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Tarski's <em>What is Elementary Geometry?</em> (1959) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

@@ -1,5 +1,6 @@
 ---
 title: "Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie"
+title_plain: "Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie"
 bib_key: "husserl1913"
 entry_type: "book"
 authors: "Edmund Husserl"
@@ -19,7 +20,17 @@ domain_group: "Foundations and Logic"
 role_in_program: "formal-antecedent"
 role_display: "Formal Antecedent"
 type_display: "Book"
-formatted_citation: "Edmund Husserl. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Max Niemeyer."
+formatted_citation: "Edmund Husserl. (1913). <em>Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie</em>. Max Niemeyer."
+formatted_citation_plain: "Edmund Husserl. (1913). <em>Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie</em>. Max Niemeyer."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "VII"
+    book_title: "Categorical Metaphysics"
+    part: "Part 3"
+    chapter_file: "ch38"
+    chapter_title: "Embodiment and the Lived Body"
+    excerpt: "The Phenomenological Distinction Leib and K\\\"orper The German phenomenological tradition, from Husserl through Plessner to Merleau-Ponty , draws a distinction that most European languages cannot express in a single word"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "1913"
     domain: "Foundations and Logic"
     role: "Formal Antecedent"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included as a formal antecedent establishing structures that the program extends or reinterprets.
+Husserl's <em>Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie</em> (1913), published by Max Niemeyer, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 3, Chapter *Embodiment and the Lived Body*, where the program draws on it in the context of “The Phenomenological Distinction Leib and K\"orper The German phenomenological tradition, from Husserl through Plessner to Merleau-Ponty , draws a distinction that most European….”

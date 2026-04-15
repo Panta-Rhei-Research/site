@@ -1,5 +1,6 @@
 ---
 title: "Complex Geometry: An Introduction"
+title_plain: "Complex Geometry: An Introduction"
 bib_key: "Huybrechts2005"
 entry_type: "book"
 authors: "Daniel Huybrechts"
@@ -19,7 +20,17 @@ domain_group: "Topology and Geometry"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Daniel Huybrechts. (2005). *Complex Geometry: An Introduction*. Springer."
+formatted_citation: "Daniel Huybrechts. (2005). <em>Complex Geometry: An Introduction</em>. Springer."
+formatted_citation_plain: "Daniel Huybrechts. (2005). <em>Complex Geometry: An Introduction</em>. Springer."
+is_orphan: false
+has_manual_override: true
+cited_in:
+  - book: "II"
+    book_title: "Categorical Holomorphy"
+    part: "Part 9"
+    chapter_file: "ch52-liouville-categoricity"
+    chapter_title: "Liouville Categorical Dodge and Categoricity"
+    excerpt: "The compact-manifold generalization states: on a compact connected complex manifold , every global holomorphic function is constant"
 right_rail:
   toc: false
   related:
@@ -35,7 +46,8 @@ right_rail:
     year: "2005"
     domain: "Topology and Geometry"
     role: "Domain Context"
+    cited_in_books: true
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Topology and Geometry.
+Huybrechts' <em>Complex Geometry: An Introduction</em> (2005), published by Springer, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 9, Chapter *Liouville Categorical Dodge and Categoricity*, where the program draws on it in the context of “The compact-manifold generalization states: on a compact connected complex manifold , every global holomorphic function is constant.”

@@ -1,5 +1,6 @@
 ---
 title: "The Atom and the Molecule"
+title_plain: "The Atom and the Molecule"
 bib_key: "Lewis1916"
 entry_type: "article"
 authors: "Gilbert N. Lewis"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Journal of the American Chemical Society"
 publisher: ""
 volume: "38"
 number: "4"
-pages: "762–785"
+pages: "762--785"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Gilbert N. Lewis. (1916). *The Atom and the Molecule*. Journal of the American Chemical Society. **38**(4). pp. 762–785."
+formatted_citation: "Gilbert N. Lewis. (1916). <em>The Atom and the Molecule</em>. <em>Journal of the American Chemical Society</em>. <strong>38</strong>(4). pp. 762--785."
+formatted_citation_plain: "Gilbert N. Lewis. (1916). <em>The Atom and the Molecule</em>. <em>Journal of the American Chemical Society</em>. <strong>38</strong>(4). pp. 762--785."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1916"
     domain: "Life and Biology"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Life and Biology.
+Lewis' <em>The Atom and the Molecule</em> (1916) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -1,5 +1,6 @@
 ---
 title: "An Introduction to Homological Algebra"
+title_plain: "An Introduction to Homological Algebra"
 bib_key: "Weibel1994"
 entry_type: "book"
 authors: "Charles A. Weibel"
@@ -19,7 +20,11 @@ domain_group: "Foundations and Logic"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Book"
-formatted_citation: "Charles A. Weibel. (1994). *An Introduction to Homological Algebra*. **38**. Cambridge University Press."
+formatted_citation: "Charles A. Weibel. (1994). <em>An Introduction to Homological Algebra</em>. <strong>38</strong>. Cambridge University Press."
+formatted_citation_plain: "Charles A. Weibel. (1994). <em>An Introduction to Homological Algebra</em>. <strong>38</strong>. Cambridge University Press."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1994"
     domain: "Foundations and Logic"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Foundations and Logic.
+Weibel's <em>An Introduction to Homological Algebra</em> (1994) is part of the program's reference corpus as standard domain context for Foundations and Logic. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -1,5 +1,6 @@
 ---
 title: "Renormalizable Lagrangians for Massive Yang-Mills Fields"
+title_plain: "Renormalizable Lagrangians for Massive Yang-Mills Fields"
 bib_key: "tHooft1971"
 entry_type: "article"
 authors: "Gerard 't Hooft"
@@ -8,7 +9,7 @@ journal_or_booktitle: "Nuclear Physics B"
 publisher: ""
 volume: "35"
 number: ""
-pages: "167–188"
+pages: "167--188"
 doi: ""
 url: ""
 isbn: ""
@@ -19,7 +20,11 @@ domain_group: "Physics"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Gerard 't Hooft. (1971). *Renormalizable Lagrangians for Massive Yang-Mills Fields*. Nuclear Physics B. **35**. pp. 167–188."
+formatted_citation: "Gerard 't Hooft. (1971). <em>Renormalizable Lagrangians for Massive Yang-Mills Fields</em>. <em>Nuclear Physics B</em>. <strong>35</strong>. pp. 167--188."
+formatted_citation_plain: "Gerard 't Hooft. (1971). <em>Renormalizable Lagrangians for Massive Yang-Mills Fields</em>. <em>Nuclear Physics B</em>. <strong>35</strong>. pp. 167--188."
+is_orphan: true
+has_manual_override: false
+cited_in: []
 right_rail:
   toc: false
   related:
@@ -35,7 +40,8 @@ right_rail:
     year: "1971"
     domain: "Physics"
     role: "Domain Context"
+    cited_in_books: false
     updated: "April 2026"
 ---
 
-Included to provide standard reference context for Physics.
+Hooft's <em>Renormalizable Lagrangians for Massive Yang-Mills Fields</em> (1971) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.
