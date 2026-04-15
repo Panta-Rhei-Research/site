@@ -4,7 +4,7 @@ bib_key: "Frobenius1877"
 entry_type: "article"
 authors: "Ferdinand Frobenius"
 year: "1877"
-journal_or_booktitle: "Journal f\"ur die reine und angewandte Mathematik"
+journal_or_booktitle: "Journal für die reine und angewandte Mathematik"
 publisher: ""
 volume: "84"
 number: ""
@@ -19,7 +19,7 @@ domain_group: "Life and Biology"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Ferdinand Frobenius. (1877). *Ueber lineare Substitutionen und bilineare Formen*. Journal f\"ur die reine und angewandte Mathematik. **84**. pp. 1–63."
+formatted_citation: "Ferdinand Frobenius. (1877). *Ueber lineare Substitutionen und bilineare Formen*. Journal für die reine und angewandte Mathematik. **84**. pp. 1–63."
 right_rail:
   toc: false
   related:

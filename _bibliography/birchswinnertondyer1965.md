@@ -4,7 +4,7 @@ bib_key: "BirchSwinnertonDyer1965"
 entry_type: "article"
 authors: "Bryan J. Birch and Peter Swinnerton-Dyer"
 year: "1965"
-journal_or_booktitle: "Journal f\"ur die reine und angewandte Mathematik"
+journal_or_booktitle: "Journal für die reine und angewandte Mathematik"
 publisher: ""
 volume: "212"
 number: ""
@@ -19,7 +19,7 @@ domain_group: "Number Theory and Analysis"
 role_in_program: "domain-context"
 role_display: "Domain Context"
 type_display: "Article"
-formatted_citation: "Bryan J. Birch and Peter Swinnerton-Dyer. (1965). *Notes on elliptic curves. I*. Journal f\"ur die reine und angewandte Mathematik. **212**. pp. 7–25."
+formatted_citation: "Bryan J. Birch and Peter Swinnerton-Dyer. (1965). *Notes on elliptic curves. I*. Journal für die reine und angewandte Mathematik. **212**. pp. 7–25."
 right_rail:
   toc: false
   related:
