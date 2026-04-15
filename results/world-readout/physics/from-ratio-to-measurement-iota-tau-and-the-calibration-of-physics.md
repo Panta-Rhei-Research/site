@@ -6,6 +6,12 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 9
 summary_short: "How Tau yields non-trivial quantities, constants, and calibration without free parameters."
+key_registry:
+  - IV.T87
+  - IV.P235
+  - IV.D59
+  - IV.P72
+  - IV.T241
 right_rail:
   related:
   - title: Physics World Readout
@@ -83,6 +89,15 @@ That is a much stronger and cleaner claim than simply assuming constants by hand
 ## Conclusion
 
 In Tau, quantitative physics does not arise from externally imposed free parameters, but from an internally generated ratio hierarchy governed by `ι_τ`, which then becomes calibratable to ordinary measurement through a minimal SI bridge. This is why Tau can propose a world of real observables without starting from arbitrary constants.
+
+
+## Canonical References
+
+- [IV.T87]({{ '/registry/object/IV.T87/' | relative_url }}) — Sector Coupling Formulas
+- [IV.P235]({{ '/registry/object/IV.P235/' | relative_url }}) — Coupling Power Hierarchy
+- [IV.D59]({{ '/registry/object/IV.D59/' | relative_url }}) — Calibration Anchor
+- [IV.P72]({{ '/registry/object/IV.P72/' | relative_url }}) — Why One Suffices
+- [IV.T241]({{ '/registry/object/IV.T241/' | relative_url }}) — Calibration Cascade
 
 ---
 

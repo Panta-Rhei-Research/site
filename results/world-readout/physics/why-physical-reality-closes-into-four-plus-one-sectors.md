@@ -6,6 +6,13 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 8
 summary_short: "Why the E1 readout closes into exactly four plus one primary sectors."
+key_registry:
+  - IV.D01
+  - IV.T191
+  - IV.T105
+  - V.T44
+  - V.T45
+  - V.C01
 right_rail:
   related:
   - title: Physics World Readout
@@ -82,6 +89,16 @@ The world remains rich, but its primary physical architecture is complete.
 ## Conclusion
 
 The significance of the E1 sector structure is not only that it reproduces the familiar four plus one physical sectors, but that it closes the space of primary physical sectors altogether. This is one of the main reasons Tau claims not merely to describe a possible physics, but to describe a completed physical architecture.
+
+
+## Canonical References
+
+- [IV.D01]({{ '/registry/object/IV.D01/' | relative_url }}) — Sector Physics Template
+- [IV.T191]({{ '/registry/object/IV.T191/' | relative_url }}) — Sector Unity
+- [IV.T105]({{ '/registry/object/IV.T105/' | relative_url }}) — Sector Closure
+- [V.T44]({{ '/registry/object/V.T44/' | relative_url }}) — Sector Exhaustion
+- [V.T45]({{ '/registry/object/V.T45/' | relative_url }}) — No Fifth Sector
+- [V.C01]({{ '/registry/object/V.C01/' | relative_url }}) — No Dark Matter Particle
 
 ---
 

@@ -6,6 +6,10 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 2
 summary_short: "How the substrate of physical reality is read out from Tau."
+key_registry:
+  - IV.D01
+  - IV.D14
+  - IV.D15
 right_rail:
   related:
   - title: Physics World Readout
@@ -71,6 +75,13 @@ The later physics pages describe geometry, topology, becoming, laws, and sectors
 - and ontically closed.
 
 Only then does it make sense that physics is not imposed on the world from outside. It is read out from what the world already is.
+
+
+## Canonical References
+
+- [IV.D01]({{ '/registry/object/IV.D01/' | relative_url }}) — Sector Physics Template
+- [IV.D14]({{ '/registry/object/IV.D14/' | relative_url }}) — Ontic Particle
+- [IV.D15]({{ '/registry/object/IV.D15/' | relative_url }}) — Stability
 
 ---
 

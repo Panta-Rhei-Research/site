@@ -6,6 +6,11 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 12
 summary_short: "A summary page of the strongest physical consequences that become true within Tau."
+key_registry:
+  - V.T44
+  - V.T46
+  - IV.T87
+  - IV.T100
 right_rail:
   related:
   - title: Physics World Readout
@@ -80,6 +85,14 @@ The force of Tau-physics does not lie only in a handful of isolated solutions. I
 ## Conclusion
 
 The specific results of Tau-physics are not the first thing to understand. The first thing to understand is the world from which they follow. Once that world has been described, the detailed result atlas can be read in its proper place: as the many consequences of one coherent physical reality.
+
+
+## Canonical References
+
+- [V.T44]({{ '/registry/object/V.T44/' | relative_url }}) — Sector Exhaustion
+- [V.T46]({{ '/registry/object/V.T46/' | relative_url }}) — H0 Tension Resolution
+- [IV.T87]({{ '/registry/object/IV.T87/' | relative_url }}) — Sector Coupling Formulas
+- [IV.T100]({{ '/registry/object/IV.T100/' | relative_url }}) — Internal Law Thesis
 
 ---
 

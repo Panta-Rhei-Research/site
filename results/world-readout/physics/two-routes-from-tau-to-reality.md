@@ -6,6 +6,10 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 13
 summary_short: "The ontic and empirical routes by which Tau may be related to lived reality."
+key_registry:
+  - VII.T16
+  - VII.D05
+  - VII.T01
 right_rail:
   related:
   - title: Physics World Readout
@@ -66,6 +70,13 @@ The stronger route remains available for those willing to consider the full onto
 ## Conclusion
 
 Tau can therefore be engaged in two epistemically distinct but compatible ways: as an ontic readout of an intelligible world, or as an empirical model whose consequences can be compared with observation. The result atlas that follows remains meaningful under either route.
+
+
+## Canonical References
+
+- [VII.T16]({{ '/registry/object/VII.T16/' | relative_url }}) — Omega-Uniqueness
+- [VII.D05]({{ '/registry/object/VII.D05/' | relative_url }}) — SelfDesc-of-SelfDesc
+- [VII.T01]({{ '/registry/object/VII.T01/' | relative_url }}) — Register Independence
 
 ---
 

@@ -6,6 +6,9 @@ lane: results
 section: "Results · Physics World Readout"
 nav_order: 3
 summary_short: "How geometry and topology first appear in Tau."
+key_registry:
+  - IV.T19
+  - IV.D35
 right_rail:
   related:
   - title: Physics World Readout
@@ -79,6 +82,12 @@ The significance of all this is not merely technical. Tau does not first assume 
 - and a wave-compatible notion of holomorphicity.
 
 That is why geometry in Tau is not simply another chapter of the formalism. It is one of the first reasons the framework can even begin to speak coherently about unified physics.
+
+
+## Canonical References
+
+- [IV.T19]({{ '/registry/object/IV.T19/' | relative_url }}) — Spectral Purity
+- [IV.D35]({{ '/registry/object/IV.D35/' | relative_url }}) — Poincare / Spatial
 
 ---
 
