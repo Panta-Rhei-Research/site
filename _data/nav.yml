@@ -73,6 +73,8 @@ framework_nav:
 results_nav:
   - title: "Overview"
     url: "/results/"
+  - title: "Browse All Results"
+    url: "/results/browse/"
   - title: "Prologue"
     url: "/results/prologue/"
     children:

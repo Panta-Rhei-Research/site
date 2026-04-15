@@ -1,0 +1,167 @@
+---
+layout: default
+---
+
+<div class="hero-card">
+  <span class="eyebrow">Results · Browse</span>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary_short %}
+  <p>{{ page.summary_short }}</p>
+  {% endif %}
+</div>
+
+<div class="content-card results-browse">
+  <div class="results-browse-intro prose">
+    {{ content }}
+  </div>
+
+  <div class="results-browse-controls" id="results-browse-controls" aria-label="Filter and sort results">
+    <div class="filter-group" data-filter-group="topic">
+      <span class="filter-label">Domain</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="topic" data-value="mathematics" type="button">Mathematics</button>
+        <button class="filter-chip" data-filter="topic" data-value="physics" type="button">Physics</button>
+        <button class="filter-chip" data-filter="topic" data-value="biology" type="button">Biology</button>
+        <button class="filter-chip" data-filter="topic" data-value="philosophy" type="button">Philosophy</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="layer">
+      <span class="filter-label">Layer</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="layer" data-value="mathematics" type="button">E₀ Math</button>
+        <button class="filter-chip" data-filter="layer" data-value="physics" type="button">E₁ Physics</button>
+        <button class="filter-chip" data-filter="layer" data-value="life" type="button">E₂ Life</button>
+        <button class="filter-chip" data-filter="layer" data-value="metaphysics" type="button">E₃ Meta</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="kind">
+      <span class="filter-label">Kind</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="kind" data-value="frontier-problem" type="button">Frontier Problem</button>
+        <button class="filter-chip" data-filter="kind" data-value="foundational-math" type="button">Foundational Math</button>
+        <button class="filter-chip" data-filter="kind" data-value="consequence" type="button">Consequence</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="importance">
+      <span class="filter-label">Importance</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="importance" data-value="core-foundational-problem" type="button">Core Foundational</button>
+        <button class="filter-chip" data-filter="importance" data-value="high-impact-frontier-problem" type="button">High-Impact Frontier</button>
+        <button class="filter-chip" data-filter="importance" data-value="domain-level-open-problem" type="button">Domain-Level</button>
+        <button class="filter-chip" data-filter="importance" data-value="structural-support-result" type="button">Structural Support</button>
+        <button class="filter-chip" data-filter="importance" data-value="consequence-reframing" type="button">Consequence/Reframing</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="status">
+      <span class="filter-label">Status</span>
+      <div class="filter-chips">
+        <button class="filter-chip chip-status-r" data-filter="status" data-value="R" type="button">Resolved</button>
+        <button class="filter-chip chip-status-p" data-filter="status" data-value="P" type="button">Partial</button>
+        <button class="filter-chip chip-status-q" data-filter="status" data-value="Q" type="button">Qualitative</button>
+        <button class="filter-chip chip-status-c" data-filter="status" data-value="C" type="button">Contradicted</button>
+        <button class="filter-chip chip-status-n" data-filter="status" data-value="N" type="button">Not Addressed</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="book">
+      <span class="filter-label">Book</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="book" data-value="I" type="button">I</button>
+        <button class="filter-chip" data-filter="book" data-value="II" type="button">II</button>
+        <button class="filter-chip" data-filter="book" data-value="III" type="button">III</button>
+        <button class="filter-chip" data-filter="book" data-value="IV" type="button">IV</button>
+        <button class="filter-chip" data-filter="book" data-value="V" type="button">V</button>
+        <button class="filter-chip" data-filter="book" data-value="VI" type="button">VI</button>
+        <button class="filter-chip" data-filter="book" data-value="VII" type="button">VII</button>
+      </div>
+    </div>
+
+    <div class="filter-group filter-group-sort">
+      <span class="filter-label">Sort</span>
+      <div class="filter-chips">
+        <button class="sort-chip is-active" data-sort="importance" type="button">Importance</button>
+        <button class="sort-chip" data-sort="alpha" type="button">A → Z</button>
+        <button class="sort-chip" data-sort="book" type="button">By Book</button>
+      </div>
+    </div>
+
+    <div class="filter-group filter-group-actions">
+      <div class="filter-count">
+        <strong id="results-count">{{ site.data.results.results | size }}</strong> of {{ site.data.results.results | size }} results
+      </div>
+      <button class="btn-secondary btn-clear-filters" id="results-clear-filters" type="button">Clear filters</button>
+    </div>
+  </div>
+
+  <div class="results-browse-empty" id="results-empty" hidden>
+    <p>No results match the current filters. <button type="button" class="btn-link" id="results-empty-clear">Clear filters</button> to see everything.</p>
+  </div>
+
+  <ol class="results-browse-grid" id="results-browse-grid">
+    {% assign importance_rank_core = 1 %}
+    {% assign importance_rank_high = 2 %}
+    {% assign importance_rank_domain = 3 %}
+    {% assign importance_rank_support = 4 %}
+    {% assign importance_rank_conseq = 5 %}
+    {% for result in site.data.results.results %}
+      {% assign rank = 9 %}
+      {% if result.importance_class == "core-foundational-problem" %}{% assign rank = 1 %}{% endif %}
+      {% if result.importance_class == "high-impact-frontier-problem" %}{% assign rank = 2 %}{% endif %}
+      {% if result.importance_class == "domain-level-open-problem" %}{% assign rank = 3 %}{% endif %}
+      {% if result.importance_class == "structural-support-result" %}{% assign rank = 4 %}{% endif %}
+      {% if result.importance_class == "consequence-reframing" %}{% assign rank = 5 %}{% endif %}
+      {% assign books_joined = result.canonical_books | join: "," %}
+      {% assign first_book = result.canonical_books | first | default: "" %}
+      <li class="result-card"
+          data-topic="{{ result.topic }}"
+          data-layer="{{ result.layer }}"
+          data-kind="{{ result.result_kind }}"
+          data-importance="{{ result.importance_class }}"
+          data-status="{{ result.status_code }}"
+          data-books="{{ books_joined }}"
+          data-first-book="{{ first_book }}"
+          data-title="{{ result.title | downcase }}"
+          data-rank="{{ rank }}">
+        <a class="result-card-link" href="{{ result.url | relative_url }}">
+          <div class="result-card-top">
+            {% if result.status_code %}
+            <span class="chip chip-status chip-status-{{ result.status_code | downcase }}">
+              {% case result.status_code %}
+                {% when 'R' %}Resolved
+                {% when 'P' %}Partial
+                {% when 'Q' %}Qualitative
+                {% when 'C' %}Contradicted
+                {% when 'N' %}Not Addressed
+                {% else %}{{ result.status_code }}
+              {% endcase %}
+            </span>
+            {% endif %}
+            {% if result.result_kind %}
+            <span class="chip chip-kind">{{ result.result_kind | replace: "-", " " | capitalize }}</span>
+            {% endif %}
+          </div>
+          <h3 class="result-card-title">{{ result.title }}</h3>
+          {% if result.summary_short %}
+          <p class="result-card-summary">{{ result.summary_short }}</p>
+          {% endif %}
+          <div class="result-card-bottom">
+            {% if result.topic %}<span class="chip chip-small">{{ result.topic | capitalize }}</span>{% endif %}
+            {% if result.importance_class %}
+              {% assign imp_label = result.importance_class | replace: "-", " " | capitalize %}
+              <span class="chip chip-small chip-importance">{{ imp_label }}</span>
+            {% endif %}
+            {% for book in result.canonical_books %}
+              <span class="chip chip-small chip-book">Book {{ book }}</span>
+            {% endfor %}
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ol>
+</div>
+
+<script defer src="{{ '/assets/js/results-browse.js' | relative_url }}"></script>

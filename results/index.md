@@ -39,6 +39,10 @@ Every result distinguishes:
 
 **Overall status:** 197 Resolved, 20 Partial, 2 Qualitative, 6 Contradicted, 9 Not Addressed. Every result carries an explicit [scope label]({{ '/results/status-and-claim-typing/' | relative_url }}). For guidance on reading result pages, see [How to Read a Result Page]({{ '/results/how-to-read-a-result-page/' | relative_url }}).
 
+## Browse All Results
+
+The [Browse surface]({{ '/results/browse/' | relative_url }}) is the primary discovery route: a single page with all 234 results pre-rendered as HTML cards, with client-side filters for domain, enrichment layer, kind, importance, status, and canonical book. Filter state is shareable via URL query parameters. The page is fully crawlable and works without JavaScript.
+
 ## Results Prologue
 
 Before browsing individual results, readers may want to understand what counts as a result in this program and what kind of mathematics the framework describes. The [Results Prologue]({{ '/results/prologue/' | relative_url }}) is a four-page epistemic ladder:
