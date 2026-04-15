@@ -48,6 +48,23 @@ Before browsing individual results, readers may want to understand what counts a
 - [What This Mathematics Makes True]({{ '/results/prologue/what-this-mathematics-makes-true/' | relative_url }}) — Millennium problems, Riemann, Langlands in Tau formulation
 - [Self-Enrichment, Self-Containment, and Internal Logic]({{ '/results/prologue/self-enrichment-self-containment-and-internal-logic/' | relative_url }}) — why self-enrichment changes the epistemic shape of the framework
 
+## Physics World Readout
+
+The [Physics World Readout]({{ '/results/world-readout/physics/' | relative_url }}) describes what kind of physical world the Tau framework yields — from ontic substrate through geometry, global shape, time, thingness, lawfulness, sector closure, and calibration to the bridge into the detailed result atlas. Twelve pages in sequence:
+
+- [The Fabric of Physical Reality]({{ '/results/world-readout/physics/the-fabric-of-physical-reality-in-tau/' | relative_url }}) — discrete, relational, prime-structured substrate
+- [Geometric and Topological Shape]({{ '/results/world-readout/physics/the-geometric-and-topological-shape-of-reality-in-tau/' | relative_url }}) — ultrametric, hyperbolic, split-complex, wave-compatible
+- [Infinity, Boundary, and Global Shape]({{ '/results/world-readout/physics/infinity-boundary-and-the-global-shape-of-reality/' | relative_url }}) — omega, lemniscatic completion, coherence horizon
+- [Being and Becoming]({{ '/results/world-readout/physics/being-and-becoming-in-the-tau-universe/' | relative_url }}) — eternal substrate with real becoming
+- [How Physical Things First Appear]({{ '/results/world-readout/physics/how-physical-things-first-appear/' | relative_url }}) — stable denotational patterns
+- [Why Laws Are Read Out, Not Imposed]({{ '/results/world-readout/physics/why-laws-are-read-out-not-imposed/' | relative_url }}) — intrinsic lawfulness
+- [Four Plus One Sectors]({{ '/results/world-readout/physics/why-physical-reality-closes-into-four-plus-one-sectors/' | relative_url }}) — sector closure
+- [From Ratio to Measurement]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) — calibration via the master constant
+- [Spacetime, Gravity, and Cosmology]({{ '/results/world-readout/physics/spacetime-gravity-and-cosmological-biography/' | relative_url }}) — cosmological biography
+- [Why Mathematics Is Effective]({{ '/results/world-readout/physics/why-mathematics-is-effective-in-nature-a-tau-answer/' | relative_url }}) — common origin of law and mathematics
+- [What This Physics Makes True]({{ '/results/world-readout/physics/what-this-physics-makes-true/' | relative_url }}) — summary of consequence families
+- [Two Routes from Tau to Reality]({{ '/results/world-readout/physics/two-routes-from-tau-to-reality/' | relative_url }}) — ontic and empirical bridges
+
 ## Featured Results
 
 - [Central Theorem: O(τ³) ≅ A_spec(L)](/results/problem/central-theorem/) — The algebra of holomorphic functions on τ³ is isomorphic to the spectral algebra of the lemniscate boundary — interior f
