@@ -1,0 +1,87 @@
+% Panta Rhei — Standalone TikZ Styles for Framework Diagram Conversion
+%
+% This file replicates the style definitions from
+% /Users/thorfuchs/Books/PantaRhei-2ndEd/common/tex/diagrams.tex
+% in a form suitable for standalone compilation (no PantaRhei.cls).
+%
+% Colors are set to grayscale (matching the book's print mode) for
+% consistent visual treatment across all books and both light/dark
+% site themes.
+%
+% Assumes the caller has already loaded:
+%   \usepackage{tikz}
+%   \usepackage{tikz-cd}
+%   \usepackage{xcolor}
+%   \usetikzlibrary{positioning,calc,shapes.geometric,arrows.meta,matrix,decorations.pathreplacing}
+
+\usetikzlibrary{decorations.markings}
+
+% ---------------------------------------------------------------------------
+% Color aliases (grayscale, matching book's print mode)
+% ---------------------------------------------------------------------------
+\colorlet{prAccent}{black}
+\colorlet{prAccentPale}{gray!5!white}
+\colorlet{prAccentLight}{gray!10!white}
+\colorlet{prAccentMid}{gray!40}
+\colorlet{prAccentFrame}{gray!50!black}
+\colorlet{prAccentDark}{black!80}
+
+% ---------------------------------------------------------------------------
+% Node styles — core
+% ---------------------------------------------------------------------------
+\tikzset{
+  % Standard categorical node
+  prnode/.style        = {draw, thin, fill=prAccentPale, inner sep=5pt, font=\small},
+  % Emphasized node (axioms, climax results)
+  axnode/.style        = {draw, thick, fill=prAccentLight, inner sep=5pt, font=\small\bfseries},
+  % Hierarchy level box (enrichment ladder, iterator stacks)
+  lvnode/.style        = {draw, thin, fill=prAccentPale, rounded corners=2pt, inner sep=6pt,
+                           minimum width=13em, minimum height=1.6em, font=\small},
+  % Invisible positioning anchor
+  phantom/.style       = {inner sep=0pt, outer sep=0pt},
+  % Geometric point
+  geonode/.style       = {circle, fill, inner sep=0pt, minimum size=4pt},
+% ---------------------------------------------------------------------------
+% Arrow styles — core
+% ---------------------------------------------------------------------------
+  morphism/.style      = {->, >=Latex, thin},
+  inclusion/.style     = {right hook->, >=Latex, thin},
+  natrans/.style       = {double, double distance=1.5pt, ->, >=Latex, thin},
+  fibration/.style     = {->>, >=Latex, thin},
+  dashedmorphism/.style = {->, dashed, >=Latex, thin},
+% ---------------------------------------------------------------------------
+% Node styles — semantic / figure-family hooks
+% ---------------------------------------------------------------------------
+  prplainnode/.style   = {font=\small},
+  prhassenode/.style   = {font=\small},
+  prassemblybox/.style = {draw, thin, fill=prAccentPale, rounded corners=2pt,
+                           inner sep=6pt, text width=21em, align=center, font=\small},
+  prchainnode/.style   = {draw, thin, fill=prAccentPale, inner sep=5pt,
+                           text width=16em, align=center, font=\small},
+  prlabelnode/.style   = {draw, thin, fill=prAccentPale, rounded corners=8pt,
+                           inner sep=4pt, font=\small},
+  prrootnode/.style    = {draw, thin, fill=prAccentPale, rounded corners=4pt,
+                           inner sep=5pt, font=\small, align=center},
+  prrightnode/.style   = {draw, thin, fill=prAccentPale, inner sep=4pt,
+                           text width=9.5em, align=center, font=\small},
+% ---------------------------------------------------------------------------
+% Edge styles — semantic / figure-family hooks
+% ---------------------------------------------------------------------------
+  predge/.style        = {thin},
+  predgedir/.style     = {->, >=Latex, thin},
+  predgeaux/.style     = {->, >=Latex, thin, gray!70},
+  predgeinfer/.style   = {->, dashed, >=Latex, thin},
+  predgeeq/.style      = {<->, >=Latex, thin},
+  prmapedge/.style     = {->, >=Latex, thin},
+  prspanarrow/.style   = {<->, >=Latex, thick},
+% ---------------------------------------------------------------------------
+% Text annotation styles
+% ---------------------------------------------------------------------------
+  prannot/.style       = {font=\scriptsize\itshape},
+  prsmall/.style       = {font=\small},
+}
+
+% tikz-cd global spacing defaults
+\tikzcdset{every diagram/.append style={column sep=3.5em, row sep=2.5em}}
+
+\endinput
