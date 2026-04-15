@@ -1,0 +1,239 @@
+// Results Browse — filter bar + card grid
+// Static-first, progressively enhanced by assets/js/results-browse.js
+
+.results-browse {
+  .results-browse-intro {
+    margin-bottom: 20px;
+  }
+}
+
+// ---------- Filter / Sort control bar ----------
+.results-browse-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px 20px;
+  margin-bottom: 24px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: $radius-lg;
+  box-shadow: 0 4px 20px rgba(22, 29, 37, 0.05);
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+
+  .filter-label {
+    min-width: 90px;
+    font-family: $font-ui;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $text-muted;
+  }
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-chip,
+.sort-chip {
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 12px;
+  font-family: $font-ui;
+  font-size: 0.79rem;
+  font-weight: 500;
+  color: $text-muted;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid $chip-border;
+  border-radius: $radius-pill;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(41, 75, 102, 0.3);
+    color: $text;
+  }
+
+  &.is-active {
+    background: $accent;
+    border-color: $accent;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  &.chip-status-r.is-active { background: #1e7e34; border-color: #1e7e34; color: #fff; }
+  &.chip-status-p.is-active { background: #1a5bc4; border-color: #1a5bc4; color: #fff; }
+  &.chip-status-q.is-active { background: #a66d00; border-color: #a66d00; color: #fff; }
+  &.chip-status-c.is-active { background: #c5221f; border-color: #c5221f; color: #fff; }
+  &.chip-status-n.is-active { background: #6b7280; border-color: #6b7280; color: #fff; }
+}
+
+.filter-group-actions {
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-top: 4px;
+  border-top: 1px solid rgba(22, 29, 37, 0.08);
+}
+
+.filter-count {
+  font-family: $font-ui;
+  font-size: 0.85rem;
+  color: $text-muted;
+
+  strong {
+    color: $text;
+    font-weight: 600;
+  }
+}
+
+.btn-clear-filters {
+  font-size: 0.8rem;
+  padding: 6px 14px;
+  height: 30px;
+  border-radius: $radius-pill;
+}
+
+// ---------- Results grid ----------
+.results-browse-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+
+  @media (max-width: $bp-stack) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.result-card {
+  display: block;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(22, 29, 37, 0.08);
+  border-radius: $radius-lg;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(22, 29, 37, 0.08);
+    border-color: rgba(41, 75, 102, 0.2);
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.result-card-link {
+  display: block;
+  padding: 18px 20px 16px;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.result-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+
+  .chip {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.result-card-title {
+  font-family: $font-ui;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $text;
+  margin: 0 0 10px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.result-card-summary {
+  font-size: 0.87rem;
+  line-height: 1.5;
+  color: $text-muted;
+  margin: 0 0 14px;
+  // Clamp to 3 lines
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.result-card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  .chip {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.chip-small {
+  height: 22px;
+  padding: 0 8px;
+  font-size: 0.7rem;
+}
+
+.chip-book {
+  color: $text-muted;
+  background: rgba(41, 75, 102, 0.06);
+  border-color: rgba(41, 75, 102, 0.14);
+}
+
+// ---------- Empty state ----------
+.results-browse-empty {
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px dashed rgba(22, 29, 37, 0.15);
+  border-radius: $radius-lg;
+  margin-bottom: 20px;
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: $text-muted;
+  }
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: $accent;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+
+  &:hover {
+    color: $text;
+  }
+}
