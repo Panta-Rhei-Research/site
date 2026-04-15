@@ -6,6 +6,10 @@ lane: results
 section: "Results · Life World Readout"
 nav_order: 5
 summary_short: "How life differentiates through a finite morphological grammar rather than arbitrary proliferation."
+key_registry:
+  - VI.D15
+  - VI.D20
+  - VI.R02
 right_rail:
   related:
   - title: Life World Readout
@@ -80,6 +84,13 @@ This is one of the reasons life in Tau is not accidental or merely empirical cha
 ## Conclusion
 
 Tau does not predict every concrete biological form, but it does predict the finite structural grammar by which life differentiates once it exists. That is why E2 does not merely host living systems. It gives them a morphology.
+
+
+## Canonical References
+
+- [VI.D15]({{ '/registry/object/VI.D15/' | relative_url }}) — Life Sector
+- [VI.D20]({{ '/registry/object/VI.D20/' | relative_url }}) — Consumer Mixed Sector
+- [VI.R02]({{ '/registry/object/VI.R02/' | relative_url }}) — E2 Enrichment Positioning
 
 ---
 
