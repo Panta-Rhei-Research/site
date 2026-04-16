@@ -36,7 +36,7 @@ The 445 API-doc pages in `/verify/taulib/docs/` were generated from TauLib commi
 
 | Metric | Value |
 |--------|------:|
-| Total modules | 450 |
+| Total modules | 445 |
 | Total lines | 125,771 |
 | Theorems and lemmas | 4,332 |
 | Definitions | 3,542 |
@@ -58,7 +58,9 @@ The 445 API-doc pages in `/verify/taulib/docs/` were generated from TauLib commi
 | VI — Life | 30 | 5,221 | ~200 | ~200 | 0 | **0** |
 | VII — Metaphysics | 7 | 4,278 | ~120 | ~100 | 0 | 3 |
 | Tour | 8 | ~1,850 | — | — | 0 | **0** |
-| **Total** | **450** | **125,771** | **~4,332** | **~3,721** | **4** | **3** |
+| **Total** | **443 + 2** | **125,771** | **~4,332** | **~3,721** | **4** | **3** |
+
+*443 per-book modules + 2 shared infrastructure modules = 445 total (matching generated API docs).*
 
 ## Axiom Inventory
 

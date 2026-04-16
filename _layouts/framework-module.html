@@ -128,7 +128,7 @@ layout: default
   <h2>Registry Anchors</h2>
   <div class="registry-list">
     {% for reg_id in page.key_registry %}
-    <span class="chip">{{ reg_id }}</span>
+    <a href="{{ '/registry/object/' | append: reg_id | append: '/' | relative_url }}" class="chip chip-link">{{ reg_id }}</a>
     {% endfor %}
   </div>
 </div>

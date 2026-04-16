@@ -72,6 +72,17 @@
   margin-bottom: 8px;
 }
 
+a.chip-link, a.chip.chip-link {
+  text-decoration: none;
+  color: $text-muted;
+  transition: color 150ms ease, border-color 150ms ease;
+  cursor: pointer;
+  &:hover {
+    color: $accent;
+    border-color: rgba($accent, 0.35);
+  }
+}
+
 // Result status chips (v2)
 .chip-status {
   font-weight: 600;

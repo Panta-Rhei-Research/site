@@ -56,6 +56,20 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  {%- if page.url contains '/engage/media-and-contact' -%}
+  "@type": "ContactPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "mainEntity": {
+    "@type": "ContactPoint",
+    "contactType": "research inquiries",
+    "email": "contact@panta-rhei.site",
+    "availableLanguage": ["English", "German"],
+    "areaServed": "Worldwide"
+  }
+  {%- else -%}
   "@type": "AboutPage",
   "name": {{ json_title | jsonify }},
   "description": {{ json_description | jsonify }},
@@ -72,6 +86,7 @@
       { "@type": "Person", "name": "Anna-Sophie Fuchs" }
     ]
   }
+  {%- endif -%}
 }
 </script>
 
@@ -126,7 +141,8 @@
     "@type": "DefinedTerm",
     "name": {{ page.topic | jsonify }}
   }{% endif %}{% if page.layer %},
-  "articleSection": {{ page.layer | jsonify }}{% endif %}
+  "articleSection": {{ page.layer | jsonify }}{% endif %},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }
 }
 </script>
 
@@ -345,6 +361,11 @@
     "@type": "Book",
     "name": "Book {{ page.book }}",
     "url": "{{ '/publications/books/book-' | append: page.book | downcase | append: '/' | absolute_url }}"
+  },
+  "isDefinedBy": {
+    "@type": "Chapter",
+    "name": "Book {{ page.book }}, Chapter {{ page.chapter }}",
+    "url": "{{ '/publications/books/book-' | append: page.book_slug | append: '/' | absolute_url }}"
   }{% endif %}
 }
 </script>
@@ -380,11 +401,21 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": {{ json_title | jsonify }},
+  "@type": "TechArticle",
+  "headline": {{ json_title | jsonify }},
   "description": {{ json_description | jsonify }},
   "url": "{{ page.url | absolute_url }}",
-  "inLanguage": "en"{% if page.date %},
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  }{% if page.date %},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   "dateModified": {{ page.date | date_to_xmlschema | jsonify }}{% endif %},
   "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
 }
@@ -525,7 +556,8 @@
   "description": {{ json_description | jsonify }},
   "url": "{{ page.url | absolute_url }}",
   "inLanguage": "en",
-  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" }
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }
 }
 </script>
 
