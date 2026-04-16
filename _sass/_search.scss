@@ -86,11 +86,17 @@
 #search-container {
   padding: 12px 20px 20px;
 
-  // Input field
+  // Move Pagefind's default magnifying glass icon from left to right
+  .pagefind-ui__form::before {
+    left: auto !important;
+    right: 14px !important;
+  }
+
+  // Input field — right padding makes room for the icon
   .pagefind-ui__search-input {
     font-family: $font-ui;
     font-size: 1rem;
-    padding: 10px 14px;
+    padding: 10px 44px 10px 14px;
     border: 1px solid rgba(41, 75, 102, 0.15);
     border-radius: $radius-sm;
     background: rgba(255, 255, 255, 0.6);
@@ -202,8 +208,8 @@
     padding: 12px 16px 24px;
 
     .pagefind-ui__search-input {
-      font-size: 1.05rem;       // slightly larger on mobile for readability
-      padding: 12px 16px;       // taller touch target
+      font-size: 1.05rem;
+      padding: 12px 48px 12px 16px; // right padding for icon
       border-radius: $radius-md;
     }
 
