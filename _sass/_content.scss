@@ -377,9 +377,7 @@ a.part-card {
   }
 
   .section-ctas {
-    margin-top: 18px;
-    padding-top: 14px;
-    border-top: 1px solid $divider;
+    margin-top: 20px;
   }
 }
 
@@ -395,26 +393,29 @@ a.part-card {
   pointer-events: none;
 }
 
-// Ghost button — very subtle secondary CTA
+// Tertiary button — always-visible subtle pill with tinted background
 .btn-ghost {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  height: 36px;
-  padding: 0 14px;
+  height: 38px;
+  padding: 0 16px;
   font-family: $font-ui;
   font-size: 0.82rem;
-  font-weight: 500;
+  font-weight: 520;
   color: $text-muted;
   text-decoration: none;
   border-radius: $radius-pill;
-  border: 1px solid transparent;
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   transition: all $transition;
+  cursor: pointer;
 
   &:hover {
     color: $accent;
-    border-color: rgba($accent, 0.18);
-    background: rgba($accent, 0.04);
+    background: rgba($accent, 0.06);
+    border-color: rgba($accent, 0.15);
+    transform: translateY(-1px);
   }
 }
 
