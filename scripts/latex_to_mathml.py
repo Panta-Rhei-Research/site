@@ -274,12 +274,14 @@ def latex_accents_to_unicode(text: str) -> str:
         combined = unicodedata.normalize("NFC", letter + ACCENT_DIACRITICS[accent])
         return combined
 
-    # \"o  \"{o}  {\"o}  {\"{o}}
-    pattern = re.compile(
+    # Punctuation accents: \"o  \'{e}  \`{a}  \^{o}  \~{n}  \={a}  \.{e}
+    # These can match bare form (\"{o} or \"o) because the marker char
+    # is punctuation and can't be confused with a multi-letter command.
+    punct_pattern = re.compile(
         r"""
         \{?                     # optional leading brace
         \\
-        (?P<accent>["'`^~=.]|[cvruHkbdt])  # accent marker
+        (?P<accent>["'`^~=.])  # punctuation accent marker
         \s*
         \{?                     # optional brace around letter
         (?P<letter>[a-zA-Z])    # base letter
@@ -288,7 +290,25 @@ def latex_accents_to_unicode(text: str) -> str:
         """,
         re.VERBOSE,
     )
-    text = pattern.sub(replace, text)
+    text = punct_pattern.sub(replace, text)
+
+    # Letter accents: \c{c}  \v{S}  \r{o}  \u{a}  \H{o}  \k{a}  \b{t}  \d{t}
+    # These REQUIRE brace form to avoid matching \cong, \vec, \rho, \upsilon,
+    # \theta, \beta, \delta, \kappa, etc.
+    letter_pattern = re.compile(
+        r"""
+        \{?                     # optional outer brace
+        \\
+        (?P<accent>[cvruHkbdt]) # letter accent marker
+        \s*
+        \{                      # REQUIRED opening brace
+        (?P<letter>[a-zA-Z])    # base letter
+        \}                      # REQUIRED closing brace
+        \}?                     # optional outer close brace
+        """,
+        re.VERBOSE,
+    )
+    text = letter_pattern.sub(replace, text)
 
     return text
 

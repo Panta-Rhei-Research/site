@@ -7,13 +7,13 @@ falsification_id: "N8"
 n_num: 8
 domain: "particle-physics"
 domain_display: "Particle Physics"
-prediction: "proton stability!prediction pred:n8 No baryon-number violation in the five-sector framework. $a͡u_p = $. Orthodox GUTs: $a͡u_p 10^34$–$10^36$~yr."
+prediction: "proton stability!prediction pred:n8 No baryon-number violation in the five-sector framework. $_p = $. Orthodox GUTs: $_p 10^34$–$10^36$~yr."
 experiment: "Hyper-Kamiokande, DUNE, JUNO"
 timeline: "ongoing–2040+."
 decisive: ""
 current_status: "consistent"
 seam: null
-registry_id: ""
+registry_id: "IV.T171"
 canonical_books:
   - "IV"
 summary_short: "N8: Proton stable. Hyper-Kamiokande, DUNE, JUNO."

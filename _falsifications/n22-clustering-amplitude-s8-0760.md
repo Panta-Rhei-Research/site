@@ -1,13 +1,13 @@
 ---
 layout: falsification-page
-title: "N22 — Clustering amplitude e͡xorpdfstring$S_8 = 0.760$"
-permalink: /falsifications/n22-clustering-amplitude-exorpdfstrings8-0760/
+title: "N22 — Clustering amplitude $S_8 = 0.760$"
+permalink: /falsifications/n22-clustering-amplitude-s8-0760/
 lane: results
 falsification_id: "N22"
 n_num: 22
 domain: "particle-physics"
 domain_display: "Particle Physics"
-prediction: "S8 = 0.760. S8 clustering@$S_8$ clustering!prediction pred:n22 $a͡u$-native clustering from DE-closure (V.T199): $S_8 = 0.760$."
+prediction: "S8 = 0.760. S8 clustering@$S_8$ clustering!prediction pred:n22 $$-native clustering from DE-closure (V.T199): $S_8 = 0.760$."
 experiment: "Euclid, Rubin, DES legacy"
 timeline: "2026–2032."
 decisive: ""
@@ -16,7 +16,7 @@ seam: null
 registry_id: "V.T199"
 canonical_books:
   - "V"
-summary_short: "N22: Clustering amplitude e͡xorpdfstring$S_8 = 0.760$. Euclid, Rubin, DES legacy."
+summary_short: "N22: Clustering amplitude $S_8 = 0.760$. Euclid, Rubin, DES legacy."
 right_rail:
   toc: false
   related:

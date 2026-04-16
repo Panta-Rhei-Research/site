@@ -1,7 +1,7 @@
 ---
 layout: falsification-page
-title: "N11 — First acoustic peak e͡xorpdfstring$_1 = 220.6$"
-permalink: /falsifications/n11-first-acoustic-peak-exorpdfstring1-2206/
+title: "N11 — First acoustic peak $_1 = 220.6$"
+permalink: /falsifications/n11-first-acoustic-peak-1-2206/
 lane: results
 falsification_id: "N11"
 n_num: 11
@@ -16,7 +16,7 @@ seam: null
 registry_id: "V.T190"
 canonical_books:
   - "V"
-summary_short: "N11: First acoustic peak e͡xorpdfstring$_1 = 220.6$. Planck legacy, CMB-S4."
+summary_short: "N11: First acoustic peak $_1 = 220.6$. Planck legacy, CMB-S4."
 right_rail:
   toc: false
   related:

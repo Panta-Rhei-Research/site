@@ -7,7 +7,7 @@ falsification_id: "N1"
 n_num: 1
 domain: "particle-physics"
 domain_display: "Particle Physics"
-prediction: "fourth generation!prediction pred:n1 $|m̊ gen| = 3$ exactly, from $H_1(a͡u^3;ℤ) o̧ng ℤ^3$ (IV.T171). Any observation of a fourth-generation fermion at any mass scale falsifies $a͡u$'s topological generation theorem."
+prediction: "fourth generation!prediction pred:n1 $| gen| = 3$ exactly, from $H_1(^3;ℤ) ℤ^3$ (IV.T171). Any observation of a fourth-generation fermion at any mass scale falsifies $$'s topological generation theorem."
 experiment: "LHC Run~3+, FCC"
 timeline: "ongoing–2040."
 decisive: ""

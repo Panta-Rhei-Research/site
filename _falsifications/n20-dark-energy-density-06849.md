@@ -1,22 +1,22 @@
 ---
 layout: falsification-page
-title: "N18 — Equation of state e͡xorpdfstring$w_0 -0.960$"
-permalink: /falsifications/n18-equation-of-state-exorpdfstringw0-0960/
+title: "N20 — Dark energy density $_ = 0.6849$"
+permalink: /falsifications/n20-dark-energy-density-06849/
 lane: results
-falsification_id: "N18"
-n_num: 18
-domain: "dark-sector"
-domain_display: "Dark Sector"
-prediction: "w0 approx -0.960. dark energy equation of state!prediction pred:n18 Defect depletion (V.T235) gives $w_0 = -0.960 -1$. Orthodox $$CDM: $w = -1$ exactly. The $4%$ deviation is within DESI DR3 reach."
-experiment: "DESI, Euclid, Rubin/LSST"
-timeline: "2025–2030."
+falsification_id: "N20"
+n_num: 20
+domain: "particle-physics"
+domain_display: "Particle Physics"
+prediction: "Omega-Lambda = 0.6849. dark energy density!prediction pred:n20 $_ = _D(1 + _^3) = 0.6849$ (V.T234), at $-433$~ppm from Planck."
+experiment: "Euclid, DESI, Rubin"
+timeline: "2027–2032."
 decisive: ""
-current_status: "confirmed"
+current_status: "consistent"
 seam: null
-registry_id: "V.T235"
+registry_id: "V.T234"
 canonical_books:
   - "V"
-summary_short: "N18: Equation of state e͡xorpdfstring$w_0 -0.960$. DESI, Euclid, Rubin/LSST."
+summary_short: "N20: Dark energy density $_ = 0.6849$. Euclid, DESI, Rubin."
 right_rail:
   toc: false
   related:
@@ -28,22 +28,21 @@ right_rail:
       url: /results/
   meta:
     type: "Falsification"
-    domain: "Dark Sector"
-    status: "Confirmed"
-    experiment: "DESI, Euclid, Rubin/LSST"
+    domain: "Particle Physics"
+    status: "Consistent"
+    experiment: "Euclid, DESI, Rubin"
     updated: "April 2026"
 ---
 
-## N18: Prediction
+## N20: Prediction
 
-w0 approx -0.960.
+Omega-Lambda = 0.6849.
 
-Defect depletion (V.T235)
-gives $w_0 = -0.960 ≠ -1$.
-Orthodox $Λ$CDM: $w = -1$ exactly.
-The $4%$ deviation is within DESI DR3 reach.
-*Experiment:* DESI, Euclid, Rubin/LSST.
-*Timeline:* 2025–2030.
+$Ω_Λ = κ_D(1 + ι_τ^3) = 0.6849$
+(V.T234),
+at $-433$ ppm from Planck.
+*Experiment:* Euclid, DESI, Rubin.
+*Timeline:* 2027–2032.
 
 
 ## Derivation Context

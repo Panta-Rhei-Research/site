@@ -7,7 +7,7 @@ falsification_id: "N5"
 n_num: 5
 domain: "particle-physics"
 domain_display: "Particle Physics"
-prediction: "Majorana neutrinos!prediction pred:n5 $ = C_a͡u$ zero holonomy (IV.T146) requires Majorana mass terms."
+prediction: "Majorana neutrinos!prediction pred:n5 $ = C_$ zero holonomy (IV.T146) requires Majorana mass terms."
 experiment: "nEXO, LEGEND, CUPID, KamLAND-Zen"
 timeline: "2027–2035."
 decisive: ""

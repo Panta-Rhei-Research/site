@@ -7,7 +7,7 @@ falsification_id: "N4"
 n_num: 4
 domain: "particle-physics"
 domain_display: "Particle Physics"
-prediction: "neutron EDM!prediction pred:n4 $h͡eta_m̊ QCD = 0$ from SA-$i$ mod-3 (IV.T160), so $d_n = 0$ identically. Orthodox: $d_n 10^-26 e $cm (axion-dependent)."
+prediction: "neutron EDM!prediction pred:n4 $_ QCD = 0$ from SA-$i$ mod-3 (IV.T160), so $d_n = 0$ identically. Orthodox: $d_n 10^-26 e $cm (axion-dependent)."
 experiment: "nEDM, n2EDM at PSI"
 timeline: "2025–2030."
 decisive: ""
