@@ -52,9 +52,9 @@ Technical documents: falsification pack (220+ predictions), Lean verification re
 
 44 public-good deployment papers across 11 impact portfolios — conditional scenario analyses. Full text available in the [Impact lane]({{ '/impact/' | relative_url }}).
 
-### [Assessment Protocols]({{ '/publications/protocols/' | relative_url }})
+### [Assessment Protocols]({{ '/verify/assessments/' | relative_url }})
 
-Structured guides helping domain experts evaluate specific claims. Currently in development.
+AI-assisted first-pass assessment protocol with three-gate rubric, prompt templates, and structured dossier output. Now part of the [Verify lane]({{ '/verify/' | relative_url }}).
 
 ### [Archived Releases — First Edition]({{ '/publications/archived/first-edition/' | relative_url }})
 

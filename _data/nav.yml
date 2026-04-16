@@ -106,7 +106,7 @@ results_nav:
         url: "/results/world-readout/physics/why-laws-are-read-out-not-imposed/"
       - title: "Four Plus One Sectors"
         url: "/results/world-readout/physics/why-physical-reality-closes-into-four-plus-one-sectors/"
-      - title: "ι_τ and Calibration"
+      - title: "ι<sub>τ</sub> and Calibration"
         url: "/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/"
       - title: "Spacetime, Gravity & Cosmology"
         url: "/results/world-readout/physics/spacetime-gravity-and-cosmological-biography/"
@@ -232,8 +232,6 @@ publications_nav:
     url: "/publications/white-papers/"
   - title: "Companion Papers"
     url: "/publications/companion-papers/"
-  - title: "Assessment Protocols"
-    url: "/publications/protocols/"
   - title: "Archived · First Edition"
     url: "/publications/archived/first-edition/"
 
