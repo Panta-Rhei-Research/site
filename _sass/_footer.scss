@@ -85,6 +85,32 @@
   }
 }
 
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 14px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: $text-muted;
+  border-radius: $radius-sm;
+  transition: color $transition, background $transition;
+
+  &:hover {
+    color: $accent;
+    background: rgba($accent, 0.06);
+  }
+
+  svg { display: block; }
+}
+
 .footer-legal {
   display: flex;
   flex-wrap: wrap;
