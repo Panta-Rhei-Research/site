@@ -4,12 +4,13 @@ title: "Panta Rhei Research Program"
 hero_line: "An independent open research program."
 hero_body: "A research program by Dr. Thorsten Fuchs and Anna-Sophie Fuchs, exploring whether one constrained formal kernel can support a unified model of mathematics, physics, life, and metaphysics — with every claim typed, every derivation machine-checked, and every prediction publicly inspectable."
 hero_ctas:
+  - label: "Get the Books"
+    url: /publications/books/
+    primary: true
   - label: "Explore the Framework"
     url: /framework/about/
-    primary: true
   - label: "Browse Key Results"
     url: /results/
-    primary: true
   - label: "Verify It Yourself"
     url: /verify/
 right_rail:
@@ -41,7 +42,8 @@ right_rail:
   <p>The program binds itself to strong constraints. Every mathematical tool is <em>earned</em> from five generators, seven axioms, and one operator&mdash;not imported from existing mathematics. Every scope claim carries an explicit label: established, tau-effective, conjectural, or metaphorical. Every derivation chain is machine-checked in Lean 4.</p>
   <p>The stronger the claimed scope, the stricter the foundation must be. This is not a design choice&mdash;it is a structural necessity. A framework that claims to derive both the Higgs mass and the Categorical Imperative from the same kernel must be maximally constrained, or it is merely telling stories.</p>
   <div class="btn-group section-ctas">
-    <a href="{{ '/research-program/about/' | relative_url }}" class="btn-ghost">About the Research</a>
+    <a href="{{ '/research-program/about/' | relative_url }}" class="btn-secondary">About the Research</a>
+    <a href="{{ '/research-program/about/core-design-principles/' | relative_url }}" class="btn-ghost">Core Design Principles</a>
   </div>
 </div>
 
@@ -94,6 +96,7 @@ right_rail:
   </ul>
   <p>The decisive empirical test: CMB-S4 will measure the tensor-to-scalar ratio <em>r</em>. If <em>r</em> is inconsistent with &iota;<sub>&tau;</sub><sup>4</sup>, the framework&rsquo;s cosmological predictions fail.</p>
   <div class="btn-group section-ctas">
+    <a href="{{ '/publications/books/' | relative_url }}" class="btn-secondary">Get the Books</a>
     <a href="{{ '/verify/' | relative_url }}" class="btn-secondary">Verify</a>
     <a href="{{ '/registry/' | relative_url }}" class="btn-ghost">Registry</a>
     <a href="{{ '/publications/guided-tours/' | relative_url }}" class="btn-ghost">Guided Tours</a>
@@ -112,7 +115,7 @@ right_rail:
   </ul>
   <p>The word <em>if</em> is load-bearing. These are scenario analyses, not predictions of social adoption. The framework must survive empirical testing before any downstream consequence becomes real. The program is independent research&mdash;not yet peer-reviewed in traditional journals. All claims carry explicit scope labels.</p>
   <div class="btn-group section-ctas">
-    <a href="{{ '/impact/' | relative_url }}" class="btn-ghost">Potential Impact</a>
+    <a href="{{ '/impact/' | relative_url }}" class="btn-secondary">Potential Impact</a>
   </div>
 </div>
 

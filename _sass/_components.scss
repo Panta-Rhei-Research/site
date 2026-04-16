@@ -37,12 +37,13 @@
 
 .btn-secondary {
   @extend .btn;
-  background: rgba(255, 255, 255, 0.52);
+  background: rgba(41, 75, 102, 0.08);
   color: $accent;
-  border: 1px solid rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(41, 75, 102, 0.12);
 
   &:hover {
-    background: rgba(255, 255, 255, 0.72);
+    background: rgba(41, 75, 102, 0.14);
+    box-shadow: 0 2px 8px rgba(41, 75, 102, 0.1);
   }
 }
 
