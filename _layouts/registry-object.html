@@ -21,7 +21,7 @@ layout: default
   <p>{{ page.summary }}</p>
   {% endif %}
   <div class="chip-row">
-    <span class="chip">Book {{ page.book }}</span>
+    <a href="{{ '/publications/books/book-' | append: page.book_slug | append: '/' | relative_url }}" class="chip chip-link">Book {{ page.book }}</a>
     {% if page.part %}<span class="chip">Part {{ page.part }}</span>{% endif %}
     {% if page.chapter %}<span class="chip">Ch. {{ page.chapter }}</span>{% endif %}
     {% if page.has_lean_link %}<span class="chip">Lean ✓</span>{% endif %}
@@ -66,7 +66,8 @@ layout: default
 {% if page.lean_module != "" %}
 <section class="content-card" aria-labelledby="registry-lean-heading">
   <h2 id="registry-lean-heading">Lean Formalization</h2>
-  <p><strong>Module:</strong> <code>{{ page.lean_module }}</code></p>
+  {%- assign lean_slug = page.lean_module | remove: "TauLib." | slugify -%}
+  <p><strong>Module:</strong> <a href="{{ '/verify/taulib/docs/' | append: lean_slug | append: '/' | relative_url }}"><code>{{ page.lean_module }}</code></a></p>
   {% if page.lean_name != "" %}
   <p><strong>Symbol:</strong> <code>{{ page.lean_name }}</code></p>
   {% endif %}
