@@ -1,7 +1,7 @@
 ---
 layout: falsification-page
-title: "N15 — Helium-4 mass fraction e͡xorpdfstring$Y_p = 20/81$"
-permalink: /falsifications/n15-helium-4-mass-fraction-exorpdfstringyp-2081/
+title: "N15 — Helium-4 mass fraction $Y_p = 20/81$"
+permalink: /falsifications/n15-helium-4-mass-fraction-yp-2081/
 lane: results
 falsification_id: "N15"
 n_num: 15
@@ -16,7 +16,7 @@ seam: null
 registry_id: "V.T245"
 canonical_books:
   - "V"
-summary_short: "N15: Helium-4 mass fraction e͡xorpdfstring$Y_p = 20/81$. metal-poor HII regions."
+summary_short: "N15: Helium-4 mass fraction $Y_p = 20/81$. metal-poor HII regions."
 right_rail:
   toc: false
   related:

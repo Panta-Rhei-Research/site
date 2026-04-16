@@ -7,13 +7,13 @@ falsification_id: "N2"
 n_num: 2
 domain: "particle-physics"
 domain_display: "Particle Physics"
-prediction: "supersymmetry!prediction pred:n2 The $a͡u$-framework produces the Standard Model particle content from the fiber $T^2$ with no supersymmetric extension. No superpartner will be observed at any energy."
+prediction: "supersymmetry!prediction pred:n2 The $$-framework produces the Standard Model particle content from the fiber $T^2$ with no supersymmetric extension. No superpartner will be observed at any energy."
 experiment: "LHC, FCC, CEPC"
 timeline: "ongoing–2040."
 decisive: ""
 current_status: "consistent"
 seam: null
-registry_id: ""
+registry_id: "IV.T171"
 canonical_books:
   - "IV"
 summary_short: "N2: No SUSY partners. LHC, FCC, CEPC."

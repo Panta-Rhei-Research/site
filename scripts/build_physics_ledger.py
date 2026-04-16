@@ -165,6 +165,9 @@ def classify_precision(deviation: str) -> str:
             return "10-1000-ppm"
         return "1-5-percent"
     if "%" in d:
+        m_pct = re.search(r"([\d.]+)\s*%", d)
+        if m_pct and float(m_pct.group(1)) > 5:
+            return "structural"  # >5% is qualitative, not precision
         return "1-5-percent"
     if "dex" in d:
         return "1-5-percent"
@@ -275,9 +278,19 @@ def parse_falsification_pack(text: str) -> list[dict]:
         pred_text = clean_bibfield(pred_raw)
         pred_text = re.sub(r"\s+", " ", pred_text).strip()
 
-        # Extract registry ID
+        # Extract registry ID (from body text, or from manual lookup)
+        MANUAL_REGISTRY = {
+            2: "IV.T171",   # No SUSY → generation topology theorem
+            3: "V.T44",     # No DM → Sector Exhaustion
+            8: "IV.T171",   # Proton stable → five-sector framework
+            13: "V.T193",   # N_eff = 3 → N_eff theorem
+            19: "V.P159",   # No phantom → bounded characters
+            23: "V.T44",    # No DM ever → Sector Exhaustion
+        }
         reg_match = re.search(r"([IVX]+\.[TDPLRCX]\d+)", body)
         registry_id = reg_match.group(1) if reg_match else ""
+        if not registry_id and n_num in MANUAL_REGISTRY:
+            registry_id = MANUAL_REGISTRY[n_num]
 
         # Determine domain from subsection context
         # Find which subsection this entry belongs to
@@ -309,13 +322,24 @@ def parse_falsification_pack(text: str) -> list[dict]:
             status = "testable"
 
         n_num = int(nid[1:])
-        # Clean title for slug (remove any remaining LaTeX artifacts)
-        slug_title = re.sub(r"\\texorpdfstring\{[^{}]*\}\{[^{}]*\}", "", title)
-        slug_title = re.sub(r"[^a-zA-Z0-9\s-]", "", slug_title).strip()
+        # For slug: use the RAW title (before clean_bibfield corrupts it),
+        # strip \texorpdfstring{A}{B} → B (the plain-text fallback),
+        # then strip remaining LaTeX artifacts.
+        slug_raw = title_raw
+        # \texorpdfstring{LATEX}{PLAIN} → PLAIN
+        slug_raw = re.sub(
+            r"\\texorpdfstring\s*\{[^{}]*\}\s*\{([^{}]*)\}",
+            r"\1",
+            slug_raw,
+        )
+        slug_raw = re.sub(r"\\[a-zA-Z]+\s*\{([^{}]*)\}", r"\1", slug_raw)
+        slug_raw = re.sub(r"\\[a-zA-Z]+", "", slug_raw)
+        slug_raw = re.sub(r"[${}\\]", "", slug_raw)
+        slug_raw = re.sub(r"[^a-zA-Z0-9\s-]", "", slug_raw).strip()
         entries.append({
             "id": nid,
             "n_num": n_num,
-            "slug": slugify(f"{nid}-{slug_title}"),
+            "slug": slugify(f"{nid}-{slug_raw}"),
             "title": title,
             "domain": domain,
             "domain_display": {

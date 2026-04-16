@@ -13,7 +13,7 @@ timeline: "2025–2030."
 decisive: ""
 current_status: "consistent"
 seam: null
-registry_id: ""
+registry_id: "V.P159"
 canonical_books:
   - "IV"
 summary_short: "N19: No phantom crossing. DESI, Euclid."

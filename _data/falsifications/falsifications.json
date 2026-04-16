@@ -6,7 +6,7 @@
     "title": "No fourth generation",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "fourth generation!prediction pred:n1 $|m̊ gen| = 3$ exactly, from $H_1(a͡u^3;ℤ) o̧ng ℤ^3$ (IV.T171). Any observation of a fourth-generation fermion at any mass scale falsifies $a͡u$'s topological generation theorem.",
+    "prediction": "fourth generation!prediction pred:n1 $| gen| = 3$ exactly, from $H_1(^3;ℤ) ℤ^3$ (IV.T171). Any observation of a fourth-generation fermion at any mass scale falsifies $$'s topological generation theorem.",
     "experiment": "LHC Run~3+, FCC",
     "timeline": "ongoing–2040.",
     "current_status": "confirmed",
@@ -25,7 +25,7 @@
     "title": "No SUSY partners",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "supersymmetry!prediction pred:n2 The $a͡u$-framework produces the Standard Model particle content from the fiber $T^2$ with no supersymmetric extension. No superpartner will be observed at any energy.",
+    "prediction": "supersymmetry!prediction pred:n2 The $$-framework produces the Standard Model particle content from the fiber $T^2$ with no supersymmetric extension. No superpartner will be observed at any energy.",
     "experiment": "LHC, FCC, CEPC",
     "timeline": "ongoing–2040.",
     "current_status": "consistent",
@@ -44,14 +44,14 @@
     "title": "No dark matter particle",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "dark matter!prediction N3 pred:n3 The Sector Exhaustion Theorem (Chapter~e̊fch:book5-ch44-sector-exhaustion) forbids a sixth sector. No dark matter particle—WIMP, axion, sterile neutrino, or any other species—will be detected in any experiment. $a͡u$-value: zero cross-section. Orthodox: $ 10^-47$~cm",
+    "prediction": "dark matter!prediction N3 pred:n3 The Sector Exhaustion Theorem (Chapter~ch:book5-ch44-sector-exhaustion) forbids a sixth sector. No dark matter particle—WIMP, axion, sterile neutrino, or any other species—will be detected in any experiment. $$-value: zero cross-section. Orthodox: $ 10^-47$~cm$^2$ (",
     "experiment": "LZ, XLZD, PandaX, XENONnT, DARWIN, ADMX",
     "timeline": "2025–2035.",
     "current_status": "consistent",
     "seam": null,
-    "registry_id": "",
+    "registry_id": "IV.T171",
     "canonical_books": [
-      "IV"
+      "V"
     ],
     "summary_short": "N3: No dark matter particle. LZ, XLZD, PandaX, XENONnT, DARWIN, ADMX.",
     "url": "/falsifications/n3-no-dark-matter-particle/"
@@ -63,7 +63,7 @@
     "title": "Neutron EDM is exactly zero",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "neutron EDM!prediction pred:n4 $h͡eta_m̊ QCD = 0$ from SA-$i$ mod-3 (IV.T160), so $d_n = 0$ identically. Orthodox: $d_n 10^-26 e $cm (axion-dependent).",
+    "prediction": "neutron EDM!prediction pred:n4 $_ QCD = 0$ from SA-$i$ mod-3 (IV.T160), so $d_n = 0$ identically. Orthodox: $d_n 10^-26 e $cm (axion-dependent).",
     "experiment": "nEDM, n2EDM at PSI",
     "timeline": "2025–2030.",
     "current_status": "consistent",
@@ -82,7 +82,7 @@
     "title": "All neutrinos are Majorana",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "Majorana neutrinos!prediction pred:n5 $ = C_a͡u$ zero holonomy (IV.T146) requires Majorana mass terms.",
+    "prediction": "Majorana neutrinos!prediction pred:n5 $ = C_$ zero holonomy (IV.T146) requires Majorana mass terms.",
     "experiment": "nEXO, LEGEND, CUPID, KamLAND-Zen",
     "timeline": "2027–2035.",
     "current_status": "consistent",
@@ -97,8 +97,8 @@
   {
     "id": "N6",
     "n_num": 6,
-    "slug": "n6-sum-of-neutrino-masses-exorpdfstring-m-0089",
-    "title": "Sum of neutrino masses e͡xorpdfstring$ m_ = 0.089$",
+    "slug": "n6-sum-of-neutrino-masses-m-0089",
+    "title": "Sum of neutrino masses $ m_ = 0.089$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
     "prediction": "Sigma m-nu = 0.089~eV. neutrino mass!sum prediction pred:n6 CF-asymmetry grid (V.T175): $(_pq, _pr) = (1.16, 0.87)$, giving $ m_ = 0.089$~eV. Orthodox: free parameter, $ < 0.12$~eV (Planck). Decisive if $$ measured outside $0.082$–$0.096$~eV.",
@@ -110,8 +110,8 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N6: Sum of neutrino masses e͡xorpdfstring$ m_ = 0.089$. DESI, Euclid, CMB-S4, KATRIN/Project~8.",
-    "url": "/falsifications/n6-sum-of-neutrino-masses-exorpdfstring-m-0089/"
+    "summary_short": "N6: Sum of neutrino masses $ m_ = 0.089$. DESI, Euclid, CMB-S4, KATRIN/Project~8.",
+    "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
   },
   {
     "id": "N7",
@@ -139,7 +139,7 @@
     "title": "Proton stable",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "proton stability!prediction pred:n8 No baryon-number violation in the five-sector framework. $a͡u_p = $. Orthodox GUTs: $a͡u_p 10^34$–$10^36$~yr.",
+    "prediction": "proton stability!prediction pred:n8 No baryon-number violation in the five-sector framework. $_p = $. Orthodox GUTs: $_p 10^34$–$10^36$~yr.",
     "experiment": "Hyper-Kamiokande, DUNE, JUNO",
     "timeline": "ongoing–2040+.",
     "current_status": "consistent",
@@ -154,11 +154,11 @@
   {
     "id": "N9",
     "n_num": 9,
-    "slug": "n9-tensor-to-scalar-ratio-exorpdfstringr-au4-00136",
-    "title": "Tensor-to-scalar ratio e͡xorpdfstring$r = _a͡u^4 0.0136$",
+    "slug": "n9-tensor-to-scalar-ratio-r-4-00136",
+    "title": "Tensor-to-scalar ratio $r = _^4 0.0136$",
     "domain": "cmb-inflation",
     "domain_display": "CMB & Inflation",
-    "prediction": "r = iota-tau-4 approx 0.014. tensor-to-scalar ratio!prediction pred:n9 Fiber dimensional suppression (V.P136): $r = _a͡u^2ịm(T^2) = _a͡u^4$. Not slow-roll: $r 8/N_e$. The 156$i͡mes$ gap between $_a͡u^4$ and $8/57$ is the sharpest inflation discriminant. Decisive at $14$ by CMB-S4.",
+    "prediction": "r = iota-tau-4 approx 0.014. tensor-to-scalar ratio!prediction pred:n9 Fiber dimensional suppression (V.P136): $r = _^2(T^2) = _^4$. Not slow-roll: $r 8/N_e$. The 156$$ gap between $_^4$ and $8/57$ is the sharpest inflation discriminant. Decisive at $14$ by CMB-S4.",
     "experiment": "BICEP Array, CMB-S4, LiteBIRD",
     "timeline": "2027–2030.",
     "current_status": "consistent",
@@ -167,17 +167,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N9: Tensor-to-scalar ratio e͡xorpdfstring$r = _a͡u^4 0.0136$. BICEP Array, CMB-S4, LiteBIRD.",
-    "url": "/falsifications/n9-tensor-to-scalar-ratio-exorpdfstringr-au4-00136/"
+    "summary_short": "N9: Tensor-to-scalar ratio $r = _^4 0.0136$. BICEP Array, CMB-S4, LiteBIRD.",
+    "url": "/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/"
   },
   {
     "id": "N10",
     "n_num": 10,
-    "slug": "n10-spectral-index-exorpdfstringns-1-257",
-    "title": "Spectral index e͡xorpdfstring$n_s = 1 - 2/57$",
+    "slug": "n10-spectral-index-ns-1-257",
+    "title": "Spectral index $n_s = 1 - 2/57$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "n-s = 1 - 2/57. spectral index!prediction pred:n10 $N_e = 57 = 3 i͡mes 19 = ịm(a͡u^3) i͡mes W_5(3)$ (V.D253). $n_s = 0.96491$ at $+13$~ppm from Planck.",
+    "prediction": "n-s = 1 - 2/57. spectral index!prediction pred:n10 $N_e = 57 = 3 19 = (^3) W_5(3)$ (V.D253). $n_s = 0.96491$ at $+13$~ppm from Planck.",
     "experiment": "CMB-S4, LiteBIRD",
     "timeline": "2028–2032.",
     "current_status": "consistent",
@@ -186,14 +186,14 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N10: Spectral index e͡xorpdfstring$n_s = 1 - 2/57$. CMB-S4, LiteBIRD.",
-    "url": "/falsifications/n10-spectral-index-exorpdfstringns-1-257/"
+    "summary_short": "N10: Spectral index $n_s = 1 - 2/57$. CMB-S4, LiteBIRD.",
+    "url": "/falsifications/n10-spectral-index-ns-1-257/"
   },
   {
     "id": "N11",
     "n_num": 11,
-    "slug": "n11-first-acoustic-peak-exorpdfstring1-2206",
-    "title": "First acoustic peak e͡xorpdfstring$_1 = 220.6$",
+    "slug": "n11-first-acoustic-peak-1-2206",
+    "title": "First acoustic peak $_1 = 220.6$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
     "prediction": "ell-1 = 220.6. acoustic peaks!prediction pred:n11 M3h holonomy (V.T190), where $_b$ undershoot ($-1.2%$) compensates $_m$ overshoot ($+4.1%$) in the sound horizon.",
@@ -205,17 +205,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N11: First acoustic peak e͡xorpdfstring$_1 = 220.6$. Planck legacy, CMB-S4.",
-    "url": "/falsifications/n11-first-acoustic-peak-exorpdfstring1-2206/"
+    "summary_short": "N11: First acoustic peak $_1 = 220.6$. Planck legacy, CMB-S4.",
+    "url": "/falsifications/n11-first-acoustic-peak-1-2206/"
   },
   {
     "id": "N12",
     "n_num": 12,
-    "slug": "n12-b-mode-amplitude-exorpdfstringd80",
-    "title": "B-mode amplitude e͡xorpdfstring$D_80",
+    "slug": "n12-b-mode-amplitude-d80",
+    "title": "B-mode amplitude $D_80",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "^BB = 339$D-80-BB = 339~nK$^2$. B-mode!amplitude prediction pred:n12 First $a͡u$-polarization prediction (V.D256). No de-lensing needed: $S/N = 1131$.",
+    "prediction": "^BB = 339$D-80-BB = 339~nK$^2$. B-mode!amplitude prediction pred:n12 First $$-polarization prediction (V.D256). No de-lensing needed: $S/N = 1131$.",
     "experiment": "CMB-S4, LiteBIRD",
     "timeline": "2028–2032.",
     "current_status": "consistent",
@@ -224,17 +224,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N12: B-mode amplitude e͡xorpdfstring$D_80. CMB-S4, LiteBIRD.",
-    "url": "/falsifications/n12-b-mode-amplitude-exorpdfstringd80/"
+    "summary_short": "N12: B-mode amplitude $D_80. CMB-S4, LiteBIRD.",
+    "url": "/falsifications/n12-b-mode-amplitude-d80/"
   },
   {
     "id": "N13",
     "n_num": 13,
-    "slug": "n13-exorpdfstringnm-eff",
-    "title": "e͡xorpdfstring$N_m̊ eff",
+    "slug": "n13-n-eff",
+    "title": "$N_ eff",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "= 3.000$N-eff = 3 (not 3.044). effective neutrino number!prediction pred:n13 $|m̊ gen| = 3$ from topology; no decoupling correction. Orthodox: $N_m̊ eff = 3.044$ (QED corrections). $_1 = 0.32$; CMB-S4 sensitivity $ 1.5$.",
+    "prediction": "= 3.000$N-eff = 3 (not 3.044). effective neutrino number!prediction pred:n13 $| gen| = 3$ from topology; no decoupling correction. Orthodox: $N_ eff = 3.044$ (QED corrections). $_1 = 0.32$; CMB-S4 sensitivity $ 1.5$.",
     "experiment": "CMB-S4",
     "timeline": "2028–2032.",
     "current_status": "consistent",
@@ -243,14 +243,14 @@
     "canonical_books": [
       "IV"
     ],
-    "summary_short": "N13: e͡xorpdfstring$N_m̊ eff. CMB-S4.",
-    "url": "/falsifications/n13-exorpdfstringnm-eff/"
+    "summary_short": "N13: $N_ eff. CMB-S4.",
+    "url": "/falsifications/n13-n-eff/"
   },
   {
     "id": "N14",
     "n_num": 14,
-    "slug": "n14-silk-damping-ratio-exorpdfstringd-1-ppad-ppab",
-    "title": "Silk damping ratio e͡xorpdfstring$_D / _1 = ąppa_D / ąppa_B$",
+    "slug": "n14-silk-damping-ratio-d-1-d-b",
+    "title": "Silk damping ratio $_D / _1 = _D / _B$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
     "prediction": "ell-D/ell-1 = kappa-D/kappa-B. Silk damping!prediction pred:n14 The ratio $_D / _1 = 5.647$ is a boundary holonomy invariant (V.D254). $_D = 1244.0$ at $+9$~ppm.",
@@ -262,14 +262,14 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N14: Silk damping ratio e͡xorpdfstring$_D / _1 = ąppa_D / ąppa_B$. Planck legacy, CMB-S4.",
-    "url": "/falsifications/n14-silk-damping-ratio-exorpdfstringd-1-ppad-ppab/"
+    "summary_short": "N14: Silk damping ratio $_D / _1 = _D / _B$. Planck legacy, CMB-S4.",
+    "url": "/falsifications/n14-silk-damping-ratio-d-1-d-b/"
   },
   {
     "id": "N15",
     "n_num": 15,
-    "slug": "n15-helium-4-mass-fraction-exorpdfstringyp-2081",
-    "title": "Helium-4 mass fraction e͡xorpdfstring$Y_p = 20/81$",
+    "slug": "n15-helium-4-mass-fraction-yp-2081",
+    "title": "Helium-4 mass fraction $Y_p = 20/81$",
     "domain": "bbn",
     "domain_display": "BBN",
     "prediction": "Yp = 20/81. helium-4!prediction pred:n15 $Y_p = 20/81 = 0.2469$ (V.T245). Orthodox: fitted from $_B$. Observed: $0.2449 0.0040$.",
@@ -281,17 +281,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N15: Helium-4 mass fraction e͡xorpdfstring$Y_p = 20/81$. metal-poor HII regions.",
-    "url": "/falsifications/n15-helium-4-mass-fraction-exorpdfstringyp-2081/"
+    "summary_short": "N15: Helium-4 mass fraction $Y_p = 20/81$. metal-poor HII regions.",
+    "url": "/falsifications/n15-helium-4-mass-fraction-yp-2081/"
   },
   {
     "id": "N16",
     "n_num": 16,
-    "slug": "n16-deuterium-abundance-from-au-native-exorpdfstringb",
-    "title": "Deuterium abundance from $a͡u$-native e͡xorpdfstring$_B$",
+    "slug": "n16-deuterium-abundance-from-native-b",
+    "title": "Deuterium abundance from $$-native $_B$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "eta-B. deuterium!prediction pred:n16 D/H $= 2.52 i͡mes 10^-5$ (V.T241) from the $a͡u$-derived baryon-to-photon ratio. Observed: $(2.53 0.04) i͡mes 10^-5$.",
+    "prediction": "eta-B. deuterium!prediction pred:n16 D/H $= 2.52 10^-5$ (V.T241) from the $$-derived baryon-to-photon ratio. Observed: $(2.53 0.04) 10^-5$.",
     "experiment": "quasar absorption systems",
     "timeline": "ongoing, improving with 30m-class telescopes.",
     "current_status": "consistent",
@@ -300,17 +300,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N16: Deuterium abundance from $a͡u$-native e͡xorpdfstring$_B$. quasar absorption systems.",
-    "url": "/falsifications/n16-deuterium-abundance-from-au-native-exorpdfstringb/"
+    "summary_short": "N16: Deuterium abundance from $$-native $_B$. quasar absorption systems.",
+    "url": "/falsifications/n16-deuterium-abundance-from-native-b/"
   },
   {
     "id": "N17",
     "n_num": 17,
-    "slug": "n17-lithium-7-resolved-exorpdfstrings-13",
-    "title": "Lithium-7 resolved (e͡xorpdfstring$S = 1/3$",
+    "slug": "n17-lithium-7-resolved-s-13",
+    "title": "Lithium-7 resolved ($S = 1/3$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "S = 1/3 fiber suppression). lithium problem!prediction pred:n17 The cosmological lithium problem is resolved by the fiber suppression factor $S = 1/3$ (V.T243–T244). $^7$Li/H $ 1.6 i͡mes 10^-10$, matching the Spite plateau. Orthodox: $^7$Li/H $ 5 i͡mes 10^-10$ (3$i͡mes$ too high). Decisive if indepe",
+    "prediction": "S = 1/3 fiber suppression). lithium problem!prediction pred:n17 The cosmological lithium problem is resolved by the fiber suppression factor $S = 1/3$ (V.T243–T244). $^7$Li/H $ 1.6 10^-10$, matching the Spite plateau. Orthodox: $^7$Li/H $ 5 10^-10$ (3$$ too high). Decisive if independent $^7$Li meas",
     "experiment": "stellar archaeology, primordial gas clouds",
     "timeline": "2025–2035.",
     "current_status": "consistent",
@@ -319,14 +319,14 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N17: Lithium-7 resolved (e͡xorpdfstring$S = 1/3$. stellar archaeology, primordial gas clouds.",
-    "url": "/falsifications/n17-lithium-7-resolved-exorpdfstrings-13/"
+    "summary_short": "N17: Lithium-7 resolved ($S = 1/3$. stellar archaeology, primordial gas clouds.",
+    "url": "/falsifications/n17-lithium-7-resolved-s-13/"
   },
   {
     "id": "N18",
     "n_num": 18,
-    "slug": "n18-equation-of-state-exorpdfstringw0-0960",
-    "title": "Equation of state e͡xorpdfstring$w_0 -0.960$",
+    "slug": "n18-equation-of-state-w0-0960",
+    "title": "Equation of state $w_0 -0.960$",
     "domain": "dark-sector",
     "domain_display": "Dark Sector",
     "prediction": "w0 approx -0.960. dark energy equation of state!prediction pred:n18 Defect depletion (V.T235) gives $w_0 = -0.960 -1$. Orthodox $$CDM: $w = -1$ exactly. The $4%$ deviation is within DESI DR3 reach.",
@@ -338,8 +338,8 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N18: Equation of state e͡xorpdfstring$w_0 -0.960$. DESI, Euclid, Rubin/LSST.",
-    "url": "/falsifications/n18-equation-of-state-exorpdfstringw0-0960/"
+    "summary_short": "N18: Equation of state $w_0 -0.960$. DESI, Euclid, Rubin/LSST.",
+    "url": "/falsifications/n18-equation-of-state-w0-0960/"
   },
   {
     "id": "N19",
@@ -363,11 +363,11 @@
   {
     "id": "N20",
     "n_num": 20,
-    "slug": "n20-dark-energy-density-exorpdfstring-06849",
-    "title": "Dark energy density e͡xorpdfstring$_ = 0.6849$",
+    "slug": "n20-dark-energy-density-06849",
+    "title": "Dark energy density $_ = 0.6849$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "Omega-Lambda = 0.6849. dark energy density!prediction pred:n20 $_ = ąppa_D(1 + _a͡u^3) = 0.6849$ (V.T234), at $-433$~ppm from Planck.",
+    "prediction": "Omega-Lambda = 0.6849. dark energy density!prediction pred:n20 $_ = _D(1 + _^3) = 0.6849$ (V.T234), at $-433$~ppm from Planck.",
     "experiment": "Euclid, DESI, Rubin",
     "timeline": "2027–2032.",
     "current_status": "consistent",
@@ -376,17 +376,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N20: Dark energy density e͡xorpdfstring$_ = 0.6849$. Euclid, DESI, Rubin.",
-    "url": "/falsifications/n20-dark-energy-density-exorpdfstring-06849/"
+    "summary_short": "N20: Dark energy density $_ = 0.6849$. Euclid, DESI, Rubin.",
+    "url": "/falsifications/n20-dark-energy-density-06849/"
   },
   {
     "id": "N21",
     "n_num": 21,
-    "slug": "n21-hubble-constant-exorpdfstringh-06735",
-    "title": "Hubble constant e͡xorpdfstring$h = 0.6735$",
+    "slug": "n21-hubble-constant-h-06735",
+    "title": "Hubble constant $h = 0.6735$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "h = 0.6735. Hubble constant!prediction pred:n21 $a͡u$-native $H_0 = 67.35$~km/s/Mpc (V.T196), matching Planck but not SH0ES. If future concordance settles on $H_0 > 70$, $a͡u$ is in tension.",
+    "prediction": "h = 0.6735. Hubble constant!prediction pred:n21 $$-native $H_0 = 67.35$~km/s/Mpc (V.T196), matching Planck but not SH0ES. If future concordance settles on $H_0 > 70$, $$ is in tension.",
     "experiment": "DESI, JWST, gravitational wave standard sirens",
     "timeline": "2025–2035.",
     "current_status": "consistent",
@@ -395,17 +395,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N21: Hubble constant e͡xorpdfstring$h = 0.6735$. DESI, JWST, gravitational wave standard sirens.",
-    "url": "/falsifications/n21-hubble-constant-exorpdfstringh-06735/"
+    "summary_short": "N21: Hubble constant $h = 0.6735$. DESI, JWST, gravitational wave standard sirens.",
+    "url": "/falsifications/n21-hubble-constant-h-06735/"
   },
   {
     "id": "N22",
     "n_num": 22,
-    "slug": "n22-clustering-amplitude-exorpdfstrings8-0760",
-    "title": "Clustering amplitude e͡xorpdfstring$S_8 = 0.760$",
+    "slug": "n22-clustering-amplitude-s8-0760",
+    "title": "Clustering amplitude $S_8 = 0.760$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "S8 = 0.760. S8 clustering@$S_8$ clustering!prediction pred:n22 $a͡u$-native clustering from DE-closure (V.T199): $S_8 = 0.760$.",
+    "prediction": "S8 = 0.760. S8 clustering@$S_8$ clustering!prediction pred:n22 $$-native clustering from DE-closure (V.T199): $S_8 = 0.760$.",
     "experiment": "Euclid, Rubin, DES legacy",
     "timeline": "2026–2032.",
     "current_status": "consistent",
@@ -414,13 +414,13 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N22: Clustering amplitude e͡xorpdfstring$S_8 = 0.760$. Euclid, Rubin, DES legacy.",
-    "url": "/falsifications/n22-clustering-amplitude-exorpdfstrings8-0760/"
+    "summary_short": "N22: Clustering amplitude $S_8 = 0.760$. Euclid, Rubin, DES legacy.",
+    "url": "/falsifications/n22-clustering-amplitude-s8-0760/"
   },
   {
     "id": "N23",
     "n_num": 23,
-    "slug": "n23-no-dm-detectionever",
+    "slug": "n23-no-dm-detection-ever",
     "title": "No DM detection—ever",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
@@ -434,16 +434,16 @@
       "IV"
     ],
     "summary_short": "N23: No DM detection—ever. all DM searches.",
-    "url": "/falsifications/n23-no-dm-detectionever/"
+    "url": "/falsifications/n23-no-dm-detection-ever/"
   },
   {
     "id": "N24",
     "n_num": 24,
-    "slug": "n24-qnm-frequency-ratio-exorpdfstringau-1",
-    "title": "QNM frequency ratio e͡xorpdfstring$_a͡u^-1",
+    "slug": "n24-qnm-frequency-ratio-1",
+    "title": "QNM frequency ratio $_^-1",
     "domain": "black-holes",
     "domain_display": "Black Holes",
-    "prediction": "2.929$iota-tau-inv approx 2.929. quasinormal modes!ratio prediction pred:n24 $T^2$ winding modes give $_(1,0)/_(0,1) = _a͡u^-1$ (V.T168). Orthodox $S^2$: $_3/_2 1.5$.",
+    "prediction": "2.929$iota-tau-inv approx 2.929. quasinormal modes!ratio prediction pred:n24 $T^2$ winding modes give $_(1,0)/_(0,1) = _^-1$ (V.T168). Orthodox $S^2$: $_3/_2 1.5$.",
     "experiment": "LIGO/Virgo A+, LISA, Einstein Telescope",
     "timeline": "2029–2035.",
     "current_status": "consistent",
@@ -452,8 +452,8 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N24: QNM frequency ratio e͡xorpdfstring$_a͡u^-1. LIGO/Virgo A+, LISA, Einstein Telescope.",
-    "url": "/falsifications/n24-qnm-frequency-ratio-exorpdfstringau-1/"
+    "summary_short": "N24: QNM frequency ratio $_^-1. LIGO/Virgo A+, LISA, Einstein Telescope.",
+    "url": "/falsifications/n24-qnm-frequency-ratio-1/"
   },
   {
     "id": "N25",
@@ -462,7 +462,7 @@
     "title": "EHT shadow correction $+2.91%$",
     "domain": "black-holes",
     "domain_display": "Black Holes",
-    "prediction": "EHT!shadow correction prediction pred:n25 The $T^2$ fiber increases the effective shadow radius by $2.91%$ compared to Schwarzschild (V.T220). $a͡u$-value: $r_m̊ sh = 5.25 GM/c^2$.",
+    "prediction": "EHT!shadow correction prediction pred:n25 The $T^2$ fiber increases the effective shadow radius by $2.91%$ compared to Schwarzschild (V.T220). $$-value: $r_ sh = 5.25 GM/c^2$.",
     "experiment": "ngEHT (next-generation EHT)",
     "timeline": "2029–2033.",
     "current_status": "consistent",
@@ -477,11 +477,11 @@
   {
     "id": "N26",
     "n_num": 26,
-    "slug": "n26-gw-echo-time-ratio-exorpdfstringau-2",
-    "title": "GW echo time ratio e͡xorpdfstring$_a͡u^-2",
+    "slug": "n26-gw-echo-time-ratio-2",
+    "title": "GW echo time ratio $_^-2",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "8.57$iota-tau-inv-2 approx 8.57. gravitational wave echoes!prediction pred:n26 Echo time doublet: $t_ = 4GM_a͡u^ 1/c^3$; ratio $t_+/t_- = _a͡u^-2$ (V.T185). Echoes arise from $T^2$ winding; $S^2$ produces no echoes.",
+    "prediction": "8.57$iota-tau-inv-2 approx 8.57. gravitational wave echoes!prediction pred:n26 Echo time doublet: $t_ = 4GM_^ 1/c^3$; ratio $t_+/t_- = _^-2$ (V.T185). Echoes arise from $T^2$ winding; $S^2$ produces no echoes.",
     "experiment": "Einstein Telescope, Cosmic Explorer, LISA",
     "timeline": "2032–2040.",
     "current_status": "consistent",
@@ -490,8 +490,8 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N26: GW echo time ratio e͡xorpdfstring$_a͡u^-2. Einstein Telescope, Cosmic Explorer, LISA.",
-    "url": "/falsifications/n26-gw-echo-time-ratio-exorpdfstringau-2/"
+    "summary_short": "N26: GW echo time ratio $_^-2. Einstein Telescope, Cosmic Explorer, LISA.",
+    "url": "/falsifications/n26-gw-echo-time-ratio-2/"
   },
   {
     "id": "N27",
@@ -500,7 +500,7 @@
     "title": "Magnetic winding number $w = 2$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "magnetic winding!prediction pred:n27 The RM winding theorem (V.T227): $w = ịm(T^2) = 2$. Faraday rotation measure near BH jets encodes toroidal winding.",
+    "prediction": "magnetic winding!prediction pred:n27 The RM winding theorem (V.T227): $w = (T^2) = 2$. Faraday rotation measure near BH jets encodes toroidal winding.",
     "experiment": "SKA, ngVLA, ngEHT polarimetry",
     "timeline": "2030–2035.",
     "current_status": "consistent",
@@ -515,11 +515,11 @@
   {
     "id": "N28",
     "n_num": 28,
-    "slug": "n28-shelvque-from-exorpdfstringau3",
-    "title": "She–Lévêque from e͡xorpdfstring$a͡u^3$",
+    "slug": "n28-she-leveque-from-3",
+    "title": "She–Lévêque from $^3$",
     "domain": "collective-dynamics",
     "domain_display": "Collective Dynamics",
-    "prediction": "tau-3 fibration. She–Leveque formula@She–Lévêque formula!prediction pred:n28 $e̱ta = ịm(T^2)/ịm(a͡u^3) = 2/3$ (V.T248). Not a fit: derived from fibration dimensions. $_p = (p/9)(1 - (2/3)^p/3)$ matches DNS data to $< 1%$ for all measured $p$.",
+    "prediction": "tau-3 fibration. She–Leveque formula@She–Lévêque formula!prediction pred:n28 $ = (T^2)/(^3) = 2/3$ (V.T248). Not a fit: derived from fibration dimensions. $_p = (p/9)(1 - (2/3)^p/3)$ matches DNS data to $< 1%$ for all measured $p$.",
     "experiment": "high-Re DNS, wind-tunnel data",
     "timeline": "ongoing.",
     "current_status": "consistent",
@@ -528,14 +528,14 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N28: She–Lévêque from e͡xorpdfstring$a͡u^3$. high-Re DNS, wind-tunnel data.",
-    "url": "/falsifications/n28-shelvque-from-exorpdfstringau3/"
+    "summary_short": "N28: She–Lévêque from $^3$. high-Re DNS, wind-tunnel data.",
+    "url": "/falsifications/n28-she-leveque-from-3/"
   },
   {
     "id": "N29",
     "n_num": 29,
-    "slug": "n29-kolmogorov-constant-exorpdfstringck-32",
-    "title": "Kolmogorov constant e͡xorpdfstring$C_K = 3/2$",
+    "slug": "n29-kolmogorov-constant-ck-32",
+    "title": "Kolmogorov constant $C_K = 3/2$",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
     "prediction": "CK = 3/2. Kolmogorov constant!prediction pred:n29 $C_K = 3/2$ (V.T250), the first parameter-free derivation of the Kolmogorov constant. Observed: $C_K = 1.5 0.1$.",
@@ -547,17 +547,17 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N29: Kolmogorov constant e͡xorpdfstring$C_K = 3/2$. atmospheric turbulence, wind tunnels.",
-    "url": "/falsifications/n29-kolmogorov-constant-exorpdfstringck-32/"
+    "summary_short": "N29: Kolmogorov constant $C_K = 3/2$. atmospheric turbulence, wind tunnels.",
+    "url": "/falsifications/n29-kolmogorov-constant-ck-32/"
   },
   {
     "id": "N30",
     "n_num": 30,
-    "slug": "n30-fast-reconnection-rate-exorpdfstringvm-rec",
-    "title": "Fast reconnection rate e͡xorpdfstring$v_m̊ rec",
+    "slug": "n30-fast-reconnection-rate-v-rec",
+    "title": "Fast reconnection rate $v_ rec",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "= _a͡u^2 v_A$vrec = iota-tau-2 vA. magnetic reconnection!rate prediction pred:n30 $v_m̊ rec = _a͡u^2 v_A 0.117 v_A$ (V.T251). Orthodox Sweet–Parker: $v_m̊ rec S^-1/2 v_A 0.1 v_A$. Observed: $0.01$–$0.1 v_A$ (solar flares, laboratory plasmas).",
+    "prediction": "= _^2 v_A$vrec = iota-tau-2 vA. magnetic reconnection!rate prediction pred:n30 $v_ rec = _^2 v_A 0.117 v_A$ (V.T251). Orthodox Sweet–Parker: $v_ rec S^-1/2 v_A 0.1 v_A$. Observed: $0.01$–$0.1 v_A$ (solar flares, laboratory plasmas).",
     "experiment": "MRX, FLARE, solar observatories, MMS",
     "timeline": "ongoing–2030.",
     "current_status": "consistent",
@@ -566,7 +566,7 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "N30: Fast reconnection rate e͡xorpdfstring$v_m̊ rec. MRX, FLARE, solar observatories, MMS.",
-    "url": "/falsifications/n30-fast-reconnection-rate-exorpdfstringvm-rec/"
+    "summary_short": "N30: Fast reconnection rate $v_ rec. MRX, FLARE, solar observatories, MMS.",
+    "url": "/falsifications/n30-fast-reconnection-rate-v-rec/"
   }
 ]

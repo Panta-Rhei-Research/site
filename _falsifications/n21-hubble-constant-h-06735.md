@@ -1,22 +1,22 @@
 ---
 layout: falsification-page
-title: "N20 — Dark energy density e͡xorpdfstring$_ = 0.6849$"
-permalink: /falsifications/n20-dark-energy-density-exorpdfstring-06849/
+title: "N21 — Hubble constant $h = 0.6735$"
+permalink: /falsifications/n21-hubble-constant-h-06735/
 lane: results
-falsification_id: "N20"
-n_num: 20
+falsification_id: "N21"
+n_num: 21
 domain: "particle-physics"
 domain_display: "Particle Physics"
-prediction: "Omega-Lambda = 0.6849. dark energy density!prediction pred:n20 $_ = ąppa_D(1 + _a͡u^3) = 0.6849$ (V.T234), at $-433$~ppm from Planck."
-experiment: "Euclid, DESI, Rubin"
-timeline: "2027–2032."
+prediction: "h = 0.6735. Hubble constant!prediction pred:n21 $$-native $H_0 = 67.35$~km/s/Mpc (V.T196), matching Planck but not SH0ES. If future concordance settles on $H_0 > 70$, $$ is in tension."
+experiment: "DESI, JWST, gravitational wave standard sirens"
+timeline: "2025–2035."
 decisive: ""
 current_status: "consistent"
 seam: null
-registry_id: "V.T234"
+registry_id: "V.T196"
 canonical_books:
   - "V"
-summary_short: "N20: Dark energy density e͡xorpdfstring$_ = 0.6849$. Euclid, DESI, Rubin."
+summary_short: "N21: Hubble constant $h = 0.6735$. DESI, JWST, gravitational wave standard sirens."
 right_rail:
   toc: false
   related:
@@ -30,33 +30,26 @@ right_rail:
     type: "Falsification"
     domain: "Particle Physics"
     status: "Consistent"
-    experiment: "Euclid, DESI, Rubin"
+    experiment: "DESI, JWST, gravitational wave standard sirens"
     updated: "April 2026"
 ---
 
-## N20: Prediction
+## N21: Prediction
 
-Omega-Lambda = 0.6849.
+h = 0.6735.
 
-$Ω_Λ = κ_D(1 + ι_τ^3) = 0.6849$
-(V.T234),
-at $-433$ ppm from Planck.
-*Experiment:* Euclid, DESI, Rubin.
-*Timeline:* 2027–2032.
+$τ$-native $H_0 = 67.35$ km/s/Mpc (V.T196),
+matching Planck but not SH0ES.
+If future concordance
+settles on $H_0 > 70$,
+$τ$ is in tension.
+*Experiment:* DESI, JWST, gravitational wave standard sirens.
+*Timeline:* 2025–2035.
 
 
 ## Derivation Context
 
-Ninety-five percent of the universe
-is missing.
-That is the orthodox verdict:
-$27%$ is dark matter,
-$68%$ is dark energy,
-and the $5%$ that we observe
-is all that ordinary physics explains.
-After decades of direct detection experiments
-(XENON1T, LZ, PandaX),
-no dark matter particle has been found.
+tter particle has been found.
 After two decades
 of theoretical effort,
 the cosmological constant problem—a

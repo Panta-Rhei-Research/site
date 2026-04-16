@@ -1,7 +1,7 @@
 ---
 layout: falsification-page
-title: "N6 — Sum of neutrino masses e͡xorpdfstring$ m_ = 0.089$"
-permalink: /falsifications/n6-sum-of-neutrino-masses-exorpdfstring-m-0089/
+title: "N6 — Sum of neutrino masses $ m_ = 0.089$"
+permalink: /falsifications/n6-sum-of-neutrino-masses-m-0089/
 lane: results
 falsification_id: "N6"
 n_num: 6
@@ -16,7 +16,7 @@ seam: null
 registry_id: "V.T175"
 canonical_books:
   - "V"
-summary_short: "N6: Sum of neutrino masses e͡xorpdfstring$ m_ = 0.089$. DESI, Euclid, CMB-S4, KATRIN/Project~8."
+summary_short: "N6: Sum of neutrino masses $ m_ = 0.089$. DESI, Euclid, CMB-S4, KATRIN/Project~8."
 right_rail:
   toc: false
   related:

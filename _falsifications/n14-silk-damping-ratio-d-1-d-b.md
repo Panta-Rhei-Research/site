@@ -1,7 +1,7 @@
 ---
 layout: falsification-page
-title: "N14 — Silk damping ratio e͡xorpdfstring$_D / _1 = ąppa_D / ąppa_B$"
-permalink: /falsifications/n14-silk-damping-ratio-exorpdfstringd-1-ppad-ppab/
+title: "N14 — Silk damping ratio $_D / _1 = _D / _B$"
+permalink: /falsifications/n14-silk-damping-ratio-d-1-d-b/
 lane: results
 falsification_id: "N14"
 n_num: 14
@@ -16,7 +16,7 @@ seam: null
 registry_id: "V.D254"
 canonical_books:
   - "V"
-summary_short: "N14: Silk damping ratio e͡xorpdfstring$_D / _1 = ąppa_D / ąppa_B$. Planck legacy, CMB-S4."
+summary_short: "N14: Silk damping ratio $_D / _1 = _D / _B$. Planck legacy, CMB-S4."
 right_rail:
   toc: false
   related:

@@ -1,7 +1,7 @@
 ---
 layout: falsification-page
-title: "N29 — Kolmogorov constant e͡xorpdfstring$C_K = 3/2$"
-permalink: /falsifications/n29-kolmogorov-constant-exorpdfstringck-32/
+title: "N29 — Kolmogorov constant $C_K = 3/2$"
+permalink: /falsifications/n29-kolmogorov-constant-ck-32/
 lane: results
 falsification_id: "N29"
 n_num: 29
@@ -16,7 +16,7 @@ seam: null
 registry_id: "V.T250"
 canonical_books:
   - "V"
-summary_short: "N29: Kolmogorov constant e͡xorpdfstring$C_K = 3/2$. atmospheric turbulence, wind tunnels."
+summary_short: "N29: Kolmogorov constant $C_K = 3/2$. atmospheric turbulence, wind tunnels."
 right_rail:
   toc: false
   related:

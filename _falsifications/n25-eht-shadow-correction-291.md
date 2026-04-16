@@ -7,7 +7,7 @@ falsification_id: "N25"
 n_num: 25
 domain: "black-holes"
 domain_display: "Black Holes"
-prediction: "EHT!shadow correction prediction pred:n25 The $T^2$ fiber increases the effective shadow radius by $2.91%$ compared to Schwarzschild (V.T220). $a͡u$-value: $r_m̊ sh = 5.25 GM/c^2$."
+prediction: "EHT!shadow correction prediction pred:n25 The $T^2$ fiber increases the effective shadow radius by $2.91%$ compared to Schwarzschild (V.T220). $$-value: $r_ sh = 5.25 GM/c^2$."
 experiment: "ngEHT (next-generation EHT)"
 timeline: "2029–2033."
 decisive: ""
