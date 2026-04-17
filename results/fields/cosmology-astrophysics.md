@@ -29,6 +29,10 @@ Tau-cosmology is not a patched ΛCDM — it is a single coherent cosmological bi
 
 h = 2/3 + ι_τ²/17 = 0.6735 at −120 ppm from SH0ES/JWST. The tension between early and late measurements is resolved by orbit-depth-dependent readout, not by new physics.
 
+### [Cosmological Constant Problem Dissolved]({{ '/results/problem/vacuum-energy-zero/' | relative_url }}) · Resolved
+
+The vacuum energy is structurally zero (V.T139). The ~120-order-of-magnitude gap between QFT zero-point estimates and the observed cosmological constant dissolves: τ-vacuum is the empty set of unoccupied sectors, not a fluctuating field requiring cancellation.
+
 ### [No Dark Matter Particle]({{ '/results/problem/no-dark-matter-particle/' | relative_url }}) · Resolved
 
 The Sector Exhaustion Theorem proves no fifth primary sector is structurally available. Dark matter as a new particle is not merely unnecessary but structurally impossible.
@@ -76,6 +80,10 @@ The arrow of time is derived from the unique direction of the α-orbit. Irrevers
 ### [Deuterium Abundance]({{ '/results/problem/deuterium-abundance/' | relative_url }}) · Resolved
 
 Primordial deuterium abundance is derived from BBN dynamics within the sector-coupled framework.
+
+### [Helium-4 Primordial Abundance]({{ '/results/problem/helium-4-abundance-y-p-20-over-81/' | relative_url }}) · Resolved
+
+Y_p = 20/81 derived from the τ-BBN framework at 0.43σ from Planck observations. Together with deuterium and lithium-7, primordial helium-4 closes the BBN trio from structural inputs — no free parameters.
 
 ### [Lithium-7 Problem]({{ '/results/problem/lithium-7-problem-resolved/' | relative_url }}) · Resolved
 
