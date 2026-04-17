@@ -95,6 +95,25 @@ The [Metaphysics World Readout]({{ '/results/world-readout/metaphysics/' | relat
 - [Mind, Consciousness, and the Self-Model]({{ '/results/world-readout/metaphysics/mind-consciousness-and-the-self-model/' | relative_url }}) — selfhood, free will, and the hard problem
 - [Logos and the Final Boundary]({{ '/results/world-readout/metaphysics/logos-and-the-final-boundary/' | relative_url }}) — where proof meets commitment
 
+## Field Briefings
+
+For specialists arriving from a specific academic discipline, 9 field-specific briefing pages curate the most consequential claims within each scope:
+
+**Physics:**
+- [Quantum Physics]({{ '/results/fields/quantum-physics/' | relative_url }}) — QM, quantum gravity, unification, measurement problem
+- [Cosmology, Astrophysics & GR]({{ '/results/fields/cosmology-astrophysics/' | relative_url }}) — Hubble tension, dark sector, CMB, inflation, black holes
+- [Particle Physics & Nuclear]({{ '/results/fields/particle-physics/' | relative_url }}) — 3 generations, quark masses, CKM, Higgs, neutrinos
+- [Fluids, Condensed Matter & Plasma]({{ '/results/fields/condensed-matter-fluids/' | relative_url }}) — Navier-Stokes, fluid dynamics
+
+**Mathematics:**
+- [Foundations, Logic & Computer Science]({{ '/results/fields/foundations-logic/' | relative_url }}) — Gödel avoidance, topos theory, P vs NP, decidability
+- [Millennium Problems & Langlands]({{ '/results/fields/millennium-langlands/' | relative_url }}) — all seven Clay problems + Grand GRH + Langlands
+
+**Life, Mind & Philosophy:**
+- [Biology & Origin of Life]({{ '/results/fields/biology/' | relative_url }}) — abiogenesis, genetic code, homochirality, what is life
+- [Neuroscience & Consciousness]({{ '/results/fields/neuroscience/' | relative_url }}) — hard problem, consciousness, free will, machine mind
+- [Philosophy & Ethics]({{ '/results/fields/philosophy/' | relative_url }}) — categorical imperative, Gettier, universals, Logos boundary
+
 ## Physics Predictions Ledger
 
 The [Physics Predictions]({{ '/results/predictions/browse/' | relative_url }}) collection compiles **67 zero-parameter numerical predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e). Each prediction compares a τ-derived value directly to experimental measurement — no ontological bridge claims needed. Fifteen predictions achieve sub-10 ppm precision.
