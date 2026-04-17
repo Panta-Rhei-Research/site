@@ -81,9 +81,30 @@ The nucleon axial coupling g_A derived to +5.5 ppm via κ_D²/ι_τ with colour-
 
 η_B = α·ι_τ¹⁵·(5/6) at −1%. The baryon-to-photon ratio derived from sector coupling constants.
 
+### [Hierarchy Problem]({{ '/results/problem/hierarchy-problem/' | relative_url }}) · Resolved
+
+Why is gravity 10³² times weaker than electromagnetism? The hierarchy is derived from structural sector separation — the gravitational sector (D/α) couples at depth 0, while EM (B/γ) couples at depth 2, giving the observed ratio as a power of ι_τ.
+
+### [QCD Confinement]({{ '/results/problem/qcd-confinement/' | relative_url }}) · Partial
+
+Color confinement in the strong sector is addressed through NF-discreteness of the C/η sector: quarks cannot be isolated because the sector's spectral structure does not permit deconfined color charges. Bridge to lattice QCD in development.
+
+### [Neutron Lifetime Puzzle]({{ '/results/problem/neutron-lifetime-puzzle/' | relative_url }}) · Resolved
+
+The discrepancy between beam and bottle neutron lifetime measurements is resolved within the sector-coupled framework. The τ-derived lifetime sits between the two experimental methods.
+
+### [Proton Charge Radius]({{ '/results/problem/proton-charge-radius-12-ppm/' | relative_url }}) · Resolved
+
+The proton charge radius r_p derived to +12 ppm from τ-sector structure (37× precision improvement, Wave 46). The muonic hydrogen puzzle is resolved as a natural consequence.
+
+### [Proton Spin Puzzle]({{ '/results/problem/proton-spin-puzzle/' | relative_url }}) · Not Addressed
+
+How quarks and gluons carry the proton's total spin remains an open question. The framework's current treatment of nuclear structure does not yet resolve the angular momentum decomposition at the parton level.
+
 ---
 
 ## Where to go deeper
 
 - [Physics World Readout]({{ '/results/world-readout/physics/' | relative_url }}) — the full world-picture
 - [Browse all claims]({{ '/results/browse/' | relative_url }}) — filter by domain, status, and book
+- [Unsolved problems in physics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics) — Wikipedia's canonical list of recognized open problems

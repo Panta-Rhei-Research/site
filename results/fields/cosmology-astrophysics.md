@@ -77,9 +77,14 @@ The arrow of time is derived from the unique direction of the α-orbit. Irrevers
 
 Primordial deuterium abundance is derived from BBN dynamics within the sector-coupled framework.
 
+### [Lithium-7 Problem]({{ '/results/problem/lithium-7-problem-resolved/' | relative_url }}) · Resolved
+
+The cosmological lithium problem — observed ⁷Li/H is 3× lower than standard BBN predicts — is resolved through fiber suppression S = 1/3 in the τ-BBN framework. No new nuclear physics needed.
+
 ---
 
 ## Where to go deeper
 
 - [Physics World Readout]({{ '/results/world-readout/physics/' | relative_url }}) — the full world-picture
 - [Browse all claims]({{ '/results/browse/' | relative_url }}) — filter by domain, status, and book
+- [Unsolved problems in physics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics) — Wikipedia's canonical list of recognized open problems
