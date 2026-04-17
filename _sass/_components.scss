@@ -26,24 +26,24 @@
   @extend .btn;
   background: $accent;
   color: white;
-  box-shadow: 0 2px 8px rgba(41, 75, 102, 0.25);
+  box-shadow: 0 2px 8px rgba(22, 62, 100, 0.25);
 
   &:hover {
     background: darken($accent, 6%);
     color: white;
-    box-shadow: 0 4px 12px rgba(41, 75, 102, 0.3);
+    box-shadow: 0 4px 12px rgba(22, 62, 100, 0.3);
   }
 }
 
 .btn-secondary {
   @extend .btn;
-  background: rgba(41, 75, 102, 0.08);
+  background: rgba(22, 62, 100, 0.08);
   color: $accent;
-  border: 1px solid rgba(41, 75, 102, 0.12);
+  border: 1px solid rgba(22, 62, 100, 0.12);
 
   &:hover {
-    background: rgba(41, 75, 102, 0.14);
-    box-shadow: 0 2px 8px rgba(41, 75, 102, 0.1);
+    background: rgba(22, 62, 100, 0.14);
+    box-shadow: 0 2px 8px rgba(22, 62, 100, 0.1);
   }
 }
 

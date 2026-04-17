@@ -73,7 +73,7 @@
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(22, 29, 37, 0.08);
-    border-color: rgba(41, 75, 102, 0.2);
+    border-color: rgba(22, 62, 100, 0.2);
   }
 
   &[hidden] {
@@ -171,8 +171,8 @@
 
 // Role chip — accent-tinted
 .chip-role {
-  background: rgba(41, 75, 102, 0.08);
-  border-color: rgba(41, 75, 102, 0.16);
+  background: rgba(22, 62, 100, 0.08);
+  border-color: rgba(22, 62, 100, 0.16);
   color: $accent;
 }
 
