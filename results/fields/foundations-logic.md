@@ -49,6 +49,14 @@ O(τ³) ≅ A_spec(L): the algebra of holomorphic functions on the fibered produ
 
 The presheaf category over τ is a Grothendieck topos — earned from the kernel, not imported from external set theory.
 
+### [Yoneda Lemma]({{ '/results/problem/yoneda-lemma/' | relative_url }}) · Resolved
+
+The Yoneda Lemma holds in the τ-earned topos: objects are fully determined by their representable presheaves. This is foundational category theory — not imported, but derived from the kernel's self-enrichment structure.
+
+### [Stone Duality]({{ '/results/problem/stone-duality/' | relative_url }}) · Resolved
+
+Stone-type duality between Boolean algebras and totally disconnected compact Hausdorff spaces holds structurally in τ. The algebra/geometry correspondence is a consequence of the boundary-interior structure rather than an ad hoc construction.
+
 ### [τ-Admissibility Collapse (P = NP)]({{ '/results/problem/tau-admissibility-collapse-p-np/' | relative_url }}) · Qualitative
 
 P = NP within τ-admissible computation. The classical formulation's complexity barrier is broken because τ's computational model is E₂-native, not reducible to Turing machines.
@@ -60,6 +68,10 @@ Cantor's diagonal argument does not apply within τ because the framework refuse
 ### [Translation Functor τ → ZFC]({{ '/results/problem/translation-functor-tau-zfc/' | relative_url }}) · Partial
 
 A translation functor from τ to ZFC is constructible: ZFC can be instantiated inside τ as a formal symbolic machine, without τ granting ontic status to the set-theoretic hierarchy.
+
+### [ZFC Identity Slippage]({{ '/results/problem/structural-instability-zfc-identity-slippage/' | relative_url }}) · Contradicted
+
+Classical ZFC set theory's treatment of identity (via the Axiom of Choice and measurable-set behavior) is structurally unstable on the framework's reading. τ explicitly rejects the identity-slippage that ZFC permits — a falsifiable opposing stance, distinct from both constructivist and classical set-theoretic orthodoxy.
 
 ### [Unique Infinity]({{ '/results/problem/unique-infinity/' | relative_url }}) · Resolved
 
@@ -79,3 +91,5 @@ Every object in τ has a unique canonical normal form via the ABCD coordinate ch
 
 - [Mathematics World Readout]({{ '/results/world-readout/mathematics/' | relative_url }}) — the full world-picture
 - [Browse all claims]({{ '/results/browse/' | relative_url }}) — filter by domain, status, and book
+- [Unsolved problems in mathematics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics) — Wikipedia's canonical list of recognized open problems
+- [Unsolved problems in computer science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science) — Wikipedia's list of open problems in complexity, algorithms, and programming-language theory

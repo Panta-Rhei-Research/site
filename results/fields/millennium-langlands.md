@@ -45,6 +45,10 @@ The Yang-Mills Gap Theorem (III.T27) proves gap constant Γ*_s > 0 for τ-admiss
 
 Positive Regularity (III.T25) proved for τ-admissible data. Bridge to Schwartz-class data on ℝ³ open.
 
+### [Poincaré Conjecture Reinterpretation]({{ '/results/problem/poincar-conjecture-reinterpretation/' | relative_url }}) · Resolved
+
+The one solved Millennium Problem (Perelman, 2002-2003) is reinterpreted within the framework: τ³ = τ¹ ×_f T² is the natural τ-analogue of a 3-manifold, with its own rigidity and classification structure. The framework does not replace Perelman's proof but recasts the closed-simply-connected-3-manifold question in τ-internal language, connecting it to the full enrichment chain.
+
 ### [Hodge Conjecture]({{ '/results/problem/hodge-conjecture-approach/' | relative_url }}) · Partial
 
 The NF-Addressability Theorem (III.T28) resolves the Hodge statement within τ. Bridge to classical algebraic geometry conjectural.
@@ -71,3 +75,4 @@ The Functoriality Theorem (III.T36) and Base Change (III.T37) establish the τ-i
 
 - [Mathematics World Readout]({{ '/results/world-readout/mathematics/' | relative_url }}) — the full world-picture
 - [Browse all claims]({{ '/results/browse/' | relative_url }}) — filter by domain, status, and book
+- [Clay Millennium Prize Problems](https://www.claymath.org/millennium-problems/) — the canonical Clay Institute reference for the seven Millennium Problems
