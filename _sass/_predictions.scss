@@ -44,7 +44,7 @@
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(22, 29, 37, 0.08);
-    border-color: rgba(41, 75, 102, 0.2);
+    border-color: rgba(22, 62, 100, 0.2);
   }
 
   &[hidden] { display: none; }
@@ -159,7 +159,7 @@
   .chip-status-testable.is-active { background: #a66d00; border-color: #a66d00; color: #fff; }
 }
 
-.chip-fals-id { background: rgba(41, 75, 102, 0.12); border-color: rgba(41, 75, 102, 0.25); color: $accent; font-weight: 700; font-family: $font-mono; }
+.chip-fals-id { background: rgba(22, 62, 100, 0.12); border-color: rgba(22, 62, 100, 0.25); color: $accent; font-weight: 700; font-family: $font-mono; }
 .chip-seam { background: rgba(139, 69, 19, 0.1); border-color: rgba(139, 69, 19, 0.3); color: #8b4513; }
 
 // ---------- Empty state ----------

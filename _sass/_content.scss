@@ -126,7 +126,7 @@ a.chip-link, a.chip.chip-link {
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(22, 29, 37, 0.08);
-    border-color: rgba(41, 75, 102, 0.2);
+    border-color: rgba(22, 62, 100, 0.2);
     text-decoration: none;
   }
 }
@@ -239,15 +239,15 @@ a.part-card {
   }
 
   .chip {
-    background: rgba(41, 75, 102, 0.08);
-    border-color: rgba(41, 75, 102, 0.14);
+    background: rgba(22, 62, 100, 0.08);
+    border-color: rgba(22, 62, 100, 0.14);
     color: $accent;
     font-weight: 550;
   }
 
   &:hover {
     transform: translateY(-1px);
-    border-color: rgba(41, 75, 102, 0.25);
+    border-color: rgba(22, 62, 100, 0.25);
 
     h3 {
       color: $accent;
@@ -312,7 +312,7 @@ a.part-card {
 
   &:hover {
     background: $accent-soft;
-    border-color: rgba(41, 75, 102, 0.12);
+    border-color: rgba(22, 62, 100, 0.12);
   }
 
   .dep-id {
@@ -427,8 +427,8 @@ a.part-card {
   gap: 12px;
   padding: 10px 14px;
   margin-top: 20px;
-  background: rgba(41, 75, 102, 0.04);
-  border: 1px solid rgba(41, 75, 102, 0.1);
+  background: rgba(22, 62, 100, 0.04);
+  border: 1px solid rgba(22, 62, 100, 0.1);
   border-bottom: none;
   border-radius: $radius-sm $radius-sm 0 0;
   font-size: 0.78rem;
@@ -451,15 +451,15 @@ a.part-card {
   font-weight: 580;
   color: $accent;
   background: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(41, 75, 102, 0.15);
+  border: 1px solid rgba(22, 62, 100, 0.15);
   border-radius: $radius-pill;
   cursor: pointer;
   transition: all $transition;
   flex-shrink: 0;
 
   &:hover {
-    background: rgba(41, 75, 102, 0.08);
-    border-color: rgba(41, 75, 102, 0.25);
+    background: rgba(22, 62, 100, 0.08);
+    border-color: rgba(22, 62, 100, 0.25);
   }
 
   &.copied {
@@ -510,7 +510,7 @@ a.part-card {
     font-weight: 600;
     color: $accent;
     padding: 8px 12px;
-    background: rgba(41, 75, 102, 0.06);
+    background: rgba(22, 62, 100, 0.06);
     border-radius: $radius-sm;
     margin-bottom: 8px;
     overflow-x: auto;

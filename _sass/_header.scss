@@ -179,7 +179,7 @@
   &:hover {
     background: $accent-soft;
     color: $accent;
-    border-color: rgba(41, 75, 102, 0.2);
+    border-color: rgba(22, 62, 100, 0.2);
   }
 
   &[aria-expanded="true"] {
@@ -289,7 +289,7 @@
 
     &:hover {
       background: $accent-soft;
-      border-color: rgba(41, 75, 102, 0.2);
+      border-color: rgba(22, 62, 100, 0.2);
     }
   }
 }
@@ -389,12 +389,12 @@
     white-space: normal;
 
     &:hover {
-      background: rgba(41, 75, 102, 0.06);
+      background: rgba(22, 62, 100, 0.06);
     }
 
     &.active {
       font-weight: 580;
-      background: rgba(41, 75, 102, 0.06);
+      background: rgba(22, 62, 100, 0.06);
     }
   }
 }
@@ -430,7 +430,7 @@
   &:hover {
     background: $accent-soft;
     color: $accent;
-    border-color: rgba(41, 75, 102, 0.2);
+    border-color: rgba(22, 62, 100, 0.2);
   }
 
   svg { width: 16px; height: 16px; }
