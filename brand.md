@@ -13,6 +13,8 @@ summary_cards:
     body: "Canonical navy #163e64 (Source Serif 4 glyphs). Matches the site's accent token across every surface."
 right_rail:
   related:
+    - title: "Voice & Platform Copy"
+      url: /brand/voice/
     - title: "Media Kit"
       url: /media/
     - title: "Review Kit"
@@ -130,6 +132,15 @@ The mark references **Panta Rhei's two foundational operators**: π (the fundame
 | Social header | PNG 1500×500 (platforms require raster) |
 | Favicon | SVG + PNG fallbacks (see `assets/favicon.svg` + `assets/favicon-*.png`) |
 | Email signature | PNG 120×120 (email clients strip SVG) |
+
+## Voice & platform copy
+
+For writers, journalists, collaborators, and anyone needing on-brand copy to paste into a platform profile or press release: see the separate **[Voice & Platform Copy]({{ '/brand/voice/' | relative_url }})** document. It contains:
+
+- Three canonical voices (Program, Thor, Anna-Sophie) × three lengths (1-liner / 3-liner / 1-paragraph)
+- Paste-ready profile copy for LinkedIn, X, Mastodon, Bluesky, Amazon, ORCID
+- Hashtag discipline and link conventions
+- Boilerplate paragraphs and program description
 
 ## License
 
