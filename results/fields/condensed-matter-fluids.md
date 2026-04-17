@@ -37,9 +37,18 @@ The Chandrasekhar mass limit is derived from the sector-coupled framework as a s
 
 The fine-tuning problem (why physical constants take the values they do) is dissolved: constants are algebraic expressions in ι_τ, not independently tuned parameters.
 
+### [High-T_c Superconductivity]({{ '/results/problem/high-tc-superconductivity/' | relative_url }}) · Partial
+
+High-temperature superconductivity — the mechanism behind superconductivity above ~25 K — is addressed through the framework's sector-coupled condensed matter treatment. The full bridge to material-specific predictions remains in development.
+
+### [She-Lévêque Turbulence Exponents]({{ '/results/problem/she-leveque-turbulence-exponents/' | relative_url }}) · Resolved
+
+The She-Lévêque intermittency exponents for fully developed turbulence are derived exactly from the dimensional structure of τ³. This is one of the few zero-parameter predictions in classical fluid dynamics — a field where most results are empirical or approximate.
+
 ---
 
 ## Where to go deeper
 
 - [Physics World Readout]({{ '/results/world-readout/physics/' | relative_url }}) — the full world-picture
 - [Browse all claims]({{ '/results/browse/' | relative_url }}) — filter by domain, status, and book
+- [Unsolved problems in physics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics) — Wikipedia's canonical list of recognized open problems
