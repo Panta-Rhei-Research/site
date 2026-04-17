@@ -112,7 +112,8 @@ For specialists arriving from a specific academic discipline, 9 field-specific b
 **Life, Mind & Philosophy:**
 - [Biology & Origin of Life]({{ '/results/fields/biology/' | relative_url }}) — abiogenesis, genetic code, homochirality, what is life
 - [Neuroscience & Consciousness]({{ '/results/fields/neuroscience/' | relative_url }}) — hard problem, consciousness, free will, machine mind
-- [Philosophy & Ethics]({{ '/results/fields/philosophy/' | relative_url }}) — categorical imperative, Gettier, universals, Logos boundary
+- [Foundational Philosophy]({{ '/results/fields/philosophy-foundational/' | relative_url }}) — ontology, epistemology, philosophy of science, meta-inquiry (ontic vs model stance)
+- [Applied Philosophy]({{ '/results/fields/philosophy-applied/' | relative_url }}) — ethics, aesthetics, language, mind, political legitimacy
 
 ## Physics Predictions Ledger
 
