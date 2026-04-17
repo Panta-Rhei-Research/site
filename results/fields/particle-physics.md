@@ -33,6 +33,10 @@ Exactly three fermion generations from H₁(τ³;ℤ) ≅ ℤ³. Three independe
 
 The electron mass derived to 0.025 ppm precision through a 10-link derivation chain from K0–K6. One of the most precise zero-parameter predictions in the framework.
 
+### [Koide Relation]({{ '/results/problem/koide-relation/' | relative_url }}) · Resolved
+
+Q = (m_e + m_μ + m_τ) / (√m_e + √m_μ + √m_τ)² = 2/3 at −9 ppm, derived from the σ-equivariant mass matrix of the lepton sector. Wikipedia lists the Koide formula as an open problem — in τ it is a first-principles consequence, not a coincidence.
+
 ### [Muon g−2 Anomaly]({{ '/results/problem/muon-g-2-anomaly/' | relative_url }}) · Resolved
 
 The muon anomalous magnetic moment is derived within the sector-coupled framework. The claimed resolution depends on hadronic vacuum polarization computed from τ-sector structure.

@@ -37,6 +37,10 @@ Spacetime is not assumed but read out from the enriched structure. The metric, c
 
 The measurement problem is dissolved by the framework's denotational ontology: observation is a structural readout, not a collapse event requiring special postulates.
 
+### [Yang–Mills Mass Gap]({{ '/results/problem/yang-mills-mass-gap/' | relative_url }}) · Partial
+
+The τ-Yang–Mills Hamiltonian has a spectral gap δ∞^s > 0 (IV.T75). This addresses the structural content of the Clay Millennium Problem; the bridge to the orthodox Wightman-axiom formulation on ℝ⁴ is treated via the Master Schema and remains partially developed.
+
 ### [Black Hole Information Paradox]({{ '/results/problem/bh-information-paradox/' | relative_url }}) · Resolved
 
 The black hole information paradox is resolved: no information is lost because the no-shrink theorem prevents ontic mass loss, and the horizon encodes boundary data.
