@@ -44,6 +44,16 @@ jobs:
       - name: Build Pagefind search index
         run: npx -y pagefind --site _site --output-subdir pagefind
 
+      # ── Smoke-test the built artifact ──────────────────────
+      # Validates _site/ has every expected asset, body marker,
+      # and anti-regression string BEFORE it's uploaded/deployed.
+      # No CDN involvement — runs against local files in ~2s.
+      # Fails the build visibly if anything regressed.
+      - name: Smoke-test build artifact
+        run: |
+          chmod +x .github/scripts/smoke-test.sh
+          .github/scripts/smoke-test.sh _site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -57,22 +67,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  # ── Post-deploy smoke test ────────────────────────────────
-  # Fails the workflow visibly if any critical URL or body
-  # content regresses after deploy. See .github/scripts/smoke-test.sh.
-  smoke-test:
-    name: Post-deploy smoke test
-    needs: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Wait for CDN propagation
-        run: sleep 30
-
-      - name: Run smoke test against live site
-        run: |
-          chmod +x .github/scripts/smoke-test.sh
-          .github/scripts/smoke-test.sh https://panta-rhei.site
