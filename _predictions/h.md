@@ -44,6 +44,20 @@ right_rail:
 
 **h = 2/3 + ι<sub>τ</sub>²/17 = 0.6735**
 
+The denominator $17 = W_3(3) = a_3 + a_4 + a_5 = 13 + 3 + 1$
+is the sum of three consecutive partial quotients
+of the continued-fraction expansion
+$CF(ι_τ) = [0; 2, 1, 13, 3, 1, 1, 1, 42, …]$
+starting at index 3
+(Lean-certified at `Tau.CF.w3_at_3`);
+the base value $2/3$ is the matter-dominated
+Einstein-de Sitter late-time limit.
+Both numbers are structural — fixed once
+$ι_τ = 2/(π+e)$ is posited — not fitted.
+See the
+[result page]({{ '/results/problem/hubble-tension-resolved-h-formula/' | relative_url }})
+for the full derivation.
+
 ## Derivation
 
 tter particle has been found.

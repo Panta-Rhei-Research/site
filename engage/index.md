@@ -11,6 +11,8 @@ summary_cards:
     body: "Support the continuation of the research — books first, follow second, direct support third."
   - title: "Contact"
     body: "Typed contact routes for media, technical inquiry, institutions, and general correspondence."
+  - title: "Engineering contributors"
+    body: "Lean 4, CI, docstring hygiene, registry bookkeeping — the TauLib formalization is now open to external PRs under a published CONTRIBUTING guide."
 right_rail:
   related:
     - title: "About the Research"
@@ -49,6 +51,10 @@ Future seminars, guided reading sessions, and structured engagement opportunitie
 ### [Media & Contact]({{ '/engage/media-and-contact/' | relative_url }})
 
 Typed contact routes for media inquiries, technical questions, institutional correspondence, and general contact.
+
+### [For Engineering Contributors]({{ '/engage/for-engineering-contributors/' | relative_url }})
+
+The [TauLib](https://github.com/Panta-Rhei-Research/taulib) Lean 4 formalization is now open to external pull requests under a published [CONTRIBUTING guide](https://github.com/Panta-Rhei-Research/taulib/blob/main/CONTRIBUTING.md). Small PRs (typos, docstring corrections, tactic simplifications, registry bookkeeping) are merged liberally; medium and large changes open an issue or discussion first. CI enforces `axioms=3, sorry=0`, a tactics-only-Mathlib policy, and docstring hygiene. The contributor page lays out the three contribution paths, what not to PR, maintainer responsiveness commitments, licensing (Apache-2.0 for code, CC BY 4.0 for prose, DCO sign-off, no CLA), and a concrete starter list of good first contributions.
 
 ---
 

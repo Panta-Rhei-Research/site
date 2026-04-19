@@ -3,14 +3,14 @@ layout: program-doc
 title: "TauLib"
 permalink: /verify/taulib/
 lane: verify
-summary_short: "The Lean 4 formalization library for Category τ — 458 modules, 127,440 lines, 0 sorry across all 7 books."
+summary_short: "The Lean 4 formalization library for Category τ — 458 modules, 127,440 lines, 0 sorry across all 7 books of TauLib Lean source (scope tiered — see filter rules)."
 summary_cards:
 - title: "458 modules"
   body: "Across 7 books, covering kernel axioms through metaphysical boundary theorems."
 - title: "4,332 theorems"
   body: "Machine-checked in Lean 4 with 3,721 computational evaluations."
 - title: "0 sorry"
-  body: "Zero across all 7 books. The three prior Book VII methodological markers were retired in peer-review-fixes-v1 in favor of inspectable `def : Commitment` values."
+  body: "Zero across all 7 books of TauLib Lean source. The three prior Book VII methodological markers were retired in peer-review-fixes-v1 in favor of inspectable `def : Commitment` values. Book VI is registry-planned, not yet Lean-formalized — see [filter rules](/verify/filter-rules/)."
 right_rail:
   related:
   - title: Verify Overview
@@ -42,7 +42,7 @@ git clone https://github.com/Panta-Rhei-Research/taulib
 cd taulib && lake build
 ```
 
-Build completes with **0 errors** and **0 sorry across all 7 books**.
+Build completes with **0 errors** and **0 sorry across all 7 books** — counted over the TauLib Lean corpus. Book VI has 30 Lean modules, none with `sorry`; Book VI's registry-level formalization is currently planned (0/168) and tracked separately — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}).
 
 ## What TauLib Verifies
 

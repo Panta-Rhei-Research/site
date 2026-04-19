@@ -35,7 +35,7 @@ The Panta Rhei Research Program is an independent open research program developi
 
 {% assign book_count = site.data.publications.books | size %}{% assign result_count = site.data.results.results | size %}{% assign registry_count = site.data.registry.objects | size %}{% assign chapter_count = site.data.publications.chapters | size %}The program's canonical release (April 2026) includes:
 - A **{{ book_count }}-book monograph series** (~3,430 pages, available on Amazon KDP)
-- A **Lean 4 formalization library** (TauLib, 458 modules, 0 sorry across all 7 books)
+- A **Lean 4 formalization library** (TauLib, 458 modules, 0 sorry across all 7 books of TauLib Lean source; Book VI registry-planned, not yet Lean-formalized — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}))
 - This **research website** ({{ result_count }} key results, {{ registry_count }} registry objects)
 - **Guided tours** and **structural falsification whitepapers**
 

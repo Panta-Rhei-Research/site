@@ -46,6 +46,20 @@ right_rail:
 
 ## Derivation
 
+The rational fraction $20/81$
+factors as $(8/27) · (5/6)$
+where $8/27 = 2^3/3^3$
+is the He-4 packing maximum
+(a $2^3$ tetrahedron of nucleons
+inside the stride-3 macrocell $3^3$
+of the BBN voxel lattice, V.T146),
+and $5/6 = 1 - (1/2)(1/3)$
+is the domain-wall correction (V.D194).
+So $27 = 3^3 = (stride)^3$
+and $81 = 27 · 6/2 = 3^4$
+are both traceable to the
+stride-3 lattice (no free integers).
+
 The fiber suppression is selective:
 it affects only $A ≥ 7$ nuclei
 (those requiring EM radiative capture

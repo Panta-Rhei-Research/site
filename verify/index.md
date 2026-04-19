@@ -12,7 +12,7 @@ hero_ctas:
     url: /verify/release-manifest/
   - label: "Formalization Status"
     url: /verify/taulib/status/
-hero_supporting_line: "458 Lean 4 modules · 127,440 lines · 4,332 machine-checked theorems · 0 sorry across all 7 books · 3 conjectural axioms · Mathlib for tactics only."
+hero_supporting_line: "458 Lean 4 modules · 127,440 lines · 4,332 machine-checked theorems · 0 sorry across all 7 books (TauLib Lean corpus; scope tiered — see [filter rules](/verify/filter-rules/)) · 3 conjectural axioms · Mathlib for tactics only."
 summary_cards:
   - title: "What can be checked"
     body: "Every theorem in TauLib compiles in Lean 4. Every quantitative prediction has an explicit formula. Every scope claim carries its epistemic label."
@@ -32,8 +32,11 @@ right_rail:
     - title: "TauLib Docs"
       url: "https://taulib.site/"
       external: true
-    - title: "TauLib Source"
+    - title: "TauLib Source (Apache-2.0)"
       url: "https://github.com/Panta-Rhei-Research/taulib"
+      external: true
+    - title: "License (Apache-2.0)"
+      url: "https://github.com/Panta-Rhei-Research/taulib/blob/main/LICENSE"
       external: true
     - title: "TauLib (frozen)"
       url: "https://github.com/Panta-Rhei-Research/formalization"
@@ -49,9 +52,11 @@ right_rail:
 
 The Panta Rhei Research Program distinguishes sharply between what can be formally verified and what remains open to scientific scrutiny.
 
+**Licensing.** **TauLib**: Apache-2.0. **Site prose and predictions**: CC BY 4.0. Both licenses permit inspection and reuse with attribution.
+
 ### What can be checked now
 
-- **Internal consistency**: Every theorem in TauLib compiles in Lean 4 with zero sorry across all 7 books. Clone the repo, run `lake build`, and confirm.
+- **Internal consistency**: Every theorem in TauLib compiles in Lean 4 with zero sorry across all 7 books. Clone the repo, run `lake build`, and confirm. — counted over the TauLib Lean source; Book VI has 30 Lean modules, none with `sorry`, but Book VI registry-level formalization is currently planned (0/168). See [filter rules]({{ '/verify/filter-rules/' | relative_url }}).
 - **Quantitative predictions**: Every numerical claim (α, m_n/m_e, ℓ₁, r, n_s) has an explicit formula derivable from ι<sub>τ</sub> = 2/(π + e). Compute it yourself.
 - **Scope labels**: Every claim carries one of four labels: established, τ-effective, conjectural, or metaphorical. The labels are enforced in the LaTeX source.
 - **Dependency chains**: The registry tracks 4,547 objects with explicit dependency edges. Every theorem traces back to the seven axioms.

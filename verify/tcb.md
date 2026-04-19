@@ -73,7 +73,7 @@ The following theorems, when inspected with `#print axioms`, surface `Lean.ofRed
 | `consecutive_window_integers` | `BookIV.Arena` | Closed-form check on W_n(k) closed-form identities |
 | `physics_ledger_consistency` (V.T101) | `BookV.Physics.Ledger` | Numerical consistency of derived constants |
 
-This is a partial list; the full enumeration of theorems whose `#print axioms` output includes the TCB extension will be published as a CI-generated artifact in a future release (see closing note).
+This partition is machine-attested: the table above is generated from `#print axioms` output in CI; the raw artifact lives at [`docs/print_axioms_report.md`](https://github.com/ThorstenFuchs-Panta-Rhei/taulib/blob/main/docs/print_axioms_report.md) in the TauLib repo (with a machine-readable JSON companion at `.github/workflows/output/print_axioms.json`, downloadable from every CI run as the `print-axioms-report` build artifact). The driver that produces it — `TauLib/Meta/PrintAxioms.lean` — runs `#print axioms` on each headline theorem plus the three project axioms; the harvester (`scripts/print_axioms_report.py`) parses the elaboration output and writes the Markdown and JSON files above. The table on this page is a curated excerpt; the artifact is the authoritative source.
 
 ## Which theorems don't
 
@@ -112,7 +112,7 @@ This disclosure is the posture we prefer: name the cost, locate it, let the read
 
 A prior version of the Verify lane warned auditors about `native_decide` as a red flag on audit checklists — while the headline theorem of Book II was itself proved by it. That was an inconsistency. It is now corrected: the `native_decide` usage is disclosed in full, the theorems that depend on it are enumerated, and the reader is given the tools to make their own determination.
 
-A future release will report per-theorem `#print axioms` output as a CI-generated artifact linked from each registry entry, so that the TCB footprint of any claim is a single click away rather than requiring a local Lean 4 build. Until then, the disclosure on this page plus a local `lake build` at the pinned commit is the reproducible protocol.
+As of peer-review-fixes-v2 (2026-04-19) the per-theorem `#print axioms` output is emitted as a CI artifact from every build of TauLib — see the paragraph above "Which theorems depend on `native_decide`" for the link. Per-registry-entry linking from each claim into that artifact remains a separate, finer-grained improvement on the roadmap; for now, the single machine-attested report covers the headline theorems the TCB partition rests on.
 
 ## Cross-links
 

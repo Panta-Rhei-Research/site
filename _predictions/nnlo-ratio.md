@@ -54,9 +54,19 @@ right_rail:
 (1.16,\; 0.87),
 
 where the NNLO shifts are
-$δ_1 = 3/175 = 3/(7 × 25)
-= 3/(7 · W_3(4)^2)$
-and $δ_2 = 9/700 = 9/(7 × 100)$.
+$δ_1 = 3/175 = 3/(7 · W_3(4)^2)
+= dim(τ^3)/(n · W_3(4)^2)$
+and
+$δ_2 = 9/700 = 9/(n · 2|lobes| · W_3(4)^2)$,
+with $n = 7 = 2|lobes| + |sectors|$,
+$|lobes| = 2$, $|sectors| = 3$,
+$dim(τ^3) = 3$, $W_3(4) = 5$.
+Equivalently $700 = 7 · 100$
+where $100 = 2|lobes| · W_3(4)^2 = 4 · 25$;
+every integer in the denominators
+is traceable to the $τ$-framework's
+structural constants
+(no free integers).
 Three structural properties hold:
 
 - **4/3 ratio preserved at every order:**
