@@ -26,7 +26,7 @@ right_rail:
 
 ## Overview
 
-IV.T166 derives the Higgs boson mass using the structural integer n = 7, where 7 = 2·|lobes| + |sectors| = 2·2 + 3 = 7 (two lemniscate lobes and three τ-sectors). The formula m_H = κ_ω⁻¹(4 − ι<sub>τ</sub>³/(1 − 5κ_ω)) with n = 7 gives +8.0 ppm agreement with the PDG value of 125.20 GeV — exceptional precision with zero free parameters.
+IV.T166 derives the Higgs boson mass using the structural integer n = 7, where 7 = 2·|lobes| + |sectors| = 2·2 + 3 = 7 (two lemniscate lobes and three τ-sectors). The formula m_H = κ_ω⁻¹(4 − ι<sub>τ</sub>³/(1 − 5κ_ω)) with n = 7 gives +8.0 ppm agreement with the PDG value of 125.20 GeV — exceptional precision with zero free continuous parameters.
 
 ## Detail
 

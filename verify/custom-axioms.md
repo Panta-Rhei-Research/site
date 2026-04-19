@@ -3,7 +3,7 @@ layout: program-doc
 title: "Custom Axiom Inventory — The Compute-Then-Axiomatize Pattern"
 permalink: /verify/custom-axioms/
 lane: verify
-summary_short: "Honest accounting of the four custom axiom declarations in TauLib beyond Mathlib's trusted base: what each axiom says, what finite computation motivates it, what the universal step being axiomatized is, and what specialist-review would close on each."
+summary_short: "Honest accounting of the three custom axiom declarations in TauLib beyond Mathlib's trusted base: what each axiom says, what finite computation motivates it, what the universal step being axiomatized is, and what specialist-review would close on each. The fourth axiom shipped in v1 (`central_theorem_physical : True`) was retired in peer-review-fixes-v1."
 right_rail:
   related:
     - title: "Release Manifest"
@@ -21,7 +21,7 @@ right_rail:
     updated: "April 2026"
 ---
 
-The [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) states, at the headline level, that TauLib contains **4 custom `axiom` declarations** beyond Mathlib's trusted base: **3 in Book III** (spectral / number-theoretic bridges) and **1 in Book IV** (microcosm sector-coupling). This page expands that accounting.
+The [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) states, at the headline level, that TauLib contains **3 custom `axiom` declarations** beyond Mathlib's trusted base: **all 3 in Book III** (spectral / number-theoretic bridges). A previously shipping fourth axiom `central_theorem_physical : True` in Book IV was retired in `peer-review-fixes-v1` (2026-04-19) — an `axiom : True` declaration is a no-op (True is inhabited by `trivial`) and was identified in pre-publication simulated peer review as a null commitment that inflated the axiom inventory from 3 to 4 without adding anything to the theory. This page expands the accounting of the three remaining axioms.
 
 The question a serious reviewer asks — and the April 2026 external assessments asked it explicitly — is: *for each custom axiom, what is the justification? Is this honest "compute-then-axiomatize" or is it a hidden load-bearing assumption dressed up as a universal statement?*
 
@@ -46,14 +46,14 @@ The Mathlib community's norms on this are strict, and Lean's `#print axioms` mec
 
 ## Inspecting the custom axioms
 
-Any reviewer can, at the pinned commit [`181a59e`]({{ 'https://github.com/Panta-Rhei-Research/taulib/commit/181a59e1bb7099c5ae49cb4c3aa027a9e76f98a5' }}):
+Any reviewer can, at the pinned commit [`2261c04`]({{ 'https://github.com/Panta-Rhei-Research/taulib/commit/2261c049119c8dd9a4e891457f196745178c02b3' }}):
 
 ```bash
 cd taulib
 rg "^axiom " TauLib --stats
 ```
 
-Expected output: **4 matches**, with their module locations.
+Expected output: **3 matches**, with their module locations (all in `TauLib/BookIII/`).
 
 For any downstream theorem `T`, run in Lean 4:
 
@@ -65,9 +65,9 @@ Expected output lists:
 - Mathlib's trusted base (`Classical.choice`, `propext`, `Quot.sound`)
 - **Plus, if T transitively depends on a custom axiom**, the custom axiom's name.
 
-This is the diagnostic. A theorem claimed as "Resolved" that transitively depends on one of the four custom axioms should carry a scope label reflecting that dependency. The [Formal Methods audit route]({{ '/verify/how-to-audit/formal-methods/' | relative_url }}) names this as one of the fail-fast checks.
+This is the diagnostic. A theorem claimed as "Resolved" that transitively depends on one of the three custom axioms should carry a scope label reflecting that dependency. The [Formal Methods audit route]({{ '/verify/how-to-audit/formal-methods/' | relative_url }}) names this as one of the fail-fast checks.
 
-## The four custom axioms
+## The three custom axioms
 
 The precise Lean identifiers live in the TauLib source at the pinned commit. The specialist should verify them directly there. The descriptions below are at the prose level; the Lean source is authoritative.
 
@@ -107,21 +107,19 @@ The precise Lean identifiers live in the TauLib source at the pinned commit. The
 
 **Where it is load-bearing.** Grand GRH claims for higher-rank classes (not classical GRH for Dirichlet L, which is finite-checked separately). Any Resolved-status GRH claim that depends transitively on this axiom should be re-typed to Partial.
 
-### Axiom 4 — Microcosm sector-coupling (Book IV)
+### Axiom 4 (RETIRED) — `central_theorem_physical : True` (Book IV)
 
-**What it says.** The sector-coupling constants κ(X, Y) = ι_τ^a · (b/c) for specified pairs (X, Y) in the sector hierarchy satisfy a universal consistency relation — the **coupling coherence identity** — beyond the finite check.
+**Status.** Retired in `peer-review-fixes-v1` (2026-04-19). No longer present in the TauLib source at the current pinned commit.
 
-**What is finite-checked.** The coupling coherence identity has been verified for all sector pairs and all τ-admissible coupling configurations up to a stated numerical bound covering the Standard-Model-relevant cases (electroweak, strong, gravitational).
+**What it had said.** The original declaration was `axiom central_theorem_physical : True` in `BookIV/Arena/BoundaryHolonomy.lean`, intended to mark the physical interpretation of the Book II Central Theorem as a named axiomatic hook.
 
-**What is axiomatized.** The coherence identity holds for *all* pairs and all configurations beyond the finite window, including hypothetical extensions.
+**Why it was retired.** An axiom of type `True` is a no-op: `True` is already inhabited by `trivial`, so declaring an axiom at that type adds no logical content and names no new commitment. In pre-publication simulated peer review (chair: Leonardo de Moura, reviewer: Joachim Breitner) the declaration was flagged as a null commitment that inflated the visible axiom inventory from 3 to 4 without adding anything to the theory. The correct posture is either (a) state the physical interpretation as a proved theorem referencing the Book II algebraic proof, or (b) omit the declaration. Option (b) was chosen for v2.
 
-**What closes the gap.** A direct derivation of the coupling coherence identity from the kernel axioms K5 (diagonal discipline) and K6 (sector-exhaustion discipline).
-
-**Where it is load-bearing.** The numerical physics predictions (Standard Model masses, Higgs self-coupling, CKM, PMNS) depend on the coherence identity. Any Resolved prediction inheriting this dependency is **structurally** τ-admissible but its universal validity (for hypothetical BSM extensions) is axiomatic.
+**Current state.** The physical interpretation of the Central Theorem is now carried by the Book II algebraic statement and its guided tour in `TauLib/Tour/CentralTheorem.lean`; no Book IV axiom mediates the physical reading.
 
 ## Why this pattern rather than a proof
 
-The honest reason is: the compute-then-axiomatize pattern is **faster than producing a full structural proof**, and it makes the conjectural step **visible** to `#print axioms`. A researcher who proved these four axioms would collapse the Partial/Conjectural status labels that depend on them; until then, the axioms are placeholders for work-in-progress proofs.
+The honest reason is: the compute-then-axiomatize pattern is **faster than producing a full structural proof**, and it makes the conjectural step **visible** to `#print axioms`. A researcher who proved these three axioms would collapse the Partial/Conjectural status labels that depend on them; until then, the axioms are placeholders for work-in-progress proofs.
 
 This is also exactly the pattern Mathlib and large Lean projects use for deep structural conjectures that admit numerical evidence but not immediate proofs (e.g., the prime-number-theorem bounds, certain analytic-number-theory density results). It is a pattern Lean was designed to surface cleanly.
 
@@ -131,9 +129,9 @@ A framework that hid such axioms inside definitions, used them implicitly in tac
 
 A Lean-4 / formal-methods specialist should verify:
 
-1. **Count correctness.** Is the `rg "^axiom"` output exactly 4 matches at the pinned commit? (Claim: yes.)
-2. **Axiom chain faithfulness.** For each of ~10 headline theorems that the Release Manifest claims as Resolved, does `#print axioms` surface only the Mathlib trusted base and no custom axioms? (Claim: yes.)
-3. **Partial-claim axiom propagation.** For each claim marked Partial that references one of the four axioms, does `#print axioms` surface the expected custom axiom? (Claim: yes.)
+1. **Count correctness.** Is the `rg "^axiom"` output exactly 3 matches at the pinned commit, all in `TauLib/BookIII/`? (Claim: yes.)
+2. **Axiom chain faithfulness.** For each of ~10 headline theorems that the Release Manifest claims as Resolved, does `#print axioms` surface only the Mathlib trusted base plus (where applicable) the `native_decide` TCB extension (`Lean.ofReduceBool`, `Lean.trustCompiler`) and no custom axioms? (Claim: yes; see [TCB Disclosure]({{ '/verify/tcb/' | relative_url }}).)
+3. **Partial-claim axiom propagation.** For each claim marked Partial that references one of the three axioms, does `#print axioms` surface the expected custom axiom? (Claim: yes.)
 4. **Finite-check reproducibility.** For each custom axiom, the stated finite bound is reproducible via `native_decide` on the pinned commit. (Claim: yes.)
 5. **Honest downstream-status propagation.** No Resolved claim transitively depends on a custom axiom in a way that should have re-typed it to Partial. (Claim: all such dependencies have been re-typed.)
 
@@ -141,7 +139,7 @@ Any finding that violates (1)–(5) should be reported to the program — this w
 
 ## What this page does NOT claim
 
-- It does not claim the four axioms will be proved in the near term. They are research-open.
+- It does not claim the three axioms will be proved in the near term. They are research-open.
 - It does not claim the finite-check bounds are adequate to persuade a number-theorist that the universal extension is plausible. The finite checks are *Lean-decidable* evidence; they are not *mathematical* proofs of the universal case.
 - It does not replace the [Formal Methods Audit route]({{ '/verify/how-to-audit/formal-methods/' | relative_url }}) — that is the concrete verification protocol for the claims on this page.
 - It does not claim that the compute-then-axiomatize pattern is superior to direct proof. It is a transitional form: proofs-in-progress surfaced honestly.

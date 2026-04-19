@@ -133,7 +133,7 @@
     "layer": "mathematics",
     "result_type": "structural_readout",
     "bridge_status": "internal",
-    "summary_short": "All content of Books IV–VII is a sector instantiation of the Book III template; all inter-sector couplings are rational functions of ι<sub>τ</sub> with zero free parameters.",
+    "summary_short": "All content of Books IV–VII is a sector instantiation of the Book III template; all inter-sector couplings are rational functions of ι<sub>τ</sub> with zero free continuous parameters.",
     "url": "/results/problem/hinge-theorem-no-knobs/",
     "canonical_books": [
       "I"
@@ -324,7 +324,7 @@
     "layer": "physics",
     "result_type": "structural_readout",
     "bridge_status": "internal",
-    "summary_short": "Flat rotation curves follow from v_∞ = (GM_b c²/(2ℓ_τ))^(1/4) — the Baryonic Tully-Fisher Relation derived with zero free parameters.",
+    "summary_short": "Flat rotation curves follow from v_∞ = (GM_b c²/(2ℓ_τ))^(1/4) — the Baryonic Tully-Fisher Relation derived with zero free continuous parameters.",
     "url": "/results/problem/flat-rotation-curves/",
     "canonical_books": [
       "V"
@@ -1110,7 +1110,7 @@
     "layer": "mathematics",
     "result_type": "structural_readout",
     "bridge_status": "internal",
-    "summary_short": "The Rydberg constant R_∞ is derived to seven significant figures — at 0.026 ppm agreement with CODATA — from the τ-framework with zero free parameters.",
+    "summary_short": "The Rydberg constant R_∞ is derived to seven significant figures — at 0.026 ppm agreement with CODATA — from the τ-framework with zero free continuous parameters.",
     "url": "/results/problem/rydberg-constant-seven-significant-figures/",
     "canonical_books": [
       "IV"

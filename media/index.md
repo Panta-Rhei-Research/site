@@ -35,7 +35,7 @@ The Panta Rhei Research Program is an independent open research program developi
 
 {% assign book_count = site.data.publications.books | size %}{% assign result_count = site.data.results.results | size %}{% assign registry_count = site.data.registry.objects | size %}{% assign chapter_count = site.data.publications.chapters | size %}The program's canonical release (April 2026) includes:
 - A **{{ book_count }}-book monograph series** (~3,430 pages, available on Amazon KDP)
-- A **Lean 4 formalization library** (TauLib, 450 modules, 0 sorry in Books I–VI)
+- A **Lean 4 formalization library** (TauLib, 458 modules, 0 sorry across all 7 books)
 - This **research website** ({{ result_count }} key results, {{ registry_count }} registry objects)
 - **Guided tours** and **structural falsification whitepapers**
 
@@ -46,7 +46,7 @@ The Panta Rhei Research Program is an independent open research program developi
 - **Master constant**: ι<sub>τ</sub> = 2/(π+e) ≈ 0.3413
 - **Books**: {{ book_count }} volumes, {{ chapter_count }} chapters
 - **Results**: {{ result_count }} key results across 4 domains
-- **Formalization**: 125,771 lines of Lean 4, 4,332 theorems, zero sorry in Books I–VI
+- **Formalization**: 127,440 lines of Lean 4, 4,332 theorems, zero sorry across all 7 books
 - **Registry**: {{ registry_count }} mathematical objects with dependency graphs
 - **Falsification**: 220+ quantitative predictions with precision claims
 - **Decisive test**: CMB-S4 tensor-to-scalar ratio r ≈ ι<sub>τ</sub>⁴ ≈ 0.0135
@@ -102,7 +102,7 @@ The Panta Rhei Research Program develops Category τ, a categorical framework th
 | Key results | {{ result_count }} |
 | Registry objects | {{ registry_count }} |
 | Lean 4 modules | 450 |
-| Lines of Lean 4 | 125,771 |
+| Lines of Lean 4 | 127,440 |
 | Machine-checked theorems | 4,332 |
 | Sorry (unproven) | 3 (Book VII only) |
 | Free parameters | 0 |

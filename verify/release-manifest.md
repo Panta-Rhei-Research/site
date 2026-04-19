@@ -39,15 +39,17 @@ The 445 API-doc pages under `/verify/taulib/docs/` were generated from TauLib co
 | Metric | Value |
 |--------|------:|
 | Total modules | **445** |
-| Total lines | 125,771 |
+| Total lines | 127,440 |
 | Theorems + lemmas | 4,332 |
 | Definitions | 3,542 |
 | Structures + types | 1,685 |
 | Computations (`#eval`) | 3,721 |
-| Custom `axiom` declarations | **4** (3 in Book III, 1 in Book IV) |
-| `sorry` (incomplete proofs) | **3** (all in Book VII, methodological) |
+| Custom `axiom` declarations | **3** (all in Book III — spectral / number-theoretic bridges) |
+| `sorry` (incomplete proofs) | **0** (across all 7 books) |
 
-The 4 custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module API docs. The 3 `sorry` sites in Book VII are **intentional and flagged**: they mark philosophical commitments that Book VII itself argues are the kind of thing that must remain a commitment rather than be closed by proof (consistent with the "No Forced Stance" theorem VII.T47). They are not hidden debt.
+The 3 custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module API docs. The prior v1 release pinned at commit `181a59e` shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op — an axiom of type `True` is inhabited by `trivial` and added nothing to the theory.
+
+Pre-peer-review-fixes-v1, Book VII shipped three `theorem X : True := sorry` declarations encoding methodological commitments. These were identified as performative (True is provable by `trivial`) and were retired in favor of inspectable `def : Commitment` values carrying `statement`/`warrant`/`registry_id` string data. TauLib now contains **zero sorry across all seven books**. See `TauLib/BookVII/Meta/Commitment.lean` and the three commitment defs in `BookVII/Logos/Sector.lean` and `BookVII/Final/Boundary.lean`.
 
 ## Per-book reconciliation
 
@@ -61,9 +63,9 @@ This is the table Assessment #3 asked for. It shows, for each book, what each of
 | IV — Microcosm | 1864 | 1292 | 973 | 89 | 0 |
 | V — Macrocosm | 1419 | 1253 | 884 | 80 | 0 |
 | VI — Life | 217 | 168 | 0 | 30 | 0 |
-| VII — Metaphysics | 274 | 273 | 182 | 7 | 3 |
+| VII — Metaphysics | 274 | 273 | 182 | 7 | 0 |
 | Tour modules | — | — | — | 8 | 0 |
-| **Total** | **4,547** | **3,548** | **2,675** | **445** | **3** |
+| **Total** | **4,547** | **3,548** | **2,675** | **445** | **0** |
 
 Each column applies a specific **filter rule** to the same canonical source. The filter rules are documented on the [Filter Rules manifest]({{ '/verify/filter-rules/' | relative_url }}) and summarized here:
 
@@ -96,7 +98,7 @@ A follow-up sprint to consolidate the generation pipeline end-to-end (one script
 
 ## What this release does NOT claim
 
-- **Book VII is not formalized.** The Lean corpus for Book VII contains 7 modules and 3 intentional `sorry` sites that mark philosophical commitments (not proof debt). Book VII's status is "methodologically serious, not mechanically verified."
+- **Book VII is formalized at methodological depth.** The Lean corpus for Book VII contains 7 modules that include three `def : Commitment` values carrying structural-commitment data (statement, warrant, registry_id). Zero `sorry`. The Book VII formalization is scaffolded; the monograph's prose content is the primary substance.
 - **The physics bridge is not proof-assistant-verified.** TauLib verifies the internal τ-framework mathematics; it does not verify that τ-internal statements correspond to the external physics they are interpreted as describing. The 67 predictions in the [Physics Ledger](/results/predictions/browse/) are derived from the framework's algebraic structure; their agreement with experiment is empirical, not machine-checked.
 - **Millennium resolutions are not Clay-valid formulations.** Only the Poincaré conjecture aligns with the Clay statement as solved (via Perelman's proof, re-read in τ-language). The other six Millennium claims are τ-internal formulations with explicit bridge-conjecture gaps; see the [Millennium & Langlands briefing]({{ '/results/fields/millennium-langlands/' | relative_url }}).
 
@@ -113,7 +115,7 @@ git checkout {{ build.taulib.commit_sha }}
 # Mathlib: {{ build.mathlib.commit_short }}
 
 lake build          # Expect: 0 errors, ~8–12 min on 8-core laptop
-rg "sorry" TauLib   # Expect: 3 matches, all in TauLib/Book7/
+rg "sorry" TauLib   # Expect: 0 matches across all 7 books
 ```
 
 Continuous integration runs on every push and pull request and reports file count, line count, `sorry` count, and `axiom` count to the CI log. A failed build or a regression in `sorry` count is a merge blocker on `main`.
@@ -122,4 +124,4 @@ Continuous integration runs on every push and pull request and reports file coun
 
 - **Drift consolidation** — one source-of-truth for registry totals across all surfaces.
 - **Book VI formalization uplift** — currently 0 of 168 dashboard objects formalized; Book VI ch22 (Three Domains) and ch31 (Ecosystems) have solid internal theorem structure and are the priority targets.
-- **Book VII methodological `sorry` replacement with commitment tags** — move the three `sorry` sites to explicit `#print axiom` declarations so the commitment status is inspectable rather than inferred.
+- **Book VII methodological `sorry` replacement with commitment tags — DONE** (landed in `peer-review-fixes-v1`, 2026-04-19). The three `theorem X : True := sorry` declarations were replaced with inspectable `def : Commitment` values in `TauLib/BookVII/Meta/Commitment.lean`.

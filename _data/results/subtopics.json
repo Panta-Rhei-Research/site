@@ -235,6 +235,6 @@
   "slug": "standard-model-particle-physics",
   "title": "Standard Model of Particle Physics",
   "topic": "",
-  "summary_short": "All Standard Model constants derived from \u03b9_\u03c4 with zero free parameters; force-generator assignment A=\u03c0(Weak), B=\u03b3(EM), C=\u03b7(Strong), D=\u03b1(Gravity), \u03c9=Higgs."
+  "summary_short": "All Standard Model constants derived from \u03b9_\u03c4 with zero free continuous parameters; force-generator assignment A=\u03c0(Weak), B=\u03b3(EM), C=\u03b7(Strong), D=\u03b1(Gravity), \u03c9=Higgs."
  }
 ]

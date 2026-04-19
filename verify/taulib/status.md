@@ -37,14 +37,14 @@ The 445 API-doc pages in `/verify/taulib/docs/` were generated from TauLib commi
 | Metric | Value |
 |--------|------:|
 | Total modules | 445 |
-| Total lines | 125,771 |
+| Total lines | 127,440 |
 | Theorems and lemmas | 4,332 |
 | Definitions | 3,542 |
 | Structures and types | 1,685 |
 | Computations (`#eval`) | 3,721 |
 | Examples | 350 |
-| Axioms | 4 |
-| Sorry | 3 |
+| Axioms | 3 |
+| Sorry | 0 |
 
 ## Per-Book Breakdown
 
@@ -53,18 +53,18 @@ The 445 API-doc pages in `/verify/taulib/docs/` were generated from TauLib commi
 | I — Foundations | 94 | 20,554 | ~900 | ~700 | 0 | **0** |
 | II — Holomorphy | 65 | 18,069 | ~700 | ~500 | 0 | **0** |
 | III — Spectrum | 70 | 16,807 | ~600 | ~450 | 3 | **0** |
-| IV — Microcosm | 89 | 29,730 | ~1,000 | ~900 | 1 | **0** |
+| IV — Microcosm | 89 | 29,730 | ~1,000 | ~900 | 0 | **0** |
 | V — Macrocosm | 80 | 28,394 | ~900 | ~850 | 0 | **0** |
 | VI — Life | 30 | 5,221 | ~200 | ~200 | 0 | **0** |
-| VII — Metaphysics | 7 | 4,278 | ~120 | ~100 | 0 | 3 |
+| VII — Metaphysics | 7 | 4,278 | ~120 | ~100 | 0 | **0** |
 | Tour | 8 | ~1,850 | — | — | 0 | **0** |
-| **Total** | **443 + 2** | **125,771** | **~4,332** | **~3,721** | **4** | **3** |
+| **Total** | **443 + 2** | **127,440** | **~4,332** | **~3,721** | **3** | **0** |
 
 *443 per-book modules + 2 shared infrastructure modules = 445 total (matching generated API docs).*
 
 ## Axiom Inventory
 
-TauLib contains exactly **4 axioms**, each explicitly declared and documented.
+TauLib contains exactly **3 axioms**, each explicitly declared and documented.
 
 ### Conjectural Axioms (3)
 
@@ -76,20 +76,22 @@ These follow the "compute-then-axiomatize" pattern: a decidable check function i
 | 2 | `spectral_correspondence_O3` | `BookIII.Doors.SpectralCorrespondence` | The O(3) spectral correspondence holds universally |
 | 3 | `grand_grh_adelic` | `BookIII.Doors.GrandGRH` | The adelic Generalized Riemann Hypothesis (used for spectral completeness) |
 
-### Structural Axiom (1)
+### Retired axiom (v1 → v2)
 
-| # | Axiom | Module | What It Asserts |
-|---|-------|--------|-----------------|
-| 4 | `central_theorem_physical` | `BookIV.Arena.BoundaryHolonomy` | The Central Theorem holds in the physical interpretation; references the algebraic proof in Book II |
+A fourth axiom `central_theorem_physical : True` (in `BookIV.Arena.BoundaryHolonomy`) was declared in the v1 release pinned at commit `181a59e`. It was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op: an `axiom : True` adds no content because `True` is already inhabited by `trivial`. The physical interpretation of the Book II Central Theorem is now carried by the algebraic statement and its guided tour in `TauLib/Tour/CentralTheorem.lean`; no Book IV axiom mediates it.
+
+See [TCB Disclosure]({{ '/verify/tcb/' | relative_url }}) for the `native_decide` dependencies that appear on `#print axioms` output for theorems that rely on finite-check functions (including the Book II Central Theorem and the three Book III conjectural-axiom finite-check theorems).
 
 ## Sorry Inventory
 
-TauLib contains exactly **3 sorry**, all in Book VII. Each is typed `True := sorry` — the goal is trivially `True`, and the sorry marks a philosophical boundary where formalization itself is the content under discussion.
+TauLib contains **zero `sorry`** across all seven books.
 
-| # | Theorem | Module | Why Sorry |
-|---|---------|--------|-----------|
-| 1 | `omega_point_theorem` | `BookVII.Logos.Sector` | Involves omega, which is non-diagrammatic by design. The theorem asserts convergence toward the omega-attractor. |
-| 2 | `science_faith_boundary` | `BookVII.Logos.Sector` | Full convergence claim involves non-computable limits on omega-directed sequences. |
-| 3 | `no_forced_stance` | `BookVII.Final.Boundary` | Asserts that the lemniscate closure does not force a metaphysical stance. Formalizing it fully would require the framework to step outside itself. |
+Pre-peer-review-fixes-v1, Book VII shipped three declarations of the form `theorem X : True := sorry` encoding methodological commitments. These were identified as performative — `True` is provable by `trivial`, so `theorem X : True := sorry` is a marker, not an incomplete proof — and were replaced in `peer-review-fixes-v1` with inspectable `def : Commitment` values that carry structural data (`statement`, `warrant`, `registry_id`) rather than pretending to be proof debt.
 
-**Key property:** All three sorry are reachable only through Book VII's philosophical modules. No mathematical or physical result in Books I-VI depends on any sorry.
+| # | Prior (v1) declaration | Replaced by | Module |
+|---|------------------------|-------------|--------|
+| 1 | `omega_point_theorem : True := sorry` | `omega_point_commitment : Commitment` | `BookVII.Logos.Sector` |
+| 2 | `science_faith_boundary : True := sorry` | `science_faith_boundary_commitment : Commitment` | `BookVII.Logos.Sector` |
+| 3 | `no_forced_stance : True := sorry` | `no_forced_stance_commitment : Commitment` | `BookVII.Final.Boundary` |
+
+The `Commitment` record is defined in `BookVII.Meta.Commitment`. Each commitment value is a piece of inspectable data — the reader can read what the program is committing to, rather than infer it from a methodological `sorry` tag.

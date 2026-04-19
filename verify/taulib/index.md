@@ -3,14 +3,14 @@ layout: program-doc
 title: "TauLib"
 permalink: /verify/taulib/
 lane: verify
-summary_short: "The Lean 4 formalization library for Category τ — 450 modules, 125,771 lines, 0 sorry in Books I-VI."
+summary_short: "The Lean 4 formalization library for Category τ — 458 modules, 127,440 lines, 0 sorry across all 7 books."
 summary_cards:
-- title: "450 modules"
+- title: "458 modules"
   body: "Across 7 books, covering kernel axioms through metaphysical boundary theorems."
 - title: "4,332 theorems"
   body: "Machine-checked in Lean 4 with 3,721 computational evaluations."
-- title: "3 sorry"
-  body: "All in Book VII — philosophical boundary theorems where formalization is the content."
+- title: "0 sorry"
+  body: "Zero across all 7 books. The three prior Book VII methodological markers were retired in peer-review-fixes-v1 in favor of inspectable `def : Commitment` values."
 right_rail:
   related:
   - title: Verify Overview
@@ -42,7 +42,7 @@ git clone https://github.com/Panta-Rhei-Research/taulib
 cd taulib && lake build
 ```
 
-Build completes with **0 errors** and **0 sorry in Books I-VI**.
+Build completes with **0 errors** and **0 sorry across all 7 books**.
 
 ## What TauLib Verifies
 
@@ -70,7 +70,7 @@ Each TauLib module corresponds to a specific chapter or section in the monograph
 ## Entry Points
 
 ### Documentation
-- [API Documentation]({{ '/verify/taulib/docs/' | relative_url }}) — 445 module pages generated from Lean 4 source
+- [API Documentation]({{ '/verify/taulib/docs/' | relative_url }}) — 450 module pages generated from Lean 4 source
 - [Architecture]({{ '/verify/taulib/architecture/' | relative_url }}) — Module dependency graph and reading paths
 - [Formalization Status]({{ '/verify/taulib/status/' | relative_url }}) — Per-book statistics, axiom inventory, sorry inventory
 - [Scope Labels]({{ '/verify/taulib/scope-labels/' | relative_url }}) — The 4-tier scope classification system

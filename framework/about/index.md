@@ -68,11 +68,11 @@ The pages that follow form a 16-step conceptual staircase. They should be read i
 
 ### [E₀ Mathematics]({{ '/framework/mathematics/' | relative_url }}) — 23 modules
 
-The coherence kernel: five generators, seven axioms, one operator. From this, the framework earns arithmetic, coordinates, boundary structure, holomorphy, topos theory, the Central Theorem, and the enrichment ladder itself. Books I–III.
+The coherence kernel: five generators, seven axioms, one operator, and one master constant ι<sub>τ</sub> = 2/(π + e) posited as a framework-level input. From this kernel and posit, the framework constructs arithmetic, coordinates, boundary structure, holomorphy, topos theory, the Central Theorem, and the enrichment ladder itself. Books I–III.
 
 ### [E₁ Physics]({{ '/framework/physics/' | relative_url }}) — 18 modules
 
-The self-describing universe: quantum mechanics, the particle spectrum, four forces, gravity, cosmology, and black holes — all from one constant ι<sub>τ</sub> = 2/(π + e) with zero free parameters. Books IV–V.
+The self-describing universe: quantum mechanics, the particle spectrum, four forces, gravity, cosmology, and black holes — all from the master constant ι<sub>τ</sub> = 2/(π + e) with zero free continuous parameters (a combinatorial library of structural integers enters via the window algebra W<sub>n</sub>(k); see [verify lane]({{ '/verify/' | relative_url }}) for the full parameter inventory). Books IV–V.
 
 ### [E₂ Life]({{ '/framework/life/' | relative_url }}) — 8 modules
 

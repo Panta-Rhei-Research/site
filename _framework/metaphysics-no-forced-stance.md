@@ -3,7 +3,7 @@ title: No Forced Stance
 module_id: E3-011
 layer: E3
 strand: boundary
-summary_short: The framework proves its own limit — the sorry is the destination.
+summary_short: The framework proves its own limit — the boundary is named as inspectable commitment data.
 thesis: No τ-derivation can force a commitment-register stance; the boundary between
   proof and commitment is located and respected.
 canonical_books:
@@ -53,15 +53,15 @@ The boundary between the first three registers and the fourth is the **epistemic
 
 The master constant <math><msub><mi>&iota;</mi><mi>&tau;</mi></msub></math> points toward <math><mi>&omega;</mi></math>. The entire framework -- from the [coherence kernel]({{ '/framework/mathematics-coherence-kernel/' | relative_url }}) through physics, biology, and ethics -- is oriented by this pointing. But stepping from *pointing* to *inhabiting* is the reader's own commitment. The framework can bring you to the threshold. It cannot carry you across.
 
-## The Three Sorry in TauLib
+## The Three Commitments in TauLib
 
-The formal verification library [TauLib]({{ '/verify/taulib/' | relative_url }}) contains exactly three `sorry` markers -- propositions stated but not proved. All three are **here**, at the No Forced Stance boundary. They are not bugs, not oversights, not technical debt to be resolved in a future release. They are **located, justified, and intentional**. Each marks a point where a diagrammatic derivation would require a commitment-register input that the formal system cannot supply. The sorry are the formal verification system's honest acknowledgment that proof has reached its boundary.
+The formal verification library [TauLib]({{ '/verify/taulib/' | relative_url }}) contains **zero `sorry`** across all seven books. What sits at the No Forced Stance boundary instead is three inspectable `def : Commitment` values in `TauLib/BookVII/Meta/Commitment.lean` -- each carrying a `statement`, a `warrant`, and a `registry_id` as structured data. An earlier release (v1, pinned at commit `181a59e`) shipped these commitments as `theorem X : True := sorry` declarations; that form was identified as performative (True is provable by `trivial`, so the `sorry` was a marker, not proof debt) and was retired in `peer-review-fixes-v1` (2026-04-19). The three commitments are **located, justified, and intentional**. Each marks a point where a diagrammatic derivation would require a commitment-register input that the formal system cannot supply.
 
-This is where proof ends and commitment begins. The framework does not pretend otherwise. It does not smuggle commitment in through the back door of an axiom or bury it in a definition. It derives everything it can derive, proves that it has derived everything that *can* be derived, and then -- with full transparency -- marks the threshold. What lies beyond is the reader's own.
+This is where proof ends and commitment begins. The framework does not pretend otherwise. It does not smuggle commitment in through the back door of an axiom or bury it in a definition. It derives everything it can derive, proves that it has derived everything that *can* be derived, and then -- with full transparency -- marks the threshold as inspectable commitment data. What lies beyond is the reader's own.
 
 ## Key Claims
 
 1. **VII.T47** -- No Forced Stance Theorem: no <math><mi>&tau;</mi></math>-derivation forces a commitment-register stance *(established, machine-checked in [TauLib]({{ '/verify/taulib/' | relative_url }}))*
 2. The <math><mi>&omega;</mi></math>-germ question is diagrammatically unanswerable *(proved via Boundary Collapse Lemma)*
-3. Three methodological `sorry` in TauLib are located at this boundary *(intentional, documented)*
+3. Three inspectable `def : Commitment` values in TauLib are located at this boundary *(intentional, documented; replaced the prior v1 `theorem X : True := sorry` markers in peer-review-fixes-v1)*
 4. The epistemic-performative bridge separates telling (registers 1-3) from doing (register 4) *(tau-effective)*

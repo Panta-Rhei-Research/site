@@ -46,6 +46,6 @@ The decisive near-term test is the CMB-S4 measurement of the [tensor-to-scalar r
 
 ## The philosophical consequence
 
-A framework with zero free parameters cannot be tuned. It cannot retreat to "well, if we adjust this parameter..." It either holds or it does not. This is what the program means by *earned* physics: every prediction is a structural consequence of the kernel, not an accommodation of data.
+A framework with zero free continuous parameters — once the master constant &iota;<sub>&tau;</sub> = 2/(&pi;+e) is posited — cannot be tuned at the real-valued level, though structural integers entering via the window algebra W<sub>n</sub>(k) are determined, not free. It cannot retreat to "well, if we adjust this parameter..." It either holds or it does not. This is what the program means by *earned* physics: every prediction is a structural consequence of the kernel and the posited constant, not an accommodation of data.
 
 This is also why the [scope labels]({{ '/results/status-and-claim-typing/' | relative_url }}) matter. Not every claim is at the same epistemic level. Some are *tau-effective* (derived from the framework with explicit precision bounds). Some are *conjectural* (structurally motivated but not yet fully derived). The program's discipline is to type these claims honestly and let the evidence decide.

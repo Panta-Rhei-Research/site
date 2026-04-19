@@ -33,7 +33,7 @@ right_rail:
   </a>
 </div>
 
-The **Physics Ledger** is the complete numerical scorecard of the Panta Rhei Research Program — **67 quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with **zero free parameters**. Originally Part VII of [Book V (*Categorical Macrocosm*)]({{ '/publications/books/book-v/' | relative_url }}), it is published here as a free companion document for self-contained access.
+The **Physics Ledger** is the complete numerical scorecard of the Panta Rhei Research Program — **67 quantitative predictions** derived from the master constant ι<sub>τ</sub> = 2/(π+e) posited as framework input, with **zero free continuous parameters** (structural integers W<sub>n</sub>(k) enter from the continued-fraction expansion of ι<sub>τ</sub>; full parameter inventory at [verify lane]({{ '/verify/' | relative_url }})). Originally Part VII of [Book V (*Categorical Macrocosm*)]({{ '/publications/books/book-v/' | relative_url }}), it is published here as a free companion document for self-contained access.
 
 The predictions are **bridge-independent**: they can be compared directly to experimental measurement without accepting the program's deeper ontological claims. The number either agrees with experiment or it doesn't.
 

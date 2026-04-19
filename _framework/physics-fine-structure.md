@@ -3,7 +3,7 @@ title: Fine-Structure Constant & Calibration
 module_id: E1-003
 layer: E1
 strand: microcosm
-summary_short: α = (121/225)·ι<sub>τ</sub>⁴ at 9.8 ppm — zero free parameters.
+summary_short: α = (121/225)·ι<sub>τ</sub>⁴ at 9.8 ppm — zero free continuous parameters.
 diagrams:
 - src: /assets/diagrams/framework/book-iv/physics-fine-structure-coupling-ledger.svg
   caption: "The complete coupling ledger: the three gauge coupling constants g₁, g₂, g₃ are derived from ι<sub>τ</sub>, κ_D, κ_ω, yielding α, sin²θ_W, and α_s as ratios."

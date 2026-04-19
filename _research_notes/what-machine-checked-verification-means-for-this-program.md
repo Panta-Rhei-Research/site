@@ -28,7 +28,7 @@ right_rail:
 
 ## The formalization
 
-[TauLib]({{ '/verify/taulib/' | relative_url }}) is the Lean 4 formalization library for Category &tau;. It currently comprises 450 modules, 125,771 lines of code, and 4,332 machine-checked theorems across six of the seven books ([Books I through VI]({{ '/publications/books/' | relative_url }}) have 0 sorry; [Book VII]({{ '/publications/books/book-vii/' | relative_url }}) retains 3 intentional methodological sorry).
+[TauLib]({{ '/verify/taulib/' | relative_url }}) is the Lean 4 formalization library for Category &tau;. It currently comprises 458 modules, 127,440 lines of code, and 4,332 machine-checked theorems across all seven books, with zero `sorry` across all 7 books after `peer-review-fixes-v1` (2026-04-19) retired three performative `theorem X : True := sorry` markers in [Book VII]({{ '/publications/books/book-vii/' | relative_url }}) in favor of inspectable `def : Commitment` values.
 
 This is not a decorative badge. It is a structural commitment.
 
@@ -55,6 +55,6 @@ The program maintains this distinction explicitly. TauLib is the verification su
 
 ## The 0-sorry discipline
 
-The decision to maintain 0 sorry across Books I-VI is not a technical convenience. It is a research-program commitment: every theorem that the program publishes as "machine-checked" is genuinely machine-checked, without escape hatches.
+The decision to maintain 0 sorry across all 7 books is not a technical convenience. It is a research-program commitment: every theorem that the program publishes as "machine-checked" is genuinely machine-checked, without escape hatches.
 
-The 3 sorry in Book VII are flagged as intentional and methodological &mdash; they mark points where the formalization of metaphysical concepts reaches the boundary of what current type theory can express. They are not bugs. They are honest scope markers.
+Book VII's formalization uses inspectable `def : Commitment` values to mark the framework's explicit philosophical commitments (statement, warrant, registry_id) &mdash; points where the formalization of metaphysical concepts reaches the boundary of what proof is the appropriate form. These replaced three earlier `theorem X : True := sorry` placeholders (which were no-ops, since True is provable by `trivial`) in `peer-review-fixes-v1` on 2026-04-19. They are not proof debt; they are honest scope markers.

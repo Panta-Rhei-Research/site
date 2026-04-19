@@ -24,8 +24,8 @@ right_rail:
 
 ## Overview
 
-How can a single framework with five generators address hundreds of problems across four domains? Because extreme constraint at the base forces specificity everywhere else. Zero free parameters means every prediction is load-bearing.
+How can a single framework with five generators address hundreds of problems across four domains? Because extreme constraint at the base forces specificity everywhere else. Zero free continuous parameters means every prediction is load-bearing.
 
 ## Result Statement
 
-Extreme kernel constraint (5 generators, 7 axioms, 0 free parameters) forces specificity across all four enrichment layers. Status: Resolved.
+Extreme kernel constraint (5 generators, 7 axioms, 0 free continuous parameters) forces specificity across all four enrichment layers. Status: Resolved.

@@ -38,7 +38,7 @@ Book VII developed categorical metaphysics across ontology, aesthetics, language
 
 ## What Changed in the Second Edition
 
-The Second Edition substantially expands the treatment from 92 to 128 chapters, adding the Logos sector, phenomenology, the four registers of metaphysics, and the complete final self-enrichment argument. The subtitle changes to "The Final Self-Enrichment." Lean 4 formalization reaches 66% registry coverage (with 3 intentional methodological sorry).
+The Second Edition substantially expands the treatment from 92 to 128 chapters, adding the Logos sector, phenomenology, the four registers of metaphysics, and the complete final self-enrichment argument. The subtitle changes to "The Final Self-Enrichment." Lean 4 formalization reaches 66% registry coverage with zero `sorry` across all 7 books; Book VII's methodological commitments are encoded as inspectable `def : Commitment` values carrying statement, warrant, and registry_id.
 
 ## Archival Note
 

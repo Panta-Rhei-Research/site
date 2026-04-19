@@ -89,7 +89,7 @@ filter_rules:
       book_vii: 7
       tour_modules: 8
       grand_total: 445
-    source: "pinned TauLib commit 181a59e (Apr 14 2026)"
+    source: "pinned TauLib commit 2261c04 (Apr 19 2026)"
     displayed_on:
       - "verify/taulib/status.md (Per-Book Breakdown)"
       - "verify/release-manifest.md (per-book reconciliation table, 'TauLib modules' column)"

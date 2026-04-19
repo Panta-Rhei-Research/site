@@ -8,7 +8,7 @@ summary_cards:
 - title: "The question"
   body: "How can one framework produce results across mathematics, physics, biology, and philosophy?"
 - title: "The answer"
-  body: "Extreme constraint at the base forces specificity everywhere else. Five generators, seven axioms, one operator — zero free parameters."
+  body: "Extreme constraint at the base forces specificity everywhere else. Five generators, seven axioms, one operator — zero free continuous parameters."
 - title: "The consequence"
   body: "Every prediction is structurally forced. If one is wrong, the kernel itself is falsified."
 right_rail:

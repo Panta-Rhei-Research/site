@@ -3,7 +3,7 @@ title: Electroweak Synthesis & Force Architecture
 module_id: E1-006
 layer: E1
 strand: microcosm
-summary_short: 9 electroweak predictions from 0 free parameters — the five sectors
+summary_short: 9 electroweak predictions from 0 free continuous parameters — the five sectors
   in concert.
 diagrams:
 - src: /assets/diagrams/framework/book-iv/physics-electroweak-synthesis-ew-mixing.svg

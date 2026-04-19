@@ -16,7 +16,7 @@ hero_ctas:
     url: /results/
   - label: "Verify It Yourself"
     url: /verify/
-hero_supporting_line: "Fully constructive formal system (~125k lines of Lean 4, no Mathlib dependency)."
+hero_supporting_line: "Fully constructive formal system (~127k lines of Lean 4; Mathlib imported for tactics only, no Mathlib content modules)."
 right_rail:
   related:
     - title: "About the Research"
@@ -57,14 +57,14 @@ right_rail:
 <div class="content-card homepage-section">
   <svg class="section-icon-corner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
   <h2>The Tau framework</h2>
-  <p>Category &tau; begins below ordinary category theory. Five generators (&alpha;, &pi;, &gamma;, &eta;, &omega;) in strict total order, one progression operator (&rho;), and seven axioms (K0&ndash;K6) define a complete, rigid, countable universe. From this kernel, the framework earns its own arithmetic, geometry, analysis, topology, and category theory&mdash;then enriches itself through four layers:</p>
+  <p>Category &tau; begins below ordinary category theory. Five generators (&alpha;, &pi;, &gamma;, &eta;, &omega;) in strict total order, one progression operator (&rho;), and seven axioms (K0&ndash;K6) define a complete, rigid, countable universe. The framework then posits a single master constant &iota;<sub>&tau;</sub> = 2/(&pi; + e) as an additional framework-level input (the monograph motivates this structurally; the public-facing pages treat &iota;<sub>&tau;</sub> as posited, not yet derived from K0&ndash;K6 on public surfaces). From this kernel and this posit, the framework constructs its own arithmetic, geometry, analysis, topology, and category theory&mdash;then enriches itself through four layers:</p>
   <ul>
     <li><strong>E<sub>0</sub>&mdash;Mathematics</strong> (Books I&ndash;III): Kernel, holomorphy, spectral structure</li>
     <li><strong>E<sub>1</sub>&mdash;Physics</strong> (Books IV&ndash;V): Microcosm and macrocosm from one constant</li>
     <li><strong>E<sub>2</sub>&mdash;Life</strong> (Book VI): Life as self-decoding distinctions</li>
     <li><strong>E<sub>3</sub>&mdash;Metaphysics</strong> (Book VII): The final self-enrichment</li>
   </ul>
-  <p>The master constant &iota;<sub>&tau;</sub> = 2/(&pi;+e) governs all quantitative predictions. Zero free parameters.</p>
+  <p>The master constant &iota;<sub>&tau;</sub> = 2/(&pi;+e) governs all quantitative predictions. Zero free continuous parameters (a combinatorial library of structural integers enters via the window algebra W<sub>n</sub>(k); see the verify lane for the full parameter inventory).</p>
   <div class="btn-group section-ctas">
     <a href="{{ '/framework/about/' | relative_url }}" class="btn-secondary" {% include cta-attrs.html location="section" label="Framework Overview" href="/framework/about/" %}>Framework Overview</a>
     <a href="{{ '/verify/taulib/' | relative_url }}" class="btn-ghost" {% include cta-attrs.html location="section" label="TauLib Documentation" href="/verify/taulib/" %}>TauLib Documentation</a>
@@ -84,7 +84,7 @@ right_rail:
   <p>A selection of flagship claims:</p>
   <ul>
     <li><strong>Dark sector closure</strong> <span class="status-badge status-live">Resolved</span>&mdash;dark matter and dark energy as structural artifacts, not new particles</li>
-    <li><strong>Hubble tension</strong> <span class="status-badge status-live">Resolved</span>&mdash;h = 2/3 + &iota;<sub>&tau;</sub>&sup2;/17 at &minus;120 ppm, zero free parameters</li>
+    <li><strong>Hubble tension</strong> <span class="status-badge status-live">Resolved</span>&mdash;h = 2/3 + &iota;<sub>&tau;</sub>&sup2;/17 at &minus;120 ppm, zero free continuous parameters</li>
     <li><strong>Sub-10 ppm precision</strong> <span class="status-badge status-live">15 predictions</span>&mdash;electron mass (0.025 ppm), sin&sup2;&theta;<sub>W</sub> (&minus;0.65 ppm), Higgs mass (+8.0 ppm)</li>
     <li><strong>Genetic code optimality</strong> <span class="status-badge status-live">Resolved</span>&mdash;top 0.01% for error minimization, derived from BSD-motivic structure</li>
     <li><strong>Categorical Imperative</strong> <span class="status-badge status-live">Resolved</span>&mdash;Kant&rsquo;s CI derived as the unique j-closed fixed point, not postulated</li>
@@ -104,7 +104,7 @@ right_rail:
   <p>This is not a program that asks for trust. It is a program that provides inspection routes:</p>
   <ul>
     <li><strong>{{ book_count }} canonical books</strong>&mdash;{{ chapter_count }} chapters in proof-order, available on Amazon KDP</li>
-    <li><strong>TauLib</strong>&mdash;450 Lean 4 modules, 125,771 lines, 4,332 machine-checked theorems, 0 sorry in Books I&ndash;VI</li>
+    <li><strong>TauLib</strong>&mdash;458 Lean 4 modules, 127,440 lines, 4,332 machine-checked theorems, 0 sorry across all 7 books</li>
     <li><strong>{{ registry_count }} registry objects</strong>&mdash;every definition, theorem, and proposition with dependency graphs</li>
     <li><strong>67 quantitative predictions</strong>&mdash;from one constant, with 15 at sub-10 ppm precision, each filterable by domain, precision tier, and scope</li>
     <li><strong>30 falsification tests (N1&ndash;N30)</strong>&mdash;named experiments (CMB-S4, LZ, DESI, ngEHT), specific timelines, 5&sigma; threshold</li>

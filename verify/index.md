@@ -12,7 +12,7 @@ hero_ctas:
     url: /verify/release-manifest/
   - label: "Formalization Status"
     url: /verify/taulib/status/
-hero_supporting_line: "450 Lean 4 modules · 125,771 lines · 4,332 machine-checked theorems · 0 sorry in Books I–VI · no Mathlib dependency."
+hero_supporting_line: "458 Lean 4 modules · 127,440 lines · 4,332 machine-checked theorems · 0 sorry across all 7 books · 3 conjectural axioms · Mathlib for tactics only."
 summary_cards:
   - title: "What can be checked"
     body: "Every theorem in TauLib compiles in Lean 4. Every quantitative prediction has an explicit formula. Every scope claim carries its epistemic label."
@@ -51,7 +51,7 @@ The Panta Rhei Research Program distinguishes sharply between what can be formal
 
 ### What can be checked now
 
-- **Internal consistency**: Every theorem in TauLib compiles in Lean 4 with zero sorry in Books I-VI. Clone the repo, run `lake build`, and confirm.
+- **Internal consistency**: Every theorem in TauLib compiles in Lean 4 with zero sorry across all 7 books. Clone the repo, run `lake build`, and confirm.
 - **Quantitative predictions**: Every numerical claim (α, m_n/m_e, ℓ₁, r, n_s) has an explicit formula derivable from ι<sub>τ</sub> = 2/(π + e). Compute it yourself.
 - **Scope labels**: Every claim carries one of four labels: established, τ-effective, conjectural, or metaphorical. The labels are enforced in the LaTeX source.
 - **Dependency chains**: The registry tracks 4,547 objects with explicit dependency edges. Every theorem traces back to the seven axioms.
@@ -78,7 +78,8 @@ The canonical documentation for TauLib is now integrated into this site:
 
 - **[Release Manifest]({{ '/verify/release-manifest/' | relative_url }})** — Single authoritative snapshot: pinned commit, build status, axiom inventory, per-book reconciliation across registry / dashboards / TauLib docs
 - **[Filter Rules]({{ '/verify/filter-rules/' | relative_url }})** — Authoritative manifest of which count means what across the site (registry root, dashboard display, TauLib modules) — makes apparent drift legible as a filter choice
-- **[Custom Axiom Inventory]({{ '/verify/custom-axioms/' | relative_url }})** — Honest accounting of the 4 custom axiom declarations beyond Mathlib: what each axiom says, what finite computation motivates it, what universal step is axiomatized, what closes the gap
+- **[Custom Axiom Inventory]({{ '/verify/custom-axioms/' | relative_url }})** — Honest accounting of the 3 custom axiom declarations beyond Mathlib: what each axiom says, what finite computation motivates it, what universal step is axiomatized, what closes the gap
+- **[Trust Budget and TCB Disclosure]({{ '/verify/tcb/' | relative_url }})** — What Lean's kernel trusts, and what TauLib extends it by via `native_decide` (`Lean.ofReduceBool`, `Lean.trustCompiler`) — including the Book II Central Theorem dependency chain
 - **[TauLib Overview]({{ '/verify/taulib/' | relative_url }})** — What TauLib is, how to use it, entry routes
 - **[Architecture]({{ '/verify/taulib/architecture/' | relative_url }})** — Module dependency graph and reading paths by audience
 - **[Formalization Status]({{ '/verify/taulib/status/' | relative_url }})** — Per-book statistics, axiom inventory, sorry inventory

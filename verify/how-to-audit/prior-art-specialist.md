@@ -71,7 +71,7 @@ The τ claim H₁(τ³; ℤ) ≅ ℤ³ competes with Furey's octonionic SM, Dixo
 - τ does NOT modify Newton or Einstein. What, precisely, is the "boundary-reading artifact" that explains galaxy rotation curves? Is it a category-theoretic reinterpretation or a hidden physical modification?
 - How does τ account for the Bullet Cluster's separation of weak-lensing and X-ray gas? MOND's classical cluster problem is the test case.
 - What is the Sector Exhaustion Theorem as a formal statement? Is "no fifth sector" a genuine impossibility result from the kernel or a kernel-construction choice?
-- Does τ reproduce the full CMB peak structure (beyond peak 1 at +69 ppm) with zero free parameters?
+- Does τ reproduce the full CMB peak structure (beyond peak 1 at +69 ppm) with zero free continuous parameters?
 
 ## The 30-minute protocol per zone
 

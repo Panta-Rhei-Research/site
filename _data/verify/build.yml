@@ -11,12 +11,12 @@ taulib:
   repo: "Panta-Rhei-Research/taulib"
   url: "https://github.com/Panta-Rhei-Research/taulib"
   branch: "main"
-  commit_sha: "181a59e1bb7099c5ae49cb4c3aa027a9e76f98a5"
-  commit_short: "181a59e"
-  commit_date: "2026-04-14"
+  commit_sha: "2261c049119c8dd9a4e891457f196745178c02b3"
+  commit_short: "2261c04"
+  commit_date: "2026-04-19"
   license: "Apache-2.0"
   license_url: "https://github.com/Panta-Rhei-Research/taulib/blob/main/LICENSE"
-  description: "Live Lean 4 formalization of Category τ — 450 modules, 125K lines, 4332 theorems, 0 sorry in Books I–VI"
+  description: "Live Lean 4 formalization of Category τ — 458 modules, 127K lines, 4332 theorems, 0 sorry across all 7 books, 3 conjectural axioms (Book III)"
 
 lean:
   version: "v4.28.0-rc1"
@@ -31,7 +31,7 @@ mathlib:
   policy: "Tactics only (simp, omega, ring, aesop, decide). NEVER imports Mathlib mathematical content."
 
 generated_docs:
-  source_commit: "181a59e1bb7099c5ae49cb4c3aa027a9e76f98a5"
+  source_commit: "2261c049119c8dd9a4e891457f196745178c02b3"
   generator_scripts:
     - "scripts/import_taulib_docs.py"
     - "scripts/convert_taulib_html_to_md.py"

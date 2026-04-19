@@ -49,7 +49,7 @@ and the τ-Higgs mechanism at the ω-crossing.
 the relevant chapter unpacks the continued-fraction structure
 of the derived constants,
 and the relevant chapter closes the arc with
-the complete coupling cascade: zero free parameters,
+the complete coupling cascade: zero free continuous parameters,
 precision agreement, and the ontological lesson that
 particles are modes, forces are holonomies,
 and only τ³ is fundamental.

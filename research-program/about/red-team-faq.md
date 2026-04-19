@@ -38,9 +38,9 @@ All 67 predictions are *structurally* a priori because they flow algebraically f
 
 ## 3. Does TauLib introduce custom `axiom` declarations beyond Mathlib's trusted base?
 
-**Answer: yes — 4 custom axioms, each named and documented.**
+**Answer: yes — 3 custom axioms, each named and documented.**
 
-The pinned TauLib release (see [Release Manifest]({{ '/verify/release-manifest/' | relative_url }})) contains **4 custom `axiom` declarations**: 3 in Book III (spectral-structure axioms flagged as bridges in the Book III "ledger of limitations") and 1 in Book IV (microcosm sector-coupling axiom). All 4 are named in the API docs with explicit scope labels. There are **no hidden axioms**; every `#print axioms` invocation on any theorem will surface these four if they participate in the proof chain. The Mathlib policy is "tactics only" (simp, omega, ring, aesop, decide) — **TauLib does not import Mathlib mathematical content**, so agreement with Mathlib cannot mask disagreement with it.
+The pinned TauLib release (see [Release Manifest]({{ '/verify/release-manifest/' | relative_url }})) contains **3 custom `axiom` declarations**, all in Book III (spectral-structure axioms flagged as bridges in the Book III "ledger of limitations"). All 3 are named in the API docs with explicit scope labels. A prior v1 release shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op (`True` is inhabited by `trivial`). There are **no hidden axioms**; every `#print axioms` invocation on any theorem will surface these three if they participate in the proof chain. The Mathlib policy is "tactics only" (simp, omega, ring, aesop, decide) — **TauLib imports Mathlib for tactics only and does not import Mathlib mathematical content modules**, so agreement with Mathlib cannot mask disagreement with it.
 
 ## 4. Is τ-internal P=NP the same question as Clay's P vs NP?
 

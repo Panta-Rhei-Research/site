@@ -21,7 +21,7 @@ right_rail:
     updated: April 2026
 ---
 
-The τ framework claims to derive the Standard Model's particle content and coupling constants from a single master constant ι_τ = 2/(π+e), with zero free parameters. The number of fermion generations, individual quark masses, and the CKM mixing matrix are structural outputs, not empirical inputs. This is one of the framework's strongest — and most falsifiable — claim families.
+The τ framework claims to derive the Standard Model's particle content and coupling constants from a single master constant ι_τ = 2/(π+e), with zero free continuous parameters. The number of fermion generations, individual quark masses, and the CKM mixing matrix are structural outputs, not empirical inputs. This is one of the framework's strongest — and most falsifiable — claim families.
 
 ## Key claims
 

@@ -3,8 +3,8 @@ layout: program-doc
 title: Mathematics Layer
 lane: framework
 section: framework-mathematics
-summary_short: Layer E₀ is the mathematical kernel of the framework. It earns arithmetic,
-  coordinates, boundary structure, analysis, ca...
+summary_short: Layer E₀ is the mathematical kernel of the framework. It constructs
+  arithmetic, coordinates, boundary structure, analysis, ca...
 summary_cards:
 - title: Layer
   body: E0 — Mathematics
@@ -25,7 +25,7 @@ right_rail:
 
 ## Mathematics
 
-Layer E₀ is the mathematical kernel of the framework. It earns arithmetic, coordinates, boundary structure, analysis, category theory, topos theory, the Central Theorem, and the enrichment ladder — all from five generators, seven axioms, and one progression operator.
+Layer E₀ is the mathematical kernel of the framework. It constructs arithmetic, coordinates, boundary structure, analysis, category theory, topos theory, the Central Theorem, and the enrichment ladder from five generators, seven axioms, one progression operator, and the posited master constant ι<sub>τ</sub> = 2/(π + e) as a framework-level input.
 
 ## 23 Modules
 

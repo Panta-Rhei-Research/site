@@ -31,7 +31,7 @@ Every other claim in the program depends on this. If TauLib compiles cleanly wit
 # 1. Clone at the pinned commit
 git clone https://github.com/Panta-Rhei-Research/taulib
 cd taulib
-git checkout 181a59e1bb7099c5ae49cb4c3aa027a9e76f98a5
+git checkout 2261c049119c8dd9a4e891457f196745178c02b3
 
 # 2. Confirm toolchain pinning
 cat lean-toolchain              # Expect: leanprover/lean4:v4.28.0-rc1
@@ -42,11 +42,11 @@ lake build                      # Expect: 0 errors, ~8–12 min on 8-core laptop
 
 # 4. Audit sorry inventory
 rg "^\s*sorry\s*$" TauLib --stats
-# Expect: 3 matches, all in TauLib/Book7/
+# Expect: 0 matches across all 7 books
 
 # 5. Audit custom axiom inventory
 rg "^axiom " TauLib --stats
-# Expect: 4 matches (3 in TauLib/Book3/, 1 in TauLib/Book4/)
+# Expect: 3 matches, all in TauLib/BookIII/
 
 # 6. Per-module per-theorem axiom trace (spot check 3 headline theorems)
 # In Lean 4 REPL or via a small script:
@@ -100,9 +100,9 @@ Any one of these is disqualifying.
 Your audit is **positive** (the framework has passed the formal-methods gate) if:
 
 - `lake build` is green at the pinned commit.
-- `rg "sorry"` returns exactly 3 matches, all in Book VII's methodological-commitment markers.
-- `rg "^axiom"` returns exactly 4 custom declarations, each documented in the API docs.
-- `#print axioms` on three randomly-chosen "formalized" registry entries returns only declared framework axioms plus standard Mathlib base axioms (`Classical.choice`, `propext`, `Quot.sound`).
+- `rg "sorry"` returns 0 matches across all 7 books (post `peer-review-fixes-v1`; the prior three Book VII methodological `sorry` declarations are now `def : Commitment` values).
+- `rg "^axiom"` returns exactly 3 custom declarations, all in Book III and each documented in the API docs.
+- `#print axioms` on three randomly-chosen "formalized" registry entries returns only declared framework axioms plus standard Mathlib base axioms (`Classical.choice`, `propext`, `Quot.sound`) plus, where `native_decide` is used, the TCB extension (`Lean.ofReduceBool`, `Lean.trustCompiler`) disclosed on [TCB Disclosure]({{ '/verify/tcb/' | relative_url }}).
 - The three headline theorems read as genuine mathematical content rather than definitional rearrangements.
 
 A positive formal-methods audit does **not** establish the framework is correct about physics, life, or metaphysics. It establishes that the internal mathematical scaffolding is what the program claims it is. This is a necessary condition for the program to deserve further domain-level review; it is not a sufficient condition for accepting any bridge claim.

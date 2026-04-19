@@ -37,7 +37,7 @@ These pages do not argue that the framework is correct. They argue that if you w
 
 ### [Formal Methods / Proof Assistant Expert]({{ '/verify/how-to-audit/formal-methods/' | relative_url }})
 
-If you work with Lean 4, Mathlib, Coq, Agda, Isabelle, or other proof assistants, the load-bearing question is whether TauLib's claimed formalization state (0 `sorry` in Books I–VI, 4 named custom axioms, ~4,332 theorems, ~125K lines) matches what actually compiles. This is the single most diagnostic check any reviewer can run.
+If you work with Lean 4, Mathlib, Coq, Agda, Isabelle, or other proof assistants, the load-bearing question is whether TauLib's claimed formalization state (0 `sorry` across all 7 books, 3 named custom axioms in Book III, ~4,332 theorems, ~127K lines, plus the disclosed `native_decide` TCB extension) matches what actually compiles. This is the single most diagnostic check any reviewer can run.
 
 ### [Mathematician]({{ '/verify/how-to-audit/mathematician/' | relative_url }})
 

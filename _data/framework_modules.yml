@@ -358,7 +358,7 @@
   slug: fine-structure
   layer: E1
   strand: microcosm
-  summary_short: "α = (121/225)·ι<sub>τ</sub>⁴ at 9.8 ppm — zero free parameters."
+  summary_short: "α = (121/225)·ι<sub>τ</sub>⁴ at 9.8 ppm — zero free continuous parameters."
   thesis: "The fine-structure constant is derived from the EM-active fraction (11/15) of boundary modes; m_n is the single calibration anchor."
   canonical_books: [IV]
   source_parts: [IV.1, IV.2]
@@ -397,7 +397,7 @@
   slug: electroweak-synthesis
   layer: E1
   strand: microcosm
-  summary_short: "9 electroweak predictions from 0 free parameters — the five sectors in concert."
+  summary_short: "9 electroweak predictions from 0 free continuous parameters — the five sectors in concert."
   thesis: "EM, Weak, Strong, Gravity, and Higgs form a closed algebra; confinement admits only colour-neutral hadrons."
   canonical_books: [IV]
   source_parts: [IV.3, IV.4]

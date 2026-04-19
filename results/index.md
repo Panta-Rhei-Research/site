@@ -146,7 +146,7 @@ The [**Browse All Claims**]({{ '/results/browse/' | relative_url }}) surface is 
 ### Featured Claims
 
 - [Central Theorem: O(τ³) ≅ A_spec(L)](/results/problem/central-theorem/) — The algebra of holomorphic functions on τ³ is isomorphic to the spectral algebra of the lemniscate boundary
-- [Hubble Tension Resolved: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/) — The Hubble constant h = 0.6735 derived with zero free parameters
+- [Hubble Tension Resolved: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/) — The Hubble constant h = 0.6735 derived with zero free continuous parameters
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/) — The Sector Exhaustion Theorem proves no additional sector can be added
 - [Homochirality Universality: 12-Step Derivation from K0–K6](/results/problem/homochirality-universality-12-step-derivation/) — L-amino acids and D-sugars derived from the kernel
 - [The Categorical Imperative as j-Closed Fixed Point](/results/problem/categorical-imperative-fixed-point/) — Kant's CI derived from structure, not postulated

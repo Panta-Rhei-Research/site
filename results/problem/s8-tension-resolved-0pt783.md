@@ -27,7 +27,7 @@ right_rail:
 
 ## Overview
 
-V.T263 (Wave 39C) derives S₈ = 0.783 as the product of three structural suppression factors: f_supp (matter density suppression from τ-holonomy), f_growth (modified growth factor), and f_ν (neutrino free-streaming suppression). The result S₈ = 0.783 lies between the Planck CMB value (0.832) and weak-lensing measurements (0.776–0.790), resolving the tension with zero free parameters. This solved open problem V.OP8.
+V.T263 (Wave 39C) derives S₈ = 0.783 as the product of three structural suppression factors: f_supp (matter density suppression from τ-holonomy), f_growth (modified growth factor), and f_ν (neutrino free-streaming suppression). The result S₈ = 0.783 lies between the Planck CMB value (0.832) and weak-lensing measurements (0.776–0.790), resolving the tension with zero free continuous parameters. This solved open problem V.OP8.
 
 ## Detail
 
