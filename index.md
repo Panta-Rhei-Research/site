@@ -8,7 +8,7 @@ hero_ctas:
     url: /publications/books/
     primary: true
   - label: "Explore the Lean Code"
-    url: "https://github.com/Panta-Rhei-Research/taulib"
+    url: "https://taulib.site/docs/"
     variant: lean
   - label: "Explore the Framework"
     url: /framework/about/
@@ -26,7 +26,10 @@ right_rail:
     - title: "Media Kit"
       url: /media/
   artifacts:
-    - title: "TauLib"
+    - title: "TauLib Docs"
+      url: "https://taulib.site/"
+      external: true
+    - title: "TauLib Source"
       url: "https://github.com/Panta-Rhei-Research/taulib"
       external: true
     - title: "Frozen Verification"

@@ -6,7 +6,7 @@ permalink: /verify/
 summary_short: "How to inspect, verify, and challenge the claims of the Panta Rhei Research Program — what can be checked, and what verification does not settle."
 hero_ctas:
   - label: "Browse TauLib (Lean 4)"
-    url: "https://github.com/Panta-Rhei-Research/taulib"
+    url: "https://taulib.site/docs/"
     variant: lean
   - label: "Release Manifest"
     url: /verify/release-manifest/
@@ -29,7 +29,10 @@ right_rail:
     - title: "Registry"
       url: /registry/
   artifacts:
-    - title: "TauLib (active)"
+    - title: "TauLib Docs"
+      url: "https://taulib.site/"
+      external: true
+    - title: "TauLib Source"
       url: "https://github.com/Panta-Rhei-Research/taulib"
       external: true
     - title: "TauLib (frozen)"
