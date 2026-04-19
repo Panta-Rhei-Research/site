@@ -22,7 +22,7 @@ right_rail:
   - title: Overview
     url: /registry/
   - title: Book I
-    url: /verify/book-i/
+    url: https://taulib.site/docs/
   - title: From Mathematical Structure to Category and Logic
     url: /framework/about/from-mathematical-structure-to-category-and-logic/
   - title: Boundary, Interior, and Readout

@@ -16,9 +16,9 @@ summary_cards:
 right_rail:
   related:
   - title: Foundational Discipline
-    url: /research-program/foundational-discipline/
+    url: /research-program/about/foundational-discipline/
   - title: Core Design Principles
-    url: /research-program/core-design-principles/
+    url: /research-program/about/core-design-principles/
   - title: What the Framework Makes Possible
     url: /framework/about/what-the-framework-makes-possible/
   - title: How to Inspect the Framework

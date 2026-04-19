@@ -18,7 +18,7 @@ summary_cards:
 right_rail:
   related:
   - title: Overview
-    url: /results/overview/
+    url: /results/
   - title: Book Iv
     url: /publications/books/book-iv/
   - title: Book V

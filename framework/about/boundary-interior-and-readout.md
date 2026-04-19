@@ -18,7 +18,7 @@ right_rail:
   - title: Mathematics
     url: /framework/mathematics/
   - title: Book Ii
-    url: /verify/book-ii/
+    url: https://taulib.site/docs/
   - title: Overview
     url: /results/
   - title: Self-Enrichment and the Four Layers

@@ -9,7 +9,7 @@ right_rail:
     - title: "Assessment Overview"
       url: /verify/assessments/
     - title: "Series-Level Prompt"
-      url: /verify/assessments/series-level-prompt/
+      url: /verify/assessments/series-assessment/
     - title: "Dossier Output Schema"
       url: /verify/assessments/dossier-schema/
     - title: "Assessment Scorecard"

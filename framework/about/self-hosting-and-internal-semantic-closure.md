@@ -16,11 +16,11 @@ summary_cards:
 right_rail:
   related:
   - title: Overview
-    url: /verify/overview/
+    url: /verify/
   - title: Book Vii
     url: /publications/books/book-vii/
   - title: Foundational Discipline
-    url: /research-program/foundational-discipline/
+    url: /research-program/about/foundational-discipline/
   - title: Ontic Seriousness and the Question of Existence
     url: /framework/about/ontic-seriousness-and-the-question-of-existence/
   - title: From Self-Enrichment to Physical Legibility

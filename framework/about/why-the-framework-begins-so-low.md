@@ -16,9 +16,9 @@ summary_cards:
 right_rail:
   related:
   - title: Research Aim And Desiderata
-    url: /research-program/research-aim-and-desiderata/
+    url: /research-program/about/research-aim-and-desiderata/
   - title: Foundational Discipline
-    url: /research-program/foundational-discipline/
+    url: /research-program/about/foundational-discipline/
   - title: From Symbolic Discipline to Mathematical Structure
     url: /framework/about/from-symbolic-discipline-to-mathematical-structure/
   - title: What the Framework Does Not Assume

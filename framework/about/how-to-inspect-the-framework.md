@@ -16,9 +16,9 @@ summary_cards:
 right_rail:
   related:
   - title: Overview
-    url: /publications/overview/
+    url: /publications/
   - title: Overview
-    url: /verify/overview/
+    url: /verify/
   - title: Claims And Validation
     url: /research-program/claims-and-validation/
   - title: Guided Tours

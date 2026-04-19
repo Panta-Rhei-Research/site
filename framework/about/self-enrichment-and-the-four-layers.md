@@ -16,7 +16,7 @@ summary_cards:
 right_rail:
   related:
   - title: Overview
-    url: /framework/overview/
+    url: /framework/
   - title: Book Iii
     url: /publications/books/book-iii/
   - title: Book Vii

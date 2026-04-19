@@ -17,11 +17,11 @@ summary_cards:
 right_rail:
   related:
   - title: Overview
-    url: /framework/overview/
+    url: /framework/
   - title: Overview
-    url: /results/overview/
+    url: /results/
   - title: Overview
-    url: /verify/overview/
+    url: /verify/
   - title: What the Framework Does Not Assume
     url: /framework/about/what-the-framework-does-not-assume/
   - title: What the Framework Makes Possible

@@ -124,7 +124,7 @@ Mastodon convention: hashtag at end of post, no more than 2–3. X convention: 0
 
 Every platform bio should mention at least one other platform or surface, creating a verifiable web of identity. Recommended cross-links:
 
-- **LinkedIn personal** → "Founder of [@PantaRheiResearch](linkedin.com/company/panta-rhei-research) · [panta-rhei.site](https://panta-rhei.site)"
+- **LinkedIn personal** → "Founder of [@PantaRheiResearch](https://linkedin.com/company/panta-rhei-research) · [panta-rhei.site](https://panta-rhei.site)"
 - **X bio** → "Founder @PantaRheiResearch · panta-rhei.site"
 - **Mastodon bio** → Link field: `panta-rhei.site` (Mastodon `rel="me"` verified via site footer)
 - **Bluesky bio** → "Founder, Panta Rhei Research Program. panta-rhei.site"

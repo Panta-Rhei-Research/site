@@ -18,11 +18,11 @@ summary_cards:
 right_rail:
   related:
   - title: Overview
-    url: /results/overview/
+    url: /results/
   - title: Overview
-    url: /impact/overview/
+    url: /impact/
   - title: Overview
-    url: /verify/overview/
+    url: /verify/
   - title: How to Inspect the Framework
     url: /framework/about/how-to-inspect-the-framework/
   - title: Claims Overview

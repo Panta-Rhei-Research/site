@@ -21,7 +21,7 @@ layout: default
   <p>{{ page.summary }}</p>
   {% endif %}
   <div class="chip-row">
-    <a href="{{ '/publications/books/book-' | append: page.book_slug | append: '/' | relative_url }}" class="chip chip-link">Book {{ page.book }}</a>
+    <a href="{{ '/publications/books/' | append: page.book_slug | append: '/' | relative_url }}" class="chip chip-link">Book {{ page.book }}</a>
     {% if page.part %}<span class="chip">Part {{ page.part }}</span>{% endif %}
     {% if page.chapter %}<span class="chip">Ch. {{ page.chapter }}</span>{% endif %}
     {% if page.has_lean_link %}<span class="chip">Lean ✓</span>{% endif %}
@@ -66,8 +66,24 @@ layout: default
 {% if page.lean_module != "" %}
 <section class="content-card" aria-labelledby="registry-lean-heading">
   <h2 id="registry-lean-heading">Lean Formalization</h2>
-  {%- assign lean_slug = page.lean_module | remove: "TauLib." | slugify -%}
-  <p><strong>Module:</strong> <a href="{{ '/verify/taulib/docs/' | append: lean_slug | append: '/' | relative_url }}"><code>{{ page.lean_module }}</code></a></p>
+  {%- comment -%}
+    taulib.site uses doc-gen4 slugs of the form `book-i-boundary-characters`
+    (dash between `book` and the Roman numeral). Liquid's `slugify` filter
+    collapses `BookI` → `booki`, so we normalize manually with a cascade of
+    `replace` filters (longest prefix first so `BookVII` matches before
+    `BookV` before `BookI`).
+  {%- endcomment -%}
+  {%- assign lean_slug = page.lean_module
+    | remove: "TauLib."
+    | replace: "BookVII.", "book-vii-"
+    | replace: "BookVI.", "book-vi-"
+    | replace: "BookV.", "book-v-"
+    | replace: "BookIV.", "book-iv-"
+    | replace: "BookIII.", "book-iii-"
+    | replace: "BookII.", "book-ii-"
+    | replace: "BookI.", "book-i-"
+    | slugify -%}
+  <p><strong>Module:</strong> <a href="https://taulib.site/docs/{{ lean_slug }}/" target="_blank" rel="noopener"><code>{{ page.lean_module }}</code></a></p>
   {% if page.lean_name != "" %}
   <p><strong>Symbol:</strong> <code>{{ page.lean_name }}</code></p>
   {% endif %}

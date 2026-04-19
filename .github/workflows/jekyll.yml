@@ -54,6 +54,16 @@ jobs:
           chmod +x .github/scripts/smoke-test.sh
           .github/scripts/smoke-test.sh _site
 
+      # ── Dead-link audit (html-proofer, internal-only) ──────
+      # Catches broken internal links in the built HTML. Each
+      # currently-known stale link is listed in the script's
+      # IGNORE_URLS; CI fails when a NEW broken link appears.
+      # Runs in ~90s against the full 7,400-page site.
+      - name: Dead-link audit
+        run: |
+          chmod +x .github/scripts/link-check.sh
+          .github/scripts/link-check.sh _site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

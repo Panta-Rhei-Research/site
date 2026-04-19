@@ -18,7 +18,7 @@ right_rail:
   - title: Book Ii
     url: /publications/books/book-ii/
   - title: Book Ii
-    url: /verify/book-ii/
+    url: https://taulib.site/docs/
   - title: Boundary, Interior, and Readout
     url: /framework/about/boundary-interior-and-readout/
   - title: Self-Enrichment and the Four Layers

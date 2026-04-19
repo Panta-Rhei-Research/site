@@ -57,9 +57,9 @@ Do not upload confidential manuscripts, unpublished drafts, or third-party restr
 
 Each review mode has a dedicated prompt template:
 
-- [Series-level prompt]({{ '/verify/assessments/series-level-prompt/' | relative_url }})
-- [Book-level prompt]({{ '/verify/assessments/book-level-prompt/' | relative_url }})
-- [Domain-level prompt]({{ '/verify/assessments/domain-level-prompt/' | relative_url }})
+- [Series-level prompt]({{ '/verify/assessments/series-assessment/' | relative_url }})
+- [Book-level prompt]({{ '/verify/assessments/book-assessment/' | relative_url }})
+- [Domain-level prompt]({{ '/verify/assessments/domain-assessment/' | relative_url }})
 
 Load the chosen prompt into a frontier model alongside the gathered materials. The prompts are designed to elicit a dossier that conforms to the [Dossier Output Schema]({{ '/verify/assessments/dossier-schema/' | relative_url }}).
 
@@ -135,6 +135,6 @@ This note should appear in the dossier's header or executive summary. It sets th
 - [Three-Gate Rubric]({{ '/verify/assessments/three-gate-rubric/' | relative_url }}) --- the 17-criterion scoring framework
 - [Assessment Scorecard]({{ '/verify/assessments/scorecard/' | relative_url }}) --- the blank scoring table (CSV)
 - [Dossier Output Schema]({{ '/verify/assessments/dossier-schema/' | relative_url }}) --- the 10-section dossier structure (JSON template)
-- [Series-level prompt]({{ '/verify/assessments/series-level-prompt/' | relative_url }})
-- [Book-level prompt]({{ '/verify/assessments/book-level-prompt/' | relative_url }})
-- [Domain-level prompt]({{ '/verify/assessments/domain-level-prompt/' | relative_url }})
+- [Series-level prompt]({{ '/verify/assessments/series-assessment/' | relative_url }})
+- [Book-level prompt]({{ '/verify/assessments/book-assessment/' | relative_url }})
+- [Domain-level prompt]({{ '/verify/assessments/domain-assessment/' | relative_url }})
