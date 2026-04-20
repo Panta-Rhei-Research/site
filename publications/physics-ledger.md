@@ -21,19 +21,31 @@ right_rail:
   meta:
     type: Companion Document
     scope: "Complete E₁ Physics Inventory"
-    pages: "205"
-    size: "1.08 MB"
-    status: "Canonical (v2.4, v4 red-team research wave integrated)"
+    pages: "210"
+    size: "1.12 MB"
+    status: "Canonical (v2.5, forensic red-team: 2 new claims + 1 sharpened retraction)"
     updated: April 2026
 ---
 
 <div class="btn-group" style="margin-bottom: 28px;">
   <a href="{{ '/assets/downloads/physics-ledger.pdf' | relative_url }}" class="btn-secondary" download style="font-size: 1.05rem; padding: 14px 28px;">
-    ⬇ Download Physics Ledger — Free PDF (1.08 MB, v2.4)
+    ⬇ Download Physics Ledger — Free PDF (1.12 MB, v2.5)
   </a>
 </div>
 
 The **Physics Ledger** is the complete numerical scorecard of the Panta Rhei Research Program — **three τ-structural pillars** (|gen|=3 from H<sub>1</sub>(τ³;ℤ)=ℤ³, θ<sub>QCD</sub>=0 from SA-i mod-3, λ<sub>C</sub>=ι<sub>τ</sub>(1−ι<sub>τ</sub>)) plus a **30-item falsification pack with propagated uncertainty bands**, derived from the master constant ι<sub>τ</sub> = 2/(π+e) **posited** as framework input. **Zero free continuous parameters**; a combinatorial library of structural integers (W<sub>n</sub>(k) window sums, sector assignments, homology-forced layer choices) enters via the compute-then-axiomatize discipline — full per-prediction integer-choice audit in Chapter 68 Appendix 68.A. Originally Part VII of [Book V (*Categorical Macrocosm*)]({{ '/publications/books/book-v/' | relative_url }}), published here as a free companion document for self-contained access.
+
+**v2.5 note (April 2026) — forensic red-team wave on retracted claims.** Three forensic specialists (sim) dissected each retracted/revised claim to find where derivations went wrong AND to search for valid alternatives. Outcome: **two new valid τ-native claims emerge + one retraction sharpened**.
+
+1. **Pair B BTFR identification — V4.10 RESOLVED** (Dr. Blackwell, sim): v2.3's κ<sub>ω</sub> "match" was confirmed to be a projection artifact of the negatively-correlated 2-D posterior. Exhaustive scan of **8,178 τ-natural pairs** identified **Pair B = ((1+ι<sub>τ</sub>)/(1+2ι<sub>τ</sub>), κ<sub>ω</sub>) ≈ (0.7972, 0.2545) at Δχ²=1.62, p=0.45** — inside joint 1σ. Structural interpretation: "D-sector unit-normalised against one ω-residual." **Revised master formula V.T85**: V<sub>∞</sub>⁴ = G·[(1+ι<sub>τ</sub>)/(1+2ι<sub>τ</sub>)·M<sub>★</sub> + κ<sub>ω</sub>·(1.33·M<sub>HI</sub>)]·c²/(2·ℓ<sub>τ</sub>). Preserves v2.3's ω-sector κ<sub>ω</sub> claim exactly; replaces the falsified α<sub>★</sub>=1 with a clean τ-native formula. Alternative Pair A ((1/(1+ι<sub>τ</sub>), ι<sub>τ</sub>) at Δχ²=1.01, p=0.60) documented but not preferred. [Forensic note (8pp)](/assets/downloads/f3-alpha-pair-forensic-result.pdf).
+
+2. **Tier-1 τ-native holographic structure — NEW claim** (Dr. Menon, sim): the AdS/CFT reduction retraction STANDS, but V4.5's tier-1 IS genuine τ-native holography distinct from AdS/CFT. Four obstructions (wedge vs sphere, no metric, small-N, missing dictionary) absorbed as FEATURES. Dictionary sketched: τ-Virasoro (generator progression ρ), τ-RG (enrichment ladder E<sub>0</sub>→E<sub>3</sub>), τ-Ryu-Takayanagi (ω-weight ι<sub>τ</sub>). **New differential prediction**: ω<sub>m</sub> and σ<sub>8</sub> are set by DIFFERENT holonomy classes of H<sub>∂</sub>[ω] — first-moment vs second-moment invariants. Connects to S<sub>8</sub> tension. New v5 target (V5.1). [Forensic note (8pp)](/assets/downloads/f2-adscft-forensic-result.pdf).
+
+3. **h<sup>readout</sup> retraction sharpened** (Dr. Novak, sim): the v2.2 retraction STANDS with stronger reasoning. H<sub>0</sub> ladders are **tier-1** probes of H(z); tier-2 sector weights don't enter the luminosity-distance integrand or the Cepheid/TRGB calibration. Five local-ladder probes (Cepheid, TRGB, JAGB, SN Ia, sirens) all sit in same D-sector yet SH0ES/TRGB differ by 3σ — kills sector-weighting as tension rescue. **N21 falsifier tightened**: single τ prediction h=0.6735; no depth-escape; local-ladder convergence on h > 0.70 with systematics ruled out falsifies τ's cosmology. [Forensic note (8pp)](/assets/downloads/f1-hreadout-forensic-result.pdf).
+
+**Net v2.5 posture**: Pair B identified (V4.10 closed); tier-1 τ-native holography recognized (V5.1 new); h<sup>readout</sup> retraction tightened; V5.2 new (Pair A vs Pair B discrimination). Six pre-existing v4 items remain; V.T85 master formula updated.
+
+---
 
 **v2.4 note (April 2026) — v4 red-team research wave integrated.** A frontier-level red-team research wave (senior research director + three τ-framework-specialist subagents) executed all three v4 priority items identified in Round 5 simultaneously. The outcome is *nuanced, honest, and advances the theory*:
 
@@ -95,7 +107,7 @@ The predictions are **bridge-independent**: they can be compared directly to exp
     <div style="padding: 28px 24px; display: flex; flex-direction: column; justify-content: center;">
       <span class="eyebrow" style="display: block; padding: 0; background: none; border: none; margin-bottom: 12px;">Companion to Book V</span>
       <h2 style="margin: 0 0 12px; font-size: 1.4rem;">The τ Physics Ledger</h2>
-      <p style="font-size: 0.92rem; line-height: 1.55; margin: 0 0 8px;">205 pages · 11 chapters · 3 τ-structural pillars · sub-baryonic gas coupling form confirmed · two-tier coherence resolves cosmology · V4.10 new (v2.4 · v4 red-team wave integrated)</p>
+      <p style="font-size: 0.92rem; line-height: 1.55; margin: 0 0 8px;">210 pages · 11 chapters · 3 τ-structural pillars · Pair B BTFR identification (V4.10 closed) · tier-1 τ-native holography · 2 sharpened retractions (v2.5 · forensic red-team)</p>
       <p style="font-size: 0.85rem; color: #5b6772; margin: 0;">Dr. Thorsten Fuchs & Anna-Sophie Fuchs · Second Edition · 2026</p>
     </div>
     <div>
@@ -250,7 +262,7 @@ If even a fraction of the sub-10 ppm predictions hold under independent scrutiny
 
 <div class="btn-group" style="margin-top: 28px;">
   <a href="{{ '/assets/downloads/physics-ledger.pdf' | relative_url }}" class="btn-secondary" download style="font-size: 1.05rem; padding: 14px 28px;">
-    ⬇ Download Physics Ledger — Free PDF (1.08 MB, v2.4)
+    ⬇ Download Physics Ledger — Free PDF (1.12 MB, v2.5)
   </a>
   <a href="{{ '/results/predictions/browse/' | relative_url }}" class="btn-ghost" style="font-size: 0.95rem; padding: 12px 20px;">Browse 67 Predictions</a>
   <a href="{{ '/results/falsifications/browse/' | relative_url }}" class="btn-ghost" style="font-size: 0.95rem; padding: 12px 20px;">Falsification Pack</a>
