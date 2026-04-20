@@ -16,6 +16,7 @@ tau_value: "149.1~km/s"
 observed_value: "≈!150~km/s"
 deviation: "0.6%"
 precision_tier: "1-5-percent"
+cascade_tier: A
 precision_display: "1–5%"
 registry_id: "V.T163"
 scope: "tau-effective"

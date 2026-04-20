@@ -16,6 +16,7 @@ tau_value: "(1.16,,0.87)"
 observed_value: "–"
 deviation: "+18.5~ppm"
 precision_tier: "10-1000-ppm"
+cascade_tier: A
 precision_display: "10–1000 ppm"
 registry_id: "V.T189"
 scope: "tau-effective"

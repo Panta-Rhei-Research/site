@@ -46,6 +46,16 @@ layout: default
       </div>
     </div>
 
+    <div class="filter-group" data-filter-group="cascade_tier">
+      <span class="filter-label">Cascade Tier</span>
+      <div class="filter-chips">
+        <button class="filter-chip chip-tier-a" data-filter="cascade_tier" data-value="A" type="button" title="Mass-ratio route, ~0.025 ppm">Tier A</button>
+        <button class="filter-chip chip-tier-b" data-filter="cascade_tier" data-value="B" type="button" title="Closing-identity route, ~3 ppm">Tier B</button>
+        <button class="filter-chip chip-tier-c" data-filter="cascade_tier" data-value="C" type="button" title="Fine-structure LO route, ~0.8%">Tier C</button>
+        <button class="filter-chip chip-tier-binary" data-filter="cascade_tier" data-value="binary" type="button" title="Yes/no structural falsifier">Binary</button>
+      </div>
+    </div>
+
     <div class="filter-group filter-group-sort">
       <span class="filter-label">Sort</span>
       <div class="filter-chips">
@@ -79,6 +89,7 @@ layout: default
           data-domain="{{ pred.domain }}"
           data-precision="{{ pred.precision_tier }}"
           data-scope="{{ pred.scope }}"
+          data-cascade-tier="{{ pred.cascade_tier | default: 'unclassified' }}"
           data-title="{{ pred.title_plain | default: pred.title | downcase | escape }}"
           data-precision-rank="{{ precision_rank }}">
         <a class="prediction-card-link" href="{{ pred.url | relative_url }}">
@@ -86,6 +97,9 @@ layout: default
             <span class="chip chip-small">{{ pred.domain_display }}</span>
             {% if pred.precision_display and pred.precision_display != "" %}
             <span class="chip chip-small chip-precision-{{ pred.precision_tier }}">{{ pred.precision_display }}</span>
+            {% endif %}
+            {% if pred.cascade_tier and pred.cascade_tier != "" %}
+            <span class="chip chip-small chip-tier-{{ pred.cascade_tier | downcase }}" title="Cascade Tier {{ pred.cascade_tier }}">Tier {{ pred.cascade_tier }}</span>
             {% endif %}
             <span class="chip chip-small">{{ pred.scope_display }}</span>
           </div>

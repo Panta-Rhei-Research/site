@@ -16,6 +16,7 @@ tau_value: "0"
 observed_value: "< 1.8!×!10⁻²⁶"
 deviation: "exact"
 precision_tier: "sub-10-ppm"
+cascade_tier: binary
 precision_display: "Sub-10 ppm"
 registry_id: "IV.T160"
 scope: "tau-effective"

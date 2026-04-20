@@ -16,6 +16,7 @@ tau_value: "47.2^∘"
 observed_value: "49.3^∘"
 deviation: "+8604~ppm"
 precision_tier: "1-5-percent"
+cascade_tier: A
 precision_display: "1–5%"
 registry_id: "IV.T175"
 scope: "conjectural"

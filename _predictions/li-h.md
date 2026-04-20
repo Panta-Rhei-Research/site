@@ -16,6 +16,7 @@ tau_value: "1.6!×!10⁻¹⁰"
 observed_value: "1.6!×!10⁻¹⁰"
 deviation: "∼ 0%"
 precision_tier: "1-5-percent"
+cascade_tier: A
 precision_display: "1–5%"
 registry_id: "V.T244"
 scope: "conjectural"

@@ -16,6 +16,7 @@ tau_value: "0.2469"
 observed_value: "0.2449 ± 0.0040"
 deviation: "+0.8%"
 precision_tier: "1-5-percent"
+cascade_tier: A
 precision_display: "1–5%"
 registry_id: "V.T245"
 scope: "tau-effective"

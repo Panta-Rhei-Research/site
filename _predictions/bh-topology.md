@@ -16,6 +16,7 @@ tau_value: "toroidal"
 observed_value: "(pending)"
 deviation: "–"
 precision_tier: "structural"
+cascade_tier: binary
 precision_display: "Structural"
 registry_id: "V.T37"
 scope: "tau-effective"

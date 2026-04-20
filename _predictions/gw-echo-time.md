@@ -16,6 +16,7 @@ tau_value: "see text"
 observed_value: "(pending)"
 deviation: "–"
 precision_tier: "structural"
+cascade_tier: binary
 precision_display: "Structural"
 registry_id: "V.D283"
 scope: "tau-effective"

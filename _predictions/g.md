@@ -16,6 +16,7 @@ tau_value: "6.674!×!10⁻¹¹"
 observed_value: "CODATA"
 deviation: "∼ 3~ppm"
 precision_tier: "sub-10-ppm"
+cascade_tier: B
 precision_display: "Sub-10 ppm"
 registry_id: "V.T11"
 scope: "tau-effective"

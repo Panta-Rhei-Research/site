@@ -16,6 +16,7 @@ tau_value: "dot M = 0"
 observed_value: "–"
 deviation: "–"
 precision_tier: "structural"
+cascade_tier: binary
 precision_display: "Structural"
 registry_id: "V.T40"
 scope: "tau-effective"

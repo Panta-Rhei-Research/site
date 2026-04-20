@@ -16,6 +16,7 @@ tau_value: "see text"
 observed_value: "DNS data"
 deviation: "< 1%"
 precision_tier: "1-5-percent"
+cascade_tier: A
 precision_display: "1–5%"
 registry_id: "V.T249"
 scope: "tau-effective"

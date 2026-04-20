@@ -16,6 +16,7 @@ tau_value: "Majorana"
 observed_value: "(pending)"
 deviation: "–"
 precision_tier: "structural"
+cascade_tier: binary
 precision_display: "Structural"
 registry_id: "IV.T146"
 scope: "tau-effective"

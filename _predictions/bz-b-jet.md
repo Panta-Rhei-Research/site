@@ -16,6 +16,7 @@ tau_value: "ι<sub>τ</sub>"
 observed_value: "≈!0.3"
 deviation: "∼ 10%"
 precision_tier: "structural"
+cascade_tier: A
 precision_display: "Structural"
 registry_id: "V.P156"
 scope: "conjectural"

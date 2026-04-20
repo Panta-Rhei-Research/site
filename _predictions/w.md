@@ -16,6 +16,7 @@ tau_value: "-0.960"
 observed_value: "-1.0 ± 0.05"
 deviation: "–"
 precision_tier: "structural"
+cascade_tier: binary
 precision_display: "Structural"
 registry_id: "V.T235"
 scope: "conjectural"

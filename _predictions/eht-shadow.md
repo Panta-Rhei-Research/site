@@ -16,6 +16,7 @@ tau_value: "5.25,GM/c²"
 observed_value: "5.1 ± 0.3"
 deviation: "–"
 precision_tier: "structural"
+cascade_tier: A
 precision_display: "Structural"
 registry_id: "V.T220"
 scope: "tau-effective"

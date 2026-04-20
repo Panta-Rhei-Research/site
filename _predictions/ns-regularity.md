@@ -16,6 +16,7 @@ tau_value: "no blow-up"
 observed_value: "(open)"
 deviation: "–"
 precision_tier: "structural"
+cascade_tier: binary
 precision_display: "Structural"
 registry_id: "V.T254"
 scope: "conjectural"

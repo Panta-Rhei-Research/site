@@ -148,6 +148,19 @@
   .chip-precision-percent.is-active { background: #a66d00; border-color: #a66d00; color: #fff; }
 }
 
+// ---------- Cascade tier chips (Physics Ledger v2.1 taxonomy) ----------
+.chip-tier-a, .chip-tier-A { background: rgba(30, 126, 52, 0.1); border-color: rgba(30, 126, 52, 0.3); color: #1e7e34; font-weight: 600; }
+.chip-tier-b, .chip-tier-B { background: rgba(26, 91, 196, 0.1); border-color: rgba(26, 91, 196, 0.3); color: #1a5bc4; }
+.chip-tier-c, .chip-tier-C { background: rgba(166, 109, 0, 0.1); border-color: rgba(166, 109, 0, 0.3); color: #a66d00; }
+.chip-tier-binary { background: rgba(91, 103, 114, 0.1); border-color: rgba(91, 103, 114, 0.3); color: #5b6772; }
+
+.predictions-browse-controls {
+  .chip-tier-a.is-active { background: #1e7e34; border-color: #1e7e34; color: #fff; }
+  .chip-tier-b.is-active { background: #1a5bc4; border-color: #1a5bc4; color: #fff; }
+  .chip-tier-c.is-active { background: #a66d00; border-color: #a66d00; color: #fff; }
+  .chip-tier-binary.is-active { background: #5b6772; border-color: #5b6772; color: #fff; }
+}
+
 // ---------- Falsification status chips ----------
 .chip-status-confirmed { background: rgba(30, 126, 52, 0.1); border-color: rgba(30, 126, 52, 0.3); color: #1e7e34; font-weight: 600; }
 .chip-status-consistent { background: rgba(26, 91, 196, 0.1); border-color: rgba(26, 91, 196, 0.3); color: #1a5bc4; }

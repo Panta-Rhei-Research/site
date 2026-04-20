@@ -16,6 +16,7 @@ tau_value: "slope 3.991"
 observed_value: "3.97 ± 0.10"
 deviation: "0.067 dex"
 precision_tier: "1-5-percent"
+cascade_tier: A
 precision_display: "1–5%"
 registry_id: "V.D258"
 scope: "tau-effective"

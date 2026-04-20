@@ -16,6 +16,7 @@ tau_value: "0.117,R_⊙"
 observed_value: "≈!0.1,R_⊙"
 deviation: "∼ 15%"
 precision_tier: "structural"
+cascade_tier: A
 precision_display: "Structural"
 registry_id: "V.T253"
 scope: "tau-effective"

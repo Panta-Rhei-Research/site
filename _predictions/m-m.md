@@ -16,6 +16,7 @@ tau_value: "≈!206.1"
 observed_value: "206.768"
 deviation: "+307~ppm"
 precision_tier: "10-1000-ppm"
+cascade_tier: A
 precision_display: "10–1000 ppm"
 registry_id: "IV.T148"
 scope: "conjectural"

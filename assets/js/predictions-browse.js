@@ -11,7 +11,7 @@
   var clearBtn = document.getElementById('predictions-clear-filters');
   var emptyClearBtn = document.getElementById('predictions-empty-clear');
 
-  var state = { domain: new Set(), precision: new Set(), scope: new Set() };
+  var state = { domain: new Set(), precision: new Set(), scope: new Set(), cascade_tier: new Set() };
   var DEFAULT_SORT = 'precision';
   var VALID_SORTS = ['precision', 'alpha', 'domain'];
   var sortMode = DEFAULT_SORT;
@@ -42,6 +42,7 @@
     if (state.domain.size > 0 && !state.domain.has(card.dataset.domain)) return false;
     if (state.precision.size > 0 && !state.precision.has(card.dataset.precision)) return false;
     if (state.scope.size > 0 && !state.scope.has(card.dataset.scope)) return false;
+    if (state.cascade_tier.size > 0 && !state.cascade_tier.has(card.dataset.cascadeTier)) return false;
     return true;
   }
 
