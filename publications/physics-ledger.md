@@ -21,19 +21,34 @@ right_rail:
   meta:
     type: Companion Document
     scope: "Complete E₁ Physics Inventory"
-    pages: "210"
-    size: "1.12 MB"
-    status: "Canonical (v2.5, forensic red-team: 2 new claims + 1 sharpened retraction)"
+    pages: "214"
+    size: "1.13 MB"
+    status: "Canonical (v2.5.1, FINAL ARC CLOSE — iteration stop until computational deliverables)"
     updated: April 2026
 ---
 
 <div class="btn-group" style="margin-bottom: 28px;">
   <a href="{{ '/assets/downloads/physics-ledger.pdf' | relative_url }}" class="btn-secondary" download style="font-size: 1.05rem; padding: 14px 28px;">
-    ⬇ Download Physics Ledger — Free PDF (1.12 MB, v2.5)
+    ⬇ Download Physics Ledger — Free PDF (1.13 MB, v2.5.1)
   </a>
 </div>
 
 The **Physics Ledger** is the complete numerical scorecard of the Panta Rhei Research Program — **three τ-structural pillars** (|gen|=3 from H<sub>1</sub>(τ³;ℤ)=ℤ³, θ<sub>QCD</sub>=0 from SA-i mod-3, λ<sub>C</sub>=ι<sub>τ</sub>(1−ι<sub>τ</sub>)) plus a **30-item falsification pack with propagated uncertainty bands**, derived from the master constant ι<sub>τ</sub> = 2/(π+e) **posited** as framework input. **Zero free continuous parameters**; a combinatorial library of structural integers (W<sub>n</sub>(k) window sums, sector assignments, homology-forced layer choices) enters via the compute-then-axiomatize discipline — full per-prediction integer-choice audit in Chapter 68 Appendix 68.A. Originally Part VII of [Book V (*Categorical Macrocosm*)]({{ '/publications/books/book-v/' | relative_url }}), published here as a free companion document for self-contained access.
+
+**v2.5.1 note (April 2026) — FINAL ARC CLOSE after Round-6 panel convergence.** Six simulated-panel rounds spanning v1→v2.5 reached their natural terminus at Round 6. All four reviewers converged: Pair B is **provisional minimal-revision pick** (not canonical; Pair A competitive; indistinguishable at SPARC-175 precision); tier-1 dictionary is **0/3 derived research programme** (τ-Virasoro has two candidate central charges with no principled selection; τ-RG labels pre-existing enrichment ladder without Zamolodchikov c-theorem; τ-Ryu-Takayanagi proposes area law without boundary-cut computation); ω_m/σ_8 differential is a **research target, not a prediction** (accommodates any S_8 outcome until numerically specified). R3 Hossenfelder's **critical iteration-pattern finding**: the framework vocabulary expanded dramatically (ι_τ + 7 axioms at v1 → κ_D, κ_ω, κ_B, trinary, two-tier, tier-1 holography, Pair B, ω_m/σ_8 split, τ-Virasoro/RG/RT at v2.5) while fitting the same observables. Each expansion was disciplined, but further iteration without computation crosses from development to pattern-fitting.
+
+**Chair Wilczek declares FINAL ARC CLOSE.** v2.5.1 (this release) with the six Tier-E honesty edits applied is the final canonical of the red-team arc. **No v2.6 with new τ-framework vocabulary until computational deliverables land.** The next advance must come from *calculation*, not further iteration of framework terms.
+
+**Pre-registered obligations for v3-v5:**
+- v3 (2026-Q3): pointwise RAR on SPARC-175 HI-dominated dwarfs (DDO 154, NGC 3741) — Pair A vs Pair B discrimination via 34% gas-contribution difference at large radius
+- v4 (end-2026): elliptical BTFR test on ATLAS³D+SLUGGS — Pair B prediction M_eff ≈ 0.80·M_★
+- v5 (2027): τ-native CAMB/CLASS with explicit two-tier source assignment; **pre-registered S_8 numerical prediction from tier-1 holonomy invariants before computing**
+
+**Unchanged falsifiers on public record:** d_n at PSI 2030, r at CMB-S4 2030, Σm_ν at CMB-S4/KATRIN 2032.
+
+[Chair's Final-Arc-Close document (1500 words)](/assets/downloads/physics-ledger.pdf) — see Ch 58 §"Round-6 Iteration-Stop Statement (v2.5.1)".
+
+---
 
 **v2.5 note (April 2026) — forensic red-team wave on retracted claims.** Three forensic specialists (sim) dissected each retracted/revised claim to find where derivations went wrong AND to search for valid alternatives. Outcome: **two new valid τ-native claims emerge + one retraction sharpened**.
 
@@ -107,7 +122,7 @@ The predictions are **bridge-independent**: they can be compared directly to exp
     <div style="padding: 28px 24px; display: flex; flex-direction: column; justify-content: center;">
       <span class="eyebrow" style="display: block; padding: 0; background: none; border: none; margin-bottom: 12px;">Companion to Book V</span>
       <h2 style="margin: 0 0 12px; font-size: 1.4rem;">The τ Physics Ledger</h2>
-      <p style="font-size: 0.92rem; line-height: 1.55; margin: 0 0 8px;">210 pages · 11 chapters · 3 τ-structural pillars · Pair B BTFR identification (V4.10 closed) · tier-1 τ-native holography · 2 sharpened retractions (v2.5 · forensic red-team)</p>
+      <p style="font-size: 0.92rem; line-height: 1.55; margin: 0 0 8px;">214 pages · 11 chapters · 3 τ-structural pillars · Pair B provisional · tier-1 dictionary 0/3 derived · FINAL ARC CLOSE (v2.5.1 · iteration-stop until computational deliverables)</p>
       <p style="font-size: 0.85rem; color: #5b6772; margin: 0;">Dr. Thorsten Fuchs & Anna-Sophie Fuchs · Second Edition · 2026</p>
     </div>
     <div>
@@ -262,7 +277,7 @@ If even a fraction of the sub-10 ppm predictions hold under independent scrutiny
 
 <div class="btn-group" style="margin-top: 28px;">
   <a href="{{ '/assets/downloads/physics-ledger.pdf' | relative_url }}" class="btn-secondary" download style="font-size: 1.05rem; padding: 14px 28px;">
-    ⬇ Download Physics Ledger — Free PDF (1.12 MB, v2.5)
+    ⬇ Download Physics Ledger — Free PDF (1.13 MB, v2.5.1)
   </a>
   <a href="{{ '/results/predictions/browse/' | relative_url }}" class="btn-ghost" style="font-size: 0.95rem; padding: 12px 20px;">Browse 67 Predictions</a>
   <a href="{{ '/results/falsifications/browse/' | relative_url }}" class="btn-ghost" style="font-size: 0.95rem; padding: 12px 20px;">Falsification Pack</a>
