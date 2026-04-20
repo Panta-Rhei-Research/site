@@ -95,17 +95,48 @@ Die Suchfunktion dieser Website wird über **Pagefind** bereitgestellt. Pagefind
 
 ## 8. Cookies und ähnliche Technologien
 
-Auf dieser Website werden **nur technisch notwendige Technologien** eingesetzt, die für den ordnungsgemäßen Betrieb der Website erforderlich sind. Es werden keine Tracking-Cookies, Analyse-Tools oder Marketing-Technologien verwendet.
+Diese Website setzt **keine Cookies** — weder technische noch Tracking-, Analyse- oder Marketing-Cookies. Es kommen ebenso keine clientseitigen Speichermechanismen (localStorage, sessionStorage, IndexedDB) zum Einsatz, die einer Einwilligung nach § 25 Abs. 1 TTDSG bedürfen würden.
+
+Zur datenschutzfreundlichen, cookielosen Reichweitenmessung siehe § 9.
 
 Soweit künftig darüber hinausgehende Analyse-, Tracking- oder Komfortfunktionen eingesetzt werden sollten, werden wir diese Datenschutzerklärung und — soweit rechtlich erforderlich — das Einwilligungsmanagement entsprechend anpassen.
 
-## 9. Schriftarten
+## 9. Reichweitenmessung mit Umami Analytics
+
+Zur Verbesserung des Forschungsangebots setzen wir **Umami Analytics** (Umami Software, Inc., USA) in der gehosteten Variante „Umami Cloud" (Endpunkt `cloud.umami.is`) ein. Umami ist eine bewusst datenminimierende, cookielose Alternative zu klassischen Analyse-Produkten.
+
+**Erhobene Daten** (pro Seitenaufruf, unmittelbar aggregiert):
+
+- aufgerufene URL,
+- Referrer-URL (falls vorhanden),
+- Browser- und Betriebssystemtyp auf grobem Niveau,
+- Herkunftsland (aus der IP-Adresse abgeleitet),
+- ein tagesbasierter, seitenspezifischer Besucher-Hash.
+
+Die IP-Adresse wird **nicht** dauerhaft gespeichert; sie dient ausschließlich der Ableitung des Länder-Flags und des tagesbasierten Besucher-Hashes und wird unmittelbar danach verworfen.
+
+**Was Umami nicht tut:**
+
+- Es werden **keine** Cookies gesetzt.
+- Es werden **keine** Informationen in Ihrem Endgerät gespeichert oder ausgelesen.
+- Es erfolgt **kein** websiteübergreifendes Tracking, kein Profilabgleich mit anderen Websites, keine Weitergabe an Werbenetzwerke.
+- Es werden **keine** personenbezogenen Profile gebildet.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an aggregierter, datenminimierender Nutzungsstatistik zur Weiterentwicklung des Forschungsangebots). Eine Einwilligung nach § 25 Abs. 1 TTDSG ist **nicht** erforderlich, da Umami keine Informationen in Ihrem Endgerät speichert oder ausliest.
+
+**Drittlandtransfer:** Umami Software, Inc. hat seinen Sitz in den Vereinigten Staaten. Die Datenübermittlung erfolgt auf Grundlage der Standardvertragsklauseln der EU-Kommission (Art. 46 Abs. 2 lit. c DSGVO) sowie — soweit der Anbieter entsprechend zertifiziert ist — des EU-US Data Privacy Framework (Angemessenheitsbeschluss der EU-Kommission vom 10. Juli 2023).
+
+**Widerspruch:** Sie können der Verarbeitung jederzeit widersprechen, indem Sie in Ihrem Browser das Ausführen des Umami-Skripts unterbinden — beispielsweise durch ein Skript-Blocking-Add-on oder durch Blockieren des Aufrufs von `cloud.umami.is`.
+
+**Weitere Informationen:** [Umami Privacy Policy](https://umami.is/privacy).
+
+## 10. Schriftarten
 
 Diese Website verwendet die Schriftart **Inter** (Variable Font, SIL Open Font License). Die Schriftdatei wird **lokal vom Hosting-Server (GitHub Pages) ausgeliefert** und nicht von einem externen Schriftartendienst nachgeladen. Es werden insbesondere **keine Verbindungen zu Google Fonts, Adobe Fonts oder vergleichbaren Drittanbietern** hergestellt. Eine Übermittlung Ihrer IP-Adresse an Dritte zum Zweck der Schriftauslieferung findet nicht statt.
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der einheitlichen Darstellung der Website bei gleichzeitiger Datenminimierung).
 
-## 10. Ihre Rechte
+## 11. Ihre Rechte
 
 Sie haben gegenüber dem Verantwortlichen folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:
 
@@ -119,6 +150,6 @@ Sie haben gegenüber dem Verantwortlichen folgende Rechte hinsichtlich der Sie b
 
 Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: [legal@panta-rhei.site](mailto:legal@panta-rhei.site)
 
-## 11. Beschwerderecht
+## 12. Beschwerderecht
 
 Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren.
