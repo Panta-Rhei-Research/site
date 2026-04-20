@@ -40,11 +40,11 @@ The framework does not treat dignity as a merely sentimental label. Dignity is t
 
 This matters because it lets ethics begin from something more precise than preference, utility, or tribal convention. Dignity is not imported from nowhere. It is read out from the kind of beings the reflective world can contain.
 
-## Why ethics is not just command
+## Why ethics is not just command *(τ-effective)*
 
 Tau is not introducing morality as an arbitrary external command laid over reality. It is trying to derive the intelligibility of ethics from the same structure that already made reflective worlds possible.
 
-That is why the site can speak of a categorical imperative in this context without merely quoting Kant as authority. The point is that the reflective world itself has constraints on what can be willed coherently.
+That is why the site can speak of a categorical imperative in this context without merely quoting Kant as authority. The point is that the reflective world itself has constraints on what can be willed coherently. The step from "the reflective world has constraints on what can be willed coherently" to "a Kantian-style categorical imperative follows from those constraints" is a τ-effective derivation — it is the program's internal reading of reflective structure, not a settled philosophical result. It is what Tau claims follows; it is not what orthodox ethics already grants.
 
 ## Justice, ambiguity, and virtue
 
@@ -58,9 +58,11 @@ The reflective layer is not only personal. It is social. Institutions, legitimac
 
 This is why Tau can treat society as ontology, not merely as sociology.
 
-## Religion and social glue
+## Religion and social glue *(τ-effective / interpretive)*
 
 One of the boldest claims in this register is that religion can be understood structurally as part of the social gluing of a reflective world. This does not reduce religion to illusion or tribal residue, nor does it immediately ratify every historical religious form. It situates religion within the architecture of commitment, meaning, and social cohesion.
+
+This reading is τ-effective and interpretive — it is the program's structural framing of religion, not a neutral description of how religious traditions understand themselves. Readers with theological or historical-of-religion commitments should take it as a program-internal reading, not as settled philosophy or sociology of religion.
 
 That is exactly the kind of claim that belongs in E3.
 

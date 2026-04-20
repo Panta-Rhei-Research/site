@@ -68,11 +68,11 @@ That means the system is no longer only structuring a world. It is structuring t
 
 That is the point at which the ladder closes.
 
-## Why this is not arbitrary
+## Why this is not arbitrary *(τ-effective, architectural)*
 
 Tau does not stop at E3 because the authors simply chose to stop. It stops because the framework claims that the relevant enrichment equation has reached closure. The fourth enrichment does not produce a genuinely new order; it reproduces the third.
 
-This is one of the strongest architectural claims of the whole program, because it means that metaphysics in Tau is not a vague higher layer. It is the exact place where the system reaches reflective closure.
+This is one of the strongest architectural claims of the whole program, because it means that metaphysics in Tau is not a vague higher layer. It is the exact place where the system reaches reflective closure. The saturation claim itself is τ-effective and architectural — it is anchored in the registry by the Saturation Theorem (VII.T06) and the No-New-Lobe Lemma (VII.L05), and its force depends on the program's internal formulation of the enrichment equation. Outside τ, "the ladder stops at E3" is not a settled mathematical or philosophical result; inside τ, it is the structural statement the framework stakes itself on.
 
 ## The four registers
 

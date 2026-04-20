@@ -41,11 +41,13 @@ The substrate already carries primitive discreteness. There is a real notion of 
 
 So Tau needs an internal principle that yields a non-trivial ratio world without importing a free parameter from outside.
 
-## `ι<sub>τ</sub>` as the master calibration constant
+## `ι<sub>τ</sub>` as the master calibration constant *(τ-effective)*
 
 This is the role of `ι<sub>τ</sub>`.
 
 `ι<sub>τ</sub>` is not an externally fitted constant. It is an internally arising fixed-point / omega-germ structure rooted in prime polarity. In the E1 physical readout, it becomes the governing ratio principle through which stable physical entities and their measurable relations are scaled relative to one another.
+
+The specific closed-form identification `ι<sub>τ</sub> = 2/(π+e)` is a τ-effective posit of the program — it is the derivation-from-prime-polarity the framework proposes, not yet a settled external result. Readers should treat it as an internal structural claim whose bridge to orthodox mathematics is still being written, not as a fully accepted theorem outside τ.
 
 This is why `ι<sub>τ</sub>` matters so much. It is not one more parameter in a list of constants. It is the reason the world avoids trivial commensurability in the first place.
 
@@ -72,7 +74,7 @@ The site should describe this in two steps:
 
 The anchor proposed in the program is the neutron. By identifying the Tau neutron with the measured physical neutron, one can set the corresponding Tau mass against the neutron mass in SI units and then unfold the wider system from there.
 
-This is not an arbitrary fit of many constants. It is a minimal calibration bridge from one already-rich ratio system to the conventional units of empirical practice.
+This is not an arbitrary fit of many constants. It is a minimal calibration bridge from one already-rich ratio system to the conventional units of empirical practice. To be fully honest about the epistemic situation: the neutron-mass identification is a one-dimensional empirical anchor — the internal ratio hierarchy is parameter-free, but pinning it to SI still requires this single semantic choice. "Parameter-free" here therefore means "one anchor, not dozens," not "literally zero empirical input."
 
 ## Why this matters epistemically
 

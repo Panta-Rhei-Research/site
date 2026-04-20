@@ -39,11 +39,11 @@ Tau’s ontology remains relational all the way up. What exists is not first a s
 
 This is why the ontology here remains non-dualistic. The system does not need a second ghostly realm to host meaning, appearance, or subjectivity. It deepens the same world.
 
-## Tau as ontic substrate, not just formal convenience
+## Tau as ontic substrate, not just formal convenience *(conjectural)*
 
 At this point the site should state clearly: the framework is not merely offering an instrumental formalism for talking about reality. It is offering an account of the ontic substrate of reality itself, now read through the reflective layer.
 
-That is the sense in which the program speaks of a non-dualistic Platonism. The world is not reduced to matter-only, but neither is it divided into two alien orders of being.
+That is the sense in which the program speaks of a non-dualistic Platonism. The world is not reduced to matter-only, but neither is it divided into two alien orders of being. Both the "ontic substrate" reading of τ and the "non-dualistic Platonism" framing are conjectural — they are program-internal philosophical commitments, neither τ-derivable in a narrow formal sense nor settled consensus positions in contemporary metaphysics. Readers should treat them as the program's own substantive philosophical posit, open to disagreement and to alternative readings of the same formal material.
 
 ## Why epistemology cannot float above ontology
 
@@ -55,7 +55,7 @@ So Tau approaches epistemology as structurally grounded:
 
 ## Knowledge as section over experience
 
-One of the most beautiful E3 claims is that knowledge is not best understood as a detached mirror of reality, but as something like a section over experience. A world gives itself locally through structured appearance, and knowledge is the stabilization of that local section.
+One of the more striking E3 claims is that knowledge is not best understood as a detached mirror of reality, but as something like a section over experience. A world gives itself locally through structured appearance, and knowledge is the stabilization of that local section.
 
 This is why the framework does not reduce truth to sheer interior psychology. Nor does it imagine knowledge as an impossible God’s-eye escape from embodiment.
 

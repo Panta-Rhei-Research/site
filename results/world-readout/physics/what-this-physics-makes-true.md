@@ -64,16 +64,17 @@ Because the world is already coherent and closed, frontier problems in quantum t
 
 ## The result atlas begins here
 
-From this point onward, the site can move into the detailed result pages:
-- Hubble tension
-- dark matter / dark energy closure
-- proton radius
-- muon g−2
-- W mass
-- neutrino structure
-- black holes
-- no Hawking radiation
-- arrow of time
+From this point onward, the site can move into the detailed result pages. The bullets below carry a scope status in parentheses — **Resolved** means an orthodox-measurable consequence the program claims as a quantitative hit, **Partial** means a τ-effective claim with partial empirical alignment, **Qualitative** means a structural reading not yet sharpened to a number, and **Contradicted** means a τ-prediction that currently runs against the orthodox default. Full claim-typing lives in the status-and-claim-typing page.
+
+- [Hubble tension]({{ '/results/problem/hubble-tension/' | relative_url }}) *(Resolved, τ-effective)*
+- [dark matter / dark energy closure]({{ '/results/problem/dark-sector-closure/' | relative_url }}) *(Resolved, τ-effective)*
+- [proton radius]({{ '/results/problem/proton-charge-radius-12-ppm/' | relative_url }}) *(Resolved)*
+- [muon g−2]({{ '/results/problem/muon-anomalous-magnetic-moment-8pt8-ppm/' | relative_url }}) *(Resolved)*
+- [W mass]({{ '/results/problem/w-mass-puzzle/' | relative_url }}) *(Partial)*
+- [neutrino structure]({{ '/results/problem/neutrino-mass-sum-0pt089-ev-normal-ordering/' | relative_url }}) *(Resolved, τ-effective)*
+- black holes *(Qualitative, τ-effective)*
+- [no Hawking radiation]({{ '/results/problem/no-hawking-radiation/' | relative_url }}) *(Contradicted by orthodox expectation, τ-effective — live falsification target)*
+- [arrow of time]({{ '/results/problem/arrow-of-time-orbit/' | relative_url }}) *(Qualitative, τ-effective)*
 - and many more
 
 Those result pages matter enormously. But they are most useful when read as the detailed atlas of a world already described.

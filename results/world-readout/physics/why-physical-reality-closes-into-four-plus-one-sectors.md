@@ -46,7 +46,7 @@ A sector in Tau is not merely a loose family resemblance among phenomena. It is 
 
 So the four plus one structure is not simply taxonomy. It is the closure of the space in which primary physical structures can exist.
 
-## The four plus one physical readout
+## The four plus one physical readout *(τ-effective)*
 
 At the physical level, Tau reads this sector structure as:
 
@@ -56,15 +56,15 @@ At the physical level, Tau reads this sector structure as:
 - gravitational,
 - plus the mixed/Higgs bridge sector.
 
-This is not meant merely as a retrospective naming trick. The claim is that the enriched sector structure itself has exactly the right form to ground these four plus one constitutive physical modes.
+This is not meant merely as a retrospective naming trick. The claim is that the enriched sector structure itself has exactly the right form to ground these four plus one constitutive physical modes. Treating gravity as a primary sector on equal footing with the Standard Model gauge sectors is itself a τ-effective structural posit — in orthodox physics, gravity sits apart from SM gauge structure, and the Higgs is not usually read as a separate bridging sector. The four-plus-one picture is the program's internal readout, not a settled external consensus.
 
-## Why closure matters
+## Why closure matters *(τ-effective)*
 
 The significance of sector closure is not only that it reproduces familiar physics. It is that it closes the space of primary physical sectors altogether.
 
 Within Tau, there is no structurally available fifth or sixth primary sector waiting to be discovered in the same sense as the first four plus one. This does not mean the world lacks complex phenomena. It means no further **primary constitutive sector** is admissible.
 
-That is a very strong statement.
+That is a very strong statement — and a τ-effective one. The "no fifth sector" claim (V.T45) and the "no independent dark-sector ontology" claim (V.C01) are program-internal consequences of the closure architecture, not externally settled results. A confirmed new fundamental sector, or a confirmed dark-matter carrier requiring its own sector, would falsify this closure. It is a falsifiable structural prediction, not a definitional move.
 
 ## Why this is different from “we just have not found it yet”
 

@@ -71,11 +71,15 @@ Black holes matter here not just as local astrophysical curiosities but as globa
 
 In Tau, black holes are central to the world’s later-stage architecture.
 
-## Dark sector and cosmological closure
+## Dark sector and cosmological closure *(τ-effective)*
 
 Because the world is already sector-closed and globally completed, Tau does not need a separate dark-sector ontology to keep cosmology coherent. Likewise, it does not require an independent inflaton sector in order to make sense of early expansion. Cosmological behavior is read out from the same world-architecture already described in the earlier pages.
 
 This is one of the reasons the later physical result pages are so strong: they are not being derived from a patched cosmology, but from a closed one.
+
+## Scope and falsification surface
+
+Three claims in this cluster carry the full weight of the cosmological biography and should be named explicitly as τ-effective — strong internal consequences of the framework, not yet settled empirical facts. The H<sub>0</sub> tension resolution (V.T46), the no-dark-particle / dark-sector closure (V.T47), and the no-Hawking-radiation / no-black-hole-evaporation claim (V.C12) are all τ-effective: they follow from the program's internal architecture and operate as live falsification targets. An H<sub>0</sub> measurement that settles away from the τ-predicted value, a confirmed dark-matter particle detection, or a confirmed evaporation signature would each falsify the corresponding piece of the biography. That is precisely what makes the biography a scientifically serious proposal rather than a closed system.
 
 ## Conclusion
 
