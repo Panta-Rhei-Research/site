@@ -101,7 +101,7 @@ The Panta Rhei Research Program develops Category τ, a categorical framework th
 | Chapters | {{ chapter_count }} |
 | Key results | {{ result_count }} |
 | Registry objects | {{ registry_count }} |
-| Lean 4 modules | 450 |
+| Lean 4 modules | 445 |
 | Lines of Lean 4 | 127,440 |
 | Machine-checked theorems | 4,332 |
 | Sorry (unproven) | 0 (across all 7 books) |
