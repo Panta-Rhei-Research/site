@@ -19,7 +19,7 @@ right_rail:
     url: /research-program/about/research-aim-and-desiderata/
   - title: Book I
     url: /publications/books/book-i/
-  - title: Book Vii
+  - title: Book VII
     url: /publications/books/book-vii/
   - title: From Self-Enrichment to Physical Legibility
     url: /framework/about/from-self-enrichment-to-physical-legibility/

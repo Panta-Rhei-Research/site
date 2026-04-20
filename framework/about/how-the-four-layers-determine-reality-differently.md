@@ -16,11 +16,11 @@ summary_cards:
     kind of claim.
 right_rail:
   related:
-  - title: Overview
+  - title: Framework Overview
     url: /framework/
-  - title: Overview
+  - title: Claims Overview
     url: /results/
-  - title: Overview
+  - title: Verify Lane
     url: /verify/
   - title: What the Framework Does Not Assume
     url: /framework/about/what-the-framework-does-not-assume/

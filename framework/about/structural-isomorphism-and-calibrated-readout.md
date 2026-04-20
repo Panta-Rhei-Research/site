@@ -17,9 +17,9 @@ summary_cards:
     where the bridge is argued in detail.
 right_rail:
   related:
-  - title: Overview
+  - title: Claims
     url: /results/
-  - title: Book Iv
+  - title: Book IV
     url: /publications/books/book-iv/
   - title: Book V
     url: /publications/books/book-v/

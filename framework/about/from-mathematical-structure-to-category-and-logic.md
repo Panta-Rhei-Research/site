@@ -15,9 +15,9 @@ summary_cards:
     semantic development.
 right_rail:
   related:
-  - title: Book Ii
+  - title: Book II
     url: /publications/books/book-ii/
-  - title: Book Ii
+  - title: TauLib — Book II docs
     url: https://taulib.site/docs/
   - title: Boundary, Interior, and Readout
     url: /framework/about/boundary-interior-and-readout/

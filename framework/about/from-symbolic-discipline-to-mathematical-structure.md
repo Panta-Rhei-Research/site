@@ -19,9 +19,9 @@ right_rail:
   related:
   - title: Book I
     url: /publications/books/book-i/
-  - title: Overview
+  - title: Registry
     url: /registry/
-  - title: Book I
+  - title: TauLib — Book I docs
     url: https://taulib.site/docs/
   - title: From Mathematical Structure to Category and Logic
     url: /framework/about/from-mathematical-structure-to-category-and-logic/

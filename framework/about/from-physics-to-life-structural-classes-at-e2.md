@@ -17,7 +17,7 @@ right_rail:
   related:
   - title: Life
     url: /framework/life/
-  - title: Book Vi
+  - title: Book VI
     url: /publications/books/book-vi/
   - title: By Domain
     url: /results/by-domain/

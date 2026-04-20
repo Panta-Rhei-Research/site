@@ -15,9 +15,9 @@ summary_cards:
     a convenient formal model.
 right_rail:
   related:
-  - title: Overview
+  - title: Verify
     url: /verify/
-  - title: Book Vii
+  - title: Book VII
     url: /publications/books/book-vii/
   - title: Foundational Discipline
     url: /research-program/about/foundational-discipline/

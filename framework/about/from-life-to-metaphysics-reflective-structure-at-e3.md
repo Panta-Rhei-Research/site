@@ -17,7 +17,7 @@ right_rail:
   related:
   - title: Metaphysics
     url: /framework/metaphysics/
-  - title: Book Vii
+  - title: Book VII
     url: /publications/books/book-vii/
   - title: By Domain
     url: /results/by-domain/

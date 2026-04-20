@@ -17,7 +17,7 @@ right_rail:
   related:
   - title: Physics
     url: /framework/physics/
-  - title: Book Iii
+  - title: Book III
     url: /publications/books/book-iii/
   - title: By Domain
     url: /results/by-domain/

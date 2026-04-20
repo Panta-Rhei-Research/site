@@ -15,11 +15,11 @@ summary_cards:
     books are only the canonical publication partition of a deeper architecture.
 right_rail:
   related:
-  - title: Overview
+  - title: Framework
     url: /framework/
-  - title: Book Iii
+  - title: Book III
     url: /publications/books/book-iii/
-  - title: Book Vii
+  - title: Book VII
     url: /publications/books/book-vii/
   - title: Self-Hosting and Internal Semantic Closure
     url: /framework/about/self-hosting-and-internal-semantic-closure/
