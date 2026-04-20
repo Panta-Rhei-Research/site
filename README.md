@@ -1,0 +1,42 @@
+# panta-rhei.site — Jekyll source
+
+This repository is the public source for **[panta-rhei.site](https://panta-rhei.site)**, the web presence of the **Panta Rhei Research Program**.
+
+The program develops **Category τ**, a constrained formal kernel (5 generators, 7 axioms, 1 operator ρ) that aims to derive results across mathematics, physics, life, and metaphysics from one foundation. Master constant ι<sub>τ</sub> = 2/(π+e).
+
+## What's in the program
+
+| Surface | Repo | Purpose |
+|---|---|---|
+| **Public website** | [`Panta-Rhei-Research/site`](https://github.com/Panta-Rhei-Research/site) (this repo) | Jekyll source for `panta-rhei.site` — the program hub |
+| **TauLib** | [`Panta-Rhei-Research/taulib`](https://github.com/Panta-Rhei-Research/taulib) | Lean 4 formalization (445 modules, 127,440 lines, 4,332 theorems, 3 axioms, 0 sorry) — documented at `taulib.site` |
+| **Frozen verification archive** | [`Panta-Rhei-Research/formalization`](https://github.com/Panta-Rhei-Research/formalization) | Frozen 2nd-Edition Lean verification snapshot |
+
+The program is published as a seven-book canonical monograph series (3,431 pages, 79 parts, 535 chapters — available now on Amazon KDP), with a free 190-page **Physics Ledger** companion carrying 67 numerical predictions + 30-item falsification pack.
+
+## Building locally
+
+```bash
+bundle install
+bundle exec jekyll serve
+# open http://localhost:4000
+```
+
+Requires Ruby 3.3+ and Bundler. The full deploy runs on GitHub Pages via `.github/workflows/jekyll.yml`.
+
+## Content license
+
+All original site content — prose, diagrams, mathematics, registry objects, and results — is released under [**Creative Commons Attribution 4.0 International (CC BY 4.0)**](https://creativecommons.org/licenses/by/4.0/). TauLib is separately licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+See [`/credits/`](https://panta-rhei.site/credits/) for the full attribution list.
+
+## Corrections, reviews, collaboration
+
+- **Editorial errata:** [errata@panta-rhei.site](mailto:errata@panta-rhei.site)
+- **Media / reviews:** [press@panta-rhei.site](mailto:press@panta-rhei.site) — structured assets at [`/media/`](https://panta-rhei.site/media/)
+- **Specialist review routes:** [`/verify/how-to-audit/`](https://panta-rhei.site/verify/how-to-audit/) (six inspection routes: formal methods / mathematician / physicist / philosopher / prior-art specialist / journalist-generalist)
+- **Legal:** [`/impressum/`](https://panta-rhei.site/impressum/) · [`/datenschutz/`](https://panta-rhei.site/datenschutz/)
+
+## How to cite
+
+See [`/cite/`](https://panta-rhei.site/cite/) for canonical citations, DOIs, and ORCID IDs.
