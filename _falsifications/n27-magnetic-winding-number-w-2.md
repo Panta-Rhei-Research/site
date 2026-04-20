@@ -5,6 +5,7 @@ permalink: /falsifications/n27-magnetic-winding-number-w-2/
 lane: results
 falsification_id: "N27"
 n_num: 27
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "magnetic winding!prediction pred:n27 The RM winding theorem (V.T227): $w = (T^2) = 2$. Faraday rotation measure near BH jets encodes toroidal winding."

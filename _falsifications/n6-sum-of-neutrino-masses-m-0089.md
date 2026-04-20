@@ -5,6 +5,7 @@ permalink: /falsifications/n6-sum-of-neutrino-masses-m-0089/
 lane: results
 falsification_id: "N6"
 n_num: 6
+tier: B
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "Sigma m-nu = 0.089~eV. neutrino mass!sum prediction pred:n6 CF-asymmetry grid (V.T175): $(_pq, _pr) = (1.16, 0.87)$, giving $ m_ = 0.089$~eV. Orthodox: free parameter, $ < 0.12$~eV (Planck). Decisive if $$ measured outside $0.082$–$0.096$~eV."

@@ -106,6 +106,10 @@ Tau claims something rarer: a rich enough yet ontically closed self-enriching un
 
 If that claim holds, then enrichment is not merely a technical construction. It is a real ontological middle way.
 
+## Being, becoming, and the calibration cascade
+
+The being / becoming distinction has a quiet echo inside the program's quantitative architecture. The [Calibration Sufficiency Theorem]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) — that ι<sub>τ</sub> and m<sub>n</sub> together determine every Ledger entry with zero free parameters — is in effect the structural "being" of Tau physics: the invariant content that does not change when the world is observed. The readouts themselves — each specific SI-valued prediction at L3 and each test in the L4 falsifier pack — are the "becoming": where the sufficient structure meets a measurement and either survives or does not. The eternal substrate and its real dynamics have their quantitative analogues in the fixed cascade and its running predictions.
+
 ## Conclusion
 
 Tau therefore describes a universe in which being is real, becoming is real, and higher forms of reality are neither illusory nor supernatural. The substrate is eternal. The dynamics are not. The higher is grounded, but not flattened. In that sense, Tau proposes not only a physics, but a more exact grammar of reality itself.

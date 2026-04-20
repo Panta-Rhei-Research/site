@@ -57,7 +57,7 @@ Gravitational structure is read out from the same world that already hosts quant
 The universe is not a loose collection of epochs but a coherent unfolding from ignition through topology-bearing black-hole phases to finite saturation.
 
 ### 5. Quantities are not imposed by free parameters
-A master calibration hierarchy arises through `ι<sub>τ</sub>`, allowing constants and measurements to be read out rather than merely fitted.
+A master calibration hierarchy arises through `ι<sub>τ</sub>`, with **two inputs** and nothing else — the algebraic posit ι<sub>τ</sub> = 2/(π + e) and the single SI anchor m<sub>n</sub> — running a **four-layer cascade** L0 → L1 → L2 → L3 → L4 that determines every Ledger entry. The [Calibration Sufficiency Theorem]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) makes this precise.
 
 ### 6. Major frontier problems become structurally accessible
 Because the world is already coherent and closed, frontier problems in quantum theory, gravitation, cosmology, and particle physics can be approached as consequences rather than as disconnected anomalies.
@@ -65,6 +65,8 @@ Because the world is already coherent and closed, frontier problems in quantum t
 ## The result atlas begins here
 
 From this point onward, the site can move into the detailed result pages. The bullets below carry a scope status in parentheses — **Resolved** means an orthodox-measurable consequence the program claims as a quantitative hit, **Partial** means a τ-effective claim with partial empirical alignment, **Qualitative** means a structural reading not yet sharpened to a number, and **Contradicted** means a τ-prediction that currently runs against the orthodox default. Full claim-typing lives in the status-and-claim-typing page.
+
+Quantitative claims additionally sort into three precision tiers inherited from the calibration cascade: **Tier A** (~0.025 ppm — the sharpest predictions, such as R<sub>0</sub> → m<sub>p</sub>/m<sub>e</sub>), **Tier B** (~3 ppm — strong agreement across many constants), and **Tier C** (~0.8% — structural predictions whose bridges to measurement are still being sharpened). The tier taxonomy is the granularity of what this physics makes true.
 
 - [Hubble tension]({{ '/results/problem/hubble-tension/' | relative_url }}) *(Resolved, τ-effective)*
 - [dark matter / dark energy closure]({{ '/results/problem/dark-sector-closure/' | relative_url }}) *(Resolved, τ-effective)*

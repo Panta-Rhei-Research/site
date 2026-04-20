@@ -5,6 +5,7 @@ permalink: /falsifications/n12-b-mode-amplitude-d80/
 lane: results
 falsification_id: "N12"
 n_num: 12
+tier: B
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "^BB = 339$D-80-BB = 339~nK$^2$. B-mode!amplitude prediction pred:n12 First $$-polarization prediction (V.D256). No de-lensing needed: $S/N = 1131$."

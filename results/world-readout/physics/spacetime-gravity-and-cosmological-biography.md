@@ -77,6 +77,10 @@ Because the world is already sector-closed and globally completed, Tau does not 
 
 This is one of the reasons the later physical result pages are so strong: they are not being derived from a patched cosmology, but from a closed one.
 
+## Cosmological numbers through the calibration cascade
+
+The biography also carries quantitative content, and that content arrives through the same [four-layer calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) that governs the rest of Tau physics. Dimensionless cosmological quantities — the dark-energy fraction Ω<sub>Λ</sub>, the tensor-to-scalar ratio r, the reduced Hubble h seen as a pure ratio — appear at **L1**, read directly out of the ratio hierarchy seeded by ι<sub>τ</sub>. Dimensional cosmological constants — H<sub>0</sub> in SI units, for instance — appear only at **L3**, once the single neutron-mass anchor m<sub>n</sub> has rescaled the L1 ratios into SI. The same two inputs that fix atomic spectra also fix the cosmological story, which is why the biography is quantitatively unified rather than stitched together epoch by epoch.
+
 ## Scope and falsification surface
 
 Three claims in this cluster carry the full weight of the cosmological biography and should be named explicitly as τ-effective — strong internal consequences of the framework, not yet settled empirical facts. The H<sub>0</sub> tension resolution (V.T46), the no-dark-particle / dark-sector closure (V.T47), and the no-Hawking-radiation / no-black-hole-evaporation claim (V.C12) are all τ-effective: they follow from the program's internal architecture and operate as live falsification targets. An H<sub>0</sub> measurement that settles away from the τ-predicted value, a confirmed dark-matter particle detection, or a confirmed evaporation signature would each falsify the corresponding piece of the biography. That is precisely what makes the biography a scientifically serious proposal rather than a closed system.

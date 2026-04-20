@@ -5,6 +5,7 @@ permalink: /falsifications/n23-no-dm-detection-ever/
 lane: results
 falsification_id: "N23"
 n_num: 23
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "dark matter!never detected pred:n23 Stronger than N3: no indirect detection either (no annihilation signal, no DM decay line, no collider missing energy from a non-SM particle)."

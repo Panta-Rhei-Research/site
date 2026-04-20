@@ -5,6 +5,7 @@ permalink: /falsifications/n3-no-dark-matter-particle/
 lane: results
 falsification_id: "N3"
 n_num: 3
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "dark matter!prediction N3 pred:n3 The Sector Exhaustion Theorem (Chapter~ch:book5-ch44-sector-exhaustion) forbids a sixth sector. No dark matter particle—WIMP, axion, sterile neutrino, or any other species—will be detected in any experiment. $$-value: zero cross-section. Orthodox: $ 10^-47$~cm$^2$ ("

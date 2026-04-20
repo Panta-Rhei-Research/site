@@ -86,6 +86,10 @@ A closed sector architecture is not a limitation. It is what one would hope for 
 
 The world remains rich, but its primary physical architecture is complete.
 
+## Sectors and the calibration cascade
+
+Sector closure is also what makes the quantitative story tractable. The D/ω/B decomposition — D-sector (damping, gravity-like), ω-sector (the bridging Higgs channel), and B-sectors (the Standard-Model gauge channels, with trinary structure inside) — is exactly the sector taxonomy through which the [four-layer calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) organizes its **L1** ratios. ι<sub>τ</sub> does not distribute into a structureless soup; it distributes into sector-aware combinations whose coefficients, like κ<sub>D</sub> = 1 − ι<sub>τ</sub> and κ<sub>ω</sub> = ι<sub>τ</sub>/(1 + ι<sub>τ</sub>), carry the sector labels with them. That is one reason two inputs suffice to fix so many physical constants: the sectors pre-organize the ratio space into exactly the channels that physics needs.
+
 ## Conclusion
 
 The significance of the E1 sector structure is not only that it reproduces the familiar four plus one physical sectors, but that it closes the space of primary physical sectors altogether. This is one of the main reasons Tau claims not merely to describe a possible physics, but to describe a completed physical architecture.

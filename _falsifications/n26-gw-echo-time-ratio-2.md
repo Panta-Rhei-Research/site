@@ -5,6 +5,7 @@ permalink: /falsifications/n26-gw-echo-time-ratio-2/
 lane: results
 falsification_id: "N26"
 n_num: 26
+tier: A
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "8.57$iota-tau-inv-2 approx 8.57. gravitational wave echoes!prediction pred:n26 Echo time doublet: $t_ = 4GM_^ 1/c^3$; ratio $t_+/t_- = _^-2$ (V.T185). Echoes arise from $T^2$ winding; $S^2$ produces no echoes."

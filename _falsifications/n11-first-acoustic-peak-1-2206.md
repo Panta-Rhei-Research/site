@@ -5,6 +5,7 @@ permalink: /falsifications/n11-first-acoustic-peak-1-2206/
 lane: results
 falsification_id: "N11"
 n_num: 11
+tier: B
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "ell-1 = 220.6. acoustic peaks!prediction pred:n11 M3h holonomy (V.T190), where $_b$ undershoot ($-1.2%$) compensates $_m$ overshoot ($+4.1%$) in the sound horizon."

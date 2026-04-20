@@ -5,6 +5,7 @@ permalink: /falsifications/n15-helium-4-mass-fraction-yp-2081/
 lane: results
 falsification_id: "N15"
 n_num: 15
+tier: A
 domain: "bbn"
 domain_display: "BBN"
 prediction: "Yp = 20/81. helium-4!prediction pred:n15 $Y_p = 20/81 = 0.2469$ (V.T245). Orthodox: fitted from $_B$. Observed: $0.2449 0.0040$."

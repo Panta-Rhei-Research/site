@@ -5,6 +5,7 @@ permalink: /falsifications/n20-dark-energy-density-06849/
 lane: results
 falsification_id: "N20"
 n_num: 20
+tier: B
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "Omega-Lambda = 0.6849. dark energy density!prediction pred:n20 $_ = _D(1 + _^3) = 0.6849$ (V.T234), at $-433$~ppm from Planck."

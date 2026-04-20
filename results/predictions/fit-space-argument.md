@@ -25,6 +25,17 @@ One of the strongest first-contact red-team questions — raised explicitly in t
 
 This page answers the question as quantitatively as we can at first-pass level. The answer is not a statistical proof of non-coincidence — a full adversarial statistical analysis belongs to specialist review. But a first-order calculation is enough to separate "suspiciously plausible" from "numerologically inevitable," and the first-order calculation matters because it tells a reviewer whether a deeper analysis is worth their time.
 
+## The structural answer: two inputs, zero additional free parameters
+
+The calibration cascade (Physics Ledger Ch 58a, "The Calibration Cascade") makes the fit-space question concrete at the architectural level before any enumeration argument runs. The entire 67-prediction Ledger takes **exactly two inputs**:
+
+1. **ι<sub>τ</sub> = 2/(π+e)** — an algebraic posit fixed by the kernel's compactness-and-consistency theorem (Book I), not a fitted constant.
+2. **m<sub>n</sub>** — a single SI anchor measurement (the neutron mass), used once to set the SI scale for every L3 (SI-derived) observable.
+
+From those two inputs, a four-layer cascade (**L0** algebraic → **L1** dimensionless → **L2** SI anchor → **L3** SI-derived → **L4** verification) produces all 67 predictions. This is the **Calibration Sufficiency Theorem**: two inputs suffice, and no intermediate step smuggles in a third free parameter. The theorem is the structural answer to the numerology charge — the fit-space is not "10<sup>5</sup> simple closed forms in ι<sub>τ</sub> ranged over 50 targets," it is **"one algebraic posit + one SI measurement, derivation-chained through L0–L3."** Any specialist claim that the framework has hidden tuning knobs must identify where, in the cascade, a third free parameter enters.
+
+The enumeration argument below remains useful as an external-reader sanity check: even under the generous null that grants the framework no architectural constraints, the observed agreement rate is above chance. But the load-bearing answer to "numerology?" is the cascade architecture itself — see Ch 58a for the formal statement.
+
 ## The null hypothesis
 
 The null hypothesis to refute is: **the 15 sub-10-ppm agreements between τ-derived formulas and measured constants are a numerological coincidence produced by enumerating simple functional forms in a single constant until hits are found.**
@@ -137,7 +148,8 @@ This is a statistics PhD thesis worth of work, not a first-pass dossier item. Th
 ## Cross-links
 
 - [Prediction Timing Ledger]({{ '/results/predictions/timing/' | relative_url }}) — the three-category breakdown (Category C is the decisive test)
-- [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) — the full 67-prediction catalogue
+- [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) — the full 67-prediction catalogue, including the Tier A / B / C taxonomy
 - [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) — 30 named-experiment tests
+- [Physics Ledger (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — see Ch 58a "The Calibration Cascade" for the two-input + four-layer architectural proof
 - [Red-team FAQ]({{ '/research-program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions
 - [How to Audit — Physicist Route]({{ '/verify/how-to-audit/physicist/' | relative_url }}) — concrete inspection path for a physics reviewer

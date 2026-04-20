@@ -5,6 +5,7 @@ permalink: /falsifications/n16-deuterium-abundance-from-native-b/
 lane: results
 falsification_id: "N16"
 n_num: 16
+tier: A
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "eta-B. deuterium!prediction pred:n16 D/H $= 2.52 10^-5$ (V.T241) from the $$-derived baryon-to-photon ratio. Observed: $(2.53 0.04) 10^-5$."

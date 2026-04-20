@@ -5,6 +5,7 @@ permalink: /falsifications/n4-neutron-edm-is-exactly-zero/
 lane: results
 falsification_id: "N4"
 n_num: 4
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "neutron EDM!prediction pred:n4 $_ QCD = 0$ from SA-$i$ mod-3 (IV.T160), so $d_n = 0$ identically. Orthodox: $d_n 10^-26 e $cm (axion-dependent)."

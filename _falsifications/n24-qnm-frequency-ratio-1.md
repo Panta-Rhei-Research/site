@@ -5,6 +5,7 @@ permalink: /falsifications/n24-qnm-frequency-ratio-1/
 lane: results
 falsification_id: "N24"
 n_num: 24
+tier: A
 domain: "black-holes"
 domain_display: "Black Holes"
 prediction: "2.929$iota-tau-inv approx 2.929. quasinormal modes!ratio prediction pred:n24 $T^2$ winding modes give $_(1,0)/_(0,1) = _^-1$ (V.T168). Orthodox $S^2$: $_3/_2 1.5$."

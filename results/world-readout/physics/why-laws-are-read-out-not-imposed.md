@@ -75,6 +75,10 @@ So the deepest physical statement here is not yet any single equation. It is tha
 
 This is the philosophical and physical significance of the page.
 
+## The readout functor as the SI bridge
+
+The "readout" language of this page has an exact quantitative counterpart inside the [four-layer calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}). The rescaling functor M<sub>SI</sub> = R<sub>M</sub>[M<sub>τ</sub>] that carries the ratio world of L1 into the SI-valued constants of L3 — using the single anchor m<sub>n</sub> at L2 — is the formal instrument through which τ-internal lawfulness becomes SI-expressible. The same posture is at work: the SI bridge does not impose units on a law-less world, it reads units out of a world whose structural dynamics were already complete. R<sub>M</sub> is not a fit. It is a readout.
+
 ## Conclusion
 
 In Tau, laws are not external commands governing otherwise independent things. They are the theorem-readable form of the same structural dynamics through which those things first become identifiable. That is why lawfulness, ontology, and world-structure remain tied together from the beginning.

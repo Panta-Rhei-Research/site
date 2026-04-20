@@ -73,6 +73,10 @@ The Cauchy–Riemann-like structure now aligns with the wave operator. So the fu
 
 That has a remarkable consequence. Tau preserves rich continuation and regularity at the same time as wave-compatibility. It does not need to choose between a beautiful function theory and a physically realistic propagation theory.
 
+## Geometry as the carrier of dimensionless ratios
+
+This geometric shape is also what the [calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) later rides on. The lemniscate capacity √3 and the fibered product τ<sup>3</sup> are not decorative: they are precisely the geometric structures that let L0 algebra — ι<sub>τ</sub>, κ<sub>D</sub>, κ<sub>ω</sub>, the continued-fraction window sums — organize itself into the **L1** dimensionless ratios that physics cares about (the fine-structure constant α, mass ratios, mixing angles). The √3 that appears in the flagship prediction R<sub>0</sub> = ι<sub>τ</sub><sup>−7</sup> − √3 · ι<sub>τ</sub><sup>−2</sup> is not arbitrary; it is the lemniscate capacity showing up in the quantitative story. Geometry in Tau is where the algebraic fabric learns how to behave as a ratio world.
+
 ## Why this matters
 
 The significance of all this is not merely technical. Tau does not first assume a spacetime manifold and then struggle to make quantum and relativistic structures coexist within it. Instead, the substrate itself yields:

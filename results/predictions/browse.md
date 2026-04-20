@@ -22,6 +22,8 @@ right_rail:
 
 The Physics Ledger compiles **67 quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with zero free continuous parameters. Each prediction compares a τ-derived value to experimental measurement — no ontological bridge claims needed. Fifteen predictions achieve sub-10 ppm precision, including the electron mass (0.025 ppm), weak mixing angle (−0.65 ppm), and Higgs mass (+8.0 ppm).
 
+The catalogue sits on top of the **calibration cascade** (Physics Ledger Ch 58a). Two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor, the neutron mass m<sub>n</sub> — feed a four-layer pipeline (**L0** algebraic → **L1** dimensionless → **L2** SI anchor → **L3** SI-derived → **L4** verification). Every number in the 67 below is traceable to those two inputs through the cascade; there are no additional free parameters. Most entries live at L1 (dimensionless ratios) or L3 (SI-anchored observables).
+
 ## Three kinds of prediction — honest a-priori accounting
 
 "67 zero-parameter predictions" is a load-bearing phrase and deserves to be unpacked here, at the catalogue's front door, not only in an appendix. Not all 67 are the same kind of thing:
@@ -51,6 +53,16 @@ Every prediction in the catalogue below carries a **scope label** that states it
 
 The **precision tier** chip on each card is orthogonal to the scope label: it states how tightly the τ-derived value matches the current measurement. Sub-10 ppm means agreement at the sixth decimal place; 10–1000 ppm is the next tier; 1–5% covers known-imperfect sector matches; *structural* covers derivations whose content is categorical (e.g., "proton is stable", "no fourth generation") rather than a specific decimal.
 
+## How to read precision — the Tier A / B / C taxonomy
+
+Precision tiers on a card answer "how close is τ to the measured number today?" The calibration cascade (Ch 58a) adds an orthogonal question: **which route through the cascade produced this prediction, and what is the best precision that route can in principle reach?** The N1–N30 falsifiers are tagged by three structural tiers:
+
+- **Tier A (~0.025 ppm) — mass-ratio route.** The prediction is a ratio of two masses (or two dimensionless L1 quantities). Because both numerator and denominator carry the same SI anchor, the SI-calibration error cancels exactly. Tier A predictions are falsifiable at the precision of PDG/CODATA mass-ratio data — already at the 10<sup>−8</sup> level for leptons today. **Most sub-10-ppm entries in the catalogue are Tier A.**
+- **Tier B (~3 ppm) — closing-identity route.** The prediction is an SI-anchored observable routed through the G–α closing identity (V.T20). These entries inherit the residual uncertainty of the SI anchor m<sub>n</sub> and the closing identity's loop order. Achievable precision is ~3 ppm; examples include αG, several electroweak L3 observables, and the ppm-tier cosmological predictions.
+- **Tier C (~0.8%) — fine-structure leading-order route.** The prediction uses α as a derived input at leading order without the full closing-identity correction. Tier C is the coarsest route and governs the 1–5% entries and most "structural" binary predictions.
+
+Read the card precision chip and the cascade tier together: a "sub-10 ppm" Tier A entry is a closed book today; a "sub-10 ppm" Tier B entry is still waiting on the SI anchor to tighten; a "structural" Tier C entry is a yes/no falsifier, not a decimal comparison.
+
 ## Using this catalogue
 
-Use the filters below to narrow by physics domain, precision tier, scope, or canonical book. For the 30 sharpest falsifiable predictions with named experiments and explicit timelines, see the [**Falsification Pack**]({{ '/results/falsifications/browse/' | relative_url }}). For the first-order response to "could 15 sub-10-ppm hits just be numerology?" see the [**Fit-Space Argument**]({{ '/results/predictions/fit-space-argument/' | relative_url }}). The complete typeset document (209 pp) with full derivations is available as a free download: [**Physics Ledger (PDF, 1.11 MB)**]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}).
+Use the filters below to narrow by physics domain, precision tier, scope, or canonical book. The filter row surfaces ppm precision; the Tier A / B / C calibration-tier distinction is not yet a UI chip on each card (it is a per-prediction structural classification flagged for a follow-up data uplift). For the 30 sharpest falsifiable predictions with named experiments and explicit timelines, see the [**Falsification Pack**]({{ '/results/falsifications/browse/' | relative_url }}). For the first-order response to "could 15 sub-10-ppm hits just be numerology?" see the [**Fit-Space Argument**]({{ '/results/predictions/fit-space-argument/' | relative_url }}). The complete typeset document (209 pp, Chapter 58a "The Calibration Cascade" + full derivations) is available as a free download: [**Physics Ledger (PDF, 1.11 MB)**]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}).

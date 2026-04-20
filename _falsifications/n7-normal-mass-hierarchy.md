@@ -5,6 +5,7 @@ permalink: /falsifications/n7-normal-mass-hierarchy/
 lane: results
 falsification_id: "N7"
 n_num: 7
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "mass hierarchy!prediction pred:n7 $r < p$ in the exponent triplet $$ normal ordering ($m_1 < m_2 < m_3$) (V.P127). Orthodox: unknown (both allowed)."

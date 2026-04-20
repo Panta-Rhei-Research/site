@@ -5,6 +5,7 @@ permalink: /falsifications/n29-kolmogorov-constant-ck-32/
 lane: results
 falsification_id: "N29"
 n_num: 29
+tier: A
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "CK = 3/2. Kolmogorov constant!prediction pred:n29 $C_K = 3/2$ (V.T250), the first parameter-free derivation of the Kolmogorov constant. Observed: $C_K = 1.5 0.1$."

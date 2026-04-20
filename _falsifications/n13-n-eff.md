@@ -5,6 +5,7 @@ permalink: /falsifications/n13-n-eff/
 lane: results
 falsification_id: "N13"
 n_num: 13
+tier: A
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "= 3.000$N-eff = 3 (not 3.044). effective neutrino number!prediction pred:n13 $| gen| = 3$ from topology; no decoupling correction. Orthodox: $N_ eff = 3.044$ (QED corrections). $_1 = 0.32$; CMB-S4 sensitivity $ 1.5$."

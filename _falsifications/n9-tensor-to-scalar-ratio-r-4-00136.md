@@ -5,6 +5,7 @@ permalink: /falsifications/n9-tensor-to-scalar-ratio-r-4-00136/
 lane: results
 falsification_id: "N9"
 n_num: 9
+tier: A
 domain: "cmb-inflation"
 domain_display: "CMB & Inflation"
 prediction: "r = iota-tau-4 approx 0.014. tensor-to-scalar ratio!prediction pred:n9 Fiber dimensional suppression (V.P136): $r = _^2(T^2) = _^4$. Not slow-roll: $r 8/N_e$. The 156$$ gap between $_^4$ and $8/57$ is the sharpest inflation discriminant. Decisive at $14$ by CMB-S4."

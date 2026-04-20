@@ -5,6 +5,7 @@ permalink: /falsifications/n22-clustering-amplitude-s8-0760/
 lane: results
 falsification_id: "N22"
 n_num: 22
+tier: B
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "S8 = 0.760. S8 clustering@$S_8$ clustering!prediction pred:n22 $$-native clustering from DE-closure (V.T199): $S_8 = 0.760$."

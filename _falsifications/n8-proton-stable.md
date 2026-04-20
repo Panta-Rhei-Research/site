@@ -5,6 +5,7 @@ permalink: /falsifications/n8-proton-stable/
 lane: results
 falsification_id: "N8"
 n_num: 8
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "proton stability!prediction pred:n8 No baryon-number violation in the five-sector framework. $_p = $. Orthodox GUTs: $_p 10^34$–$10^36$~yr."

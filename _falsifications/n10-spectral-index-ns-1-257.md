@@ -5,6 +5,7 @@ permalink: /falsifications/n10-spectral-index-ns-1-257/
 lane: results
 falsification_id: "N10"
 n_num: 10
+tier: A
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "n-s = 1 - 2/57. spectral index!prediction pred:n10 $N_e = 57 = 3 19 = (^3) W_5(3)$ (V.D253). $n_s = 0.96491$ at $+13$~ppm from Planck."

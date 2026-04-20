@@ -115,6 +115,22 @@ The first thing the Results lane must therefore say is very simple:
 
 That is not the end of the story. But it is the first point at which the story becomes admissible.
 
+## From formal object to calibrated ledger
+
+The first stance earns the framework the right to *exist*. A later stance earns it the right to *speak about the physical world*, and that stance has its own sharp formal shape. It is the **calibration cascade**.
+
+The cascade says: once the kernel is materialized, the framework consumes exactly **two inputs** — the algebraic constant ι<sub>τ</sub> = 2/(π + e) (posited inside the kernel) and one SI measurement, the neutron mass m<sub>n</sub> (the sole empirical anchor) — and compiles from them a four-layer ledger:
+
+- **L0** — the algebraic layer: ι<sub>τ</sub>, κ<sub>D</sub> = 1 − ι<sub>τ</sub>, κ<sub>ω</sub> = ι<sub>τ</sub>/(1 + ι<sub>τ</sub>), and the continued-fraction window sums W<sub>k</sub>(n).
+- **L1** — dimensionless quantities: mass ratios, mixing angles, and couplings (α = (121/225) ι<sub>τ</sub>⁴; R<sub>0</sub> = ι<sub>τ</sub>⁻⁷ − √3·ι<sub>τ</sub>⁻² yielding m<sub>p</sub>/m<sub>e</sub> at 0.025 ppm).
+- **L2** — the anchor: m<sub>n</sub>, and nothing else.
+- **L3** — SI-anchored quantities (m<sub>e</sub>, G, m<sub>P</sub>, ℏ, k<sub>B</sub>, ε<sub>0</sub>) produced by the rescaling functor M<sub>SI</sub> = R<sub>M</sub>[M<sub>τ</sub>].
+- **L4** — verification: atomic spectroscopy, cosmology, and a 30-item falsification pack (tagged by precision **Tier A** ~0.025 ppm, **Tier B** ~3 ppm, **Tier C** ~0.8%).
+
+This is formalized as the **Calibration Sufficiency Theorem** (Chapter 58a of the [Physics Ledger]({{ '/publications/physics-ledger/' | relative_url }}#ch-58a)): ι<sub>τ</sub> together with m<sub>n</sub> suffices to determine every entry in the ledger, with zero additional free parameters.
+
+For the Results lane, this matters for a specific epistemic reason. The formal-system stance establishes that the kernel *exists*. The cascade stance establishes that the kernel *commits*. Every numerical claim in the lane inherits its sharpness from exactly one tiny input surface — two numbers — and a reader who wants to challenge the framework can focus all scrutiny there. The atlas of claims is not an assemblage of independent guesses; it is one compiled object with a two-number input.
+
 ## What this page does not claim
 
 This page is intentionally narrow in one respect.

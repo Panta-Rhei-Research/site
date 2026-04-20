@@ -5,6 +5,7 @@ permalink: /falsifications/n21-hubble-constant-h-06735/
 lane: results
 falsification_id: "N21"
 n_num: 21
+tier: B
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "h = 0.6735. Hubble constant!prediction pred:n21 $$-native $H_0 = 67.35$~km/s/Mpc (V.T196), matching Planck but not SH0ES. If future concordance settles on $H_0 > 70$, $$ is in tension."

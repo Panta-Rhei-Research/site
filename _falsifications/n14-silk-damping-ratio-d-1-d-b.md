@@ -5,6 +5,7 @@ permalink: /falsifications/n14-silk-damping-ratio-d-1-d-b/
 lane: results
 falsification_id: "N14"
 n_num: 14
+tier: B
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "ell-D/ell-1 = kappa-D/kappa-B. Silk damping!prediction pred:n14 The ratio $_D / _1 = 5.647$ is a boundary holonomy invariant (V.D254). $_D = 1244.0$ at $+9$~ppm."

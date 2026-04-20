@@ -5,6 +5,7 @@ permalink: /falsifications/n1-no-fourth-generation/
 lane: results
 falsification_id: "N1"
 n_num: 1
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "fourth generation!prediction pred:n1 $| gen| = 3$ exactly, from $H_1(^3;ℤ) ℤ^3$ (IV.T171). Any observation of a fourth-generation fermion at any mass scale falsifies $$'s topological generation theorem."

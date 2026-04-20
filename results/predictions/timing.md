@@ -23,6 +23,16 @@ right_rail:
 
 The first question any honest reader should ask of a zero-parameter theory with 67 numerical agreements is: **are these predictions a priori, or are they post-dictions of already-known data dressed up as derivations?** This page answers that question directly — without hedging, without post-hoc calibration, and without pretending to data we do not have.
 
+## Precision-tier taxonomy (Tier A / B / C)
+
+Timing is not the only axis along which the 67 predictions sort. Each also carries a **cascade precision tier** (Physics Ledger Ch 58a) that states the best precision its calibration route can reach in principle:
+
+- **Tier A (~0.025 ppm) — mass-ratio route.** Predictions that are dimensionless ratios (leptons, hadron mass ratios, Koide-style relations) where SI-calibration error cancels exactly. **Testable today at PDG/CODATA precision** — no future experiment required.
+- **Tier B (~3 ppm) — closing-identity route.** SI-anchored observables routed through the G–α closing identity (V.T20). Testable at ~ppm precision; most need specific future experiments (PSI muonic-atom campaigns ~2030, PDG-grade electroweak updates).
+- **Tier C (~0.8%) — fine-structure leading-order route.** Leading-order α-derived or structural/binary predictions (proton stability, no SUSY, r = ι<sub>τ</sub><sup>4</sup>). Testable only by the specific named experiments (CMB-S4 2028–2035, Hyper-K, JUNO/DUNE, LEGEND/nEXO).
+
+The key timing consequence: **Tier A predictions are already testable at the framework's full claimed precision**, and many are the retro-consistency post-dictions in Category A below. **Tier B and Tier C predictions depend on specific future experiments** on explicit timelines (see Category C).
+
 ## The structural claim vs the historical claim
 
 Two distinct readings of "a priori" operate in physics:
@@ -39,52 +49,54 @@ The first reading is what the framework claims. The second reading is the honest
 
 These are predictions for quantities that were experimentally known **before** the τ-framework was developed. The τ-value is computed algebraically from ι<sub>τ</sub>; the experimental value comes from decades of independent measurement. The agreement is non-trivial because ι<sub>τ</sub> itself is not fitted — it is fixed by kernel structure — but the *timing* is post-diction-shaped: we knew what to match before we derived the derivation.
 
-Representative examples (status confirmed Resolved at published precision):
+Representative examples (status confirmed Resolved at published precision; cascade tier in brackets):
 
-- **Electron mass** — τ derives m<sub>e</sub> to **0.025 ppm** agreement with the 2014 CODATA value.
-- **Fine-structure constant** — τ derives α<sup>-1</sup> via the sector-coupling hierarchy, matching at precision tier 10-1000 ppm.
-- **Koide relation** — τ derives Q = 2/3 at −9 ppm agreement with the charged-lepton mass ratio.
-- **Weak mixing angle** sin²θ<sub>W</sub> — τ derives to −0.65 ppm.
-- **Higgs self-coupling** — τ derives to +8.0 ppm.
+- **Electron mass** — τ derives m<sub>e</sub> to **0.025 ppm** agreement with the 2014 CODATA value. *[Tier A — mass-ratio route]*
+- **Fine-structure constant** — τ derives α<sup>-1</sup> via the sector-coupling hierarchy, matching at precision tier 10-1000 ppm. *[Tier C — leading-order α route]*
+- **Koide relation** — τ derives Q = 2/3 at −9 ppm agreement with the charged-lepton mass ratio. *[Tier A — mass-ratio route]*
+- **Weak mixing angle** sin²θ<sub>W</sub> — τ derives to −0.65 ppm. *[Tier B — closing-identity route]*
+- **Higgs self-coupling** — τ derives to +8.0 ppm. *[Tier B — closing-identity route]*
 
-Approximately **50 of the 67** predictions fall into Category A. They are the framework's *retro-consistency surface*: every well-known constant the framework should reproduce to publish credibly. Their explanatory weight rests on the fact that ι<sub>τ</sub> is structurally fixed by seven axioms whose justification has nothing to do with these target values.
+Approximately **50 of the 67** predictions fall into Category A. They are the framework's *retro-consistency surface*: every well-known constant the framework should reproduce to publish credibly. Their explanatory weight rests on the fact that ι<sub>τ</sub> is structurally fixed by seven axioms whose justification has nothing to do with these target values. Category A is heavy in **Tier A** mass-ratio entries, which means most of Category A can be re-checked today against PDG/CODATA without waiting on any new measurement.
 
 ### Category B — Tension resolutions (a priori commitment to a specific side of an open discrepancy)
 
 These are predictions for quantities where **competing experimental values exist** and the framework commits to a specific τ-derived value that lies cleanly on one side of the current tension. The framework was published before the tension was resolved; the forward commitment is real.
 
-Representative examples:
+Representative examples (cascade tier in brackets):
 
-- **Hubble constant h** — τ derives h = 2/3 + ι<sub>τ</sub>²/17 = **0.6735** at −120 ppm from late-universe SH0ES/JWST, at +ppm-scale tension with early-universe CMB-derived values. The framework commits to the early-universe-consistent reading via orbit-depth-dependent readout.
-- **W boson mass** — τ derives a value that addresses the CDF II anomaly; future ATLAS/CMS confirmation is a forward test.
-- **Muon g−2** — τ derives within the sector-coupled framework; resolution depends on hadronic vacuum polarization calculation evolution.
-- **S<sub>8</sub> tension** — τ places S<sub>8</sub> at a specific value resolved within the same orbit-depth framework as h.
+- **Hubble constant h** — τ derives h = 2/3 + ι<sub>τ</sub>²/17 = **0.6735** at −120 ppm from late-universe SH0ES/JWST, at +ppm-scale tension with early-universe CMB-derived values. The framework commits to the early-universe-consistent reading via orbit-depth-dependent readout. *[Tier B — closing-identity route]*
+- **W boson mass** — τ derives a value that addresses the CDF II anomaly; future ATLAS/CMS confirmation is a forward test. *[Tier B — closing-identity route]*
+- **Muon g−2** — τ derives within the sector-coupled framework; resolution depends on hadronic vacuum polarization calculation evolution. *[Tier B — closing-identity route]*
+- **S<sub>8</sub> tension** — τ places S<sub>8</sub> at a specific value resolved within the same orbit-depth framework as h. *[Tier B — closing-identity route]*
 
-Approximately **10 of the 67** predictions fall into Category B. These are genuinely forward-committed on live empirical questions.
+Approximately **10 of the 67** predictions fall into Category B. These are genuinely forward-committed on live empirical questions and mostly sit at **Tier B** — ppm-precision achievable once the relevant experiment publishes its next-generation result.
 
 ### Category C — Genuine forward predictions (decisive future tests)
 
 These are predictions for quantities that **have not yet been measured** at the precision required to confirm or falsify. The framework commits to specific values; future experiments on named timelines are the tests.
 
-Representative examples:
+Representative examples (cascade tier in brackets):
 
-- **CMB-S4 tensor-to-scalar ratio** — τ predicts r = ι<sub>τ</sub><sup>4</sup> ≈ **0.0136**, falsifiable at 14σ by CMB-S4 (expected 2030s). **This is the sharpest single falsification test of the framework's cosmology.**
-- **Neutrinoless double-beta decay (0νββ)** — τ predicts **Majorana neutrinos with 0νββ at a specific half-life** derived from the normal-ordering mass spectrum and C-sector zero holonomy (IV.T146). Falsifiable by confirmed non-detection at or beyond the predicted sensitivity, or by detection at a half-life inconsistent with the τ-derived value at ≥5σ.
-- **Neutrino mass sum** — τ predicts Σm<sub>ν</sub> = **0.089 eV** with normal ordering. Testable by KATRIN (near-term) and cosmological surveys (DESI, Euclid).
-- **Proton stability** — τ predicts τ<sub>p</sub> = ∞ exactly. Any confirmed proton decay refutes the framework.
-- **No magnetic monopoles** — τ predicts monopoles are structurally forbidden. Any confirmed detection refutes the framework.
-- **No supersymmetry** — τ predicts no superpartners at any scale. Continued LHC null results confirm; any confirmed sparticle detection refutes.
+- **CMB-S4 tensor-to-scalar ratio** — τ predicts r = ι<sub>τ</sub><sup>4</sup> ≈ **0.0136**, falsifiable at 14σ by CMB-S4 (expected 2028–2035). **This is the sharpest single falsification test of the framework's cosmology.** *[Tier C — leading-order route; experiment-gated]*
+- **Neutrinoless double-beta decay (0νββ)** — τ predicts **Majorana neutrinos with 0νββ at a specific half-life** derived from the normal-ordering mass spectrum and C-sector zero holonomy (IV.T146). Falsifiable by confirmed non-detection at or beyond the predicted sensitivity, or by detection at a half-life inconsistent with the τ-derived value at ≥5σ. *[Tier C — binary; LEGEND/nEXO/CUPID gated]*
+- **Neutrino mass sum** — τ predicts Σm<sub>ν</sub> = **0.089 eV** with normal ordering. Testable by KATRIN (near-term) and cosmological surveys (DESI, Euclid). *[Tier B/C — DESI/Euclid gated]*
+- **Proton stability** — τ predicts τ<sub>p</sub> = ∞ exactly. Any confirmed proton decay refutes the framework. *[Tier C — binary; Hyper-K gated]*
+- **No magnetic monopoles** — τ predicts monopoles are structurally forbidden. Any confirmed detection refutes the framework. *[Tier C — binary]*
+- **No supersymmetry** — τ predicts no superpartners at any scale. Continued LHC null results confirm; any confirmed sparticle detection refutes. *[Tier C — binary]*
 
-Approximately **7 of the 67** predictions are genuine Category-C forward tests. These are the ones that most directly settle the framework's fate. All 30 predictions in the [Falsification Pack (N1–N30)]({{ '/results/falsifications/browse/' | relative_url }}) are Category-C or Category-B in this taxonomy.
+Approximately **7 of the 67** predictions are genuine Category-C forward tests. These are the ones that most directly settle the framework's fate. All 30 predictions in the [Falsification Pack (N1–N30)]({{ '/results/falsifications/browse/' | relative_url }}) are Category-C or Category-B in this taxonomy. Category C is **experiment-gated**: unlike Tier A mass-ratio entries, these cannot be tested today — they wait on CMB-S4 (2028–2035), PSI muonic-atom campaigns (~2030), LEGEND/nEXO/CUPID (2030s), JUNO/DUNE/Hyper-K (late 2020s onward).
 
 ## Summary table
 
-| Category | Count | Structural a priori? | Historical a priori? | Falsification weight |
-|----------|:-----:|:--------------------:|:--------------------:|:--------------------|
-| **A — Pre-existing constants** | ~50 | Yes | No (post-diction) | Retro-consistency only |
-| **B — Tension resolutions** | ~10 | Yes | Partial (forward commitment to open question) | Strong on each settled tension |
-| **C — Forward predictions** | ~7 | Yes | Yes (pre-measurement) | Decisive — each can falsify the framework |
-| **All 67** | **67** | Yes (all) | Category-mixed | Ledger as a whole |
+| Category | Count | Structural a priori? | Historical a priori? | Typical cascade tier | Falsification weight |
+|----------|:-----:|:--------------------:|:--------------------:|:--------------------:|:--------------------|
+| **A — Pre-existing constants** | ~50 | Yes | No (post-diction) | Tier A (many) / Tier B / Tier C | Retro-consistency only; testable today |
+| **B — Tension resolutions** | ~10 | Yes | Partial (forward commitment to open question) | Tier B | Strong on each settled tension |
+| **C — Forward predictions** | ~7 | Yes | Yes (pre-measurement) | Tier C (mostly binary) | Decisive — each can falsify the framework; experiment-gated |
+| **All 67** | **67** | Yes (all) | Category-mixed | Tier-mixed | Ledger as a whole |
+
+Cascade tiers are defined in the Physics Ledger (Ch 58a, "The Calibration Cascade"): **Tier A** ≈ 0.025 ppm mass-ratio route, **Tier B** ≈ 3 ppm closing-identity route, **Tier C** ≈ 0.8% fine-structure leading-order or binary-structural route.
 
 ## The sharpest test: CMB-S4
 

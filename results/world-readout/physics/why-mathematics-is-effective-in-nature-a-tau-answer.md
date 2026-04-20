@@ -65,9 +65,13 @@ This does not mean all mathematics is immediately physically real. Nor does it m
 
 That is why a framework like Tau can hope to derive lawfulness rather than merely fit it.
 
+## Sufficiency as the concrete face of effectiveness
+
+The famous question "why is mathematics effective?" has, inside Tau, a surprisingly sharp quantitative face: the **Calibration Sufficiency Theorem** of the [Physics Ledger companion]({{ '/publications/physics-ledger/' | relative_url }}) (Ch 58a, 209 pp, 1.11 MB). The theorem states that two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π + e) and the single SI anchor m<sub>n</sub> — determine every Ledger entry through the four-layer cascade L0 → L1 → L2 → L3 → L4, with zero further free parameters. A world in which mathematics and physical lawfulness share an origin should produce exactly this kind of accounting: one algebraic posit and one measurement, with everything else arranged into Tier A (~0.025 ppm), Tier B (~3 ppm), and Tier C (~0.8%) predictions. The flagship R<sub>0</sub> → m<sub>p</sub>/m<sub>e</sub> match at 0.025 ppm is what "effective" looks like when it is cashed out.
+
 ## Conclusion
 
-Tau’s answer to the effectiveness of mathematics is therefore not that mathematics is a miraculous language for an alien world. It is that the same structured reality that unfolds physically also becomes readable mathematically. Law and becoming are two articulations of one coherence.
+Tau's answer to the effectiveness of mathematics is therefore not that mathematics is a miraculous language for an alien world. It is that the same structured reality that unfolds physically also becomes readable mathematically. Law and becoming are two articulations of one coherence.
 
 
 ## Canonical References

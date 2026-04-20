@@ -22,6 +22,16 @@ right_rail:
 
 The **30-Prediction Falsification Pack** identifies the sharpest points where Category τ makes specific, testable claims that named experiments can verify or refute. Each prediction carries an ID (N1–N30), a domain, a named experiment, a timeline, and a current observational status (4 confirmed, 26 consistent-and-testable as of April 2026). The full 30-card grid, filterable by domain and status, sits below.
 
+## Three falsification tiers
+
+The [Physics Ledger]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) (209 pp) tier-tags every N-test by the **sharpness of the discriminant** it offers. The three tiers are not categories of *importance* — every N-test is on the critical path — they are categories of *how decisively a measurement settles the question*. Different tiers demand different experimental postures and different loss conditions for the framework.
+
+- **Tier A — calibration-class precision (13 entries).** N9, N10, N13, N15, N16, N17, N18, N24, N25, N26, N28, N29, N30. These predictions carry τ-derived values at approximately **0.025 ppm precision** (closing identity at the calibration cascade L0 → L4 level). A single measurement falling outside the predicted window falsifies the claim at many-σ resolution. N9 (r = ι<sub>τ</sub><sup>4</sup>) is the flagship: CMB-S4's σ(r) ≈ 0.001 makes N9 decisive at roughly 14σ on the 2028–2032 window. Tier A is where τ stakes its sharpest numerical bets.
+- **Tier B — closing-identity precision (7 entries).** N6, N11, N12, N14, N20, N21, N22. These carry τ-derived values at approximately **3 ppm precision**, one rung softer than Tier A because the derivation chains through a closing identity rather than a direct L0 kernel exit. The discriminant is still a number, not a yes/no — but the decisive σ-margin is narrower and the experiment must match systematic control to the stated tolerance.
+- **Binary — yes/no structural falsifiers (10 entries).** N1, N2, N3, N4, N5, N7, N8, N19, N23, N27. These are not precision tests but structural predictions: a single positive detection — of a fourth-generation fermion, a supersymmetric partner, a dark-matter particle, a proton decay event, an inverted neutrino hierarchy, a non-zero neutron EDM, a phantom-crossing dark-energy equation of state, a w ≠ 2 magnetic winding number, etc. — falsifies the Sector Exhaustion Theorem or the corresponding bridge axiom. Binary falsifiers cannot be partially confirmed; they either stand unbroken through the 2025–2035 window or the framework revises.
+
+**Why the tier matters for reading the pack.** Tier A predictions are the ones journalists and funding panels should watch: they settle quickly once the relevant campaign publishes. Tier B predictions are where the framework carries the most model-risk from its own calibration assumptions — a Tier B failure is informative about the closing identity itself, not just the sector. Binary predictions are the slowest-moving but most *lethal* discriminants: one confirmed SUSY partner or one confirmed dark-matter interaction refutes the bridge axiom regardless of how many Tier A tests pass.
+
 ## What the pack rests on — the experimental programs
 
 Every N-test names real hardware on a public timeline. The falsification pack is not hypothetical: it rides on the same observational and laboratory programs that the mainstream communities are running anyway. The main campaigns the pack depends on are:
@@ -58,6 +68,7 @@ This posture is deliberate. The framework publishes 30 named tests and voluntari
 Each card below carries:
 
 - **N-ID** (N1–N30) and **domain** tag (particle physics, CMB/inflation, dark sector, collective dynamics, BBN, black holes)
+- **Tier** — *A* (calibration-class, ~0.025 ppm), *B* (closing-identity, ~3 ppm), or *binary* (yes/no structural falsifier); see the three-tier explanation above for what each tier commits the framework to
 - **Named experiment(s)** responsible for the test, with a 2025–2035 timeline (plus or minus — some extend through 2040+)
 - **Current status** — *confirmed* (already falsified-or-confirmed at ≥3σ), *consistent* (present data matches τ-derived value within uncertainty; decisive test awaits the named experiment), or *testable* (committed but not yet live)
 - **Scope label** — all 30 pack entries are **τ-effective** (quantitative τ-derivation with a measurable discriminant); a small number carry **conjectural** flags where the derivation requires an axiom still in compute-then-axiomatize status (see [Scope Labels]({{ '/verify/taulib/scope-labels/' | relative_url }}))

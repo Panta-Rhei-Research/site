@@ -45,10 +45,29 @@ The Framework lane answers **how** the τ machinery is built. The Claims lane an
 
 1. **Reading 1 · World Readouts** — τ's own-terms ontology, layer by layer
 2. **Reading 2 · Field Briefings** — τ's verdict on recognized open problems, cross-walked against canonical external lists
-3. **Physics Ledger** — 67 zero-parameter numerical predictions and 30 named falsifications (the framework's most directly testable content)
+3. **Physics Ledger** — zero-parameter numerical predictions and 30 named falsifications (the framework's most directly testable content)
 4. **Browse All Claims** — the 234-claim catalogue with client-side filters
 
 Before either reading, the [Claims Introduction]({{ '/results/prologue/' | relative_url }}) explains what counts as a claim — [How the Framework First Exists]({{ '/results/prologue/how-the-framework-first-exists/' | relative_url }}) sets the first epistemic stance.
+
+## The Calibration Cascade — The Logical Spine of the Claims Lane
+
+Underneath every numerical claim in this lane there is a single architectural spine. The framework takes **two inputs** — one algebraic posit and one SI measurement — and compiles every other entry in the ledger from them. No free parameters are added along the way.
+
+- **Input 1 (algebraic):** the master constant ι<sub>τ</sub> = 2/(π + e) ≈ 0.341304
+- **Input 2 (empirical):** the neutron mass m<sub>n</sub> — the single SI anchor
+
+From these two inputs, a **four-layer cascade** produces everything the Claims lane tests:
+
+- **L0 · Algebra** — ι<sub>τ</sub>, κ<sub>D</sub> = 1 − ι<sub>τ</sub>, κ<sub>ω</sub> = ι<sub>τ</sub>/(1 + ι<sub>τ</sub>), and the continued-fraction window sums
+- **L1 · Dimensionless** — mass ratios, mixing angles, and couplings (e.g. α = (121/225) ι<sub>τ</sub>⁴; R<sub>0</sub> = ι<sub>τ</sub>⁻⁷ − √3·ι<sub>τ</sub>⁻² giving m<sub>p</sub>/m<sub>e</sub> at 0.025 ppm)
+- **L2 · Anchor** — m<sub>n</sub>, the one SI measurement the framework consumes
+- **L3 · SI-anchored** — m<sub>e</sub>, G, m<sub>P</sub>, ℏ, k<sub>B</sub>, ε<sub>0</sub> via the rescaling functor M<sub>SI</sub> = R<sub>M</sub>[M<sub>τ</sub>]
+- **L4 · Verification** — atomic spectroscopy, cosmology, and the 30-item falsification pack
+
+This is formalized as the **Calibration Sufficiency Theorem**: ι<sub>τ</sub> together with m<sub>n</sub> determines every ledger entry with zero additional free parameters. Predictions in the ledger are further tagged by three precision tiers — **Tier A** (~0.025 ppm), **Tier B** (~3 ppm), **Tier C** (~0.8%) — so readers can see at a glance how sharp each test is.
+
+For the full architectural exposition, see **Chapter 58a — The Calibration Cascade** in the [Physics Ledger]({{ '/publications/physics-ledger/' | relative_url }}#ch-58a).
 
 ---
 
@@ -128,14 +147,14 @@ Ten **Field Briefings**, each explicitly cross-walked against a canonical extern
 
 ## Physics Ledger
 
-The Physics Ledger is the framework's most directly testable content — where τ meets experiment without any ontological bridging. Two inspection surfaces:
+The Physics Ledger is the framework's most directly testable content — where τ meets experiment without any ontological bridging. It is also where the **calibration cascade** surfaces most concretely: every numerical entry is a readout of the L0 → L4 compilation from ι<sub>τ</sub> + m<sub>n</sub>. Four inspection surfaces:
 
-- [**Predictions (67)**]({{ '/results/predictions/browse/' | relative_url }}) — 67 zero-parameter numerical predictions derived from the single master constant ι<sub>τ</sub> = 2/(π+e). Each prediction compares a τ-derived value directly to experimental measurement. Fifteen predictions achieve sub-10 ppm precision.
-- [**Falsifications (N1–N30)**]({{ '/results/falsifications/browse/' | relative_url }}) — 30 sharp predictions where named experiments on a 2025–2035 timeline can falsify the framework, including 7 seams where τ and orthodox physics make structurally incompatible predictions.
+- [**Predictions**]({{ '/results/predictions/browse/' | relative_url }}) — zero-parameter numerical predictions derived from the two cascade inputs (ι<sub>τ</sub> = 2/(π+e) as algebraic posit; m<sub>n</sub> as the sole SI anchor). Each prediction compares a τ-derived value directly to experimental measurement. The sharpest sit in **Tier A** (~0.025 ppm).
+- [**Falsifications (N1–N30)**]({{ '/results/falsifications/browse/' | relative_url }}) — 30 sharp predictions where named experiments on a 2025–2035 timeline can falsify the framework, tagged by precision **Tier A / B / C** (~0.025 ppm / ~3 ppm / ~0.8%), including 7 seams where τ and orthodox physics make structurally incompatible predictions.
 - [**Prediction Timing Ledger**]({{ '/results/predictions/timing/' | relative_url }}) — the honest a-priori vs post-diction accounting: ~50 retro-consistency post-dictions, ~10 tension-resolution forward commitments, ~7 genuine forward tests.
-- [**Fit-Space Argument**]({{ '/results/predictions/fit-space-argument/' | relative_url }}) — quantitative counter-argument to the "15 sub-10-ppm hits could be numerology" concern: first-order fit-space analysis plus Category-C forward predictions as decisive test.
+- [**Fit-Space Argument**]({{ '/results/predictions/fit-space-argument/' | relative_url }}) — quantitative counter-argument to the "the sub-10-ppm hits could be numerology" concern: first-order fit-space analysis plus Category-C forward predictions as decisive test.
 
-The complete typeset document (209 pp) with full derivations, tables, and experimental timelines is available as a **free download**: [**Physics Ledger (PDF, 1.11 MB)**]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}).
+The complete typeset document (209 pp) with full derivations, tables, the **Calibration Sufficiency Theorem** (Ch 58a), and experimental timelines is available as a **free download**: [**Physics Ledger (PDF, 1.11 MB)**]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}).
 
 ---
 

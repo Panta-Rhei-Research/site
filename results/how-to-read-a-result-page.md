@@ -58,6 +58,32 @@ Every result carries typed metadata in the right rail:
 - **Qualitative** — the program reframes the problem but does not provide a quantitative prediction
 - **Contradicted** — the program's result contradicts mainstream expectation (flagged honestly)
 
+## How Results Map to Cascade Layers and Precision Tiers
+
+Every numerical result in the Claims lane is a readout of the framework's **calibration cascade** — the four-layer compilation (L0 → L4) from two inputs: the algebraic constant ι<sub>τ</sub> = 2/(π + e) and the single SI anchor m<sub>n</sub> (the neutron mass). For a full architectural exposition, see **Chapter 58a — The Calibration Cascade** in the [Physics Ledger]({{ '/publications/physics-ledger/' | relative_url }}#ch-58a).
+
+When you are reading a single result page, two complementary dimensions are worth distinguishing:
+
+### Cascade layer — where the result lives in the compilation
+
+- **L0 (algebra)** — pure-algebraic quantities: ι<sub>τ</sub>, κ<sub>D</sub>, κ<sub>ω</sub>, continued-fraction window sums
+- **L1 (dimensionless)** — ratios, mixing angles, and couplings (e.g. α, m<sub>p</sub>/m<sub>e</sub>, Cabibbo angle)
+- **L2 (anchor)** — the single SI input m<sub>n</sub>
+- **L3 (SI-anchored)** — quantities with units (m<sub>e</sub>, G, ℏ, k<sub>B</sub>, ε<sub>0</sub>, m<sub>P</sub>) produced by the rescaling functor M<sub>SI</sub> = R<sub>M</sub>[M<sub>τ</sub>]
+- **L4 (verification)** — spectroscopic and cosmological readouts, and the 30-item falsification pack
+
+Knowing the layer tells you what kind of inspection is appropriate: L1 results are independent of any choice of units; L3 results inherit their SI scale from the m<sub>n</sub> anchor.
+
+### Precision tier — how sharp the prediction is
+
+Numerical predictions carry a **Tier** label distinct from their epistemic Status:
+
+- **Tier A** — ~0.025 ppm precision (e.g. m<sub>p</sub>/m<sub>e</sub>, the electron mass derivation)
+- **Tier B** — ~3 ppm precision
+- **Tier C** — ~0.8% precision
+
+Tier is an epistemic quality of the prediction — how tightly the framework commits. Status (Resolved / Partial / Qualitative / Contradicted / Not Addressed) is an observational resolution state — whether current data confirms it. The two are independent axes; the result page surfaces both.
+
 ## How to Verify
 
 Each result page links to:

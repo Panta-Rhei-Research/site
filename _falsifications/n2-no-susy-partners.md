@@ -5,6 +5,7 @@ permalink: /falsifications/n2-no-susy-partners/
 lane: results
 falsification_id: "N2"
 n_num: 2
+tier: binary
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "supersymmetry!prediction pred:n2 The $$-framework produces the Standard Model particle content from the fiber $T^2$ with no supersymmetric extension. No superpartner will be observed at any energy."

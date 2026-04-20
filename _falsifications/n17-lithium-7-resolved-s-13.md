@@ -5,6 +5,7 @@ permalink: /falsifications/n17-lithium-7-resolved-s-13/
 lane: results
 falsification_id: "N17"
 n_num: 17
+tier: A
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "S = 1/3 fiber suppression). lithium problem!prediction pred:n17 The cosmological lithium problem is resolved by the fiber suppression factor $S = 1/3$ (V.T243–T244). $^7$Li/H $ 1.6 10^-10$, matching the Spite plateau. Orthodox: $^7$Li/H $ 5 10^-10$ (3$$ too high). Decisive if independent $^7$Li meas"

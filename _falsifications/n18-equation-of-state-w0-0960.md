@@ -5,6 +5,7 @@ permalink: /falsifications/n18-equation-of-state-w0-0960/
 lane: results
 falsification_id: "N18"
 n_num: 18
+tier: A
 domain: "dark-sector"
 domain_display: "Dark Sector"
 prediction: "w0 approx -0.960. dark energy equation of state!prediction pred:n18 Defect depletion (V.T235) gives $w_0 = -0.960 -1$. Orthodox $$CDM: $w = -1$ exactly. The $4%$ deviation is within DESI DR3 reach."

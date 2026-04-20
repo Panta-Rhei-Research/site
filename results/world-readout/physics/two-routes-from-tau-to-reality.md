@@ -57,6 +57,10 @@ The two-route articulation allows the site to remain both:
 - metaphysically serious,
 - and empirically usable.
 
+## How the two routes meet the calibration cascade
+
+The two routes also correspond to different stopping points inside the [four-layer calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}). Route I, the ontic route, is willing to read the full chain L0 → L1 — algebra, then dimensionless ratios — as already physically real: the ratio hierarchy seeded by ι<sub>τ</sub> is the world's own quantitative self-description, prior to any measurement. Route II, the empirical route, waits until L3, when the single SI anchor m<sub>n</sub> has brought the ratio hierarchy down into SI units, and then treats the resulting predictions and their Tier A/B/C falsifiers as the terrain of empirical test. Neither route skips the cascade. They differ only in where they are willing to call its output "reality."
+
 ## What the result atlas requires
 
 The result atlas does not require every reader to accept the stronger route. The empirical route is enough to engage with:

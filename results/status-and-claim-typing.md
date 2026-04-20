@@ -58,6 +58,22 @@ The Panta Rhei Research Program maintains a strict typing discipline for all pub
 | **Structural Support** | Internal results that enable other claims |
 | **Consequence/Reframing** | Results that follow as consequences |
 
+## Precision Tiers — a Complementary Axis
+
+Status codes describe the **observational resolution** of a claim (does it agree with the data?). Precision tiers describe the **epistemic precision** of a numerical prediction (how sharply is the framework committing?). These are independent axes and must not be conflated.
+
+Every numerical prediction in the Physics Ledger carries a Tier label:
+
+| Tier | Precision | Example content |
+|------|-----------|-----------------|
+| **Tier A** | ~0.025 ppm | m<sub>p</sub>/m<sub>e</sub> from R<sub>0</sub> = ι<sub>τ</sub>⁻⁷ − √3·ι<sub>τ</sub>⁻²; the 10-link electron mass derivation |
+| **Tier B** | ~3 ppm | intermediate-precision mixing angles and couplings |
+| **Tier C** | ~0.8% | Hubble tension prediction, cosmological parameters, other loosely-pinned readouts |
+
+A Tier-A prediction with Status **Resolved** is a prediction that is both extremely sharp and confirmed by current data. A Tier-C prediction with Status **Resolved** is confirmed only at the ~1% level. A Tier-A prediction with Status **Contradicted** would be a severe problem for the framework — the kind of decisive falsification the 30-item falsification pack is designed to surface.
+
+Precision tiers also depend on the cascade layer (see the [Claims overview]({{ '/results/' | relative_url }}#the-calibration-cascade--the-logical-spine-of-the-claims-lane) for the L0 → L4 architecture and the [Physics Ledger]({{ '/publications/physics-ledger/' | relative_url }}#ch-58a) Ch 58a for the Calibration Sufficiency Theorem). L1 dimensionless results tend to sit at the sharpest end of the tier distribution; L3 SI-anchored results carry whatever the anchor (m<sub>n</sub>) uncertainty allows.
+
 ## Why Typed Honesty Matters
 
 A program that claims to address the Riemann Hypothesis and the Hard Problem of Consciousness must be maximally transparent about what "address" means in each case. The typing system ensures:

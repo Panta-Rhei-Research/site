@@ -5,6 +5,7 @@ permalink: /falsifications/n19-no-phantom-crossing/
 lane: results
 falsification_id: "N19"
 n_num: 19
+tier: binary
 domain: "dark-sector"
 domain_display: "Dark Sector"
 prediction: "phantom crossing!prediction pred:n19 $w(z) > -1$ for all $z$. Bounded characters $$ no phantom regime."

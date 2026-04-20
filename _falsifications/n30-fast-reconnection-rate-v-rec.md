@@ -5,6 +5,7 @@ permalink: /falsifications/n30-fast-reconnection-rate-v-rec/
 lane: results
 falsification_id: "N30"
 n_num: 30
+tier: A
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "= _^2 v_A$vrec = iota-tau-2 vA. magnetic reconnection!rate prediction pred:n30 $v_ rec = _^2 v_A 0.117 v_A$ (V.T251). Orthodox Sweet–Parker: $v_ rec S^-1/2 v_A 0.1 v_A$. Observed: $0.01$–$0.1 v_A$ (solar flares, laboratory plasmas)."

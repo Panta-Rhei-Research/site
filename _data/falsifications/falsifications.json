@@ -16,7 +16,8 @@
       "V"
     ],
     "summary_short": "N1: No fourth generation. LHC Run~3+, FCC.",
-    "url": "/falsifications/n1-no-fourth-generation/"
+    "url": "/falsifications/n1-no-fourth-generation/",
+    "tier": "binary"
   },
   {
     "id": "N2",
@@ -35,7 +36,8 @@
       "IV"
     ],
     "summary_short": "N2: No SUSY partners. LHC, FCC, CEPC.",
-    "url": "/falsifications/n2-no-susy-partners/"
+    "url": "/falsifications/n2-no-susy-partners/",
+    "tier": "binary"
   },
   {
     "id": "N3",
@@ -54,7 +56,8 @@
       "V"
     ],
     "summary_short": "N3: No dark matter particle. LZ, XLZD, PandaX, XENONnT, DARWIN, ADMX.",
-    "url": "/falsifications/n3-no-dark-matter-particle/"
+    "url": "/falsifications/n3-no-dark-matter-particle/",
+    "tier": "binary"
   },
   {
     "id": "N4",
@@ -73,7 +76,8 @@
       "V"
     ],
     "summary_short": "N4: Neutron EDM is exactly zero. nEDM, n2EDM at PSI.",
-    "url": "/falsifications/n4-neutron-edm-is-exactly-zero/"
+    "url": "/falsifications/n4-neutron-edm-is-exactly-zero/",
+    "tier": "binary"
   },
   {
     "id": "N5",
@@ -92,7 +96,8 @@
       "V"
     ],
     "summary_short": "N5: All neutrinos are Majorana. nEXO, LEGEND, CUPID, KamLAND-Zen.",
-    "url": "/falsifications/n5-all-neutrinos-are-majorana/"
+    "url": "/falsifications/n5-all-neutrinos-are-majorana/",
+    "tier": "binary"
   },
   {
     "id": "N6",
@@ -111,7 +116,8 @@
       "V"
     ],
     "summary_short": "N6: Sum of neutrino masses $ m_ = 0.089$. DESI, Euclid, CMB-S4, KATRIN/Project~8.",
-    "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
+    "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+    "tier": "B"
   },
   {
     "id": "N7",
@@ -130,7 +136,8 @@
       "V"
     ],
     "summary_short": "N7: Normal mass hierarchy. JUNO, DUNE, Hyper-Kamiokande.",
-    "url": "/falsifications/n7-normal-mass-hierarchy/"
+    "url": "/falsifications/n7-normal-mass-hierarchy/",
+    "tier": "binary"
   },
   {
     "id": "N8",
@@ -149,7 +156,8 @@
       "IV"
     ],
     "summary_short": "N8: Proton stable. Hyper-Kamiokande, DUNE, JUNO.",
-    "url": "/falsifications/n8-proton-stable/"
+    "url": "/falsifications/n8-proton-stable/",
+    "tier": "binary"
   },
   {
     "id": "N9",
@@ -168,7 +176,8 @@
       "V"
     ],
     "summary_short": "N9: Tensor-to-scalar ratio $r = _^4 0.0136$. BICEP Array, CMB-S4, LiteBIRD.",
-    "url": "/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/"
+    "url": "/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/",
+    "tier": "A"
   },
   {
     "id": "N10",
@@ -187,7 +196,8 @@
       "V"
     ],
     "summary_short": "N10: Spectral index $n_s = 1 - 2/57$. CMB-S4, LiteBIRD.",
-    "url": "/falsifications/n10-spectral-index-ns-1-257/"
+    "url": "/falsifications/n10-spectral-index-ns-1-257/",
+    "tier": "A"
   },
   {
     "id": "N11",
@@ -206,7 +216,8 @@
       "V"
     ],
     "summary_short": "N11: First acoustic peak $_1 = 220.6$. Planck legacy, CMB-S4.",
-    "url": "/falsifications/n11-first-acoustic-peak-1-2206/"
+    "url": "/falsifications/n11-first-acoustic-peak-1-2206/",
+    "tier": "B"
   },
   {
     "id": "N12",
@@ -225,7 +236,8 @@
       "V"
     ],
     "summary_short": "N12: B-mode amplitude $D_80. CMB-S4, LiteBIRD.",
-    "url": "/falsifications/n12-b-mode-amplitude-d80/"
+    "url": "/falsifications/n12-b-mode-amplitude-d80/",
+    "tier": "B"
   },
   {
     "id": "N13",
@@ -244,7 +256,8 @@
       "IV"
     ],
     "summary_short": "N13: $N_ eff. CMB-S4.",
-    "url": "/falsifications/n13-n-eff/"
+    "url": "/falsifications/n13-n-eff/",
+    "tier": "A"
   },
   {
     "id": "N14",
@@ -263,7 +276,8 @@
       "V"
     ],
     "summary_short": "N14: Silk damping ratio $_D / _1 = _D / _B$. Planck legacy, CMB-S4.",
-    "url": "/falsifications/n14-silk-damping-ratio-d-1-d-b/"
+    "url": "/falsifications/n14-silk-damping-ratio-d-1-d-b/",
+    "tier": "B"
   },
   {
     "id": "N15",
@@ -282,7 +296,8 @@
       "V"
     ],
     "summary_short": "N15: Helium-4 mass fraction $Y_p = 20/81$. metal-poor HII regions.",
-    "url": "/falsifications/n15-helium-4-mass-fraction-yp-2081/"
+    "url": "/falsifications/n15-helium-4-mass-fraction-yp-2081/",
+    "tier": "A"
   },
   {
     "id": "N16",
@@ -301,7 +316,8 @@
       "V"
     ],
     "summary_short": "N16: Deuterium abundance from $$-native $_B$. quasar absorption systems.",
-    "url": "/falsifications/n16-deuterium-abundance-from-native-b/"
+    "url": "/falsifications/n16-deuterium-abundance-from-native-b/",
+    "tier": "A"
   },
   {
     "id": "N17",
@@ -320,7 +336,8 @@
       "V"
     ],
     "summary_short": "N17: Lithium-7 resolved ($S = 1/3$. stellar archaeology, primordial gas clouds.",
-    "url": "/falsifications/n17-lithium-7-resolved-s-13/"
+    "url": "/falsifications/n17-lithium-7-resolved-s-13/",
+    "tier": "A"
   },
   {
     "id": "N18",
@@ -339,7 +356,8 @@
       "V"
     ],
     "summary_short": "N18: Equation of state $w_0 -0.960$. DESI, Euclid, Rubin/LSST.",
-    "url": "/falsifications/n18-equation-of-state-w0-0960/"
+    "url": "/falsifications/n18-equation-of-state-w0-0960/",
+    "tier": "A"
   },
   {
     "id": "N19",
@@ -358,7 +376,8 @@
       "IV"
     ],
     "summary_short": "N19: No phantom crossing. DESI, Euclid.",
-    "url": "/falsifications/n19-no-phantom-crossing/"
+    "url": "/falsifications/n19-no-phantom-crossing/",
+    "tier": "binary"
   },
   {
     "id": "N20",
@@ -377,7 +396,8 @@
       "V"
     ],
     "summary_short": "N20: Dark energy density $_ = 0.6849$. Euclid, DESI, Rubin.",
-    "url": "/falsifications/n20-dark-energy-density-06849/"
+    "url": "/falsifications/n20-dark-energy-density-06849/",
+    "tier": "B"
   },
   {
     "id": "N21",
@@ -396,7 +416,8 @@
       "V"
     ],
     "summary_short": "N21: Hubble constant $h = 0.6735$. DESI, JWST, gravitational wave standard sirens.",
-    "url": "/falsifications/n21-hubble-constant-h-06735/"
+    "url": "/falsifications/n21-hubble-constant-h-06735/",
+    "tier": "B"
   },
   {
     "id": "N22",
@@ -415,7 +436,8 @@
       "V"
     ],
     "summary_short": "N22: Clustering amplitude $S_8 = 0.760$. Euclid, Rubin, DES legacy.",
-    "url": "/falsifications/n22-clustering-amplitude-s8-0760/"
+    "url": "/falsifications/n22-clustering-amplitude-s8-0760/",
+    "tier": "B"
   },
   {
     "id": "N23",
@@ -434,7 +456,8 @@
       "IV"
     ],
     "summary_short": "N23: No DM detection—ever. all DM searches.",
-    "url": "/falsifications/n23-no-dm-detection-ever/"
+    "url": "/falsifications/n23-no-dm-detection-ever/",
+    "tier": "binary"
   },
   {
     "id": "N24",
@@ -453,7 +476,8 @@
       "V"
     ],
     "summary_short": "N24: QNM frequency ratio $_^-1. LIGO/Virgo A+, LISA, Einstein Telescope.",
-    "url": "/falsifications/n24-qnm-frequency-ratio-1/"
+    "url": "/falsifications/n24-qnm-frequency-ratio-1/",
+    "tier": "A"
   },
   {
     "id": "N25",
@@ -472,7 +496,8 @@
       "V"
     ],
     "summary_short": "N25: EHT shadow correction $+2.91%$. ngEHT (next-generation EHT).",
-    "url": "/falsifications/n25-eht-shadow-correction-291/"
+    "url": "/falsifications/n25-eht-shadow-correction-291/",
+    "tier": "A"
   },
   {
     "id": "N26",
@@ -491,7 +516,8 @@
       "V"
     ],
     "summary_short": "N26: GW echo time ratio $_^-2. Einstein Telescope, Cosmic Explorer, LISA.",
-    "url": "/falsifications/n26-gw-echo-time-ratio-2/"
+    "url": "/falsifications/n26-gw-echo-time-ratio-2/",
+    "tier": "A"
   },
   {
     "id": "N27",
@@ -510,7 +536,8 @@
       "V"
     ],
     "summary_short": "N27: Magnetic winding number $w = 2$. SKA, ngVLA, ngEHT polarimetry.",
-    "url": "/falsifications/n27-magnetic-winding-number-w-2/"
+    "url": "/falsifications/n27-magnetic-winding-number-w-2/",
+    "tier": "binary"
   },
   {
     "id": "N28",
@@ -529,7 +556,8 @@
       "V"
     ],
     "summary_short": "N28: She–Lévêque from $^3$. high-Re DNS, wind-tunnel data.",
-    "url": "/falsifications/n28-she-leveque-from-3/"
+    "url": "/falsifications/n28-she-leveque-from-3/",
+    "tier": "A"
   },
   {
     "id": "N29",
@@ -548,7 +576,8 @@
       "V"
     ],
     "summary_short": "N29: Kolmogorov constant $C_K = 3/2$. atmospheric turbulence, wind tunnels.",
-    "url": "/falsifications/n29-kolmogorov-constant-ck-32/"
+    "url": "/falsifications/n29-kolmogorov-constant-ck-32/",
+    "tier": "A"
   },
   {
     "id": "N30",
@@ -567,6 +596,7 @@
       "V"
     ],
     "summary_short": "N30: Fast reconnection rate $v_ rec. MRX, FLARE, solar observatories, MMS.",
-    "url": "/falsifications/n30-fast-reconnection-rate-v-rec/"
+    "url": "/falsifications/n30-fast-reconnection-rate-v-rec/",
+    "tier": "A"
   }
 ]

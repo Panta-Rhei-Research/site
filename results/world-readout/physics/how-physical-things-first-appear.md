@@ -72,9 +72,13 @@ The possibility of structural equality is the decisive bridge between pattern an
 
 This is where Tau’s denotational physical ontology gains its precision.
 
+## Where denotational things meet the calibration cascade
+
+Denotational classes are where physical thingness first appears, but they also sit at a specific layer of the program's quantitative story. Stable patterns first earn dimensionless identity at **L1** of the [calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) — as ratios like m<sub>p</sub>/m<sub>e</sub>, mixing angles, and coupling strengths that live purely in the algebra seeded by ι<sub>τ</sub>. They become SI-valued "things with masses in kilograms" only at **L3**, once the single neutron-mass anchor m<sub>n</sub> has been applied through the rescaling functor. The neutron itself — the program's chosen SI anchor — therefore plays two roles here: it is a denotational class that earned its thingness in E1, and it is the one measured number through which every other denotational class acquires SI weight.
+
 ## Why this page matters
 
-Tau’s later physical results depend on this move. Without it, there would be no principled route from the substrate to the physical entities later discussed in the result atlas. With it, there is a rigorous sequence:
+Tau's later physical results depend on this move. Without it, there would be no principled route from the substrate to the physical entities later discussed in the result atlas. With it, there is a rigorous sequence:
 
 - substrate,
 - geometry,

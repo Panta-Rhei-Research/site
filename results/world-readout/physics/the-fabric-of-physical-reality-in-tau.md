@@ -65,6 +65,10 @@ The substrate contains both finite articulation and a real ontic infinity. `ω` 
 
 This matters for physics because many of the later structures—continuation, spectral readout, global shape, calibration—depend on that finite/infinite relation already being structurally present.
 
+## The fabric as L0 of the calibration cascade
+
+When the program later introduces its [four-layer calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) that takes ι<sub>τ</sub> and m<sub>n</sub> to every physical prediction, the **L0** layer — the purely algebraic ground of κ<sub>D</sub> = 1 − ι<sub>τ</sub>, κ<sub>ω</sub> = ι<sub>τ</sub>/(1 + ι<sub>τ</sub>), the continued-fraction expansion of ι<sub>τ</sub>, and the window sums W<sub>k</sub>(n) — is not a new ingredient. It is just this fabric, read as algebra. The ontic substrate *is* L0. Everything higher in the cascade is a readout of what the fabric already carries.
+
 ## Why this page comes first
 
 The later physics pages describe geometry, topology, becoming, laws, and sectors. But those can only be understood once the reader sees that Tau begins from a substrate that is already:

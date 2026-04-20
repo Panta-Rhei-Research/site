@@ -5,6 +5,7 @@ permalink: /falsifications/n28-she-leveque-from-3/
 lane: results
 falsification_id: "N28"
 n_num: 28
+tier: A
 domain: "collective-dynamics"
 domain_display: "Collective Dynamics"
 prediction: "tau-3 fibration. She–Leveque formula@She–Lévêque formula!prediction pred:n28 $ = (T^2)/(^3) = 2/3$ (V.T248). Not a fit: derived from fibration dimensions. $_p = (p/9)(1 - (2/3)^p/3)$ matches DNS data to $< 1%$ for all measured $p$."
