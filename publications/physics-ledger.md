@@ -22,20 +22,30 @@ right_rail:
     type: Companion Document
     scope: "Complete E₁ Physics Inventory"
     pages: "190"
-    size: "985 KB"
-    status: "Canonical (v2.1.2, release-polished)"
+    size: "1.0 MB"
+    status: "Canonical (v2.2, v3 findings integrated)"
     updated: April 2026
 ---
 
 <div class="btn-group" style="margin-bottom: 28px;">
   <a href="{{ '/assets/downloads/physics-ledger.pdf' | relative_url }}" class="btn-secondary" download style="font-size: 1.05rem; padding: 14px 28px;">
-    ⬇ Download Physics Ledger — Free PDF (985 KB, v2.1.2)
+    ⬇ Download Physics Ledger — Free PDF (1.0 MB, v2.2)
   </a>
 </div>
 
 The **Physics Ledger** is the complete numerical scorecard of the Panta Rhei Research Program — **three τ-structural pillars** (|gen|=3 from H<sub>1</sub>(τ³;ℤ)=ℤ³, θ<sub>QCD</sub>=0 from SA-i mod-3, λ<sub>C</sub>=ι<sub>τ</sub>(1−ι<sub>τ</sub>)) plus a **30-item falsification pack with propagated uncertainty bands**, derived from the master constant ι<sub>τ</sub> = 2/(π+e) **posited** as framework input. **Zero free continuous parameters**; a combinatorial library of structural integers (W<sub>n</sub>(k) window sums, sector assignments, homology-forced layer choices) enters via the compute-then-axiomatize discipline — full per-prediction integer-choice audit in Chapter 68 Appendix 68.A. Originally Part VII of [Book V (*Categorical Macrocosm*)]({{ '/publications/books/book-v/' | relative_url }}), published here as a free companion document for self-contained access.
 
-**v2.1.2 note (April 2026):** Post **four rounds** of simulated peer-review panel (four physicist-persona reviewers + chair synthesis). Round 4 was an explicit **release-polish** pass after the Round-3 unanimous READY-TO-SHIP. Total: **~32 specific fixes across four rounds** — 14 Tier-A (v2), 5 Tier-B (v2.1), 1 Tier-C (v2.1.1), and 12 release-polish items (v2.1.2: stale PDG value corrections, missing citations for SH0ES/TRGB/SPARC/RAR/DF2/DF4/DESI/BICEP-Keck — 6 new BibTeX entries added, two undefined LaTeX references resolved, dangling "Part VIII" pointer reconciled, residual weasel phrases normalized, deadline consistency "end of 2026"). Zero cosmetic rejections across all four rounds. v3 research commitments remain on declared deadlines: SPARC-175 run (end of 2026), CAMB/CLASS with τ-native inputs (2027), operational H<sub>0</sub>-readout formula (2027-2028), Bullet Cluster derivation via capacity-gradient (2027), AdS/CFT manifold-free-limit construction (open). Falsifiers on public record: d<sub>n</sub> at PSI 2030, r at CMB-S4 2030, Σm<sub>ν</sub> at CMB-S4/KATRIN 2032.
+**v2.2 note (April 2026) — v3 research findings integrated.** Post four rounds of simulated peer-review panel (v1 → v2 via 14 Tier-A items → v2.1 via 5 Tier-B → v2.1.1 via 1 Tier-C → v2.1.2 via 12 release-polish items, all documented). **v2.2 integrates three v3 research findings produced in a dedicated doability pass** (research notes archived in the monograph repository):
+
+1. **SPARC-175 BTFR — first full-sample τ test (partial confirmation).** Real data from Lelli, McGaugh & Schombert 2016 (AJ 152:157), 123 galaxies after quality cuts. Best-fit slope **3.61 ± 0.09**, RMS 0.086 dex; **τ over-predicts V<sub>∞</sub> by ~14% at fixed M<sub>b</sub>**. Two new residual correlations detected: f<sub>gas</sub> (ρ = −0.41, p = 3.3×10⁻⁶) and Σ<sub>disk</sub> (ρ = +0.34, p = 1.5×10⁻⁴). Honest partial confirmation; the master formula is incomplete in a discoverable way.
+
+2. **h<sup>readout</sup>(z<sub>probe</sub>) — closed as structural dead-end.** Three derivation approaches attempted; all converged on the same verdict: the Ch 66 readout functor has no depth argument in its signature; H<sub>∂</sub>[ω] admits no line-of-sight functional. **N21 relabeled to retract the "depth-dependent readout" as a computable-structure claim.** R4 McGaugh's "semantic maneuver" charge upheld. τ prediction h = 0.6735 stands naked against distance-ladder data: consistent with Planck (0.0σ), sirens (0.7σ), megamasers (1.6σ), JAGB (1.7σ); in genuine 3–6σ tension with TRGB (2.7σ), H0LiCOW (3.3σ), SH0ES (5.6σ).
+
+3. **AdS/CFT manifold-free limit — retracted as reduction claim.** Four severe obstructions identified (wedge-sum vs conformal sphere; no metric on τ³; missing dictionary invariants; **small-N vs large-N plausibly fatal**). **Ch 67 wording revised to a philosophical parallel only, not a technical reduction.** R3 Hossenfelder charge upheld.
+
+Items 2 and 4 of the v3 program (CAMB/CLASS τ-native recompute; Bullet Cluster dissociated-mass derivation) have scoping documents written as separate technical companions; full execution remains v3 work. **Net posture across v2.2: two public retractions and one partial confirmation; the three τ-structural pillars are unaffected.** Falsifiers on public record: d<sub>n</sub> at PSI 2030, r at CMB-S4 2030, Σm<sub>ν</sub> at CMB-S4/KATRIN 2032.
+
+**Companion SPARC note:** [btfr-sparc-175.pdf](/assets/downloads/btfr-sparc-175.pdf) (5 pp, 214 KB) — self-contained research note with data, method, figures, per-galaxy residuals, honest verdict.
 
 The predictions are **bridge-independent**: they can be compared directly to experimental measurement without accepting the program's deeper ontological claims. The number either agrees with experiment or it doesn't.
 
@@ -45,7 +55,7 @@ The predictions are **bridge-independent**: they can be compared directly to exp
     <div style="padding: 28px 24px; display: flex; flex-direction: column; justify-content: center;">
       <span class="eyebrow" style="display: block; padding: 0; background: none; border: none; margin-bottom: 12px;">Companion to Book V</span>
       <h2 style="margin: 0 0 12px; font-size: 1.4rem;">The τ Physics Ledger</h2>
-      <p style="font-size: 0.92rem; line-height: 1.55; margin: 0 0 8px;">190 pages · 11 chapters · 3 τ-structural pillars · 30-item falsification pack · 14/17 integer-choice scans complete · 7 falsifiable seams (v2.1.2 · four-round panel · release-polished)</p>
+      <p style="font-size: 0.92rem; line-height: 1.55; margin: 0 0 8px;">190 pages · 11 chapters · 3 τ-structural pillars · 30-item falsification pack · SPARC-175 partial confirmation · 2 honest retractions (v2.2 · v3 findings integrated)</p>
       <p style="font-size: 0.85rem; color: #5b6772; margin: 0;">Dr. Thorsten Fuchs & Anna-Sophie Fuchs · Second Edition · 2026</p>
     </div>
     <div>
@@ -200,7 +210,7 @@ If even a fraction of the sub-10 ppm predictions hold under independent scrutiny
 
 <div class="btn-group" style="margin-top: 28px;">
   <a href="{{ '/assets/downloads/physics-ledger.pdf' | relative_url }}" class="btn-secondary" download style="font-size: 1.05rem; padding: 14px 28px;">
-    ⬇ Download Physics Ledger — Free PDF (985 KB, v2.1.2)
+    ⬇ Download Physics Ledger — Free PDF (1.0 MB, v2.2)
   </a>
   <a href="{{ '/results/predictions/browse/' | relative_url }}" class="btn-ghost" style="font-size: 0.95rem; padding: 12px 20px;">Browse 67 Predictions</a>
   <a href="{{ '/results/falsifications/browse/' | relative_url }}" class="btn-ghost" style="font-size: 0.95rem; padding: 12px 20px;">Falsification Pack</a>
