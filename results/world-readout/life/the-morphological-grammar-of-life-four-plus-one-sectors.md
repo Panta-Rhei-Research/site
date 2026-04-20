@@ -33,8 +33,6 @@ Tau’s answer is not that it predicts every concrete biological form or every s
 
 ## Why this is not species prediction
 
-The page must be very clear at the outset.
-
 Tau does not predict that there must be rabbits, oak trees, or dolphins in every living world. That would overstate the epistemic stance of E2.
 
 What Tau proposes instead is that once life appears, it will not unfold arbitrarily. It will differentiate through a finite set of primary structural modes. Those modes form the 4+1 sector structure of E2.
@@ -53,20 +51,21 @@ The same enriched four plus one structure that appeared in earlier layers now re
 
 This is one of the strongest signs that Tau treats the layers as genuinely related. The world does not begin anew at E2. It enriches itself again.
 
-## Earth’s tree of life as one realization
+## Earth's tree of life as one realization
 
-On Earth, the readout of this sector structure appears in a form that biology already recognizes in broad terms:
-- archaea,
-- bacteria,
-- fungi,
-- plants,
-- animals.
+On Earth, the readout of this sector structure appears in a form that biology already recognizes in broad terms. The four primary modes plus the one integrating mode map onto the major evolutionary-functional roles of terrestrial life — roughly, the producer / decomposer / consumer / sensing-mobile division, plus the meta-role that integrates them:
 
-The point is not that these names were hidden in Tau and then looked up later. The point is that the broad morphology of life’s differentiation on Earth can be read as a realization of a deeper finite sector grammar.
+| Sector | Terrestrial mode | Representative clades |
+|---|---|---|
+| 1 | producers | plants, photosynthetic protists, cyanobacteria |
+| 2 | decomposers | fungi, saprotrophic bacteria |
+| 3 | sensing-mobile consumers | animals |
+| 4 | chemo-energetic baseline | archaea, chemosynthetic bacteria |
+| +1 | integrators / symbiont meta-role | lichens, endosymbionts, microbiomes, coevolved communities |
 
-## Structural prediction, not zoological detail
+The point is not that these Earth labels were hidden in Tau and then looked up later. The mapping from τ-sectors to terrestrial clades is a τ-effective reading at the level of role and morphology — not a taxonomic derivation. The broad morphology of life's differentiation on Earth can be read as one realization of a deeper finite sector grammar; other biospheres would realize the same sector structure through different material substrates.
 
-This is where the page should make its epistemic discipline explicit.
+## Structural prediction, not zoological detail *(τ-effective)*
 
 Tau predicts the shape-space into which life differentiates. It does not predict every local contingent species-history. It therefore operates at the level of:
 - organization,

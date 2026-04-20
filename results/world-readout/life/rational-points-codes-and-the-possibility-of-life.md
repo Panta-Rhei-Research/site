@@ -61,14 +61,14 @@ In that sense, the affirmative Tau version of BSD is more than a mathematical th
 
 That is why this page belongs in the life cluster.
 
-## Tau-BSD as bridge theorem
+## Tau-BSD as bridge theorem *(τ-effective)*
 
-The site should state this very carefully.
+The claim on this page is more than:
 
-The claim is not merely:
 - Tau-BSD is true inside Tau mathematics.
 
-The deeper claim is:
+It is the stronger τ-effective bridge claim:
+
 - the existence of rationally stable structures is one of the conditions under which code becomes possible,
 - and code is one of the conditions under which life becomes possible.
 

@@ -30,7 +30,7 @@ The question of life is one of the oldest and most difficult questions in scienc
 
 It does not begin by listing organisms and then trying to infer what they all have in common. It asks instead what sort of structure appears in **E2**, once a physical world already exists and is rich enough to host stable higher-order organization.
 
-The answer is: **life first appears as self-decoding distinction**.
+The answer is: **life first appears as self-decoding distinction**. This is a τ-effective definitional claim — a specification of what the framework means by "life" at E2, not a replacement for empirical biology's working definitions.
 
 ## Life is not first a list of organisms
 

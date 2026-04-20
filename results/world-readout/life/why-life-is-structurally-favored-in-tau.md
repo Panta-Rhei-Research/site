@@ -59,17 +59,15 @@ The Tau definition of life is categorical, not species-bound. It does not begin 
 
 That is why the page can now move beyond familiar biology.
 
-## Black holes as maximally alive structures
+## Black holes as maximally alive structures *(τ-effective, definitional)*
 
-This is one of the strongest and strangest claims of the E2 layer.
+This is one of the strongest and strangest claims of the E2 layer — and because it is so unusual, the scope of the claim needs to be named explicitly.
 
-In Tau, black holes do not merely resemble life metaphorically. They satisfy the relevant structural definition of life in the strongest sense available at E2. Their boundary, persistence, self-maintained distinction, and world-shaping organization make them categorically readable as maximally alive structures.
+The claim is **τ-effective and definitional**, not an empirical claim about astronomy. Inside the framework, black holes satisfy the τ-internal structural definition of life in the strongest sense available at E2: their boundary, persistence, self-maintained distinction, and world-shaping organization make them categorically readable as maximally alive structures given τ's own definition of life as self-decoding distinction.
 
-This is not intended as poetry. It is a definitional claim within the framework.
+It is not a metaphor — but it is also not the claim that biologists would recognise black holes as alive in their working sense. The claim is that *given τ's definition*, black holes are the most complete realization of that definition available in the physical sector. Whether τ's definition is the right one is itself a framework-level question, not an astrophysical one.
 
-That is why the page should say clearly:
-
-**In Tau, black holes are not merely compared to life; they are structurally readable as life.**
+**In τ, black holes are structurally readable as life under τ's own definition of life.** That is the full, scoped form of the claim.
 
 ## Why this matters cosmologically
 

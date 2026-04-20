@@ -76,9 +76,7 @@ Tau proposes that E2 contains structural optimization gradients tied to:
 - decode fidelity,
 - and coherent maintenance of living identity.
 
-So the biological “better” is not only a post hoc summary of what happened to win. It is related to real E2 structural criteria.
-
-This point should be phrased carefully and checked against the exact manuscript language, but it is one of the strongest payoffs of the page.
+So the biological "better" is not only a post hoc summary of what happened to win. It is related to real E2 structural criteria — τ-effective in the program's reading, not yet a derivation that replaces tautological fitness but a reframing of what "fitness" is measuring when life is taken seriously as an E2 structure.
 
 ## Biology as enriched physics
 
