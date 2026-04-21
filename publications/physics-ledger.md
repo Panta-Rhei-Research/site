@@ -45,12 +45,12 @@ The entire numerical scorecard rests on **two inputs**:
 From these two inputs, a **four-layer cascade** compiles every other quantity:
 
 - **L0 — Algebraic layer**: ι<sub>τ</sub>, κ<sub>D</sub> = 1−ι<sub>τ</sub>, κ<sub>ω</sub> = ι<sub>τ</sub>/(1+ι<sub>τ</sub>), √3 lemniscate capacity, continued-fraction window sums W<sub>n</sub>(k).
-- **L1 — Dimensionless layer**: all mass ratios, all mixing angles, all couplings. Includes α = (121/225)ι<sub>τ</sub>⁴, R₀ = ι<sub>τ</sub>⁻⁷ − √3·ι<sub>τ</sub>⁻² (m<sub>p</sub>/m<sub>e</sub> at **0.025 ppm** — the flagship prediction), α<sub>G</sub> = α¹⁸√3(1 − 3α/π).
+- **L1 — Dimensionless layer**: all mass ratios, all mixing angles, all couplings. Key closed forms: α = (11/15)²·ι<sub>τ</sub>⁴ = (121/225)·ι<sub>τ</sub>⁴ at **9.8 ppm** vs CODATA; R₀ = ι<sub>τ</sub>⁻⁷ − √3·ι<sub>τ</sub>⁻² is **m<sub>n</sub>/m<sub>e</sub>** (neutron/electron ratio) at **7.7 ppm** leading order; Koide lepton ratio Q = 2/3 exact at −9×10⁻⁶; sin²θ<sub>W</sub> from κ<sub>A</sub>/κ<sub>B</sub> at ~2.7% (tree); α<sub>s</sub> from κ<sub>C</sub>(3) at ~2.4%; α<sub>G</sub> = α¹⁸√3(1 − 3α/π). These values match Book IV §73's Predictive Record (Theorem iv-predictive-record) line for line.
 - **L2 — Single SI anchor**: m<sub>n</sub> (CODATA 2018). One measurement, theory-forced by the No Knobs Theorem.
 - **L3 — SI-anchored layer**: m<sub>e</sub>, G, m<sub>P</sub>, ℏ, k<sub>B</sub>, ε₀, μ₀ — obtained by the linear rescaling functor M<sub>SI</sub> = R<sub>M</sub>[M<sub>τ</sub>] = M<sub>τ</sub> · (m<sub>n</sub><sup>SI</sup> / m<sub>n</sub><sup>τ</sup>).
 - **L4 — Verification layer**: the 30-item falsification pack N1–N30 + all observational predictions across particle physics, atomic spectroscopy, cosmology.
 
-**Three precision tiers** characterize the predictions: **Tier A** (~0.025 ppm, via mass-ratio route); **Tier B** (~3 ppm, via the G-α closing identity); **Tier C** (~0.8%, fine-structure leading order). Chapter 58a of the companion contains the complete self-contained cascade architecture.
+**Three precision bands** characterize the predictions: **Precision-band** (≲ 10 ppm τ-side residual; includes Koide Q exact, R = m<sub>n</sub>/m<sub>e</sub> at 7.7 ppm, α at 9.8 ppm); **Identity-band** (∼1–3 per cent τ-side; Weinberg and strong self-coupling at tree level); and **Observation-capped** (capped by the experimental floor: *r*, *n*<sub>s</sub>, *H*<sub>0</sub>). A single "0.025 ppm" slogan was used in earlier internal drafts; it is dropped here in favour of per-row residuals, matching Book IV's Predictive Record exactly. Chapter 58a of the companion contains the complete self-contained cascade architecture.
 
 ## What the Ledger contains
 
@@ -110,7 +110,7 @@ The predictions are **bridge-independent**: they can be compared directly to exp
 <div class="content-card" style="padding: 18px 20px; margin: 0;">
   <span class="eyebrow" style="display: block; padding: 0; background: none; border: none; margin-bottom: 8px;">Chapter 2</span>
   <h3 style="font-size: 0.95rem; margin: 0 0 6px;">The Mass Spectrum</h3>
-  <p style="font-size: 0.82rem; color: #5b6772; margin: 0;">All particle masses from one constant — electron at 0.025 ppm, Higgs at 8.0 ppm</p>
+  <p style="font-size: 0.82rem; color: #5b6772; margin: 0;">All particle masses from one constant — neutron/electron ratio at 7.7 ppm, Higgs at 8.0 ppm</p>
 </div>
 
 <div class="content-card" style="padding: 18px 20px; margin: 0;">
@@ -182,7 +182,7 @@ The predictions are **bridge-independent**: they can be compared directly to exp
           </tr>
         </tbody>
       </table>
-      <p style="font-size: 0.82rem; color: #5b6772; margin: 16px 12px 0;">Sub-10 ppm includes: electron mass (0.025 ppm), sin²θ_W (−0.65 ppm), M_W (−0.42 ppm), Higgs mass (+8.0 ppm), Koide Q (−9 ppm), Silk damping (+9 ppm), spectral index (+13 ppm), Hubble constant (−120 ppm)</p>
+      <p style="font-size: 0.82rem; color: #5b6772; margin: 16px 12px 0;">Sub-10 ppm (τ-side) includes: Koide Q exact (−9×10⁻⁶), R = m<sub>n</sub>/m<sub>e</sub> at 7.7 ppm, α at 9.8 ppm, Higgs mass (+8.0 ppm), Silk damping (+9 ppm); spectral index n<sub>s</sub> at +13 ppm, Hubble depth-dependent readout (Book V ch45). Per-row residuals matched to Book IV's Predictive Record (Theorem iv-predictive-record).</p>
     </div>
     <div>
       <img src="{{ '/assets/images/physics-ledger/predictions-table-125.jpg' | relative_url }}" alt="Physics Ledger prediction table — Domain A: Particle Physics" style="width: 100%; display: block; border-left: 1px solid rgba(22,29,37,0.08);" loading="lazy">

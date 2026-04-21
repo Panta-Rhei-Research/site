@@ -18,6 +18,8 @@ right_rail:
     - title: "Publications"
       url: /publications/
   artifacts:
+    - title: "Panta Rhei Conspectus (27 pp synoptic)"
+      url: /publications/conspectus/
     - title: "Series Prospectus"
       url: /publications/white-papers/
   meta:
@@ -95,6 +97,7 @@ Data-protection requests, DMCA notices, and formal legal correspondence.
 
 ## Additional Resources
 
+- **[Panta Rhei Conspectus]({{ '/publications/conspectus/' | relative_url }})** — 27-page synoptic reading of the full seven-book arc, 35–45 minutes (PDF)
 - **[Series Prospectus]({{ '/assets/media/series-prospectus.pdf' | relative_url }})** — 23-page reference document for academics and institutions (PDF)
 - **[Falsification Pack]({{ '/assets/media/falsification-pack.pdf' | relative_url }})** — 220+ quantitative predictions with precision claims (PDF)
 - **[Reviewer's Dossier]({{ '/assets/media/reviewers-dossier.pdf' | relative_url }})** — factual substrate for evaluators (PDF)

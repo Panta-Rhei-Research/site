@@ -5,12 +5,12 @@ lane: publications
 permalink: /publications/
 summary_short: "The canonical publication surfaces of the Panta Rhei Research Program — books, guided tours, white papers, protocols, and companion papers."
 summary_cards:
-  - title: "Seven books"
+  - title: "Conspectus (synoptic)"
+    body: "A self-contained, single-sitting reading of the complete seven-book arc (~27 pp, 35–45 min). Kernel → cascade → commitments → Lean trust budget."
+  - title: "Seven books (canonical)"
     body: "The canonical monograph series (2nd Edition, 2026) — 79 parts, 535 chapters, ~3,430 pages across mathematics, physics, life, and metaphysics."
-  - title: "Guided tours & companions"
-    body: "56-page falsification whitepapers, 7 Lean companions with 49 hinges, 8 interactive TauLib tours, and 44 companion papers."
-  - title: "White papers & protocols"
-    body: "Falsification pack, Lean verification report, reviewer's dossier, reader's guide, prospectus, seminar abstracts, and assessment protocols."
+  - title: "Ledger, tours, protocols"
+    body: "209-page Physics Ledger (numerical audit trail), 7 guided-tour companions, falsification pack, reviewer's dossier, seminar abstracts, assessment protocols."
 right_rail:
   related:
     - title: "About the Research"
@@ -31,6 +31,10 @@ right_rail:
 The Panta Rhei Research Program publishes through complementary surfaces rather than a single monolithic release. This is deliberate: a research program that claims to bridge mathematics, physics, biology, and metaphysics needs multiple entry points — the canonical proof-order argument (the books), the structured falsification surface (the white papers), the machine-checked [verification layer]({{ '/verify/' | relative_url }}), and the domain-specific guided tours that lower the threshold for expert engagement. Each surface serves a different kind of reader and a different depth of scrutiny. Publications are not marketing — they are the canonical articulation of the research, designed so that the [framework's claims]({{ '/framework/about/' | relative_url }}) can be inspected from any angle.
 
 ## Publication Families
+
+### [The Panta Rhei Conspectus]({{ '/publications/conspectus/' | relative_url }})
+
+A self-contained, **single-sitting reading** of the complete seven-book programme — approximately **27 pages, 35–45 minutes**. Walks the full arc from the 7-axiom kernel and master constant ι<sub>τ</sub>, through the L0→L4 calibration cascade and 67 zero-parameter predictions, to the 30-entry Falsification Pack and the Lean trust budget. Designed to be read cover-to-cover on a single flight or afternoon; sits between the 23-page *Series Prospectus* and the 209-page *Physics Ledger*.
 
 ### [The Seven Books]({{ '/publications/books/' | relative_url }})
 
