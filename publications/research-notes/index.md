@@ -10,12 +10,12 @@ publication_type: "Research Note"
 status: "Active"
 summary_short: "Substantial outward-facing research writing from the Panta Rhei Research Program."
 summary_cards:
-  - title: "Article-like"
-    body: "Each note is a dated, substantial piece of research writing, not a blog post or newsletter update."
+  - title: "Publication objects"
+    body: "Each note is a dated, substantial research artifact with metadata, related links, and stable URL."
   - title: "Subscribable"
     body: "Receive new Research Notes by email through the Follow the Research page."
-  - title: "Publication-owned"
-    body: "Research Notes now belong canonically to Publications, while Engage may cross-link to them."
+  - title: "Not a blog"
+    body: "Research Notes are not changelog entries, informal news, or marketing posts; they are outward-facing research writing."
 right_rail:
   related:
     - title: "Follow the Research"
@@ -33,9 +33,13 @@ right_rail:
 
 ## What Research Notes are
 
-Research Notes are the program's outward-facing long-form communication lane. They publish substantial responses to new scientific developments, framework-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers or companion papers.
+Research Notes are the program's outward-facing short-form publication stream. They publish substantial responses to new scientific developments, framework-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers or companion papers.
 
 Research Notes are not a blog, not a news stream, and not a [changelog]({{ '/changelog/' | relative_url }}). They are dated, article-like texts written for readers who want to follow the program's thinking as it develops.
+
+## What each note exposes
+
+Each Research Note should make its status inspectable: date, note type, domain, abstract, keywords, related results or verification pages, and any downloadable artifact when one exists. This keeps notes lightweight while still making them citable and searchable.
 
 ## How to receive Research Notes
 

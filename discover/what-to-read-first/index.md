@@ -40,7 +40,7 @@ Pick a route by goal. These are deliberately short; they are paths into the site
   </div>
   <div class="v2-tile">
     <h3>Reviewer path</h3>
-    <p><a href="{{ '/results/problem-ledger/' | relative_url }}">Problem Ledger</a> -> <a href="{{ '/verify/formal-verification-stack/' | relative_url }}">Formal Verification Stack</a> -> <a href="{{ '/verify/assessments/' | relative_url }}">Assessment Protocols</a></p>
+    <p><a href="{{ '/results/problem-ledger/' | relative_url }}">Problem Ledger</a> -> <a href="{{ '/verify/formal-verification-stack/' | relative_url }}">Formal Verification Stack</a> -> <a href="{{ '/verify/assessment-protocols/' | relative_url }}">Assessment Protocols</a></p>
   </div>
   <div class="v2-tile">
     <h3>Ongoing follow path</h3>

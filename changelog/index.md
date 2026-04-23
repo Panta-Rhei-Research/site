@@ -9,7 +9,7 @@ right_rail:
     - title: "About the Research"
       url: /program/about/
     - title: "Research Notes"
-      url: /research-notes/
+      url: /publications/research-notes/
     - title: "Publications"
       url: /publications/
   meta:

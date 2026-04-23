@@ -26,7 +26,7 @@ Home::/|Publications::/publications/|Books::/publications/books/|Book {{ page.bo
 Home::/|Publications::/publications/|Books::/publications/books/|Book {{ page.book_id }}::{{ page.url }}
 
 {%- when 'publication-archive-book' -%}
-Home::/|Publications::/publications/|Archived Editions::/publications/archived/first-edition/|Book {{ page.book_id }} (1st Ed.)::{{ page.url }}
+Home::/|Publications::/publications/|Archived Releases::/publications/archived/|First Edition::/publications/archived/first-edition/|Book {{ page.book_id }} (1st Ed.)::{{ page.url }}
 
 {%- when 'framework-module' -%}
 {%- assign layer_name = 'Framework' -%}
@@ -123,6 +123,16 @@ Home::/|Verify::/verify/|Assessment Protocols::{{ page.url }}
   {%- else -%}
 Home::/|Verify::/verify/|Assessment Protocols::/verify/assessment-protocols/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
   {%- endif -%}
+{%- elsif page.lane == 'publications' and page.url contains '/publications/archived/' -%}
+  {%- if page.url == '/publications/archived/' -%}
+Home::/|Publications::/publications/|Archived Releases::{{ page.url }}
+  {%- elsif page.url == '/publications/archived/first-edition/' -%}
+Home::/|Publications::/publications/|Archived Releases::/publications/archived/|First Edition::{{ page.url }}
+  {%- else -%}
+Home::/|Publications::/publications/|Archived Releases::/publications/archived/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+  {%- endif -%}
+{%- elsif page.lane == 'publications' and page.url == '/publications/bibliography/' -%}
+Home::/|Publications::/publications/|Bibliography::{{ page.url }}
 {%- elsif page.section contains ' · ' -%}
   {%- assign section_parts = page.section | split: ' · ' -%}
   {%- assign cluster_label = section_parts[1] | strip -%}

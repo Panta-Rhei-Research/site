@@ -42,7 +42,7 @@
 #   - sitemap     → /sitemap.xml
 #   - license     → CC BY 4.0 (site content license)
 #   - service-doc → /verify/taulib/docs/ (TauLib Lean 4 API reference, human-readable)
-#   - help        → /verify/assessments/ (AI-assisted assessment protocols & usage rules)
+#   - help        → /verify/assessment-protocols/ (assessment protocols & usage rules)
 #   - author      → /program/about/founders/ (research program authors)
 #   - describedby → /program/about/ (canonical program description)
 /*
@@ -50,4 +50,4 @@
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Link: </sitemap.xml>; rel="sitemap"; type="application/xml", <https://creativecommons.org/licenses/by/4.0/>; rel="license"; title="CC BY 4.0", </verify/taulib/docs/>; rel="service-doc"; type="text/html"; title="TauLib API reference", </verify/assessments/>; rel="help"; type="text/html"; title="Assessment protocols", </program/about/founders/>; rel="author"; type="text/html"; title="Founders", </program/about/>; rel="describedby"; type="text/html"; title="About the research program"
+  Link: </sitemap.xml>; rel="sitemap"; type="application/xml", <https://creativecommons.org/licenses/by/4.0/>; rel="license"; title="CC BY 4.0", </verify/taulib/docs/>; rel="service-doc"; type="text/html"; title="TauLib API reference", </verify/assessment-protocols/>; rel="help"; type="text/html"; title="Assessment protocols", </program/about/founders/>; rel="author"; type="text/html"; title="Founders", </program/about/>; rel="describedby"; type="text/html"; title="About the research program"

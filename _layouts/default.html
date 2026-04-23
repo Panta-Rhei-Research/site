@@ -35,6 +35,12 @@
       <span class="sr-only" data-pagefind-filter="lane">{{ search_lane | capitalize }}</span>
       {% if page.type %}<span class="sr-only" data-pagefind-filter="type">{{ page.type }}</span>{% endif %}
       {% if page.status %}<span class="sr-only" data-pagefind-meta="status">{{ page.status }}</span>{% endif %}
+      {% if page.domain %}<span class="sr-only" data-pagefind-meta="domain">{{ page.domain }}</span>{% endif %}
+      {% if page.publication_type %}<span class="sr-only" data-pagefind-meta="publication_type">{{ page.publication_type }}</span>{% endif %}
+      {% if page.note_type %}<span class="sr-only" data-pagefind-meta="note_type">{{ page.note_type }}</span>{% endif %}
+      {% if page.date %}<span class="sr-only" data-pagefind-meta="date">{{ page.date | date_to_xmlschema }}</span>{% endif %}
+      {% if page.tags %}<span class="sr-only" data-pagefind-meta="tags">{{ page.tags | join: ', ' }}</span>{% endif %}
+      {% if page.topics %}<span class="sr-only" data-pagefind-meta="topics">{{ page.topics | join: ', ' }}</span>{% endif %}
       {% if page.summary_short %}<span class="sr-only" data-pagefind-meta="summary">{{ page.summary_short | strip_html }}</span>{% endif %}
       {{ content }}
     </main>

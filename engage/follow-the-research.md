@@ -12,7 +12,7 @@ summary_cards:
 right_rail:
   related:
     - title: "Research Notes"
-      url: /research-notes/
+      url: /publications/research-notes/
     - title: "Engage Overview"
       url: /engage/
     - title: "About the Research"
@@ -44,7 +44,7 @@ Notes are published irregularly and only when there is something substantial to 
 
 **GitHub**: Watch the <a href="https://github.com/Panta-Rhei-Research/taulib" target="_blank" rel="noopener">TauLib repository</a> for formalization updates.
 
-**Research Notes**: Browse all published notes at [/research-notes/]({{ '/research-notes/' | relative_url }}).
+**Research Notes**: Browse all published notes at [/publications/research-notes/]({{ '/publications/research-notes/' | relative_url }}).
 
 **Website**: Bookmark this Atlas — new content lanes and verification surfaces are added as they are ready.
 
