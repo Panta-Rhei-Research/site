@@ -19,7 +19,7 @@ right_rail:
     - title: "The Seven Books (2nd Edition)"
       url: /publications/books/
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
   meta:
     type: "Archive Root"
     scope: "First Edition"

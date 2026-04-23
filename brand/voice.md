@@ -18,7 +18,7 @@ right_rail:
     - title: "Media Kit"
       url: /media/
     - title: "Founders"
-      url: /research-program/founders/
+      url: /program/about/founders/
   meta:
     type: "Brand"
     status: "v1"

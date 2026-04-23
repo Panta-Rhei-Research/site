@@ -18,7 +18,7 @@ summary_cards:
 right_rail:
   related:
   - title: Foundational Discipline
-    url: /research-program/about/foundational-discipline/
+    url: /program/research-agenda/foundational-discipline/
   - title: Book I
     url: /publications/books/book-i/
   - title: Guided Tours

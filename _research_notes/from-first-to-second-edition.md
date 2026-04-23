@@ -19,7 +19,7 @@ right_rail:
     - title: "First Edition Archive"
       url: /publications/archived/first-edition/
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
   meta:
     type: "Research Note"
     status: "Published"

@@ -23,7 +23,7 @@ summary_cards:
 right_rail:
   related:
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
     - title: "Claims"
       url: /results/
     - title: "Registry"
@@ -112,7 +112,7 @@ For readers, critics, journalists, policymakers, and domain specialists who want
 The right first question is not "should I already believe this?" The right first question is: **"is this a serious research program that has earned structured engagement?"**
 
 To answer that, start here:
-1. **Read** the [About the Research]({{ '/research-program/about/' | relative_url }}) overview
+1. **Read** the [About the Research]({{ '/program/about/' | relative_url }}) overview
 2. **Browse** the [Framework]({{ '/framework/about/' | relative_url }}) conceptual staircase
 3. **Inspect** the [Registry]({{ '/registry/' | relative_url }}) for any theorem that interests you
 4. **Run** `lake build` on TauLib to verify internal consistency

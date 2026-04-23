@@ -16,7 +16,7 @@ summary_cards:
 right_rail:
   related:
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
     - title: "Publications"
       url: /publications/
     - title: "Verify"

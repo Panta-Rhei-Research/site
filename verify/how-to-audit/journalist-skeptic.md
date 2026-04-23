@@ -9,7 +9,7 @@ right_rail:
     - title: "How to Audit (Hub)"
       url: /verify/how-to-audit/
     - title: "Red-team FAQ"
-      url: /research-program/about/red-team-faq/
+      url: /program/about/red-team-faq/
     - title: "Release Manifest"
       url: /verify/release-manifest/
     - title: "Media Kit"
@@ -29,7 +29,7 @@ Being skeptical of ambitious theoretical programs is the right default. The fram
 
 ### Step 1 — Read the Red-team FAQ (~5 min)
 
-Open the [Red-team FAQ]({{ '/research-program/about/red-team-faq/' | relative_url }}). These are the ten hardest first-contact skeptical questions, synthesized from three independent frontier-LLM first-pass assessments. Each is answered with honest reference to load-bearing evidence.
+Open the [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}). These are the ten hardest first-contact skeptical questions, synthesized from three independent frontier-LLM first-pass assessments. Each is answered with honest reference to load-bearing evidence.
 
 **What to check as you read:**
 - Are the questions themselves the right questions? A framework's FAQ that answers easy questions is a marketing document; a framework's FAQ that answers hard questions is a research document.
@@ -112,7 +112,7 @@ This framework, on the scan above, does all four. What to conclude from that is 
 
 ## Cross-links
 
-- [Red-team FAQ]({{ '/research-program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions, answered
+- [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions, answered
 - [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) — pinned commit snapshot with honest drift reconciliation
 - [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) — 30 named-experiment tests
 - [Media Kit]({{ '/media/' | relative_url }}) — press and review resources

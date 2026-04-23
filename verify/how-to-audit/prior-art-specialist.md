@@ -11,7 +11,7 @@ right_rail:
     - title: "Prior-Art Comparisons"
       url: /framework/prior-art/
     - title: "Red-team FAQ"
-      url: /research-program/about/red-team-faq/
+      url: /program/about/red-team-faq/
   meta:
     type: "Inspection Route"
     scope: "Prior-art overlap audit"
@@ -111,6 +111,6 @@ Your feedback is the single most valuable kind of input the program can receive.
 ## Cross-links
 
 - [Prior-Art Comparisons index]({{ '/framework/prior-art/' | relative_url }}) — the five zone-by-zone comparisons
-- [Red-team FAQ]({{ '/research-program/about/red-team-faq/' | relative_url }}) — question 9 addresses priority concerns directly
+- [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — question 9 addresses priority concerns directly
 - [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) — for verifying Lean-formalization state of specific claims
 - [How to Audit (Hub)]({{ '/verify/how-to-audit/' | relative_url }}) — all six reviewer routes

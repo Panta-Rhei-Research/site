@@ -90,7 +90,7 @@ The framework's reply is that Book VII's **No Forced Stance theorem (VII.T47)** 
 - [No Forced Stance]({{ '/results/problem/no-forced-stance/' | relative_url }})
 - [Foundational Philosophy briefing]({{ '/results/fields/philosophy-foundational/' | relative_url }})
 - [Structural Realism]({{ '/results/problem/structural-realism/' | relative_url }}) — the framework's position on scientific realism
-- [Scope, Status & Scrutiny]({{ '/research-program/about/scope-status-and-scrutiny/' | relative_url }})
+- [Scope, Status & Scrutiny]({{ '/program/about/scope-status-and-scrutiny/' | relative_url }})
 
 **What a philosopher of science should check:**
 - What is the ω-germ, formally? What stance would the framework force on it if it did force a stance?
@@ -132,5 +132,5 @@ Specific technical objections in any of these four clusters are the most valuabl
 - [Biology briefing]({{ '/results/fields/biology/' | relative_url }}) — life predicate + Seven Hallmarks
 - [Neuroscience briefing]({{ '/results/fields/neuroscience/' | relative_url }}) — consciousness + binding + free will
 - [Prior-Art Comparisons]({{ '/framework/prior-art/' | relative_url }}) — all five specialist-level contrasts
-- [Red-team FAQ]({{ '/research-program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions
+- [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions
 - [How to Audit (Hub)]({{ '/verify/how-to-audit/' | relative_url }}) — all six reviewer routes

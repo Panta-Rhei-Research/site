@@ -93,7 +93,19 @@ Home::/|Bibliography::{{ page.url }}
   {%- when 'publications' -%}{%- assign lane_label = 'Publications' -%}{%- assign lane_url = '/publications/' -%}
   {%- when 'engage' -%}{%- assign lane_label = 'Engage' -%}{%- assign lane_url = '/engage/' -%}
 {%- endcase -%}
-{%- if page.section contains ' · ' -%}
+{%- if page.lane == 'program' and page.section == 'about-the-program' -%}
+  {%- if page.url == '/program/about/' -%}
+Home::/|Program::/program/|About the Program::{{ page.url }}
+  {%- else -%}
+Home::/|Program::/program/|About the Program::/program/about/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+  {%- endif -%}
+{%- elsif page.lane == 'program' and page.section == 'research-agenda' -%}
+  {%- if page.url == '/program/research-agenda/' -%}
+Home::/|Program::/program/|Research Agenda::{{ page.url }}
+  {%- else -%}
+Home::/|Program::/program/|Research Agenda::/program/research-agenda/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+  {%- endif -%}
+{%- elsif page.section contains ' · ' -%}
   {%- assign section_parts = page.section | split: ' · ' -%}
   {%- assign cluster_label = section_parts[1] | strip -%}
   {%- if cluster_label == 'Prologue' -%}

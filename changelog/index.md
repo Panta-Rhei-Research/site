@@ -7,7 +7,7 @@ summary_short: "Operational ledger for the Panta Rhei Research Program site — 
 right_rail:
   related:
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
     - title: "Research Notes"
       url: /research-notes/
     - title: "Publications"

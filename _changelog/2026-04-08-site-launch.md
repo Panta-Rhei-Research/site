@@ -17,7 +17,7 @@ right_rail:
     - title: "Changelog"
       url: /changelog/
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
   meta:
     type: "Changelog Entry"
     status: "Published"

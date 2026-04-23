@@ -16,7 +16,7 @@ right_rail:
     - title: "Engage Overview"
       url: /engage/
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
   meta:
     type: "Follow"
     status: "Active"

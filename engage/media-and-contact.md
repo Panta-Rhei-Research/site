@@ -14,7 +14,7 @@ right_rail:
     - title: "Engage Overview"
       url: /engage/
     - title: "About the Research"
-      url: /research-program/about/
+      url: /program/about/
     - title: "Publications"
       url: /publications/
   artifacts:
@@ -101,7 +101,7 @@ Data-protection requests, DMCA notices, and formal legal correspondence.
 - **[Series Prospectus]({{ '/assets/media/series-prospectus.pdf' | relative_url }})** — 23-page reference document for academics and institutions (PDF)
 - **[Falsification Pack]({{ '/assets/media/falsification-pack.pdf' | relative_url }})** — 220+ quantitative predictions with precision claims (PDF)
 - **[Reviewer's Dossier]({{ '/assets/media/reviewers-dossier.pdf' | relative_url }})** — factual substrate for evaluators (PDF)
-- **[About the Research]({{ '/research-program/about/' | relative_url }})** — what the program is and how to engage
+- **[About the Research]({{ '/program/about/' | relative_url }})** — what the program is and how to engage
 
 ---
 

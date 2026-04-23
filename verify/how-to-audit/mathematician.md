@@ -108,5 +108,5 @@ If the audit is positive — all three clusters survive specialist scrutiny — 
 - [Foundations, Logic & CS briefing]({{ '/results/fields/foundations-logic/' | relative_url }}) — full foundations claim set
 - [Millennium & Langlands briefing]({{ '/results/fields/millennium-langlands/' | relative_url }}) — all seven Millennium problems + Grand GRH + Langlands
 - [Prior-Art Comparisons]({{ '/framework/prior-art/' | relative_url }}) — specialist-level prior-art pages
-- [Red-team FAQ]({{ '/research-program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions
+- [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions
 - [How to Audit (Hub)]({{ '/verify/how-to-audit/' | relative_url }}) — all six reviewer routes
