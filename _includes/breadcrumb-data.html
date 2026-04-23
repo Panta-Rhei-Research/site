@@ -43,13 +43,13 @@ Home::/|Framework::/framework/about/|{{ layer_name }}::{{ layer_url }}|{{ page.t
 Home::/|Claims::/results/|{{ page.topic | default: page.domain_group | default: 'Results' | replace: '|', ' ' | capitalize }}::/results/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
 
 {%- when 'registry-object' -%}
-Home::/|Registry::/registry/|Book {{ page.book }}::/registry/books/book-{{ page.book | downcase }}/|{{ page.registry_id | replace: '|', ' ' }}::{{ page.url }}
+Home::/|Corpus::/corpus/|Registry::/corpus/registry/|Book {{ page.book }}::/registry/books/book-{{ page.book | downcase }}/|{{ page.registry_id | replace: '|', ' ' }}::{{ page.url }}
 
 {%- when 'registry-book' -%}
-Home::/|Registry::/registry/|Book {{ page.book_id | default: page.title }}::{{ page.url }}
+Home::/|Corpus::/corpus/|Registry::/corpus/registry/|Book {{ page.book_id | default: page.title }}::{{ page.url }}
 
 {%- when 'registry-dashboard' -%}
-Home::/|Registry::/registry/|Dashboard::{{ page.url }}
+Home::/|Corpus::/corpus/|Registry::/corpus/registry/|Dashboard::{{ page.url }}
 
 {%- when 'bibliography-entry' -%}
 Home::/|Bibliography::/bibliography/|{{ page.domain_group | default: 'References' | replace: '|', ' ' }}::/bibliography/|{{ page.title_plain | default: page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
