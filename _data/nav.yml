@@ -159,11 +159,11 @@ lane_nav:
             url: "/results/world-readout/life/"
           - title: "Metaphysics"
             url: "/results/world-readout/metaphysics/"
-      - title: "Falsification"
+      - title: "Verification Links"
         links:
           - title: "Predictions"
             url: "/results/predictions/browse/"
-          - title: "Falsifications"
+          - title: "Falsification Paths"
             url: "/results/falsifications/browse/"
           - title: "Prediction Timing"
             url: "/results/predictions/timing/"

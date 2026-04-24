@@ -8,7 +8,7 @@ type: "Homepage"
 status: "Canonical"
 summary_short: "A structured public interface to a living research system across mathematics, physics, life, and metaphysics."
 hero_line: "A coherent formal system claiming to derive structure across mathematics, physics, life, and metaphysics."
-hero_body: "An independent open research program by Thorsten Fuchs and Anna-Sophie Fuchs, exposing its public surfaces through books, a structured research corpus, typed results, verification routes, and falsification commitments."
+hero_body: "An independent open research program by Thorsten Fuchs and Anna-Sophie Fuchs, exposing its public surfaces through books, a structured research corpus, typed results, verification routes, and empirical challenge commitments."
 hero_ctas:
   - label: "Start with Discover"
     url: /discover/
@@ -45,11 +45,11 @@ hero_supporting_line: "Static, inspectable, Pagefind-searchable, and organized a
     </a>
     <a class="v2-tile" href="{{ '/results/' | relative_url }}">
       <h3>Results</h3>
-      <p>Typed answer surfaces, problem mappings, predictions, and world readouts.</p>
+      <p>Typed answer surfaces, problem mappings, and world readouts, with verification links.</p>
     </a>
     <a class="v2-tile" href="{{ '/verify/' | relative_url }}">
       <h3>Verify</h3>
-      <p>Formalization, falsification, audit routes, and external challenge paths.</p>
+      <p>Formalization, predictions, falsification, audit routes, and external challenge paths.</p>
     </a>
     <a class="v2-tile" href="{{ '/publications/' | relative_url }}">
       <h3>Publications</h3>
@@ -81,8 +81,8 @@ hero_supporting_line: "Static, inspectable, Pagefind-searchable, and organized a
   </div>
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/results/' | relative_url }}">Results Lane</a>
-    <a class="btn-ghost" href="{{ '/results/predictions/browse/' | relative_url }}">Predictions</a>
-    <a class="btn-ghost" href="{{ '/results/falsifications/browse/' | relative_url }}">Falsification Pack</a>
+    <a class="btn-ghost" href="{{ '/results/predictions/browse/' | relative_url }}">Verify: Predictions</a>
+    <a class="btn-ghost" href="{{ '/results/falsifications/browse/' | relative_url }}">Verify: Falsification Pack</a>
   </div>
 </section>
 

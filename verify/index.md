@@ -2,7 +2,10 @@
 layout: program-doc
 title: "Verify"
 lane: verify
+v2_lane: verify
 permalink: /verify/
+type: "Lane Root"
+status: "Canonical"
 summary_short: "How to inspect, verify, and challenge the claims of the Panta Rhei Research Program — what can be checked, and what verification does not settle."
 hero_ctas:
   - label: "Scientific Rigor"
@@ -12,7 +15,7 @@ hero_ctas:
     url: /verify/formal-verification-stack/
   - label: "How to Verify"
     url: /verify/how-to-verify/
-hero_supporting_line: "445 Lean 4 modules · 127,440 lines · 4,332 machine-checked theorems · 0 sorry across all 7 books (TauLib Lean corpus; scope tiered — see [filter rules](/verify/filter-rules/)) · 3 conjectural axioms · Mathlib for tactics only."
+hero_supporting_line: "445 Lean 4 modules · 127,440 lines · 4,332 machine-checked theorems · 0 sorry across all 7 books (TauLib Lean corpus; scope tiered — see <a href=\"/verify/filter-rules/\">Filter Rules</a>) · 3 conjectural axioms · Mathlib for tactics only."
 summary_cards:
   - title: "What can be checked"
     body: "Every theorem in TauLib compiles in Lean 4. Every quantitative prediction has an explicit formula. Every scope claim carries its epistemic label."
@@ -31,6 +34,14 @@ right_rail:
     - title: "Corpus Registry"
       url: /corpus/registry/
   artifacts:
+    - title: "Release Manifest"
+      url: /verify/release-manifest/
+    - title: "Filter Rules"
+      url: /verify/filter-rules/
+    - title: "Custom Axiom Inventory"
+      url: /verify/custom-axioms/
+    - title: "TCB Disclosure"
+      url: /verify/tcb/
     - title: "TauLib Docs"
       url: "https://taulib.site/"
       external: true
@@ -53,6 +64,8 @@ right_rail:
 ## What Verify Means Here
 
 Verification in this program is not one thing. It includes research-form legitimacy, formal proof checking, bridge adequacy, domain-specific validation, prediction and falsification surfaces, and structured external assessment.
+
+**Metrics context:** [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) · [Filter Rules]({{ '/verify/filter-rules/' | relative_url }}) · [Custom Axiom Inventory]({{ '/verify/custom-axioms/' | relative_url }}) · [TCB Disclosure]({{ '/verify/tcb/' | relative_url }})
 
 <div class="v2-system-strip" aria-label="Verify lane model">
   <a href="{{ '/verify/scientific-rigor/' | relative_url }}">Scientific Rigor</a>
