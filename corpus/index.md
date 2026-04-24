@@ -49,6 +49,8 @@ It is not a summary, not a set of claims, and not a collection of papers. It is 
 
 ## Current state
 
+The current registry is the public v2 projection of the corpus spine; future updates will deepen item-level statements, proofs, source mappings, and Lean correspondence metadata.
+
 <div class="v2-grid">
   <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
     <strong>{{ registry_objects | size }} registry objects</strong>

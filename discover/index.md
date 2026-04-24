@@ -67,7 +67,7 @@ The website is a structured public interface to that research system. Discover i
   </a>
   <a class="v2-tile" href="{{ '/discover/follow-the-research/' | relative_url }}">
     <h3>Follow the Research</h3>
-    <p>Research Notes, public updates, and the ongoing scholarly stream.</p>
+    <p>Research Notes for ongoing scholarly writing; Changelog for site, release, and infrastructure updates.</p>
   </a>
 </div>
 
@@ -101,4 +101,4 @@ This is not a blog, not a monograph landing page, and not a documentation dump. 
 - [Key Results]({{ '/discover/key-results/' | relative_url }}) for a curated first set of claims.
 - [How the System Works]({{ '/discover/how-the-system-works/' | relative_url }}) for the architecture.
 - [Guided Tours]({{ '/discover/guided-tours/' | relative_url }}) for structured routes.
-- [Follow the Research]({{ '/discover/follow-the-research/' | relative_url }}) for Research Notes and public updates.
+- [Follow the Research]({{ '/discover/follow-the-research/' | relative_url }}) for Research Notes and Changelog, clearly separated.
