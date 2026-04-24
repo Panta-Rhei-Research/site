@@ -11,7 +11,8 @@ const securityExpectations = {
 
 const checks = [
   ["/", "cache-control", /max-age=3600/],
-  ["/program/", "cache-control", /max-age=3600/],
+  ["/registry/", "cache-control", /max-age=3600/],
+  ["/verify/", "cache-control", /max-age=3600/],
   ["/assets/site.webmanifest", "cache-control", /max-age=604800/],
   ["/sitemap.xml", "cache-control", /max-age=86400/],
   ["/robots.txt", "cache-control", /max-age=86400/],
@@ -48,4 +49,3 @@ for (const [path, headerName, expectedPattern] of checks) {
 }
 
 console.log(`Live edge headers passed for ${checks.length} paths at ${origin}`);
-
