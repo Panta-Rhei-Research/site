@@ -81,7 +81,7 @@
     text-align: left;
     transition: color $transition;
 
-    &:hover { color: $accent; }
+    &:hover { color: var(--lane-current); }
   }
 
   .footer-link-button {
@@ -132,8 +132,8 @@
   transition: color $transition, background $transition;
 
   &:hover {
-    color: $accent;
-    background: rgba($accent, 0.06);
+    color: var(--lane-current);
+    background: var(--lane-current-soft);
   }
 
   svg { display: block; }
@@ -145,7 +145,7 @@
   justify-content: space-between;
   gap: 12px;
   padding-top: 14px;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: var(--border-default);
   font-size: 0.74rem;
   color: $text-muted;
 
@@ -168,7 +168,7 @@
   a {
     color: $text-muted;
     transition: color $transition;
-    &:hover { color: $accent; }
+    &:hover { color: var(--lane-current); }
   }
 
   .footer-legal-sep {

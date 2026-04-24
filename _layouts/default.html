@@ -1,9 +1,26 @@
+{% assign search_lane = page.v2_lane | default: page.lane | default: "" %}
+{% if search_lane == "" %}
+  {% if page.url contains "/discover/" %}{% assign search_lane = "discover" %}
+  {% elsif page.url contains "/program/" or page.url contains "/research-program/" %}{% assign search_lane = "program" %}
+  {% elsif page.url contains "/corpus/" or page.url contains "/registry/" or page.url contains "/framework/" %}{% assign search_lane = "corpus" %}
+  {% elsif page.url contains "/results/" %}{% assign search_lane = "results" %}
+  {% elsif page.url contains "/verify/" %}{% assign search_lane = "verify" %}
+  {% elsif page.url contains "/publications/" %}{% assign search_lane = "publications" %}
+  {% elsif page.url contains "/impact/" %}{% assign search_lane = "impact" %}
+  {% elsif page.url contains "/engage/" %}{% assign search_lane = "engage" %}
+  {% else %}{% assign search_lane = "support" %}
+  {% endif %}
+{% endif %}
+{% if search_lane == "research-program" %}{% assign search_lane = "program" %}{% endif %}
+{% if search_lane == "registry" or search_lane == "framework" %}{% assign search_lane = "corpus" %}{% endif %}
+{% if search_lane == "bibliography" or search_lane == "utility" %}{% assign search_lane = "support" %}{% endif %}
+{% assign shell_class = page.shell | default: "standard" %}
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}">
 <head>
   {% include head.html %}
 </head>
-<body>
+<body class="site-body lane-{{ search_lane }} shell-{{ shell_class }}">
 
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
@@ -15,23 +32,7 @@
     {% include left-rail.html %}
     {% endunless %}
 
-    <main class="main-content" id="main-content" data-pagefind-body>
-      {% assign search_lane = page.v2_lane | default: page.lane | default: "" %}
-      {% if search_lane == "" %}
-        {% if page.url contains "/discover/" %}{% assign search_lane = "discover" %}
-        {% elsif page.url contains "/program/" or page.url contains "/research-program/" %}{% assign search_lane = "program" %}
-        {% elsif page.url contains "/corpus/" or page.url contains "/registry/" or page.url contains "/framework/" %}{% assign search_lane = "corpus" %}
-        {% elsif page.url contains "/results/" %}{% assign search_lane = "results" %}
-        {% elsif page.url contains "/verify/" %}{% assign search_lane = "verify" %}
-        {% elsif page.url contains "/publications/" %}{% assign search_lane = "publications" %}
-        {% elsif page.url contains "/impact/" %}{% assign search_lane = "impact" %}
-        {% elsif page.url contains "/engage/" %}{% assign search_lane = "engage" %}
-        {% else %}{% assign search_lane = "support" %}
-        {% endif %}
-      {% endif %}
-      {% if search_lane == "research-program" %}{% assign search_lane = "program" %}{% endif %}
-      {% if search_lane == "registry" or search_lane == "framework" %}{% assign search_lane = "corpus" %}{% endif %}
-      {% if search_lane == "bibliography" or search_lane == "utility" %}{% assign search_lane = "support" %}{% endif %}
+    <main class="main-content" id="main-content" data-lane="{{ search_lane }}" data-pagefind-body>
       <span class="sr-only" data-pagefind-filter="lane">{{ search_lane | capitalize }}</span>
       {% if page.type %}<span class="sr-only" data-pagefind-filter="type">{{ page.type }}</span>{% endif %}
       {% if page.status %}<span class="sr-only" data-pagefind-meta="status">{{ page.status }}</span>{% endif %}
