@@ -1,0 +1,82 @@
+---
+layout: "problem-ledger-item"
+title: "Origin of Life"
+permalink: "/program/research-agenda/problem-ledger/life/origin-of-life/"
+lane: "program"
+v2_lane: "program"
+section: "research-agenda"
+type: "Problem Ledger Item"
+status: "canonical"
+summary_short: "Life stress-test entry: Origin of Life."
+generated_from: "corpus/problem-ledger"
+do_not_edit: true
+canonical_problem_id: "life-origin-of-life"
+id: "life-origin-of-life"
+short_title: "Origin of Life"
+slug: "origin-of-life"
+domain: "life"
+domain_slug: "life"
+display_domain: "Life"
+subdomain: "origins_evolution_biochemistry"
+problem_type: "external_open_problem"
+visibility: "public"
+source:
+  source_class: "master_wholesale_import"
+  source_name: "wikipedia_list_of_unsolved_problems_in_biology"
+  source_page: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_biology"
+  source_revision_id: "pending"
+  source_retrieved_at: "pending"
+  source_item_anchor: "origin_of_life"
+  import_rule: "wholesale_pinned_revision"
+  imported_unfiltered: true
+  supplemental: false
+  inclusion_rationale: "Part of the biology master ledger."
+program:
+  tier: "kernel_critical"
+  agenda_role: "bridge_problem"
+  expressibility_status: "expressible"
+  result_status: "partially_addressed"
+  recovery_status: ""
+  priority: "high"
+  notes: "Included because life cannot be assumed reducible to physics as an input premise."
+related:
+  corpus_items: []
+  results:
+    - "result-019"
+    - "result-068"
+    - "result-074"
+  verify: []
+  publications: []
+  world_readout:
+    - "world-readout-life"
+version:
+  item_version: "0.1.0"
+  introduced_in: "problem-ledger-v1"
+  last_modified: "2026-04-24"
+  change_summary: "Initial life master-ledger seed entry."
+tags:
+  - "life"
+  - "origin-of-life"
+  - "abiogenesis"
+  - "biology"
+url: "/program/research-agenda/problem-ledger/life/origin-of-life/"
+---
+
+# Origin of Life
+
+## Problem Statement
+
+The origin of life is included from the biology master ledger as a core life
+stress test.
+
+## Why This Problem Is in Scope
+
+The program treats life as a domain whose reducibility cannot be assumed before
+the kernel has shown how physics-level structure can support life-level
+organization.
+
+## Current Program Stance
+
+Existing Results pages address abiogenesis and the structural possibility of
+life. The Problem Ledger records this as partial until the full source import
+and classification review are complete.

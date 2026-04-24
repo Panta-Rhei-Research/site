@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="result-article problem-ledger-article">
+<header class="hero-card">
+  <div class="module-eyebrow-row">
+    <span class="eyebrow">Program · Problem Ledger</span>
+    <span class="chip">{{ page.display_domain }}</span>
+    <span class="chip">{{ page.program.tier | replace: "_", " " | capitalize }}</span>
+    <span class="chip">{{ page.program.result_status | replace: "_", " " | capitalize }}</span>
+  </div>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary_short %}
+  <p>{{ page.summary_short }}</p>
+  {% endif %}
+  <div class="chip-row">
+    <span class="chip">{{ page.source.source_class | replace: "_", " " | capitalize }}</span>
+    <span class="chip">{{ page.program.agenda_role | replace: "_", " " | capitalize }}</span>
+    <span class="chip">{{ page.program.expressibility_status | replace: "_", " " | capitalize }}</span>
+  </div>
+</header>
+
+<section class="content-card">
+  <div class="prose">
+    {{ content }}
+
+    <h2>Source</h2>
+    <p>
+      This item is sourced from
+      <a href="{{ page.source.source_page }}" target="_blank" rel="noopener">{{ page.source.source_name | replace: "_", " " }}</a>.
+      Revision capture is {{ page.source.source_revision_id }} and retrieval is {{ page.source.source_retrieved_at }}.
+    </p>
+
+    <h2>Program Classification</h2>
+    <div class="dep-list">
+      <div class="dep-link"><span class="dep-id">Tier</span><span class="dep-title">{{ page.program.tier | replace: "_", " " }}</span></div>
+      <div class="dep-link"><span class="dep-id">Agenda role</span><span class="dep-title">{{ page.program.agenda_role | replace: "_", " " }}</span></div>
+      <div class="dep-link"><span class="dep-id">Expressibility</span><span class="dep-title">{{ page.program.expressibility_status | replace: "_", " " }}</span></div>
+      <div class="dep-link"><span class="dep-id">Result status</span><span class="dep-title">{{ page.program.result_status | replace: "_", " " }}</span></div>
+      {% if page.program.recovery_status and page.program.recovery_status != "" %}
+      <div class="dep-link"><span class="dep-id">Recovery</span><span class="dep-title">{{ page.program.recovery_status | replace: "_", " " }}</span></div>
+      {% endif %}
+    </div>
+    {% if page.program.notes %}
+    <p>{{ page.program.notes }}</p>
+    {% endif %}
+
+    <h2>Related Results</h2>
+    {% if page.related.results.size > 0 %}
+    <div class="dep-list">
+      {% for result_id in page.related.results %}
+      {% assign matches = site.data.results.results | where: "id", result_id %}
+      {% assign result = matches | first %}
+      {% if result %}
+      <a class="dep-link" href="{{ result.url | relative_url }}">
+        <span class="dep-id">{{ result.id }}</span>
+        <span class="dep-title">{{ result.title }}</span>
+        <span class="chip" style="margin-left:auto">{{ result.status_code }}</span>
+      </a>
+      {% else %}
+      <div class="dep-link"><span class="dep-id">{{ result_id }}</span><span class="dep-title">Result page pending</span></div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <p>No dedicated Result page yet.</p>
+    {% endif %}
+
+    <h2>Related Corpus, Verify, Publications</h2>
+    <div class="dep-list">
+      <div class="dep-link"><span class="dep-id">Corpus</span><span class="dep-title">{% if page.related.corpus_items.size > 0 %}{{ page.related.corpus_items | join: ", " }}{% else %}No direct Corpus item mapped yet{% endif %}</span></div>
+      <div class="dep-link"><span class="dep-id">Verify</span><span class="dep-title">{% if page.related.verify.size > 0 %}{{ page.related.verify | join: ", " }}{% else %}No Verify surface mapped yet{% endif %}</span></div>
+      <div class="dep-link"><span class="dep-id">Publications</span><span class="dep-title">{% if page.related.publications.size > 0 %}{{ page.related.publications | join: ", " }}{% else %}No publication mapped yet{% endif %}</span></div>
+    </div>
+
+    <h2>Revision Metadata</h2>
+    <div class="dep-list">
+      <div class="dep-link"><span class="dep-id">Problem ID</span><span class="dep-title">{{ page.canonical_problem_id }}</span></div>
+      <div class="dep-link"><span class="dep-id">Item version</span><span class="dep-title">{{ page.version.item_version }}</span></div>
+      <div class="dep-link"><span class="dep-id">Introduced</span><span class="dep-title">{{ page.version.introduced_in }}</span></div>
+      <div class="dep-link"><span class="dep-id">Generated from</span><span class="dep-title">{{ page.generated_from }}</span></div>
+    </div>
+  </div>
+</section>
+</article>

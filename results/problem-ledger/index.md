@@ -13,7 +13,7 @@ summary_cards:
   - title: "Status visible"
     body: "Resolved, partial, qualitative, contradicted, not addressed, open, or deferred."
   - title: "Mirror surface"
-    body: "This page mirrors Program > Research Agenda > Problem Ledger."
+    body: "This page mirrors generated Corpus Problem Ledger items where result links already exist."
 hero_ctas:
   - label: "Browse All Results"
     url: /results/browse/
@@ -38,13 +38,14 @@ right_rail:
 ---
 
 {% assign results = site.data.results.results %}
+{% assign problem_items = site.problem_ledger | sort: "title" %}
 {% assign status_groups = results | group_by: "status_code" | sort: "name" %}
 
-## What the ledger does
+## What the mirror does
 
-The Problem Ledger organizes result pages by the questions they answer or partially address.
+The Program-side [Problem Ledger]({{ '/program/research-agenda/problem-ledger/' | relative_url }}) names external stress-test problems and records source policy. This Results-side mirror shows where the current Results lane already has an answer, partial answer, structural constraint, or open stance.
 
-The current site already exposes a crawlable [Browse All Results]({{ '/results/browse/' | relative_url }}) catalogue. v2 adds this problem-ledger surface so readers can distinguish recognized external problems, internal structural readouts, quantitative predictions, and conditional consequences.
+The current site still exposes the full crawlable [Browse All Results]({{ '/results/browse/' | relative_url }}) catalogue. This page narrows the view to Problem Ledger seed items and their linked Result pages.
 
 ## Current status distribution
 
@@ -82,14 +83,29 @@ Use the shared result status vocabulary:
 
 The full v1/v2 result catalogue remains available at [Browse All Results]({{ '/results/browse/' | relative_url }}).
 
-## Featured problem entries
+## Problem Ledger Seed Mirror
 
 <div class="dep-list">
-  {% for result in results limit: 18 %}
-  <a href="{{ result.url | relative_url }}" class="dep-link">
-    <span class="dep-id">{{ result.id }}</span>
-    <span class="dep-title">{{ result.title }}</span>
-    <span class="chip" style="margin-left:auto">{{ result.status_code }}</span>
-  </a>
+  {% for problem in problem_items %}
+  <div class="dep-link">
+    <span class="dep-id">{{ problem.canonical_problem_id }}</span>
+    <span class="dep-title">{{ problem.title }}</span>
+    <span class="chip" style="margin-left:auto">{{ problem.program.result_status | replace: "_", " " }}</span>
+  </div>
+  {% if problem.related.results.size > 0 %}
+    {% for result_id in problem.related.results %}
+    {% assign matches = results | where: "id", result_id %}
+    {% assign result = matches | first %}
+    {% if result %}
+    <a href="{{ result.url | relative_url }}" class="dep-link">
+      <span class="dep-id">{{ result.id }}</span>
+      <span class="dep-title">{{ result.title }}</span>
+      <span class="chip" style="margin-left:auto">{{ result.status_code }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+  {% else %}
+  <div class="dep-link"><span class="dep-id">Pending</span><span class="dep-title">No dedicated Result page yet</span></div>
+  {% endif %}
   {% endfor %}
 </div>

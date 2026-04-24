@@ -29,6 +29,8 @@ right_rail:
       url: /program/research-agenda/research-aim-and-desiderata/
     - title: "Problem Ledger"
       url: /program/research-agenda/problem-ledger/
+    - title: "Problem Ledger Source Policy"
+      url: /program/research-agenda/problem-ledger-source-policy/
     - title: "Progress Against Agenda"
       url: /results/progress-against-agenda/
   meta:
@@ -43,6 +45,21 @@ right_rail:
 A large-scope program cannot ask for serious engagement unless it states what it is trying to solve, what standards constrain it, and what will not count as success.
 
 The Research Agenda is that public contract. It names the questions, the foundational discipline, the design principles, the explicit refusals, and the criteria by which results should be read.
+
+## Why a Problem Ledger?
+
+The program aims to construct a coherent kernel-based model of reality. Such a model cannot be judged only by whether it can rephrase already established theories in a new language.
+
+A serious candidate kernel must also be held against open problems: places where current knowledge does not yet close.
+
+For this reason, the Research Agenda uses external public problem ledgers as stress tests. The goal is not to cherry-pick convenient targets, but to ask whether the kernel can express, classify, constrain, answer, defer, or reject major open problems in a principled way.
+
+| Domain | Ledger Rule | Why Included |
+|---|---|---|
+| Mathematics | Clay 7 + Langlands | Foundational stress tests for a reconstructed mathematical kernel |
+| Physics | Full Wikipedia physics list | Least controversial public stress-test domain for formalized reality-description |
+| Life | Full biology + neuroscience lists | Life and mind cannot be assumed reducible as a premise |
+| Metaphysics / Philosophy | Full philosophical problems list | Ontology, knowledge, mind, meaning, proof, ethics, and science are in scope |
 
 ## Agenda pillars
 
@@ -65,7 +82,11 @@ The Research Agenda is that public contract. It names the questions, the foundat
   </a>
   <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/' | relative_url }}">
     <strong>Problem Ledger</strong>
-    <span>The navigable burden-of-proof ledger for the program.</span>
+    <span>External stress-test problems and their current program classification.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger-source-policy/' | relative_url }}">
+    <strong>Source Policy</strong>
+    <span>How external problem ledgers are selected, pinned, imported, and classified.</span>
   </a>
   <a class="v2-tile" href="{{ '/program/research-agenda/result-criteria/' | relative_url }}">
     <strong>Result Criteria</strong>
@@ -90,4 +111,3 @@ The Research Agenda is that public contract. It names the questions, the foundat
 ## Mirror to Results
 
 This lane states the burden. The [Results lane]({{ '/results/' | relative_url }}) states the current answers. The two should be read together: agenda without results would be ambition without evidence; results without agenda would be a list without a public standard.
-

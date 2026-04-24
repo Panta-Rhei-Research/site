@@ -54,6 +54,9 @@ collections:
   falsifications:
     output: true
     permalink: /falsifications/:name/
+  problem_ledger:
+    output: true
+    permalink: /program/research-agenda/problem-ledger/:path/
 
 collections_dir: .
 
@@ -118,3 +121,9 @@ defaults:
     values:
       layout: "falsification-page"
       lane: "results"
+  - scope:
+      type: "problem_ledger"
+    values:
+      layout: "problem-ledger-item"
+      lane: "program"
+      v2_lane: "program"
