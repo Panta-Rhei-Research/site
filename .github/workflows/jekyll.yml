@@ -42,6 +42,11 @@ jobs:
       - name: Install Node dependencies
         run: npm ci
 
+      - name: Validate edge headers Worker
+        run: |
+          npm run headers:test
+          npm run headers:dry-run
+
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl ""
         env:
