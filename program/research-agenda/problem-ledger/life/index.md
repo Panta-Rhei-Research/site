@@ -26,9 +26,16 @@ right_rail:
 
 ## Source rule
 
-Life uses the biology and neuroscience master ledgers. Medicine is excluded as a v2 master ledger because it is primarily clinical and translational rather than the core life-system stress test.
+Life uses the pinned biology and neuroscience master ledgers. Medicine is excluded as a v2 master ledger because it is primarily clinical and translational rather than the core life-system stress test.
 
-## Current seed items
+## Import Coverage
+
+<table>
+  <thead><tr><th scope="col">Source scope</th><th scope="col">Public items</th><th scope="col">Merged</th><th scope="col">Excluded</th><th scope="col">Deferred</th></tr></thead>
+  <tbody><tr><td>112</td><td>102</td><td>10</td><td>0</td><td>0</td></tr></tbody>
+</table>
+
+## Public Problem Items
 
 <div class="dep-list">
   {% for problem in items %}
@@ -39,3 +46,19 @@ Life uses the biology and neuroscience master ledgers. Medicine is excluded as a
   </a>
   {% endfor %}
 </div>
+
+## Merged Source Entries
+
+Ten biology/neuroscience overlaps are merged into canonical public items. The public pages retain the relevant source-entry IDs so the source accounting remains visible.
+
+## Excluded Source Entries
+
+_No Life source entries are excluded in v1.0. Medicine remains excluded as a master ledger source rather than as item-level exclusions._
+
+## Deferred Source Entries
+
+_No Life source entries are deferred in v1.0._
+
+## Related Results Mirror
+
+See [Problem Ledger Answers: Life]({{ '/results/problem-ledger-answers/life/' | relative_url }}).

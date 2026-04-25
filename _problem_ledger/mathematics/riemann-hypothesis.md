@@ -1,5 +1,6 @@
 ---
 layout: "problem-ledger-item"
+render_with_liquid: false
 title: "Riemann Hypothesis"
 permalink: "/program/research-agenda/problem-ledger/mathematics/riemann-hypothesis/"
 lane: "program"
@@ -9,7 +10,7 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Mathematics stress-test entry: Riemann Hypothesis."
 generated_from: "corpus/problem-ledger"
-projection_version: "v0.1"
+projection_version: "v1.0"
 canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "math-riemann-hypothesis"
@@ -26,13 +27,18 @@ source:
   source_class: "selected_foundational_stress_test"
   source_name: "clay_millennium_problems"
   source_page: "https://www.claymath.org/millennium-problems/riemann-hypothesis/"
-  source_revision_id: "pending"
-  source_retrieved_at: "pending"
+  source_revision_id: "not_applicable"
+  source_retrieved_at: "2026-04-25"
   source_item_anchor: "riemann_hypothesis"
   import_rule: "selected_foundational"
   imported_unfiltered: false
   supplemental: false
   inclusion_rationale: "One of the seven Clay Millennium Problems."
+  source_id: "clay-millennium-problems"
+  source_url: "https://www.claymath.org/millennium-problems/riemann-hypothesis/"
+  source_permalink: "https://www.claymath.org/millennium-problems/riemann-hypothesis/"
+  source_entry_ids:
+    - "clay-riemann-hypothesis"
 program:
   tier: "kernel_critical"
   agenda_role: "stress_test"
@@ -46,20 +52,39 @@ related:
   results:
     - "result-091"
     - "result-073"
-  verify: []
+  verify:
+    - "/verify/bridge-verification/"
+    - "/verify/formal-verification-stack/"
   publications: []
   world_readout:
     - "world-readout-mathematics"
+  recovery_requirements:
+    - "MREC-M5"
+  construction_steps: []
+mapping:
+  mapping_status: "promoted"
+  mapping_target: "math-riemann-hypothesis"
+  mapped_from_source_entries:
+    - "clay-riemann-hypothesis"
+  merged_source_entries: []
+  excluded_source_entries: []
+  mapping_notes: "Promoted in Problem Ledger v1.0 broad public projection."
 version:
-  item_version: "0.1.0"
+  item_version: "1.0.0"
   introduced_in: "problem-ledger-v1"
-  last_modified: "2026-04-24"
-  change_summary: "Initial selected foundational stress-test seed entry."
+  last_modified: "2026-04-25"
+  change_summary: "Promoted or mapped during Problem Ledger v1.0 source-auditable release."
 tags:
   - "mathematics"
   - "number-theory"
   - "millennium-problem"
   - "spectral"
+search_keywords:
+  - "mathematics"
+  - "number-theory"
+  - "millennium-problem"
+  - "spectral"
+  - "Riemann Hypothesis"
 url: "/program/research-agenda/problem-ledger/mathematics/riemann-hypothesis/"
 results_mirror:
   exists: true
@@ -67,24 +92,52 @@ results_mirror:
   result_status: "partially_addressed"
   result_url: "/results/problem/riemann-hypothesis/"
 verify_links:
-  exists: false
-  verification_mode: ""
+  exists: true
+  verification_mode: "/verify/bridge-verification/"
   verify_url: ""
 ---
-
-# Riemann Hypothesis
 
 ## Problem Statement
 
 The Riemann Hypothesis is included as one of the seven Clay Millennium Problems.
 
+## Source
+
+Source: Clay Mathematics Institute — Millennium Prize Problems. Import rule: `selected_foundational`. Pinned revision: `not_applicable`.
+
 ## Why This Problem Is in Scope
 
-It is a kernel-critical stress test because it asks whether prime structure and
-spectral structure can be related without importing an external mathematical
-background as an unexplained given.
+This item is included because it belongs to the declared Problem Ledger source scope for Mathematics. Import means visibility and accountable classification, not endorsement, solution, priority, or external acceptance.
+
+## Program Classification
+
+- Tier: `kernel_critical`
+- Agenda role: `stress_test`
+- Expressibility status: `requires_translation`
+- Result status: `partially_addressed`
 
 ## Current Program Stance
 
-The current program stance is represented by existing Results pages and remains
-under review in the Problem Ledger.
+The current program stance is `partially_addressed`.
+
+## Related Results
+
+- `result-091`
+- `result-073`
+
+## Related Corpus Items
+
+- No direct Corpus item mapped yet.
+
+## Related Verify Surfaces
+
+- /verify/bridge-verification/
+- /verify/formal-verification-stack/
+
+## Related Recovery Requirements
+
+- `MREC-M5`
+
+## Projection Metadata
+
+Generated from `corpus/problem-ledger` as the v1.0 public projection. Update the Corpus source item and regenerate the projection rather than editing the public site copy directly.

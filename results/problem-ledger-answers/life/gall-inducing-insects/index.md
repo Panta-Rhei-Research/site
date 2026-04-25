@@ -1,0 +1,52 @@
+---
+layout: "program-doc"
+title: "Gall-inducing insects"
+permalink: "/results/problem-ledger-answers/life/gall-inducing-insects/"
+lane: "results"
+v2_lane: "results"
+type: "Problem Ledger Answer"
+status: "Canonical"
+summary_short: "Current Results-side stance for Gall-inducing insects."
+canonical_problem_id: "life-biology-gall-inducing-insects"
+---
+
+## Status Separation
+
+<div class="notice note"><strong>Status note.</strong> This page reports the current program stance. It does not imply external acceptance unless explicitly stated.</div>
+
+- Internal stance: **Not Yet Classified**
+- Verification route: **Pending**
+- External status: **Not externally reviewed**
+
+## Problem
+
+Gall-inducing insects
+
+## Source
+
+- Source: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_biology
+- Import rule: `wholesale_pinned_revision`
+- Program ledger item: [life-biology-gall-inducing-insects](/program/research-agenda/problem-ledger/life/gall-inducing-insects/)
+
+## Current Program Stance
+
+- Result status: **Not Yet Classified**
+- Tier: `unclassified`
+- Agenda role: `stress_test`
+- Expressibility: `unknown`
+
+## Related Construction Steps
+
+- Construction Spine mapping pending.
+
+## Related Results
+
+- Dedicated Result page pending.
+
+## Verify This Answer
+
+Dedicated Verify surface pending.
+
+## What remains open
+
+Residual boundaries remain public unless a linked Result page explicitly closes them with status-marked evidence.

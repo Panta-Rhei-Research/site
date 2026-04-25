@@ -1,5 +1,6 @@
 ---
 layout: "problem-ledger-item"
+render_with_liquid: false
 title: "Why Is There Something Rather Than Nothing?"
 permalink: "/program/research-agenda/problem-ledger/metaphysics-philosophy/why-something-rather-than-nothing/"
 lane: "program"
@@ -9,7 +10,7 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Metaphysics / Philosophy stress-test entry: Something Rather Than Nothing."
 generated_from: "corpus/problem-ledger"
-projection_version: "v0.1"
+projection_version: "v1.0"
 canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "meta-why-something-rather-than-nothing"
@@ -41,6 +42,10 @@ source:
   license: "CC BY-SA 4.0 and GFDL"
   license_url: "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
   attribution: "Wikipedia contributors"
+  source_id: "wikipedia-philosophical-problems-1338262080"
+  source_url: "https://en.wikipedia.org/wiki/List_of_philosophical_problems"
+  source_entry_ids:
+    - "wikipedia-philosophy-why-there-is-something-rather-than-nothing"
 program:
   tier: "kernel_critical"
   agenda_role: "expressibility_test"
@@ -53,20 +58,44 @@ related:
   corpus_items: []
   results:
     - "result-219"
-  verify: []
+  verify:
+    - "/verify/meta-verification-frontier/"
   publications: []
   world_readout:
     - "world-readout-metaphysics"
+  recovery_requirements:
+    - "METH-R0"
+    - "METH-R1"
+    - "METH-R11"
+  construction_steps: []
+  kernel_model_reality:
+    - "/program/research-agenda/kernel-model-reality/ontic-status-burden/"
+    - "/program/research-agenda/kernel-model-reality/no-externalities/"
+mapping:
+  mapping_status: "promoted"
+  mapping_target: "meta-why-something-rather-than-nothing"
+  mapped_from_source_entries:
+    - "wikipedia-philosophy-why-there-is-something-rather-than-nothing"
+  merged_source_entries: []
+  excluded_source_entries: []
+  mapping_notes: "Promoted in Problem Ledger v1.0 broad public projection."
 version:
-  item_version: "0.1.0"
+  item_version: "1.0.0"
   introduced_in: "problem-ledger-v1"
   last_modified: "2026-04-25"
-  change_summary: "Seed item enriched with pinned Wikipedia source metadata."
+  change_summary: "Promoted or mapped during Problem Ledger v1.0 source-auditable release."
 tags:
   - "metaphysics"
   - "ontology"
   - "philosophy"
   - "something-rather-than-nothing"
+search_keywords:
+  - "metaphysics"
+  - "ontology"
+  - "philosophy"
+  - "something-rather-than-nothing"
+  - "Why Is There Something Rather Than Nothing?"
+  - "Something Rather Than Nothing"
 url: "/program/research-agenda/problem-ledger/metaphysics-philosophy/why-something-rather-than-nothing/"
 results_mirror:
   exists: true
@@ -74,26 +103,52 @@ results_mirror:
   result_status: "partially_addressed"
   result_url: "/results/problem/why-something-rather-than-nothing/"
 verify_links:
-  exists: false
-  verification_mode: ""
+  exists: true
+  verification_mode: "/verify/meta-verification-frontier/"
   verify_url: ""
 ---
-
-# Why Is There Something Rather Than Nothing?
 
 ## Problem Statement
 
 This entry is included from the philosophical problems master ledger.
 
+## Source
+
+Source: Wikipedia — List of philosophical problems. Import rule: `wholesale_pinned_revision`. Pinned revision: `1338262080`.
+
 ## Why This Problem Is in Scope
 
-The program explicitly concerns ontology and the structure of
-reality-description. A kernel-based model must therefore be able to say whether
-this question is expressible, answerable, reclassified, or a category-error
-candidate.
+This item is included because it belongs to the declared Problem Ledger source scope for Metaphysics / Philosophy. Import means visibility and accountable classification, not endorsement, solution, priority, or external acceptance.
+
+## Program Classification
+
+- Tier: `kernel_critical`
+- Agenda role: `expressibility_test`
+- Expressibility status: `requires_translation`
+- Result status: `partially_addressed`
 
 ## Current Program Stance
 
-The current Results mirror has a dedicated page. The Problem Ledger records the
-status as partial until the source-pinned import and classification review are
-complete.
+The current program stance is `partially_addressed`.
+
+## Related Results
+
+- `result-219`
+
+## Related Corpus Items
+
+- No direct Corpus item mapped yet.
+
+## Related Verify Surfaces
+
+- /verify/meta-verification-frontier/
+
+## Related Recovery Requirements
+
+- `METH-R0`
+- `METH-R1`
+- `METH-R11`
+
+## Projection Metadata
+
+Generated from `corpus/problem-ledger` as the v1.0 public projection. Update the Corpus source item and regenerate the projection rather than editing the public site copy directly.

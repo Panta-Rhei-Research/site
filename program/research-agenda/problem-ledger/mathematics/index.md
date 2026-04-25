@@ -26,9 +26,16 @@ right_rail:
 
 ## Source rule
 
-Mathematics uses selected foundational stress tests, not a wholesale open-math import. The v2 ledger starts with the Clay Millennium Problems and the Langlands Program.
+Mathematics uses selected foundational stress tests, not a wholesale open-math import. Problem Ledger v1.0 exposes all seven Clay Millennium Problems plus the Langlands Program.
 
-## Current seed items
+## Import Coverage
+
+<table>
+  <thead><tr><th scope="col">Source scope</th><th scope="col">Public items</th><th scope="col">Merged</th><th scope="col">Excluded</th><th scope="col">Deferred</th></tr></thead>
+  <tbody><tr><td>8</td><td>8</td><td>0</td><td>0</td><td>0</td></tr></tbody>
+</table>
+
+## Public Problem Items
 
 <div class="dep-list">
   {% for problem in items %}
@@ -39,3 +46,19 @@ Mathematics uses selected foundational stress tests, not a wholesale open-math i
   </a>
   {% endfor %}
 </div>
+
+## Merged Source Entries
+
+_No Mathematics source entries are merged in v1.0._
+
+## Excluded Source Entries
+
+_No Mathematics source entries are excluded in v1.0. GRH and Grand RH remain outside the initial standalone source policy._
+
+## Deferred Source Entries
+
+_No Mathematics source entries are deferred in v1.0._
+
+## Related Results Mirror
+
+See [Problem Ledger Answers: Mathematics]({{ '/results/problem-ledger-answers/mathematics/' | relative_url }}).

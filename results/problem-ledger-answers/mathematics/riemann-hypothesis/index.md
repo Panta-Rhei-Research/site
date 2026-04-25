@@ -10,14 +10,12 @@ summary_short: "Current Results-side stance for Riemann Hypothesis."
 canonical_problem_id: "math-riemann-hypothesis"
 ---
 
-# Riemann Hypothesis
+## Status Separation
 
 <div class="notice note"><strong>Status note.</strong> This page reports the current program stance. It does not imply external acceptance unless explicitly stated.</div>
 
-## Status Separation
-
 - Internal stance: **Partially Addressed**
-- Verification route: **Pending**
+- Verification route: **Available**
 - External status: **Not externally reviewed**
 
 ## Problem

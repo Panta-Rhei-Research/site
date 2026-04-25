@@ -1,5 +1,6 @@
 ---
 layout: "problem-ledger-item"
+render_with_liquid: false
 title: "Consciousness"
 permalink: "/program/research-agenda/problem-ledger/life/consciousness/"
 lane: "program"
@@ -9,7 +10,7 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Life stress-test entry: Consciousness."
 generated_from: "corpus/problem-ledger"
-projection_version: "v0.1"
+projection_version: "v1.0"
 canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "life-consciousness"
@@ -41,6 +42,11 @@ source:
   license: "CC BY-SA 4.0 and GFDL"
   license_url: "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
   attribution: "Wikipedia contributors"
+  source_id: "wikipedia-unsolved-neuroscience-1330874647"
+  source_url: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_neuroscience"
+  source_entry_ids:
+    - "wikipedia-biology-consciousness"
+    - "wikipedia-neuroscience-consciousness"
 program:
   tier: "kernel_critical"
   agenda_role: "bridge_problem"
@@ -55,21 +61,43 @@ related:
     - "result-025"
     - "result-140"
     - "result-155"
-  verify: []
+  verify:
+    - "/verify/domain-verification/life/"
+    - "/verify/domain-verification/metaphysics/"
   publications: []
   world_readout:
     - "world-readout-life"
     - "world-readout-metaphysics"
+  recovery_requirements:
+    - "LREC-L9"
+    - "METH-R8"
+  construction_steps: []
+mapping:
+  mapping_status: "promoted"
+  mapping_target: "life-consciousness"
+  mapped_from_source_entries:
+    - "wikipedia-biology-consciousness"
+    - "wikipedia-neuroscience-consciousness"
+  merged_source_entries:
+    - "wikipedia-biology-consciousness"
+  excluded_source_entries: []
+  mapping_notes: "Promoted in Problem Ledger v1.0 broad public projection."
 version:
-  item_version: "0.1.0"
+  item_version: "1.0.0"
   introduced_in: "problem-ledger-v1"
   last_modified: "2026-04-25"
-  change_summary: "Seed item enriched with pinned Wikipedia source metadata."
+  change_summary: "Promoted or mapped during Problem Ledger v1.0 source-auditable release."
 tags:
   - "life"
   - "neuroscience"
   - "consciousness"
   - "mind"
+search_keywords:
+  - "life"
+  - "neuroscience"
+  - "consciousness"
+  - "mind"
+  - "Consciousness"
 url: "/program/research-agenda/problem-ledger/life/consciousness/"
 results_mirror:
   exists: true
@@ -77,25 +105,55 @@ results_mirror:
   result_status: "partially_addressed"
   result_url: "/results/problem/consciousness-global-section/"
 verify_links:
-  exists: false
-  verification_mode: ""
+  exists: true
+  verification_mode: "/verify/domain-verification/life/"
   verify_url: ""
 ---
-
-# Consciousness
 
 ## Problem Statement
 
 Consciousness is included from the neuroscience master ledger as a life-mind
 bridge problem.
 
+## Source
+
+Source: Wikipedia — List of unsolved problems in neuroscience. Import rule: `wholesale_pinned_revision`. Pinned revision: `1330874647`.
+
 ## Why This Problem Is in Scope
 
-The problem tests whether the framework can express subjective perspective,
-self-modeling, and mind-body structure without hiding them behind vocabulary.
+This item is included because it belongs to the declared Problem Ledger source scope for Life. Import means visibility and accountable classification, not endorsement, solution, priority, or external acceptance.
+
+## Program Classification
+
+- Tier: `kernel_critical`
+- Agenda role: `bridge_problem`
+- Expressibility status: `requires_translation`
+- Result status: `partially_addressed`
 
 ## Current Program Stance
 
-Existing Results pages address consciousness as a global section and as a
-cross-layer issue. The Problem Ledger keeps this as partial pending source
-import and review.
+The current program stance is `partially_addressed`.
+
+## Related Results
+
+- `result-025`
+- `result-140`
+- `result-155`
+
+## Related Corpus Items
+
+- No direct Corpus item mapped yet.
+
+## Related Verify Surfaces
+
+- /verify/domain-verification/life/
+- /verify/domain-verification/metaphysics/
+
+## Related Recovery Requirements
+
+- `LREC-L9`
+- `METH-R8`
+
+## Projection Metadata
+
+Generated from `corpus/problem-ledger` as the v1.0 public projection. Update the Corpus source item and regenerate the projection rather than editing the public site copy directly.

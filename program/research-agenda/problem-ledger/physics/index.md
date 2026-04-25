@@ -26,9 +26,16 @@ right_rail:
 
 ## Source rule
 
-Physics uses the full Wikipedia list of unsolved problems in physics as the master ledger. The seed item below proves the projection path before the wholesale import wave.
+Physics uses the full pinned Wikipedia list of unsolved problems in physics as the master ledger. Problem Ledger v1.0 promotes the extracted named entries into public agenda items while keeping solution, verification, and external acceptance separate.
 
-## Current seed items
+## Import Coverage
+
+<table>
+  <thead><tr><th scope="col">Source scope</th><th scope="col">Public items</th><th scope="col">Merged</th><th scope="col">Excluded</th><th scope="col">Deferred</th></tr></thead>
+  <tbody><tr><td>102</td><td>102</td><td>0</td><td>0</td><td>0</td></tr></tbody>
+</table>
+
+## Public Problem Items
 
 <div class="dep-list">
   {% for problem in items %}
@@ -39,3 +46,19 @@ Physics uses the full Wikipedia list of unsolved problems in physics as the mast
   </a>
   {% endfor %}
 </div>
+
+## Merged Source Entries
+
+_No Physics source entries are merged in v1.0._
+
+## Excluded Source Entries
+
+_No Physics source entries are excluded in v1.0; historical solved sections and non-entry source sections were skipped during extraction rather than admitted as source entries._
+
+## Deferred Source Entries
+
+_No Physics source entries are deferred in v1.0._
+
+## Related Results Mirror
+
+See [Problem Ledger Answers: Physics]({{ '/results/problem-ledger-answers/physics/' | relative_url }}).

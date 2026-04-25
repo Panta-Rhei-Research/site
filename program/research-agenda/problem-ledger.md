@@ -58,7 +58,7 @@ The source-policy architecture is now in place for all four agenda domains:
 - Life: full biology + neuroscience ledgers.
 - Metaphysics / Philosophy: full philosophical problems ledger.
 
-The current public projection shows seed items while the wholesale import waves remain under Corpus review. These seed items prove the end-to-end projection path: source policy -> Corpus problem item -> public agenda page -> Results mirror.
+The current public projection is Problem Ledger v1.0: every declared source entry is mapped to a promoted public problem item or to an explicit merged record. The end-to-end trace is now inspectable: source policy -> pinned source entry -> Corpus problem item -> public agenda page -> Results mirror.
 
 ## Start with the source policy
 
@@ -73,7 +73,7 @@ The current public projection shows seed items while the wholesale import waves 
   </a>
   <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/physics/' | relative_url }}">
     <strong>Physics Problem Ledger</strong>
-    <span>The pinned physics master ledger, currently represented publicly by seed items.</span>
+    <span>The pinned physics master ledger, promoted into public v1.0 problem items.</span>
   </a>
   <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/life/' | relative_url }}">
     <strong>Life Problem Ledger</strong>
@@ -100,7 +100,7 @@ The current public projection shows seed items while the wholesale import waves 
   </a>
   <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/physics/' | relative_url }}">
     <strong>Physics</strong>
-    <span>Full pinned Wikipedia physics ledger, seeded here before wholesale import.</span>
+    <span>Full pinned Wikipedia physics ledger, promoted into public v1.0 problem items.</span>
   </a>
   <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/life/' | relative_url }}">
     <strong>Life</strong>
@@ -112,9 +112,32 @@ The current public projection shows seed items while the wholesale import waves 
   </a>
 </div>
 
-## Current Public Seed Items
+## Import Coverage
 
-These are not the full final ledgers. They are the current public v0.1 seed projection from the Corpus problem-ledger source. The full wholesale imports will be promoted after source capture, normalization, classification, and review.
+Problem Ledger v1.0 records visibility and classification, not solution or acceptance. A problem being present in the ledger means the program agrees to keep it visible, not that it is solved.
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Domain</th>
+      <th scope="col">Source scope</th>
+      <th scope="col">Public items</th>
+      <th scope="col">Merged</th>
+      <th scope="col">Excluded</th>
+      <th scope="col">Deferred</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Mathematics</th><td>8</td><td>8</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">Physics</th><td>102</td><td>102</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">Life</th><td>112</td><td>102</td><td>10</td><td>0</td><td>0</td></tr>
+    <tr><th scope="row">Metaphysics / Philosophy</th><td>27</td><td>27</td><td>0</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table>
+
+## Public Problem Items
+
+These are the current public v1.0 projection from the Corpus problem-ledger source. Imported entries remain explicitly status-marked: most are visible as not-yet-classified agenda obligations, while already linked items point into Results and Verify.
 
 <div class="dep-list">
   {% for problem in problem_items %}
@@ -134,7 +157,7 @@ These are not the full final ledgers. They are the current public v0.1 seed proj
   {% for group in status_groups %}
   <div class="v2-tile">
     <strong>{{ group.name | replace: "_", " " | capitalize }}</strong>
-    <span>{{ group.size }} seed item{% if group.size != 1 %}s{% endif %}.</span>
+    <span>{{ group.size }} public problem item{% if group.size != 1 %}s{% endif %}.</span>
   </div>
   {% endfor %}
 </div>

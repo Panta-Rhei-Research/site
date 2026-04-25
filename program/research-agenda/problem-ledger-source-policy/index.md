@@ -34,19 +34,19 @@ The two burdens are related, but they are not the same ledger.
 
 ## Physics import rule
 
-Physics uses the full Wikipedia list of unsolved problems in physics as its master ledger. The first pinned import captured revision `1349830343` from April 19, 2026 and imported the named problem entries into the Corpus review workflow.
+Physics uses the full Wikipedia list of unsolved problems in physics as its master ledger. The pinned import captured revision `1349830343` from April 19, 2026 and v1.0 maps all 102 extracted named entries into public Problem Ledger items.
 
 ## Life import rule
 
-Life uses two master ledgers: the Wikipedia list of unsolved problems in biology and the Wikipedia list of unsolved problems in neuroscience. The first pinned imports captured biology revision `1350634388` from April 23, 2026 and neuroscience revision `1330874647` from January 3, 2026. The Wikipedia list of unsolved problems in medicine is not used as a master Life ledger in v2.
+Life uses two master ledgers: the Wikipedia list of unsolved problems in biology and the Wikipedia list of unsolved problems in neuroscience. The pinned imports captured biology revision `1350634388` from April 23, 2026 and neuroscience revision `1330874647` from January 3, 2026. v1.0 maps 112 source entries into 102 public items and 10 explicit overlap merges. The Wikipedia list of unsolved problems in medicine is not used as a master Life ledger in v2.
 
 ## Metaphysics / Philosophy import rule
 
-Metaphysics / Philosophy uses Wikipedia's list of philosophical problems. The first pinned import captured revision `1338262080` from February 14, 2026. This source is not labeled as an unsolved-problems-in-philosophy source.
+Metaphysics / Philosophy uses Wikipedia's list of philosophical problems. The pinned import captured revision `1338262080` from February 14, 2026 and v1.0 maps all 27 extracted entries into public items. This source is not labeled as an unsolved-problems-in-philosophy source, and the Corpus manifest records the source-page warning about possible unverifiable material.
 
 ## Mathematics selection rule
 
-Mathematics uses selected foundational stress tests: the seven Clay Millennium Problems and the Langlands Program. GRH and Grand GRH are not initial standalone Problem Ledger entries.
+Mathematics uses selected foundational stress tests: the seven Clay Millennium Problems and the Langlands Program. Problem Ledger v1.0 exposes all eight mathematics items. GRH and Grand GRH are not initial standalone Problem Ledger entries.
 
 ## Wholesale import vs supplemental selection
 
@@ -54,7 +54,7 @@ Master ledgers are imported wholesale from pinned revisions. Supplemental items 
 
 ## Revision pinning and source metadata
 
-The Corpus import pipeline records revision IDs, retrieval timestamps, raw captures, normalized import records, and import reports. Imported wholesale entries remain under review until deliberately promoted into the public site projection.
+The Corpus import pipeline records revision IDs, retrieval timestamps, raw captures, normalized source-entry records, mapping records, and import reports. In v1.0 every declared source entry is promoted or explicitly merged; no mapped source entry remains hidden as an unclassified import.
 
 ## Classification after import
 

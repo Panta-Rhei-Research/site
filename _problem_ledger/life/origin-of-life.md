@@ -1,5 +1,6 @@
 ---
 layout: "problem-ledger-item"
+render_with_liquid: false
 title: "Origin of Life"
 permalink: "/program/research-agenda/problem-ledger/life/origin-of-life/"
 lane: "program"
@@ -9,7 +10,7 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Life stress-test entry: Origin of Life."
 generated_from: "corpus/problem-ledger"
-projection_version: "v0.1"
+projection_version: "v1.0"
 canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "life-origin-of-life"
@@ -41,6 +42,11 @@ source:
   license: "CC BY-SA 4.0 and GFDL"
   license_url: "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
   attribution: "Wikipedia contributors"
+  source_id: "wikipedia-unsolved-biology-1350634388"
+  source_url: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_biology"
+  source_entry_ids:
+    - "wikipedia-biology-origin-of-life"
+    - "wikipedia-biology-how-does-life-arise-from-the-non-living"
 program:
   tier: "kernel_critical"
   agenda_role: "bridge_problem"
@@ -55,20 +61,44 @@ related:
     - "result-019"
     - "result-068"
     - "result-074"
-  verify: []
+  verify:
+    - "/verify/domain-verification/life/"
   publications: []
   world_readout:
     - "world-readout-life"
+  recovery_requirements:
+    - "LREC-L0"
+    - "LREC-L2"
+    - "LREC-L3"
+    - "LREC-L4"
+    - "LREC-L5"
+  construction_steps: []
+mapping:
+  mapping_status: "promoted"
+  mapping_target: "life-origin-of-life"
+  mapped_from_source_entries:
+    - "wikipedia-biology-origin-of-life"
+    - "wikipedia-biology-how-does-life-arise-from-the-non-living"
+  merged_source_entries:
+    - "wikipedia-biology-origin-of-life"
+  excluded_source_entries: []
+  mapping_notes: "Promoted in Problem Ledger v1.0 broad public projection."
 version:
-  item_version: "0.1.0"
+  item_version: "1.0.0"
   introduced_in: "problem-ledger-v1"
   last_modified: "2026-04-25"
-  change_summary: "Seed item enriched with pinned Wikipedia source metadata."
+  change_summary: "Promoted or mapped during Problem Ledger v1.0 source-auditable release."
 tags:
   - "life"
   - "origin-of-life"
   - "abiogenesis"
   - "biology"
+search_keywords:
+  - "life"
+  - "origin-of-life"
+  - "abiogenesis"
+  - "biology"
+  - "Origin of Life"
 url: "/program/research-agenda/problem-ledger/life/origin-of-life/"
 results_mirror:
   exists: true
@@ -76,26 +106,57 @@ results_mirror:
   result_status: "partially_addressed"
   result_url: "/results/problem/abiogenesis-inevitability/"
 verify_links:
-  exists: false
-  verification_mode: ""
+  exists: true
+  verification_mode: "/verify/domain-verification/life/"
   verify_url: ""
 ---
-
-# Origin of Life
 
 ## Problem Statement
 
 The origin of life is included from the biology master ledger as a core life
 stress test.
 
+## Source
+
+Source: Wikipedia — List of unsolved problems in biology. Import rule: `wholesale_pinned_revision`. Pinned revision: `1350634388`.
+
 ## Why This Problem Is in Scope
 
-The program treats life as a domain whose reducibility cannot be assumed before
-the kernel has shown how physics-level structure can support life-level
-organization.
+This item is included because it belongs to the declared Problem Ledger source scope for Life. Import means visibility and accountable classification, not endorsement, solution, priority, or external acceptance.
+
+## Program Classification
+
+- Tier: `kernel_critical`
+- Agenda role: `bridge_problem`
+- Expressibility status: `expressible`
+- Result status: `partially_addressed`
 
 ## Current Program Stance
 
-Existing Results pages address abiogenesis and the structural possibility of
-life. The Problem Ledger records this as partial until the full source import
-and classification review are complete.
+The current program stance is `partially_addressed`.
+
+## Related Results
+
+- `result-019`
+- `result-068`
+- `result-074`
+
+## Related Corpus Items
+
+- No direct Corpus item mapped yet.
+
+## Related Verify Surfaces
+
+- /verify/domain-verification/life/
+
+## Related Recovery Requirements
+
+- `LREC-L0`
+- `LREC-L2`
+- `LREC-L3`
+- `LREC-L4`
+- `LREC-L5`
+
+## Projection Metadata
+
+Generated from `corpus/problem-ledger` as the v1.0 public projection. Update the Corpus source item and regenerate the projection rather than editing the public site copy directly.

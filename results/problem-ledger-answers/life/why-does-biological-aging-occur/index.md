@@ -1,0 +1,52 @@
+---
+layout: "program-doc"
+title: "Why does biological aging occur?"
+permalink: "/results/problem-ledger-answers/life/why-does-biological-aging-occur/"
+lane: "results"
+v2_lane: "results"
+type: "Problem Ledger Answer"
+status: "Canonical"
+summary_short: "Current Results-side stance for Why does biological aging occur?."
+canonical_problem_id: "life-biology-why-does-biological-aging-occur"
+---
+
+## Status Separation
+
+<div class="notice note"><strong>Status note.</strong> This page reports the current program stance. It does not imply external acceptance unless explicitly stated.</div>
+
+- Internal stance: **Not Yet Classified**
+- Verification route: **Pending**
+- External status: **Not externally reviewed**
+
+## Problem
+
+Why does biological aging occur?
+
+## Source
+
+- Source: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_biology
+- Import rule: `wholesale_pinned_revision`
+- Program ledger item: [life-biology-why-does-biological-aging-occur](/program/research-agenda/problem-ledger/life/why-does-biological-aging-occur/)
+
+## Current Program Stance
+
+- Result status: **Not Yet Classified**
+- Tier: `unclassified`
+- Agenda role: `stress_test`
+- Expressibility: `unknown`
+
+## Related Construction Steps
+
+- Construction Spine mapping pending.
+
+## Related Results
+
+- Dedicated Result page pending.
+
+## Verify This Answer
+
+Dedicated Verify surface pending.
+
+## What remains open
+
+Residual boundaries remain public unless a linked Result page explicitly closes them with status-marked evidence.

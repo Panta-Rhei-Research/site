@@ -6,10 +6,10 @@ lane: "results"
 v2_lane: "results"
 type: "Result Mirror"
 status: "Canonical"
-summary_short: "Current Results-side stances against public Problem Ledger seed items."
+summary_short: "Current Results-side stances against public Problem Ledger items."
 ---
 
-# Problem Ledger Answers
+## Answer Mirror
 
 > Current program stances against the open and foundational problems accepted in the Research Agenda.
 
@@ -24,7 +24,7 @@ This is the Results-side answer mirror of the Program-side Problem Ledger. It re
 {% for item in problem_domain_groups %}
   <a class="v2-tile" href="{{ '/results/problem-ledger-answers/' | append: item.name | append: '/' | relative_url }}">
     <strong>{{ item.name | replace: '-', ' ' | capitalize }}</strong>
-    <span>{{ item.items | size }} public seed item(s).</span>
+    <span>{{ item.items | size }} public problem item(s).</span>
   </a>
 {% endfor %}
 </div>

@@ -26,9 +26,16 @@ right_rail:
 
 ## Source rule
 
-Metaphysics / Philosophy uses Wikipedia's list of philosophical problems. The site does not rename that source as an unsolved-problems-in-philosophy ledger.
+Metaphysics / Philosophy uses Wikipedia's list of philosophical problems. The site does not rename that source as an unsolved-problems-in-philosophy ledger, and v1.0 records the source warning about possible unverifiable material in the Corpus source manifest.
 
-## Current seed items
+## Import Coverage
+
+<table>
+  <thead><tr><th scope="col">Source scope</th><th scope="col">Public items</th><th scope="col">Merged</th><th scope="col">Excluded</th><th scope="col">Deferred</th></tr></thead>
+  <tbody><tr><td>27</td><td>27</td><td>0</td><td>0</td><td>0</td></tr></tbody>
+</table>
+
+## Public Problem Items
 
 <div class="dep-list">
   {% for problem in items %}
@@ -39,3 +46,19 @@ Metaphysics / Philosophy uses Wikipedia's list of philosophical problems. The si
   </a>
   {% endfor %}
 </div>
+
+## Merged Source Entries
+
+_No Metaphysics / Philosophy source entries are merged in v1.0._
+
+## Excluded Source Entries
+
+_No Metaphysics / Philosophy source entries are excluded in v1.0._
+
+## Deferred Source Entries
+
+_No Metaphysics / Philosophy source entries are deferred in v1.0._
+
+## Related Results Mirror
+
+See [Problem Ledger Answers: Metaphysics / Philosophy]({{ '/results/problem-ledger-answers/metaphysics-philosophy/' | relative_url }}).

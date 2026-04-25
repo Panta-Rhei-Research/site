@@ -10,8 +10,8 @@ summary_short: "Dashboard view of the program's current public status against de
 summary_cards:
   - title: "Agenda mirror"
     body: "Aggregates public Problem Ledger and Recovery Requirement status without replacing the detailed mirrors."
-  - title: "52 public records"
-    body: "Seven Problem seed items and forty-five Recovery/Refusal items."
+  - title: "Full public ledger"
+    body: "All promoted Problem Ledger v1.0 items plus forty-five Recovery/Refusal items."
   - title: "Status discipline"
     body: "Internal progress remains separate from verification state and external acceptance."
 right_rail:

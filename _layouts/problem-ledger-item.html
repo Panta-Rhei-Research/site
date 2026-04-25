@@ -11,6 +11,7 @@ layout: default
     <span class="chip">{{ page.display_domain }}</span>
     <span class="chip">{{ page.program.tier | replace: "_", " " | capitalize }}</span>
     <span class="chip">{{ page.program.result_status | replace: "_", " " | capitalize }}</span>
+    <span class="chip">{{ page.projection_version | default: "v1.0" }}</span>
   </div>
   <h1>{{ page.title }}</h1>
   {% if page.summary_short %}
@@ -18,13 +19,15 @@ layout: default
   {% endif %}
   <div class="chip-row">
     <span class="chip">{{ page.source.source_class | replace: "_", " " | capitalize }}</span>
+    <span class="chip">{{ page.source.import_rule | replace: "_", " " | capitalize }}</span>
     <span class="chip">{{ page.program.agenda_role | replace: "_", " " | capitalize }}</span>
-    <span class="chip">{{ page.program.expressibility_status | replace: "_", " " | capitalize }}</span>
   </div>
 </header>
 
 <section class="content-card">
   <div class="prose">
+    <div class="notice note"><strong>Status note.</strong> This page records the current program classification and public projection status. It does not imply external verification, scientific acceptance, or final settlement.</div>
+
     {{ content }}
 
     <h2>Source</h2>
@@ -128,9 +131,13 @@ layout: default
       <div class="dep-link"><span class="dep-id">Item version</span><span class="dep-title">{{ page.version.item_version }}</span></div>
       <div class="dep-link"><span class="dep-id">Introduced</span><span class="dep-title">{{ page.version.introduced_in }}</span></div>
       <div class="dep-link"><span class="dep-id">Generated from</span><span class="dep-title">{{ page.generated_from }}</span></div>
-      <div class="dep-link"><span class="dep-id">Projection</span><span class="dep-title">Corpus {{ page.projection_version | default: "v0.1" }} public projection</span></div>
+      <div class="dep-link"><span class="dep-id">Projection</span><span class="dep-title">Corpus {{ page.projection_version | default: "v1.0" }} public projection</span></div>
       <div class="dep-link"><span class="dep-id">Canonical source</span><span class="dep-title">{{ page.canonical_source | default: page.generated_from }}</span></div>
       <div class="dep-link"><span class="dep-id">Edit policy</span><span class="dep-title">{% if page.do_not_edit %}Generated projection; update Corpus source, then regenerate{% else %}Editable site page{% endif %}</span></div>
+      {% if page.mapping %}
+      <div class="dep-link"><span class="dep-id">Mapping status</span><span class="dep-title">{{ page.mapping.mapping_status | replace: "_", " " }}</span></div>
+      <div class="dep-link"><span class="dep-id">Source entries</span><span class="dep-title">{{ page.source.source_entry_ids | join: ", " }}</span></div>
+      {% endif %}
     </div>
   </div>
 </section>

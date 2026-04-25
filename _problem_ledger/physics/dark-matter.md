@@ -1,5 +1,6 @@
 ---
 layout: "problem-ledger-item"
+render_with_liquid: false
 title: "Dark Matter"
 permalink: "/program/research-agenda/problem-ledger/physics/dark-matter/"
 lane: "program"
@@ -9,7 +10,7 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Physics stress-test entry: Dark Matter."
 generated_from: "corpus/problem-ledger"
-projection_version: "v0.1"
+projection_version: "v1.0"
 canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "phys-dark-matter"
@@ -41,6 +42,10 @@ source:
   license: "CC BY-SA 4.0 and GFDL"
   license_url: "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
   attribution: "Wikipedia contributors"
+  source_id: "wikipedia-unsolved-physics-1349830343"
+  source_url: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics"
+  source_entry_ids:
+    - "wikipedia-physics-dark-matter"
 program:
   tier: "kernel_critical"
   agenda_role: "stress_test"
@@ -54,20 +59,44 @@ related:
   results:
     - "result-015"
     - "result-113"
-  verify: []
+  verify:
+    - "/verify/predictions-and-falsification/"
+    - "/publications/numerical-physics-ledger/"
+    - "/verify/domain-verification/physics/"
   publications: []
   world_readout:
     - "world-readout-physics"
+  recovery_requirements:
+    - "PREC-P3"
+    - "PREC-P4"
+    - "PREC-P5"
+    - "PREC-P6"
+    - "PREC-P7"
+  construction_steps: []
+mapping:
+  mapping_status: "promoted"
+  mapping_target: "phys-dark-matter"
+  mapped_from_source_entries:
+    - "wikipedia-physics-dark-matter"
+  merged_source_entries: []
+  excluded_source_entries: []
+  mapping_notes: "Promoted in Problem Ledger v1.0 broad public projection."
 version:
-  item_version: "0.1.0"
+  item_version: "1.0.0"
   introduced_in: "problem-ledger-v1"
   last_modified: "2026-04-25"
-  change_summary: "Seed item enriched with pinned Wikipedia source metadata."
+  change_summary: "Promoted or mapped during Problem Ledger v1.0 source-auditable release."
 tags:
   - "physics"
   - "cosmology"
   - "dark-matter"
   - "particle-physics"
+search_keywords:
+  - "physics"
+  - "cosmology"
+  - "dark-matter"
+  - "particle-physics"
+  - "Dark Matter"
 url: "/program/research-agenda/problem-ledger/physics/dark-matter/"
 results_mirror:
   exists: true
@@ -75,26 +104,58 @@ results_mirror:
   result_status: "partially_addressed"
   result_url: "/results/problem/no-dark-matter-particle/"
 verify_links:
-  exists: false
-  verification_mode: ""
+  exists: true
+  verification_mode: "/verify/predictions-and-falsification/"
   verify_url: ""
 ---
-
-# Dark Matter
 
 ## Problem Statement
 
 Dark matter is included from the physics master ledger as an external open
 problem.
 
+## Source
+
+Source: Wikipedia — List of unsolved problems in physics. Import rule: `wholesale_pinned_revision`. Pinned revision: `1349830343`.
+
 ## Why This Problem Is in Scope
 
-A kernel-based model of reality must be able to express the observational
-pressure currently attributed to dark matter and distinguish structural
-explanation from hidden-particle explanation.
+This item is included because it belongs to the declared Problem Ledger source scope for Physics. Import means visibility and accountable classification, not endorsement, solution, priority, or external acceptance.
+
+## Program Classification
+
+- Tier: `kernel_critical`
+- Agenda role: `stress_test`
+- Expressibility status: `expressible`
+- Result status: `partially_addressed`
 
 ## Current Program Stance
 
-The Results mirror already contains dark-matter-facing pages. The Problem
-Ledger treats the status as partial until source-pinned import and review are
-complete.
+The current program stance is `partially_addressed`.
+
+## Related Results
+
+- `result-015`
+- `result-113`
+
+## Related Corpus Items
+
+- No direct Corpus item mapped yet.
+
+## Related Verify Surfaces
+
+- /verify/predictions-and-falsification/
+- /publications/numerical-physics-ledger/
+- /verify/domain-verification/physics/
+
+## Related Recovery Requirements
+
+- `PREC-P3`
+- `PREC-P4`
+- `PREC-P5`
+- `PREC-P6`
+- `PREC-P7`
+
+## Projection Metadata
+
+Generated from `corpus/problem-ledger` as the v1.0 public projection. Update the Corpus source item and regenerate the projection rather than editing the public site copy directly.

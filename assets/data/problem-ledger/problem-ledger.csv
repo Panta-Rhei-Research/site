@@ -1,8 +1,240 @@
 id,title,domain,status,result_status,url
+life-biology-adult-form-of-facetotecta,Adult form of Facetotecta,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/adult-form-of-facetotecta/
+life-biology-adult-form-of-planctosphaera-pelagica-a-hemichordate-known-as-of-2023-only-by-its-tornaria-larvae,"Adult form of Planctosphaera pelagica, a hemichordate known, as of 2023, only by its tornaria larvae",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/adult-form-of-planctosphaera-pelagica-a-hemichordate-known-as-of-2023-only-by-its-tornaria-larvae/
+life-biology-arthropod-head-problem,Arthropod head problem,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/arthropod-head-problem/
+life-biology-biological-homochirality,Biological homochirality,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/biological-homochirality/
+life-biology-biosynthesis,Biosynthesis,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/biosynthesis/
+life-biology-blue-whale,Blue whale,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/blue-whale/
+life-biology-brightly-colored-bird-eggs,Brightly colored bird eggs,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/brightly-colored-bird-eggs/
+life-biology-butterfly-migration,Butterfly migration,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/butterfly-migration/
+life-biology-cambrian-explosion,Cambrian explosion,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/cambrian-explosion/
+life-biology-can-developing-biological-systems-tell-the-time,Can developing biological systems tell the time?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/can-developing-biological-systems-tell-the-time/
+life-biology-cognition-and-decisions,Cognition and decisions,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/cognition-and-decisions/
+life-biology-computational-neuroscience,Computational neuroscience,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/computational-neuroscience/
+life-biology-computational-theory-of-mind,Computational theory of mind,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/computational-theory-of-mind/
 life-consciousness,Consciousness,life,canonical,partially_addressed,/program/research-agenda/problem-ledger/life/consciousness/
+life-biology-darwin-s-abominable-mystery-of-botany-plants,Darwin's abominable mystery of botany/plants,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/darwin-s-abominable-mystery-of-botany-plants/
+life-biology-decline-in-average-human-body-temperature-since-the-19th-century,Decline in average human body temperature since the 19th century,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/decline-in-average-human-body-temperature-since-the-19th-century/
+life-biology-determinants-of-cell-size,Determinants of cell size,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/determinants-of-cell-size/
+life-biology-development-and-evolution-of-the-brain,Development and evolution of the brain,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/development-and-evolution-of-the-brain/
+life-biology-diurodrilus,Diurodrilus,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/diurodrilus/
+life-biology-ediacaran-biota,Ediacaran biota,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/ediacaran-biota/
+life-biology-enzyme-kinetics,Enzyme kinetics,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/enzyme-kinetics/
+life-biology-eocyathispongia,Eocyathispongia,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/eocyathispongia/
+life-biology-existence-of-the-grafenberg-spot-g-spot,Existence of the Grafenberg spot (G-spot),life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/existence-of-the-grafenberg-spot-g-spot/
+life-biology-extinction-of-archaic-humans,Extinction of archaic humans,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/extinction-of-archaic-humans/
+life-biology-flocking-behavior,Flocking (behavior),life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/flocking-behavior/
+life-biology-forest-rings,Forest rings,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/forest-rings/
+life-biology-francevillian-biota,Francevillian biota,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/francevillian-biota/
+life-biology-free-will,Free will,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/free-will/
+life-neuroscience-free-will-particularly-the-neuroscience-of-free-will,"Free will, particularly the neuroscience of free will",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/free-will-particularly-the-neuroscience-of-free-will/
+life-biology-function-of-vanadocytes-a-type-of-blood-cells-found-in-some-tunicates,"Function of vanadocytes, a type of blood cells found in some tunicates",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/function-of-vanadocytes-a-type-of-blood-cells-found-in-some-tunicates/
+life-biology-gall-inducing-insects,Gall-inducing insects,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/gall-inducing-insects/
+life-biology-general-anaesthetic,General anaesthetic,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/general-anaesthetic/
+life-biology-glycogen-body,Glycogen body,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/glycogen-body/
+life-biology-golgi-apparatus,Golgi apparatus,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/golgi-apparatus/
+life-biology-handedness,Handedness,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/handedness/
+life-biology-heritable-components-of-homosexuality,Heritable components of homosexuality,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/heritable-components-of-homosexuality/
+life-biology-homing,Homing,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/homing/
+life-neuroscience-how-do-general-anesthetics-work,How do general anesthetics work?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/how-do-general-anesthetics-work/
+life-biology-how-do-organs-grow-to-the-correct-shape-and-size,How do organs grow to the correct shape and size?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/how-do-organs-grow-to-the-correct-shape-and-size/
+life-biology-how-is-life-related-to-mind-machines-and-culture,"How is life related to mind, machines, and culture?",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/how-is-life-related-to-mind-machines-and-culture/
+life-biology-how-will-organisms-respond-to-complex-novel-environments,"How will organisms respond to complex, novel environments?",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/how-will-organisms-respond-to-complex-novel-environments/
+life-biology-human-sex-pheromones,Human sex pheromones,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/human-sex-pheromones/
+life-biology-is-the-ecosystem-a-superorganism-or-a-collection-of-organisms,"Is the ecosystem a superorganism, or a collection of organisms?",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/is-the-ecosystem-a-superorganism-or-a-collection-of-organisms/
+life-biology-jennaria-pulchra,Jennaria pulchra,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/jennaria-pulchra/
+life-biology-korarchaeota-archaea,Korarchaeota (archaea),life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/korarchaeota-archaea/
+life-biology-language,Language,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/language/
+life-neuroscience-language-acquisition,Language acquisition,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/language-acquisition/
+life-biology-last-universal-common-ancestor,Last universal common ancestor,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/last-universal-common-ancestor/
+life-biology-laughter,Laughter,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/laughter/
+life-biology-learning-and-memory,Learning and memory,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/learning-and-memory/
+life-neuroscience-linguistic-relativity,Linguistic relativity,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/linguistic-relativity/
+life-biology-love,Love,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/love/
+life-biology-maintenance-of-sexual-reproduction,Maintenance of sexual reproduction,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/maintenance-of-sexual-reproduction/
+life-biology-mechanism-of-golgi-s-method,Mechanism of Golgi's method,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/mechanism-of-golgi-s-method/
+life-biology-mechanism-of-action-of-drugs,Mechanism of action of drugs,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/mechanism-of-action-of-drugs/
+life-biology-metabolism-in-henneguya-zschokkei-a-species-of-myxozoan,"Metabolism in Henneguya zschokkei, a species of myxozoan",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/metabolism-in-henneguya-zschokkei-a-species-of-myxozoan/
+life-biology-mitochondria-in-loriciferans-living-in-anoxic-conditions,Mitochondria in loriciferans living in anoxic conditions,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/mitochondria-in-loriciferans-living-in-anoxic-conditions/
+life-biology-morphology-problem,Morphology problem,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/morphology-problem/
+life-biology-nervous-system-of-lobatocerebrida,Nervous system of Lobatocerebrida,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/nervous-system-of-lobatocerebrida/
+life-biology-neural-computation,Neural computation,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/neural-computation/
+life-biology-neuroplasticity,Neuroplasticity,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/neuroplasticity/
+life-biology-neuropsychiatric-diseases,Neuropsychiatric diseases,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/neuropsychiatric-diseases/
+life-biology-origin-of-eukaryotes-symbiogenesis,Origin of Eukaryotes (Symbiogenesis),life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/origin-of-eukaryotes-symbiogenesis/
 life-origin-of-life,Origin of Life,life,canonical,partially_addressed,/program/research-agenda/problem-ledger/life/origin-of-life/
+life-biology-origin-of-sexual-reproduction,Origin of sexual reproduction,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/origin-of-sexual-reproduction/
+life-biology-origin-of-snakes,Origin of snakes,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/origin-of-snakes/
+life-biology-origin-of-turtles,Origin of turtles,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/origin-of-turtles/
+life-biology-origins-of-viruses-virus-world,Origins of viruses (Virus World),life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/origins-of-viruses-virus-world/
+life-biology-ovaries-of-basking-sharks,Ovaries of basking sharks,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/ovaries-of-basking-sharks/
+life-biology-paleodictyon,Paleodictyon,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/paleodictyon/
+life-biology-paradox-of-the-plankton,Paradox of the plankton,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/paradox-of-the-plankton/
+life-biology-perception,Perception,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/perception/
+life-biology-persistence-paradox,Persistence paradox,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/persistence-paradox/
+life-biology-photic-sneeze-effect,Photic sneeze effect,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/photic-sneeze-effect/
+life-neuroscience-problem-of-representation,Problem of representation,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/problem-of-representation/
+life-biology-protein-design,Protein design,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/protein-design/
+life-biology-protein-folding,Protein folding,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/protein-folding/
+life-biology-rna-folding-problem,RNA folding problem,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/rna-folding-problem/
+life-neuroscience-sleep,Sleep,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/sleep/
+life-biology-snowball-earth,Snowball Earth,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/snowball-earth/
+life-biology-star-jelly,Star jelly,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/star-jelly/
+life-biology-stegosaur-osteoderms-scutes,Stegosaur osteoderms/scutes,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/stegosaur-osteoderms-scutes/
+life-biology-taxonomic-position-of-tricholepidion-gertschi,Taxonomic position of Tricholepidion gertschi,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/taxonomic-position-of-tricholepidion-gertschi/
+life-biology-taxonomic-position-of-pentastomids,Taxonomic position of pentastomids,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/taxonomic-position-of-pentastomids/
+life-biology-the-emergence-and-evolution-of-intelligence,The emergence and evolution of intelligence,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/the-emergence-and-evolution-of-intelligence/
+life-biology-the-lipid-divide,The lipid divide,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/the-lipid-divide/
+life-biology-tullimonstrum,Tullimonstrum,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/tullimonstrum/
+life-biology-vernanimalcula-guizhouena,Vernanimalcula guizhouena,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/vernanimalcula-guizhouena/
+life-biology-what-are-the-endogenous-ligands-of-orphan-receptors,What are the endogenous ligands of orphan receptors?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/what-are-the-endogenous-ligands-of-orphan-receptors/
+life-biology-what-are-the-potentials-and-limits-of-living-systems,What are the potentials and limits of living systems?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/what-are-the-potentials-and-limits-of-living-systems/
+life-biology-what-determines-population-density,What determines population density?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/what-determines-population-density/
+life-biology-what-do-all-the-unknown-proteins-do,What do all the unknown proteins do?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/what-do-all-the-unknown-proteins-do/
+life-biology-what-is-the-mechanism-of-allosteric-transitions-of-proteins,What is the mechanism of allosteric transitions of proteins?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/what-is-the-mechanism-of-allosteric-transitions-of-proteins/
+life-biology-what-is-the-relative-importance-of-variability-across-scales-and-its-mechanisms,"What is the relative importance of variability, across scales, and its mechanisms?",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/what-is-the-relative-importance-of-variability-across-scales-and-its-mechanisms/
+life-biology-what-substance-is-endothelium-derived-hyperpolarizing-factor,What substance is endothelium-derived hyperpolarizing factor?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/what-substance-is-endothelium-derived-hyperpolarizing-factor/
+life-biology-why-are-all-leaves-the-size-they-are-and-not-an-order-of-magnitude-larger-or-smaller,"Why are all leaves the size they are, and not an order of magnitude larger or smaller?",life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/why-are-all-leaves-the-size-they-are-and-not-an-order-of-magnitude-larger-or-smaller/
+life-biology-why-are-there-blood-types-it-is-unclear-what-the-origin-and-purpose-of-having-blood-types-is,Why are there blood types? It is unclear what the origin and purpose of having blood types is,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/why-are-there-blood-types-it-is-unclear-what-the-origin-and-purpose-of-having-blood-types-is/
+life-biology-why-do-pogonomyrmex-badius-colonies-cover-the-surface-of-their-nests-with-a-circular-region-of-charcoal-pieces,Why do Pogonomyrmex badius colonies cover the surface of their nests with a circular region of charcoal pieces?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/why-do-pogonomyrmex-badius-colonies-cover-the-surface-of-their-nests-with-a-circular-region-of-charcoal-pieces/
+life-biology-why-does-biological-aging-occur,Why does biological aging occur?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/why-does-biological-aging-occur/
+life-biology-why-does-intragenotypic-variability-persist,Why does intragenotypic variability persist?,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/why-does-intragenotypic-variability-persist/
+life-biology-xenacoelomorpha,Xenacoelomorpha,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/xenacoelomorpha/
+life-biology-yawning,Yawning,life,canonical,not_yet_classified,/program/research-agenda/problem-ledger/life/yawning/
+math-birch-swinnerton-dyer-conjecture,Birch and Swinnerton-Dyer Conjecture,mathematics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/mathematics/birch-swinnerton-dyer-conjecture/
+math-hodge-conjecture,Hodge Conjecture,mathematics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/mathematics/hodge-conjecture/
 math-langlands-program,Langlands Program,mathematics,canonical,partially_addressed,/program/research-agenda/problem-ledger/mathematics/langlands-program/
+math-navier-stokes-existence-smoothness,Navier-Stokes Existence and Smoothness,mathematics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/mathematics/navier-stokes-existence-smoothness/
+math-p-vs-np,P vs NP,mathematics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/mathematics/p-vs-np/
 math-poincare-conjecture,Poincare Conjecture,mathematics,canonical,partially_addressed,/program/research-agenda/problem-ledger/mathematics/poincare-conjecture/
 math-riemann-hypothesis,Riemann Hypothesis,mathematics,canonical,partially_addressed,/program/research-agenda/problem-ledger/mathematics/riemann-hypothesis/
+math-yang-mills-existence-mass-gap,Yang-Mills Existence and Mass Gap,mathematics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/mathematics/yang-mills-existence-mass-gap/
+meta-cognition-and-ai,Cognition and AI,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/cognition-and-ai/
+meta-counterfactuals,Counterfactuals,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/counterfactuals/
+meta-demarcation-problem,Demarcation problem,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/demarcation-problem/
+meta-epistemology-of-religion,Epistemology of religion,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/epistemology-of-religion/
+meta-existence-of-god,Existence of God,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/existence-of-god/
+meta-gettier-problem,Gettier problem,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/gettier-problem/
+meta-hard-problem-of-consciousness,Hard problem of consciousness,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/hard-problem-of-consciousness/
+meta-material-implication,Material implication,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/material-implication/
+meta-mathematical-objects,Mathematical objects,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/mathematical-objects/
+meta-mindbody-problem,Mind–body problem,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/mindbody-problem/
+meta-molyneux-problem,Molyneux problem,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/molyneux-problem/
+meta-moral-knowledge,Moral knowledge,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/moral-knowledge/
+meta-moral-luck,Moral luck,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/moral-luck/
+meta-most-valuable-player-problem,Most valuable player problem,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/most-valuable-player-problem/
+meta-munchhausen-trilemma,Münchhausen trilemma,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/munchhausen-trilemma/
+meta-nature-of-god,Nature of God,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/nature-of-god/
+meta-personal-identity,Personal identity,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/personal-identity/
+meta-principle-of-individuation,Principle of individuation,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/principle-of-individuation/
+meta-problem-of-induction,Problem of induction,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/problem-of-induction/
+meta-problem-of-the-criterion,Problem of the criterion,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/problem-of-the-criterion/
+meta-problem-of-universals,Problem of universals,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/problem-of-universals/
+meta-qualia,Qualia,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/qualia/
+meta-realism,Realism,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/realism/
+meta-relationship-between-science-and-religion,Relationship between science and religion,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/relationship-between-science-and-religion/
+meta-sorites-paradox,Sorites paradox,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/sorites-paradox/
+meta-theseus-paradox,Theseus paradox,metaphysics_philosophy,canonical,not_yet_classified,/program/research-agenda/problem-ledger/metaphysics-philosophy/theseus-paradox/
 meta-why-something-rather-than-nothing,Why Is There Something Rather Than Nothing?,metaphysics_philosophy,canonical,partially_addressed,/program/research-agenda/problem-ledger/metaphysics-philosophy/why-something-rather-than-nothing/
+phys-abiogenesis,Abiogenesis,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/abiogenesis/
+phys-agemetallicity-relation-in-the-galactic-disk,Age–metallicity relation in the Galactic disk,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/agemetallicity-relation-in-the-galactic-disk/
+phys-alfvenic-turbulence,Alfvénic turbulence,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/alfvenic-turbulence/
+phys-amorphous-solids,Amorphous solids,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/amorphous-solids/
+phys-anomalous-magnetic-dipole-moment,Anomalous magnetic dipole moment,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/anomalous-magnetic-dipole-moment/
+phys-arrow-of-time-e-g-entropy-s-arrow-of-time,Arrow of time (e.g. entropy's arrow of time),physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/arrow-of-time-e-g-entropy-s-arrow-of-time/
+phys-astrophysical-jet,Astrophysical jet,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/astrophysical-jet/
+phys-ball-lightning,Ball lightning,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/ball-lightning/
+phys-black-holes-black-hole-information-paradox-and-black-hole-radiation,"Black holes, black hole information paradox, and black hole radiation",physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/black-holes-black-hole-information-paradox-and-black-hole-radiation/
+phys-color-confinement,Color confinement,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/color-confinement/
+phys-complexity-classes-problems,Complexity classes problems,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/complexity-classes-problems/
+phys-coronal-heating-problem,Coronal heating problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/coronal-heating-problem/
+phys-cosmic-inflation,Cosmic inflation,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/cosmic-inflation/
+phys-cosmological-constant-problem,Cosmological constant problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/cosmological-constant-problem/
+phys-cosmological-principle,Cosmological principle,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/cosmological-principle/
+phys-cryogenic-electron-emission,Cryogenic electron emission,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/cryogenic-electron-emission/
 phys-dark-matter,Dark Matter,physics,canonical,partially_addressed,/program/research-agenda/problem-ledger/physics/dark-matter/
+phys-dark-energy,Dark energy,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/dark-energy/
+phys-dark-flow,Dark flow,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/dark-flow/
+phys-diffuse-interstellar-bands,Diffuse interstellar bands,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/diffuse-interstellar-bands/
+phys-dimensionless-physical-constants,Dimensionless physical constants,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/dimensionless-physical-constants/
+phys-extra-dimensions,Extra dimensions,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/extra-dimensions/
+phys-fast-radio-bursts-frbs,Fast radio bursts (FRBs),physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/fast-radio-bursts-frbs/
+phys-flyby-anomaly,Flyby anomaly,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/flyby-anomaly/
+phys-fractional-hall-effect,Fractional Hall effect,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/fractional-hall-effect/
+phys-galaxy-rotation-problem,Galaxy rotation problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/galaxy-rotation-problem/
+phys-gallium-anomaly,Gallium anomaly,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/gallium-anomaly/
+phys-gauge-block-wringing,Gauge block wringing,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/gauge-block-wringing/
+phys-generations-of-matter,Generations of matter,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/generations-of-matter/
+phys-glueballs,Glueballs,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/glueballs/
+phys-grand-unification,Grand Unification,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/grand-unification/
+phys-granular-convection,Granular convection,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/granular-convection/
+phys-hierarchy-problem,Hierarchy problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/hierarchy-problem/
+phys-high-temperature-superconductivity,High-temperature superconductivity,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/high-temperature-superconductivity/
+phys-holographic-principle,Holographic principle,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/holographic-principle/
+phys-homochirality,Homochirality,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/homochirality/
+phys-horizon-problem,Horizon problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/horizon-problem/
+phys-hubble-tension,Hubble tension,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/hubble-tension/
+phys-interpretation-of-quantum-mechanics,Interpretation of quantum mechanics,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/interpretation-of-quantum-mechanics/
+phys-koide-formula,Koide formula,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/koide-formula/
+phys-kuiper-cliff,Kuiper cliff,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/kuiper-cliff/
+phys-large-scale-anisotropy,Large-scale anisotropy,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/large-scale-anisotropy/
+phys-liquid-crystals,Liquid crystals,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/liquid-crystals/
+phys-locality,Locality,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/locality/
+phys-magnetic-monopoles,Magnetic monopoles,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/magnetic-monopoles/
+phys-magnetoreception,Magnetoreception,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/magnetoreception/
+phys-matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter,Matter–antimatter asymmetry Theoretical models suggest that the early universe should have produced equal amounts of matter and antimatter,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/
+phys-metal-whiskering,Metal whiskering,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/metal-whiskering/
+phys-mu-problem,Mu problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/mu-problem/
+phys-neutrino-mass,Neutrino mass,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/neutrino-mass/
+phys-neutron-lifetime-puzzle,Neutron lifetime puzzle,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/neutron-lifetime-puzzle/
+phys-nuclei-and-nuclear-astrophysics,Nuclei and nuclear astrophysics,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/nuclei-and-nuclear-astrophysics/
+phys-origin-and-future-of-the-universe,Origin and future of the universe,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/origin-and-future-of-the-universe/
+phys-origin-of-cosmic-magnetic-fields,Origin of cosmic magnetic fields,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/origin-of-cosmic-magnetic-fields/
+phys-origin-of-magnetar-magnetic-field,Origin of magnetar magnetic field,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/origin-of-magnetar-magnetic-field/
+phys-pentaquarks-and-other-exotic-hadrons,Pentaquarks and other exotic hadrons,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/pentaquarks-and-other-exotic-hadrons/
+phys-plasma-physics-and-fusion-power,Plasma physics and fusion power,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/plasma-physics-and-fusion-power/
+phys-post-quantum-cryptography,Post-quantum cryptography,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/post-quantum-cryptography/
+phys-problem-of-time,Problem of time,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/problem-of-time/
+phys-protein-structure-prediction,Protein structure prediction,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/protein-structure-prediction/
+phys-proton-decay-and-spin-crisis,Proton decay and spin crisis,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/proton-decay-and-spin-crisis/
+phys-quantitative-study-of-the-immune-system,Quantitative study of the immune system,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantitative-study-of-the-immune-system/
+phys-quantum-biology,Quantum biology,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantum-biology/
+phys-quantum-capacity,Quantum capacity,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantum-capacity/
+phys-quantum-chromodynamics,Quantum chromodynamics,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantum-chromodynamics/
+phys-quantum-field-theory-this-is-a-generalization-of-the-previous-problem,Quantum field theory (this is a generalization of the previous problem),physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantum-field-theory-this-is-a-generalization-of-the-previous-problem/
+phys-quantum-gravity,Quantum gravity,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantum-gravity/
+phys-quantum-mind,Quantum mind,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantum-mind/
+phys-quantum-spacetime-or-the-emergence-of-spacetime,Quantum spacetime or the emergence of spacetime,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quantum-spacetime-or-the-emergence-of-spacetime/
+phys-quarkgluon-plasma,Quark–gluon plasma,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/quarkgluon-plasma/
+phys-reactor-antineutrino-anomaly,Reactor antineutrino anomaly,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/reactor-antineutrino-anomaly/
+phys-rotation-rate-of-saturn,Rotation rate of Saturn,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/rotation-rate-of-saturn/
+phys-scharnhorst-effect,Scharnhorst effect,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/scharnhorst-effect/
+phys-semiconductor-nanocrystals,Semiconductor nanocrystals,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/semiconductor-nanocrystals/
+phys-shape-of-the-universe,Shape of the universe,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/shape-of-the-universe/
+phys-size-of-universe,Size of universe,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/size-of-universe/
+phys-solar-cycle,Solar cycle,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/solar-cycle/
+phys-sonoluminescence,Sonoluminescence,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/sonoluminescence/
+phys-specific-models-of-quarkgluon-plasma-formation,Specific models of quark–gluon plasma formation,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/specific-models-of-quarkgluon-plasma-formation/
+phys-stochasticity-and-robustness-to-noise-in-gene-expression,Stochasticity and robustness to noise in gene expression,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/stochasticity-and-robustness-to-noise-in-gene-expression/
+phys-strange-matter,Strange matter,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/strange-matter/
+phys-strong-cp-problem-and-axions,Strong CP problem and axions,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/strong-cp-problem-and-axions/
+phys-superfluid-transition-in-helium-4,Superfluid transition in helium-4,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/superfluid-transition-in-helium-4/
+phys-supermassive-black-holes,Supermassive black holes,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/supermassive-black-holes/
+phys-supernovae,Supernovae,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/supernovae/
+phys-supersymmetry,Supersymmetry,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/supersymmetry/
+phys-temperature,Temperature,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/temperature/
+phys-the-qcd-vacuum,The QCD vacuum,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/the-qcd-vacuum/
+phys-the-cosmic-censorship-hypothesis-and-the-chronology-protection-conjecture,The cosmic censorship hypothesis and the chronology protection conjecture,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/the-cosmic-censorship-hypothesis-and-the-chronology-protection-conjecture/
+phys-the-injection-problem,The injection problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/the-injection-problem/
+phys-the-lithium-problem,The lithium problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/the-lithium-problem/
+phys-theory-of-everything,Theory of everything,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/theory-of-everything/
+phys-threshold-problem,Threshold problem,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/threshold-problem/
+phys-topological-order,Topological order,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/topological-order/
+phys-topological-qubits,Topological qubits,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/topological-qubits/
+phys-turbulent-flow,Turbulent flow,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/turbulent-flow/
+phys-ultra-high-energy-cosmic-ray,Ultra-high-energy cosmic ray,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/ultra-high-energy-cosmic-ray/
+phys-ultraluminous-x-ray-sources-ulxs,Ultraluminous X-ray sources (ULXs),physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/ultraluminous-x-ray-sources-ulxs/
+phys-under-what-conditions-do-smooth-solutions-exist-for-the-navierstokes-equations-which-are-the-equations-that-describe-the-flow-of-a-viscous-fluid,"Under what conditions do smooth solutions exist for the Navier–Stokes equations, which are the equations that describe the flow of a viscous fluid?",physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/under-what-conditions-do-smooth-solutions-exist-for-the-navierstokes-equations-which-are-the-equations-that-describe-the-flow-of-a-viscous-fluid/
+phys-universality-of-low-temperature-amorphous-solids,Universality of low-temperature amorphous solids,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/universality-of-low-temperature-amorphous-solids/
+phys-yangmills-theory,Yang–Mills theory,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/yangmills-theory/
+phys-p-nuclei,p-nuclei,physics,canonical,not_yet_classified,/program/research-agenda/problem-ledger/physics/p-nuclei/

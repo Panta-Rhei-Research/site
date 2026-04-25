@@ -139,7 +139,7 @@ def generate_problem_answer_pages() -> None:
     root = SITE_ROOT / "results" / "problem-ledger-answers"
     domains = sorted({item["domain_slug"] for item in problems})
 
-    root_body = """# Problem Ledger Answers
+    root_body = """## Answer Mirror
 
 > Current program stances against the open and foundational problems accepted in the Research Agenda.
 
@@ -154,7 +154,7 @@ This is the Results-side answer mirror of the Program-side Problem Ledger. It re
 {% for item in problem_domain_groups %}
   <a class="v2-tile" href="{{ '/results/problem-ledger-answers/' | append: item.name | append: '/' | relative_url }}">
     <strong>{{ item.name | replace: '-', ' ' | capitalize }}</strong>
-    <span>{{ item.items | size }} public seed item(s).</span>
+    <span>{{ item.items | size }} public problem item(s).</span>
   </a>
 {% endfor %}
 </div>
@@ -173,7 +173,7 @@ Problem source policy remains owned by the Research Agenda: [Problem Ledger Sour
             "v2_lane": "results",
             "type": "Result Mirror",
             "status": "Canonical",
-            "summary_short": "Current Results-side stances against public Problem Ledger seed items.",
+            "summary_short": "Current Results-side stances against public Problem Ledger items.",
         },
         root_body,
     )
@@ -196,7 +196,7 @@ Problem source policy remains owned by the Research Agenda: [Problem Ledger Sour
                 "status": "Canonical",
                 "summary_short": f"Current program stances for {domain_label(domain)} Problem Ledger items.",
             },
-            f"""# Problem Ledger Answers: {domain_label(domain)}
+            f"""## Status Separation
 
 <div class="notice note"><strong>Status note.</strong> These are current internal program stances unless explicitly marked otherwise.</div>
 
@@ -222,11 +222,9 @@ Problem source policy remains owned by the Research Agenda: [Problem Ledger Sour
         verify = item.get("verify_links", {})
         verify_line = f"[{verify.get('verification_mode', 'Verify surface')}]({verify.get('verify_url')})" if verify.get("verify_url") else "Dedicated Verify surface pending."
         program = item.get("program", {})
-        body = f"""# {item['title']}
+        body = f"""## Status Separation
 
 <div class="notice note"><strong>Status note.</strong> This page reports the current program stance. It does not imply external acceptance unless explicitly stated.</div>
-
-## Status Separation
 
 - Internal stance: **{result_status_label(program.get('result_status', 'not_yet_classified'))}**
 - Verification route: **{"Available" if verify.get('exists') else "Pending"}**

@@ -1,0 +1,52 @@
+---
+layout: "program-doc"
+title: "Existence of God"
+permalink: "/results/problem-ledger-answers/metaphysics-philosophy/existence-of-god/"
+lane: "results"
+v2_lane: "results"
+type: "Problem Ledger Answer"
+status: "Canonical"
+summary_short: "Current Results-side stance for Existence of God."
+canonical_problem_id: "meta-existence-of-god"
+---
+
+## Status Separation
+
+<div class="notice note"><strong>Status note.</strong> This page reports the current program stance. It does not imply external acceptance unless explicitly stated.</div>
+
+- Internal stance: **Not Yet Classified**
+- Verification route: **Pending**
+- External status: **Not externally reviewed**
+
+## Problem
+
+Existence of God
+
+## Source
+
+- Source: https://en.wikipedia.org/wiki/List_of_philosophical_problems
+- Import rule: `wholesale_pinned_revision`
+- Program ledger item: [meta-existence-of-god](/program/research-agenda/problem-ledger/metaphysics-philosophy/existence-of-god/)
+
+## Current Program Stance
+
+- Result status: **Not Yet Classified**
+- Tier: `unclassified`
+- Agenda role: `stress_test`
+- Expressibility: `unknown`
+
+## Related Construction Steps
+
+- Construction Spine mapping pending.
+
+## Related Results
+
+- Dedicated Result page pending.
+
+## Verify This Answer
+
+Dedicated Verify surface pending.
+
+## What remains open
+
+Residual boundaries remain public unless a linked Result page explicitly closes them with status-marked evidence.
