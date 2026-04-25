@@ -37,7 +37,7 @@ Ultimate questions must not be invisible to the kernel, but this page does not c
   <a class="dep-link" href="{{ item.url | relative_url }}">
     <span class="dep-id">{{ item.canonical_recovery_id }}</span>
     <span class="dep-title">{{ item.title }}</span>
-    <span class="chip" style="margin-left:auto">{{ item.verification_status | replace: "_", " " }}</span>
+    <span class="badge badge-neutral" style="margin-left:auto">{{ item.verification_status | replace: "_", " " }}</span>
   </a>
   {% endfor %}
 </div>

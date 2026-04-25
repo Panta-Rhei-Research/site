@@ -28,7 +28,7 @@ right_rail:
       url: /program/research-agenda/kernel-model-reality/ontic-status-burden/
     - title: "Corpus"
       url: /corpus/
-    - title: "Graph"
+    - title: "Corpus Graph"
       url: /corpus/graph/
     - title: "Verification Framework"
       url: /verify/verification-framework/

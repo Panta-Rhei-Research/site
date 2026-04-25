@@ -9,6 +9,8 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Metaphysics / Philosophy stress-test entry: Something Rather Than Nothing."
 generated_from: "corpus/problem-ledger"
+projection_version: "v0.1"
+canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "meta-why-something-rather-than-nothing"
 id: "meta-why-something-rather-than-nothing"

@@ -9,7 +9,7 @@ status: "Canonical"
 summary_short: "What the tau-kernel refuses to import as primitive mathematical background."
 right_rail:
   related:
-    - title: "Mathematics Recovery"
+    - title: "Mathematics Recovery Requirements"
       url: /program/research-agenda/recovery-requirements/mathematics/
     - title: "Recovery Requirements"
       url: /program/research-agenda/recovery-requirements/
@@ -37,7 +37,7 @@ These refusals do not mean that classical mathematics is meaningless or invalid.
   <a class="dep-link" href="{{ item.url | relative_url }}">
     <span class="dep-id">{{ item.canonical_recovery_id }}</span>
     <span class="dep-title">{{ item.title }}</span>
-    <span class="chip" style="margin-left:auto">{{ item.verification_status | replace: "_", " " }}</span>
+    <span class="badge {% if item.verification_status == 'not_yet_verified' %}badge-muted{% else %}badge-neutral{% endif %}" style="margin-left:auto">{{ item.verification_status | replace: "_", " " }}</span>
   </a>
   {% endfor %}
 </div>

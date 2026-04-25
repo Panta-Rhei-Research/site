@@ -87,6 +87,9 @@ layout: default
       <div class="dep-link"><span class="dep-id">Item version</span><span class="dep-title">{{ page.version.item_version }}</span></div>
       <div class="dep-link"><span class="dep-id">Introduced</span><span class="dep-title">{{ page.version.introduced_in }}</span></div>
       <div class="dep-link"><span class="dep-id">Generated from</span><span class="dep-title">{{ page.generated_from }}</span></div>
+      <div class="dep-link"><span class="dep-id">Projection</span><span class="dep-title">Corpus {{ page.projection_version | default: "v0.1" }} public projection</span></div>
+      <div class="dep-link"><span class="dep-id">Canonical source</span><span class="dep-title">{{ page.canonical_source | default: page.generated_from }}</span></div>
+      <div class="dep-link"><span class="dep-id">Edit policy</span><span class="dep-title">{% if page.do_not_edit %}Generated projection; update Corpus source, then regenerate{% else %}Editable site page{% endif %}</span></div>
     </div>
   </div>
 </section>

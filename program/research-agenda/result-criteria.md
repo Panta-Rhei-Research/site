@@ -24,7 +24,7 @@ right_rail:
       url: /results/status-and-claim-typing/
     - title: "Classifications"
       url: /results/classifications/
-    - title: "How to Audit"
+    - title: "Assessment Protocols / How to Audit"
       url: /verify/how-to-audit/
   meta:
     type: "Criteria"

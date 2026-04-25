@@ -9,6 +9,8 @@ type: "Mathematical Refusal"
 status: "canonical"
 summary_short: "Mathematics recovery ledger entry: Unqualified Theorem Transfer."
 generated_from: "corpus/recovery-requirements"
+projection_version: "v0.1"
+canonical_source: "corpus/recovery-requirements"
 do_not_edit: true
 canonical_recovery_id: "MREF-R8"
 id: "MREF-R8"

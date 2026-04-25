@@ -9,6 +9,8 @@ type: "Mathematical Refusal"
 status: "canonical"
 summary_short: "Mathematics recovery ledger entry: Completed Uncountable Totalities."
 generated_from: "corpus/recovery-requirements"
+projection_version: "v0.1"
+canonical_source: "corpus/recovery-requirements"
 do_not_edit: true
 canonical_recovery_id: "MREF-R5"
 id: "MREF-R5"

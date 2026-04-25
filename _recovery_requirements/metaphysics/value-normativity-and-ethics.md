@@ -9,6 +9,8 @@ type: "Recovery Requirement"
 status: "canonical"
 summary_short: "Metaphysics recovery ledger entry: Value, Normativity, and Ethics."
 generated_from: "corpus/recovery-requirements"
+projection_version: "v0.1"
+canonical_source: "corpus/recovery-requirements"
 do_not_edit: true
 canonical_recovery_id: "METH-R10"
 id: "METH-R10"

@@ -9,6 +9,8 @@ type: "Recovery Requirement"
 status: "canonical"
 summary_short: "Life recovery ledger entry: Morphogenesis and Development."
 generated_from: "corpus/recovery-requirements"
+projection_version: "v0.1"
+canonical_source: "corpus/recovery-requirements"
 do_not_edit: true
 canonical_recovery_id: "LREC-L6"
 id: "LREC-L6"

@@ -18,18 +18,24 @@ hero_ctas:
   - label: "Source Policy"
     url: /program/research-agenda/problem-ledger-source-policy/
     primary: true
+  - label: "Physics Ledger"
+    url: /program/research-agenda/problem-ledger/physics/
   - label: "Results Mirror"
     url: /results/problem-ledger/
 right_rail:
   related:
     - title: "Problem Ledger Source Policy"
       url: /program/research-agenda/problem-ledger-source-policy/
-    - title: "Result Criteria"
-      url: /program/research-agenda/result-criteria/
-    - title: "Problem Ledger in Results"
+    - title: "Mathematics Problem Ledger"
+      url: /program/research-agenda/problem-ledger/mathematics/
+    - title: "Physics Problem Ledger"
+      url: /program/research-agenda/problem-ledger/physics/
+    - title: "Life Problem Ledger"
+      url: /program/research-agenda/problem-ledger/life/
+    - title: "Metaphysics / Philosophy Problem Ledger"
+      url: /program/research-agenda/problem-ledger/metaphysics-philosophy/
+    - title: "Results Mirror"
       url: /results/problem-ledger/
-    - title: "Browse All Results"
-      url: /results/browse/
   meta:
     type: "Agenda Ledger"
     scope: "Program-wide"
@@ -44,6 +50,44 @@ The program should not be judged only by the claims it prefers to highlight. It 
 The Problem Ledger is the Program-side stress-test ledger. It imports or selects public problem spaces, records their source policy, and classifies whether the current framework can express, address, constrain, defer, reclassify, or reject each problem with reasons.
 
 Import is not endorsement, solution, or priority. It is a commitment to visibility.
+
+The source-policy architecture is now in place for all four agenda domains:
+
+- Mathematics: Clay 7 + Langlands as selected foundational stress tests.
+- Physics: full pinned Wikipedia physics ledger.
+- Life: full biology + neuroscience ledgers.
+- Metaphysics / Philosophy: full philosophical problems ledger.
+
+The current public projection shows seed items while the wholesale import waves remain under Corpus review. These seed items prove the end-to-end projection path: source policy -> Corpus problem item -> public agenda page -> Results mirror.
+
+## Start with the source policy
+
+<div class="v2-grid">
+  <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger-source-policy/' | relative_url }}">
+    <strong>Problem Ledger Source Policy</strong>
+    <span>The method page for source selection, pinned revisions, import rules, and promotion into public projection.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/mathematics/' | relative_url }}">
+    <strong>Mathematics Problem Ledger</strong>
+    <span>Clay 7 + Langlands as selected foundational stress tests.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/physics/' | relative_url }}">
+    <strong>Physics Problem Ledger</strong>
+    <span>The pinned physics master ledger, currently represented publicly by seed items.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/life/' | relative_url }}">
+    <strong>Life Problem Ledger</strong>
+    <span>Biology and neuroscience master ledgers, with medicine excluded from the master ledger policy.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger/metaphysics-philosophy/' | relative_url }}">
+    <strong>Metaphysics / Philosophy Problem Ledger</strong>
+    <span>The philosophical problems ledger for ontology, knowledge, mind, meaning, science, religion, and ethics.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/results/problem-ledger/' | relative_url }}">
+    <strong>Results Mirror</strong>
+    <span>Where current program answers and partial answers are mirrored against the public problem burden.</span>
+  </a>
+</div>
 
 ## Domain Ledgers
 
@@ -68,7 +112,9 @@ Import is not endorsement, solution, or priority. It is a commitment to visibili
   </a>
 </div>
 
-## Seed Items
+## Current Public Seed Items
+
+These are not the full final ledgers. They are the current public v0.1 seed projection from the Corpus problem-ledger source. The full wholesale imports will be promoted after source capture, normalization, classification, and review.
 
 <div class="dep-list">
   {% for problem in problem_items %}

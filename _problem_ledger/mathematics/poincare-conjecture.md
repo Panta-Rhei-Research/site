@@ -9,6 +9,8 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Mathematics stress-test entry: Poincare."
 generated_from: "corpus/problem-ledger"
+projection_version: "v0.1"
+canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "math-poincare-conjecture"
 id: "math-poincare-conjecture"

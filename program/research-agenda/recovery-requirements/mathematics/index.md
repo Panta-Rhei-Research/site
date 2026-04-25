@@ -42,7 +42,7 @@ These recovery targets must be read together with the [Mathematical Refusals]({{
   <a class="dep-link" href="{{ item.url | relative_url }}">
     <span class="dep-id">{{ item.canonical_recovery_id }}</span>
     <span class="dep-title">{{ item.title }}</span>
-    <span class="chip" style="margin-left:auto">{{ item.recovery_status | replace: "_", " " }}</span>
+    <span class="badge {% if item.recovery_status == 'partial' %}badge-partial{% else %}badge-neutral{% endif %}" style="margin-left:auto">{{ item.recovery_status | replace: "_", " " }}</span>
   </a>
   {% endif %}
   {% endfor %}

@@ -6,16 +6,28 @@ layout: default
 
 <article class="result-article recovery-requirement-article">
 <header class="hero-card">
+  {% assign recovery_badge_class = "badge-neutral" %}
+  {% if page.recovery_status == "partial" %}
+    {% assign recovery_badge_class = "badge-partial" %}
+  {% elsif page.recovery_status == "canonical" %}
+    {% assign recovery_badge_class = "badge-canonical" %}
+  {% elsif page.recovery_status == "not_applicable" %}
+    {% assign recovery_badge_class = "badge-muted" %}
+  {% endif %}
+  {% assign verification_badge_class = "badge-neutral" %}
+  {% if page.verification_status == "not_yet_verified" %}
+    {% assign verification_badge_class = "badge-muted" %}
+  {% endif %}
   <div class="module-eyebrow-row">
-    <span class="eyebrow">Program · Recovery Requirements</span>
-    <span class="chip">{{ page.display_domain }}</span>
-    <span class="chip">{{ page.recovery_status | replace: "_", " " | capitalize }}</span>
-    <span class="chip">{{ page.verification_status | replace: "_", " " | capitalize }}</span>
+    <span class="badge {{ recovery_badge_class }}">{{ page.recovery_status | replace: "_", " " | capitalize }}</span>
+    <span class="badge {{ verification_badge_class }}">{{ page.verification_status | replace: "_", " " | capitalize }}</span>
+    <span class="badge badge-muted">{{ page.projection_version | default: "v0.1" }} Projection</span>
   </div>
   <h1>{{ page.title }}</h1>
   {% if page.summary_short %}
   <p>{{ page.summary_short }}</p>
   {% endif %}
+  <p class="projection-note">v0.1 public projection. Item-level rationale and verification links may deepen as the Corpus projection matures.</p>
   <div class="chip-row">
     <span class="chip">{{ page.canonical_recovery_id }}</span>
     <span class="chip">{{ page.item_type | replace: "_", " " | capitalize }}</span>
@@ -86,6 +98,9 @@ layout: default
       <div class="dep-link"><span class="dep-id">Item version</span><span class="dep-title">{{ page.version.item_version }}</span></div>
       <div class="dep-link"><span class="dep-id">Introduced</span><span class="dep-title">{{ page.version.introduced_in }}</span></div>
       <div class="dep-link"><span class="dep-id">Generated from</span><span class="dep-title">{{ page.generated_from }}</span></div>
+      <div class="dep-link"><span class="dep-id">Projection</span><span class="dep-title">Corpus {{ page.projection_version | default: "v0.1" }} public projection</span></div>
+      <div class="dep-link"><span class="dep-id">Canonical source</span><span class="dep-title">{{ page.canonical_source | default: page.generated_from }}</span></div>
+      <div class="dep-link"><span class="dep-id">Edit policy</span><span class="dep-title">{% if page.do_not_edit %}Generated projection; update Corpus source, then regenerate{% else %}Editable site page{% endif %}</span></div>
     </div>
   </div>
 </section>

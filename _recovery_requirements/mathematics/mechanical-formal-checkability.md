@@ -9,6 +9,8 @@ type: "Recovery Requirement"
 status: "canonical"
 summary_short: "Mathematics recovery ledger entry: Mechanical Formal Checkability."
 generated_from: "corpus/recovery-requirements"
+projection_version: "v0.1"
+canonical_source: "corpus/recovery-requirements"
 do_not_edit: true
 canonical_recovery_id: "MREC-M0"
 id: "MREC-M0"

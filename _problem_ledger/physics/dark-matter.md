@@ -9,6 +9,8 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Physics stress-test entry: Dark Matter."
 generated_from: "corpus/problem-ledger"
+projection_version: "v0.1"
+canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "phys-dark-matter"
 id: "phys-dark-matter"

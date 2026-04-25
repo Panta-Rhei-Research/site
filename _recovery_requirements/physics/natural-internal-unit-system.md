@@ -9,6 +9,8 @@ type: "Recovery Requirement"
 status: "canonical"
 summary_short: "Physics recovery ledger entry: Natural / Internal Unit System."
 generated_from: "corpus/recovery-requirements"
+projection_version: "v0.1"
+canonical_source: "corpus/recovery-requirements"
 do_not_edit: true
 canonical_recovery_id: "PREC-P2"
 id: "PREC-P2"

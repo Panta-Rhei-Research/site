@@ -79,6 +79,7 @@ The Recovery Requirements Ledger asks whether the kernel can recover baseline st
     <span class="dep-id">{{ item.canonical_recovery_id }}</span>
     <span class="dep-title">{{ item.title }}</span>
     <span class="chip" style="margin-left:auto">{{ item.display_domain }}</span>
+    <span class="badge {% if item.recovery_status == 'partial' %}badge-partial{% elsif item.recovery_status == 'not_applicable' %}badge-muted{% else %}badge-neutral{% endif %}">{{ item.recovery_status | replace: "_", " " }}</span>
   </a>
   {% endfor %}
 </div>

@@ -197,6 +197,31 @@
   color: var(--color-brand-800);
 }
 
+.badge-neutral {
+  background: var(--lane-support-soft);
+  border-color: rgba(91, 103, 114, 0.2);
+  color: var(--color-ink-600);
+}
+
+.badge-muted {
+  background: rgba(91, 103, 114, 0.08);
+  border-color: rgba(91, 103, 114, 0.16);
+  color: var(--color-ink-500);
+}
+
+.projection-note {
+  display: inline-flex;
+  max-width: 680px;
+  margin: 0 0 14px;
+  padding: 8px 11px;
+  border: 1px solid rgba(91, 103, 114, 0.16);
+  border-radius: $radius-sm;
+  background: rgba(91, 103, 114, 0.06);
+  color: var(--color-ink-600);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
 .surface-shell,
 .surface-hero,
 .surface-card,

@@ -30,7 +30,7 @@ right_rail:
       url: /program/research-agenda/recovery-requirements/
     - title: "Result Criteria"
       url: /program/research-agenda/result-criteria/
-    - title: "How to Audit"
+    - title: "Assessment Protocols / How to Audit"
       url: /verify/how-to-audit/
   meta:
     type: "Kernel Criterion"

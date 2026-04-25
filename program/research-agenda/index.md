@@ -60,12 +60,37 @@ A serious candidate kernel must also be held against open problems: places where
 
 For this reason, the Research Agenda uses external public problem ledgers as stress tests. The goal is not to cherry-pick convenient targets, but to ask whether the kernel can express, classify, constrain, answer, defer, or reject major open problems in a principled way.
 
-| Domain | Ledger Rule | Why Included |
-|---|---|---|
-| Mathematics | Clay 7 + Langlands | Foundational stress tests for a reconstructed mathematical kernel |
-| Physics | Full Wikipedia physics list | Least controversial public stress-test domain for formalized reality-description |
-| Life | Full biology + neuroscience lists | Life and mind cannot be assumed reducible as a premise |
-| Metaphysics / Philosophy | Full philosophical problems list | Ontology, knowledge, mind, meaning, proof, ethics, and science are in scope |
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Domain</th>
+      <th scope="col">Ledger Rule</th>
+      <th scope="col">Why Included</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Mathematics</th>
+      <td>Clay 7 + Langlands</td>
+      <td>Foundational stress tests for a reconstructed mathematical kernel.</td>
+    </tr>
+    <tr>
+      <th scope="row">Physics</th>
+      <td>Full Wikipedia physics list</td>
+      <td>Least controversial public stress-test domain for formalized reality-description.</td>
+    </tr>
+    <tr>
+      <th scope="row">Life</th>
+      <td>Full biology + neuroscience lists</td>
+      <td>Life and mind cannot be assumed reducible as a premise.</td>
+    </tr>
+    <tr>
+      <th scope="row">Metaphysics / Philosophy</th>
+      <td>Full philosophical problems list</td>
+      <td>Ontology, knowledge, mind, meaning, proof, ethics, and science are in scope.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Open Problems vs Recovery Requirements
 

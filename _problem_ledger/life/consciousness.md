@@ -9,6 +9,8 @@ type: "Problem Ledger Item"
 status: "canonical"
 summary_short: "Life stress-test entry: Consciousness."
 generated_from: "corpus/problem-ledger"
+projection_version: "v0.1"
+canonical_source: "corpus/problem-ledger"
 do_not_edit: true
 canonical_problem_id: "life-consciousness"
 id: "life-consciousness"

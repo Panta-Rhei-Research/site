@@ -18,7 +18,7 @@ hero_ctas:
   - label: "Substrate Non-Deferral"
     url: /program/research-agenda/kernel-model-reality/substrate-non-deferral/
     primary: true
-  - label: "Answer Shapes"
+  - label: "Answer-Shape Requirements"
     url: /program/research-agenda/kernel-model-reality/answer-shape-requirements/
 right_rail:
   related:

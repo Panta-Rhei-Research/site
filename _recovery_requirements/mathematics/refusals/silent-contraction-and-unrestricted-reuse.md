@@ -9,6 +9,8 @@ type: "Mathematical Refusal"
 status: "canonical"
 summary_short: "Mathematics recovery ledger entry: Silent Contraction and Unrestricted Reuse."
 generated_from: "corpus/recovery-requirements"
+projection_version: "v0.1"
+canonical_source: "corpus/recovery-requirements"
 do_not_edit: true
 canonical_recovery_id: "MREF-R6"
 id: "MREF-R6"
