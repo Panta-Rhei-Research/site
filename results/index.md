@@ -45,7 +45,7 @@ right_rail:
 
 ## What Results means here
 
-This lane does not present isolated assertions. It presents answer surfaces: derivations, structural explanations, predictions, falsification points, and world readouts that are claimed to follow from the [Corpus]({{ '/corpus/' | relative_url }}).
+This lane does not present isolated assertions. It presents answer surfaces: derivations, structural explanations, classifications, and world readouts that are claimed to follow from the [Corpus]({{ '/corpus/' | relative_url }}). Prediction and falsification surfaces are linked from Results but owned by [Verify]({{ '/verify/' | relative_url }}).
 
 The intended reading order is simple:
 
@@ -94,4 +94,4 @@ The Agenda states the burden. The Corpus carries the formal build. Results shows
 - [Result Classifications]({{ '/results/classifications/' | relative_url }}) explains what kind of result each page claims to be.
 - [World Readout]({{ '/results/world-readout/' | relative_url }}) gives the domain-level picture implied by the current results.
 - [Browse All Results]({{ '/results/browse/' | relative_url }}) exposes the full catalogue.
-- [Predictions]({{ '/results/predictions/browse/' | relative_url }}) and [Falsifications]({{ '/results/falsifications/browse/' | relative_url }}) carry the sharpest empirical pressure points.
+- Related Verify surfaces carry the sharpest empirical pressure points: [Predictions]({{ '/results/predictions/browse/' | relative_url }}), [Falsification Paths]({{ '/results/falsifications/browse/' | relative_url }}), and [Prediction Timing]({{ '/results/predictions/timing/' | relative_url }}).

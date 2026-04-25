@@ -2,7 +2,10 @@
 layout: program-doc
 title: "Publications"
 lane: publications
+v2_lane: publications
 permalink: /publications/
+type: "Lane Root"
+status: "Canonical"
 summary_short: "The public release catalogue of the Panta Rhei Research Program: books, white papers, guided tours, companion papers, Research Notes, archives, and special artifacts."
 summary_cards:
   - title: "Canonical series"

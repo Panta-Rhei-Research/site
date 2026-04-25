@@ -3,6 +3,7 @@ layout: program-doc
 title: Impact
 permalink: /impact/
 lane: impact
+v2_lane: impact
 type: "Lane Root"
 status: "Conditional"
 summary_short: "If the framework holds, what could change? Conditional consequence surfaces across foundational science, applied research, education, orientation, societal coherence, and public-good deployment."

@@ -54,11 +54,11 @@
   {% include footer.html %}
 
   <!-- Search overlay -->
-  <div id="search-overlay" class="search-overlay" hidden>
+  <div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-labelledby="search-overlay-title" onclick="if (event.target === this) closeSearch()" hidden>
     <div class="search-overlay-backdrop" onclick="closeSearch()"></div>
-    <div class="search-overlay-panel glass">
+    <div class="search-overlay-panel glass" tabindex="-1" onclick="event.stopPropagation()">
       <div class="search-overlay-header">
-        <span class="search-overlay-title">Search the Site</span>
+        <span class="search-overlay-title" id="search-overlay-title">Search the Site</span>
         <button class="search-overlay-close" onclick="closeSearch()" aria-label="Close search">&times;</button>
       </div>
       <p class="search-overlay-hint">Try Hubble, prime polarity, Book V, ring axioms, consciousness, or climate.</p>
@@ -91,7 +91,7 @@
     function syncGoogleSearchLink() {
       var link = document.getElementById('search-google-link');
       if (!link) return;
-      var input = document.querySelector('#search-container input');
+      var input = document.querySelector('#search-container .pagefind-ui__search-input, #search-container input[type="search"], #search-container input[type="text"]');
       var term = input && input.value ? input.value.trim() : '';
       var query = 'site:panta-rhei.site' + (term ? ' ' + term : '');
       link.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
@@ -103,11 +103,22 @@
       if (window.toggleHamburger) window.toggleHamburger(false);
       document.getElementById('search-overlay').hidden = false;
       document.body.style.overflow = 'hidden';
-      setTimeout(function() {
-        var input = document.querySelector('#search-container input');
-        if (input) input.focus();
+      focusSearchInput(10);
+    }
+    function focusSearchInput(attemptsRemaining) {
+      var input = document.querySelector('#search-container .pagefind-ui__search-input, #search-container input[type="search"], #search-container input[type="text"]');
+      var panel = document.querySelector('.search-overlay-panel');
+      if (input) {
+        input.focus();
         syncGoogleSearchLink();
-      }, 100);
+        return;
+      }
+      if (attemptsRemaining > 0) {
+        setTimeout(function() { focusSearchInput(attemptsRemaining - 1); }, 50);
+        return;
+      }
+      if (panel) panel.focus();
+      syncGoogleSearchLink();
     }
     function closeSearch() {
       document.getElementById('search-overlay').hidden = true;
@@ -118,8 +129,26 @@
       }
     }
 
+    function trapSearchFocus(e) {
+      if (e.key !== 'Tab') return;
+      var overlay = document.getElementById('search-overlay');
+      if (!overlay || overlay.hidden) return;
+      var focusable = overlay.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])');
+      if (!focusable.length) return;
+      var first = focusable[0];
+      var last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') closeSearch();
+      trapSearchFocus(e);
       if ((e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) && !e.target.matches('input, textarea')) {
         e.preventDefault();
         openSearch();
