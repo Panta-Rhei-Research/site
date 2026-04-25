@@ -1,6 +1,6 @@
 ---
 title: "Problem Ledger v1.0"
-date: 2026-04-26
+date: 2026-04-25
 change_type: "site-release"
 summary_short: "Promoted the Research Agenda Problem Ledger from a seven-item seed projection to a full source-auditable public ledger."
 affected_lanes:
