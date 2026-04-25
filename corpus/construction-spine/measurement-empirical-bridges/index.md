@@ -97,8 +97,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThis step connects internal tau-physics to measurement, calibration, numerical predictions, observational comparison, and falsification pressure.\n\n## Why this step is required\n\nAn internally coherent physics can still fail to describe measured reality. The bridge must therefore be inspectable rather than silently assumed.\n\n## Key constructions\n\n- Unit and SI bridge.\n- Calibration and measured constants.\n- Dimensionful and dimensionless prediction surfaces.\n- Falsification paths.\n- Observational comparison."
 ---
 
-# Step 6 - Build Measurement, Prediction, and Empirical Bridges
-
 > Bridges internal tau-physics to measured reality, prediction surfaces, and falsification paths.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -185,6 +183,7 @@ This step does not treat internal coherence as empirical success. It makes empir
 
 - Prediction visibility is not the same as experimental confirmation or external acceptance.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-07`.
+- Previous: [Step 5 - Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)
+- Next: [Step 7 - Recover Life as a Structural Class](/corpus/construction-spine/recover-life/)

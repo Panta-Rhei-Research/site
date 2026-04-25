@@ -91,8 +91,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThe ninth step concerns formal systems as internal objects: ZFC-like theories, Lean-like kernels, the tau-kernel as represented object, proof as act, computation as performed process, and meta-language internalization.\n\n## Why this step is required\n\nThe program begins with a formal kernel, but self-hosting is not available at the beginning. It requires reflective symbolic structure capable of writing, interpreting, manipulating, and reasoning over formal systems as objects.\n\n## Key constructions\n\n- Formal systems as objects.\n- ZFC as object theory.\n- Lean-like proof kernels as object theories.\n- The tau-kernel as represented object.\n- Controlled self-reference."
 ---
 
-# Step 9 - Self-Host Formal Systems and the Kernel Itself
-
 > Internalizes formal systems, proof acts, computation, meta-language, and eventually the kernel itself as represented objects.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -176,6 +174,7 @@ This step must not imply that ZFC is canonical in the raw kernel. ZFC becomes ho
 
 - Self-hosting does not by itself imply final closure or universal bridge adequacy.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-10`.
+- Previous: [Step 8 - Recover Reflective Structure](/corpus/construction-spine/recover-reflective-structure/)
+- Next: [Step 10 - Test Universal Closure and Ontic Status](/corpus/construction-spine/test-ontic-closure/)

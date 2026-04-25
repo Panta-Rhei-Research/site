@@ -105,6 +105,20 @@
   align-items: stretch;
 }
 
+.v2-card-list,
+.v2-step-list {
+  padding-left: 0;
+  list-style: none;
+
+  > li {
+    margin: 0;
+  }
+
+  .v2-tile {
+    height: 100%;
+  }
+}
+
 .v2-tile {
   display: block;
   min-height: 132px;

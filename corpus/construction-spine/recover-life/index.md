@@ -90,8 +90,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThe seventh step treats life as a recoverable structural class. It asks what must hold for boundary, individuality, metabolism, heredity, reproduction, variation, evolution, morphogenesis, classification, and ecology to become intelligible inside the framework.\n\n## Why this step is required\n\nLife cannot be used as an unexplained external input if the framework claims full-stack scope. The Corpus must show how life becomes a valid structural category.\n\n## Key constructions\n\n- Life as recoverable category.\n- Boundary and individuality.\n- Metabolism and throughput.\n- Encoding and heredity.\n- Evolution, morphogenesis, classification, and ecology."
 ---
 
-# Step 7 - Recover Life as a Structural Class
-
 > Recovers life as a structural class rather than as a mere catalogue of Earth-biological instances.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -173,6 +171,7 @@ This step does not claim to solve consciousness or all biological open problems.
 
 - Life recovery does not by itself settle consciousness, subjectivity, or every biology-side open problem.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-08`.
+- Previous: [Step 6 - Build Measurement, Prediction, and Empirical Bridges](/corpus/construction-spine/measurement-empirical-bridges/)
+- Next: [Step 8 - Recover Reflective Structure](/corpus/construction-spine/recover-reflective-structure/)

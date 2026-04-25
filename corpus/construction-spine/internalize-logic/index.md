@@ -102,8 +102,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThe third step develops the categorical and logical machinery that lets the kernel become internally intelligible. It shifts the construction from objects alone toward internal representation, truth, and self-structure.\n\n## Why this step is required\n\nA kernel that remains only externally described cannot satisfy the no-externalities burden. It must begin to internalize the logic and representation by which its own objects become readable.\n\n## Key constructions\n\n- Categorical organization.\n- Internal truth and logic.\n- Yoneda-style representation.\n- Self-enrichment beginnings.\n- First self-containment mechanisms."
 ---
 
-# Step 3 - Internalize Logic and Categorical Self-Structure
-
 > Moves from external description toward internal logic, categorical organization, representation, and first self-containment structures.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -196,6 +194,7 @@ This step begins self-containment. It does not yet self-host formal systems or t
 
 - Internalization of logic does not yet self-host object theories or settle semantic bridge adequacy.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-04`.
+- Previous: [Step 2 - Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)
+- Next: [Step 4 - Identify the Physical Carrier](/corpus/construction-spine/identify-physical-carrier/)

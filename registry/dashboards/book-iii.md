@@ -24,310 +24,2132 @@ Generated: 2026-03-10
 - **No dependencies (foundational):** III.R01, III.R02, III.R03, III.R04, III.R10, III.R17, III.D106
 
 ## Part Coverage
-| Part | Objects | Formalized | Planned | N/A |
-|------|---------|------------|---------|-----|
-| 0 | 7 | 2 | 0 | 5 |
-| 1 | 15 | 13 | 0 | 2 |
-| 2 | 15 | 13 | 0 | 2 |
-| 3 | 29 | 25 | 0 | 4 |
-| 4 | 30 | 26 | 0 | 4 |
-| 5 | 32 | 27 | 0 | 5 |
-| 6 | 27 | 24 | 0 | 3 |
-| 7 | 19 | 14 | 0 | 5 |
-| 8 | 7 | 0 | 0 | 7 |
-| 9 | 43 | 29 | 0 | 14 |
-| 10 | 65 | 58 | 0 | 7 |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">Part</th>
+      <th scope="col">Objects</th>
+      <th scope="col">Formalized</th>
+      <th scope="col">Planned</th>
+      <th scope="col">N/A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">0</th>
+      <td>7</td>
+      <td>2</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>15</td>
+      <td>13</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>15</td>
+      <td>13</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>29</td>
+      <td>25</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>30</td>
+      <td>26</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>32</td>
+      <td>27</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>27</td>
+      <td>24</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>19</td>
+      <td>14</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>7</td>
+      <td>0</td>
+      <td>0</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>43</td>
+      <td>29</td>
+      <td>0</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>65</td>
+      <td>58</td>
+      <td>0</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Object List
-| ID | Type | Name | Scope | Lean |
-|----|------|------|-------|------|
-| III.D01 | definition | Hartogs Bulk Projection | tau-e | form |
-| III.R01 | remark | Naive Coordinate Picture | estab | — |
-| III.D02 | definition | Millennium-Problem Gluing Table | tau-e | — |
-| III.D03 | definition | E₁ as Gluing Principle | tau-e | form |
-| III.R02 | remark | Master Schema Preview | tau-e | — |
-| III.R03 | remark | Four-Tier Scope Discipline | estab | — |
-| III.R04 | remark | Enrichment Ladder Preview | tau-e | — |
-| III.D04 | definition | Enrichment Functor | tau-e | form |
-| III.R05 | remark | Book II Handoff | tau-e | — |
-| III.D05 | definition | Layer Template | tau-e | form |
-| III.D06 | definition | E₀ Layer (Mathematics) | tau-e | form |
-| III.D07 | definition | E₁ Layer (Physics) | tau-e | form |
-| III.D08 | definition | E₂ Layer (Computation) | conje | form |
-| III.D09 | definition | E₃ Layer (Metaphysics) | conje | form |
-| III.T01 | theorem | Non-Emptiness Theorem | tau-e | form |
-| III.T02 | theorem | Strictness Theorem | tau-e | form |
-| III.P01 | proposition | E₁ Strictness Witness | tau-e | form |
-| III.T03 | theorem | Saturation at E₃ | tau-e | form |
-| III.P02 | proposition | Functor Category Collapse | tau-e | form |
-| III.T04 | theorem | Canonical Ladder Theorem | tau-e | form |
-| III.D10 | definition | Ladder Checker | tau-e | form |
-| III.R06 | remark | Part I Export Contracts | tau-e | — |
-| III.D11 | definition | Boundary Character Space | tau-e | form |
-| III.D12 | definition | Boundary-to-Interior Functor | tau-e | form |
-| III.T05 | theorem | Sector Preservation Theorem | tau-e | form |
-| III.D13 | definition | 4+1 Sector Decomposition | tau-e | form |
-| III.D14 | definition | ω-Coupling Sector | tau-e | form |
-| III.P03 | proposition | E₁ Physical Preview | tau-e | — |
-| III.D15 | definition | Langlands₁ Reflection Bridge | tau-e | form |
-| III.T06 | theorem | Template Invariance Under Reflection | tau-e | form |
-| III.D16 | definition | Universal Operator | tau-e | form |
-| III.D17 | definition | Spectral Polarity | tau-e | form |
-| III.P04 | proposition | Balanced Sector Uniqueness | tau-e | form |
-| III.T07 | theorem | Parity Bridge Theorem | tau-e | form |
-| III.T08 | theorem | No Knobs Principle | tau-e | form |
-| III.D18 | definition | Coupling Ledger | tau-e | form |
-| III.R07 | remark | Part II Export Contracts | tau-e | — |
-| III.D19 | definition | Primorial Ladder | tau-e | form |
-| III.T09 | theorem | Primorial Cofinality | tau-e | form |
-| III.R08 | remark | Primorial Verification Principle | tau-e | — |
-| III.T10 | theorem | CRT Decomposition Theorem | tau-e | form |
-| III.D20 | definition | Reconstruction Functor | tau-e | form |
-| III.P05 | proposition | Independence of Prime-Level Actions | tau-e | form |
-| III.T11 | theorem | Constructive Hensel Lifting | tau-e | form |
-| III.D21 | definition | τ-Native Local Field | tau-e | form |
-| III.P06 | proposition | Completeness Without Topology | tau-e | form |
-| III.D22 | definition | τ-Adele Ring | tau-e | form |
-| III.T12 | theorem | Adelic Embedding Theorem | tau-e | form |
-| III.P07 | proposition | Adelic Euler Product | tau-e | form |
-| III.D23 | definition | Internal Bipolar Classifier | tau-e | form |
-| III.T13 | theorem | Label Convergence | tau-e | form |
-| III.P08 | proposition | Label-Idempotent Compatibility | tau-e | form |
-| III.T14 | theorem | Spectral Trichotomy Lemma | tau-e | form |
-| III.D24 | definition | Boundary Normal Form | tau-e | form |
-| III.T15 | theorem | B/C Non-Collapse Theorem | tau-e | form |
-| III.R09 | remark | Complete Spectral Vocabulary | tau-e | — |
-| III.R10 | remark | Coherence Checklist Template | tau-e | — |
-| III.R11 | remark | Part III Export Contracts | tau-e | — |
-| III.D25 | definition | Mutual Determination Schema | tau-e | form |
-| III.R12 | remark | Enrichment Placement Table | tau-e | — |
-| III.D26 | definition | Split-Complex Zeta ζ_τ | tau-e | form |
-| III.D27 | definition | Functional Equation Involution J | tau-e | form |
-| III.T16 | theorem | Bipolar Euler Product | tau-e | form |
-| III.D28 | definition | Lemniscate Operator H_L | estab | form |
-| III.T17 | theorem | Self-Adjointness of H_L | estab | form |
-| III.P09 | proposition | Discrete Spectrum of H_L | estab | form |
-| III.D29 | definition | Spectral Parameter Λ(s) | tau-e | form |
-| III.T18 | theorem | Spectral Correspondence Theorem | conje | form |
-| III.T19 | theorem | Critical Line Theorem | conje | form |
-| III.P10 | proposition | K5 Off-Diagonal Exclusion | tau-e | form |
-| III.D30 | definition | τ-Effective RH Statement | tau-e | form |
-| III.P11 | proposition | Primorial RH Verification Protocol | tau-e | form |
-| III.R13 | remark | Six Proof Obligations Ledger | tau-e | — |
-| III.D31 | definition | Grand GRH (τ-effective) | conje | form |
-| III.T20 | theorem | Prime Polarity Scaling Theorem | tau-e | form |
-| III.D32 | definition | L-Function as Spectral Determinant | tau-e | form |
-| III.D33 | definition | NP Witness as Canonical Address | tau-e | — |
-| III.P12 | proposition | CRT Witness Decomposition | tau-e | — |
-| III.T21 | theorem | τ-Admissibility Collapse Theorem | tau-e | — |
-| III.D34 | definition | τ-CDCL Architecture | tau-e | — |
-| III.T22 | theorem | Representation Barrier Theorem | tau-e | — |
-| III.R14 | remark | P vs NP Honest Non-Claim | estab | — |
-| III.R15 | remark | Perelman's Proof (review) | estab | — |
-| III.D35 | definition | Simply Connected in Category τ | tau-e | form |
-| III.P13 | proposition | Poincaré as Gluing Guarantee | tau-e | form |
-| III.T23 | theorem | Master Schema Theorem | tau-e | form |
-| III.R16 | remark | Part IV Export Contracts | tau-e | — |
-| III.D36 | definition | τ-Admissible Fluid Data | tau-e | form |
-| III.D37 | definition | Clopen Cylinder Domain | tau-e | form |
-| III.R17 | remark | NS Scope Boundary | tau-e | — |
-| III.D38 | definition | Fluid Sector Decomposition | tau-e | form |
-| III.D39 | definition | Defect Functional Δ | tau-e | form |
-| III.P14 | proposition | Defect Contractivity | tau-e | form |
-| III.D40 | definition | Hartogs Flow Operator | tau-e | form |
-| III.T24 | theorem | Hartogs Flow Theorem | tau-e | form |
-| III.D41 | definition | Operator Polarity Swap | tau-e | form |
-| III.T25 | theorem | Positive Regularity Theorem | tau-e | form |
-| III.D42 | definition | Stabilized ω-Germ | tau-e | form |
-| III.P15 | proposition | 3-Condition Sufficiency | tau-e | form |
-| III.R18 | remark | NS Export Contracts | tau-e | — |
-| III.D43 | definition | Strong Sector at E₁ | tau-e | form |
-| III.D44 | definition | τ-Admissible Gauge Data | tau-e | form |
-| III.P16 | proposition | NF Discreteness Lemma | tau-e | form |
-| III.T26 | theorem | τ-Gap Meta-Theorem | tau-e | form |
-| III.D45 | definition | Gap Constant Γ* | tau-e | form |
-| III.P17 | proposition | Gap Stabilization | tau-e | form |
-| III.T27 | theorem | Yang-Mills Gap Theorem | tau-e | form |
-| III.D46 | definition | Strong Defect Functional | tau-e | form |
-| III.R19 | remark | YM Export Contracts | tau-e | — |
-| III.D47 | definition | σ-Fixed Character | tau-e | form |
-| III.D48 | definition | Sector Addressability | tau-e | form |
-| III.P18 | proposition | Hodge Requires E₁ | tau-e | form |
-| III.T28 | theorem | NF-Addressability Theorem | tau-e | form |
-| III.P19 | proposition | EM Sector Verification | tau-e | form |
-| III.P20 | proposition | Sector-by-Sector Protocol | tau-e | form |
-| III.T29 | theorem | Physics Layer Assembly | tau-e | form |
-| III.R20 | remark | Part V Export Contracts | tau-e | — |
-| III.R21 | remark | Part V Coherence Summary | tau-e | — |
-| III.D57 | definition | Enrichment Functor Enr₀₁ | tau-e | form |
-| III.D58 | definition | E₁ Mutual Determination Instance | tau-e | form |
-| III.P24 | proposition | Three-Reading Equivalence at E₁ | tau-e | form |
-| III.D59 | definition | τ-Rational Point | tau-e | form |
-| III.D60 | definition | Rank as Tower Depth | tau-e | form |
-| III.P25 | proposition | Mordell-Weil Analogue | tau-e | form |
-| III.D61 | definition | Proto-Code | tau-e | form |
-| III.D62 | definition | BSD Functional | tau-e | form |
-| III.P26 | proposition | Bridgehead Proposition | tau-e | form |
-| III.T35 | theorem | BSD Coherence Theorem | tau-e | form |
-| III.P27 | proposition | BSD Three-Ingredient Proof | tau-e | form |
-| III.R25 | remark | BSD Export Contracts | tau-e | — |
-| III.D63 | definition | Automorphic-Galois Duality in τ | tau-e | form |
-| III.D64 | definition | Local Langlands Instance | tau-e | form |
-| III.P28 | proposition | Duality as Mutual Determination on ℤ² | tau-e | form |
-| III.T36 | theorem | Functoriality Theorem | tau-e | form |
-| III.T37 | theorem | Base Change-Transfer Naturality | tau-e | form |
-| III.D65 | definition | Enriched Bi-Square at E₁⁺ | tau-e | form |
-| III.T38 | theorem | Finite Factorization Pasting | tau-e | form |
-| III.T39 | theorem | Enriched Bi-Square Comparison | tau-e | form |
-| III.T40 | theorem | Enrichment Tower Assembly | tau-e | form |
-| III.R26 | remark | Part VI Export Contracts | tau-e | — |
-| III.R27 | remark | Part VI Coherence Summary | tau-e | — |
-| III.D49 | definition | E₂ Computational Agent | tau-e | form |
-| III.D50 | definition | Operational Closure | tau-e | form |
-| III.R22 | remark | Computation Cannot Live Below E₂ | tau-e | — |
-| III.D51 | definition | τ-Tower Machine | tau-e | form |
-| III.T30 | theorem | TTM τ-Nativity | tau-e | form |
-| III.D52 | definition | Observable Transition | tau-e | form |
-| III.D53 | definition | Interface Width | tau-e | form |
-| III.D54 | definition | τ-Admissibility (E₂) | tau-e | form |
-| III.T31 | theorem | Interface Width Principle | tau-e | form |
-| III.P21 | proposition | Earned Admissibility | tau-e | form |
-| III.D55 | definition | NP Witness as Canonical Address | tau-e | form |
-| III.P22 | proposition | CRT Witness Decomposition | tau-e | form |
-| III.P23 | proposition | Polynomial Refinement | tau-e | form |
-| III.D56 | definition | Computational Bi-Square | tau-e | form |
-| III.T32 | theorem | Product-Meet Collapse | tau-e | form |
-| III.T33 | theorem | τ-Admissibility Collapse | tau-e | form |
-| III.T34 | theorem | No Barrier Theorem | tau-e | form |
-| III.R23 | remark | 1st Edition Error Diagnosis | tau-e | — |
-| III.R24 | remark | Part IX Export Contracts | tau-e | — |
-| III.D66 | definition | Complete Dependency Chain | tau-e | form |
-| III.P29 | proposition | Chain Verification Protocol | tau-e | form |
-| III.T41 | theorem | Hinge Theorem | tau-e | form |
-| III.P30 | proposition | Sector Instantiation Lemma | tau-e | form |
-| III.R28 | remark | Export Contracts: Books IV-VII | tau-e | — |
-| III.R29 | remark | Binding Conditions | tau-e | — |
-| III.T42 | theorem | No Knobs Theorem | tau-e | form |
-| III.R30 | remark | Master Schema Summary | tau-e | — |
-| III.R31 | remark | Results Inventory | tau-e | — |
-| III.D67 | definition | ZFC as E₂ VM | tau-e | form |
-| III.D68 | definition | Gödel Numbering as NF Address | tau-e | form |
-| III.D69 | definition | Five Forbidden Moves | tau-e | form |
-| III.T43 | theorem | Move-Bridge Correspondence | tau-e | form |
-| III.T44 | theorem | Incompleteness as VM Boundary | tau-e | form |
-| III.D70 | definition | Host-Level Property | tau-e | form |
-| III.D71 | definition | Bridge Axiom | conje | form |
-| III.D72 | definition | Shadow Diagram | conje | form |
-| III.T45 | theorem | RH Bridge Three-Layer Structure | conje | form |
-| III.T46 | theorem | Bridge Ledger | conje | form |
-| III.R32 | remark | P vs NP Bridge Break | tau-e | — |
-| III.R33 | remark | Poincaré Established | estab | — |
-| III.T47 | theorem | Honest Claim Theorem | tau-e | form |
-| III.R34 | remark | Bridge Settlement Criteria | conje | — |
-| III.D73 | definition | Proof Theory as E₃ | tau-e | form |
-| III.D74 | definition | Diagrammatic Sector of E₃ | tau-e | form |
-| III.D75 | definition | E₂→E₃ Boundary Crossing | tau-e | form |
-| III.T48 | theorem | Four Paradox Diagnostic | tau-e | form |
-| III.T49 | theorem | Applied Saturation | tau-e | form |
-| III.P31 | proposition | Terminal Level Characterization | tau-e | form |
-| III.R35 | remark | Architecture of Reality | metap | — |
-| III.R36 | remark | Book III Coherence Certificate | tau-e | — |
-| III.R37 | remark | Eight Guarantees Ledger (Earned) | tau-e | — |
-| III.T50 | theorem | Global Cartesian Gluing Theorem | tau-e | — |
-| III.D76 | definition | Minkowski Extension | tau-e | — |
-| III.R38 | remark | E₁ Complete | tau-e | — |
-| III.R39 | remark | Export Contracts to Books IV-V | tau-e | — |
-| III.R40 | remark | Temporal-Spatial Decomposition | tau-e | — |
-| III.R41 | remark | Light Cone Consistency | conje | — |
-| III.D77 | definition | Physical E₂ Agent | tau-e | — |
-| III.T51 | theorem | Physical Admissibility Theorem | tau-e | — |
-| III.T52 | theorem | Physical P=NP | tau-e | — |
-| III.R42 | remark | Coherence Horizon | conje | — |
-| III.D78 | definition | τ-Native Abstract Turing Machine | tau-e | — |
-| III.T53 | theorem | Universal Admissibility Theorem | tau-e | — |
-| III.R43 | remark | Actual vs Potential Infinity | tau-e | — |
-| III.D79 | definition | Physical Realizability Predicate | conje | — |
-| III.R44 | remark | The Gödel Analogy | conje | — |
-| III.R45 | remark | The Complete P vs NP Landscape | conje | — |
-| III.R46 | remark | The Independence Prediction | conje | — |
-| III.D80 | definition | q-Expansion Coefficients | estab | form |
-| III.T54 | theorem | Confinement Bridge Identity | tau-e | form |
-| III.T55 | theorem | S-Duality Transport | estab | form |
-| III.P32 | proposition | Bridge Algebraic Reduction | estab | form |
-| III.D81 | definition | Spectral Projector | tau-e | form |
-| III.D82 | definition | Spectral Measure | tau-e | form |
-| III.T56 | theorem | Parseval Identity | tau-e | form |
-| III.P33 | proposition | Spectral Resolution | tau-e | form |
-| III.D83 | definition | Kleene Fixed Point | tau-e | form |
-| III.D84 | definition | E₂ Orbit Structure | tau-e | form |
-| III.T57 | theorem | Operational Closure | tau-e | form |
-| III.P34 | proposition | E₂ ⊋ E₁ Strict Witness | tau-e | form |
-| III.D85 | definition | Self-Referential Fixed Point | tau-e | form |
-| III.D86 | definition | Paradox Absorption Map | tau-e | form |
-| III.T58 | theorem | E₃ Self-Model Completeness | tau-e | form |
-| III.P35 | proposition | Saturation Semantics | tau-e | form |
-| III.D87 | definition | Arithmetic Translation Functor | tau-e | form |
-| III.D88 | definition | CRT-Integer Correspondence | estab | form |
-| III.T59 | theorem | Arithmetic Faithfulness | estab | form |
-| III.P36 | proposition | Arithmetic Preserves Operations | estab | form |
-| III.D89 | definition | Topological Translation Functor | tau-e | form |
-| III.D90 | definition | Dimension Recovery | estab | form |
-| III.T60 | theorem | Topological Faithfulness | tau-e | form |
-| III.P37 | proposition | Boundary Restriction | estab | form |
-| III.D91 | definition | Obstruction Cocycle | tau-e | form |
-| III.D92 | definition | Forbidden Move Obstruction Classes | tau-e | form |
-| III.T61 | theorem | Translation Failure Boundary | tau-e | form |
-| III.P38 | proposition | P vs NP as Polynomial Translation Obstruction | tau-e | form |
-| III.D93 | definition | RH Spectral Gap Characterization | tau-e | form |
-| III.D94 | definition | YM Mass Gap Persistence | tau-e | form |
-| III.T62 | theorem | NS Flow Causal Arrow | tau-e | form |
-| III.T63 | theorem | P vs NP Forbidden Triple | tau-e | form |
-| III.P39 | proposition | Bridge Ledger Completeness | tau-e | form |
-| III.D95 | definition | Goldbach Representation | tau-e | form |
-| III.D96 | definition | Twin Prime Distribution | tau-e | form |
-| III.T64 | theorem | Goldbach at Primorial Levels | tau-e | form |
-| III.P40 | proposition | Additive-Multiplicative Duality | tau-e | form |
-| III.D97 | definition | Radical Function | estab | form |
-| III.D98 | definition | ABC Quality | tau-e | form |
-| III.T65 | theorem | ABC at Primorial Levels | tau-e | form |
-| III.P41 | proposition | Radical-Primorial Identity | estab | form |
-| III.D99 | definition | Eratosthenes Sieve | estab | form |
-| III.D100 | definition | Sieve Prime Count | estab | form |
-| III.D101 | definition | Brun Sieve Count | estab | form |
-| III.T66 | theorem | Sieve Correctness | estab | form |
-| III.T67 | theorem | Sieve-Tower Compatibility | estab | form |
-| III.P42 | proposition | Sieve-CRT Compatibility | estab | form |
-| III.D102 | definition | Sieve-Accelerated Goldbach | tau-e | form |
-| III.D103 | definition | Partition Count at Primorial | tau-e | form |
-| III.D104 | definition | Goldbach Obstruction | tau-e | form |
-| III.T68 | theorem | Goldbach Verified to 500 | tau-e | form |
-| III.T69 | theorem | Goldbach at Primorial M₄ | tau-e | form |
-| III.T70 | theorem | Partition Growth | tau-e | form |
-| III.T71 | theorem | Obstruction Bounded | tau-e | form |
-| III.P43 | proposition | CRT-Goldbach Duality | tau-e | form |
-| III.P44 | proposition | Goldbach Gap Characterization | estab | form |
-| III.D105 | definition | Twin Prime Sieve Count | tau-e | form |
-| III.D106 | definition | Hardy-Littlewood Constant | estab | form |
-| III.D107 | definition | CRT Twin Admissibility | tau-e | form |
-| III.T72 | theorem | Twin Primes to 500 | tau-e | form |
-| III.T73 | theorem | Twin Density Primorial | tau-e | form |
-| III.T74 | theorem | HL Constant Convergence | estab | form |
-| III.T75 | theorem | CRT Admissible Positive | tau-e | form |
-| III.P45 | proposition | Twin Admissibility Fraction | estab | form |
-| III.P46 | proposition | Twin Gap Characterization | estab | form |
-| III.D108 | definition | Sieve-Accelerated ABC | tau-e | form |
-| III.D109 | definition | High Quality Count | tau-e | form |
-| III.D110 | definition | Squarefree ABC Check | tau-e | form |
-| III.T76 | theorem | ABC Quality 100 | tau-e | form |
-| III.T77 | theorem | Squarefree Dominance | tau-e | form |
-| III.T78 | theorem | Radical Primorial 5 | estab | form |
-| III.P47 | proposition | Squarefree Dominance Theorem | estab | form |
-| III.P48 | proposition | ABC Gap Characterization | estab | form |
-| III.D111 | definition | Tower Decidable Check | tau-e | form |
-| III.D112 | definition | Gap Type | estab | form |
-| III.D113 | definition | Forbidden Move Mapping | estab | form |
-| III.T79 | theorem | Tower Finite Decidable | tau-e | form |
-| III.T80 | theorem | Bridge Necessary Insufficient | estab | form |
-| III.R47 | remark | Classical Comparison | estab | — |
-| III.R48 | remark | Honest Conclusion | estab | — |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Type</th>
+      <th scope="col">Name</th>
+      <th scope="col">Scope</th>
+      <th scope="col">Lean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">III.D01</th>
+      <td>definition</td>
+      <td>Hartogs Bulk Projection</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R01</th>
+      <td>remark</td>
+      <td>Naive Coordinate Picture</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D02</th>
+      <td>definition</td>
+      <td>Millennium-Problem Gluing Table</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D03</th>
+      <td>definition</td>
+      <td>E₁ as Gluing Principle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R02</th>
+      <td>remark</td>
+      <td>Master Schema Preview</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R03</th>
+      <td>remark</td>
+      <td>Four-Tier Scope Discipline</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R04</th>
+      <td>remark</td>
+      <td>Enrichment Ladder Preview</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D04</th>
+      <td>definition</td>
+      <td>Enrichment Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R05</th>
+      <td>remark</td>
+      <td>Book II Handoff</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D05</th>
+      <td>definition</td>
+      <td>Layer Template</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D06</th>
+      <td>definition</td>
+      <td>E₀ Layer (Mathematics)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D07</th>
+      <td>definition</td>
+      <td>E₁ Layer (Physics)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D08</th>
+      <td>definition</td>
+      <td>E₂ Layer (Computation)</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D09</th>
+      <td>definition</td>
+      <td>E₃ Layer (Metaphysics)</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T01</th>
+      <td>theorem</td>
+      <td>Non-Emptiness Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T02</th>
+      <td>theorem</td>
+      <td>Strictness Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P01</th>
+      <td>proposition</td>
+      <td>E₁ Strictness Witness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T03</th>
+      <td>theorem</td>
+      <td>Saturation at E₃</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P02</th>
+      <td>proposition</td>
+      <td>Functor Category Collapse</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T04</th>
+      <td>theorem</td>
+      <td>Canonical Ladder Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D10</th>
+      <td>definition</td>
+      <td>Ladder Checker</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R06</th>
+      <td>remark</td>
+      <td>Part I Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D11</th>
+      <td>definition</td>
+      <td>Boundary Character Space</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D12</th>
+      <td>definition</td>
+      <td>Boundary-to-Interior Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T05</th>
+      <td>theorem</td>
+      <td>Sector Preservation Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D13</th>
+      <td>definition</td>
+      <td>4+1 Sector Decomposition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D14</th>
+      <td>definition</td>
+      <td>ω-Coupling Sector</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P03</th>
+      <td>proposition</td>
+      <td>E₁ Physical Preview</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D15</th>
+      <td>definition</td>
+      <td>Langlands₁ Reflection Bridge</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T06</th>
+      <td>theorem</td>
+      <td>Template Invariance Under Reflection</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D16</th>
+      <td>definition</td>
+      <td>Universal Operator</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D17</th>
+      <td>definition</td>
+      <td>Spectral Polarity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P04</th>
+      <td>proposition</td>
+      <td>Balanced Sector Uniqueness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T07</th>
+      <td>theorem</td>
+      <td>Parity Bridge Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T08</th>
+      <td>theorem</td>
+      <td>No Knobs Principle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D18</th>
+      <td>definition</td>
+      <td>Coupling Ledger</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R07</th>
+      <td>remark</td>
+      <td>Part II Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D19</th>
+      <td>definition</td>
+      <td>Primorial Ladder</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T09</th>
+      <td>theorem</td>
+      <td>Primorial Cofinality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R08</th>
+      <td>remark</td>
+      <td>Primorial Verification Principle</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T10</th>
+      <td>theorem</td>
+      <td>CRT Decomposition Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D20</th>
+      <td>definition</td>
+      <td>Reconstruction Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P05</th>
+      <td>proposition</td>
+      <td>Independence of Prime-Level Actions</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T11</th>
+      <td>theorem</td>
+      <td>Constructive Hensel Lifting</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D21</th>
+      <td>definition</td>
+      <td>τ-Native Local Field</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P06</th>
+      <td>proposition</td>
+      <td>Completeness Without Topology</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D22</th>
+      <td>definition</td>
+      <td>τ-Adele Ring</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T12</th>
+      <td>theorem</td>
+      <td>Adelic Embedding Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P07</th>
+      <td>proposition</td>
+      <td>Adelic Euler Product</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D23</th>
+      <td>definition</td>
+      <td>Internal Bipolar Classifier</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T13</th>
+      <td>theorem</td>
+      <td>Label Convergence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P08</th>
+      <td>proposition</td>
+      <td>Label-Idempotent Compatibility</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T14</th>
+      <td>theorem</td>
+      <td>Spectral Trichotomy Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D24</th>
+      <td>definition</td>
+      <td>Boundary Normal Form</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T15</th>
+      <td>theorem</td>
+      <td>B/C Non-Collapse Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R09</th>
+      <td>remark</td>
+      <td>Complete Spectral Vocabulary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R10</th>
+      <td>remark</td>
+      <td>Coherence Checklist Template</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R11</th>
+      <td>remark</td>
+      <td>Part III Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D25</th>
+      <td>definition</td>
+      <td>Mutual Determination Schema</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R12</th>
+      <td>remark</td>
+      <td>Enrichment Placement Table</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D26</th>
+      <td>definition</td>
+      <td>Split-Complex Zeta ζ_τ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D27</th>
+      <td>definition</td>
+      <td>Functional Equation Involution J</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T16</th>
+      <td>theorem</td>
+      <td>Bipolar Euler Product</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D28</th>
+      <td>definition</td>
+      <td>Lemniscate Operator H_L</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T17</th>
+      <td>theorem</td>
+      <td>Self-Adjointness of H_L</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P09</th>
+      <td>proposition</td>
+      <td>Discrete Spectrum of H_L</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D29</th>
+      <td>definition</td>
+      <td>Spectral Parameter Λ(s)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T18</th>
+      <td>theorem</td>
+      <td>Spectral Correspondence Theorem</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T19</th>
+      <td>theorem</td>
+      <td>Critical Line Theorem</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P10</th>
+      <td>proposition</td>
+      <td>K5 Off-Diagonal Exclusion</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D30</th>
+      <td>definition</td>
+      <td>τ-Effective RH Statement</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P11</th>
+      <td>proposition</td>
+      <td>Primorial RH Verification Protocol</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R13</th>
+      <td>remark</td>
+      <td>Six Proof Obligations Ledger</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D31</th>
+      <td>definition</td>
+      <td>Grand GRH (τ-effective)</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T20</th>
+      <td>theorem</td>
+      <td>Prime Polarity Scaling Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D32</th>
+      <td>definition</td>
+      <td>L-Function as Spectral Determinant</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D33</th>
+      <td>definition</td>
+      <td>NP Witness as Canonical Address</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P12</th>
+      <td>proposition</td>
+      <td>CRT Witness Decomposition</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T21</th>
+      <td>theorem</td>
+      <td>τ-Admissibility Collapse Theorem</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D34</th>
+      <td>definition</td>
+      <td>τ-CDCL Architecture</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T22</th>
+      <td>theorem</td>
+      <td>Representation Barrier Theorem</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R14</th>
+      <td>remark</td>
+      <td>P vs NP Honest Non-Claim</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R15</th>
+      <td>remark</td>
+      <td>Perelman's Proof (review)</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D35</th>
+      <td>definition</td>
+      <td>Simply Connected in Category τ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P13</th>
+      <td>proposition</td>
+      <td>Poincaré as Gluing Guarantee</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T23</th>
+      <td>theorem</td>
+      <td>Master Schema Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R16</th>
+      <td>remark</td>
+      <td>Part IV Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D36</th>
+      <td>definition</td>
+      <td>τ-Admissible Fluid Data</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D37</th>
+      <td>definition</td>
+      <td>Clopen Cylinder Domain</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R17</th>
+      <td>remark</td>
+      <td>NS Scope Boundary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D38</th>
+      <td>definition</td>
+      <td>Fluid Sector Decomposition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D39</th>
+      <td>definition</td>
+      <td>Defect Functional Δ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P14</th>
+      <td>proposition</td>
+      <td>Defect Contractivity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D40</th>
+      <td>definition</td>
+      <td>Hartogs Flow Operator</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T24</th>
+      <td>theorem</td>
+      <td>Hartogs Flow Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D41</th>
+      <td>definition</td>
+      <td>Operator Polarity Swap</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T25</th>
+      <td>theorem</td>
+      <td>Positive Regularity Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D42</th>
+      <td>definition</td>
+      <td>Stabilized ω-Germ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P15</th>
+      <td>proposition</td>
+      <td>3-Condition Sufficiency</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R18</th>
+      <td>remark</td>
+      <td>NS Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D43</th>
+      <td>definition</td>
+      <td>Strong Sector at E₁</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D44</th>
+      <td>definition</td>
+      <td>τ-Admissible Gauge Data</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P16</th>
+      <td>proposition</td>
+      <td>NF Discreteness Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T26</th>
+      <td>theorem</td>
+      <td>τ-Gap Meta-Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D45</th>
+      <td>definition</td>
+      <td>Gap Constant Γ*</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P17</th>
+      <td>proposition</td>
+      <td>Gap Stabilization</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T27</th>
+      <td>theorem</td>
+      <td>Yang-Mills Gap Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D46</th>
+      <td>definition</td>
+      <td>Strong Defect Functional</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R19</th>
+      <td>remark</td>
+      <td>YM Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D47</th>
+      <td>definition</td>
+      <td>σ-Fixed Character</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D48</th>
+      <td>definition</td>
+      <td>Sector Addressability</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P18</th>
+      <td>proposition</td>
+      <td>Hodge Requires E₁</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T28</th>
+      <td>theorem</td>
+      <td>NF-Addressability Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P19</th>
+      <td>proposition</td>
+      <td>EM Sector Verification</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P20</th>
+      <td>proposition</td>
+      <td>Sector-by-Sector Protocol</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T29</th>
+      <td>theorem</td>
+      <td>Physics Layer Assembly</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R20</th>
+      <td>remark</td>
+      <td>Part V Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R21</th>
+      <td>remark</td>
+      <td>Part V Coherence Summary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D57</th>
+      <td>definition</td>
+      <td>Enrichment Functor Enr₀₁</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D58</th>
+      <td>definition</td>
+      <td>E₁ Mutual Determination Instance</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P24</th>
+      <td>proposition</td>
+      <td>Three-Reading Equivalence at E₁</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D59</th>
+      <td>definition</td>
+      <td>τ-Rational Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D60</th>
+      <td>definition</td>
+      <td>Rank as Tower Depth</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P25</th>
+      <td>proposition</td>
+      <td>Mordell-Weil Analogue</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D61</th>
+      <td>definition</td>
+      <td>Proto-Code</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D62</th>
+      <td>definition</td>
+      <td>BSD Functional</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P26</th>
+      <td>proposition</td>
+      <td>Bridgehead Proposition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T35</th>
+      <td>theorem</td>
+      <td>BSD Coherence Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P27</th>
+      <td>proposition</td>
+      <td>BSD Three-Ingredient Proof</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R25</th>
+      <td>remark</td>
+      <td>BSD Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D63</th>
+      <td>definition</td>
+      <td>Automorphic-Galois Duality in τ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D64</th>
+      <td>definition</td>
+      <td>Local Langlands Instance</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P28</th>
+      <td>proposition</td>
+      <td>Duality as Mutual Determination on ℤ²</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T36</th>
+      <td>theorem</td>
+      <td>Functoriality Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T37</th>
+      <td>theorem</td>
+      <td>Base Change-Transfer Naturality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D65</th>
+      <td>definition</td>
+      <td>Enriched Bi-Square at E₁⁺</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T38</th>
+      <td>theorem</td>
+      <td>Finite Factorization Pasting</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T39</th>
+      <td>theorem</td>
+      <td>Enriched Bi-Square Comparison</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T40</th>
+      <td>theorem</td>
+      <td>Enrichment Tower Assembly</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R26</th>
+      <td>remark</td>
+      <td>Part VI Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R27</th>
+      <td>remark</td>
+      <td>Part VI Coherence Summary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D49</th>
+      <td>definition</td>
+      <td>E₂ Computational Agent</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D50</th>
+      <td>definition</td>
+      <td>Operational Closure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R22</th>
+      <td>remark</td>
+      <td>Computation Cannot Live Below E₂</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D51</th>
+      <td>definition</td>
+      <td>τ-Tower Machine</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T30</th>
+      <td>theorem</td>
+      <td>TTM τ-Nativity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D52</th>
+      <td>definition</td>
+      <td>Observable Transition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D53</th>
+      <td>definition</td>
+      <td>Interface Width</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D54</th>
+      <td>definition</td>
+      <td>τ-Admissibility (E₂)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T31</th>
+      <td>theorem</td>
+      <td>Interface Width Principle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P21</th>
+      <td>proposition</td>
+      <td>Earned Admissibility</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D55</th>
+      <td>definition</td>
+      <td>NP Witness as Canonical Address</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P22</th>
+      <td>proposition</td>
+      <td>CRT Witness Decomposition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P23</th>
+      <td>proposition</td>
+      <td>Polynomial Refinement</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D56</th>
+      <td>definition</td>
+      <td>Computational Bi-Square</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T32</th>
+      <td>theorem</td>
+      <td>Product-Meet Collapse</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T33</th>
+      <td>theorem</td>
+      <td>τ-Admissibility Collapse</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T34</th>
+      <td>theorem</td>
+      <td>No Barrier Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R23</th>
+      <td>remark</td>
+      <td>1st Edition Error Diagnosis</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R24</th>
+      <td>remark</td>
+      <td>Part IX Export Contracts</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D66</th>
+      <td>definition</td>
+      <td>Complete Dependency Chain</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P29</th>
+      <td>proposition</td>
+      <td>Chain Verification Protocol</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T41</th>
+      <td>theorem</td>
+      <td>Hinge Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P30</th>
+      <td>proposition</td>
+      <td>Sector Instantiation Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R28</th>
+      <td>remark</td>
+      <td>Export Contracts: Books IV-VII</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R29</th>
+      <td>remark</td>
+      <td>Binding Conditions</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T42</th>
+      <td>theorem</td>
+      <td>No Knobs Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R30</th>
+      <td>remark</td>
+      <td>Master Schema Summary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R31</th>
+      <td>remark</td>
+      <td>Results Inventory</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D67</th>
+      <td>definition</td>
+      <td>ZFC as E₂ VM</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D68</th>
+      <td>definition</td>
+      <td>Gödel Numbering as NF Address</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D69</th>
+      <td>definition</td>
+      <td>Five Forbidden Moves</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T43</th>
+      <td>theorem</td>
+      <td>Move-Bridge Correspondence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T44</th>
+      <td>theorem</td>
+      <td>Incompleteness as VM Boundary</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D70</th>
+      <td>definition</td>
+      <td>Host-Level Property</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D71</th>
+      <td>definition</td>
+      <td>Bridge Axiom</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D72</th>
+      <td>definition</td>
+      <td>Shadow Diagram</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T45</th>
+      <td>theorem</td>
+      <td>RH Bridge Three-Layer Structure</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T46</th>
+      <td>theorem</td>
+      <td>Bridge Ledger</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R32</th>
+      <td>remark</td>
+      <td>P vs NP Bridge Break</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R33</th>
+      <td>remark</td>
+      <td>Poincaré Established</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T47</th>
+      <td>theorem</td>
+      <td>Honest Claim Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R34</th>
+      <td>remark</td>
+      <td>Bridge Settlement Criteria</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D73</th>
+      <td>definition</td>
+      <td>Proof Theory as E₃</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D74</th>
+      <td>definition</td>
+      <td>Diagrammatic Sector of E₃</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D75</th>
+      <td>definition</td>
+      <td>E₂→E₃ Boundary Crossing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T48</th>
+      <td>theorem</td>
+      <td>Four Paradox Diagnostic</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T49</th>
+      <td>theorem</td>
+      <td>Applied Saturation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P31</th>
+      <td>proposition</td>
+      <td>Terminal Level Characterization</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R35</th>
+      <td>remark</td>
+      <td>Architecture of Reality</td>
+      <td>metap</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R36</th>
+      <td>remark</td>
+      <td>Book III Coherence Certificate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R37</th>
+      <td>remark</td>
+      <td>Eight Guarantees Ledger (Earned)</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T50</th>
+      <td>theorem</td>
+      <td>Global Cartesian Gluing Theorem</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D76</th>
+      <td>definition</td>
+      <td>Minkowski Extension</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R38</th>
+      <td>remark</td>
+      <td>E₁ Complete</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R39</th>
+      <td>remark</td>
+      <td>Export Contracts to Books IV-V</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R40</th>
+      <td>remark</td>
+      <td>Temporal-Spatial Decomposition</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R41</th>
+      <td>remark</td>
+      <td>Light Cone Consistency</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D77</th>
+      <td>definition</td>
+      <td>Physical E₂ Agent</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T51</th>
+      <td>theorem</td>
+      <td>Physical Admissibility Theorem</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T52</th>
+      <td>theorem</td>
+      <td>Physical P=NP</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R42</th>
+      <td>remark</td>
+      <td>Coherence Horizon</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D78</th>
+      <td>definition</td>
+      <td>τ-Native Abstract Turing Machine</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T53</th>
+      <td>theorem</td>
+      <td>Universal Admissibility Theorem</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R43</th>
+      <td>remark</td>
+      <td>Actual vs Potential Infinity</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D79</th>
+      <td>definition</td>
+      <td>Physical Realizability Predicate</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R44</th>
+      <td>remark</td>
+      <td>The Gödel Analogy</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R45</th>
+      <td>remark</td>
+      <td>The Complete P vs NP Landscape</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R46</th>
+      <td>remark</td>
+      <td>The Independence Prediction</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D80</th>
+      <td>definition</td>
+      <td>q-Expansion Coefficients</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T54</th>
+      <td>theorem</td>
+      <td>Confinement Bridge Identity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T55</th>
+      <td>theorem</td>
+      <td>S-Duality Transport</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P32</th>
+      <td>proposition</td>
+      <td>Bridge Algebraic Reduction</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D81</th>
+      <td>definition</td>
+      <td>Spectral Projector</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D82</th>
+      <td>definition</td>
+      <td>Spectral Measure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T56</th>
+      <td>theorem</td>
+      <td>Parseval Identity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P33</th>
+      <td>proposition</td>
+      <td>Spectral Resolution</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D83</th>
+      <td>definition</td>
+      <td>Kleene Fixed Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D84</th>
+      <td>definition</td>
+      <td>E₂ Orbit Structure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T57</th>
+      <td>theorem</td>
+      <td>Operational Closure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P34</th>
+      <td>proposition</td>
+      <td>E₂ ⊋ E₁ Strict Witness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D85</th>
+      <td>definition</td>
+      <td>Self-Referential Fixed Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D86</th>
+      <td>definition</td>
+      <td>Paradox Absorption Map</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T58</th>
+      <td>theorem</td>
+      <td>E₃ Self-Model Completeness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P35</th>
+      <td>proposition</td>
+      <td>Saturation Semantics</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D87</th>
+      <td>definition</td>
+      <td>Arithmetic Translation Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D88</th>
+      <td>definition</td>
+      <td>CRT-Integer Correspondence</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T59</th>
+      <td>theorem</td>
+      <td>Arithmetic Faithfulness</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P36</th>
+      <td>proposition</td>
+      <td>Arithmetic Preserves Operations</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D89</th>
+      <td>definition</td>
+      <td>Topological Translation Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D90</th>
+      <td>definition</td>
+      <td>Dimension Recovery</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T60</th>
+      <td>theorem</td>
+      <td>Topological Faithfulness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P37</th>
+      <td>proposition</td>
+      <td>Boundary Restriction</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D91</th>
+      <td>definition</td>
+      <td>Obstruction Cocycle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D92</th>
+      <td>definition</td>
+      <td>Forbidden Move Obstruction Classes</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T61</th>
+      <td>theorem</td>
+      <td>Translation Failure Boundary</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P38</th>
+      <td>proposition</td>
+      <td>P vs NP as Polynomial Translation Obstruction</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D93</th>
+      <td>definition</td>
+      <td>RH Spectral Gap Characterization</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D94</th>
+      <td>definition</td>
+      <td>YM Mass Gap Persistence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T62</th>
+      <td>theorem</td>
+      <td>NS Flow Causal Arrow</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T63</th>
+      <td>theorem</td>
+      <td>P vs NP Forbidden Triple</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P39</th>
+      <td>proposition</td>
+      <td>Bridge Ledger Completeness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D95</th>
+      <td>definition</td>
+      <td>Goldbach Representation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D96</th>
+      <td>definition</td>
+      <td>Twin Prime Distribution</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T64</th>
+      <td>theorem</td>
+      <td>Goldbach at Primorial Levels</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P40</th>
+      <td>proposition</td>
+      <td>Additive-Multiplicative Duality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D97</th>
+      <td>definition</td>
+      <td>Radical Function</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D98</th>
+      <td>definition</td>
+      <td>ABC Quality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T65</th>
+      <td>theorem</td>
+      <td>ABC at Primorial Levels</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P41</th>
+      <td>proposition</td>
+      <td>Radical-Primorial Identity</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D99</th>
+      <td>definition</td>
+      <td>Eratosthenes Sieve</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D100</th>
+      <td>definition</td>
+      <td>Sieve Prime Count</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D101</th>
+      <td>definition</td>
+      <td>Brun Sieve Count</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T66</th>
+      <td>theorem</td>
+      <td>Sieve Correctness</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T67</th>
+      <td>theorem</td>
+      <td>Sieve-Tower Compatibility</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P42</th>
+      <td>proposition</td>
+      <td>Sieve-CRT Compatibility</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D102</th>
+      <td>definition</td>
+      <td>Sieve-Accelerated Goldbach</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D103</th>
+      <td>definition</td>
+      <td>Partition Count at Primorial</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D104</th>
+      <td>definition</td>
+      <td>Goldbach Obstruction</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T68</th>
+      <td>theorem</td>
+      <td>Goldbach Verified to 500</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T69</th>
+      <td>theorem</td>
+      <td>Goldbach at Primorial M₄</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T70</th>
+      <td>theorem</td>
+      <td>Partition Growth</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T71</th>
+      <td>theorem</td>
+      <td>Obstruction Bounded</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P43</th>
+      <td>proposition</td>
+      <td>CRT-Goldbach Duality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P44</th>
+      <td>proposition</td>
+      <td>Goldbach Gap Characterization</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D105</th>
+      <td>definition</td>
+      <td>Twin Prime Sieve Count</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D106</th>
+      <td>definition</td>
+      <td>Hardy-Littlewood Constant</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D107</th>
+      <td>definition</td>
+      <td>CRT Twin Admissibility</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T72</th>
+      <td>theorem</td>
+      <td>Twin Primes to 500</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T73</th>
+      <td>theorem</td>
+      <td>Twin Density Primorial</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T74</th>
+      <td>theorem</td>
+      <td>HL Constant Convergence</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T75</th>
+      <td>theorem</td>
+      <td>CRT Admissible Positive</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P45</th>
+      <td>proposition</td>
+      <td>Twin Admissibility Fraction</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P46</th>
+      <td>proposition</td>
+      <td>Twin Gap Characterization</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D108</th>
+      <td>definition</td>
+      <td>Sieve-Accelerated ABC</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D109</th>
+      <td>definition</td>
+      <td>High Quality Count</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D110</th>
+      <td>definition</td>
+      <td>Squarefree ABC Check</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T76</th>
+      <td>theorem</td>
+      <td>ABC Quality 100</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T77</th>
+      <td>theorem</td>
+      <td>Squarefree Dominance</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T78</th>
+      <td>theorem</td>
+      <td>Radical Primorial 5</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P47</th>
+      <td>proposition</td>
+      <td>Squarefree Dominance Theorem</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.P48</th>
+      <td>proposition</td>
+      <td>ABC Gap Characterization</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D111</th>
+      <td>definition</td>
+      <td>Tower Decidable Check</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D112</th>
+      <td>definition</td>
+      <td>Gap Type</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.D113</th>
+      <td>definition</td>
+      <td>Forbidden Move Mapping</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T79</th>
+      <td>theorem</td>
+      <td>Tower Finite Decidable</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.T80</th>
+      <td>theorem</td>
+      <td>Bridge Necessary Insufficient</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R47</th>
+      <td>remark</td>
+      <td>Classical Comparison</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">III.R48</th>
+      <td>remark</td>
+      <td>Honest Conclusion</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 

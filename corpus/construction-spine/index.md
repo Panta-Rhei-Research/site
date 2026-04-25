@@ -50,15 +50,19 @@ The Construction Spine is the Corpus-side realization of the Research Agenda's C
 
 ## The ten construction steps
 
-<div class="v2-grid">
+<ol class="v2-grid v2-step-list">
 {% for step in steps %}
-  <a class="v2-tile" href="{{ step.corpus_path | relative_url }}">
-    <strong>{{ step.sequence }}. {{ step.title }}</strong>
-    <span>{{ step.summary }}</span>
-    <span class="chip">{{ step.build_status | replace: "_", " " }}</span>
-  </a>
+  <li>
+    <a class="v2-tile" href="{{ step.corpus_path | relative_url }}">
+      <article>
+        <h3>{{ step.sequence }}. {{ step.title }}</h3>
+        <p>{{ step.summary }}</p>
+        <span class="chip">{{ step.build_status | replace: "_", " " }}</span>
+      </article>
+    </a>
+  </li>
 {% endfor %}
-</div>
+</ol>
 
 ## How to read this section
 

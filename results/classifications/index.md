@@ -11,8 +11,8 @@ right_rail:
   related:
     - title: "Program Result Criteria"
       url: /program/research-agenda/result-criteria/
-    - title: "Problem Ledger"
-      url: /results/problem-ledger/
+    - title: "Problem Ledger Answers"
+      url: /results/problem-ledger-answers/
     - title: "Status and Claim Typing"
       url: /results/status-and-claim-typing/
   meta:

@@ -68,9 +68,10 @@ This program does not flatten verification into a single notion of proof. A Lean
 
 ## Verification Stack Preview
 
-Verification then routes into five concrete surfaces:
+Verification then routes into six concrete surfaces:
 
 - [Formal Verification Stack]({{ '/verify/formal-verification-stack/' | relative_url }})
+- [Construction Spine Verification]({{ '/verify/construction-spine-verification/' | relative_url }})
 - [Domain Verification]({{ '/verify/domain-verification/' | relative_url }})
 - [Predictions & Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }})
 - [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }})

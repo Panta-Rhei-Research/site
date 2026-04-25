@@ -65,6 +65,7 @@ A serious candidate kernel must also be held against open problems: places where
 For this reason, the Research Agenda uses external public problem ledgers as stress tests. The goal is not to cherry-pick convenient targets, but to ask whether the kernel can express, classify, constrain, answer, defer, or reject major open problems in a principled way.
 
 <table>
+  <caption>Problem Ledger domain source rules</caption>
   <thead>
     <tr>
       <th scope="col">Domain</th>

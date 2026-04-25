@@ -43,20 +43,24 @@ Before asking whether a specific result is true, a reviewer can ask whether the 
 - **Explicit refusals and constraints:** the Program lane names what the research program refuses to do.
 - **Failure modes:** predictions, falsification paths, contradicted statuses, and open bridge issues stay visible.
 
-## The Four Checks
+## The Five Checks
 
 <div class="v2-grid v2-grid-2">
+  <a class="v2-tile" href="{{ '/program/research-agenda/' | relative_url }}">
+    <h3>Agenda accountability</h3>
+    <p>Problem Ledger, Recovery Requirements, Kernel/Model/Reality, and Construction Roadmap name the obligations before results are defended.</p>
+  </a>
   <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
     <h3>Corpus traceability</h3>
     <p>Definitions, theorems, lemmas, and result claims are tied back to registry objects and dependency chains.</p>
   </a>
-  <a class="v2-tile" href="{{ '/verify/taulib/' | relative_url }}">
-    <h3>Formal verification</h3>
-    <p>TauLib exposes the Lean 4 formalization surface, including build status, axiom inventory, and documentation.</p>
+  <a class="v2-tile" href="{{ '/verify/construction-spine-verification/' | relative_url }}">
+    <h3>Construction-step verification</h3>
+    <p>The ten-step Construction Spine exposes which layer is being checked, what counts as a bridge, and where failure would surface.</p>
   </a>
-  <a class="v2-tile" href="{{ '/results/problem-ledger/' | relative_url }}">
-    <h3>Result status</h3>
-    <p>Results are typed by their current strength: resolved, partial, qualitative, contradicted, open, or deferred.</p>
+  <a class="v2-tile" href="{{ '/verify/taulib/' | relative_url }}">
+    <h3>Formal / bridge / empirical verification</h3>
+    <p>TauLib checks formal proof obligations where formalized; bridge and empirical claims require their own Verify surfaces.</p>
   </a>
   <a class="v2-tile" href="{{ '/verify/how-to-verify/' | relative_url }}">
     <h3>Independent audit</h3>

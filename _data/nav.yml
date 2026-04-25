@@ -235,7 +235,7 @@ lane_nav:
             url: "/results/additional-derived-results/"
           - title: "Progress Against Agenda"
             url: "/results/progress-against-agenda/"
-          - title: "Problem Ledger Compatibility"
+          - title: "Legacy Problem Ledger Compatibility"
             url: "/results/problem-ledger/"
           - title: "Classifications"
             url: "/results/classifications/"

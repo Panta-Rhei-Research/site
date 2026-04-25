@@ -105,8 +105,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThis step makes mathematics usable inside the kernel. It covers syntax, proof objects, arithmetic, algebraic structure, Euclidean geometry, and controlled bridge criteria into standard mathematics.\n\n## Why this step is required\n\nPhysics, life, and metaphysics cannot be responsibly constructed if the mathematical substrate is merely imported. The kernel must show how mathematical work becomes possible under its own discipline.\n\n## Key constructions\n\n- Finite syntax and proof objects.\n- Finite arithmetic and algebraic structure.\n- Geometry and bridge criteria.\n- Boundary and infinity discipline.\n- Mathematical refusals against unrestricted background assumptions."
 ---
 
-# Step 2 - Recover Core Mathematics
-
 > Recovers the mathematical substrate needed for proof, calculation, geometry, and later domain construction.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -197,6 +195,7 @@ This step does not claim that unrestricted classical mathematics is simply recov
 
 - Bridge adequacy to unrestricted standard mathematics remains a separate burden from internal formal success.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-03`.
+- Previous: [Step 1 - Define the Kernel](/corpus/construction-spine/define-the-kernel/)
+- Next: [Step 3 - Internalize Logic and Categorical Self-Structure](/corpus/construction-spine/internalize-logic/)

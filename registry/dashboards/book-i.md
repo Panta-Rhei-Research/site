@@ -24,283 +24,1943 @@ Generated: 2026-03-10
 - **No dependencies (foundational):** I.K0, I.R16, I.R19
 
 ## Part Coverage
-| Part | Objects | Formalized | Planned | N/A |
-|------|---------|------------|---------|-----|
-| 1 | 19 | 14 | 0 | 5 |
-| 2 | 10 | 10 | 0 | 0 |
-| 3 | 28 | 27 | 0 | 1 |
-| 4 | 19 | 14 | 1 | 4 |
-| 5 | 8 | 7 | 1 | 0 |
-| 6 | 4 | 2 | 1 | 1 |
-| 7 | 13 | 10 | 1 | 2 |
-| 8 | 14 | 14 | 0 | 0 |
-| 9 | 9 | 9 | 0 | 0 |
-| 10 | 7 | 5 | 1 | 1 |
-| 11 | 6 | 6 | 0 | 0 |
-| 12 | 7 | 4 | 2 | 1 |
-| 13 | 16 | 16 | 0 | 0 |
-| 14 | 18 | 18 | 0 | 0 |
-| 15 | 10 | 9 | 0 | 1 |
-| 16 | 10 | 10 | 0 | 0 |
-| 17 | 12 | 10 | 0 | 2 |
-| 18 | 41 | 33 | 0 | 8 |
-| 19 | 3 | 3 | 0 | 0 |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">Part</th>
+      <th scope="col">Objects</th>
+      <th scope="col">Formalized</th>
+      <th scope="col">Planned</th>
+      <th scope="col">N/A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>19</td>
+      <td>14</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>28</td>
+      <td>27</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>19</td>
+      <td>14</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>8</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>13</td>
+      <td>10</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>14</td>
+      <td>14</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>9</td>
+      <td>9</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>7</td>
+      <td>5</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">11</th>
+      <td>6</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">12</th>
+      <td>7</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">13</th>
+      <td>16</td>
+      <td>16</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">14</th>
+      <td>18</td>
+      <td>18</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">15</th>
+      <td>10</td>
+      <td>9</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">16</th>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">17</th>
+      <td>12</td>
+      <td>10</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">18</th>
+      <td>41</td>
+      <td>33</td>
+      <td>0</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th scope="row">19</th>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Object List
-| ID | Type | Name | Scope | Lean |
-|----|------|------|-------|------|
-| I.K0 | axiom | Universe Postulate | estab | form |
-| I.D01 | definition | Five Generators | estab | form |
-| I.D02 | definition | Progression Operator rho | estab | form |
-| I.D03 | definition | Diagonal Discipline | estab | form |
-| I.D04 | definition | Static Kernel tau_0 | estab | form |
-| I.K1 | axiom | Strict Order (K1) | estab | form |
-| I.K2 | axiom | Omega Fixed Point (K2) | estab | form |
-| I.K3 | axiom | Orbit-Seeded Generation (K3) | estab | form |
-| I.K4 | axiom | No-Jump / Cover (K4) | estab | form |
-| I.K5 | axiom | Beacon Non-Successor (K5) | estab | form |
-| I.K6 | axiom | Object Closure (K6) | estab | form |
-| I.P01 | proposition | Generator Distinctness | estab | form |
-| I.P02 | proposition | rho Injectivity Per Orbit | estab | form |
-| I.X01 | construction | The Generative Act | estab | form |
-| I.D05 | definition | Orbit Rays | estab | form |
-| I.D06 | definition | Iterator Ladder | estab | form |
-| I.T01 | theorem | Ontic Closure | estab | form |
-| I.T02 | theorem | Iterator Ladder Saturation | estab | form |
-| I.P03 | proposition | Pairwise Disjointness of Orbits | estab | form |
-| I.P04 | proposition | Orbit Countability | estab | form |
-| I.D07 | definition | tau-Idx (Earned Natural Numbers) | estab | form |
-| I.D08 | definition | Rank Transfer Maps | estab | form |
-| I.D09 | definition | Swap Operator sigma | estab | form |
-| I.D10 | definition | Index Addition | estab | form |
-| I.D11 | definition | Index Multiplication | estab | form |
-| I.D12 | definition | Index Exponentiation | estab | form |
-| I.D13 | definition | Index Tetration | estab | form |
-| I.D14 | definition | Program Monoid | estab | form |
-| I.D15 | definition | Three-Level Equality | estab | form |
-| I.T03 | theorem | Composition Associativity | estab | form |
-| I.P05 | proposition | Tetration Injectivity | estab | form |
-| I.D16 | definition | NF Address Encoding | estab | form |
-| I.D17 | definition | ABCD Coordinate Chart | estab | form |
-| I.T04 | theorem | Hyperfactorization Theorem | estab | form |
-| I.T05 | theorem | Prime Polarity Theorem | estab | form |
-| I.D18 | theorem | Algebraic Lemniscate | estab | form |
-| I.D19 | definition | Boundary Ring and Scalars | tau-e | form |
-| I.D20 | definition | Split-Complex Scalars | tau-e | form |
-| I.D21 | definition | Truth4 Logic | tau-e | form |
-| I.D22 | definition | Holomorphic Transformers | tau-e | form |
-| I.X02 | construction | Earned Category and Topos | tau-e | form |
-| I.T06 | theorem | Global Hartogs | tau-e | form |
-| I.R01 | remark | Axiom Independence | estab | — |
-| I.L01 | lemma | Pentation Non-Injectivity | estab | form |
-| I.T07 | theorem | Rigidity of tau | estab | form |
-| I.T08 | theorem | Categoricity of tau_0 | estab | form |
-| I.P06 | proposition | Arithmetic Laws | estab | form |
-| I.L02 | lemma | NF-Confluence | estab | form |
-| I.D16a | definition | Denotational Order | estab | form |
-| I.P07 | proposition | Well-Ordering of Obj(tau) | estab | form |
-| I.D19a | definition | Internal Divisibility | estab | form |
-| I.D19b | definition | Internal Primes | estab | form |
-| I.T09 | theorem | FTA on tau-Idx | estab | form |
-| I.D19c | definition | Tower Atom | estab | form |
-| I.D19d | definition | Greedy Peel Algorithm | estab | form |
-| I.P08 | proposition | Dimension Theorem (dim_tau = 4) | estab | form |
-| I.L03 | lemma | No-Tie Determinism | estab | form |
-| I.L04 | lemma | Strict Remainder Descent | estab | form |
-| I.C01 | corollary | Constructive Encoding via ABCD | estab | form |
-| I.D19e | definition | Prime Spectral Signature | estab | form |
-| I.D23 | definition | Genealogical Decomposition (Spine) | estab | form |
-| I.D24 | definition | Address DAG | estab | form |
-| I.P09 | proposition | Metric Inequality | estab | form |
-| I.D25 | definition | Omega-Tail (Compatible Tower) | estab | form |
-| I.D26 | definition | Polarized Omega-Germ | estab | form |
-| I.T10 | theorem | Split-Complex Forced | estab | form |
-| I.D27 | definition | Bipolar Spectral Algebra | estab | form |
-| I.D28 | definition | Boundary Local Ring | estab | form |
-| I.D19f | definition | Prime Enumeration and Sieve | estab | form |
-| I.D29 | definition | CRT Decomposition | estab | form |
-| I.D30 | definition | Teichmueller Lift | estab | form |
-| I.T11 | theorem | Minimal Alphabet Theorem | estab | form |
-| I.T11a | theorem | Six-Generator Rigidity Failure | estab | form |
-| I.T11b | theorem | Four-Generator Ladder Incompleteness | estab | form |
-| I.T11c | theorem | Tetration Algebraic Degradation | estab | form |
-| I.L05 | lemma | Growth Escape | estab | form |
-| I.D31 | definition | tau-Membership Relation | estab | form |
-| I.P10 | proposition | Membership Decidability | estab | form |
-| I.D32 | definition | Set-Theoretic Operations | estab | form |
-| I.P11 | proposition | Distributive Lattice | estab | form |
-| I.D33 | definition | Bounded Powerset | estab | form |
-| I.L06 | lemma | Well-Foundedness of Membership | estab | form |
-| I.P12 | proposition | Countability of Set(tau) | estab | form |
-| I.D34 | definition | Master Constant iota_tau | tau-e | form |
-| I.D35 | definition | Number Tower | tau-e | form |
-| I.D36 | definition | Constructive Reals | tau-e | form |
-| I.D37 | definition | Lemniscate Characters | tau-e | form |
-| I.D38 | definition | Character Group | tau-e | form |
-| I.T12 | theorem | Spectral Decomposition | tau-e | form |
-| I.D39 | definition | Crossing Point | tau-e | form |
-| I.D40 | definition | Bipolar Fourier Transform | tau-e | form |
-| I.T13 | theorem | Explosion Barrier | tau-e | form |
-| I.P13 | proposition | Boolean Recovery | tau-e | form |
-| I.D41 | definition | Subobject Classifier Preview | tau-e | form |
-| I.P14 | proposition | Omega Unique Fixed Seed | estab | form |
-| I.P15 | proposition | Sum Zero Iff Both Zero | estab | form |
-| I.T14 | theorem | No Additive Inverse | estab | form |
-| I.T15 | theorem | No Ring Negation | estab | form |
-| I.P16 | proposition | Positive Core Closure | estab | form |
-| I.P17 | proposition | Universal Additive Cancellation | estab | form |
-| I.T16 | theorem | Mul Cancel Fails at Zero | estab | form |
-| I.T17 | theorem | Multiplicative Cancellation iff Positive | estab | form |
-| I.P18 | proposition | Zero Vacuous | estab | form |
-| I.P19 | proposition | Integral Domain | estab | form |
-| I.P20 | proposition | Ultra Dist Self | estab | form |
-| I.P21 | proposition | Congruent Tails Agree | estab | form |
-| I.D42 | definition | D-Differentiability | tau-e | form |
-| I.D43 | definition | Split-CR Equations | tau-e | form |
-| I.P22 | proposition | Sector Independence | tau-e | form |
-| I.D45 | definition | Omega-Germ Transformer | tau-e | form |
-| I.D46 | definition | Tower Coherence | tau-e | form |
-| I.D47 | definition | Tau-Holomorphic Function | tau-e | form |
-| I.D48 | definition | Tau-Holomorphic Map | tau-e | form |
-| I.T18 | theorem | CRT Coherence Constraint | tau-e | form |
-| I.P23 | proposition | No Simultaneous Projection | tau-e | form |
-| I.T19 | theorem | Diagonal-Free Protection | tau-e | form |
-| I.T20 | theorem | Composition Closure | tau-e | form |
-| I.P24 | proposition | HolFun Associativity | tau-e | form |
-| I.L07 | lemma | Tail Agreement Propagation | tau-e | form |
-| I.T21 | theorem | Tau-Identity Theorem | tau-e | form |
-| I.D49 | definition | Hol(L) | tau-e | form |
-| I.D50 | definition | Tau-Arrow | tau-e | form |
-| I.D51 | definition | Cat_tau | tau-e | form |
-| I.T22 | theorem | Category Axioms | tau-e | form |
-| I.P25 | proposition | Thin Category | tau-e | form |
-| I.D52 | definition | Tau-Functor | tau-e | form |
-| I.D53 | definition | Natural Transformation | tau-e | form |
-| I.D54 | definition | Yoneda Embedding | tau-e | form |
-| I.T23 | theorem | Yoneda Lemma | tau-e | form |
-| I.D55 | definition | Finite Limits in Cat_tau | tau-e | form |
-| I.D56 | definition | Tau-Site | tau-e | form |
-| I.D57 | definition | Presheaf Topos | tau-e | form |
-| I.T24 | theorem | Grothendieck Topos | tau-e | form |
-| I.P26 | proposition | Countable Topos | tau-e | form |
-| I.T25 | theorem | Omega_tau Subobject Classifier | tau-e | form |
-| I.D58 | definition | Characteristic Morphism | tau-e | form |
-| I.D59 | definition | Earned Topos | tau-e | form |
-| I.P27 | proposition | Paraconsistent Character | tau-e | form |
-| I.D60 | definition | Categorical Product | tau-e | form |
-| I.T26 | theorem | Product Universal Property | tau-e | form |
-| I.D61 | definition | Cartesian Monoidal Structure | tau-e | form |
-| I.D62 | definition | Categorical Coproduct | tau-e | form |
-| I.T27 | theorem | Distributivity | tau-e | form |
-| I.D63 | definition | Bi-Monoidal Structure | tau-e | form |
-| I.D64 | definition | Internal Hom | tau-e | form |
-| I.T28 | theorem | Cartesian Closed | tau-e | form |
-| I.P28 | proposition | Self-Enrichment | tau-e | form |
-| I.D65 | definition | Spectral Coefficients | tau-e | form |
-| I.D66 | definition | Restriction Map | tau-e | form |
-| I.T29 | theorem | Spectral Determination | tau-e | form |
-| I.D67 | definition | Primorial Thinness | tau-e | form |
-| I.L08 | lemma | CRT Extension | tau-e | form |
-| I.T30 | theorem | Removable Singularity | tau-e | form |
-| I.T31 | theorem | Global Hartogs Extension | tau-e | form |
-| I.D68 | definition | Earned Stage-Determined Point | tau-e | form |
-| I.C02 | corollary | Stages from Limit | tau-e | form |
-| I.P29 | proposition | Passage to Book II | tau-e | form |
-| I.D75 | definition | Generative Counting Principle | estab | form |
-| I.P33 | proposition | Counting as Structural Feature | estab | form |
-| I.T35 | theorem | Cantor Diagonal Inapplicability | estab | form |
-| I.P34 | proposition | No Unearned Decimal Diagonal | estab | form |
-| I.P35 | proposition | No Unrestricted Comprehension | estab | form |
-| I.P36 | proposition | No Free Cartesian Diagonal | estab | form |
-| I.D76 | definition | Omega-Germ Approach | estab | form |
-| I.T36 | theorem | Unique Infinity Object | estab | form |
-| I.P37 | proposition | Ultrametric Replaces Cardinality | estab | form |
-| I.D77 | definition | Meta-Logical Substrate | estab | form |
-| I.R15 | remark | Structural Rules Inventory | estab | form |
-| I.D78 | definition | Diagonal-Linear Correspondence | estab | form |
-| I.T37 | theorem | Diagonal-Linear Correspondence | estab | form |
-| I.D79 | definition | Program Monoid as Linear Calculus | estab | form |
-| I.R16 | remark | Linear Logic Glossary | estab | form |
-| I.T38 | theorem | Linearity Census | estab | form |
-| I.P38 | proposition | Classical.em Eliminability | estab | form |
-| I.R17 | remark | Gap Declaration | estab | form |
-| I.D80 | definition | Self-Hosting Degree Classification | estab | — |
-| I.R18 | remark | Proof-Theoretic Landscape Survey | estab | — |
-| I.D81 | definition | CCC-Linear Dichotomy | estab | form |
-| I.T39 | theorem | K5 Structural Exclusion | estab | form |
-| I.R19 | remark | Barr's Star-Autonomous Categories | estab | — |
-| I.D82 | definition | Enrichment Frontier Classification | estab | form |
-| I.R20 | remark | E0-E3 Literature Map | estab | — |
-| I.R21 | remark | Scale Declaration | estab | — |
-| I.D83 | definition | Primorial Presheaf | estab | form |
-| I.T40 | theorem | Presheaf Characterization | estab | form |
-| I.T41 | theorem | Bi-Square Characterization | estab | form |
-| I.D84 | definition | Constructive Reals | estab | form |
-| I.T42 | theorem | Archimedean Property | estab | form |
-| I.P39 | proposition | TauReal Ring Axioms | estab | form |
-| I.D85 | definition | Elliptic Complex Field | estab | form |
-| I.D86 | definition | Elliptic-Hyperbolic Dichotomy | estab | form |
-| I.T43 | theorem | TauComplex Ring Axioms | estab | form |
-| I.D87 | definition | Elliptic Quaternions | estab | form |
-| I.T44 | theorem | Quaternion Non-Commutativity | estab | form |
-| I.R22 | remark | Hurwitz Classification Preview | estab | — |
-| I.D88 | definition | Cyclotomic Fields | estab | form |
-| I.T45 | theorem | Roots of Unity CRT Decomposition | estab | form |
-| I.R23 | remark | Galois Theory Preview | estab | — |
-| I.D89 | definition | Diagonal Resonance | estab | form |
-| I.D90 | definition | Identity Slippage | estab | form |
-| I.D91 | definition | Shadow Identity | estab | form |
-| I.R24 | remark | Five Reasons Why The Bug Hides | estab | — |
-| I.R25 | remark | Orthodox Foundations Under the Lens | estab | — |
-| I.T46 | theorem | Ontic Identity Invariance | estab | form |
-| I.C03 | corollary | No Identity Decoherence | estab | form |
-| I.T47 | theorem | Slippage Breaks Unique Omega | estab | form |
-| I.D92 | definition | Identity-Faithful Reception | estab | form |
-| I.D93 | definition | Structural Instability | estab | form |
-| I.T48 | theorem | Structural Instability Theorem | estab | form |
-| I.R26 | remark | Implications for Absolute Meaning | estab | — |
-| I.R27 | remark | Honest Scope Declaration | estab | — |
-| I.D94 | definition | Orbit-Set Map | estab | form |
-| I.P40 | proposition | Extensionality | estab | form |
-| I.P41 | proposition | Self-Containment Partition | estab | form |
-| I.P42 | proposition | Order Bound | estab | form |
-| I.R28 | remark | Inseparability of N and omega | estab | form |
-| I.R29 | remark | Finite-Infinite Boundary | estab | form |
-| I.R30 | remark | Duality and Atoms | estab | form |
-| I.D95 | definition | τ-Measure Space | tau-e | form |
-| I.D96 | definition | Tower σ-Algebra | tau-e | form |
-| I.T49 | theorem | Countable Additivity | tau-e | form |
-| I.P43 | proposition | Measure Compatibility | tau-e | form |
-| I.D97 | definition | Galois Automorphism | tau-e | form |
-| I.D98 | definition | Galois Group of Primorial Stage | tau-e | form |
-| I.T50 | theorem | Fundamental Theorem of Internal Galois Theory | tau-e | form |
-| I.P44 | proposition | CRT-Galois Decomposition | tau-e | form |
-| I.D99 | definition | τ-Integral | tau-e | form |
-| I.T51 | theorem | Linearity of Integration | tau-e | form |
-| I.P45 | proposition | Monotone Convergence | tau-e | form |
-| I.D101 | definition | Prime Counting in Progressions | estab | form |
-| I.D102 | definition | Chebyshev Bias Measure | tau-e | form |
-| I.T52 | theorem | Bias at Primorial Levels | tau-e | form |
-| I.R31 | remark | Wiring Primitives | estab | — |
-| I.R32 | remark | Product-Free Operator Definitions | estab | — |
-| I.R33 | remark | Route B Axioms Comparison | estab | — |
-| I.R34 | remark | Normalization Endofunctors M and E | estab | — |
-| I.R35 | remark | Address Combinators: Merge and Lift | estab | — |
-| I.R36 | remark | CGANF to ABCD Design Evolution | estab | — |
-| I.R37 | remark | Cluster Collapse in ABCD Context | estab | — |
-| I.R38 | remark | Token-Set vs Tuple Encoding | estab | — |
-| I.R39 | remark | Dimension Readout Functors | estab | — |
-| I.P46 | proposition | No Second Linearity | estab | — |
-| I.C04 | corollary | NF Deduplication Invariant | estab | — |
-| I.D103 | definition | Polarity Pairing | estab | — |
-| I.R40 | remark | Pairing Density | estab | — |
-| I.D104 | definition | PolStream | estab | — |
-| I.R41 | remark | PolStream Aperiodicity | estab | — |
-| I.R42 | remark | Lemniscate Lipschitz Forward Reference | estab | — |
-| I.R43 | remark | Quaternion Open Question | conje | — |
-| I.D105 | definition | Tau-Weighted Boundary Constants | estab | — |
-| I.D106 | definition | Tau-Bayesian State | conje | — |
-| I.P47 | proposition | Bayesian Factorization | conje | — |
-| I.R44 | remark | Lean Bayesian Status | conje | — |
-| I.R45 | remark | Distributivity from Combinators | estab | — |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Type</th>
+      <th scope="col">Name</th>
+      <th scope="col">Scope</th>
+      <th scope="col">Lean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">I.K0</th>
+      <td>axiom</td>
+      <td>Universe Postulate</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D01</th>
+      <td>definition</td>
+      <td>Five Generators</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D02</th>
+      <td>definition</td>
+      <td>Progression Operator rho</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D03</th>
+      <td>definition</td>
+      <td>Diagonal Discipline</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D04</th>
+      <td>definition</td>
+      <td>Static Kernel tau_0</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.K1</th>
+      <td>axiom</td>
+      <td>Strict Order (K1)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.K2</th>
+      <td>axiom</td>
+      <td>Omega Fixed Point (K2)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.K3</th>
+      <td>axiom</td>
+      <td>Orbit-Seeded Generation (K3)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.K4</th>
+      <td>axiom</td>
+      <td>No-Jump / Cover (K4)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.K5</th>
+      <td>axiom</td>
+      <td>Beacon Non-Successor (K5)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.K6</th>
+      <td>axiom</td>
+      <td>Object Closure (K6)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P01</th>
+      <td>proposition</td>
+      <td>Generator Distinctness</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P02</th>
+      <td>proposition</td>
+      <td>rho Injectivity Per Orbit</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.X01</th>
+      <td>construction</td>
+      <td>The Generative Act</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D05</th>
+      <td>definition</td>
+      <td>Orbit Rays</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D06</th>
+      <td>definition</td>
+      <td>Iterator Ladder</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T01</th>
+      <td>theorem</td>
+      <td>Ontic Closure</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T02</th>
+      <td>theorem</td>
+      <td>Iterator Ladder Saturation</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P03</th>
+      <td>proposition</td>
+      <td>Pairwise Disjointness of Orbits</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P04</th>
+      <td>proposition</td>
+      <td>Orbit Countability</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D07</th>
+      <td>definition</td>
+      <td>tau-Idx (Earned Natural Numbers)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D08</th>
+      <td>definition</td>
+      <td>Rank Transfer Maps</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D09</th>
+      <td>definition</td>
+      <td>Swap Operator sigma</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D10</th>
+      <td>definition</td>
+      <td>Index Addition</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D11</th>
+      <td>definition</td>
+      <td>Index Multiplication</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D12</th>
+      <td>definition</td>
+      <td>Index Exponentiation</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D13</th>
+      <td>definition</td>
+      <td>Index Tetration</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D14</th>
+      <td>definition</td>
+      <td>Program Monoid</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D15</th>
+      <td>definition</td>
+      <td>Three-Level Equality</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T03</th>
+      <td>theorem</td>
+      <td>Composition Associativity</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P05</th>
+      <td>proposition</td>
+      <td>Tetration Injectivity</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D16</th>
+      <td>definition</td>
+      <td>NF Address Encoding</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D17</th>
+      <td>definition</td>
+      <td>ABCD Coordinate Chart</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T04</th>
+      <td>theorem</td>
+      <td>Hyperfactorization Theorem</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T05</th>
+      <td>theorem</td>
+      <td>Prime Polarity Theorem</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D18</th>
+      <td>theorem</td>
+      <td>Algebraic Lemniscate</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D19</th>
+      <td>definition</td>
+      <td>Boundary Ring and Scalars</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D20</th>
+      <td>definition</td>
+      <td>Split-Complex Scalars</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D21</th>
+      <td>definition</td>
+      <td>Truth4 Logic</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D22</th>
+      <td>definition</td>
+      <td>Holomorphic Transformers</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.X02</th>
+      <td>construction</td>
+      <td>Earned Category and Topos</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T06</th>
+      <td>theorem</td>
+      <td>Global Hartogs</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R01</th>
+      <td>remark</td>
+      <td>Axiom Independence</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L01</th>
+      <td>lemma</td>
+      <td>Pentation Non-Injectivity</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T07</th>
+      <td>theorem</td>
+      <td>Rigidity of tau</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T08</th>
+      <td>theorem</td>
+      <td>Categoricity of tau_0</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P06</th>
+      <td>proposition</td>
+      <td>Arithmetic Laws</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L02</th>
+      <td>lemma</td>
+      <td>NF-Confluence</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D16a</th>
+      <td>definition</td>
+      <td>Denotational Order</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P07</th>
+      <td>proposition</td>
+      <td>Well-Ordering of Obj(tau)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D19a</th>
+      <td>definition</td>
+      <td>Internal Divisibility</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D19b</th>
+      <td>definition</td>
+      <td>Internal Primes</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T09</th>
+      <td>theorem</td>
+      <td>FTA on tau-Idx</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D19c</th>
+      <td>definition</td>
+      <td>Tower Atom</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D19d</th>
+      <td>definition</td>
+      <td>Greedy Peel Algorithm</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P08</th>
+      <td>proposition</td>
+      <td>Dimension Theorem (dim_tau = 4)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L03</th>
+      <td>lemma</td>
+      <td>No-Tie Determinism</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L04</th>
+      <td>lemma</td>
+      <td>Strict Remainder Descent</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.C01</th>
+      <td>corollary</td>
+      <td>Constructive Encoding via ABCD</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D19e</th>
+      <td>definition</td>
+      <td>Prime Spectral Signature</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D23</th>
+      <td>definition</td>
+      <td>Genealogical Decomposition (Spine)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D24</th>
+      <td>definition</td>
+      <td>Address DAG</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P09</th>
+      <td>proposition</td>
+      <td>Metric Inequality</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D25</th>
+      <td>definition</td>
+      <td>Omega-Tail (Compatible Tower)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D26</th>
+      <td>definition</td>
+      <td>Polarized Omega-Germ</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T10</th>
+      <td>theorem</td>
+      <td>Split-Complex Forced</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D27</th>
+      <td>definition</td>
+      <td>Bipolar Spectral Algebra</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D28</th>
+      <td>definition</td>
+      <td>Boundary Local Ring</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D19f</th>
+      <td>definition</td>
+      <td>Prime Enumeration and Sieve</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D29</th>
+      <td>definition</td>
+      <td>CRT Decomposition</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D30</th>
+      <td>definition</td>
+      <td>Teichmueller Lift</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T11</th>
+      <td>theorem</td>
+      <td>Minimal Alphabet Theorem</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T11a</th>
+      <td>theorem</td>
+      <td>Six-Generator Rigidity Failure</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T11b</th>
+      <td>theorem</td>
+      <td>Four-Generator Ladder Incompleteness</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T11c</th>
+      <td>theorem</td>
+      <td>Tetration Algebraic Degradation</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L05</th>
+      <td>lemma</td>
+      <td>Growth Escape</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D31</th>
+      <td>definition</td>
+      <td>tau-Membership Relation</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P10</th>
+      <td>proposition</td>
+      <td>Membership Decidability</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D32</th>
+      <td>definition</td>
+      <td>Set-Theoretic Operations</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P11</th>
+      <td>proposition</td>
+      <td>Distributive Lattice</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D33</th>
+      <td>definition</td>
+      <td>Bounded Powerset</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L06</th>
+      <td>lemma</td>
+      <td>Well-Foundedness of Membership</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P12</th>
+      <td>proposition</td>
+      <td>Countability of Set(tau)</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D34</th>
+      <td>definition</td>
+      <td>Master Constant iota_tau</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D35</th>
+      <td>definition</td>
+      <td>Number Tower</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D36</th>
+      <td>definition</td>
+      <td>Constructive Reals</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D37</th>
+      <td>definition</td>
+      <td>Lemniscate Characters</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D38</th>
+      <td>definition</td>
+      <td>Character Group</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T12</th>
+      <td>theorem</td>
+      <td>Spectral Decomposition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D39</th>
+      <td>definition</td>
+      <td>Crossing Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D40</th>
+      <td>definition</td>
+      <td>Bipolar Fourier Transform</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T13</th>
+      <td>theorem</td>
+      <td>Explosion Barrier</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P13</th>
+      <td>proposition</td>
+      <td>Boolean Recovery</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D41</th>
+      <td>definition</td>
+      <td>Subobject Classifier Preview</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P14</th>
+      <td>proposition</td>
+      <td>Omega Unique Fixed Seed</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P15</th>
+      <td>proposition</td>
+      <td>Sum Zero Iff Both Zero</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T14</th>
+      <td>theorem</td>
+      <td>No Additive Inverse</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T15</th>
+      <td>theorem</td>
+      <td>No Ring Negation</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P16</th>
+      <td>proposition</td>
+      <td>Positive Core Closure</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P17</th>
+      <td>proposition</td>
+      <td>Universal Additive Cancellation</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T16</th>
+      <td>theorem</td>
+      <td>Mul Cancel Fails at Zero</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T17</th>
+      <td>theorem</td>
+      <td>Multiplicative Cancellation iff Positive</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P18</th>
+      <td>proposition</td>
+      <td>Zero Vacuous</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P19</th>
+      <td>proposition</td>
+      <td>Integral Domain</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P20</th>
+      <td>proposition</td>
+      <td>Ultra Dist Self</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P21</th>
+      <td>proposition</td>
+      <td>Congruent Tails Agree</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D42</th>
+      <td>definition</td>
+      <td>D-Differentiability</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D43</th>
+      <td>definition</td>
+      <td>Split-CR Equations</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P22</th>
+      <td>proposition</td>
+      <td>Sector Independence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D45</th>
+      <td>definition</td>
+      <td>Omega-Germ Transformer</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D46</th>
+      <td>definition</td>
+      <td>Tower Coherence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D47</th>
+      <td>definition</td>
+      <td>Tau-Holomorphic Function</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D48</th>
+      <td>definition</td>
+      <td>Tau-Holomorphic Map</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T18</th>
+      <td>theorem</td>
+      <td>CRT Coherence Constraint</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P23</th>
+      <td>proposition</td>
+      <td>No Simultaneous Projection</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T19</th>
+      <td>theorem</td>
+      <td>Diagonal-Free Protection</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T20</th>
+      <td>theorem</td>
+      <td>Composition Closure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P24</th>
+      <td>proposition</td>
+      <td>HolFun Associativity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L07</th>
+      <td>lemma</td>
+      <td>Tail Agreement Propagation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T21</th>
+      <td>theorem</td>
+      <td>Tau-Identity Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D49</th>
+      <td>definition</td>
+      <td>Hol(L)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D50</th>
+      <td>definition</td>
+      <td>Tau-Arrow</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D51</th>
+      <td>definition</td>
+      <td>Cat_tau</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T22</th>
+      <td>theorem</td>
+      <td>Category Axioms</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P25</th>
+      <td>proposition</td>
+      <td>Thin Category</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D52</th>
+      <td>definition</td>
+      <td>Tau-Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D53</th>
+      <td>definition</td>
+      <td>Natural Transformation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D54</th>
+      <td>definition</td>
+      <td>Yoneda Embedding</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T23</th>
+      <td>theorem</td>
+      <td>Yoneda Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D55</th>
+      <td>definition</td>
+      <td>Finite Limits in Cat_tau</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D56</th>
+      <td>definition</td>
+      <td>Tau-Site</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D57</th>
+      <td>definition</td>
+      <td>Presheaf Topos</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T24</th>
+      <td>theorem</td>
+      <td>Grothendieck Topos</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P26</th>
+      <td>proposition</td>
+      <td>Countable Topos</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T25</th>
+      <td>theorem</td>
+      <td>Omega_tau Subobject Classifier</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D58</th>
+      <td>definition</td>
+      <td>Characteristic Morphism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D59</th>
+      <td>definition</td>
+      <td>Earned Topos</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P27</th>
+      <td>proposition</td>
+      <td>Paraconsistent Character</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D60</th>
+      <td>definition</td>
+      <td>Categorical Product</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T26</th>
+      <td>theorem</td>
+      <td>Product Universal Property</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D61</th>
+      <td>definition</td>
+      <td>Cartesian Monoidal Structure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D62</th>
+      <td>definition</td>
+      <td>Categorical Coproduct</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T27</th>
+      <td>theorem</td>
+      <td>Distributivity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D63</th>
+      <td>definition</td>
+      <td>Bi-Monoidal Structure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D64</th>
+      <td>definition</td>
+      <td>Internal Hom</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T28</th>
+      <td>theorem</td>
+      <td>Cartesian Closed</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P28</th>
+      <td>proposition</td>
+      <td>Self-Enrichment</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D65</th>
+      <td>definition</td>
+      <td>Spectral Coefficients</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D66</th>
+      <td>definition</td>
+      <td>Restriction Map</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T29</th>
+      <td>theorem</td>
+      <td>Spectral Determination</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D67</th>
+      <td>definition</td>
+      <td>Primorial Thinness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.L08</th>
+      <td>lemma</td>
+      <td>CRT Extension</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T30</th>
+      <td>theorem</td>
+      <td>Removable Singularity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T31</th>
+      <td>theorem</td>
+      <td>Global Hartogs Extension</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D68</th>
+      <td>definition</td>
+      <td>Earned Stage-Determined Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.C02</th>
+      <td>corollary</td>
+      <td>Stages from Limit</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P29</th>
+      <td>proposition</td>
+      <td>Passage to Book II</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D75</th>
+      <td>definition</td>
+      <td>Generative Counting Principle</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P33</th>
+      <td>proposition</td>
+      <td>Counting as Structural Feature</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T35</th>
+      <td>theorem</td>
+      <td>Cantor Diagonal Inapplicability</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P34</th>
+      <td>proposition</td>
+      <td>No Unearned Decimal Diagonal</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P35</th>
+      <td>proposition</td>
+      <td>No Unrestricted Comprehension</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P36</th>
+      <td>proposition</td>
+      <td>No Free Cartesian Diagonal</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D76</th>
+      <td>definition</td>
+      <td>Omega-Germ Approach</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T36</th>
+      <td>theorem</td>
+      <td>Unique Infinity Object</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P37</th>
+      <td>proposition</td>
+      <td>Ultrametric Replaces Cardinality</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D77</th>
+      <td>definition</td>
+      <td>Meta-Logical Substrate</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R15</th>
+      <td>remark</td>
+      <td>Structural Rules Inventory</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D78</th>
+      <td>definition</td>
+      <td>Diagonal-Linear Correspondence</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T37</th>
+      <td>theorem</td>
+      <td>Diagonal-Linear Correspondence</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D79</th>
+      <td>definition</td>
+      <td>Program Monoid as Linear Calculus</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R16</th>
+      <td>remark</td>
+      <td>Linear Logic Glossary</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T38</th>
+      <td>theorem</td>
+      <td>Linearity Census</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P38</th>
+      <td>proposition</td>
+      <td>Classical.em Eliminability</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R17</th>
+      <td>remark</td>
+      <td>Gap Declaration</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D80</th>
+      <td>definition</td>
+      <td>Self-Hosting Degree Classification</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R18</th>
+      <td>remark</td>
+      <td>Proof-Theoretic Landscape Survey</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D81</th>
+      <td>definition</td>
+      <td>CCC-Linear Dichotomy</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T39</th>
+      <td>theorem</td>
+      <td>K5 Structural Exclusion</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R19</th>
+      <td>remark</td>
+      <td>Barr's Star-Autonomous Categories</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D82</th>
+      <td>definition</td>
+      <td>Enrichment Frontier Classification</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R20</th>
+      <td>remark</td>
+      <td>E0-E3 Literature Map</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R21</th>
+      <td>remark</td>
+      <td>Scale Declaration</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D83</th>
+      <td>definition</td>
+      <td>Primorial Presheaf</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T40</th>
+      <td>theorem</td>
+      <td>Presheaf Characterization</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T41</th>
+      <td>theorem</td>
+      <td>Bi-Square Characterization</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D84</th>
+      <td>definition</td>
+      <td>Constructive Reals</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T42</th>
+      <td>theorem</td>
+      <td>Archimedean Property</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P39</th>
+      <td>proposition</td>
+      <td>TauReal Ring Axioms</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D85</th>
+      <td>definition</td>
+      <td>Elliptic Complex Field</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D86</th>
+      <td>definition</td>
+      <td>Elliptic-Hyperbolic Dichotomy</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T43</th>
+      <td>theorem</td>
+      <td>TauComplex Ring Axioms</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D87</th>
+      <td>definition</td>
+      <td>Elliptic Quaternions</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T44</th>
+      <td>theorem</td>
+      <td>Quaternion Non-Commutativity</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R22</th>
+      <td>remark</td>
+      <td>Hurwitz Classification Preview</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D88</th>
+      <td>definition</td>
+      <td>Cyclotomic Fields</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T45</th>
+      <td>theorem</td>
+      <td>Roots of Unity CRT Decomposition</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R23</th>
+      <td>remark</td>
+      <td>Galois Theory Preview</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D89</th>
+      <td>definition</td>
+      <td>Diagonal Resonance</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D90</th>
+      <td>definition</td>
+      <td>Identity Slippage</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D91</th>
+      <td>definition</td>
+      <td>Shadow Identity</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R24</th>
+      <td>remark</td>
+      <td>Five Reasons Why The Bug Hides</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R25</th>
+      <td>remark</td>
+      <td>Orthodox Foundations Under the Lens</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T46</th>
+      <td>theorem</td>
+      <td>Ontic Identity Invariance</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.C03</th>
+      <td>corollary</td>
+      <td>No Identity Decoherence</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T47</th>
+      <td>theorem</td>
+      <td>Slippage Breaks Unique Omega</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D92</th>
+      <td>definition</td>
+      <td>Identity-Faithful Reception</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D93</th>
+      <td>definition</td>
+      <td>Structural Instability</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T48</th>
+      <td>theorem</td>
+      <td>Structural Instability Theorem</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R26</th>
+      <td>remark</td>
+      <td>Implications for Absolute Meaning</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R27</th>
+      <td>remark</td>
+      <td>Honest Scope Declaration</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D94</th>
+      <td>definition</td>
+      <td>Orbit-Set Map</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P40</th>
+      <td>proposition</td>
+      <td>Extensionality</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P41</th>
+      <td>proposition</td>
+      <td>Self-Containment Partition</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P42</th>
+      <td>proposition</td>
+      <td>Order Bound</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R28</th>
+      <td>remark</td>
+      <td>Inseparability of N and omega</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R29</th>
+      <td>remark</td>
+      <td>Finite-Infinite Boundary</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R30</th>
+      <td>remark</td>
+      <td>Duality and Atoms</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D95</th>
+      <td>definition</td>
+      <td>τ-Measure Space</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D96</th>
+      <td>definition</td>
+      <td>Tower σ-Algebra</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T49</th>
+      <td>theorem</td>
+      <td>Countable Additivity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P43</th>
+      <td>proposition</td>
+      <td>Measure Compatibility</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D97</th>
+      <td>definition</td>
+      <td>Galois Automorphism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D98</th>
+      <td>definition</td>
+      <td>Galois Group of Primorial Stage</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T50</th>
+      <td>theorem</td>
+      <td>Fundamental Theorem of Internal Galois Theory</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P44</th>
+      <td>proposition</td>
+      <td>CRT-Galois Decomposition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D99</th>
+      <td>definition</td>
+      <td>τ-Integral</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T51</th>
+      <td>theorem</td>
+      <td>Linearity of Integration</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P45</th>
+      <td>proposition</td>
+      <td>Monotone Convergence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D101</th>
+      <td>definition</td>
+      <td>Prime Counting in Progressions</td>
+      <td>estab</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D102</th>
+      <td>definition</td>
+      <td>Chebyshev Bias Measure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.T52</th>
+      <td>theorem</td>
+      <td>Bias at Primorial Levels</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R31</th>
+      <td>remark</td>
+      <td>Wiring Primitives</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R32</th>
+      <td>remark</td>
+      <td>Product-Free Operator Definitions</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R33</th>
+      <td>remark</td>
+      <td>Route B Axioms Comparison</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R34</th>
+      <td>remark</td>
+      <td>Normalization Endofunctors M and E</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R35</th>
+      <td>remark</td>
+      <td>Address Combinators: Merge and Lift</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R36</th>
+      <td>remark</td>
+      <td>CGANF to ABCD Design Evolution</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R37</th>
+      <td>remark</td>
+      <td>Cluster Collapse in ABCD Context</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R38</th>
+      <td>remark</td>
+      <td>Token-Set vs Tuple Encoding</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R39</th>
+      <td>remark</td>
+      <td>Dimension Readout Functors</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P46</th>
+      <td>proposition</td>
+      <td>No Second Linearity</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.C04</th>
+      <td>corollary</td>
+      <td>NF Deduplication Invariant</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D103</th>
+      <td>definition</td>
+      <td>Polarity Pairing</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R40</th>
+      <td>remark</td>
+      <td>Pairing Density</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D104</th>
+      <td>definition</td>
+      <td>PolStream</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R41</th>
+      <td>remark</td>
+      <td>PolStream Aperiodicity</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R42</th>
+      <td>remark</td>
+      <td>Lemniscate Lipschitz Forward Reference</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R43</th>
+      <td>remark</td>
+      <td>Quaternion Open Question</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D105</th>
+      <td>definition</td>
+      <td>Tau-Weighted Boundary Constants</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.D106</th>
+      <td>definition</td>
+      <td>Tau-Bayesian State</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.P47</th>
+      <td>proposition</td>
+      <td>Bayesian Factorization</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R44</th>
+      <td>remark</td>
+      <td>Lean Bayesian Status</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">I.R45</th>
+      <td>remark</td>
+      <td>Distributivity from Combinators</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 

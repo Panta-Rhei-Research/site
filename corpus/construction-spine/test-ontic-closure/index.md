@@ -90,8 +90,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThe final step gathers the strongest closure burdens: no externalities, substrate non-deferral, diagrammatic access, self-containment, universal invariance, bridge adequacy, residual boundaries, and ontic status.\n\n## Why this step is required\n\nOntic status cannot be asserted at the beginning. It can only be tested after the construction has faced mathematics, physics, life, reflection, and self-hosting.\n\n## Key constructions\n\n- No externalities.\n- Substrate non-deferral.\n- Self-containment and universal properties.\n- Bridge adequacy.\n- Residual-boundary disclosure."
 ---
 
-# Step 10 - Test Universal Closure and Ontic Status
-
 > Tests no externalities, substrate non-deferral, self-containment, bridge adequacy, residual boundaries, and the ontic-status burden.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -176,6 +174,7 @@ This step does not say the kernel has proven final ontic status. It is where the
 
 - Ontic closure remains the strongest evaluative burden, not a theorem the site should present as already settled.
 
-## Next step in the spine
+## Spine navigation
 
-This is the final construction step in the canonical v2.1 spine.
+- Previous: [Step 9 - Self-Host Formal Systems and the Kernel Itself](/corpus/construction-spine/self-host-formal-systems/)
+- Next: This is the final construction step; return to the [Construction Spine overview](/corpus/construction-spine/).

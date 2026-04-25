@@ -69,7 +69,9 @@ verification:
   taulib_modules:
     - "TauLib.BookI.Kernel.Signature"
     - "TauLib.BookI.Kernel.Axioms"
+  bridge_check_status: "not_applicable"
   bridge_checks: []
+  empirical_check_status: "not_applicable"
   empirical_checks: []
   unresolved_frontiers:
     - "Kernel definition does not by itself settle later bridge, empirical, or ontic-status burdens."
@@ -97,8 +99,6 @@ canonical_source: "corpus/construction-spine"
 do_not_edit: true
 _body: "## What this step builds\n\nThe first step defines the tau-kernel as the minimal formal core of the program. It introduces the primitive generators, the progression operator, the kernel axioms, and the discipline that prevents arbitrary external resources from entering the system unnoticed.\n\n## Why this step is required\n\nThe program cannot begin by assuming a finished mathematical or physical background. A candidate no-externalities framework must first say what its starting structure is, how that structure generates objects, and what counts as admissible construction.\n\n## Key constructions\n\n- The five primitive generators.\n- The global progression operator.\n- K0-K6 as the initial kernel axiom cluster.\n- Boundary and fixed-point behavior.\n- Diagonal and resource discipline."
 ---
-
-# Step 1 - Define the Kernel
 
 > Defines the minimal formal core from which the rest of the Corpus is built.
 
@@ -163,11 +163,11 @@ The program cannot begin by assuming a finished mathematical or physical backgro
 
 ## Bridge Checks
 
-_Mapping pending._
+Not applicable at this step. Later bridge claims depend on the kernel but are verified in downstream construction steps.
 
 ## Empirical Checks
 
-_Mapping pending._
+Not applicable at this step. Empirical accountability begins after internal physical grammar and measurement bridges are constructed.
 
 ## Related Verify surfaces
 
@@ -191,6 +191,7 @@ This step defines the formal kernel. It does not yet recover mathematics, identi
 
 - Kernel definition does not by itself settle later bridge, empirical, or ontic-status burdens.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-02`.
+- Previous: [Construction Spine overview](/corpus/construction-spine/)
+- Next: [Step 2 - Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)

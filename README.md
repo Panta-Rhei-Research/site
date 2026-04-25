@@ -10,12 +10,12 @@ The program develops **Category τ**, a constrained formal kernel (5 generators,
 |---|---|---|
 | **Public website** | [`Panta-Rhei-Research/site`](https://github.com/Panta-Rhei-Research/site) (this repo) | Jekyll source for `panta-rhei.site` — the program hub |
 | **Publications** | [`Panta-Rhei-Research/publications`](https://github.com/Panta-Rhei-Research/publications) | Open-access publication artefacts and source files |
-| **TauLib** | [`Panta-Rhei-Research/taulib`](https://github.com/Panta-Rhei-Research/taulib) | Lean 4 formalization (450 modules, 125,771 lines, 4,332 theorems, 3 axioms, 0 sorry) — documented at `taulib.site` |
+| **TauLib** | [`Panta-Rhei-Research/taulib`](https://github.com/Panta-Rhei-Research/taulib) | Lean 4 formalization (445 modules, 127,440 lines, 4,332 theorems, 3 axioms, 0 sorry) — documented at `taulib.site` |
 | **Research** | [`Panta-Rhei-Research/research`](https://github.com/Panta-Rhei-Research/research) | Public workspace for open notebooks, scripts, and supplementary analyses |
 | **Community** | [`Panta-Rhei-Research/community`](https://github.com/Panta-Rhei-Research/community) | Public discussion and onboarding surface |
 | **Historical archive** | [`Panta-Rhei-Research/formalization`](https://github.com/Panta-Rhei-Research/formalization) | Archived historical formalization snapshot |
 
-The program is published as a seven-book canonical monograph series (3,431 pages, 79 parts, 535 chapters — available now on Amazon KDP), with a free 190-page **Physics Ledger** companion carrying 67 numerical predictions + 30-item falsification pack.
+The program is published as a seven-book canonical monograph series (3,431 pages, 79 parts, 535 chapters — available now on Amazon KDP), with a free 209-page **Numerical Physics Ledger** companion carrying 67 numerical predictions + 30-item falsification pack.
 
 ## Building locally
 

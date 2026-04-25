@@ -57,15 +57,19 @@ The other Research Agenda surfaces state what the program must face: open proble
 
 ## The 10 construction steps
 
-<div class="v2-grid">
+<ol class="v2-grid v2-step-list">
 {% for step in steps %}
-  <a class="v2-tile" href="{{ step.corpus_path | relative_url }}">
-    <strong>{{ step.sequence }}. {{ step.title }}</strong>
-    <span>{{ step.required_to_do }}</span>
-    <span class="chip">{{ step.build_status | replace: "_", " " }}</span>
-  </a>
+  <li>
+    <a class="v2-tile" href="{{ step.corpus_path | relative_url }}">
+      <article>
+        <h3>{{ step.sequence }}. {{ step.title }}</h3>
+        <p>{{ step.required_to_do }}</p>
+        <span class="chip">{{ step.build_status | replace: "_", " " }}</span>
+      </article>
+    </a>
+  </li>
 {% endfor %}
-</div>
+</ol>
 
 ## How this roadmap appears in Corpus
 
