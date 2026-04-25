@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "lrec-l0"
 url: "/program/research-agenda/recovery-requirements/life/life-as-a-recoverable-category/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Life as a Recoverable Category

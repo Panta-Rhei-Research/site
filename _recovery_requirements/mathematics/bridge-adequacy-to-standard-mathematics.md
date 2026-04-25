@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "mrec-m5"
 url: "/program/research-agenda/recovery-requirements/mathematics/bridge-adequacy-to-standard-mathematics/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Bridge Adequacy to Standard Mathematics

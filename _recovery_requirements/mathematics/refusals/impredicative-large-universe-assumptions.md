@@ -49,6 +49,11 @@ tags:
   - "mathematical-refusals"
   - "mref-r7"
 url: "/program/research-agenda/recovery-requirements/mathematics/refusals/impredicative-large-universe-assumptions/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Impredicative Large-Universe Assumptions

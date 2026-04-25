@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "prec-p4"
 url: "/program/research-agenda/recovery-requirements/physics/fundamental-constants/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Fundamental Constants

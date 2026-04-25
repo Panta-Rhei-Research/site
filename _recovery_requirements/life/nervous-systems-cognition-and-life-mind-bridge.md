@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "lrec-l9"
 url: "/program/research-agenda/recovery-requirements/life/nervous-systems-cognition-and-life-mind-bridge/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Nervous Systems, Cognition, and Life-Mind Bridge

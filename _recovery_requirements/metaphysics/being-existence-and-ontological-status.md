@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r1"
 url: "/program/research-agenda/recovery-requirements/metaphysics/being-existence-and-ontological-status/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Being, Existence, and Ontological Status

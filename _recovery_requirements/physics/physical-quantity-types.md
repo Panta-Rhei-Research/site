@@ -45,6 +45,20 @@ tags:
   - "recovery-requirements"
   - "prec-p0"
 url: "/program/research-agenda/recovery-requirements/physics/physical-quantity-types/"
+expanded_rationale: "A physics-facing kernel must explain why physical quantities have stable roles before it can claim to recover laws, constants, or measurements. This item therefore tests whether the framework carries a typed measurement grammar rather than an untyped numerical fit."
+public_summary: "Physical recovery begins with typed quantities: time, length, energy, charge, temperature, count, and luminosity cannot be treated as interchangeable labels."
+what_this_requires:
+  - "Stable semantic roles for time, length, mass/energy, charge/current, temperature, amount/count, and luminosity where required."
+  - "A bridge from internal invariants to public measurement units without treating units as primitive ontology."
+  - "Enough type discipline to prevent category mistakes between formal parameters, empirical observables, and calibration conventions."
+what_this_does_not_claim:
+  - "It does not claim that every conventional unit is ontically primitive."
+  - "It does not claim that public measurement practice is already fully derived."
+  - "It does not replace empirical calibration with formal notation."
+related_examples:
+  - "Time, length, and mass/energy roles in physics recovery."
+  - "SI calibration as a bridge rather than a primitive substrate."
+  - "Dimension and quantity checks for later Results claims."
 ---
 
 # Physical Quantity Types

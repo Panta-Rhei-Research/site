@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r9"
 url: "/program/research-agenda/recovery-requirements/metaphysics/language-symbol-and-narrative/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Language, Symbol, and Narrative

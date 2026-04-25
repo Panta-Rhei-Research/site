@@ -47,6 +47,11 @@ tags:
   - "recovery-requirements"
   - "mrec-m0"
 url: "/program/research-agenda/recovery-requirements/mathematics/mechanical-formal-checkability/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Mechanical Formal Checkability

@@ -71,6 +71,15 @@ tags:
   - "consciousness"
   - "mind"
 url: "/program/research-agenda/problem-ledger/life/consciousness/"
+results_mirror:
+  exists: true
+  result_id: "result-025"
+  result_status: "partially_addressed"
+  result_url: "/results/problem/consciousness-global-section/"
+verify_links:
+  exists: false
+  verification_mode: ""
+  verify_url: ""
 ---
 
 # Consciousness

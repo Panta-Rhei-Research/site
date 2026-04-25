@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "lrec-l1"
 url: "/program/research-agenda/recovery-requirements/life/boundary-and-individuality/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Boundary and Individuality

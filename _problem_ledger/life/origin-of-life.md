@@ -70,6 +70,15 @@ tags:
   - "abiogenesis"
   - "biology"
 url: "/program/research-agenda/problem-ledger/life/origin-of-life/"
+results_mirror:
+  exists: true
+  result_id: "result-019"
+  result_status: "partially_addressed"
+  result_url: "/results/problem/abiogenesis-inevitability/"
+verify_links:
+  exists: false
+  verification_mode: ""
+  verify_url: ""
 ---
 
 # Origin of Life

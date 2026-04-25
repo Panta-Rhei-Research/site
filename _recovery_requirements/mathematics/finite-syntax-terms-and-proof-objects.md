@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "mrec-m1"
 url: "/program/research-agenda/recovery-requirements/mathematics/finite-syntax-terms-and-proof-objects/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Finite Syntax, Terms, and Proof Objects

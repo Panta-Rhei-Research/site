@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r2"
 url: "/program/research-agenda/recovery-requirements/metaphysics/identity-difference-and-individuation/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Identity, Difference, and Individuation

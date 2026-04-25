@@ -59,6 +59,31 @@
   }
 }
 
+.prose table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.4rem 0;
+}
+
+.prose th,
+.prose td {
+  min-width: 160px;
+  padding: 10px 12px;
+  border: var(--border-default);
+  vertical-align: top;
+  text-align: left;
+}
+
+.prose th {
+  font-family: $font-ui;
+  font-weight: 650;
+  color: var(--color-brand-800);
+  background: var(--color-brand-50);
+}
+
 // Chips
 .chip {
   display: inline-flex;

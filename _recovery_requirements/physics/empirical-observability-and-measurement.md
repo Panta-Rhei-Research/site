@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "prec-p7"
 url: "/program/research-agenda/recovery-requirements/physics/empirical-observability-and-measurement/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Empirical Observability and Measurement

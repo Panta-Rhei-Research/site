@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "mrec-m3"
 url: "/program/research-agenda/recovery-requirements/mathematics/euclidean-geometry/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Euclidean Geometry

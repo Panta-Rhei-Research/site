@@ -46,6 +46,11 @@ tags:
   - "recovery-requirements"
   - "meth-r7"
 url: "/program/research-agenda/recovery-requirements/metaphysics/truth-knowledge-and-intelligibility/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Truth, Knowledge, and Intelligibility

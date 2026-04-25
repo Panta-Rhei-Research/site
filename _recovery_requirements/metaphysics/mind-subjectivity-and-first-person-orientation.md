@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r8"
 url: "/program/research-agenda/recovery-requirements/metaphysics/mind-subjectivity-and-first-person-orientation/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Mind, Subjectivity, and First-Person Orientation

@@ -90,6 +90,10 @@ The gap between these levels is not treated as a decorative philosophical caveat
     <strong>Related Approaches</strong>
     <span>A respectful comparison with structural, computational, informational, relational, and mind/life theories.</span>
   </a>
+  <a class="v2-tile" href="{{ '/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/' | relative_url }}">
+    <strong>Deep Comparison</strong>
+    <span>A longer expert-facing matrix of neighboring approaches under the no-externalities and recovery burdens.</span>
+  </a>
 </div>
 
 ## Relation to the ledgers

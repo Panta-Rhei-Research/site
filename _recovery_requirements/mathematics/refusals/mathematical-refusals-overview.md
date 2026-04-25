@@ -49,6 +49,11 @@ tags:
   - "mathematical-refusals"
   - "mref-r0"
 url: "/program/research-agenda/recovery-requirements/mathematics/refusals/mathematical-refusals-overview/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Mathematical Refusals Overview

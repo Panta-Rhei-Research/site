@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r11"
 url: "/program/research-agenda/recovery-requirements/metaphysics/ultimate-boundary-closure-and-the-question-of-why/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Ultimate Boundary, Closure, and the Question of Why

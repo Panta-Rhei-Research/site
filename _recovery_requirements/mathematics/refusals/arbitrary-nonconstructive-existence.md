@@ -50,6 +50,11 @@ tags:
   - "mathematical-refusals"
   - "mref-r4"
 url: "/program/research-agenda/recovery-requirements/mathematics/refusals/arbitrary-nonconstructive-existence/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Arbitrary Nonconstructive Existence

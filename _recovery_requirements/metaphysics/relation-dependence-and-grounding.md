@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r3"
 url: "/program/research-agenda/recovery-requirements/metaphysics/relation-dependence-and-grounding/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Relation, Dependence, and Grounding

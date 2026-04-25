@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r6"
 url: "/program/research-agenda/recovery-requirements/metaphysics/time-becoming-and-process/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Time, Becoming, and Process

@@ -18,10 +18,14 @@ hero_ctas:
   - label: "No Externalities"
     url: /program/research-agenda/kernel-model-reality/no-externalities/
     primary: true
+  - label: "Deep Comparison"
+    url: /program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/
   - label: "Substrate Non-Deferral"
     url: /program/research-agenda/kernel-model-reality/substrate-non-deferral/
 right_rail:
   related:
+    - title: "Related Approaches: Deep Comparison"
+      url: /program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/
     - title: "Kernel, Model & Reality"
       url: /program/research-agenda/kernel-model-reality/
     - title: "Ontic Status Burden"
@@ -53,6 +57,8 @@ Each family is read through four questions:
 - what Panta Rhei shares
 - what may remain external or unresolved
 - how Panta Rhei assigns the burden differently
+
+For the longer expert-facing matrix and expanded discussion, see [Related Approaches: Deep Comparison]({{ '/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/' | relative_url }}).
 
 ## Approach families
 

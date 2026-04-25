@@ -49,6 +49,11 @@ tags:
   - "mathematical-refusals"
   - "mref-r2"
 url: "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-comprehension/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Unrestricted Comprehension

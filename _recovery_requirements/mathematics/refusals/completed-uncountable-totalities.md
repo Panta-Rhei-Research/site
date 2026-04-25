@@ -49,6 +49,11 @@ tags:
   - "mathematical-refusals"
   - "mref-r5"
 url: "/program/research-agenda/recovery-requirements/mathematics/refusals/completed-uncountable-totalities/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Completed Uncountable Totalities

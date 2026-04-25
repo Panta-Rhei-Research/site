@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r4"
 url: "/program/research-agenda/recovery-requirements/metaphysics/causality-explanation-and-constraint/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Causality, Explanation, and Constraint

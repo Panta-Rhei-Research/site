@@ -60,6 +60,15 @@ tags:
   - "millennium-problem"
   - "regrounding"
 url: "/program/research-agenda/problem-ledger/mathematics/poincare-conjecture/"
+results_mirror:
+  exists: true
+  result_id: "result-228"
+  result_status: "partially_addressed"
+  result_url: "/results/problem/poincar-conjecture-reinterpretation/"
+verify_links:
+  exists: false
+  verification_mode: ""
+  verify_url: ""
 ---
 
 # Poincare Conjecture

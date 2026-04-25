@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "lrec-l5"
 url: "/program/research-agenda/recovery-requirements/life/evolution-and-adaptive-search/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Evolution and Adaptive Search

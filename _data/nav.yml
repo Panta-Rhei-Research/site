@@ -128,6 +128,8 @@ lane_nav:
                 url: "/program/research-agenda/kernel-model-reality/substrate-non-deferral/"
               - title: "Related Approaches"
                 url: "/program/research-agenda/kernel-model-reality/related-approaches/"
+              - title: "Related Approaches: Deep Comparison"
+                url: "/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/"
               - title: "Answer-Shape Requirements"
                 url: "/program/research-agenda/kernel-model-reality/answer-shape-requirements/"
           - title: "Result Criteria"

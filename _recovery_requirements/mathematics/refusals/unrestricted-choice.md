@@ -49,6 +49,20 @@ tags:
   - "mathematical-refusals"
   - "mref-r3"
 url: "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-choice/"
+expanded_rationale: "The refusal is not an anti-mathematical slogan. It protects the distinction between what the kernel constructs, what it treats as an object theory, and what it may borrow under an explicit bridge. Unrestricted choice becomes dangerous only when it silently moves from external mathematics into primitive machinery."
+public_summary: "Choice-like principles may be studied and bridged, but they cannot enter the kernel as untyped ambient permission."
+what_this_requires:
+  - "A visible separation between constructive recovery and external classical proof."
+  - "Explicit bridge assumptions whenever choice-like principles are imported."
+  - "A record of which conclusions depend on such bridge use."
+what_this_does_not_claim:
+  - "It does not deny the usefulness of choice-like principles inside classical mathematics."
+  - "It does not forbid studying ZFC or related systems as object theories."
+  - "It does not prevent bridge use when the assumptions are named."
+related_examples:
+  - "ZFC as object theory rather than primitive substrate."
+  - "Bridge adequacy to standard mathematics."
+  - "Audit trails for theorem transfer across foundations."
 ---
 
 # Unrestricted Choice

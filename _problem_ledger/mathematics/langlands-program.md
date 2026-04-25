@@ -60,6 +60,15 @@ tags:
   - "unification"
   - "number-theory"
 url: "/program/research-agenda/problem-ledger/mathematics/langlands-program/"
+results_mirror:
+  exists: true
+  result_id: "result-231"
+  result_status: "partially_addressed"
+  result_url: "/results/problem/langlands-program-approach/"
+verify_links:
+  exists: false
+  verification_mode: ""
+  verify_url: ""
 ---
 
 # Langlands Program

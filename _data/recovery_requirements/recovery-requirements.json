@@ -37,7 +37,16 @@
       "recovery-requirements",
       "lrec-l0"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/life-as-a-recoverable-category/"
+    "url": "/program/research-agenda/recovery-requirements/life/life-as-a-recoverable-category/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L1",
@@ -77,7 +86,16 @@
       "recovery-requirements",
       "lrec-l1"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/boundary-and-individuality/"
+    "url": "/program/research-agenda/recovery-requirements/life/boundary-and-individuality/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L2",
@@ -117,7 +135,16 @@
       "recovery-requirements",
       "lrec-l2"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/metabolism-and-energy-throughput/"
+    "url": "/program/research-agenda/recovery-requirements/life/metabolism-and-energy-throughput/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L3",
@@ -157,7 +184,16 @@
       "recovery-requirements",
       "lrec-l3"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/encoding-heredity-and-genotype-phenotype-split/"
+    "url": "/program/research-agenda/recovery-requirements/life/encoding-heredity-and-genotype-phenotype-split/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L4",
@@ -197,7 +233,16 @@
       "recovery-requirements",
       "lrec-l4"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/reproduction-heredity-and-variation/"
+    "url": "/program/research-agenda/recovery-requirements/life/reproduction-heredity-and-variation/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L5",
@@ -237,7 +282,16 @@
       "recovery-requirements",
       "lrec-l5"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/evolution-and-adaptive-search/"
+    "url": "/program/research-agenda/recovery-requirements/life/evolution-and-adaptive-search/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L6",
@@ -277,7 +331,16 @@
       "recovery-requirements",
       "lrec-l6"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/morphogenesis-and-development/"
+    "url": "/program/research-agenda/recovery-requirements/life/morphogenesis-and-development/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L7",
@@ -317,7 +380,16 @@
       "recovery-requirements",
       "lrec-l7"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/tree-of-life-and-classification-structure/"
+    "url": "/program/research-agenda/recovery-requirements/life/tree-of-life-and-classification-structure/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L8",
@@ -357,7 +429,16 @@
       "recovery-requirements",
       "lrec-l8"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/ecology-and-multi-agent-coupling/"
+    "url": "/program/research-agenda/recovery-requirements/life/ecology-and-multi-agent-coupling/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "LREC-L9",
@@ -397,7 +478,16 @@
       "recovery-requirements",
       "lrec-l9"
     ],
-    "url": "/program/research-agenda/recovery-requirements/life/nervous-systems-cognition-and-life-mind-bridge/"
+    "url": "/program/research-agenda/recovery-requirements/life/nervous-systems-cognition-and-life-mind-bridge/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R0",
@@ -443,7 +533,16 @@
       "mathematical-refusals",
       "mref-r0"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/mathematical-refusals-overview/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/mathematical-refusals-overview/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R1",
@@ -489,7 +588,16 @@
       "mathematical-refusals",
       "mref-r1"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-power-set-formation/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-power-set-formation/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R2",
@@ -535,7 +643,16 @@
       "mathematical-refusals",
       "mref-r2"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-comprehension/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-comprehension/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R3",
@@ -581,7 +698,28 @@
       "mathematical-refusals",
       "mref-r3"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-choice/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-choice/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "The refusal is not an anti-mathematical slogan. It protects the distinction between what the kernel constructs, what it treats as an object theory, and what it may borrow under an explicit bridge. Unrestricted choice becomes dangerous only when it silently moves from external mathematics into primitive machinery.",
+    "public_summary": "Choice-like principles may be studied and bridged, but they cannot enter the kernel as untyped ambient permission.",
+    "what_this_requires": [
+      "A visible separation between constructive recovery and external classical proof.",
+      "Explicit bridge assumptions whenever choice-like principles are imported.",
+      "A record of which conclusions depend on such bridge use."
+    ],
+    "what_this_does_not_claim": [
+      "It does not deny the usefulness of choice-like principles inside classical mathematics.",
+      "It does not forbid studying ZFC or related systems as object theories.",
+      "It does not prevent bridge use when the assumptions are named."
+    ],
+    "related_examples": [
+      "ZFC as object theory rather than primitive substrate.",
+      "Bridge adequacy to standard mathematics.",
+      "Audit trails for theorem transfer across foundations."
+    ]
   },
   {
     "id": "MREF-R4",
@@ -628,7 +766,16 @@
       "mathematical-refusals",
       "mref-r4"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/arbitrary-nonconstructive-existence/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/arbitrary-nonconstructive-existence/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R5",
@@ -674,7 +821,16 @@
       "mathematical-refusals",
       "mref-r5"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/completed-uncountable-totalities/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/completed-uncountable-totalities/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R6",
@@ -720,7 +876,16 @@
       "mathematical-refusals",
       "mref-r6"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/silent-contraction-and-unrestricted-reuse/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/silent-contraction-and-unrestricted-reuse/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R7",
@@ -766,7 +931,16 @@
       "mathematical-refusals",
       "mref-r7"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/impredicative-large-universe-assumptions/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/impredicative-large-universe-assumptions/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREF-R8",
@@ -811,7 +985,16 @@
       "mathematical-refusals",
       "mref-r8"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unqualified-theorem-transfer/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/refusals/unqualified-theorem-transfer/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREC-M0",
@@ -853,7 +1036,16 @@
       "recovery-requirements",
       "mrec-m0"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/mechanical-formal-checkability/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/mechanical-formal-checkability/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREC-M1",
@@ -893,7 +1085,16 @@
       "recovery-requirements",
       "mrec-m1"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/finite-syntax-terms-and-proof-objects/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/finite-syntax-terms-and-proof-objects/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREC-M2",
@@ -933,7 +1134,16 @@
       "recovery-requirements",
       "mrec-m2"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/finite-arithmetic-and-algebraic-structure/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/finite-arithmetic-and-algebraic-structure/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREC-M3",
@@ -973,7 +1183,16 @@
       "recovery-requirements",
       "mrec-m3"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/euclidean-geometry/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/euclidean-geometry/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREC-M4",
@@ -1014,7 +1233,16 @@
       "recovery-requirements",
       "mrec-m4"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/zfc-as-object-theory/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/zfc-as-object-theory/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "MREC-M5",
@@ -1054,7 +1282,16 @@
       "recovery-requirements",
       "mrec-m5"
     ],
-    "url": "/program/research-agenda/recovery-requirements/mathematics/bridge-adequacy-to-standard-mathematics/"
+    "url": "/program/research-agenda/recovery-requirements/mathematics/bridge-adequacy-to-standard-mathematics/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R0",
@@ -1094,7 +1331,16 @@
       "recovery-requirements",
       "meth-r0"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/reality-as-a-recoverable-field/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/reality-as-a-recoverable-field/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R1",
@@ -1134,7 +1380,16 @@
       "recovery-requirements",
       "meth-r1"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/being-existence-and-ontological-status/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/being-existence-and-ontological-status/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R10",
@@ -1174,7 +1429,16 @@
       "recovery-requirements",
       "meth-r10"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/value-normativity-and-ethics/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/value-normativity-and-ethics/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R11",
@@ -1214,7 +1478,16 @@
       "recovery-requirements",
       "meth-r11"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/ultimate-boundary-closure-and-the-question-of-why/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/ultimate-boundary-closure-and-the-question-of-why/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R2",
@@ -1254,7 +1527,16 @@
       "recovery-requirements",
       "meth-r2"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/identity-difference-and-individuation/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/identity-difference-and-individuation/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R3",
@@ -1294,7 +1576,16 @@
       "recovery-requirements",
       "meth-r3"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/relation-dependence-and-grounding/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/relation-dependence-and-grounding/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R4",
@@ -1334,7 +1625,16 @@
       "recovery-requirements",
       "meth-r4"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/causality-explanation-and-constraint/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/causality-explanation-and-constraint/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R5",
@@ -1374,7 +1674,16 @@
       "recovery-requirements",
       "meth-r5"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/modality-possibility-necessity-and-contingency/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/modality-possibility-necessity-and-contingency/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R6",
@@ -1414,7 +1723,16 @@
       "recovery-requirements",
       "meth-r6"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/time-becoming-and-process/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/time-becoming-and-process/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R7",
@@ -1455,7 +1773,16 @@
       "recovery-requirements",
       "meth-r7"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/truth-knowledge-and-intelligibility/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/truth-knowledge-and-intelligibility/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R8",
@@ -1495,7 +1822,16 @@
       "recovery-requirements",
       "meth-r8"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/mind-subjectivity-and-first-person-orientation/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/mind-subjectivity-and-first-person-orientation/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "METH-R9",
@@ -1535,7 +1871,16 @@
       "recovery-requirements",
       "meth-r9"
     ],
-    "url": "/program/research-agenda/recovery-requirements/metaphysics/language-symbol-and-narrative/"
+    "url": "/program/research-agenda/recovery-requirements/metaphysics/language-symbol-and-narrative/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "PREC-P0",
@@ -1575,7 +1920,28 @@
       "recovery-requirements",
       "prec-p0"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/physical-quantity-types/"
+    "url": "/program/research-agenda/recovery-requirements/physics/physical-quantity-types/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "A physics-facing kernel must explain why physical quantities have stable roles before it can claim to recover laws, constants, or measurements. This item therefore tests whether the framework carries a typed measurement grammar rather than an untyped numerical fit.",
+    "public_summary": "Physical recovery begins with typed quantities: time, length, energy, charge, temperature, count, and luminosity cannot be treated as interchangeable labels.",
+    "what_this_requires": [
+      "Stable semantic roles for time, length, mass/energy, charge/current, temperature, amount/count, and luminosity where required.",
+      "A bridge from internal invariants to public measurement units without treating units as primitive ontology.",
+      "Enough type discipline to prevent category mistakes between formal parameters, empirical observables, and calibration conventions."
+    ],
+    "what_this_does_not_claim": [
+      "It does not claim that every conventional unit is ontically primitive.",
+      "It does not claim that public measurement practice is already fully derived.",
+      "It does not replace empirical calibration with formal notation."
+    ],
+    "related_examples": [
+      "Time, length, and mass/energy roles in physics recovery.",
+      "SI calibration as a bridge rather than a primitive substrate.",
+      "Dimension and quantity checks for later Results claims."
+    ]
   },
   {
     "id": "PREC-P1",
@@ -1615,7 +1981,16 @@
       "recovery-requirements",
       "prec-p1"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/dimensional-algebra/"
+    "url": "/program/research-agenda/recovery-requirements/physics/dimensional-algebra/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "PREC-P2",
@@ -1655,7 +2030,16 @@
       "recovery-requirements",
       "prec-p2"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/natural-internal-unit-system/"
+    "url": "/program/research-agenda/recovery-requirements/physics/natural-internal-unit-system/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "PREC-P3",
@@ -1695,7 +2079,16 @@
       "recovery-requirements",
       "prec-p3"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/si-empirical-calibration-bridge/"
+    "url": "/program/research-agenda/recovery-requirements/physics/si-empirical-calibration-bridge/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "PREC-P4",
@@ -1735,7 +2128,16 @@
       "recovery-requirements",
       "prec-p4"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/fundamental-constants/"
+    "url": "/program/research-agenda/recovery-requirements/physics/fundamental-constants/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "PREC-P5",
@@ -1775,7 +2177,16 @@
       "recovery-requirements",
       "prec-p5"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/core-dynamical-laws/"
+    "url": "/program/research-agenda/recovery-requirements/physics/core-dynamical-laws/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "PREC-P6",
@@ -1815,7 +2226,16 @@
       "recovery-requirements",
       "prec-p6"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/physical-regime-bridges/"
+    "url": "/program/research-agenda/recovery-requirements/physics/physical-regime-bridges/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   },
   {
     "id": "PREC-P7",
@@ -1855,6 +2275,15 @@
       "recovery-requirements",
       "prec-p7"
     ],
-    "url": "/program/research-agenda/recovery-requirements/physics/empirical-observability-and-measurement/"
+    "url": "/program/research-agenda/recovery-requirements/physics/empirical-observability-and-measurement/",
+    "generated_from": "corpus/recovery-requirements",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/recovery-requirements",
+    "do_not_edit": true,
+    "expanded_rationale": "",
+    "public_summary": "",
+    "what_this_requires": [],
+    "what_this_does_not_claim": [],
+    "related_examples": []
   }
 ]

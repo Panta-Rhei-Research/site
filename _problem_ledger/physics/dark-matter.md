@@ -69,6 +69,15 @@ tags:
   - "dark-matter"
   - "particle-physics"
 url: "/program/research-agenda/problem-ledger/physics/dark-matter/"
+results_mirror:
+  exists: true
+  result_id: "result-015"
+  result_status: "partially_addressed"
+  result_url: "/results/problem/no-dark-matter-particle/"
+verify_links:
+  exists: false
+  verification_mode: ""
+  verify_url: ""
 ---
 
 # Dark Matter

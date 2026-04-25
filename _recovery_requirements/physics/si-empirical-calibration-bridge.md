@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "prec-p3"
 url: "/program/research-agenda/recovery-requirements/physics/si-empirical-calibration-bridge/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # SI / Empirical Calibration Bridge

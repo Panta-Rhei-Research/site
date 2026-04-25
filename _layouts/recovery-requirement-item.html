@@ -37,7 +37,48 @@ layout: default
 
 <section class="content-card">
   <div class="prose">
+    {% assign has_rich_recovery = false %}
+    {% if page.expanded_rationale or page.public_summary or page.what_this_requires.size > 0 or page.what_this_does_not_claim.size > 0 or page.related_examples.size > 0 %}
+      {% assign has_rich_recovery = true %}
+    {% endif %}
+    {% if has_rich_recovery %}
+    <h2>Requirement</h2>
+    <p>{{ page.public_summary | default: page.summary }}</p>
+
+    {% if page.expanded_rationale %}
+    <h2>Why This Matters</h2>
+    <p>{{ page.expanded_rationale }}</p>
+    {% endif %}
+
+    {% if page.what_this_requires.size > 0 %}
+    <h2>What This Target Requires</h2>
+    <ul>
+      {% for item in page.what_this_requires %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.what_this_does_not_claim.size > 0 %}
+    <h2>What This Target Does Not Claim</h2>
+    <ul>
+      {% for item in page.what_this_does_not_claim %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.related_examples.size > 0 %}
+    <h2>Related Examples</h2>
+    <ul>
+      {% for item in page.related_examples %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% else %}
     {{ content }}
+    {% endif %}
 
     <h2>Ledger Classification</h2>
     <div class="dep-list">

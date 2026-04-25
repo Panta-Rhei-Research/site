@@ -61,6 +61,15 @@ tags:
   - "millennium-problem"
   - "spectral"
 url: "/program/research-agenda/problem-ledger/mathematics/riemann-hypothesis/"
+results_mirror:
+  exists: true
+  result_id: "result-091"
+  result_status: "partially_addressed"
+  result_url: "/results/problem/riemann-hypothesis/"
+verify_links:
+  exists: false
+  verification_mode: ""
+  verify_url: ""
 ---
 
 # Riemann Hypothesis

@@ -68,6 +68,15 @@ tags:
   - "philosophy"
   - "something-rather-than-nothing"
 url: "/program/research-agenda/problem-ledger/metaphysics-philosophy/why-something-rather-than-nothing/"
+results_mirror:
+  exists: true
+  result_id: "result-219"
+  result_status: "partially_addressed"
+  result_url: "/results/problem/why-something-rather-than-nothing/"
+verify_links:
+  exists: false
+  verification_mode: ""
+  verify_url: ""
 ---
 
 # Why Is There Something Rather Than Nothing?

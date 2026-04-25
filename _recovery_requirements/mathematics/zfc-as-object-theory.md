@@ -46,6 +46,11 @@ tags:
   - "recovery-requirements"
   - "mrec-m4"
 url: "/program/research-agenda/recovery-requirements/mathematics/zfc-as-object-theory/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # ZFC as Object Theory

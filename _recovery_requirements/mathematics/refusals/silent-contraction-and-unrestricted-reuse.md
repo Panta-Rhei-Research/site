@@ -49,6 +49,11 @@ tags:
   - "mathematical-refusals"
   - "mref-r6"
 url: "/program/research-agenda/recovery-requirements/mathematics/refusals/silent-contraction-and-unrestricted-reuse/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Silent Contraction and Unrestricted Reuse

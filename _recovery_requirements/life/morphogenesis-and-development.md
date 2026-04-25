@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "lrec-l6"
 url: "/program/research-agenda/recovery-requirements/life/morphogenesis-and-development/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Morphogenesis and Development

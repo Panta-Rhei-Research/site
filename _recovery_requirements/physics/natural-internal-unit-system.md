@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "prec-p2"
 url: "/program/research-agenda/recovery-requirements/physics/natural-internal-unit-system/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Natural / Internal Unit System

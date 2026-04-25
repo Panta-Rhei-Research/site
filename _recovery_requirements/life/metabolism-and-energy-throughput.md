@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "lrec-l2"
 url: "/program/research-agenda/recovery-requirements/life/metabolism-and-energy-throughput/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Metabolism and Energy Throughput

@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r10"
 url: "/program/research-agenda/recovery-requirements/metaphysics/value-normativity-and-ethics/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Value, Normativity, and Ethics

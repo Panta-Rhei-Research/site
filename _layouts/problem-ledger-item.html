@@ -53,6 +53,47 @@ layout: default
     <p>{{ page.program.notes }}</p>
     {% endif %}
 
+    <h2>Results Mirror Readiness</h2>
+    <div class="dep-list">
+      <div class="dep-link">
+        <span class="dep-id">Status</span>
+        <span class="dep-title">{% if page.results_mirror.exists %}Exists{% else %}Pending{% endif %}</span>
+      </div>
+      {% if page.results_mirror.result_id %}
+      {% assign mirror_matches = site.data.results.results | where: "id", page.results_mirror.result_id %}
+      {% assign mirror_result = mirror_matches | first %}
+      {% if mirror_result %}
+      <a class="dep-link" href="{{ mirror_result.url | relative_url }}">
+        <span class="dep-id">{{ mirror_result.id }}</span>
+        <span class="dep-title">{{ mirror_result.title }}</span>
+      </a>
+      {% else %}
+      <div class="dep-link"><span class="dep-id">{{ page.results_mirror.result_id }}</span><span class="dep-title">Result page pending</span></div>
+      {% endif %}
+      {% else %}
+      <div class="dep-link"><span class="dep-id">Result</span><span class="dep-title">No Results mirror mapped yet</span></div>
+      {% endif %}
+      <div class="dep-link"><span class="dep-id">Result status</span><span class="dep-title">{{ page.results_mirror.result_status | default: page.program.result_status | replace: "_", " " }}</span></div>
+    </div>
+
+    <h2>Verify Links Readiness</h2>
+    <div class="dep-list">
+      <div class="dep-link">
+        <span class="dep-id">Status</span>
+        <span class="dep-title">{% if page.verify_links.exists %}Available{% else %}Pending{% endif %}</span>
+      </div>
+      {% if page.verify_links.verify_url and page.verify_links.verify_url != "" %}
+      <a class="dep-link" href="{{ page.verify_links.verify_url | relative_url }}">
+        <span class="dep-id">Verify</span>
+        <span class="dep-title">{{ page.verify_links.verification_mode | replace: "-", " " | replace: "_", " " }}</span>
+      </a>
+      {% elsif page.verify_links.verification_mode and page.verify_links.verification_mode != "" %}
+      <div class="dep-link"><span class="dep-id">Verify</span><span class="dep-title">{{ page.verify_links.verification_mode | replace: "-", " " | replace: "_", " " }}</span></div>
+      {% else %}
+      <div class="dep-link"><span class="dep-id">Verify</span><span class="dep-title">No Verify surface mapped yet</span></div>
+      {% endif %}
+    </div>
+
     <h2>Related Results</h2>
     {% if page.related.results.size > 0 %}
     <div class="dep-list">

@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "meth-r5"
 url: "/program/research-agenda/recovery-requirements/metaphysics/modality-possibility-necessity-and-contingency/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Modality: Possibility, Necessity, and Contingency

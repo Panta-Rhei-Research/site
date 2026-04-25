@@ -45,6 +45,11 @@ tags:
   - "recovery-requirements"
   - "lrec-l7"
 url: "/program/research-agenda/recovery-requirements/life/tree-of-life-and-classification-structure/"
+expanded_rationale: ""
+public_summary: ""
+what_this_requires: []
+what_this_does_not_claim: []
+related_examples: []
 ---
 
 # Tree-of-Life and Classification Structure
