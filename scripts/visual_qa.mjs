@@ -27,6 +27,17 @@ const pages = [
   { name: "verify", url: "/verify/", expect: ["Verify"] },
   { name: "verify-spine", url: "/verify/construction-spine-verification/", expect: ["Verify the Construction Spine"] },
   { name: "publications", url: "/publications/", expect: ["Publications"] },
+  { name: "research-notes", url: "/publications/research-notes/", expect: ["Research Notes", "Browse Research Notes"] },
+  {
+    name: "research-note-chirality",
+    url: "/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/",
+    expect: ["A Structural Prior", "Claim Boundary", "Download PDF"],
+  },
+  {
+    name: "research-note-inflation",
+    url: "/publications/research-notes/inflationary-observables-without-an-inflaton/",
+    expect: ["Inflationary Observables", "Verification Surface", "Download PDF"],
+  },
   { name: "impact", url: "/impact/", expect: ["Impact"] },
   { name: "engage", url: "/engage/", expect: ["Engage"] },
   { name: "result-hubble", url: "/results/problem/hubble-tension/", expect: ["Hubble"] },
@@ -332,6 +343,69 @@ async function runVisualQa() {
       await agendaPage.screenshot({ path: agendaShot, fullPage: true });
       screenshots.push(agendaShot);
       await agendaPage.close();
+
+      const notesPage = await context.newPage();
+      await notesPage.goto(pageUrl(baseUrl, "/publications/research-notes/"), {
+        waitUntil: "networkidle",
+        timeout: 30000,
+      });
+
+      const noteCountValue = async () => {
+        const value = await notesPage.locator("#research-notes-count").textContent();
+        return Number((value || "").trim());
+      };
+      const notesState = async () =>
+        notesPage.evaluate(() => ({
+          query: window.location.search,
+          emptyVisible: !document.getElementById("research-notes-empty")?.hidden,
+          activeFilters: Array.from(document.querySelectorAll("#research-notes-controls .filter-chip.is-active")).map(
+            (el) => `${el.getAttribute("data-filter")}:${el.getAttribute("data-value")}`,
+          ),
+        }));
+
+      const initialNotesCount = await noteCountValue();
+      if (initialNotesCount < 8) {
+        failures.push(`${viewport.name}/research-notes: unexpected initial count ${initialNotesCount}`);
+      }
+
+      await notesPage.locator('[data-filter="note_type"][data-value="pre-registration-note"]').click();
+      await notesPage.locator('[data-filter="domain"][data-value="physics"]').click();
+      await notesPage.waitForTimeout(250);
+
+      const filteredNotesCount = await noteCountValue();
+      const filteredNotesState = await notesState();
+      if (!(filteredNotesCount > 0 && filteredNotesCount < initialNotesCount)) {
+        failures.push(`${viewport.name}/research-notes: pre-registration/physics filter count ${filteredNotesCount} did not narrow from ${initialNotesCount}`);
+      }
+      if (!filteredNotesState.query.includes("note_type=pre-registration-note") || !filteredNotesState.query.includes("domain=physics")) {
+        failures.push(`${viewport.name}/research-notes: filter query string did not persist expected params`);
+      }
+
+      await notesPage.reload({ waitUntil: "networkidle", timeout: 30000 });
+      const reloadedNotesCount = await noteCountValue();
+      const reloadedNotesState = await notesState();
+      if (reloadedNotesCount !== filteredNotesCount) {
+        failures.push(`${viewport.name}/research-notes: reload changed filtered count from ${filteredNotesCount} to ${reloadedNotesCount}`);
+      }
+      if (
+        !reloadedNotesState.activeFilters.includes("note_type:pre-registration-note") ||
+        !reloadedNotesState.activeFilters.includes("domain:physics")
+      ) {
+        failures.push(`${viewport.name}/research-notes: active filters were not restored after reload`);
+      }
+
+      await notesPage.locator("#research-notes-clear-filters").click();
+      await notesPage.waitForTimeout(250);
+      const resetNotesCount = await noteCountValue();
+      const resetNotesState = await notesState();
+      if (resetNotesCount !== initialNotesCount || resetNotesState.query !== "" || resetNotesState.emptyVisible) {
+        failures.push(`${viewport.name}/research-notes: clear filters did not restore initial state`);
+      }
+
+      const notesShot = path.join(outputDir, screenshotName(viewport.name, "research-notes", "filters"));
+      await notesPage.screenshot({ path: notesShot, fullPage: true });
+      screenshots.push(notesShot);
+      await notesPage.close();
       await context.close();
     }
   } finally {

@@ -10,12 +10,12 @@ publication_type: "Research Note"
 status: "Active"
 summary_short: "Substantial outward-facing research writing from the Panta Rhei Research Program."
 summary_cards:
-  - title: "Publication objects"
-    body: "Each note is a dated, substantial research artifact with metadata, related links, and stable URL."
-  - title: "Subscribable"
-    body: "Receive new Research Notes by email through the Follow the Research page."
-  - title: "Not a blog"
-    body: "Research Notes are not changelog entries, informal news, or marketing posts; they are outward-facing research writing."
+  - title: "PDF-backed artifacts"
+    body: "Research Notes are dated publication objects with stable URLs, citable PDFs where available, and explicit claim boundaries."
+  - title: "Connected to the system"
+    body: "Each note points to the relevant Corpus, Results, Verify, Recovery, and publication surfaces when those links exist."
+  - title: "Scholarly updates"
+    body: "Notes carry substantial research writing: responses to anchor papers, pre-registrations, verification explainers, and bridge texts."
 right_rail:
   related:
     - title: "Follow the Research"
@@ -33,16 +33,23 @@ right_rail:
 
 ## What Research Notes are
 
-Research Notes are the program's outward-facing short-form publication stream. They publish substantial responses to new scientific developments, framework-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers or companion papers.
+Research Notes are the program's dated scholarly publication channel for substantial public-facing research writing. They publish responses to anchor papers, observational pre-registrations, verification explainers, framework-based reinterpretations of recent results, and bridge texts that may later become white papers or companion papers.
 
-Research Notes are not a blog, not a news stream, and not a [changelog]({{ '/changelog/' | relative_url }}). They are dated, article-like texts written for readers who want to follow the program's thinking as it develops.
+Research Notes are not informal commentary, promotional updates, or a [changelog]({{ '/changelog/' | relative_url }}). They are dated, article-like texts written for readers who want to follow the program's thinking as it develops.
 
 ## What each note exposes
 
-Each Research Note should make its status inspectable: date, note type, domain, abstract, keywords, related results or verification pages, and any downloadable artifact when one exists. This keeps notes lightweight while still making them citable and searchable.
+Each Research Note makes its status inspectable: date, note type, domain, abstract, anchor paper or context, core claim, what is not claimed, falsification or verification route, related Corpus/Results/Verify/Recovery links, citation guidance, and any downloadable PDF artifact when one exists.
+
+## Note families
+
+- **Response Notes** compare the framework against a named external anchor paper or result.
+- **Pre-Registration Notes** place a framework commitment on a future or live empirical target before the decisive test is complete.
+- **Verification Notes** explain what the public verification surfaces do and do not establish.
+- **Conceptual and Edition Notes** clarify framework interpretation, public release changes, and reading order.
 
 ## How to receive Research Notes
 
 New Research Notes can be received by email through the [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) page. Subscription is handled by Buttondown with double opt-in.
 
-## Recent notes
+## Current notes

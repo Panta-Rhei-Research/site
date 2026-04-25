@@ -30,9 +30,9 @@ right_rail:
 
 ## Receive Research Notes by Email
 
-The Panta Rhei Research Program publishes **Research Notes** — substantial responses to new scientific developments, framework-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers.
+The Panta Rhei Research Program publishes **Research Notes** — dated scholarly artifacts for responses to anchor papers, observational pre-registrations, framework-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers.
 
-Notes are published irregularly and only when there is something substantial to say. No marketing, no frequency pressure, no newsletter-speak.
+Notes are published irregularly and only when there is something substantial to say. No marketing, no frequency pressure, no filler.
 
 <div class="content-card" style="margin: 24px 0;">
 {% include buttondown-subscribe.html tag="engage" %}
@@ -40,7 +40,7 @@ Notes are published irregularly and only when there is something substantial to 
 
 ## What to expect
 
-- **Research Notes**: Dated, article-like texts published when there is something worth saying
+- **Research Notes**: Dated, article-like publication objects with claim boundaries, verification routes, and PDFs where available
 - **Program updates**: New verification surfaces, formalization milestones, publication releases
 - **No marketing**: This is a research program, not a product. Updates are substantive, not promotional
 - **Low frequency**: Notes arrive when there is something real to report, not on a schedule

@@ -4,10 +4,13 @@ layout: default
 
 {% include breadcrumb-nav.html %}
 
+{% assign note_pdf = page.pdf | default: page.pdf_url %}
+
 <article class="research-note-article">
 <header class="hero-card">
   <span class="eyebrow">Research Note &middot; <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %Y" }}</time></span>
   <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p><strong>{{ page.subtitle }}</strong></p>{% endif %}
   {% if page.summary_short %}
   <p>{{ page.summary_short }}</p>
   {% endif %}
@@ -16,39 +19,92 @@ layout: default
     {% if page.note_type %}<span class="chip">{{ page.note_type }}</span>{% endif %}
     {% if page.domain %}<span class="chip">{{ page.domain }}</span>{% endif %}
     {% if page.status %}<span class="chip">{{ page.status }}</span>{% endif %}
-    {% if page.topics %}
-    {% for topic in page.topics %}
-    <span class="chip">{{ topic }}</span>
-    {% endfor %}
-    {% endif %}
+    {% if note_pdf %}<span class="chip">PDF available</span>{% endif %}
   </div>
 </header>
 
-{% if page.abstract or page.pdf_url or page.keywords or page.updated %}
 <section class="content-card">
   <h2>Publication Metadata</h2>
   <div class="meta-list">
     {% if page.note_type %}<div class="meta-item"><span>Note type</span><span class="meta-value">{{ page.note_type }}</span></div>{% endif %}
+    {% if page.note_subtype %}<div class="meta-item"><span>Subtype</span><span class="meta-value">{{ page.note_subtype | replace: '-', ' ' }}</span></div>{% endif %}
     {% if page.domain %}<div class="meta-item"><span>Domain</span><span class="meta-value">{{ page.domain }}</span></div>{% endif %}
     {% if page.date %}<div class="meta-item"><span>Date</span><span class="meta-value">{{ page.date | date: "%d %B %Y" }}</span></div>{% endif %}
     {% if page.updated %}<div class="meta-item"><span>Updated</span><span class="meta-value">{{ page.updated }}</span></div>{% endif %}
   </div>
+  {% if page.anchor_paper or page.editorial.peer_review_status %}
+  <div class="prose" style="margin-top: 18px;">
+    {% if page.anchor_paper %}<p><strong>Anchor paper:</strong> {{ page.anchor_paper }}</p>{% endif %}
+    {% if page.editorial.peer_review_status %}<p><strong>Review status:</strong> {{ page.editorial.peer_review_status }}</p>{% endif %}
+  </div>
+  {% endif %}
   {% if page.abstract %}
   <div class="prose" style="margin-top: 18px;">
     <h3>Abstract</h3>
     <p>{{ page.abstract }}</p>
   </div>
   {% endif %}
-  {% if page.keywords %}
-  <div class="chip-row" style="margin-top: 10px;">
-    {% for keyword in page.keywords %}
-    <span class="chip">{{ keyword }}</span>
-    {% endfor %}
+  {% if note_pdf %}
+  <div class="btn-group" style="margin-top: 16px;">
+    <a class="btn-primary" href="{{ note_pdf | relative_url }}">Download PDF</a>
+    <a class="btn-secondary" href="{{ '/publications/research-notes/' | relative_url }}">All Research Notes</a>
   </div>
   {% endif %}
-  {% if page.pdf_url %}
-  <div class="btn-group" style="margin-top: 16px;">
-    <a class="btn-secondary" href="{{ page.pdf_url | relative_url }}">PDF artifact</a>
+</section>
+
+{% if page.anchor %}
+<section class="content-card">
+  <h2>Anchor Paper and Context</h2>
+  <div class="prose">
+    {% if page.anchor.title %}<h3>{{ page.anchor.title }}</h3>{% endif %}
+    {% if page.anchor.description %}<p>{{ page.anchor.description }}</p>{% endif %}
+    {% if page.anchor.relation %}<p><strong>Relation to this note:</strong> {{ page.anchor.relation }}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.claims %}
+<section class="content-card">
+  <h2>Claim Boundary</h2>
+  <div class="prose">
+    {% if page.claims.core %}
+    <h3>Core Claim</h3>
+    <p>{{ page.claims.core }}</p>
+    {% endif %}
+    {% if page.claims.does_not_claim %}
+    <h3>What This Note Does Not Claim</h3>
+    <ul>
+      {% for item in page.claims.does_not_claim %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if page.claims.falsification_surface %}
+    <h3>Falsification and Challenge Surface</h3>
+    <ul>
+      {% for item in page.claims.falsification_surface %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.verification %}
+<section class="content-card">
+  <h2>Verification Surface</h2>
+  <div class="meta-list">
+    {% if page.verification.status %}<div class="meta-item"><span>Status</span><span class="meta-value">{{ page.verification.status | replace: '_', ' ' }}</span></div>{% endif %}
+    {% if page.verification.mode %}<div class="meta-item"><span>Mode</span><span class="meta-value">{{ page.verification.mode | replace: '-', ' ' }}</span></div>{% endif %}
+  </div>
+  {% if page.verification.routes %}
+  <div class="dep-list" style="margin-top: 16px;">
+    {% for route in page.verification.routes %}
+    <a href="{{ route.url | relative_url }}" class="dep-link">
+      <span class="dep-title">{{ route.title }}</span>
+    </a>
+    {% endfor %}
   </div>
   {% endif %}
 </section>
@@ -61,21 +117,46 @@ layout: default
 </section>
 </article>
 
-{% if page.related_results or page.related_framework_modules or page.related_publications or page.related_verify %}
+{% if page.relations or page.related_results or page.related_framework_modules or page.related_publications or page.related_verify %}
 <div class="content-card">
-  <h2>Related</h2>
+  <h2>Related Public Surfaces</h2>
   <div class="dep-list">
+    {% if page.relations.corpus %}
+    {% for item in page.relations.corpus %}
+    <a href="{{ item.url | relative_url }}" class="dep-link"><span class="dep-title">{{ item.title }}</span><span class="dep-meta">Corpus</span></a>
+    {% endfor %}
+    {% endif %}
+    {% if page.relations.results %}
+    {% for item in page.relations.results %}
+    <a href="{{ item.url | relative_url }}" class="dep-link"><span class="dep-title">{{ item.title }}</span><span class="dep-meta">Results</span></a>
+    {% endfor %}
+    {% endif %}
+    {% if page.relations.verify %}
+    {% for item in page.relations.verify %}
+    <a href="{{ item.url | relative_url }}" class="dep-link"><span class="dep-title">{{ item.title }}</span><span class="dep-meta">Verify</span></a>
+    {% endfor %}
+    {% endif %}
+    {% if page.relations.recovery %}
+    {% for item in page.relations.recovery %}
+    <a href="{{ item.url | relative_url }}" class="dep-link"><span class="dep-title">{{ item.title }}</span><span class="dep-meta">Recovery</span></a>
+    {% endfor %}
+    {% endif %}
+    {% if page.relations.publications %}
+    {% for item in page.relations.publications %}
+    <a href="{{ item.url | relative_url }}" class="dep-link"><span class="dep-title">{{ item.title }}</span><span class="dep-meta">Publication</span></a>
+    {% endfor %}
+    {% endif %}
     {% if page.related_results %}
     {% for r in page.related_results %}
     <a href="{{ '/results/' | append: r | append: '/' | relative_url }}" class="dep-link">
-      <span class="dep-title">{{ r | replace: '-', ' ' | capitalize }}</span>
+      <span class="dep-title">{{ r | replace: '-', ' ' | capitalize }}</span><span class="dep-meta">Results</span>
     </a>
     {% endfor %}
     {% endif %}
     {% if page.related_framework_modules %}
     {% for m in page.related_framework_modules %}
     <a href="{{ '/framework/' | append: m | append: '/' | relative_url }}" class="dep-link">
-      <span class="dep-title">{{ m }}</span>
+      <span class="dep-title">{{ m }}</span><span class="dep-meta">Framework</span>
     </a>
     {% endfor %}
     {% endif %}
@@ -83,7 +164,7 @@ layout: default
     {% for p in page.related_publications %}
     {% assign p_label = p | replace: '/', ' ' | strip | replace: '-', ' ' | capitalize %}
     <a href="{{ p | relative_url }}" class="dep-link">
-      <span class="dep-title">{{ p_label }}</span>
+      <span class="dep-title">{{ p_label }}</span><span class="dep-meta">Publication</span>
     </a>
     {% endfor %}
     {% endif %}
@@ -91,10 +172,20 @@ layout: default
     {% for v in page.related_verify %}
     {% assign v_label = v | replace: '/', ' ' | strip | replace: '-', ' ' | capitalize %}
     <a href="{{ v | relative_url }}" class="dep-link">
-      <span class="dep-title">{{ v_label }}</span>
+      <span class="dep-title">{{ v_label }}</span><span class="dep-meta">Verify</span>
     </a>
     {% endfor %}
     {% endif %}
+  </div>
+</div>
+{% endif %}
+
+{% if page.editorial.citation_note %}
+<div class="content-card">
+  <h2>Citation and Status</h2>
+  <div class="prose">
+    <p>{{ page.editorial.citation_note }}</p>
+    {% if page.editorial.peer_review_status %}<p>{{ page.editorial.peer_review_status }}</p>{% endif %}
   </div>
 </div>
 {% endif %}

@@ -39,9 +39,13 @@
       {% if page.domain %}<span class="sr-only" data-pagefind-meta="domain">{{ page.domain }}</span>{% endif %}
       {% if page.publication_type %}<span class="sr-only" data-pagefind-meta="publication_type">{{ page.publication_type }}</span>{% endif %}
       {% if page.note_type %}<span class="sr-only" data-pagefind-meta="note_type">{{ page.note_type }}</span>{% endif %}
+      {% if page.note_subtype %}<span class="sr-only" data-pagefind-meta="note_subtype">{{ page.note_subtype }}</span>{% endif %}
+      {% if page.anchor_paper %}<span class="sr-only" data-pagefind-meta="anchor_paper">{{ page.anchor_paper | strip_html }}</span>{% endif %}
+      {% if page.pdf_available %}<span class="sr-only" data-pagefind-meta="pdf_available">{{ page.pdf_available }}</span>{% endif %}
       {% if page.date %}<span class="sr-only" data-pagefind-meta="date">{{ page.date | date_to_xmlschema }}</span>{% endif %}
       {% if page.tags %}<span class="sr-only" data-pagefind-meta="tags">{{ page.tags | join: ', ' }}</span>{% endif %}
       {% if page.topics %}<span class="sr-only" data-pagefind-meta="topics">{{ page.topics | join: ', ' }}</span>{% endif %}
+      {% if page.search_keywords %}<span class="sr-only" data-pagefind-meta="search_keywords">{{ page.search_keywords | join: ', ' }}</span>{% endif %}
       {% if page.summary_short %}<span class="sr-only" data-pagefind-meta="summary">{{ page.summary_short | strip_html }}</span>{% endif %}
       {{ content }}
     </main>

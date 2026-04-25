@@ -149,6 +149,10 @@
 <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
 <meta name="citation_online_date" content="{{ page.date | date: '%Y/%m/%d' }}">
 <meta name="citation_publisher" content="Panta Rhei Research Program">
+{%- assign research_note_pdf = page.pdf | default: page.pdf_url -%}
+{%- if research_note_pdf -%}
+<meta name="citation_pdf_url" content="{{ research_note_pdf | absolute_url }}">
+{%- endif -%}
 <meta name="citation_language" content="en">
 <meta name="DC.title" content="{{ page.title | strip_html }}">
 <meta name="DC.creator" content="Fuchs, Thorsten">
