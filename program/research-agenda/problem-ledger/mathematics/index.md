@@ -39,4 +39,3 @@ Mathematics uses selected foundational stress tests, not a wholesale open-math i
   </a>
   {% endfor %}
 </div>
-

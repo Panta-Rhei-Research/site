@@ -39,4 +39,3 @@ Metaphysics / Philosophy uses Wikipedia's list of philosophical problems. The si
   </a>
   {% endfor %}
 </div>
-

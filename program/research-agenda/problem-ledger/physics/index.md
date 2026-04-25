@@ -39,4 +39,3 @@ Physics uses the full Wikipedia list of unsolved problems in physics as the mast
   </a>
   {% endfor %}
 </div>
-

@@ -39,4 +39,3 @@ Life uses the biology and neuroscience master ledgers. Medicine is excluded as a
   </a>
   {% endfor %}
 </div>
-
