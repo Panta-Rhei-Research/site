@@ -47,6 +47,10 @@ The roadmap is therefore not only about adding more material. It is about making
     <span>Keep registry entries, aliases, IDs, result links, and publication references aligned as the program evolves.</span>
   </div>
   <div class="v2-tile">
+    <strong>Agenda ledgers</strong>
+    <span>Keep the source-pinned Problem Ledger, Recovery Requirements projection, and Corpus integration synchronized.</span>
+  </div>
+  <div class="v2-tile">
     <strong>Formalization</strong>
     <span>Prioritize TauLib coverage for load-bearing kernel claims and public API surfaces that reviewers can audit.</span>
   </div>
@@ -67,4 +71,3 @@ The roadmap is therefore not only about adding more material. It is about making
 ## Scrutiny priority
 
 The most important roadmap question is not how quickly the program can expand. It is whether every expansion makes the research object more inspectable. Expansion without inspectability would be noise; inspectability without progress would be stasis. The roadmap needs both.
-

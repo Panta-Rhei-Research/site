@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="result-article recovery-requirement-article">
+<header class="hero-card">
+  <div class="module-eyebrow-row">
+    <span class="eyebrow">Program · Recovery Requirements</span>
+    <span class="chip">{{ page.display_domain }}</span>
+    <span class="chip">{{ page.recovery_status | replace: "_", " " | capitalize }}</span>
+    <span class="chip">{{ page.verification_status | replace: "_", " " | capitalize }}</span>
+  </div>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary_short %}
+  <p>{{ page.summary_short }}</p>
+  {% endif %}
+  <div class="chip-row">
+    <span class="chip">{{ page.canonical_recovery_id }}</span>
+    <span class="chip">{{ page.item_type | replace: "_", " " | capitalize }}</span>
+    <span class="chip">{{ page.program_role | replace: "_", " " | capitalize }}</span>
+  </div>
+</header>
+
+<section class="content-card">
+  <div class="prose">
+    {{ content }}
+
+    <h2>Ledger Classification</h2>
+    <div class="dep-list">
+      <div class="dep-link"><span class="dep-id">ID</span><span class="dep-title">{{ page.canonical_recovery_id }}</span></div>
+      <div class="dep-link"><span class="dep-id">Domain</span><span class="dep-title">{{ page.display_domain }}</span></div>
+      <div class="dep-link"><span class="dep-id">Recovery</span><span class="dep-title">{{ page.recovery_status | replace: "_", " " }}</span></div>
+      <div class="dep-link"><span class="dep-id">Verification</span><span class="dep-title">{{ page.verification_status | replace: "_", " " }}</span></div>
+      <div class="dep-link"><span class="dep-id">Role</span><span class="dep-title">{{ page.program_role | replace: "_", " " }}</span></div>
+    </div>
+
+    {% if page.related_recovery_targets and page.related_recovery_targets.size > 0 %}
+    <h2>Related Recovery Targets</h2>
+    <div class="dep-list">
+      {% for target_id in page.related_recovery_targets %}
+      {% assign matches = site.recovery_requirements | where: "canonical_recovery_id", target_id %}
+      {% assign target = matches | first %}
+      {% if target %}
+      <a class="dep-link" href="{{ target.url | relative_url }}">
+        <span class="dep-id">{{ target.canonical_recovery_id }}</span>
+        <span class="dep-title">{{ target.title }}</span>
+      </a>
+      {% else %}
+      <div class="dep-link"><span class="dep-id">{{ target_id }}</span><span class="dep-title">Recovery target pending</span></div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <h2>Related Results</h2>
+    {% if page.related.results.size > 0 %}
+    <div class="dep-list">
+      {% for result_id in page.related.results %}
+      {% assign matches = site.data.results.results | where: "id", result_id %}
+      {% assign result = matches | first %}
+      {% if result %}
+      <a class="dep-link" href="{{ result.url | relative_url }}">
+        <span class="dep-id">{{ result.id }}</span>
+        <span class="dep-title">{{ result.title }}</span>
+      </a>
+      {% else %}
+      <div class="dep-link"><span class="dep-id">{{ result_id }}</span><span class="dep-title">Result page pending</span></div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <p>No dedicated Result page mapped yet.</p>
+    {% endif %}
+
+    <h2>Related Corpus, Verify, Publications</h2>
+    <div class="dep-list">
+      <div class="dep-link"><span class="dep-id">Corpus</span><span class="dep-title">{% if page.related.corpus_items.size > 0 %}{{ page.related.corpus_items | join: ", " }}{% else %}No direct Corpus item mapped yet{% endif %}</span></div>
+      <div class="dep-link"><span class="dep-id">Verify</span><span class="dep-title">{% if page.related.verify.size > 0 %}{{ page.related.verify | join: ", " }}{% else %}No Verify surface mapped yet{% endif %}</span></div>
+      <div class="dep-link"><span class="dep-id">Publications</span><span class="dep-title">{% if page.related.publications.size > 0 %}{{ page.related.publications | join: ", " }}{% else %}No publication mapped yet{% endif %}</span></div>
+    </div>
+
+    <h2>Revision Metadata</h2>
+    <div class="dep-list">
+      <div class="dep-link"><span class="dep-id">Item version</span><span class="dep-title">{{ page.version.item_version }}</span></div>
+      <div class="dep-link"><span class="dep-id">Introduced</span><span class="dep-title">{{ page.version.introduced_in }}</span></div>
+      <div class="dep-link"><span class="dep-id">Generated from</span><span class="dep-title">{{ page.generated_from }}</span></div>
+    </div>
+  </div>
+</section>
+</article>

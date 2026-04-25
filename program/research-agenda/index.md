@@ -19,6 +19,8 @@ hero_ctas:
   - label: "Problem Ledger"
     url: /program/research-agenda/problem-ledger/
     primary: true
+  - label: "Recovery Requirements"
+    url: /program/research-agenda/recovery-requirements/
   - label: "Result Criteria"
     url: /program/research-agenda/result-criteria/
   - label: "Roadmap"
@@ -31,6 +33,8 @@ right_rail:
       url: /program/research-agenda/problem-ledger/
     - title: "Problem Ledger Source Policy"
       url: /program/research-agenda/problem-ledger-source-policy/
+    - title: "Recovery Requirements"
+      url: /program/research-agenda/recovery-requirements/
     - title: "Progress Against Agenda"
       url: /results/progress-against-agenda/
   meta:
@@ -61,6 +65,14 @@ For this reason, the Research Agenda uses external public problem ledgers as str
 | Life | Full biology + neuroscience lists | Life and mind cannot be assumed reducible as a premise |
 | Metaphysics / Philosophy | Full philosophical problems list | Ontology, knowledge, mind, meaning, proof, ethics, and science are in scope |
 
+## Open Problems vs Recovery Requirements
+
+The Problem Ledger exists because the program is not satisfied with redescribing known science. It must be tested against open problems: places where current knowledge does not yet close.
+
+The Recovery Requirements Ledger asks a different question. It records the known structures and conceptual grammars the kernel must recover before its answers can be taken seriously: formal reasoning, mathematical bridge criteria, physical measurement architecture, life-organization grammar, and metaphysical intelligibility.
+
+Both ledgers belong to the same burden of proof. They should not be collapsed into one another.
+
 ## Agenda pillars
 
 <div class="v2-grid">
@@ -87,6 +99,10 @@ For this reason, the Research Agenda uses external public problem ledgers as str
   <a class="v2-tile" href="{{ '/program/research-agenda/problem-ledger-source-policy/' | relative_url }}">
     <strong>Source Policy</strong>
     <span>How external problem ledgers are selected, pinned, imported, and classified.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/program/research-agenda/recovery-requirements/' | relative_url }}">
+    <strong>Recovery Requirements</strong>
+    <span>Known structures the kernel must recover without treating them as open-problem stress tests.</span>
   </a>
   <a class="v2-tile" href="{{ '/program/research-agenda/result-criteria/' | relative_url }}">
     <strong>Result Criteria</strong>

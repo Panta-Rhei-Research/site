@@ -57,6 +57,9 @@ collections:
   problem_ledger:
     output: true
     permalink: /program/research-agenda/problem-ledger/:path/
+  recovery_requirements:
+    output: true
+    permalink: /program/research-agenda/recovery-requirements/:path/
 
 collections_dir: .
 
@@ -125,5 +128,11 @@ defaults:
       type: "problem_ledger"
     values:
       layout: "problem-ledger-item"
+      lane: "program"
+      v2_lane: "program"
+  - scope:
+      type: "recovery_requirements"
+    values:
+      layout: "recovery-requirement-item"
       lane: "program"
       v2_lane: "program"

@@ -1,0 +1,60 @@
+---
+layout: "recovery-requirement-item"
+title: "SI / Empirical Calibration Bridge"
+permalink: "/program/research-agenda/recovery-requirements/physics/si-empirical-calibration-bridge/"
+lane: "program"
+v2_lane: "program"
+section: "research-agenda"
+type: "Recovery Requirement"
+status: "canonical"
+summary_short: "Physics recovery ledger entry: SI / Empirical Calibration Bridge."
+generated_from: "corpus/recovery-requirements"
+do_not_edit: true
+canonical_recovery_id: "PREC-P3"
+id: "PREC-P3"
+short_title: "SI / Empirical Calibration Bridge"
+slug: "si-empirical-calibration-bridge"
+domain: "physics"
+domain_slug: "physics"
+display_domain: "Physics"
+item_type: "recovery_requirement"
+visibility: "public"
+program_role: "physical_measurement_bridge"
+priority: "high"
+recovery_status: "partial"
+verification_status: "pending_physics_verification"
+related:
+  problem_ledger_items: []
+  corpus_items: []
+  results: []
+  verify:
+    - "verify-predictions-and-falsification"
+  publications: []
+refusal_type: ""
+not_refused: []
+related_recovery_targets: []
+version:
+  item_version: "0.1.0"
+  introduced_in: "recovery-ledger-v1"
+  last_modified: "2026-04-25"
+  change_summary: "Initial Recovery Requirements v0.1 item."
+tags:
+  - "physics"
+  - "recovery-requirements"
+  - "prec-p3"
+url: "/program/research-agenda/recovery-requirements/physics/si-empirical-calibration-bridge/"
+---
+
+# SI / Empirical Calibration Bridge
+
+## Requirement
+
+The kernel must bridge internal physical units to empirical measurement units such as SI.
+
+## What This Target Requires
+
+- Explicit calibration assumptions, unit conversions, and distinction between dimensionful and dimensionless quantities.
+
+## Current Status
+
+This v0.1 item fixes the public burden of proof. Detailed formal, empirical, or bridge verification remains routed through the Verify and Results lanes.
