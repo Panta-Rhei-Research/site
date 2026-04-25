@@ -54,6 +54,8 @@ cd taulib && lake build
 
 Build completes with **0 errors** and **0 sorry across all 7 books** — counted over the TauLib Lean corpus. Book VI has 30 Lean modules, none with `sorry`; Book VI's registry-level formalization is currently planned (0/168) and tracked separately — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}).
 
+**Metrics source:** the [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) is the authoritative reconciliation surface for the pinned TauLib commit, count scope, filter rules, and cross-page metric differences.
+
 ## What TauLib Verifies
 
 Lean compilation verifies **internal consistency**: every theorem follows from the axioms, every definition type-checks, every computation evaluates. This is a strong guarantee — but it is not the same as empirical truth.

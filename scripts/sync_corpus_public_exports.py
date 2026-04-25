@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import os
 import shutil
 from pathlib import Path
 from typing import Any
@@ -11,7 +12,7 @@ from typing import Any
 
 SITE_ROOT = Path(__file__).resolve().parents[1]
 ORG_ROOT = SITE_ROOT.parent
-CORPUS_EXPORTS = ORG_ROOT / "corpus" / "exports" / "public"
+CORPUS_EXPORTS = Path(os.environ.get("CORPUS_EXPORTS_DIR", ORG_ROOT / "corpus" / "exports" / "public"))
 
 
 def copy_file(source: Path, target: Path) -> None:
@@ -301,15 +302,31 @@ This is the Results-side mirror of the Program-side Recovery Requirements ledger
 
 ## Browse by domain
 
-<div class="v2-grid">
-{% assign groups = site.data.recovery_requirements["recovery-requirements"] | group_by: "domain_slug" %}
-{% for group in groups %}
-  <a class="v2-tile" href="{{ '/results/recovery-target-status/' | append: group.name | append: '/' | relative_url }}">
-    <strong>{{ group.name | replace: '-', ' ' | capitalize }}</strong>
-    <span>{{ group.items | size }} recovery/refusal item(s).</span>
-  </a>
+{% assign recovery_items = site.data.recovery_requirements["recovery-requirements"] %}
+{% assign recovery_domains = "mathematics,physics,life,metaphysics" | split: "," %}
+<ul class="v2-grid v2-card-list">
+{% for domain in recovery_domains %}
+  {% assign domain_items = recovery_items | where: "domain_slug", domain %}
+  {% assign partial_count = domain_items | where: "recovery_status", "partial" | size %}
+  {% assign not_applicable_count = domain_items | where: "recovery_status", "not_applicable" | size %}
+  {% assign pending_count = domain_items | where: "recovery_status", "pending_recovery" | size %}
+  {% if partial_count >= not_applicable_count and partial_count >= pending_count %}
+    {% assign dominant_status = "Partial" %}
+  {% elsif not_applicable_count >= partial_count and not_applicable_count >= pending_count %}
+    {% assign dominant_status = "Not applicable / refused" %}
+  {% else %}
+    {% assign dominant_status = "Pending recovery" %}
+  {% endif %}
+  <li>
+    <article class="v2-tile">
+      <h3>{{ domain | replace: '-', ' ' | capitalize }}</h3>
+      <p>{{ domain_items | size }} public recovery/refusal item{% unless domain_items.size == 1 %}s{% endunless %}.</p>
+      <p><strong>Dominant status:</strong> {{ dominant_status }}</p>
+      <p><a href="{{ '/results/recovery-target-status/' | append: domain | append: '/' | relative_url }}">Results mirror</a> · <a href="{{ '/program/research-agenda/recovery-requirements/' | append: domain | append: '/' | relative_url }}">Recovery Requirements</a></p>
+    </article>
+  </li>
 {% endfor %}
-</div>
+</ul>
 """
     write_markdown(
         root / "index.md",

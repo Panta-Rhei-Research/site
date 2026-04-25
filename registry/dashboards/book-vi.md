@@ -24,187 +24,1271 @@ Generated: 2026-03-10
 - **No dependencies (foundational):** VI.R01, VI.R02, VI.D01, VI.D02, VI.D03, VI.D05, VI.D06, VI.D07, VI.D09, VI.P02 ...
 
 ## Part Coverage
-| Part | Objects | Formalized | Planned | N/A |
-|------|---------|------------|---------|-----|
-| 0 | 2 | 0 | 0 | 2 |
-| 1 | 54 | 0 | 51 | 3 |
-| 2 | 14 | 0 | 10 | 4 |
-| 3 | 15 | 0 | 11 | 4 |
-| 4 | 13 | 0 | 11 | 2 |
-| 5 | 12 | 0 | 9 | 3 |
-| 6 | 18 | 0 | 16 | 2 |
-| 7 | 31 | 0 | 28 | 3 |
-| 8 | 9 | 0 | 7 | 2 |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">Part</th>
+      <th scope="col">Objects</th>
+      <th scope="col">Formalized</th>
+      <th scope="col">Planned</th>
+      <th scope="col">N/A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">0</th>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>54</td>
+      <td>0</td>
+      <td>51</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>14</td>
+      <td>0</td>
+      <td>10</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>15</td>
+      <td>0</td>
+      <td>11</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>13</td>
+      <td>0</td>
+      <td>11</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>12</td>
+      <td>0</td>
+      <td>9</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>18</td>
+      <td>0</td>
+      <td>16</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>31</td>
+      <td>0</td>
+      <td>28</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>9</td>
+      <td>0</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Object List
-| ID | Type | Name | Scope | Lean |
-|----|------|------|-------|------|
-| VI.R01 | remark | Classical Definitions Fail | estab | — |
-| VI.R02 | remark | E₂ Enrichment Positioning | estab | — |
-| VI.D01 | definition | Polarity Functional | tau-e | plan |
-| VI.D02 | definition | Polarity-Typed Two-Point Object (2_τ) | tau-e | plan |
-| VI.P01 | proposition | Low-Noise Carrier Condition | tau-e | plan |
-| VI.L01 | lemma | Weak-Sector Uniqueness | tau-e | plan |
-| VI.T01 | theorem | Parity Bridge Theorem | tau-e | plan |
-| VI.D03 | definition | Three Polarity Terms | tau-e | plan |
-| VI.D04 | definition | τ-Distinction | tau-e | plan |
-| VI.D05 | definition | Finite-Lineage Carrier | tau-e | plan |
-| VI.D06 | definition | Macro-Torus Carrier | tau-e | plan |
-| VI.D07 | definition | Galactic Carrier | tau-e | plan |
-| VI.T02 | theorem | Distinction Well-Definedness | tau-e | plan |
-| VI.D08 | definition | SelfDesc Predicate | tau-e | plan |
-| VI.D09 | definition | Internal Evaluator | tau-e | plan |
-| VI.P02 | proposition | Code Reconstruction | tau-e | plan |
-| VI.T03 | theorem | SelfDesc Closure Theorem | tau-e | plan |
-| VI.T04 | theorem | Layer Separation Lemma | tau-e | plan |
-| VI.L02 | lemma | NS-TOV Counterexample | tau-e | plan |
-| VI.P03 | proposition | Boundary Instability Prevents Code Closure | tau-e | plan |
-| VI.D10 | definition | Life Loop Class | tau-e | plan |
-| VI.D11 | definition | DecodeTarget | tau-e | plan |
-| VI.D12 | definition | DecodeHorizon | tau-e | plan |
-| VI.D13 | definition | Source Sub-Class (Loop_src) | tau-e | plan |
-| VI.D14 | definition | Closure Sub-Class (Loop_rec) | tau-e | plan |
-| VI.L03 | lemma | Loop Factorization | tau-e | plan |
-| VI.T05 | theorem | Metabolic Fiber Theorem | tau-e | plan |
-| VI.T06 | theorem | Consumer Mixer Uniqueness | tau-e | plan |
-| VI.D15 | definition | Life Sector | tau-e | plan |
-| VI.D16 | definition | Persistence Sector (α-base) | tau-e | plan |
-| VI.D17 | definition | Agency Sector (π-base) | tau-e | plan |
-| VI.D18 | definition | Source Sector (π'-fiber) | tau-e | plan |
-| VI.D19 | definition | Closure Sector (π''-fiber) | tau-e | plan |
-| VI.D20 | definition | Consumer Mixed Sector (π',π'') | tau-e | plan |
-| VI.T07 | theorem | Generator Adequacy at E₂ | tau-e | plan |
-| VI.L04 | lemma | No Fifth Primitive Sector | tau-e | plan |
-| VI.T08 | theorem | Organization = Distinction Structure | tau-e | plan |
-| VI.T09 | theorem | Metabolism = Life Loop Class | tau-e | plan |
-| VI.T10 | theorem | Homeostasis = Basin Stability | tau-e | plan |
-| VI.T11 | theorem | Growth = Carrier Refinement | tau-e | plan |
-| VI.T12 | theorem | Reproduction = Blueprint Propagation | tau-e | plan |
-| VI.T13 | theorem | Response = SelfDesc Adjustment | tau-e | plan |
-| VI.T14 | theorem | Evolution = PPAS Optimization | tau-e | plan |
-| VI.P04 | proposition | Seven Hallmarks Complete | tau-e | plan |
-| VI.D21 | definition | NoDist | tau-e | plan |
-| VI.D22 | definition | NoSelfDesc | tau-e | plan |
-| VI.T15 | theorem | Virus NoDist | tau-e | plan |
-| VI.L05 | lemma | Neutron NoDist | tau-e | plan |
-| VI.L06 | lemma | NS-NoSelfDesc | tau-e | plan |
-| VI.P05 | proposition | Canonical Life Phase Boundary | tau-e | plan |
-| VI.R03 | remark | Falsifiability Program | tau-e | — |
-| VI.D23 | definition | τ³ Domain Correspondence | tau-e | — |
-| VI.P06 | proposition | Seven Categorical Forces at E₂ | tau-e | plan |
-| VI.P07 | proposition | Force-Sector Matching | tau-e | plan |
-| VI.R04 | remark | Calibration Constants | tau-e | — |
-| VI.R05 | remark | τ³ Biology Correspondence | tau-e | — |
-| VI.D24 | definition | Persistence Sector | tau-e | — |
-| VI.D25 | definition | Temporal Stability Predicate | tau-e | — |
-| VI.T16 | theorem | Persistence as α-Base Stability | tau-e | — |
-| VI.R06 | remark | Archaea as Persistence Archetype | tau-e | — |
-| VI.R07 | remark | Extremophile Catalog | estab | — |
-| VI.D26 | definition | Abiogenesis as First Persistence Event | conje | — |
-| VI.P08 | proposition | Thermodynamic Inevitability of Life | conje | plan |
-| VI.R08 | remark | Speed of Abiogenesis | conje | — |
-| VI.D27 | definition | Temporal Lemniscate | tau-e | — |
-| VI.T17 | theorem | Circadian Rhythm as Poincaré Orbit | tau-e | — |
-| VI.P09 | proposition | 24-Hour Cycle as τ¹ Rotation | tau-e | plan |
-| VI.D28 | definition | Homochirality | estab | — |
-| VI.P10 | proposition | L-Amino Acid Preference as Parity Shadow | conje | — |
-| VI.R09 | remark | Homochirality Scope Discipline | conje | — |
-| VI.D29 | definition | Agency Sector | tau-e | — |
-| VI.D30 | definition | Spatial Motility Predicate | tau-e | — |
-| VI.T18 | theorem | Agency as π-Base Extension | tau-e | — |
-| VI.R10 | remark | Bacteria as Agency Archetype | tau-e | — |
-| VI.R11 | remark | Motility Catalog | estab | — |
-| VI.D31 | definition | Metabolic Circulation | tau-e | — |
-| VI.P11 | proposition | Krebs Cycle as Loop_L Instantiation | tau-e | — |
-| VI.D32 | definition | ATP/ADP Oscillation | tau-e | — |
-| VI.T19 | theorem | Universal Currency Uniqueness | tau-e | — |
-| VI.D33 | definition | Membrane as Lemniscate Boundary | tau-e | — |
-| VI.D34 | definition | Molecular Architecture | tau-e | — |
-| VI.P12 | proposition | Self-Assembly as Boundary-Induced Distinction | tau-e | — |
-| VI.D35 | definition | Three-Domain Sector Taxonomy | tau-e | — |
-| VI.R12 | remark | Sector Assignment Table | tau-e | — |
-| VI.R13 | remark | Eukarya as Fiber-Enabled Regime | tau-e | — |
-| VI.D36 | definition | Source Sector | tau-e | — |
-| VI.D37 | definition | Structure Generation Predicate | tau-e | — |
-| VI.T20 | theorem | Source as π'-Fiber Production | tau-e | — |
-| VI.D38 | definition | Carbon Fixation as Canonical Production | estab | — |
-| VI.P13 | proposition | Quantum Coherence in FMO Complex | conje | — |
-| VI.R14 | remark | Plants as Source Archetype | tau-e | — |
-| VI.R15 | remark | Sessile = Pure Source | tau-e | — |
-| VI.D39 | definition | Hodge Gradient at Biological Scale | tau-e | — |
-| VI.T21 | theorem | Turing Patterns as Hodge Eigenmode Instantiations | tau-e | — |
-| VI.P14 | proposition | Reaction-Diffusion from τ³ Structure | tau-e | — |
-| VI.D40 | definition | BSD Motivic Structure of the Genetic Code | tau-e | — |
-| VI.T22 | theorem | Codon Degeneracy as Error Correction | tau-e | — |
-| VI.P15 | proposition | Central Dogma as Morphism Composition | tau-e | — |
-| VI.D41 | definition | Closure Sector | estab | — |
-| VI.D42 | definition | Structure Recycling Predicate | estab | — |
-| VI.T23 | theorem | Closure as π''-Fiber Return | estab | — |
-| VI.R16 | remark | Fungi as Closure Archetype | estab | — |
-| VI.R17 | remark | Mycelial Network Topology | estab | — |
-| VI.D43 | definition | Aging as Defect Accumulation | estab | — |
-| VI.P16 | proposition | Repair Budget Exhaustion | estab | — |
-| VI.D44 | definition | Inter-Sector Web | estab | — |
-| VI.T24 | theorem | Ecosystem as Multi-Scale Poincaré Circulation | estab | — |
-| VI.R18 | remark | Nash Equilibria in Ecological Communities | estab | — |
-| VI.D45 | definition | Repair Budget | estab | — |
-| VI.P17 | proposition | Metamorphosis Preserves SelfDesc | estab | — |
-| VI.D46 | definition | Consumer Mixer on (π', π'') | tau-e | — |
-| VI.T25 | theorem | Signature Rigidity Determines Uniqueness | tau-e | — |
-| VI.L07 | lemma | Consumer as Bridge-Head to E₃ | tau-e | plan |
-| VI.D47 | definition | Fiber-Enabled Regime | tau-e | — |
-| VI.R19 | remark | 1st Ed Correction: Mixer (α,π) to (π',π'') | tau-e | — |
-| VI.D48 | definition | Multicellularity as Colimit | tau-e | — |
-| VI.P18 | proposition | Development as Controlled Differentiation | tau-e | — |
-| VI.D49 | definition | Recombination Functor | tau-e | — |
-| VI.T26 | theorem | Sex as Second Distinction | tau-e | — |
-| VI.D50 | definition | PPAS Algorithm on Fitness Landscapes | tau-e | — |
-| VI.T27 | theorem | Evolution as Optimization | tau-e | — |
-| VI.R20 | remark | Fitness Landscape Topology | tau-e | — |
-| VI.D51 | definition | Cellular Distinction Predicate | tau-e | — |
-| VI.T28 | theorem | Autoimmunity as Distinction Failure | tau-e | — |
-| VI.D52 | definition | Neural Architecture as τ³ Computer | tau-e | — |
-| VI.P19 | proposition | Sleep as Temporal Lemniscate Second Lobe | tau-e | — |
-| VI.D53 | definition | SelfDesc over Code, Not Carrier | tau-e | — |
-| VI.L08 | lemma | Substrate Replacement Preserves Life-Equivalence | tau-e | — |
-| VI.D54 | definition | Macro-Torus Carrier T(H_BH) | tau-e | plan |
-| VI.D55 | definition | Lexicographic Defect Functional | tau-e | plan |
-| VI.D56 | definition | Frame-Closure Defect | tau-e | plan |
-| VI.D57 | definition | Strong-Saturation Defect | tau-e | plan |
-| VI.T29 | theorem | BH Distinction Theorem | tau-e | plan |
-| VI.D58 | definition | BH DecodeTarget | tau-e | plan |
-| VI.D59 | definition | BH DecodeHorizon | tau-e | plan |
-| VI.L09 | lemma | BH Uniqueness Lemma | tau-e | plan |
-| VI.L10 | lemma | BH Constancy Lemma | tau-e | plan |
-| VI.T30 | theorem | BH SelfDesc Theorem | tau-e | plan |
-| VI.D60 | definition | ω-Representative of Life | tau-e | plan |
-| VI.D61 | definition | Lift_ω Constructor | tau-e | plan |
-| VI.L11 | lemma | Primorial Ladder Convergence | tau-e | plan |
-| VI.T31 | theorem | BH ω-Representative: Fusion Convergence | tau-e | plan |
-| VI.T32 | theorem | BH Seven Hallmarks Verified | tau-e | — |
-| VI.R21 | remark | BH-as-Alive Is Theorem, Not Metaphor | tau-e | — |
-| VI.D62 | definition | Life Basin | tau-e | — |
-| VI.D63 | definition | Carrier Ladder | tau-e | — |
-| VI.D64 | definition | Basin Predicate | tau-e | — |
-| VI.T33 | theorem | Galaxy-SMBH Anchor Lemma | tau-e | — |
-| VI.L12 | lemma | Basin Fusion via SMBH Merger | tau-e | — |
-| VI.D65 | definition | Distinction/SelfDesc Matrix | tau-e | — |
-| VI.T34 | theorem | Stars Are Not Alive | tau-e | — |
-| VI.R22 | remark | Organism/Ecosystem/Basin Taxonomy | tau-e | — |
-| VI.T35 | theorem | Crossing-Limit Theorem | tau-e | plan |
-| VI.T36 | theorem | Universal BH = Fully Alive State | tau-e | plan |
-| VI.P20 | proposition | Omega Point as Life Convergence | metap | — |
-| VI.D66 | definition | Ontic Enrichment Ladder E₀–E₃ | tau-e | — |
-| VI.D67 | definition | Three Identity Regimes | tau-e | — |
-| VI.T37 | theorem | Enrichment Saturation Theorem | tau-e | — |
-| VI.R23 | remark | τ as Third Option | tau-e | — |
-| VI.D68 | definition | Structural Self-Model | tau-e | — |
-| VI.D69 | definition | Minimal Conscious Agent | tau-e | — |
-| VI.T38 | theorem | Consciousness as Mixed-Sector Self-Modeling | tau-e | — |
-| VI.D70 | definition | Extended Lemniscate | tau-e | — |
-| VI.T39 | theorem | Language as Shared Code | tau-e | — |
-| VI.R24 | remark | Computation Theme Across the Book | tau-e | — |
-| VI.L13 | lemma | ω-Germ Cannot Be Resolved Diagrammatically | estab | — |
-| VI.T40 | theorem | Six Export Contracts to Book VII | estab | — |
-| VI.R25 | remark | Principled Science-Faith Boundary | estab | — |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Type</th>
+      <th scope="col">Name</th>
+      <th scope="col">Scope</th>
+      <th scope="col">Lean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">VI.R01</th>
+      <td>remark</td>
+      <td>Classical Definitions Fail</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R02</th>
+      <td>remark</td>
+      <td>E₂ Enrichment Positioning</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D01</th>
+      <td>definition</td>
+      <td>Polarity Functional</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D02</th>
+      <td>definition</td>
+      <td>Polarity-Typed Two-Point Object (2_τ)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P01</th>
+      <td>proposition</td>
+      <td>Low-Noise Carrier Condition</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L01</th>
+      <td>lemma</td>
+      <td>Weak-Sector Uniqueness</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T01</th>
+      <td>theorem</td>
+      <td>Parity Bridge Theorem</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D03</th>
+      <td>definition</td>
+      <td>Three Polarity Terms</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D04</th>
+      <td>definition</td>
+      <td>τ-Distinction</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D05</th>
+      <td>definition</td>
+      <td>Finite-Lineage Carrier</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D06</th>
+      <td>definition</td>
+      <td>Macro-Torus Carrier</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D07</th>
+      <td>definition</td>
+      <td>Galactic Carrier</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T02</th>
+      <td>theorem</td>
+      <td>Distinction Well-Definedness</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D08</th>
+      <td>definition</td>
+      <td>SelfDesc Predicate</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D09</th>
+      <td>definition</td>
+      <td>Internal Evaluator</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P02</th>
+      <td>proposition</td>
+      <td>Code Reconstruction</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T03</th>
+      <td>theorem</td>
+      <td>SelfDesc Closure Theorem</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T04</th>
+      <td>theorem</td>
+      <td>Layer Separation Lemma</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L02</th>
+      <td>lemma</td>
+      <td>NS-TOV Counterexample</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P03</th>
+      <td>proposition</td>
+      <td>Boundary Instability Prevents Code Closure</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D10</th>
+      <td>definition</td>
+      <td>Life Loop Class</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D11</th>
+      <td>definition</td>
+      <td>DecodeTarget</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D12</th>
+      <td>definition</td>
+      <td>DecodeHorizon</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D13</th>
+      <td>definition</td>
+      <td>Source Sub-Class (Loop_src)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D14</th>
+      <td>definition</td>
+      <td>Closure Sub-Class (Loop_rec)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L03</th>
+      <td>lemma</td>
+      <td>Loop Factorization</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T05</th>
+      <td>theorem</td>
+      <td>Metabolic Fiber Theorem</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T06</th>
+      <td>theorem</td>
+      <td>Consumer Mixer Uniqueness</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D15</th>
+      <td>definition</td>
+      <td>Life Sector</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D16</th>
+      <td>definition</td>
+      <td>Persistence Sector (α-base)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D17</th>
+      <td>definition</td>
+      <td>Agency Sector (π-base)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D18</th>
+      <td>definition</td>
+      <td>Source Sector (π'-fiber)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D19</th>
+      <td>definition</td>
+      <td>Closure Sector (π''-fiber)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D20</th>
+      <td>definition</td>
+      <td>Consumer Mixed Sector (π',π'')</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T07</th>
+      <td>theorem</td>
+      <td>Generator Adequacy at E₂</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L04</th>
+      <td>lemma</td>
+      <td>No Fifth Primitive Sector</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T08</th>
+      <td>theorem</td>
+      <td>Organization = Distinction Structure</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T09</th>
+      <td>theorem</td>
+      <td>Metabolism = Life Loop Class</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T10</th>
+      <td>theorem</td>
+      <td>Homeostasis = Basin Stability</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T11</th>
+      <td>theorem</td>
+      <td>Growth = Carrier Refinement</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T12</th>
+      <td>theorem</td>
+      <td>Reproduction = Blueprint Propagation</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T13</th>
+      <td>theorem</td>
+      <td>Response = SelfDesc Adjustment</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T14</th>
+      <td>theorem</td>
+      <td>Evolution = PPAS Optimization</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P04</th>
+      <td>proposition</td>
+      <td>Seven Hallmarks Complete</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D21</th>
+      <td>definition</td>
+      <td>NoDist</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D22</th>
+      <td>definition</td>
+      <td>NoSelfDesc</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T15</th>
+      <td>theorem</td>
+      <td>Virus NoDist</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L05</th>
+      <td>lemma</td>
+      <td>Neutron NoDist</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L06</th>
+      <td>lemma</td>
+      <td>NS-NoSelfDesc</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P05</th>
+      <td>proposition</td>
+      <td>Canonical Life Phase Boundary</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R03</th>
+      <td>remark</td>
+      <td>Falsifiability Program</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D23</th>
+      <td>definition</td>
+      <td>τ³ Domain Correspondence</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P06</th>
+      <td>proposition</td>
+      <td>Seven Categorical Forces at E₂</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P07</th>
+      <td>proposition</td>
+      <td>Force-Sector Matching</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R04</th>
+      <td>remark</td>
+      <td>Calibration Constants</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R05</th>
+      <td>remark</td>
+      <td>τ³ Biology Correspondence</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D24</th>
+      <td>definition</td>
+      <td>Persistence Sector</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D25</th>
+      <td>definition</td>
+      <td>Temporal Stability Predicate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T16</th>
+      <td>theorem</td>
+      <td>Persistence as α-Base Stability</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R06</th>
+      <td>remark</td>
+      <td>Archaea as Persistence Archetype</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R07</th>
+      <td>remark</td>
+      <td>Extremophile Catalog</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D26</th>
+      <td>definition</td>
+      <td>Abiogenesis as First Persistence Event</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P08</th>
+      <td>proposition</td>
+      <td>Thermodynamic Inevitability of Life</td>
+      <td>conje</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R08</th>
+      <td>remark</td>
+      <td>Speed of Abiogenesis</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D27</th>
+      <td>definition</td>
+      <td>Temporal Lemniscate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T17</th>
+      <td>theorem</td>
+      <td>Circadian Rhythm as Poincaré Orbit</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P09</th>
+      <td>proposition</td>
+      <td>24-Hour Cycle as τ¹ Rotation</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D28</th>
+      <td>definition</td>
+      <td>Homochirality</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P10</th>
+      <td>proposition</td>
+      <td>L-Amino Acid Preference as Parity Shadow</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R09</th>
+      <td>remark</td>
+      <td>Homochirality Scope Discipline</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D29</th>
+      <td>definition</td>
+      <td>Agency Sector</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D30</th>
+      <td>definition</td>
+      <td>Spatial Motility Predicate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T18</th>
+      <td>theorem</td>
+      <td>Agency as π-Base Extension</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R10</th>
+      <td>remark</td>
+      <td>Bacteria as Agency Archetype</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R11</th>
+      <td>remark</td>
+      <td>Motility Catalog</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D31</th>
+      <td>definition</td>
+      <td>Metabolic Circulation</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P11</th>
+      <td>proposition</td>
+      <td>Krebs Cycle as Loop_L Instantiation</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D32</th>
+      <td>definition</td>
+      <td>ATP/ADP Oscillation</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T19</th>
+      <td>theorem</td>
+      <td>Universal Currency Uniqueness</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D33</th>
+      <td>definition</td>
+      <td>Membrane as Lemniscate Boundary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D34</th>
+      <td>definition</td>
+      <td>Molecular Architecture</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P12</th>
+      <td>proposition</td>
+      <td>Self-Assembly as Boundary-Induced Distinction</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D35</th>
+      <td>definition</td>
+      <td>Three-Domain Sector Taxonomy</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R12</th>
+      <td>remark</td>
+      <td>Sector Assignment Table</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R13</th>
+      <td>remark</td>
+      <td>Eukarya as Fiber-Enabled Regime</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D36</th>
+      <td>definition</td>
+      <td>Source Sector</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D37</th>
+      <td>definition</td>
+      <td>Structure Generation Predicate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T20</th>
+      <td>theorem</td>
+      <td>Source as π'-Fiber Production</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D38</th>
+      <td>definition</td>
+      <td>Carbon Fixation as Canonical Production</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P13</th>
+      <td>proposition</td>
+      <td>Quantum Coherence in FMO Complex</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R14</th>
+      <td>remark</td>
+      <td>Plants as Source Archetype</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R15</th>
+      <td>remark</td>
+      <td>Sessile = Pure Source</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D39</th>
+      <td>definition</td>
+      <td>Hodge Gradient at Biological Scale</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T21</th>
+      <td>theorem</td>
+      <td>Turing Patterns as Hodge Eigenmode Instantiations</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P14</th>
+      <td>proposition</td>
+      <td>Reaction-Diffusion from τ³ Structure</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D40</th>
+      <td>definition</td>
+      <td>BSD Motivic Structure of the Genetic Code</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T22</th>
+      <td>theorem</td>
+      <td>Codon Degeneracy as Error Correction</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P15</th>
+      <td>proposition</td>
+      <td>Central Dogma as Morphism Composition</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D41</th>
+      <td>definition</td>
+      <td>Closure Sector</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D42</th>
+      <td>definition</td>
+      <td>Structure Recycling Predicate</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T23</th>
+      <td>theorem</td>
+      <td>Closure as π''-Fiber Return</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R16</th>
+      <td>remark</td>
+      <td>Fungi as Closure Archetype</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R17</th>
+      <td>remark</td>
+      <td>Mycelial Network Topology</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D43</th>
+      <td>definition</td>
+      <td>Aging as Defect Accumulation</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P16</th>
+      <td>proposition</td>
+      <td>Repair Budget Exhaustion</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D44</th>
+      <td>definition</td>
+      <td>Inter-Sector Web</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T24</th>
+      <td>theorem</td>
+      <td>Ecosystem as Multi-Scale Poincaré Circulation</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R18</th>
+      <td>remark</td>
+      <td>Nash Equilibria in Ecological Communities</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D45</th>
+      <td>definition</td>
+      <td>Repair Budget</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P17</th>
+      <td>proposition</td>
+      <td>Metamorphosis Preserves SelfDesc</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D46</th>
+      <td>definition</td>
+      <td>Consumer Mixer on (π', π'')</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T25</th>
+      <td>theorem</td>
+      <td>Signature Rigidity Determines Uniqueness</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L07</th>
+      <td>lemma</td>
+      <td>Consumer as Bridge-Head to E₃</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D47</th>
+      <td>definition</td>
+      <td>Fiber-Enabled Regime</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R19</th>
+      <td>remark</td>
+      <td>1st Ed Correction: Mixer (α,π) to (π',π'')</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D48</th>
+      <td>definition</td>
+      <td>Multicellularity as Colimit</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P18</th>
+      <td>proposition</td>
+      <td>Development as Controlled Differentiation</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D49</th>
+      <td>definition</td>
+      <td>Recombination Functor</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T26</th>
+      <td>theorem</td>
+      <td>Sex as Second Distinction</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D50</th>
+      <td>definition</td>
+      <td>PPAS Algorithm on Fitness Landscapes</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T27</th>
+      <td>theorem</td>
+      <td>Evolution as Optimization</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R20</th>
+      <td>remark</td>
+      <td>Fitness Landscape Topology</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D51</th>
+      <td>definition</td>
+      <td>Cellular Distinction Predicate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T28</th>
+      <td>theorem</td>
+      <td>Autoimmunity as Distinction Failure</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D52</th>
+      <td>definition</td>
+      <td>Neural Architecture as τ³ Computer</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P19</th>
+      <td>proposition</td>
+      <td>Sleep as Temporal Lemniscate Second Lobe</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D53</th>
+      <td>definition</td>
+      <td>SelfDesc over Code, Not Carrier</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L08</th>
+      <td>lemma</td>
+      <td>Substrate Replacement Preserves Life-Equivalence</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D54</th>
+      <td>definition</td>
+      <td>Macro-Torus Carrier T(H_BH)</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D55</th>
+      <td>definition</td>
+      <td>Lexicographic Defect Functional</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D56</th>
+      <td>definition</td>
+      <td>Frame-Closure Defect</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D57</th>
+      <td>definition</td>
+      <td>Strong-Saturation Defect</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T29</th>
+      <td>theorem</td>
+      <td>BH Distinction Theorem</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D58</th>
+      <td>definition</td>
+      <td>BH DecodeTarget</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D59</th>
+      <td>definition</td>
+      <td>BH DecodeHorizon</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L09</th>
+      <td>lemma</td>
+      <td>BH Uniqueness Lemma</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L10</th>
+      <td>lemma</td>
+      <td>BH Constancy Lemma</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T30</th>
+      <td>theorem</td>
+      <td>BH SelfDesc Theorem</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D60</th>
+      <td>definition</td>
+      <td>ω-Representative of Life</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D61</th>
+      <td>definition</td>
+      <td>Lift_ω Constructor</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L11</th>
+      <td>lemma</td>
+      <td>Primorial Ladder Convergence</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T31</th>
+      <td>theorem</td>
+      <td>BH ω-Representative: Fusion Convergence</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T32</th>
+      <td>theorem</td>
+      <td>BH Seven Hallmarks Verified</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R21</th>
+      <td>remark</td>
+      <td>BH-as-Alive Is Theorem, Not Metaphor</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D62</th>
+      <td>definition</td>
+      <td>Life Basin</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D63</th>
+      <td>definition</td>
+      <td>Carrier Ladder</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D64</th>
+      <td>definition</td>
+      <td>Basin Predicate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T33</th>
+      <td>theorem</td>
+      <td>Galaxy-SMBH Anchor Lemma</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L12</th>
+      <td>lemma</td>
+      <td>Basin Fusion via SMBH Merger</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D65</th>
+      <td>definition</td>
+      <td>Distinction/SelfDesc Matrix</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T34</th>
+      <td>theorem</td>
+      <td>Stars Are Not Alive</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R22</th>
+      <td>remark</td>
+      <td>Organism/Ecosystem/Basin Taxonomy</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T35</th>
+      <td>theorem</td>
+      <td>Crossing-Limit Theorem</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T36</th>
+      <td>theorem</td>
+      <td>Universal BH = Fully Alive State</td>
+      <td>tau-e</td>
+      <td>plan</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.P20</th>
+      <td>proposition</td>
+      <td>Omega Point as Life Convergence</td>
+      <td>metap</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D66</th>
+      <td>definition</td>
+      <td>Ontic Enrichment Ladder E₀–E₃</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D67</th>
+      <td>definition</td>
+      <td>Three Identity Regimes</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T37</th>
+      <td>theorem</td>
+      <td>Enrichment Saturation Theorem</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R23</th>
+      <td>remark</td>
+      <td>τ as Third Option</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D68</th>
+      <td>definition</td>
+      <td>Structural Self-Model</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D69</th>
+      <td>definition</td>
+      <td>Minimal Conscious Agent</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T38</th>
+      <td>theorem</td>
+      <td>Consciousness as Mixed-Sector Self-Modeling</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.D70</th>
+      <td>definition</td>
+      <td>Extended Lemniscate</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T39</th>
+      <td>theorem</td>
+      <td>Language as Shared Code</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R24</th>
+      <td>remark</td>
+      <td>Computation Theme Across the Book</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.L13</th>
+      <td>lemma</td>
+      <td>ω-Germ Cannot Be Resolved Diagrammatically</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.T40</th>
+      <td>theorem</td>
+      <td>Six Export Contracts to Book VII</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VI.R25</th>
+      <td>remark</td>
+      <td>Principled Science-Faith Boundary</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 

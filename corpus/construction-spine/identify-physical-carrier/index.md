@@ -88,8 +88,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThis step turns the Agenda question \"where can physics live inside the kernel?\" into a Corpus construction problem. It identifies the structural layer that can carry physical roles before measurements or empirical adequacy are discussed.\n\n## Why this step is required\n\nPhysics cannot be assumed as a finished external domain. The Corpus must first explain what kind of internal structure can support physical meaning at all.\n\n## Key constructions\n\n- The carrier problem.\n- Locality and globality.\n- Entities, observables, and interactions.\n- Dynamics and lawfulness as internal roles."
 ---
 
-# Step 4 - Identify the Physical Carrier
-
 > Identifies where physics can live inside the kernel before empirical physics is claimed.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -172,6 +170,7 @@ This step identifies the carrier for physics. It does not yet complete internal 
 
 - Carrier identification is not yet empirical bridge success or quantitative prediction.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-05`.
+- Previous: [Step 3 - Internalize Logic and Categorical Self-Structure](/corpus/construction-spine/internalize-logic/)
+- Next: [Step 5 - Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)

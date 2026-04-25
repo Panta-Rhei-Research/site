@@ -24,295 +24,2027 @@ Generated: 2026-03-10
 - **No dependencies (foundational):** VII.R01, VII.R02, VII.D01, VII.D02, VII.D03, VII.D04, VII.T01, VII.D05, VII.D06, VII.T02 ...
 
 ## Part Coverage
-| Part | Objects | Formalized | Planned | N/A |
-|------|---------|------------|---------|-----|
-| 0 | 3 | 0 | 0 | 3 |
-| 1 | 62 | 57 | 0 | 5 |
-| 2 | 41 | 31 | 0 | 10 |
-| 3 | 13 | 0 | 0 | 13 |
-| 4 | 15 | 0 | 0 | 15 |
-| 5 | 14 | 10 | 0 | 4 |
-| 6 | 21 | 20 | 0 | 1 |
-| 7 | 40 | 24 | 0 | 16 |
-| 8 | 25 | 14 | 0 | 11 |
-| 9 | 19 | 15 | 0 | 4 |
-| 10 | 11 | 9 | 0 | 2 |
-| 11 | 9 | 2 | 0 | 7 |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">Part</th>
+      <th scope="col">Objects</th>
+      <th scope="col">Formalized</th>
+      <th scope="col">Planned</th>
+      <th scope="col">N/A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">0</th>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>62</td>
+      <td>57</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>41</td>
+      <td>31</td>
+      <td>0</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>13</td>
+      <td>0</td>
+      <td>0</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>14</td>
+      <td>10</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>21</td>
+      <td>20</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>40</td>
+      <td>24</td>
+      <td>0</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>25</td>
+      <td>14</td>
+      <td>0</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>19</td>
+      <td>15</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>11</td>
+      <td>9</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th scope="row">11</th>
+      <td>9</td>
+      <td>2</td>
+      <td>0</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Object List
-| ID | Type | Name | Scope | Lean |
-|----|------|------|-------|------|
-| VII.R01 | remark | E₃ Enrichment Positioning | estab | — |
-| VII.R02 | remark | E₃ Import Contract | estab | — |
-| VII.D01 | definition | Empirical Register | tau-e | form |
-| VII.D02 | definition | Practical Register | tau-e | form |
-| VII.D03 | definition | Diagrammatic Register | tau-e | form |
-| VII.D04 | definition | Commitment Register | tau-e | form |
-| VII.T01 | theorem | Register Independence Theorem | tau-e | form |
-| VII.D05 | definition | MetaDecode Operator | tau-e | form |
-| VII.D06 | definition | Metaphysics Loop Class | tau-e | form |
-| VII.T02 | theorem | E₃ Non-Emptiness | tau-e | form |
-| VII.L01 | lemma | BH Basin Law-Code | tau-e | form |
-| VII.D07 | definition | Metaphysics Sector S_E | tau-e | form |
-| VII.D08 | definition | Metaphysics Sector S_P | tau-e | form |
-| VII.D09 | definition | Metaphysics Sector S_D | tau-e | form |
-| VII.D10 | definition | Metaphysics Sector S_C | tau-e | form |
-| VII.D11 | definition | Logos Sector S_L | tau-e | form |
-| VII.T03 | theorem | Sector Decomposition at E₃ | tau-e | form |
-| VII.P01 | proposition | Sector Independence at E₃ | tau-e | form |
-| VII.D12 | definition | Sector Witness Bundle | tau-e | form |
-| VII.D13 | definition | Sector Vacuum | tau-e | form |
-| VII.D14 | definition | Sector Normaliser | tau-e | form |
-| VII.L02 | lemma | Shadow Soundness Lemma | tau-e | form |
-| VII.T04 | theorem | Rigidity Corollary | tau-e | form |
-| VII.L03 | lemma | Non-Emptiness at Each Layer | tau-e | form |
-| VII.L04 | lemma | Strictness Between Layers | tau-e | form |
-| VII.T05 | theorem | Canonical Ladder Theorem | tau-e | form |
-| VII.P02 | proposition | Seven-Book Partition | tau-e | form |
-| VII.L05 | lemma | No-New-Lobe Lemma | tau-e | form |
-| VII.L06 | lemma | No-New-Crossing-Mediator Lemma | tau-e | form |
-| VII.L07 | lemma | Carrier Closure Lemma | tau-e | form |
-| VII.T06 | theorem | Saturation Theorem | tau-e | form |
-| VII.P03 | proposition | Four-Orbit Implies Four-Layer | tau-e | form |
-| VII.D15 | definition | Bounded Witness Form | tau-e | form |
-| VII.T07 | theorem | Gödel Avoidance Theorem | tau-e | form |
-| VII.P04 | proposition | No-Diagonal Principle | tau-e | form |
-| VII.D16 | definition | Archetype as Minimal j-Closed Fixed Point | tau-e | form |
-| VII.D17 | definition | Archetype Extractor Protocol | tau-e | form |
-| VII.L08 | lemma | j-Closure Minimality | tau-e | form |
-| VII.T08 | theorem | Archetype Existence | tau-e | form |
-| VII.D18 | definition | Boundary Archetype | tau-e | form |
-| VII.P05 | proposition | Boundary Archetype Minimality | tau-e | form |
-| VII.D19 | definition | Mitigation Archetype | tau-e | form |
-| VII.D20 | definition | Meta-Framing Archetype | tau-e | form |
-| VII.D21 | definition | Synchronicity as Kernel Invariant | conje | form |
-| VII.T09 | theorem | Cross-Register Correlation | conje | form |
-| VII.D22 | definition | Readout Functor | tau-e | form |
-| VII.T10 | theorem | Readout Functor Faithfulness | tau-e | form |
-| VII.D23 | definition | Relational Primacy Principle | tau-e | form |
-| VII.R03 | remark | Historical Precursors to Relational Ontology | tau-e | not_ |
-| VII.D24 | definition | τ-Kernel Philosophical Summary | tau-e | form |
-| VII.R04 | remark | Axiom-Philosophy Correspondence | tau-e | not_ |
-| VII.D25 | definition | Internal Set Ontology | tau-e | form |
-| VII.D26 | definition | Ontic/Virtual Distinction | tau-e | form |
-| VII.R05 | remark | ZFC-as-VM Philosophical Import | tau-e | not_ |
-| VII.D27 | definition | Truth-Maker in τ (Ontological) | tau-e | form |
-| VII.T11 | theorem | Coherence-Correspondence Unification | tau-e | form |
-| VII.R06 | remark | Possible Worlds as Internal Domains | tau-e | not_ |
-| VII.D28 | definition | Derived Geometry | tau-e | form |
-| VII.R07 | remark | Geometry as Consequence | tau-e | not_ |
-| VII.D29 | definition | τ³ Philosophical Framing | tau-e | form |
-| VII.R08 | remark | Central Theorem Philosophical Import | tau-e | not_ |
-| VII.D30 | definition | Bulk-Boundary Duality | tau-e | form |
-| VII.D31 | definition | Law as Admissible Continuation | tau-e | form |
-| VII.T12 | theorem | Operator Realism | tau-e | form |
-| VII.D32 | definition | Causation as Constrained Composition | tau-e | form |
-| VII.P06 | proposition | Temporal Ordering from Persistence | tau-e | form |
-| VII.D33 | definition | τ-Modal Operators | tau-e | form |
-| VII.T13 | theorem | Modal Logic Soundness in τ | tau-e | form |
-| VII.D34 | definition | Identity as Address Persistence | tau-e | form |
-| VII.R09 | remark | Panta Rhei with Invariants | tau-e | not_ |
-| VII.D35 | definition | Mereological Composition as Colimit | tau-e | form |
-| VII.P07 | proposition | Special Composition Answer | tau-e | form |
-| VII.D36 | definition | Abstract Object as Structural Position | tau-e | form |
-| VII.R10 | remark | Platonism-Nominalism Dissolution | tau-e | not_ |
-| VII.D37 | definition | Six Ontic Requirements | tau-e | form |
-| VII.T14 | theorem | Inevitability Convergence | tau-e | form |
-| VII.P08 | proposition | Each Requirement Independently Necessary | tau-e | form |
-| VII.D38 | definition | Problem Map Classification Scheme | tau-e | form |
-| VII.R11 | remark | Problem Map Table | tau-e | not_ |
-| VII.D39 | definition | Three-Layer Solipsism Resolution | tau-e | form |
-| VII.T15 | theorem | Bayesian Exclusion of Solipsism | tau-e | form |
-| VII.D40 | definition | Non-Dualistic Platonism | tau-e | form |
-| VII.D41 | definition | ω-Uniqueness Principle | tau-e | form |
-| VII.T16 | theorem | ω-Uniqueness | tau-e | form |
-| VII.R12 | remark | Discovery-Invention Dissolution | tau-e | not_ |
-| VII.D42 | definition | Knowledge as Section | tau-e | — |
-| VII.T17 | theorem | Gettier Dissolution | tau-e | — |
-| VII.D43 | definition | Justification as Gluing | tau-e | — |
-| VII.P09 | proposition | Underdetermination as Cover Failure | tau-e | — |
-| VII.D44 | definition | Perception Functor | tau-e | — |
-| VII.D45 | definition | Temporal Experience Structure | tau-e | — |
-| VII.R13 | remark | Husserl-τ Correspondence | tau-e | — |
-| VII.P10 | proposition | Perspectival Gluing Grounds Objectivity | tau-e | — |
-| VII.R14 | remark | Intersubjectivity Conditions | tau-e | — |
-| VII.R15 | remark | Embodiment as Self-Boundary | tau-e | — |
-| VII.T18 | theorem | Ontology-Epistemology Collapse | tau-e | — |
-| VII.R16 | remark | Consequences for Traditional Epistemology | tau-e | — |
-| VII.R17 | remark | Empirical Sector Summary | tau-e | — |
-| VII.D46 | definition | Pre-Symbolic Resonance | tau-e | — |
-| VII.D47 | definition | Aesthetic Functional | tau-e | — |
-| VII.T19 | theorem | Beauty as Invariance | tau-e | — |
-| VII.R18 | remark | Beauty Across Domains | tau-e | — |
-| VII.D48 | definition | Elegance as Minimal Tension | tau-e | — |
-| VII.R19 | remark | Style as Categorical Invariant | tau-e | — |
-| VII.R20 | remark | Golden Ratio as Kernel Shadow | tau-e | — |
-| VII.P11 | proposition | Fractal Beauty as Scale Invariance | tau-e | — |
-| VII.D49 | definition | Musical Consonance as Ratio Invariance | tau-e | — |
-| VII.R21 | remark | Visual Composition Principles | tau-e | — |
-| VII.R22 | remark | Architecture as Spatial Aesthetics | tau-e | — |
-| VII.P12 | proposition | Creation as Defect Minimization | tau-e | — |
-| VII.D50 | definition | The Sublime as Comprehension Boundary | tau-e | — |
-| VII.R23 | remark | Kant's Sublime in Categorical Terms | tau-e | — |
-| VII.R24 | remark | Environmental Beauty | tau-e | — |
-| VII.D51 | definition | Language Adds Temporalization | tau-e | form |
-| VII.D52 | definition | Subsymbolic Layer | tau-e | form |
-| VII.D53 | definition | Temporalization Operators | tau-e | form |
-| VII.T20 | theorem | Language as Self-Enrichment | tau-e | form |
-| VII.T21 | theorem | Syntax-Semantics Collapse | tau-e | form |
-| VII.P13 | proposition | Universal Bridgeability | tau-e | form |
-| VII.D54 | definition | Pragmatic Update Operator | tau-e | form |
-| VII.R25 | remark | Translation as Functor | tau-e | not_ |
-| VII.R26 | remark | Meaning Drift as Perturbation | tau-e | not_ |
-| VII.R27 | remark | Public Language as Infrastructure | tau-e | not_ |
-| VII.D55 | definition | Para-Mind | tau-e | form |
-| VII.P14 | proposition | LLM as Subsymbolic Evidence | tau-e | form |
-| VII.D56 | definition | Prayer as ω-Addressed Communication | conje | form |
-| VII.R28 | remark | Prayer Across Traditions | conje | not_ |
-| VII.D57 | definition | Boolean Micro-Logic | tau-e | form |
-| VII.T22 | theorem | Single-Address Classical Logic | tau-e | form |
-| VII.D58 | definition | Bayesian Meso-Logic | tau-e | form |
-| VII.T23 | theorem | Scale-Dependent Logic Theorem | tau-e | form |
-| VII.D59 | definition | Internal Randomness | tau-e | form |
-| VII.P15 | proposition | Randomness as Internal Complexity | tau-e | form |
-| VII.T24 | theorem | No External Randomness | tau-e | form |
-| VII.T25 | theorem | Kolmogorov Representation | tau-e | form |
-| VII.T26 | theorem | Inference from Kernel Structure | tau-e | form |
-| VII.D60 | definition | Truth-Maker in τ (Logical) | tau-e | form |
-| VII.D61 | definition | Truth-Bearer as Section | tau-e | form |
-| VII.T27 | theorem | Alethic Unification | tau-e | form |
-| VII.P16 | proposition | Alethic Pluralism | tau-e | form |
-| VII.D62 | definition | Modal Frame in τ | tau-e | form |
-| VII.D63 | definition | Accessibility Morphism | tau-e | form |
-| VII.T28 | theorem | Kripke Soundness in τ | tau-e | form |
-| VII.L09 | lemma | Modal Collapse Prevention | tau-e | form |
-| VII.D64 | definition | Paraconsistent Boundary Logic | tau-e | form |
-| VII.T29 | theorem | No-Explosion at Boundaries | tau-e | form |
-| VII.L10 | lemma | Truth4 Paraconsistency | tau-e | form |
-| VII.R29 | remark | Diagrammatic Sector Summary | tau-e | not_ |
-| VII.D65 | definition | Dignity as Label-Independence | tau-e | form |
-| VII.T30 | theorem | Dignity Universality | tau-e | form |
-| VII.D66 | definition | CI as Naturality Constraint | tau-e | form |
-| VII.T31 | theorem | CI-Sheaf Equivalence | tau-e | form |
-| VII.T32 | theorem | No-Conflict Theorem | tau-e | form |
-| VII.L11 | lemma | Duty Typing Lemma | tau-e | form |
-| VII.P17 | proposition | Trolley Resolution | tau-e | — |
-| VII.D67 | definition | Fairness Protocol | tau-e | form |
-| VII.P18 | proposition | Fairness from CI | tau-e | — |
-| VII.D68 | definition | Moral Monodromy | tau-e | form |
-| VII.T33 | theorem | Monodromy as Source of Tragedy | tau-e | form |
-| VII.D69 | definition | Four Ethical Tests | tau-e | form |
-| VII.P19 | proposition | Ethical Defect Minimization | tau-e | — |
-| VII.P20 | proposition | Animal Dignity from Distinction | tau-e | — |
-| VII.R30 | remark | Graduated Dignity Scale | tau-e | — |
-| VII.R31 | remark | Intergenerational Obligations | tau-e | — |
-| VII.D70 | definition | Character as Ethical Fixed Point | tau-e | form |
-| VII.T34 | theorem | Flourishing as Global Section | tau-e | form |
-| VII.R32 | remark | Applied Ethics Domains | tau-e | — |
-| VII.D71 | definition | CI Operator Graph | tau-e | form |
-| VII.T35 | theorem | CI as j-Closed Fixed Point | tau-e | form |
-| VII.L12 | lemma | CI Minimality Lemma | tau-e | form |
-| VII.T36 | theorem | Kernel Theorem (K) | tau-e | form |
-| VII.T37 | theorem | Semantic Object Construction (S) | tau-e | form |
-| VII.P21 | proposition | CI Uniqueness Conjecture | tau-e | form |
-| VII.L13 | lemma | First Bombshell Lemma | tau-e | form |
-| VII.D72 | definition | Commitment Register Admissibility | tau-e | — |
-| VII.T38 | theorem | C Register Independence | tau-e | — |
-| VII.D73 | definition | Kant-τ Correspondence | conje | — |
-| VII.R33 | remark | Kant's Three Methodological Rules | conje | — |
-| VII.D74 | definition | Earned/Unearned Ethics Framework | tau-e | — |
-| VII.P22 | proposition | Pseudo-Paradox from Type Violation | tau-e | — |
-| VII.D75 | definition | Register-Enrichment Correspondence | conje | — |
-| VII.R34 | remark | Kant's Heroic Restraint | conje | — |
-| VII.D76 | definition | Social Ontology | tau-e | form |
-| VII.D77 | definition | Sphere as Shared Topos | tau-e | — |
-| VII.R35 | remark | Sloterdijk-τ Correspondence | tau-e | — |
-| VII.P23 | proposition | Dunbar Limit as Carrier Capacity | tau-e | — |
-| VII.R36 | remark | Urban Topology | tau-e | — |
-| VII.R37 | remark | Architecture as Cultural Readout | tau-e | — |
-| VII.R38 | remark | Cultural Lineage as Code Stream | tau-e | — |
-| VII.D78 | definition | Capital Network | tau-e | — |
-| VII.P24 | proposition | Fragmentation as Gluing Failure | tau-e | — |
-| VII.R39 | remark | Individuation as Structural Process | tau-e | — |
-| VII.D79 | definition | Nine Global Spheres Classification | tau-e | — |
-| VII.D80 | definition | Power as Morphism Structure | tau-e | form |
-| VII.P25 | proposition | Legitimacy as Recognition Coherence | tau-e | form |
-| VII.D81 | definition | Ritual as Social Gluing | tau-e | form |
-| VII.R40 | remark | Religion as Readout Functor | conje | — |
-| VII.D82 | definition | Mind as Internal Topos | tau-e | form |
-| VII.T39 | theorem | Mind-Topos Structure Theorem | tau-e | form |
-| VII.D83 | definition | Story Functor | tau-e | form |
-| VII.T40 | theorem | Narrative Identity as Functor | tau-e | form |
-| VII.T41 | theorem | Consciousness as Global Section | tau-e | form |
-| VII.L14 | lemma | Binding as Gluing | tau-e | form |
-| VII.D84 | definition | Intentionality as Morphism | tau-e | form |
-| VII.D85 | definition | Qualia as Internal Morphisms | conje | form |
-| VII.R41 | remark | Hard Problem Reformulated | conje | not_ |
-| VII.T42 | theorem | Self-Recognition as E₃ Operator | tau-e | form |
-| VII.T43 | theorem | Free Will as Branching | tau-e | form |
-| VII.P26 | proposition | Compatibilism Dissolution | tau-e | form |
-| VII.P27 | proposition | Identity as Address Persistence (Mind) | tau-e | form |
-| VII.R42 | remark | Artificial Mind Criteria | tau-e | not_ |
-| VII.R43 | remark | Metzinger-τ Comparison | tau-e | not_ |
-| VII.T44 | theorem | Emotions as Register-Crossings | tau-e | form |
-| VII.L15 | lemma | Affect as Subsymbolic Pressure | tau-e | form |
-| VII.P28 | proposition | Extended Mind as Carrier Extension | tau-e | form |
-| VII.R44 | remark | Commitment Sector Summary | tau-e | not_ |
-| VII.D86 | definition | Logos Sector | tau-e | form |
-| VII.T45 | theorem | Logos Sector Uniqueness | tau-e | form |
-| VII.D87 | definition | D→C Bridge Functor | tau-e | form |
-| VII.T46 | theorem | Bridge Equivalence at S_L | tau-e | form |
-| VII.L16 | lemma | Register Preservation | tau-e | form |
-| VII.P29 | proposition | Four-Register Convergence at S_L | tau-e | form |
-| VII.D88 | definition | Mediator Fixed-Point Basin | tau-e | form |
-| VII.R45 | remark | Logos Synchronicity | conje | not_ |
-| VII.D89 | definition | Subject-Tool Collapse | tau-e | form |
-| VII.T47 | theorem | No Forced Stance | tau-e | form |
-| VII.R46 | remark | Crown Jewel of 2nd Edition | tau-e | not_ |
-| VII.R47 | remark | Methodological Override Rules | tau-e | not_ |
-| VII.D90 | definition | Generative Switch | tau-e | form |
-| VII.T48 | theorem | Layer-Conflation as Category Error | tau-e | form |
-| VII.R48 | remark | Archetypal Genesis Reading | metap | not_ |
-| VII.R49 | remark | Genesis Synthesis | conje | not_ |
-| VII.L17 | lemma | Register Orthogonality | tau-e | form |
-| VII.L18 | lemma | Enrichment Monotonicity | tau-e | form |
-| VII.L19 | lemma | E₃ Uniqueness | tau-e | form |
-| VII.P30 | proposition | Register Completeness | tau-e | form |
-| VII.L20 | lemma | Crossing Point Uniqueness | tau-e | form |
-| VII.L21 | lemma | Carrier Exhaustion | tau-e | form |
-| VII.L22 | lemma | Bounded Witness Form Check | tau-e | form |
-| VII.P31 | proposition | Enrichment Stabilization | tau-e | form |
-| VII.R50 | remark | Ladder–Saturation Bridge | tau-e | — |
-| VII.R51 | remark | E₃–Consciousness Consistency | tau-e | — |
-| VII.R52 | remark | Sector–Register Correspondence | tau-e | — |
-| VII.L23 | lemma | LT Axiom Verification | tau-e | form |
-| VII.L24 | lemma | Lattice Closure | tau-e | form |
-| VII.L25 | lemma | Minimality Witness | tau-e | form |
-| VII.L26 | lemma | Dignity Witness | tau-e | form |
-| VII.L27 | lemma | Sheaf Gluing Verification | tau-e | form |
-| VII.L28 | lemma | Operator Graph Completeness | tau-e | form |
-| VII.L29 | lemma | F Lattice Completeness | tau-e | form |
-| VII.L30 | lemma | CI Uniqueness Derivation | tau-e | form |
-| VII.L31 | lemma | OR1+OR2 Narrowing | tau-e | form |
-| VII.L32 | lemma | OR3+OR4 Narrowing | tau-e | form |
-| VII.L33 | lemma | OR5+OR6 Narrowing | tau-e | form |
-| VII.R53 | remark | Archetypes-CI j-Closure Bridge | tau-e | — |
-| VII.R54 | remark | Book II j-Closure Consistency | tau-e | — |
-| VII.R55 | remark | Part I Imports Cross-Book Check | tau-e | — |
-| VII.L34 | lemma | Archetypal Basis Completeness | tau-e | form |
-| VII.L35 | lemma | Social Base Space Well-Definedness | tau-e | form |
-| VII.L36 | lemma | Recognition Topology Generation | tau-e | form |
-| VII.L37 | lemma | Social Sheaf Construction | tau-e | form |
-| VII.L38 | lemma | Collective Intentionality as Glued Section | tau-e | form |
-| VII.L39 | lemma | Power Morphism Well-Typed | tau-e | form |
-| VII.L40 | lemma | Legitimacy Sheaf Connection | tau-e | form |
-| VII.L41 | lemma | Legitimacy Dignity Connection | tau-e | form |
-| VII.L42 | lemma | Legitimacy from CI | tau-e | form |
-| VII.L43 | lemma | Ritual Gluing Well-Defined | tau-e | form |
-| VII.L44 | lemma | Rite of Passage as Boundary Crossing | tau-e | form |
-| VII.R56 | remark | BH Basin Cross-Book Consistency | tau-e | — |
-| VII.R57 | remark | Genesis-Kernel Cross-Book Consistency | tau-e | — |
-| VII.D91 | definition | One Free Choice | conje | — |
-| VII.D92 | definition | Four-Operator Consequence Architecture | conje | — |
-| VII.R58 | remark | Layer-Conflation Diagnostic | conje | — |
+<table class="registry-dashboard-table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Type</th>
+      <th scope="col">Name</th>
+      <th scope="col">Scope</th>
+      <th scope="col">Lean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">VII.R01</th>
+      <td>remark</td>
+      <td>E₃ Enrichment Positioning</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R02</th>
+      <td>remark</td>
+      <td>E₃ Import Contract</td>
+      <td>estab</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D01</th>
+      <td>definition</td>
+      <td>Empirical Register</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D02</th>
+      <td>definition</td>
+      <td>Practical Register</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D03</th>
+      <td>definition</td>
+      <td>Diagrammatic Register</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D04</th>
+      <td>definition</td>
+      <td>Commitment Register</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T01</th>
+      <td>theorem</td>
+      <td>Register Independence Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D05</th>
+      <td>definition</td>
+      <td>MetaDecode Operator</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D06</th>
+      <td>definition</td>
+      <td>Metaphysics Loop Class</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T02</th>
+      <td>theorem</td>
+      <td>E₃ Non-Emptiness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L01</th>
+      <td>lemma</td>
+      <td>BH Basin Law-Code</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D07</th>
+      <td>definition</td>
+      <td>Metaphysics Sector S_E</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D08</th>
+      <td>definition</td>
+      <td>Metaphysics Sector S_P</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D09</th>
+      <td>definition</td>
+      <td>Metaphysics Sector S_D</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D10</th>
+      <td>definition</td>
+      <td>Metaphysics Sector S_C</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D11</th>
+      <td>definition</td>
+      <td>Logos Sector S_L</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T03</th>
+      <td>theorem</td>
+      <td>Sector Decomposition at E₃</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P01</th>
+      <td>proposition</td>
+      <td>Sector Independence at E₃</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D12</th>
+      <td>definition</td>
+      <td>Sector Witness Bundle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D13</th>
+      <td>definition</td>
+      <td>Sector Vacuum</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D14</th>
+      <td>definition</td>
+      <td>Sector Normaliser</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L02</th>
+      <td>lemma</td>
+      <td>Shadow Soundness Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T04</th>
+      <td>theorem</td>
+      <td>Rigidity Corollary</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L03</th>
+      <td>lemma</td>
+      <td>Non-Emptiness at Each Layer</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L04</th>
+      <td>lemma</td>
+      <td>Strictness Between Layers</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T05</th>
+      <td>theorem</td>
+      <td>Canonical Ladder Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P02</th>
+      <td>proposition</td>
+      <td>Seven-Book Partition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L05</th>
+      <td>lemma</td>
+      <td>No-New-Lobe Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L06</th>
+      <td>lemma</td>
+      <td>No-New-Crossing-Mediator Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L07</th>
+      <td>lemma</td>
+      <td>Carrier Closure Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T06</th>
+      <td>theorem</td>
+      <td>Saturation Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P03</th>
+      <td>proposition</td>
+      <td>Four-Orbit Implies Four-Layer</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D15</th>
+      <td>definition</td>
+      <td>Bounded Witness Form</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T07</th>
+      <td>theorem</td>
+      <td>Gödel Avoidance Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P04</th>
+      <td>proposition</td>
+      <td>No-Diagonal Principle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D16</th>
+      <td>definition</td>
+      <td>Archetype as Minimal j-Closed Fixed Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D17</th>
+      <td>definition</td>
+      <td>Archetype Extractor Protocol</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L08</th>
+      <td>lemma</td>
+      <td>j-Closure Minimality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T08</th>
+      <td>theorem</td>
+      <td>Archetype Existence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D18</th>
+      <td>definition</td>
+      <td>Boundary Archetype</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P05</th>
+      <td>proposition</td>
+      <td>Boundary Archetype Minimality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D19</th>
+      <td>definition</td>
+      <td>Mitigation Archetype</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D20</th>
+      <td>definition</td>
+      <td>Meta-Framing Archetype</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D21</th>
+      <td>definition</td>
+      <td>Synchronicity as Kernel Invariant</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T09</th>
+      <td>theorem</td>
+      <td>Cross-Register Correlation</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D22</th>
+      <td>definition</td>
+      <td>Readout Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T10</th>
+      <td>theorem</td>
+      <td>Readout Functor Faithfulness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D23</th>
+      <td>definition</td>
+      <td>Relational Primacy Principle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R03</th>
+      <td>remark</td>
+      <td>Historical Precursors to Relational Ontology</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D24</th>
+      <td>definition</td>
+      <td>τ-Kernel Philosophical Summary</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R04</th>
+      <td>remark</td>
+      <td>Axiom-Philosophy Correspondence</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D25</th>
+      <td>definition</td>
+      <td>Internal Set Ontology</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D26</th>
+      <td>definition</td>
+      <td>Ontic/Virtual Distinction</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R05</th>
+      <td>remark</td>
+      <td>ZFC-as-VM Philosophical Import</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D27</th>
+      <td>definition</td>
+      <td>Truth-Maker in τ (Ontological)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T11</th>
+      <td>theorem</td>
+      <td>Coherence-Correspondence Unification</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R06</th>
+      <td>remark</td>
+      <td>Possible Worlds as Internal Domains</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D28</th>
+      <td>definition</td>
+      <td>Derived Geometry</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R07</th>
+      <td>remark</td>
+      <td>Geometry as Consequence</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D29</th>
+      <td>definition</td>
+      <td>τ³ Philosophical Framing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R08</th>
+      <td>remark</td>
+      <td>Central Theorem Philosophical Import</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D30</th>
+      <td>definition</td>
+      <td>Bulk-Boundary Duality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D31</th>
+      <td>definition</td>
+      <td>Law as Admissible Continuation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T12</th>
+      <td>theorem</td>
+      <td>Operator Realism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D32</th>
+      <td>definition</td>
+      <td>Causation as Constrained Composition</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P06</th>
+      <td>proposition</td>
+      <td>Temporal Ordering from Persistence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D33</th>
+      <td>definition</td>
+      <td>τ-Modal Operators</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T13</th>
+      <td>theorem</td>
+      <td>Modal Logic Soundness in τ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D34</th>
+      <td>definition</td>
+      <td>Identity as Address Persistence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R09</th>
+      <td>remark</td>
+      <td>Panta Rhei with Invariants</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D35</th>
+      <td>definition</td>
+      <td>Mereological Composition as Colimit</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P07</th>
+      <td>proposition</td>
+      <td>Special Composition Answer</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D36</th>
+      <td>definition</td>
+      <td>Abstract Object as Structural Position</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R10</th>
+      <td>remark</td>
+      <td>Platonism-Nominalism Dissolution</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D37</th>
+      <td>definition</td>
+      <td>Six Ontic Requirements</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T14</th>
+      <td>theorem</td>
+      <td>Inevitability Convergence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P08</th>
+      <td>proposition</td>
+      <td>Each Requirement Independently Necessary</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D38</th>
+      <td>definition</td>
+      <td>Problem Map Classification Scheme</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R11</th>
+      <td>remark</td>
+      <td>Problem Map Table</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D39</th>
+      <td>definition</td>
+      <td>Three-Layer Solipsism Resolution</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T15</th>
+      <td>theorem</td>
+      <td>Bayesian Exclusion of Solipsism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D40</th>
+      <td>definition</td>
+      <td>Non-Dualistic Platonism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D41</th>
+      <td>definition</td>
+      <td>ω-Uniqueness Principle</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T16</th>
+      <td>theorem</td>
+      <td>ω-Uniqueness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R12</th>
+      <td>remark</td>
+      <td>Discovery-Invention Dissolution</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D42</th>
+      <td>definition</td>
+      <td>Knowledge as Section</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T17</th>
+      <td>theorem</td>
+      <td>Gettier Dissolution</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D43</th>
+      <td>definition</td>
+      <td>Justification as Gluing</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P09</th>
+      <td>proposition</td>
+      <td>Underdetermination as Cover Failure</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D44</th>
+      <td>definition</td>
+      <td>Perception Functor</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D45</th>
+      <td>definition</td>
+      <td>Temporal Experience Structure</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R13</th>
+      <td>remark</td>
+      <td>Husserl-τ Correspondence</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P10</th>
+      <td>proposition</td>
+      <td>Perspectival Gluing Grounds Objectivity</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R14</th>
+      <td>remark</td>
+      <td>Intersubjectivity Conditions</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R15</th>
+      <td>remark</td>
+      <td>Embodiment as Self-Boundary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T18</th>
+      <td>theorem</td>
+      <td>Ontology-Epistemology Collapse</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R16</th>
+      <td>remark</td>
+      <td>Consequences for Traditional Epistemology</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R17</th>
+      <td>remark</td>
+      <td>Empirical Sector Summary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D46</th>
+      <td>definition</td>
+      <td>Pre-Symbolic Resonance</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D47</th>
+      <td>definition</td>
+      <td>Aesthetic Functional</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T19</th>
+      <td>theorem</td>
+      <td>Beauty as Invariance</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R18</th>
+      <td>remark</td>
+      <td>Beauty Across Domains</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D48</th>
+      <td>definition</td>
+      <td>Elegance as Minimal Tension</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R19</th>
+      <td>remark</td>
+      <td>Style as Categorical Invariant</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R20</th>
+      <td>remark</td>
+      <td>Golden Ratio as Kernel Shadow</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P11</th>
+      <td>proposition</td>
+      <td>Fractal Beauty as Scale Invariance</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D49</th>
+      <td>definition</td>
+      <td>Musical Consonance as Ratio Invariance</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R21</th>
+      <td>remark</td>
+      <td>Visual Composition Principles</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R22</th>
+      <td>remark</td>
+      <td>Architecture as Spatial Aesthetics</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P12</th>
+      <td>proposition</td>
+      <td>Creation as Defect Minimization</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D50</th>
+      <td>definition</td>
+      <td>The Sublime as Comprehension Boundary</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R23</th>
+      <td>remark</td>
+      <td>Kant's Sublime in Categorical Terms</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R24</th>
+      <td>remark</td>
+      <td>Environmental Beauty</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D51</th>
+      <td>definition</td>
+      <td>Language Adds Temporalization</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D52</th>
+      <td>definition</td>
+      <td>Subsymbolic Layer</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D53</th>
+      <td>definition</td>
+      <td>Temporalization Operators</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T20</th>
+      <td>theorem</td>
+      <td>Language as Self-Enrichment</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T21</th>
+      <td>theorem</td>
+      <td>Syntax-Semantics Collapse</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P13</th>
+      <td>proposition</td>
+      <td>Universal Bridgeability</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D54</th>
+      <td>definition</td>
+      <td>Pragmatic Update Operator</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R25</th>
+      <td>remark</td>
+      <td>Translation as Functor</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R26</th>
+      <td>remark</td>
+      <td>Meaning Drift as Perturbation</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R27</th>
+      <td>remark</td>
+      <td>Public Language as Infrastructure</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D55</th>
+      <td>definition</td>
+      <td>Para-Mind</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P14</th>
+      <td>proposition</td>
+      <td>LLM as Subsymbolic Evidence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D56</th>
+      <td>definition</td>
+      <td>Prayer as ω-Addressed Communication</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R28</th>
+      <td>remark</td>
+      <td>Prayer Across Traditions</td>
+      <td>conje</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D57</th>
+      <td>definition</td>
+      <td>Boolean Micro-Logic</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T22</th>
+      <td>theorem</td>
+      <td>Single-Address Classical Logic</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D58</th>
+      <td>definition</td>
+      <td>Bayesian Meso-Logic</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T23</th>
+      <td>theorem</td>
+      <td>Scale-Dependent Logic Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D59</th>
+      <td>definition</td>
+      <td>Internal Randomness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P15</th>
+      <td>proposition</td>
+      <td>Randomness as Internal Complexity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T24</th>
+      <td>theorem</td>
+      <td>No External Randomness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T25</th>
+      <td>theorem</td>
+      <td>Kolmogorov Representation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T26</th>
+      <td>theorem</td>
+      <td>Inference from Kernel Structure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D60</th>
+      <td>definition</td>
+      <td>Truth-Maker in τ (Logical)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D61</th>
+      <td>definition</td>
+      <td>Truth-Bearer as Section</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T27</th>
+      <td>theorem</td>
+      <td>Alethic Unification</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P16</th>
+      <td>proposition</td>
+      <td>Alethic Pluralism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D62</th>
+      <td>definition</td>
+      <td>Modal Frame in τ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D63</th>
+      <td>definition</td>
+      <td>Accessibility Morphism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T28</th>
+      <td>theorem</td>
+      <td>Kripke Soundness in τ</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L09</th>
+      <td>lemma</td>
+      <td>Modal Collapse Prevention</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D64</th>
+      <td>definition</td>
+      <td>Paraconsistent Boundary Logic</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T29</th>
+      <td>theorem</td>
+      <td>No-Explosion at Boundaries</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L10</th>
+      <td>lemma</td>
+      <td>Truth4 Paraconsistency</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R29</th>
+      <td>remark</td>
+      <td>Diagrammatic Sector Summary</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D65</th>
+      <td>definition</td>
+      <td>Dignity as Label-Independence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T30</th>
+      <td>theorem</td>
+      <td>Dignity Universality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D66</th>
+      <td>definition</td>
+      <td>CI as Naturality Constraint</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T31</th>
+      <td>theorem</td>
+      <td>CI-Sheaf Equivalence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T32</th>
+      <td>theorem</td>
+      <td>No-Conflict Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L11</th>
+      <td>lemma</td>
+      <td>Duty Typing Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P17</th>
+      <td>proposition</td>
+      <td>Trolley Resolution</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D67</th>
+      <td>definition</td>
+      <td>Fairness Protocol</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P18</th>
+      <td>proposition</td>
+      <td>Fairness from CI</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D68</th>
+      <td>definition</td>
+      <td>Moral Monodromy</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T33</th>
+      <td>theorem</td>
+      <td>Monodromy as Source of Tragedy</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D69</th>
+      <td>definition</td>
+      <td>Four Ethical Tests</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P19</th>
+      <td>proposition</td>
+      <td>Ethical Defect Minimization</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P20</th>
+      <td>proposition</td>
+      <td>Animal Dignity from Distinction</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R30</th>
+      <td>remark</td>
+      <td>Graduated Dignity Scale</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R31</th>
+      <td>remark</td>
+      <td>Intergenerational Obligations</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D70</th>
+      <td>definition</td>
+      <td>Character as Ethical Fixed Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T34</th>
+      <td>theorem</td>
+      <td>Flourishing as Global Section</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R32</th>
+      <td>remark</td>
+      <td>Applied Ethics Domains</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D71</th>
+      <td>definition</td>
+      <td>CI Operator Graph</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T35</th>
+      <td>theorem</td>
+      <td>CI as j-Closed Fixed Point</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L12</th>
+      <td>lemma</td>
+      <td>CI Minimality Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T36</th>
+      <td>theorem</td>
+      <td>Kernel Theorem (K)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T37</th>
+      <td>theorem</td>
+      <td>Semantic Object Construction (S)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P21</th>
+      <td>proposition</td>
+      <td>CI Uniqueness Conjecture</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L13</th>
+      <td>lemma</td>
+      <td>First Bombshell Lemma</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D72</th>
+      <td>definition</td>
+      <td>Commitment Register Admissibility</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T38</th>
+      <td>theorem</td>
+      <td>C Register Independence</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D73</th>
+      <td>definition</td>
+      <td>Kant-τ Correspondence</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R33</th>
+      <td>remark</td>
+      <td>Kant's Three Methodological Rules</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D74</th>
+      <td>definition</td>
+      <td>Earned/Unearned Ethics Framework</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P22</th>
+      <td>proposition</td>
+      <td>Pseudo-Paradox from Type Violation</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D75</th>
+      <td>definition</td>
+      <td>Register-Enrichment Correspondence</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R34</th>
+      <td>remark</td>
+      <td>Kant's Heroic Restraint</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D76</th>
+      <td>definition</td>
+      <td>Social Ontology</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D77</th>
+      <td>definition</td>
+      <td>Sphere as Shared Topos</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R35</th>
+      <td>remark</td>
+      <td>Sloterdijk-τ Correspondence</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P23</th>
+      <td>proposition</td>
+      <td>Dunbar Limit as Carrier Capacity</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R36</th>
+      <td>remark</td>
+      <td>Urban Topology</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R37</th>
+      <td>remark</td>
+      <td>Architecture as Cultural Readout</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R38</th>
+      <td>remark</td>
+      <td>Cultural Lineage as Code Stream</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D78</th>
+      <td>definition</td>
+      <td>Capital Network</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P24</th>
+      <td>proposition</td>
+      <td>Fragmentation as Gluing Failure</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R39</th>
+      <td>remark</td>
+      <td>Individuation as Structural Process</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D79</th>
+      <td>definition</td>
+      <td>Nine Global Spheres Classification</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D80</th>
+      <td>definition</td>
+      <td>Power as Morphism Structure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P25</th>
+      <td>proposition</td>
+      <td>Legitimacy as Recognition Coherence</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D81</th>
+      <td>definition</td>
+      <td>Ritual as Social Gluing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R40</th>
+      <td>remark</td>
+      <td>Religion as Readout Functor</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D82</th>
+      <td>definition</td>
+      <td>Mind as Internal Topos</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T39</th>
+      <td>theorem</td>
+      <td>Mind-Topos Structure Theorem</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D83</th>
+      <td>definition</td>
+      <td>Story Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T40</th>
+      <td>theorem</td>
+      <td>Narrative Identity as Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T41</th>
+      <td>theorem</td>
+      <td>Consciousness as Global Section</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L14</th>
+      <td>lemma</td>
+      <td>Binding as Gluing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D84</th>
+      <td>definition</td>
+      <td>Intentionality as Morphism</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D85</th>
+      <td>definition</td>
+      <td>Qualia as Internal Morphisms</td>
+      <td>conje</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R41</th>
+      <td>remark</td>
+      <td>Hard Problem Reformulated</td>
+      <td>conje</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T42</th>
+      <td>theorem</td>
+      <td>Self-Recognition as E₃ Operator</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T43</th>
+      <td>theorem</td>
+      <td>Free Will as Branching</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P26</th>
+      <td>proposition</td>
+      <td>Compatibilism Dissolution</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P27</th>
+      <td>proposition</td>
+      <td>Identity as Address Persistence (Mind)</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R42</th>
+      <td>remark</td>
+      <td>Artificial Mind Criteria</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R43</th>
+      <td>remark</td>
+      <td>Metzinger-τ Comparison</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T44</th>
+      <td>theorem</td>
+      <td>Emotions as Register-Crossings</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L15</th>
+      <td>lemma</td>
+      <td>Affect as Subsymbolic Pressure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P28</th>
+      <td>proposition</td>
+      <td>Extended Mind as Carrier Extension</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R44</th>
+      <td>remark</td>
+      <td>Commitment Sector Summary</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D86</th>
+      <td>definition</td>
+      <td>Logos Sector</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T45</th>
+      <td>theorem</td>
+      <td>Logos Sector Uniqueness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D87</th>
+      <td>definition</td>
+      <td>D→C Bridge Functor</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T46</th>
+      <td>theorem</td>
+      <td>Bridge Equivalence at S_L</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L16</th>
+      <td>lemma</td>
+      <td>Register Preservation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P29</th>
+      <td>proposition</td>
+      <td>Four-Register Convergence at S_L</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D88</th>
+      <td>definition</td>
+      <td>Mediator Fixed-Point Basin</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R45</th>
+      <td>remark</td>
+      <td>Logos Synchronicity</td>
+      <td>conje</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D89</th>
+      <td>definition</td>
+      <td>Subject-Tool Collapse</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T47</th>
+      <td>theorem</td>
+      <td>No Forced Stance</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R46</th>
+      <td>remark</td>
+      <td>Crown Jewel of 2nd Edition</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R47</th>
+      <td>remark</td>
+      <td>Methodological Override Rules</td>
+      <td>tau-e</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D90</th>
+      <td>definition</td>
+      <td>Generative Switch</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.T48</th>
+      <td>theorem</td>
+      <td>Layer-Conflation as Category Error</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R48</th>
+      <td>remark</td>
+      <td>Archetypal Genesis Reading</td>
+      <td>metap</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R49</th>
+      <td>remark</td>
+      <td>Genesis Synthesis</td>
+      <td>conje</td>
+      <td>not_</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L17</th>
+      <td>lemma</td>
+      <td>Register Orthogonality</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L18</th>
+      <td>lemma</td>
+      <td>Enrichment Monotonicity</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L19</th>
+      <td>lemma</td>
+      <td>E₃ Uniqueness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P30</th>
+      <td>proposition</td>
+      <td>Register Completeness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L20</th>
+      <td>lemma</td>
+      <td>Crossing Point Uniqueness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L21</th>
+      <td>lemma</td>
+      <td>Carrier Exhaustion</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L22</th>
+      <td>lemma</td>
+      <td>Bounded Witness Form Check</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.P31</th>
+      <td>proposition</td>
+      <td>Enrichment Stabilization</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R50</th>
+      <td>remark</td>
+      <td>Ladder–Saturation Bridge</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R51</th>
+      <td>remark</td>
+      <td>E₃–Consciousness Consistency</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R52</th>
+      <td>remark</td>
+      <td>Sector–Register Correspondence</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L23</th>
+      <td>lemma</td>
+      <td>LT Axiom Verification</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L24</th>
+      <td>lemma</td>
+      <td>Lattice Closure</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L25</th>
+      <td>lemma</td>
+      <td>Minimality Witness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L26</th>
+      <td>lemma</td>
+      <td>Dignity Witness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L27</th>
+      <td>lemma</td>
+      <td>Sheaf Gluing Verification</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L28</th>
+      <td>lemma</td>
+      <td>Operator Graph Completeness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L29</th>
+      <td>lemma</td>
+      <td>F Lattice Completeness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L30</th>
+      <td>lemma</td>
+      <td>CI Uniqueness Derivation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L31</th>
+      <td>lemma</td>
+      <td>OR1+OR2 Narrowing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L32</th>
+      <td>lemma</td>
+      <td>OR3+OR4 Narrowing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L33</th>
+      <td>lemma</td>
+      <td>OR5+OR6 Narrowing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R53</th>
+      <td>remark</td>
+      <td>Archetypes-CI j-Closure Bridge</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R54</th>
+      <td>remark</td>
+      <td>Book II j-Closure Consistency</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R55</th>
+      <td>remark</td>
+      <td>Part I Imports Cross-Book Check</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L34</th>
+      <td>lemma</td>
+      <td>Archetypal Basis Completeness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L35</th>
+      <td>lemma</td>
+      <td>Social Base Space Well-Definedness</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L36</th>
+      <td>lemma</td>
+      <td>Recognition Topology Generation</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L37</th>
+      <td>lemma</td>
+      <td>Social Sheaf Construction</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L38</th>
+      <td>lemma</td>
+      <td>Collective Intentionality as Glued Section</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L39</th>
+      <td>lemma</td>
+      <td>Power Morphism Well-Typed</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L40</th>
+      <td>lemma</td>
+      <td>Legitimacy Sheaf Connection</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L41</th>
+      <td>lemma</td>
+      <td>Legitimacy Dignity Connection</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L42</th>
+      <td>lemma</td>
+      <td>Legitimacy from CI</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L43</th>
+      <td>lemma</td>
+      <td>Ritual Gluing Well-Defined</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.L44</th>
+      <td>lemma</td>
+      <td>Rite of Passage as Boundary Crossing</td>
+      <td>tau-e</td>
+      <td>form</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R56</th>
+      <td>remark</td>
+      <td>BH Basin Cross-Book Consistency</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R57</th>
+      <td>remark</td>
+      <td>Genesis-Kernel Cross-Book Consistency</td>
+      <td>tau-e</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D91</th>
+      <td>definition</td>
+      <td>One Free Choice</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.D92</th>
+      <td>definition</td>
+      <td>Four-Operator Consequence Architecture</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">VII.R58</th>
+      <td>remark</td>
+      <td>Layer-Conflation Diagnostic</td>
+      <td>conje</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 

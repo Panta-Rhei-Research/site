@@ -20,12 +20,12 @@ hero_ctas:
     primary: true
   - label: "Mathematics"
     url: /results/world-readout/mathematics/
-  - label: "Problem Ledger"
-    url: /results/problem-ledger/
+  - label: "Problem Ledger Answers"
+    url: /results/problem-ledger-answers/
 right_rail:
   related:
-    - title: "Problem Ledger"
-      url: /results/problem-ledger/
+    - title: "Problem Ledger Answers"
+      url: /results/problem-ledger-answers/
     - title: "Classifications"
       url: /results/classifications/
     - title: "Corpus"
@@ -49,4 +49,4 @@ World Readout pages are not the same thing as proof pages. They are domain-facin
 
 ## How to use this section
 
-Start from a domain if you want the picture first. Start from the [Problem Ledger]({{ '/results/problem-ledger/' | relative_url }}) if you want a question-answer path. Move into [Corpus]({{ '/corpus/' | relative_url }}) and [Verify]({{ '/verify/' | relative_url }}) when you want to inspect why a readout is being claimed.
+Start from a domain if you want the picture first. Start from [Problem Ledger Answers]({{ '/results/problem-ledger-answers/' | relative_url }}) if you want a question-answer path. Move into [Corpus]({{ '/corpus/' | relative_url }}) and [Verify]({{ '/verify/' | relative_url }}) when you want to inspect why a readout is being claimed.

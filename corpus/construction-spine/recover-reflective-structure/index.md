@@ -88,8 +88,6 @@ do_not_edit: true
 _body: "## What this step builds\n\nThe eighth step builds the bridge from life to reflection. It concerns cognition, perception, memory, self-modeling, symbolic mediation, language, meaning, truth, value, and normativity.\n\n## Why this step is required\n\nMind, meaning, and value cannot be bolted on from outside after physics and life have been built. The Corpus must recover the structural layer in which these topics become intelligible.\n\n## Key constructions\n\n- Cognition and perception.\n- Memory and learning.\n- Self-modeling.\n- Symbolic mediation and language.\n- Truth, value, and normativity."
 ---
 
-# Step 8 - Recover Reflective Structure
-
 > Recovers the transition from life to cognition, subjectivity, symbolic mediation, meaning, truth, value, and normativity.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
@@ -171,6 +169,7 @@ This step does not claim a complete solution of consciousness by itself. It cons
 
 - Reflective structure does not by itself settle external acceptance, phenomenological adequacy, or ontic closure.
 
-## Next step in the spine
+## Spine navigation
 
-The next construction step is `CS-09`.
+- Previous: [Step 7 - Recover Life as a Structural Class](/corpus/construction-spine/recover-life/)
+- Next: [Step 9 - Self-Host Formal Systems and the Kernel Itself](/corpus/construction-spine/self-host-formal-systems/)

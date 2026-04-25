@@ -1,12 +1,12 @@
 ---
 layout: program-doc
-title: "Problem Ledger Results Mirror"
+title: "Legacy Problem Ledger Compatibility"
 lane: results
 v2_lane: results
 permalink: /results/problem-ledger/
-type: "Result Index"
-status: "Canonical"
-summary_short: "Compatibility bridge to the v2.1 Problem Ledger Answers surface."
+type: "Compatibility Bridge"
+status: "Compatibility"
+summary_short: "Legacy compatibility bridge to the canonical v2.1 Problem Ledger Answers surface."
 summary_cards:
   - title: "Question first"
     body: "Each entry is read as an answer to a named problem or burden."
@@ -31,9 +31,9 @@ right_rail:
     - title: "World Readout"
       url: /results/world-readout/
   meta:
-    type: "Result Index"
+    type: "Compatibility Bridge"
     scope: "Problem-facing results"
-    status: "Canonical"
+    status: "Compatibility"
     updated: "April 2026"
 ---
 
