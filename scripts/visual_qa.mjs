@@ -23,7 +23,9 @@ const pages = [
   { name: "corpus", url: "/corpus/", expect: ["Corpus"] },
   { name: "registry", url: "/corpus/registry/", expect: ["Registry"] },
   { name: "results", url: "/results/", expect: ["Results"] },
+  { name: "results-progress", url: "/results/progress-against-agenda/", expect: ["Progress Against Agenda"] },
   { name: "verify", url: "/verify/", expect: ["Verify"] },
+  { name: "verify-spine", url: "/verify/construction-spine-verification/", expect: ["Verify the Construction Spine"] },
   { name: "publications", url: "/publications/", expect: ["Publications"] },
   { name: "impact", url: "/impact/", expect: ["Impact"] },
   { name: "engage", url: "/engage/", expect: ["Engage"] },
@@ -258,6 +260,78 @@ async function runVisualQa() {
       }
 
       await searchPage.close();
+
+      const agendaPage = await context.newPage();
+      await agendaPage.goto(pageUrl(baseUrl, "/results/progress-against-agenda/"), {
+        waitUntil: "networkidle",
+        timeout: 30000,
+      });
+
+      const filter = (selector) => agendaPage.locator(selector);
+      const countValue = async () => {
+        const value = await agendaPage.locator("#agenda-progress-count").textContent();
+        return Number((value || "").trim());
+      };
+      const state = async () =>
+        agendaPage.evaluate(() => ({
+          query: window.location.search,
+          emptyVisible: !document.getElementById("agenda-progress-empty")?.hidden,
+          activeFilters: Array.from(document.querySelectorAll("#agenda-progress-controls .filter-chip.is-active")).map(
+            (el) => `${el.getAttribute("data-filter")}:${el.getAttribute("data-value")}`,
+          ),
+        }));
+
+      const initialCount = await countValue();
+      if (initialCount < 50) {
+        failures.push(`${viewport.name}/agenda-progress: unexpected initial count ${initialCount}`);
+      }
+
+      await filter('[data-filter="domain"][data-value="physics"]').click();
+      await filter('[data-filter="verification_status"][data-value="pending_physics_verification"]').click();
+      await agendaPage.waitForTimeout(250);
+
+      const filteredCount = await countValue();
+      const filteredState = await state();
+      if (!(filteredCount > 0 && filteredCount < initialCount)) {
+        failures.push(`${viewport.name}/agenda-progress: physics/pending-physics filter count ${filteredCount} did not narrow from ${initialCount}`);
+      }
+      if (!filteredState.query.includes("domain=physics") || !filteredState.query.includes("verification_status=pending_physics_verification")) {
+        failures.push(`${viewport.name}/agenda-progress: filter query string did not persist expected params`);
+      }
+
+      await agendaPage.reload({ waitUntil: "networkidle", timeout: 30000 });
+      const reloadedCount = await countValue();
+      const reloadedState = await state();
+      if (reloadedCount !== filteredCount) {
+        failures.push(`${viewport.name}/agenda-progress: reload changed filtered count from ${filteredCount} to ${reloadedCount}`);
+      }
+      if (
+        !reloadedState.activeFilters.includes("domain:physics") ||
+        !reloadedState.activeFilters.includes("verification_status:pending_physics_verification")
+      ) {
+        failures.push(`${viewport.name}/agenda-progress: active filters were not restored after reload`);
+      }
+
+      await filter('[data-filter="construction_step"][data-value="define-the-kernel"]').click();
+      await agendaPage.waitForTimeout(250);
+      const emptyCount = await countValue();
+      const emptyState = await state();
+      if (emptyCount !== 0 || !emptyState.emptyVisible) {
+        failures.push(`${viewport.name}/agenda-progress: empty-state check failed (count ${emptyCount}, emptyVisible ${emptyState.emptyVisible})`);
+      }
+
+      await agendaPage.locator("#agenda-progress-clear-filters").click();
+      await agendaPage.waitForTimeout(250);
+      const resetCount = await countValue();
+      const resetState = await state();
+      if (resetCount !== initialCount || resetState.query !== "" || resetState.emptyVisible) {
+        failures.push(`${viewport.name}/agenda-progress: clear filters did not restore initial state`);
+      }
+
+      const agendaShot = path.join(outputDir, screenshotName(viewport.name, "agenda-progress", "page"));
+      await agendaPage.screenshot({ path: agendaShot, fullPage: true });
+      screenshots.push(agendaShot);
+      await agendaPage.close();
       await context.close();
     }
   } finally {
