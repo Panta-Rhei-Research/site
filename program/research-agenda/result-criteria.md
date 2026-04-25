@@ -77,4 +77,4 @@ The [Problem Ledger]({{ '/program/research-agenda/problem-ledger/' | relative_ur
 - A private argument that has no public inspection path.
 - A result whose status label is stronger than its evidence.
 
-The [Verify lane]({{ '/verify/' | relative_url }}) carries the practical audit routes. The [Results lane]({{ '/results/' | relative_url }}) carries the current classified claims.
+The [Verification Framework]({{ '/verify/' | relative_url }}) carries the practical audit routes. The [Results lane]({{ '/results/' | relative_url }}) carries the current classified claims.

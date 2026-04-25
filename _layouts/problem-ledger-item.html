@@ -31,7 +31,12 @@ layout: default
     <p>
       This item is sourced from
       <a href="{{ page.source.source_page }}" target="_blank" rel="noopener">{{ page.source.source_name | replace: "_", " " }}</a>.
+      Import rule is {{ page.source.import_rule | replace: "_", " " }}.
       Revision capture is {{ page.source.source_revision_id }} and retrieval is {{ page.source.source_retrieved_at }}.
+      {% if page.source.source_permalink %}
+      The pinned source revision is available at
+      <a href="{{ page.source.source_permalink }}" target="_blank" rel="noopener">the source permalink</a>.
+      {% endif %}
     </p>
 
     <h2>Program Classification</h2>

@@ -47,6 +47,8 @@ The Program-side [Problem Ledger]({{ '/program/research-agenda/problem-ledger/' 
 
 The current site still exposes the full crawlable [Browse All Results]({{ '/results/browse/' | relative_url }}) catalogue. This page narrows the view to Problem Ledger seed items and their linked Result pages.
 
+Recovery-facing burden tracking belongs to the Program-side [Recovery Requirements]({{ '/program/research-agenda/recovery-requirements/' | relative_url }}) ledger.
+
 ## Current status distribution
 
 <div class="v2-grid">

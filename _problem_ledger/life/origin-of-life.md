@@ -24,13 +24,21 @@ source:
   source_class: "master_wholesale_import"
   source_name: "wikipedia_list_of_unsolved_problems_in_biology"
   source_page: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_biology"
-  source_revision_id: "pending"
-  source_retrieved_at: "pending"
-  source_item_anchor: "origin_of_life"
+  source_revision_id: "1350634388"
+  source_retrieved_at: "2026-04-24T23:54:38Z"
+  source_item_anchor: "how-does-life-arise-from-the-non-living"
   import_rule: "wholesale_pinned_revision"
   imported_unfiltered: true
   supplemental: false
   inclusion_rationale: "Part of the biology master ledger."
+  source_revision_timestamp: "2026-04-23T02:19:10Z"
+  source_permalink: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_biology?oldid=1350634388"
+  source_line: 141
+  source_section:
+    - "Artificial life"
+  license: "CC BY-SA 4.0 and GFDL"
+  license_url: "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
+  attribution: "Wikipedia contributors"
 program:
   tier: "kernel_critical"
   agenda_role: "bridge_problem"
@@ -52,8 +60,8 @@ related:
 version:
   item_version: "0.1.0"
   introduced_in: "problem-ledger-v1"
-  last_modified: "2026-04-24"
-  change_summary: "Initial life master-ledger seed entry."
+  last_modified: "2026-04-25"
+  change_summary: "Seed item enriched with pinned Wikipedia source metadata."
 tags:
   - "life"
   - "origin-of-life"

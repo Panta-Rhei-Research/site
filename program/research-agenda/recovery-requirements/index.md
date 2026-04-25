@@ -42,6 +42,8 @@ Open problems test what the kernel can illuminate where current knowledge does n
 
 The two burdens belong together, but they are not the same ledger. A kernel cannot credibly answer open problems if it cannot first recover the grammar those problems presuppose.
 
+The current canonical v0.1 public projection contains {{ recovery_items.size }} recovery and refusal items.
+
 ## Recovery domains
 
 <div class="v2-grid">

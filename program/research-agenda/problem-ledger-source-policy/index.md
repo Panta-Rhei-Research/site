@@ -38,7 +38,7 @@ Physics uses the full Wikipedia list of unsolved problems in physics as its mast
 
 ## Life import rule
 
-Life uses two master ledgers: the Wikipedia list of unsolved problems in biology and the Wikipedia list of unsolved problems in neuroscience. The first pinned imports captured biology revision `1350634388` from April 23, 2026 and neuroscience revision `1330874647` from January 3, 2026. Medicine is not used as a master Life ledger in v2.
+Life uses two master ledgers: the Wikipedia list of unsolved problems in biology and the Wikipedia list of unsolved problems in neuroscience. The first pinned imports captured biology revision `1350634388` from April 23, 2026 and neuroscience revision `1330874647` from January 3, 2026. The Wikipedia list of unsolved problems in medicine is not used as a master Life ledger in v2.
 
 ## Metaphysics / Philosophy import rule
 

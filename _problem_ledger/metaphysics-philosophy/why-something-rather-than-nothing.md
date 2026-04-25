@@ -24,13 +24,21 @@ source:
   source_class: "master_wholesale_import"
   source_name: "wikipedia_list_of_philosophical_problems"
   source_page: "https://en.wikipedia.org/wiki/List_of_philosophical_problems"
-  source_revision_id: "pending"
-  source_retrieved_at: "pending"
-  source_item_anchor: "why_there_is_something_rather_than_nothing"
+  source_revision_id: "1338262080"
+  source_retrieved_at: "2026-04-24T23:54:39Z"
+  source_item_anchor: "why-there-is-something-rather-than-nothing"
   import_rule: "wholesale_pinned_revision"
   imported_unfiltered: true
   supplemental: false
   inclusion_rationale: "Part of the philosophical problems master ledger."
+  source_revision_timestamp: "2026-02-14T02:33:54Z"
+  source_permalink: "https://en.wikipedia.org/wiki/List_of_philosophical_problems?oldid=1338262080"
+  source_line: 87
+  source_section:
+    - "Metaphysics"
+  license: "CC BY-SA 4.0 and GFDL"
+  license_url: "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
+  attribution: "Wikipedia contributors"
 program:
   tier: "kernel_critical"
   agenda_role: "expressibility_test"
@@ -50,8 +58,8 @@ related:
 version:
   item_version: "0.1.0"
   introduced_in: "problem-ledger-v1"
-  last_modified: "2026-04-24"
-  change_summary: "Initial philosophical-problems master-ledger seed entry."
+  last_modified: "2026-04-25"
+  change_summary: "Seed item enriched with pinned Wikipedia source metadata."
 tags:
   - "metaphysics"
   - "ontology"

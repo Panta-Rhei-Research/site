@@ -24,13 +24,21 @@ source:
   source_class: "master_wholesale_import"
   source_name: "wikipedia_list_of_unsolved_problems_in_physics"
   source_page: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics"
-  source_revision_id: "pending"
-  source_retrieved_at: "pending"
-  source_item_anchor: "dark_matter"
+  source_revision_id: "1349830343"
+  source_retrieved_at: "2026-04-24T23:54:38Z"
+  source_item_anchor: "dark-matter"
   import_rule: "wholesale_pinned_revision"
   imported_unfiltered: true
   supplemental: false
   inclusion_rationale: "Part of the physics master ledger."
+  source_revision_timestamp: "2026-04-19T03:02:56Z"
+  source_permalink: "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics?oldid=1349830343"
+  source_line: 70
+  source_section:
+    - "Cosmology and general relativity"
+  license: "CC BY-SA 4.0 and GFDL"
+  license_url: "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
+  attribution: "Wikipedia contributors"
 program:
   tier: "kernel_critical"
   agenda_role: "stress_test"
@@ -51,8 +59,8 @@ related:
 version:
   item_version: "0.1.0"
   introduced_in: "problem-ledger-v1"
-  last_modified: "2026-04-24"
-  change_summary: "Initial physics master-ledger seed entry."
+  last_modified: "2026-04-25"
+  change_summary: "Seed item enriched with pinned Wikipedia source metadata."
 tags:
   - "physics"
   - "cosmology"
