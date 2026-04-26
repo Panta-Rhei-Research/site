@@ -35,11 +35,6 @@ Result → Verification survival → Translation layer → Domain uptake → Con
 
 If any upstream link weakens, the impact claim weakens with it.
 
-Codex may use the following as the full replacement body.
-
-```markdown
-# Global Education
-
 ## Core idea
 
 Global Education is the impact stratum concerned with intelligibility.
@@ -309,6 +304,4 @@ External experts must be able to challenge the material.
 If those conditions fail, the educational impact weakens or disappears.
 
 Until then, Global Education remains a conditional impact hypothesis: the possibility that a coherent kernel could make knowledge more accessible without making it less rigorous.
-```
-
 ---

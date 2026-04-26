@@ -35,11 +35,6 @@ Result → Verification survival → Translation layer → Domain uptake → Con
 
 If any upstream link weakens, the impact claim weakens with it.
 
-Codex may use the following as the full replacement body.
-
-```markdown
-# Foundational Science
-
 ## Core idea
 
 Foundational Science is the innermost impact stratum.
@@ -313,6 +308,4 @@ For metaphysics, that means conceptual precision, non-circularity, and answer-sh
 The impact is large only if the framework survives the checks appropriate to each domain.
 
 Until then, Foundational Science remains an impact hypothesis, not a settled transformation.
-```
-
 ---

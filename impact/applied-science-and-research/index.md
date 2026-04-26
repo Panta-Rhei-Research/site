@@ -35,11 +35,6 @@ Result → Verification survival → Translation layer → Domain uptake → Con
 
 If any upstream link weakens, the impact claim weakens with it.
 
-Codex may use the following as the full replacement body.
-
-```markdown
-# Applied Science & Research
-
 ## Core idea
 
 Applied Science & Research is the second impact stratum.
@@ -253,6 +248,4 @@ Domain experts must find the translations meaningful.
 If those conditions fail, the applied consequence fails with them.
 
 Until then, Applied Science & Research remains a conditional research-translation stratum, not a deployment claim.
-```
-
 ---

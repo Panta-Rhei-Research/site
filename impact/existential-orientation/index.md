@@ -35,11 +35,6 @@ Result → Verification survival → Translation layer → Domain uptake → Con
 
 If any upstream link weakens, the impact claim weakens with it.
 
-Codex may use the following as the full replacement body.
-
-```markdown
-# Existential Orientation
-
 ## Core idea
 
 Existential Orientation is the impact stratum concerned with what it means to inhabit reality if the Panta Rhei framework holds.
@@ -288,6 +283,4 @@ The framework may offer a new background picture.
 It cannot decide how anyone must live.
 
 Until the upstream conditions hold, Existential Orientation remains a conditional impact hypothesis — not a settled existential teaching.
-```
-
 ---

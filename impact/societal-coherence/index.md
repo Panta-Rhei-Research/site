@@ -35,11 +35,6 @@ Result → Verification survival → Translation layer → Domain uptake → Con
 
 If any upstream link weakens, the impact claim weakens with it.
 
-Codex may use the following as the full replacement body.
-
-```markdown
-# Societal Coherence
-
 ## Core idea
 
 Societal Coherence is the impact stratum concerned with the relation between scientific worldview, public meaning, dignity, ethics, technology, and shared life.
@@ -298,6 +293,4 @@ No formal framework replaces democratic deliberation, moral judgment, historical
 If the framework contributes, it contributes by offering a more coherent background language — not by replacing those domains.
 
 Until then, Societal Coherence remains a conditional impact hypothesis, not a social program.
-```
-
 ---
