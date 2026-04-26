@@ -1,6 +1,6 @@
 ---
 layout: publication-chapter
-title: "Chapter 3: The Temporal Ignition: Why a "Time Epoch" Starts"
+title: "Chapter 3: The Temporal Ignition: Why a ``Time Epoch'' Starts"
 permalink: /publications/books/book-v/part-01-the-base-itself-time-from-tau/chapter-03-the-temporal-ignition-why-a-time-epoch-starts/
 lane: publications
 publication_type: chapter
@@ -11,13 +11,13 @@ part_display: "Part I"
 part_slug: "part-01-the-base-itself-time-from-tau"
 chapter_number: 3
 chapter_slug: "chapter-03-the-temporal-ignition-why-a-time-epoch-starts"
-page_in_book: 21
+page_in_book: 23
 prev_chapter_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/chapter-02-proto-chronos-from-alpha-ticks-to-proper-time/"
 prev_chapter_title: "Chapter 2: Proto-Chronos: From α-Ticks to Proper Time"
 next_chapter_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/chapter-04-high-energy-and-high-entropy-at-the-beginning/"
 next_chapter_title: "Chapter 4: High Energy and High Entropy at the Beginning"
-summary_short: "The preceding chapter derived physical time as arc length along the base circle τ¹. But arc length is a mathematical construction — it exists at every…"
-canonical_book_url: "/publications/books/book-v/"
+summary_short: "The preceding chapter derived physical time as arc length along the base circle $τ^1$. But arc length is a mathematical construction — it exists at every…"
+canonical_book_url: /publications/books/book-v/
 canonical_book_title: "Book V: Categorical Macrocosm"
 canonical_part_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/"
 canonical_part_title: "Part I: The Base Itself: Time from τ¹"

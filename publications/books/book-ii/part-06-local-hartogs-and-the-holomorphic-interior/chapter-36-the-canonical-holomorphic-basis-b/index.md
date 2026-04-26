@@ -11,13 +11,13 @@ part_display: "Part VI"
 part_slug: "part-06-local-hartogs-and-the-holomorphic-interior"
 chapter_number: 36
 chapter_slug: "chapter-36-the-canonical-holomorphic-basis-b"
-page_in_book: 181
+page_in_book: 187
 prev_chapter_url: "/publications/books/book-ii/part-06-local-hartogs-and-the-holomorphic-interior/chapter-35-laurent-series-and-residues/"
 prev_chapter_title: "Chapter 35: Laurent Series and Residues"
 next_chapter_url: "/publications/books/book-ii/part-06-local-hartogs-and-the-holomorphic-interior/chapter-37-sheaf-coherence-from-omega-germ-compatibility/"
 next_chapter_title: "Chapter 37: Sheaf Coherence from ω-Germ Compatibility"
-summary_short: "Classical complex analysis expands holomorphic functions in the monomial basis \{z^n : n ≥ 0\}. The choice of basis is canonical *once the coordinate z is…"
-canonical_book_url: "/publications/books/book-ii/"
+summary_short: "Classical complex analysis expands holomorphic functions in the monomial basis $\\{z^n : n ≥ 0\\}$. The choice of basis is canonical *once the coordinate $z$ is…"
+canonical_book_url: /publications/books/book-ii/
 canonical_book_title: "Book II: Categorical Holomorphy"
 canonical_part_url: "/publications/books/book-ii/part-06-local-hartogs-and-the-holomorphic-interior/"
 canonical_part_title: "Part VI: Local Hartogs and the Holomorphic Interior"

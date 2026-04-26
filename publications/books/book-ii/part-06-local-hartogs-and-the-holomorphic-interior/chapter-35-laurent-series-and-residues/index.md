@@ -11,13 +11,13 @@ part_display: "Part VI"
 part_slug: "part-06-local-hartogs-and-the-holomorphic-interior"
 chapter_number: 35
 chapter_slug: "chapter-35-laurent-series-and-residues"
-page_in_book: 175
+page_in_book: 181
 prev_chapter_url: "/publications/books/book-ii/part-06-local-hartogs-and-the-holomorphic-interior/chapter-34-composition-identity-associativity/"
 prev_chapter_title: "Chapter 34: Composition, Identity, Associativity"
 next_chapter_url: "/publications/books/book-ii/part-06-local-hartogs-and-the-holomorphic-interior/chapter-36-the-canonical-holomorphic-basis-b/"
 next_chapter_title: "Chapter 36: The Canonical Holomorphic Basis B"
-summary_short: "Classical Laurent theory expands a holomorphic function in an annulus \{r₁ < |z| < r₂\} as a doubly-infinite power series ∑_{n=-∞}^∞ a_n z^n, with the…"
-canonical_book_url: "/publications/books/book-ii/"
+summary_short: "Classical Laurent theory expands a holomorphic function in an annulus $\\{r_1 < |z| < r_2\\}$ as a doubly-infinite power series $∑_{n=-∞}^∞ a_n z^n$, with the…"
+canonical_book_url: /publications/books/book-ii/
 canonical_book_title: "Book II: Categorical Holomorphy"
 canonical_part_url: "/publications/books/book-ii/part-06-local-hartogs-and-the-holomorphic-interior/"
 canonical_part_title: "Part VI: Local Hartogs and the Holomorphic Interior"

@@ -11,13 +11,13 @@ part_display: "Part IV"
 part_slug: "part-04-the-strong-sector-and-confinement"
 chapter_number: 33
 chapter_slug: "chapter-33-the-vacuum-catastrophe-dissolved"
-page_in_book: 177
+page_in_book: 191
 prev_chapter_url: "/publications/books/book-iv/part-04-the-strong-sector-and-confinement/chapter-32-strong-coupling-and-quarks/"
 prev_chapter_title: "Chapter 32: Strong Coupling and Quarks"
 next_chapter_url: "/publications/books/book-iv/part-04-the-strong-sector-and-confinement/chapter-34-the-sector-atlas/"
 next_chapter_title: "Chapter 34: The Sector Atlas"
-summary_short: "The cosmological constant problem—often called the "worst prediction in physics"—is the 10¹²⁰-fold discrepancy between the quantum field theory…"
-canonical_book_url: "/publications/books/book-iv/"
+summary_short: "The cosmological constant problem—often called the ``worst prediction in physics''—is the $10^{120}$-fold discrepancy between the quantum field theory…"
+canonical_book_url: /publications/books/book-iv/
 canonical_book_title: "Book IV: Categorical Microcosm"
 canonical_part_url: "/publications/books/book-iv/part-04-the-strong-sector-and-confinement/"
 canonical_part_title: "Part IV: The Strong Sector and Confinement"

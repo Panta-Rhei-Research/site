@@ -41,6 +41,8 @@ right_rail:
 
 We use topic-specific email aliases so your message reaches the right queue. Please pick the route that best matches your inquiry.
 
+Participation does not imply endorsement. Contact, critique, review, support, or collaboration should be understood as engagement under scrutiny, not as agreement with the framework. See [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}) for the program's public-accountability stance.
+
 ### Media Inquiry
 
 For journalists, editors, podcast hosts, and media professionals covering science, mathematics, publishing, or technology.
@@ -107,4 +109,3 @@ For technical, review, or correction messages, the most helpful note contains:
 - any references, reproduction steps, or suggested corrections.
 
 We aim to respond within one week. Complex technical inquiries may take longer. We read every message.
-

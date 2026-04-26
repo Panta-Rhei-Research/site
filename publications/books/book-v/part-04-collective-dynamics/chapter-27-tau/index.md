@@ -64,7 +64,7 @@ and accretion environments.
 The plasma vocabulary established here
 is prerequisite for MHD
 
-and Alfv\'en modes
+and Alfvén modes
 .
 
 Scope: τ-effective throughout.

@@ -11,21 +11,21 @@ part_display: "Part XIII"
 part_slug: "part-13-internal-set-theory-the-cantor-mirage"
 chapter_number: 55
 chapter_slug: "chapter-55-countability-is-not-a-limitation"
-page_in_book: 247
+page_in_book: 263
 prev_chapter_url: "/publications/books/book-i/part-13-internal-set-theory-the-cantor-mirage/chapter-54-the-orbit-set-correspondence/"
 prev_chapter_title: "Chapter 54: The Orbit-Set Correspondence"
 next_chapter_url: "/publications/books/book-i/part-13-internal-set-theory-the-cantor-mirage/chapter-56-the-three-failures-of-cantor-s-diagonal/"
 next_chapter_title: "Chapter 56: The Three Failures of Cantor's Diagonal"
-summary_short: "Orthodox mathematics treats countability as a measure of *smallness*: a set is countable if it is "no bigger than ℕ," and the existence of uncountable sets…"
-canonical_book_url: "/publications/books/book-i/"
+summary_short: "Orthodox mathematics treats countability as a measure of *smallness*: a set is countable if it is ``no bigger than $ℕ$,'' and the existence of uncountable sets…"
+canonical_book_url: /publications/books/book-i/
 canonical_book_title: "Book I: Categorical Foundations"
 canonical_part_url: "/publications/books/book-i/part-13-internal-set-theory-the-cantor-mirage/"
-canonical_part_title: "Part XIII: Internal Set Theory & The Cantor Mirage"
+canonical_part_title: "Part XIII: Internal Set Theory \\& The Cantor Mirage"
 right_rail:
   related:
   - title: "Book I: Categorical Foundations"
     url: /publications/books/book-i/
-  - title: "Part XIII: Internal Set Theory & The Cantor Mirage"
+  - title: "Part XIII: Internal Set Theory \\& The Cantor Mirage"
     url: /publications/books/book-i/part-13-internal-set-theory-the-cantor-mirage/
   - title: Registry
     url: /registry/books/book-i/

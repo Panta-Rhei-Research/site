@@ -68,7 +68,7 @@ by establishing the complete
 collective-dynamics vocabulary:
 fluids (Chapter 27), turbulence (Chapter 28),
 charges (Chapter 29), plasmas (Chapter 30),
-MHD and Alfv\'en waves (Chapters 31–32),
+MHD and Alfvén waves (Chapters 31–32),
 and now phase transitions.
 This vocabulary is the prerequisite
 for the astrophysical applications

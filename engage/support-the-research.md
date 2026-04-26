@@ -34,7 +34,7 @@ right_rail:
 
 ## Support the Continuation of the Research
 
-Supporting the Panta Rhei Research Program does not mean endorsing the framework. It means valuing the attempt — the disciplined, inspectable, falsifiable pursuit of a coherent model of reality — and wanting it to continue under public scrutiny.
+Supporting the Panta Rhei Research Program does not mean endorsing the framework. Participation does not imply endorsement. It means valuing the attempt — the disciplined, inspectable, falsifiable pursuit of a coherent model of reality — and wanting it to continue under public scrutiny. For the broader public-accountability posture, see [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}).
 
 ## 1. Read the Books
 

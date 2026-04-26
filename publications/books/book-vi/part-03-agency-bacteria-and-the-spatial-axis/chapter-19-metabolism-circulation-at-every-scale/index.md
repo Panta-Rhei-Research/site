@@ -38,4 +38,4 @@ right_rail:
 ---
 
 
-Metabolism is Poincar\'e circulation at every scale: catabolism and anabolism form the fundamental oscillation that sustains all agency. The Krebs cycle is a concrete instantiation of the Life Loop Class, each turn producing energy carriers while recycling oxaloacetate. At the macroscopic level, blood flow instantiates Navier–Stokes dynamics at biological scale, completing the picture of circulation from molecule to organism.
+Metabolism is Poincaré circulation at every scale: catabolism and anabolism form the fundamental oscillation that sustains all agency. The Krebs cycle is a concrete instantiation of the Life Loop Class, each turn producing energy carriers while recycling oxaloacetate. At the macroscopic level, blood flow instantiates Navier–Stokes dynamics at biological scale, completing the picture of circulation from molecule to organism.

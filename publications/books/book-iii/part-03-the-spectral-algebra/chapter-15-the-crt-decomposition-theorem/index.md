@@ -59,7 +59,7 @@ that the τ kernel does not import
 (K3 provides divisibility predicates,
 not signed arithmetic).
 This chapter proves the CRT constructively
-using modular B\'ezout coefficients
+using modular Bézout coefficients
 obtained from divisibility alone.
 We then read the CRT as the *algebraic Euler product*:
 the endomorphism ring of the primorial presheaf decomposes

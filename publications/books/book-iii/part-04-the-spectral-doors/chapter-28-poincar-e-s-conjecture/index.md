@@ -1,6 +1,6 @@
 ---
 layout: publication-chapter
-title: "Chapter 28: Poincar\'e's Conjecture"
+title: "Chapter 28: Poincaré's Conjecture"
 permalink: /publications/books/book-iii/part-04-the-spectral-doors/chapter-28-poincar-e-s-conjecture/
 lane: publications
 publication_type: chapter
@@ -11,13 +11,13 @@ part_display: "Part IV"
 part_slug: "part-04-the-spectral-doors"
 chapter_number: 28
 chapter_slug: "chapter-28-poincar-e-s-conjecture"
-page_in_book: 151
+page_in_book: 155
 prev_chapter_url: "/publications/books/book-iii/part-04-the-spectral-doors/chapter-27-the-grand-grh/"
 prev_chapter_title: "Chapter 27: The Grand GRH"
 next_chapter_url: "/publications/books/book-iii/part-04-the-spectral-doors/chapter-29-simply-connected-in-category-tau/"
 next_chapter_title: "Chapter 29: Simply Connected in Category τ"
 summary_short: "Poincaré's conjecture stands alone among the millennium problems: it is *proved*. Grigori Perelman completed the proof in 2002–2003 via Hamilton's Ricci flow…"
-canonical_book_url: "/publications/books/book-iii/"
+canonical_book_url: /publications/books/book-iii/
 canonical_book_title: "Book III: Categorical Spectrum"
 canonical_part_url: "/publications/books/book-iii/part-04-the-spectral-doors/"
 canonical_part_title: "Part IV: The Spectral Doors"

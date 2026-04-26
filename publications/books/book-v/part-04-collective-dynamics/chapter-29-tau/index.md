@@ -40,13 +40,13 @@ right_rail:
 
 the relevant chapter
 derived the τ-MHD system
-and introduced Alfv\'en waves
+and introduced Alfvén waves
 as coupled fluid–field oscillations.
-This chapter develops the Alfv\'en mode
+This chapter develops the Alfvén mode
 in full structural detail.
 
 The central insight:
-an Alfv\'en wave is a *photon-in-fluid*—the
+an Alfvén wave is a *photon-in-fluid*—the
 electromagnetic degree of freedom
 (the Sector B-sector holonomy)
 propagating not through vacuum
@@ -65,13 +65,13 @@ of the Sector B-sector
 and the Sector D-sector
 (fluid velocity perturbation).
 On the fiber T²,
-the Alfv\'en mode corresponds to
+the Alfvén mode corresponds to
 a coupled periodic orbit—a
 trajectory that oscillates
 between the Sector B and Sector D
 directions in the holonomy algebra.
 
-The chapter applies the Alfv\'en framework
+The chapter applies the Alfvén framework
 to stellar physics (coronal heating,
 stellar wind driving)
 and the interstellar medium

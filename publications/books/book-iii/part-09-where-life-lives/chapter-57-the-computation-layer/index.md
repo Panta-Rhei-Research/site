@@ -11,13 +11,13 @@ part_display: "Part IX"
 part_slug: "part-09-where-life-lives"
 chapter_number: 57
 chapter_slug: "chapter-57-the-computation-layer"
-page_in_book: 293
+page_in_book: 307
 prev_chapter_url: "/publications/books/book-iii/part-08-where-physics-lives/chapter-56-the-temporal-spatial-decomposition/"
 prev_chapter_title: "Chapter 56: The Temporal-Spatial Decomposition"
 next_chapter_url: "/publications/books/book-iii/part-09-where-life-lives/chapter-58-the-tau/"
 next_chapter_title: "Chapter 58: The τ"
-summary_short: "This chapter opens the P vs NP block by establishing that the question "Can search be efficient?" is *native* to the enrichment level E₂—and meaningless…"
-canonical_book_url: "/publications/books/book-iii/"
+summary_short: "This chapter opens the P vs NP block by establishing that the question ``Can search be efficient?'' is *native* to the enrichment level $E_2$—and meaningless…"
+canonical_book_url: /publications/books/book-iii/
 canonical_book_title: "Book III: Categorical Spectrum"
 canonical_part_url: "/publications/books/book-iii/part-09-where-life-lives/"
 canonical_part_title: "Part IX: Where Life Lives"

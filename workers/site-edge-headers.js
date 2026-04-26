@@ -32,6 +32,11 @@ const CACHE_POLICIES = [
   }
 ];
 
+const PERMANENT_REDIRECTS = new Map([
+  ["/publications/physics-ledger", "/publications/numerical-physics-ledger/"],
+  ["/publications/physics-ledger/", "/publications/numerical-physics-ledger/"]
+]);
+
 function isHtmlRequest(url, response) {
   const contentType = response.headers.get("Content-Type") || "";
   return contentType.includes("text/html") || url.pathname.endsWith(".html") || url.pathname.endsWith("/");
@@ -62,10 +67,26 @@ export function applyEdgeHeaders(request, response) {
   });
 }
 
+export function edgeRedirectFor(request) {
+  const url = new URL(typeof request === "string" ? request : request.url);
+  const targetPath = PERMANENT_REDIRECTS.get(url.pathname);
+
+  if (!targetPath) {
+    return null;
+  }
+
+  const targetUrl = new URL(targetPath, url.origin);
+  return Response.redirect(targetUrl.toString(), 301);
+}
+
 export default {
   async fetch(request) {
+    const redirect = edgeRedirectFor(request);
+    if (redirect) {
+      return applyEdgeHeaders(request, redirect);
+    }
+
     const originResponse = await fetch(request);
     return applyEdgeHeaders(request, originResponse);
   }
 };
-

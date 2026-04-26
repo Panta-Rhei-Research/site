@@ -13,7 +13,7 @@ chapter_number: 70
 chapter_slug: "chapter-70-the-mass-ratio-r-and-the-10-link-chain"
 page_in_book: 375
 prev_chapter_url: "/publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-69-running-vs-readout/"
-prev_chapter_title: "Chapter 69: Running vs.\ Readout"
+prev_chapter_title: "Chapter 69: Running vs. Readout"
 next_chapter_url: "/publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-71-the-neutron-lifetime-crown-of-the-cascade/"
 next_chapter_title: "Chapter 71: The Neutron Lifetime: Crown of the Cascade"
 summary_short: "The neutron-to-electron mass ratio R = m_n / m_e ≈ 1838.684 is derived from ι<sub>τ</sub> through a chain of exactly 10 links—each τ-effective, with zero…"

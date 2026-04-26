@@ -56,7 +56,7 @@ of the macro defect tuple
 (μ, ν, κ, θ)
 with the Sector B-sector holonomy.
 The frozen-flux invariant
-(Alfv\'en's theorem)
+(Alfvén's theorem)
 is the conservation
 of the Sector B-sector topological charge θ_B
 under ideal MHD evolution.
@@ -65,7 +65,7 @@ topological rearrangement of field lines—is
 a *defect event*:
 a discrete change in the topological component
 θ of the defect tuple.
-Alfv\'en modes are coupled periodic orbits
+Alfvén modes are coupled periodic orbits
 on the fiber T²,
 and MHD instabilities
 are specific patterns

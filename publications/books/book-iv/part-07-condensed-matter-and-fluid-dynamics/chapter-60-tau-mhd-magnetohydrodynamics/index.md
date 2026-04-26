@@ -49,4 +49,4 @@ the τ-Navier–Stokes dynamics of defect transport
 to the B-sector holonomy of the electromagnetic field.
 This chapter derives the τ-MHD system,
 introduces the magnetic Reynolds number,
-and shows how Alfv\'en waves arise as coupled T² modes.
+and shows how Alfvén waves arise as coupled T² modes.

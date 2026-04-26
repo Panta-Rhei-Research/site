@@ -9,6 +9,12 @@
   <script>window.location.replace("{{ page.redirect_to | relative_url }}");</script>
 </head>
 <body>
+  <main>
+    <h1>{{ page.title | default: "Redirecting" }}</h1>
+    {% if page.summary_short %}
+    <p>{{ page.summary_short }}</p>
+    {% endif %}
+  </main>
   <p>Redirecting to <a href="{{ page.redirect_to | relative_url }}">{{ page.redirect_to }}</a>.</p>
 </body>
 </html>

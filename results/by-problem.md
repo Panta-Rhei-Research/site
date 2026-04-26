@@ -120,7 +120,7 @@ For the narrative front door, see the [Results Introduction]({{ '/results/prolog
 - [Homochirality Origin](/results/problem/homochirality-origin/) — *Frontier Problem* · Internally addressed
 - [Homochirality Universality: 12-Step Derivation from K0–K6 to L-Amino Acids](/results/problem/homochirality-universality-12-step-derivation/) — *Frontier Problem* · Internally addressed
 - [Hubble Tension](/results/problem/hubble-tension/) — *Frontier Problem* · Internally addressed
-- [Hubble Tension Resolved: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/) — *Frontier Problem* · Internally addressed
+- [Hubble Tension Internal Readout: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/) — *Frontier Problem* · Internally addressed
 - [Hyperfactorization](/results/problem/hyperfactorization/) — *Foundational Math* · Internally addressed
 - [Hyperfactorization: Every Object Has a Unique Canonical Normal Form](/results/problem/hyperfactorization-theorem/) — *Foundational Math* · Internally addressed
 - [Identity as NF-Address Persistence: Personal Identity Across Change](/results/problem/identity-as-nf-address-persistence/) — *Foundational Math* · Internally addressed
@@ -138,7 +138,7 @@ For the narrative front door, see the [Results Introduction]({{ '/results/prolog
 - [Kolmogorov Constant C_K = 3/2 Exact from dim(τ³)/dim(T²)](/results/problem/kolmogorov-constant-c-k-exact/) — *Foundational Math* · Internally addressed
 - [Langlands Program Approach](/results/problem/langlands-program-approach/) — *Frontier Problem* · Partial
 - [Layer Separation: SelfDesc Is Unavailable at E₁](/results/problem/layer-separation/) — *Frontier Problem* · Internally addressed
-- [Li-7 Problem Resolved: ⁷Li/H via Fiber Suppression S = 1/3](/results/problem/lithium-7-problem-resolved/) — *Frontier Problem* · Internally addressed
+- [Li-7 Framework Account: ⁷Li/H via Fiber Suppression S = 1/3](/results/problem/lithium-7-problem-resolved/) — *Frontier Problem* · Internally addressed
 - [Life as Structurally Favored Rather Than Accidental](/results/problem/life-as-structurally-favored-rather-than-accidental/) — *Consequence* · Qualitative
 - [Machine Consciousness](/results/problem/machine-consciousness/) — *Frontier Problem* · Partial
 - [Machine Consciousness (E3)](/results/problem/machine-consciousness-e3/) — *Frontier Problem* · Internally addressed
@@ -223,7 +223,7 @@ For the narrative front door, see the [Results Introduction]({{ '/results/prolog
 - [Substrate Abstraction: The 5+3 Life Conditions Are Substrate-Free](/results/problem/substrate-abstraction/) — *Consequence* · Internally addressed
 - [Substrate Independence / Multiple Realizability](/results/problem/substrate-independence-multiple-realizability/) — *Frontier Problem* · Internally addressed
 - [Syntax-Semantics Dissolution](/results/problem/syntax-semantics-dissolution/) — *Foundational Math* · Internally addressed
-- [S₈ Tension Resolved: S₈ = 0.783 from f_supp × f_growth × f_ν](/results/problem/s8-tension-resolved-0pt783/) — *Foundational Math* · Internally addressed
+- [S₈ Tension Framework Account: S₈ = 0.783 from f_supp × f_growth × f_ν](/results/problem/s8-tension-resolved-0pt783/) — *Foundational Math* · Internally addressed
 - [Tarski Axioms for Geometry](/results/problem/tarski-axioms-for-geometry/) — *Foundational Math* · Internally addressed
 - [Tau-Identity Theorem: Agreement at One Depth Implies Agreement Everywhere](/results/problem/tau-identity-theorem/) — *Foundational Math* · Internally addressed
 - [Temporal Experience](/results/problem/temporal-experience/) — *Frontier Problem* · Internally addressed

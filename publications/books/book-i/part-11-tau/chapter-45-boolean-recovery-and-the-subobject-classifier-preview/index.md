@@ -11,13 +11,13 @@ part_display: "Part XI"
 part_slug: "part-11-tau"
 chapter_number: 45
 chapter_slug: "chapter-45-boolean-recovery-and-the-subobject-classifier-preview"
-page_in_book: 193
+page_in_book: 207
 prev_chapter_url: "/publications/books/book-i/part-11-tau/chapter-44-the-explosion-barrier/"
 prev_chapter_title: "Chapter 44: The Explosion Barrier"
 next_chapter_url: "/publications/books/book-i/part-12-holomorphic-transformers/chapter-46-d-holomorphy-and-the-cauchy-riemann-analog/"
 next_chapter_title: "Chapter 46: D-Holomorphy and the Cauchy–Riemann Analog"
-summary_short: "the relevant chapter earned the four truth values \{T, F, B, N\} (the relevant definition, I.D21), and the relevant chapter proved the…"
-canonical_book_url: "/publications/books/book-i/"
+summary_short: "Chapter [ch:four-truth-values] earned the four truth values $\\{T, F, B, N\\}$ (Definition [def:truth4], I.D21), and Chapter [ch:explosion-barrier] proved the…"
+canonical_book_url: /publications/books/book-i/
 canonical_book_title: "Book I: Categorical Foundations"
 canonical_part_url: "/publications/books/book-i/part-11-tau/"
 canonical_part_title: "Part XI: τ"

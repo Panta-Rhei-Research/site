@@ -970,8 +970,8 @@
   {
     "id": "pred-045",
     "slug": "li-h",
-    "title": "Lithium-7 Abundance (Resolved)",
-    "title_plain": "Lithium-7 Abundance (Resolved)",
+    "title": "Lithium-7 Abundance (Framework Account)",
+    "title_plain": "Lithium-7 Abundance (Framework Account)",
     "domain": "cosmology",
     "domain_display": "Cosmology",
     "tau_value": "1.6!×!10⁻¹⁰",

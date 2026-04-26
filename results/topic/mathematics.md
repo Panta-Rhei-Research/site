@@ -52,7 +52,7 @@ right_rail:
 - [Helium-4 Primordial Abundance Y_p = 20/81 at 0.43σ from Planck](/results/problem/helium-4-abundance-y-p-20-over-81/) — Internally addressed
 - [Hinge Theorem: Books IV–VII Are Sector Instantiations of Book III](/results/problem/hinge-theorem-no-knobs/) — Internally addressed
 - [Hodge Conjecture Approach](/results/problem/hodge-conjecture-approach/) — Partial
-- [Hubble Tension Resolved: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/) — Internally addressed
+- [Hubble Tension Internal Readout: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/) — Internally addressed
 - [Hyperfactorization](/results/problem/hyperfactorization/) — Internally addressed
 - [Hyperfactorization: Every Object Has a Unique Canonical Normal Form](/results/problem/hyperfactorization-theorem/) — Internally addressed
 - [Identity as NF-Address Persistence: Personal Identity Across Change](/results/problem/identity-as-nf-address-persistence/) — Internally addressed
@@ -82,7 +82,7 @@ right_rail:
 - [Stone Duality](/results/problem/stone-duality/) — Internally addressed
 - [Strong CP Problem Solved: θ_QCD = 0 from SA-i Admissibility](/results/problem/strong-cp-problem-solved/) — Internally addressed
 - [Structural Instability / ZFC Identity Slippage](/results/problem/structural-instability-zfc-identity-slippage/) — Contradicted
-- [S₈ Tension Resolved: S₈ = 0.783 from f_supp × f_growth × f_ν](/results/problem/s8-tension-resolved-0pt783/) — Internally addressed
+- [S₈ Tension Framework Account: S₈ = 0.783 from f_supp × f_growth × f_ν](/results/problem/s8-tension-resolved-0pt783/) — Internally addressed
 - [Tarski Axioms for Geometry](/results/problem/tarski-axioms-for-geometry/) — Internally addressed
 - [Tau-Identity Theorem: Agreement at One Depth Implies Agreement Everywhere](/results/problem/tau-identity-theorem/) — Internally addressed
 - [The τ-Coherence Kernel: Seven Axioms on Five Generators](/results/problem/tau-kernel-coherence/) — Internally addressed

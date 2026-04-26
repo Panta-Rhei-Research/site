@@ -38,4 +38,4 @@ right_rail:
 ---
 
 
-Ecosystems are inter-sector webs coupling all five Life sectors, with energy and material flowing through Producer → Consumer → Decomposer (Source → Consumer → Closure). Nutrient cycles are reinterpreted as multi-scale Poincar\'e circulations, symbiosis as coupled self-relations between distinct carriers, and ecological communities as game-theoretic Nash equilibria governing predator–prey dynamics, competitive exclusion, and niche partitioning.
+Ecosystems are inter-sector webs coupling all five Life sectors, with energy and material flowing through Producer → Consumer → Decomposer (Source → Consumer → Closure). Nutrient cycles are reinterpreted as multi-scale Poincaré circulations, symbiosis as coupled self-relations between distinct carriers, and ecological communities as game-theoretic Nash equilibria governing predator–prey dynamics, competitive exclusion, and niche partitioning.

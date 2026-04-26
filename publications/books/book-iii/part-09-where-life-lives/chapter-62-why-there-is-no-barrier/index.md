@@ -11,13 +11,13 @@ part_display: "Part IX"
 part_slug: "part-09-where-life-lives"
 chapter_number: 62
 chapter_slug: "chapter-62-why-there-is-no-barrier"
-page_in_book: 315
+page_in_book: 331
 prev_chapter_url: "/publications/books/book-iii/part-09-where-life-lives/chapter-61-the-computational-bi-square/"
 prev_chapter_title: "Chapter 61: The Computational Bi-Square"
 next_chapter_url: "/publications/books/book-iii/part-09-where-life-lives/chapter-63-physical-turing-machines-as-tau/"
 next_chapter_title: "Chapter 63: Physical Turing Machines as τ"
-summary_short: "The 1st Edition posed a "Representation Barrier": no faithful encoding \{0,1\}^* → Addr(τ) preserves complexity separation. This chapter diagnoses that…"
-canonical_book_url: "/publications/books/book-iii/"
+summary_short: "The 1st Edition posed a ``Representation Barrier'': no faithful encoding $\\{0,1\\}^* → Addr(τ)$ preserves complexity separation. This chapter diagnoses that…"
+canonical_book_url: /publications/books/book-iii/
 canonical_book_title: "Book III: Categorical Spectrum"
 canonical_part_url: "/publications/books/book-iii/part-09-where-life-lives/"
 canonical_part_title: "Part IX: Where Life Lives"

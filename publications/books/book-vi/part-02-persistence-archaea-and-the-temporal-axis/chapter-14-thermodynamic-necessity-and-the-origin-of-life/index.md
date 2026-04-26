@@ -11,13 +11,13 @@ part_display: "Part II"
 part_slug: "part-02-persistence-archaea-and-the-temporal-axis"
 chapter_number: 14
 chapter_slug: "chapter-14-thermodynamic-necessity-and-the-origin-of-life"
-page_in_book: 73
+page_in_book: 81
 prev_chapter_url: "/publications/books/book-vi/part-02-persistence-archaea-and-the-temporal-axis/chapter-13-archaea-life-at-the-extremes-of-deep-time/"
 prev_chapter_title: "Chapter 13: Archaea: Life at the Extremes of Deep Time"
 next_chapter_url: "/publications/books/book-vi/part-02-persistence-archaea-and-the-temporal-axis/chapter-15-circadian-rhythms-poincar-e-orbits-on-the-temporal-circle/"
-next_chapter_title: "Chapter 15: Circadian Rhythms: Poincar\'e Orbits on the Temporal Circle"
+next_chapter_title: "Chapter 15: Circadian Rhythms: Poincaré Orbits on the Temporal Circle"
 summary_short: "Life is thermodynamically necessary, not accidental. The defect-thermodynamic argument shows that entropy production is maximized by self-maintaining…"
-canonical_book_url: "/publications/books/book-vi/"
+canonical_book_url: /publications/books/book-vi/
 canonical_book_title: "Book VI: Categorical Life"
 canonical_part_url: "/publications/books/book-vi/part-02-persistence-archaea-and-the-temporal-axis/"
 canonical_part_title: "Part II: Persistence — Archaea and the Temporal Axis"

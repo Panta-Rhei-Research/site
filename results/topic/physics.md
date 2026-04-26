@@ -51,7 +51,7 @@ right_rail:
 - [Individual Quark Masses](/results/problem/individual-quark-masses/) — Internally addressed
 - [Inevitability: Six Ontic Requirements Force the τ-Kernel](/results/problem/tau-inevitability/) — Internally addressed
 - [Inflation Mechanism](/results/problem/inflation-mechanism/) — Internally addressed
-- [Li-7 Problem Resolved: ⁷Li/H via Fiber Suppression S = 1/3](/results/problem/lithium-7-problem-resolved/) — Internally addressed
+- [Li-7 Framework Account: ⁷Li/H via Fiber Suppression S = 1/3](/results/problem/lithium-7-problem-resolved/) — Internally addressed
 - [Measurement Problem](/results/problem/measurement-problem/) — Internally addressed
 - [Muon g−2 Anomaly](/results/problem/muon-g-2-anomaly/) — Internally addressed
 - [Navier–Stokes Regularity](/results/problem/navier-stokes-regularity/) — Not Addressed

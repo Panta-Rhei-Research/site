@@ -170,10 +170,10 @@ Before browsing individual results, the [Results Introduction]({{ '/results/prol
 - [Gravitational Constant from ι<sub>τ</sub>: α_G at 3 ppm]({{ '/results/problem/gravitational-constant-from-iota-tau/' | relative_url }}) — *Foundational Math* · Internally addressed
 - [Helium-4 Primordial Abundance Y_p = 20/81 at 0.43σ from Planck]({{ '/results/problem/helium-4-abundance-y-p-20-over-81/' | relative_url }}) — *Foundational Math* · Internally addressed
 - [Hubble Tension]({{ '/results/problem/hubble-tension/' | relative_url }}) — *Frontier Problem* · Internally addressed
-- [Hubble Tension Resolved: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm]({{ '/results/problem/hubble-tension-resolved-h-formula/' | relative_url }}) — *Frontier Problem* · Internally addressed
+- [Hubble Tension Internal Readout: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm]({{ '/results/problem/hubble-tension-resolved-h-formula/' | relative_url }}) — *Frontier Problem* · Internally addressed
 - [Inflation Mechanism]({{ '/results/problem/inflation-mechanism/' | relative_url }}) — *Frontier Problem* · Internally addressed
 - [Kolmogorov Constant C_K = 3/2 Exact from dim(τ³)/dim(T²)]({{ '/results/problem/kolmogorov-constant-c-k-exact/' | relative_url }}) — *Foundational Math* · Internally addressed
-- [Li-7 Problem Resolved: ⁷Li/H via Fiber Suppression S = 1/3]({{ '/results/problem/lithium-7-problem-resolved/' | relative_url }}) — *Frontier Problem* · Internally addressed
+- [Li-7 Framework Account: ⁷Li/H via Fiber Suppression S = 1/3]({{ '/results/problem/lithium-7-problem-resolved/' | relative_url }}) — *Frontier Problem* · Internally addressed
 - [Navier–Stokes Regularity]({{ '/results/problem/navier-stokes-regularity/' | relative_url }}) — *Frontier Problem* · Not Addressed
 - [No Black Hole Evaporation: dM/dn ≥ 0 and Information Preserved]({{ '/results/problem/no-bh-evaporation/' | relative_url }}) — *Consequence* · Contradicted
 - [No Dark Matter Particle: Sector Exhaustion Theorem]({{ '/results/problem/no-dark-matter-particle/' | relative_url }}) — *Frontier Problem* · Internally addressed
@@ -185,7 +185,7 @@ Before browsing individual results, the [Results Introduction]({{ '/results/prol
 - [She–Lévêque Turbulence Exponents Exact from τ³ Dimensions]({{ '/results/problem/she-leveque-turbulence-exponents/' | relative_url }}) — *Foundational Math* · Internally addressed
 - [Silk Damping Scale]({{ '/results/problem/silk-damping-scale/' | relative_url }}) — *Foundational Math* · Internally addressed
 - [Spectral Index n_s = 1 – 2/N_e Derived from N_e = 57]({{ '/results/problem/spectral-index-ns-from-inflation/' | relative_url }}) — *Frontier Problem* · Partial
-- [S₈ Tension Resolved: S₈ = 0.783 from f_supp × f_growth × f_ν]({{ '/results/problem/s8-tension-resolved-0pt783/' | relative_url }}) — *Foundational Math* · Internally addressed
+- [S₈ Tension Framework Account: S₈ = 0.783 from f_supp × f_growth × f_ν]({{ '/results/problem/s8-tension-resolved-0pt783/' | relative_url }}) — *Foundational Math* · Internally addressed
 - [Tensor-to-Scalar Ratio r = ι<sub>τ</sub>⁴ = 0.0136]({{ '/results/problem/tensor-to-scalar-ratio/' | relative_url }}) — *Frontier Problem* · Internally addressed
 - [Time Derivation Theorem: Proper Time from K0–K6]({{ '/results/problem/time-derivation-theorem/' | relative_url }}) — *Foundational Math* · Internally addressed
 - [Tully-Fisher Relation]({{ '/results/problem/tully-fisher-relation/' | relative_url }}) — *Frontier Problem* · Internally addressed

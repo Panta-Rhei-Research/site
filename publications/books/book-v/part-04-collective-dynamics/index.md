@@ -67,13 +67,13 @@ boundary holonomy,
 establishing the macro vocabulary
 for electromagnetic and chromodynamic flux.
 
-**Chapters 30–32** (*Plasma, MHD, Alfv\'en*)
+**Chapters 30–32** (*Plasma, MHD, Alfvén*)
 develop the three pillars of astrophysical
 fluid dynamics:
 charge transport as boundary-obstruction flow,
 magneto-fluid holonomy with frozen flux
 and reconnection events,
-and Alfv\'en waves as mixed-sector oscillations
+and Alfvén waves as mixed-sector oscillations
 coupling the Sector B and Sector D sectors.
 
 **Chapter 33** (*Macro Phase Transitions*)

@@ -11,13 +11,13 @@ part_display: "Part VI"
 part_slug: "part-06-atoms-chemistry-and-molecular-structure"
 chapter_number: 45
 chapter_slug: "chapter-45-the-hydrogen-atom-bohr-radius-and-rydberg-constant"
-page_in_book: 269
+page_in_book: 289
 prev_chapter_url: "/publications/books/book-iv/part-05-particles-generations-and-nuclear-physics/chapter-44-the-particle-spectrum-complete/"
 prev_chapter_title: "Chapter 44: The Particle Spectrum Complete"
 next_chapter_url: "/publications/books/book-iv/part-06-atoms-chemistry-and-molecular-structure/chapter-46-the-hydrogen-spectrum/"
 next_chapter_title: "Chapter 46: The Hydrogen Spectrum"
-summary_short: "Hydrogen is the simplest atom and the first co-rotor system built from the nuclear modes of Part V. In Category τ, the hydrogen atom is not "a proton plus…"
-canonical_book_url: "/publications/books/book-iv/"
+summary_short: "Hydrogen is the simplest atom and the first co-rotor system built from the nuclear modes of Part V. In Category $τ$, the hydrogen atom is not ``a proton plus…"
+canonical_book_url: /publications/books/book-iv/
 canonical_book_title: "Book IV: Categorical Microcosm"
 canonical_part_url: "/publications/books/book-iv/part-06-atoms-chemistry-and-molecular-structure/"
 canonical_part_title: "Part VI: Atoms, Chemistry, and Molecular Structure"

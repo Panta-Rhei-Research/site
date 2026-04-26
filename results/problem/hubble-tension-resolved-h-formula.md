@@ -1,7 +1,8 @@
 ---
 
 layout: result-page
-title: 'Hubble Tension Resolved: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm'
+title: 'Hubble Tension Internal Readout: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm'
+title_plain: 'Hubble Tension Internal Readout: h = 2/3 + ιτ²/17 at –120 ppm'
 permalink: /results/problem/hubble-tension-resolved-h-formula/
 result_id: result-060
 topic: mathematics
@@ -13,7 +14,7 @@ importance_class: high-impact-frontier-problem
 status_code: R
 domain_group: "Cosmology"
 summary_short: The Hubble constant h = 0.6735 is derived as h = 2/3 + ι<sub>τ</sub>²/17 at –120
-  ppm from SH0ES/JWST, resolving the Hubble tension without free parameters.
+  ppm from SH0ES/JWST, giving the framework's internal account of the Hubble tension without free parameters.
 canonical_books: ["V"]
 right_rail:
   meta:
@@ -45,4 +46,3 @@ V.T259 was upgraded from conjectural to τ-effective in Wave 38C, based on the N
 ## Result Statement
 
 V.T259: h = 2/3 + ι<sub>τ</sub>²/17 = 0.6735 at –120 ppm. EdS base 2/3 + holonomy correction ι<sub>τ</sub>²/17, where 17 = W₃(3) via CF(ι<sub>τ</sub>) (Lean-certified at `Tau.CF.w3_at_3`). Upgraded τ-effective in Wave 38C. Zero free parameters.
-

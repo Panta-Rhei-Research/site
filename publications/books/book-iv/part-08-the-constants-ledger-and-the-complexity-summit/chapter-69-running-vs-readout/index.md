@@ -1,6 +1,6 @@
 ---
 layout: publication-chapter
-title: "Chapter 69: Running vs.\ Readout"
+title: "Chapter 69: Running vs. Readout"
 permalink: /publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-69-running-vs-readout/
 lane: publications
 publication_type: chapter
@@ -11,13 +11,13 @@ part_display: "Part VIII"
 part_slug: "part-08-the-constants-ledger-and-the-complexity-summit"
 chapter_number: 69
 chapter_slug: "chapter-69-running-vs-readout"
-page_in_book: 371
+page_in_book: 395
 prev_chapter_url: "/publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-68-the-ontological-layer-architecture/"
 prev_chapter_title: "Chapter 68: The Ontological Layer Architecture"
 next_chapter_url: "/publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-70-the-mass-ratio-r-and-the-10-link-chain/"
 next_chapter_title: "Chapter 70: The Mass Ratio R and the 10-Link Chain"
-summary_short: "In orthodox quantum field theory, coupling constants "run" with the energy scale: α ≈ 1/137 at low energy becomes α ≈ 1/128 at the Z-boson mass. In…"
-canonical_book_url: "/publications/books/book-iv/"
+summary_short: "In orthodox quantum field theory, coupling constants ``run'' with the energy scale: $α ≈ 1/137$ at low energy becomes $α ≈ 1/128$ at the $Z$-boson mass. In…"
+canonical_book_url: /publications/books/book-iv/
 canonical_book_title: "Book IV: Categorical Microcosm"
 canonical_part_url: "/publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/"
 canonical_part_title: "Part VIII: The Constants Ledger and the Complexity Summit"

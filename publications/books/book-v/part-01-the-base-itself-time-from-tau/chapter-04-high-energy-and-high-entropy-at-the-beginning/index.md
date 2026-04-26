@@ -11,13 +11,13 @@ part_display: "Part I"
 part_slug: "part-01-the-base-itself-time-from-tau"
 chapter_number: 4
 chapter_slug: "chapter-04-high-energy-and-high-entropy-at-the-beginning"
-page_in_book: 29
+page_in_book: 31
 prev_chapter_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/chapter-03-the-temporal-ignition-why-a-time-epoch-starts/"
-prev_chapter_title: "Chapter 3: The Temporal Ignition: Why a "Time Epoch" Starts"
+prev_chapter_title: "Chapter 3: The Temporal Ignition: Why a ``Time Epoch'' Starts"
 next_chapter_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/chapter-05-the-macro-readout-operational-distance-and-photon-ontology/"
 next_chapter_title: "Chapter 5: The Macro Readout: Operational Distance and Photon Ontology"
-summary_short: "The preceding chapters established proper time as arc length along τ¹ and identified three temporal epochs. The temporal epoch begins at the ignition depth…"
-canonical_book_url: "/publications/books/book-v/"
+summary_short: "The preceding chapters established proper time as arc length along $τ^1$ and identified three temporal epochs. The temporal epoch begins at the ignition depth…"
+canonical_book_url: /publications/books/book-v/
 canonical_book_title: "Book V: Categorical Macrocosm"
 canonical_part_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/"
 canonical_part_title: "Part I: The Base Itself: Time from τ¹"

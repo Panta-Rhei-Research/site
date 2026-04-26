@@ -671,12 +671,12 @@
   {
     "id": "result-032",
     "slug": "lithium-7-problem-resolved",
-    "title": "Li-7 Problem Resolved: ⁷Li/H via Fiber Suppression S = 1/3",
+    "title": "Li-7 Framework Account: ⁷Li/H via Fiber Suppression S = 1/3",
     "topic": "physics",
     "layer": "physics",
     "result_type": "structural_readout",
     "bridge_status": "internal",
-    "summary_short": "The cosmological lithium-7 abundance discrepancy is resolved by a fiber suppression factor S = 1/3 from the T² fiber topology.",
+    "summary_short": "The cosmological lithium-7 abundance discrepancy is internally addressed by a fiber suppression factor S = 1/3 from the T² fiber topology.",
     "url": "/results/problem/lithium-7-problem-resolved/",
     "canonical_books": [
       "V"
@@ -1273,12 +1273,12 @@
   {
     "id": "result-060",
     "slug": "hubble-tension-resolved-h-formula",
-    "title": "Hubble Tension Resolved: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm",
+    "title": "Hubble Tension Internal Readout: h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm",
     "topic": "mathematics",
     "layer": "mathematics",
     "result_type": "structural_readout",
     "bridge_status": "internal",
-    "summary_short": "The Hubble constant h = 0.6735 is derived as h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm from SH0ES/JWST, resolving the Hubble tension without free parameters.",
+    "summary_short": "The Hubble constant h = 0.6735 is derived as h = 2/3 + ι<sub>τ</sub>²/17 at –120 ppm from SH0ES/JWST, giving the framework's internal account of the Hubble tension without free parameters.",
     "url": "/results/problem/hubble-tension-resolved-h-formula/",
     "canonical_books": [
       "V"
@@ -1295,12 +1295,12 @@
   {
     "id": "result-061",
     "slug": "s8-tension-resolved-0pt783",
-    "title": "S₈ Tension Resolved: S₈ = 0.783 from f_supp × f_growth × f_ν",
+    "title": "S₈ Tension Framework Account: S₈ = 0.783 from f_supp × f_growth × f_ν",
     "topic": "mathematics",
     "layer": "mathematics",
     "result_type": "structural_readout",
     "bridge_status": "internal",
-    "summary_short": "The S₈ structure-growth tension is resolved at S₈ = 0.783, derived from three multiplicative suppressions: matter suppression, growth factor, and neutrino free-streaming.",
+    "summary_short": "The S₈ structure-growth tension is internally addressed at S₈ = 0.783, derived from three multiplicative suppressions: matter suppression, growth factor, and neutrino free-streaming.",
     "url": "/results/problem/s8-tension-resolved-0pt783/",
     "canonical_books": [
       "V"

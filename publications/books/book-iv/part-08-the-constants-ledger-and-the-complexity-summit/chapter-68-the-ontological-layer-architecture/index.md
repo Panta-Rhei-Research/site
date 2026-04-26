@@ -15,7 +15,7 @@ page_in_book: 367
 prev_chapter_url: "/publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-67-the-complete-coupling-ledger/"
 prev_chapter_title: "Chapter 67: The Complete Coupling Ledger"
 next_chapter_url: "/publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-69-running-vs-readout/"
-next_chapter_title: "Chapter 69: Running vs.\ Readout"
+next_chapter_title: "Chapter 69: Running vs. Readout"
 summary_short: "Every object in the τ³ physics stack lives at exactly one of three ontological layers: L0 (the math kernel), L1 (internal physics), and L2 (the SI bridge).…"
 canonical_book_url: "/publications/books/book-iv/"
 canonical_book_title: "Book IV: Categorical Microcosm"

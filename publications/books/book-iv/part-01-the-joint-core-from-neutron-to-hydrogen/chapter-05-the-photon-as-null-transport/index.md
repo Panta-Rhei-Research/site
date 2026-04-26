@@ -16,8 +16,8 @@ prev_chapter_url: "/publications/books/book-iv/part-01-the-joint-core-from-neutr
 prev_chapter_title: "Chapter 4: Particles as Persistent Defect Bundles"
 next_chapter_url: "/publications/books/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/chapter-06-the-neutron-minimal-stable-defect-bundle/"
 next_chapter_title: "Chapter 6: The Neutron: Minimal Stable Defect Bundle"
-summary_short: "Before the neutron decays, we need the mode that will carry its electromagnetic information away. The photon is not a "particle of light"—it is a **null…"
-canonical_book_url: "/publications/books/book-iv/"
+summary_short: "Before the neutron decays, we need the mode that will carry its electromagnetic information away. The photon is not a ``particle of light''—it is a **null…"
+canonical_book_url: /publications/books/book-iv/
 canonical_book_title: "Book IV: Categorical Microcosm"
 canonical_part_url: "/publications/books/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/"
 canonical_part_title: "Part I: The Joint Core: From Neutron to Hydrogen"

@@ -33,7 +33,7 @@ right_rail:
 The π-sector: **spatial motility and environmental interaction**. The agency sector is
 anchored on the spatial axis of the τ¹ base. Bacteria—the most abundant organisms on
 Earth, colonizing every environment via flagellar motility, chemotaxis, and horizontal gene
-transfer—are the biological archetype. Metabolism drives agency as Poincar\'e circulation at
+transfer—are the biological archetype. Metabolism drives agency as Poincaré circulation at
 every scale; ATP provides the universal energy currency. Membranes create the first physical
 self/non-self boundary, and the three-domain taxonomy is revisited through the sector lens.
 

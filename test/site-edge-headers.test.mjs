@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { applyEdgeHeaders } from "../workers/site-edge-headers.js";
+import { applyEdgeHeaders, edgeRedirectFor } from "../workers/site-edge-headers.js";
 
 const SECURITY_EXPECTATIONS = {
   "X-Content-Type-Options": "nosniff",
@@ -49,5 +49,17 @@ for (const [path, contentType, expectedCacheControl] of cases) {
   assertSecurityHeaders(response);
 }
 
-console.log(`site-edge-headers: ${cases.length} cases passed`);
+for (const path of ["/publications/physics-ledger", "/publications/physics-ledger/"]) {
+  const redirect = edgeRedirectFor(`https://panta-rhei.site${path}`);
+  assert.ok(redirect, `${path} should redirect at the edge`);
+  assert.equal(redirect.status, 301, `${path} should be permanent`);
+  assert.equal(
+    redirect.headers.get("Location"),
+    "https://panta-rhei.site/publications/numerical-physics-ledger/",
+    `${path} redirect target`
+  );
+}
 
+assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/numerical-physics-ledger/"), null);
+
+console.log(`site-edge-headers: ${cases.length} header cases and 2 redirect cases passed`);

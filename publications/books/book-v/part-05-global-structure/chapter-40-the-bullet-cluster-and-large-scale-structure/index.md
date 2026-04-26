@@ -11,13 +11,13 @@ part_display: "Part V"
 part_slug: "part-05-global-structure"
 chapter_number: 40
 chapter_slug: "chapter-40-the-bullet-cluster-and-large-scale-structure"
-page_in_book: 293
+page_in_book: 315
 prev_chapter_url: "/publications/books/book-v/part-05-global-structure/chapter-39-the-eht-re-read-the-ring-is-the-donut/"
 prev_chapter_title: "Chapter 39: The EHT Re-Read: The Ring Is the Donut"
 next_chapter_url: "/publications/books/book-v/part-05-global-structure/chapter-41-the-sector-exhaustion-theorem-dark-matter-cannot-exist/"
 next_chapter_title: "Chapter 41: The Sector Exhaustion Theorem: Dark Matter Cannot Exist"
-summary_short: "The Bullet Cluster (1E 0657-56) is widely regarded as the "smoking gun" for dark matter. Two galaxy clusters collided at a relative velocity of ∼ 4700…"
-canonical_book_url: "/publications/books/book-v/"
+summary_short: "The Bullet Cluster (1E 0657-56) is widely regarded as the ``smoking gun'' for dark matter. Two galaxy clusters collided at a relative velocity of $\\sim 4700$…"
+canonical_book_url: /publications/books/book-v/
 canonical_book_title: "Book V: Categorical Macrocosm"
 canonical_part_url: "/publications/books/book-v/part-05-global-structure/"
 canonical_part_title: "Part V: Global Structure"

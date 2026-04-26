@@ -11,13 +11,13 @@ part_display: "Part V"
 part_slug: "part-05-particles-generations-and-nuclear-physics"
 chapter_number: 38
 chapter_slug: "chapter-38-the-micro-donut-and-ternary-structure"
-page_in_book: 237
+page_in_book: 255
 prev_chapter_url: "/publications/books/book-iv/part-05-particles-generations-and-nuclear-physics/chapter-37-hadrons-and-nuclei/"
 prev_chapter_title: "Chapter 37: Hadrons and Nuclei"
 next_chapter_url: "/publications/books/book-iv/part-05-particles-generations-and-nuclear-physics/chapter-39-the-alpha-particle/"
 next_chapter_title: "Chapter 39: The Alpha Particle"
-summary_short: "The neutron is the first "micro-donut"—a saturated T² configuration whose bi-rotating character traces a pseudo-dense path across the toroidal fiber. This…"
-canonical_book_url: "/publications/books/book-iv/"
+summary_short: "The neutron is the first ``micro-donut''—a saturated $T^2$ configuration whose bi-rotating character traces a pseudo-dense path across the toroidal fiber. This…"
+canonical_book_url: /publications/books/book-iv/
 canonical_book_title: "Book IV: Categorical Microcosm"
 canonical_part_url: "/publications/books/book-iv/part-05-particles-generations-and-nuclear-physics/"
 canonical_part_title: "Part V: Particles, Generations, and Nuclear Physics"

@@ -1,6 +1,6 @@
 ---
 layout: publication-chapter
-title: "Chapter 9: Rigidity — (τ) = {τ}
+title: "Chapter 9: Rigidity — Aut(τ) = {id}"
 permalink: /publications/books/book-i/part-02-orbit-generation-and-ontic-closure/chapter-09-rigidity-tau/
 lane: publications
 publication_type: chapter
@@ -11,13 +11,13 @@ part_display: "Part II"
 part_slug: "part-02-orbit-generation-and-ontic-closure"
 chapter_number: 9
 chapter_slug: "chapter-09-rigidity-tau"
-page_in_book: 37
+page_in_book: 39
 prev_chapter_url: "/publications/books/book-i/part-02-orbit-generation-and-ontic-closure/chapter-08-the-iterator-of-iterator-ladder-and-tetration-saturation/"
 prev_chapter_title: "Chapter 8: The Iterator-of-Iterator Ladder and Tetration Saturation"
 next_chapter_url: "/publications/books/book-i/part-03-the-denotational-bridge/chapter-10-tau-idx-the-alpha-orbit-as-internal-natural-numbers/"
 next_chapter_title: "Chapter 10: τ-Idx — The Alpha-Orbit as Internal Natural Numbers"
-summary_short: "The Ontic Closure Theorem  established that Obj(τ) is ontically sealed: five pairwise disjoint sets, countable, with unique…"
-canonical_book_url: "/publications/books/book-i/"
+summary_short: "The Ontic Closure Theorem (Chapter [ch:ontic-closure]) established that $\\Obj(τ)$ is ontically sealed: five pairwise disjoint sets, countable, with unique…"
+canonical_book_url: /publications/books/book-i/
 canonical_book_title: "Book I: Categorical Foundations"
 canonical_part_url: "/publications/books/book-i/part-02-orbit-generation-and-ontic-closure/"
 canonical_part_title: "Part II: Orbit Generation and Ontic Closure"

@@ -194,14 +194,10 @@ def write_file(path: str, content: str):
 
 
 def yaml_str(s: str) -> str:
-    """Safely quote a YAML string value."""
-    if not s:
+    """Safely quote a frontmatter scalar using YAML's JSON-compatible form."""
+    if s is None:
         return '""'
-    # Quote if contains special chars
-    if any(c in s for c in ":{}[]&*?|>!%@`,#'\"\\") or s.startswith("-") or s.startswith(" "):
-        escaped = s.replace("\\", "\\\\").replace('"', '\\"')
-        return f'"{escaped}"'
-    return f'"{s}"'
+    return json.dumps(str(s), ensure_ascii=False)
 
 
 # ---------------------------------------------------------------------------
@@ -244,12 +240,12 @@ def generate_book_page(book: dict, parts_data: list, book_slug: str) -> str:
     return textwrap.dedent(f"""\
 ---
 layout: publication-book
-title: "Book {roman}: {title}"
+title: {yaml_str(f"Book {roman}: {title}")}
 permalink: /publications/books/{book_slug}/
 lane: publications
 publication_type: book
-book_id: "{roman}"
-book_slug: "{book_slug}"
+book_id: {yaml_str(roman)}
+book_slug: {yaml_str(book_slug)}
 subtitle: {yaml_str(subtitle)}
 part_count: {part_count}
 chapter_count: {chapter_count}
@@ -261,10 +257,10 @@ summary_cards:
 - title: Structure
   body: "{part_count} parts, {chapter_count} chapters, {page_count} pages"
 - title: Layer
-  body: "{layer_code} {layer_name}"
-linked_guided_tour: "/publications/guided-tours/"
-linked_verify_page: "/verify/"
-linked_dashboard: "/registry/dashboards/{book_slug}/"
+  body: {yaml_str(f"{layer_code} {layer_name}")}
+linked_guided_tour: /publications/guided-tours/
+linked_verify_page: /verify/
+linked_dashboard: /registry/dashboards/{book_slug}/
 right_rail:
   related:
   - title: Framework Overview
@@ -281,7 +277,7 @@ right_rail:
     external: true
   meta:
     type: Canonical Book
-    layer: "{layer_code} {layer_name}"
+    layer: {yaml_str(f"{layer_code} {layer_name}")}
     status: Published
     updated: April 2026
 ---
@@ -329,22 +325,22 @@ def generate_part_page(part_info: dict, chapters: list, book: dict) -> str:
     return textwrap.dedent(f"""\
 ---
 layout: publication-part
-title: "{part_info["display_name"]}: {part_info["title"]}"
+title: {yaml_str(f"{part_info['display_name']}: {part_info['title']}")}
 permalink: {part_info["url"]}
 lane: publications
 publication_type: part
-book_id: "{roman}"
-book_slug: "{book_slug}"
+book_id: {yaml_str(roman)}
+book_slug: {yaml_str(book_slug)}
 part_number: {part_info["part_number"]}
 part_display: {yaml_str(part_info["display_name"])}
-part_slug: "{part_info["slug"]}"
+part_slug: {yaml_str(part_info["slug"])}
 chapter_count: {part_info["chapter_count"]}
 summary_short: {yaml_str(part_info["summary_short"])}
-canonical_book_url: "/publications/books/{book_slug}/"
-canonical_book_title: "Book {roman}: {book_title}"
+canonical_book_url: /publications/books/{book_slug}/
+canonical_book_title: {yaml_str(f"Book {roman}: {book_title}")}
 right_rail:
   related:
-  - title: "Book {roman}: {book_title}"
+  - title: {yaml_str(f"Book {roman}: {book_title}")}
     url: /publications/books/{book_slug}/
   - title: Guided Tours
     url: /publications/guided-tours/
@@ -352,9 +348,9 @@ right_rail:
     url: /registry/books/{book_slug}/
   meta:
     type: Part
-    book: "Book {roman}"
-    layer: "{layer_code} {layer_name}"
-    chapters: "{part_info["chapter_count"]}"
+    book: {yaml_str(f"Book {roman}")}
+    layer: {yaml_str(f"{layer_code} {layer_name}")}
+    chapters: {yaml_str(part_info["chapter_count"])}
     updated: April 2026
 ---
 {abstract_section}
@@ -381,11 +377,13 @@ def generate_chapter_page(ch_info: dict, part_info: dict, book: dict,
     # Prev/next frontmatter
     nav_lines = ""
     if prev_ch:
-        nav_lines += f'prev_chapter_url: "{prev_ch["url"]}"\n'
-        nav_lines += f'prev_chapter_title: "Chapter {prev_ch["chapter_number"]}: {prev_ch["title"]}"\n'
+        prev_title = f"Chapter {prev_ch['chapter_number']}: {prev_ch['title']}"
+        nav_lines += f'prev_chapter_url: {yaml_str(prev_ch["url"])}\n'
+        nav_lines += f'prev_chapter_title: {yaml_str(prev_title)}\n'
     if next_ch:
-        nav_lines += f'next_chapter_url: "{next_ch["url"]}"\n'
-        nav_lines += f'next_chapter_title: "Chapter {next_ch["chapter_number"]}: {next_ch["title"]}"\n'
+        next_title = f"Chapter {next_ch['chapter_number']}: {next_ch['title']}"
+        nav_lines += f'next_chapter_url: {yaml_str(next_ch["url"])}\n'
+        nav_lines += f'next_chapter_title: {yaml_str(next_title)}\n'
 
     page_line = ""
     if ch_info.get("page_in_book"):
@@ -394,35 +392,35 @@ def generate_chapter_page(ch_info: dict, part_info: dict, book: dict,
     return textwrap.dedent(f"""\
 ---
 layout: publication-chapter
-title: "Chapter {ch_info["chapter_number"]}: {ch_info["title"]}"
+title: {yaml_str(f"Chapter {ch_info['chapter_number']}: {ch_info['title']}")}
 permalink: {ch_info["url"]}
 lane: publications
 publication_type: chapter
-book_id: "{roman}"
-book_slug: "{book_slug}"
+book_id: {yaml_str(roman)}
+book_slug: {yaml_str(book_slug)}
 part_number: {part_info["part_number"]}
 part_display: {yaml_str(part_info["display_name"])}
-part_slug: "{part_info["slug"]}"
+part_slug: {yaml_str(part_info["slug"])}
 chapter_number: {ch_info["chapter_number"]}
-chapter_slug: "{ch_info["slug"]}"
+chapter_slug: {yaml_str(ch_info["slug"])}
 {page_line}{nav_lines}summary_short: {yaml_str(ch_info["summary_short"])}
-canonical_book_url: "/publications/books/{book_slug}/"
-canonical_book_title: "Book {roman}: {book_title}"
-canonical_part_url: "{part_info["url"]}"
-canonical_part_title: "{part_info["display_name"]}: {part_info["title"]}"
+canonical_book_url: /publications/books/{book_slug}/
+canonical_book_title: {yaml_str(f"Book {roman}: {book_title}")}
+canonical_part_url: {yaml_str(part_info["url"])}
+canonical_part_title: {yaml_str(f"{part_info['display_name']}: {part_info['title']}")}
 right_rail:
   related:
-  - title: "Book {roman}: {book_title}"
+  - title: {yaml_str(f"Book {roman}: {book_title}")}
     url: /publications/books/{book_slug}/
-  - title: "{part_info["display_name"]}: {part_info["title"]}"
+  - title: {yaml_str(f"{part_info['display_name']}: {part_info['title']}")}
     url: {part_info["url"]}
   - title: Registry
     url: /registry/books/{book_slug}/
   meta:
     type: Chapter
-    book: "Book {roman}"
+    book: {yaml_str(f"Book {roman}")}
     part: {yaml_str(part_info["display_name"])}
-    layer: "{layer_code} {layer_name}"
+    layer: {yaml_str(f"{layer_code} {layer_name}")}
     updated: April 2026
 ---
 {abstract_section}

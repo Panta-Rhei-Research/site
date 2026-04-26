@@ -45,7 +45,7 @@ right_rail:
 
 This program invites engagement, not passive consumption. Different readers can enter at different levels: reading, inspection, critique, collaboration, communication, contribution, or direct contact.
 
-Engagement does not require agreement. The most useful stance is structured attention: understand what is being claimed, trace it to the right public surfaces, and test it at the right level.
+Engagement does not require agreement. Participation does not imply endorsement. The most useful stance is structured attention: understand what is being claimed, trace it to the right public surfaces, and test it at the right level.
 
 ## Engagement Paths
 
@@ -86,6 +86,6 @@ Engagement does not require agreement. The most useful stance is structured atte
 
 ## Important Note
 
-This program does not require agreement. It invites structured engagement and scrutiny. For deeper context on claims and methods, see [Research Notes]({{ '/publications/research-notes/' | relative_url }}), [Results]({{ '/results/' | relative_url }}), and [Verify]({{ '/verify/' | relative_url }}).
+This program does not require agreement. Participation does not imply endorsement. It invites structured engagement and scrutiny. For deeper context on claims and methods, see [Research Notes]({{ '/publications/research-notes/' | relative_url }}), [Results]({{ '/results/' | relative_url }}), [Verify]({{ '/verify/' | relative_url }}), and [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}).
 
 *The right first question is not "should I already believe this?" It is "where can this be inspected, and what would count against it?"*

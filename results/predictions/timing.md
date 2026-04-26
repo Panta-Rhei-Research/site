@@ -61,14 +61,14 @@ Approximately **50 of the 67** predictions fall into Category A. They are the fr
 
 ### Category B — Tension resolutions (a priori commitment to a specific side of an open discrepancy)
 
-These are predictions for quantities where **competing experimental values exist** and the framework commits to a specific τ-derived value that lies cleanly on one side of the current tension. The framework was published before the tension was resolved; the forward commitment is real.
+These are predictions for quantities where **competing experimental values exist** and the framework commits to a specific τ-derived value that lies cleanly on one side of the current tension. The framework was published before the tension had a settled internal account; the forward commitment is real.
 
 Representative examples (cascade tier in brackets):
 
 - **Hubble constant h** — τ derives h = 2/3 + ι<sub>τ</sub>²/17 = **0.6735** at −120 ppm from late-universe SH0ES/JWST, at +ppm-scale tension with early-universe CMB-derived values. The framework commits to the early-universe-consistent reading via orbit-depth-dependent readout. *[Tier B — closing-identity route]*
 - **W boson mass** — τ derives a value that addresses the CDF II anomaly; future ATLAS/CMS confirmation is a forward test. *[Tier B — closing-identity route]*
 - **Muon g−2** — τ derives within the sector-coupled framework; resolution depends on hadronic vacuum polarization calculation evolution. *[Tier B — closing-identity route]*
-- **S<sub>8</sub> tension** — τ places S<sub>8</sub> at a specific value resolved within the same orbit-depth framework as h. *[Tier B — closing-identity route]*
+- **S<sub>8</sub> tension** — τ places S<sub>8</sub> at a specific value internally addressed within the same orbit-depth framework as h. *[Tier B — closing-identity route]*
 
 Approximately **10 of the 67** predictions fall into Category B. These are genuinely forward-committed on live empirical questions and mostly sit at **Tier B** — ppm-precision achievable once the relevant experiment publishes its next-generation result.
 

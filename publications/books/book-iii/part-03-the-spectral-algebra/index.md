@@ -61,7 +61,7 @@ by the computable classifier Label_n (III.D23)
 and the spectral trichotomy (III.T14).
 
 The **CRT Decomposition Theorem** gives a τ-native Chinese Remainder Theorem
-via modular B\'ezout *without signed arithmetic*—earned-language discipline in action.
+via modular Bézout *without signed arithmetic*—earned-language discipline in action.
 Hensel lifting is performed constructively in residue carriers.
 The primorial ladder Prim(k) = p₁ ⋯ p_k emerges as the canonical cofinal filtration
 that unifies finite-level verification across all Millennium Problems.

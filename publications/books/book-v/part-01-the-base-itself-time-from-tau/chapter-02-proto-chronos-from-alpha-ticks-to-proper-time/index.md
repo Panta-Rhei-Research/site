@@ -11,13 +11,13 @@ part_display: "Part I"
 part_slug: "part-01-the-base-itself-time-from-tau"
 chapter_number: 2
 chapter_slug: "chapter-02-proto-chronos-from-alpha-ticks-to-proper-time"
-page_in_book: 11
+page_in_book: 13
 prev_chapter_url: "/publications/books/book-v/part-00-the-hermetic-principle/chapter-01-the-hermetic-principle-fiber-complete-base-awaits/"
 prev_chapter_title: "Chapter 1: The Hermetic Principle: Fiber Complete, Base Awaits"
 next_chapter_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/chapter-03-the-temporal-ignition-why-a-time-epoch-starts/"
-next_chapter_title: "Chapter 3: The Temporal Ignition: Why a "Time Epoch" Starts"
+next_chapter_title: "Chapter 3: The Temporal Ignition: Why a ``Time Epoch'' Starts"
 summary_short: "What is time? Every physical theory must answer this question, and the answer it gives determines everything else. Newtonian mechanics postulates absolute time…"
-canonical_book_url: "/publications/books/book-v/"
+canonical_book_url: /publications/books/book-v/
 canonical_book_title: "Book V: Categorical Macrocosm"
 canonical_part_url: "/publications/books/book-v/part-01-the-base-itself-time-from-tau/"
 canonical_part_title: "Part I: The Base Itself: Time from τ¹"

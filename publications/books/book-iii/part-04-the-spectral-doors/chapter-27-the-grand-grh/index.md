@@ -11,13 +11,13 @@ part_display: "Part IV"
 part_slug: "part-04-the-spectral-doors"
 chapter_number: 27
 chapter_slug: "chapter-27-the-grand-grh"
-page_in_book: 147
+page_in_book: 151
 prev_chapter_url: "/publications/books/book-iii/part-04-the-spectral-doors/chapter-26-primorial-verification-of-rh/"
 prev_chapter_title: "Chapter 26: Primorial Verification of RH"
 next_chapter_url: "/publications/books/book-iii/part-04-the-spectral-doors/chapter-28-poincar-e-s-conjecture/"
-next_chapter_title: "Chapter 28: Poincar\'e's Conjecture"
-summary_short: "The Riemann Hypothesis scales from the single zeta function to all L-functions via the prime polarity infrastructure. Each Dirichlet character, Hecke…"
-canonical_book_url: "/publications/books/book-iii/"
+next_chapter_title: "Chapter 28: Poincaré's Conjecture"
+summary_short: "The Riemann Hypothesis scales from the single zeta function to all $L$-functions via the prime polarity infrastructure. Each Dirichlet character, Hecke…"
+canonical_book_url: /publications/books/book-iii/
 canonical_book_title: "Book III: Categorical Spectrum"
 canonical_part_url: "/publications/books/book-iii/part-04-the-spectral-doors/"
 canonical_part_title: "Part IV: The Spectral Doors"
