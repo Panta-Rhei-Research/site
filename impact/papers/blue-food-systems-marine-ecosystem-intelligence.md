@@ -5,12 +5,12 @@ title: τ and Blue Food Systems
 permalink: /impact/papers/blue-food-systems-marine-ecosystem-intelligence/
 paper_id: companion-ocean-paper-3
 portfolio_id: impact-ocean
-summary_short: A companion paper on how τ could improve fisheries management, aquaculture
+summary_short: A Public-Good Briefing on how τ could improve fisheries management, aquaculture
   operations, harmful-algal-bloom warning, and marine ecosystem intelligence for blue
   food security.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Ocean
     status: Conditional
     updated: April 2026
@@ -681,4 +681,4 @@ If the τ physics is real in the strong sense assumed here, then blue food syste
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

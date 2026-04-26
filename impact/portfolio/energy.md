@@ -4,7 +4,7 @@ lane: impact
 title: Energy
 permalink: /impact/portfolio/energy/
 portfolio_id: impact-energy
-summary_short: A public-good deployment portfolio for applying a physically faithful
+summary_short: A conditional public-good portfolio for applying a physically faithful
   τ energy-system twin to improve grid reliability and dispatch, DER and storage orchestration,
   fusion and fission digital twins, and whole-system energy planning.
 time_horizon: medium
@@ -26,7 +26,7 @@ Energy is one of the clearest first-wave τ deployment fields because electricit
 
 Global electricity demand rose by 4.3% in 2024 and is forecast to continue growing at close to 4% through 2027. Annual global investment in grids is only about USD 400 billion versus roughly USD 1 trillion in generation assets. ORNL reported that the average yearly cost of major outages to U.S. customers topped USD 67 billion from 2018–2024, rising to USD 121 billion in 2024. DOE has publicly described a cognitive digital twin for the development of a secure and resilient smart grid. ITER has released the Integrated Modelling and Analysis Suite under open-source licenses, and EUROfusion describes DEMO design as increasingly driven by integrated physics and engineering with high-fidelity codes and a full discharge flight simulator. The IEA finds that short-term electricity markets operate reliably but medium- and long-term markets face persistent gaps in liquidity. The World Bank says nearly 600 million people in Sub-Saharan Africa still lack electricity access. The portfolio organizes five linked papers sharing one τ energy-physics substrate: electricity-system dynamics, plasma physics, fission reactor behavior, and whole-system planning.
 
-## Companion Papers (5)
+## Public-Good Briefings (5)
 
 - [τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization]({{ '/impact/papers/advanced-fission-safety-operations-licensing-fleet-modernization/' | relative_url }})
 - [Tau for DER Orchestration, Storage, Flexible Demand, Microgrids, and T&D Planning]({{ '/impact/papers/der-storage-flexible-demand-microgrids-td-planning/' | relative_url }})

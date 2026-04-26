@@ -5,11 +5,11 @@ title: τ for Wastewater, Stormwater, Sanitation, and Circular Water Reuse
 permalink: /impact/papers/wastewater-stormwater-sanitation-circular-reuse/
 paper_id: companion-water-wash-paper-3
 portfolio_id: impact-water-wash
-summary_short: A companion paper on how τ could improve wastewater treatment intelligence,
+summary_short: A Public-Good Briefing on how τ could improve wastewater treatment intelligence,
   stormwater management, sanitation system optimization, and circular water reuse.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Water Wash
     status: Conditional
     updated: April 2026
@@ -511,4 +511,4 @@ That is why this deserves to be Paper 3.
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

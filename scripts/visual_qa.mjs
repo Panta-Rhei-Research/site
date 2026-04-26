@@ -39,10 +39,26 @@ const pages = [
     expect: ["Inflationary Observables", "Verification Surface", "Download PDF"],
   },
   { name: "impact", url: "/impact/", expect: ["Impact"] },
+  { name: "impact-framework", url: "/impact/impact-framework/", expect: ["Verification survival", "Translation layer", "Domain uptake"] },
+  { name: "impact-foundational-science", url: "/impact/foundational-science/", expect: ["Foundational Science", "Reading discipline"] },
+  { name: "impact-applied-science", url: "/impact/applied-science-and-research/", expect: ["Applied Science", "Reading discipline"] },
+  { name: "impact-global-education", url: "/impact/global-education/", expect: ["Global Education", "Reading discipline"] },
+  { name: "impact-existential-orientation", url: "/impact/existential-orientation/", expect: ["Existential Orientation", "Reading discipline"] },
+  { name: "impact-societal-coherence", url: "/impact/societal-coherence/", expect: ["Societal Coherence", "Reading discipline"] },
+  { name: "impact-global-public-good", url: "/impact/global-public-good/", expect: ["Global Public Good", "conditional public-good portfolio"] },
+  { name: "impact-portfolio-agriculture", url: "/impact/portfolio/agriculture/", expect: ["Agriculture", "Portfolio status", "Public-Good Briefings"] },
   { name: "engage", url: "/engage/", expect: ["Engage"] },
   { name: "result-hubble", url: "/results/problem/hubble-tension/", expect: ["Hubble"] },
   { name: "registry-object", url: "/registry/object/VII.T16/", expect: ["VII.T16"] },
-  { name: "publication-ledger", url: "/publications/numerical-physics-ledger/", expect: ["Numerical Physics Ledger"] },
+  { name: "publication-ledger", url: "/publications/monograph-supplements/numerical-physics-ledger/", expect: ["Numerical Physics Ledger", "Monograph Supplement"] },
+  { name: "publications-monograph-supplements", url: "/publications/monograph-supplements/", expect: ["Monograph Supplements", "Categorical Genesis"] },
+  { name: "publications-research-briefings", url: "/publications/research-briefings/", expect: ["Research Briefings", "Public-Good Briefings"] },
+  { name: "publications-public-good-briefings", url: "/publications/research-briefings/public-good/", expect: ["Public-Good Briefings", "Reading discipline"] },
+  {
+    name: "public-good-briefing-fission",
+    url: "/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/",
+    expect: ["Abstract", "Key Takeaways", "Read full text as HTML"],
+  },
 ];
 
 const mimeTypes = new Map([
@@ -196,7 +212,7 @@ async function runVisualQa() {
 
         const inspection = await inspectPage(page);
         const shotPath = path.join(outputDir, screenshotName(viewport.name, spec.name));
-        await page.screenshot({ path: shotPath, fullPage: true });
+        await page.screenshot({ path: shotPath, fullPage: true, timeout: 90000 });
         screenshots.push(shotPath);
 
         if (!response || response.status() >= 400) {

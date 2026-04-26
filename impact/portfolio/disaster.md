@@ -4,7 +4,7 @@ lane: impact
 title: Disaster
 permalink: /impact/portfolio/disaster/
 portfolio_id: impact-disaster
-summary_short: A public-good deployment portfolio for translating better hazard physics
+summary_short: A conditional public-good portfolio for translating better hazard physics
   into earlier warnings, more resilient lifelines, and forecast-linked anticipatory
   action across multi-hazard disaster domains.
 time_horizon: medium
@@ -81,7 +81,7 @@ The memo then proposes:
 
 The central recommendation is:
 
-> **Treat disaster resilience as a single τ deployment portfolio with one shared weather–hazard–impact twin and five mission layers, rather than as five isolated warning products.**
+> **Treat disaster resilience as a single τ conditional public-good portfolio with one shared weather–hazard–impact twin and five mission layers, rather than as five isolated warning products.**
 
 That is the most efficient path to early proof, cross-domain reuse, and durable public good.
 
@@ -97,7 +97,7 @@ Instead, it asks a narrower and more operational question:
 
 > If τ provides the disaster-side capabilities claimed for it, how should those capabilities be translated into a coherent disaster deployment program?
 
-The working assumptions are the same as in the five companion papers:
+The working assumptions are the same as in the five Public-Good Briefings:
 
 - τ provides a **physically faithful** discrete weather–hazard–impact twin;
 - this twin is **constructive, decidable, bounded-error, and coarse-grainable**;
@@ -308,7 +308,7 @@ Why: the deepest structural shift comes when forecasts do not merely warn, but d
 
 ### 5.4 Recommended balanced rollout order
 
-For a balanced first-wave deployment portfolio, the recommended order is:
+For a balanced first-wave conditional public-good portfolio, the recommended order is:
 
 1. **Paper 1 — Multi-hazard early warning**
 2. **Paper 2 — Flood, coastal surge, flash flood, and landslide resilience**
@@ -987,7 +987,7 @@ This portfolio memo synthesizes the following companion drafts:
 
 ---
 
-## Companion Papers (4)
+## Public-Good Briefings (4)
 
 - [Tau for Anticipatory Action, Humanitarian Logistics, and Climate-Risk Finance]({{ '/impact/papers/anticipatory-action-humanitarian-logistics-climate-risk-finance/' | relative_url }})
 - [Tau for Critical Infrastructure, Emergency Operations, and Public-Service Continuity]({{ '/impact/papers/critical-infrastructure-emergency-operations-public-service-continuity/' | relative_url }})

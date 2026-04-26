@@ -4,7 +4,7 @@ lane: impact
 title: "Energy"
 permalink: /impact/global-public-good/energy/
 portfolio_id: impact-energy
-summary_short: "A public-good deployment portfolio for applying a physically faithful tau energy-system twin to improve grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twins, and whole-system energy planning."
+summary_short: "A conditional public-good portfolio for applying a physically faithful tau energy-system twin to improve grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twins, and whole-system energy planning."
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:

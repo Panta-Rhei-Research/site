@@ -4,7 +4,7 @@ lane: impact
 title: "Weather"
 permalink: /impact/global-public-good/weather/
 portfolio_id: impact-weather
-summary_short: "A public-good deployment portfolio for making weather, climate intelligence, and disaster early warning materially better, from extreme-event forecasting and flood impact translation to wildfire/smoke intelligence, grid-weather coupling, drought planning, and climate adaptation."
+summary_short: "A conditional public-good portfolio for making weather, climate intelligence, and disaster early warning materially better, from extreme-event forecasting and flood impact translation to wildfire/smoke intelligence, grid-weather coupling, drought planning, and climate adaptation."
 time_horizon: near
 deployment_stage: conceptual
 right_rail:

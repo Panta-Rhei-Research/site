@@ -6,13 +6,13 @@ title: Tau-Grade Clean-Air Digital Twins, Exposure Intelligence, and Urban/Regio
 permalink: /impact/papers/clean-air-digital-twins-exposure-intelligence/
 paper_id: companion-pollution-circularity-paper-1
 portfolio_id: impact-pollution-circularity
-summary_short: A companion paper showing how a law-faithful tau atmosphere-emissions-chemistry-exposure
+summary_short: A Public-Good Briefing showing how a law-faithful tau atmosphere-emissions-chemistry-exposure
   twin could unlock major public-good gains in urban air-quality protection, hyperlocal
   exposure intelligence, source attribution, and clean-air policy—addressing 7 million
   premature deaths annually.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Pollution Circularity
     status: Conditional
     updated: April 2026
@@ -718,7 +718,7 @@ A τ-grade clean-air digital twin and exposure intelligence system contributes d
 
 ### 15.2 Bottom Line
 
-Under the strong but explicitly caveated planning assumptions of this dossier, clean air is one of the clearest, most immediate, and most scalable public-good opportunities in the τ deployment portfolio.
+Under the strong but explicitly caveated planning assumptions of this dossier, clean air is one of the clearest, most immediate, and most scalable public-good opportunities in the τ conditional public-good portfolio.
 
 Why?
 
@@ -817,4 +817,4 @@ That is a large and achievable public good. The deployment ladder, benchmark sui
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

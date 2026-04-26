@@ -10,6 +10,7 @@ layout: default
     <span class="eyebrow">Impact · Global Public Good</span>
     {% if page.time_horizon != "" %}<span class="chip">{{ page.time_horizon | capitalize }} horizon</span>{% endif %}
     {% if page.deployment_stage != "" %}<span class="chip">{{ page.deployment_stage | replace: "-", " " | capitalize }}</span>{% endif %}
+    <span class="chip">Conditional public-good portfolio</span>
     {% if page.right_rail.meta.status %}<span class="chip">{{ page.right_rail.meta.status }}</span>{% endif %}
   </div>
   <h1>{{ page.title }}</h1>
@@ -32,18 +33,36 @@ layout: default
 </section>
 
 <section class="content-card">
+  <h2>Reading discipline</h2>
+  <p>Read this portfolio through the Impact chain: Result → Verification survival → Translation layer → Domain uptake → Consequence.</p>
+  <p>If any upstream link weakens, the portfolio claim weakens with it.</p>
+</section>
+
+<section class="content-card">
+  <h2>Portfolio status</h2>
+  <p>This portfolio is a conditional public-good scenario map. It becomes actionable only if upstream Results survive verification, translation assumptions are validated, and domain uptake is possible.</p>
+  <div class="meta-list">
+    <div class="meta-item"><span>Portfolio type</span><span class="meta-value">Conditional public-good portfolio</span></div>
+    <div class="meta-item"><span>Briefing family</span><span class="meta-value">Public-Good Briefings</span></div>
+    <div class="meta-item"><span>Translation status</span><span class="meta-value">Scenario map</span></div>
+    <div class="meta-item"><span>Domain review</span><span class="meta-value">Pending</span></div>
+    <div class="meta-item"><span>Deployment</span><span class="meta-value">Not claimed</span></div>
+  </div>
+</section>
+
+<section class="content-card">
   <div class="prose">
     {{ content }}
   </div>
 </section>
 
-{% assign impact_papers = site.data.impact["companion-papers"] | where: "portfolio_id", page.portfolio_id %}
+{% assign impact_papers = site.data.impact["public-good-briefings"] | where: "portfolio_id", page.portfolio_id %}
 {% if impact_papers.size > 0 %}
 <section class="content-card">
-  <h2>Companion Papers</h2>
+  <h2>Public-Good Briefings</h2>
   <div class="dep-list">
     {% for paper in impact_papers %}
-    <a href="{{ paper.url | relative_url }}" class="dep-link">
+    <a href="{{ paper.landing_url | relative_url }}" class="dep-link">
       <span class="dep-title">{{ paper.title }}</span>
       <span class="dep-meta">{{ paper.summary_short }}</span>
     </a>
@@ -55,9 +74,9 @@ layout: default
 <section class="content-card">
   <h2>Related Publication Artifacts</h2>
   <div class="dep-list">
-    <a href="{{ '/publications/companion-papers/' | relative_url }}" class="dep-link">
-      <span class="dep-title">Companion Papers</span>
-      <span class="dep-meta">Publication index for the public-good scenario papers.</span>
+    <a href="{{ '/publications/research-briefings/public-good/' | relative_url }}" class="dep-link">
+      <span class="dep-title">Public-Good Briefings</span>
+      <span class="dep-meta">Publication index for the conditional public-good scenario briefings.</span>
     </a>
     <a href="{{ '/impact/global-public-good/' | relative_url }}" class="dep-link">
       <span class="dep-title">Global Public Good</span>

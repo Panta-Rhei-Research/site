@@ -5,11 +5,11 @@ title: τ for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection
 permalink: /impact/papers/wildfire-smoke-heat-compound-extreme-health-protection/
 paper_id: companion-disaster-paper-3
 portfolio_id: impact-disaster
-summary_short: A companion paper on how τ could improve wildfire prediction, smoke-dispersion
+summary_short: A Public-Good Briefing on how τ could improve wildfire prediction, smoke-dispersion
   forecasting, heat-event warning, and compound-extreme health protection.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Disaster
     status: Conditional
     updated: April 2026
@@ -670,4 +670,4 @@ The human scale of the opportunity is visible in the numbers: 60,000 heat deaths
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

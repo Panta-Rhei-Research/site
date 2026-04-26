@@ -49,17 +49,29 @@ for (const [path, contentType, expectedCacheControl] of cases) {
   assertSecurityHeaders(response);
 }
 
-for (const path of ["/publications/physics-ledger", "/publications/physics-ledger/"]) {
+for (const path of ["/publications/physics-ledger", "/publications/physics-ledger/", "/publications/numerical-physics-ledger/"]) {
   const redirect = edgeRedirectFor(`https://panta-rhei.site${path}`);
   assert.ok(redirect, `${path} should redirect at the edge`);
   assert.equal(redirect.status, 301, `${path} should be permanent`);
   assert.equal(
     redirect.headers.get("Location"),
-    "https://panta-rhei.site/publications/numerical-physics-ledger/",
+    "https://panta-rhei.site/publications/monograph-supplements/numerical-physics-ledger/",
     `${path} redirect target`
   );
 }
 
-assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/numerical-physics-ledger/"), null);
+for (const [path, target] of [
+  ["/publications/categorical-genesis", "/publications/monograph-supplements/categorical-genesis/"],
+  ["/publications/categorical-genesis/", "/publications/monograph-supplements/categorical-genesis/"],
+  ["/publications/companion-papers", "/publications/research-briefings/public-good/"],
+  ["/publications/companion-papers/", "/publications/research-briefings/public-good/"]
+]) {
+  const redirect = edgeRedirectFor(`https://panta-rhei.site${path}`);
+  assert.ok(redirect, `${path} should redirect at the edge`);
+  assert.equal(redirect.status, 301, `${path} should be permanent`);
+  assert.equal(redirect.headers.get("Location"), `https://panta-rhei.site${target}`, `${path} redirect target`);
+}
 
-console.log(`site-edge-headers: ${cases.length} header cases and 2 redirect cases passed`);
+assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/monograph-supplements/numerical-physics-ledger/"), null);
+
+console.log(`site-edge-headers: ${cases.length} header cases and 7 redirect cases passed`);

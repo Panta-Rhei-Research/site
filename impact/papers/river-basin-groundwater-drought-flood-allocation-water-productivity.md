@@ -5,12 +5,12 @@ title: τ for River-Basin, Groundwater, Drought-Flood Allocation, and Water Prod
 permalink: /impact/papers/river-basin-groundwater-drought-flood-allocation-water-productivity/
 paper_id: companion-water-wash-paper-4
 portfolio_id: impact-water-wash
-summary_short: A companion paper on how τ could improve river-basin intelligence,
+summary_short: A Public-Good Briefing on how τ could improve river-basin intelligence,
   groundwater management, drought-flood allocation, and water productivity for food
   and ecosystem security.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Water Wash
     status: Conditional
     updated: April 2026
@@ -527,4 +527,4 @@ This is not only a hydrology paper. It is a paper about food security, drought r
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

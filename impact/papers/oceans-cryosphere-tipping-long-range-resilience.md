@@ -5,11 +5,11 @@ title: τ for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience
 permalink: /impact/papers/oceans-cryosphere-tipping-long-range-resilience/
 paper_id: companion-climate-paper-4
 portfolio_id: impact-climate
-summary_short: A companion paper on how τ could improve understanding of ocean systems,
+summary_short: A Public-Good Briefing on how τ could improve understanding of ocean systems,
   cryosphere dynamics, tipping elements, and long-range climate resilience planning.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Climate
     status: Conditional
     updated: April 2026
@@ -631,4 +631,4 @@ If τ's bounded-error long-range scenario capability is real, then this paper's 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

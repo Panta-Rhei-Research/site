@@ -54,7 +54,7 @@ Guided Tours are structured reading and inspection routes for different levels o
   </a>
   <a class="v2-tile" href="{{ '/publications/' | relative_url }}">
     <h3>Publications Tour</h3>
-    <p>Books, white papers, companion papers, Research Notes, and errata.</p>
+    <p>Books, white papers, Research Briefings, Research Notes, and errata.</p>
   </a>
 </div>
 

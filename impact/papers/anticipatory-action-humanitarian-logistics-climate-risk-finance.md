@@ -5,13 +5,13 @@ title: Tau for Anticipatory Action, Humanitarian Logistics, and Climate-Risk Fin
 permalink: /impact/papers/anticipatory-action-humanitarian-logistics-climate-risk-finance/
 paper_id: companion-disaster-paper-5
 portfolio_id: impact-disaster
-summary_short: A companion paper showing how a law-faithful tau risk twin could connect
+summary_short: A Public-Good Briefing showing how a law-faithful tau risk twin could connect
   warnings, humanitarian logistics, and pre-arranged finance into one operational
   architecture—reducing the warning-exists-but-action-arrives-too-late problem at
   scale.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Disaster
     status: Conditional
     updated: April 2026
@@ -94,7 +94,7 @@ Scope includes:
 
 ### 2.2 What is explicitly out of scope
 
-The companion papers in this portfolio handle:
+The Public-Good Briefings in this portfolio handle:
 - **Paper 1:** Multi-hazard early warning systems and operational hazard intelligence.
 - **Paper 2:** Flood, coastal surge, flash flood, and landslide resilience.
 - **Paper 3:** Wildfire, smoke, heat, and compound-extreme health protection.
@@ -821,4 +821,4 @@ That would be a very large public good.
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

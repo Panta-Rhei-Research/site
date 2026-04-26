@@ -5,12 +5,12 @@ title: τ and New Aerial Logistics
 permalink: /impact/papers/new-aerial-logistics-aam-airships-humanitarian-remote/
 paper_id: companion-weather-paper-3
 portfolio_id: impact-weather
-summary_short: A companion paper on how τ could enable new aerial logistics through
+summary_short: A Public-Good Briefing on how τ could enable new aerial logistics through
   improved low-altitude weather intelligence for advanced air mobility, heavy-lift
   airships, humanitarian corridors, and remote-community access.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Weather
     status: Conditional
     updated: April 2026

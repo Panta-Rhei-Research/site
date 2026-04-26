@@ -114,7 +114,7 @@ def main() -> int:
     forbid("/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/", "Category tau")
 
     require(
-        "/publications/numerical-physics-ledger/",
+        "/publications/monograph-supplements/numerical-physics-ledger/",
         "Status and scope",
         "does not imply external validation",
     )

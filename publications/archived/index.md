@@ -31,7 +31,7 @@ right_rail:
 
 ## Archive Policy
 
-The archive preserves public releases after they have been superseded. It is a provenance surface, not a competing canon. Active readers should cite the current [Second Edition books]({{ '/publications/books/' | relative_url }}) unless they are explicitly discussing the program's publication history.
+The archive preserves public releases after they have been superseded. It is a provenance surface, not a competing canon. Active readers should cite the current [Second Edition books]({{ '/publications/research-monographs/' | relative_url }}) unless they are explicitly discussing the program's publication history.
 
 Archived releases keep enough context to make comparison possible: edition date, structural counts, availability notes, and a route back to the current canonical replacement.
 

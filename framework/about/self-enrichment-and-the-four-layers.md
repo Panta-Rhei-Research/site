@@ -63,7 +63,7 @@ The site therefore treats the four layers as the primary ontological map:
 - **Life** corresponds to the second self-enrichment.
 - **Metaphysics** corresponds to the third and terminal self-enrichment.
 
-This page does not replace the long proof route in [the books]({{ '/publications/books/' | relative_url }}). But it names the architecture that the site, the guided tours, the [verification]({{ '/verify/' | relative_url }}) lane, and the whole research program now presuppose.
+This page does not replace the long proof route in [the books]({{ '/publications/research-monographs/' | relative_url }}). But it names the architecture that the site, the guided tours, the [verification]({{ '/verify/' | relative_url }}) lane, and the whole research program now presuppose.
 
 Once the reader understands the enrichment ladder, a new question becomes possible: what exactly changes once the framework reaches a level at which it can host not only internal objects and relations, but a stronger order of semantic and proof-bearing closure from within?
 

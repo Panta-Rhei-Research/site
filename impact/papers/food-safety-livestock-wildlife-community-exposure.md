@@ -5,12 +5,12 @@ title: Tau for Food Safety, Livestock/Wildlife Interface, and Community Exposure
 permalink: /impact/papers/food-safety-livestock-wildlife-community-exposure/
 paper_id: companion-one-health-paper-4
 portfolio_id: impact-one-health
-summary_short: A companion paper showing how a law-faithful tau human-animal-environment
+summary_short: A Public-Good Briefing showing how a law-faithful tau human-animal-environment
   twin could provide unusually high humanitarian leverage in food safety intelligence,
   livestock-wildlife interface risk, and community-level exposure pathway attribution.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: One Health
     status: Conditional
     updated: April 2026
@@ -759,4 +759,4 @@ The investment case is strong, the institutional alignment is favorable, and the
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

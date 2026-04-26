@@ -5,12 +5,12 @@ title: Tau for Seasonal Planning, Disaster Anticipation, and Food-System Resilie
 permalink: /impact/papers/seasonal-planning-disaster-anticipation-food-system-resilience/
 paper_id: companion-agriculture-paper-4
 portfolio_id: impact-agriculture
-summary_short: A companion paper showing how a law-faithful tau agro-climate-resilience
+summary_short: A Public-Good Briefing showing how a law-faithful tau agro-climate-resilience
   twin could strengthen sub-seasonal to seasonal planning, anticipatory action, and
   food-system resilience at district, national, and regional scales.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Agriculture
     status: Conditional
     updated: April 2026
@@ -733,4 +733,4 @@ If τ can provide that core, this is not merely a better forecast story. It is a
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

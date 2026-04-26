@@ -38,7 +38,7 @@ One of the most distinctive moves in the framework is that it does not begin fro
 
 This is why the boundary matters so much.
 
-In ordinary intuition, boundary and interior are often treated as if the interior is primary and the boundary is derivative. But the Tau framework proposes a different order of dependence. The program claims that certain boundary structures carry the decisive information by which interiority becomes readable and stable. That is one reason the language of omega, the lemniscate, and boundary algebra matters so much in [the books]({{ '/publications/books/' | relative_url }}).
+In ordinary intuition, boundary and interior are often treated as if the interior is primary and the boundary is derivative. But the Tau framework proposes a different order of dependence. The program claims that certain boundary structures carry the decisive information by which interiority becomes readable and stable. That is one reason the language of omega, the lemniscate, and boundary algebra matters so much in [the books]({{ '/publications/research-monographs/' | relative_url }}).
 
 The point is not simply that a nice geometric picture appears. The point is that the framework now becomes capable of an earned distinction between:
 - boundary and interior,

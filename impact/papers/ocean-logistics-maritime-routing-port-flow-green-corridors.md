@@ -5,11 +5,11 @@ title: τ and the Ocean Logistics Opportunity
 permalink: /impact/papers/ocean-logistics-maritime-routing-port-flow-green-corridors/
 paper_id: companion-ocean-paper-1
 portfolio_id: impact-ocean
-summary_short: A companion paper on how τ could improve maritime routing, port flow
+summary_short: A Public-Good Briefing on how τ could improve maritime routing, port flow
   optimization, and the development of green shipping corridors.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Ocean
     status: Conditional
     updated: April 2026

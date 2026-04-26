@@ -72,7 +72,7 @@ Every numerical prediction in the Numerical Physics Ledger carries a Tier label:
 
 A Tier-A prediction with Status **Internally addressed** is a prediction that is both extremely sharp and currently matched by the program's public data comparison. A Tier-C prediction with Status **Internally addressed** is supported only at the looser tier declared for that item. A Tier-A prediction with Status **Contradicted** would be a severe problem for the framework — the kind of decisive falsification the 30-item falsification pack is designed to surface.
 
-Precision tiers also depend on the cascade layer (see [From Ratio to Measurement]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) for the L0 → L4 architecture and the [Numerical Physics Ledger]({{ '/publications/numerical-physics-ledger/' | relative_url }}#ch-58a) Ch 58a for the Calibration Sufficiency Theorem). L1 dimensionless results tend to sit at the sharpest end of the tier distribution; L3 SI-anchored results carry whatever the anchor (m<sub>n</sub>) uncertainty allows.
+Precision tiers also depend on the cascade layer (see [From Ratio to Measurement]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) for the L0 → L4 architecture and the [Numerical Physics Ledger]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}#ch-58a) Ch 58a for the Calibration Sufficiency Theorem). L1 dimensionless results tend to sit at the sharpest end of the tier distribution; L3 SI-anchored results carry whatever the anchor (m<sub>n</sub>) uncertainty allows.
 
 ## Why Typed Honesty Matters
 

@@ -5,12 +5,12 @@ title: Tau for Critical Infrastructure, Emergency Operations, and Public-Service
 permalink: /impact/papers/critical-infrastructure-emergency-operations-public-service-continuity/
 paper_id: companion-disaster-paper-4
 portfolio_id: impact-disaster
-summary_short: A companion paper showing how a law-faithful tau operations twin could
+summary_short: A Public-Good Briefing showing how a law-faithful tau operations twin could
   unlock major public-good gains in weather-driven outage prediction, cross-lifeline
   continuity, and mission-critical public-service protection during disasters.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Disaster
     status: Conditional
     updated: April 2026
@@ -50,7 +50,7 @@ The core public-good proposition is direct: a more faithfully predictable infras
 
 ### 1.1 The Service Continuity Gap Is the Primary Disaster Experience
 
-In much disaster planning, better forecasting is still treated mainly as a warning problem: better storm tracks, better flood maps, better fire-spread predictions, better impact zones. These improvements matter enormously, and the companion papers in this portfolio address them directly. But the lived social question in most disasters is not only what hazard will happen. It is whether essential services will survive.
+In much disaster planning, better forecasting is still treated mainly as a warning problem: better storm tracks, better flood maps, better fire-spread predictions, better impact zones. These improvements matter enormously, and the Public-Good Briefings in this portfolio address them directly. But the lived social question in most disasters is not only what hazard will happen. It is whether essential services will survive.
 
 The question is whether the lights will stay on long enough for the dialysis machine to complete its run. Whether the water pressure will hold long enough for the fire suppression system to function. Whether the cell tower will remain powered long enough for the 911 dispatch to get through. Whether the fuel delivery truck can reach the hospital generator before the tank runs dry. Whether the restoration crew can get to the substation while the road is still passable.
 
@@ -625,4 +625,4 @@ That is why this paper's public-good upside is so large, and why its deployment 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

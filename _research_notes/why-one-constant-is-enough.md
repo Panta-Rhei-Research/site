@@ -23,7 +23,7 @@ related_results:
   - "problem/fine-structure-constant-alpha-inverse-137"
   - "problem/tensor-to-scalar-ratio"
 related_publications:
-  - /publications/numerical-physics-ledger/
+  - /publications/monograph-supplements/numerical-physics-ledger/
   - /publications/white-papers/
 related_verify:
   - /verify/predictions-and-falsification/

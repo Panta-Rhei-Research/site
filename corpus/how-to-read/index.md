@@ -46,7 +46,7 @@ Start with an object ID, follow its dependencies, then check where it appears in
     <strong>Start from an object</strong>
     <span>Browse by book, type, dependency count, or formalization status.</span>
   </a>
-  <a class="v2-tile" href="{{ '/publications/books/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/publications/research-monographs/' | relative_url }}">
     <strong>Start from a book</strong>
     <span>Read the narrative release, then use registry links to locate the formal spine.</span>
   </a>

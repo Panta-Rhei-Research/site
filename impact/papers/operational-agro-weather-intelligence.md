@@ -5,11 +5,11 @@ title: Tau-Grade Operational Agro-Weather Intelligence
 permalink: /impact/papers/operational-agro-weather-intelligence/
 paper_id: companion-agriculture-paper-1
 portfolio_id: impact-agriculture
-summary_short: A companion paper arguing that a law-faithful tau weather-soil-crop-operations
+summary_short: A Public-Good Briefing arguing that a law-faithful tau weather-soil-crop-operations
   twin could unlock major public-good gains for day-to-day agricultural decision support.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Agriculture
     status: Conditional
     updated: April 2026
@@ -669,4 +669,4 @@ Under the τ planning assumption, the opportunity is not merely "marginally bett
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

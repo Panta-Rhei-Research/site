@@ -6,13 +6,13 @@ title: Tau for Chemicals, Toxic Releases, Lead/PFAS/Heavy Metals, Water-Soil-Air
 permalink: /impact/papers/chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation/
 paper_id: companion-pollution-circularity-paper-3
 portfolio_id: impact-pollution-circularity
-summary_short: A companion paper showing how a law-faithful tau causal integration
+summary_short: A Public-Good Briefing showing how a law-faithful tau causal integration
   substrate could unlock major public-good gains in toxic-release detection, cross-medium
   plume intelligence, lead/PFAS/mercury exposure protection, and remediation targeting—addressing
   a hidden but very large disease burden.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Pollution Circularity
     status: Conditional
     updated: April 2026
@@ -90,7 +90,7 @@ This paper addresses four main chemical contamination problem families:
 
 ### 2.2 What this paper does not cover
 
-This paper does not replace the companion papers in the Pollution and Circularity portfolio that address ambient air quality (Paper 1), emissions attribution (Paper 2), and waste systems and plastics (Paper 4). There is natural overlap, particularly between this paper and the clean-air twin and water quality papers; those overlaps are noted where they arise, but the treatment here focuses on the chemicals, subsurface, and remediation-specific intelligence layer.
+This paper does not replace the Public-Good Briefings in the Pollution and Circularity portfolio that address ambient air quality (Paper 1), emissions attribution (Paper 2), and waste systems and plastics (Paper 4). There is natural overlap, particularly between this paper and the clean-air twin and water quality papers; those overlaps are noted where they arise, but the treatment here focuses on the chemicals, subsurface, and remediation-specific intelligence layer.
 
 This paper also does not claim to resolve open questions in contaminant geochemistry or toxicokinetics. The τ assumptions are stated explicitly as working assumptions in Section 4; this is a yellow paper, not a proof paper.
 
@@ -736,4 +736,4 @@ The goal is not better monitoring of a permanent toxic burden. It is making hidd
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

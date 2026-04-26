@@ -6,12 +6,12 @@ title: Tau for Crop Biology, Breeding, Photosynthesis Engineering, and Targeted 
 permalink: /impact/papers/crop-biology-breeding-photosynthesis-gene-design/
 paper_id: companion-agriculture-paper-5
 portfolio_id: impact-agriculture
-summary_short: A companion paper exploring how a law-faithful tau genotype-environment-management
+summary_short: A Public-Good Briefing exploring how a law-faithful tau genotype-environment-management
   twin could accelerate weather-tailored crop design, photosynthesis engineering,
   and targeted gene editing for climate-resilient agriculture.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Agriculture
     status: Conditional
     updated: April 2026
@@ -627,4 +627,4 @@ The central value proposition is integration: τ would provide the mechanistic, 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

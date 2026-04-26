@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="impact-paper-article">
+<header class="hero-card">
+  <div class="module-eyebrow-row">
+    <span class="eyebrow">Publication · Research Briefing · Public-Good Briefing</span>
+    <span class="chip">Conditional Scenario</span>
+    {% if page.pdf_status %}<span class="chip">PDF {{ page.pdf_status | replace: "_", " " | capitalize }}</span>{% endif %}
+  </div>
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% elsif page.summary %}<p>{{ page.summary }}</p>{% endif %}
+  <div class="btn-group">
+    {% if page.full_html_path %}
+    <a href="{{ page.full_html_path | relative_url }}" class="btn-secondary" {% include cta-attrs.html location="publication" event="read-public-good-full-html" href=page.full_html_path %}>Read full text as HTML</a>
+    {% endif %}
+    {% if page.pdf_status == "available" and page.pdf_path %}
+    <a href="{{ page.pdf_path | relative_url }}" class="btn-ghost" download>Download PDF</a>
+    {% else %}
+    <span class="btn-ghost is-disabled" aria-disabled="true">PDF pending</span>
+    {% endif %}
+  </div>
+</header>
+
+<section class="content-card">
+  <h2>Boundary condition</h2>
+  <p>This Public-Good Briefing is a conditional scenario artifact. It is not a validation claim, policy commitment, implementation plan, or deployment-ready proposal.</p>
+</section>
+
+{% if page.abstract %}
+<section class="content-card">
+  <h2>Abstract</h2>
+  <p>{{ page.abstract }}</p>
+</section>
+{% endif %}
+
+{% if page.key_takeaways %}
+<section class="content-card">
+  <h2>Key Takeaways</h2>
+  <ul>
+    {% for item in page.key_takeaways %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if page.assumptions %}
+<section class="content-card">
+  <h2>What this briefing assumes</h2>
+  <ul>
+    {% for item in page.assumptions %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if page.non_claims %}
+<section class="content-card">
+  <h2>What this briefing does not claim</h2>
+  <ul>
+    {% for item in page.non_claims %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<section class="content-card">
+  <h2>Related surfaces</h2>
+  <div class="dep-list">
+    {% if page.related.impact_portfolio %}
+    <a href="{{ page.related.impact_portfolio | relative_url }}" class="dep-link">
+      <span class="dep-title">Impact portfolio</span>
+      <span class="dep-meta">Conditional public-good portfolio context.</span>
+    </a>
+    {% endif %}
+    <a href="{{ '/publications/research-briefings/' | relative_url }}" class="dep-link">
+      <span class="dep-title">Research Briefings</span>
+      <span class="dep-meta">The publication category for translation and synthesis artifacts.</span>
+    </a>
+    <a href="{{ '/impact/impact-framework/' | relative_url }}" class="dep-link">
+      <span class="dep-title">Impact Framework</span>
+      <span class="dep-meta">Result → verification survival → translation layer → domain uptake → consequence.</span>
+    </a>
+    <a href="{{ '/verify/' | relative_url }}" class="dep-link">
+      <span class="dep-title">Verify</span>
+      <span class="dep-meta">Inspection surfaces for formal, empirical, bridge, and review pressure.</span>
+    </a>
+  </div>
+</section>
+
+{% if content %}
+<section class="content-card">
+  <div class="prose">
+    {{ content }}
+  </div>
+</section>
+{% endif %}
+</article>

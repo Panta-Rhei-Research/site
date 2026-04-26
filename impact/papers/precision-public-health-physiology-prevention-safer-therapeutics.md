@@ -6,11 +6,11 @@ title: τ for Precision Public Health, Physiology-Aware Prevention, and Safer Th
 permalink: /impact/papers/precision-public-health-physiology-prevention-safer-therapeutics/
 paper_id: companion-one-health-paper-5
 portfolio_id: impact-one-health
-summary_short: A companion paper on how τ could enable precision public health, physiology-aware
+summary_short: A Public-Good Briefing on how τ could enable precision public health, physiology-aware
   prevention, safer therapeutic design, and optimized health-system response.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: One Health
     status: Conditional
     updated: April 2026
@@ -520,4 +520,4 @@ The question is not whether this matters. It does. The question is whether the �
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

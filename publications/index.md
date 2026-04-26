@@ -1,27 +1,30 @@
 ---
-layout: program-doc
-title: "Publications"
-lane: publications
-v2_lane: publications
-permalink: /publications/
-type: "Lane Root"
+layout: "program-doc"
+lane: "publications"
+v2_lane: "publications"
 status: "Canonical"
-summary_short: "The public release catalogue of the Panta Rhei Research Program: books, white papers, guided tours, companion papers, Research Notes, archives, and special artifacts."
-summary_cards:
-  - title: "Canonical series"
-    body: "The seven Second Edition books are the proof-order monograph series: 79 parts, 535 chapters, and about 3,430 pages."
-  - title: "Open artifacts"
-    body: "White papers, guided tours, companion papers, Research Notes, the Numerical Physics Ledger, Categorical Genesis, errata, and archives are freely browsable from this lane."
-  - title: "Inspection routes"
-    body: "Each publication family points outward to the Corpus, Results, Verify, and Impact lanes when readers need source objects, claims, checks, or applications."
+updated: "April 2026"
+title: "Publications"
+permalink: "/publications/"
+type: "Lane Root"
+summary_short: "The stable public artifact layer: monographs, supplements, papers, notes, briefings, white papers, and release artifacts."
 right_rail:
   related:
-    - title: "Books"
-      url: /publications/books/
-    - title: "Research Notes"
-      url: /publications/research-notes/
-    - title: "Verify"
-      url: /verify/
+    -
+      title: "Research Monographs"
+      url: "/publications/research-monographs/"
+    -
+      title: "Monograph Supplements"
+      url: "/publications/monograph-supplements/"
+    -
+      title: "Research Briefings"
+      url: "/publications/research-briefings/"
+    -
+      title: "Public-Good Briefings"
+      url: "/publications/research-briefings/public-good/"
+    -
+      title: "Verify"
+      url: "/verify/"
   meta:
     type: "Lane Root"
     scope: "Released artifacts"
@@ -31,68 +34,93 @@ right_rail:
 
 ## What Belongs Here
 
-Publications is the public shelf of released research artifacts. It is not the whole site and not a marketing layer. It holds stable things readers can cite, inspect, download, read in order, or compare across editions.
+The Publications lane is the stable artifact layer of the Panta Rhei Research Program.
 
-The lane is deliberately plural. The books carry the canonical proof-order argument. The white papers isolate technical audit surfaces. The guided tours lower the entry cost for specific audiences. Companion papers explore conditional public-good consequences. Research Notes carry dated, article-like research writing as the program develops. The archive preserves superseded public releases without treating them as current canon.
+It contains released objects that can be read, cited, downloaded, compared across editions, or used as orientation artifacts.
 
-## Canonical Reading Order
+Publications are not the whole research system. The [Corpus]({{ '/corpus/' | relative_url }}) carries the structured research body, [Results]({{ '/results/' | relative_url }}) reports current program stances, [Verify]({{ '/verify/' | relative_url }}) exposes inspection routes, and [Impact]({{ '/impact/' | relative_url }}) maps conditional consequences. Publications provides the stable released artifacts connected to those lanes.
 
-### [Books]({{ '/publications/books/' | relative_url }})
+## Publication categories
 
-The seven Second Edition books are the canonical monograph series. They are organized in proof order from mathematical kernel to physics, life, and metaphysics.
+Every publication artifact belongs to one of the categories below. These categories are part of the program's public structure: they clarify whether an artifact is canonical exposition, supplemental monograph material, primary research, scholarly communication, translation briefing, technical explanation, or release governance.
 
-### [Conspectus]({{ '/publications/conspectus/' | relative_url }})
+<div class="v2-grid">
+  <a class="v2-tile" href="{{ '/publications/research-monographs/' | relative_url }}"><h3>Research Monographs</h3><p>Full book-length canonical releases of the framework.</p></a>
+  <a class="v2-tile" href="{{ '/publications/monograph-supplements/' | relative_url }}"><h3>Monograph Supplements</h3><p>Book-style ledgers, appendices, and supporting parts released separately.</p></a>
+  <a class="v2-tile" href="{{ '/publications/research-papers/' | relative_url }}"><h3>Research Papers</h3><p>Standalone scholarly papers carrying primary technical research contributions.</p></a>
+  <a class="v2-tile" href="{{ '/publications/research-notes/' | relative_url }}"><h3>Research Notes</h3><p>Shorter scholarly artifacts from the ongoing research stream.</p></a>
+  <a class="v2-tile" href="{{ '/publications/research-briefings/' | relative_url }}"><h3>Research Briefings</h3><p>Framework-grounded synthesis and translation artifacts.</p></a>
+  <a class="v2-tile" href="{{ '/publications/white-papers/' | relative_url }}"><h3>White Papers</h3><p>Explanatory artifacts for framework, formalization, infrastructure, method, or verification context.</p></a>
+  <a class="v2-tile" href="{{ '/publications/release-artifacts/' | relative_url }}"><h3>Release Artifacts</h3><p>Version, provenance, correction, manifest, changelog, and archive surfaces.</p></a>
+</div>
 
-A single-sitting synoptic reading of the full seven-book arc. Use it when you want the whole shape before opening individual volumes.
+## Glossary
 
-### [Research Notes]({{ '/publications/research-notes/' | relative_url }})
+### Research Monographs
 
-Dated, article-like research artifacts for substantial public-facing updates, explanatory essays, and bridge texts. Research Notes are publication objects, while [Engage]({{ '/engage/follow-the-research/' | relative_url }}) handles email delivery and following.
+Research Monographs are the full book-length canonical releases of the Panta Rhei framework. They carry the long-form proof-order exposition of the program. Current examples are Book I through Book VII.
 
-## Technical Surfaces
+### Monograph Supplements
 
-### [Guided Tours]({{ '/publications/guided-tours/' | relative_url }})
+Monograph Supplements are book-style artifacts attached to the Research Monographs but released separately. They may contain omitted chapters, extended appendices, numerical ledgers, derivation packs, background parts, or canonical extensions that would otherwise have belonged inside a monograph volume.
 
-Audience-specific entry routes and Lean companions for readers who want to attack structural hinges directly.
+### Research Papers
 
-### [White Papers]({{ '/publications/white-papers/' | relative_url }})
+Research Papers are standalone scholarly papers carrying primary technical research contributions. They are intended to state, prove, derive, or argue for original research claims in a paper-like scholarly format.
 
-Technical audit documents including the falsification pack, Lean verification report, reviewer's dossier, reader's guide, series prospectus, seminar abstracts, and one-page orientation artifacts.
+### Research Notes
 
-### [Companion Papers]({{ '/publications/companion-papers/' | relative_url }})
+Research Notes are shorter scholarly artifacts from the ongoing research stream. They may respond to frontier papers, compare external theories with Category τ, pre-register falsification commitments, place predictions against observations, or clarify a current program stance.
 
-Conditional public-good deployment papers organized by impact portfolio. They do not replace the [Impact lane]({{ '/impact/' | relative_url }}); they are the publication index for those papers.
+### Research Briefings
 
-### [Errata]({{ '/publications/errata/' | relative_url }})
+Research Briefings are framework-grounded synthesis and translation artifacts. They apply, organize, or interpret existing Panta Rhei Results, assumptions, and verification status for a domain, institution, public-good context, or applied audience.
 
-Append-only correction and clarification surface for substantial changes to released public artifacts.
+### Public-Good Briefings
 
-## Special Artifacts
+Public-Good Briefings are a family of Research Briefings focused on conditional public-good consequences. They are conditional scenario briefings, not validation claims, policy commitments, implementation plans, or deployment-ready proposals.
 
-### [Numerical Physics Ledger]({{ '/publications/numerical-physics-ledger/' | relative_url }})
+### White Papers
 
-The 209-page numerical scorecard for the physics layer, including the calibration cascade, prediction inventory, and falsification targets.
+White Papers are structured explanatory artifacts that clarify the framework, formalization, research infrastructure, verification architecture, methodology, or public research system. They do not primarily carry new original research claims.
 
-### [Categorical Genesis]({{ '/publications/categorical-genesis/' | relative_url }})
+### Release Artifacts
 
-A self-contained companion to Book VII that applies the framework's structural apparatus to Genesis 1-3 under explicit scope and override rules.
+Release Artifacts document the versioned state, provenance, corrections, and archival record of the research program. They are governance and provenance artifacts, not primary research claims.
 
-### [Bibliography]({{ '/publications/bibliography/' | relative_url }})
+## How we classify new artifacts
 
-The publication-facing bibliography home. It routes to the searchable reference corpus, browse surface, and BibTeX artifact.
+Every new publication artifact must first answer which category it belongs to.
 
-## Archived Releases
+1. Is it a full book-length canonical exposition? Research Monograph.
+2. Is it book-style material attached to a monograph but released separately? Monograph Supplement.
+3. Does it carry a primary original technical research contribution? Research Paper.
+4. Is it a short scholarly response, comparison, pre-registration, or falsification note? Research Note.
+5. Is it a domain-facing synthesis or translation artifact based on existing Results? Research Briefing.
+6. Is it an explanatory, technical, architectural, formalization, methodology, or overview document? White Paper.
+7. Is it about release status, provenance, correction, or archive state? Release Artifact.
 
-### [Archived Releases]({{ '/publications/archived/' | relative_url }})
+If an artifact fits none of these categories, a new category should only be introduced after an explicit editorial justification.
 
-Historical public releases remain available for provenance and comparison. They are not the active citation target unless a reader is explicitly studying the program's development history.
+## Artifact classification matrix
 
-{% for book in site.data.publications.books %}
-- **Book {{ book.roman }}**: [{{ book.title }}]({{ book.url | relative_url }}) - *{{ book.subtitle }}* ({{ book.pages }} pages)
-{% endfor %}
+| Artifact kind | Category | Subtype |
+|---|---|---|
+| Book I-VII | Research Monograph | Canonical monograph volume |
+| Numerical Physics Ledger | Monograph Supplement | Numerical ledger / physics supplement |
+| Categorical Genesis | Monograph Supplement | Book VII supplement / genesis appendix |
+| Framework Conspectus | White Paper | Overview white paper |
+| TauLib Overview | White Paper | Technical / formalization white paper |
+| Public-good agriculture briefing | Research Briefing | Public-Good Briefing |
+| Release Manifest | Release Artifact | Manifest |
+| Errata | Release Artifact | Correction artifact |
 
-## How Publications Connect
+## Suggested reading order
 
-The books and publication artifacts give the stable prose. The [Corpus]({{ '/corpus/' | relative_url }}) gives the registered source objects. The [Results]({{ '/results/' | relative_url }}) lane gives the problem-and-result mirror. The [Verify]({{ '/verify/' | relative_url }}) lane gives machine-checking, empirical falsification routes, and assessment protocols. The [Impact]({{ '/impact/' | relative_url }}) lane gives public-good deployment scenarios.
-
-These surfaces are different public projections of one research program. Publications is where the released artifacts live; the surrounding lanes make them inspectable.
+1. Start with the Framework Conspectus if you need a compact overview.
+2. Read the Research Monographs for canonical proof-order exposition.
+3. Use Monograph Supplements for extended ledgers, appendices, and book-style supporting material.
+4. Use Research Notes for current scholarly responses, comparisons, and pre-registration notes.
+5. Use Research Briefings for domain-facing translation and public-good scenario analyses.
+6. Use White Papers for technical and methodological orientation.
+7. Use Release Artifacts to inspect version status, errata, and archived releases.

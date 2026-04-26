@@ -5,12 +5,12 @@ title: Tau for Regional Adaptation Planning and Sectoral Impact Intelligence
 permalink: /impact/papers/regional-adaptation-sectoral-impact-intelligence/
 paper_id: companion-climate-paper-3
 portfolio_id: impact-climate
-summary_short: A companion paper showing how a tau regional twin could turn Earth-system
+summary_short: A Public-Good Briefing showing how a tau regional twin could turn Earth-system
   understanding into decision-grade adaptation intelligence for real regions, real
   sectors, and real public planning choices.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Climate
     status: Conditional
     updated: April 2026
@@ -546,4 +546,4 @@ If that capability is real, then this paper's domain could become one of the cle
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

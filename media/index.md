@@ -110,7 +110,7 @@ This media kit is not a peer-review certificate, not a claim that every result i
 - [Corpus]({{ '/corpus/' | relative_url }}) — central research artifact and registry projection.
 - [Results]({{ '/results/' | relative_url }}) — typed answer surfaces and world readouts.
 - [Verify]({{ '/verify/' | relative_url }}) — formalization, falsification, and assessment protocols.
-- [Publications]({{ '/publications/' | relative_url }}) — books, white papers, companion papers, and Research Notes.
+- [Publications]({{ '/publications/' | relative_url }}) — books, white papers, Research Briefings, and Research Notes.
 - [Engage]({{ '/engage/' | relative_url }}) — contact, media, critique, and participation routes.
 
 ## Key public surfaces

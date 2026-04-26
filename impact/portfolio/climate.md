@@ -4,7 +4,7 @@ lane: impact
 title: Climate
 permalink: /impact/portfolio/climate/
 portfolio_id: impact-climate
-summary_short: A public-good deployment portfolio for making the climate system's
+summary_short: A conditional public-good portfolio for making the climate system's
   causal tree more legible so that mitigation, adaptation, finance, infrastructure,
   and international coordination can align with the true critical path of risk.
 time_horizon: medium
@@ -70,7 +70,7 @@ The memo then proposes:
 
 The central recommendation is:
 
-> **Treat climate as one τ deployment portfolio with one shared Earth-system causal twin and five mission layers, rather than as five disconnected policy products.**
+> **Treat climate as one τ conditional public-good portfolio with one shared Earth-system causal twin and five mission layers, rather than as five disconnected policy products.**
 
 That is the most efficient path to early proof, cross-domain reuse, and durable public good.
 
@@ -344,7 +344,7 @@ Why: the deepest structural shift comes when the Earth-system twin becomes a com
 
 ### 5.4 Recommended balanced rollout order
 
-For a balanced first-wave deployment portfolio, the recommended order is:
+For a balanced first-wave conditional public-good portfolio, the recommended order is:
 
 1. **Paper 1 — Earth-system causal-chain twin and policy scenario engine**
 2. **Paper 2 — Carbon-cycle, methane, aerosol, and sink intelligence**
@@ -968,7 +968,7 @@ This portfolio memo synthesizes the following companion drafts:
 
 ---
 
-## Companion Papers (4)
+## Public-Good Briefings (4)
 
 - [Tau for Carbon-Cycle, Methane, Aerosol, and Sink Intelligence]({{ '/impact/papers/carbon-cycle-methane-aerosol-sink-intelligence/' | relative_url }})
 - [Tau for Climate Policy Optimization, Investment Prioritization, and International Coordination]({{ '/impact/papers/climate-policy-optimization-investment-prioritization-international-coordination/' | relative_url }})

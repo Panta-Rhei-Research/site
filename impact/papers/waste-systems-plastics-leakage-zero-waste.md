@@ -6,12 +6,12 @@ title: τ for Waste Systems, Plastics Leakage, Litter Interception, Municipal/In
 permalink: /impact/papers/waste-systems-plastics-leakage-zero-waste/
 paper_id: companion-pollution-circularity-paper-4
 portfolio_id: impact-pollution-circularity
-summary_short: A companion paper on how τ could improve waste-flow modeling, plastics-leakage
+summary_short: A Public-Good Briefing on how τ could improve waste-flow modeling, plastics-leakage
   interception, municipal and industrial waste operations, and zero-waste transition
   planning.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Pollution Circularity
     status: Conditional
     updated: April 2026
@@ -683,4 +683,4 @@ The path from where we are — 2.7 billion people without collection, 19–23 mi
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

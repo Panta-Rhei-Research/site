@@ -43,7 +43,7 @@ verification:
     - title: "Falsification Paths"
       url: /verify/predictions-and-falsification/falsification-paths/
     - title: "Numerical Physics Ledger"
-      url: /publications/numerical-physics-ledger/
+      url: /publications/monograph-supplements/numerical-physics-ledger/
 relations:
   corpus:
     - title: "CS-05 Recover Internal Physical Grammar"
@@ -63,7 +63,7 @@ relations:
       url: /program/research-agenda/recovery-requirements/physics/
   publications:
     - title: "Numerical Physics Ledger"
-      url: /publications/numerical-physics-ledger/
+      url: /publications/monograph-supplements/numerical-physics-ledger/
 editorial:
   citation_note: "Use the PDF as the citable note; this page provides current status and linked verification surfaces."
   peer_review_status: "Program pre-registration; external review not yet completed."
@@ -95,7 +95,7 @@ right_rail:
     - title: "Research Notes"
       url: /publications/research-notes/
     - title: "Numerical Physics Ledger"
-      url: /publications/numerical-physics-ledger/
+      url: /publications/monograph-supplements/numerical-physics-ledger/
     - title: "Predictions and Falsification"
       url: /verify/predictions-and-falsification/
   meta:

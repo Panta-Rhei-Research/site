@@ -32,5 +32,5 @@ right_rail:
 - **Registry**: 4,584 registry objects across all 7 books with dependency graphs
 - **Framework**: 69 framework modules across 4 layers (E0-E3)
 - **Results**: Key results with typed epistemic status across 4 domains
-- **Impact**: 11 portfolios with 44 companion papers
+- **Impact**: 11 portfolios with 44 Public-Good Briefings
 - **Verification**: TauLib, guided tours, and formalization status

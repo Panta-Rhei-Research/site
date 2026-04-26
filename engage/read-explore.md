@@ -46,7 +46,7 @@ This route is deliberately staged. The first goal is orientation; the second is 
     <h3>Quick Overview</h3>
     <p>Begin with Start Here, then use Entry Routes and Key Results for a first map of the site.</p>
   </a>
-  <a class="v2-tile" href="{{ '/publications/books/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/publications/research-monographs/' | relative_url }}">
     <h3>Deep Reading Path</h3>
     <p>Use the Books catalogue and Guided Tours to enter the seven-volume release without losing the system map.</p>
   </a>
@@ -64,7 +64,7 @@ This route is deliberately staged. The first goal is orientation; the second is 
 
 1. Start with [Discover]({{ '/discover/' | relative_url }}) and [Start Here]({{ '/discover/start-here/' | relative_url }}).
 2. Read [Key Results]({{ '/discover/key-results/' | relative_url }}) to see the program's strongest public claims at a glance.
-3. Open [Books]({{ '/publications/books/' | relative_url }}) and choose a guided tour if the full monograph path is too large for a first pass.
+3. Open [Books]({{ '/publications/research-monographs/' | relative_url }}) and choose a guided tour if the full monograph path is too large for a first pass.
 4. Use [World Readout]({{ '/results/world-readout/' | relative_url }}) to see how the framework reads different domains.
 5. Subscribe through [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) if you want updates when new public notes appear.
 

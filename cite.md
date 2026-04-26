@@ -45,7 +45,7 @@ When a citation depends on a specific surface, prefer the canonical page URL: [C
 
 ## Cite the books
 
-Each [book]({{ '/publications/books/' | relative_url }}) in the Panta Rhei series has a **Zenodo DOI** that identifies the canonical manuscript record for the current 2nd Edition. Retail formats (Kindle, hardcover, paperback) share the same manuscript content; the DOI is the stable scholarly identifier.
+Each [book]({{ '/publications/research-monographs/' | relative_url }}) in the Panta Rhei series has a **Zenodo DOI** that identifies the canonical manuscript record for the current 2nd Edition. Retail formats (Kindle, hardcover, paperback) share the same manuscript content; the DOI is the stable scholarly identifier.
 
 When citing, please reference the **specific edition consulted** and use the version DOI.
 

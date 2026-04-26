@@ -44,7 +44,7 @@ right_rail:
 
 ## Two editions, one program
 
-The Panta Rhei Research Program has published two editions of its seven-book series. The [First Edition]({{ '/publications/archived/first-edition/' | relative_url }}) appeared in December 2025. The [Second Edition]({{ '/publications/books/' | relative_url }}) followed in March 2026. Both are publicly available &mdash; the First Edition as an archived release, the Second Edition as the current canonical version.
+The Panta Rhei Research Program has published two editions of its seven-book series. The [First Edition]({{ '/publications/archived/first-edition/' | relative_url }}) appeared in December 2025. The [Second Edition]({{ '/publications/research-monographs/' | relative_url }}) followed in March 2026. Both are publicly available &mdash; the First Edition as an archived release, the Second Edition as the current canonical version.
 
 This note explains what changed between them and why.
 

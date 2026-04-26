@@ -51,7 +51,7 @@ verification:
   related_results:
     - "/results/predictions/browse/"
     - "/results/falsifications/browse/"
-    - "/publications/numerical-physics-ledger/"
+    - "/publications/monograph-supplements/numerical-physics-ledger/"
   related_corpus_steps:
     - "/corpus/construction-spine/measurement-empirical-bridges/"
   related_verify_pages:

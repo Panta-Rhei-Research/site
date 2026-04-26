@@ -4,7 +4,7 @@ lane: impact
 title: "Solar"
 permalink: /impact/global-public-good/solar/
 portfolio_id: impact-solar
-summary_short: "A public-good deployment portfolio for translating better solar-weather-grid physics into lower reserve costs, faster DER interconnection, stronger critical-load resilience, and solar-synchronized flexible demand."
+summary_short: "A conditional public-good portfolio for translating better solar-weather-grid physics into lower reserve costs, faster DER interconnection, stronger critical-load resilience, and solar-synchronized flexible demand."
 time_horizon: near
 deployment_stage: conceptual
 right_rail:

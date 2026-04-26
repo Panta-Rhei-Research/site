@@ -5,11 +5,11 @@ title: τ for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable 
 permalink: /impact/papers/wash-health-facilities-schools-camps-climate-vulnerable-settlements/
 paper_id: companion-water-wash-paper-5
 portfolio_id: impact-water-wash
-summary_short: A companion paper on how τ could improve WASH service continuity in
+summary_short: A Public-Good Briefing on how τ could improve WASH service continuity in
   health facilities, schools, refugee camps, and climate-vulnerable settlements.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Water Wash
     status: Conditional
     updated: April 2026
@@ -660,4 +660,4 @@ That is a very strong reason to include this paper as the final component of the
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

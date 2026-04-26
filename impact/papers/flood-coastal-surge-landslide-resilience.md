@@ -5,12 +5,12 @@ title: Tau for Flood, Coastal Surge, Flash Flood, and Landslide Resilience
 permalink: /impact/papers/flood-coastal-surge-landslide-resilience/
 paper_id: companion-disaster-paper-2
 portfolio_id: impact-disaster
-summary_short: A companion paper showing how a law-faithful tau hydro-hazard twin
+summary_short: A Public-Good Briefing showing how a law-faithful tau hydro-hazard twin
   could unlock major public-good gains in flood prediction, coastal surge intelligence,
   flash-flood lead time, and rainfall-induced landslide warning.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Disaster
     status: Conditional
     updated: April 2026
@@ -742,4 +742,4 @@ That is why Paper 2 belongs near the front of the disaster portfolio. It is one 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

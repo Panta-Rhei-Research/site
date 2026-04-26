@@ -91,7 +91,7 @@ When running the protocol, provide the model with the relevant public sources. S
 - **Main site:** [https://panta-rhei.site](https://panta-rhei.site)
 - **TauLib (Lean 4 library):** [https://github.com/Panta-Rhei-Research/taulib](https://github.com/Panta-Rhei-Research/taulib)
 - **Guided Tours:** [Guided Tours]({{ '/publications/guided-tours/' | relative_url }})
-- **Books:** [Books]({{ '/publications/books/' | relative_url }})
+- **Books:** [Books]({{ '/publications/research-monographs/' | relative_url }})
 
 Do not upload confidential, unpublished, or third-party restricted materials into general-purpose AI systems. The protocol is designed to work entirely with public materials.
 

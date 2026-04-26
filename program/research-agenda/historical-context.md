@@ -107,7 +107,7 @@ That matters enormously for the transition from physics into life and then into 
 
 Finally, and perhaps most directly for the formal character of the program, there is **Alexander Grothendieck**.
 
-Grothendieck deserves special emphasis here because without his transformation of mathematical thought, a project like *Panta Rhei* would not even be thinkable in its present form. The [books]({{ '/publications/books/' | relative_url }}) are called *Categorical* Foundations, *Categorical* Holomorphy, *Categorical* Spectrum, and so on, not as a flourish, but because the program takes with utmost seriousness the idea that structure, relation, universal property, and internal viewpoint are not merely technical conveniences but foundational resources.
+Grothendieck deserves special emphasis here because without his transformation of mathematical thought, a project like *Panta Rhei* would not even be thinkable in its present form. The [books]({{ '/publications/research-monographs/' | relative_url }}) are called *Categorical* Foundations, *Categorical* Holomorphy, *Categorical* Spectrum, and so on, not as a flourish, but because the program takes with utmost seriousness the idea that structure, relation, universal property, and internal viewpoint are not merely technical conveniences but foundational resources.
 
 Grothendieck's work changed the mathematical imagination itself. It made it possible to think of mathematical objects not primarily as coordinate-bearing things first and structured things second, but as structured worlds whose meaning emerges through relations, morphisms, sites, internal logic, and universal constructions.
 

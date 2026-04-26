@@ -94,7 +94,7 @@ This principle is one reason why internal semantics, self-enrichment, and eventu
 The fifth principle is **formal inspectability**.
 
 The program should be built in a way that allows public structured inspection:
-- through [books]({{ '/publications/books/' | relative_url }})
+- through [books]({{ '/publications/research-monographs/' | relative_url }})
 - through [guided tours]({{ '/publications/guided-tours/' | relative_url }})
 - through the [registry]({{ '/corpus/registry/' | relative_url }})
 - through dashboards

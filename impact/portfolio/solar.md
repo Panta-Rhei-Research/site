@@ -4,7 +4,7 @@ lane: impact
 title: Solar
 permalink: /impact/portfolio/solar/
 portfolio_id: impact-solar
-summary_short: A public-good deployment portfolio for translating better solar–weather–grid
+summary_short: A conditional public-good portfolio for translating better solar–weather–grid
   physics into lower reserve costs, faster DER interconnection, stronger critical-load
   resilience, and solar-synchronized flexible demand.
 time_horizon: medium
@@ -73,7 +73,7 @@ The memo then proposes:
 
 The central recommendation is:
 
-> **Treat solar as a single τ deployment portfolio with one shared weather–irradiance–PV–grid twin and five mission layers, rather than as five isolated product lines.**
+> **Treat solar as a single τ conditional public-good portfolio with one shared weather–irradiance–PV–grid twin and five mission layers, rather than as five isolated product lines.**
 
 That is the most efficient path to early proof, cross-domain reuse, and durable public good.
 
@@ -89,7 +89,7 @@ Instead, it asks a narrower and more operational question:
 
 > If τ provides the solar-side capabilities claimed for it, how should those capabilities be translated into a coherent solar deployment program?
 
-The working assumptions are the same as in the five companion papers:
+The working assumptions are the same as in the five Public-Good Briefings:
 
 - τ provides a **physically faithful** discrete weather–irradiance–PV–grid twin;
 - this twin is **constructive, decidable, bounded-error, and coarse-grainable**;
@@ -306,7 +306,7 @@ Why: the deepest structural shift comes when solar production, feeder intelligen
 
 ### 5.4 Recommended balanced rollout order
 
-For a balanced first-wave deployment portfolio, the recommended order is:
+For a balanced first-wave conditional public-good portfolio, the recommended order is:
 
 1. **Paper 1 — Bulk-grid forecasting and dispatch**
 2. **Paper 2 — Distributed PV visibility and feeder orchestration**
@@ -979,7 +979,7 @@ This portfolio memo synthesizes the following companion drafts:
 
 ---
 
-## Companion Papers (5)
+## Public-Good Briefings (5)
 
 - [Tau-Grade Solar Forecasting for Bulk-Grid Operations and Market Dispatch]({{ '/impact/papers/bulk-grid-solar-forecasting/' | relative_url }})
 - [τ for Distributed PV Visibility and Distribution-Grid Orchestration]({{ '/impact/papers/distributed-pv-visibility-distribution-grid-orchestration/' | relative_url }})

@@ -138,7 +138,7 @@
   <div class="rail-title">Publications</div>
   {% for item in site.data.nav.publications_nav %}
   <a href="{{ item.url | relative_url }}" class="nav-link{% if page.url == item.url %} active{% endif %}">{{ item.title }}</a>
-  {% if item.url == "/publications/books/" and page.url contains "/publications/books/" %}
+  {% if item.url == "/publications/research-monographs/" and page.url contains "/publications/research-monographs/" %}
   <div class="subnav">
     {% for book in site.data.publications.books %}
     <a href="{{ book.url | relative_url }}" class="nav-link{% if page.url == book.url %} active{% endif %}">Book {{ book.roman }}</a>

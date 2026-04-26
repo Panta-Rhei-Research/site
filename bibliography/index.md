@@ -56,7 +56,7 @@ The raw BibTeX file (`references.bib`) is available for download for researchers
 
 ## Related publication surfaces
 
-- [Books]({{ '/publications/books/' | relative_url }}) — the seven-volume monograph release.
+- [Books]({{ '/publications/research-monographs/' | relative_url }}) — the seven-volume monograph release.
 - [White Papers]({{ '/publications/white-papers/' | relative_url }}) — compact publication artifacts for selected arguments and assessments.
 - [Research Notes]({{ '/publications/research-notes/' | relative_url }}) — irregular explanatory notes when there is something real to report.
 - [Publications]({{ '/publications/' | relative_url }}) — the canonical public publication lane.

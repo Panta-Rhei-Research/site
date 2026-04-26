@@ -88,7 +88,7 @@ The aim is to state the scope truthfully and the status carefully.
 
 A serious outsider is already able to inspect the program through multiple public surfaces:
 
-- the [seven-book canonical release]({{ '/publications/books/' | relative_url }})
+- the [seven-book canonical release]({{ '/publications/research-monographs/' | relative_url }})
 - the framework and [results]({{ '/results/' | relative_url }}) lanes
 - [guided tours]({{ '/publications/guided-tours/' | relative_url }})
 - public verification companions

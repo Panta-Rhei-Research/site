@@ -5,12 +5,12 @@ title: Tau for Climate-Smart Irrigation, Soil Moisture, and Water Productivity
 permalink: /impact/papers/climate-smart-irrigation-soil-moisture-water-productivity/
 paper_id: companion-agriculture-paper-2
 portfolio_id: impact-agriculture
-summary_short: A companion paper showing how a law-faithful tau water-soil-crop twin
+summary_short: A Public-Good Briefing showing how a law-faithful tau water-soil-crop twin
   could transform irrigation scheduling, water productivity, and drought-adaptive
   farming across the sector that uses 72% of global freshwater.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Agriculture
     status: Conditional
     updated: April 2026
@@ -86,7 +86,7 @@ This is **Paper 2 of 5** in the Panta Rhei agriculture impact portfolio. It focu
 
 ### 2.2 What is explicitly out of scope
 
-The following are addressed in companion papers:
+The following are addressed in Public-Good Briefings:
 
 - **Paper 1:** Short-range operational agro-weather intelligence (precipitation, temperature, humidity, frost, heat stress) for day-to-day farm operations.
 - **Paper 3:** Pest, disease, and livestock-stress early warning under altered precipitation and temperature regimes.
@@ -785,4 +785,4 @@ If τ delivers on its core assumptions, this paper's domain could generate some 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

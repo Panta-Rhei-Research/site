@@ -5,12 +5,12 @@ title: τ for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resili
 permalink: /impact/papers/solar-storage-microgrids-critical-infrastructure-resilience/
 paper_id: companion-solar-paper-3
 portfolio_id: impact-solar
-summary_short: A companion paper on how τ could improve solar-plus-storage system
+summary_short: A Public-Good Briefing on how τ could improve solar-plus-storage system
   design, microgrid operations, and critical-infrastructure resilience for hospitals,
   water systems, and community hubs.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Solar
     status: Conditional
     updated: April 2026
@@ -586,4 +586,4 @@ That would matter for hospitals, water utilities, medically vulnerable household
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

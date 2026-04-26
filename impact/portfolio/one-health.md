@@ -4,7 +4,7 @@ lane: impact
 title: One Health
 permalink: /impact/portfolio/one-health/
 portfolio_id: impact-one-health
-summary_short: A public-good deployment portfolio for using one shared environmental-biological-operational
+summary_short: A conditional public-good portfolio for using one shared environmental-biological-operational
   twin to improve disease early warning, health-system resilience, environmental surveillance,
   food safety, and precision public health simultaneously.
 time_horizon: medium
@@ -655,7 +655,7 @@ In the broader meta-portfolio, One Health is the place where human welfare, anim
 
 ## 16. Recommended Immediate Next Steps
 
-1. Finalize the five-paper One Health stack and complete companion papers 2.
+1. Finalize the five-paper One Health stack and complete Public-Good Briefings 2.
 2. Build a short executive One Health brief (2–3 pages) from this memo for institutional circulation with Africa CDC, WHO SEARO, and the Pandemic Fund Secretariat.
 3. Identify and advance 2–3 lighthouse pilots:
    - one outbreak early-warning pilot (East Africa / Horn of Africa corridor recommended),
@@ -710,7 +710,7 @@ That world is not technically beyond reach. It is organizationally, institutiona
 
 ---
 
-## Companion Papers (4)
+## Public-Good Briefings (4)
 
 - [Tau for AMR, Wastewater/Environmental Surveillance, and Environmental Transmission Intelligence]({{ '/impact/papers/amr-wastewater-environmental-transmission-intelligence/' | relative_url }})
 - [Tau for Food Safety, Livestock/Wildlife Interface, and Community Exposure Intelligence]({{ '/impact/papers/food-safety-livestock-wildlife-community-exposure/' | relative_url }})

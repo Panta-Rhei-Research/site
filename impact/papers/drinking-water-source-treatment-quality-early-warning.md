@@ -5,13 +5,13 @@ title: Tau-Grade Drinking-Water Source, Treatment, and Quality Early Warning
 permalink: /impact/papers/drinking-water-source-treatment-quality-early-warning/
 paper_id: companion-water-wash-paper-1
 portfolio_id: impact-water-wash
-summary_short: A companion paper showing how a law-faithful tau drinking-water twin
+summary_short: A Public-Good Briefing showing how a law-faithful tau drinking-water twin
   could unlock major public-good gains in source-water early warning, treatment-train
   optimization, and climate-resilient water-safety planning—addressing 2.1 billion
   people lacking safely managed drinking water.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Water Wash
     status: Conditional
     updated: April 2026
@@ -414,4 +414,4 @@ That is why Paper 1 comes first.
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

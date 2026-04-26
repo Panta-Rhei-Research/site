@@ -6,11 +6,11 @@ title: τ for Integrated Energy-System Planning, Market Design, Investment Prior
 permalink: /impact/papers/integrated-energy-system-planning-market-design-investment-coordination/
 paper_id: companion-energy-paper-5
 portfolio_id: impact-energy
-summary_short: A companion paper on how τ could improve integrated energy-system planning,
+summary_short: A Public-Good Briefing on how τ could improve integrated energy-system planning,
   electricity market design, investment prioritization, and international energy coordination.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Energy
     status: Conditional
     updated: April 2026

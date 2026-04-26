@@ -6,11 +6,11 @@ title: τ for Biodiversity Finance, Monitoring, Restoration Verification, and Na
 permalink: /impact/papers/biodiversity-finance-monitoring-restoration-verification/
 paper_id: companion-biodiversity-restoration-paper-5
 portfolio_id: impact-biodiversity-restoration
-summary_short: A companion paper on how τ could strengthen biodiversity finance, monitoring,
+summary_short: A Public-Good Briefing on how τ could strengthen biodiversity finance, monitoring,
   restoration verification, and nature-positive investment prioritization.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Biodiversity Restoration
     status: Conditional
     updated: April 2026
@@ -83,7 +83,7 @@ This paper is the finance and governance capstone of the five-paper Biodiversity
 
 ### 2.2 What this paper does not cover
 
-Four companion papers in the cluster address adjacent but distinct topics: restoration digital twins and landscape prioritization (Paper 1); wildlife corridors, migration routes, and connectivity planning (Paper 2); freshwater, wetlands, coasts, and blue-green habitat resilience (Paper 3); and invasive species, fire, drought, disease, and ecosystem stress early warning (Paper 4). This paper draws on all four as context but does not duplicate their analysis.
+Four Public-Good Briefings in the cluster address adjacent but distinct topics: restoration digital twins and landscape prioritization (Paper 1); wildlife corridors, migration routes, and connectivity planning (Paper 2); freshwater, wetlands, coasts, and blue-green habitat resilience (Paper 3); and invasive species, fire, drought, disease, and ecosystem stress early warning (Paper 4). This paper draws on all four as context but does not duplicate their analysis.
 
 ### 2.3 Reader orientation
 

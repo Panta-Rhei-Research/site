@@ -63,7 +63,7 @@ For the deepest route, follow [Research Agenda]({{ '/program/research-agenda/' |
 
 ## Optional Fifth Step
 
-If you want the released artifacts first, go to [Publications]({{ '/publications/' | relative_url }}). That lane holds the books, white papers, companion papers, Research Notes, guided tours, errata, and archived releases.
+If you want the released artifacts first, go to [Publications]({{ '/publications/' | relative_url }}). That lane holds the books, white papers, Research Briefings, Research Notes, guided tours, errata, and archived releases.
 
 ## Visitor Profiles
 

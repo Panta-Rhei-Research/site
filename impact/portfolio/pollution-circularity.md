@@ -4,7 +4,7 @@ lane: impact
 title: Pollution/Circularity
 permalink: /impact/portfolio/pollution-circularity/
 portfolio_id: impact-pollution-circularity
-summary_short: A public-good deployment portfolio for translating better physical
+summary_short: A conditional public-good portfolio for translating better physical
   intelligence about emissions, toxic pathways, waste flows, plastics leakage, and
   material dynamics into lower exposure, cleaner cities, stronger remediation, better
   waste operations, and circular-system redesign.
@@ -62,7 +62,7 @@ This memo therefore organizes the domain into five linked papers:
 
 The central recommendation is:
 
-> **Treat pollution prevention, exposure reduction, waste operations, and circularity as one staged τ deployment portfolio — not as isolated environmental submarkets.**
+> **Treat pollution prevention, exposure reduction, waste operations, and circularity as one staged τ conditional public-good portfolio — not as isolated environmental submarkets.**
 
 That is the most efficient path to early proof, cross-domain reuse, and durable public good.
 
@@ -78,7 +78,7 @@ Instead, it asks a narrower, operational question:
 
 > **If τ provides the pollution / circularity capabilities claimed for it, how should those capabilities be translated into a coherent deployment program?**
 
-The working assumptions are the same as in the companion papers:
+The working assumptions are the same as in the Public-Good Briefings:
 
 - τ provides a **physically faithful** discrete twin for relevant emissions, materials, transport, and exposure chains;
 - this twin is **constructive, bounded-error, and coarse-grainable**;
@@ -360,7 +360,7 @@ Target:
 
 ### 8.1 Named funding windows
 
-The pollution and circularity domain is served by a multi-layered set of public, multilateral, and bilateral financing mechanisms. Positioning the τ deployment portfolio for institutional adoption requires understanding these windows in detail — both as sources of capital and as signals of legitimate demand.
+The pollution and circularity domain is served by a multi-layered set of public, multilateral, and bilateral financing mechanisms. Positioning the τ conditional public-good portfolio for institutional adoption requires understanding these windows in detail — both as sources of capital and as signals of legitimate demand.
 
 **Global Environment Facility (GEF) — Chemicals and Waste focal area.** The GEF Chemicals and Waste focal area is the primary multilateral financing channel for persistent organic pollutants, mercury, lead, plastic pollution, and sound chemicals management. Across its successive replenishment cycles (GEF-7 and GEF-8), the Chemicals and Waste focal area has mobilized roughly **$500 million or more per cycle** in grants, with substantial co-financing leverage from implementing agencies (UNEP, UNDP, World Bank). The GEF-9 replenishment, currently in negotiation, is expected to increase the Chemicals and Waste envelope in light of global plastic treaty obligations. A τ-grade toxic-pathway and remediation intelligence tool (Paper 3) could be positioned as enabling infrastructure for GEF-supported national implementation plans (NIPs) under the Stockholm Convention and the Minamata Convention on mercury.
 
@@ -744,7 +744,7 @@ That is why this cluster matters. It is not only about cleaning up what has alre
 
 ---
 
-## Companion Papers (4)
+## Public-Good Briefings (4)
 
 - [Tau for Chemicals, Toxic Releases, Lead/PFAS/Heavy Metals, Water-Soil-Air Plume Intelligence, and Remediation]({{ '/impact/papers/chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation/' | relative_url }})
 - [Tau-Grade Clean-Air Digital Twins, Exposure Intelligence, and Urban/Regional Health Protection]({{ '/impact/papers/clean-air-digital-twins-exposure-intelligence/' | relative_url }})

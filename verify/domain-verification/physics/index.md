@@ -16,7 +16,7 @@ right_rail:
     - title: "Falsification Paths"
       url: /verify/predictions-and-falsification/falsification-paths/
     - title: "Numerical Physics Ledger"
-      url: /publications/numerical-physics-ledger/
+      url: /publications/monograph-supplements/numerical-physics-ledger/
     - title: "Physics Recovery Requirements"
       url: /program/research-agenda/recovery-requirements/physics/
     - title: "Physics Results"
@@ -38,7 +38,7 @@ Physics verification is not established by formal derivation alone. A physics-fa
 
 - [Predictions]({{ '/verify/predictions-and-falsification/predictions/' | relative_url }})
 - [Falsification Paths]({{ '/verify/predictions-and-falsification/falsification-paths/' | relative_url }})
-- [Numerical Physics Ledger]({{ '/publications/numerical-physics-ledger/' | relative_url }})
+- [Numerical Physics Ledger]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }})
 - [Physics Recovery Requirements]({{ '/program/research-agenda/recovery-requirements/physics/' | relative_url }})
 - [Physics Results]({{ '/results/topic/physics/' | relative_url }})
 - [Physics World Readout]({{ '/results/world-readout/physics/' | relative_url }})

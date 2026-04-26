@@ -1,55 +1,37 @@
 ---
-layout: program-doc
+layout: "program-doc"
+lane: "publications"
+v2_lane: "publications"
+status: "Canonical"
+updated: "April 2026"
 title: "White Papers"
-lane: publications
-permalink: /publications/white-papers/
-type: "Publication Family"
-publication_type: "White Papers"
-status: "Published"
-summary_short: "Technical white papers supporting the research program — falsification pack, Lean verification report, reviewer's dossier, and more."
-summary_cards:
-  - title: "Falsification Pack"
-    body: "220+ quantitative predictions with precision claims, pre-registered for CMB-S4."
-  - title: "Lean Verification Report"
-    body: "TauLib: 445 modules, 127,440 lines, zero sorry across all 7 books, 3 conjectural axioms."
-  - title: "Reviewer's Dossier"
-    body: "Factual substrate for institutional evaluators."
-right_rail:
-  related:
-    - title: "Publications Overview"
-      url: /publications/
-    - title: "Verify"
-      url: /verify/
-  meta:
-    type: "Family Root"
-    status: "Published"
-    updated: "April 2026"
+permalink: "/publications/white-papers/"
+type: "Publication Category"
+summary_short: "Structured explanatory artifacts for framework, formalization, infrastructure, method, and verification context."
 ---
 
-## Role in the Publication System
+## White Papers
 
-White Papers are compact technical artifacts. They do not replace the books; they extract specific audit surfaces from the larger program so reviewers can inspect them without first traversing the full seven-volume proof order.
+White Papers are structured explanatory artifacts.
 
-The empirical documents point into [Results]({{ '/results/' | relative_url }}) and [Verify]({{ '/verify/predictions-and-falsification/' | relative_url }}). The formal documents point into [TauLib]({{ '/verify/taulib/' | relative_url }}) and the [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}). The orientation documents point back to [Books]({{ '/publications/books/' | relative_url }}) and the [Conspectus]({{ '/publications/conspectus/' | relative_url }}).
+They clarify the framework, formalization, research infrastructure, verification architecture, methodology, or public research system. White Papers may be overview-oriented or technical.
 
-<div class="notice note"><strong>Artifact status.</strong> The listed white papers are stable PDF artifacts for inspection and citation. They summarize audit surfaces; they do not replace the canonical books, Corpus, Results, or Verify pages.</div>
+<div class="notice note"><strong>Category boundary.</strong> This White Paper category is explanatory. It clarifies framework structure, implementation, method, or verification context; it is not by itself a primary research result.</div>
 
-## Available White Papers
+## White paper types
 
-| Document | Pages | Audience | Status | Download |
-|----------|:-----:|----------|--------|----------|
-| **Falsification Pack**{: #falsification-pack} | 8 | Physicists, experimentalists | PDF available | [PDF]({{ '/assets/media/falsification-pack.pdf' | relative_url }}) |
-| **Lean Verification Report**{: #lean-verification-report} | 6 | Formal methods, mathematicians | PDF available | [PDF]({{ '/assets/media/lean-verification-report.pdf' | relative_url }}) |
-| **Reviewer's Dossier**{: #reviewers-dossier} | 4 | Journal reviewers, evaluators | PDF available | [PDF]({{ '/assets/media/reviewers-dossier.pdf' | relative_url }}) |
-| **Reader's Guide**{: #readers-guide} | 3 | All readers | PDF available | [PDF]({{ '/assets/media/readers-guide.pdf' | relative_url }}) |
-| **Series Prospectus**{: #series-prospectus} | 23 | Academics, institutions | PDF available | [PDF]({{ '/assets/media/series-prospectus.pdf' | relative_url }}) |
-| **Seminar Abstracts**{: #seminar-abstracts} | 4 | Seminar organizers | PDF available | [PDF]({{ '/assets/media/seminar-abstracts.pdf' | relative_url }}) |
-| **Category τ at a Glance**{: #category-tau-at-a-glance} | 1 | Everyone | PDF available | [PDF]({{ '/assets/media/category-tau-at-a-glance.pdf' | relative_url }}) |
+- Overview White Papers
+- Technical White Papers
+- Formalization White Papers
+- Infrastructure White Papers
+- Verification White Papers
+- Architecture White Papers
+- Methodology White Papers
+- Orientation White Papers
 
-## Inspection Map
+## Initial examples
 
-- **Empirical pressure**: start with the Falsification Pack, then continue to [Predictions & Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }}).
-- **Formal pressure**: start with the Lean Verification Report, then continue to [TauLib]({{ '/verify/taulib/' | relative_url }}) and the [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}).
-- **Editorial pressure**: start with the Reader's Guide, Reviewer's Dossier, and Series Prospectus, then continue to [Books]({{ '/publications/books/' | relative_url }}).
-
-All white papers are available as free PDF downloads.
+- [Framework Conspectus]({{ '/publications/conspectus/' | relative_url }}) - Overview White Paper.
+- TauLib Overview - Technical / Formalization White Paper, routed through [Verify]({{ '/verify/taulib/' | relative_url }}).
+- Corpus Pipeline - Infrastructure White Paper, planned.
+- Verification Stack Overview - Verification White Paper, routed through [Verify]({{ '/verify/' | relative_url }}).

@@ -8,7 +8,7 @@ summary_short: "A self-contained, single-sitting reading of the seven-book Panta
 right_rail:
   related:
   - title: Numerical Physics Ledger (209 pp companion)
-    url: /publications/numerical-physics-ledger/
+    url: /publications/monograph-supplements/numerical-physics-ledger/
   - title: The Seven Books
     url: /publications/books/
   - title: Results Overview

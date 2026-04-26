@@ -5,11 +5,11 @@ title: τ for Distribution Networks, Leakage, Pressure, and Service Continuity
 permalink: /impact/papers/distribution-networks-leakage-pressure-service-continuity/
 paper_id: companion-water-wash-paper-2
 portfolio_id: impact-water-wash
-summary_short: A companion paper on how τ could improve drinking-water distribution
+summary_short: A Public-Good Briefing on how τ could improve drinking-water distribution
   network intelligence, leakage reduction, pressure management, and service continuity.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Water Wash
     status: Conditional
     updated: April 2026
@@ -599,4 +599,4 @@ That is why distribution networks, leakage, and service continuity deserve to be
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

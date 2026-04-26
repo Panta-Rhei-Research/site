@@ -5,13 +5,13 @@ title: Tau-Grade Aviation Weather Intelligence for Mainstream Aviation
 permalink: /impact/papers/aviation-weather-intelligence/
 paper_id: companion-weather-paper-1
 portfolio_id: impact-weather
-summary_short: A companion paper showing how a law-faithful tau weather-flow twin
+summary_short: A Public-Good Briefing showing how a law-faithful tau weather-flow twin
   could unlock major public-good gains in aviation routing, ATM resilience, and network
   disruption recovery—addressing weather as the leading cause of delay across the
   US and European airspace systems.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Weather
     status: Conditional
     updated: April 2026
@@ -754,4 +754,4 @@ If τ can deliver law-faithful weather–flow intelligence for aviation, the fir
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

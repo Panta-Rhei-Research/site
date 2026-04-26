@@ -4,7 +4,7 @@ lane: impact
 title: Weather
 permalink: /impact/portfolio/weather/
 portfolio_id: impact-weather
-summary_short: A public-good deployment portfolio for making weather, climate intelligence,
+summary_short: A conditional public-good portfolio for making weather, climate intelligence,
   and disaster early warning materially better — from extreme-event forecasting and
   flood impact translation to wildfire/smoke intelligence, grid-weather coupling,
   drought planning, and climate adaptation.
@@ -219,7 +219,7 @@ Below is the operational portfolio for a τ weather/climate deployment programme
 
 ## 7. Competitive Landscape
 
-The weather intelligence market is dominated by a small number of large incumbents operating across national meteorological mandate, commercial data services, and aviation-specific analytics. Understanding where τ-grade law-faithful forecasting differentiates from these incumbents is essential for positioning the deployment portfolio.
+The weather intelligence market is dominated by a small number of large incumbents operating across national meteorological mandate, commercial data services, and aviation-specific analytics. Understanding where τ-grade law-faithful forecasting differentiates from these incumbents is essential for positioning the conditional public-good portfolio.
 
 ### 7.1 Incumbent Map
 
@@ -838,7 +838,7 @@ If τ is what it appears to be, then one of the most beautiful first consequence
 
 ---
 
-## Companion Papers (3)
+## Public-Good Briefings (3)
 
 - [Tau-Grade Aviation Weather Intelligence for Mainstream Aviation]({{ '/impact/papers/aviation-weather-intelligence/' | relative_url }})
 - [τ-Enabled Climate-Smart Aviation]({{ '/impact/papers/climate-smart-aviation-contrail-routing-decarbonization/' | relative_url }})

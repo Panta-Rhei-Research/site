@@ -5,12 +5,12 @@ title: τ for Advanced Fission Safety, Operations, Licensing, and Fleet Moderniz
 permalink: /impact/papers/advanced-fission-safety-operations-licensing-fleet-modernization/
 paper_id: companion-energy-paper-4
 portfolio_id: impact-energy
-summary_short: A companion paper on how τ could improve advanced fission safety analysis,
+summary_short: A Public-Good Briefing on how τ could improve advanced fission safety analysis,
   digital instrumentation and control modernization, licensing efficiency, and nuclear
   fleet management.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Energy
     status: Conditional
     updated: April 2026
@@ -652,4 +652,4 @@ No planning document for an unproven framework would be complete without explici
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

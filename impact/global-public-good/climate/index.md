@@ -4,7 +4,7 @@ lane: impact
 title: "Climate"
 permalink: /impact/global-public-good/climate/
 portfolio_id: impact-climate
-summary_short: "A public-good deployment portfolio for making the climate system's causal tree more legible so that mitigation, adaptation, finance, infrastructure, and international coordination can align with the true critical path of risk."
+summary_short: "A conditional public-good portfolio for making the climate system's causal tree more legible so that mitigation, adaptation, finance, infrastructure, and international coordination can align with the true critical path of risk."
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:

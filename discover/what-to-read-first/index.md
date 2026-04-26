@@ -43,7 +43,7 @@ Pick a route by goal. These are deliberately short; they are paths into the site
   </div>
   <div class="v2-tile">
     <h3>Publication-first path</h3>
-    <p><a href="{{ '/publications/books/' | relative_url }}">Books</a> -> <a href="{{ '/publications/white-papers/' | relative_url }}">White Papers</a> -> <a href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a></p>
+    <p><a href="{{ '/publications/research-monographs/' | relative_url }}">Books</a> -> <a href="{{ '/publications/white-papers/' | relative_url }}">White Papers</a> -> <a href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a></p>
   </div>
   <div class="v2-tile">
     <h3>Reviewer path</h3>

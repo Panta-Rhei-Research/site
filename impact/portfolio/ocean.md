@@ -4,7 +4,7 @@ lane: impact
 title: Ocean
 permalink: /impact/portfolio/ocean/
 portfolio_id: impact-ocean
-summary_short: A public-good deployment portfolio for using one shared ocean-state
+summary_short: A conditional public-good portfolio for using one shared ocean-state
   twin to serve trade, climate decarbonization, blue food systems, search and rescue,
   and marine stewardship simultaneously.
 time_horizon: medium
@@ -72,7 +72,7 @@ The memo then proposes:
 
 The central recommendation is:
 
-> **Treat the ocean as a single τ deployment portfolio with one shared physical twin and multiple mission layers, rather than as four isolated sectors.**
+> **Treat the ocean as a single τ conditional public-good portfolio with one shared physical twin and multiple mission layers, rather than as four isolated sectors.**
 
 That is the most efficient path to early proof, cross-domain reuse, and durable public good.
 
@@ -88,7 +88,7 @@ Instead, it asks a narrower and more operational question:
 
 > If τ provides the ocean-side capabilities claimed for it, how should those capabilities be translated into a coherent ocean deployment program?
 
-The working assumptions are the same as in the four companion papers:
+The working assumptions are the same as in the four Public-Good Briefings:
 
 - τ provides a **physically faithful** discrete ocean–atmosphere–wave–current twin;
 - this twin is **constructive, decidable, bounded-error, and coarse-grainable**;
@@ -764,7 +764,7 @@ The IMO GHG strategy and EU FuelEU Maritime create compliance obligations that f
 
 ### Immediate next actions
 
-1. **Package the four companion papers as one ocean portfolio set.**
+1. **Package the four Public-Good Briefings as one ocean portfolio set.**
 2. **Select three lighthouse pilots**: one commercial, one climate/decarbonization, one humanitarian/ecological.
 3. **Build a cross-paper benchmark board** with common operational and public-good metrics.
 4. **Prepare a two-page executive brief** for agencies and public-interest funders.
@@ -797,7 +797,7 @@ The competitive differentiation is also clear: no incumbent system closes the ca
 
 That is why the ocean should be treated not as one more application area, but as a **portfolio domain** and as a **cross-portfolio infrastructure investment**.
 
-The four companion papers together suggest a simple strategic principle:
+The four Public-Good Briefings together suggest a simple strategic principle:
 
 > **Use one ocean twin to serve trade, climate, food, rescue, and stewardship at once.**
 
@@ -850,7 +850,7 @@ Those documents contain the deeper domain-specific argumentation, benchmark idea
 
 ---
 
-## Companion Papers (4)
+## Public-Good Briefings (4)
 
 - [τ and Blue Food Systems]({{ '/impact/papers/blue-food-systems-marine-ecosystem-intelligence/' | relative_url }})
 - [τ and Climate-Smart Shipping]({{ '/impact/papers/climate-smart-shipping-decarbonization-wind-corridors/' | relative_url }})

@@ -31,7 +31,7 @@ right_rail:
 - [Corpus]({{ '/corpus/' | relative_url }}) — the public corpus and registry projection.
 - [Results]({{ '/results/' | relative_url }}) — typed answer surfaces, problem ledger, and world readouts.
 - [Verify]({{ '/verify/' | relative_url }}) — formalization, assessment protocols, predictions, and falsification paths.
-- [Publications]({{ '/publications/' | relative_url }}) — books, white papers, companion papers, Research Notes, and archived releases.
+- [Publications]({{ '/publications/' | relative_url }}) — books, white papers, Research Briefings, Research Notes, and archived releases.
 - [Impact]({{ '/impact/' | relative_url }}) — potential impact strata and global public-good portfolios.
 - [Engage]({{ '/engage/' | relative_url }}) — contact, critique, collaboration, media, and participation routes.
 

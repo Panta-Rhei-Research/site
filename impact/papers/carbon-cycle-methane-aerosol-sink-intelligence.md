@@ -5,11 +5,11 @@ title: Tau for Carbon-Cycle, Methane, Aerosol, and Sink Intelligence
 permalink: /impact/papers/carbon-cycle-methane-aerosol-sink-intelligence/
 paper_id: companion-climate-paper-2
 portfolio_id: impact-climate
-summary_short: A companion paper on climate-driver attribution, methane, aerosols,
+summary_short: A Public-Good Briefing on climate-driver attribution, methane, aerosols,
   and sink stewardship as the highest-leverage near-term element of the Climate portfolio.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Climate
     status: Conditional
     updated: April 2026
@@ -622,4 +622,4 @@ The next step is a rigorous benchmark program — described in Section 12 — th
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

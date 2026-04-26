@@ -6,12 +6,12 @@ title: Tau-Grade One Health Early Warning for Vector-Borne Disease, Zoonotic Spi
 permalink: /impact/papers/one-health-vector-zoonotic-spillover-climate-outbreaks/
 paper_id: companion-one-health-paper-1
 portfolio_id: impact-one-health
-summary_short: A companion paper showing how a law-faithful tau ecology-biology-health
+summary_short: A Public-Good Briefing showing how a law-faithful tau ecology-biology-health
   twin could provide unusually high humanitarian leverage in One Health early warning
   for vector-borne diseases, zoonotic spillover, and climate-sensitive outbreaks.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: One Health
     status: Conditional
     updated: April 2026
@@ -799,4 +799,4 @@ If the τ physics holds to the degree required for this application, the benefit
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

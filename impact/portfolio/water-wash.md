@@ -4,7 +4,7 @@ lane: impact
 title: Water/WASH
 permalink: /impact/portfolio/water-wash/
 portfolio_id: impact-water-wash
-summary_short: A public-good deployment portfolio for translating better water-system
+summary_short: A conditional public-good portfolio for translating better water-system
   physics into safer drinking water, fewer network losses, stronger sanitation and
   reuse, better basin allocation, and improved WASH continuity in the places where
   vulnerability is highest.
@@ -76,7 +76,7 @@ The memo then proposes:
 
 The central recommendation is:
 
-> **Treat water/WASH as a single τ deployment portfolio with one shared water twin and five mission layers, rather than as five isolated service products.**
+> **Treat water/WASH as a single τ conditional public-good portfolio with one shared water twin and five mission layers, rather than as five isolated service products.**
 
 That is the most efficient path to early proof, cross-domain reuse, and durable public good.
 
@@ -92,7 +92,7 @@ Instead, it asks a narrower and more operational question:
 
 > If τ provides the water-side capabilities claimed for it, how should those capabilities be translated into a coherent water/WASH deployment program?
 
-The working assumptions are the same as in the five companion papers:
+The working assumptions are the same as in the five Public-Good Briefings:
 
 - τ provides a **physically faithful** discrete water twin;
 - this twin is **constructive, decidable, bounded-error, and coarse-grainable**;
@@ -316,7 +316,7 @@ Why: the deepest structural shifts come from basin allocation, groundwater stewa
 
 ### 5.4 Recommended balanced rollout order
 
-For a balanced first-wave deployment portfolio, the recommended order is:
+For a balanced first-wave conditional public-good portfolio, the recommended order is:
 
 1. **Paper 1 — Drinking-water source, treatment, and quality early warning**
 2. **Paper 2 — Distribution networks, leakage, pressure, and service continuity**
@@ -875,7 +875,7 @@ Freshwater ecosystems are among the world's most biodiversity-rich and most thre
 
 ## 17. Recommended next actions
 
-1. Publish the five companion papers as one water/WASH cluster.
+1. Publish the five Public-Good Briefings as one water/WASH cluster.
 2. Build a shared benchmark suite across source quality, network continuity, sanitation/stormwater, basin allocation, and critical-facility continuity.
 3. Prioritize Pilot A and Pilot B first, while scoping Pilot E in parallel.
 4. Build a small set of public-good scorecards that ministries, utilities, regulators, and development actors can all understand.
@@ -954,7 +954,7 @@ The τ water/WASH portfolio is not waiting for a market to emerge. The market, t
 
 ---
 
-## Companion Papers (5)
+## Public-Good Briefings (5)
 
 - [τ for Distribution Networks, Leakage, Pressure, and Service Continuity]({{ '/impact/papers/distribution-networks-leakage-pressure-service-continuity/' | relative_url }})
 - [Tau-Grade Drinking-Water Source, Treatment, and Quality Early Warning]({{ '/impact/papers/drinking-water-source-treatment-quality-early-warning/' | relative_url }})

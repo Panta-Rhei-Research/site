@@ -5,11 +5,11 @@ title: τ-Enabled Climate-Smart Aviation
 permalink: /impact/papers/climate-smart-aviation-contrail-routing-decarbonization/
 paper_id: companion-weather-paper-2
 portfolio_id: impact-weather
-summary_short: A companion paper on how τ could enable climate-smart aviation through
+summary_short: A Public-Good Briefing on how τ could enable climate-smart aviation through
   contrail-aware routing, climate-optimal trajectories, and operational decarbonization.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Weather
     status: Conditional
     updated: April 2026

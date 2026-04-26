@@ -4,7 +4,7 @@ lane: impact
 title: Agriculture
 permalink: /impact/portfolio/agriculture/
 portfolio_id: impact-agriculture
-summary_short: A public-good deployment portfolio for translating better agro-climate-water-biology
+summary_short: A conditional public-good portfolio for translating better agro-climate-water-biology
   intelligence into lower crop loss, improved water productivity, earlier pest and
   disease warnings, stronger anticipatory action, and faster climate-resilient crop
   design.
@@ -75,7 +75,7 @@ The memo proposes:
 
 The central recommendation is:
 
-> **Treat agriculture as a single τ deployment portfolio with one shared agro–climate–water–biology twin and multiple mission layers, rather than as five isolated products.**
+> **Treat agriculture as a single τ conditional public-good portfolio with one shared agro–climate–water–biology twin and multiple mission layers, rather than as five isolated products.**
 
 That is the most efficient path to early proof, cross-domain reuse, and durable public good.
 
@@ -91,7 +91,7 @@ Instead, it asks a narrower and more operational question:
 
 > If τ provides the agriculture-side capabilities claimed for it, how should those capabilities be translated into a coherent agriculture deployment program?
 
-The working assumptions are the same as in the five companion papers:
+The working assumptions are the same as in the five Public-Good Briefings:
 
 - τ provides a **physically faithful** discrete agro–climate–water–biology twin;
 - this twin is **constructive, decidable, bounded-error, and coarse-grainable**;
@@ -479,7 +479,7 @@ Why: The deepest structural shift comes when climate and biology are linked tigh
 
 ### 9.4 Recommended balanced rollout order
 
-For a balanced first-wave deployment portfolio, the recommended order is:
+For a balanced first-wave conditional public-good portfolio, the recommended order is:
 
 1. **Paper 1 — Operational agro-weather intelligence**
 2. **Paper 2 — Climate-smart irrigation, soil moisture, and water productivity**
@@ -914,7 +914,7 @@ Under the strongest τ assumption, the opportunity is not merely "better forecas
 - planning,
 - and biology.
 
-That is why agriculture should be treated as a full deployment portfolio rather than as a single application.
+That is why agriculture should be treated as a full conditional public-good portfolio rather than as a single application.
 
 If τ can make agricultural decisions materially more trustworthy, local, bounded, and biologically informed, then this portfolio could deliver some of the most humane public-good gains in the whole framework.
 
@@ -966,7 +966,7 @@ If τ can make agricultural decisions materially more trustworthy, local, bounde
 
 ---
 
-## Companion Papers (5)
+## Public-Good Briefings (5)
 
 - [Tau for Climate-Smart Irrigation, Soil Moisture, and Water Productivity]({{ '/impact/papers/climate-smart-irrigation-soil-moisture-water-productivity/' | relative_url }})
 - [Tau for Crop Biology, Breeding, Photosynthesis Engineering, and Targeted Gene Design]({{ '/impact/papers/crop-biology-breeding-photosynthesis-gene-design/' | relative_url }})

@@ -6,12 +6,12 @@ title: Tau for Climate Policy Optimization, Investment Prioritization, and Inter
 permalink: /impact/papers/climate-policy-optimization-investment-prioritization-international-coordination/
 paper_id: companion-climate-paper-5
 portfolio_id: impact-climate
-summary_short: A companion paper showing how a causally legible tau climate twin could
+summary_short: A Public-Good Briefing showing how a causally legible tau climate twin could
   improve national policy design, investment sequencing, and international coordination—turning
   climate governance from negotiation-driven toward evidence-disciplined implementation.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Climate
     status: Conditional
     updated: April 2026
@@ -480,4 +480,4 @@ If that capability is real, then this paper's domain may become one of the most 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

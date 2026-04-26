@@ -61,7 +61,7 @@ related:
     - "result-113"
   verify:
     - "/verify/predictions-and-falsification/"
-    - "/publications/numerical-physics-ledger/"
+    - "/publications/monograph-supplements/numerical-physics-ledger/"
     - "/verify/domain-verification/physics/"
   publications: []
   world_readout:

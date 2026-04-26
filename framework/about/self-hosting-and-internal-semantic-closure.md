@@ -54,7 +54,7 @@ This does not mean that all possible meta-language disappears or that the framew
 
 This matters because many systems are formally interesting but ontologically weak. They can describe. They can encode. They can model. But they cannot convincingly bear the weight of their own semantics from within. The Tau framework is presented as unusual precisely because it aims to push further: not only toward formal richness, but toward internal semantic self-sufficiency.
 
-[The books]({{ '/publications/books/' | relative_url }}) argue this at length and under strong constraint. The site cannot reproduce that proof path in short form. But it can make clear why this move matters so much. If the framework truly reaches this degree of self-hosting, then it is no longer just a helpful instrument. It becomes a serious candidate for a formally self-standing structure.
+[The books]({{ '/publications/research-monographs/' | relative_url }}) argue this at length and under strong constraint. The site cannot reproduce that proof path in short form. But it can make clear why this move matters so much. If the framework truly reaches this degree of self-hosting, then it is no longer just a helpful instrument. It becomes a serious candidate for a formally self-standing structure.
 
 That claim is one of the central reasons the program later takes such a strong [ontic stance]({{ '/framework/about/ontic-seriousness-and-the-question-of-existence/' | relative_url }}) toward the framework itself.
 

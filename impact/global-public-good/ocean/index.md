@@ -4,7 +4,7 @@ lane: impact
 title: "Ocean"
 permalink: /impact/global-public-good/ocean/
 portfolio_id: impact-ocean
-summary_short: "A public-good deployment portfolio for using one shared ocean-state twin to serve trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
+summary_short: "A conditional public-good portfolio for using one shared ocean-state twin to serve trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:

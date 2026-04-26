@@ -5,12 +5,12 @@ title: Tau for Pest, Disease, and Livestock-Stress Early Warning
 permalink: /impact/papers/pest-disease-livestock-stress-early-warning/
 paper_id: companion-agriculture-paper-3
 portfolio_id: impact-agriculture
-summary_short: A companion paper showing how a law-faithful tau weather-pathogen-vector-host
+summary_short: A Public-Good Briefing showing how a law-faithful tau weather-pathogen-vector-host
   twin could sharpen plant-health, animal-disease, and livestock heat-stress early
   warning across the full agricultural biosecurity stack.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Agriculture
     status: Conditional
     updated: April 2026
@@ -625,4 +625,4 @@ If the τ assumptions hold well enough to matter operationally, this paper ident
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

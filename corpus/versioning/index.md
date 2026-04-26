@@ -36,7 +36,7 @@ Errata, changelog entries, release manifests, and registry snapshots together de
 ## Snapshot model
 
 <div class="v2-system-strip" aria-label="Corpus versioning model">
-  <a href="{{ '/publications/books/' | relative_url }}">Book release</a>
+  <a href="{{ '/publications/research-monographs/' | relative_url }}">Book release</a>
   <span>-></span>
   <a href="{{ '/corpus/registry/' | relative_url }}">Registry state</a>
   <span>-></span>

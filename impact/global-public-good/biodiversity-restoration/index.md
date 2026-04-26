@@ -4,7 +4,7 @@ lane: impact
 title: "Biodiversity / Restoration"
 permalink: /impact/global-public-good/biodiversity-restoration/
 portfolio_id: impact-biodiversity-restoration
-summary_short: "A public-good deployment portfolio for translating better coupled ecological intelligence into stronger restoration targeting, functional connectivity, blue-green habitat resilience, earlier stress warnings, and more accountable biodiversity finance."
+summary_short: "A conditional public-good portfolio for translating better coupled ecological intelligence into stronger restoration targeting, functional connectivity, blue-green habitat resilience, earlier stress warnings, and more accountable biodiversity finance."
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:

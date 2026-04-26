@@ -33,8 +33,14 @@ const CACHE_POLICIES = [
 ];
 
 const PERMANENT_REDIRECTS = new Map([
-  ["/publications/physics-ledger", "/publications/numerical-physics-ledger/"],
-  ["/publications/physics-ledger/", "/publications/numerical-physics-ledger/"]
+  ["/publications/physics-ledger", "/publications/monograph-supplements/numerical-physics-ledger/"],
+  ["/publications/physics-ledger/", "/publications/monograph-supplements/numerical-physics-ledger/"],
+  ["/publications/numerical-physics-ledger", "/publications/monograph-supplements/numerical-physics-ledger/"],
+  ["/publications/numerical-physics-ledger/", "/publications/monograph-supplements/numerical-physics-ledger/"],
+  ["/publications/categorical-genesis", "/publications/monograph-supplements/categorical-genesis/"],
+  ["/publications/categorical-genesis/", "/publications/monograph-supplements/categorical-genesis/"],
+  ["/publications/companion-papers", "/publications/research-briefings/public-good/"],
+  ["/publications/companion-papers/", "/publications/research-briefings/public-good/"]
 ]);
 
 function isHtmlRequest(url, response) {

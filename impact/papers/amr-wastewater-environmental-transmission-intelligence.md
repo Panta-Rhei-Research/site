@@ -6,13 +6,13 @@ title: Tau for AMR, Wastewater/Environmental Surveillance, and Environmental Tra
 permalink: /impact/papers/amr-wastewater-environmental-transmission-intelligence/
 paper_id: companion-one-health-paper-3
 portfolio_id: impact-one-health
-summary_short: A companion paper showing how a law-faithful tau health-environment
+summary_short: A Public-Good Briefing showing how a law-faithful tau health-environment
   twin could provide unusually high public-good leverage in AMR surveillance, wastewater
   and environmental transmission intelligence, and One Health environmental pathway
   attribution.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: One Health
     status: Conditional
     updated: April 2026
@@ -711,4 +711,4 @@ For a technology platform that performs as τ claims, AMR, wastewater surveillan
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

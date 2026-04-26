@@ -33,7 +33,7 @@ right_rail:
 
 ## What Research Notes are
 
-Research Notes are the program's dated scholarly publication channel for substantial public-facing research writing. They publish responses to anchor papers, observational pre-registrations, verification explainers, framework-based reinterpretations of recent results, and bridge texts that may later become white papers or companion papers.
+Research Notes are the program's dated scholarly publication channel for substantial public-facing research writing. They publish responses to anchor papers, observational pre-registrations, verification explainers, framework-based reinterpretations of recent results, and bridge texts that may later become white papers or Public-Good Briefings.
 
 Research Notes are not informal commentary, promotional updates, or a [changelog]({{ '/changelog/' | relative_url }}). They are dated, article-like texts written for readers who want to follow the program's thinking as it develops.
 

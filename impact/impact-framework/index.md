@@ -1,26 +1,22 @@
 ---
-layout: program-doc
+layout: "program-doc"
 title: "Impact Framework"
-lane: impact
-permalink: /impact/impact-framework/
+permalink: "/impact/impact-framework/"
+lane: "impact"
 type: "Impact Framework"
 status: "Conditional"
-summary_short: "The shared logic by which surviving results become conditional consequences."
-summary_cards:
-  - title: "No automatic impact"
-    body: "A result does not produce a real-world consequence by itself; it must survive scrutiny and pass through a domain translation layer."
-  - title: "Traceable"
-    body: "Every impact claim should point back to Results, Verify, assumptions, and uptake conditions."
-  - title: "Non-hype"
-    body: "Impact pages name possibilities without presenting them as promises."
+summary_short: "The shared logic by which surviving Results become conditional consequences."
 right_rail:
   related:
-    - title: "Results"
-      url: /results/
-    - title: "Verify"
-      url: /verify/
-    - title: "Companion Papers"
-      url: /publications/companion-papers/
+    -
+      title: "Results"
+      url: "/results/"
+    -
+      title: "Verify"
+      url: "/verify/"
+    -
+      title: "Public-Good Briefings"
+      url: "/publications/research-briefings/public-good/"
   meta:
     type: "Framework"
     scope: "Impact lane"
@@ -28,39 +24,45 @@ right_rail:
     updated: "April 2026"
 ---
 
-## Core Idea
+## Core idea
 
 A result does not automatically produce impact. Impact requires a chain:
 
 <div class="v2-system-row" aria-label="Impact framework pipeline">
-  <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Result</strong>Named claim or problem resolution.</a>
+  <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Result</strong>Named claim, status, or problem response.</a>
   <span class="v2-system-arrow">→</span>
-  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification Survival</strong>Formal, empirical, and review pressure.</a>
+  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification survival</strong>Formal, empirical, bridge, and review pressure.</a>
   <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Translation Layer</strong>Domain-specific assumptions and model choices.</span>
+  <span class="v2-system-node"><strong>Translation layer</strong>Domain-specific assumptions and model choices.</span>
   <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Domain Uptake</strong>Institutions, tools, data, governance, and practice.</span>
+  <span class="v2-system-node"><strong>Domain uptake</strong>Institutions, tools, data, governance, and practice.</span>
   <span class="v2-system-arrow">→</span>
   <span class="v2-system-node"><strong>Consequence</strong>What could change if the chain holds.</span>
 </div>
 
-## Shared Principles
+## Impact status legend
 
-- **Conditionality**: no impact claim is stronger than the results and assumptions underneath it.
-- **Traceability**: each consequence should point back to Results, Verify, and publication artifacts.
-- **Explicit assumptions**: domain translation is named, not hidden.
-- **Public-good seriousness**: value is framed in terms of knowledge, resilience, health, education, coherence, and public benefit.
-- **Domain specificity**: climate, education, metaphysics, and formal science do not share the same uptake conditions.
-- **Non-triumphalism**: the lane maps what could follow; it does not announce what must follow.
+- **Conditional** — consequence depends on upstream Results, Verify, translation, and uptake.
+- **Scenario map** — a structured possibility, not a deployment plan.
+- **Translation pending** — domain-specific model, data, or implementation pathway remains open.
+- **Domain review pending** — external experts have not yet assessed the pathway.
+- **Deployment not claimed** — no real-world adoption or implementation is being asserted.
 
-## What This Page Governs
+## Translation requirements
+
+Impact requires translation.
+
+A surviving framework result is not yet an applied consequence. Translation requires domain-specific data, independent expert review, model-building, implementation partners where relevant, comparison against existing methods, and explicit limits.
+
+## What this page governs
 
 This framework applies across all Impact strata: [Foundational Science]({{ '/impact/foundational-science/' | relative_url }}), [Applied Science & Research]({{ '/impact/applied-science-and-research/' | relative_url }}), [Global Education]({{ '/impact/global-education/' | relative_url }}), [Existential Orientation]({{ '/impact/existential-orientation/' | relative_url }}), [Societal Coherence]({{ '/impact/societal-coherence/' | relative_url }}), and [Global Public Good]({{ '/impact/global-public-good/' | relative_url }}).
 
-## Reader Test
+## Reader test
 
-When reading any impact page, ask three questions:
+When reading any impact page, ask four questions:
 
 - What exactly must hold?
 - Which verification surfaces would weaken or strengthen the claim?
 - What translation layer connects the framework to this domain?
+- What domain uptake would still be required before the consequence becomes real?

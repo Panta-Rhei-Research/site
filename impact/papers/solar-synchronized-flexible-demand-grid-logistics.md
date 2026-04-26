@@ -5,12 +5,12 @@ title: τ for Solar-Synchronized Flexible Demand and Grid Logistics
 permalink: /impact/papers/solar-synchronized-flexible-demand-grid-logistics/
 paper_id: companion-solar-paper-5
 portfolio_id: impact-solar
-summary_short: A companion paper on how τ could enable solar-synchronized flexible
+summary_short: A Public-Good Briefing on how τ could enable solar-synchronized flexible
   demand across buildings, EVs, hydrogen electrolysis, data centers, water systems,
   refrigeration, and industrial loads.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Solar
     status: Conditional
     updated: April 2026
@@ -781,4 +781,4 @@ The question is not whether solar-synchronized flexible demand is valuable. The 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

@@ -5,12 +5,12 @@ title: τ for Distributed PV Visibility and Distribution-Grid Orchestration
 permalink: /impact/papers/distributed-pv-visibility-distribution-grid-orchestration/
 paper_id: companion-solar-paper-2
 portfolio_id: impact-solar
-summary_short: A companion paper on how τ could improve distributed PV visibility,
+summary_short: A Public-Good Briefing on how τ could improve distributed PV visibility,
   feeder state estimation, hosting capacity, and distribution-grid orchestration for
   high-penetration solar.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Solar
     status: Conditional
     updated: April 2026
@@ -583,4 +583,4 @@ That would matter for utilities, regulators, rooftop customers, community-solar 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

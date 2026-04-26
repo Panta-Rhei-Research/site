@@ -56,7 +56,7 @@ The roadmap is therefore not only about adding more material. It is about making
   </div>
   <div class="v2-tile">
     <strong>Publication pipeline</strong>
-    <span>Prepare companion papers, research notes, errata, and guided tours as durable open-access artifacts.</span>
+    <span>Prepare Research Briefings, research notes, errata, and guided tours as durable open-access artifacts.</span>
   </div>
   <div class="v2-tile">
     <strong>Review surfaces</strong>

@@ -5,13 +5,13 @@ title: Tau-Grade Solar Forecasting for Bulk-Grid Operations and Market Dispatch
 permalink: /impact/papers/bulk-grid-solar-forecasting/
 paper_id: companion-solar-paper-1
 portfolio_id: impact-solar
-summary_short: A companion paper showing how a law-faithful tau atmosphere-irradiance-PV-grid
+summary_short: A Public-Good Briefing showing how a law-faithful tau atmosphere-irradiance-PV-grid
   twin could unlock major public-good gains in utility-scale solar forecasting, reserve
   sizing, dispatch, and curtailment—at a scale where solar now produces 7% of world
   electricity.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Solar
     status: Conditional
     updated: April 2026
@@ -504,4 +504,4 @@ If that is true, then one of the most practical public-good consequences of the 
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

@@ -4,7 +4,7 @@ lane: impact
 title: Biodiversity/Restoration
 permalink: /impact/portfolio/biodiversity-restoration/
 portfolio_id: impact-biodiversity-restoration
-summary_short: A public-good deployment portfolio for translating better coupled ecological
+summary_short: A conditional public-good portfolio for translating better coupled ecological
   intelligence into stronger restoration targeting, functional connectivity, blue-green
   habitat resilience, earlier stress warnings, and more accountable biodiversity finance.
 time_horizon: medium
@@ -657,7 +657,7 @@ That would be a major public good — and a fitting completion of the broader τ
 
 ---
 
-## Companion Papers (1)
+## Public-Good Briefings (1)
 
 - [τ for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization]({{ '/impact/papers/biodiversity-finance-monitoring-restoration-verification/' | relative_url }})
 

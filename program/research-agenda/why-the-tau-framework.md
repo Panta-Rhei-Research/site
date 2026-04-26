@@ -78,7 +78,7 @@ Tau is not publicly available only as abstract formalism.
 
 Its current public surfaces are:
 
-- the [**books**]({{ '/publications/books/' | relative_url }}), which provide the canonical narrative and argumentative release
+- the [**books**]({{ '/publications/research-monographs/' | relative_url }}), which provide the canonical narrative and argumentative release
 - [**TauLib**]({{ '/verify/taulib/' | relative_url }}), which exposes the formal layer in Lean 4
 - this **website**, which provides navigable and inspectable access to the architecture
 - [guided tours]({{ '/publications/guided-tours/' | relative_url }}) and verification companions, which lower the threshold for entry into the structure

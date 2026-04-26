@@ -179,7 +179,7 @@ def main() -> int:
         )
 
     require("/publications/physics-ledger/", "Numerical Physics Ledger")
-    require("/publications/numerical-physics-ledger/", "Status and scope")
+    require("/publications/monograph-supplements/numerical-physics-ledger/", "Status and scope")
 
     print("v2.2 Batch 1 P2 polish assertions passed.")
     return 0

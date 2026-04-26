@@ -42,7 +42,7 @@ But what it claims here is stronger and stranger.
 
 The argument is not merely that the framework contains a mathematical model which can be used to imitate some physical behavior. The argument is that once the enriched layer \(E_1\) has been fully constructed, it becomes possible to define internal invariants and sector structures whose theorem-shape and calibrated readouts are proposed to be structurally isomorphic to physical law and observation.
 
-This is why [Books IV–V]({{ '/publications/books/' | relative_url }}) are the physics hinge. They are the books in which the framework first becomes physically legible through the microcosm (IV) and macrocosm (V) readouts.
+This is why [Books IV–V]({{ '/publications/research-monographs/' | relative_url }}) are the physics hinge. They are the books in which the framework first becomes physically legible through the microcosm (IV) and macrocosm (V) readouts.
 
 What matters here is not only that \(E_1\) exists. What matters is that it exists as a fully specified internal layer. The claim is not that "somewhere in a large possibility field, physics may be hidden." The claim is that the whole \(E_1\) layer, as structured, admits a physical reading.
 

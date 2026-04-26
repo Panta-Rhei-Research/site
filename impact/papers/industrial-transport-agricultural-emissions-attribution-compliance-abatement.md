@@ -6,13 +6,13 @@ title: Tau for Industrial, Transport, and Agricultural Emissions Attribution, Co
 permalink: /impact/papers/industrial-transport-agricultural-emissions-attribution-compliance-abatement/
 paper_id: companion-pollution-circularity-paper-2
 portfolio_id: impact-pollution-circularity
-summary_short: A companion paper showing how a law-faithful tau source-resolved emissions
+summary_short: A Public-Good Briefing showing how a law-faithful tau source-resolved emissions
   twin could unlock major public-good gains in stack and corridor attribution, compliance
   intelligence, and high-return abatement targeting across industry, transport, shipping,
   and agriculture.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Pollution Circularity
     status: Conditional
     updated: April 2026
@@ -79,7 +79,7 @@ This paper is the source attribution and targeted abatement layer in the five-pa
 
 ### 2.2 What This Paper Does Not Cover
 
-By design, this paper defers to companion papers for:
+By design, this paper defers to Public-Good Briefings for:
 
 - **Paper 1 (Clean-Air Digital Twins)**: urban hyperlocal exposure mapping and PM2.5/ozone health protection at neighborhood scale.
 - **Paper 3 (Toxic Pathways)**: PFAS, heavy metals, lead, and multi-medium water-soil-air contamination corridors.
@@ -708,4 +708,4 @@ The right framing for this opportunity is not "yet another emissions inventory."
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

@@ -6,12 +6,12 @@ title: τ for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER → D
 permalink: /impact/papers/fusion-digital-twins-plasma-control-heat-exhaust-iter-demo/
 paper_id: companion-energy-paper-3
 portfolio_id: impact-energy
-summary_short: A companion paper on how τ could advance fusion energy through plasma-physics
+summary_short: A Public-Good Briefing on how τ could advance fusion energy through plasma-physics
   digital twins, improved plasma control, heat-exhaust management, and the ITER-to-DEMO-to-commercialization
   pathway.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Energy
     status: Conditional
     updated: April 2026
@@ -758,4 +758,4 @@ The question for planners and funders is not whether that is a valuable public g
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

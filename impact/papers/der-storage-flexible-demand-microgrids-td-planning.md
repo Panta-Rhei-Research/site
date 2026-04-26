@@ -5,13 +5,13 @@ title: Tau for DER Orchestration, Storage, Flexible Demand, Microgrids, and T&D 
 permalink: /impact/papers/der-storage-flexible-demand-microgrids-td-planning/
 paper_id: companion-energy-paper-2
 portfolio_id: impact-energy
-summary_short: A companion paper showing how a law-faithful tau edge-to-bulk twin
+summary_short: A Public-Good Briefing showing how a law-faithful tau edge-to-bulk twin
   could unlock major public-good gains in DER orchestration, virtual power plants,
   dynamic hosting capacity, resilience islands, and integrated distribution/transmission
   planning.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Energy
     status: Conditional
     updated: April 2026
@@ -702,4 +702,4 @@ It is a public-good opportunity — one of the most direct connections between a
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

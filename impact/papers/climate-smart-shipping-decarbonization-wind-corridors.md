@@ -5,12 +5,12 @@ title: τ and Climate-Smart Shipping
 permalink: /impact/papers/climate-smart-shipping-decarbonization-wind-corridors/
 paper_id: companion-ocean-paper-2
 portfolio_id: impact-ocean
-summary_short: A companion paper on how τ could accelerate shipping decarbonization
+summary_short: A Public-Good Briefing on how τ could accelerate shipping decarbonization
   through climate-smart routing, wind-assisted propulsion optimization, and wind-powered
   cargo corridor development.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Ocean
     status: Conditional
     updated: April 2026
@@ -808,4 +808,4 @@ The central claim of this paper is not that τ solves maritime decarbonization. 
 
 *This dossier is Paper 2 of 4 in the Panta Rhei Impact Ocean Portfolio. It is an assumption-led planning document and does not constitute a regulatory, financial, or scientific certification of the τ framework. All quantitative scenarios are planning inferences conditional on the stated τ assumptions. The dossier does not represent the views of IMO, EMSA, DNV, Bureau Veritas, or any named institution.*
 
-*Companion Papers: Paper 1 — Mainstream Maritime Logistics and Ports; Paper 3 — Blue Food Systems and Marine Ecosystem Intelligence; Paper 4 — Ocean Stewardship, Cleanup, and Marine Emergency Response.*
+*Public-Good Briefings: Paper 1 — Mainstream Maritime Logistics and Ports; Paper 3 — Blue Food Systems and Marine Ecosystem Intelligence; Paper 4 — Ocean Stewardship, Cleanup, and Marine Emergency Response.*

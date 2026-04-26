@@ -35,7 +35,7 @@ right_rail:
 Formal verification in this program has multiple levels. They must not be collapsed into one confidence label.
 
 <div class="v2-system-strip" aria-label="Formal verification stack">
-  <a class="v2-system-node" href="{{ '/publications/books/' | relative_url }}">Publications</a>
+  <a class="v2-system-node" href="{{ '/publications/research-monographs/' | relative_url }}">Publications</a>
   <a class="v2-system-node" href="{{ '/corpus/registry/' | relative_url }}">Corpus Registry</a>
   <a class="v2-system-node" href="{{ '/verify/taulib/' | relative_url }}">TauLib</a>
   <a class="v2-system-node" href="{{ '/verify/release-manifest/' | relative_url }}">Release Manifest</a>

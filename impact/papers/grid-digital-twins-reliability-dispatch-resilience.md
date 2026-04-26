@@ -5,12 +5,12 @@ title: Tau-Grade Grid Digital Twins, Reliability, Dispatch, and Resilience
 permalink: /impact/papers/grid-digital-twins-reliability-dispatch-resilience/
 paper_id: companion-energy-paper-1
 portfolio_id: impact-energy
-summary_short: A companion paper showing how a law-faithful tau grid twin could improve
+summary_short: A Public-Good Briefing showing how a law-faithful tau grid twin could improve
   bulk-power reliability, weather-aware dispatch, cascading-failure prevention, and
   restoration—addressing USD 121 billion in annual US major outage costs.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Energy
     status: Conditional
     updated: April 2026
@@ -378,4 +378,4 @@ No claim in this paper should be interpreted as asserting that τ has already be
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*

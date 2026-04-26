@@ -5,11 +5,11 @@ title: τ for PV Asset Protection, Storm-Hardening, and Long-Term System Plannin
 permalink: /impact/papers/pv-asset-protection-storm-hardening-long-term-planning/
 paper_id: companion-solar-paper-4
 portfolio_id: impact-solar
-summary_short: A companion paper on how τ could improve PV asset protection, storm-hardening
+summary_short: A Public-Good Briefing on how τ could improve PV asset protection, storm-hardening
   design, and long-term solar system planning under climate hazard uncertainty.
 right_rail:
   meta:
-    type: Companion Paper
+    type: Public-Good Briefing
     portfolio: Solar
     status: Conditional
     updated: April 2026
@@ -555,4 +555,4 @@ That is exactly the kind of quiet systemic improvement — harder to headline th
 
 ---
 
-*Source: Full manuscript text integrated from companion paper draft.*
+*Source: Full manuscript text integrated from Public-Good Briefing draft.*
