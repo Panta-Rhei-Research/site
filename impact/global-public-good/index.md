@@ -39,6 +39,20 @@ No portfolio on this page claims real-world adoption, policy implementation, ext
 
 The portfolio pages organize public-good domains. [Public-Good Briefings]({{ '/publications/research-briefings/public-good/' | relative_url }}) are the publication artifacts attached to those domains.
 
+## Reading discipline
+
+Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): Result → Verification survival → Translation layer → Domain uptake → Consequence.
+
+If any upstream link weakens, the public-good claim weakens with it.
+
+## What this does not mean
+
+This page does not claim adoption, deployment, policy implementation, external validation, operational readiness, or public-good delivery. It does not turn a portfolio into a program plan, institutional commitment, validated intervention, or field-ready proposal.
+
+## Boundary condition
+
+Public-good consequence remains conditional until upstream Results hold, verification surfaces survive scrutiny, translation assumptions are tested, domain review is possible, and domain uptake can actually occur.
+
 ## Portfolio Index
 
 <div class="portfolio-grid">
@@ -50,9 +64,3 @@ The portfolio pages organize public-good domains. [Public-Good Briefings]({{ '/p
   </a>
 {% endfor %}
 </div>
-
-## Reading Discipline
-
-Read every portfolio through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): Result → Verification survival → Translation layer → Domain uptake → Consequence.
-
-If any upstream link weakens, the public-good claim weakens with it.
