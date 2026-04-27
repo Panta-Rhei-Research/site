@@ -96,7 +96,7 @@ Panta Rhei is currently:
 
 - **[About the Program]({{ '/program/about/' | relative_url }})** gives the identity, stewardship, current public status, founders' statement, and scrutiny posture of the research object.
 - **[Research Agenda]({{ '/program/research-agenda/' | relative_url }})** states the burden of proof: Problem Ledger, Recovery Requirements, Kernel/Model/Reality, and Construction Roadmap.
-- **[Corpus]({{ '/corpus/' | relative_url }})** shows how the structure is built through the Construction Spine, Registry, TauLib projection, books, and dependency graph.
+- **[Corpus]({{ '/corpus/' | relative_url }})** shows how the structure is built through the Construction Spine, Registry, TauLib projection, Research Monographs, and dependency graph.
 - **[Results]({{ '/results/' | relative_url }})** reports current program stances, landmark results, world readouts, Problem Ledger Answers, Recovery Target Status, Additional Derived Results, and Progress Against Agenda.
 - **[Verify]({{ '/verify/' | relative_url }})** explains how obligations, construction steps, and results can be checked, challenged, formalized, bridged, or falsified.
 - **[Publications]({{ '/publications/' | relative_url }})** provides stable artifacts: Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, and Release Artifacts.
