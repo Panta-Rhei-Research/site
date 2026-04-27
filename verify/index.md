@@ -7,9 +7,9 @@ permalink: /verify/
 type: "Lane Root"
 status: "Canonical"
 summary_short: "How to inspect, verify, and challenge the claims of the Panta Rhei Research Program — what can be checked, and what verification does not settle."
-og_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
-twitter_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
-og_image_alt: "Scientific plate showing the Panta Rhei accountability chain from Research Agenda to Corpus to Results to Verify."
+og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
 hero_ctas:
   - label: "Scientific Rigor"
     url: /verify/scientific-rigor/
@@ -80,12 +80,22 @@ Verification in this program is not one thing. It includes research-form legitim
 
 **Metrics context:** [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) · [Filter Rules]({{ '/verify/filter-rules/' | relative_url }}) · [Custom Axiom Inventory]({{ '/verify/custom-axioms/' | relative_url }}) · [TCB Disclosure]({{ '/verify/tcb/' | relative_url }})
 
-## Follow the chain before checking the claim
+<p class="eyebrow">The inspection layer at a glance</p>
 
-{% capture verify_plate_02_caption %}Verification begins before a claim is checked: the obligation must be visible, the construction must be traceable, and the result must have an inspection route.{% endcapture %}
-{% include scientific-plate.html id="plate-02-from-obligation-to-inspection" class="scientific-plate--spine" caption=verify_plate_02_caption loading="lazy" %}
+## The Verification Matrix
 
-Verification begins with traceability: what obligation is being answered, what construction supports it, what result follows, and how can it be challenged?
+{% include scientific-plate.html id="plate-06-verification-matrix" class="scientific-plate--verification-matrix" loading="lazy" %}
+
+Verification is not a single operation. It begins with traceability: what obligation is being answered, what construction supports it, what result follows, and how can it be challenged?
+
+Formal checking is essential, but it is not empirical truth.
+
+<div class="btn-group section-ctas">
+  <a class="btn-secondary" href="{{ '/verify/construction-spine-verification/' | relative_url }}">Verify the Construction Spine</a>
+  <a class="btn-ghost" href="{{ '/verify/taulib/' | relative_url }}">Inspect TauLib</a>
+  <a class="btn-ghost" href="{{ '/verify/release-manifest/' | relative_url }}">Read the Release Manifest</a>
+  <a class="btn-ghost" href="{{ '/verify/predictions-and-falsification/' | relative_url }}">Open Predictions & Falsification</a>
+</div>
 
 <div class="v2-system-strip" aria-label="Verify lane model">
   <a href="{{ '/verify/scientific-rigor/' | relative_url }}">Scientific Rigor</a>

@@ -31,8 +31,6 @@
   pages:
     - /program/research-agenda/
     - /discover/
-    - /results/
-    - /verify/
   caption: >
     Panta Rhei asks to be read through a public chain of accountability:
     Research Agenda states the obligations, Corpus carries the construction,
@@ -74,7 +72,6 @@
     - /corpus/
     - /corpus/construction-spine/
     - /program/research-agenda/construction-roadmap/
-    - /verify/construction-spine-verification/
   caption: >
     The Construction Spine is the Corpus-side build narrative: ten canonical
     steps from kernel definition through mathematics, physics, life, reflective
@@ -105,3 +102,29 @@
     Scientific plate titled The Results World Readout, showing Results at the center
     with six surrounding result surfaces, four world readouts for mathematics, physics,
     life, and metaphysics, a status legend, and a route from results to inspection.
+- id: plate-06-verification-matrix
+  title: The Verification Matrix
+  status: published
+  image: /assets/images/plates/plate-06-verification-matrix-hero.webp
+  hero_jpg: /assets/images/plates/plate-06-verification-matrix-hero.jpg
+  master: /assets/images/plates/plate-06-verification-matrix-master.jpg
+  thumbnail: /assets/images/plates/plate-06-verification-matrix-thumb.webp
+  og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+  pages:
+    - /verify/
+    - /verify/construction-spine-verification/
+    - /verify/taulib/
+    - /verify/release-manifest/
+    - /verify/predictions-and-falsification/
+    - /verify/how-to-verify/
+    - /verify/assessment-protocols/
+  caption: >
+    Verification is not a single operation. The Verify lane makes obligations,
+    construction steps, and results inspectable through research-form checks,
+    construction-step verification, formal proof checking, bridge adequacy,
+    predictions and falsification, and external assessment.
+  alt: >
+    Scientific plate titled The Verification Matrix, showing obligations,
+    construction steps, and results flowing into Verify, with six verification
+    layers, operational surfaces such as TauLib and Release Manifest, a verification
+    status legend, and the caveat that formal checking is not empirical truth.

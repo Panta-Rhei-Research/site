@@ -4,6 +4,9 @@ title: "Release Manifest"
 permalink: /verify/release-manifest/
 lane: verify
 summary_short: "Single authoritative snapshot of the current release — pinned TauLib commit, Lean/Mathlib versions, per-book formalization state, and an honest reconciliation of counts across the three public-facing surfaces (registry, dashboards, TauLib docs)."
+og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
 right_rail:
   related:
   - title: TauLib Overview
@@ -21,6 +24,13 @@ right_rail:
 ---
 
 This page is the **single authoritative snapshot** of the current release. Everything that is pinned, every count that is claimed, every known drift between surfaces is stated here in one view. If the registry, the per-book dashboards, and the TauLib docs appear to disagree on a number, this page explains why and which number is load-bearing for which purpose.
+
+## Release state and trusted base
+
+{% capture release_manifest_plate_caption %}The Release Manifest anchors the formalization surface inside the broader verification matrix: formal artifacts, filters, axioms, trusted base, and inspection boundaries.{% endcapture %}
+{% include scientific-plate.html id="plate-06-verification-matrix" variant="thumb" class="scientific-plate--compact" caption=release_manifest_plate_caption loading="lazy" %}
+
+The Release Manifest records the release state, trusted base, custom axioms, filters, and formalization boundaries. It tells a reviewer exactly which formal surface is being inspected.
 
 ## Release identity
 

@@ -4,6 +4,9 @@ title: "TauLib"
 permalink: /verify/taulib/
 lane: verify
 summary_short: "The Lean 4 formalization library for Category τ — 445 modules, 127,440 lines, 0 sorry across all 7 books of TauLib Lean source (scope tiered — see filter rules)."
+og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
 summary_cards:
 - title: "445 modules"
   body: "Across 7 books, covering kernel axioms through metaphysical boundary theorems."
@@ -64,7 +67,10 @@ Lean compilation verifies **internal consistency**: every theorem follows from t
 
 **What Lean does not check**: Whether the framework's physical predictions match experiment. That requires empirical testing.
 
-## TauLib in the v2.1 Verification Matrix
+## TauLib inside the verification matrix
+
+{% capture taulib_plate_caption %}TauLib is one formalization surface inside the broader verification matrix. Lean compilation checks formalized obligations; it does not by itself establish empirical truth.{% endcapture %}
+{% include scientific-plate.html id="plate-06-verification-matrix" variant="thumb" class="scientific-plate--compact" caption=taulib_plate_caption loading="lazy" %}
 
 TauLib verifies formal proof obligations where they have been formalized. It does not by itself verify empirical claims, bridge adequacy, semantic correspondence, life recovery, metaphysical interpretation, or external acceptance.
 

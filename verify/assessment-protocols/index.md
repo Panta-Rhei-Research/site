@@ -8,6 +8,9 @@ type: "Verification Surface"
 verify_type: assessment_protocol
 status: "Canonical"
 summary_short: "Structured pathways for holding the program accountable to its stated standards."
+og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
 summary_cards:
   - title: "Manual protocols"
     body: "Human-readable review procedures for inspecting the program."
@@ -34,6 +37,13 @@ right_rail:
 ## What These Protocols Do
 
 These protocols are designed for reviewers, readers, and external evaluators. They provide explicit checklists and prompts for structured scrutiny.
+
+## Assessment inside the verification matrix
+
+{% capture assessment_plate_caption %}Assessment Protocols are external-review routes inside the broader verification matrix. They help structure scrutiny, but they do not replace proof, empirical testing, or peer review.{% endcapture %}
+{% include scientific-plate.html id="plate-06-verification-matrix" variant="thumb" class="scientific-plate--compact" caption=assessment_plate_caption loading="lazy" %}
+
+Assessment begins after the relevant obligation, construction step, result, and verification mode have been identified.
 
 <div class="v2-grid">
   <a class="v2-tile" href="{{ '/verify/assessment-protocols/manual/' | relative_url }}">

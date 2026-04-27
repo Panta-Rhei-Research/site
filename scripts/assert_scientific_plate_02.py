@@ -118,11 +118,6 @@ def main() -> int:
             "The core reading chain of the site: obligations are stated before construction, construction supports results, and results remain open to inspection.",
             "Use this chain to read the site: obligations first, construction second, consequences third, inspection always.",
         ],
-        "/verify/": [
-            "Follow the chain before checking the claim",
-            "Verification begins before a claim is checked: the obligation must be visible, the construction must be traceable, and the result must have an inspection route.",
-            "Verification begins with traceability",
-        ],
     }
 
     for route, required_text in targets.items():
@@ -131,34 +126,19 @@ def main() -> int:
         for needle in required_text:
             require(needle in parser.visible, f"{route} missing expected text: {needle}")
 
-    for route in ["/verify/"]:
-        _, parser = read_page(site, route)
-        require(
-            meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{PLATE_02_OG}",
-            f"{route} missing Plate 02 og:image",
-        )
-        require(
-            meta_content(parser, "name", "twitter:image") == f"https://panta-rhei.site{PLATE_02_OG}",
-            f"{route} missing Plate 02 twitter:image",
-        )
-        require(
-            "Scientific plate showing the Panta Rhei accountability chain" in (meta_content(parser, "property", "og:image:alt") or ""),
-            f"{route} missing Plate 02 OG alt text",
-        )
-
     _, discover = read_page(site, "/discover/")
     require(
         meta_content(discover, "property", "og:image") == f"https://panta-rhei.site{PLATE_01_OG}",
         "/discover/ should keep Plate 01 og:image",
     )
 
-    for route in ["/", "/results/"]:
+    for route in ["/", "/results/", "/verify/"]:
         page_html, parser = read_page(site, route)
         require(PLATE_ID not in page_html, f"{route} should not contain Plate 02")
         require(parser.h1_count == 1, f"{route} should have exactly one H1")
 
     forbidden = ["Companion Papers", "deployment portfolios", "Status: Resolved", "Resolved —"]
-    for route in [*targets.keys(), "/", "/results/"]:
+    for route in [*targets.keys(), "/", "/results/", "/verify/"]:
         _, parser = read_page(site, route)
         for phrase in forbidden:
             require(phrase not in parser.visible, f"{route} contains forbidden visible phrase: {phrase}")

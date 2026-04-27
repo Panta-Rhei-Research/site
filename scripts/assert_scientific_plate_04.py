@@ -133,11 +133,6 @@ def main() -> int:
             "The Construction Roadmap states what must be built; the Construction Spine shows the Corpus-side build narrative.",
             "The Construction Roadmap states the build-order obligation.",
         ],
-        "/verify/construction-spine-verification/": [
-            "What is being verified",
-            "Each construction step has its own inspection mode",
-            "Construction-step verification asks what each step builds",
-        ],
     }
 
     for route, required_text in targets.items():
@@ -170,13 +165,13 @@ def main() -> int:
         "/discover/ should keep Plate 01 og:image",
     )
 
-    for route in ["/", "/discover/", "/results/", "/verify/", "/program/research-agenda/"]:
+    for route in ["/", "/discover/", "/results/", "/verify/", "/verify/construction-spine-verification/", "/program/research-agenda/"]:
         html, parser = read_page(site, route)
         require(parser.h1_count == 1, f"{route} should have exactly one H1")
         require(PLATE_ID not in html, f"{route} should not contain Plate 04")
 
     forbidden = ["Companion Papers", "deployment portfolios", "Status: Resolved", "Resolved —"]
-    for route in [*targets.keys(), "/", "/discover/", "/results/", "/verify/"]:
+    for route in [*targets.keys(), "/", "/discover/", "/results/", "/verify/", "/verify/construction-spine-verification/"]:
         _, parser = read_page(site, route)
         for phrase in forbidden:
             require(phrase not in parser.visible, f"{route} contains forbidden visible phrase: {phrase}")

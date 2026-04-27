@@ -8,6 +8,9 @@ type: "Verification Surface"
 verify_type: how_to_verify
 status: "Canonical"
 summary_short: "Practical entry points for inspecting the program from different directions."
+og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
 right_rail:
   related:
     - title: "Construction Roadmap"
@@ -29,6 +32,13 @@ right_rail:
     status: "Canonical"
     updated: "April 2026"
 ---
+
+## How the verification matrix becomes a route
+
+{% capture how_to_verify_plate_caption %}How to Verify turns the verification matrix into reviewer entry routes: start from an obligation, construction step, result, TauLib surface, prediction, falsification path, or assessment protocol.{% endcapture %}
+{% include scientific-plate.html id="plate-06-verification-matrix" variant="thumb" class="scientific-plate--compact" caption=how_to_verify_plate_caption loading="lazy" %}
+
+The matrix is not a single checklist. It is a routing layer that helps a reader choose which inspection mode fits the claim under review.
 
 ## Choose Your Entry Route
 

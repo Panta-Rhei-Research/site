@@ -8,6 +8,9 @@ section: construction-verification
 type: "Verification Surface"
 status: "Canonical"
 summary_short: "Maps the ten Corpus Construction Spine steps to the relevant verification modes, including formal proof, bridge checks, empirical prediction, falsification, and answer-shape scrutiny."
+og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
 right_rail:
   related:
     - title: "Construction Roadmap"
@@ -41,12 +44,12 @@ Agenda -> Corpus -> Results -> Verify
 
 Obligation -> Construction -> Consequence -> Inspection
 
-## What is being verified
+## Construction steps inside the verification matrix
 
-{% capture construction_verify_plate_caption %}Each construction step has its own inspection mode: formal checks where available, bridge checks where needed, and empirical checks where the construction reaches measurement.{% endcapture %}
-{% include scientific-plate.html id="plate-04-construction-spine" variant="thumb" class="scientific-plate--compact" caption=construction_verify_plate_caption loading="lazy" %}
+{% capture construction_verify_plate_caption %}Construction-step verification is one part of the broader verification matrix: each step must identify what it builds, what supports it, and which formal, bridge, empirical, or external checks apply.{% endcapture %}
+{% include scientific-plate.html id="plate-06-verification-matrix" variant="thumb" class="scientific-plate--compact" caption=construction_verify_plate_caption loading="lazy" %}
 
-Construction-step verification asks what each step builds, what supports it, and which formal, bridge, or empirical checks apply.
+Construction-step verification asks what each step builds, what supports it, and which formal, bridge, empirical, or external checks apply.
 
 ## Step-by-step verification table
 
