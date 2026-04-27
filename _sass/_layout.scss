@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: #{$rail-left-w} minmax(0, #{$content-max}) #{$rail-right-w};
   gap: $shell-gap;
-  max-width: calc(#{$rail-left-w} + #{$content-max} + #{$rail-right-w} + #{$shell-gap} * 2);
+  max-width: var(--site-shell-max);
   margin: $shell-gap auto 0;
   padding: 0 $page-px;
   align-items: start;
@@ -29,8 +29,12 @@
 
 .page-grid-home {
   grid-template-columns: minmax(0, 1120px);
-  max-width: 1164px;
+  max-width: var(--site-home-shell-max);
   justify-content: center;
+
+  @media (max-width: $bp-collapse) {
+    max-width: #{$content-max};
+  }
 }
 
 // Left rail

@@ -5,16 +5,22 @@
       <div class="footer-desc">Public research observatory &middot; canonical release &middot; verification surfaces</div>
     </div>
     <nav class="footer-links" aria-label="Footer">
-      <div class="footer-link-group">
+      <div class="footer-link-group footer-link-group-core">
         <span class="footer-group-title">Core Lanes</span>
-        <a href="{{ '/discover/' | relative_url }}">Discover</a>
-        <a href="{{ '/program/' | relative_url }}">Program</a>
-        <a href="{{ '/corpus/' | relative_url }}">Corpus</a>
-        <a href="{{ '/results/' | relative_url }}">Results</a>
-        <a href="{{ '/verify/' | relative_url }}">Verify</a>
-        <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/impact/' | relative_url }}">Impact</a>
-        <a href="{{ '/engage/' | relative_url }}">Engage</a>
+        <div class="footer-core-lanes">
+          <div class="footer-core-lane-column">
+            <a href="{{ '/discover/' | relative_url }}">Discover</a>
+            <a href="{{ '/program/' | relative_url }}">Program</a>
+            <a href="{{ '/corpus/' | relative_url }}">Corpus</a>
+            <a href="{{ '/results/' | relative_url }}">Results</a>
+          </div>
+          <div class="footer-core-lane-column">
+            <a href="{{ '/verify/' | relative_url }}">Verify</a>
+            <a href="{{ '/publications/' | relative_url }}">Publications</a>
+            <a href="{{ '/impact/' | relative_url }}">Impact</a>
+            <a href="{{ '/engage/' | relative_url }}">Engage</a>
+          </div>
+        </div>
       </div>
       <div class="footer-link-group">
         <span class="footer-group-title">Infrastructure</span>

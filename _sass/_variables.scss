@@ -51,6 +51,8 @@ $rail-left-w:   260px;
 $rail-right-w:  240px;
 $content-max:   860px;
 $page-px:       22px;
+$shell-max:     calc(#{$rail-left-w} + #{$content-max} + #{$rail-right-w} + #{$shell-gap} * 2);
+$home-shell-max: 1164px;
 
 // Radii
 $radius-2xl:    28px;
@@ -98,6 +100,9 @@ $bp-stack:        760px;
   --color-brand-700: #{$accent-mid};
   --color-brand-600: #2d6e9f;
   --color-brand-100: #e8f0f6;
+
+  --site-shell-max: #{$shell-max};
+  --site-home-shell-max: #{$home-shell-max};
   --color-brand-50: #f3f7fa;
 
   --color-line-soft: #{$line-soft};
