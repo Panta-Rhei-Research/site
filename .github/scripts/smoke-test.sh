@@ -134,7 +134,7 @@ file_contains "/index.html" 'name="theme-color"'                                
 file_contains "/index.html" "#163e64"                                              "canonical navy #163e64 in head"
 file_contains "/index.html" "orcid.org/0009-0007-0718-1042"                        "Thorsten ORCID in JSON-LD"
 file_contains "/index.html" "orcid.org/0009-0007-3495-7416"                        "Anna-Sophie ORCID in JSON-LD"
-file_contains "/index.html" "https://panta-rhei.site/assets/og-image.png"          "og:image absolute URL"
+file_contains "/index.html" "https://panta-rhei.site/assets/images/plates/plate-01-public-research-observatory-og.jpg" "homepage plate og:image absolute URL"
 file_contains "/index.html" "Start with Discover"                                  "v2 Discover CTA present"
 file_contains "/index.html" "Explore the Corpus"                                   "v2 Corpus CTA present"
 file_contains "/index.html" "See the Results"                                      "v2 Results CTA present"

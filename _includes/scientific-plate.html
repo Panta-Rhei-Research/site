@@ -1,0 +1,30 @@
+{%- assign plate = site.data.plates | where: "id", include.id | first -%}
+{%- assign variant = include.variant | default: "hero" -%}
+{%- assign loading = include.loading | default: "lazy" -%}
+{%- assign plate_class = include.class | default: "" -%}
+{%- if plate -%}
+  {%- if variant == "thumb" -%}
+    {%- assign source_image = plate.thumbnail -%}
+    {%- assign fallback_image = plate.hero_jpg -%}
+    {%- assign image_width = 640 -%}
+    {%- assign image_height = 360 -%}
+  {%- else -%}
+    {%- assign source_image = plate.image -%}
+    {%- assign fallback_image = plate.hero_jpg -%}
+    {%- assign image_width = 1536 -%}
+    {%- assign image_height = 864 -%}
+  {%- endif -%}
+<figure class="scientific-plate {{ plate_class | strip }}">
+  <picture>
+    <source srcset="{{ source_image | relative_url }}" type="image/webp">
+    <img
+      src="{{ fallback_image | relative_url }}"
+      alt="{{ plate.alt | strip | escape }}"
+      loading="{{ loading }}"
+      decoding="async"
+      width="{{ image_width }}"
+      height="{{ image_height }}">
+  </picture>
+  <figcaption>{{ include.caption | default: plate.caption | strip }}</figcaption>
+</figure>
+{%- endif -%}

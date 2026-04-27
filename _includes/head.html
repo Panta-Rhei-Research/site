@@ -51,6 +51,9 @@
 
 {%- comment -%} Robots directive: honor page.robots front matter, default to full indexing {%- endcomment -%}
 {%- assign robots_directive = page.robots | default: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' -%}
+{%- assign og_image = page.og_image | default: '/assets/og-image.png' -%}
+{%- assign twitter_image = page.twitter_image | default: og_image -%}
+{%- assign og_image_alt = page.og_image_alt | default: site.title -%}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,16 +79,16 @@
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="{{ '/assets/og-image.png' | absolute_url }}">
+<meta property="og:image" content="{{ og_image | absolute_url }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="{{ site.title }}">
+<meta property="og:image:alt" content="{{ og_image_alt }}">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ raw_page_title | default: site.title }}">
 <meta name="twitter:description" content="{{ seo_description }}">
-<meta name="twitter:image" content="{{ '/assets/og-image.png' | absolute_url }}">
+<meta name="twitter:image" content="{{ twitter_image | absolute_url }}">
 
 <!-- Theme color (mobile browser UI tinting) -->
 <meta name="theme-color" content="#163e64">

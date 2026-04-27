@@ -185,6 +185,59 @@
   text-transform: none;
 }
 
+.scientific-plate {
+  margin: 28px auto;
+  max-width: 1200px;
+
+  picture,
+  img {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(22, 62, 100, 0.28);
+    border-radius: $radius-md;
+    background: #f6f7f3;
+    box-shadow: 0 18px 42px rgba(22, 62, 100, 0.12);
+  }
+
+  figcaption {
+    margin-top: 0.75rem;
+    max-width: 68rem;
+    color: var(--color-ink-600);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+}
+
+.scientific-plate--hero {
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.scientific-plate--compact {
+  max-width: 860px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 720px) {
+  .scientific-plate {
+    margin-inline: -8px;
+
+    img {
+      border-radius: $radius-sm;
+    }
+
+    figcaption {
+      padding-inline: 8px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
 .badge-canonical,
 .badge-resolved {
   background: var(--semantic-success-soft);

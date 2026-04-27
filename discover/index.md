@@ -7,6 +7,9 @@ permalink: /discover/
 type: "Lane Root"
 status: "Canonical"
 summary_short: "A guided first-contact route into the Panta Rhei Research Program."
+og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
+twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
+og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Research Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
 tags:
   - discover
   - start-here
@@ -53,6 +56,13 @@ Panta Rhei is an independent open research program asking whether one constraine
 The website is a structured public interface to that research system. Discover is the entry layer: deeper than the homepage, but still built for orientation rather than exhaustive explanation.
 
 Discover is the entry layer. It helps readers move from orientation into the research spine: Agenda, Corpus, Results, and Verify.
+
+## How the observatory fits together
+
+{% capture discover_plate_caption %}A visual map of the site's research-observatory structure: orientation, obligation, construction, consequence, inspection, publications, impact, and engagement.{% endcapture %}
+{% include scientific-plate.html id="plate-01-public-research-observatory" variant="thumb" class="scientific-plate--compact" caption=discover_plate_caption loading="lazy" %}
+
+Use this map to orient yourself before entering the deeper lanes.
 
 ## Choose your entry
 

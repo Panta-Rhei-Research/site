@@ -20,12 +20,27 @@ hero_ctas:
   - label: "Verify It Yourself"
     url: /verify/
 hero_supporting_line: "Static, inspectable, Pagefind-searchable, and organized around canonical public lanes."
+og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
+twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
+og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Research Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
 ---
 
 {% assign result_count = site.data.results.results | size %}
 {% assign registry_count = site.data.registry.objects | size %}
 {% assign book_count = site.data.publications.books | size %}
 {% assign chapter_count = site.data.publications.chapters | size %}
+
+<section class="content-card homepage-section">
+  <p class="v2-kicker">Scientific plate 01</p>
+  <h2>The public research observatory</h2>
+  {% include scientific-plate.html id="plate-01-public-research-observatory" class="scientific-plate--hero" loading="eager" %}
+  <div class="btn-group section-ctas">
+    <a class="btn-secondary" href="{{ '/discover/' | relative_url }}">Start with Discover</a>
+    <a class="btn-ghost" href="{{ '/corpus/' | relative_url }}">Explore the Corpus</a>
+    <a class="btn-ghost" href="{{ '/results/' | relative_url }}">See the Results</a>
+    <a class="btn-ghost" href="{{ '/verify/' | relative_url }}">Verify it yourself</a>
+  </div>
+</section>
 
 <section class="content-card homepage-section">
   <p class="v2-kicker">Choose your entry</p>

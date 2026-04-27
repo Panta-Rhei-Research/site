@@ -1,0 +1,22 @@
+- id: plate-01-public-research-observatory
+  title: Public Research Observatory
+  status: published
+  image: /assets/images/plates/plate-01-public-research-observatory-hero.webp
+  hero_jpg: /assets/images/plates/plate-01-public-research-observatory-hero.jpg
+  master: /assets/images/plates/plate-01-public-research-observatory-master.jpg
+  thumbnail: /assets/images/plates/plate-01-public-research-observatory-thumb.webp
+  og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
+  pages:
+    - /
+    - /discover/
+  caption: >
+    The Panta Rhei website is structured as a public research observatory:
+    Research Agenda states the obligations, Corpus carries the construction,
+    Results reports current consequences, Verify exposes inspection routes,
+    Publications holds stable artifacts, Impact maps conditional implications,
+    and Engage invites structured scrutiny without endorsement.
+  alt: >
+    Scientific plate showing the Panta Rhei Research Program as a public research observatory,
+    with a central spine from Research Agenda to Corpus to Results to Verify,
+    surrounded by Discover, Program, Publications, Impact, Engage, inspectability surfaces,
+    and world readouts for mathematics, physics, life, and metaphysics.
