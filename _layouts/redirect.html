@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.summary_short %}
+  <meta name="description" content="{{ page.summary_short | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:description" content="{{ page.summary_short | strip_html | normalize_whitespace | escape }}">
+  {% endif %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
   <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
   <title>{{ page.title | default: "Redirecting" }} | {{ site.title }}</title>

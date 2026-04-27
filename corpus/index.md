@@ -75,16 +75,16 @@ The current registry is the public atomic projection of the corpus. The primary 
   <li>
     <article>
       <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}">
-        <strong>10 construction steps</strong>
-        <span>The public build narrative that aligns Agenda obligations, Corpus construction, and Results status.</span>
+        <h3>10 construction steps</h3>
+        <p>The public build narrative that aligns Agenda obligations, Corpus construction, and Results status.</p>
       </a>
     </article>
   </li>
   <li>
     <article>
       <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
-        <strong>{{ registry_objects | size }} registry objects</strong>
-        <span>The current public spine across all seven books.</span>
+        <h3>{{ registry_objects | size }} registry objects</h3>
+        <p>The current public spine across all seven books.</p>
       </a>
     </article>
   </li>
@@ -92,8 +92,8 @@ The current registry is the public atomic projection of the corpus. The primary 
   <li>
     <article>
       <a class="v2-tile" href="{{ '/corpus/types/' | relative_url }}#{{ group.name | slugify }}">
-        <strong>{{ group.size }} {{ group.name | capitalize }}</strong>
-        <span>Registry objects currently typed as {{ group.name }}.</span>
+        <h3>{{ group.size }} {{ group.name | capitalize }}</h3>
+        <p>Registry objects currently typed as {{ group.name }}.</p>
       </a>
     </article>
   </li>
