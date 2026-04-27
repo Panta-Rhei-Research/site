@@ -54,7 +54,7 @@ In Problem Ledger v1.0, declared source entries have been promoted, merged, excl
 
 Master ledgers are imported wholesale from pinned revisions. Supplemental items may be added later only with explicit inclusion rationale.
 
-## v1.0 Import Status
+## v1.0 public projection status
 
 Problem Ledger v1.0 has promoted the declared source ledgers into the public site projection. Each declared source entry is now accounted for as one of:
 

@@ -78,6 +78,12 @@ Some readers will inspect formal claims through TauLib. Some will attack bridge 
 
 All of those routes matter. The program is improved by precise criticism, not by premature agreement.
 
+## What participation does and does not mean
+
+Participation does not imply endorsement.
+
+Questions, criticism, review notes, issues, pull requests, correspondence, institutional dialogue, or support help make the work more inspectable. They do not mean that a participant accepts the program's claims, status language, priorities, or conclusions. Public engagement routes are collected in [Engage]({{ '/engage/' | relative_url }}).
+
 ## References
 
 - [UNESCO Recommendation on Open Science](https://www.unesco.org/en/open-science/about?hub=864)

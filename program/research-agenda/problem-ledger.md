@@ -18,8 +18,8 @@ hero_ctas:
   - label: "Source Policy"
     url: /program/research-agenda/problem-ledger-source-policy/
     primary: true
-  - label: "Physics Domain Ledger"
-    url: /program/research-agenda/problem-ledger/physics/
+  - label: "Browse Domain Ledgers"
+    url: /program/research-agenda/problem-ledger/#domain-ledgers
   - label: "Results Mirror"
     url: /results/problem-ledger-answers/
 right_rail:
@@ -28,7 +28,7 @@ right_rail:
       url: /program/research-agenda/problem-ledger-source-policy/
     - title: "Mathematics Problem Ledger"
       url: /program/research-agenda/problem-ledger/mathematics/
-    - title: "Physics Domain Ledger"
+    - title: "Physics Problem Ledger"
       url: /program/research-agenda/problem-ledger/physics/
     - title: "Life Problem Ledger"
       url: /program/research-agenda/problem-ledger/life/
