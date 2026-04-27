@@ -41,6 +41,13 @@ Agenda -> Corpus -> Results -> Verify
 
 Obligation -> Construction -> Consequence -> Inspection
 
+## What is being verified
+
+{% capture construction_verify_plate_caption %}Each construction step has its own inspection mode: formal checks where available, bridge checks where needed, and empirical checks where the construction reaches measurement.{% endcapture %}
+{% include scientific-plate.html id="plate-04-construction-spine" variant="thumb" class="scientific-plate--compact" caption=construction_verify_plate_caption loading="lazy" %}
+
+Construction-step verification asks what each step builds, what supports it, and which formal, bridge, or empirical checks apply.
+
 ## Step-by-step verification table
 
 <div class="table-wrap">

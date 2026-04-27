@@ -43,6 +43,13 @@ The Construction Roadmap is not a calendar, sprint plan, or publication schedule
 
 If the program seeks a no-externalities kernel of reality, it cannot begin by assuming mathematics, physics, life, mind, meaning, or lawfulness as finished inputs. These layers must be recovered in order.
 
+## Agenda roadmap and Corpus spine
+
+{% capture construction_roadmap_plate_caption %}The Construction Roadmap states what must be built; the Construction Spine shows the Corpus-side build narrative.{% endcapture %}
+{% include scientific-plate.html id="plate-04-construction-spine" variant="thumb" class="scientific-plate--compact" caption=construction_roadmap_plate_caption loading="lazy" %}
+
+The Construction Roadmap states the build-order obligation. The Construction Spine shows the Corpus-side realization of that order.
+
 ## Why construction order matters
 
 The other Research Agenda surfaces state what the program must face: open problems, recovery requirements, and the ontic-status burden. The Construction Roadmap explains how those burdens become a construction sequence.

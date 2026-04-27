@@ -8,6 +8,9 @@ section: construction-spine
 type: "Corpus Index"
 status: "Canonical"
 summary_short: "The build-order narrative of the Panta Rhei Corpus."
+og_image: /assets/images/plates/plate-04-construction-spine-og.jpg
+twitter_image: /assets/images/plates/plate-04-construction-spine-og.jpg
+og_image_alt: "Scientific plate showing the Corpus Construction Spine as a ten-step build sequence from Kernel to Ontic Closure."
 hero_ctas:
   - label: "Step 1: Define the Kernel"
     url: /corpus/construction-spine/define-the-kernel/
@@ -40,6 +43,13 @@ right_rail:
 ## What this spine is
 
 The Construction Spine is the Corpus-side realization of the Research Agenda's Construction Roadmap. It shows how the Corpus is built step by step: from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.
+
+## From kernel to ontic closure
+
+{% capture construction_spine_plate_caption %}The Construction Spine gives the human-readable build order of the Corpus: from the formal kernel through mathematical recovery, physical grammar, empirical bridges, life, reflection, self-hosting, and ontic closure.{% endcapture %}
+{% include scientific-plate.html id="plate-04-construction-spine" class="scientific-plate--construction-spine" caption=construction_spine_plate_caption loading="lazy" %}
+
+The ten construction steps show how the Corpus is built: not as a timeline or sprint plan, but as a logical build order from the formal kernel to ontic-closure testing.
 
 ## One spine, several projections
 
