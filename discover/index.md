@@ -64,6 +64,13 @@ Discover is the entry layer. It helps readers move from orientation into the res
 
 Use this map to orient yourself before entering the deeper lanes.
 
+## How to evaluate the program
+
+{% capture discover_plate_02_caption %}The core reading chain of the site: obligations are stated before construction, construction supports results, and results remain open to inspection.{% endcapture %}
+{% include scientific-plate.html id="plate-02-from-obligation-to-inspection" variant="thumb" class="scientific-plate--compact" caption=discover_plate_02_caption loading="lazy" %}
+
+Use this chain to read the site: obligations first, construction second, consequences third, inspection always.
+
 ## Choose your entry
 
 <ul class="v2-grid v2-grid-2 v2-card-list">

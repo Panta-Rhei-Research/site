@@ -8,6 +8,9 @@ permalink: /program/research-agenda/
 type: "Program Sub-lane"
 status: "Canonical"
 summary_short: "The explicit burden of proof accepted by the Panta Rhei Research Program."
+og_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
+twitter_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
+og_image_alt: "Scientific plate showing the Panta Rhei accountability chain from Research Agenda to Corpus to Results to Verify."
 summary_cards:
   - title: "Aim"
     body: "Construct and test whether a finite, computable kernel can recover mathematics, physics, life, and reflective intelligibility without hidden externalities."
@@ -98,6 +101,19 @@ If you are new to the program, read the agenda in this order:
 3. Read **Kernel, Model & Reality** to understand the no-externalities and ontic-status burden.
 4. Use the **Construction Roadmap** to see the logical build-order that follows from those commitments.
 5. Then move to **Results** to see the current program stance against the agenda.
+
+## From obligation to inspection
+
+{% include scientific-plate.html id="plate-02-from-obligation-to-inspection" class="scientific-plate--spine" loading="lazy" %}
+
+The Research Agenda is the obligation layer. It states the burdens the program accepts before Results are allowed to sound like consequences.
+
+<div class="btn-group section-ctas">
+  <a class="btn-secondary" href="{{ '/program/research-agenda/' | relative_url }}">Read the Research Agenda</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/' | relative_url }}">Follow the Construction Spine</a>
+  <a class="btn-ghost" href="{{ '/results/progress-against-agenda/' | relative_url }}">See Progress Against Agenda</a>
+  <a class="btn-ghost" href="{{ '/verify/construction-spine-verification/' | relative_url }}">Verify the Construction Spine</a>
+</div>
 
 ## Why a Problem Ledger?
 

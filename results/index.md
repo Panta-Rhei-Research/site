@@ -7,6 +7,9 @@ v2_lane: results
 type: "Lane Root"
 status: "Canonical"
 summary_short: "What the program currently derives from its research corpus."
+og_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
+twitter_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
+og_image_alt: "Scientific plate showing the Panta Rhei accountability chain from Research Agenda to Corpus to Results to Verify."
 summary_cards:
   - title: "World consequence"
     body: "Results is where the built Corpus becomes a world."
@@ -68,6 +71,13 @@ The intended reading order is simple:
 </div>
 
 The Agenda states the burden. The Corpus carries the build. Results shows the current answers and world-readouts. Verify exposes the inspection routes.
+
+## Results are consequences, not isolated claims
+
+{% capture results_plate_02_caption %}Results are not isolated claims. They are consequences that should be read against prior obligations, Corpus construction, and Verify surfaces.{% endcapture %}
+{% include scientific-plate.html id="plate-02-from-obligation-to-inspection" class="scientific-plate--spine" caption=results_plate_02_caption loading="lazy" %}
+
+Results should be read against the obligations they answer, the Corpus construction that supports them, and the Verify routes that inspect them.
 
 ## Six ways to read Results
 

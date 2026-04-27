@@ -20,3 +20,25 @@
     with a central spine from Research Agenda to Corpus to Results to Verify,
     surrounded by Discover, Program, Publications, Impact, Engage, inspectability surfaces,
     and world readouts for mathematics, physics, life, and metaphysics.
+- id: plate-02-from-obligation-to-inspection
+  title: From Obligation to Inspection
+  status: published
+  image: /assets/images/plates/plate-02-from-obligation-to-inspection-hero.webp
+  hero_jpg: /assets/images/plates/plate-02-from-obligation-to-inspection-hero.jpg
+  master: /assets/images/plates/plate-02-from-obligation-to-inspection-master.jpg
+  thumbnail: /assets/images/plates/plate-02-from-obligation-to-inspection-thumb.webp
+  og_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
+  pages:
+    - /program/research-agenda/
+    - /discover/
+    - /results/
+    - /verify/
+  caption: >
+    Panta Rhei asks to be read through a public chain of accountability:
+    Research Agenda states the obligations, Corpus carries the construction,
+    Results reports what follows, and Verify exposes how claims can be inspected,
+    challenged, and tested.
+  alt: >
+    Scientific plate titled From Obligation to Inspection, showing the Panta Rhei
+    accountability chain from Research Agenda to Corpus to Results to Verify,
+    with corresponding stages of obligation, construction, consequence, and inspection.
