@@ -51,13 +51,15 @@ If you are new to the program, start with these four questions.
   </a>
   <a class="v2-tile" href="{{ '/discover/key-results/' | relative_url }}">
     <h3>3. What follows from the build?</h3>
-    <p>Use Key Results, Landmark Results, and World Readout for a curated first pass into Results.</p>
+    <p>Use Key Results for the first click, then continue into the deeper Results surfaces.</p>
   </a>
   <a class="v2-tile" href="{{ '/verify/' | relative_url }}">
     <h3>4. How can it be checked?</h3>
     <p>Use Verify for formalization, audit routes, and falsification surfaces.</p>
   </a>
 </div>
+
+For the deeper Results handoff, continue from [Key Results]({{ '/discover/key-results/' | relative_url }}) to [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) and [World Readout]({{ '/results/world-readout/' | relative_url }}).
 
 For the deepest route, follow [Research Agenda]({{ '/program/research-agenda/' | relative_url }}) -> [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) -> [Results]({{ '/results/' | relative_url }}) -> [Verify]({{ '/verify/' | relative_url }}).
 

@@ -36,11 +36,11 @@ Guided Tours are structured reading and inspection routes for different levels o
     <h3>Quick Overview</h3>
     <p>Fast path for first-time visitors who want orientation before depth.</p>
   </a>
-  <a class="v2-tile" href="{{ '/program/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/program/research-agenda/' | relative_url }}">
     <h3>Program Tour</h3>
     <p>Research contract, Problem Ledger, Recovery Requirements, Kernel/Model/Reality, and Construction Roadmap.</p>
   </a>
-  <a class="v2-tile" href="{{ '/corpus/how-to-read/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}">
     <h3>Corpus Tour</h3>
     <p>Follow the Construction Spine, then inspect Registry, TauLib, books, and the Corpus Graph.</p>
   </a>

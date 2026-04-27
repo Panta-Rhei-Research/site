@@ -96,8 +96,8 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
   </div>
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/results/' | relative_url }}">Results Lane</a>
-    <a class="btn-ghost" href="{{ '/results/predictions/browse/' | relative_url }}">Verify: Predictions</a>
-    <a class="btn-ghost" href="{{ '/results/falsifications/browse/' | relative_url }}">Verify: Falsification Pack</a>
+    <a class="btn-ghost" href="{{ '/results/predictions/browse/' | relative_url }}">Browse Predictions</a>
+    <a class="btn-ghost" href="{{ '/results/falsifications/browse/' | relative_url }}">Browse Falsification Tests</a>
   </div>
 </section>
 
