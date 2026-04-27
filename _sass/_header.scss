@@ -8,7 +8,7 @@
   z-index: $z-header;
   height: $header-h;
   width: calc(100% - #{$page-px} * 2);  // ensures min side breathing room = $page-px (22px)
-  max-width: calc(#{$rail-left-w} + #{$content-max} + #{$rail-right-w} + #{$shell-gap} * 2);
+  max-width: var(--site-shell-max);
   margin: 10px auto 0;
   padding: 0 $page-px;
   display: flex;
@@ -44,6 +44,17 @@
     height: $header-h;
     padding: 0 10px;
     gap: 8px;
+  }
+}
+
+body.shell-home .site-header {
+  max-width: var(--site-home-shell-max);
+}
+
+@media (max-width: $bp-collapse) {
+  .site-header,
+  body.shell-home .site-header {
+    max-width: #{$content-max};
   }
 }
 
