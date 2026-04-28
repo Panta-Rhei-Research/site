@@ -1,15 +1,15 @@
 ---
 id: "CS-03"
 sequence: 3
-title: "Step 3 — Internalize Logic and Categorical Self-Structure"
-short_title: "Internal Logic"
+title: "Step 3 — Internalize Self-Enrichment"
+short_title: "Self-Enrichment"
 slug: "internalize-logic"
 agenda_path: "/program/research-agenda/construction-roadmap/#internalize-logic-and-categorical-self-structure"
 corpus_path: "/corpus/construction-spine/internalize-logic/"
 results_path: "/results/world-readout/mathematics/self-enrichment-self-containment-and-internal-logic/"
-summary: "Moves from external description toward internal logic, categorical organization, representation, and first self-containment structures."
-required_to_do: "The program must recover enough internal logic and categorical self-structure for the kernel to become self-expressive rather than merely externally described."
-what_built: "The Corpus presents categorical organization, internal truth structures, Yoneda-style representation, and early self-enrichment machinery."
+summary: "Moves from an externally described kernel toward self-enrichment: hom-objects as τ-objects, Yoneda as theorem, iterated enrichment, and the first formal reduction of metalanguage externality."
+required_to_do: "The program must begin to discharge the externality of speaking about τ only from outside by showing how τ can internalize its own morphism spaces, representation, and enrichment ladder."
+what_built: "The Corpus presents hom-objects as τ-objects, Yoneda-style representation as an earned theorem, iterated enrichment, higher morphism structure, and the later Central Theorem route toward deeper self-description."
 build_status: "partially_built"
 build_status_label: "Partially built; meta-verification frontier remains open"
 related_recovery_requirements:
@@ -33,10 +33,31 @@ related_registry_items:
   - "I.P26"
   - "I.P28"
 related_taulib_modules:
-  - "TauLib.BookI.Category"
-  - "TauLib.BookI.Topos"
+  -
+    title: "TauLib.BookI.Topos.InternalHom"
+    url: "/verify/taulib/docs/book-i-topos-internal-hom/"
+  -
+    title: "TauLib.BookI.Topos.Functors"
+    url: "/verify/taulib/docs/book-i-topos-functors/"
+  -
+    title: "TauLib.BookI.Topos.EarnedTopos"
+    url: "/verify/taulib/docs/book-i-topos-earned-topos/"
+  -
+    title: "TauLib.BookII.Enrichment.SelfEnrichment"
+    url: "/verify/taulib/docs/book-ii-enrichment-self-enrichment/"
+  -
+    title: "TauLib.BookII.Enrichment.SelfDescribing"
+    url: "/verify/taulib/docs/book-ii-enrichment-self-describing/"
 related_books:
-  - "Book I, categorical and internal-logic development"
+  -
+    title: "Book I"
+    url: "/publications/books/book-i/"
+  -
+    title: "Book II"
+    url: "/publications/books/book-ii/"
+  -
+    title: "Book II, Part VIII: Self-Enrichment, Yoneda, and Higher Categories"
+    url: "/publications/books/book-ii/part-08-self-enrichment-yoneda-and-higher-categories/"
 related_results:
   -
     title: "Self-Enrichment, Self-Containment, and Internal Logic"
@@ -51,23 +72,36 @@ related_verify:
   -
     title: "Formal Verification Stack"
     url: "/verify/formal-verification-stack/"
+  -
+    title: "Mathematician Audit Route"
+    url: "/verify/how-to-audit/mathematician/"
 related_publications:
   -
-    title: "Book I"
-    url: "/publications/books/book-i/"
+    title: "The τ-Kernel as Foundational Architecture"
+    url: "/publications/research-papers/tau-kernel-foundational-architecture/"
+  -
+    title: "Book II"
+    url: "/publications/books/book-ii/"
 verification:
   primary_modes:
     - "internal-logic checks"
     - "categorical consistency"
     - "semantic correspondence"
+    - "meta-verification review"
   taulib_modules:
-    - "TauLib.BookI.Category"
-    - "TauLib.BookI.Topos"
+    -
+      title: "TauLib.BookI.Topos.InternalHom"
+      url: "/verify/taulib/docs/book-i-topos-internal-hom/"
+    -
+      title: "TauLib.BookII.Enrichment.SelfEnrichment"
+      url: "/verify/taulib/docs/book-ii-enrichment-self-enrichment/"
+  bridge_check_status: "partial"
   bridge_checks:
-    - "Check that internal logical operations remain faithful to the kernel discipline and do not silently import external proof power."
+    - "Check that internal logical operations and enrichment remain faithful to the kernel discipline and do not silently import external proof power."
+  empirical_check_status: "not_applicable"
   empirical_checks: []
   unresolved_frontiers:
-    - "Internalization of logic does not yet self-host object theories or settle semantic bridge adequacy."
+    - "Internalization of logic does not yet self-host object theories, settle semantic bridge adequacy, or establish final ontic closure."
   related_verify_pages:
     -
       title: "Meta-Verification Frontier"
@@ -78,7 +112,7 @@ verification:
     -
       title: "Verification Framework"
       url: "/verify/verification-framework/"
-what_not_establish: "This step begins self-containment. It does not yet self-host formal systems or test final ontic closure."
+what_not_establish: "Step 3 begins formal self-containment. It does not self-host every formal system, settle semantic bridge adequacy, or prove final ontic closure; those burdens remain for later construction steps, especially Step 9 and Step 10."
 next_step_id: "CS-04"
 tags:
   - "construction-spine"
@@ -86,11 +120,11 @@ tags:
   - "internal-logic"
   - "self-enrichment"
   - "topos"
+  - "yoneda"
 generated_from: "corpus/construction-spine"
 projection_version: "v0.1"
 canonical_source: "corpus/construction-spine"
 do_not_edit: true
-_body: "## What this step builds\n\nThe third step develops the categorical and logical machinery that lets the kernel become internally intelligible. It shifts the construction from objects alone toward internal representation, truth, and self-structure.\n\n## Why this step is required\n\nA kernel that remains only externally described cannot satisfy the no-externalities burden. It must begin to internalize the logic and representation by which its own objects become readable.\n\n## Key constructions\n\n- Categorical organization.\n- Internal truth and logic.\n- Yoneda-style representation.\n- Self-enrichment beginnings.\n- First self-containment mechanisms."
 layout: "program-doc"
 permalink: "/corpus/construction-spine/internalize-logic/"
 lane: "corpus"
@@ -98,75 +132,143 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Canonical"
-summary_short: "Moves from external description toward internal logic, categorical organization, representation, and first self-containment structures."
+summary_short: "Moves from an externally described kernel toward self-enrichment: hom-objects as τ-objects, Yoneda as theorem, iterated enrichment, and the first formal reduction of metalanguage externality."
 construction_step_id: "CS-03"
 ---
 
-> Moves from external description toward internal logic, categorical organization, representation, and first self-containment structures.
+> Moves from an externally described kernel toward self-enrichment: hom-objects as τ-objects, Yoneda as theorem, iterated enrichment, and the first formal reduction of metalanguage externality.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
 
 ## What this step is required to do
 
-The program must recover enough internal logic and categorical self-structure for the kernel to become self-expressive rather than merely externally described.
+The program must begin to discharge the externality of speaking about τ only from outside by showing how τ can internalize its own morphism spaces, representation, and enrichment ladder.
 
-## What the Corpus built
+## What the corpus built
 
-The Corpus presents categorical organization, internal truth structures, Yoneda-style representation, and early self-enrichment machinery.
+The Corpus presents hom-objects as τ-objects, Yoneda-style representation as an earned theorem, iterated enrichment, higher morphism structure, and the later Central Theorem route toward deeper self-description.
 
-## Why this step is required
+No foundation can avoid every assumption at its first line. The τ-Kernel begins with a deliberately minimal external burden: symbolic distinction, token manipulation, and the formal discipline needed to state primitive generators and rules. But if the framework is to satisfy its no-externalities ambition, that external stance cannot remain the permanent place from which τ is understood.
 
-A kernel that remains only externally described cannot satisfy the no-externalities burden. It must begin to internalize the logic and representation by which its own objects become readable.
+Step 3 asks whether τ can internalize its own categorical structure. In categorical terms, this is the self-enrichment problem: the morphisms between τ-objects must themselves be τ-objects, representation must be available internally, and Yoneda-style probing must be earned as a theorem rather than imported as a meta-level convenience.
 
-## Key constructions
+The result is not yet full ontic closure. Step 3 does not prove that the framework has exhausted every explanatory burden. It proves a mathematical precondition for that later claim: τ is not merely described from outside, but begins to describe its own morphism spaces, higher transformations, and enrichment ladder from within.
 
-- Categorical organization.
-- Internal truth and logic.
-- Yoneda-style representation.
-- Self-enrichment beginnings.
-- First self-containment mechanisms.
+## Why self-enrichment is required
+
+If τ can only be described from an external metalanguage, then the no-externalities program has not yet reached its own foundation. It may still be a useful formal system, but its rules, morphisms, and representational behavior would remain explained from outside.
+
+Self-enrichment is the categorical way to reduce this externality. Instead of treating morphism spaces as external hom-sets living in an ambient universe, the framework must show that those morphism spaces are themselves τ-objects.
+
+<math display="block" aria-label="Hom of A and B is an object of tau">
+  <mrow>
+    <mi>Hom</mi><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo>
+    <mo>∈</mo>
+    <mi>Obj</mi><mo>(</mo><mi>τ</mi><mo>)</mo>
+  </mrow>
+</math>
+
+## Yoneda as theorem, not axiom
+
+The next burden is representation. A framework can always be studied externally by probing it from a larger mathematical universe. But the τ program cannot simply assume that kind of external representational power. It must earn internal probing.
+
+The intended result is that Yoneda-style representation is proved as a theorem inside the construction rather than used as an unexamined meta-level convenience.
+
+<math display="block" aria-label="tau embeds into presheaves on tau opposite valued in tau">
+  <mrow>
+    <mi>τ</mi>
+    <mo>↪</mo>
+    <mo>[</mo>
+    <msup><mi>τ</mi><mi>op</mi></msup>
+    <mo>,</mo>
+    <mi>τ</mi>
+    <mo>]</mo>
+  </mrow>
+</math>
+
+Canonical long-form source: [Book II, Part VIII: Self-Enrichment, Yoneda, and Higher Categories](/publications/books/book-ii/part-08-self-enrichment-yoneda-and-higher-categories/)
+
+## Iterated enrichment and higher morphisms
+
+Once hom-objects become τ-objects, the process can be iterated. Morphisms between morphisms become available, and higher categorical structure begins to appear. This does not mean Step 3 has already settled every higher-categorical or ontic question. It means the self-enrichment ladder has started and can be inspected as part of the Corpus.
+
+<math display="block" aria-label="tau maps to tau tau and then to iterated endofunctor categories">
+  <mrow>
+    <mi>τ</mi>
+    <mo>→</mo>
+    <mo>[</mo><mi>τ</mi><mo>,</mo><mi>τ</mi><mo>]</mo>
+    <mo>→</mo>
+    <mo>[</mo>
+      <mo>[</mo><mi>τ</mi><mo>,</mo><mi>τ</mi><mo>]</mo>
+      <mo>,</mo>
+      <mo>[</mo><mi>τ</mi><mo>,</mo><mi>τ</mi><mo>]</mo>
+    <mo>]</mo>
+  </mrow>
+</math>
+
+Later results examine whether this ladder keeps producing genuinely new levels indefinitely or whether it stabilizes after a finite stage. Step 3 opens the formal self-enrichment route; later steps must still test self-hosting, semantic adequacy, and ontic closure.
+
+## Relation to Step 1 internal logic
+
+The τ-topos and four-valued internal logic are introduced in Step 1 because they belong to the kernel's split-complex truth machinery. Step 3 uses that machinery for a different burden: self-enrichment. The same internal truth substrate is now used to ask whether τ can make its own morphisms, representations, and higher transformations available from within.
+
+## First red-team questions
+
+- Are hom-objects genuinely τ-objects, or is an external category of sets still doing the real work?
+- Is Yoneda earned as a theorem under τ-discipline, or smuggled in through ambient categorical assumptions?
+- Does iterated enrichment produce genuine higher structure?
+- Does the construction avoid silently importing a larger universe for morphism spaces?
+- What exactly stabilizes, if later saturation claims are invoked?
+- Which parts are formalized, which are τ-effective, and which remain bridge or meta-verification frontiers?
+- Does this step clearly distinguish formal self-enrichment from final ontic closure?
 
 ## Registry spine
 
-- [`I.D51`](/registry/object/I.D51/)
-- [`I.D52`](/registry/object/I.D52/)
-- [`I.D53`](/registry/object/I.D53/)
-- [`I.D54`](/registry/object/I.D54/)
-- [`I.D55`](/registry/object/I.D55/)
-- [`I.D56`](/registry/object/I.D56/)
-- [`I.D57`](/registry/object/I.D57/)
-- [`I.D58`](/registry/object/I.D58/)
-- [`I.D59`](/registry/object/I.D59/)
-- [`I.P26`](/registry/object/I.P26/)
-- [`I.P28`](/registry/object/I.P28/)
+- `I.D51`
+- `I.D52`
+- `I.D53`
+- `I.D54`
+- `I.D55`
+- `I.D56`
+- `I.D57`
+- `I.D58`
+- `I.D59`
+- `I.P26`
+- `I.P28`
 
 ## TauLib modules
 
-- `TauLib.BookI.Category` (docs/source pending)
-- `TauLib.BookI.Topos` (docs/source pending)
+- [TauLib.BookI.Topos.InternalHom](/verify/taulib/docs/book-i-topos-internal-hom/)
+- [TauLib.BookI.Topos.Functors](/verify/taulib/docs/book-i-topos-functors/)
+- [TauLib.BookI.Topos.EarnedTopos](/verify/taulib/docs/book-i-topos-earned-topos/)
+- [TauLib.BookII.Enrichment.SelfEnrichment](/verify/taulib/docs/book-ii-enrichment-self-enrichment/)
+- [TauLib.BookII.Enrichment.SelfDescribing](/verify/taulib/docs/book-ii-enrichment-self-describing/)
 
 ## Book locations
 
-- Book I, categorical and internal-logic development
+- [Book I](/publications/books/book-i/)
+- [Book II](/publications/books/book-ii/)
+- [Book II, Part VIII: Self-Enrichment, Yoneda, and Higher Categories](/publications/books/book-ii/part-08-self-enrichment-yoneda-and-higher-categories/)
 
 ## Related Results
 
 - [Self-Enrichment, Self-Containment, and Internal Logic](/results/world-readout/mathematics/self-enrichment-self-containment-and-internal-logic/)
 - [Earned Topos](/results/problem/earned-topos/)
 
-## Verification modes
+## Verification Modes
 
 - internal-logic checks
 - categorical consistency
 - semantic correspondence
+- `meta-verification review`
 
-## Bridge checks
+## Bridge Checks
 
-- Check that internal logical operations remain faithful to the kernel discipline and do not silently import external proof power.
+- Check that internal logical operations and enrichment remain faithful to the kernel discipline and do not silently import external proof power.
 
-## Empirical checks
+## Empirical Checks
 
-_Empirical checks are not applicable as direct empirical checks at this step. This step supports later empirical accountability through downstream construction._
+Not applicable at this construction step.
 
 ## Related Verify surfaces
 
@@ -176,7 +278,8 @@ _Empirical checks are not applicable as direct empirical checks at this step. Th
 
 ## Publication projection
 
-- [Book I](/publications/books/book-i/)
+- [The τ-Kernel as Foundational Architecture](/publications/research-papers/tau-kernel-foundational-architecture/)
+- [Book II](/publications/books/book-ii/)
 
 ## Current build status
 
@@ -184,11 +287,11 @@ _Empirical checks are not applicable as direct empirical checks at this step. Th
 
 ## What this step does not yet establish
 
-This step begins self-containment. It does not yet self-host formal systems or test final ontic closure.
+Step 3 begins formal self-containment. It does not self-host every formal system, settle semantic bridge adequacy, or prove final ontic closure; those burdens remain for later construction steps, especially Step 9 and Step 10.
 
-## Unresolved frontiers
+## Unresolved Frontiers
 
-- Internalization of logic does not yet self-host object theories or settle semantic bridge adequacy.
+- Internalization of logic does not yet self-host object theories, settle semantic bridge adequacy, or establish final ontic closure.
 
 ## Spine navigation
 

@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import shutil
@@ -502,10 +503,7 @@ This is the Results-side mirror of the Program-side Recovery Requirements ledger
         )
 
 
-def main() -> int:
-    if not CORPUS_EXPORTS.exists():
-        raise SystemExit(f"Missing Corpus public exports: {CORPUS_EXPORTS}")
-
+def sync_problem_recovery_agenda() -> None:
     for filename in ("problem-ledger.json", "problem-ledger.ndjson", "problem-ledger.csv"):
         source = CORPUS_EXPORTS / filename
         copy_file(source, SITE_ROOT / "_data" / "problem_ledger" / filename)
@@ -516,6 +514,17 @@ def main() -> int:
         copy_file(source, SITE_ROOT / "_data" / "recovery_requirements" / filename)
         copy_file(source, SITE_ROOT / "assets" / "data" / "recovery-requirements" / filename)
 
+    source = CORPUS_EXPORTS / "agenda-progress.json"
+    copy_file(source, SITE_ROOT / "_data" / "agenda_progress" / "agenda-progress.json")
+    copy_file(source, SITE_ROOT / "assets" / "data" / "agenda-progress" / "agenda-progress.json")
+
+    copy_tree(CORPUS_EXPORTS / "problem-items", SITE_ROOT / "_problem_ledger")
+    copy_tree(CORPUS_EXPORTS / "recovery-requirements", SITE_ROOT / "_recovery_requirements")
+    generate_problem_answer_pages()
+    generate_recovery_status_pages()
+
+
+def sync_foundations() -> None:
     for filename in ("construction-spine.json", "construction-spine.ndjson", "construction-spine.csv"):
         source = CORPUS_EXPORTS / filename
         copy_file(source, SITE_ROOT / "_data" / "construction_spine" / filename)
@@ -525,15 +534,35 @@ def main() -> int:
         SITE_ROOT / "_data" / "construction_spine" / "construction-spine-data.json",
     )
 
-    source = CORPUS_EXPORTS / "agenda-progress.json"
-    copy_file(source, SITE_ROOT / "_data" / "agenda_progress" / "agenda-progress.json")
-    copy_file(source, SITE_ROOT / "assets" / "data" / "agenda-progress" / "agenda-progress.json")
+    for filename in ("foundational-hinges.json", "foundational-hinges.ndjson", "foundational-hinges.csv"):
+        source = CORPUS_EXPORTS / filename
+        copy_file(source, SITE_ROOT / "_data" / "foundational_hinges" / filename)
+        copy_file(source, SITE_ROOT / "assets" / "data" / "foundational-hinges" / filename)
+    copy_file(
+        CORPUS_EXPORTS / "foundational-hinges.json",
+        SITE_ROOT / "_data" / "foundational_hinges" / "foundational-hinges-data.json",
+    )
 
-    copy_tree(CORPUS_EXPORTS / "problem-items", SITE_ROOT / "_problem_ledger")
-    copy_tree(CORPUS_EXPORTS / "recovery-requirements", SITE_ROOT / "_recovery_requirements")
     copy_tree(CORPUS_EXPORTS / "construction-spine" / "steps", SITE_ROOT / "corpus" / "construction-spine")
-    generate_problem_answer_pages()
-    generate_recovery_status_pages()
+    copy_tree(CORPUS_EXPORTS / "foundational-hinges", SITE_ROOT / "corpus" / "foundational-hinges")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--scope",
+        choices=("all", "foundations"),
+        default="all",
+        help="Sync all Corpus public exports, or only Construction Spine / Foundational Hinges.",
+    )
+    args = parser.parse_args()
+
+    if not CORPUS_EXPORTS.exists():
+        raise SystemExit(f"Missing Corpus public exports: {CORPUS_EXPORTS}")
+
+    if args.scope == "all":
+        sync_problem_recovery_agenda()
+    sync_foundations()
     return 0
 
 

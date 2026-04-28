@@ -8,6 +8,8 @@ right_rail:
   related:
     - title: "How to Audit (Hub)"
       url: /verify/how-to-audit/
+    - title: "Master Constant Hinge"
+      url: /corpus/foundational-hinges/master-constant-iota-tau/
     - title: "Predictions Browse"
       url: /results/predictions/browse/
     - title: "Falsification Pack"
@@ -22,6 +24,13 @@ right_rail:
 ---
 
 This route is for physicists evaluating the framework's empirical content. Books IV and V are the primary technical references, but the load-bearing claims sit in three specific artifacts that you can inspect in under two hours.
+
+Before reading the numerical physics ledger, inspect whether the master constant is kernel-forced:
+
+- [Hinge 3 — The Master Constant iota_tau]({{ '/corpus/foundational-hinges/master-constant-iota-tau/' | relative_url }})
+- [The Master Constant iota_tau research paper]({{ '/publications/research-papers/master-constant-iota-tau/' | relative_url }})
+
+If this hinge fails, the ledger may still contain numerical patterns, but it cannot carry the same zero-parameter foundation claim.
 
 ## The three artifacts to inspect first
 

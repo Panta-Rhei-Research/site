@@ -12,9 +12,11 @@ og_image: /assets/images/plates/plate-04-construction-spine-og.jpg
 twitter_image: /assets/images/plates/plate-04-construction-spine-og.jpg
 og_image_alt: "Scientific plate showing the Corpus Construction Spine as a ten-step build sequence from Kernel to Ontic Closure."
 hero_ctas:
-  - label: "Step 1: Define the Kernel"
+  - label: "Step 1: Build the τ-Kernel"
     url: /corpus/construction-spine/define-the-kernel/
     primary: true
+  - label: "Foundational Hinges"
+    url: /corpus/foundational-hinges/
   - label: "Construction Roadmap"
     url: /program/research-agenda/construction-roadmap/
   - label: "Progress Against Agenda"
@@ -23,6 +25,8 @@ right_rail:
   related:
     - title: "Verify the Construction Spine"
       url: /verify/construction-spine-verification/
+    - title: "Foundational Hinges"
+      url: /corpus/foundational-hinges/
     - title: "Registry"
       url: /corpus/registry/
     - title: "TauLib"
@@ -64,6 +68,16 @@ The ten construction steps show how the Corpus is built: not as a timeline or sp
 {% include scientific-plate.html id="plate-10-tau-kernel" variant="thumb" class="scientific-plate--compact scientific-plate--tau-kernel" caption=tau_kernel_plate_caption loading="lazy" %}
 
 The first construction step defines the kernel before later mathematics, physics, life, reflection, self-hosting, and ontic-closure burdens can be read as generated structure.
+
+### Foundational hinge route
+
+The first three construction steps are supported by a foundational hinge route: eight standalone research papers plus a bundle memo. These papers isolate the make-or-break mathematical constructions behind the τ-Kernel, recovered mathematics, and self-enrichment. Use the hinge route when you want the stress-test packet rather than the full monograph or atomic registry.
+
+<div class="btn-group section-ctas">
+  <a class="btn-secondary" href="{{ '/corpus/foundational-hinges/' | relative_url }}">Open the Foundational Hinges</a>
+  <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
+  <a class="btn-ghost" href="{{ '/registry/dashboards/book-i/' | relative_url }}">Book I Dashboard</a>
+</div>
 
 ## The ten construction steps
 

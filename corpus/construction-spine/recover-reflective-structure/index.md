@@ -76,7 +76,6 @@ generated_from: "corpus/construction-spine"
 projection_version: "v0.1"
 canonical_source: "corpus/construction-spine"
 do_not_edit: true
-_body: "## What this step builds\n\nThe eighth step builds the bridge from life to reflection. It concerns cognition, perception, memory, self-modeling, symbolic mediation, language, meaning, truth, value, and normativity.\n\n## Why this step is required\n\nMind, meaning, and value cannot be bolted on from outside after physics and life have been built. The Corpus must recover the structural layer in which these topics become intelligible.\n\n## Key constructions\n\n- Cognition and perception.\n- Memory and learning.\n- Self-modeling.\n- Symbolic mediation and language.\n- Truth, value, and normativity."
 layout: "program-doc"
 permalink: "/corpus/construction-spine/recover-reflective-structure/"
 lane: "corpus"
@@ -96,9 +95,13 @@ construction_step_id: "CS-08"
 
 The program must recover the structures through which life becomes reflective, symbolic, and meaning-bearing.
 
-## What the Corpus built
+## What the corpus built
 
 The Corpus frames the life-to-reflection transition as the place where mind, language, truth, value, and normativity become addressable.
+
+## What this step builds
+
+The eighth step builds the bridge from life to reflection. It concerns cognition, perception, memory, self-modeling, symbolic mediation, language, meaning, truth, value, and normativity.
 
 ## Why this step is required
 
@@ -114,11 +117,11 @@ Mind, meaning, and value cannot be bolted on from outside after physics and life
 
 ## Registry spine
 
-_No direct mapping is required for this step yet._
+_Mapping pending._
 
 ## TauLib modules
 
-_No dedicated TauLib module is required at this step yet._
+_Mapping pending._
 
 ## Book locations
 
@@ -129,19 +132,19 @@ _No dedicated TauLib module is required at this step yet._
 - [Metaphysics World Readout](/results/world-readout/metaphysics/)
 - [Mind, Consciousness, and the Self-Model](/results/world-readout/metaphysics/mind-consciousness-and-the-self-model/)
 
-## Verification modes
+## Verification Modes
 
 - answer-shape checks
 - conceptual consistency
 - `life-metaphysics bridge verification`
 
-## Bridge checks
+## Bridge Checks
 
 - Check that reflective-structure claims expose their dependence on earlier life and logic construction rather than bypassing them.
 
-## Empirical checks
+## Empirical Checks
 
-_Direct empirical checks are downstream or domain-dependent at this step. Reflective-structure claims require separate life, semantic, and metaphysical verification routes._
+_Mapping pending._
 
 ## Related Verify surfaces
 
@@ -161,7 +164,7 @@ _Direct empirical checks are downstream or domain-dependent at this step. Reflec
 
 This step does not claim a complete solution of consciousness by itself. It constructs the structural layer where consciousness and meaning become addressable.
 
-## Unresolved frontiers
+## Unresolved Frontiers
 
 - Reflective structure does not by itself settle external acceptance, phenomenological adequacy, or ontic closure.
 

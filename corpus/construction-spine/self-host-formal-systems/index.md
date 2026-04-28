@@ -79,7 +79,6 @@ generated_from: "corpus/construction-spine"
 projection_version: "v0.1"
 canonical_source: "corpus/construction-spine"
 do_not_edit: true
-_body: "## What this step builds\n\nThe ninth step concerns formal systems as internal objects: ZFC-like theories, Lean-like kernels, the tau-kernel as represented object, proof as act, computation as performed process, and meta-language internalization.\n\n## Why this step is required\n\nThe program begins with a formal kernel, but self-hosting is not available at the beginning. It requires reflective symbolic structure capable of writing, interpreting, manipulating, and reasoning over formal systems as objects.\n\n## Key constructions\n\n- Formal systems as objects.\n- ZFC as object theory.\n- Lean-like proof kernels as object theories.\n- The tau-kernel as represented object.\n- Controlled self-reference."
 layout: "program-doc"
 permalink: "/corpus/construction-spine/self-host-formal-systems/"
 lane: "corpus"
@@ -99,9 +98,13 @@ construction_step_id: "CS-09"
 
 The program must recover the ability to host ZFC-like systems, Lean-like proof kernels, and the tau-kernel itself as internal objects after reflective symbolic structure exists.
 
-## What the Corpus built
+## What the corpus built
 
 The Corpus frames formal systems as hostable object theories only after reflective symbolic structure has been recovered.
+
+## What this step builds
+
+The ninth step concerns formal systems as internal objects: ZFC-like theories, Lean-like kernels, the tau-kernel as represented object, proof as act, computation as performed process, and meta-language internalization.
 
 ## Why this step is required
 
@@ -117,13 +120,13 @@ The program begins with a formal kernel, but self-hosting is not available at th
 
 ## Registry spine
 
-- [`I.D77`](/registry/object/I.D77/)
-- [`I.D80`](/registry/object/I.D80/)
-- [`I.D82`](/registry/object/I.D82/)
+- `I.D77`
+- `I.D80`
+- `I.D82`
 
 ## TauLib modules
 
-- [`TauLib.BookI.Kernel.Signature`](/verify/taulib/docs/book-i-kernel-signature/)
+- `TauLib.BookI.Kernel.Signature`
 
 ## Book locations
 
@@ -134,19 +137,19 @@ The program begins with a formal kernel, but self-hosting is not available at th
 - [Pattern, Language, and Proof](/results/world-readout/metaphysics/pattern-language-and-proof/)
 - [Translation Functor Tau-ZFC](/results/problem/translation-functor-tau-zfc/)
 
-## Verification modes
+## Verification Modes
 
 - `meta-verification`
 - object-theory hosting checks
 - proof-as-act analysis
 
-## Bridge checks
+## Bridge Checks
 
 - Check that self-hosted formal systems are represented as constructed objects rather than silently adopted primitives.
 
-## Empirical checks
+## Empirical Checks
 
-_Direct empirical checks are not the primary burden at this step. This step is assessed through meta-verification, no-externalities review, and explicit boundary disclosure._
+_Mapping pending._
 
 ## Related Verify surfaces
 
@@ -166,7 +169,7 @@ _Direct empirical checks are not the primary burden at this step. This step is a
 
 This step must not imply that ZFC is canonical in the raw kernel. ZFC becomes hostable only once reflective symbolic structure exists.
 
-## Unresolved frontiers
+## Unresolved Frontiers
 
 - Self-hosting does not by itself imply final closure or universal bridge adequacy.
 

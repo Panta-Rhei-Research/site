@@ -178,9 +178,11 @@ If an artifact fits none of these categories, a new category should only be intr
 ## Suggested reading order
 
 1. Start with the Framework Conspectus if you need a compact overview.
-2. Read the Research Monographs for canonical proof-order exposition.
-3. Use Monograph Supplements for extended ledgers, appendices, and book-style supporting material.
-4. Use Research Notes for current scholarly responses, comparisons, and pre-registration notes.
-5. Use Research Briefings for domain-facing translation and public-good scenario analyses.
-6. Use White Papers for technical and methodological orientation.
-7. Use Release Artifacts to inspect version status, errata, and archived releases.
+2. Use the Corpus Construction Spine to understand build order.
+3. Use Research Papers for standalone technical hinge artifacts, especially the foundational bundle behind Steps 1-3.
+4. Read the Research Monographs for canonical proof-order exposition.
+5. Use Monograph Supplements for extended ledgers, appendices, and book-style supporting material.
+6. Use Research Notes for current scholarly responses, comparisons, and pre-registration notes.
+7. Use Research Briefings for domain-facing translation and public-good scenario analyses.
+8. Use White Papers for technical and methodological orientation.
+9. Use Release Artifacts to inspect version status, errata, and archived releases.

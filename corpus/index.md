@@ -21,6 +21,8 @@ hero_ctas:
   - label: "Follow the Construction Spine"
     url: /corpus/construction-spine/
     primary: true
+  - label: "Foundational Hinges"
+    url: /corpus/foundational-hinges/
   - label: "Browse the Registry"
     url: /corpus/registry/
   - label: "How to Read"
@@ -29,6 +31,8 @@ right_rail:
   related:
     - title: "Construction Spine"
       url: /corpus/construction-spine/
+    - title: "Foundational Hinges"
+      url: /corpus/foundational-hinges/
     - title: "Registry"
       url: /corpus/registry/
     - title: "Types"
@@ -73,6 +77,16 @@ The Construction Spine is the primary human-readable route into the Corpus. It s
 
 The τ-Kernel is the formal starting point of the construction. It is not a hidden physical substrate; it is the constrained formal core from which the Corpus begins.
 
+## Foundational hinge route
+
+The first three construction steps now have a dedicated reviewer route: eight foundational hinge papers plus a bundle memo, surfaced through Corpus-native hinge pages. These pages explain how the kernel is built, how core mathematics is recovered, and how self-enrichment begins.
+
+<div class="btn-group section-ctas">
+  <a class="btn-secondary" href="{{ '/corpus/foundational-hinges/' | relative_url }}">Open the Foundational Hinges</a>
+  <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
+  <a class="btn-ghost" href="{{ '/verify/how-to-audit/mathematician/' | relative_url }}">Mathematician Audit Route</a>
+</div>
+
 ## Current state
 
 The current registry is the public atomic projection of the corpus. The primary human-readable route into the Corpus is the [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}): the build-order narrative from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.
@@ -83,6 +97,14 @@ The current registry is the public atomic projection of the corpus. The primary 
       <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}">
         <h3>10 construction steps</h3>
         <p>The public build narrative that aligns Agenda obligations, Corpus construction, and Results status.</p>
+      </a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/corpus/foundational-hinges/' | relative_url }}">
+        <h3>8 foundational hinges</h3>
+        <p>The reviewer-facing stress-test route for the mathematical hinges behind Steps 1-3.</p>
       </a>
     </article>
   </li>
@@ -118,6 +140,7 @@ The current registry is the public atomic projection of the corpus. The primary 
 The corpus is expressed in multiple public forms:
 
 - [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) — human-readable build narrative
+- [Foundational Hinges]({{ '/corpus/foundational-hinges/' | relative_url }}) — reviewer-facing route for the first mathematical hinges
 - [Registry]({{ '/corpus/registry/' | relative_url }}) — human-readable formal spine
 - [Publications]({{ '/publications/' | relative_url }}) — narrative crystallizations
 - [Results]({{ '/results/' | relative_url }}) — answer surfaces

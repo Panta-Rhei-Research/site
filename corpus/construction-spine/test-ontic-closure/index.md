@@ -78,7 +78,6 @@ generated_from: "corpus/construction-spine"
 projection_version: "v0.1"
 canonical_source: "corpus/construction-spine"
 do_not_edit: true
-_body: "## What this step builds\n\nThe final step gathers the strongest closure burdens: no externalities, substrate non-deferral, diagrammatic access, self-containment, universal invariance, bridge adequacy, residual boundaries, and ontic status.\n\n## Why this step is required\n\nOntic status cannot be asserted at the beginning. It can only be tested after the construction has faced mathematics, physics, life, reflection, and self-hosting.\n\n## Key constructions\n\n- No externalities.\n- Substrate non-deferral.\n- Self-containment and universal properties.\n- Bridge adequacy.\n- Residual-boundary disclosure."
 layout: "program-doc"
 permalink: "/corpus/construction-spine/test-ontic-closure/"
 lane: "corpus"
@@ -98,9 +97,13 @@ construction_step_id: "CS-10"
 
 The program must test whether the kernel can earn ontic seriousness after mathematics, physics, life, reflection, and self-hosting have been built.
 
-## What the Corpus built
+## What the corpus built
 
 The Corpus exposes the closure question as the final evaluation point, not as a premise asserted at the beginning.
+
+## What this step builds
+
+The final step gathers the strongest closure burdens: no externalities, substrate non-deferral, diagrammatic access, self-containment, universal invariance, bridge adequacy, residual boundaries, and ontic status.
 
 ## Why this step is required
 
@@ -116,13 +119,13 @@ Ontic status cannot be asserted at the beginning. It can only be tested after th
 
 ## Registry spine
 
-- [`I.K0`](/registry/object/I.K0/)
-- [`I.D77`](/registry/object/I.D77/)
-- [`I.D80`](/registry/object/I.D80/)
+- `I.K0`
+- `I.D77`
+- `I.D80`
 
 ## TauLib modules
 
-_No dedicated TauLib module is required at this step yet._
+_Mapping pending._
 
 ## Book locations
 
@@ -133,20 +136,20 @@ _No dedicated TauLib module is required at this step yet._
 - [Logos and the Final Boundary](/results/world-readout/metaphysics/logos-and-the-final-boundary/)
 - [The Final Self-Enrichment](/results/world-readout/metaphysics/the-final-self-enrichment-why-there-is-no-e4/)
 
-## Verification modes
+## Verification Modes
 
 - no-externalities audit
 - substrate non-deferral
 - residual-boundary disclosure
 - ontic-status burden
 
-## Bridge checks
+## Bridge Checks
 
 - Check whether every remaining externality, substrate deferral, or unexplained boundary is explicitly named.
 
-## Empirical checks
+## Empirical Checks
 
-_Direct empirical checks are not the primary burden at this step. This step is assessed through meta-verification, no-externalities review, and explicit boundary disclosure._
+_Mapping pending._
 
 ## Related Verify surfaces
 
@@ -166,11 +169,11 @@ _Direct empirical checks are not the primary burden at this step. This step is a
 
 This step does not say the kernel has proven final ontic status. It is where the strongest ontic-status claim can be evaluated.
 
-## Unresolved frontiers
+## Unresolved Frontiers
 
 - Ontic closure remains the strongest evaluative burden, not a theorem the site should present as already settled.
 
 ## Spine navigation
 
 - Previous: [Step 9 — Self-Host Formal Systems and the Kernel Itself](/corpus/construction-spine/self-host-formal-systems/)
-- Next: [Construction Spine overview](/corpus/construction-spine/)
+- Next: This is the final construction step; return to the [Construction Spine overview](/corpus/construction-spine/).

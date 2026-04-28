@@ -1,0 +1,9 @@
+id,sequence,hinge_label,title,slug,corpus_path,publication_url,doi
+FH-H8,1,H8,The τ-Kernel as Foundational Architecture,tau-kernel-foundational-architecture,/corpus/foundational-hinges/tau-kernel-foundational-architecture/,/publications/research-papers/tau-kernel-foundational-architecture/,10.5281/zenodo.19820600
+FH-H1,2,H1,The Hyperfactorization Theorem,hyperfactorization-theorem,/corpus/foundational-hinges/hyperfactorization-theorem/,/publications/research-papers/hyperfactorization-theorem/,10.5281/zenodo.19818957
+FH-H2,3,H2,The Prime Polarity Theorem,prime-polarity-theorem,/corpus/foundational-hinges/prime-polarity-theorem/,/publications/research-papers/prime-polarity-theorem/,10.5281/zenodo.19819869
+FH-H4,4,H4,The Split-Complex Boundary Algebra D,split-complex-boundary-algebra,/corpus/foundational-hinges/split-complex-boundary-algebra/,/publications/research-papers/split-complex-boundary-algebra/,10.5281/zenodo.19818743
+FH-H5,5,H5,τ-Holomorphy on the Boundary Algebra,tau-holomorphy-boundary-algebra,/corpus/foundational-hinges/tau-holomorphy-boundary-algebra/,/publications/research-papers/tau-holomorphy-boundary-algebra/,10.5281/zenodo.19818852
+FH-H6,6,H6,The τ-Topos and Its Four-Valued Internal Logic,tau-topos-four-valued-internal-logic,/corpus/foundational-hinges/tau-topos-four-valued-internal-logic/,/publications/research-papers/tau-topos-four-valued-internal-logic/,10.5281/zenodo.19820194
+FH-H7,7,H7,"Address Resolution, Not Calculation",address-resolution-not-calculation,/corpus/foundational-hinges/address-resolution-not-calculation/,/publications/research-papers/address-resolution-not-calculation/,10.5281/zenodo.19818628
+FH-H3,8,H3,The Master Constant iota_tau,master-constant-iota-tau,/corpus/foundational-hinges/master-constant-iota-tau/,/publications/research-papers/master-constant-iota-tau/,10.5281/zenodo.19820352

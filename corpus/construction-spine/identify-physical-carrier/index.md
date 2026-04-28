@@ -76,7 +76,6 @@ generated_from: "corpus/construction-spine"
 projection_version: "v0.1"
 canonical_source: "corpus/construction-spine"
 do_not_edit: true
-_body: "## What this step builds\n\nThis step turns the Agenda question \"where can physics live inside the kernel?\" into a Corpus construction problem. It identifies the structural layer that can carry physical roles before measurements or empirical adequacy are discussed.\n\n## Why this step is required\n\nPhysics cannot be assumed as a finished external domain. The Corpus must first explain what kind of internal structure can support physical meaning at all.\n\n## Key constructions\n\n- The carrier problem.\n- Locality and globality.\n- Entities, observables, and interactions.\n- Dynamics and lawfulness as internal roles."
 layout: "program-doc"
 permalink: "/corpus/construction-spine/identify-physical-carrier/"
 lane: "corpus"
@@ -96,9 +95,13 @@ construction_step_id: "CS-04"
 
 The program must locate a structure inside the kernel capable of carrying physical semantics: locality, globality, entities, observables, interactions, dynamics, and lawfulness.
 
-## What the Corpus built
+## What the corpus built
 
 The Corpus identifies the physical-carrier problem through the relevant self-enrichment and unitary construction layer.
+
+## What this step builds
+
+This step turns the Agenda question "where can physics live inside the kernel?" into a Corpus construction problem. It identifies the structural layer that can carry physical roles before measurements or empirical adequacy are discussed.
 
 ## Why this step is required
 
@@ -113,13 +116,13 @@ Physics cannot be assumed as a finished external domain. The Corpus must first e
 
 ## Registry spine
 
-- [`I.P28`](/registry/object/I.P28/)
-- [`I.D80`](/registry/object/I.D80/)
-- [`I.D82`](/registry/object/I.D82/)
+- `I.P28`
+- `I.D80`
+- `I.D82`
 
 ## TauLib modules
 
-- `TauLib.BookI.Category` (docs/source pending)
+- `TauLib.BookI.Category`
 
 ## Book locations
 
@@ -130,19 +133,19 @@ Physics cannot be assumed as a finished external domain. The Corpus must first e
 - [How Physical Things First Appear](/results/world-readout/physics/how-physical-things-first-appear/)
 - [Physical Reality as a Semantic Reading](/results/problem/physical-reality-as-a-semantic-reading-of-e1/)
 
-## Verification modes
+## Verification Modes
 
 - carrier identification
 - semantic adequacy
 - bridge plausibility
 
-## Bridge checks
+## Bridge Checks
 
 - Check that the identified carrier is exposed through explicit dependency chains rather than ontological hand-waving.
 
-## Empirical checks
+## Empirical Checks
 
-_Direct empirical checks are downstream of this step. Measurement, calibration, and falsification burdens begin once empirical bridge surfaces are constructed._
+_Mapping pending._
 
 ## Related Verify surfaces
 
@@ -162,11 +165,11 @@ _Direct empirical checks are downstream of this step. Measurement, calibration, 
 
 This step identifies the carrier for physics. It does not yet complete internal physical grammar or empirical measurement bridge.
 
-## Unresolved frontiers
+## Unresolved Frontiers
 
 - Carrier identification is not yet empirical bridge success or quantitative prediction.
 
 ## Spine navigation
 
-- Previous: [Step 3 — Internalize Logic and Categorical Self-Structure](/corpus/construction-spine/internalize-logic/)
+- Previous: [Step 3 — Internalize Self-Enrichment](/corpus/construction-spine/internalize-logic/)
 - Next: [Step 5 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)

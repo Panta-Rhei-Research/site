@@ -2,15 +2,15 @@
   {
     "id": "CS-01",
     "sequence": 1,
-    "title": "Define the Kernel",
-    "short_title": "Kernel",
+    "title": "Build the τ-Kernel",
+    "short_title": "τ-Kernel",
     "slug": "define-the-kernel",
     "agenda_path": "/program/research-agenda/construction-roadmap/#define-the-kernel",
     "corpus_path": "/corpus/construction-spine/define-the-kernel/",
     "results_path": "/results/progress-against-agenda/",
-    "summary": "Defines the minimal formal core from which the rest of the Corpus is built.",
-    "required_to_do": "The program must define a kernel precise enough to build from without importing mathematics, physics, life, or metaphysics as finished inputs.",
-    "what_built": "The Corpus presents the five generators, progression operator, K0-K6 axioms, boundary behavior, and diagonal/resource discipline of the tau-kernel.",
+    "summary": "Builds the full internal kernel machine: five generators, one primitive progression operator, K0-K6, multiplicative and exponential address structure, boundary algebra, τ-holomorphy, and internal truth machinery.",
+    "required_to_do": "The program must build a kernel precise enough to generate objects, constrain admissible construction, retain global address structure, and expose the boundary behavior needed by later mathematics, physics, life, reflection, and ontic-closure tests.",
+    "what_built": "The Corpus presents the five generators, progression operator, K0-K6 axioms, boundary behavior, diagonal/resource discipline, hyperfactorization, prime polarity, split-complex boundary algebra, τ-holomorphy, and τ-topos/four-valued internal logic as kernel machinery rather than downstream applications.",
     "build_status": "internally_addressed",
     "build_status_label": "Internally addressed; formalization partial",
     "related_recovery_requirements": [
@@ -33,14 +33,54 @@
       "I.K4",
       "I.K5",
       "I.K6",
-      "I.P01"
+      "I.P01",
+      "I.T04",
+      "I.T05",
+      "I.T10",
+      "I.D20",
+      "I.D21",
+      "I.D42",
+      "I.D43",
+      "I.D47",
+      "I.D57",
+      "I.T25",
+      "I.P27"
     ],
     "related_taulib_modules": [
-      "TauLib.BookI.Kernel.Signature",
-      "TauLib.BookI.Kernel.Axioms"
+      {
+        "title": "TauLib.BookI.Kernel.Signature",
+        "url": "/verify/taulib/docs/book-i-kernel-signature/"
+      },
+      {
+        "title": "TauLib.BookI.Kernel.Axioms",
+        "url": "/verify/taulib/docs/book-i-kernel-axioms/"
+      },
+      {
+        "title": "TauLib.BookI.Kernel.Diagonal",
+        "url": "/verify/taulib/docs/book-i-kernel-diagonal/"
+      },
+      {
+        "title": "TauLib.BookI.Boundary.SplitComplex",
+        "url": "/verify/taulib/docs/book-i-boundary-split-complex/"
+      },
+      {
+        "title": "TauLib.BookI.Holomorphy.TauHolomorphic",
+        "url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/"
+      },
+      {
+        "title": "TauLib.BookI.Topos.EarnedTopos",
+        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
+      }
     ],
     "related_books": [
-      "Book I, kernel foundations and early axioms"
+      {
+        "title": "Book I",
+        "url": "/publications/books/book-i/"
+      },
+      {
+        "title": "Book I Registry Dashboard",
+        "url": "/registry/dashboards/book-i/"
+      }
     ],
     "related_results": [
       {
@@ -56,12 +96,40 @@
       {
         "title": "TauLib",
         "url": "/verify/taulib/"
+      },
+      {
+        "title": "TCB Disclosure",
+        "url": "/verify/tcb/"
       }
     ],
     "related_publications": [
       {
-        "title": "Book I",
-        "url": "/publications/books/book-i/"
+        "title": "The Panta Rhei Foundational Bundle",
+        "url": "/publications/research-papers/panta-rhei-foundational-bundle/"
+      },
+      {
+        "title": "The τ-Kernel as Foundational Architecture",
+        "url": "/publications/research-papers/tau-kernel-foundational-architecture/"
+      },
+      {
+        "title": "The Hyperfactorization Theorem",
+        "url": "/publications/research-papers/hyperfactorization-theorem/"
+      },
+      {
+        "title": "The Prime Polarity Theorem",
+        "url": "/publications/research-papers/prime-polarity-theorem/"
+      },
+      {
+        "title": "The Split-Complex Boundary Algebra D",
+        "url": "/publications/research-papers/split-complex-boundary-algebra/"
+      },
+      {
+        "title": "τ-Holomorphy on the Boundary Algebra",
+        "url": "/publications/research-papers/tau-holomorphy-boundary-algebra/"
+      },
+      {
+        "title": "The τ-Topos and Its Four-Valued Internal Logic",
+        "url": "/publications/research-papers/tau-topos-four-valued-internal-logic/"
       }
     ],
     "verification": {
@@ -69,16 +137,25 @@
         "formal proof checking",
         "axiom inventory",
         "TCB disclosure",
-        "kernel consistency"
+        "kernel consistency",
+        "foundational hinge review"
       ],
       "taulib_modules": [
-        "TauLib.BookI.Kernel.Signature",
-        "TauLib.BookI.Kernel.Axioms"
+        {
+          "title": "TauLib.BookI.Kernel.Signature",
+          "url": "/verify/taulib/docs/book-i-kernel-signature/"
+        },
+        {
+          "title": "TauLib.BookI.Kernel.Axioms",
+          "url": "/verify/taulib/docs/book-i-kernel-axioms/"
+        }
       ],
+      "bridge_check_status": "not_applicable",
       "bridge_checks": [],
+      "empirical_check_status": "not_applicable",
       "empirical_checks": [],
       "unresolved_frontiers": [
-        "Kernel definition does not by itself settle later bridge, empirical, or ontic-status burdens."
+        "Kernel construction does not by itself settle later bridge, empirical, life, metaphysical, or ontic-status burdens."
       ],
       "related_verify_pages": [
         {
@@ -92,16 +169,21 @@
         {
           "title": "TCB Disclosure",
           "url": "/verify/tcb/"
+        },
+        {
+          "title": "Mathematician Audit Route",
+          "url": "/verify/how-to-audit/mathematician/"
         }
       ]
     },
-    "what_not_establish": "This step defines the formal kernel. It does not yet recover mathematics, identify physics, or establish ontic status.",
+    "what_not_establish": "Step 1 builds the kernel machinery. It does not by itself establish empirical physics, biological classification, consciousness, ethics, metaphysics, final ontic closure, or every bridge to standard mathematics.",
     "next_step_id": "CS-02",
     "tags": [
       "construction-spine",
       "kernel",
       "axioms",
       "generators",
+      "foundational-hinges",
       "taulib"
     ],
     "generated_from": "corpus/construction-spine",
@@ -118,9 +200,9 @@
     "agenda_path": "/program/research-agenda/construction-roadmap/#recover-core-mathematics",
     "corpus_path": "/corpus/construction-spine/recover-core-mathematics/",
     "results_path": "/results/world-readout/mathematics/",
-    "summary": "Recovers the mathematical substrate needed for proof, calculation, geometry, and later domain construction.",
-    "required_to_do": "The program must recover enough mathematics for later layers without silently importing unrestricted classical externalities.",
-    "what_built": "The Corpus builds finite syntax, proof objects, arithmetic, algebraic usability, geometry, controlled boundary behavior, and bridge criteria into standard mathematics.",
+    "summary": "Recovers usable mathematics from the kernel: finite syntax, address-resolution arithmetic, topology, geometry, number towers, scalar systems, and bridge discipline.",
+    "required_to_do": "The program must recover enough mathematics for proof, arithmetic, topology, geometry, scalar readout, and later domain construction without silently importing unrestricted classical externalities.",
+    "what_built": "The Corpus builds finite syntax, proof objects, address-resolution arithmetic, normal forms, canonical addresses, algebraic usability, ultrametric topology, Euclidean/Tarski-style geometry, constructive scalar systems, and explicit bridge criteria into standard mathematics.",
     "build_status": "partially_built",
     "build_status_label": "Partially built; bridge verification continuing",
     "related_recovery_requirements": [
@@ -143,18 +225,57 @@
       "I.D10",
       "I.D11",
       "I.D12",
+      "I.D16",
+      "I.D23",
+      "I.D24",
+      "I.D34",
       "I.D35",
       "I.D36",
+      "I.D39",
       "I.P06",
       "I.P07",
+      "I.P09",
       "I.P13"
     ],
     "related_taulib_modules": [
-      "TauLib.BookI.Arithmetic",
-      "TauLib.BookI.Geometry"
+      {
+        "title": "TauLib.BookI.Denotation.Arithmetic",
+        "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
+      },
+      {
+        "title": "TauLib.BookII.Geometry.Betweenness",
+        "url": "/verify/taulib/docs/book-ii-geometry-betweenness/"
+      },
+      {
+        "title": "TauLib.BookII.Geometry.Congruence",
+        "url": "/verify/taulib/docs/book-ii-geometry-congruence/"
+      },
+      {
+        "title": "TauLib.BookII.Geometry.PaschParallel",
+        "url": "/verify/taulib/docs/book-ii-geometry-pasch-parallel/"
+      },
+      {
+        "title": "TauLib.BookI.Boundary.Iota",
+        "url": "/verify/taulib/docs/book-i-boundary-iota/"
+      },
+      {
+        "title": "TauLib.BookI.Boundary.NumberTower",
+        "url": "/verify/taulib/docs/book-i-boundary-number-tower/"
+      }
     ],
     "related_books": [
-      "Book I, arithmetic and geometry development"
+      {
+        "title": "Book I",
+        "url": "/publications/books/book-i/"
+      },
+      {
+        "title": "Book II",
+        "url": "/publications/books/book-ii/"
+      },
+      {
+        "title": "Book I Registry Dashboard",
+        "url": "/registry/dashboards/book-i/"
+      }
     ],
     "related_results": [
       {
@@ -174,27 +295,56 @@
       {
         "title": "Bridge Verification",
         "url": "/verify/verification-framework/"
+      },
+      {
+        "title": "Mathematician Audit Route",
+        "url": "/verify/how-to-audit/mathematician/"
       }
     ],
     "related_publications": [
       {
+        "title": "Address Resolution, Not Calculation",
+        "url": "/publications/research-papers/address-resolution-not-calculation/"
+      },
+      {
+        "title": "The Master Constant iota_tau",
+        "url": "/publications/research-papers/master-constant-iota-tau/"
+      },
+      {
         "title": "Book I",
         "url": "/publications/books/book-i/"
+      },
+      {
+        "title": "Book II",
+        "url": "/publications/books/book-ii/"
       }
     ],
     "verification": {
       "primary_modes": [
         "formal proof checking",
         "mathematical bridge verification",
-        "refusal discipline"
+        "refusal discipline",
+        "foundational hinge review"
       ],
       "taulib_modules": [
-        "TauLib.BookI.Arithmetic",
-        "TauLib.BookI.Geometry"
+        {
+          "title": "TauLib.BookI.Denotation.Arithmetic",
+          "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
+        },
+        {
+          "title": "TauLib.BookI.Boundary.Iota",
+          "url": "/verify/taulib/docs/book-i-boundary-iota/"
+        },
+        {
+          "title": "TauLib.BookI.Boundary.NumberTower",
+          "url": "/verify/taulib/docs/book-i-boundary-number-tower/"
+        }
       ],
+      "bridge_check_status": "pending_bridge_verification",
       "bridge_checks": [
-        "Check that recovered mathematics is explicit about what transfers to standard mathematics and what remains refused or qualified."
+        "Check that recovered mathematics is explicit about what transfers to standard mathematics and what remains τ-effective, qualified, refused, or conjectural."
       ],
+      "empirical_check_status": "not_applicable",
       "empirical_checks": [],
       "unresolved_frontiers": [
         "Bridge adequacy to unrestricted standard mathematics remains a separate burden from internal formal success."
@@ -214,14 +364,15 @@
         }
       ]
     },
-    "what_not_establish": "This step does not claim that unrestricted classical mathematics is simply recovered as-is. It recovers mathematical capacity under kernel discipline.",
+    "what_not_establish": "Step 2 does not claim that unrestricted classical mathematics is simply recovered as-is. It also does not yet establish empirical measurement, physical interpretation, or final ontic closure.",
     "next_step_id": "CS-03",
     "tags": [
       "construction-spine",
       "mathematics",
-      "arithmetic",
+      "address-resolution",
       "geometry",
-      "proof"
+      "number-tower",
+      "master-constant"
     ],
     "generated_from": "corpus/construction-spine",
     "projection_version": "v0.1",
@@ -231,15 +382,15 @@
   {
     "id": "CS-03",
     "sequence": 3,
-    "title": "Internalize Logic and Categorical Self-Structure",
-    "short_title": "Internal Logic",
+    "title": "Internalize Self-Enrichment",
+    "short_title": "Self-Enrichment",
     "slug": "internalize-logic",
     "agenda_path": "/program/research-agenda/construction-roadmap/#internalize-logic-and-categorical-self-structure",
     "corpus_path": "/corpus/construction-spine/internalize-logic/",
     "results_path": "/results/world-readout/mathematics/self-enrichment-self-containment-and-internal-logic/",
-    "summary": "Moves from external description toward internal logic, categorical organization, representation, and first self-containment structures.",
-    "required_to_do": "The program must recover enough internal logic and categorical self-structure for the kernel to become self-expressive rather than merely externally described.",
-    "what_built": "The Corpus presents categorical organization, internal truth structures, Yoneda-style representation, and early self-enrichment machinery.",
+    "summary": "Moves from an externally described kernel toward self-enrichment: hom-objects as τ-objects, Yoneda as theorem, iterated enrichment, and the first formal reduction of metalanguage externality.",
+    "required_to_do": "The program must begin to discharge the externality of speaking about τ only from outside by showing how τ can internalize its own morphism spaces, representation, and enrichment ladder.",
+    "what_built": "The Corpus presents hom-objects as τ-objects, Yoneda-style representation as an earned theorem, iterated enrichment, higher morphism structure, and the later Central Theorem route toward deeper self-description.",
     "build_status": "partially_built",
     "build_status_label": "Partially built; meta-verification frontier remains open",
     "related_recovery_requirements": [
@@ -266,11 +417,40 @@
       "I.P28"
     ],
     "related_taulib_modules": [
-      "TauLib.BookI.Category",
-      "TauLib.BookI.Topos"
+      {
+        "title": "TauLib.BookI.Topos.InternalHom",
+        "url": "/verify/taulib/docs/book-i-topos-internal-hom/"
+      },
+      {
+        "title": "TauLib.BookI.Topos.Functors",
+        "url": "/verify/taulib/docs/book-i-topos-functors/"
+      },
+      {
+        "title": "TauLib.BookI.Topos.EarnedTopos",
+        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
+      },
+      {
+        "title": "TauLib.BookII.Enrichment.SelfEnrichment",
+        "url": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/"
+      },
+      {
+        "title": "TauLib.BookII.Enrichment.SelfDescribing",
+        "url": "/verify/taulib/docs/book-ii-enrichment-self-describing/"
+      }
     ],
     "related_books": [
-      "Book I, categorical and internal-logic development"
+      {
+        "title": "Book I",
+        "url": "/publications/books/book-i/"
+      },
+      {
+        "title": "Book II",
+        "url": "/publications/books/book-ii/"
+      },
+      {
+        "title": "Book II, Part VIII: Self-Enrichment, Yoneda, and Higher Categories",
+        "url": "/publications/books/book-ii/part-08-self-enrichment-yoneda-and-higher-categories/"
+      }
     ],
     "related_results": [
       {
@@ -290,30 +470,47 @@
       {
         "title": "Formal Verification Stack",
         "url": "/verify/formal-verification-stack/"
+      },
+      {
+        "title": "Mathematician Audit Route",
+        "url": "/verify/how-to-audit/mathematician/"
       }
     ],
     "related_publications": [
       {
-        "title": "Book I",
-        "url": "/publications/books/book-i/"
+        "title": "The τ-Kernel as Foundational Architecture",
+        "url": "/publications/research-papers/tau-kernel-foundational-architecture/"
+      },
+      {
+        "title": "Book II",
+        "url": "/publications/books/book-ii/"
       }
     ],
     "verification": {
       "primary_modes": [
         "internal-logic checks",
         "categorical consistency",
-        "semantic correspondence"
+        "semantic correspondence",
+        "meta-verification review"
       ],
       "taulib_modules": [
-        "TauLib.BookI.Category",
-        "TauLib.BookI.Topos"
+        {
+          "title": "TauLib.BookI.Topos.InternalHom",
+          "url": "/verify/taulib/docs/book-i-topos-internal-hom/"
+        },
+        {
+          "title": "TauLib.BookII.Enrichment.SelfEnrichment",
+          "url": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/"
+        }
       ],
+      "bridge_check_status": "partial",
       "bridge_checks": [
-        "Check that internal logical operations remain faithful to the kernel discipline and do not silently import external proof power."
+        "Check that internal logical operations and enrichment remain faithful to the kernel discipline and do not silently import external proof power."
       ],
+      "empirical_check_status": "not_applicable",
       "empirical_checks": [],
       "unresolved_frontiers": [
-        "Internalization of logic does not yet self-host object theories or settle semantic bridge adequacy."
+        "Internalization of logic does not yet self-host object theories, settle semantic bridge adequacy, or establish final ontic closure."
       ],
       "related_verify_pages": [
         {
@@ -330,14 +527,15 @@
         }
       ]
     },
-    "what_not_establish": "This step begins self-containment. It does not yet self-host formal systems or test final ontic closure.",
+    "what_not_establish": "Step 3 begins formal self-containment. It does not self-host every formal system, settle semantic bridge adequacy, or prove final ontic closure; those burdens remain for later construction steps, especially Step 9 and Step 10.",
     "next_step_id": "CS-04",
     "tags": [
       "construction-spine",
       "category",
       "internal-logic",
       "self-enrichment",
-      "topos"
+      "topos",
+      "yoneda"
     ],
     "generated_from": "corpus/construction-spine",
     "projection_version": "v0.1",

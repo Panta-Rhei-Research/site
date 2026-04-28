@@ -8,6 +8,8 @@ right_rail:
   related:
     - title: "How to Audit (Hub)"
       url: /verify/how-to-audit/
+    - title: "Foundational Hinges"
+      url: /corpus/foundational-hinges/
     - title: "Prior-Art Comparisons"
       url: /framework/prior-art/
     - title: "Foundations briefing"
@@ -24,6 +26,17 @@ right_rail:
 This route is for mathematicians evaluating the framework's internal mathematical spine. It does not presuppose expertise in physics or philosophy of science — only rigor in the mathematical machinery of Books I–III.
 
 The framework's mathematical content is not spread uniformly. Three theorem clusters carry the load; if any of them fail, the rest collapses because the physics, life, and metaphysics bridges all depend on them. This route walks you to those three clusters directly.
+
+## First pass: foundational hinges
+
+For the first mathematical pass, begin with the Foundational Hinge route:
+
+- [Foundational Hinges]({{ '/corpus/foundational-hinges/' | relative_url }})
+- [Step 1 — Build the τ-Kernel]({{ '/corpus/construction-spine/define-the-kernel/' | relative_url }})
+- [Step 2 — Recover Core Mathematics]({{ '/corpus/construction-spine/recover-core-mathematics/' | relative_url }})
+- [Step 3 — Internalize Self-Enrichment]({{ '/corpus/construction-spine/internalize-logic/' | relative_url }})
+
+This route separates the first three construction burdens from later result claims: kernel architecture, recovered mathematics, and self-enrichment must be inspectable before downstream physics or metaphysics can carry weight.
 
 ## The three load-bearing clusters
 

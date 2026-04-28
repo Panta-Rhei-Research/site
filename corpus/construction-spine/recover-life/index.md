@@ -78,7 +78,6 @@ generated_from: "corpus/construction-spine"
 projection_version: "v0.1"
 canonical_source: "corpus/construction-spine"
 do_not_edit: true
-_body: "## What this step builds\n\nThe seventh step treats life as a recoverable structural class. It asks what must hold for boundary, individuality, metabolism, heredity, reproduction, variation, evolution, morphogenesis, classification, and ecology to become intelligible inside the framework.\n\n## Why this step is required\n\nLife cannot be used as an unexplained external input if the framework claims full-stack scope. The Corpus must show how life becomes a valid structural category.\n\n## Key constructions\n\n- Life as recoverable category.\n- Boundary and individuality.\n- Metabolism and throughput.\n- Encoding and heredity.\n- Evolution, morphogenesis, classification, and ecology."
 layout: "program-doc"
 permalink: "/corpus/construction-spine/recover-life/"
 lane: "corpus"
@@ -98,9 +97,13 @@ construction_step_id: "CS-07"
 
 The program must recover boundary, individuality, metabolism, encoding, heredity, reproduction, variation, evolution, morphogenesis, classification, and ecology as structural capacities.
 
-## What the Corpus built
+## What the corpus built
 
 The Corpus frames life as a recoverable structural layer, with Earth life serving as calibration case rather than definition.
+
+## What this step builds
+
+The seventh step treats life as a recoverable structural class. It asks what must hold for boundary, individuality, metabolism, heredity, reproduction, variation, evolution, morphogenesis, classification, and ecology to become intelligible inside the framework.
 
 ## Why this step is required
 
@@ -116,11 +119,11 @@ Life cannot be used as an unexplained external input if the framework claims ful
 
 ## Registry spine
 
-_No direct mapping is required for this step yet._
+_Mapping pending._
 
 ## TauLib modules
 
-_No dedicated TauLib module is required at this step yet._
+_Mapping pending._
 
 ## Book locations
 
@@ -131,17 +134,17 @@ _No dedicated TauLib module is required at this step yet._
 - [Life World Readout](/results/world-readout/life/)
 - [Why Life Is Structurally Favored in Tau](/results/world-readout/life/why-life-is-structurally-favored-in-tau/)
 
-## Verification modes
+## Verification Modes
 
 - `life-recovery checks`
 - structural biology mapping
 - scope discipline
 
-## Bridge checks
+## Bridge Checks
 
 - Check that biological recovery claims distinguish structural recovery from complete empirical biology.
 
-## Empirical checks
+## Empirical Checks
 
 - Check whether life-facing claims are routed to explicit biological examples, constraints, and open residuals.
 
@@ -163,7 +166,7 @@ _No dedicated TauLib module is required at this step yet._
 
 This step does not claim to solve consciousness or all biological open problems. It recovers the structural layer where life becomes addressable.
 
-## Unresolved frontiers
+## Unresolved Frontiers
 
 - Life recovery does not by itself settle consciousness, subjectivity, or every biology-side open problem.
 
