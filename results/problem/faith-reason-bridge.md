@@ -3,6 +3,7 @@ layout: result-page
 title: "Faith–Reason Bridge"
 permalink: /results/problem/faith-reason-bridge/
 result_id: result-153
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: consequence

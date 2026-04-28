@@ -3,6 +3,7 @@ layout: result-page
 title: "Why So Many Results Are Even Possible"
 permalink: /results/problem/why-so-many-results-are-even-possible/
 result_id: result-154
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

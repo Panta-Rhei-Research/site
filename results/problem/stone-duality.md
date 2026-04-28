@@ -3,6 +3,7 @@ layout: result-page
 title: "Stone Duality"
 permalink: /results/problem/stone-duality/
 result_id: result-223
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

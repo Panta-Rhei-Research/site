@@ -4,6 +4,7 @@ layout: result-page
 title: Cosmological Flatness Ω_k = 0 Exact from τ³ Compactness
 permalink: /results/problem/cosmological-flatness-omega-k-zero/
 result_id: result-058
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

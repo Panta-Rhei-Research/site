@@ -3,6 +3,7 @@ layout: result-page
 title: "Tower Machine Architecture"
 permalink: /results/problem/tower-machine-architecture/
 result_id: result-233
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

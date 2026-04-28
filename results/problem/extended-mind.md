@@ -3,6 +3,7 @@ layout: result-page
 title: "Extended Mind"
 permalink: /results/problem/extended-mind/
 result_id: result-217
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

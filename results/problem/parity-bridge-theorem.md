@@ -4,6 +4,7 @@ layout: result-page
 title: 'Parity Bridge Theorem: E₁ → 2_τ → E₂ Factors Through the Weak Sector'
 permalink: /results/problem/parity-bridge-theorem/
 result_id: result-040
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

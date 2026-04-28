@@ -3,6 +3,7 @@ layout: result-page
 title: "Cellular Senescence"
 permalink: /results/problem/cellular-senescence/
 result_id: result-187
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

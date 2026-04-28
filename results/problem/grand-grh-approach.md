@@ -3,6 +3,7 @@ layout: result-page
 title: "Grand GRH Approach"
 permalink: /results/problem/grand-grh-approach/
 result_id: result-232
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

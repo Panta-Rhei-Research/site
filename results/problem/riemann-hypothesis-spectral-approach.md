@@ -3,6 +3,7 @@ layout: result-page
 title: "Riemann Hypothesis (spectral approach)"
 permalink: /results/problem/riemann-hypothesis-spectral-approach/
 result_id: result-073
+problem_ledger_ids: ["math-riemann-hypothesis"]
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

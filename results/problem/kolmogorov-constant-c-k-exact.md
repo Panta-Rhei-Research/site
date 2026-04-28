@@ -4,6 +4,7 @@ layout: result-page
 title: Kolmogorov Constant C_K = 3/2 Exact from dim(τ³)/dim(T²)
 permalink: /results/problem/kolmogorov-constant-c-k-exact/
 result_id: result-063
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

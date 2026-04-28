@@ -4,6 +4,7 @@ layout: result-page
 title: 'Master Schema: All Eight Millennium Problems Are Instances of Mutual Determination'
 permalink: /results/problem/master-schema-millennium/
 result_id: result-008
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

@@ -4,6 +4,7 @@ layout: result-page
 title: Flat Galaxy Rotation Curves from Capacity Gradient
 permalink: /results/problem/flat-rotation-curves/
 result_id: result-016
+problem_ledger_ids: ["phys-dark-matter", "phys-galaxy-rotation-problem"]
 topic: physics
 layer: physics
 result_type: structural_readout

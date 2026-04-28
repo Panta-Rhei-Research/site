@@ -3,6 +3,7 @@ layout: result-page
 title: "Gettier Problem"
 permalink: /results/problem/gettier-problem/
 result_id: result-080
+problem_ledger_ids: ["meta-gettier-problem"]
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

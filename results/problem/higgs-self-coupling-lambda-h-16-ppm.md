@@ -4,6 +4,7 @@ layout: result-page
 title: Higgs Self-Coupling λ_H = 0.12928 at +16 ppm
 permalink: /results/problem/higgs-self-coupling-lambda-h-16-ppm/
 result_id: result-056
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

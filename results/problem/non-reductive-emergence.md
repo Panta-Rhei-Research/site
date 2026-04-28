@@ -3,6 +3,7 @@ layout: result-page
 title: "Non-Reductive Emergence"
 permalink: /results/problem/non-reductive-emergence/
 result_id: result-122
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: consequence

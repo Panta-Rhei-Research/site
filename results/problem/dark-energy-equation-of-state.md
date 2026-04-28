@@ -3,6 +3,7 @@ layout: result-page
 title: "Dark Energy Equation of State"
 permalink: /results/problem/dark-energy-equation-of-state/
 result_id: result-178
+problem_ledger_ids: ["phys-dark-energy"]
 topic: physics
 layer: physics
 result_type: frontier_problem

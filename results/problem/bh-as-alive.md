@@ -3,6 +3,7 @@ layout: result-page
 title: "BH-as-Alive"
 permalink: /results/problem/bh-as-alive/
 result_id: result-134
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: consequence

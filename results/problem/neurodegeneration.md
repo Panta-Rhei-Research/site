@@ -3,6 +3,7 @@ layout: result-page
 title: "Neurodegeneration"
 permalink: /results/problem/neurodegeneration/
 result_id: result-132
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Canonical Ladder: E₀ ⊊ E₁ ⊊ E₂ ⊊ E₃ Is the Unique Maximal Enrichment Chain'
 permalink: /results/problem/canonical-ladder-theorem/
 result_id: result-006
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Trolley Problem Framework Account"
 permalink: /results/problem/trolley-problem-resolution/
 result_id: result-211
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "Consciousness Neural Correlates"
 permalink: /results/problem/consciousness-neural-correlates/
 result_id: result-198
+problem_ledger_ids: ["life-consciousness"]
 topic: biology
 layer: life
 result_type: frontier_problem

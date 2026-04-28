@@ -3,6 +3,7 @@ layout: result-page
 title: "Fibration Structure τ³ = τ¹ ×_f T²"
 permalink: /results/problem/fibration-structure-f-t/
 result_id: result-224
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

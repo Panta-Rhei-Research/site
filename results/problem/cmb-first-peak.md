@@ -4,6 +4,7 @@ layout: result-page
 title: 'CMB First Peak ℓ₁: LO at +2840 ppm, NLO at +69 ppm'
 permalink: /results/problem/cmb-first-peak/
 result_id: result-037
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

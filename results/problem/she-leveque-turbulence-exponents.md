@@ -4,6 +4,7 @@ layout: result-page
 title: She–Lévêque Turbulence Exponents Exact from τ³ Dimensions
 permalink: /results/problem/she-leveque-turbulence-exponents/
 result_id: result-051
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

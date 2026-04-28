@@ -3,6 +3,7 @@ layout: result-page
 title: "Cell Membrane Origins"
 permalink: /results/problem/cell-membrane-origins/
 result_id: result-130
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "CI Uniqueness"
 permalink: /results/problem/ci-uniqueness/
 result_id: result-149
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Consciousness Is a Global Section: Γ(Mind)'
 permalink: /results/problem/consciousness-global-section/
 result_id: result-025
+problem_ledger_ids: ["life-consciousness"]
 topic: philosophy
 layer: metaphysics
 result_type: structural_readout

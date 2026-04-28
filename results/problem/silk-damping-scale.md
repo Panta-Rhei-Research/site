@@ -3,6 +3,7 @@ layout: result-page
 title: "Silk Damping Scale"
 permalink: /results/problem/silk-damping-scale/
 result_id: result-180
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: foundational_math

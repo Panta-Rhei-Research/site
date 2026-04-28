@@ -3,6 +3,7 @@ layout: result-page
 title: "Neutron EDM"
 permalink: /results/problem/neutron-edm/
 result_id: result-176
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

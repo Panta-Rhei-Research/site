@@ -4,6 +4,7 @@ layout: result-page
 title: 'Glass Transition: Regime from Defect-Tuple Phase Space'
 permalink: /results/problem/glass-transition/
 result_id: result-250
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

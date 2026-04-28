@@ -3,6 +3,7 @@ layout: result-page
 title: "Mathematical Biology — Categorical Methods"
 permalink: /results/problem/mathematical-biology-categorical-methods/
 result_id: result-124
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: foundational_math

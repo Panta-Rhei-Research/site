@@ -3,6 +3,7 @@ layout: result-page
 title: "Deuterium Abundance"
 permalink: /results/problem/deuterium-abundance/
 result_id: result-169
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

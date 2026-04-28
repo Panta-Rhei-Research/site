@@ -3,6 +3,7 @@ layout: result-page
 title: "Translation Functor tau → ZFC"
 permalink: /results/problem/translation-functor-tau-zfc/
 result_id: result-096
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

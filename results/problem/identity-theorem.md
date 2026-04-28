@@ -3,6 +3,7 @@ layout: result-page
 title: "Identity Theorem"
 permalink: /results/problem/identity-theorem/
 result_id: result-090
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

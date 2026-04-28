@@ -4,6 +4,7 @@ layout: result-page
 title: 'Astrophysical Jets: Topological Collimation from T² Fibration'
 permalink: /results/problem/astrophysical-jets/
 result_id: result-241
+problem_ledger_ids: ["phys-astrophysical-jet"]
 topic: physics
 layer: physics
 result_type: structural_readout

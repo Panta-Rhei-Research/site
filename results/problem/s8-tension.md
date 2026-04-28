@@ -3,6 +3,7 @@ layout: result-page
 title: "S8 Tension"
 permalink: /results/problem/s8-tension/
 result_id: result-109
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

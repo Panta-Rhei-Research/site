@@ -3,6 +3,7 @@ layout: result-page
 title: "Red Queen Hypothesis"
 permalink: /results/problem/red-queen-hypothesis/
 result_id: result-194
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

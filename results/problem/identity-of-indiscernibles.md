@@ -3,6 +3,7 @@ layout: result-page
 title: "Identity of Indiscernibles"
 permalink: /results/problem/identity-of-indiscernibles/
 result_id: result-138
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

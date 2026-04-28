@@ -3,6 +3,7 @@ layout: result-page
 title: "Panpsychism Excluded"
 permalink: /results/problem/panpsychism-excluded/
 result_id: result-077
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: consequence

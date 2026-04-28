@@ -4,6 +4,7 @@ layout: result-page
 title: 'Gravitational Constant from ι<sub>τ</sub>: α_G at 3 ppm'
 permalink: /results/problem/gravitational-constant-from-iota-tau/
 result_id: result-038
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

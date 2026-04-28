@@ -3,6 +3,7 @@ layout: result-page
 title: "Morphogen Gradient Interpretation"
 permalink: /results/problem/morphogen-gradient-interpretation/
 result_id: result-186
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

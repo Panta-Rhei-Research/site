@@ -4,6 +4,7 @@ layout: result-page
 title: Weinberg Angle NNLO at −0.7 ppm
 permalink: /results/problem/weinberg-angle-nnlo/
 result_id: result-035
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

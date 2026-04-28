@@ -4,6 +4,7 @@ layout: result-page
 title: 'Time Derivation Theorem: Proper Time from K0–K6'
 permalink: /results/problem/time-derivation-theorem/
 result_id: result-030
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

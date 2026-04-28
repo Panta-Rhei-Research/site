@@ -4,6 +4,7 @@ layout: result-page
 title: 'The τ-Coherence Kernel: Seven Axioms on Five Generators'
 permalink: /results/problem/tau-kernel-coherence/
 result_id: result-001
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

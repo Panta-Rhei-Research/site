@@ -4,6 +4,7 @@ layout: result-page
 title: Seven Hallmarks of Life as Theorems
 permalink: /results/problem/seven-hallmarks-as-theorems/
 result_id: result-041
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

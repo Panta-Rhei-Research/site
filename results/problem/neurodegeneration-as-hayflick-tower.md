@@ -4,6 +4,7 @@ layout: result-page
 title: Neurodegeneration as Hayflick Tower Crossing
 permalink: /results/problem/neurodegeneration-as-hayflick-tower/
 result_id: result-072
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

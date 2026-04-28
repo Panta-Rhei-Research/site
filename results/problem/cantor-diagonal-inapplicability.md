@@ -3,6 +3,7 @@ layout: result-page
 title: "Cantor Diagonal Inapplicability"
 permalink: /results/problem/cantor-diagonal-inapplicability/
 result_id: result-221
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

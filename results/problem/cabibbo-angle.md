@@ -4,6 +4,7 @@ layout: result-page
 title: 'Cabibbo Angle: sin θ_C = ι<sub>τ</sub>(1 − ι<sub>τ</sub>) at −2327 ppm'
 permalink: /results/problem/cabibbo-angle/
 result_id: result-034
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

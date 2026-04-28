@@ -3,6 +3,7 @@ layout: result-page
 title: "Narrative Identity"
 permalink: /results/problem/narrative-identity/
 result_id: result-218
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: foundational_math

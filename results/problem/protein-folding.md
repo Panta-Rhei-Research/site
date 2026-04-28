@@ -3,6 +3,7 @@ layout: result-page
 title: "Protein Folding"
 permalink: /results/problem/protein-folding/
 result_id: result-135
+problem_ledger_ids: ["life-biology-protein-folding"]
 topic: biology
 layer: life
 result_type: frontier_problem

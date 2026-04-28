@@ -3,6 +3,7 @@ layout: result-page
 title: "Galaxy Rotation Curves without Dark Matter"
 permalink: /results/problem/galaxy-rotation-curves-without-dark-matter/
 result_id: result-113
+problem_ledger_ids: ["phys-dark-matter", "phys-galaxy-rotation-problem"]
 topic: physics
 layer: physics
 result_type: frontier_problem

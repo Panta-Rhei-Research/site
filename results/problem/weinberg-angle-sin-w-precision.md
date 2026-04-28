@@ -3,6 +3,7 @@ layout: result-page
 title: "Weinberg Angle sin²θ_W Precision"
 permalink: /results/problem/weinberg-angle-sin-w-precision/
 result_id: result-160
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

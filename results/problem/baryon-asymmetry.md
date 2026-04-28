@@ -3,6 +3,7 @@ layout: result-page
 title: "Baryon Asymmetry"
 permalink: /results/problem/baryon-asymmetry/
 result_id: result-112
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

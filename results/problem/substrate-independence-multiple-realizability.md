@@ -3,6 +3,7 @@ layout: result-page
 title: "Substrate Independence / Multiple Realizability"
 permalink: /results/problem/substrate-independence-multiple-realizability/
 result_id: result-123
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

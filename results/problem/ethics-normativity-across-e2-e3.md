@@ -3,6 +3,7 @@ layout: result-page
 title: "Ethics / Normativity Across E2–E3"
 permalink: /results/problem/ethics-normativity-across-e2-e3/
 result_id: result-158
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

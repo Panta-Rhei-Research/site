@@ -4,6 +4,7 @@ layout: result-page
 title: 'QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement'
 permalink: /results/problem/qcd-phases-qgp/
 result_id: result-249
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

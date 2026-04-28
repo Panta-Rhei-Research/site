@@ -3,6 +3,7 @@ layout: result-page
 title: "Epigenetics"
 permalink: /results/problem/epigenetics/
 result_id: result-129
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

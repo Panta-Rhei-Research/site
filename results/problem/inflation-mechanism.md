@@ -3,6 +3,7 @@ layout: result-page
 title: "Inflation Mechanism"
 permalink: /results/problem/inflation-mechanism/
 result_id: result-111
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

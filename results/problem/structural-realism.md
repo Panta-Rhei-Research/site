@@ -3,6 +3,7 @@ layout: result-page
 title: "Structural Realism"
 permalink: /results/problem/structural-realism/
 result_id: result-139
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

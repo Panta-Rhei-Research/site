@@ -3,6 +3,7 @@ layout: result-page
 title: "Machine Consciousness (Life-side bridge)"
 permalink: /results/problem/machine-consciousness-life-side-bridge/
 result_id: result-133
+problem_ledger_ids: ["life-consciousness"]
 topic: biology
 layer: life
 result_type: frontier_problem

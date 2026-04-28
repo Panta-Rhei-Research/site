@@ -3,6 +3,7 @@ layout: result-page
 title: "Yoneda Lemma"
 permalink: /results/problem/yoneda-lemma/
 result_id: result-226
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

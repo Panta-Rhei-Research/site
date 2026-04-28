@@ -4,6 +4,7 @@ layout: result-page
 title: 'Proton Stability: Address Irresolvability Forbids Baryon Decay'
 permalink: /results/problem/proton-stability/
 result_id: result-252
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

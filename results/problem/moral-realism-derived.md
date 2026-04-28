@@ -3,6 +3,7 @@ layout: result-page
 title: "Moral Realism Derived"
 permalink: /results/problem/moral-realism-derived/
 result_id: result-212
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: foundational_math

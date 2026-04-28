@@ -4,6 +4,7 @@ layout: result-page
 title: 'Hyperfactorization: Every Object Has a Unique Canonical Normal Form'
 permalink: /results/problem/hyperfactorization-theorem/
 result_id: result-002
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

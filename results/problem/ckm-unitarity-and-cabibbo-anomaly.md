@@ -3,6 +3,7 @@ layout: result-page
 title: "CKM Unitarity and Cabibbo Anomaly"
 permalink: /results/problem/ckm-unitarity-and-cabibbo-anomaly/
 result_id: result-175
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

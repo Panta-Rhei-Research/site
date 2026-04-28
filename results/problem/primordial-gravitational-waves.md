@@ -3,6 +3,7 @@ layout: result-page
 title: "Primordial Gravitational Waves"
 permalink: /results/problem/primordial-gravitational-waves/
 result_id: result-179
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

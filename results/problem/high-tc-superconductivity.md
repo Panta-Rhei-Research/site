@@ -3,6 +3,7 @@ layout: result-page
 title: "High-Tc Superconductivity"
 permalink: /results/problem/high-tc-superconductivity/
 result_id: result-117
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

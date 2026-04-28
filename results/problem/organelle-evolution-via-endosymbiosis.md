@@ -3,6 +3,7 @@ layout: result-page
 title: "Organelle Evolution via Endosymbiosis"
 permalink: /results/problem/organelle-evolution-via-endosymbiosis/
 result_id: result-188
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

@@ -4,6 +4,7 @@ layout: result-page
 title: Spectral Index n_s = 1 – 2/N_e Derived from N_e = 57
 permalink: /results/problem/spectral-index-ns-from-inflation/
 result_id: result-055
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Earned Topos"
 permalink: /results/problem/earned-topos/
 result_id: result-227
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

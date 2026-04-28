@@ -3,6 +3,7 @@ layout: result-page
 title: "Goldbach Conjecture"
 permalink: /results/problem/goldbach-conjecture/
 result_id: result-093
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

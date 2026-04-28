@@ -3,6 +3,7 @@ layout: result-page
 title: "Structural Instability / ZFC Identity Slippage"
 permalink: /results/problem/structural-instability-zfc-identity-slippage/
 result_id: result-097
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

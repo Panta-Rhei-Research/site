@@ -4,6 +4,7 @@ layout: result-page
 title: Proton Charge Radius r_p at +12 ppm (37× Improvement in Wave 46)
 permalink: /results/problem/proton-charge-radius-12-ppm/
 result_id: result-062
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

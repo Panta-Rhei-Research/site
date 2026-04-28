@@ -3,6 +3,7 @@ layout: result-page
 title: "Mycorrhizal Networks"
 permalink: /results/problem/mycorrhizal-networks/
 result_id: result-196
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

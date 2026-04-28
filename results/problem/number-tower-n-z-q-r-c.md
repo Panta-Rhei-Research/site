@@ -3,6 +3,7 @@ layout: result-page
 title: "Number Tower N → Z → Q → R → C"
 permalink: /results/problem/number-tower-n-z-q-r-c/
 result_id: result-234
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

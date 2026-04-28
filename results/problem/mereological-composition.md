@@ -3,6 +3,7 @@ layout: result-page
 title: "Mereological Composition"
 permalink: /results/problem/mereological-composition/
 result_id: result-201
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

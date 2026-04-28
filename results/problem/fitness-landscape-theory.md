@@ -3,6 +3,7 @@ layout: result-page
 title: "Fitness Landscape Theory"
 permalink: /results/problem/fitness-landscape-theory/
 result_id: result-193
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: foundational_math

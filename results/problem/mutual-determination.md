@@ -4,6 +4,7 @@ layout: result-page
 title: 'Mutual Determination: Five Characterizations of Holomorphic Functions'
 permalink: /results/problem/mutual-determination/
 result_id: result-004
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Cell as Tau-Object"
 permalink: /results/problem/cell-as-tau-object/
 result_id: result-076
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: consequence

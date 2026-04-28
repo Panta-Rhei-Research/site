@@ -3,6 +3,7 @@ layout: result-page
 title: "Beauty and Truth"
 permalink: /results/problem/beauty-and-truth/
 result_id: result-143
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: consequence

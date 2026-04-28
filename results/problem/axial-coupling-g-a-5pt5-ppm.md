@@ -4,6 +4,7 @@ layout: result-page
 title: Axial Coupling g_A at +5.5 ppm via κ_D² /ι<sub>τ</sub> with CF Window NLO
 permalink: /results/problem/axial-coupling-g-a-5pt5-ppm/
 result_id: result-057
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

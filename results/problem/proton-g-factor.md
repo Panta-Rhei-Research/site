@@ -3,6 +3,7 @@ layout: result-page
 title: "Proton g-Factor"
 permalink: /results/problem/proton-g-factor/
 result_id: result-181
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

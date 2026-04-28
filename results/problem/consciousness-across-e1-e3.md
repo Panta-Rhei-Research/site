@@ -3,6 +3,7 @@ layout: result-page
 title: "Consciousness Across E1–E3"
 permalink: /results/problem/consciousness-across-e1-e3/
 result_id: result-155
+problem_ledger_ids: ["life-consciousness"]
 topic: mathematics
 layer: mathematics
 result_type: consequence

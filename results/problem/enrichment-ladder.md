@@ -3,6 +3,7 @@ layout: result-page
 title: "Enrichment Ladder"
 permalink: /results/problem/enrichment-ladder/
 result_id: result-089
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

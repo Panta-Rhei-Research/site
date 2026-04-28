@@ -3,6 +3,7 @@ layout: result-page
 title: "Fine-Tuning Dissolved"
 permalink: /results/problem/fine-tuning-dissolved/
 result_id: result-166
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: consequence

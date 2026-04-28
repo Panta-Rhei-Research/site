@@ -3,6 +3,7 @@ layout: result-page
 title: "Central Dogma and Its Exceptions"
 permalink: /results/problem/central-dogma-and-its-exceptions/
 result_id: result-190
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: foundational_math

@@ -3,6 +3,7 @@ layout: result-page
 title: "Strong Coupling α_s at the Z Pole"
 permalink: /results/problem/strong-coupling-s-at-the-z-pole/
 result_id: result-161
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

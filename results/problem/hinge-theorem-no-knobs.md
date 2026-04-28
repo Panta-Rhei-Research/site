@@ -4,6 +4,7 @@ layout: result-page
 title: 'Hinge Theorem: Books IV–VII Are Sector Instantiations of Book III'
 permalink: /results/problem/hinge-theorem-no-knobs/
 result_id: result-007
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

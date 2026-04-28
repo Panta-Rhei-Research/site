@@ -4,6 +4,7 @@ layout: result-page
 title: 'Coronal Heating: Parameter-Free Damping Length from dim(T²)=2'
 permalink: /results/problem/coronal-heating/
 result_id: result-243
+problem_ledger_ids: ["phys-coronal-heating-problem"]
 topic: physics
 layer: physics
 result_type: structural_readout

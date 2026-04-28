@@ -3,6 +3,7 @@ layout: result-page
 title: "Gavagai and Indeterminacy of Translation"
 permalink: /results/problem/gavagai-and-indeterminacy-of-translation/
 result_id: result-208
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

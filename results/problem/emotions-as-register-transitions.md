@@ -3,6 +3,7 @@ layout: result-page
 title: "Emotions as Register Transitions"
 permalink: /results/problem/emotions-as-register-transitions/
 result_id: result-215
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: foundational_math

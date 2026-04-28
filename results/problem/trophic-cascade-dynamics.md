@@ -3,6 +3,7 @@ layout: result-page
 title: "Trophic Cascade Dynamics"
 permalink: /results/problem/trophic-cascade-dynamics/
 result_id: result-195
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: foundational_math

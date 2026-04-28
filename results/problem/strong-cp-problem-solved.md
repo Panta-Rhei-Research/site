@@ -4,6 +4,7 @@ layout: result-page
 title: 'Strong CP Problem Solved: θ_QCD = 0 from SA-i Admissibility'
 permalink: /results/problem/strong-cp-problem-solved/
 result_id: result-010
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

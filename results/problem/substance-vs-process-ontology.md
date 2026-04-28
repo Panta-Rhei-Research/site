@@ -3,6 +3,7 @@ layout: result-page
 title: "Substance vs Process Ontology"
 permalink: /results/problem/substance-vs-process-ontology/
 result_id: result-079
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

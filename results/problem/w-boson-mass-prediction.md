@@ -4,6 +4,7 @@ layout: result-page
 title: W-Boson Mass Prediction at −0.5 ppm
 permalink: /results/problem/w-boson-mass-prediction/
 result_id: result-011
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

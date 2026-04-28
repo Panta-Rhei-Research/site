@@ -3,6 +3,7 @@ layout: result-page
 title: "Tully-Fisher Relation"
 permalink: /results/problem/tully-fisher-relation/
 result_id: result-173
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

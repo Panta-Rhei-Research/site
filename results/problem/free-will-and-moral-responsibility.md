@@ -3,6 +3,7 @@ layout: result-page
 title: "Free Will and Moral Responsibility"
 permalink: /results/problem/free-will-and-moral-responsibility/
 result_id: result-150
+problem_ledger_ids: ["life-biology-free-will", "life-neuroscience-free-will-particularly-the-neuroscience-of-free-will"]
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "Proton Spin Puzzle"
 permalink: /results/problem/proton-spin-puzzle/
 result_id: result-118
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

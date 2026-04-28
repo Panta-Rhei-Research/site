@@ -4,6 +4,7 @@ layout: result-page
 title: 'Global Hartogs Extension: Boundary Determines Interior'
 permalink: /results/problem/global-hartogs-extension/
 result_id: result-027
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Intentionality"
 permalink: /results/problem/intentionality/
 result_id: result-203
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

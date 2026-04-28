@@ -3,6 +3,7 @@ layout: result-page
 title: "QCD Confinement"
 permalink: /results/problem/qcd-confinement/
 result_id: result-167
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

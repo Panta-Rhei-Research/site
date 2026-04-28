@@ -3,6 +3,7 @@ layout: result-page
 title: "Animal Rights and Dignity"
 permalink: /results/problem/animal-rights-and-dignity/
 result_id: result-213
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

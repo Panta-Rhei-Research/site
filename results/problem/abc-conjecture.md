@@ -3,6 +3,7 @@ layout: result-page
 title: "ABC Conjecture"
 permalink: /results/problem/abc-conjecture/
 result_id: result-095
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

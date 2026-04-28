@@ -3,6 +3,7 @@ layout: result-page
 title: "BH Quasi-Normal Modes"
 permalink: /results/problem/bh-quasi-normal-modes/
 result_id: result-174
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

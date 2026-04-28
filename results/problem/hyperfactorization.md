@@ -3,6 +3,7 @@ layout: result-page
 title: "Hyperfactorization"
 permalink: /results/problem/hyperfactorization/
 result_id: result-086
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

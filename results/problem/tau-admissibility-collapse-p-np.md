@@ -4,6 +4,7 @@ layout: result-page
 title: 'τ-Admissibility Collapse: P = NP Within τ'
 permalink: /results/problem/tau-admissibility-collapse-p-np/
 result_id: result-050
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

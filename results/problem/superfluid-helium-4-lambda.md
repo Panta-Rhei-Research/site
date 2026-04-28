@@ -4,6 +4,7 @@ layout: result-page
 title: 'Superfluid Helium-4: Minimal Donut Criterion from ι_τ'
 permalink: /results/problem/superfluid-helium-4-lambda/
 result_id: result-251
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Vitalism vs Mechanism Dissolved"
 permalink: /results/problem/vitalism-vs-mechanism-dissolved/
 result_id: result-182
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: consequence

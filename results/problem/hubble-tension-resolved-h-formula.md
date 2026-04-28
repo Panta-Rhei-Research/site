@@ -5,6 +5,7 @@ title: 'Hubble Tension Internal Readout: h = 2/3 + ι<sub>τ</sub>²/17 at –12
 title_plain: 'Hubble Tension Internal Readout: h = 2/3 + ιτ²/17 at –120 ppm'
 permalink: /results/problem/hubble-tension-resolved-h-formula/
 result_id: result-060
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Genetic Code Optimality"
 permalink: /results/problem/genetic-code-optimality/
 result_id: result-128
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "Muon g−2 Anomaly"
 permalink: /results/problem/muon-g-2-anomaly/
 result_id: result-103
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

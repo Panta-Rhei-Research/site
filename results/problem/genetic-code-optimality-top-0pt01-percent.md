@@ -4,6 +4,7 @@ layout: result-page
 title: 'Genetic Code Optimality: Top 0.01% for Error Minimization'
 permalink: /results/problem/genetic-code-optimality-top-0pt01-percent/
 result_id: result-069
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

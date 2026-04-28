@@ -3,6 +3,7 @@ layout: result-page
 title: "Prime Polarity"
 permalink: /results/problem/prime-polarity/
 result_id: result-087
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

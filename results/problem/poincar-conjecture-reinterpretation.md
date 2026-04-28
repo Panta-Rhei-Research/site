@@ -3,6 +3,7 @@ layout: result-page
 title: "Poincaré Conjecture Reinterpretation"
 permalink: /results/problem/poincar-conjecture-reinterpretation/
 result_id: result-228
+problem_ledger_ids: ["math-poincare-conjecture"]
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Central Theorem: O(τ³) ≅ A_spec(L)'
 permalink: /results/problem/central-theorem/
 result_id: result-005
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

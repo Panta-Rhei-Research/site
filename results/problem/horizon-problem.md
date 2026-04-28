@@ -4,6 +4,7 @@ layout: result-page
 title: 'Horizon Problem: CMB Uniformity from τ³ Compactness'
 permalink: /results/problem/horizon-problem/
 result_id: result-253
+problem_ledger_ids: ["phys-horizon-problem"]
 topic: physics
 layer: physics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Measurement Problem"
 permalink: /results/problem/measurement-problem/
 result_id: result-170
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "P vs NP"
 permalink: /results/problem/p-vs-np/
 result_id: result-092
+problem_ledger_ids: ["math-p-vs-np"]
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "What is Life?"
 permalink: /results/problem/what-is-life/
 result_id: result-074
+problem_ledger_ids: ["life-origin-of-life"]
 topic: biology
 layer: life
 result_type: frontier_problem

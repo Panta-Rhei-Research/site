@@ -4,6 +4,7 @@ layout: result-page
 title: 'Identity as NF-Address Persistence: Personal Identity Across Change'
 permalink: /results/problem/identity-as-nf-address-persistence/
 result_id: result-046
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

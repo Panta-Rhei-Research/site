@@ -3,6 +3,7 @@ layout: result-page
 title: "BSD Conjecture Approach"
 permalink: /results/problem/bsd-conjecture-approach/
 result_id: result-230
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

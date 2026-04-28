@@ -4,6 +4,7 @@ layout: result-page
 title: Neutrino Mass Sum Σm_ν = 0.089 eV, Normal Ordering Derived
 permalink: /results/problem/neutrino-mass-sum-0pt089-ev-normal-ordering/
 result_id: result-065
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

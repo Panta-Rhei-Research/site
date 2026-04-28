@@ -4,6 +4,7 @@ layout: result-page
 title: 'Free Will as Branching: Compatibilism Dissolved as Scale Confusion'
 permalink: /results/problem/free-will-as-branching/
 result_id: result-047
+problem_ledger_ids: ["life-biology-free-will", "life-neuroscience-free-will-particularly-the-neuroscience-of-free-will"]
 topic: philosophy
 layer: metaphysics
 result_type: structural_readout

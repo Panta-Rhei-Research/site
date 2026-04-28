@@ -3,6 +3,7 @@ layout: result-page
 title: "Self-Reference in Living Systems"
 permalink: /results/problem/self-reference-in-living-systems/
 result_id: result-184
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: foundational_math

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Stars Are Not Alive: Quadrant III — Distinction Without SelfDesc'
 permalink: /results/problem/stars-not-alive/
 result_id: result-022
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

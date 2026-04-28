@@ -4,6 +4,7 @@ layout: result-page
 title: Fine-Structure Constant α⁻¹ = 137.036 from ι<sub>τ</sub>
 permalink: /results/problem/fine-structure-constant-alpha-inverse-137/
 result_id: result-053
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

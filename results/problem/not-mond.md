@@ -3,6 +3,7 @@ layout: result-page
 title: "Not MOND"
 permalink: /results/problem/not-mond/
 result_id: result-116
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: consequence

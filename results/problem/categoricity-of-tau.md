@@ -3,6 +3,7 @@ layout: result-page
 title: "Categoricity of Tau"
 permalink: /results/problem/categoricity-of-tau/
 result_id: result-088
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

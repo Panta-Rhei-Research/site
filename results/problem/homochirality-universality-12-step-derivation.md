@@ -4,6 +4,7 @@ layout: result-page
 title: 'Homochirality Universality: 12-Step Derivation from K0–K6 to L-Amino Acids'
 permalink: /results/problem/homochirality-universality-12-step-derivation/
 result_id: result-066
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Glueballs: Mass Gap = Minimum Glueball Mass'
 permalink: /results/problem/glueballs/
 result_id: result-247
+problem_ledger_ids: ["phys-glueballs"]
 topic: physics
 layer: physics
 result_type: structural_readout

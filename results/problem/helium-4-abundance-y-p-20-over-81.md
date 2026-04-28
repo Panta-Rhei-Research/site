@@ -4,6 +4,7 @@ layout: result-page
 title: Helium-4 Primordial Abundance Y_p = 20/81 at 0.43σ from Planck
 permalink: /results/problem/helium-4-abundance-y-p-20-over-81/
 result_id: result-064
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

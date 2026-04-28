@@ -4,6 +4,7 @@ layout: result-page
 title: Tensor-to-Scalar Ratio r = ι<sub>τ</sub>⁴ = 0.0136
 permalink: /results/problem/tensor-to-scalar-ratio/
 result_id: result-014
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

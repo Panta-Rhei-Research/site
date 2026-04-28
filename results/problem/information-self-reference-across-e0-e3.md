@@ -3,6 +3,7 @@ layout: result-page
 title: "Information / Self-Reference Across E0–E3"
 permalink: /results/problem/information-self-reference-across-e0-e3/
 result_id: result-159
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Baryogenesis: η_B = α·ι<sub>τ</sub>¹⁵·(5/6) at −1%'
 permalink: /results/problem/baryogenesis-eta-b/
 result_id: result-049
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

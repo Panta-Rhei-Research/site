@@ -3,6 +3,7 @@ layout: result-page
 title: "Computability of Biological Processes"
 permalink: /results/problem/computability-of-biological-processes/
 result_id: result-183
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: foundational_math

@@ -3,6 +3,7 @@ layout: result-page
 title: "Paraconsistent Logic"
 permalink: /results/problem/paraconsistent-logic/
 result_id: result-147
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: foundational_math

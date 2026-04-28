@@ -3,6 +3,7 @@ layout: result-page
 title: "Langlands Program Approach"
 permalink: /results/problem/langlands-program-approach/
 result_id: result-231
+problem_ledger_ids: ["math-langlands-program"]
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

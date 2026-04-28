@@ -4,6 +4,7 @@ layout: result-page
 title: 'Modal Logic S4 as Theorem: τ-Modal Operators and Kripke Soundness'
 permalink: /results/problem/modal-logic-s4-theorem/
 result_id: result-045
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

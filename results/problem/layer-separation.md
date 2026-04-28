@@ -4,6 +4,7 @@ layout: result-page
 title: 'Layer Separation: SelfDesc Is Unavailable at E₁'
 permalink: /results/problem/layer-separation/
 result_id: result-042
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

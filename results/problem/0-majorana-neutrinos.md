@@ -3,6 +3,7 @@ layout: result-page
 title: "0νββ / Majorana Neutrinos"
 permalink: /results/problem/0-majorana-neutrinos/
 result_id: result-107
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

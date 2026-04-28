@@ -3,6 +3,7 @@ layout: result-page
 title: "Individual Quark Masses"
 permalink: /results/problem/individual-quark-masses/
 result_id: result-106
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

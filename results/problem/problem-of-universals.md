@@ -3,6 +3,7 @@ layout: result-page
 title: "Problem of Universals"
 permalink: /results/problem/problem-of-universals/
 result_id: result-078
+problem_ledger_ids: ["meta-problem-of-universals"]
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

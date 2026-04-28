@@ -3,6 +3,7 @@ layout: result-page
 title: "Black Holes Across E1–E3"
 permalink: /results/problem/black-holes-across-e1-e3/
 result_id: result-156
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Chronology Protection: Closed Timelike Curves Structurally Excluded'
 permalink: /results/problem/chronology-protection-no-ctcs/
 result_id: result-236
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

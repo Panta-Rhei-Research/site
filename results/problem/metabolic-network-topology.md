@@ -3,6 +3,7 @@ layout: result-page
 title: "Metabolic Network Topology"
 permalink: /results/problem/metabolic-network-topology/
 result_id: result-189
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: foundational_math

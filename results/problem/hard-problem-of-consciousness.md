@@ -3,6 +3,7 @@ layout: result-page
 title: "Hard Problem of Consciousness"
 permalink: /results/problem/hard-problem-of-consciousness/
 result_id: result-140
+problem_ledger_ids: ["life-consciousness", "meta-hard-problem-of-consciousness"]
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "Abiogenesis Timescale"
 permalink: /results/problem/abiogenesis-timescale/
 result_id: result-126
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

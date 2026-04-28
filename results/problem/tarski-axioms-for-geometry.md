@@ -3,6 +3,7 @@ layout: result-page
 title: "Tarski Axioms for Geometry"
 permalink: /results/problem/tarski-axioms-for-geometry/
 result_id: result-225
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

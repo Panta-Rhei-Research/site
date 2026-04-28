@@ -3,6 +3,7 @@ layout: result-page
 title: "Minimal Cell / Synthetic Life Criteria"
 permalink: /results/problem/minimal-cell-synthetic-life-criteria/
 result_id: result-127
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

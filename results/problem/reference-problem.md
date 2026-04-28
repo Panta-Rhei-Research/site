@@ -3,6 +3,7 @@ layout: result-page
 title: "Reference Problem"
 permalink: /results/problem/reference-problem/
 result_id: result-144
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

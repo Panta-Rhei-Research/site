@@ -3,6 +3,7 @@ layout: result-page
 title: "Life as Structurally Favored Rather Than Accidental"
 permalink: /results/problem/life-as-structurally-favored-rather-than-accidental/
 result_id: result-084
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: consequence

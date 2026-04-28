@@ -3,6 +3,7 @@ layout: result-page
 title: "Paradox of the Plankton: Nash Equilibrium on Carrier Configuration Space"
 permalink: /results/problem/paradox-of-the-plankton/
 result_id: result-255
+problem_ledger_ids: ["life-biology-paradox-of-the-plankton"]
 topic: biology
 layer: life
 result_type: frontier_problem

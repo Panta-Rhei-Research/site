@@ -4,6 +4,7 @@ layout: result-page
 title: 'Prime Polarity: Primes as Finite Witnesses of Infinity'
 permalink: /results/problem/prime-polarity-theorem/
 result_id: result-003
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

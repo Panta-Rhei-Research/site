@@ -3,6 +3,7 @@ layout: result-page
 title: "The Four-Layer Architecture of Reality"
 permalink: /results/problem/the-four-layer-architecture-of-reality/
 result_id: result-085
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: consequence

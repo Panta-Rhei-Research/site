@@ -4,6 +4,7 @@ layout: result-page
 title: 'Virus Exclusion: NoDist Theorem (3/5 Distinction Conditions Fail)'
 permalink: /results/problem/virus-exclusion-nodist-theorem/
 result_id: result-071
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

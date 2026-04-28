@@ -4,6 +4,7 @@ layout: result-page
 title: 'Vacuum Energy = 0: Cosmological Constant Problem Dissolved'
 permalink: /results/problem/vacuum-energy-zero/
 result_id: result-018
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

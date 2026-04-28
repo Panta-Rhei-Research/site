@@ -3,6 +3,7 @@ layout: result-page
 title: "AI Language Understanding"
 permalink: /results/problem/ai-language-understanding/
 result_id: result-210
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

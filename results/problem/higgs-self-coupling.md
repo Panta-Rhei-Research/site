@@ -3,6 +3,7 @@ layout: result-page
 title: "Higgs Self-Coupling"
 permalink: /results/problem/higgs-self-coupling/
 result_id: result-104
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Grand Unification: Why Eight Decades of Unification Failed'
 permalink: /results/problem/grand-unification-dissolved/
 result_id: result-244
+problem_ledger_ids: ["phys-grand-unification"]
 topic: physics
 layer: physics
 result_type: structural_readout

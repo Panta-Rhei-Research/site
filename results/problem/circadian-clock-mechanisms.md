@@ -3,6 +3,7 @@ layout: result-page
 title: "Circadian Clock Mechanisms"
 permalink: /results/problem/circadian-clock-mechanisms/
 result_id: result-185
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

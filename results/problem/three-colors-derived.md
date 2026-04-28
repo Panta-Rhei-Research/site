@@ -4,6 +4,7 @@ layout: result-page
 title: 'Exactly Three Colors: N_c = 3 from Primorial Depth'
 permalink: /results/problem/three-colors-derived/
 result_id: result-013
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

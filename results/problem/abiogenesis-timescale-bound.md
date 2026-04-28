@@ -4,6 +4,7 @@ layout: result-page
 title: Abiogenesis Timescale Bound from Geometric Decay
 permalink: /results/problem/abiogenesis-timescale-bound/
 result_id: result-068
+problem_ledger_ids: ["life-origin-of-life"]
 topic: biology
 layer: life
 result_type: structural_readout

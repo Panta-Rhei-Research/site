@@ -4,6 +4,7 @@ layout: result-page
 title: 'Yang-Mills Mass Gap: δ∞^s > 0 Spectrally Isolated'
 permalink: /results/problem/yang-mills-mass-gap/
 result_id: result-036
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

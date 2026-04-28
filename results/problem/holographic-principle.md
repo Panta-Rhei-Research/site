@@ -4,6 +4,7 @@ layout: result-page
 title: 'Holographic Principle: Bulk ↔ Boundary Correspondence Proved'
 permalink: /results/problem/holographic-principle/
 result_id: result-237
+problem_ledger_ids: ["phys-holographic-principle"]
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

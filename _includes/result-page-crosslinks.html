@@ -37,3 +37,21 @@
   </div>
 </aside>
 {%- endif -%}
+
+{%- assign problem_ledger_ids = page.problem_ledger_ids | default: entry.problem_ledger_ids -%}
+{%- if problem_ledger_ids and problem_ledger_ids.size > 0 -%}
+<aside class="result-problem-ledger-links">
+  <h2>Related Problem Ledger items</h2>
+  <p>This Result page is relevant to the following public Problem Ledger item{% if problem_ledger_ids.size != 1 %}s{% endif %}:</p>
+  <div class="registry-list">
+    {%- for problem_id in problem_ledger_ids -%}
+      {%- assign problem_page = site.problem_ledger | where: "canonical_problem_id", problem_id | first -%}
+      {%- if problem_page -%}
+    <a href="{{ problem_page.url | relative_url }}" class="chip">{{ problem_page.title | default: problem_id }}</a>
+      {%- else -%}
+    <span class="chip">{{ problem_id }}</span>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</aside>
+{%- endif -%}

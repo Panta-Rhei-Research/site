@@ -3,6 +3,7 @@ layout: result-page
 title: "Physical Reality as a Semantic Reading of E1"
 permalink: /results/problem/physical-reality-as-a-semantic-reading-of-e1/
 result_id: result-083
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: consequence

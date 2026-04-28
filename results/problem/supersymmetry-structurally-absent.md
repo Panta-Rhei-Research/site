@@ -4,6 +4,7 @@ layout: result-page
 title: 'Supersymmetry: Sector Exhaustion Rules Out Superpartners'
 permalink: /results/problem/supersymmetry-structurally-absent/
 result_id: result-245
+problem_ledger_ids: ["phys-supersymmetry"]
 topic: physics
 layer: physics
 result_type: structural_readout

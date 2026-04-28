@@ -4,6 +4,7 @@ layout: result-page
 title: 'Cosmic Magnetic Fields: SMBH-Jet Frozen Flux Along Wilson Filaments'
 permalink: /results/problem/cosmic-magnetic-fields/
 result_id: result-240
+problem_ledger_ids: ["phys-origin-of-cosmic-magnetic-fields"]
 topic: physics
 layer: physics
 result_type: structural_readout

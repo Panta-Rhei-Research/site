@@ -3,6 +3,7 @@ layout: result-page
 title: "Persistence Through Change"
 permalink: /results/problem/persistence-through-change/
 result_id: result-200
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

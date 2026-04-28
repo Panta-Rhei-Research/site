@@ -3,6 +3,7 @@ layout: result-page
 title: "Navier–Stokes Regularity"
 permalink: /results/problem/navier-stokes-regularity/
 result_id: result-120
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

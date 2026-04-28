@@ -3,6 +3,7 @@ layout: result-page
 title: "Political Legitimacy"
 permalink: /results/problem/political-legitimacy/
 result_id: result-151
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

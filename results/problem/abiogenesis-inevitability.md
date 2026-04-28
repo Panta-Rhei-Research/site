@@ -4,6 +4,7 @@ layout: result-page
 title: 'Abiogenesis Is Inevitable: Life Is a Thermodynamic Attractor'
 permalink: /results/problem/abiogenesis-inevitability/
 result_id: result-019
+problem_ledger_ids: ["life-origin-of-life"]
 topic: biology
 layer: life
 result_type: structural_readout

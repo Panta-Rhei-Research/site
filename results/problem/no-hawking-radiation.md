@@ -3,6 +3,7 @@ layout: result-page
 title: "No Hawking Radiation"
 permalink: /results/problem/no-hawking-radiation/
 result_id: result-114
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: consequence

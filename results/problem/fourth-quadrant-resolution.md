@@ -4,6 +4,7 @@ layout: result-page
 title: 'Fourth Quadrant Framework Account: QM and GR Unified in τ'
 permalink: /results/problem/fourth-quadrant-resolution/
 result_id: result-029
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Koide Relation at −9 ppm: Q = 2/3 from σ-Equivariant Mass Matrix'
 permalink: /results/problem/koide-relation/
 result_id: result-033
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

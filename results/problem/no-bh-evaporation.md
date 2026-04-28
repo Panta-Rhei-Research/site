@@ -4,6 +4,7 @@ layout: result-page
 title: 'No Black Hole Evaporation: dM/dn ≥ 0 and Information Preserved'
 permalink: /results/problem/no-bh-evaporation/
 result_id: result-031
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

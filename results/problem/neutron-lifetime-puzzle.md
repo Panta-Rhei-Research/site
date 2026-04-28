@@ -3,6 +3,7 @@ layout: result-page
 title: "Neutron Lifetime Puzzle"
 permalink: /results/problem/neutron-lifetime-puzzle/
 result_id: result-162
+problem_ledger_ids: ["phys-neutron-lifetime-puzzle"]
 topic: physics
 layer: physics
 result_type: frontier_problem

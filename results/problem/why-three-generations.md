@@ -3,6 +3,7 @@ layout: result-page
 title: "Why Three Generations?"
 permalink: /results/problem/why-three-generations/
 result_id: result-098
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

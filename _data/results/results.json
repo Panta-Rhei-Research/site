@@ -26,7 +26,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "mathematics",
-    "world_readout_reason": "This anchors the mathematical readout because the whole layered world begins with the small τ-kernel and its coherence burden."
+    "world_readout_reason": "This anchors the mathematical readout because the whole layered world begins with the small τ-kernel and its coherence burden.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-002",
@@ -47,7 +48,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-003",
@@ -68,7 +70,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-004",
@@ -89,7 +92,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-005",
@@ -118,7 +122,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "mathematics",
-    "world_readout_reason": "This anchors the mathematical readout by connecting the τ-kernel to spectral algebra rather than leaving the base merely axiomatic."
+    "world_readout_reason": "This anchors the mathematical readout by connecting the τ-kernel to spectral algebra rather than leaving the base merely axiomatic.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-006",
@@ -147,7 +152,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "mathematics",
-    "world_readout_reason": "This anchors the readout architecture by making the E0–E3 ladder a staged construction instead of a loose domain metaphor."
+    "world_readout_reason": "This anchors the readout architecture by making the E0–E3 ladder a staged construction instead of a loose domain metaphor.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-007",
@@ -168,7 +174,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-008",
@@ -189,7 +196,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-009",
@@ -211,7 +219,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Generation_(particle_physics)"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Generation_(particle_physics)",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-010",
@@ -232,7 +241,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-011",
@@ -253,7 +263,8 @@
     "domain_group": "Electroweak",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-012",
@@ -274,7 +285,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-013",
@@ -295,7 +307,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-014",
@@ -316,7 +329,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-015",
@@ -346,7 +360,10 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This anchors the physics readout by treating dark-sector structure as a sector-closure consequence rather than a particle placeholder."
+    "world_readout_reason": "This anchors the physics readout by treating dark-sector structure as a sector-closure consequence rather than a particle placeholder.",
+    "problem_ledger_ids": [
+      "phys-dark-matter"
+    ]
   },
   {
     "id": "result-016",
@@ -367,7 +384,11 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": [
+      "phys-dark-matter",
+      "phys-galaxy-rotation-problem"
+    ]
   },
   {
     "id": "result-017",
@@ -388,7 +409,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-018",
@@ -409,7 +431,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-019",
@@ -433,7 +456,10 @@
       "life"
     ],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Abiogenesis"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Abiogenesis",
+    "problem_ledger_ids": [
+      "life-origin-of-life"
+    ]
   },
   {
     "id": "result-020",
@@ -456,7 +482,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-021",
@@ -479,7 +506,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-022",
@@ -502,7 +530,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-023",
@@ -526,7 +555,8 @@
       "metaphysics"
     ],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Categorical_imperative"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Categorical_imperative",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-024",
@@ -547,7 +577,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-025",
@@ -571,7 +602,10 @@
       "metaphysics"
     ],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
+    "problem_ledger_ids": [
+      "life-consciousness"
+    ]
   },
   {
     "id": "result-026",
@@ -592,7 +626,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-027",
@@ -614,7 +649,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-028",
@@ -635,7 +671,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-029",
@@ -656,7 +693,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-030",
@@ -677,7 +715,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-031",
@@ -698,7 +737,8 @@
     "domain_group": "Black Holes",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-032",
@@ -719,7 +759,10 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": [
+      "phys-the-lithium-problem"
+    ]
   },
   {
     "id": "result-033",
@@ -740,7 +783,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-034",
@@ -761,7 +805,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-035",
@@ -782,7 +827,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-036",
@@ -805,7 +851,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-037",
@@ -826,7 +873,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-038",
@@ -847,7 +895,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-039",
@@ -872,7 +921,8 @@
     "world_readout": true,
     "world_readout_prominence": "support",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This supports the physics readout by giving the time/asymmetry surface a result-level reference."
+    "world_readout_reason": "This supports the physics readout by giving the time/asymmetry surface a result-level reference.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-040",
@@ -895,7 +945,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-041",
@@ -918,7 +969,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-042",
@@ -941,7 +993,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-043",
@@ -962,7 +1015,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-044",
@@ -984,7 +1038,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-045",
@@ -1005,7 +1060,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-046",
@@ -1027,7 +1083,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-047",
@@ -1050,7 +1107,11 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": [
+      "life-biology-free-will",
+      "life-neuroscience-free-will-particularly-the-neuroscience-of-free-will"
+    ]
   },
   {
     "id": "result-048",
@@ -1071,7 +1132,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-049",
@@ -1093,7 +1155,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-050",
@@ -1115,7 +1178,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/P_versus_NP_problem"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/P_versus_NP_problem",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-051",
@@ -1136,7 +1200,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-052",
@@ -1157,7 +1222,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-053",
@@ -1178,7 +1244,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-054",
@@ -1207,7 +1274,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This anchors the physics readout because it puts the calibration cascade under sharp numerical pressure."
+    "world_readout_reason": "This anchors the physics readout because it puts the calibration cascade under sharp numerical pressure.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-055",
@@ -1228,7 +1296,8 @@
     "domain_group": "Cosmology",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-056",
@@ -1249,7 +1318,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-057",
@@ -1270,7 +1340,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-058",
@@ -1291,7 +1362,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-059",
@@ -1316,7 +1388,8 @@
     "world_readout": true,
     "world_readout_prominence": "support",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This supports the physics readout as a precision anomaly handled through the quantitative calibration surface."
+    "world_readout_reason": "This supports the physics readout as a precision anomaly handled through the quantitative calibration surface.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-060",
@@ -1338,7 +1411,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Hubble_tension"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hubble_tension",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-061",
@@ -1359,7 +1433,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-062",
@@ -1384,7 +1459,8 @@
     "world_readout": true,
     "world_readout_prominence": "support",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This supports the physics readout as a precision calibration check on measured particle structure."
+    "world_readout_reason": "This supports the physics readout as a precision calibration check on measured particle structure.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-063",
@@ -1405,7 +1481,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-064",
@@ -1426,7 +1503,8 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-065",
@@ -1456,7 +1534,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This anchors the physics readout by turning neutrino structure into a concrete mass-sum and ordering claim."
+    "world_readout_reason": "This anchors the physics readout by turning neutrino structure into a concrete mass-sum and ordering claim.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-066",
@@ -1488,7 +1567,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "life",
-    "world_readout_reason": "This anchors the life readout by linking molecular handedness to a claimed structural chain from the kernel."
+    "world_readout_reason": "This anchors the life readout by linking molecular handedness to a claimed structural chain from the kernel.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-067",
@@ -1509,7 +1589,8 @@
     "domain_group": "Physics",
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-068",
@@ -1541,7 +1622,10 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "life",
-    "world_readout_reason": "This anchors the life readout by making origin-of-life timing part of the framework's inspectable burden."
+    "world_readout_reason": "This anchors the life readout by making origin-of-life timing part of the framework's inspectable burden.",
+    "problem_ledger_ids": [
+      "life-origin-of-life"
+    ]
   },
   {
     "id": "result-069",
@@ -1564,7 +1648,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-070",
@@ -1587,7 +1672,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-071",
@@ -1610,7 +1696,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-072",
@@ -1633,7 +1720,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-073",
@@ -1655,7 +1743,10 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "partial-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+    "problem_ledger_ids": [
+      "math-riemann-hypothesis"
+    ]
   },
   {
     "id": "result-074",
@@ -1687,7 +1778,10 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "life",
-    "world_readout_reason": "This anchors the life readout by making life a definitional and structural target, not only a list of organisms."
+    "world_readout_reason": "This anchors the life readout by making life a definitional and structural target, not only a list of organisms.",
+    "problem_ledger_ids": [
+      "life-origin-of-life"
+    ]
   },
   {
     "id": "result-075",
@@ -1710,7 +1804,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-076",
@@ -1733,7 +1828,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-077",
@@ -1757,7 +1853,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "contradicts-dominant-hypothesis"
+    "stance_type": "contradicts-dominant-hypothesis",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-078",
@@ -1781,7 +1878,10 @@
       "metaphysics"
     ],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Problem_of_universals"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Problem_of_universals",
+    "problem_ledger_ids": [
+      "meta-problem-of-universals"
+    ]
   },
   {
     "id": "result-079",
@@ -1805,7 +1905,8 @@
       "metaphysics"
     ],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Process_philosophy"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Process_philosophy",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-080",
@@ -1829,7 +1930,10 @@
       "metaphysics"
     ],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gettier_problem"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gettier_problem",
+    "problem_ledger_ids": [
+      "meta-gettier-problem"
+    ]
   },
   {
     "id": "result-081",
@@ -1856,7 +1960,8 @@
     "world_readout": true,
     "world_readout_prominence": "support",
     "world_readout_layer": "metaphysics",
-    "world_readout_reason": "This supports the metaphysics readout by marking the point where proof reaches the boundary of commitment."
+    "world_readout_reason": "This supports the metaphysics readout by marking the point where proof reaches the boundary of commitment.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-082",
@@ -1880,7 +1985,8 @@
       "metaphysics"
     ],
     "stance_type": "partial-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Artificial_consciousness"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Artificial_consciousness",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-083",
@@ -1902,7 +2008,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-084",
@@ -1934,7 +2041,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "life",
-    "world_readout_reason": "This anchors the life readout by making life a structural consequence candidate rather than a late accidental appendix."
+    "world_readout_reason": "This anchors the life readout by making life a structural consequence candidate rather than a late accidental appendix.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-085",
@@ -1965,7 +2073,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "mathematics",
-    "world_readout_reason": "This anchors the transition from mathematical construction to the four-layer world-picture used by every readout."
+    "world_readout_reason": "This anchors the transition from mathematical construction to the four-layer world-picture used by every readout.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-086",
@@ -1987,7 +2096,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-087",
@@ -2009,7 +2119,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prime_number"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prime_number",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-088",
@@ -2030,7 +2141,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-089",
@@ -2051,7 +2163,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-090",
@@ -2072,7 +2185,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-091",
@@ -2094,7 +2208,10 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "partial-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+    "problem_ledger_ids": [
+      "math-riemann-hypothesis"
+    ]
   },
   {
     "id": "result-092",
@@ -2116,7 +2233,10 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "partial-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/P_versus_NP_problem"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/P_versus_NP_problem",
+    "problem_ledger_ids": [
+      "math-p-vs-np"
+    ]
   },
   {
     "id": "result-093",
@@ -2137,7 +2257,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-094",
@@ -2158,7 +2279,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-095",
@@ -2180,7 +2302,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Abc_conjecture"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Abc_conjecture",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-096",
@@ -2202,7 +2325,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-097",
@@ -2224,7 +2348,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "contradicts-dominant-hypothesis"
+    "stance_type": "contradicts-dominant-hypothesis",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-098",
@@ -2254,7 +2379,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This anchors the matter-family readout by asking whether three generations are forced by structure rather than merely observed."
+    "world_readout_reason": "This anchors the matter-family readout by asking whether three generations are forced by structure rather than merely observed.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-099",
@@ -2276,7 +2402,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Strong_CP_problem"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Strong_CP_problem",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-100",
@@ -2302,7 +2429,8 @@
     "world_readout": true,
     "world_readout_prominence": "support",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This supports the physics readout by keeping electroweak tension visible as partial rather than overclaimed."
+    "world_readout_reason": "This supports the physics readout by keeping electroweak tension visible as partial rather than overclaimed.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-101",
@@ -2323,7 +2451,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-102",
@@ -2350,7 +2479,11 @@
     "world_readout": true,
     "world_readout_prominence": "support",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This supports the physics readout by connecting dark matter and dark energy claims to the broader sector-closure route."
+    "world_readout_reason": "This supports the physics readout by connecting dark matter and dark energy claims to the broader sector-closure route.",
+    "problem_ledger_ids": [
+      "phys-dark-energy",
+      "phys-dark-matter"
+    ]
   },
   {
     "id": "result-103",
@@ -2372,7 +2505,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-104",
@@ -2394,7 +2528,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Higgs_boson"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Higgs_boson",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-105",
@@ -2416,7 +2551,10 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Neutrino"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Neutrino",
+    "problem_ledger_ids": [
+      "phys-neutrino-mass"
+    ]
   },
   {
     "id": "result-106",
@@ -2437,7 +2575,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-107",
@@ -2459,7 +2598,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Majorana_fermion"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Majorana_fermion",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-108",
@@ -2489,7 +2629,10 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This anchors the cosmological readout by connecting a live observational tension to the framework's status-marked physics route."
+    "world_readout_reason": "This anchors the cosmological readout by connecting a live observational tension to the framework's status-marked physics route.",
+    "problem_ledger_ids": [
+      "phys-hubble-tension"
+    ]
   },
   {
     "id": "result-109",
@@ -2511,7 +2654,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Hubble_tension"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hubble_tension",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-110",
@@ -2533,7 +2677,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-111",
@@ -2555,7 +2700,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Inflation_(cosmology)"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Inflation_(cosmology)",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-112",
@@ -2578,7 +2724,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Baryon_asymmetry"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baryon_asymmetry",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-113",
@@ -2600,7 +2747,11 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Galaxy_rotation_curve"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Galaxy_rotation_curve",
+    "problem_ledger_ids": [
+      "phys-dark-matter",
+      "phys-galaxy-rotation-problem"
+    ]
   },
   {
     "id": "result-114",
@@ -2625,7 +2776,8 @@
     "world_readout": true,
     "world_readout_prominence": "support",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This supports the physics readout as a deliberately exposed falsification target at the gravity boundary."
+    "world_readout_reason": "This supports the physics readout as a deliberately exposed falsification target at the gravity boundary.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-115",
@@ -2646,7 +2798,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "contradicts-dominant-hypothesis"
+    "stance_type": "contradicts-dominant-hypothesis",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-116",
@@ -2667,7 +2820,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "contradicts-dominant-hypothesis"
+    "stance_type": "contradicts-dominant-hypothesis",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-117",
@@ -2688,7 +2842,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-118",
@@ -2709,7 +2864,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-119",
@@ -2730,7 +2886,10 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": [
+      "phys-temperature"
+    ]
   },
   {
     "id": "result-120",
@@ -2752,7 +2911,8 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "internal-structural-result",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-121",
@@ -2775,7 +2935,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-122",
@@ -2798,7 +2959,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-123",
@@ -2821,7 +2983,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-124",
@@ -2844,7 +3007,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-125",
@@ -2867,7 +3031,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-126",
@@ -2890,7 +3055,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-127",
@@ -2913,7 +3079,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-128",
@@ -2936,7 +3103,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-129",
@@ -2959,7 +3127,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-130",
@@ -2982,7 +3151,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-131",
@@ -3005,7 +3175,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-132",
@@ -3028,7 +3199,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-133",
@@ -3052,7 +3224,10 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": [
+      "life-consciousness"
+    ]
   },
   {
     "id": "result-134",
@@ -3075,7 +3250,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-135",
@@ -3098,7 +3274,10 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": [
+      "life-biology-protein-folding"
+    ]
   },
   {
     "id": "result-136",
@@ -3119,7 +3298,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-137",
@@ -3142,7 +3322,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-138",
@@ -3165,7 +3346,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-139",
@@ -3188,7 +3370,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-140",
@@ -3220,7 +3403,11 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "metaphysics",
-    "world_readout_reason": "This anchors the mind readout by marking both the structural explanation and the remaining phenomenological burden."
+    "world_readout_reason": "This anchors the mind readout by marking both the structural explanation and the remaining phenomenological burden.",
+    "problem_ledger_ids": [
+      "life-consciousness",
+      "meta-hard-problem-of-consciousness"
+    ]
   },
   {
     "id": "result-141",
@@ -3243,7 +3430,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-142",
@@ -3266,7 +3454,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-143",
@@ -3289,7 +3478,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-144",
@@ -3312,7 +3502,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-145",
@@ -3335,7 +3526,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-146",
@@ -3358,7 +3550,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-147",
@@ -3381,7 +3574,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-148",
@@ -3413,7 +3607,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "metaphysics",
-    "world_readout_reason": "This anchors the normative readout by asking whether ethical form can be treated as structural consequence."
+    "world_readout_reason": "This anchors the normative readout by asking whether ethical form can be treated as structural consequence.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-149",
@@ -3436,7 +3631,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-150",
@@ -3459,7 +3655,11 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": [
+      "life-biology-free-will",
+      "life-neuroscience-free-will-particularly-the-neuroscience-of-free-will"
+    ]
   },
   {
     "id": "result-151",
@@ -3482,7 +3682,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-152",
@@ -3505,7 +3706,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-153",
@@ -3528,7 +3730,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-154",
@@ -3550,7 +3753,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-155",
@@ -3572,7 +3776,10 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": [
+      "life-consciousness"
+    ]
   },
   {
     "id": "result-156",
@@ -3594,7 +3801,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-157",
@@ -3616,7 +3824,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-158",
@@ -3638,7 +3847,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-159",
@@ -3660,7 +3870,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-160",
@@ -3681,7 +3892,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-161",
@@ -3702,7 +3914,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-162",
@@ -3723,7 +3936,10 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": [
+      "phys-neutron-lifetime-puzzle"
+    ]
   },
   {
     "id": "result-163",
@@ -3744,7 +3960,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-164",
@@ -3765,7 +3982,10 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": [
+      "phys-hierarchy-problem"
+    ]
   },
   {
     "id": "result-165",
@@ -3794,7 +4014,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This anchors the physics readout by asking whether vacuum energy is read from the Corpus instead of patched by scale adjustment."
+    "world_readout_reason": "This anchors the physics readout by asking whether vacuum energy is read from the Corpus instead of patched by scale adjustment.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-166",
@@ -3816,7 +4037,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-167",
@@ -3837,7 +4059,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-168",
@@ -3858,7 +4081,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-169",
@@ -3879,7 +4103,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-170",
@@ -3900,7 +4125,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-171",
@@ -3921,7 +4147,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-172",
@@ -3942,7 +4169,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-173",
@@ -3963,7 +4191,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-174",
@@ -3984,7 +4213,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-175",
@@ -4005,7 +4235,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-176",
@@ -4026,7 +4257,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-177",
@@ -4047,7 +4279,10 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": [
+      "phys-quantum-spacetime-or-the-emergence-of-spacetime"
+    ]
   },
   {
     "id": "result-178",
@@ -4068,7 +4303,10 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": [
+      "phys-dark-energy"
+    ]
   },
   {
     "id": "result-179",
@@ -4097,7 +4335,8 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "physics",
-    "world_readout_reason": "This anchors the forward-facing physics readout because it points toward empirical inspection rather than only retrospective fit."
+    "world_readout_reason": "This anchors the forward-facing physics readout because it points toward empirical inspection rather than only retrospective fit.",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-180",
@@ -4118,7 +4357,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-181",
@@ -4139,7 +4379,8 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-182",
@@ -4162,7 +4403,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-183",
@@ -4185,7 +4427,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-184",
@@ -4208,7 +4451,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-185",
@@ -4231,7 +4475,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-186",
@@ -4254,7 +4499,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-187",
@@ -4277,7 +4523,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-188",
@@ -4300,7 +4547,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-189",
@@ -4323,7 +4571,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-190",
@@ -4346,7 +4595,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-191",
@@ -4369,7 +4619,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-192",
@@ -4392,7 +4643,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-193",
@@ -4415,7 +4667,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-194",
@@ -4438,7 +4691,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-195",
@@ -4461,7 +4715,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-196",
@@ -4484,7 +4739,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-197",
@@ -4507,7 +4763,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-198",
@@ -4530,7 +4787,10 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": [
+      "life-consciousness"
+    ]
   },
   {
     "id": "result-199",
@@ -4553,7 +4813,8 @@
     "secondary_domains": [
       "life"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-200",
@@ -4576,7 +4837,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-201",
@@ -4599,7 +4861,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-202",
@@ -4622,7 +4885,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-203",
@@ -4645,7 +4909,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-204",
@@ -4668,7 +4933,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-205",
@@ -4691,7 +4957,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-206",
@@ -4714,7 +4981,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-207",
@@ -4737,7 +5005,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-208",
@@ -4760,7 +5029,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-209",
@@ -4783,7 +5053,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-210",
@@ -4806,7 +5077,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-211",
@@ -4829,7 +5101,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-212",
@@ -4852,7 +5125,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-213",
@@ -4875,7 +5149,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-214",
@@ -4898,7 +5173,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-215",
@@ -4921,7 +5197,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-216",
@@ -4944,7 +5221,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-217",
@@ -4967,7 +5245,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-218",
@@ -4990,7 +5269,8 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-219",
@@ -5021,7 +5301,10 @@
     "world_readout": true,
     "world_readout_prominence": "anchor",
     "world_readout_layer": "metaphysics",
-    "world_readout_reason": "This anchors the metaphysics readout by treating existence as an inspectable burden rather than a hidden premise."
+    "world_readout_reason": "This anchors the metaphysics readout by treating existence as an inspectable burden rather than a hidden premise.",
+    "problem_ledger_ids": [
+      "meta-why-something-rather-than-nothing"
+    ]
   },
   {
     "id": "result-220",
@@ -5042,7 +5325,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-221",
@@ -5063,7 +5347,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-222",
@@ -5084,7 +5369,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-223",
@@ -5105,7 +5391,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-224",
@@ -5126,7 +5413,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-225",
@@ -5147,7 +5435,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-226",
@@ -5169,7 +5458,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-227",
@@ -5190,7 +5480,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-228",
@@ -5211,7 +5502,10 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": [
+      "math-poincare-conjecture"
+    ]
   },
   {
     "id": "result-229",
@@ -5232,7 +5526,10 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": [
+      "math-hodge-conjecture"
+    ]
   },
   {
     "id": "result-230",
@@ -5254,7 +5551,8 @@
     "primary_domain": "mathematics",
     "secondary_domains": [],
     "stance_type": "partial-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-231",
@@ -5275,7 +5573,10 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": [
+      "math-langlands-program"
+    ]
   },
   {
     "id": "result-232",
@@ -5296,7 +5597,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "partial-solution"
+    "stance_type": "partial-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-233",
@@ -5317,7 +5619,8 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
   },
   {
     "id": "result-234",
@@ -5338,6 +5641,504 @@
     ],
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "problem_ledger_ids": []
+  },
+  {
+    "id": "result-235",
+    "slug": "cosmic-censorship",
+    "title": "Cosmic Censorship: Boundary Compactness + Hartogs Extension",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Cosmic censorship follows from boundary compactness and the Hartogs extension principle (V.T27). Penrose-Hawking singularity theorems do not apply in τ because τ³ is not a Lorentzian manifold (V.R31) — naked singularities are structurally excluded, not merely censored.",
+    "url": "/results/problem/cosmic-censorship/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-the-cosmic-censorship-hypothesis-and-the-chronology-protection-conjecture"
+    ]
+  },
+  {
+    "id": "result-236",
+    "slug": "chronology-protection-no-ctcs",
+    "title": "Chronology Protection: Closed Timelike Curves Structurally Excluded",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Closed timelike curves are structurally forbidden by the strict irreflexive partial order on the α-orbit (V.T09, Causal Ordering Theorem). Hawking''s chronology protection becomes a theorem, not a speculative mechanism.",
+    "url": "/results/problem/chronology-protection-no-ctcs/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": []
+  },
+  {
+    "id": "result-237",
+    "slug": "holographic-principle",
+    "title": "Holographic Principle: Bulk ↔ Boundary Correspondence Proved",
+    "topic": "mathematics",
+    "layer": "mathematics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "The Central Theorem (II.T40, Book II ch51) proves an exact bulk-boundary correspondence: 1D boundary data completely encodes 3D holomorphic data on τ³. II.C01 names this the Holographic Principle corollary. Unlike AdS/CFT — a conjecture on anti-de Sitter — this is a theorem on the actual universe.",
+    "url": "/results/problem/holographic-principle/",
+    "canonical_books": [
+      "II"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Mathematics",
+    "primary_domain": "mathematics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-holographic-principle"
+    ]
+  },
+  {
+    "id": "result-238",
+    "slug": "problem-of-time",
+    "title": "Problem of Time: Wheeler-DeWitt Frozen Formalism Dissolved",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "The Wheeler-DeWitt \"problem of time\" (vanishing Hamiltonian → timeless theory) is dissolved in τ: time is not a background parameter to recover from a timeless state but IS the α-orbit (V.R23). V.T10 establishes bounded temporal extent; VII.P06 reconstructs time as persistence of NF-addresses.",
+    "url": "/results/problem/problem-of-time/",
+    "canonical_books": [
+      "V",
+      "VII"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-problem-of-time"
+    ]
+  },
+  {
+    "id": "result-239",
+    "slug": "supermassive-black-holes-early-universe",
+    "title": "Supermassive Black Holes in the Early Universe: JWST Enhancement Theorem",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "JWST-observed 10⁹ M☉ black holes at z~7-13 are explained by the JWST Enhancement Theorem (V.T239): deeper gravitational potentials at high redshift drive 5.4× star-formation efficiency at z=13 (V.P163), growing SMBHs from primordial gas. No primordial black holes required.",
+    "url": "/results/problem/supermassive-black-holes-early-universe/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-supermassive-black-holes"
+    ]
+  },
+  {
+    "id": "result-240",
+    "slug": "cosmic-magnetic-fields",
+    "title": "Cosmic Magnetic Fields: SMBH-Jet Frozen Flux Along Wilson Filaments",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Intergalactic magnetic fields of 10-100 nG with Mpc coherence length derive from SMBH jets carrying frozen flux along Wilson-skeleton filaments (V.T233). Vernstrom 2021 and Carretti 2023 measured ~30 nG in filaments — matching prediction and exceeding random-dynamo expectations by 1-2 orders of magnitude.",
+    "url": "/results/problem/cosmic-magnetic-fields/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-origin-of-cosmic-magnetic-fields"
+    ]
+  },
+  {
+    "id": "result-241",
+    "slug": "astrophysical-jets",
+    "title": "Astrophysical Jets: Topological Collimation from T² Fibration",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Relativistic polar jets arise from T² topology: the fibration forces matter into an equatorial accretion funnel and reserves the polar axis as a 1D topological channel. The Jet Collimation Theorem (Book V ch40) bounds the opening half-angle by arcsin(ι_τ) ≈ 19.96°.",
+    "url": "/results/problem/astrophysical-jets/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-astrophysical-jet"
+    ]
+  },
+  {
+    "id": "result-242",
+    "slug": "supernovae-mechanism",
+    "title": "Core-Collapse Supernovae: Channel Reversal at Nuclear Density",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Core-collapse supernovae explode via channel reversal (Book V ch39): GR tension exceeds threshold at nuclear density, topological opening reverses direction, and an outward shock is driven by A-sector neutrino energy transfer. Asymmetry in the reversal derives natal kicks of 200-500 km/s (V.P76).",
+    "url": "/results/problem/supernovae-mechanism/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-supernovae"
+    ]
+  },
+  {
+    "id": "result-243",
+    "slug": "coronal-heating",
+    "title": "Coronal Heating: Parameter-Free Damping Length from dim(T²)=2",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Solar coronal heating — one of the oldest open problems in classical physics — is internally addressed by deriving the heating damping length from dim(T²)=2 (V.T253, Book V ch65): F_τ ≈ 3.4×10⁵ erg cm⁻² s⁻¹, L_d ≈ 0.02 R_⊙. Parameter-free, not fitted to experiment.",
+    "url": "/results/problem/coronal-heating/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-coronal-heating-problem"
+    ]
+  },
+  {
+    "id": "result-244",
+    "slug": "grand-unification-dissolved",
+    "title": "Grand Unification: Why Eight Decades of Unification Failed",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "The GUT program (SU(5), SO(10), etc.) failed because it rests on manifold ontology. The Boundary Unification Principle (V.R245) replaces gauge-group embedding with algebra projection — no larger gauge group, no extra dimensions, no new particles. Baryogenesis threshold at 10¹² GeV (V.P133) sits naturally without GUT-scale unification.",
+    "url": "/results/problem/grand-unification-dissolved/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-grand-unification"
+    ]
+  },
+  {
+    "id": "result-245",
+    "slug": "supersymmetry-structurally-absent",
+    "title": "Supersymmetry: Sector Exhaustion Rules Out Superpartners",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Supersymmetry is not needed: the hierarchy problem is dissolved structurally, not dynamically (IV.R35, V.R245). No superpartners, no KK modes, no technicolor — there is no fundamental scalar to protect. LHC''s null result for SUSY validates the prediction.",
+    "url": "/results/problem/supersymmetry-structurally-absent/",
+    "canonical_books": [
+      "IV",
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-supersymmetry"
+    ]
+  },
+  {
+    "id": "result-246",
+    "slug": "no-magnetic-monopoles",
+    "title": "Magnetic Monopoles: Forbidden by the Bianchi Identity",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Magnetic monopoles cannot exist in τ: div B = 0 follows from d² = 0 (the Bianchi identity on the EM gauge bundle), proved as the Homogeneous Maxwell Equations theorem (IV.T42). Monopoles are structurally forbidden, not merely unobserved.",
+    "url": "/results/problem/no-magnetic-monopoles/",
+    "canonical_books": [
+      "IV"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-magnetic-monopoles"
+    ]
+  },
+  {
+    "id": "result-247",
+    "slug": "glueballs",
+    "title": "Glueballs: Mass Gap = Minimum Glueball Mass",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Glueballs are color-neutral excitations above the strong-sector vacuum with no quark content (IV.D201). The Yang-Mills mass gap δ∞^s > 0 (IV.T75) IS the minimum glueball mass; lattice QCD prediction ~1.5-1.7 GeV with J^PC = 0⁺⁺ follows from the gap structure.",
+    "url": "/results/problem/glueballs/",
+    "canonical_books": [
+      "IV"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-glueballs"
+    ]
+  },
+  {
+    "id": "result-248",
+    "slug": "exotic-hadrons",
+    "title": "Exotic Hadrons: Color-Singlet Enumeration of Tetraquarks and Pentaquarks",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "The color-singlet condition enumerates permitted multiquark bound states: tetraquarks (qq q̄ q̄) and pentaquarks (qqqq q̄) are allowed (IV.R64, IV.P95). LHCb has identified candidates for both. The framework predicts and classifies exotic hadrons by sector structure rather than ad hoc quark-model extensions.",
+    "url": "/results/problem/exotic-hadrons/",
+    "canonical_books": [
+      "IV"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-pentaquarks-and-other-exotic-hadrons"
+    ]
+  },
+  {
+    "id": "result-249",
+    "slug": "qcd-phases-qgp",
+    "title": "QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Quark-gluon plasma is not deconfined: in τ, QGP is a state where the confinement scale exceeds the mean inter-quark distance (V.R151). QCD phase transitions are governed by defect-tuple inequality crossings (Book IV ch53); the B+C sector transition maps to the QCD deconfinement universality class (IV.R177).",
+    "url": "/results/problem/qcd-phases-qgp/",
+    "canonical_books": [
+      "IV",
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": []
+  },
+  {
+    "id": "result-250",
+    "slug": "glass-transition",
+    "title": "Glass Transition: Regime from Defect-Tuple Phase Space",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "The glass transition is a rigorous τ-regime (Book IV ch62): glass lives where d₁ ≈ 0 and d₄ ≈ 0 in the defect-tuple phase space. The Glass Threshold K_glass demarcates the regime; the CheckGlass procedure decidably tests membership (IV.P288). First-principles, not phenomenological.",
+    "url": "/results/problem/glass-transition/",
+    "canonical_books": [
+      "IV"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": []
+  },
+  {
+    "id": "result-251",
+    "slug": "superfluid-helium-4-lambda",
+    "title": "Superfluid Helium-4: Minimal Donut Criterion from ι_τ",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Superfluid transition in Helium-4 at T_λ ≈ 2.17 K derives from the Minimal Donut Criterion cos(π/N) ≥ 1 − ι_τ (Book IV ch61): N=3 (He-3) fails at 0.500 < 0.659; N=4 (He-4) passes at 0.707 ≥ 0.659. A first-principles selection rule from the master constant ι_τ.",
+    "url": "/results/problem/superfluid-helium-4-lambda/",
+    "canonical_books": [
+      "IV"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": []
+  },
+  {
+    "id": "result-252",
+    "slug": "proton-stability",
+    "title": "Proton Stability: Address Irresolvability Forbids Baryon Decay",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "Proton stability is a structural theorem in τ (IV.T72): the Confinement Theorem (IV.T71) forbids any isolated color-charged state from attaining a stable address on L, so no baryon-number-violating decay is admissible. Prediction: τ_p = ∞ exactly — distinct from GUT predictions (~10³³-10³⁵ yr, excluded by Super-K) and from the Standard Model''s accidental baryon conservation.",
+    "url": "/results/problem/proton-stability/",
+    "canonical_books": [
+      "IV"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": []
+  },
+  {
+    "id": "result-253",
+    "slug": "horizon-problem",
+    "title": "Horizon Problem: CMB Uniformity from τ³ Compactness",
+    "topic": "physics",
+    "layer": "physics",
+    "result_type": "structural_readout",
+    "bridge_status": "internal",
+    "summary_short": "The horizon problem is structurally dissolved in τ (V.P91, Horizon Framework Account): τ³ = τ¹ ×_f T² is compact as a fibered product of compact spaces (V.T106, Flatness from Compactness). All regions of the last-scattering surface are causally ordered through the refinement tower — no \"causally disconnected regions\" exist. CMB uniformity at ~10⁻⁵ is a consequence of global compactness, not fine-tuned initial conditions or an inflationary mechanism.",
+    "url": "/results/problem/horizon-problem/",
+    "canonical_books": [
+      "V"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "Physics",
+    "primary_domain": "physics",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "phys-horizon-problem"
+    ]
+  },
+  {
+    "id": "result-254",
+    "slug": "last-universal-common-ancestor",
+    "title": "Last Universal Common Ancestor (LUCA): Root of the Tree as Persistence Sector",
+    "topic": "biology",
+    "layer": "life",
+    "result_type": "frontier_problem",
+    "bridge_status": "resolved",
+    "summary_short": "LUCA is characterized in the τ-framework as an anaerobic autotroph in the persistence sector (S_α), consistent with the ~355-gene reconstructed genome and the Wood–Ljungdahl carbon-fixation pathway. The divergence of Bacteria marks the first sector transition (persistence → agency) — the earliest structural bifurcation in the history of life.",
+    "url": "/results/problem/last-universal-common-ancestor/",
+    "canonical_books": [
+      "VI"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "EVOL",
+    "primary_domain": "life",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "life-biology-last-universal-common-ancestor"
+    ]
+  },
+  {
+    "id": "result-255",
+    "slug": "paradox-of-the-plankton",
+    "title": "Paradox of the Plankton: Nash Equilibrium on Carrier Configuration Space",
+    "topic": "biology",
+    "layer": "life",
+    "result_type": "frontier_problem",
+    "bridge_status": "resolved",
+    "summary_short": "Hutchinson's paradox of the plankton is dissolved by the Nash-equilibrium / configuration-space formulation of ecosystem structure (VI.R18): competitive exclusion (VI.R18, Gause) forbids two carriers at the same point x ∈ M; coexistence requires distinct points. High phytoplankton diversity reflects fine-grained niche partitioning along many axes of M — not a violation of competitive exclusion.",
+    "url": "/results/problem/paradox-of-the-plankton/",
+    "canonical_books": [
+      "VI"
+    ],
+    "result_kind": "frontier-problem",
+    "importance_class": "domain-level-open-problem",
+    "status_code": "R",
+    "domain_group": "EVOL",
+    "primary_domain": "life",
+    "secondary_domains": [],
+    "stance_type": "",
+    "problem_ledger_ids": [
+      "life-biology-paradox-of-the-plankton"
+    ]
   }
 ]

@@ -4,6 +4,7 @@ layout: result-page
 title: 'No Singularity: Profinite Structure Blocks a → 0'
 permalink: /results/problem/no-singularity-theorem/
 result_id: result-017
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

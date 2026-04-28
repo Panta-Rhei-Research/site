@@ -4,6 +4,7 @@ layout: result-page
 title: 'Exotic Hadrons: Color-Singlet Enumeration of Tetraquarks and Pentaquarks'
 permalink: /results/problem/exotic-hadrons/
 result_id: result-248
+problem_ledger_ids: ["phys-pentaquarks-and-other-exotic-hadrons"]
 topic: physics
 layer: physics
 result_type: structural_readout

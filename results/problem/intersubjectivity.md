@@ -3,6 +3,7 @@ layout: result-page
 title: "Intersubjectivity"
 permalink: /results/problem/intersubjectivity/
 result_id: result-205
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

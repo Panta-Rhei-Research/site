@@ -3,6 +3,7 @@ layout: result-page
 title: "Theta_QCD = 0 / Strong CP Problem"
 permalink: /results/problem/theta-qcd-0-strong-cp-problem/
 result_id: result-099
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

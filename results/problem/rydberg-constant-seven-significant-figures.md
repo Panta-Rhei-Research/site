@@ -4,6 +4,7 @@ layout: result-page
 title: Rydberg Constant at Seven Significant Figures from τ
 permalink: /results/problem/rydberg-constant-seven-significant-figures/
 result_id: result-052
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

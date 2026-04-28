@@ -3,6 +3,7 @@ layout: result-page
 title: "Neutrino Mass Ordering"
 permalink: /results/problem/neutrino-mass-ordering/
 result_id: result-105
+problem_ledger_ids: ["phys-neutrino-mass"]
 topic: physics
 layer: physics
 result_type: frontier_problem

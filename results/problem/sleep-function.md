@@ -3,6 +3,7 @@ layout: result-page
 title: "Sleep Function"
 permalink: /results/problem/sleep-function/
 result_id: result-197
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

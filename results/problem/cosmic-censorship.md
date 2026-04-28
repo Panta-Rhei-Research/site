@@ -4,6 +4,7 @@ layout: result-page
 title: 'Cosmic Censorship: Boundary Compactness + Hartogs Extension'
 permalink: /results/problem/cosmic-censorship/
 result_id: result-235
+problem_ledger_ids: ["phys-the-cosmic-censorship-hypothesis-and-the-chronology-protection-conjecture"]
 topic: physics
 layer: physics
 result_type: structural_readout

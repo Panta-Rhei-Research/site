@@ -4,6 +4,7 @@ layout: result-page
 title: The Categorical Imperative Is the Unique j-Closed Fixed Point
 permalink: /results/problem/categorical-imperative-fixed-point/
 result_id: result-023
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: structural_readout

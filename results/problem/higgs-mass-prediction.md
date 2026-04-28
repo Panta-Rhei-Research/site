@@ -4,6 +4,7 @@ layout: result-page
 title: Higgs Boson Mass Prediction at +8.0 ppm
 permalink: /results/problem/higgs-mass-prediction/
 result_id: result-012
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

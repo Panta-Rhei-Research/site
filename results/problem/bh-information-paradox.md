@@ -3,6 +3,7 @@ layout: result-page
 title: "BH Information Paradox"
 permalink: /results/problem/bh-information-paradox/
 result_id: result-171
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

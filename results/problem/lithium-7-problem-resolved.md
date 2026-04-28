@@ -5,6 +5,7 @@ title: 'Li-7 Framework Account: ⁷Li/H via Fiber Suppression S = 1/3'
 title_plain: 'Li-7 Framework Account: ⁷Li/H via Fiber Suppression S = 1/3'
 permalink: /results/problem/lithium-7-problem-resolved/
 result_id: result-032
+problem_ledger_ids: ["phys-the-lithium-problem"]
 topic: physics
 layer: physics
 result_type: structural_readout

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Saturation Theorem: The Enrichment Ladder Terminates at E₃'
 permalink: /results/problem/saturation-theorem-no-e4/
 result_id: result-024
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

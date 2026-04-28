@@ -4,6 +4,7 @@ layout: result-page
 title: 'Crossing-Limit Theorem: Merger Networks Converge to ι<sub>τ</sub>'
 permalink: /results/problem/crossing-limit-theorem-merger-networks-iota-tau/
 result_id: result-067
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

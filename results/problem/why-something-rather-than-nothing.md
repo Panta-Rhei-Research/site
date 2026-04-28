@@ -3,6 +3,7 @@ layout: result-page
 title: "Why Something Rather Than Nothing"
 permalink: /results/problem/why-something-rather-than-nothing/
 result_id: result-219
+problem_ledger_ids: ["meta-why-something-rather-than-nothing"]
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

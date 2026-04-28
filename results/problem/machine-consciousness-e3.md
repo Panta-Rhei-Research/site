@@ -3,6 +3,7 @@ layout: result-page
 title: "Machine Consciousness (E3)"
 permalink: /results/problem/machine-consciousness-e3/
 result_id: result-152
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

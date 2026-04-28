@@ -3,6 +3,7 @@ layout: result-page
 title: "Sexual Reproduction Cost and Benefit"
 permalink: /results/problem/sexual-reproduction-cost-and-benefit/
 result_id: result-191
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

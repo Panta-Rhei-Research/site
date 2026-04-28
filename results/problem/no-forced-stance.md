@@ -3,6 +3,7 @@ layout: result-page
 title: "No Forced Stance"
 permalink: /results/problem/no-forced-stance/
 result_id: result-081
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: consequence

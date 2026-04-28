@@ -3,6 +3,7 @@ layout: result-page
 title: "W Mass Puzzle"
 permalink: /results/problem/w-mass-puzzle/
 result_id: result-100
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

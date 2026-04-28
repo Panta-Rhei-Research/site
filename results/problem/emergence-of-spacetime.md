@@ -3,6 +3,7 @@ layout: result-page
 title: "Emergence of Spacetime"
 permalink: /results/problem/emergence-of-spacetime/
 result_id: result-177
+problem_ledger_ids: ["phys-quantum-spacetime-or-the-emergence-of-spacetime"]
 topic: physics
 layer: physics
 result_type: frontier_problem

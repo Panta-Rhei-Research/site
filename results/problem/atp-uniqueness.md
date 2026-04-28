@@ -3,6 +3,7 @@ layout: result-page
 title: "ATP Uniqueness"
 permalink: /results/problem/atp-uniqueness/
 result_id: result-131
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

@@ -4,6 +4,7 @@ layout: result-page
 title: 'ATP Currency Uniqueness: Topology and Coupling Fix the Energy Scale'
 permalink: /results/problem/atp-currency-uniqueness/
 result_id: result-070
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

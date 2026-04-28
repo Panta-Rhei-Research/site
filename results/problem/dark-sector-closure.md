@@ -3,6 +3,7 @@ layout: result-page
 title: "Dark Sector Closure"
 permalink: /results/problem/dark-sector-closure/
 result_id: result-102
+problem_ledger_ids: ["phys-dark-energy", "phys-dark-matter"]
 topic: physics
 layer: physics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "Temporal Experience"
 permalink: /results/problem/temporal-experience/
 result_id: result-141
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

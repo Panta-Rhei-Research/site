@@ -4,6 +4,7 @@ layout: result-page
 title: 'Supermassive Black Holes in the Early Universe: JWST Enhancement Theorem'
 permalink: /results/problem/supermassive-black-holes-early-universe/
 result_id: result-239
+problem_ledger_ids: ["phys-supermassive-black-holes"]
 topic: physics
 layer: physics
 result_type: structural_readout

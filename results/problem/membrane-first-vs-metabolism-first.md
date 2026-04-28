@@ -3,6 +3,7 @@ layout: result-page
 title: "Membrane-First vs Metabolism-First"
 permalink: /results/problem/membrane-first-vs-metabolism-first/
 result_id: result-075
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

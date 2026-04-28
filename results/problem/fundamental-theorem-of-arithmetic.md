@@ -3,6 +3,7 @@ layout: result-page
 title: "Fundamental Theorem of Arithmetic"
 permalink: /results/problem/fundamental-theorem-of-arithmetic/
 result_id: result-220
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: foundational_math

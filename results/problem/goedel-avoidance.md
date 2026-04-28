@@ -4,6 +4,7 @@ layout: result-page
 title: 'Gödel Avoidance: Five Mechanisms Prevent Diagonal Self-Negation in τ'
 permalink: /results/problem/goedel-avoidance/
 result_id: result-044
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

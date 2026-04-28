@@ -5,6 +5,7 @@ title: 'S₈ Tension Framework Account: S₈ = 0.783 from f_supp × f_growth × 
 title_plain: 'S₈ Tension Framework Account: S₈ = 0.783 from f_supp × f_growth × f_ν'
 permalink: /results/problem/s8-tension-resolved-0pt783/
 result_id: result-061
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

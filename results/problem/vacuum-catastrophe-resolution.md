@@ -3,6 +3,7 @@ layout: result-page
 title: "Vacuum Catastrophe Framework Account"
 permalink: /results/problem/vacuum-catastrophe-resolution/
 result_id: result-165
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

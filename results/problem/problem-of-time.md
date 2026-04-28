@@ -4,6 +4,7 @@ layout: result-page
 title: 'Problem of Time: Wheeler-DeWitt Frozen Formalism Dissolved'
 permalink: /results/problem/problem-of-time/
 result_id: result-238
+problem_ledger_ids: ["phys-problem-of-time"]
 topic: physics
 layer: physics
 result_type: structural_readout

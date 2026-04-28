@@ -3,6 +3,7 @@ layout: result-page
 title: "Quantum Computing"
 permalink: /results/problem/quantum-computing/
 result_id: result-119
+problem_ledger_ids: ["phys-temperature"]
 topic: physics
 layer: physics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "Hierarchy Problem"
 permalink: /results/problem/hierarchy-problem/
 result_id: result-164
+problem_ledger_ids: ["phys-hierarchy-problem"]
 topic: physics
 layer: physics
 result_type: frontier_problem

@@ -3,6 +3,7 @@ layout: result-page
 title: "Equivalence Principle from τ"
 permalink: /results/problem/equivalence-principle-from/
 result_id: result-172
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: foundational_math

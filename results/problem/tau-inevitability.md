@@ -4,6 +4,7 @@ layout: result-page
 title: 'Inevitability: Six Ontic Requirements Force the τ-Kernel'
 permalink: /results/problem/tau-inevitability/
 result_id: result-026
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: structural_readout

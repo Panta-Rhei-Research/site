@@ -3,6 +3,7 @@ layout: result-page
 title: "Chandrasekhar Mass Limit"
 permalink: /results/problem/chandrasekhar-mass-limit/
 result_id: result-168
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: foundational_math

@@ -4,6 +4,7 @@ layout: result-page
 title: 'Magnetic Monopoles: Forbidden by the Bianchi Identity'
 permalink: /results/problem/no-magnetic-monopoles/
 result_id: result-246
+problem_ledger_ids: ["phys-magnetic-monopoles"]
 topic: physics
 layer: physics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Private Language Argument"
 permalink: /results/problem/private-language-argument/
 result_id: result-145
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

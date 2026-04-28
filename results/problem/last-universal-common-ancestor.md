@@ -3,6 +3,7 @@ layout: result-page
 title: "Last Universal Common Ancestor (LUCA): Root of the Tree as Persistence Sector"
 permalink: /results/problem/last-universal-common-ancestor/
 result_id: result-254
+problem_ledger_ids: ["life-biology-last-universal-common-ancestor"]
 topic: biology
 layer: life
 result_type: frontier_problem

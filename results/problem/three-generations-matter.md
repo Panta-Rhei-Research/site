@@ -4,6 +4,7 @@ layout: result-page
 title: Three Generations of Matter from H₁(τ³;ℤ) ≅ ℤ³
 permalink: /results/problem/three-generations-matter/
 result_id: result-009
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

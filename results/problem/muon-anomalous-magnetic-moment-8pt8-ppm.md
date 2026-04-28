@@ -4,6 +4,7 @@ layout: result-page
 title: Muon Anomalous Magnetic Moment a_μ at +8.8 ppm
 permalink: /results/problem/muon-anomalous-magnetic-moment-8pt8-ppm/
 result_id: result-059
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

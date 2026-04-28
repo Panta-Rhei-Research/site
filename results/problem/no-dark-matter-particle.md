@@ -4,6 +4,7 @@ layout: result-page
 title: 'No Dark Matter Particle: Sector Exhaustion Theorem'
 permalink: /results/problem/no-dark-matter-particle/
 result_id: result-015
+problem_ledger_ids: ["phys-dark-matter"]
 topic: physics
 layer: physics
 result_type: structural_readout

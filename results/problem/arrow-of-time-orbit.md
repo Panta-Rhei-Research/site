@@ -4,6 +4,7 @@ layout: result-page
 title: 'Arrow of Time from Orbit Direction: Unique and Irreversible'
 permalink: /results/problem/arrow-of-time-orbit/
 result_id: result-039
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

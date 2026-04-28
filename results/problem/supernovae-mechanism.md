@@ -4,6 +4,7 @@ layout: result-page
 title: 'Core-Collapse Supernovae: Channel Reversal at Nuclear Density'
 permalink: /results/problem/supernovae-mechanism/
 result_id: result-242
+problem_ledger_ids: ["phys-supernovae"]
 topic: physics
 layer: physics
 result_type: structural_readout

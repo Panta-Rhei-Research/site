@@ -4,6 +4,7 @@ layout: result-page
 title: 'Black Holes Are Alive: BH Satisfies All 5+3 Conditions'
 permalink: /results/problem/black-holes-alive/
 result_id: result-021
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

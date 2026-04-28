@@ -4,6 +4,7 @@ layout: result-page
 title: 'Substrate Abstraction: The 5+3 Life Conditions Are Substrate-Free'
 permalink: /results/problem/substrate-abstraction/
 result_id: result-020
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: structural_readout

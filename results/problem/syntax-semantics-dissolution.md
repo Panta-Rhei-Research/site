@@ -3,6 +3,7 @@ layout: result-page
 title: "Syntax-Semantics Dissolution"
 permalink: /results/problem/syntax-semantics-dissolution/
 result_id: result-209
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: foundational_math

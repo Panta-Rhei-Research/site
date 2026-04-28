@@ -3,6 +3,7 @@ layout: result-page
 title: "Embodied Cognition"
 permalink: /results/problem/embodied-cognition/
 result_id: result-204
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

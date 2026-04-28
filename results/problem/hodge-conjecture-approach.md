@@ -3,6 +3,7 @@ layout: result-page
 title: "Hodge Conjecture Approach"
 permalink: /results/problem/hodge-conjecture-approach/
 result_id: result-229
+problem_ledger_ids: ["math-hodge-conjecture"]
 topic: mathematics
 layer: mathematics
 result_type: frontier_problem

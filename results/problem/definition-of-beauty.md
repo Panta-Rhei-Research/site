@@ -3,6 +3,7 @@ layout: result-page
 title: "Definition of Beauty"
 permalink: /results/problem/definition-of-beauty/
 result_id: result-142
+problem_ledger_ids: []
 topic: philosophy
 layer: metaphysics
 result_type: frontier_problem

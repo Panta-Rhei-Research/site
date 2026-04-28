@@ -3,6 +3,7 @@ layout: result-page
 title: "Hubble Tension"
 permalink: /results/problem/hubble-tension/
 result_id: result-108
+problem_ledger_ids: ["phys-hubble-tension"]
 topic: physics
 layer: physics
 result_type: frontier_problem

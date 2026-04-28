@@ -3,6 +3,7 @@ layout: result-page
 title: "Unique Infinity"
 permalink: /results/problem/unique-infinity/
 result_id: result-222
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence

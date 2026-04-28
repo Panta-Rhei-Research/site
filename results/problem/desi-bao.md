@@ -3,6 +3,7 @@ layout: result-page
 title: "DESI BAO"
 permalink: /results/problem/desi-bao/
 result_id: result-110
+problem_ledger_ids: []
 topic: physics
 layer: physics
 result_type: frontier_problem

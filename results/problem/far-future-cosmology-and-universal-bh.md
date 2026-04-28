@@ -3,6 +3,7 @@ layout: result-page
 title: "Far-Future Cosmology and Universal BH"
 permalink: /results/problem/far-future-cosmology-and-universal-bh/
 result_id: result-199
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: consequence

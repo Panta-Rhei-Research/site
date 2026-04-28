@@ -4,6 +4,7 @@ layout: result-page
 title: 'Differentiation Is Irreversible: Waddington Descent Monotone'
 permalink: /results/problem/differentiation-irreversible/
 result_id: result-043
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

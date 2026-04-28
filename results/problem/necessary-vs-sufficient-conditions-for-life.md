@@ -3,6 +3,7 @@ layout: result-page
 title: "Necessary vs Sufficient Conditions for Life"
 permalink: /results/problem/necessary-vs-sufficient-conditions-for-life/
 result_id: result-121
+problem_ledger_ids: []
 topic: biology
 layer: life
 result_type: frontier_problem

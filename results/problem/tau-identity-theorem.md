@@ -4,6 +4,7 @@ layout: result-page
 title: 'Tau-Identity Theorem: Agreement at One Depth Implies Agreement Everywhere'
 permalink: /results/problem/tau-identity-theorem/
 result_id: result-028
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: structural_readout

@@ -3,6 +3,7 @@ layout: result-page
 title: "Chirality / Symmetry Breaking Across E0–E2"
 permalink: /results/problem/chirality-symmetry-breaking-across-e0-e2/
 result_id: result-157
+problem_ledger_ids: []
 topic: mathematics
 layer: mathematics
 result_type: consequence
