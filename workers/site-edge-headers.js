@@ -23,6 +23,10 @@ const CACHE_POLICIES = [
     value: "public, max-age=86400"
   },
   {
+    test: (url) => url.pathname.startsWith("/api/"),
+    value: "public, max-age=3600, stale-while-revalidate=86400"
+  },
+  {
     test: (url) => url.pathname.startsWith("/assets/") || url.pathname.startsWith("/pagefind/"),
     value: "public, max-age=31536000, immutable"
   },
@@ -31,6 +35,11 @@ const CACHE_POLICIES = [
     value: "public, max-age=3600, must-revalidate"
   }
 ];
+
+// CORS-permissive endpoints — machine-readable indexes meant to be embedded
+// from sibling sites (taulib.site, future poster microsites, partner programs).
+// Content remains CC BY 4.0; cross-site GET is explicitly allowed.
+const CORS_PATH_PREFIXES = ["/api/"];
 
 const PERMANENT_REDIRECTS = new Map([
   ["/publications/physics-ledger", "/publications/monograph-supplements/numerical-physics-ledger/"],
@@ -53,6 +62,10 @@ function cachePolicyFor(url, response) {
   return policy?.value;
 }
 
+function shouldEnableCors(url) {
+  return CORS_PATH_PREFIXES.some((prefix) => url.pathname.startsWith(prefix));
+}
+
 export function applyEdgeHeaders(request, response) {
   const url = new URL(typeof request === "string" ? request : request.url);
   const headers = new Headers(response.headers);
@@ -64,6 +77,16 @@ export function applyEdgeHeaders(request, response) {
 
   for (const [name, value] of Object.entries(SECURITY_HEADERS)) {
     headers.set(name, value);
+  }
+
+  if (shouldEnableCors(url)) {
+    headers.set("Access-Control-Allow-Origin", "*");
+    headers.set("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
+    headers.set("Access-Control-Allow-Headers", "Content-Type");
+    headers.set("Access-Control-Max-Age", "86400");
+    if (url.pathname.endsWith(".json")) {
+      headers.set("Content-Type", "application/json; charset=utf-8");
+    }
   }
 
   return new Response(response.body, {

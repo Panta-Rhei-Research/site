@@ -1,0 +1,50 @@
+---
+layout: null
+permalink: /api/plates.json
+sitemap: false
+---
+{
+  "schema_version": "1.0",
+  "generator": "panta-rhei.site Jekyll build",
+  "generated_at": "{{ site.time | date_to_xmlschema }}",
+  "site": "{{ site.url | default: 'https://panta-rhei.site' }}",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Panta Rhei Research Program — panta-rhei.site",
+  "gallery_url": "{{ '/media/posters/' | absolute_url }}",
+  "plate_count": {{ site.data.plates | size }},
+  "plates": [
+    {%- assign plates_sorted = site.data.plates | sort: "id" -%}
+    {%- for plate in plates_sorted -%}
+    {
+      "id": {{ plate.id | jsonify }},
+      "title": {{ plate.title | jsonify }},
+      "status": {{ plate.status | default: "published" | jsonify }},
+      "canonical_url": "{{ '/media/posters/#' | absolute_url }}{{ plate.id }}",
+      "primary_page": {%- if plate.pages and plate.pages.first -%}"{{ plate.pages.first | absolute_url }}"{%- else -%}null{%- endif -%},
+      "embedded_on": [
+        {%- if plate.pages -%}
+        {%- for p in plate.pages -%}
+        "{{ p | absolute_url }}"{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+        {%- endif -%}
+      ],
+      "images": {
+        "master_jpg": "{{ plate.master | absolute_url }}",
+        "hero_webp": "{{ plate.image | absolute_url }}",
+        "hero_jpg": "{{ plate.hero_jpg | absolute_url }}",
+        "thumbnail_webp": "{{ plate.thumbnail | absolute_url }}",
+        "og_jpg": "{{ plate.og_image | absolute_url }}"
+      },
+      "dimensions": {
+        "master": { "width": 1536, "height": 864 },
+        "hero": { "width": 1536, "height": 864 },
+        "thumbnail": { "width": 640, "height": 360 },
+        "og": { "width": 1200, "height": 630 }
+      },
+      "caption": {{ plate.caption | strip_newlines | strip | jsonify }},
+      "alt": {{ plate.alt | strip_newlines | strip | jsonify }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor %}
+  ]
+}

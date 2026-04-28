@@ -73,11 +73,19 @@ else
 fi
 
 # ── 3. JSON / YAML syntax validation ────────────────────────
+# Files that begin with `---` (Jekyll frontmatter) are templates whose
+# *rendered output* is JSON — skip syntax validation on the source. The
+# CI/Jekyll build does the real validation when it produces `_site/`.
 JSON_FILES=$(echo "$STAGED" | grep -E '\.json$' || true)
 if [ -n "$JSON_FILES" ]; then
   echo "── JSON syntax ──"
   for f in $JSON_FILES; do
     [ -f "$f" ] || continue
+    first_line=$(head -n 1 "$f" 2>/dev/null)
+    if [ "$first_line" = "---" ]; then
+      pass "$f (Jekyll template; skipped — output validated by build)"
+      continue
+    fi
     if python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f" 2>/dev/null; then
       pass "$f"
     else

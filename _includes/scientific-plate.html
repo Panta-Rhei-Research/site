@@ -2,6 +2,8 @@
 {%- assign variant = include.variant | default: "hero" -%}
 {%- assign loading = include.loading | default: "lazy" -%}
 {%- assign plate_class = include.class | default: "" -%}
+{%- assign show_download = include.show_download -%}
+{%- if show_download == nil -%}{%- assign show_download = true -%}{%- endif -%}
 {%- if plate -%}
   {%- if variant == "thumb" -%}
     {%- assign source_image = plate.thumbnail -%}
@@ -26,5 +28,10 @@
       height="{{ image_height }}">
   </picture>
   <figcaption>{{ include.caption | default: plate.caption | strip }}</figcaption>
+  {%- if show_download and plate.master -%}
+  <p class="scientific-plate__download">
+    <a href="{{ plate.master | relative_url }}" download aria-label="Download print master for {{ plate.title | strip | escape }} (high-resolution JPG, CC BY 4.0)">↓ Download print master <span class="scientific-plate__download-meta">· 1536&nbsp;×&nbsp;864 JPG · CC&nbsp;BY&nbsp;4.0</span></a>
+  </p>
+  {%- endif -%}
 </figure>
 {%- endif -%}

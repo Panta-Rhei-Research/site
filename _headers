@@ -35,6 +35,18 @@
 /assets/site.webmanifest
   Cache-Control: public, max-age=604800
 
+# Machine-readable indexes — CORS-permissive for cross-site embedding
+# (CC BY 4.0 content; sibling sites and partner programs can fetch these freely)
+/api/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Max-Age: 86400
+
+/api/*.json
+  Content-Type: application/json; charset=utf-8
+
 # Security headers (bonus — free hardening)
 # Link response headers for agent/machine discovery (RFC 8288, IANA-registered rel types):
 #   - sitemap     → /sitemap.xml

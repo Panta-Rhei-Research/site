@@ -212,6 +212,71 @@
   }
 }
 
+.scientific-plate__download {
+  margin: 0.45rem 0 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  color: rgba(91, 103, 114, 0.85);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(91, 103, 114, 0.45);
+    transition: color 150ms ease, border-color 150ms ease;
+
+    &:hover,
+    &:focus-visible {
+      color: #163e64;
+      border-bottom-color: #163e64;
+      border-bottom-style: solid;
+    }
+  }
+}
+
+.scientific-plate__download-meta {
+  color: rgba(91, 103, 114, 0.6);
+  font-size: 0.74rem;
+}
+
+.scientific-plate-gallery-card {
+  margin: 2.5rem 0 1.5rem;
+  scroll-margin-top: 84px;
+
+  h3 {
+    margin-bottom: 0.5rem;
+    font-family: "Iowan Old Style", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: var(--color-ink-900, #182027);
+  }
+
+  .scientific-plate {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  > p:last-of-type {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: var(--color-ink-600);
+
+    code {
+      font-size: 0.78rem;
+      background: rgba(22, 62, 100, 0.06);
+      padding: 0.05rem 0.35rem;
+      border-radius: 3px;
+    }
+  }
+}
+
+.plate-gallery-divider {
+  margin: 2.5rem auto 0;
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(22, 62, 100, 0.18), transparent);
+  max-width: 60%;
+}
+
 .scientific-plate--hero {
   margin-top: 18px;
   margin-bottom: 24px;

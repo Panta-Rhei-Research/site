@@ -20,6 +20,8 @@ right_rail:
   related:
   - title: Review Kit
     url: /media/review-kit/
+  - title: Scientific Plates
+    url: /media/posters/
   - title: Program
     url: /program/
   - title: Discover
@@ -150,6 +152,10 @@ The Panta Rhei Research Program develops Category τ, a categorical framework th
 ## Images and attribution
 
 Brand assets, diagrams, and public figures should be reused with attribution to the Panta Rhei Research Program unless a specific asset states otherwise. See [Credits & Attributions]({{ '/credits/' | relative_url }}) for licensing and third-party notices.
+
+### Scientific plates — visual atlas
+
+The program publishes a series of **scientific plates** — editorial-quality structural maps that compress key arguments into single-frame, scan-readable visuals. The full atlas (currently {{ site.data.plates | size }} plates, all CC BY 4.0) lives at [`/media/posters/`]({{ '/media/posters/' | relative_url }}), each with a print-quality 1536 × 864 master JPG suitable for editorial layouts, conference talks, slide decks, and printed handouts. A machine-readable index for cross-site embedding is published at [`/api/plates.json`]({{ '/api/plates.json' | relative_url }}) (CORS-permissive).
 
 ## Contact
 
