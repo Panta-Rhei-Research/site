@@ -32,9 +32,16 @@ layout: default
       {% if amazon %}
       <div class="btn-group" style="margin-top: 14px;">
         <a href="#available-formats" class="btn-ghost" {% include cta-attrs.html location="hero" event="hero-scroll-to-formats" href="#available-formats" %}>Available on Amazon</a>
+        {% if page.corpus_url %}
+        <a href="{{ page.corpus_url | relative_url }}" class="btn-secondary" {% include cta-attrs.html location="hero" event="hero-open-corpus-edition" href=page.corpus_url %}>Open Corpus edition</a>
+        {% endif %}
         {% if doi_entry %}
         <a href="#{{ 'citation-doi' | slugify }}" class="btn-ghost" {% include cta-attrs.html location="hero" event="hero-scroll-to-doi" href="#citation-doi" %}>Cite / DOI</a>
         {% endif %}
+      </div>
+      {% elsif page.corpus_url %}
+      <div class="btn-group" style="margin-top: 14px;">
+        <a href="{{ page.corpus_url | relative_url }}" class="btn-secondary" {% include cta-attrs.html location="hero" event="hero-open-corpus-edition" href=page.corpus_url %}>Open Corpus edition</a>
       </div>
       {% endif %}
     </div>

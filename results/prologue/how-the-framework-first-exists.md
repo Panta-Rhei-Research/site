@@ -23,9 +23,9 @@ right_rail:
   - title: Verify Lane
     url: /verify/
   - title: The Tau Framework
-    url: /framework/about/
+    url: /corpus/
   - title: Coherence Kernel
-    url: /framework/mathematics-coherence-kernel/
+    url: /corpus/monographs/
   meta:
     type: Prologue · Epistemic Stance
     scope: Formal-system materialization
@@ -51,7 +51,7 @@ That is already a real result.
 
 ## Why this matters
 
-In ordinary mathematical practice, many theories are discussed at a level where their exact formal shape remains partially implicit. They may be precise enough for human mathematics and still never be materially realized as proof-bearing systems. The Panta Rhei program deliberately binds itself to a stronger discipline. It does not merely want a prose presentation of its [kernel]({{ '/framework/mathematics-coherence-kernel/' | relative_url }}). It wants a kernel that can exist as a formal object and be inspected as such.
+In ordinary mathematical practice, many theories are discussed at a level where their exact formal shape remains partially implicit. They may be precise enough for human mathematics and still never be materially realized as proof-bearing systems. The Panta Rhei program deliberately binds itself to a stronger discipline. It does not merely want a prose presentation of its [kernel]({{ '/corpus/monographs/' | relative_url }}). It wants a kernel that can exist as a formal object and be inspected as such.
 
 This first stance therefore accomplishes three things.
 

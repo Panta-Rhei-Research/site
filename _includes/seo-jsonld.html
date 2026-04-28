@@ -108,35 +108,6 @@
 }
 </script>
 
-{%- when 'framework-module' -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "headline": {{ json_title | jsonify }},
-  "description": {{ json_description | jsonify }},
-  "url": "{{ page.url | absolute_url }}",
-  "inLanguage": "en",
-  "author": [
-    { "@type": "Person", "name": "Thorsten Fuchs", "sameAs": "https://orcid.org/0009-0007-0718-1042" },
-    { "@type": "Person", "name": "Anna-Sophie Fuchs", "sameAs": "https://orcid.org/0009-0007-3495-7416" }
-  ],
-  "publisher": {
-    "@type": "Organization",
-    "name": "Panta Rhei Research Program",
-    "url": "{{ site.url }}"
-  }{% if page.layer %},
-  "about": {
-    "@type": "DefinedTerm",
-    "termCode": {{ page.layer | jsonify }},
-    "name": {{ page.layer | jsonify }}
-  }{% endif %}{% if page.strand %},
-  "articleSection": {{ page.strand | jsonify }}{% endif %}{% if page.module_id %},
-  "identifier": {{ page.module_id | jsonify }}{% endif %},
-  "isPartOf": { "@type": "CreativeWorkSeries", "name": "Panta Rhei Framework" }
-}
-</script>
-
 {%- when 'result-page' -%}
 <script type="application/ld+json">
 {
@@ -313,6 +284,76 @@
       "url": "{{ page.canonical_book_url | absolute_url }}"
     }
   }{% endif %}
+}
+</script>
+
+{%- when 'corpus-monograph-book' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": {{ json_title | jsonify }},{% if page.subtitle %}
+  "alternateName": {{ page.subtitle | jsonify }},{% endif %}
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs", "sameAs": "https://orcid.org/0009-0007-0718-1042" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs", "sameAs": "https://orcid.org/0009-0007-3495-7416" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  },
+  "isBasedOn": "{{ page.publication_book_url | absolute_url }}",
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Panta Rhei Corpus Monographs",
+    "url": "{{ '/corpus/monographs/' | absolute_url }}"
+  }
+}
+</script>
+
+{%- when 'corpus-monograph-part' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Chapter",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "position": {{ page.part_number | default: 0 }},
+  "isPartOf": {
+    "@type": "Book",
+    "name": {{ page.canonical_book_title | default: 'Panta Rhei Corpus Monograph' | jsonify }},
+    "url": "{{ page.canonical_book_url | absolute_url }}"
+  }
+}
+</script>
+
+{%- when 'corpus-monograph-chapter' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Chapter",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "position": {{ page.chapter_number | default: 0 }}{% if page.page_in_book %},
+  "pageStart": {{ page.page_in_book }}{% endif %},
+  "isPartOf": {
+    "@type": "Chapter",
+    "name": {{ page.canonical_part_title | default: 'Part' | jsonify }},
+    "url": "{{ page.canonical_part_url | absolute_url }}",
+    "isPartOf": {
+      "@type": "Book",
+      "name": {{ page.canonical_book_title | default: 'Panta Rhei Corpus Monograph' | jsonify }},
+      "url": "{{ page.canonical_book_url | absolute_url }}"
+    }
+  }
 }
 </script>
 

@@ -6,8 +6,8 @@ Reads 7 book outline JSONs and generates:
   - _data/publications/parts.json
   - _data/publications/chapters.json
   - Enriched book pages (publications/books/book-{i}.md)
-  - Part pages (publications/books/book-{i}/part-{nn}-{slug}/index.md)
-  - Chapter pages (publications/books/book-{i}/part-{nn}-{slug}/chapter-{nn}-{slug}/index.md)
+  - Corpus part pages (corpus/monographs/book-{i}/part-{nn}-{slug}/index.md)
+  - Corpus chapter pages (corpus/monographs/book-{i}/part-{nn}-{slug}/chapter-{nn}-{slug}/index.md)
 
 Usage:
   python3 scripts/build_publications_depth.py
@@ -261,10 +261,11 @@ summary_cards:
 linked_guided_tour: /publications/guided-tours/
 linked_verify_page: /verify/
 linked_dashboard: /registry/dashboards/{book_slug}/
+corpus_url: /corpus/monographs/{book_slug}/
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/{book_slug}/
   - title: Registry
     url: /registry/books/{book_slug}/
   - title: Guided Tours
@@ -324,11 +325,13 @@ def generate_part_page(part_info: dict, chapters: list, book: dict) -> str:
 
     return textwrap.dedent(f"""\
 ---
-layout: publication-part
+layout: corpus-monograph-part
 title: {yaml_str(f"{part_info['display_name']}: {part_info['title']}")}
 permalink: {part_info["url"]}
-lane: publications
-publication_type: part
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Part"
+publication_type: corpus_monograph_part
 book_id: {yaml_str(roman)}
 book_slug: {yaml_str(book_slug)}
 part_number: {part_info["part_number"]}
@@ -336,18 +339,20 @@ part_display: {yaml_str(part_info["display_name"])}
 part_slug: {yaml_str(part_info["slug"])}
 chapter_count: {part_info["chapter_count"]}
 summary_short: {yaml_str(part_info["summary_short"])}
-canonical_book_url: /publications/books/{book_slug}/
+canonical_book_url: /corpus/monographs/{book_slug}/
 canonical_book_title: {yaml_str(f"Book {roman}: {book_title}")}
+publication_book_url: /publications/books/{book_slug}/
+legacy_publication_url: {part_info["legacy_publication_url"]}
 right_rail:
   related:
   - title: {yaml_str(f"Book {roman}: {book_title}")}
+    url: /corpus/monographs/{book_slug}/
+  - title: Research Monograph artifact
     url: /publications/books/{book_slug}/
-  - title: Guided Tours
-    url: /publications/guided-tours/
   - title: Registry
     url: /registry/books/{book_slug}/
   meta:
-    type: Part
+    type: Corpus Monograph Part
     book: {yaml_str(f"Book {roman}")}
     layer: {yaml_str(f"{layer_code} {layer_name}")}
     chapters: {yaml_str(part_info["chapter_count"])}
@@ -391,11 +396,13 @@ def generate_chapter_page(ch_info: dict, part_info: dict, book: dict,
 
     return textwrap.dedent(f"""\
 ---
-layout: publication-chapter
+layout: corpus-monograph-chapter
 title: {yaml_str(f"Chapter {ch_info['chapter_number']}: {ch_info['title']}")}
 permalink: {ch_info["url"]}
-lane: publications
-publication_type: chapter
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Chapter"
+publication_type: corpus_monograph_chapter
 book_id: {yaml_str(roman)}
 book_slug: {yaml_str(book_slug)}
 part_number: {part_info["part_number"]}
@@ -404,20 +411,24 @@ part_slug: {yaml_str(part_info["slug"])}
 chapter_number: {ch_info["chapter_number"]}
 chapter_slug: {yaml_str(ch_info["slug"])}
 {page_line}{nav_lines}summary_short: {yaml_str(ch_info["summary_short"])}
-canonical_book_url: /publications/books/{book_slug}/
+canonical_book_url: /corpus/monographs/{book_slug}/
 canonical_book_title: {yaml_str(f"Book {roman}: {book_title}")}
 canonical_part_url: {yaml_str(part_info["url"])}
 canonical_part_title: {yaml_str(f"{part_info['display_name']}: {part_info['title']}")}
+publication_book_url: /publications/books/{book_slug}/
+legacy_publication_url: {ch_info["legacy_publication_url"]}
 right_rail:
   related:
   - title: {yaml_str(f"Book {roman}: {book_title}")}
-    url: /publications/books/{book_slug}/
+    url: /corpus/monographs/{book_slug}/
   - title: {yaml_str(f"{part_info['display_name']}: {part_info['title']}")}
     url: {part_info["url"]}
+  - title: Research Monograph artifact
+    url: /publications/books/{book_slug}/
   - title: Registry
     url: /registry/books/{book_slug}/
   meta:
-    type: Chapter
+    type: Corpus Monograph Chapter
     book: {yaml_str(f"Book {roman}")}
     part: {yaml_str(part_info["display_name"])}
     layer: {yaml_str(f"{layer_code} {layer_name}")}
@@ -474,7 +485,8 @@ def main():
             if not title_slug:
                 title_slug = slugify(display)
             slug = f"part-{pnum:02d}-{title_slug}"
-            url = f"/publications/books/{book_slug}/{slug}/"
+            legacy_url = f"/publications/books/{book_slug}/{slug}/"
+            url = f"/corpus/monographs/{book_slug}/{slug}/"
 
             abstract_md = part_raw.get("abstract_markdown") or ""
 
@@ -487,6 +499,9 @@ def main():
                 "title": title,
                 "slug": slug,
                 "url": url,
+                "legacy_publication_url": legacy_url,
+                "corpus_url": url,
+                "publication_book_url": f"/publications/books/{book_slug}/",
                 "chapter_count": len(part_raw["chapters"]),
                 "summary_short": truncate_abstract(abstract_md),
                 "abstract_markdown": abstract_md,
@@ -500,6 +515,7 @@ def main():
                 ch_title = clean_title(ch_raw["title"])
                 ch_slug = f"chapter-{ch_num:02d}-{slugify(ch_title)}"
                 ch_url = f"{url}{ch_slug}/"
+                ch_legacy_url = f"{legacy_url}{ch_slug}/"
                 ch_abstract_md = ch_raw.get("abstract_markdown") or ""
 
                 ch_info = {
@@ -512,6 +528,9 @@ def main():
                     "title": ch_title,
                     "slug": ch_slug,
                     "url": ch_url,
+                    "legacy_publication_url": ch_legacy_url,
+                    "corpus_url": ch_url,
+                    "publication_book_url": f"/publications/books/{book_slug}/",
                     "page_in_book": ch_raw.get("page"),
                     "summary_short": truncate_abstract(ch_abstract_md),
                     "abstract_markdown": ch_abstract_md,
@@ -522,7 +541,7 @@ def main():
             # Generate part page
             part_page_content = generate_part_page(part_info, part_chapters, book)
             part_page_path = os.path.join(
-                SITE_DIR, "publications", "books", book_slug, slug, "index.md"
+                SITE_DIR, "corpus", "monographs", book_slug, slug, "index.md"
             )
             write_file(part_page_path, part_page_content)
             total_part_pages += 1
@@ -544,7 +563,7 @@ def main():
 
                 ch_page_content = generate_chapter_page(ch, part_info, book, prev_ch, next_ch)
                 ch_page_path = os.path.join(
-                    SITE_DIR, "publications", "books", book_slug, slug, ch["slug"], "index.md"
+                    SITE_DIR, "corpus", "monographs", book_slug, slug, ch["slug"], "index.md"
                 )
                 write_file(ch_page_path, ch_page_content)
                 total_chapter_pages += 1
@@ -571,7 +590,7 @@ def main():
                 if i == len(matching) - 1 and next_ch is not None:
                     ch_page_content = generate_chapter_page(ch, part_info_local, book, prev_ch, next_ch)
                     ch_page_path = os.path.join(
-                        SITE_DIR, "publications", "books", ch["book_slug"],
+                        SITE_DIR, "corpus", "monographs", ch["book_slug"],
                         ch["part_slug"], ch["slug"], "index.md"
                     )
                     write_file(ch_page_path, ch_page_content)

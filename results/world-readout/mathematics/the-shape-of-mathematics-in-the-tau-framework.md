@@ -20,7 +20,7 @@ right_rail:
   - title: Mathematics World Readout
     url: /results/world-readout/mathematics/
   - title: Coherence Kernel
-    url: /framework/mathematics-coherence-kernel/
+    url: /corpus/monographs/
   - title: Mathematics Results
     url: /results/topic/mathematics/
   meta:

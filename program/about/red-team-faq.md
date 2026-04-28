@@ -120,7 +120,7 @@ A reader who finds an answer insufficient is exactly the reader this FAQ is writ
 
 - [Scope, Status & Scrutiny]({{ '/program/about/scope-status-and-scrutiny/' | relative_url }}) — the program's own methodological self-description
 - [What the Program Refuses]({{ '/program/research-agenda/what-the-program-refuses/' | relative_url }}) — explicit boundaries
-- [Prior-Art Comparisons]({{ '/framework/prior-art/' | relative_url }}) — honest comparisons against Fueter, Hilbert-Pólya, Furey/octonionic, autopoiesis/IIT/FEP, and MOND/Verlinde
+- [Prior-Art Comparisons]({{ '/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/' | relative_url }}) — honest comparisons against Fueter, Hilbert-Pólya, Furey/octonionic, autopoiesis/IIT/FEP, and MOND/Verlinde
 - [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) — pinned commit, build status, axiom inventory, drift reconciliation
 - [Prediction Timing Ledger]({{ '/results/predictions/timing/' | relative_url }}) — a-priori vs post-diction breakdown for the 67 predictions
 - [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) — 30 named experimental tests

@@ -13,7 +13,7 @@ right_rail:
   - title: Results Introduction
     url: /results/prologue/
   - title: The Tau Framework
-    url: /framework/about/
+    url: /corpus/
   - title: Mathematics Results
     url: /results/topic/mathematics/
   meta:

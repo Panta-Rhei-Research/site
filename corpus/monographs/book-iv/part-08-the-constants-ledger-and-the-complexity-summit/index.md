@@ -1,0 +1,83 @@
+---
+layout: corpus-monograph-part
+title: "Part VIII: The Constants Ledger and the Complexity Summit"
+permalink: /corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Part"
+status: Canonical
+updated: April 2026
+publication_type: corpus_monograph_part
+book_id: "IV"
+book_slug: "book-iv"
+part_number: 8
+part_display: "Part VIII"
+part_slug: "part-08-the-constants-ledger-and-the-complexity-summit"
+chapter_count: 7
+summary_short: "Part VIII draws together every constant, every derivation, every structural theorem developed throughout Book IV. The complete coupling ledger (Chapter…"
+canonical_book_url: /corpus/monographs/book-iv/
+canonical_book_title: "Book IV: Categorical Microcosm"
+publication_book_url: /publications/books/book-iv/
+legacy_publication_url: /publications/books/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/
+right_rail:
+  related:
+  - title: "Book IV: Categorical Microcosm"
+    url: /corpus/monographs/book-iv/
+  - title: "Research Monograph artifact"
+    url: /publications/books/book-iv/
+  - title: "Registry"
+    url: /registry/books/book-iv/
+  meta:
+    type: "Corpus Monograph Part"
+    book: "Book IV"
+    layer: "E₁ Physics (Microcosm)"
+    chapters: "7"
+    updated: "April 2026"
+---
+
+
+Part VIII draws together every constant, every derivation,
+every structural theorem developed throughout Book IV.
+
+The complete coupling ledger
+tabulates all ten inter-sector couplings as rational functions
+of a single number ι<sub>τ</sub>.
+The ontological layer stack
+
+organizes the derivations into a strict hierarchy:
+geometry first, spectral theory second, calibration third.
+The running-versus-readout distinction
+
+explains why τ³ has no renormalization group flow:
+constants are read out, not run.
+The 10-link mass ratio chain
+
+derives R = m_n / m_e from ι<sub>τ</sub> alone,
+matching CODATA to sub-ppm precision.
+The neutron lifetime
+
+is the crown of the calibration cascade:
+the most complex derived quantity,
+depending on every earlier derivation.
+Laws as structure
+
+argues that physical laws are not external prescriptions
+but diagram-level tautologies within τ³.
+And the finale
+
+confronts the thesis that gives Book IV its name:
+**the self-describing universe**.
+
+One dimensional parameter.
+Zero free dimensionless constants.
+The entire microcosm.
+
+## Chapters
+
+- **[Chapter 67: The Complete Coupling Ledger]({{ '/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-67-the-complete-coupling-ledger/' | relative_url }})**
+- **[Chapter 68: The Ontological Layer Architecture]({{ '/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-68-the-ontological-layer-architecture/' | relative_url }})**
+- **[Chapter 69: Running vs. Readout]({{ '/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-69-running-vs-readout/' | relative_url }})**
+- **[Chapter 70: The Mass Ratio R and the 10-Link Chain]({{ '/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-70-the-mass-ratio-r-and-the-10-link-chain/' | relative_url }})**
+- **[Chapter 71: The Neutron Lifetime: Crown of the Cascade]({{ '/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-71-the-neutron-lifetime-crown-of-the-cascade/' | relative_url }})**
+- **[Chapter 72: Laws as Structure]({{ '/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-72-laws-as-structure/' | relative_url }})**
+- **[Chapter 73: The Self-Describing Universe]({{ '/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/chapter-73-the-self-describing-universe/' | relative_url }})**

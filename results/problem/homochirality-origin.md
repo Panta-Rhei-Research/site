@@ -24,7 +24,7 @@ right_rail:
 
 ## Overview
 
-Homochirality -- the universal preference for L-amino acids and D-sugars in all terrestrial life -- is one of the oldest puzzles in biochemistry and origin-of-life research. The framework derives this universality from the [Parity Bridge Theorem]({{ '/framework/life-life-defined/' | relative_url }}): the weak sector's unique parity violation provides the sole chirality seed, and enantiomeric excess amplification (VI.T42) drives the system to a single handedness.
+Homochirality -- the universal preference for L-amino acids and D-sugars in all terrestrial life -- is one of the oldest puzzles in biochemistry and origin-of-life research. The framework derives this universality from the [Parity Bridge Theorem]({{ '/corpus/monographs/' | relative_url }}): the weak sector's unique parity violation provides the sole chirality seed, and enantiomeric excess amplification (VI.T42) drives the system to a single handedness.
 
 ## Detail
 

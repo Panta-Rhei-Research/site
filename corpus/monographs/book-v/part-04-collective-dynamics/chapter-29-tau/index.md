@@ -1,0 +1,89 @@
+---
+layout: corpus-monograph-chapter
+title: "Chapter 29: τ"
+permalink: /corpus/monographs/book-v/part-04-collective-dynamics/chapter-29-tau/
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Chapter"
+status: Canonical
+updated: April 2026
+publication_type: corpus_monograph_chapter
+book_id: "V"
+book_slug: "book-v"
+part_number: 4
+part_display: "Part IV"
+part_slug: "part-04-collective-dynamics"
+chapter_number: 29
+chapter_slug: "chapter-29-tau"
+page_in_book: 207
+prev_chapter_url: "/corpus/monographs/book-v/part-04-collective-dynamics/chapter-28-tau/"
+prev_chapter_title: "Chapter 28: τ"
+next_chapter_url: "/corpus/monographs/book-v/part-04-collective-dynamics/chapter-30-macro-phase-transitions-and-regime-crossings/"
+next_chapter_title: "Chapter 30: Macro Phase Transitions and Regime Crossings"
+summary_short: "Chapter [ch:book5-ch31-tau-mhd] derived the τ-MHD system and introduced Alfvén waves as coupled fluid–field oscillations. This chapter develops the…"
+canonical_book_url: /corpus/monographs/book-v/
+canonical_book_title: "Book V: Categorical Macrocosm"
+canonical_part_url: /corpus/monographs/book-v/part-04-collective-dynamics/
+canonical_part_title: "Part IV: Collective Dynamics"
+publication_book_url: /publications/books/book-v/
+legacy_publication_url: /publications/books/book-v/part-04-collective-dynamics/chapter-29-tau/
+right_rail:
+  related:
+  - title: "Book V: Categorical Macrocosm"
+    url: /corpus/monographs/book-v/
+  - title: "Part IV: Collective Dynamics"
+    url: /corpus/monographs/book-v/part-04-collective-dynamics/
+  - title: "Research Monograph artifact"
+    url: /publications/books/book-v/
+  - title: "Registry"
+    url: /registry/books/book-v/
+  meta:
+    type: "Corpus Monograph Chapter"
+    book: "Book V"
+    part: "Part IV"
+    layer: "E₁ Physics (Macrocosm)"
+    updated: "April 2026"
+---
+
+
+the relevant chapter
+derived the τ-MHD system
+and introduced Alfvén waves
+as coupled fluid–field oscillations.
+This chapter develops the Alfvén mode
+in full structural detail.
+
+The central insight:
+an Alfvén wave is a *photon-in-fluid*—the
+electromagnetic degree of freedom
+(the Sector B-sector holonomy)
+propagating not through vacuum
+but through a conducting medium
+(the Sector D- and Sector A-sector fluid).
+The propagation speed is not c
+but v_A = B/μ_0ρ,
+because the fluid inertia
+loads the electromagnetic oscillation.
+
+In the τ-framework,
+this is a *mixed-sector mode*:
+a coupled oscillation
+of the Sector B-sector
+(magnetic field perturbation)
+and the Sector D-sector
+(fluid velocity perturbation).
+On the fiber T²,
+the Alfvén mode corresponds to
+a coupled periodic orbit—a
+trajectory that oscillates
+between the Sector B and Sector D
+directions in the holonomy algebra.
+
+The chapter applies the Alfvén framework
+to stellar physics (coronal heating,
+stellar wind driving)
+and the interstellar medium
+(turbulent energy transport,
+cosmic ray scattering).
+
+Scope: τ-effective throughout.

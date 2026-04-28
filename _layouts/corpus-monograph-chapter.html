@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="chapter-article corpus-monograph-article">
+<header class="hero-card">
+  <span class="eyebrow">Corpus · Book {{ page.book_id }} · Chapter {{ page.chapter_number }}</span>
+  <h1>{{ page.title_plain | default: page.title | strip_html }}</h1>
+  {% if page.page_in_book %}
+  <p class="hero-meta">Page {{ page.page_in_book }} in the printed volume</p>
+  {% endif %}
+  <div class="btn-group">
+    <a href="{{ page.canonical_book_url | relative_url }}" class="btn-secondary">Book {{ page.book_id }} Corpus edition</a>
+    <a href="{{ page.canonical_part_url | relative_url }}" class="btn-secondary">{{ page.canonical_part_title | truncate: 40 }}</a>
+    <a href="{{ page.publication_book_url | relative_url }}" class="btn-ghost">Publication artifact</a>
+  </div>
+</header>
+
+<section class="content-card">
+  <div class="prose">
+    {{ content }}
+  </div>
+</section>
+</article>
+
+{% if page.prev_chapter_url or page.next_chapter_url %}
+<nav class="chapter-nav content-card" aria-label="Chapter navigation">
+  <div class="chapter-nav-inner">
+    {% if page.prev_chapter_url %}
+    <a href="{{ page.prev_chapter_url | relative_url }}" class="chapter-nav-link chapter-nav-prev">
+      <span class="chapter-nav-label">Previous</span>
+      <span class="chapter-nav-title">{{ page.prev_chapter_title }}</span>
+    </a>
+    {% else %}
+    <span></span>
+    {% endif %}
+    {% if page.next_chapter_url %}
+    <a href="{{ page.next_chapter_url | relative_url }}" class="chapter-nav-link chapter-nav-next">
+      <span class="chapter-nav-label">Next</span>
+      <span class="chapter-nav-title">{{ page.next_chapter_title }}</span>
+    </a>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

@@ -2,7 +2,7 @@
 {% if search_lane == "" %}
   {% if page.url contains "/discover/" %}{% assign search_lane = "discover" %}
   {% elsif page.url contains "/program/" or page.url contains "/research-program/" %}{% assign search_lane = "program" %}
-  {% elsif page.url contains "/corpus/" or page.url contains "/registry/" or page.url contains "/framework/" %}{% assign search_lane = "corpus" %}
+  {% elsif page.url contains "/corpus/" or page.url contains "/registry/" %}{% assign search_lane = "corpus" %}
   {% elsif page.url contains "/results/" %}{% assign search_lane = "results" %}
   {% elsif page.url contains "/verify/" %}{% assign search_lane = "verify" %}
   {% elsif page.url contains "/publications/" %}{% assign search_lane = "publications" %}
@@ -12,7 +12,7 @@
   {% endif %}
 {% endif %}
 {% if search_lane == "research-program" %}{% assign search_lane = "program" %}{% endif %}
-{% if search_lane == "registry" or search_lane == "framework" %}{% assign search_lane = "corpus" %}{% endif %}
+{% if search_lane == "registry" %}{% assign search_lane = "corpus" %}{% endif %}
 {% if search_lane == "bibliography" or search_lane == "utility" %}{% assign search_lane = "support" %}{% endif %}
 {% assign shell_class = page.shell | default: "standard" %}
 <!DOCTYPE html>

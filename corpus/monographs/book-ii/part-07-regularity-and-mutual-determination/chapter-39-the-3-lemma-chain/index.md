@@ -1,0 +1,82 @@
+---
+layout: corpus-monograph-chapter
+title: "Chapter 39: The 3-Lemma Chain"
+permalink: /corpus/monographs/book-ii/part-07-regularity-and-mutual-determination/chapter-39-the-3-lemma-chain/
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Chapter"
+status: Canonical
+updated: April 2026
+publication_type: corpus_monograph_chapter
+book_id: "II"
+book_slug: "book-ii"
+part_number: 7
+part_display: "Part VII"
+part_slug: "part-07-regularity-and-mutual-determination"
+chapter_number: 39
+chapter_slug: "chapter-39-the-3-lemma-chain"
+page_in_book: 201
+prev_chapter_url: "/corpus/monographs/book-ii/part-07-regularity-and-mutual-determination/chapter-38-idempotent-decomposition-lemma/"
+prev_chapter_title: "Chapter 38: Idempotent Decomposition Lemma"
+next_chapter_url: "/corpus/monographs/book-ii/part-07-regularity-and-mutual-determination/chapter-40-regularity-as-positive-structure/"
+next_chapter_title: "Chapter 40: Regularity as Positive Structure"
+summary_short: "Chapter [ch:idempotent-decomposition] established the Idempotent Decomposition Lemma (II.L07): every τ-holomorphic map decomposes canonically as f = e_+ ·…"
+canonical_book_url: /corpus/monographs/book-ii/
+canonical_book_title: "Book II: Categorical Holomorphy"
+canonical_part_url: /corpus/monographs/book-ii/part-07-regularity-and-mutual-determination/
+canonical_part_title: "Part VII: Regularity and Mutual Determination"
+publication_book_url: /publications/books/book-ii/
+legacy_publication_url: /publications/books/book-ii/part-07-regularity-and-mutual-determination/chapter-39-the-3-lemma-chain/
+right_rail:
+  related:
+  - title: "Book II: Categorical Holomorphy"
+    url: /corpus/monographs/book-ii/
+  - title: "Part VII: Regularity and Mutual Determination"
+    url: /corpus/monographs/book-ii/part-07-regularity-and-mutual-determination/
+  - title: "Research Monograph artifact"
+    url: /publications/books/book-ii/
+  - title: "Registry"
+    url: /registry/books/book-ii/
+  meta:
+    type: "Corpus Monograph Chapter"
+    book: "Book II"
+    part: "Part VII"
+    layer: "E₀ Mathematics"
+    updated: "April 2026"
+---
+
+
+the relevant chapter
+established the Idempotent Decomposition Lemma (II.L07):
+every τ-holomorphic map decomposes canonically
+as f = e_+ · f_+ + e_- · f_-.
+This chapter builds on that decomposition
+to prove the **characterization theorem**
+of Part VII:
+a function f : τ³ → H_τ
+is τ-holomorphic
+**if and only if** it is idempotent-supported.
+
+The proof chains three lemmas.
+**Lemma 1** (Branch Factorization, II.L08):
+every ω-germ transformer
+factors through the bipolar idempotents e_±.
+**Lemma 2** (Prime-Split Support, II.L09):
+the e_+-component is supported
+on B-channel primes (γ-orbit),
+and the e_--component
+on C-channel primes (η-orbit),
+forced by Prime Polarity (I.T05, Book I).
+**Lemma 3** (Polarity Symmetry, II.L10):
+the j-involution interchanges the two sectors:
+σ_j(G_+) = G_- and σ_j(G_-) = G_+,
+so the two channels carry symmetric information.
+Together, these three lemmas yield
+**the relevant theorem (II.T33):
+τ-holomorphic ⟺
+idempotent-supported.
+This is the equivalence that unifies
+the analytic viewpoint (holomorphy)
+with the algebraic viewpoint (idempotent support structure),
+and it completes the regularity program
+initiated in the relevant chapter.

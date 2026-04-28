@@ -117,7 +117,7 @@ layout: default
 </section>
 </article>
 
-{% if page.relations or page.related_results or page.related_framework_modules or page.related_publications or page.related_verify %}
+{% if page.relations or page.related_results or page.related_publications or page.related_verify %}
 <div class="content-card">
   <h2>Related Public Surfaces</h2>
   <div class="dep-list">
@@ -150,13 +150,6 @@ layout: default
     {% for r in page.related_results %}
     <a href="{{ '/results/' | append: r | append: '/' | relative_url }}" class="dep-link">
       <span class="dep-title">{{ r | replace: '-', ' ' | capitalize }}</span><span class="dep-meta">Results</span>
-    </a>
-    {% endfor %}
-    {% endif %}
-    {% if page.related_framework_modules %}
-    {% for m in page.related_framework_modules %}
-    <a href="{{ '/framework/' | append: m | append: '/' | relative_url }}" class="dep-link">
-      <span class="dep-title">{{ m }}</span><span class="dep-meta">Framework</span>
     </a>
     {% endfor %}
     {% endif %}

@@ -13,7 +13,7 @@ right_rail:
   - title: Results Prologue
     url: /results/prologue/
   - title: The Tau Framework
-    url: /framework/about/
+    url: /corpus/
   - title: Physics Results
     url: /results/topic/physics/
   meta:

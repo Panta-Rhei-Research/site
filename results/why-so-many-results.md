@@ -16,7 +16,7 @@ right_rail:
   - title: "Results Overview"
     url: /results/
   - title: "Framework Overview"
-    url: /framework/about/
+    url: /corpus/
   - title: "About the Research"
     url: /program/about/
   meta:

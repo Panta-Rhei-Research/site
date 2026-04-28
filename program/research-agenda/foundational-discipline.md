@@ -79,7 +79,7 @@ The program is deeply suspicious of frameworks in which unrestricted contraction
 
 This does not mean that all forms of reuse are impossible. It means that reuse itself must be disciplined and justified. The framework should not be able to conjure massive expressive strength from invisible resource assumptions while later claiming that its outputs are deeply inevitable.
 
-This is one of the reasons the program's foundational temperament is closer to a resource-sensitive discipline than to a permissive background of freely reusable abstract tokens. The [Tau framework]({{ '/framework/about/' | relative_url }}) is built to embody this resource-sensitive posture from the ground up.
+This is one of the reasons the program's foundational temperament is closer to a resource-sensitive discipline than to a permissive background of freely reusable abstract tokens. The [Tau framework]({{ '/corpus/' | relative_url }}) is built to embody this resource-sensitive posture from the ground up.
 
 ## The typed demand
 

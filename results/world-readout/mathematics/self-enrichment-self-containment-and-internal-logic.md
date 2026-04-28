@@ -19,9 +19,9 @@ right_rail:
   - title: Mathematics World Readout
     url: /results/world-readout/mathematics/
   - title: Self-Enrichment & Four Layers
-    url: /framework/about/self-enrichment-and-the-four-layers/
+    url: /corpus/
   - title: Self-Hosting & Closure
-    url: /framework/about/self-hosting-and-internal-semantic-closure/
+    url: /corpus/
   - title: Verify Lane
     url: /verify/
   - title: Browse the Result Catalogue
@@ -45,7 +45,7 @@ In many familiar higher-categorical or topos-theoretic settings, enrichment come
 
 Tau claims something much stranger.
 
-It claims that [self-enrichment]({{ '/framework/about/self-enrichment-and-the-four-layers/' | relative_url }}) does **not** require ontic inflation ([I.P28]({{ '/registry/object/I.P28/' | relative_url }}), Self-Enrichment). The base world remains closed. No new ontic substrate is added. What increases is not the amount of underlying "stuff," but the structural articulation of what is already there.
+It claims that [self-enrichment]({{ '/corpus/' | relative_url }}) does **not** require ontic inflation ([I.P28]({{ '/registry/object/I.P28/' | relative_url }}), Self-Enrichment). The base world remains closed. No new ontic substrate is added. What increases is not the amount of underlying "stuff," but the structural articulation of what is already there.
 
 That is the first central point of this page.
 
@@ -64,7 +64,7 @@ That is why the later layers can still be spoken of as one world rather than as 
 
 This is also where internal logic enters the picture.
 
-Tau is not only claimed to generate objects and relations. It is claimed to become capable of hosting increasingly rich internal semantic and proof-bearing structure. In the language of the site, that is part of what makes the framework [self-containing]({{ '/framework/about/self-hosting-and-internal-semantic-closure/' | relative_url }}) rather than externally scaffolded.
+Tau is not only claimed to generate objects and relations. It is claimed to become capable of hosting increasingly rich internal semantic and proof-bearing structure. In the language of the site, that is part of what makes the framework [self-containing]({{ '/corpus/' | relative_url }}) rather than externally scaffolded.
 
 The emergence of topos-like ([I.T24]({{ '/registry/object/I.T24/' | relative_url }}), Grothendieck Topos) and self-hosting structure ([I.D80]({{ '/registry/object/I.D80/' | relative_url }}), Self-Hosting Degree) therefore matters for more than technical elegance. It changes the epistemic posture of the whole system.
 

@@ -24,7 +24,7 @@ right_rail:
 
 ## Overview
 
-When did life first arise? The framework derives a timescale bound for abiogenesis from the [persistence sector]({{ '/framework/life-life-sectors/' | relative_url }}): the first [Distinction]({{ '/framework/life-life-defined/' | relative_url }}) event is a thermodynamically necessary transition from non-persistent chemistry to self-maintaining structure. The [thermodynamic inversion]({{ '/framework/physics-thermodynamic-inversion/' | relative_url }}) (defect entropy decreasing along proto-time) provides the driving force. See also the [detailed timescale bound derivation]({{ '/results/problem/abiogenesis-timescale-bound/' | relative_url }}).
+When did life first arise? The framework derives a timescale bound for abiogenesis from the [persistence sector]({{ '/corpus/monographs/' | relative_url }}): the first [Distinction]({{ '/corpus/monographs/' | relative_url }}) event is a thermodynamically necessary transition from non-persistent chemistry to self-maintaining structure. The [thermodynamic inversion]({{ '/corpus/monographs/' | relative_url }}) (defect entropy decreasing along proto-time) provides the driving force. See also the [detailed timescale bound derivation]({{ '/results/problem/abiogenesis-timescale-bound/' | relative_url }}).
 
 ## Result Statement
 

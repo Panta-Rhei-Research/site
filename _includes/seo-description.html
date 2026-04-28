@@ -20,9 +20,6 @@
 {%- when 'registry-object' -%}
 {{ page.registry_id }} — {{ page.object_type | default: 'object' | capitalize }} in Book {{ page.book }}{% if page.chapter %}, Chapter {{ page.chapter }}{% endif %}{% if page.scope and page.scope != '' %} ({{ page.scope }}){% endif %}. {% if page.summary and page.summary != '' %}{{ page.summary | strip_html | strip_newlines | truncate: 180 }}{% else %}{{ page.title | strip_html }}{% endif %}
 
-{%- when 'framework-module' -%}
-{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% elsif page.thesis and page.thesis != '' %}{{ page.thesis | strip_html | truncate: 200 }}{% else %}{{ page.title }} — {{ page.layer }} framework module in the Panta Rhei research program.{% endif %}
-
 {%- when 'result-page' -%}
 {% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}{{ page.title }} — Key result in the {{ page.layer | default: page.domain_group }} domain.{% endif %}
 
@@ -34,6 +31,15 @@
 
 {%- when 'publication-chapter' -%}
 Chapter {{ page.chapter_number }} of Book {{ page.book_id }}: {{ page.title }}.{% if page.page_in_book %} Printed page {{ page.page_in_book }}.{% endif %}{% if page.summary_short and page.summary_short != '' %} {{ page.summary_short | strip_html | truncate: 160 }}{% endif %}
+
+{%- when 'corpus-monograph-book' -%}
+Open Corpus edition of {{ page.title }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %}. The citable publication artifact remains linked from the Publications lane.
+
+{%- when 'corpus-monograph-part' -%}
+{{ page.part_display | default: 'Part' }} of Book {{ page.book_id }} in the Corpus monograph projection: {{ page.title }}.{% if page.summary_short and page.summary_short != '' %} {{ page.summary_short | strip_html | truncate: 180 }}{% endif %}
+
+{%- when 'corpus-monograph-chapter' -%}
+Chapter {{ page.chapter_number }} of Book {{ page.book_id }} in the Corpus monograph projection: {{ page.title }}.{% if page.summary_short and page.summary_short != '' %} {{ page.summary_short | strip_html | truncate: 160 }}{% endif %}
 
 {%- when 'publication-archive-book' -%}
 {{ page.title }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %}. Archived First Edition (December 2025) of Book {{ page.book_id }}.

@@ -25,19 +25,17 @@ Home::/|Publications::/publications/|Books::/publications/books/|Book {{ page.bo
 {%- when 'publication-book' -%}
 Home::/|Publications::/publications/|Books::/publications/books/|Book {{ page.book_id }}::{{ page.url }}
 
+{%- when 'corpus-monograph-chapter' -%}
+Home::/|Corpus::/corpus/|Monographs::/corpus/monographs/|Book {{ page.book_id }}::{{ page.canonical_book_url }}|{{ page.canonical_part_title | default: 'Part' | replace: '|', ' ' }}::{{ page.canonical_part_url }}|Chapter {{ page.chapter_number }}::{{ page.url }}
+
+{%- when 'corpus-monograph-part' -%}
+Home::/|Corpus::/corpus/|Monographs::/corpus/monographs/|Book {{ page.book_id }}::{{ page.canonical_book_url }}|{{ page.part_display | default: 'Part' | replace: '|', ' ' }}::{{ page.url }}
+
+{%- when 'corpus-monograph-book' -%}
+Home::/|Corpus::/corpus/|Monographs::/corpus/monographs/|Book {{ page.book_id }}::{{ page.url }}
+
 {%- when 'publication-archive-book' -%}
 Home::/|Publications::/publications/|Archived Releases::/publications/archived/|First Edition::/publications/archived/first-edition/|Book {{ page.book_id }} (1st Ed.)::{{ page.url }}
-
-{%- when 'framework-module' -%}
-{%- assign layer_name = 'Framework' -%}
-{%- case page.layer -%}
-  {%- when 'E0' -%}{%- assign layer_name = 'Mathematics' -%}{%- assign layer_url = '/framework/mathematics/' -%}
-  {%- when 'E1' -%}{%- assign layer_name = 'Physics' -%}{%- assign layer_url = '/framework/physics/' -%}
-  {%- when 'E2' -%}{%- assign layer_name = 'Life' -%}{%- assign layer_url = '/framework/life/' -%}
-  {%- when 'E3' -%}{%- assign layer_name = 'Metaphysics' -%}{%- assign layer_url = '/framework/metaphysics/' -%}
-  {%- else -%}{%- assign layer_url = '/framework/about/' -%}
-{%- endcase -%}
-Home::/|Framework::/framework/about/|{{ layer_name }}::{{ layer_url }}|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
 
 {%- when 'result-page' -%}
 Home::/|Results::/results/|{{ page.topic | default: page.domain_group | default: 'Results' | replace: '|', ' ' | capitalize }}::/results/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
@@ -87,7 +85,6 @@ Home::/|Support::/cite/|Bibliography::{{ page.url }}
   {%- when 'discover' -%}{%- assign lane_label = 'Discover' -%}{%- assign lane_url = '/discover/' -%}
   {%- when 'program' -%}{%- assign lane_label = 'Program' -%}{%- assign lane_url = '/program/' -%}
   {%- when 'corpus' -%}{%- assign lane_label = 'Corpus' -%}{%- assign lane_url = '/corpus/' -%}
-  {%- when 'framework' -%}{%- assign lane_label = 'Framework' -%}{%- assign lane_url = '/framework/about/' -%}
   {%- when 'impact' -%}{%- assign lane_label = 'Impact' -%}{%- assign lane_url = '/impact/' -%}
   {%- when 'verify' -%}{%- assign lane_label = 'Verify' -%}{%- assign lane_url = '/verify/' -%}
   {%- when 'registry' -%}{%- assign lane_label = 'Registry' -%}{%- assign lane_url = '/corpus/registry/' -%}

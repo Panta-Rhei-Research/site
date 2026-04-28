@@ -108,7 +108,7 @@ That is not anti-scientific. It is a wager on a stronger form of intelligibility
 
 The positive wager of the program is simple to state:
 
-**that there may exist a model of reality in which mathematics, physics, life, and metaphysics do not stand as permanently disconnected provinces, but as layers of one coherent structure.** The [Tau framework]({{ '/framework/about/' | relative_url }}) is the current attempt to realize that wager.
+**that there may exist a model of reality in which mathematics, physics, life, and metaphysics do not stand as permanently disconnected provinces, but as layers of one coherent structure.** The [Tau framework]({{ '/corpus/' | relative_url }}) is the current attempt to realize that wager.
 
 That wager may fail. The world will decide that in time.
 

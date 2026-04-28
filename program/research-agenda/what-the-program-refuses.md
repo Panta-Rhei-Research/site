@@ -66,7 +66,7 @@ But the program distinguishes sharply between:
 
 If the question is "why this structure?" then a merely effective approximation cannot, by itself, count as an answer. At best it may be a partial route.
 
-This refusal is one of the reasons the program seeks a stronger [foundational architecture]({{ '/framework/about/' | relative_url }}) rather than only a better fitted model.
+This refusal is one of the reasons the program seeks a stronger [foundational architecture]({{ '/corpus/' | relative_url }}) rather than only a better fitted model.
 
 ## It refuses a permanent science–humanities ceasefire
 

@@ -1,0 +1,56 @@
+---
+layout: corpus-monograph-chapter
+title: "Chapter 10: The Fine-Structure Constant"
+permalink: /corpus/monographs/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/chapter-10-the-fine-structure-constant/
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Chapter"
+status: Canonical
+updated: April 2026
+publication_type: corpus_monograph_chapter
+book_id: "IV"
+book_slug: "book-iv"
+part_number: 1
+part_display: "Part I"
+part_slug: "part-01-the-joint-core-from-neutron-to-hydrogen"
+chapter_number: 10
+chapter_slug: "chapter-10-the-fine-structure-constant"
+page_in_book: 51
+prev_chapter_url: "/corpus/monographs/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/chapter-09-the-five-sectors-in-concert/"
+prev_chapter_title: "Chapter 9: The Five Sectors in Concert"
+next_chapter_url: "/corpus/monographs/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/chapter-11-the-calibration-anchor-mn-sets-the-scale/"
+next_chapter_title: "Chapter 11: The Calibration Anchor: mn Sets the Scale"
+summary_short: "The fine-structure constant α ≈ 1/137.036 has puzzled physicists for a century. Why this value? Why dimensionless? Why unmotivated in every mainstream…"
+canonical_book_url: /corpus/monographs/book-iv/
+canonical_book_title: "Book IV: Categorical Microcosm"
+canonical_part_url: /corpus/monographs/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/
+canonical_part_title: "Part I: The Joint Core: From Neutron to Hydrogen"
+publication_book_url: /publications/books/book-iv/
+legacy_publication_url: /publications/books/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/chapter-10-the-fine-structure-constant/
+right_rail:
+  related:
+  - title: "Book IV: Categorical Microcosm"
+    url: /corpus/monographs/book-iv/
+  - title: "Part I: The Joint Core: From Neutron to Hydrogen"
+    url: /corpus/monographs/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/
+  - title: "Research Monograph artifact"
+    url: /publications/books/book-iv/
+  - title: "Registry"
+    url: /registry/books/book-iv/
+  meta:
+    type: "Corpus Monograph Chapter"
+    book: "Book IV"
+    part: "Part I"
+    layer: "E₁ Physics (Microcosm)"
+    updated: "April 2026"
+---
+
+
+The fine-structure constant α ≈ 1/137.036 has puzzled
+physicists for a century. Why this value? Why dimensionless?
+Why unmotivated in every mainstream theory? In Category τ,
+α is **derived**—not fitted—from three convergent
+routes, all anchored in ι<sub>τ</sub> = 2/(π + e) ≈ 0.341304.
+The breakthrough result:
+α = (11/15)^2 · ι<sub>τ</sub>⁴, matching CODATA to
+**9.8 ppm**.

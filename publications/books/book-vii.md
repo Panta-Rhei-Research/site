@@ -6,6 +6,7 @@ lane: publications
 publication_type: book
 book_id: "VII"
 book_slug: "book-vii"
+corpus_url: "/corpus/monographs/book-vii/"
 subtitle: "The Final Self-Enrichment"
 part_count: 13
 chapter_count: 128
@@ -23,8 +24,8 @@ linked_verify_page: "/verify/"
 linked_dashboard: "/registry/dashboards/book-vii/"
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/book-vii/
   - title: Registry
     url: /registry/books/book-vii/
   - title: Guided Tours
@@ -41,7 +42,6 @@ right_rail:
     status: Published
     updated: April 2026
 ---
-
 ## About This Volume
 
 Book VII is the E₃ layer—the third and final self-enrichment of the coherence kernel.
@@ -59,6 +59,10 @@ metaphysics S_E, S_D, S_P, S_C across Parts II–IX, the Logos sector S_L
 (Part X), Genesis exegesis (Part XI), and the final boundary where proof gives way
 to commitment (Part XII).
 
+
+## Open Corpus Edition
+
+- **Corpus reading edition**: [Book VII in Corpus]({{ '/corpus/monographs/book-vii/' | relative_url }})
 
 ## Canonical Artifacts
 

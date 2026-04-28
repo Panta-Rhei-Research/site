@@ -1,5 +1,5 @@
 title: "Panta Rhei Research Program"
-description: "Public research observatory for the Panta Rhei framework — mathematics, physics, life, and metaphysics from one coherence kernel."
+description: "Public research observatory for the Panta Rhei Research Program — Corpus, Results, Verify, Publications, and open inspection routes."
 url: "https://panta-rhei.site"
 baseurl: ""
 
@@ -32,9 +32,6 @@ buttondown:
   button_label: "Subscribe"
 
 collections:
-  framework:
-    output: true
-    permalink: /framework/:name/
   taulib_docs:
     output: true
   bibliography:
@@ -93,11 +90,6 @@ defaults:
     values:
       layout: "program-doc"
       lane: "research-program"
-  - scope:
-      type: "framework"
-    values:
-      layout: "framework-module"
-      lane: "framework"
   - scope:
       type: "bibliography"
     values:

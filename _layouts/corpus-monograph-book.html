@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="book-article corpus-monograph-article">
+<header class="hero-card book-hero">
+  <div class="book-hero-inner">
+    <div class="book-hero-text">
+      <span class="eyebrow">Corpus · Monograph Projection</span>
+      <h1>{{ page.title_plain | default: page.title | strip_html }}</h1>
+      {% if page.subtitle %}
+      <p class="hero-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      <p class="hero-meta">Open Corpus edition of Book {{ page.book_id }}. The publication artifact remains the citable release page.</p>
+      <div class="btn-group" style="margin-top: 14px;">
+        <a href="{{ page.publication_book_url | default: page.legacy_publication_url | relative_url }}" class="btn-secondary">Publication artifact</a>
+        <a href="{{ '/corpus/monographs/' | relative_url }}" class="btn-ghost">All monographs</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+{% include summary-cards.html %}
+
+{% include parts-list.html %}
+
+<section class="content-card">
+  <div class="prose">
+    {{ content }}
+  </div>
+</section>
+</article>

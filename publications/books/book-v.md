@@ -6,6 +6,7 @@ lane: publications
 publication_type: book
 book_id: "V"
 book_slug: "book-v"
+corpus_url: "/corpus/monographs/book-v/"
 subtitle: "The Biography of the Universe"
 part_count: 8
 chapter_count: 58
@@ -23,8 +24,8 @@ linked_verify_page: "/verify/"
 linked_dashboard: "/registry/dashboards/book-v/"
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/book-v/
   - title: Registry
     url: /registry/books/book-v/
   - title: Guided Tours
@@ -41,7 +42,6 @@ right_rail:
     status: Published
     updated: April 2026
 ---
-
 ## About This Volume
 
 > *"The way up and the way down are one and the same."*
@@ -87,6 +87,10 @@ what the base must earn,
 and the dependency chain
 that connects them.
 
+
+## Open Corpus Edition
+
+- **Corpus reading edition**: [Book V in Corpus]({{ '/corpus/monographs/book-v/' | relative_url }})
 
 ## Canonical Artifacts
 

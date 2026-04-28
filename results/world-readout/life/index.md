@@ -13,7 +13,7 @@ right_rail:
   - title: Physics World Readout
     url: /results/world-readout/physics/
   - title: The Tau Framework
-    url: /framework/about/
+    url: /corpus/
   - title: Biology Results
     url: /results/topic/biology/
   meta:

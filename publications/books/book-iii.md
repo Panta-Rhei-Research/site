@@ -6,6 +6,7 @@ lane: publications
 publication_type: book
 book_id: "III"
 book_slug: "book-iii"
+corpus_url: "/corpus/monographs/book-iii/"
 subtitle: "Where Physics Lives"
 part_count: 11
 chapter_count: 76
@@ -23,8 +24,8 @@ linked_verify_page: "/verify/"
 linked_dashboard: "/registry/dashboards/book-iii/"
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/book-iii/
   - title: Registry
     url: /registry/books/book-iii/
   - title: Guided Tours
@@ -41,7 +42,6 @@ right_rail:
     status: Published
     updated: April 2026
 ---
-
 ## About This Volume
 
 The Central Theorem is proved and the holomorphic machinery is in hand.
@@ -61,6 +61,10 @@ together with the Langlands programme, provides a specific piece of this gluing 
 The self-enrichment layer E₁ is precisely the statement that local spatial structures cohere globally.
 Physics *is* E₁.
 
+
+## Open Corpus Edition
+
+- **Corpus reading edition**: [Book III in Corpus]({{ '/corpus/monographs/book-iii/' | relative_url }})
 
 ## Canonical Artifacts
 

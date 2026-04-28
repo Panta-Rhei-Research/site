@@ -6,6 +6,7 @@ lane: publications
 publication_type: book
 book_id: "IV"
 book_slug: "book-iv"
+corpus_url: "/corpus/monographs/book-iv/"
 subtitle: "The Self-Describing Universe"
 part_count: 9
 chapter_count: 73
@@ -23,8 +24,8 @@ linked_verify_page: "/verify/"
 linked_dashboard: "/registry/dashboards/book-iv/"
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/book-iv/
   - title: Registry
     url: /registry/books/book-iv/
   - title: Guided Tours
@@ -41,7 +42,6 @@ right_rail:
     status: Published
     updated: April 2026
 ---
-
 ## About This Volume
 
 The Prologue frames Book IV as a whole.
@@ -65,6 +65,10 @@ Chapter 2 collects the three deliverables inherited
 from Books I–III—the five generators, the 4+1 sector template,
 and the E₁ export contracts—so that nothing need be re-derived.
 
+
+## Open Corpus Edition
+
+- **Corpus reading edition**: [Book IV in Corpus]({{ '/corpus/monographs/book-iv/' | relative_url }})
 
 ## Canonical Artifacts
 

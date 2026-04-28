@@ -15,7 +15,7 @@ right_rail:
   - title: Status & Claim Typing
     url: /results/status-and-claim-typing/
   - title: The Tau Framework
-    url: /framework/about/
+    url: /corpus/
   meta:
     type: Introduction
     scope: Results lane
@@ -31,7 +31,7 @@ The short answer — the one the rest of the lane unpacks — is this. The frame
 
 That is the shape of the architectural spine. But before the spine carries any numerical weight, something else must first exist.
 
-The site contains two very different but related layers. One layer is the **Result Catalogue**: the large and growing collection of [individual result pages]({{ '/results/browse/' | relative_url }}), each tied to recognized problems, internal theorem clusters, or consequence-level readouts. The other layer is prior to the catalogue: it asks why the [framework]({{ '/framework/about/' | relative_url }}) itself qualifies as a legitimate result-bearing object.
+The site contains two very different but related layers. One layer is the **Result Catalogue**: the large and growing collection of [individual result pages]({{ '/results/browse/' | relative_url }}), each tied to recognized problems, internal theorem clusters, or consequence-level readouts. The other layer is prior to the catalogue: it asks why the [framework]({{ '/corpus/' | relative_url }}) itself qualifies as a legitimate result-bearing object.
 
 This introduction answers that prior question. It explains **how the framework first exists**: not yet as a public theory of reality, but as a materialized formal system implemented over Lean 4 and the Calculus of Inductive Constructions. This is the first epistemic stance of the program and the first admissible inspection layer — the precondition for the cascade having anything real to compile.
 
@@ -51,7 +51,7 @@ The first epistemic stance: [TauLib]({{ '/verify/' | relative_url }}) as materia
 
 ## How to read these pages
 
-These pages are written as interpretive and epistemic clarifications, not as theorem ledgers. They aim to make explicit what is already distributed across the [books]({{ '/publications/' | relative_url }}), the [framework modules]({{ '/framework/' | relative_url }}), [TauLib]({{ '/verify/' | relative_url }}), and the [result corpus]({{ '/results/browse/' | relative_url }}).
+These pages are written as interpretive and epistemic clarifications, not as theorem ledgers. They aim to make explicit what is already distributed across the [Research Monographs]({{ '/publications/research-monographs/' | relative_url }}), the [Corpus Monographs]({{ '/corpus/monographs/' | relative_url }}), [TauLib]({{ '/verify/' | relative_url }}), and the [result corpus]({{ '/results/browse/' | relative_url }}).
 
 A reader does not need to grant the program all of its later world-readout claims to benefit from this introduction. It is enough, at first, to ask a more modest question:
 

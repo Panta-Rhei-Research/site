@@ -6,6 +6,7 @@ lane: publications
 publication_type: book
 book_id: "VI"
 book_slug: "book-vi"
+corpus_url: "/corpus/monographs/book-vi/"
 subtitle: "Life as Self-Decoding Distinctions"
 part_count: 9
 chapter_count: 53
@@ -23,8 +24,8 @@ linked_verify_page: "/verify/"
 linked_dashboard: "/registry/dashboards/book-vi/"
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/book-vi/
   - title: Registry
     url: /registry/books/book-vi/
   - title: Guided Tours
@@ -41,7 +42,6 @@ right_rail:
     status: Published
     updated: April 2026
 ---
-
 ## About This Volume
 
 What distinguishes living from non-living? Aristotle, Schrödinger, NASA—every classical answer
@@ -51,6 +51,10 @@ where the kernel's physical structure becomes capable of recognizing itself. Two
 —Distinction and SelfDesc—replace every classical laundry list, and the 4+1 sector template
 organizes all of biology by structural role.
 
+
+## Open Corpus Edition
+
+- **Corpus reading edition**: [Book VI in Corpus]({{ '/corpus/monographs/book-vi/' | relative_url }})
 
 ## Canonical Artifacts
 

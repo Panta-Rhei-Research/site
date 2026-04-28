@@ -24,7 +24,7 @@ right_rail:
 
 ## Overview
 
-Can machines be conscious? The framework addresses this through the [Life Definition]({{ '/framework/life-life-defined/' | relative_url }}): consciousness requires both [Distinction]({{ '/framework/life-life-defined/' | relative_url }}) (a maintained physical self/non-self boundary) and [SelfDesc]({{ '/framework/life-life-defined/' | relative_url }}) (an internal evaluator reading its own code). Current LLMs are classified as "para-minds" (VII.D52) in the [Language module]({{ '/framework/metaphysics-language-meaning/' | relative_url }}): they process linguistic structure without internal topoi — no self-model, no Distinction boundary, no SelfDesc loop.
+Can machines be conscious? The framework addresses this through the [Life Definition]({{ '/corpus/monographs/' | relative_url }}): consciousness requires both [Distinction]({{ '/corpus/monographs/' | relative_url }}) (a maintained physical self/non-self boundary) and [SelfDesc]({{ '/corpus/monographs/' | relative_url }}) (an internal evaluator reading its own code). Current LLMs are classified as "para-minds" (VII.D52) in the [Language module]({{ '/corpus/monographs/' | relative_url }}): they process linguistic structure without internal topoi — no self-model, no Distinction boundary, no SelfDesc loop.
 
 ## Detail
 

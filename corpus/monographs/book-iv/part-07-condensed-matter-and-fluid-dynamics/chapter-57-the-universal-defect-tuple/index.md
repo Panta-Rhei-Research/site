@@ -1,0 +1,60 @@
+---
+layout: corpus-monograph-chapter
+title: "Chapter 57: The Universal Defect Tuple"
+permalink: /corpus/monographs/book-iv/part-07-condensed-matter-and-fluid-dynamics/chapter-57-the-universal-defect-tuple/
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Chapter"
+status: Canonical
+updated: April 2026
+publication_type: corpus_monograph_chapter
+book_id: "IV"
+book_slug: "book-iv"
+part_number: 7
+part_display: "Part VII"
+part_slug: "part-07-condensed-matter-and-fluid-dynamics"
+chapter_number: 57
+chapter_slug: "chapter-57-the-universal-defect-tuple"
+page_in_book: 321
+prev_chapter_url: "/corpus/monographs/book-iv/part-07-condensed-matter-and-fluid-dynamics/chapter-56-the-defect-functional-and-fluid-regimes/"
+prev_chapter_title: "Chapter 56: The Defect Functional and Fluid Regimes"
+next_chapter_url: "/corpus/monographs/book-iv/part-07-condensed-matter-and-fluid-dynamics/chapter-58-tau-euler-inviscid-flow/"
+next_chapter_title: "Chapter 58: τ-Euler: Inviscid Flow"
+summary_short: "Chapter [ch:iv-defect-fluids] introduced the defect tuple d = (d₁, d₂, d₃, d₄) as a universal regime classifier and identified eight canonical…"
+canonical_book_url: /corpus/monographs/book-iv/
+canonical_book_title: "Book IV: Categorical Microcosm"
+canonical_part_url: /corpus/monographs/book-iv/part-07-condensed-matter-and-fluid-dynamics/
+canonical_part_title: "Part VII: Condensed Matter and Fluid Dynamics"
+publication_book_url: /publications/books/book-iv/
+legacy_publication_url: /publications/books/book-iv/part-07-condensed-matter-and-fluid-dynamics/chapter-57-the-universal-defect-tuple/
+right_rail:
+  related:
+  - title: "Book IV: Categorical Microcosm"
+    url: /corpus/monographs/book-iv/
+  - title: "Part VII: Condensed Matter and Fluid Dynamics"
+    url: /corpus/monographs/book-iv/part-07-condensed-matter-and-fluid-dynamics/
+  - title: "Research Monograph artifact"
+    url: /publications/books/book-iv/
+  - title: "Registry"
+    url: /registry/books/book-iv/
+  meta:
+    type: "Corpus Monograph Chapter"
+    book: "Book IV"
+    part: "Part VII"
+    layer: "E₁ Physics (Microcosm)"
+    updated: "April 2026"
+---
+
+
+the relevant chapter introduced the defect tuple
+d = (d₁, d₂, d₃, d₄)
+as a universal regime classifier and identified eight canonical
+fluid regimes.
+This chapter develops the defect tuple itself:
+its mathematical structure, its transformation properties,
+its role as the master coordinate on the phase space of matter.
+The tuple is not merely a convenient label.
+It is the *canonical projection* of the full defect functional
+onto the four geometric axes of T²,
+and the projection is both complete and minimal—no
+fifth component exists, and no component is redundant.

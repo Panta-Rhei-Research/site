@@ -6,6 +6,7 @@ lane: publications
 publication_type: book
 book_id: "II"
 book_slug: "book-ii"
+corpus_url: "/corpus/monographs/book-ii/"
 subtitle: "Finite Readouts of Infinity"
 part_count: 12
 chapter_count: 68
@@ -23,8 +24,8 @@ linked_verify_page: "/verify/"
 linked_dashboard: "/registry/dashboards/book-ii/"
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/book-ii/
   - title: Registry
     url: /registry/books/book-ii/
   - title: Guided Tours
@@ -41,7 +42,6 @@ right_rail:
     status: Published
     updated: April 2026
 ---
-
 ## About This Volume
 
 Book I closed with the Bridge Theorem (I.T34):
@@ -105,6 +105,10 @@ Part X closes the circle and bridges to Book III.
 
 Welcome to the holomorphic interior.
 
+
+## Open Corpus Edition
+
+- **Corpus reading edition**: [Book II in Corpus]({{ '/corpus/monographs/book-ii/' | relative_url }})
 
 ## Canonical Artifacts
 

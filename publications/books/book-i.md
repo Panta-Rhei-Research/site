@@ -6,6 +6,7 @@ lane: publications
 publication_type: book
 book_id: "I"
 book_slug: "book-i"
+corpus_url: "/corpus/monographs/book-i/"
 subtitle: "How Mathematics Is Earned"
 part_count: 18
 chapter_count: 79
@@ -23,8 +24,8 @@ linked_verify_page: "/verify/"
 linked_dashboard: "/registry/dashboards/book-i/"
 right_rail:
   related:
-  - title: Framework Overview
-    url: /framework/about/
+  - title: Open Corpus Edition
+    url: /corpus/monographs/book-i/
   - title: Registry
     url: /registry/books/book-i/
   - title: Guided Tours
@@ -41,7 +42,6 @@ right_rail:
     status: Published
     updated: April 2026
 ---
-
 ## About This Volume
 
 This Prologue situates Book I within the Panta Rhei series
@@ -56,6 +56,10 @@ the four-layer Kernel Hinge that structures
 the book's seventy-nine chapters,
 and the self-enrichment ladder E₀ → E₁ → E₂ → E₃
 that connects Book I to the rest of the series.
+
+## Open Corpus Edition
+
+- **Corpus reading edition**: [Book I in Corpus]({{ '/corpus/monographs/book-i/' | relative_url }})
 
 ## Canonical Artifacts
 

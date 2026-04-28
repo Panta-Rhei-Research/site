@@ -66,6 +66,26 @@ function shouldEnableCors(url) {
   return CORS_PATH_PREFIXES.some((prefix) => url.pathname.startsWith(prefix));
 }
 
+function dynamicRedirectFor(pathname) {
+  if (pathname.startsWith("/publications/books/book-") && pathname.includes("/part-")) {
+    return pathname.replace("/publications/books/", "/corpus/monographs/");
+  }
+
+  if (pathname === "/framework" || pathname === "/framework/") {
+    return "/corpus/";
+  }
+
+  if (pathname.startsWith("/framework/prior-art")) {
+    return "/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/";
+  }
+
+  if (pathname.startsWith("/framework/")) {
+    return "/corpus/";
+  }
+
+  return null;
+}
+
 // Short-circuit CORS preflight for /api/* paths. GitHub Pages (the proxied
 // origin) doesn't support OPTIONS and returns 405, which silently breaks
 // non-simple cross-site fetches (custom headers, non-default Content-Type).
@@ -107,7 +127,7 @@ export function applyEdgeHeaders(request, response) {
 
 export function edgeRedirectFor(request) {
   const url = new URL(typeof request === "string" ? request : request.url);
-  const targetPath = PERMANENT_REDIRECTS.get(url.pathname);
+  const targetPath = PERMANENT_REDIRECTS.get(url.pathname) || dynamicRedirectFor(url.pathname);
 
   if (!targetPath) {
     return null;

@@ -95,7 +95,22 @@ for (const [path, target] of [
   ["/publications/categorical-genesis", "/publications/monograph-supplements/categorical-genesis/"],
   ["/publications/categorical-genesis/", "/publications/monograph-supplements/categorical-genesis/"],
   ["/publications/companion-papers", "/publications/research-briefings/public-good/"],
-  ["/publications/companion-papers/", "/publications/research-briefings/public-good/"]
+  ["/publications/companion-papers/", "/publications/research-briefings/public-good/"],
+  [
+    "/publications/books/book-i/part-01-the-coherence-kernel/",
+    "/corpus/monographs/book-i/part-01-the-coherence-kernel/"
+  ],
+  [
+    "/publications/books/book-i/part-01-the-coherence-kernel/chapter-02-the-five-generators/",
+    "/corpus/monographs/book-i/part-01-the-coherence-kernel/chapter-02-the-five-generators/"
+  ],
+  ["/framework", "/corpus/"],
+  ["/framework/about/", "/corpus/"],
+  ["/framework/mathematics-coherence-kernel/", "/corpus/"],
+  [
+    "/framework/prior-art/wolfram/",
+    "/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/"
+  ]
 ]) {
   const redirect = edgeRedirectFor(`https://panta-rhei.site${path}`);
   assert.ok(redirect, `${path} should redirect at the edge`);
@@ -104,5 +119,6 @@ for (const [path, target] of [
 }
 
 assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/monograph-supplements/numerical-physics-ledger/"), null);
+assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/books/book-i/"), null);
 
-console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, and 7 redirect cases passed`);
+console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, and 13 redirect cases passed`);

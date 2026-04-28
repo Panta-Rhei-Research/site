@@ -30,7 +30,7 @@ right_rail:
     - title: "Contact"
       url: /engage/contact/
     - title: "About the Framework"
-      url: /framework/about/
+      url: /corpus/
   artifacts:
     - title: "GitHub Discussions"
       url: https://github.com/orgs/Panta-Rhei-Research/discussions

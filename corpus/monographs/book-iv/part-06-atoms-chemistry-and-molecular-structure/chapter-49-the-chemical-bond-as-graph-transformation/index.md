@@ -1,0 +1,58 @@
+---
+layout: corpus-monograph-chapter
+title: "Chapter 49: The Chemical Bond as Graph Transformation"
+permalink: /corpus/monographs/book-iv/part-06-atoms-chemistry-and-molecular-structure/chapter-49-the-chemical-bond-as-graph-transformation/
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Chapter"
+status: Canonical
+updated: April 2026
+publication_type: corpus_monograph_chapter
+book_id: "IV"
+book_slug: "book-iv"
+part_number: 6
+part_display: "Part VI"
+part_slug: "part-06-atoms-chemistry-and-molecular-structure"
+chapter_number: 49
+chapter_slug: "chapter-49-the-chemical-bond-as-graph-transformation"
+page_in_book: 287
+prev_chapter_url: "/corpus/monographs/book-iv/part-06-atoms-chemistry-and-molecular-structure/chapter-48-multi-electron-atoms-and-shell-structure/"
+prev_chapter_title: "Chapter 48: Multi-Electron Atoms and Shell Structure"
+next_chapter_url: "/corpus/monographs/book-iv/part-06-atoms-chemistry-and-molecular-structure/chapter-50-molecular-orbitals-and-hybridization/"
+next_chapter_title: "Chapter 50: Molecular Orbitals and Hybridization"
+summary_short: "Stable atoms combine because sharing T² co-rotor modes lowers the total energy below the sum of isolated atomic energies. A chemical bond is, in the…"
+canonical_book_url: /corpus/monographs/book-iv/
+canonical_book_title: "Book IV: Categorical Microcosm"
+canonical_part_url: /corpus/monographs/book-iv/part-06-atoms-chemistry-and-molecular-structure/
+canonical_part_title: "Part VI: Atoms, Chemistry, and Molecular Structure"
+publication_book_url: /publications/books/book-iv/
+legacy_publication_url: /publications/books/book-iv/part-06-atoms-chemistry-and-molecular-structure/chapter-49-the-chemical-bond-as-graph-transformation/
+right_rail:
+  related:
+  - title: "Book IV: Categorical Microcosm"
+    url: /corpus/monographs/book-iv/
+  - title: "Part VI: Atoms, Chemistry, and Molecular Structure"
+    url: /corpus/monographs/book-iv/part-06-atoms-chemistry-and-molecular-structure/
+  - title: "Research Monograph artifact"
+    url: /publications/books/book-iv/
+  - title: "Registry"
+    url: /registry/books/book-iv/
+  meta:
+    type: "Corpus Monograph Chapter"
+    book: "Book IV"
+    part: "Part VI"
+    layer: "E₁ Physics (Microcosm)"
+    updated: "April 2026"
+---
+
+
+Stable atoms combine because sharing T² co-rotor modes lowers the
+total energy below the sum of isolated atomic energies. A chemical
+bond is, in the language of Category τ, a merged co-rotor
+configuration: two (or more) atomic mode maps fuse into a single
+molecular mode map on τ³. This chapter develops the energetic
+logic of bond formation, classifies the principal bond types—covalent,
+ionic, metallic, hydrogen, van der Waals—and analyses the hydrogen
+molecule H₂ as the paradigmatic example. Electronegativity
+differences determine bond character, and the entire picture is
+recast as a graph transformation in the τ³ fibration.

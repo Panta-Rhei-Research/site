@@ -146,7 +146,7 @@ For **Book IV --- Categorical Microcosm**, you would fill in:
 - `{{GUIDED_TOUR_URL}}`: https://panta-rhei.site/publications/guided-tours/ (Book IV section)
 - `{{LEAN_COMPANION_URL}}`: https://panta-rhei.site/verify/taulib/docs/ (Book IV modules)
 - `{{BOOK_PAGE_URL}}`: https://panta-rhei.site/publications/books/book-iv/
-- `{{OPTIONAL_BOOK_URLS}}`: https://panta-rhei.site/framework/physics/, https://panta-rhei.site/results/
+- `{{OPTIONAL_BOOK_URLS}}`: https://panta-rhei.site/corpus/monographs/, https://panta-rhei.site/results/
 
 
 ## After Running the Prompt

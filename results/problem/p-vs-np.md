@@ -24,7 +24,7 @@ right_rail:
 
 ## Overview
 
-P vs NP asks whether every problem whose solution can be verified quickly can also be *solved* quickly. It is one of the seven Clay Millennium Problems. The framework provides a structural reading through the [Computation Bridge]({{ '/framework/mathematics-computation-bridge/' | relative_url }}): witness search is address account in the [ABCD chart]({{ '/framework/mathematics-abcd-chart/' | relative_url }}), and the [Interface Width Principle]({{ '/framework/mathematics-computation-bridge/' | relative_url }}) (III.T31) constrains the complexity.
+P vs NP asks whether every problem whose solution can be verified quickly can also be *solved* quickly. It is one of the seven Clay Millennium Problems. The framework provides a structural reading through the [Computation Bridge]({{ '/corpus/monographs/' | relative_url }}): witness search is address account in the [ABCD chart]({{ '/corpus/monographs/' | relative_url }}), and the [Interface Width Principle]({{ '/corpus/monographs/' | relative_url }}) (III.T31) constrains the complexity.
 
 ## Detail
 

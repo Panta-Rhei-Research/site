@@ -24,7 +24,7 @@ right_rail:
 
 ## Overview
 
-The Langlands Program seeks deep connections between number theory (Galois representations) and representation theory (automorphic forms). The <math><mi>&tau;</mi></math>-framework addresses Langlands through the [sector template]({{ '/framework/mathematics-sector-template/' | relative_url }}): Langlands<math><msub><mrow/><mn>0</mn></msub></math> (boundary functoriality, III.T05) is the mechanism that induces the [4+1 decomposition]({{ '/framework/mathematics-sector-template/' | relative_url }}) at every enrichment level.
+The Langlands Program seeks deep connections between number theory (Galois representations) and representation theory (automorphic forms). The <math><mi>&tau;</mi></math>-framework addresses Langlands through the [sector template]({{ '/corpus/monographs/' | relative_url }}): Langlands<math><msub><mrow/><mn>0</mn></msub></math> (boundary functoriality, III.T05) is the mechanism that induces the [4+1 decomposition]({{ '/corpus/monographs/' | relative_url }}) at every enrichment level.
 
 ## Detail
 

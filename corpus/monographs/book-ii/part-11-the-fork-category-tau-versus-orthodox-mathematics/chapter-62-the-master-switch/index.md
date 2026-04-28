@@ -1,0 +1,74 @@
+---
+layout: corpus-monograph-chapter
+title: "Chapter 62: The Master Switch"
+permalink: /corpus/monographs/book-ii/part-11-the-fork-category-tau-versus-orthodox-mathematics/chapter-62-the-master-switch/
+lane: corpus
+v2_lane: corpus
+type: "Corpus Monograph Chapter"
+status: Canonical
+updated: April 2026
+publication_type: corpus_monograph_chapter
+book_id: "II"
+book_slug: "book-ii"
+part_number: 11
+part_display: "Part XI"
+part_slug: "part-11-the-fork-category-tau-versus-orthodox-mathematics"
+chapter_number: 62
+chapter_slug: "chapter-62-the-master-switch"
+page_in_book: 393
+prev_chapter_url: "/corpus/monographs/book-ii/part-11-the-fork-category-tau-versus-orthodox-mathematics/chapter-61-the-question-of-foundations/"
+prev_chapter_title: "Chapter 61: The Question of Foundations"
+next_chapter_url: "/corpus/monographs/book-ii/part-11-the-fork-category-tau-versus-orthodox-mathematics/chapter-63-what-survives-the-fork/"
+next_chapter_title: "Chapter 63: What Survives the Fork"
+summary_short: "Chapter [ch:question-of-foundations] introduced five comparison modes and six axes. Before we apply them mode by mode, this chapter identifies the **structural…"
+canonical_book_url: /corpus/monographs/book-ii/
+canonical_book_title: "Book II: Categorical Holomorphy"
+canonical_part_url: /corpus/monographs/book-ii/part-11-the-fork-category-tau-versus-orthodox-mathematics/
+canonical_part_title: "Part XI: The Fork — Category τ versus Orthodox Mathematics"
+publication_book_url: /publications/books/book-ii/
+legacy_publication_url: /publications/books/book-ii/part-11-the-fork-category-tau-versus-orthodox-mathematics/chapter-62-the-master-switch/
+right_rail:
+  related:
+  - title: "Book II: Categorical Holomorphy"
+    url: /corpus/monographs/book-ii/
+  - title: "Part XI: The Fork — Category τ versus Orthodox Mathematics"
+    url: /corpus/monographs/book-ii/part-11-the-fork-category-tau-versus-orthodox-mathematics/
+  - title: "Research Monograph artifact"
+    url: /publications/books/book-ii/
+  - title: "Registry"
+    url: /registry/books/book-ii/
+  meta:
+    type: "Corpus Monograph Chapter"
+    book: "Book II"
+    part: "Part XI"
+    layer: "E₀ Mathematics"
+    updated: "April 2026"
+---
+
+
+the relevant chapter introduced
+five comparison modes and six axes.
+Before we apply them mode by mode,
+this chapter identifies the **structural source**
+of all differences between Category τ
+and orthodox mathematics:
+a single algebraic sign,
+j² = +1 versus i² = -1.
+
+That sign propagates through twelve levels
+of mathematical structure,
+from scalar algebra to the spectrum at infinity.
+At each level, the two choices produce
+qualitatively different outcomes.
+The sign is not a design decision:
+it is forced by Prime Polarity
+(I.T05 → I.T10).
+
+This chapter consolidates three perspectives:
+the twelve-level cascade
+(the master pattern),
+the PDE-level rewiring
+(wave versus Laplacian holomorphy),
+and the comprehensive rewiring inventory
+(all twelve levels side by side
+with honest trade-offs).

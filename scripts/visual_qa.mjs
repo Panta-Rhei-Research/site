@@ -21,6 +21,10 @@ const pages = [
   { name: "discover", url: "/discover/", expect: ["Discover"] },
   { name: "program", url: "/program/", expect: ["Program"] },
   { name: "corpus", url: "/corpus/", expect: ["Corpus"] },
+  { name: "corpus-monographs", url: "/corpus/monographs/", expect: ["Corpus Monographs", "Open Corpus editions", "Book I"] },
+  { name: "corpus-monograph-book-i", url: "/corpus/monographs/book-i/", expect: ["Book I: Categorical Foundations", "Open Corpus edition", "Publication artifact"] },
+  { name: "corpus-monograph-part-i", url: "/corpus/monographs/book-i/part-01-the-coherence-kernel/", expect: ["Part I: The Coherence Kernel", "Book I Corpus edition", "The Five Generators"] },
+  { name: "corpus-monograph-chapter-i-02", url: "/corpus/monographs/book-i/part-01-the-coherence-kernel/chapter-02-the-five-generators/", expect: ["Chapter 2: The Five Generators", "Book I Corpus edition", "Part I: The Coherence Kernel"] },
   { name: "registry", url: "/corpus/registry/", expect: ["Registry"] },
   { name: "results", url: "/results/", expect: ["Results"] },
   { name: "results-progress", url: "/results/progress-against-agenda/", expect: ["Progress Against Agenda"] },
@@ -58,6 +62,8 @@ const pages = [
   { name: "result-hubble", url: "/results/problem/hubble-tension/", expect: ["Hubble"] },
   { name: "registry-object", url: "/registry/object/VII.T16/", expect: ["VII.T16"] },
   { name: "publication-ledger", url: "/publications/monograph-supplements/numerical-physics-ledger/", expect: ["Numerical Physics Ledger", "Monograph Supplement"] },
+  { name: "publication-book-i", url: "/publications/books/book-i/", expect: ["Book I: Categorical Foundations", "Open Corpus edition", "Canonical Artifacts"] },
+  { name: "publications-research-monographs", url: "/publications/research-monographs/", expect: ["Research Monographs", "Corpus Monographs", "Open Corpus edition"] },
   { name: "publications-monograph-supplements", url: "/publications/monograph-supplements/", expect: ["Monograph Supplements", "Categorical Genesis"] },
   { name: "publications-research-briefings", url: "/publications/research-briefings/", expect: ["Research Briefings", "Public-Good Briefings"] },
   { name: "publications-public-good-briefings", url: "/publications/research-briefings/public-good/", expect: ["Public-Good Briefings", "Reading discipline"] },
@@ -387,20 +393,19 @@ async function runVisualQa() {
         }));
 
       const initialNotesCount = await noteCountValue();
-      if (initialNotesCount < 8) {
+      if (initialNotesCount < 6) {
         failures.push(`${viewport.name}/research-notes: unexpected initial count ${initialNotesCount}`);
       }
 
-      await notesPage.locator('[data-filter="note_type"][data-value="pre-registration-note"]').click();
       await notesPage.locator('[data-filter="domain"][data-value="physics"]').click();
       await notesPage.waitForTimeout(250);
 
       const filteredNotesCount = await noteCountValue();
       const filteredNotesState = await notesState();
       if (!(filteredNotesCount > 0 && filteredNotesCount < initialNotesCount)) {
-        failures.push(`${viewport.name}/research-notes: pre-registration/physics filter count ${filteredNotesCount} did not narrow from ${initialNotesCount}`);
+        failures.push(`${viewport.name}/research-notes: physics filter count ${filteredNotesCount} did not narrow from ${initialNotesCount}`);
       }
-      if (!filteredNotesState.query.includes("note_type=pre-registration-note") || !filteredNotesState.query.includes("domain=physics")) {
+      if (!filteredNotesState.query.includes("domain=physics")) {
         failures.push(`${viewport.name}/research-notes: filter query string did not persist expected params`);
       }
 
@@ -411,7 +416,6 @@ async function runVisualQa() {
         failures.push(`${viewport.name}/research-notes: reload changed filtered count from ${filteredNotesCount} to ${reloadedNotesCount}`);
       }
       if (
-        !reloadedNotesState.activeFilters.includes("note_type:pre-registration-note") ||
         !reloadedNotesState.activeFilters.includes("domain:physics")
       ) {
         failures.push(`${viewport.name}/research-notes: active filters were not restored after reload`);

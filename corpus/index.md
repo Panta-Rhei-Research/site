@@ -21,6 +21,8 @@ hero_ctas:
   - label: "Follow the Construction Spine"
     url: /corpus/construction-spine/
     primary: true
+  - label: "Open Monographs"
+    url: /corpus/monographs/
   - label: "Foundational Hinges"
     url: /corpus/foundational-hinges/
   - label: "Browse the Registry"
@@ -33,6 +35,8 @@ right_rail:
       url: /corpus/construction-spine/
     - title: "Foundational Hinges"
       url: /corpus/foundational-hinges/
+    - title: "Monographs"
+      url: /corpus/monographs/
     - title: "Registry"
       url: /corpus/registry/
     - title: "Types"
@@ -52,7 +56,7 @@ right_rail:
 {% assign registry_objects = site.data.registry.objects %}
 {% assign type_groups = registry_objects | group_by: "type" | sort: "name" %}
 
-The corpus is the central research artifact of the program.
+The corpus is the central research artifact of the program: the public body of what has been built.
 
 It is not a summary, not a set of claims, and not a collection of papers. It is the structured body of what has been built: definitions, lemmas, theorems, structures, derivations, and dependency relations.
 
@@ -86,6 +90,45 @@ The first three construction steps now have a dedicated reviewer route: eight fo
   <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
   <a class="btn-ghost" href="{{ '/verify/how-to-audit/mathematician/' | relative_url }}">Mathematician Audit Route</a>
 </div>
+
+## Corpus projections
+
+The same research body appears through several public projections. The [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) gives the build order; the [Corpus Monographs]({{ '/corpus/monographs/' | relative_url }}) expose the seven books as Book → Part → Chapter reading editions; the [Registry]({{ '/corpus/registry/' | relative_url }}) exposes atomic objects; [TauLib]({{ '/verify/taulib/' | relative_url }}) exposes formal proof surfaces where available; and the [Graph]({{ '/corpus/graph/' | relative_url }}) exposes dependency structure.
+
+<ul class="v2-grid v2-card-list">
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}">
+        <h3>Construction Spine</h3>
+        <p>The human-readable build-order route through the Corpus.</p>
+      </a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/corpus/monographs/' | relative_url }}">
+        <h3>Corpus Monographs</h3>
+        <p>Open Book → Part → Chapter reading editions of the seven research monographs.</p>
+      </a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
+        <h3>Registry</h3>
+        <p>The atomic projection of definitions, propositions, theorems, and dependency anchors.</p>
+      </a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/corpus/graph/' | relative_url }}">
+        <h3>Dependency Graph</h3>
+        <p>The relation surface connecting objects, monograph exposition, results, and verification routes.</p>
+      </a>
+    </article>
+  </li>
+</ul>
 
 ## Current state
 
@@ -134,17 +177,6 @@ The current registry is the public atomic projection of the corpus. The primary 
 - not a list of answer claims; see [Results]({{ '/results/' | relative_url }})
 - not the proof assistant itself; see [Verify]({{ '/verify/' | relative_url }}) and TauLib
 - not static
-
-## Corpus projections
-
-The corpus is expressed in multiple public forms:
-
-- [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) — human-readable build narrative
-- [Foundational Hinges]({{ '/corpus/foundational-hinges/' | relative_url }}) — reviewer-facing route for the first mathematical hinges
-- [Registry]({{ '/corpus/registry/' | relative_url }}) — human-readable formal spine
-- [Publications]({{ '/publications/' | relative_url }}) — narrative crystallizations
-- [Results]({{ '/results/' | relative_url }}) — answer surfaces
-- [Verify]({{ '/verify/' | relative_url }}) — formal and empirical inspection paths
 
 ## Structure
 

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="part-article corpus-monograph-article">
+<header class="hero-card">
+  <span class="eyebrow">Corpus · Book {{ page.book_id }} · {{ page.part_display }}</span>
+  <h1>{{ page.title_plain | default: page.title | strip_html }}</h1>
+  <div class="btn-group">
+    <a href="{{ page.canonical_book_url | relative_url }}" class="btn-secondary">Book {{ page.book_id }} Corpus edition</a>
+    <a href="{{ page.publication_book_url | relative_url }}" class="btn-ghost">Publication artifact</a>
+  </div>
+</header>
+
+<section class="content-card">
+  <div class="prose">
+    {{ content }}
+  </div>
+</section>
+</article>

@@ -13,7 +13,7 @@ right_rail:
   - title: Life World Readout
     url: /results/world-readout/life/
   - title: The Tau Framework
-    url: /framework/about/
+    url: /corpus/
   - title: Philosophy Results
     url: /results/topic/philosophy/
   meta:
