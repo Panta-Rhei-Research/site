@@ -7,9 +7,9 @@ permalink: /results/world-readout/
 type: "World Readout"
 status: "Canonical"
 summary_short: "The program's domain-facing readout of what the framework says the world is, layer by layer."
-og_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
-twitter_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
-og_image_alt: "Scientific plate showing the Results lane as a status-marked consequence layer with Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, Additional Derived Results, Progress Against Agenda, and inspection routes."
+og_image: /assets/images/plates/plate-11-four-layer-world-og.jpg
+twitter_image: /assets/images/plates/plate-11-four-layer-world-og.jpg
+og_image_alt: "Scientific plate showing mathematics, physics, life, and metaphysics/reflection as self-enrichment layers rising from the τ-Kernel construction base."
 summary_cards:
   - title: "Mathematics"
     body: "Foundational construction, holomorphy, spectral structure, and problem surfaces."
@@ -42,6 +42,12 @@ right_rail:
 ## Domain readouts
 
 World Readout pages are not the same thing as proof pages. They are domain-facing syntheses that explain what the corpus and results imply within a field.
+
+## The Four-Layer World
+
+{% include scientific-plate.html id="plate-11-four-layer-world" class="scientific-plate--four-layer-world" loading="lazy" %}
+
+The framework reads mathematics, physics, life, and metaphysics/reflection as generated world readouts of one construction. Layered does not mean dualistic; generated does not mean flattened.
 
 ## World readouts inside the Results layer
 

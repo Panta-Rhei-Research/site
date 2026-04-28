@@ -39,6 +39,11 @@ These 13 pages can be read as one continuous journey. The journey starts with **
 
 The architectural centerpiece is the **Calibration Sufficiency Theorem**: (ι<sub>τ</sub>, m<sub>n</sub>) fixes every Ledger entry with zero free parameters. Each page in this cluster narrates one part of that journey. The fabric pages explain what L0 algebra is made of. The geometric and global-shape pages explain the carrier world on which L1 ratios live. The sector-closure page explains why the L1 ratio space closes. The [calibration page]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) is the canonical narrative home of the full cascade, tiered in **Tier A/B/C** precision bands. The full architectural detail, including the flagship R<sub>0</sub> → m<sub>p</sub>/m<sub>e</sub> prediction at 0.025 ppm, lives in [Chapter 58a of the Numerical Physics Ledger companion]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}) (209 pp, 1.11 MB).
 
+## From Kernel to Measurement
+
+{% capture physics_measurement_caption %}The physics world-readout becomes empirically exposed only through bridge adequacy: constants, SI observables, predictions, and falsification pressure connect internal construction to measurement.{% endcapture %}
+{% include scientific-plate.html id="plate-13-kernel-to-measurement" variant="thumb" class="scientific-plate--compact scientific-plate--measurement-bridge" caption=physics_measurement_caption loading="lazy" %}
+
 This cluster therefore does three things.
 
 First, it describes the **fabric of physical reality** in Tau: what the underlying substrate is, how it is structured, and why quantization, geometry, and lawfulness are not bolted on from outside.

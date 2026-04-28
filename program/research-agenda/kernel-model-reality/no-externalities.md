@@ -7,6 +7,9 @@ section: research-agenda
 type: "Kernel Principle"
 status: "Canonical"
 summary_short: "No externality may remain hidden: decisive scaffolding must be internalized, derived, typed, factored out, bridged, or marked unresolved."
+og_image: /assets/images/plates/plate-14-ontic-closure-burden-og.jpg
+twitter_image: /assets/images/plates/plate-14-ontic-closure-burden-og.jpg
+og_image_alt: "Scientific plate showing the ontic closure burden as a no-externalities boundary with hidden runtime, substrate, semantic load, and residual boundary by silence rejected."
 summary_cards:
   - title: "Exposure"
     body: "Hidden semantics, runtime, parameters, substrates, bridge rules, and interpretive assumptions must become visible."
@@ -50,6 +53,12 @@ If a claim depends on an unexamined runtime, imported semantics, free parameter,
 **No externality may remain hidden.**
 
 This does not mean the program has solved every boundary. It means unresolved boundaries must be named as unresolved boundaries rather than disguised as completed explanations.
+
+## The Ontic Closure Burden
+
+{% include scientific-plate.html id="plate-14-ontic-closure-burden" class="scientific-plate--ontic-closure" loading="lazy" %}
+
+Ontic status is not asserted by slogan. The framework treats ontic status as a burden: no decisive externality may remain hidden as runtime, substrate, semantic load, or unspoken boundary.
 
 ## The six allowed treatments
 

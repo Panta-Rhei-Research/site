@@ -8,9 +8,9 @@ type: "Verification Surface"
 verify_type: falsification_path
 status: "Canonical"
 summary_short: "How the program exposes possible failure modes and testable consequences."
-og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
-twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
-og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
+og_image: /assets/images/plates/plate-13-kernel-to-measurement-og.jpg
+twitter_image: /assets/images/plates/plate-13-kernel-to-measurement-og.jpg
+og_image_alt: "Scientific plate showing the path from formal kernel construction through measurement bridges, SI observables, predictions, and falsification."
 summary_cards:
   - title: "Predictions"
     body: "Derived consequences that can serve as accountability surfaces for the program."
@@ -48,6 +48,12 @@ Publication artifacts such as the Numerical Physics Ledger may package these sur
 {% include scientific-plate.html id="plate-06-verification-matrix" variant="thumb" class="scientific-plate--compact" caption=falsification_plate_caption loading="lazy" %}
 
 Predictions and falsification are inspection routes for empirical claims. They complement formal proof checking and bridge adequacy; they do not replace them.
+
+## From Kernel to Measurement
+
+{% include scientific-plate.html id="plate-13-kernel-to-measurement" class="scientific-plate--measurement-bridge" loading="lazy" %}
+
+The framework distinguishes internal construction from empirical exposure. Formal derivation becomes physics only through measurement bridges, observable translation, predictions, and falsification pressure.
 
 <div class="v2-grid">
   <a class="v2-tile" href="{{ '/verify/predictions-and-falsification/predictions/' | relative_url }}">

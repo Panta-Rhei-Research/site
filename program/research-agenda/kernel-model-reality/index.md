@@ -59,6 +59,11 @@ The program distinguishes three levels that must not be collapsed:
 
 The gap between these levels is not treated as a decorative philosophical caveat. It is the central pressure on the program's strongest ambitions.
 
+## Self-Enrichment, Not Reduction
+
+{% capture kmr_self_enrichment_caption %}Self-enrichment names the middle path this section needs: later layers can be generated from prior construction without being flattened into lower vocabulary or imported from a second world.{% endcapture %}
+{% include scientific-plate.html id="plate-12-self-enrichment-not-reduction" variant="thumb" class="scientific-plate--compact scientific-plate--self-enrichment" caption=kmr_self_enrichment_caption loading="lazy" %}
+
 ## Section map
 
 <div class="v2-grid">

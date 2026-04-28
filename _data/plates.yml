@@ -200,3 +200,100 @@
     with eight engagement modes, routing through the website, GitHub Discussions,
     GitHub Issues, Pull Requests, and email, plus open-research principles and the caveat
     that participation does not imply endorsement.
+- id: plate-10-tau-kernel
+  title: The τ-Kernel
+  status: published
+  image: /assets/images/plates/plate-10-tau-kernel-hero.webp
+  hero_jpg: /assets/images/plates/plate-10-tau-kernel-hero.jpg
+  master: /assets/images/plates/plate-10-tau-kernel-master.jpg
+  thumbnail: /assets/images/plates/plate-10-tau-kernel-thumb.webp
+  og_image: /assets/images/plates/plate-10-tau-kernel-og.jpg
+  pages:
+    - /corpus/
+    - /corpus/construction-spine/
+    - /verify/taulib/
+  caption: >
+    The τ-Kernel is the constrained formal core from which the construction begins:
+    five generators, one primitive iterator, K0–K6 axiomatic constraints, and
+    constructive closure under a no-hidden-runtime / no-hidden-substrate discipline.
+  alt: >
+    Scientific plate titled The τ-Kernel, showing five generators, one primitive
+    iterator, a central τ-Kernel block, K0–K6 axiomatic constraints, constructive
+    closure, and boundary notes for no hidden runtime and no hidden substrate.
+- id: plate-11-four-layer-world
+  title: The Four-Layer World
+  status: published
+  image: /assets/images/plates/plate-11-four-layer-world-hero.webp
+  hero_jpg: /assets/images/plates/plate-11-four-layer-world-hero.jpg
+  master: /assets/images/plates/plate-11-four-layer-world-master.jpg
+  thumbnail: /assets/images/plates/plate-11-four-layer-world-thumb.webp
+  og_image: /assets/images/plates/plate-11-four-layer-world-og.jpg
+  pages:
+    - /results/world-readout/
+  caption: >
+    The four-layer world presents mathematics, physics, life, and
+    metaphysics/reflection as self-enrichment layers of one construction rather
+    than as separate worlds or flattened reductions.
+  alt: >
+    Scientific plate titled The Four-Layer World, showing E0 Mathematics,
+    E1 Physics, E2 Life, and E3 Metaphysics / Reflection as self-enrichment
+    layers rising from the τ-Kernel construction base.
+- id: plate-12-self-enrichment-not-reduction
+  title: Self-Enrichment, Not Reduction
+  status: published
+  image: /assets/images/plates/plate-12-self-enrichment-not-reduction-hero.webp
+  hero_jpg: /assets/images/plates/plate-12-self-enrichment-not-reduction-hero.jpg
+  master: /assets/images/plates/plate-12-self-enrichment-not-reduction-master.jpg
+  thumbnail: /assets/images/plates/plate-12-self-enrichment-not-reduction-thumb.webp
+  og_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg
+  pages:
+    - /impact/foundational-science/
+    - /program/research-agenda/kernel-model-reality/
+  caption: >
+    Self-enrichment explains how a later layer can be generated from a prior
+    construction while carrying new relational grammar that was not expressible
+    at the ground level. The unity of knowledge does not require flattening
+    knowledge.
+  alt: >
+    Scientific plate titled Self-Enrichment, Not Reduction, comparing reduction,
+    self-enrichment, and dualism, with self-enrichment shown as a generated layer
+    carrying new relational grammar without adding a second world.
+- id: plate-13-kernel-to-measurement
+  title: From Kernel to Measurement
+  status: published
+  image: /assets/images/plates/plate-13-kernel-to-measurement-hero.webp
+  hero_jpg: /assets/images/plates/plate-13-kernel-to-measurement-hero.jpg
+  master: /assets/images/plates/plate-13-kernel-to-measurement-master.jpg
+  thumbnail: /assets/images/plates/plate-13-kernel-to-measurement-thumb.webp
+  og_image: /assets/images/plates/plate-13-kernel-to-measurement-og.jpg
+  pages:
+    - /verify/predictions-and-falsification/
+    - /results/world-readout/physics/
+  caption: >
+    Formal construction becomes empirically exposed only through bridge
+    adequacy: internal physical grammar must pass through constants, measurement
+    bridges, SI observables, predictions, and falsification pressure.
+  alt: >
+    Scientific plate titled From Kernel to Measurement, showing a chain from
+    Kernel through Physical Carrier, Physical Grammar, Constants and Invariants,
+    Measurement Bridge, SI Observables, Predictions, and Falsification, plus a
+    calibration cascade and the caveat that formal construction is not measurement.
+- id: plate-14-ontic-closure-burden
+  title: The Ontic Closure Burden
+  status: published
+  image: /assets/images/plates/plate-14-ontic-closure-burden-hero.webp
+  hero_jpg: /assets/images/plates/plate-14-ontic-closure-burden-hero.jpg
+  master: /assets/images/plates/plate-14-ontic-closure-burden-master.jpg
+  thumbnail: /assets/images/plates/plate-14-ontic-closure-burden-thumb.webp
+  og_image: /assets/images/plates/plate-14-ontic-closure-burden-og.jpg
+  pages:
+    - /program/research-agenda/kernel-model-reality/no-externalities/
+  caption: >
+    The Ontic Closure Burden states the no-externalities discipline: a serious
+    model cannot defer decisive explanatory work to a hidden runtime, hidden
+    substrate, hidden semantic load, or boundary left standing by silence.
+  alt: >
+    Scientific plate titled The Ontic Closure Burden, showing a no-externalities
+    boundary with rejected hidden runtime, hidden substrate, hidden semantic load,
+    and residual boundary by silence, plus allowed treatments such as
+    internalized, derived, typed, factored out, bridged, or marked unresolved.

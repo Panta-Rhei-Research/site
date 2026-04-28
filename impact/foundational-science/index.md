@@ -6,6 +6,9 @@ permalink: "/impact/foundational-science/"
 type: "Impact Stratum"
 status: "Conditional"
 summary_short: "How foundational science could change if the construction survives scrutiny."
+og_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg
+twitter_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg
+og_image_alt: "Scientific plate comparing reduction, self-enrichment, and dualism, with self-enrichment shown as generated structure without a second world."
 right_rail:
   related:
     -
@@ -46,6 +49,12 @@ This is not a claim that the framework has already been accepted by those discip
 The question is narrower and more precise:
 
 > If the kernel survives formal, mathematical, physical, biological, and philosophical scrutiny, what would its existence imply for the foundations of science?
+
+<p class="eyebrow">Self-Enrichment, Not Reduction</p>
+
+{% include scientific-plate.html id="plate-12-self-enrichment-not-reduction" class="scientific-plate--self-enrichment" loading="lazy" %}
+
+The framework rejects both flattening reduction and external dualism. Self-enrichment means new relational grammar is generated from prior construction without adding a second ontic world.
 
 ## Why this stratum comes first
 

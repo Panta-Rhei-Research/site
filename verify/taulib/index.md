@@ -67,6 +67,11 @@ Lean compilation verifies **internal consistency**: every theorem follows from t
 
 **What Lean does not check**: Whether the framework's physical predictions match experiment. That requires empirical testing.
 
+## The τ-Kernel in formal view
+
+{% capture taulib_kernel_plate_caption %}TauLib formalizes the kernel-side obligations where they have been translated into Lean. The visual kernel plate names the formal start; Lean compilation checks formal consequences, not empirical truth or external acceptance.{% endcapture %}
+{% include scientific-plate.html id="plate-10-tau-kernel" variant="thumb" class="scientific-plate--compact scientific-plate--tau-kernel" caption=taulib_kernel_plate_caption loading="lazy" %}
+
 ## TauLib inside the verification matrix
 
 {% capture taulib_plate_caption %}TauLib is one formalization surface inside the broader verification matrix. Lean compilation checks formalized obligations; it does not by itself establish empirical truth.{% endcapture %}

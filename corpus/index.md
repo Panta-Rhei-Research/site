@@ -67,6 +67,12 @@ The Construction Spine is the primary human-readable route into the Corpus. It s
   <a class="btn-ghost" href="{{ '/verify/construction-spine-verification/' | relative_url }}">Verify the Construction Spine</a>
 </div>
 
+## The τ-Kernel
+
+{% include scientific-plate.html id="plate-10-tau-kernel" variant="thumb" class="scientific-plate--compact scientific-plate--tau-kernel" loading="lazy" %}
+
+The τ-Kernel is the formal starting point of the construction. It is not a hidden physical substrate; it is the constrained formal core from which the Corpus begins.
+
 ## Current state
 
 The current registry is the public atomic projection of the corpus. The primary human-readable route into the Corpus is the [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}): the build-order narrative from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.

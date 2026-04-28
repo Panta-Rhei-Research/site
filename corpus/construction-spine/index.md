@@ -58,6 +58,13 @@ The ten construction steps show how the Corpus is built: not as a timeline or sp
 - [Publications]({{ '/publications/' | relative_url }}) are narrative proof-order projections.
 - [Corpus Graph]({{ '/corpus/graph/' | relative_url }}) is the dependency projection.
 
+## Kernel starting point
+
+{% capture tau_kernel_plate_caption %}The τ-Kernel is the constrained formal core from which the construction begins: five generators, one primitive iterator, K0–K6 axiomatic constraints, and constructive closure under a no-hidden-runtime / no-hidden-substrate discipline.{% endcapture %}
+{% include scientific-plate.html id="plate-10-tau-kernel" variant="thumb" class="scientific-plate--compact scientific-plate--tau-kernel" caption=tau_kernel_plate_caption loading="lazy" %}
+
+The first construction step defines the kernel before later mathematics, physics, life, reflection, self-hosting, and ontic-closure burdens can be read as generated structure.
+
 ## The ten construction steps
 
 <ol class="v2-grid v2-step-list">
