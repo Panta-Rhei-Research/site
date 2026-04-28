@@ -21,7 +21,7 @@ right_rail:
 
 ## Executive Summary
 
-This memo argues that **weather, climate, and disaster intelligence** is one of the strongest first public-good deployment domains for the τ framework — and that within this domain, the aviation weather and aerial logistics sub-sector offers some of the highest-value near-term commercial anchoring for the broader deployment agenda.
+This memo argues that **weather, climate, and disaster intelligence** is one of the strongest first conditional public-good domains for the τ framework — and that within this domain, the aviation weather and aerial logistics sub-sector offers some of the highest-value near-term commercial anchoring for the broader translation agenda.
 
 Why this domain first:
 
@@ -165,7 +165,7 @@ IATA estimates that weather causes **approximately 30% of all air traffic delays
 
 ## 6. Core Public-Good Use Cases
 
-Below is the operational portfolio for a τ weather/climate deployment programme. The seven use cases are organized across three paper modules.
+Below is the operational portfolio for a τ weather/climate translation pathway. The seven use cases are organized across three paper modules.
 
 ### Paper 1: Aviation Weather Intelligence
 
@@ -584,7 +584,7 @@ Candidate vehicles:
 **Summary:** One aviation authority or cargo drone operator using τ-grade mesoscale weather intelligence for route planning and corridor management — NAT turbulence/jet-stream, Africa drone corridor, or Arctic maritime routing.
 **Actors:** NATS/NAV CANADA (NAT system), Zipline/Wingcopter (Africa), Norwegian Meteorological Institute (Arctic), FAA AWRP, SESAR JU.
 **Success metrics:** Delay reduction in pilot corridor, fuel savings per route, turbulence encounter rate reduction, drone corridor uptime improvement, ICAO regulatory acceptance pathway initiated.
-**Why this pilot:** Provides the commercial revenue-generating anchor that can sustain the broader public-good deployment programme. Aviation weather intelligence is one of the few weather product categories where commercial B:C is immediately clear to decision-makers.
+**Why this pilot:** Provides the commercial revenue-generating anchor that can sustain the broader public-good translation pathway. Aviation weather intelligence is one of the few weather product categories where commercial B:C is immediately clear to decision-makers.
 
 ### Lighthouse 4 — Climate-Risk Intelligence and Adaptation Pilot
 **Summary:** One region or city using τ for local driver-tree climate-risk maps, infrastructure resilience planning, or reservoir drought operations — moving from scenario envelopes to causally grounded local risk surfaces.

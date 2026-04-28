@@ -423,7 +423,7 @@ Where PV is an explicit part of public resilience architecture — feeding emerg
 
 ## 13. Benchmark Suite for τ Validation in PV Asset Protection
 
-A serious deployment program requires shared tests. A τ benchmark suite for this domain should include:
+A serious translation pathway requires shared tests. A τ benchmark suite for this domain should include:
 
 1. **Hail-defense benchmark** — forecast-to-stow performance and post-event power retention after documented hail events exceeding 25 mm.
 2. **Hurricane/typhoon benchmark** — site-level structural survivability under observed wind-and-rain extremes, validated against post-storm damage surveys.

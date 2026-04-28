@@ -461,7 +461,7 @@ There is a documented risk of systems being marketed as "resilience" without cle
 
 ## 13. Benchmark Suite
 
-A serious public-interest deployment program would require transparent, independently verifiable benchmark problems. The following five benchmarks address the core use cases of this paper.
+A serious public-interest translation pathway would require transparent, independently verifiable benchmark problems. The following five benchmarks address the core use cases of this paper.
 
 ### Benchmark 1 — Seven-day hospital campus outage survivability
 

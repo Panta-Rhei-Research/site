@@ -26,7 +26,7 @@ The working question is simple:
 
 > **If the τ framework is sound, and if it provides a physically faithful, bounded-error, coarse-grainable discrete twin of ocean–atmosphere–wave–current dynamics, where are the strongest first-wave ocean deployments, and how should they be sequenced for public good?**
 
-The answer is that the ocean domain is one of the clearest and most strategically attractive first-wave deployment fields for τ.
+The answer is that the ocean domain is one of the clearest and most strategically attractive first-wave conditional public-good fields for τ.
 
 That is true for four reasons.
 
@@ -82,11 +82,11 @@ That is the most efficient path to early proof, cross-domain reuse, and durable 
 
 This memo adopts an explicit stance.
 
-It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics here. It does **not** ask the reader to settle every deeper foundational or metaphysical implication before assessing deployment value.
+It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics here. It does **not** ask the reader to settle every deeper foundational or metaphysical implication before assessing translation value.
 
 Instead, it asks a narrower and more operational question:
 
-> If τ provides the ocean-side capabilities claimed for it, how should those capabilities be translated into a coherent ocean deployment program?
+> If τ provides the ocean-side capabilities claimed for it, how should those capabilities be translated into a coherent ocean translation pathway?
 
 The working assumptions are the same as in the four Public-Good Briefings:
 
@@ -100,7 +100,7 @@ Everything that follows is conditional on that stance.
 
 ---
 
-## 2. Why the ocean is a first-wave τ deployment domain
+## 2. Why the ocean is a first-wave τ conditional public-good domain
 
 The ocean is especially attractive because the same fluid-dynamical core touches:
 
@@ -209,7 +209,7 @@ The practical deployment path runs through the incumbent stack, not around it. T
 
 ---
 
-## 5. Companion-paper summaries
+## 5. Public-Good Briefing summaries
 
 ### Paper 1 — Mainstream maritime logistics and ports
 
@@ -655,7 +655,7 @@ The scenario bands below are grounded in three empirical anchors:
 
 1. **Global bunker fuel spend:** approximately $380 billion per year (2024 estimate), implying that a 1% routing efficiency improvement across the global fleet would yield approximately $3.8 billion in annual fuel cost savings and approximately 8 million tonnes of CO2 avoided.
 2. **Cyclone warning lead time:** current operational lead times in the Bay of Bengal and similar high-risk basins are 48–72 hours for reliable track forecasts; the target improvement is 15–25% in effective warning lead time for coastal fishing communities, meaning 8–18 additional hours of actionable warning.
-3. **IMO $1–1.4 trillion shipping decarbonization investment:** better routing and port efficiency are credibly estimated to contribute 5–10% of the total abatement required through 2050, representing $50–140 billion in deployment value if scaled across the global fleet.
+3. **IMO $1–1.4 trillion shipping decarbonization investment:** better routing and port efficiency are credibly estimated to contribute 5–10% of the total abatement required through 2050, representing $50–140 billion in translation value if scaled across the global fleet.
 
 These anchors are stated explicitly to make the scenario claims falsifiable and to support rigorous benefit-cost analysis by potential funders and institutional partners.
 

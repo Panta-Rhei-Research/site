@@ -641,7 +641,7 @@ Governance of τ aviation weather infrastructure should include explicit provisi
 
 ### 15.2 Bottom Line
 
-Under the working τ assumption — that the τ framework provides a physically faithful, bounded-error, coarse-grainable discrete twin of atmosphere–weather–flow dynamics relevant to flight operations — the case for τ aviation weather intelligence as a priority first-wave deployment domain is strong on five independent grounds.
+Under the working τ assumption — that the τ framework provides a physically faithful, bounded-error, coarse-grainable discrete twin of atmosphere–weather–flow dynamics relevant to flight operations — the case for τ aviation weather intelligence as a priority first-wave conditional public-good domain is strong on five independent grounds.
 
 **First, the problem is officially recognised and measurable.** Weather is the stated leading cause of NAS delays by FAA's own accounting; weather caused a 40% increase in U.S. delays in 2024; EUROCONTROL quantifies weather delay at 2.2 minutes per flight in summer 2024, costing airspace users EUR 2.8 billion. The problem space is not speculative.
 

@@ -72,11 +72,11 @@ That is the most efficient path to early proof, cross-domain reuse, and durable 
 
 This memo adopts an explicit stance.
 
-It does **not** claim that the world has already accepted the full τ framework. It does **not** try to prove the deeper foundational claims here. It does **not** ask the reader to settle every metaphysical or mathematical implication before assessing deployment value.
+It does **not** claim that the world has already accepted the full τ framework. It does **not** try to prove the deeper foundational claims here. It does **not** ask the reader to settle every metaphysical or mathematical implication before assessing translation value.
 
 Instead, it asks a narrower, operational question:
 
-> **If τ provides the pollution / circularity capabilities claimed for it, how should those capabilities be translated into a coherent deployment program?**
+> **If τ provides the pollution / circularity capabilities claimed for it, how should those capabilities be translated into a coherent translation pathway?**
 
 The working assumptions are the same as in the Public-Good Briefings:
 
@@ -90,7 +90,7 @@ Everything that follows is conditional on that stance.
 
 ---
 
-## 2. Why pollution / circularity is a first-wave τ deployment domain
+## 2. Why pollution / circularity is a first-wave τ conditional public-good domain
 
 ### 2.1 The line from better causal intelligence to public good is short
 

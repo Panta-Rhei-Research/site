@@ -686,7 +686,7 @@ A documented risk in anticipatory action scale-up is that donor enthusiasm for i
 
 IFRC's work on disaster law and anticipatory action documents that the operational delivery layer — community-level cash transfers, evacuation support, livestock protection — depends on legal frameworks that authorize pre-agreed action before a disaster declaration.[^12] In many countries, these legal authorizations do not yet exist. Better trigger quality is necessary but not sufficient for scale: the legal and policy environment must also permit pre-agreed action.
 
-τ deployment programs should include support for the legal and policy work that IFRC has pioneered — ensuring that improved trigger quality can be translated into legal operational authority for pre-agreed action.
+τ translation pathways should include support for the legal and policy work that IFRC has pioneered — ensuring that improved trigger quality can be translated into legal operational authority for pre-agreed action.
 
 ### 14.5 No-regret action options should remain structurally central
 

@@ -24,7 +24,7 @@ This dossier examines a focused hypothesis: if the τ (tau) categorical framewor
 
 The short answer is: substantially more than current tools provide, and deployable sooner than most practitioners expect.
 
-This is not a claim that τ physics has been universally accepted. It is a conditional deployment analysis. The dossier assumes τ validity for planning purposes, identifies the opportunity structure that follows from that assumption, and specifies what a τ-grade deployment program would look like, how it would be financed, how it would be benchmarked, and what governance guardrails would be required.
+This is not a claim that τ physics has been universally accepted. It is a conditional deployment analysis. The dossier assumes τ validity for planning purposes, identifies the opportunity structure that follows from that assumption, and specifies what a τ-grade translation pathway would look like, how it would be financed, how it would be benchmarked, and what governance guardrails would be required.
 
 The core thesis is that every major marine stewardship challenge — oil spill response, marine debris interception, search and rescue, harmful algal bloom forecasting, marine protected area management, and chemical release plume modeling — shares the same underlying computational structure: transport by coupled currents, winds, waves, and tides, with value concentrated in better lead time and better localization. A τ-grade ocean twin would address this structure at its root rather than patching it one tool at a time.
 
@@ -579,7 +579,7 @@ The deployment design described in Section 10 should incorporate explicit equity
 
 ## 13. Benchmark Suite and Success Metrics
 
-A rigorous τ ocean stewardship deployment program must define performance expectations before deployment and report against them transparently. The following benchmark suite establishes specific, measurable criteria.
+A rigorous τ ocean stewardship translation pathway must define performance expectations before deployment and report against them transparently. The following benchmark suite establishes specific, measurable criteria.
 
 ### 13.1 Oil Spill Trajectory Benchmarks
 
@@ -706,7 +706,7 @@ This last point is not merely legal but operational: responders will not adopt n
 
 ### 15.3 Bottom Line
 
-The opportunity described in this dossier combines three properties that are rarely found together in a single deployment domain:
+The opportunity described in this dossier combines three properties that are rarely found together in a single conditional public-good domain:
 
 **High humanitarian urgency.** Marine emergencies — spills, SAR, chemical releases, HAB-related closures — cause real harm to real people on short timescales. Better prediction could save lives and reduce the human health and livelihood burden of marine pollution events measurably and quickly.
 

@@ -26,7 +26,7 @@ The working question is straightforward:
 
 > **If the τ framework is sound, and if it provides a physically faithful, bounded-error, coarse-grainable Earth-system twin, where are the strongest first-wave climate deployments, and how should they be sequenced for public good?**
 
-The answer is that the climate domain is one of the highest-leverage τ deployment fields — but in a very specific sense.
+The answer is that the climate domain is one of the highest-leverage τ conditional public-good fields — but in a very specific sense.
 
 This portfolio is **not** centered on "getting one more fractional degree right."
 It is centered on a harder and more useful ambition:
@@ -82,11 +82,11 @@ This memo adopts the same explicit stance as the other τ opportunity portfolios
 
 It does **not** claim that the world has already accepted the full τ framework.
 It does **not** attempt to prove the underlying physics here.
-It does **not** ask the reader to settle every deeper foundational implication before assessing deployment value.
+It does **not** ask the reader to settle every deeper foundational implication before assessing translation value.
 
 Instead, it asks a narrower and more operational question:
 
-> **If τ provides the climate-side capabilities claimed for it, how should those capabilities be translated into a coherent climate deployment program?**
+> **If τ provides the climate-side capabilities claimed for it, how should those capabilities be translated into a coherent climate translation pathway?**
 
 The working assumptions are:
 
@@ -101,7 +101,7 @@ Everything that follows is conditional on that stance.
 
 ---
 
-## 2. Why climate is a first-rank τ deployment domain
+## 2. Why climate is a first-rank τ conditional public-good domain
 
 Climate is a first-rank τ domain for five reasons.
 
@@ -206,7 +206,7 @@ It reuses the same Earth-system substrate.
 
 ---
 
-## 4. Companion-paper summaries
+## 4. Public-Good Briefing summaries
 
 ### Paper 1 — Earth-system causal-chain digital twin and policy scenario engine
 

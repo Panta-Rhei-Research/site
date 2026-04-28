@@ -619,7 +619,7 @@ The 2015 Sendai Framework for Disaster Risk Reduction 2015–2030 provides the i
 - **SDG 9** (Industry, Innovation, and Infrastructure): Resilient flood- and landslide-aware infrastructure siting and design is a core SDG 9 target.
 - **SDG 11** (Sustainable Cities and Communities): Urban flood, pluvial flood, and coastal surge resilience are explicit SDG 11 targets.
 - **SDG 13** (Climate Action): Flood, surge, and landslide hazard intensification is among the most directly observable near-term climate impact. τ intelligence is a climate adaptation instrument across all of the above SDG-13-relevant domains.
-- **SDG 17** (Partnerships for the Goals): Transboundary τ deployment programs for shared river basins are direct SDG 17 partnership instruments.
+- **SDG 17** (Partnerships for the Goals): Transboundary τ translation pathways for shared river basins are direct SDG 17 partnership instruments.
 
 ### 15.3 Bottom line
 

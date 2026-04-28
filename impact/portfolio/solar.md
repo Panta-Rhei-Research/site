@@ -26,7 +26,7 @@ The working question is straightforward:
 
 > **If the τ framework is sound, and if it provides a physically faithful, bounded-error, coarse-grainable discrete twin of weather–irradiance–PV–load–storage–grid dynamics, where are the strongest first-wave solar deployments, and how should they be sequenced for public good?**
 
-The answer is that the solar domain is one of the clearest and most strategically attractive first-wave deployment fields for τ.
+The answer is that the solar domain is one of the clearest and most strategically attractive first-wave conditional public-good fields for τ.
 
 That is true for five reasons.
 
@@ -83,11 +83,11 @@ That is the most efficient path to early proof, cross-domain reuse, and durable 
 
 This memo adopts an explicit stance.
 
-It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics here. It does **not** ask the reader to settle every deeper foundational or metaphysical implication before assessing deployment value.
+It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics here. It does **not** ask the reader to settle every deeper foundational or metaphysical implication before assessing translation value.
 
 Instead, it asks a narrower and more operational question:
 
-> If τ provides the solar-side capabilities claimed for it, how should those capabilities be translated into a coherent solar deployment program?
+> If τ provides the solar-side capabilities claimed for it, how should those capabilities be translated into a coherent solar translation pathway?
 
 The working assumptions are the same as in the five Public-Good Briefings:
 
@@ -101,7 +101,7 @@ Everything that follows is conditional on that stance.
 
 ---
 
-## 2. Why solar is a first-wave τ deployment domain
+## 2. Why solar is a first-wave τ conditional public-good domain
 
 Solar is especially attractive because the chain from better physics to better public outcomes is short.
 
@@ -162,7 +162,7 @@ This is strategically important because each additional deployment is not a fres
 
 ---
 
-## 4. Companion-paper summaries
+## 4. Public-Good Briefing summaries
 
 ### Paper 1 — Bulk-grid solar forecasting and market dispatch
 

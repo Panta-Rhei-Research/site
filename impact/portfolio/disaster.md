@@ -26,7 +26,7 @@ The working question is straightforward:
 
 > **If the τ framework is sound, and if it provides a physically faithful, bounded-error, coarse-grainable discrete twin of weather–hazard–impact dynamics, where are the strongest first-wave disaster deployments, and how should they be sequenced for public good?**
 
-The answer is that disaster prediction, early warning, and resilience is one of the clearest and most humane first-wave deployment fields for τ.
+The answer is that disaster prediction, early warning, and resilience is one of the clearest and most humane first-wave conditional public-good fields for τ.
 
 That is true for five reasons.
 
@@ -91,11 +91,11 @@ That is the most efficient path to early proof, cross-domain reuse, and durable 
 
 This memo adopts an explicit stance.
 
-It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics here. It does **not** ask the reader to settle every deeper foundational or metaphysical implication before assessing deployment value.
+It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics here. It does **not** ask the reader to settle every deeper foundational or metaphysical implication before assessing translation value.
 
 Instead, it asks a narrower and more operational question:
 
-> If τ provides the disaster-side capabilities claimed for it, how should those capabilities be translated into a coherent disaster deployment program?
+> If τ provides the disaster-side capabilities claimed for it, how should those capabilities be translated into a coherent disaster translation pathway?
 
 The working assumptions are the same as in the five Public-Good Briefings:
 
@@ -109,7 +109,7 @@ Everything that follows is conditional on that stance.
 
 ---
 
-## 2. Why disaster resilience is a first-wave τ deployment domain
+## 2. Why disaster resilience is a first-wave τ conditional public-good domain
 
 Disaster resilience is especially attractive because the line from better physical intelligence to public good is very short.
 
@@ -167,7 +167,7 @@ This is strategically important because each additional deployment is not a fres
 
 ---
 
-## 4. Companion-paper summaries
+## 4. Public-Good Briefing summaries
 
 ### Paper 1 — Multi-hazard early warning and operational hazard intelligence
 
@@ -842,7 +842,7 @@ That is not merely "better forecasting." It is a different operating model for p
 
 ## 17. Cross-portfolio integration
 
-The disaster portfolio does not stand alone. Its physical and institutional substrate connects to six other τ deployment domains in ways that multiply value on both sides.
+The disaster portfolio does not stand alone. Its physical and institutional substrate connects to six other τ conditional public-good domains in ways that multiply value on both sides.
 
 **Agriculture and food security.** Anticipatory action for disaster is the same institutional mechanism as anticipatory action for food security. The WFP programs that pre-position food ahead of cyclone impact are the same programs that manage food-insecurity response in drought-affected regions. A τ twin that provides better compound-event early warning also provides better agricultural drought and flood forecasting for food-security trigger design. The FEWS NET system, which spans disaster and food-security monitoring, is a natural integration point.
 

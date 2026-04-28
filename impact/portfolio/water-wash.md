@@ -86,11 +86,11 @@ That is the most efficient path to early proof, cross-domain reuse, and durable 
 
 This memo adopts an explicit stance.
 
-It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics, chemistry, or biology here. It does **not** ask the reader to settle every deeper foundational implication before assessing deployment value.
+It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics, chemistry, or biology here. It does **not** ask the reader to settle every deeper foundational implication before assessing translation value.
 
 Instead, it asks a narrower and more operational question:
 
-> If τ provides the water-side capabilities claimed for it, how should those capabilities be translated into a coherent water/WASH deployment program?
+> If τ provides the water-side capabilities claimed for it, how should those capabilities be translated into a coherent water/WASH translation pathway?
 
 The working assumptions are the same as in the five Public-Good Briefings:
 
@@ -104,7 +104,7 @@ Everything that follows is conditional on that stance.
 
 ---
 
-## 2. Why water/WASH is a first-wave τ deployment domain
+## 2. Why water/WASH is a first-wave τ conditional public-good domain
 
 Water and WASH is especially attractive because the line from better physical intelligence to public good is extremely short.
 
@@ -175,7 +175,7 @@ That matters strategically because each additional deployment is not a fresh sta
 
 ---
 
-## 4. Companion-paper summaries
+## 4. Public-Good Briefing summaries
 
 ### Paper 1 — Drinking-water source, treatment, and quality early warning
 

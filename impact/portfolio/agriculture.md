@@ -27,7 +27,7 @@ The working question is simple:
 
 > **If the τ framework is sound, and if it provides a physically faithful, bounded-error, coarse-grainable discrete twin of weather, water, crop, pest, livestock, and planning dynamics, where are the strongest first-wave agriculture deployments, and how should they be sequenced for public good?**
 
-The answer is that agriculture is one of the clearest and most humane first-wave deployment fields for τ.
+The answer is that agriculture is one of the clearest and most humane first-wave conditional public-good fields for τ.
 
 That is true for five reasons.
 
@@ -85,11 +85,11 @@ That is the most efficient path to early proof, cross-domain reuse, and durable 
 
 This memo adopts an explicit stance.
 
-It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics or biology here. It does **not** ask the reader to settle every deeper foundational implication before assessing deployment value.
+It does **not** claim that the world has already accepted the full τ framework. It does **not** attempt to prove the underlying physics or biology here. It does **not** ask the reader to settle every deeper foundational implication before assessing translation value.
 
 Instead, it asks a narrower and more operational question:
 
-> If τ provides the agriculture-side capabilities claimed for it, how should those capabilities be translated into a coherent agriculture deployment program?
+> If τ provides the agriculture-side capabilities claimed for it, how should those capabilities be translated into a coherent agriculture translation pathway?
 
 The working assumptions are the same as in the five Public-Good Briefings:
 
@@ -103,7 +103,7 @@ Everything that follows is conditional on that stance.
 
 ---
 
-## 2. Why agriculture is a first-wave τ deployment domain
+## 2. Why agriculture is a first-wave τ conditional public-good domain
 
 Agriculture is especially attractive because the chain from better physics and biology to better public outcomes is unusually short.
 
@@ -266,7 +266,7 @@ This B:C range is consistent with, and in most cases conservative relative to, e
 
 ---
 
-## 6. Companion-paper summaries
+## 6. Public-Good Briefing summaries
 
 ### Paper 1 — Operational agro-weather intelligence
 
@@ -785,7 +785,7 @@ Agriculture is not one homogeneous user base. Smallholders, women farmers, pasto
 
 The public value of better irrigation or pest warning does not require prior agreement on the full philosophical meaning of τ. Keep the deployment case operationally legible.
 
-**Risk framing:** conflating the foundational claims of τ with the pragmatic deployment value of a better advisory or early-warning system risks both undermining the public-good case and inviting unhelpful skepticism at the institutional level. The two conversations should be maintained separately.
+**Risk framing:** conflating the foundational claims of τ with the pragmatic translation value of a better advisory or early-warning system risks both undermining the public-good case and inviting unhelpful skepticism at the institutional level. The two conversations should be maintained separately.
 
 ### 15.5 Treat crop-biology deployment as a biosafety and governance domain
 
