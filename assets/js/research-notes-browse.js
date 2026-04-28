@@ -13,57 +13,44 @@
   var emptyClearBtn = document.getElementById('research-notes-empty-clear');
 
   var state = {
-    note_type: new Set(),
-    domain: new Set(),
-    status: new Set(),
-    relation: new Set()
+    domain: 'all',
+    sort: 'date-desc'
   };
 
   function readStateFromUrl() {
     var params = new URLSearchParams(window.location.search);
-    Object.keys(state).forEach(function (key) {
-      state[key].clear();
-      var raw = params.get(key);
-      if (raw) {
-        raw.split(',').forEach(function (value) {
-          if (value) state[key].add(value);
-        });
-      }
-    });
+    state.domain = params.get('domain') || 'all';
+    state.sort = params.get('sort') || 'date-desc';
   }
 
   function writeStateToUrl() {
     var params = new URLSearchParams();
-    Object.keys(state).forEach(function (key) {
-      if (state[key].size > 0) params.set(key, Array.from(state[key]).join(','));
-    });
+    if (state.domain && state.domain !== 'all') params.set('domain', state.domain);
+    if (state.sort && state.sort !== 'date-desc') params.set('sort', state.sort);
     var query = params.toString();
     window.history.replaceState(null, '', window.location.pathname + (query ? '?' + query : ''));
   }
 
-  function matchesSet(set, value) {
-    return set.size === 0 || set.has(value);
-  }
-
-  function matchesList(set, rawValue) {
-    if (set.size === 0) return true;
-    var values = (rawValue || '').split(',').filter(Boolean);
-    for (var i = 0; i < values.length; i += 1) {
-      if (set.has(values[i])) return true;
-    }
-    return false;
-  }
-
   function matchesFilters(card) {
-    if (!matchesSet(state.note_type, card.dataset.noteType)) return false;
-    if (!matchesSet(state.domain, card.dataset.domain)) return false;
-    if (!matchesSet(state.status, card.dataset.status)) return false;
-    if (!matchesList(state.relation, card.dataset.relations)) return false;
+    if (state.domain !== 'all' && card.dataset.domain !== state.domain) return false;
     return true;
+  }
+
+  function compareCards(a, b) {
+    if (state.sort === 'date-asc') {
+      return (a.dataset.date || '').localeCompare(b.dataset.date || '');
+    }
+    if (state.sort === 'title-asc') {
+      return (a.dataset.title || '').localeCompare(b.dataset.title || '');
+    }
+    return (b.dataset.date || '').localeCompare(a.dataset.date || '');
   }
 
   function applyFilters() {
     var visible = 0;
+    cards.sort(compareCards).forEach(function (card) {
+      grid.appendChild(card);
+    });
     cards.forEach(function (card) {
       if (matchesFilters(card)) {
         card.removeAttribute('hidden');
@@ -79,8 +66,10 @@
   function syncChipStates() {
     controls.querySelectorAll('.filter-chip').forEach(function (button) {
       var filter = button.dataset.filter;
-      var value = button.dataset.value;
-      if (state[filter] && state[filter].has(value)) {
+      var isActive = false;
+      if (filter === 'domain') isActive = button.dataset.value === state.domain;
+      if (button.dataset.sort) isActive = button.dataset.sort === state.sort;
+      if (isActive) {
         button.classList.add('is-active');
         button.setAttribute('aria-pressed', 'true');
       } else {
@@ -100,18 +89,14 @@
     var button = event.target.closest('.filter-chip');
     if (!button) return;
     event.preventDefault();
-    var filter = button.dataset.filter;
-    var value = button.dataset.value;
-    if (!state[filter]) return;
-    if (state[filter].has(value)) state[filter].delete(value);
-    else state[filter].add(value);
+    if (button.dataset.filter === 'domain') state.domain = button.dataset.value || 'all';
+    if (button.dataset.sort) state.sort = button.dataset.sort;
     refresh();
   });
 
   function clearAll() {
-    Object.keys(state).forEach(function (key) {
-      state[key].clear();
-    });
+    state.domain = 'all';
+    state.sort = 'date-desc';
     refresh();
   }
 

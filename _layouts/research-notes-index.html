@@ -22,49 +22,26 @@ layout: default
 <section class="content-card predictions-browse research-notes-browse" aria-labelledby="research-notes-browse-title">
   <div class="predictions-browse-intro prose">
     <h2 id="research-notes-browse-title">Browse Research Notes</h2>
-    <p>Use the filters to move between note families, domains, publication status, and relation surfaces. All notes are rendered below even without JavaScript.</p>
   </div>
 
-  <div class="predictions-browse-controls" id="research-notes-controls" aria-label="Filter Research Notes">
-    <div class="filter-group" data-filter-group="note_type">
-      <span class="filter-label">Note type</span>
-      <div class="filter-chips">
-        <button class="filter-chip" data-filter="note_type" data-value="response-note" type="button">Response</button>
-        <button class="filter-chip" data-filter="note_type" data-value="pre-registration-note" type="button">Pre-registration</button>
-        <button class="filter-chip" data-filter="note_type" data-value="verification-note" type="button">Verification</button>
-        <button class="filter-chip" data-filter="note_type" data-value="conceptual-note" type="button">Conceptual</button>
-        <button class="filter-chip" data-filter="note_type" data-value="edition-note" type="button">Edition</button>
-      </div>
-    </div>
-
+  <div class="research-notes-controls" id="research-notes-controls" aria-label="Browse Research Notes">
     <div class="filter-group" data-filter-group="domain">
       <span class="filter-label">Domain</span>
       <div class="filter-chips">
+        <button class="filter-chip" data-filter="domain" data-value="all" type="button">All</button>
         <button class="filter-chip" data-filter="domain" data-value="physics" type="button">Physics</button>
         <button class="filter-chip" data-filter="domain" data-value="life" type="button">Life</button>
         <button class="filter-chip" data-filter="domain" data-value="mathematics" type="button">Mathematics</button>
         <button class="filter-chip" data-filter="domain" data-value="metaphysics" type="button">Metaphysics</button>
-        <button class="filter-chip" data-filter="domain" data-value="formal-verification" type="button">Formal Verification</button>
-        <button class="filter-chip" data-filter="domain" data-value="program-history" type="button">Program History</button>
       </div>
     </div>
 
-    <div class="filter-group" data-filter-group="status">
-      <span class="filter-label">Status</span>
+    <div class="filter-group" data-filter-group="sort">
+      <span class="filter-label">Sort</span>
       <div class="filter-chips">
-        <button class="filter-chip" data-filter="status" data-value="published" type="button">Published</button>
-        <button class="filter-chip" data-filter="status" data-value="active" type="button">Active</button>
-      </div>
-    </div>
-
-    <div class="filter-group" data-filter-group="relation">
-      <span class="filter-label">Relation</span>
-      <div class="filter-chips">
-        <button class="filter-chip" data-filter="relation" data-value="pdf" type="button">PDF</button>
-        <button class="filter-chip" data-filter="relation" data-value="corpus" type="button">Corpus</button>
-        <button class="filter-chip" data-filter="relation" data-value="results" type="button">Results</button>
-        <button class="filter-chip" data-filter="relation" data-value="verify" type="button">Verify</button>
-        <button class="filter-chip" data-filter="relation" data-value="recovery" type="button">Recovery</button>
+        <button class="filter-chip sort-chip" data-sort="date-desc" type="button">Newest</button>
+        <button class="filter-chip sort-chip" data-sort="date-asc" type="button">Oldest</button>
+        <button class="filter-chip sort-chip" data-sort="title-asc" type="button">A-Z</button>
       </div>
     </div>
 
@@ -86,6 +63,8 @@ layout: default
       data-note-type="{{ note.note_type | default: 'note' | slugify }}"
       data-domain="{{ note.domain | default: 'general' | slugify }}"
       data-status="{{ note.status | default: 'published' | slugify }}"
+      data-date="{{ note.date | date: '%Y-%m-%d' }}"
+      data-title="{{ note.title | escape }}"
       data-relations="{{ note_relations | strip }}">
       <div class="note-list-date">
         <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%d %B %Y" }}</time>
