@@ -69,6 +69,8 @@ The sequence is ordered so that each page answers a different class of question:
 
 Read in order, these pages form the conceptual entrance into the physical claims of the program. The more detailed result catalogue remains indispensable, but it becomes much easier to use once the reader has first understood the kind of world from which those result pages are being read out.
 
+{% include world-readout-anchors.html layer="physics" intro="These anchors are the pressure points where the physics world-picture becomes quantitatively and empirically exposed: precision mass derivation, sector closure, cosmology, matter-family structure, and forward-facing falsification." %}
+
 ## Cluster map
 
 <div class="v2-grid">

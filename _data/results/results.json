@@ -22,7 +22,11 @@
     "landmark": true,
     "landmark_rank": 1,
     "landmark_group": "foundations",
-    "landmark_reason": "The small τ-kernel is the hinge: if this base is coherent, the rest of the result architecture has a common source."
+    "landmark_reason": "The small τ-kernel is the hinge: if this base is coherent, the rest of the result architecture has a common source.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "mathematics",
+    "world_readout_reason": "This anchors the mathematical readout because the whole layered world begins with the small τ-kernel and its coherence burden."
   },
   {
     "id": "result-002",
@@ -110,7 +114,11 @@
     "landmark": true,
     "landmark_rank": 2,
     "landmark_group": "foundations",
-    "landmark_reason": "This result is the main mathematical bridge from τ-structure to spectral algebra, so it tests whether the formal core has consequence-bearing force."
+    "landmark_reason": "This result is the main mathematical bridge from τ-structure to spectral algebra, so it tests whether the formal core has consequence-bearing force.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "mathematics",
+    "world_readout_reason": "This anchors the mathematical readout by connecting the τ-kernel to spectral algebra rather than leaving the base merely axiomatic."
   },
   {
     "id": "result-006",
@@ -135,7 +143,11 @@
     "landmark": true,
     "landmark_rank": 3,
     "landmark_group": "foundations",
-    "landmark_reason": "The enrichment ladder turns the framework from a list of domains into a staged construction of mathematical, physical, life-facing, and reflective structure."
+    "landmark_reason": "The enrichment ladder turns the framework from a list of domains into a staged construction of mathematical, physical, life-facing, and reflective structure.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "mathematics",
+    "world_readout_reason": "This anchors the readout architecture by making the E0–E3 ladder a staged construction instead of a loose domain metaphor."
   },
   {
     "id": "result-007",
@@ -330,7 +342,11 @@
     "landmark": true,
     "landmark_rank": 6,
     "landmark_group": "physics",
-    "landmark_reason": "The dark-sector claim is striking because it reframes an open empirical search as a sector-closure problem inside the framework."
+    "landmark_reason": "The dark-sector claim is striking because it reframes an open empirical search as a sector-closure problem inside the framework.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This anchors the physics readout by treating dark-sector structure as a sector-closure consequence rather than a particle placeholder."
   },
   {
     "id": "result-016",
@@ -852,7 +868,11 @@
     "domain_group": "Mathematics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "world_readout": true,
+    "world_readout_prominence": "support",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This supports the physics readout by giving the time/asymmetry surface a result-level reference."
   },
   {
     "id": "result-040",
@@ -1183,7 +1203,11 @@
     "landmark": true,
     "landmark_rank": 5,
     "landmark_group": "physics",
-    "landmark_reason": "A precise electron-mass derivation is landmark-like because it puts the framework under unusually sharp numerical pressure."
+    "landmark_reason": "A precise electron-mass derivation is landmark-like because it puts the framework under unusually sharp numerical pressure.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This anchors the physics readout because it puts the calibration cascade under sharp numerical pressure."
   },
   {
     "id": "result-055",
@@ -1288,7 +1312,11 @@
     "domain_group": "Particle Physics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "world_readout": true,
+    "world_readout_prominence": "support",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This supports the physics readout as a precision anomaly handled through the quantitative calibration surface."
   },
   {
     "id": "result-060",
@@ -1352,7 +1380,11 @@
     "domain_group": "Nuclear Physics",
     "primary_domain": "mathematics",
     "secondary_domains": [],
-    "stance_type": "internal-structural-result"
+    "stance_type": "internal-structural-result",
+    "world_readout": true,
+    "world_readout_prominence": "support",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This supports the physics readout as a precision calibration check on measured particle structure."
   },
   {
     "id": "result-063",
@@ -1420,7 +1452,11 @@
     "landmark": true,
     "landmark_rank": 9,
     "landmark_group": "physics",
-    "landmark_reason": "The neutrino-mass result is landmark-like because it links a concrete mass-sum claim to the framework's sector and prediction surfaces."
+    "landmark_reason": "The neutrino-mass result is landmark-like because it links a concrete mass-sum claim to the framework's sector and prediction surfaces.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This anchors the physics readout by turning neutrino structure into a concrete mass-sum and ordering claim."
   },
   {
     "id": "result-066",
@@ -1448,7 +1484,11 @@
     "landmark": true,
     "landmark_rank": 14,
     "landmark_group": "life",
-    "landmark_reason": "The homochirality derivation is a landmark because it links molecular handedness to a claimed structural chain from the kernel."
+    "landmark_reason": "The homochirality derivation is a landmark because it links molecular handedness to a claimed structural chain from the kernel.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "life",
+    "world_readout_reason": "This anchors the life readout by linking molecular handedness to a claimed structural chain from the kernel."
   },
   {
     "id": "result-067",
@@ -1497,7 +1537,11 @@
     "landmark": true,
     "landmark_rank": 13,
     "landmark_group": "life",
-    "landmark_reason": "The abiogenesis bound is landmark-like because it turns origin-of-life discussion into a constrained timing and structure question."
+    "landmark_reason": "The abiogenesis bound is landmark-like because it turns origin-of-life discussion into a constrained timing and structure question.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "life",
+    "world_readout_reason": "This anchors the life readout by making origin-of-life timing part of the framework's inspectable burden."
   },
   {
     "id": "result-069",
@@ -1639,7 +1683,11 @@
     "landmark": true,
     "landmark_rank": 12,
     "landmark_group": "life",
-    "landmark_reason": "The life definition is a landmark because it makes life a structural target of the framework, not only a biological catalogue entry."
+    "landmark_reason": "The life definition is a landmark because it makes life a structural target of the framework, not only a biological catalogue entry.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "life",
+    "world_readout_reason": "This anchors the life readout by making life a definitional and structural target, not only a list of organisms."
   },
   {
     "id": "result-075",
@@ -1804,7 +1852,11 @@
     "secondary_domains": [
       "metaphysics"
     ],
-    "stance_type": "full-solution"
+    "stance_type": "full-solution",
+    "world_readout": true,
+    "world_readout_prominence": "support",
+    "world_readout_layer": "metaphysics",
+    "world_readout_reason": "This supports the metaphysics readout by marking the point where proof reaches the boundary of commitment."
   },
   {
     "id": "result-082",
@@ -1878,7 +1930,11 @@
     "landmark": true,
     "landmark_rank": 15,
     "landmark_group": "life",
-    "landmark_reason": "This result is deliberately landmark-like because it changes the reading of life from accidental occurrence to structural favorability, while remaining qualitative."
+    "landmark_reason": "This result is deliberately landmark-like because it changes the reading of life from accidental occurrence to structural favorability, while remaining qualitative.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "life",
+    "world_readout_reason": "This anchors the life readout by making life a structural consequence candidate rather than a late accidental appendix."
   },
   {
     "id": "result-085",
@@ -1905,7 +1961,11 @@
     "landmark": true,
     "landmark_rank": 4,
     "landmark_group": "foundations",
-    "landmark_reason": "This is the cross-domain architecture claim: the built Corpus is read as a layered world rather than as isolated results."
+    "landmark_reason": "This is the cross-domain architecture claim: the built Corpus is read as a layered world rather than as isolated results.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "mathematics",
+    "world_readout_reason": "This anchors the transition from mathematical construction to the four-layer world-picture used by every readout."
   },
   {
     "id": "result-086",
@@ -2190,7 +2250,11 @@
     "landmark": true,
     "landmark_rank": 10,
     "landmark_group": "physics",
-    "landmark_reason": "Three generations is a landmark question because it asks whether matter-family structure is forced rather than merely observed."
+    "landmark_reason": "Three generations is a landmark question because it asks whether matter-family structure is forced rather than merely observed.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This anchors the matter-family readout by asking whether three generations are forced by structure rather than merely observed."
   },
   {
     "id": "result-099",
@@ -2234,7 +2298,11 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/W_and_Z_bosons"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/W_and_Z_bosons",
+    "world_readout": true,
+    "world_readout_prominence": "support",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This supports the physics readout by keeping electroweak tension visible as partial rather than overclaimed."
   },
   {
     "id": "result-101",
@@ -2278,7 +2346,11 @@
     "primary_domain": "physics",
     "secondary_domains": [],
     "stance_type": "full-solution",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dark_matter"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dark_matter",
+    "world_readout": true,
+    "world_readout_prominence": "support",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This supports the physics readout by connecting dark matter and dark energy claims to the broader sector-closure route."
   },
   {
     "id": "result-103",
@@ -2413,7 +2485,11 @@
     "landmark": true,
     "landmark_rank": 8,
     "landmark_group": "physics",
-    "landmark_reason": "The Hubble-tension page is a landmark because it connects cosmological disagreement to the framework's physics-facing readout and verification burden."
+    "landmark_reason": "The Hubble-tension page is a landmark because it connects cosmological disagreement to the framework's physics-facing readout and verification burden.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This anchors the cosmological readout by connecting a live observational tension to the framework's status-marked physics route."
   },
   {
     "id": "result-109",
@@ -2545,7 +2621,11 @@
     ],
     "primary_domain": "physics",
     "secondary_domains": [],
-    "stance_type": "contradicts-dominant-hypothesis"
+    "stance_type": "contradicts-dominant-hypothesis",
+    "world_readout": true,
+    "world_readout_prominence": "support",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This supports the physics readout as a deliberately exposed falsification target at the gravity boundary."
   },
   {
     "id": "result-115",
@@ -3136,7 +3216,11 @@
     "landmark": true,
     "landmark_rank": 17,
     "landmark_group": "mind-metaphysics",
-    "landmark_reason": "The consciousness result is landmark-like because it marks the boundary between structural explanation and remaining phenomenological burden."
+    "landmark_reason": "The consciousness result is landmark-like because it marks the boundary between structural explanation and remaining phenomenological burden.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "metaphysics",
+    "world_readout_reason": "This anchors the mind readout by marking both the structural explanation and the remaining phenomenological burden."
   },
   {
     "id": "result-141",
@@ -3325,7 +3409,11 @@
     "landmark": true,
     "landmark_rank": 18,
     "landmark_group": "mind-metaphysics",
-    "landmark_reason": "The categorical-imperative result is a landmark because it asks whether normativity can appear as a structural consequence rather than an added moral axiom."
+    "landmark_reason": "The categorical-imperative result is a landmark because it asks whether normativity can appear as a structural consequence rather than an added moral axiom.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "metaphysics",
+    "world_readout_reason": "This anchors the normative readout by asking whether ethical form can be treated as structural consequence."
   },
   {
     "id": "result-149",
@@ -3702,7 +3790,11 @@
     "landmark": true,
     "landmark_rank": 7,
     "landmark_group": "physics",
-    "landmark_reason": "The vacuum-energy account is a landmark because it addresses one of the largest scale mismatches in theoretical physics from the Corpus side."
+    "landmark_reason": "The vacuum-energy account is a landmark because it addresses one of the largest scale mismatches in theoretical physics from the Corpus side.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This anchors the physics readout by asking whether vacuum energy is read from the Corpus instead of patched by scale adjustment."
   },
   {
     "id": "result-166",
@@ -4001,7 +4093,11 @@
     "landmark": true,
     "landmark_rank": 11,
     "landmark_group": "physics",
-    "landmark_reason": "This result earns landmark status because it points outward toward forward empirical inspection rather than only retrospective fit."
+    "landmark_reason": "This result earns landmark status because it points outward toward forward empirical inspection rather than only retrospective fit.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "physics",
+    "world_readout_reason": "This anchors the forward-facing physics readout because it points toward empirical inspection rather than only retrospective fit."
   },
   {
     "id": "result-180",
@@ -4921,7 +5017,11 @@
     "landmark": true,
     "landmark_rank": 16,
     "landmark_group": "mind-metaphysics",
-    "landmark_reason": "This is a landmark metaphysical result because it tests whether the framework can make ontic existence inspectable without treating it as a premise."
+    "landmark_reason": "This is a landmark metaphysical result because it tests whether the framework can make ontic existence inspectable without treating it as a premise.",
+    "world_readout": true,
+    "world_readout_prominence": "anchor",
+    "world_readout_layer": "metaphysics",
+    "world_readout_reason": "This anchors the metaphysics readout by treating existence as an inspectable burden rather than a hidden premise."
   },
   {
     "id": "result-220",

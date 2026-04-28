@@ -68,14 +68,18 @@ From this point onward, the site can move into the detailed result pages. The bu
 
 Quantitative claims additionally sort into three precision tiers inherited from the calibration cascade: **Tier A** (~0.025 ppm — the sharpest predictions, such as R<sub>0</sub> → m<sub>p</sub>/m<sub>e</sub>), **Tier B** (~3 ppm — strong agreement across many constants), and **Tier C** (~0.8% — structural predictions whose bridges to measurement are still being sharpened). The tier taxonomy is the granularity of what this physics makes true.
 
+- [electron mass at 0.025 ppm]({{ '/results/problem/electron-mass-0025-ppm/' | relative_url }}) *(Internally addressed, Tier A calibration anchor)*
 - [Hubble tension]({{ '/results/problem/hubble-tension/' | relative_url }}) *(Internally addressed, τ-effective)*
-- [dark matter / dark energy closure]({{ '/results/problem/dark-sector-closure/' | relative_url }}) *(Internally addressed, τ-effective)*
+- [dark matter / dark energy closure]({{ '/results/problem/dark-sector-closure/' | relative_url }}) and [no dark matter particle]({{ '/results/problem/no-dark-matter-particle/' | relative_url }}) *(Internally addressed, τ-effective sector closure)*
+- [vacuum catastrophe resolution]({{ '/results/problem/vacuum-catastrophe-resolution/' | relative_url }}) *(Internally addressed, cosmological scale readout)*
 - [proton radius]({{ '/results/problem/proton-charge-radius-12-ppm/' | relative_url }}) *(Internally addressed)*
 - [muon g−2]({{ '/results/problem/muon-anomalous-magnetic-moment-8pt8-ppm/' | relative_url }}) *(Internally addressed)*
 - [W mass]({{ '/results/problem/w-mass-puzzle/' | relative_url }}) *(Partial)*
 - [neutrino structure]({{ '/results/problem/neutrino-mass-sum-0pt089-ev-normal-ordering/' | relative_url }}) *(Internally addressed, τ-effective)*
+- [why three generations]({{ '/results/problem/why-three-generations/' | relative_url }}) *(Internally addressed, matter-family structure)*
 - black holes *(Qualitative, τ-effective)*
 - [no Hawking radiation]({{ '/results/problem/no-hawking-radiation/' | relative_url }}) *(Contradicted by orthodox expectation, τ-effective — live falsification target)*
+- [primordial gravitational waves]({{ '/results/problem/primordial-gravitational-waves/' | relative_url }}) *(Internally addressed, forward-facing inspection surface)*
 - [arrow of time]({{ '/results/problem/arrow-of-time-orbit/' | relative_url }}) *(Qualitative, τ-effective)*
 - and many more
 

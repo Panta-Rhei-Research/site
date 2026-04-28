@@ -49,6 +49,8 @@ Sixth, it explains **Logos and the final boundary**: why the final layer of the 
 
 Read in order, these pages form the conceptual entrance into the metaphysics-related claims of the program. The larger result catalogue remains indispensable, but it becomes much easier to use once the reader has first understood the reflective world that Tau proposes.
 
+{% include world-readout-anchors.html layer="metaphysics" intro="These anchors are the reflective pressure points of the readout: existence as burden, consciousness as partial structural explanation, and normativity as a claimed consequence rather than an imported preference." %}
+
 ## Cluster map
 
 <div class="v2-grid">

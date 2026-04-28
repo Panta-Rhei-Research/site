@@ -47,6 +47,8 @@ Fifth, it explains **how E2 sits on E1**: life is fully grounded in physics, but
 
 Read in order, these pages form the conceptual entrance into the life-related claims of the program. The larger result catalogue remains indispensable, but it becomes much easier to use once the reader has first understood the form of life that Tau proposes.
 
+{% include world-readout-anchors.html layer="life" intro="These anchors are the places where the life readout stops being a theme and becomes a result surface: life definition, origin timing, homochirality, and structural favorability." %}
+
 ## Cluster map
 
 <div class="v2-grid">

@@ -1,0 +1,31 @@
+{%- assign layer = include.layer -%}
+{%- assign anchors = site.data.results.results | where: "world_readout_layer", layer | where: "world_readout_prominence", "anchor" | sort: "landmark_rank" -%}
+{%- if anchors.size > 0 -%}
+<section class="world-readout-anchors" aria-labelledby="world-readout-anchors">
+  <h2 id="world-readout-anchors">World Readout anchors</h2>
+  <p>{{ include.intro | default: "These result records are the strongest readout anchors for this layer. They are interpretive anchors inside the program, not external settlement claims." }}</p>
+  <ol class="results-browse-grid world-readout-anchor-grid">
+    {%- for result in anchors -%}
+      {%- assign result_status_label = result.status_code -%}
+      {%- case result.status_code -%}
+        {%- when 'R' -%}{%- assign result_status_label = "Internally addressed" -%}
+        {%- when 'P' -%}{%- assign result_status_label = "Partial" -%}
+        {%- when 'Q' -%}{%- assign result_status_label = "Qualitative" -%}
+        {%- when 'C' -%}{%- assign result_status_label = "Contradicted" -%}
+        {%- when 'N' -%}{%- assign result_status_label = "Not addressed" -%}
+      {%- endcase -%}
+      <li class="result-card world-readout-anchor-card" data-world-readout-layer="{{ layer }}">
+        <a class="result-card-link" href="{{ result.url | relative_url }}">
+          <div class="result-card-top">
+            <span class="chip chip-small">World Readout anchor</span>
+            {%- if result.landmark_rank -%}<span class="chip chip-small">Landmark {{ result.landmark_rank }}</span>{%- endif -%}
+            <span class="chip chip-status chip-status-{{ result.status_code | downcase }}">{{ result_status_label }}</span>
+          </div>
+          <h3 class="result-card-title">{{ result.title }}</h3>
+          <p class="result-card-summary">{{ result.world_readout_reason | default: result.landmark_reason | default: result.summary_short }}</p>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ol>
+</section>
+{%- endif -%}

@@ -43,6 +43,8 @@ Third, it describes **self-enrichment, self-containment, and internal logic**: w
 
 Read in order, these pages form the conceptual entrance into the [76 mathematics claims]({{ '/results/topic/mathematics/' | relative_url }}) of the program.
 
+{% include world-readout-anchors.html layer="mathematics" intro="These anchors show where the mathematics readout becomes consequence-bearing: the kernel, the spectral bridge, the enrichment ladder, and the four-layer architecture that later readouts inherit." %}
+
 ## Cluster map
 
 <div class="v2-grid">

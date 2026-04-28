@@ -15,14 +15,18 @@ summary_cards:
     body: "Foundational construction, holomorphy, spectral structure, and problem surfaces."
   - title: "Physics"
     body: "Constants, particles, gravity, cosmology, and falsifiable quantitative predictions."
-  - title: "Life and metaphysics"
-    body: "Self-decoding distinctions, agency, ontology, ethics, and final enrichment."
+  - title: "Life"
+    body: "Self-decoding distinctions, code-bearing persistence, morphology, and life-facing consequence."
+  - title: "Metaphysics"
+    body: "Ontology, consciousness, normativity, Logos, and the boundary of proof."
 hero_ctas:
   - label: "Physics"
     url: /results/world-readout/physics/
     primary: true
   - label: "Mathematics"
     url: /results/world-readout/mathematics/
+  - label: "Landmark Results"
+    url: /results/landmark-results/
   - label: "Problem Ledger Answers"
     url: /results/problem-ledger-answers/
 right_rail:
@@ -42,6 +46,12 @@ right_rail:
 ## Domain readouts
 
 World Readout pages are not the same thing as proof pages. They are domain-facing syntheses that explain what the corpus and results imply within a field.
+
+## Relationship to Landmark Results
+
+The [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) page selects the results with the strongest map-changing force inside the program. The World Readouts explain where those landmarks belong in the four-layer picture. Every Landmark Result is assigned to one of these readouts as an anchor: mathematics, physics, life, or metaphysics.
+
+That relationship is intentionally modest. A World Readout anchor is a result that carries high interpretive force for a layer; it is not a claim of external settlement, community acceptance, or completed verification.
 
 ## The Four-Layer World
 
