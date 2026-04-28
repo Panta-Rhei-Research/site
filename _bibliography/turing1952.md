@@ -2,6 +2,7 @@
 title: "The Chemical Basis of Morphogenesis"
 title_plain: "The Chemical Basis of Morphogenesis"
 bib_key: "turing1952"
+normalized_key: "turing1952"
 entry_type: "book"
 authors: "Turing, Alan M."
 year: "1952"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1952"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/turing1952/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Turing's <em>The Chemical Basis of Morphogenesis</em> (1952) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

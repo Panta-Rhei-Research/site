@@ -2,6 +2,7 @@
 title: "First Order Logic with Dependent Sorts, with Applications to Category Theory"
 title_plain: "First Order Logic with Dependent Sorts, with Applications to Category Theory"
 bib_key: "Makkai1995"
+normalized_key: "makkai1995"
 entry_type: "unpublished"
 authors: "Michael Makkai"
 year: "1995"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Unpublished"
     year: "1995"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/makkai1995/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Makkai's <em>First Order Logic with Dependent Sorts, with Applications to Category Theory</em> (1995) is part of the program's reference corpus, acknowledged as a formal antecedent in Category Theory whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

@@ -2,6 +2,7 @@
 title: "Meditationes de Prima Philosophia"
 title_plain: "Meditationes de Prima Philosophia"
 bib_key: "descartes1641"
+normalized_key: "descartes1641"
 entry_type: "book"
 authors: "René Descartes"
 year: "1641"
@@ -25,7 +26,8 @@ formatted_citation_plain: "René Descartes. (1641). <em>Meditationes de Prima Ph
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 3"
     chapter_file: "ch39"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1641"
@@ -48,6 +53,13 @@ right_rail:
     role: "Conceptual Bridge"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/descartes1641/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Descartes' <em>Meditationes de Prima Philosophia</em> (1641) sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 3, Chapter *The Ontology-Epistemology Dissolution*, where the program draws on it in the context of “Ontology asks: What is there? Epistemology asks: What can we know about what is there? The gap between the two questions generates the central dramas of modern philosophy:….”

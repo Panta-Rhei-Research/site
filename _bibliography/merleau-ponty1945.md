@@ -2,6 +2,7 @@
 title: "Phénoménologie de la perception"
 title_plain: "Phénoménologie de la perception"
 bib_key: "merleau-ponty1945"
+normalized_key: "merleauponty1945"
 entry_type: "book"
 authors: "Maurice Merleau-Ponty"
 year: "1945"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Maurice Merleau-Ponty. (1945). <em>Phénoménologie d
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 3"
     chapter_file: "ch38"
     chapter_title: "Embodiment and the Lived Body"
     excerpt: "Habit is sedimented in the boundary, not stored in a separate ``memory bank.'' This is the structural content of Merleau-Ponty's claim that the body has its own ``understanding'' prior to intellectual comprehension"
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 3"
     chapter_file: "ch38"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1945"
@@ -54,6 +60,13 @@ right_rail:
     role: "Conceptual Bridge"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/merleau-ponty1945/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Merleau-Ponty's <em>Phénoménologie de la perception</em> (1945), published by Gallimard, sits in the program's reference corpus as a standing technical source. Cited 2 times in Book VII (*Categorical Metaphysics*), Part 3, Chapter *Embodiment and the Lived Body*, where the program draws on it in the context of “Habit is sedimented in the boundary, not stored in a separate ``memory bank.'' This is the structural content of Merleau-Ponty's claim that the body has its own ``understanding''….”

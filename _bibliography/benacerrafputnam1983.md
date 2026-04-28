@@ -2,6 +2,7 @@
 title: "Philosophy of Mathematics: Selected Readings"
 title_plain: "Philosophy of Mathematics: Selected Readings"
 bib_key: "BenacerrafPutnam1983"
+normalized_key: "benacerrafputnam1983"
 entry_type: "incollection"
 authors: "Unknown"
 year: "1983"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book Chapter"
     year: "1983"
@@ -42,6 +46,13 @@ right_rail:
     role: "Conceptual Bridge"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/benacerrafputnam1983/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 The <em>Philosophy of Mathematics: Selected Readings</em> (1983) sits in the program's reference corpus as a conceptual bridge between Metaphysics and Philosophy and the framework's broader aims. It is not directly cited in the currently published volumes of *Panta Rhei*, but remains part of the standing reference shelf.

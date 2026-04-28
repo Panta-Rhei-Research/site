@@ -2,6 +2,7 @@
 title: "Mesonium and Anti-mesonium"
 title_plain: "Mesonium and Anti-mesonium"
 bib_key: "Pontecorvo1957"
+normalized_key: "pontecorvo1957"
 entry_type: "article"
 authors: "Bruno Pontecorvo"
 year: "1957"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Bruno Pontecorvo. (1957). <em>Mesonium and Anti-meson
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch24-neutrino-time-eigenmode"
     chapter_title: "The Neutrino as Time Eigenmode"
     excerpt: "The Pontecorvo–Maki–Nakagawa–Sakata (PMNS) matrix parameterizes the mixing: U_PMNS = U_e1 & U_e2 & U_e3 , U_μ 1 & U_μ 2 & U_μ 3 , U_τ 1 & U_τ 2 & U_τ 3 with three angles (θ_12, θ_23, θ_13) and a CP-violating phase δ"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 5"
     chapter_file: "ch35-three-generations"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1957"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/pontecorvo1957/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Pontecorvo's 1957 <em>Mesonium and Anti-mesonium</em>, published in *Soviet Physics JETP*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 3, Chapter *The Neutrino as Time Eigenmode*; Book IV (*Categorical Microcosm*), Part 5, Chapter *Three Generations* — the central framing is “The Pontecorvo–Maki–Nakagawa–Sakata (PMNS) matrix parameterizes the mixing: U_PMNS = U_e1 & U_e2 & U_e3 , U_μ 1 & U_μ 2 & U_μ 3 , U_τ 1 & U_τ 2 & U_τ 3 with three angles (θ_12,…”.

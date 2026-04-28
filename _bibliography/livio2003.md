@@ -2,6 +2,7 @@
 title: "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number"
 title_plain: "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number"
 bib_key: "Livio2003"
+normalized_key: "livio2003"
 entry_type: "book"
 authors: "Mario Livio"
 year: "2003"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Mario Livio. (2003). <em>The Golden Ratio: The Story 
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 4"
     chapter_file: "ch46"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2003"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/livio2003/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Livio's <em>The Golden Ratio: The Story of Phi, the World's Most Astonishing Number</em> (2003), published by Broadway Books, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 4, Chapter *The Golden Ratio*, where the program draws on it in the context of “Architecture and Proportion The claim that the Parthenon was designed to golden-ratio proportions is, at best, approximate: the relevant ratios cluster near but are not exact, and….”

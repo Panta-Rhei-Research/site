@@ -2,6 +2,7 @@
 title: "How Many Friends Does One Person Need? Dunbar's Number and Other Evolutionary Quirks"
 title_plain: "How Many Friends Does One Person Need? Dunbar's Number and Other Evolutionary Quirks"
 bib_key: "dunbar2010"
+normalized_key: "dunbar2010"
 entry_type: "book"
 authors: "Robin Dunbar"
 year: "2010"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2010"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/dunbar2010/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Dunbar's <em>How Many Friends Does One Person Need? Dunbar's Number and Other Evolutionary Quirks</em> (2010) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

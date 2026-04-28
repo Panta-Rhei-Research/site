@@ -2,6 +2,7 @@
 title: "Topics in Geometric Group Theory"
 title_plain: "Topics in Geometric Group Theory"
 bib_key: "delaHarpe2000"
+normalized_key: "delaharpe2000"
 entry_type: "book"
 authors: "Pierre de la Harpe"
 year: "2000"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2000"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/delaharpe2000/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Harpe's <em>Topics in Geometric Group Theory</em> (2000) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

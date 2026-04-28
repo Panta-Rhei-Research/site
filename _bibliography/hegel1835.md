@@ -2,6 +2,7 @@
 title: "Vorlesungen über die Ästhetik"
 title_plain: "Vorlesungen über die Ästhetik"
 bib_key: "hegel1835"
+normalized_key: "hegel1835"
 entry_type: "book"
 authors: "G. W. F. Hegel"
 year: "1835"
@@ -25,7 +26,8 @@ formatted_citation_plain: "G. W. F. Hegel. (1835). <em>Vorlesungen über die Äs
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 3"
     chapter_file: "ch39"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1835"
@@ -48,6 +53,13 @@ right_rail:
     role: "Conceptual Bridge"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/hegel1835/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Hegel's <em>Vorlesungen über die Ästhetik</em> (1835) sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 3, Chapter *The Ontology-Epistemology Dissolution*, where the program draws on it in the context of “Hegel's Identity, Earned Hegel's thesis that being and thought are ultimately identical is notorious: it appears to identify the universe with the philosopher's mind, or to….”

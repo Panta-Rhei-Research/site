@@ -557,6 +557,34 @@ def sync_results() -> None:
     copy_tree(CORPUS_EXPORTS / "result-pages", SITE_ROOT / "results" / "problem")
 
 
+def sync_bibliography() -> None:
+    for filename in ("bibliography.json", "bibliography.ndjson", "bibliography.csv"):
+        source = CORPUS_EXPORTS / filename
+        copy_file(source, SITE_ROOT / "_data" / "bibliography" / filename)
+        copy_file(source, SITE_ROOT / "assets" / "data" / "bibliography" / filename)
+    for filename in ("index.json", "groups.json", "cited_entries.json", "citation_index.json", "orphan_report.json", "batch_plan.json"):
+        copy_file(CORPUS_EXPORTS / "bibliography-data" / filename, SITE_ROOT / "_data" / "bibliography" / filename)
+    copy_file(CORPUS_EXPORTS / "references.bib", SITE_ROOT / "assets" / "bibliography" / "references.bib")
+    clean_tree(SITE_ROOT / "_bibliography")
+    copy_tree(CORPUS_EXPORTS / "bibliography-pages", SITE_ROOT / "_bibliography")
+
+
+def sync_accountability_facets() -> None:
+    for filename in ("predictions.json", "predictions.ndjson", "predictions.csv"):
+        source = CORPUS_EXPORTS / filename
+        copy_file(source, SITE_ROOT / "_data" / "predictions" / filename)
+        copy_file(source, SITE_ROOT / "assets" / "data" / "predictions" / filename)
+    clean_tree(SITE_ROOT / "_predictions")
+    copy_tree(CORPUS_EXPORTS / "prediction-pages", SITE_ROOT / "_predictions")
+
+    for filename in ("falsifications.json", "falsifications.ndjson", "falsifications.csv"):
+        source = CORPUS_EXPORTS / filename
+        copy_file(source, SITE_ROOT / "_data" / "falsifications" / filename)
+        copy_file(source, SITE_ROOT / "assets" / "data" / "falsifications" / filename)
+    clean_tree(SITE_ROOT / "_falsifications")
+    copy_tree(CORPUS_EXPORTS / "falsification-pages", SITE_ROOT / "_falsifications")
+
+
 def sync_monograph_projections() -> None:
     clean_tree(SITE_ROOT / "corpus" / "monographs")
     copy_tree(CORPUS_EXPORTS / "monograph-projections" / "pages", SITE_ROOT / "corpus" / "monographs")
@@ -594,7 +622,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--scope",
-        choices=("all", "foundations", "ledgers", "results", "monographs"),
+        choices=("all", "foundations", "ledgers", "results", "bibliography", "monographs"),
         default="all",
         help="Sync all Corpus public exports, or one projection family.",
     )
@@ -607,6 +635,9 @@ def main() -> int:
         sync_problem_recovery_agenda()
     if args.scope in ("all", "results"):
         sync_results()
+        sync_accountability_facets()
+    if args.scope in ("all", "bibliography"):
+        sync_bibliography()
     if args.scope in ("all", "monographs"):
         sync_monograph_projections()
     if args.scope in ("all", "foundations"):

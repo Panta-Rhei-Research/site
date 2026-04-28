@@ -2,6 +2,7 @@
 title: "Every Thing Must Go: Metaphysics Naturalized"
 title_plain: "Every Thing Must Go: Metaphysics Naturalized"
 bib_key: "ladyman2007"
+normalized_key: "ladyman2007"
 entry_type: "book"
 authors: "James Ladyman and Don Ross"
 year: "2007"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2007"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/ladyman2007/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Ladyman and Ross' <em>Every Thing Must Go: Metaphysics Naturalized</em> (2007) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

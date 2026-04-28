@@ -2,6 +2,7 @@
 title: "Logische Untersuchungen"
 title_plain: "Logische Untersuchungen"
 bib_key: "husserl1900"
+normalized_key: "husserl1900"
 entry_type: "book"
 authors: "Edmund Husserl"
 year: "1900"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Edmund Husserl. (1900). <em>Logische Untersuchungen</
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 3"
     chapter_file: "ch36"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1900"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/husserl1900/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Husserl's <em>Logische Untersuchungen</em> (1900), published by Max Niemeyer, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 3, Chapter *Temporal Structure of Experience*, where the program draws on it in the context of “Husserl's Threefold Structure In the Lectures on the Phenomenology of the Consciousness of Internal Time (1893–1917), Husserl identified three structural moments in every temporal….”

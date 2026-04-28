@@ -2,6 +2,7 @@
 title: "The Arithmetic of Elliptic Curves"
 title_plain: "The Arithmetic of Elliptic Curves"
 bib_key: "SilvermanAEC2009"
+normalized_key: "silvermanaec2009"
 entry_type: "book"
 authors: "Joseph H. Silverman"
 year: "2009"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Joseph H. Silverman. (2009). <em>The Arithmetic of El
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "III"
+  -
+    book: "III"
     book_title: "Categorical Spectrum"
     part: "Part 6"
     chapter_file: "ch45-tau-rational-interior-points"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2009"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/silvermanaec2009/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Silverman's <em>The Arithmetic of Elliptic Curves</em> (2009), published by Springer, sits in the program's reference corpus as a standing technical source. Cited in Book III (*Categorical Spectrum*), Part 6, Chapter *τ-Rational Interior Points*, where the program draws on it in the context of “The Mordell–Weil Analogue The classical Mordell–Weil theorem states that E(ℚ) is finitely generated for every elliptic curve E/ℚ.”

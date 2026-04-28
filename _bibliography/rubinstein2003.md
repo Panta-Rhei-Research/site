@@ -2,6 +2,7 @@
 title: "Computing L-functions and their zeros"
 title_plain: "Computing L-functions and their zeros"
 bib_key: "Rubinstein2003"
+normalized_key: "rubinstein2003"
 entry_type: "phdthesis"
 authors: "M. Rubinstein"
 year: "2003"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "PhD Thesis"
     year: "2003"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/rubinstein2003/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Rubinstein's <em>Computing L-functions and their zeros</em> (2003) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

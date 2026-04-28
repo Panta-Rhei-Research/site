@@ -2,6 +2,7 @@
 title: "Heat Kernel and Analysis on Manifolds"
 title_plain: "Heat Kernel and Analysis on Manifolds"
 bib_key: "Grigoryan2009"
+normalized_key: "grigoryan2009"
 entry_type: "book"
 authors: "A. Grigor'yan"
 year: "2009"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2009"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/grigoryan2009/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Grigor'yan's <em>Heat Kernel and Analysis on Manifolds</em> (2009) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

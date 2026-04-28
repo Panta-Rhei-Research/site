@@ -2,6 +2,7 @@
 title: "The Tell-Tale Brain: A Neuroscientist's Quest for What Makes Us Human"
 title_plain: "The Tell-Tale Brain: A Neuroscientist's Quest for What Makes Us Human"
 bib_key: "ramachandran2011"
+normalized_key: "ramachandran2011"
 entry_type: "book"
 authors: "V. S. Ramachandran"
 year: "2011"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2011"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/ramachandran2011/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Ramachandran's <em>The Tell-Tale Brain: A Neuroscientist's Quest for What Makes Us Human</em> (2011) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

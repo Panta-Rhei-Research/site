@@ -2,6 +2,7 @@
 title: "A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae"
 title_plain: "A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae"
 bib_key: "hubble1929relation"
+normalized_key: "hubble1929relation"
 entry_type: "article"
 authors: "Hubble, Edwin"
 year: "1929"
@@ -25,19 +26,22 @@ formatted_citation_plain: "Hubble, Edwin. (1929). <em>A Relation Between Distanc
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch07-macro-readout"
     chapter_title: "The Macro Readout: Operational Distance and Photon Ontology"
     excerpt: "At the current depth n_*, H(n_*) ≡ H_0 is the value identified with the Hubble constant of orthodox cosmology"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch61-gr-emergent-geometry"
     chapter_title: "General Relativity as Emergent Geometry"
     excerpt: "Cosmological expansion (Hubble, 1929 ; Perlmutter/Riess, 1998 ): the Friedmann equations (derived from GR) predict the expansion history of the universe"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch63-dark-sector"
@@ -46,13 +50,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1929"
@@ -60,6 +67,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/hubble1929relation/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Hubble's 1929 <em>A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae</em>, published in *Proceedings of the National Academy of Sciences*, is one of the program's working technical references. Cited across Book V (*Categorical Macrocosm*), Part 1, Chapter *The Macro Readout: Operational Distance and Photon Ontology*; Book V (*Categorical Macrocosm*), Part 7, Chapter *General Relativity as Emergent Geometry*; Book V (*Categorical Macrocosm*), Part 7, Chapter *The Dark Sector Dissolved* — the central framing is “At the current depth n_*, H(n_*) ≡ H_0 is the value identified with the Hubble constant of orthodox cosmology”.

@@ -2,6 +2,7 @@
 title: "Diagonal Arguments and Cartesian Closed Categories"
 title_plain: "Diagonal Arguments and Cartesian Closed Categories"
 bib_key: "Lawvere1969FP"
+normalized_key: "lawvere1969fp"
 entry_type: "incollection"
 authors: "F. William Lawvere"
 year: "1969"
@@ -25,13 +26,15 @@ formatted_citation_plain: "F. William Lawvere. (1969). <em>Diagonal Arguments an
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "Lawvere (1969). Lawvere's fixed-point theorem provides the categorical distillation"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch72-star-autonomous-barrier"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book Chapter"
     year: "1969"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/lawvere1969fp/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Lawvere's chapter <em>Diagonal Arguments and Cartesian Closed Categories</em> (1969) in *Category Theory, Homology Theory and Their Applications II* sits in the program's reference corpus. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*; Book I (*Categorical Foundations*), Part 18, Chapter *Star-Autonomous Categories and the Diagonal Barrier* — the central framing is “Lawvere (1969). Lawvere's fixed-point theorem provides the categorical distillation”.

@@ -2,6 +2,7 @@
 title: "Cathode Rays"
 title_plain: "Cathode Rays"
 bib_key: "Thomson1897"
+normalized_key: "thomson1897"
 entry_type: "article"
 authors: "J. J. Thomson"
 year: "1897"
@@ -25,7 +26,8 @@ formatted_citation_plain: "J. J. Thomson. (1897). <em>Cathode Rays</em>. <em>Phi
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch08-proton-electron-earned"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1897"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/thomson1897/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Thomson's 1897 <em>Cathode Rays</em>, published in *Philosophical Magazine*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 1, Chapter *The Proton and the Electron: β-Decay Products*, where the program draws on it in the context of “Historically, the proton was identified first (Rutherford, 1919 ), the electron even earlier (Thomson, 1897 ), and the neutron last (Chadwick, 1932 ).”

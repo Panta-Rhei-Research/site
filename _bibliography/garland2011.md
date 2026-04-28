@@ -2,6 +2,7 @@
 title: "Dynamic Horizontal Cultural Transmission of Humpback Whale Song"
 title_plain: "Dynamic Horizontal Cultural Transmission of Humpback Whale Song"
 bib_key: "Garland2011"
+normalized_key: "garland2011"
 entry_type: "article"
 authors: "Eric C. Garland and others"
 year: "2011"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Eric C. Garland and others. (2011). <em>Dynamic Horiz
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 4"
     chapter_file: "ch41"
     chapter_title: "Pre-Symbolic Resonance"
     excerpt: "Comparative. Non-human animals exhibit aesthetic preferences: bowerbirds construct elaborate displays ; songbirds select mates by vocal complexity ; primates respond differentially to rhythmic regularity"
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 4"
     chapter_file: "ch53"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2011"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/garland2011/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Garland and others' 2011 <em>Dynamic Horizontal Cultural Transmission of Humpback Whale Song</em>, published in *Current Biology*, is one of the program's working technical references. Cited across Book VII (*Categorical Metaphysics*), Part 4, Chapter *Pre-Symbolic Resonance*; Book VII (*Categorical Metaphysics*), Part 4, Chapter *Environmental Aesthetics* — the central framing is “Comparative. Non-human animals exhibit aesthetic preferences: bowerbirds construct elaborate displays ; songbirds select mates by vocal complexity ; primates respond…”.

@@ -2,6 +2,7 @@
 title: "Multiplicative Number Theory I. Classical Theory"
 title_plain: "Multiplicative Number Theory I. Classical Theory"
 bib_key: "MontgomeryVaughan2006"
+normalized_key: "montgomeryvaughan2006"
 entry_type: "book"
 authors: "Montgomery, H. L. and Vaughan, R. C."
 year: "2006"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2006"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/montgomeryvaughan2006/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Montgomery and Vaughan's <em>Multiplicative Number Theory I. Classical Theory</em> (2006) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

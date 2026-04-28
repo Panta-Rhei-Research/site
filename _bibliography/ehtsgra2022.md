@@ -2,6 +2,7 @@
 title: "First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way"
 title_plain: "First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way"
 bib_key: "EHTSgrA2022"
+normalized_key: "ehtsgra2022"
 entry_type: "article"
 authors: "Event Horizon Telescope Collaboration"
 year: "2022"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Event Horizon Telescope Collaboration. (2022). <em>Fi
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 5"
     chapter_file: "ch42-eht-reread"
     chapter_title: "The EHT Re-Read: The Ring Is the Donut"
     excerpt: "In 2022, the EHT released a second shadow image: Sgr A*, the 4.3 × 10^6 M_ object at the center of the Milky Way"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch64-black-hole-topology"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2022"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/ehtsgra2022/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 the collaboration's 2022 <em>First Sagittarius A&#42; Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way</em>, published in *The Astrophysical Journal Letters*, is one of the program's working technical references. Cited across Book V (*Categorical Macrocosm*), Part 5, Chapter *The EHT Re-Read: The Ring Is the Donut*; Book V (*Categorical Macrocosm*), Part 7, Chapter *Black Hole Topology — T² Signatures and Gravitational Waves* — the central framing is “In 2022, the EHT released a second shadow image: Sgr A*, the 4.3 × 10^6 M_ object at the center of the Milky Way”.

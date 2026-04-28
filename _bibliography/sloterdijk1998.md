@@ -2,6 +2,7 @@
 title: "Sphären I: Blasen"
 title_plain: "Sphären I: Blasen"
 bib_key: "sloterdijk1998"
+normalized_key: "sloterdijk1998"
 entry_type: "book"
 authors: "Peter Sloterdijk"
 year: "1998"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Peter Sloterdijk. (1998). <em>Sphären I: Blasen</em>
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 8"
     chapter_file: "ch95"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1998"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/sloterdijk1998/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Sloterdijk's <em>Sphären I: Blasen</em> (1998), published by Suhrkamp, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 8, Chapter *Spheres, Bubbles, and Foams: Sloterdijk*, where the program draws on it in the context of “Sloterdijk's insight — that modernity replaces globes with foams — corresponds categorically to the observation that in complex social topologies, global sections of the social….”

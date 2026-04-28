@@ -2,6 +2,7 @@
 title: "A multiplicative ergodic theorem. Lyapunov characteristic numbers for dynamical systems"
 title_plain: "A multiplicative ergodic theorem. Lyapunov characteristic numbers for dynamical systems"
 bib_key: "Oseledets1968"
+normalized_key: "oseledets1968"
 entry_type: "article"
 authors: "V. I. Oseledets"
 year: "1968"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1968"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/oseledets1968/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Oseledets' <em>A multiplicative ergodic theorem. Lyapunov characteristic numbers for dynamical systems</em> (1968) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

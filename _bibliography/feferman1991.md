@@ -2,6 +2,7 @@
 title: "Reflecting on Incompleteness"
 title_plain: "Reflecting on Incompleteness"
 bib_key: "Feferman1991"
+normalized_key: "feferman1991"
 entry_type: "article"
 authors: "Solomon Feferman"
 year: "1991"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Solomon Feferman. (1991). <em>Reflecting on Incomplet
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1991"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/feferman1991/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Feferman's 1991 <em>Reflecting on Incompleteness</em>, published in *Journal of Symbolic Logic*, is one of the program's working technical references. Cited in Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*, where the program draws on it in the context of “Feferman and Feferman–Strahm developed the concept of reflective closure and unfolding of formal systems.”

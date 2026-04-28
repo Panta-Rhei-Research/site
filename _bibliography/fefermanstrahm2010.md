@@ -2,6 +2,7 @@
 title: "Unfolding Finitist Arithmetic"
 title_plain: "Unfolding Finitist Arithmetic"
 bib_key: "FefermanStrahm2010"
+normalized_key: "fefermanstrahm2010"
 entry_type: "incollection"
 authors: "Solomon Feferman and Thomas Strahm"
 year: "2010"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Solomon Feferman and Thomas Strahm. (2010). <em>Unfol
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book Chapter"
     year: "2010"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/fefermanstrahm2010/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Feferman and Strahm's chapter <em>Unfolding Finitist Arithmetic</em> (2010) in *Foundational Theories of Classical and Constructive Mathematics* sits in the program's reference corpus. Cited in Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*, where the program draws on it in the context of “Feferman and Feferman–Strahm developed the concept of reflective closure and unfolding of formal systems.”

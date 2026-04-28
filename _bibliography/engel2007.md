@@ -2,6 +2,7 @@
 title: "Evidence for Wavelike Energy Transfer through Quantum Coherence in Photosynthetic Systems"
 title_plain: "Evidence for Wavelike Energy Transfer through Quantum Coherence in Photosynthetic Systems"
 bib_key: "engel2007"
+normalized_key: "engel2007"
 entry_type: "article"
 authors: "Engel, Gregory S. and Calhoun, Tessa R. and Read, Elizabeth L. and Ahn, Tae-Kyu and Mančal, Tomáš and Cheng, Yuan-Chung and Blankenship, Robert E. and Fleming, Graham R."
 year: "2007"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Engel, Gregory S. and Calhoun, Tessa R. and Read, Eli
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 4"
     chapter_file: "ch24-photosynthesis"
     chapter_title: "Photosynthesis: Quantum Coherence and Carbon Fixation"
     excerpt: "The Engel Experiment (2007) In a landmark experiment, Engel et al. used two-dimensional electronic spectroscopy (2DES) to probe the energy transfer dynamics of the Fenna–Matthews–Olson (FMO) complex from the green sulfur bacterium Chlorobaculum tepidum"
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 4"
     chapter_file: "ch24-photosynthesis"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2007"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/engel2007/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Engel et al.'s 2007 <em>Evidence for Wavelike Energy Transfer through Quantum Coherence in Photosynthetic Systems</em>, published in *Nature*, is one of the program's working technical references. Cited 2 times in Book VI (*Categorical Life*), Part 4, Chapter *Photosynthesis: Quantum Coherence and Carbon Fixation*, where the program draws on it in the context of “The Engel Experiment (2007) In a landmark experiment, Engel et al. used two-dimensional electronic spectroscopy (2DES) to probe the energy transfer dynamics of the….”

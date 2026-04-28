@@ -2,6 +2,7 @@
 title: "Conservation of Isotopic Spin and Isotopic Gauge Invariance"
 title_plain: "Conservation of Isotopic Spin and Isotopic Gauge Invariance"
 bib_key: "YangMills1954"
+normalized_key: "yangmills1954"
 entry_type: "article"
 authors: "Chen Ning Yang and Robert L. Mills"
 year: "1954"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Chen Ning Yang and Robert L. Mills. (1954). <em>Conse
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch06-neutron-minimal-defect"
     chapter_title: "The Neutron: Minimal Stable Defect Bundle"
     excerpt: "The mass-gap guarantee (Book III, III.T27) ensures that the strong interaction confines quarks into colorless hadrons , forbidding the neutron from dissolving into massless fragments"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch21-gauge-invariance-maxwell"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1954"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/yangmills1954/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Yang and Mills' 1954 <em>Conservation of Isotopic Spin and Isotopic Gauge Invariance</em>, published in *Physical Review*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 1, Chapter *The Neutron: Minimal Stable Defect Bundle*; Book IV (*Categorical Microcosm*), Part 3, Chapter *Gauge Invariance and the τ-Maxwell Equations* — the central framing is “The mass-gap guarantee (Book III, III.T27) ensures that the strong interaction confines quarks into colorless hadrons , forbidding the neutron from dissolving into massless…”.

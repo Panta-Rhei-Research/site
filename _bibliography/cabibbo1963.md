@@ -2,6 +2,7 @@
 title: "Unitary Symmetry and Leptonic Decays"
 title_plain: "Unitary Symmetry and Leptonic Decays"
 bib_key: "Cabibbo1963"
+normalized_key: "cabibbo1963"
 entry_type: "article"
 authors: "Nicola Cabibbo"
 year: "1963"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Nicola Cabibbo. (1963). <em>Unitary Symmetry and Lept
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 5"
     chapter_file: "ch35-three-generations"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1963"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/cabibbo1963/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Cabibbo's 1963 <em>Unitary Symmetry and Leptonic Decays</em>, published in *Physical Review Letters*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 5, Chapter *Three Generations*, where the program draws on it in the context of “The Cabibbo–Kobayashi–Maskawa (CKM) matrix relates quark mass eigenstates to weak eigenstates: V_CKM = V_ud & V_us & V_ub , V_cd & V_cs & V_cb , V_td & V_ts & V_tb Parametrised by….”

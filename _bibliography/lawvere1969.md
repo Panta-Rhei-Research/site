@@ -2,6 +2,7 @@
 title: "Adjointness in Foundations"
 title_plain: "Adjointness in Foundations"
 bib_key: "Lawvere1969"
+normalized_key: "lawvere1969"
 entry_type: "article"
 authors: "F. William Lawvere"
 year: "1969"
@@ -25,13 +26,15 @@ formatted_citation_plain: "F. William Lawvere. (1969). <em>Adjointness in Founda
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 1"
     chapter_file: "ch10"
     chapter_title: "Archetypes as Minimal j-Closed Fixed Points"
     excerpt: "The operator j : Ω Ω satisfies the Lawvere–Tierney axioms : (LT1): j ∘ true = true (truth is closed)"
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 7"
     chapter_file: "ch76"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1969"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/lawvere1969/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Lawvere's 1969 <em>Adjointness in Foundations</em>, published in *Dialectica*, is one of the program's working technical references. Cited across Book VII (*Categorical Metaphysics*), Part 1, Chapter *Archetypes as Minimal j-Closed Fixed Points*; Book VII (*Categorical Metaphysics*), Part 7, Chapter *Dignity as Meta-Ethical Foundation* — the central framing is “The operator j : Ω Ω satisfies the Lawvere–Tierney axioms : (LT1): j ∘ true = true (truth is closed)”.

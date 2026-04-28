@@ -2,6 +2,7 @@
 title: "A tutorial on computable analysis"
 title_plain: "A tutorial on computable analysis"
 bib_key: "BrattkaHertlingWeihrauch2008"
+normalized_key: "brattkahertlingweihrauch2008"
 entry_type: "incollection"
 authors: "Brattka, Vasco and Hertling, Peter and Weihrauch, Klaus"
 year: "2008"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book Chapter"
     year: "2008"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/brattkahertlingweihrauch2008/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Brattka et al.'s <em>A tutorial on computable analysis</em> (2008) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

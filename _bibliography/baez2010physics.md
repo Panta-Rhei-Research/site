@@ -2,6 +2,7 @@
 title: "Gauge Fields, Knots and Gravity"
 title_plain: "Gauge Fields, Knots and Gravity"
 bib_key: "baez2010physics"
+normalized_key: "baez2010physics"
 entry_type: "book"
 authors: "Baez, John C. and Muniain, Javier P."
 year: "1994"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1994"
@@ -42,6 +46,13 @@ right_rail:
     role: "Foundational Source"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/baez2010physics/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Baez and Muniain's <em>Gauge Fields, Knots and Gravity</em> (1994) sits in the program's reference corpus as a standing technical source in Category Theory. It forms part of the foundational literature the program builds upon, though it is not directly cited in the currently published volumes of *Panta Rhei*.

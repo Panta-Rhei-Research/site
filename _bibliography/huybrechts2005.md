@@ -2,6 +2,7 @@
 title: "Complex Geometry: An Introduction"
 title_plain: "Complex Geometry: An Introduction"
 bib_key: "Huybrechts2005"
+normalized_key: "huybrechts2005"
 entry_type: "book"
 authors: "Daniel Huybrechts"
 year: "2005"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Daniel Huybrechts. (2005). <em>Complex Geometry: An I
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 9"
     chapter_file: "ch52-liouville-categoricity"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2005"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/huybrechts2005/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Huybrechts' <em>Complex Geometry: An Introduction</em> (2005), published by Springer, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 9, Chapter *Liouville Categorical Dodge and Categoricity*, where the program draws on it in the context of “The compact-manifold generalization states: on a compact connected complex manifold , every global holomorphic function is constant.”

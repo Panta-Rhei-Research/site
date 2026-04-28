@@ -2,6 +2,7 @@
 title: "Remarks on the breakdown of smooth solutions for the 3-D Euler equations"
 title_plain: "Remarks on the breakdown of smooth solutions for the 3-D Euler equations"
 bib_key: "BealeKatoMajda1984"
+normalized_key: "bealekatomajda1984"
 entry_type: "article"
 authors: "J. T. Beale and T. Kato and A. Majda"
 year: "1984"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1984"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/bealekatomajda1984/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Beale et al.'s <em>Remarks on the breakdown of smooth solutions for the 3-D Euler equations</em> (1984) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -2,6 +2,7 @@
 title: "Sein und Zeit"
 title_plain: "Sein und Zeit"
 bib_key: "heidegger1927"
+normalized_key: "heidegger1927"
 entry_type: "book"
 authors: "Martin Heidegger"
 year: "1927"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Martin Heidegger. (1927). <em>Sein und Zeit</em>. Max
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 5"
     chapter_file: "ch54"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1927"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/heidegger1927/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Heidegger's <em>Sein und Zeit</em> (1927), published by Max Niemeyer, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 5, Chapter *What Language Adds*, where the program draws on it in the context of “Anxiety becomes structural. Heidegger's analysis of Angst as the confrontation with one's own finitude is precisely the phenomenological consequence of temporalization applied….”

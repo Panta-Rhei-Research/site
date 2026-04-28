@@ -2,6 +2,7 @@
 title: "Type Theory in Type Theory Using Quotient Inductive Types"
 title_plain: "Type Theory in Type Theory Using Quotient Inductive Types"
 bib_key: "AltenkirchKaposi2016"
+normalized_key: "altenkirchkaposi2016"
 entry_type: "inproceedings"
 authors: "Thorsten Altenkirch and Ambrus Kaposi"
 year: "2016"
@@ -25,31 +26,36 @@ formatted_citation_plain: "Thorsten Altenkirch and Ambrus Kaposi. (2016). <em>Ty
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "Altenkirch and Kaposi internalized dependent type theory inside the Calculus of Inductive Constructions using quotient inductive types (QITs)"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "Examples: Altenkirch–Kaposi's type theory in type theory (dependent type theory internalized in CIC with quotient inductive types ), Joyal's arithmetic universes (internalize enough to prove G\\\"odel's theorem internally ), Bocquet–Kaposi–Sattler's internal sconing (metatheorems via internal gluing )"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "1.3 @p1.2cmp3.0cmp3.0cmp2.3cm@ →prule Transition & Closest Precedent & Remaining Gap & τ Feature , E_0 → E_1 & Altenkirch–Kaposi 2016 ; Bocquet–Kaposi–Sattler 2023 & Non-Boolean, constructive adaptation to four-valued Ω_τ & Earned topos E_τ (I.D59) , E_1 → E_2 & Joyal arithmetic universes ; Abel graded modal DTT & Linear DTT not yet complete; no internal cut-elimination & 5 diagonal discipline; three-grade semiring , E_2 → E_3 & Willard 2001 (weak); Girard TX"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "Precedent. This transition has close antecedents in the categorical semantics of type theory: Altenkirch and Kaposi construct type theory in type theory (TT-in-TT) via quotient inductive types (QITs)"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
@@ -58,13 +64,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Conference Paper"
     year: "2016"
@@ -72,6 +81,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/altenkirchkaposi2016/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Altenkirch and Kaposi's <em>Type Theory in Type Theory Using Quotient Inductive Types</em> (2016) is a key conference paper that the program draws on as a technical source. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*; Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier* — the central framing is “Altenkirch and Kaposi internalized dependent type theory inside the Calculus of Inductive Constructions using quotient inductive types (QITs)”.

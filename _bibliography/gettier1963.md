@@ -2,6 +2,7 @@
 title: "Is Justified True Belief Knowledge?"
 title_plain: "Is Justified True Belief Knowledge?"
 bib_key: "gettier1963"
+normalized_key: "gettier1963"
 entry_type: "article"
 authors: "Edmund L. Gettier"
 year: "1963"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Edmund L. Gettier. (1963). <em>Is Justified True Beli
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 3"
     chapter_file: "ch33"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1963"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/gettier1963/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Gettier's 1963 <em>Is Justified True Belief Knowledge?</em>, published in *Analysis*, is one of the program's working technical references. Cited in Book VII (*Categorical Metaphysics*), Part 3, Chapter *Knowledge as Sections over Experience*, where the program draws on it in the context of “It was destabilized by Gettier's 1963 counterexamples and has never been satisfactorily repaired.”

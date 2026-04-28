@@ -2,6 +2,7 @@
 title: "Über Sinn und Bedeutung"
 title_plain: "Über Sinn und Bedeutung"
 bib_key: "frege1892"
+normalized_key: "frege1892"
 entry_type: "book"
 authors: "Gottlob Frege"
 year: "1892"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Gottlob Frege. (1892). <em>Über Sinn und Bedeutung</
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 9"
     chapter_file: "ch109"
     chapter_title: "Intentionality and Aboutness"
     excerpt: "Sense and Reference Frege's puzzle — how can ``a = b'' be informative when ``a = a'' is not?"
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 5"
     chapter_file: "ch58"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1892"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/frege1892/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Frege's <em>Über Sinn und Bedeutung</em> (1892) sits in the program's reference corpus as a standing technical source. Cited across Book VII (*Categorical Metaphysics*), Part 9, Chapter *Intentionality and Aboutness*; Book VII (*Categorical Metaphysics*), Part 5, Chapter *Syntax-Semantics Collapse* — the central framing is “Sense and Reference Frege's puzzle — how can ``a = b'' be informative when ``a = a'' is not?”.

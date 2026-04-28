@@ -2,6 +2,7 @@
 title: "Measurements of <math><mi>Ω</mi></math> and <math><mi>Λ</mi></math> from 42 High-Redshift Supernovae"
 title_plain: "Measurements of Ω and Λ from 42 High-Redshift Supernovae"
 bib_key: "perlmutter1999measurements"
+normalized_key: "perlmutter1999measurements"
 entry_type: "article"
 authors: "Perlmutter, Saul and others"
 year: "1999"
@@ -25,43 +26,50 @@ formatted_citation_plain: "Perlmutter, Saul and others. (1999). <em>Measurements
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 3"
     chapter_file: "ch26-dark-energy-artifact"
     chapter_title: "Dark Energy as Readout Artifact"
     excerpt: "Dark Energy as Readout Artifact In 1998, observations of Type Ia supernovae revealed that the expansion of the universe is accelerating"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 3"
     chapter_file: "ch26-dark-energy-artifact"
     chapter_title: "Dark Energy as Readout Artifact"
     excerpt: "Three independent lines of evidence confirm it: Type Ia supernovae (1998–present) : high-redshift supernovae are fainter than expected in a decelerating universe"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 5"
     chapter_file: "ch45-h0-tension-lcdm"
     chapter_title: "H₀ Tension Resolution and the ΛCDM Re-Read"
     excerpt: "Dark energy: a brief history. The accelerated expansion was discovered in 1998 by two independent supernova survey teams (Perlmutter et al. and Riess et al. ), who found that Type Ia supernovae at z ∼ 0.5 were ∼ 0.2 magnitudes fainter than expected in a matter-dominated universe"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 5"
     chapter_file: "ch45-h0-tension-lcdm"
     chapter_title: "H₀ Tension Resolution and the ΛCDM Re-Read"
     excerpt: "Perlmutter and Riess were right: the distant supernovae are faint"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch61-gr-emergent-geometry"
     chapter_title: "General Relativity as Emergent Geometry"
     excerpt: "Cosmological expansion (Hubble, 1929 ; Perlmutter/Riess, 1998 ): the Friedmann equations (derived from GR) predict the expansion history of the universe"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch63-dark-sector"
     chapter_title: "The Dark Sector Dissolved"
     excerpt: "Cosmological expansion (Hubble, 1929 ; Perlmutter/Riess, 1998 ): the Friedmann equations predict the expansion history"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch63-dark-sector"
@@ -70,13 +78,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1999"
@@ -84,6 +95,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/perlmutter1999measurements/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Perlmutter and others' 1999 <em>Measurements of Ω and Λ from 42 High-Redshift Supernovae</em>, published in *Astrophysical Journal*, is one of the program's working technical references. Cited 7 times across Book V (*Categorical Macrocosm*), Part 3, Chapter *Dark Energy as Readout Artifact*; Book V (*Categorical Macrocosm*), Part 5, Chapter *H₀ Tension Resolution and the ΛCDM Re-Read*; Book V (*Categorical Macrocosm*), Part 7, Chapter *General Relativity as Emergent Geometry*, and in 1 further chapter.

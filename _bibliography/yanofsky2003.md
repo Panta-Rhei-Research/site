@@ -2,6 +2,7 @@
 title: "A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points"
 title_plain: "A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points"
 bib_key: "Yanofsky2003"
+normalized_key: "yanofsky2003"
 entry_type: "article"
 authors: "Noson S. Yanofsky"
 year: "2003"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Noson S. Yanofsky. (2003). <em>A Universal Approach t
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "Yanofsky (2003). Yanofsky showed that Cantor's diagonal argument, Russell's paradox, G\\\"odel's incompleteness theorem, Tarski's undefinability theorem, and Turing's halting problem are all instances of a single abstract pattern — Lawvere's fixed-point theorem applied in appropriate categories"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch72-star-autonomous-barrier"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2003"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/yanofsky2003/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Yanofsky's 2003 <em>A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points</em>, published in *Bulletin of Symbolic Logic*, is one of the program's working technical references. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*; Book I (*Categorical Foundations*), Part 18, Chapter *Star-Autonomous Categories and the Diagonal Barrier* — the central framing is “Yanofsky (2003). Yanofsky showed that Cantor's diagonal argument, Russell's paradox, G\"odel's incompleteness theorem, Tarski's undefinability theorem, and Turing's halting…”.

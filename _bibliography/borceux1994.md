@@ -2,6 +2,7 @@
 title: "Handbook of categorical algebra 3: Categories of sheaves"
 title_plain: "Handbook of categorical algebra 3: Categories of sheaves"
 bib_key: "Borceux1994"
+normalized_key: "borceux1994"
 entry_type: "book"
 authors: "Borceux, Francis"
 year: "1994"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1994"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/borceux1994/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Borceux's <em>Handbook of categorical algebra 3: Categories of sheaves</em> (1994) is part of the program's reference corpus as standard domain context for Category Theory. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

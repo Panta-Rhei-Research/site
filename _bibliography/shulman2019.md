@@ -2,6 +2,7 @@
 title: "All <math><mi>(∞,1)</mi></math>-Toposes Have Strict Univalent Universes"
 title_plain: "All (∞,1)-Toposes Have Strict Univalent Universes"
 bib_key: "Shulman2019"
+normalized_key: "shulman2019"
 entry_type: "article"
 authors: "Michael Shulman"
 year: "2019"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2019"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/shulman2019/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Shulman's <em>All (∞,1)-Toposes Have Strict Univalent Universes</em> (2019) is part of the program's reference corpus, acknowledged as a formal antecedent in Category Theory whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

@@ -2,6 +2,7 @@
 title: "Algorithmic unsolvability of the triviality problem for certain classes of geometric structures"
 title_plain: "Algorithmic unsolvability of the triviality problem for certain classes of geometric structures"
 bib_key: "NabutovskyWeinberger2000"
+normalized_key: "nabutovskyweinberger2000"
 entry_type: "article"
 authors: "Alexander Nabutovsky and Shmuel Weinberger"
 year: "2000"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2000"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/nabutovskyweinberger2000/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Nabutovsky and Weinberger's <em>Algorithmic unsolvability of the triviality problem for certain classes of geometric structures</em> (2000) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

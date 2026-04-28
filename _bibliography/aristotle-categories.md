@@ -2,6 +2,7 @@
 title: "Categories"
 title_plain: "Categories"
 bib_key: "aristotle-categories"
+normalized_key: "aristotlecategories"
 entry_type: "book"
 authors: "Aristotle"
 year: "-350"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Aristotle. (-350). <em>Categories</em>."
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 2"
     chapter_file: "ch24"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "-350"
@@ -48,6 +53,13 @@ right_rail:
     role: "Foundational Source"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/aristotle-categories/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Aristotle's <em>Categories</em> (-350) sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 2, Chapter *Causation, Space, and Time*, where the program draws on it in the context of “This chapter turns to three categories that have dominated empirical ontology since Aristotle : causation, space, and time.”

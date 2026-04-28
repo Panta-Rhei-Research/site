@@ -2,6 +2,7 @@
 title: "Evidence for the <math><mi>2π</mi></math> Decay of the <math><msubsup><mi>K</mi><mn>2</mn><mn>0</mn></msubsup></math> Meson"
 title_plain: "Evidence for the 2π Decay of the K₂⁰ Meson"
 bib_key: "Christenson1964"
+normalized_key: "christenson1964"
 entry_type: "article"
 authors: "J. H. Christenson and J. W. Cronin and V. L. Fitch and R. Turlay"
 year: "1964"
@@ -25,7 +26,8 @@ formatted_citation_plain: "J. H. Christenson and J. W. Cronin and V. L. Fitch an
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch22-weak-force-chirality"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1964"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/christenson1964/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Christenson et al.'s 1964 <em>Evidence for the 2π Decay of the K₂⁰ Meson</em>, published in *Physical Review Letters*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 3, Chapter *The Weak Force and Chirality*, where the program draws on it in the context of “CP violation was discovered in 1964 by Cronin and Fitch in neutral kaon decay.”

@@ -2,6 +2,7 @@
 title: "Invariants of 3-manifolds via link polynomials and quantum groups"
 title_plain: "Invariants of 3-manifolds via link polynomials and quantum groups"
 bib_key: "ReshetikhinTuraev1991"
+normalized_key: "reshetikhinturaev1991"
 entry_type: "article"
 authors: "Reshetikhin, N. and Turaev, V. G."
 year: "1991"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1991"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/reshetikhinturaev1991/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Reshetikhin and Turaev's <em>Invariants of 3-manifolds via link polynomials and quantum groups</em> (1991) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

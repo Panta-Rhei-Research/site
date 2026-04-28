@@ -2,6 +2,7 @@
 title: "Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc)"
 title_plain: "Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc)"
 bib_key: "rubin1980rotational"
+normalized_key: "rubin1980rotational"
 entry_type: "article"
 authors: "Rubin, Vera C. and Ford, W. Kent Jr. and Thonnard, Norbert"
 year: "1980"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1980"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/rubin1980rotational/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Rubin et al.'s <em>Rotational Properties of 21 SC Galaxies with a Large Range of Luminosities and Radii, from NGC 4605 (R = 4 kpc) to UGC 2885 (R = 122 kpc)</em> (1980) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

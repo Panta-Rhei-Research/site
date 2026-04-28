@@ -2,6 +2,7 @@
 title: "Animal Visual Systems and the Evolution of Color Patterns: Sensory Processing Illuminates Signal Evolution"
 title_plain: "Animal Visual Systems and the Evolution of Color Patterns: Sensory Processing Illuminates Signal Evolution"
 bib_key: "Endler2010"
+normalized_key: "endler2010"
 entry_type: "article"
 authors: "John A. Endler and Lorna C. Westcott and Jessica R. Madden and Tim Robson"
 year: "2005"
@@ -25,7 +26,8 @@ formatted_citation_plain: "John A. Endler and Lorna C. Westcott and Jessica R. M
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 4"
     chapter_file: "ch41"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2005"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/endler2010/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Endler et al.'s 2005 <em>Animal Visual Systems and the Evolution of Color Patterns: Sensory Processing Illuminates Signal Evolution</em>, published in *Evolution*, is one of the program's working technical references. Cited in Book VII (*Categorical Metaphysics*), Part 4, Chapter *Pre-Symbolic Resonance*, where the program draws on it in the context of “Comparative. Non-human animals exhibit aesthetic preferences: bowerbirds construct elaborate displays ; songbirds select mates by vocal complexity ; primates respond….”

@@ -2,6 +2,7 @@
 title: "Detection of the Free Neutrino: A Confirmation"
 title_plain: "Detection of the Free Neutrino: A Confirmation"
 bib_key: "CowenReines1956"
+normalized_key: "cowenreines1956"
 entry_type: "article"
 authors: "Clyde L. Cowan and Frederick Reines and others"
 year: "1956"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Clyde L. Cowan and Frederick Reines and others. (1956
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch24-neutrino-time-eigenmode"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1956"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/cowenreines1956/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Cowan, Reines, and others' 1956 <em>Detection of the Free Neutrino: A Confirmation</em>, published in *Science*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 3, Chapter *The Neutrino as Time Eigenmode*, where the program draws on it in the context of “Cowan and Reines placed a detector near the Savannah River reactor, looking for inverse beta decay: ν_e + p → n + e^+.”

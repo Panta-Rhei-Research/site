@@ -2,6 +2,7 @@
 title: "Function theory of several complex variables"
 title_plain: "Function theory of several complex variables"
 bib_key: "Krantz1992"
+normalized_key: "krantz1992"
 entry_type: "book"
 authors: "Krantz, Steven G."
 year: "1992"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Krantz, Steven G.. (1992). <em>Function theory of sev
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 11"
     chapter_file: "ch65-dimensional-ladder-collapse"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1992"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/krantz1992/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Krantz's <em>Function theory of several complex variables</em> (1992), published by Wadsworth & Brooks/Cole, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 11, Chapter *Why τ³ Has No Dimensional Ladder*, where the program draws on it in the context of “We survey the ladder rung by rung, following the standard development of Krantz , Range , and Hörmander.”

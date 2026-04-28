@@ -2,6 +2,7 @@
 title: "Locus Solum: From the Rules of Logic to the Logic of Rules"
 title_plain: "Locus Solum: From the Rules of Logic to the Logic of Rules"
 bib_key: "Girard2001"
+normalized_key: "girard2001"
 entry_type: "article"
 authors: "Jean-Yves Girard"
 year: "2001"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Jean-Yves Girard. (2001). <em>Locus Solum: From the R
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2001"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/girard2001/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Girard's 2001 <em>Locus Solum: From the Rules of Logic to the Logic of Rules</em>, published in *Mathematical Structures in Computer Science*, is one of the program's working technical references. Cited in Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*, where the program draws on it in the context of “Girard's transcendental syntax program aims to derive logic from a pre-logical layer of interaction.”

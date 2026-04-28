@@ -2,6 +2,7 @@
 title: "Reliable Perturbative Results for Strong Interactions?"
 title_plain: "Reliable Perturbative Results for Strong Interactions?"
 bib_key: "Politzer1973"
+normalized_key: "politzer1973"
 entry_type: "article"
 authors: "H. David Politzer"
 year: "1973"
@@ -25,7 +26,8 @@ formatted_citation_plain: "H. David Politzer. (1973). <em>Reliable Perturbative 
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 4"
     chapter_file: "ch32-strong-coupling-quarks"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1973"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/politzer1973/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Politzer's 1973 <em>Reliable Perturbative Results for Strong Interactions?</em>, published in *Physical Review Letters*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 4, Chapter *Strong Coupling and Quarks*, where the program draws on it in the context of “Gross, Wilczek, and Politzer showed in 1973 that the SU(3) beta function is negative: β(g_s) = -g_s^316π^2(11 - 2N_f3) giving the running coupling: α_s(Q^2) = 12π(33 -….”

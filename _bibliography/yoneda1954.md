@@ -2,6 +2,7 @@
 title: "On the Homology Theory of Modules"
 title_plain: "On the Homology Theory of Modules"
 bib_key: "yoneda1954"
+normalized_key: "yoneda1954"
 entry_type: "article"
 authors: "Nobuo Yoneda"
 year: "1954"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Nobuo Yoneda. (1954). <em>On the Homology Theory of M
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 2"
     chapter_file: "ch16"
     chapter_title: "Relational Primacy: Relations Precede Relata"
     excerpt: "Condition (RP2) is the ontological reading of the Yoneda Lemma : an object is determined up to isomorphism by its presheaf of incoming morphisms"
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 2"
     chapter_file: "ch16"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1954"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/yoneda1954/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Yoneda's 1954 <em>On the Homology Theory of Modules</em>, published in *Journal of the Faculty of Science, University of Tokyo*, is one of the program's working technical references. Cited 2 times in Book VII (*Categorical Metaphysics*), Part 2, Chapter *Relational Primacy: Relations Precede Relata*, where the program draws on it in the context of “Condition (RP2) is the ontological reading of the Yoneda Lemma : an object is determined up to isomorphism by its presheaf of incoming morphisms.”

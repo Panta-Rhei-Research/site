@@ -2,6 +2,7 @@
 title: "An Information Integration Theory of Consciousness"
 title_plain: "An Information Integration Theory of Consciousness"
 bib_key: "tononi2004"
+normalized_key: "tononi2004"
 entry_type: "article"
 authors: "Tononi, Giulio"
 year: "2004"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Tononi, Giulio. (2004). <em>An Information Integratio
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 9"
     chapter_file: "ch108"
     chapter_title: "Consciousness as Global Section"
     excerpt: "Integrated Information Theory"
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 9"
     chapter_file: "ch115"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2004"
@@ -54,6 +60,13 @@ right_rail:
     role: "Conceptual Bridge"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/tononi2004/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Tononi's 2004 <em>An Information Integration Theory of Consciousness</em>, published in *BMC Neuroscience*, is one of the program's working technical references. Cited across Book VII (*Categorical Metaphysics*), Part 9, Chapter *Consciousness as Global Section*; Book VII (*Categorical Metaphysics*), Part 9, Chapter *The Phenomenal Self-Model: Metzinger Comparison* — the central framing is “Integrated Information Theory”.

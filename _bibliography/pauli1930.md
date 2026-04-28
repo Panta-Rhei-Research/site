@@ -2,6 +2,7 @@
 title: "Dear radioactive ladies and gentlemen"
 title_plain: "Dear radioactive ladies and gentlemen"
 bib_key: "Pauli1930"
+normalized_key: "pauli1930"
 entry_type: "article"
 authors: "Wolfgang Pauli"
 year: "1930"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Wolfgang Pauli. (1930). <em>Dear radioactive ladies a
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch07-beta-decay-rosetta"
     chapter_title: "β-Decay: The Rosetta Stone"
     excerpt: "The continuous electron spectrum was Pauli's original evidence for the neutrino's existence (1930)"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch24-neutrino-time-eigenmode"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1930"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/pauli1930/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Pauli's paper <em>Dear radioactive ladies and gentlemen</em> (1930) is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 1, Chapter *β-Decay: The Rosetta Stone*; Book IV (*Categorical Microcosm*), Part 3, Chapter *The Neutrino as Time Eigenmode* — the central framing is “The continuous electron spectrum was Pauli's original evidence for the neutrino's existence (1930)”.

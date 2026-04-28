@@ -2,6 +2,7 @@
 title: "Measuring Distance and Properties of the Milky Way's Central Supermassive Black Hole with Stellar Orbits"
 title_plain: "Measuring Distance and Properties of the Milky Way's Central Supermassive Black Hole with Stellar Orbits"
 bib_key: "ghez2008measuring"
+normalized_key: "ghez2008measuring"
 entry_type: "article"
 authors: "Ghez, Andrea M. and others"
 year: "2008"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2008"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/ghez2008measuring/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Ghez and others' <em>Measuring Distance and Properties of the Milky Way's Central Supermassive Black Hole with Stellar Orbits</em> (2008) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

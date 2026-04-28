@@ -2,6 +2,7 @@
 title: "Category theory"
 title_plain: "Category theory"
 bib_key: "Awodey2010"
+normalized_key: "awodey2010"
 entry_type: "book"
 authors: "Awodey, Steve"
 year: "2010"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Awodey, Steve. (2010). <em>Category theory</em>. Oxfo
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 8"
     chapter_file: "ch43-yoneda-theorem"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2010"
@@ -48,6 +53,13 @@ right_rail:
     role: "Foundational Source"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/awodey2010/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Awodey's <em>Category theory</em> (2010), published by Oxford University Press, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 8, Chapter *Yoneda Embedding as Theorem*, where the program draws on it in the context of “In enriched category theory (Kelly, Basic Concepts of Enriched Category Theory), the Yoneda lemma generalizes to V-enriched categories for any closed symmetric monoidal category V.”

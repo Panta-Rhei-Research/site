@@ -2,6 +2,7 @@
 title: "On Quantum-Electrodynamics and the Magnetic Moment of the Electron"
 title_plain: "On Quantum-Electrodynamics and the Magnetic Moment of the Electron"
 bib_key: "Schwinger1948"
+normalized_key: "schwinger1948"
 entry_type: "article"
 authors: "Julian Schwinger"
 year: "1948"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Julian Schwinger. (1948). <em>On Quantum-Electrodynam
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 2"
     chapter_file: "ch20-electron-mass-prediction"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1948"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/schwinger1948/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Schwinger's 1948 <em>On Quantum-Electrodynamics and the Magnetic Moment of the Electron</em>, published in *Physical Review*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 2, Chapter *The Electron Mass Prediction*, where the program draws on it in the context of “The leading-order anomalous magnetic moment arises from the single-winding vertex correction on the lemniscate boundary L = S^1 S^1 : a_e^(2) = α2π = (121/225) ι<sub>τ</sub>^42π ≈ 0.001 161….”

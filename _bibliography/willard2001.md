@@ -2,6 +2,7 @@
 title: "Self-Verifying Axiom Systems, the Incompleteness Theorem and Related Reflection Principles"
 title_plain: "Self-Verifying Axiom Systems, the Incompleteness Theorem and Related Reflection Principles"
 bib_key: "Willard2001"
+normalized_key: "willard2001"
 entry_type: "article"
 authors: "Dan E. Willard"
 year: "2001"
@@ -25,25 +26,29 @@ formatted_citation_plain: "Dan E. Willard. (2001). <em>Self-Verifying Axiom Syst
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "Willard constructed formal arithmetic theories that can prove their own consistency"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "Precedent. Two programs have approached E_3 from different directions, each achieving it partially: Willard constructs self-verifying axiom systems — theories that prove their own consistency without violating G\\\"odel's second incompleteness theorem"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "Willard : self-verification at sub-PA strength"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
@@ -52,13 +57,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2001"
@@ -66,6 +74,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/willard2001/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Willard's 2001 <em>Self-Verifying Axiom Systems, the Incompleteness Theorem and Related Reflection Principles</em>, published in *Journal of Symbolic Logic*, is one of the program's working technical references. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*; Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier* — the central framing is “Willard constructed formal arithmetic theories that can prove their own consistency”.

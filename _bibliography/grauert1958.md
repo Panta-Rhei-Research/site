@@ -2,6 +2,7 @@
 title: "On Levi's problem and the embedding of real-analytic manifolds"
 title_plain: "On Levi's problem and the embedding of real-analytic manifolds"
 bib_key: "Grauert1958"
+normalized_key: "grauert1958"
 entry_type: "article"
 authors: "Grauert, Hans"
 year: "1958"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Grauert, Hans. (1958). <em>On Levi's problem and the 
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 11"
     chapter_file: "ch65-dimensional-ladder-collapse"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1958"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/grauert1958/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Grauert's 1958 <em>On Levi's problem and the embedding of real-analytic manifolds</em>, published in *Annals of Mathematics*, is one of the program's working technical references. Cited in Book II (*Categorical Holomorphy*), Part 11, Chapter *Why τ³ Has No Dimensional Ladder*, where the program draws on it in the context of “The reason, as Grauert showed , is that complex subvarieties living in the boundary obstruct biholomorphic flexibility.”

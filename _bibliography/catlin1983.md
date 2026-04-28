@@ -2,6 +2,7 @@
 title: "Necessary conditions for subellipticity of the <math><mover><mo>∂</mo><mo>‾</mo></mover></math>-Neumann problem"
 title_plain: "Necessary conditions for subellipticity of the ∂̅-Neumann problem"
 bib_key: "Catlin1983"
+normalized_key: "catlin1983"
 entry_type: "article"
 authors: "Catlin, David W."
 year: "1983"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1983"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/catlin1983/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Catlin's <em>Necessary conditions for subellipticity of the ∂̅-Neumann problem</em> (1983) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

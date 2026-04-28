@@ -2,6 +2,7 @@
 title: "Pi and the AGM: A Study in Analytic Number Theory and Computational Complexity"
 title_plain: "Pi and the AGM: A Study in Analytic Number Theory and Computational Complexity"
 bib_key: "Borwein1987"
+normalized_key: "borwein1987"
 entry_type: "book"
 authors: "Jonathan M. Borwein and Peter B. Borwein"
 year: "1987"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1987"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/borwein1987/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Borwein and Borwein's <em>Pi and the AGM: A Study in Analytic Number Theory and Computational Complexity</em> (1987) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

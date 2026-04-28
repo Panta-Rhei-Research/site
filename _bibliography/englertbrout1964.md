@@ -2,6 +2,7 @@
 title: "Broken Symmetry and the Mass of Gauge Vector Mesons"
 title_plain: "Broken Symmetry and the Mass of Gauge Vector Mesons"
 bib_key: "EnglertBrout1964"
+normalized_key: "englertbrout1964"
 entry_type: "article"
 authors: "François Englert and Robert Brout"
 year: "1964"
@@ -25,7 +26,8 @@ formatted_citation_plain: "François Englert and Robert Brout. (1964). <em>Broke
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch26-tau-higgs"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1964"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/englertbrout1964/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Englert and Brout's 1964 <em>Broken Symmetry and the Mass of Gauge Vector Mesons</em>, published in *Physical Review Letters*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 3, Chapter *The τ-Higgs Mechanism*, where the program draws on it in the context of “This was the culmination of a 48-year search that began with Higgs's 1964 paper —a two-page speculation that initially struggled to find a publisher.”

@@ -2,6 +2,7 @@
 title: "A Useful Four-Valued Logic"
 title_plain: "A Useful Four-Valued Logic"
 bib_key: "Belnap1977"
+normalized_key: "belnap1977"
 entry_type: "article"
 authors: "Nuel D. Belnap"
 year: "1977"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Nuel D. Belnap. (1977). <em>A Useful Four-Valued Logi
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 12"
     chapter_file: "ch46-four-truth-values"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1977"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/belnap1977/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Belnap's 1977 <em>A Useful Four-Valued Logic</em>, published in *Modern Uses of Multiple-Valued Logic*, is one of the program's working technical references. Cited in Book I (*Categorical Foundations*), Part 12, Chapter *Four Truth Values from Polarity Stabilization*, where the program draws on it in the context of “The four truth values are not postulated as in Belnap's four-valued logic FOUR , nor are they introduced by philosophical decree.”

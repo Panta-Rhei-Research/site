@@ -2,6 +2,7 @@
 title: "Zur Quantentheorie der Spektrallinien"
 title_plain: "Zur Quantentheorie der Spektrallinien"
 bib_key: "Sommerfeld1916"
+normalized_key: "sommerfeld1916"
 entry_type: "article"
 authors: "Arnold Sommerfeld"
 year: "1916"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Arnold Sommerfeld. (1916). <em>Zur Quantentheorie der
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch10-fine-structure-constant"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1916"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/sommerfeld1916/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Sommerfeld's 1916 <em>Zur Quantentheorie der Spektrallinien</em>, published in *Annalen der Physik*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 1, Chapter *The Fine-Structure Constant*, where the program draws on it in the context of “Sommerfeld introduced α in 1916 to explain the small splittings in hydrogen's spectral lines—the ``fine structure.'' The constant determines the magnitude of relativistic and….”

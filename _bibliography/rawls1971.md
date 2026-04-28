@@ -2,6 +2,7 @@
 title: "A Theory of Justice"
 title_plain: "A Theory of Justice"
 bib_key: "rawls1971"
+normalized_key: "rawls1971"
 entry_type: "book"
 authors: "John Rawls"
 year: "1971"
@@ -25,7 +26,8 @@ formatted_citation_plain: "John Rawls. (1971). <em>A Theory of Justice</em>. Har
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 7"
     chapter_file: "ch76"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1971"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/rawls1971/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Rawls' <em>A Theory of Justice</em> (1971), published by Harvard University Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 7, Chapter *Dignity as Meta-Ethical Foundation*, where the program draws on it in the context of “The Meta-Ethical Question Different ethical frameworks disagree about what to optimize or how to justify obligations: utility , duty , virtue , care, contract.”

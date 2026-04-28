@@ -2,6 +2,7 @@
 title: "Sheaves in Geometry and Logic: A First Introduction to Topos Theory"
 title_plain: "Sheaves in Geometry and Logic: A First Introduction to Topos Theory"
 bib_key: "MacLaneMoerdijk1992"
+normalized_key: "maclanemoerdijk1992"
 entry_type: "book"
 authors: "Mac Lane, Saunders and Moerdijk, Ieke"
 year: "1992"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Mac Lane, Saunders and Moerdijk, Ieke. (1992). <em>Sh
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 14"
     chapter_file: "ch55-limits-sites"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1992"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/maclanemoerdijk1992/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Mac Lane and Moerdijk's <em>Sheaves in Geometry and Logic: A First Introduction to Topos Theory</em> (1992), published by Springer, sits in the program's reference corpus as a standing technical source. Cited in Book I (*Categorical Foundations*), Part 14, Chapter *Limits, Sites, and the Presheaf Topos*, where the program draws on it in the context of “By Giraud's theorem , the presheaf category [C^op, Set] on any small category C is a Grothendieck topos.”

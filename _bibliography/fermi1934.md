@@ -2,6 +2,7 @@
 title: "Versuch einer Theorie der <math><mi>β</mi></math>-Strahlen. I"
 title_plain: "Versuch einer Theorie der β-Strahlen. I"
 bib_key: "Fermi1934"
+normalized_key: "fermi1934"
 entry_type: "article"
 authors: "Enrico Fermi"
 year: "1934"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Enrico Fermi. (1934). <em>Versuch einer Theorie der �
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch07-beta-decay-rosetta"
     chapter_title: "β-Decay: The Rosetta Stone"
     excerpt: "Chapter will derive the neutron lifetime from Fermi's golden rule , with all eight ingredients (R, α, ^2θ_W, |V_ud|^2, g_A, Δ_A, Δ_r, phase space integral f) expressed as functions of ι<sub>τ</sub>"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch22-weak-force-chirality"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1934"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/fermi1934/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Fermi's 1934 <em>Versuch einer Theorie der β-Strahlen. I</em>, published in *Zeitschrift für Physik*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 1, Chapter *β-Decay: The Rosetta Stone*; Book IV (*Categorical Microcosm*), Part 3, Chapter *The Weak Force and Chirality* — the central framing is “Chapter will derive the neutron lifetime from Fermi's golden rule , with all eight ingredients (R, α, ^2θ_W, |V_ud|^2, g_A, Δ_A, Δ_r, phase space integral f) expressed as…”.

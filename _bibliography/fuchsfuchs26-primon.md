@@ -2,6 +2,7 @@
 title: "Category <math><mi>τ</mi></math> and the Conformal Primon Gas"
 title_plain: "Category τ and the Conformal Primon Gas"
 bib_key: "FuchsFuchs26_Primon"
+normalized_key: "fuchsfuchs26primon"
 entry_type: "article"
 authors: "Fuchs, Thorsten and Fuchs, Anna-Sophie"
 year: "2026"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Fuchs, Thorsten and Fuchs, Anna-Sophie. (2026). <em>C
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 6"
     chapter_file: "ch50-bh-birth-topology"
     chapter_title: "Black Hole Birth as Global Topological Event"
     excerpt: "Scope: τ-effective for chirality factorisation; conjectural for the path integral identification. For full derivations and proofs of these connections, see"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 6"
     chapter_file: "ch51-bh-bipolarity-fusion"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2026"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/fuchsfuchs26-primon/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Fuchs and Fuchs' 2026 <em>Category τ and the Conformal Primon Gas</em>, published in *In preparation*, is one of the program's working technical references. Cited across Book V (*Categorical Macrocosm*), Part 6, Chapter *Black Hole Birth as Global Topological Event*; Book V (*Categorical Macrocosm*), Part 6, Chapter *Black Hole Bipolarity and Blueprint Fusion* — the central framing is “Scope: τ-effective for chirality factorisation; conjectural for the path integral identification. For full derivations and proofs of these connections, see”.

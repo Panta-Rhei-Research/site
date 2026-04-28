@@ -2,6 +2,7 @@
 title: "Noncommutative Geometry, Quantum Fields and Motives"
 title_plain: "Noncommutative Geometry, Quantum Fields and Motives"
 bib_key: "ConnesMarcolli2008"
+normalized_key: "connesmarcolli2008"
 entry_type: "book"
 authors: "Alain Connes and Matilde Marcolli"
 year: "2008"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2008"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/connesmarcolli2008/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Connes and Marcolli's <em>Noncommutative Geometry, Quantum Fields and Motives</em> (2008) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

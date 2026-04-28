@@ -2,6 +2,7 @@
 title: "The Unreasonable Effectiveness of Mathematics in the Natural Sciences"
 title_plain: "The Unreasonable Effectiveness of Mathematics in the Natural Sciences"
 bib_key: "Wigner1960"
+normalized_key: "wigner1960"
 entry_type: "article"
 authors: "Wigner, Eugene P."
 year: "1960"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Wigner, Eugene P.. (1960). <em>The Unreasonable Effec
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 8"
     chapter_file: "ch72-laws-as-structure"
     chapter_title: "Laws as Structure"
     excerpt: "The effectiveness problem: Why is mathematics so unreasonably effective in describing physics ?"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 8"
     chapter_file: "ch73-self-describing-universe"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1960"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/wigner1960/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Wigner's 1960 <em>The Unreasonable Effectiveness of Mathematics in the Natural Sciences</em>, published in *Communications on Pure and Applied Mathematics*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 8, Chapter *Laws as Structure*; Book IV (*Categorical Microcosm*), Part 8, Chapter *The Self-Describing Universe* — the central framing is “The effectiveness problem: Why is mathematics so unreasonably effective in describing physics ?”.

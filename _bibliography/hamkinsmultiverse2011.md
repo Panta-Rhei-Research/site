@@ -2,6 +2,7 @@
 title: "The Set-Theoretic Multiverse"
 title_plain: "The Set-Theoretic Multiverse"
 bib_key: "HamkinsMultiverse2011"
+normalized_key: "hamkinsmultiverse2011"
 entry_type: "article"
 authors: "Joel David Hamkins"
 year: "2012"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Joel David Hamkins. (2012). <em>The Set-Theoretic Mul
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch80-diagonal-resonance"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2012"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/hamkinsmultiverse2011/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Hamkins' 2012 <em>The Set-Theoretic Multiverse</em>, published in *Review of Symbolic Logic*, is one of the program's working technical references. Cited in Book I (*Categorical Foundations*), Part 18, Chapter *Diagonal Resonance and Identity Slippage*, where the program draws on it in the context of “Hamkins' multiverse is the philosophical codification of this structural plurality.”

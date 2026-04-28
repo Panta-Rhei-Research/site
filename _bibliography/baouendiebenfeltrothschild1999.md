@@ -2,6 +2,7 @@
 title: "Real submanifolds in complex space and their mappings"
 title_plain: "Real submanifolds in complex space and their mappings"
 bib_key: "BaouendiEbenfeltRothschild1999"
+normalized_key: "baouendiebenfeltrothschild1999"
 entry_type: "book"
 authors: "Baouendi, M. Salah and Ebenfelt, Peter and Rothschild, Linda P."
 year: "1999"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1999"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/baouendiebenfeltrothschild1999/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Baouendi et al.'s <em>Real submanifolds in complex space and their mappings</em> (1999) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

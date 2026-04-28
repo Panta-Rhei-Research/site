@@ -2,6 +2,7 @@
 title: "Inorganic Stereochemistry"
 title_plain: "Inorganic Stereochemistry"
 bib_key: "GillespieNyholm1957"
+normalized_key: "gillespienyholm1957"
 entry_type: "article"
 authors: "Ronald J. Gillespie and Ronald S. Nyholm"
 year: "1957"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Ronald J. Gillespie and Ronald S. Nyholm. (1957). <em
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 6"
     chapter_file: "ch51-molecular-geometry"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1957"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/gillespienyholm1957/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Gillespie and Nyholm's 1957 <em>Inorganic Stereochemistry</em>, published in *Quarterly Reviews, Chemical Society*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 6, Chapter *Molecular Geometry*, where the program draws on it in the context of “The central question of this chapter: given a molecular formula and a Lewis structure, what shape does the molecule adopt? VSEPR Theory The Valence Shell Electron Pair Repulsion….”

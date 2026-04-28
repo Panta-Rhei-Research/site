@@ -2,6 +2,7 @@
 title: "On the pseudo-conformal geometry of hypersurfaces of the space of <math><mi>n</mi></math> complex variables"
 title_plain: "On the pseudo-conformal geometry of hypersurfaces of the space of n complex variables"
 bib_key: "Tanaka1962"
+normalized_key: "tanaka1962"
 entry_type: "article"
 authors: "Noboru Tanaka"
 year: "1962"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1962"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/tanaka1962/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Tanaka's <em>On the pseudo-conformal geometry of hypersurfaces of the space of n complex variables</em> (1962) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

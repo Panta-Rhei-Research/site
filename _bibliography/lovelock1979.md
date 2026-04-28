@@ -2,6 +2,7 @@
 title: "Gaia: A New Look at Life on Earth"
 title_plain: "Gaia: A New Look at Life on Earth"
 bib_key: "lovelock1979"
+normalized_key: "lovelock1979"
 entry_type: "book"
 authors: "Lovelock, James"
 year: "1979"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Lovelock, James. (1979). <em>Gaia: A New Look at Life
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 7"
     chapter_file: "ch48-cosmic-life-spectrum"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1979"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/lovelock1979/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Lovelock's <em>Gaia: A New Look at Life on Earth</em> (1979), published by Oxford University Press, sits in the program's reference corpus as a standing technical source. Cited in Book VI (*Categorical Life*), Part 7, Chapter *The Cosmic Life Spectrum: From Molecules to Galaxies*, where the program draws on it in the context of “The Gaia hypothesis of Lovelock and Margulis proposes that the Earth's biosphere regulates planetary temperature, atmospheric composition, and ocean salinity through coupled….”

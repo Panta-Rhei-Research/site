@@ -2,6 +2,7 @@
 title: "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid"
 title_plain: "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid"
 bib_key: "watson1953"
+normalized_key: "watson1953"
 entry_type: "article"
 authors: "Watson, James D. and Crick, Francis H. C."
 year: "1953"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Watson, James D. and Crick, Francis H. C.. (1953). <e
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 4"
     chapter_file: "ch27-genetic-code"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1953"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/watson1953/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Watson and Crick's 1953 <em>Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid</em>, published in *Nature*, is one of the program's working technical references. Cited in Book VI (*Categorical Life*), Part 4, Chapter *The Genetic Code: BSD Structure and Replication*, where the program draws on it in the context of “The two strands run antiparallel and are held together by Watson–Crick base pairing : A pairs with T via two hydrogen bonds; G pairs with C via three.”

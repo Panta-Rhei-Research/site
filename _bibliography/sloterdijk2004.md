@@ -2,6 +2,7 @@
 title: "Sphären III: Schäume"
 title_plain: "Sphären III: Schäume"
 bib_key: "sloterdijk2004"
+normalized_key: "sloterdijk2004"
 entry_type: "book"
 authors: "Peter Sloterdijk"
 year: "2004"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Peter Sloterdijk. (2004). <em>Sphären III: Schäume<
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 8"
     chapter_file: "ch94"
     chapter_title: "Objects with Dignity and Worlds with Structure"
     excerpt: "Social Spheres The language of spheres and dwelling, developed by Sloterdijk , can be formalized by treating social spheres as open sets with varying density of recognition and interaction"
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 8"
     chapter_file: "ch95"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2004"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/sloterdijk2004/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Sloterdijk's <em>Sphären III: Schäume</em> (2004), published by Suhrkamp, sits in the program's reference corpus as a standing technical source. Cited across Book VII (*Categorical Metaphysics*), Part 8, Chapter *Objects with Dignity and Worlds with Structure*; Book VII (*Categorical Metaphysics*), Part 8, Chapter *Spheres, Bubbles, and Foams: Sloterdijk* — the central framing is “Social Spheres The language of spheres and dwelling, developed by Sloterdijk , can be formalized by treating social spheres as open sets with varying density of recognition and…”.

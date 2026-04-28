@@ -2,6 +2,7 @@
 title: "Being No One: The Self-Model Theory of Subjectivity"
 title_plain: "Being No One: The Self-Model Theory of Subjectivity"
 bib_key: "metzinger2003"
+normalized_key: "metzinger2003"
 entry_type: "book"
 authors: "Thomas Metzinger"
 year: "2003"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Thomas Metzinger. (2003). <em>Being No One: The Self-
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 9"
     chapter_file: "ch115"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2003"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/metzinger2003/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Metzinger's <em>Being No One: The Self-Model Theory of Subjectivity</em> (2003), published by MIT Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 9, Chapter *The Phenomenal Self-Model: Metzinger Comparison*, where the program draws on it in the context of “Metzinger's PSM Thomas Metzinger's phenomenal self-model theory rests on two central claims.”

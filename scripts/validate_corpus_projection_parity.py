@@ -47,6 +47,18 @@ def main() -> int:
         assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "_data" / "problem_ledger" / filename)
     for filename in ("results.json", "results.ndjson", "results.csv"):
         assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "_data" / "results" / filename)
+    for filename in ("bibliography.json", "bibliography.ndjson", "bibliography.csv"):
+        assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "_data" / "bibliography" / filename)
+        assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "assets" / "data" / "bibliography" / filename)
+    for filename in ("index.json", "groups.json", "cited_entries.json", "citation_index.json", "orphan_report.json", "batch_plan.json"):
+        assert_same_file(CORPUS_EXPORTS / "bibliography-data" / filename, SITE_ROOT / "_data" / "bibliography" / filename)
+    assert_same_file(CORPUS_EXPORTS / "references.bib", SITE_ROOT / "assets" / "bibliography" / "references.bib")
+    for filename in ("predictions.json", "predictions.ndjson", "predictions.csv"):
+        assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "_data" / "predictions" / filename)
+        assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "assets" / "data" / "predictions" / filename)
+    for filename in ("falsifications.json", "falsifications.ndjson", "falsifications.csv"):
+        assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "_data" / "falsifications" / filename)
+        assert_same_file(CORPUS_EXPORTS / filename, SITE_ROOT / "assets" / "data" / "falsifications" / filename)
     for filename in ("parts.json", "chapters.json"):
         assert_same_file(
             CORPUS_EXPORTS / "monograph-projections" / "data" / filename,
@@ -55,6 +67,9 @@ def main() -> int:
 
     problem_count = assert_tree_same(CORPUS_EXPORTS / "problem-items", SITE_ROOT / "_problem_ledger")
     result_count = assert_tree_same(CORPUS_EXPORTS / "result-pages", SITE_ROOT / "results" / "problem")
+    bibliography_count = assert_tree_same(CORPUS_EXPORTS / "bibliography-pages", SITE_ROOT / "_bibliography")
+    prediction_count = assert_tree_same(CORPUS_EXPORTS / "prediction-pages", SITE_ROOT / "_predictions")
+    falsification_count = assert_tree_same(CORPUS_EXPORTS / "falsification-pages", SITE_ROOT / "_falsifications")
     monograph_count = assert_tree_same(CORPUS_EXPORTS / "monograph-projections" / "pages", SITE_ROOT / "corpus" / "monographs")
 
     expected = {
@@ -63,6 +78,9 @@ def main() -> int:
         "recovery-requirements.json": 45,
         "construction-spine.json": 10,
         "agenda-progress.json": 284,
+        "bibliography.json": 1148,
+        "predictions.json": 67,
+        "falsifications.json": 30,
     }
     for filename, count in expected.items():
         actual = count_json(CORPUS_EXPORTS / filename)
@@ -73,12 +91,21 @@ def main() -> int:
         raise AssertionError(f"expected 239 problem item pages, found {problem_count}")
     if result_count != 255:
         raise AssertionError(f"expected 255 result pages, found {result_count}")
+    if bibliography_count != 1148:
+        raise AssertionError(f"expected 1148 bibliography pages, found {bibliography_count}")
+    if prediction_count != 67:
+        raise AssertionError(f"expected 67 prediction pages, found {prediction_count}")
+    if falsification_count != 30:
+        raise AssertionError(f"expected 30 falsification pages, found {falsification_count}")
     if monograph_count != 622:
         raise AssertionError(f"expected 622 monograph pages, found {monograph_count}")
 
     print("Corpus projection parity passed.")
     print(f"Problem Ledger pages: {problem_count}")
     print(f"Result pages: {result_count}")
+    print(f"Bibliography pages: {bibliography_count}")
+    print(f"Prediction pages: {prediction_count}")
+    print(f"Falsification pages: {falsification_count}")
     print(f"Monograph pages: {monograph_count}")
     return 0
 

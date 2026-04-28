@@ -2,6 +2,7 @@
 title: "Facing Up to the Problem of Consciousness"
 title_plain: "Facing Up to the Problem of Consciousness"
 bib_key: "chalmers1995"
+normalized_key: "chalmers1995"
 entry_type: "article"
 authors: "Chalmers, David J."
 year: "1995"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Chalmers, David J.. (1995). <em>Facing Up to the Prob
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 8"
     chapter_file: "ch51-consciousness"
     chapter_title: "Consciousness: Structural Definition of the Self-Model"
     excerpt: "Chalmers' formulation of the hard problem (1995) sharpens Nagel's question into a challenge for any physical theory"
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 8"
     chapter_file: "ch51-consciousness"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1995"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/chalmers1995/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Chalmers' 1995 <em>Facing Up to the Problem of Consciousness</em>, published in *Journal of Consciousness Studies*, is one of the program's working technical references. Cited 2 times in Book VI (*Categorical Life*), Part 8, Chapter *Consciousness: Structural Definition of the Self-Model*, where the program draws on it in the context of “Chalmers' formulation of the hard problem (1995) sharpens Nagel's question into a challenge for any physical theory.”

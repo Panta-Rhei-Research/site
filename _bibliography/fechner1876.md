@@ -2,6 +2,7 @@
 title: "Vorschule der Ästhetik"
 title_plain: "Vorschule der Ästhetik"
 bib_key: "fechner1876"
+normalized_key: "fechner1876"
 entry_type: "book"
 authors: "Gustav Theodor Fechner"
 year: "1876"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Gustav Theodor Fechner. (1876). <em>Vorschule der Äs
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 4"
     chapter_file: "ch42"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1876"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/fechner1876/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Fechner's <em>Vorschule der Ästhetik</em> (1876), published by Breitkopf und Härtel, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 4, Chapter *The Aesthetic Functional*, where the program draws on it in the context of “The Subjectivity–Objectivity Dissolution The oldest debate in aesthetics is whether beauty is ``in the object'' (objective) or ``in the eye of the beholder'' (subjective).”

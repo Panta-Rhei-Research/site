@@ -2,6 +2,7 @@
 title: "Fast algorithms for multiple evaluations of the Riemann zeta function"
 title_plain: "Fast algorithms for multiple evaluations of the Riemann zeta function"
 bib_key: "OdlyzkoSchoenhage1988"
+normalized_key: "odlyzkoschoenhage1988"
 entry_type: "article"
 authors: "Odlyzko, Andrew M. and Schönhage, Arnold"
 year: "1988"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1988"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/odlyzkoschoenhage1988/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Odlyzko and Schönhage's <em>Fast algorithms for multiple evaluations of the Riemann zeta function</em> (1988) is part of the program's reference corpus as standard domain context for Number Theory and Analysis. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

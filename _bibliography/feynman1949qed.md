@@ -2,6 +2,7 @@
 title: "Space-Time Approach to Quantum Electrodynamics"
 title_plain: "Space-Time Approach to Quantum Electrodynamics"
 bib_key: "Feynman1949QED"
+normalized_key: "feynman1949qed"
 entry_type: "article"
 authors: "Richard P. Feynman"
 year: "1949"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Richard P. Feynman. (1949). <em>Space-Time Approach t
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch05-photon-null-transport"
     chapter_title: "The Photon as Null Transport"
     excerpt: "In QED , internal lines in Feynman diagrams are called ``virtual photons.'' In Category τ, internal lines represent morphism structure—categorical composition, not propagating particles"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch10-fine-structure-constant"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1949"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/feynman1949qed/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Feynman's 1949 <em>Space-Time Approach to Quantum Electrodynamics</em>, published in *Physical Review*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 1, Chapter *The Photon as Null Transport*; Book IV (*Categorical Microcosm*), Part 1, Chapter *The Fine-Structure Constant* — the central framing is “In QED , internal lines in Feynman diagrams are called ``virtual photons.'' In Category τ, internal lines represent morphism structure—categorical composition, not propagating…”.

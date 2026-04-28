@@ -2,6 +2,7 @@
 title: "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I"
 title_plain: "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I"
 bib_key: "Godel1931"
+normalized_key: "godel1931"
 entry_type: "article"
 authors: "Kurt Gödel"
 year: "1931"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Kurt Gödel. (1931). <em>Über formal unentscheidbare
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "G\\\"odel (1931). The Second Incompleteness Theorem : any sufficiently strong, consistent, recursively enumerable formal system S cannot prove its own consistency"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1931"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/godel1931/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Gödel's 1931 <em>Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I</em>, published in *Monatshefte für Mathematik und Physik*, is one of the program's working technical references. Cited 2 times in Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*, where the program draws on it in the context of “G\"odel (1931). The Second Incompleteness Theorem : any sufficiently strong, consistent, recursively enumerable formal system S cannot prove its own consistency.”

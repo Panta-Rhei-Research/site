@@ -2,6 +2,7 @@
 title: "Towards a Cognitive Neuroscience of Consciousness: Basic Evidence and a Workspace Framework"
 title_plain: "Towards a Cognitive Neuroscience of Consciousness: Basic Evidence and a Workspace Framework"
 bib_key: "dehaene2001"
+normalized_key: "dehaene2001"
 entry_type: "article"
 authors: "Stanislas Dehaene and Lionel Naccache"
 year: "2001"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Stanislas Dehaene and Lionel Naccache. (2001). <em>To
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 9"
     chapter_file: "ch108"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2001"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/dehaene2001/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Dehaene and Naccache's 2001 <em>Towards a Cognitive Neuroscience of Consciousness: Basic Evidence and a Workspace Framework</em>, published in *Cognition*, is one of the program's working technical references. Cited in Book VII (*Categorical Metaphysics*), Part 9, Chapter *Consciousness as Global Section*, where the program draws on it in the context of “Relation to Leading Research Programmes The global-section account is compatible with, and clarifies, several major research programmes: Global Workspace Theory.”

@@ -2,6 +2,7 @@
 title: "Hodge Theory and Complex Algebraic Geometry"
 title_plain: "Hodge Theory and Complex Algebraic Geometry"
 bib_key: "VoisinHodge"
+normalized_key: "voisinhodge"
 entry_type: "book"
 authors: "Claire Voisin"
 year: "n.d."
@@ -25,7 +26,8 @@ formatted_citation_plain: "Claire Voisin. (n.d.). <em>Hodge Theory and Complex A
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "III"
+  -
+    book: "III"
     book_title: "Categorical Spectrum"
     part: "Part 5"
     chapter_file: "ch41-sigma-fixed-characters-and-sector-addressability"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "n.d."
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/voisinhodge/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Voisin's <em>Hodge Theory and Complex Algebraic Geometry</em>, published by Cambridge University Press, sits in the program's reference corpus as a standing technical source. Cited in Book III (*Categorical Spectrum*), Part 5, Chapter *σ-Fixed Characters and Sector Addressability*, where the program draws on it in the context of “It asserts that every rational (p,p)-class in H^2p(X, ℚ) is a ℚ-linear combination of classes of algebraic subvarieties.”

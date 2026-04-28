@@ -2,6 +2,7 @@
 title: "Principles of algebraic geometry"
 title_plain: "Principles of algebraic geometry"
 bib_key: "GriffithsHarris1978"
+normalized_key: "griffithsharris1978"
 entry_type: "book"
 authors: "Griffiths, Phillip and Harris, Joseph"
 year: "1978"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Griffiths, Phillip and Harris, Joseph. (1978). <em>Pr
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 9"
     chapter_file: "ch52-liouville-categoricity"
     chapter_title: "Liouville Categorical Dodge and Categoricity"
     excerpt: "The compact-manifold generalization states: on a compact connected complex manifold , every global holomorphic function is constant"
-  - book: "III"
+  -
+    book: "III"
     book_title: "Categorical Spectrum"
     part: "Part 5"
     chapter_file: "ch41-sigma-fixed-characters-and-sector-addressability"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1978"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/griffithsharris1978/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Griffiths and Harris' <em>Principles of algebraic geometry</em> (1978), published by Wiley-Interscience, sits in the program's reference corpus as a standing technical source. Cited across Book II (*Categorical Holomorphy*), Part 9, Chapter *Liouville Categorical Dodge and Categoricity*; Book III (*Categorical Spectrum*), Part 5, Chapter *σ-Fixed Characters and Sector Addressability* — the central framing is “The compact-manifold generalization states: on a compact connected complex manifold , every global holomorphic function is constant”.

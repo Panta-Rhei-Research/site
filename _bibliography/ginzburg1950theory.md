@@ -2,6 +2,7 @@
 title: "On the Theory of Superconductivity"
 title_plain: "On the Theory of Superconductivity"
 bib_key: "ginzburg1950theory"
+normalized_key: "ginzburg1950theory"
 entry_type: "article"
 authors: "Ginzburg, Vitaly L. and Landau, Lev D."
 year: "1950"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Ginzburg, Vitaly L. and Landau, Lev D.. (1950). <em>O
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 7"
     chapter_file: "ch62-crystals-glass-phases"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1950"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/ginzburg1950theory/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Ginzburg and Landau's 1950 <em>On the Theory of Superconductivity</em>, published in *Zhurnal Eksperimentalnoi i Teoreticheskoi Fiziki*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 7, Chapter *Crystals, Glass, and Phase Transitions*, where the program draws on it in the context of “Landau Theory and Order Parameters Near a second-order transition, the free energy admits an expansion in powers of an order parameter φ (a specific component or combination of….”

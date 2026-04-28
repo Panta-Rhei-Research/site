@@ -2,6 +2,7 @@
 title: "The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse"
 title_plain: "The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse"
 bib_key: "Loftus1996"
+normalized_key: "loftus1996"
 entry_type: "book"
 authors: "Elizabeth Loftus and Katherine Ketcham"
 year: "1996"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Elizabeth Loftus and Katherine Ketcham. (1996). <em>T
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 9"
     chapter_file: "ch113"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1996"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/loftus1996/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Loftus and Ketcham's <em>The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse</em> (1996), published by St. Martin's Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 9, Chapter *Personal Identity Over Time*, where the program draws on it in the context of “The malleability of memory further shows that memory is a reconstructive process, not a faithful archive.”

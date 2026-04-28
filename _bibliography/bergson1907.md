@@ -2,6 +2,7 @@
 title: "Creative Evolution (L'Évolution créatrice)"
 title_plain: "Creative Evolution (L'Évolution créatrice)"
 bib_key: "bergson1907"
+normalized_key: "bergson1907"
 entry_type: "book"
 authors: "Bergson, Henri"
 year: "1911"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Bergson, Henri. (1911). <em>Creative Evolution (L'Év
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 7"
     chapter_file: "ch50-enrichment-ladder"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1911"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/bergson1907/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Bergson's <em>Creative Evolution (L'Évolution créatrice)</em> (1911), published by Henry Holt and Company, sits in the program's reference corpus as a standing technical source. Cited in Book VI (*Categorical Life*), Part 7, Chapter *The Self-Enrichment Ladder: E₀–E₃ Complete*, where the program draws on it in the context of “Vitalism holds that life requires a special substance or force—the \'elan vital —that is absent from non-living matter and irreducible to physics.”

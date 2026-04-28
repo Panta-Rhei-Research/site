@@ -2,6 +2,7 @@
 title: "Topological Groups"
 title_plain: "Topological Groups"
 bib_key: "Pontryagin1939"
+normalized_key: "pontryagin1939"
 entry_type: "book"
 authors: "Lev S. Pontryagin"
 year: "1939"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Lev S. Pontryagin. (1939). <em>Topological Groups</em
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 9"
     chapter_file: "ch47-boundary-characters-idempotent"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1939"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/pontryagin1939/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Pontryagin's <em>Topological Groups</em> (1939), published by Princeton University Press, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 9, Chapter *Boundary Characters via Idempotent Support*, where the program draws on it in the context of “In classical Fourier analysis on a group G , a character χ : G → ℂ^× is a ``frequency detector'' — it measures how much of a given frequency component is present in a signal.”

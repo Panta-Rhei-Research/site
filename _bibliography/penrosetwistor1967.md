@@ -2,6 +2,7 @@
 title: "Twistor Algebra"
 title_plain: "Twistor Algebra"
 bib_key: "PenroseTwistor1967"
+normalized_key: "penrosetwistor1967"
 entry_type: "article"
 authors: "Roger Penrose"
 year: "1967"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Roger Penrose. (1967). <em>Twistor Algebra</em>. <em>
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 2"
     chapter_file: "ch13-cr-address-space"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1967"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/penrosetwistor1967/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Penrose's 1967 <em>Twistor Algebra</em>, published in *Journal of Mathematical Physics*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 2, Chapter *The CR Address Space*, where the program draws on it in the context of “Remarkably, CR-geometry also appears in Penrose's twistor theory , where the correspondence between twistor space and spacetime is mediated by CR-structures.”

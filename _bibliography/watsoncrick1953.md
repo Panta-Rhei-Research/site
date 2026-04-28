@@ -2,6 +2,7 @@
 title: "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid"
 title_plain: "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid"
 bib_key: "WatsonCrick1953"
+normalized_key: "watsoncrick1953"
 entry_type: "article"
 authors: "James D. Watson and Francis H. C. Crick"
 year: "1953"
@@ -25,13 +26,15 @@ formatted_citation_plain: "James D. Watson and Francis H. C. Crick. (1953). <em>
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 6"
     chapter_file: "ch54-biochemistry"
     chapter_title: "Biochemistry and Photochemistry"
     excerpt: "The two strands of the DNA double helix are held together by specific hydrogen bonds between complementary bases: \\[ A ≡ T (2 H-bonds), G ≡ C (3 H-bonds)"
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 0"
     chapter_file: "ch01-what-is-life"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1953"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/watsoncrick1953/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Watson and Crick's 1953 <em>Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid</em>, published in *Nature*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 6, Chapter *Biochemistry and Photochemistry*; Book VI (*Categorical Life*), Part 0, Chapter *What Is Life? Why Every Classical Answer Fails* — the central framing is “The two strands of the DNA double helix are held together by specific hydrogen bonds between complementary bases: \[ A ≡ T (2 H-bonds), G ≡ C (3 H-bonds)”.

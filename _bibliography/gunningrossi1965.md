@@ -2,6 +2,7 @@
 title: "Analytic Functions of Several Complex Variables"
 title_plain: "Analytic Functions of Several Complex Variables"
 bib_key: "GunningRossi1965"
+normalized_key: "gunningrossi1965"
 entry_type: "book"
 authors: "Robert C. Gunning and Hugo Rossi"
 year: "1965"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Robert C. Gunning and Hugo Rossi. (1965). <em>Analyti
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 6"
     chapter_file: "ch36-sheaf-coherence"
     chapter_title: "Sheaf Coherence from ω-Germ Compatibility"
     excerpt: "A sheaf is a presheaf with two additional properties: local data that agrees on overlaps can be glued into global data (the gluing axiom), and a global section that vanishes locally vanishes globally (the locality axiom)"
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 9"
     chapter_file: "ch48-hartogs-extension-h-tau"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1965"
@@ -54,6 +60,13 @@ right_rail:
     role: "Foundational Source"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/gunningrossi1965/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Gunning and Rossi's <em>Analytic Functions of Several Complex Variables</em> (1965), published by Prentice-Hall, sits in the program's reference corpus as a standing technical source. Cited across Book II (*Categorical Holomorphy*), Part 6, Chapter *Sheaf Coherence from ω-Germ Compatibility*; Book II (*Categorical Holomorphy*), Part 9, Chapter *Hartogs Extension in H_τ* — the central framing is “A sheaf is a presheaf with two additional properties: local data that agrees on overlaps can be glued into global data (the gluing axiom), and a global section that vanishes…”.

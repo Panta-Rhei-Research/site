@@ -2,6 +2,7 @@
 title: "Ultraviolet Behavior of Non-Abelian Gauge Theories"
 title_plain: "Ultraviolet Behavior of Non-Abelian Gauge Theories"
 bib_key: "GrossWilczek1973"
+normalized_key: "grosswilczek1973"
 entry_type: "article"
 authors: "David J. Gross and Frank Wilczek"
 year: "1973"
@@ -25,13 +26,15 @@ formatted_citation_plain: "David J. Gross and Frank Wilczek. (1973). <em>Ultravi
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "III"
+  -
+    book: "III"
     book_title: "Categorical Spectrum"
     part: "Part 5"
     chapter_file: "ch40-the-yang-mills-mass-gap"
     chapter_title: "The Yang–Mills Mass Gap"
     excerpt: "The asymptotic freedom of the non-Abelian gauge theory underlying this problem was established by Gross–Wilczek"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 4"
     chapter_file: "ch32-strong-coupling-quarks"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1973"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/grosswilczek1973/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Gross and Wilczek's 1973 <em>Ultraviolet Behavior of Non-Abelian Gauge Theories</em>, published in *Physical Review Letters*, is one of the program's working technical references. Cited across Book III (*Categorical Spectrum*), Part 5, Chapter *The Yang–Mills Mass Gap*; Book IV (*Categorical Microcosm*), Part 4, Chapter *Strong Coupling and Quarks* — the central framing is “The asymptotic freedom of the non-Abelian gauge theory underlying this problem was established by Gross–Wilczek”.

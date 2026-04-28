@@ -2,6 +2,7 @@
 title: "Matrix Analysis"
 title_plain: "Matrix Analysis"
 bib_key: "HornJohnson2012"
+normalized_key: "hornjohnson2012"
 entry_type: "book"
 authors: "Roger A. Horn and Charles R. Johnson"
 year: "2012"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2012"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/hornjohnson2012/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Horn and Johnson's <em>Matrix Analysis</em> (2012) is part of the program's reference corpus as standard domain context for Computation and Complexity. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

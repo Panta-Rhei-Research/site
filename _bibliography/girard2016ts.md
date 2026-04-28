@@ -2,6 +2,7 @@
 title: "Transcendental Syntax I: Deterministic Case"
 title_plain: "Transcendental Syntax I: Deterministic Case"
 bib_key: "Girard2016TS"
+normalized_key: "girard2016ts"
 entry_type: "unpublished"
 authors: "Jean-Yves Girard"
 year: "2016"
@@ -25,25 +26,29 @@ formatted_citation_plain: "Jean-Yves Girard. (2016). <em>Transcendental Syntax I
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "Girard's transcendental syntax program aims to derive logic from a pre-logical layer of interaction"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "Girard : fragments of linear logic from sub-logical operations"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "Girard's transcendental syntax program envisions logic emerging from sub-logical operations — stellar resolution, constellations, designs that compute without presupposing logical connectives"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
@@ -52,13 +57,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Unpublished"
     year: "2016"
@@ -66,6 +74,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/girard2016ts/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Girard's manuscript <em>Transcendental Syntax I: Deterministic Case</em> (2016) is cited as a working technical source. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*; Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier* — the central framing is “Girard's transcendental syntax program aims to derive logic from a pre-logical layer of interaction”.

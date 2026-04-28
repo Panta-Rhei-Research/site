@@ -2,6 +2,7 @@
 title: "Mathematische Grundlagen der Quantenmechanik"
 title_plain: "Mathematische Grundlagen der Quantenmechanik"
 bib_key: "vonNeumann1932"
+normalized_key: "vonneumann1932"
 entry_type: "book"
 authors: "John von Neumann"
 year: "1932"
@@ -25,13 +26,15 @@ formatted_citation_plain: "John von Neumann. (1932). <em>Mathematische Grundlage
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 2"
     chapter_file: "ch15-holomorphic-state-space"
     chapter_title: "The Holomorphic State Space"
     excerpt: "Historical Context: From von Neumann to τ^3 The Hilbert space formalism for quantum mechanics was systematized by John von Neumann in his 1932 masterwork"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 2"
     chapter_file: "ch18-measurement-schrodinger"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1932"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/vonneumann1932/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 von Neumann's <em>Mathematische Grundlagen der Quantenmechanik</em> (1932), published by Springer, sits in the program's reference corpus as a standing technical source. Cited across Book IV (*Categorical Microcosm*), Part 2, Chapter *The Holomorphic State Space*; Book IV (*Categorical Microcosm*), Part 2, Chapter *Measurement and the Schrödinger Equation* — the central framing is “Historical Context: From von Neumann to τ^3 The Hilbert space formalism for quantum mechanics was systematized by John von Neumann in his 1932 masterwork”.

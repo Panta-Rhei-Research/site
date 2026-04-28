@@ -2,6 +2,7 @@
 title: "Observation of a New Particle in the Search for the Standard Model Higgs Boson"
 title_plain: "Observation of a New Particle in the Search for the Standard Model Higgs Boson"
 bib_key: "ATLASHiggs2012"
+normalized_key: "atlashiggs2012"
 entry_type: "article"
 authors: "ATLAS Collaboration"
 year: "2012"
@@ -25,7 +26,8 @@ formatted_citation_plain: "ATLAS Collaboration. (2012). <em>Observation of a New
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 3"
     chapter_file: "ch26-tau-higgs"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2012"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/atlashiggs2012/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 the ATLAS Collaboration's 2012 <em>Observation of a New Particle in the Search for the Standard Model Higgs Boson</em>, published in *Physics Letters B*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 3, Chapter *The τ-Higgs Mechanism*, where the program draws on it in the context of “The ATLAS and CMS collaborations, after analyzing trillions of proton-proton collisions, had each independently found a new particle at 125 GeV with scalar quantum numbers.”

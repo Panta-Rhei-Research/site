@@ -2,6 +2,7 @@
 title: "Über das Gesetz der Energieverteilung im Normalspectrum"
 title_plain: "Über das Gesetz der Energieverteilung im Normalspectrum"
 bib_key: "Planck1900"
+normalized_key: "planck1900"
 entry_type: "article"
 authors: "Max Planck"
 year: "1901"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Max Planck. (1901). <em>Über das Gesetz der Energiev
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 1"
     chapter_file: "ch05-photon-null-transport"
     chapter_title: "The Photon as Null Transport"
     excerpt: "Photon Properties Energy and Frequency The photon energy satisfies the Planck–Einstein relation : E = hν = ω Photon energy is proportional to frequency"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 2"
     chapter_file: "ch16-holomorphic-quantization"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1901"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/planck1900/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Planck's 1901 <em>Über das Gesetz der Energieverteilung im Normalspectrum</em>, published in *Annalen der Physik*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 1, Chapter *The Photon as Null Transport*; Book IV (*Categorical Microcosm*), Part 2, Chapter *Holomorphic Quantization* — the central framing is “Photon Properties Energy and Frequency The photon energy satisfies the Planck–Einstein relation : E = hν = ω Photon energy is proportional to frequency”.

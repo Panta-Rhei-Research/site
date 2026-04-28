@@ -2,6 +2,7 @@
 title: "CP-Violation in the Renormalizable Theory of Weak Interaction"
 title_plain: "CP-Violation in the Renormalizable Theory of Weak Interaction"
 bib_key: "KobayashiMaskawa1973"
+normalized_key: "kobayashimaskawa1973"
 entry_type: "article"
 authors: "Makoto Kobayashi and Toshihide Maskawa"
 year: "1973"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Makoto Kobayashi and Toshihide Maskawa. (1973). <em>C
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 4"
     chapter_file: "ch32-strong-coupling-quarks"
     chapter_title: "Strong Coupling and Quarks"
     excerpt: "CP violation requires at least three generations (Kobayashi–Maskawa, 1973 )"
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 5"
     chapter_file: "ch35-three-generations"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1973"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/kobayashimaskawa1973/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Kobayashi and Maskawa's 1973 <em>CP-Violation in the Renormalizable Theory of Weak Interaction</em>, published in *Progress of Theoretical Physics*, is one of the program's working technical references. Cited across Book IV (*Categorical Microcosm*), Part 4, Chapter *Strong Coupling and Quarks*; Book IV (*Categorical Microcosm*), Part 5, Chapter *Three Generations* — the central framing is “CP violation requires at least three generations (Kobayashi–Maskawa, 1973 )”.

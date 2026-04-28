@@ -2,6 +2,7 @@
 title: "Algebraic Geometry"
 title_plain: "Algebraic Geometry"
 bib_key: "Hartshorne1977"
+normalized_key: "hartshorne1977"
 entry_type: "book"
 authors: "Robin Hartshorne"
 year: "1977"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Robin Hartshorne. (1977). <em>Algebraic Geometry</em>
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 3"
     chapter_file: "ch17-torus-degeneration"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1977"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/hartshorne1977/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Hartshorne's <em>Algebraic Geometry</em> (1977), published by Springer-Verlag, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 3, Chapter *Torus Degeneration and the Geometric Lemniscate*, where the program draws on it in the context of “The Full Torus at Finite Depth At every finite stage k of the primorial ladder, the fiber T^2 = S^1_γ × S^1_η (II.D06, Chapter ) is a genuine two-dimensional torus.”

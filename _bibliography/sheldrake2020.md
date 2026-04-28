@@ -2,6 +2,7 @@
 title: "Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures"
 title_plain: "Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures"
 bib_key: "sheldrake2020"
+normalized_key: "sheldrake2020"
 entry_type: "book"
 authors: "Sheldrake, Merlin"
 year: "2020"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2020"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/sheldrake2020/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Sheldrake's <em>Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures</em> (2020) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

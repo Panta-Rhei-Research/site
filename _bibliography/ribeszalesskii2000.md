@@ -2,6 +2,7 @@
 title: "Profinite Groups"
 title_plain: "Profinite Groups"
 bib_key: "RibesZalesskii2000"
+normalized_key: "ribeszalesskii2000"
 entry_type: "book"
 authors: "Luis Ribes and Pavel Zalesskii"
 year: "2000"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Luis Ribes and Pavel Zalesskii. (2000). <em>Profinite
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "III"
+  -
+    book: "III"
     book_title: "Categorical Spectrum"
     part: "Part 3"
     chapter_file: "ch14-the-primorial-ladder"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2000"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/ribeszalesskii2000/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Ribes and Zalesskii's <em>Profinite Groups</em> (2000), published by Springer-Verlag, sits in the program's reference corpus as a standing technical source. Cited in Book III (*Categorical Spectrum*), Part 3, Chapter *The Primorial Ladder*, where the program draws on it in the context of “Claim (iii). Inverse limits over cofinal sub-systems are canonically isomorphic (see ).”

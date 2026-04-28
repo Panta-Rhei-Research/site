@@ -2,6 +2,7 @@
 title: "Information Theory, Inference, and Learning Algorithms"
 title_plain: "Information Theory, Inference, and Learning Algorithms"
 bib_key: "MacKay2003"
+normalized_key: "mackay2003"
 entry_type: "book"
 authors: "David J. C. MacKay"
 year: "2003"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2003"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/mackay2003/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 MacKay's <em>Information Theory, Inference, and Learning Algorithms</em> (2003) is part of the program's reference corpus as standard domain context for Computation and Complexity. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -2,6 +2,7 @@
 title: "Differential cohomology in a cohesive infinity-topos"
 title_plain: "Differential cohomology in a cohesive infinity-topos"
 bib_key: "Schreiber2013"
+normalized_key: "schreiber2013"
 entry_type: "misc"
 authors: "Urs Schreiber"
 year: "2013"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Miscellaneous"
     year: "2013"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/schreiber2013/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Schreiber's <em>Differential cohomology in a cohesive infinity-topos</em> (2013) is part of the program's reference corpus, acknowledged as a formal antecedent in Category Theory whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

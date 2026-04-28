@@ -2,6 +2,7 @@
 title: "Applications of the Theory of Boolean Rings to General Topology"
 title_plain: "Applications of the Theory of Boolean Rings to General Topology"
 bib_key: "Stone1937"
+normalized_key: "stone1937"
 entry_type: "article"
 authors: "M. H. Stone"
 year: "1937"
@@ -25,7 +26,8 @@ formatted_citation_plain: "M. H. Stone. (1937). <em>Applications of the Theory o
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 3"
     chapter_file: "ch13-stone-space"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1937"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/stone1937/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Stone's 1937 <em>Applications of the Theory of Boolean Rings to General Topology</em>, published in *Transactions of the American Mathematical Society*, is one of the program's working technical references. Cited in Book II (*Categorical Holomorphy*), Part 3, Chapter *Compact, Hausdorff, Totally Disconnected*, where the program draws on it in the context of “This is the standard definition, due to Stone (1936).”

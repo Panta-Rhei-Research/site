@@ -2,6 +2,7 @@
 title: "The Early Universe"
 title_plain: "The Early Universe"
 bib_key: "kolb1990early"
+normalized_key: "kolb1990early"
 entry_type: "book"
 authors: "Kolb, Edward W. and Turner, Michael S."
 year: "1990"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Kolb, Edward W. and Turner, Michael S.. (1990). <em>T
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch06-high-energy-beginning"
     chapter_title: "High Energy and High Entropy at the Beginning"
     excerpt: "The τ-Einstein equation (V.D06) applies at all depths, but in the opening regime its readout is extreme: boundary characters carry maximal energy, the coupling constant κ_τ = 1 - ι<sub>τ</sub> is at full strength, and the resulting chart-level readout is what orthodox physics calls the ``hot Big Bang''"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch62-inflation-cmb-bbn"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1990"
@@ -54,6 +60,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/kolb1990early/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Kolb and Turner's <em>The Early Universe</em> (1990), published by Addison-Wesley, sits in the program's reference corpus as a standing technical source. Cited across Book V (*Categorical Macrocosm*), Part 1, Chapter *High Energy and High Entropy at the Beginning*; Book V (*Categorical Macrocosm*), Part 7, Chapter *Inflation, the CMB, and Primordial Nucleosynthesis* — the central framing is “The τ-Einstein equation (V.D06) applies at all depths, but in the opening regime its readout is extreme: boundary characters carry maximal energy, the coupling constant κ_τ = 1 -…”.

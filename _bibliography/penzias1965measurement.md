@@ -2,6 +2,7 @@
 title: "A Measurement of Excess Antenna Temperature at 4080 Mc/s"
 title_plain: "A Measurement of Excess Antenna Temperature at 4080 Mc/s"
 bib_key: "penzias1965measurement"
+normalized_key: "penzias1965measurement"
 entry_type: "article"
 authors: "Penzias, Arno A. and Wilson, Robert W."
 year: "1965"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Penzias, Arno A. and Wilson, Robert W.. (1965). <em>A
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch09-boundary-data"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1965"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/penzias1965measurement/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Penzias and Wilson's 1965 <em>A Measurement of Excess Antenna Temperature at 4080 Mc/s</em>, published in *Astrophysical Journal*, is one of the program's working technical references. Cited in Book V (*Categorical Macrocosm*), Part 1, Chapter *Boundary Data: CMB and CνB as Constraint Surfaces*, where the program draws on it in the context of “The CMB as Temporal-Epoch Constraint Surface The cosmic microwave background was discovered by Penzias and Wilson in 1965 and mapped with exquisite precision by COBE (1992) , WMAP….”

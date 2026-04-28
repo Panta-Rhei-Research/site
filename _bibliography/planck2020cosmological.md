@@ -2,6 +2,7 @@
 title: "Planck 2018 Results. VI. Cosmological Parameters"
 title_plain: "Planck 2018 Results. VI. Cosmological Parameters"
 bib_key: "planck2020cosmological"
+normalized_key: "planck2020cosmological"
 entry_type: "article"
 authors: "Planck Collaboration and Aghanim, N. and others"
 year: "2020"
@@ -25,97 +26,113 @@ formatted_citation_plain: "Planck Collaboration and Aghanim, N. and others. (202
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch08-distance-ladder"
     chapter_title: "The Distance Ladder Re-Read"
     excerpt: "Two classes of measurements of the Hubble constant H_0 yield persistently discrepant values: Early-universe (``indirect'') route. The Planck satellite measures the CMB temperature anisotropies and fits them to the ΛCDM model"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch09-boundary-data"
     chapter_title: "Boundary Data: CMB and CνB as Constraint Surfaces"
     excerpt: "The CMB as Temporal-Epoch Constraint Surface The cosmic microwave background was discovered by Penzias and Wilson in 1965 and mapped with exquisite precision by COBE (1992) , WMAP (2003–2010) , and Planck (2013–2018)"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch09-boundary-data"
     chapter_title: "Boundary Data: CMB and CνB as Constraint Surfaces"
     excerpt: "The six-parameter fit (Ω_b h^2, Ω_c h^2, θ_*, τ_reion, n_s, A_s) that Planck reports is a valid empirical summary of Σ_CMB"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 3"
     chapter_file: "ch26-dark-energy-artifact"
     chapter_title: "Dark Energy as Readout Artifact"
     excerpt: "CMB anisotropy (WMAP , Planck ): the angular power spectrum is consistent with a spatially flat universe (Ω_total ≈ 1), which requires Ω_Λ ≈ 0.68 to balance Ω_m ≈ 0.31"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 5"
     chapter_file: "ch45-h0-tension-lcdm"
     chapter_title: "H₀ Tension Resolution and the ΛCDM Re-Read"
     excerpt: "For over a decade, two classes of measurement have yielded discrepant values: ``early-universe'' methods (CMB analysis via Planck , BAO calibration) give H_0 ≈ 67.4 ± 0.5 km/s/Mpc, while ``late-universe'' methods (Cepheid-calibrated Type Ia supernovae via SH0ES and related programmes) give H_0 ≈ 73.0 ± 1.0 km/s/Mpc"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 5"
     chapter_file: "ch45-h0-tension-lcdm"
     chapter_title: "H₀ Tension Resolution and the ΛCDM Re-Read"
     excerpt: "Two classes of measurement yield discrepant values (see abstract for the key numbers): Early-universe: Planck CMB analysis gives H_0 = 67.4 ± 0.5 km/s/Mpc (Planck 2018) ; BAO confirms via the sound horizon"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 6"
     chapter_file: "ch47-inflation-as-regime"
     chapter_title: "Inflation-as-Regime: No Inflaton Sector"
     excerpt: "The scalar amplitude of primordial perturbations is: A_s = α_τ · ι<sub>τ</sub>^14 · (1 - ι<sub>τ</sub>^33) = 121225 ι<sub>τ</sub>^18 · (1 - ι<sub>τ</sub>^(τ^3)(τ^3)) = 2.096 × 10^-9, at -1979 ppm from Planck (2.100 × 10^-9)"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 6"
     chapter_file: "ch47-inflation-as-regime"
     chapter_title: "Inflation-as-Regime: No Inflaton Sector"
     excerpt: "The spectral index inherits: n_s = 1 - 2N_e = 1 - 257 = 0.96491, at +13 ppm from the Planck measurement n_s = 0.9649 ± 0.0042"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 6"
     chapter_file: "ch48-threshold-ladder"
     chapter_title: "The Threshold Ladder: From Baryogenesis to Recombination"
     excerpt: "Result: η_B,τ = 6.080 × 10^-10; Planck CMB-only : η_B = (6.104 ± 0.058) × 10^-10; deviation = -10 320 ppm (∼1.1σ)"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 6"
     chapter_file: "ch48-threshold-ladder"
     chapter_title: "The Threshold Ladder: From Baryogenesis to Recombination"
     excerpt: "The baryon-to-photon ratio satisfies η_B = α · ι<sub>τ</sub>^15 · 56 = 121270 ι<sub>τ</sub>^19 ≈ 6.041 × 10^-10, in agreement with the Planck 2018 value η_B^Planck = (6.104 ± 0.058) × 10^-10 at -1.03% accuracy (-1.09σ)"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch61-gr-emergent-geometry"
     chapter_title: "General Relativity as Emergent Geometry"
     excerpt: "The CMB angular power spectrum (Planck, 2018) confirms the Friedmann–Lema\\^itre–Robertson–Walker metric to high precision"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch62-inflation-cmb-bbn"
     chapter_title: "Inflation, the CMB, and Primordial Nucleosynthesis"
     excerpt: "CMB Anomalies The Planck data reveals several low-significance anomalies in the CMB: Low quadrupole. The C_2 power is approximately 7× lower than the ΛCDM expectation"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch62-inflation-cmb-bbn"
     chapter_title: "Inflation, the CMB, and Primordial Nucleosynthesis"
     excerpt: "The Planck 2018 value A_s = (2.100 ± 0.030) × 10^-9 gives a deviation of -1979 ppm (-0.2%)"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch62-inflation-cmb-bbn"
     chapter_title: "Inflation, the CMB, and Primordial Nucleosynthesis"
     excerpt: "The Scalar Spectral Index: n_s = 1 - 2/57 The scalar spectral index is n_s = 1 - 2N_e = 1 - 257 = 5557 = 0.96491… The Planck 2018 measurement gives n_s = 0.9649 ± 0.0042"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch62-inflation-cmb-bbn"
     chapter_title: "Inflation, the CMB, and Primordial Nucleosynthesis"
     excerpt: "The observed value η_B = (6.104 ± 0.058) × 10^-10 (Planck 2018) gives a deviation of -1.03%"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch63-dark-sector"
@@ -124,13 +141,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2020"
@@ -138,6 +158,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/planck2020cosmological/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 the Planck Collaboration's 2020 <em>Planck 2018 Results. VI. Cosmological Parameters</em>, published in *Astronomy & Astrophysics*, is one of the program's working technical references. Cited 16 times across Book V (*Categorical Macrocosm*), Part 1, Chapter *The Distance Ladder Re-Read*; Book V (*Categorical Macrocosm*), Part 1, Chapter *Boundary Data: CMB and CνB as Constraint Surfaces*; Book V (*Categorical Macrocosm*), Part 3, Chapter *Dark Energy as Readout Artifact*, and in 6 further chapters.

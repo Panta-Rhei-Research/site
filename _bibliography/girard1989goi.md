@@ -2,6 +2,7 @@
 title: "Geometry of Interaction I: Interpretation of System~F"
 title_plain: "Geometry of Interaction I: Interpretation of System~F"
 bib_key: "Girard1989GoI"
+normalized_key: "girard1989goi"
 entry_type: "incollection"
 authors: "Jean-Yves Girard"
 year: "1989"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Jean-Yves Girard. (1989). <em>Geometry of Interaction
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book Chapter"
     year: "1989"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/girard1989goi/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Girard's chapter <em>Geometry of Interaction I: Interpretation of System~F</em> (1989) in *Logic Colloquium '88* sits in the program's reference corpus. Cited in Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier*, where the program draws on it in the context of “Girard's Geometry of Interaction reconceives proofs as interactive processes that respect linear resource discipline.”

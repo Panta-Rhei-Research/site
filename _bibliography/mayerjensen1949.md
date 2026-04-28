@@ -2,6 +2,7 @@
 title: "On Closed Shells in Nuclei. II"
 title_plain: "On Closed Shells in Nuclei. II"
 bib_key: "MayerJensen1949"
+normalized_key: "mayerjensen1949"
 entry_type: "article"
 authors: "Maria Goeppert Mayer"
 year: "1949"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Maria Goeppert Mayer. (1949). <em>On Closed Shells in
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 5"
     chapter_file: "ch40-light-nuclei"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1949"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/mayerjensen1949/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Mayer's 1949 <em>On Closed Shells in Nuclei. II</em>, published in *Physical Review*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 5, Chapter *Light Nuclei: Helium to Iron*, where the program draws on it in the context of “The Nuclear Shell Model With spin-orbit coupling (Mayer, Jensen 1949) : 1s_1/2, 1p_3/2, 1p_1/2, 1d_5/2, 2s_1/2, 1d_3/2, … Shell closures at cumulative occupancies 2, 8, 20, 28,….”

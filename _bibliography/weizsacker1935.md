@@ -2,6 +2,7 @@
 title: "Zur Theorie der Kernmassen"
 title_plain: "Zur Theorie der Kernmassen"
 bib_key: "Weizsacker1935"
+normalized_key: "weizsacker1935"
 entry_type: "article"
 authors: "Carl Friedrich von Weizsäcker"
 year: "1935"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Carl Friedrich von Weizsäcker. (1935). <em>Zur Theor
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 5"
     chapter_file: "ch37-hadrons-donut-ladder"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1935"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/weizsacker1935/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 von Weizsäcker's 1935 <em>Zur Theorie der Kernmassen</em>, published in *Zeitschrift für Physik*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 5, Chapter *Hadrons and Nuclei*, where the program draws on it in the context of “The nuclear binding energy is described by the Bethe–Weizs\"acker formula : B(A,Z) = a_V A - a_S A^2/3 - a_C Z^2A^1/3 - a_A (N-Z)^2A + δ(A,Z) Each term has a τ^3 interpretation:….”

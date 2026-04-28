@@ -2,6 +2,7 @@
 title: "Type Theories, Toposes and Constructive Set Theory: Predicative Aspects of AST"
 title_plain: "Type Theories, Toposes and Constructive Set Theory: Predicative Aspects of AST"
 bib_key: "MoerdijkPalmgren2002"
+normalized_key: "moerdijkpalmgren2002"
 entry_type: "article"
 authors: "Ieke Moerdijk and Erik Palmgren"
 year: "2002"
@@ -25,19 +26,22 @@ formatted_citation_plain: "Ieke Moerdijk and Erik Palmgren. (2002). <em>Type The
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch71-self-hosting-landscape"
     chapter_title: "The Self-Hosting Landscape"
     excerpt: "Moerdijk and Palmgren developed the theory of predicative toposes — specifically, Π W-pretoposes as a predicative analogue of elementary toposes"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "Moerdijk and Palmgren construct predicative toposes that model dependent type theory without assuming classical logic"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
@@ -46,13 +50,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2002"
@@ -60,6 +67,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/moerdijkpalmgren2002/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Moerdijk and Palmgren's 2002 <em>Type Theories, Toposes and Constructive Set Theory: Predicative Aspects of AST</em>, published in *Annals of Pure and Applied Logic*, is one of the program's working technical references. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *The Self-Hosting Landscape*; Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier* — the central framing is “Moerdijk and Palmgren developed the theory of predicative toposes — specifically, Π W-pretoposes as a predicative analogue of elementary toposes”.

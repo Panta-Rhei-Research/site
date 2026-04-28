@@ -2,6 +2,7 @@
 title: "The Origin of the Genetic Code"
 title_plain: "The Origin of the Genetic Code"
 bib_key: "crick1968"
+normalized_key: "crick1968"
 entry_type: "article"
 authors: "Crick, Francis H. C."
 year: "1968"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Crick, Francis H. C.. (1968). <em>The Origin of the G
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VI"
+  -
+    book: "VI"
     book_title: "Categorical Life"
     part: "Part 4"
     chapter_file: "ch27-genetic-code"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1968"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/crick1968/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Crick's 1968 <em>The Origin of the Genetic Code</em>, published in *Journal of Molecular Biology*, is one of the program's working technical references. Cited in Book VI (*Categorical Life*), Part 4, Chapter *The Genetic Code: BSD Structure and Replication*, where the program draws on it in the context of “Central Dogma as Morphism Composition The central dogma The central dogma of molecular biology, formulated by Crick in 1958 , states that the flow of sequence information in….”

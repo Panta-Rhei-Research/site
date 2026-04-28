@@ -2,6 +2,7 @@
 title: "Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms"
 title_plain: "Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms"
 bib_key: "woese1977"
+normalized_key: "woese1977"
 entry_type: "article"
 authors: "Woese, Carl R. and Fox, George E."
 year: "1977"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1977"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/woese1977/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Woese and Fox's <em>Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms</em> (1977) is part of the program's reference corpus as standard domain context for Life and Biology. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

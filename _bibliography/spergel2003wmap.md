@@ -2,6 +2,7 @@
 title: "First-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations"
 title_plain: "First-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations"
 bib_key: "spergel2003wmap"
+normalized_key: "spergel2003wmap"
 entry_type: "article"
 authors: "Spergel, David N. and others"
 year: "2003"
@@ -25,13 +26,15 @@ formatted_citation_plain: "Spergel, David N. and others. (2003). <em>First-Year 
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch09-boundary-data"
     chapter_title: "Boundary Data: CMB and CνB as Constraint Surfaces"
     excerpt: "The CMB as Temporal-Epoch Constraint Surface The cosmic microwave background was discovered by Penzias and Wilson in 1965 and mapped with exquisite precision by COBE (1992) , WMAP (2003–2010) , and Planck (2013–2018)"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 3"
     chapter_file: "ch26-dark-energy-artifact"
@@ -40,13 +43,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2003"
@@ -54,6 +60,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/spergel2003wmap/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Spergel and others' 2003 <em>First-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations</em>, published in *Astrophysical Journal Supplement Series*, is one of the program's working technical references. Cited across Book V (*Categorical Macrocosm*), Part 1, Chapter *Boundary Data: CMB and CνB as Constraint Surfaces*; Book V (*Categorical Macrocosm*), Part 3, Chapter *Dark Energy as Readout Artifact* — the central framing is “The CMB as Temporal-Epoch Constraint Surface The cosmic microwave background was discovered by Penzias and Wilson in 1965 and mapped with exquisite precision by COBE (1992) , WMAP…”.

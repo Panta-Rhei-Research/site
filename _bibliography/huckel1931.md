@@ -2,6 +2,7 @@
 title: "Quantentheoretische Beiträge zum Benzolproblem"
 title_plain: "Quantentheoretische Beiträge zum Benzolproblem"
 bib_key: "Huckel1931"
+normalized_key: "huckel1931"
 entry_type: "article"
 authors: "Erich Hückel"
 year: "1931"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Erich Hückel. (1931). <em>Quantentheoretische Beitr�
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 6"
     chapter_file: "ch53-organic-chemistry"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1931"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/huckel1931/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Hückel's 1931 <em>Quantentheoretische Beiträge zum Benzolproblem</em>, published in *Zeitschrift für Physik*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 6, Chapter *Organic Chemistry and Aromatic Systems*, where the program draws on it in the context of “H\"uckel's Rule A cyclic, planar, fully conjugated molecule is aromatic (anomalously stable) if and only if it contains 4n + 2 π electrons, where n is a non-negative integer: N_π….”

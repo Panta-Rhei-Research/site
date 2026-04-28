@@ -2,6 +2,7 @@
 title: "A note on the isoperimetric constant and the first eigenvalue of a compact Riemannian manifold"
 title_plain: "A note on the isoperimetric constant and the first eigenvalue of a compact Riemannian manifold"
 bib_key: "Buser1982"
+normalized_key: "buser1982"
 entry_type: "article"
 authors: "Buser, Peter"
 year: "1982"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1982"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/buser1982/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Buser's <em>A note on the isoperimetric constant and the first eigenvalue of a compact Riemannian manifold</em> (1982) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

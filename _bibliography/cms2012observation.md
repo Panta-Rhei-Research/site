@@ -2,6 +2,7 @@
 title: "Observation of a New Boson at a Mass of 125 GeV with the CMS Experiment at the LHC"
 title_plain: "Observation of a New Boson at a Mass of 125 GeV with the CMS Experiment at the LHC"
 bib_key: "cms2012observation"
+normalized_key: "cms2012observation"
 entry_type: "article"
 authors: "CMS Collaboration and Chatrchyan, Serguei and others"
 year: "2012"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2012"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/cms2012observation/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 The collaboration's <em>Observation of a New Boson at a Mass of 125 GeV with the CMS Experiment at the LHC</em> (2012) is part of the program's reference corpus as standard domain context for Physics. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

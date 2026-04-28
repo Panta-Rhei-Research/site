@@ -2,6 +2,7 @@
 title: "Pictures of Ultrametric Spaces, the <math><mi>p</mi></math>-adic Numbers, and Valued Fields"
 title_plain: "Pictures of Ultrametric Spaces, the p-adic Numbers, and Valued Fields"
 bib_key: "Holly2001"
+normalized_key: "holly2001"
 entry_type: "article"
 authors: "Jan E. Holly"
 year: "2001"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2001"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/holly2001/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Holly's <em>Pictures of Ultrametric Spaces, the p-adic Numbers, and Valued Fields</em> (2001) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

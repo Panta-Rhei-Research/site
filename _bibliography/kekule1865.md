@@ -2,6 +2,7 @@
 title: "Sur la constitution des substances aromatiques"
 title_plain: "Sur la constitution des substances aromatiques"
 bib_key: "Kekule1865"
+normalized_key: "kekule1865"
 entry_type: "article"
 authors: "August Kekulé"
 year: "1865"
@@ -25,7 +26,8 @@ formatted_citation_plain: "August Kekulé. (1865). <em>Sur la constitution des s
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 6"
     chapter_file: "ch53-organic-chemistry"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1865"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/kekule1865/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Kekulé's 1865 <em>Sur la constitution des substances aromatiques</em>, published in *Bulletin de la Société Chimique de Paris*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 6, Chapter *Organic Chemistry and Aromatic Systems*, where the program draws on it in the context of “Kekulé's proposal (1865) of alternating single and double bonds (C_6H_6 as a hexagonal ring) was a breakthrough, but it predicted two distinct C–C bond lengths.”

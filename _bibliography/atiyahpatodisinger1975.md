@@ -2,6 +2,7 @@
 title: "Spectral Asymmetry and Riemannian Geometry I"
 title_plain: "Spectral Asymmetry and Riemannian Geometry I"
 bib_key: "AtiyahPatodiSinger1975"
+normalized_key: "atiyahpatodisinger1975"
 entry_type: "article"
 authors: "M. F. Atiyah and V. K. Patodi and I. M. Singer"
 year: "1975"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1975"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/atiyahpatodisinger1975/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Atiyah et al.'s <em>Spectral Asymmetry and Riemannian Geometry I</em> (1975) is part of the program's reference corpus as standard domain context for Topology and Geometry. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

@@ -2,6 +2,7 @@
 title: "Stone Spaces"
 title_plain: "Stone Spaces"
 bib_key: "JohnstoneStoneSpaces1982"
+normalized_key: "johnstonestonespaces1982"
 entry_type: "book"
 authors: "Peter T. Johnstone"
 year: "1982"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Peter T. Johnstone. (1982). <em>Stone Spaces</em>. Ca
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "II"
+  -
+    book: "II"
     book_title: "Categorical Holomorphy"
     part: "Part 3"
     chapter_file: "ch13-stone-space"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1982"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/johnstonestonespaces1982/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Johnstone's <em>Stone Spaces</em> (1982), published by Cambridge University Press, sits in the program's reference corpus as a standing technical source. Cited in Book II (*Categorical Holomorphy*), Part 3, Chapter *Compact, Hausdorff, Totally Disconnected*, where the program draws on it in the context of “Stone Duality Preview Stone's representation theorem (1936) establishes a contravariant equivalence between the category of Boolean algebras and the category of Stone spaces.”

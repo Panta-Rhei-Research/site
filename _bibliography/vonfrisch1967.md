@@ -2,6 +2,7 @@
 title: "The Dance Language and Orientation of Bees"
 title_plain: "The Dance Language and Orientation of Bees"
 bib_key: "vonFrisch1967"
+normalized_key: "vonfrisch1967"
 entry_type: "book"
 authors: "Karl von Frisch"
 year: "1967"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Karl von Frisch. (1967). <em>The Dance Language and O
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 5"
     chapter_file: "ch55"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1967"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/vonfrisch1967/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 von Frisch's <em>The Dance Language and Orientation of Bees</em> (1967), published by Harvard University Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 5, Chapter *The Subsymbolic Is Real*, where the program draws on it in the context of “Animal Cognition Non-human animals navigate complex environments, recognize conspecifics, anticipate predators, and coordinate social behaviour without symbolic language.”

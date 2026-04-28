@@ -2,6 +2,7 @@
 title: "Structure in the COBE Differential Microwave Radiometer First-Year Maps"
 title_plain: "Structure in the COBE Differential Microwave Radiometer First-Year Maps"
 bib_key: "smoot1992structure"
+normalized_key: "smoot1992structure"
 entry_type: "article"
 authors: "Smoot, George F. and others"
 year: "1992"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Smoot, George F. and others. (1992). <em>Structure in
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 1"
     chapter_file: "ch09-boundary-data"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1992"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/smoot1992structure/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Smoot and others' 1992 <em>Structure in the COBE Differential Microwave Radiometer First-Year Maps</em>, published in *Astrophysical Journal Letters*, is one of the program's working technical references. Cited in Book V (*Categorical Macrocosm*), Part 1, Chapter *Boundary Data: CMB and CνB as Constraint Surfaces*, where the program draws on it in the context of “The CMB as Temporal-Epoch Constraint Surface The cosmic microwave background was discovered by Penzias and Wilson in 1965 and mapped with exquisite precision by COBE (1992) , WMAP….”

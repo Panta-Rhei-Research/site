@@ -2,6 +2,7 @@
 title: "After Virtue: A Study in Moral Theory"
 title_plain: "After Virtue: A Study in Moral Theory"
 bib_key: "macintyre1981"
+normalized_key: "macintyre1981"
 entry_type: "book"
 authors: "Alasdair MacIntyre"
 year: "1981"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Alasdair MacIntyre. (1981). <em>After Virtue: A Study
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "VII"
+  -
+    book: "VII"
     book_title: "Categorical Metaphysics"
     part: "Part 7"
     chapter_file: "ch86"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "1981"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/macintyre1981/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 MacIntyre's <em>After Virtue: A Study in Moral Theory</em> (1981), published by University of Notre Dame Press, sits in the program's reference corpus as a standing technical source. Cited in Book VII (*Categorical Metaphysics*), Part 7, Chapter *Virtue Ethics: Character as Fixed Point*, where the program draws on it in the context of “Virtue ethics, revived by Anscombe, MacIntyre , Foot, and Hursthouse, fills this gap.”

@@ -2,6 +2,7 @@
 title: "Labyrinth of Thought: A History of Set Theory and Its Role in Modern Mathematics"
 title_plain: "Labyrinth of Thought: A History of Set Theory and Its Role in Modern Mathematics"
 bib_key: "Ferreiros2007"
+normalized_key: "ferreiros2007"
 entry_type: "book"
 authors: "Ferreirós, José"
 year: "2007"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Book"
     year: "2007"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/ferreiros2007/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Ferreirós' <em>Labyrinth of Thought: A History of Set Theory and Its Role in Modern Mathematics</em> (2007) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

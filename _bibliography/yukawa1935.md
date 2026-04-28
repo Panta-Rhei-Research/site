@@ -2,6 +2,7 @@
 title: "On the Interaction of Elementary Particles"
 title_plain: "On the Interaction of Elementary Particles"
 bib_key: "Yukawa1935"
+normalized_key: "yukawa1935"
 entry_type: "article"
 authors: "Hideki Yukawa"
 year: "1935"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Hideki Yukawa. (1935). <em>On the Interaction of Elem
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 5"
     chapter_file: "ch37-hadrons-donut-ladder"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1935"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/yukawa1935/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Yukawa's 1935 <em>On the Interaction of Elementary Particles</em>, published in *Proceedings of the Physico-Mathematical Society of Japan*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 5, Chapter *Hadrons and Nuclei*, where the program draws on it in the context of “The pion mediates the residual strong force between nucleons: V_Yukawa(r) = -g^2 e^-m_π rr This Yukawa potential governs nuclear binding at inter-nucleon distances r 1 fm.”

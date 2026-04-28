@@ -2,6 +2,7 @@
 title: "Zur Theorie der analytischen Funktionen mehrerer unabhängiger Veränderlichen"
 title_plain: "Zur Theorie der analytischen Funktionen mehrerer unabhängiger Veränderlichen"
 bib_key: "Hartogs1906"
+normalized_key: "hartogs1906"
 entry_type: "article"
 authors: "Friedrich Hartogs"
 year: "1906"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1906"
@@ -42,6 +46,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/hartogs1906/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Hartogs' <em>Zur Theorie der analytischen Funktionen mehrerer unabhängiger Veränderlichen</em> (1906) is part of the program's reference corpus, acknowledged as a formal antecedent in Foundations and Logic whose structures inform the framework's vocabulary. It is retained in the corpus for completeness, though it is not directly cited in the currently published volumes of *Panta Rhei*.

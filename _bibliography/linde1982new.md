@@ -2,6 +2,7 @@
 title: "A New Inflationary Universe Scenario: A Possible Solution of the Horizon, Flatness, Homogeneity, Isotropy and Primordial Monopole Problems"
 title_plain: "A New Inflationary Universe Scenario: A Possible Solution of the Horizon, Flatness, Homogeneity, Isotropy and Primordial Monopole Problems"
 bib_key: "linde1982new"
+normalized_key: "linde1982new"
 entry_type: "article"
 authors: "Linde, Andrei D."
 year: "1982"
@@ -25,19 +26,22 @@ formatted_citation_plain: "Linde, Andrei D.. (1982). <em>A New Inflationary Univ
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 6"
     chapter_file: "ch47-inflation-as-regime"
     chapter_title: "Inflation-as-Regime: No Inflaton Sector"
     excerpt: "The Orthodox Inflation Paradigm The inflationary paradigm, developed by Guth , Linde , Albrecht, and Steinhardt in the early 1980s , postulates a scalar field φ (the inflaton) with a potential V(φ) that dominates the energy budget during a brief early epoch"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch62-inflation-cmb-bbn"
     chapter_title: "Inflation, the CMB, and Primordial Nucleosynthesis"
     excerpt: "Chaotic inflation (Linde, 1983) : V(φ) = λφ^n for n = 2, 4, … The quadratic model (n = 2) predicts r = 8/N_e ≈ 0.13—now excluded by BICEP/Keck"
-  - book: "V"
+  -
+    book: "V"
     book_title: "Categorical Macrocosm"
     part: "Part 7"
     chapter_file: "ch62-inflation-cmb-bbn"
@@ -46,13 +50,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1982"
@@ -60,6 +67,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/linde1982new/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Linde's 1982 <em>A New Inflationary Universe Scenario: A Possible Solution of the Horizon, Flatness, Homogeneity, Isotropy and Primordial Monopole Problems</em>, published in *Physics Letters B*, is one of the program's working technical references. Cited across Book V (*Categorical Macrocosm*), Part 6, Chapter *Inflation-as-Regime: No Inflaton Sector*; Book V (*Categorical Macrocosm*), Part 7, Chapter *Inflation, the CMB, and Primordial Nucleosynthesis* — the central framing is “The Orthodox Inflation Paradigm The inflationary paradigm, developed by Guth , Linde , Albrecht, and Steinhardt in the early 1980s , postulates a scalar field φ (the inflaton)…”.

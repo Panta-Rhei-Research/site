@@ -2,6 +2,7 @@
 title: "Confinement of quarks"
 title_plain: "Confinement of quarks"
 bib_key: "Wilson1974"
+normalized_key: "wilson1974"
 entry_type: "article"
 authors: "Wilson, Kenneth G."
 year: "1974"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Wilson, Kenneth G.. (1974). <em>Confinement of quarks
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 4"
     chapter_file: "ch30-confinement-admissibility"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1974"
@@ -48,6 +53,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/wilson1974/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Wilson's 1974 <em>Confinement of quarks</em>, published in *Phys. Rev. D*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 4, Chapter *Confinement as Address Irresolvability*, where the program draws on it in the context of “In orthodox QCD , confinement is understood heuristically through the linear potential V(r) ∼ σ r (string tension σ ≈ 0.9 GeV/fm) and through lattice simulations that confirm the….”

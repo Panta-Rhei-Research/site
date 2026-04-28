@@ -2,6 +2,7 @@
 title: "Foundations of Substructural Dependent Type Theory"
 title_plain: "Foundations of Substructural Dependent Type Theory"
 bib_key: "SubstructuralDTT2024"
+normalized_key: "substructuraldtt2024"
 entry_type: "article"
 authors: "Daniel Gratzer and Jonathan Sterling"
 year: "2024"
@@ -25,19 +26,22 @@ formatted_citation_plain: "Daniel Gratzer and Jonathan Sterling. (2024). <em>Fou
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch72-star-autonomous-barrier"
     chapter_title: "Star-Autonomous Categories and the Diagonal Barrier"
     excerpt: "Substructural dependent type theory : dependent types with monoidal (not cartesian closed) models, supporting resource tracking within a dependently typed framework"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
     chapter_title: "The Enrichment Frontier"
     excerpt: "Resource-sensitive type theory exists (graded modal DTT , substructural DTT )"
-  - book: "I"
+  -
+    book: "I"
     book_title: "Categorical Foundations"
     part: "Part 18"
     chapter_file: "ch73-enrichment-frontier"
@@ -46,13 +50,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2024"
@@ -60,6 +67,13 @@ right_rail:
     role: "Formal Antecedent"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/substructuraldtt2024/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Gratzer and Sterling's paper <em>Foundations of Substructural Dependent Type Theory</em> (2024) is one of the program's working technical references. Cited across Book I (*Categorical Foundations*), Part 18, Chapter *Star-Autonomous Categories and the Diagonal Barrier*; Book I (*Categorical Foundations*), Part 18, Chapter *The Enrichment Frontier* — the central framing is “Substructural dependent type theory : dependent types with monoidal (not cartesian closed) models, supporting resource tracking within a dependently typed framework”.

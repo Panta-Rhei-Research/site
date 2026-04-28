@@ -2,6 +2,7 @@
 title: "Algebrization: A New Barrier in Complexity Theory"
 title_plain: "Algebrization: A New Barrier in Complexity Theory"
 bib_key: "AaronsonWigderson2009"
+normalized_key: "aaronsonwigderson2009"
 entry_type: "article"
 authors: "Scott Aaronson and Avi Wigderson"
 year: "2009"
@@ -28,13 +29,16 @@ cited_in: []
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "2009"
@@ -42,6 +46,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: false
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/aaronsonwigderson2009/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Aaronson and Wigderson's <em>Algebrization: A New Barrier in Complexity Theory</em> (2009) is part of the program's reference corpus as standard domain context for Computation and Complexity. It is not directly cited in the currently published volumes of *Panta Rhei*, but is retained as part of the research shelf.

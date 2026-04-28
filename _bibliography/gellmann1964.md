@@ -2,6 +2,7 @@
 title: "A Schematic Model of Baryons and Mesons"
 title_plain: "A Schematic Model of Baryons and Mesons"
 bib_key: "GellMann1964"
+normalized_key: "gellmann1964"
 entry_type: "article"
 authors: "Murray Gell-Mann"
 year: "1964"
@@ -25,7 +26,8 @@ formatted_citation_plain: "Murray Gell-Mann. (1964). <em>A Schematic Model of Ba
 is_orphan: false
 has_manual_override: true
 cited_in:
-  - book: "IV"
+  -
+    book: "IV"
     book_title: "Categorical Microcosm"
     part: "Part 4"
     chapter_file: "ch32-strong-coupling-quarks"
@@ -34,13 +36,16 @@ cited_in:
 right_rail:
   toc: false
   related:
-    - title: "Bibliography"
-      url: /bibliography/
-    - title: "About the Research"
-      url: /program/about/
+    -
+      title: "Bibliography"
+      url: "/bibliography/"
+    -
+      title: "About the Research"
+      url: "/program/about/"
   artifacts:
-    - title: "Download references.bib"
-      url: /assets/bibliography/references.bib
+    -
+      title: "Download references.bib"
+      url: "/assets/bibliography/references.bib"
   meta:
     type: "Article"
     year: "1964"
@@ -48,6 +53,13 @@ right_rail:
     role: "Domain Context"
     cited_in_books: true
     updated: "April 2026"
+layout: "bibliography-entry"
+lane: "bibliography"
+permalink: "/bibliography/gellmann1964/"
+generated_from: "corpus/bibliography"
+projection_version: "v0.1"
+canonical_source: "corpus/bibliography"
+do_not_edit: true
 ---
 
 Gell-Mann's 1964 <em>A Schematic Model of Baryons and Mesons</em>, published in *Physics Letters*, is one of the program's working technical references. Cited in Book IV (*Categorical Microcosm*), Part 4, Chapter *Strong Coupling and Quarks*, where the program draws on it in the context of “Gell-Mann and Zweig (1964) had independently proposed that hadrons are built from three types of fractionally charged constituents—quarks.”
