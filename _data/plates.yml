@@ -91,6 +91,7 @@
   og_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
   pages:
     - /results/
+    - /results/landmark-results/
     - /results/world-readout/
     - /results/progress-against-agenda/
   caption: >
