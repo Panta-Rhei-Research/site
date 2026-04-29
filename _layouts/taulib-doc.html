@@ -7,10 +7,19 @@ layout: default
 <article class="taulib-doc-article">
 <header class="hero-card">
   <div class="module-eyebrow-row">
-    <span class="eyebrow">Corpus · TauLib · Compiled Lean Projection</span>
+    {% if page.projection_kind == "taulib_declaration" %}
+    <span class="eyebrow">Verify · TauLib · Declaration Projection</span>
+    {% else %}
+    <span class="eyebrow">Verify · TauLib · Module Projection</span>
+    {% endif %}
     {% if page.book %}<span class="chip">Book {{ page.book }}</span>{% endif %}
+    {% if page.kind %}<span class="chip">{{ page.kind }}</span>{% endif %}
+    {% if page.formal_status %}<span class="chip">{{ page.formal_status | replace: "_", " " }}</span>{% endif %}
   </div>
   <h1 class="taulib-module-title">{{ page.title }}</h1>
+  {% if page.module_name %}
+  <p class="muted"><code>{{ page.module_name }}</code>{% if page.name %} · <code>{{ page.name }}</code>{% endif %}</p>
+  {% endif %}
 </header>
 
 {% assign taulib_doc_body = content %}
@@ -19,6 +28,34 @@ layout: default
   {% capture taulib_doc_body %}
     {% for part in taulib_doc_parts offset:1 %}{% unless forloop.first %}</h1>{% endunless %}{{ part }}{% endfor %}
   {% endcapture %}
+{% endif %}
+
+{% if page.projection_kind == "taulib_declaration" %}
+<section class="content-card taulib-declaration-meta" aria-labelledby="taulib-declaration-meta-heading">
+  <h2 id="taulib-declaration-meta-heading">Declaration Metadata</h2>
+  <dl class="metadata-grid">
+    <div><dt>Kind</dt><dd><code>{{ page.kind }}</code></dd></div>
+    <div><dt>Formal status</dt><dd>{{ page.formal_status | default: "pending" | replace: "_", " " }}</dd></div>
+    <div><dt>Source lines</dt><dd>{{ page.source_line_start }}{% if page.source_line_end and page.source_line_end != page.source_line_start %}-{{ page.source_line_end }}{% endif %}</dd></div>
+    <div><dt>Module</dt><dd><a href="{{ page.module_url | relative_url }}"><code>{{ page.module_name }}</code></a></dd></div>
+  </dl>
+  {% if page.upstream_url %}
+  <p><a href="{{ page.upstream_url }}" target="_blank" rel="noopener">Open pinned upstream source</a></p>
+  {% endif %}
+</section>
+{% elsif page.projection_kind == "taulib_module" %}
+<section class="content-card taulib-module-meta" aria-labelledby="taulib-module-meta-heading">
+  <h2 id="taulib-module-meta-heading">Module Metadata</h2>
+  <dl class="metadata-grid">
+    <div><dt>Family</dt><dd>{{ page.family | default: "Core" }}</dd></div>
+    <div><dt>Declarations</dt><dd>{{ page.declarations | size }}</dd></div>
+    <div><dt>Imports</dt><dd>{{ page.imports | size }}</dd></div>
+    <div><dt>Imported by</dt><dd>{{ page.imported_by | size }}</dd></div>
+  </dl>
+  {% if page.upstream_url %}
+  <p><a href="{{ page.upstream_url }}" target="_blank" rel="noopener">Open pinned upstream source</a></p>
+  {% endif %}
+</section>
 {% endif %}
 
 <section class="content-card taulib-doc-content">
@@ -46,22 +83,29 @@ layout: default
 {% endif %}
 
 {% assign build = site.data.verify.build %}
-{% if build %}
+{% assign tailored_summary = site.data.taulib_projections.summary %}
+{% if build or tailored_summary %}
 <aside class="taulib-build-pin" aria-label="Generated from">
   <span class="taulib-build-label">Generated from</span>
   {% if page.upstream_url %}
   <a href="{{ page.upstream_url }}" target="_blank" rel="noopener">TauLib source</a>
+  {% elsif tailored_summary.source_commit %}
+  <a href="https://github.com/Panta-Rhei-Research/taulib/commit/{{ tailored_summary.source_commit }}" target="_blank" rel="noopener">
+    Panta-Rhei-Research/taulib@<code>{{ tailored_summary.source_commit | slice: 0, 7 }}</code>
+  </a>
   {% else %}
   <a href="{{ build.taulib.url }}/commit/{{ build.taulib.commit_sha }}" target="_blank" rel="noopener">
     {{ build.taulib.repo }}@<code>{{ build.taulib.commit_short }}</code>
   </a>
   {% endif %}
+  {% if build %}
   <span class="taulib-build-sep" aria-hidden="true">&middot;</span>
   <span>Lean&nbsp;<code>{{ build.lean.version }}</code></span>
   <span class="taulib-build-sep" aria-hidden="true">&middot;</span>
   <span>Mathlib&nbsp;<code>{{ build.mathlib.commit_short }}</code></span>
   <span class="taulib-build-sep" aria-hidden="true">&middot;</span>
   <a href="{{ build.taulib.license_url }}" target="_blank" rel="noopener license">{{ build.taulib.license }}</a>
+  {% endif %}
 </aside>
 {% endif %}
 </article>

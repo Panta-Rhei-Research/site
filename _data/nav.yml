@@ -695,7 +695,7 @@ verify_nav:
     url: "/verify/"
   - title: "TauLib"
     url: "/verify/taulib/"
-  - title: "API Docs"
+  - title: "TauLib Browser"
     url: "/verify/taulib/docs/"
   - title: "Architecture"
     url: "/verify/taulib/architecture/"

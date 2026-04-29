@@ -754,65 +754,50 @@ def write_redirect(path: Path, target: str, title: str, summary: str) -> None:
 
 def sync_taulib_projection() -> None:
     source_root = CORPUS_EXPORTS / "taulib"
-    if not source_root.exists():
+    if source_root.exists():
+        for filename in (
+            "summary.json",
+            "module-inventory.json",
+            "module-inventory.ndjson",
+            "module-inventory.csv",
+            "registry-links.json",
+            "registry-links.ndjson",
+            "registry-links.csv",
+            "import-graph.json",
+        ):
+            source = source_root / filename
+            if source.exists():
+                copy_file(source, SITE_ROOT / "_data" / "taulib" / filename)
+                copy_file(source, SITE_ROOT / "assets" / "data" / "taulib" / filename)
+
+    tailored_root = CORPUS_EXPORTS / "taulib-projections"
+    if not tailored_root.exists():
         return
-    for filename in (
-        "summary.json",
-        "module-inventory.json",
-        "module-inventory.ndjson",
-        "module-inventory.csv",
-        "registry-links.json",
-        "registry-links.ndjson",
-        "registry-links.csv",
-        "import-graph.json",
-    ):
-        source = source_root / filename
-        if source.exists():
-            copy_file(source, SITE_ROOT / "_data" / "taulib" / filename)
-            copy_file(source, SITE_ROOT / "assets" / "data" / "taulib" / filename)
 
-    docs_source = source_root / "pages" / "docs"
-    docs_target = SITE_ROOT / "corpus" / "taulib" / "docs"
-    if docs_source.exists():
-        for child in sorted(docs_target.iterdir()) if docs_target.exists() else []:
-            if child.is_dir():
-                clean_generated_tree(child)
-                try:
-                    child.rmdir()
-                except OSError:
-                    pass
-        copy_tree(docs_source, docs_target)
+    data_source = tailored_root / "data"
+    pages_source = tailored_root / "pages"
+    if data_source.exists():
+        clean_generated_tree(SITE_ROOT / "_data" / "taulib_projections")
+        clean_generated_tree(SITE_ROOT / "assets" / "data" / "taulib-projections")
+        copy_tree(data_source, SITE_ROOT / "_data" / "taulib_projections")
+        copy_tree(data_source, SITE_ROOT / "assets" / "data" / "taulib-projections")
 
-    modules = read_json(source_root / "module-inventory.json")
-    for module in modules:
-        corpus_url = module.get("corpus_url")
-        verify_url = module.get("verify_url")
-        if not corpus_url or not verify_url or verify_url == "/verify/taulib/":
-            continue
-        redirect_path = SITE_ROOT / verify_url.strip("/") / "index.md"
-        write_redirect(
-            redirect_path,
-            corpus_url,
-            f"{module.get('module', 'TauLib module')} moved to Corpus TauLib",
-            "Compatibility route for a TauLib module now owned by the Corpus lane.",
-        )
-    write_redirect(
-        SITE_ROOT / "verify" / "taulib" / "docs" / "book-i-holomorphy-d-holomorphic" / "index.md",
-        "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/",
-        "TauLib.BookI.Holomorphy.DHolomorphic moved to Corpus TauLib",
-        "Compatibility route for an earlier TauLib module slug now owned by the Corpus lane.",
-    )
+    if pages_source.exists():
+        clean_generated_tree(SITE_ROOT / "_taulib_docs")
+        clean_generated_tree(SITE_ROOT / "verify" / "taulib" / "docs")
+        copy_tree(pages_source, SITE_ROOT / "_taulib_docs")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--scope",
-        choices=("all", "foundations", "corpus-v3"),
+        choices=("all", "foundations", "corpus-v3", "taulib"),
         default="all",
         help=(
             "Sync all Corpus public exports, only Construction Spine / Foundational Hinges, "
-            "or the Corpus v3 Construction Map / Monograph / TauLib projections."
+            "the Corpus v3 Construction Map / Monograph / TauLib projections, "
+            "or only the tailored TauLib projection."
         ),
     )
     args = parser.parse_args()
@@ -827,6 +812,7 @@ def main() -> int:
     if args.scope in {"all", "corpus-v3"}:
         sync_monograph_projections()
         sync_construction_map()
+    if args.scope in {"all", "corpus-v3", "taulib"}:
         sync_taulib_projection()
     return 0
 

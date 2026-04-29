@@ -17,7 +17,7 @@ right_rail:
       url: /corpus/graph/
 ---
 
-{% assign modules = site.data.taulib["module-inventory"] %}
+{% assign modules = site.data.taulib_projections.modules %}
 
 ## Browse Modules
 
@@ -35,14 +35,15 @@ The full module inventory is rendered below for crawlers and non-JavaScript read
 
   <ol class="v2-grid v2-card-list module-explorer-grid" id="taulib-module-list">
   {% for module in modules %}
+    {% assign module_url = module["url"] %}
     <li class="module-card"
         data-book="{{ module.book }}"
         data-family="{{ module.family }}"
-        data-module="{{ module.module | downcase }}"
+        data-module="{{ module.module_name | downcase }}"
         data-registry="{{ module.registry_ids | join: ' ' }}">
       <article class="v2-tile">
         <p class="eyebrow">{{ module.book | default: "TauLib" }}{% if module.family %} · {{ module.family }}{% endif %}</p>
-        <h3><a href="{{ module.corpus_url | relative_url }}">{{ module.module }}</a></h3>
+        <h3><a href="{{ module_url | relative_url }}">{{ module.module_name }}</a></h3>
         <p>{{ module.line_count }} lines · {{ module.registry_ids | size }} registry anchors.</p>
         {% if module.registry_ids and module.registry_ids.size > 0 %}
         <p>{% for id in module.registry_ids limit: 6 %}<a class="chip" href="{{ '/registry/object/' | append: id | append: '/' | relative_url }}">{{ id }}</a>{% endfor %}</p>

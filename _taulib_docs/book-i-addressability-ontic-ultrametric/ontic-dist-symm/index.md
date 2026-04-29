@@ -1,0 +1,90 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "OnticDist_symm",
+  "permalink": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-symm/",
+  "summary_short": "`theorem` declaration in `TauLib.BookI.Addressability.OnticUltrametric`.",
+  "declaration_id": "TauLib.BookI.Addressability.OnticUltrametric::OnticDist_symm",
+  "declaration_slug": "ontic-dist-symm",
+  "kind": "theorem",
+  "name": "OnticDist_symm",
+  "module_name": "TauLib.BookI.Addressability.OnticUltrametric",
+  "module_url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/",
+  "source_line_start": 115,
+  "source_line_end": 120,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/OnticUltrametric.lean#L115-L120",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookI.Addressability.OnticUltrametric",
+        "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/OnticUltrametric.lean#L115-L120",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookI.Addressability.OnticUltrametric](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/)
+- Source path: [`TauLib/BookI/Addressability/OnticUltrametric.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/OnticUltrametric.lean#L115-L120)
+- Source range: L115-L120
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+No immediate Lean doc/comment block was detected for this declaration.
+```
+
+## Source Excerpt
+
+```lean
+theorem OnticDist_symm (nf₁ nf₂ : NormalForm) :
+    OnticDist nf₁ nf₂ = OnticDist nf₂ nf₁ := by
+  unfold OnticDist
+  by_cases h : nfEquiv nf₁ nf₂
+  · rw [if_pos h, if_pos (nfEquiv_symm h)]
+  · rw [if_neg h, if_neg (fun h21 => h (nfEquiv_symm h21))]
+```

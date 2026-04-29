@@ -1,0 +1,97 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "pmns_angle_prediction_conj",
+  "permalink": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/pmns-angle-prediction-conj/",
+  "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.NeutrinoMode`.",
+  "declaration_id": "TauLib.BookIV.Electroweak.NeutrinoMode::pmns_angle_prediction_conj",
+  "declaration_slug": "pmns-angle-prediction-conj",
+  "kind": "theorem",
+  "name": "pmns_angle_prediction_conj",
+  "module_name": "TauLib.BookIV.Electroweak.NeutrinoMode",
+  "module_url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/",
+  "source_line_start": 460,
+  "source_line_end": 464,
+  "registry_ids": [
+    "V.P123"
+  ],
+  "related_registry_items": [
+    {
+      "id": "V.P123",
+      "title": "PMNS Mixing Angle Prediction",
+      "url": "/registry/object/V.P123/"
+    }
+  ],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L460-L464",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookIV.Electroweak.NeutrinoMode",
+        "url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L460-L464",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/verify/taulib/docs/book-iv-electroweak-neutrino-mode/)
+- Source path: [`TauLib/BookIV/Electroweak/NeutrinoMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L460-L464)
+- Source range: L460-L464
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- `V.P123` — PMNS Mixing Angle Prediction
+
+## Immediate Comment / Docstring
+
+```lean
+/-- [V.P123] Conjunction: 3 angles, flavor rotation needed, θ₁₃ reasonable. -/
+```
+
+## Source Excerpt
+
+```lean
+theorem pmns_angle_prediction_conj :
+    pmns_angle_prediction.n_angles = 3 ∧
+    pmns_angle_prediction.requires_flavor_rotation = true ∧
+    pmns_angle_prediction.theta13_reasonable = true :=
+  ⟨rfl, rfl, rfl⟩
+```

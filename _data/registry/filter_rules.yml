@@ -80,16 +80,16 @@ filter_rules:
       as if they were the same quantity.
     unit: "Lean 4 modules"
     current_totals:
-      book_i: 94
-      book_ii: 65
-      book_iii: 70
-      book_iv: 89
-      book_v: 80
-      book_vi: 30
-      book_vii: 7
-      tour_modules: 8
-      grand_total: 445
-    source: "pinned TauLib commit 2261c04 (Apr 19 2026)"
+      book_i: 147
+      book_ii: 66
+      book_iii: 71
+      book_iv: 90
+      book_v: 81
+      book_vi: 31
+      book_vii: 9
+      meta_tour_root_modules: 17
+      grand_total: 512
+    source: "pinned TauLib commit cb5e830 (Apr 29 2026)"
     displayed_on:
       - "verify/taulib/status.md (Per-Book Breakdown)"
       - "verify/release-manifest.md (per-book reconciliation table, 'TauLib modules' column)"

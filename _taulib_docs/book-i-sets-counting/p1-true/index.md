@@ -1,0 +1,86 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "p1_true",
+  "permalink": "/verify/taulib/docs/book-i-sets-counting/p1-true/",
+  "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.Counting`.",
+  "declaration_id": "TauLib.BookI.Sets.Counting::p1_true",
+  "declaration_slug": "p1-true",
+  "kind": "theorem",
+  "name": "p1_true",
+  "module_name": "TauLib.BookI.Sets.Counting",
+  "module_url": "/verify/taulib/docs/book-i-sets-counting/",
+  "source_line_start": 164,
+  "source_line_end": 165,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L164-L165",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookI.Sets.Counting",
+        "url": "/verify/taulib/docs/book-i-sets-counting/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L164-L165",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookI.Sets.Counting](/verify/taulib/docs/book-i-sets-counting/)
+- Source path: [`TauLib/BookI/Sets/Counting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L164-L165)
+- Source range: L164-L165
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+/-- P1 is provably true: divisor sets are bounded. -/
+```
+
+## Source Excerpt
+
+```lean
+theorem p1_true : forall (b : TauIdx), b ≠ 0 -> forall (a : TauIdx), tau_mem a b -> a ≤ b :=
+  fun _b hb _a ha => tau_mem_le ha hb
+```

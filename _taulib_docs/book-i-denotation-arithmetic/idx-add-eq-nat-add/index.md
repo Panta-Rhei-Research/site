@@ -1,0 +1,86 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "idx_add_eq_nat_add",
+  "permalink": "/verify/taulib/docs/book-i-denotation-arithmetic/idx-add-eq-nat-add/",
+  "summary_short": "`theorem` declaration in `TauLib.BookI.Denotation.Arithmetic`.",
+  "declaration_id": "TauLib.BookI.Denotation.Arithmetic::idx_add_eq_nat_add",
+  "declaration_slug": "idx-add-eq-nat-add",
+  "kind": "theorem",
+  "name": "idx_add_eq_nat_add",
+  "module_name": "TauLib.BookI.Denotation.Arithmetic",
+  "module_url": "/verify/taulib/docs/book-i-denotation-arithmetic/",
+  "source_line_start": 50,
+  "source_line_end": 51,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Arithmetic.lean#L50-L51",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookI.Denotation.Arithmetic",
+        "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Arithmetic.lean#L50-L51",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookI.Denotation.Arithmetic](/verify/taulib/docs/book-i-denotation-arithmetic/)
+- Source path: [`TauLib/BookI/Denotation/Arithmetic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Arithmetic.lean#L50-L51)
+- Source range: L50-L51
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+/-- Bridge lemma: idx_add coincides with Nat.add. -/
+```
+
+## Source Excerpt
+
+```lean
+theorem idx_add_eq_nat_add (n m : TauIdx) : idx_add n m = n + m := by
+  simp [idx_add, toAlphaOrbit, iter_rho_depth alpha (by decide : alpha ≠ omega) n m]
+```

@@ -52,23 +52,23 @@ sections:
     | **Lean** | `{{ build.lean.version }}` | [lean-lang.org]({{ build.lean.url }}) |
     | **Mathlib** | [`{{ build.mathlib.commit_short }}`]({{ build.mathlib.url }}/commit/{{ build.mathlib.commit_sha }}) | {{ build.mathlib.policy }} |
 
-    The 445 API-doc pages under `/verify/taulib/docs/` were generated from TauLib commit `{{ build.taulib.commit_short }}` via `scripts/import_taulib_docs.py` + `scripts/convert_taulib_html_to_md.py`. To reproduce locally, clone the TauLib repo at that commit and run `lake build`.
+    The TauLib browser under `/verify/taulib/docs/` is generated from the Corpus-native TauLib projection pinned to commit `{{ build.taulib.commit_short }}`. To reproduce locally, import the TauLib snapshot into `corpus/taulib-sources/project`, run `lake build`, then run the Corpus TauLib projection/export scripts and the site sync.
 
   'Build status — summary': |
     ## Build status — summary
 
     | Metric | Value |
     |--------|------:|
-    | Total modules | **445** |
-    | Total lines | 127,440 |
-    | Theorems + lemmas | 4,332 |
-    | Definitions | 3,542 |
-    | Structures + types | 1,685 |
-    | Computations (`#eval`) | 3,721 |
+    | Total modules | **512** |
+    | Total lines | 142,406 |
+    | Theorems + lemmas | 4,863 |
+    | Definitions | 3,741 |
+    | Structures + inductive types | 1,700 |
+    | Computations (`#eval`) | 3,923 |
     | Custom `axiom` declarations | **3** (all in Book III — spectral / number-theoretic bridges) |
     | `sorry` (incomplete proofs) | **0** (across all 7 books) |
 
-    The 3 custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module API docs. The prior v1 release pinned at commit `181a59e` shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op — an axiom of type `True` is inhabited by `trivial` and added nothing to the theory.
+    The 3 custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module TauLib browser. The prior v1 release pinned at commit `181a59e` shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op — an axiom of type `True` is inhabited by `trivial` and added nothing to the theory.
 
     Pre-peer-review-fixes-v1, Book VII shipped three `theorem X : True := sorry` declarations encoding methodological commitments. These were identified as performative (True is provable by `trivial`) and were retired in favor of inspectable `def : Commitment` values carrying `statement`/`warrant`/`registry_id` string data. TauLib now contains **zero sorry across all seven books**. See `TauLib/BookVII/Meta/Commitment.lean` and the three commitment defs in `BookVII/Logos/Sector.lean` and `BookVII/Final/Boundary.lean`.
 
@@ -79,15 +79,15 @@ sections:
 
     | Book | Registry root | Dashboard total | Dashboard formalized | TauLib modules | Sorry |
     |------|-------------:|-----------------:|---------------------:|---------------:|------:|
-    | I — Foundations | 254 | 254 | 221 | 94 | 0 |
-    | II — Holomorphy | 230 | 219 | 184 | 65 | 0 |
-    | III — Spectrum | 289 | 289 | 231 | 70 | 0 |
-    | IV — Microcosm | 1864 | 1292 | 973 | 89 | 0 |
-    | V — Macrocosm | 1419 | 1253 | 884 | 80 | 0 |
-    | VI — Life | 217 | 168 | 0 | 30 | 0 |
-    | VII — Metaphysics | 274 | 273 | 182 | 7 | 0 |
-    | Tour modules | — | — | — | 8 | 0 |
-    | **Total** | **4,547** | **3,548** | **2,675** | **445** | **0** |
+    | I — Foundations | 254 | 254 | 221 | 147 | 0 |
+    | II — Holomorphy | 230 | 219 | 184 | 66 | 0 |
+    | III — Spectrum | 289 | 289 | 231 | 71 | 0 |
+    | IV — Microcosm | 1864 | 1292 | 973 | 90 | 0 |
+    | V — Macrocosm | 1419 | 1253 | 884 | 81 | 0 |
+    | VI — Life | 217 | 168 | 0 | 31 | 0 |
+    | VII — Metaphysics | 274 | 273 | 182 | 9 | 0 |
+    | Meta / Tour / root modules | — | — | — | 17 | 0 |
+    | **Total** | **4,547** | **3,548** | **2,675** | **512** | **0** |
 
     Each column applies a specific **filter rule** to the same canonical source. The filter rules are documented on the [Filter Rules manifest]({{ '/verify/filter-rules/' | relative_url }}) and summarized here:
 

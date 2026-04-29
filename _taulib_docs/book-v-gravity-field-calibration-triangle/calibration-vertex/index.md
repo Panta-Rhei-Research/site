@@ -1,0 +1,92 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "CalibrationVertex",
+  "permalink": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-vertex/",
+  "summary_short": "`inductive` declaration in `TauLib.BookV.GravityField.CalibrationTriangle`.",
+  "declaration_id": "TauLib.BookV.GravityField.CalibrationTriangle::CalibrationVertex",
+  "declaration_slug": "calibration-vertex",
+  "kind": "inductive",
+  "name": "CalibrationVertex",
+  "module_name": "TauLib.BookV.GravityField.CalibrationTriangle",
+  "module_url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/",
+  "source_line_start": 94,
+  "source_line_end": 101,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/CalibrationTriangle.lean#L94-L101",
+  "formal_status": "defined",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookV.GravityField.CalibrationTriangle",
+        "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/CalibrationTriangle.lean#L94-L101",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "inductive",
+      "status": "defined"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookV.GravityField.CalibrationTriangle](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/)
+- Source path: [`TauLib/BookV/GravityField/CalibrationTriangle.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/CalibrationTriangle.lean#L94-L101)
+- Source range: L94-L101
+- Kind: `inductive`
+- Formal status hint: `defined`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+/-- Vertex of the calibration triangle. -/
+```
+
+## Source Excerpt
+
+```lean
+inductive CalibrationVertex where
+  /-- Neutron mass: the single experimental anchor. -/
+  | NeutronMass
+  /-- Gravitational constant: from torus vacuum geometry. -/
+  | GravConstant
+  /-- Fine structure constant: from spectral/holonomy. -/
+  | FineStructure
+  deriving Repr, DecidableEq, BEq
+```

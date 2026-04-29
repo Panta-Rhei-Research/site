@@ -424,6 +424,26 @@
     "target": "TauLib.BookI.Addressability.CayleyMetric"
   },
   {
+    "source": "TauLib.BookI.Boundary.Bridge.TauIntQuotient",
+    "target": "TauLib.BookI.Boundary.NumberTower"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRatQuotient",
+    "target": "TauLib.BookI.Boundary.Bridge.TauIntQuotient"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRatQuotient",
+    "target": "TauLib.BookI.Boundary.TauRatField"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRealCongruence",
+    "target": "TauLib.BookI.Boundary.TauRealMulCongr"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
+    "target": "TauLib.BookI.Boundary.Bridge.TauRealCongruence"
+  },
+  {
     "source": "TauLib.BookI.Boundary.Characters",
     "target": "TauLib.BookI.Boundary.SplitComplex"
   },

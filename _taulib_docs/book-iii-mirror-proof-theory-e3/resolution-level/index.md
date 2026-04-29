@@ -1,0 +1,90 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "Paradox.resolution_level",
+  "permalink": "/verify/taulib/docs/book-iii-mirror-proof-theory-e3/resolution-level/",
+  "summary_short": "`def` declaration in `TauLib.BookIII.Mirror.ProofTheoryE3`.",
+  "declaration_id": "TauLib.BookIII.Mirror.ProofTheoryE3::Paradox.resolution_level",
+  "declaration_slug": "resolution-level",
+  "kind": "def",
+  "name": "Paradox.resolution_level",
+  "module_name": "TauLib.BookIII.Mirror.ProofTheoryE3",
+  "module_url": "/verify/taulib/docs/book-iii-mirror-proof-theory-e3/",
+  "source_line_start": 79,
+  "source_line_end": 83,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/ProofTheoryE3.lean#L79-L83",
+  "formal_status": "defined",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookIII.Mirror.ProofTheoryE3",
+        "url": "/verify/taulib/docs/book-iii-mirror-proof-theory-e3/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/ProofTheoryE3.lean#L79-L83",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "def",
+      "status": "defined"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookIII.Mirror.ProofTheoryE3](/verify/taulib/docs/book-iii-mirror-proof-theory-e3/)
+- Source path: [`TauLib/BookIII/Mirror/ProofTheoryE3.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/ProofTheoryE3.lean#L79-L83)
+- Source range: L79-L83
+- Kind: `def`
+- Formal status hint: `defined`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+/-- The enrichment level at which the paradox is resolved.
+    All four are resolved at E3 (self-modelling absorbs the paradox). -/
+```
+
+## Source Excerpt
+
+```lean
+def Paradox.resolution_level : Paradox -> EnrLevel
+  | .Cantor  => .E3
+  | .Russell => .E3
+  | .Goedel  => .E3
+  | .Turing  => .E3
+```
