@@ -1,0 +1,38 @@
+{
+  "projection": "taulib-sources",
+  "generated_from": "corpus/taulib-sources",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "upstream": {
+    "source_repo": "Panta-Rhei-Research/taulib",
+    "source_checkout": "local taulib checkout",
+    "source_commit": "37c12411e76f4bb89f7bc463d1443eecc0bd9afe",
+    "expected_source_commit": "37c12411e76f4bb89f7bc463d1443eecc0bd9afe",
+    "source_branch": "main",
+    "imported_at": "2026-04-29T10:46:08+00:00",
+    "policy": "Full tracked Lean source tree plus core tracked TauLib documentation. Active Lean development remains in the public taulib repo.",
+    "project_file_count": 511,
+    "lean_file_count": 509,
+    "upstream_doc_file_count": 12
+  },
+  "module_count": 508,
+  "lean_file_count": 508,
+  "total_lean_lines": 140842,
+  "declaration_count": 14552,
+  "declaration_kind_counts": {
+    "axiom": 4,
+    "class": 2,
+    "def": 3706,
+    "eval": 3923,
+    "example": 371,
+    "inductive": 182,
+    "lemma": 6,
+    "structure": 1532,
+    "theorem": 4826
+  },
+  "explicit_axiom_count": 4,
+  "sorry_assignment_count": 14,
+  "registry_link_count": 3313,
+  "registry_item_count_with_taulib_links": 3086
+}

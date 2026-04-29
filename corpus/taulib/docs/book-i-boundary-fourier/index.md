@@ -1,0 +1,46 @@
+---
+layout: "taulib-doc"
+title: "TauLib.BookI.Boundary.Fourier"
+title_plain: "TauLib.BookI.Boundary.Fourier"
+permalink: "/corpus/taulib/docs/book-i-boundary-fourier/"
+lane: "corpus"
+v2_lane: "corpus"
+type: "TauLib Module"
+status: "Canonical"
+summary_short: "Corpus TauLib module page for TauLib.BookI.Boundary.Fourier."
+module: "TauLib.BookI.Boundary.Fourier"
+book: "BookI"
+family: "Boundary"
+line_count: 264
+registry_ids:
+  - "I.D39"
+  - "I.D40"
+upstream_url: "https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookI/Boundary/Fourier.lean"
+legacy_verify_url: "/verify/taulib/docs/book-i-boundary-fourier/"
+generated_from: "corpus/taulib-sources"
+projection_version: "v3.0"
+canonical_source: "corpus/taulib-sources"
+do_not_edit: true
+---
+
+## Module status
+
+TauLib is published here as the compiled Lean projection of the Corpus. This page records the module's source file, import neighborhood, Registry anchors, and projection metadata. Semantic adequacy, bridge assumptions, and external assessment remain Verify questions. Registry anchors are rendered by the site from the current public Registry projection; anchors without a public object page remain visible as pending mappings rather than broken links.
+
+| Field | Value |
+|---|---|
+| Module | `TauLib.BookI.Boundary.Fourier` |
+| Book | `BookI` |
+| Family | `Boundary` |
+| Lines | 264 |
+| Registry anchors | 2 |
+
+## Imports
+
+- `TauLib.BookI.Boundary.Spectral`
+
+## Source
+
+- [Open source file](https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookI/Boundary/Fourier.lean)
+- Corpus source path: `taulib-sources/project/TauLib/BookI/Boundary/Fourier.lean`
+- SHA-256: `819bcfc7234447bb2c9c86f8dd756ce25a665d87a0a7a2046f046ac5796c7d43`

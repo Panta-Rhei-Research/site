@@ -1,0 +1,54 @@
+---
+layout: "taulib-doc"
+title: "TauLib.BookV.Thermodynamics.VacuumNoVoid"
+title_plain: "TauLib.BookV.Thermodynamics.VacuumNoVoid"
+permalink: "/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/"
+lane: "corpus"
+v2_lane: "corpus"
+type: "TauLib Module"
+status: "Canonical"
+summary_short: "Corpus TauLib module page for TauLib.BookV.Thermodynamics.VacuumNoVoid."
+module: "TauLib.BookV.Thermodynamics.VacuumNoVoid"
+book: "BookV"
+family: "Thermodynamics"
+line_count: 275
+registry_ids:
+  - "V.C08"
+  - "V.D94"
+  - "V.P38"
+  - "V.P39"
+  - "V.R130"
+  - "V.R131"
+  - "V.R132"
+  - "V.T65"
+  - "V.T66"
+  - "V.T67"
+upstream_url: "https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookV/Thermodynamics/VacuumNoVoid.lean"
+legacy_verify_url: "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/"
+generated_from: "corpus/taulib-sources"
+projection_version: "v3.0"
+canonical_source: "corpus/taulib-sources"
+do_not_edit: true
+---
+
+## Module status
+
+TauLib is published here as the compiled Lean projection of the Corpus. This page records the module's source file, import neighborhood, Registry anchors, and projection metadata. Semantic adequacy, bridge assumptions, and external assessment remain Verify questions. Registry anchors are rendered by the site from the current public Registry projection; anchors without a public object page remain visible as pending mappings rather than broken links.
+
+| Field | Value |
+|---|---|
+| Module | `TauLib.BookV.Thermodynamics.VacuumNoVoid` |
+| Book | `BookV` |
+| Family | `Thermodynamics` |
+| Lines | 275 |
+| Registry anchors | 10 |
+
+## Imports
+
+- `TauLib.BookV.Thermodynamics.HeatEM`
+
+## Source
+
+- [Open source file](https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookV/Thermodynamics/VacuumNoVoid.lean)
+- Corpus source path: `taulib-sources/project/TauLib/BookV/Thermodynamics/VacuumNoVoid.lean`
+- SHA-256: `2768b03763a811c4f7df734bcebe42f8847f789973767b851cb24343e6bfebdc`

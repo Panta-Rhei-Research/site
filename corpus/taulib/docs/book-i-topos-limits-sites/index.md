@@ -1,0 +1,50 @@
+---
+layout: "taulib-doc"
+title: "TauLib.BookI.Topos.LimitsSites"
+title_plain: "TauLib.BookI.Topos.LimitsSites"
+permalink: "/corpus/taulib/docs/book-i-topos-limits-sites/"
+lane: "corpus"
+v2_lane: "corpus"
+type: "TauLib Module"
+status: "Canonical"
+summary_short: "Corpus TauLib module page for TauLib.BookI.Topos.LimitsSites."
+module: "TauLib.BookI.Topos.LimitsSites"
+book: "BookI"
+family: "Topos"
+line_count: 239
+registry_ids:
+  - "I.D55"
+  - "I.D56"
+  - "I.D57"
+  - "I.P26"
+  - "I.T24"
+upstream_url: "https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookI/Topos/LimitsSites.lean"
+legacy_verify_url: "/verify/taulib/docs/book-i-topos-limits-sites/"
+generated_from: "corpus/taulib-sources"
+projection_version: "v3.0"
+canonical_source: "corpus/taulib-sources"
+do_not_edit: true
+---
+
+## Module status
+
+TauLib is published here as the compiled Lean projection of the Corpus. This page records the module's source file, import neighborhood, Registry anchors, and projection metadata. Semantic adequacy, bridge assumptions, and external assessment remain Verify questions. Registry anchors are rendered by the site from the current public Registry projection; anchors without a public object page remain visible as pending mappings rather than broken links.
+
+| Field | Value |
+|---|---|
+| Module | `TauLib.BookI.Topos.LimitsSites` |
+| Book | `BookI` |
+| Family | `Topos` |
+| Lines | 239 |
+| Registry anchors | 5 |
+
+## Imports
+
+- `TauLib.BookI.Topos.Functors`
+- `TauLib.BookI.Polarity.ChineseRemainder`
+
+## Source
+
+- [Open source file](https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookI/Topos/LimitsSites.lean)
+- Corpus source path: `taulib-sources/project/TauLib/BookI/Topos/LimitsSites.lean`
+- SHA-256: `5eca547d736010b06bbec1944708e2cffd40d2356f176cbace39a427d35f1d8a`

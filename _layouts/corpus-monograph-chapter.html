@@ -13,7 +13,9 @@ layout: default
   {% endif %}
   <div class="btn-group">
     <a href="{{ page.canonical_book_url | relative_url }}" class="btn-secondary">Book {{ page.book_id }} Corpus edition</a>
+    {% if page.canonical_part_url %}
     <a href="{{ page.canonical_part_url | relative_url }}" class="btn-secondary">{{ page.canonical_part_title | truncate: 40 }}</a>
+    {% endif %}
     <a href="{{ page.publication_book_url | relative_url }}" class="btn-ghost">Publication artifact</a>
   </div>
 </header>

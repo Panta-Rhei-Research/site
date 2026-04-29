@@ -7,7 +7,7 @@ layout: default
 <article class="taulib-doc-article">
 <header class="hero-card">
   <div class="module-eyebrow-row">
-    <span class="eyebrow">TauLib · API</span>
+    <span class="eyebrow">Corpus · TauLib · Compiled Lean Projection</span>
     {% if page.book %}<span class="chip">Book {{ page.book }}</span>{% endif %}
   </div>
   <h1 class="taulib-module-title">{{ page.title }}</h1>
@@ -25,13 +25,37 @@ layout: default
   {{ taulib_doc_body }}
 </section>
 
+{% if page.registry_ids and page.registry_ids.size > 0 %}
+<section class="content-card taulib-registry-anchors" aria-labelledby="taulib-registry-anchors-heading">
+  <h2 id="taulib-registry-anchors-heading">Registry Anchors</h2>
+  <p class="muted">Links are resolved against the current public Registry projection. IDs without a public object page remain visible as pending mappings.</p>
+  {% assign registry_objects = site.data.registry.objects %}
+  <ul class="chip-list">
+    {% for registry_id in page.registry_ids %}
+    {% assign registry_match = registry_objects | where: "id", registry_id | first %}
+    <li>
+      {% if registry_match and registry_match.url %}
+      <a class="chip" href="{{ registry_match.url | relative_url }}">{{ registry_id }}</a>
+      {% else %}
+      <span class="chip muted"><code>{{ registry_id }}</code> pending public object</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 {% assign build = site.data.verify.build %}
 {% if build %}
 <aside class="taulib-build-pin" aria-label="Generated from">
   <span class="taulib-build-label">Generated from</span>
+  {% if page.upstream_url %}
+  <a href="{{ page.upstream_url }}" target="_blank" rel="noopener">TauLib source</a>
+  {% else %}
   <a href="{{ build.taulib.url }}/commit/{{ build.taulib.commit_sha }}" target="_blank" rel="noopener">
     {{ build.taulib.repo }}@<code>{{ build.taulib.commit_short }}</code>
   </a>
+  {% endif %}
   <span class="taulib-build-sep" aria-hidden="true">&middot;</span>
   <span>Lean&nbsp;<code>{{ build.lean.version }}</code></span>
   <span class="taulib-build-sep" aria-hidden="true">&middot;</span>

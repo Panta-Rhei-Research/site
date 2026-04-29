@@ -1,123 +1,59 @@
 ---
 layout: program-doc
-title: "TauLib"
+title: "TauLib Inspection Bridge"
 permalink: /verify/taulib/
 lane: verify
-summary_short: "The Lean 4 formalization library for Category τ — 445 modules, 127,440 lines, 0 sorry across all 7 books of TauLib Lean source (scope tiered — see filter rules)."
-og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
-twitter_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
-og_image_alt: "Scientific plate showing the Verify lane as a verification matrix with obligations, construction steps, results, formal proof checking, bridge adequacy, predictions, falsification, and external assessment."
-summary_cards:
-- title: "445 modules"
-  body: "Across 7 books, covering kernel axioms through metaphysical boundary theorems."
-- title: "4,332 theorems"
-  body: "Machine-checked in Lean 4 with 3,721 computational evaluations."
-- title: "0 sorry"
-  body: "Zero across all 7 books of TauLib Lean source. The three prior Book VII methodological markers were retired in peer-review-fixes-v1 in favor of inspectable `def : Commitment` values. Book VI is registry-planned, not yet Lean-formalized — see <a href=\"/verify/filter-rules/\">Filter Rules</a>."
+v2_lane: verify
+type: "Verification Bridge"
+status: "Compatibility"
+summary_short: "Verify-side bridge from the Corpus-owned TauLib projection to semantic inspection, bridge adequacy, and external assessment."
+hero_ctas:
+  - label: "Open Corpus TauLib"
+    url: /corpus/taulib/
+    primary: true
+  - label: "Verify Framework"
+    url: /verify/verification-framework/
+  - label: "Release Manifest"
+    url: /verify/release-manifest/
 right_rail:
   related:
-  - title: Verify Overview
-    url: /verify/
-  - title: Verify the Construction Spine
-    url: /verify/construction-spine-verification/
-  - title: Architecture
-    url: /verify/taulib/architecture/
-  - title: Formalization Status
-    url: /verify/taulib/status/
-  - title: Formal Verification Stack
-    url: /verify/formal-verification-stack/
-  - title: Meta-Verification Frontier
-    url: /verify/meta-verification-frontier/
-  - title: Corpus Construction Spine
-    url: /corpus/construction-spine/
-  - title: Corpus Registry
-    url: /corpus/registry/
-  artifacts:
-  - title: TauLib (contributor)
-    url: https://github.com/Panta-Rhei-Research/taulib
-    external: true
-  - title: Formalization (frozen)
-    url: https://github.com/Panta-Rhei-Research/formalization
-    external: true
+    - title: "Corpus TauLib"
+      url: /corpus/taulib/
+    - title: "TauLib Modules"
+      url: /corpus/taulib/modules/
+    - title: "Verification Framework"
+      url: /verify/verification-framework/
+    - title: "Formal Verification Stack"
+      url: /verify/formal-verification-stack/
+    - title: "Release Manifest"
+      url: /verify/release-manifest/
   meta:
-    type: "Documentation Root"
-    status: "Frozen"
+    type: "Verification Bridge"
+    status: "Compatibility"
     updated: "April 2026"
 ---
 
-## What TauLib Is
+## What moved
 
-TauLib is the **Lean 4 formalization library** for the Panta Rhei Research Program. It machine-checks the mathematical claims of the seven-book monograph series, providing an independent verification layer that anyone can inspect and run.
+TauLib is now Corpus-owned as the compiled Lean projection of the Corpus: module inventory, generated docs, Registry links, import graph, source metadata, and projection status.
 
-**Clone and build:**
-```bash
-git clone https://github.com/Panta-Rhei-Research/taulib
-cd taulib && lake build
-```
+Use [Corpus TauLib]({{ '/corpus/taulib/' | relative_url }}) for the artifact itself.
 
-Build completes with **0 errors** and **0 sorry across all 7 books** — counted over the TauLib Lean corpus. Book VI has 30 Lean modules, none with `sorry`; Book VI's registry-level formalization is currently planned (0/168) and tracked separately — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}).
+## What Verify still owns
 
-**Metrics source:** the [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) is the authoritative reconciliation surface for the pinned TauLib commit, count scope, filter rules, and cross-page metric differences.
+Verify does not primarily ask whether the site has a Lean projection. The Corpus publishes that projection as a baseline artifact. Verify asks the higher-level inspection questions:
 
-## What TauLib Verifies
+- What does the formalization cover?
+- What do the formal terms mean relative to the surrounding Corpus?
+- Which bridges connect formal objects to mathematical, physical, biological, or metaphysical claims?
+- Which claims remain empirical, semantic, interpretive, or externally assessable?
+- Where should a reviewer challenge the assumptions rather than merely re-run compilation?
 
-Lean compilation verifies **internal consistency**: every theorem follows from the axioms, every definition type-checks, every computation evaluates. This is a strong guarantee — but it is not the same as empirical truth.
+## Inspection routes
 
-**What Lean checks**: The mathematical derivation chain from K0-K6 through to every claimed theorem.
-
-**What Lean does not check**: Whether the framework's physical predictions match experiment. That requires empirical testing.
-
-## The τ-Kernel in formal view
-
-{% capture taulib_kernel_plate_caption %}TauLib formalizes the kernel-side obligations where they have been translated into Lean. The visual kernel plate names the formal start; Lean compilation checks formal consequences, not empirical truth or external acceptance.{% endcapture %}
-{% include scientific-plate.html id="plate-10-tau-kernel" variant="thumb" class="scientific-plate--compact scientific-plate--tau-kernel" caption=taulib_kernel_plate_caption loading="lazy" %}
-
-## TauLib inside the verification matrix
-
-{% capture taulib_plate_caption %}TauLib is one formalization surface inside the broader verification matrix. Lean compilation checks formalized obligations; it does not by itself establish empirical truth.{% endcapture %}
-{% include scientific-plate.html id="plate-06-verification-matrix" variant="thumb" class="scientific-plate--compact" caption=taulib_plate_caption loading="lazy" %}
-
-TauLib verifies formal proof obligations where they have been formalized. It does not by itself verify empirical claims, bridge adequacy, semantic correspondence, life recovery, metaphysical interpretation, or external acceptance.
-
-Use TauLib together with:
-
-- [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_url }})
-- [Corpus Registry]({{ '/corpus/registry/' | relative_url }})
-- [Formal Verification Stack]({{ '/verify/formal-verification-stack/' | relative_url }})
-- [Verify the Construction Spine]({{ '/verify/construction-spine-verification/' | relative_url }})
-- [Meta-Verification Frontier]({{ '/verify/meta-verification-frontier/' | relative_url }})
-- [Release Manifest]({{ '/verify/release-manifest/' | relative_url }})
-
-## How TauLib Relates to the Books
-
-Each TauLib module corresponds to a specific chapter or section in the monograph series:
-
-| Book | Modules | Key content |
-|------|--------:|-------------|
-| I — Foundations | 94 | Kernel axioms, orbit structure, coordinates, polarity, boundary |
-| II — Holomorphy | 65 | Interior, topology, geometry, Central Theorem, Hartogs |
-| III — Spectrum | 70 | Enrichment, sectors, spectral theory, computation, Millennium doors |
-| IV — Microcosm | 89 | Particle physics, QM, electroweak, QCD, nuclear |
-| V — Macrocosm | 80 | Gravity, cosmology, BBN, black holes, fluid dynamics |
-| VI — Life | 30 | Life definition, genetics, cellular, ecology, consciousness |
-| VII — Metaphysics | 7 | Ontology, ethics, Logos, final boundary |
-| Tours | 8 | Interactive verification tours for different audiences |
-
-## Entry Points
-
-### Documentation
-- [API Documentation]({{ '/verify/taulib/docs/' | relative_url }}) — 445 module pages generated from Lean 4 source
-- [Architecture]({{ '/verify/taulib/architecture/' | relative_url }}) — Module dependency graph and reading paths
-- [Formalization Status]({{ '/verify/taulib/status/' | relative_url }}) — Per-book statistics, axiom inventory, sorry inventory
-- [Scope Labels]({{ '/verify/taulib/scope-labels/' | relative_url }}) — The 4-tier scope classification system
-- [Glossary]({{ '/verify/taulib/glossary/' | relative_url }}) — Technical terms and conventions
-
-### Interactive Tours
-- [VerifyItYourself](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/Tour/VerifyItYourself.lean) — 5 claims, verified live
-- [Foundations](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/Tour/Foundations.lean) — Axioms and rigidity
-- [CentralTheorem](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/Tour/CentralTheorem.lean) — O(τ³) ≅ A_spec(L)
-- [Physics](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/Tour/Physics.lean) — 9 electroweak predictions
-
-### Repositories
-- [TauLib (contributor)](https://github.com/Panta-Rhei-Research/taulib) — Active development
-- [Formalization (frozen)](https://github.com/Panta-Rhei-Research/formalization) — Frozen verification snapshot
+<ul class="v2-grid v2-card-list">
+  <li><article class="v2-tile"><h3><a href="{{ '/corpus/taulib/' | relative_url }}">Corpus TauLib</a></h3><p>The compiled Lean projection, module inventory, docs, and Registry-link map.</p></article></li>
+  <li><article class="v2-tile"><h3><a href="{{ '/verify/formal-verification-stack/' | relative_url }}">Formal Verification Stack</a></h3><p>How formal proof checking fits into the broader review workflow.</p></article></li>
+  <li><article class="v2-tile"><h3><a href="{{ '/verify/verification-framework/' | relative_url }}">Verification Framework</a></h3><p>How formal, bridge, empirical, and external-status checks remain distinct.</p></article></li>
+  <li><article class="v2-tile"><h3><a href="{{ '/verify/release-manifest/' | relative_url }}">Release Manifest</a></h3><p>The pinned public release context and count reconciliation surface.</p></article></li>
+</ul>

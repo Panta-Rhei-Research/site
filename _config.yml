@@ -33,7 +33,7 @@ buttondown:
 
 collections:
   taulib_docs:
-    output: true
+    output: false
   bibliography:
     output: true
     permalink: /bibliography/:name/

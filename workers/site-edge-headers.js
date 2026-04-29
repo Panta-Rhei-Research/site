@@ -6,7 +6,7 @@ const SECURITY_HEADERS = {
   "Link": [
     '</sitemap.xml>; rel="sitemap"; type="application/xml"',
     '<https://creativecommons.org/licenses/by/4.0/>; rel="license"; title="CC BY 4.0"',
-    '</verify/taulib/docs/>; rel="service-doc"; type="text/html"; title="TauLib API reference"',
+    '</corpus/taulib/docs/>; rel="service-doc"; type="text/html"; title="TauLib API reference"',
     '</verify/assessment-protocols/>; rel="help"; type="text/html"; title="Assessment protocols"',
     '</program/about/founders/>; rel="author"; type="text/html"; title="Founders"',
     '</program/about/>; rel="describedby"; type="text/html"; title="About the research program"'

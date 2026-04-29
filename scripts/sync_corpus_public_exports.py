@@ -6,7 +6,9 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
+import subprocess
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -28,6 +30,20 @@ def copy_tree(source: Path, target: Path) -> None:
     for path in sorted(source.rglob("*")):
         if path.is_file():
             copy_file(path, target / path.relative_to(source))
+
+
+def clean_generated_tree(target: Path, suffixes: tuple[str, ...] = (".md", ".json", ".csv", ".ndjson")) -> None:
+    if not target.exists():
+        return
+    for path in sorted(target.rglob("*"), reverse=True):
+        if path.is_file() and path.suffix in suffixes:
+            path.unlink()
+    for path in sorted(target.rglob("*"), reverse=True):
+        if path.is_dir():
+            try:
+                path.rmdir()
+            except OSError:
+                pass
 
 
 def read_json(path: Path) -> list[dict[str, Any]]:
@@ -75,6 +91,116 @@ def write_markdown(path: Path, frontmatter: dict[str, Any], body: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("---\n" + yaml_dump(frontmatter) + "\n---\n\n" + body.strip() + "\n", encoding="utf-8")
     print(f"generated {path.relative_to(SITE_ROOT)}")
+
+
+def read_frontmatter_scalars_text(text: str) -> dict[str, str]:
+    if not text.startswith("---"):
+        return {}
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return {}
+    scalars: dict[str, str] = {}
+    for raw_line in parts[1].splitlines():
+        if not raw_line or raw_line.startswith((" ", "-", "{", "}", "[")):
+            continue
+        if ":" not in raw_line:
+            continue
+        key, raw_value = raw_line.split(":", 1)
+        key = key.strip()
+        value = raw_value.strip()
+        if not key or value == "":
+            continue
+        try:
+            if value.startswith(("\"", "'")):
+                value = json.loads(value)
+        except json.JSONDecodeError:
+            value = value.strip("\"'")
+        scalars[key] = str(value)
+    return scalars
+
+
+def read_frontmatter_scalars(path: Path) -> dict[str, str]:
+    return read_frontmatter_scalars_text(path.read_text(encoding="utf-8", errors="replace"))
+
+
+def monograph_stable_key(frontmatter: dict[str, str]) -> str:
+    layout = frontmatter.get("layout", "")
+    permalink = frontmatter.get("permalink", "")
+    book_slug = frontmatter.get("book_slug", "")
+    if layout == "redirect" and frontmatter.get("compatibility_key"):
+        return frontmatter["compatibility_key"]
+    if layout == "corpus-monograph-chapter":
+        chapter_number = frontmatter.get("chapter_number", "")
+        if book_slug and chapter_number:
+            return f"chapter:{book_slug}:{chapter_number}"
+    if layout == "corpus-monograph-part":
+        title = re.sub(r"\s+", " ", frontmatter.get("title", "").strip())
+        title = re.sub(r"^Part\s+[IVXLCDM]+:\s*", "", title)
+        if book_slug and title:
+            return f"part:{book_slug}:{title}"
+    if layout == "corpus-monograph-book" and book_slug:
+        return f"book:{book_slug}"
+    if permalink == "/corpus/monographs/":
+        return "monograph-root"
+    return ""
+
+
+def collect_monograph_routes(root: Path) -> dict[str, dict[str, str]]:
+    routes: dict[str, dict[str, str]] = {}
+    if not root.exists():
+        return routes
+    for path in sorted(root.rglob("index.md")):
+        frontmatter = read_frontmatter_scalars(path)
+        key = monograph_stable_key(frontmatter)
+        permalink = frontmatter.get("permalink", "")
+        if key and permalink:
+            entry = {
+                "permalink": permalink,
+                "title": frontmatter.get("title", "Corpus monograph page"),
+                "relative_path": str(path.relative_to(SITE_ROOT)),
+                "layout": frontmatter.get("layout", ""),
+            }
+            if key not in routes or entry["layout"] == "redirect" or routes[key].get("layout") != "redirect":
+                routes[key] = entry
+    return routes
+
+
+def collect_monograph_routes_from_git(ref: str) -> dict[str, dict[str, str]]:
+    try:
+        listing = subprocess.run(
+            ["git", "ls-tree", "-r", "--name-only", ref, "--", "corpus/monographs"],
+            cwd=SITE_ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout.splitlines()
+    except subprocess.CalledProcessError:
+        return {}
+    routes: dict[str, dict[str, str]] = {}
+    for relative in sorted(path for path in listing if path.endswith("/index.md")):
+        try:
+            blob = subprocess.run(
+                ["git", "show", f"{ref}:{relative}"],
+                cwd=SITE_ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            ).stdout
+        except subprocess.CalledProcessError:
+            continue
+        frontmatter = read_frontmatter_scalars_text(blob)
+        key = monograph_stable_key(frontmatter)
+        permalink = frontmatter.get("permalink", "")
+        if key and permalink:
+            entry = {
+                "permalink": permalink,
+                "title": frontmatter.get("title", "Corpus monograph page"),
+                "relative_path": relative,
+                "layout": frontmatter.get("layout", ""),
+            }
+            if key not in routes or entry["layout"] == "redirect" or routes[key].get("layout") != "redirect":
+                routes[key] = entry
+    return routes
 
 
 def domain_label(domain: str) -> str:
@@ -547,13 +673,147 @@ def sync_foundations() -> None:
     copy_tree(CORPUS_EXPORTS / "foundational-hinges", SITE_ROOT / "corpus" / "foundational-hinges")
 
 
+def sync_construction_map() -> None:
+    source_root = CORPUS_EXPORTS / "construction-map"
+    if not source_root.exists():
+        return
+    for filename in ("construction-map.json", "construction-map.ndjson", "construction-map.csv"):
+        source = source_root / filename
+        copy_file(source, SITE_ROOT / "_data" / "construction_map" / filename)
+        copy_file(source, SITE_ROOT / "assets" / "data" / "construction-map" / filename)
+    clean_generated_tree(SITE_ROOT / "corpus" / "construction-map")
+    copy_tree(source_root / "pages", SITE_ROOT / "corpus" / "construction-map")
+
+
+def sync_monograph_projections() -> None:
+    source_root = CORPUS_EXPORTS / "monograph-projections"
+    if not source_root.exists():
+        return
+    old_routes = collect_monograph_routes(SITE_ROOT / "corpus" / "monographs")
+    old_routes.update(collect_monograph_routes_from_git("origin/main"))
+    clean_generated_tree(SITE_ROOT / "corpus" / "monographs")
+    copy_tree(source_root / "pages", SITE_ROOT / "corpus" / "monographs")
+    copy_tree(source_root / "data", SITE_ROOT / "_data" / "monograph_projections")
+    copy_tree(source_root / "data", SITE_ROOT / "assets" / "data" / "monograph-projections")
+    new_routes = collect_monograph_routes(SITE_ROOT / "corpus" / "monographs")
+    missing = sorted(key for key in old_routes if key not in new_routes)
+    if missing:
+        sample = ", ".join(missing[:10])
+        raise SystemExit(f"Refusing monograph sync: {len(missing)} old monograph route(s) have no certified target: {sample}")
+    for key, old in sorted(old_routes.items()):
+        new = new_routes[key]
+        old_permalink = old["permalink"]
+        new_permalink = new["permalink"]
+        if old_permalink == new_permalink:
+            continue
+        redirect_path = SITE_ROOT / old_permalink.strip("/") / "index.md"
+        if redirect_path.exists():
+            raise SystemExit(
+                "Refusing to overwrite an existing certified monograph page while writing redirect: "
+                f"{redirect_path.relative_to(SITE_ROOT)}"
+            )
+        write_markdown(
+            redirect_path,
+            {
+                "layout": "redirect",
+                "title": f"{old['title']} moved",
+                "permalink": old_permalink,
+                "redirect_to": new_permalink,
+                "compatibility_key": key,
+                "lane": "corpus",
+                "v2_lane": "corpus",
+                "type": "Compatibility Redirect",
+                "status": "Compatibility",
+                "summary_short": "Redirects to the certified Corpus monograph projection route.",
+                "generated_from": "corpus/monograph-projections",
+                "projection_version": "v0.1",
+                "canonical_source": "corpus/monograph-projections",
+                "do_not_edit": True,
+            },
+            f"Redirecting to the certified Corpus monograph route: [{new_permalink}]({new_permalink}).",
+        )
+
+
+def write_redirect(path: Path, target: str, title: str, summary: str) -> None:
+    write_markdown(
+        path,
+        {
+            "layout": "redirect",
+            "title": title,
+            "permalink": "/" + str(path.relative_to(SITE_ROOT).with_suffix("")).replace("index", "").strip("/") + "/",
+            "redirect_to": target,
+            "lane": "verify",
+            "v2_lane": "verify",
+            "type": "Compatibility Redirect",
+            "status": "Compatibility",
+            "summary_short": summary,
+        },
+        f"Redirecting to [{target}]({target}).",
+    )
+
+
+def sync_taulib_projection() -> None:
+    source_root = CORPUS_EXPORTS / "taulib"
+    if not source_root.exists():
+        return
+    for filename in (
+        "summary.json",
+        "module-inventory.json",
+        "module-inventory.ndjson",
+        "module-inventory.csv",
+        "registry-links.json",
+        "registry-links.ndjson",
+        "registry-links.csv",
+        "import-graph.json",
+    ):
+        source = source_root / filename
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "taulib" / filename)
+            copy_file(source, SITE_ROOT / "assets" / "data" / "taulib" / filename)
+
+    docs_source = source_root / "pages" / "docs"
+    docs_target = SITE_ROOT / "corpus" / "taulib" / "docs"
+    if docs_source.exists():
+        for child in sorted(docs_target.iterdir()) if docs_target.exists() else []:
+            if child.is_dir():
+                clean_generated_tree(child)
+                try:
+                    child.rmdir()
+                except OSError:
+                    pass
+        copy_tree(docs_source, docs_target)
+
+    modules = read_json(source_root / "module-inventory.json")
+    for module in modules:
+        corpus_url = module.get("corpus_url")
+        verify_url = module.get("verify_url")
+        if not corpus_url or not verify_url or verify_url == "/verify/taulib/":
+            continue
+        redirect_path = SITE_ROOT / verify_url.strip("/") / "index.md"
+        write_redirect(
+            redirect_path,
+            corpus_url,
+            f"{module.get('module', 'TauLib module')} moved to Corpus TauLib",
+            "Compatibility route for a TauLib module now owned by the Corpus lane.",
+        )
+    write_redirect(
+        SITE_ROOT / "verify" / "taulib" / "docs" / "book-i-holomorphy-d-holomorphic" / "index.md",
+        "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/",
+        "TauLib.BookI.Holomorphy.DHolomorphic moved to Corpus TauLib",
+        "Compatibility route for an earlier TauLib module slug now owned by the Corpus lane.",
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--scope",
-        choices=("all", "foundations"),
+        choices=("all", "foundations", "corpus-v3"),
         default="all",
-        help="Sync all Corpus public exports, or only Construction Spine / Foundational Hinges.",
+        help=(
+            "Sync all Corpus public exports, only Construction Spine / Foundational Hinges, "
+            "or the Corpus v3 Construction Map / Monograph / TauLib projections."
+        ),
     )
     args = parser.parse_args()
 
@@ -562,7 +822,12 @@ def main() -> int:
 
     if args.scope == "all":
         sync_problem_recovery_agenda()
-    sync_foundations()
+    if args.scope in {"all", "foundations"}:
+        sync_foundations()
+    if args.scope in {"all", "corpus-v3"}:
+        sync_monograph_projections()
+        sync_construction_map()
+        sync_taulib_projection()
     return 0
 
 

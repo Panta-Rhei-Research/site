@@ -59,7 +59,7 @@ Home::/|Publications::/publications/|Research Notes::/publications/research-note
 Home::/|Publications::/publications/|Research Notes::{{ page.url }}
 
 {%- when 'taulib-doc' -%}
-Home::/|Verify::/verify/|TauLib::/verify/taulib/|API Docs::/verify/taulib/docs/|{% if page.book %}Book {{ page.book }}::/verify/taulib/docs/|{% endif %}{{ page.title | truncate: 50 | replace: '|', ' ' }}::{{ page.url }}
+Home::/|Corpus::/corpus/|TauLib::/corpus/taulib/|Docs::/corpus/taulib/docs/|{% if page.book %}Book {{ page.book }}::/corpus/taulib/docs/|{% endif %}{{ page.title | truncate: 50 | replace: '|', ' ' }}::{{ page.url }}
 
 {%- when 'impact-paper' -%}
 {%- assign pf_slug = page.portfolio_id | default: '' | replace: 'impact-', '' -%}
