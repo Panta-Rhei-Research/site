@@ -1,0 +1,80 @@
+id,construction_sequence,layer,book_id,part_number,title,url,chapter_count,registry_ref_count,taulib_ref_count,construction_step_ids
+book-i-part-00-earned-foundations,1,mathematics,I,0,Earned Foundations,/corpus/monographs/book-i/part-00-earned-foundations/,1,0,1,CS-01;CS-02
+book-i-part-01-the-coherence-kernel,2,mathematics,I,1,The Coherence Kernel,/corpus/monographs/book-i/part-01-the-coherence-kernel/,5,15,5,CS-01;CS-02
+book-i-part-02-orbit-generation-and-ontic-closure,3,mathematics,I,2,Orbit Generation and Ontic Closure,/corpus/monographs/book-i/part-02-orbit-generation-and-ontic-closure/,4,9,5,CS-01;CS-02
+book-i-part-03-the-denotational-bridge,4,mathematics,I,3,The Denotational Bridge,/corpus/monographs/book-i/part-03-the-denotational-bridge/,6,25,21,CS-01;CS-02
+book-i-part-04-the-abcd-coordinate-chart,5,mathematics,I,4,The ABCD Coordinate Chart,/corpus/monographs/book-i/part-04-the-abcd-coordinate-chart/,5,11,12,CS-01;CS-02
+book-i-part-05-hyperfactorization,6,mathematics,I,5,Hyperfactorization,/corpus/monographs/book-i/part-05-hyperfactorization/,5,4,8,CS-01;CS-02
+book-i-part-06-the-prime-polarity-theorem,7,mathematics,I,6,The Prime Polarity Theorem,/corpus/monographs/book-i/part-06-the-prime-polarity-theorem/,2,1,2,CS-01;CS-02
+book-i-part-07-omega-germs-the-algebraic-lemniscate,8,mathematics,I,7,Omega-Germs & the Algebraic Lemniscate,/corpus/monographs/book-i/part-07-omega-germs-the-algebraic-lemniscate/,4,8,20,CS-01;CS-02
+book-i-part-08-the-spectral-ring,9,mathematics,I,8,The Spectral Ring,/corpus/monographs/book-i/part-08-the-spectral-ring/,4,1,3,CS-01;CS-02
+book-i-part-09-earned-number-systems,10,mathematics,I,9,Earned Number Systems,/corpus/monographs/book-i/part-09-earned-number-systems/,4,3,3,CS-01;CS-02
+book-i-part-10-lemniscate-characters,11,mathematics,I,10,Lemniscate Characters,/corpus/monographs/book-i/part-10-lemniscate-characters/,3,2,3,CS-01;CS-02
+book-i-part-11-tau,12,mathematics,I,11,τ,/corpus/monographs/book-i/part-11-tau/,3,11,13,CS-01;CS-02
+book-i-part-12-holomorphic-transformers,13,mathematics,I,12,Holomorphic Transformers,/corpus/monographs/book-i/part-12-holomorphic-transformers/,4,20,20,CS-01;CS-02
+book-i-part-13-internal-set-theory-the-cantor-mirage,14,mathematics,I,13,Internal Set Theory & The Cantor Mirage,/corpus/monographs/book-i/part-13-internal-set-theory-the-cantor-mirage/,8,0,0,CS-01;CS-02
+book-i-part-14-the-earned-topos,15,mathematics,I,14,The Earned Topos,/corpus/monographs/book-i/part-14-the-earned-topos/,7,37,24,CS-01;CS-02
+book-i-part-15-global-hartogs,16,mathematics,I,15,Global Hartogs,/corpus/monographs/book-i/part-15-global-hartogs/,4,16,11,CS-01;CS-02
+book-i-part-16-the-presheaf-essence,17,mathematics,I,16,The Presheaf Essence,/corpus/monographs/book-i/part-16-the-presheaf-essence/,2,3,3,CS-01;CS-02
+book-i-part-17-the-proof-theoretic-mirror,18,mathematics,I,17,The Proof-Theoretic Mirror,/corpus/monographs/book-i/part-17-the-proof-theoretic-mirror/,9,26,22,CS-01;CS-02
+book-ii-part-00-from-kernel-to-interior,19,mathematics,II,0,From Kernel to Interior,/corpus/monographs/book-ii/part-00-from-kernel-to-interior/,3,16,31,CS-02;CS-03
+book-ii-part-01-interior-points-and-the-tau,20,mathematics,II,1,Interior Points and the τ³,/corpus/monographs/book-ii/part-01-interior-points-and-the-tau/,5,22,29,CS-02;CS-03
+book-ii-part-02-local-domains-cylinders-as-prefix-predicates,21,mathematics,II,2,Local Domains: Cylinders as Prefix Predicates,/corpus/monographs/book-ii/part-02-local-domains-cylinders-as-prefix-predicates/,4,20,14,CS-02;CS-03
+book-ii-part-03-topology-and-global-shape,22,mathematics,II,3,Topology and Global Shape,/corpus/monographs/book-ii/part-03-topology-and-global-shape/,6,24,21,CS-02;CS-03
+book-ii-part-04-geometry-the-tarski-program,23,mathematics,II,4,Geometry: The Tarski Program,/corpus/monographs/book-ii/part-04-geometry-the-tarski-program/,5,18,12,CS-02;CS-03
+book-ii-part-05-earned-transcendentals-lines-circles-and-the-constants-pi-e,24,mathematics,II,5,"Earned Transcendentals: Lines, Circles, and the Constants π, e, j",/corpus/monographs/book-ii/part-05-earned-transcendentals-lines-circles-and-the-constants-pi-e/,6,37,28,CS-02;CS-03
+book-ii-part-06-local-hartogs-and-the-holomorphic-interior,25,mathematics,II,6,Local Hartogs and the Holomorphic Interior,/corpus/monographs/book-ii/part-06-local-hartogs-and-the-holomorphic-interior/,8,54,29,CS-02;CS-03
+book-ii-part-07-regularity-and-mutual-determination,26,mathematics,II,7,Regularity and Mutual Determination,/corpus/monographs/book-ii/part-07-regularity-and-mutual-determination/,5,36,24,CS-02;CS-03
+book-ii-part-08-self-enrichment-yoneda-and-higher-categories,27,mathematics,II,8,"Self-Enrichment, Yoneda, and Higher Categories",/corpus/monographs/book-ii/part-08-self-enrichment-yoneda-and-higher-categories/,5,22,16,CS-02;CS-03
+book-ii-part-09-the-central-theorem-and-categoricity,28,mathematics,II,9,The Central Theorem and Categoricity,/corpus/monographs/book-ii/part-09-the-central-theorem-and-categoricity/,6,35,29,CS-02;CS-03
+book-ii-part-10-closure-synthesis-and-bridge-to-book-iii,29,mathematics,II,10,Closure: Synthesis and Bridge to Book III,/corpus/monographs/book-ii/part-10-closure-synthesis-and-bridge-to-book-iii/,7,58,45,CS-02;CS-03
+book-ii-part-11-the-fork-category-tau-versus-orthodox-mathematics,30,mathematics,II,11,The Fork — Category τ versus Orthodox Mathematics,/corpus/monographs/book-ii/part-11-the-fork-category-tau-versus-orthodox-mathematics/,8,47,26,CS-02;CS-03
+book-iii-part-00-where-does-physics-live,31,physics,III,0,Where Does Physics Live?,/corpus/monographs/book-iii/part-00-where-does-physics-live/,3,11,15,CS-04;CS-05
+book-iii-part-01-the-self-enrichment-principle,32,physics,III,1,The Self-Enrichment Principle,/corpus/monographs/book-iii/part-01-the-self-enrichment-principle/,5,28,22,CS-04;CS-05
+book-iii-part-02-the-4-1-sector-template,33,physics,III,2,The 4+1 Sector Template,/corpus/monographs/book-iii/part-02-the-4-1-sector-template/,5,30,24,CS-04;CS-05
+book-iii-part-03-the-spectral-algebra,34,physics,III,3,The Spectral Algebra,/corpus/monographs/book-iii/part-03-the-spectral-algebra/,7,31,19,CS-04;CS-05
+book-iii-part-04-the-spectral-doors,35,physics,III,4,The Spectral Doors,/corpus/monographs/book-iii/part-04-the-spectral-doors/,10,32,17,CS-04;CS-05
+book-iii-part-05-the-physics-layer,36,physics,III,5,The Physics Layer,/corpus/monographs/book-iii/part-05-the-physics-layer/,10,33,10,CS-04;CS-05
+book-iii-part-06-the-arithmetic-mirror,37,physics,III,6,The Arithmetic Mirror,/corpus/monographs/book-iii/part-06-the-arithmetic-mirror/,8,32,16,CS-04;CS-05
+book-iii-part-07-the-hinge-theorem,38,physics,III,7,The Hinge Theorem,/corpus/monographs/book-iii/part-07-the-hinge-theorem/,4,21,13,CS-04;CS-05
+book-iii-part-08-where-physics-lives,39,physics,III,8,Where Physics Lives,/corpus/monographs/book-iii/part-08-where-physics-lives/,4,21,13,CS-04;CS-05
+book-iii-part-09-where-life-lives,40,physics,III,9,Where Life Lives,/corpus/monographs/book-iii/part-09-where-life-lives/,9,37,11,CS-04;CS-05
+book-iii-part-10-where-proof-lives,41,physics,III,10,Where Proof Lives,/corpus/monographs/book-iii/part-10-where-proof-lives/,11,57,21,CS-04;CS-05
+book-iv-part-00-two-arcs-from-one-neutron,42,physics,IV,0,Two Arcs from One Neutron,/corpus/monographs/book-iv/part-00-two-arcs-from-one-neutron/,2,0,0,CS-05;CS-06
+book-iv-part-01-the-joint-core-from-neutron-to-hydrogen,43,physics,IV,1,The Joint Core: From Neutron to Hydrogen,/corpus/monographs/book-iv/part-01-the-joint-core-from-neutron-to-hydrogen/,10,20,14,CS-05;CS-06
+book-iv-part-02-quantum-mechanics-as-address-obstruction,44,physics,IV,2,Quantum Mechanics as Address Obstruction,/corpus/monographs/book-iv/part-02-quantum-mechanics-as-address-obstruction/,8,41,16,CS-05;CS-06
+book-iv-part-03-the-electroweak-arc,45,physics,IV,3,The Electroweak Arc,/corpus/monographs/book-iv/part-03-the-electroweak-arc/,8,88,26,CS-05;CS-06
+book-iv-part-04-the-strong-sector-and-confinement,46,physics,IV,4,The Strong Sector and Confinement,/corpus/monographs/book-iv/part-04-the-strong-sector-and-confinement/,6,37,18,CS-05;CS-06
+book-iv-part-05-particles-generations-and-nuclear-physics,47,physics,IV,5,"Particles, Generations, and Nuclear Physics",/corpus/monographs/book-iv/part-05-particles-generations-and-nuclear-physics/,10,10,6,CS-05;CS-06
+book-iv-part-06-atoms-chemistry-and-molecular-structure,48,physics,IV,6,"Atoms, Chemistry, and Molecular Structure",/corpus/monographs/book-iv/part-06-atoms-chemistry-and-molecular-structure/,11,40,20,CS-05;CS-06
+book-iv-part-07-condensed-matter-and-fluid-dynamics,49,physics,IV,7,Condensed Matter and Fluid Dynamics,/corpus/monographs/book-iv/part-07-condensed-matter-and-fluid-dynamics/,11,15,7,CS-05;CS-06
+book-iv-part-08-the-constants-ledger-and-the-complexity-summit,50,physics,IV,8,The Constants Ledger and the Complexity Summit,/corpus/monographs/book-iv/part-08-the-constants-ledger-and-the-complexity-summit/,7,32,12,CS-05;CS-06
+book-v-part-00-the-hermetic-principle,51,physics,V,0,The Hermetic Principle,/corpus/monographs/book-v/part-00-the-hermetic-principle/,1,0,1,CS-05;CS-06
+book-v-part-01-the-base-itself-time-from-tau,52,physics,V,1,The Base Itself: Time from τ¹,/corpus/monographs/book-v/part-01-the-base-itself-time-from-tau/,7,50,18,CS-05;CS-06
+book-v-part-02-the-connection-gravity-earned,53,physics,V,2,The Connection: Gravity Earned,/corpus/monographs/book-v/part-02-the-connection-gravity-earned/,10,26,14,CS-05;CS-06
+book-v-part-03-what-propagates-thermodynamic-inversion,54,physics,V,3,What Propagates: Thermodynamic Inversion,/corpus/monographs/book-v/part-03-what-propagates-thermodynamic-inversion/,6,3,3,CS-05;CS-06
+book-v-part-04-collective-dynamics,55,physics,V,4,Collective Dynamics,/corpus/monographs/book-v/part-04-collective-dynamics/,7,9,5,CS-05;CS-06
+book-v-part-05-global-structure,56,physics,V,5,Global Structure,/corpus/monographs/book-v/part-05-global-structure/,12,105,46,CS-05;CS-06
+book-v-part-06-eternal-dynamics,57,physics,V,6,Eternal Dynamics,/corpus/monographs/book-v/part-06-eternal-dynamics/,13,65,24,CS-05;CS-06
+book-v-part-07-the-closure,58,physics,V,7,The Closure,/corpus/monographs/book-v/part-07-the-closure/,3,0,0,CS-05;CS-06
+book-vi-part-00-the-question-of-life,59,life,VI,0,The Question of Life,/corpus/monographs/book-vi/part-00-the-question-of-life/,2,1,0,CS-07
+book-vi-part-01-the-life-definition,60,life,VI,1,The Life Definition,/corpus/monographs/book-vi/part-01-the-life-definition/,9,54,19,CS-07
+book-vi-part-02-persistence-archaea-and-the-temporal-axis,61,life,VI,2,Persistence — Archaea and the Temporal Axis,/corpus/monographs/book-vi/part-02-persistence-archaea-and-the-temporal-axis/,5,40,9,CS-07
+book-vi-part-03-agency-bacteria-and-the-spatial-axis,62,life,VI,3,Agency — Bacteria and the Spatial Axis,/corpus/monographs/book-vi/part-03-agency-bacteria-and-the-spatial-axis/,6,18,4,CS-07
+book-vi-part-04-source-plants-and-the-production-fiber,63,life,VI,4,Source — Plants and the Production Fiber,/corpus/monographs/book-vi/part-04-source-plants-and-the-production-fiber/,5,17,8,CS-07
+book-vi-part-05-closure-fungi-and-the-recycling-fiber,64,life,VI,5,Closure — Fungi and the Recycling Fiber,/corpus/monographs/book-vi/part-05-closure-fungi-and-the-recycling-fiber/,5,15,5,CS-07
+book-vi-part-06-consumer-animals-and-the-mixed-sector,65,life,VI,6,Consumer — Animals and the Mixed Sector,/corpus/monographs/book-vi/part-06-consumer-animals-and-the-mixed-sector/,10,37,11,CS-07
+book-vi-part-07-cosmic-life,66,life,VI,7,Cosmic Life,/corpus/monographs/book-vi/part-07-cosmic-life/,8,46,20,CS-07
+book-vi-part-08-consciousness-language-and-the-bridge-to-e,67,life,VI,8,"Consciousness, Language, and the Bridge to E₃",/corpus/monographs/book-vi/part-08-consciousness-language-and-the-bridge-to-e/,3,17,6,CS-07
+book-vii-part-00-the-third-self-enrichment,68,metaphysics,VII,0,The Third Self-Enrichment,/corpus/monographs/book-vii/part-00-the-third-self-enrichment/,2,5,4,CS-08;CS-09;CS-10
+book-vii-part-01-the-metaphysics-definition,69,metaphysics,VII,1,The Metaphysics Definition,/corpus/monographs/book-vii/part-01-the-metaphysics-definition/,13,46,7,CS-08;CS-09;CS-10
+book-vii-part-02-categorical-ontology,70,metaphysics,VII,2,Categorical Ontology,/corpus/monographs/book-vii/part-02-categorical-ontology/,17,38,2,CS-08;CS-09;CS-10
+book-vii-part-03-categorical-phenomenology,71,metaphysics,VII,3,Categorical Phenomenology,/corpus/monographs/book-vii/part-03-categorical-phenomenology/,8,15,1,CS-08;CS-09;CS-10
+book-vii-part-04-categorical-aesthetics,72,metaphysics,VII,4,Categorical Aesthetics,/corpus/monographs/book-vii/part-04-categorical-aesthetics/,13,15,0,CS-08;CS-09;CS-10
+book-vii-part-05-categorical-language-meaning,73,metaphysics,VII,5,Categorical Language & Meaning,/corpus/monographs/book-vii/part-05-categorical-language-meaning/,12,14,1,CS-08;CS-09;CS-10
+book-vii-part-06-categorical-logic-inference,74,metaphysics,VII,6,Categorical Logic & Inference,/corpus/monographs/book-vii/part-06-categorical-logic-inference/,10,24,6,CS-08;CS-09;CS-10
+book-vii-part-07-categorical-ethics-the-kantian-bridge,75,metaphysics,VII,7,Categorical Ethics & the Kantian Bridge,/corpus/monographs/book-vii/part-07-categorical-ethics-the-kantian-bridge/,18,34,2,CS-08;CS-09;CS-10
+book-vii-part-08-categorical-societies,76,metaphysics,VII,8,Categorical Societies,/corpus/monographs/book-vii/part-08-categorical-societies/,12,15,1,CS-08;CS-09;CS-10
+book-vii-part-09-categorical-mind-consciousness,77,metaphysics,VII,9,Categorical Mind & Consciousness,/corpus/monographs/book-vii/part-09-categorical-mind-consciousness/,13,21,4,CS-08;CS-09;CS-10
+book-vii-part-10-the-logos-sector,78,metaphysics,VII,10,The Logos Sector,/corpus/monographs/book-vii/part-10-the-logos-sector/,6,12,5,CS-08;CS-09;CS-10
+book-vii-part-12-the-final-boundary-from-proof-to-commitment,79,metaphysics,VII,11,The Final Boundary: From Proof to Commitment,/corpus/monographs/book-vii/part-11-the-final-boundary-from-proof-to-commitment/,4,3,4,CS-08;CS-09;CS-10

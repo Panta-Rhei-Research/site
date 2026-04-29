@@ -1,0 +1,29 @@
+{
+  "projection": "taulib-projections",
+  "generated_from": "corpus/taulib-sources/project",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "source_commit": "cb5e83015b54dd72eba560953fe2461820078757",
+  "module_count": 512,
+  "declaration_count": 14601,
+  "declaration_kind_counts": {
+    "def": 3741,
+    "theorem": 4857,
+    "structure": 1518,
+    "example": 371,
+    "eval": 3923,
+    "inductive": 182,
+    "axiom": 3,
+    "lemma": 6
+  },
+  "formal_status_counts": {
+    "defined": 5441,
+    "formalized": 4863,
+    "example": 371,
+    "computed": 3923,
+    "axiom": 3
+  },
+  "registry_linked_module_count": 478,
+  "registry_linked_declaration_count": 3998
+}

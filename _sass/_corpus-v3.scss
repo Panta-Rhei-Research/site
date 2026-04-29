@@ -1,0 +1,135 @@
+.corpus-entry-modes .v2-tile,
+.construction-map-grid .v2-tile,
+.chapter-card-grid .v2-tile,
+.module-explorer-grid .v2-tile {
+  height: 100%;
+}
+
+.status-triplet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.8rem 0;
+}
+
+.status-triplet span {
+  border: 1px solid rgba(31, 49, 70, 0.14);
+  border-radius: 999px;
+  background: rgba(246, 249, 251, 0.78);
+  color: var(--muted);
+  font-size: 0.82rem;
+  padding: 0.22rem 0.55rem;
+}
+
+.metadata-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.85rem;
+  margin: 0;
+}
+
+.metadata-grid div {
+  border: 1px solid rgba(31, 49, 70, 0.12);
+  border-radius: 8px;
+  padding: 0.85rem;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.metadata-grid dt {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.metadata-grid dd {
+  margin: 0.25rem 0 0;
+}
+
+.two-column-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+}
+
+.chip-list,
+.compact-link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.compact-link-list li {
+  margin: 0.45rem 0;
+}
+
+.sequence-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.content-browser {
+  border: 1px solid rgba(31, 49, 70, 0.14);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.76);
+  margin: 1.2rem 0;
+}
+
+.compact-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.compact-toolbar label {
+  display: grid;
+  gap: 0.25rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.compact-toolbar input,
+.compact-toolbar select {
+  min-width: 10rem;
+  border: 1px solid rgba(31, 49, 70, 0.18);
+  border-radius: 8px;
+  color: var(--text);
+  font: inherit;
+  padding: 0.52rem 0.65rem;
+  text-transform: none;
+  background: #fff;
+}
+
+.graph-output .graph-detail {
+  margin-top: 0.5rem;
+}
+
+.graph-output h4 {
+  margin: 1rem 0 0.35rem;
+}
+
+@media (max-width: 760px) {
+  .compact-toolbar {
+    align-items: stretch;
+  }
+
+  .compact-toolbar label,
+  .compact-toolbar input,
+  .compact-toolbar select {
+    width: 100%;
+  }
+}

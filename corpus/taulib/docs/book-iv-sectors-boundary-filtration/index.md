@@ -1,0 +1,58 @@
+---
+layout: "taulib-doc"
+title: "TauLib.BookIV.Sectors.BoundaryFiltration"
+title_plain: "TauLib.BookIV.Sectors.BoundaryFiltration"
+permalink: "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/"
+lane: "corpus"
+v2_lane: "corpus"
+type: "TauLib Module"
+status: "Canonical"
+summary_short: "Corpus TauLib module page for TauLib.BookIV.Sectors.BoundaryFiltration."
+module: "TauLib.BookIV.Sectors.BoundaryFiltration"
+book: "BookIV"
+family: "Sectors"
+line_count: 266
+registry_ids:
+  - "IV.D328"
+  - "IV.D329"
+  - "IV.D330"
+  - "IV.D60"
+  - "IV.D61"
+  - "IV.D62"
+  - "IV.P09"
+  - "IV.P178"
+  - "IV.R387"
+  - "IV.T130"
+  - "IV.T131"
+  - "IV.T132"
+  - "IV.T17"
+upstream_url: "https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookIV/Sectors/BoundaryFiltration.lean"
+legacy_verify_url: "/verify/taulib/docs/book-iv-sectors-boundary-filtration/"
+generated_from: "corpus/taulib-sources"
+projection_version: "v3.0"
+canonical_source: "corpus/taulib-sources"
+do_not_edit: true
+---
+
+## Module status
+
+TauLib is published here as the compiled Lean projection of the Corpus. This page records the module's source file, import neighborhood, Registry anchors, and projection metadata. Semantic adequacy, bridge assumptions, and external assessment remain Verify questions. Registry anchors are rendered by the site from the current public Registry projection; anchors without a public object page remain visible as pending mappings rather than broken links.
+
+| Field | Value |
+|---|---|
+| Module | `TauLib.BookIV.Sectors.BoundaryFiltration` |
+| Book | `BookIV` |
+| Family | `Sectors` |
+| Lines | 266 |
+| Registry anchors | 13 |
+
+## Imports
+
+- `TauLib.BookIV.Sectors.ModeCensus`
+- `TauLib.BookIV.Sectors.SectorParameters`
+
+## Source
+
+- [Open source file](https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookIV/Sectors/BoundaryFiltration.lean)
+- Corpus source path: `taulib-sources/project/TauLib/BookIV/Sectors/BoundaryFiltration.lean`
+- SHA-256: `8cb4300b21d74de6a779a0566dce1b03c781321d61b723c6ccde0492f9c97d42`

@@ -38,11 +38,11 @@ This is not a data-integrity bug. It is three different **filter rules** applied
 | `dashboard_display` | Only the five display types (D + L + P + R + T) — the types per-book dashboards enumerate | 168 |
 | `formalized_count` | `dashboard_display` restricted to `formalization_status == formalized` | 0 |
 | `planned_count` | `dashboard_display` restricted to `formalization_status == planned` | 143 |
-| `taulib_modules` | Lean 4 module count — **different unit** from registry objects (one module hosts many objects) | 30 |
+| `taulib_modules` | Lean 4 module count — **different unit** from registry objects (one module hosts many objects) | 31 |
 
 **Why two registry filters, not one?** A dashboard that rendered every remark, axiom, and corollary would be 2× longer and harder to scan. A registry root that silently dropped "ancillary" object types would lose claim-ID stability across releases. The two rules — one complete, one display-filtered — give both clarity and completeness. The column-mapping in the [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}#per-book-reconciliation) makes the choice explicit at every surface.
 
-**Why `taulib_modules` sits apart.** Lean modules and registry objects are **different units**. A single Lean module can host dozens of registry objects (definitions, theorems, propositions side by side). The module count (445 total) and the object count (4,547 total) are both correct for their respective units; they are not comparable quantities.
+**Why `taulib_modules` sits apart.** Lean modules and registry objects are **different units**. A single Lean module can host dozens of registry objects (definitions, theorems, propositions side by side). The module count (512 total) and the object count (4,547 total) are both correct for their respective units; they are not comparable quantities.
 
 ## Current totals — per book
 

@@ -1,0 +1,49 @@
+---
+layout: "taulib-doc"
+title: "TauLib.BookVI.Source.SourceSector"
+title_plain: "TauLib.BookVI.Source.SourceSector"
+permalink: "/corpus/taulib/docs/book-vi-source-source-sector/"
+lane: "corpus"
+v2_lane: "corpus"
+type: "TauLib Module"
+status: "Canonical"
+summary_short: "Corpus TauLib module page for TauLib.BookVI.Source.SourceSector."
+module: "TauLib.BookVI.Source.SourceSector"
+book: "BookVI"
+family: "Source"
+line_count: 174
+registry_ids:
+  - "VI.D36"
+  - "VI.D37"
+  - "VI.D38"
+  - "VI.P13"
+  - "VI.T20"
+upstream_url: "https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookVI/Source/SourceSector.lean"
+legacy_verify_url: "/verify/taulib/docs/book-vi-source-source-sector/"
+generated_from: "corpus/taulib-sources"
+projection_version: "v3.0"
+canonical_source: "corpus/taulib-sources"
+do_not_edit: true
+---
+
+## Module status
+
+TauLib is published here as the compiled Lean projection of the Corpus. This page records the module's source file, import neighborhood, Registry anchors, and projection metadata. Semantic adequacy, bridge assumptions, and external assessment remain Verify questions. Registry anchors are rendered by the site from the current public Registry projection; anchors without a public object page remain visible as pending mappings rather than broken links.
+
+| Field | Value |
+|---|---|
+| Module | `TauLib.BookVI.Source.SourceSector` |
+| Book | `BookVI` |
+| Family | `Source` |
+| Lines | 174 |
+| Registry anchors | 5 |
+
+## Imports
+
+- `TauLib.BookVI.Sectors.FourPlusOne`
+
+## Source
+
+- [Open source file](https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookVI/Source/SourceSector.lean)
+- Corpus source path: `taulib-sources/project/TauLib/BookVI/Source/SourceSector.lean`
+- SHA-256: `fcbc7010c07df59d75e089084fe676f91f288271917d93f8f73dc96b87e380b3`

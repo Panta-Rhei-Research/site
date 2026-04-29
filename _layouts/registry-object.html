@@ -74,24 +74,16 @@ layout: default
 {% if page.lean_module != "" %}
 <section class="content-card" aria-labelledby="registry-lean-heading">
   <h2 id="registry-lean-heading">Lean Formalization</h2>
-  {%- comment -%}
-    taulib.site uses doc-gen4 slugs of the form `book-i-boundary-characters`
-    (dash between `book` and the Roman numeral). Liquid's `slugify` filter
-    collapses `BookI` → `booki`, so we normalize manually with a cascade of
-    `replace` filters (longest prefix first so `BookVII` matches before
-    `BookV` before `BookI`).
-  {%- endcomment -%}
-  {%- assign lean_slug = page.lean_module
-    | remove: "TauLib."
-    | replace: "BookVII.", "book-vii-"
-    | replace: "BookVI.", "book-vi-"
-    | replace: "BookV.", "book-v-"
-    | replace: "BookIV.", "book-iv-"
-    | replace: "BookIII.", "book-iii-"
-    | replace: "BookII.", "book-ii-"
-    | replace: "BookI.", "book-i-"
-    | slugify -%}
-  <p><strong>Module:</strong> <a href="https://taulib.site/docs/{{ lean_slug }}/" target="_blank" rel="noopener"><code>{{ page.lean_module }}</code></a></p>
+  {% assign taulib_modules = site.data.taulib_projections.modules %}
+  {% assign lean_module_match = taulib_modules | where: "module_name", page.lean_module | first %}
+  <p><strong>Module:</strong>
+    {% if lean_module_match %}
+      {% assign lean_module_url = lean_module_match["url"] %}
+      <a href="{{ lean_module_url | relative_url }}"><code>{{ page.lean_module }}</code></a>
+    {% else %}
+      <code>{{ page.lean_module }}</code> <span class="muted">(pending public TauLib projection page)</span>
+    {% endif %}
+  </p>
   {% if page.lean_name != "" %}
   <p><strong>Symbol:</strong> <code>{{ page.lean_name }}</code></p>
   {% endif %}

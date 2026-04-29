@@ -1,0 +1,94 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "enr_01_10_1",
+  "permalink": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/enr-01-10-1/",
+  "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.EnrFunctor01`.",
+  "declaration_id": "TauLib.BookIII.Arithmetic.EnrFunctor01::enr_01_10_1",
+  "declaration_slug": "enr-01-10-1",
+  "kind": "theorem",
+  "name": "enr_01_10_1",
+  "module_name": "TauLib.BookIII.Arithmetic.EnrFunctor01",
+  "module_url": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/",
+  "source_line_start": 153,
+  "source_line_end": 154,
+  "registry_ids": [
+    "III.D57"
+  ],
+  "related_registry_items": [
+    {
+      "id": "III.D57",
+      "title": "Enrichment Functor Enr₀₁",
+      "url": "/registry/object/III.D57/"
+    }
+  ],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrFunctor01.lean#L153-L154",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookIII.Arithmetic.EnrFunctor01",
+        "url": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrFunctor01.lean#L153-L154",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookIII.Arithmetic.EnrFunctor01](/verify/taulib/docs/book-iii-arithmetic-enr-functor01/)
+- Source path: [`TauLib/BookIII/Arithmetic/EnrFunctor01.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrFunctor01.lean#L153-L154)
+- Source range: L153-L154
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- `III.D57` — Enrichment Functor Enr₀₁
+
+## Immediate Comment / Docstring
+
+```lean
+/-- [III.D57] Structural: enrichment at depth 1. -/
+```
+
+## Source Excerpt
+
+```lean
+theorem enr_01_10_1 :
+    enr_01_check 10 1 = true := by native_decide
+```

@@ -1,0 +1,94 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "projection_idempotent",
+  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/projection-idempotent/",
+  "summary_short": "`theorem` declaration in `TauLib.BookIV.QuantumMechanics.Measurement`.",
+  "declaration_id": "TauLib.BookIV.QuantumMechanics.Measurement::projection_idempotent",
+  "declaration_slug": "projection-idempotent",
+  "kind": "theorem",
+  "name": "projection_idempotent",
+  "module_name": "TauLib.BookIV.QuantumMechanics.Measurement",
+  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/",
+  "source_line_start": 138,
+  "source_line_end": 139,
+  "registry_ids": [
+    "IV.P26"
+  ],
+  "related_registry_items": [
+    {
+      "id": "IV.P26",
+      "title": "Measurement Repeatability",
+      "url": "/registry/object/IV.P26/"
+    }
+  ],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L138-L139",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookIV.QuantumMechanics.Measurement",
+        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L138-L139",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookIV.QuantumMechanics.Measurement](/verify/taulib/docs/book-iv-quantum-mechanics-measurement/)
+- Source path: [`TauLib/BookIV/QuantumMechanics/Measurement.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L138-L139)
+- Source range: L138-L139
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- `IV.P26` — Measurement Repeatability
+
+## Immediate Comment / Docstring
+
+```lean
+/-- [IV.P26] Projection is idempotent by construction. -/
+```
+
+## Source Excerpt
+
+```lean
+theorem projection_idempotent (p : PostResolutionState)
+    (h : p.is_idempotent = true) : p.is_idempotent = true := h
+```

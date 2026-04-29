@@ -1,0 +1,87 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "synchrotron_ratio_universal",
+  "permalink": "/verify/taulib/docs/book-v-astrophysics-ehtreread/synchrotron-ratio-universal/",
+  "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.EHTReread`.",
+  "declaration_id": "TauLib.BookV.Astrophysics.EHTReread::synchrotron_ratio_universal",
+  "declaration_slug": "synchrotron-ratio-universal",
+  "kind": "theorem",
+  "name": "synchrotron_ratio_universal",
+  "module_name": "TauLib.BookV.Astrophysics.EHTReread",
+  "module_url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/",
+  "source_line_start": 370,
+  "source_line_end": 372,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L370-L372",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookV.Astrophysics.EHTReread",
+        "url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L370-L372",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookV.Astrophysics.EHTReread](/verify/taulib/docs/book-v-astrophysics-ehtreread/)
+- Source path: [`TauLib/BookV/Astrophysics/EHTReread.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L370-L372)
+- Source range: L370-L372
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+/-- Frequency ratio is ι_τ⁻¹ for both sources -/
+```
+
+## Source Excerpt
+
+```lean
+theorem synchrotron_ratio_universal :
+    m87_synchrotron.spectral_index_x100 = sgra_synchrotron.spectral_index_x100 := by
+  decide
+```

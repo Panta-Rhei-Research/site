@@ -2,7 +2,7 @@
 #
 # Update this file whenever a new TauLib release is pinned into the site.
 # It is surfaced on /verify/taulib/status/ and in the taulib-doc layout footer
-# so readers can trace generated API docs to an exact revision.
+# so readers can trace generated TauLib projection pages to an exact revision.
 #
 # Populate with: gh api repos/Panta-Rhei-Research/taulib/commits/main --jq .sha
 # and by reading lake-manifest.json for the mathlib rev.
@@ -11,12 +11,12 @@ taulib:
   repo: "Panta-Rhei-Research/taulib"
   url: "https://github.com/Panta-Rhei-Research/taulib"
   branch: "main"
-  commit_sha: "2261c049119c8dd9a4e891457f196745178c02b3"
-  commit_short: "2261c04"
-  commit_date: "2026-04-19"
+  commit_sha: "cb5e83015b54dd72eba560953fe2461820078757"
+  commit_short: "cb5e830"
+  commit_date: "2026-04-29"
   license: "Apache-2.0"
   license_url: "https://github.com/Panta-Rhei-Research/taulib/blob/main/LICENSE"
-  description: "Live Lean 4 formalization of Category τ — 445 modules, 127K lines, 4332 theorems, 0 sorry across all 7 books of TauLib Lean source, 3 conjectural axioms (Book III); Book VI is registry-planned, not yet Lean-formalized — scope tiered, see /verify/filter-rules/"
+  description: "Live Lean 4 formalization of Category τ — 512 modules, 14,601 scanned declarations/evals, 4,857 theorems, 0 active sorry assignments, 3 custom axioms; scope tiered, see /verify/filter-rules/"
 
 lean:
   version: "v4.28.0-rc1"
@@ -31,7 +31,8 @@ mathlib:
   policy: "Tactics only (simp, omega, ring, aesop, decide). NEVER imports Mathlib mathematical content."
 
 generated_docs:
-  source_commit: "2261c049119c8dd9a4e891457f196745178c02b3"
+  source_commit: "cb5e83015b54dd72eba560953fe2461820078757"
   generator_scripts:
-    - "scripts/import_taulib_docs.py"
-    - "scripts/convert_taulib_html_to_md.py"
+    - "corpus/scripts/build_taulib_projections.py"
+    - "corpus/scripts/export_taulib_projections.py"
+    - "site/scripts/sync_corpus_public_exports.py --scope taulib"

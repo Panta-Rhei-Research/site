@@ -1,0 +1,4946 @@
+[
+  {
+    "source": "TauLib",
+    "target": "TauLib.BookI"
+  },
+  {
+    "source": "TauLib",
+    "target": "TauLib.BookII"
+  },
+  {
+    "source": "TauLib",
+    "target": "TauLib.BookIII"
+  },
+  {
+    "source": "TauLib",
+    "target": "TauLib.BookIV"
+  },
+  {
+    "source": "TauLib",
+    "target": "TauLib.BookV"
+  },
+  {
+    "source": "TauLib",
+    "target": "TauLib.BookVI"
+  },
+  {
+    "source": "TauLib",
+    "target": "TauLib.BookVII"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.ComplexField"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.ConstructiveReals"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Cyclotomic"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Fourier"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Galois"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Integration"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Measure"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.NumberTower"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Quaternions"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Ring"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.Spectral"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.CF.WindowAlgebra"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.ABCD"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.ChebyshevBias"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.Descent"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.Hyperfact"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.NoTie"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.NormalForm"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.PrimeEnumeration"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Coordinates.TowerAtoms"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.Arithmetic"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.Equality"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.GrowthEscape"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.Order"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.ProgramMonoid"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.RankTransfer"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.SolenoidPitch"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.Structural"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Denotation.TauIdx"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.BoundaryInterior"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.DHolomorphic"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.DiagonalProtection"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.GlobalHartogs"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.IdentityTheorem"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.PresheafEssence"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.SpectralCoefficients"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.TauHolomorphic"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Holomorphy.Thinness"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Kernel.ActionQuantum"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Kernel.Axioms"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Kernel.Signature"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Logic.BooleanRecovery"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Logic.Explosion"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Logic.Truth4"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.MetaLogic.DiagonalResonance"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.MetaLogic.LinearDiscipline"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.MetaLogic.LinearityAudit"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.MetaLogic.OnticInvariance"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.MetaLogic.ReceptionCriterion"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.MetaLogic.StructuralExclusion"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.MetaLogic.Substrate"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.Closure"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.Countability"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.Generation"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.Ladder"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.Saturation"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.TooFew"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Orbit.TooMany"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.CRTBasis"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.ExtGCD"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.Lemniscate"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.NthPrime"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.OmegaRing"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.Polarity"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.PolarizedGerms"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.PrimeBridge"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.Spectral"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Polarity.TeichmuellerLift"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.CantorRefutation"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.Counting"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.Membership"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.Operations"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.OrbitSets"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.Powerset"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.UniqueInfinity"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Sets.Universe"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Topos.CartesianProduct"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Topos.EarnedArrows"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Topos.EarnedTopos"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Topos.Functors"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Topos.InternalHom"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Topos.LimitsSites"
+  },
+  {
+    "source": "TauLib.BookI",
+    "target": "TauLib.BookI.Topos.WedgeProduct"
+  },
+  {
+    "source": "TauLib.BookI.Addressability.AddressResolution",
+    "target": "TauLib.BookI.Addressability.OnticUltrametric"
+  },
+  {
+    "source": "TauLib.BookI.Addressability.CayleyMetric",
+    "target": "TauLib.BookI.Denotation.ProgramMonoid"
+  },
+  {
+    "source": "TauLib.BookI.Addressability.HingeIntegration",
+    "target": "TauLib.BookI.Addressability.AddressResolution"
+  },
+  {
+    "source": "TauLib.BookI.Addressability.HingeIntegration",
+    "target": "TauLib.BookI.Addressability.CayleyMetric"
+  },
+  {
+    "source": "TauLib.BookI.Addressability.HingeIntegration",
+    "target": "TauLib.BookI.Addressability.OnticUltrametric"
+  },
+  {
+    "source": "TauLib.BookI.Addressability.OnticUltrametric",
+    "target": "TauLib.BookI.Addressability.CayleyMetric"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauIntQuotient",
+    "target": "TauLib.BookI.Boundary.NumberTower"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRatQuotient",
+    "target": "TauLib.BookI.Boundary.Bridge.TauIntQuotient"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRatQuotient",
+    "target": "TauLib.BookI.Boundary.TauRatField"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRealCongruence",
+    "target": "TauLib.BookI.Boundary.TauRealMulCongr"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
+    "target": "TauLib.BookI.Boundary.Bridge.TauRealCongruence"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Characters",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Characters",
+    "target": "TauLib.BookI.Polarity.Lemniscate"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.ComplexField",
+    "target": "TauLib.BookI.Boundary.ConstructiveReals"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.ComplexField",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.ConstructiveReals",
+    "target": "TauLib.BookI.Boundary.TauRatAbs"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.CouplingIdentityApproximants",
+    "target": "TauLib.BookI.Boundary.UniversalFixedScalar"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Cyclotomic",
+    "target": "TauLib.BookI.Boundary.NumberTower"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Cyclotomic",
+    "target": "TauLib.BookI.Polarity.CRTBasis"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.DefectInverseSystem",
+    "target": "TauLib.BookI.Boundary.IotaTauStructural"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.DefectInverseSystem",
+    "target": "TauLib.BookI.Polarity.InverseLimit"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Fourier",
+    "target": "TauLib.BookI.Boundary.Spectral"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Galois",
+    "target": "TauLib.BookI.Boundary.Cyclotomic"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Galois",
+    "target": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Integration",
+    "target": "TauLib.BookI.Boundary.Measure"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Iota",
+    "target": "TauLib.BookI.Boundary.Ring"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Iota",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.IotaTauStructural",
+    "target": "TauLib.BookI.Boundary.TauRealIotaTau"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.IotaTauStructural",
+    "target": "TauLib.BookI.Boundary.TauRealMulCongr"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.IotaTauStructural",
+    "target": "TauLib.BookI.Polarity.Lemniscate"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.IotaTauStructural",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Measure",
+    "target": "TauLib.BookI.Boundary.Ring"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Measure",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Measure",
+    "target": "TauLib.BookI.Polarity.Polarity"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.NumberTower",
+    "target": "TauLib.BookI.Denotation.Arithmetic"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.NumericalProjection",
+    "target": "TauLib.BookI.Boundary.CouplingIdentityApproximants"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Quaternions",
+    "target": "TauLib.BookI.Boundary.ConstructiveReals"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.RefinementGrowingTorus",
+    "target": "TauLib.BookI.Boundary.TorusDefectSystem"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Ring",
+    "target": "TauLib.BookI.Polarity.CRTBasis"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Ring",
+    "target": "TauLib.BookI.Polarity.OmegaRing"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Ring",
+    "target": "TauLib.BookI.Polarity.TeichmuellerLift"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.Spectral",
+    "target": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.SplitComplex",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRatAbs",
+    "target": "TauLib.BookI.Boundary.TauRatOrder"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRatField",
+    "target": "TauLib.BookI.Boundary.NumberTower"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRatInv",
+    "target": "TauLib.BookI.Boundary.TauRatAbs"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRatOrder",
+    "target": "TauLib.BookI.Boundary.TauRatField"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealAbs",
+    "target": "TauLib.BookI.Boundary.TauRealOrder"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers",
+    "target": "TauLib.BookI.Boundary.TauRealSum"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealE",
+    "target": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealInv",
+    "target": "TauLib.BookI.Boundary.TauRatInv"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealInv",
+    "target": "TauLib.BookI.Boundary.TauRealAbs"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealIotaTau",
+    "target": "TauLib.BookI.Boundary.TauRealPiPlusE"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealMulCongr",
+    "target": "TauLib.BookI.Boundary.TauRealInv"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealOrder",
+    "target": "TauLib.BookI.Boundary.ConstructiveReals"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealPi",
+    "target": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealPiPlusE",
+    "target": "TauLib.BookI.Boundary.TauRealE"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealPiPlusE",
+    "target": "TauLib.BookI.Boundary.TauRealPi"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TauRealSum",
+    "target": "TauLib.BookI.Boundary.TauRealInv"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.TorusDefectSystem",
+    "target": "TauLib.BookI.Boundary.UniversalFixedScalar"
+  },
+  {
+    "source": "TauLib.BookI.Boundary.UniversalFixedScalar",
+    "target": "TauLib.BookI.Boundary.DefectInverseSystem"
+  },
+  {
+    "source": "TauLib.BookI.CF.WindowAlgebra",
+    "target": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.ABCD",
+    "target": "TauLib.BookI.Coordinates.NormalForm"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.ChebyshevBias",
+    "target": "TauLib.BookI.Coordinates.PrimeEnumeration"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.Descent",
+    "target": "TauLib.BookI.Coordinates.NormalForm"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.Hyperfact",
+    "target": "TauLib.BookI.Coordinates.ABCD"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.Hyperfact",
+    "target": "TauLib.BookI.Coordinates.Descent"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.Hyperfact",
+    "target": "TauLib.BookI.Coordinates.NoTie"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.HyperfactFTA",
+    "target": "TauLib.BookI.Coordinates.HyperfactProp"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.HyperfactIsomorphism",
+    "target": "TauLib.BookI.Coordinates.HyperfactFTA"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.HyperfactIsomorphism",
+    "target": "TauLib.BookI.Coordinates.HyperfactProp"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.HyperfactProp",
+    "target": "TauLib.BookI.Coordinates.Hyperfact"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.IteratedPrime",
+    "target": "TauLib.BookI.Coordinates.PrimeEnumeration"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.NoTie",
+    "target": "TauLib.BookI.Coordinates.TowerAtoms"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.NormalForm",
+    "target": "TauLib.BookI.Coordinates.TowerAtoms"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.PrimeEnumeration",
+    "target": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.Primes",
+    "target": "TauLib.BookI.Denotation.Arithmetic"
+  },
+  {
+    "source": "TauLib.BookI.Coordinates.TowerAtoms",
+    "target": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.Arithmetic",
+    "target": "TauLib.BookI.Denotation.RankTransfer"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.Arithmetic",
+    "target": "TauLib.BookI.Orbit.Ladder"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.Equality",
+    "target": "TauLib.BookI.Denotation.ProgramMonoid"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.GrowthEscape",
+    "target": "TauLib.BookI.Coordinates.TowerAtoms"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.GrowthEscape",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.Order",
+    "target": "TauLib.BookI.Denotation.Equality"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.ProgramMonoid",
+    "target": "TauLib.BookI.Denotation.Arithmetic"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.RankTransfer",
+    "target": "TauLib.BookI.Denotation.TauIdx"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.SolenoidPitch",
+    "target": "TauLib.BookI.Denotation.RankTransfer"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.SolenoidPitch",
+    "target": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.Structural",
+    "target": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.Structural",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Denotation.TauIdx",
+    "target": "TauLib.BookI.Orbit.Closure"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.BoundaryInterior",
+    "target": "TauLib.BookI.Holomorphy.GlobalHartogs"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.BoundaryInterior",
+    "target": "TauLib.BookI.Topos.InternalHom"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.DHolomorphic",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.DHolomorphic",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.DiagonalProtection",
+    "target": "TauLib.BookI.Holomorphy.TauHolomorphic"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.DiagonalProtection",
+    "target": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.GlobalHartogs",
+    "target": "TauLib.BookI.Holomorphy.Thinness"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline",
+    "target": "TauLib.BookI.Holomorphy.DiagonalProtection"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline",
+    "target": "TauLib.BookI.Polarity.H4UniquenessElliptic"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR",
+    "target": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR",
+    "target": "TauLib.BookI.Polarity.H4UniquenessElliptic"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
+    "target": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
+    "target": "TauLib.BookI.Topos.H6EarnedCategoricalMachine"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.IdentityTheorem",
+    "target": "TauLib.BookI.Holomorphy.DiagonalProtection"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.IdentityTheorem",
+    "target": "TauLib.BookI.Holomorphy.TauHolomorphic"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.IdentityTheorem",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.IdentityTheorem",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.PresheafEssence",
+    "target": "TauLib.BookI.Holomorphy.BoundaryInterior"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.PresheafEssence",
+    "target": "TauLib.BookI.Holomorphy.SpectralCoefficients"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.SpectralCoefficients",
+    "target": "TauLib.BookI.Boundary.Fourier"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.SpectralCoefficients",
+    "target": "TauLib.BookI.Holomorphy.IdentityTheorem"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.TauHolomorphic",
+    "target": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.TauHolomorphic",
+    "target": "TauLib.BookI.Holomorphy.DHolomorphic"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.TauHolomorphic",
+    "target": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.TauHolomorphic",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.TauHolomorphic",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Holomorphy.Thinness",
+    "target": "TauLib.BookI.Holomorphy.SpectralCoefficients"
+  },
+  {
+    "source": "TauLib.BookI.Kernel.ActionQuantum",
+    "target": "TauLib.BookI.Kernel.Axioms"
+  },
+  {
+    "source": "TauLib.BookI.Kernel.Axioms",
+    "target": "TauLib.BookI.Kernel.Signature"
+  },
+  {
+    "source": "TauLib.BookI.Kernel.Diagonal",
+    "target": "TauLib.BookI.Kernel.Axioms"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup",
+    "target": "TauLib.BookI.KernelFoundation.H8KernelSynthesis"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding",
+    "target": "TauLib.BookI.KernelFoundation.H8KernelSynthesis"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
+    "target": "TauLib.BookI.MetaLogic.DiagonalResonance"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
+    "target": "TauLib.BookI.MetaLogic.LinearDiscipline"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
+    "target": "TauLib.BookI.MetaLogic.OnticInvariance"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
+    "target": "TauLib.BookI.MetaLogic.ReceptionCriterion"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
+    "target": "TauLib.BookI.MetaLogic.StructuralExclusion"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
+    "target": "TauLib.BookI.Topos.H7ClassicalClosure"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.ScalarBridges",
+    "target": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "source": "TauLib.BookI.KernelFoundation.ScalarBridges",
+    "target": "TauLib.BookI.KernelFoundation.H8KernelSynthesis"
+  },
+  {
+    "source": "TauLib.BookI.Logic.BooleanRecovery",
+    "target": "TauLib.BookI.Logic.Explosion"
+  },
+  {
+    "source": "TauLib.BookI.Logic.Explosion",
+    "target": "TauLib.BookI.Logic.Truth4"
+  },
+  {
+    "source": "TauLib.BookI.Logic.Explosion",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookI.Logic.Truth4",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.DiagonalResonance",
+    "target": "TauLib.BookI.MetaLogic.StructuralExclusion"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.LinearDiscipline",
+    "target": "TauLib.BookI.Denotation.ProgramMonoid"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.LinearDiscipline",
+    "target": "TauLib.BookI.Logic.Truth4"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.LinearDiscipline",
+    "target": "TauLib.BookI.MetaLogic.Substrate"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.LinearityAudit",
+    "target": "TauLib.BookI.MetaLogic.LinearDiscipline"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.OnticInvariance",
+    "target": "TauLib.BookI.MetaLogic.DiagonalResonance"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.ReceptionCriterion",
+    "target": "TauLib.BookI.MetaLogic.OnticInvariance"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.StructuralExclusion",
+    "target": "TauLib.BookI.MetaLogic.LinearDiscipline"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.StructuralExclusion",
+    "target": "TauLib.BookI.MetaLogic.Substrate"
+  },
+  {
+    "source": "TauLib.BookI.MetaLogic.Substrate",
+    "target": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Closure",
+    "target": "TauLib.BookI.Orbit.Countability"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Countability",
+    "target": "TauLib.BookI.Orbit.Generation"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Generation",
+    "target": "TauLib.BookI.Kernel.Axioms"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Ladder",
+    "target": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Ladder",
+    "target": "TauLib.BookI.Orbit.Closure"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Rigidity",
+    "target": "TauLib.BookI.Orbit.Closure"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Saturation",
+    "target": "TauLib.BookI.Orbit.Ladder"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Saturation",
+    "target": "TauLib.BookI.Orbit.TooFew"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.Saturation",
+    "target": "TauLib.BookI.Orbit.TooMany"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.TooFew",
+    "target": "TauLib.BookI.Orbit.Ladder"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.TooMany",
+    "target": "TauLib.BookI.Orbit.Ladder"
+  },
+  {
+    "source": "TauLib.BookI.Orbit.TooMany",
+    "target": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.BipolarAlgebra",
+    "target": "TauLib.BookI.Polarity.PolarizedGerms"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.CRTBasis",
+    "target": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.CRTBasis",
+    "target": "TauLib.BookI.Polarity.NthPrime"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.ChineseRemainder",
+    "target": "TauLib.BookI.Polarity.ExtGCD"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.ChineseRemainder",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.ExtGCD",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.H2H3ClassifierBridge",
+    "target": "TauLib.BookI.Polarity.PrimePolarityIsomorphism"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
+    "target": "TauLib.BookI.Coordinates.HyperfactIsomorphism"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
+    "target": "TauLib.BookI.Logic.Truth4"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
+    "target": "TauLib.BookI.Polarity.PrimePolarityIsomorphism"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
+    "target": "TauLib.BookI.Polarity.SplitComplexCouplingLift"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.H4UniquenessElliptic",
+    "target": "TauLib.BookI.Polarity.H4BoundaryAlgebra"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.InverseLimit",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.Lemniscate",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.ModArith",
+    "target": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.NthPrime",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.NthPrime",
+    "target": "TauLib.BookI.Polarity.PrimeBridge"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.OmegaGerms",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.OmegaRing",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.Polarity",
+    "target": "TauLib.BookI.Polarity.Spectral"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.PolarizedGerms",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.PolarizedGerms",
+    "target": "TauLib.BookI.Polarity.Polarity"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.PrimeBridge",
+    "target": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.PrimePolarityClassifier",
+    "target": "TauLib.BookI.Polarity.CRTBasis"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.PrimePolarityClassifier",
+    "target": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.PrimePolarityClassifier",
+    "target": "TauLib.BookI.Polarity.SplitComplexCouplingLift"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.PrimePolarityIsomorphism",
+    "target": "TauLib.BookI.Polarity.PrimePolarityClassifier"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.Spectral",
+    "target": "TauLib.BookI.Coordinates.Hyperfact"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.SplitComplexCouplingLift",
+    "target": "TauLib.BookI.Boundary.NumericalProjection"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.SplitComplexCouplingLift",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.TeichmuellerLift",
+    "target": "TauLib.BookI.Polarity.CRTBasis"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.TeichmuellerLift",
+    "target": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "source": "TauLib.BookI.Polarity.TeichmuellerLift",
+    "target": "TauLib.BookI.Polarity.OmegaRing"
+  },
+  {
+    "source": "TauLib.BookI.Sets.CantorRefutation",
+    "target": "TauLib.BookI.Sets.Counting"
+  },
+  {
+    "source": "TauLib.BookI.Sets.CantorRefutation",
+    "target": "TauLib.BookI.Topos.CartesianProduct"
+  },
+  {
+    "source": "TauLib.BookI.Sets.Counting",
+    "target": "TauLib.BookI.Orbit.Ladder"
+  },
+  {
+    "source": "TauLib.BookI.Sets.Counting",
+    "target": "TauLib.BookI.Sets.Universe"
+  },
+  {
+    "source": "TauLib.BookI.Sets.Membership",
+    "target": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "source": "TauLib.BookI.Sets.Operations",
+    "target": "TauLib.BookI.Sets.Membership"
+  },
+  {
+    "source": "TauLib.BookI.Sets.OrbitSets",
+    "target": "TauLib.BookI.Coordinates.PrimeEnumeration"
+  },
+  {
+    "source": "TauLib.BookI.Sets.OrbitSets",
+    "target": "TauLib.BookI.Sets.Universe"
+  },
+  {
+    "source": "TauLib.BookI.Sets.Powerset",
+    "target": "TauLib.BookI.Sets.Operations"
+  },
+  {
+    "source": "TauLib.BookI.Sets.UniqueInfinity",
+    "target": "TauLib.BookI.Polarity.OmegaGerms"
+  },
+  {
+    "source": "TauLib.BookI.Sets.UniqueInfinity",
+    "target": "TauLib.BookI.Sets.CantorRefutation"
+  },
+  {
+    "source": "TauLib.BookI.Sets.Universe",
+    "target": "TauLib.BookI.Sets.Powerset"
+  },
+  {
+    "source": "TauLib.BookI.Topos.CartesianProduct",
+    "target": "TauLib.BookI.Topos.EarnedTopos"
+  },
+  {
+    "source": "TauLib.BookI.Topos.CircularityResolution",
+    "target": "TauLib.BookI.Polarity.InverseLimit"
+  },
+  {
+    "source": "TauLib.BookI.Topos.CircularityResolution",
+    "target": "TauLib.BookI.Topos.EarnedTopos"
+  },
+  {
+    "source": "TauLib.BookI.Topos.EarnedArrows",
+    "target": "TauLib.BookI.Holomorphy.DiagonalProtection"
+  },
+  {
+    "source": "TauLib.BookI.Topos.EarnedArrows",
+    "target": "TauLib.BookI.Holomorphy.IdentityTheorem"
+  },
+  {
+    "source": "TauLib.BookI.Topos.EarnedTopos",
+    "target": "TauLib.BookI.Logic.BooleanRecovery"
+  },
+  {
+    "source": "TauLib.BookI.Topos.EarnedTopos",
+    "target": "TauLib.BookI.Logic.Explosion"
+  },
+  {
+    "source": "TauLib.BookI.Topos.EarnedTopos",
+    "target": "TauLib.BookI.Topos.LimitsSites"
+  },
+  {
+    "source": "TauLib.BookI.Topos.Functors",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookI.Topos.Functors",
+    "target": "TauLib.BookI.Topos.EarnedArrows"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H6EarnedCategoricalMachine",
+    "target": "TauLib.BookI.Addressability.HingeIntegration"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H6EarnedCategoricalMachine",
+    "target": "TauLib.BookI.Topos.EarnedArrows"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H7CircularityFull",
+    "target": "TauLib.BookI.Topos.CircularityResolution"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H7CircularityFull",
+    "target": "TauLib.BookI.Topos.H7ToposClassifier"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H7ClassicalClosure",
+    "target": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H7ClassicalClosure",
+    "target": "TauLib.BookI.Topos.H7CircularityFull"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H7ToposClassifier",
+    "target": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H7ToposClassifier",
+    "target": "TauLib.BookI.Topos.EarnedTopos"
+  },
+  {
+    "source": "TauLib.BookI.Topos.H7ToposClassifier",
+    "target": "TauLib.BookI.Topos.H6EarnedCategoricalMachine"
+  },
+  {
+    "source": "TauLib.BookI.Topos.InternalHom",
+    "target": "TauLib.BookI.Topos.WedgeProduct"
+  },
+  {
+    "source": "TauLib.BookI.Topos.LimitsSites",
+    "target": "TauLib.BookI.Polarity.ChineseRemainder"
+  },
+  {
+    "source": "TauLib.BookI.Topos.LimitsSites",
+    "target": "TauLib.BookI.Topos.Functors"
+  },
+  {
+    "source": "TauLib.BookI.Topos.ParaconsistentSoundness",
+    "target": "TauLib.BookI.Topos.CircularityResolution"
+  },
+  {
+    "source": "TauLib.BookI.Topos.WedgeProduct",
+    "target": "TauLib.BookI.Topos.CartesianProduct"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.CentralTheorem.BoundaryCharacters"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.CentralTheorem.Categoricity"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.CentralTheorem.CentralTheorem"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.CentralTheorem.HartogsExtension"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.CentralTheorem.SheafCohomology"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.CentralTheorem.YonedaApplied"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Closure.BSDbridge"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Closure.Connection"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Closure.Curvature"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Closure.DiffGeoAgenda"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Closure.ForwardBook3"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Closure.GeometricBiSquare"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Closure.TauManifold"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Domains.Cylinders"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Domains.HolImpliesCont"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Domains.Ultrametric"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Enrichment.EnrichmentLadder"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Enrichment.Homological"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Enrichment.SelfDescribing"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Enrichment.SelfEnrichment"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Enrichment.TwoCategories"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Enrichment.YonedaTheorem"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Geometry.Betweenness"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Geometry.CausalStructure"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Geometry.Congruence"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Geometry.OrthodoxBridge"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Geometry.PaschParallel"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.BndLift"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.CalibratedSplitComplex"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.CanonicalBasis"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.CategoryStructure"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.EvolutionOperator"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.L2Space"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.LaurentResidue"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.MutualDetermination"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Hartogs.SheafCoherence"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Interior.ABCDRigidity"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Interior.BipolarDecomposition"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Interior.OmegaReadout"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Interior.Tau3Fibration"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Interior.TauAdmissible"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Mirror.DimensionalLadder"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Mirror.Inventory"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Mirror.PhysicsQuadrant"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Mirror.SignClassification"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Mirror.WaveHolomorphy"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Prologue.SplitComplexInterior"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Regularity.CodeDecode"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Regularity.IdempotentDecomposition"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Regularity.PositiveRegularity"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Regularity.PreYoneda"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Regularity.ThreeLemmaChain"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Topology.BoundaryMinimality"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Topology.CoherenceConnectivity"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Topology.DimensionFour"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Topology.Invariant"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Topology.StoneSpace"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Topology.TorusDegeneration"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Transcendentals.Circles"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Transcendentals.EEarned"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Transcendentals.IotaTauConfirmed"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Transcendentals.JReplacesI"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Transcendentals.Lines"
+  },
+  {
+    "source": "TauLib.BookII",
+    "target": "TauLib.BookII.Transcendentals.PiEarned"
+  },
+  {
+    "source": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
+    "target": "TauLib.BookII.Enrichment.EnrichmentLadder"
+  },
+  {
+    "source": "TauLib.BookII.CentralTheorem.Categoricity",
+    "target": "TauLib.BookII.Regularity.CodeDecode"
+  },
+  {
+    "source": "TauLib.BookII.CentralTheorem.CentralTheorem",
+    "target": "TauLib.BookII.Regularity.CodeDecode"
+  },
+  {
+    "source": "TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms",
+    "target": "TauLib.BookII.CentralTheorem.HartogsExtension"
+  },
+  {
+    "source": "TauLib.BookII.CentralTheorem.HartogsExtension",
+    "target": "TauLib.BookII.CentralTheorem.BoundaryCharacters"
+  },
+  {
+    "source": "TauLib.BookII.CentralTheorem.SheafCohomology",
+    "target": "TauLib.BookII.Enrichment.Homological"
+  },
+  {
+    "source": "TauLib.BookII.CentralTheorem.YonedaApplied",
+    "target": "TauLib.BookII.Regularity.CodeDecode"
+  },
+  {
+    "source": "TauLib.BookII.Closure.BSDbridge",
+    "target": "TauLib.BookII.CentralTheorem.Categoricity"
+  },
+  {
+    "source": "TauLib.BookII.Closure.Connection",
+    "target": "TauLib.BookII.Closure.TauManifold"
+  },
+  {
+    "source": "TauLib.BookII.Closure.Curvature",
+    "target": "TauLib.BookII.Closure.Connection"
+  },
+  {
+    "source": "TauLib.BookII.Closure.DiffGeoAgenda",
+    "target": "TauLib.BookII.CentralTheorem.CentralTheorem"
+  },
+  {
+    "source": "TauLib.BookII.Closure.DiffGeoAgenda",
+    "target": "TauLib.BookII.Closure.TauManifold"
+  },
+  {
+    "source": "TauLib.BookII.Closure.DiffGeoAgenda",
+    "target": "TauLib.BookII.Enrichment.EnrichmentLadder"
+  },
+  {
+    "source": "TauLib.BookII.Closure.ForwardBook3",
+    "target": "TauLib.BookII.Closure.BSDbridge"
+  },
+  {
+    "source": "TauLib.BookII.Closure.ForwardBook3",
+    "target": "TauLib.BookII.Closure.DiffGeoAgenda"
+  },
+  {
+    "source": "TauLib.BookII.Closure.GeometricBiSquare",
+    "target": "TauLib.BookI.Holomorphy.PresheafEssence"
+  },
+  {
+    "source": "TauLib.BookII.Closure.GeometricBiSquare",
+    "target": "TauLib.BookII.Closure.ForwardBook3"
+  },
+  {
+    "source": "TauLib.BookII.Closure.GeometricBiSquare",
+    "target": "TauLib.BookII.Domains.HolImpliesCont"
+  },
+  {
+    "source": "TauLib.BookII.Closure.GeometricBiSquare",
+    "target": "TauLib.BookII.Geometry.PaschParallel"
+  },
+  {
+    "source": "TauLib.BookII.Closure.GeometricBiSquare",
+    "target": "TauLib.BookII.Topology.TorusDegeneration"
+  },
+  {
+    "source": "TauLib.BookII.Closure.TauManifold",
+    "target": "TauLib.BookII.CentralTheorem.Categoricity"
+  },
+  {
+    "source": "TauLib.BookII.Domains.Cylinders",
+    "target": "TauLib.BookI.Polarity.ModArith"
+  },
+  {
+    "source": "TauLib.BookII.Domains.HolImpliesCont",
+    "target": "TauLib.BookI.Holomorphy.TauHolomorphic"
+  },
+  {
+    "source": "TauLib.BookII.Domains.HolImpliesCont",
+    "target": "TauLib.BookII.Domains.Ultrametric"
+  },
+  {
+    "source": "TauLib.BookII.Domains.Ultrametric",
+    "target": "TauLib.BookII.Domains.Cylinders"
+  },
+  {
+    "source": "TauLib.BookII.Enrichment.EnrichmentLadder",
+    "target": "TauLib.BookII.Enrichment.SelfDescribing"
+  },
+  {
+    "source": "TauLib.BookII.Enrichment.Homological",
+    "target": "TauLib.BookII.Enrichment.TwoCategories"
+  },
+  {
+    "source": "TauLib.BookII.Enrichment.SelfDescribing",
+    "target": "TauLib.BookII.Regularity.CodeDecode"
+  },
+  {
+    "source": "TauLib.BookII.Enrichment.SelfEnrichment",
+    "target": "TauLib.BookII.Regularity.CodeDecode"
+  },
+  {
+    "source": "TauLib.BookII.Enrichment.TwoCategories",
+    "target": "TauLib.BookII.Enrichment.YonedaTheorem"
+  },
+  {
+    "source": "TauLib.BookII.Enrichment.YonedaTheorem",
+    "target": "TauLib.BookII.Enrichment.SelfEnrichment"
+  },
+  {
+    "source": "TauLib.BookII.Geometry.Betweenness",
+    "target": "TauLib.BookII.Domains.Ultrametric"
+  },
+  {
+    "source": "TauLib.BookII.Geometry.CausalStructure",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookII.Geometry.CausalStructure",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookII.Geometry.CausalStructure",
+    "target": "TauLib.BookII.Geometry.Congruence"
+  },
+  {
+    "source": "TauLib.BookII.Geometry.Congruence",
+    "target": "TauLib.BookII.Geometry.Betweenness"
+  },
+  {
+    "source": "TauLib.BookII.Geometry.OrthodoxBridge",
+    "target": "TauLib.BookII.Geometry.PaschParallel"
+  },
+  {
+    "source": "TauLib.BookII.Geometry.PaschParallel",
+    "target": "TauLib.BookII.Geometry.Congruence"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.BndLift",
+    "target": "TauLib.BookII.Hartogs.CalibratedSplitComplex"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
+    "target": "TauLib.BookII.Transcendentals.IotaTauConfirmed"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.CanonicalBasis",
+    "target": "TauLib.BookII.Hartogs.EvolutionOperator"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.CategoryStructure",
+    "target": "TauLib.BookII.Hartogs.EvolutionOperator"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.EvolutionOperator",
+    "target": "TauLib.BookII.Hartogs.MutualDetermination"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.L2Space",
+    "target": "TauLib.BookI.Boundary.Integration"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.L2Space",
+    "target": "TauLib.BookII.Hartogs.CanonicalBasis"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.LaurentResidue",
+    "target": "TauLib.BookII.Hartogs.CategoryStructure"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.MutualDetermination",
+    "target": "TauLib.BookI.Holomorphy.GlobalHartogs"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.MutualDetermination",
+    "target": "TauLib.BookII.Hartogs.BndLift"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.MutualDetermination",
+    "target": "TauLib.BookII.Interior.BipolarDecomposition"
+  },
+  {
+    "source": "TauLib.BookII.Hartogs.SheafCoherence",
+    "target": "TauLib.BookII.Hartogs.CanonicalBasis"
+  },
+  {
+    "source": "TauLib.BookII.Interior.ABCDRigidity",
+    "target": "TauLib.BookII.Interior.BipolarDecomposition"
+  },
+  {
+    "source": "TauLib.BookII.Interior.BipolarDecomposition",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookII.Interior.BipolarDecomposition",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookII.Interior.BipolarDecomposition",
+    "target": "TauLib.BookII.Interior.OmegaReadout"
+  },
+  {
+    "source": "TauLib.BookII.Interior.BipolarDecomposition",
+    "target": "TauLib.BookII.Interior.Tau3Fibration"
+  },
+  {
+    "source": "TauLib.BookII.Interior.OmegaReadout",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookII.Interior.OmegaReadout",
+    "target": "TauLib.BookII.Interior.TauAdmissible"
+  },
+  {
+    "source": "TauLib.BookII.Interior.Tau3Fibration",
+    "target": "TauLib.BookII.Interior.TauAdmissible"
+  },
+  {
+    "source": "TauLib.BookII.Interior.TauAdmissible",
+    "target": "TauLib.BookI.Coordinates.ABCD"
+  },
+  {
+    "source": "TauLib.BookII.Interior.TauAdmissible",
+    "target": "TauLib.BookI.Coordinates.Primes"
+  },
+  {
+    "source": "TauLib.BookII.Mirror.DimensionalLadder",
+    "target": "TauLib.BookII.Mirror.PhysicsQuadrant"
+  },
+  {
+    "source": "TauLib.BookII.Mirror.Inventory",
+    "target": "TauLib.BookII.Mirror.WaveHolomorphy"
+  },
+  {
+    "source": "TauLib.BookII.Mirror.PhysicsQuadrant",
+    "target": "TauLib.BookII.Mirror.Inventory"
+  },
+  {
+    "source": "TauLib.BookII.Mirror.SignClassification",
+    "target": "TauLib.BookII.Enrichment.EnrichmentLadder"
+  },
+  {
+    "source": "TauLib.BookII.Mirror.WaveHolomorphy",
+    "target": "TauLib.BookII.Mirror.SignClassification"
+  },
+  {
+    "source": "TauLib.BookII.Prologue.SplitComplexInterior",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookII.Prologue.SplitComplexInterior",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookII.Regularity.CodeDecode",
+    "target": "TauLib.BookII.Regularity.PreYoneda"
+  },
+  {
+    "source": "TauLib.BookII.Regularity.IdempotentDecomposition",
+    "target": "TauLib.BookII.Hartogs.SheafCoherence"
+  },
+  {
+    "source": "TauLib.BookII.Regularity.PositiveRegularity",
+    "target": "TauLib.BookII.Regularity.ThreeLemmaChain"
+  },
+  {
+    "source": "TauLib.BookII.Regularity.PreYoneda",
+    "target": "TauLib.BookII.Hartogs.SheafCoherence"
+  },
+  {
+    "source": "TauLib.BookII.Regularity.ThreeLemmaChain",
+    "target": "TauLib.BookII.Regularity.IdempotentDecomposition"
+  },
+  {
+    "source": "TauLib.BookII.Topology.BoundaryMinimality",
+    "target": "TauLib.BookII.Interior.BipolarDecomposition"
+  },
+  {
+    "source": "TauLib.BookII.Topology.BoundaryMinimality",
+    "target": "TauLib.BookII.Topology.DimensionFour"
+  },
+  {
+    "source": "TauLib.BookII.Topology.CoherenceConnectivity",
+    "target": "TauLib.BookII.Geometry.Betweenness"
+  },
+  {
+    "source": "TauLib.BookII.Topology.CoherenceConnectivity",
+    "target": "TauLib.BookII.Topology.TorusDegeneration"
+  },
+  {
+    "source": "TauLib.BookII.Topology.DimensionFour",
+    "target": "TauLib.BookII.Interior.TauAdmissible"
+  },
+  {
+    "source": "TauLib.BookII.Topology.DimensionFour",
+    "target": "TauLib.BookII.Topology.Invariant"
+  },
+  {
+    "source": "TauLib.BookII.Topology.Invariant",
+    "target": "TauLib.BookII.Topology.StoneSpace"
+  },
+  {
+    "source": "TauLib.BookII.Topology.StoneSpace",
+    "target": "TauLib.BookII.Domains.Ultrametric"
+  },
+  {
+    "source": "TauLib.BookII.Topology.TorusDegeneration",
+    "target": "TauLib.BookII.Topology.BoundaryMinimality"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.Circles",
+    "target": "TauLib.BookII.Transcendentals.Lines"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.EEarned",
+    "target": "TauLib.BookII.Transcendentals.PiEarned"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.IotaTauConfirmed",
+    "target": "TauLib.BookII.Transcendentals.JReplacesI"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.JReplacesI",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.JReplacesI",
+    "target": "TauLib.BookII.Interior.BipolarDecomposition"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.JReplacesI",
+    "target": "TauLib.BookII.Transcendentals.EEarned"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.Lines",
+    "target": "TauLib.BookII.Topology.DimensionFour"
+  },
+  {
+    "source": "TauLib.BookII.Transcendentals.PiEarned",
+    "target": "TauLib.BookII.Transcendentals.Circles"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.ABCConjecture"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.ABCDeep"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.BSD"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.EnrFunctor01"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.EnrichedBiSquare"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.Langlands"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.ProtoCodes"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.RationalPoints"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Arithmetic.TowerAssembly"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.ConjectureGaps"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.ForbiddenMoves"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.Incompleteness"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.TranslationArith"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.TranslationObstruction"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.TranslationTopo"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Bridge.ZFCasVM"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Computation.Admissibility"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Computation.CompBiSquare"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Computation.E2Agent"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Computation.E2Witness"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Computation.TowerMachine"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Computation.WitnessSearch"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.BridgeTightening"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.CriticalLine"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.GrandGRH"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.LemniscateOperator"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.MasterSchema"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.MutualDetermination"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.Poincare"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.SpectralCorrespondence"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.SpectralDecomp"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Doors.SplitComplexZeta"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Enrichment.CanonicalLadder"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Enrichment.Functor"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Enrichment.LayerTemplate"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Hinge.DependencyChain"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Hinge.HingeTheorem"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Mirror.E3Witness"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Mirror.ProofTheoryE3"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Mirror.Saturation"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Physics.FluidData"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Physics.GapTheorem"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Physics.HartogsFlow"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Physics.Hodge"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Physics.PhysicsAssembly"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Physics.PositiveRegularity"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Physics.StrongSector"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Prologue.HartogsBulk"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Sectors.BoundaryCharacters"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Sectors.Decomposition"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Sectors.LanglandsReflection"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Sectors.ParityBridge"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.AdditiveConjectures"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.Adeles"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.BipolarClassifier"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.CRT"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.ConfinementBridge"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.GoldbachDeep"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.HenselLifting"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.LocalFields"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.ModularForms"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.PrimorialLadder"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.SieveInfrastructure"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.Trichotomy"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectral.TwinPrimeDeep"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectrum.InterfaceWidth"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectrum.KernelHinge"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectrum.TTM"
+  },
+  {
+    "source": "TauLib.BookIII",
+    "target": "TauLib.BookIII.Spectrum.ThreeSAT"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.ABCConjecture",
+    "target": "TauLib.BookIII.Arithmetic.TowerAssembly"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.ABCDeep",
+    "target": "TauLib.BookIII.Arithmetic.ABCConjecture"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.ABCDeep",
+    "target": "TauLib.BookIII.Spectral.SieveInfrastructure"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.BSD",
+    "target": "TauLib.BookIII.Arithmetic.ProtoCodes"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.EnrFunctor01",
+    "target": "TauLib.BookIII.Physics.PhysicsAssembly"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
+    "target": "TauLib.BookIII.Arithmetic.Langlands"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.Langlands",
+    "target": "TauLib.BookIII.Arithmetic.BSD"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.ProtoCodes",
+    "target": "TauLib.BookIII.Arithmetic.RationalPoints"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.RationalPoints",
+    "target": "TauLib.BookIII.Arithmetic.EnrFunctor01"
+  },
+  {
+    "source": "TauLib.BookIII.Arithmetic.TowerAssembly",
+    "target": "TauLib.BookIII.Arithmetic.EnrichedBiSquare"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.BridgeAxiom",
+    "target": "TauLib.BookIII.Bridge.Incompleteness"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.ConjectureGaps",
+    "target": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.ConjectureGaps",
+    "target": "TauLib.BookIII.Bridge.ForbiddenMoves"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.ForbiddenMoves",
+    "target": "TauLib.BookIII.Bridge.ZFCasVM"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.Incompleteness",
+    "target": "TauLib.BookIII.Bridge.ForbiddenMoves"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.TranslationArith",
+    "target": "TauLib.BookIII.Arithmetic.TowerAssembly"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.TranslationObstruction",
+    "target": "TauLib.BookIII.Bridge.TranslationTopo"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.TranslationTopo",
+    "target": "TauLib.BookIII.Bridge.TranslationArith"
+  },
+  {
+    "source": "TauLib.BookIII.Bridge.ZFCasVM",
+    "target": "TauLib.BookIII.Hinge.HingeTheorem"
+  },
+  {
+    "source": "TauLib.BookIII.Computation.Admissibility",
+    "target": "TauLib.BookIII.Computation.TowerMachine"
+  },
+  {
+    "source": "TauLib.BookIII.Computation.CompBiSquare",
+    "target": "TauLib.BookIII.Computation.WitnessSearch"
+  },
+  {
+    "source": "TauLib.BookIII.Computation.E2Agent",
+    "target": "TauLib.BookIII.Spectral.Trichotomy"
+  },
+  {
+    "source": "TauLib.BookIII.Computation.E2Witness",
+    "target": "TauLib.BookIII.Computation.TowerMachine"
+  },
+  {
+    "source": "TauLib.BookIII.Computation.TowerMachine",
+    "target": "TauLib.BookIII.Computation.E2Agent"
+  },
+  {
+    "source": "TauLib.BookIII.Computation.WitnessSearch",
+    "target": "TauLib.BookIII.Computation.Admissibility"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.BridgeTightening",
+    "target": "TauLib.BookIII.Doors.MasterSchema"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.CriticalLine",
+    "target": "TauLib.BookIII.Doors.SpectralCorrespondence"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.GrandGRH",
+    "target": "TauLib.BookIII.Doors.CriticalLine"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.LemniscateOperator",
+    "target": "TauLib.BookIII.Doors.SplitComplexZeta"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.MasterSchema",
+    "target": "TauLib.BookIII.Doors.Poincare"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.MutualDetermination",
+    "target": "TauLib.BookIII.Spectral.Trichotomy"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.Poincare",
+    "target": "TauLib.BookIII.Doors.GrandGRH"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.SpectralCorrespondence",
+    "target": "TauLib.BookIII.Doors.LemniscateOperator"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.SpectralDecomp",
+    "target": "TauLib.BookIII.Doors.LemniscateOperator"
+  },
+  {
+    "source": "TauLib.BookIII.Doors.SplitComplexZeta",
+    "target": "TauLib.BookIII.Doors.MutualDetermination"
+  },
+  {
+    "source": "TauLib.BookIII.Enrichment.CanonicalLadder",
+    "target": "TauLib.BookIII.Enrichment.Functor"
+  },
+  {
+    "source": "TauLib.BookIII.Enrichment.Functor",
+    "target": "TauLib.BookIII.Enrichment.LayerTemplate"
+  },
+  {
+    "source": "TauLib.BookIII.Enrichment.LayerTemplate",
+    "target": "TauLib.BookII.Enrichment.SelfEnrichment"
+  },
+  {
+    "source": "TauLib.BookIII.Enrichment.LayerTemplate",
+    "target": "TauLib.BookIII.Prologue.HartogsBulk"
+  },
+  {
+    "source": "TauLib.BookIII.Hinge.DependencyChain",
+    "target": "TauLib.BookIII.Arithmetic.TowerAssembly"
+  },
+  {
+    "source": "TauLib.BookIII.Hinge.HingeTheorem",
+    "target": "TauLib.BookIII.Hinge.DependencyChain"
+  },
+  {
+    "source": "TauLib.BookIII.Mirror.E3Witness",
+    "target": "TauLib.BookIII.Mirror.Saturation"
+  },
+  {
+    "source": "TauLib.BookIII.Mirror.ProofTheoryE3",
+    "target": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "source": "TauLib.BookIII.Mirror.Saturation",
+    "target": "TauLib.BookIII.Mirror.ProofTheoryE3"
+  },
+  {
+    "source": "TauLib.BookIII.Physics.FluidData",
+    "target": "TauLib.BookIII.Doors.MasterSchema"
+  },
+  {
+    "source": "TauLib.BookIII.Physics.GapTheorem",
+    "target": "TauLib.BookIII.Physics.StrongSector"
+  },
+  {
+    "source": "TauLib.BookIII.Physics.HartogsFlow",
+    "target": "TauLib.BookIII.Physics.FluidData"
+  },
+  {
+    "source": "TauLib.BookIII.Physics.Hodge",
+    "target": "TauLib.BookIII.Physics.GapTheorem"
+  },
+  {
+    "source": "TauLib.BookIII.Physics.PhysicsAssembly",
+    "target": "TauLib.BookIII.Physics.Hodge"
+  },
+  {
+    "source": "TauLib.BookIII.Physics.PositiveRegularity",
+    "target": "TauLib.BookIII.Physics.HartogsFlow"
+  },
+  {
+    "source": "TauLib.BookIII.Physics.StrongSector",
+    "target": "TauLib.BookIII.Physics.PositiveRegularity"
+  },
+  {
+    "source": "TauLib.BookIII.Prologue.HartogsBulk",
+    "target": "TauLib.BookII.Closure.ForwardBook3"
+  },
+  {
+    "source": "TauLib.BookIII.Sectors.BoundaryCharacters",
+    "target": "TauLib.BookIII.Enrichment.CanonicalLadder"
+  },
+  {
+    "source": "TauLib.BookIII.Sectors.Decomposition",
+    "target": "TauLib.BookIII.Sectors.BoundaryCharacters"
+  },
+  {
+    "source": "TauLib.BookIII.Sectors.LanglandsReflection",
+    "target": "TauLib.BookIII.Sectors.Decomposition"
+  },
+  {
+    "source": "TauLib.BookIII.Sectors.ParityBridge",
+    "target": "TauLib.BookIII.Sectors.LanglandsReflection"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.AdditiveConjectures",
+    "target": "TauLib.BookIII.Spectral.PrimorialLadder"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.Adeles",
+    "target": "TauLib.BookIII.Spectral.LocalFields"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.BipolarClassifier",
+    "target": "TauLib.BookIII.Spectral.Adeles"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.CRT",
+    "target": "TauLib.BookIII.Spectral.PrimorialLadder"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.ConfinementBridge",
+    "target": "TauLib.BookIII.Spectral.ModularForms"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.GoldbachDeep",
+    "target": "TauLib.BookIII.Spectral.AdditiveConjectures"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.GoldbachDeep",
+    "target": "TauLib.BookIII.Spectral.SieveInfrastructure"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.HenselLifting",
+    "target": "TauLib.BookIII.Spectral.CRT"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.LocalFields",
+    "target": "TauLib.BookIII.Spectral.HenselLifting"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.ModularForms",
+    "target": "TauLib.BookIII.Spectral.Trichotomy"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.ModularForms",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.PrimorialLadder",
+    "target": "TauLib.BookIII.Sectors.ParityBridge"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.SieveInfrastructure",
+    "target": "TauLib.BookIII.Spectral.CRT"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.Trichotomy",
+    "target": "TauLib.BookIII.Spectral.BipolarClassifier"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.TwinPrimeDeep",
+    "target": "TauLib.BookIII.Spectral.AdditiveConjectures"
+  },
+  {
+    "source": "TauLib.BookIII.Spectral.TwinPrimeDeep",
+    "target": "TauLib.BookIII.Spectral.SieveInfrastructure"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.InterfaceWidth",
+    "target": "TauLib.BookI.Holomorphy.TauHolomorphic"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.KernelHinge",
+    "target": "TauLib.BookI.Holomorphy.BoundaryInterior"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.KernelHinge",
+    "target": "TauLib.BookIII.Spectrum.InterfaceWidth"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.KernelHinge",
+    "target": "TauLib.BookIII.Spectrum.TTM"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.KernelHinge",
+    "target": "TauLib.BookIII.Spectrum.ThreeSAT"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.TTM",
+    "target": "TauLib.BookI.Denotation.ProgramMonoid"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.TTM",
+    "target": "TauLib.BookI.Kernel.Signature"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.ThreeSAT",
+    "target": "TauLib.BookI.Holomorphy.SpectralCoefficients"
+  },
+  {
+    "source": "TauLib.BookIII.Spectrum.ThreeSAT",
+    "target": "TauLib.BookI.Polarity.NthPrime"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Arena.ActorsDynamics"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Arena.BoundaryHolonomy"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Arena.CoherenceKernel"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Arena.FiveSectors"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Arena.RefinementTower"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Arena.Tau3Arena"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.CalibrationAnchor"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.CalibrationAnchorExt"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.ConstantsLedger"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.ConstantsLedgerExt"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.DimensionalBridge"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.DimensionalBridgeExt"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.DimensionlessAlpha"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.DimensionlessCouplings"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.DimensionlessNearMatch"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.EpsteinZeta"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.MassRatioFormula"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.RunningRegime"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Calibration.SharedOntology"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Coda.CompleteLedger"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Coda.LawsAsStructure"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Coda.SelfDescribing"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.AlphaDerivation"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.EWMixing"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.EWProjection"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.EWSynthesis"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.GaugeInvariance"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.GaugeInvariance2"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.MajoranaStructure"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.NeutrinoMode"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.PhotonMode"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.TauHiggs"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.TauHiggs2"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.TauMaxwell"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.WeakChirality"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.WeakChirality2"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.WeakHolonomy"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.WeakHolonomy2"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Electroweak.WeinbergNLO"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.ManyBody.CondensedMatter"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.ManyBody.DefectFunctionalExt"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.ManyBody.DefectFunctionalExt2"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.ManyBody.FluidRegimes"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.ManyBody.Magnetism"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.ManyBody.NFLBoundary"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.MassDerivation.BreathingModes"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.MassDerivation.ElectronMass"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.MassDerivation.HolonomyDetail"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Particles.BetaDecay"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Particles.HadronsNuclei"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Particles.PeriodicTable"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Particles.SectorAtlas"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Particles.SpectrumComplete"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Particles.StrongCP"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Particles.ThreeGenerations"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.DefectFunctional"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.HolonomyCorrection"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.InternalEquations"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.LemniscateCapacity"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.MassEnergy"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.NucleonMassSplitting"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.PlanckCharacter"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.ReadoutFunctor"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.Thermodynamics"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Physics.TickUnits"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.QuantumMechanics.AddressObstruction"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.QuantumMechanics.CRAddressSpace"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.QuantumMechanics.EnergyEntropy"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.QuantumMechanics.HilbertSpace"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.QuantumMechanics.Measurement"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.QuantumMechanics.Quantization"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.QuantumMechanics.QuantumCharacters"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Sectors.BoundaryFiltration"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Sectors.ModeCensus"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Sectors.SpectralPage"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.ColorHolonomy"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.Confinement"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.GapMetaTheorem"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.QuarksGluons"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.StrongCoupling"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.StrongVacuum"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.VacuumCatastrophe"
+  },
+  {
+    "source": "TauLib.BookIV",
+    "target": "TauLib.BookIV.Strong.YangMillsGap"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.ActorsDynamics",
+    "target": "TauLib.BookIV.Arena.FiveSectors"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.ActorsDynamics",
+    "target": "TauLib.BookIV.Physics.DefectFunctional"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.ActorsDynamics",
+    "target": "TauLib.BookIV.Physics.PlanckCharacter"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.ActorsDynamics",
+    "target": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.BoundaryHolonomy",
+    "target": "TauLib.BookIV.Arena.Tau3Arena"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.CoherenceKernel",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.CoherenceKernel",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.FiveSectors",
+    "target": "TauLib.BookIV.Arena.BoundaryHolonomy"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.FiveSectors",
+    "target": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.RefinementTower",
+    "target": "TauLib.BookIV.Arena.CoherenceKernel"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.Tau3Arena",
+    "target": "TauLib.BookIV.Arena.RefinementTower"
+  },
+  {
+    "source": "TauLib.BookIV.Arena.Tau3Arena",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.CalibrationAnchor",
+    "target": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.CalibrationAnchor",
+    "target": "TauLib.BookIV.Physics.MassEnergy"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
+    "target": "TauLib.BookIV.Calibration.CalibrationAnchor"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.ConstantsLedger",
+    "target": "TauLib.BookIV.Calibration.DimensionalBridge"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.ConstantsLedger",
+    "target": "TauLib.BookIV.Calibration.DimensionlessNearMatch"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.ConstantsLedgerExt",
+    "target": "TauLib.BookIV.Calibration.ConstantsLedger"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.ConstantsLedgerExt",
+    "target": "TauLib.BookIV.Calibration.MassRatioFormula"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionalBridge",
+    "target": "TauLib.BookIV.Calibration.CalibrationAnchor"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionalBridgeExt",
+    "target": "TauLib.BookIV.Calibration.DimensionalBridge"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionlessAlpha",
+    "target": "TauLib.BookIV.Physics.HolonomyCorrection"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionlessAlpha",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionlessCouplings",
+    "target": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionlessCouplings",
+    "target": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionlessCouplings2",
+    "target": "TauLib.BookIV.Calibration.DimensionlessCouplings"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionlessNearMatch",
+    "target": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.DimensionlessNearMatch",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.EpsteinZeta",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.MassRatioFormula",
+    "target": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.MassRatioFormula",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.RunningRegime",
+    "target": "TauLib.BookIV.Calibration.ConstantsLedger"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.RunningRegime",
+    "target": "TauLib.BookIV.Physics.Thermodynamics"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.SIReference",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookIV.Calibration.SharedOntology",
+    "target": "TauLib.BookIV.Arena.ActorsDynamics"
+  },
+  {
+    "source": "TauLib.BookIV.Coda.CompleteLedger",
+    "target": "TauLib.BookIV.Coda.LawsAsStructure"
+  },
+  {
+    "source": "TauLib.BookIV.Coda.LawsAsStructure",
+    "target": "TauLib.BookIV.ManyBody.CondensedMatter"
+  },
+  {
+    "source": "TauLib.BookIV.Coda.SelfDescribing",
+    "target": "TauLib.BookIV.Coda.CompleteLedger"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.AlphaDerivation",
+    "target": "TauLib.BookIV.Electroweak.TauMaxwell"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.EWMixing",
+    "target": "TauLib.BookIV.Electroweak.NeutrinoMode"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.EWProjection",
+    "target": "TauLib.BookI.CF.WindowAlgebra"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.EWProjection",
+    "target": "TauLib.BookIV.Sectors.BoundaryFiltration"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.EWProjection",
+    "target": "TauLib.BookIV.Sectors.ModeCensus"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.EWSynthesis",
+    "target": "TauLib.BookIV.Electroweak.TauHiggs2"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.GaugeInvariance",
+    "target": "TauLib.BookIV.Electroweak.PhotonMode"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.GaugeInvariance2",
+    "target": "TauLib.BookIV.Electroweak.GaugeInvariance"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.MajoranaStructure",
+    "target": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.MajoranaStructure",
+    "target": "TauLib.BookI.Polarity.BipolarAlgebra"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.MajoranaStructure",
+    "target": "TauLib.BookIV.Electroweak.NeutrinoMode"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.NeutrinoMode",
+    "target": "TauLib.BookIV.Electroweak.WeakHolonomy2"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.PhotonMode",
+    "target": "TauLib.BookIV.Calibration.DimensionlessAlpha"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.PhotonMode",
+    "target": "TauLib.BookIV.QuantumMechanics.EnergyEntropy"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.TauHiggs",
+    "target": "TauLib.BookIV.Electroweak.EWMixing"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.TauHiggs2",
+    "target": "TauLib.BookIV.Electroweak.TauHiggs"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.TauMaxwell",
+    "target": "TauLib.BookIV.Electroweak.GaugeInvariance2"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.WeakChirality",
+    "target": "TauLib.BookIV.Electroweak.AlphaDerivation"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.WeakChirality2",
+    "target": "TauLib.BookIV.Electroweak.WeakChirality"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.WeakHolonomy",
+    "target": "TauLib.BookIV.Electroweak.WeakChirality2"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.WeakHolonomy2",
+    "target": "TauLib.BookIV.Electroweak.WeakHolonomy"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.WeinbergNLO",
+    "target": "TauLib.BookI.CF.WindowAlgebra"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.WeinbergNLO",
+    "target": "TauLib.BookIV.Electroweak.EWMixing"
+  },
+  {
+    "source": "TauLib.BookIV.Electroweak.WeinbergNLO",
+    "target": "TauLib.BookIV.Electroweak.EWProjection"
+  },
+  {
+    "source": "TauLib.BookIV.ManyBody.CondensedMatter",
+    "target": "TauLib.BookIV.ManyBody.FluidRegimes"
+  },
+  {
+    "source": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
+    "target": "TauLib.BookIV.Strong.VacuumCatastrophe"
+  },
+  {
+    "source": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
+    "target": "TauLib.BookIV.ManyBody.DefectFunctionalExt"
+  },
+  {
+    "source": "TauLib.BookIV.ManyBody.FluidRegimes",
+    "target": "TauLib.BookIV.ManyBody.DefectFunctionalExt2"
+  },
+  {
+    "source": "TauLib.BookIV.ManyBody.Magnetism",
+    "target": "TauLib.BookIV.ManyBody.FluidRegimes"
+  },
+  {
+    "source": "TauLib.BookIV.ManyBody.NFLBoundary",
+    "target": "TauLib.BookIV.ManyBody.FluidRegimes"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.BreathingModes",
+    "target": "TauLib.BookIV.Calibration.EpsteinZeta"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.BreathingModes",
+    "target": "TauLib.BookIV.Physics.LemniscateCapacity"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.BreathingModes",
+    "target": "TauLib.BookIV.QuantumMechanics.EnergyEntropy"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.ElectronMass",
+    "target": "TauLib.BookIV.Calibration.MassRatioFormula"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.ElectronMass",
+    "target": "TauLib.BookIV.MassDerivation.HolonomyDetail"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.HolonomyDetail",
+    "target": "TauLib.BookIV.Calibration.MassRatioFormula"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.HolonomyDetail",
+    "target": "TauLib.BookIV.MassDerivation.BreathingModes"
+  },
+  {
+    "source": "TauLib.BookIV.MassDerivation.HolonomyDetail",
+    "target": "TauLib.BookIV.Physics.HolonomyCorrection"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.BetaDecay",
+    "target": "TauLib.BookIV.Particles.ThreeGenerations"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.HadronsNuclei",
+    "target": "TauLib.BookIV.Particles.BetaDecay"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.PeriodicTable",
+    "target": "TauLib.BookIV.Particles.HadronsNuclei"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.SectorAtlas",
+    "target": "TauLib.BookIV.Strong.VacuumCatastrophe"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.SpectrumComplete",
+    "target": "TauLib.BookIV.Particles.PeriodicTable"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.StrongCP",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.StrongCP",
+    "target": "TauLib.BookIV.Particles.SectorAtlas"
+  },
+  {
+    "source": "TauLib.BookIV.Particles.ThreeGenerations",
+    "target": "TauLib.BookIV.Particles.SectorAtlas"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.DefectFunctional",
+    "target": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.HolonomyCorrection",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.InternalEquations",
+    "target": "TauLib.BookIV.Calibration.MassRatioFormula"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.InternalEquations",
+    "target": "TauLib.BookIV.Physics.TickUnits"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.LemniscateCapacity",
+    "target": "TauLib.BookI.Boundary.Spectral"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.LemniscateCapacity",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.MassEnergy",
+    "target": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.MassEnergy",
+    "target": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.NucleonMassSplitting",
+    "target": "TauLib.BookIV.Physics.LemniscateCapacity"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.NucleonMassSplitting",
+    "target": "TauLib.BookIV.Physics.MassEnergy"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.NucleonMassSplitting",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.PlanckCharacter",
+    "target": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.PlanckCharacter",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.QuantityFramework",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.QuantityFramework",
+    "target": "TauLib.BookIII.Sectors.Decomposition"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.ReadoutFunctor",
+    "target": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.ReadoutFunctor",
+    "target": "TauLib.BookIV.Physics.InternalEquations"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.Thermodynamics",
+    "target": "TauLib.BookIV.Physics.DefectFunctional"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.Thermodynamics",
+    "target": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "source": "TauLib.BookIV.Physics.TickUnits",
+    "target": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
+    "target": "TauLib.BookIV.QuantumMechanics.Quantization"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
+    "target": "TauLib.BookIV.Arena.BoundaryHolonomy"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
+    "target": "TauLib.BookIV.Arena.Tau3Arena"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
+    "target": "TauLib.BookIV.Physics.Thermodynamics"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
+    "target": "TauLib.BookIV.QuantumMechanics.Measurement"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.HilbertSpace",
+    "target": "TauLib.BookIV.QuantumMechanics.QuantumCharacters"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.Measurement",
+    "target": "TauLib.BookIV.QuantumMechanics.AddressObstruction"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.Quantization",
+    "target": "TauLib.BookIV.Physics.PlanckCharacter"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.Quantization",
+    "target": "TauLib.BookIV.QuantumMechanics.HilbertSpace"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.QuantumCharacters",
+    "target": "TauLib.BookIV.Physics.PlanckCharacter"
+  },
+  {
+    "source": "TauLib.BookIV.QuantumMechanics.QuantumCharacters",
+    "target": "TauLib.BookIV.QuantumMechanics.CRAddressSpace"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.BoundaryFiltration",
+    "target": "TauLib.BookIV.Sectors.ModeCensus"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.BoundaryFiltration",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.CouplingFormulas",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.FineStructure",
+    "target": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.SectorParameters",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.SectorParameters",
+    "target": "TauLib.BookIII.Sectors.Decomposition"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.SpectralPage",
+    "target": "TauLib.BookIV.Sectors.BoundaryFiltration"
+  },
+  {
+    "source": "TauLib.BookIV.Sectors.SpectralPage",
+    "target": "TauLib.BookIV.Sectors.ModeCensus"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.ColorHolonomy",
+    "target": "TauLib.BookIV.Strong.StrongVacuum"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.Confinement",
+    "target": "TauLib.BookIV.Strong.ColorHolonomy"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.GapMetaTheorem",
+    "target": "TauLib.BookIV.Strong.Confinement"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.QuarksGluons",
+    "target": "TauLib.BookIV.Strong.StrongCoupling"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.StrongCoupling",
+    "target": "TauLib.BookIV.Strong.YangMillsGap"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.StrongVacuum",
+    "target": "TauLib.BookIV.Electroweak.EWSynthesis"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.VacuumCatastrophe",
+    "target": "TauLib.BookIV.Strong.QuarksGluons"
+  },
+  {
+    "source": "TauLib.BookIV.Strong.YangMillsGap",
+    "target": "TauLib.BookIV.Strong.GapMetaTheorem"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.AccretionJets"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.BinaryMergersGW"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.BulletClusterLSS"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.ClassicalIllusion"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.CompactObjects"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.EHTReread"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.GalaxyRelational"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.H0TensionLCDM"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.KeplerSolarSystem"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.RotationCurves"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.SectorExhaustion"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Astrophysics.Supernovae"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Coda.BridgeToLife"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Coda.CalibrationChain"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Coda.ConstantsLedger"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Coda.GAlphaBridge"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Coda.HermeticClosure"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.BBNBaryogenesis"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.BBNNuclearNetwork"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.BHBipolarFusion"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.BHBirthTopology"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.BigBangRegime"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.BoundaryUnification"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.CMBSpectrum"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.CosmologicalEndstate"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.FalsificationPack"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.GlobalFiniteness"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.HeliumFraction"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.InflationRegime"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.MergerNormalForm"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.NeutrinoBackground"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.NoShrinkExtended"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.Reionization"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Cosmology.ThresholdLadder"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.FluidMacro.ChargeObstruction"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.FluidMacro.NavierStokesMacro"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.FluidMacro.PhaseTransitions"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.FluidMacro.TauAlfven"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.FluidMacro.TauMHD"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.FluidMacro.TauPlasma"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.FluidMacro.Turbulence"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Gravity.BHTopoModes"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Gravity.CoRotorCoupling"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Gravity.EinsteinEquation"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Gravity.GravitationalConstant"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Gravity.Schwarzschild"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.BipolarHolonomy"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.CalibrationTriangle"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.ClosingIdentity"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.ExponentDerivation"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.FrameHolonomy"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.LinearEinstein"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.LorentzNoMinkowski"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.NonlinearEinstein"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.TOVPhaseBoundary"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.TOVStarBuilder"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.TauEinsteinEq"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.TauSchwarzschild"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.GravityField.TauSchwarzschildScale"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Orthodox.CorrespondenceMap"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Orthodox.EmergentGeometry"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Orthodox.FalsifiableSeams"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Orthodox.MeasurementUnification"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Orthodox.OtherApproaches"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Prologue.ExportContract"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Prologue.HermeticPrinciple"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Temporal.BaseCircle"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Temporal.BoundaryData"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Temporal.CosmicAPI"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Temporal.DistanceLadder"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Temporal.HighEnergy"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Temporal.MacroReadout"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Temporal.TemporalIgnition"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Thermodynamics.DefectExhaustion"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Thermodynamics.EntropySplitting"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Thermodynamics.HeatEM"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Thermodynamics.Inversion"
+  },
+  {
+    "source": "TauLib.BookV",
+    "target": "TauLib.BookV.Thermodynamics.VacuumNoVoid"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.AccretionJets",
+    "target": "TauLib.BookV.Astrophysics.Supernovae"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.BinaryMergersGW",
+    "target": "TauLib.BookV.Astrophysics.AccretionJets"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.BulletClusterLSS",
+    "target": "TauLib.BookV.Astrophysics.EHTReread"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.ClassicalIllusion",
+    "target": "TauLib.BookV.FluidMacro.PhaseTransitions"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.CompactObjects",
+    "target": "TauLib.BookV.Astrophysics.RotationCurves"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.EHTReread",
+    "target": "TauLib.BookV.Astrophysics.BinaryMergersGW"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.GalaxyRelational",
+    "target": "TauLib.BookV.Astrophysics.KeplerSolarSystem"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.H0TensionLCDM",
+    "target": "TauLib.BookV.Astrophysics.SectorExhaustion"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
+    "target": "TauLib.BookV.Astrophysics.ClassicalIllusion"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.RotationCurves",
+    "target": "TauLib.BookV.Astrophysics.GalaxyRelational"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.SectorExhaustion",
+    "target": "TauLib.BookV.Astrophysics.BulletClusterLSS"
+  },
+  {
+    "source": "TauLib.BookV.Astrophysics.Supernovae",
+    "target": "TauLib.BookV.Astrophysics.CompactObjects"
+  },
+  {
+    "source": "TauLib.BookV.Coda.BridgeToLife",
+    "target": "TauLib.BookV.Coda.ConstantsLedger"
+  },
+  {
+    "source": "TauLib.BookV.Coda.CalibrationChain",
+    "target": "TauLib.BookV.Coda.GAlphaBridge"
+  },
+  {
+    "source": "TauLib.BookV.Coda.ConstantsLedger",
+    "target": "TauLib.BookV.Orthodox.FalsifiableSeams"
+  },
+  {
+    "source": "TauLib.BookV.Coda.GAlphaBridge",
+    "target": "TauLib.BookV.Coda.BridgeToLife"
+  },
+  {
+    "source": "TauLib.BookV.Coda.HermeticClosure",
+    "target": "TauLib.BookV.Coda.CalibrationChain"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BBNBaryogenesis",
+    "target": "TauLib.BookV.Cosmology.HeliumFraction"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BBNBaryogenesis",
+    "target": "TauLib.BookV.Cosmology.ThresholdLadder"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
+    "target": "TauLib.BookV.Cosmology.BBNBaryogenesis"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
+    "target": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
+    "target": "TauLib.BookV.Cosmology.HeliumFraction"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BHBipolarFusion",
+    "target": "TauLib.BookV.Cosmology.BHBirthTopology"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BHBirthTopology",
+    "target": "TauLib.BookV.Cosmology.ThresholdLadder"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BigBangRegime",
+    "target": "TauLib.BookV.Astrophysics.ClassicalIllusion"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.BoundaryUnification",
+    "target": "TauLib.BookV.Cosmology.FalsificationPack"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.CMBSpectrum",
+    "target": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.CosmologicalEndstate",
+    "target": "TauLib.BookV.Cosmology.GlobalFiniteness"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.FalsificationPack",
+    "target": "TauLib.BookV.Cosmology.CosmologicalEndstate"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.GlobalFiniteness",
+    "target": "TauLib.BookV.Cosmology.MergerNormalForm"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.HeliumFraction",
+    "target": "TauLib.BookV.Cosmology.ThresholdLadder"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.InflationRegime",
+    "target": "TauLib.BookV.Cosmology.BigBangRegime"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.MergerNormalForm",
+    "target": "TauLib.BookV.Cosmology.NoShrinkExtended"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.NeutrinoBackground",
+    "target": "TauLib.BookV.Cosmology.BBNBaryogenesis"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.NoShrinkExtended",
+    "target": "TauLib.BookV.Cosmology.BHBipolarFusion"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.Reionization",
+    "target": "TauLib.BookV.Cosmology.NeutrinoBackground"
+  },
+  {
+    "source": "TauLib.BookV.Cosmology.ThresholdLadder",
+    "target": "TauLib.BookV.Cosmology.InflationRegime"
+  },
+  {
+    "source": "TauLib.BookV.FluidMacro.ChargeObstruction",
+    "target": "TauLib.BookV.FluidMacro.Turbulence"
+  },
+  {
+    "source": "TauLib.BookV.FluidMacro.NavierStokesMacro",
+    "target": "TauLib.BookV.GravityField.ClosingIdentity"
+  },
+  {
+    "source": "TauLib.BookV.FluidMacro.PhaseTransitions",
+    "target": "TauLib.BookV.FluidMacro.TauAlfven"
+  },
+  {
+    "source": "TauLib.BookV.FluidMacro.TauAlfven",
+    "target": "TauLib.BookV.FluidMacro.TauMHD"
+  },
+  {
+    "source": "TauLib.BookV.FluidMacro.TauMHD",
+    "target": "TauLib.BookV.FluidMacro.TauPlasma"
+  },
+  {
+    "source": "TauLib.BookV.FluidMacro.TauPlasma",
+    "target": "TauLib.BookV.FluidMacro.ChargeObstruction"
+  },
+  {
+    "source": "TauLib.BookV.FluidMacro.Turbulence",
+    "target": "TauLib.BookV.FluidMacro.NavierStokesMacro"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.BHTopoModes",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.BHTopoModes",
+    "target": "TauLib.BookV.Gravity.Schwarzschild"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.CoRotorCoupling",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.CoRotorCoupling",
+    "target": "TauLib.BookIV.Physics.LemniscateCapacity"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.CoRotorCoupling",
+    "target": "TauLib.BookV.Gravity.GravitationalConstant"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.EinsteinEquation",
+    "target": "TauLib.BookIV.Sectors.CouplingFormulas"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.EinsteinEquation",
+    "target": "TauLib.BookV.Gravity.GravitationalConstant"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.GravitationalConstant",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.GravitationalConstant",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookV.Gravity.Schwarzschild",
+    "target": "TauLib.BookV.Gravity.EinsteinEquation"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.BipolarHolonomy",
+    "target": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.BipolarHolonomy",
+    "target": "TauLib.BookIV.Arena.Tau3Arena"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.BipolarHolonomy",
+    "target": "TauLib.BookV.GravityField.ExponentDerivation"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.CalibrationTriangle",
+    "target": "TauLib.BookV.GravityField.TOVPhaseBoundary"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.ClosingIdentity",
+    "target": "TauLib.BookV.Gravity.CoRotorCoupling"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.ClosingIdentity",
+    "target": "TauLib.BookV.GravityField.CalibrationTriangle"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.ExponentDerivation",
+    "target": "TauLib.BookIV.Physics.HolonomyCorrection"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.ExponentDerivation",
+    "target": "TauLib.BookIV.Sectors.SpectralPage"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.ExponentDerivation",
+    "target": "TauLib.BookV.GravityField.ClosingIdentity"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.FrameHolonomy",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.FrameHolonomy",
+    "target": "TauLib.BookV.Gravity.EinsteinEquation"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.FrameHolonomy",
+    "target": "TauLib.BookV.Temporal.CosmicAPI"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.LinearEinstein",
+    "target": "TauLib.BookV.GravityField.TauEinsteinEq"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.LorentzNoMinkowski",
+    "target": "TauLib.BookV.GravityField.FrameHolonomy"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.NonlinearEinstein",
+    "target": "TauLib.BookV.GravityField.LinearEinstein"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.TOVPhaseBoundary",
+    "target": "TauLib.BookV.GravityField.TOVStarBuilder"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.TOVStarBuilder",
+    "target": "TauLib.BookV.GravityField.TauSchwarzschild"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.TauEinsteinEq",
+    "target": "TauLib.BookV.GravityField.LorentzNoMinkowski"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.TauSchwarzschild",
+    "target": "TauLib.BookV.Gravity.Schwarzschild"
+  },
+  {
+    "source": "TauLib.BookV.GravityField.TauSchwarzschildScale",
+    "target": "TauLib.BookV.GravityField.TauSchwarzschild"
+  },
+  {
+    "source": "TauLib.BookV.Orthodox.CorrespondenceMap",
+    "target": "TauLib.BookV.GravityField.ClosingIdentity"
+  },
+  {
+    "source": "TauLib.BookV.Orthodox.EmergentGeometry",
+    "target": "TauLib.BookV.Orthodox.CorrespondenceMap"
+  },
+  {
+    "source": "TauLib.BookV.Orthodox.FalsifiableSeams",
+    "target": "TauLib.BookV.Orthodox.MeasurementUnification"
+  },
+  {
+    "source": "TauLib.BookV.Orthodox.MeasurementUnification",
+    "target": "TauLib.BookV.Orthodox.OtherApproaches"
+  },
+  {
+    "source": "TauLib.BookV.Orthodox.OtherApproaches",
+    "target": "TauLib.BookV.Orthodox.EmergentGeometry"
+  },
+  {
+    "source": "TauLib.BookV.Prologue.ExportContract",
+    "target": "TauLib.BookIV.Calibration.MassRatioFormula"
+  },
+  {
+    "source": "TauLib.BookV.Prologue.ExportContract",
+    "target": "TauLib.BookIV.Physics.DefectFunctional"
+  },
+  {
+    "source": "TauLib.BookV.Prologue.ExportContract",
+    "target": "TauLib.BookIV.Physics.MassEnergy"
+  },
+  {
+    "source": "TauLib.BookV.Prologue.ExportContract",
+    "target": "TauLib.BookV.Prologue.HermeticPrinciple"
+  },
+  {
+    "source": "TauLib.BookV.Prologue.HermeticPrinciple",
+    "target": "TauLib.BookIV.Arena.ActorsDynamics"
+  },
+  {
+    "source": "TauLib.BookV.Prologue.HermeticPrinciple",
+    "target": "TauLib.BookIV.Arena.FiveSectors"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.BaseCircle",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.BaseCircle",
+    "target": "TauLib.BookIV.Arena.RefinementTower"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.BoundaryData",
+    "target": "TauLib.BookV.Temporal.DistanceLadder"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.CosmicAPI",
+    "target": "TauLib.BookV.Temporal.BoundaryData"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.DistanceLadder",
+    "target": "TauLib.BookV.Gravity.Schwarzschild"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.HighEnergy",
+    "target": "TauLib.BookIV.Arena.FiveSectors"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.HighEnergy",
+    "target": "TauLib.BookV.Temporal.TemporalIgnition"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.MacroReadout",
+    "target": "TauLib.BookIV.Physics.QuantityFramework"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.MacroReadout",
+    "target": "TauLib.BookIV.Sectors.SectorParameters"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.MacroReadout",
+    "target": "TauLib.BookV.Temporal.HighEnergy"
+  },
+  {
+    "source": "TauLib.BookV.Temporal.TemporalIgnition",
+    "target": "TauLib.BookV.Temporal.BaseCircle"
+  },
+  {
+    "source": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact",
+    "target": "TauLib.BookV.Thermodynamics.VacuumNoVoid"
+  },
+  {
+    "source": "TauLib.BookV.Thermodynamics.DefectExhaustion",
+    "target": "TauLib.BookV.Thermodynamics.EntropySplitting"
+  },
+  {
+    "source": "TauLib.BookV.Thermodynamics.EntropySplitting",
+    "target": "TauLib.BookV.Thermodynamics.Inversion"
+  },
+  {
+    "source": "TauLib.BookV.Thermodynamics.HeatEM",
+    "target": "TauLib.BookV.Thermodynamics.DefectExhaustion"
+  },
+  {
+    "source": "TauLib.BookV.Thermodynamics.Inversion",
+    "target": "TauLib.BookV.GravityField.ClosingIdentity"
+  },
+  {
+    "source": "TauLib.BookV.Thermodynamics.VacuumNoVoid",
+    "target": "TauLib.BookV.Thermodynamics.HeatEM"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Agency.AgencySector"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Agency.MetabolicEnergy"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Closure.ClosureSector"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Closure.Ecosystem"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Consumer.ConsumerMixer"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Consumer.Evolution"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Consumer.FiberRegime"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Consumer.Identity"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Consumer.Immune"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Consumer.Neural"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Consumer.Reproduction"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.CosmicLife.BHDist"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.CosmicLife.BHSelfDesc"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.CosmicLife.CrossLimit"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.CosmicLife.GalaxyBasin"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.LifeCore.Distinction"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.LifeCore.LayerSep"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.LifeCore.ParityBridge"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.LifeCore.SelfDesc"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Mind.Bridge"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Mind.Consciousness"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Persistence.PersistenceSector"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Persistence.TemporalLemniscate"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Sectors.Absence"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Sectors.Hallmarks"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Sectors.LifeLoop"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Source.Epigenetics"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Source.GeneticCode"
+  },
+  {
+    "source": "TauLib.BookVI",
+    "target": "TauLib.BookVI.Source.SourceSector"
+  },
+  {
+    "source": "TauLib.BookVI.Agency.AgencySector",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.BookVI.Agency.MetabolicEnergy",
+    "target": "TauLib.BookVI.Agency.AgencySector"
+  },
+  {
+    "source": "TauLib.BookVI.Closure.ClosureSector",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.BookVI.Closure.Ecosystem",
+    "target": "TauLib.BookVI.Closure.ClosureSector"
+  },
+  {
+    "source": "TauLib.BookVI.Consumer.ConsumerMixer",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.BookVI.Consumer.Evolution",
+    "target": "TauLib.BookVI.Consumer.Reproduction"
+  },
+  {
+    "source": "TauLib.BookVI.Consumer.FiberRegime",
+    "target": "TauLib.BookVI.Consumer.ConsumerMixer"
+  },
+  {
+    "source": "TauLib.BookVI.Consumer.Identity",
+    "target": "TauLib.BookVI.LifeCore.SelfDesc"
+  },
+  {
+    "source": "TauLib.BookVI.Consumer.Immune",
+    "target": "TauLib.BookVI.Consumer.ConsumerMixer"
+  },
+  {
+    "source": "TauLib.BookVI.Consumer.Neural",
+    "target": "TauLib.BookVI.Consumer.ConsumerMixer"
+  },
+  {
+    "source": "TauLib.BookVI.Consumer.Reproduction",
+    "target": "TauLib.BookVI.Consumer.ConsumerMixer"
+  },
+  {
+    "source": "TauLib.BookVI.CosmicLife.BHDist",
+    "target": "TauLib.BookV.Gravity.BHTopoModes"
+  },
+  {
+    "source": "TauLib.BookVI.CosmicLife.BHDist",
+    "target": "TauLib.BookVI.Sectors.Absence"
+  },
+  {
+    "source": "TauLib.BookVI.CosmicLife.BHSelfDesc",
+    "target": "TauLib.BookV.Gravity.BHTopoModes"
+  },
+  {
+    "source": "TauLib.BookVI.CosmicLife.BHSelfDesc",
+    "target": "TauLib.BookVI.CosmicLife.BHDist"
+  },
+  {
+    "source": "TauLib.BookVI.CosmicLife.CrossLimit",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.BookVI.CosmicLife.CrossLimit",
+    "target": "TauLib.BookVI.CosmicLife.BHSelfDesc"
+  },
+  {
+    "source": "TauLib.BookVI.CosmicLife.GalaxyBasin",
+    "target": "TauLib.BookVI.CosmicLife.CrossLimit"
+  },
+  {
+    "source": "TauLib.BookVI.LifeCore.Distinction",
+    "target": "TauLib.BookVI.LifeCore.ParityBridge"
+  },
+  {
+    "source": "TauLib.BookVI.LifeCore.LayerSep",
+    "target": "TauLib.BookVI.LifeCore.SelfDesc"
+  },
+  {
+    "source": "TauLib.BookVI.LifeCore.ParityBridge",
+    "target": "TauLib.BookIV.Arena.FiveSectors"
+  },
+  {
+    "source": "TauLib.BookVI.LifeCore.SelfDesc",
+    "target": "TauLib.BookVI.LifeCore.Distinction"
+  },
+  {
+    "source": "TauLib.BookVI.Mind.Bridge",
+    "target": "TauLib.BookVI.Mind.Consciousness"
+  },
+  {
+    "source": "TauLib.BookVI.Mind.Consciousness",
+    "target": "TauLib.BookVI.Consumer.ConsumerMixer"
+  },
+  {
+    "source": "TauLib.BookVI.Persistence.PersistenceSector",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.BookVI.Persistence.TemporalLemniscate",
+    "target": "TauLib.BookVI.Persistence.PersistenceSector"
+  },
+  {
+    "source": "TauLib.BookVI.Sectors.Absence",
+    "target": "TauLib.BookVI.Sectors.Hallmarks"
+  },
+  {
+    "source": "TauLib.BookVI.Sectors.FourPlusOne",
+    "target": "TauLib.BookVI.Sectors.LifeLoop"
+  },
+  {
+    "source": "TauLib.BookVI.Sectors.Hallmarks",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.BookVI.Sectors.LifeLoop",
+    "target": "TauLib.BookVI.LifeCore.LayerSep"
+  },
+  {
+    "source": "TauLib.BookVI.Source.Epigenetics",
+    "target": "TauLib.BookVI.Source.GeneticCode"
+  },
+  {
+    "source": "TauLib.BookVI.Source.GeneticCode",
+    "target": "TauLib.BookVI.Source.SourceSector"
+  },
+  {
+    "source": "TauLib.BookVI.Source.SourceSector",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.BookVII",
+    "target": "TauLib.BookVII.Ethics.CIProof"
+  },
+  {
+    "source": "TauLib.BookVII",
+    "target": "TauLib.BookVII.Final.Boundary"
+  },
+  {
+    "source": "TauLib.BookVII",
+    "target": "TauLib.BookVII.Logos.Sector"
+  },
+  {
+    "source": "TauLib.BookVII",
+    "target": "TauLib.BookVII.Meta.Archetypes"
+  },
+  {
+    "source": "TauLib.BookVII",
+    "target": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "source": "TauLib.BookVII",
+    "target": "TauLib.BookVII.Meta.Saturation"
+  },
+  {
+    "source": "TauLib.BookVII",
+    "target": "TauLib.BookVII.Social.Ontology"
+  },
+  {
+    "source": "TauLib.BookVII.Ethics.CIProof",
+    "target": "TauLib.BookVII.Meta.Archetypes"
+  },
+  {
+    "source": "TauLib.BookVII.Ethics.CIProof",
+    "target": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "source": "TauLib.BookVII.Final.Boundary",
+    "target": "TauLib.BookVII.Logos.Sector"
+  },
+  {
+    "source": "TauLib.BookVII.Final.Boundary",
+    "target": "TauLib.BookVII.Meta.Commitment"
+  },
+  {
+    "source": "TauLib.BookVII.Logos.Sector",
+    "target": "TauLib.BookVII.Meta.Commitment"
+  },
+  {
+    "source": "TauLib.BookVII.Logos.Sector",
+    "target": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "source": "TauLib.BookVII.Logos.Sector",
+    "target": "TauLib.BookVII.Meta.Saturation"
+  },
+  {
+    "source": "TauLib.BookVII.Meta.Archetypes",
+    "target": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "source": "TauLib.BookVII.Meta.Registers",
+    "target": "TauLib.BookVI.Mind.Bridge"
+  },
+  {
+    "source": "TauLib.BookVII.Meta.Saturation",
+    "target": "TauLib.BookIII.Enrichment.CanonicalLadder"
+  },
+  {
+    "source": "TauLib.BookVII.Meta.Saturation",
+    "target": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "source": "TauLib.BookVII.Social.Ontology",
+    "target": "TauLib.BookVII.Ethics.CIProof"
+  },
+  {
+    "source": "TauLib.BookVII.Social.Ontology",
+    "target": "TauLib.BookVII.Meta.Archetypes"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookII.CentralTheorem.CentralTheorem"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookIII.Doors.GrandGRH"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookIII.Doors.SpectralCorrespondence"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookIV.Electroweak.WeinbergNLO"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookV.Cosmology.CMBSpectrum"
+  },
+  {
+    "source": "TauLib.Meta.PrintAxioms",
+    "target": "TauLib.BookVII.Ethics.CIProof"
+  },
+  {
+    "source": "TauLib.Tour.CentralTheorem",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.Tour.CentralTheorem",
+    "target": "TauLib.BookII.CentralTheorem.BoundaryCharacters"
+  },
+  {
+    "source": "TauLib.Tour.CentralTheorem",
+    "target": "TauLib.BookII.CentralTheorem.CentralTheorem"
+  },
+  {
+    "source": "TauLib.Tour.CentralTheorem",
+    "target": "TauLib.BookII.Interior.Tau3Fibration"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Denotation.Arithmetic"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Denotation.TauIdx"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Kernel.Axioms"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Kernel.Diagonal"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Kernel.Signature"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Orbit.Generation"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "source": "TauLib.Tour.Foundations",
+    "target": "TauLib.BookI.Polarity.Spectral"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Coordinates.Hyperfact"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Coordinates.NoTie"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Holomorphy.DHolomorphic"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Holomorphy.GlobalHartogs"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Kernel.Axioms"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Kernel.Signature"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Logic.Explosion"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Logic.Truth4"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Polarity.Polarity"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookI.Topos.EarnedTopos"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookI",
+    "target": "TauLib.BookIII.Spectrum.KernelHinge"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookI.Boundary.Characters"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookI.Boundary.Fourier"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookI.Boundary.Spectral"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookI.Boundary.SplitComplex"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookII.CentralTheorem.Categoricity"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookII.CentralTheorem.CentralTheorem"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookII.Enrichment.SelfEnrichment"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookII.Enrichment.YonedaTheorem"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookII",
+    "target": "TauLib.BookII.Hartogs.MutualDetermination"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Doors.GrandGRH"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Doors.MasterSchema"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Doors.SpectralCorrespondence"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Enrichment.CanonicalLadder"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Hinge.DependencyChain"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Hinge.HingeTheorem"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Sectors.Decomposition"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIII",
+    "target": "TauLib.BookIII.Sectors.ParityBridge"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Calibration.CalibrationAnchor"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Calibration.SIReference"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Calibration.SharedOntology"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Electroweak.AlphaDerivation"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Electroweak.EWSynthesis"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Particles.BetaDecay"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Particles.ThreeGenerations"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookIV",
+    "target": "TauLib.BookIV.Sectors.FineStructure"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookV",
+    "target": "TauLib.BookV.Astrophysics.RotationCurves"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookV",
+    "target": "TauLib.BookV.Coda.ConstantsLedger"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookV",
+    "target": "TauLib.BookV.Cosmology.BHBirthTopology"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookV",
+    "target": "TauLib.BookV.Cosmology.CMBSpectrum"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookV",
+    "target": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVI",
+    "target": "TauLib.BookVI.Consumer.Neural"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVI",
+    "target": "TauLib.BookVI.CosmicLife.CrossLimit"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVI",
+    "target": "TauLib.BookVI.LifeCore.Distinction"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVI",
+    "target": "TauLib.BookVI.LifeCore.SelfDesc"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVI",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVI",
+    "target": "TauLib.BookVI.Sectors.Hallmarks"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVI",
+    "target": "TauLib.BookVI.Source.GeneticCode"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVII",
+    "target": "TauLib.BookVII.Ethics.CIProof"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVII",
+    "target": "TauLib.BookVII.Final.Boundary"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVII",
+    "target": "TauLib.BookVII.Logos.Sector"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVII",
+    "target": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVII",
+    "target": "TauLib.BookVII.Meta.Saturation"
+  },
+  {
+    "source": "TauLib.Tour.GuidedTour.BookVII",
+    "target": "TauLib.BookVII.Social.Ontology"
+  },
+  {
+    "source": "TauLib.Tour.LifeFromPhysics",
+    "target": "TauLib.BookVI.Consumer.Neural"
+  },
+  {
+    "source": "TauLib.Tour.LifeFromPhysics",
+    "target": "TauLib.BookVI.CosmicLife.CrossLimit"
+  },
+  {
+    "source": "TauLib.Tour.LifeFromPhysics",
+    "target": "TauLib.BookVI.LifeCore.Distinction"
+  },
+  {
+    "source": "TauLib.Tour.LifeFromPhysics",
+    "target": "TauLib.BookVI.LifeCore.SelfDesc"
+  },
+  {
+    "source": "TauLib.Tour.LifeFromPhysics",
+    "target": "TauLib.BookVI.Sectors.FourPlusOne"
+  },
+  {
+    "source": "TauLib.Tour.LifeFromPhysics",
+    "target": "TauLib.BookVI.Source.GeneticCode"
+  },
+  {
+    "source": "TauLib.Tour.MillenniumProblems",
+    "target": "TauLib.BookIII.Arithmetic.BSD"
+  },
+  {
+    "source": "TauLib.Tour.MillenniumProblems",
+    "target": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "source": "TauLib.Tour.MillenniumProblems",
+    "target": "TauLib.BookIII.Doors.GrandGRH"
+  },
+  {
+    "source": "TauLib.Tour.MillenniumProblems",
+    "target": "TauLib.BookIII.Doors.Poincare"
+  },
+  {
+    "source": "TauLib.Tour.MillenniumProblems",
+    "target": "TauLib.BookIII.Doors.SpectralCorrespondence"
+  },
+  {
+    "source": "TauLib.Tour.MillenniumProblems",
+    "target": "TauLib.BookIII.Physics.HartogsFlow"
+  },
+  {
+    "source": "TauLib.Tour.MillenniumProblems",
+    "target": "TauLib.BookIII.Physics.Hodge"
+  },
+  {
+    "source": "TauLib.Tour.MindAndEthics",
+    "target": "TauLib.BookVII.Ethics.CIProof"
+  },
+  {
+    "source": "TauLib.Tour.MindAndEthics",
+    "target": "TauLib.BookVII.Final.Boundary"
+  },
+  {
+    "source": "TauLib.Tour.MindAndEthics",
+    "target": "TauLib.BookVII.Logos.Sector"
+  },
+  {
+    "source": "TauLib.Tour.MindAndEthics",
+    "target": "TauLib.BookVII.Meta.Registers"
+  },
+  {
+    "source": "TauLib.Tour.MindAndEthics",
+    "target": "TauLib.BookVII.Social.Ontology"
+  },
+  {
+    "source": "TauLib.Tour.OneConstant",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.Tour.OneConstant",
+    "target": "TauLib.BookIV.Electroweak.AlphaDerivation"
+  },
+  {
+    "source": "TauLib.Tour.OneConstant",
+    "target": "TauLib.BookIV.Electroweak.EWSynthesis"
+  },
+  {
+    "source": "TauLib.Tour.OneConstant",
+    "target": "TauLib.BookV.Astrophysics.RotationCurves"
+  },
+  {
+    "source": "TauLib.Tour.OneConstant",
+    "target": "TauLib.BookV.Coda.ConstantsLedger"
+  },
+  {
+    "source": "TauLib.Tour.OneConstant",
+    "target": "TauLib.BookV.Cosmology.CMBSpectrum"
+  },
+  {
+    "source": "TauLib.Tour.Physics",
+    "target": "TauLib.BookIV.Electroweak.EWSynthesis"
+  },
+  {
+    "source": "TauLib.Tour.Physics",
+    "target": "TauLib.BookIV.Electroweak.MajoranaStructure"
+  },
+  {
+    "source": "TauLib.Tour.Physics",
+    "target": "TauLib.BookIV.Particles.StrongCP"
+  },
+  {
+    "source": "TauLib.Tour.Physics",
+    "target": "TauLib.BookIV.Particles.ThreeGenerations"
+  },
+  {
+    "source": "TauLib.Tour.Physics",
+    "target": "TauLib.BookV.Astrophysics.RotationCurves"
+  },
+  {
+    "source": "TauLib.Tour.Physics",
+    "target": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry"
+  },
+  {
+    "source": "TauLib.Tour.Physics",
+    "target": "TauLib.BookV.Cosmology.CMBSpectrum"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookI.Boundary.Iota"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookI.Orbit.Rigidity"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookIII.Bridge.BridgeAxiom"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookIII.Doors.GrandGRH"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookIII.Doors.SpectralCorrespondence"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookIV.Arena.BoundaryHolonomy"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookIV.Electroweak.EWSynthesis"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookV.Cosmology.CMBSpectrum"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookVII.Ethics.CIProof"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookVII.Final.Boundary"
+  },
+  {
+    "source": "TauLib.Tour.VerifyItYourself",
+    "target": "TauLib.BookVII.Logos.Sector"
+  }
+]

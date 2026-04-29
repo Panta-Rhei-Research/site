@@ -1,0 +1,88 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "holonomy_perturbative",
+  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-perturbative/",
+  "summary_short": "`theorem` declaration in `TauLib.BookIV.MassDerivation.HolonomyDetail`.",
+  "declaration_id": "TauLib.BookIV.MassDerivation.HolonomyDetail::holonomy_perturbative",
+  "declaration_slug": "holonomy-perturbative",
+  "kind": "theorem",
+  "name": "holonomy_perturbative",
+  "module_name": "TauLib.BookIV.MassDerivation.HolonomyDetail",
+  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
+  "source_line_start": 135,
+  "source_line_end": 138,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/HolonomyDetail.lean#L135-L138",
+  "formal_status": "formalized",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookIV.MassDerivation.HolonomyDetail",
+        "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/HolonomyDetail.lean#L135-L138",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "theorem",
+      "status": "formalized"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookIV.MassDerivation.HolonomyDetail](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/)
+- Source path: [`TauLib/BookIV/MassDerivation/HolonomyDetail.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/HolonomyDetail.lean#L135-L138)
+- Source range: L135-L138
+- Kind: `theorem`
+- Formal status hint: `formalized`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+/-- The holonomy correction is perturbatively small relative to √3. -/
+```
+
+## Source Excerpt
+
+```lean
+theorem holonomy_perturbative :
+    pi_cubed_numer * alpha_sq_numer * 1000 * 10000000 <
+    17320508 * pi_cubed_denom * alpha_sq_denom :=
+  perturbative_hierarchy
+```

@@ -1,0 +1,48 @@
+---
+layout: "taulib-doc"
+title: "TauLib.BookI.Denotation.Structural"
+title_plain: "TauLib.BookI.Denotation.Structural"
+permalink: "/corpus/taulib/docs/book-i-denotation-structural/"
+lane: "corpus"
+v2_lane: "corpus"
+type: "TauLib Module"
+status: "Canonical"
+summary_short: "Corpus TauLib module page for TauLib.BookI.Denotation.Structural."
+module: "TauLib.BookI.Denotation.Structural"
+book: "BookI"
+family: "Denotation"
+line_count: 390
+registry_ids:
+  - "I.K2"
+  - "I.P06"
+  - "I.P07"
+upstream_url: "https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookI/Denotation/Structural.lean"
+legacy_verify_url: "/verify/taulib/docs/book-i-denotation-structural/"
+generated_from: "corpus/taulib-sources"
+projection_version: "v3.0"
+canonical_source: "corpus/taulib-sources"
+do_not_edit: true
+---
+
+## Module status
+
+TauLib is published here as the compiled Lean projection of the Corpus. This page records the module's source file, import neighborhood, Registry anchors, and projection metadata. Semantic adequacy, bridge assumptions, and external assessment remain Verify questions. Registry anchors are rendered by the site from the current public Registry projection; anchors without a public object page remain visible as pending mappings rather than broken links.
+
+| Field | Value |
+|---|---|
+| Module | `TauLib.BookI.Denotation.Structural` |
+| Book | `BookI` |
+| Family | `Denotation` |
+| Lines | 390 |
+| Registry anchors | 3 |
+
+## Imports
+
+- `TauLib.BookI.Polarity.OmegaGerms`
+- `TauLib.BookI.Orbit.Rigidity`
+
+## Source
+
+- [Open source file](https://github.com/Panta-Rhei-Research/taulib/blob/37c12411e76f4bb89f7bc463d1443eecc0bd9afe/TauLib/BookI/Denotation/Structural.lean)
+- Corpus source path: `taulib-sources/project/TauLib/BookI/Denotation/Structural.lean`
+- SHA-256: `1d9d990ea07a2c25b7ab011de9b475bba09370adbe83d217bbe463ba5a70472c`

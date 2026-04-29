@@ -20,11 +20,11 @@ prev_chapter_url: "/corpus/monographs/book-vii/part-10-the-logos-sector/chapter-
 prev_chapter_title: "Chapter 122: Synchronicity as Kernel Resonance"
 next_chapter_url: "/corpus/monographs/book-vii/part-10-the-logos-sector/chapter-124-the-logos-sector-synthesis/"
 next_chapter_title: "Chapter 124: The Logos Sector Synthesis"
-summary_short: "Preview of Part XII's central result. The boundary collapse lemma is *stated* here; the proof is deferred to Chapter [ch:boundary-collapse]. The ω-germ…"
+summary_short: "Preview of Part XII's central result. The boundary collapse lemma is stated but not yet proved: the ω-germ question exhibits subject–tool collapse within Reg_D. The No Forced Stance theorem (VII.T47) follows immediately."
 canonical_book_url: "/corpus/monographs/book-vii/"
 canonical_book_title: "Book VII: Categorical Metaphysics"
 canonical_part_url: "/corpus/monographs/book-vii/part-10-the-logos-sector/"
-canonical_part_title: "Part X: The Logos Sector"
+canonical_part_title: "The Logos Sector"
 publication_book_url: "/publications/books/book-vii/"
 legacy_publication_url: "/publications/books/book-vii/part-10-the-logos-sector/chapter-123-boundary-collapse-preview/"
 right_rail:
@@ -51,17 +51,29 @@ generated_from: "corpus/monograph-projections"
 projection_version: "v0.1"
 canonical_source: "corpus/monograph-projections"
 do_not_edit: true
+construction_sequence: 78
+construction_layer: "metaphysics"
+construction_layer_label: "Metaphysics"
+construction_step_ids:
+  - "CS-08"
+  - "CS-09"
+  - "CS-10"
 ---
 
-Preview of Part XII's central result. The boundary collapse lemma is
-*stated* here; the proof is deferred to
-the relevant chapter. The ω-germ question—is
-ω inhabited?—cannot be answered from within S_D because any
-S_D-internal proof of ω-inhabitation requires ω as
-presupposition, collapsing subject and tool. Book VI proved the
-question is non-diagrammatic; this chapter identifies the precise
-structural mechanism. The "No Forced Stance" theorem (VII.T47)
-establishes that the framework cannot and does not force a particular
-answer: any stance on ω-inhabitation belongs to ℝeg_C, not
-to ℝeg_D. Locating this boundary is not a failure but the deepest
-methodological triumph of the series.
+The self-enrichment ladder E₀ → E₁ → E₂ → E₃ → ω forms the spine of the series. The closure point ω is well-defined as a structural limit — its existence is a *Reg_D*-theorem — but whether ω carries content beyond that structural role is a different question entirely. Book VI (Theorem VI.T40) established that the ω-germ question is non-diagrammatic; Chapter 123 explains *why* by identifying the precise mechanism. Any *Reg_D*-internal proof that ω is inhabited must use ω as part of its own coherence apparatus, collapsing subject and tool (VII.D89). The proof is deferred to Part XII; the statement and its immediate consequence — the No Forced Stance theorem (VII.T47) — are placed here in Part X because they are consequences of the Logos sector architecture and needed for the Part X synthesis that follows.
+
+## What this chapter contributes
+
+- **Definitions / Axioms:** *VII.D89 — Subject–Tool Collapse* (τ-effective). A subject–tool collapse occurs when every *Reg*-internal proof of a proposition about X requires X as a presupposition of the proof apparatus.
+- **Key results:** *VII.T47 — No Forced Stance* (τ-effective, proof of boundary collapse lemma deferred): the τ-framework cannot force a *Reg_C*-stance on ω-inhabitation in either direction — no forced inhabitation, no forced emptiness, and agnosticism is equally not mandated. Any such stance belongs to *Reg_C*, not *Reg_D*.
+- **Dependencies:** Non-diagrammatic status of ω-germ question (Book VI, Chapter 53, Theorem VI.T40); register completeness of the 4+1 decomposition; Logos sector as natural habitat of the ω-boundary.
+
+## Lean coverage
+
+This chapter is prose-only at the current release; its content does not yet have a corresponding TauLib module.
+
+## Where this leads
+
+Chapter 124 synthesises all six results of Part X, names S_L as the structural crown jewel of the 2nd Edition, and maps the path forward to Parts XI and XII where the boundary collapse is proved in full.
+
+<!-- chapter-abstract: regenerated 2026-04-29 from manuscript-sources/book-07/part10/ch123.tex -->

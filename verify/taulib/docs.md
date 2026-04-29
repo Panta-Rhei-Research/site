@@ -1,53 +1,74 @@
 ---
 layout: program-doc
-title: "TauLib API Documentation"
+title: "TauLib Module and Declaration Browser"
 permalink: /verify/taulib/docs/
 lane: verify
-summary_short: "445 module documentation pages generated from the TauLib Lean 4 source code."
-summary_cards:
-- title: "445 modules"
-  body: "Complete API documentation for every TauLib module, generated from source annotations."
-- title: "7 books"
-  body: "Organized by book: Foundations through Metaphysics, plus Tours."
-- title: "Searchable"
-  body: "Browse by book or search the full site to find any declaration."
+v2_lane: verify
+type: "TauLib Browser"
+status: "Canonical"
+summary_short: "Corpus-native browser for pinned TauLib modules and Lean declarations."
+hero_ctas:
+  - label: "Formalization Status"
+    url: /verify/taulib/status/
+    primary: true
+  - label: "Release Manifest"
+    url: /verify/release-manifest/
 right_rail:
   related:
-  - title: TauLib Overview
-    url: /verify/taulib/
-  - title: Architecture
-    url: /verify/taulib/architecture/
-  - title: Formalization Status
-    url: /verify/taulib/status/
-  artifacts:
-  - title: TauLib Repository
-    url: https://github.com/Panta-Rhei-Research/taulib
-    external: true
+    - title: "TauLib Hub"
+      url: /verify/taulib/
+    - title: "Formalization Status"
+      url: /verify/taulib/status/
+    - title: "Release Manifest"
+      url: /verify/release-manifest/
   meta:
-    type: "API Index"
-    status: "Frozen"
+    type: "TauLib Browser"
+    status: "Canonical"
     updated: "April 2026"
 ---
 
-## Browse by Book
+{% assign summary = site.data.taulib_projections.summary %}
+{% assign modules = site.data.taulib_projections.modules %}
 
-{% assign modules = site.data.verify.taulib_modules %}
+## Corpus-Native Projection
 
-{% assign books = "I,II,III,IV,V,VI,VII,Tour" | split: "," %}
-{% for book in books %}
-{% assign book_modules = modules | where: "book", book %}
-{% if book_modules.size > 0 %}
-### Book {{ book }} ({{ book_modules.size }} modules)
+This browser is generated directly from the pinned Corpus TauLib snapshot. It is not imported from generated HTML: the Corpus scanner reads the Lean source, extracts modules, imports, registry IDs, declarations, source spans, and stable URLs, then projects those records into these public pages.
 
-{% for m in book_modules %}- [{{ m.module }}]({{ m.url | relative_url }})
-{% endfor %}
-{% endif %}
-{% endfor %}
+<div class="v2-grid">
+  <article class="v2-tile"><strong>{{ summary.module_count | default: modules.size }} modules</strong><span>Pinned Lean modules with stable compatibility URLs.</span></article>
+  <article class="v2-tile"><strong>{{ summary.declaration_count }} declarations/evals</strong><span>Theorems, lemmas, definitions, structures, classes, inductives, axioms, examples, and evaluations.</span></article>
+  <article class="v2-tile"><strong>{{ summary.registry_linked_module_count }} linked modules</strong><span>Modules with explicit Registry identifiers.</span></article>
+  <article class="v2-tile"><strong>{{ summary.registry_linked_declaration_count }} linked declarations</strong><span>Declaration-level Registry evidence where the source exposes it.</span></article>
+</div>
 
-{% assign other_modules = modules | where: "book", "" %}
-{% if other_modules.size > 0 %}
-### Other ({{ other_modules.size }} modules)
+## Browse Modules
 
-{% for m in other_modules %}- [{{ m.module }}]({{ m.url | relative_url }})
-{% endfor %}
-{% endif %}
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Module</th>
+      <th scope="col">Book</th>
+      <th scope="col">Family</th>
+      <th scope="col">Declarations</th>
+      <th scope="col">Registry IDs</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for module in modules %}
+    {% assign module_url = module["url"] %}
+    <tr>
+      <th scope="row"><a href="{{ module_url | relative_url }}"><code>{{ module.module_name }}</code></a></th>
+      <td>{{ module.book | default: "Core" }}</td>
+      <td>{{ module.family | default: "Root" }}</td>
+      <td>{{ module.declarations | size }}</td>
+      <td>{{ module.registry_ids | size }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+## Projection Boundary
+
+TauLib checks formal proof obligations where they are represented in Lean. It does not, by itself, settle bridge adequacy, empirical truth, semantic correspondence, or external acceptance. Those questions remain owned by the broader Verify lane.

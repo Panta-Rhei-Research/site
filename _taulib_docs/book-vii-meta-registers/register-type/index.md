@@ -1,0 +1,91 @@
+---
+{
+  "projection_kind": "taulib_declaration",
+  "title": "RegisterType",
+  "permalink": "/verify/taulib/docs/book-vii-meta-registers/register-type/",
+  "summary_short": "`inductive` declaration in `TauLib.BookVII.Meta.Registers`.",
+  "declaration_id": "TauLib.BookVII.Meta.Registers::RegisterType",
+  "declaration_slug": "register-type",
+  "kind": "inductive",
+  "name": "RegisterType",
+  "module_name": "TauLib.BookVII.Meta.Registers",
+  "module_url": "/verify/taulib/docs/book-vii-meta-registers/",
+  "source_line_start": 54,
+  "source_line_end": 60,
+  "registry_ids": [],
+  "related_registry_items": [],
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L54-L60",
+  "formal_status": "defined",
+  "right_rail": {
+    "related": [
+      {
+        "title": "TauLib.BookVII.Meta.Registers",
+        "url": "/verify/taulib/docs/book-vii-meta-registers/"
+      },
+      {
+        "title": "TauLib Projection Index",
+        "url": "/verify/taulib/docs/"
+      },
+      {
+        "title": "Formalization Status",
+        "url": "/verify/taulib/status/"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Source on GitHub",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L54-L60",
+        "external": true
+      }
+    ],
+    "meta": {
+      "type": "TauLib Declaration",
+      "kind": "inductive",
+      "status": "defined"
+    }
+  },
+  "layout": "taulib-doc",
+  "lane": "verify",
+  "v2_lane": "verify",
+  "status": "Canonical",
+  "generated_from": "corpus/taulib-projections",
+  "projection_version": "v0.1",
+  "canonical_source": "Panta-Rhei-Research/taulib",
+  "do_not_edit": true,
+  "type": "TauLib Declaration"
+}
+---
+
+## Declaration Projection
+
+This page is generated directly from the pinned TauLib Lean source snapshot. The source excerpt is public because the active TauLib repository is public.
+
+## Source Provenance
+
+- Module: [TauLib.BookVII.Meta.Registers](/verify/taulib/docs/book-vii-meta-registers/)
+- Source path: [`TauLib/BookVII/Meta/Registers.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L54-L60)
+- Source range: L54-L60
+- Kind: `inductive`
+- Formal status hint: `defined`
+
+## Registry Links
+
+- No Registry IDs were detected in this declaration block.
+
+## Immediate Comment / Docstring
+
+```lean
+/-- Register type identifier: the four pure registers plus logos. -/
+```
+
+## Source Excerpt
+
+```lean
+inductive RegisterType where
+  | empirical     -- E: falsifiable predictions
+  | practical     -- P: normative constraints
+  | diagrammatic  -- D: structural proofs
+  | commitment    -- C: stance-constituted contents
+  | logos         -- L: D ∩ C mixed sector
+  deriving Repr, DecidableEq
+```
