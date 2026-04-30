@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="result-article">
+  <header class="hero-card">
+    <div class="module-eyebrow-row">
+      <span class="eyebrow">Results · Additional Noteworthy Results · {{ page.domain_label | default: page.domain | default: "Registry" }}</span>
+      {% if page.cluster_label %}
+      <span class="chip chip-kind">{{ page.cluster_label }}</span>
+      {% endif %}
+      {% if page.confidence %}
+      <span class="chip">{{ page.confidence | capitalize }} confidence</span>
+      {% endif %}
+    </div>
+    <h1>{{ page.title_plain | default: page.title | strip_html }}</h1>
+    {% if page.summary_short %}
+    <p>{{ page.summary_short }}</p>
+    {% endif %}
+    <div class="chip-row">
+      {% if page.registry_id %}<span class="chip">{{ page.registry_id }}</span>{% endif %}
+      {% if page.domain_label %}<span class="chip">{{ page.domain_label }}</span>{% endif %}
+      {% if page.book %}<span class="chip">Book {{ page.book }}</span>{% endif %}
+      {% if page.scope %}<span class="chip">{{ page.scope | replace: "_", " " }}</span>{% endif %}
+      {% if page.lean_status %}<span class="chip">{{ page.lean_status | replace: "_", " " }}</span>{% endif %}
+    </div>
+  </header>
+
+  <section class="content-card">
+    <div class="prose">
+      {{ content }}
+    </div>
+  </section>
+
+  <section class="content-card">
+    <h2>Inspection Links</h2>
+    <div class="v2-grid">
+      {% if page.registry_url %}
+      <a class="v2-tile" href="{{ page.registry_url | relative_url }}">
+        <strong>Registry item</strong>
+        <span>{{ page.registry_id }}</span>
+      </a>
+      {% endif %}
+      <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
+        <strong>Corpus Registry</strong>
+        <span>Inspect the atomic Registry projection.</span>
+      </a>
+      <a class="v2-tile" href="{{ '/verify/' | relative_url }}">
+        <strong>Verify</strong>
+        <span>Review semantic adequacy, bridge assumptions, and external challenge routes.</span>
+      </a>
+      <a class="v2-tile" href="{{ '/results/additional-noteworthy-results/' | relative_url }}">
+        <strong>Additional Noteworthy Results</strong>
+        <span>Return to the Registry-backed result surface.</span>
+      </a>
+    </div>
+  </section>
+</article>

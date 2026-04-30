@@ -683,6 +683,24 @@ def sync_results() -> None:
     clean_generated_tree(SITE_ROOT / "_falsifications")
     copy_tree(CORPUS_EXPORTS / "falsification-pages", SITE_ROOT / "_falsifications")
 
+    sync_registry_noteworthy_results()
+
+
+def sync_registry_noteworthy_results() -> None:
+    source_root = CORPUS_EXPORTS / "registry-noteworthy-results"
+    if not source_root.exists():
+        return
+    for filename in (
+        "registry-noteworthy-results.json",
+        "registry-noteworthy-results.ndjson",
+        "registry-noteworthy-results.csv",
+    ):
+        source = source_root / filename
+        copy_file(source, SITE_ROOT / "_data" / "registry_noteworthy_results" / filename)
+        copy_file(source, SITE_ROOT / "assets" / "data" / "registry-noteworthy-results" / filename)
+    clean_generated_tree(SITE_ROOT / "results" / "additional-noteworthy-results")
+    copy_tree(source_root / "pages", SITE_ROOT / "results" / "additional-noteworthy-results")
+
 
 def sync_foundations() -> None:
     for filename in ("construction-spine.json", "construction-spine.ndjson", "construction-spine.csv"):

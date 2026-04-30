@@ -1,0 +1,140 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+{% assign noteworthy_results = site.data.registry_noteworthy_results["registry-noteworthy-results"] %}
+{% unless noteworthy_results %}
+  {% assign noteworthy_results = "" | split: "" %}
+{% endunless %}
+{% assign related_items = noteworthy_results | where: "cluster", "related_existing_surface" %}
+{% assign standalone_items = noteworthy_results | where: "cluster", "standalone_additional_result" %}
+{% assign physics_items = noteworthy_results | where: "domain", "physics" %}
+{% assign life_items = noteworthy_results | where: "domain", "life" %}
+{% assign metaphysics_items = noteworthy_results | where: "domain", "metaphysics" %}
+
+<header class="hero-card">
+  <span class="eyebrow">Results · Registry-backed</span>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary_short %}
+  <p>{{ page.summary_short }}</p>
+  {% endif %}
+  <div class="chip-row">
+    <span class="chip">{{ noteworthy_results | size }} records</span>
+    <span class="chip">{{ physics_items | size }} Physics</span>
+    <span class="chip">{{ life_items | size }} Life</span>
+    <span class="chip">{{ metaphysics_items | size }} Metaphysics</span>
+    <span class="chip">{{ related_items | size }} linked to existing surfaces</span>
+    <span class="chip">{{ standalone_items | size }} standalone</span>
+  </div>
+</header>
+
+<section class="content-card results-browse">
+  <div class="results-browse-intro prose">
+    {{ content }}
+  </div>
+
+  <div class="results-browse-controls" id="registry-noteworthy-controls" aria-label="Filter Registry-backed noteworthy results">
+    <div class="filter-group" data-filter-group="domain">
+      <span class="filter-label">Domain</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="domain" data-value="physics" type="button">Physics</button>
+        <button class="filter-chip" data-filter="domain" data-value="life" type="button">Life</button>
+        <button class="filter-chip" data-filter="domain" data-value="metaphysics" type="button">Metaphysics</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="cluster">
+      <span class="filter-label">Role</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="cluster" data-value="related_existing_surface" type="button">Existing surface</button>
+        <button class="filter-chip" data-filter="cluster" data-value="standalone_additional_result" type="button">Standalone</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="book">
+      <span class="filter-label">Book</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="book" data-value="III" type="button">III</button>
+        <button class="filter-chip" data-filter="book" data-value="IV" type="button">IV</button>
+        <button class="filter-chip" data-filter="book" data-value="V" type="button">V</button>
+        <button class="filter-chip" data-filter="book" data-value="VI" type="button">VI</button>
+        <button class="filter-chip" data-filter="book" data-value="VII" type="button">VII</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="scope">
+      <span class="filter-label">Scope</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="scope" data-value="tau-effective" type="button">Tau-effective</button>
+        <button class="filter-chip" data-filter="scope" data-value="framework" type="button">Framework</button>
+        <button class="filter-chip" data-filter="scope" data-value="conjectural" type="button">Conjectural</button>
+        <button class="filter-chip" data-filter="scope" data-value="established" type="button">Established</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="lean">
+      <span class="filter-label">Lean</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="lean" data-value="formalized" type="button">Formalized</button>
+        <button class="filter-chip" data-filter="lean" data-value="not_formalized" type="button">Not formalized</button>
+        <button class="filter-chip" data-filter="lean" data-value="skeleton" type="button">Skeleton</button>
+        <button class="filter-chip" data-filter="lean" data-value="not_applicable" type="button">Not applicable</button>
+      </div>
+    </div>
+
+    <div class="filter-group" data-filter-group="confidence">
+      <span class="filter-label">Confidence</span>
+      <div class="filter-chips">
+        <button class="filter-chip" data-filter="confidence" data-value="high" type="button">High</button>
+        <button class="filter-chip" data-filter="confidence" data-value="medium" type="button">Medium</button>
+      </div>
+    </div>
+
+    <div class="filter-group filter-group-actions">
+      <div class="filter-count">
+        <strong id="registry-noteworthy-count">{{ noteworthy_results | size }}</strong> of {{ noteworthy_results | size }} records
+      </div>
+      <button class="btn-secondary btn-clear-filters" id="registry-noteworthy-clear" type="button">Clear filters</button>
+    </div>
+  </div>
+
+  <div class="results-browse-empty" id="registry-noteworthy-empty" hidden>
+    <p>No Registry-backed noteworthy results match the current filters. <button type="button" class="btn-link" id="registry-noteworthy-empty-clear">Clear filters</button> to see everything.</p>
+  </div>
+
+  <ol class="results-browse-grid" id="registry-noteworthy-grid">
+    {% for item in noteworthy_results %}
+      <li class="result-card"
+          data-domain="{{ item.domain }}"
+          data-cluster="{{ item.cluster }}"
+          data-book="{{ item.book }}"
+          data-scope="{{ item.scope }}"
+          data-lean="{{ item.lean_status }}"
+          data-confidence="{{ item.confidence }}"
+          data-title="{{ item.title | downcase }}">
+        <a class="result-card-link" href="{{ item.url | relative_url }}">
+          <div class="result-card-top">
+            <span class="chip chip-kind">{{ item.cluster_label }}</span>
+            <span class="chip chip-small">{{ item.domain_label }}</span>
+            <span class="chip chip-small">Book {{ item.book }}</span>
+          </div>
+          <h2 class="result-card-title">{{ item.title }}</h2>
+          <p class="result-card-summary">{{ item.summary_short }}</p>
+          <dl class="result-card-status-lines">
+            <div><dt>Registry</dt><dd>{{ item.registry_id }}</dd></div>
+            <div><dt>Scope</dt><dd>{{ item.scope | replace: "_", " " }}</dd></div>
+            <div><dt>Lean</dt><dd>{{ item.lean_status | replace: "_", " " }}</dd></div>
+          </dl>
+          <div class="result-card-bottom">
+            <span class="chip chip-small">{{ item.confidence | capitalize }} confidence</span>
+            <span class="chip chip-small">{{ item.related_public_surfaces | size }} related surface{% unless item.related_public_surfaces.size == 1 %}s{% endunless %}</span>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<script defer src="{{ '/assets/js/registry-noteworthy-results.js' | relative_url }}"></script>

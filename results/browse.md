@@ -24,6 +24,8 @@ right_rail:
 
 The Results lane has a unified browse surface where you can filter the generic Result catalogue by domain, enrichment layer, result kind, importance, status, and canonical book. These pages are supporting evidence, landmarks, predictions, falsification facets, and broader readouts. The exact one-to-one Problem Ledger mirror lives at [Problem Answers]({{ '/results/problem-ledger-answers/' | relative_url }}). Every card is pre-rendered in HTML, so the page remains crawlable and readable without JavaScript. With JavaScript enabled, filters and sorting narrow the view interactively, and the active filter state is shared via the URL.
 
+The separate [Additional Noteworthy Results]({{ '/results/additional-noteworthy-results/' | relative_url }}) surface publishes Registry-backed results promoted from Corpus triage. Those pages are intentionally not counted inside this generic Result catalogue.
+
 Numerical predictions additionally carry a precision tier — **Tier A** (~0.025 ppm), **Tier B** (~3 ppm), or **Tier C** (~0.8%) — which names how sharp the test is, distinct from the result's public status grammar (Internally addressed / Partial / Qualitative / Contradicted / Not addressed). Every such prediction is a readout of the same four-layer calibration cascade from ι<sub>τ</sub> + m<sub>n</sub>.
 
 Use the controls below to narrow down, or open a result page directly.

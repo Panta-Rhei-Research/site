@@ -35,6 +35,8 @@ right_rail:
       url: /results/recovery-target-status/
     - title: "Progress Against Agenda"
       url: /results/progress-against-agenda/
+    - title: "Additional Noteworthy Results"
+      url: /results/additional-noteworthy-results/
     - title: "Result Classifications"
       url: /results/classifications/
     - title: "Corpus Registry"
@@ -90,7 +92,7 @@ Results are not isolated claims. They are consequences of the built Corpus, orga
   <a class="btn-ghost" href="{{ '/results/progress-against-agenda/' | relative_url }}">Track Progress Against Agenda</a>
 </div>
 
-## Six ways to read Results
+## Seven ways to read Results
 
 <ol class="v2-grid v2-card-list">
   <li>
@@ -121,6 +123,12 @@ Results are not isolated claims. They are consequences of the built Corpus, orga
     <a class="v2-tile" href="{{ '/results/additional-derived-results/' | relative_url }}">
       <strong>Additional Derived Results</strong>
       <span>Framework results not captured by the curated landmarks or ledger mirrors.</span>
+    </a>
+  </li>
+  <li>
+    <a class="v2-tile" href="{{ '/results/additional-noteworthy-results/' | relative_url }}">
+      <strong>Additional Noteworthy Results</strong>
+      <span>Registry-backed results promoted from Corpus triage across the published domains.</span>
     </a>
   </li>
   <li>
@@ -184,6 +192,7 @@ These labels report the program's internal status. They do not indicate external
 - [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) mirrors Results back to the Program lane.
 - [Problem Answers]({{ '/results/problem-ledger-answers/' | relative_url }}) organizes current stances against public problem obligations.
 - [Recovery Target Status]({{ '/results/recovery-target-status/' | relative_url }}) reports current recovery status against declared recovery requirements.
+- [Additional Noteworthy Results]({{ '/results/additional-noteworthy-results/' | relative_url }}) publishes Registry-backed result surfaces separately from the generic Result catalogue.
 - [Result Classifications]({{ '/results/classifications/' | relative_url }}) explains what kind of result each page claims to be.
 - [World Readout]({{ '/results/world-readout/' | relative_url }}) gives the domain-level picture implied by the current results.
 - [Browse All Results]({{ '/results/browse/' | relative_url }}) exposes the full catalogue.
