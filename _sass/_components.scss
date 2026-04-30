@@ -207,6 +207,186 @@
 .v2-tile-life        { border-top-color: #6b4a14; }
 .v2-tile-metaphysics { border-top-color: #4d3a6b; }
 
+// v3.4 — Plain-language accordion (expanded by default on result pages)
+.result-plain-language {
+  margin: 18px 0;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, rgba(238, 246, 240, 0.6), rgba(232, 240, 250, 0.5));
+  border-left: 3px solid #2f6f4e;
+  border-radius: $radius-lg;
+
+  > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+
+    &::-webkit-details-marker { display: none; }
+  }
+
+  &[open] .result-plain-language-toggle {
+    transform: rotate(180deg);
+  }
+
+  .result-plain-language-eyebrow {
+    font-family: $font-ui;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #2f6f4e;
+  }
+
+  .result-plain-language-toggle {
+    font-size: 1.1rem;
+    color: #2f6f4e;
+    transition: transform 0.2s ease;
+  }
+
+  .result-plain-language-body {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed rgba(47, 111, 78, 0.3);
+
+    p {
+      font-size: 1.02rem;
+      line-height: 1.65;
+    }
+
+    .result-plain-language-source {
+      margin-top: 10px;
+      font-size: 0.84rem;
+      font-style: italic;
+    }
+  }
+}
+
+// v3.4 — Cross-domain edge list rendering
+.cross-domain-edges-card {
+  background: linear-gradient(120deg, rgba(238, 230, 240, 0.4), rgba(244, 235, 220, 0.3));
+}
+
+.cross-domain-edge-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0;
+
+  > li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+
+    &:last-child { border-bottom: 0; }
+
+    .chip {
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+.cross-domain-edge-arrow {
+  font-size: 1.2rem;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+// v3.4 — Deep-dive expandable section for technical details
+.deep-dive {
+  margin: 16px 0;
+  padding: 12px 16px;
+  border: var(--border-default);
+  border-radius: $radius-md;
+  background: rgba(0, 0, 0, 0.02);
+
+  > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--lane-current);
+
+    &::-webkit-details-marker { color: inherit; }
+  }
+
+  &[open] {
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  .deep-dive-body {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
+
+    code, pre {
+      font-size: 0.84rem;
+    }
+  }
+}
+
+// v3.4 — Mobile responsiveness audit
+@media (max-width: 760px) {
+  // Domain hub cards: drop to single column
+  .v2-grid-large {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .v2-tile-domain {
+    min-height: 0;
+    padding: 16px 18px;
+
+    h3 { font-size: 1.2rem; }
+    p  { font-size: 0.86rem; }
+  }
+
+  // Cascade pages: ASCII diagrams scroll horizontally on small screens
+  .prose pre,
+  .prose code {
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
+  .prose pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  // Cross-domain edge list: stack edges vertically
+  .cross-domain-edge-list > li {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 0;
+
+    .cross-domain-edge-arrow {
+      transform: rotate(90deg);
+      margin: 4px 0;
+    }
+  }
+
+  // Plain-language accordion: tighter padding
+  .result-plain-language {
+    padding: 12px 14px;
+
+    .result-plain-language-body p {
+      font-size: 0.92rem;
+    }
+  }
+
+  // Result-page badges row: smaller chip text
+  .chip-row-badges {
+    .chip {
+      font-size: 0.68rem;
+      padding: 3px 8px;
+    }
+  }
+}
+
 .v2-badge-row {
   display: flex;
   flex-wrap: wrap;

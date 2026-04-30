@@ -168,6 +168,9 @@ layout: default
 
 {% include glossary-related.html entry=entry %}
 
+{%- comment -%} v3.4 — cross-domain bridges (auto-rendered when this entry touches a cross-domain edge) {%- endcomment -%}
+{% include cross-domain-links.html entry_id=page.entry_id %}
+
 </article>
 {% else %}
 <article class="glossary-entry-missing">

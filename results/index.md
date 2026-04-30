@@ -109,6 +109,32 @@ The Agenda states the burden. The Corpus carries the build. Results shows the cu
 
 Every result should be read with its status markers. An internally addressed result is not the same as external verification or scientific acceptance.
 
+## New to the framework? Start here
+
+<div class="v2-grid">
+
+  <a class="v2-tile" href="{{ '/results/glossary-onboarding/' | relative_url }}">
+    <strong>🎓 Glossary Onboarding</strong>
+    <span>5-minute primer on τ-framework vocabulary — ι_τ, register, sector, K_χ, and more.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/physics/guided-tour/' | relative_url }}">
+    <strong>🎓 Physics Guided Tour</strong>
+    <span>7-stop walk through the physics surface in plain language. 10 minutes.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/life/guided-tour/' | relative_url }}">
+    <strong>🎓 Life Guided Tour</strong>
+    <span>6-stop walk through the K_χ tree and biological correlates. 10 minutes.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/cross-domain/' | relative_url }}">
+    <strong>🌉 Cross-Domain Edges</strong>
+    <span>The structural junctions where physics, life, and metaphysics meet.</span>
+  </a>
+
+</div>
+
 ## Cross-cutting surfaces
 
 <div class="v2-grid">
