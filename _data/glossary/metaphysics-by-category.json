@@ -66,9 +66,11 @@
         },
         "related_glossary_entries": [
           "MG-R01-empirical-register",
-          "MG-P01-or1-self-coherence"
+          "MG-P01-or1-self-coherence",
+          "LG-M01-consciousness"
         ],
         "referenced_by": [
+          "LG-M01-consciousness",
           "MG-A02-metadecode-operator",
           "MG-A03-tau-modal-operators",
           "MG-A06-operator-graph-completeness",
@@ -3183,9 +3185,11 @@
         },
         "related_glossary_entries": [
           "MG-R01-empirical-register",
-          "MG-C01-dignity"
+          "MG-C01-dignity",
+          "LG-M01-consciousness"
         ],
         "referenced_by": [
+          "LG-M01-consciousness",
           "MG-A07-self-recognition-as-e3-operator",
           "MG-A11-categorical-phenomenology-framework",
           "MG-H02-intentionality",
@@ -5140,8 +5144,12 @@
           "formalization_status": "planned",
           "lean_name": null
         },
-        "related_glossary_entries": [],
+        "related_glossary_entries": [
+          "PG-P01-neutron",
+          "LG-Y02-kinetic-pseudoscalar-channel"
+        ],
         "referenced_by": [
+          "LG-Y02-kinetic-pseudoscalar-channel",
           "MG-A01-ci-operator-graph",
           "MG-A09-sectoral-topology",
           "MG-A11-categorical-phenomenology-framework",
@@ -5163,7 +5171,8 @@
           "MG-R08-commitment-sector",
           "MG-R09-logos-sector",
           "MG-R10-register-completeness",
-          "MG-R11-register-enrichment-correspondence"
+          "MG-R11-register-enrichment-correspondence",
+          "PG-P01-neutron"
         ],
         "tags": [
           "register",

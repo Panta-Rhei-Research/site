@@ -1,5 +1,66 @@
 {
   "generated": "2026-04-30",
-  "edge_count": 0,
-  "edges": []
+  "edge_count": 10,
+  "edges": [
+    {
+      "from": "PG-P01-neutron",
+      "from_domain": "physics",
+      "to": "LG-Y02-kinetic-pseudoscalar-channel",
+      "to_domain": "life"
+    },
+    {
+      "from": "PG-P01-neutron",
+      "from_domain": "physics",
+      "to": "MG-R01-empirical-register",
+      "to_domain": "metaphysics"
+    },
+    {
+      "from": "LG-M01-consciousness",
+      "from_domain": "life",
+      "to": "MG-A01-ci-operator-graph",
+      "to_domain": "metaphysics"
+    },
+    {
+      "from": "LG-M01-consciousness",
+      "from_domain": "life",
+      "to": "MG-H01-qualia",
+      "to_domain": "metaphysics"
+    },
+    {
+      "from": "LG-Y02-kinetic-pseudoscalar-channel",
+      "from_domain": "life",
+      "to": "PG-P01-neutron",
+      "to_domain": "physics"
+    },
+    {
+      "from": "LG-Y02-kinetic-pseudoscalar-channel",
+      "from_domain": "life",
+      "to": "MG-R01-empirical-register",
+      "to_domain": "metaphysics"
+    },
+    {
+      "from": "MG-A01-ci-operator-graph",
+      "from_domain": "metaphysics",
+      "to": "LG-M01-consciousness",
+      "to_domain": "life"
+    },
+    {
+      "from": "MG-H01-qualia",
+      "from_domain": "metaphysics",
+      "to": "LG-M01-consciousness",
+      "to_domain": "life"
+    },
+    {
+      "from": "MG-R01-empirical-register",
+      "from_domain": "metaphysics",
+      "to": "PG-P01-neutron",
+      "to_domain": "physics"
+    },
+    {
+      "from": "MG-R01-empirical-register",
+      "from_domain": "metaphysics",
+      "to": "LG-Y02-kinetic-pseudoscalar-channel",
+      "to_domain": "life"
+    }
+  ]
 }

@@ -1848,7 +1848,9 @@
       },
       "related_glossary_entries": [
         "LG-Y02-kinetic-pseudoscalar-channel",
-        "LG-S01-cell"
+        "LG-S01-cell",
+        "MG-A01-ci-operator-graph",
+        "MG-H01-qualia"
       ],
       "referenced_by": [
         "LG-M02-neural-defect-tower",
@@ -1857,7 +1859,9 @@
         "LG-M06-attention",
         "LG-M07-constructive-consciousness-criteria",
         "LG-M08-neural-hayflick-bound",
-        "LG-M09-mixed-sector-self-modeling"
+        "LG-M09-mixed-sector-self-modeling",
+        "MG-A01-ci-operator-graph",
+        "MG-H01-qualia"
       ],
       "tags": [
         "consciousness",
@@ -5387,7 +5391,10 @@
         "formalization_status": "planned",
         "lean_name": null
       },
-      "related_glossary_entries": [],
+      "related_glossary_entries": [
+        "PG-P01-neutron",
+        "MG-R01-empirical-register"
+      ],
       "referenced_by": [
         "LG-E01-atp",
         "LG-E02-photosynthesis",
@@ -5452,7 +5459,9 @@
         "LG-Y09-source-sector",
         "LG-Y10-closure-sector",
         "LG-Y11-consumer-mixer",
-        "LG-Y12-seven-hallmarks-of-life"
+        "LG-Y12-seven-hallmarks-of-life",
+        "MG-R01-empirical-register",
+        "PG-P01-neutron"
       ],
       "tags": [
         "calibration-anchor",

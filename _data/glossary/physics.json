@@ -4176,8 +4176,13 @@
         "formalization_status": "formalized",
         "lean_name": "CalibrationAnchor"
       },
-      "related_glossary_entries": [],
+      "related_glossary_entries": [
+        "LG-Y02-kinetic-pseudoscalar-channel",
+        "MG-R01-empirical-register"
+      ],
       "referenced_by": [
+        "LG-Y02-kinetic-pseudoscalar-channel",
+        "MG-R01-empirical-register",
         "PG-C01-newton-g",
         "PG-C02-iota-tau",
         "PG-C03-speed-of-light",

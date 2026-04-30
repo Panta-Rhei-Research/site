@@ -75,9 +75,11 @@ The OR1–OR6 narrowing principles then progressively constrain the space of met
 
 ## Read next
 
+- **[🎓 Metaphysics Guided Tour]({{ '/results/metaphysics/guided-tour/' | relative_url }})** — 6-stop, 10-minute walk-through in plain language
 - [Metaphysics Glossary]({{ '/results/metaphysics/glossary/' | relative_url }}) — all 68 entries grouped by category
 - [Architecture]({{ '/results/metaphysics/cascade/' | relative_url }}) — how Reg_E/P/D/C and OR1–OR6 work together
 - [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) — top results across all domains
+- [Glossary Onboarding]({{ '/results/glossary-onboarding/' | relative_url }}) — 5-minute primer on τ-framework vocabulary
 
 ## See also
 

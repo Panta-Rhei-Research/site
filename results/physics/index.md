@@ -65,9 +65,11 @@ The 67 numerical predictions in the [Predictions ledger]({{ '/results/prediction
 
 ## Read next
 
+- **[🎓 Physics Guided Tour]({{ '/results/physics/guided-tour/' | relative_url }})** — 7-stop, 10-minute walk-through in plain language
 - [Numerical Physics Ledger]({{ '/results/predictions/browse/' | relative_url }}) — full grid of 67 predictions
 - [Calibration Cascade]({{ '/results/physics/cascade/' | relative_url }}) — how the structural diagram works
 - [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) — top results across all domains
+- [Glossary Onboarding]({{ '/results/glossary-onboarding/' | relative_url }}) — 5-minute primer on τ-framework vocabulary
 - [How to read a result page]({{ '/results/how-to-read-a-result-page/' | relative_url }})
 
 ## See also
