@@ -1,0 +1,54 @@
+{%- comment -%}
+  v3.4 cross-domain edges renderer.
+
+  Used on glossary entry pages to surface cross-domain edges that touch the
+  current entry (where it appears as either source or target). Reads
+  site.data.glossary.cross-domain-links.edges.
+
+  Usage on a glossary entry layout:
+    {% include cross-domain-links.html entry_id=page.entry_id %}
+
+  Usage on a result page:
+    {% include cross-domain-links.html entry_ids=page.glossary_term_ids %}
+
+  Either accepts a single entry_id or an array of entry_ids and renders all
+  cross-domain edges that touch any of them.
+{%- endcomment -%}
+
+{%- assign edges = site.data.glossary["cross-domain-links"].edges -%}
+{%- assign matched_edges = "" | split: "" -%}
+{%- assign target_ids = include.entry_ids -%}
+{%- if include.entry_id and include.entry_id != "" -%}
+  {%- assign target_ids = include.entry_id | split: "," -%}
+{%- endif -%}
+
+{%- if target_ids and edges -%}
+  {%- for edge in edges -%}
+    {%- for tid in target_ids -%}
+      {%- if edge.from == tid or edge.to == tid -%}
+        {%- assign matched_edges = matched_edges | push: edge -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{% if matched_edges.size > 0 %}
+{%- assign by_id = site.data.glossary["by-id"].by_id -%}
+<section class="content-card cross-domain-edges-card" aria-labelledby="cross-domain-edges-heading">
+  <h2 id="cross-domain-edges-heading">Cross-domain bridges</h2>
+  <p class="muted">This glossary term sits on the boundary between domains. The τ-framework's cross-domain pivots are the structural junctions where physics, life, and metaphysics readouts meet.</p>
+  <ul class="cross-domain-edge-list">
+  {% for edge in matched_edges %}
+    {%- assign source_e = by_id[edge.from] -%}
+    {%- assign target_e = by_id[edge.to] -%}
+    {% if source_e and target_e %}
+    <li>
+      <a href="{{ '/results/' | append: source_e.domain | append: '/glossary/' | append: source_e.id | append: '/' | relative_url }}" class="chip chip-glossary chip-glossary-{{ source_e.domain }}"><code>{{ source_e.id }}</code> {{ source_e.name }}</a>
+      <span class="cross-domain-edge-arrow">→</span>
+      <a href="{{ '/results/' | append: target_e.domain | append: '/glossary/' | append: target_e.id | append: '/' | relative_url }}" class="chip chip-glossary chip-glossary-{{ target_e.domain }}"><code>{{ target_e.id }}</code> {{ target_e.name }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}

@@ -1,0 +1,41 @@
+{%- comment -%}
+  v3.4 result-page plain-language accordion.
+
+  Surfaces a non-expert-friendly summary at the top of every result page.
+  By default, expanded — the intelligent layperson sees plain language
+  first; experts can collapse to see the technical content underneath.
+
+  Source priority:
+    1. page.plain_language_summary  (hand-authored override)
+    2. page.summary_short           (auto-generated baseline from registry)
+    3. (skip — render nothing)
+
+  The accordion is built with native <details> for zero JS dependency,
+  and styled with .result-plain-language for the v3.4 colour treatment.
+
+  Usage:
+    {% include result-plain-language.html %}
+{%- endcomment -%}
+
+{%- assign plain_language = page.plain_language_summary | default: page.summary_short -%}
+
+{%- if plain_language -%}
+<details class="result-plain-language" open>
+  <summary>
+    <span class="result-plain-language-eyebrow">In plain language</span>
+    <span class="result-plain-language-toggle" aria-hidden="true">▾</span>
+  </summary>
+  <div class="result-plain-language-body">
+    <p>{{ plain_language | strip_html }}</p>
+    {%- if page.plain_language_summary -%}
+    <p class="muted result-plain-language-source">
+      Hand-edited plain-language summary. The technical statement of this result follows below.
+    </p>
+    {%- else -%}
+    <p class="muted result-plain-language-source">
+      Auto-generated from the registry summary. The technical statement of this result follows below.
+    </p>
+    {%- endif -%}
+  </div>
+</details>
+{%- endif -%}
