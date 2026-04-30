@@ -23,7 +23,7 @@ In Lean, it's the `Tau : Type` declaration. It says nothing about what τ contai
 
 → **Next stop:** [The five generators](#stop-2)
 
-## <a id="stop-2"></a>Stop 2 of 6 · The five generators (I.D01)
+## <span id="stop-2"></span>Stop 2 of 6 · The five generators (I.D01)
 
 τ contains five canonical generators ([I.D01]({{ '/registry/object/I.D01/' | relative_url }})). Think of them like the five basic operations from which everything else is built. They aren't "things in τ"; they're **morphisms** that generate τ's category.
 
@@ -31,7 +31,7 @@ The five generators are sufficient to derive every other τ-categorical object v
 
 → **Next stop:** [Categoricity](#stop-3)
 
-## <a id="stop-3"></a>Stop 3 of 6 · Categoricity (Book II)
+## <span id="stop-3"></span>Stop 3 of 6 · Categoricity (Book II)
 
 Here's the deep claim: **τ is categorical**. That means: τ admits exactly **one model** up to isomorphism. There's no "alternative τ" with different theorems — the structure is uniquely determined by the axioms.
 
@@ -41,7 +41,7 @@ This is what makes the framework **predictively sharp**. If τ admitted multiple
 
 → **Next stop:** [The master constant](#stop-4)
 
-## <a id="stop-4"></a>Stop 4 of 6 · The master constant ι_τ
+## <span id="stop-4"></span>Stop 4 of 6 · The master constant ι_τ
 
 Once τ is established and categorical, **one** dimensionless invariant emerges: `ι_τ ≈ 0.341304`. Equivalently, `ι_τ = 2/(π+e)`.
 
@@ -51,7 +51,7 @@ The full physics glossary entry: [PG-C02-iota-tau]({{ '/results/physics/glossary
 
 → **Next stop:** [Why Yoneda matters](#stop-5)
 
-## <a id="stop-5"></a>Stop 5 of 6 · Why Yoneda matters
+## <span id="stop-5"></span>Stop 5 of 6 · Why Yoneda matters
 
 The Yoneda Lemma is a foundational result in category theory: every object can be reconstructed from its "presheaf" (the collection of all morphisms into it). In ordinary category theory, Yoneda is a *lemma* — a tool.
 
@@ -61,7 +61,7 @@ This sounds technical, but it has a consequence: τ is a "self-aware" category i
 
 → **Next stop:** [Where to go next](#stop-6)
 
-## <a id="stop-6"></a>Stop 6 of 6 · Where to go next
+## <span id="stop-6"></span>Stop 6 of 6 · Where to go next
 
 You've now seen the foundational scaffolding. To go deeper:
 

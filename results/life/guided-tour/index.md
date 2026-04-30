@@ -23,7 +23,7 @@ Why? The τ-framework's answer: a single structural channel called **K_χ** (the
 
 → **Next stop:** [The 5-branch tree](#stop-2)
 
-## <a id="stop-2"></a>Stop 2 of 6 · The 5-branch tree
+## <span id="stop-2"></span>Stop 2 of 6 · The 5-branch tree
 
 Unlike physics's linear cascade, life is a **multi-branch tree**. K_χ doesn't just produce homochirality — its consequences fan out across five branches:
 
@@ -43,7 +43,7 @@ Each branch is anchored back to K_χ via stereospecific molecular interactions. 
 
 → **Next stop:** [Why is ATP universal?](#stop-3)
 
-## <a id="stop-3"></a>Stop 3 of 6 · Why is ATP universal?
+## <span id="stop-3"></span>Stop 3 of 6 · Why is ATP universal?
 
 Every known organism uses **ATP** ([LG-E01]({{ '/results/life/glossary/LG-E01-atp/' | relative_url }})) as its energy currency. Cells maintain a [ATP] : [ADP] ratio of about 10:1, with ΔG ≈ -7 kcal/mol of free energy per hydrolysis.
 
@@ -53,7 +53,7 @@ If life used a different sugar handedness, the entire enzymatic machinery would 
 
 → **Next stop:** [Why does life keep time?](#stop-4)
 
-## <a id="stop-4"></a>Stop 4 of 6 · Why does life keep time?
+## <span id="stop-4"></span>Stop 4 of 6 · Why does life keep time?
 
 Almost every organism — bacteria, plants, animals, fungi — has a **circadian clock** with a ~24-hour period. Why?
 
@@ -63,7 +63,7 @@ The 9-entry temporal-branch glossary ([LG-T01]({{ '/results/life/glossary/' | re
 
 → **Next stop:** [Why does consciousness exist?](#stop-5)
 
-## <a id="stop-5"></a>Stop 5 of 6 · Why does consciousness exist?
+## <span id="stop-5"></span>Stop 5 of 6 · Why does consciousness exist?
 
 The phenomenal branch leads to consciousness ([LG-M01]({{ '/results/life/glossary/LG-M01-consciousness/' | relative_url }})). The framework's claim: consciousness is what happens when a **τ³-computer** (the brain) builds a self-model that includes its own perceiver.
 
@@ -73,7 +73,7 @@ The neural-defect tower ([LG-M02]({{ '/results/life/glossary/LG-M02-neural-defec
 
 → **Next stop:** [Where to go next](#stop-6)
 
-## <a id="stop-6"></a>Stop 6 of 6 · Where to go next
+## <span id="stop-6"></span>Stop 6 of 6 · Where to go next
 
 You've now seen the structure of the life domain. To go deeper:
 

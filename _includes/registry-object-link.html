@@ -1,0 +1,15 @@
+{%- assign registry_id = include.id | default: "" -%}
+{%- assign prefix = include.prefix | default: "" -%}
+{%- assign label = include.label | default: registry_id -%}
+{%- assign class_name = include.class | default: "" -%}
+{%- assign registry_url = "/registry/object/" | append: registry_id | append: "/" -%}
+{%- assign registry_page = site.pages | where: "url", registry_url | first -%}
+{%- capture registry_label -%}
+  {%- if prefix != "" -%}{{ prefix }}{%- endif -%}
+  {%- if include.code -%}<code>{{ registry_id }}</code>{%- else -%}{{ label }}{%- endif -%}
+{%- endcapture -%}
+{%- if registry_page -%}
+<a href="{{ registry_url | relative_url }}"{% if class_name != "" %} class="{{ class_name }}"{% endif %}>{{ registry_label | strip }}</a>
+{%- else -%}
+<span{% if class_name != "" %} class="{{ class_name }} muted"{% else %} class="muted"{% endif %}>{{ registry_label | strip }} <span class="pending-note">pending public object</span></span>
+{%- endif -%}

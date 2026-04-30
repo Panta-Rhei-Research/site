@@ -46,7 +46,7 @@ layout: default
   {% endif %}
   <div class="chip-row">
     <a href="{{ '/results/' | append: page.domain | append: '/glossary/' | relative_url }}" class="chip chip-link">{{ page.domain | capitalize }} Glossary</a>
-    <a href="{{ '/registry/object/' | append: entry.tau_definition.primary_registry_id | append: '/' | relative_url }}" class="chip chip-link">Primary: {{ entry.tau_definition.primary_registry_id }}</a>
+    {% include registry-object-link.html id=entry.tau_definition.primary_registry_id prefix="Primary: " class="chip chip-link" %}
     {% for tag in entry.tags %}
     <span class="chip">{{ tag | replace: "-", " " }}</span>
     {% endfor %}
@@ -62,13 +62,13 @@ layout: default
     {% endif %}
 
     <p><strong>Primary registry anchor:</strong>
-      <a href="{{ '/registry/object/' | append: entry.tau_definition.primary_registry_id | append: '/' | relative_url }}"><code>{{ entry.tau_definition.primary_registry_id }}</code></a>
+      {% include registry-object-link.html id=entry.tau_definition.primary_registry_id code=true %}
     </p>
 
     {% if entry.tau_definition.supporting_registry_ids and entry.tau_definition.supporting_registry_ids.size > 0 %}
     <p><strong>Supporting items:</strong>
       {% for rid in entry.tau_definition.supporting_registry_ids %}
-      <a href="{{ '/registry/object/' | append: rid | append: '/' | relative_url }}"><code>{{ rid }}</code></a>{% unless forloop.last %}, {% endunless %}
+      {% include registry-object-link.html id=rid code=true %}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </p>
     {% endif %}
@@ -81,7 +81,7 @@ layout: default
     <ol class="derivation-chain">
       {% for step in entry.tau_derivation.chain %}
       <li>
-        <a href="{{ '/registry/object/' | append: step.registry_id | append: '/' | relative_url }}"><code>{{ step.registry_id }}</code></a>
+        {% include registry-object-link.html id=step.registry_id code=true %}
         — {{ step.claim }}
       </li>
       {% endfor %}

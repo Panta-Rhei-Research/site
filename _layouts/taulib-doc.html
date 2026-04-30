@@ -71,8 +71,10 @@ layout: default
     {% for registry_id in page.registry_ids %}
     {% assign registry_match = registry_objects | where: "id", registry_id | first %}
     <li>
-      {% if registry_match and registry_match.url %}
-      <a class="chip" href="{{ registry_match.url | relative_url }}">{{ registry_id }}</a>
+      {% assign registry_url = "/registry/object/" | append: registry_id | append: "/" %}
+      {% assign registry_page = site.pages | where: "url", registry_url | first %}
+      {% if registry_match and registry_page %}
+      <a class="chip" href="{{ registry_url | relative_url }}">{{ registry_id }}</a>
       {% else %}
       <span class="chip muted"><code>{{ registry_id }}</code> pending public object</span>
       {% endif %}

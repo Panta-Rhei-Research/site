@@ -55,7 +55,7 @@ These edges are how the framework keeps its three domains coherent. When the K_�
 
 ## Bridge categories
 
-### <a id="physics-life"></a>Physics ↔ Life
+### <span id="physics-life"></span>Physics ↔ Life
 
 The most fundamental bridge. Every life-sector observable inherits its calibration from m_n via the K_χ chain. The pivots:
 
@@ -86,7 +86,7 @@ The most fundamental bridge. Every life-sector observable inherits its calibrati
 {% endfor %}
 </ul>
 
-### <a id="physics-metaphysics"></a>Physics ↔ Metaphysics
+### <span id="physics-metaphysics"></span>Physics ↔ Metaphysics
 
 Metaphysics's empirical register Reg_E reads physics observables; physics's anchor m_n is the canonical Reg_E example.
 
@@ -117,7 +117,7 @@ Metaphysics's empirical register Reg_E reads physics observables; physics's anch
 {% endfor %}
 </ul>
 
-### <a id="life-metaphysics"></a>Life ↔ Metaphysics
+### <span id="life-metaphysics"></span>Life ↔ Metaphysics
 
 Where biology meets categorical architecture. Consciousness (LG-M01) bridges to the CI operator graph (MG-A01) and qualia (MG-H01); the K_χ channel feeds Reg_E.
 
@@ -148,7 +148,7 @@ Where biology meets categorical architecture. Consciousness (LG-M01) bridges to 
 {% endfor %}
 </ul>
 
-## <a id="all-edges"></a>All cross-domain edges
+## <span id="all-edges"></span>All cross-domain edges
 
 <ul class="cross-domain-edge-list">
 {% for edge in edges %}

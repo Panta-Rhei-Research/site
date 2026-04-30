@@ -30,11 +30,21 @@ layout: default
     {% if book_objects.size > 0 %}
     <div class="dep-list">
       {% for obj in book_objects %}
+      {% assign registry_url = "/registry/object/" | append: obj.id | append: "/" %}
+      {% assign registry_page = site.pages | where: "url", registry_url | first %}
+      {% if registry_page %}
       <a href="{{ obj.url | relative_url }}" class="dep-link">
         <span class="dep-id">{{ obj.id }}</span>
         <span class="dep-title">{{ obj.name }}</span>
         <span class="chip" style="margin-left:auto">{{ obj.type }}</span>
       </a>
+      {% else %}
+      <div class="dep-link dep-link-pending" aria-disabled="true">
+        <span class="dep-id">{{ obj.id }}</span>
+        <span class="dep-title">{{ obj.name }}</span>
+        <span class="chip muted" style="margin-left:auto">{{ obj.type }} · pending public object</span>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
     {% endif %}

@@ -32,11 +32,16 @@ def copy_tree(source: Path, target: Path) -> None:
             copy_file(path, target / path.relative_to(source))
 
 
-def clean_generated_tree(target: Path, suffixes: tuple[str, ...] = (".md", ".json", ".csv", ".ndjson")) -> None:
+def clean_generated_tree(
+    target: Path,
+    suffixes: tuple[str, ...] = (".md", ".json", ".csv", ".ndjson"),
+    preserve_names: set[str] | None = None,
+) -> None:
     if not target.exists():
         return
+    preserve_names = preserve_names or set()
     for path in sorted(target.rglob("*"), reverse=True):
-        if path.is_file() and path.suffix in suffixes:
+        if path.is_file() and path.suffix in suffixes and path.name not in preserve_names:
             path.unlink()
     for path in sorted(target.rglob("*"), reverse=True):
         if path.is_dir():
@@ -673,15 +678,15 @@ def sync_results() -> None:
         source = CORPUS_EXPORTS / filename
         copy_file(source, SITE_ROOT / "_data" / "predictions" / filename)
         copy_file(source, SITE_ROOT / "assets" / "data" / "predictions" / filename)
-    clean_generated_tree(SITE_ROOT / "_predictions")
-    copy_tree(CORPUS_EXPORTS / "prediction-pages", SITE_ROOT / "_predictions")
+    clean_generated_tree(SITE_ROOT / "predictions", preserve_names={"index.md"})
+    copy_tree(CORPUS_EXPORTS / "prediction-pages", SITE_ROOT / "predictions")
 
     for filename in ("falsifications.json", "falsifications.ndjson", "falsifications.csv"):
         source = CORPUS_EXPORTS / filename
         copy_file(source, SITE_ROOT / "_data" / "falsifications" / filename)
         copy_file(source, SITE_ROOT / "assets" / "data" / "falsifications" / filename)
-    clean_generated_tree(SITE_ROOT / "_falsifications")
-    copy_tree(CORPUS_EXPORTS / "falsification-pages", SITE_ROOT / "_falsifications")
+    clean_generated_tree(SITE_ROOT / "falsifications", preserve_names={"index.md"})
+    copy_tree(CORPUS_EXPORTS / "falsification-pages", SITE_ROOT / "falsifications")
 
     sync_registry_noteworthy_results()
 

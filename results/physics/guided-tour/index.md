@@ -26,7 +26,7 @@ That's it. No 25 free parameters of the Standard Model. No fine-tuning.
 
 → **Next stop:** [Why neutron and not electron?](#stop-2)
 
-## <a id="stop-2"></a>Stop 2 of 7 · Why neutron and not electron?
+## <span id="stop-2"></span>Stop 2 of 7 · Why neutron and not electron?
 
 Most physicists pick the electron mass `m_e` as their "standard" because it's so well-measured. The τ-framework picks the neutron — and there's a structural reason.
 
@@ -36,7 +36,7 @@ If you tried to anchor at the electron, you'd lose information — the electron 
 
 → **Next stop:** [The 5-layer cascade](#stop-3)
 
-## <a id="stop-3"></a>Stop 3 of 7 · The 5-layer cascade
+## <span id="stop-3"></span>Stop 3 of 7 · The 5-layer cascade
 
 Once you have `ι_τ` and `m_n`, every dimensional constant in physics is built in 5 layers:
 
@@ -52,7 +52,7 @@ It's a deterministic pipeline: feed in `ι_τ` and `m_n`, every observable comes
 
 → **Next stop:** [How precise is the framework?](#stop-4)
 
-## <a id="stop-4"></a>Stop 4 of 7 · How precise is the framework?
+## <span id="stop-4"></span>Stop 4 of 7 · How precise is the framework?
 
 The framework's flagship predictions hit **sub-ppm precision** against experiment:
 
@@ -65,7 +65,7 @@ Tier A means "best-in-class precision matching experiment". The full ledger has 
 
 → **Next stop:** [What if it's wrong? — Falsifications](#stop-5)
 
-## <a id="stop-5"></a>Stop 5 of 7 · What if it's wrong? — Falsifications
+## <span id="stop-5"></span>Stop 5 of 7 · What if it's wrong? — Falsifications
 
 A theory that "fits everything" is suspicious. The τ-framework has 30 specific **falsification points** (N1–N30) where named experiments adjudicate it on a 2025–2035 timeline.
 
@@ -80,7 +80,7 @@ These are sharp, dated, and experimentally accessible. ([Falsifications page]({{
 
 → **Next stop:** [The connection to life](#stop-6)
 
-## <a id="stop-6"></a>Stop 6 of 7 · The connection to life
+## <span id="stop-6"></span>Stop 6 of 7 · The connection to life
 
 Physics doesn't stay in the physics domain. The neutron-mass anchor [PG-P01]({{ '/results/physics/glossary/PG-P01-neutron/' | relative_url }}) propagates into biology via the K_χ channel ([LG-Y02]({{ '/results/life/glossary/LG-Y02-kinetic-pseudoscalar-channel/' | relative_url }})), which amplifies a weak-sector chirality seed (~10⁻¹⁷) into the biological homochirality (ee ≈ 1.0) we observe in every known living system.
 
@@ -88,7 +88,7 @@ This is one of 10 cross-domain edges currently mapped in the glossary. See [Cros
 
 → **Next stop:** [Where to go next](#stop-7)
 
-## <a id="stop-7"></a>Stop 7 of 7 · Where to go next
+## <span id="stop-7"></span>Stop 7 of 7 · Where to go next
 
 You've now seen the structure of the physics domain. To go deeper:
 

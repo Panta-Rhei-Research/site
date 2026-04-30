@@ -28,7 +28,7 @@ The four registers are the framework's "metaphysical readout architecture". Each
 
 → **Next stop:** [The six narrowing principles](#stop-2)
 
-## <a id="stop-2"></a>Stop 2 of 6 · The six narrowing principles (OR1–OR6)
+## <span id="stop-2"></span>Stop 2 of 6 · The six narrowing principles (OR1–OR6)
 
 Not every candidate ontic structure can count as "real". The framework has **six structural requirements** that anything claiming ontic status must satisfy:
 
@@ -45,7 +45,7 @@ Together, OR1–OR6 narrow the space of possible ontic realities down to the τ-
 
 → **Next stop:** [What is being?](#stop-3)
 
-## <a id="stop-3"></a>Stop 3 of 6 · What is being?
+## <span id="stop-3"></span>Stop 3 of 6 · What is being?
 
 Classical metaphysics has agonized over "being" for 2500 years — what does it mean for something to exist?
 
@@ -55,7 +55,7 @@ This isn't reductive — it's structural. A particle exists because the four reg
 
 → **Next stop:** [The CI operator graph](#stop-4)
 
-## <a id="stop-4"></a>Stop 4 of 6 · The CI operator graph (consequence-intervention)
+## <span id="stop-4"></span>Stop 4 of 6 · The CI operator graph (consequence-intervention)
 
 When you reason "if I do X, then Y will follow" — that's a CI inference. The CI operator graph ([MG-A01]({{ '/results/metaphysics/glossary/MG-A01-ci-operator-graph/' | relative_url }})) is the architectural structure that connects causal claims to their commitments **across** registers.
 
@@ -65,7 +65,7 @@ This is also the bridge to the life-sector. The CI graph is what consciousness (
 
 → **Next stop:** [Why are qualia hard?](#stop-5)
 
-## <a id="stop-5"></a>Stop 5 of 6 · Why are qualia hard?
+## <span id="stop-5"></span>Stop 5 of 6 · Why are qualia hard?
 
 Qualia — the felt redness of red, the bitterness of coffee — are notoriously resistant to physical reduction. The "Hard Problem of Consciousness" is whether physical descriptions can ever explain phenomenal experience.
 
@@ -75,7 +75,7 @@ This dissolves the Hard Problem. The "redness of red" is the morphism `red-stimu
 
 → **Next stop:** [Where to go next](#stop-6)
 
-## <a id="stop-6"></a>Stop 6 of 6 · Where to go next
+## <span id="stop-6"></span>Stop 6 of 6 · Where to go next
 
 You've now seen the architecture of the metaphysics domain. To go deeper:
 
