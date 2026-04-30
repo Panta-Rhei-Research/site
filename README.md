@@ -10,10 +10,9 @@ The program develops **Category τ**, a constrained formal kernel (5 generators,
 |---|---|---|
 | **Public website** | [`Panta-Rhei-Research/site`](https://github.com/Panta-Rhei-Research/site) (this repo) | Jekyll source for `panta-rhei.site` — the program hub |
 | **Publications** | [`Panta-Rhei-Research/publications`](https://github.com/Panta-Rhei-Research/publications) | Open-access publication artefacts and source files |
-| **TauLib** | [`Panta-Rhei-Research/taulib`](https://github.com/Panta-Rhei-Research/taulib) | Lean 4 formalization (445 modules, 127,440 lines, 4,332 theorems, 3 axioms, 0 sorry) — documented at `taulib.site` |
+| **TauLib** | [`Panta-Rhei-Research/taulib`](https://github.com/Panta-Rhei-Research/taulib) | Lean 4 formalization source. Current metrics and trusted-base details are published in the [Release Manifest](https://panta-rhei.site/verify/release-manifest/); dedicated Lean documentation is hosted at [`taulib.site`](https://taulib.site). |
 | **Research** | [`Panta-Rhei-Research/research`](https://github.com/Panta-Rhei-Research/research) | Public workspace for open notebooks, scripts, and supplementary analyses |
 | **Community** | [`Panta-Rhei-Research/community`](https://github.com/Panta-Rhei-Research/community) | Public discussion and onboarding surface |
-| **Historical archive** | [`Panta-Rhei-Research/formalization`](https://github.com/Panta-Rhei-Research/formalization) | Archived historical formalization snapshot |
 
 The program is published as a seven-book canonical monograph series (3,431 pages, 79 parts, 535 chapters — available now on Amazon KDP), with a free 209-page **Numerical Physics Ledger** companion carrying 67 numerical predictions + 30-item falsification pack.
 
@@ -55,9 +54,11 @@ See [`/credits/`](https://panta-rhei.site/credits/) for the full attribution lis
 
 ## Corrections, reviews, collaboration
 
-- **Editorial errata:** [errata@panta-rhei.site](mailto:errata@panta-rhei.site)
-- **Media / reviews:** [press@panta-rhei.site](mailto:press@panta-rhei.site) — structured assets at [`/media/`](https://panta-rhei.site/media/)
-- **Specialist review routes:** [`/verify/how-to-audit/`](https://panta-rhei.site/verify/how-to-audit/) (six inspection routes: formal methods / mathematician / physicist / philosopher / prior-art specialist / journalist-generalist)
+- **Public questions, critique, and review offers:** [GitHub Organization Discussions](https://github.com/orgs/Panta-Rhei-Research/discussions)
+- **Concrete defects:** open an Issue in the relevant public repo, for example [site issues](https://github.com/Panta-Rhei-Research/site/issues), [TauLib issues](https://github.com/Panta-Rhei-Research/taulib/issues), or [publications issues](https://github.com/Panta-Rhei-Research/publications/issues).
+- **Concrete changes:** use Pull Requests against the relevant public repo.
+- **Private, institutional, media, or sensitive contact:** use the typed routes on [`/engage/contact/`](https://panta-rhei.site/engage/contact/).
+- **Specialist review routes:** [`/verify/assessment-protocols/`](https://panta-rhei.site/verify/assessment-protocols/) and [`/verify/how-to-audit/`](https://panta-rhei.site/verify/how-to-audit/)
 - **Legal:** [`/impressum/`](https://panta-rhei.site/impressum/) · [`/datenschutz/`](https://panta-rhei.site/datenschutz/)
 
 ## How to cite

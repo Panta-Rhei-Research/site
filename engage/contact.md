@@ -101,7 +101,7 @@ For journalists, editors, podcast hosts, and media professionals covering scienc
 
 For researchers, mathematicians, physicists, biologists, philosophers, and formal methods specialists with domain-specific questions about the framework, formalization, or specific claims.
 
-**Email**: [contact@panta-rhei.site](mailto:contact@panta-rhei.site) - subject line: "Technical Inquiry"
+**Email**: [hello@panta-rhei.site](mailto:hello@panta-rhei.site) - subject line: "Technical Inquiry"
 
 ### Institutional & Collaboration
 
@@ -133,7 +133,7 @@ First-time readers, friendly inbound, and anything that does not fit the routes 
 
 **Email**: [hello@panta-rhei.site](mailto:hello@panta-rhei.site) for warm introductions
 
-**Email**: [contact@panta-rhei.site](mailto:contact@panta-rhei.site) for general fallback
+**Email**: [hello@panta-rhei.site](mailto:hello@panta-rhei.site) for general fallback
 
 ### Founders
 
