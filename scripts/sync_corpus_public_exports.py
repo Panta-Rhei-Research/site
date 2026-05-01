@@ -17,6 +17,10 @@ from typing import Any
 SITE_ROOT = Path(__file__).resolve().parents[1]
 ORG_ROOT = SITE_ROOT.parent
 CORPUS_EXPORTS = Path(os.environ.get("CORPUS_EXPORTS_DIR", ORG_ROOT / "corpus" / "exports" / "public"))
+TAULIB_PROJECTION_PIN = "cb5e83015b54dd72eba560953fe2461820078757"
+STALE_TAULIB_SOURCE_PINS = (
+    "37c12411e76f4bb89f7bc463d1443eecc0bd9afe",
+)
 
 
 def copy_file(source: Path, target: Path) -> None:
@@ -37,6 +41,8 @@ def normalize_taulib_projection_routes(path: Path) -> None:
         return
     text = path.read_text(encoding="utf-8")
     normalized = text.replace("/verify/taulib/docs/", "/corpus/taulib/docs/")
+    for stale_pin in STALE_TAULIB_SOURCE_PINS:
+        normalized = normalized.replace(stale_pin, TAULIB_PROJECTION_PIN)
     if normalized != text:
         path.write_text(normalized, encoding="utf-8")
 

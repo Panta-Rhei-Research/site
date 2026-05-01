@@ -35,7 +35,7 @@ The full module inventory is rendered below for crawlers and non-JavaScript read
 
   <ol class="v2-grid v2-card-list module-explorer-grid" id="taulib-module-list">
   {% for module in modules %}
-    {% assign module_url = module["url"] | replace: "/verify/taulib/docs/", "/corpus/taulib/docs/" %}
+    {% assign module_url = module["url"] | replace: "/corpus/taulib/docs/", "/corpus/taulib/docs/" %}
     {% assign module_page = site.pages | where: "url", module_url | first %}
     <li class="module-card"
         data-book="{{ module.book }}"

@@ -89,6 +89,39 @@ defaults:
     values:
       layout: "program-doc"
       lane: "research-program"
+      v2_lane: "program"
+      type: "Compatibility Route"
+      status: "Compatibility"
+  - scope:
+      path: "research-notes"
+    values:
+      layout: "redirect"
+      lane: "publications"
+      v2_lane: "publications"
+      type: "Compatibility Route"
+      status: "Compatibility"
+  - scope:
+      path: "framework"
+    values:
+      layout: "redirect"
+      lane: "corpus"
+      v2_lane: "corpus"
+      type: "Compatibility Route"
+      status: "Compatibility"
+  - scope:
+      path: "brand"
+    values:
+      lane: "utility"
+      v2_lane: "support"
+      type: "Support Page"
+      status: "Canonical"
+  - scope:
+      path: "verify/assessments"
+    values:
+      lane: "verify"
+      v2_lane: "verify"
+      type: "Assessment Protocol"
+      status: "Canonical"
   - scope:
       type: "bibliography"
     values:
@@ -113,6 +146,7 @@ defaults:
       v2_lane: "results"
       type: "Prediction"
       status: "Canonical"
+      source_path: "corpus/results/facets/predictions"
   - scope:
       type: "falsifications"
     values:
@@ -121,6 +155,7 @@ defaults:
       v2_lane: "results"
       type: "Falsification Path"
       status: "Canonical"
+      source_path: "corpus/results/facets/falsifications"
   - scope:
       type: "problem_ledger"
     values:
