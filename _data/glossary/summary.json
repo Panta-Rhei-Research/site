@@ -1,6 +1,6 @@
 {
   "generated": "2026-04-30",
-  "total_public": 241,
+  "total_public": 242,
   "domain_category_counts": {
     "physics": {
       "constant": 19,
@@ -26,6 +26,9 @@
       "phenomenology": 11,
       "principle": 11,
       "register": 11
+    },
+    "mathematics": {
+      "definition": 1
     }
   },
   "cross_link_edges_total": 712,
