@@ -35,7 +35,7 @@ SITE_ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = SITE_ROOT / "_data" / "glossary"
 RESULTS_ROOT = SITE_ROOT / "results"
 
-DOMAINS = ["physics", "life", "metaphysics"]
+DOMAINS = ["physics", "life", "metaphysics", "mathematics"]
 
 DOMAIN_DESCRIPTIONS = {
     "physics": (
@@ -59,12 +59,22 @@ DOMAIN_DESCRIPTIONS = {
         "phenomenological correlate — lived-experience instantiation with "
         "concrete examples and the register codomain it lives in."
     ),
+    "mathematics": (
+        "The mathematics glossary covers the τ-framework's foundational kernel "
+        "(Books I–III): postulates, definitions, theorems, the three Book-III "
+        "conjectural axioms, structures, and τ-objects. Each entry carries a "
+        "mathematical-content section with the orthodox-mathematical statement, "
+        "Mathlib bridge (where applicable), and the categoricity argument that "
+        "fixes the concept inside the kernel. v0.0 pilot scope: 1 canonical "
+        "entry; full 22-entry pilot in rollout v0.1 → v0.4."
+    ),
 }
 
 DOMAIN_HEADLINES = {
     "physics":      "Physics Glossary — 95 entries, 6 categories",
     "life":         "Life Glossary — 78 entries, 7 categories",
     "metaphysics":  "Metaphysics Glossary — 68 entries, 6 categories",
+    "mathematics":  "Mathematics Glossary — 1 entry (pilot v0.0; 22-entry rollout in flight)",
 }
 
 

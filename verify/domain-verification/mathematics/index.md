@@ -28,6 +28,8 @@ right_rail:
     domain: "Mathematics"
     status: "Canonical"
     updated: "April 2026"
+glossary_term_ids:
+  - MathG-D01-iota-tau
 ---
 
 {%- assign stats = site.data.verify.coverage_by_domain.by_domain.mathematics -%}
@@ -124,6 +126,10 @@ Surfaces: [Custom Axiom Inventory]({{ '/verify/custom-axioms/' | relative_url }}
 ## Accountability statement
 
 Any theorem claimed as formally certified is certified in the precise sense stated: relative to the relevant proof infrastructure, declared assumptions, and stated scope. Mathematical verification establishes internal proof discipline; it does not by itself settle bridge adequacy into every standard foundation, the program's downstream physics/life/metaphysics consequences, or external review.
+
+{% include verify-glossary-terms.html %}
+
+{% include verify-cross-domain-links.html %}
 
 ## See also
 

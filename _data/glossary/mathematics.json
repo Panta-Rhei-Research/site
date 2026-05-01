@@ -1,0 +1,66 @@
+{
+  "generated": "2026-04-30",
+  "domain": "mathematics",
+  "count": 1,
+  "entries": [
+    {
+      "id": "MathG-D01-iota-tau",
+      "domain": "mathematics",
+      "category": "definition",
+      "name": "Master constant ι_τ",
+      "tau_symbol": "ι_τ",
+      "slug": "iota-tau",
+      "status": "canonical",
+      "tau_definition": {
+        "summary": "ι_τ = 2/(π + e) is the structural fixed point of the boundary holonomy algebra H_∂[ω] over the categorical kernel τ. It is a theorem about τ, not a parameter — uniquely determined by the kernel's structure under the Universe Postulate (I.K0). The Book-I definition is the algebraic anchor; downstream books (II–V) layer the categorical, spectral, and physical readouts on top.",
+        "categorical_invariant": "ι_τ is the unique solution to the boundary fixed-point equation in H_∂[ω] at the lowest depth — characterized abstractly as the dimensionless invariant of the τ-categorical structure.",
+        "primary_registry_id": "I.D34",
+        "supporting_registry_ids": [
+          "I.K0",
+          "I.D19",
+          "I.D33",
+          "I.D105"
+        ]
+      },
+      "tau_derivation": {
+        "chain": [
+          {
+            "step": 1,
+            "registry_id": "I.K0",
+            "claim": "Universe Postulate — categorical kernel τ exists and is unique up to canonical equivalence"
+          },
+          {
+            "step": 2,
+            "registry_id": "I.D19",
+            "claim": "Boundary ring and scalars — the boundary algebraic structure τ exposes"
+          },
+          {
+            "step": 3,
+            "registry_id": "I.D33",
+            "claim": "Bounded powerset — finitary structure that supports the holonomy fixed-point construction"
+          },
+          {
+            "step": 4,
+            "registry_id": "I.D34",
+            "claim": "Master constant ι_τ defined as 2/(π+e), characterized as the unique fixed point of the boundary holonomy at lowest depth"
+          },
+          {
+            "step": 5,
+            "registry_id": "I.D105",
+            "claim": "τ-weighted boundary constants — derived ratios cascading from ι_τ"
+          }
+        ],
+        "lean_modules": [
+          "TauLib.BookI.Boundary.IotaTauStructural",
+          "TauLib.BookI.Boundary.TauRealIotaTau",
+          "TauLib.BookII.Transcendentals.IotaTauConfirmed"
+        ]
+      },
+      "lean_coverage": null,
+      "related_glossary_entries": [],
+      "referenced_by": [],
+      "tags": [],
+      "version": {}
+    }
+  ]
+}
