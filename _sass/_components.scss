@@ -385,6 +385,32 @@
       padding: 3px 8px;
     }
   }
+
+  // v3 verify close-out — verify-specific responsive rules
+  // Verify chip rows scroll horizontally rather than wrap (badge row +
+  // glossary-term row both use chip-row-verify).
+  .chip-row-verify {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+  }
+
+  // Per-book Lean coverage table on verify domain hubs scrolls horizontally
+  // when narrower than the table width.
+  .coverage-stats-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    max-width: 100%;
+  }
+
+  // Verify hub stats grid (the "module count / formalized / lines" row)
+  // collapses to 2 columns then 1 column.
+  .verify-hub-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
 }
 
 .v2-badge-row {
