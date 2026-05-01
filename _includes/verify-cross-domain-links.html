@@ -1,0 +1,49 @@
+{%- comment -%}
+  Verify-Lane v3 close-out — verify-cross-domain-links.
+
+  Surfaces cross-domain glossary edges that touch any of the page's
+  glossary_term_ids. Mirrors _includes/cross-domain-links.html from
+  results-lane v3.4, adapted for verify pages.
+
+  Filters site.data.glossary["cross-domain-links"].edges to those whose
+  `from` or `to` is in page.glossary_term_ids. No-op when the page has
+  no glossary terms or no cross-domain edges touch them.
+
+  Usage:
+    {% include verify-cross-domain-links.html %}
+{%- endcomment -%}
+
+{%- assign target_ids = page.glossary_term_ids | default: empty -%}
+{%- if target_ids.size > 0 -%}
+{%- assign edges = site.data.glossary["cross-domain-links"].edges -%}
+{%- assign matched = "" | split: "" -%}
+{%- for edge in edges -%}
+  {%- for tid in target_ids -%}
+    {%- if edge.from == tid or edge.to == tid -%}
+      {%- assign matched = matched | push: edge -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- if matched.size > 0 -%}
+  {%- assign by_id = site.data.glossary["by-id"].by_id -%}
+<section class="content-card cross-domain-edges-card verify-cross-domain-edges-card" aria-labelledby="verify-cd-edges-heading">
+  <h2 id="verify-cd-edges-heading">Cross-domain bridges</h2>
+  <p class="muted">This verification surface intersects glossary terms that bridge to other domains. The τ-framework's cross-domain pivots are the structural junctions where verification claims meet the empirical, life, and metaphysical readouts.</p>
+  <ul class="cross-domain-edge-list">
+    {%- for edge in matched -%}
+      {%- assign src = by_id[edge.from] -%}
+      {%- assign tgt = by_id[edge.to] -%}
+      {%- if src and tgt -%}
+      <li>
+        <a href="{{ '/results/' | append: src.domain | append: '/glossary/' | append: src.id | append: '/' | relative_url }}"
+           class="chip chip-glossary chip-glossary-{{ src.domain }}"><code>{{ src.id }}</code> {{ src.name }}</a>
+        <span class="cross-domain-edge-arrow">→</span>
+        <a href="{{ '/results/' | append: tgt.domain | append: '/glossary/' | append: tgt.id | append: '/' | relative_url }}"
+           class="chip chip-glossary chip-glossary-{{ tgt.domain }}"><code>{{ tgt.id }}</code> {{ tgt.name }}</a>
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
+{%- endif -%}

@@ -1,0 +1,36 @@
+{%- comment -%}
+  Verify-Lane v3 close-out — verify-glossary-terms.
+
+  Renders a "Key glossary terms" chip-row on verify pages that opt in via
+  page.glossary_term_ids frontmatter. Mirrors the chip-row pattern used in
+  result-page-cross-domain.html (results-lane v3.2). Each chip links into
+  /results/<domain>/glossary/<id>/ and carries a chip-glossary-<domain>
+  colour accent (palette established in v3.4 results-lane).
+
+  Reads from site.data.glossary["by-id"].by_id for O(1) lookup.
+
+  Usage:
+    {% include verify-glossary-terms.html %}
+{%- endcomment -%}
+
+{%- assign gids = page.glossary_term_ids | default: empty -%}
+{%- if gids.size > 0 -%}
+  {%- assign by_id = site.data.glossary["by-id"].by_id -%}
+<section class="content-card verify-glossary-terms-card" aria-labelledby="verify-glossary-heading">
+  <h2 id="verify-glossary-heading">Key glossary terms</h2>
+  <div class="chip-row chip-row-verify">
+    {%- for gid in gids -%}
+      {%- assign gentry = by_id[gid] -%}
+      {%- if gentry -%}
+      <a href="{{ '/results/' | append: gentry.domain | append: '/glossary/' | append: gentry.id | append: '/' | relative_url }}"
+         class="chip chip-glossary chip-glossary-{{ gentry.domain }}"
+         title="{{ gentry.tau_definition.summary | default: gentry.name | strip_html | escape }}">
+        <code>{{ gentry.id }}</code> {{ gentry.name }}
+      </a>
+      {%- else -%}
+      <span class="chip chip-glossary chip-glossary-missing" title="Term not yet in glossary index">{{ gid }}</span>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
