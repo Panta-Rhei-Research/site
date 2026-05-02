@@ -53,10 +53,10 @@ The Panta Rhei Research Program is an independent open research program developi
 
 This page gathers public materials for journalists, podcast hosts, public communicators, reviewers, and institutional readers. It is an entry surface into the current public site, not a replacement for the canonical lanes.
 
-{% assign book_count = site.data.publications.books | size %}{% assign result_count = site.data.results.results | size %}{% assign registry_count = site.data.registry.objects | size %}{% assign chapter_count = site.data.publications.chapters | size %}The program's canonical release (April 2026) includes:
-- A **{{ book_count }}-book monograph series** (~3,430 pages, available on Amazon KDP)
+The program's canonical release (April 2026) includes:
+- A **{% include release-metric.html id="publications.books" %}-book monograph series** ({% include release-metric.html id="publications.pages" %} print pages, available on Amazon KDP)
 - A **Lean 4 formalization library** (TauLib, {% include release-metric.html id="taulib.modules" unit=true %}; the published formalized modules are built without `sorry`, while Book VI remains registry-planned and not yet fully Lean-formalized — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}))
-- This **research website** ({{ result_count }} key results, {{ registry_count }} registry objects)
+- This **research website** ({% include release-metric.html id="results.records" %} key results, {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects)
 - **Guided tours** and **structural falsification whitepapers**
 
 ## What this is not
@@ -109,10 +109,10 @@ For the full timeline + all {% include release-metric.html id="falsifications.re
 - **Authors**: Dr. Thorsten Fuchs & Anna-Sophie Fuchs
 - **Corpus kernel**: 5 generators, 7 axioms (K0–K6), 1 operator (ρ)
 - **Master constant**: ι<sub>τ</sub> = 2/(π+e) ≈ 0.3413
-- **Books**: {{ book_count }} volumes, {{ chapter_count }} chapters
-- **Results**: {{ result_count }} key results across 4 domains
+- **Books**: {% include release-metric.html id="publications.books" %} volumes, {% include release-metric.html id="publications.chapters" %} chapters
+- **Results**: {% include release-metric.html id="results.records" %} key results across 4 domains
 - **Formalization**: {% include release-metric.html id="taulib.lines" unit=true %} of Lean 4 and {% include release-metric.html id="taulib.theorems_lemmas" unit=true %} in the current public projection; published formalized modules are built without `sorry`
-- **Registry**: {{ registry_count }} mathematical objects with dependency graphs
+- **Registry**: {% include release-metric.html id="registry.registry_total.grand_total" %} mathematical objects with dependency graphs
 - **Predictions and falsification**: {% include release-metric.html id="predictions.records" %} quantitative prediction records plus {% include release-metric.html id="falsifications.records" %} named falsification tests in the current public projection
 - **Decisive test**: CMB-S4 tensor-to-scalar ratio r ≈ ι<sub>τ</sub>⁴ ≈ 0.0136 (~2030)
 - **Status**: Independent research — not yet peer-reviewed in traditional journals
@@ -193,11 +193,11 @@ Three lengths are provided — pick whichever fits your headline / lede / body n
 
 #### Standard (≈100 words)
 
-> The Panta Rhei Research Program develops **Category τ**, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator. The program's seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {{ result_count }} key results with typed epistemic status, a public research website with {{ registry_count }} registry objects, and a published falsification ledger including a decisive CMB-S4 prediction (r ≈ 0.0136 by 2030). All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
+> The Panta Rhei Research Program develops **Category τ**, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator. The program's seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {% include release-metric.html id="results.records" %} key results with typed epistemic status, a public research website with {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects, and a published falsification ledger including a decisive CMB-S4 prediction (r ≈ 0.0136 by 2030). All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
 
 #### Long-form (≈200 words, original)
 
-> The Panta Rhei Research Program develops Category τ, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator. The program's seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {{ result_count }} key results with typed epistemic status, and a public research website with {{ registry_count }} registry objects. All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
+> The Panta Rhei Research Program develops Category τ, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator. The program's seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {% include release-metric.html id="results.records" %} key results with typed epistemic status, and a public research website with {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects. All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
 >
 > Distinctively, the framework operates with **zero dimensionless free parameters**: a single algebraic constant ι_τ = 2/(π+e) ≈ 0.3413, derived from the categorical kernel, plus one empirical anchor (the neutron mass) jointly determine every dimensionless ratio in the published constants ledger. The program publishes its falsification tests alongside its claims — most decisively, the CMB-S4 tensor-to-scalar prediction r ≈ ι_τ⁴ ≈ 0.0136, scheduled for measurement around 2030. The Lean 4 formalization (TauLib, {% include release-metric.html id="taulib.modules" unit=true %}) checks the framework's internal consistency; the published formalized modules are built without `sorry`. All review surfaces are public from day one.
 
@@ -205,15 +205,15 @@ Three lengths are provided — pick whichever fits your headline / lede / body n
 
 | Metric | Value |
 |--------|------:|
-| Books | {{ book_count }} |
-| Total pages | ~3,430 |
-| Chapters | {{ chapter_count }} |
-| Key results | {{ result_count }} |
-| Registry objects | {{ registry_count }} |
+| Books | {% include release-metric.html id="publications.books" %} |
+| Total pages | {% include release-metric.html id="publications.pages" %} |
+| Chapters | {% include release-metric.html id="publications.chapters" %} |
+| Key results | {% include release-metric.html id="results.records" %} |
+| Registry objects | {% include release-metric.html id="registry.registry_total.grand_total" %} |
 | Lean 4 modules | {% include release-metric.html id="taulib.modules" %} |
 | Lines of Lean 4 | {% include release-metric.html id="taulib.lines" %} |
 | Machine-checked theorems | {% include release-metric.html id="taulib.theorems_lemmas" %} |
-| Sorry (unproven) | 0 in the published formalized modules; Book VI remains registry-planned and not yet fully Lean-formalized |
+| Sorry (unproven) | {% include release-metric.html id="taulib.sorry" %} in the published formalized modules; Book VI remains registry-planned and not yet fully Lean-formalized |
 | Free parameters | 0 |
 | Quantitative predictions | {% include release-metric.html id="predictions.records" %} prediction records plus {% include release-metric.html id="falsifications.records" %} named falsification tests |
 
