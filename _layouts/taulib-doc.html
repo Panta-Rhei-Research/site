@@ -58,6 +58,13 @@ layout: default
 </section>
 {% endif %}
 
+{% if page.module == "TauLib.Tour.VerifyItYourself" or page.title == "TauLib.Tour.VerifyItYourself" %}
+<section class="content-card taulib-formal-scope-note" aria-labelledby="taulib-formal-scope-note-heading">
+  <h2 id="taulib-formal-scope-note-heading">Formal scope note</h2>
+  <p>TauLib lets a reader reproduce the Lean-side checks for formalized statements in this module neighborhood. It does not by itself verify empirical truth, bridge adequacy, semantic correspondence, domain interpretation, or external acceptance.</p>
+</section>
+{% endif %}
+
 <section class="content-card taulib-doc-content">
   {{ taulib_doc_body }}
 </section>

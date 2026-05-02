@@ -13,7 +13,7 @@ summary_cards:
 - title: "Epistemic typing"
   body: "Every claim carries a public status such as Internally addressed, Partial, Qualitative, Contradicted, or Not addressed."
 - title: "Canonical grounding"
-  body: "Every result links to its source in the books, registry, and framework."
+  body: "Every result links to its Corpus, Registry, book, and verification grounding where available."
 right_rail:
   related:
   - title: "Results Overview"

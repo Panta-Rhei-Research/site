@@ -598,10 +598,10 @@
     "falsification_id": "N23",
     "n_num": 23,
     "slug": "n23-no-dm-detection-ever",
-    "title": "N23 — No DM detection—ever",
+    "title": "N23 — Dark-matter detection non-observation commitment",
     "domain": "particle-physics",
     "domain_display": "Particle Physics",
-    "prediction": "dark matter!never detected pred:n23 Stronger than N3: no indirect detection either (no annihilation signal, no DM decay line, no collider missing energy from a non-SM particle).",
+    "prediction": "Program-side commitment: no indirect dark-matter detection, dark-matter decay line, annihilation signal, or collider missing-energy signal from a non-Standard-Model particle. This is a falsification target, not a settled external fact.",
     "experiment": "all DM searches",
     "timeline": "permanent.",
     "decisive": "",
@@ -611,7 +611,7 @@
     "canonical_books": [
       "IV"
     ],
-    "summary_short": "N23: No DM detection—ever. all DM searches.",
+    "summary_short": "N23 tracks the program-side commitment that current and future dark-matter searches should not find a non-Standard-Model dark-matter signal.",
     "url": "/falsifications/n23-no-dm-detection-ever/",
     "tier": "binary",
     "facet_type": "falsification_path",
