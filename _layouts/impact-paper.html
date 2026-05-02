@@ -4,12 +4,22 @@ layout: default
 
 {% include breadcrumb-nav.html %}
 {% assign briefing_record = site.data.impact["public-good-briefings"] | where: "full_html_path", page.url | first %}
+{% assign portfolio_slug = page.portfolio_id | replace: "impact-", "" %}
+{% if page.portfolio and site.data.impact.portfolios[page.portfolio] %}
+  {% assign portfolio_slug = page.portfolio %}
+{% endif %}
+{% assign portfolio = site.data.impact.portfolios[portfolio_slug] %}
 
-<article class="impact-paper-article">
-<header class="hero-card">
+<article class="impact-paper-article impact-dossier" style="{% include impact-portfolio-style.html portfolio=portfolio %}">
+<header class="hero-card impact-gradient-panel">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Impact · Public-Good Briefing · Full Text</span>
-    {% if page.portfolio_id != "" %}<span class="chip">{{ page.portfolio_id | replace: "impact-", "" | capitalize }}</span>{% endif %}
+    {% if portfolio %}
+    <span class="impact-portfolio-pill">
+      {% include icon.html name=portfolio.icon class="impact-portfolio-icon" label=portfolio.icon_alt %}
+      <span>{{ portfolio.title }}</span>
+    </span>
+    {% elsif page.portfolio_id != "" %}<span class="chip">{{ page.portfolio_id | replace: "impact-", "" | capitalize }}</span>{% endif %}
     {% if page.right_rail.meta.status %}<span class="chip">{{ page.right_rail.meta.status }}</span>{% endif %}
   </div>
   <h1>{{ page.title }}</h1>
@@ -18,7 +28,7 @@ layout: default
   {% endif %}
   <div class="btn-group">
     {% if page.portfolio_id != "" %}
-    {% assign pf_slug = page.portfolio_id | replace: "impact-", "" %}
+    {% assign pf_slug = portfolio_slug %}
     <a href="{{ '/impact/global-public-good/' | append: pf_slug | append: '/' | relative_url }}" class="btn-secondary" {% include cta-attrs.html location="nav" event="nav-back-to-portfolio" href="/impact/global-public-good/" %}>Back to Portfolio</a>
     {% endif %}
     {% if briefing_record.landing_url %}
@@ -30,7 +40,10 @@ layout: default
 <section class="content-card">
   <h2>Metadata</h2>
   <div class="meta-list">
-    {% if page.portfolio_id %}<div class="meta-item"><span>Portfolio</span><span class="meta-value">{{ page.portfolio_id | replace: "impact-", "" | replace: "-", " " | capitalize }}</span></div>{% endif %}
+    {% if portfolio %}
+    <div class="meta-item"><span>Portfolio</span><span class="meta-value">{{ portfolio.title }}</span></div>
+    <div class="meta-item"><span>Portfolio family</span><span class="meta-value">{{ portfolio.family }}</span></div>
+    {% elsif page.portfolio_id %}<div class="meta-item"><span>Portfolio</span><span class="meta-value">{{ page.portfolio_id | replace: "impact-", "" | replace: "-", " " | capitalize }}</span></div>{% endif %}
     {% if page.right_rail.meta.status %}<div class="meta-item"><span>Status</span><span class="meta-value">{{ page.right_rail.meta.status }}</span></div>{% endif %}
     {% if page.right_rail.meta.updated %}<div class="meta-item"><span>Updated</span><span class="meta-value">{{ page.right_rail.meta.updated }}</span></div>{% endif %}
   </div>

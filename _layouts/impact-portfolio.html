@@ -3,11 +3,23 @@ layout: default
 ---
 
 {% include breadcrumb-nav.html %}
+{% assign portfolio_slug = page.portfolio_id | replace: "impact-", "" %}
+{% if page.portfolio and site.data.impact.portfolios[page.portfolio] %}
+  {% assign portfolio_slug = page.portfolio %}
+{% endif %}
+{% assign portfolio = site.data.impact.portfolios[portfolio_slug] %}
 
-<article class="impact-portfolio-article">
-<header class="hero-card">
+<article class="impact-portfolio-article impact-dossier" style="{% include impact-portfolio-style.html portfolio=portfolio %}">
+<header class="hero-card impact-gradient-panel">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Impact · Global Public Good</span>
+    {% if portfolio %}
+    <span class="impact-portfolio-pill">
+      {% include icon.html name=portfolio.icon class="impact-portfolio-icon" label=portfolio.icon_alt %}
+      <span>{{ portfolio.title }}</span>
+    </span>
+    <span class="chip">{{ portfolio.family }}</span>
+    {% endif %}
     {% if page.time_horizon != "" %}<span class="chip">{{ page.time_horizon | capitalize }} horizon</span>{% endif %}
     {% if page.deployment_stage != "" %}<span class="chip">{{ page.deployment_stage | replace: "-", " " | capitalize }}</span>{% endif %}
     <span class="chip">Conditional public-good portfolio</span>
@@ -43,6 +55,10 @@ layout: default
   <p>This portfolio is a conditional public-good scenario map. It becomes actionable only if upstream Results survive verification, translation assumptions are validated, and domain uptake is possible.</p>
   <div class="meta-list">
     <div class="meta-item"><span>Portfolio type</span><span class="meta-value">Conditional public-good portfolio</span></div>
+    {% if portfolio %}
+    <div class="meta-item"><span>Portfolio family</span><span class="meta-value">{{ portfolio.family }}</span></div>
+    <div class="meta-item"><span>Briefing count</span><span class="meta-value">{{ portfolio.briefing_count }}</span></div>
+    {% endif %}
     <div class="meta-item"><span>Briefing family</span><span class="meta-value">Public-Good Briefings</span></div>
     <div class="meta-item"><span>Translation status</span><span class="meta-value">Scenario map</span></div>
     <div class="meta-item"><span>Domain review</span><span class="meta-value">Pending</span></div>

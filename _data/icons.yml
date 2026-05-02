@@ -1,0 +1,16 @@
+family: "lucide"
+license: "ISC"
+source: "https://lucide.dev"
+package: "lucide-static"
+package_version: "1.14.0"
+asset_root: "/assets/icons/lucide"
+sprite: "/assets/icons/lucide-sprite.svg"
+default_size: 24
+default_stroke_width: 1.75
+default_stroke_linecap: "round"
+default_stroke_linejoin: "round"
+usage:
+  - "Use local vendored SVGs only."
+  - "Do not load icons from CDN."
+  - "Use portfolio accent color through CSS or LaTeX variables."
+  - "Always pair icons with visible text labels or accessible labels."

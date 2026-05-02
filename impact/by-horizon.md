@@ -14,6 +14,7 @@ right_rail:
 
 This optional support index remains available for older links. The canonical portfolio home is [Global Public Good]({{ '/impact/global-public-good/' | relative_url }}).
 
-{% for p in site.data.impact.portfolios %}
+{% for slug in site.data.impact.portfolio_order %}
+{% assign p = site.data.impact.portfolios[slug] %}
 - **[{{ p.title }}]({{ p.url | relative_url }})** - {{ p.summary_short }} ({{ p.paper_count }} {% if p.paper_count == 1 %}paper{% else %}papers{% endif %})
 {% endfor %}

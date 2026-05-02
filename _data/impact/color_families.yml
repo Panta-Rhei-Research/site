@@ -1,0 +1,24 @@
+food-life-health:
+  title: "Food, Life & Health Systems"
+  hue_family: "green / muted red"
+  description: "Food systems, biodiversity restoration, and health-linked ecological resilience."
+
+climate-atmosphere-weather:
+  title: "Climate, Atmosphere & Weather Systems"
+  hue_family: "teal / blue / warning orange"
+  description: "Climate systems, weather intelligence, and disaster-risk pathways."
+
+water-ocean:
+  title: "Water & Ocean Systems"
+  hue_family: "blue"
+  description: "Freshwater, WASH, ocean systems, and marine resilience."
+
+energy-solar:
+  title: "Energy & Solar Systems"
+  hue_family: "indigo / amber"
+  description: "Energy systems, solar scaling, grids, and transition infrastructure."
+
+pollution-circular-economy:
+  title: "Pollution & Circular Economy"
+  hue_family: "slate / violet-gray"
+  description: "Pollution reduction, material flows, waste, circularity, and environmental burden."

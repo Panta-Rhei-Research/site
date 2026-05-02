@@ -1,0 +1,9 @@
+{% assign icon_name = include.name | default: "circle-dot" %}
+{% assign icon_class = include.class | default: "" %}
+{% assign icon_label = include.label | default: "" %}
+{% assign icon_decorative = include.decorative | default: true %}
+{% capture icon_href %}{{ '/assets/icons/lucide-sprite.svg#' | append: icon_name | relative_url }}{% endcapture %}
+<svg class="lucide-icon {{ icon_class }}" width="{{ include.size | default: site.data.icons.default_size }}" height="{{ include.size | default: site.data.icons.default_size }}" viewBox="0 0 24 24"{% if icon_label and icon_decorative != true %} role="img" aria-label="{{ icon_label | escape }}"{% else %} aria-hidden="true" focusable="false"{% endif %}>
+  {% if icon_label and icon_decorative != true %}<title>{{ icon_label }}</title>{% endif %}
+  <use href="{{ icon_href | strip }}"></use>
+</svg>

@@ -3,12 +3,23 @@ layout: default
 ---
 
 {% include breadcrumb-nav.html %}
+{% assign portfolio_slug = page.portfolio_id | replace: "impact-", "" %}
+{% if page.portfolio and site.data.impact.portfolios[page.portfolio] %}
+  {% assign portfolio_slug = page.portfolio %}
+{% endif %}
+{% assign portfolio = site.data.impact.portfolios[portfolio_slug] %}
 
-<article class="impact-paper-article">
-<header class="hero-card">
+<article class="impact-paper-article impact-dossier" style="{% include impact-portfolio-style.html portfolio=portfolio %}">
+<header class="hero-card impact-gradient-panel">
   <div class="module-eyebrow-row">
     <span class="eyebrow">Publication · Research Briefing · Public-Good Briefing</span>
     <span class="chip">Conditional Scenario</span>
+    {% if portfolio %}
+    <span class="impact-portfolio-pill">
+      {% include icon.html name=portfolio.icon class="impact-portfolio-icon" label=portfolio.icon_alt %}
+      <span>{{ portfolio.title }}</span>
+    </span>
+    {% endif %}
     {% if page.pdf_status %}<span class="chip">PDF {{ page.pdf_status | replace: "_", " " | capitalize }}</span>{% endif %}
   </div>
   <h1>{{ page.title }}</h1>
@@ -28,6 +39,9 @@ layout: default
 <section class="content-card">
   <h2>Boundary condition</h2>
   <p>This Public-Good Briefing is a conditional scenario artifact. It is not a validation claim, policy commitment, implementation plan, or deployment-ready proposal.</p>
+  {% if portfolio %}
+  <p class="impact-portfolio-context">{% include icon.html name=portfolio.icon class="impact-portfolio-icon" label=portfolio.icon_alt %}<span>This briefing belongs to the <strong>{{ portfolio.title }}</strong> portfolio inside <strong>{{ portfolio.family }}</strong>.</span></p>
+  {% endif %}
 </section>
 
 {% if page.abstract %}

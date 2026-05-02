@@ -62,6 +62,7 @@ The Panta Rhei project's formalization repository [TauLib](https://github.com/Pa
 ## Diagrams & figures
 
 - **[TikZ](https://tikz.dev/)** / **[pgf](https://ctan.org/pkg/pgf)** — source language for the framework diagrams, compiled to standalone SVG via the project's diagram pipeline. LPPL.
+- **[Lucide Icons](https://lucide.dev/)** — portfolio icons in the Impact lane, vendored locally from `lucide-static` 1.14.0. ISC; Feather-derived icons remain under MIT where listed in the Lucide license file.
 
 ## Data sources
 

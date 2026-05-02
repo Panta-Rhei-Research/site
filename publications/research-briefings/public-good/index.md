@@ -46,12 +46,14 @@ Public-Good Briefings are conditional scenario artifacts. They explore what coul
 ## Current portfolios
 
 <ul class="portfolio-grid portfolio-card-list">
-{% for p in site.data.impact.portfolios %}
-  {% assign portfolio_title = p.title | replace: "/", " / " %}
+{% for slug in site.data.impact.portfolio_order %}
+  {% assign p = site.data.impact.portfolios[slug] %}
   <li>
     <article>
-      <a href="{{ p.url | relative_url }}" class="portfolio-card">
-        <h3 class="portfolio-card-title">{{ portfolio_title }}</h3>
+      <a href="{{ p.url | relative_url }}" class="portfolio-card impact-portfolio-card" style="{% include impact-portfolio-style.html portfolio=p %}">
+        <span class="portfolio-card-icon">{% include icon.html name=p.icon class="impact-portfolio-card__icon" label=p.icon_alt %}</span>
+        <span class="impact-portfolio-card__eyebrow">{{ p.family }}</span>
+        <h3 class="portfolio-card-title">{{ p.title }}</h3>
         <p class="portfolio-card-summary">{{ p.summary_short }}</p>
         <span class="chip chip-small">{{ p.briefing_count }} {% if p.briefing_count == 1 %}briefing{% else %}briefings{% endif %}</span>
       </a>
@@ -70,12 +72,12 @@ If any upstream link weakens, the public-good claim weakens with it.
 
 ## Browse briefings
 
-{% for portfolio in site.data.impact.portfolios %}
+{% for slug in site.data.impact.portfolio_order %}
+{% assign portfolio = site.data.impact.portfolios[slug] %}
 {% assign portfolio_briefings = site.data.impact["public-good-briefings"] | where: "portfolio_id", portfolio.id %}
 {% assign briefing_count = portfolio_briefings | size %}
-{% assign portfolio_title = portfolio.title | replace: "/", " / " %}
 <section class="briefing-portfolio-group" aria-labelledby="briefings-{{ portfolio.slug }}">
-  <h3 id="briefings-{{ portfolio.slug }}">{{ portfolio_title }} — {{ briefing_count }} {% if briefing_count == 1 %}briefing{% else %}briefings{% endif %}</h3>
+  <h3 id="briefings-{{ portfolio.slug }}"><span class="impact-portfolio-pill" style="{% include impact-portfolio-style.html portfolio=portfolio %}">{% include icon.html name=portfolio.icon class="impact-portfolio-icon" label=portfolio.icon_alt %}<span>{{ portfolio.title }}</span></span> — {{ briefing_count }} {% if briefing_count == 1 %}briefing{% else %}briefings{% endif %}</h3>
   <ul class="briefing-list">
   {% for briefing in portfolio_briefings %}
     <li>

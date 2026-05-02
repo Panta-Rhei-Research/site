@@ -88,12 +88,14 @@ Impact is conditional. Each consequence depends on upstream Results, verificatio
 <section aria-labelledby="global-public-good-portfolios">
   <h2 id="global-public-good-portfolios">Global Public-Good Portfolios</h2>
   <ul class="portfolio-grid portfolio-card-list">
-  {% for p in site.data.impact.portfolios %}
-    {% assign portfolio_title = p.title | replace: "/", " / " %}
+  {% for slug in site.data.impact.portfolio_order %}
+    {% assign p = site.data.impact.portfolios[slug] %}
     <li>
       <article>
-        <a href="{{ p.url | relative_url }}" class="portfolio-card">
-          <h3 class="portfolio-card-title">{{ portfolio_title }}</h3>
+        <a href="{{ p.url | relative_url }}" class="portfolio-card impact-portfolio-card" style="{% include impact-portfolio-style.html portfolio=p %}">
+          <span class="portfolio-card-icon">{% include icon.html name=p.icon class="impact-portfolio-card__icon" label=p.icon_alt %}</span>
+          <span class="impact-portfolio-card__eyebrow">{{ p.family }}</span>
+          <h3 class="portfolio-card-title">{{ p.title }}</h3>
           <p class="portfolio-card-summary">{{ p.summary_short }}</p>
           <span class="chip chip-small">{{ p.briefing_count }} {% if p.briefing_count == 1 %}briefing{% else %}briefings{% endif %}</span>
         </a>

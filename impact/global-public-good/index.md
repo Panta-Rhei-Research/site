@@ -81,8 +81,11 @@ Public-good consequence remains conditional until upstream Results hold, verific
 ## Portfolio Index
 
 <div class="portfolio-grid">
-{% for p in site.data.impact.portfolios %}
-  <a href="{{ p.url | relative_url }}" class="portfolio-card">
+{% for slug in site.data.impact.portfolio_order %}
+  {% assign p = site.data.impact.portfolios[slug] %}
+  <a href="{{ p.url | relative_url }}" class="portfolio-card impact-portfolio-card" style="{% include impact-portfolio-style.html portfolio=p %}">
+    <span class="portfolio-card-icon">{% include icon.html name=p.icon class="impact-portfolio-card__icon" label=p.icon_alt %}</span>
+    <span class="impact-portfolio-card__eyebrow">{{ p.family }}</span>
     <h3 class="portfolio-card-title">{{ p.title }}</h3>
     <p class="portfolio-card-summary">{{ p.summary_short }}</p>
     <span class="chip chip-small">{{ p.briefing_count }} {% if p.briefing_count == 1 %}briefing{% else %}briefings{% endif %}</span>
