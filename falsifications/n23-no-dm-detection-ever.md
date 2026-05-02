@@ -9,8 +9,8 @@ tier: "binary"
 domain: "particle-physics"
 domain_display: "Particle Physics"
 prediction: "Program-side commitment: no indirect dark-matter detection, dark-matter decay line, annihilation signal, or collider missing-energy signal from a non-Standard-Model particle. This is a falsification target, not a settled external fact."
-experiment: "all DM searches"
-timeline: "permanent."
+experiment: "direct, indirect, collider, and astrophysical dark-matter searches"
+timeline: "ongoing; indefinitely monitored."
 current_status: "consistent"
 seam: "no-dark-matter"
 registry_id: "V.T44"
@@ -33,7 +33,7 @@ right_rail:
     type: "Falsification"
     domain: "Particle Physics"
     status: "Consistent"
-    experiment: "all DM searches"
+    experiment: "dark-matter search programs"
     updated: "April 2026"
 generated_from: "corpus/results/facets/falsifications"
 projection_version: "v0.1"
@@ -46,5 +46,5 @@ do_not_edit: true
 The program-side commitment is that current and future dark-matter searches should not find
 an indirect dark-matter detection, decay line, annihilation signal, or collider missing-energy
 signal from a non-Standard-Model particle. This is a falsification target, not a settled external fact.
-*Experiment:* all DM searches.
-*Timeline:* permanent.
+*Experiment:* direct, indirect, collider, and astrophysical dark-matter searches.
+*Timeline:* ongoing; indefinitely monitored.
