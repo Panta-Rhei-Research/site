@@ -94,8 +94,7 @@ Use [Verify > Assessment Protocols]({{ '/verify/assessment-protocols/' | relativ
 ### Mathematics-first path
 1. [Book I: Categorical Foundations]({{ '/publications/books/book-i/' | relative_url }})
 2. [Book II: Categorical Holomorphy]({{ '/publications/books/book-ii/' | relative_url }})
-{% assign math_results = site.data.results.results | where: "topic", "mathematics" %}
-3. [Results by Domain: Mathematics]({{ '/results/topic/mathematics/' | relative_url }}) ({{ math_results | size }} results)
+3. [Results by Domain: Mathematics]({{ '/results/topic/mathematics/' | relative_url }}) ({% include release-metric.html id="results.mathematics.records" %} results)
 4. [Registry — Book I]({{ '/registry/books/book-i/' | relative_url }})
 5. [Guided Tours — Foundations](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/Tour/Foundations.lean)
 
@@ -103,23 +102,20 @@ Use [Verify > Assessment Protocols]({{ '/verify/assessment-protocols/' | relativ
 1. [Book III: Categorical Spectrum]({{ '/publications/books/book-iii/' | relative_url }}) (the hinge)
 2. [Book IV: Categorical Microcosm]({{ '/publications/books/book-iv/' | relative_url }})
 3. [Book V: Categorical Macrocosm]({{ '/publications/books/book-v/' | relative_url }})
-{% assign phys_results = site.data.results.results | where: "topic", "physics" %}
-4. [Results by Domain: Physics]({{ '/results/topic/physics/' | relative_url }}) ({{ phys_results | size }} results)
+4. [Results by Domain: Physics]({{ '/results/topic/physics/' | relative_url }}) ({% include release-metric.html id="results.physics.records" %} results)
 5. [Guided Tours — Physics](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/Tour/Physics.lean)
 
 ### Life and metaphysics path
 1. [Book VI: Categorical Life]({{ '/publications/books/book-vi/' | relative_url }})
 2. [Book VII: Categorical Metaphysics]({{ '/publications/books/book-vii/' | relative_url }})
-{% assign bio_results = site.data.results.results | where: "topic", "biology" %}
-{% assign phil_results = site.data.results.results | where: "topic", "philosophy" %}
-3. [Results by Domain: Life-facing results]({{ '/results/topic/biology/' | relative_url }}) ({{ bio_results | size }} results)
-4. [Results by Domain: Metaphysics / Philosophy-facing results]({{ '/results/topic/philosophy/' | relative_url }}) ({{ phil_results | size }} results)
+3. [Results by Domain: Life-facing results]({{ '/results/topic/biology/' | relative_url }}) ({% include release-metric.html id="results.life.records" %} results)
+4. [Results by Domain: Metaphysics / Philosophy-facing results]({{ '/results/topic/philosophy/' | relative_url }}) ({% include release-metric.html id="results.metaphysics.records" %} results)
 
 ### Formal verification path
 1. [Verify]({{ '/verify/' | relative_url }})
 2. [TauLib repository](https://github.com/Panta-Rhei-Research/taulib) — clone and run `lake build`
 3. [Guided Tours — VerifyItYourself](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/Tour/VerifyItYourself.lean)
-{% assign reg_count = site.data.registry.objects | size %}4. [Registry]({{ '/corpus/registry/' | relative_url }}) — {{ reg_count }} objects with dependency graphs
+4. [Registry]({{ '/corpus/registry/' | relative_url }}) — {% include release-metric.html id="registry.registry_total.grand_total" %} objects with dependency graphs
 
 ## Suggested starter packet
 
