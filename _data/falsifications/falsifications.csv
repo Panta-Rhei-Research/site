@@ -21,7 +21,7 @@ N19,n19-no-phantom-crossing,N19 — No phantom crossing,dark-sector,consistent,b
 N20,n20-dark-energy-density-06849,N20 — Dark energy density ΩΛ = 0.6849,particle-physics,consistent,B,/falsifications/n20-dark-energy-density-06849/
 N21,n21-hubble-constant-h-06735,N21 — Hubble constant $h = 0.6735$,particle-physics,consistent,B,/falsifications/n21-hubble-constant-h-06735/
 N22,n22-clustering-amplitude-s8-0760,N22 — Clustering amplitude $S_8 = 0.760$,particle-physics,consistent,B,/falsifications/n22-clustering-amplitude-s8-0760/
-N23,n23-no-dm-detection-ever,N23 — No DM detection—ever,particle-physics,consistent,binary,/falsifications/n23-no-dm-detection-ever/
+N23,n23-no-dm-detection-ever,N23 — Dark-matter detection non-observation commitment,particle-physics,consistent,binary,/falsifications/n23-no-dm-detection-ever/
 N24,n24-qnm-frequency-ratio-1,N24 — QNM frequency ratio ιτ⁻¹,black-holes,consistent,A,/falsifications/n24-qnm-frequency-ratio-1/
 N25,n25-eht-shadow-correction-291,N25 — EHT shadow correction $+2.91%$,black-holes,consistent,A,/falsifications/n25-eht-shadow-correction-291/
 N26,n26-gw-echo-time-ratio-2,N26 — GW echo time ratio ιτ⁻²,particle-physics,consistent,A,/falsifications/n26-gw-echo-time-ratio-2/
