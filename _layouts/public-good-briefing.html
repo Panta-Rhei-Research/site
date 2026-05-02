@@ -8,6 +8,9 @@ layout: default
   {% assign portfolio_slug = page.portfolio %}
 {% endif %}
 {% assign portfolio = site.data.impact.portfolios[portfolio_slug] %}
+{% assign release = site.data.impact.public_good_dossier_release[page.slug] %}
+{% assign pdf_status = release.pdf_status | default: page.pdf_status %}
+{% assign pdf_path = release.pdf_path | default: page.pdf_path %}
 
 <article class="impact-paper-article impact-dossier" style="{% include impact-portfolio-style.html portfolio=portfolio %}">
 <header class="hero-card impact-gradient-panel">
@@ -20,7 +23,7 @@ layout: default
       <span>{{ portfolio.title }}</span>
     </span>
     {% endif %}
-    {% if page.pdf_status %}<span class="chip">PDF {{ page.pdf_status | replace: "_", " " | capitalize }}</span>{% endif %}
+    {% if pdf_status %}<span class="chip">PDF {{ pdf_status | replace: "_", " " | capitalize }}</span>{% endif %}
   </div>
   <h1>{{ page.title }}</h1>
   {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% elsif page.summary %}<p>{{ page.summary }}</p>{% endif %}
@@ -28,8 +31,8 @@ layout: default
     {% if page.full_html_path %}
     <a href="{{ page.full_html_path | relative_url }}" class="btn-secondary" {% include cta-attrs.html location="publication" event="read-public-good-full-html" href=page.full_html_path %}>Read full text as HTML</a>
     {% endif %}
-    {% if page.pdf_status == "available" and page.pdf_path %}
-    <a href="{{ page.pdf_path | relative_url }}" class="btn-ghost" download>Download PDF</a>
+    {% if pdf_status == "available" and pdf_path %}
+    <a href="{{ pdf_path | relative_url }}" class="btn-ghost" download>Download PDF dossier</a>
     {% else %}
     <span class="btn-ghost is-disabled" aria-disabled="true">PDF pending</span>
     {% endif %}
@@ -43,6 +46,25 @@ layout: default
   <p class="impact-portfolio-context">{% include icon.html name=portfolio.icon class="impact-portfolio-icon" label=portfolio.icon_alt %}<span>This briefing belongs to the <strong>{{ portfolio.title }}</strong> portfolio inside <strong>{{ portfolio.family }}</strong>.</span></p>
   {% endif %}
 </section>
+
+{% if release %}
+<section class="content-card impact-release-card">
+  <h2>PDF release</h2>
+  <p>This PDF is a publication-ready public artifact. It remains conditional: domain review is pending, and no deployment, product, validation, or policy-adoption claim is made.</p>
+  <div class="meta-list">
+    <div class="meta-item"><span>Release</span><span class="meta-value">{{ release.release_label }}</span></div>
+    <div class="meta-item"><span>Release date</span><span class="meta-value">{{ release.release_date }}</span></div>
+    <div class="meta-item"><span>Source version</span><span class="meta-value">{{ release.source_version }}</span></div>
+    <div class="meta-item"><span>Domain review</span><span class="meta-value">{{ release.domain_review_status | capitalize }}</span></div>
+    <div class="meta-item"><span>PDF pages</span><span class="meta-value">{{ release.pdf_pages }}</span></div>
+    <div class="meta-item"><span>PDF size</span><span class="meta-value">{{ release.pdf_bytes | divided_by: 1024 }} KB</span></div>
+  </div>
+  <div class="checksum-row">
+    <span>SHA-256</span>
+    <code>{{ release.pdf_sha256 }}</code>
+  </div>
+</section>
+{% endif %}
 
 {% if page.abstract %}
 <section class="content-card">

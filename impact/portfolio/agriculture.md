@@ -1,13 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Agriculture
 permalink: /impact/portfolio/agriculture/
 portfolio_id: impact-agriculture
-summary_short: A conditional public-good portfolio for translating better agro-climate-water-biology
-  intelligence into lower crop loss, improved water productivity, earlier pest and
-  disease warnings, stronger anticipatory action, and faster climate-resilient crop
-  design.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -17,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/agriculture/
 ---
-
 ## Executive summary
 
 This memo synthesizes five yellow papers into one agriculture opportunity portfolio.

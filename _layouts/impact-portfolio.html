@@ -60,6 +60,7 @@ layout: default
     <div class="meta-item"><span>Briefing count</span><span class="meta-value">{{ portfolio.briefing_count }}</span></div>
     {% endif %}
     <div class="meta-item"><span>Briefing family</span><span class="meta-value">Public-Good Briefings</span></div>
+    <div class="meta-item"><span>PDF release state</span><span class="meta-value">All listed dossiers available as publication-ready PDFs</span></div>
     <div class="meta-item"><span>Translation status</span><span class="meta-value">Scenario map</span></div>
     <div class="meta-item"><span>Domain review</span><span class="meta-value">Pending</span></div>
     <div class="meta-item"><span>Deployment</span><span class="meta-value">Not claimed</span></div>
@@ -78,9 +79,16 @@ layout: default
   <h2>Public-Good Briefings</h2>
   <div class="dep-list">
     {% for paper in impact_papers %}
+    {% assign release = site.data.impact.public_good_dossier_release[paper.slug] %}
     <a href="{{ paper.landing_url | relative_url }}" class="dep-link">
       <span class="dep-title">{{ paper.title }}</span>
       <span class="dep-meta">{{ paper.summary_short }}</span>
+      {% if release %}
+      <span class="briefing-release-row">
+        <span class="chip chip-small">PDF available</span>
+        <span>{{ release.release_date }} · {{ release.pdf_pages }} pages</span>
+      </span>
+      {% endif %}
     </a>
     {% endfor %}
   </div>

@@ -1,12 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Disaster
 permalink: /impact/portfolio/disaster/
 portfolio_id: impact-disaster
-summary_short: A conditional public-good portfolio for translating better hazard physics
-  into earlier warnings, more resilient lifelines, and forecast-linked anticipatory
-  action across multi-hazard disaster domains.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -16,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/disaster/
 ---
-
 ## Executive summary
 
 This memo synthesizes five yellow papers into one disaster opportunity portfolio.

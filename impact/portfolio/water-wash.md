@@ -1,13 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Water/WASH
 permalink: /impact/portfolio/water-wash/
 portfolio_id: impact-water-wash
-summary_short: A conditional public-good portfolio for translating better water-system
-  physics into safer drinking water, fewer network losses, stronger sanitation and
-  reuse, better basin allocation, and improved WASH continuity in the places where
-  vulnerability is highest.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -17,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/water-wash/
 ---
-
 ## Executive summary
 
 This memo synthesizes five yellow papers into one water/WASH opportunity portfolio.

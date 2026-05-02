@@ -1,12 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Solar
 permalink: /impact/portfolio/solar/
 portfolio_id: impact-solar
-summary_short: A conditional public-good portfolio for translating better solar–weather–grid
-  physics into lower reserve costs, faster DER interconnection, stronger critical-load
-  resilience, and solar-synchronized flexible demand.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -16,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/solar/
 ---
-
 ## Executive summary
 
 This memo synthesizes five yellow papers into one solar opportunity portfolio.

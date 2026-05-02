@@ -1,12 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: One Health
 permalink: /impact/portfolio/one-health/
 portfolio_id: impact-one-health
-summary_short: A conditional public-good portfolio for using one shared environmental-biological-operational
-  twin to improve disease early warning, health-system resilience, environmental surveillance,
-  food safety, and precision public health simultaneously.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -16,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/one-health/
 ---
-
 ## 1. Executive Summary
 
 This memo consolidates the five-paper τ One Health portfolio into a single public-good opportunity architecture.

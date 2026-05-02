@@ -1,12 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Biodiversity/Restoration
 permalink: /impact/portfolio/biodiversity-restoration/
 portfolio_id: impact-biodiversity-restoration
-summary_short: A conditional public-good portfolio for translating better coupled ecological
-  intelligence into stronger restoration targeting, functional connectivity, blue-green
-  habitat resilience, earlier stress warnings, and more accountable biodiversity finance.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -16,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/biodiversity-restoration/
 ---
-
 ## Executive Summary
 
 This memo consolidates the full five-paper τ biodiversity / restoration / wildlife cluster into one portfolio architecture.

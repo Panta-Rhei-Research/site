@@ -1,12 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Energy
 permalink: /impact/portfolio/energy/
 portfolio_id: impact-energy
-summary_short: A conditional public-good portfolio for applying a physically faithful
-  τ energy-system twin to improve grid reliability and dispatch, DER and storage orchestration,
-  fusion and fission digital twins, and whole-system energy planning.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -16,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/energy/
 ---
-
 ## Overview
 
 Energy is one of the clearest first-wave τ deployment fields because electricity-system physics, plasma dynamics, and reactor behavior all require the kinds of coupled, multiscale, bounded-error modeling that τ is designed to provide. The portfolio organizes five mission layers under one shared energy-system substrate, from bulk-power grid twins and DER orchestration through fusion and fission digital twins to whole-system planning and market design.

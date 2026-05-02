@@ -11,13 +11,14 @@ hero_eyebrow: "Publications · Research Briefings · Public-Good Briefings"
 summary_short: "44 conditional scenario briefings across 11 public-good portfolios."
 publication_category: "research_briefing"
 publication_subcategory: "public_good_briefing"
-artifact_status: "html_available"
+artifact_status: "html_pdf_available"
 primary_or_secondary: "translation"
 claim_role: "translation_briefing"
 search_keywords:
   - "Public-Good Briefings"
-  - "public good papers"
+  - "Public-Good Impact Dossiers"
   - "scenario briefings"
+  - "PDF dossiers"
 og_image: "/assets/images/plates/plate-07-stable-artifact-layer-og.jpg"
 twitter_image: "/assets/images/plates/plate-07-stable-artifact-layer-og.jpg"
 og_image_alt: "Scientific plate showing Public-Good Briefings as a family under Research Briefings inside the Publications taxonomy."
@@ -25,7 +26,7 @@ og_image_alt: "Scientific plate showing Public-Good Briefings as a family under 
 
 ## What Public-Good Briefings are
 
-Public-Good Briefings are Research Briefings: framework-grounded translation artifacts that explore what could become valuable in public-good domains if the relevant Results survive verification, translation, domain review, and uptake.
+Public-Good Briefings are Research Briefings: framework-grounded translation artifacts that explore what could become valuable in public-good domains if the relevant Results survive verification, translation, domain review, and uptake. All 44 briefings are now available as publication-ready PDF dossiers alongside their full HTML text.
 
 They are not validation claims, policy commitments, implementation plans, or deployment-ready proposals. They are downstream conditional scenario analyses.
 
@@ -41,7 +42,7 @@ Public-Good Briefings sit inside the Research Briefings category. Their role is 
 {% capture public_good_impact_plate_caption %}Public-Good Briefings belong to the outermost Impact stratum. They are conditional scenario briefings, not validation claims, policy commitments, or deployment plans.{% endcapture %}
 {% include scientific-plate.html id="plate-08-conditional-impact-strata" variant="thumb" class="scientific-plate--compact" caption=public_good_impact_plate_caption loading="lazy" %}
 
-Public-Good Briefings are conditional scenario artifacts. They explore what could become valuable if upstream Results survive verification, translation, domain review, and uptake.
+Public-Good Briefings are conditional scenario artifacts. They explore what could become valuable if upstream Results survive verification, translation, domain review, and uptake. The PDF release does not change the claim status: domain review remains pending, and no deployment, product, validation, or policy-adoption claim is made.
 
 ## Current portfolios
 
@@ -56,6 +57,7 @@ Public-Good Briefings are conditional scenario artifacts. They explore what coul
         <h3 class="portfolio-card-title">{{ p.title }}</h3>
         <p class="portfolio-card-summary">{{ p.summary_short }}</p>
         <span class="chip chip-small">{{ p.briefing_count }} {% if p.briefing_count == 1 %}briefing{% else %}briefings{% endif %}</span>
+        <span class="chip chip-small">PDFs available</span>
       </a>
     </article>
   </li>
@@ -80,10 +82,14 @@ If any upstream link weakens, the public-good claim weakens with it.
   <h3 id="briefings-{{ portfolio.slug }}"><span class="impact-portfolio-pill" style="{% include impact-portfolio-style.html portfolio=portfolio %}">{% include icon.html name=portfolio.icon class="impact-portfolio-icon" label=portfolio.icon_alt %}<span>{{ portfolio.title }}</span></span> — {{ briefing_count }} {% if briefing_count == 1 %}briefing{% else %}briefings{% endif %}</h3>
   <ul class="briefing-list">
   {% for briefing in portfolio_briefings %}
+  {% assign release = site.data.impact.public_good_dossier_release[briefing.slug] %}
     <li>
       <article class="briefing-card">
         <h4><a href="{{ briefing.landing_url | relative_url }}">{{ briefing.title }}</a></h4>
         <p>{{ briefing.summary_short }}</p>
+        {% if release %}
+        <p class="briefing-release-row"><span class="chip chip-small">PDF available</span><span>{{ release.release_date }} · {{ release.pdf_pages }} pages</span></p>
+        {% endif %}
       </article>
     </li>
   {% endfor %}

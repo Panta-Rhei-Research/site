@@ -419,6 +419,49 @@ a.chip-link, a.chip.chip-link {
   }
 }
 
+.impact-release-card {
+  border-top: 3px solid var(--impact-accent);
+
+  .checksum-row {
+    display: grid;
+    grid-template-columns: minmax(96px, max-content) minmax(0, 1fr);
+    gap: 10px;
+    align-items: start;
+    margin-top: 14px;
+    color: var(--color-ink-600);
+    font-family: $font-ui;
+    font-size: 0.82rem;
+
+    code {
+      display: block;
+      padding: 8px 10px;
+      border: var(--border-default);
+      border-radius: $radius-sm;
+      background: var(--surface-muted);
+      color: var(--color-ink-700);
+      font-family: $font-mono;
+      font-size: 0.74rem;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+  }
+}
+
+.briefing-release-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  color: var(--color-ink-500);
+  font-family: $font-ui;
+  font-size: 0.78rem;
+
+  .chip {
+    margin: 0;
+  }
+}
+
 .impact-portfolio-card {
   position: relative;
   overflow: hidden;
@@ -794,6 +837,19 @@ a.part-card {
     background: var(--lane-current-soft);
     border-color: var(--lane-current);
     transform: translateY(-1px);
+  }
+
+  &.is-disabled,
+  &[aria-disabled="true"] {
+    color: var(--color-ink-400);
+    background: var(--surface-muted);
+    cursor: not-allowed;
+
+    &:hover {
+      color: var(--color-ink-400);
+      border-color: var(--border-color);
+      transform: none;
+    }
   }
 }
 

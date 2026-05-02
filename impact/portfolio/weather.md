@@ -1,13 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Weather
 permalink: /impact/portfolio/weather/
 portfolio_id: impact-weather
-summary_short: A conditional public-good portfolio for making weather, climate intelligence,
-  and disaster early warning materially better — from extreme-event forecasting and
-  flood impact translation to wildfire/smoke intelligence, grid-weather coupling,
-  drought planning, and climate adaptation.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -17,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/weather/
 ---
-
 ## Executive Summary
 
 This memo argues that **weather, climate, and disaster intelligence** is one of the strongest first conditional public-good domains for the τ framework — and that within this domain, the aviation weather and aerial logistics sub-sector offers some of the highest-value near-term commercial anchoring for the broader translation agenda.

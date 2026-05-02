@@ -1,12 +1,10 @@
 ---
-layout: impact-portfolio
+layout: redirect
 lane: impact
 title: Ocean
 permalink: /impact/portfolio/ocean/
 portfolio_id: impact-ocean
-summary_short: A conditional public-good portfolio for using one shared ocean-state
-  twin to serve trade, climate decarbonization, blue food systems, search and rescue,
-  and marine stewardship simultaneously.
+summary_short: Redirects to the canonical Global Public Good portfolio page.
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -16,8 +14,8 @@ right_rail:
     stage: Conceptual
     status: Conditional
     updated: April 2026
+redirect_to: /impact/global-public-good/ocean/
 ---
-
 ## Executive summary
 
 This memo synthesizes four yellow papers into one ocean opportunity portfolio.
