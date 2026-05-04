@@ -30,6 +30,11 @@ tags:
 - structural-challenge
 - life
 review_priority: medium
+cross_domain_links:
+- domain: physics
+  challenge_id: P001
+  label: 'Physics P001: Abiogenesis (boundary)'
+  note: Cross-handoff to physics R6 boundary cluster.
 source_anchors:
 - label: Panta Rhei Book VI / Life World Readout
   url: https://panta-rhei.site/results/world-readout/life/

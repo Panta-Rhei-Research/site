@@ -29,6 +29,15 @@ tags:
 review_priority: medium
 ring_depth: R6_cross_domain_handoff
 physics_core_weight: boundary
+cross_domain_links:
+- domain: metaphysics
+  challenge_id: M-E3-19
+  label: 'M-E3-19: Mind-Body Relation'
+  note: Physics-side quantum-mind handoff to E₃ mind-body.
+- domain: metaphysics
+  challenge_id: M-E3-20
+  label: 'M-E3-20: Hard Problem of Consciousness'
+  note: Quantum-mind hypotheses meet hard problem at E₃.
 source_anchors:
 - label: 'Wikipedia: List of unsolved problems in physics'
   url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics

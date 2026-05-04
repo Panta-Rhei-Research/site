@@ -28,6 +28,11 @@ tags:
 - structural-challenge
 - mathematics
 review_priority: medium
+cross_domain_links:
+- domain: metaphysics
+  challenge_id: M-E3-06
+  label: 'M-E3-06: Mathematical Objects and Abstract Reality'
+  note: Foundations of mathematics meets E₃ ontology of mathematical objects.
 source_anchors:
 - label: SEP — Philosophy of Mathematics
   url: https://plato.stanford.edu/entries/philosophy-mathematics/

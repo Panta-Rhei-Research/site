@@ -29,6 +29,12 @@ tags:
 - structural-challenge
 - mathematics
 review_priority: medium
+cross_domain_links:
+- domain: physics
+  challenge_id: P100
+  label: 'Physics P100: Navier-Stokes smoothness'
+  note: Mathematical Clay problem also appears in physics structural ledger as a domain-structural
+    challenge.
 source_anchors:
 - label: Clay Millennium Problems — Navier–Stokes
   url: https://www.claymath.org/millennium/navier-stokes-equation/

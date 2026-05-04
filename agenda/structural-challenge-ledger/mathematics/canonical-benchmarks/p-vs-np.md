@@ -28,6 +28,11 @@ tags:
 - structural-challenge
 - mathematics
 review_priority: medium
+cross_domain_links:
+- domain: physics
+  challenge_id: P011
+  label: 'Physics P011: Complexity classes problems'
+  note: Mathematical Clay problem ↔ physics quantum-information complexity.
 source_anchors:
 - label: Clay Millennium Problems — P vs NP
   url: https://www.claymath.org/millennium/p-vs-np/

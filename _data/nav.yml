@@ -126,19 +126,6 @@ lane_nav:
                 url: "/agenda/structural-challenge-ledger/life/"
               - title: "Metaphysics"
                 url: "/agenda/structural-challenge-ledger/metaphysics/"
-          - title: "Problem Ledger (v1.0)"
-            url: "/agenda/problem-ledger/"
-            children:
-              - title: "Source Policy (v1.0)"
-                url: "/agenda/problem-ledger-source-policy/"
-              - title: "Mathematics (v1.0)"
-                url: "/agenda/problem-ledger/mathematics/"
-              - title: "Physics (v1.0)"
-                url: "/agenda/problem-ledger/physics/"
-              - title: "Life (v1.0)"
-                url: "/agenda/problem-ledger/life/"
-              - title: "Metaphysics / Philosophy (v1.0)"
-                url: "/agenda/problem-ledger/metaphysics-philosophy/"
           - title: "Kernel, Model & Reality"
             url: "/agenda/kernel-model-reality/"
             children:
@@ -274,8 +261,6 @@ lane_nav:
                 url: "/results/world-readout/mathematics/"
               - title: "Recovery Targets"
                 url: "/results/recovery-target-status/mathematics/"
-              - title: "Problem Answers"
-                url: "/results/problem-ledger-answers/mathematics/"
           - title: "Physics"
             url: "/results/physics/"
             children:
@@ -315,8 +300,6 @@ lane_nav:
         links:
           - title: "Landmark Results"
             url: "/results/landmark-results/"
-          - title: "Problem Ledger Answers"
-            url: "/results/problem-ledger-answers/"
           - title: "Recovery Target Status"
             url: "/results/recovery-target-status/"
           - title: "Progress Against Agenda"
