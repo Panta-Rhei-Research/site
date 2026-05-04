@@ -1,10 +1,10 @@
 ---
 layout: program-doc
-title: "Roadmap"
+title: "Work Roadmap"
 lane: agenda
 v2_lane: agenda
 section: research-agenda
-type: "Roadmap"
+type: "Work Roadmap"
 status: "Canonical"
 summary_short: "The current build priorities for the program after the public canonical release."
 summary_cards:
@@ -13,7 +13,7 @@ summary_cards:
   - title: "Formalize"
     body: "Grow TauLib where machine-checking can most reduce ambiguity."
   - title: "Publish"
-    body: "Turn selected notes, companions, and review surfaces into durable public artifacts."
+    body: "Turn selected notes, companions, and inspection routes into durable public artifacts."
 right_rail:
   related:
     - title: "Release Manifest"
@@ -22,16 +22,28 @@ right_rail:
       url: /publications/research-notes/
     - title: "Engage"
       url: /engage/
+    - title: "Core Semantics"
+      url: /agenda/core-semantics/
+    - title: "Bibliography"
+      url: /bibliography/
+    - title: "Construction Spine"
+      url: /corpus/construction-spine/
+    - title: "Assessment Protocols"
+      url: /verify/assessment-protocols/
+    - title: "AI-Assisted Discovery"
+      url: /discover/ai-assisted-discovery/
+    - title: "Media Kit"
+      url: /engage/media-kit/
   meta:
-    type: "Roadmap"
+    type: "Work Roadmap"
     scope: "Program-wide"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Current release state
 
-The program is past the private-build stage. Its current public form includes the books, this website, the registry, TauLib, publication surfaces, and routes for scrutiny.
+The program is past the private-build stage. Its current public form includes the seven-book monograph series, v4 public observatory, Registry, TauLib, Publications artifacts, three public white-paper packages, Verify routes, Engage routes, and correction surfaces.
 
 The roadmap is therefore not only about adding more material. It is about making the public object easier to inspect, easier to challenge, and easier to correct.
 
@@ -39,16 +51,16 @@ The roadmap is therefore not only about adding more material. It is about making
 
 <div class="v2-grid">
   <div class="v2-tile">
-    <strong>Website v2</strong>
-    <span>Complete the eight-lane public architecture so readers can move from first contact to technical inspection without losing the thread.</span>
+    <strong>v4 stabilization</strong>
+    <span>Stabilize the canonical v4 observatory: Discover, Program, Agenda, Corpus, Results, Verify, Impact, and Engage.</span>
   </div>
   <div class="v2-tile">
     <strong>Corpus spine</strong>
     <span>Keep registry entries, aliases, IDs, result links, and publication references aligned as the program evolves.</span>
   </div>
   <div class="v2-tile">
-    <strong>Agenda ledgers</strong>
-    <span>Keep the source-pinned Problem Ledger, Recovery Requirements projection, and Corpus integration synchronized.</span>
+    <strong>Agenda surfaces</strong>
+    <span>Keep Core Semantics, the source-pinned Problem Ledger, Kernel/Model/Reality, and Construction Roadmap synchronized with Corpus, Results, and Verify.</span>
   </div>
   <div class="v2-tile">
     <strong>Formalization</strong>
@@ -59,8 +71,24 @@ The roadmap is therefore not only about adding more material. It is about making
     <span>Prepare Research Briefings, research notes, errata, and guided tours as durable open-access artifacts.</span>
   </div>
   <div class="v2-tile">
-    <strong>Review surfaces</strong>
-    <span>Strengthen red-team, prior-art, and discipline-specific audit routes.</span>
+    <strong>Inspection routes</strong>
+    <span>Strengthen Verify, Assessment Protocols, AI-Assisted Discovery, prior-art positioning, and discipline-specific inspection routes.</span>
+  </div>
+  <div class="v2-tile">
+    <strong>Bibliography &amp; Prior-Art Catalog</strong>
+    <span>Extend bibliography metadata and connect prior-art clusters to the ten Construction Spine steps.</span>
+  </div>
+  <div class="v2-tile">
+    <strong>Construction Spine enrichment</strong>
+    <span>Add prior-art and novelty positioning, construction challenges, and answer-shape rationale to each of the ten construction steps.</span>
+  </div>
+  <div class="v2-tile">
+    <strong>Core Semantics migration</strong>
+    <span>Complete public terminology migration from Recovery Requirements to Core Semantics while preserving internal recovery/refusal item IDs.</span>
+  </div>
+  <div class="v2-tile">
+    <strong>Media package stabilization</strong>
+    <span>Keep the three public packages — Open Research, Theory of Reality, Technical Blueprint — publication-ready and linked from Media, Program, and Publications.</span>
   </div>
   <div class="v2-tile">
     <strong>Correction loop</strong>

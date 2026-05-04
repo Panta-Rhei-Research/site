@@ -28,15 +28,17 @@ right_rail:
       url: /agenda/kernel-model-reality/no-externalities/
     - title: "Diagrammatic Access"
       url: /agenda/kernel-model-reality/diagrammatic-access/
-    - title: "Physics Recovery Requirements"
+    - title: "Physics Core Semantics"
       url: /agenda/core-semantics/physics/
+    - title: "Wolfram & the Ruliad"
+      url: /program/about/related-approaches/wolfram-ruliad/
     - title: "Formal Verification Stack"
       url: /verify/formal-verification-stack/
   meta:
     type: "Kernel Principle"
     scope: "Research Agenda"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why substrate deferral matters
@@ -63,7 +65,7 @@ Substrate deferral occurs when a decisive dependency is left outside the account
 
 ## Allowed treatments
 
-The substrate dependency may be:
+Substrate non-deferral inherits the six treatments from [No Externalities]({{ '/agenda/kernel-model-reality/no-externalities/' | relative_url }}). The substrate dependency may be:
 
 - internalized into the kernel
 - derived from deeper structure
@@ -72,11 +74,11 @@ The substrate dependency may be:
 - bridged explicitly to another domain
 - marked as an unresolved boundary
 
-Any of those can be honest. Silent deferral cannot.
+Any of those can be honest. Silent deferral cannot. Whatever runtime, support, or semantic load a claim depends on must be exposed and treated under one of those six modes; it may not survive as background.
 
 ## Relation to related approaches
 
-The program treats Wheeler, Tegmark, Wolfram, simulation hypotheses, and other computational or informational approaches as serious neighbors, not caricatures.
+The program treats Wheeler, Tegmark, Wolfram, simulation hypotheses, and other computational or informational approaches as serious neighbors, not caricatures. The [Wolfram & the Ruliad]({{ '/program/about/related-approaches/wolfram-ruliad/' | relative_url }}) comparison sets out one neighboring case in detail.
 
 The difference is the burden assigned to substrate. Panta Rhei asks whether the support conditions can be made part of the account rather than left as an external condition.
 

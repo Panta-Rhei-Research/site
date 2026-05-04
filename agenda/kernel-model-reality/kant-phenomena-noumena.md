@@ -28,13 +28,13 @@ right_rail:
       url: /agenda/kernel-model-reality/diagrammatic-access/
     - title: "No Externalities"
       url: /agenda/kernel-model-reality/no-externalities/
-    - title: "Metaphysics Recovery Requirements"
+    - title: "Metaphysics Core Semantics"
       url: /agenda/core-semantics/metaphysics/
   meta:
     type: "Kernel Boundary"
     scope: "Research Agenda"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why Kant matters here
@@ -66,6 +66,8 @@ Diagrammatic access is weaker and stricter. It means access through formal, rela
 The phenomena/noumena boundary should not be treated as a fog bank where all claims disappear. It can be represented as a disciplined relation between model, appearance, measurement, bridge, and ontic commitment.
 
 That typed relation does not dissolve the boundary. It makes the burden visible.
+
+The program speaks from inside its own conditions of access. Its diagrammatic claims are made from that internal standpoint, not from a vantage outside all mediation. There is no pointing at noumenal access; there is only structure that may earn warrant by surviving recovery, bridge, and verification pressure.
 
 ## Relation to physics and instrumental caution
 

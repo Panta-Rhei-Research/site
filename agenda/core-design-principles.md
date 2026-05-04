@@ -32,7 +32,7 @@ right_rail:
     type: Design Doc
     scope: Program-wide
     status: Canonical
-    updated: April 2026
+    updated: May 2026
 ---
 
 The Panta Rhei Research Program is not only organized by results. It is also organized by a small number of persistent design principles.
@@ -61,9 +61,13 @@ That means:
 
 Earnedness is what gives the whole architecture its distinctive moral style.
 
+In the Agenda lane, earnedness becomes Core Semantics: the language, structures, laws, and grammars the theory must earn before it can answer.
+
 ## Coherence-first
 
 The second principle is **coherence-first design**.
+
+Coherence-first is a design principle. The public category is stricter: the program is dedicated to building a coherent theory of reality.
 
 The program is not mainly trying to maximize the number of successful local explanations it can accumulate. It is trying to see whether those explanations belong to one coherent architecture.
 
@@ -102,13 +106,13 @@ This principle is one reason why internal semantics, self-enrichment, and eventu
 The fifth principle is **formal inspectability**.
 
 The program should be built in a way that allows public structured inspection:
-- through [books]({{ '/publications/research-monographs/' | relative_url }})
-- through [guided tours]({{ '/publications/guided-tours/' | relative_url }})
-- through the [registry]({{ '/corpus/registry/' | relative_url }})
-- through dashboards
-- through [TauLib]({{ '/verify/taulib/' | relative_url }})
-- through verification companions
-- through public assessment protocols
+- through the [Monograph Corpus]({{ '/publications/research-monographs/' | relative_url }});
+- through [Registry]({{ '/corpus/registry/' | relative_url }}) objects;
+- through [TauLib]({{ '/verify/taulib/' | relative_url }}) where formalized;
+- through Results status surfaces;
+- through [Verify]({{ '/verify/' | relative_url }}) and Assessment Protocols;
+- through Publications as citable artifacts;
+- through Engage and correction routes.
 
 Inspectability is not a public-relations add-on. It is part of the research ethic of the program.
 

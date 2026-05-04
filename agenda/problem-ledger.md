@@ -40,16 +40,18 @@ right_rail:
     type: "Agenda Ledger"
     scope: "Program-wide"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why this ledger exists
 
 The program should not be judged only by the claims it prefers to highlight. It should also be judged by the questions it agrees to carry.
 
-The Problem Ledger is the Program-side stress-test ledger. It imports or selects public problem spaces, records their source policy, and classifies whether the current framework can express, address, constrain, defer, reclassify, or reject each problem with reasons.
+The Problem Ledger is the Agenda-side stress-test ledger. It imports or selects public problem spaces, records their source policy, and classifies whether the current framework can express, address, constrain, defer, reclassify, or reject each problem with reasons.
 
 Import is not endorsement, solution, or priority. It is a commitment to visibility.
+
+Problem Ledger comes after Core Semantics. Core Semantics states the language the theory must earn; Problem Ledger records the open and foundational questions the theory agrees to face once that language burden is visible.
 
 The source-policy architecture is now in place for all four agenda domains:
 
@@ -104,7 +106,7 @@ The current public projection is Problem Ledger v1.0: every declared source entr
   </a>
   <a class="v2-tile" href="{{ '/agenda/problem-ledger/life/' | relative_url }}">
     <strong>Life</strong>
-    <span>Biology + neuroscience master ledgers, with medicine excluded from the core v2 ledger.</span>
+    <span>Biology + neuroscience master ledgers, with medicine excluded from the core Agenda ledger.</span>
   </a>
   <a class="v2-tile" href="{{ '/agenda/problem-ledger/metaphysics-philosophy/' | relative_url }}">
     <strong>Metaphysics / Philosophy</strong>

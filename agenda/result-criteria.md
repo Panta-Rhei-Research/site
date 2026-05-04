@@ -18,7 +18,7 @@ right_rail:
   related:
     - title: "Problem Ledger"
       url: /agenda/problem-ledger/
-    - title: "Recovery Requirements"
+    - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Status and Claim Typing"
       url: /results/status-and-claim-typing/
@@ -30,14 +30,18 @@ right_rail:
     type: "Criteria"
     scope: "Program-wide"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What counts as a result
 
 A claim counts as a program result only when it can be placed in a public chain of reasons. That chain may be prose, registry-backed, computational, formalized, or empirically mapped, but it must be inspectable enough that a reader can see what would have to fail.
 
-The [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) and [Recovery Requirements]({{ '/agenda/core-semantics/' | relative_url }}) define two different burdens. The first asks how the program handles open stress-test problems; the second asks whether the kernel recovers the known structures those problems presuppose.
+[Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) and the [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) define two different burdens.
+
+Core Semantics asks whether the theory can carry, retype, or explicitly challenge the language and structures required by the domains it addresses.
+
+Problem Ledger asks how the program handles open stress-test questions.
 
 ## Result classes
 
@@ -76,5 +80,7 @@ The [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) and [Recove
 - An analogy between domains without a bridge rule.
 - A private argument that has no public inspection path.
 - A result whose status label is stronger than its evidence.
+
+A result that claims novelty must also expose prior-art and novelty positioning where relevant. Novelty positioning is an internal editorial claim until externally reviewed.
 
 The [Verification Framework]({{ '/verify/' | relative_url }}) carries the practical audit routes. The [Results lane]({{ '/results/' | relative_url }}) carries the current classified claims.

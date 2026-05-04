@@ -26,7 +26,7 @@ right_rail:
       url: /agenda/kernel-model-reality/
     - title: "Problem Ledger"
       url: /agenda/problem-ledger/
-    - title: "Recovery Requirements"
+    - title: "Core Semantics / Recovery"
       url: /agenda/core-semantics/
     - title: "Result Criteria"
       url: /agenda/result-criteria/
@@ -38,12 +38,12 @@ right_rail:
     type: "Kernel Criterion"
     scope: "Research Agenda"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why answer-shapes matter
 
-A large framework can fail even when individual sentences sound plausible.
+A large theory can fail even when individual sentences sound plausible.
 
 It can predict without explaining, formalize without bridging, simulate without substrate, classify without recovery, or make metaphysical claims without public failure conditions. Answer-Shape Requirements prevent those shortcuts from being mistaken for success.
 

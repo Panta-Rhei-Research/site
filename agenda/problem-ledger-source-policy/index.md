@@ -11,7 +11,7 @@ right_rail:
   related:
     - title: "Problem Ledger"
       url: /agenda/problem-ledger/
-    - title: "Recovery Requirements"
+    - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Results Mirror"
       url: /results/problem-ledger-answers/
@@ -19,12 +19,14 @@ right_rail:
     type: "Source Policy"
     scope: "Problem Ledger"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why source policy matters
 
 The Problem Ledger exists to keep the Research Agenda accountable to external stress tests. It is not a list of preferred victories. It is a source-pinned record of problems the program agrees should remain visible.
+
+Source policy governs the stress-test questions. Core Semantics governs the language and structures those questions presuppose.
 
 ## Open problems vs recovery requirements
 

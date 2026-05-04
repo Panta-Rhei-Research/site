@@ -4,7 +4,7 @@ title: "Kernel, Model & Reality"
 lane: agenda
 v2_lane: agenda
 section: research-agenda
-type: "Research Agenda Section"
+type: "Agenda Section"
 status: "Canonical"
 summary_short: "The deepest burden accepted by the program: whether a kernel can earn ontic seriousness rather than merely organize useful models."
 summary_cards:
@@ -26,10 +26,10 @@ hero_ctas:
     url: /program/about/related-approaches/
 right_rail:
   related:
+    - title: "Core Semantics"
+      url: /agenda/core-semantics/
     - title: "Problem Ledger"
       url: /agenda/problem-ledger/
-    - title: "Recovery Requirements"
-      url: /agenda/core-semantics/
     - title: "Result Criteria"
       url: /agenda/result-criteria/
     - title: "Verification Framework"
@@ -42,12 +42,12 @@ right_rail:
     type: "Agenda Section"
     scope: "Program-wide"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why this section exists
 
-The Research Agenda cannot end with a list of open problems and recovery requirements. It also has to state the deepest question the program is willing to carry:
+Agenda cannot end with Core Semantics and open problems. It also has to state the deepest question the program is willing to carry:
 
 **If a kernel organizes mathematics, physics, life, and metaphysics, what would it take for that kernel to be more than a useful model?**
 
@@ -107,11 +107,11 @@ The gap between these levels is not treated as a decorative philosophical caveat
 
 ## Relation to the ledgers
 
-The [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) records open questions the program accepts as public stress tests.
+The [**Core Semantics**]({{ '/agenda/core-semantics/' | relative_url }}) surface records the language, structures, laws, grammars, and refusal boundaries the theory must earn.
 
-The [Recovery Requirements]({{ '/agenda/core-semantics/' | relative_url }}) record known structures the kernel must not break.
+The [**Problem Ledger**]({{ '/agenda/problem-ledger/' | relative_url }}) records open questions the program accepts as public stress tests.
 
-Kernel, Model & Reality asks a still deeper question: what sort of answer would make either ledger matter ontologically, rather than merely as a useful classificatory exercise?
+Kernel, Model & Reality asks a still deeper question: what sort of answer would make either surface matter ontologically, rather than merely as a useful classificatory exercise?
 
 ## The public standard
 
@@ -125,4 +125,4 @@ The standard is intentionally strict:
 
 The program may fail parts of this burden. If it does, the failure should be visible.
 
-For the Program-side positioning map across neighboring approaches, start with [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}). The pages in this Kernel, Model & Reality section remain the specialist Agenda route for no-externalities and ontic-status comparisons.
+For the general positioning map across neighboring approaches, use [Program > Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}). The pages in this section remain the specialist Agenda route for no-externalities and ontic-status comparisons.

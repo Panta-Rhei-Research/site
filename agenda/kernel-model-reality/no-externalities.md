@@ -31,15 +31,17 @@ right_rail:
       url: /agenda/kernel-model-reality/substrate-non-deferral/
     - title: "What the Program Refuses"
       url: /agenda/what-the-program-refuses/
-    - title: "Recovery Requirements"
+    - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Meta-Verification Frontier"
       url: /verify/meta-verification-frontier/
+    - title: "Technical Blueprint White Paper"
+      url: /publications/white-papers/building-a-public-research-observatory/
   meta:
     type: "Kernel Principle"
     scope: "Research Agenda"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why this principle matters
@@ -58,7 +60,7 @@ This does not mean the program has solved every boundary. It means unresolved bo
 
 {% include scientific-plate.html id="plate-14-ontic-closure-burden" class="scientific-plate--ontic-closure" loading="lazy" %}
 
-Ontic status is not asserted by slogan. The framework treats ontic status as a burden: no decisive externality may remain hidden as runtime, substrate, semantic load, or unspoken boundary.
+Ontic status is not asserted by slogan. The theory treats ontic status as a burden: no decisive externality may remain hidden as runtime, substrate, semantic load, or unspoken boundary.
 
 ## The six allowed treatments
 
