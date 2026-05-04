@@ -21,6 +21,29 @@ layout: default
   {% endif %}
 </header>
 
+{% comment %}
+  Bidirectional link to the paired Challenge Response page on the Results lane.
+  Permalink pattern: /results/challenge-responses/{domain}/{cluster}/{slug}/
+  Every canonical SCL item (mathematics/physics/life/metaphysics) ships with a
+  corresponding Challenge Response from Wave R5 of the SCL responses workstream.
+{% endcomment %}
+{% if page.domain and page.cluster and page.slug %}
+{% assign response_url = "/results/challenge-responses/" | append: page.domain | append: "/" | append: page.cluster | append: "/" | append: page.slug | append: "/" %}
+<section class="content-card" aria-labelledby="sc-response-link-heading">
+  <h2 id="sc-response-link-heading">Current τ response</h2>
+  <p>
+    See the paired
+    <a href="{{ response_url | relative_url }}"><strong>{{ page.title | default: page.short_title }} — Challenge Response</strong></a>
+    on the Results lane for the program's current response status, registry evidence, verification route, and external-review boundary.
+  </p>
+  {% if page.response_status %}
+  <p class="muted-note" style="font-size: 0.92rem; margin-top: 4px;">
+    Current status: <strong>{{ page.response_status | replace: "_", " " }}</strong>.
+  </p>
+  {% endif %}
+</section>
+{% endif %}
+
 {% if page.challenge_statement and page.challenge_statement != "" %}
 <section class="content-card" aria-labelledby="sc-statement-heading">
   <h2 id="sc-statement-heading">Challenge statement</h2>
