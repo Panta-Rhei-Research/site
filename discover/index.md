@@ -118,7 +118,7 @@ This is not a blog, not a monograph landing page, and not a documentation dump. 
 - **Program** explains identity, doctrine, scope, status, and why the public release is built as an inspection observatory.
 - **Agenda** states the obligations: Core Semantics, problem ledgers, answer-shape burden, refusals, and construction roadmap.
 - **Corpus** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.
-- **Results** is where the built Corpus becomes a world: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Additional Derived Results.
+- **Results** is where the built Corpus becomes a world: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Additional Derived Results.
 - **Verify** explains how claims can be checked, challenged, formalized, bridged, falsified, or audited.
 - **Impact** maps conditional consequences if the work holds.
 - **Engage** gives open scrutiny, participation, contact, and contribution routes.

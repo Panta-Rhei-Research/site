@@ -71,7 +71,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/problem-ledger-answers/physics/dark-energy/"
+    url: "/results/challenge-responses/physics/dark-energy/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -80,7 +80,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-matter"
     title: "Dark Matter"
-    url: "/results/problem-ledger-answers/physics/dark-matter/"
+    url: "/results/challenge-responses/physics/dark-matter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -115,8 +115,8 @@ No dark sector is possible: 5 generators exhaust all sectors. N_eff  3 falsifies
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/)
 - dark-energy
 - dark-matter
-- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
-- [Dark Matter](/results/problem-ledger-answers/physics/dark-matter/)
+- [Dark energy](/results/challenge-responses/physics/dark-energy/)
+- [Dark Matter](/results/challenge-responses/physics/dark-matter/)
 
 ## Reading role
 

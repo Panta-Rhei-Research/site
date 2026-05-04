@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-ultraluminous-x-ray-sources-ulxs"
     title: "Ultraluminous X-ray sources (ULXs)"
-    url: "/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/"
+    url: "/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -127,7 +127,7 @@ The neutron-to-electron mass ratio predicted by tau3 is: equation R_0 = iota_tau
 
 ## Related Results surfaces
 
-- [Ultraluminous X-ray sources (ULXs)](/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/)
+- [Ultraluminous X-ray sources (ULXs)](/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/)
 - [Chandrasekhar Mass Limit](/results/problem/chandrasekhar-mass-limit/)
 - [Electron Mass at 0.025 ppm: 10-Link Derivation from K0–K6](/results/problem/electron-mass-0025-ppm/)
 - [Electron Mass Precision](/results/problem/electron-mass-precision/)

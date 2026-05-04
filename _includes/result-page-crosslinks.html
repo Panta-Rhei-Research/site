@@ -41,7 +41,7 @@
 {%- assign problem_ledger_ids = page.problem_ledger_ids | default: entry.problem_ledger_ids -%}
 {%- if problem_ledger_ids and problem_ledger_ids.size > 0 -%}
 <aside class="result-problem-ledger-links">
-  <h2>Related Problem Answers</h2>
+  <h2>Related Challenge Responses</h2>
   <p>This generic Result page supports the exact Problem Answer mirror for the following public Problem Ledger item{% if problem_ledger_ids.size != 1 %}s{% endif %}:</p>
   <ul class="result-related-answer-list">
     {%- for problem_id in problem_ledger_ids -%}

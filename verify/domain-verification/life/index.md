@@ -18,7 +18,7 @@ right_rail:
     - title: "Life Core Semantics"
       url: /agenda/core-semantics/life/
     - title: "Origin of Life Problem Answer"
-      url: /results/problem-ledger-answers/life/origin-of-life/
+      url: /results/challenge-responses/life/origin-of-life/
     - title: "Assessment Protocols"
       url: /verify/assessment-protocols/
     - title: "How to Verify (Philosopher)"

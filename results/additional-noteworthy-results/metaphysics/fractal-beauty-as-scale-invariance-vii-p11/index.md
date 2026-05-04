@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-meta-qualia"
     title: "Qualia"
-    url: "/results/problem-ledger-answers/metaphysics-philosophy/qualia/"
+    url: "/results/challenge-responses/metaphysics-philosophy/qualia/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -57,7 +57,7 @@ Self-similarity and scale invariance are aesthetic principles; fractal structure
 
 ## Related Results surfaces
 
-- [Qualia](/results/problem-ledger-answers/metaphysics-philosophy/qualia/)
+- [Qualia](/results/challenge-responses/metaphysics-philosophy/qualia/)
 
 ## Reading role
 

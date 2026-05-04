@@ -10,9 +10,9 @@ This repository contains the Jekyll source that builds the public observatory at
 
 - **Discover** — first-contact orientation.
 - **Program** — identity, doctrine, scope, status, and scrutiny posture.
-- **Agenda** — obligations: Core Semantics, Problem Ledger, Kernel/Model/Reality, and Construction Roadmap.
+- **Agenda** — obligations: Core Semantics, Structural Challenge Ledger, Kernel/Model/Reality, and Construction Roadmap.
 - **Corpus** — construction body: Construction Spine, Registry, TauLib projection, books, and dependency graph.
-- **Results** — consequence layer: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
+- **Results** — consequence layer: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
 - **Verify** — inspection routes: formalization, construction-step verification, bridge checks, predictions, falsification, release manifest, and assessment protocols.
 - **Impact** — conditional public relevance if the work survives inspection.
 - **Engage** — structured scrutiny, correction, contribution, communication, and participation without requiring endorsement.

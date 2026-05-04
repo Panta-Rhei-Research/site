@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-matter"
     title: "Dark Matter"
-    url: "/results/problem-ledger-answers/physics/dark-matter/"
+    url: "/results/challenge-responses/physics/dark-matter/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -58,7 +58,7 @@ The tau-native Jeans wavelength lambda_J^tau = c_s sqrt(pi/(G rho)) (1 + r/(2 el
 
 ## Related Results surfaces
 
-- [Dark Matter](/results/problem-ledger-answers/physics/dark-matter/)
+- [Dark Matter](/results/challenge-responses/physics/dark-matter/)
 
 ## Reading role
 

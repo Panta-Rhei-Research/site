@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-constant-problem"
     title: "Cosmological constant problem"
-    url: "/results/problem-ledger-answers/physics/cosmological-constant-problem/"
+    url: "/results/challenge-responses/physics/cosmological-constant-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -38,7 +38,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/problem-ledger-answers/physics/dark-energy/"
+    url: "/results/challenge-responses/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -141,8 +141,8 @@ Dark matter does not exist: the five sectors exhaust the generator budget and no
 
 ## Related Results surfaces
 
-- [Cosmological constant problem](/results/problem-ledger-answers/physics/cosmological-constant-problem/)
-- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
+- [Cosmological constant problem](/results/challenge-responses/physics/cosmological-constant-problem/)
+- [Dark energy](/results/challenge-responses/physics/dark-energy/)
 - [Dark Energy Equation of State](/results/problem/dark-energy-equation-of-state/)
 - [Dark Sector Closure](/results/problem/dark-sector-closure/)
 - [Vacuum Catastrophe Framework Account](/results/problem/vacuum-catastrophe-resolution/)

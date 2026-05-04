@@ -44,7 +44,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-neutrino-mass"
     title: "Neutrino mass"
-    url: "/results/problem-ledger-answers/physics/neutrino-mass/"
+    url: "/results/challenge-responses/physics/neutrino-mass/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -53,7 +53,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-reactor-antineutrino-anomaly"
     title: "Reactor antineutrino anomaly"
-    url: "/results/problem-ledger-answers/physics/reactor-antineutrino-anomaly/"
+    url: "/results/challenge-responses/physics/reactor-antineutrino-anomaly/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -85,8 +85,8 @@ Neutrino oscillations---the change of flavour during propagation (_e _ _ )---ari
 
 - neutrino-mass
 - reactor-antineutrino-anomaly
-- [Neutrino mass](/results/problem-ledger-answers/physics/neutrino-mass/)
-- [Reactor antineutrino anomaly](/results/problem-ledger-answers/physics/reactor-antineutrino-anomaly/)
+- [Neutrino mass](/results/challenge-responses/physics/neutrino-mass/)
+- [Reactor antineutrino anomaly](/results/challenge-responses/physics/reactor-antineutrino-anomaly/)
 
 ## Reading role
 

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-solar-cycle"
     title: "Solar cycle"
-    url: "/results/problem-ledger-answers/physics/solar-cycle/"
+    url: "/results/challenge-responses/physics/solar-cycle/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -56,7 +56,7 @@ The magnetic component F_B = q v x B is perpendicular to velocity, so F_B dot v 
 
 ## Related Results surfaces
 
-- [Solar cycle](/results/problem-ledger-answers/physics/solar-cycle/)
+- [Solar cycle](/results/challenge-responses/physics/solar-cycle/)
 
 ## Reading role
 

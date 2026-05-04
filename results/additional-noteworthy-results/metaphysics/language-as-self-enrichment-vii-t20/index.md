@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-meta-cognition-and-ai"
     title: "Cognition and AI"
-    url: "/results/problem-ledger-answers/metaphysics-philosophy/cognition-and-ai/"
+    url: "/results/challenge-responses/metaphysics-philosophy/cognition-and-ai/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -80,7 +80,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-neuroscience-language-acquisition"
     title: "Language acquisition"
-    url: "/results/problem-ledger-answers/life/language-acquisition/"
+    url: "/results/challenge-responses/life/language-acquisition/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -89,7 +89,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-biology-language"
     title: "Language"
-    url: "/results/problem-ledger-answers/life/language/"
+    url: "/results/challenge-responses/life/language/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -119,14 +119,14 @@ Language is the self-enrichment of the subsymbolic layer; system acquires capaci
 
 ## Related Results surfaces
 
-- [Cognition and AI](/results/problem-ledger-answers/metaphysics-philosophy/cognition-and-ai/)
+- [Cognition and AI](/results/challenge-responses/metaphysics-philosophy/cognition-and-ai/)
 - [AI Language Understanding](/results/problem/ai-language-understanding/)
 - [Consciousness Across E1–E3](/results/problem/consciousness-across-e1-e3/)
 - [Layer Separation: SelfDesc Is Unavailable at E₁](/results/problem/layer-separation/)
 - language
 - language-acquisition
-- [Language acquisition](/results/problem-ledger-answers/life/language-acquisition/)
-- [Language](/results/problem-ledger-answers/life/language/)
+- [Language acquisition](/results/challenge-responses/life/language-acquisition/)
+- [Language](/results/challenge-responses/life/language/)
 
 ## Reading role
 

@@ -18,7 +18,7 @@ hero_ctas:
     url: /agenda/kernel-model-reality/
 right_rail:
   related:
-    - title: "Problem Ledger"
+    - title: "Structural Challenge Ledger"
       url: /agenda/problem-ledger/
     - title: "Core Semantics"
       url: /agenda/core-semantics/

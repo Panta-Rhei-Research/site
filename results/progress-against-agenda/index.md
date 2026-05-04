@@ -6,10 +6,10 @@ v2_lane: results
 permalink: /results/progress-against-agenda/
 type: "Result Index"
 status: "Canonical"
-summary_short: "Dashboard view of the program's current public status against declared Problem Ledger and Core Semantics obligations."
+summary_short: "Dashboard view of the program's current public status against declared Structural Challenge Ledger and Core Semantics obligations."
 summary_cards:
   - title: "Agenda mirror"
-    body: "Aggregates public Problem Ledger and Core Semantics status without replacing the detailed mirrors."
+    body: "Aggregates public Structural Challenge Ledger and Core Semantics status without replacing the detailed mirrors."
   - title: "Full public ledger"
     body: "All promoted Problem Ledger v1.0 items plus forty-five Core Semantics / Recovery items."
   - title: "Status discipline"
@@ -18,8 +18,8 @@ right_rail:
   related:
     - title: "Agenda"
       url: /agenda/
-    - title: "Problem Answers"
-      url: /results/problem-ledger-answers/
+    - title: "Challenge Responses"
+      url: /results/challenge-responses/
     - title: "Core Semantics Status"
       url: /results/core-semantics-status/
     - title: "Verify"
