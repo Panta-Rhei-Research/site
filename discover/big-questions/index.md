@@ -10,7 +10,7 @@ summary_short: "A first-pass map of the major question families that structure t
 tags:
   - discover
   - research-agenda
-  - problem-ledger
+  - structural-challenge-ledger
   - core-semantics
   - recovery-requirements
   - construction-roadmap
@@ -19,8 +19,10 @@ right_rail:
   related:
     - title: "Agenda"
       url: /agenda/
+    - title: "Structural Challenge Ledger"
+      url: /agenda/structural-challenge-ledger/
     - title: "Structural Challenge Ledger Source Policy"
-      url: /agenda/problem-ledger-source-policy/
+      url: /agenda/structural-challenge-ledger/source-policy/
     - title: "Core Semantics / Recovery"
       url: /agenda/core-semantics/
     - title: "Kernel, Model & Reality"
@@ -71,7 +73,7 @@ This page is not the full research agenda and not the full Results ledger. It is
 The questions are not left as broad prompts. They are organized through four Agenda surfaces:
 
 - **Core Semantics** — the language, structures, laws, and grammars the theory must earn before it can answer.
-- **Problem Ledger** — open and foundational stress-test questions the theory must be able to see, classify, address, reframe, or reject with reason.
+- **Structural Challenge Ledger** — canonical domain stress tests the theory must be able to see, classify, address, reframe, or refuse with reason.
 - **Kernel, Model & Reality** — the ontic-status burden, no-externalities discipline, diagrammatic access, and answer-shape requirements.
 - **Construction Roadmap** — the logical build-order required by the program's own goals.
 
@@ -80,7 +82,7 @@ The questions are not left as broad prompts. They are organized through four Age
 Use [Agenda]({{ '/agenda/' | relative_url }}) for the full research contract:
 
 - Use [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) for the language the theory must earn.
-- Use [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) for the stress-test questions.
+- Use [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/' | relative_url }}) for the canonical stress-test challenges.
 - Use [Kernel, Model & Reality]({{ '/agenda/kernel-model-reality/' | relative_url }}) for the answer-status and ontic burden.
 - Use [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }}) for the logical build-order.
 

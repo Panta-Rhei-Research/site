@@ -30,7 +30,7 @@ This is not the same as formal proof checking. A Lean theorem may verify an inte
 
 ## Current Use
 
-Problem Ledger v1.0 uses this page as the first-pass Verify route for mathematics items whose public status depends on transfer from an internal construction to a standard external problem statement.
+The Structural Challenge Ledger uses this page as the first-pass Verify route for mathematics challenges whose public status depends on transfer from an internal construction to a standard external problem statement.
 
 ## Where To Continue
 

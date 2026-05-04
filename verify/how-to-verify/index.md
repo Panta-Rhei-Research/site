@@ -73,7 +73,7 @@ This route does not replace expert review. It orients bounded inspection.
 <div class="v2-grid">
   <a class="v2-tile" href="{{ '/agenda/' | relative_url }}">
     <strong>Start from Agenda</strong>
-    <span>Check Core Semantics, the Problem Ledger, Kernel/Model/Reality burden, and the Construction Roadmap.</span>
+    <span>Check Core Semantics, the Structural Challenge Ledger, Kernel/Model/Reality burden, and the Construction Roadmap.</span>
   </a>
   <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}">
     <strong>Start from the Construction Spine</strong>
@@ -107,7 +107,7 @@ This route does not replace expert review. It orients bounded inspection.
 ## First-pass inspection checklist
 
 1. Is the scope and burden of proof explicit?
-2. Are the Problem Ledger and source-policy rules visible?
+2. Are the Structural Challenge Ledger and source-policy rules visible?
 3. Are Core Semantics and answer-shape obligations stated separately from open problems?
 4. Is there a Construction Roadmap / Construction Spine?
 5. Is there a Corpus with stable IDs and dependency routes?
