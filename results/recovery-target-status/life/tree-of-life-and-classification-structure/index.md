@@ -1,56 +1,20 @@
 ---
-layout: "program-doc"
-title: "Tree-of-Life and Classification Structure"
-permalink: "/results/recovery-target-status/life/tree-of-life-and-classification-structure/"
-lane: "results"
-v2_lane: "results"
-type: "Recovery Target Status"
-status: "Canonical"
-summary_short: "Current Results-side recovery status for Tree-of-Life and Classification Structure."
-canonical_recovery_id: "LREC-L7"
+layout: redirect
+title: "Recovery Target Status (moved to Core Semantics Status) — life / tree-of-life-and-classification-structure"
+permalink: /results/recovery-target-status/life/tree-of-life-and-classification-structure/
+sitemap: false
+robots: noindex,follow
+redirect_to: /results/core-semantics-status/life/tree-of-life-and-classification-structure/
+summary_short: "Public-facing route renamed in v4. Recovery Target Status is now Core Semantics Status."
+lane: results
+v2_lane: results
+type: "Compatibility Route"
+status: "Compatibility"
 ---
 
-<div class="notice note"><strong>Status note.</strong> This page reports current recovery status. It does not imply external acceptance unless explicitly stated.</div>
+This page has moved to [/results/core-semantics-status/life/tree-of-life-and-classification-structure/](/results/core-semantics-status/life/tree-of-life-and-classification-structure/).
 
-## Status Separation
+If you are not redirected automatically, follow the link above.
 
-- Internal status: **Partial**
-- Verification state: **Pending life verification**
-- External status: **Not externally reviewed**
-
-## Requirement
-
-Tree-of-Life and Classification Structure
-
-## Current Recovery Status
-
-- Recovery status: **Partial**
-- Verification status: **Pending life verification**
-- Program ledger item: [LREC-L7](/agenda/core-semantics/life/tree-of-life-and-classification-structure/)
-- Verification mode: `life_structural_recovery_target`
-
-## Result Summary
-
-Detailed result summary pending.
-
-## Related Result Items
-
-- Granular Result mapping pending.
-
-## Related Corpus Construction Steps
-
-- Construction Spine mapping pending.
-
-## Related Verify Surfaces
-
-- verify-domain-life
-
-## What This Status Does Not Yet Establish
-
-- External acceptance is not implied by this status.
-
-## Projection Metadata
-
-- Generated from: `corpus/recovery-requirements`
-- Projection version: `v0.1`
-- Do not edit generated projection: `True`
+<script>window.location.replace('/results/core-semantics-status/life/tree-of-life-and-classification-structure/');</script>
+<noscript><meta http-equiv="refresh" content="0; url=/results/core-semantics-status/life/tree-of-life-and-classification-structure/"></noscript>

@@ -42,7 +42,7 @@ Every life-sector empirical correlate inherits its observable signature from thi
     <span>The K_χ-rooted multi-branch tree (chirality / energy / information / temporal / phenomenal).</span>
   </a>
 
-  <a class="v2-tile" href="{{ '/results/recovery-target-status/life/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/results/core-semantics-status/life/' | relative_url }}">
     <strong>Recovery Targets</strong>
     <span>Life-sector recovery requirements — known structures the kernel must rederive.</span>
   </a>

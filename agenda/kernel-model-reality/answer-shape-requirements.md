@@ -36,7 +36,7 @@ right_rail:
       url: /publications/white-papers/the-shape-of-a-theory-of-reality/
   meta:
     type: "Kernel Criterion"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "May 2026"
 ---

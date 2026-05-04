@@ -39,7 +39,7 @@ right_rail:
       url: /publications/white-papers/building-a-public-research-observatory/
   meta:
     type: "Kernel Principle"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "May 2026"
 ---

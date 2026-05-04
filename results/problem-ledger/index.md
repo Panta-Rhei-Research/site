@@ -34,7 +34,7 @@ right_rail:
     type: "Compatibility Bridge"
     scope: "Problem-facing results"
     status: "Compatibility"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign results = site.data.results.results %}
@@ -49,7 +49,7 @@ The Program-side [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}
 
 The current site still exposes the full crawlable [Browse All Results]({{ '/results/browse/' | relative_url }}) catalogue. This page is now a compatibility bridge to the [Problem Answers]({{ '/results/problem-ledger-answers/' | relative_url }}) mirror.
 
-Recovery-facing burden tracking belongs to the Program-side [Recovery Requirements]({{ '/agenda/core-semantics/' | relative_url }}) ledger.
+Core Semantics burden tracking belongs to the Program-side [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) ledger.
 
 ## Current status distribution
 

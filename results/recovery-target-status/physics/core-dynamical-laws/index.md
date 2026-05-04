@@ -1,59 +1,20 @@
 ---
-layout: "program-doc"
-title: "Core Dynamical Laws"
-permalink: "/results/recovery-target-status/physics/core-dynamical-laws/"
-lane: "results"
-v2_lane: "results"
-type: "Recovery Target Status"
-status: "Canonical"
-summary_short: "Current Results-side recovery status for Core Dynamical Laws."
-canonical_recovery_id: "PREC-P5"
+layout: redirect
+title: "Recovery Target Status (moved to Core Semantics Status) — physics / core-dynamical-laws"
+permalink: /results/recovery-target-status/physics/core-dynamical-laws/
+sitemap: false
+robots: noindex,follow
+redirect_to: /results/core-semantics-status/physics/core-dynamical-laws/
+summary_short: "Public-facing route renamed in v4. Recovery Target Status is now Core Semantics Status."
+lane: results
+v2_lane: results
+type: "Compatibility Route"
+status: "Compatibility"
 ---
 
-<div class="notice note"><strong>Status note.</strong> This page reports current recovery status. It does not imply external acceptance unless explicitly stated.</div>
+This page has moved to [/results/core-semantics-status/physics/core-dynamical-laws/](/results/core-semantics-status/physics/core-dynamical-laws/).
 
-## Status Separation
+If you are not redirected automatically, follow the link above.
 
-- Internal status: **Partial**
-- Verification state: **Pending physics verification**
-- External status: **Not externally reviewed**
-
-## Requirement
-
-Core Dynamical Laws
-
-## Current Recovery Status
-
-- Recovery status: **Partial**
-- Verification status: **Pending physics verification**
-- Program ledger item: [PREC-P5](/agenda/core-semantics/physics/core-dynamical-laws/)
-- Verification mode: `law_family_recovery`
-
-## Result Summary
-
-Detailed result summary pending.
-
-## Related Result Items
-
-- [World Readout: Physics](/results/world-readout/physics/)
-- [Numerical Physics Ledger](/publications/numerical-physics-ledger/)
-
-## Related Corpus Construction Steps
-
-- [Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)
-- [Measurement Empirical Bridges](/corpus/construction-spine/measurement-empirical-bridges/)
-
-## Related Verify Surfaces
-
-- [Domain Verification: Physics](/verify/domain-verification/physics/)
-- [Predictions And Falsification](/verify/predictions-and-falsification/)
-
-## What This Status Does Not Yet Establish
-
-- External acceptance is not implied by this status.
-
-## Projection Metadata
-
-- Generated from: `corpus/recovery-requirements`
-- Projection version: `v0.1`
-- Do not edit generated projection: `True`
+<script>window.location.replace('/results/core-semantics-status/physics/core-dynamical-laws/');</script>
+<noscript><meta http-equiv="refresh" content="0; url=/results/core-semantics-status/physics/core-dynamical-laws/"></noscript>

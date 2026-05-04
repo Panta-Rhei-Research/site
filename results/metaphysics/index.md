@@ -42,7 +42,7 @@ What it has instead is an architectural backbone: the four canonical readout reg
     <span>The Reg_E/P/D/C register backbone + OR1–OR6 narrowing principles. No empirical anchor — categorical-only.</span>
   </a>
 
-  <a class="v2-tile" href="{{ '/results/recovery-target-status/metaphysics/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/results/core-semantics-status/metaphysics/' | relative_url }}">
     <strong>Recovery Targets</strong>
     <span>Metaphysics-sector recovery requirements — categorical structures the kernel must rederive.</span>
   </a>

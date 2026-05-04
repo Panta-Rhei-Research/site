@@ -11,7 +11,7 @@ status: "Canonical"
 summary_short: "The public burden of the program: what must be asked, carried, built, refused, answered, and left open."
 og_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
 twitter_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
-og_image_alt: "Scientific plate showing the Research Agenda as the public obligation layer of the Panta Rhei Research Program."
+og_image_alt: "Scientific plate showing the Agenda as the public obligation layer of the Panta Rhei Research Program."
 summary_cards:
   - title: "Core Semantics"
     body: "The language, structures, laws, grammars, and refusal boundaries the theory must earn before it can answer."
@@ -126,10 +126,10 @@ If you are new to the program, read the Agenda in this order:
 
 {% include scientific-plate.html id="plate-02-from-obligation-to-inspection" class="scientific-plate--spine" loading="lazy" %}
 
-The Research Agenda is the obligation layer. It states the burdens the program accepts before Results are allowed to sound like consequences.
+The Agenda is the obligation layer. It states the burdens the program accepts before Results are allowed to sound like consequences.
 
 <div class="btn-group section-ctas">
-  <a class="btn-secondary" href="{{ '/agenda/' | relative_url }}">Read the Research Agenda</a>
+  <a class="btn-secondary" href="{{ '/agenda/' | relative_url }}">Read the Agenda</a>
   <a class="btn-ghost" href="{{ '/corpus/construction-spine/' | relative_url }}">Follow the Construction Spine</a>
   <a class="btn-ghost" href="{{ '/results/progress-against-agenda/' | relative_url }}">See Progress Against Agenda</a>
   <a class="btn-ghost" href="{{ '/verify/construction-spine-verification/' | relative_url }}">Verify the Construction Spine</a>
@@ -141,7 +141,7 @@ The program asks whether a constrained kernel can support a coherent theory of r
 
 A serious candidate kernel must also be held against open problems: places where current knowledge does not yet close.
 
-For this reason, the Research Agenda uses external public problem ledgers as stress tests. The goal is not to cherry-pick convenient targets, but to ask whether the kernel can express, classify, constrain, answer, defer, or reject major open problems in a principled way.
+For this reason, the Agenda uses external public problem ledgers as stress tests. The goal is not to cherry-pick convenient targets, but to ask whether the kernel can express, classify, constrain, answer, defer, or reject major open problems in a principled way.
 
 <table class="domain-ledger-rules">
   <caption>Problem Ledger domain source rules</caption>
@@ -209,7 +209,7 @@ It is not a project timeline. It explains why the program must define the kernel
 
 ## Agenda pillars
 
-The pillar pages provide the detailed machinery behind the Research Agenda.
+The pillar pages provide the detailed machinery behind the Agenda.
 
 <ol class="v2-grid v2-card-list">
   <li>
@@ -263,7 +263,7 @@ The pillar pages provide the detailed machinery behind the Research Agenda.
   <li>
     <a class="v2-tile" href="{{ '/agenda/construction-roadmap/' | relative_url }}">
       <strong>Construction Roadmap</strong>
-      <span>The logical build-order that follows from the Research Agenda's own obligations.</span>
+      <span>The logical build-order that follows from the Agenda's own obligations.</span>
     </a>
   </li>
   <li>

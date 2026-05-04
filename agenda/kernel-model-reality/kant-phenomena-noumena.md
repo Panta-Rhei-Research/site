@@ -32,7 +32,7 @@ right_rail:
       url: /agenda/core-semantics/metaphysics/
   meta:
     type: "Kernel Boundary"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "May 2026"
 ---

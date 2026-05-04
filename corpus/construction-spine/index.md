@@ -51,7 +51,7 @@ right_rail:
 
 ## What this spine is
 
-The Construction Spine is the Corpus-side realization of the Research Agenda's Construction Roadmap. It shows how the Corpus is built step by step: from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.
+The Construction Spine is the Corpus-side realization of the Agenda's Construction Roadmap. It shows how the Corpus is built step by step: from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.
 
 ## From kernel to ontic closure
 

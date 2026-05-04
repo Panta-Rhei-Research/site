@@ -36,7 +36,7 @@ right_rail:
       url: /publications/white-papers/the-shape-of-a-theory-of-reality/
   meta:
     type: "Kernel Criterion"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "May 2026"
 ---
@@ -49,7 +49,7 @@ A model may organize data, compress theory, predict observations, or provide ele
 
 ## Model, phenomenon, and ontic structure
 
-The page uses three distinctions throughout the Research Agenda:
+The page uses three distinctions throughout the Agenda:
 
 - **Model:** an organized representational or formal structure.
 - **Phenomenon:** what is available through experience, measurement, practice, and disciplined inquiry.

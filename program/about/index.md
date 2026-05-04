@@ -22,7 +22,7 @@ right_rail:
     url: /program/about/why-this-program-exists/
   - title: Research Aim & Desiderata
     url: /agenda/research-aim-and-desiderata/
-  - title: Research Agenda
+  - title: Agenda
     url: /agenda/
   - title: Scope, Status & Scrutiny
     url: /program/about/scope-status-and-scrutiny/

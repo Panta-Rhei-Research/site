@@ -16,7 +16,7 @@ summary_cards:
   - title: "Construction spine"
     body: "The public build-order narrative traces the Corpus through ten canonical construction steps."
   - title: "Public projections"
-    body: "Results, publications, verification, and TauLib are projections of the corpus."
+    body: "The Corpus appears through Construction Spine, Monograph Corpus, Registry, TauLib, Corpus Graph, Results, Verify, and Publications as distinct public surfaces."
 hero_ctas:
   - label: "Follow the Construction Spine"
     url: /corpus/construction-spine/
@@ -58,7 +58,7 @@ right_rail:
   meta:
     type: "Lane Root"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What the corpus is
@@ -117,17 +117,6 @@ The first three construction steps now have a dedicated reviewer route: eight fo
 ## Corpus projections
 
 The same construction body appears through several public projections:
-
-- **Construction Spine** — ten-step build order from kernel definition through ontic closure.
-- **Monograph Corpus** — seven-book narrative projection: Book → Part → Chapter summaries with registry anchors, TauLib links, and construction-step tags.
-- **Bi-Square Spine** — repeated proof-organizing diagram shape across algebraic, geometric, enriched, and computational lifts.
-- **Foundational Hinges** — reviewer stress-test route for the mathematical hinges behind Steps 1–3.
-- **Registry** — atomic object projection.
-- **TauLib** — formal Lean projection where available.
-- **Corpus Graph** — dependency projection.
-- **Results** — consequence surfaces.
-- **Verify** — inspection routes.
-- **Publications** — citable artifact and release shelf.
 
 <ul class="v2-grid v2-card-list">
   <li>

@@ -37,7 +37,7 @@ This is where it begins. Every numerical SI value in the [Physics cascade]({{ '/
     <span>The mathematics-domain readout: where foundational kernel claims meet the broader mathematical literature.</span>
   </a>
 
-  <a class="v2-tile" href="{{ '/results/recovery-target-status/mathematics/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/results/core-semantics-status/mathematics/' | relative_url }}">
     <strong>Recovery Targets</strong>
     <span>Mathematics-sector recovery requirements — known mathematical structures the kernel must rederive.</span>
   </a>

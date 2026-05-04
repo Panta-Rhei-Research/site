@@ -16,19 +16,19 @@ summary_cards:
     body: "Internal progress remains separate from verification state and external acceptance."
 right_rail:
   related:
-    - title: "Research Agenda"
+    - title: "Agenda"
       url: /agenda/
     - title: "Problem Answers"
       url: /results/problem-ledger-answers/
-    - title: "Recovery Target Status"
-      url: /results/recovery-target-status/
+    - title: "Core Semantics Status"
+      url: /results/core-semantics-status/
     - title: "Verify"
       url: /verify/
   meta:
     type: "Result Index"
     scope: "Agenda mirror"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign progress = site.data.agenda_progress["agenda-progress"] %}
@@ -60,7 +60,7 @@ Progress Against Agenda tracks current program stance against public obligations
 <div class="v2-grid">
   <div class="v2-tile">
     <strong>{{ total_count }} total public items</strong>
-    <span>{{ problems | size }} Problem Ledger items, {{ recovery_requirements | size }} Recovery Requirements, and {{ refusals | size }} Mathematical Refusals.</span>
+    <span>{{ problems | size }} Problem Ledger items, {{ recovery_requirements | size }} Core Semantics items, and {{ refusals | size }} Mathematical Refusals.</span>
   </div>
   <div class="v2-tile">
     <strong>{{ partial_answers | size }} partially addressed problems</strong>

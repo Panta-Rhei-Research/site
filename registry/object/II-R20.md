@@ -1,7 +1,7 @@
 ---
 layout: registry-object
 lane: registry
-title: II.R20 — Open Questions and Research Agenda
+title: II.R20 — Open Questions and Agenda
 permalink: /registry/object/II.R20/
 registry_id: II.R20
 object_type: remark
@@ -13,7 +13,7 @@ scope: established
 formalization: not_applicable
 lean_module: null
 lean_name: null
-summary: Open Questions and Research Agenda
+summary: Open Questions and Agenda
 depends_on:
 - II.T40
 depended_by: []

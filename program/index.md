@@ -9,7 +9,7 @@ status: "Canonical"
 summary_short: "The identity, doctrine, scope, status, and scrutiny posture of the research program."
 og_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
 twitter_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
-og_image_alt: "Scientific plate showing the Research Agenda as the public obligation layer of the Panta Rhei Research Program."
+og_image_alt: "Scientific plate showing the Agenda as the public obligation layer of the Panta Rhei Research Program."
 summary_cards:
   - title: "About the Program"
     body: "Identity, stewardship, current public status, and the scrutiny the program invites."
@@ -116,7 +116,7 @@ Panta Rhei is currently:
 - **[Related Approaches]({{ '/program/about/related-approaches/' | relative_url }})** positions the program among serious neighboring approaches without turning comparison into a takedown or priority claim.
 - **[Agenda]({{ '/agenda/' | relative_url }})** states the burden of proof: Core Semantics, Problem Ledger, Kernel/Model/Reality, and Construction Roadmap.
 - **[Corpus]({{ '/corpus/' | relative_url }})** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.
-- **[Results]({{ '/results/' | relative_url }})** reports current program stances, landmark results, world readouts, Problem Ledger Answers, Recovery Target Status, Additional Derived Results, and Progress Against Agenda.
+- **[Results]({{ '/results/' | relative_url }})** reports current program stances, landmark results, world readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
 - **[Verify]({{ '/verify/' | relative_url }})** explains how obligations, construction steps, and results can be checked, challenged, formalized, bridged, or falsified.
 - **[Publications]({{ '/publications/' | relative_url }})** preserves the stable artifact and release shelf: research monographs, papers, notes, briefings, white papers, and release artifacts.
 - **[Impact]({{ '/impact/' | relative_url }})** maps conditional consequences if Results survive verification, translation, and domain uptake.

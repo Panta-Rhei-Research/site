@@ -1,56 +1,20 @@
 ---
-layout: "program-doc"
-title: "Ecology and Multi-Agent Coupling"
-permalink: "/results/recovery-target-status/life/ecology-and-multi-agent-coupling/"
-lane: "results"
-v2_lane: "results"
-type: "Recovery Target Status"
-status: "Canonical"
-summary_short: "Current Results-side recovery status for Ecology and Multi-Agent Coupling."
-canonical_recovery_id: "LREC-L8"
+layout: redirect
+title: "Recovery Target Status (moved to Core Semantics Status) — life / ecology-and-multi-agent-coupling"
+permalink: /results/recovery-target-status/life/ecology-and-multi-agent-coupling/
+sitemap: false
+robots: noindex,follow
+redirect_to: /results/core-semantics-status/life/ecology-and-multi-agent-coupling/
+summary_short: "Public-facing route renamed in v4. Recovery Target Status is now Core Semantics Status."
+lane: results
+v2_lane: results
+type: "Compatibility Route"
+status: "Compatibility"
 ---
 
-<div class="notice note"><strong>Status note.</strong> This page reports current recovery status. It does not imply external acceptance unless explicitly stated.</div>
+This page has moved to [/results/core-semantics-status/life/ecology-and-multi-agent-coupling/](/results/core-semantics-status/life/ecology-and-multi-agent-coupling/).
 
-## Status Separation
+If you are not redirected automatically, follow the link above.
 
-- Internal status: **Partial**
-- Verification state: **Pending life verification**
-- External status: **Not externally reviewed**
-
-## Requirement
-
-Ecology and Multi-Agent Coupling
-
-## Current Recovery Status
-
-- Recovery status: **Partial**
-- Verification status: **Pending life verification**
-- Program ledger item: [LREC-L8](/agenda/core-semantics/life/ecology-and-multi-agent-coupling/)
-- Verification mode: `life_structural_recovery_target`
-
-## Result Summary
-
-Detailed result summary pending.
-
-## Related Result Items
-
-- Granular Result mapping pending.
-
-## Related Corpus Construction Steps
-
-- Construction Spine mapping pending.
-
-## Related Verify Surfaces
-
-- verify-domain-life
-
-## What This Status Does Not Yet Establish
-
-- External acceptance is not implied by this status.
-
-## Projection Metadata
-
-- Generated from: `corpus/recovery-requirements`
-- Projection version: `v0.1`
-- Do not edit generated projection: `True`
+<script>window.location.replace('/results/core-semantics-status/life/ecology-and-multi-agent-coupling/');</script>
+<noscript><meta http-equiv="refresh" content="0; url=/results/core-semantics-status/life/ecology-and-multi-agent-coupling/"></noscript>

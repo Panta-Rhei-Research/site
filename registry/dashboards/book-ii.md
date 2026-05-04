@@ -1264,7 +1264,7 @@ Generated: 2026-03-10
     <tr>
       <th scope="row">II.R20</th>
       <td>remark</td>
-      <td>Open Questions and Research Agenda</td>
+      <td>Open Questions and Agenda</td>
       <td>estab</td>
       <td>—</td>
     </tr>

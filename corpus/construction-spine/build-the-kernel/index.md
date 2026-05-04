@@ -476,7 +476,7 @@ With the kernel's machinery, sub-structures, and visible failure points laid out
 
 ## 4. Why this matches the required answer-shape
 
-Step 1 is the construction's origin; it has no predecessors to glue to. Its admissibility is therefore evaluated against the Research Agenda's required answer-shape directly: *can the kernel be the foundation a categorical theory of mathematics, physics, life, reflection, and ontic closure rests on?*
+Step 1 is the construction's origin; it has no predecessors to glue to. Its admissibility is therefore evaluated against the Agenda's required answer-shape directly: *can the kernel be the foundation a categorical theory of mathematics, physics, life, reflection, and ontic closure rests on?*
 
 **No-externalities discipline.** The kernel does not import:
 

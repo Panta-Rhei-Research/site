@@ -22,7 +22,7 @@ hero_ctas:
 hero_supporting_line: "Static, inspectable, Pagefind-searchable, and organized around the v4 public research spine."
 og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
 twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
-og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
+og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Discover, Program, Agenda, Corpus, Results, Verify, Impact, and Engage."
 ---
 
 <section class="content-card homepage-section">
@@ -55,11 +55,11 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
     </a>
     <a class="v2-tile" href="{{ '/corpus/' | relative_url }}">
       <h3>Corpus</h3>
-      <p>The construction body of the theory: spine, map, monographs, registry, TauLib projection, and dependency graph.</p>
+      <p>The construction body of the theory: Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.</p>
     </a>
     <a class="v2-tile" href="{{ '/results/' | relative_url }}">
       <h3>Results</h3>
-      <p>Consequences: Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, and Progress Against Agenda.</p>
+      <p>Consequences: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Progress Against Agenda.</p>
     </a>
     <a class="v2-tile" href="{{ '/verify/' | relative_url }}">
       <h3>Verify</h3>
@@ -113,15 +113,15 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 <section class="content-card homepage-section">
   <p class="v2-kicker">How the system works</p>
   <h2>One research program, several public surfaces</h2>
-  <p>Agenda states the burden. Corpus carries the construction. Results presents current consequence surfaces. Verify exposes formal, empirical, bridge, and review routes. Publications crystallize selected surfaces into citable artifacts.</p>
+  <p>Agenda states the burden: Core Semantics, Problem Ledger, answer-shape discipline, refusals, and Construction Roadmap. Corpus carries the construction: Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph. Results presents current consequence surfaces: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Progress Against Agenda. Verify exposes formal, empirical, bridge, falsification, and assessment routes. Publications preserve the stable artifact and release shelf.</p>
   <div class="v2-system-strip">
-    <div class="v2-system-node"><strong>Agenda</strong>Problem ledgers, recovery requirements, answer-shape discipline, and construction roadmap.</div>
+    <div class="v2-system-node"><strong>Agenda</strong>Core Semantics, Problem Ledger, answer-shape discipline, refusals, and Construction Roadmap.</div>
     <div class="v2-system-node"><strong>Kernel</strong>Five generators, one operator, and K0-K6 axioms, with the foundational-hinge route.</div>
-    <div class="v2-system-node"><strong>Corpus</strong>{% include release-metric.html id="registry.registry_total.grand_total" %} registry objects, monograph drilldowns, construction spine, foundational hinges, and dependency graph.</div>
+    <div class="v2-system-node"><strong>Corpus</strong>Construction Spine, Monograph Corpus, Registry, foundational hinges, TauLib projection, and dependency graph.</div>
     <div class="v2-system-node"><strong>TauLib</strong>Pinned Lean&nbsp;4 formalization with {% include release-metric.html id="taulib.modules" %} modules, {% include release-metric.html id="taulib.sorry" %} sorry, and {% include release-metric.html id="taulib.custom_axioms" %} custom axioms in Book&nbsp;III bridge territory.</div>
-    <div class="v2-system-node"><strong>Results</strong>Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, and Progress Against Agenda.</div>
-    <div class="v2-system-node"><strong>Verify</strong>Release Manifest, audit routes, prediction timing, falsification pack, and TCB disclosure.</div>
-    <div class="v2-system-node"><strong>Publications</strong>Research Monographs, research papers, supplements, notes, briefings, white papers, release artifacts, and errata.</div>
+    <div class="v2-system-node"><strong>Results</strong>Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Progress Against Agenda.</div>
+    <div class="v2-system-node"><strong>Verify</strong>Release Manifest, inspection routes, prediction timing, falsification pack, and TCB disclosure.</div>
+    <div class="v2-system-node"><strong>Publications</strong>research monographs, research papers, supplements, notes, briefings, white papers, release artifacts, and errata.</div>
   </div>
 </section>
 
@@ -144,7 +144,7 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 
 <section class="content-card homepage-section">
   <p class="v2-kicker">World readout</p>
-  <h2>What the framework says follows, domain by domain</h2>
+  <h2>What the theory currently says follows, domain by domain</h2>
   <div class="v2-grid">
     <a class="v2-tile" href="{{ '/results/world-readout/mathematics/' | relative_url }}"><h3>Mathematics</h3><p>Foundations, holomorphy, spectral structure, and problem surfaces.</p></a>
     <a class="v2-tile" href="{{ '/results/world-readout/physics/' | relative_url }}"><h3>Physics</h3><p>Microcosm, macrocosm, constants, predictions, and falsification seams.</p></a>
@@ -156,7 +156,7 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 <section class="content-card homepage-section">
   <p class="v2-kicker">Artifacts and continuation</p>
   <h2>Artifacts & Releases</h2>
-  <p>The public release surface is not only the Research Monographs. It includes Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, TauLib, assessment protocols, Release Artifacts, and errata. The site makes those surfaces easier to find without turning the homepage into a catalogue.</p>
+  <p>The public release surface is not only the research monographs. It includes Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, TauLib, assessment protocols, Release Artifacts, and errata. The site makes those surfaces easier to find without turning the homepage into a catalogue.</p>
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
     <a class="btn-secondary" href="{{ '/publications/research-monographs/' | relative_url }}">Research Monographs</a>

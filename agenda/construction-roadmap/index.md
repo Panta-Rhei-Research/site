@@ -56,7 +56,7 @@ The Construction Roadmap states the build-order obligation. The Construction Spi
 
 ## Why construction order matters
 
-The other Research Agenda surfaces state what the program must face: Core Semantics, open problems, and the ontic-status burden. The Construction Roadmap explains how those burdens become a construction sequence.
+The other Agenda surfaces state what the program must face: Core Semantics, open problems, and the ontic-status burden. The Construction Roadmap explains how those burdens become a construction sequence.
 
 <div class="v2-system-strip" aria-label="Construction sequence across lanes">
   <a href="{{ '/agenda/construction-roadmap/' | relative_url }}">Agenda obligation</a>
@@ -84,7 +84,7 @@ The other Research Agenda surfaces state what the program must face: Core Semant
 
 ## How this roadmap appears in Corpus
 
-In the Research Agenda, the sequence names obligations: what must be built and why. In the [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}), the same sequence becomes the public construction narrative: what has been built, where it appears in the Registry, how TauLib touches it, and which publications narrate it.
+In the Agenda, the sequence names obligations: what must be built and why. In the [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}), the same sequence becomes the public construction narrative: what has been built, where it appears in the Registry, how TauLib touches it, and which publications narrate it.
 
 ## How this roadmap appears in Verify
 
