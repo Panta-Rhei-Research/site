@@ -1,61 +1,61 @@
 ---
 layout: program-doc
-title: "Mathematics Challenge Responses"
+title: Mathematics Challenge Responses
 permalink: /results/challenge-responses/mathematics/
 lane: results
 v2_lane: results
-type: "Result Index"
-status: "Canonical"
-summary_short: "Current τ responses to the Mathematics Structural Challenge Ledger."
+type: Result Index
+status: Canonical
+summary_short: Current τ responses to the Mathematics Structural Challenge Ledger — 38 canonical items across 3 clusters.
 right_rail:
   related:
-    - title: "Mathematics Structural Challenges"
-      url: /agenda/structural-challenge-ledger/mathematics/
-    - title: "Challenge Responses (all domains)"
-      url: /results/challenge-responses/
-    - title: "Mathematics Results"
-      url: /results/mathematics/
-    - title: "Foundational Hinges"
-      url: /corpus/foundational-hinges/
-    - title: "Verify the Construction Spine"
-      url: /verify/construction-spine-verification/
+  - title: Mathematics Structural Challenges
+    url: /agenda/structural-challenge-ledger/mathematics/
+  - title: Challenge Responses (all domains)
+    url: /results/challenge-responses/
+  - title: Mathematics Hub
+    url: /results/mathematics/
+  - title: TauLib
+    url: /corpus/taulib/
+  - title: Registry (Books I–III)
+    url: /corpus/registry/
   meta:
-    type: "Result Index"
-    scope: "Mathematics challenge responses"
-    status: "Canonical"
-    updated: "May 2026"
+    type: Result Index
+    scope: Mathematics challenge responses
+    status: Canonical
+    updated: May 2026
 ---
 
-> Current τ responses to the Mathematics Structural Challenge Ledger.
+> Mathematics — current τ responses to canonical mathematics structural challenges across canonical benchmarks (Clay), Smale-derived, and foundations & logic.
 
-This response surface mirrors the four families of the Mathematics [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/mathematics/' | relative_url }}):
+## Summary
 
-1. **Canonical benchmarks** — Clay 7, Langlands, the long-standing mathematical benchmarks that any theory of reality must speak to without claiming external resolution.
-2. **Smale-derived structural challenges** — selected items from Smale's problem list with structural relevance to τ-mathematics.
-3. **Foundations &amp; Logic** — the foundational and logical strength a coherent theory must earn.
-4. **τ-native challenge families** — challenges that arise from τ's own structural commitments.
+- **Total canonical items:** 38
+- **Clusters:** 3
+
+### Response status distribution
+
+| Status | Count |
+|---|---|
+| Structurally constrained | 18 |
+| Further investigation | 13 |
+| Partially addressed | 4 |
+| External recovery checkpoint | 3 |
+
+## Clusters
+
+| Cluster | Items | Browse |
+|---|---|---|
+| Canonical Benchmarks | 9 | [Browse →](/results/challenge-responses/mathematics/canonical-benchmarks/) |
+| Foundations Logic | 18 | [Browse →](/results/challenge-responses/mathematics/foundations-logic/) |
+| Smale Derived | 11 | [Browse →](/results/challenge-responses/mathematics/smale-derived/) |
 
 ## Status discipline
 
-An internally addressed τ response is **not** an externally accepted mathematical solution.
+A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does **not** imply external verification, scientific consensus, philosophical settlement, or final proof. Read each response together with its evidence route, registry references, verification status, and external-review boundary.
 
-Clay-style and Langlands-style claims preserve the distinction between τ-internal structures (which may be internally addressed via the categorical kernel, foundational hinges, and Mathlib-aligned proofs) and orthodox external problem settlement (which requires the external mathematical community's scrutiny).
+## See also
 
-## What this surface reports
-
-For each Mathematics structural challenge, the response page reports:
-
-- **Response status** — internally addressed, partially addressed, structurally constrained, further investigation, backlog, out of scope, or external recovery checkpoint
-- **Evidence route** — Construction Spine step, Registry anchors, TauLib modules, foundational hinges
-- **Verification route** — formal proof checking, bridge verification, foundational hinge review
-- **External-review boundary** — what would need external acceptance to count as orthodox resolution
-
-## Where to start
-
-- [Mathematics Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/mathematics/' | relative_url }}) — the obligation side
-- [Foundational Hinges]({{ '/corpus/foundational-hinges/' | relative_url }}) — the reviewer stress-test route for the first mathematical hinges
-- [How to Verify by Reviewer Role — Mathematician Route]({{ '/verify/how-to-verify-by-role/mathematician/' | relative_url }}) — the per-role inspection route
-
-## Migration note
-
-This page replaces the retired v1 Problem Ledger Answers / Mathematics surface. Token-level v1 Mathematics rows are archived where they map to canonical structural challenges, or excluded where they were imported without structural relevance.
+- [Mathematics Structural Challenge Ledger](/agenda/structural-challenge-ledger/mathematics/) — the obligation side
+- [Challenge Responses (all domains)](/results/challenge-responses/)
+- [Mathematics Hub](/results/mathematics/)
