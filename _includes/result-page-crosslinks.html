@@ -42,7 +42,7 @@
 {%- if problem_ledger_ids and problem_ledger_ids.size > 0 -%}
 <aside class="result-problem-ledger-links">
   <h2>Related Challenge Responses</h2>
-  <p>This generic Result page supports the exact Problem Answer mirror for the following public Problem Ledger item{% if problem_ledger_ids.size != 1 %}s{% endif %}:</p>
+  <p>This generic Result page is cross-referenced from the following Challenge Response{% if problem_ledger_ids.size != 1 %}s{% endif %} in the canonical <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>:</p>
   <ul class="result-related-answer-list">
     {%- for problem_id in problem_ledger_ids -%}
       {%- assign answer_page = site.data.problem_answers["problem-answers"] | where: "problem_ledger_id", problem_id | first -%}
@@ -50,15 +50,15 @@
       {%- if answer_page -%}
     <li>
       <a href="{{ answer_page.answer_url | relative_url }}">{{ answer_page.short_title | default: answer_page.title | default: problem_id }}</a>
-      <span class="chip chip-small">{{ answer_page.public_answer_status_label | default: "Problem Answer" }}</span>
+      <span class="chip chip-small">{{ answer_page.public_answer_status_label | default: "Challenge Response" }}</span>
       {%- if problem_page -%}
-      <span class="result-source-link">Source: <a href="{{ problem_page.url | relative_url }}">Problem Ledger item</a></span>
+      <span class="result-source-link">v1 source archive: <a href="{{ problem_page.url | relative_url }}">{{ problem_id }}</a></span>
       {%- endif -%}
     </li>
       {%- elsif problem_page -%}
     <li>
       <a href="{{ problem_page.url | relative_url }}">{{ problem_page.title | default: problem_id }}</a>
-      <span class="chip chip-small">Problem Answer pending</span>
+      <span class="chip chip-small">Challenge Response pending</span>
     </li>
       {%- else -%}
     <li><span class="chip">{{ problem_id }}</span></li>

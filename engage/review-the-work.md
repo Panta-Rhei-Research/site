@@ -109,7 +109,7 @@ A useful review is bounded: it names the page, artifact, result, note, proof rou
 
 You can review:
 
-- one Problem Ledger item;
+- one Structural Challenge or Challenge Response;
 - one Core Semantics / Recovery item;
 - one Construction Spine step;
 - one Result page;
@@ -165,7 +165,7 @@ Use email for private review reports, institutional review context, media-relate
     </tr>
   </thead>
   <tbody>
-    <tr><td>Problem Ledger item</td><td>Public Discussions or domain-specific review email</td></tr>
+    <tr><td>Structural Challenge / Challenge Response</td><td>Public Discussions or domain-specific review email</td></tr>
     <tr><td>Core Semantics / Recovery item</td><td>Public Discussions, then Verify or Results route if needed</td></tr>
     <tr><td>TauLib module</td><td>TauLib issue or pull request for concrete formalization changes</td></tr>
     <tr><td>Research Note</td><td>Research Notes discussion category, or errata route for corrections</td></tr>
