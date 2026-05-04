@@ -51,8 +51,8 @@ relations:
     - title: "CS-06 Measurement and Empirical Bridges"
       url: /corpus/construction-spine/measurement-empirical-bridges/
   results:
-    - title: "Dark Matter Problem Answer"
-      url: /results/problem-ledger-answers/physics/dark-matter/
+    - title: "Physics Challenge Responses"
+      url: /results/challenge-responses/physics/
     - title: "Prediction Browse"
       url: /results/predictions/browse/
   verify:
