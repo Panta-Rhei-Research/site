@@ -56,7 +56,7 @@ right_rail:
     type: "Engagement Route"
     scope: "Bounded review"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -73,7 +73,7 @@ tags:
 
 The program is large. A useful review should be bounded.
 
-Participation does not imply endorsement. A reviewer may help inspect one artifact, route, claim, module, status label, or correction path without endorsing the framework as a whole.
+Participation does not imply endorsement. A reviewer may help inspect one artifact, route, claim, module, status label, or correction path without endorsing the theory as a whole.
 
 ## Review without endorsement
 
@@ -81,11 +81,11 @@ Review is one form of structured attention.
 
 A useful review is bounded: it names the artifact, claim, result, note, construction step, proof route, or formalization surface being inspected.
 
-Participation does not imply endorsement. A reviewer may inspect one part of the program without accepting the framework as a whole.
+Participation does not imply endorsement. A reviewer may inspect one part of the program without accepting the theory as a whole.
 
 ## Review routes moved into Verify
 
-The former standalone reviewer kit has been folded into the observatory's native inspection routes.
+The former standalone Review Kit has been folded into the observatory's native inspection routes.
 
 Use:
 

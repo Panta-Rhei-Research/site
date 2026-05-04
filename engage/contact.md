@@ -38,7 +38,7 @@ right_rail:
   meta:
     type: "Contact"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -55,11 +55,15 @@ tags:
 
 We use topic-specific email aliases so your message reaches the right queue. Please pick the route that best matches your inquiry.
 
-Participation does not imply endorsement. Contact, critique, review, support, or collaboration should be understood as engagement under scrutiny, not as agreement with the framework. See [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}) for the program's public-accountability stance.
+Participation does not imply endorsement. Contact, critique, review, support, or collaboration should be understood as engagement under scrutiny, not as agreement with the theory or its conclusions. See [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}) for the program's public-accountability stance.
 
 For public questions, critique, review offers, and correction routing, use [Public Discussions]({{ '/engage/discussions/' | relative_url }}) first. Email is for private, institutional, media, sensitive, support, or non-public context.
 
 ## Before contacting us
+
+For orientation questions, first try [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}) or [Start Here]({{ '/discover/start-here/' | relative_url }}).
+
+For technical inspection, first consult [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}) and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
 
 Use public GitHub Discussions when your question, critique, or correction can help other readers.
 
@@ -83,7 +87,7 @@ Use Pull Requests when you are proposing a concrete change.
     <tr><td>Concrete publication artifact defect</td><td><a href="https://github.com/Panta-Rhei-Research/publications/issues">Publications Issues</a></td></tr>
     <tr><td>Concrete public research tooling defect</td><td><a href="https://github.com/Panta-Rhei-Research/research/issues">Research Issues</a></td></tr>
     <tr><td>Institutional review</td><td>Email</td></tr>
-    <tr><td>Domain review</td><td>GitHub Discussions or email</td></tr>
+    <tr><td>Bounded domain review</td><td>GitHub Discussions or structured review email</td></tr>
     <tr><td>Media request</td><td>Email</td></tr>
     <tr><td>Corrections or errata</td><td>GitHub Discussions, Issues, or email depending on sensitivity</td></tr>
     <tr><td>Support</td><td>Email</td></tr>
@@ -101,7 +105,7 @@ For journalists, editors, podcast hosts, and media professionals covering scienc
 
 ### Technical Inquiry
 
-For researchers, mathematicians, physicists, biologists, philosophers, and formal methods specialists with domain-specific questions about the framework, formalization, or specific claims.
+For researchers, mathematicians, physicists, biologists, philosophers, and formal methods specialists with domain-specific questions about the theory, formalization, or specific claims.
 
 **Email**: [hello@panta-rhei.site](mailto:hello@panta-rhei.site) - subject line: "Technical Inquiry"
 

@@ -9,7 +9,7 @@ permalink: /engage/critique-challenge/
 summary_short: "How to challenge the program rigorously through structural critique, derivation checks, falsification, and protocol-based review."
 summary_cards:
   - title: "No agreement required"
-    body: "The useful question is where the claim can be tested, not whether the reader already accepts the framework."
+    body: "The useful question is where the claim can be tested, not whether the reader already accepts the theory or its conclusions."
   - title: "Structured objections"
     body: "Critique works best when it names the exact claim, dependency, assumption, or prior-art overlap."
   - title: "Falsification paths"
@@ -30,7 +30,7 @@ right_rail:
     type: "Engagement Route"
     scope: "Critique"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -98,7 +98,7 @@ A useful challenge includes:
 
 - Public question, critique, review offer, or claim challenge: start in [Public Discussions]({{ '/engage/discussions/' | relative_url }}).
 - Formalization issue: open or reference the relevant [TauLib issue](https://github.com/Panta-Rhei-Research/taulib/issues) when possible.
-- Mathematical, physical, biological, or philosophical objection: use [Contact]({{ '/engage/contact/' | relative_url }}) with the subject line "Technical Inquiry" or "Peer Review".
+- Mathematical, physical, biological, or philosophical objection: use [Contact]({{ '/engage/contact/' | relative_url }}) with the subject line "Technical Inquiry" or "Structured Review / Technical Inspection".
 - Publication correction: use [Errata]({{ '/publications/errata/' | relative_url }}) and the errata contact route.
 - Public explainer or media challenge: use [Media]({{ '/engage/media/' | relative_url }}) or [Contact]({{ '/engage/contact/' | relative_url }}).
 

@@ -12,13 +12,13 @@ twitter_image: "/assets/images/plates/plate-09-engagement-without-endorsement-og
 og_image_alt: "Scientific plate showing the Engage lane as structured open-research engagement: read carefully, inspect claims, challenge weak links, review bounded areas, contribute infrastructure, communicate responsibly, open institutional dialogue, and support continuation without endorsement."
 summary_cards:
   - title: "Read carefully"
-    body: "Start with Discover, Program, Agenda, and Publications before judging isolated claims."
+    body: "Start with Discover, Program, Agenda, Corpus, and relevant Artifacts & Releases before judging isolated claims."
   - title: "Inspect claims"
     body: "Trace claims into Corpus, Results, Verify, TauLib, Release Manifest, and assessment protocols."
   - title: "Challenge weak links"
     body: "Use critique routes, falsification paths, source checks, and result-status challenges to identify what breaks."
   - title: "Review bounded areas"
-    body: "Offer focused review of one problem item, result, research note, TauLib module, briefing, or site surface."
+    body: "Offer focused review of one Problem Ledger item, Core Semantics / Recovery item, construction step, result, research note, TauLib module, briefing, or site surface."
 hero_ctas:
   - label: "Public Discussions"
     url: /engage/discussions/
@@ -56,7 +56,7 @@ right_rail:
     type: "Lane Root"
     scope: "Structured open-research engagement"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -105,7 +105,7 @@ Engagement does not require agreement. Participation does not imply endorsement.
     <article>
       <a class="v2-tile" href="{{ '/engage/read-explore/' | relative_url }}">
         <h3>Read Carefully</h3>
-        <p>Start with Discover, Program, Agenda, and Publications before judging isolated claims.</p>
+        <p>Start with Discover, Program, Agenda, Corpus, and relevant Artifacts & Releases before judging isolated claims.</p>
       </a>
     </article>
   </li>
@@ -129,7 +129,7 @@ Engagement does not require agreement. Participation does not imply endorsement.
     <article>
       <a class="v2-tile" href="{{ '/engage/review-the-work/' | relative_url }}">
         <h3>Review Bounded Areas</h3>
-        <p>Offer domain-specific review of a problem item, recovery target, result, research note, TauLib module, or briefing.</p>
+        <p>Offer focused review of one Problem Ledger item, Core Semantics / Recovery item, construction step, result, research note, TauLib module, briefing, or site surface.</p>
       </a>
     </article>
   </li>
@@ -206,5 +206,7 @@ These references are context, not authority claims. The program remains accounta
 ## Important Note
 
 This program does not require agreement. Participation does not imply endorsement. It invites structured engagement and scrutiny. For deeper context on claims and methods, see [Research Notes]({{ '/publications/research-notes/' | relative_url }}), [Results]({{ '/results/' | relative_url }}), [Verify]({{ '/verify/' | relative_url }}), and [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}).
+
+For a first-pass orientation prompt before public posting, use [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}). These prompts are discovery aids, not verification.
 
 *The right first question is not "should I already believe this?" It is "where can this be inspected, and what would count against it?"*

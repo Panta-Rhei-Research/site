@@ -22,12 +22,12 @@ right_rail:
       url: /engage/discussions/
     - title: "Read & Explore"
       url: /engage/read-explore/
-    - title: "About the Research"
+    - title: "About the Program"
       url: /program/about/
   meta:
     type: "Follow"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -42,7 +42,7 @@ tags:
 
 ## Receive Research Notes by Email
 
-The Panta Rhei Research Program publishes **Research Notes** — dated scholarly artifacts for responses to anchor papers, observational pre-registrations, framework-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers.
+The Panta Rhei Research Program publishes **Research Notes** — dated scholarly artifacts for responses to anchor papers, observational pre-registrations, theory- or construction-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers.
 
 Notes are published irregularly and only when there is something substantial to say. No marketing, no frequency pressure, no filler.
 

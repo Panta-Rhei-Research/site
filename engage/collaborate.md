@@ -30,7 +30,7 @@ right_rail:
     type: "Engagement Route"
     scope: "Collaboration"
     status: "Selective"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -54,7 +54,7 @@ The program is still early in its public life. For now, collaboration is selecti
 <div class="v2-grid">
   <a class="v2-tile" href="{{ '/engage/critique-challenge/' | relative_url }}">
     <h3>Research Dialogue</h3>
-    <p>Structured critique, review reports, domain checks, and prior-art mapping.</p>
+    <p>Structured critique, bounded review reports, domain checks, and prior-art mapping.</p>
   </a>
   <a class="v2-tile" href="{{ '/engage/for-engineering-contributors/' | relative_url }}">
     <h3>Engineering Contribution</h3>
@@ -64,9 +64,9 @@ The program is still early in its public life. For now, collaboration is selecti
     <h3>Seminars & Sessions</h3>
     <p>Future guided reading, domain-specific seminars, and verification sessions.</p>
   </a>
-  <a class="v2-tile" href="{{ '/impact/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/impact/impact-framework/' | relative_url }}">
     <h3>Public-Good Translation</h3>
-    <p>Careful translation from surviving results into conditional impact surfaces.</p>
+    <p>Conditional public-good translation work that names assumptions, verification dependencies, and domain-uptake requirements. Read through the Impact Framework.</p>
   </a>
 </div>
 
@@ -77,7 +77,7 @@ The most useful collaboration routes in the current phase are:
 - domain-specific review of a result, registry cluster, or publication artifact;
 - small TauLib or documentation pull requests;
 - institutional or seminar inquiries with a clear audience and purpose;
-- public-good translation work that explicitly names assumptions and verification dependencies.
+- conditional public-good translation work that names assumptions, verification dependencies, and domain-uptake requirements.
 
 Broad partnership proposals are welcome, but the most actionable message is usually narrow: identify the object, the role you can play, and the intended outcome.
 
@@ -85,7 +85,7 @@ Broad partnership proposals are welcome, but the most actionable message is usua
 
 Collaboration can be bounded.
 
-A reviewer, institution, formalizer, developer, editor, or domain expert may collaborate on a specific artifact, review route, correction, seminar, or infrastructure task without endorsing the framework as a whole.
+A reviewer, institution, formalizer, developer, editor, or domain expert may collaborate on a specific artifact, review route, correction, seminar, or infrastructure task without endorsing the theory as a whole.
 
 ## Collaboration modes
 

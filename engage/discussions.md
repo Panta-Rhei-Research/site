@@ -13,11 +13,11 @@ twitter_image: "/assets/images/plates/plate-09-engagement-without-endorsement-og
 og_image_alt: "Scientific plate showing the Engage lane as structured open-research engagement: read carefully, inspect claims, challenge weak links, review bounded areas, contribute infrastructure, communicate responsibly, open institutional dialogue, and support continuation without endorsement."
 summary_cards:
   - title: "Public questions"
-    body: "Ask orientation, framework, Research Agenda, Corpus, Results, Verify, and publication questions in public."
+    body: "Ask orientation, program, Agenda, Corpus, Results, Verify, and artifact questions in public."
   - title: "Structured critique"
     body: "Challenge claims by naming the exact page, artifact, claim, and failure condition."
   - title: "No endorsement required"
-    body: "Participation means engagement, not agreement with the framework."
+    body: "Participation means engagement, not agreement with the theory or its conclusions."
 right_rail:
   related:
     - title: "GitHub Discussions"
@@ -43,7 +43,7 @@ right_rail:
     type: "Engagement Route"
     scope: "Public discussion"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - discussions
@@ -85,8 +85,8 @@ Public questions, critique, review offers, and correction candidates belong in G
 Use GitHub Discussions for:
 
 - orientation questions;
-- framework questions;
-- Research Agenda questions;
+- program and theory questions;
+- Agenda questions;
 - Corpus and Construction Spine questions;
 - TauLib and formalization questions;
 - Results and World Readout questions;
@@ -96,6 +96,8 @@ Use GitHub Discussions for:
 - review offers;
 - errata candidates before they become formal issues;
 - public clarification requests.
+
+If you are unsure how to frame your question, use [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}) to generate a first-pass route recommendation, then post the specific page, claim, or question in GitHub Discussions.
 
 ## What belongs in issues
 
@@ -149,8 +151,8 @@ The GitHub discussion space is organized around the program's public research su
 
 - Announcements;
 - Start Here / Orientation;
-- Ask About the Framework;
-- Research Agenda;
+- Ask About the Program;
+- Agenda;
 - Corpus & Construction Spine;
 - TauLib / Formalization;
 - Results & World Readouts;
@@ -158,7 +160,7 @@ The GitHub discussion space is organized around the program's public research su
 - Research Notes;
 - Impact & Public-Good Briefings;
 - Corrections / Errata Candidates;
-- Review Offers / Domain Expertise;
+- Structured Review / Domain Expertise;
 - Meta / Infrastructure.
 
 ## Participation norm
