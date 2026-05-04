@@ -59,7 +59,7 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
     </a>
     <a class="v2-tile" href="{{ '/results/' | relative_url }}">
       <h3>Results</h3>
-      <p>Consequences: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Progress Against Agenda.</p>
+      <p>Consequences: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda.</p>
     </a>
     <a class="v2-tile" href="{{ '/verify/' | relative_url }}">
       <h3>Verify</h3>
@@ -113,13 +113,13 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 <section class="content-card homepage-section">
   <p class="v2-kicker">How the system works</p>
   <h2>One research program, several public surfaces</h2>
-  <p>Agenda states the burden: Core Semantics, Problem Ledger, answer-shape discipline, refusals, and Construction Roadmap. Corpus carries the construction: Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph. Results presents current consequence surfaces: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Progress Against Agenda. Verify exposes formal, empirical, bridge, falsification, and assessment routes. Publications preserve the stable artifact and release shelf.</p>
+  <p>Agenda states the burden: Core Semantics, Structural Challenge Ledger, answer-shape discipline, refusals, and Construction Roadmap. Corpus carries the construction: Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph. Results presents current consequence surfaces: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda. Verify exposes formal, empirical, bridge, falsification, and assessment routes. Publications preserve the stable artifact and release shelf.</p>
   <div class="v2-system-strip">
-    <div class="v2-system-node"><strong>Agenda</strong>Core Semantics, Problem Ledger, answer-shape discipline, refusals, and Construction Roadmap.</div>
+    <div class="v2-system-node"><strong>Agenda</strong>Core Semantics, Structural Challenge Ledger, answer-shape discipline, refusals, and Construction Roadmap.</div>
     <div class="v2-system-node"><strong>Kernel</strong>Five generators, one operator, and K0-K6 axioms, with the foundational-hinge route.</div>
     <div class="v2-system-node"><strong>Corpus</strong>Construction Spine, Monograph Corpus, Registry, foundational hinges, TauLib projection, and dependency graph.</div>
     <div class="v2-system-node"><strong>TauLib</strong>Pinned Lean&nbsp;4 formalization with {% include release-metric.html id="taulib.modules" %} modules, {% include release-metric.html id="taulib.sorry" %} sorry, and {% include release-metric.html id="taulib.custom_axioms" %} custom axioms in Book&nbsp;III bridge territory.</div>
-    <div class="v2-system-node"><strong>Results</strong>Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Progress Against Agenda.</div>
+    <div class="v2-system-node"><strong>Results</strong>Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda.</div>
     <div class="v2-system-node"><strong>Verify</strong>Release Manifest, inspection routes, prediction timing, falsification pack, and TCB disclosure.</div>
     <div class="v2-system-node"><strong>Publications</strong>research monographs, research papers, supplements, notes, briefings, white papers, release artifacts, and errata.</div>
   </div>

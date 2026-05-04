@@ -52,7 +52,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-generations-of-matter"
     title: "Generations of matter"
-    url: "/results/problem-ledger-answers/physics/generations-of-matter/"
+    url: "/results/challenge-responses/physics/generations-of-matter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms: []
@@ -84,7 +84,7 @@ Power-law framework m_q = A_q·ι_τ^β_q·m_n for all 6 quarks. Winding exponen
 - [Glueballs: Mass Gap = Minimum Glueball Mass](/results/problem/glueballs/)
 - [Individual Quark Masses](/results/problem/individual-quark-masses/)
 - generations-of-matter
-- [Generations of matter](/results/problem-ledger-answers/physics/generations-of-matter/)
+- [Generations of matter](/results/challenge-responses/physics/generations-of-matter/)
 
 ## Reading role
 

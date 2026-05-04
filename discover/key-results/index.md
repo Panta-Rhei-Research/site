@@ -41,7 +41,7 @@ right_rail:
 
 This page is the Discover entry into the Results lane's Landmark Results surface.
 
-This is not the full Results lane. It is a small, high-signal entry surface for readers who want to see landmark consequences before entering the full Results structure: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
+This is not the full Results lane. It is a small, high-signal entry surface for readers who want to see landmark consequences before entering the full Results structure: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
 
 Use [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}) if you want a structured outside-in assessment of these landmark result surfaces before reading in depth.
 

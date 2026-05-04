@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-neutrino-mass"
     title: "Neutrino mass"
-    url: "/results/problem-ledger-answers/physics/neutrino-mass/"
+    url: "/results/challenge-responses/physics/neutrino-mass/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -77,7 +77,7 @@ Bashinsky-Seljak neutrino phase shift φ_ν = 0.191π × N_eff/(N_eff+15/4). For
 
 ## Related Results surfaces
 
-- [Neutrino mass](/results/problem-ledger-answers/physics/neutrino-mass/)
+- [Neutrino mass](/results/challenge-responses/physics/neutrino-mass/)
 - [N13 — Effective neutrino number N_eff](/falsifications/n13-n-eff/)
 - [N6 — Sum of neutrino masses mν = 0.089 eV](/falsifications/n6-sum-of-neutrino-masses-m-0089/)
 

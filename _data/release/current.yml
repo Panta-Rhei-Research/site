@@ -211,7 +211,7 @@ metrics:
   unit: records
   display_value: '239'
   public_label: Problem Ledger answer records
-  scope: Problem Answers
+  scope: Challenge Responses
   source_repo: Panta-Rhei-Research/corpus
   source_commit: b866dae1a212b2ded72dd579791836b22f75853e
   source_path: exports/public/problem-answers.json

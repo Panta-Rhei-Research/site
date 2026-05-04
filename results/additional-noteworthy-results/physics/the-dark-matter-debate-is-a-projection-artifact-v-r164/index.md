@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/problem-ledger-answers/physics/dark-energy/"
+    url: "/results/challenge-responses/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -36,7 +36,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-matter"
     title: "Dark Matter"
-    url: "/results/problem-ledger-answers/physics/dark-matter/"
+    url: "/results/challenge-responses/physics/dark-matter/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -46,7 +46,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-galaxy-rotation-problem"
     title: "Galaxy rotation problem"
-    url: "/results/problem-ledger-answers/physics/galaxy-rotation-problem/"
+    url: "/results/challenge-responses/physics/galaxy-rotation-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -56,7 +56,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-strong-cp-problem-and-axions"
     title: "Strong CP problem and axions"
-    url: "/results/problem-ledger-answers/physics/strong-cp-problem-and-axions/"
+    url: "/results/challenge-responses/physics/strong-cp-problem-and-axions/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -66,7 +66,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-supersymmetry"
     title: "Supersymmetry"
-    url: "/results/problem-ledger-answers/physics/supersymmetry/"
+    url: "/results/challenge-responses/physics/supersymmetry/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -127,11 +127,11 @@ The dark matter debate is a projection artifact: the capacity gradient in the ta
 
 ## Related Results surfaces
 
-- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
-- [Dark Matter](/results/problem-ledger-answers/physics/dark-matter/)
-- [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
-- [Strong CP problem and axions](/results/problem-ledger-answers/physics/strong-cp-problem-and-axions/)
-- [Supersymmetry](/results/problem-ledger-answers/physics/supersymmetry/)
+- [Dark energy](/results/challenge-responses/physics/dark-energy/)
+- [Dark Matter](/results/challenge-responses/physics/dark-matter/)
+- [Galaxy rotation problem](/results/challenge-responses/physics/galaxy-rotation-problem/)
+- [Strong CP problem and axions](/results/challenge-responses/physics/strong-cp-problem-and-axions/)
+- [Supersymmetry](/results/challenge-responses/physics/supersymmetry/)
 - [Dark Sector Closure](/results/problem/dark-sector-closure/)
 - [Galaxy Rotation Curves without Dark Matter](/results/problem/galaxy-rotation-curves-without-dark-matter/)
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/)

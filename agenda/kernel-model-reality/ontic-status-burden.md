@@ -28,7 +28,7 @@ right_rail:
       url: /agenda/kernel-model-reality/kant-phenomena-noumena/
     - title: "Core Semantics"
       url: /agenda/core-semantics/
-    - title: "Problem Ledger"
+    - title: "Structural Challenge Ledger"
       url: /agenda/problem-ledger/
     - title: "How to Verify"
       url: /verify/how-to-verify/

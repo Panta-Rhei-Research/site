@@ -19,7 +19,7 @@ right_rail:
   related:
     - title: "Agenda"
       url: /agenda/
-    - title: "Problem Ledger Source Policy"
+    - title: "Structural Challenge Ledger Source Policy"
       url: /agenda/problem-ledger-source-policy/
     - title: "Core Semantics / Recovery"
       url: /agenda/core-semantics/

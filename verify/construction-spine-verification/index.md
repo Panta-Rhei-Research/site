@@ -203,7 +203,7 @@ Use the [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_
 
 ## Related Results and Progress Dashboard
 
-Use [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) to see how public Problem Ledger and Core Semantics obligations currently map to Results-side status surfaces.
+Use [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) to see how public Structural Challenge Ledger and Core Semantics obligations currently map to Results-side status surfaces.
 
 ## Related Assessment Protocols
 

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-ultraluminous-x-ray-sources-ulxs"
     title: "Ultraluminous X-ray sources (ULXs)"
-    url: "/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/"
+    url: "/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -57,7 +57,7 @@ For every baryon count n and sector index k: Star_n(k) exists (NF iteration conv
 
 ## Related Results surfaces
 
-- [Ultraluminous X-ray sources (ULXs)](/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/)
+- [Ultraluminous X-ray sources (ULXs)](/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/)
 
 ## Reading role
 

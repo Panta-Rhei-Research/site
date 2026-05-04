@@ -34,7 +34,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-color-confinement"
     title: "Color confinement"
-    url: "/results/problem-ledger-answers/physics/color-confinement/"
+    url: "/results/challenge-responses/physics/color-confinement/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms: []
@@ -64,7 +64,7 @@ This is a public Results-lane surface for a noteworthy Physics Registry item. It
 ## Related Results surfaces
 
 - color-confinement
-- [Color confinement](/results/problem-ledger-answers/physics/color-confinement/)
+- [Color confinement](/results/challenge-responses/physics/color-confinement/)
 
 ## Reading role
 

@@ -28,7 +28,7 @@ right_rail:
   related:
     - title: "Core Semantics"
       url: /agenda/core-semantics/
-    - title: "Problem Ledger"
+    - title: "Structural Challenge Ledger"
       url: /agenda/problem-ledger/
     - title: "Result Criteria"
       url: /agenda/result-criteria/

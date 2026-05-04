@@ -38,7 +38,7 @@ Guided Tours are structured reading and inspection routes for different levels o
   </a>
   <a class="v2-tile" href="{{ '/agenda/' | relative_url }}">
     <h3>Program Tour</h3>
-    <p>Program doctrine, Agenda, Core Semantics, Problem Ledger, Kernel/Model/Reality, and Construction Roadmap.</p>
+    <p>Program doctrine, Agenda, Core Semantics, Structural Challenge Ledger, Kernel/Model/Reality, and Construction Roadmap.</p>
   </a>
   <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}">
     <h3>Corpus Tour</h3>
@@ -46,7 +46,7 @@ Guided Tours are structured reading and inspection routes for different levels o
   </a>
   <a class="v2-tile" href="{{ '/results/' | relative_url }}">
     <h3>Results Tour</h3>
-    <p>Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.</p>
+    <p>Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.</p>
   </a>
   <a class="v2-tile" href="{{ '/verify/how-to-verify-by-role/' | relative_url }}">
     <h3>Verify Tour</h3>

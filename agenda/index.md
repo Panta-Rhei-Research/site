@@ -15,7 +15,7 @@ og_image_alt: "Scientific plate showing the Agenda as the public obligation laye
 summary_cards:
   - title: "Core Semantics"
     body: "The language, structures, laws, grammars, and refusal boundaries the theory must earn before it can answer."
-  - title: "Problem Ledger"
+  - title: "Structural Challenge Ledger"
     body: "External open-problem stress tests the program agrees to keep visible, classify, address, reframe, or reject with reason."
   - title: "Kernel, Model & Reality"
     body: "The answer-shape and ontic-status burden: no hidden runtime, substrate, semantic load, or externality may be treated as solved by silence."
@@ -25,7 +25,7 @@ hero_ctas:
   - label: "Core Semantics"
     url: /agenda/core-semantics/
     primary: true
-  - label: "Problem Ledger"
+  - label: "Structural Challenge Ledger"
     url: /agenda/problem-ledger/
   - label: "Kernel, Model & Reality"
     url: /agenda/kernel-model-reality/
@@ -39,9 +39,9 @@ right_rail:
       url: /agenda/research-aim-and-desiderata/
     - title: "Core Semantics"
       url: /agenda/core-semantics/
-    - title: "Problem Ledger"
+    - title: "Structural Challenge Ledger"
       url: /agenda/problem-ledger/
-    - title: "Problem Ledger Source Policy"
+    - title: "Structural Challenge Ledger Source Policy"
       url: /agenda/problem-ledger-source-policy/
     - title: "Kernel, Model & Reality"
       url: /agenda/kernel-model-reality/
@@ -103,7 +103,7 @@ Package 2 states the doctrine-level version of this burden in [The Shape of a Th
 
 {% include scientific-plate.html id="plate-03-public-obligation-layer" class="scientific-plate--obligation-layer" loading="lazy" %}
 
-The Agenda is the program's public obligation layer: it records Core Semantics, Problem Ledger, answer-shape burden, and construction order before Results are read as consequences.
+The Agenda is the program's public obligation layer: it records Core Semantics, Structural Challenge Ledger, answer-shape burden, and construction order before Results are read as consequences.
 
 <div class="btn-group section-ctas">
   <a class="btn-secondary" href="{{ '/agenda/core-semantics/' | relative_url }}">Read Core Semantics</a>
@@ -117,7 +117,7 @@ The Agenda is the program's public obligation layer: it records Core Semantics, 
 If you are new to the program, read the Agenda in this order:
 
 1. Start with **Core Semantics** to see the language, structures, laws, and grammars the theory must earn before it can answer.
-2. Continue to **Problem Ledger** to see the external stress-test questions the program agrees to keep visible.
+2. Continue to **Structural Challenge Ledger** to see the external stress-test questions the program agrees to keep visible.
 3. Read **Kernel, Model & Reality** to understand the no-externalities and ontic-status burden.
 4. Use **Construction Roadmap** to see the logical build-order implied by those commitments.
 5. Then move to **Results** and **Verify** to inspect the current program stance and verification routes.

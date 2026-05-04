@@ -28,7 +28,7 @@ hero_ctas:
     url: /agenda/core-semantics/metaphysics/
 right_rail:
   related:
-    - title: "Problem Ledger"
+    - title: "Structural Challenge Ledger"
       url: /agenda/problem-ledger/
     - title: "Construction Roadmap"
       url: /agenda/construction-roadmap/

@@ -16,7 +16,7 @@ summary_cards:
     body: "Aesthetic coherence, analogy, or local fit does not by itself count as success."
 right_rail:
   related:
-    - title: "Problem Ledger"
+    - title: "Structural Challenge Ledger"
       url: /agenda/problem-ledger/
     - title: "Core Semantics"
       url: /agenda/core-semantics/

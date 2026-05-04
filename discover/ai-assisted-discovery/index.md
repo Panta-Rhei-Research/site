@@ -343,7 +343,7 @@ Use public pages only and cite sources.
 
 Tasks:
 1. Explain the role of Results in the v4 observatory.
-2. Summarize Landmark Results, World Readouts, Problem Ledger Answers, Recovery/Core Semantics status, Additional Derived Results, and Progress Against Agenda.
+2. Summarize Landmark Results, World Readouts, Challenge Responses, Recovery/Core Semantics status, Additional Derived Results, and Progress Against Agenda.
 3. Identify the status language used.
 4. Identify where the site warns against overclaiming.
 5. List the top five result surfaces worth inspecting.

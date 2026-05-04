@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-magnetoreception"
     title: "Magnetoreception"
-    url: "/results/problem-ledger-answers/physics/magnetoreception/"
+    url: "/results/challenge-responses/physics/magnetoreception/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-origin-of-magnetar-magnetic-field"
     title: "Origin of magnetar magnetic field"
-    url: "/results/problem-ledger-answers/physics/origin-of-magnetar-magnetic-field/"
+    url: "/results/challenge-responses/physics/origin-of-magnetar-magnetic-field/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -44,7 +44,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-solar-cycle"
     title: "Solar cycle"
-    url: "/results/problem-ledger-answers/physics/solar-cycle/"
+    url: "/results/challenge-responses/physics/solar-cycle/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -80,7 +80,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-origin-of-cosmic-magnetic-fields"
     title: "Origin of cosmic magnetic fields"
-    url: "/results/problem-ledger-answers/physics/origin-of-cosmic-magnetic-fields/"
+    url: "/results/challenge-responses/physics/origin-of-cosmic-magnetic-fields/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -119,13 +119,13 @@ Ledger restatement: B_tor/B_pol=iota_tau^{-1} (V.T230)
 
 ## Related Results surfaces
 
-- [Magnetoreception](/results/problem-ledger-answers/physics/magnetoreception/)
-- [Origin of magnetar magnetic field](/results/problem-ledger-answers/physics/origin-of-magnetar-magnetic-field/)
-- [Solar cycle](/results/problem-ledger-answers/physics/solar-cycle/)
+- [Magnetoreception](/results/challenge-responses/physics/magnetoreception/)
+- [Origin of magnetar magnetic field](/results/challenge-responses/physics/origin-of-magnetar-magnetic-field/)
+- [Solar cycle](/results/challenge-responses/physics/solar-cycle/)
 - [Jet Magnetic Field Ratio B_z/B_φ](/predictions/bz-b-jet/)
 - origin-of-magnetar-magnetic-field
 - origin-of-cosmic-magnetic-fields
-- [Origin of cosmic magnetic fields](/results/problem-ledger-answers/physics/origin-of-cosmic-magnetic-fields/)
+- [Origin of cosmic magnetic fields](/results/challenge-responses/physics/origin-of-cosmic-magnetic-fields/)
 - [Cosmic Magnetic Fields: SMBH-Jet Frozen Flux Along Wilson Filaments](/results/problem/cosmic-magnetic-fields/)
 
 ## Reading role

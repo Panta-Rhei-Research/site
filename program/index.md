@@ -105,7 +105,7 @@ Panta Rhei is currently:
 - a public canonical release;
 - organized through the v4 public spine -- Discover, Program, Agenda, Corpus, Results, Verify, Impact, and Engage -- with Publications preserved as the stable artifact and release layer;
 - partially formalized through TauLib;
-- publicly inspectable through Core Semantics / Recovery, the Problem Ledger, Construction Spine, Registry, Results mirrors, verification routes, Research Notes, Public-Good Briefings, and correction surfaces;
+- publicly inspectable through Core Semantics / Recovery, the Structural Challenge Ledger, Construction Spine, Registry, Results mirrors, verification routes, Research Notes, Public-Good Briefings, and correction surfaces;
 - open to structured questions, critique, review, and contribution through GitHub Discussions, Issues, Pull Requests, and email;
 - open to correction, challenge, and external review;
 - not socially settled and not a substitute for expert peer review.
@@ -114,9 +114,9 @@ Panta Rhei is currently:
 
 - **[About the Program]({{ '/program/about/' | relative_url }})** gives the identity, stewardship, current public status, founders' statement, and scrutiny posture of the research object.
 - **[Related Approaches]({{ '/program/about/related-approaches/' | relative_url }})** positions the program among serious neighboring approaches without turning comparison into a takedown or priority claim.
-- **[Agenda]({{ '/agenda/' | relative_url }})** states the burden of proof: Core Semantics, Problem Ledger, Kernel/Model/Reality, and Construction Roadmap.
+- **[Agenda]({{ '/agenda/' | relative_url }})** states the burden of proof: Core Semantics, Structural Challenge Ledger, Kernel/Model/Reality, and Construction Roadmap.
 - **[Corpus]({{ '/corpus/' | relative_url }})** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.
-- **[Results]({{ '/results/' | relative_url }})** reports current program stances, landmark results, world readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
+- **[Results]({{ '/results/' | relative_url }})** reports current program stances, landmark results, world readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
 - **[Verify]({{ '/verify/' | relative_url }})** explains how obligations, construction steps, and results can be checked, challenged, formalized, bridged, or falsified.
 - **[Publications]({{ '/publications/' | relative_url }})** preserves the stable artifact and release shelf: research monographs, papers, notes, briefings, white papers, and release artifacts.
 - **[Impact]({{ '/impact/' | relative_url }})** maps conditional consequences if Results survive verification, translation, and domain uptake.

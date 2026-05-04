@@ -6,13 +6,13 @@ lane: results
 v2_lane: results
 type: "Lane Root"
 status: "Canonical"
-summary_short: "Where the built Corpus becomes a world: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda."
+summary_short: "Where the built Corpus becomes a world: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda."
 og_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
 twitter_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
-og_image_alt: "Scientific plate showing the Results lane as a status-marked consequence layer with Landmark Results, World Readouts, Problem Answers, Core Semantics Status, Additional Derived Results, Progress Against Agenda, and inspection routes."
+og_image_alt: "Scientific plate showing the Results lane as a status-marked consequence layer with Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, Progress Against Agenda, and inspection routes."
 summary_cards:
   - title: "Consequence surfaces"
-    body: "Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda."
+    body: "Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda."
   - title: "Calibration cascades"
     body: "Physics anchored at m_n; Life at K_χ; Metaphysics is categorical-only."
   - title: "Status grammar"
@@ -31,8 +31,8 @@ right_rail:
   related:
     - title: "Landmark Results"
       url: /results/landmark-results/
-    - title: "Problem Answers"
-      url: /results/problem-ledger-answers/
+    - title: "Challenge Responses"
+      url: /results/challenge-responses/
     - title: "Core Semantics Status"
       url: /results/core-semantics-status/
     - title: "Progress Against Agenda"
@@ -108,14 +108,14 @@ Every result should be read with its status markers. An internally addressed res
 
 ## The consequence layer at a glance
 
-{% include scientific-plate.html id="plate-05-results-world-readout" loading="lazy" caption="Results are not isolated claims. They are consequences of the built Corpus, organized through Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda, with internal status labels separated from external acceptance." %}
+{% include scientific-plate.html id="plate-05-results-world-readout" loading="lazy" caption="Results are not isolated claims. They are consequences of the built Corpus, organized through Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda, with internal status labels separated from external acceptance." %}
 
 **The Results World Readout** frames Results as a status-marked consequence layer. Results are not isolated claims. They are consequences of the built Corpus, organized through status-marked result surfaces and routed toward inspection.
 
 <ul class="v2-grid v2-card-list">
   <li><article class="v2-tile"><h3><a href="{{ '/results/landmark-results/' | relative_url }}">Explore Landmark Results</a></h3><p>Start with the high-interpretive-force results that orient the current public readout.</p></article></li>
   <li><article class="v2-tile"><h3><a href="{{ '/results/world-readout/' | relative_url }}">Open World Readouts</a></h3><p>Read the four domain-facing world interpretations as consequences of the Corpus.</p></article></li>
-  <li><article class="v2-tile"><h3><a href="{{ '/results/problem-ledger-answers/' | relative_url }}">Read Problem Ledger Answers</a></h3><p>Inspect the Results-side mirror of current stances against agenda obligations.</p></article></li>
+  <li><article class="v2-tile"><h3><a href="{{ '/results/challenge-responses/' | relative_url }}">Read Challenge Responses</a></h3><p>Inspect the Results-side mirror of current stances against agenda obligations.</p></article></li>
   <li><article class="v2-tile"><h3><a href="{{ '/results/progress-against-agenda/' | relative_url }}">Track Progress Against Agenda</a></h3><p>Browse current public progress while keeping internal status separate from external acceptance.</p></article></li>
 </ul>
 
@@ -164,8 +164,8 @@ Every result should be read with its status markers. An internally addressed res
     <span>{% include release-metric.html id="falsifications.records" %} sharp predictions (N1–N30) where named experiments adjudicate the framework on a 2025–2035 timeline.</span>
   </a>
 
-  <a class="v2-tile" href="{{ '/results/problem-ledger-answers/' | relative_url }}">
-    <strong>Problem Answers</strong>
+  <a class="v2-tile" href="{{ '/results/challenge-responses/' | relative_url }}">
+    <strong>Challenge Responses</strong>
     <span>One-to-one mirror of the public Problem Ledger — current answer or boundary for every problem.</span>
   </a>
 
@@ -176,7 +176,7 @@ Every result should be read with its status markers. An internally addressed res
 
   <a class="v2-tile" href="{{ '/results/progress-against-agenda/' | relative_url }}">
     <strong>Progress Against Agenda</strong>
-    <span>Dashboard over Problem Ledger and Core Semantics obligations.</span>
+    <span>Dashboard over Structural Challenge Ledger and Core Semantics obligations.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/results/additional-noteworthy-results/' | relative_url }}">
