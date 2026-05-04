@@ -31,6 +31,11 @@ tau_registers:
 - Reg_D
 ontic_requirements:
 - OR1
+cross_domain_links:
+- domain: mathematics
+  challenge_id: F17
+  label: 'Math F17: Ontology of Mathematical Objects'
+  note: E₃ ontology of math meets foundations-logic ontology of mathematical objects.
 source_anchors:
 - label: SEP — Metaphysics
   url: https://plato.stanford.edu/entries/metaphysics/

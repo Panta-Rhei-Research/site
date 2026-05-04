@@ -1,7 +1,7 @@
 ---
 layout: redirect
 title: "Problem Ledger v1.0 — Retired"
-permalink: /agenda/problem-ledger/
+permalink: /results/problem-ledger-answers/
 sitemap: false
 robots: noindex,follow
 redirect_to: /agenda/structural-challenge-ledger/

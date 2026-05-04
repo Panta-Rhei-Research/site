@@ -29,6 +29,11 @@ tags:
 review_priority: medium
 ring_depth: R0_ontic_foundational
 physics_core_weight: core
+cross_domain_links:
+- domain: metaphysics
+  challenge_id: M-E3-10
+  label: 'M-E3-10: Time, Temporality, and Persistence'
+  note: Physics problem of time meets E₃ ontology of time.
 source_anchors:
 - label: 'Wikipedia: List of unsolved problems in physics'
   url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics

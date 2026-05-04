@@ -2130,21 +2130,21 @@
       "challenge_id": "P102",
       "title": "Yang–Mills theory",
       "slug": "yangmills-theory",
-      "cluster": "peripheral-imported-phenomena",
+      "cluster": "root-foundations",
       "ledger_type": "structural_challenge",
       "challenge_family": "external_imported",
       "response_status": "structurally_constrained",
       "external_status": "externally_open",
-      "ring_depth": "R5_peripheral_observational",
-      "physics_core_weight": "peripheral",
-      "url": "/agenda/structural-challenge-ledger/physics/peripheral-imported-phenomena/yangmills-theory/",
+      "ring_depth": "R0_ontic_foundational",
+      "physics_core_weight": "core",
+      "url": "/agenda/structural-challenge-ledger/physics/root-foundations/yangmills-theory/",
       "v1_problem_ledger_item_id": "phys-yangmills-theory",
       "review_priority": "medium",
       "tags": [
         "structural-challenge",
         "physics",
-        "peripheral-imported-phenomena",
-        "R5_peripheral_observational"
+        "root-foundations",
+        "R0_ontic_foundational"
       ]
     },
     {

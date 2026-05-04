@@ -30,6 +30,11 @@ tags:
 review_priority: medium
 ring_depth: R6_cross_domain_handoff
 physics_core_weight: boundary
+cross_domain_links:
+- domain: life
+  challenge_id: LIFE-SC-15
+  label: 'LIFE-SC-15: Folding and Sequence-to-Structure'
+  note: Physics-side molecular-structure handoff to Life folding canonical entry.
 source_anchors:
 - label: 'Wikipedia: List of unsolved problems in physics'
   url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics

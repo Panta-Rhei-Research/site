@@ -29,6 +29,11 @@ tags:
 review_priority: medium
 ring_depth: R6_cross_domain_handoff
 physics_core_weight: boundary
+cross_domain_links:
+- domain: life
+  challenge_id: LIFE-SC-06
+  label: 'LIFE-SC-06: Abiogenesis as First Persistence Event'
+  note: Physics-side cross-domain handoff to Life origin-of-life canonical entry.
 source_anchors:
 - label: 'Wikipedia: List of unsolved problems in physics'
   url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics

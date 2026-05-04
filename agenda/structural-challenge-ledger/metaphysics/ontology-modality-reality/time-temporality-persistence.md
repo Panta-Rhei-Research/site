@@ -34,6 +34,11 @@ tau_registers:
 ontic_requirements:
 - OR3
 - OR5
+cross_domain_links:
+- domain: physics
+  challenge_id: P060
+  label: 'Physics P060: Problem of Time'
+  note: E₃ ontology of time meets physics problem of time.
 source_anchors:
 - label: SEP — Metaphysics
   url: https://plato.stanford.edu/entries/metaphysics/

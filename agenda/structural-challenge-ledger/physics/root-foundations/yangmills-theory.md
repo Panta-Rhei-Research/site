@@ -6,12 +6,13 @@ slug: yangmills-theory
 domain: physics
 ledger_type: structural_challenge
 challenge_family: external_imported
-cluster: peripheral-imported-phenomena
+cluster: root-foundations
 external_status: externally_open
 response_status: structurally_constrained
 challenge_types:
 - physics_bridge
 - structural
+- foundational
 structural_entry_criterion:
 - domain_semantics
 summary_short: Yang–Mills theory — see briefing 01 §7 for full structural framing.
@@ -20,15 +21,15 @@ v2_lane: agenda
 section: structural-challenge-ledger
 type: Structural Challenge
 status: Canonical
-permalink: /agenda/structural-challenge-ledger/physics/peripheral-imported-phenomena/yangmills-theory/
+permalink: /agenda/structural-challenge-ledger/physics/root-foundations/yangmills-theory/
 tags:
 - structural-challenge
 - physics
-- peripheral-imported-phenomena
-- R5_peripheral_observational
+- root-foundations
+- R0_ontic_foundational
 review_priority: medium
-ring_depth: R5_peripheral_observational
-physics_core_weight: peripheral
+ring_depth: R0_ontic_foundational
+physics_core_weight: core
 source_anchors:
 - label: 'Wikipedia: List of unsolved problems in physics'
   url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics

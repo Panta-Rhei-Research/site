@@ -30,6 +30,11 @@ tags:
 review_priority: medium
 ring_depth: R6_cross_domain_handoff
 physics_core_weight: boundary
+cross_domain_links:
+- domain: life
+  challenge_id: LIFE-SC-13
+  label: 'LIFE-SC-13: Origin and Structure of the Genetic Code'
+  note: Gene expression noise handoff to Life code architecture.
 source_anchors:
 - label: 'Wikipedia: List of unsolved problems in physics'
   url: https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics

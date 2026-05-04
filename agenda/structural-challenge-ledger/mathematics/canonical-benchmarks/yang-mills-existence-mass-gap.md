@@ -29,6 +29,12 @@ tags:
 - structural-challenge
 - mathematics
 review_priority: medium
+cross_domain_links:
+- domain: physics
+  challenge_id: P102
+  label: 'Physics P102: Yang-Mills theory'
+  note: Mathematical Clay problem also appears in physics structural ledger as a foundational
+    sector challenge.
 source_anchors:
 - label: Clay Millennium Problems — Yang–Mills
   url: https://www.claymath.org/millennium/yang-mills-the-maths-gap/
