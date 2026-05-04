@@ -4,7 +4,7 @@ title: Browse All Results
 permalink: /results/browse/
 lane: results
 section: "Results · Browse"
-summary_short: "All result pages across mathematics, physics, life, and metaphysics/philosophy — filter by domain, kind, importance, status, and book."
+summary_short: "Generic Result Catalogue — all result pages across mathematics, physics, life, and metaphysics/philosophy. Filter by domain, kind, importance, status, and book. Not the Challenge Response surface; for canonical Structural Challenge responses, see /results/challenge-responses/."
 right_rail:
   related:
   - title: Results Overview
@@ -22,7 +22,9 @@ right_rail:
     updated: April 2026
 ---
 
-The Results lane has a unified browse surface where you can filter the generic Result catalogue by domain, enrichment layer, result kind, importance, status, and canonical book. These pages are supporting evidence, landmarks, predictions, falsification facets, and broader readouts. Results-side responses to the canonical Structural Challenge Ledger live at [Challenge Responses]({{ '/results/challenge-responses/' | relative_url }}). Every card is pre-rendered in HTML, so the page remains crawlable and readable without JavaScript. With JavaScript enabled, filters and sorting narrow the view interactively, and the active filter state is shared via the URL.
+<div class="notice note"><strong>Generic Result Catalogue.</strong> This page is the broad alphabetical/filterable catalogue of all result pages — supporting evidence, landmarks, predictions, falsification facets, and world readouts. <strong>It is not the Challenge Response surface.</strong> Results-side responses to the canonical <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a> live at <a href="{{ '/results/challenge-responses/' | relative_url }}">Challenge Responses</a> — that's where you go for the program's current τ response, evidence route, verification route, and external-review boundary against each canonical structural challenge.</div>
+
+The Results lane has this unified browse surface where you can filter the generic Result catalogue by domain, enrichment layer, result kind, importance, status, and canonical book. Every card is pre-rendered in HTML, so the page remains crawlable and readable without JavaScript. With JavaScript enabled, filters and sorting narrow the view interactively, and the active filter state is shared via the URL.
 
 The separate [Additional Noteworthy Results]({{ '/results/additional-noteworthy-results/' | relative_url }}) surface publishes Registry-backed results promoted from Corpus triage. Those pages are intentionally not counted inside this generic Result catalogue.
 

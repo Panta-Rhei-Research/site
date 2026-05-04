@@ -31,9 +31,11 @@ Not all results make the same kind of claim. Some are formal results, some are b
 
 The current Results surface makes those differences explicit through frontmatter, badges, right-rail metadata, and search filters.
 
+<div class="notice note"><strong>Distinct from Challenge Responses.</strong> This page describes the typing grammar for the generic Result catalogue (browsable at <a href="{{ '/results/browse/' | relative_url }}">Browse All Results</a>). The Results-side response surface for the canonical <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a> lives separately at <a href="{{ '/results/challenge-responses/' | relative_url }}">Challenge Responses</a> and uses its own response-status grammar (internally addressed, partially addressed, structurally constrained, etc.).</div>
+
 ## Classification families
 
-{% assign type_descriptions = "consequence::Domain-facing consequences and answer surfaces that read from the constructed Corpus.;foundational_math::Mathematical spine results that carry kernel, self-enrichment, and formal-structure burdens.;frontier_problem::Problem-ledger answer routes that classify public stress-test problems without implying external settlement.;structural_readout::Interpretive world-readout or cross-domain consequences that depend on the Corpus architecture." | split: ";" %}
+{% assign type_descriptions = "consequence::Domain-facing consequences and answer surfaces that read from the constructed Corpus.;foundational_math::Mathematical spine results that carry kernel, self-enrichment, and formal-structure burdens.;frontier_problem::Generic-catalogue result pages that frame public stress-test problems and route to the program's current stance. For the canonical Structural Challenge Ledger response surface, see Challenge Responses.;structural_readout::Interpretive world-readout or cross-domain consequences that depend on the Corpus architecture." | split: ";" %}
 
 <ul class="v2-grid v2-card-list">
   {% for group in type_groups %}
