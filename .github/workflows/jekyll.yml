@@ -71,19 +71,21 @@ jobs:
           chmod +x .github/scripts/smoke-test.sh
           .github/scripts/smoke-test.sh _site
 
-      # ── Dead-link audit (DISABLED 2026-05-01) ──────────────
-      # The html-proofer dead-link audit ran ~90s on the full
-      # ~7,400-page site and added 1.5–2 minutes to every PR's
-      # critical path on top of the Jekyll build (often blocked
-      # behind the `concurrency: pages` queue). It was removed
-      # to keep PR turnaround fast during the v3 sprint cadence.
+      # ── Dead-link audit (off the PR critical path) ─────────
+      # The html-proofer dead-link audit was removed from this
+      # workflow on 2026-05-01: it ran ~90s on the full ~9,675-
+      # page site and added 1.5–2 minutes to every PR's critical
+      # path on top of the Jekyll build (often blocked behind
+      # the `concurrency: pages` queue).
       #
-      # The script lives at .github/scripts/link-check.sh and
-      # can be re-enabled by uncommenting the block below or
-      # invoking it manually against a local _site/ via
-      # `.github/scripts/link-check.sh _site`. A periodic
-      # standalone link-audit workflow is the right replacement
-      # if dead-link regression coverage is needed.
+      # Replacement: `link-audit.yml` runs the same audit nightly
+      # at 02:00 UTC and on workflow_dispatch. It opens (or
+      # comments on) an issue labeled `link-audit-regression`
+      # when broken internal links are detected. The script lives
+      # at `.github/scripts/link-check.sh` and can be invoked
+      # locally against `_site/` via `.github/scripts/link-check.sh
+      # _site`. To re-enable on every PR, uncomment the block
+      # below — but expect the latency cost.
       #
       # - name: Dead-link audit
       #   run: |
