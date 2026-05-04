@@ -36,7 +36,7 @@ right_rail:
   meta:
     type: "Engagement Guide"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -65,7 +65,7 @@ Engagement does not begin with agreement. It begins with a useful form of attent
 <div class="v2-grid">
   <a class="v2-tile" href="{{ '/engage/read-explore/' | relative_url }}">
     <h3>Read carefully</h3>
-    <p>Use Discover, Program, Agenda, Publications, and Results before judging isolated claims.</p>
+    <p>Use Discover, Program, Agenda, Corpus, Results, Verify, and relevant Artifacts & Releases before judging isolated claims.</p>
   </a>
   <a class="v2-tile" href="{{ '/engage/discussions/' | relative_url }}">
     <h3>Ask a public question</h3>
@@ -81,7 +81,7 @@ Engagement does not begin with agreement. It begins with a useful form of attent
   </a>
   <a class="v2-tile" href="{{ '/engage/review-the-work/' | relative_url }}">
     <h3>Offer bounded review</h3>
-    <p>Review one problem item, recovery target, result, research note, TauLib module, briefing, or page template.</p>
+    <p>Review one Problem Ledger item, Core Semantics / Recovery item, result, research note, TauLib module, briefing, or page template.</p>
   </a>
   <a class="v2-tile" href="https://github.com/Panta-Rhei-Research/site/issues">
     <h3>Report a defect</h3>
@@ -147,4 +147,6 @@ If your message is private, institutional, media-related, sensitive, or support-
 
 ## Minimum good-faith posture
 
-You do not need to agree with the framework. You do need to engage the right object: a book, a result, a registry object, a formalization surface, an empirical prediction, a source record, a public briefing, or a stated assumption. The engagement routes above are designed to make that object easy to find.
+You do not need to agree with the theory or its conclusions. You do need to engage the right object: a book, a result, a registry object, a formalization surface, an empirical prediction, a source record, a public briefing, or a stated assumption. The engagement routes above are designed to make that object easy to find.
+
+If you want a first-pass outside-in orientation before posting publicly, use [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}). Treat LLM output as orientation, not verification.

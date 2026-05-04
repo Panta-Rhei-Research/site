@@ -55,7 +55,7 @@ right_rail:
     type: "Media Route"
     scope: "Public communication"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -74,6 +74,33 @@ The Media route is for journalists, podcast hosts, editors, public explainers, a
 
 The shortest accurate framing is: Panta Rhei is an independent open research program dedicated to building a coherent theory of reality, published as an inspectable research observatory. Its claims are ambitious and are presented for inspection, not as settled consensus.
 
+## Start with the Media Kit
+
+The Media Kit is the primary journalist-facing surface. It includes the three public story packages:
+
+- **Open Research** — obligations for high-scope open research.
+- **Theory of Reality** — why Panta Rhei says coherent theory of reality, not theory of everything.
+- **Technical Blueprint** — how the public research observatory is implemented.
+
+Engage / Media explains how media engagement fits into the broader open-research participation model.
+
+## Three public packages
+
+<div class="v2-grid">
+  <a class="v2-tile" href="{{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }}">
+    <h3>Open Research Brief</h3>
+    <p>Inspection Architecture for High-Scope Open Research — the obligations a serious open research program owes its public.</p>
+  </a>
+  <a class="v2-tile" href="{{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}">
+    <h3>Theory of Reality Brief</h3>
+    <p>The Shape of a Theory of Reality — why Panta Rhei is a coherent theory of reality, not a theory of everything.</p>
+  </a>
+  <a class="v2-tile" href="{{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}">
+    <h3>Public Research Observatory Brief</h3>
+    <p>Building a Public Research Observatory for High-Scope Open Research — the technical blueprint for this site as a public observatory.</p>
+  </a>
+</div>
+
 ## Available Materials
 
 <div class="v2-grid">
@@ -83,11 +110,11 @@ The shortest accurate framing is: Panta Rhei is an independent open research pro
   </a>
   <a class="v2-tile" href="{{ '/media/story-angles/' | relative_url }}">
     <h3>Story Angles</h3>
-    <p>Five framings for journalists with headlines, 30-second pitches, and key-fact anchors — independence, zero free parameters, falsification on day one, cross-domain scope, open verification.</p>
+    <p>Additional angles and older framing ideas. The three-package system above is the primary media route; Story Angles supplement it with headlines, 30-second pitches, and key-fact anchors.</p>
   </a>
   <a class="v2-tile" href="{{ '/media/journalist-faq/' | relative_url }}">
     <h3>Journalist FAQ</h3>
-    <p>Press Q&amp;A: peer-review status, funding, citation, interview windows, embargo policy, headshots, and what to avoid writing.</p>
+    <p>Press Q&amp;A: review and external-acceptance status, funding, citation, interview windows, embargo policy, headshots, and what to avoid writing.</p>
   </a>
   <a class="v2-tile" href="{{ '/media/social-media-kit/' | relative_url }}">
     <h3>Social Media Kit</h3>
@@ -101,9 +128,9 @@ The shortest accurate framing is: Panta Rhei is an independent open research pro
     <h3>Review the Work</h3>
     <p>How to offer bounded review, critique, correction, or contribution without implying endorsement.</p>
   </a>
-  <a class="v2-tile" href="{{ '/publications/white-papers/' | relative_url }}">
-    <h3>White Papers</h3>
-    <p>Concise documents for specific claims, falsification routes, and interpretive bridges.</p>
+  <a class="v2-tile" href="{{ '/publications/' | relative_url }}">
+    <h3>Artifacts &amp; Releases / Publications</h3>
+    <p>Concise documents for specific claims, falsification routes, and interpretive bridges. Includes white papers, research notes, and the seven-book monograph artifacts.</p>
   </a>
   <a class="v2-tile" href="{{ '/program/about/' | relative_url }}">
     <h3>Program Context</h3>

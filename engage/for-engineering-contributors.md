@@ -29,8 +29,12 @@ right_rail:
       url: /engage/collaborate/
     - title: "Contact"
       url: /engage/contact/
-    - title: "About the Framework"
+    - title: "About the Program"
       url: /corpus/
+    - title: "How to Verify"
+      url: /verify/how-to-verify/
+    - title: "Release Manifest"
+      url: /verify/release-manifest/
   artifacts:
     - title: "GitHub Discussions"
       url: https://github.com/orgs/Panta-Rhei-Research/discussions
@@ -48,7 +52,7 @@ right_rail:
     type: "Contribute"
     scope: "Engineering"
     status: "Open"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -73,7 +77,7 @@ If you are the first external contributor to land a PR: good. That is the point 
 
 ## Infrastructure contribution
 
-Contributing infrastructure can mean improving documentation, metadata, tooling, templates, search, formalization support, or source structure. Contribution does not imply endorsement.
+Contributing infrastructure can mean improving documentation, metadata, tooling, templates, search, formalization support, or source structure. Engineering contribution does not imply endorsement of the theory or its results.
 
 {% assign engineering_plate_caption = "Infrastructure contribution is one engagement mode: documentation, metadata, tooling, source structure, templates, and formalization support can improve the public research object without implying endorsement." %}
 {% include scientific-plate.html id="plate-09-engagement-without-endorsement" variant="thumb" class="scientific-plate--compact" caption=engineering_plate_caption loading="lazy" %}

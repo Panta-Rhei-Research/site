@@ -10,15 +10,19 @@ summary_short: "Reading pathways for visitors who want to understand the program
 summary_cards:
   - title: "Quick overview"
     body: "Use Discover, Start Here, and Key Results for a first orientation."
-  - title: "Publication path"
-    body: "Move through Books, Guided Tours, White Papers, and Research Notes."
+  - title: "Artifacts & Releases path"
+    body: "Move through Publications, White Papers, Research Notes, and the seven-book monograph artifacts."
   - title: "World readout"
-    body: "Use Results to see how the framework reads mathematics, physics, life, and metaphysics."
+    body: "Use Results to see how the theory currently reads mathematics, physics, life, and metaphysics."
 right_rail:
   related:
     - title: "Discover"
       url: /discover/
-    - title: "Research Monographs"
+    - title: "AI-Assisted Discovery"
+      url: /discover/ai-assisted-discovery/
+    - title: "Monograph Corpus"
+      url: /corpus/monograph-corpus/
+    - title: "Research Monograph Artifacts"
       url: /publications/research-monographs/
     - title: "Public Discussions"
       url: /engage/discussions/
@@ -30,7 +34,7 @@ right_rail:
     type: "Engagement Route"
     scope: "Reading"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -56,9 +60,9 @@ This route is deliberately staged. The first goal is orientation; the second is 
     <h3>Quick Overview</h3>
     <p>Begin with Start Here, then use Entry Routes and Key Results for a first map of the site.</p>
   </a>
-  <a class="v2-tile" href="{{ '/publications/research-monographs/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/corpus/monograph-corpus/' | relative_url }}">
     <h3>Deep Reading Path</h3>
-    <p>Use the Books catalogue and Guided Tours to enter the seven-volume release without losing the system map.</p>
+    <p>Use the Monograph Corpus for construction structure and Publications for citable book artifacts.</p>
   </a>
   <a class="v2-tile" href="{{ '/results/world-readout/' | relative_url }}">
     <h3>World Readout Path</h3>
@@ -74,9 +78,11 @@ This route is deliberately staged. The first goal is orientation; the second is 
 
 1. Start with [Discover]({{ '/discover/' | relative_url }}) and [Start Here]({{ '/discover/start-here/' | relative_url }}).
 2. Read [Key Results]({{ '/discover/key-results/' | relative_url }}) to see the program's strongest public claims at a glance.
-3. Open [Books]({{ '/publications/research-monographs/' | relative_url }}) and choose a guided tour if the full monograph path is too large for a first pass.
-4. Use [World Readout]({{ '/results/world-readout/' | relative_url }}) to see how the framework reads different domains.
+3. Open the [Monograph Corpus]({{ '/corpus/monograph-corpus/' | relative_url }}) for the construction map, or [Publications]({{ '/publications/research-monographs/' | relative_url }}) for citable artifacts and guided-release materials.
+4. Use [World Readout]({{ '/results/world-readout/' | relative_url }}) to see how the theory currently reads different domains.
 5. Subscribe through [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) if you want updates when new public notes appear.
+
+For a guided LLM-assisted first pass, use [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}).
 
 ## When to Move Deeper
 
