@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H1"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Review gateway for whether the kernel's retained multiplicative and exponential structure produces unique global addresses.

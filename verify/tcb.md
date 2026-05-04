@@ -22,7 +22,7 @@ right_rail:
     type: "Trust Disclosure"
     scope: "TauLib TCB extensions"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 The trust budget: what Lean's kernel trusts, and what TauLib extends it by.

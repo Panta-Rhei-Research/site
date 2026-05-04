@@ -21,7 +21,7 @@ right_rail:
     type: "Filter-Rule Manifest"
     scope: "All count claims across the site"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign rules = site.data.registry.filter_rules.filter_rules %}

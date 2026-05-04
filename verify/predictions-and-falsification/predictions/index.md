@@ -19,7 +19,7 @@ right_rail:
   meta:
     type: "Prediction Surface"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What This Page Catalogs

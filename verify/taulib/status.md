@@ -26,7 +26,7 @@ right_rail:
   meta:
     type: "Formalization Status"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign summary = site.data.taulib_projections.summary %}

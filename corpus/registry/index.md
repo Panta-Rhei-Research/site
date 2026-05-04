@@ -27,7 +27,7 @@ right_rail:
   meta:
     type: "Registry Index"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign registry_objects = site.data.registry.objects %}

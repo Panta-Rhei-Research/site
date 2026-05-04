@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H2"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Review gateway for whether prime polarity is internally generated rather than imported or retrofitted number-theoretic patterning.

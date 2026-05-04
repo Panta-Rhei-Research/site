@@ -59,7 +59,7 @@ right_rail:
     type: "Corpus Route"
     scope: "Bi-square scaling chain"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What the bi-square is

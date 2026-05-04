@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H8"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Integration gateway for whether the τ-Kernel is a coherent foundational architecture rather than a loose vocabulary of generators, axioms, and later interpretations.

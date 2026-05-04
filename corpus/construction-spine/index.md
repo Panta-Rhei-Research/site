@@ -44,7 +44,7 @@ right_rail:
     type: "Corpus Index"
     scope: "10 construction steps"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign steps = site.data.construction_spine["construction-spine-data"] %}
