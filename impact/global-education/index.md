@@ -24,7 +24,7 @@ right_rail:
     type: "Impact Stratum"
     scope: "Education"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Reading discipline
@@ -65,19 +65,21 @@ If the framework holds, it could change how learners encounter the structure of 
 
 The immediate educational consequence would not be a new textbook or curriculum package. It would be a new kind of orientation:
 
-> Research Agenda → Corpus → Results → Verify
+> Agenda → Corpus → Results → Verify
 
 This sequence can become an educational method.
 
 A learner can ask:
 
 - What is the question?
-- What must be recovered?
+- What language and structures must be earned?
 - What has been constructed?
 - What follows from that construction?
 - What is verified?
 - What remains open?
 - What would falsify the claim?
+
+For guided first-pass orientation, see [Discover → AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}). It provides copy-ready prompts that help readers generate first-pass summaries, route recommendations, and critical questions before entering Agenda, Corpus, Results, or Verify.
 
 That is not only a website architecture. It is a discipline of learning.
 
@@ -289,7 +291,7 @@ It means only this:
 
 Global Education impact remains conditional.
 
-The framework must survive scrutiny in Research Agenda, Corpus, Results, and Verify.
+The construction must survive scrutiny in Agenda, Corpus, Results, and Verify.
 
 The educational maps must be accurate enough to teach.
 

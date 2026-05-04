@@ -24,7 +24,7 @@ right_rail:
     type: "Impact Stratum"
     scope: "Existential orientation"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Reading discipline
@@ -35,9 +35,11 @@ Result → Verification survival → Translation layer → Domain uptake → Con
 
 If any upstream link weakens, the impact claim weakens with it.
 
+These are conditional orientation terms, not settled metaphysical conclusions.
+
 ## Core idea
 
-Existential Orientation is the impact stratum concerned with what it means to inhabit reality if the Panta Rhei framework holds.
+Existential Orientation is the impact stratum concerned with what it means to inhabit reality if the Panta Rhei construction holds.
 
 This page must be read conditionally.
 
@@ -45,7 +47,7 @@ It does not offer a doctrine, therapy, religion, or personal philosophy. It does
 
 The question is narrower:
 
-> If reality is relational, life-favoring, dignity-bearing, and meaning-compatible at its foundations, what changes in the existential background against which human beings understand themselves?
+> If the construction would make life-favoring, dignity-bearing, and meaning-compatible interpretations more thinkable, what changes in the existential background against which human beings understand themselves?
 
 The possible impact is not that the framework answers every human question.
 

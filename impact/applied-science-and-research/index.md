@@ -24,7 +24,7 @@ right_rail:
     type: "Impact Stratum"
     scope: "Applied research"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Reading discipline
@@ -45,7 +45,7 @@ This stratum does not describe products, policies, public deployment, or institu
 
 The question is:
 
-> If the foundational grammar holds, which scientific fields would have to rethink their models, methods, assumptions, or research priorities?
+> If the foundational grammar holds, which scientific fields may need to re-examine their models, methods, assumptions, or research priorities?
 
 The answer cannot be exhaustive. The possible impact radius is broad. This page therefore highlights three fields where the framework’s implications would be especially concrete:
 
@@ -73,7 +73,7 @@ That translation is not automatic.
 
 It requires domain experts, data, models, benchmarks, measurement bridges, independent replication, and comparison against existing methods.
 
-## Cosmology: refusing Λ and CDM without refusing the data
+## Cosmology: re-examining Λ and CDM as ontic ingredients, not observational constraints
 
 Cosmology is the applied research field where the framework’s divergence from the current standard explanatory model is most visible.
 
@@ -85,9 +85,9 @@ That is a substantial divergence.
 
 The applied consequence would not be that cosmological observation is dismissed. It would be the opposite. Cosmology would become one of the most decisive applied test fields for the framework, because the divergence from the standard interpretation is large while the observational bridge requirements are severe.
 
-The framework would have to recover the observational successes currently organized by ΛCDM while refusing Λ and CDM as primitive explanatory entities.
+The construction would need to recover the observational successes currently organized by ΛCDM while re-examining Λ and CDM as primitive explanatory entities.
 
-That means it would have to maintain explanatory contact with:
+That means it would need to maintain explanatory contact with:
 
 - cosmic expansion;
 - structure formation;
@@ -107,7 +107,7 @@ This is not a small applied implication. It would require rewriting the interpre
 
 The page should therefore state this carefully:
 
-> Cosmology becomes the place where the framework must show that refusing Λ and CDM does not mean refusing the data they currently organize.
+> Cosmology becomes the place where the construction may need to show that re-examining Λ and CDM as ontic ingredients does not mean refusing the data they currently organize.
 
 If the framework succeeds, cosmology would not lose explanatory power. It would gain a different explanatory architecture.
 
