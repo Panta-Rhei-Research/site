@@ -68,7 +68,7 @@ right_rail:
     type: "Lane Root"
     scope: "All verification"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What Verify Means Here

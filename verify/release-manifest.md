@@ -24,7 +24,7 @@ right_rail:
   meta:
     type: "Release Snapshot"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 This page is the **single authoritative snapshot** of the current release. Everything that is pinned, every count that is claimed, every known drift between surfaces is stated here in one view. If the registry, the per-book dashboards, and the TauLib docs appear to disagree on a number, this page explains why and which number is load-bearing for which purpose.
