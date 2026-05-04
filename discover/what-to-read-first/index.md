@@ -39,7 +39,7 @@ Pick a route by goal. These are deliberately short; they are paths into the site
   </div>
   <div class="v2-tile">
     <h3>Serious conceptual path</h3>
-    <p><a href="{{ '/program/' | relative_url }}">Program</a> -> <a href="{{ '/agenda/' | relative_url }}">Research Agenda</a> -> <a href="{{ '/agenda/kernel-model-reality/' | relative_url }}">Kernel, Model &amp; Reality</a> -> <a href="{{ '/corpus/construction-spine/' | relative_url }}">Corpus Construction Spine</a> -> <a href="{{ '/results/' | relative_url }}">Results</a> -> <a href="{{ '/verify/' | relative_url }}">Verify</a></p>
+    <p><a href="{{ '/program/' | relative_url }}">Program</a> -> <a href="{{ '/agenda/' | relative_url }}">Agenda</a> -> <a href="{{ '/agenda/kernel-model-reality/' | relative_url }}">Kernel, Model &amp; Reality</a> -> <a href="{{ '/corpus/construction-spine/' | relative_url }}">Corpus Construction Spine</a> -> <a href="{{ '/results/' | relative_url }}">Results</a> -> <a href="{{ '/verify/' | relative_url }}">Verify</a></p>
   </div>
   <div class="v2-tile">
     <h3>Artifacts-first path</h3>

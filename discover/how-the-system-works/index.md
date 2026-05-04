@@ -67,7 +67,7 @@ Each surface has a home. Discover may link to everything, but it does not own th
   <a class="v2-tile" href="{{ '/program/' | relative_url }}"><h3>Program</h3><p>Identity, doctrine, scope, status, founders, and inspection-observatory rationale.</p></a>
   <a class="v2-tile" href="{{ '/agenda/' | relative_url }}"><h3>Agenda</h3><p>Core Semantics, Problem Ledger, answer-shape discipline, refusals, and Construction Roadmap.</p></a>
   <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}"><h3>Corpus</h3><p>Construction Spine, Registry, TauLib projection, Monograph Corpus, dependency graph, and versioned research body.</p></a>
-  <a class="v2-tile" href="{{ '/results/' | relative_url }}"><h3>Results</h3><p>Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, Additional Derived Results, and Progress Against Agenda.</p></a>
+  <a class="v2-tile" href="{{ '/results/' | relative_url }}"><h3>Results</h3><p>Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.</p></a>
   <a class="v2-tile" href="{{ '/verify/' | relative_url }}"><h3>Verify</h3><p>Formal verification, scientific rigor, assessment protocols, predictions, falsification, and audit routes.</p></a>
   <a class="v2-tile" href="{{ '/publications/' | relative_url }}"><h3>Publications</h3><p>Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, Release Artifacts, and Errata.</p></a>
   <a class="v2-tile" href="{{ '/engage/' | relative_url }}"><h3>Engage</h3><p>Open questions, critique, review, media, support, and contribution routes without endorsement.</p></a>

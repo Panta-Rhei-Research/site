@@ -59,7 +59,7 @@ primary_lanes:
 
   - title: "Agenda"
     role: "Obligations"
-    description: "The public burden: what must be asked, recovered, built, refused, answered, and left open."
+    description: "The public burden: what language must be earned, which questions must be faced, what answer-shape is required, and what must be built."
     root_label: "Open Agenda"
     root_url: "/agenda/"
     links:
@@ -153,8 +153,8 @@ primary_lanes:
         url: "/results/metaphysics/"
       - title: "Landmark Results"
         url: "/results/landmark-results/"
-      - title: "Recovery Target Status"
-        url: "/results/recovery-target-status/"
+      - title: "Core Semantics Status"
+        url: "/results/core-semantics-status/"
       - title: "Progress Against Agenda"
         url: "/results/progress-against-agenda/"
       - title: "Classifications"

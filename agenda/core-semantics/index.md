@@ -5,7 +5,7 @@ deck: "The language, structures, laws, grammars, and refusal boundaries a cohere
 lane: agenda
 v2_lane: agenda
 section: research-agenda
-type: "Research Agenda Ledger"
+type: "Agenda Ledger"
 status: "Canonical"
 summary_short: "The language, structures, laws, grammars, and refusal boundaries a coherent theory of reality must be able to carry, retype, or explicitly challenge before it can answer."
 tags:
@@ -40,7 +40,7 @@ right_rail:
       url: /results/progress-against-agenda/
   meta:
     type: "Core Semantics"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "May 2026"
 last_updated: "May 2026"

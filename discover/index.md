@@ -9,7 +9,7 @@ status: "Canonical"
 summary_short: "A guided first-contact route into the Panta Rhei Research Program."
 og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
 twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
-og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Research Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
+og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
 tags:
   - discover
   - start-here
@@ -54,7 +54,7 @@ right_rail:
   meta:
     type: "Lane Root"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Overview
@@ -82,7 +82,7 @@ Use this chain to read the site: obligations first, construction second, consequ
 {% capture discover_plate_03_caption %}Before Results, there is obligation: the Agenda records external problems, core-semantics obligations, answer-shape discipline, and the logical build-order of the program.{% endcapture %}
 {% include scientific-plate.html id="plate-03-public-obligation-layer" variant="thumb" class="scientific-plate--compact" caption=discover_plate_03_caption loading="lazy" %}
 
-The Research Agenda states the burden: what must be kept visible, what must be recovered, what kind of answer could count, and what must be built first.
+Agenda states the burden: what language must be earned, which questions must remain visible, what kind of answer could count, and what must be built first.
 
 For journalists and public readers, the current [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) explains the safest first story: the inspection standard, not endorsement of the theory.
 
@@ -107,7 +107,7 @@ Open the [AI-Assisted Discovery prompt catalog]({{ '/discover/ai-assisted-discov
   <li><article><a class="v2-tile" href="{{ '/discover/key-results/' | relative_url }}"><h3>Key Results</h3><p>A curated set of flagship answer surfaces before the full ledger.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/big-questions/' | relative_url }}"><h3>Big Questions</h3><p>The major problem families that define the program's burden of proof.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/how-the-system-works/' | relative_url }}"><h3>How the System Works</h3><p>The lane architecture and public research pipeline in one place.</p></a></article></li>
-  <li><article><a class="v2-tile" href="{{ '/discover/guided-tours/' | relative_url }}"><h3>Guided Tours</h3><p>Curated pathways across Program, Agenda, Corpus, Results, Verify, and Publications.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/discover/guided-tours/' | relative_url }}"><h3>Guided Tours</h3><p>Curated pathways across Program, Agenda, Corpus, Results, Verify, Impact, Engage, and Artifacts &amp; Releases.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/follow-the-research/' | relative_url }}"><h3>Follow the Research</h3><p>Research Notes for ongoing scholarly writing; Changelog for site, release, and infrastructure updates.</p></a></article></li>
 </ul>
 
@@ -117,8 +117,8 @@ This is not a blog, not a monograph landing page, and not a documentation dump. 
 
 - **Program** explains identity, doctrine, scope, status, and why the public release is built as an inspection observatory.
 - **Agenda** states the obligations: Core Semantics, problem ledgers, answer-shape burden, refusals, and construction roadmap.
-- **Corpus** shows how the structure is built through the Construction Spine, Registry, TauLib projection, Research Monographs, and dependency graph.
-- **Results** is where the built Corpus becomes a world: Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, and Additional Derived Results.
+- **Corpus** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.
+- **Results** is where the built Corpus becomes a world: Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, and Additional Derived Results.
 - **Verify** explains how claims can be checked, challenged, formalized, bridged, falsified, or audited.
 - **Impact** maps conditional consequences if the work holds.
 - **Engage** gives open scrutiny, participation, contact, and contribution routes.

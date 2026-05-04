@@ -27,15 +27,6 @@
   </summary>
   <div class="result-plain-language-body">
     <p>{{ plain_language | strip_html }}</p>
-    {%- if page.plain_language_summary -%}
-    <p class="muted result-plain-language-source">
-      Hand-edited plain-language summary. The technical statement of this result follows below.
-    </p>
-    {%- else -%}
-    <p class="muted result-plain-language-source">
-      Auto-generated from the registry summary. The technical statement of this result follows below.
-    </p>
-    {%- endif -%}
   </div>
 </details>
 {%- endif -%}

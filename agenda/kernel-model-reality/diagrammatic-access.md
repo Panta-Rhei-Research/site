@@ -38,7 +38,7 @@ right_rail:
       url: /verify/verification-framework/
   meta:
     type: "Kernel Access Mode"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "May 2026"
 ---

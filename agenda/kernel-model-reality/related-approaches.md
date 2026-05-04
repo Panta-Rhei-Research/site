@@ -42,7 +42,7 @@ right_rail:
       url: /verify/scientific-rigor/
   meta:
     type: "Comparative Context"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "April 2026"
 ---

@@ -1,23 +1,20 @@
 ---
-layout: "program-doc"
-title: "Recovery Target Status: Physics"
-permalink: "/results/recovery-target-status/physics/"
-lane: "results"
-v2_lane: "results"
-type: "Result Mirror Domain"
-status: "Canonical"
-summary_short: "Current recovery status for Physics targets."
+layout: redirect
+title: "Recovery Target Status (moved to Core Semantics Status) — physics"
+permalink: /results/recovery-target-status/physics/
+sitemap: false
+robots: noindex,follow
+redirect_to: /results/core-semantics-status/physics/
+summary_short: "Public-facing route renamed in v4. Recovery Target Status is now Core Semantics Status."
+lane: results
+v2_lane: results
+type: "Compatibility Route"
+status: "Compatibility"
 ---
 
-<div class="notice note"><strong>Status note.</strong> Recovery status is internal unless formal or external verification is explicitly linked.</div>
+This page has moved to [/results/core-semantics-status/physics/](/results/core-semantics-status/physics/).
 
-## Items
+If you are not redirected automatically, follow the link above.
 
-- [Physical Quantity Types](/results/recovery-target-status/physics/physical-quantity-types/) - Partial
-- [Dimensional Algebra](/results/recovery-target-status/physics/dimensional-algebra/) - Partial
-- [Natural / Internal Unit System](/results/recovery-target-status/physics/natural-internal-unit-system/) - Partial
-- [SI / Empirical Calibration Bridge](/results/recovery-target-status/physics/si-empirical-calibration-bridge/) - Partial
-- [Fundamental Constants](/results/recovery-target-status/physics/fundamental-constants/) - Partial
-- [Core Dynamical Laws](/results/recovery-target-status/physics/core-dynamical-laws/) - Partial
-- [Physical Regime Bridges](/results/recovery-target-status/physics/physical-regime-bridges/) - Partial
-- [Empirical Observability and Measurement](/results/recovery-target-status/physics/empirical-observability-and-measurement/) - Partial
+<script>window.location.replace('/results/core-semantics-status/physics/');</script>
+<noscript><meta http-equiv="refresh" content="0; url=/results/core-semantics-status/physics/"></noscript>

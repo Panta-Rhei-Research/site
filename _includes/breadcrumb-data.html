@@ -107,9 +107,9 @@ Home::/|Program::/program/|About the Program::/program/about/|{{ page.title | re
   {%- endif -%}
 {%- elsif page.lane == 'program' and page.section == 'research-agenda' -%}
   {%- if page.url == '/agenda/' -%}
-Home::/|Program::/program/|Research Agenda::{{ page.url }}
+Home::/|Program::/program/|Agenda::{{ page.url }}
   {%- else -%}
-Home::/|Program::/program/|Research Agenda::/agenda/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+Home::/|Program::/program/|Agenda::/agenda/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
   {%- endif -%}
 {%- elsif page.lane == 'verify' and page.url contains '/verify/domain-verification/' -%}
   {%- if page.url == '/verify/domain-verification/' -%}

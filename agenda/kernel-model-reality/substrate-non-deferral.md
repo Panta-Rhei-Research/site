@@ -36,7 +36,7 @@ right_rail:
       url: /verify/formal-verification-stack/
   meta:
     type: "Kernel Principle"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "May 2026"
 ---

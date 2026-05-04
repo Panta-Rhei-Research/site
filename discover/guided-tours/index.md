@@ -46,7 +46,7 @@ Guided Tours are structured reading and inspection routes for different levels o
   </a>
   <a class="v2-tile" href="{{ '/results/' | relative_url }}">
     <h3>Results Tour</h3>
-    <p>Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, Additional Derived Results, and Progress Against Agenda.</p>
+    <p>Landmark Results, World Readouts, Problem Ledger Answers, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.</p>
   </a>
   <a class="v2-tile" href="{{ '/verify/how-to-verify-by-role/' | relative_url }}">
     <h3>Verify Tour</h3>

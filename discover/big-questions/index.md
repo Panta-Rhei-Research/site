@@ -17,7 +17,7 @@ tags:
   - construction-spine
 right_rail:
   related:
-    - title: "Research Agenda"
+    - title: "Agenda"
       url: /agenda/
     - title: "Problem Ledger Source Policy"
       url: /agenda/problem-ledger-source-policy/

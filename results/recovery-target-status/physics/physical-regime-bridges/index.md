@@ -1,59 +1,20 @@
 ---
-layout: "program-doc"
-title: "Physical Regime Bridges"
-permalink: "/results/recovery-target-status/physics/physical-regime-bridges/"
-lane: "results"
-v2_lane: "results"
-type: "Recovery Target Status"
-status: "Canonical"
-summary_short: "Current Results-side recovery status for Physical Regime Bridges."
-canonical_recovery_id: "PREC-P6"
+layout: redirect
+title: "Recovery Target Status (moved to Core Semantics Status) — physics / physical-regime-bridges"
+permalink: /results/recovery-target-status/physics/physical-regime-bridges/
+sitemap: false
+robots: noindex,follow
+redirect_to: /results/core-semantics-status/physics/physical-regime-bridges/
+summary_short: "Public-facing route renamed in v4. Recovery Target Status is now Core Semantics Status."
+lane: results
+v2_lane: results
+type: "Compatibility Route"
+status: "Compatibility"
 ---
 
-<div class="notice note"><strong>Status note.</strong> This page reports current recovery status. It does not imply external acceptance unless explicitly stated.</div>
+This page has moved to [/results/core-semantics-status/physics/physical-regime-bridges/](/results/core-semantics-status/physics/physical-regime-bridges/).
 
-## Status Separation
+If you are not redirected automatically, follow the link above.
 
-- Internal status: **Partial**
-- Verification state: **Pending physics verification**
-- External status: **Not externally reviewed**
-
-## Requirement
-
-Physical Regime Bridges
-
-## Current Recovery Status
-
-- Recovery status: **Partial**
-- Verification status: **Pending physics verification**
-- Program ledger item: [PREC-P6](/agenda/core-semantics/physics/physical-regime-bridges/)
-- Verification mode: `regime_bridge_review`
-
-## Result Summary
-
-Detailed result summary pending.
-
-## Related Result Items
-
-- [World Readout: Physics](/results/world-readout/physics/)
-- [Progress Against Agenda](/results/progress-against-agenda/)
-
-## Related Corpus Construction Steps
-
-- [Identify Physical Carrier](/corpus/construction-spine/identify-physical-carrier/)
-- [Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)
-
-## Related Verify Surfaces
-
-- [Domain Verification: Physics](/verify/domain-verification/physics/)
-- [Construction Spine Verification](/verify/construction-spine-verification/)
-
-## What This Status Does Not Yet Establish
-
-- External acceptance is not implied by this status.
-
-## Projection Metadata
-
-- Generated from: `corpus/recovery-requirements`
-- Projection version: `v0.1`
-- Do not edit generated projection: `True`
+<script>window.location.replace('/results/core-semantics-status/physics/physical-regime-bridges/');</script>
+<noscript><meta http-equiv="refresh" content="0; url=/results/core-semantics-status/physics/physical-regime-bridges/"></noscript>

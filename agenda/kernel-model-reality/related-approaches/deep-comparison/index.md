@@ -40,7 +40,7 @@ right_rail:
       url: /agenda/result-criteria/
   meta:
     type: "Comparative Context"
-    scope: "Research Agenda"
+    scope: "Agenda"
     status: "Canonical"
     updated: "April 2026"
 ---
@@ -174,7 +174,7 @@ Constructor theory usefully shifts attention from trajectories to possible and i
 
 Topos-theoretic and internal-logic approaches are natural neighbors because they weaken the presumption that one external classical stage governs all reasoning. Panta Rhei shares the interest in internal language, contextual truth, and structural environment. The additional burden is cross-domain recovery: internality must connect to physics, life, mind, and metaphysics rather than remain a formal habitat.
 
-Homotopy type theory and univalent foundations show how identity can be made structural and inspectable. That is congenial to Panta Rhei. But formal foundation is not the entire answer. The Research Agenda asks whether such formal discipline can participate in a larger recovery of measurement, life, and reality-talk without importing them as external subjects.
+Homotopy type theory and univalent foundations show how identity can be made structural and inspectable. That is congenial to Panta Rhei. But formal foundation is not the entire answer. The Agenda asks whether such formal discipline can participate in a larger recovery of measurement, life, and reality-talk without importing them as external subjects.
 
 ## Life And Mind Approaches
 
