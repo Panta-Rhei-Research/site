@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H6"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Review gateway for whether internal truth is earned inside the kernel rather than supplied from an external semantic theory.

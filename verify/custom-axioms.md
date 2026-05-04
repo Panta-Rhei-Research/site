@@ -22,7 +22,7 @@ right_rail:
     type: "Axiom Transparency"
     scope: "TauLib custom axioms"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 The [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) states, at the headline level, that TauLib contains **3 custom `axiom` declarations** beyond Mathlib's trusted base: **all 3 in Book III** (spectral / number-theoretic bridges). A previously shipping fourth axiom `central_theorem_physical : True` in Book IV was retired in `peer-review-fixes-v1` (2026-04-19) — an `axiom : True` declaration is a no-op (True is inhabited by `trivial`) and was identified in pre-publication simulated peer review as a null commitment that inflated the axiom inventory from 3 to 4 without adding anything to the theory. This page expands the accounting of the three remaining axioms.

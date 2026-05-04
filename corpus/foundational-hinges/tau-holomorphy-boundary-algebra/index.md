@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H5"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Review gateway for whether the boundary algebra supports a genuine transformation grammar rather than a relabeled notation.

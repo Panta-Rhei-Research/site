@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H7"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Review gateway for whether arithmetic in τ is recovered as canonical address resolution rather than imported as unrestricted equational calculation.

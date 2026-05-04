@@ -27,7 +27,7 @@ right_rail:
     type: "Domain Verification"
     domain: "Mathematics"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 glossary_term_ids:
   - MathG-D01-iota-tau
   - MathG-K01-universe-postulate

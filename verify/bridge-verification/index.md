@@ -19,7 +19,7 @@ right_rail:
     type: "Verification Surface"
     scope: "Bridge claims"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What This Page Verifies

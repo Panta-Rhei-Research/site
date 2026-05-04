@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H3"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Review gateway for whether the master constant is structurally forced by the kernel rather than fitted from downstream numerical targets.

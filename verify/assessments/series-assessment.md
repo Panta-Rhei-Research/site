@@ -18,7 +18,7 @@ right_rail:
     type: "Assessment Prompt"
     scope: "Full series"
     status: "Published"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Series-Level Assessment

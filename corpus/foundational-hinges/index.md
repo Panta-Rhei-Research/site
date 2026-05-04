@@ -26,7 +26,7 @@ right_rail:
     type: "Corpus Route"
     scope: "8 foundational hinges"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What this route is

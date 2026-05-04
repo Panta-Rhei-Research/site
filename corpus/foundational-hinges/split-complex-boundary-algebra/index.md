@@ -33,7 +33,7 @@ right_rail:
     type: "Foundational Hinge"
     scope: "H4"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 > Review gateway for whether the boundary algebra used by the framework is canonically forced rather than chosen for convenience.

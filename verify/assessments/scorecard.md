@@ -18,7 +18,7 @@ right_rail:
     type: "Assessment Protocol"
     scope: "Scoring table"
     status: "Published"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Purpose
