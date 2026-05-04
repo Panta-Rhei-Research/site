@@ -22,7 +22,7 @@ right_rail:
     updated: April 2026
 ---
 
-The Results lane has a unified browse surface where you can filter the generic Result catalogue by domain, enrichment layer, result kind, importance, status, and canonical book. These pages are supporting evidence, landmarks, predictions, falsification facets, and broader readouts. The exact one-to-one Problem Ledger mirror lives at [Challenge Responses]({{ '/results/challenge-responses/' | relative_url }}). Every card is pre-rendered in HTML, so the page remains crawlable and readable without JavaScript. With JavaScript enabled, filters and sorting narrow the view interactively, and the active filter state is shared via the URL.
+The Results lane has a unified browse surface where you can filter the generic Result catalogue by domain, enrichment layer, result kind, importance, status, and canonical book. These pages are supporting evidence, landmarks, predictions, falsification facets, and broader readouts. Results-side responses to the canonical Structural Challenge Ledger live at [Challenge Responses]({{ '/results/challenge-responses/' | relative_url }}). Every card is pre-rendered in HTML, so the page remains crawlable and readable without JavaScript. With JavaScript enabled, filters and sorting narrow the view interactively, and the active filter state is shared via the URL.
 
 The separate [Additional Noteworthy Results]({{ '/results/additional-noteworthy-results/' | relative_url }}) surface publishes Registry-backed results promoted from Corpus triage. Those pages are intentionally not counted inside this generic Result catalogue.
 

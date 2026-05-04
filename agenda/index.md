@@ -135,56 +135,58 @@ The Agenda is the obligation layer. It states the burdens the program accepts be
   <a class="btn-ghost" href="{{ '/verify/construction-spine-verification/' | relative_url }}">Verify the Construction Spine</a>
 </div>
 
-## Why a Problem Ledger?
+## Why a Structural Challenge Ledger?
 
-The program asks whether a constrained kernel can support a coherent theory of reality. Such a theory cannot be judged only by whether it can rephrase already established theories in a new language.
+The program asks whether a constrained kernel can support a coherent theory of reality. Such a theory cannot be judged only by whether it rephrases established theories.
 
-A serious candidate kernel must also be held against open problems: places where current knowledge does not yet close.
+It must also be tested against structural challenges: places where existing knowledge remains open, where a domain's language is still unstable, or where the framework must show that it can generate new routes to knowledge.
 
-For this reason, the Agenda uses external public problem ledgers as stress tests. The goal is not to cherry-pick convenient targets, but to ask whether the kernel can express, classify, constrain, answer, defer, or reject major open problems in a principled way.
+The [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/' | relative_url }}) is therefore not a raw import of public open-problem lists. Public lists are used as source feeds. A challenge enters the canonical ledger only when it tests one of the program's declared obligations: semantic generation, structural recovery, bridge adequacy, proof or formalization strength, prediction, falsification, explanatory compression, or a new route to knowledge.
 
 <table class="domain-ledger-rules">
-  <caption>Problem Ledger domain source rules</caption>
+  <caption>Structural Challenge Ledger domain source rules</caption>
   <thead>
     <tr>
       <th scope="col">Domain</th>
-      <th scope="col">Ledger Rule</th>
-      <th scope="col">Why Included</th>
+      <th scope="col">SCL rule</th>
+      <th scope="col">Why included</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">Mathematics</th>
-      <td>Clay 7 + Langlands</td>
-      <td>Foundational stress tests for a reconstructed mathematical kernel.</td>
+      <td>Curated: Clay + Langlands, selected Smale, Foundations &amp; Logic, τ-native clusters</td>
+      <td>Tests the mathematical and logical strength a theory of reality must earn.</td>
     </tr>
     <tr>
       <th scope="row">Physics</th>
-      <td>Full Wikipedia physics list</td>
-      <td>Least controversial public stress-test domain for formalized reality-description.</td>
+      <td>Wholesale external import, ringed and clustered, plus τ-native audit challenges</td>
+      <td>Physics is the most mature, formalized, measurement-facing public stress surface.</td>
     </tr>
     <tr>
       <th scope="row">Life</th>
-      <td>Full biology + neuroscience lists</td>
-      <td>Life and mind cannot be assumed reducible as a premise.</td>
+      <td>Curated 29 structural challenges</td>
+      <td>Tests life as such: definition, origin, substrate, code, evolution, morphology, cognition, artificial life, and life beyond Earth.</td>
     </tr>
     <tr>
       <th scope="row">Metaphysics / Philosophy</th>
-      <td>Full philosophical problems list</td>
-      <td>Ontology, knowledge, mind, meaning, proof, ethics, and science are in scope.</td>
+      <td>Curated 29 E₃ challenges</td>
+      <td>Tests ontology, truth, knowledge, logic, mind, normativity, religion, and proof/commitment boundaries.</td>
     </tr>
   </tbody>
 </table>
 
-## Core Semantics vs Problem Ledger
+The retired v1.0 Problem Ledger imported larger raw feeds for Life and Metaphysics. Those feeds are now provenance sources only. They do not define the canonical Life or Metaphysics challenge sets. See the [SCL Source Policy]({{ '/agenda/structural-challenge-ledger/source-policy/' | relative_url }}) for the full admission criteria.
 
-Core Semantics and Problem Ledger carry different burdens.
+## Core Semantics vs Structural Challenge Ledger
+
+Core Semantics and the Structural Challenge Ledger carry different burdens.
 
 **Core Semantics** asks whether the theory can carry, retype, refine, bridge, or explicitly challenge the established language and structures of the domains it addresses: formal reasoning, mathematical bridge criteria, physical measurement architecture, life-organization grammar, reflective meaning, and metaphysical intelligibility.
 
-**Problem Ledger** asks whether the theory can express, classify, constrain, answer, defer, reclassify, or reject external stress-test problems with reasons.
+**Structural Challenge Ledger** asks whether the theory can express, classify, constrain, answer, defer, reclassify, or reject curated structural challenges with reasons.
 
-The two belong together. A theory cannot credibly answer open problems if it cannot first earn the language those problems presuppose.
+The two belong together. A theory cannot credibly address structural challenges if it cannot first earn the language those challenges presuppose.
 
 ## Kernel, Model & Reality
 

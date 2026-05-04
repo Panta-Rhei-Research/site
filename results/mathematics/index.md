@@ -38,8 +38,18 @@ This is where it begins. Every numerical SI value in the [Physics cascade]({{ '/
   </a>
 
   <a class="v2-tile" href="{{ '/results/core-semantics-status/mathematics/' | relative_url }}">
-    <strong>Recovery Targets</strong>
-    <span>Mathematics-sector recovery requirements — known mathematical structures the kernel must rederive.</span>
+    <strong>Core Semantics Status</strong>
+    <span>Mathematics-sector Core Semantics status — known mathematical structures the kernel must rederive.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/mathematics/' | relative_url }}">
+    <strong>Structural Challenges</strong>
+    <span>The canonical Mathematics challenge set: canonical benchmarks, Smale-derived, Foundations &amp; Logic, and τ-native families.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/challenge-responses/mathematics/' | relative_url }}">
+    <strong>Challenge Responses</strong>
+    <span>Current τ responses to those challenges, with status, evidence route, and verification boundary.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
