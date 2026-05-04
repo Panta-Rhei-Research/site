@@ -31,7 +31,7 @@ sections:
       meta:
         type: "Release Snapshot"
         status: "Canonical"
-        updated: "April 2026"
+        updated: "May 2026"
     ---
   '__preamble__': |
 
@@ -158,7 +158,7 @@ sections:
 
 
 sha256_checksums:
-  '__frontmatter__': '1fe00850442b307f'
+  '__frontmatter__': 'e5c28ca2e7c66ca8'
   '__preamble__': '077bd63d09631831'
   'Release state and trusted base': '5645da445738eed8'
   'Release identity': 'ed67f7af74c0b89a'
