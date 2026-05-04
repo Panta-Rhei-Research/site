@@ -1,0 +1,119 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="challenge-response-article">
+<header class="hero-card">
+  <span class="eyebrow">{{ page.display_domain | default: page.domain | capitalize }} Challenge Response</span>
+  <h1>{{ page.short_title | default: page.title }}</h1>
+  <div class="chip-row" style="margin-top: 10px;">
+    {% if page.structural_challenge_id %}<span class="chip"><code>{{ page.structural_challenge_id }}</code></span>{% endif %}
+    {% if page.challenge_family %}<span class="chip">{{ page.challenge_family | replace: "_", " " }}</span>{% endif %}
+    {% if page.cluster %}<span class="chip">{{ page.cluster | replace: "-", " " | replace: "_", " " }}</span>{% endif %}
+    {% if page.response_status_label %}
+      <span class="chip">τ response: <strong>{{ page.response_status_label }}</strong></span>
+    {% elsif page.response_status %}
+      <span class="chip">τ response: <strong>{{ page.response_status | replace: "_", " " }}</strong></span>
+    {% endif %}
+    {% if page.external_status %}<span class="chip">External: {{ page.external_status | replace: "_", " " }}</span>{% endif %}
+    {% if page.verification_status %}<span class="chip">Verification: {{ page.verification_status | replace: "_", " " }}</span>{% endif %}
+  </div>
+  {% if page.response_summary and page.response_summary != "" %}
+  <p class="hero-deck">{{ page.response_summary }}</p>
+  {% endif %}
+</header>
+
+<section class="content-card" aria-labelledby="cr-link-heading">
+  <h2 id="cr-link-heading">Structural Challenge</h2>
+  <p>
+    This response is paired with its canonical Structural Challenge:
+    <a href="{{ page.challenge_url | relative_url }}"><strong>{{ page.short_title | default: page.title }}</strong></a>
+    (<code>{{ page.structural_challenge_id }}</code>) in the
+    <a href="{{ '/agenda/structural-challenge-ledger/' | append: page.domain_slug | append: '/' | relative_url }}">{{ page.display_domain | default: page.domain | capitalize }} Structural Challenge Ledger</a>.
+  </p>
+</section>
+
+{% if page.response_rationale and page.response_rationale != "" %}
+<section class="content-card" aria-labelledby="cr-response-heading">
+  <h2 id="cr-response-heading">τ response</h2>
+  <div class="prose">{{ page.response_rationale | markdownify }}</div>
+</section>
+{% endif %}
+
+<section class="content-card" aria-labelledby="cr-evidence-heading">
+  <h2 id="cr-evidence-heading">Evidence route</h2>
+  {% if page.registry_items.size > 0 %}
+    <p>This response is supported by <strong>{{ page.registry_items.size }}</strong> canonical registry item{% if page.registry_items.size != 1 %}s{% endif %} in the τ Corpus.</p>
+    <ul class="meta-list" style="font-size: 0.92rem;">
+      {% for ri in page.registry_items %}
+      <li class="meta-item">
+        <span><a href="{{ ri.url | relative_url }}"><code>{{ ri.registry_id }}</code></a> — {{ ri.title }}</span>
+        <span class="meta-value">
+          {% if ri.relation %}<span class="muted-note">{{ ri.relation | replace: "_", " " }}</span>{% endif %}
+          {% if ri.confidence %}<span class="chip" style="margin-left: 6px;">confidence: {{ ri.confidence }}</span>{% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="muted-note">No canonical registry items currently mapped to this challenge. Mapping pending τ-native or further-investigation curation.</p>
+  {% endif %}
+</section>
+
+{% if content != "" %}
+<section class="content-card" aria-labelledby="cr-body-heading">
+  <h2 id="cr-body-heading">Notes</h2>
+  <div class="prose">{{ content }}</div>
+</section>
+{% endif %}
+
+<section class="content-card" aria-labelledby="cr-verification-heading">
+  <h2 id="cr-verification-heading">Verification</h2>
+  <ul class="meta-list" style="font-size: 0.92rem;">
+    {% if page.verification_route %}
+    <li class="meta-item"><span>Verification route</span><span class="meta-value"><code>{{ page.verification_route }}</code></span></li>
+    {% endif %}
+    {% if page.verification_status %}
+    <li class="meta-item"><span>Verification status</span><span class="meta-value"><code>{{ page.verification_status }}</code></span></li>
+    {% endif %}
+    {% if page.external_status %}
+    <li class="meta-item"><span>External status</span><span class="meta-value"><code>{{ page.external_status }}</code></span></li>
+    {% endif %}
+  </ul>
+</section>
+
+{% if page.external_review_boundary and page.external_review_boundary != "" %}
+<section class="content-card" aria-labelledby="cr-boundary-heading">
+  <h2 id="cr-boundary-heading">External-review boundary</h2>
+  <p>{{ page.external_review_boundary }}</p>
+</section>
+{% endif %}
+
+{% if page.legacy_provenance %}
+<section class="content-card" aria-labelledby="cr-prov-heading">
+  <h2 id="cr-prov-heading">Provenance</h2>
+  <ul class="meta-list" style="font-size: 0.9rem;">
+    {% if page.legacy_provenance.v1_problem_ledger_id %}
+    <li class="meta-item"><span>v1 predecessor</span><span class="meta-value"><code>{{ page.legacy_provenance.v1_problem_ledger_id }}</code> ({{ page.legacy_provenance.v1_provenance_kind | replace: "_", " " }})</span></li>
+    {% else %}
+    <li class="meta-item"><span>v1 predecessor</span><span class="meta-value muted-note">none ({{ page.legacy_provenance.v1_provenance_kind | replace: "_", " " }})</span></li>
+    {% endif %}
+    {% if page.legacy_provenance.v1_answer_recovered_from %}
+    <li class="meta-item"><span>v1 mapping recovered from</span><span class="meta-value"><code>{{ page.legacy_provenance.v1_answer_recovered_from }}</code></span></li>
+    {% endif %}
+  </ul>
+</section>
+{% endif %}
+
+<section class="content-card" aria-labelledby="cr-disclaimer-heading">
+  <h2 id="cr-disclaimer-heading">Status disclaimer</h2>
+  <p class="muted-note" style="font-size: 0.9rem;">
+    A Challenge Response reports the program's current internal stance against a canonical Structural Challenge.
+    It does not imply external verification, scientific consensus, philosophical settlement, or final proof.
+    Read it together with its evidence route, registry references, verification status, and external-review boundary.
+  </p>
+</section>
+
+</article>
