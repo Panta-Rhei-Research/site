@@ -3,7 +3,578 @@
   "display_domain": "Metaphysics",
   "domain_slug": "metaphysics",
   "domain_order": 3,
-  "item_count": 0,
-  "items": [],
+  "item_count": 30,
+  "items": [
+    {
+      "challenge_id": "M-E3-01",
+      "title": "Being and the Question of Why There Is Something Rather Than Nothing",
+      "slug": "being-and-something-rather-than-nothing",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "internally_addressed",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/being-and-something-rather-than-nothing/",
+      "v1_problem_ledger_item_id": "meta-something-rather-than-nothing",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-02",
+      "title": "Ontic Adequacy and the Six Ontic Requirements",
+      "slug": "ontic-adequacy-six-requirements",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "tau_native",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/ontic-adequacy-six-requirements/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-03",
+      "title": "Universals, Properties, and Structural Positions",
+      "slug": "universals-properties-structural-positions",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "internally_addressed",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/universals-properties-structural-positions/",
+      "v1_problem_ledger_item_id": "meta-problem-of-universals",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-04",
+      "title": "Objecthood, Individuation, and Boundary Conditions",
+      "slug": "objecthood-individuation-boundary-conditions",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/objecthood-individuation-boundary-conditions/",
+      "v1_problem_ledger_item_id": "meta-principle-of-individuation",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-05",
+      "title": "Identity, Persistence, and Theseus-Class Transformations",
+      "slug": "identity-persistence-theseus",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/identity-persistence-theseus/",
+      "v1_problem_ledger_item_id": "meta-theseus-paradox",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-06",
+      "title": "Mathematical Objects and Abstract Reality",
+      "slug": "mathematical-objects-abstract-reality",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/mathematical-objects-abstract-reality/",
+      "v1_problem_ledger_item_id": "meta-mathematical-objects",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-07",
+      "title": "Realism, Anti-Realism, and Structural Realism",
+      "slug": "realism-antirealism-structural-realism",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/realism-antirealism-structural-realism/",
+      "v1_problem_ledger_item_id": "meta-realism",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-08",
+      "title": "Modality, Possibility, and Counterfactuals",
+      "slug": "modality-possibility-counterfactuals",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/modality-possibility-counterfactuals/",
+      "v1_problem_ledger_item_id": "meta-counterfactuals",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-09",
+      "title": "Causation and Lawhood",
+      "slug": "causation-lawhood",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/causation-lawhood/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-10",
+      "title": "Time, Temporality, and Persistence",
+      "slug": "time-temporality-persistence",
+      "cluster": "ontology-modality-reality",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/time-temporality-persistence/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-11",
+      "title": "Truth, Truthmakers, and Coherence-Correspondence",
+      "slug": "truth-truthmakers-coherence-correspondence",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/truth-truthmakers-coherence-correspondence/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-12",
+      "title": "Knowledge, Gettier, and Epistemic Luck",
+      "slug": "knowledge-gettier-epistemic-luck",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "internally_addressed",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/knowledge-gettier-epistemic-luck/",
+      "v1_problem_ledger_item_id": "meta-gettier-problem",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-13",
+      "title": "Justification Regress, Criterion, and Münchhausen",
+      "slug": "justification-regress-criterion-muenchhausen",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/justification-regress-criterion-muenchhausen/",
+      "v1_problem_ledger_item_id": "meta-problem-of-the-criterion",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-14",
+      "title": "Induction, Underdetermination, and Scientific Inference",
+      "slug": "induction-underdetermination-scientific-inference",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/induction-underdetermination-scientific-inference/",
+      "v1_problem_ledger_item_id": "meta-problem-of-induction",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-15",
+      "title": "Demarcation and the Boundary of Science",
+      "slug": "demarcation-science-boundary",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/demarcation-science-boundary/",
+      "v1_problem_ledger_item_id": "meta-demarcation-problem",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-16",
+      "title": "Implication, Consequence, and Material Implication",
+      "slug": "implication-consequence-material-implication",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/implication-consequence-material-implication/",
+      "v1_problem_ledger_item_id": "meta-material-implication",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-17",
+      "title": "Vagueness, Sorites, and Boundary Indeterminacy",
+      "slug": "vagueness-sorites-boundary-indeterminacy",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/vagueness-sorites-boundary-indeterminacy/",
+      "v1_problem_ledger_item_id": "meta-sorites-paradox",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-18",
+      "title": "Meaning, Reference, Language, and Intentionality",
+      "slug": "meaning-reference-language-intentionality",
+      "cluster": "knowledge-truth-logic-language",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/meaning-reference-language-intentionality/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-19",
+      "title": "Mind–Body Relation",
+      "slug": "mind-body-relation",
+      "cluster": "mind-consciousness-self-agency",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/mind-body-relation/",
+      "v1_problem_ledger_item_id": "meta-mind-body-problem",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-20",
+      "title": "Hard Problem of Consciousness",
+      "slug": "hard-problem-consciousness",
+      "cluster": "mind-consciousness-self-agency",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "partial",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/hard-problem-consciousness/",
+      "v1_problem_ledger_item_id": "meta-hard-problem-of-consciousness",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-21",
+      "title": "Qualia and Phenomenal Character",
+      "slug": "qualia-phenomenal-character",
+      "cluster": "mind-consciousness-self-agency",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/qualia-phenomenal-character/",
+      "v1_problem_ledger_item_id": "meta-qualia",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-22",
+      "title": "Personal Identity, Selfhood, and Narrative Continuity",
+      "slug": "personal-identity-selfhood-narrative-continuity",
+      "cluster": "mind-consciousness-self-agency",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/personal-identity-selfhood-narrative-continuity/",
+      "v1_problem_ledger_item_id": "meta-personal-identity",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-23",
+      "title": "Free Will, Agency, and Responsibility",
+      "slug": "free-will-agency-responsibility",
+      "cluster": "mind-consciousness-self-agency",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/free-will-agency-responsibility/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-24",
+      "title": "Cognition, AI, and Artificial Mind",
+      "slug": "cognition-ai-artificial-mind",
+      "cluster": "mind-consciousness-self-agency",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/cognition-ai-artificial-mind/",
+      "v1_problem_ledger_item_id": "meta-cognition-and-ai",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-25",
+      "title": "Moral Knowledge, Moral Realism, and Normative Truth",
+      "slug": "moral-knowledge-normative-truth",
+      "cluster": "normativity-religion-commitment",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/normativity-religion-commitment/moral-knowledge-normative-truth/",
+      "v1_problem_ledger_item_id": "meta-moral-knowledge",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-26",
+      "title": "Moral Luck, Control, and Responsibility",
+      "slug": "moral-luck-control-responsibility",
+      "cluster": "normativity-religion-commitment",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/normativity-religion-commitment/moral-luck-control-responsibility/",
+      "v1_problem_ledger_item_id": "meta-moral-luck",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-27",
+      "title": "Dignity, Normativity, and the Categorical Imperative",
+      "slug": "dignity-normativity-categorical-imperative",
+      "cluster": "normativity-religion-commitment",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/normativity-religion-commitment/dignity-normativity-categorical-imperative/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-28",
+      "title": "God, Logos, Religion, and Ultimate Reality",
+      "slug": "god-logos-religion-ultimate-reality",
+      "cluster": "normativity-religion-commitment",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/normativity-religion-commitment/god-logos-religion-ultimate-reality/",
+      "v1_problem_ledger_item_id": "meta-existence-of-god",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "M-E3-29",
+      "title": "Proof, Commitment, and the No-Forced-Stance Boundary",
+      "slug": "proof-commitment-no-forced-stance",
+      "cluster": "normativity-religion-commitment",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/normativity-religion-commitment/proof-commitment-no-forced-stance/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    },
+    {
+      "challenge_id": "MRC-01",
+      "title": "Perception and Cross-Modal Grounding (Molyneux Demoted)",
+      "slug": "perception-cross-modal-grounding-molyneux",
+      "cluster": "mind-consciousness-self-agency",
+      "ledger_type": "recovery_checkpoint",
+      "challenge_family": "structural_canonical",
+      "response_status": "recovery_checkpoint",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/perception-cross-modal-grounding-molyneux/",
+      "v1_problem_ledger_item_id": "meta-molyneux-problem",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "metaphysics"
+      ]
+    }
+  ],
   "clusters": []
 }
