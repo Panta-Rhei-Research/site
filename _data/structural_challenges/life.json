@@ -3,7 +3,559 @@
   "display_domain": "Life",
   "domain_slug": "life",
   "domain_order": 2,
-  "item_count": 0,
-  "items": [],
+  "item_count": 29,
+  "items": [
+    {
+      "challenge_id": "LIFE-SC-01",
+      "title": "What Is Life as a Structural Class?",
+      "slug": "what-is-life-structural-class",
+      "cluster": "definition-boundary",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "internally_addressed",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/definition-boundary/what-is-life-structural-class/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-02",
+      "title": "Boundary and Individuality Challenge",
+      "slug": "boundary-individuality",
+      "cluster": "definition-boundary",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/definition-boundary/boundary-individuality/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-03",
+      "title": "Life / Non-Life Phase Boundary Challenge",
+      "slug": "life-nonlife-phase-boundary",
+      "cluster": "definition-boundary",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "partially_addressed",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/definition-boundary/life-nonlife-phase-boundary/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-04",
+      "title": "Metabolism, Energy Throughput, and Entropy Export Challenge",
+      "slug": "metabolism-energy-throughput",
+      "cluster": "definition-boundary",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/definition-boundary/metabolism-energy-throughput/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-05",
+      "title": "Homeostasis, Repair, and Persistence Challenge",
+      "slug": "homeostasis-repair-persistence",
+      "cluster": "definition-boundary",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/definition-boundary/homeostasis-repair-persistence/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-06",
+      "title": "Abiogenesis as First Persistence Event",
+      "slug": "abiogenesis-first-persistence",
+      "cluster": "origin-substrate-life-as-could-be",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "internally_addressed",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/origin-substrate-life-as-could-be/abiogenesis-first-persistence/",
+      "v1_problem_ledger_item_id": "life-origin-of-life",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-07",
+      "title": "Structural Favorability versus Contingency of Life",
+      "slug": "structural-favorability-vs-contingency",
+      "cluster": "origin-substrate-life-as-could-be",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/origin-substrate-life-as-could-be/structural-favorability-vs-contingency/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-08",
+      "title": "Substrate Independence and Nonterran Life Challenge",
+      "slug": "substrate-independence-nonterran-life",
+      "cluster": "origin-substrate-life-as-could-be",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/origin-substrate-life-as-could-be/substrate-independence-nonterran-life/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-09",
+      "title": "Extraterrestrial Life and Biosignature Universality Challenge",
+      "slug": "extraterrestrial-life-biosignatures",
+      "cluster": "origin-substrate-life-as-could-be",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/origin-substrate-life-as-could-be/extraterrestrial-life-biosignatures/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-10",
+      "title": "Artificial and Synthetic Life Challenge",
+      "slug": "artificial-and-synthetic-life",
+      "cluster": "origin-substrate-life-as-could-be",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/origin-substrate-life-as-could-be/artificial-and-synthetic-life/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-11",
+      "title": "Biological Homochirality Challenge",
+      "slug": "biological-homochirality",
+      "cluster": "molecular-code-architecture",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "internally_addressed",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/molecular-code-architecture/biological-homochirality/",
+      "v1_problem_ledger_item_id": "life-biological-homochirality",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-12",
+      "title": "Universal Energy Currency and Chemiosmotic Coupling Challenge",
+      "slug": "universal-energy-currency",
+      "cluster": "molecular-code-architecture",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/molecular-code-architecture/universal-energy-currency/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-13",
+      "title": "Origin and Structure of the Genetic Code Challenge",
+      "slug": "genetic-code-origin-structure",
+      "cluster": "molecular-code-architecture",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/molecular-code-architecture/genetic-code-origin-structure/",
+      "v1_problem_ledger_item_id": "life-genetic-code-origin",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-14",
+      "title": "Central Dogma and Code-to-Form Morphism Challenge",
+      "slug": "central-dogma-code-to-form",
+      "cluster": "molecular-code-architecture",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/molecular-code-architecture/central-dogma-code-to-form/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-15",
+      "title": "Folding and Sequence-to-Structure Challenge",
+      "slug": "folding-and-sequence-to-structure",
+      "cluster": "molecular-code-architecture",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "partially_addressed",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/molecular-code-architecture/folding-and-sequence-to-structure/",
+      "v1_problem_ledger_item_id": "life-protein-folding",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-16",
+      "title": "Protocell, Membrane, and Compartmentalization Challenge",
+      "slug": "protocell-membrane-compartmentalization",
+      "cluster": "molecular-code-architecture",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/molecular-code-architecture/protocell-membrane-compartmentalization/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-17",
+      "title": "LUCA and Tree-of-Life Topology Challenge",
+      "slug": "luca-and-tree-of-life-topology",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "internally_addressed",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/luca-and-tree-of-life-topology/",
+      "v1_problem_ledger_item_id": "life-last-universal-common-ancestor",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-18",
+      "title": "Three-Domain Sector Taxonomy and Eukaryogenesis Challenge",
+      "slug": "three-domain-sector-taxonomy-eukaryogenesis",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/three-domain-sector-taxonomy-eukaryogenesis/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-19",
+      "title": "Major Evolutionary Transitions and Multicellularity Challenge",
+      "slug": "major-evolutionary-transitions-multicellularity",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/major-evolutionary-transitions-multicellularity/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-20",
+      "title": "Open-Ended Evolution and Evolvability Challenge",
+      "slug": "open-ended-evolution-evolvability",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/open-ended-evolution-evolvability/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-21",
+      "title": "Origin and Maintenance of Sexual Reproduction Challenge",
+      "slug": "sexual-reproduction",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/sexual-reproduction/",
+      "v1_problem_ledger_item_id": "life-origin-of-sexual-reproduction",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-22",
+      "title": "Morphogenesis, Body Plans, and Organ-Size Control Challenge",
+      "slug": "morphogenesis-body-plan-organ-size",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/morphogenesis-body-plan-organ-size/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-23",
+      "title": "Biological Time, Rhythms, and Developmental Timing Challenge",
+      "slug": "biological-time-rhythms-development",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/biological-time-rhythms-development/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-24",
+      "title": "Aging, Senescence, and Repair-Budget Challenge",
+      "slug": "aging-senescence-repair-budget",
+      "cluster": "evolution-morphology-tree",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/evolution-morphology-tree/aging-senescence-repair-budget/",
+      "v1_problem_ledger_item_id": "life-aging",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-25",
+      "title": "Ecosystems, Superorganisms, and Life-Basin Challenge",
+      "slug": "ecosystems-superorganisms-life-basins",
+      "cluster": "ecology-cognition-bridge",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/ecology-cognition-bridge/ecosystems-superorganisms-life-basins/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-26",
+      "title": "Agency, Cognition, and Decision-Making Challenge",
+      "slug": "agency-cognition-decision-making",
+      "cluster": "ecology-cognition-bridge",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/ecology-cognition-bridge/agency-cognition-decision-making/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-27",
+      "title": "Neural Computation, Perception, Learning, and Memory Challenge",
+      "slug": "neural-computation-perception-learning-memory",
+      "cluster": "ecology-cognition-bridge",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/ecology-cognition-bridge/neural-computation-perception-learning-memory/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-28",
+      "title": "Consciousness, Language, and Life-Mind Bridge Challenge",
+      "slug": "consciousness-language-life-mind-bridge",
+      "cluster": "ecology-cognition-bridge",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "structural_canonical",
+      "response_status": "partial",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/ecology-cognition-bridge/consciousness-language-life-mind-bridge/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    },
+    {
+      "challenge_id": "LIFE-SC-29",
+      "title": "Cosmic Life and Non-Organism Carriers Challenge",
+      "slug": "cosmic-life-nonorganism-carriers",
+      "cluster": "ecology-cognition-bridge",
+      "ledger_type": "tau_native",
+      "challenge_family": "structural_canonical",
+      "response_status": "tau_native",
+      "external_status": "not_applicable",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/life/ecology-cognition-bridge/cosmic-life-nonorganism-carriers/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "life"
+      ]
+    }
+  ],
   "clusters": []
 }
