@@ -96,7 +96,7 @@ energy:
   title: "Energy"
   family_key: "energy-solar"
   family: "Energy & Solar Systems"
-  summary_short: "A conditional public-good portfolio for applying a physically faithful tau energy-system twin to improve grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twins, and whole-system energy planning."
+  summary_short: "A conditional public-good portfolio for exploring whether a verified tau-informed energy-system model could become relevant to grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twin research, and whole-system energy planning."
   url: "/impact/global-public-good/energy/"
   paper_count: 5
   briefing_count: 5
@@ -119,7 +119,7 @@ ocean:
   title: "Ocean"
   family_key: "water-ocean"
   family: "Water & Ocean Systems"
-  summary_short: "A conditional public-good portfolio for using one shared ocean-state twin to serve trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
+  summary_short: "A conditional public-good portfolio for exploring whether a shared ocean-state model could become relevant to trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
   url: "/impact/global-public-good/ocean/"
   paper_count: 4
   briefing_count: 4
@@ -142,7 +142,7 @@ one-health:
   title: "One Health"
   family_key: "food-life-health"
   family: "Food, Life & Health Systems"
-  summary_short: "A conditional public-good portfolio for using one shared environmental-biological-operational twin to improve disease early warning, health-system resilience, environmental surveillance, food safety, and precision public health simultaneously."
+  summary_short: "A conditional public-good portfolio for exploring whether an integrated environmental-biological-operational model could become relevant to disease early warning, health-system resilience, environmental surveillance, food safety, and precision public health simultaneously."
   url: "/impact/global-public-good/one-health/"
   paper_count: 4
   briefing_count: 4

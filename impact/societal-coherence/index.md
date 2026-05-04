@@ -24,7 +24,7 @@ right_rail:
     type: "Impact Stratum"
     scope: "Societal coherence"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Reading discipline
@@ -258,7 +258,7 @@ It does not claim that science alone can ground ethics.
 
 It does not claim that mathematical structure directly yields moral law.
 
-It does not claim that Kantian ethics should be imposed as global culture.
+It does not claim that any one philosophical, religious, cultural, or ethical tradition owns moral structure.
 
 It does not claim that one civilization, tradition, religion, or philosophical school owns moral structure.
 
