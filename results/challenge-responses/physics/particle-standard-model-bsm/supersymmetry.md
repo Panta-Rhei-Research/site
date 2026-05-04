@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/particle-standard-mod
 response_id: response-P087
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - IV.R110
@@ -69,50 +69,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Supersymmetry — Challenge Response
-
-**Structural Challenge:** [Supersymmetry](/agenda/structural-challenge-ledger/physics/particle-standard-model-bsm/supersymmetry/) (`P087`)
-**Domain:** Physics · **Cluster:** particle standard model bsm
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Supersymmetry — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **4** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **IV.R110** — No BSM particles (boundary_or_nonclaim; confidence: high)
-- **IV.R35** — Structural Framework Account of Hierarchy (direct_problem_account; confidence: high)
-- **V.R245** — Comparison with orthodox unification (direct_problem_account; confidence: high)
-- **V.R343** — Supersymmetry unnecessary (boundary_or_nonclaim; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External particle-physics review of the τ formulation versus Standard-Model and BSM programs; comparison against LHC/ATLAS/CMS, neutrino, and precision-electroweak measurements.
-
-## Provenance
-
-- **v1 predecessor:** `phys-supersymmetry` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

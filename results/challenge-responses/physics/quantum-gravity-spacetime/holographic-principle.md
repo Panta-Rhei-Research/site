@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/quantum-gravity-space
 response_id: response-P035
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - II.C01
@@ -53,48 +53,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Holographic principle — Challenge Response
-
-**Structural Challenge:** [Holographic principle](/agenda/structural-challenge-ledger/physics/quantum-gravity-spacetime/holographic-principle/) (`P035`)
-**Domain:** Physics · **Cluster:** quantum gravity spacetime
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Holographic principle — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **2** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **II.C01** — Holographic Principle (direct_problem_account; confidence: high)
-- **II.T40** — Central Theorem (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `bridge_verification`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External physics review of the τ formulation versus quantum-gravity / spacetime programs (string, LQG, asymptotic safety, etc.); comparison against named experiments (EHT, GW observatories) where falsification paths exist.
-
-## Provenance
-
-- **v1 predecessor:** `phys-holographic-principle` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

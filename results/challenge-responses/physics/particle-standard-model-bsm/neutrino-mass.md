@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/particle-standard-mod
 response_id: response-P050
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - IV.D124
@@ -75,51 +75,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Neutrino mass — Challenge Response
-
-**Structural Challenge:** [Neutrino mass](/agenda/structural-challenge-ledger/physics/particle-standard-model-bsm/neutrino-mass/) (`P050`)
-**Domain:** Physics · **Cluster:** particle standard model bsm
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Neutrino mass — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **5** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **IV.D124** — Neutrino as Time-Eigenmode (bridge_structure; confidence: high)
-- **IV.D125** — Neutrino Flavor Eigenstates (bridge_structure; confidence: high)
-- **IV.D126** — PMNS Matrix (bridge_structure; confidence: high)
-- **IV.D523** — Neutrino Oscillations (bridge_structure; confidence: high)
-- **IV.P391** — Normal Mass Ordering from -Polarity --- V.P127 (bridge_structure; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External particle-physics review of the τ formulation versus Standard-Model and BSM programs; comparison against LHC/ATLAS/CMS, neutrino, and precision-electroweak measurements.
-
-## Provenance
-
-- **v1 predecessor:** `phys-neutrino-mass` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

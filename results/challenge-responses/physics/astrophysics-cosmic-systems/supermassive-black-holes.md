@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/astrophysics-cosmic-s
 response_id: response-P085
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - V.P163
@@ -53,48 +53,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Supermassive black holes — Challenge Response
-
-**Structural Challenge:** [Supermassive black holes](/agenda/structural-challenge-ledger/physics/astrophysics-cosmic-systems/supermassive-black-holes/) (`P085`)
-**Domain:** Physics · **Cluster:** astrophysics cosmic systems
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Supermassive black holes — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **2** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **V.P163** — SFE Enhancement Factor (direct_problem_account; confidence: high)
-- **V.T239** — JWST Enhancement Theorem (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External astrophysics review of the τ formulation; comparison against observational programs covering jets, FRBs, magnetars, AGN, and cosmic-ray physics.
-
-## Provenance
-
-- **v1 predecessor:** `phys-supermassive-black-holes` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

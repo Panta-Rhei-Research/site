@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/metaphysics/ontology-modality
 response_id: response-M-E3-03
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - VII.D36
@@ -53,48 +53,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - metaphysics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Universals, Properties, and Structural Positions — Challenge Response
-
-**Structural Challenge:** [Universals, Properties, and Structural Positions](/agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/universals-properties-structural-positions/) (`M-E3-03`)
-**Domain:** Metaphysics · **Cluster:** ontology modality reality
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Do properties, types, or universals exist independently, only in language, only in minds, or as structural positions within a coherent reality?
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **2** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **VII.D36** — Abstract Object as Structural Position (bridge_structure; confidence: high)
-- **VII.D40** — Non-Dualistic Platonism (bridge_structure; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `categorical_register_check`
-- **Verification status:** `pending_external_review`
-- **External status:** `philosophical_foundational_debate`
-
-## External-review boundary
-
-External philosophy review of the τ formulation versus established ontological positions (realism, nominalism, structural realism, modal realism); adjudication of how Reg_E/P/D/C readouts resolve classical disputes.
-
-## Provenance
-
-- **v1 predecessor:** `meta-problem-of-universals` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

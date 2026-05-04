@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/cosmology-dark-sector
 response_id: response-P091
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - V.R221
@@ -68,50 +68,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# The lithium problem — Challenge Response
-
-**Structural Challenge:** [The lithium problem](/agenda/structural-challenge-ledger/physics/cosmology-dark-sector/the-lithium-problem/) (`P091`)
-**Domain:** Physics · **Cluster:** cosmology dark sector
-**Response status:** **Internally addressed**
-
-## Challenge
-
-The lithium problem — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **4** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **V.R221** — The lithium problem (direct_problem_account; confidence: high)
-- **V.T243** — Suppression = 1/dim(τ³) = 1/3 (direct_problem_account; confidence: high)
-- **V.T244** — Li-7 Framework Account (direct_problem_account; confidence: high)
-- **V.T313** — Lithium-7 framework account (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External cosmology review of the τ formulation versus ΛCDM and dark-sector alternatives; comparison against named experiments (Planck, DESI, Euclid, JWST) where falsification paths exist.
-
-## Provenance
-
-- **v1 predecessor:** `phys-the-lithium-problem` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.
