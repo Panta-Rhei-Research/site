@@ -3,7 +3,730 @@
   "display_domain": "Mathematics",
   "domain_slug": "mathematics",
   "domain_order": 0,
-  "item_count": 0,
-  "items": [],
+  "item_count": 38,
+  "items": [
+    {
+      "challenge_id": "CB-BSD",
+      "title": "Birch and Swinnerton-Dyer Conjecture",
+      "slug": "birch-swinnerton-dyer-conjecture",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/birch-swinnerton-dyer-conjecture/",
+      "v1_problem_ledger_item_id": "math-birch-swinnerton-dyer-conjecture",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-GRAND-GRH",
+      "title": "Grand GRH and the Spectral-Arithmetic Hierarchy",
+      "slug": "grand-grh-spectral-arithmetic-hierarchy",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "tau_native",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/grand-grh-spectral-arithmetic-hierarchy/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-HODGE",
+      "title": "Hodge Conjecture",
+      "slug": "hodge-conjecture",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/hodge-conjecture/",
+      "v1_problem_ledger_item_id": "math-hodge-conjecture",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-LANGLANDS",
+      "title": "Langlands Program",
+      "slug": "langlands-program",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "programmatic_not_single_problem",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/langlands-program/",
+      "v1_problem_ledger_item_id": "math-langlands-program",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-NAVIER-STOKES",
+      "title": "Navier–Stokes Existence and Smoothness",
+      "slug": "navier-stokes-existence-smoothness",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/navier-stokes-existence-smoothness/",
+      "v1_problem_ledger_item_id": "math-navier-stokes-existence-smoothness",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-POINCARE",
+      "title": "Poincaré Conjecture",
+      "slug": "poincare-conjecture",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "recovery_checkpoint",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "external_recovery_checkpoint",
+      "external_status": "externally_solved",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/poincare-conjecture/",
+      "v1_problem_ledger_item_id": "math-poincare-conjecture",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-PVSNP",
+      "title": "P versus NP",
+      "slug": "p-vs-np",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/p-vs-np/",
+      "v1_problem_ledger_item_id": "math-p-vs-np",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-RIEMANN",
+      "title": "Riemann Hypothesis",
+      "slug": "riemann-hypothesis",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/riemann-hypothesis/",
+      "v1_problem_ledger_item_id": "math-riemann-hypothesis",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "CB-YANG-MILLS",
+      "title": "Yang–Mills Existence and Mass Gap",
+      "slug": "yang-mills-existence-mass-gap",
+      "cluster": "canonical-benchmarks",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "canonical_benchmark",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/yang-mills-existence-mass-gap/",
+      "v1_problem_ledger_item_id": "math-yang-mills-existence-mass-gap",
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F1",
+      "title": "Foundational Adequacy Challenge",
+      "slug": "foundational-adequacy",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/foundational-adequacy/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F10",
+      "title": "Linear / Resource-Sensitive Logic Challenge",
+      "slug": "linear-resource-sensitive-logic",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "further_investigation",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/linear-resource-sensitive-logic/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F11",
+      "title": "Paraconsistent / Belnap-Style Logic Challenge",
+      "slug": "paraconsistent-belnap-logic",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "further_investigation",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/paraconsistent-belnap-logic/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F12",
+      "title": "Internal Logic Challenge",
+      "slug": "internal-logic",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "partially_addressed",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/internal-logic/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F13",
+      "title": "Set-Theoretic Strength Challenge",
+      "slug": "set-theoretic-strength",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/set-theoretic-strength/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F14",
+      "title": "Independence and Large-Cardinal Challenge",
+      "slug": "independence-large-cardinals",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "further_investigation",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/independence-large-cardinals/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F15",
+      "title": "Proof-Theoretic Strength Challenge",
+      "slug": "proof-theoretic-strength",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "further_investigation",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/proof-theoretic-strength/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F16",
+      "title": "Computability and Formalization Challenge",
+      "slug": "computability-formalization",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "partially_addressed",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/computability-formalization/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F17",
+      "title": "Ontology of Mathematical Objects Challenge",
+      "slug": "ontology-of-mathematical-objects",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/ontology-of-mathematical-objects/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F18",
+      "title": "Pluralism versus Uniqueness Challenge",
+      "slug": "pluralism-versus-uniqueness",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/pluralism-versus-uniqueness/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F2",
+      "title": "Minimal Expressive Power Challenge",
+      "slug": "minimal-expressive-power",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "further_investigation",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/minimal-expressive-power/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F3",
+      "title": "Finitism / Constructivism Boundary Challenge",
+      "slug": "finitism-constructivism-boundary",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/finitism-constructivism-boundary/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F4",
+      "title": "Continuum Ontic-Status Challenge",
+      "slug": "continuum-ontic-status",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/continuum-ontic-status/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F5",
+      "title": "Gödel Limitation Challenge",
+      "slug": "godel-limitation",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "partially_addressed",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/godel-limitation/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F6",
+      "title": "Consistency and Relative-Consistency Challenge",
+      "slug": "consistency-relative-consistency",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/consistency-relative-consistency/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F7",
+      "title": "Categoricity / Non-Categoricity Challenge",
+      "slug": "categoricity-noncategoricity",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/categoricity-noncategoricity/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F8",
+      "title": "Categorical Foundations Challenge",
+      "slug": "categorical-foundations",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "partially_addressed",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/categorical-foundations/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "F9",
+      "title": "Type-Theoretic / Univalent Foundations Challenge",
+      "slug": "type-theoretic-univalent-foundations",
+      "cluster": "foundations-logic",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "foundations_logic",
+      "response_status": "structurally_constrained",
+      "external_status": "philosophical_foundational_debate",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/foundations-logic/type-theoretic-univalent-foundations/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S11",
+      "title": "Generic Hyperbolicity Challenge",
+      "slug": "generic-hyperbolicity",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/generic-hyperbolicity/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S13",
+      "title": "Algebraic Cycles and Limit-Cycle Challenge",
+      "slug": "algebraic-cycles-limit-cycles",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/algebraic-cycles-limit-cycles/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S14",
+      "title": "Lorenz Attractor Recovery Checkpoint",
+      "slug": "lorenz-attractor-recovery",
+      "cluster": "smale-derived",
+      "ledger_type": "recovery_checkpoint",
+      "challenge_family": "smale_derived",
+      "response_status": "external_recovery_checkpoint",
+      "external_status": "externally_solved",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/lorenz-attractor-recovery/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S16",
+      "title": "Local-to-Global Invertibility Challenge",
+      "slug": "local-to-global-invertibility",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/local-to-global-invertibility/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S17",
+      "title": "Average Polynomial Solving Recovery Checkpoint",
+      "slug": "average-polynomial-solving-recovery",
+      "cluster": "smale-derived",
+      "ledger_type": "recovery_checkpoint",
+      "challenge_family": "smale_derived",
+      "response_status": "external_recovery_checkpoint",
+      "external_status": "externally_solved",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/average-polynomial-solving-recovery/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S18",
+      "title": "Formal Limits of Intelligence Challenge",
+      "slug": "formal-limits-of-intelligence",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/formal-limits-of-intelligence/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S4",
+      "title": "Sparse Arithmetic Zero Challenge",
+      "slug": "sparse-arithmetic-zero",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/sparse-arithmetic-zero/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S5",
+      "title": "Diophantine Addressability and Height-Bound Challenge",
+      "slug": "diophantine-addressability-height-bounds",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/diophantine-addressability-height-bounds/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S6",
+      "title": "Central Configuration Finiteness Challenge",
+      "slug": "central-configuration-finiteness",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/central-configuration-finiteness/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S7",
+      "title": "Spherical Capacity and Optimal Distribution Challenge",
+      "slug": "spherical-capacity-optimal-distribution",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "structurally_constrained",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/spherical-capacity-optimal-distribution/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    },
+    {
+      "challenge_id": "S9",
+      "title": "Strongly Polynomial Optimization Challenge",
+      "slug": "strongly-polynomial-optimization",
+      "cluster": "smale-derived",
+      "ledger_type": "structural_challenge",
+      "challenge_family": "smale_derived",
+      "response_status": "further_investigation",
+      "external_status": "externally_open",
+      "ring_depth": "",
+      "physics_core_weight": "",
+      "url": "/agenda/structural-challenge-ledger/mathematics/smale-derived/strongly-polynomial-optimization/",
+      "v1_problem_ledger_item_id": null,
+      "review_priority": "medium",
+      "tags": [
+        "structural-challenge",
+        "mathematics"
+      ]
+    }
+  ],
   "clusters": []
 }
