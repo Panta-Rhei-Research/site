@@ -1,0 +1,20 @@
+{% comment %}
+Card component for Structural Challenge Ledger entries.
+
+Usage:
+  {% include structural-challenge-card.html challenge=item %}
+
+Where `challenge` is a hash from the manifest emitted by
+corpus/scripts/export_structural_challenges.py.
+{% endcomment %}
+{% assign c = include.challenge %}
+<article class="v2-card scl-card" data-status="{{ c.response_status }}" data-family="{{ c.challenge_family }}" data-cluster="{{ c.cluster }}">
+  <header class="scl-card-header">
+    {% if c.challenge_id %}<span class="chip"><code>{{ c.challenge_id }}</code></span>{% endif %}
+    {% if c.response_status %}<span class="chip">{{ c.response_status | replace: "_", " " }}</span>{% endif %}
+    {% if c.ring_depth %}<span class="chip">{{ c.ring_depth | replace: "_", " " }}</span>{% endif %}
+  </header>
+  <h3><a href="{{ c.url | relative_url }}">{{ c.title }}</a></h3>
+  {% if c.summary %}<p class="scl-card-summary">{{ c.summary }}</p>{% endif %}
+  {% if c.cluster %}<p class="scl-card-cluster muted-note">{{ c.cluster | replace: "-", " " | replace: "_", " " }}</p>{% endif %}
+</article>
