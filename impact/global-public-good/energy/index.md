@@ -13,7 +13,7 @@ right_rail:
     horizon: "Medium"
     stage: "Conceptual"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Portfolio Focus
