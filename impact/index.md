@@ -21,24 +21,58 @@ right_rail:
     -
       title: "Public-Good Briefings"
       url: "/publications/research-briefings/public-good/"
+    -
+      title: "Verify"
+      url: "/verify/"
+    -
+      title: "Results"
+      url: "/results/"
+    -
+      title: "The Shape of a Theory of Reality"
+      url: "/publications/white-papers/the-shape-of-a-theory-of-reality/"
+    -
+      title: "Building a Public Research Observatory"
+      url: "/publications/white-papers/building-a-public-research-observatory/"
+    -
+      title: "Inspection Architecture for High-Scope Open Research"
+      url: "/publications/white-papers/inspection-architecture-high-scope-open-research/"
   meta:
     type: "Lane Root"
     scope: "Conditional consequences"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What this lane is
+
+Impact maps what could matter if the work survives inspection.
 
 Impact is the conditional consequence layer of the site. It asks what might become relevant if specific Results survive verification, translation, and domain uptake.
 
 Impact pages describe conditional consequence structures. They help readers understand possible implications without turning those implications into promises.
 
+## Why Impact is part of the research obligation
+
+Panta Rhei is an independent open research program dedicated to building a coherent theory of reality. That scope creates a public-relevance obligation: the program must explain why the work could matter beyond its founders and immediate reviewers if the construction and results survive inspection.
+
+Impact is not a claim of success. It is the conditional public-relevance map of the program.
+
+It asks:
+
+- If the construction holds, what could change in foundational science?
+- If the bridges survive scrutiny, what could become relevant for applied science?
+- If the structure becomes teachable, what could change in education?
+- If the world-picture holds, what could change in existential orientation?
+- If the scientific image becomes more coherent, what could change in public reason?
+- If applied translations become possible, what global public-good portfolios could be worth investigating?
+
+The impact chain begins downstream of Results, but the Impact lane also explains why the program's scope is worth making inspectable in the first place.
+
 ## What this lane is not
 
 Impact is not a promise of social, scientific, technological, educational, existential, or institutional adoption.
 
-It is not a product roadmap. It is not a deployment claim. It is not a claim that the framework has already transformed any domain.
+It is not a product roadmap. It is not a deployment claim. It is not a claim that the Panta Rhei construction has already transformed any domain.
 
 Results and Verify remain upstream. Translation and domain uptake remain required before any impact claim becomes actionable.
 
@@ -108,3 +142,9 @@ Impact is conditional. Each consequence depends on upstream Results, verificatio
 ## Important Note
 
 The word **if** is load-bearing. Impact remains downstream of explicit assumptions, translation layers, and survival under scrutiny. For the publication index of these conditional scenario artifacts, see [Public-Good Briefings]({{ '/publications/research-briefings/public-good/' | relative_url }}).
+
+## Related public packages
+
+- **[Inspection Architecture for High-Scope Open Research]({{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }})** explains why high-scope open research should expose inspection architecture before belief.
+- **[The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }})** explains why a coherent theory of reality carries a conditional public-relevance burden.
+- **[Building a Public Research Observatory]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }})** explains how Impact functions as one lane in the public research observatory.

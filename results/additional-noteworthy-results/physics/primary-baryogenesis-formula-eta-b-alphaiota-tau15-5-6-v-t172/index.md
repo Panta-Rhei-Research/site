@@ -65,7 +65,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter"
     title: "Matter–antimatter asymmetry Theoretical models suggest that the early universe should have produced equal amounts of matter and antimatter"
-    url: "/results/problem-ledger-answers/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/"
+    url: "/results/challenge-responses/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -119,7 +119,7 @@ This is a public Results-lane surface for a noteworthy Physics Registry item. It
 - [Baryon Asymmetry η_B](/predictions/b-42/)
 - [Baryogenesis: η_B = α·ιτ¹⁵·(5/6) at −1%](/results/problem/baryogenesis-eta-b/)
 - matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter
-- [Matter–antimatter asymmetry Theoretical models suggest that the early universe should have produced equal amounts of matter and antimatter](/results/problem-ledger-answers/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/)
+- [Matter–antimatter asymmetry Theoretical models suggest that the early universe should have produced equal amounts of matter and antimatter](/results/challenge-responses/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/)
 - [GW Echo Times t± = 4GM·ι_τ^{±1}/c³](/registry/object/V.T169/)
 - [Baryogenesis Exponent 15 = dim(τ³) × |generators|](/registry/object/V.T170/)
 

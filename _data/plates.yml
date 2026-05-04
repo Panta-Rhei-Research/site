@@ -11,13 +11,13 @@
     - /discover/
   caption: >
     The Panta Rhei website is structured as a public research observatory:
-    Research Agenda states the obligations, Corpus carries the construction,
+    Agenda states the obligations, Corpus carries the construction,
     Results reports current consequences, Verify exposes inspection routes,
     Publications holds stable artifacts, Impact maps conditional implications,
     and Engage invites structured scrutiny without endorsement.
   alt: >
     Scientific plate showing the Panta Rhei Research Program as a public research observatory,
-    with a central spine from Research Agenda to Corpus to Results to Verify,
+    with a central spine from Agenda to Corpus to Results to Verify,
     surrounded by Discover, Program, Publications, Impact, Engage, inspectability surfaces,
     and world readouts for mathematics, physics, life, and metaphysics.
 - id: plate-02-from-obligation-to-inspection
@@ -29,16 +29,16 @@
   thumbnail: /assets/images/plates/plate-02-from-obligation-to-inspection-thumb.webp
   og_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
   pages:
-    - /program/research-agenda/
+    - /agenda/
     - /discover/
   caption: >
     Panta Rhei asks to be read through a public chain of accountability:
-    Research Agenda states the obligations, Corpus carries the construction,
+    Agenda states the obligations, Corpus carries the construction,
     Results reports what follows, and Verify exposes how claims can be inspected,
     challenged, and tested.
   alt: >
     Scientific plate titled From Obligation to Inspection, showing the Panta Rhei
-    accountability chain from Research Agenda to Corpus to Results to Verify,
+    accountability chain from Agenda to Corpus to Results to Verify,
     with corresponding stages of obligation, construction, consequence, and inspection.
 - id: plate-03-public-obligation-layer
   title: The Public Obligation Layer
@@ -49,17 +49,17 @@
   thumbnail: /assets/images/plates/plate-03-public-obligation-layer-thumb.webp
   og_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
   pages:
-    - /program/research-agenda/
+    - /agenda/
     - /program/
     - /discover/
   caption: >
-    The Research Agenda is the program's public obligation layer: it records
-    the open problems, recovery requirements, answer-shape burden, and
-    construction order that must be stated before Results are read as consequences.
+    The Agenda is the program's public obligation layer: it records Core Semantics,
+    Problem Ledger, answer-shape burden, and construction order before Results
+    are read as consequences.
   alt: >
-    Scientific plate titled The Public Obligation Layer, showing the Research Agenda
-    as a public research contract connected to four surfaces: Problem Ledger,
-    Recovery Requirements, Kernel, Model & Reality, and Construction Roadmap.
+    Scientific plate titled The Public Obligation Layer, showing the Agenda
+    as a public research contract connected to four surfaces: Core Semantics,
+    Problem Ledger, Kernel, Model & Reality, and Construction Roadmap.
 - id: plate-04-construction-spine
   title: The Construction Spine
   status: published
@@ -71,16 +71,16 @@
   pages:
     - /corpus/
     - /corpus/construction-spine/
-    - /program/research-agenda/construction-roadmap/
+    - /agenda/construction-roadmap/
   caption: >
     The Construction Spine is the Corpus-side build narrative: ten canonical
     steps from kernel definition through mathematics, physics, life, reflective
     structure, self-hosting, and ontic closure, with public projections through
-    the Registry, TauLib, Research Monographs, and Corpus Graph.
+    the Registry, TauLib, Monograph Corpus, and Corpus Graph.
   alt: >
     Scientific plate titled The Construction Spine, showing a vertical ten-step
     build sequence from Kernel to Ontic Closure, with side projections for
-    Registry, TauLib, Research Monographs, and Corpus Graph.
+    Registry, TauLib, Monograph Corpus, and Corpus Graph.
 - id: plate-05-results-world-readout
   title: The Results World Readout
   status: published
@@ -96,8 +96,8 @@
     - /results/progress-against-agenda/
   caption: >
     Results are not isolated claims. They are consequences of the built Corpus,
-    organized through Landmark Results, World Readouts, Problem Ledger Answers,
-    Recovery Target Status, Additional Derived Results, and Progress Against Agenda,
+    organized through Landmark Results, World Readouts, Challenge Responses,
+    Core Semantics Status, Additional Derived Results, and Progress Against Agenda,
     with internal status labels separated from external acceptance.
   alt: >
     Scientific plate titled The Results World Readout, showing Results at the center
@@ -249,7 +249,7 @@
   og_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg
   pages:
     - /impact/foundational-science/
-    - /program/research-agenda/kernel-model-reality/
+    - /agenda/kernel-model-reality/
   caption: >
     Self-enrichment explains how a later layer can be generated from a prior
     construction while carrying new relational grammar that was not expressible
@@ -288,7 +288,7 @@
   thumbnail: /assets/images/plates/plate-14-ontic-closure-burden-thumb.webp
   og_image: /assets/images/plates/plate-14-ontic-closure-burden-og.jpg
   pages:
-    - /program/research-agenda/kernel-model-reality/no-externalities/
+    - /agenda/kernel-model-reality/no-externalities/
   caption: >
     The Ontic Closure Burden states the no-externalities discipline: a serious
     model cannot defer decisive explanatory work to a hidden runtime, hidden

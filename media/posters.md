@@ -6,6 +6,7 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
+last_updated: 2026-04-30
 updated: "April 2026"
 summary: "All scientific plates published as part of the Panta Rhei Research Program — wayfinding maps and τ-architecture visualisations, with print-quality master files for journalism, talks, conferences, and bulletin-board print."
 summary_short: "Visual atlas of every scientific plate published by the program — print-quality masters under CC BY 4.0."
@@ -13,8 +14,8 @@ right_rail:
   related:
   - title: Media Kit
     url: /media/
-  - title: Review Kit
-    url: /media/review-kit/
+  - title: How to Verify
+    url: /verify/how-to-verify/
   - title: Brand
     url: /brand/
   - title: Cite

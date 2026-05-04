@@ -4,7 +4,7 @@ lane: impact
 title: "Ocean"
 permalink: /impact/global-public-good/ocean/
 portfolio_id: impact-ocean
-summary_short: "A conditional public-good portfolio for using one shared ocean-state twin to serve trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
+summary_short: "A conditional public-good portfolio for exploring whether a shared ocean-state model could become relevant to trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -13,7 +13,7 @@ right_rail:
     horizon: "Medium"
     stage: "Conceptual"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Portfolio Focus

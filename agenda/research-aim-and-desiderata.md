@@ -1,0 +1,124 @@
+---
+layout: program-doc
+title: Research Aim and Desiderata
+nav_order: 3
+lane: agenda
+v2_lane: agenda
+section: research-agenda
+summary_short: The aims, desiderata, and boundary conditions that determine what kind
+  of coherent theory of reality the program is willing to regard as serious.
+summary_cards:
+- title: Aim
+  body: To investigate whether one constrained kernel can support a coherent theory
+    of reality.
+- title: Desiderata
+  body: Ontic seriousness, constructivity, inspectability, parameter discipline, self-containment,
+    and cross-domain coherence.
+- title: Boundary condition
+  body: The goal is not merely local success but a theory capable of addressing why
+    this world has the form it has.
+right_rail:
+  related:
+  - title: Coherent Theory of Reality
+    url: /program/about/coherent-theory-of-reality/
+  - title: The Shape of a Theory of Reality
+    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
+  - title: Core Semantics
+    url: /agenda/core-semantics/
+  - title: Construction Roadmap
+    url: /agenda/construction-roadmap/
+  - title: Foundational Discipline
+    url: /agenda/foundational-discipline/
+  - title: Core Design Principles
+    url: /agenda/core-design-principles/
+  - title: What the Program Refuses
+    url: /agenda/what-the-program-refuses/
+  meta:
+    type: Design Doc
+    scope: Program-wide
+    status: Canonical
+    updated: May 2026
+---
+
+The Panta Rhei Research Program is governed by a demanding question:
+
+**What kind of theory would be required if one wanted, not merely to model fragments of reality successfully, but to describe reality in a way capable of answering why it has the form it has?**
+
+That question determines the program's aim and its desiderata.
+
+## The primary aim
+
+The primary aim of the program is to investigate whether one can build a self-contained, formally inspectable coherent theory of reality that can carry four major layers:
+
+- mathematics;
+- physics;
+- life;
+- metaphysics.
+
+This does not mean forcing those domains into artificial sameness. It means asking whether they might belong to one structured architecture rather than standing as permanently disconnected provinces.
+
+## Why desiderata matter
+
+A program of this scope cannot be judged only by its outputs. It must also be judged by the standards it binds itself to at the foundation.
+
+If the deepest questions are:
+
+- why this universe?
+- why these laws?
+- why these constants?
+- why these domains belong together?
+
+then the structure of the answer must already be visible in the structure of the theory. A theory that begins by surrendering those questions structurally cannot plausibly recover them later by rhetorical force.
+
+That is why the desiderata are not optional ideals. They are part of the program's internal logic.
+
+## Desideratum 1 — Ontic seriousness
+
+The theory should not merely produce useful approximations while leaving the deepest ontological burden outside its reach. If the program aims to describe reality itself rather than only one local model among many, then it must at least try to close the gap between structure and world at the foundation.
+
+This is what ontic seriousness means here:
+the refusal to be content with a merely convenient language if the question being asked is deeper than convenience can answer.
+
+## Desideratum 2 — Categoricity pressure
+
+If one wants to ask "why this world?" then a foundational theory that gives up uniqueness or canonicality too early will struggle to answer that question later.
+
+This is one of the deepest motivations behind the program's foundational strictness. If the base formal universe already tolerates multiple incomparable realizations without a principled way to close them, then stronger downstream claims about why this structure, why this constant, or why this law remain structurally weak.
+
+The program does not claim to have solved this question simply by stating it. It claims that any theory worthy of the question must at least face it explicitly.
+
+## Desideratum 3 — Constructivity and computability
+
+The theory should be explicit, recursive enough to be inspectable, and in principle formalizable. It should not rely on inaccessible primitives that cannot be rendered into a concrete formal substrate.
+
+This is why the program places so much emphasis on [TauLib]({{ '/verify/taulib/' | relative_url }}), verification companions, and public inspection routes. A theory of reality that cannot be entered in a disciplined way cannot fairly demand deep trust.
+
+## Desideratum 4 — Parameter discipline
+
+A theory that aspires to foundational answerability should not leave decisive explanatory burden to unconstrained free parameters if it can avoid doing so. Otherwise, the strongest "why this?" questions simply reappear in displaced form.
+
+This does not mean that every empirical quantity is already settled. It means that parameter freedom itself is treated as a burden to be minimized, not as a harmless convenience.
+
+## Desideratum 5 — Self-containment
+
+The theory should avoid requiring unexplained external scaffolding at every decisive step. The ideal is not infinite regress, but an architecture whose semantics and structural meaning can increasingly be brought into visibility from within.
+
+This is one reason the program values internality, structural recursion, and eventually topos-like or self-describing modes of organization.
+
+## Desideratum 6 — Cross-domain coherence
+
+Where mathematics, physics, life, mind, ethics, and metaphysics genuinely overlap, the theory should seek coherence rather than [compartmentalized truce]({{ '/agenda/science-humanities-and-coherence/' | relative_url }}).
+
+This does not mean reducing one domain to another. It means refusing to accept unresolved contradiction as the final form of their relation unless reality itself leaves no deeper alternative.
+
+## What these desiderata together imply
+
+Taken together, these desiderata define the kind of theory the program is willing to regard as serious:
+
+- not merely successful in local prediction
+- not merely elegant in form
+- not merely expansive in ambition
+
+but structurally fit for the burden of the questions it asks.
+
+That is the standard by which the program should be judged — and the [key results]({{ '/results/' | relative_url }}) page shows where it currently stands.

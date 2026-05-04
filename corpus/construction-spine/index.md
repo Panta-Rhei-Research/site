@@ -18,10 +18,11 @@ hero_ctas:
   - label: "Foundational Hinges"
     url: /corpus/foundational-hinges/
   - label: "Construction Roadmap"
-    url: /program/research-agenda/construction-roadmap/
+    url: /agenda/construction-roadmap/
   - label: "Progress Against Agenda"
     url: /results/progress-against-agenda/
 right_rail:
+  feedback: true
   related:
     - title: "Verify the Construction Spine"
       url: /verify/construction-spine-verification/
@@ -37,6 +38,8 @@ right_rail:
       url: /corpus/graph/
     - title: "Results"
       url: /results/
+    - title: "Related Approaches"
+      url: /program/about/related-approaches/
   meta:
     type: "Corpus Index"
     scope: "10 construction steps"
@@ -48,7 +51,7 @@ right_rail:
 
 ## What this spine is
 
-The Construction Spine is the Corpus-side realization of the Research Agenda's Construction Roadmap. It shows how the Corpus is built step by step: from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.
+The Construction Spine is the Corpus-side realization of the Agenda's Construction Roadmap. It shows how the Corpus is built step by step: from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.
 
 ## From kernel to ontic closure
 
@@ -61,7 +64,8 @@ The ten construction steps show how the Corpus is built: not as a timeline or sp
 
 - [Registry]({{ '/corpus/registry/' | relative_url }}) is the atomic item projection.
 - [TauLib]({{ '/verify/taulib/' | relative_url }}) is the Lean formalization projection.
-- [Publications]({{ '/publications/' | relative_url }}) are narrative proof-order projections.
+- The [Monograph Corpus]({{ '/corpus/monograph-corpus/' | relative_url }}) is the narrative proof-order projection.
+- [Publications]({{ '/publications/' | relative_url }}) are the citable artifact and release shelf.
 - [Corpus Graph]({{ '/corpus/graph/' | relative_url }}) is the dependency projection.
 - [Bi-Square Spine]({{ '/corpus/bi-square/' | relative_url }}) is the diagrammatic-shape route: tower coherence, spectral naturality, and pasting across the main algebraic, geometric, enriched, and computational lifts.
 
@@ -98,11 +102,32 @@ The first three construction steps are supported by a foundational hinge route: 
 {% endfor %}
 </ol>
 
+## End-to-end construction view
+
+The ten construction steps are not isolated pages. They form one construction chain.
+
+Each step inherits exactly what earlier steps have earned and hands forward what later steps need:
+
+1. the kernel establishes the constrained formal core;
+2. core mathematics earns syntax, number, geometry, topology, and bridge discipline;
+3. self-enrichment begins the internalization of logic and meta-language;
+4. the physical carrier identifies where physics can live;
+5. internal physical grammar builds τ-time, τ-space, τ-mass, τ-energy, observables, and laws;
+6. measurement bridges connect internal physics to empirical accountability;
+7. life is recovered as a structural class;
+8. reflective structure recovers mind, language, meaning, truth, value, and normativity;
+9. formal systems and the kernel itself become internal objects;
+10. ontic closure tests no-externalities, substrate non-deferral, proof/commitment boundary, and residual frontiers.
+
+The [Monograph Corpus]({{ '/corpus/monograph-corpus/' | relative_url }}) shows how the seven books realize this chain across their parts and chapters.
+
 ## How to read this section
 
 Each step page explains what the step builds, why it is required, the key constructions, related Registry items, TauLib modules, book locations, related Results, Verify surfaces, and what the step does not yet establish.
 
 Use [Verify the Construction Spine]({{ '/verify/construction-spine-verification/' | relative_url }}) when you want the inspection matrix rather than the build narrative.
+
+Use [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}) when you want to compare this construction burden with neighboring structural, computational, geometric, life, mind, and metaphysical programs.
 
 <div class="notice note"><strong>Status note.</strong> Build status reflects the current internal state of the Corpus. It does not imply external acceptance unless explicitly stated.</div>
 

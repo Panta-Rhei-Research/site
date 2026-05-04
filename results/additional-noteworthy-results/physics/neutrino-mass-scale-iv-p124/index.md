@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-neutrino-mass"
     title: "Neutrino mass"
-    url: "/results/problem-ledger-answers/physics/neutrino-mass/"
+    url: "/results/challenge-responses/physics/neutrino-mass/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -118,7 +118,7 @@ The heaviest neutrino mass eigenstate satisfies m_3(nu) ~ m_e iota_tau^15 ~ 50.7
 
 ## Related Results surfaces
 
-- [Neutrino mass](/results/problem-ledger-answers/physics/neutrino-mass/)
+- [Neutrino mass](/results/challenge-responses/physics/neutrino-mass/)
 - [Neutrino Mass Ordering](/results/problem/neutrino-mass-ordering/)
 - [Neutrino Mass Sum Σm_ν = 0.089 eV, Normal Ordering Derived](/results/problem/neutrino-mass-sum-0pt089-ev-normal-ordering/)
 - [Neutrino Mass Hierarchy](/predictions/hierarchy/)

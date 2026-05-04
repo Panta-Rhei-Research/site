@@ -15,19 +15,19 @@ right_rail:
   related:
     - title: "Life Results"
       url: /results/life/
-    - title: "Life Recovery Requirements"
-      url: /program/research-agenda/recovery-requirements/life/
+    - title: "Life Core Semantics"
+      url: /agenda/core-semantics/life/
     - title: "Origin of Life Problem Answer"
-      url: /results/problem-ledger-answers/life/origin-of-life/
+      url: /results/challenge-responses/life/origin-of-life/
     - title: "Assessment Protocols"
       url: /verify/assessment-protocols/
-    - title: "How to Audit (Philosopher)"
-      url: /verify/how-to-audit/philosopher/
+    - title: "How to Verify (Philosopher)"
+      url: /verify/how-to-verify-by-role/philosopher/
   meta:
     type: "Domain Verification"
     domain: "Life"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 glossary_term_ids:
   - LG-Y02-kinetic-pseudoscalar-channel
   - LG-E01-atp
@@ -91,14 +91,14 @@ glossary_term_ids:
     <h3>Life Glossary</h3>
     <p>78 sealed entries · biomarker correlates · 5 K_χ branches.</p>
   </a>
-  <a class="v2-tile v2-tile-life" href="{{ '/program/research-agenda/recovery-requirements/life/' | relative_url }}">
+  <a class="v2-tile v2-tile-life" href="{{ '/agenda/core-semantics/life/' | relative_url }}">
     <span class="eyebrow">Recovery</span>
-    <h3>Life Recovery Requirements</h3>
-    <p>Known biological structures the kernel must rederive (recovery targets + status).</p>
+    <h3>Life Core Semantics</h3>
+    <p>The language the theory must earn before it can answer life-domain questions — recovery targets and status.</p>
   </a>
-  <a class="v2-tile v2-tile-life" href="{{ '/verify/how-to-audit/philosopher/' | relative_url }}">
+  <a class="v2-tile v2-tile-life" href="{{ '/verify/how-to-verify-by-role/philosopher/' | relative_url }}">
     <span class="eyebrow">Audit</span>
-    <h3>How to Audit (Philosopher)</h3>
+    <h3>How to Verify (Philosopher)</h3>
     <p>Reviewer route for philosophy of biology, autopoiesis / IIT / FEP comparison, and the derivation-vs-redefinition test.</p>
   </a>
   <a class="v2-tile v2-tile-life" href="{{ '/results/life/' | relative_url }}">

@@ -11,21 +11,22 @@ tags:
   - discover
   - research-agenda
   - problem-ledger
+  - core-semantics
   - recovery-requirements
   - construction-roadmap
   - construction-spine
 right_rail:
   related:
-    - title: "Research Agenda"
-      url: /program/research-agenda/
-    - title: "Problem Ledger Source Policy"
-      url: /program/research-agenda/problem-ledger-source-policy/
-    - title: "Recovery Requirements"
-      url: /program/research-agenda/recovery-requirements/
+    - title: "Agenda"
+      url: /agenda/
+    - title: "Structural Challenge Ledger Source Policy"
+      url: /agenda/problem-ledger-source-policy/
+    - title: "Core Semantics / Recovery"
+      url: /agenda/core-semantics/
     - title: "Kernel, Model & Reality"
-      url: /program/research-agenda/kernel-model-reality/
+      url: /agenda/kernel-model-reality/
     - title: "Construction Roadmap"
-      url: /program/research-agenda/construction-roadmap/
+      url: /agenda/construction-roadmap/
     - title: "Corpus Construction Spine"
       url: /corpus/construction-spine/
   meta:
@@ -65,22 +66,22 @@ This page is not the full research agenda and not the full Results ledger. It is
   </a>
 </div>
 
-## How the Research Agenda makes these questions inspectable
+## How Agenda makes these questions inspectable
 
-The questions are not left as broad prompts. They are organized into four Research Agenda surfaces:
+The questions are not left as broad prompts. They are organized through four Agenda surfaces:
 
-- Problem Ledger - open and foundational problems the kernel must be able to see, classify, address, or reframe.
-- Recovery Requirements - known structures the kernel must recover before it can be taken seriously.
-- Kernel, Model & Reality - ontic-status burden, no externalities, diagrammatic access, and answer-shape requirements.
-- Construction Roadmap - the logical build-order required by the program's own goals.
+- **Core Semantics** — the language, structures, laws, and grammars the theory must earn before it can answer.
+- **Problem Ledger** — open and foundational stress-test questions the theory must be able to see, classify, address, reframe, or reject with reason.
+- **Kernel, Model & Reality** — the ontic-status burden, no-externalities discipline, diagrammatic access, and answer-shape requirements.
+- **Construction Roadmap** — the logical build-order required by the program's own goals.
 
 ## Next
 
-Use the [Research Agenda]({{ '/program/research-agenda/' | relative_url }}) for the full research contract:
+Use [Agenda]({{ '/agenda/' | relative_url }}) for the full research contract:
 
-- [Problem Ledger]({{ '/program/research-agenda/problem-ledger/' | relative_url }}) for external stress-test questions.
-- [Recovery Requirements]({{ '/program/research-agenda/recovery-requirements/' | relative_url }}) for what the kernel must recover.
-- [Kernel, Model & Reality]({{ '/program/research-agenda/kernel-model-reality/' | relative_url }}) for the ontic-status burden.
-- [Construction Roadmap]({{ '/program/research-agenda/construction-roadmap/' | relative_url }}) for the logical build-order.
+- Use [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) for the language the theory must earn.
+- Use [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) for the stress-test questions.
+- Use [Kernel, Model & Reality]({{ '/agenda/kernel-model-reality/' | relative_url }}) for the answer-status and ontic burden.
+- Use [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }}) for the logical build-order.
 
 Then follow the [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) to see how the program builds against that agenda.

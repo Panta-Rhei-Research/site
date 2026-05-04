@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/problem-ledger-answers/physics/dark-energy/"
+    url: "/results/challenge-responses/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -71,7 +71,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-constant-problem"
     title: "Cosmological constant problem"
-    url: "/results/problem-ledger-answers/physics/cosmological-constant-problem/"
+    url: "/results/challenge-responses/physics/cosmological-constant-problem/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -103,11 +103,11 @@ Five open problems (sphaleron question, readout functor, dark matter, cosmologic
 
 ## Related Results surfaces
 
-- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
+- [Dark energy](/results/challenge-responses/physics/dark-energy/)
 - [Dark Energy Equation of State](/results/problem/dark-energy-equation-of-state/)
 - [Fine-Tuning Dissolved](/results/problem/fine-tuning-dissolved/)
 - cosmological-constant-problem
-- [Cosmological constant problem](/results/problem-ledger-answers/physics/cosmological-constant-problem/)
+- [Cosmological constant problem](/results/challenge-responses/physics/cosmological-constant-problem/)
 
 ## Reading role
 

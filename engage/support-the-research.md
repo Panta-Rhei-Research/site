@@ -9,7 +9,7 @@ permalink: /engage/support-the-research/
 summary_short: "Support the continuation of the research — books first, follow second, direct support third."
 summary_cards:
   - title: "Books first"
-    body: "The most direct and meaningful way to support the research is to buy, read, and engage with the canonical books."
+    body: "One direct way to support the research is to buy, read, and engage with the canonical books."
   - title: "Then follow"
     body: "Follow the research, share it with domain experts, recommend it to colleagues whose expertise is relevant."
   - title: "Then direct support"
@@ -18,7 +18,7 @@ right_rail:
   related:
     - title: "Publications"
       url: /publications/
-    - title: "Research Monographs"
+    - title: "Research Monograph Artifacts"
       url: /publications/research-monographs/
     - title: "Engage"
       url: /engage/
@@ -31,7 +31,7 @@ right_rail:
   meta:
     type: "Support"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -46,17 +46,19 @@ tags:
 
 ## Support the Continuation of the Research
 
-Supporting the Panta Rhei Research Program does not mean endorsing the framework. Participation does not imply endorsement. It means valuing the attempt — the disciplined, inspectable, falsifiable pursuit of a coherent model of reality — and wanting it to continue under public scrutiny. For the broader public-accountability posture, see [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}).
+Supporting the Panta Rhei Research Program does not mean endorsing the theory. Participation does not imply endorsement. It means valuing the attempt — the disciplined, inspectable, falsifiable pursuit of a coherent theory of reality — and wanting it to continue under public scrutiny. For the broader public-accountability posture, see [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}).
 
 ## Support without endorsement
 
-Supporting the continuation of the research does not imply agreement with the framework or acceptance of its conclusions.
+Supporting the continuation of the research does not imply agreement with the theory or acceptance of its conclusions.
 
 Support helps sustain public artifacts, infrastructure, formalization, publication work, correction workflows, and open-research engagement.
 
+If you are not ready to buy books, the strongest support is structured scrutiny by qualified readers and domain experts.
+
 ## 1. Read the Books
 
-The most direct way to support the research is to **buy and read the canonical books**:
+One direct way to support the research is to **buy and read the canonical books**:
 
 {% for book in site.data.publications.books %}
 - **Book {{ book.roman }}**: [{{ book.title }}]({{ book.url | relative_url }}) — *{{ book.subtitle }}*

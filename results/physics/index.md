@@ -47,6 +47,16 @@ This hub is the entry point. From here you can browse the {% include release-met
     <span>The 5-layer architectural diagram connecting τ-categorical kernel → ι_τ → (M, L, ℏ) → derived constants → SI bridge.</span>
   </a>
 
+  <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/physics/' | relative_url }}">
+    <strong>Structural Challenges</strong>
+    <span>The canonical Physics challenge set: 102 imported external items (ringed and clustered) plus 15 τ-native physics audit challenges.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/challenge-responses/physics/' | relative_url }}">
+    <strong>Challenge Responses</strong>
+    <span>Current τ responses to those challenges, with status, evidence route, prediction/falsification anchors, and verification boundary.</span>
+  </a>
+
 </div>
 
 ## What is the τ-framework saying about physics?

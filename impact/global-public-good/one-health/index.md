@@ -4,7 +4,7 @@ lane: impact
 title: "One Health"
 permalink: /impact/global-public-good/one-health/
 portfolio_id: impact-one-health
-summary_short: "A conditional public-good portfolio for using one shared environmental-biological-operational twin to improve disease early warning, health-system resilience, environmental surveillance, food safety, and precision public health simultaneously."
+summary_short: "A conditional public-good portfolio for exploring whether an integrated environmental-biological-operational model could become relevant to disease early warning, health-system resilience, environmental surveillance, food safety, and precision public health simultaneously."
 time_horizon: near
 deployment_stage: conceptual
 right_rail:
@@ -13,7 +13,7 @@ right_rail:
     horizon: "Near"
     stage: "Conceptual"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Portfolio Focus

@@ -44,7 +44,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-quarkgluon-plasma"
     title: "Quark–gluon plasma"
-    url: "/results/problem-ledger-answers/physics/quarkgluon-plasma/"
+    url: "/results/challenge-responses/physics/quarkgluon-plasma/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -53,7 +53,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-specific-models-of-quarkgluon-plasma-formation"
     title: "Specific models of quark–gluon plasma formation"
-    url: "/results/problem-ledger-answers/physics/specific-models-of-quarkgluon-plasma-formation/"
+    url: "/results/challenge-responses/physics/specific-models-of-quarkgluon-plasma-formation/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -94,8 +94,8 @@ Orthodox: EM~0.63 MeV + QCD~0.66 MeV = 1.29 MeV. Tau C.5: EM~0.120 MeV + QCD~1.4
 
 - [Glueballs: Mass Gap = Minimum Glueball Mass](/results/problem/glueballs/)
 - [QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement](/results/problem/qcd-phases-qgp/)
-- [Quark–gluon plasma](/results/problem-ledger-answers/physics/quarkgluon-plasma/)
-- [Specific models of quark–gluon plasma formation](/results/problem-ledger-answers/physics/specific-models-of-quarkgluon-plasma-formation/)
+- [Quark–gluon plasma](/results/challenge-responses/physics/quarkgluon-plasma/)
+- [Specific models of quark–gluon plasma formation](/results/challenge-responses/physics/specific-models-of-quarkgluon-plasma-formation/)
 - [QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement](/results/problem/qcd-phases-qgp/)
 
 ## Reading role

@@ -27,8 +27,10 @@ right_rail:
     type: "Impact Section"
     scope: "Conditional public-good portfolios"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
+
+Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): scenario maps require upstream Results, verification survival, translation assumptions, domain uptake, and real-world constraints.
 
 ## What This Section Does
 
@@ -36,7 +38,9 @@ Global Public Good gathers conditional public-good portfolios.
 
 These are not deployment claims. They are scenario maps: if the relevant Results hold, if they survive Verify, if they can be translated into domain-specific models, and if institutions can use them responsibly, what public-good pathways become worth investigating?
 
-This stratum is the outermost Impact layer. It does not make the framework true. It does not make an application ready. It identifies where verified results could matter for planetary systems and public-good domains.
+This stratum is the outermost Impact layer. It does not make the construction true. It does not make an application ready. It identifies where verified results could matter for planetary systems and public-good domains.
+
+The Public-Good Briefings are publication artifacts. They are conditional scenario analyses, not implementation plans.
 
 ## Global Public Good inside the impact strata
 

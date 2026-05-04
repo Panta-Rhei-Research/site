@@ -30,20 +30,32 @@ summary_cards:
     body: "Start from an obligation, a construction step, or a result. Then trace it to Corpus support, Verify surfaces, and any available formalization."
 right_rail:
   related:
+    - title: "How to Verify"
+      url: /verify/how-to-verify/
+    - title: "Assessment Protocols"
+      url: /verify/assessment-protocols/
     - title: "Verify the Construction Spine"
       url: /verify/construction-spine-verification/
     - title: "Verification Framework"
       url: /verify/verification-framework/
     - title: "Domain Verification"
       url: /verify/domain-verification/
+    - title: "Release Manifest"
+      url: /verify/release-manifest/
+    - title: "Review the Work"
+      url: /engage/review-the-work/
+    - title: "AI-Assisted Discovery"
+      url: /discover/ai-assisted-discovery/
     - title: "Construction Roadmap"
-      url: /program/research-agenda/construction-roadmap/
+      url: /agenda/construction-roadmap/
     - title: "Corpus Construction Spine"
       url: /corpus/construction-spine/
     - title: "Results"
       url: /results/
     - title: "Corpus Registry"
       url: /corpus/registry/
+    - title: "Public Observatory Blueprint"
+      url: /publications/white-papers/building-a-public-research-observatory/
   artifacts:
     - title: "Release Manifest"
       url: /verify/release-manifest/
@@ -73,6 +85,8 @@ right_rail:
 
 ## What Verify Means Here
 
+> Verify is where building becomes accountable.
+
 > Verify is where every obligation, construction step, and result becomes inspectable.
 
 Verification in this program is not one thing. It includes research-form legitimacy, source-policy inspection, construction-step verification, formal proof checking, semantic correspondence, bridge adequacy, domain-specific validation, prediction and falsification surfaces, and structured external assessment.
@@ -96,6 +110,8 @@ Verification in this program is not one thing. It includes research-form legitim
 Verification is not a single operation. It begins with traceability: what obligation is being answered, what construction supports it, what result follows, and how can it be challenged?
 
 Formal checking is essential, but it is not empirical truth.
+
+For the architecture-level audit route, see [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}). It explains how Verify fits into the larger public observatory without claiming that infrastructure validates the scientific theory.
 
 <div class="btn-group section-ctas">
   <a class="btn-secondary" href="{{ '/verify/construction-spine-verification/' | relative_url }}">Verify the Construction Spine</a>
@@ -210,4 +226,4 @@ Found an error, a broken proof, a mis-stated numerical value, or a scope-label i
 
 **Email**: [errata@panta-rhei.site](mailto:errata@panta-rhei.site)
 
-For formal peer-review coordination or institutional review inquiries: [review@panta-rhei.site](mailto:review@panta-rhei.site)
+For structured review, technical inspection, or institutional review inquiries: [review@panta-rhei.site](mailto:review@panta-rhei.site)

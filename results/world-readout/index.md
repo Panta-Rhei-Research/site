@@ -27,12 +27,12 @@ hero_ctas:
     url: /results/world-readout/mathematics/
   - label: "Landmark Results"
     url: /results/landmark-results/
-  - label: "Problem Answers"
-    url: /results/problem-ledger-answers/
+  - label: "Challenge Responses"
+    url: /results/challenge-responses/
 right_rail:
   related:
-    - title: "Problem Answers"
-      url: /results/problem-ledger-answers/
+    - title: "Challenge Responses"
+      url: /results/challenge-responses/
     - title: "Classifications"
       url: /results/classifications/
     - title: "Corpus"
@@ -75,4 +75,4 @@ Mathematics, physics, life, and metaphysics are read as world-level consequence 
 
 ## How to use this section
 
-Start from a domain if you want the picture first. Start from [Problem Answers]({{ '/results/problem-ledger-answers/' | relative_url }}) if you want a question-answer path. Move into [Corpus]({{ '/corpus/' | relative_url }}) and [Verify]({{ '/verify/' | relative_url }}) when you want to inspect why a readout is being claimed.
+Start from a domain if you want the picture first. Start from [Challenge Responses]({{ '/results/challenge-responses/' | relative_url }}) if you want a question-answer path. Move into [Corpus]({{ '/corpus/' | relative_url }}) and [Verify]({{ '/verify/' | relative_url }}) when you want to inspect why a readout is being claimed.

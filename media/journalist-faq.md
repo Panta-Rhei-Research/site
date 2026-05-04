@@ -6,12 +6,13 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
+last_updated: 2026-04-30
 updated: "April 2026"
 summary: "Common questions journalists, podcast hosts, and editors ask about the Panta Rhei Research Program — peer review, funding, citation, interview availability, embargo policy, and what to call this work."
 summary_short: "Press FAQ — peer review, funding, citation, interviews, embargo policy."
 summary_cards:
 - title: "What kind of work is this?"
-  body: "Independent open research program developing Category τ — published as a 7-book monograph series, formalized in Lean 4, with a public registry and verification surfaces."
+  body: "Independent open research program dedicated to building a coherent theory of reality — published as books, Corpus, Results, Verify, and public engagement surfaces."
 - title: "Is it peer-reviewed?"
   body: "Not yet by traditional journals. The program is open for scrutiny via published Assessment Protocols and a public Reviewer's Dossier."
 - title: "Can I quote you?"
@@ -24,8 +25,22 @@ right_rail:
     url: /media/story-angles/
   - title: "Social Media Kit"
     url: /media/social-media-kit/
-  - title: "Review Kit"
-    url: /media/review-kit/
+  - title: "How to Verify"
+    url: /verify/how-to-verify/
+  - title: "Assessment Protocols"
+    url: /verify/assessment-protocols/
+  - title: "Open Research Brief"
+    url: /media/open-research-brief/
+  - title: "Inspection Architecture White Paper"
+    url: /publications/white-papers/inspection-architecture-high-scope-open-research/
+  - title: "Theory of Reality Brief"
+    url: /media/theory-of-reality-brief/
+  - title: "Theory of Reality White Paper"
+    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
+  - title: "Public Research Observatory Brief"
+    url: /media/public-research-observatory-brief/
+  - title: "Public Research Observatory White Paper"
+    url: /publications/white-papers/building-a-public-research-observatory/
   - title: "Engage · Media"
     url: /engage/media/
   - title: "Independence, Scope & Scrutiny"
@@ -41,11 +56,81 @@ right_rail:
 
 This FAQ is written for **journalists, podcast hosts, editors, and public communicators** writing about the Panta Rhei Research Program. The questions and answers are short by design — each one is a paragraph or two with links into the canonical lanes for deeper context. If you cannot find an answer here, write to [press@panta-rhei.site](mailto:press@panta-rhei.site) and we will route the question.
 
-For specialist-level questions (formal-methods reviewers, domain experts), see the separate [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) and [Review Kit]({{ '/media/review-kit/' | relative_url }}).
+For specialist-level questions (formal-methods reviewers, domain experts), see the separate [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}), [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
+
+## Package 1: Open Research / Inspection Architecture
+
+### Is Panta Rhei claiming its theory is proven?
+
+No. Package 1 is deliberately about the inspection standard, not endorsement of the theory. The public claim is that high-scope independent research should expose obligations, construction, result status, verification routes, failure paths, correction channels, and publication artifacts before asking for belief.
+
+### Why is the first story not the scientific claim?
+
+Because the safer and more public-relevant first story is architectural: what burden should ambitious open research accept before journalists, reviewers, or readers give it attention? Individual scientific claims still require domain review, formal inspection where applicable, empirical testing, and external assessment.
+
+### What is the inspection architecture?
+
+It is the site-wide chain that lets readers move from Program identity and Agenda obligations to Corpus construction, Results consequences, Verify inspection, Impact conditional relevance, and Engage routes for questions, corrections, and scrutiny.
+
+### Does TauLib prove the theory?
+
+No. TauLib can check formalized internal claims where those claims have been encoded. It does not by itself prove empirical truth, bridge adequacy, semantic interpretation, public-good relevance, or external scientific acceptance.
+
+### Can a journalist write before expert review?
+
+Yes, if the article is framed as a story about inspectability, open-research infrastructure, and the public burden accepted by a high-scope independent program. It should not state or imply that external institutions have validated the scientific claims.
+
+### Do UNESCO, The Turing Way, TOP/COS, EQUATOR, COPE, or Zenodo endorse this package?
+
+No. They are cited as official reference points for open science, reproducible research, transparency, reporting, peer-review ethics, and repository metadata. Citation is context, not endorsement.
+
+### How should errors be reported?
+
+Send corrections to [errata@panta-rhei.site](mailto:errata@panta-rhei.site), use the [Engage]({{ '/engage/' | relative_url }}) routes, or open a GitHub issue where the relevant public source allows it.
+
+## Package 2: Theory of Reality
+
+### Is Panta Rhei a theory of everything?
+
+No. Panta Rhei is not using “theory of everything” as its public category. The program says “coherent theory of reality” because that phrase names a stricter burden: earn the language, earn the questions, build the answers, disclose limits, and make the public claim structure inspectable.
+
+### Does Package 2 claim the theory is complete?
+
+No. Package 2 is doctrine-first. It defines what kind of research object a coherent theory of reality would have to be; it does not claim that Panta Rhei has completed, proven, externally accepted, or finalized such a theory.
+
+### What is the safest headline angle?
+
+The safe angle is: “What should a serious theory of reality have to expose before asking for belief?” The story is about category, burden, and inspection route — not a certification of the scientific claims.
+
+### What should I link first?
+
+Use the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}) for newsroom framing and the white paper [The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}) for the citable Package 2 artifact. Then route readers to [Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}), [Agenda]({{ '/agenda/' | relative_url }}), and [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}).
+
+### Do the external sources cited by Package 2 endorse Panta Rhei?
+
+No. Britannica, Stanford Encyclopedia of Philosophy entries, UNESCO Open Science, UKRI impact-language sources, and responsible-innovation sources are cited as context only. Citation is not endorsement, validation, review, or external acceptance.
+
+## Package 3: Technical Blueprint / Public Research Observatory
+
+### What is the public research observatory?
+
+It is the public architecture that lets readers trace Panta Rhei through Program identity, Agenda obligations, Corpus construction, Results consequences, Verify inspection, Publications artifacts, and Engage correction routes. The observatory is a review interface, not a proof of the theory.
+
+### Does Package 3 claim the website validates the theory?
+
+No. Package 3 explicitly says that inspection architecture is not validation. Jekyll, Pagefind, GitHub, Zenodo, and static publishing make the program easier to inspect; they do not certify scientific truth, bridge adequacy, peer review, or external acceptance.
+
+### What is the safest Package 3 headline angle?
+
+The safe angle is: “How should high-scope open research build the public interface that lets outsiders inspect it?” The story is technical and architectural: source paths, status routes, verification links, publication manifests, search, correction, and engagement.
+
+### What should I link first for Package 3?
+
+Use the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) for newsroom framing and the white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}) for the citable artifact. Then route readers to [Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }}), [Discover]({{ '/discover/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
 
 ## What kind of research is this?
 
-The Panta Rhei Research Program is an **independent open research program** developing **Category τ** — a categorical framework that derives results across mathematics, physics, biology, and philosophy from a single coherence kernel of five generators, seven axioms, and one operator. The program's public release (April 2026) consists of a seven-book monograph series, a Lean 4 formalization library called [TauLib]({{ '/verify/taulib/' | relative_url }}), and this research website.
+The Panta Rhei Research Program is an **independent open research program dedicated to building a coherent theory of reality**. Its public release (April 2026) includes a seven-book monograph series, a Lean 4 formalization library called [TauLib]({{ '/verify/taulib/' | relative_url }}), and this research website as an inspection observatory.
 
 It is **not** a journal submission, a textbook, a software project, or a grant proposal. It is a research architecture published for scrutiny.
 
@@ -71,7 +156,7 @@ The program-level name is **Panta Rhei Research Program**. The framework's name 
 
 The shortest accurate framing is:
 
-> Panta Rhei is an independent open research program developing **Category τ**, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator.
+> Panta Rhei is an independent open research program dedicated to building a coherent theory of reality, published as an inspectable research observatory.
 
 Three boilerplate length variants — 1-line, 30-word, and 100-word — are available on the [Media Kit]({{ '/media/' | relative_url }}#program-boilerplate-copy-paste-ready) page. Use them as-is for press releases, abstracts, or article bylines.
 
@@ -131,7 +216,7 @@ Five framings work well for general readers — see [Story Angles]({{ '/media/st
 The program is independent research **under scrutiny**, not settled scientific consensus. Please do **not**:
 
 - Describe internal program results as **externally accepted scientific conclusions** — they have not been peer-reviewed in traditional journals yet.
-- Frame the program as a **theory of everything** — that is not the program's framing. The framing is "categorical framework with derivable results across multiple domains, all open for scrutiny."
+- Frame the program as a **theory of everything** — that is not the program's framing. The framing is "independent open research program dedicated to building a coherent theory of reality," with all claims open for scrutiny.
 - **Conflate Lean compilation with empirical truth** — Lean checks internal consistency. CMB-S4, BICEP, particle-physics experiments still need to do their work.
 - Drop the **scope labels** — every claim on the site carries a typed status label (`internally addressed`, `partial`, `conjectural`, …). Removing those labels strips out the program's accountability.
 
@@ -146,5 +231,5 @@ Please tell us. Email [errata@panta-rhei.site](mailto:errata@panta-rhei.site) or
 - **Media inquiries**: [press@panta-rhei.site](mailto:press@panta-rhei.site)
 - **Technical inquiries**: [contact@panta-rhei.site](mailto:contact@panta-rhei.site) — subject: "Technical Inquiry"
 - **Institutional contact**: [inquiry@panta-rhei.site](mailto:inquiry@panta-rhei.site)
-- **Peer review**: [review@panta-rhei.site](mailto:review@panta-rhei.site)
+- **Structured review / technical inspection**: [review@panta-rhei.site](mailto:review@panta-rhei.site)
 - **Errata & corrections**: [errata@panta-rhei.site](mailto:errata@panta-rhei.site)

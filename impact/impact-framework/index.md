@@ -12,6 +12,9 @@ og_image_alt: "Scientific plate showing the Impact Framework as a conditional ch
 right_rail:
   related:
     -
+      title: "Impact"
+      url: "/impact/"
+    -
       title: "Results"
       url: "/results/"
     -
@@ -20,16 +23,22 @@ right_rail:
     -
       title: "Public-Good Briefings"
       url: "/publications/research-briefings/public-good/"
+    -
+      title: "The Shape of a Theory of Reality"
+      url: "/publications/white-papers/the-shape-of-a-theory-of-reality/"
+    -
+      title: "Building a Public Research Observatory"
+      url: "/publications/white-papers/building-a-public-research-observatory/"
   meta:
     type: "Framework"
     scope: "Impact lane"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Core idea
 
-A result does not automatically produce impact. Impact requires a chain:
+A result does not automatically produce impact. A status-marked Result is only the first link in the chain. Impact requires a chain:
 
 <div class="v2-system-row" aria-label="Impact framework pipeline">
   <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Result</strong>Named claim, status, or problem response.</a>
@@ -42,6 +51,12 @@ A result does not automatically produce impact. Impact requires a chain:
   <span class="v2-system-arrow">→</span>
   <span class="v2-system-node"><strong>Consequence</strong>What could change if the chain holds.</span>
 </div>
+
+## A public-relevance map, not just a downstream layer
+
+The Impact Framework governs more than downstream consequences. It also defines how the program justifies public relevance without claiming adoption or delivery.
+
+The lane asks why the program's scope could matter if Results survive verification, translation, domain uptake, and real-world constraints.
 
 ## The impact chain
 

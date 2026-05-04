@@ -4,7 +4,7 @@ lane: impact
 title: "Energy"
 permalink: /impact/global-public-good/energy/
 portfolio_id: impact-energy
-summary_short: "A conditional public-good portfolio for applying a physically faithful tau energy-system twin to improve grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twins, and whole-system energy planning."
+summary_short: "A conditional public-good portfolio for exploring whether a verified tau-informed energy-system model could become relevant to grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twin research, and whole-system energy planning."
 time_horizon: medium
 deployment_stage: conceptual
 right_rail:
@@ -13,7 +13,7 @@ right_rail:
     horizon: "Medium"
     stage: "Conceptual"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Portfolio Focus

@@ -27,7 +27,7 @@ right_rail:
     type: "Impact Stratum"
     scope: "Foundational science"
     status: "Conditional"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Reading discipline
@@ -94,9 +94,9 @@ It is earned by construction.
 
 ## Gödel, induction, and unearned diagonal access
 
-This page must be especially careful about Gödel.
+Gödel requires special care in this stratum.
 
-Panta Rhei should not be described as refuting Gödel, bypassing Gödel, or escaping incompleteness in a slogan-like sense.
+Panta Rhei should not be described as refuting Gödel, bypassing Gödel, or escaping incompleteness in a slogan-like sense. The relevant question is whether the formal core has the resources required for Gödel-style constructions to apply, and what follows if it does or does not.
 
 Gödel’s incompleteness theorems have precise prerequisites. They apply to formal systems strong enough to carry a certain amount of arithmetic and to represent enough of their own proof theory. The proof does not operate in a vacuum: it depends on arithmetizing syntax, coding formulas and proofs as numbers, constructing a provability predicate, and applying a diagonal or fixed-point construction.
 
@@ -274,7 +274,7 @@ First, mathematics would be stratified. Not all formal mathematics would be trea
 
 Second, physics would gain a shared ontological carrier. The task would not only be to model observations, but to determine whether the observed world realizes the kernel’s internal physical layer.
 
-Third, life would become a foundational recovery target. Biology would remain empirical, but the category “life” would no longer be treated as merely peripheral to foundational science.
+Third, life would become a core semantic and construction target. Biology would remain empirical, but the category "life" would no longer be treated as merely peripheral to foundational science.
 
 Fourth, metaphysics would become partially formalized. Not by reducing it to physics, but by asking which metaphysical questions can be typed, constrained, and related to the kernel’s structure.
 

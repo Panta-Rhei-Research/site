@@ -15,7 +15,7 @@ og_image_alt: "Scientific plate showing the Verify lane as a verification matrix
 right_rail:
   related:
     - title: "Construction Roadmap"
-      url: /program/research-agenda/construction-roadmap/
+      url: /agenda/construction-roadmap/
     - title: "Corpus Construction Spine"
       url: /corpus/construction-spine/
     - title: "Formal Verification Stack"
@@ -30,7 +30,7 @@ right_rail:
     type: "Verification Surface"
     scope: "Construction Spine"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign steps = site.data.construction_spine["construction-spine-data"] %}
@@ -81,6 +81,25 @@ Construction-step verification asks what each step builds, what supports it, and
     </tbody>
   </table>
 </div>
+
+## End-to-end verification view
+
+The ten construction steps are not isolated inspection targets. They form one verification chain.
+
+Each step inherits what earlier steps have earned and hands forward what later steps need:
+
+1. **Build the τ-Kernel** — axiom inventory, primitive signature, trusted-base disclosure, kernel consistency, and foundational hinge review.
+2. **Recover Core Mathematics** — formal proof checking, mathematical bridge verification, refusal discipline, and foundational hinge review.
+3. **Internalize Self-Enrichment** — internal-logic checks, categorical consistency, semantic correspondence, and meta-language internalization.
+4. **Identify Physical Carrier** — carrier identification, semantic adequacy, local/global gluing, and bridge plausibility.
+5. **Internal Physical Grammar** — internal law-structure checks, dimensional consistency, observables, and physics bridge preparation.
+6. **Measurement Bridges** — bridge verification, empirical accountability, prediction timing, falsification paths, and measurement calibration.
+7. **Recover Life** — Core Semantics alignment for life, structural biology mapping, boundary/encoding/evolution checks, and scope discipline.
+8. **Reflective Structure** — answer-shape checks, conceptual consistency, life/mind bridge verification, and meaning/value/normativity status.
+9. **Self-Host Formal Systems** — meta-verification, object-theory hosting checks, proof-as-act analysis, and formal-system internalization.
+10. **Test Ontic Closure** — no-externalities audit, substrate non-deferral, residual-boundary disclosure, proof/commitment boundary, and ontic-status burden.
+
+The verification chain therefore runs from kernel integrity to mathematical bridge discipline, physical semantic adequacy, empirical falsification, life and reflective structure, self-hosting, and ontic-closure scrutiny.
 
 ## Verification-status legend
 
@@ -184,7 +203,7 @@ Use the [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_
 
 ## Related Results and Progress Dashboard
 
-Use [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) to see how public problem and recovery obligations currently map to Results-side status surfaces.
+Use [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) to see how public Structural Challenge Ledger and Core Semantics obligations currently map to Results-side status surfaces.
 
 ## Related Assessment Protocols
 

@@ -6,9 +6,9 @@ lane: discover
 v2_lane: discover
 type: "Homepage"
 status: "Canonical"
-summary_short: "A structured public interface to a living research system across mathematics, physics, life, and metaphysics."
-hero_line: "A coherent formal system claiming to derive structure across mathematics, physics, life, and metaphysics."
-hero_body: "An independent open research program by Thorsten Fuchs and Anna-Sophie Fuchs, exposing its public surfaces through Research Monographs, a structured Corpus, typed Results, verification routes, and empirical challenge commitments."
+summary_short: "An open research program for a coherent theory of reality."
+hero_line: "The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality."
+hero_body: "It is published as a public research observatory: Discover for orientation, Program for identity, Agenda for obligations, Corpus for construction, Results for consequences, Verify for inspection, Impact for conditional relevance, and Engage for open scrutiny."
 hero_ctas:
   - label: "Start with Discover"
     url: /discover/
@@ -19,10 +19,10 @@ hero_ctas:
     url: /results/
   - label: "Verify It Yourself"
     url: /verify/
-hero_supporting_line: "Static, inspectable, Pagefind-searchable, and organized around canonical public lanes."
+hero_supporting_line: "Static, inspectable, Pagefind-searchable, and organized around the v4 public research spine."
 og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
 twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
-og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Research Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
+og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Discover, Program, Agenda, Corpus, Results, Verify, Impact, and Engage."
 ---
 
 <section class="content-card homepage-section">
@@ -47,23 +47,31 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
     </a>
     <a class="v2-tile" href="{{ '/program/' | relative_url }}">
       <h3>Program</h3>
-      <p>The aim, burden of proof, scope, constraints, and research contract.</p>
+      <p>Identity, doctrine, scope, status, founders, scrutiny posture, and why the program is built as an inspection observatory.</p>
+    </a>
+    <a class="v2-tile" href="{{ '/agenda/' | relative_url }}">
+      <h3>Agenda</h3>
+      <p>Obligations: what must be asked, recovered, built, refused, answered, and left open.</p>
     </a>
     <a class="v2-tile" href="{{ '/corpus/' | relative_url }}">
       <h3>Corpus</h3>
-      <p>The living research body: Construction Spine, Registry, TauLib projection, Research Monographs, and dependency graph.</p>
+      <p>The construction body of the theory: Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.</p>
     </a>
     <a class="v2-tile" href="{{ '/results/' | relative_url }}">
       <h3>Results</h3>
-      <p>Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, Additional Derived Results, and Progress Against Agenda.</p>
+      <p>Consequences: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda.</p>
     </a>
     <a class="v2-tile" href="{{ '/verify/' | relative_url }}">
       <h3>Verify</h3>
-      <p>Formalization, predictions, falsification, audit routes, and external challenge paths.</p>
+      <p>Inspection routes: formalization, bridge checks, predictions, falsification, audits, and external challenge paths.</p>
     </a>
-    <a class="v2-tile" href="{{ '/publications/' | relative_url }}">
-      <h3>Publications</h3>
-      <p>Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, and Release Artifacts.</p>
+    <a class="v2-tile" href="{{ '/impact/' | relative_url }}">
+      <h3>Impact</h3>
+      <p>Conditional relevance: what could matter if Results survive inspection, translation, and domain uptake.</p>
+    </a>
+    <a class="v2-tile" href="{{ '/engage/' | relative_url }}">
+      <h3>Engage</h3>
+      <p>Open scrutiny, public questions, correction routes, review, communication, and contribution without endorsement.</p>
     </a>
   </div>
 </section>
@@ -104,15 +112,16 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 
 <section class="content-card homepage-section">
   <p class="v2-kicker">How the system works</p>
-  <h2>One Corpus, several public projections</h2>
-  <p>Corpus truth lives in the Corpus and Registry. Publications crystallize the Corpus into citable artifacts. Results present current consequence surfaces. Verify exposes formal, empirical, and review routes. TauLib provides the Lean&nbsp;4 formalization projection.</p>
+  <h2>One research program, several public surfaces</h2>
+  <p>Agenda states the burden: Core Semantics, Structural Challenge Ledger, answer-shape discipline, refusals, and Construction Roadmap. Corpus carries the construction: Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph. Results presents current consequence surfaces: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda. Verify exposes formal, empirical, bridge, falsification, and assessment routes. Publications preserve the stable artifact and release shelf.</p>
   <div class="v2-system-strip">
+    <div class="v2-system-node"><strong>Agenda</strong>Core Semantics, Structural Challenge Ledger, answer-shape discipline, refusals, and Construction Roadmap.</div>
     <div class="v2-system-node"><strong>Kernel</strong>Five generators, one operator, and K0-K6 axioms, with the foundational-hinge route.</div>
-    <div class="v2-system-node"><strong>Corpus</strong>{% include release-metric.html id="registry.registry_total.grand_total" %} registry objects, monograph drilldowns, construction spine, foundational hinges, and dependency graph.</div>
+    <div class="v2-system-node"><strong>Corpus</strong>Construction Spine, Monograph Corpus, Registry, foundational hinges, TauLib projection, and dependency graph.</div>
     <div class="v2-system-node"><strong>TauLib</strong>Pinned Lean&nbsp;4 formalization with {% include release-metric.html id="taulib.modules" %} modules, {% include release-metric.html id="taulib.sorry" %} sorry, and {% include release-metric.html id="taulib.custom_axioms" %} custom axioms in Book&nbsp;III bridge territory.</div>
-    <div class="v2-system-node"><strong>Results</strong>Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, and Progress Against Agenda.</div>
-    <div class="v2-system-node"><strong>Verify</strong>Release Manifest, audit routes, prediction timing, falsification pack, and TCB disclosure.</div>
-    <div class="v2-system-node"><strong>Publications</strong>Research Monographs, research papers, supplements, notes, briefings, white papers, release artifacts, and errata.</div>
+    <div class="v2-system-node"><strong>Results</strong>Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda.</div>
+    <div class="v2-system-node"><strong>Verify</strong>Release Manifest, inspection routes, prediction timing, falsification pack, and TCB disclosure.</div>
+    <div class="v2-system-node"><strong>Publications</strong>research monographs, research papers, supplements, notes, briefings, white papers, release artifacts, and errata.</div>
   </div>
 </section>
 
@@ -135,7 +144,7 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 
 <section class="content-card homepage-section">
   <p class="v2-kicker">World readout</p>
-  <h2>What the framework says follows, domain by domain</h2>
+  <h2>What the theory currently says follows, domain by domain</h2>
   <div class="v2-grid">
     <a class="v2-tile" href="{{ '/results/world-readout/mathematics/' | relative_url }}"><h3>Mathematics</h3><p>Foundations, holomorphy, spectral structure, and problem surfaces.</p></a>
     <a class="v2-tile" href="{{ '/results/world-readout/physics/' | relative_url }}"><h3>Physics</h3><p>Microcosm, macrocosm, constants, predictions, and falsification seams.</p></a>
@@ -146,11 +155,16 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 
 <section class="content-card homepage-section">
   <p class="v2-kicker">Artifacts and continuation</p>
-  <h2>Read, inspect, follow, and engage</h2>
-  <p>The public release surface is not only the Research Monographs. It includes the Conspectus, Monograph Supplements such as the Numerical Physics Ledger, Research Notes, Research Briefings, White Papers, TauLib, assessment protocols, Release Artifacts, and errata. The site makes those surfaces easier to find without turning the homepage into a catalogue.</p>
+  <h2>Artifacts & Releases</h2>
+  <p>The public release surface is not only the research monographs. It includes Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, TauLib, assessment protocols, Release Artifacts, and errata. The site makes those surfaces easier to find without turning the homepage into a catalogue.</p>
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
-    <a class="btn-secondary" href="{{ '/impact/' | relative_url }}">Impact</a>
-    <a class="btn-ghost" href="{{ '/engage/' | relative_url }}">Engage</a>
+    <a class="btn-secondary" href="{{ '/publications/research-monographs/' | relative_url }}">Research Monographs</a>
+    <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
+    <a class="btn-ghost" href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a>
+    <a class="btn-ghost" href="{{ '/publications/white-papers/' | relative_url }}">White Papers</a>
+    <a class="btn-ghost" href="{{ '/publications/release-artifacts/' | relative_url }}">Release Artifacts</a>
+    <a class="btn-ghost" href="{{ '/publications/errata/' | relative_url }}">Errata</a>
+    <a class="btn-ghost" href="{{ '/cite/' | relative_url }}">Cite</a>
   </div>
 </section>

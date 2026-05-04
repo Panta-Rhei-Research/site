@@ -27,7 +27,7 @@ right_rail:
   meta:
     type: "Seminars"
     status: "In planning"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -42,13 +42,26 @@ tags:
 
 ## Seminars and Guided Sessions
 
-The Panta Rhei Research Program is planning structured engagement opportunities for researchers and domain experts who want to work through the framework in depth.
+The Panta Rhei Research Program is planning structured engagement opportunities for researchers and domain experts who want to work through the theory in depth.
+
+A guided session is an orientation or inspection aid. It does not imply acceptance, endorsement, peer review, or validation.
 
 ## Planned Formats
 
-- **Domain-specific seminars**: Focused sessions for mathematicians, physicists, biologists, or philosophers — each led through the framework's claims relevant to their domain
-- **Guided reading groups**: Structured reading of one or more books with discussion and verification exercises
-- **Verification sessions**: Hands-on sessions with TauLib, walking through Lean formalization and guided tour modules
+- **First-contact walkthrough**: Orientation for readers approaching the program for the first time
+- **Journalist / media walkthrough**: Walkthrough for journalists, podcast hosts, and editors covering the program
+- **Expert review scoping**: Sessions that help domain experts scope a bounded review
+- **TauLib / formalization walkthrough**: Hands-on sessions with TauLib, Lean formalization, and verification tooling
+- **Corpus Construction Spine walkthrough**: Step-by-step walkthrough of the ten-step construction spine
+- **Public-good briefing walkthrough**: Conditional public-good portfolio review for institutional readers
+- **Contributor onboarding**: Onboarding for engineering or formalization contributors
+
+## What guided sessions are not
+
+- not endorsement events;
+- not credentialed validation;
+- not peer review;
+- not a substitute for inspection routes in Verify or Engage.
 
 ## Current Status
 

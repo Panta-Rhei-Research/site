@@ -1,56 +1,20 @@
 ---
-layout: "program-doc"
-title: "Ultimate Boundary, Closure, and the Question of Why"
-permalink: "/results/recovery-target-status/metaphysics/ultimate-boundary-closure-and-the-question-of-why/"
-lane: "results"
-v2_lane: "results"
-type: "Recovery Target Status"
-status: "Canonical"
-summary_short: "Current Results-side recovery status for Ultimate Boundary, Closure, and the Question of Why."
-canonical_recovery_id: "METH-R11"
+layout: redirect
+title: "Recovery Target Status (moved to Core Semantics Status) — metaphysics / ultimate-boundary-closure-and-the-question-of-why"
+permalink: /results/recovery-target-status/metaphysics/ultimate-boundary-closure-and-the-question-of-why/
+sitemap: false
+robots: noindex,follow
+redirect_to: /results/core-semantics-status/metaphysics/ultimate-boundary-closure-and-the-question-of-why/
+summary_short: "Public-facing route renamed in v4. Recovery Target Status is now Core Semantics Status."
+lane: results
+v2_lane: results
+type: "Compatibility Route"
+status: "Compatibility"
 ---
 
-<div class="notice note"><strong>Status note.</strong> This page reports current recovery status. It does not imply external acceptance unless explicitly stated.</div>
+This page has moved to [/results/core-semantics-status/metaphysics/ultimate-boundary-closure-and-the-question-of-why/](/results/core-semantics-status/metaphysics/ultimate-boundary-closure-and-the-question-of-why/).
 
-## Status Separation
+If you are not redirected automatically, follow the link above.
 
-- Internal status: **Partial**
-- Verification state: **Pending metaphysics verification**
-- External status: **Not externally reviewed**
-
-## Requirement
-
-Ultimate Boundary, Closure, and the Question of Why
-
-## Current Recovery Status
-
-- Recovery status: **Partial**
-- Verification status: **Pending metaphysics verification**
-- Program ledger item: [METH-R11](/program/research-agenda/recovery-requirements/metaphysics/ultimate-boundary-closure-and-the-question-of-why/)
-- Verification mode: `metaphysical_recovery_target`
-
-## Result Summary
-
-Detailed result summary pending.
-
-## Related Result Items
-
-- Granular Result mapping pending.
-
-## Related Corpus Construction Steps
-
-- Construction Spine mapping pending.
-
-## Related Verify Surfaces
-
-- verify-domain-metaphysics
-
-## What This Status Does Not Yet Establish
-
-- External acceptance is not implied by this status.
-
-## Projection Metadata
-
-- Generated from: `corpus/recovery-requirements`
-- Projection version: `v0.1`
-- Do not edit generated projection: `True`
+<script>window.location.replace('/results/core-semantics-status/metaphysics/ultimate-boundary-closure-and-the-question-of-why/');</script>
+<noscript><meta http-equiv="refresh" content="0; url=/results/core-semantics-status/metaphysics/ultimate-boundary-closure-and-the-question-of-why/"></noscript>

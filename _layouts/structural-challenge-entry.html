@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+{% include breadcrumb-nav.html %}
+
+<article class="structural-challenge-article">
+<header class="hero-card">
+  <span class="eyebrow">{{ page.domain | capitalize }} Structural Challenge Ledger</span>
+  <h1>{{ page.title }}</h1>
+  <div class="chip-row" style="margin-top: 10px;">
+    {% if page.challenge_id %}<span class="chip"><code>{{ page.challenge_id }}</code></span>{% endif %}
+    {% if page.challenge_family %}<span class="chip">{{ page.challenge_family | replace: "_", " " }}</span>{% endif %}
+    {% if page.cluster %}<span class="chip">{{ page.cluster | replace: "-", " " | replace: "_", " " }}</span>{% endif %}
+    {% if page.ring_depth %}<span class="chip">{{ page.ring_depth | replace: "_", " " }}</span>{% endif %}
+    {% if page.external_status %}<span class="chip">External: {{ page.external_status | replace: "_", " " }}</span>{% endif %}
+    {% if page.response_status %}<span class="chip">τ response: {{ page.response_status | replace: "_", " " }}</span>{% endif %}
+  </div>
+  {% if page.summary_short %}
+  <p class="hero-deck">{{ page.summary_short }}</p>
+  {% endif %}
+</header>
+
+{% if page.challenge_statement and page.challenge_statement != "" %}
+<section class="content-card" aria-labelledby="sc-statement-heading">
+  <h2 id="sc-statement-heading">Challenge statement</h2>
+  <div class="prose">{{ page.challenge_statement | markdownify }}</div>
+</section>
+{% endif %}
+
+{% if content != "" %}
+<section class="content-card" aria-labelledby="sc-body-heading">
+  <h2 id="sc-body-heading">Why this challenge is in the ledger</h2>
+  <div class="prose">{{ content }}</div>
+</section>
+{% endif %}
+
+{% if page.tau_burden and page.tau_burden != "" %}
+<section class="content-card" aria-labelledby="sc-burden-heading">
+  <h2 id="sc-burden-heading">τ-facing burden</h2>
+  <div class="prose">{{ page.tau_burden | markdownify }}</div>
+</section>
+{% endif %}
+
+{% if page.current_response and page.current_response != "" %}
+<section class="content-card" aria-labelledby="sc-response-heading">
+  <h2 id="sc-response-heading">Current τ response</h2>
+  <div class="prose">{{ page.current_response | markdownify }}</div>
+</section>
+{% endif %}
+
+{% if page.registry_evidence.size > 0 or page.taulib_links.size > 0 or page.result_links.size > 0 %}
+<section class="content-card" aria-labelledby="sc-evidence-heading">
+  <h2 id="sc-evidence-heading">Registry, formalization, and result evidence</h2>
+  <div class="meta-list" style="font-size: 0.92rem;">
+    {% if page.registry_evidence.size > 0 %}
+    <div class="meta-item"><span>Registry objects</span><span class="meta-value">
+      {% for item in page.registry_evidence %}<a href="{{ item.url | relative_url }}">{{ item.label | default: item.url }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </span></div>
+    {% endif %}
+    {% if page.taulib_links.size > 0 %}
+    <div class="meta-item"><span>TauLib declarations</span><span class="meta-value">
+      {% for item in page.taulib_links %}<a href="{{ item.url | relative_url }}">{{ item.label | default: item.url }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </span></div>
+    {% endif %}
+    {% if page.result_links.size > 0 %}
+    <div class="meta-item"><span>Related results</span><span class="meta-value">
+      {% for item in page.result_links %}<a href="{{ item.url | relative_url }}">{{ item.label | default: item.url }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </span></div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.cross_domain_links.size > 0 %}
+<section class="content-card" aria-labelledby="sc-cross-heading">
+  <h2 id="sc-cross-heading">Cross-domain links</h2>
+  <ul>
+    {% for link in page.cross_domain_links %}
+    <li><a href="{{ link.url | default: '/agenda/structural-challenge-ledger/' | relative_url }}">{{ link.label | default: link.challenge_id }}</a>{% if link.note %} — {{ link.note }}{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if page.what_would_count_as_progress and page.what_would_count_as_progress != "" %}
+<section class="content-card" aria-labelledby="sc-progress-heading">
+  <h2 id="sc-progress-heading">What would count as progress</h2>
+  <div class="prose">{{ page.what_would_count_as_progress | markdownify }}</div>
+</section>
+{% endif %}
+
+{% if page.what_would_count_as_failure and page.what_would_count_as_failure != "" %}
+<section class="content-card" aria-labelledby="sc-failure-heading">
+  <h2 id="sc-failure-heading">What would count as failure or limitation</h2>
+  <div class="prose">{{ page.what_would_count_as_failure | markdownify }}</div>
+</section>
+{% endif %}
+
+{% if page.not_claimed.size > 0 %}
+<section class="content-card" aria-labelledby="sc-not-claimed-heading">
+  <h2 id="sc-not-claimed-heading">What this page does not claim</h2>
+  <ul>
+    {% for item in page.not_claimed %}<li>{{ item }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if page.reviewer_questions.size > 0 %}
+<section class="content-card" aria-labelledby="sc-reviewer-heading">
+  <h2 id="sc-reviewer-heading">First reviewer questions</h2>
+  <ol>
+    {% for q in page.reviewer_questions %}<li>{{ q }}</li>{% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+{% if page.source_anchors.size > 0 %}
+<section class="content-card" aria-labelledby="sc-sources-heading">
+  <h2 id="sc-sources-heading">Source anchors</h2>
+  <ul>
+    {% for s in page.source_anchors %}
+    <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label | default: s.url }}</a></li>
+    {% endfor %}
+  </ul>
+  <p class="muted-note" style="font-size: 0.85rem;">Source anchors are background references, not endorsements of Panta Rhei claims.</p>
+</section>
+{% endif %}
+
+</article>

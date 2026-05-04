@@ -22,17 +22,25 @@ right_rail:
       url: /engage/discussions/
     - title: "Corpus"
       url: /corpus/
+    - title: "Corpus Construction Spine"
+      url: /corpus/construction-spine/
+    - title: "Monograph Corpus"
+      url: /corpus/monograph-corpus/
     - title: "Verify"
       url: /verify/
-    - title: "TauLib"
-      url: /verify/taulib/
+    - title: "How to Verify"
+      url: /verify/how-to-verify/
     - title: "Assessment Protocols"
       url: /verify/assessment-protocols/
+    - title: "AI-Assisted Discovery"
+      url: /discover/ai-assisted-discovery/
+    - title: "TauLib"
+      url: /verify/taulib/
   meta:
     type: "Engagement Route"
     scope: "Inspection"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 tags:
   - engage
   - open-research
@@ -76,13 +84,13 @@ The program should not be evaluated only at the level of prose. Serious inspecti
 
 1. Pick a claim in [Browse All Results]({{ '/results/browse/' | relative_url }}).
 2. Note its type, status, domain, and related links.
-3. Follow any registry or publication references into [Corpus]({{ '/corpus/' | relative_url }}) and [Publications]({{ '/publications/' | relative_url }}).
+3. Follow registry, [Monograph Corpus]({{ '/corpus/monograph-corpus/' | relative_url }}), or artifact references into [Corpus]({{ '/corpus/' | relative_url }}) and [Publications]({{ '/publications/' | relative_url }}).
 4. Use [Verify]({{ '/verify/' | relative_url }}) to select the relevant verification mode: formal, empirical, comparative, or protocol-based.
 5. If the claim is formalized, inspect [TauLib]({{ '/verify/taulib/' | relative_url }}). If it is empirical, inspect [Predictions & Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }}).
 
 ## What Good Inspection Produces
 
-Good inspection names a specific object and a specific test. Examples include a broken dependency, a missing assumption, a mismatch between prose and registry source, a formalization gap, a prediction that should be reclassified, or a prior-art overlap that needs explicit treatment.
+Good inspection names a specific object and a specific test. Examples include a broken dependency, a missing assumption, an unearned Core Semantics term, a missing semantic bridge, a mismatch between prose and registry source, a formalization gap, a prediction that should be reclassified, or a prior-art overlap that needs explicit treatment.
 
 For structured public objections, continue to [Public Discussions]({{ '/engage/discussions/' | relative_url }}) or [Critique & Challenge]({{ '/engage/critique-challenge/' | relative_url }}). Use Issues for concrete defects and [Contact]({{ '/engage/contact/' | relative_url }}) for private or institutional routes.
 

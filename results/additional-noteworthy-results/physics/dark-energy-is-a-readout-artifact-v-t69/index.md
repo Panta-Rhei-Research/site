@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/problem-ledger-answers/physics/dark-energy/"
+    url: "/results/challenge-responses/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -130,7 +130,7 @@ Dark energy is a readout artifact: the cosmic acceleration attributed to Lambda 
 
 ## Related Results surfaces
 
-- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
+- [Dark energy](/results/challenge-responses/physics/dark-energy/)
 - [Dark Energy Equation of State](/results/problem/dark-energy-equation-of-state/)
 - [Dark Sector Closure](/results/problem/dark-sector-closure/)
 - [Dark Energy Density Ω_Λ](/predictions/pred-46/)

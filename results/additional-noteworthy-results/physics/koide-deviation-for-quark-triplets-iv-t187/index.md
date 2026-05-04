@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-specific-models-of-quarkgluon-plasma-formation"
     title: "Specific models of quark–gluon plasma formation"
-    url: "/results/problem-ledger-answers/physics/specific-models-of-quarkgluon-plasma-formation/"
+    url: "/results/challenge-responses/physics/specific-models-of-quarkgluon-plasma-formation/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms: []
@@ -79,7 +79,7 @@ This is a public Results-lane surface for a noteworthy Physics Registry item. It
 
 ## Related Results surfaces
 
-- [Specific models of quark–gluon plasma formation](/results/problem-ledger-answers/physics/specific-models-of-quarkgluon-plasma-formation/)
+- [Specific models of quark–gluon plasma formation](/results/challenge-responses/physics/specific-models-of-quarkgluon-plasma-formation/)
 - [Exotic Hadrons: Color-Singlet Enumeration of Tetraquarks and Pentaquarks](/results/problem/exotic-hadrons/)
 - [QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement](/results/problem/qcd-phases-qgp/)
 - [QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement](/results/problem/qcd-phases-qgp/)

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-proton-decay-and-spin-crisis"
     title: "Proton decay and spin crisis"
-    url: "/results/problem-ledger-answers/physics/proton-decay-and-spin-crisis/"
+    url: "/results/challenge-responses/physics/proton-decay-and-spin-crisis/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -123,7 +123,7 @@ The proton has spin s_p = 1/2, the same as the neutron. Spin arises from T^2 top
 
 ## Related Results surfaces
 
-- [Proton decay and spin crisis](/results/problem-ledger-answers/physics/proton-decay-and-spin-crisis/)
+- [Proton decay and spin crisis](/results/challenge-responses/physics/proton-decay-and-spin-crisis/)
 - [Proton-Neutron Mass Difference at +33 ppm](/results/problem/proton-neutron-mass-difference/)
 - [Proton Spin Puzzle](/results/problem/proton-spin-puzzle/)
 - [Proton–Neutron Mass Splitting](/predictions/a-m/)

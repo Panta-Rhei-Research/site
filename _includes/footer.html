@@ -11,39 +11,45 @@
           <div class="footer-core-lane-column">
             <a href="{{ '/discover/' | relative_url }}">Discover</a>
             <a href="{{ '/program/' | relative_url }}">Program</a>
+            <a href="{{ '/agenda/' | relative_url }}">Agenda</a>
             <a href="{{ '/corpus/' | relative_url }}">Corpus</a>
-            <a href="{{ '/results/' | relative_url }}">Results</a>
           </div>
           <div class="footer-core-lane-column">
+            <a href="{{ '/results/' | relative_url }}">Results</a>
             <a href="{{ '/verify/' | relative_url }}">Verify</a>
-            <a href="{{ '/publications/' | relative_url }}">Publications</a>
             <a href="{{ '/impact/' | relative_url }}">Impact</a>
             <a href="{{ '/engage/' | relative_url }}">Engage</a>
           </div>
         </div>
       </div>
       <div class="footer-link-group">
-        <span class="footer-group-title">Infrastructure</span>
-        <button type="button" class="footer-link-button" onclick="openSearch()">Search</button>
+        <span class="footer-group-title">Infrastructure & Artifacts</span>
+        <button type="button" class="footer-link-button footer-search-trigger" onclick="openSearch()">Search</button>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
         <a href="{{ '/bibliography/' | relative_url }}">Bibliography</a>
         <a href="{{ '/changelog/' | relative_url }}">Changelog</a>
         <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
         <a href="{{ '/cite/' | relative_url }}">Cite</a>
       </div>
       <div class="footer-link-group">
-        <span class="footer-group-title">Media & Review</span>
+        <span class="footer-group-title">Media & Contact</span>
         <a href="{{ '/media/' | relative_url }}">Media Kit</a>
-        <a href="{{ '/media/review-kit/' | relative_url }}">Review Kit</a>
+        <a href="{{ '/media/journalist-faq/' | relative_url }}">Journalist FAQ</a>
+        <a href="{{ '/media/social-media-kit/' | relative_url }}">Social Media Kit</a>
         <a href="{{ '/program/about/founders/' | relative_url }}">Founders</a>
         <a href="{{ '/engage/contact/' | relative_url }}">Contact</a>
       </div>
       <div class="footer-link-group">
-        <span class="footer-group-title">External & Legal</span>
-        <a href="https://taulib.site" target="_blank" rel="noopener">TauLib Docs</a>
-        <a href="https://github.com/Panta-Rhei-Research/taulib" target="_blank" rel="noopener">TauLib Source</a>
-        <a href="{{ '/credits/' | relative_url }}">Credits</a>
+        <span class="footer-group-title">External</span>
+        <a href="https://taulib.site" target="_blank" rel="noopener" data-umami-event="outbound.taulib" data-umami-event-location="footer" data-umami-event-type="external">TauLib Docs</a>
+        <a href="https://github.com/Panta-Rhei-Research/taulib" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="taulib-source">TauLib Source</a>
+        <a href="https://github.com/Panta-Rhei-Research" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="org">GitHub Organization</a>
+      </div>
+      <div class="footer-link-group">
+        <span class="footer-group-title">Legal</span>
         <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
         <a href="{{ '/datenschutz/' | relative_url }}">Datenschutz</a>
+        <a href="{{ '/credits/' | relative_url }}">Credits</a>
       </div>
     </nav>
     <div class="footer-legal">

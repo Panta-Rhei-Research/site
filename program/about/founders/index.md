@@ -11,7 +11,7 @@ summary_cards:
   - title: "Founders"
     body: "Anna-Sophie Fuchs and Thorsten Fuchs initiated and built the Panta Rhei Research Program together."
   - title: "Stewardship"
-    body: "The program's books, website, TauLib, and review pathways are currently stewarded directly by its founders."
+    body: "The program's books, website, TauLib, Corpus, Results, Verify routes, assessment protocols, and engagement surfaces are currently stewarded directly by its founders."
   - title: "Correspondence"
     body: "Media, institutional, and technical correspondence routes are provided through the site's Contact page."
 right_rail:
@@ -21,12 +21,12 @@ right_rail:
     - title: "Contact"
       url: /engage/contact/
     - title: "Historical Context"
-      url: /program/research-agenda/historical-context/
+      url: /agenda/historical-context/
   meta:
     type: "About"
     scope: "Program-wide"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 The **Panta Rhei Research Program** was initiated and brought to its current public stage by **Anna-Sophie Fuchs** and **Thorsten Fuchs**.
@@ -37,6 +37,7 @@ The program should be read through its public artifacts and arguments: the books
 
 <a href="https://orcid.org/0009-0007-0718-1042" target="_blank" rel="noopener" class="orcid-link">ORCID 0009-0007-0718-1042</a>
 <a href="https://www.linkedin.com/in/thorfuchs/" target="_blank" rel="noopener" class="profile-link">LinkedIn</a>
+<a href="https://mastodon.social/@thorfuchs" target="_blank" rel="me noopener" class="profile-link">Mastodon</a>
 
 **Dr. Thorsten Fuchs** studied pure mathematics before spending many years in business and technology leadership. After graduate work in algebraic structures, he worked at McKinsey & Company and later led the Office Business Group at Microsoft Germany. Mathematics did not disappear during those years; it moved into the background and waited.
 
@@ -54,17 +55,19 @@ In Panta Rhei, she brings structural mapping, editorial discipline, and the huma
 
 ## Together
 
-Together, Anna-Sophie and Thorsten built **Panta Rhei** as one coherent research program rather than as a loose group of books or papers. The seven-book series is the current canonical monograph release of that program, but the program itself also includes this website, TauLib, the registry, guided tours, verification companions, and the broader publication and review surfaces through which the work is made public.
+Together, Anna-Sophie and Thorsten built **Panta Rhei** as one coherent research program rather than as a loose group of books or papers. The seven-book series is the current canonical monograph release of that program, but the program itself also includes this website, TauLib, the registry, guided tours, verification companions, and the broader publication, verification, assessment, and engagement surfaces through which the work is made public.
 
 Their shared discipline can be stated simply:
 
 **First earn the language, then earn the question, then earn the answer.**
 
+For the public doctrine behind that discipline, see [What We Mean by a Coherent Theory of Reality](/program/about/coherent-theory-of-reality/).
+
 That discipline shapes not only the mathematics, but also the way the project presents itself to others.
 
 ## Current stewardship
 
-The current public form of the program — its books, website, formalization surfaces, and review pathways — is still stewarded directly by its founders. In that sense, this page is not only biographical. It is also a provenance page: it makes visible who has initiated the work, who currently carries responsibility for it, and through whom correspondence about the program should presently flow.
+The current public form of the program — its books, website, formalization surfaces, verification routes, and engagement surfaces — is still stewarded directly by its founders. In that sense, this page is not only biographical. It is also a provenance page: it makes visible who has initiated the work, who currently carries responsibility for it, and through whom correspondence about the program should presently flow.
 
 ## Correspondence
 

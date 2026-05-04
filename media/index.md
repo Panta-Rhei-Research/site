@@ -6,26 +6,41 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
-updated: "April 2026"
+last_updated: 2026-05-04
+updated: "May 2026"
 summary: "Resources for journalists, public communicators, and external readers covering the Panta Rhei Research Program."
-summary_short: "Press, podcast, and review resources for the Panta Rhei Research Program."
+summary_short: "Press, podcast, and public-communication resources for the Panta Rhei Research Program."
 summary_cards:
 - title: "What this is"
-  body: "Downloadable materials, press resources, and structured entry surfaces for journalists, podcast hosts, reviewers, and institutions."
-- title: "Current release"
-  body: "Seven-book monograph series (2nd Edition, April 2026), TauLib formalization, research website."
+  body: "Downloadable materials, press resources, and structured entry surfaces for journalists, podcast hosts, public communicators, and institutions."
+- title: "Current public release"
+  body: "Seven-book monograph series (2nd Edition, April 2026), TauLib formalization, and the v4 public research observatory website (May 2026)."
 - title: "Contact"
-  body: "press@panta-rhei.site for journalists, review@ for peer review"
+  body: "Media inquiries: press@panta-rhei.site. Structured review / technical inspection: review@panta-rhei.site."
 right_rail:
   related:
   - title: Story Angles
     url: /media/story-angles/
+  - title: AI-Assisted Discovery
+    url: /discover/ai-assisted-discovery/
   - title: Journalist FAQ
     url: /media/journalist-faq/
   - title: Social Media Kit
     url: /media/social-media-kit/
-  - title: Review Kit
-    url: /media/review-kit/
+  - title: How to Verify
+    url: /verify/how-to-verify/
+  - title: Assessment Protocols
+    url: /verify/assessment-protocols/
+  - title: Review the Work
+    url: /engage/review-the-work/
+  - title: Open Research Brief
+    url: /media/open-research-brief/
+  - title: Theory of Reality Brief
+    url: /media/theory-of-reality-brief/
+  - title: Public Research Observatory Brief
+    url: /media/public-research-observatory-brief/
+  - title: Related Approaches
+    url: /program/about/related-approaches/
   - title: Scientific Plates
     url: /media/posters/
   - title: Program
@@ -38,30 +53,120 @@ right_rail:
     url: /engage/contact/
   - title: White Papers
     url: /publications/white-papers/
+  - title: Inspection Architecture White Paper
+    url: /publications/white-papers/inspection-architecture-high-scope-open-research/
+  - title: Theory of Reality White Paper
+    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
+  - title: Public Research Observatory White Paper
+    url: /publications/white-papers/building-a-public-research-observatory/
   meta:
     type: "Support page"
     scope: "Media kit"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Short description
 
-The Panta Rhei Research Program is an independent open research program developing **Category τ** — a categorical framework built from five generators, seven axioms, and one operator that derives results across mathematics, physics, biology, and philosophy from a single coherence kernel.
+The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality. It is published as an inspectable research observatory: Program for identity, Agenda for obligations, Corpus for construction, Results for consequences, Verify for inspection, Impact for conditional relevance, and Engage for open scrutiny.
+
+## Suggested first story angle
+
+The safest first story is not whether the Panta Rhei framework is true.
+
+The first story is the inspection standard.
+
+Open science makes research more accessible and shareable, but it raises a hard question: how should journalists, researchers, and readers assess high-scope claims from outside ordinary institutional channels?
+
+Panta Rhei can be covered as a case study in inspection architecture: a public research observatory exposing its Program doctrine, Agenda, source-pinned Problem Ledger, Core Semantics, Construction Spine, Corpus, TauLib formalization, Results, status markers, prediction/falsification surfaces, errata, and assessment protocols.
+
+For comparisons with neighboring structural, computational, geometric, life, consciousness, and metaphysical programs, use [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}). It is a positioning map, not a takedown.
+
+Suggested framing:
+
+> If independent open research is allowed to ask large questions, what public burden should it accept before asking anyone to care?
+
+For the full Package 1 framing, read the [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) and the white paper [Inspection Architecture for High-Scope Open Research]({{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }}).
+
+## Suggested second story angle
+
+The second safe story is the intellectual category.
+
+Panta Rhei is not asking journalists to cover a theory of everything as a settled scientific claim. Package 2 explains why the program uses the stricter phrase “coherent theory of reality”: a public burden to earn its language, earn its questions, build its answers, disclose limits, and state conditional public relevance.
+
+Suggested framing:
+
+> If a research program wants to speak about reality as a whole, what must it expose before the phrase becomes more than a slogan?
+
+For the full Package 2 framing, read the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}) and the white paper [The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}).
+
+## Suggested third story angle
+
+The third safe story is the technical blueprint.
+
+Panta Rhei is not only publishing claims or PDFs. Package 3 explains how the public site and GitHub organization implement a public research observatory: a route system where a reader can move from Program identity to Agenda obligations, Corpus construction, Results status, Verify inspection, Publications artifacts, and Engage correction paths.
+
+Suggested framing:
+
+> How should a high-scope open research program build the public interface that lets outsiders inspect it?
+
+For the full Package 3 framing, read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) and the white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}).
+
+## What journalists can responsibly say
+
+- Panta Rhei has built an unusually structured public interface for inspecting a high-scope research program.
+- The site exposes Program, Agenda, Corpus, Results, Verify, Impact, and Engage surfaces.
+- It distinguishes internal program results from external verification or acceptance.
+- It provides source-pinned problem ledgers, core-semantics obligations, formalization surfaces, predictions, falsification paths, and correction routes.
+- Its inspection architecture is itself a public-facing artifact.
+
+## What should not be said without further review
+
+- The framework is proven.
+- The claims are accepted by the scientific community.
+- Panta Rhei has solved all listed problems.
+- The Lean formalization proves the physical results.
+- The inspection architecture validates the scientific truth of the framework.
+
+## Possible headlines
+
+- Open Science Needs Inspection Architecture
+- How Should Radical Open Research Be Published Before It Is Believed?
+- A Public Research Observatory for High-Scope Science
+- Beyond the Preprint: Making Ambitious Research Inspectable
+- Big Claims Are Cheap. Inspection Architecture Is Not.
+- A Case Study in How High-Scope Research Can Ask to Be Checked, Not Believed
 
 ## What this is
 
-This page gathers public materials for journalists, podcast hosts, public communicators, reviewers, and institutional readers. It is an entry surface into the current public site, not a replacement for the canonical lanes.
+This page gathers public materials for journalists, podcast hosts, public communicators, and institutional readers. It is an entry surface into the current public site, not a replacement for the canonical lanes.
 
-{% assign book_count = site.data.publications.books | size %}{% assign result_count = site.data.results.results | size %}{% assign registry_count = site.data.registry.objects | size %}{% assign chapter_count = site.data.publications.chapters | size %}The program's canonical release (April 2026) includes:
-- A **{{ book_count }}-book monograph series** (~3,430 pages, available on Amazon KDP)
+## Current public release
+
+The canonical monograph release is the seven-book Second Edition from **April 2026**.
+
+The public website is now organized as the **v4 research observatory (May 2026)**: Discover, Program, Agenda, Corpus, Results, Verify, Impact, and Engage, with Publications as the artifact and release shelf.
+
+Together, the program's current public release includes:
+
+- A **{% include release-metric.html id="publications.books" %}-book monograph series** ({% include release-metric.html id="publications.pages" %} print pages, available on Amazon KDP) — April 2026
 - A **Lean 4 formalization library** (TauLib, {% include release-metric.html id="taulib.modules" unit=true %}; the published formalized modules are built without `sorry`, while Book VI remains registry-planned and not yet fully Lean-formalized — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}))
-- This **research website** ({{ result_count }} key results, {{ registry_count }} registry objects)
+- The **v4 research observatory website** ({% include release-metric.html id="results.records" %} key results, {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects) — May 2026
 - **Guided tours** and **structural falsification whitepapers**
 
 ## What this is not
 
-This media kit is not a peer-review certificate, not a claim that every result is settled, and not a shortcut around the verification surfaces. Use it for orientation, then follow the relevant Program, Corpus, Results, Verify, and Publications routes.
+This media kit is not a peer-review certificate, not a claim that every result is settled, and not a shortcut around the verification surfaces. Use it for orientation, then follow the relevant Program, Agenda, Corpus, Results, Verify, and Publications routes.
+
+## Review and inspection routes
+
+Panta Rhei is not reviewed through one standalone kit. It is inspected through bounded routes:
+
+- [Verify]({{ '/verify/' | relative_url }}) explains how obligations, construction steps, results, formalization, bridges, predictions, and falsification paths can be checked.
+- [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}) provide structured manual and LLM-assisted workflows.
+- [Engage → Review the Work]({{ '/engage/review-the-work/' | relative_url }}) explains how to offer bounded review, critique, correction, or contribution without implying endorsement.
+
+Start with [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}), [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}), or [Review the Work]({{ '/engage/review-the-work/' | relative_url }}).
 
 ---
 
@@ -72,6 +177,18 @@ This media kit is not a peer-review certificate, not a claim that every result i
     <h3>Story Angles</h3>
     <p>Five framings for journalists — independence, zero free parameters, falsification on day one, cross-domain scope, open verification. Each with a headline, 30-second pitch, and key-fact anchor.</p>
   </a>
+  <a class="v2-tile" href="{{ '/media/open-research-brief/' | relative_url }}">
+    <h3>Open Research Brief</h3>
+    <p>A one-page newsroom brief for the safest first story: the inspection standard, not endorsement of the theory.</p>
+  </a>
+  <a class="v2-tile" href="{{ '/media/theory-of-reality-brief/' | relative_url }}">
+    <h3>Theory of Reality Brief</h3>
+    <p>A one-page newsroom brief for the second story: why Panta Rhei says coherent theory of reality, not theory of everything.</p>
+  </a>
+  <a class="v2-tile" href="{{ '/media/public-research-observatory-brief/' | relative_url }}">
+    <h3>Public Research Observatory Brief</h3>
+    <p>A one-page newsroom brief for the third story: the technical blueprint behind the inspectable public research system.</p>
+  </a>
   <a class="v2-tile" href="{{ '/media/journalist-faq/' | relative_url }}">
     <h3>Journalist FAQ</h3>
     <p>Common press questions: peer-review status, funding, citation, interview windows, embargo policy, headshots, and what to avoid writing.</p>
@@ -80,9 +197,17 @@ This media kit is not a peer-review certificate, not a claim that every result i
     <h3>Social Media Kit</h3>
     <p>Suggested posts for X, LinkedIn, Bluesky, Mastodon · hashtags · share-card recommendations · email signature blocks. All CC BY 4.0.</p>
   </a>
-  <a class="v2-tile" href="{{ '/media/review-kit/' | relative_url }}">
-    <h3>Review Kit</h3>
-    <p>Reviewer-facing entry paths, verification surfaces, audit orientation, domain-specific paths, suggested first-pass workflow.</p>
+  <a class="v2-tile" href="{{ '/verify/how-to-verify/' | relative_url }}">
+    <h3>How to Verify</h3>
+    <p>Practical entry points for inspecting the program from obligations, construction steps, results, TauLib, predictions, and protocols.</p>
+  </a>
+  <a class="v2-tile" href="{{ '/verify/assessment-protocols/' | relative_url }}">
+    <h3>Assessment Protocols</h3>
+    <p>Structured manual and LLM-assisted review workflows for holding claims accountable.</p>
+  </a>
+  <a class="v2-tile" href="{{ '/engage/review-the-work/' | relative_url }}">
+    <h3>Review the Work</h3>
+    <p>How to offer bounded review, critique, correction, or contribution without implying endorsement.</p>
   </a>
   <a class="v2-tile" href="{{ '/media/posters/' | relative_url }}">
     <h3>Scientific Plates</h3>
@@ -90,7 +215,7 @@ This media kit is not a peer-review certificate, not a claim that every result i
   </a>
   <a class="v2-tile" href="{{ '/publications/white-papers/' | relative_url }}">
     <h3>White Papers</h3>
-    <p>Concise documents for specific claims, falsification routes, interpretive bridges, and the TauLib v2.0 self-contained library.</p>
+    <p>Citable explanatory documents for inspection architecture, theory-of-reality framing, public observatory architecture, and formalization context.</p>
   </a>
 </div>
 
@@ -109,10 +234,10 @@ For the full timeline + all {% include release-metric.html id="falsifications.re
 - **Authors**: Dr. Thorsten Fuchs & Anna-Sophie Fuchs
 - **Corpus kernel**: 5 generators, 7 axioms (K0–K6), 1 operator (ρ)
 - **Master constant**: ι<sub>τ</sub> = 2/(π+e) ≈ 0.3413
-- **Books**: {{ book_count }} volumes, {{ chapter_count }} chapters
-- **Results**: {{ result_count }} key results across 4 domains
+- **Books**: {% include release-metric.html id="publications.books" %} volumes, {% include release-metric.html id="publications.chapters" %} chapters
+- **Results**: {% include release-metric.html id="results.records" %} key results across 4 domains
 - **Formalization**: {% include release-metric.html id="taulib.lines" unit=true %} of Lean 4 and {% include release-metric.html id="taulib.theorems_lemmas" unit=true %} in the current public projection; published formalized modules are built without `sorry`
-- **Registry**: {{ registry_count }} mathematical objects with dependency graphs
+- **Registry**: {% include release-metric.html id="registry.registry_total.grand_total" %} mathematical objects with dependency graphs
 - **Predictions and falsification**: {% include release-metric.html id="predictions.records" %} quantitative prediction records plus {% include release-metric.html id="falsifications.records" %} named falsification tests in the current public projection
 - **Decisive test**: CMB-S4 tensor-to-scalar ratio r ≈ ι<sub>τ</sub>⁴ ≈ 0.0136 (~2030)
 - **Status**: Independent research — not yet peer-reviewed in traditional journals
@@ -170,7 +295,10 @@ The program publishes its research papers as standalone PDFs under [`/publicatio
 
 - [Homepage]({{ '/' | relative_url }}) — high-level orientation.
 - [Discover]({{ '/discover/' | relative_url }}) — guided entry routes.
-- [Program]({{ '/program/' | relative_url }}) — identity, purpose, and research agenda.
+- [Program]({{ '/program/' | relative_url }}) — identity, doctrine, scope, status, and inspection-observatory rationale.
+- [Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}) — the short public doctrine behind the canonical v4 statement.
+- [Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }}) — why the site asks first for structured inspection.
+- [Agenda]({{ '/agenda/' | relative_url }}) — obligations, problem ledgers, recovery requirements, and construction roadmap.
 - [Corpus]({{ '/corpus/' | relative_url }}) — central research artifact and registry projection.
 - [Results]({{ '/results/' | relative_url }}) — typed answer surfaces and world readouts.
 - [Verify]({{ '/verify/' | relative_url }}) — formalization, falsification, and assessment protocols.
@@ -179,7 +307,7 @@ The program publishes its research papers as standalone PDFs under [`/publicatio
 
 ## Key public surfaces
 
-Use these lanes when describing the public site: Program for identity and agenda, Corpus for the central research body, Results for current answer surfaces, Verify for inspection and challenge, Publications for citable artifacts, and Engage for contact.
+Use these lanes when describing the public site: Program for identity and doctrine, Agenda for obligations, Corpus for the central research body, Results for current answer surfaces, Verify for inspection and challenge, Impact for conditional relevance, Engage for open scrutiny, and Publications for citable artifacts.
 
 ## Press kit
 
@@ -189,15 +317,15 @@ Three lengths are provided — pick whichever fits your headline / lede / body n
 
 #### One-line (under 30 words)
 
-> Panta Rhei is an independent open research program developing **Category τ** — a categorical framework deriving results across mathematics, physics, biology, and philosophy with zero free parameters.
+> Panta Rhei is an independent open research program dedicated to building a coherent theory of reality, published as an inspectable research observatory.
 
 #### Standard (≈100 words)
 
-> The Panta Rhei Research Program develops **Category τ**, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator. The program's seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {{ result_count }} key results with typed epistemic status, a public research website with {{ registry_count }} registry objects, and a published falsification ledger including a decisive CMB-S4 prediction (r ≈ 0.0136 by 2030). All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
+> The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality. Its seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {% include release-metric.html id="results.records" %} key results with typed epistemic status, a public research website with {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects, and a published falsification ledger including a decisive CMB-S4 prediction (r ≈ 0.0136 by 2030). All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
 
 #### Long-form (≈200 words, original)
 
-> The Panta Rhei Research Program develops Category τ, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator. The program's seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {{ result_count }} key results with typed epistemic status, and a public research website with {{ registry_count }} registry objects. All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
+> The Panta Rhei Research Program develops Category τ, a categorical framework that derives results across mathematics, physics, biology, and philosophy from five generators, seven axioms, and one operator. The program's seven-book monograph series (2nd Edition, April 2026) is accompanied by a Lean 4 formalization library, {% include release-metric.html id="results.records" %} key results with typed epistemic status, and a public research website with {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects. All claims carry explicit scope labels and verification routes. The program is independent research — not yet peer-reviewed in traditional journals.
 >
 > Distinctively, the framework operates with **zero dimensionless free parameters**: a single algebraic constant ι_τ = 2/(π+e) ≈ 0.3413, derived from the categorical kernel, plus one empirical anchor (the neutron mass) jointly determine every dimensionless ratio in the published constants ledger. The program publishes its falsification tests alongside its claims — most decisively, the CMB-S4 tensor-to-scalar prediction r ≈ ι_τ⁴ ≈ 0.0136, scheduled for measurement around 2030. The Lean 4 formalization (TauLib, {% include release-metric.html id="taulib.modules" unit=true %}) checks the framework's internal consistency; the published formalized modules are built without `sorry`. All review surfaces are public from day one.
 
@@ -205,15 +333,15 @@ Three lengths are provided — pick whichever fits your headline / lede / body n
 
 | Metric | Value |
 |--------|------:|
-| Books | {{ book_count }} |
-| Total pages | ~3,430 |
-| Chapters | {{ chapter_count }} |
-| Key results | {{ result_count }} |
-| Registry objects | {{ registry_count }} |
+| Books | {% include release-metric.html id="publications.books" %} |
+| Total pages | {% include release-metric.html id="publications.pages" %} |
+| Chapters | {% include release-metric.html id="publications.chapters" %} |
+| Key results | {% include release-metric.html id="results.records" %} |
+| Registry objects | {% include release-metric.html id="registry.registry_total.grand_total" %} |
 | Lean 4 modules | {% include release-metric.html id="taulib.modules" %} |
 | Lines of Lean 4 | {% include release-metric.html id="taulib.lines" %} |
 | Machine-checked theorems | {% include release-metric.html id="taulib.theorems_lemmas" %} |
-| Sorry (unproven) | 0 in the published formalized modules; Book VI remains registry-planned and not yet fully Lean-formalized |
+| Sorry (unproven) | {% include release-metric.html id="taulib.sorry" %} in the published formalized modules; Book VI remains registry-planned and not yet fully Lean-formalized |
 | Free parameters | 0 |
 | Quantitative predictions | {% include release-metric.html id="predictions.records" %} prediction records plus {% include release-metric.html id="falsifications.records" %} named falsification tests |
 
@@ -249,8 +377,8 @@ For social-media share cards, see [Social Media Kit → Share cards]({{ '/media/
 
 **Institutional contact**: [inquiry@panta-rhei.site](mailto:inquiry@panta-rhei.site)
 
-**Peer review**: [review@panta-rhei.site](mailto:review@panta-rhei.site)
+**Structured review / technical inspection**: [review@panta-rhei.site](mailto:review@panta-rhei.site)
 
 **Errata & corrections**: [errata@panta-rhei.site](mailto:errata@panta-rhei.site)
 
-See also: [Journalist FAQ]({{ '/media/journalist-faq/' | relative_url }}) for press Q&A, [Story Angles]({{ '/media/story-angles/' | relative_url }}) for suggested framings, [Social Media Kit]({{ '/media/social-media-kit/' | relative_url }}) for share-ready posts, [Review Kit]({{ '/media/review-kit/' | relative_url }}) for reviewer-specific entry paths, [Engage · Media]({{ '/engage/media/' | relative_url }}) for press and public-communication context, and [Engage · Contact]({{ '/engage/contact/' | relative_url }}) for the full list of topic-specific routes.
+See also: [Journalist FAQ]({{ '/media/journalist-faq/' | relative_url }}) for press Q&A, [Story Angles]({{ '/media/story-angles/' | relative_url }}) for suggested framings, [Social Media Kit]({{ '/media/social-media-kit/' | relative_url }}) for share-ready posts, [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}) and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}) for inspection routes, [Engage · Review the Work]({{ '/engage/review-the-work/' | relative_url }}) for bounded review, and [Engage · Contact]({{ '/engage/contact/' | relative_url }}) for the full list of topic-specific routes.

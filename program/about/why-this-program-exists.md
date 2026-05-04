@@ -16,21 +16,21 @@ summary_cards:
   body: Scientific reason, ethics, metaphysics, and existential stance are often allowed
     to coexist only under a divided-house settlement.
 - title: Programmatic wager
-  body: A better model should seek coherence where domains genuinely overlap rather
-    than treating contradiction as a permanent civilizational condition.
+  body: A coherent theory of reality should seek coherence where domains genuinely
+    overlap rather than treating contradiction as a permanent civilizational condition.
 right_rail:
   related:
   - title: Research Aim & Desiderata
-    url: /program/research-agenda/research-aim-and-desiderata/
+    url: /agenda/research-aim-and-desiderata/
   - title: Science, Humanities & Coherence
-    url: /program/research-agenda/science-humanities-and-coherence/
+    url: /agenda/science-humanities-and-coherence/
   - title: Historical Context
-    url: /program/research-agenda/historical-context/
+    url: /agenda/historical-context/
   meta:
     type: Essay
     scope: Program-wide
     status: Canonical
-    updated: April 2026
+    updated: May 2026
 ---
 
 The Panta Rhei Research Program begins from a dissatisfaction with two kinds of fragmentation.
@@ -70,7 +70,7 @@ The motivating question is not how to erase real differences between registers o
 
 The program therefore begins from a refusal of the permanent ceasefire as a final answer.
 
-## The burden of a stronger model
+## The burden of a coherent theory of reality
 
 Once one rejects both forms of fragmentation as sufficient, a much harder obligation appears.
 
@@ -82,20 +82,20 @@ It is not enough to say:
 
 One must then ask:
 
-**What kind of framework could possibly carry a stronger burden?**
+**What kind of theory could possibly carry such a burden?**
 
 That is the beginning of the program.
 
-The answer cannot simply be "a bigger theory" in the ordinary sense. It must be a framework whose foundations are themselves disciplined enough to make global answerability at least possible in principle.
+The answer cannot simply be "a bigger theory" in the ordinary sense. It must be a theory whose foundations are themselves disciplined enough to make global answerability at least possible in principle.
 
-That is why the program turns so much attention to its kernel, its methods, and its [refusal of certain familiar shortcuts]({{ '/program/research-agenda/what-the-program-refuses/' | relative_url }}).
+That is why the program turns so much attention to its kernel, its methods, and its [refusal of certain familiar shortcuts]({{ '/agenda/what-the-program-refuses/' | relative_url }}).
 
 ## A research program, not a protest
 
 The program is therefore not best understood as a rejection of modern science. It is better understood as an attempt to push some of its deepest questions further than the usual compartmentalized settlement allows.
 
 It asks whether reality may require:
-- stronger [foundational discipline]({{ '/program/research-agenda/foundational-discipline/' | relative_url }})
+- stronger [foundational discipline]({{ '/agenda/foundational-discipline/' | relative_url }})
 - more internal coherence
 - more explicit constraint
 - and less tolerance for unresolved fragmentation
@@ -108,7 +108,9 @@ That is not anti-scientific. It is a wager on a stronger form of intelligibility
 
 The positive wager of the program is simple to state:
 
-**that there may exist a model of reality in which mathematics, physics, life, and metaphysics do not stand as permanently disconnected provinces, but as layers of one coherent structure.** The [Tau framework]({{ '/corpus/' | relative_url }}) is the current attempt to realize that wager.
+**that there may exist a coherent theory of reality in which mathematics, physics, life, and metaphysics do not stand as permanently disconnected provinces, but as layers of one coherent structure.** The [τ-kernel and the Panta Rhei Corpus]({{ '/corpus/' | relative_url }}) are the current construction attempt to realize that wager.
+
+For the public doctrine behind this wager, see [The Shape of a Theory of Reality](/publications/white-papers/the-shape-of-a-theory-of-reality/).
 
 That wager may fail. The world will decide that in time.
 

@@ -9,7 +9,7 @@ status: "Canonical"
 summary_short: "A guided first-contact route into the Panta Rhei Research Program."
 og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
 twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
-og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Research Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
+og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
 tags:
   - discover
   - start-here
@@ -24,7 +24,7 @@ summary_cards:
   - title: "First contact"
     body: "A compressed route for readers who need orientation before technical depth."
   - title: "Multiple routes"
-    body: "Enter through the program, corpus, results, verification, publications, or impact."
+    body: "Enter through Program, Agenda, Corpus, Results, Verify, Impact, Engage, or the supporting Publications layer."
   - title: "No trust shortcut"
     body: "Every route eventually leads to inspection surfaces, status labels, and public artifacts."
 hero_ctas:
@@ -43,15 +43,23 @@ right_rail:
       url: /discover/what-to-read-first/
     - title: "Follow the Research"
       url: /discover/follow-the-research/
+    - title: "Open Research Brief"
+      url: /media/open-research-brief/
+    - title: "Inspection Architecture White Paper"
+      url: /publications/white-papers/inspection-architecture-high-scope-open-research/
+    - title: "Public Research Observatory Brief"
+      url: /media/public-research-observatory-brief/
+    - title: "Public Observatory White Paper"
+      url: /publications/white-papers/building-a-public-research-observatory/
   meta:
     type: "Lane Root"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Overview
 
-Panta Rhei is an independent open research program asking whether one constrained formal kernel can support a unified model across mathematics, physics, life, and metaphysics.
+Panta Rhei is an independent open research program dedicated to building a coherent theory of reality.
 
 The website is a structured public interface to that research system. Discover is the entry layer: deeper than the homepage, but still built for orientation rather than exhaustive explanation. It helps readers move from orientation into the research spine: Agenda, Corpus, Results, and Verify.
 
@@ -71,10 +79,26 @@ Use this chain to read the site: obligations first, construction second, consequ
 
 ## Before Results, there is obligation
 
-{% capture discover_plate_03_caption %}Before Results, there is obligation: the Research Agenda records the external problems, recovery requirements, answer-shape discipline, and logical build-order of the program.{% endcapture %}
+{% capture discover_plate_03_caption %}Before Results, there is obligation: the Agenda records external problems, core-semantics obligations, answer-shape discipline, and the logical build-order of the program.{% endcapture %}
 {% include scientific-plate.html id="plate-03-public-obligation-layer" variant="thumb" class="scientific-plate--compact" caption=discover_plate_03_caption loading="lazy" %}
 
-The Research Agenda states the burden: what must be kept visible, what must be recovered, what kind of answer could count, and what must be built first.
+Agenda states the burden: what language must be earned, which questions must remain visible, what kind of answer could count, and what must be built first.
+
+For journalists and public readers, the current [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) explains the safest first story: the inspection standard, not endorsement of the theory.
+
+## How the observatory is built
+
+The public site is itself part of the research form. Package 3 explains the technical blueprint: how `panta-rhei.site`, public source repositories, generated projections, search, release manifests, publication artifacts, and correction routes work together as one public research observatory.
+
+Read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) or the white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}) if you want the implementation view before entering the research lanes.
+
+## AI-assisted discovery
+
+If you want an outside-in first-pass assessment, use the AI-Assisted Discovery prompts. They are copy-ready templates for generating structured orientation reports, seriousness checks, journalist briefs, route recommendations, and critical dossiers using a web-enabled LLM.
+
+These prompts are not verification, peer review, or endorsement. They are guided discovery aids that should route back into Program, Agenda, Corpus, Results, and Verify.
+
+Open the [AI-Assisted Discovery prompt catalog]({{ '/discover/ai-assisted-discovery/' | relative_url }}).
 
 ## Choose your entry
 
@@ -83,7 +107,7 @@ The Research Agenda states the burden: what must be kept visible, what must be r
   <li><article><a class="v2-tile" href="{{ '/discover/key-results/' | relative_url }}"><h3>Key Results</h3><p>A curated set of flagship answer surfaces before the full ledger.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/big-questions/' | relative_url }}"><h3>Big Questions</h3><p>The major problem families that define the program's burden of proof.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/how-the-system-works/' | relative_url }}"><h3>How the System Works</h3><p>The lane architecture and public research pipeline in one place.</p></a></article></li>
-  <li><article><a class="v2-tile" href="{{ '/discover/guided-tours/' | relative_url }}"><h3>Guided Tours</h3><p>Curated pathways across Program, Corpus, Results, Verify, and Publications.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/discover/guided-tours/' | relative_url }}"><h3>Guided Tours</h3><p>Curated pathways across Program, Agenda, Corpus, Results, Verify, Impact, Engage, and Artifacts &amp; Releases.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/follow-the-research/' | relative_url }}"><h3>Follow the Research</h3><p>Research Notes for ongoing scholarly writing; Changelog for site, release, and infrastructure updates.</p></a></article></li>
 </ul>
 
@@ -91,34 +115,42 @@ The Research Agenda states the burden: what must be kept visible, what must be r
 
 This is not a blog, not a monograph landing page, and not a documentation dump. It is organized around public research surfaces:
 
-- **Program** states the research contract and Research Agenda: problem ledgers, recovery requirements, ontic-status burdens, and construction roadmap.
-- **Corpus** shows how the structure is built through the Construction Spine, Registry, TauLib projection, Research Monographs, and dependency graph.
-- **Results** is where the built Corpus becomes a world: Landmark Results, World Readouts, Problem Ledger Answers, Recovery Target Status, and Additional Derived Results.
+- **Program** explains identity, doctrine, scope, status, and why the public release is built as an inspection observatory.
+- **Agenda** states the obligations: Core Semantics, problem ledgers, answer-shape burden, refusals, and construction roadmap.
+- **Corpus** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.
+- **Results** is where the built Corpus becomes a world: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Additional Derived Results.
 - **Verify** explains how claims can be checked, challenged, formalized, bridged, falsified, or audited.
-- **Publications** holds Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, Release Artifacts, and Errata.
 - **Impact** maps conditional consequences if the work holds.
-- **Engage** gives participation, contact, and contribution routes.
+- **Engage** gives open scrutiny, participation, contact, and contribution routes.
+
+Publications remains the stable artifact and release layer: Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, Release Artifacts, and Errata.
 
 ## Quick lane map
 
 <div class="v2-system-strip" aria-label="Panta Rhei site lanes">
-  <a class="v2-system-node" href="{{ '/program/' | relative_url }}"><strong>Program</strong>Obligations</a>
-  <a class="v2-system-node" href="{{ '/corpus/' | relative_url }}"><strong>Corpus</strong>Construction Spine</a>
-  <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Results</strong>Built Corpus Becomes World</a>
-  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verify</strong>Inspection and Challenge</a>
-  <a class="v2-system-node" href="{{ '/publications/' | relative_url }}"><strong>Publications</strong>Released artifacts</a>
-  <a class="v2-system-node" href="{{ '/impact/' | relative_url }}"><strong>Impact</strong>Conditional consequences</a>
-  <a class="v2-system-node" href="{{ '/engage/' | relative_url }}"><strong>Engage</strong>Participation</a>
+  <a class="v2-system-node" href="{{ '/program/' | relative_url }}"><strong>Program</strong>Identity</a>
+  <a class="v2-system-node" href="{{ '/agenda/' | relative_url }}"><strong>Agenda</strong>Obligations</a>
+  <a class="v2-system-node" href="{{ '/corpus/' | relative_url }}"><strong>Corpus</strong>Construction</a>
+  <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Results</strong>Consequences</a>
+  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verify</strong>Inspection</a>
+  <a class="v2-system-node" href="{{ '/impact/' | relative_url }}"><strong>Impact</strong>Conditional Relevance</a>
+  <a class="v2-system-node" href="{{ '/engage/' | relative_url }}"><strong>Engage</strong>Open Scrutiny</a>
 </div>
 
 ## Deep links
 
 - [Start Here]({{ '/discover/start-here/' | relative_url }}) for the fastest general entry.
+- [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}) for where Panta Rhei sits among serious neighboring programs.
+- [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) for the press-facing inspection-architecture story.
+- [Inspection Architecture White Paper]({{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }}) for the Package 1 white paper.
+- [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) for the technical blueprint story.
+- [Building a Public Research Observatory]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}) for the Package 3 white paper.
 - [Key Results]({{ '/discover/key-results/' | relative_url }}) for a curated first set of claims.
 - [How the System Works]({{ '/discover/how-the-system-works/' | relative_url }}) for the architecture.
-- [Construction Roadmap]({{ '/program/research-agenda/construction-roadmap/' | relative_url }}) for the logical build-order.
+- [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }}) for the logical build-order.
 - [Corpus Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) for the build narrative.
 - [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) for the high-signal Results surface.
 - [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) for the current public status mirror.
 - [Guided Tours]({{ '/discover/guided-tours/' | relative_url }}) for structured routes.
 - [Follow the Research]({{ '/discover/follow-the-research/' | relative_url }}) for Research Notes and Changelog, clearly separated.
+- [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}) for copy-ready prompts that help critical visitors generate outside-in orientation and assessment reports using a web-enabled LLM.

@@ -6,32 +6,42 @@ v2_lane: results
 permalink: /results/progress-against-agenda/
 type: "Result Index"
 status: "Canonical"
-summary_short: "Dashboard view of the program's current public status against declared problem and recovery obligations."
+summary_short: "Dashboard view of the program's current public status against declared Structural Challenge Ledger and Core Semantics obligations."
 summary_cards:
   - title: "Agenda mirror"
-    body: "Aggregates public Problem Ledger and Recovery Requirement status without replacing the detailed mirrors."
+    body: "Aggregates public Structural Challenge Ledger and Core Semantics status without replacing the detailed mirrors."
   - title: "Full public ledger"
-    body: "All promoted Problem Ledger v1.0 items plus forty-five Recovery/Refusal items."
+    body: "All promoted Problem Ledger v1.0 items plus forty-five Core Semantics / Recovery items."
   - title: "Status discipline"
     body: "Internal progress remains separate from verification state and external acceptance."
 right_rail:
   related:
-    - title: "Research Agenda"
-      url: /program/research-agenda/
-    - title: "Problem Answers"
-      url: /results/problem-ledger-answers/
-    - title: "Recovery Target Status"
-      url: /results/recovery-target-status/
+    - title: "Agenda"
+      url: /agenda/
+    - title: "Challenge Responses"
+      url: /results/challenge-responses/
+    - title: "Core Semantics Status"
+      url: /results/core-semantics-status/
     - title: "Verify"
       url: /verify/
   meta:
     type: "Result Index"
     scope: "Agenda mirror"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
-{% assign progress = site.data.agenda_progress["agenda-progress"] %}
+{% assign progress_raw = site.data.agenda_progress["agenda-progress"] %}
+{%- comment -%}
+  v4 Wave 6 default-view filter: exclude legacy v1 raw-feed items that
+  were imported wholesale from external open-problem lists for Life and
+  Metaphysics. The canonical v4 obligation surface is the Structural
+  Challenge Ledger; only Mathematics + Physics retain v1 problem rows
+  in the default dashboard until Atlas regenerates the data with
+  structural_challenge as the canonical item type. Refusals and
+  recovery items are always shown.
+{%- endcomment -%}
+{% assign progress = progress_raw | where_exp: "item", "item.item_kind != 'problem' or item.domain == 'mathematics' or item.domain == 'physics'" %}
 {% assign total_count = progress | size %}
 {% assign problems = progress | where: "item_kind", "problem" %}
 {% assign recovery_requirements = progress | where: "item_kind", "recovery_requirement" %}
@@ -43,6 +53,7 @@ right_rail:
 {% assign partial_answers = progress | where: "display_status", "partially_addressed" %}
 {% assign verified_internal = progress | where: "verification_status", "verified" %}
 {% assign externally_reviewed = progress | where_exp: "item", "item.external_status != 'not_externally_reviewed'" %}
+{% assign legacy_excluded_count = progress_raw | size | minus: total_count %}
 
 ## Status disclaimer
 
@@ -59,8 +70,8 @@ Progress Against Agenda tracks current program stance against public obligations
 
 <div class="v2-grid">
   <div class="v2-tile">
-    <strong>{{ total_count }} total public items</strong>
-    <span>{{ problems | size }} Problem Ledger items, {{ recovery_requirements | size }} Recovery Requirements, and {{ refusals | size }} Mathematical Refusals.</span>
+    <strong>{{ total_count }} canonical public items</strong>
+    <span>{{ problems | size }} Structural Challenges (Mathematics + Physics), {{ recovery_requirements | size }} Core Semantics items, and {{ refusals | size }} Mathematical Refusals.{% if legacy_excluded_count > 0 %} {{ legacy_excluded_count }} legacy v1 raw-feed Life/Metaphysics items archived under <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>.{% endif %}</span>
   </div>
   <div class="v2-tile">
     <strong>{{ partial_answers | size }} partially addressed problems</strong>
@@ -103,8 +114,8 @@ Progress Against Agenda tracks current program stance against public obligations
     <div class="filter-group" data-filter-group="item_kind">
       <span class="filter-label">Item type</span>
       <div class="filter-chips">
-        <button class="filter-chip" data-filter="item_kind" data-value="problem" type="button">Problem Ledger item</button>
-        <button class="filter-chip" data-filter="item_kind" data-value="recovery_requirement" type="button">Recovery requirement</button>
+        <button class="filter-chip" data-filter="item_kind" data-value="problem" type="button">Structural Challenge</button>
+        <button class="filter-chip" data-filter="item_kind" data-value="recovery_requirement" type="button">Core Semantics / Recovery</button>
         <button class="filter-chip" data-filter="item_kind" data-value="mathematical_refusal" type="button">Mathematical refusal</button>
       </div>
     </div>

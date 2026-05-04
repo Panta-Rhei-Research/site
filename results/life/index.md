@@ -42,9 +42,19 @@ Every life-sector empirical correlate inherits its observable signature from thi
     <span>The K_χ-rooted multi-branch tree (chirality / energy / information / temporal / phenomenal).</span>
   </a>
 
-  <a class="v2-tile" href="{{ '/results/recovery-target-status/life/' | relative_url }}">
-    <strong>Recovery Targets</strong>
-    <span>Life-sector recovery requirements — known structures the kernel must rederive.</span>
+  <a class="v2-tile" href="{{ '/results/core-semantics-status/life/' | relative_url }}">
+    <strong>Core Semantics Status</strong>
+    <span>Life-sector Core Semantics status — known structures the kernel must rederive.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/life/' | relative_url }}">
+    <strong>Structural Challenges</strong>
+    <span>The canonical Life challenge set: 29 structural challenges across definition, origin, code, evolution, ecology, and life–mind bridge.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/challenge-responses/life/' | relative_url }}">
+    <strong>Challenge Responses</strong>
+    <span>Current τ responses to those challenges, with status, evidence route, and verification boundary.</span>
   </a>
 
 </div>

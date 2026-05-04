@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/problem-ledger-answers/physics/dark-energy/"
+    url: "/results/challenge-responses/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -36,7 +36,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-galaxy-rotation-problem"
     title: "Galaxy rotation problem"
-    url: "/results/problem-ledger-answers/physics/galaxy-rotation-problem/"
+    url: "/results/challenge-responses/physics/galaxy-rotation-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -127,8 +127,8 @@ Master dark energy & structure falsification table: 9 observables (Ω_Λ, w₀, 
 
 ## Related Results surfaces
 
-- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
-- [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
+- [Dark energy](/results/challenge-responses/physics/dark-energy/)
+- [Galaxy rotation problem](/results/challenge-responses/physics/galaxy-rotation-problem/)
 - [Dark Energy Equation of State](/results/problem/dark-energy-equation-of-state/)
 - [Dark Sector Closure](/results/problem/dark-sector-closure/)
 - [Galaxy Rotation Curves without Dark Matter](/results/problem/galaxy-rotation-curves-without-dark-matter/)

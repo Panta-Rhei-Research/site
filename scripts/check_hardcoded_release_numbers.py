@@ -47,6 +47,13 @@ FORBIDDEN = [
     (re.compile(r"\b30\s+(?:named|sharp)\b", re.I), "hardcoded falsification count"),
 ]
 
+SOURCE_BYPASS = [
+    (re.compile(r"site\.data\.publications\.(?:books|chapters)\s*\|\s*size"), "media page collection-derived publication count"),
+    (re.compile(r"site\.data\.results\.results\s*\|\s*size"), "media page collection-derived result count"),
+    (re.compile(r"site\.data\.results\.results\s*\|\s*where:"), "media page collection-derived domain result count"),
+    (re.compile(r"site\.data\.registry\.objects\s*\|\s*size"), "media page collection-derived registry count"),
+]
+
 
 def strip_generated_blocks(text: str) -> str:
     if README_START not in text:
@@ -72,6 +79,12 @@ def main() -> int:
                 line = text.count("\n", 0, match.start()) + 1
                 rel = path.relative_to(root)
                 failures.append(f"{rel}:{line}: {label}: {match.group(0)!r}")
+        if path.relative_to(root).as_posix().startswith("media/"):
+            for pattern, label in SOURCE_BYPASS:
+                for match in pattern.finditer(text):
+                    line = text.count("\n", 0, match.start()) + 1
+                    rel = path.relative_to(root)
+                    failures.append(f"{rel}:{line}: {label}: {match.group(0)!r}")
     if failures:
         print("Hardcoded release-changing metric phrases found:", file=sys.stderr)
         for item in failures:

@@ -42,9 +42,19 @@ What it has instead is an architectural backbone: the four canonical readout reg
     <span>The Reg_E/P/D/C register backbone + OR1–OR6 narrowing principles. No empirical anchor — categorical-only.</span>
   </a>
 
-  <a class="v2-tile" href="{{ '/results/recovery-target-status/metaphysics/' | relative_url }}">
-    <strong>Recovery Targets</strong>
-    <span>Metaphysics-sector recovery requirements — categorical structures the kernel must rederive.</span>
+  <a class="v2-tile" href="{{ '/results/core-semantics-status/metaphysics/' | relative_url }}">
+    <strong>Core Semantics Status</strong>
+    <span>Metaphysics-sector Core Semantics status — categorical structures the kernel must rederive.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/metaphysics/' | relative_url }}">
+    <strong>Structural Challenges</strong>
+    <span>The canonical Metaphysics challenge set: 29 E₃ challenges across ontology, knowledge, mind, and normativity.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/challenge-responses/metaphysics/' | relative_url }}">
+    <strong>Challenge Responses</strong>
+    <span>Current τ responses to those challenges, with status, evidence route, and commitment-boundary disclosure.</span>
   </a>
 
 </div>

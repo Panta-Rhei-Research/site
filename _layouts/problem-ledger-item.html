@@ -1,5 +1,7 @@
 ---
 layout: default
+sitemap: false
+robots: noindex,follow
 ---
 
 {% include breadcrumb-nav.html %}
@@ -7,10 +9,10 @@ layout: default
 <article class="result-article problem-ledger-article">
 <header class="hero-card">
   <div class="module-eyebrow-row">
-    <span class="eyebrow">Problem Ledger Item</span>
+    <span class="eyebrow">v1.0 Archive · Legacy Raw-Source Mirror</span>
     <span class="chip">{{ page.display_domain }}</span>
     <span class="chip">{{ page.source.source_class | replace: "_", " " | capitalize }}</span>
-    <span class="chip">{{ page.projection_version | default: "v1.0" }} Projection</span>
+    <span class="chip">v1.0 Projection</span>
   </div>
   <h1>{{ page.title }}</h1>
   {% if page.summary_short %}
@@ -26,7 +28,9 @@ layout: default
 
 <section class="content-card">
   <div class="prose">
-    <div class="notice note"><strong>Status note.</strong> This page records the current program classification and public projection status. It does not imply external verification, scientific acceptance, or final settlement.</div>
+    <div class="notice warning"><strong>Retired v1.0 surface.</strong> This page belongs to the retired v1.0 Problem Ledger raw-source mirror. It is preserved only for provenance. The current canonical architecture is the <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>, and current Results-side responses are reported through <a href="{{ '/results/challenge-responses/' | relative_url }}">Challenge Responses</a>.</div>
+
+    <div class="notice note"><strong>Status note.</strong> This page records a v1.0 raw-source mirror entry. It does not imply external verification, scientific acceptance, or final settlement, and it is not part of the canonical v4 Structural Challenge Ledger unless explicitly promoted.</div>
 
     {{ content }}
 
@@ -190,11 +194,11 @@ layout: default
       {% endif %}
     </div>
 
-    <h2>Related Recovery Requirements</h2>
+    <h2>Related Core Semantics</h2>
     <div class="dep-list">
       {% if page.related.recovery_requirements.size > 0 %}
       {% for recovery_id in page.related.recovery_requirements %}
-      <div class="dep-link"><span class="dep-id">Recovery</span><span class="dep-title">{{ recovery_id }}</span></div>
+      <div class="dep-link"><span class="dep-id">Core Semantics</span><span class="dep-title">{{ recovery_id }}</span></div>
       {% endfor %}
       {% else %}
       <div class="dep-link"><span class="dep-id">Recovery</span><span class="dep-title">No Recovery Requirement mapping yet</span></div>

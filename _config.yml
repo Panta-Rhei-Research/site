@@ -1,5 +1,5 @@
 title: "Panta Rhei Research Program"
-description: "Public research observatory for the Panta Rhei Research Program — Corpus, Results, Verify, Publications, and open inspection routes."
+description: "Public research observatory for the Panta Rhei Research Program — Program, Agenda, Corpus, Results, Verify, Impact, Engage, and supporting publication artifacts."
 url: "https://panta-rhei.site"
 baseurl: ""
 
@@ -51,10 +51,10 @@ collections:
     permalink: /falsifications/:name/
   problem_ledger:
     output: true
-    permalink: /program/research-agenda/problem-ledger/:path/
-  recovery_requirements:
+    permalink: /agenda/problem-ledger/:path/
+  core_semantics:
     output: true
-    permalink: /program/research-agenda/recovery-requirements/:path/
+    permalink: /agenda/core-semantics/:path/
 
 collections_dir: .
 
@@ -163,7 +163,7 @@ defaults:
       lane: "program"
       v2_lane: "program"
   - scope:
-      type: "recovery_requirements"
+      type: "core_semantics"
     values:
       layout: "recovery-requirement-item"
       lane: "program"

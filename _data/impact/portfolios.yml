@@ -5,7 +5,6 @@ agriculture:
   family_key: "food-life-health"
   family: "Food, Life & Health Systems"
   summary_short: "A conditional public-good portfolio for translating better agro-climate-water-biology intelligence into lower crop loss, improved water productivity, earlier pest and disease warnings, stronger anticipatory action, and faster climate-resilient crop design."
-  card_summary: "Agro-weather and crop resilience."
   url: "/impact/global-public-good/agriculture/"
   paper_count: 5
   briefing_count: 5
@@ -29,7 +28,6 @@ biodiversity-restoration:
   family_key: "food-life-health"
   family: "Food, Life & Health Systems"
   summary_short: "A conditional public-good portfolio for translating better coupled ecological intelligence into stronger restoration targeting, functional connectivity, blue-green habitat resilience, earlier stress warnings, and more accountable biodiversity finance."
-  card_summary: "Restoration and biodiversity finance."
   url: "/impact/global-public-good/biodiversity-restoration/"
   paper_count: 1
   briefing_count: 1
@@ -53,7 +51,6 @@ climate:
   family_key: "climate-atmosphere-weather"
   family: "Climate, Atmosphere & Weather Systems"
   summary_short: "A conditional public-good portfolio for making the climate system's causal tree more legible so that mitigation, adaptation, finance, infrastructure, and international coordination can align with the true critical path of risk."
-  card_summary: "Mitigation, adaptation, finance, and risk."
   url: "/impact/global-public-good/climate/"
   paper_count: 4
   briefing_count: 4
@@ -77,7 +74,6 @@ disaster:
   family_key: "climate-atmosphere-weather"
   family: "Climate, Atmosphere & Weather Systems"
   summary_short: "A conditional public-good portfolio for translating better hazard physics into earlier warnings, more resilient lifelines, and forecast-linked anticipatory action across multi-hazard disaster domains."
-  card_summary: "Early warning and lifeline resilience."
   url: "/impact/global-public-good/disaster/"
   paper_count: 4
   briefing_count: 4
@@ -100,8 +96,7 @@ energy:
   title: "Energy"
   family_key: "energy-solar"
   family: "Energy & Solar Systems"
-  summary_short: "A conditional public-good portfolio for applying a physically faithful tau energy-system twin to improve grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twins, and whole-system energy planning."
-  card_summary: "Grid, DER, nuclear, and planning."
+  summary_short: "A conditional public-good portfolio for exploring whether a verified tau-informed energy-system model could become relevant to grid reliability and dispatch, DER and storage orchestration, fusion and fission digital twin research, and whole-system energy planning."
   url: "/impact/global-public-good/energy/"
   paper_count: 5
   briefing_count: 5
@@ -124,8 +119,7 @@ ocean:
   title: "Ocean"
   family_key: "water-ocean"
   family: "Water & Ocean Systems"
-  summary_short: "A conditional public-good portfolio for using one shared ocean-state twin to serve trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
-  card_summary: "Blue food, shipping, stewardship, rescue."
+  summary_short: "A conditional public-good portfolio for exploring whether a shared ocean-state model could become relevant to trade, climate decarbonization, blue food systems, search and rescue, and marine stewardship simultaneously."
   url: "/impact/global-public-good/ocean/"
   paper_count: 4
   briefing_count: 4
@@ -148,8 +142,7 @@ one-health:
   title: "One Health"
   family_key: "food-life-health"
   family: "Food, Life & Health Systems"
-  summary_short: "A conditional public-good portfolio for using one shared environmental-biological-operational twin to improve disease early warning, health-system resilience, environmental surveillance, food safety, and precision public health simultaneously."
-  card_summary: "Environmental and biological surveillance."
+  summary_short: "A conditional public-good portfolio for exploring whether an integrated environmental-biological-operational model could become relevant to disease early warning, health-system resilience, environmental surveillance, food safety, and precision public health simultaneously."
   url: "/impact/global-public-good/one-health/"
   paper_count: 4
   briefing_count: 4
@@ -173,7 +166,6 @@ pollution-circularity:
   family_key: "pollution-circular-economy"
   family: "Pollution & Circular Economy"
   summary_short: "A conditional public-good portfolio for translating better physical intelligence about emissions, toxic pathways, waste flows, plastics leakage, and material dynamics into lower exposure, cleaner cities, stronger remediation, better waste operations, and circular-system redesign."
-  card_summary: "Exposure, toxic release, and circularity."
   url: "/impact/global-public-good/pollution-circularity/"
   paper_count: 4
   briefing_count: 4
@@ -197,7 +189,6 @@ solar:
   family_key: "energy-solar"
   family: "Energy & Solar Systems"
   summary_short: "A conditional public-good portfolio for translating better solar-weather-grid physics into lower reserve costs, faster DER interconnection, stronger critical-load resilience, and solar-synchronized flexible demand."
-  card_summary: "Forecasting, DERs, and resilience."
   url: "/impact/global-public-good/solar/"
   paper_count: 5
   briefing_count: 5
@@ -221,7 +212,6 @@ water-wash:
   family_key: "water-ocean"
   family: "Water & Ocean Systems"
   summary_short: "A conditional public-good portfolio for translating better water-system physics into safer drinking water, fewer network losses, stronger sanitation and reuse, better basin allocation, and improved WASH continuity in the places where vulnerability is highest."
-  card_summary: "Water safety, sanitation, and continuity."
   url: "/impact/global-public-good/water-wash/"
   paper_count: 5
   briefing_count: 5
@@ -245,7 +235,6 @@ weather:
   family_key: "climate-atmosphere-weather"
   family: "Climate, Atmosphere & Weather Systems"
   summary_short: "A conditional public-good portfolio for making weather, climate intelligence, and disaster early warning materially better - from extreme-event forecasting and flood impact translation to wildfire/smoke intelligence, grid-weather coupling, drought planning, and climate adaptation."
-  card_summary: "Aviation, logistics, contrails, extremes."
   url: "/impact/global-public-good/weather/"
   paper_count: 3
   briefing_count: 3

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-color-confinement"
     title: "Color confinement"
-    url: "/results/problem-ledger-answers/physics/color-confinement/"
+    url: "/results/challenge-responses/physics/color-confinement/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -71,7 +71,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-quarkgluon-plasma"
     title: "Quark–gluon plasma"
-    url: "/results/problem-ledger-answers/physics/quarkgluon-plasma/"
+    url: "/results/challenge-responses/physics/quarkgluon-plasma/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -80,7 +80,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-specific-models-of-quarkgluon-plasma-formation"
     title: "Specific models of quark–gluon plasma formation"
-    url: "/results/problem-ledger-answers/physics/specific-models-of-quarkgluon-plasma-formation/"
+    url: "/results/challenge-responses/physics/specific-models-of-quarkgluon-plasma-formation/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -119,13 +119,13 @@ Top quark decays before hadronizing: τ_top≈5×10⁻²⁵s vs τ_QCD≈3×10�
 
 ## Related Results surfaces
 
-- [Color confinement](/results/problem-ledger-answers/physics/color-confinement/)
+- [Color confinement](/results/challenge-responses/physics/color-confinement/)
 - [Glueballs: Mass Gap = Minimum Glueball Mass](/results/problem/glueballs/)
 - [QCD Confinement](/results/problem/qcd-confinement/)
 - [QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement](/results/problem/qcd-phases-qgp/)
 - [QCD Confinement](/results/problem/qcd-confinement/)
-- [Quark–gluon plasma](/results/problem-ledger-answers/physics/quarkgluon-plasma/)
-- [Specific models of quark–gluon plasma formation](/results/problem-ledger-answers/physics/specific-models-of-quarkgluon-plasma-formation/)
+- [Quark–gluon plasma](/results/challenge-responses/physics/quarkgluon-plasma/)
+- [Specific models of quark–gluon plasma formation](/results/challenge-responses/physics/specific-models-of-quarkgluon-plasma-formation/)
 - [QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement](/results/problem/qcd-phases-qgp/)
 
 ## Reading role

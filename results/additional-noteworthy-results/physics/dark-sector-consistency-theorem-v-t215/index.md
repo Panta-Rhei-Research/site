@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-principle"
     title: "Cosmological principle"
-    url: "/results/problem-ledger-answers/physics/cosmological-principle/"
+    url: "/results/challenge-responses/physics/cosmological-principle/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -36,7 +36,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-galaxy-rotation-problem"
     title: "Galaxy rotation problem"
-    url: "/results/problem-ledger-answers/physics/galaxy-rotation-problem/"
+    url: "/results/challenge-responses/physics/galaxy-rotation-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -84,7 +84,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-matter"
     title: "Dark Matter"
-    url: "/results/problem-ledger-answers/physics/dark-matter/"
+    url: "/results/challenge-responses/physics/dark-matter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -125,13 +125,13 @@ Dark sector consistency: the τ-framework explains rotation curves, gravitationa
 
 ## Related Results surfaces
 
-- [Cosmological principle](/results/problem-ledger-answers/physics/cosmological-principle/)
-- [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
+- [Cosmological principle](/results/challenge-responses/physics/cosmological-principle/)
+- [Galaxy rotation problem](/results/challenge-responses/physics/galaxy-rotation-problem/)
 - [Dark Sector Closure](/results/problem/dark-sector-closure/)
 - [Galaxy Rotation Curves without Dark Matter](/results/problem/galaxy-rotation-curves-without-dark-matter/)
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/)
 - dark-matter
-- [Dark Matter](/results/problem-ledger-answers/physics/dark-matter/)
+- [Dark Matter](/results/challenge-responses/physics/dark-matter/)
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/)
 
 ## Reading role
