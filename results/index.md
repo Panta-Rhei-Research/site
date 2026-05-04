@@ -119,13 +119,13 @@ Every result should be read with its status markers. An internally addressed res
   <li><article class="v2-tile"><h3><a href="{{ '/results/progress-against-agenda/' | relative_url }}">Track Progress Against Agenda</a></h3><p>Browse current public progress while keeping internal status separate from external acceptance.</p></article></li>
 </ul>
 
-## New to the framework? Start here
+## New to the theory? Start here
 
 <div class="v2-grid">
 
   <a class="v2-tile" href="{{ '/results/glossary-onboarding/' | relative_url }}">
     <strong>🎓 Glossary Onboarding</strong>
-    <span>5-minute primer on τ-framework vocabulary — ι_τ, register, sector, K_χ, and more.</span>
+    <span>5-minute primer on Panta Rhei vocabulary — ι_τ, register, sector, K_χ, and more.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/results/physics/guided-tour/' | relative_url }}">
@@ -171,12 +171,12 @@ Every result should be read with its status markers. An internally addressed res
 
   <a class="v2-tile" href="{{ '/results/core-semantics-status/' | relative_url }}">
     <strong>Core Semantics Status</strong>
-    <span>Current recovery status against declared recovery requirements.</span>
+    <span>Current Core Semantics status against declared language, structure, and recovery/refusal obligations.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/results/progress-against-agenda/' | relative_url }}">
     <strong>Progress Against Agenda</strong>
-    <span>Dashboard over problem and recovery obligations.</span>
+    <span>Dashboard over Problem Ledger and Core Semantics obligations.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/results/additional-noteworthy-results/' | relative_url }}">
@@ -186,7 +186,7 @@ Every result should be read with its status markers. An internally addressed res
 
   <a class="v2-tile" href="{{ '/results/browse/' | relative_url }}">
     <strong>Browse All</strong>
-    <span>The full {% include release-metric.html id="results.records" %}-page catalogue with filters for domain, kind, importance, status, book, and v3 badges.</span>
+    <span>The full {% include release-metric.html id="results.records" %}-page catalogue with filters for domain, kind, importance, status, book, and v4 status markers.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/results/classifications/' | relative_url }}">

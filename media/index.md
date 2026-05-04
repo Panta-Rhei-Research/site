@@ -6,17 +6,17 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
-last_updated: 2026-04-30
-updated: "April 2026"
+last_updated: 2026-05-04
+updated: "May 2026"
 summary: "Resources for journalists, public communicators, and external readers covering the Panta Rhei Research Program."
 summary_short: "Press, podcast, and public-communication resources for the Panta Rhei Research Program."
 summary_cards:
 - title: "What this is"
   body: "Downloadable materials, press resources, and structured entry surfaces for journalists, podcast hosts, public communicators, and institutions."
-- title: "Current release"
-  body: "Seven-book monograph series (2nd Edition, April 2026), TauLib formalization, research website."
+- title: "Current public release"
+  body: "Seven-book monograph series (2nd Edition, April 2026), TauLib formalization, and the v4 public research observatory website (May 2026)."
 - title: "Contact"
-  body: "press@panta-rhei.site for journalists; review@ for structured review / technical inspection."
+  body: "Media inquiries: press@panta-rhei.site. Structured review / technical inspection: review@panta-rhei.site."
 right_rail:
   related:
   - title: Story Angles
@@ -63,7 +63,7 @@ right_rail:
     type: "Support page"
     scope: "Media kit"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Short description
@@ -141,10 +141,17 @@ For the full Package 3 framing, read the [Public Research Observatory Brief]({{ 
 
 This page gathers public materials for journalists, podcast hosts, public communicators, and institutional readers. It is an entry surface into the current public site, not a replacement for the canonical lanes.
 
-The program's canonical release (April 2026) includes:
-- A **{% include release-metric.html id="publications.books" %}-book monograph series** ({% include release-metric.html id="publications.pages" %} print pages, available on Amazon KDP)
+## Current public release
+
+The canonical monograph release is the seven-book Second Edition from **April 2026**.
+
+The public website is now organized as the **v4 research observatory (May 2026)**: Discover, Program, Agenda, Corpus, Results, Verify, Impact, and Engage, with Publications as the artifact and release shelf.
+
+Together, the program's current public release includes:
+
+- A **{% include release-metric.html id="publications.books" %}-book monograph series** ({% include release-metric.html id="publications.pages" %} print pages, available on Amazon KDP) — April 2026
 - A **Lean 4 formalization library** (TauLib, {% include release-metric.html id="taulib.modules" unit=true %}; the published formalized modules are built without `sorry`, while Book VI remains registry-planned and not yet fully Lean-formalized — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}))
-- This **research website** ({% include release-metric.html id="results.records" %} key results, {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects)
+- The **v4 research observatory website** ({% include release-metric.html id="results.records" %} key results, {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects) — May 2026
 - **Guided tours** and **structural falsification whitepapers**
 
 ## What this is not
