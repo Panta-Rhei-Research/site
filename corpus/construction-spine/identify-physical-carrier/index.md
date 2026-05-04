@@ -432,7 +432,7 @@ Claimed novelty:
 
 ## Empirical Checks
 
-_Mapping pending._
+_No direct empirical check is declared at this step. Empirical accountability is concentrated at Step 6 (Measurement, Prediction, and Empirical Bridges); the program's full empirical surface is at [Predictions and Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }})._
 
 ## Current build status
 

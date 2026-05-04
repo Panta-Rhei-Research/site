@@ -47,18 +47,19 @@ Public-Good Briefings are conditional scenario artifacts. They explore what coul
 
 ## Current portfolios
 
-<ul class="portfolio-grid portfolio-card-list">
+<ul class="portfolio-grid portfolio-card-list public-good-portfolio-grid">
 {% for slug in site.data.impact.portfolio_order %}
   {% assign p = site.data.impact.portfolios[slug] %}
   <li>
     <article>
-      <a href="{{ p.url | relative_url }}" class="portfolio-card impact-portfolio-card" style="{% include impact-portfolio-style.html portfolio=p %}">
-        <span class="portfolio-card-icon">{% include icon.html name=p.icon class="impact-portfolio-card__icon" label=p.icon_alt %}</span>
-        <span class="impact-portfolio-card__eyebrow">{{ p.family }}</span>
-        <h3 class="portfolio-card-title">{{ p.title }}</h3>
-        <p class="portfolio-card-summary">{{ p.summary_short }}</p>
-        <span class="chip chip-small">{{ p.briefing_count }} {% if p.briefing_count == 1 %}briefing{% else %}briefings{% endif %}</span>
-        <span class="chip chip-small">PDFs available</span>
+      <a href="{{ p.url | relative_url }}" class="portfolio-card impact-portfolio-card public-good-portfolio-card" style="{% include impact-portfolio-style.html portfolio=p %}">
+        <span class="portfolio-card-icon public-good-portfolio-card__icon">{% include icon.html name=p.icon class="impact-portfolio-card__icon" label=p.icon_alt size=22 %}</span>
+        <span class="public-good-portfolio-card__body">
+          <span class="impact-portfolio-card__eyebrow">{{ p.family }}</span>
+          <h3 class="portfolio-card-title">{{ p.title }}</h3>
+          <p class="portfolio-card-summary">{{ p.card_summary | default: p.summary_short }}</p>
+          <span class="public-good-portfolio-card__meta">{{ p.briefing_count }} {% if p.briefing_count == 1 %}briefing{% else %}briefings{% endif %} · PDFs available</span>
+        </span>
       </a>
     </article>
   </li>

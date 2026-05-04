@@ -5,8 +5,8 @@ lane: support
 type: support_page
 support_type: changelog
 status: canonical
-last_updated: 2026-04-30
-updated: "April 2026"
+last_updated: 2026-05-04
+updated: "May 2026"
 permalink: /changelog/
 summary: "Operational ledger for the Panta Rhei Research Program site."
 summary_short: "Operational ledger for the Panta Rhei Research Program site — new lanes, content expansions, publication updates, and structural changes."
@@ -22,7 +22,7 @@ right_rail:
     type: "Support page"
     scope: "Changelog"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## What this changelog is
