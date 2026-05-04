@@ -6,12 +6,12 @@ v2_lane: results
 permalink: /results/progress-against-agenda/
 type: "Result Index"
 status: "Canonical"
-summary_short: "Dashboard view of the program's current public status against declared problem and recovery obligations."
+summary_short: "Dashboard view of the program's current public status against declared Problem Ledger and Core Semantics obligations."
 summary_cards:
   - title: "Agenda mirror"
-    body: "Aggregates public Problem Ledger and Recovery Requirement status without replacing the detailed mirrors."
+    body: "Aggregates public Problem Ledger and Core Semantics status without replacing the detailed mirrors."
   - title: "Full public ledger"
-    body: "All promoted Problem Ledger v1.0 items plus forty-five Recovery/Refusal items."
+    body: "All promoted Problem Ledger v1.0 items plus forty-five Core Semantics / Recovery items."
   - title: "Status discipline"
     body: "Internal progress remains separate from verification state and external acceptance."
 right_rail:
