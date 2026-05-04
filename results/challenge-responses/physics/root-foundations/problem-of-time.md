@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/root-foundations/prob
 response_id: response-P060
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - V.D17
@@ -86,52 +86,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Problem of time — Challenge Response
-
-**Structural Challenge:** [Problem of time](/agenda/structural-challenge-ledger/physics/root-foundations/problem-of-time/) (`P060`)
-**Domain:** Physics · **Cluster:** root foundations
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Problem of time — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **6** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **V.D17** — Proper Time (Arc Length) (bridge_structure; confidence: high)
-- **V.D18** — Causal Ordering Relation (bridge_structure; confidence: high)
-- **V.D20** — Three Temporal Epochs (bridge_structure; confidence: high)
-- **V.R23** — No Background Time (direct_problem_account; confidence: high)
-- **V.T10** — Bounded Time Theorem (direct_problem_account; confidence: high)
-- **VII.P06** — Temporal Ordering from Persistence (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `formal_proof_checking`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External physics review of the τ formulation, comparison against orthodox treatments of foundational principles, and adjudication of bridge-to-standard-form claims.
-
-## Provenance
-
-- **v1 predecessor:** `phys-problem-of-time` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

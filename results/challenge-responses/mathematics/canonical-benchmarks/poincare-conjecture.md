@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/mathematics/canonical-benchma
 response_id: response-CB-POINCARE
 response_status: external_recovery_checkpoint
 response_status_label: External recovery checkpoint
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - III.D35
@@ -59,49 +59,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - mathematics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Poincaré Conjecture — Challenge Response
-
-**Structural Challenge:** [Poincaré Conjecture](/agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/poincare-conjecture/) (`CB-POINCARE`)
-**Domain:** Mathematics · **Cluster:** canonical benchmarks
-**Response status:** **External recovery checkpoint**
-
-## Challenge
-
-Every simply connected closed 3-manifold is homeomorphic to the 3-sphere.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **3** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **III.D35** — Simply Connected in Category τ (boundary or nonclaim; confidence: high)
-- **III.P13** — Poincaré as Gluing Guarantee (boundary or nonclaim; confidence: high)
-- **III.R33** — Poincaré Established (boundary or nonclaim; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `formal_proof_checking`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_solved`
-
-## External-review boundary
-
-External mathematical review of the τ formulation, comparison against orthodox proofs/disproofs, and assessment of the bridge between τ-internal results and standard mathematical statements.
-
-## Provenance
-
-- **v1 predecessor:** `math-poincare-conjecture` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

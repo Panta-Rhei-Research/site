@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/life/origin-substrate-life-as
 response_id: response-LIFE-SC-06
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - VI.D26
@@ -170,61 +170,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - life
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Abiogenesis as First Persistence Event — Challenge Response
-
-**Structural Challenge:** [Abiogenesis as First Persistence Event](/agenda/structural-challenge-ledger/life/origin-substrate-life-as-could-be/abiogenesis-first-persistence/) (`LIFE-SC-06`)
-**Domain:** Life · **Cluster:** origin substrate life as could be
-**Response status:** **Internally addressed**
-
-## Challenge
-
-How can life arise from nonlife? What is the transition from prebiotic chemistry to a stable, self-maintaining, code-bearing, reproducing system?
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **15** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **VI.D26** — Abiogenesis as First Persistence Event (direct_problem_account; confidence: high)
-- **VI.D31** — Metabolic Circulation (direct_problem_account; confidence: high)
-- **VI.D35** — Three-Domain Sector Taxonomy (bridge_structure; confidence: high)
-- **VI.D50** — PPAS Algorithm on Fitness Landscapes (bridge_structure; confidence: high)
-- **VI.D74** — Far-From-Equilibrium Regime (direct_problem_account; confidence: high)
-- **VI.L15** — Complexity Monotone (direct_problem_account; confidence: high)
-- **VI.L16** — Basin Is Absorbing (direct_problem_account; confidence: high)
-- **VI.P08** — Thermodynamic Inevitability of Life (direct_problem_account; confidence: high)
-- **VI.P10** — L-Amino Acid Preference as Parity Shadow (direct_problem_account; confidence: high)
-- **VI.R12** — Sector Assignment Table (bridge_structure; confidence: high)
-- **VI.R20** — Fitness Landscape Topology (bridge_structure; confidence: high)
-- **VI.T14** — Evolution = PPAS Optimization (bridge_structure; confidence: high)
-- **VI.T44** — Attractor Existence (direct_problem_account; confidence: high)
-- **VI.T45** — Timescale From Half-Life (direct_problem_account; confidence: high)
-- **VI.T46** — Abiogenesis Inevitability (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `bridge_verification`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External origin-of-life / astrobiology review of the τ formulation; comparison with prebiotic chemistry, hydrothermal-vent, and 'life as it could be' programs (synthetic biology, xenobiology).
-
-## Provenance
-
-- **v1 predecessor:** `life-origin-of-life` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

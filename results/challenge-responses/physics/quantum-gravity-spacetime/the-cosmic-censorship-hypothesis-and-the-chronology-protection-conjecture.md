@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/quantum-gravity-space
 response_id: response-P089
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - V.R31
@@ -71,50 +71,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# The cosmic censorship hypothesis and the chronology protection conjecture — Challenge Response
-
-**Structural Challenge:** [The cosmic censorship hypothesis and the chronology protection conjecture](/agenda/structural-challenge-ledger/physics/quantum-gravity-spacetime/the-cosmic-censorship-hypothesis-and-the-chronology-protection-conjecture/) (`P089`)
-**Domain:** Physics · **Cluster:** quantum gravity spacetime
-**Response status:** **Internally addressed**
-
-## Challenge
-
-The cosmic censorship hypothesis and the chronology protection conjecture — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **4** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **V.R31** — No Initial Singularity (direct_problem_account; confidence: high)
-- **V.R78** — Comparison with other singularity resolutions (boundary_or_nonclaim; confidence: high)
-- **V.R79** — No Cauchy horizon instability (boundary_or_nonclaim; confidence: high)
-- **V.T27** — Well-posedness via Hartogs (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `bridge_verification`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External physics review of the τ formulation versus quantum-gravity / spacetime programs (string, LQG, asymptotic safety, etc.); comparison against named experiments (EHT, GW observatories) where falsification paths exist.
-
-## Provenance
-
-- **v1 predecessor:** `phys-the-cosmic-censorship-hypothesis-and-the-chronology-protection-conjecture` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

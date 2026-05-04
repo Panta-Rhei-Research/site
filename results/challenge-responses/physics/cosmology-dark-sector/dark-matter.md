@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/cosmology-dark-sector
 response_id: response-P019
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - I.T11
@@ -163,61 +163,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Dark Matter — Challenge Response
-
-**Structural Challenge:** [Dark Matter](/agenda/structural-challenge-ledger/physics/cosmology-dark-sector/dark-matter/) (`P019`)
-**Domain:** Physics · **Cluster:** cosmology dark sector
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Dark Matter — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **15** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **I.T11** — Minimal Alphabet Theorem (direct_problem_account; confidence: high)
-- **III.T04** — Canonical Ladder Theorem (direct_problem_account; confidence: high)
-- **III.T41** — Hinge Theorem (direct_problem_account; confidence: high)
-- **III.T42** — No Knobs Theorem (direct_problem_account; confidence: high)
-- **V.C14** — No Dark Matter Particle (direct_problem_account; confidence: high)
-- **V.D150** — Category Error (LCDM) (direct_problem_account; confidence: high)
-- **V.P56** — Capacity Gradient as Apparent Dark Matter --- V.P20 (direct_problem_account; confidence: high)
-- **V.P69** — No Dark Particle Theorem --- V.P33 (direct_problem_account; confidence: high)
-- **V.P70** — RAR from Capacity Gradient --- V.P34 (direct_problem_account; confidence: high)
-- **V.T102** — Dark Sector Closure (direct_problem_account; confidence: medium)
-- **V.T128** — Sector Exhaustion --- no dark sector (direct_problem_account; confidence: medium)
-- **V.T210** — Photon-Capacity Deflection (direct_problem_account; confidence: high)
-- **V.T85** — Flat Rotation Curve Theorem --- V.T37 (direct_problem_account; confidence: high)
-- **V.T97** — Bullet Cluster Without Dark Matter (direct_problem_account; confidence: medium)
-- **VII.T06** — Saturation Theorem (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External cosmology review of the τ formulation versus ΛCDM and dark-sector alternatives; comparison against named experiments (Planck, DESI, Euclid, JWST) where falsification paths exist.
-
-## Provenance
-
-- **v1 predecessor:** `phys-dark-matter` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

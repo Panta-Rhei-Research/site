@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/metaphysics/knowledge-truth-l
 response_id: response-M-E3-12
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - VII.D42
@@ -71,50 +71,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - metaphysics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Knowledge, Gettier, and Epistemic Luck — Challenge Response
-
-**Structural Challenge:** [Knowledge, Gettier, and Epistemic Luck](/agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/knowledge-gettier-epistemic-luck/) (`M-E3-12`)
-**Domain:** Metaphysics · **Cluster:** knowledge truth logic language
-**Response status:** **Internally addressed**
-
-## Challenge
-
-What distinguishes knowledge from justified true belief plus luck?
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **4** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **VII.D42** — Knowledge as Section (direct_problem_account; confidence: high)
-- **VII.D43** — Justification as Gluing (direct_problem_account; confidence: high)
-- **VII.T11** — Coherence-Correspondence Unification (direct_problem_account; confidence: high)
-- **VII.T27** — Alethic Unification (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `categorical_register_check`
-- **Verification status:** `pending_external_review`
-- **External status:** `philosophical_foundational_debate`
-
-## External-review boundary
-
-External philosophy review at the epistemology/logic/language boundary; comparison with reliabilism, coherentism, deflationism, intuitionism, and structural-realist positions.
-
-## Provenance
-
-- **v1 predecessor:** `meta-gettier-problem` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

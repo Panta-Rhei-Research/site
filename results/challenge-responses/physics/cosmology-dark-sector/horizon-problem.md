@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/cosmology-dark-sector
 response_id: response-P037
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - V.C17
@@ -107,54 +107,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Horizon problem — Challenge Response
-
-**Structural Challenge:** [Horizon problem](/agenda/structural-challenge-ledger/physics/cosmology-dark-sector/horizon-problem/) (`P037`)
-**Domain:** Physics · **Cluster:** cosmology dark sector
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Horizon problem — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **8** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **V.C17** — Inflaton No-Go Corollary (boundary_or_nonclaim; confidence: high)
-- **V.D156** — Inflationary Regime (boundary_or_nonclaim; confidence: high)
-- **V.D221** — Export E1: Complete Physical Arena (direct_problem_account; confidence: high)
-- **V.P91** — Horizon Framework Account (direct_problem_account; confidence: high)
-- **V.T105** — Regime Invariance Theorem (boundary_or_nonclaim; confidence: high)
-- **V.T106** — Flatness from Compactness (direct_problem_account; confidence: high)
-- **V.T274** — Structural e-Fold Count N_e = 57 (boundary_or_nonclaim; confidence: high)
-- **V.T275** — Scalar Amplitude from alpha_tau Inheritance (boundary_or_nonclaim; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External cosmology review of the τ formulation versus ΛCDM and dark-sector alternatives; comparison against named experiments (Planck, DESI, Euclid, JWST) where falsification paths exist.
-
-## Provenance
-
-- **v1 predecessor:** `phys-horizon-problem` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

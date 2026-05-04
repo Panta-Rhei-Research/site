@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/life/evolution-morphology-tre
 response_id: response-LIFE-SC-17
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - VI.D35
@@ -98,53 +98,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - life
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# LUCA and Tree-of-Life Topology Challenge — Challenge Response
-
-**Structural Challenge:** [LUCA and Tree-of-Life Topology Challenge](/agenda/structural-challenge-ledger/life/evolution-morphology-tree/luca-and-tree-of-life-topology/) (`LIFE-SC-17`)
-**Domain:** Life · **Cluster:** evolution morphology tree
-**Response status:** **Internally addressed**
-
-## Challenge
-
-What is the structural meaning of LUCA, and why does the tree of life have its observed broad topology? Is the bacterial/archaeal/eukaryotic split contingent or structurally expected?
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **7** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **VI.D35** — Three-Domain Sector Taxonomy (direct_problem_account; confidence: high)
-- **VI.D50** — PPAS Algorithm on Fitness Landscapes (bridge_structure; confidence: high)
-- **VI.R06** — Archaea as Persistence Archetype (direct_problem_account; confidence: high)
-- **VI.R12** — Sector Assignment Table (direct_problem_account; confidence: high)
-- **VI.R13** — Eukarya as Fiber-Enabled Regime (direct_problem_account; confidence: high)
-- **VI.R20** — Fitness Landscape Topology (bridge_structure; confidence: high)
-- **VI.T14** — Evolution = PPAS Optimization (bridge_structure; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External evolutionary-biology / paleobiology review of the τ formulation; comparison against phylogenetic, developmental, and macroevolutionary evidence.
-
-## Provenance
-
-- **v1 predecessor:** `life-biology-last-universal-common-ancestor` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

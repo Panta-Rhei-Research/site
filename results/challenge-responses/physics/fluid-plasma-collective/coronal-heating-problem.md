@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/fluid-plasma-collecti
 response_id: response-P012
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - V.D313
@@ -60,49 +60,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Coronal heating problem — Challenge Response
-
-**Structural Challenge:** [Coronal heating problem](/agenda/structural-challenge-ledger/physics/fluid-plasma-collective/coronal-heating-problem/) (`P012`)
-**Domain:** Physics · **Cluster:** fluid plasma collective
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Coronal heating problem — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **3** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **V.D313** — Coronal Heating Flux (direct_problem_account; confidence: high)
-- **V.P173** — Coronal Flux Consistency (direct_problem_account; confidence: high)
-- **V.T253** — τ-Alfvén Damping = ι_τ² ω (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `bridge_verification`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External fluid- / plasma-physics review of the τ formulation; comparison against turbulence, MHD, and laboratory-plasma experimental programs.
-
-## Provenance
-
-- **v1 predecessor:** `phys-coronal-heating-problem` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.

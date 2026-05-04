@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/physics/qcd-nuclear-dense-mat
 response_id: response-P030
 response_status: internally_addressed
 response_status_label: Internally addressed
-response_summary: The framework currently carries an internal answer for this Problem Ledger item.
+response_summary: The framework currently carries an internal response to this Structural Challenge.
 response_rationale: Related Result pages carry a current internal answer route.
 registry_item_ids:
 - III.T27
@@ -98,53 +98,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - physics
-summary_short: The framework currently carries an internal answer for this Problem Ledger item.
+summary_short: The framework currently carries an internal response to this Structural Challenge.
 ---
-
-# Glueballs — Challenge Response
-
-**Structural Challenge:** [Glueballs](/agenda/structural-challenge-ledger/physics/qcd-nuclear-dense-matter/glueballs/) (`P030`)
-**Domain:** Physics · **Cluster:** qcd nuclear dense matter
-**Response status:** **Internally addressed**
-
-## Challenge
-
-Glueballs — see briefing 01 §7 for full structural framing.
-
-## τ response
-
-Related Result pages carry a current internal answer route.
-
-## Evidence route
-
-This response is supported by **7** canonical registry items in the τ Corpus.
-
-### Registry references
-
-- **III.T27** — Yang-Mills Gap Theorem (direct_problem_account; confidence: high)
-- **IV.D201** — Glueball (direct_problem_account; confidence: high)
-- **IV.P289** — Glueball Mass Prediction (direct_problem_account; confidence: high)
-- **IV.R72** — Glueball mass scale (direct_problem_account; confidence: high)
-- **IV.R75** — The lattice evidence (direct_problem_account; confidence: high)
-- **IV.R81** — Physical meaning (direct_problem_account; confidence: high)
-- **IV.T75** — τ-Yang--Mills Mass Gap Theorem (direct_problem_account; confidence: high)
-
-
-## Verification
-
-- **Verification route:** `empirical_accountability`
-- **Verification status:** `pending_external_review`
-- **External status:** `externally_open`
-
-## External-review boundary
-
-External QCD / nuclear-physics review of the τ formulation; comparison against lattice QCD, nuclear-experiment, and dense-matter / neutron-star observations.
-
-## Provenance
-
-- **v1 predecessor:** `phys-glueballs` (promoted_one_to_one)
-- **v1 mapping recovered from:** git ref `f534b3fb^`
-
-## Status disclaimer
-
-A Challenge Response reports the program's current internal stance against a canonical Structural Challenge. It does not imply external verification, scientific consensus, philosophical settlement, or final proof. Read it together with its evidence route, registry references, verification status, and external-review boundary.
