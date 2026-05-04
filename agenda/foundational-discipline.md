@@ -20,6 +20,12 @@ summary_cards:
     to necessity, uniqueness, and ontic answerability.
 right_rail:
   related:
+  - title: Coherent Theory of Reality
+    url: /program/about/coherent-theory-of-reality/
+  - title: The Shape of a Theory of Reality
+    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
+  - title: No Externalities
+    url: /agenda/kernel-model-reality/no-externalities/
   - title: Core Design Principles
     url: /agenda/core-design-principles/
   - title: Why the Tau Framework
@@ -30,7 +36,7 @@ right_rail:
     type: Design Doc
     scope: Program-wide
     status: Canonical
-    updated: April 2026
+    updated: May 2026
 ---
 
 One of the most unusual features of the Panta Rhei Research Program is that it does not only ask for strong results downstream. It asks for strong **discipline upstream**.
@@ -50,15 +56,15 @@ If the program were only trying to produce local technical success, then a highl
 
 then the kernel itself cannot be neutral.
 
-A framework that begins by tolerating too much arbitrariness, too much uncontrolled expressivity, or too much hidden externality may still produce interesting mathematics. But it will struggle to support the strongest forms of answerability.
+A theory that begins by tolerating too much arbitrariness, too much uncontrolled expressivity, or too much hidden externality may still produce interesting mathematics. But it will struggle to support the strongest forms of answerability.
 
 That is the driving thought behind the program's foundational discipline.
 
 ## The constructive demand
 
-The framework should be explicit enough to be built and checked. That is why constructivity matters here.
+The theory should be explicit enough to be built and checked. That is why constructivity matters here.
 
-A constructive orientation does not guarantee truth. But it does force the framework to present its objects and operations in a way that can be inspected, built up, and followed. It resists the temptation to hide decisive burdens inside inaccessible existence claims or downstream reinterpretations.
+A constructive orientation does not guarantee truth. But it does force the theory to present its objects and operations in a way that can be inspected, built up, and followed. It resists the temptation to hide decisive burdens inside inaccessible existence claims or downstream reinterpretations.
 
 This is one reason the program treats formalizability and [public verification routes]({{ '/verify/' | relative_url }}) as part of the research object itself rather than as auxiliary packaging.
 
@@ -75,15 +81,15 @@ and
 
 ## The no-free-reuse demand
 
-The program is deeply suspicious of frameworks in which unrestricted contraction, unrestricted reuse, and diagonal excess can silently do enormous conceptual work at the base. In the Panta Rhei vocabulary, this is bound up with diagonal discipline and the refusal of unconstrained resource reuse.
+The program is deeply suspicious of theories in which unrestricted contraction, unrestricted reuse, and diagonal excess can silently do enormous conceptual work at the base. In the Panta Rhei vocabulary, this is bound up with diagonal discipline and the refusal of unconstrained resource reuse.
 
-This does not mean that all forms of reuse are impossible. It means that reuse itself must be disciplined and justified. The framework should not be able to conjure massive expressive strength from invisible resource assumptions while later claiming that its outputs are deeply inevitable.
+This does not mean that all forms of reuse are impossible. It means that reuse itself must be disciplined and justified. The theory should not be able to conjure massive expressive strength from invisible resource assumptions while later claiming that its outputs are deeply inevitable.
 
 This is one of the reasons the program's foundational temperament is closer to a resource-sensitive discipline than to a permissive background of freely reusable abstract tokens. The [Tau framework]({{ '/corpus/' | relative_url }}) is built to embody this resource-sensitive posture from the ground up.
 
 ## The typed demand
 
-The framework should be strictly typed. That is not a software affectation. It is part of the program's deeper anti-arbitrariness stance.
+The theory should be strictly typed. That is not a software affectation. It is part of the program's deeper anti-arbitrariness stance.
 
 Types matter because they make explicit:
 - what kind of object something is
@@ -91,15 +97,15 @@ Types matter because they make explicit:
 - what transitions are permitted
 - where a given claim or construction belongs
 
-A typed framework is not automatically true, but it is much harder to smuggle category mistakes through it without leaving visible traces.
+A typed theory is not automatically true, but it is much harder to smuggle category mistakes through it without leaving visible traces.
 
 ## The self-contained demand
 
-The program also seeks a foundation that does not depend on endless external rescue operations. If one part of the theory needs another, and that part needs another, and so on forever, then the framework never becomes properly answerable as a whole.
+The program also seeks a foundation that does not depend on endless external rescue operations. If one part of the theory needs another, and that part needs another, and so on forever, then the theory never becomes properly answerable as a whole.
 
 This does not mean the program has already solved that problem perfectly. It means it treats the problem as real and non-negotiable.
 
-The aim is a framework whose semantics, structural roles, and explanatory force become increasingly visible from within, rather than remaining forever borrowed from outside.
+The aim is a theory whose semantics, structural roles, and explanatory force become increasingly visible from within, rather than remaining forever borrowed from outside.
 
 ## Why this discipline is non-trivial
 
@@ -107,10 +113,12 @@ These constraints are severe. They make the program harder, not easier.
 
 They reduce convenience.
 They reduce permissiveness.
-They narrow the kinds of moves the framework is allowed to make.
+They narrow the kinds of moves the theory is allowed to make.
 
 But that is exactly the point.
 
 If the program later claims to have earned something large, that claim means more if it was earned under real foundational restraint. The [core design principles]({{ '/agenda/core-design-principles/' | relative_url }}) show how this discipline shapes the program's method at every level.
+
+Foundational discipline is upstream of [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}). It constrains which languages, structures, and semantic loads the theory is allowed to carry without silently importing stronger foundations than it has earned.
 
 That is why the foundational discipline is not a decorative prelude. It is one of the deepest conditions of the entire research program.

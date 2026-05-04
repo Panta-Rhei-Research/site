@@ -9,7 +9,7 @@ summary_short: The explanatory patterns, foundational shortcuts, and compartment
   settlements that the research program explicitly refuses to treat as final.
 summary_cards:
 - title: No arbitrary primitive excess
-  body: The framework refuses to treat foundational abundance as neutral when deeper
+  body: The theory refuses to treat foundational abundance as neutral when deeper
     answerability is at stake.
 - title: No silent scoping exceptions
   body: One reality should not be governed by regime-dependent law application without
@@ -25,20 +25,28 @@ right_rail:
     url: /agenda/foundational-discipline/
   - title: Science, Humanities & Coherence
     url: /agenda/science-humanities-and-coherence/
+  - title: No Externalities
+    url: /agenda/kernel-model-reality/no-externalities/
+  - title: Answer-Shape Requirements
+    url: /agenda/kernel-model-reality/answer-shape-requirements/
+  - title: Coherent Theory of Reality
+    url: /program/about/coherent-theory-of-reality/
   meta:
     type: Design Doc
     scope: Program-wide
     status: Canonical
-    updated: April 2026
+    updated: May 2026
 ---
 
 The Panta Rhei Research Program is defined not only by what it seeks, but also by what it refuses to accept as a final explanatory settlement.
 
 These refusals are not rhetorical gestures. They are boundary conditions. They define the kinds of moves the program is unwilling to treat as adequate if the questions being asked are genuinely foundational.
 
+These refusals are part of the burden of building a coherent theory of reality.
+
 ## It refuses arbitrary primitive excess
 
-If a framework begins by granting itself too much at the foundational level, then later claims to deep necessity become weak.
+If a theory begins by granting itself too much at the foundational level, then later claims to deep necessity become weak.
 
 A system may still be elegant. It may still be useful. It may still solve many local problems. But if its deepest primitives are too permissive, too abundant, or too weakly constrained, then stronger questions about why this world has this structure remain structurally underanswered.
 
@@ -80,7 +88,7 @@ This refusal is one of the deepest motivations of the program.
 
 ## It refuses invisible foundational outsourcing
 
-A framework may appear self-sufficient while quietly depending on assumptions, semantic resources, or ontological moves that it never truly owns or makes visible.
+A theory may appear self-sufficient while quietly depending on assumptions, semantic resources, or ontological moves that it never truly owns or makes visible.
 
 The program therefore refuses the comfort of pretending that foundational outsourcing is neutral.
 
@@ -97,4 +105,4 @@ They make the road to a viable framework much steeper.
 
 But they also explain why the program takes the shape it does.
 
-Without these refusals, there would be no real need for the [architecture that follows]({{ '/agenda/why-the-tau-framework/' | relative_url }}).
+Without these refusals, there would be no real need for the [Tau framework architecture]({{ '/agenda/why-the-tau-framework/' | relative_url }}) that follows.

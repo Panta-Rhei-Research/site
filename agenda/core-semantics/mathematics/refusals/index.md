@@ -9,9 +9,9 @@ status: "Canonical"
 summary_short: "What the tau-kernel refuses to import as primitive mathematical background."
 right_rail:
   related:
-    - title: "Mathematics Recovery Requirements"
+    - title: "Mathematics Core Semantics"
       url: /agenda/core-semantics/mathematics/
-    - title: "Recovery Requirements"
+    - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Formal Verification Stack"
       url: /verify/formal-verification-stack/
@@ -19,7 +19,7 @@ right_rail:
     type: "Mathematical Refusals"
     scope: "Mathematics"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign items = site.core_semantics | where: "item_type", "mathematical_refusal" | sort: "canonical_recovery_id" %}

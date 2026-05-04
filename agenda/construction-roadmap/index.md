@@ -7,7 +7,7 @@ v2_lane: agenda
 section: research-agenda
 type: "Agenda Page"
 status: "Canonical"
-summary_short: "The logical build-order required by the Research Agenda."
+summary_short: "The logical build-order required by Agenda: from Core Semantics and stress-test questions to an admissible answer-shape."
 hero_ctas:
   - label: "Construction Spine"
     url: /corpus/construction-spine/
@@ -20,7 +20,7 @@ right_rail:
   related:
     - title: "Problem Ledger"
       url: /agenda/problem-ledger/
-    - title: "Recovery Requirements"
+    - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Verify the Construction Spine"
       url: /verify/construction-spine-verification/
@@ -34,7 +34,7 @@ right_rail:
     type: "Agenda Page"
     scope: "Logical construction order"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 {% assign steps = site.data.construction_spine["construction-spine-data"] %}
@@ -49,14 +49,14 @@ This is the construction-side counterpart to Package 2’s doctrine: [The Shape 
 
 ## Agenda roadmap and Corpus spine
 
-{% capture construction_roadmap_plate_caption %}The Construction Roadmap states what must be built; the Construction Spine shows the Corpus-side build narrative.{% endcapture %}
+{% capture construction_roadmap_plate_caption %}The Construction Roadmap states what must be built; the Construction Spine shows the Corpus-side build narrative, with side projections for Registry, TauLib, Monograph Corpus, and Corpus Graph.{% endcapture %}
 {% include scientific-plate.html id="plate-04-construction-spine" variant="thumb" class="scientific-plate--compact" caption=construction_roadmap_plate_caption loading="lazy" %}
 
 The Construction Roadmap states the build-order obligation. The Construction Spine shows the Corpus-side realization of that order.
 
 ## Why construction order matters
 
-The other Research Agenda surfaces state what the program must face: open problems, recovery requirements, and the ontic-status burden. The Construction Roadmap explains how those burdens become a construction sequence.
+The other Research Agenda surfaces state what the program must face: Core Semantics, open problems, and the ontic-status burden. The Construction Roadmap explains how those burdens become a construction sequence.
 
 <div class="v2-system-strip" aria-label="Construction sequence across lanes">
   <a href="{{ '/agenda/construction-roadmap/' | relative_url }}">Agenda obligation</a>

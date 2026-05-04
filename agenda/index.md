@@ -8,27 +8,25 @@ section: research-agenda
 permalink: /agenda/
 type: "Lane Root"
 status: "Canonical"
-summary_short: "The public burden of the program: what must be asked, recovered, built, refused, answered, and left open."
+summary_short: "The public burden of the program: what must be asked, carried, built, refused, answered, and left open."
 og_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
 twitter_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
 og_image_alt: "Scientific plate showing the Research Agenda as the public obligation layer of the Panta Rhei Research Program."
 summary_cards:
-  - title: "Aim"
-    body: "Construct and test whether a finite, computable kernel can recover mathematics, physics, life, and reflective intelligibility without hidden externalities."
+  - title: "Core Semantics"
+    body: "The language, structures, laws, grammars, and refusal boundaries the theory must earn before it can answer."
   - title: "Problem Ledger"
     body: "External open-problem stress tests the program agrees to keep visible, classify, address, reframe, or reject with reason."
-  - title: "Recovery Requirements"
-    body: "Known structures and conceptual grammars the kernel must recover before its answers can be taken seriously."
   - title: "Kernel, Model & Reality"
     body: "The answer-shape and ontic-status burden: no hidden runtime, substrate, semantic load, or externality may be treated as solved by silence."
   - title: "Construction Roadmap"
     body: "The logical build-order implied by the agenda: kernel, mathematics, physics, empirical bridges, life, reflection, self-hosting, and ontic closure."
 hero_ctas:
+  - label: "Core Semantics"
+    url: /agenda/core-semantics/
+    primary: true
   - label: "Problem Ledger"
     url: /agenda/problem-ledger/
-    primary: true
-  - label: "Recovery Requirements"
-    url: /agenda/core-semantics/
   - label: "Kernel, Model & Reality"
     url: /agenda/kernel-model-reality/
   - label: "Construction Roadmap"
@@ -39,12 +37,12 @@ right_rail:
   related:
     - title: "Research Aim & Desiderata"
       url: /agenda/research-aim-and-desiderata/
+    - title: "Core Semantics"
+      url: /agenda/core-semantics/
     - title: "Problem Ledger"
       url: /agenda/problem-ledger/
     - title: "Problem Ledger Source Policy"
       url: /agenda/problem-ledger-source-policy/
-    - title: "Recovery Requirements"
-      url: /agenda/core-semantics/
     - title: "Kernel, Model & Reality"
       url: /agenda/kernel-model-reality/
     - title: "Construction Roadmap"
@@ -57,16 +55,16 @@ right_rail:
     type: "Lane Root"
     scope: "Program-wide"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## The public burden
 
-The Agenda lane states the public burden of the program: what must be asked, recovered, built, refused, answered, and left open.
+The Agenda lane states the public burden of the program: what must be asked, carried, built, refused, answered, and left open.
 
-The Panta Rhei Research Program aims to construct a finite, computable, self-contained formal kernel that can recover the core structures of mathematics, physics, life, and reflective intelligibility.
+The Panta Rhei Research Program is dedicated to building a coherent theory of reality. Agenda defines the burden that such a theory must carry before Results are allowed to sound like consequences.
 
-Agenda defines the burden this kernel must carry. It states which open problems the program accepts as stress tests, which known structures the kernel must recover, what kind of answer could count as ontically serious, and what logical construction order follows from those obligations.
+It states which language and semantics the theory must earn, which open questions it accepts as stress tests, what kind of answer could count as ontically serious, and what logical construction order follows from those obligations.
 
 ## Why an agenda is needed
 
@@ -81,13 +79,13 @@ Package 2 states the doctrine-level version of this burden in [The Shape of a Th
 ## The four agenda surfaces
 
 <div class="v2-grid">
+  <a class="v2-tile" href="{{ '/agenda/core-semantics/' | relative_url }}">
+    <strong>Core Semantics</strong>
+    <span>The language, structures, laws, grammars, and refusal boundaries the theory must earn before it can answer.</span>
+  </a>
   <a class="v2-tile" href="{{ '/agenda/problem-ledger/' | relative_url }}">
     <strong>Problem Ledger</strong>
     <span>Open and foundational problem spaces the program agrees to keep visible.</span>
-  </a>
-  <a class="v2-tile" href="{{ '/agenda/core-semantics/' | relative_url }}">
-    <strong>Recovery Requirements</strong>
-    <span>Known structures the kernel must recover before answers can be taken seriously.</span>
   </a>
   <a class="v2-tile" href="{{ '/agenda/kernel-model-reality/' | relative_url }}">
     <strong>Kernel, Model & Reality</strong>
@@ -105,24 +103,24 @@ Package 2 states the doctrine-level version of this burden in [The Shape of a Th
 
 {% include scientific-plate.html id="plate-03-public-obligation-layer" class="scientific-plate--obligation-layer" loading="lazy" %}
 
-The Research Agenda is the program's public obligation layer. It states what the program accepts as a burden before Results are allowed to sound like consequences.
+The Agenda is the program's public obligation layer: it records Core Semantics, Problem Ledger, answer-shape burden, and construction order before Results are read as consequences.
 
 <div class="btn-group section-ctas">
-  <a class="btn-secondary" href="{{ '/agenda/problem-ledger/' | relative_url }}">Open the Problem Ledger</a>
-  <a class="btn-ghost" href="{{ '/agenda/core-semantics/' | relative_url }}">Read Recovery Requirements</a>
+  <a class="btn-secondary" href="{{ '/agenda/core-semantics/' | relative_url }}">Read Core Semantics</a>
+  <a class="btn-ghost" href="{{ '/agenda/problem-ledger/' | relative_url }}">Open the Problem Ledger</a>
   <a class="btn-ghost" href="{{ '/agenda/kernel-model-reality/' | relative_url }}">Explore Kernel, Model & Reality</a>
   <a class="btn-ghost" href="{{ '/agenda/construction-roadmap/' | relative_url }}">Follow the Construction Roadmap</a>
 </div>
 
 ## How to read this page
 
-If you are new to the program, read the agenda in this order:
+If you are new to the program, read the Agenda in this order:
 
-1. Start with the **Problem Ledger** to see the external open problems the program accepts as stress tests.
-2. Continue to **Recovery Requirements** to see what the kernel must recover even before it can claim serious explanatory power.
+1. Start with **Core Semantics** to see the language, structures, laws, and grammars the theory must earn before it can answer.
+2. Continue to **Problem Ledger** to see the external stress-test questions the program agrees to keep visible.
 3. Read **Kernel, Model & Reality** to understand the no-externalities and ontic-status burden.
-4. Use the **Construction Roadmap** to see the logical build-order that follows from those commitments.
-5. Then move to **Results** to see the current program stance against the agenda.
+4. Use **Construction Roadmap** to see the logical build-order implied by those commitments.
+5. Then move to **Results** and **Verify** to inspect the current program stance and verification routes.
 
 ## From obligation to inspection
 
@@ -178,13 +176,15 @@ For this reason, the Research Agenda uses external public problem ledgers as str
   </tbody>
 </table>
 
-## Open Problems vs Recovery Requirements
+## Core Semantics vs Problem Ledger
 
-The Problem Ledger exists because the program is not satisfied with redescribing known science. It must be tested against open problems: places where current knowledge does not yet close.
+Core Semantics and Problem Ledger carry different burdens.
 
-The Recovery Requirements Ledger asks a different question. It records the known structures and conceptual grammars the kernel must recover before its answers can be taken seriously: formal reasoning, mathematical bridge criteria, physical measurement architecture, life-organization grammar, and metaphysical intelligibility.
+**Core Semantics** asks whether the theory can carry, retype, refine, bridge, or explicitly challenge the established language and structures of the domains it addresses: formal reasoning, mathematical bridge criteria, physical measurement architecture, life-organization grammar, reflective meaning, and metaphysical intelligibility.
 
-Both ledgers belong to the same burden of proof. They should not be collapsed into one another.
+**Problem Ledger** asks whether the theory can express, classify, constrain, answer, defer, reclassify, or reject external stress-test problems with reasons.
+
+The two belong together. A theory cannot credibly answer open problems if it cannot first earn the language those problems presuppose.
 
 ## Kernel, Model & Reality
 
@@ -196,10 +196,10 @@ This section treats ontic status as a burden, not a premise. It takes the phenom
 
 Together, these four surfaces define the public research contract:
 
-- the [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) asks what open questions the program accepts as stress tests
-- the [Recovery Requirements]({{ '/agenda/core-semantics/' | relative_url }}) ask what known structures the kernel must recover
-- [Kernel, Model & Reality]({{ '/agenda/kernel-model-reality/' | relative_url }}) asks what shape of answer could earn ontic seriousness
-- the [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }}) states the logical build-order implied by those obligations
+- [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) asks what language, structures, laws, and grammars the theory must earn.
+- the [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) asks what open questions the program accepts as stress tests.
+- [Kernel, Model & Reality]({{ '/agenda/kernel-model-reality/' | relative_url }}) asks what kind of answer could earn ontic seriousness.
+- the [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }}) states the logical build-order implied by those obligations.
 
 ## Construction Roadmap
 
@@ -237,6 +237,12 @@ The pillar pages provide the detailed machinery behind the Research Agenda.
     </a>
   </li>
   <li>
+    <a class="v2-tile" href="{{ '/agenda/core-semantics/' | relative_url }}">
+      <strong>Core Semantics</strong>
+      <span>The language, structures, laws, grammars, and refusal boundaries the theory must earn before it can answer.</span>
+    </a>
+  </li>
+  <li>
     <a class="v2-tile" href="{{ '/agenda/problem-ledger/' | relative_url }}">
       <strong>Problem Ledger</strong>
       <span>External stress-test problems and their current program classification.</span>
@@ -246,12 +252,6 @@ The pillar pages provide the detailed machinery behind the Research Agenda.
     <a class="v2-tile" href="{{ '/agenda/problem-ledger-source-policy/' | relative_url }}">
       <strong>Source Policy</strong>
       <span>How external problem ledgers are selected, pinned, imported, and classified.</span>
-    </a>
-  </li>
-  <li>
-    <a class="v2-tile" href="{{ '/agenda/core-semantics/' | relative_url }}">
-      <strong>Recovery Requirements</strong>
-      <span>Known structures the kernel must recover without treating them as open-problem stress tests.</span>
     </a>
   </li>
   <li>
@@ -270,6 +270,12 @@ The pillar pages provide the detailed machinery behind the Research Agenda.
     <a class="v2-tile" href="{{ '/agenda/result-criteria/' | relative_url }}">
       <strong>Result Criteria</strong>
       <span>How claims are classified, constrained, and routed toward verification.</span>
+    </a>
+  </li>
+  <li>
+    <a class="v2-tile" href="{{ '/agenda/work-roadmap/' | relative_url }}">
+      <strong>Work Roadmap</strong>
+      <span>The operational sequence that delivers the agenda's logical build-order.</span>
     </a>
   </li>
 </ol>

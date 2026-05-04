@@ -26,24 +26,26 @@ right_rail:
       url: /agenda/kernel-model-reality/
     - title: "Kant, Phenomena & Noumena"
       url: /agenda/kernel-model-reality/kant-phenomena-noumena/
-    - title: "Recovery Requirements"
+    - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Problem Ledger"
       url: /agenda/problem-ledger/
     - title: "How to Verify"
       url: /verify/how-to-verify/
+    - title: "The Shape of a Theory of Reality"
+      url: /publications/white-papers/the-shape-of-a-theory-of-reality/
   meta:
     type: "Kernel Criterion"
     scope: "Research Agenda"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why this burden exists
 
 The program aims at a kernel-based model of reality. That ambition is not automatically an ontological achievement.
 
-A model may organize data, compress theory, predict observations, or provide elegant language while still leaving open whether its structure belongs to reality itself. The Ontic Status Burden is the public name for that open pressure.
+A model may organize data, compress theory, predict observations, or provide elegant language while still leaving open whether its structure belongs to reality itself. The Ontic Status Burden is the public name for that open pressure. The Package 2 white paper [The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}) carries the doctrine in detail.
 
 ## Model, phenomenon, and ontic structure
 
@@ -84,7 +86,7 @@ The burden has several linked components:
   </div>
   <div class="v2-tile">
     <strong>Canonicity</strong>
-    <span>The framework must explain why this structure, not merely some structure, bears the burden.</span>
+    <span>The theory must explain why this structure, not merely some structure, bears the burden.</span>
   </div>
   <div class="v2-tile">
     <strong>Verification</strong>

@@ -26,6 +26,10 @@ right_rail:
       url: /agenda/kernel-model-reality/
     - title: "Ontic Status Burden"
       url: /agenda/kernel-model-reality/ontic-status-burden/
+    - title: "No Externalities"
+      url: /agenda/kernel-model-reality/no-externalities/
+    - title: "Coherent Theory of Reality"
+      url: /program/about/coherent-theory-of-reality/
     - title: "Corpus"
       url: /corpus/
     - title: "Corpus Graph"
@@ -36,7 +40,7 @@ right_rail:
     type: "Kernel Access Mode"
     scope: "Research Agenda"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Why diagrammatic access is needed
@@ -50,6 +54,8 @@ Diagrammatic access is the proposed access mode: not a claim to stand outside ap
 Pointing access says: there it is, reality itself, directly indicated.
 
 Diagrammatic access says something more disciplined: here is a structured relation, with typed objects, maps, constraints, recovery paths, and verification pressure. Its warrant depends on whether the structure survives those tests.
+
+The claim is made from an internal standpoint. The program does not pretend to view its kernel from outside all mediation; it works within its own conditions of access and earns whatever ontic seriousness those conditions can carry. The route is sketched in the [Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}) and tightened by [No Externalities]({{ '/agenda/kernel-model-reality/no-externalities/' | relative_url }}).
 
 ## What "diagrammatic" means
 

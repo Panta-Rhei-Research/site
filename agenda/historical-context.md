@@ -17,8 +17,15 @@ summary_cards:
 - title: Contrasting tendency
   body: The page also notes the modern strength of reduction, decomposition, and operational
     control without caricaturing its achievements.
+last_updated: May 2026
 right_rail:
   related:
+  - title: Related Approaches
+    url: /program/about/related-approaches/
+  - title: Bibliography & Prior-Art Catalog
+    url: /bibliography/
+  - title: Core Semantics
+    url: /agenda/core-semantics/
   - title: Why the Tau Framework
     url: /agenda/why-the-tau-framework/
   - title: Science, Humanities & Coherence
@@ -29,20 +36,22 @@ right_rail:
     type: Essay
     scope: Program-wide
     status: Canonical
-    updated: April 2026
+    updated: May 2026
 ---
+
+> Historical context is not a priority claim. It is a scholarly orientation surface.
 
 The **Panta Rhei Research Program** did not arise in a vacuum. It belongs to a long and unresolved tension within the history of Western thought: the tension between approaches that seek reality's deepest intelligibility in **relation, coherence, and internal structure**, and approaches that seek intelligibility primarily through **decomposition, local lawfulness, operational separability, and external coordination**.
 
 This page does not attempt a complete history of thought. It is a selective map, drawn from within the civilizational horizon most immediately available to the authors: the Greek, Jewish, Roman, and later European intellectual inheritance. That is not a claim that other traditions lack analogous resources. It is simply an acknowledgment that one should not speak with false authority about lineages one has not adequately studied.
 
-Within that scoped horizon, however, it is possible to identify a deep and recurring orientation: the conviction that reality is not most fundamentally a heap of independent pieces stitched together from outside, but a **structured whole whose intelligibility lies in relation, internal consistency, and coherence**. *Panta Rhei* consciously places itself within that lineage.
+Within that scoped horizon, however, it is possible to identify a deep and recurring orientation: the conviction that reality is not most fundamentally a heap of independent pieces stitched together from outside, but a **structured whole whose intelligibility lies in relation, internal consistency, and coherence**. *Panta Rhei* consciously places itself in conversation with that lineage, without claiming to inherit, complete, or supersede it.
 
 ## Why historical context matters
 
-The program does not merely propose a set of technical results. It also takes a position on what kind of thing a reality-model ought to be. Without historical context, those foundational choices may look eccentric or arbitrary. With historical context, they become visible as part of a long-standing and non-trivial intellectual wager.
+The program does not merely propose a set of technical results. It also takes a position on what kind of thing a [coherent theory of reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}) ought to be. Without historical context, those foundational choices may look eccentric or arbitrary. With historical context, they become visible as part of a long-standing and non-trivial intellectual wager.
 
-The site therefore includes this page not as decoration, but as orientation: it explains why the program's methodological and ontological commitments are both unusual and deeply rooted.
+The site therefore includes this page not as decoration, but as orientation: it explains why the program's methodological and ontological commitments are both unusual and rooted in a wider intellectual conversation. The Program-doctrine surface for [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}) does the work of situating the program against contemporary peers; the Agenda surface for [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) carries the language layer; and the [Bibliography & Prior-Art Catalog]({{ '/bibliography/' | relative_url }}) carries the evidence infrastructure that this page deliberately does not duplicate.
 
 ## Leibniz: reality as relational order
 
@@ -131,9 +140,9 @@ The program does not deny the power of that tradition. It simply does not stand 
 
 ## Where Panta Rhei stands
 
-The Panta Rhei Research Program takes a definite stance inside this historical tension.
+The Panta Rhei Research Program takes a definite stance inside this historical tension, while remaining careful not to enrol earlier thinkers as ancestors of its own positions.
 
-It aligns itself with the lineage that seeks reality's deepest intelligibility in **relation, coherence, internal structure, and ontic seriousness**. It then tries to restate that lineage under conditions that are fully modern:
+It positions itself alongside attempts to seek reality's deepest intelligibility in **relation, coherence, internal structure, and ontic seriousness**. It then tries to articulate that orientation under conditions that are fully modern:
 
 - constructively disciplined
 - finitistically constrained
@@ -142,9 +151,9 @@ It aligns itself with the lineage that seeks reality's deepest intelligibility i
 - physically answerable
 - and publicly open to scrutiny
 
-That combination is what makes the program distinctive.
+That combination is what makes the program distinctive — not any claim of priority over the figures named on this page.
 
-It is not merely reviving an older metaphysical sensibility. It is attempting to build a contemporary research architecture in which that sensibility can be tested. The [bibliography]({{ '/bibliography/' | relative_url }}) traces the full scholarly lineage that feeds into this effort.
+It is not merely reviving an older metaphysical sensibility. It is attempting to build a contemporary research architecture in which a coherent theory of reality can be tested. The [Bibliography & Prior-Art Catalog]({{ '/bibliography/' | relative_url }}) carries the evidence infrastructure for that effort, and the Program-level surface for [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}) records how the program situates itself relative to contemporary alternatives.
 
 ## Why this page matters
 

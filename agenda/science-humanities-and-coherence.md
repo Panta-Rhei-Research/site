@@ -16,18 +16,27 @@ summary_cards:
     domains as the final answer.
 - title: Core wager
   body: Where overlap is real, contradiction should not be treated as a virtue if
-    a deeper coherence may still be possible.
+    a coherent theory of reality may still be possible.
+last_updated: May 2026
 right_rail:
   related:
   - title: Why This Program Exists
     url: /program/about/why-this-program-exists/
+  - title: Impact
+    url: /impact/
+  - title: Core Semantics
+    url: /agenda/core-semantics/
+  - title: Reflective Structure
+    url: /corpus/construction-spine/recover-reflective-structure/
+  - title: The Shape of a Theory of Reality
+    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
   - title: Historical Context
     url: /agenda/historical-context/
   meta:
     type: Essay
     scope: Program-wide
     status: Canonical
-    updated: April 2026
+    updated: May 2026
 ---
 
 One of the deepest motivations of the Panta Rhei Research Program is the refusal to accept a permanent ceasefire between the domains that modern culture often treats as separate:
@@ -57,9 +66,9 @@ If these domains are all still making claims that touch one reality, then their 
 
 The program does not assume in advance that all these domains must collapse into a single discourse. It assumes something more modest and more demanding:
 
-**where the overlap is genuine, contradiction should not be treated as the final virtue if a deeper coherence may still be possible.**
+**where the overlap is genuine, contradiction should not be treated as the final virtue if a [coherent theory of reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}) may still be possible.**
 
-This is why the program reaches beyond physics. It is not because it wishes to inflate itself into every domain. It is because the question of whether one can live in one coherent world-picture becomes unavoidable once the explanatory ambition is taken seriously enough.
+This is why the program reaches beyond physics. It is not because it wishes to inflate itself into every domain. It is because the question of whether one can live in one coherent world-picture becomes unavoidable once the explanatory ambition is taken seriously enough. The white paper on [the shape of a theory of reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}) sets out the formal contours of that ambition.
 
 ## Not against science, not against the humanities
 
@@ -84,7 +93,7 @@ The program's public surfaces must make room for:
 
 without collapsing them into one undifferentiated page.
 
-That is why the later [Corpus construction surfaces]({{ '/corpus/' | relative_url }}) matter so much. The site must be able to show not only scientific content, but how the architecture attempts to carry coherence across different levels of reality and thought.
+That is why the later [Corpus construction surfaces]({{ '/corpus/' | relative_url }}) matter so much. The site must be able to show not only scientific content, but how the architecture attempts to carry a coherent theory of reality across different levels of reality and thought. The Agenda surface for [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) gives the language layer in which that carriage is articulated, and the Corpus surface for [recovering reflective structure]({{ '/corpus/construction-spine/recover-reflective-structure/' | relative_url }}) shows how the program returns the human, interpretive, and existential registers to the construction itself rather than leaving them outside it. The wider [Impact]({{ '/impact/' | relative_url }}) surface tracks why this question matters beyond the seminar room.
 
 ## The wager
 
