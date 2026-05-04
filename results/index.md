@@ -166,7 +166,7 @@ Every result should be read with its status markers. An internally addressed res
 
   <a class="v2-tile" href="{{ '/results/challenge-responses/' | relative_url }}">
     <strong>Challenge Responses</strong>
-    <span>One-to-one mirror of the public Problem Ledger — current answer or boundary for every problem.</span>
+    <span>Results-side projection of the canonical Structural Challenge Ledger — current τ response, evidence route, verification route, and external-review boundary for each structural challenge.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/results/core-semantics-status/' | relative_url }}">

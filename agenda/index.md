@@ -26,7 +26,7 @@ hero_ctas:
     url: /agenda/core-semantics/
     primary: true
   - label: "Structural Challenge Ledger"
-    url: /agenda/problem-ledger/
+    url: /agenda/structural-challenge-ledger/
   - label: "Kernel, Model & Reality"
     url: /agenda/kernel-model-reality/
   - label: "Construction Roadmap"
@@ -40,9 +40,9 @@ right_rail:
     - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Structural Challenge Ledger"
-      url: /agenda/problem-ledger/
+      url: /agenda/structural-challenge-ledger/
     - title: "Structural Challenge Ledger Source Policy"
-      url: /agenda/problem-ledger-source-policy/
+      url: /agenda/structural-challenge-ledger/source-policy/
     - title: "Kernel, Model & Reality"
       url: /agenda/kernel-model-reality/
     - title: "Construction Roadmap"
@@ -83,9 +83,9 @@ Package 2 states the doctrine-level version of this burden in [The Shape of a Th
     <strong>Core Semantics</strong>
     <span>The language, structures, laws, grammars, and refusal boundaries the theory must earn before it can answer.</span>
   </a>
-  <a class="v2-tile" href="{{ '/agenda/problem-ledger/' | relative_url }}">
-    <strong>Problem Ledger</strong>
-    <span>Open and foundational problem spaces the program agrees to keep visible.</span>
+  <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">
+    <strong>Structural Challenge Ledger</strong>
+    <span>Canonical domain stress tests the program agrees to keep visible, classify, address, reframe, or refuse with reason.</span>
   </a>
   <a class="v2-tile" href="{{ '/agenda/kernel-model-reality/' | relative_url }}">
     <strong>Kernel, Model & Reality</strong>
@@ -107,7 +107,7 @@ The Agenda is the program's public obligation layer: it records Core Semantics, 
 
 <div class="btn-group section-ctas">
   <a class="btn-secondary" href="{{ '/agenda/core-semantics/' | relative_url }}">Read Core Semantics</a>
-  <a class="btn-ghost" href="{{ '/agenda/problem-ledger/' | relative_url }}">Open the Problem Ledger</a>
+  <a class="btn-ghost" href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Open the Structural Challenge Ledger</a>
   <a class="btn-ghost" href="{{ '/agenda/kernel-model-reality/' | relative_url }}">Explore Kernel, Model & Reality</a>
   <a class="btn-ghost" href="{{ '/agenda/construction-roadmap/' | relative_url }}">Follow the Construction Roadmap</a>
 </div>
@@ -199,7 +199,7 @@ This section treats ontic status as a burden, not a premise. It takes the phenom
 Together, these four surfaces define the public research contract:
 
 - [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) asks what language, structures, laws, and grammars the theory must earn.
-- the [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) asks what open questions the program accepts as stress tests.
+- the [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/' | relative_url }}) asks what canonical domain stress tests the program agrees to keep visible, classify, address, reframe, or refuse with reason.
 - [Kernel, Model & Reality]({{ '/agenda/kernel-model-reality/' | relative_url }}) asks what kind of answer could earn ontic seriousness.
 - the [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }}) states the logical build-order implied by those obligations.
 
@@ -245,13 +245,13 @@ The pillar pages provide the detailed machinery behind the Agenda.
     </a>
   </li>
   <li>
-    <a class="v2-tile" href="{{ '/agenda/problem-ledger/' | relative_url }}">
-      <strong>Problem Ledger</strong>
-      <span>External stress-test problems and their current program classification.</span>
+    <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">
+      <strong>Structural Challenge Ledger</strong>
+      <span>Canonical domain stress tests and their current program classification, evidence route, verification route, and external-review boundary.</span>
     </a>
   </li>
   <li>
-    <a class="v2-tile" href="{{ '/agenda/problem-ledger-source-policy/' | relative_url }}">
+    <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/source-policy/' | relative_url }}">
       <strong>Source Policy</strong>
       <span>How external problem ledgers are selected, pinned, imported, and classified.</span>
     </a>
@@ -285,7 +285,7 @@ The pillar pages provide the detailed machinery behind the Agenda.
 ## Burden-of-proof flow
 
 <div class="v2-system-strip" aria-label="Research agenda burden of proof flow">
-  <a href="{{ '/agenda/problem-ledger/' | relative_url }}">Problem</a>
+  <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Challenge</a>
   <span>-></span>
   <a href="{{ '/agenda/foundational-discipline/' | relative_url }}">Constraint</a>
   <span>-></span>
