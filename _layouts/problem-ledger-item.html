@@ -6,6 +6,33 @@ robots: noindex,follow
 
 {% include breadcrumb-nav.html %}
 
+{%- comment -%}
+  Wave F (briefing 22 §1.3): prominent archive banner ABOVE the hero so
+  readers see "this is a v1 archive" before reading the page title.
+  Also surfaces the v4 successor link inline if a Challenge Response
+  page maps back to this v1 item via its `legacy_provenance.
+  v1_problem_ledger_id` field.
+{%- endcomment -%}
+{%- assign v4_successor = nil -%}
+{%- for cr_page in site.pages -%}
+  {%- if cr_page.layout == "challenge-response-entry" and cr_page.legacy_provenance.v1_problem_ledger_id == page.canonical_problem_id -%}
+    {%- assign v4_successor = cr_page -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<aside class="archive-banner notice warning" style="margin-bottom: 1rem;">
+  <strong>v1 archive — retired surface.</strong>
+  This page belongs to the retired v1.0 Problem Ledger raw-source mirror, preserved only for provenance.
+  The current canonical surfaces are the <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a> (Agenda-side) and <a href="{{ '/results/challenge-responses/' | relative_url }}">Challenge Responses</a> (Results-side).
+  {%- if v4_successor %}
+  <br><br>
+  <strong>v4 successor →</strong>
+  <a href="{{ v4_successor.url | relative_url }}">{{ v4_successor.short_title | default: v4_successor.title }}</a>
+  ({% if v4_successor.structural_challenge_id %}<code>{{ v4_successor.structural_challenge_id }}</code>{% endif %})
+  {%- endif %}
+</aside>
+
 <article class="result-article problem-ledger-article">
 <header class="hero-card">
   <div class="module-eyebrow-row">
@@ -28,8 +55,6 @@ robots: noindex,follow
 
 <section class="content-card">
   <div class="prose">
-    <div class="notice warning"><strong>Retired v1.0 surface.</strong> This page belongs to the retired v1.0 Problem Ledger raw-source mirror. It is preserved only for provenance. The current canonical architecture is the <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>, and current Results-side responses are reported through <a href="{{ '/results/challenge-responses/' | relative_url }}">Challenge Responses</a>.</div>
-
     <div class="notice note"><strong>Status note.</strong> This page records a v1.0 raw-source mirror entry. It does not imply external verification, scientific acceptance, or final settlement, and it is not part of the canonical v4 Structural Challenge Ledger unless explicitly promoted.</div>
 
     {{ content }}
