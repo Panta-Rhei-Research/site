@@ -1,0 +1,67 @@
+# Citation File Format (CFF) — https://citation-file-format.github.io/
+# Validated by GitHub's "Cite this repository" UI.
+cff-version: 1.2.0
+message: "If you reference panta-rhei.site or the Panta Rhei Research Program, please cite as below."
+type: software
+title: "panta-rhei.site — Public Research Observatory of the Panta Rhei Research Program"
+abstract: >
+  Jekyll source for panta-rhei.site, the public research observatory of the Panta Rhei
+  Research Program. The website materializes the program as eight inspection lanes
+  (Discover, Program, Agenda, Corpus, Results, Verify, Impact, Engage) with the
+  Structural Challenge Ledger as the canonical Agenda-side obligation surface and
+  Challenge Responses as the Results-side projection.
+authors:
+  - family-names: "Fuchs"
+    given-names: "Thorsten"
+    name-particle: ""
+    name-suffix: ""
+    email: "thorsten@panta-rhei.site"
+    orcid: "https://orcid.org/0009-0007-0718-1042"
+    affiliation: "Panta Rhei Research Program"
+  - family-names: "Fuchs"
+    given-names: "Anna-Sophie"
+    email: "anna-sophie@panta-rhei.site"
+    orcid: "https://orcid.org/0009-0007-3495-7416"
+    affiliation: "Panta Rhei Research Program"
+url: "https://panta-rhei.site"
+repository-code: "https://github.com/Panta-Rhei-Research/site"
+license: CC-BY-4.0
+keywords:
+  - "Category τ"
+  - "Panta Rhei Research Program"
+  - "categorical metaphysics"
+  - "structural challenge ledger"
+  - "Lean 4 formalization"
+  - "calibration cascade"
+  - "master constant ι_τ"
+  - "public research observatory"
+references:
+  - type: software
+    title: "TauLib — Lean 4 formalization of Category τ"
+    repository-code: "https://github.com/Panta-Rhei-Research/taulib"
+    license: Apache-2.0
+    authors:
+      - family-names: "Fuchs"
+        given-names: "Thorsten"
+        orcid: "https://orcid.org/0009-0007-0718-1042"
+      - family-names: "Fuchs"
+        given-names: "Anna-Sophie"
+        orcid: "https://orcid.org/0009-0007-3495-7416"
+preferred-citation:
+  type: article
+  title: "Panta Rhei Research Program — Executive Overview: A 30-minute review route for a 30-minute first-contact reader"
+  authors:
+    - family-names: "Fuchs"
+      given-names: "Thorsten"
+      orcid: "https://orcid.org/0009-0007-0718-1042"
+    - family-names: "Fuchs"
+      given-names: "Anna-Sophie"
+      orcid: "https://orcid.org/0009-0007-3495-7416"
+  year: 2026
+  month: 5
+  url: "https://panta-rhei.site/publications/white-papers/executive-overview/"
+  notes: >
+    The Executive Overview is the public-outreach inspection surface routing first-contact
+    readers to the canonical Corpus, Verify, and Publications surfaces of the program. For
+    the canonical artifact list with DOIs (foundational hinge papers H1–H8, the Foundational
+    Bundle memo, and the TauLib formalization white paper), see panta-rhei.site/cite/.
