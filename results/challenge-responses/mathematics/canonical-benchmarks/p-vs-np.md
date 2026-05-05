@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/mathematics/canonical-benchma
 response_id: response-CB-PVSNP
 response_status: structurally_constrained
 response_status_label: Structurally constrained
-response_summary: The framework currently carries a partial answer or partial account for this Problem Ledger item.
+response_summary: The framework currently carries a partial response or partial account for this Structural Challenge.
 response_rationale: Related Result pages carry a current partial answer route.
 registry_item_ids:
 - III.D33
@@ -97,5 +97,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - mathematics
-summary_short: The framework currently carries a partial answer or partial account for this Problem Ledger item.
+summary_short: The framework currently carries a partial response or partial account for this Structural Challenge.
 ---

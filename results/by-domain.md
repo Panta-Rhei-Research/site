@@ -8,8 +8,8 @@ right_rail:
   related:
   - title: Results Overview
     url: /results/
-  - title: Results by Problem
-    url: /results/by-problem/
+  - title: Challenge Responses
+    url: /results/challenge-responses/
   meta:
     type: Browse Index
     scope: All results

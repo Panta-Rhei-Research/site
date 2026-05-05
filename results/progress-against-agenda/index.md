@@ -6,12 +6,12 @@ v2_lane: results
 permalink: /results/progress-against-agenda/
 type: "Result Index"
 status: "Canonical"
-summary_short: "Dashboard view of the program's current public status against declared Structural Challenge Ledger and Core Semantics obligations."
+summary_short: "Dashboard view of the program's current public status against declared Structural Challenge Ledger, Core Semantics, and Mathematical Refusal obligations."
 summary_cards:
   - title: "Agenda mirror"
     body: "Aggregates public Structural Challenge Ledger and Core Semantics status without replacing the detailed mirrors."
-  - title: "Full public ledger"
-    body: "All promoted Problem Ledger v1.0 items plus forty-five Core Semantics / Recovery items."
+  - title: "v4 obligation surface"
+    body: "Aggregates the Structural Challenge Ledger, Challenge Responses, Core Semantics obligations, and explicit mathematical refusals. Legacy v1 raw-feed items are archived as provenance only and are not counted as canonical challenges unless promoted into the v4 Structural Challenge Ledger."
   - title: "Status discipline"
     body: "Internal progress remains separate from verification state and external acceptance."
 right_rail:
@@ -55,6 +55,18 @@ right_rail:
 {% assign externally_reviewed = progress | where_exp: "item", "item.external_status != 'not_externally_reviewed'" %}
 {% assign legacy_excluded_count = progress_raw | size | minus: total_count %}
 
+{%- comment -%}
+  Wave 3: Strategy B separated panels. Challenge Responses count is
+  authoritative from _data/structural_challenges/{domain}.json (the
+  same source the Challenge Responses domain pages use), not from the
+  agenda-progress feed. Domain sums: 38 + 117 + 29 + 30 = 214.
+{%- endcomment -%}
+{% assign cr_math = site.data.structural_challenges.mathematics.items | size %}
+{% assign cr_physics = site.data.structural_challenges.physics.items | size %}
+{% assign cr_life = site.data.structural_challenges.life.items | size %}
+{% assign cr_metaphysics = site.data.structural_challenges.metaphysics.items | size %}
+{% assign cr_total = cr_math | plus: cr_physics | plus: cr_life | plus: cr_metaphysics %}
+
 ## Status disclaimer
 
 Status indicates the current internal state of the research program. A proposed answer, partial recovery, or internally addressed status does not mean external verification, scientific acceptance, or final settlement.
@@ -66,16 +78,37 @@ Status indicates the current internal state of the research program. A proposed 
 
 Progress Against Agenda tracks current program stance against public obligations and recovery targets.
 
-## Summary metrics
+## Obligation surfaces
+
+The dashboard tracks three independent v4 obligation surfaces. Counts are kept separated rather than rolled up into a single total — each surface answers a different question.
 
 <div class="v2-grid">
   <div class="v2-tile">
-    <strong>{{ total_count }} canonical public items</strong>
-    <span>{{ problems | size }} Structural Challenges (Mathematics + Physics), {{ recovery_requirements | size }} Core Semantics items, and {{ refusals | size }} Mathematical Refusals.{% if legacy_excluded_count > 0 %} {{ legacy_excluded_count }} legacy v1 raw-feed Life/Metaphysics items archived under <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>.{% endif %}</span>
+    <strong>{{ cr_total }} Challenge Responses</strong>
+    <span>Results-side projection of the canonical Structural Challenge Ledger. <a href="{{ '/results/challenge-responses/' | relative_url }}">Open Challenge Responses</a> · {{ cr_math }} mathematics · {{ cr_physics }} physics · {{ cr_life }} life · {{ cr_metaphysics }} metaphysics.</span>
   </div>
   <div class="v2-tile">
-    <strong>{{ partial_answers | size }} partially addressed problems</strong>
-    <span>Current public answer mirrors where the program has taken a visible stance without claiming final settlement.</span>
+    <strong>{{ recovery_requirements | size }} Core Semantics / Recovery items</strong>
+    <span>Language, structures, laws, grammars, and refusal boundaries the theory must earn. <a href="{{ '/agenda/core-semantics/' | relative_url }}">Open Core Semantics</a>.</span>
+  </div>
+  <div class="v2-tile">
+    <strong>{{ refusals | size }} Mathematical Refusals</strong>
+    <span>Explicit refusals where the program declines to claim settlement, with reason.</span>
+  </div>
+  <div class="v2-tile">
+    <strong>Legacy v1 raw-feed archive: {{ legacy_excluded_count }} archived</strong>
+    <span>Life + Metaphysics raw-feed imports preserved as provenance only. Not counted as canonical challenges unless promoted into the v4 Structural Challenge Ledger.</span>
+  </div>
+</div>
+
+## Per-surface progress detail
+
+The metrics below cover the dashboard data feed (agenda-progress.json), which currently surfaces {{ problems | size }} Mathematics + Physics structural challenges, {{ recovery_requirements | size }} Core Semantics / Recovery items, and {{ refusals | size }} Mathematical Refusals — {{ total_count }} canonical public records in total. Life and Metaphysics structural challenges are tracked through the [Challenge Responses lane]({{ '/results/challenge-responses/' | relative_url }}) until the dashboard data feed regenerates with the v4 schema.
+
+<div class="v2-grid">
+  <div class="v2-tile">
+    <strong>{{ partial_answers | size }} partially addressed challenges</strong>
+    <span>Current public response mirrors where the program has taken a visible stance without claiming final settlement.</span>
   </div>
   <div class="v2-tile">
     <strong>{{ partial_recovery | size }} partial recovery items</strong>
@@ -176,6 +209,16 @@ Progress Against Agenda tracks current program stance against public obligations
   <ol class="results-browse-grid" id="agenda-progress-grid">
     {% for item in progress %}
       {% assign construction_slugs = item.related_construction_steps | map: "slug" | join: "," %}
+      {%- comment -%}
+        Wave 3: surface the v4 item-kind labels even though the dashboard
+        data feed still emits the v1 "Problem Ledger item" string.
+      {%- endcomment -%}
+      {% case item.item_kind %}
+        {% when "problem" %}{% assign v4_kind_label = "Structural Challenge" %}
+        {% when "recovery_requirement" %}{% assign v4_kind_label = "Core Semantics / Recovery" %}
+        {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
+        {% else %}{% assign v4_kind_label = item.item_kind_label %}
+      {% endcase %}
       <li class="result-card agenda-progress-card"
           data-domain="{{ item.domain }}"
           data-item-kind="{{ item.item_kind }}"
@@ -186,7 +229,7 @@ Progress Against Agenda tracks current program stance against public obligations
           data-title="{{ item.title | downcase }}">
         <a class="result-card-link" href="{{ item.canonical_program_url | relative_url }}">
           <div class="result-card-top">
-            <span class="chip chip-kind">{{ item.item_kind_label }}</span>
+            <span class="chip chip-kind">{{ v4_kind_label }}</span>
             <span class="chip chip-status">{{ item.display_status_label }}</span>
           </div>
           <h3 class="result-card-title">{{ item.title }}</h3>
@@ -224,9 +267,15 @@ Progress Against Agenda tracks current program stance against public obligations
 
 <div class="v2-grid">
   {% for item in recently_updated limit: 8 %}
+    {% case item.item_kind %}
+      {% when "problem" %}{% assign v4_kind_label = "Structural Challenge" %}
+      {% when "recovery_requirement" %}{% assign v4_kind_label = "Core Semantics / Recovery" %}
+      {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
+      {% else %}{% assign v4_kind_label = item.item_kind_label %}
+    {% endcase %}
     <a class="v2-tile" href="{{ item.canonical_program_url | relative_url }}">
       <strong>{{ item.title }}</strong>
-      <span>{{ item.last_modified }} · {{ item.item_kind_label }} · {{ item.display_status_label }}</span>
+      <span>{{ item.last_modified }} · {{ v4_kind_label }} · {{ item.display_status_label }}</span>
     </a>
   {% endfor %}
 </div>
@@ -234,13 +283,19 @@ Progress Against Agenda tracks current program stance against public obligations
 ## Not yet touched
 
 {% if not_yet_touched.size > 0 %}
-<p>These public agenda obligations remain visible precisely because the Results lane has not yet published a substantive answer, recovery state, or internally addressed account for them.</p>
+<p>These public agenda obligations remain visible precisely because the Results lane has not yet published a substantive response, recovery state, or internally addressed account for them.</p>
 
 <div class="v2-grid">
   {% for item in not_yet_touched %}
+    {% case item.item_kind %}
+      {% when "problem" %}{% assign v4_kind_label = "Structural Challenge" %}
+      {% when "recovery_requirement" %}{% assign v4_kind_label = "Core Semantics / Recovery" %}
+      {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
+      {% else %}{% assign v4_kind_label = item.item_kind_label %}
+    {% endcase %}
     <a class="v2-tile" href="{{ item.canonical_program_url | relative_url }}">
       <strong>{{ item.title }}</strong>
-      <span>{{ item.display_domain }} · {{ item.item_kind_label }}</span>
+      <span>{{ item.display_domain }} · {{ v4_kind_label }}</span>
     </a>
   {% endfor %}
 </div>

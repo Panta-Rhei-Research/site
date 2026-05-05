@@ -81,7 +81,7 @@ Engagement does not begin with agreement. It begins with a useful form of attent
   </a>
   <a class="v2-tile" href="{{ '/engage/review-the-work/' | relative_url }}">
     <h3>Offer bounded review</h3>
-    <p>Review one Problem Ledger item, Core Semantics / Recovery item, result, research note, TauLib module, briefing, or page template.</p>
+    <p>Review one Structural Challenge / Challenge Response, Core Semantics / Recovery item, result, research note, TauLib module, briefing, or page template.</p>
   </a>
   <a class="v2-tile" href="https://github.com/Panta-Rhei-Research/site/issues">
     <h3>Report a defect</h3>

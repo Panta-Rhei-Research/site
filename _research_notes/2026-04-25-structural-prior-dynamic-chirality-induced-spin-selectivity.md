@@ -51,8 +51,8 @@ relations:
     - title: "CS-06 Measurement and Empirical Bridges"
       url: /corpus/construction-spine/measurement-empirical-bridges/
   results:
-    - title: "Origin of Life Problem Answer"
-      url: /results/problem-ledger-answers/life/origin-of-life/
+    - title: "Life Challenge Responses"
+      url: /results/challenge-responses/life/
   verify:
     - title: "Construction Spine Verification"
       url: /verify/construction-spine-verification/

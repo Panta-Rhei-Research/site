@@ -6,7 +6,7 @@ lane: results
 v2_lane: results
 type: "Result Index"
 status: "Canonical"
-summary_short: "Further framework results outside landmarks, Problem Ledger answers, and Recovery Target mappings."
+summary_short: "Further framework results outside landmarks, Challenge Responses, and Recovery Target mappings."
 hero_ctas:
   - label: "Browse All Results"
     url: /results/browse/
@@ -41,7 +41,7 @@ right_rail:
 
 ## What belongs here
 
-Additional Derived Results are results produced by the framework that are not direct entries in the external Problem Ledger, not simply Recovery Target mappings, and not selected as curated landmarks.
+Additional Derived Results are promoted Corpus consequences outside the canonical [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/' | relative_url }}). They are not [Challenge Responses]({{ '/results/challenge-responses/' | relative_url }}) unless explicitly linked to one, not simply Recovery Target mappings, and not selected as curated landmarks.
 
 They include domain-specific derived results, explanatory results, bridge results, supporting results, and consequences that still belong to the program's output.
 

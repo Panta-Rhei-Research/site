@@ -53,8 +53,8 @@ relations:
   results:
     - title: "Prediction Browse"
       url: /results/predictions/browse/
-    - title: "Problem Ledger Answers"
-      url: /results/problem-ledger-answers/
+    - title: "Challenge Responses"
+      url: /results/challenge-responses/
   verify:
     - title: "Predictions and Falsification"
       url: /verify/predictions-and-falsification/

@@ -18,7 +18,7 @@ challenge_url: /agenda/structural-challenge-ledger/metaphysics/mind-consciousnes
 response_id: response-M-E3-20
 response_status: partially_addressed
 response_status_label: Partially addressed
-response_summary: The framework currently carries a partial answer or partial account for this Problem Ledger item.
+response_summary: The framework currently carries a partial response or partial account for this Structural Challenge.
 response_rationale: Related Result pages carry a current partial answer route.
 registry_item_ids:
 - VI.D06
@@ -98,5 +98,5 @@ legacy_provenance:
 tags:
 - challenge-response
 - metaphysics
-summary_short: The framework currently carries a partial answer or partial account for this Problem Ledger item.
+summary_short: The framework currently carries a partial response or partial account for this Structural Challenge.
 ---

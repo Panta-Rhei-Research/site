@@ -18,7 +18,7 @@ summary_cards:
   - title: "Challenge weak links"
     body: "Use critique routes, falsification paths, source checks, and result-status challenges to identify what breaks."
   - title: "Review bounded areas"
-    body: "Offer focused review of one Problem Ledger item, Core Semantics / Recovery item, construction step, result, research note, TauLib module, briefing, or site surface."
+    body: "Offer focused review of one Structural Challenge / Challenge Response, Core Semantics / Recovery item, construction step, result, research note, TauLib module, briefing, or site surface."
 hero_ctas:
   - label: "Public Discussions"
     url: /engage/discussions/
@@ -129,7 +129,7 @@ Engagement does not require agreement. Participation does not imply endorsement.
     <article>
       <a class="v2-tile" href="{{ '/engage/review-the-work/' | relative_url }}">
         <h3>Review Bounded Areas</h3>
-        <p>Offer focused review of one Problem Ledger item, Core Semantics / Recovery item, construction step, result, research note, TauLib module, briefing, or site surface.</p>
+        <p>Offer focused review of one Structural Challenge / Challenge Response, Core Semantics / Recovery item, construction step, result, research note, TauLib module, briefing, or site surface.</p>
       </a>
     </article>
   </li>
