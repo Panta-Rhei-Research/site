@@ -11,6 +11,10 @@ og_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
 twitter_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
 og_image_alt: "Scientific plate showing the Agenda as the public obligation layer of the Panta Rhei Research Program."
 summary_cards:
+  - title: "Standing in the Inquiry of Being"
+    body: "The charter of inquiry and historical lineage that situates categorical ontology."
+  - title: "Categorical ontology"
+    body: "The field of inquiry: being through relation, transformation, context, and coherence."
   - title: "About the Program"
     body: "Identity, stewardship, current public status, and the scrutiny the program invites."
   - title: "Coherent theory of reality"
@@ -20,9 +24,13 @@ summary_cards:
   - title: "Related approaches"
     body: "Where Panta Rhei sits among serious structural, computational, geometric, relational, life, consciousness, and metaphysical programs."
 hero_ctas:
+  - label: "Standing in the Inquiry of Being"
+    url: /program/about/standing-in-the-inquiry-of-being/
+    primary: true
+  - label: "Categorical Ontology"
+    url: /program/about/categorical-ontology/
   - label: "About the Program"
     url: /program/about/
-    primary: true
   - label: "What We Mean by a Coherent Theory of Reality"
     url: /program/about/coherent-theory-of-reality/
   - label: "Why an Inspection Observatory"
@@ -35,6 +43,10 @@ hero_ctas:
     url: /program/about/red-team-faq/
 right_rail:
   related:
+    - title: "Standing in the Inquiry of Being"
+      url: /program/about/standing-in-the-inquiry-of-being/
+    - title: "Categorical Ontology"
+      url: /program/about/categorical-ontology/
     - title: "About the Program"
       url: /program/about/
     - title: "Coherent Theory of Reality"
@@ -57,7 +69,9 @@ right_rail:
 
 The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality.
 
-Program explains what kind of research object this is: who stewards it, what it is trying to build, what public status it claims, what it refuses to claim, and why its public form is an inspection observatory rather than a single persuasive essay.
+**ΙΣΤΟΡΙΑ ΤΟΥ ΟΝΤΟΣ**
+
+Program explains what kind of research object this is: the inquiry it stands in, who stewards it, what it is trying to build, what public status it claims, what it refuses to claim, and why its public form is an inspection observatory rather than a single persuasive essay.
 
 Agenda states the obligations. Corpus shows the construction. Results presents consequences. Verify makes the work inspectable. Program is the identity and doctrine layer that makes those surfaces legible.
 
@@ -77,9 +91,11 @@ Agenda states the obligations. Corpus shows the construction. Results presents c
 
 The claim is deliberately ambitious: a constrained kernel is used to build a coherent theory of reality through Agenda, Corpus, Results, and Verify. That scope is only meaningful if the program also exposes its constraints, methods, verification routes, and correction surfaces.
 
-## Doctrine routes
+## Gateway routes
 
 <ul class="v2-grid v2-card-list">
+  <li><article><a class="v2-tile" href="{{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}"><strong>Charter</strong><span>Standing in the Inquiry of Being: the lineage and inquiry posture behind categorical ontology.</span></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/program/about/categorical-ontology/' | relative_url }}"><strong>Field</strong><span>Categorical Ontology: the study of being through relation, transformation, context, and coherence.</span></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/program/about/' | relative_url }}"><strong>About the Program</strong><span>Identity, stewardship, status, scope, and public scrutiny posture.</span></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/program/about/coherent-theory-of-reality/' | relative_url }}"><strong>Coherent Theory of Reality</strong><span>What the program means by coherent, theory, and reality before its claims are read.</span></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/program/about/inspection-observatory/' | relative_url }}"><strong>Inspection Observatory</strong><span>Why public obligations, construction, results, verification, and correction routes are exposed together.</span></a></article></li>
@@ -113,6 +129,8 @@ Panta Rhei is currently:
 ## Core routes
 
 - **[About the Program]({{ '/program/about/' | relative_url }})** gives the identity, stewardship, current public status, founders' statement, and scrutiny posture of the research object.
+- **[Standing in the Inquiry of Being]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }})** explains the charter of inquiry and historical lineage through which categorical ontology becomes legible.
+- **[Categorical Ontology]({{ '/program/about/categorical-ontology/' | relative_url }})** gives the concise definition of the field in which τ-Theory is currently being developed.
 - **[Related Approaches]({{ '/program/about/related-approaches/' | relative_url }})** positions the program among serious neighboring approaches without turning comparison into a takedown or priority claim.
 - **[Agenda]({{ '/agenda/' | relative_url }})** states the burden of proof: Core Semantics, Structural Challenge Ledger, Kernel/Model/Reality, and Construction Roadmap.
 - **[Corpus]({{ '/corpus/' | relative_url }})** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.

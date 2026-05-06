@@ -18,6 +18,10 @@ summary_cards:
   body: The program is dedicated to building a coherent theory of reality under public inspection.
 right_rail:
   related:
+  - title: Standing in the Inquiry of Being
+    url: /program/about/standing-in-the-inquiry-of-being/
+  - title: Categorical Ontology
+    url: /program/about/categorical-ontology/
   - title: Why This Program Exists
     url: /program/about/why-this-program-exists/
   - title: Research Aim & Desiderata
@@ -97,6 +101,10 @@ The program asks whether one can begin from a radically constrained, inspectable
 
 This does not mean that every claim is already settled. It means that the program is organized by a definite wager: that deep explanatory power should come from **coherence, relation, and internal structure**, not from an accumulation of locally successful but globally disconnected patches.
 
+The program is also an **inquiry of being**: not a doctrine claiming completion, but a continuing attempt to build, expose, test, and formalize a coherent theory of reality while preserving the path by which its claims become inspectable.
+
+For the charter essay that situates this inquiry within the lineages of categorical ontology, see [Standing in the Inquiry of Being]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}).
+
 ## What is public now
 
 The program is already public enough to be engaged seriously. That is one of the most important facts about its current status.
@@ -140,6 +148,8 @@ All of these are legitimate forms of entry.
 
 The Program lane answers the identity and doctrine questions first:
 
+- **Standing in the Inquiry of Being** explains the charter of inquiry and historical lineage through which categorical ontology becomes legible.
+- **Categorical Ontology** defines the field of inquiry in which the program situates τ-Theory.
 - **Why This Research Program Exists** explains the dissatisfaction with fragmented world-pictures that motivates it.
 - **Scope, Status, and Scrutiny** clarifies the current epistemic status of the public release.
 - **Independence, Scope, and Scrutiny** states the founders' open-research posture and the responsibilities that follow from independent governance.

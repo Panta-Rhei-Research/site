@@ -61,6 +61,10 @@ lane_nav:
         links:
           - title: "Overview"
             url: "/program/"
+          - title: "Standing in the Inquiry of Being"
+            url: "/program/about/standing-in-the-inquiry-of-being/"
+          - title: "Categorical Ontology"
+            url: "/program/about/categorical-ontology/"
           - title: "About the Program"
             url: "/program/about/"
           - title: "Why This Program Exists"

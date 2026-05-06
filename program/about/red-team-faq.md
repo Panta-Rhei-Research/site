@@ -8,6 +8,10 @@ section: about-the-program
 summary_short: "Ten skeptical questions a serious first-pass reviewer should ask first, each answered honestly with pointers to the load-bearing evidence. Synthesized from three independent frontier-LLM first-pass assessments."
 right_rail:
   related:
+  - title: Standing in the Inquiry of Being
+    url: /program/about/standing-in-the-inquiry-of-being/
+  - title: Categorical Ontology
+    url: /program/about/categorical-ontology/
   - title: Scope, Status & Scrutiny
     url: /program/about/scope-status-and-scrutiny/
   - title: Independence, Scope & Scrutiny
@@ -32,6 +36,8 @@ The assessment workflow itself is inspectable through [Assessment Protocols]({{ 
 For current claim counts and status distribution, see the [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) and [Results catalogue]({{ '/results/' | relative_url }}). This FAQ answers the structural risk, not mutable count totals.
 
 The accountability posture behind this FAQ is stated in [Independence, Scope, and Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}): independence increases the duty to expose evidence, status, and failure surfaces.
+
+For the philosophical lineage and inquiry posture behind the program, see [Standing in the Inquiry of Being]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}). This FAQ remains the first-pass objection surface; the charter is not a substitute for verification.
 
 ## 1. Is ι<sub>τ</sub> = 2/(π+e) forced or fitted? {#is-iota-tau-fitted-or-forced}
 

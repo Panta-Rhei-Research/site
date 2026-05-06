@@ -29,6 +29,10 @@ hero_ctas:
     url: /program/about/related-approaches/
 right_rail:
   related:
+    - title: "Standing in the Inquiry of Being"
+      url: /program/about/standing-in-the-inquiry-of-being/
+    - title: "Categorical Ontology"
+      url: /program/about/categorical-ontology/
     - title: "Program"
       url: /program/
     - title: "Coherent Theory of Reality"
@@ -64,6 +68,8 @@ right_rail:
 Because Panta Rhei is independent, open, and high-scope, its first public obligation is inspection before belief.
 
 The website is therefore built as a public research observatory. It does not ask a reader to encounter an isolated claim and decide whether to trust it. It exposes the surrounding system: the obligation being answered, the construction that supports the answer, the result status, the verification route, the publication artifact, and the available engagement path.
+
+The charter explains why the program remains inquiry rather than doctrine; the observatory explains how that posture becomes operational. If [Standing in the Inquiry of Being]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}) names the program's orientation, the Inspection Observatory names the public architecture by which that orientation remains accountable.
 
 ## What the observatory exposes
 
