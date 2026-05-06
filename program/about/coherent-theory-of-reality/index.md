@@ -29,6 +29,10 @@ hero_ctas:
     url: /program/about/related-approaches/
 right_rail:
   related:
+    - title: "Standing in the Inquiry of Being"
+      url: /program/about/standing-in-the-inquiry-of-being/
+    - title: "Categorical Ontology"
+      url: /program/about/categorical-ontology/
     - title: "Program"
       url: /program/
     - title: "About the Program"
@@ -54,6 +58,8 @@ right_rail:
 The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality.
 
 This sentence is not a slogan added after the work. It defines how the public site should be read.
+
+For the historical and philosophical orientation behind this phrase, see [Standing in the Inquiry of Being: Lineages of Categorical Ontology]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}). That essay explains why “coherent theory of reality” names an inquiry into formal, dynamic, intelligible, and relationally articulated being rather than a “theory of everything” headline.
 
 ## Coherent
 

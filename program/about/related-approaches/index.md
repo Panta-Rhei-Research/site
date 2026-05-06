@@ -30,6 +30,8 @@ hero_ctas:
   - label: "Start with Wolfram"
     url: /program/about/related-approaches/wolfram-ruliad/
     primary: true
+  - label: "Historical Lineage"
+    url: /program/about/standing-in-the-inquiry-of-being/
   - label: "Coherent Theory"
     url: /program/about/coherent-theory-of-reality/
   - label: "Kernel, Model & Reality"
@@ -38,6 +40,10 @@ hero_ctas:
     url: /publications/white-papers/the-shape-of-a-theory-of-reality/
 right_rail:
   related:
+    - title: "Standing in the Inquiry of Being"
+      url: /program/about/standing-in-the-inquiry-of-being/
+    - title: "Categorical Ontology"
+      url: /program/about/categorical-ontology/
     - title: "Wolfram Ruliad"
       url: /program/about/related-approaches/wolfram-ruliad/
     - title: "Penrose Twistor Theory"
@@ -63,6 +69,10 @@ Panta Rhei is not built in isolation. It belongs near several serious traditions
 This page explains what Panta Rhei shares with related approaches, where it differs, and which construction burden it takes on instead. It is not a declaration that neighboring programs should be read only through Panta Rhei.
 
 This page is not an exhaustive literature survey. It is an evolving comparison surface for approaches most useful in understanding Panta Rhei's own burden.
+
+## Historical lineage vs. related approaches
+
+The historical lineage described in [Standing in the Inquiry of Being]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}) names the structural questions through which categorical ontology becomes legible. This page has a different role: it maps contemporary neighboring programs and asks where each places the semantic, construction, and verification burden.
 
 ## The comparison standard
 
