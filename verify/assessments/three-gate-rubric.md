@@ -57,7 +57,7 @@ Gate 1 asks whether the work looks like a serious research artifact that has ear
 
 ## Gate 2 --- Novelty and Relevance
 
-Gate 2 asks whether the claims, if they survived scrutiny, would constitute a genuine contribution. It evaluates novelty signals without adjudicating priority or correctness.
+Gate 2 asks whether the claims, if they remained supported after scrutiny, would constitute a genuine contribution. It evaluates novelty signals without adjudicating priority or correctness.
 
 | ID | Criterion | What It Evaluates |
 |:---|:----------|:------------------|

@@ -107,7 +107,7 @@ For each scenario, identify:
 - likely reusable assets
 - likely residual contribution
 
-### 5. Red-team attack surface
+### 5. Red-team review surface
 List:
 - the 5 strongest attack vectors
 - the most load-bearing break points

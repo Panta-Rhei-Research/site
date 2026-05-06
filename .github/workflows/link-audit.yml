@@ -52,6 +52,7 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+          PANTA_RHEI_GENERATE_OG_CARDS: "0"
 
       - name: Build Pagefind index
         run: npm run pagefind

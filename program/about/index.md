@@ -36,6 +36,8 @@ right_rail:
     url: /program/about/coherent-theory-of-reality/
   - title: Inspection Observatory
     url: /program/about/inspection-observatory/
+  - title: Why This Work Matters
+    url: /program/why-this-work-matters/
   - title: Related Approaches
     url: /program/about/related-approaches/
   - title: Open Research White Paper
@@ -104,6 +106,8 @@ This does not mean that every claim is already settled. It means that the progra
 The program is also an **inquiry of being**: not a doctrine claiming completion, but a continuing attempt to build, expose, test, and formalize a coherent theory of reality while preserving the path by which its claims become inspectable.
 
 For the charter essay that situates this inquiry within the lineages of categorical ontology, see [Standing in the Inquiry of Being]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}).
+
+For the public-relevance bridge between personal commitment, inspectability, and conditional impact, see [Why This Work Matters]({{ '/program/why-this-work-matters/' | relative_url }}).
 
 ## What is public now
 

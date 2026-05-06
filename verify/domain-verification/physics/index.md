@@ -117,7 +117,7 @@ Physics verification is not established by formal derivation alone. A physics-fa
 - **Measurement interpretation** — what is the bridge from τ-construct to physical observable?
 - **Numerical prediction** — what specific value follows from ι_τ + m_n?
 - **Empirical comparison** — does the predicted value match published measurement?
-- **External scientific review** — has the derivation chain survived independent specialist scrutiny?
+- **External scientific review** — does the derivation chain remain supported after independent specialist scrutiny?
 
 The Numerical Physics Ledger is the artifact layer; Predictions & Falsification is the accountability layer; Results is the interpretation layer. None implies external acceptance on its own.
 

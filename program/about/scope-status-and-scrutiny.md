@@ -104,8 +104,8 @@ At the same time, several things remain open:
 - whether the strongest mathematical derivations hold
 - whether the strongest bridge claims are fully justified
 - whether the physical mappings are valid in the strongest sense claimed
-- whether novelty and prior-art positioning survive expert comparison at scale
-- whether the Core Semantics survive expert comparison at scale
+- whether novelty and prior-art positioning remain supported after expert comparison at scale
+- whether the Core Semantics remain supported after expert comparison at scale
 - how long the social uptake will take, and in what form
 
 These are not embarrassments. They are part of the status of a living research program placed into public contact.

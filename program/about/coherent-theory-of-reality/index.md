@@ -27,6 +27,8 @@ hero_ctas:
     url: /agenda/kernel-model-reality/
   - label: "Related Approaches"
     url: /program/about/related-approaches/
+  - label: "Why This Work Matters"
+    url: /program/why-this-work-matters/
 right_rail:
   related:
     - title: "Standing in the Inquiry of Being"
@@ -39,6 +41,8 @@ right_rail:
       url: /program/about/
     - title: "Inspection Observatory"
       url: /program/about/inspection-observatory/
+    - title: "Why This Work Matters"
+      url: /program/why-this-work-matters/
     - title: "Inspection Architecture White Paper"
       url: /publications/white-papers/inspection-architecture-high-scope-open-research/
     - title: "Theory of Reality White Paper"
@@ -79,7 +83,7 @@ That is why the site separates Agenda, Corpus, Results, and Verify. The Agenda s
 
 Reality names the full domain of the program's ambition: mathematics, physics, life, mind, and metaphysics.
 
-The program does not treat this ambition as already earned. It treats it as a burden. A claim about reality must survive the obligations named in the Agenda, the construction discipline of the Corpus, the status grammar of Results, and the inspection routes of Verify.
+The program does not treat this ambition as already earned. It treats it as a burden. A claim about reality must remain supported through the obligations named in the Agenda, the construction discipline of the Corpus, the status grammar of Results, and the inspection routes of Verify.
 
 ## Core Semantics
 
@@ -104,6 +108,8 @@ Read the full doctrine in the white paper [The Shape of a Theory of Reality]({{ 
 For the open-research press package that translates this doctrine into an inspection standard, see [Inspection Architecture for High-Scope Open Research]({{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }}).
 
 The short distinction is: Panta Rhei is not using “theory of everything” as its public category. It uses “coherent theory of reality” to name a stricter burden: earn the language, earn the questions, build the answers, disclose limits, and make the public claim structure inspectable.
+
+For the public-relevance bridge from this burden to conditional Impact, see [Why This Work Matters]({{ '/program/why-this-work-matters/' | relative_url }}).
 
 For comparison with serious neighboring approaches, see [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}). It explains how Panta Rhei shares pressures with structural, computational, geometric, life, consciousness, and metaphysical programs while placing the construction burden differently.
 

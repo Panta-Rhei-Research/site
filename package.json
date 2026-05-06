@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "bundle exec jekyll build --baseurl \"\"",
+    "build:social-previews": "PANTA_RHEI_GENERATE_OG_CARDS=1 PANTA_RHEI_OG_CARD_MODE=png bundle exec jekyll build --baseurl \"\"",
     "pagefind": "pagefind --site _site --output-subdir pagefind",
     "headers:test": "node test/site-edge-headers.test.mjs",
     "headers:dry-run": "wrangler deploy --dry-run",

@@ -5,10 +5,10 @@ permalink: "/impact/impact-framework/"
 lane: "impact"
 type: "Impact Framework"
 status: "Conditional"
-summary_short: "The shared logic by which surviving Results become conditional consequences."
+summary_short: "The shared logic by which supported Results become conditional consequences."
 og_image: "/assets/images/plates/plate-08-conditional-impact-strata-og.jpg"
 twitter_image: "/assets/images/plates/plate-08-conditional-impact-strata-og.jpg"
-og_image_alt: "Scientific plate showing the Impact Framework as a conditional chain from Result through verification survival, translation, domain uptake, and consequence."
+og_image_alt: "Scientific plate showing the Impact Framework as a conditional chain from Result through Verification & Review, Translation Layer, Domain Uptake, and Consequence."
 right_rail:
   related:
     -
@@ -27,6 +27,9 @@ right_rail:
       title: "The Shape of a Theory of Reality"
       url: "/publications/white-papers/the-shape-of-a-theory-of-reality/"
     -
+      title: "Why This Work Matters"
+      url: "/program/why-this-work-matters/"
+    -
       title: "Building a Public Research Observatory"
       url: "/publications/white-papers/building-a-public-research-observatory/"
   meta:
@@ -43,11 +46,11 @@ A result does not automatically produce impact. A status-marked Result is only t
 <div class="v2-system-row" aria-label="Impact framework pipeline">
   <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Result</strong>Named claim, status, or problem response.</a>
   <span class="v2-system-arrow">→</span>
-  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification survival</strong>Formal, empirical, bridge, and review pressure.</a>
+  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification & Review</strong>Formal, empirical, bridge, and expert review status.</a>
   <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Translation layer</strong>Domain-specific assumptions and model choices.</span>
+  <span class="v2-system-node"><strong>Translation Layer</strong>Domain-specific assumptions and model choices.</span>
   <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Domain uptake</strong>Institutions, tools, data, governance, and practice.</span>
+  <span class="v2-system-node"><strong>Domain Uptake</strong>Institutions, tools, data, governance, and practice.</span>
   <span class="v2-system-arrow">→</span>
   <span class="v2-system-node"><strong>Consequence</strong>What could change if the chain holds.</span>
 </div>
@@ -56,11 +59,11 @@ A result does not automatically produce impact. A status-marked Result is only t
 
 The Impact Framework governs more than downstream consequences. It also defines how the program justifies public relevance without claiming adoption or delivery.
 
-The lane asks why the program's scope could matter if Results survive verification, translation, domain uptake, and real-world constraints.
+The lane asks why the program's scope could matter if Results remain supported through verification, translation, domain uptake, and real-world constraints.
 
 ## The impact chain
 
-{% capture impact_framework_plate_caption %}The Impact Framework reads every consequence through the same chain: Result → Verification Survival → Translation Layer → Domain Uptake → Consequence.{% endcapture %}
+{% capture impact_framework_plate_caption %}The Impact Framework reads every consequence through the same chain: Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.{% endcapture %}
 {% include scientific-plate.html id="plate-08-conditional-impact-strata" variant="thumb" class="scientific-plate--compact" caption=impact_framework_plate_caption loading="lazy" %}
 
 The chain is deliberately conditional. A consequence becomes meaningful only when the relevant Result, verification route, translation layer, and domain uptake assumptions remain inspectable.
@@ -77,7 +80,7 @@ The chain is deliberately conditional. A consequence becomes meaningful only whe
 
 Impact requires translation.
 
-A surviving framework result is not yet an applied consequence. Translation requires domain-specific data, independent expert review, model-building, implementation partners where relevant, comparison against existing methods, and explicit limits.
+A supported framework result is not yet an applied consequence. Translation requires domain-specific data, independent expert review, model-building, implementation partners where relevant, comparison against existing methods, and explicit limits.
 
 ## What this page governs
 

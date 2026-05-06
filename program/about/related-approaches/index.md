@@ -25,7 +25,7 @@ summary_cards:
   - title: "Comparison standard"
     body: "Every comparison asks what the approach tries to solve, what Panta Rhei shares, where the burden differs, and where to inspect next."
   - title: "Claim discipline"
-    body: "This is not a priority claim, literature survey, or takedown of other theories."
+    body: "This is not a priority claim, literature survey, or dismissal of other theories."
 hero_ctas:
   - label: "Start with Wolfram"
     url: /program/about/related-approaches/wolfram-ruliad/
@@ -64,7 +64,7 @@ right_rail:
 
 Panta Rhei is not built in isolation. It belongs near several serious traditions in mathematics, physics, foundations, computation, life theory, consciousness studies, and metaphysics.
 
-**Related Approaches is a positioning map, not a takedown, literature survey, or priority claim.**
+**Related Approaches is a positioning map, not a dismissal, literature survey, or priority claim.**
 
 This page explains what Panta Rhei shares with related approaches, where it differs, and which construction burden it takes on instead. It is not a declaration that neighboring programs should be read only through Panta Rhei.
 

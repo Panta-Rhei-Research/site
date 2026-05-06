@@ -518,7 +518,7 @@ The appropriate governance model is an open, publicly documented τ physics inte
 
 ### 12.4 Cybersecurity as a first-order constraint
 
-The more thoroughly the distribution grid becomes orchestrated — with millions of devices responding to centralized or semi-centralized dispatch signals — the larger the attack surface for adversarial interference with critical infrastructure. A coordinated manipulation of DER dispatch signals across a large distribution territory could create dangerous voltage and frequency excursions, equipment overloads, or targeted outages of critical facilities.
+The more thoroughly the distribution grid becomes orchestrated — with millions of devices responding to centralized or semi-centralized dispatch signals — the larger the security exposure to adversarial interference with critical infrastructure. A coordinated manipulation of DER dispatch signals across a large distribution territory could create dangerous voltage and frequency excursions, equipment overloads, or targeted outages of critical facilities.
 
 Cybersecurity for τ-based DER orchestration systems must be designed at the same level of rigor as the physics models, with authenticated signal chains, anomaly detection, cryptographic device attestation, and the ability to detect and isolate compromised dispatch signals before they propagate to physical effects. This is a non-negotiable prerequisite for regulatory approval and public trust.
 

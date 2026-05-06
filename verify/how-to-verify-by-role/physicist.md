@@ -6,7 +6,7 @@ lane: verify
 v2_lane: verify
 type: "Inspection Route"
 status: "Canonical"
-summary_short: "For specialists in particle physics, cosmology, quantum foundations, or general relativity. The Numerical Physics Ledger and the Falsification Pack are the empirical track; the load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether the predictions are a priori or post-dictions, and whether the derivation chains survive independent checking."
+summary_short: "For specialists in particle physics, cosmology, quantum foundations, or general relativity. The Numerical Physics Ledger and the Falsification Pack are the empirical track; the load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether the predictions are a priori or post-dictions, and whether the derivation chains remain supported after independent checking."
 plain_language_summary: "If you do physics professionally, the framework's most exposed claim is this: every numerical SI value in the Standard Model and cosmology comes out as an ι_τ-chain expression times an m_n-anchored dimensional factor. There are 67 such derivations on offer, with sub-ppm precision in the flagship cases. Your two load-bearing questions are: (1) is ι_τ ≈ 0.341304 a fitted parameter or a forced consequence? and (2) are the predictions genuinely a priori, or after-the-fact post-dictions? The page below tells you exactly where to look in TauLib for the derivations, where the published prediction timing and falsification timeline is, and what would settle each question for you."
 right_rail:
   related:
@@ -108,10 +108,10 @@ Your audit is **positive** if:
 
 - The electron mass derivation is closed-form in ι<sub>τ</sub> and agrees to 0.025 ppm without adjustable parameters.
 - The Falsification Pack entries are concretely testable on their stated timelines with fair σ thresholds.
-- The categorization in the Prediction Timing Ledger survives your domain-specific reading (~50 / ~10 / ~7 is roughly right).
+- The categorization in the Prediction Timing Ledger remains supported after your domain-specific reading (~50 / ~10 / ~7 is roughly right).
 - The framework's treatment of at least one observation in your specialty is technically defensible, even if you disagree with the framing.
 
-A positive physics audit means the framework has earned its empirical-track review-readiness; it does not mean the predictions will survive future measurement. That is precisely what the Falsification Pack is designed to settle.
+A positive physics audit means the framework has earned its empirical-track review-readiness; it does not mean the predictions will remain supported after future measurement. That is precisely what the Falsification Pack is designed to settle.
 
 ## What to escalate
 

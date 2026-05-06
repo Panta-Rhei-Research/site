@@ -18,4 +18,4 @@ right_rail:
 
 ## Portfolio Focus
 
-Climate concerns causal-chain Earth-system intelligence, carbon-cycle and methane action, adaptation sequencing, cryosphere and tipping-risk planning, and policy-finance coordination. Its central opportunity is a stronger climate decision substrate, if the relevant physics and modeling claims survive scrutiny.
+Climate concerns causal-chain Earth-system intelligence, carbon-cycle and methane action, adaptation sequencing, cryosphere and tipping-risk planning, and policy-finance coordination. Its central opportunity is a stronger climate decision substrate, if the relevant physics and modeling claims remain supported after review.

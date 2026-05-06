@@ -31,7 +31,7 @@ right_rail:
 
 Read this page through the Impact chain:
 
-Result → Verification survival → Translation layer → Domain uptake → Consequence.
+Result → Verification & Review → Translation layer → Domain uptake → Consequence.
 
 If any upstream link weakens, the impact claim weakens with it.
 
@@ -274,7 +274,7 @@ The life and reflective layers must be recovered.
 
 The metaphysical layer must remain coherent.
 
-The relevant Results must survive scrutiny.
+The relevant Results must remain supported after scrutiny.
 
 The Verify surfaces must expose what is formalized, what is bridged, what is empirical, and what remains open.
 

@@ -426,7 +426,7 @@ For each:
 3. Where Panta Rhei places the semantic or construction burden differently.
 4. Which Panta Rhei page to inspect next.
 
-Do not write a takedown. Do not claim Panta Rhei supersedes these approaches. Focus on positioning and burden placement.
+Do not write a dismissal. Do not claim Panta Rhei supersedes these approaches. Focus on positioning and burden placement.
 ```
 
 **Next route.** [Program]({{ '/program/' | relative_url }}) → [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}).

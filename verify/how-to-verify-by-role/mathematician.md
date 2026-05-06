@@ -116,7 +116,7 @@ Across all three clusters, the following specialist-level audits are high-signal
 
 If a cluster audit returns specific technical objections (e.g., "the rigidity argument in I.T has a gap at step 4 because..."), this is exactly the kind of feedback the program can act on. [Contact]({{ '/engage/contact/' | relative_url }}) with concrete line references.
 
-If the audit is positive — all three clusters survive specialist scrutiny — the next routes are:
+If the audit is positive — all three clusters remain supported after specialist scrutiny — the next routes are:
 - For physical interpretation of the mathematics: [Physicist route]({{ '/verify/how-to-verify-by-role/physicist/' | relative_url }})
 - For prior-art overlap assessment: [Prior-Art Specialist route]({{ '/verify/how-to-verify-by-role/prior-art-specialist/' | relative_url }})
 

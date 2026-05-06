@@ -640,7 +640,7 @@ When demand becomes a grid resource, the associated value — bill savings, DR p
 
 ### 12.3 Cybersecurity and Interoperability
 
-DOE's EV smart-charge guidance already emphasizes open protocols and secure data pathways.[^15] Any τ deployment at scale involving millions of enrolled devices — thermostats, EV chargers, industrial controls, water infrastructure — requires strong interoperability standards and cybersecurity architecture. The physical-twin model that makes τ valuable also creates a high-value attack surface if not protected rigorously. The NERC CIP standards and NIST Cybersecurity Framework provide the relevant baseline.
+DOE's EV smart-charge guidance already emphasizes open protocols and secure data pathways.[^15] Any τ deployment at scale involving millions of enrolled devices — thermostats, EV chargers, industrial controls, water infrastructure — requires strong interoperability standards and cybersecurity architecture. The physical-twin model that makes τ valuable also creates a high-value security exposure if not protected rigorously. The NERC CIP standards and NIST Cybersecurity Framework provide the relevant baseline.
 
 ### 12.4 Avoiding Rebound and Hidden Degradation
 

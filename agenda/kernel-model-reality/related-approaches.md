@@ -53,7 +53,7 @@ Panta Rhei is not the only program trying to reduce hidden background assumption
 
 The Program-side [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}) hub gives the broader positioning map. This Agenda page is narrower: it asks how related approaches handle the no-externalities burden inside Kernel, Model & Reality.
 
-This page does not turn comparison into a takedown. It asks how each approach handles hidden scaffolding, substrate, semantics, bridge principles, and ontic-status pressure.
+This page does not turn comparison into a dismissal. It asks how each approach handles hidden scaffolding, substrate, semantics, bridge principles, and ontic-status pressure.
 
 ## Comparison standard
 

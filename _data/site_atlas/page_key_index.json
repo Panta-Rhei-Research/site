@@ -2051,7 +2051,8 @@
     "browse_role": "canonical",
     "canonical_role": "lane_landing",
     "children": [
-      "program.about"
+      "program.about",
+      "program.why_this_work_matters"
     ],
     "ia_path": "02-00",
     "lane": "program",
@@ -2166,6 +2167,23 @@
     "source": "program/about/why-this-program-exists.md",
     "status": "canonical",
     "title": "Why This Research Program Exists"
+  },
+  "program.why_this_work_matters": {
+    "atlas_id": "0000d2",
+    "browse_role": "canonical",
+    "canonical_role": "program_impact_bridge",
+    "children": [],
+    "ia_path": "02-02",
+    "lane": "program",
+    "layout": "program-doc",
+    "level": 2,
+    "page_class": "canonical",
+    "page_key": "program.why_this_work_matters",
+    "parent_key": "program.index",
+    "route": "/program/why-this-work-matters/",
+    "source": "program/why-this-work-matters/index.md",
+    "status": "canonical",
+    "title": "Why This Work Matters"
   },
   "publications.bibliography": {
     "atlas_id": "000084",

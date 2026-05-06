@@ -42,6 +42,8 @@ primary_lanes:
         url: "/program/about/"
       - title: "Why This Program Exists"
         url: "/program/about/why-this-program-exists/"
+      - title: "Why This Work Matters"
+        url: "/program/why-this-work-matters/"
       - title: "Scope, Status & Scrutiny"
         url: "/program/about/scope-status-and-scrutiny/"
       - title: "Independence, Scope & Scrutiny"
@@ -255,7 +257,7 @@ primary_lanes:
 
   - title: "Impact"
     role: "Conditional Relevance"
-    description: "Conditional relevance if the work survives inspection and domain translation."
+    description: "Conditional relevance if the work remains supported through review and domain translation."
     root_label: "Open Impact"
     root_url: "/impact/"
     links:

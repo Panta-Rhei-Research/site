@@ -33,7 +33,7 @@ Each route is designed around three principles:
 
 1. **Concrete first actions** — a specific URL to open, a specific command to run, a specific theorem ID to trace. Not "explore the framework" but "open X, run Y, check Z."
 2. **Fail-fast checks** — the fastest path to discovering the most likely structural weakness in your domain. Not the most charitable path; the most *efficient* disconfirmation path.
-3. **Load-bearing pointers** — each route names the load-bearing evidence that must hold for the claim in that domain to survive, and where specifically to find it.
+3. **Load-bearing pointers** — each route names the load-bearing evidence that must hold for the claim in that domain to remain supported, and where specifically to find it.
 
 These pages do not argue that the framework is correct. They argue that if you want to form a defensible opinion, here is the shortest route to the relevant evidence.
 
@@ -49,7 +49,7 @@ If you work in category theory, model theory, analytic number theory, operator t
 
 ### [Physicist]({{ '/verify/how-to-verify-by-role/physicist/' | relative_url }})
 
-If you work in particle physics, cosmology, quantum foundations, or general relativity, the empirical track of the framework lives in the {% include release-metric.html id="predictions.records" %}-prediction Numerical Physics Ledger and in the {% include release-metric.html id="falsifications.records" %}-item Falsification Pack. The load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether the predictions are a priori or post-dictions, and whether the single-constant derivation chains survive independent checking.
+If you work in particle physics, cosmology, quantum foundations, or general relativity, the empirical track of the framework lives in the {% include release-metric.html id="predictions.records" %}-prediction Numerical Physics Ledger and in the {% include release-metric.html id="falsifications.records" %}-item Falsification Pack. The load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether the predictions are a priori or post-dictions, and whether the single-constant derivation chains remain supported after independent checking.
 
 ### [Philosopher (of science, mind, or metaphysics)]({{ '/verify/how-to-verify-by-role/philosopher/' | relative_url }})
 

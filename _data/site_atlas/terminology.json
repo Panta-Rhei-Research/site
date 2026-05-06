@@ -102,5 +102,57 @@
   "manifest_type": "site-atlas-terminology",
   "schema_version": "0.1.0",
   "status": "draft",
+  "terminology_doctrines": {
+    "impact_validation_language": {
+      "allowed_contexts": {
+        "archive": {
+          "allowed": true,
+          "note": "Allowed in archive, changelog, migration, and source-quote contexts."
+        },
+        "falsification": {
+          "allowed": true,
+          "note": "Allowed for empirical prediction/falsification pages where the term is technically precise."
+        },
+        "red_team": {
+          "allowed": true,
+          "note": "Allowed on dedicated red-team or skeptical-review pages; avoid as default public Impact language."
+        },
+        "survival_analysis": {
+          "allowed": true,
+          "note": "Allowed if referring to biological, operational, or statistical survival rather than epistemic validation."
+        },
+        "technical_security": {
+          "allowed": true,
+          "note": "Allowed only for literal cybersecurity attack-surface analysis; prefer security exposure on public-facing narrative pages."
+        }
+      },
+      "discouraged_terms": [
+        "survive scrutiny",
+        "survives scrutiny",
+        "survival under scrutiny",
+        "survive inspection",
+        "survives inspection",
+        "survive verification",
+        "survival under pressure",
+        "Verification survival",
+        "kill the theory",
+        "fatal blow",
+        "attack surface",
+        "take down",
+        "takedown"
+      ],
+      "doctrine": "Panta Rhei invites review so that claims can be clarified, corrected, strengthened, narrowed, translated, or retired where necessary. Avoid survival, kill, takedown, and attack-surface semantics in public Program, Impact, Media, and Public-Good pages unless the term is literal domain language or appears in an approved technical context.\n",
+      "preferred_terms": [
+        "remains supported after review",
+        "clarified through review",
+        "corrected through review",
+        "narrowed through review",
+        "strengthened through review",
+        "retired where unsupported",
+        "Verification & Review",
+        "accountable passage through review, correction, translation, and uptake"
+      ]
+    }
+  },
   "version": "2026-05-v4"
 }

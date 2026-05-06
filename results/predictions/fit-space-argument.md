@@ -141,7 +141,7 @@ A formal adversarial fit-space analysis requires:
 3. **Define the search procedure under the null.** Specify exactly how a random-enumeration process would generate candidates and match them to targets, including any dimensional / scale-setting heuristics that would be applied.
 4. **Compute the exact expected-hit distribution.** Monte-Carlo the enumeration against the target list with the null procedure and derive the full distribution of expected sub-10-ppm hits.
 5. **Compare observed to expected.** Compute the p-value of 15 observed sub-10-ppm hits under the null.
-6. **Adversarial choice of free parameters.** Allow the null-hypothesis advocate to choose the fit-space specification and target list in the way that maximizes the null's apparent plausibility. The framework's rebuttal must survive the adversarial choice.
+6. **Adversarial choice of free parameters.** Allow the null-hypothesis advocate to choose the fit-space specification and target list in the way that maximizes the null's apparent plausibility. The framework's rebuttal must remain supported after the adversarial choice.
 
 This is a statistics PhD thesis worth of work, not a first-pass dossier item. The framework welcomes and publicly commits to cooperation with any specialist who wants to run this analysis.
 
