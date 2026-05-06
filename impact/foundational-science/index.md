@@ -5,7 +5,7 @@ lane: "impact"
 permalink: "/impact/foundational-science/"
 type: "Impact Stratum"
 status: "Conditional"
-summary_short: "How foundational science could change if the construction survives scrutiny."
+summary_short: "How foundational science could change if the construction remains supported after review."
 og_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg
 twitter_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg
 og_image_alt: "Scientific plate comparing reduction, self-enrichment, and dualism, with self-enrichment shown as generated structure without a second world."
@@ -34,7 +34,7 @@ right_rail:
 
 Read this page through the Impact chain:
 
-Result → Verification survival → Translation layer → Domain uptake → Consequence.
+Result → Verification & Review → Translation layer → Domain uptake → Consequence.
 
 If any upstream link weakens, the impact claim weakens with it.
 
@@ -48,7 +48,7 @@ This is not a claim that the framework has already been accepted by those discip
 
 The question is narrower and more precise:
 
-> If the kernel survives formal, mathematical, physical, biological, and philosophical scrutiny, what would its existence imply for the foundations of science?
+> If the kernel remains supported after formal, mathematical, physical, biological, and philosophical review, what would its existence imply for the foundations of science?
 
 <p class="eyebrow">Self-Enrichment, Not Reduction</p>
 
@@ -62,7 +62,7 @@ The first impact of a foundational theory is not practical deployment. It is not
 
 The first impact is on the grammar of explanation.
 
-A surviving kernel would change what counts as a foundational answer. It would not merely add another model inside existing scientific language. It would provide a candidate explanation for why the languages of mathematics, physics, life, and reflective intelligibility can be coordinated at all.
+A supported kernel would change what counts as a foundational answer. It would not merely add another model inside existing scientific language. It would provide a candidate explanation for why the languages of mathematics, physics, life, and reflective intelligibility can be coordinated at all.
 
 That is why Foundational Science sits closest to the core of the Impact lane. Every wider impact stratum depends on it.
 
@@ -314,7 +314,7 @@ For life, that means biological plausibility, structural adequacy, and domain ex
 
 For metaphysics, that means conceptual precision, non-circularity, and answer-shape discipline.
 
-The impact is large only if the framework survives the checks appropriate to each domain.
+The impact is large only if the framework remains supported after the checks appropriate to each domain.
 
 Until then, Foundational Science remains an impact hypothesis, not a settled transformation.
 ---

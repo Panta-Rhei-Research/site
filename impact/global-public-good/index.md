@@ -23,6 +23,9 @@ right_rail:
     -
       title: "Verify"
       url: "/verify/"
+    -
+      title: "Why This Work Matters"
+      url: "/program/why-this-work-matters/"
   meta:
     type: "Impact Section"
     scope: "Conditional public-good portfolios"
@@ -30,13 +33,13 @@ right_rail:
     updated: "May 2026"
 ---
 
-Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): scenario maps require upstream Results, verification survival, translation assumptions, domain uptake, and real-world constraints.
+Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): scenario maps require upstream Results, verification and review status, translation assumptions, domain uptake, and real-world constraints.
 
 ## What This Section Does
 
 Global Public Good gathers conditional public-good portfolios.
 
-These are not deployment claims. They are scenario maps: if the relevant Results hold, if they survive Verify, if they can be translated into domain-specific models, and if institutions can use them responsibly, what public-good pathways become worth investigating?
+These are not deployment claims. They are scenario maps: if the relevant Results remain supported through Verify and review, if they can be translated into domain-specific models, and if institutions can use them responsibly, what public-good pathways become worth investigating?
 
 This stratum is the outermost Impact layer. It does not make the construction true. It does not make an application ready. It identifies where verified results could matter for planetary systems and public-good domains.
 
@@ -44,7 +47,7 @@ The Public-Good Briefings are publication artifacts. They are conditional scenar
 
 ## Global Public Good inside the impact strata
 
-{% capture global_public_good_plate_caption %}Global Public Good is the outermost Impact stratum: conditional public-good portfolios become meaningful only after upstream Results, verification, translation, and uptake conditions survive.{% endcapture %}
+{% capture global_public_good_plate_caption %}Global Public Good is the outermost Impact stratum: conditional public-good portfolios become meaningful only after upstream Results, verification, translation, and uptake conditions are met. Updated chain: Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.{% endcapture %}
 {% include scientific-plate.html id="plate-08-conditional-impact-strata" variant="thumb" class="scientific-plate--compact" caption=global_public_good_plate_caption loading="lazy" %}
 
 Global Public Good is the outermost Impact stratum. Its portfolios are conditional scenario maps, not deployment claims.
@@ -62,7 +65,7 @@ Global Public Good is the outermost Impact stratum. Its portfolios are condition
 
 ## Deployment-status note
 
-No portfolio on this page claims real-world adoption, policy implementation, external validation, or operational readiness. Every portfolio remains a scenario map until upstream Results survive verification, translation assumptions are tested, and domain uptake is possible.
+No portfolio on this page claims real-world adoption, policy implementation, external validation, or operational readiness. Every portfolio remains a scenario map until upstream Results remain supported after verification, translation assumptions are tested, and domain uptake is possible.
 
 ## Relation to Public-Good Briefings
 
@@ -70,7 +73,7 @@ The portfolio pages organize public-good domains. [Public-Good Briefings]({{ '/p
 
 ## Reading discipline
 
-Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): Result → Verification survival → Translation layer → Domain uptake → Consequence.
+Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.
 
 If any upstream link weakens, the public-good claim weakens with it.
 
@@ -80,7 +83,7 @@ This page does not claim adoption, deployment, policy implementation, external v
 
 ## Boundary condition
 
-Public-good consequence remains conditional until upstream Results hold, verification surfaces survive scrutiny, translation assumptions are tested, domain review is possible, and domain uptake can actually occur.
+Public-good consequence remains conditional until upstream Results remain supported, verification surfaces are reviewed, translation assumptions are tested, domain review is possible, and domain uptake can actually occur.
 
 ## Portfolio Index
 

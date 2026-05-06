@@ -21,6 +21,8 @@ summary_cards:
     body: "What the program means by coherent, theory, and reality before presenting answer surfaces."
   - title: "Inspection observatory"
     body: "Why an independent, high-scope research program must expose obligations, construction, results, verification, and correction routes."
+  - title: "Why this work matters"
+    body: "Personal commitment, public inspection, and conditional relevance without claiming certainty or guaranteed impact."
   - title: "Related approaches"
     body: "Where Panta Rhei sits among serious structural, computational, geometric, relational, life, consciousness, and metaphysical programs."
 hero_ctas:
@@ -35,6 +37,8 @@ hero_ctas:
     url: /program/about/coherent-theory-of-reality/
   - label: "Why an Inspection Observatory"
     url: /program/about/inspection-observatory/
+  - label: "Why This Work Matters"
+    url: /program/why-this-work-matters/
   - label: "Related Approaches"
     url: /program/about/related-approaches/
   - label: "Agenda"
@@ -53,6 +57,8 @@ right_rail:
       url: /program/about/coherent-theory-of-reality/
     - title: "Inspection Observatory"
       url: /program/about/inspection-observatory/
+    - title: "Why This Work Matters"
+      url: /program/why-this-work-matters/
     - title: "Related Approaches"
       url: /program/about/related-approaches/
     - title: "Agenda"
@@ -99,6 +105,7 @@ The claim is deliberately ambitious: a constrained kernel is used to build a coh
   <li><article><a class="v2-tile" href="{{ '/program/about/' | relative_url }}"><strong>About the Program</strong><span>Identity, stewardship, status, scope, and public scrutiny posture.</span></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/program/about/coherent-theory-of-reality/' | relative_url }}"><strong>Coherent Theory of Reality</strong><span>What the program means by coherent, theory, and reality before its claims are read.</span></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/program/about/inspection-observatory/' | relative_url }}"><strong>Inspection Observatory</strong><span>Why public obligations, construction, results, verification, and correction routes are exposed together.</span></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/program/why-this-work-matters/' | relative_url }}"><strong>Why This Work Matters</strong><span>Personal commitment, public inspection, and conditional relevance without claiming certainty or guaranteed impact.</span></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/program/about/related-approaches/' | relative_url }}"><strong>Related Approaches</strong><span>How the program compares respectfully with neighboring structural, computational, geometric, life, mind, and metaphysical programs.</span></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/program/about/scope-status-and-scrutiny/' | relative_url }}"><strong>Scope, Status & Scrutiny</strong><span>How to read ambition, current public status, peer review boundaries, and external scrutiny.</span></a></article></li>
 </ul>
@@ -131,13 +138,14 @@ Panta Rhei is currently:
 - **[About the Program]({{ '/program/about/' | relative_url }})** gives the identity, stewardship, current public status, founders' statement, and scrutiny posture of the research object.
 - **[Standing in the Inquiry of Being]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }})** explains the charter of inquiry and historical lineage through which categorical ontology becomes legible.
 - **[Categorical Ontology]({{ '/program/about/categorical-ontology/' | relative_url }})** gives the concise definition of the field in which τ-Theory is currently being developed.
-- **[Related Approaches]({{ '/program/about/related-approaches/' | relative_url }})** positions the program among serious neighboring approaches without turning comparison into a takedown or priority claim.
+- **[Related Approaches]({{ '/program/about/related-approaches/' | relative_url }})** positions the program among serious neighboring approaches without turning comparison into dismissal or priority claim.
+- **[Why This Work Matters]({{ '/program/why-this-work-matters/' | relative_url }})** explains why the program asks for public attention through importance, seriousness, inspectability, and conditional relevance rather than certainty.
 - **[Agenda]({{ '/agenda/' | relative_url }})** states the burden of proof: Core Semantics, Structural Challenge Ledger, Kernel/Model/Reality, and Construction Roadmap.
 - **[Corpus]({{ '/corpus/' | relative_url }})** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.
 - **[Results]({{ '/results/' | relative_url }})** reports current program stances, landmark results, world readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda.
 - **[Verify]({{ '/verify/' | relative_url }})** explains how obligations, construction steps, and results can be checked, challenged, formalized, bridged, or falsified.
 - **[Publications]({{ '/publications/' | relative_url }})** preserves the stable artifact and release shelf: research monographs, papers, notes, briefings, white papers, and release artifacts.
-- **[Impact]({{ '/impact/' | relative_url }})** maps conditional consequences if Results survive verification, translation, and domain uptake.
+- **[Impact]({{ '/impact/' | relative_url }})** maps conditional consequences if relevant Results remain supported through verification, translation, and domain uptake.
 - **[Engage]({{ '/engage/' | relative_url }})** gives structured engagement routes without requiring endorsement.
 
 ## What this lane is

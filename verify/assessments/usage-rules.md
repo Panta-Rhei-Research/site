@@ -116,7 +116,7 @@ Cross-model comparison does not guarantee correctness, but it reduces the risk o
 The right output of the protocol is not "done." The right output is:
 
 - A **structured first signal** that organizes the preliminary evidence
-- An **attack surface** that identifies where the framework is most vulnerable
+- A **review surface** that identifies where the framework is most vulnerable
 - A **map** of where deeper human scrutiny should go next
 
 The dossier is a starting point for expert engagement, not an endpoint. Anyone who treats a first-pass dossier as a final assessment has misunderstood the protocol's purpose and exceeded its designed scope.

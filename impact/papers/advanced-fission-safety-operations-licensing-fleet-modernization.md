@@ -417,7 +417,7 @@ Digital modernization that increases complexity, operator confusion, or automati
 
 ### Guardrail 5 — Security and cyber resilience are first-class constraints
 
-Any twin or digital control integration must be designed from the ground up with strong cyber and information-security assumptions. The nuclear sector's attack surface for cyber threats is well-documented; NRC's cyber security requirements under 10 CFR 73.54 provide a framework but not a ceiling. τ deployments should treat adversarial integrity attacks on the twin — attempts to inject false sensor readings or manipulate state estimates — as a design threat, not a corner case.
+Any twin or digital control integration must be designed from the ground up with strong cyber and information-security assumptions. The nuclear sector's cyber exposure is well-documented; NRC's cyber security requirements under 10 CFR 73.54 provide a framework but not a ceiling. τ deployments should treat adversarial integrity attacks on the twin — attempts to inject false sensor readings or manipulate state estimates — as a design threat, not a corner case.
 
 ### Guardrail 6 — Do not overclaim calendar acceleration where hardware dominates
 

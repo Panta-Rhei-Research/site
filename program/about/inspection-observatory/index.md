@@ -25,6 +25,8 @@ hero_ctas:
     url: /discover/
   - label: "Verify"
     url: /verify/
+  - label: "Why This Work Matters"
+    url: /program/why-this-work-matters/
   - label: "Related Approaches"
     url: /program/about/related-approaches/
 right_rail:
@@ -37,6 +39,8 @@ right_rail:
       url: /program/
     - title: "Coherent Theory of Reality"
       url: /program/about/coherent-theory-of-reality/
+    - title: "Why This Work Matters"
+      url: /program/why-this-work-matters/
     - title: "Related Approaches"
       url: /program/about/related-approaches/
     - title: "Scope, Status & Scrutiny"
@@ -101,6 +105,8 @@ The same discipline applies to comparisons with neighboring programs. [Related A
 Package 3 documents the implementation side of this doctrine. The white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}) explains how the public site and GitHub organization materialize the observatory as source paths, lane routes, generated projections, release manifests, search, publications, assessment protocols, bounded review routes, and correction channels.
 
 That architecture does not validate the theory. It makes the public inspection path visible enough for validation, challenge, correction, review, and refusal to begin.
+
+For why that public inspection path justifies attention without promising impact or certainty, see [Why This Work Matters]({{ '/program/why-this-work-matters/' | relative_url }}).
 
 ## For journalists, reviewers, and critical visitors
 

@@ -31,6 +31,9 @@ right_rail:
       title: "The Shape of a Theory of Reality"
       url: "/publications/white-papers/the-shape-of-a-theory-of-reality/"
     -
+      title: "Why This Work Matters"
+      url: "/program/why-this-work-matters/"
+    -
       title: "Building a Public Research Observatory"
       url: "/publications/white-papers/building-a-public-research-observatory/"
     -
@@ -45,24 +48,24 @@ right_rail:
 
 ## What this lane is
 
-Impact maps what could matter if the work survives inspection.
+Impact maps what could matter if relevant claims remain supported through inspection, correction, verification, translation, and domain uptake.
 
-Impact is the conditional consequence layer of the site. It asks what might become relevant if specific Results survive verification, translation, and domain uptake.
+Impact is the conditional consequence layer of the site. It asks what might become relevant if specific Results remain supported through verification, translation, and domain uptake.
 
 Impact pages describe conditional consequence structures. They help readers understand possible implications without turning those implications into promises.
 
 ## Why Impact is part of the research obligation
 
-Panta Rhei is an independent open research program dedicated to building a coherent theory of reality. That scope creates a public-relevance obligation: the program must explain why the work could matter beyond its founders and immediate reviewers if the construction and results survive inspection.
+Panta Rhei is an independent open research program dedicated to building a coherent theory of reality. That scope creates a public-relevance obligation: the program must explain why the work could matter beyond its founders and immediate reviewers if the construction and results remain supported through inspection and correction.
 
 Impact is not a claim of success. It is the conditional public-relevance map of the program.
 
 It asks:
 
-- If the construction holds, what could change in foundational science?
-- If the bridges survive scrutiny, what could become relevant for applied science?
+- If the construction remains supported, what could change in foundational science?
+- If bridge claims remain supported after review and domain testing, what could become relevant for applied science?
 - If the structure becomes teachable, what could change in education?
-- If the world-picture holds, what could change in existential orientation?
+- If the world-picture remains coherent after review and correction, what could change in existential orientation?
 - If the scientific image becomes more coherent, what could change in public reason?
 - If applied translations become possible, what global public-good portfolios could be worth investigating?
 
@@ -83,11 +86,11 @@ Impact is conditional: no consequence is stronger than the Results, verification
 <div class="v2-system-row" aria-label="Impact chain">
   <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Result</strong>What the program currently claims follows.</a>
   <span class="v2-system-arrow">→</span>
-  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification survival</strong>What survives formal, empirical, bridge, and review pressure.</a>
+  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification & Review</strong>What remains supported, corrected, narrowed, or retired.</a>
   <span class="v2-system-arrow">→</span>
-  <a class="v2-system-node" href="{{ '/impact/impact-framework/' | relative_url }}"><strong>Translation layer</strong>Domain-specific assumptions and model choices.</a>
+  <a class="v2-system-node" href="{{ '/impact/impact-framework/' | relative_url }}"><strong>Translation Layer</strong>Domain-specific assumptions and model choices.</a>
   <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Domain uptake</strong>Institutions, tools, data, governance, and practice.</span>
+  <span class="v2-system-node"><strong>Domain Uptake</strong>Institutions, tools, data, governance, and practice.</span>
   <span class="v2-system-arrow">→</span>
   <span class="v2-system-node"><strong>Consequence</strong>What could change if the chain holds.</span>
 </div>
@@ -98,7 +101,9 @@ Impact is conditional: no consequence is stronger than the Results, verification
 
 {% include scientific-plate.html id="plate-08-conditional-impact-strata" class="scientific-plate--conditional-impact-strata" loading="lazy" %}
 
-Impact is conditional. Each consequence depends on upstream Results, verification survival, translation assumptions, domain uptake, and real-world constraints. Consequence requires survival under scrutiny.
+Impact is conditional. Each consequence depends on upstream Results, verification and review status, translation assumptions, domain uptake, and real-world constraints. Consequence requires accountable passage through scrutiny, correction, translation, and uptake.
+
+> Updated chain language: the Impact lane now reads this plate as **Result → Verification & Review → Translation Layer → Domain Uptake → Consequence**.
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ '/impact/impact-framework/' | relative_url }}">Read the Impact Framework</a>
@@ -110,8 +115,8 @@ Impact is conditional. Each consequence depends on upstream Results, verificatio
 <section aria-labelledby="impact-strata">
   <h2 id="impact-strata">Impact strata</h2>
   <ul class="v2-grid v2-card-list">
-    <li><article><a class="v2-tile" href="{{ '/impact/foundational-science/' | relative_url }}"><h3>Foundational Science</h3><p>What would change for the foundations of inquiry if the construction holds.</p></a></article></li>
-    <li><article><a class="v2-tile" href="{{ '/impact/applied-science-and-research/' | relative_url }}"><h3>Applied Science & Research</h3><p>How active research fields could change if bridges to observation, measurement, and computation survive scrutiny.</p></a></article></li>
+    <li><article><a class="v2-tile" href="{{ '/impact/foundational-science/' | relative_url }}"><h3>Foundational Science</h3><p>What would change for the foundations of inquiry if the construction remains supported.</p></a></article></li>
+    <li><article><a class="v2-tile" href="{{ '/impact/applied-science-and-research/' | relative_url }}"><h3>Applied Science & Research</h3><p>How active research fields could change if bridges to observation, measurement, and computation remain supported after review and domain testing.</p></a></article></li>
     <li><article><a class="v2-tile" href="{{ '/impact/global-education/' | relative_url }}"><h3>Global Education</h3><p>How difficult domains may become teachable as related layers of one coherent construction.</p></a></article></li>
     <li><article><a class="v2-tile" href="{{ '/impact/existential-orientation/' | relative_url }}"><h3>Existential Orientation</h3><p>What becomes existentially thinkable if the framework holds.</p></a></article></li>
     <li><article><a class="v2-tile" href="{{ '/impact/societal-coherence/' | relative_url }}"><h3>Societal Coherence</h3><p>How public reason could change if a coherence-based scientific image is available.</p></a></article></li>
@@ -141,7 +146,9 @@ Impact is conditional. Each consequence depends on upstream Results, verificatio
 
 ## Important Note
 
-The word **if** is load-bearing. Impact remains downstream of explicit assumptions, translation layers, and survival under scrutiny. For the publication index of these conditional scenario artifacts, see [Public-Good Briefings]({{ '/publications/research-briefings/public-good/' | relative_url }}).
+The word **if** is load-bearing. Impact remains downstream of explicit assumptions, review, correction, translation layers, and domain uptake. For the publication index of these conditional scenario artifacts, see [Public-Good Briefings]({{ '/publications/research-briefings/public-good/' | relative_url }}).
+
+For why the program asks for public attention through importance, seriousness, inspectability, and conditional relevance rather than certainty, see [Why This Work Matters]({{ '/program/why-this-work-matters/' | relative_url }}).
 
 ## Related public packages
 

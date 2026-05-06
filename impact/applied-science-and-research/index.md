@@ -5,7 +5,7 @@ lane: "impact"
 permalink: "/impact/applied-science-and-research/"
 type: "Impact Stratum"
 status: "Conditional"
-summary_short: "How active research fields could change if bridges to observation, measurement, and computation survive scrutiny."
+summary_short: "How active research fields could change if bridges to observation, measurement, and computation remain supported after review and domain testing."
 right_rail:
   related:
     -
@@ -31,7 +31,7 @@ right_rail:
 
 Read this page through the Impact chain:
 
-Result → Verification survival → Translation layer → Domain uptake → Consequence.
+Result → Verification & Review → Translation layer → Domain uptake → Consequence.
 
 If any upstream link weakens, the impact claim weakens with it.
 
@@ -39,7 +39,7 @@ If any upstream link weakens, the impact claim weakens with it.
 
 Applied Science & Research is the second impact stratum.
 
-It asks how active scientific research fields could change if the Panta Rhei construction holds and if its bridges to observation, measurement, and computation survive scrutiny.
+It asks how active scientific research fields could change if the Panta Rhei construction holds and if its bridges to observation, measurement, and computation remain supported after review and domain testing.
 
 This stratum does not describe products, policies, public deployment, or institutional adoption. It describes research translation.
 
@@ -57,7 +57,7 @@ The answer cannot be exhaustive. The possible impact radius is broad. This page 
 
 Applied scientific impact cannot come first.
 
-Before a framework can reshape research practice, it must first survive foundational scrutiny. Its kernel must be coherent. Its mathematics must be recoverable. Its physics must be internally meaningful. Its empirical bridges must be explicit. Its results must be status-marked and open to verification.
+Before a framework can reshape research practice, it must first remain supported after foundational review. Its kernel must be coherent. Its mathematics must be recoverable. Its physics must be internally meaningful. Its empirical bridges must be explicit. Its results must be status-marked and open to verification.
 
 Applied Science & Research therefore sits after Foundational Science.
 
@@ -67,7 +67,7 @@ Foundational Science asks:
 
 Applied Science & Research asks:
 
-> What changes in actual research practice if that grammar survives translation into specific domains?
+> What changes in actual research practice if that grammar remains supported through translation into specific domains?
 
 That translation is not automatic.
 
@@ -207,7 +207,7 @@ For each domain, the program would need:
 
 A foundational result does not become applied science merely by being interesting.
 
-It becomes applied science when it enters a domain-specific research workflow and survives the standards of that field.
+It becomes applied science when it enters a domain-specific research workflow and remains supported under the standards of that field.
 
 ## What this does not mean
 
@@ -235,7 +235,7 @@ Applied Science & Research impact depends on several upstream conditions.
 
 The foundational construction must hold.
 
-The relevant Results must survive scrutiny.
+The relevant Results must remain supported after scrutiny.
 
 The Corpus support must be traceable.
 

@@ -31,7 +31,7 @@ right_rail:
 
 Read this page through the Impact chain:
 
-Result → Verification survival → Translation layer → Domain uptake → Consequence.
+Result → Verification & Review → Translation layer → Domain uptake → Consequence.
 
 If any upstream link weakens, the impact claim weakens with it.
 
@@ -291,7 +291,7 @@ It means only this:
 
 Global Education impact remains conditional.
 
-The construction must survive scrutiny in Agenda, Corpus, Results, and Verify.
+The construction must remain supported through Agenda, Corpus, Results, and Verify.
 
 The educational maps must be accurate enough to teach.
 

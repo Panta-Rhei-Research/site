@@ -184,7 +184,7 @@ def main() -> int:
         "/corpus/": "The Corpus is the construction body of the theory",
         "/results/": "Results is where the built Corpus becomes a world.",
         "/verify/": "Verify is where building becomes accountable.",
-        "/impact/": "Impact maps what could matter if the work survives inspection.",
+        "/impact/": "Impact maps what could matter if relevant claims remain supported through inspection, correction, verification, translation, and domain uptake.",
         "/engage/": "Engage is where openness becomes operational.",
         "/media/": "Program for identity and doctrine, Agenda for obligations",
         "/verify/how-to-verify/": "Start with the inspection architecture",

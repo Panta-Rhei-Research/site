@@ -6,8 +6,8 @@ lane: verify
 v2_lane: verify
 type: "Inspection Route"
 status: "Canonical"
-summary_short: "The fastest disconfirmation path for a Lean 4, Mathlib, Coq, Agda, or Isabelle specialist. What to clone, what to build, what to grep for, and which claims must survive your audit for the framework to remain review-worthy."
-plain_language_summary: "If you write proof-assistant code for a living, the framework's claim is checkable in an afternoon: clone TauLib, build it, grep for `axiom`, grep for `sorry`, grep for `native_decide`, and verify that the three custom axioms aren't doing more work than the program admits. The page below names the exact commands, the load-bearing modules, and the specific properties (zero sorries, three axioms only, kernel-checked theorems for the Central Theorem) that must survive your audit."
+summary_short: "The fastest disconfirmation path for a Lean 4, Mathlib, Coq, Agda, or Isabelle specialist. What to clone, what to build, what to grep for, and which claims must remain supported after your audit for the framework to remain review-worthy."
+plain_language_summary: "If you write proof-assistant code for a living, the framework's claim is checkable in an afternoon: clone TauLib, build it, grep for `axiom`, grep for `sorry`, grep for `native_decide`, and verify that the three custom axioms aren't doing more work than the program admits. The page below names the exact commands, the load-bearing modules, and the specific properties (zero sorries, three axioms only, kernel-checked theorems for the Central Theorem) that must remain supported after your audit."
 right_rail:
   related:
     - title: "How to Verify by Reviewer Role"

@@ -93,7 +93,7 @@ Please answer:
 - Which may risk rediscovery, relabeling, or overstatement?
 - Which would require close prior-art comparison?
 
-### D. Domain-specific attack surface
+### D. Domain-specific review surface
 - What are the strongest domain-specific skeptical questions?
 - What should a fair-minded expert test first?
 - What visible weaknesses or gaps stand out from this domain's perspective?

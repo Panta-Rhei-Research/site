@@ -67,7 +67,7 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
     </a>
     <a class="v2-tile" href="{{ '/impact/' | relative_url }}">
       <h3>Impact</h3>
-      <p>Conditional relevance: what could matter if Results survive inspection, translation, and domain uptake.</p>
+      <p>Conditional relevance: what could matter if relevant Results remain supported through review, translation, and domain uptake.</p>
     </a>
     <a class="v2-tile" href="{{ '/engage/' | relative_url }}">
       <h3>Engage</h3>

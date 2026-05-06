@@ -83,7 +83,7 @@ For each of the five zones, if you are a specialist:
 
 1. **Read the comparison page in full** (~5 minutes each). Each page is written to name what is the same, what is different, what is claimed new, and what you would want to see before accepting the distinction.
 
-2. **Test the claimed distinction against your actual literature knowledge** (~10 minutes). If you know Fueter theory well, does the "split-complex, not quaternionic" distinction survive — or does the τ-CR system reduce to Fueter on a slice? Your specialist intuition is the test.
+2. **Test the claimed distinction against your actual literature knowledge** (~10 minutes). If you know Fueter theory well, does the "split-complex, not quaternionic" distinction remain supported — or does the τ-CR system reduce to Fueter on a slice? Your specialist intuition is the test.
 
 3. **Check one specific technical claim against its formalization** (~10 minutes). Each comparison page names specific registry IDs (II.T40, III.T19, IV.T27, VI.D04, V.T139, etc.). Open the Lean source if formalized, or the book chapter if not, and check whether the claim matches what is actually proved/defined.
 
@@ -102,7 +102,7 @@ Your audit is **negative** for a zone if:
 
 Your audit is **positive** for a zone if:
 
-- The claimed distinction survives direct comparison to the prior art in your specialty.
+- The claimed distinction remains supported after direct comparison to the prior art in your specialty.
 - The formalization (or canonical-book proof) contains non-trivial content that maps to the claimed differences.
 - The comparison page's "what a specialist would want to see" section names questions you would actually ask — and points at concrete places in the framework where the answers would be found.
 

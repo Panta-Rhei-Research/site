@@ -27,11 +27,11 @@ abstract: A Public-Good Briefing showing how a law-faithful tau health-environme
   intelligence, and One Health environmental pathway attribution.
 key_takeaways:
 - This briefing belongs to the One Health conditional public-good portfolio.
-- Its claims are conditional on upstream Results, verification survival, translation, domain review,
+- Its claims are conditional on upstream Results, verification and review status, translation, domain review,
   and uptake.
 - The existing Impact full text remains the long-form HTML artifact for this batch.
 assumptions:
-- Relevant Panta Rhei Results survive formal, empirical, bridge, and expert scrutiny where applicable.
+- Relevant Panta Rhei Results remain supported through formal, empirical, bridge, and expert review where applicable.
 - Domain-specific translation assumptions can be made explicit and tested.
 - External domain review and institutional uptake remain possible but are not claimed.
 non_claims:

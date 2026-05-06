@@ -25,7 +25,7 @@ CHILDREN = {
 }
 
 LOCKED_LANGUAGE = [
-    "Related Approaches is a positioning map, not a takedown, literature survey, or priority claim.",
+    "Related Approaches is a positioning map, not a dismissal, literature survey, or priority claim.",
     "Panta Rhei compares related approaches through its own standards: Core Semantics, Earned Language, Internal Standpoint, No Externalities, Construction Spine, and Verify.",
 ]
 

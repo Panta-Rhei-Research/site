@@ -70,7 +70,7 @@ The most worldview-changing formulation is [Life as Structurally Favored Rather 
 
 The final landmarks are the most philosophically volatile. [Why Something Rather Than Nothing]({{ '/results/problem/why-something-rather-than-nothing/' | relative_url }}) asks whether existence can be treated as an inspectable burden rather than a hidden premise. The [Hard Problem of Consciousness]({{ '/results/problem/hard-problem-of-consciousness/' | relative_url }}) is included precisely because its status is partial: it marks the boundary between structural explanation and remaining phenomenological burden.
 
-The [Categorical Imperative Derivation]({{ '/results/problem/categorical-imperative-derivation/' | relative_url }}) is the normativity landmark. If it survives scrutiny, the ethical surface is not imported as a private preference; it is treated as a structural consequence that still has to pass the program's verification and external-review boundaries.
+The [Categorical Imperative Derivation]({{ '/results/problem/categorical-imperative-derivation/' | relative_url }}) is the normativity landmark. If it remains supported after scrutiny, the ethical surface is not imported as a private preference; it is treated as a structural consequence that still has to pass the program's verification and external-review boundaries.
 
 ## Browse the landmark results
 

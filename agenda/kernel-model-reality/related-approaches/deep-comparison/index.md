@@ -49,7 +49,7 @@ right_rail:
 
 This page expands the compact [KMR Related Approaches]({{ '/agenda/kernel-model-reality/related-approaches/' | relative_url }}) overview. For the broader Program-side positioning map, start with [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}).
 
-This specialist page does not turn comparison into a takedown. Each approach is read through the burdens Panta Rhei publicly accepts.
+This specialist page does not turn comparison into a dismissal. Each approach is read through the burdens Panta Rhei publicly accepts.
 
 Those burdens are:
 

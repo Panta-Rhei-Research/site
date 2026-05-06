@@ -27,7 +27,7 @@ og_image_alt: "Scientific plate showing Public-Good Briefings as a family under 
 
 ## What Public-Good Briefings are
 
-Public-Good Briefings are Research Briefings: framework-grounded translation artifacts that explore what could become valuable in public-good domains if the relevant Results survive verification, translation, domain review, and uptake. All 44 briefings are now available as publication-ready PDF dossiers alongside their full HTML text.
+Public-Good Briefings are Research Briefings: framework-grounded translation artifacts that explore what could become valuable in public-good domains if the relevant Results remain supported through verification, translation, domain review, and uptake. All 44 briefings are now available as publication-ready PDF dossiers alongside their full HTML text.
 
 They are not validation claims, policy commitments, implementation plans, or deployment-ready proposals. They are downstream conditional scenario analyses.
 
@@ -43,7 +43,7 @@ Public-Good Briefings sit inside the Research Briefings category. Their role is 
 {% capture public_good_impact_plate_caption %}Public-Good Briefings belong to the outermost Impact stratum. They are conditional scenario briefings, not validation claims, policy commitments, or deployment plans.{% endcapture %}
 {% include scientific-plate.html id="plate-08-conditional-impact-strata" variant="thumb" class="scientific-plate--compact" caption=public_good_impact_plate_caption loading="lazy" %}
 
-Public-Good Briefings are conditional scenario artifacts. They explore what could become valuable if upstream Results survive verification, translation, domain review, and uptake. The PDF release does not change the claim status: domain review remains pending, and no deployment, product, validation, or policy-adoption claim is made.
+Public-Good Briefings are conditional scenario artifacts. They explore what could become valuable if upstream Results remain supported through verification, translation, domain review, and uptake. The PDF release does not change the claim status: domain review remains pending, and no deployment, product, validation, or policy-adoption claim is made.
 
 ## Current portfolios
 
@@ -70,7 +70,7 @@ Public-Good Briefings are conditional scenario artifacts. They explore what coul
 
 Read every Public-Good Briefing through the Impact chain:
 
-Result → Verification survival → Translation layer → Domain uptake → Consequence.
+Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.
 
 If any upstream link weakens, the public-good claim weakens with it.
 

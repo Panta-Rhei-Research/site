@@ -41,6 +41,8 @@ right_rail:
     url: /media/public-research-observatory-brief/
   - title: Related Approaches
     url: /program/about/related-approaches/
+  - title: Why This Work Matters
+    url: /program/why-this-work-matters/
   - title: Scientific Plates
     url: /media/posters/
   - title: Program
@@ -80,7 +82,9 @@ Open science makes research more accessible and shareable, but it raises a hard 
 
 Panta Rhei can be covered as a case study in inspection architecture: a public research observatory exposing its Program doctrine, Agenda, source-pinned Structural Challenge Ledger, Core Semantics, Construction Spine, Corpus, TauLib formalization, Results, status markers, prediction/falsification surfaces, errata, and assessment protocols.
 
-For comparisons with neighboring structural, computational, geometric, life, consciousness, and metaphysical programs, use [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}). It is a positioning map, not a takedown.
+For comparisons with neighboring structural, computational, geometric, life, consciousness, and metaphysical programs, use [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}). It is a positioning map, not a dismissal of adjacent programs.
+
+We are not asking for belief first. We are making the work inspectable and inviting structured scrutiny, correction, and review.
 
 Suggested framing:
 

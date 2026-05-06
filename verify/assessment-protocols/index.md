@@ -103,7 +103,7 @@ Use this checklist to inspect the conceptual category. For the citable artifact,
 8. Are bridge claims and translation assumptions visible?
 9. Are no-externalities and unresolved-frontier boundaries disclosed?
 10. Does Impact use conditional relevance rather than adoption, deployment, or delivery language?
-11. Does Related Approaches function as a positioning map rather than a takedown?
+11. Does Related Approaches function as a positioning map rather than a dismissal?
 12. Does Engage make scrutiny possible without implying endorsement?
 
 ### Package 3 — Public Research Observatory

@@ -24,6 +24,8 @@ hero_ctas:
     url: /program/about/related-approaches/
   - label: "Coherent Theory"
     url: /program/about/coherent-theory-of-reality/
+  - label: "Why This Work Matters"
+    url: /program/why-this-work-matters/
   - label: "Program"
     url: /program/
 right_rail:
@@ -34,6 +36,8 @@ right_rail:
       url: /program/about/coherent-theory-of-reality/
     - title: "Inspection Observatory"
       url: /program/about/inspection-observatory/
+    - title: "Why This Work Matters"
+      url: /program/why-this-work-matters/
     - title: "Related Approaches"
       url: /program/about/related-approaches/
     - title: "About the Program"

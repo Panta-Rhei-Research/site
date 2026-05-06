@@ -54,6 +54,10 @@ jobs:
         run: bundle exec jekyll build --baseurl ""
         env:
           JEKYLL_ENV: production
+          PANTA_RHEI_GENERATE_OG_CARDS: "0"
+
+      - name: Check social previews are separated from normal build
+        run: python3 scripts/assert_social_preview_separation.py _site
 
       - name: Check Site Atlas gates
         run: |

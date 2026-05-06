@@ -31,7 +31,7 @@ right_rail:
 
 Read this page through the Impact chain:
 
-Result → Verification survival → Translation layer → Domain uptake → Consequence.
+Result → Verification & Review → Translation layer → Domain uptake → Consequence.
 
 If any upstream link weakens, the impact claim weakens with it.
 
@@ -151,7 +151,7 @@ Instead, the framework suggests that ethical validity has a shape.
 
 That shape is relational.
 
-An ethical claim is not valid merely because a person, group, institution, tradition, or culture asserts it. It must be able to survive within a relational field of agents, dependencies, boundaries, responsibilities, and mutual intelligibility.
+An ethical claim is not valid merely because a person, group, institution, tradition, or culture asserts it. It must remain coherent within a relational field of agents, dependencies, boundaries, responsibilities, and mutual intelligibility.
 
 In this sense, Kant’s categorical imperative can be read as one historical articulation of a deeper structural insight: an ethical norm must pass beyond private preference or local power and submit to a universality condition.
 
@@ -282,7 +282,7 @@ Societal Coherence impact is conditional on many layers.
 
 The foundational construction must hold.
 
-The relevant Results must survive scrutiny.
+The relevant Results must remain supported after scrutiny.
 
 The framework must not overreach beyond what it can show.
 

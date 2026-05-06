@@ -21,6 +21,8 @@ right_rail:
       url: /media/journalist-faq/
     - title: "Inspection Observatory"
       url: /program/about/inspection-observatory/
+    - title: "Why This Work Matters"
+      url: /program/why-this-work-matters/
   meta:
     type: "Press brief"
     scope: "Open research / inspection architecture"
@@ -31,6 +33,8 @@ right_rail:
 ## Open Science Needs Inspection Architecture
 
 Panta Rhei is not asking journalists to endorse a theory of reality. It is offering a case study in how high-scope open research can make itself inspectable before asking for belief.
+
+We are not asking for belief first. We are making the work inspectable and inviting structured scrutiny, correction, and review.
 
 ## What this story is
 

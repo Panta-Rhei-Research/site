@@ -23,7 +23,7 @@ right_rail:
 
 ## Goal
 
-Produce an initial structured dossier on the public Panta Rhei materials using a frontier large language model, while keeping the process transparent, bounded, and non-authoritative. The dossier is a triage instrument --- it helps decide whether deeper human review is warranted, which experts to involve, and where the strongest attack surfaces lie.
+Produce an initial structured dossier on the public Panta Rhei materials using a frontier large language model, while keeping the process transparent, bounded, and non-authoritative. The dossier is a triage instrument --- it helps decide whether deeper human review is warranted, which experts to involve, and where the strongest review surfaces lie.
 
 
 ## The Eight Steps
@@ -101,7 +101,7 @@ The dossier is a triage instrument, not a verdict. Use it to decide:
 
 - Whether deeper expert review is warranted
 - Which domain experts to involve and what they should evaluate
-- Where the strongest attack surfaces lie --- the points where sceptical scrutiny would be most productive
+- Where the strongest review surfaces lie --- the points where sceptical scrutiny would be most productive
 
 The dossier should never be cited as evidence that the claims are correct. It is evidence that a structured first pass found certain signals, subject to the confidence caveats stated in the dossier itself.
 
