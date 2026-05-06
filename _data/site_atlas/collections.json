@@ -1,0 +1,816 @@
+{
+  "collection_index": {
+    "challenge_responses": {
+      "collection_id": "c00002",
+      "collection_key": "challenge_responses",
+      "expected_item_count": 214,
+      "grouping": [
+        {
+          "expected_item_count": 38,
+          "key": "mathematics",
+          "title": "Mathematics"
+        },
+        {
+          "expected_item_count": 117,
+          "key": "physics",
+          "title": "Physics"
+        },
+        {
+          "expected_item_count": 29,
+          "key": "life",
+          "title": "Life"
+        },
+        {
+          "expected_item_count": 30,
+          "key": "metaphysics",
+          "title": "Metaphysics"
+        }
+      ],
+      "index_route": "/results/challenge-responses/",
+      "layout": "challenge-response",
+      "purpose": "Results-side generated projection of the Structural Challenge Ledger.",
+      "qa": {
+        "require_external_review_boundary": true,
+        "require_generated_pages": true,
+        "require_no_duplicate_sections": true
+      },
+      "route_prefix": "/results/challenge-responses/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Challenge Responses"
+    },
+    "construction_map": {
+      "collection_id": "c00008",
+      "collection_key": "construction_map",
+      "expected_item_count": 79,
+      "grouping": [],
+      "index_route": "/corpus/graph/",
+      "layout": "construction-map-entry",
+      "purpose": "Part-level construction map linking monograph parts to registry and TauLib projection evidence.",
+      "qa": {
+        "require_book_vii_target": true,
+        "require_projection_links": true
+      },
+      "route_prefix": "/corpus/monographs/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Construction Map"
+    },
+    "construction_spine": {
+      "collection_id": "c00007",
+      "collection_key": "construction_spine",
+      "expected_item_count": 10,
+      "grouping": [],
+      "index_route": "/corpus/construction-spine/",
+      "layout": "construction-spine-step",
+      "purpose": "Ten-step Corpus construction spine from kernel through reflective structure.",
+      "qa": {
+        "require_build_status": true,
+        "require_previous_next": true
+      },
+      "route_prefix": "/corpus/construction-spine/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Construction Spine"
+    },
+    "core_semantics_recovery": {
+      "collection_id": "c00006",
+      "collection_key": "core_semantics_recovery",
+      "expected_item_count": 45,
+      "grouping": [],
+      "index_route": "/agenda/recovery-requirements/",
+      "layout": "recovery-requirement",
+      "purpose": "Agenda-side recovery requirements that state what the program must recover or refuse across domains.",
+      "qa": {
+        "require_domain_grouping": true,
+        "require_non_solution_language": true
+      },
+      "route_prefix": "/agenda/recovery-requirements/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Core Semantics / Recovery Requirements"
+    },
+    "design_system_assets": {
+      "collection_id": "c00010",
+      "collection_key": "design_system_assets",
+      "expected_item_count": 20,
+      "grouping": [],
+      "layout": "design-asset",
+      "purpose": "Summary collection for Sass/CSS design-system sources that govern the public shell and card language.",
+      "qa": {
+        "require_no_public_route_claim": true,
+        "require_source_hashes": true
+      },
+      "route_prefix": "/assets/css/",
+      "source_owner": "site",
+      "status": "summary",
+      "title": "Design System Assets"
+    },
+    "falsifications": {
+      "collection_id": "c00005",
+      "collection_key": "falsifications",
+      "expected_item_count": 30,
+      "grouping": [],
+      "index_route": "/results/falsifications/",
+      "layout": "falsification-page",
+      "purpose": "Falsification-path facet collection for public failure conditions and tests.",
+      "qa": {
+        "require_claim_boundary": true,
+        "require_source_metadata": true
+      },
+      "route_prefix": "/falsifications/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Falsifications"
+    },
+    "foundational_hinges": {
+      "collection_id": "c00009",
+      "collection_key": "foundational_hinges",
+      "expected_item_count": 8,
+      "grouping": [],
+      "index_route": "/corpus/foundational-hinges/",
+      "layout": "foundational-hinge",
+      "purpose": "Eight hinge surfaces that expose load-bearing formal and architectural commitments.",
+      "qa": {
+        "require_publication_links": true,
+        "require_verify_links": true
+      },
+      "route_prefix": "/corpus/foundational-hinges/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Foundational Hinges"
+    },
+    "guided_tours": {
+      "collection_id": "c0000f",
+      "collection_key": "guided_tours",
+      "expected_item_count": 7,
+      "grouping": [],
+      "index_route": "/discover/guided-tours/",
+      "layout": "pdf-asset",
+      "purpose": "Current public guided-tour PDF set surfaced through Discover and Publications.",
+      "qa": {
+        "require_pdf_exists": true,
+        "require_public_route": true
+      },
+      "route_prefix": "/discover/guided-tours/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Guided Tours"
+    },
+    "monograph_projections": {
+      "collection_id": "c0000c",
+      "collection_key": "monograph_projections",
+      "expected_item_count": 621,
+      "grouping": [
+        {
+          "expected_item_count": 7,
+          "key": "books",
+          "title": "Books"
+        },
+        {
+          "expected_item_count": 79,
+          "key": "parts",
+          "title": "Parts"
+        },
+        {
+          "expected_item_count": 535,
+          "key": "chapters",
+          "title": "Chapters"
+        }
+      ],
+      "index_route": "/corpus/monograph-corpus/",
+      "layout": "corpus-monograph",
+      "purpose": "Corpus monograph reading projection: seven books, generated parts, and generated chapters.",
+      "qa": {
+        "require_legacy_redirects": true,
+        "require_previous_next": true
+      },
+      "route_prefix": "/corpus/monographs/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Monograph Projections"
+    },
+    "predictions": {
+      "collection_id": "c00004",
+      "collection_key": "predictions",
+      "expected_item_count": 67,
+      "grouping": [],
+      "index_route": "/results/predictions/",
+      "layout": "prediction-page",
+      "purpose": "Prediction facet collection exposed as public inspectable empirical or quantitative commitments.",
+      "qa": {
+        "require_registry_linkage": true,
+        "require_source_metadata": true
+      },
+      "route_prefix": "/predictions/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Predictions"
+    },
+    "publications_artifacts": {
+      "collection_id": "c0000d",
+      "collection_key": "publications_artifacts",
+      "expected_item_count": 77,
+      "grouping": [
+        {
+          "expected_item_count": 7,
+          "key": "research_monographs",
+          "title": "Research Monographs"
+        },
+        {
+          "expected_item_count": 2,
+          "key": "monograph_supplements",
+          "title": "Monograph Supplements"
+        },
+        {
+          "expected_item_count": 9,
+          "key": "research_papers",
+          "title": "Research Papers"
+        },
+        {
+          "expected_item_count": 6,
+          "key": "research_notes",
+          "title": "Research Notes"
+        },
+        {
+          "expected_item_count": 44,
+          "key": "research_briefings_public_good",
+          "title": "Research Briefings Public Good"
+        },
+        {
+          "expected_item_count": 5,
+          "key": "white_papers",
+          "title": "White Papers"
+        },
+        {
+          "expected_item_count": 0,
+          "key": "release_artifacts",
+          "title": "Release Artifacts"
+        },
+        {
+          "expected_item_count": 4,
+          "key": "errata",
+          "title": "Errata"
+        }
+      ],
+      "index_route": "/publications/",
+      "layout": "publication-artifact",
+      "purpose": "Stable artifact, citation, and download inventory across the v4 Publications taxonomy.",
+      "qa": {
+        "require_download_exists": true,
+        "require_publication_page": true,
+        "require_version_label": true
+      },
+      "route_prefix": "/publications/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Publications / Artifacts"
+    },
+    "redirects_legacy_routes": {
+      "collection_id": "c00011",
+      "collection_key": "redirects_legacy_routes",
+      "expected_item_count": 31,
+      "grouping": [
+        {
+          "expected_item_count": 24,
+          "key": "redirected",
+          "title": "Redirected"
+        },
+        {
+          "expected_item_count": 4,
+          "key": "deprecated",
+          "title": "Deprecated"
+        },
+        {
+          "expected_item_count": 3,
+          "key": "archive",
+          "title": "Archive"
+        }
+      ],
+      "layout": "compatibility-route",
+      "purpose": "Summary collection for archive, deprecated, and redirected route surfaces governed by Pack D page classifications.",
+      "qa": {
+        "require_canonical_replacement": true,
+        "require_no_primary_lane_role": true
+      },
+      "route_prefix": "/",
+      "source_owner": "site-atlas",
+      "status": "summary",
+      "title": "Redirects / Legacy Routes"
+    },
+    "registry_projection": {
+      "collection_id": "c0000a",
+      "collection_key": "registry_projection",
+      "expected_item_count": 4139,
+      "grouping": [],
+      "index_route": "/corpus/registry/",
+      "layout": "registry-object",
+      "purpose": "Public Registry object projection for definitions, theorems, constructions, and related formal objects.",
+      "qa": {
+        "require_manifest_count_match": true,
+        "require_visibility_filter": true
+      },
+      "route_prefix": "/corpus/registry/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Registry Projection"
+    },
+    "results_records": {
+      "collection_id": "c00003",
+      "collection_key": "results_records",
+      "expected_item_count": 255,
+      "grouping": [],
+      "index_route": "/results/browse/",
+      "layout": "result",
+      "purpose": "Canonical Results item collection used by Results roots, browse surfaces, world readouts, and landmark selections.",
+      "qa": {
+        "require_claim_boundary": true,
+        "require_status_grammar": true
+      },
+      "route_prefix": "/results/problem/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Results Records"
+    },
+    "scientific_plates": {
+      "collection_id": "c0000e",
+      "collection_key": "scientific_plates",
+      "expected_item_count": 15,
+      "grouping": [],
+      "layout": "asset",
+      "purpose": "Curated visual explanation assets used by canonical public pages.",
+      "qa": {
+        "require_alt_text": true,
+        "require_derivatives": true,
+        "require_usage_list": true
+      },
+      "route_prefix": "/assets/images/plates/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Scientific Plates"
+    },
+    "structural_challenges": {
+      "collection_id": "c00001",
+      "collection_key": "structural_challenges",
+      "expected_item_count": 214,
+      "grouping": [
+        {
+          "expected_item_count": 38,
+          "key": "mathematics",
+          "title": "Mathematics"
+        },
+        {
+          "expected_item_count": 117,
+          "key": "physics",
+          "title": "Physics"
+        },
+        {
+          "expected_item_count": 29,
+          "key": "life",
+          "title": "Life"
+        },
+        {
+          "expected_item_count": 30,
+          "key": "metaphysics",
+          "title": "Metaphysics"
+        }
+      ],
+      "index_route": "/agenda/structural-challenge-ledger/",
+      "layout": "structural-challenge",
+      "purpose": "Agenda-side canonical challenge set that governs what the program must answer, refuse, or leave open.",
+      "qa": {
+        "require_external_review_boundary": true,
+        "require_generated_pages": true,
+        "require_source_provenance": true
+      },
+      "route_prefix": "/agenda/structural-challenge-ledger/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Structural Challenges"
+    },
+    "taulib_docs_projection": {
+      "collection_id": "c0000b",
+      "collection_key": "taulib_docs_projection",
+      "expected_item_count": 512,
+      "grouping": [],
+      "index_route": "/corpus/taulib/docs/",
+      "layout": "taulib-module-doc",
+      "purpose": "Public TauLib module documentation projection pinned to the release manifest.",
+      "qa": {
+        "require_manifest_count_match": true,
+        "require_release_pin": true
+      },
+      "route_prefix": "/corpus/taulib/docs/",
+      "source_owner": "taulib",
+      "status": "canonical",
+      "title": "TauLib Docs Projection"
+    }
+  },
+  "collections": [
+    {
+      "collection_id": "c00001",
+      "collection_key": "structural_challenges",
+      "expected_item_count": 214,
+      "grouping": [
+        {
+          "expected_item_count": 38,
+          "key": "mathematics",
+          "title": "Mathematics"
+        },
+        {
+          "expected_item_count": 117,
+          "key": "physics",
+          "title": "Physics"
+        },
+        {
+          "expected_item_count": 29,
+          "key": "life",
+          "title": "Life"
+        },
+        {
+          "expected_item_count": 30,
+          "key": "metaphysics",
+          "title": "Metaphysics"
+        }
+      ],
+      "index_route": "/agenda/structural-challenge-ledger/",
+      "layout": "structural-challenge",
+      "purpose": "Agenda-side canonical challenge set that governs what the program must answer, refuse, or leave open.",
+      "qa": {
+        "require_external_review_boundary": true,
+        "require_generated_pages": true,
+        "require_source_provenance": true
+      },
+      "route_prefix": "/agenda/structural-challenge-ledger/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Structural Challenges"
+    },
+    {
+      "collection_id": "c00002",
+      "collection_key": "challenge_responses",
+      "expected_item_count": 214,
+      "grouping": [
+        {
+          "expected_item_count": 38,
+          "key": "mathematics",
+          "title": "Mathematics"
+        },
+        {
+          "expected_item_count": 117,
+          "key": "physics",
+          "title": "Physics"
+        },
+        {
+          "expected_item_count": 29,
+          "key": "life",
+          "title": "Life"
+        },
+        {
+          "expected_item_count": 30,
+          "key": "metaphysics",
+          "title": "Metaphysics"
+        }
+      ],
+      "index_route": "/results/challenge-responses/",
+      "layout": "challenge-response",
+      "purpose": "Results-side generated projection of the Structural Challenge Ledger.",
+      "qa": {
+        "require_external_review_boundary": true,
+        "require_generated_pages": true,
+        "require_no_duplicate_sections": true
+      },
+      "route_prefix": "/results/challenge-responses/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Challenge Responses"
+    },
+    {
+      "collection_id": "c00003",
+      "collection_key": "results_records",
+      "expected_item_count": 255,
+      "grouping": [],
+      "index_route": "/results/browse/",
+      "layout": "result",
+      "purpose": "Canonical Results item collection used by Results roots, browse surfaces, world readouts, and landmark selections.",
+      "qa": {
+        "require_claim_boundary": true,
+        "require_status_grammar": true
+      },
+      "route_prefix": "/results/problem/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Results Records"
+    },
+    {
+      "collection_id": "c00004",
+      "collection_key": "predictions",
+      "expected_item_count": 67,
+      "grouping": [],
+      "index_route": "/results/predictions/",
+      "layout": "prediction-page",
+      "purpose": "Prediction facet collection exposed as public inspectable empirical or quantitative commitments.",
+      "qa": {
+        "require_registry_linkage": true,
+        "require_source_metadata": true
+      },
+      "route_prefix": "/predictions/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Predictions"
+    },
+    {
+      "collection_id": "c00005",
+      "collection_key": "falsifications",
+      "expected_item_count": 30,
+      "grouping": [],
+      "index_route": "/results/falsifications/",
+      "layout": "falsification-page",
+      "purpose": "Falsification-path facet collection for public failure conditions and tests.",
+      "qa": {
+        "require_claim_boundary": true,
+        "require_source_metadata": true
+      },
+      "route_prefix": "/falsifications/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Falsifications"
+    },
+    {
+      "collection_id": "c00006",
+      "collection_key": "core_semantics_recovery",
+      "expected_item_count": 45,
+      "grouping": [],
+      "index_route": "/agenda/recovery-requirements/",
+      "layout": "recovery-requirement",
+      "purpose": "Agenda-side recovery requirements that state what the program must recover or refuse across domains.",
+      "qa": {
+        "require_domain_grouping": true,
+        "require_non_solution_language": true
+      },
+      "route_prefix": "/agenda/recovery-requirements/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Core Semantics / Recovery Requirements"
+    },
+    {
+      "collection_id": "c00007",
+      "collection_key": "construction_spine",
+      "expected_item_count": 10,
+      "grouping": [],
+      "index_route": "/corpus/construction-spine/",
+      "layout": "construction-spine-step",
+      "purpose": "Ten-step Corpus construction spine from kernel through reflective structure.",
+      "qa": {
+        "require_build_status": true,
+        "require_previous_next": true
+      },
+      "route_prefix": "/corpus/construction-spine/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Construction Spine"
+    },
+    {
+      "collection_id": "c00008",
+      "collection_key": "construction_map",
+      "expected_item_count": 79,
+      "grouping": [],
+      "index_route": "/corpus/graph/",
+      "layout": "construction-map-entry",
+      "purpose": "Part-level construction map linking monograph parts to registry and TauLib projection evidence.",
+      "qa": {
+        "require_book_vii_target": true,
+        "require_projection_links": true
+      },
+      "route_prefix": "/corpus/monographs/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Construction Map"
+    },
+    {
+      "collection_id": "c00009",
+      "collection_key": "foundational_hinges",
+      "expected_item_count": 8,
+      "grouping": [],
+      "index_route": "/corpus/foundational-hinges/",
+      "layout": "foundational-hinge",
+      "purpose": "Eight hinge surfaces that expose load-bearing formal and architectural commitments.",
+      "qa": {
+        "require_publication_links": true,
+        "require_verify_links": true
+      },
+      "route_prefix": "/corpus/foundational-hinges/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Foundational Hinges"
+    },
+    {
+      "collection_id": "c0000a",
+      "collection_key": "registry_projection",
+      "expected_item_count": 4139,
+      "grouping": [],
+      "index_route": "/corpus/registry/",
+      "layout": "registry-object",
+      "purpose": "Public Registry object projection for definitions, theorems, constructions, and related formal objects.",
+      "qa": {
+        "require_manifest_count_match": true,
+        "require_visibility_filter": true
+      },
+      "route_prefix": "/corpus/registry/",
+      "source_owner": "corpus",
+      "status": "canonical",
+      "title": "Registry Projection"
+    },
+    {
+      "collection_id": "c0000b",
+      "collection_key": "taulib_docs_projection",
+      "expected_item_count": 512,
+      "grouping": [],
+      "index_route": "/corpus/taulib/docs/",
+      "layout": "taulib-module-doc",
+      "purpose": "Public TauLib module documentation projection pinned to the release manifest.",
+      "qa": {
+        "require_manifest_count_match": true,
+        "require_release_pin": true
+      },
+      "route_prefix": "/corpus/taulib/docs/",
+      "source_owner": "taulib",
+      "status": "canonical",
+      "title": "TauLib Docs Projection"
+    },
+    {
+      "collection_id": "c0000c",
+      "collection_key": "monograph_projections",
+      "expected_item_count": 621,
+      "grouping": [
+        {
+          "expected_item_count": 7,
+          "key": "books",
+          "title": "Books"
+        },
+        {
+          "expected_item_count": 79,
+          "key": "parts",
+          "title": "Parts"
+        },
+        {
+          "expected_item_count": 535,
+          "key": "chapters",
+          "title": "Chapters"
+        }
+      ],
+      "index_route": "/corpus/monograph-corpus/",
+      "layout": "corpus-monograph",
+      "purpose": "Corpus monograph reading projection: seven books, generated parts, and generated chapters.",
+      "qa": {
+        "require_legacy_redirects": true,
+        "require_previous_next": true
+      },
+      "route_prefix": "/corpus/monographs/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Monograph Projections"
+    },
+    {
+      "collection_id": "c0000d",
+      "collection_key": "publications_artifacts",
+      "expected_item_count": 77,
+      "grouping": [
+        {
+          "expected_item_count": 7,
+          "key": "research_monographs",
+          "title": "Research Monographs"
+        },
+        {
+          "expected_item_count": 2,
+          "key": "monograph_supplements",
+          "title": "Monograph Supplements"
+        },
+        {
+          "expected_item_count": 9,
+          "key": "research_papers",
+          "title": "Research Papers"
+        },
+        {
+          "expected_item_count": 6,
+          "key": "research_notes",
+          "title": "Research Notes"
+        },
+        {
+          "expected_item_count": 44,
+          "key": "research_briefings_public_good",
+          "title": "Research Briefings Public Good"
+        },
+        {
+          "expected_item_count": 5,
+          "key": "white_papers",
+          "title": "White Papers"
+        },
+        {
+          "expected_item_count": 0,
+          "key": "release_artifacts",
+          "title": "Release Artifacts"
+        },
+        {
+          "expected_item_count": 4,
+          "key": "errata",
+          "title": "Errata"
+        }
+      ],
+      "index_route": "/publications/",
+      "layout": "publication-artifact",
+      "purpose": "Stable artifact, citation, and download inventory across the v4 Publications taxonomy.",
+      "qa": {
+        "require_download_exists": true,
+        "require_publication_page": true,
+        "require_version_label": true
+      },
+      "route_prefix": "/publications/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Publications / Artifacts"
+    },
+    {
+      "collection_id": "c0000e",
+      "collection_key": "scientific_plates",
+      "expected_item_count": 15,
+      "grouping": [],
+      "layout": "asset",
+      "purpose": "Curated visual explanation assets used by canonical public pages.",
+      "qa": {
+        "require_alt_text": true,
+        "require_derivatives": true,
+        "require_usage_list": true
+      },
+      "route_prefix": "/assets/images/plates/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Scientific Plates"
+    },
+    {
+      "collection_id": "c0000f",
+      "collection_key": "guided_tours",
+      "expected_item_count": 7,
+      "grouping": [],
+      "index_route": "/discover/guided-tours/",
+      "layout": "pdf-asset",
+      "purpose": "Current public guided-tour PDF set surfaced through Discover and Publications.",
+      "qa": {
+        "require_pdf_exists": true,
+        "require_public_route": true
+      },
+      "route_prefix": "/discover/guided-tours/",
+      "source_owner": "site",
+      "status": "canonical",
+      "title": "Guided Tours"
+    },
+    {
+      "collection_id": "c00010",
+      "collection_key": "design_system_assets",
+      "expected_item_count": 20,
+      "grouping": [],
+      "layout": "design-asset",
+      "purpose": "Summary collection for Sass/CSS design-system sources that govern the public shell and card language.",
+      "qa": {
+        "require_no_public_route_claim": true,
+        "require_source_hashes": true
+      },
+      "route_prefix": "/assets/css/",
+      "source_owner": "site",
+      "status": "summary",
+      "title": "Design System Assets"
+    },
+    {
+      "collection_id": "c00011",
+      "collection_key": "redirects_legacy_routes",
+      "expected_item_count": 31,
+      "grouping": [
+        {
+          "expected_item_count": 24,
+          "key": "redirected",
+          "title": "Redirected"
+        },
+        {
+          "expected_item_count": 4,
+          "key": "deprecated",
+          "title": "Deprecated"
+        },
+        {
+          "expected_item_count": 3,
+          "key": "archive",
+          "title": "Archive"
+        }
+      ],
+      "layout": "compatibility-route",
+      "purpose": "Summary collection for archive, deprecated, and redirected route surfaces governed by Pack D page classifications.",
+      "qa": {
+        "require_canonical_replacement": true,
+        "require_no_primary_lane_role": true
+      },
+      "route_prefix": "/",
+      "source_owner": "site-atlas",
+      "status": "summary",
+      "title": "Redirects / Legacy Routes"
+    }
+  ]
+}

@@ -60,7 +60,7 @@ The roadmap is therefore not only about adding more material. It is about making
   </div>
   <div class="v2-tile">
     <strong>Agenda surfaces</strong>
-    <span>Keep Core Semantics, the source-pinned Problem Ledger, Kernel/Model/Reality, and Construction Roadmap synchronized with Corpus, Results, and Verify.</span>
+    <span>Keep Core Semantics, the source-pinned Structural Challenge Ledger, Kernel/Model/Reality, and Construction Roadmap synchronized with Corpus, Results, and Verify.</span>
   </div>
   <div class="v2-tile">
     <strong>Formalization</strong>

@@ -14,13 +14,13 @@ PLATE_04_OG = "/assets/images/plates/plate-04-construction-spine-og.jpg"
 ALT = (
     "Scientific plate titled The Construction Spine, showing a vertical ten-step "
     "build sequence from Kernel to Ontic Closure, with side projections for "
-    "Registry, TauLib, Research Monographs, and Corpus Graph."
+    "Registry, TauLib, Monograph Corpus, and Corpus Graph."
 )
 CANONICAL_CAPTION = (
     "The Construction Spine is the Corpus-side build narrative: ten canonical "
     "steps from kernel definition through mathematics, physics, life, reflective "
     "structure, self-hosting, and ontic closure, with public projections through "
-    "the Registry, TauLib, Research Monographs, and Corpus Graph."
+    "the Registry, TauLib, Monograph Corpus, and Corpus Graph."
 )
 
 
@@ -128,9 +128,9 @@ def main() -> int:
             "The Construction Spine gives the human-readable build order of the Corpus",
             "The ten construction steps show how the Corpus is built",
         ],
-        "/program/research-agenda/construction-roadmap/": [
+        "/agenda/construction-roadmap/": [
             "Agenda roadmap and Corpus spine",
-            "The Construction Roadmap states what must be built; the Construction Spine shows the Corpus-side build narrative.",
+            "The Construction Roadmap states what must be built; the Construction Spine shows the Corpus-side build narrative, with side projections for Registry, TauLib, Monograph Corpus, and Corpus Graph.",
             "The Construction Roadmap states the build-order obligation.",
         ],
     }
@@ -165,7 +165,7 @@ def main() -> int:
         "/discover/ should keep Plate 01 og:image",
     )
 
-    for route in ["/", "/discover/", "/results/", "/verify/", "/verify/construction-spine-verification/", "/program/research-agenda/"]:
+    for route in ["/", "/discover/", "/results/", "/verify/", "/verify/construction-spine-verification/", "/agenda/"]:
         html, parser = read_page(site, route)
         require(parser.h1_count == 1, f"{route} should have exactly one H1")
         require(PLATE_ID not in html, f"{route} should not contain Plate 04")

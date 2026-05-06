@@ -1,0 +1,79 @@
+{
+  "description": "Pack F operational QA gates. Atlas source checks are strict immediately; built-site gates become strict in site CI after the Atlas payload is projected into the public website.\n",
+  "gates": [
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_validate.py",
+      "gate_key": "schema_validation",
+      "severity": "required",
+      "title": "Schema validation",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_routes.py --built-root _site --mode fail",
+      "gate_key": "route_existence",
+      "severity": "required",
+      "title": "Manifest route existence",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_collection_counts.py --site-root . --built-root _site",
+      "gate_key": "collection_counts",
+      "severity": "required",
+      "title": "Collection count parity",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_built_meta.py --built-root _site --mode fail",
+      "gate_key": "built_meta_tags",
+      "severity": "required",
+      "title": "Built Atlas metadata",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_visible_terms.py --built-root _site --mode fail",
+      "gate_key": "built_visible_terminology",
+      "severity": "required",
+      "title": "Visible deprecated terminology",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_terms.py --mode report",
+      "gate_key": "source_terminology_report",
+      "severity": "report",
+      "title": "Source deprecated terminology report",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_duplicates.py --built-root _site --mode fail",
+      "gate_key": "duplicate_surfaces",
+      "severity": "required",
+      "title": "Duplicate surface check",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_inventory.py --source .",
+      "gate_key": "source_inventory",
+      "severity": "report",
+      "title": "Source inventory",
+      "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_narrative_audit.py",
+      "gate_key": "narrative_audit",
+      "severity": "report",
+      "title": "Narrative audit",
+      "type": "editorial"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_generate_remediation_queue.py",
+      "gate_key": "remediation_queue",
+      "severity": "report",
+      "title": "Launch remediation queue",
+      "type": "editorial"
+    }
+  ],
+  "manifest_type": "site-atlas-qa-gates",
+  "schema_version": "0.2.0",
+  "status": "active",
+  "version": "2026-05-v4"
+}

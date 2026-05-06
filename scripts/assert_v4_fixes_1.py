@@ -112,22 +112,17 @@ def main() -> int:
     site = Path(sys.argv[1]).resolve()
     repo = Path(__file__).resolve().parents[1]
 
-    # P0.1: Agenda compatibility route.
-    agenda_redirect = read(html_path(site, "/agenda/"))
-    require(agenda_redirect, 'content="0; url=/program/research-agenda/"', "/agenda/")
-    require(agenda_redirect, 'rel="canonical" href="https://panta-rhei.site/program/research-agenda/"', "/agenda/")
-    require(agenda_redirect, '<meta name="robots" content="noindex,follow">', "/agenda/")
-    if "/agenda/" in read(site / "sitemap.xml"):
-        fail("/agenda/ redirect must not be listed in sitemap.xml")
-    worker_source = read(repo / "workers" / "site-edge-headers.js")
-    require(worker_source, '["/agenda", "/program/research-agenda/"]', "workers/site-edge-headers.js")
-    require(worker_source, '["/agenda/", "/program/research-agenda/"]', "workers/site-edge-headers.js")
+    # P0.1 updated by the v4 canonical Agenda migration: /agenda/ is now the public lane root.
+    agenda_html, agenda_visible = require_one_h1(site, "/agenda/")
+    require(agenda_html, 'rel="canonical" href="https://panta-rhei.site/agenda/"', "/agenda/")
+    require(read(site / "sitemap.xml"), "https://panta-rhei.site/agenda/", "sitemap.xml")
+    require(agenda_visible, "The Agenda lane states the public burden of the program", "/agenda/")
 
     # P0.2/P1.8: doctrine pages load directly, are canonical, sitemap-visible, and tagged at source.
     sitemap = read(site / "sitemap.xml")
     for route, phrase in {
         "/program/about/coherent-theory-of-reality/": "Full doctrine",
-        "/program/about/inspection-observatory/": "For journalists and reviewers",
+        "/program/about/inspection-observatory/": "For journalists, reviewers, and critical visitors",
     }.items():
         html, visible = require_one_h1(site, route)
         require(visible, phrase, route)
@@ -150,22 +145,22 @@ def main() -> int:
     forbid(results_visible, "organized by domain. Mathematics, Physics, Life, Metaphysics", "/results/")
 
     # P1.1/P2.1: Agenda terminology and source-rule semantics.
-    agenda_html, agenda_visible = require_one_h1(site, "/program/research-agenda/")
-    require(agenda_visible, "The program asks whether a constrained kernel can support a coherent theory of reality.", "/program/research-agenda/")
-    require(agenda_visible, "what formal shape an admissible theory of reality would need", "/program/research-agenda/")
-    forbid(agenda_visible, "coherent kernel-based model of reality", "/program/research-agenda/")
-    forbid(agenda_visible, "what formal shape a model would need", "/program/research-agenda/")
-    require(agenda_html, '<table class="domain-ledger-rules">', "/program/research-agenda/")
+    agenda_html, agenda_visible = require_one_h1(site, "/agenda/")
+    require(agenda_visible, "The program asks whether a constrained kernel can support a coherent theory of reality.", "/agenda/")
+    require(agenda_visible, "what formal shape an admissible theory of reality would need", "/agenda/")
+    forbid(agenda_visible, "coherent kernel-based model of reality", "/agenda/")
+    forbid(agenda_visible, "what formal shape a model would need", "/agenda/")
+    require(agenda_html, '<table class="domain-ledger-rules">', "/agenda/")
     for heading in [
         '<th scope="col">Domain</th>',
-        '<th scope="col">Ledger Rule</th>',
-        '<th scope="col">Why Included</th>',
+        '<th scope="col">SCL rule</th>',
+        '<th scope="col">Why included</th>',
         '<th scope="row">Mathematics</th>',
         '<th scope="row">Physics</th>',
         '<th scope="row">Life</th>',
         '<th scope="row">Metaphysics / Philosophy</th>',
     ]:
-        require(agenda_html, heading, "/program/research-agenda/")
+        require(agenda_html, heading, "/agenda/")
 
     # P1.2/P1.3/P1.9: v4 spine wording and artifact visibility.
     _, program_visible = require_one_h1(site, "/program/")
@@ -221,12 +216,12 @@ def main() -> int:
 
     _, observatory_visible = require_one_h1(site, "/program/about/inspection-observatory/")
     for needle in [
-        "For journalists and reviewers",
+        "For journalists, reviewers, and critical visitors",
         "Media Kit",
         "How to Verify",
         "Assessment Protocols",
         "Inspection Architecture for High-Scope Open Research",
-        "white paper, DOI forthcoming",
+        "open-research white paper",
     ]:
         require(observatory_visible, needle, "/program/about/inspection-observatory/")
 

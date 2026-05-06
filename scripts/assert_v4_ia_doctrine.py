@@ -108,8 +108,8 @@ def assert_header(site: Path) -> None:
     labels = re.findall(r'class="header-nav-link[^"]*">([^<]+)</a>', header)
     if labels != V4_NAV:
         fail(f"Header nav labels should be {V4_NAV}, found {labels}")
-    if 'href="/program/research-agenda/"' not in header or ">Agenda</a>" not in header:
-        fail("Agenda header link must point to /program/research-agenda/")
+    if 'href="/agenda/"' not in header or ">Agenda</a>" not in header:
+        fail("Agenda header link must point to /agenda/")
     if ">Publications</a>" in header:
         fail("Publications must not appear in the primary header nav")
 
@@ -144,7 +144,7 @@ def main() -> int:
     require(visible, CANONICAL_STATEMENT, "/program/")
     require(visible, "Program explains what kind of research object this is", "/program/")
     require(visible, "Agenda states the obligations. Corpus shows the construction. Results presents consequences. Verify makes the work inspectable.", "/program/")
-    require(visible, "What We Mean by Coherence", "/program/")
+    require(visible, "Coherent Theory of Reality", "/program/")
     require(visible, "Why an Inspection Observatory", "/program/")
     forbid(visible, "It is deliberately split into two routes", "/program/")
     forbid(visible, "Research Agenda as obligation layer", "/program/")
@@ -158,13 +158,13 @@ def main() -> int:
             fail(f"{route} should contain exactly one h1, found {len(parser.h1)}")
         require(visible, "What this page does not claim", route)
 
-    html, visible, parser = read_page(site, "/program/research-agenda/")
+    html, visible, parser = read_page(site, "/agenda/")
     if len(parser.h1) != 1:
-        fail(f"/program/research-agenda/ should contain exactly one h1, found {len(parser.h1)}")
+        fail(f"/agenda/ should contain exactly one h1, found {len(parser.h1)}")
     if 'data-lane="agenda"' not in html or 'class="site-body lane-agenda' not in html:
-        fail("/program/research-agenda/ must render as the Agenda lane")
-    require(visible, "The Agenda lane states the public burden of the program: what must be asked, recovered, built, refused, answered, and left open.", "/program/research-agenda/")
-    require(visible, "Agenda is the program's public obligation layer", "/program/research-agenda/")
+        fail("/agenda/ must render as the Agenda lane")
+    require(visible, "The Agenda lane states the public burden of the program: what must be asked, carried, built, refused, answered, and left open.", "/agenda/")
+    require(visible, "Agenda is the program’s public obligation layer", "/agenda/")
 
     _, visible, _ = read_page(site, "/discover/")
     for needle in [
@@ -197,8 +197,8 @@ def main() -> int:
     nav_source = read(repo / "_data" / "nav.yml")
     if 'title: "Publications"\n    url: "/publications/"\n    match: "/publications/"' in nav_source:
         fail("Publications must not remain in the header nav data")
-    if 'title: "Agenda"\n    url: "/program/research-agenda/"' not in nav_source:
-        fail("Header nav data must include Agenda pointing to /program/research-agenda/")
+    if 'title: "Agenda"\n    url: "/agenda/"' not in nav_source:
+        fail("Header nav data must include Agenda pointing to /agenda/")
 
     print("v4 IA doctrine assertions passed")
     return 0

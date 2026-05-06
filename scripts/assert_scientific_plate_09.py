@@ -164,7 +164,7 @@ def main() -> int:
         "/engage/for-engineering-contributors/": [
             "Infrastructure contribution",
             "Contributing infrastructure can mean improving documentation, metadata, tooling, templates, search, formalization support, or source structure.",
-            "Contribution does not imply endorsement.",
+            "Engineering contribution does not imply endorsement of the theory or its results.",
         ],
     }
 
@@ -178,7 +178,7 @@ def main() -> int:
     boundary_ogs = {
         "/": PLATE_01_OG,
         "/discover/": PLATE_01_OG,
-        "/program/research-agenda/": PLATE_03_OG,
+        "/agenda/": PLATE_03_OG,
         "/corpus/": PLATE_04_OG,
         "/results/": PLATE_05_OG,
         "/verify/": PLATE_06_OG,

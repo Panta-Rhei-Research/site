@@ -109,7 +109,7 @@ The gap between these levels is not treated as a decorative philosophical caveat
 
 The [**Core Semantics**]({{ '/agenda/core-semantics/' | relative_url }}) surface records the language, structures, laws, grammars, and refusal boundaries the theory must earn.
 
-The [**Problem Ledger**]({{ '/agenda/problem-ledger/' | relative_url }}) records open questions the program accepts as public stress tests.
+The [**Structural Challenge Ledger**]({{ '/agenda/structural-challenge-ledger/' | relative_url }}) records open questions the program accepts as public stress tests.
 
 Kernel, Model & Reality asks a still deeper question: what sort of answer would make either surface matter ontologically, rather than merely as a useful classificatory exercise?
 

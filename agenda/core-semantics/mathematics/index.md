@@ -13,8 +13,8 @@ right_rail:
       url: /agenda/core-semantics/
     - title: "Mathematical Refusals"
       url: /agenda/core-semantics/mathematics/refusals/
-    - title: "Mathematics Problem Ledger"
-      url: /agenda/problem-ledger/mathematics/
+    - title: "Mathematics Structural Challenges"
+      url: /agenda/structural-challenge-ledger/mathematics/
   meta:
     type: "Core Semantics Domain"
     scope: "Mathematics"
@@ -34,7 +34,7 @@ Core Semantics does not require reproducing established semantics unchanged. It 
 
 ## Why Core Semantics differs from open problems
 
-The Mathematics Problem Ledger asks whether the kernel can express or re-ground Clay- and Langlands-scale stress tests. Mathematics Core Semantics asks which mathematical capacities must be earned before those stress tests can even be handled responsibly.
+The Mathematics Structural Challenge Ledger asks whether the kernel can express or re-ground Clay- and Langlands-scale stress tests. Mathematics Core Semantics asks which mathematical capacities must be earned before those stress tests can even be handled responsibly.
 
 The recovery burden is not to import standard foundations wholesale. It is to recover formal checkability, finite syntax and proof objects, finite arithmetic and algebraic calculation, Euclidean geometry, representation of standard formal systems as object theories, and explicit bridge criteria into standard mathematics.
 

@@ -11,8 +11,8 @@ right_rail:
   related:
     - title: "Core Semantics"
       url: /agenda/core-semantics/
-    - title: "Life Problem Ledger"
-      url: /agenda/problem-ledger/life/
+    - title: "Life Structural Challenges"
+      url: /agenda/structural-challenge-ledger/life/
     - title: "Life Results"
       url: /results/topic/biology/
   meta:
@@ -50,6 +50,6 @@ Earth life is the known calibration case, not the definition of life itself.
   {% endfor %}
 </div>
 
-## Relation to the Life Problem Ledger
+## Relation to the Life Structural Challenge Ledger
 
 Biology and neuroscience remain external stress-test ledgers. Life Core Semantics names the structural preconditions that make those open problems addressable without assuming that life reduces to physics as an input premise.

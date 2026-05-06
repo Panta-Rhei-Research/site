@@ -11,12 +11,12 @@ from pathlib import Path
 PLATE_ID = "plate-01-public-research-observatory"
 ALT = (
     "Scientific plate showing the Panta Rhei Research Program as a public research observatory, "
-    "with a central spine from Research Agenda to Corpus to Results to Verify, surrounded by "
+    "with a central spine from Agenda to Corpus to Results to Verify, surrounded by "
     "Discover, Program, Publications, Impact, Engage, inspectability surfaces, and world readouts "
     "for mathematics, physics, life, and metaphysics."
 )
 HOME_CAPTION = (
-    "The Panta Rhei website is structured as a public research observatory: Research Agenda states "
+    "The Panta Rhei website is structured as a public research observatory: Agenda states "
     "the obligations, Corpus carries the construction, Results reports current consequences, Verify "
     "exposes inspection routes, Publications holds stable artifacts, Impact maps conditional "
     "implications, and Engage invites structured scrutiny without endorsement."

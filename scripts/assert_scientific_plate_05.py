@@ -18,8 +18,8 @@ ALT = (
 )
 CANONICAL_CAPTION = (
     "Results are not isolated claims. They are consequences of the built Corpus, "
-    "organized through Landmark Results, World Readouts, Problem Ledger Answers, "
-    "Recovery Target Status, Additional Derived Results, and Progress Against Agenda, "
+    "organized through Landmark Results, World Readouts, Challenge Responses, "
+    "Core Semantics Status, Additional Derived Results, and Progress Against Agenda, "
     "with internal status labels separated from external acceptance."
 )
 
@@ -112,7 +112,7 @@ def main() -> int:
             "Results are not isolated claims. They are consequences of the built Corpus, organized through status-marked result surfaces and routed toward inspection.",
             "Explore Landmark Results",
             "Open World Readouts",
-            "Read Problem Ledger Answers",
+            "Read Challenge Responses",
             "Track Progress Against Agenda",
         ],
         "/results/world-readout/": [
@@ -154,7 +154,7 @@ def main() -> int:
         "/discover/ should keep Plate 01 og:image",
     )
 
-    for route in ["/", "/discover/", "/program/research-agenda/", "/corpus/", "/verify/"]:
+    for route in ["/", "/discover/", "/agenda/", "/corpus/", "/verify/"]:
         html, parser = read_page(site, route)
         require(parser.h1_count == 1, f"{route} should have exactly one H1")
         require(PLATE_ID not in html, f"{route} should not contain Plate 05")

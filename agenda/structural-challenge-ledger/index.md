@@ -42,7 +42,7 @@ right_rail:
 
 ## What this is
 
-The Structural Challenge Ledger is the canonical Agenda-side record of the challenges a coherent theory of reality must be able to address. It supersedes the v1.0 *Problem Ledger* mirror, which is fully retired and snapshotted to the program's internal archive.
+The Structural Challenge Ledger is the canonical Agenda-side record of the challenges a coherent theory of reality must be able to address. It supersedes the retired v1.0 raw-source mirror, which is fully snapshotted to the program's internal archive.
 
 A challenge enters this ledger only when it tests a declared τ obligation: semantic generation, structural recovery, bridge adequacy, proof or formalization strength, prediction, falsification, or a new route to knowledge.
 

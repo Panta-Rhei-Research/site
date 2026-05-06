@@ -92,7 +92,7 @@ In [Verify the Construction Spine]({{ '/verify/construction-spine-verification/'
 
 ## How this roadmap appears in Results
 
-In Results, the sequence is not the primary organizing principle. Results is where the built Corpus becomes a world: landmark consequences, world readouts, Problem Ledger answers, Recovery Target status, and the [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) dashboard.
+In Results, the sequence is not the primary organizing principle. Results is where the built Corpus becomes a world: landmark consequences, world readouts, Challenge Responses, Core Semantics status, and the [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) dashboard.
 
 ## Current status and next reading
 

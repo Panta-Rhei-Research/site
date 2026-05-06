@@ -85,7 +85,7 @@ Participation does not imply endorsement. A reviewer may inspect one part of the
 
 ## Review routes moved into Verify
 
-The former standalone Review Kit has been folded into the observatory's native inspection routes.
+The former standalone reviewer packet has been folded into the observatory's native inspection routes.
 
 Use:
 

@@ -8,6 +8,7 @@
   <meta property="og:description" content="{{ page.summary_short | strip_html | normalize_whitespace | escape }}">
   {% endif %}
   <meta name="robots" content="noindex,follow">
+  {% include site-atlas-meta.html %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
   <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
   <title>{{ page.title | default: "Redirecting" }} | {{ site.title }}</title>

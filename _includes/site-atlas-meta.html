@@ -1,0 +1,16 @@
+{%- comment -%}
+  Site Atlas metadata projection.
+
+  Values are generated from Atlas manifests into _data/site_atlas/ and are not
+  page-frontmatter-owned. If a route has no Site Atlas entry, this include emits
+  nothing so large generated collections can remain collection-governed.
+{%- endcomment -%}
+{%- assign atlas_page = site.data.site_atlas.route_index[page.url] -%}
+{%- if atlas_page -%}
+<meta name="prrp:atlas_id" content="{{ atlas_page.atlas_id | escape }}">
+<meta name="prrp:page_key" content="{{ atlas_page.page_key | escape }}">
+<meta name="prrp:ia_path" content="{{ atlas_page.ia_path | escape }}">
+<meta name="prrp:lane" content="{{ atlas_page.lane | escape }}">
+<meta name="prrp:status" content="{{ atlas_page.status | escape }}">
+<meta name="prrp:canonical_role" content="{{ atlas_page.canonical_role | escape }}">
+{%- endif -%}

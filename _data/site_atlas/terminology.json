@@ -1,0 +1,106 @@
+{
+  "allowed_paths": {
+    "archive": [
+      "archive/",
+      "site-atlas/changelogs/"
+    ],
+    "changelog": [
+      "changelog",
+      "changelogs/"
+    ],
+    "control_plane": [
+      "site-atlas/"
+    ],
+    "migration_note": [
+      "migration",
+      "briefings/"
+    ]
+  },
+  "canonical_terms": {
+    "challenge_response": {
+      "description": "A single Results-side response to a structural challenge.",
+      "preferred": "Challenge Response"
+    },
+    "challenge_responses": {
+      "description": "Results-side response surface for structural challenges.",
+      "preferred": "Challenge Responses"
+    },
+    "raw_source_feed": {
+      "description": "Non-canonical input stream or legacy source feed.",
+      "preferred": "Raw Source Feed"
+    },
+    "structural_challenge": {
+      "description": "A public obligation or challenge tracked upstream of Corpus construction.",
+      "preferred": "Structural Challenge"
+    },
+    "structural_challenge_ledger": {
+      "description": "Agenda-side canonical challenge surface.",
+      "preferred": "Structural Challenge Ledger"
+    }
+  },
+  "deprecated_terms": [
+    {
+      "allowed_contexts": [
+        "archive",
+        "changelog",
+        "migration_note",
+        "legacy_route_banner",
+        "source_quote",
+        "control_plane"
+      ],
+      "replacement": "Structural Challenge Ledger",
+      "severity": "error",
+      "term": "Problem Ledger"
+    },
+    {
+      "allowed_contexts": [
+        "archive",
+        "changelog",
+        "migration_note",
+        "legacy_route_banner",
+        "control_plane"
+      ],
+      "replacement": "Challenge Responses",
+      "severity": "error",
+      "term": "Problem Ledger Answers"
+    },
+    {
+      "allowed_contexts": [
+        "archive",
+        "changelog",
+        "migration_note",
+        "legacy_route_banner",
+        "control_plane"
+      ],
+      "replacement": "Challenge Responses",
+      "severity": "error",
+      "term": "Problem Answers"
+    },
+    {
+      "allowed_contexts": [
+        "archive",
+        "changelog",
+        "migration_note",
+        "control_plane"
+      ],
+      "replacement": "Structural Challenge",
+      "severity": "warning",
+      "term": "Problem Ledger item"
+    },
+    {
+      "allowed_contexts": [
+        "archive",
+        "changelog",
+        "migration_note",
+        "control_plane"
+      ],
+      "replacement": "Structural Challenge Ledger",
+      "severity": "warning",
+      "term": "Open Problem Ledger"
+    }
+  ],
+  "manifest_type": "site-atlas-terminology",
+  "schema_version": "0.1.0",
+  "status": "draft",
+  "version": "2026-05-v4"
+}
