@@ -11,8 +11,8 @@ right_rail:
   related:
     - title: "Core Semantics"
       url: /agenda/core-semantics/
-    - title: "Physics Problem Ledger"
-      url: /agenda/problem-ledger/physics/
+    - title: "Physics Structural Challenges"
+      url: /agenda/structural-challenge-ledger/physics/
     - title: "Physics Results"
       url: /results/topic/physics/
   meta:
@@ -50,6 +50,6 @@ SI is a bridge target, not a primitive input. Dimensionful constants require uni
   {% endfor %}
 </div>
 
-## Relation to the Physics Problem Ledger
+## Relation to the Physics Structural Challenge Ledger
 
-The Physics Problem Ledger tracks open questions. Physics Core Semantics tracks the baseline measurement-and-law architecture those questions presuppose.
+The Physics Structural Challenge Ledger tracks open questions. Physics Core Semantics tracks the baseline measurement-and-law architecture those questions presuppose.

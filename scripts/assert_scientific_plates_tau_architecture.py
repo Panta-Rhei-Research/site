@@ -38,7 +38,7 @@ PLATES = {
             "self-enrichment, and dualism, with self-enrichment shown as a generated layer "
             "carrying new relational grammar without adding a second world."
         ),
-        "routes": ["/impact/foundational-science/", "/program/research-agenda/kernel-model-reality/"],
+        "routes": ["/impact/foundational-science/", "/agenda/kernel-model-reality/"],
         "og_routes": ["/impact/foundational-science/"],
     },
     "plate-13-kernel-to-measurement": {
@@ -60,8 +60,8 @@ PLATES = {
             "and residual boundary by silence, plus allowed treatments such as internalized, "
             "derived, typed, factored out, bridged, or marked unresolved."
         ),
-        "routes": ["/program/research-agenda/kernel-model-reality/no-externalities/"],
-        "og_routes": ["/program/research-agenda/kernel-model-reality/no-externalities/"],
+        "routes": ["/agenda/kernel-model-reality/no-externalities/"],
+        "og_routes": ["/agenda/kernel-model-reality/no-externalities/"],
     },
     "plate-15-bi-square-spine": {
         "title": "The Bi-Square Spine",

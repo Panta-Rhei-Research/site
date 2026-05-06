@@ -13,11 +13,11 @@ PLATE_01_OG = "/assets/images/plates/plate-01-public-research-observatory-og.jpg
 PLATE_02_OG = "/assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg"
 ALT = (
     "Scientific plate titled From Obligation to Inspection, showing the Panta Rhei accountability "
-    "chain from Research Agenda to Corpus to Results to Verify, with corresponding stages of "
+    "chain from Agenda to Corpus to Results to Verify, with corresponding stages of "
     "obligation, construction, consequence, and inspection."
 )
 CANONICAL_CAPTION = (
-    "Panta Rhei asks to be read through a public chain of accountability: Research Agenda states "
+    "Panta Rhei asks to be read through a public chain of accountability: Agenda states "
     "the obligations, Corpus carries the construction, Results reports what follows, and Verify "
     "exposes how claims can be inspected, challenged, and tested."
 )
@@ -104,11 +104,11 @@ def main() -> int:
         require(path.stat().st_size > 10_000, f"Plate 02 asset too small to be valid: {path}")
 
     targets = {
-        "/program/research-agenda/": [
+        "/agenda/": [
             "From obligation to inspection",
             CANONICAL_CAPTION,
-            "The Research Agenda is the obligation layer.",
-            "Read the Research Agenda",
+            "The Agenda is the obligation layer.",
+            "Read the Agenda",
             "Follow the Construction Spine",
             "See Progress Against Agenda",
             "Verify the Construction Spine",

@@ -55,6 +55,13 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Check Site Atlas gates
+        run: |
+          python3 scripts/check_site_atlas_meta.py _site
+          python3 scripts/check_site_atlas_visible_terms.py _site
+          python3 scripts/check_site_atlas_collection_counts.py _site
+          python3 scripts/check_site_atlas_routes.py _site
+
       - name: Check v2 shell migration
         run: npm run qa:v2-shell
 

@@ -25,7 +25,7 @@ CHILDREN = {
 }
 
 LOCKED_LANGUAGE = [
-    "Related Approaches is not a takedown of other theories. It is a positioning map.",
+    "Related Approaches is a positioning map, not a takedown, literature survey, or priority claim.",
     "Panta Rhei compares related approaches through its own standards: Core Semantics, Earned Language, Internal Standpoint, No Externalities, Construction Spine, and Verify.",
 ]
 
@@ -175,8 +175,8 @@ def main() -> int:
         fail("Program/About nav must include Related Approaches")
 
     for route in [
-        "/program/research-agenda/kernel-model-reality/related-approaches/",
-        "/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/",
+        "/agenda/kernel-model-reality/related-approaches/",
+        "/agenda/kernel-model-reality/related-approaches/deep-comparison/",
     ]:
         html, visible = assert_one_h1(site, route)
         if f'href="{HUB}"' not in html:
@@ -189,8 +189,8 @@ def main() -> int:
         "/program/about/coherent-theory-of-reality/",
         "/program/about/inspection-observatory/",
         "/discover/",
-        "/program/research-agenda/kernel-model-reality/",
-        "/program/research-agenda/core-design-principles/",
+        "/agenda/kernel-model-reality/",
+        "/agenda/core-design-principles/",
         "/corpus/construction-spine/",
         "/media/",
     ]:

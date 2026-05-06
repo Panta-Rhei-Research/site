@@ -16,6 +16,7 @@ tags:
   - core-semantics
   - earned-language
   - doctrine
+  - research-program
 hero_ctas:
   - label: "Program"
     url: /program/

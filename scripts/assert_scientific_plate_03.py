@@ -12,14 +12,14 @@ PLATE_ID = "plate-03-public-obligation-layer"
 PLATE_01_OG = "/assets/images/plates/plate-01-public-research-observatory-og.jpg"
 PLATE_03_OG = "/assets/images/plates/plate-03-public-obligation-layer-og.jpg"
 ALT = (
-    "Scientific plate titled The Public Obligation Layer, showing the Research Agenda "
-    "as a public research contract connected to four surfaces: Problem Ledger, "
-    "Recovery Requirements, Kernel, Model & Reality, and Construction Roadmap."
+    "Scientific plate titled The Public Obligation Layer, showing the Agenda "
+    "as a public research contract connected to four surfaces: Core Semantics, "
+    "Structural Challenge Ledger, Kernel, Model & Reality, and Construction Roadmap."
 )
 CANONICAL_CAPTION = (
-    "The Research Agenda is the program's public obligation layer: it records "
-    "the open problems, recovery requirements, answer-shape burden, and "
-    "construction order that must be stated before Results are read as consequences."
+    "The Agenda is the program's public obligation layer: it records Core Semantics, "
+    "Structural Challenge Ledger, answer-shape burden, and construction order before "
+    "Results are read as consequences."
 )
 
 
@@ -112,20 +112,18 @@ def main() -> int:
         require(path.stat().st_size > 10_000, f"Plate 03 asset too small to be valid: {path}")
 
     targets = {
-        "/program/research-agenda/": [
+        "/agenda/": [
             "The obligation layer at a glance",
             "The public obligation layer",
             CANONICAL_CAPTION,
-            "It states what the program accepts as a burden before Results are allowed to sound like consequences.",
-            "Open the Problem Ledger",
-            "Read Recovery Requirements",
+            "Open the Structural Challenge Ledger",
             "Explore Kernel, Model & Reality",
             "Follow the Construction Roadmap",
         ],
         "/discover/": [
             "Before Results, there is obligation",
             "Before Results, there is obligation: the Agenda records external problems, core-semantics obligations",
-            "The Research Agenda states the burden: what must be kept visible",
+            "Agenda states the burden: what language must be earned",
         ],
     }
 
@@ -135,11 +133,11 @@ def main() -> int:
         for needle in required_text:
             require(needle in parser.visible, f"{route} missing expected text: {needle}")
 
-    _, agenda = read_page(site, "/program/research-agenda/")
-    assert_before(agenda.visible, "The public obligation layer", "How to read this page", "/program/research-agenda/")
-    assert_before(agenda.visible, "The four agenda surfaces", "The public obligation layer", "/program/research-agenda/")
+    _, agenda = read_page(site, "/agenda/")
+    assert_before(agenda.visible, "The public obligation layer", "How to read this page", "/agenda/")
+    assert_before(agenda.visible, "The four agenda surfaces", "The public obligation layer", "/agenda/")
 
-    for route in ["/program/research-agenda/", "/program/"]:
+    for route in ["/agenda/", "/program/"]:
         _, parser = read_page(site, route)
         require(
             meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{PLATE_03_OG}",
@@ -150,7 +148,7 @@ def main() -> int:
             f"{route} missing Plate 03 twitter:image",
         )
         require(
-            "Research Agenda as the public obligation layer" in (meta_content(parser, "property", "og:image:alt") or ""),
+            "Agenda as the public obligation layer" in (meta_content(parser, "property", "og:image:alt") or ""),
             f"{route} missing Plate 03 OG alt text",
         )
 

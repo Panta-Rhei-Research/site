@@ -210,8 +210,8 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
     {% for item in progress %}
       {% assign construction_slugs = item.related_construction_steps | map: "slug" | join: "," %}
       {%- comment -%}
-        Wave 3: surface the v4 item-kind labels even though the dashboard
-        data feed still emits the v1 "Problem Ledger item" string.
+        Wave 3: surface the v4 item-kind labels even when older dashboard
+        data feeds still emit retired v1 labels.
       {%- endcomment -%}
       {% case item.item_kind %}
         {% when "problem" %}{% assign v4_kind_label = "Structural Challenge" %}

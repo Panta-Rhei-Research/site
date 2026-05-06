@@ -130,7 +130,7 @@ def main() -> int:
         "Program -> Agenda -> Corpus -> Results -> Verify",
         "First-pass inspection checklist",
         "Is the scope and burden of proof explicit?",
-        "Are the Problem Ledger and source-policy rules visible?",
+        "Are the Structural Challenge Ledger and source-policy rules visible?",
         "Are Core Semantics and answer-shape obligations stated separately from open problems?",
         "Is there a Construction Roadmap / Construction Spine?",
         "Is there a Corpus with stable IDs and dependency routes?",

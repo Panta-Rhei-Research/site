@@ -37,11 +37,11 @@ right_rail:
 
 A claim counts as a program result only when it can be placed in a public chain of reasons. That chain may be prose, registry-backed, computational, formalized, or empirically mapped, but it must be inspectable enough that a reader can see what would have to fail.
 
-[Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) and the [Problem Ledger]({{ '/agenda/problem-ledger/' | relative_url }}) define two different burdens.
+[Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}) and the [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/' | relative_url }}) define two different burdens.
 
 Core Semantics asks whether the theory can carry, retype, or explicitly challenge the language and structures required by the domains it addresses.
 
-Problem Ledger asks how the program handles open stress-test questions.
+The Structural Challenge Ledger asks how the program handles open stress-test questions.
 
 ## Result classes
 

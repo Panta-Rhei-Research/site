@@ -11,8 +11,8 @@ right_rail:
   related:
     - title: "Core Semantics"
       url: /agenda/core-semantics/
-    - title: "Metaphysics / Philosophy Problem Ledger"
-      url: /agenda/problem-ledger/metaphysics-philosophy/
+    - title: "Metaphysics / Philosophy Structural Challenges"
+      url: /agenda/structural-challenge-ledger/metaphysics/
     - title: "Metaphysics World Readout"
       url: /results/world-readout/metaphysics/
   meta:

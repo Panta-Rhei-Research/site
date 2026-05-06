@@ -176,7 +176,7 @@ The [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/' | re
   </tbody>
 </table>
 
-The retired v1.0 Problem Ledger imported larger raw feeds for Life and Metaphysics. Those feeds are now provenance sources only. They do not define the canonical Life or Metaphysics challenge sets. See the [SCL Source Policy]({{ '/agenda/structural-challenge-ledger/source-policy/' | relative_url }}) for the full admission criteria.
+The retired v1.0 source mirror imported larger raw feeds for Life and Metaphysics. Those feeds are now provenance sources only. They do not define the canonical Life or Metaphysics challenge sets. See the [SCL Source Policy]({{ '/agenda/structural-challenge-ledger/source-policy/' | relative_url }}) for the full admission criteria.
 
 ## Core Semantics vs Structural Challenge Ledger
 

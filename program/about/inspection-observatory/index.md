@@ -11,6 +11,7 @@ summary_short: "Why the website is organized as an inspectable research observat
 tags:
   - inspection-observatory
   - inspection-before-belief
+  - public-research-observatory
   - open-research
   - assessment-protocols
   - bounded-review

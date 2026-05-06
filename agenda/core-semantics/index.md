@@ -98,7 +98,7 @@ The current canonical v0.1 public projection contains {{ recovery_items.size }} 
 
 ## Core Semantics vs problem solving
 
-The Problem Ledger asks whether the theory can express, classify, constrain, answer, defer, reclassify, or reject external stress-test problems with reasons.
+The Structural Challenge Ledger asks whether the theory can express, classify, constrain, answer, defer, reclassify, or reject external stress-test challenges with reasons.
 
 Core Semantics asks whether the theory can carry the baseline language and structures those questions require: formal reasoning, measurement architecture, life-organization grammar, reflective meaning, and metaphysical intelligibility.
 
