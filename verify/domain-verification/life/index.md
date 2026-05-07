@@ -17,8 +17,8 @@ right_rail:
       url: /results/life/
     - title: "Life Core Semantics"
       url: /agenda/core-semantics/life/
-    - title: "Origin of Life Problem Answer"
-      url: /results/challenge-responses/life/origin-of-life/
+    - title: "Abiogenesis Challenge Response"
+      url: /results/challenge-responses/life/origin-substrate-life-as-could-be/abiogenesis-first-persistence/
     - title: "Assessment Protocols"
       url: /verify/assessment-protocols/
     - title: "How to Verify (Philosopher)"

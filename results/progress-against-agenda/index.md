@@ -219,6 +219,7 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
         {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
         {% else %}{% assign v4_kind_label = item.item_kind_label %}
       {% endcase %}
+      {% assign item_url = item.canonical_program_url | default: "" %}
       <li class="result-card agenda-progress-card"
           data-domain="{{ item.domain }}"
           data-item-kind="{{ item.item_kind }}"
@@ -227,7 +228,11 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
           data-external-status="{{ item.external_status }}"
           data-construction-steps="{{ construction_slugs }}"
           data-title="{{ item.title | downcase }}">
+        {% if item_url != "" %}
         <a class="result-card-link" href="{{ item.canonical_program_url | relative_url }}">
+        {% else %}
+        <div class="result-card-link result-card-link--inactive" aria-label="{{ item.title | escape }} route pending">
+        {% endif %}
           <div class="result-card-top">
             <span class="chip chip-kind">{{ v4_kind_label }}</span>
             <span class="chip chip-status">{{ item.display_status_label }}</span>
@@ -257,7 +262,11 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
               <span class="chip chip-small">Route still sparse</span>
             {% endunless %}
           </div>
+        {% if item_url != "" %}
         </a>
+        {% else %}
+        </div>
+        {% endif %}
       </li>
     {% endfor %}
   </ol>
@@ -273,10 +282,18 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
       {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
       {% else %}{% assign v4_kind_label = item.item_kind_label %}
     {% endcase %}
+    {% assign item_url = item.canonical_program_url | default: "" %}
+    {% if item_url != "" %}
     <a class="v2-tile" href="{{ item.canonical_program_url | relative_url }}">
       <strong>{{ item.title }}</strong>
       <span>{{ item.last_modified }} · {{ v4_kind_label }} · {{ item.display_status_label }}</span>
     </a>
+    {% else %}
+    <div class="v2-tile" aria-label="{{ item.title | escape }} route pending">
+      <strong>{{ item.title }}</strong>
+      <span>{{ item.last_modified }} · {{ v4_kind_label }} · {{ item.display_status_label }} · Route pending</span>
+    </div>
+    {% endif %}
   {% endfor %}
 </div>
 
@@ -293,10 +310,18 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
       {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
       {% else %}{% assign v4_kind_label = item.item_kind_label %}
     {% endcase %}
+    {% assign item_url = item.canonical_program_url | default: "" %}
+    {% if item_url != "" %}
     <a class="v2-tile" href="{{ item.canonical_program_url | relative_url }}">
       <strong>{{ item.title }}</strong>
       <span>{{ item.display_domain }} · {{ v4_kind_label }}</span>
     </a>
+    {% else %}
+    <div class="v2-tile" aria-label="{{ item.title | escape }} route pending">
+      <strong>{{ item.title }}</strong>
+      <span>{{ item.display_domain }} · {{ v4_kind_label }} · Route pending</span>
+    </div>
+    {% endif %}
   {% endfor %}
 </div>
 {% else %}
@@ -308,10 +333,18 @@ _No public agenda items currently sit in the “not yet touched” bucket._
 {% if reclassified.size > 0 %}
 <div class="v2-grid">
   {% for item in reclassified %}
+    {% assign item_url = item.canonical_program_url | default: "" %}
+    {% if item_url != "" %}
     <a class="v2-tile" href="{{ item.canonical_program_url | relative_url }}">
       <strong>{{ item.title }}</strong>
       <span>{{ item.reclassification_note | default: "Reclassified or dismissed in the public ledger." }}</span>
     </a>
+    {% else %}
+    <div class="v2-tile" aria-label="{{ item.title | escape }} route pending">
+      <strong>{{ item.title }}</strong>
+      <span>{{ item.reclassification_note | default: "Reclassified or dismissed in the public ledger." }} · Route pending</span>
+    </div>
+    {% endif %}
   {% endfor %}
 </div>
 {% else %}

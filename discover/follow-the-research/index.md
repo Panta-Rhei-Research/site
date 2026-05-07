@@ -1,6 +1,7 @@
 ---
 layout: program-doc
-title: "Follow the Research"
+title: "Follow the Research: Orientation"
+title_plain: "Follow the Research: Orientation"
 lane: discover
 v2_lane: discover
 permalink: /discover/follow-the-research/

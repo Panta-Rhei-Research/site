@@ -22,8 +22,6 @@ right_rail:
     updated: "May 2026"
 ---
 
-# Physics Core Semantics
-
 The language and structures the theory must earn in physics before it can answer.
 
 Physics Core Semantics includes recovery targets for quantity, dimensional algebra, unit bridges, constants, laws, regimes, and measurement.
