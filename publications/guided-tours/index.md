@@ -1,6 +1,7 @@
 ---
 layout: program-doc
-title: "Guided Tours"
+title: "Guided Tours Publications"
+title_plain: "Guided Tours Publications"
 lane: publications
 permalink: /publications/guided-tours/
 type: "Publication Family"
