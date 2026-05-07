@@ -23,6 +23,8 @@ right_rail:
       url: /engage/
     - title: "Public Discussions"
       url: /engage/discussions/
+    - title: "Corrections"
+      url: /engage/corrections/
     - title: "Review the Work"
       url: /engage/review-the-work/
     - title: "Read & Explore"
@@ -79,6 +81,10 @@ Engagement does not begin with agreement. It begins with a useful form of attent
     <h3>Challenge a weak link</h3>
     <p>Name the claim, the suspected failure mode, and what would count as correction or failure.</p>
   </a>
+  <a class="v2-tile" href="{{ '/engage/corrections/' | relative_url }}">
+    <h3>Submit a correction</h3>
+    <p>Route corrections, prior-art references, claim-boundary concerns, publication errata, or private review feedback.</p>
+  </a>
   <a class="v2-tile" href="{{ '/engage/review-the-work/' | relative_url }}">
     <h3>Offer bounded review</h3>
     <p>Review one Structural Challenge / Challenge Response, Core Semantics / Recovery item, result, research note, TauLib module, briefing, or page template.</p>
@@ -121,6 +127,7 @@ Engagement does not begin with agreement. It begins with a useful form of attent
   <tbody>
     <tr><td>Ask a public question</td><td><a href="https://github.com/orgs/Panta-Rhei-Research/discussions">GitHub Discussions</a></td></tr>
     <tr><td>Challenge a claim publicly</td><td><a href="https://github.com/orgs/Panta-Rhei-Research/discussions">GitHub Discussions</a></td></tr>
+    <tr><td>Submit a correction or prior-art concern</td><td><a href="{{ '/engage/corrections/' | relative_url }}">Corrections</a></td></tr>
     <tr><td>Report a concrete defect</td><td><a href="https://github.com/Panta-Rhei-Research/site/issues">GitHub Issues</a></td></tr>
     <tr><td>Propose a concrete fix</td><td>Pull Request</td></tr>
     <tr><td>Offer domain review</td><td><a href="{{ '/engage/discussions/' | relative_url }}">GitHub Discussions</a> or email</td></tr>
@@ -134,6 +141,8 @@ Engagement does not begin with agreement. It begins with a useful form of attent
 ## Where to start
 
 If your question can help other readers, begin with [Public Discussions]({{ '/engage/discussions/' | relative_url }}).
+
+If your concern could change a claim boundary, result status, registry object, formalization mapping, publication artifact, or prior-art record, use [Corrections]({{ '/engage/corrections/' | relative_url }}).
 
 If your concern is concrete and actionable, use the relevant issue tracker:
 

@@ -871,16 +871,43 @@ def sync_taulib_projection() -> None:
         normalize_taulib_projection_tree(SITE_ROOT / "_taulib_docs")
 
 
+def sync_change_control() -> None:
+    source_root = CORPUS_EXPORTS / "corpus-changelog"
+    if not source_root.exists():
+        raise SystemExit(f"Missing Corpus Changelog public export: {source_root}")
+    for filename in ("corpus-changelog.json", "corpus-changelog.ndjson", "corpus-changelog.csv"):
+        source = source_root / filename
+        copy_file(source, SITE_ROOT / "_data" / "corpus_changelog" / filename)
+        copy_file(source, SITE_ROOT / "assets" / "data" / "corpus-changelog" / filename)
+    report = source_root / "projection-report.md"
+    if report.exists():
+        copy_file(report, SITE_ROOT / "assets" / "data" / "corpus-changelog" / "projection-report.md")
+    clean_generated_tree(SITE_ROOT / "_corpus_changelog")
+    pages_source = source_root / "pages"
+    if pages_source.exists():
+        copy_tree(pages_source, SITE_ROOT / "_corpus_changelog")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--scope",
-        choices=("all", "foundations", "corpus-v3", "taulib", "ledgers", "results", "monographs"),
+        choices=(
+            "all",
+            "foundations",
+            "corpus-v3",
+            "taulib",
+            "ledgers",
+            "results",
+            "monographs",
+            "change-control",
+        ),
         default="all",
         help=(
             "Sync all Corpus public exports, only Construction Spine / Foundational Hinges, "
             "the Corpus v3 Construction Map / Monograph / TauLib projections, "
-            "only the tailored TauLib projection, or the Results/ledger projections."
+            "only the tailored TauLib projection, the Results/ledger projections, "
+            "or the Corpus Changelog change-control projection."
         ),
     )
     args = parser.parse_args()
@@ -900,6 +927,8 @@ def main() -> int:
         sync_construction_map()
     if args.scope in {"all", "corpus-v3", "taulib"}:
         sync_taulib_projection()
+    if args.scope in {"all", "change-control"}:
+        sync_change_control()
     return 0
 
 

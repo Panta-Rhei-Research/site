@@ -20,6 +20,8 @@ right_rail:
       url: /engage/
     - title: "Public Discussions"
       url: /engage/discussions/
+    - title: "Corrections"
+      url: /engage/corrections/
     - title: "Media"
       url: /engage/media/
     - title: "Critique & Challenge"
@@ -57,7 +59,7 @@ We use topic-specific email aliases so your message reaches the right queue. Ple
 
 Participation does not imply endorsement. Contact, critique, review, support, or collaboration should be understood as engagement under scrutiny, not as agreement with the theory or its conclusions. See [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}) for the program's public-accountability stance.
 
-For public questions, critique, review offers, and correction routing, use [Public Discussions]({{ '/engage/discussions/' | relative_url }}) first. Email is for private, institutional, media, sensitive, support, or non-public context.
+For public questions, critique, and review offers, use [Public Discussions]({{ '/engage/discussions/' | relative_url }}) first. For correction, prior-art, claim-boundary, formalization, or publication-errata routing, use [Corrections]({{ '/engage/corrections/' | relative_url }}). Email is for private, institutional, media, sensitive, support, or non-public context.
 
 ## Before contacting us
 
@@ -89,7 +91,7 @@ Use Pull Requests when you are proposing a concrete change.
     <tr><td>Institutional review</td><td>Email</td></tr>
     <tr><td>Bounded domain review</td><td>GitHub Discussions or structured review email</td></tr>
     <tr><td>Media request</td><td>Email</td></tr>
-    <tr><td>Corrections or errata</td><td>GitHub Discussions, Issues, or email depending on sensitivity</td></tr>
+    <tr><td>Corrections or errata</td><td><a href="{{ '/engage/corrections/' | relative_url }}">Corrections</a>, Issues, or email depending on sensitivity</td></tr>
     <tr><td>Support</td><td>Email</td></tr>
     <tr><td>Private or sensitive critique</td><td>Email</td></tr>
     <tr><td>Seminar invitation</td><td>Email</td></tr>

@@ -23,6 +23,8 @@ hero_ctas:
   - label: "Public Discussions"
     url: /engage/discussions/
     primary: true
+  - label: "Corrections"
+    url: /engage/corrections/
   - label: "How to Engage"
     url: /engage/how-to-engage/
   - label: "Review the Work"
@@ -35,6 +37,8 @@ right_rail:
       url: /engage/how-to-engage/
     - title: "Public Discussions"
       url: /engage/discussions/
+    - title: "Corrections"
+      url: /engage/corrections/
     - title: "Review the Work"
       url: /engage/review-the-work/
     - title: "Independence, Scope & Scrutiny"
@@ -127,6 +131,14 @@ Engagement does not require agreement. Participation does not imply endorsement.
   </li>
   <li>
     <article>
+      <a class="v2-tile" href="{{ '/engage/corrections/' | relative_url }}">
+        <h3>Submit Corrections</h3>
+        <p>Route corrections, prior-art references, claim-boundary concerns, formalization concerns, and publication errata.</p>
+      </a>
+    </article>
+  </li>
+  <li>
+    <article>
       <a class="v2-tile" href="{{ '/engage/review-the-work/' | relative_url }}">
         <h3>Review Bounded Areas</h3>
         <p>Offer focused review of one Structural Challenge / Challenge Response, Core Semantics / Recovery item, construction step, result, research note, TauLib module, briefing, or site surface.</p>
@@ -197,6 +209,7 @@ These references are context, not authority claims. The program remains accounta
 ## Ongoing Channels
 
 - [Public Discussions]({{ '/engage/discussions/' | relative_url }}) for public questions, critique, review offers, and correction routing.
+- [Corrections]({{ '/engage/corrections/' | relative_url }}) for correction, prior-art, errata, and change-control routing.
 - [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) for Research Notes by email.
 - [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}) for the founders' statement on open-research posture and public accountability.
 - [Support the Research]({{ '/engage/support-the-research/' | relative_url }}) for non-endorsement support routes.

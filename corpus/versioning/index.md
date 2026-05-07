@@ -11,6 +11,8 @@ right_rail:
   related:
     - title: "Release Manifest"
       url: /verify/release-manifest/
+    - title: "Corpus Changelog"
+      url: /corpus/changelog/
     - title: "Errata"
       url: /publications/errata/
     - title: "Changelog"
@@ -30,6 +32,7 @@ Errata, changelog entries, release manifests, and registry snapshots together de
 ## Current public surfaces
 
 - [Errata]({{ '/publications/errata/' | relative_url }})
+- [Corpus Changelog]({{ '/corpus/changelog/' | relative_url }})
 - [Release Manifest]({{ '/verify/release-manifest/' | relative_url }})
 - [Changelog]({{ '/changelog/' | relative_url }})
 
@@ -44,9 +47,11 @@ Errata, changelog entries, release manifests, and registry snapshots together de
   <span>-></span>
   <a href="{{ '/publications/errata/' | relative_url }}">Errata</a>
   <span>-></span>
-  <a href="{{ '/changelog/' | relative_url }}">Changelog</a>
+  <a href="{{ '/corpus/changelog/' | relative_url }}">Corpus changelog</a>
+  <span>-></span>
+  <a href="{{ '/changelog/' | relative_url }}">Technical changelog</a>
 </div>
 
 ## Working rule
 
-Books and public release artifacts are citeable snapshots. The registry is the living source of truth for the corpus spine. When a correction changes the interpretation, status, or dependency structure of a corpus object, the public record should expose that change through errata, release notes, and manifest updates.
+Books and public release artifacts are citeable snapshots. The registry is the living source of truth for the corpus spine. When a correction changes the interpretation, status, or dependency structure of a corpus object, the public record should expose that change through the Corpus Changelog, publication errata where needed, release notes, and manifest updates. The technical changelog remains for website and repository release history.
