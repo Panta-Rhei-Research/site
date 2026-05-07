@@ -52,8 +52,6 @@ last_updated: "May 2026"
 {% assign life_items = recovery_items | where: "domain", "life" %}
 {% assign metaphysics_items = recovery_items | where: "domain", "metaphysics" %}
 
-# Core Semantics
-
 Core Semantics is the language the theory must earn before it can answer.
 
 This section records the structures, laws, grammars, and refusal boundaries that a coherent theory of reality must be able to carry, retype, refine, bridge, or explicitly challenge before its answers can be taken seriously.

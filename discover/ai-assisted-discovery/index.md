@@ -53,8 +53,6 @@ right_rail:
     updated: "May 2026"
 ---
 
-# AI-Assisted Discovery
-
 This page provides copy-ready prompts for visitors who want to use a web-enabled frontier LLM to generate a first-pass outside-in assessment of the Panta Rhei Research Program.
 
 These prompts are discovery aids.
@@ -106,7 +104,7 @@ Ten copy-ready prompts. Use the one that matches your intent. Then route the LLM
 
 ---
 
-### <a id="prompt-1"></a>Prompt 1 — 90-second first-contact assessment
+### <span id="prompt-1"></span>Prompt 1 — 90-second first-contact assessment
 
 **Purpose.** Quickly decide whether the site appears serious enough to inspect.
 

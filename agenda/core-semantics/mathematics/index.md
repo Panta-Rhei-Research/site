@@ -22,8 +22,6 @@ right_rail:
     updated: "May 2026"
 ---
 
-# Mathematics Core Semantics
-
 The language and structures the theory must earn in mathematics before it can answer.
 
 Mathematics Core Semantics includes recovery targets for formal checkability, finite syntax and proof objects, finite arithmetic and algebraic calculation, Euclidean geometry, representation of standard formal systems as object theories, and explicit bridge criteria into standard mathematics.

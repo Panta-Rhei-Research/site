@@ -116,7 +116,7 @@ Open the [AI-Assisted Discovery prompt catalog]({{ '/discover/ai-assisted-discov
 This is not a blog, not a monograph landing page, and not a documentation dump. It is organized around public research surfaces:
 
 - **Program** explains identity, doctrine, scope, status, and why the public release is built as an inspection observatory.
-- **Agenda** states the obligations: Core Semantics, problem ledgers, answer-shape burden, refusals, and construction roadmap.
+- **Agenda** states the obligations: Core Semantics, the Structural Challenge Ledger, answer-shape burden, refusals, and construction roadmap.
 - **Corpus** shows how the structure is built through the Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.
 - **Results** is where the built Corpus becomes a world: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Additional Derived Results.
 - **Verify** explains how claims can be checked, challenged, formalized, bridged, falsified, or audited.
