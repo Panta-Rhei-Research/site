@@ -253,7 +253,7 @@ The pillar pages provide the detailed machinery behind the Agenda.
   <li>
     <a class="v2-tile" href="{{ '/agenda/structural-challenge-ledger/source-policy/' | relative_url }}">
       <strong>Source Policy</strong>
-      <span>How external problem ledgers are selected, pinned, imported, and classified.</span>
+      <span>How external challenge sources are selected, pinned, imported, and classified into the Structural Challenge Ledger.</span>
     </a>
   </li>
   <li>
@@ -275,7 +275,7 @@ The pillar pages provide the detailed machinery behind the Agenda.
     </a>
   </li>
   <li>
-    <a class="v2-tile" href="{{ '/agenda/work-roadmap/' | relative_url }}">
+    <a class="v2-tile" href="{{ '/agenda/roadmap/' | relative_url }}">
       <strong>Work Roadmap</strong>
       <span>The operational sequence that delivers the agenda's logical build-order.</span>
     </a>

@@ -22,8 +22,6 @@ right_rail:
     updated: "May 2026"
 ---
 
-# Life Core Semantics
-
 The language and structures the theory must earn in life before it can answer.
 
 Life Core Semantics includes recovery targets for boundary, energy throughput, encoding, heredity, reproduction, variation, evolution, development, classification, ecology, and the bridge from living regulation to cognition.

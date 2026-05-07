@@ -74,7 +74,7 @@ The burden has several linked components:
   </div>
   <div class="v2-tile">
     <strong>Problem accountability</strong>
-    <span>The kernel must face external problem ledgers instead of selecting only friendly examples.</span>
+    <span>The kernel must face external structural challenge sources instead of selecting only friendly examples.</span>
   </div>
   <div class="v2-tile">
     <strong>No externalities</strong>
