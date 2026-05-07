@@ -29,7 +29,7 @@ hero_ctas:
 right_rail:
   related:
     - title: "Structural Challenge Ledger"
-      url: /agenda/problem-ledger/
+      url: /agenda/structural-challenge-ledger/
     - title: "Construction Roadmap"
       url: /agenda/construction-roadmap/
     - title: "Coherent Theory of Reality"

@@ -39,25 +39,39 @@
 {%- endif -%}
 
 {%- assign problem_ledger_ids = page.problem_ledger_ids | default: entry.problem_ledger_ids -%}
+{%- assign challenge_response_pages = site.pages | where: "layout", "challenge-response-entry" -%}
+{%- assign structural_challenge_pages = site.pages | where: "layout", "structural-challenge-entry" -%}
 {%- if problem_ledger_ids and problem_ledger_ids.size > 0 -%}
 <aside class="result-problem-ledger-links">
   <h2>Related Challenge Responses</h2>
   <p>This generic Result page is cross-referenced from the following Challenge Response{% if problem_ledger_ids.size != 1 %}s{% endif %} in the canonical <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>:</p>
   <ul class="result-related-answer-list">
     {%- for problem_id in problem_ledger_ids -%}
-      {%- assign answer_page = site.data.problem_answers["problem-answers"] | where: "problem_ledger_id", problem_id | first -%}
-      {%- assign problem_page = site.problem_ledger | where: "canonical_problem_id", problem_id | first -%}
+      {%- assign answer_page = nil -%}
+      {%- assign challenge_page = nil -%}
+      {%- for candidate in challenge_response_pages -%}
+        {%- if candidate.legacy_provenance.v1_problem_ledger_id == problem_id -%}
+          {%- assign answer_page = candidate -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for candidate in structural_challenge_pages -%}
+        {%- if candidate.v1_problem_ledger_item_id == problem_id -%}
+          {%- assign challenge_page = candidate -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
       {%- if answer_page -%}
     <li>
-      <a href="{{ answer_page.answer_url | relative_url }}">{{ answer_page.short_title | default: answer_page.title | default: problem_id }}</a>
-      <span class="chip chip-small">{{ answer_page.public_answer_status_label | default: "Challenge Response" }}</span>
-      {%- if problem_page -%}
-      <span class="result-source-link">v1 source archive: <a href="{{ problem_page.url | relative_url }}">{{ problem_id }}</a></span>
+      <a href="{{ answer_page.url | relative_url }}">{{ answer_page.short_title | default: answer_page.title | default: problem_id }}</a>
+      <span class="chip chip-small">{{ answer_page.response_status_label | default: "Challenge Response" }}</span>
+      {%- if challenge_page -%}
+      <span class="result-source-link">Structural Challenge: <a href="{{ challenge_page.url | relative_url }}">{{ challenge_page.title | default: problem_id }}</a></span>
       {%- endif -%}
     </li>
-      {%- elsif problem_page -%}
+      {%- elsif challenge_page -%}
     <li>
-      <a href="{{ problem_page.url | relative_url }}">{{ problem_page.title | default: problem_id }}</a>
+      <a href="{{ challenge_page.url | relative_url }}">{{ challenge_page.title | default: problem_id }}</a>
       <span class="chip chip-small">Challenge Response pending</span>
     </li>
       {%- else -%}

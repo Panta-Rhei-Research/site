@@ -19,13 +19,14 @@ PLATE_08_OG = "/assets/images/plates/plate-08-conditional-impact-strata-og.jpg"
 ALT = (
     "Scientific plate titled The Conditional Impact Strata, showing six stacked "
     "impact strata from Foundational Science to Global Public Good, a central "
-    "conditional chain from Result to Verification Survival to Translation Layer "
+    "conditional chain from Result to Verification & Review to Translation Layer "
     "to Domain Uptake to Consequence, and a Global Public-Good Portfolios inset."
 )
 CANONICAL_CAPTION = (
-    "Impact is conditional: consequences become meaningful only if Results survive "
-    "verification, translation, domain uptake, and real-world constraints. The six "
-    "Impact strata range from foundational science to global public-good portfolios."
+    "Impact is conditional: consequences become meaningful only if Results remain "
+    "supported through verification, translation, domain uptake, and real-world "
+    "constraints. The six Impact strata range from foundational science to global "
+    "public-good portfolios."
 )
 
 
@@ -121,7 +122,7 @@ def main() -> int:
             "The conditional consequence layer at a glance",
             "The Conditional Impact Strata",
             CANONICAL_CAPTION,
-            "Consequence requires survival under scrutiny.",
+            "Consequence requires accountable passage through scrutiny, correction, translation, and uptake.",
             "Read the Impact Framework",
             "Explore Foundational Science",
             "Open Global Public Good",
@@ -162,9 +163,9 @@ def main() -> int:
     for needle in [
         "Public-Good Briefings and conditional impact",
         "Public-Good Briefings belong to the outermost Impact stratum.",
-        "not validation claims, policy commitments, or deployment plans",
-        "They explore what could become valuable if upstream Results survive verification",
-    ]:
+            "not validation claims, policy commitments, or deployment plans",
+            "They explore what could become valuable if upstream Results remain supported through verification",
+        ]:
         require(needle in public_good.visible, f"/publications/research-briefings/public-good/ missing expected text: {needle}")
     require(
         meta_content(public_good, "property", "og:image") == f"https://panta-rhei.site{PLATE_07_OG}",

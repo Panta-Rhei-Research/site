@@ -25,7 +25,7 @@ right_rail:
     - title: "Kernel, Model & Reality"
       url: /agenda/kernel-model-reality/
     - title: "Structural Challenge Ledger"
-      url: /agenda/problem-ledger/
+      url: /agenda/structural-challenge-ledger/
     - title: "Core Semantics / Recovery"
       url: /agenda/core-semantics/
     - title: "Result Criteria"

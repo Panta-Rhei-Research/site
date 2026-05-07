@@ -29,7 +29,7 @@ right_rail:
     - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Structural Challenge Ledger"
-      url: /agenda/problem-ledger/
+      url: /agenda/structural-challenge-ledger/
     - title: "How to Verify"
       url: /verify/how-to-verify/
     - title: "The Shape of a Theory of Reality"
