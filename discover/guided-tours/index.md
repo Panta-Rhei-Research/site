@@ -1,6 +1,7 @@
 ---
 layout: program-doc
-title: "Guided Tours"
+title: "Guided Tours for First Readers"
+title_plain: "Guided Tours for First Readers"
 lane: discover
 v2_lane: discover
 permalink: /discover/guided-tours/

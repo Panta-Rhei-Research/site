@@ -33,7 +33,7 @@ right_rail:
     - title: "AI-Assisted Discovery"
       url: /discover/ai-assisted-discovery/
     - title: "Media Kit"
-      url: /engage/media-kit/
+      url: /media/
   meta:
     type: "Work Roadmap"
     scope: "Program-wide"

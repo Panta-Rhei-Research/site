@@ -1,6 +1,7 @@
 ---
 layout: program-doc
-title: "Follow the Research"
+title: "Follow the Research: Participation"
+title_plain: "Follow the Research: Participation"
 lane: engage
 v2_lane: engage
 type: "Follow"

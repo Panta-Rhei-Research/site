@@ -22,8 +22,6 @@ right_rail:
     updated: "May 2026"
 ---
 
-# Metaphysics Core Semantics
-
 The language and structures the theory must earn in metaphysics before it can answer.
 
 Metaphysics Core Semantics includes recovery targets for being, identity, relation, grounding, causality, modality, time, truth, mind, language, value, and ultimate boundary.
