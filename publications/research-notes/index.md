@@ -21,6 +21,8 @@ summary_cards:
     body: "Notes carry substantial research writing: responses to anchor papers, pre-registrations, verification explainers, and bridge texts."
 right_rail:
   related:
+    - title: "Latest Publications"
+      url: /publications/latest/
     - title: "Follow the Research"
       url: /engage/follow-the-research/
     - title: "Publications"
@@ -66,8 +68,10 @@ Each Research Note makes its status inspectable: date, note type, domain, abstra
 
 The current Research Notes surface begins with a deliberately small seed set. Empty or sparse filters are not errors; they show where the publication channel is ready before a full family of notes exists.
 
-## How to receive Research Notes
+## How to receive Publication Notifications
 
-New Research Notes can be received by email through the [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) page. Subscription is handled by Buttondown with double opt-in.
+New Research Notes and other publication releases can be received through [Publication Notifications]({{ '/engage/follow-the-research/' | relative_url }}). Subscription is handled by Buttondown with double opt-in.
+
+The Corpus-backed [Latest Publications]({{ '/publications/latest/' | relative_url }}) stream lists released, superseded, and archived publication artifacts across the full Publications lane.
 
 The searchable browse section below is generated from the public Research Notes metadata.

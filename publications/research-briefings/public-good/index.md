@@ -31,6 +31,11 @@ Public-Good Briefings are Research Briefings: framework-grounded translation art
 
 They are not validation claims, policy commitments, implementation plans, or deployment-ready proposals. They are downstream conditional scenario analyses.
 
+<div class="btn-group section-ctas">
+  <a class="btn" href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a>
+  <a class="btn" href="{{ '/engage/follow-the-research/' | relative_url }}">Publication Notifications</a>
+</div>
+
 ## Public-Good Briefings as Research Briefings
 
 {% capture public_good_plate_caption %}Public-Good Briefings are a family of Research Briefings: conditional scenario briefings, not validation claims or deployment plans.{% endcapture %}

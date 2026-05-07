@@ -20,6 +20,11 @@ Research Briefings are framework-grounded synthesis and translation artifacts.
 
 They translate existing Panta Rhei Results, assumptions, and verification status into a domain, institution, public-good context, or applied audience.
 
+<div class="btn-group section-ctas">
+  <a class="btn" href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a>
+  <a class="btn" href="{{ '/publications/research-briefings/public-good/' | relative_url }}">Public-Good Briefings</a>
+</div>
+
 ## Research Briefings inside the publication taxonomy
 
 {% capture research_briefings_plate_caption %}Research Briefings are one publication category inside the larger stable artifact layer. They translate existing Results, assumptions, and verification status into domain-facing contexts.{% endcapture %}

@@ -20,6 +20,81 @@
 
 {%- capture json_title -%}{{ page.title_plain | default: page.title | default: site.title | strip_html | replace: '"', '\"' }}{%- endcapture -%}
 
+{%- assign corpus_publication = nil -%}
+{%- assign corpus_publication_schema_type = "" -%}
+{%- assign page_absolute_url = page.url | absolute_url -%}
+{%- if site.data.corpus.publications.publications -%}
+  {%- for publication in site.data.corpus.publications.publications -%}
+    {%- if publication.canonical_url == page_absolute_url or publication.website_url == page_absolute_url or publication.canonical_url == page.url or publication.website_url == page.url -%}
+      {%- assign corpus_publication = publication -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- if corpus_publication and corpus_publication.status != "planned" -%}
+  {%- case corpus_publication.type -%}
+    {%- when "research_paper" -%}{%- assign corpus_publication_schema_type = "ScholarlyArticle" -%}
+    {%- when "research_note" -%}{%- assign corpus_publication_schema_type = "ScholarlyArticle" -%}
+    {%- when "research_briefing" -%}{%- assign corpus_publication_schema_type = "Report" -%}
+    {%- when "public_good_briefing" -%}{%- assign corpus_publication_schema_type = "Report" -%}
+    {%- when "white_paper" -%}{%- assign corpus_publication_schema_type = "CreativeWork" -%}
+    {%- when "guided_tour" -%}{%- assign corpus_publication_schema_type = "CreativeWork" -%}
+    {%- when "synoptic_overview" -%}{%- assign corpus_publication_schema_type = "CreativeWork" -%}
+    {%- when "monograph_supplement" -%}{%- assign corpus_publication_schema_type = "CreativeWork" -%}
+    {%- when "research_monograph" -%}{%- assign corpus_publication_schema_type = "Book" -%}
+  {%- endcase -%}
+{%- endif -%}
+{%- case page.layout -%}
+  {%- when "publication-book" -%}{%- assign corpus_publication_schema_type = "" -%}
+  {%- when "publication-archive-book" -%}{%- assign corpus_publication_schema_type = "" -%}
+  {%- when "publication-part" -%}{%- assign corpus_publication_schema_type = "" -%}
+  {%- when "publication-chapter" -%}{%- assign corpus_publication_schema_type = "" -%}
+  {%- when "corpus-monograph-book" -%}{%- assign corpus_publication_schema_type = "" -%}
+  {%- when "corpus-monograph-part" -%}{%- assign corpus_publication_schema_type = "" -%}
+  {%- when "corpus-monograph-chapter" -%}{%- assign corpus_publication_schema_type = "" -%}
+{%- endcase -%}
+
+{%- if corpus_publication_schema_type != "" -%}
+{%- assign corpus_publication_description = corpus_publication.summary_short | default: corpus_publication.abstract | default: json_description -%}
+{%- if corpus_publication_description contains "{%" -%}
+  {%- assign corpus_publication_description = corpus_publication.claim_boundary.claim | default: json_description -%}
+{%- endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ corpus_publication_schema_type | jsonify }},
+  "name": {{ corpus_publication.title | jsonify }},
+  "headline": {{ corpus_publication.title | jsonify }},
+  "description": {{ corpus_publication_description | strip_html | strip_newlines | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": [
+    {%- for author in corpus_publication.authors -%}
+    { "@type": "Person", "name": {{ author.name | jsonify }} }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "publisher": {{ publisher_json }},
+  "datePublished": {{ corpus_publication.release_date | jsonify }},
+  "dateModified": {{ corpus_publication.release_date | jsonify }},
+  "identifier": {{ corpus_publication.publication_id | jsonify }},
+  "articleSection": {{ corpus_publication.type_label | jsonify }},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }{% if corpus_publication.identifiers.doi and corpus_publication.identifiers.doi != "" %},
+  "sameAs": {{ corpus_publication.identifiers.doi_url | jsonify }},
+  "isAccessibleForFree": true,
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": {{ corpus_publication.identifiers.doi | jsonify }}
+  }{% endif %}{% if corpus_publication.files.pdf_url and corpus_publication.files.pdf_url != "" %},
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": {{ corpus_publication.files.pdf_url | jsonify }}
+  }{% endif %}
+}
+</script>
+
+{%- else -%}
+
 {%- case page.layout -%}
 
 {%- when 'homepage' -%}
@@ -676,6 +751,8 @@
 </script>
 
 {%- endcase -%}
+
+{%- endif -%}
 
 {%- comment -%} Append BreadcrumbList for pages that have one (Phase 4) {%- endcomment -%}
 {%- include breadcrumb-jsonld.html -%}

@@ -1,0 +1,55 @@
+{
+  "external_surfaces": [
+    {
+      "surface_id": "surf000001",
+      "surface_key": "website",
+      "type": "canonical_website",
+      "label": "Panta Rhei Research Program Website",
+      "url": "https://panta-rhei.site/",
+      "status": "active",
+      "owner": "program"
+    },
+    {
+      "surface_id": "surf000002",
+      "surface_key": "github_org",
+      "type": "github_organization",
+      "label": "Panta Rhei Research GitHub Organization",
+      "url": "https://github.com/Panta-Rhei-Research",
+      "status": "active",
+      "owner": "program"
+    },
+    {
+      "surface_id": "surf000003",
+      "surface_key": "github_publications",
+      "type": "artifact_mirror",
+      "label": "Panta Rhei Research Publications Repository",
+      "url": "https://github.com/Panta-Rhei-Research/publications",
+      "status": "active",
+      "owner": "program"
+    },
+    {
+      "surface_id": "surf000004",
+      "surface_key": "zenodo",
+      "type": "scholarly_archive",
+      "label": "Panta Rhei Research Zenodo Surface",
+      "url": "",
+      "status": "active",
+      "owner": "program",
+      "metadata_pending": true
+    },
+    {
+      "surface_id": "surf000005",
+      "surface_key": "amazon_series_current",
+      "type": "book_distribution",
+      "label": "Panta Rhei Research Amazon Series",
+      "url": "",
+      "status": "active",
+      "owner": "program",
+      "metadata_pending": true
+    }
+  ],
+  "generated_from": "corpus/data/organization/external-surfaces.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data",
+  "do_not_edit": true
+}

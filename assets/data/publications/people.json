@@ -1,0 +1,46 @@
+{
+  "people": [
+    {
+      "person_id": "person000001",
+      "person_key": "thorsten_fuchs",
+      "name": "Thorsten Fuchs",
+      "display_name": "Dr. Thorsten Fuchs",
+      "roles": [
+        "author",
+        "researcher",
+        "co_founder"
+      ],
+      "orcid": "",
+      "google_scholar": "",
+      "researchgate": "",
+      "github": "ThorFuchs",
+      "linkedin": "",
+      "canonical_url": "https://panta-rhei.site/founders/",
+      "affiliation": "Panta Rhei Research Program",
+      "metadata_pending": true
+    },
+    {
+      "person_id": "person000002",
+      "person_key": "anna_sophie_fuchs",
+      "name": "Anna-Sophie Fuchs",
+      "display_name": "Anna-Sophie Fuchs",
+      "roles": [
+        "author",
+        "researcher",
+        "co_founder"
+      ],
+      "orcid": "",
+      "google_scholar": "",
+      "researchgate": "",
+      "github": "AnSoFuchs",
+      "linkedin": "",
+      "canonical_url": "https://panta-rhei.site/founders/",
+      "affiliation": "Panta Rhei Research Program",
+      "metadata_pending": true
+    }
+  ],
+  "generated_from": "corpus/data/organization/people.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data",
+  "do_not_edit": true
+}

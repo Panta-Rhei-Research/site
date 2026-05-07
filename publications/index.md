@@ -15,6 +15,9 @@ og_image_alt: "Scientific plate showing the Publications lane as the stable arti
 right_rail:
   related:
     -
+      title: "Latest Publications"
+      url: "/publications/latest/"
+    -
       title: "Research Monographs"
       url: "/publications/research-monographs/"
     -
@@ -55,6 +58,7 @@ The deep Book → Part → Chapter reading projection now lives in [Monograph Co
 Publications is the stable artifact layer of the program. It holds released objects that can be read, cited, downloaded, compared across editions, archived, and connected back to Corpus, Results, Verify, and Impact. Artifact type is not claim status.
 
 <div class="btn-group section-ctas">
+  <a class="btn" href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a>
   <a class="btn" href="{{ '/publications/research-monographs/' | relative_url }}">Browse Research Monographs</a>
   <a class="btn" href="{{ '/publications/monograph-supplements/' | relative_url }}">Open Monograph Supplements</a>
   <a class="btn" href="{{ '/publications/research-notes/' | relative_url }}">Read Research Notes</a>
@@ -66,6 +70,7 @@ Publications is the stable artifact layer of the program. It holds released obje
 Every publication artifact belongs to one of the categories below. These categories are part of the program's public structure: they clarify whether an artifact is canonical exposition, supplemental monograph material, primary research, scholarly communication, translation briefing, technical explanation, or release governance.
 
 <ul class="v2-grid v2-card-list">
+  <li><article><a class="v2-tile" href="{{ '/publications/latest/' | relative_url }}"><h3>Latest Publications</h3><p>Corpus-backed stream of released, superseded, and archived publication artifacts.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/publications/research-monographs/' | relative_url }}"><h3>Research Monographs</h3><p>Full book-length canonical releases of the framework.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/publications/monograph-supplements/' | relative_url }}"><h3>Monograph Supplements</h3><p>Book-style ledgers, appendices, and supporting parts released separately, including the <strong>Numerical Physics Ledger</strong> and Categorical Genesis.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/publications/research-papers/' | relative_url }}"><h3>Research Papers</h3><p>Standalone scholarly papers carrying primary technical research contributions.</p></a></article></li>
