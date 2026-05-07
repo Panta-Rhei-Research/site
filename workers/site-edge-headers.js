@@ -117,6 +117,52 @@ function dynamicRedirectFor(pathname) {
     return pathname.replace("/verify/taulib/docs/", "/corpus/taulib/docs/");
   }
 
+  if (pathname === "/agenda/problem-ledger" || pathname === "/agenda/problem-ledger/") {
+    return "/agenda/structural-challenge-ledger/";
+  }
+
+  if (pathname === "/agenda/problem-ledger-source-policy" || pathname === "/agenda/problem-ledger-source-policy/") {
+    return "/agenda/structural-challenge-ledger/source-policy/";
+  }
+
+  if (pathname.startsWith("/agenda/problem-ledger/")) {
+    return "/agenda/structural-challenge-ledger/";
+  }
+
+  if (pathname === "/program/research-agenda/problem-ledger" || pathname === "/program/research-agenda/problem-ledger/") {
+    return "/agenda/structural-challenge-ledger/";
+  }
+
+  if (
+    pathname === "/program/research-agenda/problem-ledger-source-policy" ||
+    pathname === "/program/research-agenda/problem-ledger-source-policy/"
+  ) {
+    return "/agenda/structural-challenge-ledger/source-policy/";
+  }
+
+  if (pathname.startsWith("/program/research-agenda/problem-ledger/")) {
+    return "/agenda/structural-challenge-ledger/";
+  }
+
+  if (pathname === "/results/problem-ledger-answers" || pathname === "/results/problem-ledger-answers/") {
+    return "/results/challenge-responses/";
+  }
+
+  if (pathname.startsWith("/results/problem-ledger-answers/")) {
+    return "/results/challenge-responses/";
+  }
+
+  if (
+    pathname === "/results/problem-answers" ||
+    pathname === "/results/problem-answers/" ||
+    pathname === "/results/problem-ledger" ||
+    pathname === "/results/problem-ledger/" ||
+    pathname === "/results/by-problem" ||
+    pathname === "/results/by-problem/"
+  ) {
+    return "/results/challenge-responses/";
+  }
+
   if (pathname === "/framework" || pathname === "/framework/") {
     return "/corpus/";
   }

@@ -141,6 +141,15 @@ for (const [path, target] of [
     "/verify/taulib/docs/book-iii-arithmetic-abcconjecture/",
     "/corpus/taulib/docs/book-iii-arithmetic-abcconjecture/"
   ],
+  ["/agenda/problem-ledger", "/agenda/structural-challenge-ledger/"],
+  ["/agenda/problem-ledger/life/origin-of-life/", "/agenda/structural-challenge-ledger/"],
+  ["/agenda/problem-ledger-source-policy/", "/agenda/structural-challenge-ledger/source-policy/"],
+  ["/program/research-agenda/problem-ledger/physics/", "/agenda/structural-challenge-ledger/"],
+  ["/program/research-agenda/problem-ledger-source-policy/", "/agenda/structural-challenge-ledger/source-policy/"],
+  ["/results/problem-ledger-answers/physics/hubble-tension/", "/results/challenge-responses/"],
+  ["/results/problem-answers/", "/results/challenge-responses/"],
+  ["/results/problem-ledger/", "/results/challenge-responses/"],
+  ["/results/by-problem/", "/results/challenge-responses/"],
   ["/framework", "/corpus/"],
   ["/framework/about/", "/corpus/"],
   ["/framework/mathematics-coherence-kernel/", "/corpus/"],
@@ -159,4 +168,4 @@ assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/monograph-sup
 assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/books/book-i/"), null);
 assert.equal(edgeRedirectFor("https://panta-rhei.site/verify/taulib/docs/"), null);
 
-console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, 2 fetch-option assertions, 2 origin-request assertions, and 17 redirect cases passed`);
+console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, 2 fetch-option assertions, 2 origin-request assertions, and 26 redirect cases passed`);

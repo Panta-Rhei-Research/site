@@ -318,205 +318,15 @@ def bullet_lines(items: list[Any], empty_message: str) -> str:
 
 
 def sync_problem_answer_pages() -> None:
-    for filename in ("problem-answers.json", "problem-answers.ndjson", "problem-answers.csv"):
-        source = CORPUS_EXPORTS / filename
-        copy_file(source, SITE_ROOT / "_data" / "problem_answers" / filename)
-        copy_file(source, SITE_ROOT / "assets" / "data" / "problem-answers" / filename)
-
-    root = SITE_ROOT / "results" / "problem-ledger-answers"
-    clean_generated_tree(root)
-    copy_tree(CORPUS_EXPORTS / "problem-answer-pages", root)
+    raise RuntimeError(
+        "The v1 Problem Answers projection is retired. Use the v4 Challenge Responses export path instead."
+    )
 
 
 def generate_problem_answer_pages() -> None:
-    problems = read_json(CORPUS_EXPORTS / "problem-ledger.json")
-    results = {item.get("id"): item for item in read_json(SITE_ROOT / "_data" / "results" / "results.json") if item.get("id")}
-    root = SITE_ROOT / "results" / "problem-ledger-answers"
-    domains = sorted({item["domain_slug"] for item in problems})
-    counts = domain_counts(problems)
-    status_counts = Counter((item.get("program") or {}).get("result_status", "not_yet_classified") for item in problems)
-
-    root_body = f"""## Answer Mirror
-
-> Current program stances against the open and foundational problems accepted in the Research Agenda.
-
-This is the Results-side answer mirror of the Program-side Problem Ledger. It reports where the current public result surface has an answer, partial answer, structural constraint, or pending stance.
-
-<div class="notice note"><strong>Status note.</strong> A program stance is not the same as external acceptance, scientific settlement, or final verification.</div>
-
-## Browse by Domain
-
-The Problem Ledger Answers mirror the Program-side Problem Ledger. Each domain page reports the current program stance against the imported or selected problem obligations.
-
-<div class="v2-grid">
-  <a class="v2-tile" href="{{{{ '/results/problem-ledger-answers/mathematics/' | relative_url }}}}">
-    <strong>Mathematics</strong>
-    <span>{counts.get('mathematics', 0)} public problem items.</span>
-  </a>
-  <a class="v2-tile" href="{{{{ '/results/problem-ledger-answers/physics/' | relative_url }}}}">
-    <strong>Physics</strong>
-    <span>{counts.get('physics', 0)} public problem items.</span>
-  </a>
-  <a class="v2-tile" href="{{{{ '/results/problem-ledger-answers/life/' | relative_url }}}}">
-    <strong>Life</strong>
-    <span>{counts.get('life', 0)} public problem items.</span>
-  </a>
-  <a class="v2-tile" href="{{{{ '/results/problem-ledger-answers/metaphysics-philosophy/' | relative_url }}}}">
-    <strong>Metaphysics / Philosophy</strong>
-    <span>{counts.get('metaphysics-philosophy', 0)} public problem items.</span>
-  </a>
-</div>
-
-## Current Status Summary
-
-<table>
-  <thead>
-    <tr>
-      <th scope="col">Public status</th>
-      <th scope="col">Count</th>
-      <th scope="col">Meaning on this site</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Partially addressed</th>
-      <td>{status_counts.get('partially_addressed', 0)}</td>
-      <td>The program has a visible Results-side stance, but not final settlement or external acceptance.</td>
-    </tr>
-    <tr>
-      <th scope="row">Not yet touched</th>
-      <td>{status_counts.get('not_yet_classified', 0)}</td>
-      <td>The problem is publicly carried as an obligation without a current answer mirror.</td>
-    </tr>
-  </tbody>
-</table>
-
-## Source policy
-
-Problem source policy remains owned by the Research Agenda: [Problem Ledger Source Policy](/program/research-agenda/problem-ledger-source-policy/). The mirror does not republish source prose; it reports the current program stance against pinned or institutionally selected source records.
-"""
-    write_markdown(
-        root / "index.md",
-        {
-            "layout": "program-doc",
-            "title": "Problem Ledger Answers",
-            "permalink": "/results/problem-ledger-answers/",
-            "lane": "results",
-            "v2_lane": "results",
-            "type": "Result Mirror",
-            "status": "Canonical",
-            "summary_short": "Current Results-side stances against public Problem Ledger items.",
-        },
-        root_body,
+    raise RuntimeError(
+        "The v1 Problem Ledger Answers generator is retired. Use the v4 Challenge Responses export path instead."
     )
-
-    for domain in domains:
-        items = [item for item in problems if item["domain_slug"] == domain]
-        links = "\n".join(
-            f"- [{item['title']}](/results/problem-ledger-answers/{domain}/{item['slug']}/) - {result_status_label(item.get('program', {}).get('result_status', ''))}"
-            for item in items
-        )
-        write_markdown(
-            root / domain / "index.md",
-            {
-                "layout": "program-doc",
-                "title": f"Problem Ledger Answers: {domain_label(domain)}",
-                "permalink": f"/results/problem-ledger-answers/{domain}/",
-                "lane": "results",
-                "v2_lane": "results",
-                "type": "Result Mirror Domain",
-                "status": "Canonical",
-                "summary_short": f"Current program stances for {domain_label(domain)} Problem Ledger items.",
-            },
-            f"""## Status Separation
-
-<div class="notice note"><strong>Status note.</strong> These are current internal program stances unless explicitly marked otherwise.</div>
-
-## Items
-
-{links}
-""",
-        )
-
-    for item in problems:
-        domain = item["domain_slug"]
-        related_results = item.get("related", {}).get("results", [])
-        related_corpus_steps = item.get("related", {}).get("construction_steps", [])
-        result_lines: list[str] = []
-        for result_id in related_results:
-            result = results.get(result_id)
-            if result:
-                result_lines.append(f"- [{result['title']}]({result['url']}) - {result.get('status_code', 'status pending')}")
-            else:
-                result_lines.append(f"- `{result_id}` - mapping pending")
-        if not result_lines:
-            result_lines.append("- Dedicated Result page pending.")
-        verify = item.get("verify_links", {})
-        verify_line = f"[{verify.get('verification_mode', 'Verify surface')}]({verify.get('verify_url')})" if verify.get("verify_url") else "Dedicated Verify surface pending."
-        program = item.get("program", {})
-        body = f"""## Status Separation
-
-<div class="notice note"><strong>Status note.</strong> This page reports the current program stance. It does not imply external acceptance unless explicitly stated.</div>
-
-- Internal stance: **{result_status_label(program.get('result_status', 'not_yet_classified'))}**
-- Verification route: **{"Available" if verify.get('exists') else "Pending"}**
-- External status: **Not externally reviewed**
-
-## Problem
-
-{item.get('short_title', item['title'])}
-
-## Source
-
-- Source: {item.get('source', {}).get('source_page', 'Source metadata pending.')}
-- Import rule: `{item.get('source', {}).get('import_rule', 'pending')}`
-- Program ledger item: [{item['id']}]({item['url']})
-
-## Current Program Stance
-
-- Result status: **{result_status_label(program.get('result_status', 'not_yet_classified'))}**
-- Tier: `{program.get('tier', 'unclassified')}`
-- Agenda role: `{program.get('agenda_role', 'stress_test')}`
-- Expressibility: `{program.get('expressibility_status', 'unknown')}`
-
-## Related Construction Steps
-
-{bullet_lines(related_corpus_steps, "Construction Spine mapping pending.")}
-
-## Related Results
-
-{chr(10).join(result_lines)}
-
-## Verify This Answer
-
-{verify_line}
-
-## What remains open
-
-Residual boundaries remain public unless a linked Result page explicitly closes them with status-marked evidence.
-"""
-        write_markdown(
-            root / domain / item["slug"] / "index.md",
-            {
-                "layout": "program-doc",
-                "title": item["title"],
-                "permalink": f"/results/problem-ledger-answers/{domain}/{item['slug']}/",
-                "lane": "results",
-                "v2_lane": "results",
-                "type": "Problem Ledger Answer",
-                "status": "Canonical",
-                "summary_short": f"Current Results-side stance for {item['title']}.",
-                "canonical_problem_id": item["id"],
-            },
-            body,
-        )
-
-
-def recovery_result_path(item: dict[str, Any]) -> str:
-    if item.get("item_type") == "mathematical_refusal":
-        return f"/results/recovery-target-status/mathematics/refusals/{item['slug']}/"
-    return f"/results/recovery-target-status/{item['domain_slug']}/{item['slug']}/"
-
 
 def generate_recovery_status_pages() -> None:
     items = read_json(CORPUS_EXPORTS / "recovery-requirements.json")
@@ -669,23 +479,22 @@ This is the Results-side mirror of the Program-side Recovery Requirements ledger
 
 
 def sync_problem_recovery_agenda() -> None:
-    for filename in ("problem-ledger.json", "problem-ledger.ndjson", "problem-ledger.csv"):
-        source = CORPUS_EXPORTS / filename
-        copy_file(source, SITE_ROOT / "_data" / "problem_ledger" / filename)
-        copy_file(source, SITE_ROOT / "assets" / "data" / "problem-ledger" / filename)
-
+    # v4 public Agenda/Results obligations are Structural Challenges and
+    # Challenge Responses. The retired v1 Problem Ledger/Problem Answers
+    # projections must not be recreated in the public site repo.
     for filename in ("recovery-requirements.json", "recovery-requirements.ndjson", "recovery-requirements.csv"):
         source = CORPUS_EXPORTS / filename
-        copy_file(source, SITE_ROOT / "_data" / "recovery_requirements" / filename)
-        copy_file(source, SITE_ROOT / "assets" / "data" / "recovery-requirements" / filename)
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "recovery_requirements" / filename)
+            copy_file(source, SITE_ROOT / "assets" / "data" / "recovery-requirements" / filename)
 
     source = CORPUS_EXPORTS / "agenda-progress.json"
     copy_file(source, SITE_ROOT / "_data" / "agenda_progress" / "agenda-progress.json")
     copy_file(source, SITE_ROOT / "assets" / "data" / "agenda-progress" / "agenda-progress.json")
 
-    copy_tree(CORPUS_EXPORTS / "problem-items", SITE_ROOT / "_problem_ledger")
-    copy_tree(CORPUS_EXPORTS / "recovery-requirements", SITE_ROOT / "_recovery_requirements")
-    sync_problem_answer_pages()
+    recovery_source = CORPUS_EXPORTS / "recovery-requirements"
+    if recovery_source.exists():
+        copy_tree(recovery_source, SITE_ROOT / "_recovery_requirements")
     generate_recovery_status_pages()
 
 

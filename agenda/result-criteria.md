@@ -17,7 +17,7 @@ summary_cards:
 right_rail:
   related:
     - title: "Structural Challenge Ledger"
-      url: /agenda/problem-ledger/
+      url: /agenda/structural-challenge-ledger/
     - title: "Core Semantics"
       url: /agenda/core-semantics/
     - title: "Status and Claim Typing"

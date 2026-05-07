@@ -1,6 +1,6 @@
 ---
 layout: redirect
-title: "Mathematics Problem Ledger v1 — Retired (see Structural Challenge Ledger)"
+title: "Mathematics Retired Agenda Mirror"
 permalink: /program/research-agenda/problem-ledger/mathematics/
 redirect_to: /agenda/structural-challenge-ledger/mathematics/
 sitemap: false

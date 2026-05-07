@@ -108,15 +108,28 @@ def main() -> int:
     assert_contains_text(discover, "It helps readers move from orientation into the research spine")
     assert_not_contains_source(repo / "discover" / "index.md", "Discover is the entry layer. It helps")
 
-    recovery = read(repo / "program" / "research-agenda" / "recovery-requirements" / "index.md")
-    if "label: \"Metaphysics\"" not in recovery:
-        fail("Recovery Requirements hero CTAs must include Metaphysics")
+    recovery_redirect = repo / "program" / "research-agenda" / "recovery-requirements" / "index.md"
+    assert_frontmatter(
+        recovery_redirect,
+        "layout: redirect",
+        "redirect_to: /agenda/core-semantics/",
+        "robots: noindex,follow",
+    )
+    core_semantics = html_path(built, "/agenda/core-semantics/")
+    assert_contains_text(core_semantics, "Core Semantics")
 
-    source_policy = repo / "program" / "research-agenda" / "problem-ledger-source-policy" / "index.md"
-    assert_contains_source(source_policy, "url: /results/problem-ledger-answers/")
-    assert_not_contains_source(source_policy, "url: /results/problem-ledger/\n")
+    source_policy = repo / "agenda" / "structural-challenge-ledger" / "source-policy.md"
+    assert_contains_source(source_policy, "Structural Challenge Ledger")
+    assert_contains_source(source_policy, "canonical response statuses")
+    retired_source_policy = repo / "program" / "research-agenda" / "problem-ledger-source-policy" / "index.md"
+    assert_frontmatter(
+        retired_source_policy,
+        "layout: redirect",
+        "redirect_to: /agenda/structural-challenge-ledger/source-policy/",
+        "robots: noindex,follow",
+    )
 
-    science_humanities = html_path(built, "/program/research-agenda/science-humanities-and-coherence/")
+    science_humanities = html_path(built, "/agenda/science-humanities-and-coherence/")
     assert_contains_text(science_humanities, "Corpus construction surfaces")
     assert_not_contains_text(science_humanities, "framework lanes")
 
