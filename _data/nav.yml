@@ -231,6 +231,8 @@ lane_nav:
                 url: "/corpus/taulib/architecture/"
           - title: "Versioning"
             url: "/corpus/versioning/"
+          - title: "Corpus Changelog"
+            url: "/corpus/changelog/"
       - title: "Current Registry"
         links:
           - title: "Book I"
@@ -530,6 +532,8 @@ lane_nav:
             url: "/engage/inspect-verify/"
           - title: "Critique & Challenge"
             url: "/engage/critique-challenge/"
+          - title: "Corrections"
+            url: "/engage/corrections/"
           - title: "Review the Work"
             url: "/engage/review-the-work/"
           - title: "Collaborate"

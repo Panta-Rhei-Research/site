@@ -20,6 +20,8 @@ right_rail:
       url: /verify/assessment-protocols/
     - title: "Public Discussions"
       url: /engage/discussions/
+    - title: "Corrections"
+      url: /engage/corrections/
     - title: "Predictions & Falsification"
       url: /verify/predictions-and-falsification/
     - title: "Red-team FAQ"
@@ -97,6 +99,7 @@ A useful challenge includes:
 ## Where to Route It
 
 - Public question, critique, review offer, or claim challenge: start in [Public Discussions]({{ '/engage/discussions/' | relative_url }}).
+- Correction, prior-art addition, claim-boundary concern, or publication erratum candidate: use [Corrections]({{ '/engage/corrections/' | relative_url }}) for routing.
 - Formalization issue: open or reference the relevant [TauLib issue](https://github.com/Panta-Rhei-Research/taulib/issues) when possible.
 - Mathematical, physical, biological, or philosophical objection: use [Contact]({{ '/engage/contact/' | relative_url }}) with the subject line "Technical Inquiry" or "Structured Review / Technical Inspection".
 - Publication correction: use [Errata]({{ '/publications/errata/' | relative_url }}) and the errata contact route.

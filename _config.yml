@@ -43,6 +43,10 @@ collections:
     output: true
     permalink: /changelog/:name/
     sort_by: date
+  corpus_changelog:
+    output: true
+    permalink: /corpus/changelog/:name/
+    sort_by: date
   predictions:
     output: true
     permalink: /predictions/:name/
