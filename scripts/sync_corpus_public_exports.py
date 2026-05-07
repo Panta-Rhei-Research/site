@@ -697,6 +697,36 @@ def sync_change_control() -> None:
         copy_tree(pages_source, SITE_ROOT / "_corpus_changelog")
 
 
+def sync_publication_metadata() -> None:
+    corpus_data_targets = {
+        "publications.yml": "publications.yml",
+        "latest-publications.yml": "latest_publications.yml",
+        "publication-types.yml": "publication_types.yml",
+        "people.yml": "people.yml",
+        "external-surfaces.yml": "external_surfaces.yml",
+        "bibliography-summary.yml": "bibliography_summary.yml",
+    }
+    for source_name, target_name in corpus_data_targets.items():
+        copy_file(CORPUS_EXPORTS / source_name, SITE_ROOT / "_data" / "corpus" / target_name)
+
+    asset_names = (
+        "publications.json",
+        "publications.ndjson",
+        "publications.csv",
+        "latest-publications.json",
+        "latest-publications.ndjson",
+        "latest-publications.csv",
+        "publication-types.json",
+        "people.json",
+        "external-surfaces.json",
+        "bibliography-summary.json",
+    )
+    for filename in asset_names:
+        source = CORPUS_EXPORTS / filename
+        if source.exists():
+            copy_file(source, SITE_ROOT / "assets" / "data" / "publications" / filename)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -710,13 +740,14 @@ def main() -> int:
             "results",
             "monographs",
             "change-control",
+            "publications",
         ),
         default="all",
         help=(
             "Sync all Corpus public exports, only Construction Spine / Foundational Hinges, "
             "the Corpus v3 Construction Map / Monograph / TauLib projections, "
             "only the tailored TauLib projection, the Results/ledger projections, "
-            "or the Corpus Changelog change-control projection."
+            "the Corpus Changelog change-control projection, or the Corpus publication metadata projection."
         ),
     )
     args = parser.parse_args()
@@ -738,6 +769,8 @@ def main() -> int:
         sync_taulib_projection()
     if args.scope in {"all", "change-control"}:
         sync_change_control()
+    if args.scope in {"all", "publications"}:
+        sync_publication_metadata()
     return 0
 
 

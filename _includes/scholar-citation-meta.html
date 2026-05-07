@@ -8,6 +8,51 @@
   content. These tags directly control whether Scholar indexes the pages.
 {%- endcomment -%}
 
+{%- assign corpus_publication = nil -%}
+{%- assign page_absolute_url = page.url | absolute_url -%}
+{%- if site.data.corpus.publications.publications -%}
+  {%- for publication in site.data.corpus.publications.publications -%}
+    {%- if publication.canonical_url == page_absolute_url or publication.website_url == page_absolute_url or publication.canonical_url == page.url or publication.website_url == page.url -%}
+      {%- assign corpus_publication = publication -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- if corpus_publication and corpus_publication.scholar.include_meta_tags -%}
+<meta name="citation_title" content="{{ corpus_publication.scholar.citation_title | default: corpus_publication.title | strip_html }}">
+{%- for author in corpus_publication.scholar.citation_author -%}
+<meta name="citation_author" content="{{ author }}">
+{%- endfor -%}
+<meta name="citation_publication_date" content="{{ corpus_publication.scholar.citation_publication_date | default: corpus_publication.release_date }}">
+<meta name="citation_online_date" content="{{ corpus_publication.scholar.citation_publication_date | default: corpus_publication.release_date }}">
+<meta name="citation_publisher" content="Panta Rhei Research Program">
+{%- if corpus_publication.scholar.citation_pdf_url and corpus_publication.scholar.citation_pdf_url != '' -%}
+<meta name="citation_pdf_url" content="{{ corpus_publication.scholar.citation_pdf_url }}">
+{%- elsif corpus_publication.files.pdf_url and corpus_publication.files.pdf_url != '' -%}
+<meta name="citation_pdf_url" content="{{ corpus_publication.files.pdf_url }}">
+{%- endif -%}
+{%- if corpus_publication.scholar.citation_doi and corpus_publication.scholar.citation_doi != '' -%}
+<meta name="citation_doi" content="{{ corpus_publication.scholar.citation_doi }}">
+{%- elsif corpus_publication.identifiers.doi and corpus_publication.identifiers.doi != '' -%}
+<meta name="citation_doi" content="{{ corpus_publication.identifiers.doi }}">
+{%- endif -%}
+{%- if corpus_publication.scholar.citation_technical_report_institution and corpus_publication.scholar.citation_technical_report_institution != '' -%}
+<meta name="citation_technical_report_institution" content="{{ corpus_publication.scholar.citation_technical_report_institution }}">
+{%- endif -%}
+<meta name="citation_language" content="en">
+<meta name="DC.title" content="{{ corpus_publication.title | strip_html }}">
+{%- for author in corpus_publication.authors -%}
+<meta name="DC.creator" content="{{ author.name }}">
+{%- endfor -%}
+<meta name="DC.date" content="{{ corpus_publication.release_date }}">
+{%- if corpus_publication.identifiers.doi_url and corpus_publication.identifiers.doi_url != '' -%}
+<meta name="DC.identifier" content="{{ corpus_publication.identifiers.doi_url }}">
+{%- endif -%}
+<meta name="DC.publisher" content="Panta Rhei Research Program">
+<meta name="DC.language" content="en">
+<meta name="DC.type" content="Text">
+{%- else -%}
+
 {%- case page.layout -%}
 
 {%- when 'publication-book' -%}
@@ -287,3 +332,5 @@
 <meta name="DC.type" content="Text">
 
 {%- endcase -%}
+
+{%- endif -%}

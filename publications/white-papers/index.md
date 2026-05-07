@@ -22,6 +22,11 @@ They clarify the framework, formalization, research infrastructure, verification
 
 <div class="notice note"><strong>Category boundary.</strong> This White Paper category is explanatory. It clarifies framework structure, implementation, method, or verification context; it is not by itself a primary research result.</div>
 
+<div class="btn-group section-ctas">
+  <a class="btn" href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a>
+  <a class="btn" href="{{ '/engage/follow-the-research/' | relative_url }}">Publication Notifications</a>
+</div>
+
 ## White Papers inside the publication taxonomy
 
 {% capture white_papers_plate_caption %}White Papers are explanatory artifacts in the stable publication layer. They clarify framework, formalization, infrastructure, methodology, or verification context without primarily carrying new original research claims.{% endcapture %}

@@ -19,6 +19,11 @@ They are intended to state, prove, derive, or argue for original research claims
 
 <div class="notice note"><strong>Current status.</strong> The first Research Papers batch is published with public PDF artifacts and final Zenodo DOI links.</div>
 
+<div class="btn-group section-ctas">
+  <a class="btn" href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a>
+  <a class="btn" href="{{ '/engage/follow-the-research/' | relative_url }}">Publication Notifications</a>
+</div>
+
 ## First batch
 
 <ul class="pub-card-grid">

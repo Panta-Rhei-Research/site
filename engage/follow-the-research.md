@@ -7,7 +7,7 @@ v2_lane: engage
 type: "Follow"
 status: "Active"
 permalink: /engage/follow-the-research/
-summary_short: "Receive Research Notes and program updates by email as the research develops."
+summary_short: "Receive Publication Notifications and program updates by email as the research develops."
 summary_cards:
   - title: "What you'll receive"
     body: "Research Notes — substantial outward-facing writing published irregularly and only when there is something real to say."
@@ -41,11 +41,11 @@ tags:
   - public-discussion
 ---
 
-## Receive Research Notes by Email
+## Receive Publication Notifications by Email
 
-The Panta Rhei Research Program publishes **Research Notes** — dated scholarly artifacts for responses to anchor papers, observational pre-registrations, theory- or construction-based reinterpretations of recent results, focused explanatory essays, and bridge texts that may later become white papers.
+The Panta Rhei Research Program sends **Publication Notifications** for dated scholarly artifacts: Research Notes, Research Papers, White Papers, Research Briefings, and other released publication objects when they become available.
 
-Notes are published irregularly and only when there is something substantial to say. No marketing, no frequency pressure, no filler.
+Notifications are sent irregularly and only when there is something substantial to say. No marketing, no frequency pressure, no filler.
 
 <div class="content-card" style="margin: 24px 0;">
 {% include buttondown-subscribe.html tag="engage" %}
@@ -70,4 +70,4 @@ Notes are published irregularly and only when there is something substantial to 
 
 **Say hello**: Warm, first-time-reader introductions are welcome at [hello@panta-rhei.site](mailto:hello@panta-rhei.site). For feedback on specific books or results: [feedback@panta-rhei.site](mailto:feedback@panta-rhei.site).
 
-Email subscription is for receiving new notes. GitHub Discussions is for public questions and discussion about them.
+Email subscription is for receiving publication notifications. GitHub Discussions is for public questions and discussion about them.

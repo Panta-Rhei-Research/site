@@ -1,0 +1,30 @@
+source: corpus/bibliography/items
+raw_bibtex_source: corpus/bibliography/raw/references.bib
+count: 1148
+cited_count: 209
+orphan_count: 939
+domain_count: 9
+role_count: 4
+by_domain:
+  Category Theory: 60
+  Computation and Complexity: 22
+  Foundations and Logic: 492
+  Life and Biology: 101
+  Metaphysics and Philosophy: 21
+  Number Theory and Analysis: 89
+  Physics: 199
+  Topology and Geometry: 139
+  Unclassified: 25
+by_role:
+  conceptual-bridge: 20
+  domain-context: 615
+  formal-antecedent: 482
+  foundational-source: 31
+missing:
+  title: []
+  year: []
+  authors: []
+generated_from: corpus/data/bibliography/bibliography-summary.yml
+projection_version: v0.1
+canonical_source: corpus/data
+do_not_edit: true

@@ -1,0 +1,85 @@
+{
+  "publication_types": {
+    "charter_essay": {
+      "title": "Charter Essay",
+      "description": "Program-charter essay or orientation text reserved for publication.",
+      "notification_enabled": true,
+      "scholar_candidate": false,
+      "typical_schema_type": "CreativeWork"
+    },
+    "guided_tour": {
+      "title": "Guided Tour",
+      "description": "Downloadable orientation artifact for a monograph or route through the program.",
+      "notification_enabled": true,
+      "scholar_candidate": false,
+      "typical_schema_type": "CreativeWork"
+    },
+    "monograph_supplement": {
+      "title": "Monograph Supplement",
+      "description": "Book-style artifact attached to the monograph architecture.",
+      "notification_enabled": true,
+      "scholar_candidate": false,
+      "typical_schema_type": "Book"
+    },
+    "public_good_briefing": {
+      "title": "Public-Good Briefing",
+      "description": "Conditional scenario briefing for public-good relevance.",
+      "notification_enabled": true,
+      "scholar_candidate": false,
+      "typical_schema_type": "Report"
+    },
+    "release_artifact": {
+      "title": "Release Artifact",
+      "description": "Version, provenance, correction, manifest, changelog, or archive artifact.",
+      "notification_enabled": false,
+      "scholar_candidate": false,
+      "typical_schema_type": "CreativeWork"
+    },
+    "research_briefing": {
+      "title": "Research Briefing",
+      "description": "Framework-grounded synthesis or translation artifact.",
+      "notification_enabled": true,
+      "scholar_candidate": true,
+      "typical_schema_type": "Report"
+    },
+    "research_monograph": {
+      "title": "Research Monograph",
+      "description": "Full book-length canonical release artifact of the framework.",
+      "notification_enabled": true,
+      "scholar_candidate": false,
+      "typical_schema_type": "Book"
+    },
+    "research_note": {
+      "title": "Research Note",
+      "description": "Dated scholarly artifact from the ongoing research stream.",
+      "notification_enabled": true,
+      "scholar_candidate": true,
+      "typical_schema_type": "ScholarlyArticle"
+    },
+    "research_paper": {
+      "title": "Research Paper",
+      "description": "Standalone scholarly paper carrying primary technical research contribution.",
+      "notification_enabled": true,
+      "scholar_candidate": true,
+      "typical_schema_type": "ScholarlyArticle"
+    },
+    "synoptic_overview": {
+      "title": "Synoptic Overview",
+      "description": "Concise overview artifact for the program or corpus.",
+      "notification_enabled": true,
+      "scholar_candidate": false,
+      "typical_schema_type": "CreativeWork"
+    },
+    "white_paper": {
+      "title": "White Paper",
+      "description": "Structured explanatory artifact for framework, formalization, infrastructure, or method.",
+      "notification_enabled": true,
+      "scholar_candidate": true,
+      "typical_schema_type": "CreativeWork"
+    }
+  },
+  "generated_from": "corpus/data/publications/publication-types.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data",
+  "do_not_edit": true
+}
