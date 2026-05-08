@@ -1,0 +1,141 @@
+{
+  "generated_from": "corpus/data/monographs/books.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/monographs/books.yml",
+  "do_not_edit": true,
+  "books": [
+    {
+      "book_id": "book-i",
+      "book_number": 1,
+      "roman": "I",
+      "title": "Categorical Foundations",
+      "subtitle": "How Mathematics Is Earned",
+      "layer": "E0",
+      "domains": [
+        "mathematics"
+      ],
+      "part_count": 18,
+      "chapter_count": 80,
+      "construction_steps": [
+        "CS-01",
+        "CS-02"
+      ],
+      "monograph_route": "/corpus/monographs/book-i/",
+      "publication_route": "/publications/books/book-i/"
+    },
+    {
+      "book_id": "book-ii",
+      "book_number": 2,
+      "roman": "II",
+      "title": "Categorical Holomorphy",
+      "subtitle": "Finite Readouts of Infinity",
+      "layer": "E0",
+      "domains": [
+        "mathematics"
+      ],
+      "part_count": 12,
+      "chapter_count": 68,
+      "construction_steps": [
+        "CS-02",
+        "CS-03"
+      ],
+      "monograph_route": "/corpus/monographs/book-ii/",
+      "publication_route": "/publications/books/book-ii/"
+    },
+    {
+      "book_id": "book-iii",
+      "book_number": 3,
+      "roman": "III",
+      "title": "Categorical Spectrum",
+      "subtitle": "Where Physics Lives",
+      "layer": "E1",
+      "domains": [
+        "physics"
+      ],
+      "part_count": 11,
+      "chapter_count": 76,
+      "construction_steps": [
+        "CS-04",
+        "CS-05"
+      ],
+      "monograph_route": "/corpus/monographs/book-iii/",
+      "publication_route": "/publications/books/book-iii/"
+    },
+    {
+      "book_id": "book-iv",
+      "book_number": 4,
+      "roman": "IV",
+      "title": "Categorical Microcosm",
+      "subtitle": "The Self-Describing Universe",
+      "layer": "E1",
+      "domains": [
+        "physics"
+      ],
+      "part_count": 9,
+      "chapter_count": 73,
+      "construction_steps": [
+        "CS-05",
+        "CS-06"
+      ],
+      "monograph_route": "/corpus/monographs/book-iv/",
+      "publication_route": "/publications/books/book-iv/"
+    },
+    {
+      "book_id": "book-v",
+      "book_number": 5,
+      "roman": "V",
+      "title": "Categorical Macrocosm",
+      "subtitle": "The Biography of the Universe",
+      "layer": "E1",
+      "domains": [
+        "physics"
+      ],
+      "part_count": 8,
+      "chapter_count": 59,
+      "construction_steps": [
+        "CS-05",
+        "CS-06"
+      ],
+      "monograph_route": "/corpus/monographs/book-v/",
+      "publication_route": "/publications/books/book-v/"
+    },
+    {
+      "book_id": "book-vi",
+      "book_number": 6,
+      "roman": "VI",
+      "title": "Categorical Life",
+      "subtitle": "Life as Self-Decoding Distinctions",
+      "layer": "E2",
+      "domains": [
+        "life"
+      ],
+      "part_count": 9,
+      "chapter_count": 53,
+      "construction_steps": [
+        "CS-07"
+      ],
+      "monograph_route": "/corpus/monographs/book-vi/",
+      "publication_route": "/publications/books/book-vi/"
+    },
+    {
+      "book_id": "book-vii",
+      "book_number": 7,
+      "roman": "VII",
+      "title": "Categorical Metaphysics",
+      "subtitle": "The Final Self-Enrichment",
+      "layer": "E3",
+      "domains": [
+        "metaphysics"
+      ],
+      "part_count": 12,
+      "chapter_count": 128,
+      "construction_steps": [
+        "CS-08",
+        "CS-09",
+        "CS-10"
+      ],
+      "monograph_route": "/corpus/monographs/book-vii/",
+      "publication_route": "/publications/books/book-vii/"
+    }
+  ]
+}

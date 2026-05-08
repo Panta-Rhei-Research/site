@@ -30,6 +30,8 @@ right_rail:
 
 ## Conceptual graph
 
+{% assign graph_index = site.data.corpus.graph_index.graph_index %}
+
 <div class="v2-system-strip" aria-label="Corpus graph model">
   <a href="{{ '/corpus/registry/' | relative_url }}">Registry object</a>
   <span>-></span>
@@ -53,6 +55,18 @@ The graph exists to answer practical review questions:
 - Which Lean module, if any, formalizes the relevant layer?
 - Which version or release manifest fixes the current public state?
 
-## Phase-2 implementation
+## Current data-backed projection
 
-The current page is a conceptual surface. A later implementation can render an interactive dependency explorer from `_data/registry/adjacency.json`, `_data/registry/reverse-adjacency.json`, and `_data/registry/objects.json`.
+The current page remains a conceptual surface, but Wave 3 now publishes the underlying graph projection data from Corpus.
+
+{% if graph_index %}
+- Object inventory: `{{ graph_index.objects }}`
+- Dependency adjacency: `{{ graph_index.adjacency }}`
+- Reverse dependency adjacency: `{{ graph_index.reverse_adjacency }}`
+- Dependency nodes: `{{ graph_index.dependency_nodes }}`
+- Reverse dependency nodes: `{{ graph_index.reverse_dependency_nodes }}`
+{% else %}
+A later implementation can render an interactive dependency explorer from `_data/registry/adjacency.json`, `_data/registry/reverse-adjacency.json`, and `_data/registry/objects.json`.
+{% endif %}
+
+This sprint does not turn the graph into a full interactive UI. It makes the data contract explicit so later visual or query surfaces have a stable Corpus-owned source.

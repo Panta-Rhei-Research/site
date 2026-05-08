@@ -1,0 +1,11 @@
+generated_from: corpus/data/graph/graph-index.yml
+projection_version: v0.1
+canonical_source: corpus/data/graph/graph-index.yml
+do_not_edit: true
+graph_index:
+  objects: data/graph/objects.json
+  adjacency: data/graph/adjacency.json
+  reverse_adjacency: data/graph/reverse-adjacency.json
+  projection_edges: data/graph/projection-edges.yml
+  dependency_nodes: 4139
+  reverse_dependency_nodes: 4139

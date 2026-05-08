@@ -1,6 +1,6 @@
 ---
 layout: program-doc
-title: "The Bi-Square Spine"
+title: "The Bi-Square Motif"
 permalink: /corpus/bi-square/
 lane: corpus
 v2_lane: corpus
@@ -10,7 +10,7 @@ status: "Canonical"
 summary_short: "The repeated proof-organizing shape of the kernel: tower coherence on the left, spectral naturality on the right, and a pasted constraint that becomes richer across the construction."
 og_image: /assets/images/plates/plate-15-bi-square-spine-og.jpg
 twitter_image: /assets/images/plates/plate-15-bi-square-spine-og.jpg
-og_image_alt: "Scientific plate showing the Bi-Square Spine as a repeated two-by-three pasted diagram with tower coherence, spectral naturality, and a scaling chain from algebraic to computational bi-squares."
+og_image_alt: "Scientific plate showing the Bi-Square Motif as a repeated two-by-three pasted diagram with tower coherence, spectral naturality, and a scaling chain from algebraic to computational bi-squares."
 key_registry:
   - I.T41
   - II.D77
@@ -30,7 +30,7 @@ right_rail:
   related:
     - title: "Construction Spine"
       url: /corpus/construction-spine/
-    - title: "Foundational Hinges"
+    - title: "Construction Review Packet"
       url: /corpus/foundational-hinges/
     - title: "Registry"
       url: /corpus/registry/
@@ -64,6 +64,8 @@ right_rail:
 
 ## What the bi-square is
 
+{% assign bisquare_motif = site.data.corpus.construction_motifs.motifs | where: "motif_id", "motif-bisquare" | first %}
+
 {% include scientific-plate.html id="plate-15-bi-square-spine" class="scientific-plate--bi-square-spine" loading="eager" %}
 
 The bi-square is the Corpus route for a repeated categorical shape. It is a pasted `2 x 3` diagram: the left square records tower coherence, the right square records spectral naturality, and the whole pasted rectangle carries the layer-specific constraint.
@@ -72,18 +74,26 @@ The first form appears in Book I as [I.T41]({{ '/registry/object/I.T41/' | relat
 
 ## Why it matters
 
-The [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) explains the build order of the Corpus. The Bi-Square Spine explains a different thing: the stable diagrammatic form that keeps reappearing inside that build.
+The [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) explains the build order of the Corpus. The Bi-Square Motif explains a different thing: the stable diagrammatic form that keeps reappearing inside that build.
 
-That distinction matters. A reader can follow the construction step by step and still miss the repeated categorical shape. The bi-square makes that shape visible. It shows how the framework can preserve one proof architecture while changing the carried objects, morphisms, and pasting law.
+That distinction matters. A reader can follow the construction step by step and still miss the repeated categorical shape. The bi-square makes that shape visible. It shows how the framework can preserve one proof architecture while changing the carried objects, morphisms, and pasting law. Wave 3 models this as construction motif metadata, not as a second spine parallel to the Construction Spine.
 
 ## The scaling chain
 
+{% if bisquare_motif.stages %}
+| Stage | Registry anchors |
+| --- | --- |
+{% for stage in bisquare_motif.stages -%}
+| {{ stage.title }} | {% for anchor in stage.registry_anchors %}[{{ anchor }}]({{ '/registry/object/' | append: anchor | append: '/' | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %} |
+{% endfor %}
+{% else %}
 | Stage | Registry anchor | Left square | Right square | Pasting constraint |
 | --- | --- | --- | --- | --- |
 | Algebraic / holomorphy | [I.T41]({{ '/registry/object/I.T41/' | relative_url }}) | Tower coherence of stage functions | Spectral naturality of the bipolar decomposition | tau-holomorphy and the limit principle |
 | Geometric | [II.D77]({{ '/registry/object/II.D77/' | relative_url }}), [II.T49]({{ '/registry/object/II.T49/' | relative_url }}) | Holomorphic extension on the geometric carrier | Boundary-value / spectral algebra compatibility | Central Theorem reading of holomorphic sections and spectral algebra |
 | Enriched | [III.D65]({{ '/registry/object/III.D65/' | relative_url }}), [III.T39]({{ '/registry/object/III.T39/' | relative_url }}) | Sector-coupled tower coherence | Functorial spectral naturality | Finite factorization through sector components |
 | Computational | [III.D56]({{ '/registry/object/III.D56/' | relative_url }}) | TTM execution as tower coherence | CRT-decomposed witness structure | Product-Meet Collapse in the tau-admissible fragment |
+{% endif %}
 
 The public lesson is compact: same shape, richer objects.
 
@@ -118,7 +128,8 @@ The key TauLib routes are:
 This page is an orientation route, not a substitute for proof checking or external review.
 
 - The plate is a diagrammatic guide, not a proof.
-- The bi-square is a proof-organizing shape, not empirical evidence.
+- The bi-square is a proof-organizing motif, not empirical evidence.
+- The bi-square is not a second construction spine or separate construction order.
 - The four stages are not identical in content; they preserve shape while changing objects, morphisms, and constraints.
 - The computational stage is about the tau-admissible fragment, not a claim about unrestricted classical complexity.
 

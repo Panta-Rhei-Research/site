@@ -1,0 +1,32 @@
+{
+  "generated_from": "corpus/data/registry/count-model.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/registry/count-model.yml",
+  "do_not_edit": true,
+  "count_model": {
+    "registry_root_total": {
+      "value": 4547,
+      "label": "Manifest-pinned registry objects",
+      "definition": "Root registry manifest total exposed by the public Registry surface."
+    },
+    "typed_public_spine_total": {
+      "value": 4139,
+      "label": "Current typed public registry objects",
+      "definition": "Current public filtered Registry spine count from visibility=public Corpus objects.",
+      "actual_public_items": 4139
+    },
+    "source_inventory_total": 4583,
+    "type_counts": {
+      "axiom": 7,
+      "definition": 1391,
+      "lemma": 107,
+      "proposition": 740,
+      "theorem": 944,
+      "corollary": 33,
+      "remark": 915,
+      "construction": 2
+    },
+    "reconciliation_status": "explicit_difference",
+    "reconciliation_note": "Public surfaces expose both a manifest-pinned total and a typed public-filter count. Wave 3 preserves the distinction and reports drift instead of hiding it."
+  }
+}

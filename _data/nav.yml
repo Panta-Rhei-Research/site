@@ -189,9 +189,9 @@ lane_nav:
                 url: "/corpus/construction-spine/test-ontic-closure/"
           - title: "Monograph Corpus"
             url: "/corpus/monograph-corpus/"
-          - title: "Bi-Square Spine"
+          - title: "Bi-Square Motif"
             url: "/corpus/bi-square/"
-          - title: "Foundational Hinges"
+          - title: "Construction Review Packet"
             url: "/corpus/foundational-hinges/"
             children:
               - title: "τ-Kernel Architecture"

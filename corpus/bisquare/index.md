@@ -1,7 +1,7 @@
 ---
 layout: redirect
-title: "Bi-Square Spine"
+title: "Bi-Square Motif"
 permalink: /corpus/bisquare/
 redirect_to: /corpus/bi-square/
-summary_short: "Alias route for the canonical Bi-Square Spine page."
+summary_short: "Alias route for the canonical Bi-Square Motif page."
 ---

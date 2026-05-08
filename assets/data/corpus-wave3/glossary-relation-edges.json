@@ -1,0 +1,3568 @@
+{
+  "generated_from": "corpus/data/glossary/relation-edges.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/glossary/relation-edges.yml",
+  "do_not_edit": true,
+  "relation_edges": [
+    {
+      "source": "PG-C01-newton-g",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C01-newton-g",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C02-iota-tau",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C02-iota-tau",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C03-speed-of-light",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C03-speed-of-light",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C03-speed-of-light",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C04-planck-hbar",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C04-planck-hbar",
+      "target": "PG-C03-speed-of-light",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C04-planck-hbar",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C04-planck-hbar",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C05-fine-structure-alpha",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C05-fine-structure-alpha",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C05-fine-structure-alpha",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C06-elementary-charge",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C06-elementary-charge",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C06-elementary-charge",
+      "target": "PG-C04-planck-hbar",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C06-elementary-charge",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C07-vacuum-permittivity",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C07-vacuum-permittivity",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C07-vacuum-permittivity",
+      "target": "PG-C06-elementary-charge",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C07-vacuum-permittivity",
+      "target": "PG-C04-planck-hbar",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C07-vacuum-permittivity",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C08-vacuum-permeability",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C08-vacuum-permeability",
+      "target": "PG-C07-vacuum-permittivity",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C08-vacuum-permeability",
+      "target": "PG-C03-speed-of-light",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C08-vacuum-permeability",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C09-electron-mass",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C09-electron-mass",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C09-electron-mass",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C10-proton-mass",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C10-proton-mass",
+      "target": "PG-C09-electron-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C10-proton-mass",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C11-rydberg-constant",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C11-rydberg-constant",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C11-rydberg-constant",
+      "target": "PG-C09-electron-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C11-rydberg-constant",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C12-bohr-radius",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C12-bohr-radius",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C12-bohr-radius",
+      "target": "PG-C09-electron-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C12-bohr-radius",
+      "target": "PG-C11-rydberg-constant",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C12-bohr-radius",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C13-planck-mass",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C13-planck-mass",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C13-planck-mass",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C14-gravitational-fine-structure",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C14-gravitational-fine-structure",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C14-gravitational-fine-structure",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C14-gravitational-fine-structure",
+      "target": "PG-C13-planck-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C14-gravitational-fine-structure",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C15-boltzmann-constant",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C15-boltzmann-constant",
+      "target": "PG-C04-planck-hbar",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C15-boltzmann-constant",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C16-weinberg-angle",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C16-weinberg-angle",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C16-weinberg-angle",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C17-strong-coupling",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C17-strong-coupling",
+      "target": "PG-C05-fine-structure-alpha",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C17-strong-coupling",
+      "target": "PG-C16-weinberg-angle",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C17-strong-coupling",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C18-kappa-tau",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C18-kappa-tau",
+      "target": "PG-C16-weinberg-angle",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C18-kappa-tau",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C19-milgrom-acceleration",
+      "target": "PG-C02-iota-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C19-milgrom-acceleration",
+      "target": "PG-C18-kappa-tau",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C19-milgrom-acceleration",
+      "target": "PG-C03-speed-of-light",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C19-milgrom-acceleration",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-C19-milgrom-acceleration",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L01-tau-schrodinger",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L01-tau-schrodinger",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L02-tau-heisenberg-uncertainty",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L02-tau-heisenberg-uncertainty",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L02-tau-heisenberg-uncertainty",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L03-tau-maxwell-system",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L03-tau-maxwell-system",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L04-tau-einstein-equation",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L04-tau-einstein-equation",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L05-tau-newton-gravity",
+      "target": "PG-L04-tau-einstein-equation",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L05-tau-newton-gravity",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L06-tau-bianchi-identity",
+      "target": "PG-L03-tau-maxwell-system",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L07-tau-navier-stokes-regularity",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L08-tau-noether-theorem",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L08-tau-noether-theorem",
+      "target": "PG-L03-tau-maxwell-system",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L09-tau-em-wave-equation",
+      "target": "PG-L03-tau-maxwell-system",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L09-tau-em-wave-equation",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L10-tau-inhomogeneous-maxwell",
+      "target": "PG-L03-tau-maxwell-system",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L10-tau-inhomogeneous-maxwell",
+      "target": "PG-L06-tau-bianchi-identity",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L11-tau-conservation-as-naturality",
+      "target": "PG-L08-tau-noether-theorem",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L12-tau-gravitational-wave",
+      "target": "PG-L04-tau-einstein-equation",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L12-tau-gravitational-wave",
+      "target": "PG-L05-tau-newton-gravity",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L13-tau-mercury-precession",
+      "target": "PG-L04-tau-einstein-equation",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-L13-tau-mercury-precession",
+      "target": "PG-L05-tau-newton-gravity",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O01-hydrogen-atom",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O01-hydrogen-atom",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O01-hydrogen-atom",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O01-hydrogen-atom",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O02-alpha-particle",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O02-alpha-particle",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O02-alpha-particle",
+      "target": "PG-O01-hydrogen-atom",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O03-deuteron",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O03-deuteron",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O03-deuteron",
+      "target": "PG-O02-alpha-particle",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O04-atomic-nucleus",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O04-atomic-nucleus",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O04-atomic-nucleus",
+      "target": "PG-O02-alpha-particle",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O04-atomic-nucleus",
+      "target": "PG-O03-deuteron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O05-helium-atom",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O05-helium-atom",
+      "target": "PG-O01-hydrogen-atom",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O05-helium-atom",
+      "target": "PG-O02-alpha-particle",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O05-helium-atom",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O05-helium-atom",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O06-electron-orbital",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O06-electron-orbital",
+      "target": "PG-O01-hydrogen-atom",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O06-electron-orbital",
+      "target": "PG-O05-helium-atom",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O06-electron-orbital",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O06-electron-orbital",
+      "target": "PG-L01-tau-schrodinger",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O07-finite-stage-strong-vacuum",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O07-finite-stage-strong-vacuum",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O08-crystal-regime",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O08-crystal-regime",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O08-crystal-regime",
+      "target": "PG-O07-finite-stage-strong-vacuum",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O09-macroscopic-compression",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O09-macroscopic-compression",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O09-macroscopic-compression",
+      "target": "PG-O08-crystal-regime",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O10-fractional-cr-sublattice",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O10-fractional-cr-sublattice",
+      "target": "PG-O07-finite-stage-strong-vacuum",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O11-black-hole",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O11-black-hole",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O11-black-hole",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O12-neutron-star",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O12-neutron-star",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O12-neutron-star",
+      "target": "PG-C01-newton-g",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O12-neutron-star",
+      "target": "PG-O11-black-hole",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O13-macro-tau-crystal",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O13-macro-tau-crystal",
+      "target": "PG-O08-crystal-regime",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-O13-macro-tau-crystal",
+      "target": "PG-O09-macroscopic-compression",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P01-neutron",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P01-neutron",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P02-proton",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P03-electron",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P03-electron",
+      "target": "PG-P02-proton",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P04-photon",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P04-photon",
+      "target": "PG-P02-proton",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P04-photon",
+      "target": "PG-P03-electron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P05-neutrino",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P05-neutrino",
+      "target": "PG-P02-proton",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P05-neutrino",
+      "target": "PG-P03-electron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P06-up-quark",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P06-up-quark",
+      "target": "PG-P02-proton",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P07-down-quark",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P07-down-quark",
+      "target": "PG-P02-proton",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P07-down-quark",
+      "target": "PG-P06-up-quark",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P08-muon",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P08-muon",
+      "target": "PG-P03-electron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P09-tauon",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P09-tauon",
+      "target": "PG-P03-electron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P09-tauon",
+      "target": "PG-P08-muon",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P10-higgs-boson",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P10-higgs-boson",
+      "target": "PG-P03-electron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P11-z-boson",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P11-z-boson",
+      "target": "PG-P04-photon",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P11-z-boson",
+      "target": "PG-P10-higgs-boson",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P12-gluon",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P12-gluon",
+      "target": "PG-P06-up-quark",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P12-gluon",
+      "target": "PG-P07-down-quark",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P13-heavy-quarks",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P13-heavy-quarks",
+      "target": "PG-P06-up-quark",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-P13-heavy-quarks",
+      "target": "PG-P07-down-quark",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q01-mass",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q02-energy",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q02-energy",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q03-mass-energy-relation",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q03-mass-energy-relation",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q03-mass-energy-relation",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q04-entropy",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q04-entropy",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q05-enthalpy",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q05-enthalpy",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q05-enthalpy",
+      "target": "PG-Q04-entropy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q06-temperature",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q06-temperature",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q06-temperature",
+      "target": "PG-Q04-entropy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q07-electric-charge",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q08-geometric-charge",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q08-geometric-charge",
+      "target": "PG-Q07-electric-charge",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q09-frequency",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q09-frequency",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q10-proper-time",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q10-proper-time",
+      "target": "PG-Q09-frequency",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q11-operational-distance",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q11-operational-distance",
+      "target": "PG-Q10-proper-time",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q12-spectral-distance-sqrt3",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q13-energy-cr-tension",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q13-energy-cr-tension",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q13-energy-cr-tension",
+      "target": "PG-Q14-graph-energy-density",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q14-graph-energy-density",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q14-graph-energy-density",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q14-graph-energy-density",
+      "target": "PG-Q13-energy-cr-tension",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q15-holomorphic-entropy",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q15-holomorphic-entropy",
+      "target": "PG-Q04-entropy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q16-color-charge",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q16-color-charge",
+      "target": "PG-Q07-electric-charge",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q16-color-charge",
+      "target": "PG-Q08-geometric-charge",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q17-force-as-boundary-mode",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q17-force-as-boundary-mode",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q17-force-as-boundary-mode",
+      "target": "PG-Q13-energy-cr-tension",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q18-color-flux-tube",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q18-color-flux-tube",
+      "target": "PG-Q16-color-charge",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q19-action-space",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q19-action-space",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q19-action-space",
+      "target": "PG-Q10-proper-time",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q20-yukawa-coupling",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q20-yukawa-coupling",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q21-coupling-ledger",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q21-coupling-ledger",
+      "target": "PG-Q12-spectral-distance-sqrt3",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q21-coupling-ledger",
+      "target": "PG-Q20-yukawa-coupling",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q22-vacuum-energy",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q22-vacuum-energy",
+      "target": "PG-Q02-energy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q22-vacuum-energy",
+      "target": "PG-Q14-graph-energy-density",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q23-angular-momentum",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q23-angular-momentum",
+      "target": "PG-Q19-action-space",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q24-velocity",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q24-velocity",
+      "target": "PG-Q10-proper-time",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q24-velocity",
+      "target": "PG-Q11-operational-distance",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q25-degeneracy-pressure",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q25-degeneracy-pressure",
+      "target": "PG-Q04-entropy",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q25-degeneracy-pressure",
+      "target": "PG-Q17-force-as-boundary-mode",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q26-spin",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-Q26-spin",
+      "target": "PG-Q23-angular-momentum",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U01-tau-second",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U01-tau-second",
+      "target": "PG-Q01-mass",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U02-tau-meter",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U02-tau-meter",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U03-tau-kilogram",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U03-tau-kilogram",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U03-tau-kilogram",
+      "target": "PG-U02-tau-meter",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U04-tau-joule",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U04-tau-joule",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U04-tau-joule",
+      "target": "PG-U02-tau-meter",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U04-tau-joule",
+      "target": "PG-U03-tau-kilogram",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U05-tau-kelvin",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U05-tau-kelvin",
+      "target": "PG-U04-tau-joule",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U06-tau-coulomb",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U06-tau-coulomb",
+      "target": "PG-U04-tau-joule",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U07-tau-ampere",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U07-tau-ampere",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U07-tau-ampere",
+      "target": "PG-U06-tau-coulomb",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U08-tau-newton",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U08-tau-newton",
+      "target": "PG-U02-tau-meter",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U08-tau-newton",
+      "target": "PG-U04-tau-joule",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U09-tau-pascal",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U09-tau-pascal",
+      "target": "PG-U02-tau-meter",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U09-tau-pascal",
+      "target": "PG-U08-tau-newton",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U10-tau-watt",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U10-tau-watt",
+      "target": "PG-U01-tau-second",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U10-tau-watt",
+      "target": "PG-U04-tau-joule",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U11-tau-volt",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U11-tau-volt",
+      "target": "PG-U04-tau-joule",
+      "edge_type": "related"
+    },
+    {
+      "source": "PG-U11-tau-volt",
+      "target": "PG-U06-tau-coulomb",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E01-atp",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E01-atp",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E02-photosynthesis",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E02-photosynthesis",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E02-photosynthesis",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E03-cellular-respiration",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E03-cellular-respiration",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E03-cellular-respiration",
+      "target": "LG-E02-photosynthesis",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E03-cellular-respiration",
+      "target": "LG-E04-oxidative-phosphorylation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E03-cellular-respiration",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E04-oxidative-phosphorylation",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E04-oxidative-phosphorylation",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E04-oxidative-phosphorylation",
+      "target": "LG-E03-cellular-respiration",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E04-oxidative-phosphorylation",
+      "target": "LG-E05-proton-gradient",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E04-oxidative-phosphorylation",
+      "target": "LG-E06-nad-nadh",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E04-oxidative-phosphorylation",
+      "target": "LG-E08-electron-transport-chain",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E05-proton-gradient",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E05-proton-gradient",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E05-proton-gradient",
+      "target": "LG-E04-oxidative-phosphorylation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E05-proton-gradient",
+      "target": "LG-E08-electron-transport-chain",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E05-proton-gradient",
+      "target": "LG-S02-membrane",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E06-nad-nadh",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E06-nad-nadh",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E06-nad-nadh",
+      "target": "LG-E03-cellular-respiration",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E06-nad-nadh",
+      "target": "LG-E04-oxidative-phosphorylation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E06-nad-nadh",
+      "target": "LG-E08-electron-transport-chain",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E07-gtp-gdp",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E07-gtp-gdp",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E07-gtp-gdp",
+      "target": "LG-E03-cellular-respiration",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E08-electron-transport-chain",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E08-electron-transport-chain",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E08-electron-transport-chain",
+      "target": "LG-E04-oxidative-phosphorylation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E08-electron-transport-chain",
+      "target": "LG-E05-proton-gradient",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E08-electron-transport-chain",
+      "target": "LG-E06-nad-nadh",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E09-thermodynamic-necessity",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E09-thermodynamic-necessity",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E09-thermodynamic-necessity",
+      "target": "LG-E03-cellular-respiration",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E09-thermodynamic-necessity",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-E09-thermodynamic-necessity",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I01-genetic-code",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I02-codon",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I02-codon",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I03-amino-acid",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I03-amino-acid",
+      "target": "LG-I02-codon",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I03-amino-acid",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I04-mrna",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I04-mrna",
+      "target": "LG-I02-codon",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I04-mrna",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I05-trna",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I05-trna",
+      "target": "LG-I02-codon",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I05-trna",
+      "target": "LG-I03-amino-acid",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I05-trna",
+      "target": "LG-I04-mrna",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I05-trna",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I06-protein-folding",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I06-protein-folding",
+      "target": "LG-I03-amino-acid",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I06-protein-folding",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I07-epigenetic-state",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I07-epigenetic-state",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I08-epigenetic-drift",
+      "target": "LG-I07-epigenetic-state",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I08-epigenetic-drift",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I09-selfdesc-over-code",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I09-selfdesc-over-code",
+      "target": "LG-I10-internal-evaluator",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I09-selfdesc-over-code",
+      "target": "LG-I11-decode-horizon",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I09-selfdesc-over-code",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I10-internal-evaluator",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I10-internal-evaluator",
+      "target": "LG-I09-selfdesc-over-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I10-internal-evaluator",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I11-decode-horizon",
+      "target": "LG-I01-genetic-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I11-decode-horizon",
+      "target": "LG-I09-selfdesc-over-code",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I11-decode-horizon",
+      "target": "LG-I10-internal-evaluator",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-I11-decode-horizon",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M01-consciousness",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M01-consciousness",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M01-consciousness",
+      "target": "MG-A01-ci-operator-graph",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M01-consciousness",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M02-neural-defect-tower",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M02-neural-defect-tower",
+      "target": "LG-M03-sleep-repair",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M02-neural-defect-tower",
+      "target": "LG-M08-neural-hayflick-bound",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M02-neural-defect-tower",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M03-sleep-repair",
+      "target": "LG-M02-neural-defect-tower",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M03-sleep-repair",
+      "target": "LG-M04-learning-consolidation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M03-sleep-repair",
+      "target": "LG-M05-memory",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M03-sleep-repair",
+      "target": "LG-T01-circadian-rhythm",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M03-sleep-repair",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M04-learning-consolidation",
+      "target": "LG-M05-memory",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M04-learning-consolidation",
+      "target": "LG-M06-attention",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M04-learning-consolidation",
+      "target": "LG-M03-sleep-repair",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M04-learning-consolidation",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M04-learning-consolidation",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M05-memory",
+      "target": "LG-M04-learning-consolidation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M05-memory",
+      "target": "LG-M03-sleep-repair",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M05-memory",
+      "target": "LG-M06-attention",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M05-memory",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M05-memory",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M06-attention",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M06-attention",
+      "target": "LG-M07-constructive-consciousness-criteria",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M06-attention",
+      "target": "LG-M04-learning-consolidation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M06-attention",
+      "target": "LG-M05-memory",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M06-attention",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M07-constructive-consciousness-criteria",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M07-constructive-consciousness-criteria",
+      "target": "LG-M09-mixed-sector-self-modeling",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M07-constructive-consciousness-criteria",
+      "target": "LG-M06-attention",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M07-constructive-consciousness-criteria",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M08-neural-hayflick-bound",
+      "target": "LG-M02-neural-defect-tower",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M08-neural-hayflick-bound",
+      "target": "LG-M03-sleep-repair",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M08-neural-hayflick-bound",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M08-neural-hayflick-bound",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M09-mixed-sector-self-modeling",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M09-mixed-sector-self-modeling",
+      "target": "LG-M07-constructive-consciousness-criteria",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M09-mixed-sector-self-modeling",
+      "target": "LG-M06-attention",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M09-mixed-sector-self-modeling",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-M09-mixed-sector-self-modeling",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P01-metabolism",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P01-metabolism",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P02-krebs-cycle",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P02-krebs-cycle",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P02-krebs-cycle",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P03-glycolysis",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P03-glycolysis",
+      "target": "LG-P02-krebs-cycle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P03-glycolysis",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P03-glycolysis",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P04-photosynthesis",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P04-photosynthesis",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P05-respiration",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P05-respiration",
+      "target": "LG-P02-krebs-cycle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P05-respiration",
+      "target": "LG-P03-glycolysis",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P05-respiration",
+      "target": "LG-E01-atp",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P05-respiration",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P06-cellular-replication",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P06-cellular-replication",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P07-mitosis",
+      "target": "LG-P06-cellular-replication",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P07-mitosis",
+      "target": "LG-P08-meiosis",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P07-mitosis",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P08-meiosis",
+      "target": "LG-P06-cellular-replication",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P08-meiosis",
+      "target": "LG-P07-mitosis",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P08-meiosis",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P09-aging",
+      "target": "LG-P12-apoptosis",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P09-aging",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P10-evolution",
+      "target": "LG-P11-speciation",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P10-evolution",
+      "target": "LG-P06-cellular-replication",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P10-evolution",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P11-speciation",
+      "target": "LG-P10-evolution",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P11-speciation",
+      "target": "LG-P08-meiosis",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P11-speciation",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P12-apoptosis",
+      "target": "LG-P09-aging",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P12-apoptosis",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P13-morphogenesis",
+      "target": "LG-P10-evolution",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-P13-morphogenesis",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S01-cell",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S02-membrane",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S02-membrane",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S03-organelle",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S03-organelle",
+      "target": "LG-S02-membrane",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S04-mitochondrion",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S04-mitochondrion",
+      "target": "LG-S03-organelle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S05-nucleus",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S05-nucleus",
+      "target": "LG-S03-organelle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S06-ribosome",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S06-ribosome",
+      "target": "LG-S03-organelle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S07-chromosome",
+      "target": "LG-S05-nucleus",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S08-chloroplast",
+      "target": "LG-S03-organelle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S09-genome",
+      "target": "LG-S07-chromosome",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S09-genome",
+      "target": "LG-S05-nucleus",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S10-tissue",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S11-organ",
+      "target": "LG-S10-tissue",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S11-organ",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S12-organism",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S12-organism",
+      "target": "LG-S10-tissue",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S12-organism",
+      "target": "LG-S11-organ",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S13-multicellularity",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S13-multicellularity",
+      "target": "LG-S10-tissue",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S13-multicellularity",
+      "target": "LG-S11-organ",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S13-multicellularity",
+      "target": "LG-S12-organism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S14-ecosystem",
+      "target": "LG-S12-organism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S15-neural-architecture",
+      "target": "LG-S11-organ",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-S15-neural-architecture",
+      "target": "LG-S12-organism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y01-life-sector",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y01-life-sector",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y01-life-sector",
+      "target": "LG-P01-metabolism",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y02-kinetic-pseudoscalar-channel",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y02-kinetic-pseudoscalar-channel",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y03-tau-distinction",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y03-tau-distinction",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y03-tau-distinction",
+      "target": "LG-Y04-polarity-functional",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y03-tau-distinction",
+      "target": "LG-Y05-life-loop-class",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y04-polarity-functional",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y04-polarity-functional",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y04-polarity-functional",
+      "target": "LG-Y03-tau-distinction",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y05-life-loop-class",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y05-life-loop-class",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y05-life-loop-class",
+      "target": "LG-Y03-tau-distinction",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y05-life-loop-class",
+      "target": "LG-Y07-persistence-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y05-life-loop-class",
+      "target": "LG-Y08-agency-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y05-life-loop-class",
+      "target": "LG-Y09-source-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y05-life-loop-class",
+      "target": "LG-Y10-closure-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y06-three-domain-sector-taxonomy",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y06-three-domain-sector-taxonomy",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y06-three-domain-sector-taxonomy",
+      "target": "LG-Y07-persistence-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y06-three-domain-sector-taxonomy",
+      "target": "LG-Y08-agency-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y06-three-domain-sector-taxonomy",
+      "target": "LG-Y09-source-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y06-three-domain-sector-taxonomy",
+      "target": "LG-Y10-closure-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y06-three-domain-sector-taxonomy",
+      "target": "LG-Y11-consumer-mixer",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y07-persistence-sector",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y07-persistence-sector",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y07-persistence-sector",
+      "target": "LG-Y05-life-loop-class",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y07-persistence-sector",
+      "target": "LG-Y06-three-domain-sector-taxonomy",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y07-persistence-sector",
+      "target": "LG-Y08-agency-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y08-agency-sector",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y08-agency-sector",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y08-agency-sector",
+      "target": "LG-Y05-life-loop-class",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y08-agency-sector",
+      "target": "LG-Y06-three-domain-sector-taxonomy",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y08-agency-sector",
+      "target": "LG-Y07-persistence-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y09-source-sector",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y09-source-sector",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y09-source-sector",
+      "target": "LG-Y05-life-loop-class",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y09-source-sector",
+      "target": "LG-Y06-three-domain-sector-taxonomy",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y09-source-sector",
+      "target": "LG-Y10-closure-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y09-source-sector",
+      "target": "LG-Y11-consumer-mixer",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y10-closure-sector",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y10-closure-sector",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y10-closure-sector",
+      "target": "LG-Y05-life-loop-class",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y10-closure-sector",
+      "target": "LG-Y06-three-domain-sector-taxonomy",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y10-closure-sector",
+      "target": "LG-Y09-source-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y10-closure-sector",
+      "target": "LG-Y11-consumer-mixer",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y11-consumer-mixer",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y11-consumer-mixer",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y11-consumer-mixer",
+      "target": "LG-Y05-life-loop-class",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y11-consumer-mixer",
+      "target": "LG-Y06-three-domain-sector-taxonomy",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y11-consumer-mixer",
+      "target": "LG-Y09-source-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y11-consumer-mixer",
+      "target": "LG-Y10-closure-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y12-seven-hallmarks-of-life",
+      "target": "LG-Y01-life-sector",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y12-seven-hallmarks-of-life",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y12-seven-hallmarks-of-life",
+      "target": "LG-Y03-tau-distinction",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-Y12-seven-hallmarks-of-life",
+      "target": "LG-Y05-life-loop-class",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T01-circadian-rhythm",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T01-circadian-rhythm",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T02-cell-cycle",
+      "target": "LG-T01-circadian-rhythm",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T02-cell-cycle",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T02-cell-cycle",
+      "target": "LG-S01-cell",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T03-sleep-cycle",
+      "target": "LG-T01-circadian-rhythm",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T03-sleep-cycle",
+      "target": "LG-T06-sleep-repair",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T03-sleep-cycle",
+      "target": "LG-T08-lemniscate-extended",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T03-sleep-cycle",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T04-aging-trajectory",
+      "target": "LG-T05-hayflick-limit",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T04-aging-trajectory",
+      "target": "LG-T06-sleep-repair",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T04-aging-trajectory",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T05-hayflick-limit",
+      "target": "LG-T04-aging-trajectory",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T05-hayflick-limit",
+      "target": "LG-T02-cell-cycle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T05-hayflick-limit",
+      "target": "LG-T06-sleep-repair",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T05-hayflick-limit",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T06-sleep-repair",
+      "target": "LG-T03-sleep-cycle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T06-sleep-repair",
+      "target": "LG-T04-aging-trajectory",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T06-sleep-repair",
+      "target": "LG-T05-hayflick-limit",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T06-sleep-repair",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T07-circadian-master-clock",
+      "target": "LG-T01-circadian-rhythm",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T07-circadian-master-clock",
+      "target": "LG-T03-sleep-cycle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T07-circadian-master-clock",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T08-lemniscate-extended",
+      "target": "LG-T01-circadian-rhythm",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T08-lemniscate-extended",
+      "target": "LG-T03-sleep-cycle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T08-lemniscate-extended",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T09-generation-time",
+      "target": "LG-T02-cell-cycle",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T09-generation-time",
+      "target": "LG-T04-aging-trajectory",
+      "edge_type": "related"
+    },
+    {
+      "source": "LG-T09-generation-time",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A01-ci-operator-graph",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A01-ci-operator-graph",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A01-ci-operator-graph",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A02-metadecode-operator",
+      "target": "MG-A01-ci-operator-graph",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A02-metadecode-operator",
+      "target": "MG-A07-self-recognition-as-e3-operator",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A02-metadecode-operator",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A03-tau-modal-operators",
+      "target": "MG-A01-ci-operator-graph",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A03-tau-modal-operators",
+      "target": "MG-A08-operator-realism",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A03-tau-modal-operators",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A04-temporalization-operators",
+      "target": "MG-A05-pragmatic-update-operator",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A04-temporalization-operators",
+      "target": "MG-A03-tau-modal-operators",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A04-temporalization-operators",
+      "target": "MG-R03-diagrammatic-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A05-pragmatic-update-operator",
+      "target": "MG-A04-temporalization-operators",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A05-pragmatic-update-operator",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A05-pragmatic-update-operator",
+      "target": "MG-R03-diagrammatic-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A06-operator-graph-completeness",
+      "target": "MG-A01-ci-operator-graph",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A06-operator-graph-completeness",
+      "target": "MG-A07-self-recognition-as-e3-operator",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A06-operator-graph-completeness",
+      "target": "MG-A08-operator-realism",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A07-self-recognition-as-e3-operator",
+      "target": "MG-A02-metadecode-operator",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A07-self-recognition-as-e3-operator",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A07-self-recognition-as-e3-operator",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A08-operator-realism",
+      "target": "MG-A03-tau-modal-operators",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A08-operator-realism",
+      "target": "MG-A06-operator-graph-completeness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A08-operator-realism",
+      "target": "MG-A01-ci-operator-graph",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A09-sectoral-topology",
+      "target": "MG-A10-logos-sector-closure",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A09-sectoral-topology",
+      "target": "MG-A01-ci-operator-graph",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A09-sectoral-topology",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A10-logos-sector-closure",
+      "target": "MG-A09-sectoral-topology",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A10-logos-sector-closure",
+      "target": "MG-A06-operator-graph-completeness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A10-logos-sector-closure",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A11-categorical-phenomenology-framework",
+      "target": "MG-A04-temporalization-operators",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A11-categorical-phenomenology-framework",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-A11-categorical-phenomenology-framework",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C01-dignity",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C02-fairness",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C02-fairness",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C03-justice",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C03-justice",
+      "target": "MG-C02-fairness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C04-earned-unearned",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C04-earned-unearned",
+      "target": "MG-C02-fairness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C04-earned-unearned",
+      "target": "MG-C03-justice",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C05-character",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C05-character",
+      "target": "MG-C02-fairness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C05-character",
+      "target": "MG-C04-earned-unearned",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C06-legitimacy",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C06-legitimacy",
+      "target": "MG-C02-fairness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C06-legitimacy",
+      "target": "MG-C03-justice",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C07-promise",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C07-promise",
+      "target": "MG-C02-fairness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C07-promise",
+      "target": "MG-C05-character",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C08-responsibility",
+      "target": "MG-C04-earned-unearned",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C08-responsibility",
+      "target": "MG-C05-character",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C08-responsibility",
+      "target": "MG-C07-promise",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C09-rights",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C09-rights",
+      "target": "MG-C04-earned-unearned",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C09-rights",
+      "target": "MG-C06-legitimacy",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C09-rights",
+      "target": "MG-C10-duty",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C10-duty",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C10-duty",
+      "target": "MG-C02-fairness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C10-duty",
+      "target": "MG-C07-promise",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C10-duty",
+      "target": "MG-C09-rights",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C11-trust",
+      "target": "MG-C05-character",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C11-trust",
+      "target": "MG-C06-legitimacy",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-C11-trust",
+      "target": "MG-C07-promise",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O01-being",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O01-being",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O02-identity",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O02-identity",
+      "target": "MG-O11-time",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O02-identity",
+      "target": "MG-O05-mereology",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O03-modality",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O03-modality",
+      "target": "MG-O04-causation",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O03-modality",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O04-causation",
+      "target": "MG-O03-modality",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O04-causation",
+      "target": "MG-O08-event",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O04-causation",
+      "target": "MG-O11-time",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O05-mereology",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O05-mereology",
+      "target": "MG-O02-identity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O05-mereology",
+      "target": "MG-O07-particular",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O06-universal",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O06-universal",
+      "target": "MG-O07-particular",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O06-universal",
+      "target": "MG-O09-property",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O07-particular",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O07-particular",
+      "target": "MG-O02-identity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O07-particular",
+      "target": "MG-O06-universal",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O07-particular",
+      "target": "MG-O09-property",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O08-event",
+      "target": "MG-O04-causation",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O08-event",
+      "target": "MG-O11-time",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O08-event",
+      "target": "MG-O02-identity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O09-property",
+      "target": "MG-O06-universal",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O09-property",
+      "target": "MG-O07-particular",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O09-property",
+      "target": "MG-O10-relation",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O10-relation",
+      "target": "MG-O09-property",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O10-relation",
+      "target": "MG-O07-particular",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O10-relation",
+      "target": "MG-O06-universal",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O11-time",
+      "target": "MG-O02-identity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O11-time",
+      "target": "MG-O08-event",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O11-time",
+      "target": "MG-O04-causation",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O12-truth-bearer",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O12-truth-bearer",
+      "target": "MG-O03-modality",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O12-truth-bearer",
+      "target": "MG-O13-reality",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O13-reality",
+      "target": "MG-O01-being",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O13-reality",
+      "target": "MG-O12-truth-bearer",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-O13-reality",
+      "target": "MG-O06-universal",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H01-qualia",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H01-qualia",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H01-qualia",
+      "target": "LG-M01-consciousness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H02-intentionality",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H02-intentionality",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H02-intentionality",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H03-mind-topos",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H03-mind-topos",
+      "target": "MG-H02-intentionality",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H03-mind-topos",
+      "target": "MG-H04-subjectivity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H03-mind-topos",
+      "target": "MG-H11-self-recognition",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H04-subjectivity",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H04-subjectivity",
+      "target": "MG-H11-self-recognition",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H04-subjectivity",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H05-aesthetics",
+      "target": "MG-H06-sublime",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H05-aesthetics",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H05-aesthetics",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H06-sublime",
+      "target": "MG-H05-aesthetics",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H06-sublime",
+      "target": "MG-H01-qualia",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H06-sublime",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H07-narrative",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H07-narrative",
+      "target": "MG-H04-subjectivity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H07-narrative",
+      "target": "MG-H11-self-recognition",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H08-language-meaning",
+      "target": "MG-H09-symbol",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H08-language-meaning",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H08-language-meaning",
+      "target": "MG-H10-truth",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H09-symbol",
+      "target": "MG-H08-language-meaning",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H09-symbol",
+      "target": "MG-H10-truth",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H09-symbol",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H10-truth",
+      "target": "MG-H08-language-meaning",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H10-truth",
+      "target": "MG-H09-symbol",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H10-truth",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H11-self-recognition",
+      "target": "MG-H03-mind-topos",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H11-self-recognition",
+      "target": "MG-H04-subjectivity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-H11-self-recognition",
+      "target": "MG-H07-narrative",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P01-or1-self-coherence",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P02-or2-finite-signature",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P02-or2-finite-signature",
+      "target": "MG-P07-six-ontic-requirements",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P02-or2-finite-signature",
+      "target": "MG-R03-diagrammatic-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P03-or3-diagonal-free-self-reference",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P03-or3-diagonal-free-self-reference",
+      "target": "MG-P04-or4-nf-addressability",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P03-or3-diagonal-free-self-reference",
+      "target": "MG-P07-six-ontic-requirements",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P04-or4-nf-addressability",
+      "target": "MG-P03-or3-diagonal-free-self-reference",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P04-or4-nf-addressability",
+      "target": "MG-P07-six-ontic-requirements",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P04-or4-nf-addressability",
+      "target": "MG-P10-independent-necessity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P05-or5-holomorphic-continuation",
+      "target": "MG-P06-or6-spectral-completeness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P05-or5-holomorphic-continuation",
+      "target": "MG-P07-six-ontic-requirements",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P05-or5-holomorphic-continuation",
+      "target": "MG-P10-independent-necessity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P06-or6-spectral-completeness",
+      "target": "MG-P05-or5-holomorphic-continuation",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P06-or6-spectral-completeness",
+      "target": "MG-P07-six-ontic-requirements",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P06-or6-spectral-completeness",
+      "target": "MG-P10-independent-necessity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P07-six-ontic-requirements",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P07-six-ontic-requirements",
+      "target": "MG-P02-or2-finite-signature",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P07-six-ontic-requirements",
+      "target": "MG-P03-or3-diagonal-free-self-reference",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P07-six-ontic-requirements",
+      "target": "MG-P04-or4-nf-addressability",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P07-six-ontic-requirements",
+      "target": "MG-P05-or5-holomorphic-continuation",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P07-six-ontic-requirements",
+      "target": "MG-P06-or6-spectral-completeness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P07-six-ontic-requirements",
+      "target": "MG-P10-independent-necessity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P08-layer-discipline",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P08-layer-discipline",
+      "target": "MG-R02-practical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P08-layer-discipline",
+      "target": "MG-R03-diagrammatic-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P08-layer-discipline",
+      "target": "MG-R04-commitment-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P08-layer-discipline",
+      "target": "MG-P09-earned-unearned",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P09-earned-unearned",
+      "target": "MG-P08-layer-discipline",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P09-earned-unearned",
+      "target": "MG-R02-practical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P09-earned-unearned",
+      "target": "MG-C01-dignity",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P10-independent-necessity",
+      "target": "MG-P07-six-ontic-requirements",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P10-independent-necessity",
+      "target": "MG-P01-or1-self-coherence",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P10-independent-necessity",
+      "target": "MG-P02-or2-finite-signature",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P10-independent-necessity",
+      "target": "MG-P03-or3-diagonal-free-self-reference",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P10-independent-necessity",
+      "target": "MG-P04-or4-nf-addressability",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P10-independent-necessity",
+      "target": "MG-P05-or5-holomorphic-continuation",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P10-independent-necessity",
+      "target": "MG-P06-or6-spectral-completeness",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P11-truth-bearer",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P11-truth-bearer",
+      "target": "MG-R03-diagrammatic-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-P11-truth-bearer",
+      "target": "MG-A01-ci-operator-graph",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R01-empirical-register",
+      "target": "PG-P01-neutron",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R01-empirical-register",
+      "target": "LG-Y02-kinetic-pseudoscalar-channel",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R02-practical-register",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R03-diagrammatic-register",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R04-commitment-register",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R05-empirical-sector",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R06-practical-sector",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R07-diagrammatic-sector",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R08-commitment-sector",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R09-logos-sector",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R10-register-completeness",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    },
+    {
+      "source": "MG-R11-register-enrichment-correspondence",
+      "target": "MG-R01-empirical-register",
+      "edge_type": "related"
+    }
+  ]
+}

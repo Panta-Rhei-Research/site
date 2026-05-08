@@ -1,0 +1,48 @@
+{
+  "generated_from": "corpus/data/registry/object-types.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/registry/object-types.yml",
+  "do_not_edit": true,
+  "object_types": {
+    "axiom": {
+      "label": "Axiom",
+      "description": "A foundational commitment of the formal kernel.",
+      "claim_burden": "foundational_commitment"
+    },
+    "definition": {
+      "label": "Definition",
+      "description": "An introduced object, relation, construction, or term.",
+      "claim_burden": "term_introduction"
+    },
+    "lemma": {
+      "label": "Lemma",
+      "description": "A supporting result used by later statements.",
+      "claim_burden": "supporting_result"
+    },
+    "proposition": {
+      "label": "Proposition",
+      "description": "A local result or structured claim with narrower scope.",
+      "claim_burden": "local_result"
+    },
+    "theorem": {
+      "label": "Theorem",
+      "description": "A load-bearing result with stronger downstream use.",
+      "claim_burden": "load_bearing_result"
+    },
+    "corollary": {
+      "label": "Corollary",
+      "description": "A result obtained from prior statements.",
+      "claim_burden": "derived_result"
+    },
+    "remark": {
+      "label": "Remark",
+      "description": "Explanatory or interpretive material attached to the formal spine.",
+      "claim_burden": "explanatory_context"
+    },
+    "construction": {
+      "label": "Construction",
+      "description": "An explicit built object or method.",
+      "claim_burden": "built_object"
+    }
+  }
+}

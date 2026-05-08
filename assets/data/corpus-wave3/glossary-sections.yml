@@ -1,0 +1,53 @@
+generated_from: corpus/data/glossary/sections.yml
+projection_version: v0.1
+canonical_source: corpus/data/glossary/sections.yml
+do_not_edit: true
+sections:
+  architecture:
+    count: 11
+  axiom:
+    count: 3
+  commitment:
+    count: 11
+  constant:
+    count: 19
+  definition:
+    count: 16
+  energy:
+    count: 9
+  information:
+    count: 11
+  law:
+    count: 13
+  lemma:
+    count: 1
+  object:
+    count: 15
+  ontology:
+    count: 13
+  particle:
+    count: 13
+  phenomenal:
+    count: 9
+  phenomenology:
+    count: 11
+  postulate:
+    count: 3
+  principle:
+    count: 11
+  process:
+    count: 13
+  quantity:
+    count: 26
+  register:
+    count: 11
+  structure:
+    count: 18
+  systemic:
+    count: 12
+  temporal:
+    count: 9
+  theorem:
+    count: 13
+  unit:
+    count: 11

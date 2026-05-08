@@ -1,0 +1,32 @@
+{
+  "generated_from": "corpus/data/graph/projection-edges.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/graph/projection-edges.yml",
+  "do_not_edit": true,
+  "edge_types": {
+    "depends_on": {
+      "label": "Depends on"
+    },
+    "used_by": {
+      "label": "Used by"
+    },
+    "stated_in": {
+      "label": "Stated in"
+    },
+    "formalized_in": {
+      "label": "Formalized in"
+    },
+    "anchors_result": {
+      "label": "Anchors result"
+    },
+    "supports_challenge_response": {
+      "label": "Supports challenge response"
+    },
+    "published_in": {
+      "label": "Published in"
+    },
+    "corrected_by": {
+      "label": "Corrected by"
+    }
+  }
+}

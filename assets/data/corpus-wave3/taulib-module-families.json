@@ -1,0 +1,398 @@
+{
+  "generated_from": "corpus/data/taulib/module-families.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/taulib/module-families.yml",
+  "do_not_edit": true,
+  "module_families": [
+    {
+      "family_id": "tl-family-addressability",
+      "family_key": "Addressability",
+      "title": "Addressability",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-agency",
+      "family_key": "Agency",
+      "title": "Agency",
+      "module_count": 2
+    },
+    {
+      "family_id": "tl-family-arena",
+      "family_key": "Arena",
+      "title": "Arena",
+      "module_count": 6
+    },
+    {
+      "family_id": "tl-family-arithmetic",
+      "family_key": "Arithmetic",
+      "title": "Arithmetic",
+      "module_count": 9
+    },
+    {
+      "family_id": "tl-family-astrophysics",
+      "family_key": "Astrophysics",
+      "title": "Astrophysics",
+      "module_count": 12
+    },
+    {
+      "family_id": "tl-family-boundary",
+      "family_key": "Boundary",
+      "title": "Boundary",
+      "module_count": 39
+    },
+    {
+      "family_id": "tl-family-bridge",
+      "family_key": "Bridge",
+      "title": "Bridge",
+      "module_count": 8
+    },
+    {
+      "family_id": "tl-family-cf",
+      "family_key": "CF",
+      "title": "CF",
+      "module_count": 1
+    },
+    {
+      "family_id": "tl-family-calibration",
+      "family_key": "Calibration",
+      "title": "Calibration",
+      "module_count": 15
+    },
+    {
+      "family_id": "tl-family-centraltheorem",
+      "family_key": "CentralTheorem",
+      "title": "CentralTheorem",
+      "module_count": 7
+    },
+    {
+      "family_id": "tl-family-closure",
+      "family_key": "Closure",
+      "title": "Closure",
+      "module_count": 9
+    },
+    {
+      "family_id": "tl-family-coda",
+      "family_key": "Coda",
+      "title": "Coda",
+      "module_count": 8
+    },
+    {
+      "family_id": "tl-family-computation",
+      "family_key": "Computation",
+      "title": "Computation",
+      "module_count": 6
+    },
+    {
+      "family_id": "tl-family-consumer",
+      "family_key": "Consumer",
+      "title": "Consumer",
+      "module_count": 7
+    },
+    {
+      "family_id": "tl-family-coordinates",
+      "family_key": "Coordinates",
+      "title": "Coordinates",
+      "module_count": 13
+    },
+    {
+      "family_id": "tl-family-cosmiclife",
+      "family_key": "CosmicLife",
+      "title": "CosmicLife",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-cosmology",
+      "family_key": "Cosmology",
+      "title": "Cosmology",
+      "module_count": 18
+    },
+    {
+      "family_id": "tl-family-denotation",
+      "family_key": "Denotation",
+      "title": "Denotation",
+      "module_count": 9
+    },
+    {
+      "family_id": "tl-family-domains",
+      "family_key": "Domains",
+      "title": "Domains",
+      "module_count": 3
+    },
+    {
+      "family_id": "tl-family-doors",
+      "family_key": "Doors",
+      "title": "Doors",
+      "module_count": 10
+    },
+    {
+      "family_id": "tl-family-electroweak",
+      "family_key": "Electroweak",
+      "title": "Electroweak",
+      "module_count": 17
+    },
+    {
+      "family_id": "tl-family-enrichment",
+      "family_key": "Enrichment",
+      "title": "Enrichment",
+      "module_count": 9
+    },
+    {
+      "family_id": "tl-family-ethics",
+      "family_key": "Ethics",
+      "title": "Ethics",
+      "module_count": 1
+    },
+    {
+      "family_id": "tl-family-final",
+      "family_key": "Final",
+      "title": "Final",
+      "module_count": 1
+    },
+    {
+      "family_id": "tl-family-fluidmacro",
+      "family_key": "FluidMacro",
+      "title": "FluidMacro",
+      "module_count": 7
+    },
+    {
+      "family_id": "tl-family-geometry",
+      "family_key": "Geometry",
+      "title": "Geometry",
+      "module_count": 5
+    },
+    {
+      "family_id": "tl-family-gravity",
+      "family_key": "Gravity",
+      "title": "Gravity",
+      "module_count": 5
+    },
+    {
+      "family_id": "tl-family-gravityfield",
+      "family_key": "GravityField",
+      "title": "GravityField",
+      "module_count": 13
+    },
+    {
+      "family_id": "tl-family-hartogs",
+      "family_key": "Hartogs",
+      "title": "Hartogs",
+      "module_count": 9
+    },
+    {
+      "family_id": "tl-family-hinge",
+      "family_key": "Hinge",
+      "title": "Hinge",
+      "module_count": 2
+    },
+    {
+      "family_id": "tl-family-holomorphy",
+      "family_key": "Holomorphy",
+      "title": "Holomorphy",
+      "module_count": 12
+    },
+    {
+      "family_id": "tl-family-interior",
+      "family_key": "Interior",
+      "title": "Interior",
+      "module_count": 5
+    },
+    {
+      "family_id": "tl-family-kernel",
+      "family_key": "Kernel",
+      "title": "Kernel",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-kernelfoundation",
+      "family_key": "KernelFoundation",
+      "title": "KernelFoundation",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-lifecore",
+      "family_key": "LifeCore",
+      "title": "LifeCore",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-logic",
+      "family_key": "Logic",
+      "title": "Logic",
+      "module_count": 3
+    },
+    {
+      "family_id": "tl-family-logos",
+      "family_key": "Logos",
+      "title": "Logos",
+      "module_count": 1
+    },
+    {
+      "family_id": "tl-family-manybody",
+      "family_key": "ManyBody",
+      "title": "ManyBody",
+      "module_count": 6
+    },
+    {
+      "family_id": "tl-family-massderivation",
+      "family_key": "MassDerivation",
+      "title": "MassDerivation",
+      "module_count": 3
+    },
+    {
+      "family_id": "tl-family-meta",
+      "family_key": "Meta",
+      "title": "Meta",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-metalogic",
+      "family_key": "MetaLogic",
+      "title": "MetaLogic",
+      "module_count": 7
+    },
+    {
+      "family_id": "tl-family-mind",
+      "family_key": "Mind",
+      "title": "Mind",
+      "module_count": 2
+    },
+    {
+      "family_id": "tl-family-mirror",
+      "family_key": "Mirror",
+      "title": "Mirror",
+      "module_count": 8
+    },
+    {
+      "family_id": "tl-family-orbit",
+      "family_key": "Orbit",
+      "title": "Orbit",
+      "module_count": 8
+    },
+    {
+      "family_id": "tl-family-orthodox",
+      "family_key": "Orthodox",
+      "title": "Orthodox",
+      "module_count": 5
+    },
+    {
+      "family_id": "tl-family-particles",
+      "family_key": "Particles",
+      "title": "Particles",
+      "module_count": 7
+    },
+    {
+      "family_id": "tl-family-persistence",
+      "family_key": "Persistence",
+      "title": "Persistence",
+      "module_count": 2
+    },
+    {
+      "family_id": "tl-family-physics",
+      "family_key": "Physics",
+      "title": "Physics",
+      "module_count": 18
+    },
+    {
+      "family_id": "tl-family-polarity",
+      "family_key": "Polarity",
+      "title": "Polarity",
+      "module_count": 21
+    },
+    {
+      "family_id": "tl-family-prologue",
+      "family_key": "Prologue",
+      "title": "Prologue",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-quantummechanics",
+      "family_key": "QuantumMechanics",
+      "title": "QuantumMechanics",
+      "module_count": 7
+    },
+    {
+      "family_id": "tl-family-regularity",
+      "family_key": "Regularity",
+      "title": "Regularity",
+      "module_count": 5
+    },
+    {
+      "family_id": "tl-family-root",
+      "family_key": "Root",
+      "title": "Root",
+      "module_count": 24
+    },
+    {
+      "family_id": "tl-family-sectors",
+      "family_key": "Sectors",
+      "title": "Sectors",
+      "module_count": 14
+    },
+    {
+      "family_id": "tl-family-sets",
+      "family_key": "Sets",
+      "title": "Sets",
+      "module_count": 8
+    },
+    {
+      "family_id": "tl-family-social",
+      "family_key": "Social",
+      "title": "Social",
+      "module_count": 1
+    },
+    {
+      "family_id": "tl-family-source",
+      "family_key": "Source",
+      "title": "Source",
+      "module_count": 3
+    },
+    {
+      "family_id": "tl-family-spectral",
+      "family_key": "Spectral",
+      "title": "Spectral",
+      "module_count": 13
+    },
+    {
+      "family_id": "tl-family-spectrum",
+      "family_key": "Spectrum",
+      "title": "Spectrum",
+      "module_count": 4
+    },
+    {
+      "family_id": "tl-family-strong",
+      "family_key": "Strong",
+      "title": "Strong",
+      "module_count": 8
+    },
+    {
+      "family_id": "tl-family-temporal",
+      "family_key": "Temporal",
+      "title": "Temporal",
+      "module_count": 7
+    },
+    {
+      "family_id": "tl-family-thermodynamics",
+      "family_key": "Thermodynamics",
+      "title": "Thermodynamics",
+      "module_count": 6
+    },
+    {
+      "family_id": "tl-family-topology",
+      "family_key": "Topology",
+      "title": "Topology",
+      "module_count": 6
+    },
+    {
+      "family_id": "tl-family-topos",
+      "family_key": "Topos",
+      "title": "Topos",
+      "module_count": 13
+    },
+    {
+      "family_id": "tl-family-transcendentals",
+      "family_key": "Transcendentals",
+      "title": "Transcendentals",
+      "module_count": 6
+    }
+  ]
+}
