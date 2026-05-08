@@ -1,6 +1,7 @@
 // ================================================================
-// Panta Rhei site — Design Tokens
-// Extracted from the v2 page shell specification
+// Panta Rhei site — v4 Design Tokens
+// Governed by Atlas design/website/v4-design-system.
+// Backward-compatible aliases remain so older templates keep compiling.
 // ================================================================
 
 // Colors
@@ -37,9 +38,9 @@ $chip-bg:       rgba(232, 240, 246, 0.68);
 $chip-border:   rgba(22, 62, 100, 0.14);
 
 // Typography
-$font-ui:       'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-$font-display:  'Iowan Old Style', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
-$font-mono:     'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+$font-ui:       'Inter', 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+$font-display:  'Iowan Old Style', 'Garamond Premier Pro', 'EB Garamond', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+$font-mono:     'SF Mono', 'Source Code Pro', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
 
 $line-height:   1.7;
 $line-height-tight: 1.25;
@@ -80,6 +81,26 @@ $bp-stack:        760px;
 :root {
   color-scheme: light;
 
+  --paper-0: #{$paper};
+  --paper-50: #{$paper-warm};
+  --paper-100: #{$paper-quiet};
+  --paper-200: #{$paper-tint};
+  --paper-300: #{$paper-edge};
+
+  --ink-900: #{$ink};
+  --ink-800: #{$ink-soft};
+  --ink-700: #343a44;
+  --ink-600: #{$ink-muted};
+  --ink-500: #{$ink-subtle};
+
+  --panta-blue-900: #{$accent-dark};
+  --panta-blue-800: #123657;
+  --panta-blue-700: #{$accent};
+  --panta-blue-600: #{$accent-mid};
+  --panta-blue-500: #2d6e9f;
+  --panta-blue-100: #e8f0f6;
+  --panta-blue-50: #f3f7fa;
+
   --color-paper-0: #{$paper};
   --color-paper-50: #{$paper-warm};
   --color-paper-100: #{$paper-quiet};
@@ -108,6 +129,31 @@ $bp-stack:        760px;
   --color-line-soft: #{$line-soft};
   --color-line-default: #{$line-default};
   --color-line-strong: #{$line-strong};
+
+  --color-line-100: #{$line-soft};
+  --color-line-200: #{$line-default};
+  --color-line-300: #{$line-strong};
+
+  --layer-e0-dark: #2c4268;
+  --layer-e0: #365a8c;
+  --layer-e0-accent: #5a7eb3;
+  --layer-e0-pale: #dce8fa;
+  --layer-e0-wash: #f1f6fd;
+  --layer-e1-dark: #124641;
+  --layer-e1: #035d55;
+  --layer-e1-accent: #1b8278;
+  --layer-e1-pale: #d6eeea;
+  --layer-e1-wash: #edf8f6;
+  --layer-e2-dark: #573131;
+  --layer-e2: #733e42;
+  --layer-e2-accent: #9f5b5c;
+  --layer-e2-pale: #f8e2e1;
+  --layer-e2-wash: #fdf2f2;
+  --layer-e3-dark: #4a334f;
+  --layer-e3: #624269;
+  --layer-e3-accent: #896092;
+  --layer-e3-pale: #f0e3f3;
+  --layer-e3-wash: #f9f3fa;
 
   --semantic-success: #2f6f4e;
   --semantic-success-soft: #e8f3ed;
@@ -144,6 +190,8 @@ $bp-stack:        760px;
   --font-ui: #{$font-ui};
   --font-display: #{$font-display};
   --font-mono: #{$font-mono};
+  --font-sans: #{$font-ui};
+  --font-serif: #{$font-display};
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;

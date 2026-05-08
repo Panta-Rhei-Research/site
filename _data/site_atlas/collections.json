@@ -34,6 +34,15 @@
         "require_generated_pages": true,
         "require_no_duplicate_sections": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/results/challenge-responses/",
       "source_owner": "site",
       "status": "canonical",
@@ -50,6 +59,15 @@
       "qa": {
         "require_book_vii_target": true,
         "require_projection_links": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/corpus/monographs/",
       "source_owner": "corpus",
@@ -68,6 +86,15 @@
         "require_build_status": true,
         "require_previous_next": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/corpus/construction-spine/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -85,6 +112,15 @@
         "require_domain_grouping": true,
         "require_non_solution_language": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/agenda/recovery-requirements/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -100,6 +136,15 @@
       "qa": {
         "require_no_public_route_claim": true,
         "require_source_hashes": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": null,
+        "launch_critical": false,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "generated"
       },
       "route_prefix": "/assets/css/",
       "source_owner": "site",
@@ -118,6 +163,15 @@
         "require_claim_boundary": true,
         "require_source_metadata": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/falsifications/",
       "source_owner": "site",
       "status": "canonical",
@@ -135,6 +189,15 @@
         "require_publication_links": true,
         "require_verify_links": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/corpus/foundational-hinges/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -151,6 +214,15 @@
       "qa": {
         "require_pdf_exists": true,
         "require_public_route": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/discover/guided-tours/",
       "source_owner": "site",
@@ -185,6 +257,15 @@
         "require_legacy_redirects": true,
         "require_previous_next": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/corpus/monographs/",
       "source_owner": "site",
       "status": "canonical",
@@ -201,6 +282,15 @@
       "qa": {
         "require_registry_linkage": true,
         "require_source_metadata": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/predictions/",
       "source_owner": "site",
@@ -261,6 +351,15 @@
         "require_publication_page": true,
         "require_version_label": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/publications/",
       "source_owner": "site",
       "status": "canonical",
@@ -293,6 +392,15 @@
         "require_canonical_replacement": true,
         "require_no_primary_lane_role": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": null,
+        "launch_critical": false,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "generated"
+      },
       "route_prefix": "/",
       "source_owner": "site-atlas",
       "status": "summary",
@@ -309,6 +417,15 @@
       "qa": {
         "require_manifest_count_match": true,
         "require_visibility_filter": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/corpus/registry/",
       "source_owner": "corpus",
@@ -327,6 +444,15 @@
         "require_claim_boundary": true,
         "require_status_grammar": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/results/problem/",
       "source_owner": "site",
       "status": "canonical",
@@ -343,6 +469,15 @@
         "require_alt_text": true,
         "require_derivatives": true,
         "require_usage_list": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/assets/images/plates/",
       "source_owner": "site",
@@ -383,6 +518,15 @@
         "require_generated_pages": true,
         "require_source_provenance": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/agenda/structural-challenge-ledger/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -399,6 +543,15 @@
       "qa": {
         "require_manifest_count_match": true,
         "require_release_pin": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/corpus/taulib/docs/",
       "source_owner": "taulib",
@@ -441,6 +594,15 @@
         "require_generated_pages": true,
         "require_source_provenance": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/agenda/structural-challenge-ledger/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -480,6 +642,15 @@
         "require_generated_pages": true,
         "require_no_duplicate_sections": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/results/challenge-responses/",
       "source_owner": "site",
       "status": "canonical",
@@ -496,6 +667,15 @@
       "qa": {
         "require_claim_boundary": true,
         "require_status_grammar": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/results/problem/",
       "source_owner": "site",
@@ -514,6 +694,15 @@
         "require_registry_linkage": true,
         "require_source_metadata": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/predictions/",
       "source_owner": "site",
       "status": "canonical",
@@ -530,6 +719,15 @@
       "qa": {
         "require_claim_boundary": true,
         "require_source_metadata": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/falsifications/",
       "source_owner": "site",
@@ -548,6 +746,15 @@
         "require_domain_grouping": true,
         "require_non_solution_language": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/agenda/recovery-requirements/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -564,6 +771,15 @@
       "qa": {
         "require_build_status": true,
         "require_previous_next": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/corpus/construction-spine/",
       "source_owner": "corpus",
@@ -582,6 +798,15 @@
         "require_book_vii_target": true,
         "require_projection_links": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/corpus/monographs/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -598,6 +823,15 @@
       "qa": {
         "require_publication_links": true,
         "require_verify_links": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/corpus/foundational-hinges/",
       "source_owner": "corpus",
@@ -616,6 +850,15 @@
         "require_manifest_count_match": true,
         "require_visibility_filter": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/corpus/registry/",
       "source_owner": "corpus",
       "status": "canonical",
@@ -632,6 +875,15 @@
       "qa": {
         "require_manifest_count_match": true,
         "require_release_pin": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/corpus/taulib/docs/",
       "source_owner": "taulib",
@@ -665,6 +917,15 @@
       "qa": {
         "require_legacy_redirects": true,
         "require_previous_next": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/corpus/monographs/",
       "source_owner": "site",
@@ -725,6 +986,15 @@
         "require_publication_page": true,
         "require_version_label": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/publications/",
       "source_owner": "site",
       "status": "canonical",
@@ -741,6 +1011,15 @@
         "require_alt_text": true,
         "require_derivatives": true,
         "require_usage_list": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
       },
       "route_prefix": "/assets/images/plates/",
       "source_owner": "site",
@@ -759,6 +1038,15 @@
         "require_pdf_exists": true,
         "require_public_route": true
       },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": "2026-05-07T14:24:42Z",
+        "launch_critical": true,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "release-candidate"
+      },
       "route_prefix": "/discover/guided-tours/",
       "source_owner": "site",
       "status": "canonical",
@@ -774,6 +1062,15 @@
       "qa": {
         "require_no_public_route_claim": true,
         "require_source_hashes": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": null,
+        "launch_critical": false,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "generated"
       },
       "route_prefix": "/assets/css/",
       "source_owner": "site",
@@ -806,6 +1103,15 @@
       "qa": {
         "require_canonical_replacement": true,
         "require_no_primary_lane_role": true
+      },
+      "release": {
+        "certification_report": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+        "certified_at": null,
+        "launch_critical": false,
+        "open_gates": [],
+        "reopened_by": null,
+        "scope": "public-launch-v4",
+        "status": "generated"
       },
       "route_prefix": "/",
       "source_owner": "site-atlas",

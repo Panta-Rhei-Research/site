@@ -1,0 +1,30 @@
+{%- comment -%}
+  hero-eyebrow.html — v4 hero identity line.
+
+  Priority:
+    1. include.text
+    2. page.hero_eyebrow
+    3. Site Atlas lane + canonical role/status
+    4. page lane + page type/status
+
+  Breadcrumb data remains governed separately by breadcrumb-data.html and
+  breadcrumb-jsonld.html. This component is page identity, not navigation.
+{%- endcomment -%}
+
+{%- assign atlas_page = site.data.site_atlas.route_index[page.url] -%}
+{%- assign _lane = include.lane | default: page.v2_lane | default: page.lane | default: atlas_page.lane -%}
+{%- assign _type = include.type | default: page.type | default: atlas_page.canonical_role -%}
+{%- assign _status = include.status | default: page.status | default: atlas_page.status -%}
+{%- assign _route_id = include.route_id | default: page.route_id | default: atlas_page.atlas_id -%}
+
+{%- capture _generated -%}
+  {%- if _lane and _lane != "" -%}{{ _lane | replace: "-", " " | capitalize }}{%- endif -%}
+  {%- if _type and _type != "" -%} · {{ _type | replace: "_", " " | replace: "-", " " | capitalize }}{%- endif -%}
+  {%- if include.show_status and _status and _status != "" -%} · {{ _status | replace: "_", " " | replace: "-", " " | capitalize }}{%- endif -%}
+  {%- if include.show_route_id and _route_id and _route_id != "" -%} · {{ _route_id }}{%- endif -%}
+{%- endcapture -%}
+
+{%- assign eyebrow_text = include.text | default: page.hero_eyebrow | default: _generated | strip -%}
+{%- if eyebrow_text != "" -%}
+<span class="hero-eyebrow-pill">{{ eyebrow_text }}</span>
+{%- endif -%}
