@@ -133,7 +133,7 @@ Engagement does not begin with agreement. It begins with a useful form of attent
     <tr><td>Offer domain review</td><td><a href="{{ '/engage/discussions/' | relative_url }}">GitHub Discussions</a> or email</td></tr>
     <tr><td>Contact privately</td><td>Email</td></tr>
     <tr><td>Discuss institutional review</td><td>Email</td></tr>
-    <tr><td>Follow Research Notes</td><td><a href="{{ '/engage/follow-the-research/' | relative_url }}">Follow the Research</a></td></tr>
+    <tr><td>Receive publication notices</td><td><a href="{{ '/engage/follow-the-research/' | relative_url }}">Publication Notifications</a></td></tr>
     <tr><td>Support continuation</td><td><a href="{{ '/engage/support-the-research/' | relative_url }}">Support the Research</a></td></tr>
   </tbody>
 </table>

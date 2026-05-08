@@ -52,7 +52,7 @@ lane_nav:
             url: "/discover/ai-assisted-discovery/"
           - title: "World Readout"
             url: "/results/world-readout/"
-          - title: "Follow the Research"
+          - title: "Publication Notifications"
             url: "/discover/follow-the-research/"
   program:
     title: "Program"
@@ -546,7 +546,7 @@ lane_nav:
             url: "/engage/contact/"
       - title: "Ongoing"
         links:
-          - title: "Follow the Research"
+          - title: "Publication Notifications"
             url: "/engage/follow-the-research/"
           - title: "Support the Research"
             url: "/engage/support-the-research/"
@@ -865,7 +865,7 @@ engage_nav:
     url: "/engage/media/"
   - title: "Contact"
     url: "/engage/contact/"
-  - title: "Follow the Research"
+  - title: "Publication Notifications"
     url: "/engage/follow-the-research/"
   - title: "Support the Research"
     url: "/engage/support-the-research/"

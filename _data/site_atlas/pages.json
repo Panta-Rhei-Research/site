@@ -627,7 +627,7 @@
       "route": "/discover/follow-the-research/",
       "source": "discover/follow-the-research/index.md",
       "status": "canonical",
-      "title": "Follow the Research"
+      "title": "Publication Notifications"
     },
     {
       "atlas_id": "000015",
@@ -1826,7 +1826,7 @@
       "route": "/corpus/foundational-hinges/",
       "source": "corpus/foundational-hinges/index.md",
       "status": "canonical",
-      "title": "Foundational Hinges"
+      "title": "Construction Steps 1-3 Review Packet"
     },
     {
       "atlas_id": "00003f",
@@ -1982,7 +1982,7 @@
       "route": "/corpus/bi-square/",
       "source": "corpus/bi-square/index.md",
       "status": "canonical",
-      "title": "The Bi-Square Spine"
+      "title": "The Bi-Square Motif"
     },
     {
       "atlas_id": "000045",
@@ -2009,7 +2009,7 @@
       "route": "/corpus/bi-square-spine/",
       "source": "corpus/bi-square-spine/index.md",
       "status": "redirected",
-      "title": "Bi-Square Spine"
+      "title": "Bi-Square Motif"
     },
     {
       "atlas_id": "000046",
@@ -2036,7 +2036,7 @@
       "route": "/corpus/bisquare/",
       "source": "corpus/bisquare/index.md",
       "status": "redirected",
-      "title": "Bi-Square Spine"
+      "title": "Bi-Square Motif"
     },
     {
       "atlas_id": "000047",
@@ -4430,7 +4430,7 @@
       "route": "/engage/follow-the-research/",
       "source": "engage/follow-the-research.md",
       "status": "canonical",
-      "title": "Follow the Research"
+      "title": "Publication Notifications"
     },
     {
       "atlas_id": "0000a1",

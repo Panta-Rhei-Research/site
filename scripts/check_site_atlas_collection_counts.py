@@ -47,7 +47,7 @@ def count_publications(site_root: Path) -> tuple[int, dict[str, int]]:
         "research_briefings_public_good": len(load_json(site_root / "_data/impact/public-good-briefings.json")),
         "white_papers": len(list((site_root / "publications/white-papers").glob("*/index.md"))),
         "release_artifacts": 0,
-        "errata": count_yaml_list_items(site_root / "_data/publications/errata.yml", "- id:"),
+        "errata": count_yaml_list_items(site_root / "_data/publications/errata.yml", "- erratum_id:"),
     }
     return sum(counts.values()), counts
 

@@ -210,7 +210,7 @@ These references are context, not authority claims. The program remains accounta
 
 - [Public Discussions]({{ '/engage/discussions/' | relative_url }}) for public questions, critique, review offers, and correction routing.
 - [Corrections]({{ '/engage/corrections/' | relative_url }}) for correction, prior-art, errata, and change-control routing.
-- [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) for Research Notes by email.
+- [Publication Notifications]({{ '/engage/follow-the-research/' | relative_url }}) for Research Note and publication release notices by email.
 - [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }}) for the founders' statement on open-research posture and public accountability.
 - [Support the Research]({{ '/engage/support-the-research/' | relative_url }}) for non-endorsement support routes.
 - [For Engineering Contributors]({{ '/engage/for-engineering-contributors/' | relative_url }}) for TauLib and verification-infrastructure contribution.

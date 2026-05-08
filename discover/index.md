@@ -41,7 +41,7 @@ right_rail:
       url: /discover/entry-routes/
     - title: "What to Read First"
       url: /discover/what-to-read-first/
-    - title: "Follow the Research"
+    - title: "Publication Notifications"
       url: /discover/follow-the-research/
     - title: "Open Research Brief"
       url: /media/open-research-brief/
@@ -108,7 +108,7 @@ Open the [AI-Assisted Discovery prompt catalog]({{ '/discover/ai-assisted-discov
   <li><article><a class="v2-tile" href="{{ '/discover/big-questions/' | relative_url }}"><h3>Big Questions</h3><p>The major problem families that define the program's burden of proof.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/how-the-system-works/' | relative_url }}"><h3>How the System Works</h3><p>The lane architecture and public research pipeline in one place.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/discover/guided-tours/' | relative_url }}"><h3>Guided Tours</h3><p>Curated pathways across Program, Agenda, Corpus, Results, Verify, Impact, Engage, and Artifacts &amp; Releases.</p></a></article></li>
-  <li><article><a class="v2-tile" href="{{ '/discover/follow-the-research/' | relative_url }}"><h3>Follow the Research</h3><p>Research Notes for ongoing scholarly writing; Changelog for site, release, and infrastructure updates.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/discover/follow-the-research/' | relative_url }}"><h3>Publication Notifications</h3><p>Research Notes as released artifacts; Changelog for site, release, and infrastructure records.</p></a></article></li>
 </ul>
 
 ## What kind of site this is
@@ -152,5 +152,5 @@ Publications remains the stable artifact and release layer: Research Monographs,
 - [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) for the high-signal Results surface.
 - [Progress Against Agenda]({{ '/results/progress-against-agenda/' | relative_url }}) for the current public status mirror.
 - [Guided Tours]({{ '/discover/guided-tours/' | relative_url }}) for structured routes.
-- [Follow the Research]({{ '/discover/follow-the-research/' | relative_url }}) for Research Notes and Changelog, clearly separated.
+- [Publication Notifications]({{ '/discover/follow-the-research/' | relative_url }}) for Research Note release notices and Changelog records, clearly separated.
 - [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}) for copy-ready prompts that help critical visitors generate outside-in orientation and assessment reports using a web-enabled LLM.

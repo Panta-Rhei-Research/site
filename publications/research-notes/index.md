@@ -23,7 +23,7 @@ right_rail:
   related:
     - title: "Latest Publications"
       url: /publications/latest/
-    - title: "Follow the Research"
+    - title: "Publication Notifications"
       url: /engage/follow-the-research/
     - title: "Publications"
       url: /publications/
