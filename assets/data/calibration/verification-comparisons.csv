@@ -1,0 +1,8 @@
+id,symbol,quantity,tau_value,comparison_value,deviation,dataset_id,status
+VC-01,m_e,Electron mass,9.10938370 × 10^-31 kg,9.10938370(28) × 10^-31 kg,0.025 ppm,codata-2018,source_chapter_comparison
+VC-02,G,Newtonian gravitational constant,6.6741 × 10^-11,6.67430(15) × 10^-11,~3 ppm,codata-2018,source_chapter_comparison
+VC-03,R_∞,Rydberg constant,1.097373157 × 10^7 m^-1,1.0973731568(21) × 10^7 m^-1,0.025 ppm,codata-2018,source_chapter_comparison
+VC-04,a_B,Bohr radius,5.291772109 × 10^-11 m,5.29177210903(80) × 10^-11 m,0.025 ppm,codata-2018,source_chapter_comparison
+VC-05,λ_C,Compton wavelength,3.86159268 × 10^-13 m,3.8615926796(12) × 10^-13 m,0.025 ppm,codata-2018,source_chapter_comparison
+VC-06,m_P,Planck mass,2.176434 × 10^-8 kg,2.176434(24) × 10^-8 kg,~3 ppm,codata-2018,source_chapter_comparison
+VC-07,α^-1,Inverse fine-structure constant,137.04,137.035999084(21),9.8 ppm,codata-2018,source_chapter_comparison

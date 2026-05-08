@@ -1,0 +1,19 @@
+{
+  "generated_from": "corpus/data/calibration",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/calibration",
+  "do_not_edit": true,
+  "calibration": {
+    "id": "calibration-cascade-v0-1",
+    "route": "/results/calibration-cascade/",
+    "counts": {
+      "layers": 5,
+      "couplings": 10,
+      "mass_ratio_links": 10,
+      "constants": 40,
+      "verification_comparisons": 7,
+      "nodes": 12,
+      "edges": 15
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{"id": "dimensionless", "label": "Dimensionless", "description": "Pure-number readouts and ratios; no SI unit realization enters."}
+{"id": "si_defining_constant", "label": "SI defining constant", "description": "Quantity whose exact fixed value participates in the SI definition.", "guardrail_source": "bipm-si-defining-constants"}
+{"id": "derived_si_context", "label": "Derived SI context", "description": "Algebraic or derived SI relation after the SI defining constants are fixed.", "guardrail_source": "bipm-si-defining-constants"}
+{"id": "si_after_neutron_mass_anchor", "label": "SI after neutron-mass anchor", "description": "Dimensional readout after the single neutron-mass anchor is introduced."}
+{"id": "si_after_g_readout", "label": "SI after G readout", "description": "Readout depending on the G bridge and SI realization context."}
+{"id": "si_readout", "label": "SI readout", "description": "Derived comparison quantity reported in SI units."}
+{"id": "pending_unit_review", "label": "Pending unit-context review", "description": "Formula is source-present but not yet normalized into an audited unit context."}
+{"id": "pending_cosmological_unit_review", "label": "Pending cosmological unit-context review", "description": "Cosmological readout retained as source-present and unresolved."}
+{"id": "not_a_numerical_constant", "label": "Not a numerical constant", "description": "Structural status item; not part of the constants comparison table."}

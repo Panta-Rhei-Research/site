@@ -1,0 +1,36 @@
+generated_from: corpus/data/calibration
+projection_version: v0.1
+canonical_source: corpus/data/calibration
+do_not_edit: true
+calibration_cascade:
+  id: calibration-cascade-v0-1
+  title: Calibration Cascade
+  canonical_route: /results/calibration-cascade/
+  compatibility_routes:
+  - /results/physics/cascade/
+  public_role: Results-side dependency overlay
+  status: review_facing
+  summary: Dependency graph connecting the master constant, neutron-mass anchor, dimensionless couplings, mass-ratio chain,
+    G-alpha bridge, SI readouts, prediction catalogue, falsification surfaces, Registry items, TauLib modules, and manuscript
+    source chapters.
+  boundary_statement: The prediction catalogue lists claims; the constants ledger is a table of outputs; the Calibration Cascade
+    records dependency and verification structure.
+  metrology_note: Book IV/V numerical comparisons remain labelled as CODATA 2018. Current NIST CODATA 2022 and BIPM SI links
+    are recorded as comparison and unit-realization guardrails, not as recalculated Corpus claims.
+  inputs:
+  - id: iota-tau
+    label: Master constant
+    symbol: ι_τ
+    formula: 2/(π + e)
+    source:
+      chapter_id: book-iv-coupling-ledger
+      label: def:master-constant-recap
+      line_range: 54-64
+  - id: neutron-mass-anchor
+    label: Neutron-mass anchor
+    symbol: m_n
+    formula: 1.674927498 × 10^-27 kg (CODATA 2018 source comparison)
+    source:
+      chapter_id: book-v-constants-g-alpha-bridge
+      label: thm:ch71-sufficiency
+      line_range: 426-436

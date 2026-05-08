@@ -49,7 +49,7 @@ If you work in category theory, model theory, analytic number theory, operator t
 
 ### [Physicist]({{ '/verify/how-to-verify-by-role/physicist/' | relative_url }})
 
-If you work in particle physics, cosmology, quantum foundations, or general relativity, the empirical track of the framework lives in the {% include release-metric.html id="predictions.records" %}-prediction Numerical Physics Ledger and in the {% include release-metric.html id="falsifications.records" %}-item Falsification Pack. The load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether the predictions are a priori or post-dictions, and whether the single-constant derivation chains remain supported after independent checking.
+If you work in particle physics, cosmology, quantum foundations, or general relativity, the empirical track of the framework lives in the {% include release-metric.html id="predictions.records" %}-prediction Numerical Prediction Catalogue, the Calibration Cascade dependency overlay, and the {% include release-metric.html id="falsifications.records" %}-item Falsification Pack. The load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether the predictions are a priori or post-dictions, and whether the single-constant derivation chains remain supported after independent checking.
 
 ### [Philosopher (of science, mind, or metaphysics)]({{ '/verify/how-to-verify-by-role/philosopher/' | relative_url }})
 

@@ -3,7 +3,7 @@ layout: program-doc
 title: "Prediction Timing — A Priori vs Post-Diction"
 permalink: /results/predictions/timing/
 lane: results
-section: "Numerical Physics Ledger · Timing"
+section: "Numerical Prediction Catalogue · Timing"
 summary_short: "An honest accounting of which zero-parameter predictions are a priori (committed before measurement), which are post-dictions of known quantities, and which are decisive forward tests."
 right_rail:
   related:
@@ -16,7 +16,7 @@ right_rail:
   - title: Release Manifest
     url: /verify/release-manifest/
   meta:
-    type: "Numerical Physics Ledger Appendix"
+    type: "Prediction Catalogue Appendix"
     status: "Canonical"
     updated: "May 2026"
 og_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
@@ -30,7 +30,7 @@ The first question any honest reader should ask of a zero-parameter theory with 
 
 ## Precision-tier taxonomy (Tier A / B / C)
 
-Timing is not the only axis along which the {% include release-metric.html id="predictions.records" %} predictions sort. Each also carries a **cascade precision tier** (Numerical Physics Ledger Ch 58a) that states the best precision its calibration route can reach in principle:
+Timing is not the only axis along which the {% include release-metric.html id="predictions.records" %} predictions sort. Each also carries a **cascade precision tier** in the [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) that states the best precision its calibration route can reach in principle:
 
 - **Tier A (~0.025 ppm) — mass-ratio route.** Predictions that are dimensionless ratios (leptons, hadron mass ratios, Koide-style relations) where SI-calibration error cancels exactly. **Testable today at PDG/CODATA precision** — no future experiment required.
 - **Tier B (~3 ppm) — closing-identity route.** SI-anchored observables routed through the G–α closing identity (V.T20). Testable at ~ppm precision; most need specific future experiments (PSI muonic-atom campaigns ~2030, PDG-grade electroweak updates).
@@ -42,7 +42,7 @@ The key timing consequence: **Tier A predictions are already testable at the fra
 
 Two distinct readings of "a priori" operate in physics:
 
-1. **Structural a priori** — a prediction is structurally a priori if it is *forced* by the framework's kernel without any free parameter tuned to the target observation. In this reading, the Numerical Physics Ledger predictions are a priori: they flow algebraically from the single constant ι<sub>τ</sub> = 2/(π+e), which is itself structurally fixed by the seven kernel axioms (see [Is ι_τ forced or fitted?]({{ '/program/about/red-team-faq/' | relative_url }}#is-iota-tau-fitted-or-forced)), not chosen to match any experiment.
+1. **Structural a priori** — a prediction is structurally a priori if it is *forced* by the framework's kernel without any free parameter tuned to the target observation. In this reading, the Numerical Prediction Catalogue records are a priori in claim shape: they flow algebraically from the single constant ι<sub>τ</sub> = 2/(π+e), which is itself structurally fixed by the seven kernel axioms (see [Is ι_τ forced or fitted?]({{ '/program/about/red-team-faq/' | relative_url }}#is-iota-tau-fitted-or-forced)), not chosen to match any experiment.
 
 2. **Historical a priori** — a prediction is historically a priori if it was published *before* the experimental value was known. In this reading, the prediction records fall into three genuinely different categories depending on whether the target measurement pre-existed the derivation or post-dates it.
 
@@ -101,7 +101,7 @@ Approximately **7** predictions are genuine Category-C forward tests. These are 
 | **C — Forward predictions** | ~7 | Yes | Yes (pre-measurement) | Tier C (mostly binary) | Decisive — each can falsify the framework; experiment-gated |
 | **All predictions** | **{% include release-metric.html id="predictions.records" %}** | Yes (all) | Category-mixed | Tier-mixed | Ledger as a whole |
 
-Cascade tiers are defined in the Numerical Physics Ledger (Ch 58a, "The Calibration Cascade"): **Tier A** ≈ 0.025 ppm mass-ratio route, **Tier B** ≈ 3 ppm closing-identity route, **Tier C** ≈ 0.8% fine-structure leading-order or binary-structural route.
+Cascade tiers are defined in the Calibration Cascade: **Tier A** ≈ 0.025 ppm mass-ratio route, **Tier B** ≈ 3 ppm closing-identity route, **Tier C** ≈ 0.8% fine-structure leading-order or binary-structural route.
 
 ## The sharpest test: CMB-S4
 
@@ -124,7 +124,7 @@ This is the test the framework voluntarily lives or dies by.
 Two developments would sharpen the historical-a-priori column:
 
 1. **Third-party pre-registration** of the Category-C forward predictions with a public time-stamped repository (OSF, arXiv). The framework has not done this yet; it is on the engagement-lane backlog.
-2. **Per-prediction publication-date metadata** in the Numerical Physics Ledger data schema. Currently `_data/predictions/predictions.json` has no `publication_date` field per entry; adding it with first-edition → second-edition provenance is the minimal data uplift.
+2. **Per-prediction publication-date metadata** in the prediction-catalogue data schema. Currently `_data/predictions/predictions.json` has no `publication_date` field per entry; adding it with first-edition → second-edition provenance is the minimal data uplift.
 
 Until those land, this ledger is the honest framework-level statement.
 
@@ -132,6 +132,7 @@ Until those land, this ledger is the honest framework-level statement.
 
 - [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) — the full 67-prediction catalogue with filters
 - [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) — {% include release-metric.html id="falsifications.records" %} sharpest predictions against named experiments on explicit timelines
-- [Numerical Physics Ledger (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — complete typeset document with derivations
+- [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) — source, unit-context, and dependency overlay
+- [Numerical Physics Ledger publication artifact (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — long-form derivation artifact
 - [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — common skeptical questions answered honestly
 - [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) — pinned release state and build verification

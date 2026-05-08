@@ -8,15 +8,15 @@ type: "Verification Surface"
 verify_type: domain_verification
 domain: physics
 status: "Canonical"
-summary_short: "Verification for physics-facing claims: structural derivation, measurement bridges, prediction timing, falsification, and numerical accountability. Books IV–V — the calibration cascade from ι_τ + m_n to measurable observables."
+summary_short: "Verification for physics-facing claims: structural derivation, measurement bridges, prediction timing, falsification, and numerical accountability. Books IV–V — the Calibration Cascade as a dependency and unit-context overlay."
 plain_language_summary: |
-  Physics verification is not just a Lean check. The framework's physics layer (Books IV–V) makes zero-parameter numerical predictions from a single algebraic constant ι_τ = 2/(π+e) and a single empirical anchor m_n (the neutron mass). Each prediction is testable. Verification means asking, separately: (1) does the derivation chain compile in Lean? (2) does the predicted number match measurement? (3) is ι_τ fitted or forced by the kernel structure? (4) are there genuine forward predictions on a fixed timeline? The Falsification Pack lists named experiments through 2035 whose outcomes would refute specific claims. None is currently contradicted.
+  Physics verification is not just a Lean check. The framework's physics layer (Books IV–V) makes zero-parameter numerical predictions from a single algebraic constant ι_τ = 2/(π+e) and a single empirical anchor m_n (the neutron mass), but the public verification posture must keep derivation, unit context, comparison vintage, and external acceptance separate. Verification means asking, separately: (1) does the derivation chain compile in Lean? (2) does the predicted number match measurement? (3) is ι_τ fitted or forced by the kernel structure? (4) are there genuine forward predictions on a fixed timeline? The Falsification Pack lists named experiments through 2035 whose outcomes would refute specific claims. None is currently contradicted.
 right_rail:
   related:
     - title: "Predictions & Falsification"
       url: /verify/predictions-and-falsification/
-    - title: "Numerical Physics Ledger"
-      url: /publications/monograph-supplements/numerical-physics-ledger/
+    - title: "Calibration Cascade"
+      url: /results/calibration-cascade/
     - title: "Physics Core Semantics"
       url: /agenda/core-semantics/physics/
     - title: "Physics Results"
@@ -43,7 +43,7 @@ glossary_term_ids:
   <div class="v2-tile v2-tile-physics">
     <span class="eyebrow">Books</span>
     <h3>IV · V</h3>
-    <p>Particle physics + cosmology + the calibration cascade.</p>
+    <p>Particle physics + cosmology + the Calibration Cascade dependency overlay.</p>
   </div>
   <div class="v2-tile v2-tile-physics">
     <span class="eyebrow">TauLib modules</span>
@@ -90,7 +90,7 @@ glossary_term_ids:
   <a class="v2-tile v2-tile-physics" href="{{ '/verify/bridge-verification/' | relative_url }}">
     <span class="eyebrow">Bridge</span>
     <h3>Bridge Verification</h3>
-    <p>How internal τ-categorical structure transfers to physical observables (m_n anchor → SI cascade).</p>
+    <p>How internal τ-categorical structure transfers to physical observables under explicit unit-context and comparison-vintage boundaries.</p>
   </a>
   <a class="v2-tile v2-tile-physics" href="{{ '/verify/custom-axioms/' | relative_url }}">
     <span class="eyebrow">Axioms</span>
@@ -105,7 +105,7 @@ glossary_term_ids:
   <a class="v2-tile v2-tile-physics" href="{{ '/results/physics/' | relative_url }}">
     <span class="eyebrow">Results</span>
     <h3>Physics Results Hub</h3>
-    <p>{% include release-metric.html id="results.physics.records" %} physics result pages · {% include release-metric.html id="glossary.physics.entries" %} glossary entries · calibration cascade · landmark results.</p>
+    <p>{% include release-metric.html id="results.physics.records" %} physics result pages · {% include release-metric.html id="glossary.physics.entries" %} glossary entries · Calibration Cascade · landmark results.</p>
   </a>
 </div>
 
@@ -119,7 +119,7 @@ Physics verification is not established by formal derivation alone. A physics-fa
 - **Empirical comparison** — does the predicted value match published measurement?
 - **External scientific review** — does the derivation chain remain supported after independent specialist scrutiny?
 
-The Numerical Physics Ledger is the artifact layer; Predictions & Falsification is the accountability layer; Results is the interpretation layer. None implies external acceptance on its own.
+The Numerical Physics Ledger is a publication artifact; the Numerical Prediction Catalogue is the claim catalogue; the Calibration Cascade is the dependency overlay; Predictions & Falsification is the accountability layer; Results is the interpretation layer. None implies external acceptance on its own.
 
 {% include verify-glossary-terms.html %}
 
@@ -132,9 +132,9 @@ The Numerical Physics Ledger is the artifact layer; Predictions & Falsification 
     <strong>Results · Physics</strong>
     <span>Physics-domain results hub: {% include release-metric.html id="results.physics.records" %} results, {% include release-metric.html id="glossary.physics.entries" %} glossary entries, predictions, falsifications.</span>
   </a>
-  <a class="v2-tile" href="{{ '/results/physics/cascade/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/results/calibration-cascade/' | relative_url }}">
     <strong>Calibration Cascade</strong>
-    <span>The 5-layer architectural diagram: τ-kernel → ι_τ → (M, L, ℏ) → derived constants → SI bridge at m_n.</span>
+    <span>The 5-layer dependency overlay connecting ι_τ, m_n, couplings, mass ratios, G-alpha bridge, constants, source chapters, Registry items, TauLib modules, and verification comparisons.</span>
   </a>
   <a class="v2-tile" href="{{ '/results/physics/glossary/' | relative_url }}">
     <strong>Physics Glossary</strong>

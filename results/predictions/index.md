@@ -13,15 +13,11 @@ canonical_source: "corpus/results/facets/predictions"
 do_not_edit: false
 ---
 
-## The Numerical Physics Ledger
+## The Numerical Prediction Catalogue
 
-The Numerical Physics Ledger compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with **zero free continuous parameters**. Each prediction compares a τ-derived value to experimental measurement — no ontological bridge claims needed.
+The Numerical Prediction Catalogue compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with **zero free continuous parameters**. Each prediction compares a τ-derived value to experimental measurement under explicit source, unit-context, and verification boundaries.
 
-<div class="notice note">
-  <strong>The cascade.</strong> Two inputs (the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor m<sub>n</sub>) feed a four-layer pipeline:
-  {% include sequence-flow.html id="calibration_cascade" class="sequence-flow--notice" %}
-  Every number in the prediction catalogue is traceable to those two inputs. There are no additional free parameters.
-</div>
+<div class="notice note"><strong>The cascade.</strong> The <a href="{{ '/results/calibration-cascade/' | relative_url }}">Calibration Cascade</a> is the dependency overlay behind this catalogue. It separates the claim list, constants-ledger outputs, G-alpha bridge, SI readout / unit realization context, source chapters, and verification comparisons.</div>
 
 ## Precision tiers
 
@@ -51,11 +47,15 @@ These tiers describe internal readout sharpness. They are distinct from public *
     <strong>Falsifications (N1–N30)</strong>
     <span>{% include release-metric.html id="falsifications.records" %} sharp falsification points with named experiments and timelines.</span>
   </a>
+  <a class="v2-tile" href="{{ '/results/calibration-cascade/' | relative_url }}">
+    <strong>Calibration Cascade</strong>
+    <span>Dependency graph and ledger overlay for couplings, mass ratios, G-alpha bridge, constants, sources, and comparison vintage.</span>
+  </a>
 </div>
 
 ## Read next
 
 - [Predictions — full grid]({{ '/results/predictions/browse/' | relative_url }})
 - [Falsifications — N1–N30]({{ '/results/falsifications/' | relative_url }})
-- [Calibration cascade]({{ '/results/world-readout/physics/' | relative_url }})
+- [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }})
 - [How to read a result page]({{ '/results/how-to-read-a-result-page/' | relative_url }})

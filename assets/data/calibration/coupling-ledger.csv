@@ -1,0 +1,11 @@
+id,kind,symbol,formula,display_value,meaning,layer,mapping_status
+K-D,self,κ(D;1),1 - ι_τ,≈ 0.6587,Temporal flow magnitude,L1,mapped
+K-A,self,κ(A;1),ι_τ,≈ 0.3413,Temporal arrow,L1,mapped
+K-B,self,κ(B;2),ι_τ^2,≈ 0.1165,Spatial distance scale,L1,mapped
+K-C,self,κ(C;3),ι_τ^3/(1 - ι_τ),≈ 0.0604,Confinement coupling,L1,mapped
+K-AB,cross,"κ(A,B)",ι_τ^3,≈ 0.0398,Electroweak coupling,L1,mapped
+K-AC,cross,"κ(A,C)",ι_τ^4/(1 - ι_τ),≈ 0.0206,Weak-strong coupling,L1,mapped
+K-AD,cross,"κ(A,D)",ι_τ(1 - ι_τ),≈ 0.2248,Weak-gravity temporal consistency,L1,mapped
+K-BC,cross,"κ(B,C)",ι_τ^3/(1 + ι_τ),≈ 0.0297,EM-strong / Higgs-mass crossing,L1,mapped
+K-BD,cross,"κ(B,D)",ι_τ^2(1 - ι_τ)^2,≈ 0.0505,EM-gravity lensing,L1,mapped
+K-CD,cross,"κ(C,D)",ι_τ^3(1 - ι_τ),≈ 0.0262,Strong-gravity mass-curves-time relation,L1,mapped
