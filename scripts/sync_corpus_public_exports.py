@@ -1258,6 +1258,138 @@ def load_json_mapping(path: Path) -> dict[str, Any]:
     return data
 
 
+def format_constant_dependency_list(page: dict[str, Any]) -> str:
+    dependencies = page.get("dependency_labels", [])
+    if not dependencies:
+        return "No upstream dependency nodes are recorded for this page."
+    return ", ".join(f"`{item}`" for item in dependencies)
+
+
+def generate_calibration_constant_pages(source_root: Path) -> None:
+    constants_file = source_root / "constant-pages.json"
+    if not constants_file.exists():
+        raise SystemExit(f"Missing Calibration constant-page export: {constants_file}")
+
+    pages = load_json_mapping(constants_file).get("constant_pages", [])
+    if not isinstance(pages, list):
+        raise SystemExit("Calibration constant-page export must contain a constant_pages list")
+
+    constants_root = SITE_ROOT / "results" / "calibration-cascade" / "constants"
+    clean_generated_tree(constants_root, suffixes=(".md",))
+
+    card_blocks: list[str] = []
+    for page in sorted(pages, key=lambda item: item.get("overview_order", item.get("slug", ""))):
+        slug = page.get("slug", "")
+        if not slug:
+            raise SystemExit(f"Calibration constant page is missing slug: {page}")
+
+        mmd_source = ""
+        mmd_name = page.get("diagram_mmd", "")
+        if mmd_name:
+            mmd_path = source_root / "diagrams" / mmd_name
+            if mmd_path.exists():
+                mmd_source = mmd_path.read_text(encoding="utf-8")
+
+        route = page.get("route", f"/results/calibration-cascade/constants/{slug}/")
+        frontmatter = {
+            "layout": "calibration-constant-page",
+            "title": page.get("title", slug.replace("-", " ").title()),
+            "permalink": route,
+            "lane": "results",
+            "v2_lane": "results",
+            "type": "Calibration Constant Page",
+            "status": page.get("status", "review_surface"),
+            "summary_short": page.get("expanded_summary", page.get("public_boundary", "")),
+            "tags": ["calibration-cascade", "constants-ledger", "numerical-predictions"],
+            "generated_from": "corpus/exports/public/calibration/constant-pages.yml",
+            "projection_version": "v0.1",
+            "canonical_source": "corpus/data/calibration/constant-pages.yml",
+            "do_not_edit": True,
+            "constant_page_id": page.get("constant_page_id", ""),
+            "constant_key": page.get("constant_key", ""),
+            "constant_id": page.get("constant_id", ""),
+            "node_id": page.get("node_id", ""),
+            "slug": slug,
+            "overview_order": page.get("overview_order", 0),
+            "symbol": page.get("symbol", ""),
+            "formula_tex": page.get("formula_tex", ""),
+            "formula_display": page.get("formula_display", ""),
+            "formula_text": page.get("formula_text", ""),
+            "scope_key": page.get("scope_key", ""),
+            "scope_label": page.get("scope_label", ""),
+            "layer": page.get("layer", ""),
+            "unit_context": page.get("unit_context", ""),
+            "source_chapter": page.get("source_chapter", ""),
+            "source_label": page.get("source_label", ""),
+            "dependency_nodes": page.get("dependency_nodes", []),
+            "dependency_labels": page.get("dependency_labels", []),
+            "registry_refs": page.get("registry_refs", []),
+            "taulib_modules": page.get("taulib_modules", []),
+            "comparison": page.get("comparison", {}),
+            "related_predictions": page.get("related_predictions", []),
+            "related_falsifications": page.get("related_falsifications", []),
+            "public_boundary": page.get("public_boundary", ""),
+            "diagram_mmd": mmd_name,
+            "diagram_svg": page.get("diagram_svg", ""),
+            "diagram_svg_status": page.get("diagram_svg_status", "pending"),
+            "diagram_accessibility": page.get("diagram_accessibility", ""),
+            "diagram_mmd_source": mmd_source,
+            "right_rail": {
+                "related": [
+                    {"title": "Calibration Cascade", "url": "/results/calibration-cascade/"},
+                    {"title": "Constants Index", "url": "/results/calibration-cascade/constants/"},
+                    {"title": "Numerical Prediction Catalogue", "url": "/results/predictions/"},
+                ]
+            },
+        }
+        body = (
+            "> Generated constant/readout inspection page from the Corpus Calibration Cascade projection.\n\n"
+            f"Dependency summary: {format_constant_dependency_list(page)}"
+        )
+        write_markdown(constants_root / slug / "index.md", frontmatter, body)
+
+        card_blocks.append(
+            f"""<a class="calibration-key-node-card" href="{route}">
+  <span class="eyebrow">{page.get('layer', '')} · {page.get('scope_label', '')}</span>
+  <strong>{page.get('title', slug)}</strong>
+  <code>{page.get('formula_display', page.get('formula_text', ''))}</code>
+  <span>{page.get('public_boundary', '')}</span>
+</a>"""
+        )
+
+    body = f"""> Generated index for the nine seeded Calibration Cascade constant/readout pages.
+
+These pages expose public inspection routes for the current seeded constants only. They do not recompute CODATA 2022 values or change the existing numerical prediction artifact.
+
+<div class="notice note">
+  <strong>Scope label.</strong> Tau-effective means τ-effective. Metadata keeps the stable value <code>tau_effective</code>; public pages render the visible label as <strong>τ-effective</strong>.
+</div>
+
+<div class="calibration-key-node-grid">
+{chr(10).join(card_blocks)}
+</div>
+"""
+    write_markdown(
+        constants_root / "index.md",
+        {
+            "layout": "program-doc",
+            "title": "Calibration Cascade Constants",
+            "permalink": "/results/calibration-cascade/constants/",
+            "lane": "results",
+            "v2_lane": "results",
+            "type": "Calibration Constants Index",
+            "status": "Review-Facing",
+            "summary_short": "Seeded constant/readout pages for the Calibration Cascade.",
+            "generated_from": "corpus/exports/public/calibration/constant-pages.yml",
+            "projection_version": "v0.1",
+            "canonical_source": "corpus/data/calibration/constant-pages.yml",
+            "do_not_edit": True,
+            "constant_page_count": len(pages),
+        },
+        body,
+    )
+
+
 def format_errata_entries(entries: list[dict[str, Any]]) -> str:
     if not entries:
         return """<div class="content-card">
@@ -1387,7 +1519,8 @@ def sync_calibration() -> None:
         target_name = source.name.replace("-", "_")
         copy_file(source, data_root / target_name)
 
-    copy_tree_filtered(source_root, SITE_ROOT / "assets" / "data" / "calibration", {".json", ".yml", ".csv", ".ndjson"})
+    copy_tree_filtered(source_root, SITE_ROOT / "assets" / "data" / "calibration", {".json", ".yml", ".csv", ".ndjson", ".mmd", ".svg"})
+    generate_calibration_constant_pages(source_root)
 
 
 def main() -> int:

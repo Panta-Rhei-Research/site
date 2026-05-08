@@ -1,0 +1,10 @@
+constant_page_id,constant_key,slug,overview_order,title,symbol,route,status,scope_label,layer,unit_context,diagram_svg_status
+calpha,alpha,alpha,1,Fine-Structure Constant α,α,/results/calibration-cascade/constants/alpha/,ready,τ-effective,L1,dimensionless,rendered
+cr1,r1,r1,2,Level 1+ Mass Ratio R1,R1,/results/calibration-cascade/constants/r1/,ready,τ-effective,L1,dimensionless,rendered
+cme,electron-mass,electron-mass,3,Electron Mass m_e,m_e,/results/calibration-cascade/constants/electron-mass/,ready,τ-effective,L2,si_after_neutron_mass_anchor,rendered
+calphag,alpha-g,alpha-g,4,Gravitational Coupling α_G,α_G,/results/calibration-cascade/constants/alpha-g/,ready,τ-effective,L1,dimensionless,rendered
+cg,g,g,5,Newton Constant G,G,/results/calibration-cascade/constants/g/,ready,τ-effective,L2,si_after_neutron_mass_anchor,rendered
+cmp,planck-mass,planck-mass,6,Planck Mass m_P,m_P,/results/calibration-cascade/constants/planck-mass/,ready,τ-effective,L2,si_after_g_readout,rendered
+crydberg,rydberg-constant,rydberg-constant,7,Rydberg Constant R_∞,R_∞,/results/calibration-cascade/constants/rydberg-constant/,ready,τ-effective,L3,si_readout,rendered
+cbohr,bohr-radius,bohr-radius,8,Bohr Radius a_B,a_B,/results/calibration-cascade/constants/bohr-radius/,ready,τ-effective,L3,si_readout,rendered
+ccompton,compton-wavelength,compton-wavelength,9,Compton Wavelength λ_C,λ_C,/results/calibration-cascade/constants/compton-wavelength/,ready,τ-effective,L3,si_readout,rendered
