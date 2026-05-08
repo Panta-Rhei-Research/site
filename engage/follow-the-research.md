@@ -1,13 +1,13 @@
 ---
 layout: program-doc
-title: "Follow the Research: Participation"
-title_plain: "Follow the Research: Participation"
+title: "Publication Notifications: Participation"
+title_plain: "Publication Notifications: Participation"
 lane: engage
 v2_lane: engage
 type: "Follow"
 status: "Active"
 permalink: /engage/follow-the-research/
-summary_short: "Receive Publication Notifications and program updates by email as the research develops."
+summary_short: "Receive publication notifications when dated research artifacts are released."
 summary_cards:
   - title: "What you'll receive"
     body: "Research Notes — substantial outward-facing writing published irregularly and only when there is something real to say."
@@ -43,7 +43,7 @@ tags:
 
 ## Receive Publication Notifications by Email
 
-The Panta Rhei Research Program sends **Publication Notifications** for dated scholarly artifacts: Research Notes, Research Papers, White Papers, Research Briefings, and other released publication objects when they become available.
+The Panta Rhei Research Program sends **publication notifications** for dated scholarly artifacts: Research Notes, Research Papers, White Papers, Research Briefings, and other released publication objects when they become available.
 
 Notifications are sent irregularly and only when there is something substantial to say. No marketing, no frequency pressure, no filler.
 
@@ -54,7 +54,7 @@ Notifications are sent irregularly and only when there is something substantial 
 ## What to expect
 
 - **Research Notes**: Dated, article-like publication objects with claim boundaries, verification routes, and PDFs where available
-- **Program updates**: New verification surfaces, formalization milestones, publication releases
+- **Release notices**: New verification surfaces, formalization milestones, and publication releases
 - **No marketing**: This is a research program, not a product. Updates are substantive, not promotional
 - **Low frequency**: Notes arrive when there is something real to report, not on a schedule
 

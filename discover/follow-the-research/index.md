@@ -1,13 +1,13 @@
 ---
 layout: program-doc
-title: "Follow the Research: Orientation"
-title_plain: "Follow the Research: Orientation"
+title: "Publication Notifications: Orientation"
+title_plain: "Publication Notifications: Orientation"
 lane: discover
 v2_lane: discover
 permalink: /discover/follow-the-research/
 type: "Research Stream"
 status: "Canonical"
-summary_short: "An entry surface for ongoing public-facing research communication."
+summary_short: "An entry surface for Research Notes, publication notifications, and factual release records."
 hero_ctas:
   - label: "Research Notes"
     url: /publications/research-notes/
@@ -20,7 +20,7 @@ right_rail:
   related:
     - title: "Research Notes"
       url: /publications/research-notes/
-    - title: "Engage: Follow"
+    - title: "Engage: Publication Notifications"
       url: /engage/follow-the-research/
     - title: "Changelog"
       url: /changelog/
@@ -42,9 +42,9 @@ The site has two different public update streams.
 
 [Changelog]({{ '/changelog/' | relative_url }}) tracks changes to the site, corpus, release state, and infrastructure. It is supporting research infrastructure, not a publication stream.
 
-## Subscribe
+## Publication Notifications
 
-For email delivery of new Research Notes, use [Engage: Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}).
+For email delivery of new Research Note release notices, use [Engage: Publication Notifications]({{ '/engage/follow-the-research/' | relative_url }}).
 
 Research Notes may comment on new developments in Core Semantics, the Structural Challenge Ledger, Construction Spine, Results, or Verify. White papers and media briefs are released under Publications; Research Notes are the ongoing dated scholarly stream.
 
@@ -65,5 +65,5 @@ Research Notes may comment on new developments in Core Semantics, the Structural
 ## Cross-links
 
 - [Publications: Research Notes]({{ '/publications/research-notes/' | relative_url }})
-- [Engage: Follow the Research]({{ '/engage/follow-the-research/' | relative_url }})
+- [Engage: Publication Notifications]({{ '/engage/follow-the-research/' | relative_url }})
 - [Changelog]({{ '/changelog/' | relative_url }})

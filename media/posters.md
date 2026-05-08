@@ -39,6 +39,8 @@ All plates are released under [**Creative Commons Attribution 4.0 International*
 - **For specialists** — each plate carries a list of pages where it is canonically embedded; the surrounding prose is the load-bearing argument, and the plate is the structural map of that argument.
 - **For cross-site embedding** — the machine-readable index lives at [`/api/plates.json`](/api/plates.json) (CC BY 4.0; CORS-permissive).
 
+For v4, the canonical public plate asset is the current `1536 × 864 JPG` print master. Future regenerated v4.1 plates may move to `2048 × 1152 PNG`; until then, public labels should match the current file type and resolution exactly.
+
 If you publish or print any of these plates, we ask that the attribution remain visible — *Panta Rhei Research Program · panta-rhei.site* — and that you link to the canonical page where the plate is embedded so readers can locate the load-bearing prose.
 
 ## The atlas — {{ site.data.plates | size }} plates

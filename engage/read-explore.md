@@ -28,7 +28,7 @@ right_rail:
       url: /engage/discussions/
     - title: "World Readout"
       url: /results/world-readout/
-    - title: "Follow the Research"
+    - title: "Publication Notifications"
       url: /engage/follow-the-research/
   meta:
     type: "Engagement Route"
@@ -70,7 +70,7 @@ This route is deliberately staged. The first goal is orientation; the second is 
   </a>
   <a class="v2-tile" href="{{ '/publications/research-notes/' | relative_url }}">
     <h3>Current Writing Path</h3>
-    <p>Use Research Notes for dated, outward-facing updates and explanatory essays.</p>
+    <p>Use Research Notes for dated, outward-facing publication artifacts and explanatory essays.</p>
   </a>
 </div>
 
@@ -80,7 +80,7 @@ This route is deliberately staged. The first goal is orientation; the second is 
 2. Read [Key Results]({{ '/discover/key-results/' | relative_url }}) to see the program's strongest public claims at a glance.
 3. Open the [Monograph Corpus]({{ '/corpus/monograph-corpus/' | relative_url }}) for the construction map, or [Publications]({{ '/publications/research-monographs/' | relative_url }}) for citable artifacts and guided-release materials.
 4. Use [World Readout]({{ '/results/world-readout/' | relative_url }}) to see how the theory currently reads different domains.
-5. Subscribe through [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) if you want updates when new public notes appear.
+5. Subscribe through [Publication Notifications]({{ '/engage/follow-the-research/' | relative_url }}) if you want release notices when new public notes appear.
 
 For a guided LLM-assisted first pass, use [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}).
 

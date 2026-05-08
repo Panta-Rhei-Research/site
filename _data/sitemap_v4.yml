@@ -27,7 +27,7 @@ primary_lanes:
         url: "/discover/ai-assisted-discovery/"
       - title: "World Readout"
         url: "/results/world-readout/"
-      - title: "Follow the Research"
+      - title: "Publication Notifications"
         url: "/discover/follow-the-research/"
 
   - title: "Program"
@@ -306,7 +306,7 @@ primary_lanes:
         url: "/engage/media/"
       - title: "Contact"
         url: "/engage/contact/"
-      - title: "Follow the Research"
+      - title: "Publication Notifications"
         url: "/engage/follow-the-research/"
       - title: "Support the Research"
         url: "/engage/support-the-research/"

@@ -38,9 +38,9 @@ $chip-bg:       rgba(232, 240, 246, 0.68);
 $chip-border:   rgba(22, 62, 100, 0.14);
 
 // Typography
-$font-ui:       'Inter', 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-$font-display:  'Iowan Old Style', 'Garamond Premier Pro', 'EB Garamond', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
-$font-mono:     'SF Mono', 'Source Code Pro', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+$font-ui:       'Source Sans 3', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+$font-display:  'Garamond Premier Pro', 'EB Garamond', 'Iowan Old Style', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+$font-mono:     'Source Code Pro', 'SF Mono', ui-monospace, 'Fira Code', 'JetBrains Mono', Consolas, monospace;
 
 $line-height:   1.7;
 $line-height-tight: 1.25;
@@ -100,6 +100,7 @@ $bp-stack:        760px;
   --panta-blue-500: #2d6e9f;
   --panta-blue-100: #e8f0f6;
   --panta-blue-50: #f3f7fa;
+  --accent-gold: #a8792a;
 
   --color-paper-0: #{$paper};
   --color-paper-50: #{$paper-warm};
