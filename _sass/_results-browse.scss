@@ -146,21 +146,48 @@
 }
 
 .result-card {
+  --result-layer-accent: var(--panta-blue-700);
   display: block;
   background: var(--surface-card);
   border: var(--border-default);
+  border-top: 3px solid transparent;
   border-radius: $radius-lg;
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 
   &:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-card);
-    border-color: var(--lane-current);
+    border-color: var(--color-line-strong);
+    border-top-color: var(--result-layer-accent);
   }
 
   &[hidden] {
     display: none;
   }
+}
+
+.result-card[data-layer="mathematics"],
+.result-card[data-world-readout-layer="mathematics"] {
+  --result-layer-accent: var(--layer-e0);
+  border-top-color: var(--result-layer-accent);
+}
+
+.result-card[data-layer="physics"],
+.result-card[data-world-readout-layer="physics"] {
+  --result-layer-accent: var(--layer-e1);
+  border-top-color: var(--result-layer-accent);
+}
+
+.result-card[data-layer="life"],
+.result-card[data-world-readout-layer="life"] {
+  --result-layer-accent: var(--layer-e2);
+  border-top-color: var(--result-layer-accent);
+}
+
+.result-card[data-layer="metaphysics"],
+.result-card[data-world-readout-layer="metaphysics"] {
+  --result-layer-accent: var(--layer-e3);
+  border-top-color: var(--result-layer-accent);
 }
 
 .result-card-link {
