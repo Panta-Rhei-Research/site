@@ -1,13 +1,12 @@
 {%- comment -%}
-  hero-eyebrow.html — v4 hero identity line.
+  hero-eyebrow.html — v4 hero breadcrumb + metadata line.
 
   Priority:
-    1. Clickable breadcrumb ancestors, when breadcrumb data exists.
-    2. Controlled current identity from include.text / page.hero_eyebrow /
-       Site Atlas lane + role + status / page lane + type + status.
+    1. Clickable breadcrumb path, when breadcrumb data exists.
+    2. Separate controlled metadata pills for page type and status.
 
   Tags, keywords, descriptions, SEO text, and summaries must never enter
-  the eyebrow. JSON-LD breadcrumbs remain governed separately.
+  the eyebrow row. JSON-LD breadcrumbs remain governed separately.
 {%- endcomment -%}
 
 {%- include breadcrumb-data.html -%}
@@ -17,35 +16,64 @@
 {%- assign _status = include.status | default: page.status | default: atlas_page.status -%}
 {%- assign _route_id = include.route_id | default: page.route_id | default: atlas_page.atlas_id -%}
 
-{%- capture _generated -%}
-  {%- if _lane and _lane != "" -%}{{ _lane | replace: "-", " " | capitalize }}{%- endif -%}
-  {%- if _type and _type != "" -%} · {{ _type | replace: "_", " " | replace: "-", " " | capitalize }}{%- endif -%}
-  {%- if _status and _status != "" -%} · {{ _status | replace: "_", " " | replace: "-", " " | capitalize }}{%- endif -%}
-  {%- if include.show_route_id and _route_id and _route_id != "" -%} · {{ _route_id }}{%- endif -%}
+{%- capture _fallback_breadcrumb -%}
+  {%- if _lane and _lane != "" -%}{{ _lane | replace: "-", " " | capitalize }}{%- elsif page.title -%}{{ page.title | strip_html }}{%- endif -%}
 {%- endcapture -%}
 
-{%- assign eyebrow_text = include.text | default: page.hero_eyebrow | default: _generated | strip -%}
-{%- assign eyebrow_display = eyebrow_text | upcase -%}
+{%- assign _type_text = _type | default: "" | replace: "_", " " | replace: "-", " " | strip -%}
+{%- assign _status_text = _status | default: "" | replace: "_", " " | replace: "-", " " | strip -%}
+{%- assign _type_slug = _type_text | downcase | replace: " ", "-" | replace: "/", "-" -%}
+{%- assign _status_slug = _status_text | downcase | replace: " ", "-" | replace: "/", "-" -%}
 {%- if has_breadcrumbs -%}
-<nav class="hero-eyebrow-pill hero-eyebrow-breadcrumb" aria-label="Breadcrumb">
-  {%- for breadcrumb_item in breadcrumb_items -%}
-    {%- assign breadcrumb_parts = breadcrumb_item | split: '::' -%}
-    {%- assign breadcrumb_name = breadcrumb_parts[0] | strip -%}
-    {%- assign breadcrumb_url = breadcrumb_parts[1] | strip -%}
-    {%- assign skip_duplicate_current_url = false -%}
-    {%- if forloop.last == false and breadcrumb_url == page.url -%}
-      {%- assign skip_duplicate_current_url = true -%}
-    {%- endif -%}
-    {%- if breadcrumb_name != "" and skip_duplicate_current_url == false -%}
+  {%- assign keep_current_breadcrumb = false -%}
+  {%- if breadcrumb_items.size <= 2 -%}
+    {%- assign keep_current_breadcrumb = true -%}
+  {%- endif -%}
+<div class="hero-eyebrow-row">
+  <nav class="hero-eyebrow-pill hero-breadcrumb-pill hero-eyebrow-breadcrumb" aria-label="Breadcrumb">
+    {%- assign breadcrumb_rendered_count = 0 -%}
+    {%- for breadcrumb_item in breadcrumb_items -%}
+      {%- assign breadcrumb_parts = breadcrumb_item | split: '::' -%}
+      {%- assign breadcrumb_name = breadcrumb_parts[0] | strip -%}
+      {%- assign breadcrumb_url = breadcrumb_parts[1] | strip -%}
+      {%- assign is_current_breadcrumb = false -%}
       {%- if forloop.last or breadcrumb_url == "" -%}
-        <span class="hero-eyebrow-current">{{ eyebrow_display | default: breadcrumb_name }}</span>
-      {%- else -%}
-        <a class="hero-eyebrow-link" href="{{ breadcrumb_url | relative_url }}">{{ breadcrumb_name }}</a>
+        {%- assign is_current_breadcrumb = true -%}
       {%- endif -%}
-      {%- unless forloop.last -%}<span class="hero-eyebrow-separator" aria-hidden="true">·</span>{%- endunless -%}
+      {%- assign render_breadcrumb_item = true -%}
+      {%- if forloop.last == false and breadcrumb_url == page.url -%}
+        {%- assign render_breadcrumb_item = false -%}
+      {%- endif -%}
+      {%- if is_current_breadcrumb and keep_current_breadcrumb == false -%}
+        {%- assign render_breadcrumb_item = false -%}
+      {%- endif -%}
+      {%- if breadcrumb_name != "" and render_breadcrumb_item -%}
+        {%- if breadcrumb_rendered_count > 0 -%}<span class="hero-eyebrow-separator hero-breadcrumb-separator" aria-hidden="true">/</span>{%- endif -%}
+        {%- if is_current_breadcrumb -%}
+          <span class="hero-eyebrow-current hero-breadcrumb-current">{{ breadcrumb_name }}</span>
+        {%- else -%}
+          <a class="hero-eyebrow-link hero-breadcrumb-link" href="{{ breadcrumb_url | relative_url }}">{{ breadcrumb_name }}</a>
+        {%- endif -%}
+        {%- assign breadcrumb_rendered_count = breadcrumb_rendered_count | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign root_current_breadcrumb = _fallback_breadcrumb | strip -%}
+    {%- if breadcrumb_rendered_count < 2 and root_current_breadcrumb != "" and root_current_breadcrumb != "Home" -%}
+      {%- if breadcrumb_rendered_count > 0 -%}<span class="hero-eyebrow-separator hero-breadcrumb-separator" aria-hidden="true">/</span>{%- endif -%}
+      <span class="hero-eyebrow-current hero-breadcrumb-current">{{ root_current_breadcrumb }}</span>
     {%- endif -%}
-  {%- endfor -%}
-</nav>
-{%- elsif eyebrow_text != "" -%}
-<span class="hero-eyebrow-pill">{{ eyebrow_display }}</span>
+  </nav>
+  {%- if _type_text != "" -%}<span class="hero-eyebrow-pill hero-meta-pill hero-meta-pill--type{% if _type_slug != "" %} hero-meta-pill--type-{{ _type_slug }}{% endif %}">{{ _type_text }}</span>{%- endif -%}
+  {%- if _status_text != "" -%}<span class="hero-eyebrow-pill hero-meta-pill hero-meta-pill--status{% if _status_slug != "" %} hero-meta-pill--status-{{ _status_slug }}{% endif %}">{{ _status_text }}</span>{%- endif -%}
+  {%- if include.show_route_id and _route_id and _route_id != "" -%}<span class="hero-eyebrow-pill hero-meta-pill hero-meta-pill--route-id">{{ _route_id }}</span>{%- endif -%}
+</div>
+{%- else -%}
+  {%- assign fallback_breadcrumb = include.text | default: _fallback_breadcrumb | strip -%}
+  {%- if fallback_breadcrumb != "" or _type_text != "" or _status_text != "" -%}
+<div class="hero-eyebrow-row">
+    {%- if fallback_breadcrumb != "" -%}<span class="hero-eyebrow-pill hero-breadcrumb-pill">{{ fallback_breadcrumb }}</span>{%- endif -%}
+    {%- if _type_text != "" -%}<span class="hero-eyebrow-pill hero-meta-pill hero-meta-pill--type{% if _type_slug != "" %} hero-meta-pill--type-{{ _type_slug }}{% endif %}">{{ _type_text }}</span>{%- endif -%}
+    {%- if _status_text != "" -%}<span class="hero-eyebrow-pill hero-meta-pill hero-meta-pill--status{% if _status_slug != "" %} hero-meta-pill--status-{{ _status_slug }}{% endif %}">{{ _status_text }}</span>{%- endif -%}
+</div>
+  {%- endif -%}
 {%- endif -%}
