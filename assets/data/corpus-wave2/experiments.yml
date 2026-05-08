@@ -1,0 +1,445 @@
+generated_from: corpus/data/falsifications/experiments.yml
+projection_version: v0.1
+canonical_source: corpus/data/falsifications/experiments.yml
+do_not_edit: true
+experiments:
+- experiment_id: exp-admx
+  name: ADMX
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N3
+- experiment_id: exp-all-dm-searches
+  name: all DM searches
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: permanent
+  url: ''
+  related_falsifications:
+  - N23
+- experiment_id: exp-atmospheric-turbulence
+  name: atmospheric turbulence
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing
+  url: ''
+  related_falsifications:
+  - N29
+- experiment_id: exp-bicep-array
+  name: BICEP Array
+  domain: cmb-inflation
+  type: observational_or_experimental_program
+  timeline: 2027–2030
+  url: ''
+  related_falsifications:
+  - N9
+- experiment_id: exp-cepc
+  name: CEPC
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2040
+  url: ''
+  related_falsifications:
+  - N2
+- experiment_id: exp-cmb-s4
+  name: CMB-S4
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2032
+  url: ''
+  related_falsifications:
+  - N6
+  - N9
+  - N10
+  - N11
+  - N12
+  - N13
+  - N14
+- experiment_id: exp-cosmic-explorer
+  name: Cosmic Explorer
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2032–2040
+  url: ''
+  related_falsifications:
+  - N26
+- experiment_id: exp-cupid
+  name: CUPID
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2035
+  url: ''
+  related_falsifications:
+  - N5
+- experiment_id: exp-darwin
+  name: DARWIN
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N3
+- experiment_id: exp-des-legacy
+  name: DES legacy
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2026–2032
+  url: ''
+  related_falsifications:
+  - N22
+- experiment_id: exp-desi
+  name: DESI
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2032
+  url: ''
+  related_falsifications:
+  - N6
+  - N18
+  - N19
+  - N20
+  - N21
+- experiment_id: exp-dune
+  name: DUNE
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2030
+  url: ''
+  related_falsifications:
+  - N7
+  - N8
+- experiment_id: exp-einstein-telescope
+  name: Einstein Telescope
+  domain: black-holes
+  type: observational_or_experimental_program
+  timeline: 2029–2035
+  url: ''
+  related_falsifications:
+  - N24
+  - N26
+- experiment_id: exp-euclid
+  name: Euclid
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2032
+  url: ''
+  related_falsifications:
+  - N6
+  - N18
+  - N19
+  - N20
+  - N22
+- experiment_id: exp-fcc
+  name: FCC
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2040
+  url: ''
+  related_falsifications:
+  - N1
+  - N2
+- experiment_id: exp-flare
+  name: FLARE
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2030
+  url: ''
+  related_falsifications:
+  - N30
+- experiment_id: exp-gravitational-wave-standard-sirens
+  name: gravitational wave standard sirens
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N21
+- experiment_id: exp-high-re-dns
+  name: high-Re DNS
+  domain: collective-dynamics
+  type: observational_or_experimental_program
+  timeline: ongoing
+  url: ''
+  related_falsifications:
+  - N28
+- experiment_id: exp-hyper-kamiokande
+  name: Hyper-Kamiokande
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2030
+  url: ''
+  related_falsifications:
+  - N7
+  - N8
+- experiment_id: exp-juno
+  name: JUNO
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2030
+  url: ''
+  related_falsifications:
+  - N7
+  - N8
+- experiment_id: exp-jwst
+  name: JWST
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N21
+- experiment_id: exp-kamland-zen
+  name: KamLAND-Zen
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2035
+  url: ''
+  related_falsifications:
+  - N5
+- experiment_id: exp-katrin-project~8
+  name: KATRIN/Project~8
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2032
+  url: ''
+  related_falsifications:
+  - N6
+- experiment_id: exp-legend
+  name: LEGEND
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2035
+  url: ''
+  related_falsifications:
+  - N5
+- experiment_id: exp-lhc
+  name: LHC
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2040
+  url: ''
+  related_falsifications:
+  - N2
+- experiment_id: exp-lhc-run~3+
+  name: LHC Run~3+
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2040
+  url: ''
+  related_falsifications:
+  - N1
+- experiment_id: exp-ligo-virgo-a+
+  name: LIGO/Virgo A+
+  domain: black-holes
+  type: observational_or_experimental_program
+  timeline: 2029–2035
+  url: ''
+  related_falsifications:
+  - N24
+- experiment_id: exp-lisa
+  name: LISA
+  domain: black-holes
+  type: observational_or_experimental_program
+  timeline: 2029–2035
+  url: ''
+  related_falsifications:
+  - N24
+  - N26
+- experiment_id: exp-litebird
+  name: LiteBIRD
+  domain: cmb-inflation
+  type: observational_or_experimental_program
+  timeline: 2027–2030
+  url: ''
+  related_falsifications:
+  - N9
+  - N10
+  - N12
+- experiment_id: exp-lz
+  name: LZ
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N3
+- experiment_id: exp-metal-poor-hii-regions
+  name: metal-poor HII regions
+  domain: bbn
+  type: observational_or_experimental_program
+  timeline: ongoing
+  url: ''
+  related_falsifications:
+  - N15
+- experiment_id: exp-mms
+  name: MMS
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2030
+  url: ''
+  related_falsifications:
+  - N30
+- experiment_id: exp-mrx
+  name: MRX
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2030
+  url: ''
+  related_falsifications:
+  - N30
+- experiment_id: exp-n2edm-at-psi
+  name: n2EDM at PSI
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2030
+  url: ''
+  related_falsifications:
+  - N4
+- experiment_id: exp-nedm
+  name: nEDM
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2030
+  url: ''
+  related_falsifications:
+  - N4
+- experiment_id: exp-nexo
+  name: nEXO
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2035
+  url: ''
+  related_falsifications:
+  - N5
+- experiment_id: exp-ngeht-(next-generation-eht)
+  name: ngEHT (next-generation EHT)
+  domain: black-holes
+  type: observational_or_experimental_program
+  timeline: 2029–2033
+  url: ''
+  related_falsifications:
+  - N25
+- experiment_id: exp-ngeht-polarimetry
+  name: ngEHT polarimetry
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2030–2035
+  url: ''
+  related_falsifications:
+  - N27
+- experiment_id: exp-ngvla
+  name: ngVLA
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2030–2035
+  url: ''
+  related_falsifications:
+  - N27
+- experiment_id: exp-pandax
+  name: PandaX
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N3
+- experiment_id: exp-planck-legacy
+  name: Planck legacy
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: confirmed at $+0.28%$
+  url: ''
+  related_falsifications:
+  - N11
+  - N14
+- experiment_id: exp-primordial-gas-clouds
+  name: primordial gas clouds
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N17
+- experiment_id: exp-quasar-absorption-systems
+  name: quasar absorption systems
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing, improving with 30m-class telescopes
+  url: ''
+  related_falsifications:
+  - N16
+- experiment_id: exp-rubin
+  name: Rubin
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2027–2032
+  url: ''
+  related_falsifications:
+  - N20
+  - N22
+- experiment_id: exp-rubin-lsst
+  name: Rubin/LSST
+  domain: dark-sector
+  type: observational_or_experimental_program
+  timeline: 2025–2030
+  url: ''
+  related_falsifications:
+  - N18
+- experiment_id: exp-ska
+  name: SKA
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2030–2035
+  url: ''
+  related_falsifications:
+  - N27
+- experiment_id: exp-solar-observatories
+  name: solar observatories
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing–2030
+  url: ''
+  related_falsifications:
+  - N30
+- experiment_id: exp-stellar-archaeology
+  name: stellar archaeology
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N17
+- experiment_id: exp-wind-tunnel-data
+  name: wind-tunnel data
+  domain: collective-dynamics
+  type: observational_or_experimental_program
+  timeline: ongoing
+  url: ''
+  related_falsifications:
+  - N28
+- experiment_id: exp-wind-tunnels
+  name: wind tunnels
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: ongoing
+  url: ''
+  related_falsifications:
+  - N29
+- experiment_id: exp-xenonnt
+  name: XENONnT
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N3
+- experiment_id: exp-xlzd
+  name: XLZD
+  domain: particle-physics
+  type: observational_or_experimental_program
+  timeline: 2025–2035
+  url: ''
+  related_falsifications:
+  - N3

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-nuclei-and-nuclear-astrophysics"
     title: "Nuclei and nuclear astrophysics"
-    url: "/results/challenge-responses/physics/nuclei-and-nuclear-astrophysics/"
+    url: "/results/problem-ledger-answers/physics/nuclei-and-nuclear-astrophysics/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -97,7 +97,7 @@ In the tau-picture, beta-decay is not destruction of a neutron but differentiati
 
 ## Related Results surfaces
 
-- [Nuclei and nuclear astrophysics](/results/challenge-responses/physics/nuclei-and-nuclear-astrophysics/)
+- [Nuclei and nuclear astrophysics](/results/problem-ledger-answers/physics/nuclei-and-nuclear-astrophysics/)
 - [Proton-Neutron Mass Difference at +33 ppm](/results/problem/proton-neutron-mass-difference/)
 - [Proton–Neutron Mass Splitting](/predictions/a-m/)
 - [Proton-Neutron Mass Difference at +33 ppm](/results/problem/proton-neutron-mass-difference/)

@@ -62,7 +62,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-hubble-tension"
     title: "Hubble tension"
-    url: "/results/challenge-responses/physics/hubble-tension/"
+    url: "/results/problem-ledger-answers/physics/hubble-tension/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -123,7 +123,7 @@ Ledger restatement: H_0 from tau (V.T196)
 - [Hubble Tension](/results/problem/hubble-tension/)
 - [Hubble Constant h](/predictions/h/)
 - hubble-tension
-- [Hubble tension](/results/challenge-responses/physics/hubble-tension/)
+- [Hubble tension](/results/problem-ledger-answers/physics/hubble-tension/)
 - [N21 — Hubble constant $h = 0.6735$](/falsifications/n21-hubble-constant-h-06735/)
 - [Hubble Tension Internal Readout: h = 2/3 + ιτ²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/)
 - [Vacuum Energy = 0: Cosmological Constant Problem Dissolved](/results/problem/vacuum-energy-zero/)

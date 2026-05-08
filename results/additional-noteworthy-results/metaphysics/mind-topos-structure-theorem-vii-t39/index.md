@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-meta-cognition-and-ai"
     title: "Cognition and AI"
-    url: "/results/challenge-responses/metaphysics-philosophy/cognition-and-ai/"
+    url: "/results/problem-ledger-answers/metaphysics-philosophy/cognition-and-ai/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -36,7 +36,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-meta-qualia"
     title: "Qualia"
-    url: "/results/challenge-responses/metaphysics-philosophy/qualia/"
+    url: "/results/problem-ledger-answers/metaphysics-philosophy/qualia/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -96,7 +96,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-biology-computational-theory-of-mind"
     title: "Computational theory of mind"
-    url: "/results/challenge-responses/life/computational-theory-of-mind/"
+    url: "/results/problem-ledger-answers/life/computational-theory-of-mind/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -127,14 +127,14 @@ Systems with internal topos support internal logic, beliefs as sections, inferen
 
 ## Related Results surfaces
 
-- [Cognition and AI](/results/challenge-responses/metaphysics-philosophy/cognition-and-ai/)
-- [Qualia](/results/challenge-responses/metaphysics-philosophy/qualia/)
+- [Cognition and AI](/results/problem-ledger-answers/metaphysics-philosophy/cognition-and-ai/)
+- [Qualia](/results/problem-ledger-answers/metaphysics-philosophy/qualia/)
 - [Emotions as Register Transitions](/results/problem/emotions-as-register-transitions/)
 - [Intentionality](/results/problem/intentionality/)
 - computational-theory-of-mind
 - how-is-life-related-to-mind-machines-and-culture
 - nervous-systems-cognition-and-life-mind-bridge
-- [Computational theory of mind](/results/challenge-responses/life/computational-theory-of-mind/)
+- [Computational theory of mind](/results/problem-ledger-answers/life/computational-theory-of-mind/)
 
 ## Reading role
 

@@ -1,0 +1,91 @@
+{
+  "generated_from": "corpus/data/predictions/prediction-types.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/predictions/prediction-types.yml",
+  "do_not_edit": true,
+  "prediction_types": {
+    "retro_consistency_postdiction": {
+      "label": "Retro-consistency post-diction"
+    },
+    "tension_account": {
+      "label": "Tension account"
+    },
+    "forward_test": {
+      "label": "Forward test"
+    },
+    "structural_binary": {
+      "label": "Structural binary"
+    },
+    "classification_pending": {
+      "label": "Classification pending"
+    }
+  },
+  "precision_tiers": {
+    "sub_10_ppm": {
+      "label": "Sub-10 ppm"
+    },
+    "ppm_10_to_1000": {
+      "label": "10-1000 ppm"
+    },
+    "percent_1_to_5": {
+      "label": "1-5%"
+    },
+    "structural": {
+      "label": "Structural"
+    }
+  },
+  "cascade_tiers": {
+    "tier_a": {
+      "label": "Tier A"
+    },
+    "tier_b": {
+      "label": "Tier B"
+    },
+    "tier_c": {
+      "label": "Tier C"
+    },
+    "binary": {
+      "label": "Binary"
+    }
+  },
+  "calibration_cascade": {
+    "master_constant": "ι_τ = 2 / (π + e)",
+    "si_anchor": "m_n",
+    "free_continuous_parameters": 0
+  },
+  "prediction_timing": {
+    "note": "Current source records do not yet encode post-diction/tension/forward-test timing as a first-class field; Wave 2 preserves a conservative derived classification."
+  },
+  "fit_space_argument": {
+    "summary": "Predictions are tracked as zero-parameter program commitments relative to the τ master constant plus the stated SI anchor."
+  },
+  "falsification_tiers": {
+    "tier_a": {
+      "label": "Tier A",
+      "count_expected": 13
+    },
+    "tier_b": {
+      "label": "Tier B",
+      "count_expected": 7
+    },
+    "binary": {
+      "label": "Binary",
+      "count_expected": 10
+    }
+  },
+  "tracking_statuses": {
+    "internally_matched_current_data": {
+      "label": "Internally matched to current public data"
+    },
+    "consistent_current_data": {
+      "label": "Consistent with current public data"
+    },
+    "committed_test_path": {
+      "label": "Committed test path"
+    },
+    "contradicted": {
+      "label": "Contradicted"
+    }
+  },
+  "status_boundary": "Prediction and falsification labels are internal tracking labels unless an entry records an external review status explicitly."
+}

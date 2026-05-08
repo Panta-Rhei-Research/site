@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-galaxy-rotation-problem"
     title: "Galaxy rotation problem"
-    url: "/results/challenge-responses/physics/galaxy-rotation-problem/"
+    url: "/results/problem-ledger-answers/physics/galaxy-rotation-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -62,7 +62,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-matter"
     title: "Dark Matter"
-    url: "/results/challenge-responses/physics/dark-matter/"
+    url: "/results/problem-ledger-answers/physics/dark-matter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -110,11 +110,11 @@ Ledger restatement: master rotation curve formula (V.T85)
 
 ## Related Results surfaces
 
-- [Galaxy rotation problem](/results/challenge-responses/physics/galaxy-rotation-problem/)
+- [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
 - [Galaxy Rotation Curve (NGC 3198)](/predictions/ngc-3198-v-f/)
 - dark-matter
 - galaxy-rotation-problem
-- [Dark Matter](/results/challenge-responses/physics/dark-matter/)
+- [Dark Matter](/results/problem-ledger-answers/physics/dark-matter/)
 - [Flat Galaxy Rotation Curves from Capacity Gradient](/results/problem/flat-rotation-curves/)
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/)
 

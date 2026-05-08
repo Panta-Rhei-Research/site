@@ -1,0 +1,6 @@
+generated_from: corpus/data/predictions/prediction-timing.yml
+projection_version: v0.1
+canonical_source: corpus/data/predictions/prediction-timing.yml
+do_not_edit: true
+prediction_timing:
+  note: Current source records do not yet encode post-diction/tension/forward-test timing as a first-class field; Wave 2 preserves a conservative derived classification.

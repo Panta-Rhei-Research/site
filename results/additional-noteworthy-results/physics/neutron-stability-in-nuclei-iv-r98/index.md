@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-nuclei-and-nuclear-astrophysics"
     title: "Nuclei and nuclear astrophysics"
-    url: "/results/challenge-responses/physics/nuclei-and-nuclear-astrophysics/"
+    url: "/results/problem-ledger-answers/physics/nuclei-and-nuclear-astrophysics/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-ultraluminous-x-ray-sources-ulxs"
     title: "Ultraluminous X-ray sources (ULXs)"
-    url: "/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/"
+    url: "/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -84,8 +84,8 @@ While the free neutron is unstable (half-life approx 10 min via A-sector beta de
 
 ## Related Results surfaces
 
-- [Nuclei and nuclear astrophysics](/results/challenge-responses/physics/nuclei-and-nuclear-astrophysics/)
-- [Ultraluminous X-ray sources (ULXs)](/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/)
+- [Nuclei and nuclear astrophysics](/results/problem-ledger-answers/physics/nuclei-and-nuclear-astrophysics/)
+- [Ultraluminous X-ray sources (ULXs)](/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/)
 - nuclei-and-nuclear-astrophysics
 - [Proton Stability: Address Irresolvability Forbids Baryon Decay](/results/problem/proton-stability/)
 

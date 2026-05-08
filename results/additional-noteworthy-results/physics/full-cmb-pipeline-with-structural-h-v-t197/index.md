@@ -44,7 +44,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-principle"
     title: "Cosmological principle"
-    url: "/results/challenge-responses/physics/cosmological-principle/"
+    url: "/results/problem-ledger-answers/physics/cosmological-principle/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -53,7 +53,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-large-scale-anisotropy"
     title: "Large-scale anisotropy"
-    url: "/results/challenge-responses/physics/large-scale-anisotropy/"
+    url: "/results/problem-ledger-answers/physics/large-scale-anisotropy/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -85,8 +85,8 @@ Wave 11: upgraded from skeleton to formalized. Full zero-parameter Friedmann pip
 
 - cosmological-principle
 - large-scale-anisotropy
-- [Cosmological principle](/results/challenge-responses/physics/cosmological-principle/)
-- [Large-scale anisotropy](/results/challenge-responses/physics/large-scale-anisotropy/)
+- [Cosmological principle](/results/problem-ledger-answers/physics/cosmological-principle/)
+- [Large-scale anisotropy](/results/problem-ledger-answers/physics/large-scale-anisotropy/)
 
 ## Reading role
 

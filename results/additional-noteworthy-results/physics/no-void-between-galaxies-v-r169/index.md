@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-galaxy-rotation-problem"
     title: "Galaxy rotation problem"
-    url: "/results/challenge-responses/physics/galaxy-rotation-problem/"
+    url: "/results/problem-ledger-answers/physics/galaxy-rotation-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -76,7 +76,7 @@ Between galaxies the boundary holonomy algebra remains active (D-sector nonzero,
 
 ## Related Results surfaces
 
-- [Galaxy rotation problem](/results/challenge-responses/physics/galaxy-rotation-problem/)
+- [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
 - [N13 — Effective neutrino number N_eff](/falsifications/n13-n-eff/)
 - [N6 — Sum of neutrino masses mν = 0.089 eV](/falsifications/n6-sum-of-neutrino-masses-m-0089/)
 

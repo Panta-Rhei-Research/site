@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-ultraluminous-x-ray-sources-ulxs"
     title: "Ultraluminous X-ray sources (ULXs)"
-    url: "/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/"
+    url: "/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -89,7 +89,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-proton-decay-and-spin-crisis"
     title: "Proton decay and spin crisis"
-    url: "/results/challenge-responses/physics/proton-decay-and-spin-crisis/"
+    url: "/results/problem-ledger-answers/physics/proton-decay-and-spin-crisis/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -130,13 +130,13 @@ Ledger restatement: proton-neutron mass difference (IV.T142/IV.T169)
 
 ## Related Results surfaces
 
-- [Ultraluminous X-ray sources (ULXs)](/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/)
+- [Ultraluminous X-ray sources (ULXs)](/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/)
 - [Chandrasekhar Mass Limit](/results/problem/chandrasekhar-mass-limit/)
 - [Proton-Neutron Mass Difference at +33 ppm](/results/problem/proton-neutron-mass-difference/)
 - [Proton–Neutron Mass Splitting](/predictions/a-m/)
 - [Proton-Neutron Mass Difference at +33 ppm](/results/problem/proton-neutron-mass-difference/)
 - proton-decay-and-spin-crisis
-- [Proton decay and spin crisis](/results/challenge-responses/physics/proton-decay-and-spin-crisis/)
+- [Proton decay and spin crisis](/results/problem-ledger-answers/physics/proton-decay-and-spin-crisis/)
 - [Proton Stability: Address Irresolvability Forbids Baryon Decay](/results/problem/proton-stability/)
 
 ## Reading role

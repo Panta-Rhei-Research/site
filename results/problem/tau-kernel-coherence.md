@@ -28,7 +28,8 @@ provenance_source: "manuscript"
 lean_formalization_status: "none"
 cascade_layer: "kernel"
 foundational_hinge_ids: []
-glossary_term_ids: []
+glossary_term_ids:
+  - "MathG-K02-five-generators"
 recovery_requirement_ids: []
 generated_from: "corpus/results"
 projection_version: "v0.2"
@@ -38,7 +39,7 @@ do_not_edit: true
 
 ## Overview
 
-The τ-kernel is defined by seven axioms K0–K6 acting on five generators {α, π, γ, η, ω} together with one operator ρ. The [Categoricity Theorem]({{ '/corpus/monograph-corpus/' | relative_url }}) (I.T08) proves that the static kernel τ₀ has a unique model up to isomorphism, and the Minimal Alphabet Theorem (I.T11) proves that exactly five generators are needed — no fewer can produce a complete, rigid, and saturated structure. This result is the irreducible axiom foundation from which all subsequent mathematics, physics, biology, and philosophy in the series are derived.
+The τ-kernel is defined by seven axioms K0–K6 acting on five generators {α, π, γ, η, ω} together with one operator ρ. The [Categoricity Theorem]({{ '/corpus/monographs/' | relative_url }}) (I.T08) proves that the static kernel τ₀ has a unique model up to isomorphism, and the Minimal Alphabet Theorem (I.T11) proves that exactly five generators are needed — no fewer can produce a complete, rigid, and saturated structure. This result is the irreducible axiom foundation from which all subsequent mathematics, physics, biology, and philosophy in the series are derived.
 
 ## Detail
 

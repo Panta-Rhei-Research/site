@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-color-confinement"
     title: "Color confinement"
-    url: "/results/challenge-responses/physics/color-confinement/"
+    url: "/results/problem-ledger-answers/physics/color-confinement/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -92,7 +92,7 @@ Honest scope assessment: QCD confinement proof, Standard Model particle masses b
 
 ## Related Results surfaces
 
-- [Color confinement](/results/challenge-responses/physics/color-confinement/)
+- [Color confinement](/results/problem-ledger-answers/physics/color-confinement/)
 - [QCD Confinement](/results/problem/qcd-confinement/)
 - [QCD Phases: Quark-Gluon Plasma as High-Temperature Confinement](/results/problem/qcd-phases-qgp/)
 - [QCD Confinement](/results/problem/qcd-confinement/)

@@ -1,0 +1,197 @@
+generated_from: corpus/data/structural-challenges/clusters.yml
+projection_version: v0.1
+canonical_source: corpus/data/structural-challenges/clusters.yml
+do_not_edit: true
+clusters:
+- cluster_id: scl-cluster-mathematics-canonical_benchmarks
+  domain: mathematics
+  cluster_key: canonical_benchmarks
+  title: Canonical Benchmarks
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/
+  response_route: /results/challenge-responses/mathematics/canonical-benchmarks/
+  expected_challenge_count: 9
+- cluster_id: scl-cluster-mathematics-foundations_logic
+  domain: mathematics
+  cluster_key: foundations_logic
+  title: Foundations Logic
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/mathematics/foundations-logic/
+  response_route: /results/challenge-responses/mathematics/foundations-logic/
+  expected_challenge_count: 18
+- cluster_id: scl-cluster-mathematics-smale_derived
+  domain: mathematics
+  cluster_key: smale_derived
+  title: Smale Derived
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/mathematics/smale-derived/
+  response_route: /results/challenge-responses/mathematics/smale-derived/
+  expected_challenge_count: 11
+- cluster_id: scl-cluster-physics-astrophysics_cosmic_systems
+  domain: physics
+  cluster_key: astrophysics_cosmic_systems
+  title: Astrophysics Cosmic Systems
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/astrophysics-cosmic-systems/
+  response_route: /results/challenge-responses/physics/astrophysics-cosmic-systems/
+  expected_challenge_count: 9
+- cluster_id: scl-cluster-physics-condensed_emergent_matter
+  domain: physics
+  cluster_key: condensed_emergent_matter
+  title: Condensed Emergent Matter
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/condensed-emergent-matter/
+  response_route: /results/challenge-responses/physics/condensed-emergent-matter/
+  expected_challenge_count: 8
+- cluster_id: scl-cluster-physics-cosmology_dark_sector
+  domain: physics
+  cluster_key: cosmology_dark_sector
+  title: Cosmology Dark Sector
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/cosmology-dark-sector/
+  response_route: /results/challenge-responses/physics/cosmology-dark-sector/
+  expected_challenge_count: 14
+- cluster_id: scl-cluster-physics-fluid_plasma_collective
+  domain: physics
+  cluster_key: fluid_plasma_collective
+  title: Fluid Plasma Collective
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/fluid-plasma-collective/
+  response_route: /results/challenge-responses/physics/fluid-plasma-collective/
+  expected_challenge_count: 7
+- cluster_id: scl-cluster-physics-particle_standard_model_bsm
+  domain: physics
+  cluster_key: particle_standard_model_bsm
+  title: Particle Standard Model Bsm
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/particle-standard-model-bsm/
+  response_route: /results/challenge-responses/physics/particle-standard-model-bsm/
+  expected_challenge_count: 14
+- cluster_id: scl-cluster-physics-peripheral_imported_phenomena
+  domain: physics
+  cluster_key: peripheral_imported_phenomena
+  title: Peripheral Imported Phenomena
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/peripheral-imported-phenomena/
+  response_route: /results/challenge-responses/physics/peripheral-imported-phenomena/
+  expected_challenge_count: 15
+- cluster_id: scl-cluster-physics-physics_life_mind_boundary
+  domain: physics
+  cluster_key: physics_life_mind_boundary
+  title: Physics Life Mind Boundary
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/physics-life-mind-boundary/
+  response_route: /results/challenge-responses/physics/physics-life-mind-boundary/
+  expected_challenge_count: 8
+- cluster_id: scl-cluster-physics-qcd_nuclear_dense_matter
+  domain: physics
+  cluster_key: qcd_nuclear_dense_matter
+  title: Qcd Nuclear Dense Matter
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/qcd-nuclear-dense-matter/
+  response_route: /results/challenge-responses/physics/qcd-nuclear-dense-matter/
+  expected_challenge_count: 8
+- cluster_id: scl-cluster-physics-quantum_gravity_spacetime
+  domain: physics
+  cluster_key: quantum_gravity_spacetime
+  title: Quantum Gravity Spacetime
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/quantum-gravity-spacetime/
+  response_route: /results/challenge-responses/physics/quantum-gravity-spacetime/
+  expected_challenge_count: 6
+- cluster_id: scl-cluster-physics-quantum_information
+  domain: physics
+  cluster_key: quantum_information
+  title: Quantum Information
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/quantum-information/
+  response_route: /results/challenge-responses/physics/quantum-information/
+  expected_challenge_count: 5
+- cluster_id: scl-cluster-physics-root_foundations
+  domain: physics
+  cluster_key: root_foundations
+  title: Root Foundations
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/root-foundations/
+  response_route: /results/challenge-responses/physics/root-foundations/
+  expected_challenge_count: 8
+- cluster_id: scl-cluster-physics-tau_native
+  domain: physics
+  cluster_key: tau_native
+  title: Tau Native
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/physics/tau-native/
+  response_route: /results/challenge-responses/physics/tau-native/
+  expected_challenge_count: 15
+- cluster_id: scl-cluster-life-definition_boundary
+  domain: life
+  cluster_key: definition_boundary
+  title: Definition Boundary
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/life/definition-boundary/
+  response_route: /results/challenge-responses/life/definition-boundary/
+  expected_challenge_count: 5
+- cluster_id: scl-cluster-life-ecology_cognition_bridge
+  domain: life
+  cluster_key: ecology_cognition_bridge
+  title: Ecology Cognition Bridge
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/life/ecology-cognition-bridge/
+  response_route: /results/challenge-responses/life/ecology-cognition-bridge/
+  expected_challenge_count: 5
+- cluster_id: scl-cluster-life-evolution_morphology_tree
+  domain: life
+  cluster_key: evolution_morphology_tree
+  title: Evolution Morphology Tree
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/life/evolution-morphology-tree/
+  response_route: /results/challenge-responses/life/evolution-morphology-tree/
+  expected_challenge_count: 8
+- cluster_id: scl-cluster-life-molecular_code_architecture
+  domain: life
+  cluster_key: molecular_code_architecture
+  title: Molecular Code Architecture
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/life/molecular-code-architecture/
+  response_route: /results/challenge-responses/life/molecular-code-architecture/
+  expected_challenge_count: 6
+- cluster_id: scl-cluster-life-origin_substrate_life_as_could_be
+  domain: life
+  cluster_key: origin_substrate_life_as_could_be
+  title: Origin Substrate Life As Could Be
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/life/origin-substrate-life-as-could-be/
+  response_route: /results/challenge-responses/life/origin-substrate-life-as-could-be/
+  expected_challenge_count: 5
+- cluster_id: scl-cluster-metaphysics-knowledge_truth_logic_language
+  domain: metaphysics
+  cluster_key: knowledge_truth_logic_language
+  title: Knowledge Truth Logic Language
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/metaphysics/knowledge-truth-logic-language/
+  response_route: /results/challenge-responses/metaphysics/knowledge-truth-logic-language/
+  expected_challenge_count: 8
+- cluster_id: scl-cluster-metaphysics-mind_consciousness_self_agency
+  domain: metaphysics
+  cluster_key: mind_consciousness_self_agency
+  title: Mind Consciousness Self Agency
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/metaphysics/mind-consciousness-self-agency/
+  response_route: /results/challenge-responses/metaphysics/mind-consciousness-self-agency/
+  expected_challenge_count: 7
+- cluster_id: scl-cluster-metaphysics-normativity_religion_commitment
+  domain: metaphysics
+  cluster_key: normativity_religion_commitment
+  title: Normativity Religion Commitment
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/metaphysics/normativity-religion-commitment/
+  response_route: /results/challenge-responses/metaphysics/normativity-religion-commitment/
+  expected_challenge_count: 5
+- cluster_id: scl-cluster-metaphysics-ontology_modality_reality
+  domain: metaphysics
+  cluster_key: ontology_modality_reality
+  title: Ontology Modality Reality
+  description: ''
+  canonical_route: /agenda/structural-challenge-ledger/metaphysics/ontology-modality-reality/
+  response_route: /results/challenge-responses/metaphysics/ontology-modality-reality/
+  expected_challenge_count: 10

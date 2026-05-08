@@ -1,0 +1,19 @@
+generated_from: corpus/data/structural-challenges/ring-depths.yml
+projection_version: v0.1
+canonical_source: corpus/data/structural-challenges/ring-depths.yml
+do_not_edit: true
+ring_depths:
+  R0:
+    title: Ontic-foundational physics
+  R1:
+    title: Sector architecture and unification
+  R2:
+    title: Quantitative and falsification seams
+  R3:
+    title: Deep domain-structural physics
+  R4:
+    title: Emergent and collective physical systems
+  R5:
+    title: Peripheral, token, or observational anomalies
+  R6:
+    title: Cross-domain handoff challenges

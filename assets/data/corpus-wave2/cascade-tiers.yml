@@ -1,0 +1,13 @@
+generated_from: corpus/data/predictions/cascade-tiers.yml
+projection_version: v0.1
+canonical_source: corpus/data/predictions/cascade-tiers.yml
+do_not_edit: true
+cascade_tiers:
+  tier_a:
+    label: Tier A
+  tier_b:
+    label: Tier B
+  tier_c:
+    label: Tier C
+  binary:
+    label: Binary

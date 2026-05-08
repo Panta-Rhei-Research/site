@@ -1,0 +1,17 @@
+generated_from: corpus/data/results/result-classifications.yml
+projection_version: v0.1
+canonical_source: corpus/data/results/result-classifications.yml
+do_not_edit: true
+result_classifications:
+  by_type:
+    consequence: 26
+    foundational_math: 30
+    frontier_problem: 108
+    structural_readout: 91
+  by_status:
+    contradicted: 6
+    internally_addressed: 218
+    not_addressed: 9
+    partial: 20
+    qualitative: 2
+  note: Generic Results are distinct from Challenge Responses.

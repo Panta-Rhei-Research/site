@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-nuclei-and-nuclear-astrophysics"
     title: "Nuclei and nuclear astrophysics"
-    url: "/results/challenge-responses/physics/nuclei-and-nuclear-astrophysics/"
+    url: "/results/problem-ledger-answers/physics/nuclei-and-nuclear-astrophysics/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -65,7 +65,7 @@ In the carrier Star_n(C) with baryon count above the Chandrasekhar threshold, ev
 
 ## Related Results surfaces
 
-- [Nuclei and nuclear astrophysics](/results/challenge-responses/physics/nuclei-and-nuclear-astrophysics/)
+- [Nuclei and nuclear astrophysics](/results/problem-ledger-answers/physics/nuclei-and-nuclear-astrophysics/)
 - [Proton Stability: Address Irresolvability Forbids Baryon Decay](/results/problem/proton-stability/)
 
 ## Reading role

@@ -61,7 +61,7 @@ For each canonical Structural Challenge in the SCL, the corresponding Challenge 
 
 ## Source-of-truth discipline
 
-The canonical source for each Challenge Response lives in the corpus repo under `structural-challenge-ledger/responses/{domain}/{cluster}/{slug}.md`. The pages on this site are projections produced by the Atlas R5 export pipeline and should not be edited directly here.
+The canonical source for each Challenge Response lives in the Corpus repo under `structural-challenge-ledger/responses/{domain}/{cluster}/{slug}.md`. Wave 2 normalized metadata is exported from Corpus under `exports/public/metadata-wave2/`, while the public pages on this site are generated projections and should not be edited directly here.
 
 ## See also
 

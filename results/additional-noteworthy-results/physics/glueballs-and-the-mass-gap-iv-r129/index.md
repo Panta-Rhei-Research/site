@@ -65,7 +65,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-color-confinement"
     title: "Color confinement"
-    url: "/results/challenge-responses/physics/color-confinement/"
+    url: "/results/problem-ledger-answers/physics/color-confinement/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -84,7 +84,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-glueballs"
     title: "Glueballs"
-    url: "/results/challenge-responses/physics/glueballs/"
+    url: "/results/problem-ledger-answers/physics/glueballs/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -119,9 +119,9 @@ Glueball existence is a direct consequence of the mass gap: without a gap there 
 - [Glueballs: Mass Gap = Minimum Glueball Mass](/results/problem/glueballs/)
 - [QCD Confinement](/results/problem/qcd-confinement/)
 - color-confinement
-- [Color confinement](/results/challenge-responses/physics/color-confinement/)
+- [Color confinement](/results/problem-ledger-answers/physics/color-confinement/)
 - glueballs
-- [Glueballs](/results/challenge-responses/physics/glueballs/)
+- [Glueballs](/results/problem-ledger-answers/physics/glueballs/)
 
 ## Reading role
 

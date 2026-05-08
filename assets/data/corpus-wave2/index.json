@@ -1,0 +1,189 @@
+{
+  "generated_from": "corpus/data/README.md",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/README.md",
+  "do_not_edit": true,
+  "title": "Corpus Metadata Wave 2 Public Export",
+  "summary": "Stable public export family for Agenda/Results alignment metadata.",
+  "counts": {
+    "structural_challenges": 214,
+    "challenge_responses": 214,
+    "generic_results": 255,
+    "predictions": 67,
+    "falsification_n_tests": 30
+  },
+  "exports": {
+    "collections": [
+      {
+        "slug": "structural-challenges",
+        "source": "corpus/data/structural-challenges/challenges.yml",
+        "json": "exports/public/metadata-wave2/structural-challenges.json",
+        "yml": "exports/public/metadata-wave2/structural-challenges.yml"
+      },
+      {
+        "slug": "challenge-responses",
+        "source": "corpus/data/challenge-responses/responses.yml",
+        "json": "exports/public/metadata-wave2/challenge-responses.json",
+        "yml": "exports/public/metadata-wave2/challenge-responses.yml"
+      },
+      {
+        "slug": "results",
+        "source": "corpus/data/results/results.yml",
+        "json": "exports/public/metadata-wave2/results.json",
+        "yml": "exports/public/metadata-wave2/results.yml"
+      },
+      {
+        "slug": "predictions",
+        "source": "corpus/data/predictions/predictions.yml",
+        "json": "exports/public/metadata-wave2/predictions.json",
+        "yml": "exports/public/metadata-wave2/predictions.yml"
+      },
+      {
+        "slug": "falsifications",
+        "source": "corpus/data/falsifications/falsification-tests.yml",
+        "json": "exports/public/metadata-wave2/falsifications.json",
+        "yml": "exports/public/metadata-wave2/falsifications.yml"
+      }
+    ],
+    "vocabularies": [
+      {
+        "slug": "domains",
+        "source": "corpus/data/structural-challenges/domains.yml",
+        "json": "exports/public/metadata-wave2/domains.json",
+        "yml": "exports/public/metadata-wave2/domains.yml"
+      },
+      {
+        "slug": "clusters",
+        "source": "corpus/data/structural-challenges/clusters.yml",
+        "json": "exports/public/metadata-wave2/clusters.json",
+        "yml": "exports/public/metadata-wave2/clusters.yml"
+      },
+      {
+        "slug": "challenge-types",
+        "source": "corpus/data/structural-challenges/challenge-types.yml",
+        "json": "exports/public/metadata-wave2/challenge-types.json",
+        "yml": "exports/public/metadata-wave2/challenge-types.yml"
+      },
+      {
+        "slug": "ring-depths",
+        "source": "corpus/data/structural-challenges/ring-depths.yml",
+        "json": "exports/public/metadata-wave2/ring-depths.json",
+        "yml": "exports/public/metadata-wave2/ring-depths.yml"
+      },
+      {
+        "slug": "response-statuses",
+        "source": "corpus/data/challenge-responses/response-statuses.yml",
+        "json": "exports/public/metadata-wave2/response-statuses.json",
+        "yml": "exports/public/metadata-wave2/response-statuses.yml"
+      },
+      {
+        "slug": "verification-routes",
+        "source": "corpus/data/challenge-responses/verification-routes.yml",
+        "json": "exports/public/metadata-wave2/verification-routes.json",
+        "yml": "exports/public/metadata-wave2/verification-routes.yml"
+      },
+      {
+        "slug": "evidence-routes",
+        "source": "corpus/data/challenge-responses/evidence-routes.yml",
+        "json": "exports/public/metadata-wave2/evidence-routes.json",
+        "yml": "exports/public/metadata-wave2/evidence-routes.yml"
+      },
+      {
+        "slug": "result-statuses",
+        "source": "corpus/data/results/result-statuses.yml",
+        "json": "exports/public/metadata-wave2/result-statuses.json",
+        "yml": "exports/public/metadata-wave2/result-statuses.yml"
+      },
+      {
+        "slug": "result-types",
+        "source": "corpus/data/results/result-types.yml",
+        "json": "exports/public/metadata-wave2/result-types.json",
+        "yml": "exports/public/metadata-wave2/result-types.yml"
+      },
+      {
+        "slug": "result-classifications",
+        "source": "corpus/data/results/result-classifications.yml",
+        "json": "exports/public/metadata-wave2/result-classifications.json",
+        "yml": "exports/public/metadata-wave2/result-classifications.yml"
+      },
+      {
+        "slug": "prediction-types",
+        "source": "corpus/data/predictions/prediction-types.yml",
+        "json": "exports/public/metadata-wave2/prediction-types.json",
+        "yml": "exports/public/metadata-wave2/prediction-types.yml"
+      },
+      {
+        "slug": "precision-tiers",
+        "source": "corpus/data/predictions/precision-tiers.yml",
+        "json": "exports/public/metadata-wave2/precision-tiers.json",
+        "yml": "exports/public/metadata-wave2/precision-tiers.yml"
+      },
+      {
+        "slug": "cascade-tiers",
+        "source": "corpus/data/predictions/cascade-tiers.yml",
+        "json": "exports/public/metadata-wave2/cascade-tiers.json",
+        "yml": "exports/public/metadata-wave2/cascade-tiers.yml"
+      },
+      {
+        "slug": "calibration-cascade",
+        "source": "corpus/data/predictions/calibration-cascade.yml",
+        "json": "exports/public/metadata-wave2/calibration-cascade.json",
+        "yml": "exports/public/metadata-wave2/calibration-cascade.yml"
+      },
+      {
+        "slug": "prediction-timing",
+        "source": "corpus/data/predictions/prediction-timing.yml",
+        "json": "exports/public/metadata-wave2/prediction-timing.json",
+        "yml": "exports/public/metadata-wave2/prediction-timing.yml"
+      },
+      {
+        "slug": "fit-space-argument",
+        "source": "corpus/data/predictions/fit-space-argument.yml",
+        "json": "exports/public/metadata-wave2/fit-space-argument.json",
+        "yml": "exports/public/metadata-wave2/fit-space-argument.yml"
+      },
+      {
+        "slug": "falsification-tiers",
+        "source": "corpus/data/falsifications/falsification-tiers.yml",
+        "json": "exports/public/metadata-wave2/falsification-tiers.json",
+        "yml": "exports/public/metadata-wave2/falsification-tiers.yml"
+      },
+      {
+        "slug": "tracking-statuses",
+        "source": "corpus/data/falsifications/tracking-statuses.yml",
+        "json": "exports/public/metadata-wave2/tracking-statuses.json",
+        "yml": "exports/public/metadata-wave2/tracking-statuses.yml"
+      },
+      {
+        "slug": "experiments",
+        "source": "corpus/data/falsifications/experiments.yml",
+        "json": "exports/public/metadata-wave2/experiments.json",
+        "yml": "exports/public/metadata-wave2/experiments.yml"
+      },
+      {
+        "slug": "experiment-programs",
+        "source": "corpus/data/falsifications/experiment-programs.yml",
+        "json": "exports/public/metadata-wave2/experiment-programs.json",
+        "yml": "exports/public/metadata-wave2/experiment-programs.yml"
+      }
+    ],
+    "consolidated": [
+      "index",
+      "progress",
+      "domain-metadata",
+      "status-grammars",
+      "prediction-falsification-taxonomy"
+    ]
+  },
+  "separation_doctrine": [
+    "Structural Challenges are Agenda-side obligations.",
+    "Challenge Responses are Results-side responses to those obligations.",
+    "Generic Results are a separate consequence catalogue.",
+    "Predictions and Falsifications are specialized accountability facets."
+  ],
+  "status_boundary": "These counts report internal Corpus classification and public projection readiness. They do not by themselves assert formal verification or external acceptance.",
+  "n_test_continuity": {
+    "expected": "N1-N30",
+    "verified_by": "python3 scripts/validate_wave2_metadata.py --write-reports"
+  }
+}

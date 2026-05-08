@@ -1,0 +1,6 @@
+generated_from: corpus/data/predictions/fit-space-argument.yml
+projection_version: v0.1
+canonical_source: corpus/data/predictions/fit-space-argument.yml
+do_not_edit: true
+fit_space_argument:
+  summary: Predictions are tracked as zero-parameter program commitments relative to the τ master constant plus the stated SI anchor.

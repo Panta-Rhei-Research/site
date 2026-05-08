@@ -84,12 +84,6 @@ The purpose of the ledger is to make the framework's structural obligations insp
 
 ## Build status
 
-This is **Wave 1 — Foundation**. The four domain landings below are stubs; per-domain content is populated in subsequent waves:
+This is the current **Corpus Wave 2 public projection**. The four domain landings and the per-item pages are populated from the canonical Corpus source, with 214 Structural Challenges and 214 paired Challenge Responses represented across Mathematics, Physics, Life, and Metaphysics.
 
-- Wave 2 — Mathematics
-- Wave 3 — Physics
-- Wave 4 — Life
-- Wave 5 — Metaphysics
-- Wave 6 — Cross-domain links and final retirement of v1.0 surfaces
-
-See the cross-repo roadmap at `atlas/website/doctrine/structural-challenge-ledger-roadmap.md` (program-internal) for full implementation detail.
+Wave 2 closes the foundation/stub phase for this public surface. Remaining work is refinement work: richer cross-links, more detailed verification routing, and future glossary/relation migration where the Corpus source records already expose the relevant fields.

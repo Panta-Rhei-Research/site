@@ -1,0 +1,37 @@
+generated_from: corpus/data/structural-challenges/domains.yml
+projection_version: v0.1
+canonical_source: corpus/data/structural-challenges/domains.yml
+do_not_edit: true
+domains:
+  mathematics:
+    title: Mathematics
+    canonical_count: 38
+    response_count: 38
+    clusters_expected: 3
+    doctrine: Curated architecture combining canonical benchmarks, Smale-derived structural challenges, Foundations & Logic, and τ-native mathematical challenges.
+    canonical_route: /agenda/structural-challenge-ledger/mathematics/
+    response_route: /results/challenge-responses/mathematics/
+  physics:
+    title: Physics
+    canonical_count: 117
+    response_count: 117
+    clusters_expected: 12
+    doctrine: Preserves the external stress mirror as canonical content, stratified by ring architecture and subdomain clusters, plus τ-native audit challenges.
+    canonical_route: /agenda/structural-challenge-ledger/physics/
+    response_route: /results/challenge-responses/physics/
+  life:
+    title: Life
+    canonical_count: 29
+    response_count: 29
+    clusters_expected: 5
+    doctrine: Curated structural theory-of-life challenge set; excludes token-level species or natural-history puzzles.
+    canonical_route: /agenda/structural-challenge-ledger/life/
+    response_route: /results/challenge-responses/life/
+  metaphysics:
+    title: Metaphysics
+    canonical_count: 30
+    response_count: 30
+    clusters_expected: 4
+    doctrine: Curated E3 challenge set plus recovery-checkpoint response surfaces where applicable.
+    canonical_route: /agenda/structural-challenge-ledger/metaphysics/
+    response_route: /results/challenge-responses/metaphysics/

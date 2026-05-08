@@ -143,7 +143,13 @@ layout: default
   <h2 id="sc-sources-heading">Source anchors</h2>
   <ul>
     {% for s in page.source_anchors %}
-    <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label | default: s.url }}</a></li>
+    <li>
+      {% if s.url %}
+        <a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label | default: s.url }}</a>
+      {% else %}
+        {{ s.label }}{% if s.note %} <span class="muted-note">— {{ s.note }}</span>{% endif %}
+      {% endif %}
+    </li>
     {% endfor %}
   </ul>
   <p class="muted-note" style="font-size: 0.85rem;">Source anchors are background references, not endorsements of Panta Rhei claims.</p>

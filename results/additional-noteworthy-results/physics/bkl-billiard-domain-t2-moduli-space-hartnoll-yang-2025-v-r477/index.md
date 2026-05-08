@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-yangmills-theory"
     title: "Yang–Mills theory"
-    url: "/results/challenge-responses/physics/yangmills-theory/"
+    url: "/results/problem-ledger-answers/physics/yangmills-theory/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms: []
@@ -55,7 +55,7 @@ Three-part remark: (1) BKL billiard domain H/SL(2,Z) is the moduli space of T²,
 
 ## Related Results surfaces
 
-- [Yang–Mills theory](/results/challenge-responses/physics/yangmills-theory/)
+- [Yang–Mills theory](/results/problem-ledger-answers/physics/yangmills-theory/)
 
 ## Reading role
 

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-origin-of-life"
     title: "Origin of Life"
-    url: "/results/challenge-responses/life/origin-of-life/"
+    url: "/results/problem-ledger-answers/life/origin-of-life/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -55,7 +55,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-biology-what-are-the-potentials-and-limits-of-living-systems"
     title: "What are the potentials and limits of living systems?"
-    url: "/results/challenge-responses/life/what-are-the-potentials-and-limits-of-living-systems/"
+    url: "/results/problem-ledger-answers/life/what-are-the-potentials-and-limits-of-living-systems/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -95,10 +95,10 @@ Carrier satisfying code dominance, boundary saturation, crossing faithfulness; B
 
 ## Related Results surfaces
 
-- [Origin of Life](/results/challenge-responses/life/origin-of-life/)
+- [Origin of Life](/results/problem-ledger-answers/life/origin-of-life/)
 - encoding-heredity-and-genotype-phenotype-split
 - what-are-the-potentials-and-limits-of-living-systems
-- [What are the potentials and limits of living systems?](/results/challenge-responses/life/what-are-the-potentials-and-limits-of-living-systems/)
+- [What are the potentials and limits of living systems?](/results/problem-ledger-answers/life/what-are-the-potentials-and-limits-of-living-systems/)
 - life-as-a-recoverable-category
 
 ## Reading role

@@ -33,7 +33,8 @@ tags:
 review_priority: medium
 source_anchors:
 - label: Briefing 01 Appendix A — τ-Native Physics Structural Challenges
-  url: atlas/agenda/01_physics_structural_challenge_ledger_briefing_with_tau_native_appendix.md
+  note: Private source reference retained in Corpus; not linked from the public site
+    projection.
 reviewer_questions:
 - Does τ produce extensional results for this challenge?
 - Is the framework's response auditable rather than only asserted?

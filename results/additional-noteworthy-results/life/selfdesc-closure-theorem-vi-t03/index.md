@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-origin-of-life"
     title: "Origin of Life"
-    url: "/results/challenge-responses/life/origin-of-life/"
+    url: "/results/problem-ledger-answers/life/origin-of-life/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -76,7 +76,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-biology-how-is-life-related-to-mind-machines-and-culture"
     title: "How is life related to mind, machines, and culture?"
-    url: "/results/challenge-responses/life/how-is-life-related-to-mind-machines-and-culture/"
+    url: "/results/problem-ledger-answers/life/how-is-life-related-to-mind-machines-and-culture/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -117,12 +117,12 @@ SelfDesc pair is self-maintaining: perturbations in basin are corrected; code in
 
 ## Related Results surfaces
 
-- [Origin of Life](/results/challenge-responses/life/origin-of-life/)
+- [Origin of Life](/results/problem-ledger-answers/life/origin-of-life/)
 - [Layer Separation: SelfDesc Is Unavailable at E₁](/results/problem/layer-separation/)
 - encoding-heredity-and-genotype-phenotype-split
 - how-is-life-related-to-mind-machines-and-culture
 - nervous-systems-cognition-and-life-mind-bridge
-- [How is life related to mind, machines, and culture?](/results/challenge-responses/life/how-is-life-related-to-mind-machines-and-culture/)
+- [How is life related to mind, machines, and culture?](/results/problem-ledger-answers/life/how-is-life-related-to-mind-machines-and-culture/)
 - life-as-a-recoverable-category
 
 ## Reading role

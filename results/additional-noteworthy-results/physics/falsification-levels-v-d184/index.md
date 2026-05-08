@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/challenge-responses/physics/dark-energy/"
+    url: "/results/problem-ledger-answers/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -58,7 +58,7 @@ Three falsification levels: Level 1 (structural) -- a sixth force, dark matter p
 
 ## Related Results surfaces
 
-- [Dark energy](/results/challenge-responses/physics/dark-energy/)
+- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
 
 ## Reading role
 

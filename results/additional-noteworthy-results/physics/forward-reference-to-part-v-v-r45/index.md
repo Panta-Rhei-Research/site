@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-principle"
     title: "Cosmological principle"
-    url: "/results/challenge-responses/physics/cosmological-principle/"
+    url: "/results/problem-ledger-answers/physics/cosmological-principle/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -68,7 +68,7 @@ Part V develops the full distance-ladder analysis: dark sector elimination, Hubb
 
 ## Related Results surfaces
 
-- [Cosmological principle](/results/challenge-responses/physics/cosmological-principle/)
+- [Cosmological principle](/results/problem-ledger-answers/physics/cosmological-principle/)
 - [Hubble Tension Internal Readout: h = 2/3 + ιτ²/17 at –120 ppm](/results/problem/hubble-tension-resolved-h-formula/)
 
 ## Reading role

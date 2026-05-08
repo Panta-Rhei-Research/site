@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cryogenic-electron-emission"
     title: "Cryogenic electron emission"
-    url: "/results/challenge-responses/physics/cryogenic-electron-emission/"
+    url: "/results/problem-ledger-answers/physics/cryogenic-electron-emission/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -78,7 +78,7 @@ The neutron is chosen as calibration anchor because it is ontologically prior: a
 
 ## Related Results surfaces
 
-- [Cryogenic electron emission](/results/challenge-responses/physics/cryogenic-electron-emission/)
+- [Cryogenic electron emission](/results/problem-ledger-answers/physics/cryogenic-electron-emission/)
 - [Electron Mass at 0.025 ppm: 10-Link Derivation from K0–K6](/results/problem/electron-mass-0025-ppm/)
 - [Electron Mass at 0.025 ppm: 10-Link Derivation from K0–K6](/results/problem/electron-mass-0025-ppm/)
 

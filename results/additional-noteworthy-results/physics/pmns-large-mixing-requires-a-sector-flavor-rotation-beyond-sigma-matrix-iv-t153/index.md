@@ -53,7 +53,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-neutrino-mass"
     title: "Neutrino mass"
-    url: "/results/challenge-responses/physics/neutrino-mass/"
+    url: "/results/problem-ledger-answers/physics/neutrino-mass/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -86,7 +86,7 @@ This is a public Results-lane surface for a noteworthy Physics Registry item. It
 - [Galaxy Rotation Curves without Dark Matter](/results/problem/galaxy-rotation-curves-without-dark-matter/)
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/)
 - neutrino-mass
-- [Neutrino mass](/results/challenge-responses/physics/neutrino-mass/)
+- [Neutrino mass](/results/problem-ledger-answers/physics/neutrino-mass/)
 
 ## Reading role
 

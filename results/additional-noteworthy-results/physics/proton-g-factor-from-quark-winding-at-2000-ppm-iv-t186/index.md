@@ -88,7 +88,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-generations-of-matter"
     title: "Generations of matter"
-    url: "/results/challenge-responses/physics/generations-of-matter/"
+    url: "/results/problem-ledger-answers/physics/generations-of-matter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms: []
@@ -124,7 +124,7 @@ g_p = (5−2ι_τ)/ι_τ = 5.597 at +2000 ppm from PDG 5.5857. Numerator: 3 (qua
 - [Proton-Neutron Mass Difference at +33 ppm](/results/problem/proton-neutron-mass-difference/)
 - [Proton Charge Radius r_p at +12 ppm (37× Improvement in Wave 46)](/results/problem/proton-charge-radius-12-ppm/)
 - generations-of-matter
-- [Generations of matter](/results/challenge-responses/physics/generations-of-matter/)
+- [Generations of matter](/results/problem-ledger-answers/physics/generations-of-matter/)
 
 ## Reading role
 

@@ -1,0 +1,17 @@
+{
+  "generated_from": "corpus/data/challenge-responses/evidence-routes.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/challenge-responses/evidence-routes.yml",
+  "do_not_edit": true,
+  "evidence_routes": {
+    "registry_refs": {
+      "label": "Registry references"
+    },
+    "publications": {
+      "label": "Publication evidence"
+    },
+    "results": {
+      "label": "Related Results"
+    }
+  }
+}
