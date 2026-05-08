@@ -5046,14 +5046,14 @@
     "do_not_edit": true
   },
   {
-    "publication_id": "wp001",
-    "publication_key": "white_papers.taulib_self_contained_lean4_library",
+    "publication_id": "lwp001",
+    "publication_key": "legacy_white_papers.taulib_self_contained_lean4_library",
     "type": "white_paper",
     "type_label": "White Paper",
     "publication_role": "technical",
     "status": "released",
     "artifact_availability": "local_pdf",
-    "route_status": "reserved",
+    "route_status": "not_applicable",
     "release_date": "2026-05-01",
     "version": "**v2.0 (full rewrite)** · May 2026",
     "title": "TauLib: A Self-Contained Lean 4 Library for Category τ",
@@ -5078,7 +5078,7 @@
     },
     "canonical_url": "https://panta-rhei.site/publications/white-papers/taulib/",
     "website_url": "https://panta-rhei.site/publications/white-papers/taulib/",
-    "short_url": "https://prrp.site/wp001",
+    "short_url": "",
     "slug": "taulib-self-contained-lean4-library",
     "github_path": "white-papers/2026-05-01-taulib-self-contained-lean-4-library",
     "files": {
