@@ -104,7 +104,7 @@ This is by design. Metaphysical concepts (being, dignity, qualia, free-will) do 
 ## Read next
 
 - [Metaphysics glossary]({{ '/results/metaphysics/glossary/' | relative_url }}) — all 68 entries across 6 categories
-- [Physics cascade]({{ '/results/physics/cascade/' | relative_url }}) — for the linear numerical analog
+- [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) — for the linear numerical analog
 - [Life cascade]({{ '/results/life/cascade/' | relative_url }}) — for the multi-branch tree analog
 
 ## Provenance

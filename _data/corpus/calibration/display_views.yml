@@ -4,9 +4,9 @@ canonical_source: corpus/data/calibration
 do_not_edit: true
 display_views:
 - id: cascade-static-graph
-  title: Static cascade graph
-  route_section: dependency-graph
-  description: Review-facing node/edge graph rendered as a static table and ordered layer flow.
+  title: Static cascade diagram
+  route_section: cascade-diagram
+  description: Review-facing layered DAG rendered as deterministic HTML/CSS plus a text equivalent.
   data_files:
   - constant-nodes.yml
   - cascade-edges.yml

@@ -18,7 +18,7 @@ right_rail:
     url: /results/world-readout/physics/
   - title: Physics Results
     url: /results/topic/physics/
-  - title: Numerical Physics Ledger (Companion)
+  - title: Numerical Physics Ledger Artifact
     url: /publications/monograph-supplements/numerical-physics-ledger/
   - title: Verify Lane
     url: /verify/
@@ -37,7 +37,7 @@ Or in sharper form:
 
 **Why does Tau not collapse into trivial unit ticks and simple integer ratios — and how can it still touch SI-valued measurement without importing a long list of free parameters?**
 
-The Tau answer is unusually specific. The entire quantitative physical world runs on **two inputs** and nothing else: one algebraic posit, and one SI anchor. Everything else — constants, ratios, spectra, cosmological scales — is a derived readout. This page tells that story as a narrative; the full architectural detail lives in [Chapter 58a of the Numerical Physics Ledger]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}) (209 pp, 1.11 MB).
+The Tau answer is unusually specific. The entire quantitative physical world runs on **two inputs** and nothing else: one algebraic posit, and one SI anchor. Everything else — constants, ratios, spectra, cosmological scales — is a derived readout. This page tells that story as a narrative; the inspection surface is the [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}), while the long-form publication artifact remains [Chapter 58a of the Numerical Physics Ledger]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}) (209 pp, 1.11 MB).
 
 ## The two-input architecture
 
@@ -46,7 +46,7 @@ Tau does not need many fitted parameters. It needs exactly two ingredients:
 1. **ι<sub>τ</sub> = 2/(π + e)** — the algebraic posit. This is what the framework *assumes*: a single dimensionless ratio, expressed in closed form, derived internally from prime polarity and fixed-point structure. No empirical content has entered the physics yet.
 2. **m<sub>n</sub>** — the single SI anchor. This is what the framework *measures*: the neutron mass in kilograms, taken from one ordinary laboratory measurement.
 
-That is the whole empirical intake. Two numbers: one algebraic, one measured. The bold claim of Tau-physics is that these two inputs — and only these two — determine every Ledger entry the program will ever compute.
+That is the whole empirical intake. Two numbers: one algebraic, one measured. The bold claim of Tau-physics is that these two inputs — and only these two — determine every constants-ledger table entry the program will compute from this cascade.
 
 This is the shape of the answer to "is this numerology?" The answer is not "trust us." The answer is a structural theorem about how much a world needs to be quantitatively fixed.
 
@@ -80,15 +80,15 @@ The calibration cascade is the spine of Tau-physics. Each layer earns its quanti
 
 **L4 — Verification pack.** Finally, the cascade exposes itself to falsification. A fixed battery of 30 tests (N1 through N30) — atomic spectra, cosmological constants, particle masses, mixing observables — checks every derived quantity against experiment. No parameter is tuned during L4. If anything fails, something higher up in the cascade fails with it.
 
-Put together, the four layers narrate how a world moves from one algebraic posit to one verified SI prediction table: algebra first, ratios second, one measurement third, SI fourth, falsifiers last.
+Put together, the four layers narrate how a world moves from one algebraic posit to one reviewable SI readout table: algebra first, ratios second, one measurement third, SI fourth, falsifiers last.
 
 ## The Calibration Sufficiency Theorem
 
 All of this is summarized by one structural claim that every reader of this page should hold on to:
 
-> **Calibration Sufficiency Theorem.** The pair (ι<sub>τ</sub>, m<sub>n</sub>) determines every entry in the Numerical Physics Ledger with zero additional free parameters.
+> **Calibration Sufficiency Theorem.** The pair (ι<sub>τ</sub>, m<sub>n</sub>) determines every constants-ledger entry in the Calibration Cascade with zero additional free parameters.
 
-This is the real answer to the question "is this numerology?" Numerology picks numbers that look suggestive and stops. Tau picks two numbers, fixes them, and then watches a whole ledger of physical quantities arrange themselves — with no extra tuning knobs available. If the world disagrees with any one of them, the framework has no hiding place.
+This is the real answer to the question "is this numerology?" Numerology picks numbers that look suggestive and stops. Tau picks two numbers, fixes them, and then watches a finite constants-ledger table arrange itself — with no extra tuning knobs available. If the world disagrees with any one of them, the framework has no hiding place.
 
 Sufficiency is what turns a ratio-game into a physics.
 
@@ -112,7 +112,7 @@ The Ledger's 30 falsifiers sort naturally into three precision tiers. Stating th
 - **Tier B (~3 ppm).** Strong predictions where the cascade agrees with measurement to within part-per-million levels. Individually unremarkable by measurement standards; collectively impressive because nothing has been tuned.
 - **Tier C (~0.8%).** Structural predictions whose quantitative bridges are still being sharpened. Agreement here is meaningful but not yet decisive.
 
-The tiers are not a hedge. They are how the framework tells readers, before they open the Ledger, how much weight each row should carry.
+The tiers are not a hedge. They are how the framework tells readers, before they open the Numerical Prediction Catalogue, how much weight each row should carry.
 
 ## Incommensurability without arbitrariness
 
@@ -144,7 +144,7 @@ That is a much stronger and cleaner claim than simply assuming constants by hand
 
 ## Conclusion
 
-In Tau, quantitative physics does not arise from externally imposed free parameters. It runs on a four-layer calibration cascade driven by two inputs: the algebraic posit ι<sub>τ</sub> and the single SI anchor m<sub>n</sub>. The Calibration Sufficiency Theorem closes the accounting. The flagship prediction R<sub>0</sub> → m<sub>p</sub>/m<sub>e</sub> at Tier A precision shows what that accounting can do when it is tight. The three-tier taxonomy shows where the remaining work is. The [Numerical Physics Ledger companion]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}) (Ch 58a, 209 pp, 1.11 MB) carries the full architectural record.
+In Tau, quantitative physics does not arise from externally imposed free parameters. It runs on a four-layer calibration cascade driven by two inputs: the algebraic posit ι<sub>τ</sub> and the single SI anchor m<sub>n</sub>. The Calibration Sufficiency Theorem closes the accounting. The flagship prediction R<sub>0</sub> → m<sub>p</sub>/m<sub>e</sub> at Tier A precision shows what that accounting can do when it is tight. The three-tier taxonomy shows where the remaining work is. The [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) carries the public inspection surface; the [Numerical Physics Ledger publication artifact]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}) (Ch 58a, 209 pp, 1.11 MB) carries the long-form typeset record.
 
 
 ## Canonical References

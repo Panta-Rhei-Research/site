@@ -38,17 +38,17 @@ If you tried to anchor at the electron, you'd lose information — the electron 
 
 ## <span id="stop-3"></span>Stop 3 of 7 · The 5-layer cascade
 
-Once you have `ι_τ` and `m_n`, every dimensional constant in physics is built in 5 layers:
+Once you have `ι_τ` and `m_n`, the public dependency overlay is organized in five layers:
 
 ```
 Layer 0:  τ-categorical kernel (I.K0)
 Layer 1:  Master constant ι_τ ≈ 0.341304 (a pure number)
 Layer 2:  τ³ topology + (M, L, ℏ) dimensional triple
-Layer 3:  Derived dimensional constants (α, a₀, R_∞, c, ℏ, G, k_B)
-Layer 4:  SI bridge — anchored at m_n
+Layer 3:  SI readout / unit realization
+Layer 4:  Verification comparison and falsification surfaces
 ```
 
-It's a deterministic pipeline: feed in `ι_τ` and `m_n`, every observable comes out the other end. ([Full diagram on the Calibration Cascade page]({{ '/results/physics/cascade/' | relative_url }}))
+It is a directed, finite inspection structure: the page shows which dependency path is being claimed, which source chapter carries it, and where unit-context or external review remains open. ([Full diagram on the Calibration Cascade page]({{ '/results/calibration-cascade/' | relative_url }}))
 
 → **Next stop:** [How precise is the framework?](#stop-4)
 
@@ -101,7 +101,7 @@ You've now seen the structure of the physics domain. To go deeper:
     <strong>{% include release-metric.html id="predictions.records" %} numerical predictions</strong>
     <span>The Tier A / B / C precision ledger.</span>
   </a>
-  <a class="v2-tile" href="{{ '/results/physics/cascade/' | relative_url }}">
+  <a class="v2-tile" href="{{ '/results/calibration-cascade/' | relative_url }}">
     <strong>The full calibration cascade</strong>
     <span>Layer 0 to Layer 4, with all registry anchors.</span>
   </a>

@@ -1,0 +1,202 @@
+// Calibration Cascade — layered DAG and finite inspection UI.
+
+.calibration-badge-row,
+.calibration-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 8px;
+}
+
+.calibration-two-column,
+.calibration-input-grid,
+.calibration-layer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+  margin: 18px 0;
+}
+
+.calibration-card {
+  padding: 18px;
+  border: var(--border-default);
+  border-radius: var(--radius-lg);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-card);
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.calibration-card-list {
+  margin: 18px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.calibration-card-list > li + li {
+  margin-top: 10px;
+}
+
+.calibration-inspection-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 22px;
+}
+
+.calibration-inspection-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 7px 12px;
+  border: 1px solid rgba(22, 62, 100, 0.16);
+  border-radius: var(--radius-pill);
+  background: rgba(232, 240, 246, 0.72);
+  color: var(--color-brand-800);
+  font-family: var(--font-ui);
+  font-size: 0.86rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.calibration-dag {
+  margin: 20px 0;
+}
+
+.calibration-dag-layers {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  gap: 10px;
+  align-items: stretch;
+}
+
+.calibration-dag-layer {
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid rgba(22, 62, 100, 0.12);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(246, 249, 251, 0.92));
+}
+
+.calibration-dag-layer h3 {
+  margin: 0 0 10px;
+  font-size: 0.92rem;
+  font-family: var(--font-ui);
+}
+
+.calibration-dag-node {
+  margin: 10px 0;
+  padding: 11px;
+  border: 1px solid rgba(22, 62, 100, 0.14);
+  border-radius: var(--radius-md);
+  background: #fff;
+}
+
+.calibration-dag-node-title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.calibration-dag-node p,
+.calibration-dag-node ul {
+  margin: 6px 0;
+  font-size: 0.84rem;
+}
+
+.calibration-dag-node ul {
+  padding-left: 18px;
+}
+
+.calibration-inspector-card {
+  border: var(--border-default);
+  border-radius: var(--radius-lg);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-card);
+}
+
+.calibration-inspector-card > summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: start;
+  padding: 14px 16px;
+  cursor: pointer;
+  list-style-position: outside;
+}
+
+.calibration-inspector-card > summary:focus-visible {
+  outline: 3px solid rgba(22, 62, 100, 0.32);
+  outline-offset: 3px;
+}
+
+.calibration-inspector-card[open] > summary {
+  border-bottom: 1px dashed rgba(22, 62, 100, 0.18);
+}
+
+.calibration-summary-main strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.calibration-summary-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
+.calibration-detail-body {
+  padding: 14px 16px 16px;
+}
+
+.calibration-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calibration-detail-grid div {
+  padding: 10px;
+  border: 1px solid rgba(22, 62, 100, 0.1);
+  border-radius: var(--radius-md);
+  background: rgba(246, 249, 251, 0.82);
+}
+
+.calibration-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.calibration-text-equivalent {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-left: 3px solid var(--color-brand-600);
+  background: rgba(232, 240, 246, 0.42);
+  border-radius: var(--radius-md);
+}
+
+@media (max-width: 900px) {
+  .calibration-dag-layers {
+    grid-template-columns: 1fr;
+  }
+
+  .calibration-dag-layer {
+    display: block;
+  }
+
+  .calibration-inspector-card > summary {
+    grid-template-columns: 1fr;
+  }
+
+  .calibration-summary-meta {
+    justify-content: flex-start;
+  }
+}

@@ -92,7 +92,7 @@ In Tau, the universe does not only possess a global geometry. It acquires a non-
 
 ## The boundary as a carrier of quantitative structure
 
-The infinity boundary is not only a geometric completion. Its character algebra H<sub>∂</sub>[ω] is one of the algebraic homes in which the [calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) has its **L0** structure. When the program later writes that (ι<sub>τ</sub>, m<sub>n</sub>) determines every Ledger entry, a real part of what ι<sub>τ</sub> brings is the character structure at ω — the way ratios organize themselves at the boundary before they ever become SI numbers. The global shape of reality is, in that sense, part of the machinery that makes calibration sufficient.
+The infinity boundary is not only a geometric completion. Its character algebra H<sub>∂</sub>[ω] is one of the algebraic homes in which the [calibration cascade]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) has its **L0** structure. When the program later writes that (ι<sub>τ</sub>, m<sub>n</sub>) determines every constants-ledger table entry, a real part of what ι<sub>τ</sub> brings is the character structure at ω — the way ratios organize themselves at the boundary before they ever become SI numbers. The global shape of reality is, in that sense, part of the machinery that makes calibration sufficient.
 
 ## Why this page matters
 
