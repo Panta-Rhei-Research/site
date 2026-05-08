@@ -9,6 +9,8 @@
       "source": "iota-tau",
       "target": "coupling-ledger",
       "relation": "defines",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -16,6 +18,8 @@
       "source": "iota-tau",
       "target": "fine-structure-alpha",
       "relation": "feeds",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -23,6 +27,8 @@
       "source": "iota-tau",
       "target": "mass-ratio-chain",
       "relation": "feeds",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -30,6 +36,8 @@
       "source": "coupling-ledger",
       "target": "fine-structure-alpha",
       "relation": "supports",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -37,6 +45,8 @@
       "source": "fine-structure-alpha",
       "target": "mass-ratio-chain",
       "relation": "holonomy_correction",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -44,6 +54,8 @@
       "source": "mass-ratio-chain",
       "target": "electron-mass",
       "relation": "anchor_conversion",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -51,6 +63,8 @@
       "source": "neutron-mass-anchor",
       "target": "electron-mass",
       "relation": "calibrates",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -58,6 +72,8 @@
       "source": "fine-structure-alpha",
       "target": "alpha-g",
       "relation": "bridge_input",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -65,6 +81,8 @@
       "source": "alpha-g",
       "target": "g-readout",
       "relation": "unit_context_conversion",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -72,6 +90,8 @@
       "source": "neutron-mass-anchor",
       "target": "g-readout",
       "relation": "anchor_conversion",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -79,6 +99,8 @@
       "source": "electron-mass",
       "target": "si-readouts",
       "relation": "feeds",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -86,6 +108,8 @@
       "source": "g-readout",
       "target": "si-readouts",
       "relation": "feeds",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -93,6 +117,8 @@
       "source": "si-readouts",
       "target": "verification-comparisons",
       "relation": "compared_against",
+      "edge_type": "dependency",
+      "acyclicity_applies": true,
       "status": "mapped"
     },
     {
@@ -100,6 +126,8 @@
       "source": "verification-comparisons",
       "target": "prediction-catalogue",
       "relation": "public_claim_surface",
+      "edge_type": "related_surface",
+      "acyclicity_applies": false,
       "status": "mapped"
     },
     {
@@ -107,6 +135,8 @@
       "source": "verification-comparisons",
       "target": "falsification-surfaces",
       "relation": "challenge_surface",
+      "edge_type": "related_surface",
+      "acyclicity_applies": false,
       "status": "mapped"
     }
   ]

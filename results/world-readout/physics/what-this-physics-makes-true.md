@@ -57,7 +57,7 @@ Gravitational structure is read out from the same world that already hosts quant
 The universe is not a loose collection of epochs but a coherent unfolding from ignition through topology-bearing black-hole phases to finite saturation.
 
 ### 5. Quantities are not imposed by free parameters
-A master calibration hierarchy arises through `ι<sub>τ</sub>`, with **two inputs** and nothing else — the algebraic posit ι<sub>τ</sub> = 2/(π + e) and the single SI anchor m<sub>n</sub> — running a **four-layer cascade** L0 → L1 → L2 → L3 → L4 that determines every Ledger entry. The [Calibration Sufficiency Theorem]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) makes this precise.
+A master calibration hierarchy arises through `ι<sub>τ</sub>`, with **two inputs** and nothing else — the algebraic posit ι<sub>τ</sub> = 2/(π + e) and the single SI anchor m<sub>n</sub> — running a **four-layer cascade** L0 → L1 → L2 → L3 → L4 that determines every constants-ledger table entry. The [Calibration Sufficiency Theorem]({{ '/results/world-readout/physics/from-ratio-to-measurement-iota-tau-and-the-calibration-of-physics/' | relative_url }}) makes this precise.
 
 ### 6. Major frontier problems become structurally accessible
 Because the world is already coherent and closed, frontier problems in quantum theory, gravitation, cosmology, and particle physics can be approached as consequences rather than as disconnected anomalies.

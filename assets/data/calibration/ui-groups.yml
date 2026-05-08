@@ -1,0 +1,51 @@
+generated_from: corpus/data/calibration
+projection_version: v0.1
+canonical_source: corpus/data/calibration
+do_not_edit: true
+ui_groups:
+- group_id: inputs
+  title: Inputs
+  description: The two privileged inputs visible before any expansion.
+  node_ids:
+  - iota-tau
+  - neutron-mass-anchor
+- group_id: global_cascade
+  title: Global Cascade
+  description: The static, layer-banded DAG shown as first-pass orientation.
+  node_ids:
+  - iota-tau
+  - coupling-ledger
+  - fine-structure-alpha
+  - mass-ratio-chain
+  - neutron-mass-anchor
+  - electron-mass
+  - alpha-g
+  - g-readout
+  - si-readouts
+  - verification-comparisons
+- group_id: mass_ratio_chain
+  title: Mass-Ratio Chain
+  description: The ten-link derivation chain elevated as the central inspection object.
+  chain_id: mass-ratio-10-link-chain
+  node_ids:
+  - mass-ratio-chain
+  - electron-mass
+- group_id: couplings
+  title: Coupling Ledger
+  description: Ten dimensionless coupling entries feeding later readout paths.
+  node_ids:
+  - coupling-ledger
+  - fine-structure-alpha
+- group_id: g_alpha_bridge
+  title: G-alpha Bridge
+  description: Dimensionless bridge and G readout route with explicit unit context.
+  node_ids:
+  - alpha-g
+  - g-readout
+- group_id: verification
+  title: Verification Comparisons
+  description: Comparison rows and public result/challenge surfaces.
+  node_ids:
+  - verification-comparisons
+  - prediction-catalogue
+  - falsification-surfaces
