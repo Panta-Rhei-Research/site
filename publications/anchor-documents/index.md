@@ -15,6 +15,12 @@ right_rail:
       title: "C001 Charter Essay"
       url: "/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/"
     -
+      title: "WP001 Executive Overview"
+      url: "/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
+    -
+      title: "WP003 TauLib Overview"
+      url: "/publications/anchor-documents/wp003-taulib-technical-overview/"
+    -
       title: "Program Charter"
       url: "/program/about/standing-in-the-inquiry-of-being/"
     -
@@ -64,7 +70,7 @@ Publications, Impact, and Verify surfaces.
 ## Reading Routes
 
 Use C001 first if you need the program's inquiry stance. Use WP001 as the
-whole-program orientation once released. Use WP004 for the inspection
+whole-program orientation. Use WP004 for the inspection
 architecture, WP003 for the formalization surface, WP005 for conditional impact,
 and WP002 last for the theory construction synopsis.
 

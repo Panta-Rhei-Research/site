@@ -105,11 +105,17 @@ def main() -> int:
         html = read(route)
         require(html, f'data-world-readout-layer="{layer}"', f"{layer} world-readout anchor layer metadata")
 
-    require(program, 'class="hero-eyebrow-pill hero-eyebrow-breadcrumb"', "clickable hero eyebrow")
-    require(program, 'class="hero-eyebrow-link"', "hero eyebrow ancestor links")
+    require(program, 'class="hero-eyebrow-row"', "split hero eyebrow row")
+    require(program, 'hero-breadcrumb-pill hero-eyebrow-breadcrumb', "clickable hero breadcrumb pill")
+    require(program, 'class="hero-eyebrow-link hero-breadcrumb-link"', "hero eyebrow ancestor links")
+    require(program, 'class="hero-eyebrow-separator hero-breadcrumb-separator" aria-hidden="true">/</span>', "slash breadcrumb separator")
+    require(program, 'hero-meta-pill--type', "hero type metadata pill")
+    require(program, 'hero-meta-pill--status', "hero status metadata pill")
     require(program, 'aria-label="Breadcrumb"', "hero eyebrow breadcrumb accessibility")
     require(program, '"@type": "BreadcrumbList"', "structured breadcrumb JSON-LD")
-    require(css, ".hero-eyebrow-link", "hero eyebrow link styling")
+    require(css, ".hero-eyebrow-row", "hero eyebrow row styling")
+    require(css, ".hero-breadcrumb-link", "hero breadcrumb link styling")
+    require(css, ".hero-meta-pill", "hero metadata pill styling")
     require(css, "text-decoration:none", "unstyled hero eyebrow links")
 
     for route in REPRESENTATIVE_ROUTES:

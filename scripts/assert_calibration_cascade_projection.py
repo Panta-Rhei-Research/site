@@ -145,6 +145,12 @@ def main() -> int:
     assert_contains(nav_section, 'title: "Calibration Cascade"', "Results nav")
     assert_contains(nav_section, 'url: "/results/calibration-cascade/"', "Results nav")
 
+    nav = read(SITE_ROOT / "_data" / "nav.yml")
+    nav_section = nav[nav.find('title: "Falsifiable predictions"') :]
+    assert_contains(nav_section, 'title: "Numerical Predictions"', "Results nav")
+    assert_contains(nav_section, 'title: "Calibration Cascade"', "Results nav")
+    assert_contains(nav_section, 'url: "/results/calibration-cascade/"', "Results nav")
+
     print("Calibration Cascade site projection assertions passed")
     return 0
 

@@ -70,7 +70,7 @@ The construction-step tags on each part card make this mapping explicit.
 There are four useful entry routes:
 
 - **By book** — start in the [Book overview](#book-overview) below and step through the seven books in order. This is the canonical reading order for the series.
-- **By part** — open the [Part index](#part-index) to scan all 79 parts in build order, grouped under Mathematics / Physics / Life / Metaphysics layers.
+- **By part** — open the [Part index](#part-index) to scan all {% include release-metric.html id="corpus.monograph_parts" %} parts in build order, grouped under Mathematics / Physics / Life / Metaphysics layers.
 - **By construction step** — use the [Construction-step view](#construction-step-view) to see which parts realize each of the ten Construction Spine steps.
 - **By registry or TauLib anchor** — every part card lists its registry anchors and TauLib links; follow them into [Registry]({{ '/corpus/registry/' | relative_url }}) for atomic objects or [TauLib]({{ '/corpus/taulib/' | relative_url }}) for formal proof surfaces.
 
@@ -88,7 +88,7 @@ There are four useful entry routes:
 
 ## Part index
 
-The 79 parts of the seven-book series, in build order, grouped under the four construction layers.
+The {% include release-metric.html id="corpus.monograph_parts" %} parts of the seven-book series, in build order, grouped under the four construction layers.
 
 ### Mathematics
 
@@ -199,7 +199,7 @@ Book VII carries reflection, language, ethics, society, mind, and final ontic-cl
 
 ## Construction-step view
 
-The same 79 parts grouped by which Construction Spine step they realize. Each step name links to its public step page on the [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}).
+The same {% include release-metric.html id="corpus.monograph_parts" %} parts grouped by which Construction Spine step they realize. Each step name links to its public step page on the [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}).
 
 {% assign cm = site.data.construction_map["construction-map"] %}
 {% assign cs_steps = "CS-01,CS-02,CS-03,CS-04,CS-05,CS-06,CS-07,CS-08,CS-09,CS-10" | split: "," %}

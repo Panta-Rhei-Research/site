@@ -24,7 +24,11 @@ right_rail:
 
 The Numerical Prediction Catalogue compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with zero free continuous parameters. Each prediction compares a τ-derived value to experimental measurement under explicit source, unit-context, and verification boundaries. Fifteen predictions achieve sub-10 ppm precision, including the electron mass (0.025 ppm), weak mixing angle (−0.65 ppm), and Higgs mass (+8.0 ppm).
 
-The catalogue sits on top of the [**Calibration Cascade**]({{ '/results/calibration-cascade/' | relative_url }}). Two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor, the neutron mass m<sub>n</sub> — feed a five-layer dependency overlay (**L0** algebraic → **L1** dimensionless → **L2** anchor and mass ratios → **L3** SI readout / unit realization → **L4** verification and falsification). Most entries live at L1 (dimensionless ratios) or L3 (SI readout routes), but the cascade also records unresolved mapping and unit-context review status.
+The catalogue sits on top of the [**Calibration Cascade**]({{ '/results/calibration-cascade/' | relative_url }}). Two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor, the neutron mass m<sub>n</sub> — feed a five-layer dependency overlay:
+
+{% include sequence-flow.html id="calibration_cascade" %}
+
+Most entries live at L1 (dimensionless ratios) or L3 (SI readout routes), but the cascade also records unresolved mapping and unit-context review status.
 
 ## Three kinds of prediction — honest a-priori accounting
 

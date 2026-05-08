@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -17,9 +18,42 @@ from typing import Any
 SITE_ROOT = Path(__file__).resolve().parents[1]
 ORG_ROOT = SITE_ROOT.parent
 CORPUS_EXPORTS = Path(os.environ.get("CORPUS_EXPORTS_DIR", ORG_ROOT / "corpus" / "exports" / "public"))
+PUBLICATIONS_CATALOG = Path(
+    os.environ.get("PUBLICATIONS_CATALOG_PATH", ORG_ROOT / "publications" / "catalog" / "publications.json")
+)
 TAULIB_PROJECTION_PIN = "cb5e83015b54dd72eba560953fe2461820078757"
 STALE_TAULIB_SOURCE_PINS = (
     "37c12411e76f4bb89f7bc463d1443eecc0bd9afe",
+)
+ANCHOR_ROUTE_IDS = ("c001", "wp001", "wp002", "wp003", "wp004", "wp005")
+LEGACY_WHITE_PAPER_IDS = ("lwp001", "lwp002", "lwp003", "lwp004", "lwp005")
+PUBLICATION_OVERLAY_IDS = set(ANCHOR_ROUTE_IDS + LEGACY_WHITE_PAPER_IDS)
+ANCHOR_PUBLICATION_KEYS = {
+    "c001": "charter_essays.standing_in_the_inquiry_of_being",
+    "wp001": "anchor_documents.panta_rhei_research_program_executive_overview",
+    "wp002": "anchor_documents.t_theory_executive_synopsis",
+    "wp003": "anchor_documents.taulib_technical_overview",
+    "wp004": "anchor_documents.public_research_observatory_blueprint",
+    "wp005": "anchor_documents.global_public_good_impact_overview",
+}
+LEGACY_PUBLICATION_KEYS = {
+    "lwp001": "legacy_white_papers.taulib_self_contained_lean4_library",
+    "lwp002": "legacy_white_papers.building_public_research_observatory",
+    "lwp003": "legacy_white_papers.inspection_architecture_high_scope_open_research",
+    "lwp004": "legacy_white_papers.shape_of_a_theory_of_reality",
+    "lwp005": "legacy_white_papers.panta_rhei_executive_overview",
+}
+PUBLICATION_CSV_FIELDS = (
+    "publication_id",
+    "publication_key",
+    "type",
+    "status",
+    "artifact_availability",
+    "release_date",
+    "title",
+    "canonical_url",
+    "website_url",
+    "short_url",
 )
 
 
@@ -293,6 +327,12 @@ def domain_counts(items: list[dict[str, Any]]) -> dict[str, int]:
         domain = item.get("domain_slug", "")
         counts[domain] = counts.get(domain, 0) + 1
     return counts
+
+
+def recovery_result_path(item: dict[str, Any]) -> str:
+    domain = str(item.get("domain_slug") or item.get("domain") or "recovery").replace("_", "-")
+    slug = str(item.get("slug") or item.get("id") or "item").lower().replace("_", "-")
+    return f"/results/recovery-target-status/{domain}/{slug}/"
 
 
 def title_from_url(url: str) -> str:
@@ -896,7 +936,11 @@ def sync_publication_metadata() -> None:
         "bibliography-summary.yml": "bibliography_summary.yml",
     }
     for source_name, target_name in corpus_data_targets.items():
-        copy_file(CORPUS_EXPORTS / source_name, SITE_ROOT / "_data" / "corpus" / target_name)
+        source = CORPUS_EXPORTS / source_name
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "corpus" / target_name)
+        else:
+            print(f"skipped missing Corpus publication export: {source}")
 
     asset_names = (
         "publications.json",
@@ -914,6 +958,297 @@ def sync_publication_metadata() -> None:
         source = CORPUS_EXPORTS / filename
         if source.exists():
             copy_file(source, SITE_ROOT / "assets" / "data" / "publications" / filename)
+        else:
+            print(f"skipped missing Corpus publication asset export: {source}")
+    overlay_anchor_publication_metadata()
+
+
+def load_anchor_document_index() -> dict[str, dict[str, Any]]:
+    path = SITE_ROOT / "_data" / "publications" / "anchor_documents.yml"
+    if not path.exists():
+        return {}
+    import yaml
+
+    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return {
+        str(item.get("id")): item
+        for item in payload.get("documents", [])
+        if isinstance(item, dict) and item.get("id")
+    }
+
+
+def load_catalog_overlay_records() -> dict[str, dict[str, Any]]:
+    if not PUBLICATIONS_CATALOG.exists():
+        print(f"skipped Anchor Canon publication overlay; missing {PUBLICATIONS_CATALOG}")
+        return {}
+    payload = json.loads(PUBLICATIONS_CATALOG.read_text(encoding="utf-8"))
+    rows = payload.get("publications", [])
+    if not isinstance(rows, list):
+        raise SystemExit(f"Invalid publications catalog payload: {PUBLICATIONS_CATALOG}")
+    return {
+        str(row.get("publication_id")): row
+        for row in rows
+        if isinstance(row, dict) and str(row.get("publication_id")) in PUBLICATION_OVERLAY_IDS
+    }
+
+
+def catalog_pdf_url(row: dict[str, Any]) -> str:
+    pdf = str(row.get("pdf") or "")
+    if not pdf:
+        return ""
+    github_path = str(row.get("github_path") or "")
+    if github_path.startswith("anchor-documents/"):
+        return f"https://panta-rhei.site/assets/pdfs/anchor-documents/{pdf}"
+    return f"https://panta-rhei.site/assets/pdfs/white-papers/{pdf}"
+
+
+def catalog_site_pdf_path(row: dict[str, Any]) -> str:
+    pdf_url = catalog_pdf_url(row)
+    return pdf_url.replace("https://panta-rhei.site/", "") if pdf_url else ""
+
+
+def publication_overlay_record(
+    row: dict[str, Any],
+    anchor_docs: dict[str, dict[str, Any]],
+    existing_records: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    publication_id = str(row.get("publication_id"))
+    existing = existing_records.get(publication_id) or existing_records.get(
+        str(row.get("publication_key"))
+    )
+    anchor_doc = anchor_docs.get(publication_id, {})
+    title = str(row.get("title") or anchor_doc.get("title") or publication_id)
+    summary = str(anchor_doc.get("summary") or "")
+    if not summary and existing:
+        summary = str(existing.get("summary_short") or existing.get("abstract") or "")
+    if not summary:
+        if publication_id.startswith("lwp"):
+            summary = (
+                "Superseded legacy white-paper artifact retained as part of the public "
+                "publication record. Canonical short-route ownership now belongs to the "
+                "Anchor Document Canon."
+            )
+        else:
+            summary = f"{title} in the Anchor Document Canon."
+
+    type_name = str(row.get("type") or "")
+    type_label = str(row.get("publication_type") or type_name.replace("_", " ").title())
+    status = str(row.get("status") or "")
+    availability = str(row.get("artifact_availability") or "")
+    pdf = str(row.get("pdf") or "")
+    pdf_url = catalog_pdf_url(row)
+    source_website_asset_path = (
+        f"site/{catalog_site_pdf_path(row)}" if pdf_url else ""
+    )
+    claim_boundary = {
+        "claim": (
+            f"{type_label} artifact in the Anchor Document Canon."
+            if publication_id in ANCHOR_ROUTE_IDS
+            else "Superseded legacy white-paper artifact retained for archive continuity."
+        ),
+        "non_claim": (
+            "This boundary does not certify correctness, peer review, external acceptance, "
+            "empirical adequacy, legal ownership, DOI registration, deployment readiness, "
+            "product availability, policy adoption, or achieved impact."
+        ),
+    }
+    if anchor_doc:
+        claim_boundary["claim"] = (
+            "Citable offline route into the public observatory. It routes readers back "
+            "to the live website and does not replace the owning inspection surfaces."
+        )
+    if existing and existing.get("claim_boundary") and publication_id.startswith("lwp"):
+        claim_boundary = existing["claim_boundary"]
+
+    return {
+        "publication_id": publication_id,
+        "publication_key": str(row.get("publication_key") or ""),
+        "type": type_name,
+        "type_label": type_label,
+        "publication_role": str(row.get("publication_role") or ""),
+        "status": status,
+        "artifact_availability": availability,
+        "route_status": str(row.get("route_status") or ""),
+        "release_date": str(row.get("date") or ""),
+        "version": str(row.get("version") or ""),
+        "title": title,
+        "subtitle": str(anchor_doc.get("subtitle") or ""),
+        "short_title": title,
+        "authors": [
+            {"person_key": "thorsten_fuchs", "name": "Thorsten Fuchs"},
+            {"person_key": "anna_sophie_fuchs", "name": "Anna-Sophie Fuchs"},
+        ],
+        "abstract": summary,
+        "summary_short": summary,
+        "site_role": "",
+        "claim_boundary": claim_boundary,
+        "canonical_url": str(row.get("canonical_url") or ""),
+        "website_url": str(row.get("website_url") or row.get("canonical_url") or ""),
+        "short_url": str(row.get("short_url") or ""),
+        "slug": str(row.get("id") or ""),
+        "github_path": str(row.get("github_path") or ""),
+        "files": {
+            "pdf_filename": pdf,
+            "pdf_url": pdf_url,
+            "pdf_path_site": catalog_site_pdf_path(row),
+            "pdf_path_publications_repo": (
+                f"{row.get('github_path')}/{pdf}" if row.get("github_path") and pdf else ""
+            ),
+            "source_website_asset_path": source_website_asset_path,
+        },
+        "identifiers": {
+            "doi": str(row.get("doi") or ""),
+            "doi_url": str(row.get("doi_url") or ""),
+            "zenodo_url": "",
+            "isbn_13": "",
+            "asin": "",
+        },
+        "external_links": [],
+        "relations": {
+            "related_lanes": (
+                ["publications", "corpus", "verify"]
+                if publication_id == "wp003"
+                else ["publications", "program", "agenda", "corpus", "results", "verify", "impact", "engage"]
+                if publication_id == "wp004"
+                else ["publications", "program", "verify"]
+            ),
+            "related_routes": [str(row.get("canonical_url") or "")],
+            "related_books": [],
+            "related_hinges": [],
+            "related_registry_objects": [],
+            "related_results": [],
+            "related_challenges": [],
+            "related_taulib_modules": [],
+            "related_bibliography_entries": [],
+        },
+        "citation": {"preferred": "", "bibtex_key": ""},
+        "scholar": {
+            "include_meta_tags": status == "released",
+            "citation_title": title,
+            "citation_author": ["Thorsten Fuchs", "Anna-Sophie Fuchs"],
+            "citation_publication_date": str(row.get("date") or "").replace("-", "/"),
+            "citation_pdf_url": pdf_url,
+            "citation_doi": str(row.get("doi") or ""),
+            "citation_technical_report_institution": "Panta Rhei Research Program",
+        },
+        "integrity": {
+            "bytes": int(row.get("bytes") or 0),
+            "sha256": str(row.get("sha256") or ""),
+            "sha512": str(row.get("sha512") or ""),
+            "ots_status": str(row.get("ots_status") or "not_applicable"),
+        },
+        "metadata_sources": {
+            "publications_catalog": "publications/catalog/publications.json",
+            "publications_manifest": (
+                f"publications/{row.get('github_path')}/manifest.json"
+                if row.get("github_path")
+                else ""
+            ),
+            "site_research_papers": "",
+        },
+        "metadata_pending": False,
+        "generated_from": "publications/catalog/publications.json",
+        "projection_version": "anchor-canon-v1.0-overlay",
+        "canonical_source": "publications/catalog",
+        "do_not_edit": True,
+    }
+
+
+def apply_publication_overlay(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    catalog_rows = load_catalog_overlay_records()
+    if not catalog_rows:
+        return records
+    anchor_docs = load_anchor_document_index()
+    existing_records: dict[str, dict[str, Any]] = {}
+    for record in records:
+        existing_records[str(record.get("publication_id"))] = record
+        existing_records[str(record.get("publication_key"))] = record
+
+    overlay_ids = [*ANCHOR_ROUTE_IDS, *LEGACY_WHITE_PAPER_IDS]
+    overlay_records = [
+        publication_overlay_record(catalog_rows[publication_id], anchor_docs, existing_records)
+        for publication_id in overlay_ids
+        if publication_id in catalog_rows
+    ]
+    replaced_keys = {
+        *ANCHOR_PUBLICATION_KEYS.values(),
+        *LEGACY_PUBLICATION_KEYS.values(),
+    }
+    remainder = [
+        record
+        for record in records
+        if str(record.get("publication_id")) not in PUBLICATION_OVERLAY_IDS
+        and str(record.get("publication_key")) not in replaced_keys
+    ]
+    return [*overlay_records, *remainder]
+
+
+def write_publication_json(path: Path, records: list[dict[str, Any]]) -> None:
+    path.write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"overlaid {path.relative_to(SITE_ROOT)}")
+
+
+def write_publication_ndjson(path: Path, records: list[dict[str, Any]]) -> None:
+    body = "\n".join(json.dumps(record, ensure_ascii=False) for record in records)
+    path.write_text(body + "\n", encoding="utf-8")
+    print(f"overlaid {path.relative_to(SITE_ROOT)}")
+
+
+def write_publication_csv(path: Path, records: list[dict[str, Any]]) -> None:
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(
+            handle, fieldnames=PUBLICATION_CSV_FIELDS, lineterminator="\n"
+        )
+        writer.writeheader()
+        for record in records:
+            writer.writerow({key: record.get(key, "") for key in PUBLICATION_CSV_FIELDS})
+    print(f"overlaid {path.relative_to(SITE_ROOT)}")
+
+
+def write_publication_yml(path: Path, records: list[dict[str, Any]]) -> None:
+    import yaml
+
+    path.write_text(
+        yaml.safe_dump({"publications": records}, sort_keys=False, allow_unicode=True),
+        encoding="utf-8",
+    )
+    print(f"overlaid {path.relative_to(SITE_ROOT)}")
+
+
+def overlay_anchor_publication_metadata() -> None:
+    json_path = SITE_ROOT / "assets" / "data" / "publications" / "publications.json"
+    latest_json_path = SITE_ROOT / "assets" / "data" / "publications" / "latest-publications.json"
+    if not json_path.exists() or not latest_json_path.exists():
+        return
+    publication_records = json.loads(json_path.read_text(encoding="utf-8"))
+    latest_records = json.loads(latest_json_path.read_text(encoding="utf-8"))
+    publication_records = apply_publication_overlay(publication_records)
+    latest_records = apply_publication_overlay(latest_records)
+
+    write_publication_json(json_path, publication_records)
+    write_publication_ndjson(
+        SITE_ROOT / "assets" / "data" / "publications" / "publications.ndjson",
+        publication_records,
+    )
+    write_publication_csv(
+        SITE_ROOT / "assets" / "data" / "publications" / "publications.csv",
+        publication_records,
+    )
+    write_publication_yml(SITE_ROOT / "_data" / "corpus" / "publications.yml", publication_records)
+
+    write_publication_json(latest_json_path, latest_records)
+    write_publication_ndjson(
+        SITE_ROOT / "assets" / "data" / "publications" / "latest-publications.ndjson",
+        latest_records,
+    )
+    write_publication_csv(
+        SITE_ROOT / "assets" / "data" / "publications" / "latest-publications.csv",
+        latest_records,
+    )
+    write_publication_yml(
+        SITE_ROOT / "_data" / "corpus" / "latest_publications.yml",
+        latest_records,
+    )
 
 
 def load_json_mapping(path: Path) -> dict[str, Any]:

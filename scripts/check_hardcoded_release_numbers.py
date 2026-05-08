@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail on current release metrics that bypass the Atlas manifest.
+"""Fail on current release metrics that bypass the Corpus release manifest.
 
 This is intentionally conservative and source-oriented. It scans public prose
 and templates for release-changing count phrases that should be rendered via
@@ -8,9 +8,12 @@ and templates for release-changing count phrases that should be rendered via
 
 from __future__ import annotations
 
+import os
+import json
 import re
 import sys
 from pathlib import Path
+from typing import Any
 
 
 README_START = "<!-- release-metrics:start -->"
@@ -23,9 +26,12 @@ SKIP_PARTS = {
     "node_modules",
     "vendor",
     "assets",
+    "_data",
     "_data/release",
     "_data/registry/release_manifest_sections.yml",
     "corpus/taulib/docs",
+    "_taulib_docs",
+    "_bibliography",
 }
 
 
@@ -62,19 +68,75 @@ def strip_generated_blocks(text: str) -> str:
     return pattern.sub("", text)
 
 
+def load_manifest_metrics(root: Path) -> list[dict[str, Any]]:
+    path = root / "_data/release/current.json"
+    if not path.exists():
+        return []
+    with path.open("r", encoding="utf-8") as handle:
+        data = json.load(handle)
+    return list(data.get("metrics", []))
+
+
+def dynamic_manifest_patterns(root: Path) -> list[tuple[re.Pattern[str], str]]:
+    patterns: list[tuple[re.Pattern[str], str]] = []
+    for metric in load_manifest_metrics(root):
+        display = str(metric.get("display_value", "")).strip()
+        unit = str(metric.get("unit", "")).strip()
+        if not display or not unit:
+            continue
+        if unit in {"records", "items", "steps", "entries", "plates", "mentions"} and display in {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"}:
+            continue
+        number_forms = {display}
+        if "," in display:
+            number_forms.add(display.replace(",", ""))
+        unit_pattern = re.escape(unit).replace(r"\ ", r"\s+")
+        for number in sorted(number_forms):
+            patterns.append((
+                re.compile(rf"\b{re.escape(number)}\s+{unit_pattern}\b", re.I),
+                f"hardcoded manifest metric {metric.get('id', '<unknown>')}",
+            ))
+    return patterns
+
+
 def should_skip(path: Path, root: Path) -> bool:
     rel = path.relative_to(root).as_posix()
     return any(part in rel for part in SKIP_PARTS)
 
 
+def iter_check_files(root: Path):
+    for directory, dirnames, filenames in os.walk(root):
+        dir_path = Path(directory)
+        dirnames[:] = [
+            name for name in dirnames
+            if not should_skip(dir_path / name, root)
+        ]
+        for filename in filenames:
+            path = dir_path / filename
+            if path.suffix in CHECK_SUFFIXES and not should_skip(path, root):
+                yield path
+
+
+def is_generated_or_historical(path: Path, root: Path, text: str) -> bool:
+    rel = path.relative_to(root).as_posix()
+    if rel.startswith(("_changelog/", "publications/archived/")):
+        return True
+    if rel.startswith(("registry/object/", "corpus/monographs/")):
+        return True
+    frontmatter = text.split("---", 2)
+    if len(frontmatter) >= 3 and "do_not_edit: true" in frontmatter[1]:
+        return True
+    return False
+
+
 def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
     failures: list[str] = []
-    for path in sorted(root.rglob("*")):
-        if not path.is_file() or path.suffix not in CHECK_SUFFIXES or should_skip(path, root):
-            continue
+    manifest_patterns = dynamic_manifest_patterns(root)
+    for path in sorted(iter_check_files(root)):
         text = strip_generated_blocks(path.read_text(encoding="utf-8", errors="ignore"))
-        for pattern, label in FORBIDDEN:
+        if is_generated_or_historical(path, root, text):
+            continue
+        for pattern, label in FORBIDDEN + manifest_patterns:
             for match in pattern.finditer(text):
                 line = text.count("\n", 0, match.start()) + 1
                 rel = path.relative_to(root)

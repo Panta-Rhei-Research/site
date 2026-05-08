@@ -19,6 +19,8 @@ The Numerical Prediction Catalogue compiles **{% include release-metric.html id=
 
 <div class="notice note"><strong>The cascade.</strong> The numerical prediction catalogue lists the physics predictions. The <a href="{{ '/results/calibration-cascade/' | relative_url }}">Calibration Cascade</a> shows the dependency structure connecting the master constant, dimensional anchor, coupling readouts, mass-ratio chain, constants-ledger table, and verification comparisons.</div>
 
+{% include sequence-flow.html id="calibration_cascade" %}
+
 ## Precision tiers
 
 Predictions carry Corpus Wave 2 metadata along two separate axes:

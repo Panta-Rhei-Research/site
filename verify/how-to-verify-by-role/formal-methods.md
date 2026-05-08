@@ -46,7 +46,7 @@ lake build                      # Expect: 0 errors, ~8–12 min on 8-core laptop
 
 # 4. Audit sorry inventory
 rg "^\s*sorry\s*$" TauLib --stats
-# Expect: 0 matches across all 7 books
+# Expect: {% include release-metric.html id="taulib.sorry" %} matches across all {% include release-metric.html id="publications.books" %} books
 
 # 5. Audit custom axiom inventory
 rg "^axiom " TauLib --stats
@@ -104,7 +104,7 @@ Any one of these is disqualifying.
 Your audit is **positive** (the framework has passed the formal-methods gate) if:
 
 - `lake build` is green at the pinned commit.
-- `rg "sorry"` returns 0 matches across all 7 books (post `peer-review-fixes-v1`; the prior three Book VII methodological `sorry` declarations are now `def : Commitment` values).
+- `rg "sorry"` returns {% include release-metric.html id="taulib.sorry" %} matches across all {% include release-metric.html id="publications.books" %} books (post `peer-review-fixes-v1`; the prior three Book VII methodological `sorry` declarations are now `def : Commitment` values).
 - `rg "^axiom"` returns exactly 3 custom declarations, all in Book III and each documented in the TauLib browser.
 - `#print axioms` on three randomly-chosen "formalized" registry entries returns only declared framework axioms plus standard Mathlib base axioms (`Classical.choice`, `propext`, `Quot.sound`) plus, where `native_decide` is used, the TCB extension (`Lean.ofReduceBool`, `Lean.trustCompiler`) disclosed on [TCB Disclosure]({{ '/verify/tcb/' | relative_url }}).
 - The three headline theorems read as genuine mathematical content rather than definitional rearrangements.

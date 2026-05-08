@@ -228,7 +228,7 @@ Each block below is ready to paste into the platform's "About" / "Bio" / "Headli
   Dr. Thorsten Fuchs is the founder of the Panta Rhei Research Program and principal author of its seven-book monograph series (Categorical Foundations · Holomorphy · Spectrum · Microcosm · Macrocosm · Life · Metaphysics). He studied pure mathematics before spending many years in technology leadership at McKinsey & Company and Microsoft Germany, then returned to the foundational question — what if reality is more deeply coherent than it first appears? He leads the formal and architectural side of Panta Rhei: the categorical kernel, the proofs, the inter-book structure, the Lean 4 formalization through TauLib, and the research architecture that binds the project's different surfaces into one coherent whole. He lives in Munich with his co-founder Anna-Sophie Fuchs. The work is published in full at panta-rhei.site.
   ```
 - **Profile photo**: professional headshot (same as LinkedIn / X)
-- **Add all 7 books** to the series if not already listed
+- **Add all {% include release-metric.html id="publications.books" %} books** to the series if not already listed
 
 ### Amazon Author Page — Anna-Sophie (B0GGHJMR5Y) *(DRAFT for AS review)*
 
@@ -237,7 +237,7 @@ Each block below is ready to paste into the platform's "About" / "Bio" / "Headli
   Anna-Sophie Fuchs is co-founder of the Panta Rhei Research Program and co-author of its seven-book monograph series. She trained as an underwater archaeologist — a discipline that taught her to excavate layered structures patiently, document fragile connections, and reconstruct wholes from buried fragments. Those habits transferred unexpectedly well into a long-form research architecture. In Panta Rhei, she brings structural mapping, editorial discipline, and the human questions that keep the project oriented toward lived reality. She lives in Munich with her co-founder Thorsten Fuchs. The work is published in full at panta-rhei.site.
   ```
 - **Profile photo**: Anna-Sophie's own choice — headshot or archaeological-field photo both work
-- **Add all 7 books** to the series
+- **Add all {% include release-metric.html id="publications.books" %} books** to the series
 
 ### ORCID — orcid.org/0009-0007-0718-1042 (Thor)
 
