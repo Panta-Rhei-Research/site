@@ -17,9 +17,11 @@ tags:
   - inquiry-of-being
   - tau-theory
 hero_ctas:
+  - label: "Download C001 PDF"
+    url: /assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf
+    primary: true
   - label: "Categorical Ontology"
     url: /program/about/categorical-ontology/
-    primary: true
   - label: "Related Approaches"
     url: /program/about/related-approaches/
   - label: "Coherent Theory"
@@ -32,6 +34,10 @@ right_rail:
   related:
     - title: "Categorical Ontology"
       url: /program/about/categorical-ontology/
+    - title: "C001 Anchor Document"
+      url: /publications/anchor-documents/c001-standing-in-the-inquiry-of-being/
+    - title: "Download C001 PDF"
+      url: /assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf
     - title: "Coherent Theory of Reality"
       url: /program/about/coherent-theory-of-reality/
     - title: "Inspection Observatory"
@@ -53,6 +59,15 @@ right_rail:
 *Lineages of Categorical Ontology*
 
 > Source note: this page adapts the Corpus source packet `corpus/core/standing-in-the-inquiry-of-being/` for the public Program lane. The historical lineage orients the inquiry; it does not validate τ-Theory.
+
+<div class="notice note">
+  <strong>Canonical artifact.</strong>
+  This charter essay is released as Anchor Document <code>C001</code>,
+  canonical v1.0. The website page remains the live canonical reading surface;
+  the PDF is the citable offline artifact.
+  <a href="{{ '/assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf' | relative_url }}">Download the PDF</a>
+  or inspect the <a href="{{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}">publication record</a>.
+</div>
 
 ## I. Inquiry Before Doctrine
 

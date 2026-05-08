@@ -447,6 +447,8 @@ lane_nav:
             url: "/publications/"
           - title: "Latest Publications"
             url: "/publications/latest/"
+          - title: "Anchor Documents"
+            url: "/publications/anchor-documents/"
           - title: "Research Monographs"
             url: "/publications/research-monographs/"
           - title: "Monograph Supplements"
