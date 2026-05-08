@@ -329,6 +329,12 @@ def domain_counts(items: list[dict[str, Any]]) -> dict[str, int]:
     return counts
 
 
+def recovery_result_path(item: dict[str, Any]) -> str:
+    domain = str(item.get("domain_slug") or item.get("domain") or "recovery").replace("_", "-")
+    slug = str(item.get("slug") or item.get("id") or "item").lower().replace("_", "-")
+    return f"/results/recovery-target-status/{domain}/{slug}/"
+
+
 def title_from_url(url: str) -> str:
     stripped = url.strip("/")
     if not stripped:
@@ -930,7 +936,11 @@ def sync_publication_metadata() -> None:
         "bibliography-summary.yml": "bibliography_summary.yml",
     }
     for source_name, target_name in corpus_data_targets.items():
-        copy_file(CORPUS_EXPORTS / source_name, SITE_ROOT / "_data" / "corpus" / target_name)
+        source = CORPUS_EXPORTS / source_name
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "corpus" / target_name)
+        else:
+            print(f"skipped missing Corpus publication export: {source}")
 
     asset_names = (
         "publications.json",
@@ -948,6 +958,8 @@ def sync_publication_metadata() -> None:
         source = CORPUS_EXPORTS / filename
         if source.exists():
             copy_file(source, SITE_ROOT / "assets" / "data" / "publications" / filename)
+        else:
+            print(f"skipped missing Corpus publication asset export: {source}")
     overlay_anchor_publication_metadata()
 
 
@@ -1096,6 +1108,8 @@ def publication_overlay_record(
             "related_lanes": (
                 ["publications", "corpus", "verify"]
                 if publication_id == "wp003"
+                else ["publications", "program", "agenda", "corpus", "results", "verify", "impact", "engage"]
+                if publication_id == "wp004"
                 else ["publications", "program", "verify"]
             ),
             "related_routes": [str(row.get("canonical_url") or "")],
