@@ -322,6 +322,8 @@ lane_nav:
         links:
           - title: "Numerical Predictions"
             url: "/results/predictions/"
+          - title: "Calibration Cascade"
+            url: "/results/calibration-cascade/"
           - title: "Falsification Pack"
             url: "/results/falsifications/"
           - title: "Prediction Timing"

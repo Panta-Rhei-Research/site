@@ -38,6 +38,10 @@ right_rail:
 {% assign unit_contexts = site.data.corpus.calibration.unit_contexts.unit_contexts %}
 {% assign source_chapters = site.data.corpus.calibration.source_chapters.source_chapters %}
 {% assign index = site.data.corpus.calibration.index.calibration %}
+{% assign established_constants = constants | where: "scope_label", "Established" %}
+{% assign tau_constants = constants | where: "scope_label", "Tau-effective" %}
+{% assign conjectural_constants = constants | where: "scope_label", "Conjectural" %}
+{% assign structural_constants = constants | where: "scope_label", "Metaphorical / structural reading" %}
 
 <div class="calibration-badge-row" aria-label="Calibration Cascade status">
   <span class="chip">Results Overlay</span>
@@ -96,16 +100,17 @@ right_rail:
   </article>
 </div>
 
-<nav class="calibration-inspection-nav" aria-label="Inspect Calibration Cascade sections">
-  <a href="#mass-ratio-chain">Mass-Ratio Chain</a>
-  <a href="#coupling-ledger">Coupling Ledger</a>
-  <a href="#g-alpha-bridge">G-alpha Bridge</a>
-  <a href="#constants-ledger">Constants Ledger</a>
-  <a href="#verification-comparisons">Verification Comparisons</a>
-  <a href="#source-chapters">Source Chapters</a>
+<nav class="calibration-inspection-nav" aria-label="Follow the cascade">
+  <span>Follow the cascade:</span>
+  <a href="#inputs">1. Inputs</a>
+  <a href="#coupling-ledger">2. Couplings</a>
+  <a href="#mass-ratio-chain">3. Mass-Ratio Chain</a>
+  <a href="#g-alpha-bridge">4. G-alpha Bridge</a>
+  <a href="#constants-ledger">5. Constants Ledger</a>
+  <a href="#verification-comparisons">6. Verification Comparisons</a>
 </nav>
 
-## Inputs
+## Inputs {#inputs}
 
 <div class="calibration-input-grid">
   {% for input in cascade.inputs %}
@@ -141,7 +146,9 @@ right_rail:
   {% endfor %}
 </div>
 
-## Cascade Diagram
+## Cascade overview
+
+<p>The diagram below is not a generic graph explorer. It is a directed acyclic dependency view. Arrows indicate dependency flow from algebraic inputs through dimensionless readouts, dimensional anchoring, SI expression, and verification comparison.</p>
 
 <section class="calibration-dag" aria-label="Layer-banded Calibration Cascade diagram">
   <div class="calibration-dag-layers">
@@ -191,9 +198,74 @@ right_rail:
   <span class="chip">Pending unit-context review</span>
 </div>
 
+<span id="key-nodes"></span>
+
+## Key cascade nodes
+
+<div class="calibration-key-node-grid">
+  {% for node in nodes %}
+  {% if node.display.show_in_overview %}
+  <a class="calibration-key-node-card" href="#{{ node.display.detail_anchor }}" id="key-node-{{ node.id }}">
+    <span class="eyebrow">{{ node.layer }} · {{ node.scope_label }}</span>
+    <strong>{{ node.display.card_title }}</strong>
+    <code>{{ node.display.collapsed_formula }}</code>
+    <span>{{ node.display.collapsed_summary }}</span>
+    {% if node.display.primary_dependencies.size > 0 %}
+    <small>Depends on: {{ node.display.primary_dependencies | join: ", " }}</small>
+    {% else %}
+    <small>Privileged input</small>
+    {% endif %}
+  </a>
+  {% endif %}
+  {% endfor %}
+  {% assign key_constant_ids = "CL-23|CL-17|CL-18|CL-19" | split: "|" %}
+  {% for constant_id in key_constant_ids %}
+  {% assign item = constants | where: "id", constant_id | first %}
+  {% if item %}
+  {% assign unit_context = unit_contexts | where: "id", item.unit_context | first %}
+  <a class="calibration-key-node-card" href="#node-constant-{{ item.id | downcase }}" id="key-node-{{ item.id | downcase }}">
+    <span class="eyebrow">{{ item.layer }} · {{ item.scope_label | replace: "Metaphorical / structural reading", "Metaphorical / structural" }}</span>
+    <strong>{{ item.symbol }}</strong>
+    <code>{{ item.formula }}</code>
+    <span>{{ item.quantity }}</span>
+    <small>{{ unit_context.label | default: item.unit_context }}</small>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
+
+## Dependency edge table {#dependency-edge-table}
+
+<p>This machine-readable dependency view preserves the edge list behind the overview. Acyclicity checks apply to dependency edges only; related prediction and falsification surfaces remain outside the dependency DAG.</p>
+
+<div class="calibration-table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">From</th>
+        <th scope="col">Relation</th>
+        <th scope="col">To</th>
+        <th scope="col">Edge type</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for edge in edges %}
+      {% assign source_node = nodes | where: "id", edge.source | first %}
+      {% assign target_node = nodes | where: "id", edge.target | first %}
+      <tr>
+        <th scope="row"><a href="#node-{{ edge.source }}">{{ source_node.display.short_label | default: edge.source }}</a></th>
+        <td><code>{{ edge.relation }}</code></td>
+        <td><a href="#node-{{ edge.target }}">{{ target_node.display.short_label | default: edge.target }}</a></td>
+        <td>{{ edge.edge_type | replace: "_", " " }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
 ## Mass-Ratio Chain
 
-<p>The Mass-Ratio Chain is the most concrete finite derivation path on this page. It remains readable as a numbered sequence with every detail panel collapsed.</p>
+<p>The mass-ratio chain is the clearest finite derivation path in the cascade. It shows how the neutron-to-electron mass ratio is built through a ten-link route from the τ³ fibration, torus spectral data, lemniscate capacity, and holonomy correction.</p>
 
 <ol class="calibration-card-list">
   {% for item in mass_links %}
@@ -255,21 +327,47 @@ right_rail:
 
 ## G-Alpha Bridge
 
-<details class="calibration-inspector-card" id="node-g-alpha-bridge" open>
+<div class="calibration-card-list" id="g-alpha-bridge-cards">
+<details class="calibration-inspector-card" id="node-g-alpha-identity" open>
   <summary>
     <span class="calibration-summary-main">
-      <strong>{{ bridge.title }}</strong>
+      <strong>Dimensionless identity</strong>
       <code>{{ bridge.dimensionless_identity }}</code>
     </span>
     <span class="calibration-summary-meta">
       <span class="chip">{{ bridge.status | replace: "_", " " }}</span>
+      <span class="chip">dimensionless identity</span>
+    </span>
+  </summary>
+  <div class="calibration-detail-body">
+    <p>{{ bridge.title }} keeps the dimensionless identity separate from the SI readout formula.</p>
+  </div>
+</details>
+<details class="calibration-inspector-card" id="node-g-alpha-si-readout" open>
+  <summary>
+    <span class="calibration-summary-main">
+      <strong>SI readout formula</strong>
+      <code>{{ bridge.g_readout_formula }}</code>
+    </span>
+    <span class="calibration-summary-meta">
       <span class="chip">{{ bridge.unit_context | replace: "_", " " }}</span>
     </span>
   </summary>
   <div class="calibration-detail-body">
-    <p><strong>Dimensionless identity:</strong> <code>{{ bridge.dimensionless_identity }}</code></p>
-    <p><strong>G readout formula:</strong> <code>{{ bridge.g_readout_formula }}</code></p>
-    <p><strong>Unit context:</strong> <code>{{ bridge.unit_context }}</code></p>
+    <p><strong>Dimensionless identity ≠ SI readout formula.</strong> The readout formula is rendered only with the explicit unit context shown here.</p>
+  </div>
+</details>
+<details class="calibration-inspector-card" id="node-g-alpha-bridge" open>
+  <summary>
+    <span class="calibration-summary-main">
+      <strong>Unit context and pending alternatives</strong>
+      <code>{{ bridge.unit_context }}</code>
+    </span>
+    <span class="calibration-summary-meta">
+      <span class="chip">review boundary</span>
+    </span>
+  </summary>
+  <div class="calibration-detail-body">
     <ul>
       {% for limitation in bridge.limitations %}
       <li>{{ limitation }}</li>
@@ -277,14 +375,47 @@ right_rail:
     </ul>
   </div>
 </details>
+</div>
 
 ## Constants Ledger
 
-<p>The constants ledger table records source outputs. It does not decide, by itself, whether a dependency path is formally verified or externally accepted.</p>
+<p>The constants ledger is a table of cascade outputs. Its rows should be read with their scope labels, unit context, and source vintage. The table does not by itself establish external acceptance.</p>
 
 <p>Notation guardrail: the Bohr radius is rendered as <code>a_B</code> with the alias <code>a_0^{Bohr}</code> where needed, so it is not confused with acceleration-scale notation elsewhere in the physics pages.</p>
 
-<ol class="calibration-card-list">
+<div class="calibration-scope-groups" aria-label="Constants Ledger by scope">
+  {% assign scope_sets = "Established|Tau-effective|Conjectural|Metaphorical / structural reading" | split: "|" %}
+  {% for scope_name in scope_sets %}
+  {% assign scoped_constants = constants | where: "scope_label", scope_name %}
+  <details class="calibration-inspector-card" id="constant-scope-{{ scope_name | slugify }}" {% if forloop.first %}open{% endif %}>
+    <summary>
+      <span class="calibration-summary-main">
+        <strong>{{ scope_name | replace: "Metaphorical / structural reading", "Metaphorical / structural" }}</strong>
+        <span>{{ scoped_constants | size }} constants-ledger entries</span>
+      </span>
+      <span class="calibration-summary-meta">
+        <span class="chip">scope group</span>
+      </span>
+    </summary>
+    <div class="calibration-detail-body">
+      <ol class="calibration-card-list calibration-card-list--compact">
+        {% for item in scoped_constants %}
+        {% assign unit_context = unit_contexts | where: "id", item.unit_context | first %}
+        <li>
+          <a class="calibration-compact-row" href="#node-constant-{{ item.id | downcase }}">
+            <strong>{{ item.sequence }}. <code>{{ item.symbol }}</code> · {{ item.quantity }}</strong>
+            <span><code>{{ item.formula }}</code></span>
+            <small>{{ unit_context.label | default: item.unit_context }} · {{ item.deviation }}</small>
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </details>
+  {% endfor %}
+</div>
+
+<ol class="calibration-card-list" aria-label="Constants Ledger detail cards">
   {% for item in constants %}
   {% assign unit_context = unit_contexts | where: "id", item.unit_context | first %}
   <li>
@@ -341,7 +472,7 @@ right_rail:
 
 ## Verification Comparisons
 
-<p>These rows preserve the manuscript comparison vintage. They are not a CODATA 2022 recalculation.</p>
+<p>These comparison rows preserve the manuscript baseline. Current public reference values may be tracked separately, but they should not be silently mixed with the Book IV/V CODATA 2018 comparisons.</p>
 
 <div class="calibration-table-wrap">
   <table>
@@ -375,6 +506,37 @@ right_rail:
 </ul>
 
 ## Source Chapters
+
+<div class="calibration-card-list" aria-label="Source chapter details">
+  {% for source in source_chapters %}
+  <details class="calibration-inspector-card" id="source-{{ source.id }}">
+    <summary>
+      <span class="calibration-summary-main">
+        <strong><code>{{ source.id }}</code> · {{ source.title }}</strong>
+        <span>{{ source.role | replace: "_", " " }}</span>
+      </span>
+      <span class="calibration-summary-meta">
+        <span class="chip">{{ source.labels | size }} labels</span>
+        <span class="chip">{{ source.source_status | replace: "_", " " }}</span>
+      </span>
+    </summary>
+    <div class="calibration-detail-body">
+      <div class="calibration-detail-grid">
+        <div><strong>Source file</strong><br><code>{{ source.source_path }}</code></div>
+        <div><strong>Registry range</strong><br>{% if source.registry_comments.size > 0 %}{% for comment in source.registry_comments %}<code>{{ comment }}</code>{% unless forloop.last %}<br>{% endunless %}{% endfor %}{% else %}Pending explicit range review{% endif %}</div>
+        <div><strong>Line count</strong><br>{{ source.line_count }}</div>
+        <div><strong>SHA-256</strong><br><code>{{ source.sha256 }}</code></div>
+      </div>
+      <p><strong>Extracted labels:</strong></p>
+      <p class="calibration-label-cloud">
+        {% for label in source.labels %}
+        <code>{{ label }}</code>{% unless forloop.last %} {% endunless %}
+        {% endfor %}
+      </p>
+    </div>
+  </details>
+  {% endfor %}
+</div>
 
 <div class="calibration-table-wrap">
   <table>
