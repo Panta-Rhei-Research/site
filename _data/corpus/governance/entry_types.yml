@@ -1,0 +1,18 @@
+generated_from: corpus/data/governance/entry-types.yml
+projection_version: v0.1
+canonical_source: corpus/data/governance and corpus/data/assets
+do_not_edit: true
+entry_types:
+  metadata_correction: Metadata Correction
+  claim_boundary_clarification: Claim-Boundary Clarification
+  prior_art_addition: Prior-Art Addition
+  registry_update: Registry Update
+  result_status_change: Result-Status Change
+  proof_dependency_revision: Proof-Dependency Revision
+  bridge_boundary_revision: Bridge-Boundary Revision
+  publication_erratum: Publication Erratum
+  monograph_erratum: Monograph Erratum
+  formalization_update: Formalization Update
+  release_manifest_update: Release Manifest Update
+  claim_narrowing: Claim Narrowing
+  claim_retirement: Claim Retirement

@@ -1,0 +1,20 @@
+{
+  "generated_from": "corpus/data/assets/asset-families.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "asset_families": {
+    "scientific_plate": {
+      "label": "Scientific Plate"
+    },
+    "book_cover": {
+      "label": "Book Cover"
+    },
+    "og_image": {
+      "label": "Open Graph / Social Preview"
+    },
+    "media_asset": {
+      "label": "Media Asset"
+    }
+  }
+}

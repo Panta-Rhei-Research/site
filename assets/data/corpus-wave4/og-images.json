@@ -1,0 +1,226 @@
+{
+  "generated_from": "corpus/data/assets/og-images.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "og_images": [
+    {
+      "asset_id": "default-og-image",
+      "asset_family": "og_image",
+      "source_path": "assets/og-image.png",
+      "public_path": "/assets/og-image.png",
+      "usage_pages": [
+        "default"
+      ],
+      "license": "Panta Rhei Research public-site asset"
+    },
+    {
+      "asset_id": "brand-og-image",
+      "asset_family": "og_image",
+      "source_path": "assets/brand/og-image.png",
+      "public_path": "/assets/brand/og-image.png",
+      "usage_pages": [
+        "brand-default"
+      ],
+      "license": "Panta Rhei Research brand asset"
+    },
+    {
+      "asset_id": "plate-01-public-research-observatory-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-01-public-research-observatory-og.jpg",
+      "public_path": "/assets/images/plates/plate-01-public-research-observatory-og.jpg",
+      "usage_pages": [
+        "/",
+        "/discover/"
+      ],
+      "derived_from": "plate-01-public-research-observatory",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-02-from-obligation-to-inspection-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg",
+      "public_path": "/assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg",
+      "usage_pages": [
+        "/agenda/",
+        "/discover/"
+      ],
+      "derived_from": "plate-02-from-obligation-to-inspection",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-03-public-obligation-layer-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-03-public-obligation-layer-og.jpg",
+      "public_path": "/assets/images/plates/plate-03-public-obligation-layer-og.jpg",
+      "usage_pages": [
+        "/agenda/",
+        "/program/",
+        "/discover/"
+      ],
+      "derived_from": "plate-03-public-obligation-layer",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-04-construction-spine-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-04-construction-spine-og.jpg",
+      "public_path": "/assets/images/plates/plate-04-construction-spine-og.jpg",
+      "usage_pages": [
+        "/corpus/",
+        "/corpus/construction-spine/",
+        "/agenda/construction-roadmap/"
+      ],
+      "derived_from": "plate-04-construction-spine",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-05-results-world-readout-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-05-results-world-readout-og.jpg",
+      "public_path": "/assets/images/plates/plate-05-results-world-readout-og.jpg",
+      "usage_pages": [
+        "/results/",
+        "/results/landmark-results/",
+        "/results/world-readout/",
+        "/results/progress-against-agenda/"
+      ],
+      "derived_from": "plate-05-results-world-readout",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-06-verification-matrix-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-06-verification-matrix-og.jpg",
+      "public_path": "/assets/images/plates/plate-06-verification-matrix-og.jpg",
+      "usage_pages": [
+        "/verify/",
+        "/verify/construction-spine-verification/",
+        "/verify/taulib/",
+        "/verify/release-manifest/",
+        "/verify/predictions-and-falsification/",
+        "/verify/how-to-verify/",
+        "/verify/assessment-protocols/"
+      ],
+      "derived_from": "plate-06-verification-matrix",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-07-stable-artifact-layer-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-07-stable-artifact-layer-og.jpg",
+      "public_path": "/assets/images/plates/plate-07-stable-artifact-layer-og.jpg",
+      "usage_pages": [
+        "/publications/",
+        "/publications/research-briefings/",
+        "/publications/research-briefings/public-good/",
+        "/publications/research-notes/",
+        "/publications/monograph-supplements/",
+        "/publications/white-papers/",
+        "/publications/release-artifacts/"
+      ],
+      "derived_from": "plate-07-stable-artifact-layer",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-08-conditional-impact-strata-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-08-conditional-impact-strata-og.jpg",
+      "public_path": "/assets/images/plates/plate-08-conditional-impact-strata-og.jpg",
+      "usage_pages": [
+        "/impact/",
+        "/impact/impact-framework/",
+        "/impact/global-public-good/",
+        "/publications/research-briefings/public-good/"
+      ],
+      "derived_from": "plate-08-conditional-impact-strata",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-09-engagement-without-endorsement-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-09-engagement-without-endorsement-og.jpg",
+      "public_path": "/assets/images/plates/plate-09-engagement-without-endorsement-og.jpg",
+      "usage_pages": [
+        "/engage/",
+        "/engage/how-to-engage/",
+        "/engage/discussions/",
+        "/engage/review-the-work/",
+        "/engage/for-engineering-contributors/"
+      ],
+      "derived_from": "plate-09-engagement-without-endorsement",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-10-tau-kernel-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-10-tau-kernel-og.jpg",
+      "public_path": "/assets/images/plates/plate-10-tau-kernel-og.jpg",
+      "usage_pages": [
+        "/corpus/",
+        "/corpus/construction-spine/",
+        "/verify/taulib/"
+      ],
+      "derived_from": "plate-10-tau-kernel",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-11-four-layer-world-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-11-four-layer-world-og.jpg",
+      "public_path": "/assets/images/plates/plate-11-four-layer-world-og.jpg",
+      "usage_pages": [
+        "/results/world-readout/"
+      ],
+      "derived_from": "plate-11-four-layer-world",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-12-self-enrichment-not-reduction-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg",
+      "public_path": "/assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg",
+      "usage_pages": [
+        "/impact/foundational-science/",
+        "/agenda/kernel-model-reality/"
+      ],
+      "derived_from": "plate-12-self-enrichment-not-reduction",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-13-kernel-to-measurement-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-13-kernel-to-measurement-og.jpg",
+      "public_path": "/assets/images/plates/plate-13-kernel-to-measurement-og.jpg",
+      "usage_pages": [
+        "/verify/predictions-and-falsification/",
+        "/results/world-readout/physics/"
+      ],
+      "derived_from": "plate-13-kernel-to-measurement",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-14-ontic-closure-burden-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-14-ontic-closure-burden-og.jpg",
+      "public_path": "/assets/images/plates/plate-14-ontic-closure-burden-og.jpg",
+      "usage_pages": [
+        "/agenda/kernel-model-reality/no-externalities/"
+      ],
+      "derived_from": "plate-14-ontic-closure-burden",
+      "license": "Panta Rhei Research scientific plate asset"
+    },
+    {
+      "asset_id": "plate-15-bi-square-spine-og",
+      "asset_family": "og_image",
+      "source_path": "assets/images/plates/plate-15-bi-square-spine-og.jpg",
+      "public_path": "/assets/images/plates/plate-15-bi-square-spine-og.jpg",
+      "usage_pages": [
+        "/corpus/bi-square/",
+        "/corpus/"
+      ],
+      "derived_from": "plate-15-bi-square-spine",
+      "license": "Panta Rhei Research scientific plate asset"
+    }
+  ]
+}

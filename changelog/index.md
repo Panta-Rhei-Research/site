@@ -8,8 +8,8 @@ status: canonical
 last_updated: 2026-05-04
 updated: "May 2026"
 permalink: /changelog/
-summary: "Operational ledger for the Panta Rhei Research Program site."
-summary_short: "Operational ledger for the Panta Rhei Research Program site — new lanes, content expansions, publication updates, and structural changes."
+summary: "Technical and operational ledger for the Panta Rhei Research Program site."
+summary_short: "Technical and operational site ledger — new lanes, content expansions, publication updates, and structural changes."
 right_rail:
   related:
     - title: "Program"
@@ -27,8 +27,8 @@ right_rail:
 
 ## What this changelog is
 
-This is the operational ledger for the Panta Rhei Research Program site. It records new lanes and pages, major content expansions, publication updates, DOI and citation additions, legal and footer updates, and site-level release milestones.
+This is the technical and operational ledger for the Panta Rhei Research Program site. It records new lanes and pages, major content expansions, publication updates, DOI and citation additions, legal and footer updates, and site-level release milestones.
 
-The changelog is not a newsletter or a research essay lane. It is a factual, dated record of what has changed on the site and when.
+The changelog is not a newsletter, a research essay lane, or the semantic Corpus Changelog. It is a factual, dated record of what has changed on the site and when.
 
 ## Entries

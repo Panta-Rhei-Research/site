@@ -1,0 +1,97 @@
+{
+  "generated_from": "corpus/data/governance/corpus-changelog.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "entries": [
+    {
+      "changelog_id": "cc2026050801",
+      "date": "2026-05-08",
+      "title": "Wave 4 governance metadata baseline",
+      "type": "metadata_correction",
+      "severity_class": "C2",
+      "status": "released",
+      "release": "corpus-metadata-wave4",
+      "summary": "Established the public-safe Corpus governance and asset metadata projection layer.",
+      "affected_surfaces": [
+        "corpus",
+        "site",
+        "publications"
+      ],
+      "related_errata": [],
+      "public_url": "/corpus/changelog/"
+    },
+    {
+      "changelog_id": "cc2026050802",
+      "date": "2026-04-20",
+      "title": "ERRATUM-001: Book I, Chapter 27; Definition I.D19a; Theorem I.T05",
+      "type": "monograph_erratum",
+      "severity_class": "C7",
+      "status": "released",
+      "release": "historical-errata-baseline",
+      "summary": "Corrects the published prime-polarity definition. The original growth-comparison clauses do not partition the primes; the corrected classifier uses the Legendre symbol (2/p), aligning Book I with the Book III bipolar classifier.",
+      "affected_surfaces": [
+        "publications",
+        "corpus"
+      ],
+      "related_errata": [
+        "ERRATUM-001"
+      ],
+      "public_url": "/publications/errata/"
+    },
+    {
+      "changelog_id": "cc2026050803",
+      "date": "2026-04-20",
+      "title": "ERRATUM-002: Book III, Chapter 18; Definition III.D23; Theorem III.T13",
+      "type": "monograph_erratum",
+      "severity_class": "C7",
+      "status": "released",
+      "release": "historical-errata-baseline",
+      "summary": "Corrects the Jacobi-symbol convention used in the internal bipolar classifier derivation. Under the classical Jacobi convention, zero factors do not reduce to a single Legendre factor.",
+      "affected_surfaces": [
+        "publications",
+        "corpus"
+      ],
+      "related_errata": [
+        "ERRATUM-002"
+      ],
+      "public_url": "/publications/errata/"
+    },
+    {
+      "changelog_id": "cc2026050804",
+      "date": "2026-04-20",
+      "title": "ERRATUM-003: Book I, Chapter 24; Theorem I.T04",
+      "type": "monograph_erratum",
+      "severity_class": "C7",
+      "status": "released",
+      "release": "historical-errata-baseline",
+      "summary": "Tightens the Hyperfactorization Theorem statement. Conditions (i)-(iii) alone do not uniquely specify the ABCD tuple; maximal tetration height must be part of the admissibility condition.",
+      "affected_surfaces": [
+        "publications",
+        "corpus"
+      ],
+      "related_errata": [
+        "ERRATUM-003"
+      ],
+      "public_url": "/publications/errata/"
+    },
+    {
+      "changelog_id": "cc2026050805",
+      "date": "2026-04-22",
+      "title": "ERRATUM-004: Panta Rhei Conspectus v1.1 PDF; TauLib trust-budget disclosure",
+      "type": "publication_erratum",
+      "severity_class": "C8",
+      "status": "released",
+      "release": "historical-errata-baseline",
+      "summary": "Corrects the Conspectus PDF's pre-refactor TauLib trust-budget language. The downloadable v1.1 PDF still describes the interim peer-review state; the pinned public TauLib release has since landed the refactor.",
+      "affected_surfaces": [
+        "publications",
+        "corpus"
+      ],
+      "related_errata": [
+        "ERRATUM-004"
+      ],
+      "public_url": "/publications/errata/"
+    }
+  ]
+}

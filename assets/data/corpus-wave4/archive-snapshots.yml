@@ -1,0 +1,10 @@
+generated_from: corpus/data/governance/archive-snapshots.yml
+projection_version: v0.1
+canonical_source: corpus/data/governance and corpus/data/assets
+do_not_edit: true
+archive_snapshots:
+- snapshot_id: first-edition-archive
+  status: archival
+  edition_count: 7
+  public_route: /publications/archived/first-edition/
+  note: First Edition records are retained as superseded provenance snapshots.

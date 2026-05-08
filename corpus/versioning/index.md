@@ -5,7 +5,7 @@ lane: corpus
 v2_lane: corpus
 permalink: /corpus/versioning/
 type: "Corpus Guide"
-status: "Draft"
+status: "Canonical"
 summary_short: "How corpus objects, public releases, errata, and registry snapshots relate over time."
 right_rail:
   related:
@@ -20,21 +20,21 @@ right_rail:
   meta:
     type: "Corpus Guide"
     status: "Draft"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Versioning stance
 
-The corpus is living, but public claims must remain citeable. v2 separates living corpus state from released public artifacts.
+The corpus is living, but public claims must remain citeable. Wave 4 separates living corpus state from released public artifacts, semantic corpus changes, publication errata, and technical website release history.
 
-Errata, changelog entries, release manifests, and registry snapshots together define how the public record changes over time.
+Corpus Changelog entries, errata, release manifests, edition records, release artifacts, and registry snapshots together define how the public record changes over time.
 
 ## Current public surfaces
 
-- [Errata]({{ '/publications/errata/' | relative_url }})
-- [Corpus Changelog]({{ '/corpus/changelog/' | relative_url }})
+- [Corpus Changelog]({{ '/corpus/changelog/' | relative_url }}) - semantic corpus evolution.
+- [Errata]({{ '/publications/errata/' | relative_url }}) - publication-facing corrections.
 - [Release Manifest]({{ '/verify/release-manifest/' | relative_url }})
-- [Changelog]({{ '/changelog/' | relative_url }})
+- [Changelog]({{ '/changelog/' | relative_url }}) - technical/site release history.
 
 ## Snapshot model
 

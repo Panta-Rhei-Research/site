@@ -1,0 +1,17 @@
+generated_from: corpus/data/governance/decision-values.yml
+projection_version: v0.1
+canonical_source: corpus/data/governance and corpus/data/assets
+do_not_edit: true
+decision_values:
+  accepted_correction: Accepted correction
+  accepted_clarification: Accepted clarification
+  accepted_prior_art_addition: Accepted prior-art addition
+  accepted_scope_reclassification: Accepted scope reclassification
+  accepted_claim_narrowing: Accepted claim narrowing
+  accepted_claim_retirement: Accepted claim retirement
+  no_action_valid_as_written: 'No action: valid as written'
+  no_action_out_of_scope: 'No action: out of scope'
+  duplicate: Duplicate
+  deferred_pending_review: Deferred pending review
+  deferred_pending_formalization: Deferred pending formalization
+  deferred_pending_domain_expert: Deferred pending domain expert

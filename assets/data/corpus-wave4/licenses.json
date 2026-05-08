@@ -1,0 +1,18 @@
+{
+  "generated_from": "corpus/data/assets/licenses.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "licenses": [
+    {
+      "license_id": "panta-rhei-public-site-asset",
+      "label": "Panta Rhei Research public-site asset",
+      "scope": "Site visual/media assets"
+    },
+    {
+      "license_id": "panta-rhei-cover-asset",
+      "label": "Panta Rhei Research cover asset",
+      "scope": "Book cover images"
+    }
+  ]
+}

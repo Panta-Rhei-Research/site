@@ -1,0 +1,68 @@
+{
+  "generated_from": "corpus/data/governance/change-classes.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "change_classes": {
+    "C0": {
+      "rank": 0,
+      "label": "Typographic or cosmetic update",
+      "requires_changelog": false,
+      "requires_erratum": false
+    },
+    "C1": {
+      "rank": 1,
+      "label": "Editorial clarification",
+      "requires_changelog": false,
+      "requires_erratum": false
+    },
+    "C2": {
+      "rank": 2,
+      "label": "Metadata correction",
+      "requires_changelog": false,
+      "requires_erratum": false
+    },
+    "C3": {
+      "rank": 3,
+      "label": "Claim-boundary clarification",
+      "requires_changelog": true,
+      "requires_erratum": false
+    },
+    "C4": {
+      "rank": 4,
+      "label": "Prior-art or citation update",
+      "requires_changelog": true,
+      "requires_erratum": false
+    },
+    "C5": {
+      "rank": 5,
+      "label": "Result-status or bridge-boundary update",
+      "requires_changelog": true,
+      "requires_erratum": false
+    },
+    "C6": {
+      "rank": 6,
+      "label": "Registry or proof-dependency correction",
+      "requires_changelog": true,
+      "requires_erratum": true
+    },
+    "C7": {
+      "rank": 7,
+      "label": "Publication or monograph erratum",
+      "requires_changelog": true,
+      "requires_erratum": true
+    },
+    "C8": {
+      "rank": 8,
+      "label": "Release-manifest or trusted-base update",
+      "requires_changelog": true,
+      "requires_erratum": true
+    },
+    "C9": {
+      "rank": 9,
+      "label": "Claim narrowing, retirement, or withdrawal",
+      "requires_changelog": true,
+      "requires_erratum": true
+    }
+  }
+}

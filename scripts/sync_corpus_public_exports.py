@@ -916,6 +916,131 @@ def sync_publication_metadata() -> None:
             copy_file(source, SITE_ROOT / "assets" / "data" / "publications" / filename)
 
 
+def load_json_mapping(path: Path) -> dict[str, Any]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise SystemExit(f"Expected mapping JSON export: {path}")
+    return data
+
+
+def format_errata_entries(entries: list[dict[str, Any]]) -> str:
+    if not entries:
+        return """<div class="content-card">
+  <h2>No book-specific errata currently issued</h2>
+  <p>No active errata are currently projected for this volume. The global errata page remains the authoritative public record for all publication-facing corrections.</p>
+</div>"""
+    blocks: list[str] = []
+    for entry in entries:
+        registry = entry.get("registry_ids", [])
+        if registry:
+            registry_items = "\n".join(
+                f'    <li><a href="/registry/object/{reg_id}/"><code>{reg_id}</code></a></li>'
+                for reg_id in registry
+            )
+        else:
+            registry_items = "    <li>No Registry anchor recorded.</li>"
+        blocks.append(
+            f"""<article class="content-card">
+  <p class="eyebrow">{entry.get('issued')} · {entry.get('severity')} · {entry.get('change_class')}</p>
+  <h2>{entry.get('erratum_id')} · {entry.get('title')}</h2>
+  <p>{entry.get('summary')}</p>
+  <p><strong>Correction.</strong> {entry.get('correction')}</p>
+  <h3>Registry Anchors</h3>
+  <ul>
+{registry_items}
+  </ul>
+</article>"""
+        )
+    return "\n\n".join(blocks)
+
+
+def generate_book_errata_pages(errata: list[dict[str, Any]], editions: list[dict[str, Any]]) -> None:
+    current_books = [item for item in editions if item.get("edition") == "second"]
+    for book in sorted(current_books, key=lambda item: item.get("book_slug", "")):
+        slug = book.get("book_slug", "")
+        if not slug:
+            continue
+        book_entries = [entry for entry in errata if entry.get("book_slug") == slug]
+        body = f"""> Book-specific errata projection for the current canonical Second Edition volume.
+
+This page is generated from Corpus Wave 4 governance metadata. The global [Publication Errata](/publications/errata/) page remains the full public record.
+
+## Current Status
+
+- Edition: **Second Edition**
+- Corpus edition status: **{book.get('edition_status', 'current_canonical').replace('_', ' ').title()}**
+- Errata currently projected for this volume: **{len(book_entries)}**
+
+{format_errata_entries(book_entries)}
+"""
+        write_markdown(
+            SITE_ROOT / "publications" / "books" / slug / "errata" / "index.md",
+            {
+                "layout": "program-doc",
+                "title": f"{book.get('title', slug)} Errata",
+                "permalink": f"/publications/books/{slug}/errata/",
+                "lane": "publications",
+                "v2_lane": "publications",
+                "type": "Book Errata",
+                "status": "Canonical",
+                "summary_short": f"Book-specific errata projection for {book.get('title', slug)}.",
+                "generated_from": "corpus/exports/public/metadata-wave4/errata.yml",
+                "projection_version": "v0.1",
+                "canonical_source": "corpus/data/governance/errata.yml",
+                "do_not_edit": True,
+                "book_slug": slug,
+                "errata_count": len(book_entries),
+            },
+            body,
+        )
+
+
+def sync_wave4_metadata() -> None:
+    source_root = CORPUS_EXPORTS / "metadata-wave4"
+    if not source_root.exists():
+        raise SystemExit(f"Missing Wave 4 metadata public export: {source_root}")
+
+    governance_targets = {
+        "change-classes.yml": "change_classes.yml",
+        "entry-types.yml": "entry_types.yml",
+        "decision-values.yml": "decision_values.yml",
+        "corpus-changelog.yml": "corpus_changelog.yml",
+        "errata.yml": "errata.yml",
+        "release-history.yml": "release_history.yml",
+        "edition-history.yml": "edition_history.yml",
+        "release-artifacts.yml": "release_artifacts.yml",
+        "archive-snapshots.yml": "archive_snapshots.yml",
+    }
+    for source_name, target_name in governance_targets.items():
+        source = source_root / source_name
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "corpus" / "governance" / target_name)
+
+    asset_targets = {
+        "asset-families.yml": "asset_families.yml",
+        "scientific-plates.yml": "scientific_plates.yml",
+        "covers.yml": "covers.yml",
+        "og-images.yml": "og_images.yml",
+        "media-assets.yml": "media_assets.yml",
+        "asset-usage-map.yml": "asset_usage_map.yml",
+        "licenses.yml": "licenses.yml",
+        "accessibility.yml": "accessibility.yml",
+    }
+    for source_name, target_name in asset_targets.items():
+        source = source_root / source_name
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "corpus" / "assets" / target_name)
+
+    copy_tree_filtered(source_root, SITE_ROOT / "assets" / "data" / "corpus-wave4", {".json", ".yml"})
+
+    # Preserve legacy publication errata data access while moving the source to Corpus.
+    copy_file(source_root / "errata.yml", SITE_ROOT / "_data" / "publications" / "errata.yml")
+
+    errata = load_json_mapping(source_root / "errata.json").get("errata", [])
+    editions = load_json_mapping(source_root / "edition-history.json").get("editions", [])
+    generate_book_errata_pages(errata, editions)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -932,6 +1057,7 @@ def main() -> int:
             "publications",
             "wave2-metadata",
             "wave3-metadata",
+            "wave4-metadata",
         ),
         default="all",
         help=(
@@ -940,7 +1066,8 @@ def main() -> int:
             "only the tailored TauLib projection, the Results/ledger projections, "
             "the Corpus Changelog change-control projection, the Corpus publication metadata projection, "
             "the Wave 2 Agenda/Results metadata projection, "
-            "or the Wave 3 construction-facing Corpus metadata projection."
+            "the Wave 3 construction-facing Corpus metadata projection, "
+            "or the Wave 4 governance/assets metadata projection."
         ),
     )
     args = parser.parse_args()
@@ -956,6 +1083,8 @@ def main() -> int:
         sync_wave2_metadata()
     if args.scope in {"all", "wave3-metadata"}:
         sync_wave3_metadata()
+    if args.scope in {"all", "wave4-metadata"}:
+        sync_wave4_metadata()
     if args.scope in {"all", "foundations"}:
         sync_foundations()
     if args.scope in {"all", "corpus-v3", "monographs"}:

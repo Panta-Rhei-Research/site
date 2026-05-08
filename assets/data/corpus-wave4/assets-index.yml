@@ -1,0 +1,15 @@
+generated_from: corpus/data/assets
+projection_version: v0.1
+canonical_source: corpus/data/governance and corpus/data/assets
+do_not_edit: true
+title: Corpus Metadata Wave 4 Assets Export
+summary: Public-safe scientific plate, cover, OG image, license, accessibility, and usage-map metadata.
+counts:
+  scientific_plates: 15
+  covers: 35
+  og_images: 17
+  media_assets: 0
+  asset_usage_records: 133
+role_boundary:
+- Wave 4 catalogs assets; it does not redesign or regenerate binaries.
+- Site remains the public asset host.
