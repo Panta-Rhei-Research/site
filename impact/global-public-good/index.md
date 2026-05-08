@@ -47,7 +47,7 @@ The Public-Good Briefings are publication artifacts. They are conditional scenar
 
 ## Global Public Good inside the impact strata
 
-{% capture global_public_good_plate_caption %}Global Public Good is the outermost Impact stratum: conditional public-good portfolios become meaningful only after upstream Results, verification, translation, and uptake conditions are met. Updated chain: Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.{% endcapture %}
+{% capture global_public_good_plate_caption %}Global Public Good is the outermost Impact stratum: conditional public-good portfolios become meaningful only after upstream Results, verification, translation, and uptake conditions are met.{% endcapture %}
 {% include scientific-plate.html id="plate-08-conditional-impact-strata" variant="thumb" class="scientific-plate--compact" caption=global_public_good_plate_caption loading="lazy" %}
 
 Global Public Good is the outermost Impact stratum. Its portfolios are conditional scenario maps, not deployment claims.
@@ -73,7 +73,9 @@ The portfolio pages organize public-good domains. [Public-Good Briefings]({{ '/p
 
 ## Reading discipline
 
-Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}): Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.
+Read this page through the [Impact Framework]({{ '/impact/impact-framework/' | relative_url }}):
+
+{% include sequence-flow.html id="impact_chain" %}
 
 If any upstream link weakens, the public-good claim weakens with it.
 

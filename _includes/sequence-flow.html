@@ -1,0 +1,35 @@
+{%- comment -%}
+  sequence-flow.html — compact semantic flow diagram.
+
+  Usage:
+    {% include sequence-flow.html id="impact_chain" %}
+    {% include sequence-flow.html id="impact_chain" show_descriptions=true %}
+
+  The ordered list carries the accessible reading order. Arrow glyphs are
+  visual-only and should not be used for formula/math/code expressions.
+{%- endcomment -%}
+
+{%- assign flow = site.data.sequence_flows[include.id] -%}
+{%- if flow and flow.steps -%}
+{%- assign show_descriptions = include.show_descriptions | default: false -%}
+{%- assign flow_class = include.class | default: "" -%}
+{%- assign aria_label = include.aria_label | default: flow.aria_label | default: "Sequence flow" -%}
+<ol class="sequence-flow{% if show_descriptions %} sequence-flow--with-descriptions{% endif %}{% if flow_class != "" %} {{ flow_class }}{% endif %}" aria-label="{{ aria_label | escape }}">
+  {%- for step in flow.steps -%}
+  <li class="sequence-flow__item">
+    {%- if step.href -%}
+    <a class="sequence-flow__node" href="{{ step.href | relative_url }}">
+      <span class="sequence-flow__label">{{ step.label }}</span>
+      {%- if show_descriptions and step.description -%}<span class="sequence-flow__description">{{ step.description }}</span>{%- endif -%}
+    </a>
+    {%- else -%}
+    <span class="sequence-flow__node">
+      <span class="sequence-flow__label">{{ step.label }}</span>
+      {%- if show_descriptions and step.description -%}<span class="sequence-flow__description">{{ step.description }}</span>{%- endif -%}
+    </span>
+    {%- endif -%}
+    {%- unless forloop.last -%}<span class="sequence-flow__arrow" aria-hidden="true">→</span>{%- endunless -%}
+  </li>
+  {%- endfor -%}
+</ol>
+{%- endif -%}

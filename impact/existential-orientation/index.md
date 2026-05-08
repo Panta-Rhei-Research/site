@@ -31,7 +31,7 @@ right_rail:
 
 Read this page through the Impact chain:
 
-Result → Verification & Review → Translation layer → Domain uptake → Consequence.
+{% include sequence-flow.html id="impact_chain" %}
 
 If any upstream link weakens, the impact claim weakens with it.
 

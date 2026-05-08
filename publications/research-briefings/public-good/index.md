@@ -75,7 +75,7 @@ Public-Good Briefings are conditional scenario artifacts. They explore what coul
 
 Read every Public-Good Briefing through the Impact chain:
 
-Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.
+{% include sequence-flow.html id="impact_chain" %}
 
 If any upstream link weakens, the public-good claim weakens with it.
 

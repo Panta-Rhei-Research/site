@@ -43,17 +43,7 @@ right_rail:
 
 A result does not automatically produce impact. A status-marked Result is only the first link in the chain. Impact requires a chain:
 
-<div class="v2-system-row" aria-label="Impact framework pipeline">
-  <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Result</strong>Named claim, status, or problem response.</a>
-  <span class="v2-system-arrow">→</span>
-  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification & Review</strong>Formal, empirical, bridge, and expert review status.</a>
-  <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Translation Layer</strong>Domain-specific assumptions and model choices.</span>
-  <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Domain Uptake</strong>Institutions, tools, data, governance, and practice.</span>
-  <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Consequence</strong>What could change if the chain holds.</span>
-</div>
+{% include sequence-flow.html id="impact_chain" show_descriptions=true %}
 
 ## A public-relevance map, not just a downstream layer
 
@@ -63,7 +53,7 @@ The lane asks why the program's scope could matter if Results remain supported t
 
 ## The impact chain
 
-{% capture impact_framework_plate_caption %}The Impact Framework reads every consequence through the same chain: Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.{% endcapture %}
+{% capture impact_framework_plate_caption %}The Impact Framework reads every consequence through the same Result-to-Consequence sequence: result status, verification and review, translation, domain uptake, and consequence.{% endcapture %}
 {% include scientific-plate.html id="plate-08-conditional-impact-strata" variant="thumb" class="scientific-plate--compact" caption=impact_framework_plate_caption loading="lazy" %}
 
 The chain is deliberately conditional. A consequence becomes meaningful only when the relevant Result, verification route, translation layer, and domain uptake assumptions remain inspectable.

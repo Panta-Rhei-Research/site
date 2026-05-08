@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 
-CHAIN = "Result → Verification & Review → Translation Layer → Domain Uptake → Consequence"
+CHAIN_LABELS = ["Result", "Verification & Review", "Translation Layer", "Domain Uptake", "Consequence"]
 
 ROUTES = {
     "home": "/",
@@ -256,8 +256,15 @@ def main() -> int:
     require_text(home, ROUTES["home"], "remain supported through review, translation, and domain uptake")
 
     for route in [ROUTES["impact"], ROUTES["impact_framework"], ROUTES["global_public_good"], ROUTES["public_good"]]:
-        _, parser = parse_page(built_root, route)
-        require_text(parser, route, CHAIN)
+        raw, parser = parse_page(built_root, route)
+        require_text(parser, route, "Verification & Review")
+        require_text(parser, route, "Translation Layer")
+        require_text(parser, route, "Domain Uptake")
+        require_text(parser, route, "Consequence")
+        if '<ol class="sequence-flow' not in raw:
+            fail(f"{route} expected the v4 sequence-flow component for the Impact chain")
+        for label in CHAIN_LABELS:
+            require_text(parser, route, label)
 
     for route in [ROUTES["global_public_good"], ROUTES["public_good"], ROUTES["public_good_sample"], ROUTES["portfolio_sample"]]:
         _, parser = parse_page(built_root, route)

@@ -1,0 +1,115 @@
+// ================================================================
+// Compact Sequence Flows
+// ================================================================
+
+.sequence-flow,
+.v2-system-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px 8px;
+  max-width: 100%;
+  padding: 0;
+  margin: 12px 0 16px;
+  list-style: none;
+}
+
+.sequence-flow__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.sequence-flow__node,
+.v2-system-node {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  max-width: 100%;
+  padding: 6px 10px;
+  border: 1px solid rgba(22, 62, 100, 0.16);
+  border-radius: var(--radius-pill);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(243, 247, 250, 0.78));
+  color: var(--panta-blue-800);
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.18;
+  text-align: center;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  box-shadow: 0 3px 10px rgba(21, 23, 28, 0.045);
+}
+
+a.sequence-flow__node:hover,
+a.sequence-flow__node:focus-visible,
+a.v2-system-node:hover,
+a.v2-system-node:focus-visible {
+  color: var(--panta-blue-900);
+  border-color: rgba(22, 62, 100, 0.28);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(232, 240, 246, 0.86));
+  transform: translateY(-1px);
+}
+
+.sequence-flow__label {
+  display: inline-block;
+}
+
+.sequence-flow__description {
+  display: block;
+  margin-top: 3px;
+  color: var(--color-ink-600);
+  font-size: 0.72rem;
+  font-weight: 460;
+  line-height: 1.28;
+}
+
+.sequence-flow__arrow,
+.v2-system-arrow {
+  color: var(--panta-blue-700);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.72;
+}
+
+.sequence-flow--with-descriptions .sequence-flow__node {
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 50px;
+  max-width: 13.5rem;
+  border-radius: var(--radius-md);
+  text-align: left;
+}
+
+.sequence-flow--notice {
+  margin: 10px 0 12px;
+}
+
+@media (max-width: 620px) {
+  .sequence-flow,
+  .v2-system-row {
+    gap: 7px 6px;
+  }
+
+  .sequence-flow__item {
+    flex: 0 1 auto;
+    gap: 6px;
+  }
+
+  .sequence-flow__node,
+  .v2-system-node {
+    min-height: 32px;
+    padding: 6px 8px;
+    font-size: 0.74rem;
+  }
+
+  .sequence-flow__arrow,
+  .v2-system-arrow {
+    font-size: 0.76rem;
+  }
+}
