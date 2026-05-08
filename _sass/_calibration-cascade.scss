@@ -110,6 +110,43 @@
   color: var(--color-muted);
 }
 
+.calibration-compact-schematic {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.calibration-schematic-stage {
+  position: relative;
+  min-width: 0;
+  padding: 15px;
+  border: 1px solid rgba(22, 62, 100, 0.14);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(246, 249, 251, 0.94));
+  box-shadow: var(--shadow-card);
+}
+
+.calibration-schematic-stage:not(:last-of-type)::after {
+  content: "→";
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  z-index: 1;
+  transform: translateY(-50%);
+  color: var(--color-brand-700);
+  font-family: var(--font-ui);
+  font-weight: 800;
+}
+
+.calibration-schematic-stage h3 {
+  margin-top: 0;
+}
+
+.calibration-schematic-stage p:last-child {
+  margin-bottom: 0;
+}
+
 .calibration-dag {
   margin: 20px 0;
 }
@@ -248,7 +285,65 @@
   border-radius: var(--radius-md);
 }
 
+.calibration-constant-detail {
+  display: grid;
+  gap: 18px;
+}
+
+.calibration-constant-hero {
+  padding: 20px;
+  border: 1px solid rgba(22, 62, 100, 0.14);
+  border-radius: var(--radius-lg);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-card);
+}
+
+.calibration-formula-display {
+  margin: 0 0 14px;
+  padding: 16px;
+  border: 1px solid rgba(22, 62, 100, 0.12);
+  border-radius: var(--radius-md);
+  background: rgba(246, 249, 251, 0.82);
+  font-size: clamp(1rem, 1rem + 0.35vw, 1.3rem);
+}
+
+.calibration-formula-display code,
+.calibration-code-block code {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.calibration-diagram-figure {
+  margin: 16px 0;
+}
+
+.calibration-diagram-figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.calibration-code-block {
+  margin: 0;
+  padding: 14px;
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  background: rgba(16, 24, 40, 0.06);
+}
+
 @media (max-width: 900px) {
+  .calibration-compact-schematic {
+    grid-template-columns: 1fr;
+  }
+
+  .calibration-schematic-stage:not(:last-of-type)::after {
+    content: "↓";
+    top: auto;
+    right: 18px;
+    bottom: -17px;
+    transform: none;
+  }
+
   .calibration-dag-layers {
     grid-template-columns: 1fr;
   }

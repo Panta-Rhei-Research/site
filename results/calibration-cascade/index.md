@@ -32,6 +32,7 @@ right_rail:
 {% assign couplings = site.data.corpus.calibration.coupling_ledger.couplings %}
 {% assign mass_links = site.data.corpus.calibration.mass_ratio_chain.mass_ratio_links %}
 {% assign constants = site.data.corpus.calibration.constants_ledger.constants %}
+{% assign constant_pages = site.data.corpus.calibration.constant_pages.constant_pages %}
 {% assign bridge = site.data.corpus.calibration.g_alpha_bridge.g_alpha_bridge %}
 {% assign comparisons = site.data.corpus.calibration.verification_comparisons.verification_comparisons %}
 {% assign datasets = site.data.corpus.calibration.comparison_datasets.comparison_datasets %}
@@ -148,91 +149,76 @@ right_rail:
 
 ## Cascade overview
 
-<p>The diagram below is not a generic graph explorer. It is a directed acyclic dependency view. Arrows indicate dependency flow from algebraic inputs through dimensionless readouts, dimensional anchoring, SI expression, and verification comparison.</p>
+<p>The schematic below is intentionally compact. It shows the finite dependency order, not every node in the constants table. The detailed machine-readable edge list remains available immediately below it.</p>
 
-<section class="calibration-dag" aria-label="Layer-banded Calibration Cascade diagram">
-  <div class="calibration-dag-layers">
-    {% for layer in layers %}
-    <section class="calibration-dag-layer" aria-labelledby="dag-{{ layer.id | downcase }}">
-      <h3 id="dag-{{ layer.id | downcase }}">{{ layer.id }} · {{ layer.title }}</h3>
-      {% for node in nodes %}
-      {% if node.layer == layer.id and node.display.show_in_global_diagram %}
-      <article class="calibration-dag-node" id="node-{{ node.id }}">
-        <div class="calibration-dag-node-title">
-          <strong>{{ node.display.short_label }}</strong>
-          <span class="chip">{{ node.scope_label }}</span>
-        </div>
-        <p>{{ node.display.collapsed_summary }}</p>
-        {% if node.primary_formula %}
-        <p><code>{{ node.primary_formula }}</code></p>
-        {% endif %}
-        <p><span class="chip">{{ node.unit_context | replace: "_", " " }}</span></p>
-        <ul aria-label="Outgoing dependency edges">
-          {% for edge in dependency_edges %}
-          {% if edge.source == node.id %}
-          {% assign target_node = nodes | where: "id", edge.target | first %}
-          <li><code>{{ edge.relation }}</code> → <a href="#node-{{ edge.target }}">{{ target_node.display.short_label | default: edge.target }}</a></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </article>
-      {% endif %}
-      {% endfor %}
-    </section>
-    {% endfor %}
-  </div>
-  <div class="calibration-text-equivalent">
+<section class="calibration-compact-schematic" aria-label="Compact Calibration Cascade schematic">
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">Inputs</p>
+    <h3><code>ι_τ</code> + <code>m_n</code></h3>
+    <p>Algebraic master constant plus neutron-mass anchor.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L0-L1</p>
+    <h3>Couplings</h3>
+    <p>Dimensionless readouts and coupling ledger entries.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L2</p>
+    <h3>Mass-ratio chain</h3>
+    <p>Ten-link route to the electron-mass readout.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L3</p>
+    <h3>G-alpha bridge</h3>
+    <p>Unit-context-aware SI readout / unit realization.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L4</p>
+    <h3>Verification</h3>
+    <p>CODATA 2018 comparison rows and falsification surfaces.</p>
+  </article>
+  <p class="calibration-text-equivalent">
     <strong>Text equivalent.</strong>
     <code>ι_τ</code> feeds the coupling ledger, alpha, and the mass-ratio chain. The mass-ratio chain and the neutron-mass
     anchor feed the electron-mass readout. Alpha feeds the G-alpha bridge, which combines with the neutron-mass anchor
     in the G readout route. Electron-mass and G readouts feed SI readout / unit realization, which feeds CODATA 2018
     verification comparisons. Prediction and falsification pages are related review surfaces, not additional dependency edges.
-  </div>
+  </p>
 </section>
 
 <div class="calibration-chip-row" aria-label="Scope label legend">
   <span class="chip">Established</span>
-  <span class="chip">Tau-effective</span>
+  <span class="chip">τ-effective</span>
   <span class="chip">Conjectural</span>
   <span class="chip">Metaphorical / structural</span>
   <span class="chip">Pending unit-context review</span>
 </div>
 
+<div class="notice note">
+  <strong>Scope label.</strong> Tau-effective means τ-effective. Metadata keeps the stable value <code>tau_effective</code>; public pages render the visible label as <strong>τ-effective</strong>.
+</div>
+
 <span id="key-nodes"></span>
 
-## Key cascade nodes
+## Key constant cascades
 
 <div class="calibration-key-node-grid">
-  {% for node in nodes %}
-  {% if node.display.show_in_overview %}
-  <a class="calibration-key-node-card" href="#{{ node.display.detail_anchor }}" id="key-node-{{ node.id }}">
-    <span class="eyebrow">{{ node.layer }} · {{ node.scope_label }}</span>
-    <strong>{{ node.display.card_title }}</strong>
-    <code>{{ node.display.collapsed_formula }}</code>
-    <span>{{ node.display.collapsed_summary }}</span>
-    {% if node.display.primary_dependencies.size > 0 %}
-    <small>Depends on: {{ node.display.primary_dependencies | join: ", " }}</small>
+  {% for item in constant_pages %}
+  <a class="calibration-key-node-card" href="{{ item.route | relative_url }}" id="key-node-{{ item.slug }}">
+    <span class="eyebrow">{{ item.layer }} · {{ item.scope_label }}</span>
+    <strong>{{ item.title }}</strong>
+    <code>{{ item.formula_display }}</code>
+    <span>{{ item.public_boundary }}</span>
+    {% if item.dependency_labels.size > 0 %}
+    <small>Depends on: {{ item.dependency_labels | join: ", " }}</small>
     {% else %}
     <small>Privileged input</small>
     {% endif %}
   </a>
-  {% endif %}
-  {% endfor %}
-  {% assign key_constant_ids = "CL-23|CL-17|CL-18|CL-19" | split: "|" %}
-  {% for constant_id in key_constant_ids %}
-  {% assign item = constants | where: "id", constant_id | first %}
-  {% if item %}
-  {% assign unit_context = unit_contexts | where: "id", item.unit_context | first %}
-  <a class="calibration-key-node-card" href="#node-constant-{{ item.id | downcase }}" id="key-node-{{ item.id | downcase }}">
-    <span class="eyebrow">{{ item.layer }} · {{ item.scope_label | replace: "Metaphorical / structural reading", "Metaphorical / structural" }}</span>
-    <strong>{{ item.symbol }}</strong>
-    <code>{{ item.formula }}</code>
-    <span>{{ item.quantity }}</span>
-    <small>{{ unit_context.label | default: item.unit_context }}</small>
-  </a>
-  {% endif %}
   {% endfor %}
 </div>
+
+<p><a class="button" href="{{ '/results/calibration-cascade/constants/' | relative_url }}">Open all seeded constant pages</a></p>
 
 ## Dependency edge table {#dependency-edge-table}
 
@@ -387,10 +373,11 @@ right_rail:
   {% assign scope_sets = "Established|Tau-effective|Conjectural|Metaphorical / structural reading" | split: "|" %}
   {% for scope_name in scope_sets %}
   {% assign scoped_constants = constants | where: "scope_label", scope_name %}
+  {% assign scope_display = scope_name | replace: "Tau-effective", "τ-effective" | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
   <details class="calibration-inspector-card" id="constant-scope-{{ scope_name | slugify }}" {% if forloop.first %}open{% endif %}>
     <summary>
       <span class="calibration-summary-main">
-        <strong>{{ scope_name | replace: "Metaphorical / structural reading", "Metaphorical / structural" }}</strong>
+        <strong>{{ scope_display }}</strong>
         <span>{{ scoped_constants | size }} constants-ledger entries</span>
       </span>
       <span class="calibration-summary-meta">
@@ -420,13 +407,14 @@ right_rail:
   {% assign unit_context = unit_contexts | where: "id", item.unit_context | first %}
   <li>
     <details class="calibration-inspector-card" id="node-constant-{{ item.id | downcase }}">
+      {% assign item_scope_display = item.scope_label | replace: "Tau-effective", "τ-effective" | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
       <summary>
         <span class="calibration-summary-main">
           <strong>{{ item.sequence }}. <code>{{ item.symbol }}</code> · {{ item.quantity }}</strong>
           <code>{{ item.formula }}</code>
         </span>
         <span class="calibration-summary-meta">
-          <span class="chip">{{ item.scope_label | replace: "Metaphorical / structural reading", "Metaphorical / structural" }}</span>
+          <span class="chip">{{ item_scope_display }}</span>
           <span class="chip">{{ unit_context.label | default: item.unit_context }}</span>
         </span>
       </summary>
@@ -457,11 +445,12 @@ right_rail:
     </thead>
     <tbody>
       {% for item in constants %}
+      {% assign item_scope_display = item.scope_label | replace: "Tau-effective", "τ-effective" | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
       <tr>
         <th scope="row">{{ item.sequence }}</th>
         <td><code>{{ item.symbol }}</code> · {{ item.quantity }}</td>
         <td><code>{{ item.formula }}</code></td>
-        <td>{{ item.scope_label | replace: "Metaphorical / structural reading", "Metaphorical / structural" }}</td>
+        <td>{{ item_scope_display }}</td>
         <td>{{ item.deviation }}</td>
         <td><code>{{ item.unit_context }}</code></td>
       </tr>
@@ -564,7 +553,7 @@ right_rail:
 ## Limitations
 
 - This is a static, review-facing overlay, not a dynamic graph application.
-- The page does not recompute CODATA 2022 values or change the Numerical Physics Ledger PDF artifact.
+- The page does not recompute CODATA 2022 values or change the existing numerical prediction artifact.
 - Unresolved Registry, TauLib, and source-label mappings remain visible as pending review.
 - “SI readout / unit realization” language is used deliberately; the cascade is not presented as an unqualified SI prediction engine.
 - The prediction catalogue lists claims; this page shows dependency structure and review boundaries.

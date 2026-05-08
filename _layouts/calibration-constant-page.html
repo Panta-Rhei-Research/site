@@ -1,0 +1,170 @@
+---
+layout: program-doc
+---
+
+<div class="calibration-constant-detail">
+  <div class="calibration-badge-row" aria-label="Calibration constant status">
+    <span class="chip">{{ page.layer }}</span>
+    <span class="chip">{{ page.scope_label }}</span>
+    <span class="chip">{{ page.status | replace: "_", " " }}</span>
+    <span class="chip">{{ page.diagram_svg_status | replace: "_", " " }} diagram</span>
+  </div>
+
+  <div class="notice note">
+    <strong>Boundary.</strong>
+    {{ page.public_boundary }}
+    This page does not recompute CODATA 2022 values or change the existing numerical prediction artifact.
+  </div>
+
+  <div class="notice note">
+    <strong>Scope label.</strong>
+    Tau-effective means τ-effective. Metadata keeps the stable value <code>tau_effective</code>; public pages render the visible label as <strong>τ-effective</strong>.
+  </div>
+
+  {{ content }}
+
+  <section class="calibration-constant-hero" aria-labelledby="constant-formula">
+    <div>
+      <p class="eyebrow">{{ page.constant_page_id }} · {{ page.symbol }}</p>
+      <h2 id="constant-formula">Formula</h2>
+      <p class="calibration-formula-display"><code>{{ page.formula_display }}</code></p>
+      <dl class="metadata-list">
+        <div>
+          <dt>TeX</dt>
+          <dd><code>{{ page.formula_tex }}</code></dd>
+        </div>
+        <div>
+          <dt>Plain-text fallback</dt>
+          <dd><code>{{ page.formula_text }}</code></dd>
+        </div>
+        <div>
+          <dt>Unit context</dt>
+          <dd><code>{{ page.unit_context }}</code></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section aria-labelledby="constant-diagram">
+    <h2 id="constant-diagram">Dependency Diagram</h2>
+    {% if page.diagram_svg_status == "rendered" and page.diagram_svg %}
+    <figure class="calibration-diagram-figure">
+      <img src="{{ '/assets/data/calibration/diagram-svgs/' | append: page.diagram_svg | relative_url }}" alt="{{ page.diagram_accessibility.text_equivalent | default: page.diagram_accessibility.description | default: page.title }}">
+      <figcaption>{{ page.diagram_accessibility.description | default: page.diagram_accessibility.text_equivalent }}</figcaption>
+    </figure>
+    {% else %}
+    <div class="notice note">
+      <strong>Diagram pending.</strong>
+      Mermaid source is published for review, but SVG rendering is pending because Mermaid CLI is optional for this pass.
+    </div>
+    {% endif %}
+    {% if page.diagram_mmd_source %}
+    <details class="calibration-inspector-card">
+      <summary>
+        <span class="calibration-summary-main"><strong>Mermaid source</strong></span>
+        <span class="calibration-summary-meta"><span class="chip">text equivalent</span></span>
+      </summary>
+      <pre class="calibration-code-block"><code>{{ page.diagram_mmd_source | escape }}</code></pre>
+    </details>
+    {% endif %}
+    <p class="calibration-text-equivalent"><strong>Text equivalent.</strong> {{ page.diagram_accessibility.text_equivalent | default: page.diagram_accessibility.description }}</p>
+  </section>
+
+  <section aria-labelledby="constant-dependencies">
+    <h2 id="constant-dependencies">Dependencies</h2>
+    <div class="calibration-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Dependency node</th>
+            <th scope="col">Display label</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for dependency in page.dependency_nodes %}
+          <tr>
+            <th scope="row"><code>{{ dependency }}</code></th>
+            <td>{{ page.dependency_labels[forloop.index0] | default: dependency }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="constant-source">
+    <h2 id="constant-source">Source And Review Anchors</h2>
+    <dl class="metadata-list">
+      <div>
+        <dt>Source chapter</dt>
+        <dd><code>{{ page.source_chapter }}</code> · <code>{{ page.source_label }}</code></dd>
+      </div>
+      <div>
+        <dt>Registry refs</dt>
+        <dd>
+          {% if page.registry_refs and page.registry_refs.size > 0 %}
+          {% for ref in page.registry_refs %}
+          <a href="{{ '/registry/object/' | append: ref | append: '/' | relative_url }}"><code>{{ ref }}</code></a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          {% else %}
+          Pending review.
+          {% endif %}
+        </dd>
+      </div>
+      <div>
+        <dt>TauLib refs</dt>
+        <dd>
+          {% if page.taulib_modules and page.taulib_modules.size > 0 %}
+          {% for module in page.taulib_modules %}
+          <code>{{ module }}</code>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          {% else %}
+          Pending review.
+          {% endif %}
+        </dd>
+      </div>
+      <div>
+        <dt>Comparison dataset</dt>
+        <dd>
+          {% if page.comparison.dataset %}
+          <code>{{ page.comparison.dataset }}</code> · {{ page.comparison.status | replace: "_", " " }}
+          {% else %}
+          No comparison dataset recorded for this constant page.
+          {% endif %}
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  <section aria-labelledby="constant-related">
+    <h2 id="constant-related">Prediction And Falsification Surfaces</h2>
+    <div class="calibration-two-column">
+      <article class="calibration-card">
+        <h3>Prediction links</h3>
+        {% if page.related_predictions and page.related_predictions.size > 0 %}
+        <ul>
+          {% for item in page.related_predictions %}
+          <li><code>{{ item }}</code></li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No prediction links are recorded for this seeded page.</p>
+        {% endif %}
+      </article>
+      <article class="calibration-card">
+        <h3>Falsification links</h3>
+        {% if page.related_falsifications and page.related_falsifications.size > 0 %}
+        <ul>
+          {% for item in page.related_falsifications %}
+          <li><code>{{ item }}</code></li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No falsification links are recorded for this seeded page.</p>
+        {% endif %}
+      </article>
+    </div>
+  </section>
+
+  <p><a class="button" href="{{ '/results/calibration-cascade/constants/' | relative_url }}">Back to constants index</a></p>
+</div>

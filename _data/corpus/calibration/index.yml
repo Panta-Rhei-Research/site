@@ -15,3 +15,4 @@ calibration:
     edges: 15
     dependency_edges: 13
     ui_groups: 6
+    constant_pages: 9
