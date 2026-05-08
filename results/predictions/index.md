@@ -17,7 +17,7 @@ do_not_edit: false
 
 The Numerical Prediction Catalogue compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with **zero free continuous parameters**. Each prediction compares a τ-derived value to experimental measurement under explicit source, unit-context, and verification boundaries.
 
-<div class="notice note"><strong>The cascade.</strong> The <a href="{{ '/results/calibration-cascade/' | relative_url }}">Calibration Cascade</a> is the dependency overlay behind this catalogue. It separates the claim list, constants-ledger outputs, G-alpha bridge, SI readout / unit realization context, source chapters, and verification comparisons.</div>
+<div class="notice note"><strong>The cascade.</strong> The numerical prediction catalogue lists the physics predictions. The <a href="{{ '/results/calibration-cascade/' | relative_url }}">Calibration Cascade</a> shows the dependency structure connecting the master constant, dimensional anchor, coupling readouts, mass-ratio chain, constants-ledger table, and verification comparisons.</div>
 
 ## Precision tiers
 

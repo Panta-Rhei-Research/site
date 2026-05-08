@@ -13,7 +13,7 @@ summary_short: "Books I–III — the foundational kernel. 77 results spanning c
 
 The **Mathematics** domain is the τ-framework's foundational kernel. Books I–III establish the categorical structure from which the entire framework derives: the τ-kernel itself, the holomorphy of τ, the central theorem, the Yoneda enrichment ladder, the master constant `ι_τ`, and the deep results that make every downstream physics and life claim possible.
 
-This is where it begins. Every numerical SI value in the [Physics cascade]({{ '/results/physics/cascade/' | relative_url }}), every biological correlate in the [Life tree]({{ '/results/life/cascade/' | relative_url }}), and every register functor in the [Metaphysics architecture]({{ '/results/metaphysics/cascade/' | relative_url }}) ultimately traces back to objects defined in Books I–III.
+This is where it begins. Every numerical SI readout route in the [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}), every biological correlate in the [Life tree]({{ '/results/life/cascade/' | relative_url }}), and every register functor in the [Metaphysics architecture]({{ '/results/metaphysics/cascade/' | relative_url }}) ultimately traces back to objects defined in Books I–III.
 
 <div class="v2-grid">
 

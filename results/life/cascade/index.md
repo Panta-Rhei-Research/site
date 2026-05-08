@@ -98,7 +98,7 @@ Life-sector formalization is **planned** for v0.5 of TauLib. Current Lean formal
 ## Read next
 
 - [Life glossary]({{ '/results/life/glossary/' | relative_url }}) — all 78 entries across 7 categories
-- [Physics cascade]({{ '/results/physics/cascade/' | relative_url }}) — the linear physics analog
+- [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) — the linear physics analog
 - [Metaphysics architecture]({{ '/results/metaphysics/cascade/' | relative_url }}) — the categorical-only architecture for Book VII
 
 ## Provenance

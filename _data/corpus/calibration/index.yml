@@ -13,3 +13,5 @@ calibration:
     verification_comparisons: 7
     nodes: 12
     edges: 15
+    dependency_edges: 13
+    ui_groups: 6
