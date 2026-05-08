@@ -9,6 +9,8 @@ right_rail:
   related:
   - title: Falsification Pack
     url: /results/falsifications/browse/
+  - title: Calibration Cascade
+    url: /results/calibration-cascade/
   - title: Results Overview
     url: /results/
   - title: Physics World Readout
@@ -20,9 +22,9 @@ right_rail:
     updated: April 2026
 ---
 
-The Numerical Physics Ledger compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with zero free continuous parameters. Each prediction compares a τ-derived value to experimental measurement — no ontological bridge claims needed. Fifteen predictions achieve sub-10 ppm precision, including the electron mass (0.025 ppm), weak mixing angle (−0.65 ppm), and Higgs mass (+8.0 ppm).
+The Numerical Prediction Catalogue compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with zero free continuous parameters. Each prediction compares a τ-derived value to experimental measurement under explicit source, unit-context, and verification boundaries. Fifteen predictions achieve sub-10 ppm precision, including the electron mass (0.025 ppm), weak mixing angle (−0.65 ppm), and Higgs mass (+8.0 ppm).
 
-The catalogue sits on top of the **calibration cascade** (Numerical Physics Ledger Ch 58a). Two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor, the neutron mass m<sub>n</sub> — feed a four-layer pipeline (**L0** algebraic → **L1** dimensionless → **L2** SI anchor → **L3** SI-derived → **L4** verification). Every number in the catalogue is traceable to those two inputs through the cascade; there are no additional free parameters. Most entries live at L1 (dimensionless ratios) or L3 (SI-anchored observables).
+The catalogue sits on top of the [**Calibration Cascade**]({{ '/results/calibration-cascade/' | relative_url }}). Two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor, the neutron mass m<sub>n</sub> — feed a five-layer dependency overlay (**L0** algebraic → **L1** dimensionless → **L2** anchor and mass ratios → **L3** SI readout / unit realization → **L4** verification and falsification). Most entries live at L1 (dimensionless ratios) or L3 (SI readout routes), but the cascade also records unresolved mapping and unit-context review status.
 
 ## Three kinds of prediction — honest a-priori accounting
 
@@ -47,15 +49,15 @@ Other Category-C tests include the neutrino mass sum Σm<sub>ν</sub> = 0.089 eV
 Every prediction in the catalogue below carries a **scope label** that states its epistemic status within the framework. The four-tier discipline is canonical to the program (see [Scope Labels]({{ '/verify/taulib/scope-labels/' | relative_url }})):
 
 - **Established** — classical mathematics independently verified in the literature; used as a building block inside τ, not a τ-consequence. *(No predictions in this catalogue; catalogue entries are τ-derivations.)*
-- **τ-effective** — the default scope for a Numerical Physics Ledger entry: a quantitative τ-derivation with a specific number and an experimental target. Most prediction records sit here.
+- **τ-effective** — the default scope for a numerical prediction entry: a quantitative τ-derivation with a specific number and an experimental target. Most prediction records sit here.
 - **Conjectural** — the derivation depends on an axiom that is computationally verified at all tested finite bounds but whose infinite-limit extension is asserted rather than proven. TauLib marks these with explicit `axiom` declarations, and the catalogue flags those entries on the card.
-- **Metaphorical** — philosophical or analogical extensions beyond formal mathematics. Not used in the Numerical Physics Ledger; reserved for the metaphysics world readout.
+- **Metaphorical** — philosophical or analogical extensions beyond formal mathematics. Not used in the numerical prediction catalogue; reserved for the metaphysics world readout.
 
 The **precision tier** chip on each card is orthogonal to the scope label: it states how tightly the τ-derived value matches the current measurement. Sub-10 ppm means agreement at the sixth decimal place; 10–1000 ppm is the next tier; 1–5% covers known-imperfect sector matches; *structural* covers derivations whose content is categorical (e.g., "proton is stable", "no fourth generation") rather than a specific decimal.
 
 ## How to read precision — the Tier A / B / C taxonomy
 
-Precision tiers on a card answer "how close is τ to the measured number today?" The calibration cascade (Ch 58a) adds an orthogonal question: **which route through the cascade produced this prediction, and what is the best precision that route can in principle reach?** The N1–N30 falsifiers are tagged by three structural tiers:
+Precision tiers on a card answer "how close is τ to the measured number today?" The [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) adds an orthogonal question: **which route through the cascade produced this prediction, and what is the best precision that route can in principle reach?** The N1–N30 falsifiers are tagged by three structural tiers:
 
 - **Tier A (~0.025 ppm) — mass-ratio route.** The prediction is a ratio of two masses (or two dimensionless L1 quantities). Because both numerator and denominator carry the same SI anchor, the SI-calibration error cancels exactly. Tier A predictions are falsifiable at the precision of PDG/CODATA mass-ratio data — already at the 10<sup>−8</sup> level for leptons today. **Most sub-10-ppm entries in the catalogue are Tier A.**
 - **Tier B (~3 ppm) — closing-identity route.** The prediction is an SI-anchored observable routed through the G–α closing identity (V.T20). These entries inherit the residual uncertainty of the SI anchor m<sub>n</sub> and the closing identity's loop order. Achievable precision is ~3 ppm; examples include αG, several electroweak L3 observables, and the ppm-tier cosmological predictions.
@@ -65,4 +67,4 @@ Read the card precision chip and the cascade tier together: a "sub-10 ppm" Tier 
 
 ## Using this catalogue
 
-Use the filters below to narrow by physics domain, precision tier, scope, or canonical book. The filter row surfaces ppm precision; the Tier A / B / C calibration-tier distinction is not yet a UI chip on each card (it is a per-prediction structural classification flagged for a follow-up data uplift). For the {% include release-metric.html id="falsifications.records" %} sharpest falsifiable predictions with named experiments and explicit timelines, see the [**Falsification Pack**]({{ '/results/falsifications/browse/' | relative_url }}). For the first-order response to "could 15 sub-10-ppm hits just be numerology?" see the [**Fit-Space Argument**]({{ '/results/predictions/fit-space-argument/' | relative_url }}). The complete typeset document (209 pp, Chapter 58a "The Calibration Cascade" + full derivations) is available as a free download: [**Numerical Physics Ledger (PDF, 1.11 MB)**]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}).
+Use the filters below to narrow by physics domain, precision tier, scope, or canonical book. The filter row surfaces ppm precision; the Tier A / B / C calibration-tier distinction is not yet a UI chip on each card (it is a per-prediction structural classification flagged for a follow-up data uplift). For the {% include release-metric.html id="falsifications.records" %} sharpest falsifiable predictions with named experiments and explicit timelines, see the [**Falsification Pack**]({{ '/results/falsifications/browse/' | relative_url }}). For the first-order response to "could 15 sub-10-ppm hits just be numerology?" see the [**Fit-Space Argument**]({{ '/results/predictions/fit-space-argument/' | relative_url }}). The companion publication artifact remains available as a free download: [**Numerical Physics Ledger (PDF, 1.11 MB)**]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}).

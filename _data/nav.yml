@@ -277,7 +277,7 @@ lane_nav:
               - title: "Glossary (95)"
                 url: "/results/physics/glossary/"
               - title: "Calibration Cascade"
-                url: "/results/physics/cascade/"
+                url: "/results/calibration-cascade/"
               - title: "Predictions (67)"
                 url: "/results/predictions/"
               - title: "Falsifications (30)"
@@ -366,7 +366,7 @@ lane_nav:
               - title: "How to Verify (Physicist)"
                 url: "/verify/how-to-verify-by-role/physicist/"
               - title: "Physics Results · Cascade"
-                url: "/results/physics/cascade/"
+                url: "/results/calibration-cascade/"
           - title: "Life"
             url: "/verify/domain-verification/life/"
             children:
@@ -639,8 +639,10 @@ results_nav:
       - title: "Applied Philosophy"
         url: "/results/fields/philosophy-applied/"
 
-  - title: "Numerical Physics Ledger"
+  - title: "Numerical Prediction Catalogue"
     children:
+      - title: "Calibration Cascade"
+        url: "/results/calibration-cascade/"
       - title: "Predictions (67)"
         url: "/results/predictions/browse/"
       - title: "Falsifications (N1–N30)"

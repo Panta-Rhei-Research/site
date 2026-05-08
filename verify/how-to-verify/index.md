@@ -89,7 +89,7 @@ This route does not replace expert review. It orients bounded inspection.
   </a>
   <a class="v2-tile" href="{{ '/verify/predictions-and-falsification/' | relative_url }}">
     <strong>Start from Predictions / Falsification</strong>
-    <span>Follow the Numerical Physics Ledger, prediction timing, falsification paths, and falsification packs.</span>
+    <span>Follow the Numerical Prediction Catalogue, Calibration Cascade, prediction timing, falsification paths, and falsification packs.</span>
   </a>
   <a class="v2-tile" href="{{ '/verify/assessment-protocols/' | relative_url }}">
     <strong>Start from Assessment Protocols</strong>

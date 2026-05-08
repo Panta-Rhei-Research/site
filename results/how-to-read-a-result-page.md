@@ -64,7 +64,7 @@ Every result carries typed metadata in the right rail:
 
 ## How Results Map to Cascade Layers and Precision Tiers
 
-Every numerical result in the Results lane is a readout of the framework's **calibration cascade** — the four-layer compilation (L0 → L4) from two inputs: the algebraic constant ι<sub>τ</sub> = 2/(π + e) and the single SI anchor m<sub>n</sub> (the neutron mass). For a full architectural exposition, see **Chapter 58a — The Calibration Cascade** in the [Numerical Physics Ledger]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}#ch-58a).
+Every numerical result in the Results lane should be read against the framework's [**Calibration Cascade**]({{ '/results/calibration-cascade/' | relative_url }}) — the five-layer dependency overlay from the algebraic constant ι<sub>τ</sub> = 2/(π + e) and the single SI anchor m<sub>n</sub> (the neutron mass) through dimensionless ratios, SI readout / unit realization, and verification surfaces.
 
 When you are reading a single result page, two complementary dimensions are worth distinguishing:
 
@@ -73,7 +73,7 @@ When you are reading a single result page, two complementary dimensions are wort
 - **L0 (algebra)** — pure-algebraic quantities: ι<sub>τ</sub>, κ<sub>D</sub>, κ<sub>ω</sub>, continued-fraction window sums
 - **L1 (dimensionless)** — ratios, mixing angles, and couplings (e.g. α, m<sub>p</sub>/m<sub>e</sub>, Cabibbo angle)
 - **L2 (anchor)** — the single SI input m<sub>n</sub>
-- **L3 (SI-anchored)** — quantities with units (m<sub>e</sub>, G, ℏ, k<sub>B</sub>, ε<sub>0</sub>, m<sub>P</sub>) produced by the rescaling functor M<sub>SI</sub> = R<sub>M</sub>[M<sub>τ</sub>]
+- **L3 (SI readout / unit realization)** — quantities with units (m<sub>e</sub>, G, ℏ, k<sub>B</sub>, ε<sub>0</sub>, m<sub>P</sub>) produced under explicit anchor and unit-context assumptions
 - **L4 (verification)** — spectroscopic and cosmological readouts, and the {% include release-metric.html id="falsifications.records" %}-item falsification pack
 
 Knowing the layer tells you what kind of inspection is appropriate: L1 results are independent of any choice of units; L3 results inherit their SI scale from the m<sub>n</sub> anchor.

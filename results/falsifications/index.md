@@ -17,7 +17,7 @@ do_not_edit: false
 
 The **Falsification Pack** identifies the sharpest points where the τ-framework makes specific, testable claims that named experiments can test, corroborate, or refute. Each prediction (N1–N30) carries a domain, a named experiment, a timeline, and a current program-side tracking status.
 
-<div class="notice note"><strong>Scope.</strong> Falsifications complement the broader <a href="{{ '/results/predictions/' | relative_url }}">Predictions</a> ledger. Predictions list every numerical comparison; falsifications name the specific experiments whose outcomes would challenge or support key τ-categorical commitments on a fixed timeline. Current tracking labels remain internal program labels unless an item explicitly records external review.</div>
+<div class="notice note"><strong>Scope.</strong> Falsifications complement the broader <a href="{{ '/results/predictions/' | relative_url }}">Numerical Prediction Catalogue</a>. Predictions list numerical comparisons; falsifications name the specific experiments whose outcomes would challenge or support key τ-categorical commitments on a fixed timeline. The <a href="{{ '/results/calibration-cascade/' | relative_url }}">Calibration Cascade</a> records the dependency and unit-context overlay behind these claims. Current tracking labels remain internal program labels unless an item explicitly records external review.</div>
 
 ## Where to go
 
@@ -27,8 +27,12 @@ The **Falsification Pack** identifies the sharpest points where the τ-framework
     <span>Filterable grid of N1–N30 with domain, status, experiment, and timeline.</span>
   </a>
   <a class="v2-tile" href="{{ '/results/predictions/' | relative_url }}">
-    <strong>Numerical Predictions</strong>
+    <strong>Numerical Prediction Catalogue</strong>
     <span>{% include release-metric.html id="predictions.records" %} zero-parameter numerical predictions from ι<sub>τ</sub> with precision tiers.</span>
+  </a>
+  <a class="v2-tile" href="{{ '/results/calibration-cascade/' | relative_url }}">
+    <strong>Calibration Cascade</strong>
+    <span>Dependency overlay connecting predictions, constants, G-alpha bridge, source chapters, and verification comparisons.</span>
   </a>
   <a class="v2-tile" href="{{ '/results/world-readout/' | relative_url }}">
     <strong>World Readout</strong>
@@ -54,6 +58,7 @@ As of April 2026, the Falsification Pack carries current program-side tracking l
 ## Read next
 
 - [Falsification Pack — full grid]({{ '/results/falsifications/browse/' | relative_url }})
-- [Predictions — numerical ledger]({{ '/results/predictions/' | relative_url }})
+- [Predictions — Numerical Prediction Catalogue]({{ '/results/predictions/' | relative_url }})
+- [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }})
 - [How to read a result page]({{ '/results/how-to-read-a-result-page/' | relative_url }})
 - [Status & Claim Typing]({{ '/results/status-and-claim-typing/' | relative_url }})

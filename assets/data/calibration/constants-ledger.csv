@@ -1,0 +1,41 @@
+id,sequence,symbol,quantity,formula,scope,deviation,layer,unit_context
+CL-01,1,c,Speed of light,L H,E,exact,L3,si_defining_constant
+CL-02,2,ℏ,Reduced Planck constant,M L^2 H,E,exact,L3,si_defining_constant
+CL-03,3,k_e,Coulomb constant,M L^3 H^2 / Q^2,E,exact,L3,derived_si_context
+CL-04,4,ε_0,Vacuum permittivity,Q^2 / (M L^3 H^2),E,exact,L3,derived_si_context
+CL-05,5,μ_0,Vacuum permeability,M L / Q^2,E,exact,L3,derived_si_context
+CL-06,6,c^2,Electromagnetic unit identity,1/(ε_0 μ_0),E,exact,L3,derived_si_context
+CL-07,7,κ(B;2),Electromagnetic self-coupling,ι_τ^2,T,---,L1,dimensionless
+CL-08,8,κ(C;3),Strong self-coupling,ι_τ^3/(1-ι_τ),T,---,L1,dimensionless
+CL-09,9,κ(D;1),Gravity-sector self-coupling,1-ι_τ,T,---,L1,dimensionless
+CL-10,10,κ(A;1),Weak-sector self-coupling,ι_τ,T,---,L1,dimensionless
+CL-11,11,α,Fine-structure constant,(11/15)^2 ι_τ^4,T,9.8 ppm,L1,dimensionless
+CL-12,12,sin^2 θ_W,Weak mixing readout,ι_τ(1-ι_τ),T,~2.7%,L1,dimensionless
+CL-13,13,α_s,Strong coupling readout,2κ(C),T,~2.4%,L1,dimensionless
+CL-14,14,R,Neutron-to-electron mass ratio,ι_τ^-7 - (sqrt(3)+π^3α^2)ι_τ^-2,T,0.025 ppm,L1,dimensionless
+CL-15,15,m_e,Electron mass,m_n/R,T,0.025 ppm,L2,si_after_neutron_mass_anchor
+CL-16,16,m_p,Proton mass,m_n - δ_A,T,---,L2,si_after_neutron_mass_anchor
+CL-17,17,R_∞,Rydberg constant,α^2 m_e c/(2ℏ),T,0.025 ppm,L3,si_readout
+CL-18,18,a_B,Bohr radius,ℏ/(α m_e c); alias a_0^{Bohr},T,0.025 ppm,L3,si_readout
+CL-19,19,λ_C,Compton wavelength,ℏ/(m_e c),T,0.025 ppm,L3,si_readout
+CL-20,20,G,Newtonian gravitational constant,G route requires explicit unit context,T,~3 ppm,L2,si_after_neutron_mass_anchor
+CL-21,21,κ_τ,Temporal complement,1-ι_τ,T,---,L1,dimensionless
+CL-22,22,R_S,Schwarzschild-radius coefficient,2GM,T,exact,L3,si_after_g_readout
+CL-23,23,m_P,Planck mass,sqrt(ℏc/G),T,~3 ppm,L2,si_after_g_readout
+CL-24,24,ℓ_P,Planck length,ι_τ in tau-units,T,~3 ppm,L3,pending_unit_review
+CL-25,25,S_BH,Bekenstein-Hawking entropy readout,k_B A/(4ι_τ^2),T,---,L3,si_after_g_readout
+CL-26,26,α_G,Gravitational fine-structure bridge quantity,α^18 sqrt(3)(1-(3/π)α),T,~3 ppm,L1,dimensionless
+CL-27,27,c_1,Holonomy bridge coefficient,3/π,T,0.04%,L1,dimensionless
+CL-28,28,κ(A)+κ(D),Temporal complement identity,κ(A)+κ(D)=1,T,exact,L1,dimensionless
+CL-29,29,m_W,W boson mass,sector-weighted,C,~3%,L2,pending_unit_review
+CL-30,30,m_Z,Z boson mass,sector-weighted,C,~3%,L2,pending_unit_review
+CL-31,31,m_H,Higgs mass,crossing readout,C,~3%,L2,pending_unit_review
+CL-32,32,m_ν,Neutrino mass scale,m_e · ι_τ^15,C,~2.5%,L2,pending_unit_review
+CL-33,33,κ_n,Nuclear-gravitational parameter,2sqrt(3),C,0.7%,L1,dimensionless
+CL-34,34,H_0,Hubble parameter readout,cosmological readout,C,TBD,L3,pending_cosmological_unit_review
+CL-35,35,T_CMB,CMB temperature readout,regime readout,C,TBD,L3,pending_cosmological_unit_review
+CL-36,36,dark-energy-status,Dark energy,artifact,M,---,L4,not_a_numerical_constant
+CL-37,37,dark-matter-status,Dark matter,artifact,M,---,L4,not_a_numerical_constant
+CL-38,38,Λ,Cosmological constant symbol,regime label,M,---,L4,not_a_numerical_constant
+CL-39,39,vacuum-density-status,Vacuum-energy expectation,boundary capacity,M,---,L4,not_a_numerical_constant
+CL-40,40,hawking-radiation-status,Hawking radiation,absent,M,---,L4,not_a_numerical_constant

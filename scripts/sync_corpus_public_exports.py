@@ -1041,6 +1041,20 @@ def sync_wave4_metadata() -> None:
     generate_book_errata_pages(errata, editions)
 
 
+def sync_calibration() -> None:
+    source_root = CORPUS_EXPORTS / "calibration"
+    if not source_root.exists():
+        raise SystemExit(f"Missing Calibration Cascade public export: {source_root}")
+
+    data_root = SITE_ROOT / "_data" / "corpus" / "calibration"
+    clean_generated_tree(data_root, suffixes=(".yml", ".json", ".csv", ".ndjson"))
+    for source in sorted(source_root.glob("*.yml")):
+        target_name = source.name.replace("-", "_")
+        copy_file(source, data_root / target_name)
+
+    copy_tree_filtered(source_root, SITE_ROOT / "assets" / "data" / "calibration", {".json", ".yml", ".csv", ".ndjson"})
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -1058,6 +1072,7 @@ def main() -> int:
             "wave2-metadata",
             "wave3-metadata",
             "wave4-metadata",
+            "calibration",
         ),
         default="all",
         help=(
@@ -1067,7 +1082,8 @@ def main() -> int:
             "the Corpus Changelog change-control projection, the Corpus publication metadata projection, "
             "the Wave 2 Agenda/Results metadata projection, "
             "the Wave 3 construction-facing Corpus metadata projection, "
-            "or the Wave 4 governance/assets metadata projection."
+            "the Wave 4 governance/assets metadata projection, "
+            "or the Calibration Cascade Results overlay projection."
         ),
     )
     args = parser.parse_args()
@@ -1085,6 +1101,8 @@ def main() -> int:
         sync_wave3_metadata()
     if args.scope in {"all", "wave4-metadata"}:
         sync_wave4_metadata()
+    if args.scope in {"all", "calibration"}:
+        sync_calibration()
     if args.scope in {"all", "foundations"}:
         sync_foundations()
     if args.scope in {"all", "corpus-v3", "monographs"}:
