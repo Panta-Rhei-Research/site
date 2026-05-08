@@ -17,15 +17,9 @@ layout: default
       {% assign hero_type_label = hero_type_label | remove_first: hero_type_first_word | strip %}
     {% endif %}
   {% endif %}
-  <span class="eyebrow">
-    {% if page.hero_eyebrow %}
-      {{ page.hero_eyebrow }}
-    {% else %}
-      {{ hero_lane_label }}
-      {% if hero_type_label and hero_type_label != "" %} · {{ hero_type_label }}{% endif %}
-      {% if page.status %} · {{ page.status }}{% endif %}
-    {% endif %}
-  </span>
+  {% capture computed_hero_eyebrow %}{{ hero_lane_label }}{% if hero_type_label and hero_type_label != "" %} · {{ hero_type_label }}{% endif %}{% if page.status %} · {{ page.status }}{% endif %}{% endcapture %}
+  {% assign program_doc_eyebrow = page.hero_eyebrow | default: computed_hero_eyebrow %}
+  {% include hero-eyebrow.html text=program_doc_eyebrow %}
   <h1>{{ page.title_plain | default: page.title | strip_html }}</h1>
   {% if page.summary_short %}
   <p>{{ page.summary_short }}</p>

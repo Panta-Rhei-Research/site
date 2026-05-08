@@ -7,6 +7,7 @@
   padding: 24px;
   margin-bottom: $shell-gap;
   background: var(--surface-card);
+  border-radius: $radius-lg;
 }
 
 .hero-card {
@@ -14,8 +15,29 @@
   padding: 32px 30px;
   margin-bottom: $shell-gap;
   background: var(--surface-hero);
-  border-top: 4px solid var(--lane-current);
-  border-radius: $radius-2xl;
+  border-top: 3px solid var(--lane-current);
+  border-radius: $radius-lg;
+}
+
+.hero-eyebrow-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: fit-content;
+  max-width: 100%;
+  margin-bottom: 16px;
+  padding: 0.42rem 0.72rem;
+  border-radius: $radius-pill;
+  border: 1px solid rgba(22, 62, 100, 0.14);
+  background: var(--panta-blue-50);
+  color: var(--panta-blue-800);
+  font-family: $font-mono;
+  font-size: var(--text-xs);
+  font-weight: 650;
+  letter-spacing: 0.10em;
+  line-height: 1;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
 .eyebrow {
@@ -31,6 +53,12 @@
   border-radius: $radius-pill;
   padding: 4px 12px;
   margin-bottom: 16px;
+}
+
+.hero-card > .eyebrow,
+.hero-card .module-eyebrow-row > .eyebrow,
+.book-hero-text > .eyebrow {
+  @extend .hero-eyebrow-pill;
 }
 
 .summary-cards {

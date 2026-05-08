@@ -100,8 +100,8 @@
     }
   ],
   "manifest_type": "site-atlas-terminology",
-  "schema_version": "0.1.0",
-  "status": "draft",
+  "schema_version": "0.2.0",
+  "status": "active_beta_v4_baseline",
   "terminology_doctrines": {
     "impact_validation_language": {
       "allowed_contexts": {
@@ -154,5 +154,5 @@
       ]
     }
   },
-  "version": "2026-05-v4"
+  "version": "2026-05-v4-operating-baseline"
 }

@@ -70,10 +70,79 @@
       "severity": "report",
       "title": "Launch remediation queue",
       "type": "editorial"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_release_state.py --target public-launch-v4",
+      "gate_key": "release_state",
+      "severity": "required",
+      "title": "Release state and reopen ledger",
+      "type": "mechanical"
     }
   ],
   "manifest_type": "site-atlas-qa-gates",
+  "release_gates": [
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G0",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g0-build.md",
+      "title": "Repository / build gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G1",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g1-atlas-manifest.md",
+      "title": "Site Atlas manifest gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G2",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g2-terminology.md",
+      "title": "Terminology / v4 semantics gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G3",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g3-routes-navigation.md",
+      "title": "Route / navigation / redirect gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G4",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g4-pages.md",
+      "title": "Page-level editorial gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G5",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g5-collections.md",
+      "title": "Collection-level gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G6",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g6-assets-pdfs.md",
+      "title": "Asset / PDF gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G7",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g7-lanes.md",
+      "title": "Lane-level gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G8",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/g8-live-smoke.md",
+      "title": "Live-site smoke gate"
+    },
+    {
+      "blocks_greenlight": true,
+      "gate_key": "G9",
+      "required_output": "site-atlas/release/2026-05-v4-public-launch/public-launch-greenlight.md",
+      "title": "Public outreach greenlight gate"
+    }
+  ],
   "schema_version": "0.2.0",
   "status": "active",
-  "version": "2026-05-v4"
+  "version": "2026-05-v4-public-launch-gates"
 }

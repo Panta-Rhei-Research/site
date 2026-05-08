@@ -1,10 +1,10 @@
 {
   "collection_count": 17,
-  "collections_version": "2026-05-v4",
+  "collections_version": "2026-05-v4-operating-baseline",
   "page_count": 210,
-  "pages_version": "2026-05-v4-program-charter-pilot",
+  "pages_version": "2026-05-v4-operating-baseline",
   "payload_version": "2026-05-pack-f",
-  "qa_gates_version": "2026-05-v4",
+  "qa_gates_version": "2026-05-v4-public-launch-gates",
   "source": "atlas/site-atlas",
-  "terminology_version": "2026-05-v4"
+  "terminology_version": "2026-05-v4-operating-baseline"
 }
