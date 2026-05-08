@@ -8,12 +8,15 @@ updated: "April 2026"
 title: "Publications"
 permalink: "/publications/"
 type: "Lane Root"
-summary_short: "The stable public artifact layer: monographs, supplements, papers, notes, briefings, white papers, and release artifacts."
+summary_short: "The stable public artifact layer: anchor documents, monographs, supplements, papers, notes, briefings, white papers, and release artifacts."
 og_image: "/assets/images/plates/plate-07-stable-artifact-layer-og.jpg"
 twitter_image: "/assets/images/plates/plate-07-stable-artifact-layer-og.jpg"
-og_image_alt: "Scientific plate showing the Publications lane as the stable artifact layer with Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, Release Artifacts, and a classification rule."
+og_image_alt: "Scientific plate showing the Publications lane as the stable artifact layer with Anchor Documents, Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, Release Artifacts, and a classification rule."
 right_rail:
   related:
+    -
+      title: "Anchor Documents"
+      url: "/publications/anchor-documents/"
     -
       title: "Latest Publications"
       url: "/publications/latest/"
@@ -59,6 +62,7 @@ Publications is the stable artifact layer of the program. It holds released obje
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a>
+  <a class="btn" href="{{ '/publications/anchor-documents/' | relative_url }}">Open Anchor Documents</a>
   <a class="btn" href="{{ '/publications/research-monographs/' | relative_url }}">Browse Research Monographs</a>
   <a class="btn" href="{{ '/publications/monograph-supplements/' | relative_url }}">Open Monograph Supplements</a>
   <a class="btn" href="{{ '/publications/research-notes/' | relative_url }}">Read Research Notes</a>
@@ -71,6 +75,7 @@ Every publication artifact belongs to one of the categories below. These categor
 
 <ul class="v2-grid v2-card-list">
   <li><article><a class="v2-tile" href="{{ '/publications/latest/' | relative_url }}"><h3>Latest Publications</h3><p>Corpus-backed stream of released, superseded, and archived publication artifacts.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/anchor-documents/' | relative_url }}"><h3>Anchor Documents</h3><p>The citable offline canon: one charter essay plus five canonical white papers routing back into the live observatory.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/publications/research-monographs/' | relative_url }}"><h3>Research Monographs</h3><p>Full book-length canonical releases of the framework.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/publications/monograph-supplements/' | relative_url }}"><h3>Monograph Supplements</h3><p>Book-style ledgers, appendices, and supporting parts released separately, including the <strong>Numerical Physics Ledger</strong> and Categorical Genesis.</p></a></article></li>
   <li><article><a class="v2-tile" href="{{ '/publications/research-papers/' | relative_url }}"><h3>Research Papers</h3><p>Standalone scholarly papers carrying primary technical research contributions.</p></a></article></li>
@@ -81,6 +86,13 @@ Every publication artifact belongs to one of the categories below. These categor
 </ul>
 
 ## Glossary
+
+### Anchor Documents
+
+Anchor Documents are the citable offline canon of the program. They are not the
+whole research system and do not supersede the live website; they provide stable
+downloadable routes back into the Program, Corpus, TauLib, Publications, Impact,
+and Verify surfaces.
 
 ### Research Monographs
 
@@ -108,7 +120,7 @@ Public-Good Briefings are a family of Research Briefings focused on conditional 
 
 ### White Papers
 
-White Papers are structured explanatory artifacts that clarify the framework, formalization, research infrastructure, verification architecture, methodology, or public research system. They do not primarily carry new original research claims.
+White Papers are structured explanatory artifacts that clarify the framework, formalization, research infrastructure, verification architecture, methodology, or public research system. Pre-canon white papers remain available as quiet archival or superseded records when their short-route meaning is taken over by the Anchor Document Canon.
 
 ### Release Artifacts
 
@@ -118,13 +130,14 @@ Release Artifacts document the versioned state, provenance, corrections, and arc
 
 Every new publication artifact must first answer which category it belongs to.
 
-1. Is it a full book-length canonical exposition? Research Monograph.
-2. Is it book-style material attached to a monograph but released separately? Monograph Supplement.
-3. Does it carry a primary original technical research contribution? Research Paper.
-4. Is it a short scholarly response, comparison, pre-registration, or falsification note? Research Note.
-5. Is it a domain-facing synthesis or translation artifact based on existing Results? Research Briefing.
-6. Is it an explanatory, technical, architectural, formalization, methodology, or overview document? White Paper.
-7. Is it about release status, provenance, correction, or archive state? Release Artifact.
+1. Is it one of the six citable offline routes into the program canon? Anchor Document.
+2. Is it a full book-length canonical exposition? Research Monograph.
+3. Is it book-style material attached to a monograph but released separately? Monograph Supplement.
+4. Does it carry a primary original technical research contribution? Research Paper.
+5. Is it a short scholarly response, comparison, pre-registration, or falsification note? Research Note.
+6. Is it a domain-facing synthesis or translation artifact based on existing Results? Research Briefing.
+7. Is it an explanatory, technical, architectural, formalization, methodology, or overview document? White Paper.
+8. Is it about release status, provenance, correction, or archive state? Release Artifact.
 
 If an artifact fits none of these categories, a new category should only be introduced after an explicit editorial justification.
 
@@ -140,6 +153,11 @@ If an artifact fits none of these categories, a new category should only be intr
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th scope="row">C001 and WP001-WP005</th>
+      <td>Anchor Document</td>
+      <td>Citable offline canon / route back into the observatory</td>
+    </tr>
     <tr>
       <th scope="row">Book I-VII</th>
       <td>Research Monograph</td>
@@ -185,7 +203,7 @@ If an artifact fits none of these categories, a new category should only be intr
 
 ## Suggested reading order
 
-1. Start with the Framework Conspectus if you need a compact overview.
+1. Start with Anchor Documents when you need a citable offline route into the program.
 2. Use the Corpus Construction Spine to understand build order.
 3. Use Research Papers for standalone technical hinge artifacts, especially the foundational bundle behind Steps 1-3.
 4. Read the Research Monographs for canonical proof-order exposition.
