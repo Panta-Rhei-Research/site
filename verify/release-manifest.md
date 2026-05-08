@@ -59,7 +59,7 @@ The TauLib browser under `/verify/taulib/docs/` is generated from the Corpus-nat
 | Structures + inductive types | {% include release-metric.html id="taulib.structures_inductives" %} |
 | Computations (`#eval`) | {% include release-metric.html id="taulib.evals" %} |
 | Custom `axiom` declarations | **{% include release-metric.html id="taulib.custom_axioms" %}** (all in Book III — spectral / number-theoretic bridges) |
-| `sorry` (incomplete proofs) | **{% include release-metric.html id="taulib.sorry" %}** (across all 7 books) |
+| `sorry` (incomplete proofs) | **{% include release-metric.html id="taulib.sorry" %}** (across all {% include release-metric.html id="publications.books" %} books) |
 
 The {% include release-metric.html id="taulib.custom_axioms" %} custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module TauLib browser. The prior v1 release pinned at commit `181a59e` shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op — an axiom of type `True` is inhabited by `trivial` and added nothing to the theory.
 
@@ -129,7 +129,7 @@ git checkout {{ build.taulib.commit_sha }}
 # Mathlib: {{ build.mathlib.commit_short }}
 
 lake build          # Expect: 0 errors, ~8–12 min on 8-core laptop
-rg "sorry" TauLib   # Expect: 0 matches across all 7 books
+rg "sorry" TauLib   # Expect: {% include release-metric.html id="taulib.sorry" %} matches across all {% include release-metric.html id="publications.books" %} books
 ```
 
 Continuous integration runs on every push and pull request and reports file count, line count, `sorry` count, and `axiom` count to the CI log. A failed build or a regression in `sorry` count is a merge blocker on `main`.

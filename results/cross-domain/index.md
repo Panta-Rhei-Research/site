@@ -166,7 +166,7 @@ Where biology meets categorical architecture. Consciousness (LG-M01) bridges to 
 
 ## Read next
 
-- [Physics Glossary]({{ '/results/physics/glossary/' | relative_url }}) — 95 entries
-- [Life Glossary]({{ '/results/life/glossary/' | relative_url }}) — 78 entries
-- [Metaphysics Glossary]({{ '/results/metaphysics/glossary/' | relative_url }}) — 68 entries
+- [Physics Glossary]({{ '/results/physics/glossary/' | relative_url }}) — {% include release-metric.html id="glossary.physics.entries" unit=true %}
+- [Life Glossary]({{ '/results/life/glossary/' | relative_url }}) — {% include release-metric.html id="glossary.life.entries" unit=true %}
+- [Metaphysics Glossary]({{ '/results/metaphysics/glossary/' | relative_url }}) — {% include release-metric.html id="glossary.metaphysics.entries" unit=true %}
 - [Glossary Onboarding]({{ '/results/glossary-onboarding/' | relative_url }}) — vocabulary primer for τ-framework newcomers

@@ -80,7 +80,7 @@ The 78-entry [Life Glossary]({{ '/results/life/glossary/' | relative_url }}) car
 ## Read next
 
 - **[🎓 Life Guided Tour]({{ '/results/life/guided-tour/' | relative_url }})** — 6-stop, 10-minute walk-through in plain language
-- [Life Glossary]({{ '/results/life/glossary/' | relative_url }}) — all 78 entries grouped by category
+- [Life Glossary]({{ '/results/life/glossary/' | relative_url }}) — all {% include release-metric.html id="glossary.life.entries" %} entries grouped by category
 - [Calibration Tree]({{ '/results/life/cascade/' | relative_url }}) — how K_χ amplifies into observable biology
 - [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) — top results across all domains
 - [Glossary Onboarding]({{ '/results/glossary-onboarding/' | relative_url }}) — 5-minute primer on τ-framework vocabulary
