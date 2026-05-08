@@ -66,7 +66,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-biology-how-is-life-related-to-mind-machines-and-culture"
     title: "How is life related to mind, machines, and culture?"
-    url: "/results/challenge-responses/life/how-is-life-related-to-mind-machines-and-culture/"
+    url: "/results/problem-ledger-answers/life/how-is-life-related-to-mind-machines-and-culture/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -111,7 +111,7 @@ System fails τ-Distinction; no D: X → 2_τ satisfying all 5 conditions. Lacks
 - encoding-heredity-and-genotype-phenotype-split
 - how-is-life-related-to-mind-machines-and-culture
 - nervous-systems-cognition-and-life-mind-bridge
-- [How is life related to mind, machines, and culture?](/results/challenge-responses/life/how-is-life-related-to-mind-machines-and-culture/)
+- [How is life related to mind, machines, and culture?](/results/problem-ledger-answers/life/how-is-life-related-to-mind-machines-and-culture/)
 - life-as-a-recoverable-category
 
 ## Reading role

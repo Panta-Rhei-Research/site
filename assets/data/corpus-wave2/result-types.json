@@ -1,0 +1,26 @@
+{
+  "generated_from": "corpus/data/results/result-types.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/results/result-types.yml",
+  "do_not_edit": true,
+  "result_types": {
+    "consequence": {
+      "label": "Consequence"
+    },
+    "foundational_math": {
+      "label": "Foundational math"
+    },
+    "frontier_problem": {
+      "label": "Frontier problem"
+    },
+    "structural_readout": {
+      "label": "Structural readout"
+    },
+    "prediction": {
+      "label": "Prediction"
+    },
+    "falsification_facet": {
+      "label": "Falsification facet"
+    }
+  }
+}

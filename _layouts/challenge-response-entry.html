@@ -49,7 +49,14 @@ layout: default
     <ul class="meta-list" style="font-size: 0.92rem;">
       {% for ri in page.registry_items %}
       <li class="meta-item">
-        <span><a href="{{ ri.url | relative_url }}"><code>{{ ri.registry_id }}</code></a> — {{ ri.title }}</span>
+        <span>
+          {% if ri.url and ri.url != "" %}
+            <a href="{{ ri.url | relative_url }}"><code>{{ ri.registry_id }}</code></a>
+          {% else %}
+            <code>{{ ri.registry_id }}</code>
+          {% endif %}
+          — {{ ri.title }}
+        </span>
         <span class="meta-value">
           {% if ri.relation %}<span class="muted-note">{{ ri.relation | replace: "_", " " }}</span>{% endif %}
           {% if ri.confidence %}<span class="chip" style="margin-left: 6px;">confidence: {{ ri.confidence }}</span>{% endif %}

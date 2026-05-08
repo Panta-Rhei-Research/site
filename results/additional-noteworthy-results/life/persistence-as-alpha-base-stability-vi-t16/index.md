@@ -65,7 +65,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-origin-of-life"
     title: "Origin of Life"
-    url: "/results/challenge-responses/life/origin-of-life/"
+    url: "/results/problem-ledger-answers/life/origin-of-life/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -110,7 +110,7 @@ Life loop belongs to Pers_α iff underlying carrier satisfies the temporal stabi
 - [Problem of Time: Wheeler-DeWitt Frozen Formalism Dissolved](/results/problem/problem-of-time/)
 - encoding-heredity-and-genotype-phenotype-split
 - origin-of-life
-- [Origin of Life](/results/challenge-responses/life/origin-of-life/)
+- [Origin of Life](/results/problem-ledger-answers/life/origin-of-life/)
 - life-as-a-recoverable-category
 
 ## Reading role

@@ -1,0 +1,25 @@
+generated_from: corpus/data/challenge-responses/response-statuses.yml
+projection_version: v0.1
+canonical_source: corpus/data/challenge-responses/response-statuses.yml
+do_not_edit: true
+response_statuses:
+  internally_addressed:
+    label: Internally addressed
+  partially_addressed:
+    label: Partially addressed
+  structurally_constrained:
+    label: Structurally constrained
+  further_investigation:
+    label: Further investigation
+  backlog:
+    label: Backlog
+  out_of_scope:
+    label: Out of scope
+  external_recovery_checkpoint:
+    label: External recovery checkpoint
+  partial:
+    label: Partial
+  tau_native:
+    label: τ-native
+  recovery_checkpoint:
+    label: Recovery checkpoint

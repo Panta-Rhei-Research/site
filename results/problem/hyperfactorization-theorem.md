@@ -29,7 +29,8 @@ lean_formalization_status: "none"
 cascade_layer: "kernel"
 foundational_hinge_ids:
   - "FH-H1"
-glossary_term_ids: []
+glossary_term_ids:
+  - "MathG-T01-hyperfactorization"
 recovery_requirement_ids: []
 generated_from: "corpus/results"
 projection_version: "v0.2"
@@ -39,7 +40,7 @@ do_not_edit: true
 
 ## Overview
 
-The Hyperfactorization Theorem (I.T04, Hinge Theorem 1) establishes that every object x ∈ Obj(τ) has a unique canonical decomposition Φ(x) = (A, B, C, D) — the [ABCD coordinate chart]({{ '/corpus/monograph-corpus/' | relative_url }}). This decomposition is provable in ZFC and serves as the backbone of canonical addressability throughout the series. Every mathematical object in the framework has a unique structural address, and Gödel numbering is recovered as a special case. The ABCD chart governs inter-sector coupling in physics, the sector assignments in Book III, and the addressability of living systems in Book VI.
+The Hyperfactorization Theorem (I.T04, Hinge Theorem 1) establishes that every object x ∈ Obj(τ) has a unique canonical decomposition Φ(x) = (A, B, C, D) — the [ABCD coordinate chart]({{ '/corpus/monographs/' | relative_url }}). This decomposition is provable in ZFC and serves as the backbone of canonical addressability throughout the series. Every mathematical object in the framework has a unique structural address, and Gödel numbering is recovered as a special case. The ABCD chart governs inter-sector coupling in physics, the sector assignments in Book III, and the addressability of living systems in Book VI.
 
 ## Detail
 

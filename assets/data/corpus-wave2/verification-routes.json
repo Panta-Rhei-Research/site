@@ -1,0 +1,29 @@
+{
+  "generated_from": "corpus/data/challenge-responses/verification-routes.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/challenge-responses/verification-routes.yml",
+  "do_not_edit": true,
+  "verification_routes": {
+    "formal_proof_checking": {
+      "label": "Formal proof checking"
+    },
+    "bridge_verification": {
+      "label": "Bridge verification"
+    },
+    "empirical_accountability": {
+      "label": "Empirical accountability"
+    },
+    "categorical_register_check": {
+      "label": "Categorical register check"
+    },
+    "commitment_register_audit": {
+      "label": "Commitment register audit"
+    },
+    "prior_art_review": {
+      "label": "Prior-art review"
+    },
+    "domain_expert_review": {
+      "label": "Domain expert review"
+    }
+  }
+}

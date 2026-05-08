@@ -1,0 +1,105 @@
+{
+  "generated_from": "corpus/data/results/progress-against-agenda.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/results/progress-against-agenda.yml",
+  "do_not_edit": true,
+  "progress": {
+    "counts": {
+      "structural_challenges": 214,
+      "challenge_responses": 214,
+      "generic_results": 255,
+      "predictions": 67,
+      "falsification_n_tests": 30
+    },
+    "structural_challenges": {
+      "by_domain": {
+        "life": 29,
+        "mathematics": 38,
+        "metaphysics": 30,
+        "physics": 117
+      },
+      "by_status": {
+        "canonical": 214
+      }
+    },
+    "challenge_responses": {
+      "by_domain": {
+        "life": 29,
+        "mathematics": 38,
+        "metaphysics": 30,
+        "physics": 117
+      },
+      "by_status": {
+        "external_recovery_checkpoint": 4,
+        "further_investigation": 46,
+        "internally_addressed": 29,
+        "out_of_scope": 12,
+        "partially_addressed": 10,
+        "structurally_constrained": 113
+      }
+    },
+    "generic_results": {
+      "by_domain": {
+        "biology": 53,
+        "life": 2,
+        "mathematics": 77,
+        "philosophy": 45,
+        "physics": 78
+      },
+      "by_type": {
+        "consequence": 26,
+        "foundational_math": 30,
+        "frontier_problem": 108,
+        "structural_readout": 91
+      },
+      "by_status": {
+        "contradicted": 6,
+        "internally_addressed": 218,
+        "not_addressed": 9,
+        "partial": 20,
+        "qualitative": 2
+      }
+    },
+    "predictions": {
+      "by_type": {
+        "forward_test": 8,
+        "retro_consistency_postdiction": 42,
+        "structural_binary": 17
+      },
+      "by_precision_tier": {
+        "percent_1_to_5": 17,
+        "ppm_10_to_1000": 11,
+        "structural": 24,
+        "sub_10_ppm": 15
+      },
+      "by_cascade_tier": {
+        "binary": 19,
+        "tier_a": 45,
+        "tier_b": 2,
+        "tier_c": 1
+      },
+      "by_scope": {
+        "conjectural": 8,
+        "tau_effective": 59
+      }
+    },
+    "falsifications": {
+      "by_tier": {
+        "binary": 10,
+        "tier_a": 13,
+        "tier_b": 7
+      },
+      "by_tracking_status": {
+        "consistent_current_data": 26,
+        "internally_matched_current_data": 4
+      }
+    },
+    "status_boundary": "These counts report internal Corpus classification and public projection readiness. They do not by themselves assert formal verification or external acceptance.",
+    "separation_doctrine": [
+      "Structural Challenges are Agenda-side obligations.",
+      "Challenge Responses are Results-side responses to those obligations.",
+      "Generic Results are a separate consequence catalogue.",
+      "Predictions and Falsifications are specialized accountability facets."
+    ]
+  }
+}

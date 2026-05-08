@@ -63,7 +63,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-biology-metabolism-in-henneguya-zschokkei-a-species-of-myxozoan"
     title: "Metabolism in Henneguya zschokkei, a species of myxozoan"
-    url: "/results/challenge-responses/life/metabolism-in-henneguya-zschokkei-a-species-of-myxozoan/"
+    url: "/results/problem-ledger-answers/life/metabolism-in-henneguya-zschokkei-a-species-of-myxozoan/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -106,7 +106,7 @@ Life loops winding nontrivially around η-circle (recycling); archetype: fungi d
 - metabolism-in-henneguya-zschokkei-a-species-of-myxozoan
 - life-as-a-recoverable-category
 - metabolism-and-energy-throughput
-- [Metabolism in Henneguya zschokkei, a species of myxozoan](/results/challenge-responses/life/metabolism-in-henneguya-zschokkei-a-species-of-myxozoan/)
+- [Metabolism in Henneguya zschokkei, a species of myxozoan](/results/problem-ledger-answers/life/metabolism-in-henneguya-zschokkei-a-species-of-myxozoan/)
 - [Seven Hallmarks of Life as Theorems](/results/problem/seven-hallmarks-as-theorems/)
 
 ## Reading role

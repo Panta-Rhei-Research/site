@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-principle"
     title: "Cosmological principle"
-    url: "/results/challenge-responses/physics/cosmological-principle/"
+    url: "/results/problem-ledger-answers/physics/cosmological-principle/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -121,7 +121,7 @@ Two independent cosmological horizons from single ι_τ input. CMB horizon: α_�
 
 ## Related Results surfaces
 
-- [Cosmological principle](/results/challenge-responses/physics/cosmological-principle/)
+- [Cosmological principle](/results/problem-ledger-answers/physics/cosmological-principle/)
 - [CMB First Peak ℓ₁: LO at +2840 ppm, NLO at +69 ppm](/results/problem/cmb-first-peak/)
 - [Crossing-Limit Theorem: Merger Networks Converge to ιτ](/results/problem/crossing-limit-theorem-merger-networks-iota-tau/)
 - [Fine-Tuning Dissolved](/results/problem/fine-tuning-dissolved/)

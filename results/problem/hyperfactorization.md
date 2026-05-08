@@ -29,7 +29,8 @@ provenance_source: "manuscript"
 lean_formalization_status: "none"
 cascade_layer: "kernel"
 foundational_hinge_ids: []
-glossary_term_ids: []
+glossary_term_ids:
+  - "MathG-T01-hyperfactorization"
 recovery_requirement_ids: []
 generated_from: "corpus/results"
 projection_version: "v0.2"
@@ -39,11 +40,11 @@ do_not_edit: true
 
 ## Overview
 
-The Hyperfactorization Theorem (I.T04) is the first hinge theorem of the entire series. It proves that the [ABCD Coordinate Chart]({{ '/corpus/monograph-corpus/' | relative_url }}) is injective: every object in Category <math><mi>&tau;</mi></math> has a *unique* four-dimensional address. Without this result, the coordinate system would be ambiguous and all subsequent structural claims would collapse.
+The Hyperfactorization Theorem (I.T04) is the first hinge theorem of the entire series. It proves that the [ABCD Coordinate Chart]({{ '/corpus/monographs/' | relative_url }}) is injective: every object in Category <math><mi>&tau;</mi></math> has a *unique* four-dimensional address. Without this result, the coordinate system would be ambiguous and all subsequent structural claims would collapse.
 
 ## Detail
 
-Three lemmas support the theorem: tetration injectivity, the No-Tie Lemma (I.L03, ensuring the greedy peel is deterministic), and Strict Remainder Descent (I.L04, ensuring termination). The consequence is that shadow equality collapses to ontic identity -- distinct objects always have distinct addresses. See the [full derivation]({{ '/results/problem/hyperfactorization-theorem/' | relative_url }}) and the [Hyperfactorization module]({{ '/corpus/monograph-corpus/' | relative_url }}) for the complete proof structure.
+Three lemmas support the theorem: tetration injectivity, the No-Tie Lemma (I.L03, ensuring the greedy peel is deterministic), and Strict Remainder Descent (I.L04, ensuring termination). The consequence is that shadow equality collapses to ontic identity -- distinct objects always have distinct addresses. See the [full derivation]({{ '/results/problem/hyperfactorization-theorem/' | relative_url }}) and the [Hyperfactorization module]({{ '/corpus/monographs/' | relative_url }}) for the complete proof structure.
 
 ## Result Statement
 

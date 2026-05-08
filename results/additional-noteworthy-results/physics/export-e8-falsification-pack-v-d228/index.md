@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/challenge-responses/physics/dark-energy/"
+    url: "/results/problem-ledger-answers/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -69,7 +69,7 @@ Exports 5 falsifiable predictions: dark matter null, BH echoes, neutrino mass, G
 
 ## Related Results surfaces
 
-- [Dark energy](/results/challenge-responses/physics/dark-energy/)
+- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
 - [Dark Sector Closure](/results/problem/dark-sector-closure/)
 
 ## Reading role

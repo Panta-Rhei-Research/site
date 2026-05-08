@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-hubble-tension"
     title: "Hubble tension"
-    url: "/results/challenge-responses/physics/hubble-tension/"
+    url: "/results/problem-ledger-answers/physics/hubble-tension/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -66,7 +66,7 @@ The depth correction delta H ~ H_infty iota_tau^{n_0}, where n_0 is the transiti
 ## Related Results surfaces
 
 - hubble-tension
-- [Hubble tension](/results/challenge-responses/physics/hubble-tension/)
+- [Hubble tension](/results/problem-ledger-answers/physics/hubble-tension/)
 
 ## Reading role
 
