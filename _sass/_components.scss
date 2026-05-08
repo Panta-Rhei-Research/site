@@ -120,6 +120,7 @@
 }
 
 .v2-tile {
+  --v2-tile-accent: var(--panta-blue-700);
   display: block;
   min-height: 132px;
   padding: 18px;
@@ -134,7 +135,8 @@
   &:hover {
     transform: translateY(-2px);
     background: var(--surface-raised);
-    border-color: var(--lane-current);
+    border-color: var(--color-line-strong);
+    border-top-color: var(--v2-tile-accent);
     box-shadow: var(--shadow-card);
   }
 
@@ -174,6 +176,7 @@
   min-height: 200px;
   padding: 22px 24px;
   border-top-width: 4px;
+  border-top-color: var(--v2-tile-accent);
 
   .eyebrow {
     display: block;
@@ -181,7 +184,7 @@
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: $text-muted;
+    color: var(--v2-tile-accent);
   }
 
   h3 {
@@ -202,10 +205,14 @@
   }
 }
 
-.v2-tile-mathematics { border-top-color: #163e64; }
-.v2-tile-physics     { border-top-color: #1f5d3d; }
-.v2-tile-life        { border-top-color: #6b4a14; }
-.v2-tile-metaphysics { border-top-color: #4d3a6b; }
+.v2-tile-layer {
+  border-top-color: var(--v2-tile-accent);
+}
+
+.v2-tile-mathematics { --v2-tile-accent: var(--layer-e0); }
+.v2-tile-physics     { --v2-tile-accent: var(--layer-e1); }
+.v2-tile-life        { --v2-tile-accent: var(--layer-e2); }
+.v2-tile-metaphysics { --v2-tile-accent: var(--layer-e3); }
 
 // v3.4 — Plain-language accordion (expanded by default on result pages)
 .result-plain-language {

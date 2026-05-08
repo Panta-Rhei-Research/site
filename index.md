@@ -146,10 +146,10 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
   <p class="v2-kicker">World readout</p>
   <h2>What the theory currently says follows, domain by domain</h2>
   <div class="v2-grid">
-    <a class="v2-tile" href="{{ '/results/world-readout/mathematics/' | relative_url }}"><h3>Mathematics</h3><p>Foundations, holomorphy, spectral structure, and problem surfaces.</p></a>
-    <a class="v2-tile" href="{{ '/results/world-readout/physics/' | relative_url }}"><h3>Physics</h3><p>Microcosm, macrocosm, constants, predictions, and falsification seams.</p></a>
-    <a class="v2-tile" href="{{ '/results/world-readout/life/' | relative_url }}"><h3>Life</h3><p>Self-decoding distinctions, biological structure, agency, and persistence.</p></a>
-    <a class="v2-tile" href="{{ '/results/world-readout/metaphysics/' | relative_url }}"><h3>Metaphysics</h3><p>Ontology, ethics, consciousness, and the final enrichment layer.</p></a>
+    <a class="v2-tile v2-tile-layer v2-tile-mathematics" href="{{ '/results/world-readout/mathematics/' | relative_url }}"><h3>Mathematics</h3><p>Foundations, holomorphy, spectral structure, and problem surfaces.</p></a>
+    <a class="v2-tile v2-tile-layer v2-tile-physics" href="{{ '/results/world-readout/physics/' | relative_url }}"><h3>Physics</h3><p>Microcosm, macrocosm, constants, predictions, and falsification seams.</p></a>
+    <a class="v2-tile v2-tile-layer v2-tile-life" href="{{ '/results/world-readout/life/' | relative_url }}"><h3>Life</h3><p>Self-decoding distinctions, biological structure, agency, and persistence.</p></a>
+    <a class="v2-tile v2-tile-layer v2-tile-metaphysics" href="{{ '/results/world-readout/metaphysics/' | relative_url }}"><h3>Metaphysics</h3><p>Ontology, ethics, consciousness, and the final enrichment layer.</p></a>
   </div>
 </section>
 

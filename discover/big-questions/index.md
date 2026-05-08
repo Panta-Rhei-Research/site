@@ -42,19 +42,19 @@ right_rail:
 This page is not the full research agenda and not the full Results ledger. It is a first-pass map of the question families that make the program worth inspecting.
 
 <div class="v2-grid v2-grid-2">
-  <a class="v2-tile" href="{{ '/results/world-readout/mathematics/' | relative_url }}">
+  <a class="v2-tile v2-tile-layer v2-tile-mathematics" href="{{ '/results/world-readout/mathematics/' | relative_url }}">
     <h3>Mathematics</h3>
     <p>What would a coherent formal foundation have to look like?</p>
   </a>
-  <a class="v2-tile" href="{{ '/results/world-readout/physics/' | relative_url }}">
+  <a class="v2-tile v2-tile-layer v2-tile-physics" href="{{ '/results/world-readout/physics/' | relative_url }}">
     <h3>Physics</h3>
     <p>Can cosmological and particle-scale tensions be structurally derived rather than patched?</p>
   </a>
-  <a class="v2-tile" href="{{ '/results/world-readout/life/' | relative_url }}">
+  <a class="v2-tile v2-tile-layer v2-tile-life" href="{{ '/results/world-readout/life/' | relative_url }}">
     <h3>Life</h3>
     <p>Why is life possible at all, and what makes biological structure more than chemistry?</p>
   </a>
-  <a class="v2-tile" href="{{ '/results/world-readout/metaphysics/' | relative_url }}">
+  <a class="v2-tile v2-tile-layer v2-tile-metaphysics" href="{{ '/results/world-readout/metaphysics/' | relative_url }}">
     <h3>Metaphysics</h3>
     <p>What is the relation between mind, reality, value, and commitment?</p>
   </a>
