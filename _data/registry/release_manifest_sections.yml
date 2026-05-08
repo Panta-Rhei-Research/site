@@ -70,7 +70,7 @@ sections:
     | Structures + inductive types | {% include release-metric.html id="taulib.structures_inductives" %} |
     | Computations (`#eval`) | {% include release-metric.html id="taulib.evals" %} |
     | Custom `axiom` declarations | **{% include release-metric.html id="taulib.custom_axioms" %}** (all in Book III — spectral / number-theoretic bridges) |
-    | `sorry` (incomplete proofs) | **{% include release-metric.html id="taulib.sorry" %}** (across all 7 books) |
+    | `sorry` (incomplete proofs) | **{% include release-metric.html id="taulib.sorry" %}** (across all {% include release-metric.html id="publications.books" %} books) |
 
     The {% include release-metric.html id="taulib.custom_axioms" %} custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module TauLib browser. The prior v1 release pinned at commit `181a59e` shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op — an axiom of type `True` is inhabited by `trivial` and added nothing to the theory.
 
@@ -144,7 +144,7 @@ sections:
     # Mathlib: {{ build.mathlib.commit_short }}
 
     lake build          # Expect: 0 errors, ~8–12 min on 8-core laptop
-    rg "sorry" TauLib   # Expect: 0 matches across all 7 books
+    rg "sorry" TauLib   # Expect: {% include release-metric.html id="taulib.sorry" %} matches across all {% include release-metric.html id="publications.books" %} books
     ```
 
     Continuous integration runs on every push and pull request and reports file count, line count, `sorry` count, and `axiom` count to the CI log. A failed build or a regression in `sorry` count is a merge blocker on `main`.
@@ -162,9 +162,9 @@ sha256_checksums:
   '__preamble__': '077bd63d09631831'
   'Release state and trusted base': '5645da445738eed8'
   'Release identity': 'ed67f7af74c0b89a'
-  'Build status — summary': 'ba6fef430d38b98f'
+  'Build status — summary': 'a3f285efcb9789ec'
   'Per-book reconciliation': '27daae2d0b703370'
   'How to read apparent "drift"': '8aa7ff8b50e9bef3'
   'What this release does NOT claim': '08c18ddaafeef27d'
-  'Reproduction instructions': '256f798f95614a33'
+  'Reproduction instructions': 'ed439638e8adbde5'
   'Next release targets': 'a03f32a9ced92312'
