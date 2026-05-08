@@ -15,13 +15,14 @@
   padding: 32px 30px;
   margin-bottom: $shell-gap;
   background: var(--surface-hero);
-  border-top: 3px solid var(--lane-current);
+  border-top: 3px solid var(--panta-blue-700);
   border-radius: $radius-lg;
 }
 
 .hero-eyebrow-pill {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.45rem;
   width: fit-content;
   max-width: 100%;
@@ -40,6 +41,42 @@
   overflow-wrap: anywhere;
 }
 
+.hero-eyebrow-breadcrumb {
+  row-gap: 0.24rem;
+}
+
+.hero-eyebrow-link,
+.hero-eyebrow-current,
+.hero-eyebrow-separator {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.15rem;
+}
+
+.hero-eyebrow-link {
+  color: inherit;
+  text-decoration: none;
+  border-radius: $radius-pill;
+  transition: color var(--motion-fast), background var(--motion-fast), transform var(--motion-fast), box-shadow var(--motion-fast);
+
+  &:hover,
+  &:focus-visible {
+    color: var(--panta-blue-900);
+    background: rgba(22, 62, 100, 0.07);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+}
+
+.hero-eyebrow-separator {
+  color: rgba(22, 62, 100, 0.42);
+}
+
 .eyebrow {
   display: inline-block;
   font-family: $font-ui;
@@ -47,8 +84,8 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0;
-  color: var(--lane-current);
-  background: var(--lane-current-soft);
+  color: var(--panta-blue-700);
+  background: var(--panta-blue-50);
   border: 1px solid rgba(21, 23, 28, 0.06);
   border-radius: $radius-pill;
   padding: 4px 12px;
@@ -259,10 +296,10 @@ a.chip-link, a.chip.chip-link {
   font-size: 0.72rem;
   font-weight: 500;
 }
-.chip-cascade-kernel { background: #e9eef5; color: #163e64; border-color: #c9d4e3; }
-.chip-cascade-physics-cascade { background: #ddebe2; color: #1f5d3d; border-color: #b8d4c2; }
-.chip-cascade-life-cascade { background: #f3e8d4; color: #6b4a14; border-color: #d8c5a0; }
-.chip-cascade-metaphysics-architecture { background: #e8e2ee; color: #4d3a6b; border-color: #c2b5d4; }
+.chip-cascade-kernel { background: var(--layer-e0-wash); color: var(--layer-e0-dark); border-color: var(--layer-e0-pale); }
+.chip-cascade-physics-cascade { background: var(--layer-e1-wash); color: var(--layer-e1-dark); border-color: var(--layer-e1-pale); }
+.chip-cascade-life-cascade { background: var(--layer-e2-wash); color: var(--layer-e2-dark); border-color: var(--layer-e2-pale); }
+.chip-cascade-metaphysics-architecture { background: var(--layer-e3-wash); color: var(--layer-e3-dark); border-color: var(--layer-e3-pale); }
 
 // Verify-Lane v3.1 — verify-page badges (Lean coverage / mode / bridge / scope)
 .chip-row-verify {
@@ -328,9 +365,10 @@ a.chip-link, a.chip.chip-link {
     border-color: var(--lane-current);
   }
 }
-.chip-glossary-physics  { background: #ddebe2; color: #1f5d3d; border-color: #b8d4c2; }
-.chip-glossary-life     { background: #f3e8d4; color: #6b4a14; border-color: #d8c5a0; }
-.chip-glossary-metaphysics { background: #e8e2ee; color: #4d3a6b; border-color: #c2b5d4; }
+.chip-glossary-mathematics { background: var(--layer-e0-wash); color: var(--layer-e0-dark); border-color: var(--layer-e0-pale); }
+.chip-glossary-physics  { background: var(--layer-e1-wash); color: var(--layer-e1-dark); border-color: var(--layer-e1-pale); }
+.chip-glossary-life     { background: var(--layer-e2-wash); color: var(--layer-e2-dark); border-color: var(--layer-e2-pale); }
+.chip-glossary-metaphysics { background: var(--layer-e3-wash); color: var(--layer-e3-dark); border-color: var(--layer-e3-pale); }
 .chip-glossary-missing  { background: #f1f1f1; color: #999; font-style: italic; cursor: not-allowed; }
 
 // Cross-domain chip used in glossary "See Also"
