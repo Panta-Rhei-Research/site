@@ -958,6 +958,8 @@ def sync_publication_metadata() -> None:
         source = CORPUS_EXPORTS / filename
         if source.exists():
             copy_file(source, SITE_ROOT / "assets" / "data" / "publications" / filename)
+        else:
+            print(f"skipped missing Corpus publication asset export: {source}")
     overlay_anchor_publication_metadata()
 
 
@@ -1106,6 +1108,8 @@ def publication_overlay_record(
             "related_lanes": (
                 ["publications", "corpus", "verify"]
                 if publication_id == "wp003"
+                else ["publications", "program", "agenda", "corpus", "results", "verify", "impact", "engage"]
+                if publication_id == "wp004"
                 else ["publications", "program", "verify"]
             ),
             "related_routes": [str(row.get("canonical_url") or "")],

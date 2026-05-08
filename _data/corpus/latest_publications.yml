@@ -358,23 +358,23 @@ publications:
   type: white_paper
   type_label: White Paper
   publication_role: governance
-  status: planned
-  artifact_availability: planned
-  route_status: reserved
-  release_date: planned
-  version: planned canonical v1.0
+  status: released
+  artifact_availability: local_pdf
+  route_status: active
+  release_date: '2026-05-08'
+  version: canonical v1.0
   title: Public Research Observatory Blueprint
-  subtitle: The inspection architecture route
+  subtitle: Inspection architecture for high-scope open research
   short_title: Public Research Observatory Blueprint
   authors:
   - person_key: thorsten_fuchs
     name: Thorsten Fuchs
   - person_key: anna_sophie_fuchs
     name: Anna-Sophie Fuchs
-  abstract: A reusable architecture blueprint for how high-scope open research can
-    remain inspectable.
-  summary_short: A reusable architecture blueprint for how high-scope open research
-    can remain inspectable.
+  abstract: A canonical v1.0 blueprint for making high-scope open research inspectable
+    before belief, using Panta Rhei as a live public research observatory case study.
+  summary_short: A canonical v1.0 blueprint for making high-scope open research inspectable
+    before belief, using Panta Rhei as a live public research observatory case study.
   site_role: ''
   claim_boundary:
     claim: Citable offline route into the public observatory. It routes readers back
@@ -388,11 +388,11 @@ publications:
   slug: wp004-public-research-observatory-blueprint
   github_path: anchor-documents/wp004-public-research-observatory-blueprint
   files:
-    pdf_filename: ''
-    pdf_url: ''
-    pdf_path_site: ''
-    pdf_path_publications_repo: ''
-    source_website_asset_path: ''
+    pdf_filename: wp004-public-research-observatory-blueprint.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf
+    pdf_path_publications_repo: anchor-documents/wp004-public-research-observatory-blueprint/wp004-public-research-observatory-blueprint.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf
   identifiers:
     doi: ''
     doi_url: ''
@@ -404,7 +404,12 @@ publications:
     related_lanes:
     - publications
     - program
+    - agenda
+    - corpus
+    - results
     - verify
+    - impact
+    - engage
     related_routes:
     - https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/
     related_books: []
@@ -418,20 +423,20 @@ publications:
     preferred: ''
     bibtex_key: ''
   scholar:
-    include_meta_tags: false
+    include_meta_tags: true
     citation_title: Public Research Observatory Blueprint
     citation_author:
     - Thorsten Fuchs
     - Anna-Sophie Fuchs
-    citation_publication_date: planned
-    citation_pdf_url: ''
+    citation_publication_date: 2026/05/08
+    citation_pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf
     citation_doi: ''
     citation_technical_report_institution: Panta Rhei Research Program
   integrity:
-    bytes: 0
-    sha256: ''
-    sha512: ''
-    ots_status: not_applicable
+    bytes: 467615
+    sha256: bc82d22f42ced33204616be37ab297a9492e4a1f260edbc955ee1dfb749ce743
+    sha512: 829439e14ec9019c92893ee7727296c495118bb5efc845df7b9cd1b585769fda8dcb4a481c624c26b5faaecd67b66ff02472a6bb16ec89c78a376cfed7e5feb5
+    ots_status: missing
   metadata_sources:
     publications_catalog: publications/catalog/publications.json
     publications_manifest: publications/anchor-documents/wp004-public-research-observatory-blueprint/manifest.json
@@ -446,23 +451,23 @@ publications:
   type: white_paper
   type_label: White Paper
   publication_role: translation
-  status: planned
-  artifact_availability: planned
-  route_status: reserved
-  release_date: planned
-  version: planned canonical v1.0
+  status: released
+  artifact_availability: local_pdf
+  route_status: active
+  release_date: '2026-05-08'
+  version: canonical v1.0
   title: Global Public Good Impact Overview
-  subtitle: The conditional-impact route
+  subtitle: Conditional pathways from T Theory to planetary systems
   short_title: Global Public Good Impact Overview
   authors:
   - person_key: thorsten_fuchs
     name: Thorsten Fuchs
   - person_key: anna_sophie_fuchs
     name: Anna-Sophie Fuchs
-  abstract: A conditional synthesis of the Impact lane, 11 public-good portfolios,
-    and 44 dossier routes.
-  summary_short: A conditional synthesis of the Impact lane, 11 public-good portfolios,
-    and 44 dossier routes.
+  abstract: A canonical v1.0 conditional synthesis of the Impact lane, 11 public-good
+    portfolios, and 44 Public-Good Briefings / Impact Dossiers.
+  summary_short: A canonical v1.0 conditional synthesis of the Impact lane, 11 public-good
+    portfolios, and 44 Public-Good Briefings / Impact Dossiers.
   site_role: ''
   claim_boundary:
     claim: Citable offline route into the public observatory. It routes readers back
@@ -476,11 +481,11 @@ publications:
   slug: wp005-global-public-good-impact-overview
   github_path: anchor-documents/wp005-global-public-good-impact-overview
   files:
-    pdf_filename: ''
-    pdf_url: ''
-    pdf_path_site: ''
-    pdf_path_publications_repo: ''
-    source_website_asset_path: ''
+    pdf_filename: wp005-global-public-good-impact-overview.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
+    pdf_path_publications_repo: anchor-documents/wp005-global-public-good-impact-overview/wp005-global-public-good-impact-overview.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
   identifiers:
     doi: ''
     doi_url: ''
@@ -506,20 +511,20 @@ publications:
     preferred: ''
     bibtex_key: ''
   scholar:
-    include_meta_tags: false
+    include_meta_tags: true
     citation_title: Global Public Good Impact Overview
     citation_author:
     - Thorsten Fuchs
     - Anna-Sophie Fuchs
-    citation_publication_date: planned
-    citation_pdf_url: ''
+    citation_publication_date: 2026/05/08
+    citation_pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
     citation_doi: ''
     citation_technical_report_institution: Panta Rhei Research Program
   integrity:
-    bytes: 0
-    sha256: ''
-    sha512: ''
-    ots_status: not_applicable
+    bytes: 240636
+    sha256: 98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12
+    sha512: 0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b
+    ots_status: missing
   metadata_sources:
     publications_catalog: publications/catalog/publications.json
     publications_manifest: publications/anchor-documents/wp005-global-public-good-impact-overview/manifest.json
