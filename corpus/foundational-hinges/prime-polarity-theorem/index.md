@@ -5,7 +5,7 @@ permalink: "/corpus/foundational-hinges/prime-polarity-theorem/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "foundational-hinges"
-type: "Foundational Hinge"
+type: "Review Packet Item"
 status: "Canonical"
 summary_short: "Review gateway for whether prime polarity is internally generated rather than imported or retrofitted number-theoretic patterning."
 foundational_hinge_id: "FH-H2"
@@ -18,7 +18,7 @@ do_not_edit: true
 right_rail:
   related:
     -
-      title: "Foundational Hinges"
+      title: "Construction Review Packet"
       url: "/corpus/foundational-hinges/"
     -
       title: "The Prime Polarity Theorem"
@@ -30,7 +30,7 @@ right_rail:
       title: "Construction Spine"
       url: "/corpus/construction-spine/"
   meta:
-    type: "Foundational Hinge"
+    type: "Review Packet Item"
     scope: "H2"
     status: "Canonical"
     updated: "May 2026"

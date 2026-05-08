@@ -1,0 +1,30 @@
+generated_from: corpus/data/construction/construction-projections.yml
+projection_version: v0.1
+canonical_source: corpus/data/construction/construction-projections.yml
+do_not_edit: true
+projections:
+  registry:
+    title: Registry
+    role: atomic_item_projection
+    route: /corpus/registry/
+  taulib:
+    title: TauLib
+    role: formalization_projection
+    route: /corpus/taulib/
+  monograph_corpus:
+    title: Monograph Corpus
+    role: narrative_proof_order_projection
+    route: /corpus/monograph-corpus/
+  publications:
+    title: Publications
+    role: citable_artifact_shelf
+    route: /publications/
+  corpus_graph:
+    title: Corpus Graph
+    role: dependency_projection
+    route: /corpus/graph/
+  bi_square_motif:
+    title: Bi-Square Motif
+    role: recurring_construction_motif
+    route: /corpus/bi-square/
+    canonical_role: orientation_route

@@ -1,0 +1,24 @@
+generated_from: corpus/data
+projection_version: v0.1
+canonical_source: corpus/data
+do_not_edit: true
+title: Corpus Metadata Wave 3 Public Export
+summary: Stable public export family for construction-facing Corpus metadata.
+counts:
+  registry_public_objects: 4139
+  construction_steps: 10
+  review_packets: 1
+  construction_motifs: 1
+  monograph_books: 7
+  monograph_parts: 79
+  monograph_chapters: 537
+  taulib_modules: 512
+  glossary_entries: 282
+exports:
+  metadata_family: exports/public/metadata-wave3/
+  registry_objects: exports/public/metadata-wave3/registry-objects/
+  graph: exports/public/metadata-wave3/graph/
+role_boundary:
+- Construction review packets are orientation/reviewer packet metadata, not standalone Corpus collections.
+- Construction motifs describe recurring diagrammatic/proof-organizing shapes, not a second Construction Spine.
+- TauLib source remains owned by the public taulib repo; Corpus exports projection metadata.

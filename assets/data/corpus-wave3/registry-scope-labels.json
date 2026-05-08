@@ -1,0 +1,24 @@
+{
+  "generated_from": "corpus/data/registry/scope-labels.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/registry/scope-labels.yml",
+  "do_not_edit": true,
+  "scope_labels": {
+    "established": {
+      "label": "Established",
+      "description": "Standard or externally established material."
+    },
+    "tau_effective": {
+      "label": "τ-effective",
+      "description": "Internal τ-derived or τ-effective construction/result."
+    },
+    "conjectural": {
+      "label": "Conjectural",
+      "description": "Requires conjectural bridge or axiomized dependency."
+    },
+    "metaphorical": {
+      "label": "Metaphorical",
+      "description": "Interpretive or analogy-level reading."
+    }
+  }
+}

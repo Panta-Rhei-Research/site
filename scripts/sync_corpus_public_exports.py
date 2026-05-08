@@ -36,6 +36,15 @@ def copy_tree(source: Path, target: Path) -> None:
             copy_file(path, target / path.relative_to(source))
 
 
+def copy_tree_filtered(source: Path, target: Path, suffixes: set[str]) -> None:
+    if target.exists():
+        shutil.rmtree(target)
+    target.mkdir(parents=True, exist_ok=True)
+    for path in sorted(source.rglob("*")):
+        if path.is_file() and path.suffix in suffixes:
+            copy_file(path, target / path.relative_to(source))
+
+
 def normalize_taulib_projection_routes(path: Path) -> None:
     if not path.exists() or not path.is_file():
         return
@@ -584,6 +593,47 @@ def sync_wave2_metadata() -> None:
         normalize_monograph_projection_routes(target)
 
 
+def sync_wave3_metadata() -> None:
+    source_root = CORPUS_EXPORTS / "metadata-wave3"
+    if not source_root.exists():
+        raise SystemExit(f"Missing Wave 3 metadata public export: {source_root}")
+
+    corpus_data_targets = {
+        "index.yml": "wave3_index.yml",
+        "registry-count-model.yml": "registry_count_model.yml",
+        "registry-object-types.yml": "registry_object_types.yml",
+        "registry-scope-labels.yml": "registry_scope_labels.yml",
+        "registry-book-index.yml": "registry_book_index.yml",
+        "construction-steps.yml": "construction_steps.yml",
+        "construction-projections.yml": "construction_projections.yml",
+        "construction-review-packets.yml": "construction_review_packets.yml",
+        "construction-motifs.yml": "construction_motifs.yml",
+        "monograph-books.yml": "monograph_books.yml",
+        "monograph-parts.yml": "monograph_parts.yml",
+        "monograph-chapters.yml": "monograph_chapters.yml",
+        "taulib-projection.yml": "taulib_projection.yml",
+        "taulib-modules.yml": "taulib_modules.yml",
+        "taulib-module-families.yml": "taulib_module_families.yml",
+        "taulib-registry-links.yml": "taulib_registry_links.yml",
+        "glossary-entries.yml": "glossary_entries.yml",
+        "glossary-domains.yml": "glossary_domains.yml",
+        "glossary-coverage.yml": "glossary_coverage.yml",
+        "graph-edge-types.yml": "graph_edge_types.yml",
+        "graph-index.yml": "graph_index.yml",
+    }
+    for source_name, target_name in corpus_data_targets.items():
+        source = source_root / source_name
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "corpus" / target_name)
+
+    graph_root = source_root / "graph"
+    if graph_root.exists():
+        for source in sorted(graph_root.glob("*.json")):
+            copy_file(source, SITE_ROOT / "_data" / "corpus" / "graph" / source.name)
+
+    copy_tree_filtered(source_root, SITE_ROOT / "assets" / "data" / "corpus-wave3", {".json", ".yml"})
+
+
 def generate_problem_ledger_answer_compatibility_pages() -> None:
     manifest_root = SITE_ROOT / "_data" / "structural_challenges"
     if not manifest_root.exists():
@@ -881,14 +931,16 @@ def main() -> int:
             "change-control",
             "publications",
             "wave2-metadata",
+            "wave3-metadata",
         ),
         default="all",
         help=(
-            "Sync all Corpus public exports, only Construction Spine / Foundational Hinges, "
+            "Sync all Corpus public exports, only Construction Spine / review packet routes, "
             "the Corpus v3 Construction Map / Monograph / TauLib projections, "
             "only the tailored TauLib projection, the Results/ledger projections, "
             "the Corpus Changelog change-control projection, the Corpus publication metadata projection, "
-            "or the Wave 2 Agenda/Results metadata projection."
+            "the Wave 2 Agenda/Results metadata projection, "
+            "or the Wave 3 construction-facing Corpus metadata projection."
         ),
     )
     args = parser.parse_args()
@@ -902,6 +954,8 @@ def main() -> int:
         sync_results()
     if args.scope in {"all", "wave2-metadata"}:
         sync_wave2_metadata()
+    if args.scope in {"all", "wave3-metadata"}:
+        sync_wave3_metadata()
     if args.scope in {"all", "foundations"}:
         sync_foundations()
     if args.scope in {"all", "corpus-v3", "monographs"}:

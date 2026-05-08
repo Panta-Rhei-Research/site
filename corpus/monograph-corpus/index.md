@@ -28,9 +28,9 @@ right_rail:
   related:
     - title: "Construction Spine"
       url: /corpus/construction-spine/
-    - title: "Bi-Square Spine"
+    - title: "Bi-Square Motif"
       url: /corpus/bi-square/
-    - title: "Foundational Hinges"
+    - title: "Construction Review Packet"
       url: /corpus/foundational-hinges/
     - title: "Registry"
       url: /corpus/registry/
@@ -48,7 +48,9 @@ This is not a separate construction spine. It is the monograph projection of the
 
 ## What this page is
 
-The Monograph Corpus is one projection of the Corpus, the construction body of the theory. Where the Construction Spine answers *how the build is ordered* in ten public steps, the Monograph Corpus answers *how the seven books realize that order* across 79 parts and several hundred chapters.
+{% assign monograph_counts = site.data.corpus.wave3_index.counts %}
+
+The Monograph Corpus is one projection of the Corpus, the construction body of the theory. Where the Construction Spine answers *how the build is ordered* in ten public steps, the Monograph Corpus answers *how the seven books realize that order* across {% if monograph_counts.monograph_parts %}{{ monograph_counts.monograph_parts }}{% else %}79{% endif %} parts and several hundred chapters.
 
 Each part card carries: a short summary, the chapter count, the registry anchors it introduces, the TauLib modules that formalize it, and the construction steps it lives under. Use this page to navigate the seven-book series along the build.
 
@@ -225,8 +227,8 @@ The Registry and TauLib are not separate research artifacts; they are different 
 ## Related pages
 
 - [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}) — the ten-step public build order.
-- [Bi-Square Spine]({{ '/corpus/bi-square/' | relative_url }}) — the repeated proof-organizing diagram shape.
-- [Foundational Hinges]({{ '/corpus/foundational-hinges/' | relative_url }}) — reviewer stress-test route for the mathematical hinges behind Steps 1–3.
+- [Bi-Square Motif]({{ '/corpus/bi-square/' | relative_url }}) — the repeated proof-organizing diagram shape.
+- [Construction Review Packet]({{ '/corpus/foundational-hinges/' | relative_url }}) — reviewer stress-test route for the mathematical hinges behind Steps 1–3.
 - [Registry]({{ '/corpus/registry/' | relative_url }}) — atomic-object projection.
 - [TauLib]({{ '/corpus/taulib/' | relative_url }}) — formal Lean projection.
 - [Research Monographs]({{ '/publications/research-monographs/' | relative_url }}) — citable release artifacts and DOI metadata under Publications.

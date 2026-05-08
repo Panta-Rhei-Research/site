@@ -1,0 +1,40 @@
+generated_from: corpus/data/registry/book-index.yml
+projection_version: v0.1
+canonical_source: corpus/data/registry/book-index.yml
+do_not_edit: true
+books:
+- book: I
+  book_slug: book-i
+  directory: book-01
+  title: Categorical Foundations
+  public_object_count: 259
+- book: II
+  book_slug: book-ii
+  directory: book-02
+  title: Categorical Holomorphy
+  public_object_count: 229
+- book: III
+  book_slug: book-iii
+  directory: book-03
+  title: Categorical Spectrum
+  public_object_count: 282
+- book: IV
+  book_slug: book-iv
+  directory: book-04
+  title: Categorical Microcosm
+  public_object_count: 1689
+- book: V
+  book_slug: book-v
+  directory: book-05
+  title: Categorical Macrocosm
+  public_object_count: 1196
+- book: VI
+  book_slug: book-vi
+  directory: book-06
+  title: Categorical Life
+  public_object_count: 218
+- book: VII
+  book_slug: book-vii
+  directory: book-07
+  title: Categorical Metaphysics
+  public_object_count: 266

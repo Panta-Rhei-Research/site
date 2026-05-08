@@ -23,10 +23,6 @@ hero_ctas:
     primary: true
   - label: "Open the Monograph Corpus"
     url: /corpus/monograph-corpus/
-  - label: "Bi-Square Spine"
-    url: /corpus/bi-square/
-  - label: "Foundational Hinges"
-    url: /corpus/foundational-hinges/
   - label: "Browse the Registry"
     url: /corpus/registry/
   - label: "How to Read"
@@ -37,9 +33,9 @@ right_rail:
       url: /corpus/construction-spine/
     - title: "Monograph Corpus"
       url: /corpus/monograph-corpus/
-    - title: "Bi-Square Spine"
+    - title: "Bi-Square Motif"
       url: /corpus/bi-square/
-    - title: "Foundational Hinges"
+    - title: "Construction Review Packet"
       url: /corpus/foundational-hinges/
     - title: "Registry"
       url: /corpus/registry/
@@ -64,6 +60,8 @@ right_rail:
 ## What the corpus is
 
 {% assign registry_objects = site.data.registry.objects %}
+{% assign wave3 = site.data.corpus.wave3_index %}
+{% assign wave3_counts = wave3.counts %}
 {% assign type_groups = registry_objects | group_by: "type" | sort: "name" %}
 
 The Corpus is the construction body of the theory.
@@ -97,19 +95,19 @@ The Construction Spine is the primary human-readable route into the Corpus. It s
 
 The τ-Kernel is the formal starting point of the construction. It is not a hidden physical substrate; it is the constrained formal core from which the Corpus begins.
 
-## The Bi-Square Spine
+## The Bi-Square Motif
 
-{% capture bi_square_plate_caption %}The Bi-Square Spine shows the repeated categorical shape that carries the kernel through its main lifts: tower coherence on the left, spectral naturality on the right, and a pasted constraint that becomes richer at each layer.{% endcapture %}
+{% capture bi_square_plate_caption %}The Bi-Square Motif shows the repeated categorical shape that carries the kernel through its main lifts: tower coherence on the left, spectral naturality on the right, and a pasted constraint that becomes richer at each layer.{% endcapture %}
 {% include scientific-plate.html id="plate-15-bi-square-spine" variant="thumb" class="scientific-plate--compact scientific-plate--bi-square-spine" caption=bi_square_plate_caption loading="lazy" %}
 
-The [Bi-Square Spine]({{ '/corpus/bi-square/' | relative_url }}) is the Corpus route for the repeated proof-organizing diagram behind the kernel buildup. The Construction Spine gives the build order; the bi-square gives a stable categorical shape that reappears as algebraic, geometric, enriched, and computational structure.
+The [Bi-Square Motif]({{ '/corpus/bi-square/' | relative_url }}) is the Corpus route for the repeated proof-organizing diagram behind the kernel buildup. The Construction Spine gives the build order; the bi-square gives a stable categorical shape that reappears as algebraic, geometric, enriched, and computational structure. It is a construction motif, not a second construction spine.
 
-## Foundational hinge route
+## Construction Steps 1-3 review packet
 
-The first three construction steps now have a dedicated reviewer route: eight foundational hinge papers plus a bundle memo, surfaced through Corpus-native hinge pages. These pages explain how the kernel is built, how core mathematics is recovered, and how self-enrichment begins.
+The first three construction steps have a dedicated reviewer packet route: eight foundational research papers plus a bundle memo, surfaced through Corpus-native gateway pages. These pages explain how the kernel is built, how core mathematics is recovered, and how self-enrichment begins. They are an orientation and stress-test packet, not a standalone Corpus collection.
 
 <div class="btn-group section-ctas">
-  <a class="btn-secondary" href="{{ '/corpus/foundational-hinges/' | relative_url }}" data-umami-event="cta.hinges" data-umami-event-location="section" data-umami-event-type="internal">Open the Foundational Hinges</a>
+  <a class="btn-secondary" href="{{ '/corpus/foundational-hinges/' | relative_url }}" data-umami-event="cta.review-packet" data-umami-event-location="section" data-umami-event-type="internal">Open the Review Packet</a>
   <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
   <a class="btn-ghost" href="{{ '/verify/how-to-verify-by-role/mathematician/' | relative_url }}">Mathematician Audit Route</a>
 </div>
@@ -132,22 +130,6 @@ The same construction body appears through several public projections:
       <a class="v2-tile" href="{{ '/corpus/monograph-corpus/' | relative_url }}">
         <h3>Monograph Corpus</h3>
         <p>Seven-book narrative projection: Book → Part → Chapter summaries with registry anchors, TauLib links, and construction-step tags.</p>
-      </a>
-    </article>
-  </li>
-  <li>
-    <article>
-      <a class="v2-tile" href="{{ '/corpus/bi-square/' | relative_url }}">
-        <h3>Bi-Square Spine</h3>
-        <p>The repeated proof-organizing diagram shape across algebraic, geometric, enriched, and computational layers.</p>
-      </a>
-    </article>
-  </li>
-  <li>
-    <article>
-      <a class="v2-tile" href="{{ '/corpus/foundational-hinges/' | relative_url }}">
-        <h3>Foundational Hinges</h3>
-        <p>The reviewer stress-test route for the first mathematical hinges (Steps 1–3).</p>
       </a>
     </article>
   </li>
@@ -193,6 +175,29 @@ The same construction body appears through several public projections:
   </li>
 </ul>
 
+## Orientation routes
+
+These routes are preserved because they are useful for review, but Wave 3 treats them as construction metadata rather than top-level Corpus peers.
+
+<ul class="v2-grid v2-card-list">
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/corpus/bi-square/' | relative_url }}">
+        <h3>Bi-Square Motif</h3>
+        <p>The repeated proof-organizing diagram shape across algebraic, geometric, enriched, and computational layers.</p>
+      </a>
+    </article>
+  </li>
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/corpus/foundational-hinges/' | relative_url }}">
+        <h3>Construction Review Packet</h3>
+        <p>The reviewer stress-test route for the first mathematical construction packet (Steps 1-3).</p>
+      </a>
+    </article>
+  </li>
+</ul>
+
 ## Current state
 
 The current registry is the public atomic projection of the corpus. The primary human-readable route into the Corpus is the [Construction Spine]({{ '/corpus/construction-spine/' | relative_url }}): the build-order narrative from kernel definition through mathematics, physics, life, reflective structure, self-hosting, and ontic closure.
@@ -201,7 +206,7 @@ The current registry is the public atomic projection of the corpus. The primary 
   <li>
     <article>
       <a class="v2-tile" href="{{ '/corpus/construction-spine/' | relative_url }}">
-        <h3>10 construction steps</h3>
+        <h3>{% if wave3_counts.construction_steps %}{{ wave3_counts.construction_steps }}{% else %}10{% endif %} construction steps</h3>
         <p>The public build narrative that aligns Agenda obligations, Corpus construction, and Results status.</p>
       </a>
     </article>
@@ -209,15 +214,15 @@ The current registry is the public atomic projection of the corpus. The primary 
   <li>
     <article>
       <a class="v2-tile" href="{{ '/corpus/foundational-hinges/' | relative_url }}">
-        <h3>8 foundational hinges</h3>
-        <p>The reviewer-facing stress-test route for the mathematical hinges behind Steps 1-3.</p>
+        <h3>{% if wave3_counts.review_packets %}{{ wave3_counts.review_packets }}{% else %}1{% endif %} review packet</h3>
+        <p>The reviewer-facing stress-test route for the mathematical packet behind Steps 1-3.</p>
       </a>
     </article>
   </li>
   <li>
     <article>
       <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
-        <h3>{{ registry_objects | size }} registry objects</h3>
+        <h3>{% if wave3_counts.registry_public_objects %}{{ wave3_counts.registry_public_objects }}{% else %}{{ registry_objects | size }}{% endif %} public registry objects</h3>
         <p>The current public spine across all seven books.</p>
       </a>
     </article>

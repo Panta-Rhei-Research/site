@@ -5,7 +5,7 @@ permalink: "/corpus/foundational-hinges/tau-topos-four-valued-internal-logic/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "foundational-hinges"
-type: "Foundational Hinge"
+type: "Review Packet Item"
 status: "Canonical"
 summary_short: "Review gateway for whether internal truth is earned inside the kernel rather than supplied from an external semantic theory."
 foundational_hinge_id: "FH-H6"
@@ -18,7 +18,7 @@ do_not_edit: true
 right_rail:
   related:
     -
-      title: "Foundational Hinges"
+      title: "Construction Review Packet"
       url: "/corpus/foundational-hinges/"
     -
       title: "The τ-Topos and Its Four-Valued Internal Logic"
@@ -30,7 +30,7 @@ right_rail:
       title: "Construction Spine"
       url: "/corpus/construction-spine/"
   meta:
-    type: "Foundational Hinge"
+    type: "Review Packet Item"
     scope: "H6"
     status: "Canonical"
     updated: "May 2026"

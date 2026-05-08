@@ -31,11 +31,16 @@ right_rail:
 ---
 
 {% assign registry_objects = site.data.registry.objects %}
+{% assign count_model = site.data.corpus.registry_count_model.count_model %}
 {% assign type_groups = registry_objects | group_by: "type" | sort: "name" %}
 
 ## Overview
 
-The registry is the canonical public index of the corpus. The current manifest pins {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects. Each object has an ID, a type, a book location, a scope label, dependency counts, and, when available, a Lean formalization pointer.
+The registry is the canonical public index of the corpus. The current manifest-pinned public surface reports {% if count_model.registry_root_total.value %}{{ count_model.registry_root_total.value }}{% else %}{% include release-metric.html id="registry.registry_total.grand_total" %}{% endif %} registry objects, while the current typed public spine contains {% if count_model.typed_public_spine_total.value %}{{ count_model.typed_public_spine_total.value }}{% else %}{{ registry_objects | size }}{% endif %} public typed objects. Wave 3 keeps this distinction explicit rather than hiding count drift. Each object has an ID, a type, a book location, a scope label, dependency counts, and, when available, a Lean formalization pointer.
+
+{% if count_model.reconciliation_note %}
+<div class="notice note"><strong>Count model.</strong> {{ count_model.reconciliation_note }}</div>
+{% endif %}
 
 ## Type filters
 

@@ -1,0 +1,21 @@
+generated_from: corpus/data/taulib/projection.yml
+projection_version: v0.1
+canonical_source: corpus/data/taulib/projection.yml
+do_not_edit: true
+projection:
+  projection_id: taulib-v4-projection
+  title: TauLib
+  role: compiled_lean_projection
+  source_repo: https://github.com/Panta-Rhei-Research/taulib
+  docs_url: https://taulib.site/
+  route: /corpus/taulib/
+  status: canonical
+  source_pin:
+    commit: cb5e83015b54dd72eba560953fe2461820078757
+  counts:
+    modules: 512
+    lines: 142406
+    declarations_evals: 14601
+    registry_links: 3323
+    explicit_axioms: 3
+  verification_boundary: Lean compilation is a formal proof/artifact baseline. Semantic bridge adequacy, empirical accountability, and external acceptance remain Verify-side questions.

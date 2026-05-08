@@ -1,13 +1,13 @@
 ---
 layout: "program-doc"
-title: "Foundational Hinges"
+title: "Construction Steps 1-3 Review Packet"
 permalink: "/corpus/foundational-hinges/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "foundational-hinges"
 type: "Corpus Index"
 status: "Canonical"
-summary_short: "The reviewer-facing stress-test route for the mathematical hinges behind the τ-Kernel, recovered mathematics, and self-enrichment."
+summary_short: "The reviewer-facing stress-test packet for the mathematical construction behind the τ-Kernel, recovered mathematics, and self-enrichment."
 right_rail:
   related:
     -
@@ -24,24 +24,28 @@ right_rail:
       url: "/verify/how-to-verify-by-role/mathematician/"
   meta:
     type: "Corpus Route"
-    scope: "8 foundational hinges"
+    scope: "Construction Steps 1-3 review packet"
     status: "Canonical"
     updated: "May 2026"
 ---
 
 ## What this route is
 
-The foundational hinge route isolates the make-or-break mathematical constructions behind the first three construction steps of the Corpus — the Mathematics arc of the [End-to-end construction view](/corpus/construction-spine/#end-to-end-construction-view). These pages do not replace the monographs, the Registry, or TauLib. They provide a human-readable stress-test route into the kernel construction.
+{% assign review_packet = site.data.corpus.construction_review_packets.review_packets | where: "packet_id", "review-packet-foundational-steps-1-3" | first %}
+
+This route is the preserved Construction Steps 1-3 review packet. It isolates the make-or-break mathematical constructions behind the first three construction steps of the Corpus — the Mathematics arc of the [End-to-end construction view](/corpus/construction-spine/#end-to-end-construction-view). These pages do not replace the monographs, the Registry, or TauLib. They provide a human-readable stress-test route into the kernel construction.
+
+<div class="notice note"><strong>Wave 3 role.</strong> This route is modeled as a construction review packet, not as a standalone Corpus collection or separate publication type.</div>
 
 The bundle has three public layers:
 
 1. **Research papers** — standalone citable papers with PDFs and DOIs.
-2. **Corpus hinge pages** — short review gateways explaining what each hinge must establish, why it matters, where it lives in the Corpus, and what weakens if it fails.
+2. **Corpus review pages** — short gateways explaining what each paper must establish, why it matters, where it lives in the Corpus, and what weakens if it fails.
 3. **Registry and TauLib links** — atomic and formal projections for exact dependency and proof inspection.
 
 Recommended first pass: read the [Foundational Bundle memo](/publications/research-papers/panta-rhei-foundational-bundle/), then H8 as the integrative orientation paper, then follow the hinges in the order required by the question being reviewed.
 
-## Hinge route by construction step
+## Review packet by construction step
 
 | Step | Function | Primary hinges |
 |---|---|---|
@@ -51,6 +55,13 @@ Recommended first pass: read the [Foundational Bundle memo](/publications/resear
 
 ## Foundational bundle
 
+{% if review_packet.publications %}
+| Legacy ID | Research paper | DOI |
+|---:|---|---|
+{% for publication in review_packet.publications -%}
+| {{ publication.legacy_item_id }} | {{ publication.title }} | [{{ publication.doi }}](https://doi.org/{{ publication.doi }}) |
+{% endfor %}
+{% else %}
 | Hinge | Corpus gateway | Research paper | DOI |
 |---:|---|---|---|
 | H8 | [The τ-Kernel as Foundational Architecture](/corpus/foundational-hinges/tau-kernel-foundational-architecture/) | [The τ-Kernel as Foundational Architecture](/publications/research-papers/tau-kernel-foundational-architecture/) | [10.5281/zenodo.19820600](https://doi.org/10.5281/zenodo.19820600) |
@@ -61,13 +72,14 @@ Recommended first pass: read the [Foundational Bundle memo](/publications/resear
 | H6 | [The τ-Topos and Its Four-Valued Internal Logic](/corpus/foundational-hinges/tau-topos-four-valued-internal-logic/) | [The τ-Topos and Its Four-Valued Internal Logic](/publications/research-papers/tau-topos-four-valued-internal-logic/) | [10.5281/zenodo.19820194](https://doi.org/10.5281/zenodo.19820194) |
 | H7 | [Address Resolution, Not Calculation](/corpus/foundational-hinges/address-resolution-not-calculation/) | [Address Resolution, Not Calculation](/publications/research-papers/address-resolution-not-calculation/) | [10.5281/zenodo.19818628](https://doi.org/10.5281/zenodo.19818628) |
 | H3 | [The Master Constant iota_tau](/corpus/foundational-hinges/master-constant-iota-tau/) | [The Master Constant iota_tau](/publications/research-papers/master-constant-iota-tau/) | [10.5281/zenodo.19820352](https://doi.org/10.5281/zenodo.19820352) |
+{% endif %}
 
 
 ## How to read these pages
 
 Each hinge page answers six questions:
 
-1. What does this hinge claim to build?
+1. What does this review item claim to build?
 2. Why is it needed in the construction spine?
 3. What is the core statement or construction?
 4. Where are the paper, registry, TauLib, and book sources?

@@ -1,0 +1,15 @@
+{
+  "generated_from": "corpus/data/glossary/coverage.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/glossary/coverage.yml",
+  "do_not_edit": true,
+  "coverage": {
+    "total_entries": 282,
+    "by_domain": {
+      "life": 78,
+      "mathematics": 41,
+      "metaphysics": 68,
+      "physics": 95
+    }
+  }
+}

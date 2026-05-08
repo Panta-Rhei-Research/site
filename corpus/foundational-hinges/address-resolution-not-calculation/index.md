@@ -5,7 +5,7 @@ permalink: "/corpus/foundational-hinges/address-resolution-not-calculation/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "foundational-hinges"
-type: "Foundational Hinge"
+type: "Review Packet Item"
 status: "Canonical"
 summary_short: "Review gateway for whether arithmetic in τ is recovered as canonical address resolution rather than imported as unrestricted equational calculation."
 foundational_hinge_id: "FH-H7"
@@ -18,7 +18,7 @@ do_not_edit: true
 right_rail:
   related:
     -
-      title: "Foundational Hinges"
+      title: "Construction Review Packet"
       url: "/corpus/foundational-hinges/"
     -
       title: "Address Resolution, Not Calculation"
@@ -30,7 +30,7 @@ right_rail:
       title: "Construction Spine"
       url: "/corpus/construction-spine/"
   meta:
-    type: "Foundational Hinge"
+    type: "Review Packet Item"
     scope: "H7"
     status: "Canonical"
     updated: "May 2026"

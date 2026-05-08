@@ -15,7 +15,7 @@ hero_ctas:
   - label: "Step 1: Build the τ-Kernel"
     url: /corpus/construction-spine/build-the-kernel/
     primary: true
-  - label: "Foundational Hinges"
+  - label: "Review Packet"
     url: /corpus/foundational-hinges/
   - label: "Construction Roadmap"
     url: /agenda/construction-roadmap/
@@ -26,9 +26,9 @@ right_rail:
   related:
     - title: "Verify the Construction Spine"
       url: /verify/construction-spine-verification/
-    - title: "Foundational Hinges"
+    - title: "Construction Review Packet"
       url: /corpus/foundational-hinges/
-    - title: "Bi-Square Spine"
+    - title: "Bi-Square Motif"
       url: /corpus/bi-square/
     - title: "Registry"
       url: /corpus/registry/
@@ -67,7 +67,7 @@ The ten construction steps show how the Corpus is built: not as a timeline or sp
 - The [Monograph Corpus]({{ '/corpus/monograph-corpus/' | relative_url }}) is the narrative proof-order projection.
 - [Publications]({{ '/publications/' | relative_url }}) are the citable artifact and release shelf.
 - [Corpus Graph]({{ '/corpus/graph/' | relative_url }}) is the dependency projection.
-- [Bi-Square Spine]({{ '/corpus/bi-square/' | relative_url }}) is the diagrammatic-shape route: tower coherence, spectral naturality, and pasting across the main algebraic, geometric, enriched, and computational lifts.
+- [Bi-Square Motif]({{ '/corpus/bi-square/' | relative_url }}) is the diagrammatic-shape route: tower coherence, spectral naturality, and pasting across the main algebraic, geometric, enriched, and computational lifts.
 
 ## Kernel starting point
 
@@ -76,12 +76,12 @@ The ten construction steps show how the Corpus is built: not as a timeline or sp
 
 The first construction step defines the kernel before later mathematics, physics, life, reflection, self-hosting, and ontic-closure burdens can be read as generated structure.
 
-### Foundational hinge route
+### Construction review packet
 
-The first three construction steps are supported by a foundational hinge route: eight standalone research papers plus a bundle memo. These papers isolate the make-or-break mathematical constructions behind the τ-Kernel, recovered mathematics, and self-enrichment. Use the hinge route when you want the stress-test packet rather than the full monograph or atomic registry.
+The first three construction steps are supported by a construction review packet: eight standalone research papers plus a bundle memo. These papers isolate the make-or-break mathematical constructions behind the τ-Kernel, recovered mathematics, and self-enrichment. Use the review packet when you want the stress-test packet rather than the full monograph or atomic registry.
 
 <div class="btn-group section-ctas">
-  <a class="btn-secondary" href="{{ '/corpus/foundational-hinges/' | relative_url }}">Open the Foundational Hinges</a>
+  <a class="btn-secondary" href="{{ '/corpus/foundational-hinges/' | relative_url }}">Open the Review Packet</a>
   <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
   <a class="btn-ghost" href="{{ '/registry/dashboards/book-i/' | relative_url }}">Book I Dashboard</a>
 </div>

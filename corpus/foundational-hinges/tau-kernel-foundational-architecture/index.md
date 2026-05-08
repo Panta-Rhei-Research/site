@@ -5,7 +5,7 @@ permalink: "/corpus/foundational-hinges/tau-kernel-foundational-architecture/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "foundational-hinges"
-type: "Foundational Hinge"
+type: "Review Packet Item"
 status: "Canonical"
 summary_short: "Integration gateway for whether the τ-Kernel is a coherent foundational architecture rather than a loose vocabulary of generators, axioms, and later interpretations."
 foundational_hinge_id: "FH-H8"
@@ -18,7 +18,7 @@ do_not_edit: true
 right_rail:
   related:
     -
-      title: "Foundational Hinges"
+      title: "Construction Review Packet"
       url: "/corpus/foundational-hinges/"
     -
       title: "The τ-Kernel as Foundational Architecture"
@@ -30,7 +30,7 @@ right_rail:
       title: "Construction Spine"
       url: "/corpus/construction-spine/"
   meta:
-    type: "Foundational Hinge"
+    type: "Review Packet Item"
     scope: "H8"
     status: "Canonical"
     updated: "May 2026"

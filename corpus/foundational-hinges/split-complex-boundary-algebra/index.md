@@ -5,7 +5,7 @@ permalink: "/corpus/foundational-hinges/split-complex-boundary-algebra/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "foundational-hinges"
-type: "Foundational Hinge"
+type: "Review Packet Item"
 status: "Canonical"
 summary_short: "Review gateway for whether the boundary algebra used by the framework is canonically forced rather than chosen for convenience."
 foundational_hinge_id: "FH-H4"
@@ -18,7 +18,7 @@ do_not_edit: true
 right_rail:
   related:
     -
-      title: "Foundational Hinges"
+      title: "Construction Review Packet"
       url: "/corpus/foundational-hinges/"
     -
       title: "The Split-Complex Boundary Algebra D"
@@ -30,7 +30,7 @@ right_rail:
       title: "Construction Spine"
       url: "/corpus/construction-spine/"
   meta:
-    type: "Foundational Hinge"
+    type: "Review Packet Item"
     scope: "H4"
     status: "Canonical"
     updated: "May 2026"
