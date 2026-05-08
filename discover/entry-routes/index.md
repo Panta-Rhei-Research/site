@@ -59,7 +59,7 @@ The site is large because the research system has several public projections. Ch
   </a>
   <a class="v2-tile" href="{{ '/discover/follow-the-research/' | relative_url }}">
     <h3>I want the ongoing stream</h3>
-    <p>Start with Research Notes and Follow the Research.</p>
+    <p>Start with Research Notes and Publication Notifications.</p>
   </a>
   <a class="v2-tile" href="{{ '/impact/' | relative_url }}">
     <h3>I want to see why this matters</h3>

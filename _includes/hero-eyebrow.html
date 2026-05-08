@@ -2,14 +2,12 @@
   hero-eyebrow.html — v4 hero identity line.
 
   Priority:
-    1. Breadcrumb data, when available.
-    2. include.text
-    3. page.hero_eyebrow
-    4. Site Atlas lane + canonical role/status
-    5. page lane + page type/status
+    1. Clickable breadcrumb ancestors, when breadcrumb data exists.
+    2. Controlled current identity from include.text / page.hero_eyebrow /
+       Site Atlas lane + role + status / page lane + type + status.
 
-  The visual form stays the v4 hero eyebrow pill, but breadcrumb ancestors
-  become real links. JSON-LD breadcrumbs remain governed separately.
+  Tags, keywords, descriptions, SEO text, and summaries must never enter
+  the eyebrow. JSON-LD breadcrumbs remain governed separately.
 {%- endcomment -%}
 
 {%- include breadcrumb-data.html -%}
@@ -22,11 +20,12 @@
 {%- capture _generated -%}
   {%- if _lane and _lane != "" -%}{{ _lane | replace: "-", " " | capitalize }}{%- endif -%}
   {%- if _type and _type != "" -%} · {{ _type | replace: "_", " " | replace: "-", " " | capitalize }}{%- endif -%}
-  {%- if include.show_status and _status and _status != "" -%} · {{ _status | replace: "_", " " | replace: "-", " " | capitalize }}{%- endif -%}
+  {%- if _status and _status != "" -%} · {{ _status | replace: "_", " " | replace: "-", " " | capitalize }}{%- endif -%}
   {%- if include.show_route_id and _route_id and _route_id != "" -%} · {{ _route_id }}{%- endif -%}
 {%- endcapture -%}
 
 {%- assign eyebrow_text = include.text | default: page.hero_eyebrow | default: _generated | strip -%}
+{%- assign eyebrow_display = eyebrow_text | upcase -%}
 {%- if has_breadcrumbs -%}
 <nav class="hero-eyebrow-pill hero-eyebrow-breadcrumb" aria-label="Breadcrumb">
   {%- for breadcrumb_item in breadcrumb_items -%}
@@ -39,7 +38,7 @@
     {%- endif -%}
     {%- if breadcrumb_name != "" and skip_duplicate_current_url == false -%}
       {%- if forloop.last or breadcrumb_url == "" -%}
-        <span class="hero-eyebrow-current">{{ breadcrumb_name }}</span>
+        <span class="hero-eyebrow-current">{{ eyebrow_display | default: breadcrumb_name }}</span>
       {%- else -%}
         <a class="hero-eyebrow-link" href="{{ breadcrumb_url | relative_url }}">{{ breadcrumb_name }}</a>
       {%- endif -%}
@@ -48,5 +47,5 @@
   {%- endfor -%}
 </nav>
 {%- elsif eyebrow_text != "" -%}
-<span class="hero-eyebrow-pill">{{ eyebrow_text }}</span>
+<span class="hero-eyebrow-pill">{{ eyebrow_display }}</span>
 {%- endif -%}

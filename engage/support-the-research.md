@@ -66,10 +66,10 @@ One direct way to support the research is to **buy and read the canonical books*
 
 Available as hardcover, paperback, and Kindle on Amazon KDP.
 
-## 2. Follow the Research
+## 2. Receive Publication Notifications
 
 Stay connected to the program's development:
-- [Follow the Research]({{ '/engage/follow-the-research/' | relative_url }}) for email updates
+- [Publication Notifications]({{ '/engage/follow-the-research/' | relative_url }}) for released research artifact notices
 - Watch the <a href="https://github.com/Panta-Rhei-Research/taulib" target="_blank" rel="noopener">TauLib repository</a> on GitHub
 - Use [Public Discussions]({{ '/engage/discussions/' | relative_url }}) to ask questions, challenge claims, offer bounded review, or route corrections without implying endorsement
 - Bookmark this site for new content
