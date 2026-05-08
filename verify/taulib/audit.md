@@ -50,7 +50,7 @@ This page is a hub for the **concrete, hands-on routes** by which an external re
 | Claim category | Audit route | Tool |
 |---|---|---|
 | **3 custom axioms, exactly** | [`/verify/custom-axioms/`](/verify/custom-axioms/) — full inventory; or `rg -n '^axiom ' TauLib/` on the live repo | `rg` / [TauLib](https://github.com/Panta-Rhei-Research/taulib) |
-| **0 sorry across all 7 books** | [`/verify/taulib/status/`](/verify/taulib/status/); or `rg -n ':= sorry' TauLib/` on the live repo | `rg` / [TauLib](https://github.com/Panta-Rhei-Research/taulib) |
+| **{% include release-metric.html id="taulib.sorry" %} sorry across all {% include release-metric.html id="publications.books" %} books** | [`/verify/taulib/status/`](/verify/taulib/status/); or `rg -n ':= sorry' TauLib/` on the live repo | `rg` / [TauLib](https://github.com/Panta-Rhei-Research/taulib) |
 | **Module / theorem / `#eval` counts** | [`/verify/release-manifest/`](/verify/release-manifest/) — pinned counts at the release SHA | manifest checksum |
 | **`native_decide` trust-budget cost** | [`/verify/tcb/`](/verify/tcb/) — explicit disclosure of `Lean.ofReduceBool` and `Lean.trustCompiler` extension; ~1,824 use sites | `#print axioms` at REPL |
 | **Each scope label is honest** | [`/verify/taulib/scope-labels/`](/verify/taulib/scope-labels/) and [`/verify/filter-rules/`](/verify/filter-rules/) | review |

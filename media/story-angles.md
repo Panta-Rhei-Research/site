@@ -97,7 +97,7 @@ For the journalism-specific Q&A (peer review, funding, citation, embargo), see t
 
 **30-second pitch.** The Panta Rhei Research Program develops a single categorical framework — Category τ — and applies it across four canonical domains: mathematics (Books I–III), physics (Books IV–V), life (Book VI), and metaphysics (Book VII). Each domain carries its own verification grammar: mathematics gets Lean 4 proofs, physics gets numerical predictions and SI translations, life gets empirical correlates and biomarkers, metaphysics gets categorical narrowing principles. **The same kernel underlies all four.** What this enables is unusual: a unified framework that doesn't sacrifice formal rigor in mathematics, doesn't fudge numerical accountability in physics, doesn't hand-wave in biology, and doesn't dodge the philosophical questions. Each domain's verification surface is published openly under [`/verify/`]({{ '/verify/' | relative_url }}).
 
-**Key-fact anchor.** *4 domains · 7 books · 1 categorical kernel · {% include release-metric.html id="glossary.total_entries" unit=true %} glossary entries · 192 cross-domain bridge edges · Lean 4-formalized in mathematics + physics layers.*
+**Key-fact anchor.** *4 domains · {% include release-metric.html id="publications.books" unit=true %} · 1 categorical kernel · {% include release-metric.html id="glossary.total_entries" unit=true %} glossary entries · 192 cross-domain bridge edges · Lean 4-formalized in mathematics + physics layers.*
 
 **Suggested deep links:**
 - [The Verify Lane]({{ '/verify/' | relative_url }}) (4 domain-verification hubs)

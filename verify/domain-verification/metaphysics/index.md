@@ -89,7 +89,7 @@ glossary_term_ids:
   <a class="v2-tile v2-tile-metaphysics" href="{{ '/results/metaphysics/glossary/' | relative_url }}">
     <span class="eyebrow">Glossary</span>
     <h3>Metaphysics Glossary</h3>
-    <p>68 entries across registers / principles / architecture / ontology / commitment / phenomenology.</p>
+    <p>{% include release-metric.html id="glossary.metaphysics.entries" %} entries across registers / principles / architecture / ontology / commitment / phenomenology.</p>
   </a>
   <a class="v2-tile v2-tile-metaphysics" href="{{ '/agenda/core-semantics/metaphysics/' | relative_url }}">
     <span class="eyebrow">Recovery</span>

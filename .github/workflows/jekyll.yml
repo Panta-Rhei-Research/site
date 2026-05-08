@@ -47,8 +47,13 @@ jobs:
           npm run headers:test
           npm run headers:dry-run
 
+      - name: Install Python QA dependencies
+        run: python3 -m pip install PyYAML
+
       - name: Check manifest-owned release metrics
-        run: python3 scripts/check_hardcoded_release_numbers.py .
+        run: |
+          python3 scripts/check_release_manifest_parity.py --site-root .
+          python3 scripts/check_hardcoded_release_numbers.py .
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl ""

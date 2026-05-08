@@ -133,7 +133,7 @@ The program may report a structural explanation or recovery route before a biolo
   </a>
   <a class="v2-tile" href="{{ '/results/life/glossary/' | relative_url }}">
     <strong>Life Glossary</strong>
-    <span>78 entries grouped by category, each with empirical correlate.</span>
+    <span>{% include release-metric.html id="glossary.life.entries" %} entries grouped by category, each with empirical correlate.</span>
   </a>
   <a class="v2-tile" href="{{ '/corpus/registry/' | relative_url }}">
     <strong>Corpus Registry (Book VI)</strong>

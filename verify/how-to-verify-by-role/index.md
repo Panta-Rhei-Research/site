@@ -41,7 +41,7 @@ These pages do not argue that the framework is correct. They argue that if you w
 
 ### [Formal Methods / Proof Assistant Expert]({{ '/verify/how-to-verify-by-role/formal-methods/' | relative_url }})
 
-If you work with Lean 4, Mathlib, Coq, Agda, Isabelle, or other proof assistants, the load-bearing question is whether TauLib's claimed formalization state ({% include release-metric.html id="taulib.sorry" %} `sorry` across all 7 books, {% include release-metric.html id="taulib.custom_axioms" %} named custom axioms in Book III, {% include release-metric.html id="taulib.theorems_lemmas" %} theorem/lemma records, {% include release-metric.html id="taulib.lines" %} Lean lines, plus the disclosed `native_decide` TCB extension) matches what actually compiles. This is the single most diagnostic check any reviewer can run.
+If you work with Lean 4, Mathlib, Coq, Agda, Isabelle, or other proof assistants, the load-bearing question is whether TauLib's claimed formalization state ({% include release-metric.html id="taulib.sorry" %} `sorry` across all {% include release-metric.html id="publications.books" %} books, {% include release-metric.html id="taulib.custom_axioms" %} named custom axioms in Book III, {% include release-metric.html id="taulib.theorems_lemmas" %} theorem/lemma records, {% include release-metric.html id="taulib.lines" %} Lean lines, plus the disclosed `native_decide` TCB extension) matches what actually compiles. This is the single most diagnostic check any reviewer can run.
 
 ### [Mathematician]({{ '/verify/how-to-verify-by-role/mathematician/' | relative_url }})
 
