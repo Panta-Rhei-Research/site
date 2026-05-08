@@ -1,0 +1,21 @@
+{
+  "generated_from": "corpus/data/governance",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "title": "Corpus Metadata Wave 4 Governance Export",
+  "summary": "Public-safe governance, changelog, errata, release, and edition metadata.",
+  "counts": {
+    "errata": 4,
+    "changelog_entries": 5,
+    "releases": 2,
+    "editions": 14,
+    "release_artifacts": 194
+  },
+  "role_boundary": [
+    "Atlas owns private workflow state.",
+    "Corpus owns public-safe semantic changelog and errata projection.",
+    "Site renders public surfaces.",
+    "Publications mirrors generated snapshots and artifact provenance."
+  ]
+}

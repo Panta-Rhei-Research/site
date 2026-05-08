@@ -10,7 +10,7 @@ summary_cards:
   - title: "Append-only"
     body: "Issued errata are never deleted. Superseded entries remain visible and point to their replacement."
   - title: "Active record"
-    body: "Four active errata are currently issued for the 2nd Edition corpus and associated public artifacts."
+    body: "Four active errata are currently projected from Corpus Wave 4 governance metadata."
 right_rail:
   related:
     - title: "Publications Overview"
@@ -25,7 +25,7 @@ right_rail:
     type: "Public Changelog"
     scope: "2nd Edition corpus"
     status: "Active"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Purpose
@@ -36,22 +36,27 @@ Purely typographical fixes are intentionally excluded from this page. The purpos
 
 ## Issued Errata
 
-{% assign errata = site.data.publications.errata | sort: "id" %}
+{% assign errata = site.data.corpus.governance.errata.errata | sort: "erratum_id" %}
 {% for entry in errata %}
-### {{ entry.id }} — {{ entry.affected }}
+### {{ entry.erratum_id }} — {{ entry.affected }}
 
 | Field | Value |
 |---|---|
 | Issued | {{ entry.issued }} |
 | Status | {{ entry.status }} |
 | Severity | {{ entry.severity }} |
+| Change class | {{ entry.change_class }} |
 {% if entry.registry_ids.size > 0 %}
 | Registry anchors | {% for reg_id in entry.registry_ids %}[{{ reg_id }}]({{ '/registry/object/' | append: reg_id | append: '/' | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %} |
 {% endif %}
 
 {{ entry.summary }}
 
-**Correction.** {{ entry.replacement }}
+**Correction.** {{ entry.correction }}
+
+{% if entry.book_slug and entry.book_slug != "" %}
+[Book-specific errata page]({{ '/publications/books/' | append: entry.book_slug | append: '/errata/' | relative_url }})
+{% endif %}
 
 {% endfor %}
 
@@ -64,3 +69,7 @@ Purely typographical fixes are intentionally excluded from this page. The purpos
 ## Citation Guidance
 
 When citing affected material, cite the original book location and the relevant erratum ID together. Example: *Book I, Theorem I.T05, as corrected by ERRATUM-001*.
+
+## Projection Source
+
+This page is rendered from Corpus governance metadata. The Publications repository mirrors generated errata snapshots for cloneable artifact provenance, but Corpus owns the semantic errata source.

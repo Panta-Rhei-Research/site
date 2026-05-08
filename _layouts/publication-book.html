@@ -17,6 +17,19 @@ layout: default
     {% assign doi_entry = d %}
   {% endif %}
 {% endfor %}
+{% assign corpus_edition = nil %}
+{% assign corpus_errata = "" | split: "" %}
+{% if site.data.corpus.governance.edition_history %}
+  {% assign current_editions = site.data.corpus.governance.edition_history.editions | where: "edition", "second" %}
+  {% for edition in current_editions %}
+    {% if edition.book_slug == page.book_slug %}
+      {% assign corpus_edition = edition %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% if site.data.corpus.governance.errata %}
+  {% assign corpus_errata = site.data.corpus.governance.errata.errata | where: "book_slug", page.book_slug %}
+{% endif %}
 
 {% include breadcrumb-nav.html %}
 
@@ -60,6 +73,20 @@ layout: default
 </header>
 
 {% include summary-cards.html %}
+
+{% if corpus_edition or corpus_errata.size > 0 %}
+<section class="content-card" aria-labelledby="edition-status-heading">
+  <h2 id="edition-status-heading" class="format-section-title">Edition &amp; Errata Status</h2>
+  {% if corpus_edition %}
+  <p>This volume is projected from Corpus edition metadata as <strong>{{ corpus_edition.edition_status | replace: "_", " " | capitalize }}</strong>.</p>
+  {% endif %}
+  <p><strong>Book-specific errata:</strong> {{ corpus_errata.size }} currently projected.</p>
+  <div class="btn-group">
+    <a href="{{ '/publications/books/' | append: page.book_slug | append: '/errata/' | relative_url }}" class="btn-secondary">View book errata</a>
+    <a href="{{ '/publications/errata/' | relative_url }}" class="btn-ghost">All publication errata</a>
+  </div>
+</section>
+{% endif %}
 
 {% include parts-list.html %}
 

@@ -1,0 +1,11 @@
+{
+  "generated_from": "corpus/data/assets/accessibility.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "accessibility": {
+    "scientific_plate_alt_text_count": 15,
+    "cover_accessibility_note_count": 35,
+    "policy": "Asset metadata should preserve alt/accessibility text where the public surface already provides it."
+  }
+}

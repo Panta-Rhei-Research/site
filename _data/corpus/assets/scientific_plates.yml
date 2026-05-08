@@ -1,0 +1,368 @@
+generated_from: corpus/data/assets/scientific-plates.yml
+projection_version: v0.1
+canonical_source: corpus/data/governance and corpus/data/assets
+do_not_edit: true
+scientific_plates:
+- asset_id: plate-01-public-research-observatory
+  title: Public Research Observatory
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-01-public-research-observatory-hero.webp
+  hero_jpg: /assets/images/plates/plate-01-public-research-observatory-hero.jpg
+  master: /assets/images/plates/plate-01-public-research-observatory-master.jpg
+  thumbnail: /assets/images/plates/plate-01-public-research-observatory-thumb.webp
+  og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
+  usage_pages:
+  - /
+  - /discover/
+  caption: 'The Panta Rhei website is structured as a public research observatory: Agenda states the obligations, Corpus carries
+    the construction, Results reports current consequences, Verify exposes inspection routes, Publications holds stable artifacts,
+    Impact maps conditional implications, and Engage invites structured scrutiny without endorsement.
+
+    '
+  alt: 'Scientific plate showing the Panta Rhei Research Program as a public research observatory, with a central spine from
+    Agenda to Corpus to Results to Verify, surrounded by Discover, Program, Publications, Impact, Engage, inspectability surfaces,
+    and world readouts for mathematics, physics, life, and metaphysics.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-02-from-obligation-to-inspection
+  title: From Obligation to Inspection
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-02-from-obligation-to-inspection-hero.webp
+  hero_jpg: /assets/images/plates/plate-02-from-obligation-to-inspection-hero.jpg
+  master: /assets/images/plates/plate-02-from-obligation-to-inspection-master.jpg
+  thumbnail: /assets/images/plates/plate-02-from-obligation-to-inspection-thumb.webp
+  og_image: /assets/images/plates/plate-02-from-obligation-to-inspection-og.jpg
+  usage_pages:
+  - /agenda/
+  - /discover/
+  caption: 'Panta Rhei asks to be read through a public chain of accountability: Agenda states the obligations, Corpus carries
+    the construction, Results reports what follows, and Verify exposes how claims can be inspected, challenged, and tested.
+
+    '
+  alt: 'Scientific plate titled From Obligation to Inspection, showing the Panta Rhei accountability chain from Agenda to
+    Corpus to Results to Verify, with corresponding stages of obligation, construction, consequence, and inspection.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-03-public-obligation-layer
+  title: The Public Obligation Layer
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-03-public-obligation-layer-hero.webp
+  hero_jpg: /assets/images/plates/plate-03-public-obligation-layer-hero.jpg
+  master: /assets/images/plates/plate-03-public-obligation-layer-master.jpg
+  thumbnail: /assets/images/plates/plate-03-public-obligation-layer-thumb.webp
+  og_image: /assets/images/plates/plate-03-public-obligation-layer-og.jpg
+  usage_pages:
+  - /agenda/
+  - /program/
+  - /discover/
+  caption: 'The Agenda is the program''s public obligation layer: it records Core Semantics, Structural Challenge Ledger,
+    answer-shape burden, and construction order before Results are read as consequences.
+
+    '
+  alt: 'Scientific plate titled The Public Obligation Layer, showing the Agenda as a public research contract connected to
+    four surfaces: Core Semantics, Structural Challenge Ledger, Kernel, Model & Reality, and Construction Roadmap.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-04-construction-spine
+  title: The Construction Spine
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-04-construction-spine-hero.webp
+  hero_jpg: /assets/images/plates/plate-04-construction-spine-hero.jpg
+  master: /assets/images/plates/plate-04-construction-spine-master.jpg
+  thumbnail: /assets/images/plates/plate-04-construction-spine-thumb.webp
+  og_image: /assets/images/plates/plate-04-construction-spine-og.jpg
+  usage_pages:
+  - /corpus/
+  - /corpus/construction-spine/
+  - /agenda/construction-roadmap/
+  caption: 'The Construction Spine is the Corpus-side build narrative: ten canonical steps from kernel definition through
+    mathematics, physics, life, reflective structure, self-hosting, and ontic closure, with public projections through the
+    Registry, TauLib, Monograph Corpus, and Corpus Graph.
+
+    '
+  alt: 'Scientific plate titled The Construction Spine, showing a vertical ten-step build sequence from Kernel to Ontic Closure,
+    with side projections for Registry, TauLib, Monograph Corpus, and Corpus Graph.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-05-results-world-readout
+  title: The Results World Readout
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-05-results-world-readout-hero.webp
+  hero_jpg: /assets/images/plates/plate-05-results-world-readout-hero.jpg
+  master: /assets/images/plates/plate-05-results-world-readout-master.jpg
+  thumbnail: /assets/images/plates/plate-05-results-world-readout-thumb.webp
+  og_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
+  usage_pages:
+  - /results/
+  - /results/landmark-results/
+  - /results/world-readout/
+  - /results/progress-against-agenda/
+  caption: 'Results are not isolated claims. They are consequences of the built Corpus, organized through Landmark Results,
+    World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda, with
+    internal status labels separated from external acceptance.
+
+    '
+  alt: 'Scientific plate titled The Results World Readout, showing Results at the center with six surrounding result surfaces,
+    four world readouts for mathematics, physics, life, and metaphysics, a status legend, and a route from results to inspection.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-06-verification-matrix
+  title: The Verification Matrix
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-06-verification-matrix-hero.webp
+  hero_jpg: /assets/images/plates/plate-06-verification-matrix-hero.jpg
+  master: /assets/images/plates/plate-06-verification-matrix-master.jpg
+  thumbnail: /assets/images/plates/plate-06-verification-matrix-thumb.webp
+  og_image: /assets/images/plates/plate-06-verification-matrix-og.jpg
+  usage_pages:
+  - /verify/
+  - /verify/construction-spine-verification/
+  - /verify/taulib/
+  - /verify/release-manifest/
+  - /verify/predictions-and-falsification/
+  - /verify/how-to-verify/
+  - /verify/assessment-protocols/
+  caption: 'Verification is not a single operation. The Verify lane makes obligations, construction steps, and results inspectable
+    through research-form checks, construction-step verification, formal proof checking, bridge adequacy, predictions and
+    falsification, and external assessment.
+
+    '
+  alt: 'Scientific plate titled The Verification Matrix, showing obligations, construction steps, and results flowing into
+    Verify, with six verification layers, operational surfaces such as TauLib and Release Manifest, a verification status
+    legend, and the caveat that formal checking is not empirical truth.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-07-stable-artifact-layer
+  title: The Stable Artifact Layer
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-07-stable-artifact-layer-hero.webp
+  hero_jpg: /assets/images/plates/plate-07-stable-artifact-layer-hero.jpg
+  master: /assets/images/plates/plate-07-stable-artifact-layer-master.jpg
+  thumbnail: /assets/images/plates/plate-07-stable-artifact-layer-thumb.webp
+  og_image: /assets/images/plates/plate-07-stable-artifact-layer-og.jpg
+  usage_pages:
+  - /publications/
+  - /publications/research-briefings/
+  - /publications/research-briefings/public-good/
+  - /publications/research-notes/
+  - /publications/monograph-supplements/
+  - /publications/white-papers/
+  - /publications/release-artifacts/
+  caption: 'Publications is the stable artifact layer of the program: a typed system of citable objects, including Research
+    Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, and Release Artifacts.
+    Artifact type is not claim status.
+
+    '
+  alt: 'Scientific plate titled The Stable Artifact Layer, showing Publications at the center with seven publication categories,
+    a Public-Good Briefings inset under Research Briefings, a classification decision band, and links to Corpus, Results,
+    Verify, and Impact.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-08-conditional-impact-strata
+  title: The Conditional Impact Strata
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-08-conditional-impact-strata-hero.webp
+  hero_jpg: /assets/images/plates/plate-08-conditional-impact-strata-hero.jpg
+  master: /assets/images/plates/plate-08-conditional-impact-strata-master.jpg
+  thumbnail: /assets/images/plates/plate-08-conditional-impact-strata-thumb.webp
+  og_image: /assets/images/plates/plate-08-conditional-impact-strata-og.jpg
+  usage_pages:
+  - /impact/
+  - /impact/impact-framework/
+  - /impact/global-public-good/
+  - /publications/research-briefings/public-good/
+  caption: 'Impact is conditional: consequences become meaningful only if Results remain supported through verification, translation,
+    domain uptake, and real-world constraints. The six Impact strata range from foundational science to global public-good
+    portfolios.
+
+    '
+  alt: 'Scientific plate titled The Conditional Impact Strata, showing six stacked impact strata from Foundational Science
+    to Global Public Good, a central conditional chain from Result to Verification & Review to Translation Layer to Domain
+    Uptake to Consequence, and a Global Public-Good Portfolios inset.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-09-engagement-without-endorsement
+  title: Engagement Without Endorsement
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-09-engagement-without-endorsement-hero.webp
+  hero_jpg: /assets/images/plates/plate-09-engagement-without-endorsement-hero.jpg
+  master: /assets/images/plates/plate-09-engagement-without-endorsement-master.jpg
+  thumbnail: /assets/images/plates/plate-09-engagement-without-endorsement-thumb.webp
+  og_image: /assets/images/plates/plate-09-engagement-without-endorsement-og.jpg
+  usage_pages:
+  - /engage/
+  - /engage/how-to-engage/
+  - /engage/discussions/
+  - /engage/review-the-work/
+  - /engage/for-engineering-contributors/
+  caption: 'Engage is the open-research participation interface of the program: readers can read carefully, inspect claims,
+    challenge weak links, review bounded areas, contribute infrastructure, communicate responsibly, open institutional dialogue,
+    or support continuation without implying endorsement.
+
+    '
+  alt: 'Scientific plate titled Engagement Without Endorsement, showing Engage at the center with eight engagement modes,
+    routing through the website, GitHub Discussions, GitHub Issues, Pull Requests, and email, plus open-research principles
+    and the caveat that participation does not imply endorsement.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-10-tau-kernel
+  title: The τ-Kernel
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-10-tau-kernel-hero.webp
+  hero_jpg: /assets/images/plates/plate-10-tau-kernel-hero.jpg
+  master: /assets/images/plates/plate-10-tau-kernel-master.jpg
+  thumbnail: /assets/images/plates/plate-10-tau-kernel-thumb.webp
+  og_image: /assets/images/plates/plate-10-tau-kernel-og.jpg
+  usage_pages:
+  - /corpus/
+  - /corpus/construction-spine/
+  - /verify/taulib/
+  caption: 'The τ-Kernel is the constrained formal core from which the construction begins: five generators, one primitive
+    iterator, K0–K6 axiomatic constraints, and constructive closure under a no-hidden-runtime / no-hidden-substrate discipline.
+
+    '
+  alt: 'Scientific plate titled The τ-Kernel, showing five generators, one primitive iterator, a central τ-Kernel block, K0–K6
+    axiomatic constraints, constructive closure, and boundary notes for no hidden runtime and no hidden substrate.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-11-four-layer-world
+  title: The Four-Layer World
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-11-four-layer-world-hero.webp
+  hero_jpg: /assets/images/plates/plate-11-four-layer-world-hero.jpg
+  master: /assets/images/plates/plate-11-four-layer-world-master.jpg
+  thumbnail: /assets/images/plates/plate-11-four-layer-world-thumb.webp
+  og_image: /assets/images/plates/plate-11-four-layer-world-og.jpg
+  usage_pages:
+  - /results/world-readout/
+  caption: 'The four-layer world presents mathematics, physics, life, and metaphysics/reflection as self-enrichment layers
+    of one construction rather than as separate worlds or flattened reductions.
+
+    '
+  alt: 'Scientific plate titled The Four-Layer World, showing E0 Mathematics, E1 Physics, E2 Life, and E3 Metaphysics / Reflection
+    as self-enrichment layers rising from the τ-Kernel construction base.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-12-self-enrichment-not-reduction
+  title: Self-Enrichment, Not Reduction
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-hero.webp
+  hero_jpg: /assets/images/plates/plate-12-self-enrichment-not-reduction-hero.jpg
+  master: /assets/images/plates/plate-12-self-enrichment-not-reduction-master.jpg
+  thumbnail: /assets/images/plates/plate-12-self-enrichment-not-reduction-thumb.webp
+  og_image: /assets/images/plates/plate-12-self-enrichment-not-reduction-og.jpg
+  usage_pages:
+  - /impact/foundational-science/
+  - /agenda/kernel-model-reality/
+  caption: 'Self-enrichment explains how a later layer can be generated from a prior construction while carrying new relational
+    grammar that was not expressible at the ground level. The unity of knowledge does not require flattening knowledge.
+
+    '
+  alt: 'Scientific plate titled Self-Enrichment, Not Reduction, comparing reduction, self-enrichment, and dualism, with self-enrichment
+    shown as a generated layer carrying new relational grammar without adding a second world.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-13-kernel-to-measurement
+  title: From Kernel to Measurement
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-13-kernel-to-measurement-hero.webp
+  hero_jpg: /assets/images/plates/plate-13-kernel-to-measurement-hero.jpg
+  master: /assets/images/plates/plate-13-kernel-to-measurement-master.jpg
+  thumbnail: /assets/images/plates/plate-13-kernel-to-measurement-thumb.webp
+  og_image: /assets/images/plates/plate-13-kernel-to-measurement-og.jpg
+  usage_pages:
+  - /verify/predictions-and-falsification/
+  - /results/world-readout/physics/
+  caption: 'Formal construction becomes empirically exposed only through bridge adequacy: internal physical grammar must pass
+    through constants, measurement bridges, SI observables, predictions, and falsification pressure.
+
+    '
+  alt: 'Scientific plate titled From Kernel to Measurement, showing a chain from Kernel through Physical Carrier, Physical
+    Grammar, Constants and Invariants, Measurement Bridge, SI Observables, Predictions, and Falsification, plus a calibration
+    cascade and the caveat that formal construction is not measurement.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-14-ontic-closure-burden
+  title: The Ontic Closure Burden
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-14-ontic-closure-burden-hero.webp
+  hero_jpg: /assets/images/plates/plate-14-ontic-closure-burden-hero.jpg
+  master: /assets/images/plates/plate-14-ontic-closure-burden-master.jpg
+  thumbnail: /assets/images/plates/plate-14-ontic-closure-burden-thumb.webp
+  og_image: /assets/images/plates/plate-14-ontic-closure-burden-og.jpg
+  usage_pages:
+  - /agenda/kernel-model-reality/no-externalities/
+  caption: 'The Ontic Closure Burden states the no-externalities discipline: a serious model cannot defer decisive explanatory
+    work to a hidden runtime, hidden substrate, hidden semantic load, or boundary left standing by silence.
+
+    '
+  alt: 'Scientific plate titled The Ontic Closure Burden, showing a no-externalities boundary with rejected hidden runtime,
+    hidden substrate, hidden semantic load, and residual boundary by silence, plus allowed treatments such as internalized,
+    derived, typed, factored out, bridged, or marked unresolved.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml
+- asset_id: plate-15-bi-square-spine
+  title: The Bi-Square Motif
+  status: published
+  asset_family: scientific_plate
+  primary_image: /assets/images/plates/plate-15-bi-square-spine-hero.webp
+  hero_jpg: /assets/images/plates/plate-15-bi-square-spine-hero.jpg
+  master: /assets/images/plates/plate-15-bi-square-spine-master.jpg
+  thumbnail: /assets/images/plates/plate-15-bi-square-spine-thumb.webp
+  og_image: /assets/images/plates/plate-15-bi-square-spine-og.jpg
+  usage_pages:
+  - /corpus/bi-square/
+  - /corpus/
+  caption: 'The bi-square is the repeated proof-organizing shape of the kernel: tower coherence on the left, spectral naturality
+    on the right, and a pasted constraint that becomes richer from algebraic holomorphy to geometry, enrichment, and computation.
+
+    '
+  alt: 'Scientific plate titled The Bi-Square Motif, showing a two-by-three pasted diagram with tower coherence on the left,
+    spectral naturality on the right, and a pasting constraint across the whole rectangle, followed by a scaling chain from
+    algebraic to geometric, enriched, and computational bi-squares.
+
+    '
+  license: Panta Rhei Research public-site asset
+  source_surface: site/_data/plates.yml

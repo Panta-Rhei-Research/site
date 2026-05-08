@@ -11,6 +11,15 @@ layout: default
 {% endfor %}
 
 {% assign cover_path = '/assets/books/covers/' | append: page.book_slug | append: '-1e-cover-' %}
+{% assign corpus_archived_edition = nil %}
+{% if site.data.corpus.governance.edition_history %}
+  {% assign archived_editions = site.data.corpus.governance.edition_history.editions | where: "edition", "first" %}
+  {% for edition in archived_editions %}
+    {% if edition.book_slug == page.book_slug %}
+      {% assign corpus_archived_edition = edition %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 <div class="hero-card book-hero">
   <div class="book-hero-inner">
@@ -41,6 +50,18 @@ layout: default
 </div>
 
 {% include summary-cards.html %}
+
+{% if corpus_archived_edition %}
+<div class="content-card">
+  <h2 class="format-section-title">Edition Status</h2>
+  <p>This archived volume is projected from Corpus edition metadata as <strong>{{ corpus_archived_edition.edition_status | replace: "_", " " | capitalize }}</strong>.</p>
+  <p>The current canonical edition is the Second Edition. Publication-facing corrections are tracked through the global errata record and the current book-specific errata pages.</p>
+  <div class="btn-group">
+    <a href="{{ corpus_archived_edition.superseded_by | relative_url }}" class="btn-secondary">View current edition</a>
+    <a href="{{ '/publications/errata/' | relative_url }}" class="btn-ghost">Publication errata</a>
+  </div>
+</div>
+{% endif %}
 
 <div class="content-card">
   <div class="prose">

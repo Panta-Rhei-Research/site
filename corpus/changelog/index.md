@@ -38,7 +38,7 @@ tags:
   - public-record
 ---
 
-{% assign changelog_data = site.data.corpus_changelog["corpus-changelog"] %}
+{% assign changelog_data = site.data.corpus.governance.corpus_changelog %}
 {% assign entries = changelog_data.entries %}
 
 ## Purpose
@@ -58,9 +58,12 @@ repository-level change. Those belong in the technical [Changelog]({{ '/changelo
 {% for entry in entries %}
   <article class="content-card">
     <p class="eyebrow">{{ entry.date }} · {{ entry.severity_class }} · {{ entry.type | replace: "_", " " | capitalize }}</p>
-    <h2><a href="{{ entry.permalink | relative_url }}">{{ entry.title }}</a></h2>
+    <h2>{{ entry.title }}</h2>
     <p>{{ entry.summary }}</p>
     <p><strong>Release:</strong> <code>{{ entry.release }}</code> · <strong>Status:</strong> <code>{{ entry.status }}</code></p>
+    {% if entry.related_errata and entry.related_errata.size > 0 %}
+    <p><strong>Related errata:</strong> {% for erratum_id in entry.related_errata %}<a href="{{ '/publications/errata/' | relative_url }}"><code>{{ erratum_id }}</code></a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% endif %}
   </article>
 {% endfor %}
 </div>
