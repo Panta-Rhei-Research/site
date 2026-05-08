@@ -1,0 +1,45 @@
+impact_chain:
+  aria_label: "Impact chain"
+  steps:
+    - label: "Result"
+      href: "/results/"
+      description: "What the program currently claims follows."
+    - label: "Verification & Review"
+      href: "/verify/"
+      description: "What remains supported, corrected, narrowed, or retired."
+    - label: "Translation Layer"
+      href: "/impact/impact-framework/"
+      description: "Domain-specific assumptions and model choices."
+    - label: "Domain Uptake"
+      description: "Institutions, tools, data, governance, and practice."
+    - label: "Consequence"
+      description: "What could change if the chain holds."
+
+portfolio_dependency:
+  aria_label: "Portfolio dependency chain"
+  steps:
+    - label: "Results"
+      href: "/results/"
+      description: "Relevant claims must hold."
+    - label: "Verify"
+      href: "/verify/"
+      description: "Claims must remain supported after review."
+    - label: "Translation"
+      href: "/impact/impact-framework/"
+      description: "Domain assumptions must be named."
+    - label: "Uptake"
+      description: "Real institutions, data, and practice must be able to use it."
+
+calibration_cascade:
+  aria_label: "Calibration cascade"
+  steps:
+    - label: "L0 Algebraic"
+      description: "Pure algebraic posit."
+    - label: "L1 Dimensionless"
+      description: "Ratios and couplings."
+    - label: "L2 SI Anchor"
+      description: "Single neutron-mass anchor."
+    - label: "L3 SI-Derived"
+      description: "SI-valued readouts."
+    - label: "L4 Verification"
+      description: "Falsification and measurement checks."

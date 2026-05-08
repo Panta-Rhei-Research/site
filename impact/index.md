@@ -83,17 +83,7 @@ Results and Verify remain upstream. Translation and domain uptake remain require
 
 Impact is conditional: no consequence is stronger than the Results, verification status, translation assumptions, and domain uptake on which it depends.
 
-<div class="v2-system-row" aria-label="Impact chain">
-  <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Result</strong>What the program currently claims follows.</a>
-  <span class="v2-system-arrow">→</span>
-  <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verification & Review</strong>What remains supported, corrected, narrowed, or retired.</a>
-  <span class="v2-system-arrow">→</span>
-  <a class="v2-system-node" href="{{ '/impact/impact-framework/' | relative_url }}"><strong>Translation Layer</strong>Domain-specific assumptions and model choices.</a>
-  <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Domain Uptake</strong>Institutions, tools, data, governance, and practice.</span>
-  <span class="v2-system-arrow">→</span>
-  <span class="v2-system-node"><strong>Consequence</strong>What could change if the chain holds.</span>
-</div>
+{% include sequence-flow.html id="impact_chain" show_descriptions=true %}
 
 <p class="eyebrow">The conditional consequence layer at a glance</p>
 
@@ -103,7 +93,7 @@ Impact is conditional: no consequence is stronger than the Results, verification
 
 Impact is conditional. Each consequence depends on upstream Results, verification and review status, translation assumptions, domain uptake, and real-world constraints. Consequence requires accountable passage through scrutiny, correction, translation, and uptake.
 
-> Updated chain language: the Impact lane now reads this plate as **Result → Verification & Review → Translation Layer → Domain Uptake → Consequence**.
+> Updated chain language: the Impact lane now reads this plate through the conditional sequence above.
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ '/impact/impact-framework/' | relative_url }}">Read the Impact Framework</a>

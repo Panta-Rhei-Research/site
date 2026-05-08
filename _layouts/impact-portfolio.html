@@ -33,20 +33,13 @@ layout: default
 
 <section class="content-card">
   <h2>Dependency Chain</h2>
-  <div class="v2-system-row" aria-label="Portfolio dependency chain">
-    <a class="v2-system-node" href="{{ '/results/' | relative_url }}"><strong>Results</strong>Relevant claims must hold.</a>
-    <span class="v2-system-arrow">→</span>
-    <a class="v2-system-node" href="{{ '/verify/' | relative_url }}"><strong>Verify</strong>Claims must remain supported after review.</a>
-    <span class="v2-system-arrow">→</span>
-    <a class="v2-system-node" href="{{ '/impact/impact-framework/' | relative_url }}"><strong>Translation</strong>Domain assumptions must be named.</a>
-    <span class="v2-system-arrow">→</span>
-    <span class="v2-system-node"><strong>Uptake</strong>Real institutions, data, and practice must be able to use it.</span>
-  </div>
+  {% include sequence-flow.html id="portfolio_dependency" show_descriptions=true %}
 </section>
 
 <section class="content-card">
   <h2>Reading discipline</h2>
-  <p>Read this portfolio through the Impact chain: Result → Verification & Review → Translation Layer → Domain Uptake → Consequence.</p>
+  <p>Read this portfolio through the Impact chain:</p>
+  {% include sequence-flow.html id="impact_chain" %}
   <p>If any upstream link weakens, the portfolio claim weakens with it.</p>
 </section>
 

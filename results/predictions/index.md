@@ -17,7 +17,11 @@ do_not_edit: false
 
 The Numerical Physics Ledger compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with **zero free continuous parameters**. Each prediction compares a τ-derived value to experimental measurement — no ontological bridge claims needed.
 
-<div class="notice note"><strong>The cascade.</strong> Two inputs (the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor m<sub>n</sub>) feed a four-layer pipeline: <strong>L0</strong> algebraic → <strong>L1</strong> dimensionless → <strong>L2</strong> SI anchor → <strong>L3</strong> SI-derived → <strong>L4</strong> verification. Every number in the prediction catalogue is traceable to those two inputs. There are no additional free parameters.</div>
+<div class="notice note">
+  <strong>The cascade.</strong> Two inputs (the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor m<sub>n</sub>) feed a four-layer pipeline:
+  {% include sequence-flow.html id="calibration_cascade" class="sequence-flow--notice" %}
+  Every number in the prediction catalogue is traceable to those two inputs. There are no additional free parameters.
+</div>
 
 ## Precision tiers
 

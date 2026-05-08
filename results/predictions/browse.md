@@ -22,7 +22,11 @@ right_rail:
 
 The Numerical Physics Ledger compiles **{% include release-metric.html id="predictions.records" %} quantitative predictions** derived from the single master constant ι<sub>τ</sub> = 2/(π+e), with zero free continuous parameters. Each prediction compares a τ-derived value to experimental measurement — no ontological bridge claims needed. Fifteen predictions achieve sub-10 ppm precision, including the electron mass (0.025 ppm), weak mixing angle (−0.65 ppm), and Higgs mass (+8.0 ppm).
 
-The catalogue sits on top of the **calibration cascade** (Numerical Physics Ledger Ch 58a). Two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor, the neutron mass m<sub>n</sub> — feed a four-layer pipeline (**L0** algebraic → **L1** dimensionless → **L2** SI anchor → **L3** SI-derived → **L4** verification). Every number in the catalogue is traceable to those two inputs through the cascade; there are no additional free parameters. Most entries live at L1 (dimensionless ratios) or L3 (SI-anchored observables).
+The catalogue sits on top of the **calibration cascade** (Numerical Physics Ledger Ch 58a). Two inputs — the algebraic posit ι<sub>τ</sub> = 2/(π+e) and a single SI anchor, the neutron mass m<sub>n</sub> — feed a four-layer pipeline:
+
+{% include sequence-flow.html id="calibration_cascade" %}
+
+Every number in the catalogue is traceable to those two inputs through the cascade; there are no additional free parameters. Most entries live at L1 (dimensionless ratios) or L3 (SI-anchored observables).
 
 ## Three kinds of prediction — honest a-priori accounting
 

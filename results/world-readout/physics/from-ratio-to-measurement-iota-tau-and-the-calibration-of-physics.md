@@ -66,7 +66,9 @@ This is why ι<sub>τ</sub> matters so much. It is not one more parameter in a l
 
 ## The four-layer calibration cascade
 
-The cascade L0 → L1 → L2 → L3 → L4 is the spine of Tau-physics. Each layer earns its quantitative content from the one before it, never from outside.
+The calibration cascade is the spine of Tau-physics. Each layer earns its quantitative content from the one before it, never from outside.
+
+{% include sequence-flow.html id="calibration_cascade" %}
 
 **L0 — Pure algebra.** Starting from ι<sub>τ</sub>, the cascade first unfolds purely algebraic structure: the damping and rebalancing coefficients κ<sub>D</sub> = 1 − ι<sub>τ</sub> and κ<sub>ω</sub> = ι<sub>τ</sub>/(1 + ι<sub>τ</sub>), the continued-fraction expansion of ι<sub>τ</sub>, and the window sums W<sub>k</sub>(n) that sit in that expansion. Nothing has been measured yet. Everything is a consequence of the single algebraic posit.
 
