@@ -10,21 +10,21 @@ import sys
 from pathlib import Path
 
 
-LANE_LABELS = {
-    "discover/index.html": "DISCOVER · LANE ROOT · CANONICAL",
-    "program/index.html": "PROGRAM · LANE ROOT · CANONICAL",
-    "agenda/index.html": "AGENDA · LANE ROOT · CANONICAL",
-    "corpus/index.html": "CORPUS · LANE ROOT · CANONICAL",
-    "results/index.html": "RESULTS · LANE ROOT · CANONICAL",
-    "verify/index.html": "VERIFY · LANE ROOT · CANONICAL",
-    "publications/index.html": "PUBLICATIONS · LANE ROOT · CANONICAL",
-    "impact/index.html": "IMPACT · LANE ROOT · CONDITIONAL",
-    "engage/index.html": "ENGAGE · LANE ROOT · ACTIVE",
+LANE_EYEBROWS = {
+    "discover/index.html": ("Discover", "Lane Root", "Canonical"),
+    "program/index.html": ("Program", "Lane Root", "Canonical"),
+    "agenda/index.html": ("Agenda", "Lane Root", "Canonical"),
+    "corpus/index.html": ("Corpus", "Lane Root", "Canonical"),
+    "results/index.html": ("Results", "Lane Root", "Canonical"),
+    "verify/index.html": ("Verify", "Lane Root", "Canonical"),
+    "publications/index.html": ("Publications", "Lane Root", "Canonical"),
+    "impact/index.html": ("Impact", "Lane Root", "Conditional"),
+    "engage/index.html": ("Engage", "Lane Root", "Active"),
 }
 
 REPRESENTATIVE_ROUTES = [
     "index.html",
-    *LANE_LABELS.keys(),
+    *LANE_EYEBROWS.keys(),
     "sitemap/index.html",
     "program/about/standing-in-the-inquiry-of-being/index.html",
     "agenda/core-semantics/index.html",
@@ -84,6 +84,15 @@ def attr(html_text: str, pattern: str) -> str:
     return html.unescape(match.group(1)).strip()
 
 
+def require_hero_meta(raw: str, route: str, type_label: str, status_label: str) -> None:
+    type_pattern = rf'<span class="[^"]*\bhero-meta-pill--type\b[^"]*"[^>]*>\s*{re.escape(type_label)}\s*</span>'
+    status_pattern = rf'<span class="[^"]*\bhero-meta-pill--status\b[^"]*"[^>]*>\s*{re.escape(status_label)}\s*</span>'
+    if not re.search(type_pattern, raw):
+        raise AssertionError(f"{route} missing hero type metadata pill: {type_label}")
+    if not re.search(status_pattern, raw):
+        raise AssertionError(f"{route} missing hero status metadata pill: {status_label}")
+
+
 def main() -> int:
     site = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("_site")
     root = site.parent
@@ -98,19 +107,44 @@ def main() -> int:
         if route_url in governed_routes:
             require(raw, 'name="prrp:atlas_id"', f"Site Atlas metadata for {route}")
 
-    for route, expected_label in LANE_LABELS.items():
+    for route, (current_label, type_label, status_label) in LANE_EYEBROWS.items():
         raw = read(site / route)
-        require(raw, 'class="hero-eyebrow-pill hero-eyebrow-breadcrumb"', f"hybrid eyebrow for {route}")
-        require(raw, 'class="hero-eyebrow-link"', f"linked ancestor crumbs for {route}")
+        require(raw, 'class="hero-eyebrow-row"', f"split eyebrow row for {route}")
+        require(raw, 'hero-breadcrumb-pill hero-eyebrow-breadcrumb', f"breadcrumb pill for {route}")
+        require(raw, 'class="hero-eyebrow-link hero-breadcrumb-link"', f"linked ancestor crumbs for {route}")
         require(raw, 'aria-label="Breadcrumb"', f"breadcrumb accessibility label for {route}")
         require(raw, '"@type": "BreadcrumbList"', f"structured breadcrumb JSON-LD for {route}")
-        current = attr(raw, r'<span class="hero-eyebrow-current">([^<]+)</span>')
-        if current != expected_label:
-            raise AssertionError(f"{route} eyebrow current label drifted: {current!r}")
-        lowered = current.lower()
+        breadcrumb_html = attr(raw, r'<nav class="[^"]*\bhero-breadcrumb-pill\b[^"]*"[^>]*>(.*?)</nav>')
+        require(breadcrumb_html, "hero-breadcrumb-separator", f"slash breadcrumb separator for {route}")
+        require(breadcrumb_html, "/", f"slash breadcrumb separator for {route}")
+        require(breadcrumb_html, current_label, f"current breadcrumb label for {route}")
+        if type_label.upper() in breadcrumb_html.upper() or status_label.upper() in breadcrumb_html.upper():
+            raise AssertionError(f"{route} breadcrumb pill leaks metadata: {breadcrumb_html!r}")
+        require_hero_meta(raw, route, type_label, status_label)
+        metadata_text = " ".join(
+            re.findall(r'<span class="[^"]*\bhero-meta-pill\b[^"]*"[^>]*>([^<]+)</span>', raw)
+        )
+        lowered = metadata_text.lower()
         for fragment in FORBIDDEN_EYEBROW_FRAGMENTS:
             if fragment in lowered:
-                raise AssertionError(f"{route} eyebrow current label leaks uncontrolled prose/tag text: {current!r}")
+                raise AssertionError(f"{route} eyebrow metadata leaks uncontrolled prose/tag text: {metadata_text!r}")
+
+    deep_expectations = {
+        "impact/existential-orientation/index.html": ("Impact", "Existential Orientation", "Impact Stratum", "Conditional"),
+        "program/about/standing-in-the-inquiry-of-being/index.html": (
+            "About the Program",
+            "Standing in the Inquiry of Being",
+            "Program Charter",
+            "Canonical",
+        ),
+    }
+    for route, (expected_parent, suppressed_title, type_label, status_label) in deep_expectations.items():
+        raw = read(site / route)
+        breadcrumb_html = attr(raw, r'<nav class="[^"]*\bhero-breadcrumb-pill\b[^"]*"[^>]*>(.*?)</nav>')
+        require(breadcrumb_html, expected_parent, f"deep breadcrumb parent for {route}")
+        if suppressed_title in breadcrumb_html:
+            raise AssertionError(f"{route} repeats current page title in breadcrumb pill: {suppressed_title}")
+        require_hero_meta(raw, route, type_label, status_label)
 
     for route in LANE_ROOTS:
         raw = read(site / route)
