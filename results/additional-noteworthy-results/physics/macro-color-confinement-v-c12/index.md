@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-color-confinement"
     title: "Color confinement"
-    url: "/results/challenge-responses/physics/color-confinement/"
+    url: "/results/problem-ledger-answers/physics/color-confinement/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms: []
@@ -79,7 +79,7 @@ Macro color confinement: no macroscopic configuration carries a net color charge
 
 ## Related Results surfaces
 
-- [Color confinement](/results/challenge-responses/physics/color-confinement/)
+- [Color confinement](/results/problem-ledger-answers/physics/color-confinement/)
 - [Proton Stability: Address Irresolvability Forbids Baryon Decay](/results/problem/proton-stability/)
 - [QCD Confinement](/results/problem/qcd-confinement/)
 - color-confinement

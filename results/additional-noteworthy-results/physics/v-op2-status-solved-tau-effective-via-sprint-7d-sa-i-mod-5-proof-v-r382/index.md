@@ -46,7 +46,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter"
     title: "Matter–antimatter asymmetry Theoretical models suggest that the early universe should have produced equal amounts of matter and antimatter"
-    url: "/results/challenge-responses/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/"
+    url: "/results/problem-ledger-answers/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -78,7 +78,7 @@ V.OP2 SOLVED (τ-effective): Sprint 7D provides formal proof of SA-i mod-5 baryo
 
 - [Baryogenesis: η_B = α·ιτ¹⁵·(5/6) at −1%](/results/problem/baryogenesis-eta-b/)
 - matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter
-- [Matter–antimatter asymmetry Theoretical models suggest that the early universe should have produced equal amounts of matter and antimatter](/results/challenge-responses/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/)
+- [Matter–antimatter asymmetry Theoretical models suggest that the early universe should have produced equal amounts of matter and antimatter](/results/problem-ledger-answers/physics/matterantimatter-asymmetry-theoretical-models-suggest-that-the-early-universe-should-have-produced-equal-amounts-of-matter-and-antimatter/)
 
 ## Reading role
 

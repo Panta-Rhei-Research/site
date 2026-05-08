@@ -1,0 +1,8 @@
+generated_from: corpus/data/predictions/calibration-cascade.yml
+projection_version: v0.1
+canonical_source: corpus/data/predictions/calibration-cascade.yml
+do_not_edit: true
+calibration_cascade:
+  master_constant: ι_τ = 2 / (π + e)
+  si_anchor: m_n
+  free_continuous_parameters: 0

@@ -18,13 +18,15 @@ right_rail:
   meta:
     type: "Numerical Physics Ledger Appendix"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 og_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
 twitter_image: /assets/images/plates/plate-05-results-world-readout-og.jpg
 og_image_alt: "Scientific plate showing the Results World Readout, with the Prediction Timing accounting that classifies numerical predictions as a priori, tension-side, or post-diction."
 ---
 
-The first question any honest reader should ask of a zero-parameter theory with {% include release-metric.html id="predictions.records" %} numerical agreements is: **are these predictions a priori, or are they post-dictions of already-known data dressed up as derivations?** This page answers that question directly — without hedging, without post-hoc calibration, and without pretending to data we do not have.
+The first question any honest reader should ask of a zero-parameter theory with {% include release-metric.html id="predictions.records" %} numerical agreements is: **are these predictions a priori, or are they post-dictions of already-known data dressed up as derivations?** This page answers that question directly, while separating internal program status from formal verification and external acceptance.
+
+<div class="notice note"><strong>Wave 2 status note.</strong> The category counts on this page are framework-level aggregates unless a future Corpus source field records item-level historical timing. They should be read as public accounting of claim shape, not as external review or pre-registration evidence.</div>
 
 ## Precision-tier taxonomy (Tier A / B / C)
 

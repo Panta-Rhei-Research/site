@@ -1,0 +1,23 @@
+{
+  "generated_from": "corpus/data/predictions/prediction-types.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/predictions/prediction-types.yml",
+  "do_not_edit": true,
+  "prediction_types": {
+    "retro_consistency_postdiction": {
+      "label": "Retro-consistency post-diction"
+    },
+    "tension_account": {
+      "label": "Tension account"
+    },
+    "forward_test": {
+      "label": "Forward test"
+    },
+    "structural_binary": {
+      "label": "Structural binary"
+    },
+    "classification_pending": {
+      "label": "Classification pending"
+    }
+  }
+}

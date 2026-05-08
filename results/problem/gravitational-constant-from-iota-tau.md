@@ -31,6 +31,7 @@ foundational_hinge_ids: []
 glossary_term_ids:
   - "PG-C02-iota-tau"
   - "PG-C14-gravitational-fine-structure"
+  - "MathG-D01-iota-tau"
 recovery_requirement_ids: []
 generated_from: "corpus/results"
 projection_version: "v0.2"

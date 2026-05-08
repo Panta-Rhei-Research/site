@@ -15,9 +15,9 @@ do_not_edit: false
 
 ## The {% include release-metric.html id="falsifications.records" %}-Prediction Falsification Pack
 
-The **Falsification Pack** identifies the sharpest points where the τ-framework makes specific, testable claims that named experiments can verify or refute. Each prediction (N1–N30) carries a domain, a named experiment, a timeline, and a current program-side tracking status.
+The **Falsification Pack** identifies the sharpest points where the τ-framework makes specific, testable claims that named experiments can test, corroborate, or refute. Each prediction (N1–N30) carries a domain, a named experiment, a timeline, and a current program-side tracking status.
 
-<div class="notice note"><strong>Scope.</strong> Falsifications complement the broader <a href="{{ '/results/predictions/' | relative_url }}">Predictions</a> ledger. Predictions list every numerical comparison; falsifications name the specific experiments whose outcomes would refute or confirm key τ-categorical commitments on a fixed timeline.</div>
+<div class="notice note"><strong>Scope.</strong> Falsifications complement the broader <a href="{{ '/results/predictions/' | relative_url }}">Predictions</a> ledger. Predictions list every numerical comparison; falsifications name the specific experiments whose outcomes would challenge or support key τ-categorical commitments on a fixed timeline. Current tracking labels remain internal program labels unless an item explicitly records external review.</div>
 
 ## Where to go
 

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-energy"
     title: "Dark energy"
-    url: "/results/challenge-responses/physics/dark-energy/"
+    url: "/results/problem-ledger-answers/physics/dark-energy/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -127,7 +127,7 @@ Ledger restatement: Omega_Lambda=0.685 (V.T234)
 
 ## Related Results surfaces
 
-- [Dark energy](/results/challenge-responses/physics/dark-energy/)
+- [Dark energy](/results/problem-ledger-answers/physics/dark-energy/)
 - [Dark Energy Equation of State](/results/problem/dark-energy-equation-of-state/)
 - [Dark Sector Closure](/results/problem/dark-sector-closure/)
 - [Dark Energy Density Ω_Λ](/predictions/pred-46/)

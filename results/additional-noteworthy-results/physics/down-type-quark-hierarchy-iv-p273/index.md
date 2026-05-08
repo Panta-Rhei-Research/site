@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-quarkgluon-plasma"
     title: "Quark–gluon plasma"
-    url: "/results/challenge-responses/physics/quarkgluon-plasma/"
+    url: "/results/problem-ledger-answers/physics/quarkgluon-plasma/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms: []
@@ -55,7 +55,7 @@ The down-type quark mass ratios: equation m_sm_d 20, m_bm_s 45, m_bm_d 890
 
 ## Related Results surfaces
 
-- [Quark–gluon plasma](/results/challenge-responses/physics/quarkgluon-plasma/)
+- [Quark–gluon plasma](/results/problem-ledger-answers/physics/quarkgluon-plasma/)
 
 ## Reading role
 

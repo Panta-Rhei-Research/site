@@ -89,7 +89,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-strong-cp-problem-and-axions"
     title: "Strong CP problem and axions"
-    url: "/results/challenge-responses/physics/strong-cp-problem-and-axions/"
+    url: "/results/problem-ledger-answers/physics/strong-cp-problem-and-axions/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -126,7 +126,7 @@ Ledger restatement: theta_QCD=0 from SA-i mod-3 (IV.T160)
 - [Strong CP Angle θ_QCD](/predictions/qcd/)
 - strong-cp-problem-and-axions
 - the-qcd-vacuum
-- [Strong CP problem and axions](/results/challenge-responses/physics/strong-cp-problem-and-axions/)
+- [Strong CP problem and axions](/results/problem-ledger-answers/physics/strong-cp-problem-and-axions/)
 
 ## Reading role
 

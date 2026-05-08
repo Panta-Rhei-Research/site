@@ -36,7 +36,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-K02-five-generators"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -74,7 +76,9 @@
     "foundational_hinge_ids": [
       "FH-H1"
     ],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T01-hyperfactorization"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -112,7 +116,9 @@
     "foundational_hinge_ids": [
       "FH-H2"
     ],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T06-prime-polarity"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -149,7 +155,8 @@
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
     "glossary_term_ids": [
-      "MG-C05-character"
+      "MG-C05-character",
+      "MathG-T11-mutual-determination"
     ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
@@ -194,7 +201,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T04-central-theorem"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -310,7 +319,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T11-mutual-determination"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -1046,7 +1057,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T12-global-hartogs"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -1458,7 +1471,8 @@
     "foundational_hinge_ids": [],
     "glossary_term_ids": [
       "PG-C02-iota-tau",
-      "PG-C14-gravitational-fine-structure"
+      "PG-C14-gravitational-fine-structure",
+      "MathG-D01-iota-tau"
     ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
@@ -2582,7 +2596,8 @@
     "cascade_layer": "physics-cascade",
     "foundational_hinge_ids": [],
     "glossary_term_ids": [
-      "PG-C02-iota-tau"
+      "PG-C02-iota-tau",
+      "MathG-D01-iota-tau"
     ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
@@ -2958,7 +2973,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "life-cascade",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-O01-tau-object"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -3371,7 +3388,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T01-hyperfactorization"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -3407,7 +3426,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T06-prime-polarity"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -6027,7 +6048,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-K02-five-generators"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -6144,7 +6167,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T06-prime-polarity"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -8726,7 +8751,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-D14-stone-space"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -9023,7 +9050,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-A02-spectral-correspondence"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -9243,7 +9272,9 @@
     "lean_formalization_status": "none",
     "cascade_layer": "kernel",
     "foundational_hinge_ids": [],
-    "glossary_term_ids": [],
+    "glossary_term_ids": [
+      "MathG-T04-central-theorem"
+    ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",
     "projection_version": "v0.2",
@@ -9784,7 +9815,8 @@
     "cascade_layer": "physics-cascade",
     "foundational_hinge_ids": [],
     "glossary_term_ids": [
-      "PG-C02-iota-tau"
+      "PG-C02-iota-tau",
+      "MathG-D01-iota-tau"
     ],
     "recovery_requirement_ids": [],
     "generated_from": "corpus/results",

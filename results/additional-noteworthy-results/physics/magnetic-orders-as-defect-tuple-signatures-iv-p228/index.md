@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-coronal-heating-problem"
     title: "Coronal heating problem"
-    url: "/results/challenge-responses/physics/coronal-heating-problem/"
+    url: "/results/problem-ledger-answers/physics/coronal-heating-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -65,7 +65,7 @@ Five magnetic orders as d₄ patterns: (1) Diamagnetic: paired d₄, M≤0. (2) 
 
 ## Related Results surfaces
 
-- [Coronal heating problem](/results/challenge-responses/physics/coronal-heating-problem/)
+- [Coronal heating problem](/results/problem-ledger-answers/physics/coronal-heating-problem/)
 - [Cosmic Magnetic Fields: SMBH-Jet Frozen Flux Along Wilson Filaments](/results/problem/cosmic-magnetic-fields/)
 
 ## Reading role

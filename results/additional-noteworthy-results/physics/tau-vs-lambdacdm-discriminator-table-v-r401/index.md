@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-principle"
     title: "Cosmological principle"
-    url: "/results/challenge-responses/physics/cosmological-principle/"
+    url: "/results/problem-ledger-answers/physics/cosmological-principle/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -56,7 +56,7 @@ Five decisive τ-vs-ΛCDM discriminators: (D1) r=ι_τ⁴=0.014 at 14σ by CMB-S
 
 ## Related Results surfaces
 
-- [Cosmological principle](/results/challenge-responses/physics/cosmological-principle/)
+- [Cosmological principle](/results/problem-ledger-answers/physics/cosmological-principle/)
 
 ## Reading role
 

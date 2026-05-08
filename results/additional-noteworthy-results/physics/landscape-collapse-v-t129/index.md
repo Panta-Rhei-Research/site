@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-cosmological-constant-problem"
     title: "Cosmological constant problem"
-    url: "/results/challenge-responses/physics/cosmological-constant-problem/"
+    url: "/results/problem-ledger-answers/physics/cosmological-constant-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -102,7 +102,7 @@ The boundary holonomy algebra H_partial[omega] of tau^3 admits a unique ground s
 
 ## Related Results surfaces
 
-- [Cosmological constant problem](/results/challenge-responses/physics/cosmological-constant-problem/)
+- [Cosmological constant problem](/results/problem-ledger-answers/physics/cosmological-constant-problem/)
 - [Vacuum Catastrophe Framework Account](/results/problem/vacuum-catastrophe-resolution/)
 - [Vacuum Energy = 0: Cosmological Constant Problem Dissolved](/results/problem/vacuum-energy-zero/)
 - cosmological-constant-problem

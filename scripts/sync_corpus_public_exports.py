@@ -55,6 +55,19 @@ def normalize_taulib_projection_tree(root: Path) -> None:
             normalize_taulib_projection_routes(path)
 
 
+def normalize_monograph_projection_routes(path: Path) -> None:
+    if not path.exists() or not path.is_file():
+        return
+    text = path.read_text(encoding="utf-8")
+    normalized = (
+        text.replace("/corpus/construction-map/", "/corpus/construction-spine/")
+        .replace("[Construction Map]", "[Construction Spine]")
+        .replace("the [Construction Map]", "the [Construction Spine]")
+    )
+    if normalized != text:
+        path.write_text(normalized, encoding="utf-8")
+
+
 def clean_generated_tree(
     target: Path,
     suffixes: tuple[str, ...] = (".md", ".json", ".csv", ".ndjson"),
@@ -523,6 +536,132 @@ def sync_results() -> None:
     sync_registry_noteworthy_results()
 
 
+def sync_wave2_metadata() -> None:
+    source_root = CORPUS_EXPORTS / "metadata-wave2"
+    if not source_root.exists():
+        raise SystemExit(f"Missing Wave 2 metadata public export: {source_root}")
+
+    corpus_data_targets = {
+        "index.yml": "wave2_index.yml",
+        "structural-challenges.yml": "structural_challenges.yml",
+        "challenge-responses.yml": "challenge_responses.yml",
+        "results.yml": "results.yml",
+        "predictions.yml": "predictions.yml",
+        "falsifications.yml": "falsifications.yml",
+        "domain-metadata.yml": "domain_metadata.yml",
+        "progress.yml": "wave2_progress.yml",
+        "result-statuses.yml": "result_statuses.yml",
+        "response-statuses.yml": "response_statuses.yml",
+        "status-grammars.yml": "status_grammars.yml",
+        "prediction-falsification-taxonomy.yml": "prediction_falsification_taxonomy.yml",
+    }
+    for source_name, target_name in corpus_data_targets.items():
+        source = source_root / source_name
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "corpus" / target_name)
+
+    copy_tree(source_root, SITE_ROOT / "assets" / "data" / "corpus-wave2")
+
+    structural_root = CORPUS_EXPORTS / "structural-challenges"
+    if structural_root.exists():
+        index_source = structural_root / "index.json"
+        if index_source.exists():
+            copy_file(index_source, SITE_ROOT / "assets" / "data" / "structural-challenges" / "index.json")
+        manifest_root = structural_root / "manifest"
+        if manifest_root.exists():
+            for source in sorted(manifest_root.glob("*.json")):
+                copy_file(source, SITE_ROOT / "_data" / "structural_challenges" / source.name)
+                copy_file(source, SITE_ROOT / "assets" / "data" / "structural-challenges" / "manifest" / source.name)
+        items_root = structural_root / "items"
+        if items_root.exists():
+            copy_tree(items_root, SITE_ROOT / "agenda" / "structural-challenge-ledger")
+        generate_problem_ledger_answer_compatibility_pages()
+
+    monograph_index = CORPUS_EXPORTS / "monograph-projections" / "pages" / "index.md"
+    if monograph_index.exists():
+        target = SITE_ROOT / "corpus" / "monographs" / "index.md"
+        copy_file(monograph_index, target)
+        normalize_monograph_projection_routes(target)
+
+
+def generate_problem_ledger_answer_compatibility_pages() -> None:
+    manifest_root = SITE_ROOT / "_data" / "structural_challenges"
+    if not manifest_root.exists():
+        return
+    root = SITE_ROOT / "results" / "problem-ledger-answers"
+    generated_paths: set[Path] = set()
+    for manifest in sorted(manifest_root.glob("*.json")):
+        data = json.loads(manifest.read_text(encoding="utf-8"))
+        domain = data.get("domain") or manifest.stem
+        for item in data.get("items", []):
+            slug = item.get("slug")
+            source_url = item.get("url", "")
+            if not slug or not source_url:
+                continue
+            target = source_url.replace(
+                "/agenda/structural-challenge-ledger/",
+                "/results/challenge-responses/",
+            )
+            write_markdown(
+                root / domain / slug / "index.md",
+                {
+                    "layout": "redirect",
+                    "title": f"{item.get('title', slug)} moved",
+                    "permalink": f"/results/problem-ledger-answers/{domain}/{slug}/",
+                    "redirect_to": target,
+                    "lane": "results",
+                    "v2_lane": "results",
+                    "type": "Compatibility Redirect",
+                    "status": "Compatibility",
+                    "summary_short": "Redirects the retired Problem Ledger Answer route to the canonical Challenge Response route.",
+                    "generated_from": "corpus/exports/public/structural-challenges/manifest",
+                    "projection_version": "v0.1",
+                    "canonical_source": "corpus/structural-challenge-ledger",
+                    "do_not_edit": True,
+                },
+                f"Redirecting to the canonical Challenge Response route: [{target}]({target}).",
+            )
+            generated_paths.add(root / domain / slug / "index.md")
+
+    legacy_pattern = re.compile(r"/results/problem-ledger-answers/[A-Za-z0-9/_-]+/?")
+    for source in sorted((SITE_ROOT / "results").rglob("*.md")):
+        if root in source.parents:
+            continue
+        legacy_urls = sorted(set(legacy_pattern.findall(source.read_text(encoding="utf-8", errors="replace"))))
+        for legacy_url in legacy_urls:
+            normalized_url = "/" + legacy_url.strip("/") + "/"
+            if normalized_url == "/results/problem-ledger-answers/":
+                continue
+            target_path = SITE_ROOT / normalized_url.strip("/") / "index.md"
+            if target_path.exists() or target_path in generated_paths:
+                continue
+            parts = normalized_url.strip("/").split("/")
+            domain = parts[2] if len(parts) > 2 else ""
+            title_slug = parts[-1] if parts else "legacy-problem-ledger-answer"
+            redirect_target = "/results/challenge-responses/"
+            write_markdown(
+                target_path,
+                {
+                    "layout": "redirect",
+                    "title": f"{title_from_url(title_slug)} moved",
+                    "permalink": normalized_url,
+                    "redirect_to": redirect_target,
+                    "lane": "results",
+                    "v2_lane": "results",
+                    "type": "Compatibility Redirect",
+                    "status": "Compatibility",
+                    "summary_short": "Redirects a retired Problem Ledger Answer route to the canonical Challenge Responses surface.",
+                    "generated_from": str(source.relative_to(SITE_ROOT)),
+                    "projection_version": "v0.1",
+                    "canonical_source": "corpus/structural-challenge-ledger",
+                    "do_not_edit": True,
+                    "legacy_domain": domain,
+                },
+                f"Redirecting retired Problem Ledger Answer route to [Challenge Responses]({redirect_target}).",
+            )
+            generated_paths.add(target_path)
+
+
 def sync_registry_noteworthy_results() -> None:
     source_root = CORPUS_EXPORTS / "registry-noteworthy-results"
     if not source_root.exists():
@@ -741,13 +880,15 @@ def main() -> int:
             "monographs",
             "change-control",
             "publications",
+            "wave2-metadata",
         ),
         default="all",
         help=(
             "Sync all Corpus public exports, only Construction Spine / Foundational Hinges, "
             "the Corpus v3 Construction Map / Monograph / TauLib projections, "
             "only the tailored TauLib projection, the Results/ledger projections, "
-            "the Corpus Changelog change-control projection, or the Corpus publication metadata projection."
+            "the Corpus Changelog change-control projection, the Corpus publication metadata projection, "
+            "or the Wave 2 Agenda/Results metadata projection."
         ),
     )
     args = parser.parse_args()
@@ -759,6 +900,8 @@ def main() -> int:
         sync_problem_recovery_agenda()
     if args.scope in {"all", "results"}:
         sync_results()
+    if args.scope in {"all", "wave2-metadata"}:
+        sync_wave2_metadata()
     if args.scope in {"all", "foundations"}:
         sync_foundations()
     if args.scope in {"all", "corpus-v3", "monographs"}:

@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-magnetic-monopoles"
     title: "Magnetic monopoles"
-    url: "/results/challenge-responses/physics/magnetic-monopoles/"
+    url: "/results/problem-ledger-answers/physics/magnetic-monopoles/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -71,7 +71,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-anomalous-magnetic-dipole-moment"
     title: "Anomalous magnetic dipole moment"
-    url: "/results/challenge-responses/physics/anomalous-magnetic-dipole-moment/"
+    url: "/results/problem-ledger-answers/physics/anomalous-magnetic-dipole-moment/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -101,12 +101,12 @@ Charge quantization in orthodox physics requires either Dirac's magnetic monopol
 
 ## Related Results surfaces
 
-- [Magnetic monopoles](/results/challenge-responses/physics/magnetic-monopoles/)
+- [Magnetic monopoles](/results/problem-ledger-answers/physics/magnetic-monopoles/)
 - [Magnetic Monopoles: Forbidden by the Bianchi Identity](/results/problem/no-magnetic-monopoles/)
 - magnetic-monopoles
 - [Magnetic Monopoles: Forbidden by the Bianchi Identity](/results/problem/no-magnetic-monopoles/)
 - anomalous-magnetic-dipole-moment
-- [Anomalous magnetic dipole moment](/results/challenge-responses/physics/anomalous-magnetic-dipole-moment/)
+- [Anomalous magnetic dipole moment](/results/problem-ledger-answers/physics/anomalous-magnetic-dipole-moment/)
 
 ## Reading role
 

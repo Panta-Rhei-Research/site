@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-galaxy-rotation-problem"
     title: "Galaxy rotation problem"
-    url: "/results/challenge-responses/physics/galaxy-rotation-problem/"
+    url: "/results/problem-ledger-answers/physics/galaxy-rotation-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -117,7 +117,7 @@ The capacity mechanism predicts rotation curves in qualitative agreement with ob
 
 ## Related Results surfaces
 
-- [Galaxy rotation problem](/results/challenge-responses/physics/galaxy-rotation-problem/)
+- [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
 - [Flat Galaxy Rotation Curves from Capacity Gradient](/results/problem/flat-rotation-curves/)
 - [Galaxy Rotation Curves without Dark Matter](/results/problem/galaxy-rotation-curves-without-dark-matter/)
 - [Not MOND](/results/problem/not-mond/)

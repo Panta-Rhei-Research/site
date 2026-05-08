@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-galaxy-rotation-problem"
     title: "Galaxy rotation problem"
-    url: "/results/challenge-responses/physics/galaxy-rotation-problem/"
+    url: "/results/problem-ledger-answers/physics/galaxy-rotation-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -56,7 +56,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-dark-matter"
     title: "Dark Matter"
-    url: "/results/challenge-responses/physics/dark-matter/"
+    url: "/results/problem-ledger-answers/physics/dark-matter/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -107,10 +107,10 @@ The Dark Sector Closure Theorem is falsifiable: direct detection of a non-baryon
 
 ## Related Results surfaces
 
-- [Galaxy rotation problem](/results/challenge-responses/physics/galaxy-rotation-problem/)
+- [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
 - [Galaxy Rotation Curves without Dark Matter](/results/problem/galaxy-rotation-curves-without-dark-matter/)
 - dark-matter
-- [Dark Matter](/results/challenge-responses/physics/dark-matter/)
+- [Dark Matter](/results/problem-ledger-answers/physics/dark-matter/)
 - [No Dark Matter Particle: Sector Exhaustion Theorem](/results/problem/no-dark-matter-particle/)
 - galaxy-rotation-problem
 

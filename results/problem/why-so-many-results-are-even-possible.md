@@ -29,7 +29,8 @@ provenance_source: "manuscript"
 lean_formalization_status: "none"
 cascade_layer: "kernel"
 foundational_hinge_ids: []
-glossary_term_ids: []
+glossary_term_ids:
+  - "MathG-K02-five-generators"
 recovery_requirement_ids: []
 generated_from: "corpus/results"
 projection_version: "v0.2"

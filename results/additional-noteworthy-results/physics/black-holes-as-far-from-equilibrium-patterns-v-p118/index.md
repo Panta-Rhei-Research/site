@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-black-holes-black-hole-information-paradox-and-black-hole-radiation"
     title: "Black holes, black hole information paradox, and black hole radiation"
-    url: "/results/challenge-responses/physics/black-holes-black-hole-information-paradox-and-black-hole-radiation/"
+    url: "/results/problem-ledger-answers/physics/black-holes-black-hole-information-paradox-and-black-hole-radiation/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-supermassive-black-holes"
     title: "Supermassive black holes"
-    url: "/results/challenge-responses/physics/supermassive-black-holes/"
+    url: "/results/problem-ledger-answers/physics/supermassive-black-holes/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -44,7 +44,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-ultraluminous-x-ray-sources-ulxs"
     title: "Ultraluminous X-ray sources (ULXs)"
-    url: "/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/"
+    url: "/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/"
     match_basis: "title_problem_statement"
     match_confidence: "medium"
     matched_terms:
@@ -119,9 +119,9 @@ Every BH satisfies the 3 FFE conditions: bounded S_def, boundary flux, internal 
 
 ## Related Results surfaces
 
-- [Black holes, black hole information paradox, and black hole radiation](/results/challenge-responses/physics/black-holes-black-hole-information-paradox-and-black-hole-radiation/)
-- [Supermassive black holes](/results/challenge-responses/physics/supermassive-black-holes/)
-- [Ultraluminous X-ray sources (ULXs)](/results/challenge-responses/physics/ultraluminous-x-ray-sources-ulxs/)
+- [Black holes, black hole information paradox, and black hole radiation](/results/problem-ledger-answers/physics/black-holes-black-hole-information-paradox-and-black-hole-radiation/)
+- [Supermassive black holes](/results/problem-ledger-answers/physics/supermassive-black-holes/)
+- [Ultraluminous X-ray sources (ULXs)](/results/problem-ledger-answers/physics/ultraluminous-x-ray-sources-ulxs/)
 - [BH-as-Alive](/results/problem/bh-as-alive/)
 - [Black Holes Across E1–E3](/results/problem/black-holes-across-e1-e3/)
 - [Black Holes Are Alive: BH Satisfies All 5+3 Conditions](/results/problem/black-holes-alive/)

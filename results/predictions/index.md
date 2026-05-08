@@ -21,13 +21,12 @@ The Numerical Physics Ledger compiles **{% include release-metric.html id="predi
 
 ## Precision tiers
 
-Predictions carry a **precision tier** that names how sharp the test is:
+Predictions carry Corpus Wave 2 metadata along two separate axes:
 
-- **Tier A** (~0.025 ppm) — flagship sub-ppm precision. Includes electron mass (0.025 ppm), weak mixing angle (−0.65 ppm), Higgs mass (+8.0 ppm).
-- **Tier B** (~3 ppm) — sub-10 ppm: 15 entries.
-- **Tier C** (~0.8%) — order-of-magnitude calibrations.
+- **Precision tier** — sub-10 ppm, 10–1000 ppm, 1–5%, or structural.
+- **Cascade tier** — Tier A, Tier B, Tier C, or binary.
 
-Tiers are distinct from public **status grammar** (Internally addressed / Partial / Qualitative / Contradicted / Not addressed).
+These tiers describe internal readout sharpness. They are distinct from public **status grammar** (Internally addressed / Partial / Qualitative / Contradicted / Not addressed), formal verification state, and external acceptance.
 
 ## Where to go
 

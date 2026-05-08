@@ -1,0 +1,36 @@
+{
+  "generated_from": "corpus/data/structural-challenges/challenge-types.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/structural-challenges/challenge-types.yml",
+  "do_not_edit": true,
+  "challenge_types": {
+    "semantic_generation": {
+      "label": "Semantic Generation",
+      "description": "Tests whether τ generates the right language for a domain."
+    },
+    "structural_recovery": {
+      "label": "Structural Recovery",
+      "description": "Tests whether τ recovers known structure without smuggling it in."
+    },
+    "bridge_adequacy": {
+      "label": "Bridge Adequacy",
+      "description": "Tests the adequacy of mapping τ-internal structures to external domains."
+    },
+    "formal_strength": {
+      "label": "Proof / Formalization Strength",
+      "description": "Tests proof-theoretic, formal, or machine-checking obligations."
+    },
+    "prediction": {
+      "label": "Prediction",
+      "description": "Tests numerical or structural predictions."
+    },
+    "falsification": {
+      "label": "Falsification",
+      "description": "Tests empirically accountable commitments."
+    },
+    "route_to_knowledge": {
+      "label": "New Route to Knowledge",
+      "description": "Tests whether τ opens a new route rather than merely retelling known facts."
+    }
+  }
+}

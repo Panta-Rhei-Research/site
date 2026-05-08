@@ -26,7 +26,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-coronal-heating-problem"
     title: "Coronal heating problem"
-    url: "/results/challenge-responses/physics/coronal-heating-problem/"
+    url: "/results/problem-ledger-answers/physics/coronal-heating-problem/"
     match_basis: "title_problem_statement"
     match_confidence: "high"
     matched_terms:
@@ -65,7 +65,7 @@ Magnetic reconnection on T^2 requires: enumerate A region where Rm 1 locally (th
 
 ## Related Results surfaces
 
-- [Coronal heating problem](/results/challenge-responses/physics/coronal-heating-problem/)
+- [Coronal heating problem](/results/problem-ledger-answers/physics/coronal-heating-problem/)
 - [Fast Magnetic Reconnection Rate](/predictions/v-c/)
 
 ## Reading role

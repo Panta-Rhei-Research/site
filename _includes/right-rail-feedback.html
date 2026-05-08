@@ -34,7 +34,7 @@ _Your comment here_
 {%- assign _iss_url   = "https://github.com/Panta-Rhei-Research/site/issues/new?template=page-correction.yml&title=" | append: _title_enc | append: "&body=" | append: _body_enc -%}
 {%- assign _twitter_url  = "https://twitter.com/intent/tweet?text=" | append: _title_enc | append: "&url=" | append: _url_enc -%}
 {%- assign _linkedin_url = "https://www.linkedin.com/sharing/share-offsite/?url=" | append: _url_enc -%}
-{%- assign _email_url    = "mailto:?subject=" | append: _title_enc | append: "&body=" | append: _url_enc -%}
+{%- assign _email_url    = "mailto:hello@panta-rhei.site?subject=" | append: _title_enc | append: "&body=" | append: _url_enc -%}
 <div class="rail-section rail-section--share">
   <div class="rail-section-title">Share this page</div>
   <a href="{{ _twitter_url }}" class="artifact-link" target="_blank" rel="noopener" data-umami-event="share.twitter.click" data-umami-event-location="right-rail" data-umami-event-type="external">Share on Twitter</a>

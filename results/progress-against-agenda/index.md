@@ -10,8 +10,8 @@ summary_short: "Dashboard view of the program's current public status against de
 summary_cards:
   - title: "Agenda mirror"
     body: "Aggregates public Structural Challenge Ledger and Core Semantics status without replacing the detailed mirrors."
-  - title: "v4 obligation surface"
-    body: "Aggregates the Structural Challenge Ledger, Challenge Responses, Core Semantics obligations, and explicit mathematical refusals. Legacy v1 raw-feed items are archived as provenance only and are not counted as canonical challenges unless promoted into the v4 Structural Challenge Ledger."
+  - title: "Wave 2 obligation surface"
+    body: "Aggregates the Structural Challenge Ledger, Challenge Responses, Core Semantics obligations, and explicit mathematical refusals. Legacy v1 raw-feed items are archived as provenance only and are not counted as canonical challenges unless promoted into the Wave 2 Structural Challenge Ledger."
   - title: "Status discipline"
     body: "Internal progress remains separate from verification state and external acceptance."
 right_rail:
@@ -33,13 +33,12 @@ right_rail:
 
 {% assign progress_raw = site.data.agenda_progress["agenda-progress"] %}
 {%- comment -%}
-  v4 Wave 6 default-view filter: exclude legacy v1 raw-feed items that
-  were imported wholesale from external open-problem lists for Life and
-  Metaphysics. The canonical v4 obligation surface is the Structural
-  Challenge Ledger; only Mathematics + Physics retain v1 problem rows
-  in the default dashboard until Atlas regenerates the data with
-  structural_challenge as the canonical item type. Refusals and
-  recovery items are always shown.
+  Compatibility filter: exclude legacy v1 raw-feed items that were imported
+  wholesale from external open-problem lists for Life and Metaphysics. The
+  canonical Wave 2 obligation surface is the Structural Challenge Ledger; only
+  Mathematics + Physics retain legacy problem rows in the default dashboard
+  until the legacy agenda-progress feed is retired in favor of the Wave 2
+  metadata contract. Refusals and recovery items are always shown.
 {%- endcomment -%}
 {% assign progress = progress_raw | where_exp: "item", "item.item_kind != 'problem' or item.domain == 'mathematics' or item.domain == 'physics'" %}
 {% assign total_count = progress | size %}
@@ -56,11 +55,11 @@ right_rail:
 {% assign legacy_excluded_count = progress_raw | size | minus: total_count %}
 
 {%- comment -%}
-  Wave 3: Strategy B separated panels. Challenge Responses count is
-  authoritative from _data/structural_challenges/{domain}.json (the
-  same source the Challenge Responses domain pages use), not from the
-  agenda-progress feed. Domain sums: 38 + 117 + 29 + 30 = 214.
+  Wave 2 closeout: Challenge Response count is authoritative from the Corpus
+  Wave 2 contract and mirrored structural_challenges manifests, not from the
+  legacy agenda-progress feed. Domain sums: 38 + 117 + 29 + 30 = 214.
 {%- endcomment -%}
+{% assign wave2_counts = site.data.corpus.wave2_index.counts %}
 {% assign cr_math = site.data.structural_challenges.mathematics.items | size %}
 {% assign cr_physics = site.data.structural_challenges.physics.items | size %}
 {% assign cr_life = site.data.structural_challenges.life.items | size %}
@@ -76,34 +75,34 @@ Status indicates the current internal state of the research program. A proposed 
 {% capture progress_plate_caption %}Progress Against Agenda is one of the Results surfaces: a dashboard over obligations, recovery targets, and current program stance.{% endcapture %}
 {% include scientific-plate.html id="plate-05-results-world-readout" variant="thumb" class="scientific-plate--compact" caption=progress_plate_caption loading="lazy" %}
 
-Progress Against Agenda tracks current program stance against public obligations and recovery targets.
+Progress Against Agenda tracks current program stance against public obligations and recovery targets. Wave 2 adds a Corpus-backed export contract for Structural Challenges, Challenge Responses, generic Results, Predictions, and Falsification N-tests; the interactive dashboard below remains a compatibility view over the agenda-progress feed until that feed is fully retired.
 
 ## Obligation surfaces
 
-The dashboard tracks three independent v4 obligation surfaces. Counts are kept separated rather than rolled up into a single total — each surface answers a different question.
+The Wave 2 public contract keeps the five Agenda/Results surfaces separated rather than rolling them into a single total — each surface answers a different question.
 
 <div class="v2-grid">
   <div class="v2-tile">
-    <strong>{{ cr_total }} Challenge Responses</strong>
+    <strong>{{ wave2_counts.structural_challenges | default: cr_total }} Structural Challenges</strong>
+    <span>Agenda-side obligations in the canonical Structural Challenge Ledger. <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Open the ledger</a>.</span>
+  </div>
+  <div class="v2-tile">
+    <strong>{{ wave2_counts.challenge_responses | default: cr_total }} Challenge Responses</strong>
     <span>Results-side projection of the canonical Structural Challenge Ledger. <a href="{{ '/results/challenge-responses/' | relative_url }}">Open Challenge Responses</a> · {{ cr_math }} mathematics · {{ cr_physics }} physics · {{ cr_life }} life · {{ cr_metaphysics }} metaphysics.</span>
   </div>
   <div class="v2-tile">
-    <strong>{{ recovery_requirements | size }} Core Semantics / Recovery items</strong>
-    <span>Language, structures, laws, grammars, and refusal boundaries the theory must earn. <a href="{{ '/agenda/core-semantics/' | relative_url }}">Open Core Semantics</a>.</span>
+    <strong>{{ wave2_counts.generic_results | default: 255 }} generic Results</strong>
+    <span>Consequence/status records separate from Challenge Responses. <a href="{{ '/results/browse/' | relative_url }}">Browse Results</a>.</span>
   </div>
   <div class="v2-tile">
-    <strong>{{ refusals | size }} Mathematical Refusals</strong>
-    <span>Explicit refusals where the program declines to claim settlement, with reason.</span>
-  </div>
-  <div class="v2-tile">
-    <strong>Legacy v1 raw-feed archive: {{ legacy_excluded_count }} archived</strong>
-    <span>Life + Metaphysics raw-feed imports preserved as provenance only. Not counted as canonical challenges unless promoted into the v4 Structural Challenge Ledger.</span>
+    <strong>{{ wave2_counts.predictions | default: 67 }} Predictions / {{ wave2_counts.falsification_n_tests | default: 30 }} N-tests</strong>
+    <span>Specialized accountability facets. <a href="{{ '/results/predictions/' | relative_url }}">Predictions</a> remain distinct from <a href="{{ '/results/falsifications/' | relative_url }}">Falsification N-tests</a>.</span>
   </div>
 </div>
 
 ## Per-surface progress detail
 
-The metrics below cover the dashboard data feed (agenda-progress.json), which currently surfaces {{ problems | size }} Mathematics + Physics structural challenges, {{ recovery_requirements | size }} Core Semantics / Recovery items, and {{ refusals | size }} Mathematical Refusals — {{ total_count }} canonical public records in total. Life and Metaphysics structural challenges are tracked through the [Challenge Responses lane]({{ '/results/challenge-responses/' | relative_url }}) until the dashboard data feed regenerates with the v4 schema.
+The metrics below cover the legacy dashboard data feed (`agenda-progress.json`), which currently surfaces {{ problems | size }} Mathematics + Physics structural challenges, {{ recovery_requirements | size }} Core Semantics / Recovery items, and {{ refusals | size }} Mathematical Refusals — {{ total_count }} public dashboard records in total. Life and Metaphysics structural challenges are tracked through the [Challenge Responses lane]({{ '/results/challenge-responses/' | relative_url }}) and the Wave 2 metadata contract rather than folded into this compatibility feed.
 
 <div class="v2-grid">
   <div class="v2-tile">
@@ -210,14 +209,14 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
     {% for item in progress %}
       {% assign construction_slugs = item.related_construction_steps | map: "slug" | join: "," %}
       {%- comment -%}
-        Wave 3: surface the v4 item-kind labels even when older dashboard
-        data feeds still emit retired v1 labels.
+        Wave 2 closeout: surface current item-kind labels even when older
+        dashboard feeds still emit retired v1 labels.
       {%- endcomment -%}
       {% case item.item_kind %}
-        {% when "problem" %}{% assign v4_kind_label = "Structural Challenge" %}
-        {% when "recovery_requirement" %}{% assign v4_kind_label = "Core Semantics / Recovery" %}
-        {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
-        {% else %}{% assign v4_kind_label = item.item_kind_label %}
+        {% when "problem" %}{% assign wave2_kind_label = "Structural Challenge" %}
+        {% when "recovery_requirement" %}{% assign wave2_kind_label = "Core Semantics / Recovery" %}
+        {% when "mathematical_refusal" %}{% assign wave2_kind_label = "Mathematical Refusal" %}
+        {% else %}{% assign wave2_kind_label = item.item_kind_label %}
       {% endcase %}
       {% assign item_url = item.canonical_program_url | default: "" %}
       <li class="result-card agenda-progress-card"
@@ -234,7 +233,7 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
         <div class="result-card-link result-card-link--inactive" aria-label="{{ item.title | escape }} route pending">
         {% endif %}
           <div class="result-card-top">
-            <span class="chip chip-kind">{{ v4_kind_label }}</span>
+            <span class="chip chip-kind">{{ wave2_kind_label }}</span>
             <span class="chip chip-status">{{ item.display_status_label }}</span>
           </div>
           <h3 class="result-card-title">{{ item.title }}</h3>
@@ -277,21 +276,21 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
 <div class="v2-grid">
   {% for item in recently_updated limit: 8 %}
     {% case item.item_kind %}
-      {% when "problem" %}{% assign v4_kind_label = "Structural Challenge" %}
-      {% when "recovery_requirement" %}{% assign v4_kind_label = "Core Semantics / Recovery" %}
-      {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
-      {% else %}{% assign v4_kind_label = item.item_kind_label %}
+      {% when "problem" %}{% assign wave2_kind_label = "Structural Challenge" %}
+      {% when "recovery_requirement" %}{% assign wave2_kind_label = "Core Semantics / Recovery" %}
+      {% when "mathematical_refusal" %}{% assign wave2_kind_label = "Mathematical Refusal" %}
+      {% else %}{% assign wave2_kind_label = item.item_kind_label %}
     {% endcase %}
     {% assign item_url = item.canonical_program_url | default: "" %}
     {% if item_url != "" %}
     <a class="v2-tile" href="{{ item.canonical_program_url | relative_url }}">
       <strong>{{ item.title }}</strong>
-      <span>{{ item.last_modified }} · {{ v4_kind_label }} · {{ item.display_status_label }}</span>
+      <span>{{ item.last_modified }} · {{ wave2_kind_label }} · {{ item.display_status_label }}</span>
     </a>
     {% else %}
     <div class="v2-tile" aria-label="{{ item.title | escape }} route pending">
       <strong>{{ item.title }}</strong>
-      <span>{{ item.last_modified }} · {{ v4_kind_label }} · {{ item.display_status_label }} · Route pending</span>
+      <span>{{ item.last_modified }} · {{ wave2_kind_label }} · {{ item.display_status_label }} · Route pending</span>
     </div>
     {% endif %}
   {% endfor %}
@@ -305,21 +304,21 @@ The metrics below cover the dashboard data feed (agenda-progress.json), which cu
 <div class="v2-grid">
   {% for item in not_yet_touched %}
     {% case item.item_kind %}
-      {% when "problem" %}{% assign v4_kind_label = "Structural Challenge" %}
-      {% when "recovery_requirement" %}{% assign v4_kind_label = "Core Semantics / Recovery" %}
-      {% when "mathematical_refusal" %}{% assign v4_kind_label = "Mathematical Refusal" %}
-      {% else %}{% assign v4_kind_label = item.item_kind_label %}
+      {% when "problem" %}{% assign wave2_kind_label = "Structural Challenge" %}
+      {% when "recovery_requirement" %}{% assign wave2_kind_label = "Core Semantics / Recovery" %}
+      {% when "mathematical_refusal" %}{% assign wave2_kind_label = "Mathematical Refusal" %}
+      {% else %}{% assign wave2_kind_label = item.item_kind_label %}
     {% endcase %}
     {% assign item_url = item.canonical_program_url | default: "" %}
     {% if item_url != "" %}
     <a class="v2-tile" href="{{ item.canonical_program_url | relative_url }}">
       <strong>{{ item.title }}</strong>
-      <span>{{ item.display_domain }} · {{ v4_kind_label }}</span>
+      <span>{{ item.display_domain }} · {{ wave2_kind_label }}</span>
     </a>
     {% else %}
     <div class="v2-tile" aria-label="{{ item.title | escape }} route pending">
       <strong>{{ item.title }}</strong>
-      <span>{{ item.display_domain }} · {{ v4_kind_label }} · Route pending</span>
+      <span>{{ item.display_domain }} · {{ wave2_kind_label }} · Route pending</span>
     </div>
     {% endif %}
   {% endfor %}

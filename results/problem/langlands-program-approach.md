@@ -29,7 +29,8 @@ provenance_source: "manuscript"
 lean_formalization_status: "none"
 cascade_layer: "kernel"
 foundational_hinge_ids: []
-glossary_term_ids: []
+glossary_term_ids:
+  - "MathG-A02-spectral-correspondence"
 recovery_requirement_ids: []
 generated_from: "corpus/results"
 projection_version: "v0.2"
@@ -39,7 +40,7 @@ do_not_edit: true
 
 ## Overview
 
-The Langlands Program seeks deep connections between number theory (Galois representations) and representation theory (automorphic forms). The <math><mi>&tau;</mi></math>-framework addresses Langlands through the [sector template]({{ '/corpus/monograph-corpus/' | relative_url }}): Langlands<math><msub><mrow/><mn>0</mn></msub></math> (boundary functoriality, III.T05) is the mechanism that induces the [4+1 decomposition]({{ '/corpus/monograph-corpus/' | relative_url }}) at every enrichment level.
+The Langlands Program seeks deep connections between number theory (Galois representations) and representation theory (automorphic forms). The <math><mi>&tau;</mi></math>-framework addresses Langlands through the [sector template]({{ '/corpus/monographs/' | relative_url }}): Langlands<math><msub><mrow/><mn>0</mn></msub></math> (boundary functoriality, III.T05) is the mechanism that induces the [4+1 decomposition]({{ '/corpus/monographs/' | relative_url }}) at every enrichment level.
 
 ## Detail
 

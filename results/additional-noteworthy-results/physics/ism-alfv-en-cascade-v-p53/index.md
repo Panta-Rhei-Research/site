@@ -36,7 +36,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-phys-alfvenic-turbulence"
     title: "Alfvénic turbulence"
-    url: "/results/challenge-responses/physics/alfvenic-turbulence/"
+    url: "/results/problem-ledger-answers/physics/alfvenic-turbulence/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -68,7 +68,7 @@ ISM Alfven cascade: in the interstellar medium, Alfven turbulence follows Goldre
 ## Related Results surfaces
 
 - alfvenic-turbulence
-- [Alfvénic turbulence](/results/challenge-responses/physics/alfvenic-turbulence/)
+- [Alfvénic turbulence](/results/problem-ledger-answers/physics/alfvenic-turbulence/)
 
 ## Reading role
 

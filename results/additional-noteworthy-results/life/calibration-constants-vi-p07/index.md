@@ -66,7 +66,7 @@ related_public_surfaces:
     surface_type: "problem_answer"
     surface_id: "answer-life-origin-of-life"
     title: "Origin of Life"
-    url: "/results/challenge-responses/life/origin-of-life/"
+    url: "/results/problem-ledger-answers/life/origin-of-life/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -101,7 +101,7 @@ Maps each Life sector to dominant forces: Persistence=Poincaré+Riemann, Agency=
 - encoding-heredity-and-genotype-phenotype-split
 - life-as-a-recoverable-category
 - origin-of-life
-- [Origin of Life](/results/challenge-responses/life/origin-of-life/)
+- [Origin of Life](/results/problem-ledger-answers/life/origin-of-life/)
 
 ## Reading role
 

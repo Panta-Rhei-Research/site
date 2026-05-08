@@ -29,7 +29,8 @@ provenance_source: "manuscript"
 lean_formalization_status: "none"
 cascade_layer: "kernel"
 foundational_hinge_ids: []
-glossary_term_ids: []
+glossary_term_ids:
+  - "MathG-T06-prime-polarity"
 recovery_requirement_ids: []
 generated_from: "corpus/results"
 projection_version: "v0.2"
@@ -39,7 +40,7 @@ do_not_edit: true
 
 ## Overview
 
-The [Prime Polarity Theorem]({{ '/corpus/monograph-corpus/' | relative_url }}) (I.T05) proves that every internal prime carries a canonical bipolar structure: B-dominant (gamma-polar) or C-dominant (eta-polar), with both classes infinite. This purely number-theoretic result produces the algebraic [lemniscate]({{ '/corpus/monograph-corpus/' | relative_url }}) <math><mrow><mi>L</mi><mo>=</mo><msup><mi>S</mi><mn>1</mn></msup><mo>&or;</mo><msup><mi>S</mi><mn>1</mn></msup></mrow></math> — geometry earned from arithmetic alone. The lemniscate becomes the boundary of the entire framework's geometric structure.
+The [Prime Polarity Theorem]({{ '/corpus/monographs/' | relative_url }}) (I.T05) proves that every internal prime carries a canonical bipolar structure: B-dominant (gamma-polar) or C-dominant (eta-polar), with both classes infinite. This purely number-theoretic result produces the algebraic [lemniscate]({{ '/corpus/monographs/' | relative_url }}) <math><mrow><mi>L</mi><mo>=</mo><msup><mi>S</mi><mn>1</mn></msup><mo>&or;</mo><msup><mi>S</mi><mn>1</mn></msup></mrow></math> — geometry earned from arithmetic alone. The lemniscate becomes the boundary of the entire framework's geometric structure.
 
 ## Result Statement
 
