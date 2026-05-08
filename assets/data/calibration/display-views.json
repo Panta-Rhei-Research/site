@@ -1,0 +1,55 @@
+{
+  "generated_from": "corpus/data/calibration",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/calibration",
+  "do_not_edit": true,
+  "display_views": [
+    {
+      "id": "cascade-static-graph",
+      "title": "Static cascade graph",
+      "route_section": "dependency-graph",
+      "description": "Review-facing node/edge graph rendered as a static table and ordered layer flow.",
+      "data_files": [
+        "constant-nodes.yml",
+        "cascade-edges.yml",
+        "cascade-layers.yml"
+      ]
+    },
+    {
+      "id": "coupling-table",
+      "title": "Coupling ledger",
+      "route_section": "couplings",
+      "description": "The ten dimensionless coupling entries from Book IV.",
+      "data_files": [
+        "coupling-ledger.yml"
+      ]
+    },
+    {
+      "id": "mass-ratio-chain",
+      "title": "Mass-ratio chain",
+      "route_section": "mass-ratio-chain",
+      "description": "The ten-link chain from fibration data to the electron-mass readout.",
+      "data_files": [
+        "mass-ratio-chain.yml"
+      ]
+    },
+    {
+      "id": "constants-ledger",
+      "title": "Constants ledger",
+      "route_section": "constants-ledger",
+      "description": "Forty source-ledger outputs, explicitly separated from the cascade ontology.",
+      "data_files": [
+        "constants-ledger.yml"
+      ]
+    },
+    {
+      "id": "source-mapping",
+      "title": "Source-chapter mapping",
+      "route_section": "sources",
+      "description": "Pinned manuscript chapters and source labels used by the projection.",
+      "data_files": [
+        "source-chapters.yml"
+      ]
+    }
+  ]
+}

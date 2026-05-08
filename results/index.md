@@ -13,8 +13,8 @@ og_image_alt: "Scientific plate showing the Results lane as a status-marked cons
 summary_cards:
   - title: "Consequence surfaces"
     body: "Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, Additional Derived Results, and Progress Against Agenda."
-  - title: "Calibration cascades"
-    body: "Physics anchored at m_n; Life at K_χ; Metaphysics is categorical-only."
+  - title: "Calibration Cascade"
+    body: "Physics numerical outputs are routed through a dependency overlay with explicit unit context, source vintage, and verification status."
   - title: "Status grammar"
     body: "Every result surface separates internal stance, verification, and external acceptance."
 hero_ctas:
@@ -39,6 +39,8 @@ right_rail:
       url: /results/progress-against-agenda/
     - title: "Additional Noteworthy Results"
       url: /results/additional-noteworthy-results/
+    - title: "Calibration Cascade"
+      url: /results/calibration-cascade/
     - title: "Result Classifications"
       url: /results/classifications/
     - title: "Corpus Registry"
@@ -70,7 +72,7 @@ The τ-framework's results organize naturally into four domains, each with its o
   <a class="v2-tile v2-tile-domain v2-tile-physics" href="{{ '/results/physics/' | relative_url }}">
     <span class="eyebrow">Books IV–V · Calibration Cascade</span>
     <h3>Physics</h3>
-    <p>{% include release-metric.html id="glossary.physics.entries" %} glossary entries · {% include release-metric.html id="predictions.records" %} numerical predictions. Every SI value derives from ι_τ + the neutron-mass anchor m_n. Tier-A precision down to 0.025 ppm.</p>
+    <p>{% include release-metric.html id="glossary.physics.entries" %} glossary entries · {% include release-metric.html id="predictions.records" %} numerical predictions. The Calibration Cascade records how ι_τ, the neutron-mass anchor, coupling ledgers, mass ratios, unit contexts, and comparison rows connect.</p>
     <span class="chip chip-cascade chip-cascade-physics-cascade">Physics cascade</span>
   </a>
 
@@ -155,8 +157,13 @@ Every result should be read with its status markers. An internally addressed res
   </a>
 
   <a class="v2-tile" href="{{ '/results/predictions/' | relative_url }}">
-    <strong>Predictions</strong>
-    <span>{% include release-metric.html id="predictions.records" %} zero-parameter numerical predictions with precision tiers (sub-ppm to %).</span>
+    <strong>Numerical Prediction Catalogue</strong>
+    <span>{% include release-metric.html id="predictions.records" %} zero-parameter numerical predictions with precision tiers, routed to source and verification surfaces.</span>
+  </a>
+
+  <a class="v2-tile" href="{{ '/results/calibration-cascade/' | relative_url }}">
+    <strong>Calibration Cascade</strong>
+    <span>The dependency overlay connecting the prediction catalogue, constants ledger, G-alpha bridge, source chapters, Registry items, TauLib modules, and comparison vintage.</span>
   </a>
 
   <a class="v2-tile" href="{{ '/results/falsifications/' | relative_url }}">

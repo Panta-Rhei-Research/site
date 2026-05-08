@@ -1,0 +1,35 @@
+{
+  "generated_from": "corpus/data/calibration",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/calibration",
+  "do_not_edit": true,
+  "comparison_datasets": [
+    {
+      "id": "codata-2018",
+      "title": "CODATA 2018 recommended values",
+      "vintage": "2018",
+      "role": "source_chapter_comparison_baseline",
+      "url": "https://physics.nist.gov/cuu/Constants/archive2018.html",
+      "status": "historical_baseline",
+      "note": "Book IV/V comparison rows are labelled against this vintage."
+    },
+    {
+      "id": "codata-2022",
+      "title": "CODATA 2022 recommended values",
+      "vintage": "2022",
+      "role": "current_public_reference_checked_2026-05-08",
+      "url": "https://physics.nist.gov/cuu/Constants/",
+      "status": "current_reference_not_recomputed",
+      "note": "NIST Reference on Constants identifies the 2022 values as current public values, with data-content update in 2025."
+    },
+    {
+      "id": "bipm-si-defining-constants",
+      "title": "BIPM SI defining constants",
+      "vintage": "current",
+      "role": "unit_realization_guardrail_checked_2026-05-08",
+      "url": "https://www.bipm.org/en/measurement-units/si-defining-constants",
+      "status": "current_metrology_guardrail",
+      "note": "BIPM states that the SI is defined through seven constants with exact numerical values."
+    }
+  ]
+}

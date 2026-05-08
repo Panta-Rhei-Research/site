@@ -1,0 +1,264 @@
+{
+  "generated_from": "corpus/data/calibration",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/calibration",
+  "do_not_edit": true,
+  "couplings": [
+    {
+      "id": "K-D",
+      "kind": "self",
+      "sectors": [
+        "D"
+      ],
+      "symbol": "κ(D;1)",
+      "formula": "1 - ι_τ",
+      "display_value": "≈ 0.6587",
+      "meaning": "Temporal flow magnitude",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "def:self-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.D587"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-A",
+      "kind": "self",
+      "sectors": [
+        "A"
+      ],
+      "symbol": "κ(A;1)",
+      "formula": "ι_τ",
+      "display_value": "≈ 0.3413",
+      "meaning": "Temporal arrow",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "def:self-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.D587"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-B",
+      "kind": "self",
+      "sectors": [
+        "B"
+      ],
+      "symbol": "κ(B;2)",
+      "formula": "ι_τ^2",
+      "display_value": "≈ 0.1165",
+      "meaning": "Spatial distance scale",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "def:self-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.D587"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-C",
+      "kind": "self",
+      "sectors": [
+        "C"
+      ],
+      "symbol": "κ(C;3)",
+      "formula": "ι_τ^3/(1 - ι_τ)",
+      "display_value": "≈ 0.0604",
+      "meaning": "Confinement coupling",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "def:self-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.D587"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-AB",
+      "kind": "cross",
+      "sectors": [
+        "A",
+        "B"
+      ],
+      "symbol": "κ(A,B)",
+      "formula": "ι_τ^3",
+      "display_value": "≈ 0.0398",
+      "meaning": "Electroweak coupling",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "def:cross-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.D401"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-AC",
+      "kind": "cross",
+      "sectors": [
+        "A",
+        "C"
+      ],
+      "symbol": "κ(A,C)",
+      "formula": "ι_τ^4/(1 - ι_τ)",
+      "display_value": "≈ 0.0206",
+      "meaning": "Weak-strong coupling",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "def:cross-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.D401"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-AD",
+      "kind": "cross",
+      "sectors": [
+        "A",
+        "D"
+      ],
+      "symbol": "κ(A,D)",
+      "formula": "ι_τ(1 - ι_τ)",
+      "display_value": "≈ 0.2248",
+      "meaning": "Weak-gravity temporal consistency",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "eq:temporal-multiplicative",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.T02"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-BC",
+      "kind": "cross",
+      "sectors": [
+        "B",
+        "C"
+      ],
+      "symbol": "κ(B,C)",
+      "formula": "ι_τ^3/(1 + ι_τ)",
+      "display_value": "≈ 0.0297",
+      "meaning": "EM-strong / Higgs-mass crossing",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "def:cross-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.D401"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-BD",
+      "kind": "cross",
+      "sectors": [
+        "B",
+        "D"
+      ],
+      "symbol": "κ(B,D)",
+      "formula": "ι_τ^2(1 - ι_τ)^2",
+      "display_value": "≈ 0.0505",
+      "meaning": "EM-gravity lensing",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "prop:iv-extra-cross-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.P281"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    },
+    {
+      "id": "K-CD",
+      "kind": "cross",
+      "sectors": [
+        "C",
+        "D"
+      ],
+      "symbol": "κ(C,D)",
+      "formula": "ι_τ^3(1 - ι_τ)",
+      "display_value": "≈ 0.0262",
+      "meaning": "Strong-gravity mass-curves-time relation",
+      "layer": "L1",
+      "source": {
+        "chapter_id": "book-iv-coupling-ledger",
+        "label": "prop:iv-extra-cross-couplings",
+        "line_range": "75-208"
+      },
+      "registry_refs": [
+        "IV.P281"
+      ],
+      "taulib_modules": [
+        "TauLib.BookIV.Calibration.DimensionlessCouplings",
+        "TauLib.BookIV.Calibration.DimensionlessCouplings2"
+      ],
+      "mapping_status": "mapped"
+    }
+  ]
+}

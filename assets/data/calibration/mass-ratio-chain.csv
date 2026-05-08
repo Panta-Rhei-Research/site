@@ -1,0 +1,11 @@
+id,sequence,title,formula,layer,mapping_status
+MR-01,1,τ^3 fibration,τ^3 = τ^1 ×_f T^2,L1,pending_review
+MR-02,2,Hodge Laplacian on the torus,"λ(k1,k2) = (2π)^2(k1^2 + ι_τ^2 k2^2)",L1,mapped
+MR-03,3,Breathing operator,B = Δ^{-1}|_{T^2},L1,pending_review
+MR-04,4,Spectral factorization,Σ(s) as an Epstein zeta lattice sum,L1,pending_review
+MR-05,5,Epstein zeta at s = 4,Z(4; iι_τ) ~ C · ι_τ^-7,L1,mapped
+MR-06,6,Lemniscate spectral capacity,sqrt(3) = |1 - ω|,L1,mapped
+MR-07,7,Level 0 formula,R0 = ι_τ^-7 - sqrt(3)ι_τ^-2,L1,mapped
+MR-08,8,Holonomy correction,δR = π^3α^2 · ι_τ^-2,L1,mapped
+MR-09,9,Level 1+ formula,R1 = ι_τ^-7 - (sqrt(3)+π^3α^2)ι_τ^-2,L1,mapped
+MR-10,10,Electron mass readout,m_e = m_n/R1,L2,mapped

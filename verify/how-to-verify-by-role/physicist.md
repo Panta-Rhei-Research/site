@@ -6,8 +6,8 @@ lane: verify
 v2_lane: verify
 type: "Inspection Route"
 status: "Canonical"
-summary_short: "For specialists in particle physics, cosmology, quantum foundations, or general relativity. The Numerical Physics Ledger and the Falsification Pack are the empirical track; the load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether the predictions are a priori or post-dictions, and whether the derivation chains remain supported after independent checking."
-plain_language_summary: "If you do physics professionally, the framework's most exposed claim is this: every numerical SI value in the Standard Model and cosmology comes out as an ι_τ-chain expression times an m_n-anchored dimensional factor. There are 67 such derivations on offer, with sub-ppm precision in the flagship cases. Your two load-bearing questions are: (1) is ι_τ ≈ 0.341304 a fitted parameter or a forced consequence? and (2) are the predictions genuinely a priori, or after-the-fact post-dictions? The page below tells you exactly where to look in TauLib for the derivations, where the published prediction timing and falsification timeline is, and what would settle each question for you."
+summary_short: "For specialists in particle physics, cosmology, quantum foundations, or general relativity. The Numerical Prediction Catalogue, Calibration Cascade, and Falsification Pack are the empirical track; the load-bearing questions are whether ι<sub>τ</sub> is fitted or forced, whether predictions are a priori or post-dictions, and whether derivation chains remain supported after independent checking."
+plain_language_summary: "If you do physics professionally, the framework's most exposed claim is its numerical compression thesis around ι_τ, the neutron-mass anchor, and selected physics readouts. There are 67 such prediction records on offer, with sub-ppm precision in the flagship cases. Your load-bearing questions are: (1) is ι_τ ≈ 0.341304 a fitted parameter or a forced consequence? (2) are the predictions genuinely a priori, or after-the-fact post-dictions? and (3) are unit-context and comparison-vintage boundaries kept honest? The page below tells you exactly where to look in TauLib, the Calibration Cascade, prediction timing, and falsification routes."
 right_rail:
   related:
     - title: "How to Verify by Reviewer Role"
@@ -16,6 +16,8 @@ right_rail:
       url: /corpus/foundational-hinges/master-constant-iota-tau/
     - title: "Predictions Browse"
       url: /results/predictions/browse/
+    - title: "Calibration Cascade"
+      url: /results/calibration-cascade/
     - title: "Falsification Pack"
       url: /results/falsifications/browse/
     - title: "Prediction Timing Ledger"
@@ -29,7 +31,7 @@ right_rail:
 
 This route is for physicists evaluating the framework's empirical content. Books IV and V are the primary technical references, but the load-bearing claims sit in three specific artifacts that you can inspect in under two hours.
 
-Before reading the numerical physics ledger, inspect whether the master constant is kernel-forced:
+Before reading the numerical prediction catalogue, inspect whether the master constant is kernel-forced:
 
 - [Hinge 3 — The Master Constant iota_tau]({{ '/corpus/foundational-hinges/master-constant-iota-tau/' | relative_url }})
 - [The Master Constant iota_tau research paper]({{ '/publications/research-papers/master-constant-iota-tau/' | relative_url }})
@@ -40,9 +42,9 @@ If this hinge fails, the ledger may still contain numerical patterns, but it can
 
 ## The three artifacts to inspect first
 
-### 1. The [Numerical Physics Ledger PDF]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) (209 pp, 1.11 MB, free download)
+### 1. The [Numerical Prediction Catalogue]({{ '/results/predictions/browse/' | relative_url }}) and the [Numerical Physics Ledger PDF]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) artifact
 
-Contains the full derivation chains for all {% include release-metric.html id="predictions.records" %} zero-parameter numerical predictions from ι<sub>τ</sub> = 2/(π+e). Every prediction compares a τ-derived value directly to experimental measurement, typically to Planck/PDG/CODATA central values, with ppm-scale deviations reported.
+The site catalogue contains the public prediction records and routes them to verification surfaces; the PDF remains the long-form publication artifact. The [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) is the dependency overlay that separates claim catalogue, constants ledger, G-alpha bridge, source chapters, Registry/TauLib mappings, unit contexts, and comparison vintage.
 
 **Load-bearing questions to ask while reading:**
 
@@ -77,7 +79,7 @@ Other decisive tests: 0νββ **detected at τ-predicted half-life** (non-detect
 
 If you have 30 minutes to form an initial opinion:
 
-1. **Open the Numerical Physics Ledger PDF and read the derivation chain for the electron mass** (claimed to 0.025 ppm precision). This is the most-precise sub-10-ppm prediction and the most-scrutinizable single derivation. Check: does the derivation use a pre-existing parameter that was not fixed by the kernel structure?
+1. **Open the Calibration Cascade and the electron-mass prediction route** (claimed to 0.025 ppm precision). This is the most-precise sub-10-ppm prediction and the most-scrutinizable single derivation. Check: does the derivation use a pre-existing parameter that was not fixed by the kernel structure?
 
 2. **Open the Prediction Timing Ledger's Category-C section** and confirm you agree with the claim that 7 predictions are genuinely forward-test predictions (CMB-S4 r, 0νββ at τ-predicted half-life, Σm<sub>ν</sub>, proton stability, no monopoles, no sparticles, r-process-related). If you disagree with any, that is useful feedback.
 
@@ -99,7 +101,7 @@ For a physicist willing to invest two hours:
 
 Your audit is **negative** if:
 
-- A single derivation in the Numerical Physics Ledger uses a free parameter you can spot. "Zero free parameters" is a hard claim that breaks on any single counterexample.
+- A single derivation in the Numerical Prediction Catalogue or its source artifact uses a free parameter you can spot. "Zero free parameters" is a hard claim that breaks on any single counterexample.
 - Category-B tension resolutions are all straddle-values within both sides' error bars. The "forward commitment" framing would be dishonest.
 - CMB-S4 prediction is not a closed-form expression in ι<sub>τ</sub> (it is claimed to be r = ι<sub>τ</sub><sup>4</sup> — verify this is what the derivation yields, not a number matched after the fact).
 - The no-dark-sectors account cannot address the Bullet Cluster or similar cluster-scale observations in concrete terms.

@@ -3,7 +3,7 @@ layout: program-doc
 title: "Fit-Space Analysis — Are the Predictions Numerological Coincidences?"
 permalink: /results/predictions/fit-space-argument/
 lane: results
-section: "Numerical Physics Ledger · Fit-Space Analysis"
+section: "Numerical Prediction Catalogue · Fit-Space Analysis"
 summary_short: "A quantitative response to the strongest red-team question about the zero-parameter prediction catalogue: if someone enumerated simple closed-form expressions in ι_τ = 2/(π+e) and tested them against known constants, how many coincidences at sub-10 ppm precision would be expected by chance — and how does that compare to the observed hit set?"
 right_rail:
   related:
@@ -14,7 +14,7 @@ right_rail:
   - title: Red-team FAQ
     url: /program/about/red-team-faq/
   meta:
-    type: "Numerical Physics Ledger Appendix"
+    type: "Prediction Catalogue Appendix"
     status: "Canonical"
     updated: "April 2026"
 ---
@@ -27,12 +27,12 @@ This page answers the question as quantitatively as we can at first-pass level. 
 
 ## The structural answer: two inputs, zero additional free parameters
 
-The calibration cascade (Numerical Physics Ledger Ch 58a, "The Calibration Cascade") makes the fit-space question concrete at the architectural level before any enumeration argument runs. The entire 67-prediction Ledger takes **exactly two inputs**:
+The [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) makes the fit-space question concrete at the architectural level before any enumeration argument runs. The entire 67-prediction catalogue takes **exactly two inputs**:
 
 1. **ι<sub>τ</sub> = 2/(π+e)** — an algebraic posit fixed by the kernel's compactness-and-consistency theorem (Book I), not a fitted constant.
-2. **m<sub>n</sub>** — a single SI anchor measurement (the neutron mass), used once to set the SI scale for every L3 (SI-derived) observable.
+2. **m<sub>n</sub>** — a single SI anchor measurement (the neutron mass), used once to set the unit-realization context for L3 SI readouts.
 
-From those two inputs, a four-layer cascade (**L0** algebraic → **L1** dimensionless → **L2** SI anchor → **L3** SI-derived → **L4** verification) produces all {% include release-metric.html id="predictions.records" %} predictions. This is the **Calibration Sufficiency Theorem**: two inputs suffice, and no intermediate step smuggles in a third free parameter. The theorem is the structural answer to the numerology charge — the fit-space is not "10<sup>5</sup> simple closed forms in ι<sub>τ</sub> ranged over 50 targets," it is **"one algebraic posit + one SI measurement, derivation-chained through L0–L3."** Any specialist claim that the framework has hidden tuning knobs must identify where, in the cascade, a third free parameter enters.
+From those two inputs, a five-layer cascade (**L0** algebraic → **L1** dimensionless → **L2** anchor and mass ratios → **L3** SI readout / unit realization → **L4** verification and falsification) produces all {% include release-metric.html id="predictions.records" %} predictions. This is the **Calibration Sufficiency** claim shape: two inputs suffice inside the stated source routes, and no intermediate step should smuggle in a third free continuous parameter. Any specialist claim that the framework has hidden tuning knobs must identify where, in the cascade, a third free parameter enters.
 
 The enumeration argument below remains useful as an external-reader sanity check: even under the generous null that grants the framework no architectural constraints, the observed agreement rate is above chance. But the load-bearing answer to "numerology?" is the cascade architecture itself — see Ch 58a for the formal statement.
 
@@ -106,7 +106,7 @@ The null hypothesis assumes the researcher had free choice of **constant** and *
 - The constant is fixed as **ι_τ = 2/(π+e)** by the kernel's compactness-and-consistency theorem (Book I), **before** any prediction is attempted.
 - The form of expressions available is also constrained by the derivation chain, not free enumeration — one cannot arbitrarily write "ι_τ^5 · 17/3" unless the derivation chain produces it.
 
-Both constraints are visible in the Lean formalization: expressions entering the Numerical Physics Ledger are outputs of formal derivations, not post-hoc searches.
+Both constraints are visible in the source and formalization record: expressions entering the Numerical Prediction Catalogue should be outputs of derivations, not post-hoc searches.
 
 **Empirical test a specialist can run:** attempt to replace ι_τ with a close-but-different constant (e.g., 2/(π+e+ε) for small ε) throughout the derivation chain. How many predictions still agree at sub-10 ppm? Under numerology, swapping ι_τ for any nearby constant should yield comparable hit rates (the form was chosen, the constant was free). Under structural derivation, only ι_τ itself yields the observed hit distribution.
 
@@ -150,6 +150,7 @@ This is a statistics PhD thesis worth of work, not a first-pass dossier item. Th
 - [Prediction Timing Ledger]({{ '/results/predictions/timing/' | relative_url }}) — the three-category breakdown (Category C is the decisive test)
 - [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) — the full 67-prediction catalogue, including the Tier A / B / C taxonomy
 - [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) — {% include release-metric.html id="falsifications.records" %} named-experiment tests
-- [Numerical Physics Ledger (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — see Ch 58a "The Calibration Cascade" for the two-input + four-layer architectural proof
+- [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) — source, unit-context, and dependency overlay
+- [Numerical Physics Ledger publication artifact (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — long-form derivation artifact
 - [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions
 - [How to Verify — Physicist Route]({{ '/verify/how-to-verify-by-role/physicist/' | relative_url }}) — concrete inspection path for a physics reviewer
