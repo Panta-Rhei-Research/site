@@ -2,15 +2,17 @@
   hero-eyebrow.html — v4 hero identity line.
 
   Priority:
-    1. include.text
-    2. page.hero_eyebrow
-    3. Site Atlas lane + canonical role/status
-    4. page lane + page type/status
+    1. Breadcrumb data, when available.
+    2. include.text
+    3. page.hero_eyebrow
+    4. Site Atlas lane + canonical role/status
+    5. page lane + page type/status
 
-  Breadcrumb data remains governed separately by breadcrumb-data.html and
-  breadcrumb-jsonld.html. This component is page identity, not navigation.
+  The visual form stays the v4 hero eyebrow pill, but breadcrumb ancestors
+  become real links. JSON-LD breadcrumbs remain governed separately.
 {%- endcomment -%}
 
+{%- include breadcrumb-data.html -%}
 {%- assign atlas_page = site.data.site_atlas.route_index[page.url] -%}
 {%- assign _lane = include.lane | default: page.v2_lane | default: page.lane | default: atlas_page.lane -%}
 {%- assign _type = include.type | default: page.type | default: atlas_page.canonical_role -%}
@@ -25,6 +27,26 @@
 {%- endcapture -%}
 
 {%- assign eyebrow_text = include.text | default: page.hero_eyebrow | default: _generated | strip -%}
-{%- if eyebrow_text != "" -%}
+{%- if has_breadcrumbs -%}
+<nav class="hero-eyebrow-pill hero-eyebrow-breadcrumb" aria-label="Breadcrumb">
+  {%- for breadcrumb_item in breadcrumb_items -%}
+    {%- assign breadcrumb_parts = breadcrumb_item | split: '::' -%}
+    {%- assign breadcrumb_name = breadcrumb_parts[0] | strip -%}
+    {%- assign breadcrumb_url = breadcrumb_parts[1] | strip -%}
+    {%- assign skip_duplicate_current_url = false -%}
+    {%- if forloop.last == false and breadcrumb_url == page.url -%}
+      {%- assign skip_duplicate_current_url = true -%}
+    {%- endif -%}
+    {%- if breadcrumb_name != "" and skip_duplicate_current_url == false -%}
+      {%- if forloop.last or breadcrumb_url == "" -%}
+        <span class="hero-eyebrow-current">{{ breadcrumb_name }}</span>
+      {%- else -%}
+        <a class="hero-eyebrow-link" href="{{ breadcrumb_url | relative_url }}">{{ breadcrumb_name }}</a>
+      {%- endif -%}
+      {%- unless forloop.last -%}<span class="hero-eyebrow-separator" aria-hidden="true">·</span>{%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+</nav>
+{%- elsif eyebrow_text != "" -%}
 <span class="hero-eyebrow-pill">{{ eyebrow_text }}</span>
 {%- endif -%}

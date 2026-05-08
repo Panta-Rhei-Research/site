@@ -27,8 +27,8 @@
     bottom: -1px;
     height: 2px;
     border-radius: var(--radius-pill);
-    background: var(--lane-current);
-    opacity: 0.42;
+    background: var(--panta-blue-700);
+    opacity: 0.36;
     pointer-events: none;
   }
 
@@ -418,15 +418,18 @@ body.shell-home .site-header {
   }
 }
 
-.header-nav-link-discover { --nav-lane: var(--lane-discover); --nav-lane-soft: var(--lane-discover-soft); }
-.header-nav-link-program { --nav-lane: var(--lane-program); --nav-lane-soft: var(--lane-program-soft); }
-.header-nav-link-agenda { --nav-lane: var(--lane-agenda); --nav-lane-soft: var(--lane-agenda-soft); }
-.header-nav-link-corpus { --nav-lane: var(--lane-corpus); --nav-lane-soft: var(--lane-corpus-soft); }
-.header-nav-link-results { --nav-lane: var(--lane-results); --nav-lane-soft: var(--lane-results-soft); }
-.header-nav-link-verify { --nav-lane: var(--lane-verify); --nav-lane-soft: var(--lane-verify-soft); }
-.header-nav-link-publications { --nav-lane: var(--lane-publications); --nav-lane-soft: var(--lane-publications-soft); }
-.header-nav-link-impact { --nav-lane: var(--lane-impact); --nav-lane-soft: var(--lane-impact-soft); }
-.header-nav-link-engage { --nav-lane: var(--lane-engage); --nav-lane-soft: var(--lane-engage-soft); }
+.header-nav-link-discover,
+.header-nav-link-program,
+.header-nav-link-agenda,
+.header-nav-link-corpus,
+.header-nav-link-results,
+.header-nav-link-verify,
+.header-nav-link-publications,
+.header-nav-link-impact,
+.header-nav-link-engage {
+  --nav-lane: var(--panta-blue-700);
+  --nav-lane-soft: var(--panta-blue-50);
+}
 
 // Social icons in mobile drawer
 .drawer-social {
