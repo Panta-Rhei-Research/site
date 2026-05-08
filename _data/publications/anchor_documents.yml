@@ -28,9 +28,9 @@ documents:
     landing_path: "/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
     short_route: "https://prrp.site/wp001"
     pdf_path: "/assets/pdfs/anchor-documents/wp001-panta-rhei-research-program-executive-overview.pdf"
-    checksum_sha256: "7af6717e808169cb85dc17c08de3b6400c6849ba51d9549949cd6f5afdf5f357"
-    file_size: "2,328,733 bytes"
-    page_count: 23
+    checksum_sha256: "7a575fc144ddccd47f4dcc5706e21698b3928b02eb9a9a04709f1f003c2905e6"
+    file_size: "2,362,822 bytes"
+    page_count: 32
     license: "CC-BY-4.0"
     summary: "A canonical v1.0 live-lane overview of the Program as an inspectable research observatory, not a theory synopsis."
   - id: "wp002"
