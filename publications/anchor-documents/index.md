@@ -18,6 +18,9 @@ right_rail:
       title: "WP001 Executive Overview"
       url: "/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
     -
+      title: "WP003 TauLib Overview"
+      url: "/publications/anchor-documents/wp003-taulib-technical-overview/"
+    -
       title: "Program Charter"
       url: "/program/about/standing-in-the-inquiry-of-being/"
     -
