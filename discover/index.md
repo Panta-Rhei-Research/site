@@ -43,14 +43,16 @@ right_rail:
       url: /discover/what-to-read-first/
     - title: "Publication Notifications"
       url: /discover/follow-the-research/
+    - title: "WP000 At a Glance"
+      url: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+    - title: "Anchor Documents"
+      url: /publications/anchor-documents/
     - title: "Open Research Brief"
       url: /media/open-research-brief/
-    - title: "Inspection Architecture White Paper"
-      url: /publications/white-papers/inspection-architecture-high-scope-open-research/
     - title: "Public Research Observatory Brief"
       url: /media/public-research-observatory-brief/
-    - title: "Public Observatory White Paper"
-      url: /publications/white-papers/building-a-public-research-observatory/
+    - title: "WP004 Observatory Blueprint"
+      url: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
   meta:
     type: "Lane Root"
     status: "Canonical"
@@ -88,9 +90,9 @@ For journalists and public readers, the current [Open Research Brief]({{ '/media
 
 ## How the observatory is built
 
-The public site is itself part of the research form. Package 3 explains the technical blueprint: how `panta-rhei.site`, public source repositories, generated projections, search, release manifests, publication artifacts, and correction routes work together as one public research observatory.
+The public site is itself part of the research form. [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) is the shortest public orientation; [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) explains the technical blueprint: how `panta-rhei.site`, public source repositories, generated projections, search, release manifests, publication artifacts, and correction routes work together as one public research observatory.
 
-Read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) or the white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}) if you want the implementation view before entering the research lanes.
+Read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) if you want the newsroom version before entering the research lanes.
 
 ## AI-assisted discovery
 
@@ -140,11 +142,14 @@ Publications remains the stable artifact and release layer: Research Monographs,
 ## Deep links
 
 - [Start Here]({{ '/discover/start-here/' | relative_url }}) for the fastest general entry.
+- [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) for the four-page first-contact primer.
+- [Anchor Documents]({{ '/publications/anchor-documents/' | relative_url }}) for the citable offline canon.
 - [Related Approaches]({{ '/program/about/related-approaches/' | relative_url }}) for where Panta Rhei sits among serious neighboring programs.
 - [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) for the press-facing inspection-architecture story.
-- [Inspection Architecture White Paper]({{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }}) for the Package 1 white paper.
 - [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) for the technical blueprint story.
-- [Building a Public Research Observatory]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}) for the Package 3 white paper.
+- [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) for the canonical observatory architecture white paper.
+- [WP001 Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}) for the whole-program overview.
+- [C001 Charter Essay]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}) for the program's constitutive inquiry stance.
 - [Key Results]({{ '/discover/key-results/' | relative_url }}) for a curated first set of claims.
 - [How the System Works]({{ '/discover/how-the-system-works/' | relative_url }}) for the architecture.
 - [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }}) for the logical build-order.

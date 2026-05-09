@@ -6,13 +6,15 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
-last_updated: 2026-05-31
+last_updated: 2026-05-09
 updated: "May 2026"
 summary_short: "A newsroom-length brief for the first safe story: inspection architecture before belief."
 right_rail:
   related:
-    - title: "White Paper"
-      url: /publications/white-papers/inspection-architecture-high-scope-open-research/
+    - title: "WP000 At a Glance"
+      url: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+    - title: "WP004 Observatory Blueprint"
+      url: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
     - title: "Media Kit"
       url: /media/
     - title: "How to Verify"
@@ -75,8 +77,9 @@ Panta Rhei has proven its theory, solved its ledgers, or received external scien
 ## Best first links
 
 - [Homepage]({{ '/' | relative_url }})
+- [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }})
 - [Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }})
-- [White Paper]({{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }})
+- [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }})
 - [Media Kit]({{ '/media/' | relative_url }})
 - [How to Verify]({{ '/verify/how-to-verify/' | relative_url }})
 - [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }})

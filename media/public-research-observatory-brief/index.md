@@ -6,9 +6,9 @@ lane: support
 type: support_page
 support_type: media_brief
 status: canonical
-last_updated: 2026-05-31
+last_updated: 2026-05-09
 updated: "May 2026"
-summary_short: "A newsroom brief for Package 3: how panta-rhei.site implements a public research observatory for inspectable high-scope open research."
+summary_short: "A newsroom brief for how panta-rhei.site implements a public research observatory for inspectable high-scope open research."
 right_rail:
   related:
   - title: Media Kit
@@ -19,8 +19,10 @@ right_rail:
     url: /media/social-media-kit/
   - title: How to Verify
     url: /verify/how-to-verify/
-  - title: White Paper
-    url: /publications/white-papers/building-a-public-research-observatory/
+  - title: WP000 At a Glance
+    url: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+  - title: WP004 Observatory Blueprint
+    url: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
   - title: Inspection Observatory
     url: /program/about/inspection-observatory/
   - title: Engage
@@ -38,7 +40,7 @@ Panta Rhei can be covered as a public research observatory: a website and GitHub
 
 ## What is new
 
-Press Package 3 publishes the white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}). It is a technical blueprint for how `panta-rhei.site` implements inspectability as information architecture.
+[WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) is the canonical technical blueprint for how `panta-rhei.site` implements inspectability as information architecture. [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) is the shorter first-contact route.
 
 This is not a results package. It does not say the theory is proven, accepted, or externally validated. It explains how the public site and GitHub organization make the program easier to inspect.
 
@@ -61,7 +63,7 @@ The observatory is a review interface, not a proof of the theory.
 
 ## Suggested first link path
 
-1. [Building a Public Research Observatory]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }})
+1. [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }})
 2. [Why We Built an Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }})
 3. [Discover]({{ '/discover/' | relative_url }})
 4. [How to Verify]({{ '/verify/how-to-verify/' | relative_url }})
@@ -70,7 +72,7 @@ The observatory is a review interface, not a proof of the theory.
 
 ## Suggested headline angle
 
-The safest headline is not “Panta Rhei proves a theory of reality.” The safe Package 3 angle is:
+The safest headline is not “Panta Rhei proves a theory of reality.” The safe observatory angle is:
 
 > How should a public research program build the interface that lets outsiders inspect ambitious claims?
 

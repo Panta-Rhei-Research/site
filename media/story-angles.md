@@ -6,8 +6,8 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
-last_updated: 2026-04-30
-updated: "April 2026"
+last_updated: 2026-05-09
+updated: "May 2026"
 summary: "Five story angles for journalists, podcast hosts, and editors covering the Panta Rhei Research Program — each with a suggested headline, a 30-second elevator pitch, and a key-fact anchor that lands the angle without losing scope discipline."
 summary_short: "Five framings for journalists, with headlines, ledes, and key-fact anchors."
 summary_cards:
@@ -25,6 +25,10 @@ right_rail:
     url: /media/journalist-faq/
   - title: "Social Media Kit"
     url: /media/social-media-kit/
+  - title: "WP000 At a Glance"
+    url: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+  - title: "Anchor Documents"
+    url: /publications/anchor-documents/
   - title: "Predictions & Falsification"
     url: /verify/predictions-and-falsification/
   - title: "Independence, Scope & Scrutiny"
@@ -33,7 +37,7 @@ right_rail:
     type: "Story Angles"
     scope: "Press framings"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## How to use this page
@@ -42,7 +46,7 @@ These are **five distinct framings** for covering the Panta Rhei Research Progra
 
 If your angle isn't covered here, write to [press@panta-rhei.site](mailto:press@panta-rhei.site) — the program is happy to provide quotes, background, or interview windows for framings we haven't anticipated.
 
-For the journalism-specific Q&A (peer review, funding, citation, embargo), see the [Journalist FAQ]({{ '/media/journalist-faq/' | relative_url }}).
+For the journalism-specific Q&A (peer review, funding, citation, embargo), see the [Journalist FAQ]({{ '/media/journalist-faq/' | relative_url }}). For the shortest public entry point, use [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) before sending readers into the longer anchor documents.
 
 ---
 
@@ -55,6 +59,8 @@ For the journalism-specific Q&A (peer review, funding, citation, embargo), see t
 **Key-fact anchor.** *Self-funded · independent · published openly · Lean 4-formalized · review surfaces public from day one.*
 
 **Suggested deep links:**
+- [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }})
+- [WP001 Program Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }})
 - [Independence, Scope & Scrutiny]({{ '/program/about/independence-scope-and-scrutiny/' | relative_url }})
 - [Why This Program Exists]({{ '/program/about/why-this-program-exists/' | relative_url }})
 - [Reviewer's Dossier (PDF)]({{ '/assets/media/reviewers-dossier.pdf' | relative_url }})

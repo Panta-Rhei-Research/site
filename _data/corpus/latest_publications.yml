@@ -1,4 +1,93 @@
 publications:
+- publication_id: wp000
+  publication_key: anchor_documents.panta_rhei_at_a_glance
+  type: white_paper
+  type_label: White Paper
+  publication_role: orientation
+  status: released
+  artifact_availability: local_pdf
+  route_status: active
+  release_date: '2026-05-09'
+  version: canonical v1.0
+  title: Panta Rhei at a Glance
+  subtitle: A nontechnical orientation to an inspectable open research program
+  short_title: Panta Rhei at a Glance
+  authors:
+  - person_key: thorsten_fuchs
+    name: Thorsten Fuchs
+  - person_key: anna_sophie_fuchs
+    name: Anna-Sophie Fuchs
+  abstract: A canonical v1.0 four-page first-contact primer for reading Panta Rhei
+    as an inspectable public research object.
+  summary_short: A canonical v1.0 four-page first-contact primer for reading Panta
+    Rhei as an inspectable public research object.
+  site_role: ''
+  claim_boundary:
+    claim: Citable offline route into the public observatory. It routes readers back
+      to the live website and does not replace the owning inspection surfaces.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance,
+      empirical adequacy, legal ownership, DOI registration, deployment readiness,
+      product availability, policy adoption, or achieved impact.
+  canonical_url: https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+  website_url: https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+  short_url: https://prrp.site/wp000
+  slug: wp000-panta-rhei-at-a-glance
+  github_path: anchor-documents/wp000-panta-rhei-at-a-glance
+  files:
+    pdf_filename: wp000-panta-rhei-at-a-glance.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf
+    pdf_path_publications_repo: anchor-documents/wp000-panta-rhei-at-a-glance/wp000-panta-rhei-at-a-glance.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  external_links: []
+  relations:
+    related_lanes:
+    - publications
+    - discover
+    - program
+    - verify
+    related_routes:
+    - https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+    related_books: []
+    related_hinges: []
+    related_registry_objects: []
+    related_results: []
+    related_challenges: []
+    related_taulib_modules: []
+    related_bibliography_entries: []
+  citation:
+    preferred: ''
+    bibtex_key: ''
+  scholar:
+    include_meta_tags: true
+    citation_title: Panta Rhei at a Glance
+    citation_author:
+    - Thorsten Fuchs
+    - Anna-Sophie Fuchs
+    citation_publication_date: 2026/05/09
+    citation_pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf
+    citation_doi: ''
+    citation_technical_report_institution: Panta Rhei Research Program
+  integrity:
+    bytes: 58061
+    sha256: 8caa1e83dfd2f3e7f26d7997568a6e5d68e403a2c11b9da1b4f4f6cc5f6971d9
+    sha512: 37eaca1c3e7bb7f0b9e0aa46edce99e21204ef77e75a6255d1c8beaa09980206976c0ca4c5b3bafe6276fd83e0ee61bb3cb82e3b81ebbe79326976ed2358b8cd
+    ots_status: missing
+  metadata_sources:
+    publications_catalog: publications/catalog/publications.json
+    publications_manifest: publications/anchor-documents/wp000-panta-rhei-at-a-glance/manifest.json
+    site_research_papers: ''
+  metadata_pending: false
+  generated_from: publications/catalog/publications.json
+  projection_version: anchor-canon-v1.0-overlay
+  canonical_source: publications/catalog
+  do_not_edit: true
 - publication_id: c001
   publication_key: charter_essays.standing_in_the_inquiry_of_being
   type: charter_essay

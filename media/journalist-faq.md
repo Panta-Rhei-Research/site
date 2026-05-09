@@ -6,8 +6,8 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
-last_updated: 2026-04-30
-updated: "April 2026"
+last_updated: 2026-05-09
+updated: "May 2026"
 summary: "Common questions journalists, podcast hosts, and editors ask about the Panta Rhei Research Program — peer review, funding, citation, interview availability, embargo policy, and what to call this work."
 summary_short: "Press FAQ — peer review, funding, citation, interviews, embargo policy."
 summary_cards:
@@ -31,16 +31,18 @@ right_rail:
     url: /verify/assessment-protocols/
   - title: "Open Research Brief"
     url: /media/open-research-brief/
-  - title: "Inspection Architecture White Paper"
-    url: /publications/white-papers/inspection-architecture-high-scope-open-research/
+  - title: "Anchor Documents"
+    url: /publications/anchor-documents/
+  - title: "WP000 At a Glance"
+    url: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
   - title: "Theory of Reality Brief"
     url: /media/theory-of-reality-brief/
-  - title: "Theory of Reality White Paper"
-    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
+  - title: "WP001 Executive Overview"
+    url: /publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/
   - title: "Public Research Observatory Brief"
     url: /media/public-research-observatory-brief/
-  - title: "Public Research Observatory White Paper"
-    url: /publications/white-papers/building-a-public-research-observatory/
+  - title: "WP004 Observatory Blueprint"
+    url: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
   - title: "Engage · Media"
     url: /engage/media/
   - title: "Independence, Scope & Scrutiny"
@@ -49,7 +51,7 @@ right_rail:
     type: "Press FAQ"
     scope: "Journalist-facing"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## How to use this page
@@ -58,11 +60,13 @@ This FAQ is written for **journalists, podcast hosts, editors, and public commun
 
 For specialist-level questions (formal-methods reviewers, domain experts), see the separate [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}), [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
 
-## Package 1: Open Research / Inspection Architecture
+For the shortest citable orientation, start with [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}), then use the [Anchor Documents]({{ '/publications/anchor-documents/' | relative_url }}) for the longer canon.
+
+## Open Research / Inspection Architecture
 
 ### Is Panta Rhei claiming its theory is proven?
 
-No. Package 1 is deliberately about the inspection standard, not endorsement of the theory. The public claim is that high-scope independent research should expose obligations, construction, result status, verification routes, failure paths, correction channels, and publication artifacts before asking for belief.
+No. The public-facing inspection story is deliberately about the inspection standard, not endorsement of the theory. The public claim is that high-scope independent research should expose obligations, construction, result status, verification routes, failure paths, correction channels, and publication artifacts before asking for belief.
 
 ### Why is the first story not the scientific claim?
 
@@ -80,7 +84,7 @@ No. TauLib can check formalized internal claims where those claims have been enc
 
 Yes, if the article is framed as a story about inspectability, open-research infrastructure, and the public burden accepted by a high-scope independent program. It should not state or imply that external institutions have validated the scientific claims.
 
-### Do UNESCO, The Turing Way, TOP/COS, EQUATOR, COPE, or Zenodo endorse this package?
+### Do UNESCO, The Turing Way, TOP/COS, EQUATOR, COPE, or Zenodo endorse Panta Rhei?
 
 No. They are cited as official reference points for open science, reproducible research, transparency, reporting, peer-review ethics, and repository metadata. Citation is context, not endorsement.
 
@@ -88,15 +92,15 @@ No. They are cited as official reference points for open science, reproducible r
 
 Send corrections to [errata@panta-rhei.site](mailto:errata@panta-rhei.site), use the [Engage]({{ '/engage/' | relative_url }}) routes, or open a GitHub issue where the relevant public source allows it.
 
-## Package 2: Theory of Reality
+## Coherent Theory of Reality
 
 ### Is Panta Rhei a theory of everything?
 
 No. Panta Rhei is not using “theory of everything” as its public category. The program says “coherent theory of reality” because that phrase names a stricter burden: earn the language, earn the questions, build the answers, disclose limits, and make the public claim structure inspectable.
 
-### Does Package 2 claim the theory is complete?
+### Does the Anchor Canon claim the theory is complete?
 
-No. Package 2 is doctrine-first. It defines what kind of research object a coherent theory of reality would have to be; it does not claim that Panta Rhei has completed, proven, externally accepted, or finalized such a theory.
+No. The relevant anchor documents are doctrine-first and route-first. They define what kind of research object a coherent theory of reality would have to be; they do not claim that Panta Rhei has completed, proven, externally accepted, or finalized such a theory.
 
 ### What is the safest headline angle?
 
@@ -104,29 +108,29 @@ The safe angle is: “What should a serious theory of reality have to expose bef
 
 ### What should I link first?
 
-Use the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}) for newsroom framing and the white paper [The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}) for the citable Package 2 artifact. Then route readers to [Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}), [Agenda]({{ '/agenda/' | relative_url }}), and [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}).
+Use the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}) for newsroom framing, [C001 Standing in the Inquiry of Being]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}) for the charter stance, [WP001 Program Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}) for the whole program, and [WP002 T Theory Executive Synopsis]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}) for the theory synopsis. Then route readers to [Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}), [Agenda]({{ '/agenda/' | relative_url }}), and [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}).
 
-### Do the external sources cited by Package 2 endorse Panta Rhei?
+### Do the external sources cited by the theory-facing anchor documents endorse Panta Rhei?
 
 No. Britannica, Stanford Encyclopedia of Philosophy entries, UNESCO Open Science, UKRI impact-language sources, and responsible-innovation sources are cited as context only. Citation is not endorsement, validation, review, or external acceptance.
 
-## Package 3: Technical Blueprint / Public Research Observatory
+## Technical Blueprint / Public Research Observatory
 
 ### What is the public research observatory?
 
 It is the public architecture that lets readers trace Panta Rhei through Program identity, Agenda obligations, Corpus construction, Results consequences, Verify inspection, Publications artifacts, and Engage correction routes. The observatory is a review interface, not a proof of the theory.
 
-### Does Package 3 claim the website validates the theory?
+### Does the observatory blueprint claim the website validates the theory?
 
-No. Package 3 explicitly says that inspection architecture is not validation. Jekyll, Pagefind, GitHub, Zenodo, and static publishing make the program easier to inspect; they do not certify scientific truth, bridge adequacy, peer review, or external acceptance.
+No. WP004 explicitly says that inspection architecture is not validation. Jekyll, Pagefind, GitHub, Zenodo, and static publishing make the program easier to inspect; they do not certify scientific truth, bridge adequacy, peer review, or external acceptance.
 
-### What is the safest Package 3 headline angle?
+### What is the safest observatory headline angle?
 
 The safe angle is: “How should high-scope open research build the public interface that lets outsiders inspect it?” The story is technical and architectural: source paths, status routes, verification links, publication manifests, search, correction, and engagement.
 
-### What should I link first for Package 3?
+### What should I link first for the observatory blueprint?
 
-Use the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) for newsroom framing and the white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}) for the citable artifact. Then route readers to [Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }}), [Discover]({{ '/discover/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
+Use the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) for newsroom framing and [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) for the citable artifact. Then route readers to [Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }}), [Discover]({{ '/discover/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
 
 ## What kind of research is this?
 
