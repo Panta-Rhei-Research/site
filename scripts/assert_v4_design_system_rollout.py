@@ -88,7 +88,7 @@ def main() -> int:
         if selector not in compact_css:
             raise AssertionError(f"Expected shared component selector missing from compiled CSS: {selector}")
     if "assets/og-cards/index.png" in home or "assets/og-cards/index.svg" in home:
-        raise AssertionError("Normal build should not point homepage OG metadata at generated social-preview cards")
+        raise AssertionError("Normal build should not point homepage OG metadata at retired legacy social-preview cards")
 
     print("v4 design-system rollout assertions passed")
     return 0

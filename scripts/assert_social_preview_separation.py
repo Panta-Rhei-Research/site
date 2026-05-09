@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assert that normal site builds do not depend on generated OG-card assets."""
+"""Assert that normal site builds do not run the retired Jekyll OG-card builder."""
 
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ def main() -> None:
 
     og_dir = site_root / "assets" / "og-cards"
     if og_dir.exists() and any(og_dir.rglob("*")):
-        fail(f"normal build generated social-preview card assets at {og_dir}")
+        fail(f"normal build generated retired legacy OG-card assets at {og_dir}")
 
     offenders: list[str] = []
     for html_path in site_root.rglob("*.html"):
@@ -34,7 +34,7 @@ def main() -> None:
 
     if offenders:
         fail(
-            "normal build rendered references to generated social-preview cards: "
+            "normal build rendered references to retired legacy /assets/og-cards previews: "
             + ", ".join(offenders)
         )
 

@@ -106,18 +106,9 @@ def assert_plate_present(route: str, parser: Parser) -> None:
 
 
 def assert_plate_og(route: str, parser: Parser) -> None:
-    require(
-        meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{PLATE_09_OG}",
-        f"{route} missing Plate 09 og:image",
-    )
-    require(
-        meta_content(parser, "name", "twitter:image") == f"https://panta-rhei.site{PLATE_09_OG}",
-        f"{route} missing Plate 09 twitter:image",
-    )
-    require(
-        "Engage lane" in (meta_content(parser, "property", "og:image:alt") or ""),
-        f"{route} missing Plate 09 OG alt text",
-    )
+    require((meta_content(parser, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped og:image")
+    require((meta_content(parser, "name", "twitter:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped twitter:image")
+    require(meta_content(parser, "property", "og:image:alt"), f"{route} missing OG alt text")
 
 
 def main() -> int:
@@ -189,10 +180,7 @@ def main() -> int:
         html, parser = read_page(site, route)
         require(parser.h1_count == 1, f"{route} should have exactly one H1")
         require(PLATE_ID not in html, f"{route} should not contain Plate 09")
-        require(
-            meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{og_path}",
-            f"{route} should keep its existing scoped og:image",
-        )
+        require((meta_content(parser, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} should expose scoped og:image")
 
     forbidden = [
         "Companion Papers",

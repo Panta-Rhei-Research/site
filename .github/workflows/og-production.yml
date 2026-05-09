@@ -1,0 +1,48 @@
+name: Build OG/Twitter Card Assets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-og-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install system rasterizer
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+
+      - name: Install Python dependencies
+        run: python3 -m pip install -r requirements-og.txt
+
+      - name: Build OG/Twitter cards
+        run: npm run og:build
+
+      - name: Check generated card assets
+        run: npm run og:check
+
+      - name: Upload review gallery
+        uses: actions/upload-artifact@v7
+        with:
+          name: og-card-gallery
+          path: |
+            assets/og/gallery/
+            assets/og/png/
+            assets/og/webp/
+            assets/og/svg/
+          retention-days: 14

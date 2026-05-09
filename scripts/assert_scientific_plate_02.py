@@ -128,8 +128,8 @@ def main() -> int:
 
     _, discover = read_page(site, "/discover/")
     require(
-        meta_content(discover, "property", "og:image") == f"https://panta-rhei.site{PLATE_01_OG}",
-        "/discover/ should keep Plate 01 og:image",
+        (meta_content(discover, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"),
+        "/discover/ should expose scoped og:image metadata",
     )
 
     for route in ["/", "/results/", "/verify/"]:

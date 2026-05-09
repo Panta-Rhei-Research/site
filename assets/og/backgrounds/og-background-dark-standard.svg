@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Panta Rhei dark OG background with spectral rule">
+  <defs>
+    <linearGradient id="panta-og-dark-gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#13395E"/><stop offset="48%" stop-color="#163E64"/><stop offset="100%" stop-color="#1A4874"/>
+    </linearGradient>
+    <linearGradient id="panta-og-spectrum-rule" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5A7EB3"/><stop offset="34%" stop-color="#1B8278"/><stop offset="68%" stop-color="#9F5B5C"/><stop offset="100%" stop-color="#896092"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#panta-og-dark-gradient)"/>
+  <rect x="0" y="618" width="1200" height="12" fill="url(#panta-og-spectrum-rule)"/>
+</svg>
