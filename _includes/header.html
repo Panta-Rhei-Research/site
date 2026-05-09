@@ -19,11 +19,18 @@
 
     {% unless page.shell == 'home' %}
     {% if page.page_tools != false %}
-    <!-- This-page utility drawer (mobile shell surface; legacy TOC IDs retained for compatibility).
-         The inner page-tools section is rendered via _includes/page-tools.html (variant=drawer)
-         to share one source of truth with the desktop rail card + bottom inspection panel.
-         The "On this page" TOC subsection stays inline — it's populated by mobile-shell JS that
-         scans page H2s, separate concern from page-tools. -->
+    {%- comment -%}
+      This-page utility drawer (mobile shell surface; legacy TOC IDs retained for compatibility).
+      The inner page-tools section is rendered via _includes/page-tools.html (variant=drawer)
+      to share one source of truth with the desktop rail card + bottom inspection panel.
+      The TOC subsection stays inline below the page-tools include — it's populated by
+      mobile-shell JS that scans page H2s, separate concern from page-tools.
+
+      Implementation note: this MUST be a Liquid comment, not an HTML comment. The
+      assert_v4_mobile_shell.py gate checks that the rendered "Page tools" label appears
+      before the "On this page" label in the built HTML, and an HTML comment containing
+      either string is rendered into the page output and trips the substring search.
+    {%- endcomment -%}
     <div class="header-page-wrapper header-toc-wrapper" id="header-toc-wrapper">
       <button class="header-page-btn header-toc-btn shell-control" id="header-toc-toggle" aria-label="This page tools and contents" aria-expanded="false" aria-controls="header-toc-dropdown" type="button">
         <svg class="header-page-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 -960 960 960" aria-hidden="true">
