@@ -111,6 +111,37 @@ def main() -> None:
     if "sitemap-link-grid" not in html or "sitemap-mini-card" not in html:
         fail("sitemap mini-card grid classes are missing")
 
+    # ---- UX uplift assertions (added 2026-05-09) ----
+    # Search input
+    if 'id="sitemap-search-input"' not in html:
+        fail("sitemap search input (#sitemap-search-input) is missing")
+    if 'role="search"' not in html:
+        fail("sitemap search container missing role=\"search\"")
+    # Jump-nav
+    if 'class="sitemap-jump"' not in html:
+        fail("sitemap jump-nav (.sitemap-jump) is missing")
+    jump_pills = re.findall(r'class="sitemap-jump-pill[^"]*"[^>]+data-jump-target="([^"]+)"', html)
+    if len(jump_pills) < 9:
+        fail(f"sitemap jump-nav must have ≥9 pills (8 lanes + support); found {len(jump_pills)}")
+    for lane in PRIMARY_LANES + ["support"]:
+        if f"lane-{lane}" not in jump_pills:
+            fail(f"sitemap jump-nav missing pill for {lane}")
+    # Per-lane count attribute
+    if not re.search(r'data-sitemap-lane-count="\d+"', html):
+        fail("sitemap lane cards missing data-sitemap-lane-count attribute")
+    # Per-mini-card title attribute (drives client-side search)
+    if 'data-sitemap-link-title="' not in html:
+        fail("sitemap mini-cards missing data-sitemap-link-title attribute (search index)")
+    # Sitemap-search.js loaded
+    if "/assets/js/sitemap-search.js" not in html:
+        fail("sitemap-search.js script tag missing from /sitemap/ page")
+    # Empty-state element
+    if 'id="sitemap-empty"' not in html:
+        fail("sitemap empty-state container (#sitemap-empty) is missing")
+    # Totals chip
+    if 'class="sitemap-totals"' not in html:
+        fail("sitemap totals chip is missing from intro")
+
     card_lanes = re.findall(r'data-sitemap-lane="([^"]+)"', html)
     for lane in PRIMARY_LANES:
         if card_lanes.count(lane) != 1:
