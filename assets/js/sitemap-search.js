@@ -20,6 +20,9 @@
 
   // Initialize default status text from data-default-text.
   var defaultStatus = statusEl.getAttribute('data-default-text') || '';
+  if (defaultStatus) {
+    statusEl.innerHTML = defaultStatus;
+  }
 
   function setStatus(html) {
     if (!html) {
