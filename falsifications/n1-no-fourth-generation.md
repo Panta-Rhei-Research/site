@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N1 — No fourth generation"
-permalink: "/falsifications/n1-no-fourth-generation/"
+permalink: "/results/falsifications/n1-no-fourth-generation/"
 lane: "results"
 falsification_id: "N1"
 n_num: 1

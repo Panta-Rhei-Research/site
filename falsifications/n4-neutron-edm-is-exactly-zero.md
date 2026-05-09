@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N4 — Neutron EDM is exactly zero"
-permalink: "/falsifications/n4-neutron-edm-is-exactly-zero/"
+permalink: "/results/falsifications/n4-neutron-edm-is-exactly-zero/"
 lane: "results"
 falsification_id: "N4"
 n_num: 4

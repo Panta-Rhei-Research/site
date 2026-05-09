@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N28 — She–Lévêque from $^3$"
-permalink: "/falsifications/n28-she-leveque-from-3/"
+permalink: "/results/falsifications/n28-she-leveque-from-3/"
 lane: "results"
 falsification_id: "N28"
 n_num: 28

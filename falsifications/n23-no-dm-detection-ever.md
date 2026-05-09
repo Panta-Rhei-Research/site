@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N23 — No DM detection—ever"
-permalink: "/falsifications/n23-no-dm-detection-ever/"
+permalink: "/results/falsifications/n23-no-dm-detection-ever/"
 lane: "results"
 falsification_id: "N23"
 n_num: 23

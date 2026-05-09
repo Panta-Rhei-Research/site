@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N25 — EHT shadow correction $+2.91%$"
-permalink: "/falsifications/n25-eht-shadow-correction-291/"
+permalink: "/results/falsifications/n25-eht-shadow-correction-291/"
 lane: "results"
 falsification_id: "N25"
 n_num: 25

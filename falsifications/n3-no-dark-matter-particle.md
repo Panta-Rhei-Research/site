@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N3 — No dark matter particle"
-permalink: "/falsifications/n3-no-dark-matter-particle/"
+permalink: "/results/falsifications/n3-no-dark-matter-particle/"
 lane: "results"
 falsification_id: "N3"
 n_num: 3

@@ -36,7 +36,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N25"
     title: "N25 — EHT shadow correction $+2.91%$"
-    url: "/falsifications/n25-eht-shadow-correction-291/"
+    url: "/results/falsifications/n25-eht-shadow-correction-291/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -78,7 +78,7 @@ Sgr A* predictions: shadow 54.8 μas (obs 51.8±2.3, 1.3σ), QNM ratio 2.930, mo
 ## Related Results surfaces
 
 - [EHT Shadow Correction](/predictions/eht-shadow/)
-- [N25 — EHT shadow correction $+2.91%$](/falsifications/n25-eht-shadow-correction-291/)
+- [N25 — EHT shadow correction $+2.91%$](/results/falsifications/n25-eht-shadow-correction-291/)
 - [M87* Prediction Suite](/registry/object/V.T220/)
 
 ## Reading role

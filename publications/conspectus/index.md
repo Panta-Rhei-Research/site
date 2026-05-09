@@ -45,7 +45,7 @@ The name comes from Latin *conspicere*, "to survey with the eyes, to take in at 
 
 Five parts, seventeen sections, one integrated argument:
 
-**Part I — The Problem and the Posit.** Where mathematical foundations (ZFC as an armistice, not a solution) and physical foundations (19 free parameters, unreconciled pillars) stand today, and the structural root they share: objects-before-relations. Then the Panta Rhei posit: Category τ specified by **7 axioms (K0–K6) on 5 generators {α, π, γ, η, ω}**, the master constant **ι<sub>τ</sub> = 2/(π+e)**, and the **L0 → L4 calibration cascade** from algebra through dimensionless identities through the single SI anchor (neutron mass *m<sub>n</sub>*) to SI-bearing readouts and experimental programmes.
+**Part I — The Problem and the Posit.** Where mathematical foundations (ZFC as an armistice, not a solution) and physical foundations (19 free parameters, unreconciled pillars) stand today, and the structural root they share: objects-before-relations. Then the Panta Rhei posit: Category τ specified by **7 structural commitments (K0–K6) on 5 generators {α, π, γ, η, ω}**, the master constant **ι<sub>τ</sub> = 2/(π+e)**, and the **L0 → L4 calibration cascade** from algebra through dimensionless identities through the single SI anchor (neutron mass *m<sub>n</sub>*) to SI-bearing readouts and experimental programmes.
 
 **Part II — The Seven Books as One Argument.** Each book gets approximately two pages, cascade-aware:
 

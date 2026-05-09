@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N26 — GW echo time ratio ιτ⁻²"
-permalink: "/falsifications/n26-gw-echo-time-ratio-2/"
+permalink: "/results/falsifications/n26-gw-echo-time-ratio-2/"
 lane: "results"
 falsification_id: "N26"
 n_num: 26

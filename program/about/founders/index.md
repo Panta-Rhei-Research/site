@@ -8,12 +8,12 @@ section: about-the-program
 permalink: /program/about/founders/
 summary_short: "Founders and current stewards of the Panta Rhei Research Program."
 summary_cards:
-  - title: "Founders"
-    body: "Anna-Sophie Fuchs and Thorsten Fuchs initiated and built the Panta Rhei Research Program together."
-  - title: "Stewardship"
-    body: "The program's books, website, TauLib, Corpus, Results, Verify routes, assessment protocols, and engagement surfaces are currently stewarded directly by its founders."
-  - title: "Correspondence"
-    body: "Media, institutional, and technical correspondence routes are provided through the site's Contact page."
+  - title: "Independent by choice"
+    body: "Anna-Sophie Fuchs and Thorsten Fuchs initiated and built the Panta Rhei Research Program as an independent open research program. There is no institutional sponsor and no funder, and no funder to disclose because there is no funder."
+  - title: "Read through the artifacts"
+    body: "The work is published as a research architecture for scrutiny: a seven-book monograph series, a Lean 4 formalization library (TauLib), a public Release Manifest, 67 pre-registered predictions, and the inspection observatory at panta-rhei.site."
+  - title: "Open to peer review on the program's terms"
+    body: "External peer review has not yet happened. The program publishes the surfaces a reviewer would need before asking for one — obligations, construction, result status, verification routes, failure paths, and correction channels."
 right_rail:
   related:
     - title: "About the Program"
@@ -29,9 +29,9 @@ right_rail:
     updated: "May 2026"
 ---
 
-The **Panta Rhei Research Program** was initiated and brought to its current public stage by **Anna-Sophie Fuchs** and **Thorsten Fuchs**.
+The **Panta Rhei Research Program** is an **independent open research program** built by **Anna-Sophie Fuchs** and **Thorsten Fuchs**. There is no institutional sponsor, no grant, and no corporate backer. Independence is a chosen posture, not a constraint left over.
 
-The program should be read through its public artifacts and arguments: the books, the public website, the formal layer, the registry, and the verification surfaces. At the same time, it should remain clear who currently stewards it and who is responsible for having brought it into public form.
+The program should be read through its public artifacts: the seven-book monograph series, the Lean 4 formalization library (TauLib), the public Release Manifest, the {% include release-metric.html id="predictions.records" %} pre-registered predictions and the {% include release-metric.html id="falsifications.records" %} named falsification tests, and the inspection observatory at panta-rhei.site. The point of this page is not to substitute biography for that scrutiny. It is to make visible who carries responsibility for it, and through whom correspondence about the program currently flows.
 
 ## Thorsten Fuchs
 
@@ -39,11 +39,11 @@ The program should be read through its public artifacts and arguments: the books
 <a href="https://www.linkedin.com/in/thorfuchs/" target="_blank" rel="noopener" class="profile-link">LinkedIn</a>
 <a href="https://mastodon.social/@thorfuchs" target="_blank" rel="me noopener" class="profile-link">Mastodon</a>
 
-**Dr. Thorsten Fuchs** studied pure mathematics before spending many years in business and technology leadership. After graduate work in algebraic structures, he worked at McKinsey & Company and later led the Office Business Group at Microsoft Germany. Mathematics did not disappear during those years; it moved into the background and waited.
+**Dr. Thorsten Fuchs** holds a doctorate in mathematics; an earlier career in technology leadership at McKinsey & Company and Microsoft Germany was the parallel track during the years the research moved into the background and waited.
 
-What brought him back was not nostalgia for abstraction, but a question he could not let go of: *what if reality is more deeply coherent than it first appears?* In the Panta Rhei program, he leads the formal and architectural side of that question: the kernel, the proofs, the inter-book structure, the formal layer through **TauLib**, and the overall research architecture in which the different surfaces of the project belong together.
+In Panta Rhei he leads the formal and architectural side of the program. The work spans the τ-kernel — five generators, one progression operator, and the K0–K6 structural commitments that anchor it — through to the seven-book monograph series and its formal companion. **TauLib**, the Lean 4 formalization library, currently ships {% include release-metric.html id="taulib.modules" %} modules and {% include release-metric.html id="taulib.lines" %} lines, certifying {% include release-metric.html id="taulib.theorems_lemmas" %} theorems and lemmas with {% include release-metric.html id="taulib.sorry" %} `sorry` across the seven books and {% include release-metric.html id="taulib.custom_axioms" %} disclosed custom axioms (one of which is a Grand Riemann Hypothesis-class conjecture imported as a Book III spectral bridge; results conditional on it are flagged on each Result page). The eight foundational hinge papers (H1–H8), the [Master Constant ι<sub>τ</sub>](/corpus/foundational-hinges/master-constant-iota-tau/) and its falsification hinge, the calibration cascade for the {% include release-metric.html id="predictions.records" %} pre-registered predictions, the [Construction Spine](/corpus/construction-spine/) of CS-01 through CS-10, and the [Release Manifest](/verify/release-manifest/) discipline that pins each release to a specific TauLib commit and Mathlib revision are all his architectural authorship.
 
-He presents the work not as a finished final word, but as a research architecture published for scrutiny.
+He presents the work not as a finished final word, but as a research architecture published for scrutiny on its own terms.
 
 ## Anna-Sophie Fuchs
 
@@ -51,23 +51,29 @@ He presents the work not as a finished final word, but as a research architectur
 
 **Anna-Sophie Fuchs** trained as an underwater archaeologist. Her work taught her how to excavate layered structures patiently, document fragile connections, and reconstruct wholes from buried fragments. Those habits transferred unexpectedly well into a long-form research architecture.
 
-In Panta Rhei, she brings structural mapping, editorial discipline, and the human questions that keep the project oriented toward lived reality. Where Thorsten tends to see algebraic architecture, Anna-Sophie tends to see what that architecture must still answer for actual readers. She is also the collaboration's first skeptical reader, pressing every large claim to justify not only its ambition, but also its language, scope, tone, and relation to human reality.
+In Panta Rhei she carries the structural mapping of the seven-book corpus, the editorial discipline that keeps language and scope honest, and the cross-book coherence that holds {% include release-metric.html id="corpus.monograph_chapters" %} chapters across {% include release-metric.html id="corpus.monograph_parts" %} monograph parts together as one program rather than seven separate books. She is the collaboration's first skeptical reader, pressing every large claim to justify not only its ambition but also its language, scope, tone, and relation to actual readers — and she co-stewards the public observatory's editorial discipline, the assessment protocols at the inspection layer, and the engagement surfaces through which the program receives critique and correction.
 
 ## Together
 
-Together, Anna-Sophie and Thorsten built **Panta Rhei** as one coherent research program rather than as a loose group of books or papers. The seven-book series is the current canonical monograph release of that program, but the program itself also includes this website, TauLib, the registry, guided tours, verification companions, and the broader publication, verification, assessment, and engagement surfaces through which the work is made public.
+Together, Anna-Sophie and Thorsten built **Panta Rhei** as one coherent research program rather than as a loose group of books or papers. The seven-book series is the current canonical monograph release. The program itself also includes this website, TauLib, the public registry, the guided tours, the verification companions, and the broader publication, verification, assessment, and engagement surfaces through which the work is made public.
 
 Their shared discipline can be stated simply:
 
 **First earn the language, then earn the question, then earn the answer.**
 
-For the public doctrine behind that discipline, see [What We Mean by a Coherent Theory of Reality](/program/about/coherent-theory-of-reality/).
+For the public doctrine behind that discipline, see [What We Mean by a Coherent Theory of Reality](/program/about/coherent-theory-of-reality/) and the program's voice posture in [Independence, Scope & Scrutiny](/program/about/independence-scope-and-scrutiny/).
 
-That discipline shapes not only the mathematics, but also the way the project presents itself to others.
+## Independent by choice — open to peer review on the program's terms
+
+The program is independently authored and self-funded. There is no institutional funding, no grant sponsor, and no corporate backer; there is no funder to disclose because there is no funder. That independence is part of why the program is published as an open architecture rather than as a journal-by-journal submission.
+
+External peer review has not yet happened. The program publishes the surfaces a reviewer would need before asking for one — declared obligations, construction order, result status grammar, verification routes, named failure paths, correction channels, and citable publication artifacts under CC BY 4.0.
+
+The program is open to peer review on its own terms. The [Engage](/engage/) lane and the [Verify](/verify/) lane describe the routes; the [Journalist FAQ](/media/journalist-faq/) describes the posture for media and external review; specialist review proposals are welcome via the [Contact page](/engage/contact/) or the founders address below.
 
 ## Current stewardship
 
-The current public form of the program — its books, website, formalization surfaces, verification routes, and engagement surfaces — is still stewarded directly by its founders. In that sense, this page is not only biographical. It is also a provenance page: it makes visible who has initiated the work, who currently carries responsibility for it, and through whom correspondence about the program should presently flow.
+The current public form of the program — its books, website, formalization surfaces, verification routes, and engagement surfaces — is stewarded directly by its founders.
 
 ## Correspondence
 

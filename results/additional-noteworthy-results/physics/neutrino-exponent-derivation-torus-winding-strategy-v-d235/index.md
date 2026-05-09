@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N6"
     title: "N6 — Sum of neutrino masses mν = 0.089 eV"
-    url: "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
+    url: "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -86,7 +86,7 @@ Strategy A: exponents (p,q,r) in sigma-polarity matrix derived from T^2 fiber wi
 ## Related Results surfaces
 
 - [Sum of Neutrino Masses](/predictions/m-ev/)
-- [N6 — Sum of neutrino masses mν = 0.089 eV](/falsifications/n6-sum-of-neutrino-masses-m-0089/)
+- [N6 — Sum of neutrino masses mν = 0.089 eV](/results/falsifications/n6-sum-of-neutrino-masses-m-0089/)
 - [Neutrino Mass Sum Σm_ν = 0.089 eV, Normal Ordering Derived](/results/problem/neutrino-mass-sum-0pt089-ev-normal-ordering/)
 - [Neutrino NNLO Mass Ratios](/predictions/nnlo-ratio/)
 

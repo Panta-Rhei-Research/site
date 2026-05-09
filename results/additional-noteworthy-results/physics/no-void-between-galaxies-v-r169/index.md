@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N13"
     title: "N13 — Effective neutrino number N_eff"
-    url: "/falsifications/n13-n-eff/"
+    url: "/results/falsifications/n13-n-eff/"
     match_basis: "facet_title_summary"
     match_confidence: "high"
     matched_terms:
@@ -45,7 +45,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N6"
     title: "N6 — Sum of neutrino masses mν = 0.089 eV"
-    url: "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
+    url: "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/"
     match_basis: "facet_title_summary"
     match_confidence: "high"
     matched_terms:
@@ -77,8 +77,8 @@ Between galaxies the boundary holonomy algebra remains active (D-sector nonzero,
 ## Related Results surfaces
 
 - [Galaxy rotation problem](/results/problem-ledger-answers/physics/galaxy-rotation-problem/)
-- [N13 — Effective neutrino number N_eff](/falsifications/n13-n-eff/)
-- [N6 — Sum of neutrino masses mν = 0.089 eV](/falsifications/n6-sum-of-neutrino-masses-m-0089/)
+- [N13 — Effective neutrino number N_eff](/results/falsifications/n13-n-eff/)
+- [N6 — Sum of neutrino masses mν = 0.089 eV](/results/falsifications/n6-sum-of-neutrino-masses-m-0089/)
 
 ## Reading role
 
