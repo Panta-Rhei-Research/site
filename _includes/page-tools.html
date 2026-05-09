@@ -177,23 +177,47 @@ Shared not as an endorsement, but as a page that may be worth expert inspection.
          data-review-angle="{{ _angle | escape }}"
          aria-labelledby="page-drawer-tools-title">
   <div class="page-drawer-section-title page-tools__section-label" id="page-drawer-tools-title">{{ _label }}</div>
+  {%- comment -%}
+    Drawer dispatch contract: every standard page must expose all six page-action
+    hooks in the rendered HTML (data-page-action="dossier-pdf" / "markdown" / "share"
+    / "copy-link" / "reviewer-note" / "copy-citation"). Pages with a PDF / markdown
+    export get the live <a download>; pages without get a disabled <button>
+    placeholder. The disabled fallback preserves the dispatch surface uniformly
+    across pages and is required by scripts/assert_v4_mobile_shell.py.
+  {%- endcomment -%}
   {% if _dossier_pdf %}
-  <a class="page-tools__row page-tool-row" href="{{ _dossier_pdf | relative_url }}" download>
+  <a class="page-tools__row page-tool-row" href="{{ _dossier_pdf | relative_url }}" download data-page-action="dossier-pdf">
     <span class="page-tools__icon page-tool-icon" aria-hidden="true">↓</span>
     <span class="page-tools__label-stack">
       <span class="page-tools__label page-tool-title">Dossier PDF</span>
       <span class="page-tools__desc page-tool-description">Portable A4 research brief</span>
     </span>
   </a>
+  {% else %}
+  <button class="page-tools__row page-tool-row is-disabled" type="button" disabled data-page-action="dossier-pdf">
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">↓</span>
+    <span class="page-tools__label-stack">
+      <span class="page-tools__label page-tool-title">Dossier PDF</span>
+      <span class="page-tools__desc page-tool-description">Portable A4 research brief · pending</span>
+    </span>
+  </button>
   {% endif %}
   {% if _markdown_export %}
-  <a class="page-tools__row page-tool-row" href="{{ _markdown_export | relative_url }}" download>
+  <a class="page-tools__row page-tool-row" href="{{ _markdown_export | relative_url }}" download data-page-action="markdown">
     <span class="page-tools__icon page-tool-icon" aria-hidden="true">⌘</span>
     <span class="page-tools__label-stack">
       <span class="page-tools__label page-tool-title">Markdown</span>
       <span class="page-tools__desc page-tool-description">Portable clean-text export</span>
     </span>
   </a>
+  {% else %}
+  <button class="page-tools__row page-tool-row is-disabled" type="button" disabled data-page-action="markdown">
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">⌘</span>
+    <span class="page-tools__label-stack">
+      <span class="page-tools__label page-tool-title">Markdown</span>
+      <span class="page-tools__desc page-tool-description">Portable clean-text export · pending</span>
+    </span>
+  </button>
   {% endif %}
   <button class="page-tools__row page-tool-row" type="button" data-page-action="share" data-share-url="{{ _page_url | escape }}" data-share-title="{{ _page_title | escape }}">
     <span class="page-tools__icon page-tool-icon" aria-hidden="true">↗</span>

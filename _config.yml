@@ -32,8 +32,8 @@ permalink: pretty
 
 # Buttondown newsletter integration
 buttondown:
-  username: "pantarhei"
-  form_action: "https://buttondown.com/api/emails/embed-subscribe/pantarhei"
+  username: "panta-rhei-research"
+  form_action: "https://buttondown.com/api/emails/embed-subscribe/panta-rhei-research"
   default_tag: "research-notes"
   heading: "Receive Publication Notifications"
   body: "Get new Panta Rhei publication releases by email. Notifications are sent irregularly and only when there is something substantial to say."
