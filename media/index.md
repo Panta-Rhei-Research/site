@@ -72,6 +72,35 @@ right_rail:
 
 The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality. It is published as an inspectable research observatory: Program for identity, Agenda for obligations, Corpus for construction, Results for consequences, Verify for inspection, Impact for conditional relevance, and Engage for open scrutiny.
 
+## At a glance
+
+A compact, manifest-driven snapshot of the public release. Numbers are sourced from the canonical release manifest (`_data/release/current.yml`) and update with every release.
+
+- **Status.** Independent research; not yet traditionally peer-reviewed. Open for structured scrutiny via [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}) and [Engage → Review the Work]({{ '/engage/review-the-work/' | relative_url }}).
+- **Current public site.** v4 research observatory, May 2026.
+- **Canonical monographs.** Seven-book Second Edition, April 2026.
+- **Corpus.** {% include release-metric.html id="registry.dashboard_display.grand_total" %} registry objects with dependency routes.
+- **TauLib.** {% include release-metric.html id="taulib.modules" %} Lean 4 modules, {% include release-metric.html id="taulib.sorry" %} `sorry`, {% include release-metric.html id="taulib.custom_axioms" %} custom axioms in Book III bridge territory.
+- **Results.** {% include release-metric.html id="results.records" %} key result pages across four domains.
+- **Predictions.** {% include release-metric.html id="predictions.records" %} quantitative prediction records and {% include release-metric.html id="falsifications.records" %} named falsification tests.
+- **Safe first angle.** Inspection architecture, not validation of the theory.
+
+## Which page should I use?
+
+A direct router for journalists, editors, podcast hosts, and public communicators. Each row points at the smallest page that answers the question.
+
+| Need | Go here |
+|---|---|
+| One-paragraph description and current status | [Media Kit]({{ '/media/' | relative_url }}) |
+| Safe headline and story frame | [Story Angles]({{ '/media/story-angles/' | relative_url }}) |
+| Peer-review status, funding, what not to write | [Journalist FAQ]({{ '/media/journalist-faq/' | relative_url }}) |
+| Expert quote prep and bounded questions | [Review Kit]({{ '/media/review-kit/' | relative_url }}) |
+| Verification and inspection routes | [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}) |
+| Structured review workflows | [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}) |
+| Copy-paste social posts | [Social Media Kit]({{ '/media/social-media-kit/' | relative_url }}) |
+| Citable release/artifact status | [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) |
+| PDFs and publication artifacts | [Publications]({{ '/publications/' | relative_url }}) |
+
 ## Suggested first story angle
 
 The safest first story is not whether the Panta Rhei framework is true.

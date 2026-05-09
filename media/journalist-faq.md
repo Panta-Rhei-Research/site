@@ -56,6 +56,8 @@ right_rail:
 
 ## How to use this page
 
+This page is a **journalist/editor view of the canonical FAQ collection**. FAQ entries live once in the Corpus metadata layer (`corpus/faqs/`) and are rendered here as a media-facing persona-filtered view. For the full FAQ across all five layers, see the canonical [Frequently Asked Questions]({{ '/faq/' | relative_url }}).
+
 This FAQ is written for **journalists, podcast hosts, editors, and public communicators** writing about the Panta Rhei Research Program. The questions and answers are short by design — each one is a paragraph or two with links into the canonical lanes for deeper context. If you cannot find an answer here, write to [press@panta-rhei.site](mailto:press@panta-rhei.site) and we will route the question.
 
 For specialist-level questions (formal-methods reviewers, domain experts), see the separate [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}), [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
