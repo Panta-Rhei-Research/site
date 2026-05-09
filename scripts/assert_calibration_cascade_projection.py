@@ -62,7 +62,7 @@ def main() -> int:
     assert_contains(route, "Follow the cascade", "source route")
     assert_contains(route, "Key constant cascades", "source route")
     assert_contains(route, "/results/calibration-cascade/constants/", "source route")
-    assert_contains(route, "Tau-effective means τ-effective", "source route")
+    assert_contains(route, "τ-effective</strong> means internal τ-derived or τ-effective construction/readout", "source route")
     assert_contains(route, "The page does not recompute CODATA 2022 values or change the existing numerical prediction artifact.", "source route")
     assert_contains(route, "<details", "source route")
     assert_contains(route, "<summary", "source route")
@@ -81,6 +81,7 @@ def main() -> int:
     assert_not_contains(route, "Numerical Physics Ledger Artifact", "source route")
     assert_not_contains(route, "old Physics Ledger ontology", "source route")
     assert_not_contains(route, "calibration-layer-grid", "source route")
+    assert_not_contains(route, "Tau-effective means", "source route")
     if re.search(r"(?<![A-Za-z0-9])a_0(?!\^\{Bohr\})", route):
         raise SystemExit("source route contains bare a_0")
 
@@ -99,8 +100,9 @@ def main() -> int:
     assert_contains(constants_index, "Calibration Cascade Constants", "constants index")
     assert_contains(constants_index, "These detail pages cover the launch set of core cascade readouts", "constants index")
     assert_contains(constants_index, "full Constants Ledger remains available", "constants index")
-    assert_contains(constants_index, "Tau-effective means τ-effective", "constants index")
+    assert_contains(constants_index, "τ-effective</strong> means internal τ-derived or τ-effective construction/readout", "constants index")
     assert_not_contains(constants_index, "Numerical Physics Ledger PDF artifact", "constants index")
+    assert_not_contains(constants_index, "Tau-effective means", "constants index")
     for slug in expected_constants:
         source_page = read(SITE_ROOT / "results" / "calibration-cascade" / "constants" / slug / "index.md")
         assert_contains(source_page, "layout: \"calibration-constant-page\"", f"constant page {slug}")
@@ -131,7 +133,7 @@ def main() -> int:
         assert_contains(built, "CODATA 2018", "built route")
         assert_contains(built, "SI readout / unit realization", "built route")
         assert_contains(built, "Bohr radius", "built route")
-        assert_contains(built, "Tau-effective means τ-effective", "built route")
+        assert_contains(built, "τ-effective</strong> means internal τ-derived or τ-effective construction/readout", "built route")
         assert_contains(built, "The page does not recompute CODATA 2022 values or change the existing numerical prediction artifact.", "built route")
         assert_not_contains(built, "force-directed", "built route")
         assert_not_contains(built, "draggable", "built route")
@@ -140,6 +142,7 @@ def main() -> int:
         assert_not_contains(built, "Numerical Physics Ledger Artifact", "built route")
         assert_not_contains(built, "old Physics Ledger ontology", "built route")
         assert_not_contains(built, "calibration-layer-grid", "built route")
+        assert_not_contains(built, "Tau-effective means", "built route")
         if re.search(r"(?<![A-Za-z0-9])a_0(?!\^\{Bohr\})", built):
             raise SystemExit("built route contains bare a_0")
         built_index = read(BUILD_ROOT / "results" / "calibration-cascade" / "constants" / "index.html")
@@ -150,8 +153,9 @@ def main() -> int:
             assert_contains(built_page, "Plain-text fallback", f"built constant page {slug}")
             assert_contains(built_page, "Dependency Diagram", f"built constant page {slug}")
             assert_contains(built_page, "<img", f"built constant page {slug}")
-            assert_contains(built_page, "Tau-effective means τ-effective", f"built constant page {slug}")
+            assert_contains(built_page, "τ-effective</strong> means internal τ-derived or τ-effective construction/readout", f"built constant page {slug}")
             assert_not_contains(built_page, "Numerical Physics Ledger PDF artifact", f"built constant page {slug}")
+            assert_not_contains(built_page, "Tau-effective means", f"built constant page {slug}")
 
     nav = read(SITE_ROOT / "_data" / "nav.yml")
     nav_section = nav[nav.find('title: "Falsifiable predictions"') :]
