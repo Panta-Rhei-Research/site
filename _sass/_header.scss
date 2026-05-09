@@ -2,6 +2,21 @@
 // Header — Sticky translucent, 56px, rounded
 // ================================================================
 
+// Spectral perimeter border tokens — Panta Rhei v4 visual system
+// Subtle 1px gradient around the entire rounded nav shell, replacing the
+// previous disconnected bottom-only Panta Blue rule. Kept extended/repeating
+// so the perimeter doesn't feel like a single left-to-right sweep.
+$tau-spectrum-rule:
+  linear-gradient(
+    90deg,
+    #5A7EB3 0%,
+    #1B8278 18%,
+    #9F5B5C 36%,
+    #896092 54%,
+    #5A7EB3 72%,
+    #1B8278 100%
+  );
+
 .site-header {
   position: sticky;
   top: 0;
@@ -14,23 +29,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @include glass;
-  border: var(--border-default);
+  backdrop-filter: blur($blur) saturate(120%);
+  -webkit-backdrop-filter: blur($blur) saturate(120%);
+  // Double-background border technique: inner solid surface + outer spectral
+  // gradient, so the 1px gradient stroke follows the rounded corners cleanly.
+  // Preserves the previous glass shell's soft shadow; the spectral perimeter
+  // replaces the previous bottom-only Panta Blue rule.
+  border: 1px solid transparent;
   border-radius: var(--radius-lg);
-  transition: background $transition, border-color $transition, box-shadow $transition;
-
-  &::after {
-    content: '';
-    position: absolute;
-    left: 22px;
-    right: 22px;
-    bottom: -1px;
-    height: 2px;
-    border-radius: var(--radius-pill);
-    background: var(--panta-blue-700);
-    opacity: 0.36;
-    pointer-events: none;
-  }
+  background:
+    linear-gradient(var(--surface-shell), var(--surface-shell)) padding-box,
+    #{$tau-spectrum-rule} border-box;
+  box-shadow: $panel-shadow;
+  transition: background $transition, box-shadow $transition;
 
   // Sync padding + side breathing with .page-grid at each breakpoint
   @media (max-width: $bp-collapse) {
@@ -61,68 +72,38 @@ body.shell-home .site-header {
 .header-brand {
   display: flex;
   align-items: center;
-  gap: 10px;
   text-decoration: none;
   color: $text;
+  flex-shrink: 0;
+  // Inset the lockup vertically so the SVG sits cleanly inside the 1px
+  // spectral perimeter without optical collision.
+  padding: 4px 0;
 
-  .brand-mark {
-    position: relative;
-    display: flex;
-    align-items: baseline;
-    flex-shrink: 0;
-    // Source Serif 4 first (matches canonical brand mark); Palatino/Iowan as fallback
-    font-family: 'Source Serif 4', 'Source Serif Pro', #{$font-display};
-    color: var(--color-brand-800);
-    line-height: 1;
-    letter-spacing: 0;
-    // Align top with brand-title, bottom with brand-sub
-    align-self: stretch;
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+    border-radius: $radius-sm;
+  }
+}
 
-    .glyph-pi {
-      font-size: 1.15em;
-      font-weight: 400;
-      font-style: normal; // upright — matches canonical
-      // Sits at the top — aligns with "Panta Rhei Research" ascender
-      align-self: flex-start;
-      line-height: 0.85;
-      margin-right: -3px; // interlock with ρ's left edge (matches canonical 51% offset)
-    }
+.header-brand-lockup {
+  display: block;
+  height: 46px;       // brief: 42–52px target band
+  width: auto;
+  max-width: min(260px, 50vw);
 
-    .glyph-rho {
-      font-size: 1.15em;
-      font-weight: 400;
-      font-style: italic; // italic serif with descender — matches canonical brand mark
-      // Sits at the bottom — aligns with "Independent..." descender
-      align-self: flex-end;
-      line-height: 0.85;
-    }
+  // Tablet: scale down a touch so the trailing controls + nav links
+  // still fit on one row above the mobile breakpoint.
+  @media (max-width: $bp-collapse) {
+    height: 40px;
+    max-width: min(220px, 48vw);
   }
 
-  .brand-stack {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    line-height: 1.15;
-  }
-
-  .brand-title {
-    font-family: $font-ui;
-    font-weight: 700;
-    font-size: 0.82rem;
-    letter-spacing: 0;
-    color: $text;
-  }
-
-  .brand-sub {
-    font-family: $font-ui;
-    font-size: 0.68rem;
-    font-weight: 380;
-    color: $text-muted;
-    letter-spacing: 0;
-
-    @media (max-width: $bp-stack) {
-      display: none;
-    }
+  // Mobile: keep the full lockup but shrink further. The nav drawer
+  // takes the trailing slot so we have horizontal headroom.
+  @media (max-width: $bp-stack) {
+    height: 36px;
+    max-width: min(200px, 56vw);
   }
 }
 
