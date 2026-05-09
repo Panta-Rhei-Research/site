@@ -53,7 +53,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N6"
     title: "N6 — Sum of neutrino masses mν = 0.089 eV"
-    url: "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
+    url: "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -124,7 +124,7 @@ CF-motivated asymmetry in sigma-polarity exponents: Delta_pq = 14/13 and Delta_p
 - [S₈ Tension Framework Account: S₈ = 0.783 from f_supp × f_growth × f_ν](/results/problem/s8-tension-resolved-0pt783/)
 - [Core-Collapse Supernovae: Channel Reversal at Nuclear Density](/results/problem/supernovae-mechanism/)
 - [Sum of Neutrino Masses](/predictions/m-ev/)
-- [N6 — Sum of neutrino masses mν = 0.089 eV](/falsifications/n6-sum-of-neutrino-masses-m-0089/)
+- [N6 — Sum of neutrino masses mν = 0.089 eV](/results/falsifications/n6-sum-of-neutrino-masses-m-0089/)
 - [Neutrino Mass Sum Σm_ν = 0.089 eV, Normal Ordering Derived](/results/problem/neutrino-mass-sum-0pt089-ev-normal-ordering/)
 - [Neutrino NNLO Mass Ratios](/predictions/nnlo-ratio/)
 - [Neutrino Mass Hierarchy](/predictions/hierarchy/)

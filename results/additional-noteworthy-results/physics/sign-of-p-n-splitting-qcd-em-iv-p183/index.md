@@ -76,7 +76,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N4"
     title: "N4 — Neutron EDM is exactly zero"
-    url: "/falsifications/n4-neutron-edm-is-exactly-zero/"
+    url: "/results/falsifications/n4-neutron-edm-is-exactly-zero/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "high"
     matched_terms:
@@ -131,7 +131,7 @@ Neutron is heavier than proton because QCD contribution (~1.41 MeV) exceeds EM c
 - [Proton Spin Puzzle](/results/problem/proton-spin-puzzle/)
 - [Proton–Neutron Mass Splitting](/predictions/a-m/)
 - [Neutron Electric Dipole Moment](/predictions/n-edm/)
-- [N4 — Neutron EDM is exactly zero](/falsifications/n4-neutron-edm-is-exactly-zero/)
+- [N4 — Neutron EDM is exactly zero](/results/falsifications/n4-neutron-edm-is-exactly-zero/)
 - [Proton-Neutron Mass Difference at +33 ppm](/results/problem/proton-neutron-mass-difference/)
 - quantum-chromodynamics
 

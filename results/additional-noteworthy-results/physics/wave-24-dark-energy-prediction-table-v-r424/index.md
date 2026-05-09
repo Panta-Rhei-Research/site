@@ -96,7 +96,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N20"
     title: "N20 — Dark energy density ΩΛ = 0.6849"
-    url: "/falsifications/n20-dark-energy-density-06849/"
+    url: "/results/falsifications/n20-dark-energy-density-06849/"
     match_basis: "facet_title_summary"
     match_confidence: "medium"
     matched_terms:
@@ -134,7 +134,7 @@ Master dark energy & structure falsification table: 9 observables (Ω_Λ, w₀, 
 - [Galaxy Rotation Curves without Dark Matter](/results/problem/galaxy-rotation-curves-without-dark-matter/)
 - [Dark Energy Density Ω_Λ](/predictions/pred-46/)
 - [Dark Energy Equation of State w₀](/predictions/w/)
-- [N20 — Dark energy density ΩΛ = 0.6849](/falsifications/n20-dark-energy-density-06849/)
+- [N20 — Dark energy density ΩΛ = 0.6849](/results/falsifications/n20-dark-energy-density-06849/)
 
 ## Reading role
 

@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N16 — Deuterium abundance from $$-native $_B$"
-permalink: "/falsifications/n16-deuterium-abundance-from-native-b/"
+permalink: "/results/falsifications/n16-deuterium-abundance-from-native-b/"
 lane: "results"
 falsification_id: "N16"
 n_num: 16

@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N25"
     title: "N25 — EHT shadow correction $+2.91%$"
-    url: "/falsifications/n25-eht-shadow-correction-291/"
+    url: "/results/falsifications/n25-eht-shadow-correction-291/"
     match_basis: "facet_title_summary"
     match_confidence: "high"
     matched_terms:
@@ -76,7 +76,7 @@ The T² quadrupole correction f=1+ι_τ²/4=1.02912 enlarges the BH shadow by 2.
 ## Related Results surfaces
 
 - [EHT Shadow Correction](/predictions/eht-shadow/)
-- [N25 — EHT shadow correction $+2.91%$](/falsifications/n25-eht-shadow-correction-291/)
+- [N25 — EHT shadow correction $+2.91%$](/results/falsifications/n25-eht-shadow-correction-291/)
 - [QNM Frequency Ratio = ι_τ⁻¹ ≈ 2.930 as Clean S²/T² Discriminator](/registry/object/V.T185/)
 
 ## Reading role

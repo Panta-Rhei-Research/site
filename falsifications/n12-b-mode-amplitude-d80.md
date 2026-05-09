@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N12 — B-mode amplitude D80"
-permalink: "/falsifications/n12-b-mode-amplitude-d80/"
+permalink: "/results/falsifications/n12-b-mode-amplitude-d80/"
 lane: "results"
 falsification_id: "N12"
 n_num: 12

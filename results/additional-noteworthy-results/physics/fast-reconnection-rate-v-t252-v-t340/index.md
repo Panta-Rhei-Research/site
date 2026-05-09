@@ -34,7 +34,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N30"
     title: "N30 — Fast reconnection rate v_rec"
-    url: "/falsifications/n30-fast-reconnection-rate-v-rec/"
+    url: "/results/falsifications/n30-fast-reconnection-rate-v-rec/"
     match_basis: "facet_title_summary"
     match_confidence: "medium"
     matched_terms: []
@@ -64,7 +64,7 @@ Ledger restatement: fast reconnection v_rec=iota_tau^2*v_A (V.T252)
 ## Related Results surfaces
 
 - [Fast Magnetic Reconnection Rate](/predictions/v-c/)
-- [N30 — Fast reconnection rate v_rec](/falsifications/n30-fast-reconnection-rate-v-rec/)
+- [N30 — Fast reconnection rate v_rec](/results/falsifications/n30-fast-reconnection-rate-v-rec/)
 
 ## Reading role
 

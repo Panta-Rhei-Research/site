@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N24 — QNM frequency ratio ιτ⁻¹"
-permalink: "/falsifications/n24-qnm-frequency-ratio-1/"
+permalink: "/results/falsifications/n24-qnm-frequency-ratio-1/"
 lane: "results"
 falsification_id: "N24"
 n_num: 24
