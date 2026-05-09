@@ -21,6 +21,42 @@ PRIMARY_LANES = [
 ]
 
 
+# Coverage floors per lane (added 2026-05-04 sitemap L1/L2 sync wave).
+# Each lane card must surface at least this many mini-card links — guards against
+# regressions that strip canonical L2 hubs from the sitemap.
+LANE_COVERAGE_FLOOR = {
+    "discover": 11,
+    "program": 11,
+    "agenda": 18,
+    "corpus": 24,
+    "results": 34,
+    "verify": 27,
+    "impact": 20,
+    "engage": 14,
+}
+
+# Total link count floor across all primary lanes + support card.
+TOTAL_LINK_FLOOR = 180
+
+# Pages that MUST be discoverable from /sitemap/ — these are the canonical L1/L2
+# anchors the broader IA depends on, and their absence is treated as a release blocker.
+REQUIRED_KEY_PAGES = [
+    "/results/challenge-responses/",
+    "/agenda/structural-challenge-ledger/",
+    "/agenda/structural-challenge-ledger/mathematics/",
+    "/agenda/structural-challenge-ledger/physics/",
+    "/agenda/structural-challenge-ledger/life/",
+    "/agenda/structural-challenge-ledger/metaphysics/",
+    "/corpus/bi-square/",
+    "/corpus/taulib/",
+    "/corpus/foundational-hinges/",
+    "/results/world-readout/",
+    "/verify/predictions-and-falsification/",
+    "/verify/domain-verification/",
+    "/impact/global-public-good/",
+]
+
+
 def fail(message: str) -> None:
     print(f"FAIL: {message}", file=sys.stderr)
     raise SystemExit(1)
@@ -110,8 +146,16 @@ def main() -> None:
             fail(f"{lane} card has no root CTA")
         if 'class="sitemap-link-grid"' not in card_html:
             fail(f"{lane} card does not use the mini-card link grid")
-        if len(re.findall(r'class="sitemap-mini-card"', card_html)) < 4:
+        mini_card_count = len(re.findall(r'class="sitemap-mini-card"', card_html))
+        if mini_card_count < 4:
             fail(f"{lane} card does not expose useful second-level links")
+        floor = LANE_COVERAGE_FLOOR.get(lane, 0)
+        if mini_card_count < floor:
+            fail(
+                f"{lane} card has {mini_card_count} mini-card links but coverage "
+                f"floor is {floor} (sync wave 2026-05-04). Restore canonical L2/L3 "
+                f"entries in _data/sitemap_v4.yml."
+            )
         if re.search(r'<li class="sitemap-mini-card">\s*<a href="[^"]+">\s*<span>[^<]+</span>\s*</a>\s*</li>', card_html) is None:
             fail(f"{lane} card mini-card links must render as li > a > span")
 
@@ -140,7 +184,26 @@ def main() -> None:
     if missing:
         fail("sitemap links do not resolve in built site: " + ", ".join(missing[:20]))
 
-    print("v4 sitemap assertions passed")
+    # Total mini-card link count across primary lanes + support card
+    total_mini_cards = len(re.findall(r'class="sitemap-mini-card"', html))
+    if total_mini_cards < TOTAL_LINK_FLOOR:
+        fail(
+            f"sitemap has {total_mini_cards} mini-card links but the L1/L2 sync "
+            f"floor is {TOTAL_LINK_FLOOR} (set 2026-05-04). Sitemap may be missing "
+            f"canonical hubs — see _data/sitemap_v4.yml."
+        )
+
+    # Required-key-pages must each appear as a sitemap href
+    href_set = {h.rstrip("/") + "/" if h.startswith("/") and not h.endswith("/") else h for h in hrefs}
+    href_set |= set(hrefs)
+    missing_keys = [p for p in REQUIRED_KEY_PAGES if p not in hrefs]
+    if missing_keys:
+        fail(
+            "required L1/L2 anchor pages are not surfaced on the sitemap: "
+            + ", ".join(missing_keys)
+        )
+
+    print(f"v4 sitemap assertions passed ({total_mini_cards} mini-card links across {len(PRIMARY_LANES)} primary lanes + support)")
 
 
 if __name__ == "__main__":
