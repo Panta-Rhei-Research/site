@@ -126,55 +126,48 @@
   }
 }
 
+// ---------------------------------------------------------------
+// Mini-card tiles — "Card Catalog" aesthetic
+// Per v4 design system 01-foundations & 02-components:
+//  - radius ≤ 8px (--radius-sm)
+//  - flat paper field (no decorative gradients competing with reading)
+//  - 1px border, single-pixel
+//  - shadows used sparingly (no hover lift / scale)
+//  - card anatomy: title + URL slug as type marker (typed directory entry)
+// Inspiration: card catalog slip / scientific atlas plate margin.
+// ---------------------------------------------------------------
 .sitemap-mini-card {
   min-width: 0;
 }
 
 .sitemap-mini-card a {
+  position: relative;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   justify-content: flex-start;
+  gap: 0.4rem;
   width: 100%;
-  min-height: 5.75rem;
+  min-height: 5.5rem;
   max-width: 100%;
-  aspect-ratio: 1.12 / 1;
-  padding: 0.85rem 0.9rem;
+  padding: 0.7rem 0.85rem 0.7rem 0.95rem;
   color: var(--color-ink-700);
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.62),
-      rgba(250, 250, 247, 0.82)
-    );
-  border: var(--border-subtle);
-  border-radius: $radius-lg;
-  font-family: $font-ui;
-  font-size: 0.9rem;
-  font-weight: 560;
-  line-height: 1.22;
+  background: var(--paper-50, #FAFAF7);
+  border: 1px solid var(--color-line-200, #DDE2D8);
+  border-left: 2px solid var(--color-line-300, #CAD2C4);
+  border-radius: $radius-sm;
   text-decoration: none;
-  white-space: normal;
-  overflow-wrap: anywhere;
-  hyphens: auto;
   transition:
-    background-color 140ms ease,
-    border-color 140ms ease,
-    box-shadow 140ms ease,
-    color 140ms ease,
-    transform 140ms ease;
+    background-color 120ms ease,
+    border-color 120ms ease,
+    color 120ms ease;
 
   &:hover,
   &:focus-visible {
-    color: var(--lane-current);
-    background:
-      linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.9),
-        rgba(255, 255, 255, 0.72)
-      );
-    border-color: var(--lane-current);
-    box-shadow: 0 8px 18px rgba(21, 23, 28, 0.07);
-    transform: translateY(-1px);
+    background: var(--paper-0, #FFFFFF);
+    border-color: var(--color-line-300, #CAD2C4);
+    border-left-color: var(--lane-current);
+    color: var(--color-ink-900, #15171C);
     outline: none;
   }
 
@@ -182,29 +175,77 @@
     box-shadow: var(--focus-ring);
   }
 
-  span {
-    display: block;
-    max-width: 100%;
-    text-wrap: balance;
+}
+
+.sitemap-mini-card-title {
+  display: block;
+  max-width: 100%;
+  color: inherit;
+  font-family: $font-ui;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.32;
+  letter-spacing: 0;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.sitemap-mini-card-slug {
+  display: block;
+  max-width: 100%;
+  margin-top: auto;
+  color: $text-muted;
+  font-family: $font-mono;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+
+  // Subtle leading glyph that gives the slug a "call-number" feel
+  &::before {
+    content: "↳ ";
+    margin-right: 0.18rem;
+    color: var(--color-line-300, #CAD2C4);
+  }
+}
+
+.sitemap-mini-card a:hover .sitemap-mini-card-slug,
+.sitemap-mini-card a:focus-visible .sitemap-mini-card-slug {
+  color: var(--lane-current);
+
+  &::before {
+    color: var(--lane-current);
   }
 }
 
 .sitemap-card-support .sitemap-mini-card a {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.54),
-      rgba(246, 247, 243, 0.78)
-    );
+  background: var(--paper-100, #F6F7F3);
+  border-left-color: var(--color-line-200, #DDE2D8);
 
   &:hover,
   &:focus-visible {
-    background:
-      linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.86),
-        rgba(250, 250, 247, 0.74)
-      );
+    background: var(--paper-0, #FFFFFF);
+    border-left-color: var(--lane-support);
+  }
+}
+
+.sitemap-card-support .sitemap-mini-card a:hover .sitemap-mini-card-slug,
+.sitemap-card-support .sitemap-mini-card a:focus-visible .sitemap-mini-card-slug {
+  color: var(--lane-support);
+
+  &::before {
+    color: var(--lane-support);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sitemap-mini-card a {
+    transition: none;
   }
 }
 
@@ -242,5 +283,296 @@
   p {
     margin-bottom: 0;
     color: $text-muted;
+  }
+}
+
+// ================================================================
+// Sitemap v4 — UX uplift: totals, search, jump-nav, counts
+// ================================================================
+
+.sitemap-totals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.sitemap-totals-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.25rem 0.7rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: var(--border-subtle);
+  border-radius: $radius-pill;
+  font-family: $font-ui;
+  font-size: 0.78rem;
+  color: var(--color-ink-700);
+  letter-spacing: 0.01em;
+
+  strong {
+    font-weight: 700;
+    color: var(--lane-current);
+  }
+}
+
+.sitemap-search {
+  @include plate-surface;
+  position: sticky;
+  top: 64px;
+  z-index: 20;
+  margin-top: 22px;
+  padding: 14px 16px 12px;
+  border-left: 3px solid var(--lane-current);
+
+  @media (max-width: $bp-collapse) {
+    position: static;
+  }
+}
+
+.sitemap-search-label {
+  display: block;
+  margin: 0 0 8px;
+  color: var(--lane-current);
+  font-family: $font-ui;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sitemap-search-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sitemap-search-input {
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 0.7rem 2.4rem 0.7rem 0.95rem;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(21, 23, 28, 0.18);
+  border-radius: $radius-md;
+  font-family: $font-ui;
+  font-size: 1rem;
+  color: var(--color-ink-700);
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+
+  &::placeholder {
+    color: $text-muted;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--lane-current);
+    box-shadow: var(--focus-ring);
+  }
+}
+
+.sitemap-search-clear {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  color: $text-muted;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 140ms ease, color 140ms ease;
+
+  &:hover,
+  &:focus-visible {
+    background: rgba(21, 23, 28, 0.06);
+    color: var(--lane-current);
+    outline: none;
+  }
+
+  &:focus-visible {
+    box-shadow: var(--focus-ring);
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.sitemap-search-hint {
+  margin: 8px 0 0;
+  color: $text-muted;
+  font-size: 0.78rem;
+  line-height: 1.5;
+
+  kbd {
+    display: inline-block;
+    padding: 0.05rem 0.35rem;
+    background: rgba(21, 23, 28, 0.06);
+    border: 1px solid rgba(21, 23, 28, 0.12);
+    border-radius: 4px;
+    font-family: $font-mono;
+    font-size: 0.72rem;
+    color: var(--color-ink-700);
+  }
+
+  code {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    color: var(--color-ink-700);
+  }
+}
+
+.sitemap-search-status {
+  margin: 6px 0 0;
+  min-height: 1.2em;
+  color: $text-muted;
+  font-size: 0.82rem;
+
+  strong {
+    color: var(--lane-current);
+    font-weight: 700;
+  }
+
+  &:empty::before {
+    content: attr(data-default-text);
+  }
+}
+
+.sitemap-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 14px 0 8px;
+  padding: 0;
+
+  @media (max-width: $bp-collapse) {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.sitemap-jump-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.32rem 0.8rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: var(--border-subtle);
+  border-radius: $radius-pill;
+  color: var(--color-ink-700);
+  font-family: $font-ui;
+  font-size: 0.82rem;
+  font-weight: 560;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease;
+
+  &:hover,
+  &:focus-visible {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: var(--lane-current);
+    color: var(--lane-current);
+    outline: none;
+  }
+
+  &:focus-visible {
+    box-shadow: var(--focus-ring);
+  }
+
+  &.is-active {
+    background: var(--lane-current);
+    border-color: var(--lane-current);
+    color: #fff;
+  }
+}
+
+.sitemap-jump-pill-support {
+  &.is-active {
+    background: var(--lane-support);
+    border-color: var(--lane-support);
+  }
+}
+
+.sitemap-card-count {
+  margin: 0 0 8px;
+  color: $text-muted;
+  font-family: $font-ui;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+
+  span {
+    font-weight: 700;
+    color: var(--lane-current);
+  }
+}
+
+.sitemap-card-support .sitemap-card-count span {
+  color: var(--lane-support);
+}
+
+.sitemap-empty {
+  @include plate-surface;
+  margin-top: 18px;
+  padding: 20px 18px;
+  color: $text-muted;
+  font-size: 0.95rem;
+  text-align: center;
+  border-left: 3px solid var(--lane-current);
+}
+
+.sitemap-empty-suggestion {
+  display: inline;
+  padding: 0.05rem 0.45rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: var(--border-subtle);
+  border-radius: $radius-pill;
+  color: var(--lane-current);
+  font-family: $font-ui;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 140ms ease, border-color 140ms ease;
+
+  &:hover,
+  &:focus-visible {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: var(--lane-current);
+    outline: none;
+  }
+
+  &:focus-visible {
+    box-shadow: var(--focus-ring);
+  }
+}
+
+// Hide cards/links via search filter (driven by JS)
+.sitemap-mini-card[hidden],
+.sitemap-card[hidden] {
+  display: none !important;
+}
+
+// Highlight active jump-nav target subtly (fired via IntersectionObserver)
+.sitemap-card.is-search-match {
+  outline: 2px solid transparent;
+  transition: outline-color 200ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sitemap-jump-pill,
+  .sitemap-search-input,
+  .sitemap-search-clear,
+  .sitemap-empty-suggestion {
+    transition: none;
   }
 }

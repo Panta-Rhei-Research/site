@@ -89,3 +89,11 @@ layout: default
   </div>
 </div>
 {% endif %}
+
+{%- comment -%}
+  Sitemap UX uplift — load instant-search + jump-nav scroll-spy script only on
+  the /sitemap/ page (gated by page.support_type to avoid global JS bundle).
+{%- endcomment -%}
+{% if page.support_type == "sitemap" %}
+<script src="{{ '/assets/js/sitemap-search.js' | relative_url }}" defer></script>
+{% endif %}
