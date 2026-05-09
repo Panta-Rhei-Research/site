@@ -66,9 +66,15 @@ def assert_standard_page(html: str, route: str) -> None:
     if tools < 0 or toc < 0 or tools > toc:
         fail(f"Page drawer sections missing or out of order on {route}")
 
+    # Per atlas/website/briefings/v4/27_v4_share_component_desktop.md §9, the
+    # page-tools include no longer renders disabled `pending` placeholder rows
+    # for Dossier PDF / Markdown when the page lacks the corresponding
+    # frontmatter (page.dossier_pdf_path | page.pdf | page.pdf_url | … and the
+    # markdown_export_path equivalents). These rows are now strictly
+    # conditional, so the gate cannot require them on every spot-checked
+    # route — most lane roots intentionally omit those exports. The four
+    # always-on actions remain required.
     for action in [
-        "dossier-pdf",
-        "markdown",
         "share",
         "copy-link",
         "reviewer-note",
