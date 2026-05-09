@@ -56,8 +56,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Fine-Structure Constant α cascade"
   description: "Directed dependency cascade for α from the Calibration Cascade metadata."
-  text_equivalent: "ι_τ -> coupling ledger -> α"
-diagram_mmd_source: ""
+  text_equivalent: "π and e converge into ι_τ; ι_τ feeds α; α feeds the CODATA 2018 comparison and Numerical Prediction Catalogue."
+diagram:
+  source_mmd: "data/calibration/diagrams/alpha.mmd"
+  rendered_svg: "alpha.svg"
+  alt_text: "π and e converge into ι_τ; ι_τ feeds α; α feeds the CODATA 2018 comparison and Numerical Prediction Catalogue."
+  accessible_title: "Fine-Structure Constant α cascade"
+  accessible_description: "Directed dependency cascade for α from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  pi[\"π\"] --> iota[\"ι_τ = 2/(π+e)\"]\n  e[\"e\"] --> iota\n  iota --> alpha[\"α = (11/15)^2 ι_τ^4\"]\n  alpha --> compare[\"CODATA 2018 comparison\"]\n  alpha --> pred[\"Numerical Prediction Catalogue\"]\n"
 right_rail:
   related:
     -

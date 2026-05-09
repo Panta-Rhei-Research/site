@@ -55,8 +55,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Compton Wavelength λ_C cascade"
   description: "Directed dependency cascade for λ_C from the Calibration Cascade metadata."
-  text_equivalent: "m_e -> ℏ -> c -> λ_C"
-diagram_mmd_source: ""
+  text_equivalent: "ℏ, m_e, and c converge into λ_C; λ_C feeds the CODATA 2018 comparison."
+diagram:
+  source_mmd: "data/calibration/diagrams/compton-wavelength.mmd"
+  rendered_svg: "compton-wavelength.svg"
+  alt_text: "ℏ, m_e, and c converge into λ_C; λ_C feeds the CODATA 2018 comparison."
+  accessible_title: "Compton Wavelength λ_C cascade"
+  accessible_description: "Directed dependency cascade for λ_C from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  me[\"m_e\"] --> compton[\"λ_C = ℏ/(m_e c)\"]\n  hbar[\"ℏ\"] --> compton\n  c[\"c\"] --> compton\n  compton --> compare[\"CODATA 2018 comparison\"]\n"
 right_rail:
   related:
     -

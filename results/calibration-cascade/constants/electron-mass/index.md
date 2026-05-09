@@ -57,8 +57,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Electron Mass m_e cascade"
   description: "Directed dependency cascade for m_e from the Calibration Cascade metadata."
-  text_equivalent: "m_n -> R1 -> m_e"
-diagram_mmd_source: ""
+  text_equivalent: "ι_τ and α feed R1; R1 and the neutron-mass anchor converge into m_e; m_e feeds the CODATA 2018 comparison."
+diagram:
+  source_mmd: "data/calibration/diagrams/electron-mass.mmd"
+  rendered_svg: "electron-mass.svg"
+  alt_text: "ι_τ and α feed R1; R1 and the neutron-mass anchor converge into m_e; m_e feeds the CODATA 2018 comparison."
+  accessible_title: "Electron Mass m_e cascade"
+  accessible_description: "Directed dependency cascade for m_e from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  iota[\"ι_τ\"] --> R1[\"R1 mass ratio\"]\n  alpha[\"α\"] --> R1\n  mn[\"m_n anchor\"] --> me[\"m_e = m_n/R1\"]\n  R1 --> me\n  me --> compare[\"CODATA 2018 comparison\"]\n"
 right_rail:
   related:
     -

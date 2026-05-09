@@ -127,7 +127,7 @@ The cascade says: once the kernel is materialized, the framework consumes exactl
 - **L3** — SI readout / unit realization quantities (m<sub>e</sub>, G, m<sub>P</sub>, ℏ, k<sub>B</sub>, ε<sub>0</sub>) produced under explicit anchor and unit-context assumptions.
 - **L4** — verification and falsification: comparison rows, source mappings, Registry/TauLib evidence, and a {% include release-metric.html id="falsifications.records" %}-item falsification pack.
 
-The public overlay deliberately separates the prediction catalogue, constants-ledger table, source vintage, and unit-context review status. The Numerical Physics Ledger remains the long-form publication artifact.
+The public overlay deliberately separates the prediction catalogue, constants-ledger table, source vintage, and unit-context review status. The numerical prediction supplement remains the long-form publication artifact.
 
 For the Results lane, this matters for a specific epistemic reason. The formal-system stance establishes that the kernel *exists*. The cascade stance establishes that the kernel *commits*. Every numerical claim in the lane inherits its sharpness from exactly one tiny input surface — two numbers — and a reader who wants to challenge the framework can focus all scrutiny there. The result catalogue is not an assemblage of independent guesses; it is one compiled object with a two-number input.
 

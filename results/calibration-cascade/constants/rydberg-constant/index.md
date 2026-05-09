@@ -57,8 +57,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Rydberg Constant R_∞ cascade"
   description: "Directed dependency cascade for R_∞ from the Calibration Cascade metadata."
-  text_equivalent: "α -> m_e -> ℏ -> c -> R_∞"
-diagram_mmd_source: ""
+  text_equivalent: "α, m_e, c, and ℏ converge into R_∞; R_∞ feeds the CODATA 2018 comparison."
+diagram:
+  source_mmd: "data/calibration/diagrams/rydberg-constant.mmd"
+  rendered_svg: "rydberg-constant.svg"
+  alt_text: "α, m_e, c, and ℏ converge into R_∞; R_∞ feeds the CODATA 2018 comparison."
+  accessible_title: "Rydberg Constant R_∞ cascade"
+  accessible_description: "Directed dependency cascade for R_∞ from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  alpha[\"α\"] --> rydberg[\"R_∞ = α² m_e c/(2ℏ)\"]\n  me[\"m_e\"] --> rydberg\n  c[\"c\"] --> rydberg\n  hbar[\"ℏ\"] --> rydberg\n  rydberg --> compare[\"CODATA 2018 comparison\"]\n"
 right_rail:
   related:
     -

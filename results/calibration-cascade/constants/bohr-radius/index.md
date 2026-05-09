@@ -57,8 +57,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Bohr Radius a_B cascade"
   description: "Directed dependency cascade for a_B from the Calibration Cascade metadata."
-  text_equivalent: "α -> m_e -> ℏ -> c -> a_B"
-diagram_mmd_source: ""
+  text_equivalent: "ℏ, α, m_e, and c converge into a_B; a_B feeds the CODATA 2018 comparison."
+diagram:
+  source_mmd: "data/calibration/diagrams/bohr-radius.mmd"
+  rendered_svg: "bohr-radius.svg"
+  alt_text: "ℏ, α, m_e, and c converge into a_B; a_B feeds the CODATA 2018 comparison."
+  accessible_title: "Bohr Radius a_B cascade"
+  accessible_description: "Directed dependency cascade for a_B from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  alpha[\"α\"] --> bohr[\"a_B = ℏ/(α m_e c)\"]\n  me[\"m_e\"] --> bohr\n  hbar[\"ℏ\"] --> bohr\n  c[\"c\"] --> bohr\n  bohr --> compare[\"CODATA 2018 comparison\"]\n"
 right_rail:
   related:
     -

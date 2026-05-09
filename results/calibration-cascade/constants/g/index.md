@@ -60,8 +60,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Newton Constant G cascade"
   description: "Directed dependency cascade for G from the Calibration Cascade metadata."
-  text_equivalent: "α_G -> m_n -> ℏ -> c -> G"
-diagram_mmd_source: ""
+  text_equivalent: "α feeds α_G; α_G, the neutron-mass anchor, ℏ, and c converge into G; G feeds the CODATA 2018 comparison."
+diagram:
+  source_mmd: "data/calibration/diagrams/g.mmd"
+  rendered_svg: "g.svg"
+  alt_text: "α feeds α_G; α_G, the neutron-mass anchor, ℏ, and c converge into G; G feeds the CODATA 2018 comparison."
+  accessible_title: "Newton Constant G cascade"
+  accessible_description: "Directed dependency cascade for G from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  iota[\"ι_τ\"] --> alpha[\"α\"]\n  alpha --> alphaG[\"α_G\"]\n  alphaG --> G[\"G = (ℏ c / m_n²) α_G\"]\n  mn[\"m_n anchor\"] --> G\n  hbar[\"ℏ\"] --> G\n  c[\"c\"] --> G\n  G --> compare[\"CODATA 2018 comparison\"]\n"
 right_rail:
   related:
     -

@@ -1,8 +1,9 @@
-flowchart TD
+flowchart LR
   iota["ι_τ"] --> epstein["Epstein zeta route: ι_τ^-7"]
   iota --> capacity["Lemniscate capacity: √3 ι_τ^-2"]
   alpha["α"] --> holonomy["Holonomy correction: π^3 α²"]
+  capacity --> bracket["√3 + π³α²"]
+  holonomy --> bracket
   epstein --> R1["R1"]
-  capacity --> R1
-  holonomy --> R1
+  bracket --> R1
   R1 --> me["m_e = m_n/R1"]

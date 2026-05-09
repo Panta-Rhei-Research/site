@@ -3,6 +3,11 @@
   "projection_version": "v0.1",
   "canonical_source": "corpus/data/calibration",
   "do_not_edit": true,
+  "display_policy": {
+    "overview_mode": "compact_schematic",
+    "show_dense_layer_overview": false,
+    "constant_page_launch_set": 9
+  },
   "display_views": [
     {
       "id": "cascade-static-graph",

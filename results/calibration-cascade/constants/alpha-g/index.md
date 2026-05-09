@@ -56,8 +56,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Gravitational Coupling α_G cascade"
   description: "Directed dependency cascade for α_G from the Calibration Cascade metadata."
-  text_equivalent: "α -> α_G"
-diagram_mmd_source: ""
+  text_equivalent: "α feeds α_G through the source bridge formula; α_G is kept as a dimensionless bridge before any SI G readout."
+diagram:
+  source_mmd: "data/calibration/diagrams/alpha-g.mmd"
+  rendered_svg: "alpha-g.svg"
+  alt_text: "α feeds α_G through the source bridge formula; α_G is kept as a dimensionless bridge before any SI G readout."
+  accessible_title: "Gravitational Coupling α_G cascade"
+  accessible_description: "Directed dependency cascade for α_G from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  alpha --> alphaG[\"α_G = α^18√3(1-(3/π)α)\"]\n  sqrt3[\"√3\"] --> alphaG\n  correction[\"1-(3/π)α\"] --> alphaG\n  alphaG --> G[\"G SI readout\"]\n  alphaG --> boundary[\"Dimensionless bridge\"]\n"
 right_rail:
   related:
     -

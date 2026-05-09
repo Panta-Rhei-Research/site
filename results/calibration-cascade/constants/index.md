@@ -16,7 +16,9 @@ constant_page_count: 9
 
 > Generated index for the nine seeded Calibration Cascade constant/readout pages.
 
-These pages expose public inspection routes for the current seeded constants only. They do not recompute CODATA 2022 values or change the existing numerical prediction artifact.
+These detail pages cover the launch set of core cascade readouts. The full Constants Ledger remains available on the Calibration Cascade overview page. Additional constant pages may be added as their registry/TauLib/source mappings are normalized.
+
+These pages do not recompute CODATA 2022 values or change the existing numerical prediction artifact.
 
 <div class="notice note">
   <strong>Scope label.</strong> Tau-effective means τ-effective. Metadata keeps the stable value <code>tau_effective</code>; public pages render the visible label as <strong>τ-effective</strong>.

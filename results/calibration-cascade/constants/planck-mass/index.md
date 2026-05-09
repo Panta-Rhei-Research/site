@@ -57,8 +57,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Planck Mass m_P cascade"
   description: "Directed dependency cascade for m_P from the Calibration Cascade metadata."
-  text_equivalent: "G -> ℏ -> c -> m_P"
-diagram_mmd_source: ""
+  text_equivalent: "G, ℏ, and c converge into m_P; m_P feeds the CODATA 2018 comparison."
+diagram:
+  source_mmd: "data/calibration/diagrams/planck-mass.mmd"
+  rendered_svg: "planck-mass.svg"
+  alt_text: "G, ℏ, and c converge into m_P; m_P feeds the CODATA 2018 comparison."
+  accessible_title: "Planck Mass m_P cascade"
+  accessible_description: "Directed dependency cascade for m_P from the Calibration Cascade metadata."
+  orientation: "TD"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart TD\n  alpha[\"α\"] --> alphaG[\"α_G\"]\n  alphaG --> G[\"G readout\"]\n  hbar[\"ℏ\"] --> mp[\"m_P = sqrt(ℏc/G)\"]\n  c[\"c\"] --> mp\n  G --> mp\n  mp --> compare[\"CODATA 2018 comparison\"]\n"
 right_rail:
   related:
     -

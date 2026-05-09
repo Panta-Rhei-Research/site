@@ -46,7 +46,7 @@ Domain verification is downstream of Core Semantics: before a domain claim can b
   <li>
     <a class="v2-tile" href="{{ '/verify/domain-verification/physics/' | relative_url }}">
       <strong>Physics</strong>
-      <span>Structural derivation, measurement bridges, prediction timing, falsification, and numerical ledger accountability.</span>
+      <span>Structural derivation, measurement bridges, prediction timing, falsification, and numerical prediction accountability.</span>
     </a>
   </li>
   <li>
