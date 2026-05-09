@@ -35,6 +35,7 @@
   {%- when 'bibliography-browse' -%}{%- assign og_type = 'website' -%}
   {%- else -%}{%- assign og_type = 'article' -%}
 {%- endcase -%}
+{%- if page.og_type -%}{%- assign og_type = page.og_type -%}{%- endif -%}
 
 {%- comment -%} Computed title: "Page Title — Site Title" except on homepage.
   Bibliography entries set page.title_plain for a Unicode-only variant safe
@@ -53,15 +54,13 @@
 {%- assign robots_directive = page.robots | default: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' -%}
 {%- comment -%}
   OG image resolution chain:
-    1. page.og_image (explicit override — Tier 2 hand-crafted artwork)
-    2. /assets/og-image.png (site-wide fallback)
-    3. /assets/og-cards/<slug>.png (explicit social-preview build only)
-    4. /assets/og-cards/<slug>.svg (explicit social-preview build only)
+    1. _data/og/generated_cards.yml (production OG/Twitter card pipeline)
+    2. page.og_image (explicit/scientific-plate override)
+    3. /assets/og-image.png (site-wide fallback)
 
-  The page-slug derivation must mirror PantaRhei::OgCardGenerator.slug_for:
+  The page-slug derivation must mirror scripts/generate_og_images.py:
   drop the leading slash, drop the trailing slash, replace path separators with
-  `__`. Empty paths fall back to "index". The generated-card branch is disabled
-  for normal builds so the public site never points at missing review assets.
+  `__`. Empty paths fall back to "index".
 {%- endcomment -%}
 {%- assign _slug = page.url -%}
 {%- if _slug == nil or _slug == "" or _slug == "/" -%}
@@ -75,35 +74,27 @@
   {%- endif -%}
   {%- assign og_card_slug = _slug | replace: '/', '__' -%}
 {%- endif -%}
-{%- assign og_card_png = '/assets/og-cards/' | append: og_card_slug | append: '.png' -%}
-{%- assign og_card_svg = '/assets/og-cards/' | append: og_card_slug | append: '.svg' -%}
-{%- assign auto_og_cards_enabled = site.generated_og_cards_enabled -%}
-{%- comment -%}
-  In explicit social-preview builds, bibliography entries (~8.4k) skip
-  rasterization and serve SVG directly. Pages can override via
-  `og_card_rasterize: true|false` in front matter.
-  Keep this branch in sync with PantaRhei::OgCardGenerator#rasterize? (Ruby).
-{%- endcomment -%}
-{%- if auto_og_cards_enabled != true -%}{%- assign og_card_has_png = false -%}
-{%- elsif site.generated_og_cards_mode == 'svg' -%}{%- assign og_card_has_png = false -%}
-{%- elsif page.og_card_rasterize == false -%}{%- assign og_card_has_png = false -%}
-{%- elsif page.og_card_rasterize == true -%}{%- assign og_card_has_png = true -%}
-{%- elsif page.collection == 'bibliography' -%}{%- assign og_card_has_png = false -%}
-{%- else -%}{%- assign og_card_has_png = true -%}
-{%- endif -%}
-{%- if page.og_image and page.og_image != '' -%}
+{%- assign generated_og_card = site.data.og.generated_cards.cards[og_card_slug] -%}
+{%- if generated_og_card and generated_og_card.image -%}
+  {%- assign og_image = generated_og_card.image -%}
+  {%- assign twitter_image = generated_og_card.image -%}
+  {%- assign og_image_alt = generated_og_card.alt | default: site.title -%}
+{%- elsif page.og_image and page.og_image != '' -%}
   {%- assign og_image = page.og_image -%}
-{%- elsif auto_og_cards_enabled == true and page.og_card != false -%}
-  {%- if og_card_has_png -%}
-    {%- assign og_image = og_card_png -%}
-  {%- else -%}
-    {%- assign og_image = og_card_svg -%}
-  {%- endif -%}
+  {%- assign twitter_image = page.twitter_image | default: og_image -%}
+  {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
 {%- else -%}
   {%- assign og_image = '/assets/og-image.png' -%}
+  {%- assign twitter_image = page.twitter_image | default: og_image -%}
+  {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
 {%- endif -%}
-{%- assign twitter_image = page.twitter_image | default: og_image -%}
-{%- assign og_image_alt = page.og_image_alt | default: site.title -%}
+
+{%- assign social_author_content = page.author_display | default: page.author | default: site.site_author | default: site.author.name -%}
+{%- assign social_authors = page.authors | default: site.site_authors -%}
+{%- assign social_published_time = page.published_date | default: page.date | default: site.default_published_date -%}
+{%- assign social_modified_time = page.modified_date | default: page.last_modified_at | default: page.last_updated | default: site.default_modified_date -%}
+{%- assign social_published_time_xml = social_published_time | date_to_xmlschema -%}
+{%- assign social_modified_time_xml = social_modified_time | date_to_xmlschema -%}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -112,6 +103,10 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <meta name="robots" content="{{ robots_directive }}">
 <meta name="generator" content="Jekyll">
+<meta name="author" content="{{ social_author_content }}">
+<meta name="date" content="{{ social_modified_time_xml }}">
+<meta name="dcterms.created" content="{{ social_published_time_xml }}">
+<meta name="dcterms.modified" content="{{ social_modified_time_xml }}">
 {%- include site-atlas-meta.html -%}
 
 <!-- Search engine verification -->
@@ -131,15 +126,26 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="{{ og_image | absolute_url }}">
+<meta property="og:image:secure_url" content="{{ og_image | absolute_url }}">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ og_image_alt }}">
+{%- if og_type == 'article' -%}
+{%- for social_author in social_authors -%}
+  {%- assign social_author_name = social_author.name | default: social_author -%}
+<meta property="article:author" content="{{ social_author_name }}">
+{%- endfor -%}
+<meta property="article:published_time" content="{{ social_published_time_xml }}">
+<meta property="article:modified_time" content="{{ social_modified_time_xml }}">
+{%- endif -%}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ raw_page_title | default: site.title }}">
 <meta name="twitter:description" content="{{ seo_description }}">
 <meta name="twitter:image" content="{{ twitter_image | absolute_url }}">
+<meta name="twitter:image:alt" content="{{ og_image_alt }}">
 
 <!-- Theme color (mobile browser UI tinting) -->
 <meta name="theme-color" content="#163e64">

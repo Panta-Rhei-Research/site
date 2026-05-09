@@ -270,7 +270,14 @@ async function runVisualQa() {
         const input = document.querySelector("#search-container input");
         const overlay = document.querySelector("#search-overlay");
         return {
-          title: document.querySelector(".search-overlay-title")?.textContent.trim() || "",
+          label: overlay ? overlay.getAttribute("aria-label") || "" : "",
+          hasTitleChrome: Boolean(document.querySelector(".search-overlay-title, .search-overlay-close, .search-overlay-hint")),
+          hasVisibleFilters: (() => {
+            const panel = document.querySelector("#search-container .pagefind-ui__filter-panel");
+            if (!panel) return false;
+            const style = window.getComputedStyle(panel);
+            return style.display !== "none" && style.visibility !== "hidden" && panel.offsetParent !== null;
+          })(),
           inputValue: input ? input.value : "",
           googleHref: link ? link.href : "",
           overlayVisible: overlay ? !overlay.hidden : false,
@@ -283,8 +290,14 @@ async function runVisualQa() {
       await searchPage.screenshot({ path: searchShot, fullPage: true });
       screenshots.push(searchShot);
 
-      if (searchState.title !== "Search the Site") {
-        failures.push(`${viewport.name}/search: unexpected overlay title "${searchState.title}"`);
+      if (searchState.label !== "Search the site") {
+        failures.push(`${viewport.name}/search: unexpected overlay label "${searchState.label}"`);
+      }
+      if (searchState.hasTitleChrome) {
+        failures.push(`${viewport.name}/search: title, close, or tips chrome still rendered`);
+      }
+      if (searchState.hasVisibleFilters) {
+        failures.push(`${viewport.name}/search: Pagefind filter panel still visible`);
       }
       if (searchState.inputValue !== "Hubble") {
         failures.push(`${viewport.name}/search: Pagefind input did not accept query`);

@@ -125,7 +125,7 @@ This is not a blog, not a monograph landing page, and not a documentation dump. 
 - **Impact** maps conditional consequences if the work holds.
 - **Engage** gives open scrutiny, participation, contact, and contribution routes.
 
-Publications remains the stable artifact and release layer: Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, Release Artifacts, and Errata.
+Publications remains the stable artifact and release layer: Anchor Documents, Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, Release Artifacts, and Errata.
 
 ## Quick lane map
 

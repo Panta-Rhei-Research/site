@@ -368,10 +368,10 @@
     "redirects_legacy_routes": {
       "collection_id": "c00011",
       "collection_key": "redirects_legacy_routes",
-      "expected_item_count": 31,
+  "expected_item_count": 32,
       "grouping": [
         {
-          "expected_item_count": 24,
+      "expected_item_count": 25,
           "key": "redirected",
           "title": "Redirected"
         },
@@ -1080,10 +1080,10 @@
     {
       "collection_id": "c00011",
       "collection_key": "redirects_legacy_routes",
-      "expected_item_count": 31,
+      "expected_item_count": 32,
       "grouping": [
         {
-          "expected_item_count": 24,
+          "expected_item_count": 25,
           "key": "redirected",
           "title": "Redirected"
         },

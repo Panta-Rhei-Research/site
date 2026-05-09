@@ -108,18 +108,9 @@ def main() -> int:
         require(parser.h1_count == 1, f"{route} should have exactly one H1")
         require(any(img.get("alt") == ALT for img in parser.imgs), f"{route} missing Plate 01 alt text")
         require(any(PLATE_ID in (source.get("srcset") or "") for source in parser.sources), f"{route} missing Plate 01 WebP source")
-        require(
-            meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{OG_IMAGE}",
-            f"{route} missing Plate 01 og:image",
-        )
-        require(
-            meta_content(parser, "name", "twitter:image") == f"https://panta-rhei.site{OG_IMAGE}",
-            f"{route} missing Plate 01 twitter:image",
-        )
-        require(
-            "Scientific plate mapping the Panta Rhei Research Program" in (meta_content(parser, "property", "og:image:alt") or ""),
-            f"{route} missing Plate 01 OG alt text",
-        )
+        require((meta_content(parser, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped og:image")
+        require((meta_content(parser, "name", "twitter:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped twitter:image")
+        require(meta_content(parser, "property", "og:image:alt"), f"{route} missing OG alt text")
 
     require("homepage-hero" in home_html, "/ missing homepage hero")
     require(home_html.index("homepage-hero") < home_html.index("scientific-plate"), "Homepage plate should sit below the hero")

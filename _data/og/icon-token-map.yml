@@ -1,0 +1,76 @@
+# Panta Rhei OG Icon Token Map — Material Symbols
+icon_family:
+  name: Google Material Symbols
+  style: Outlined
+  license: Apache-2.0
+  source_repo: https://github.com/google/material-design-icons
+
+layers:
+  e0_mathematics: architecture
+  e1_physics: orbit
+  e2_life: genetics
+  e3_reflection_metaphysics: owl
+
+lanes:
+  discover: explore
+  program: account_balance
+  agenda: checklist
+  corpus: deployed_code
+  results: inventory_2
+  verify: fact_check
+  publications: library_books
+  impact: public
+  engage: handshake
+
+anchor_documents:
+  c001: history_edu
+  wp001: account_balance
+  wp002: deployed_code
+  wp003: code
+  wp004: hub
+  wp005: public
+
+publication_types:
+  charter_essay: history_edu
+  white_paper: description
+  research_paper: article
+  research_note: edit_note
+  research_briefing: note_stack
+  monograph: menu_book
+  release_artifact: verified
+  erratum: published_with_changes
+
+status:
+  released: check_circle
+  open: radio_button_unchecked
+  review_pending: pending
+  warning: warning
+  corrected: published_with_changes
+  superseded: change_circle
+  archived: archive
+  withdrawn: unpublished
+
+actions:
+  search: search
+  route: route
+  external_link: open_in_new
+  download: download
+  copy: content_copy
+  email: mail
+  repository: code
+  contribution: merge
+  correction: edit_note
+  discussion: forum
+
+public_good_portfolios:
+  agriculture: agriculture
+  biodiversity_restoration: forest
+  climate: co2
+  disaster: crisis_alert
+  energy: bolt
+  ocean: waves
+  one_health: health_and_safety
+  pollution_circularity: recycling
+  solar: solar_power
+  water_wash: water_drop
+  weather: thunderstorm

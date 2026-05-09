@@ -21,8 +21,8 @@ right_rail:
       title: "Research Notes"
       url: "/publications/research-notes/"
     -
-      title: "White Papers"
-      url: "/publications/white-papers/"
+      title: "Anchor Documents"
+      url: "/publications/anchor-documents/"
     -
       title: "Publication Notifications"
       url: "/engage/follow-the-research/"

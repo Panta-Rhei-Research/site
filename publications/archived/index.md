@@ -41,6 +41,10 @@ Archived releases keep enough context to make comparison possible: edition date,
 
 The First Edition appeared in December 2025. It remains available as a historical public release and documents an earlier state of the seven-book program before the current Coherence Kernel consolidation and full v2 verification posture.
 
+### [Archived White Papers]({{ '/publications/archived/white-papers/' | relative_url }})
+
+Pre-canon white papers are preserved as superseded provenance records after the Anchor Document Canon took over the public route for first-time readers, journalists, reviewers, and citation.
+
 ## What Changes Across Editions
 
 Edition changes are not hidden in the archive. When a release is superseded, the archive should say so plainly and point to the current home. The [First Edition archive]({{ '/publications/archived/first-edition/' | relative_url }}) records the historical release, while the [current books]({{ '/publications/books/' | relative_url }}) remain the active canon.

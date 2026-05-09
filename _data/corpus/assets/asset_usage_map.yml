@@ -107,7 +107,7 @@ asset_usage:
   asset_id: plate-07-stable-artifact-layer
   asset_family: scientific_plate
   public_path: /assets/images/plates/plate-07-stable-artifact-layer-hero.webp
-- page: /publications/white-papers/
+- page: /publications/anchor-documents/
   asset_id: plate-07-stable-artifact-layer
   asset_family: scientific_plate
   public_path: /assets/images/plates/plate-07-stable-artifact-layer-hero.webp
@@ -447,7 +447,7 @@ asset_usage:
   asset_id: plate-07-stable-artifact-layer-og
   asset_family: og_image
   public_path: /assets/images/plates/plate-07-stable-artifact-layer-og.jpg
-- page: /publications/white-papers/
+- page: /publications/anchor-documents/
   asset_id: plate-07-stable-artifact-layer-og
   asset_family: og_image
   public_path: /assets/images/plates/plate-07-stable-artifact-layer-og.jpg

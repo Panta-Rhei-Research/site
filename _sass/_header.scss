@@ -145,7 +145,61 @@ body.shell-home .site-header {
   }
 }
 
-// ── TOC dropdown (mobile only) ──────────────────────────────────
+// ── Shared mobile shell controls ───────────────────────────────
+
+.shell-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: var(--border-default);
+  border-radius: $radius-sm;
+  background: var(--surface-card);
+  color: $text-muted;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    background $transition,
+    border-color $transition,
+    color $transition,
+    box-shadow $transition,
+    transform $transition;
+
+  &:hover {
+    background: var(--panta-blue-50);
+    color: var(--panta-blue-700);
+    border-color: rgba(22, 62, 100, 0.26);
+    box-shadow: 0 8px 18px rgba(21, 23, 28, 0.08);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  &[aria-expanded="true"],
+  &.is-active {
+    background: #edf3f8;
+    color: var(--panta-blue-800);
+    border-color: rgba(22, 62, 100, 0.34);
+    box-shadow: 0 10px 22px rgba(21, 23, 28, 0.10);
+    transform: translateY(-1px);
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  @media (max-width: $bp-stack) {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+// ── This-page utility drawer (mobile only) ─────────────────────
 
 .header-toc-wrapper {
   display: none; // hidden on desktop and when no headings (via [hidden])
@@ -158,38 +212,8 @@ body.shell-home .site-header {
   }
 }
 
-.header-toc-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
-  width: 44px;
-  height: 44px;
-  padding: 0;
-  border: var(--border-default);
-  border-radius: $radius-sm;
-  background: var(--surface-card);
-  color: $text-muted;
-  cursor: pointer;
-  transition: all $transition;
-
-  &:hover {
-    background: var(--lane-current-soft);
-    color: var(--lane-current);
-    border-color: var(--lane-current);
-  }
-
-  &[aria-expanded="true"] {
-    background: var(--lane-current-soft);
-    color: var(--lane-current);
-
-    .header-toc-chevron { transform: rotate(180deg); }
-  }
-}
-
-.header-toc-chevron {
-  transition: transform 200ms ease;
-  flex-shrink: 0;
+.header-page-icon {
+  fill: currentColor;
 }
 
 .header-toc-dropdown {
@@ -260,6 +284,133 @@ body.shell-home .site-header {
   }
 }
 
+.header-page-drawer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @media (max-width: $bp-stack) {
+    padding: 12px;
+  }
+}
+
+.page-drawer-section {
+  display: grid;
+  gap: 4px;
+}
+
+.page-drawer-section + .page-drawer-section {
+  padding-top: 10px;
+  border-top: 1px solid $divider;
+}
+
+.page-drawer-section-title {
+  padding: 2px 8px 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $text-muted;
+}
+
+.page-tool-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 48px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: $radius-sm;
+  background: transparent;
+  color: $text;
+  font: inherit;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background $transition, color $transition, transform $transition;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--panta-blue-50);
+    color: var(--panta-blue-800);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &.is-disabled,
+  &:disabled {
+    color: $text-muted;
+    cursor: not-allowed;
+    opacity: 0.58;
+
+    &:hover {
+      background: transparent;
+      color: $text-muted;
+    }
+  }
+}
+
+.page-tool-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: $radius-xs;
+  background: var(--surface-meta);
+  color: var(--panta-blue-700);
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.page-tool-title,
+.page-tool-description {
+  display: block;
+}
+
+.page-tool-title {
+  font-size: 0.88rem;
+  font-weight: 620;
+  line-height: 1.2;
+}
+
+.page-tool-description {
+  margin-top: 2px;
+  font-size: 0.76rem;
+  line-height: 1.25;
+  color: $text-muted;
+}
+
+.page-tool-toast {
+  margin: 2px 8px 0;
+  font-size: 0.76rem;
+  color: var(--semantic-success);
+}
+
+.page-drawer-toc-list {
+  display: grid;
+  gap: 2px;
+}
+
+.page-drawer-empty {
+  margin: 0;
+  padding: 10px 12px;
+  color: $text-muted;
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
 // ── Hamburger button (mobile only) ──────────────────────────────
 
 .header-hamburger {
@@ -267,25 +418,10 @@ body.shell-home .site-header {
 
   @media (max-width: $bp-stack) {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    padding: 0;
-    border: var(--border-default);
-    border-radius: $radius-sm;
-    background: var(--surface-card);
-    cursor: pointer;
     flex-direction: column;
     gap: 5px;
-    flex-shrink: 0;
     position: relative;
     z-index: $z-drawer + 2;
-
-    &:hover {
-      background: var(--lane-current-soft);
-      border-color: var(--lane-current);
-    }
   }
 }
 
@@ -447,30 +583,7 @@ body.shell-home .site-header {
 }
 
 .header-search {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: $radius-pill;
-  border: var(--border-default);
-  background: var(--surface-card);
-  color: $text-muted;
-  cursor: pointer;
-  transition: all $transition;
-
-  &:hover {
-    background: var(--lane-current-soft);
-    color: var(--lane-current);
-    border-color: var(--lane-current);
-  }
-
   svg { width: 16px; height: 16px; }
-
-  @media (max-width: $bp-stack) {
-    width: 44px;
-    height: 44px;
-  }
 }
 
 // ── Mega-menu section navigation (mobile only) ──────────────────
@@ -534,7 +647,9 @@ body.shell-home .site-header {
 }
 
 // Body scroll lock when drawer open
-body.nav-open {
+body.nav-open,
+body.page-drawer-open,
+body.search-open {
   overflow: hidden;
 }
 
@@ -543,5 +658,4 @@ body.nav-open {
   .header-nav { transition: none !important; }
   .drawer-backdrop { transition: none !important; }
   .hamburger-bar { transition: none !important; }
-  .header-toc-chevron { transition: none !important; }
 }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Panta Rhei preview card for C001 · Standing in the Inquiry of Being.">
+  <defs>
+    <style>
+      @font-face { font-family: "EB Garamond OG"; src: url("../fonts-local/EBGaramond-Regular.ttf"); }
+      @font-face { font-family: "Source Sans 3 OG"; src: url("../fonts-local/SourceSans3-Regular.ttf"); }
+      @font-face { font-family: "Source Code Pro OG"; src: url("../fonts-local/SourceCodePro-Regular.ttf"); }
+    </style>
+    <linearGradient id="spectrum-rule" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5A7EB3"/><stop offset="34%" stop-color="#1B8278"/><stop offset="68%" stop-color="#9F5B5C"/><stop offset="100%" stop-color="#896092"/>
+    </linearGradient>
+  </defs>
+
+          <rect width="1200" height="630" fill="#F8F7F0"/>
+          <path d="M0 0h1200v630H0z" fill="#F8F7F0"/>
+          <path d="M860 0h340v630H760z" fill="#EEF2F5" opacity="0.55"/>
+          <rect x="0" y="618" width="1200" height="12" fill="url(#spectrum-rule)"/>
+
+
+      <svg x="835" y="220" width="300" height="300" viewBox="0 -960 960 960" opacity="0.10" aria-hidden="true">
+        <path d="M320-160q-33 0-56.5-23.5T240-240v-120h120v-90q-35-2-66.5-15.5T236-506v-44h-46L60-680q36-46 89-65t107-19q27 0 52.5 4t51.5 15v-55h480v520q0 50-35 85t-85 35H320Zm120-200h240v80q0 17 11.5 28.5T720-240q17 0 28.5-11.5T760-280v-440H440v24l240 240v56h-56L510-514l-8 8q-14 14-29.5 25T440-464v104ZM224-630h92v86q12 8 25 11t27 3q23 0 41.5-7t36.5-25l8-8-56-56q-29-29-65-43.5T256-684q-20 0-38 3t-36 9l42 42Zm376 350H320v40h286q-3-9-4.5-19t-1.5-21Zm-280 40v-40 40Z" fill="#163E64"/>
+      </svg>
+
+
+      <g transform="translate(785 26)" fill="#163E64">
+        <text x="0" y="44" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-weight="400">π</text>
+        <text x="31" y="67" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-style="italic" font-weight="400">ρ</text>
+        <text x="86" y="36" font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="25" font-weight="700">Panta Rhei Research</text>
+        <text x="86" y="67" font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="21" opacity="0.82">Independent open research program</text>
+      </g>
+
+  <g transform="translate(70 76)">
+    <rect width="519" height="44" rx="22" fill="#163E64" opacity="0.96"/>
+    <text x="18" y="29" font-family="Source Code Pro OG, ui-monospace, monospace" font-size="19" font-weight="700" letter-spacing="1.8" fill="#F8FAF7">SUPPORT · CURATED PREVIEW · CANONICAL</text>
+  </g>
+  <text font-family="EB Garamond OG, Georgia, serif" font-size="94" font-weight="400" fill="#17202B">
+    <tspan x="78" y="234">C001 · Standing</tspan>
+<tspan x="78" y="320">in the Inquiry...</tspan>
+  </text>
+  <text font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="34" font-weight="400" fill="#44515D">
+    <tspan x="82" y="440">The program charter essay behind the public doctrine</tspan>
+<tspan x="82" y="482">surface.</tspan>
+  </text>
+  <text x="82" y="568" font-family="Source Code Pro OG, ui-monospace, monospace" font-size="30" font-weight="500" fill="#5B6772">panta-rhei.site/publications/anchor-docum...</text>
+</svg>
