@@ -5,6 +5,7 @@ _site/
 .DS_Store
 vendor/
 node_modules/
+.wrangler/
 
 # Runtime logs
 *.log

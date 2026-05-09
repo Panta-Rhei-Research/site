@@ -24,7 +24,7 @@ ALT = (
 CANONICAL_CAPTION = (
     "Publications is the stable artifact layer of the program: a typed system "
     "of citable objects, including Research Monographs, Monograph Supplements, "
-    "Research Papers, Research Notes, Research Briefings, White Papers, and "
+    "Research Papers, Research Notes, Research Briefings, Anchor Documents, and "
     "Release Artifacts. Artifact type is not claim status."
 )
 
@@ -140,17 +140,12 @@ def main() -> int:
         "/publications/research-notes/": [
             "Research Notes inside the publication taxonomy",
             "Research Notes are shorter scholarly artifacts in the ongoing research stream",
-            "distinct from Research Papers, Research Briefings, and White Papers",
+            "distinct from Research Papers, Research Briefings, and Anchor Documents",
         ],
         "/publications/monograph-supplements/": [
             "Monograph Supplements inside the publication taxonomy",
             "Monograph Supplements are book-style extensions, appendices, ledgers, or supporting parts",
             "Their category says how the artifact should be read",
-        ],
-        "/publications/white-papers/": [
-            "White Papers inside the publication taxonomy",
-            "White Papers are explanatory artifacts in the stable publication layer",
-            "without primarily carrying new original research claims",
         ],
         "/publications/release-artifacts/": [
             "Release Artifacts inside the publication taxonomy",

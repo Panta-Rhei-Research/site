@@ -156,13 +156,13 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 <section class="content-card homepage-section">
   <p class="v2-kicker">Artifacts and continuation</p>
   <h2>Artifacts & Releases</h2>
-  <p>The public release surface is not only the research monographs. It includes Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, TauLib, assessment protocols, Release Artifacts, and errata. The site makes those surfaces easier to find without turning the homepage into a catalogue.</p>
+  <p>The public release surface is not only the research monographs. It includes Anchor Documents, Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, TauLib, assessment protocols, Release Artifacts, and errata. The site makes those surfaces easier to find without turning the homepage into a catalogue.</p>
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a class="btn-secondary" href="{{ '/publications/anchor-documents/' | relative_url }}">Anchor Documents</a>
     <a class="btn-secondary" href="{{ '/publications/research-monographs/' | relative_url }}">Research Monographs</a>
     <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
     <a class="btn-ghost" href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a>
-    <a class="btn-ghost" href="{{ '/publications/white-papers/' | relative_url }}">White Papers</a>
     <a class="btn-ghost" href="{{ '/publications/release-artifacts/' | relative_url }}">Release Artifacts</a>
     <a class="btn-ghost" href="{{ '/publications/errata/' | relative_url }}">Errata</a>
     <a class="btn-ghost" href="{{ '/cite/' | relative_url }}">Cite</a>

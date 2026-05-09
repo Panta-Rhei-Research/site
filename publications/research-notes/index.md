@@ -44,10 +44,10 @@ Research Notes are not informal commentary, promotional updates, or a [changelog
 
 ## Research Notes inside the publication taxonomy
 
-{% capture research_notes_plate_caption %}Research Notes are shorter scholarly artifacts in the ongoing research stream, distinct from Research Papers, Research Briefings, and White Papers.{% endcapture %}
+{% capture research_notes_plate_caption %}Research Notes are shorter scholarly artifacts in the ongoing research stream, distinct from Research Papers, Research Briefings, and Anchor Documents.{% endcapture %}
 {% include scientific-plate.html id="plate-07-stable-artifact-layer" variant="thumb" class="scientific-plate--compact" caption=research_notes_plate_caption loading="lazy" %}
 
-Research Notes are publication artifacts, not status updates. They carry dated scholarly arguments, comparisons, pre-registrations, responses, and verification explainers while remaining distinct from Research Papers, Research Briefings, and White Papers.
+Research Notes are publication artifacts, not status updates. They carry dated scholarly arguments, comparisons, pre-registrations, responses, and verification explainers while remaining distinct from Research Papers, Research Briefings, and Anchor Documents.
 
 ## What each note exposes
 

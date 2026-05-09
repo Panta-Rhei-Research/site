@@ -55,7 +55,7 @@ The site is large because the research system has several public projections. Ch
   </a>
   <a class="v2-tile" href="{{ '/publications/' | relative_url }}">
     <h3>I want the artifacts and releases</h3>
-    <p>Start with Publications, Books, White Papers, and Research Notes.</p>
+    <p>Start with WP000, Anchor Documents, Books, and Research Notes.</p>
   </a>
   <a class="v2-tile" href="{{ '/discover/follow-the-research/' | relative_url }}">
     <h3>I want the ongoing stream</h3>

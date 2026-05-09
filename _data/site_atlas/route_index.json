@@ -3811,30 +3811,32 @@
     "title": "Research Papers"
   },
   "/publications/white-papers/": {
+    "archive_rationale": "The pre-canon White Papers publication category is retired from primary navigation and redirects to the Anchor Document Canon.",
     "atlas_id": "000082",
-    "browse_role": "canonical",
-    "canonical_role": "doctrine_page",
+    "browse_role": "alternate",
+    "canonical_replacement": "publications.anchor_documents",
+    "canonical_role": "compatibility_redirect",
     "children": [],
     "ia_path": "07-06",
-    "lane": "publications",
-    "layout": "program-doc",
+    "lane": "archive",
+    "layout": "redirect",
     "level": 2,
-    "page_class": "canonical",
+    "page_class": "redirect",
     "page_key": "publications.white_papers",
     "parent_key": "publications.index",
     "release": {
       "certification_report": "site-atlas/release/2026-05-v4-public-launch/wave-2/wave2-editorial-review.md",
-      "certified_at": "2026-05-07",
-      "launch_critical": true,
+      "certified_at": null,
+      "launch_critical": false,
       "open_gates": [],
       "reopened_by": null,
       "scope": "public-launch-v4",
-      "status": "release-candidate"
+      "status": "deprecated"
     },
     "route": "/publications/white-papers/",
     "source": "publications/white-papers/index.md",
-    "status": "canonical",
-    "title": "White Papers"
+    "status": "redirected",
+    "title": "White Papers moved to Anchor Documents"
   },
   "/registry/": {
     "archive_rationale": "Pack D records this route as historical or compatibility surface, not as a current canonical v4 page.",

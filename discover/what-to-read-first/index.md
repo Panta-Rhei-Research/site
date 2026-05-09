@@ -43,7 +43,7 @@ Pick a route by goal. These are deliberately short; they are paths into the site
   </div>
   <div class="v2-tile">
     <h3>Artifacts-first path</h3>
-    <p><a href="{{ '/publications/research-monographs/' | relative_url }}">Books</a> → <a href="{{ '/publications/white-papers/' | relative_url }}">White Papers</a> → <a href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a></p>
+    <p><a href="{{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}">WP000 At a Glance</a> → <a href="{{ '/publications/anchor-documents/' | relative_url }}">Anchor Documents</a> → <a href="{{ '/publications/research-monographs/' | relative_url }}">Books</a> → <a href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a></p>
   </div>
   <div class="v2-tile">
     <h3>Inspection path</h3>
@@ -59,7 +59,7 @@ Pick a route by goal. These are deliberately short; they are paths into the site
   </div>
   <div class="v2-tile">
     <h3>Media / first-contact path</h3>
-    <p><a href="{{ '/media/' | relative_url }}">Media Kit</a> → <a href="{{ '/media/open-research-brief/' | relative_url }}">Open Research Brief</a> → <a href="{{ '/media/theory-of-reality-brief/' | relative_url }}">Theory of Reality Brief</a> → <a href="{{ '/media/public-research-observatory-brief/' | relative_url }}">Public Research Observatory Brief</a></p>
+    <p><a href="{{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}">WP000 At a Glance</a> → <a href="{{ '/media/' | relative_url }}">Media Kit</a> → <a href="{{ '/media/journalist-faq/' | relative_url }}">Journalist FAQ</a> → <a href="{{ '/publications/anchor-documents/' | relative_url }}">Anchor Documents</a></p>
   </div>
   <div class="v2-tile">
     <h3>AI-assisted discovery path</h3>
