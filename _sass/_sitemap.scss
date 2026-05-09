@@ -126,55 +126,48 @@
   }
 }
 
+// ---------------------------------------------------------------
+// Mini-card tiles — "Card Catalog" aesthetic
+// Per v4 design system 01-foundations & 02-components:
+//  - radius ≤ 8px (--radius-sm)
+//  - flat paper field (no decorative gradients competing with reading)
+//  - 1px border, single-pixel
+//  - shadows used sparingly (no hover lift / scale)
+//  - card anatomy: title + URL slug as type marker (typed directory entry)
+// Inspiration: card catalog slip / scientific atlas plate margin.
+// ---------------------------------------------------------------
 .sitemap-mini-card {
   min-width: 0;
 }
 
 .sitemap-mini-card a {
+  position: relative;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   justify-content: flex-start;
+  gap: 0.4rem;
   width: 100%;
-  min-height: 5.75rem;
+  min-height: 5.5rem;
   max-width: 100%;
-  aspect-ratio: 1.12 / 1;
-  padding: 0.85rem 0.9rem;
+  padding: 0.7rem 0.85rem 0.7rem 0.95rem;
   color: var(--color-ink-700);
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.62),
-      rgba(250, 250, 247, 0.82)
-    );
-  border: var(--border-subtle);
-  border-radius: $radius-lg;
-  font-family: $font-ui;
-  font-size: 0.9rem;
-  font-weight: 560;
-  line-height: 1.22;
+  background: var(--paper-50, #FAFAF7);
+  border: 1px solid var(--color-line-200, #DDE2D8);
+  border-left: 2px solid var(--color-line-300, #CAD2C4);
+  border-radius: $radius-sm;
   text-decoration: none;
-  white-space: normal;
-  overflow-wrap: anywhere;
-  hyphens: auto;
   transition:
-    background-color 140ms ease,
-    border-color 140ms ease,
-    box-shadow 140ms ease,
-    color 140ms ease,
-    transform 140ms ease;
+    background-color 120ms ease,
+    border-color 120ms ease,
+    color 120ms ease;
 
   &:hover,
   &:focus-visible {
-    color: var(--lane-current);
-    background:
-      linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.9),
-        rgba(255, 255, 255, 0.72)
-      );
-    border-color: var(--lane-current);
-    box-shadow: 0 8px 18px rgba(21, 23, 28, 0.07);
-    transform: translateY(-1px);
+    background: var(--paper-0, #FFFFFF);
+    border-color: var(--color-line-300, #CAD2C4);
+    border-left-color: var(--lane-current);
+    color: var(--color-ink-900, #15171C);
     outline: none;
   }
 
@@ -182,29 +175,77 @@
     box-shadow: var(--focus-ring);
   }
 
-  span {
-    display: block;
-    max-width: 100%;
-    text-wrap: balance;
+}
+
+.sitemap-mini-card-title {
+  display: block;
+  max-width: 100%;
+  color: inherit;
+  font-family: $font-ui;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.32;
+  letter-spacing: 0;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.sitemap-mini-card-slug {
+  display: block;
+  max-width: 100%;
+  margin-top: auto;
+  color: $text-muted;
+  font-family: $font-mono;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+
+  // Subtle leading glyph that gives the slug a "call-number" feel
+  &::before {
+    content: "↳ ";
+    margin-right: 0.18rem;
+    color: var(--color-line-300, #CAD2C4);
+  }
+}
+
+.sitemap-mini-card a:hover .sitemap-mini-card-slug,
+.sitemap-mini-card a:focus-visible .sitemap-mini-card-slug {
+  color: var(--lane-current);
+
+  &::before {
+    color: var(--lane-current);
   }
 }
 
 .sitemap-card-support .sitemap-mini-card a {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.54),
-      rgba(246, 247, 243, 0.78)
-    );
+  background: var(--paper-100, #F6F7F3);
+  border-left-color: var(--color-line-200, #DDE2D8);
 
   &:hover,
   &:focus-visible {
-    background:
-      linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.86),
-        rgba(250, 250, 247, 0.74)
-      );
+    background: var(--paper-0, #FFFFFF);
+    border-left-color: var(--lane-support);
+  }
+}
+
+.sitemap-card-support .sitemap-mini-card a:hover .sitemap-mini-card-slug,
+.sitemap-card-support .sitemap-mini-card a:focus-visible .sitemap-mini-card-slug {
+  color: var(--lane-support);
+
+  &::before {
+    color: var(--lane-support);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sitemap-mini-card a {
+    transition: none;
   }
 }
 
