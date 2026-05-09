@@ -1,0 +1,204 @@
+generated_by: scripts/sync_faqs_from_corpus.py
+source_repo: corpus
+source_path: corpus/faqs/
+total_entries: 73
+total_layers: 5
+all_ids:
+- FAQ-FC-001
+- FAQ-FC-002
+- FAQ-FC-003
+- FAQ-FC-004
+- FAQ-FC-005
+- FAQ-FC-006
+- FAQ-FC-007
+- FAQ-OR-001
+- FAQ-OR-002
+- FAQ-OR-003
+- FAQ-OR-004
+- FAQ-OR-005
+- FAQ-OR-006
+- FAQ-OR-007
+- FAQ-OR-008
+- FAQ-OR-009
+- FAQ-OR-010
+- FAQ-OR-011
+- FAQ-OR-012
+- FAQ-JD-001
+- FAQ-JD-002
+- FAQ-JD-003
+- FAQ-JD-004
+- FAQ-JD-005
+- FAQ-JD-006
+- FAQ-JD-007
+- FAQ-JD-008
+- FAQ-JD-009
+- FAQ-JD-010
+- FAQ-JD-011
+- FAQ-JD-012
+- FAQ-JD-013
+- FAQ-JD-014
+- FAQ-JD-015
+- FAQ-JD-016
+- FAQ-JD-017
+- FAQ-JD-018
+- FAQ-TC-001
+- FAQ-TC-002
+- FAQ-TC-003
+- FAQ-TC-004
+- FAQ-TC-005
+- FAQ-TC-006
+- FAQ-TC-007
+- FAQ-TC-008
+- FAQ-TC-009
+- FAQ-TC-010
+- FAQ-TC-011
+- FAQ-TC-012
+- FAQ-TC-013
+- FAQ-TC-014
+- FAQ-TC-015
+- FAQ-TC-016
+- FAQ-TC-017
+- FAQ-TC-018
+- FAQ-TC-019
+- FAQ-TC-020
+- FAQ-EH-001
+- FAQ-EH-002
+- FAQ-EH-003
+- FAQ-EH-004
+- FAQ-EH-005
+- FAQ-EH-006
+- FAQ-EH-007
+- FAQ-EH-008
+- FAQ-EH-009
+- FAQ-EH-010
+- FAQ-EH-011
+- FAQ-EH-012
+- FAQ-EH-013
+- FAQ-EH-014
+- FAQ-EH-015
+- FAQ-EH-016
+layers:
+- file: first_contact.yml
+  collection: first_contact_faq
+  layer:
+    id: 0
+    label: First Contact
+    description: Immediate credibility-filter questions for first-time readers — what is this, is it proven, is it peer-reviewed,
+      who is behind it.
+  version: v0.1-pilot
+  last_reviewed: '2026-05-09'
+  count: 7
+  ids:
+  - FAQ-FC-001
+  - FAQ-FC-002
+  - FAQ-FC-003
+  - FAQ-FC-004
+  - FAQ-FC-005
+  - FAQ-FC-006
+  - FAQ-FC-007
+- file: first_orientation.yml
+  collection: first_orientation_faq
+  layer:
+    id: 1
+    label: First Orientation
+    description: 'First 1–3 minute orientation: where to start, lanes, Corpus, Results, master constant, failure paths.'
+  version: v0.1-pilot
+  last_reviewed: '2026-05-09'
+  count: 12
+  ids:
+  - FAQ-OR-001
+  - FAQ-OR-002
+  - FAQ-OR-003
+  - FAQ-OR-004
+  - FAQ-OR-005
+  - FAQ-OR-006
+  - FAQ-OR-007
+  - FAQ-OR-008
+  - FAQ-OR-009
+  - FAQ-OR-010
+  - FAQ-OR-011
+  - FAQ-OR-012
+- file: journalist_due_diligence.yml
+  collection: journalist_due_diligence_faq
+  layer:
+    id: 2
+    label: Journalist / Editor Due Diligence
+    description: 'Journalist/editor coverage questions: what to write, what to avoid, what to cite, which experts to call.'
+  version: v0.1-pilot
+  last_reviewed: '2026-05-09'
+  count: 18
+  ids:
+  - FAQ-JD-001
+  - FAQ-JD-002
+  - FAQ-JD-003
+  - FAQ-JD-004
+  - FAQ-JD-005
+  - FAQ-JD-006
+  - FAQ-JD-007
+  - FAQ-JD-008
+  - FAQ-JD-009
+  - FAQ-JD-010
+  - FAQ-JD-011
+  - FAQ-JD-012
+  - FAQ-JD-013
+  - FAQ-JD-014
+  - FAQ-JD-015
+  - FAQ-JD-016
+  - FAQ-JD-017
+  - FAQ-JD-018
+- file: technical_credibility.yml
+  collection: technical_credibility_faq
+  layer:
+    id: 3
+    label: Technical Credibility
+    description: TauLib, Lean, Release Manifest, sorry, custom axioms, TCB, Mathlib, build reproduction.
+  version: v0.1-pilot
+  last_reviewed: '2026-05-09'
+  count: 20
+  ids:
+  - FAQ-TC-001
+  - FAQ-TC-002
+  - FAQ-TC-003
+  - FAQ-TC-004
+  - FAQ-TC-005
+  - FAQ-TC-006
+  - FAQ-TC-007
+  - FAQ-TC-008
+  - FAQ-TC-009
+  - FAQ-TC-010
+  - FAQ-TC-011
+  - FAQ-TC-012
+  - FAQ-TC-013
+  - FAQ-TC-014
+  - FAQ-TC-015
+  - FAQ-TC-016
+  - FAQ-TC-017
+  - FAQ-TC-018
+  - FAQ-TC-019
+  - FAQ-TC-020
+- file: expert_handoff.yml
+  collection: expert_handoff_faq
+  layer:
+    id: 4
+    label: Expert Handoff
+    description: Which expert to call, what packet to send, and what bounded question to ask.
+  version: v0.1-pilot
+  last_reviewed: '2026-05-09'
+  count: 16
+  ids:
+  - FAQ-EH-001
+  - FAQ-EH-002
+  - FAQ-EH-003
+  - FAQ-EH-004
+  - FAQ-EH-005
+  - FAQ-EH-006
+  - FAQ-EH-007
+  - FAQ-EH-008
+  - FAQ-EH-009
+  - FAQ-EH-010
+  - FAQ-EH-011
+  - FAQ-EH-012
+  - FAQ-EH-013
+  - FAQ-EH-014
+  - FAQ-EH-015
+  - FAQ-EH-016
