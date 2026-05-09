@@ -1,0 +1,219 @@
+{%- comment -%}
+  page-tools.html — shared "This Page" tools include.
+
+  Briefing: atlas/website/briefings/v4/27_v4_share_component_desktop.md
+
+  Variants:
+    rail    — desktop right-rail compact card (above local TOC)
+    bottom  — above-footer inspection panel ("Save or share this page for inspection")
+    drawer  — mobile this-page drawer (header)
+
+  Required:  include.variant
+  Optional:  include.label  (overrides page.page_tools_label, default "THIS PAGE")
+
+  Frontmatter contract — auto-detected, no migration required:
+    Dossier PDF row visible when ANY of:
+      page.dossier_pdf_path, page.pdf, page.pdf_url, page.pdf_path, page.dossier_pdf
+    Markdown row visible when ANY of:
+      page.markdown_export_path, page.markdown, page.markdown_url, page.markdown_path
+
+  Pages may opt out via `page_tools: false` (default true).
+  Pages may override the section label via `page_tools_label: "THIS OBJECT"`.
+{%- endcomment -%}
+
+{%- assign _variant = include.variant | default: "rail" -%}
+{%- assign _label = include.label | default: page.page_tools_label | default: "THIS PAGE" -%}
+
+{%- assign _dossier_pdf = page.dossier_pdf_path
+                          | default: page.pdf
+                          | default: page.pdf_url
+                          | default: page.pdf_path
+                          | default: page.dossier_pdf -%}
+{%- assign _markdown_export = page.markdown_export_path
+                              | default: page.markdown
+                              | default: page.markdown_url
+                              | default: page.markdown_path -%}
+
+{%- assign _page_url    = page.url | absolute_url -%}
+{%- assign _page_title  = page.title | default: site.title -%}
+{%- assign _page_desc   = page.summary_short | default: page.description | default: site.description -%}
+{%- assign _status      = page.dossier_status | default: page.status | default: "Public research page" -%}
+{%- assign _angle       = page.dossier_review_angle | default: "General inspection" -%}
+
+{%- comment -%}
+  Reviewer-note GitHub-Issues fallback: pre-fills the Issues form for the
+  legacy "Reviewer note" affordance so right-click / middle-click still
+  routes to GitHub. JS dispatch (data-page-action="copy-reviewer-note")
+  copies the text-only template to clipboard instead.
+{%- endcomment -%}
+{%- capture _review_body_raw -%}
+Page: {{ _page_url }}
+Title: {{ _page_title }}
+
+---
+
+_Your note here_
+{%- endcapture -%}
+{%- assign _title_enc = _page_title | url_encode -%}
+{%- assign _body_enc  = _review_body_raw | url_encode -%}
+{%- assign _review_url = "https://github.com/Panta-Rhei-Research/site/issues/new?template=page-correction.yml&title=" | append: _title_enc | append: "&body=" | append: _body_enc -%}
+
+{%- comment -%}
+  Plain-text reviewer-note + citation pre-rendered on the server. JS uses
+  these as data-copy-value fallbacks so copy works even with JS off
+  (degrades to window.prompt) and so the same string is auditable in HTML.
+{%- endcomment -%}
+{%- capture _reviewer_note_text -%}
+Panta Rhei Research Program — {{ _page_title }}
+
+{% if _page_desc %}{{ _page_desc | strip_html }}
+
+{% endif %}Status: {{ _status }}
+Suggested review angle: {{ _angle }}
+URL: {{ _page_url }}
+
+Shared not as an endorsement, but as a page that may be worth expert inspection.
+{%- endcapture -%}
+{%- capture _citation_text -%}Panta Rhei Research Program. "{{ _page_title }}." Public research observatory. {{ _page_url }}{%- endcapture -%}
+
+{%- if _variant == "rail" -%}
+<aside class="page-tools page-tools--rail"
+       data-page-tools
+       data-title="{{ _page_title | escape }}"
+       data-description="{{ _page_desc | strip_html | escape }}"
+       data-url="{{ _page_url }}"
+       data-status="{{ _status | escape }}"
+       data-review-angle="{{ _angle | escape }}">
+  <div class="page-tools__section-label">{{ _label }}</div>
+  <ul class="page-tools__rows" role="list">
+    {% if _dossier_pdf %}
+    <li><a class="page-tools__row" href="{{ _dossier_pdf | relative_url }}" download>
+      <span class="page-tools__icon" aria-hidden="true">↓</span>
+      <span class="page-tools__label-stack">
+        <span class="page-tools__label">Dossier PDF</span>
+        <span class="page-tools__desc">Portable A4 research brief</span>
+      </span>
+    </a></li>
+    {% endif %}
+    {% if _markdown_export %}
+    <li><a class="page-tools__row" href="{{ _markdown_export | relative_url }}" download>
+      <span class="page-tools__icon" aria-hidden="true">⌘</span>
+      <span class="page-tools__label-stack">
+        <span class="page-tools__label">Markdown</span>
+        <span class="page-tools__desc">Clean text export</span>
+      </span>
+    </a></li>
+    {% endif %}
+    <li><button class="page-tools__row" type="button" data-page-action="copy-link" data-copy-value="{{ _page_url }}">
+      <span class="page-tools__icon" aria-hidden="true">⧉</span>
+      <span class="page-tools__label">Copy link</span>
+    </button></li>
+    <li><button class="page-tools__row" type="button" data-page-action="copy-reviewer-note" data-copy-value="{{ _reviewer_note_text | strip | escape }}">
+      <span class="page-tools__icon" aria-hidden="true">✉</span>
+      <span class="page-tools__label">Reviewer note</span>
+    </button></li>
+  </ul>
+  <span class="page-tools__status" aria-live="polite"></span>
+</aside>
+{%- elsif _variant == "bottom" -%}
+<section class="page-tools page-tools--bottom"
+         data-page-tools
+         data-title="{{ _page_title | escape }}"
+         data-description="{{ _page_desc | strip_html | escape }}"
+         data-url="{{ _page_url }}"
+         data-status="{{ _status | escape }}"
+         data-review-angle="{{ _angle | escape }}"
+         aria-labelledby="page-tools-bottom-heading">
+  <div class="page-tools__bottom-copy">
+    <h2 id="page-tools-bottom-heading">Save or share this page for inspection</h2>
+    <p>Download a portable dossier, copy a reviewer note, or send this page to someone who can inspect it.</p>
+  </div>
+  <div class="page-tools__bottom-actions">
+    {% if _dossier_pdf %}
+    <a class="page-tools__chip" href="{{ _dossier_pdf | relative_url }}" download>
+      <span class="page-tools__icon" aria-hidden="true">↓</span>
+      <span>Download dossier PDF</span>
+    </a>
+    {% endif %}
+    {% if _markdown_export %}
+    <a class="page-tools__chip" href="{{ _markdown_export | relative_url }}" download>
+      <span class="page-tools__icon" aria-hidden="true">⌘</span>
+      <span>Download Markdown</span>
+    </a>
+    {% endif %}
+    <button class="page-tools__chip" type="button" data-page-action="copy-link" data-copy-value="{{ _page_url }}">
+      <span class="page-tools__icon" aria-hidden="true">⧉</span>
+      <span>Copy link</span>
+    </button>
+    <button class="page-tools__chip" type="button" data-page-action="copy-reviewer-note" data-copy-value="{{ _reviewer_note_text | strip | escape }}">
+      <span class="page-tools__icon" aria-hidden="true">✉</span>
+      <span>Copy reviewer note</span>
+    </button>
+    <button class="page-tools__chip" type="button" data-page-action="copy-citation" data-copy-value="{{ _citation_text | escape }}">
+      <span class="page-tools__icon" aria-hidden="true">❞</span>
+      <span>Copy citation</span>
+    </button>
+    <a class="page-tools__chip" href="mailto:" data-page-action="email-expert" rel="noopener">
+      <span class="page-tools__icon" aria-hidden="true">@</span>
+      <span>Email to expert</span>
+    </a>
+  </div>
+  <span class="page-tools__status" aria-live="polite"></span>
+</section>
+{%- elsif _variant == "drawer" -%}
+{%- comment -%}
+  Drawer variant — used inside `.header-page-drawer` (mobile). Outer wrapper
+  is rendered by header.html; this include emits the inner page-tools section
+  only. The drawer's separate "On this page" TOC subsection is rendered
+  separately by header.html (it's populated by mobile-shell JS that scans
+  page H2s, not by this include).
+{%- endcomment -%}
+<section class="page-tools page-tools--drawer page-drawer-section page-drawer-tools"
+         data-page-tools
+         data-title="{{ _page_title | escape }}"
+         data-description="{{ _page_desc | strip_html | escape }}"
+         data-url="{{ _page_url }}"
+         data-status="{{ _status | escape }}"
+         data-review-angle="{{ _angle | escape }}"
+         aria-labelledby="page-drawer-tools-title">
+  <div class="page-drawer-section-title page-tools__section-label" id="page-drawer-tools-title">{{ _label }}</div>
+  {% if _dossier_pdf %}
+  <a class="page-tools__row page-tool-row" href="{{ _dossier_pdf | relative_url }}" download>
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">↓</span>
+    <span class="page-tools__label-stack">
+      <span class="page-tools__label page-tool-title">Dossier PDF</span>
+      <span class="page-tools__desc page-tool-description">Portable A4 research brief</span>
+    </span>
+  </a>
+  {% endif %}
+  {% if _markdown_export %}
+  <a class="page-tools__row page-tool-row" href="{{ _markdown_export | relative_url }}" download>
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">⌘</span>
+    <span class="page-tools__label-stack">
+      <span class="page-tools__label page-tool-title">Markdown</span>
+      <span class="page-tools__desc page-tool-description">Portable clean-text export</span>
+    </span>
+  </a>
+  {% endif %}
+  <button class="page-tools__row page-tool-row" type="button" data-page-action="share" data-share-url="{{ _page_url | escape }}" data-share-title="{{ _page_title | escape }}">
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">↗</span>
+    <span class="page-tools__label page-tool-title">Share page</span>
+  </button>
+  <button class="page-tools__row page-tool-row" type="button" data-page-action="copy-link" data-copy-value="{{ _page_url }}">
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">⧉</span>
+    <span class="page-tools__label page-tool-title">Copy link</span>
+  </button>
+  <a class="page-tools__row page-tool-row" href="{{ _review_url }}" target="_blank" rel="noopener" data-page-action="reviewer-note">
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">✉</span>
+    <span class="page-tools__label-stack">
+      <span class="page-tools__label page-tool-title">Reviewer note</span>
+      <span class="page-tools__desc page-tool-description">Open a prefilled page note</span>
+    </span>
+  </a>
+  <button class="page-tools__row page-tool-row" type="button" data-page-action="copy-citation" data-copy-value="{{ _citation_text | escape }}">
+    <span class="page-tools__icon page-tool-icon" aria-hidden="true">❞</span>
+    <span class="page-tools__label page-tool-title">Copy citation</span>
+  </button>
+  <span class="page-tools__status page-tool-toast" aria-live="polite"></span>
+</section>
+{%- endif -%}

@@ -1,0 +1,304 @@
+// =====================================================================
+// Page tools — "This Page" rail card + bottom inspection panel + drawer
+// =====================================================================
+// Briefing: atlas/website/briefings/v4/27_v4_share_component_desktop.md
+//
+// Three variants share the same .page-tools shell:
+//   .page-tools--rail    desktop right-rail compact card (above local TOC)
+//   .page-tools--bottom  above-footer inspection panel
+//   .page-tools--drawer  mobile this-page drawer (inside header)
+//
+// Each variant inherits the shell rules below, then overrides padding,
+// typography, and layout to fit its slot.
+// =====================================================================
+
+// ── Shared shell ─────────────────────────────────────────────────────
+
+.page-tools {
+  background: var(--surface-card);
+  color: $text;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+}
+
+.page-tools__section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $text-muted;
+  margin-bottom: 0.5rem;
+}
+
+.page-tools__rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    margin: 0;
+  }
+}
+
+// All three variants share the same row affordance: icon + label, optional
+// muted descriptor, 44px+ target size, subtle hover background.
+.page-tools__row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.5rem 0.6rem;
+  border: 0;
+  border-radius: $radius-sm;
+  background: transparent;
+  color: $text;
+  font: inherit;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background $transition, color $transition, transform $transition;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--panta-blue-50);
+    color: var(--panta-blue-800);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &[disabled],
+  &.is-disabled {
+    color: $text-muted;
+    cursor: not-allowed;
+    opacity: 0.58;
+
+    &:hover,
+    &:focus-visible {
+      background: transparent;
+      color: $text-muted;
+    }
+  }
+}
+
+.page-tools__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: $radius-xs;
+  background: var(--surface-meta);
+  color: var(--panta-blue-700);
+  font-size: 1.05rem;
+  font-weight: 600;
+  // Unicode glyphs (↓ ⌘ ⧉ ✉ ❞ ↗ @) used across all variants — matches the
+  // existing mobile-drawer aesthetic and avoids loading an icon font.
+  line-height: 1;
+}
+
+.page-tools__label-stack {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.page-tools__label {
+  display: block;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.page-tools__desc {
+  display: block;
+  font-size: 0.74rem;
+  line-height: 1.25;
+  color: $text-muted;
+}
+
+.page-tools__status {
+  display: block;
+  min-height: 1rem;
+  margin-top: 0.4rem;
+  font-size: 0.74rem;
+  color: var(--semantic-success);
+}
+
+// ── Rail variant ─────────────────────────────────────────────────────
+
+.page-tools--rail {
+  border: 1px solid $divider;
+  border-radius: $radius-lg;
+  padding: 0.75rem;
+  margin-bottom: 18px;
+  box-shadow: 0 1px 0 rgba(21, 23, 28, 0.02);
+
+  // The rail card sits above the local TOC inside .right-rail. Subtle
+  // shadow only — the rail itself sits on a paper background that
+  // already provides the bounded card feel.
+}
+
+// Tablet / narrow desktop: when the right-rail collapses (≤1080px), hide
+// the rail card. The bottom panel handles tools in that breakpoint band;
+// the mobile drawer takes over below the mobile breakpoint.
+@media (max-width: 1080px) {
+  .page-tools--rail {
+    display: none;
+  }
+}
+
+// ── Bottom variant ───────────────────────────────────────────────────
+
+.page-tools--bottom {
+  margin: 36px 0 24px;
+  padding: 24px 28px;
+  border: 1px solid $divider;
+  border-radius: $radius-lg;
+  background: var(--surface-card);
+  box-shadow: 0 1px 0 rgba(21, 23, 28, 0.02);
+
+  @media (max-width: $bp-collapse) {
+    padding: 20px 22px;
+  }
+
+  @media (max-width: $bp-stack) {
+    margin: 24px 0 16px;
+    padding: 18px 18px;
+    border-radius: $radius-lg;
+  }
+}
+
+.page-tools__bottom-copy {
+  margin-bottom: 16px;
+
+  h2 {
+    margin: 0 0 6px;
+    font-size: 1.05rem;
+    font-weight: 650;
+    line-height: 1.25;
+    color: $text;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    color: $text-muted;
+    max-width: 60ch;
+  }
+}
+
+.page-tools__bottom-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.page-tools__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 1px solid $divider;
+  border-radius: $radius-pill;
+  background: var(--surface-card);
+  color: $text;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 540;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background $transition, border-color $transition, color $transition, transform $transition, box-shadow $transition;
+
+  > .page-tools__icon {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    color: var(--panta-blue-700);
+    font-size: 0.95rem;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: var(--panta-blue-50);
+    border-color: rgba(22, 62, 100, 0.26);
+    color: var(--panta-blue-800);
+    text-decoration: none;
+    box-shadow: 0 6px 14px rgba(21, 23, 28, 0.06);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+// ── Drawer variant — visual parity with legacy mobile drawer ─────────
+//
+// The drawer's outer wrapper (`.header-page-drawer`) and toggle button
+// continue to live in `_includes/header.html` and `_sass/_header.scss`.
+// This block re-establishes the inner row styling for the unified
+// markup so the legacy `.page-tool-row` / `.page-tool-icon` / `.page-tool-title`
+// selectors that header.scss still references continue to render
+// identically while we migrate referencing surfaces.
+//
+// The unified markup carries BOTH old + new classes so `header.scss`'s
+// .page-tool-row rules and this file's .page-tools__row rules apply
+// in parallel during the transition cycle. End state: header.scss's
+// `.page-tool-*` rules can be removed once nothing else depends on them.
+
+.page-tools--drawer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  .page-tools__row {
+    border-radius: $radius-sm;
+
+    @media (max-width: $bp-stack) {
+      min-height: 48px;
+      padding: 10px 12px;
+    }
+  }
+
+  .page-tools__label {
+    font-size: 0.88rem;
+    font-weight: 620;
+  }
+
+  .page-tools__desc {
+    font-size: 0.76rem;
+  }
+}
+
+// Reduced motion — disable the active-state translate.
+@media (prefers-reduced-motion: reduce) {
+  .page-tools__row,
+  .page-tools__chip {
+    transition: none !important;
+
+    &:active {
+      transform: none;
+    }
+  }
+}

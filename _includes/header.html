@@ -18,24 +18,12 @@
     </button>
 
     {% unless page.shell == 'home' %}
-    {%- assign _page_url    = page.url | absolute_url -%}
-    {%- assign _page_title  = page.title | default: site.title -%}
-    {%- assign _dossier_pdf = page.pdf | default: page.pdf_url | default: page.pdf_path | default: page.dossier_pdf -%}
-    {%- assign _markdown_export = page.markdown | default: page.markdown_url | default: page.markdown_path -%}
-    {%- capture _review_body_raw -%}
-Page: {{ _page_url }}
-Title: {{ _page_title }}
-
----
-
-_Your note here_
-    {%- endcapture -%}
-    {%- capture _citation_raw -%}{{ _page_title }}. Panta Rhei Research Program. {{ _page_url }}{%- endcapture -%}
-    {%- assign _title_enc = _page_title | url_encode -%}
-    {%- assign _body_enc  = _review_body_raw | url_encode -%}
-    {%- assign _review_url = "https://github.com/Panta-Rhei-Research/site/issues/new?template=page-correction.yml&title=" | append: _title_enc | append: "&body=" | append: _body_enc -%}
-
-    <!-- This-page utility drawer (mobile shell surface; legacy TOC IDs retained for compatibility) -->
+    {% if page.page_tools != false %}
+    <!-- This-page utility drawer (mobile shell surface; legacy TOC IDs retained for compatibility).
+         The inner page-tools section is rendered via _includes/page-tools.html (variant=drawer)
+         to share one source of truth with the desktop rail card + bottom inspection panel.
+         The "On this page" TOC subsection stays inline — it's populated by mobile-shell JS that
+         scans page H2s, separate concern from page-tools. -->
     <div class="header-page-wrapper header-toc-wrapper" id="header-toc-wrapper">
       <button class="header-page-btn header-toc-btn shell-control" id="header-toc-toggle" aria-label="This page tools and contents" aria-expanded="false" aria-controls="header-toc-dropdown" type="button">
         <svg class="header-page-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 -960 960 960" aria-hidden="true">
@@ -43,47 +31,7 @@ _Your note here_
         </svg>
       </button>
       <div class="header-page-drawer header-toc-dropdown" id="header-toc-dropdown" role="dialog" aria-label="This page" hidden>
-        <section class="page-drawer-section page-drawer-tools" aria-labelledby="page-drawer-tools-title">
-          <div class="page-drawer-section-title" id="page-drawer-tools-title">Page tools</div>
-          {% if _dossier_pdf %}
-          <a class="page-tool-row" href="{{ _dossier_pdf | relative_url }}" download data-page-action="dossier-pdf">
-            <span class="page-tool-icon" aria-hidden="true">↓</span>
-            <span><span class="page-tool-title">Dossier PDF</span><span class="page-tool-description">Portable A4 research brief</span></span>
-          </a>
-          {% else %}
-          <button class="page-tool-row is-disabled" type="button" disabled data-page-action="dossier-pdf">
-            <span class="page-tool-icon" aria-hidden="true">↓</span>
-            <span><span class="page-tool-title">Dossier PDF</span><span class="page-tool-description">Portable A4 research brief · pending</span></span>
-          </button>
-          {% endif %}
-          {% if _markdown_export %}
-          <a class="page-tool-row" href="{{ _markdown_export | relative_url }}" download data-page-action="markdown">
-            <span class="page-tool-icon" aria-hidden="true">⌘</span>
-            <span><span class="page-tool-title">Markdown</span><span class="page-tool-description">Portable clean-text export</span></span>
-          </a>
-          {% else %}
-          <button class="page-tool-row is-disabled" type="button" disabled data-page-action="markdown">
-            <span class="page-tool-icon" aria-hidden="true">⌘</span>
-            <span><span class="page-tool-title">Markdown</span><span class="page-tool-description">Portable clean-text export · pending</span></span>
-          </button>
-          {% endif %}
-          <button class="page-tool-row" type="button" data-page-action="share" data-share-url="{{ _page_url | escape }}" data-share-title="{{ _page_title | escape }}">
-            <span class="page-tool-icon" aria-hidden="true">↗</span>
-            <span><span class="page-tool-title">Share page</span><span class="page-tool-description">Route this page for review</span></span>
-          </button>
-          <button class="page-tool-row" type="button" data-page-action="copy-link" data-copy-value="{{ _page_url | escape }}">
-            <span class="page-tool-icon" aria-hidden="true">⧉</span>
-            <span><span class="page-tool-title">Copy link</span><span class="page-tool-description">Copy canonical URL</span></span>
-          </button>
-          <a class="page-tool-row" href="{{ _review_url }}" target="_blank" rel="noopener" data-page-action="reviewer-note">
-            <span class="page-tool-icon" aria-hidden="true">✉</span>
-            <span><span class="page-tool-title">Reviewer note</span><span class="page-tool-description">Open a prefilled page note</span></span>
-          </a>
-          <button class="page-tool-row" type="button" data-page-action="copy-citation" data-copy-value="{{ _citation_raw | strip | escape }}">
-            <span class="page-tool-icon" aria-hidden="true">❞</span>
-            <span><span class="page-tool-title">Copy citation</span><span class="page-tool-description">Copy a compact web citation</span></span>
-          </button>
-        </section>
+        {% include page-tools.html variant="drawer" label="Page tools" %}
         <section class="page-drawer-section page-drawer-toc" aria-labelledby="page-drawer-toc-title">
           <div class="page-drawer-section-title" id="page-drawer-toc-title">On this page</div>
           <div class="page-drawer-toc-list" id="page-drawer-toc-list">
@@ -92,6 +40,7 @@ _Your note here_
         </section>
       </div>
     </div>
+    {% endif %}
     {% endunless %}
 
     <!-- Hamburger (mobile only) -->
