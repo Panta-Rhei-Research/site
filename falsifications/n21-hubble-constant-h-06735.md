@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N21 — Hubble constant $h = 0.6735$"
-permalink: "/falsifications/n21-hubble-constant-h-06735/"
+permalink: "/results/falsifications/n21-hubble-constant-h-06735/"
 lane: "results"
 falsification_id: "N21"
 n_num: 21

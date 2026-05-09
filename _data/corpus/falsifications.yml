@@ -16,7 +16,7 @@ falsification_tests:
   - FCC
   timeline: ongoing–2040
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n1-no-fourth-generation/
+  route: /results/falsifications/n1-no-fourth-generation/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -35,7 +35,7 @@ falsification_tests:
   - CEPC
   timeline: ongoing–2040
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n2-no-susy-partners/
+  route: /results/falsifications/n2-no-susy-partners/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -57,7 +57,7 @@ falsification_tests:
   - ADMX
   timeline: 2025–2035
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n3-no-dark-matter-particle/
+  route: /results/falsifications/n3-no-dark-matter-particle/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -75,7 +75,7 @@ falsification_tests:
   - n2EDM at PSI
   timeline: 2025–2030
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n4-neutron-edm-is-exactly-zero/
+  route: /results/falsifications/n4-neutron-edm-is-exactly-zero/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -95,7 +95,7 @@ falsification_tests:
   - KamLAND-Zen
   timeline: 2027–2035
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n5-all-neutrinos-are-majorana/
+  route: /results/falsifications/n5-all-neutrinos-are-majorana/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -115,7 +115,7 @@ falsification_tests:
   - KATRIN/Project~8
   timeline: 2027–2032
   decisive_condition: $$ measured outside $0.082$–$0.096$~eV
-  route: /falsifications/n6-sum-of-neutrino-masses-m-0089/
+  route: /results/falsifications/n6-sum-of-neutrino-masses-m-0089/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -134,7 +134,7 @@ falsification_tests:
   - Hyper-Kamiokande
   timeline: 2027–2030
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n7-normal-mass-hierarchy/
+  route: /results/falsifications/n7-normal-mass-hierarchy/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -153,7 +153,7 @@ falsification_tests:
   - JUNO
   timeline: ongoing–2040+
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n8-proton-stable/
+  route: /results/falsifications/n8-proton-stable/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -172,7 +172,7 @@ falsification_tests:
   - LiteBIRD
   timeline: 2027–2030
   decisive_condition: $14$ by CMB-S4
-  route: /falsifications/n9-tensor-to-scalar-ratio-r-4-00136/
+  route: /results/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -190,7 +190,7 @@ falsification_tests:
   - LiteBIRD
   timeline: 2028–2032
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n10-spectral-index-ns-1-257/
+  route: /results/falsifications/n10-spectral-index-ns-1-257/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -208,7 +208,7 @@ falsification_tests:
   - CMB-S4
   timeline: confirmed at $+0.28%$
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n11-first-acoustic-peak-1-2206/
+  route: /results/falsifications/n11-first-acoustic-peak-1-2206/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -226,7 +226,7 @@ falsification_tests:
   - LiteBIRD
   timeline: 2028–2032
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n12-b-mode-amplitude-d80/
+  route: /results/falsifications/n12-b-mode-amplitude-d80/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -243,7 +243,7 @@ falsification_tests:
   - CMB-S4
   timeline: 2028–2032
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n13-n-eff/
+  route: /results/falsifications/n13-n-eff/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -261,7 +261,7 @@ falsification_tests:
   - CMB-S4
   timeline: confirmed at $+9$~ppm
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n14-silk-damping-ratio-d-1-d-b/
+  route: /results/falsifications/n14-silk-damping-ratio-d-1-d-b/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -278,7 +278,7 @@ falsification_tests:
   - metal-poor HII regions
   timeline: ongoing
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n15-helium-4-mass-fraction-yp-2081/
+  route: /results/falsifications/n15-helium-4-mass-fraction-yp-2081/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -295,7 +295,7 @@ falsification_tests:
   - quasar absorption systems
   timeline: ongoing, improving with 30m-class telescopes
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n16-deuterium-abundance-from-native-b/
+  route: /results/falsifications/n16-deuterium-abundance-from-native-b/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -313,7 +313,7 @@ falsification_tests:
   - primordial gas clouds
   timeline: 2025–2035
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n17-lithium-7-resolved-s-13/
+  route: /results/falsifications/n17-lithium-7-resolved-s-13/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -332,7 +332,7 @@ falsification_tests:
   - Rubin/LSST
   timeline: 2025–2030
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n18-equation-of-state-w0-0960/
+  route: /results/falsifications/n18-equation-of-state-w0-0960/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -350,7 +350,7 @@ falsification_tests:
   - Euclid
   timeline: 2025–2030
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n19-no-phantom-crossing/
+  route: /results/falsifications/n19-no-phantom-crossing/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -369,7 +369,7 @@ falsification_tests:
   - Rubin
   timeline: 2027–2032
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n20-dark-energy-density-06849/
+  route: /results/falsifications/n20-dark-energy-density-06849/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -388,7 +388,7 @@ falsification_tests:
   - gravitational wave standard sirens
   timeline: 2025–2035
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n21-hubble-constant-h-06735/
+  route: /results/falsifications/n21-hubble-constant-h-06735/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -407,7 +407,7 @@ falsification_tests:
   - DES legacy
   timeline: 2026–2032
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n22-clustering-amplitude-s8-0760/
+  route: /results/falsifications/n22-clustering-amplitude-s8-0760/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -424,7 +424,7 @@ falsification_tests:
   - all DM searches
   timeline: permanent
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n23-no-dm-detection-ever/
+  route: /results/falsifications/n23-no-dm-detection-ever/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -443,7 +443,7 @@ falsification_tests:
   - Einstein Telescope
   timeline: 2029–2035
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n24-qnm-frequency-ratio-1/
+  route: /results/falsifications/n24-qnm-frequency-ratio-1/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -460,7 +460,7 @@ falsification_tests:
   - ngEHT (next-generation EHT)
   timeline: 2029–2033
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n25-eht-shadow-correction-291/
+  route: /results/falsifications/n25-eht-shadow-correction-291/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -479,7 +479,7 @@ falsification_tests:
   - LISA
   timeline: 2032–2040
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n26-gw-echo-time-ratio-2/
+  route: /results/falsifications/n26-gw-echo-time-ratio-2/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -498,7 +498,7 @@ falsification_tests:
   - ngEHT polarimetry
   timeline: 2030–2035
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n27-magnetic-winding-number-w-2/
+  route: /results/falsifications/n27-magnetic-winding-number-w-2/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -516,7 +516,7 @@ falsification_tests:
   - wind-tunnel data
   timeline: ongoing
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n28-she-leveque-from-3/
+  route: /results/falsifications/n28-she-leveque-from-3/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -534,7 +534,7 @@ falsification_tests:
   - wind tunnels
   timeline: ongoing
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n29-kolmogorov-constant-ck-32/
+  route: /results/falsifications/n29-kolmogorov-constant-ck-32/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.
@@ -554,7 +554,7 @@ falsification_tests:
   - MMS
   timeline: ongoing–2030
   decisive_condition: A public result incompatible with the τ-tracked prediction under the named experiment or measurement route.
-  route: /falsifications/n30-fast-reconnection-rate-v-rec/
+  route: /results/falsifications/n30-fast-reconnection-rate-v-rec/
   related_predictions: []
   related_results: []
   external_review_boundary: Requires domain expert review of derivation, measurement interpretation, and sensitivity assumptions.

@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N9 — Tensor-to-scalar ratio $r = _^4 0.0136$"
-permalink: "/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/"
+permalink: "/results/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/"
 lane: "results"
 falsification_id: "N9"
 n_num: 9

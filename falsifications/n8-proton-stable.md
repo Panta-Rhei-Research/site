@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N8 — Proton stable"
-permalink: "/falsifications/n8-proton-stable/"
+permalink: "/results/falsifications/n8-proton-stable/"
 lane: "results"
 falsification_id: "N8"
 n_num: 8

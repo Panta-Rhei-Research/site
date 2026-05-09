@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N20 — Dark energy density ΩΛ = 0.6849"
-permalink: "/falsifications/n20-dark-energy-density-06849/"
+permalink: "/results/falsifications/n20-dark-energy-density-06849/"
 lane: "results"
 falsification_id: "N20"
 n_num: 20

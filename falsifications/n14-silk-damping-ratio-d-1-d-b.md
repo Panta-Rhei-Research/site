@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N14 — Silk damping ratio $_D / _1 = _D / _B$"
-permalink: "/falsifications/n14-silk-damping-ratio-d-1-d-b/"
+permalink: "/results/falsifications/n14-silk-damping-ratio-d-1-d-b/"
 lane: "results"
 falsification_id: "N14"
 n_num: 14

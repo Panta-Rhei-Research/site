@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N27 — Magnetic winding number $w = 2$"
-permalink: "/falsifications/n27-magnetic-winding-number-w-2/"
+permalink: "/results/falsifications/n27-magnetic-winding-number-w-2/"
 lane: "results"
 falsification_id: "N27"
 n_num: 27

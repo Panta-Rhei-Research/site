@@ -40,7 +40,7 @@ right_rail:
 {% assign source_chapters = site.data.corpus.calibration.source_chapters.source_chapters %}
 {% assign index = site.data.corpus.calibration.index.calibration %}
 {% assign established_constants = constants | where: "scope_label", "Established" %}
-{% assign tau_constants = constants | where: "scope_label", "Tau-effective" %}
+{% assign tau_constants = constants | where: "scope_label", "τ-effective" %}
 {% assign conjectural_constants = constants | where: "scope_label", "Conjectural" %}
 {% assign structural_constants = constants | where: "scope_label", "Metaphorical / structural reading" %}
 
@@ -180,7 +180,7 @@ right_rail:
 </div>
 
 <div class="notice note">
-  <strong>Scope label.</strong> Tau-effective means τ-effective. Metadata keeps the stable value <code>tau_effective</code>; public pages render the visible label as <strong>τ-effective</strong>.
+  <strong>Scope label.</strong> <strong>τ-effective</strong> means internal τ-derived or τ-effective construction/readout. Metadata keeps the stable value <code>tau_effective</code>.
 </div>
 
 <span id="key-nodes"></span>
@@ -355,10 +355,10 @@ right_rail:
 <p>Notation guardrail: the Bohr radius is rendered as <code>a_B</code> with the alias <code>a_0^{Bohr}</code> where needed, so it is not confused with acceleration-scale notation elsewhere in the physics pages.</p>
 
 <div class="calibration-scope-groups" aria-label="Constants Ledger by scope">
-  {% assign scope_sets = "Established|Tau-effective|Conjectural|Metaphorical / structural reading" | split: "|" %}
+  {% assign scope_sets = "Established|τ-effective|Conjectural|Metaphorical / structural reading" | split: "|" %}
   {% for scope_name in scope_sets %}
   {% assign scoped_constants = constants | where: "scope_label", scope_name %}
-  {% assign scope_display = scope_name | replace: "Tau-effective", "τ-effective" | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
+  {% assign scope_display = scope_name | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
   <details class="calibration-inspector-card" id="constant-scope-{{ scope_name | slugify }}" {% if forloop.first %}open{% endif %}>
     <summary>
       <span class="calibration-summary-main">
@@ -392,7 +392,7 @@ right_rail:
   {% assign unit_context = unit_contexts | where: "id", item.unit_context | first %}
   <li>
     <details class="calibration-inspector-card" id="node-constant-{{ item.id | downcase }}">
-      {% assign item_scope_display = item.scope_label | replace: "Tau-effective", "τ-effective" | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
+      {% assign item_scope_display = item.scope_label | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
       <summary>
         <span class="calibration-summary-main">
           <strong>{{ item.sequence }}. <code>{{ item.symbol }}</code> · {{ item.quantity }}</strong>
@@ -430,7 +430,7 @@ right_rail:
     </thead>
     <tbody>
       {% for item in constants %}
-      {% assign item_scope_display = item.scope_label | replace: "Tau-effective", "τ-effective" | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
+      {% assign item_scope_display = item.scope_label | replace: "Metaphorical / structural reading", "Metaphorical / structural" %}
       <tr>
         <th scope="row">{{ item.sequence }}</th>
         <td><code>{{ item.symbol }}</code> · {{ item.quantity }}</td>

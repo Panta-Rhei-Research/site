@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N6"
     title: "N6 — Sum of neutrino masses mν = 0.089 eV"
-    url: "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
+    url: "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -66,7 +66,7 @@ Best-fit exponents p=3.7, q=4.8, r=2.8 for sigma-polarity matrix M. Shape parame
 ## Related Results surfaces
 
 - [Sum of Neutrino Masses](/predictions/m-ev/)
-- [N6 — Sum of neutrino masses mν = 0.089 eV](/falsifications/n6-sum-of-neutrino-masses-m-0089/)
+- [N6 — Sum of neutrino masses mν = 0.089 eV](/results/falsifications/n6-sum-of-neutrino-masses-m-0089/)
 
 ## Reading role
 

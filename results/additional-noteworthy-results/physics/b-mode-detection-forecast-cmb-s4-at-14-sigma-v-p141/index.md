@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N12"
     title: "N12 — B-mode amplitude D80"
-    url: "/falsifications/n12-b-mode-amplitude-d80/"
+    url: "/results/falsifications/n12-b-mode-amplitude-d80/"
     match_basis: "facet_title_summary"
     match_confidence: "medium"
     matched_terms:
@@ -75,7 +75,7 @@ B-mode detection forecast: CMB-S4 at ~14 sigma, LiteBIRD at ~7 sigma, BICEP Arra
 ## Related Results surfaces
 
 - [Primordial Gravitational Waves](/results/problem/primordial-gravitational-waves/)
-- [N12 — B-mode amplitude D80](/falsifications/n12-b-mode-amplitude-d80/)
+- [N12 — B-mode amplitude D80](/results/falsifications/n12-b-mode-amplitude-d80/)
 - [CMB-S4/PTOLEMY/DESI Falsification Suite](/registry/object/V.P138/)
 
 ## Reading role

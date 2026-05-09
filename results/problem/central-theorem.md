@@ -48,3 +48,16 @@ The Central Theorem is the climax of [Book II]({{ '/publications/books/book-ii/'
 ## Result Statement
 
 The algebra of holomorphic functions on τ³ is isomorphic to the spectral algebra of the lemniscate boundary: O(τ³) ≅ A_spec(L) (II.T40). This isomorphism is functorial, bipolar-compatible, tower-graded, and ι<sub>τ</sub>-calibrated. Interior is fully determined by boundary data.
+
+## Lean formalization scope
+
+The universal-quantifier isomorphism statement (II.T40 above) is **not** itself formalized in Lean as an `Iso` or `RingEquiv`. What is currently formalized in TauLib is a single-rank decidability check at parameters (3, 15):
+
+```lean
+-- TauLib/BookII/CentralTheorem.lean
+theorem central_theorem_3_15 :
+    central_theorem_check 3 15 = true :=
+  by native_decide
+```
+
+This `Bool`-decide check is a finite-rank witness that the structural isomorphism holds at the specific parameter point used in Book II's spectral construction. It is **not** the universal-quantifier statement. Reviewers should treat this page's frontmatter `lean_formalization_status: "none"` as authoritative for the universal isomorphism, and treat the Lean witness as a finite check at the canonical Book II rank. The trusted-base disclosure in the [TCB inventory]({{ '/verify/tcb/' | relative_url }}) records the same scope. Lifting `central_theorem_3_15` to a universal `Iso` in Lean is on the formalization roadmap and not a current claim.

@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N11 — First acoustic peak $_1 = 220.6$"
-permalink: "/falsifications/n11-first-acoustic-peak-1-2206/"
+permalink: "/results/falsifications/n11-first-acoustic-peak-1-2206/"
 lane: "results"
 falsification_id: "N11"
 n_num: 11

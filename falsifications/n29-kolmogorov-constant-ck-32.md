@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N29 — Kolmogorov constant $C_K = 3/2$"
-permalink: "/falsifications/n29-kolmogorov-constant-ck-32/"
+permalink: "/results/falsifications/n29-kolmogorov-constant-ck-32/"
 lane: "results"
 falsification_id: "N29"
 n_num: 29
