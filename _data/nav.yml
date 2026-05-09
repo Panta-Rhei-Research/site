@@ -469,8 +469,6 @@ lane_nav:
             children:
               - title: "Public-Good Briefings"
                 url: "/publications/research-briefings/public-good/"
-          - title: "White Papers"
-            url: "/publications/white-papers/"
           - title: "Release Artifacts"
             url: "/publications/release-artifacts/"
           - title: "Archived Releases"
@@ -739,8 +737,6 @@ publications_nav:
     url: "/publications/research-briefings/public-good/"
   - title: "Guided Tours"
     url: "/publications/guided-tours/"
-  - title: "White Papers"
-    url: "/publications/white-papers/"
   - title: "Release Artifacts"
     url: "/publications/release-artifacts/"
   - title: "Errata"

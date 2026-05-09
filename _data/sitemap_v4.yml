@@ -324,6 +324,8 @@ support:
   links:
     - title: "Publications"
       url: "/publications/"
+    - title: "Anchor Documents"
+      url: "/publications/anchor-documents/"
     - title: "Panta Rhei Conspectus"
       url: "/publications/conspectus/"
     - title: "Research Monographs"
@@ -336,8 +338,6 @@ support:
       url: "/publications/research-notes/"
     - title: "Research Briefings"
       url: "/publications/research-briefings/"
-    - title: "White Papers"
-      url: "/publications/white-papers/"
     - title: "Guided Tours"
       url: "/publications/guided-tours/"
     - title: "Release Artifacts"
