@@ -91,7 +91,7 @@ def assert_standard_page(html: str, route: str) -> None:
     require(html, '"@type": "BreadcrumbList"', f"breadcrumb JSON-LD preserved on {route}")
 
 
-def assert_search_shell(layout_html: str, css: str) -> None:
+def assert_search_shell(layout_html: str, css: str, page_actions_js: str = "") -> None:
     require(layout_html, "new PagefindUI", "Pagefind initialization")
     require(layout_html, "syncGoogleSearchLink", "Google fallback search sync")
     require(layout_html, 'aria-label="Search the site"', "search dialog accessible label")
@@ -99,8 +99,13 @@ def assert_search_shell(layout_html: str, css: str) -> None:
     require(layout_html, "toggleSearch();", "header search toggle invocation")
     require(layout_html, "data-cfasync=\"false\"", "Rocket-Loader-safe search script")
     require(layout_html, "window.closePageDrawer", "page drawer close alias")
-    require(layout_html, "navigator.share", "Web Share fallback path")
-    require(layout_html, "navigator.clipboard", "clipboard fallback path")
+    # navigator.share / navigator.clipboard moved from inline layout JS to the
+    # deferred /assets/js/page-actions.js module per PR #155 (briefing 27).
+    # Allow either source (layout fallback for tests that don't supply the JS,
+    # canonical home is page-actions.js).
+    share_haystack = layout_html + "\n" + page_actions_js
+    require(share_haystack, "navigator.share", "Web Share fallback path")
+    require(share_haystack, "navigator.clipboard", "clipboard fallback path")
     require(css, ".search-overlay-panel", "search overlay panel CSS")
     require(css, "max-height:calc(100dvh - 56px - 24px)", "mobile search shell-card height constraint")
     require(css, ".pagefind-ui__filter-panel", "defensive Pagefind filter CSS")
@@ -127,6 +132,16 @@ def main() -> None:
     source_root = root.parent if root.name == "_site" else Path(".")
     css = read(root / "assets" / "css" / "main.css")
     layout_html = read(source_root / "_layouts" / "default.html")
+    # PR #155 moved share / clipboard handlers from inline layout JS to a
+    # deferred module at /assets/js/page-actions.js. Read it here so the
+    # navigator.share / navigator.clipboard substring checks see the
+    # canonical source. Source-tree path is preferred (always present);
+    # fall back to the built _site path if running against a built site
+    # without a source mirror.
+    page_actions_path = source_root / "assets" / "js" / "page-actions.js"
+    if not page_actions_path.is_file():
+        page_actions_path = root / "assets" / "js" / "page-actions.js"
+    page_actions_js = read(page_actions_path) if page_actions_path.is_file() else ""
 
     index_html = read(built_path(root, "/"))
     assert_header_shell(index_html, css)
@@ -142,7 +157,7 @@ def main() -> None:
     ]:
         assert_standard_page(read(built_path(root, route)), route)
 
-    assert_search_shell(layout_html, css)
+    assert_search_shell(layout_html, css, page_actions_js)
     print("v4 mobile shell assertions passed")
 
 
