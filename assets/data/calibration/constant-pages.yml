@@ -47,7 +47,15 @@ constant_pages:
   diagram_accessibility:
     title: Fine-Structure Constant α cascade
     description: Directed dependency cascade for α from the Calibration Cascade metadata.
-    text_equivalent: ι_τ -> coupling ledger -> α
+    text_equivalent: π and e converge into ι_τ; ι_τ feeds α; α feeds the CODATA 2018 comparison and Numerical Prediction Catalogue.
+  diagram:
+    source_mmd: data/calibration/diagrams/alpha.mmd
+    rendered_svg: alpha.svg
+    alt_text: π and e converge into ι_τ; ι_τ feeds α; α feeds the CODATA 2018 comparison and Numerical Prediction Catalogue.
+    accessible_title: Fine-Structure Constant α cascade
+    accessible_description: Directed dependency cascade for α from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered
 - constant_page_id: cr1
   constant_key: r1
   constant_id: CL-14
@@ -94,7 +102,17 @@ constant_pages:
   diagram_accessibility:
     title: Level 1+ Mass Ratio R1 cascade
     description: Directed dependency cascade for R1 from the Calibration Cascade metadata.
-    text_equivalent: ι_τ -> α -> R1
+    text_equivalent: ι_τ feeds the Epstein and capacity terms; α feeds the holonomy term; the bracket and Epstein term converge
+      into R1.
+  diagram:
+    source_mmd: data/calibration/diagrams/r1.mmd
+    rendered_svg: r1.svg
+    alt_text: ι_τ feeds the Epstein and capacity terms; α feeds the holonomy term; the bracket and Epstein term converge into
+      R1.
+    accessible_title: Level 1+ Mass Ratio R1 cascade
+    accessible_description: Directed dependency cascade for R1 from the Calibration Cascade metadata.
+    orientation: LR
+    render_status: rendered
 - constant_page_id: cme
   constant_key: electron-mass
   constant_id: CL-15
@@ -140,7 +158,15 @@ constant_pages:
   diagram_accessibility:
     title: Electron Mass m_e cascade
     description: Directed dependency cascade for m_e from the Calibration Cascade metadata.
-    text_equivalent: m_n -> R1 -> m_e
+    text_equivalent: ι_τ and α feed R1; R1 and the neutron-mass anchor converge into m_e; m_e feeds the CODATA 2018 comparison.
+  diagram:
+    source_mmd: data/calibration/diagrams/electron-mass.mmd
+    rendered_svg: electron-mass.svg
+    alt_text: ι_τ and α feed R1; R1 and the neutron-mass anchor converge into m_e; m_e feeds the CODATA 2018 comparison.
+    accessible_title: Electron Mass m_e cascade
+    accessible_description: Directed dependency cascade for m_e from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered
 - constant_page_id: calphag
   constant_key: alpha-g
   constant_id: CL-26
@@ -185,7 +211,16 @@ constant_pages:
   diagram_accessibility:
     title: Gravitational Coupling α_G cascade
     description: Directed dependency cascade for α_G from the Calibration Cascade metadata.
-    text_equivalent: α -> α_G
+    text_equivalent: α feeds α_G through the source bridge formula; α_G is kept as a dimensionless bridge before any SI G
+      readout.
+  diagram:
+    source_mmd: data/calibration/diagrams/alpha-g.mmd
+    rendered_svg: alpha-g.svg
+    alt_text: α feeds α_G through the source bridge formula; α_G is kept as a dimensionless bridge before any SI G readout.
+    accessible_title: Gravitational Coupling α_G cascade
+    accessible_description: Directed dependency cascade for α_G from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered
 - constant_page_id: cg
   constant_key: g
   constant_id: CL-20
@@ -233,7 +268,15 @@ constant_pages:
   diagram_accessibility:
     title: Newton Constant G cascade
     description: Directed dependency cascade for G from the Calibration Cascade metadata.
-    text_equivalent: α_G -> m_n -> ℏ -> c -> G
+    text_equivalent: α feeds α_G; α_G, the neutron-mass anchor, ℏ, and c converge into G; G feeds the CODATA 2018 comparison.
+  diagram:
+    source_mmd: data/calibration/diagrams/g.mmd
+    rendered_svg: g.svg
+    alt_text: α feeds α_G; α_G, the neutron-mass anchor, ℏ, and c converge into G; G feeds the CODATA 2018 comparison.
+    accessible_title: Newton Constant G cascade
+    accessible_description: Directed dependency cascade for G from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered
 - constant_page_id: cmp
   constant_key: planck-mass
   constant_id: CL-23
@@ -278,7 +321,15 @@ constant_pages:
   diagram_accessibility:
     title: Planck Mass m_P cascade
     description: Directed dependency cascade for m_P from the Calibration Cascade metadata.
-    text_equivalent: G -> ℏ -> c -> m_P
+    text_equivalent: G, ℏ, and c converge into m_P; m_P feeds the CODATA 2018 comparison.
+  diagram:
+    source_mmd: data/calibration/diagrams/planck-mass.mmd
+    rendered_svg: planck-mass.svg
+    alt_text: G, ℏ, and c converge into m_P; m_P feeds the CODATA 2018 comparison.
+    accessible_title: Planck Mass m_P cascade
+    accessible_description: Directed dependency cascade for m_P from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered
 - constant_page_id: crydberg
   constant_key: rydberg-constant
   constant_id: CL-17
@@ -325,7 +376,15 @@ constant_pages:
   diagram_accessibility:
     title: Rydberg Constant R_∞ cascade
     description: Directed dependency cascade for R_∞ from the Calibration Cascade metadata.
-    text_equivalent: α -> m_e -> ℏ -> c -> R_∞
+    text_equivalent: α, m_e, c, and ℏ converge into R_∞; R_∞ feeds the CODATA 2018 comparison.
+  diagram:
+    source_mmd: data/calibration/diagrams/rydberg-constant.mmd
+    rendered_svg: rydberg-constant.svg
+    alt_text: α, m_e, c, and ℏ converge into R_∞; R_∞ feeds the CODATA 2018 comparison.
+    accessible_title: Rydberg Constant R_∞ cascade
+    accessible_description: Directed dependency cascade for R_∞ from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered
 - constant_page_id: cbohr
   constant_key: bohr-radius
   constant_id: CL-18
@@ -371,7 +430,15 @@ constant_pages:
   diagram_accessibility:
     title: Bohr Radius a_B cascade
     description: Directed dependency cascade for a_B from the Calibration Cascade metadata.
-    text_equivalent: α -> m_e -> ℏ -> c -> a_B
+    text_equivalent: ℏ, α, m_e, and c converge into a_B; a_B feeds the CODATA 2018 comparison.
+  diagram:
+    source_mmd: data/calibration/diagrams/bohr-radius.mmd
+    rendered_svg: bohr-radius.svg
+    alt_text: ℏ, α, m_e, and c converge into a_B; a_B feeds the CODATA 2018 comparison.
+    accessible_title: Bohr Radius a_B cascade
+    accessible_description: Directed dependency cascade for a_B from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered
 - constant_page_id: ccompton
   constant_key: compton-wavelength
   constant_id: CL-19
@@ -415,4 +482,12 @@ constant_pages:
   diagram_accessibility:
     title: Compton Wavelength λ_C cascade
     description: Directed dependency cascade for λ_C from the Calibration Cascade metadata.
-    text_equivalent: m_e -> ℏ -> c -> λ_C
+    text_equivalent: ℏ, m_e, and c converge into λ_C; λ_C feeds the CODATA 2018 comparison.
+  diagram:
+    source_mmd: data/calibration/diagrams/compton-wavelength.mmd
+    rendered_svg: compton-wavelength.svg
+    alt_text: ℏ, m_e, and c converge into λ_C; λ_C feeds the CODATA 2018 comparison.
+    accessible_title: Compton Wavelength λ_C cascade
+    accessible_description: Directed dependency cascade for λ_C from the Calibration Cascade metadata.
+    orientation: TD
+    render_status: rendered

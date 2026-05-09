@@ -1290,7 +1290,7 @@ def generate_calibration_constant_pages(source_root: Path) -> None:
         mmd_source = ""
         mmd_name = page.get("diagram_mmd", "")
         if mmd_name:
-            mmd_path = source_root / "diagrams" / mmd_name
+            mmd_path = source_root / "diagrams" / Path(mmd_name).name
             if mmd_path.exists():
                 mmd_source = mmd_path.read_text(encoding="utf-8")
 
@@ -1337,6 +1337,7 @@ def generate_calibration_constant_pages(source_root: Path) -> None:
             "diagram_svg": page.get("diagram_svg", ""),
             "diagram_svg_status": page.get("diagram_svg_status", "pending"),
             "diagram_accessibility": page.get("diagram_accessibility", ""),
+            "diagram": page.get("diagram", {}),
             "diagram_mmd_source": mmd_source,
             "right_rail": {
                 "related": [
@@ -1363,7 +1364,9 @@ def generate_calibration_constant_pages(source_root: Path) -> None:
 
     body = f"""> Generated index for the nine seeded Calibration Cascade constant/readout pages.
 
-These pages expose public inspection routes for the current seeded constants only. They do not recompute CODATA 2022 values or change the existing numerical prediction artifact.
+These detail pages cover the launch set of core cascade readouts. The full Constants Ledger remains available on the Calibration Cascade overview page. Additional constant pages may be added as their registry/TauLib/source mappings are normalized.
+
+These pages do not recompute CODATA 2022 values or change the existing numerical prediction artifact.
 
 <div class="notice note">
   <strong>Scope label.</strong> Tau-effective means τ-effective. Metadata keeps the stable value <code>tau_effective</code>; public pages render the visible label as <strong>τ-effective</strong>.

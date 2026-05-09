@@ -151,6 +151,6 @@ This is a statistics PhD thesis worth of work, not a first-pass dossier item. Th
 - [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) — the full 67-prediction catalogue, including the Tier A / B / C taxonomy
 - [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) — {% include release-metric.html id="falsifications.records" %} named-experiment tests
 - [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) — source, unit-context, and dependency overlay
-- [Numerical Physics Ledger publication artifact (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — long-form derivation artifact
+- [Numerical Prediction Supplement (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — long-form derivation artifact
 - [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — the 10 hardest first-contact questions
 - [How to Verify — Physicist Route]({{ '/verify/how-to-verify-by-role/physicist/' | relative_url }}) — concrete inspection path for a physics reviewer

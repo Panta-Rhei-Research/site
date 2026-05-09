@@ -42,7 +42,7 @@ If this hinge fails, the ledger may still contain numerical patterns, but it can
 
 ## The three artifacts to inspect first
 
-### 1. The [Numerical Prediction Catalogue]({{ '/results/predictions/browse/' | relative_url }}) and the [Numerical Physics Ledger PDF]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) artifact
+### 1. The [Numerical Prediction Catalogue]({{ '/results/predictions/browse/' | relative_url }}) and the [Numerical Prediction Supplement PDF]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) artifact
 
 The site catalogue contains the public prediction records and routes them to verification surfaces; the PDF remains the long-form publication artifact. The [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) is the dependency overlay that separates claim catalogue, constants ledger, G-alpha bridge, source chapters, Registry/TauLib mappings, unit contexts, and comparison vintage.
 

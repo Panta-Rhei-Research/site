@@ -36,7 +36,7 @@ Detailed result summary pending.
 ## Related Result Items
 
 - [World Readout: Physics](/results/world-readout/physics/)
-- [Numerical Physics Ledger](/publications/numerical-physics-ledger/)
+- [Numerical Prediction Supplement](/publications/monograph-supplements/numerical-physics-ledger/)
 
 ## Related Corpus Construction Steps
 

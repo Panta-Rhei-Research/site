@@ -119,7 +119,7 @@ Physics verification is not established by formal derivation alone. A physics-fa
 - **Empirical comparison** — does the predicted value match published measurement?
 - **External scientific review** — does the derivation chain remain supported after independent specialist scrutiny?
 
-The Numerical Physics Ledger is a publication artifact; the Numerical Prediction Catalogue is the claim catalogue; the Calibration Cascade is the dependency overlay; Predictions & Falsification is the accountability layer; Results is the interpretation layer. None implies external acceptance on its own.
+The numerical prediction supplement is a publication artifact; the Numerical Prediction Catalogue is the claim catalogue; the Calibration Cascade is the dependency overlay; Predictions & Falsification is the accountability layer; Results is the interpretation layer. None implies external acceptance on its own.
 
 {% include verify-glossary-terms.html %}
 

@@ -20,7 +20,7 @@ right_rail:
       url: "/results/falsifications/"
     - title: "Physics Verification"
       url: "/verify/domain-verification/physics/"
-    - title: "Numerical Physics Ledger Artifact"
+    - title: "Numerical Prediction Supplement"
       url: "/publications/monograph-supplements/numerical-physics-ledger/"
 ---
 
@@ -92,7 +92,7 @@ right_rail:
     <h3>This Page Is Not</h3>
     <ul>
       <li>a generic graph explorer;</li>
-      <li>the old Physics Ledger ontology;</li>
+      <li>a superseded one-document numerical framing;</li>
       <li>a new lane or final physical ontology;</li>
       <li>a substitute for expert physics or metrology review;</li>
       <li>a claim that SI-defining constants are ordinary measured predictions;</li>
@@ -100,6 +100,44 @@ right_rail:
     </ul>
   </article>
 </div>
+
+## Cascade overview
+
+<p>The schematic below is intentionally compact. It gives the launch reader the finite dependency order in one pass; detailed formulas stay in the inspection sections and constant pages below.</p>
+
+<section class="calibration-compact-schematic" aria-label="Compact Calibration Cascade schematic">
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">Inputs</p>
+    <h3><code>ι_τ</code> + <code>m_n</code></h3>
+    <p>Algebraic seed and neutron-mass anchor.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L1</p>
+    <h3>Dimensionless readouts</h3>
+    <p>Couplings, α, α_G, and ratio terms.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L2</p>
+    <h3>Mass ratios and anchoring</h3>
+    <p>Mass-ratio chain plus dimensional anchoring.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L3</p>
+    <h3>SI readouts</h3>
+    <p>Unit-context-aware SI expression.</p>
+  </article>
+  <article class="calibration-schematic-stage">
+    <p class="eyebrow">L4</p>
+    <h3>Verification comparisons</h3>
+    <p>CODATA 2018 rows and review surfaces.</p>
+  </article>
+  <p class="calibration-text-equivalent">
+    <strong>Text equivalent.</strong>
+    <code>ι_τ = 2/(π+e)</code> and <code>m_n</code> are the two visible inputs. Dimensionless readouts feed mass-ratio and
+    G-alpha routes; anchoring and unit context then produce SI readouts; comparison rows and prediction/falsification pages
+    provide review surfaces rather than additional dependency edges.
+  </p>
+</section>
 
 <nav class="calibration-inspection-nav" aria-label="Follow the cascade">
   <span>Follow the cascade:</span>
@@ -119,7 +157,7 @@ right_rail:
   <article class="calibration-card" id="node-{{ input.id }}">
     <p class="eyebrow">{{ node.layer | default: "Input" }}</p>
     <h3>{{ input.label }}</h3>
-    <p><strong>Formula / role:</strong> <code>{{ input.symbol }}</code> · {{ input.formula }}</p>
+    <p><strong>Formula / role:</strong> <code>{{ input.display_formula | default: input.formula }}</code></p>
     <p><strong>Status:</strong> {{ node.scope_label }}</p>
     <p><strong>Boundary:</strong>
       {% if input.id == "neutron-mass-anchor" %}
@@ -132,59 +170,6 @@ right_rail:
   </article>
   {% endfor %}
 </div>
-
-## Layers
-
-<div class="calibration-layer-grid">
-  {% for layer in layers %}
-  <article class="calibration-card" id="layer-{{ layer.id | downcase }}">
-    <p class="eyebrow">{{ layer.id }}</p>
-    <h3>{{ layer.title }}</h3>
-    <p>{{ layer.summary }}</p>
-    <p><strong>Representative nodes:</strong> {{ layer.primary_outputs | join: ", " }}</p>
-    <p><strong>Scope note:</strong> <code>{{ layer.verification_mode }}</code></p>
-  </article>
-  {% endfor %}
-</div>
-
-## Cascade overview
-
-<p>The schematic below is intentionally compact. It shows the finite dependency order, not every node in the constants table. The detailed machine-readable edge list remains available immediately below it.</p>
-
-<section class="calibration-compact-schematic" aria-label="Compact Calibration Cascade schematic">
-  <article class="calibration-schematic-stage">
-    <p class="eyebrow">Inputs</p>
-    <h3><code>ι_τ</code> + <code>m_n</code></h3>
-    <p>Algebraic master constant plus neutron-mass anchor.</p>
-  </article>
-  <article class="calibration-schematic-stage">
-    <p class="eyebrow">L0-L1</p>
-    <h3>Couplings</h3>
-    <p>Dimensionless readouts and coupling ledger entries.</p>
-  </article>
-  <article class="calibration-schematic-stage">
-    <p class="eyebrow">L2</p>
-    <h3>Mass-ratio chain</h3>
-    <p>Ten-link route to the electron-mass readout.</p>
-  </article>
-  <article class="calibration-schematic-stage">
-    <p class="eyebrow">L3</p>
-    <h3>G-alpha bridge</h3>
-    <p>Unit-context-aware SI readout / unit realization.</p>
-  </article>
-  <article class="calibration-schematic-stage">
-    <p class="eyebrow">L4</p>
-    <h3>Verification</h3>
-    <p>CODATA 2018 comparison rows and falsification surfaces.</p>
-  </article>
-  <p class="calibration-text-equivalent">
-    <strong>Text equivalent.</strong>
-    <code>ι_τ</code> feeds the coupling ledger, alpha, and the mass-ratio chain. The mass-ratio chain and the neutron-mass
-    anchor feed the electron-mass readout. Alpha feeds the G-alpha bridge, which combines with the neutron-mass anchor
-    in the G readout route. Electron-mass and G readouts feed SI readout / unit realization, which feeds CODATA 2018
-    verification comparisons. Prediction and falsification pages are related review surfaces, not additional dependency edges.
-  </p>
-</section>
 
 <div class="calibration-chip-row" aria-label="Scope label legend">
   <span class="chip">Established</span>

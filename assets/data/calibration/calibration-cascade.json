@@ -21,6 +21,7 @@
         "label": "Master constant",
         "symbol": "ι_τ",
         "formula": "2/(π + e)",
+        "display_formula": "ι_τ = 2/(π+e)",
         "source": {
           "chapter_id": "book-iv-coupling-ledger",
           "label": "def:master-constant-recap",
@@ -32,6 +33,7 @@
         "label": "Neutron-mass anchor",
         "symbol": "m_n",
         "formula": "1.674927498 × 10^-27 kg (CODATA 2018 source comparison)",
+        "display_formula": "m_n = 1.674927498 × 10^-27 kg (CODATA 2018 source comparison)",
         "source": {
           "chapter_id": "book-v-constants-g-alpha-bridge",
           "label": "thm:ch71-sufficiency",

@@ -133,6 +133,6 @@ Until those land, this ledger is the honest framework-level statement.
 - [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) — the full 67-prediction catalogue with filters
 - [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) — {% include release-metric.html id="falsifications.records" %} sharpest predictions against named experiments on explicit timelines
 - [Calibration Cascade]({{ '/results/calibration-cascade/' | relative_url }}) — source, unit-context, and dependency overlay
-- [Numerical Physics Ledger publication artifact (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — long-form derivation artifact
+- [Numerical Prediction Supplement (PDF, 1.11 MB, 209 pp)]({{ '/assets/downloads/physics-ledger.pdf' | relative_url }}) — long-form derivation artifact
 - [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}) — common skeptical questions answered honestly
 - [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) — pinned release state and build verification

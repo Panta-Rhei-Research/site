@@ -57,8 +57,16 @@ diagram_svg_status: "rendered"
 diagram_accessibility:
   title: "Level 1+ Mass Ratio R1 cascade"
   description: "Directed dependency cascade for R1 from the Calibration Cascade metadata."
-  text_equivalent: "ι_τ -> α -> R1"
-diagram_mmd_source: ""
+  text_equivalent: "ι_τ feeds the Epstein and capacity terms; α feeds the holonomy term; the bracket and Epstein term converge into R1."
+diagram:
+  source_mmd: "data/calibration/diagrams/r1.mmd"
+  rendered_svg: "r1.svg"
+  alt_text: "ι_τ feeds the Epstein and capacity terms; α feeds the holonomy term; the bracket and Epstein term converge into R1."
+  accessible_title: "Level 1+ Mass Ratio R1 cascade"
+  accessible_description: "Directed dependency cascade for R1 from the Calibration Cascade metadata."
+  orientation: "LR"
+  render_status: "rendered"
+diagram_mmd_source: "flowchart LR\n  iota[\"ι_τ\"] --> epstein[\"Epstein zeta route: ι_τ^-7\"]\n  iota --> capacity[\"Lemniscate capacity: √3 ι_τ^-2\"]\n  alpha[\"α\"] --> holonomy[\"Holonomy correction: π^3 α²\"]\n  capacity --> bracket[\"√3 + π³α²\"]\n  holonomy --> bracket\n  epstein --> R1[\"R1\"]\n  bracket --> R1\n  R1 --> me[\"m_e = m_n/R1\"]\n"
 right_rail:
   related:
     -
