@@ -7,10 +7,10 @@ logo_lockup:
   dark_background_asset: assets/lockups/og-lockup-dark-panta-rhei-research-program.svg
   light_background_asset: assets/lockups/og-lockup-light-panta-rhei-research-program.svg
   x: 785
-  y: 24
+  y: 26
   width: 365
-eyebrow: { x: 70, y: 76, height: 44, max_width: 520, padding_x: 22, font: Source Code Pro, font_size: 22, letter_spacing_px: 5.2 }
-title: { x: 78, y: 174, max_width: 680, font: EB Garamond, short_title_size: 118, long_title_size: 94, min_size: 72, max_lines: 2, line_height: 0.94 }
-subtitle: { x: 82, gap_below_title: 30, max_width: 650, font: Source Sans 3, font_size: 35, min_size: 28, max_lines: 3, line_height: 1.18 }
-route: { x: 82, y: 518, max_width: 710, font: Source Code Pro, font_size: 31, min_size: 25, max_lines: 2, line_height: 1.1 }
-icon_watermark: { x: 835, y: 220, width: 300, height: 300, opacity_dark: 0.22, opacity_light: 0.12 }
+eyebrow: { x: 70, y: 76, height: 44, min_width: 210, max_width: 560, font: Source Code Pro, max_font_size: 22, min_font_size: 15, letter_spacing_px: 1.8 }
+title: { x: 78, single_line_y: 272, two_line_y: 234, max_width: 680, font: EB Garamond, short_title_size: 112, medium_title_size: 94, long_title_size: 80, max_lines: 2, line_height: 0.92 }
+subtitle: { x: 82, gap_below_title: 34, max_width: 650, font: Source Sans 3, font_size: 34, max_lines: 2, line_step: 42 }
+route: { x: 82, y: 568, font: Source Code Pro, font_size: 30, max_visual_chars: 44 }
+icon_watermark: { x: 835, y: 220, width: 300, height: 300, opacity_dark: 0.18, opacity_light: 0.10 }

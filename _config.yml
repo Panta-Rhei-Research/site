@@ -7,6 +7,15 @@ baseurl: ""
 image: /assets/og-image.png
 author:
   name: "Thorsten Fuchs & Anna-Sophie Fuchs"
+site_author: "Thorsten Fuchs and Anna-Sophie Fuchs"
+site_authors:
+  - name: "Thorsten Fuchs"
+    orcid: "https://orcid.org/0009-0007-0718-1042"
+  - name: "Anna-Sophie Fuchs"
+    orcid: "https://orcid.org/0009-0007-3495-7416"
+site_publisher: "Panta Rhei Research Program"
+default_published_date: "2026-05-01T00:00:00+02:00"
+default_modified_date: "2026-05-09T00:00:00+02:00"
 social:
   name: "Panta Rhei Research Program"
   links:

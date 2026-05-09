@@ -35,6 +35,7 @@
   {%- when 'bibliography-browse' -%}{%- assign og_type = 'website' -%}
   {%- else -%}{%- assign og_type = 'article' -%}
 {%- endcase -%}
+{%- if page.og_type -%}{%- assign og_type = page.og_type -%}{%- endif -%}
 
 {%- comment -%} Computed title: "Page Title — Site Title" except on homepage.
   Bibliography entries set page.title_plain for a Unicode-only variant safe
@@ -88,6 +89,13 @@
   {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
 {%- endif -%}
 
+{%- assign social_author_content = page.author_display | default: page.author | default: site.site_author | default: site.author.name -%}
+{%- assign social_authors = page.authors | default: site.site_authors -%}
+{%- assign social_published_time = page.published_date | default: page.date | default: site.default_published_date -%}
+{%- assign social_modified_time = page.modified_date | default: page.last_modified_at | default: page.last_updated | default: site.default_modified_date -%}
+{%- assign social_published_time_xml = social_published_time | date_to_xmlschema -%}
+{%- assign social_modified_time_xml = social_modified_time | date_to_xmlschema -%}
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ computed_title }}</title>
@@ -95,6 +103,10 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <meta name="robots" content="{{ robots_directive }}">
 <meta name="generator" content="Jekyll">
+<meta name="author" content="{{ social_author_content }}">
+<meta name="date" content="{{ social_modified_time_xml }}">
+<meta name="dcterms.created" content="{{ social_published_time_xml }}">
+<meta name="dcterms.modified" content="{{ social_modified_time_xml }}">
 {%- include site-atlas-meta.html -%}
 
 <!-- Search engine verification -->
@@ -114,9 +126,19 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="{{ og_image | absolute_url }}">
+<meta property="og:image:secure_url" content="{{ og_image | absolute_url }}">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ og_image_alt }}">
+{%- if og_type == 'article' -%}
+{%- for social_author in social_authors -%}
+  {%- assign social_author_name = social_author.name | default: social_author -%}
+<meta property="article:author" content="{{ social_author_name }}">
+{%- endfor -%}
+<meta property="article:published_time" content="{{ social_published_time_xml }}">
+<meta property="article:modified_time" content="{{ social_modified_time_xml }}">
+{%- endif -%}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">

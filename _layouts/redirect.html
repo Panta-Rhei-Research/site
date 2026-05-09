@@ -30,13 +30,24 @@
     {%- assign og_image = '/assets/og-image.png' -%}
     {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
   {%- endif -%}
+  {%- assign social_author_content = page.author_display | default: page.author | default: site.site_author | default: site.author.name -%}
+  {%- assign social_published_time = page.published_date | default: page.date | default: site.default_published_date -%}
+  {%- assign social_modified_time = page.modified_date | default: page.last_modified_at | default: page.last_updated | default: site.default_modified_date -%}
+  {%- assign social_published_time_xml = social_published_time | date_to_xmlschema -%}
+  {%- assign social_modified_time_xml = social_modified_time | date_to_xmlschema -%}
   <meta name="robots" content="noindex,follow">
   {% include site-atlas-meta.html %}
+  <meta name="author" content="{{ social_author_content }}">
+  <meta name="date" content="{{ social_modified_time_xml }}">
+  <meta name="dcterms.created" content="{{ social_published_time_xml }}">
+  <meta name="dcterms.modified" content="{{ social_modified_time_xml }}">
   <meta property="og:title" content="{{ page.title | default: "Redirecting" }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:image" content="{{ og_image | absolute_url }}">
+  <meta property="og:image:secure_url" content="{{ og_image | absolute_url }}">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{{ og_image_alt }}">
@@ -47,6 +58,26 @@
   {% endif %}
   <meta name="twitter:image" content="{{ og_image | absolute_url }}">
   <meta name="twitter:image:alt" content="{{ og_image_alt }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}#social-metadata",
+    "name": {{ page.title | default: "Redirecting" | jsonify }},
+    "description": {{ page.summary_short | default: page.title | default: "Redirecting" | strip_html | normalize_whitespace | jsonify }},
+    "url": "{{ page.url | absolute_url }}",
+    "inLanguage": "en",
+    "author": [
+      { "@type": "Person", "name": "Thorsten Fuchs", "sameAs": "https://orcid.org/0009-0007-0718-1042" },
+      { "@type": "Person", "name": "Anna-Sophie Fuchs", "sameAs": "https://orcid.org/0009-0007-3495-7416" }
+    ],
+    "publisher": { "@type": "Organization", "name": "Panta Rhei Research Program", "url": "{{ site.url }}" },
+    "datePublished": {{ social_published_time_xml | jsonify }},
+    "dateModified": {{ social_modified_time_xml | jsonify }},
+    "image": { "@type": "ImageObject", "url": "{{ og_image | absolute_url }}", "width": 1200, "height": 630 },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }
+  }
+  </script>
   <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
   <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
   <title>{{ page.title | default: "Redirecting" }} | {{ site.title }}</title>

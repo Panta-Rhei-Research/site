@@ -20,10 +20,13 @@ class MetaParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.metas: list[dict[str, str]] = []
+        self.links: list[dict[str, str]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         if tag == "meta":
             self.metas.append({key: value or "" for key, value in attrs})
+        if tag == "link":
+            self.links.append({key: value or "" for key, value in attrs})
 
 
 def fail(message: str) -> None:
@@ -49,6 +52,17 @@ def meta(parser: MetaParser, attr: str, key: str) -> str:
     for item in parser.metas:
         if item.get(attr) == key:
             return item.get("content", "")
+    return ""
+
+
+def metas(parser: MetaParser, attr: str, key: str) -> list[str]:
+    return [item.get("content", "") for item in parser.metas if item.get(attr) == key]
+
+
+def canonical(parser: MetaParser) -> str:
+    for item in parser.links:
+        if item.get("rel") == "canonical":
+            return item.get("href", "")
     return ""
 
 
@@ -98,6 +112,20 @@ def main() -> int:
     if missing_launch_cards:
         fail("launch-critical routes missing generated cards: " + ", ".join(missing_launch_cards[:20]))
 
+    required_preview_routes = [
+        "/",
+        "/program/",
+        "/publications/",
+        "/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/",
+        "/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/",
+        "/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
+        "/publications/anchor-documents/wp005-global-public-good-impact-overview/",
+        "/verify/predictions-and-falsification/",
+    ]
+    missing_preview_cards = [route for route in required_preview_routes if slug_for(route) not in cards]
+    if missing_preview_cards:
+        fail("representative preview routes missing generated cards: " + ", ".join(missing_preview_cards))
+
     for slug, card in cards.items():
         for field in ("image", "svg", "webp"):
             rel = card.get(field)
@@ -127,10 +155,41 @@ def main() -> int:
         if not html_path.exists():
             fail(f"{route} did not build at {html_path}")
         parser = MetaParser()
-        parser.feed(html_path.read_text(encoding="utf-8", errors="ignore"))
+        html = html_path.read_text(encoding="utf-8", errors="ignore")
+        parser.feed(html)
         expected = f"{SITE_HOST}{card['image']}"
+        expected_url = f"{SITE_HOST}{route}" if route != "/" else f"{SITE_HOST}/"
+        if not canonical(parser):
+            fail(f"{route} missing canonical link")
+        for attr, key in [
+            ("property", "og:title"),
+            ("property", "og:description"),
+            ("property", "og:type"),
+            ("property", "og:url"),
+            ("property", "og:image"),
+            ("property", "og:image:secure_url"),
+            ("property", "og:image:type"),
+            ("property", "og:image:width"),
+            ("property", "og:image:height"),
+            ("property", "og:image:alt"),
+            ("name", "twitter:card"),
+            ("name", "twitter:title"),
+            ("name", "twitter:description"),
+            ("name", "twitter:image"),
+            ("name", "twitter:image:alt"),
+            ("name", "author"),
+            ("name", "date"),
+            ("name", "dcterms.created"),
+            ("name", "dcterms.modified"),
+        ]:
+            if not meta(parser, attr, key):
+                fail(f"{route} missing {key} metadata")
         if meta(parser, "property", "og:image") != expected:
             fail(f"{route} og:image should be generated card {expected}")
+        if meta(parser, "property", "og:image:secure_url") != expected:
+            fail(f"{route} og:image:secure_url should be generated card {expected}")
+        if meta(parser, "property", "og:image:type") != "image/png":
+            fail(f"{route} og:image:type should be image/png")
         if meta(parser, "name", "twitter:image") != expected:
             fail(f"{route} twitter:image should be generated card {expected}")
         if meta(parser, "property", "og:image:alt") != card["alt"]:
@@ -139,6 +198,21 @@ def main() -> int:
             fail(f"{route} twitter:image:alt should use generated card alt")
         if meta(parser, "property", "og:image:width") != "1200" or meta(parser, "property", "og:image:height") != "630":
             fail(f"{route} missing 1200x630 OG dimensions")
+        if meta(parser, "property", "og:url") != expected_url:
+            fail(f"{route} og:url should be {expected_url}")
+        og_type = meta(parser, "property", "og:type")
+        article_authors = metas(parser, "property", "article:author")
+        if og_type == "article":
+            if len(article_authors) < 2:
+                fail(f"{route} article page missing article:author metadata")
+            if not meta(parser, "property", "article:published_time") or not meta(parser, "property", "article:modified_time"):
+                fail(f"{route} article page missing article published/modified metadata")
+        elif article_authors or meta(parser, "property", "article:published_time") or meta(parser, "property", "article:modified_time"):
+            fail(f"{route} non-article page should not emit article:* metadata")
+        if '"@id": "' + expected_url + '#social-metadata"' not in html:
+            fail(f"{route} missing social metadata JSON-LD graph")
+        if '"datePublished"' not in html or '"dateModified"' not in html:
+            fail(f"{route} missing JSON-LD date fields")
 
     plate_data = (built / "api" / "plates.json").read_text(encoding="utf-8", errors="ignore")
     if "/assets/images/plates/plate-01-public-research-observatory-og.jpg" not in plate_data:

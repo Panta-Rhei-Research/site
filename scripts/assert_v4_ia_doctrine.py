@@ -135,7 +135,7 @@ def main() -> int:
     )
     require(visible, "Agenda Obligations", "/")
     require(visible, "Artifacts & Releases", "/")
-    require(visible, "Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, White Papers, TauLib, assessment protocols, Release Artifacts, and errata", "/")
+    require(visible, "Anchor Documents, Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, TauLib, assessment protocols, Release Artifacts, and errata", "/")
     require(visible, "Publications", "/")
 
     _, visible, parser = read_page(site, "/program/")

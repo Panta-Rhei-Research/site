@@ -1,16 +1,22 @@
 {%- comment -%}
   seo-jsonld.html — Page-type-specific JSON-LD structured data.
 
-  Emits ONE <script type="application/ld+json"> block tailored to the page
-  type, plus an Organization reference where appropriate. For the homepage,
-  also emits the ResearchOrganization and WebSite schemas as a sibling block.
+  Emits page-type-specific JSON-LD, plus a compact social-preview metadata
+  graph with author/date/image fields consumed by social crawlers.
 
   Schema.org types validated against Google Search Central guidelines for
   scholarly/research content.
 {%- endcomment -%}
 
 {%- comment -%} Compute author JSON fragment (reused across schemas) {%- endcomment -%}
-{%- capture authors_json -%}[{"@type":"Person","name":"Thorsten Fuchs","url":"https://orcid.org/0009-0007-0718-1042","sameAs":"https://orcid.org/0009-0007-0718-1042"},{"@type":"Person","name":"Anna-Sophie Fuchs","url":"https://orcid.org/0009-0007-3495-7416","sameAs":"https://orcid.org/0009-0007-3495-7416"}]{%- endcapture -%}
+{%- assign schema_authors = social_authors | default: site.site_authors -%}
+{%- capture authors_json -%}[
+{%- for schema_author in schema_authors -%}
+  {%- assign schema_author_name = schema_author.name | default: schema_author -%}
+  {%- assign schema_author_orcid = schema_author.orcid -%}
+  {"@type":"Person","name":{{ schema_author_name | jsonify }}{% if schema_author_orcid %},"url":{{ schema_author_orcid | jsonify }},"sameAs":{{ schema_author_orcid | jsonify }}{% endif %}}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]{%- endcapture -%}
 
 {%- comment -%} Compute publisher Organization reference {%- endcomment -%}
 {%- capture publisher_json -%}{"@type":"Organization","name":"Panta Rhei Research Program","url":"{{ site.url }}"}{%- endcapture -%}
@@ -19,6 +25,11 @@
 {%- capture json_description -%}{{ seo_description | strip_html | replace: '"', '\"' | replace: '\', '\\' | strip_newlines }}{%- endcapture -%}
 
 {%- capture json_title -%}{{ page.title_plain | default: page.title | default: site.title | strip_html | replace: '"', '\"' }}{%- endcapture -%}
+{%- assign schema_image = og_image | default: site.image | default: '/assets/og-image.png' -%}
+{%- assign schema_published_time = social_published_time_xml | default: site.default_published_date -%}
+{%- assign schema_modified_time = social_modified_time_xml | default: site.default_modified_date -%}
+{%- assign social_schema_type = 'WebPage' -%}
+{%- if og_type == 'article' -%}{%- assign social_schema_type = 'Article' -%}{%- endif -%}
 
 {%- assign corpus_publication = nil -%}
 {%- assign corpus_publication_schema_type = "" -%}
@@ -753,6 +764,30 @@
 {%- endcase -%}
 
 {%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ social_schema_type }}",
+  "@id": "{{ page.url | absolute_url }}#social-metadata",
+  "name": {{ json_title | jsonify }},
+  "headline": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "author": {{ authors_json }},
+  "publisher": {{ publisher_json }},
+  "datePublished": {{ schema_published_time | jsonify }},
+  "dateModified": {{ schema_modified_time | jsonify }},
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ schema_image | absolute_url }}",
+    "width": 1200,
+    "height": 630
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" }
+}
+</script>
 
 {%- comment -%} Append BreadcrumbList for pages that have one (Phase 4) {%- endcomment -%}
 {%- include breadcrumb-jsonld.html -%}
