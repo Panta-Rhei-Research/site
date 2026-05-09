@@ -6,7 +6,7 @@ lane: support
 type: support_page
 support_type: media_brief
 status: canonical
-last_updated: 2026-05-31
+last_updated: 2026-05-09
 updated: "May 2026"
 summary_short: "A newsroom brief explaining why Panta Rhei says coherent theory of reality, not theory of everything."
 right_rail:
@@ -19,8 +19,12 @@ right_rail:
     url: /media/social-media-kit/
   - title: How to Verify
     url: /verify/how-to-verify/
-  - title: White Paper
-    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
+  - title: WP000 At a Glance
+    url: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+  - title: C001 Charter Essay
+    url: /publications/anchor-documents/c001-standing-in-the-inquiry-of-being/
+  - title: WP002 Theory Synopsis
+    url: /publications/anchor-documents/wp002-t-theory-executive-synopsis/
   - title: Coherent Theory of Reality
     url: /program/about/coherent-theory-of-reality/
   - title: Agenda
@@ -38,7 +42,7 @@ Panta Rhei is not asking journalists to cover a theory of everything as a settle
 
 ## What is new
 
-Press Package 2 publishes the white paper [The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}). It explains why Panta Rhei’s canonical public category is “coherent theory of reality,” not “theory of everything.”
+The Anchor Document Canon now carries this framing through [C001 Standing in the Inquiry of Being]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}), [WP001 Program Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}), and [WP002 T Theory Executive Synopsis]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}). It explains why Panta Rhei’s canonical public category is “coherent theory of reality,” not “theory of everything.”
 
 The distinction matters. “Theory of everything” can sound like final possession. “Coherent theory of reality” is framed here as a public burden: earn the language, earn the questions, build the answers, disclose limits, and state conditional relevance.
 
@@ -47,7 +51,7 @@ The distinction matters. “Theory of everything” can sound like final possess
 - Panta Rhei is an independent open research program dedicated to building a coherent theory of reality.
 - The program distinguishes this category from “theory of everything” rhetoric.
 - The website separates Program doctrine, Agenda obligations, Corpus construction, Results readouts, Verify inspection, Impact conditionality, Engage scrutiny, and Publications artifacts.
-- Package 2 defines the intellectual category and burden; it does not validate the scientific claims.
+- The anchor documents define the intellectual category and burden; they do not validate the scientific claims.
 
 ## What should not be said
 
@@ -63,9 +67,11 @@ Large theoretical programs often enter public language through slogans. This bri
 
 ## Suggested first link path
 
-1. [The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }})
-2. [What We Mean by a Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }})
-3. [Agenda]({{ '/agenda/' | relative_url }})
-4. [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }})
-5. [How to Verify]({{ '/verify/how-to-verify/' | relative_url }})
-6. [Review the Work]({{ '/engage/review-the-work/' | relative_url }})
+1. [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }})
+2. [C001 Standing in the Inquiry of Being]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }})
+3. [WP002 T Theory Executive Synopsis]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }})
+4. [What We Mean by a Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }})
+5. [Agenda]({{ '/agenda/' | relative_url }})
+6. [Construction Roadmap]({{ '/agenda/construction-roadmap/' | relative_url }})
+7. [How to Verify]({{ '/verify/how-to-verify/' | relative_url }})
+8. [Review the Work]({{ '/engage/review-the-work/' | relative_url }})

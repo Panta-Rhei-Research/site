@@ -6,7 +6,7 @@ lane: support
 type: support_page
 support_type: media
 status: canonical
-last_updated: 2026-05-04
+last_updated: 2026-05-09
 updated: "May 2026"
 summary: "Resources for journalists, public communicators, and external readers covering the Panta Rhei Research Program."
 summary_short: "Press, podcast, and public-communication resources for the Panta Rhei Research Program."
@@ -53,14 +53,14 @@ right_rail:
     url: /engage/media/
   - title: Engage · Contact
     url: /engage/contact/
-  - title: White Papers
-    url: /publications/white-papers/
-  - title: Inspection Architecture White Paper
-    url: /publications/white-papers/inspection-architecture-high-scope-open-research/
-  - title: Theory of Reality White Paper
-    url: /publications/white-papers/the-shape-of-a-theory-of-reality/
-  - title: Public Research Observatory White Paper
-    url: /publications/white-papers/building-a-public-research-observatory/
+  - title: Anchor Documents
+    url: /publications/anchor-documents/
+  - title: WP000 At a Glance
+    url: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+  - title: WP001 Executive Overview
+    url: /publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/
+  - title: WP004 Observatory Blueprint
+    url: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
   meta:
     type: "Support page"
     scope: "Media kit"
@@ -90,31 +90,31 @@ Suggested framing:
 
 > If independent open research is allowed to ask large questions, what public burden should it accept before asking anyone to care?
 
-For the full Package 1 framing, read the [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) and the white paper [Inspection Architecture for High-Scope Open Research]({{ '/publications/white-papers/inspection-architecture-high-scope-open-research/' | relative_url }}).
+For the shortest public orientation, start with [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}). For the canonical inspection-architecture framing, read the [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) and [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}).
 
 ## Suggested second story angle
 
 The second safe story is the intellectual category.
 
-Panta Rhei is not asking journalists to cover a theory of everything as a settled scientific claim. Package 2 explains why the program uses the stricter phrase “coherent theory of reality”: a public burden to earn its language, earn its questions, build its answers, disclose limits, and state conditional public relevance.
+Panta Rhei is not asking journalists to cover a theory of everything as a settled scientific claim. The Anchor Canon explains why the program uses the stricter phrase “coherent theory of reality”: a public burden to earn its language, earn its questions, build its answers, disclose limits, and state conditional public relevance.
 
 Suggested framing:
 
 > If a research program wants to speak about reality as a whole, what must it expose before the phrase becomes more than a slogan?
 
-For the full Package 2 framing, read the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}) and the white paper [The Shape of a Theory of Reality]({{ '/publications/white-papers/the-shape-of-a-theory-of-reality/' | relative_url }}).
+For the category framing, read the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}), [C001 Standing in the Inquiry of Being]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}), [WP001 Program Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}), and [WP002 T Theory Executive Synopsis]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}).
 
 ## Suggested third story angle
 
 The third safe story is the technical blueprint.
 
-Panta Rhei is not only publishing claims or PDFs. Package 3 explains how the public site and GitHub organization implement a public research observatory: a route system where a reader can move from Program identity to Agenda obligations, Corpus construction, Results status, Verify inspection, Publications artifacts, and Engage correction paths.
+Panta Rhei is not only publishing claims or PDFs. WP004 explains how the public site and GitHub organization implement a public research observatory: a route system where a reader can move from Program identity to Agenda obligations, Corpus construction, Results status, Verify inspection, Publications artifacts, and Engage correction paths.
 
 Suggested framing:
 
 > How should a high-scope open research program build the public interface that lets outsiders inspect it?
 
-For the full Package 3 framing, read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) and the white paper [Building a Public Research Observatory for High-Scope Open Research]({{ '/publications/white-papers/building-a-public-research-observatory/' | relative_url }}).
+For the blueprint framing, read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) and [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}).
 
 ## What journalists can responsibly say
 
@@ -156,7 +156,8 @@ Together, the program's current public release includes:
 - A **{% include release-metric.html id="publications.books" %}-book monograph series** ({% include release-metric.html id="publications.pages" %} print pages, available on Amazon KDP) — April 2026
 - A **Lean 4 formalization library** (TauLib, {% include release-metric.html id="taulib.modules" unit=true %}; the published formalized modules are built without `sorry`, while Book VI remains registry-planned and not yet fully Lean-formalized — see [filter rules]({{ '/verify/filter-rules/' | relative_url }}))
 - The **v4 research observatory website** ({% include release-metric.html id="results.records" %} key results, {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects) — May 2026
-- **Guided tours** and **structural falsification whitepapers**
+- The **Anchor Document Canon**: WP000, C001, and WP001–WP005 as citable offline routes into the live site
+- **Guided tours**, **public-good dossiers**, and structural falsification assets
 
 ## What this is not
 
@@ -217,9 +218,9 @@ Start with [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}), [Asse
     <h3>Scientific Plates</h3>
     <p>The program's visual atlas — print-quality 1536 × 864 master JPGs of every published scientific plate. CC BY 4.0; CORS-permissive index at /api/plates.json.</p>
   </a>
-  <a class="v2-tile" href="{{ '/publications/white-papers/' | relative_url }}">
-    <h3>White Papers</h3>
-    <p>Citable explanatory documents for inspection architecture, theory-of-reality framing, public observatory architecture, and formalization context.</p>
+  <a class="v2-tile" href="{{ '/publications/anchor-documents/' | relative_url }}">
+    <h3>Anchor Documents</h3>
+    <p>WP000, C001, and WP001–WP005: citable offline routes into the public observatory, theory synopsis, TauLib, inspection architecture, and conditional impact.</p>
   </a>
 </div>
 
@@ -252,6 +253,7 @@ For the full timeline + all {% include release-metric.html id="falsifications.re
 
 | Document | Pages | Audience | Download |
 |----------|:-----:|----------|----------|
+| **Panta Rhei at a Glance (WP000)** | 4 | Everyone | [Download — WP000 at a Glance]({{ '/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf' | relative_url }}) |
 | **Category τ at a Glance** | 1 | Everyone | [Download — Category τ at a Glance]({{ '/assets/media/category-tau-at-a-glance.pdf' | relative_url }}) |
 | **Reader's Guide** | 3 | All readers | [Download — Reader's Guide]({{ '/assets/media/readers-guide.pdf' | relative_url }}) |
 | **Falsification Pack** | 8 | Physicists, experimentalists | [Download — Falsification Pack]({{ '/assets/media/falsification-pack.pdf' | relative_url }}) |

@@ -25,10 +25,11 @@ TAULIB_PROJECTION_PIN = "cb5e83015b54dd72eba560953fe2461820078757"
 STALE_TAULIB_SOURCE_PINS = (
     "37c12411e76f4bb89f7bc463d1443eecc0bd9afe",
 )
-ANCHOR_ROUTE_IDS = ("c001", "wp001", "wp002", "wp003", "wp004", "wp005")
+ANCHOR_ROUTE_IDS = ("wp000", "c001", "wp001", "wp002", "wp003", "wp004", "wp005")
 LEGACY_WHITE_PAPER_IDS = ("lwp001", "lwp002", "lwp003", "lwp004", "lwp005")
 PUBLICATION_OVERLAY_IDS = set(ANCHOR_ROUTE_IDS + LEGACY_WHITE_PAPER_IDS)
 ANCHOR_PUBLICATION_KEYS = {
+    "wp000": "anchor_documents.panta_rhei_at_a_glance",
     "c001": "charter_essays.standing_in_the_inquiry_of_being",
     "wp001": "anchor_documents.panta_rhei_research_program_executive_overview",
     "wp002": "anchor_documents.t_theory_executive_synopsis",
@@ -1106,6 +1107,9 @@ def publication_overlay_record(
         "external_links": [],
         "relations": {
             "related_lanes": (
+                ["publications", "discover", "program", "verify"]
+                if publication_id == "wp000"
+                else
                 ["publications", "corpus", "verify"]
                 if publication_id == "wp003"
                 else ["publications", "program", "agenda", "corpus", "results", "verify", "impact", "engage"]

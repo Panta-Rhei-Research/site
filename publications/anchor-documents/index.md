@@ -3,14 +3,17 @@ layout: "program-doc"
 lane: "publications"
 v2_lane: "publications"
 status: "Canonical"
-last_updated: 2026-05-08
+last_updated: 2026-05-09
 updated: "May 2026"
 title: "Anchor Documents"
 permalink: "/publications/anchor-documents/"
 type: "Publication Family"
-summary_short: "The citable offline canon: one charter essay plus five canonical white papers routing back into the live observatory."
+summary_short: "The citable offline canon: one primer, one charter essay, and five canonical white papers routing back into the live observatory."
 right_rail:
   related:
+    -
+      title: "WP000 At a Glance"
+      url: "/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"
     -
       title: "C001 Charter Essay"
       url: "/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/"
@@ -43,9 +46,11 @@ right_rail:
 ## Start Here
 
 Anchor Documents are the downloadable offline routes into the Panta Rhei
-Research Program. The website remains the live canonical superset; the PDFs are
-citable release artifacts that route back into Program, Corpus, TauLib,
-Publications, Impact, and Verify surfaces.
+Research Program. The canon now begins with WP000, a four-page first-contact
+primer, followed by C001, the charter essay, and five canonical white papers.
+The website remains the live canonical superset; the PDFs are citable release
+artifacts that route back into Program, Corpus, TauLib, Publications, Impact,
+and Verify surfaces.
 
 <div class="notice note">
   <strong>Claim boundary.</strong>
@@ -69,10 +74,11 @@ Publications, Impact, and Verify surfaces.
 
 ## Reading Routes
 
-Use C001 first if you need the program's inquiry stance. Use WP001 as the
-whole-program orientation. Use WP004 for the inspection
-architecture, WP003 for the formalization surface, WP005 for conditional impact,
-and WP002 last for the theory construction synopsis.
+Use WP000 first if you need the shortest public orientation. Use C001 if you
+need the program's inquiry stance. Use WP001 as the whole-program orientation.
+Use WP004 for the inspection architecture, WP003 for the formalization surface,
+WP005 for conditional impact, and WP002 last for the theory construction
+synopsis.
 
 <table>
   <caption>Anchor Document Canon</caption>
