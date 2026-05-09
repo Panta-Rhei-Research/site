@@ -111,7 +111,7 @@ constants:
   quantity: Electromagnetic self-coupling
   formula: ι_τ^2
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: '---'
   layer: L1
   unit_context: dimensionless
@@ -131,7 +131,7 @@ constants:
   quantity: Strong self-coupling
   formula: ι_τ^3/(1-ι_τ)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: '---'
   layer: L1
   unit_context: dimensionless
@@ -149,7 +149,7 @@ constants:
   quantity: Gravity-sector self-coupling
   formula: 1-ι_τ
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: '---'
   layer: L1
   unit_context: dimensionless
@@ -167,7 +167,7 @@ constants:
   quantity: Weak-sector self-coupling
   formula: ι_τ
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: '---'
   layer: L1
   unit_context: dimensionless
@@ -185,7 +185,7 @@ constants:
   quantity: Fine-structure constant
   formula: (11/15)^2 ι_τ^4
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: 9.8 ppm
   layer: L1
   unit_context: dimensionless
@@ -203,7 +203,7 @@ constants:
   quantity: Weak mixing readout
   formula: ι_τ(1-ι_τ)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: ~2.7%
   layer: L1
   unit_context: dimensionless
@@ -220,7 +220,7 @@ constants:
   quantity: Strong coupling readout
   formula: 2κ(C)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: ~2.4%
   layer: L1
   unit_context: dimensionless
@@ -237,7 +237,7 @@ constants:
   quantity: Neutron-to-electron mass ratio
   formula: ι_τ^-7 - (sqrt(3)+π^3α^2)ι_τ^-2
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: 0.025 ppm
   layer: L1
   unit_context: dimensionless
@@ -256,7 +256,7 @@ constants:
   quantity: Electron mass
   formula: m_n/R
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: 0.025 ppm
   layer: L2
   unit_context: si_after_neutron_mass_anchor
@@ -274,7 +274,7 @@ constants:
   quantity: Proton mass
   formula: m_n - δ_A
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: '---'
   layer: L2
   unit_context: si_after_neutron_mass_anchor
@@ -291,7 +291,7 @@ constants:
   quantity: Rydberg constant
   formula: α^2 m_e c/(2ℏ)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: 0.025 ppm
   layer: L3
   unit_context: si_readout
@@ -308,7 +308,7 @@ constants:
   quantity: Bohr radius
   formula: ℏ/(α m_e c); alias a_0^{Bohr}
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: 0.025 ppm
   layer: L3
   unit_context: si_readout
@@ -325,7 +325,7 @@ constants:
   quantity: Compton wavelength
   formula: ℏ/(m_e c)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: 0.025 ppm
   layer: L3
   unit_context: si_readout
@@ -342,7 +342,7 @@ constants:
   quantity: Newtonian gravitational constant
   formula: G route requires explicit unit context
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: ~3 ppm
   layer: L2
   unit_context: si_after_neutron_mass_anchor
@@ -362,7 +362,7 @@ constants:
   quantity: Temporal complement
   formula: 1-ι_τ
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: '---'
   layer: L1
   unit_context: dimensionless
@@ -380,7 +380,7 @@ constants:
   quantity: Schwarzschild-radius coefficient
   formula: 2GM
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: exact
   layer: L3
   unit_context: si_after_g_readout
@@ -397,7 +397,7 @@ constants:
   quantity: Planck mass
   formula: sqrt(ℏc/G)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: ~3 ppm
   layer: L2
   unit_context: si_after_g_readout
@@ -414,7 +414,7 @@ constants:
   quantity: Planck length
   formula: ι_τ in tau-units
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: ~3 ppm
   layer: L3
   unit_context: pending_unit_review
@@ -431,7 +431,7 @@ constants:
   quantity: Bekenstein-Hawking entropy readout
   formula: k_B A/(4ι_τ^2)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: '---'
   layer: L3
   unit_context: si_after_g_readout
@@ -448,7 +448,7 @@ constants:
   quantity: Gravitational fine-structure bridge quantity
   formula: α^18 sqrt(3)(1-(3/π)α)
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: ~3 ppm
   layer: L1
   unit_context: dimensionless
@@ -466,7 +466,7 @@ constants:
   quantity: Holonomy bridge coefficient
   formula: 3/π
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: 0.04%
   layer: L1
   unit_context: dimensionless
@@ -484,7 +484,7 @@ constants:
   quantity: Temporal complement identity
   formula: κ(A)+κ(D)=1
   scope: T
-  scope_label: Tau-effective
+  scope_label: τ-effective
   deviation: exact
   layer: L1
   unit_context: dimensionless
