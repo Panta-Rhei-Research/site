@@ -1,0 +1,234 @@
+collection: first_contact_faq
+version: v0.1-pilot
+last_reviewed: '2026-05-09'
+layer:
+  id: 0
+  label: First Contact
+  description: Immediate credibility-filter questions for first-time readers — what is this, is it proven, is it peer-reviewed,
+    who is behind it.
+maintainer: Panta Rhei Research Program
+source_repo: corpus
+projection_repo: site
+status: active
+review_cadence: each public release
+faqs:
+- id: FAQ-FC-001
+  slug: what-is-this
+  layer: 0
+  priority: 1
+  audience: &id001
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  category:
+  - identity
+  - orientation
+  - first_contact
+  question: What is this, in one sentence?
+  short_answer: Panta Rhei is an independent open research program published as a public research observatory for inspecting
+    a proposed coherent theory of reality.
+  long_answer: 'Panta Rhei is not a single paper, a blog, or a software project. It is a public research observatory around
+    a structured research program: Discover orients, Program defines scope, Agenda states obligations, Corpus carries construction,
+    Results reports consequence surfaces, Verify exposes inspection routes, Impact maps conditional relevance, and Publications
+    provides citable artifacts.'
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  related_pages:
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Corpus
+    url: https://panta-rhei.site/corpus/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  display:
+    compact_label: What is this?
+    show_on_faq_index: true
+- id: FAQ-FC-002
+  slug: is-this-claiming-to-be-proven
+  layer: 0
+  priority: 2
+  audience: *id001
+  category:
+  - proof_status
+  - epistemic_status
+  - inspection
+  question: Is this claiming to be proven?
+  short_answer: No. The public claim is that the work is structured, inspectable, and review-worthy; correctness still requires
+    expert review and domain validation.
+  long_answer: The site separates inspection architecture from validation. TauLib can check encoded formal claims, but Lean
+    compilation does not prove empirical truth, bridge adequacy, semantic interpretation, public-good relevance, or external
+    scientific acceptance. The first public claim is inspectability, not acceptance.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  related_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  display:
+    compact_label: Is it proven?
+    show_on_faq_index: true
+- id: FAQ-FC-003
+  slug: is-it-peer-reviewed
+  layer: 0
+  priority: 3
+  audience: *id001
+  category:
+  - peer_review
+  - external_validation
+  - scrutiny
+  question: Is it peer-reviewed?
+  short_answer: Not yet by traditional journals. The work is public and open for structured scrutiny through review routes,
+    assessment protocols, formalization surfaces, and citable artifacts.
+  long_answer: 'The program is independently published and does not claim traditional peer review as completed validation.
+    It exposes a public review architecture: TauLib, Release Manifest, assessment protocols, role-specific review routes,
+    Reviewer/Media Kit surfaces, and correction channels. These are preparation for review, not a substitute for review.'
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  related_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  display:
+    compact_label: Is it peer-reviewed?
+    show_on_faq_index: true
+- id: FAQ-FC-004
+  slug: who-is-behind-it
+  layer: 0
+  priority: 4
+  audience: *id001
+  category:
+  - authorship
+  - funding
+  - independence
+  - disclosure
+  question: Who is behind it?
+  short_answer: The program is independently authored and self-funded by Dr. Thorsten Fuchs and Anna-Sophie Fuchs; the site
+    states that there is no institutional funder, grant sponsor, or corporate backer.
+  long_answer: Panta Rhei is presented as an independent research program rather than an institutionally funded project. This
+    independence explains the open-publication model but does not validate the claims. Public communication should report
+    authorship and funding status neutrally.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Founders
+    url: https://panta-rhei.site/program/about/founders/
+  related_pages:
+  - title: Founders
+    url: https://panta-rhei.site/program/about/founders/
+  - title: Contact
+    url: https://panta-rhei.site/contact/
+  display:
+    compact_label: Who is behind it?
+    show_on_faq_index: true
+- id: FAQ-FC-005
+  slug: is-this-a-theory-of-everything
+  layer: 0
+  priority: 5
+  audience: *id001
+  category:
+  - framing
+  - scope
+  - terminology
+  - hype_control
+  question: Is this a theory of everything?
+  short_answer: No. The site avoids that label and uses “coherent theory of reality” to name a burden of construction, inspection,
+    and scope discipline rather than a completed proof.
+  long_answer: 'The phrase “coherent theory of reality” should not be read as a claim of finality. It marks a stricter burden:
+    earn the language, earn the questions, build the answers, disclose limits, and make the claim structure inspectable. The
+    recommended public framing is not “theory of everything proved.”'
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Homepage
+    url: https://panta-rhei.site/
+  related_pages:
+  - title: Theory of Reality Brief
+    url: https://panta-rhei.site/media/theory-of-reality-brief/
+  - title: Program
+    url: https://panta-rhei.site/program/
+  display:
+    compact_label: Theory of everything?
+    show_on_faq_index: true
+- id: FAQ-FC-006
+  slug: what-is-the-safest-headline-angle
+  layer: 0
+  priority: 6
+  audience:
+  - journalist
+  - editor
+  - media
+  category:
+  - media_framing
+  - responsible_coverage
+  - first_story
+  question: What is the shortest safe headline angle?
+  short_answer: 'The safest first angle is: “What should a serious theory of reality have to expose before asking for belief?”'
+  long_answer: The responsible first story is not that the claims are validated. It is that an unusually ambitious independent
+    research program has exposed obligations, construction spine, status labels, formalization, falsification paths, release
+    manifests, errata, and review routes before asking for belief.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  related_pages:
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  display:
+    compact_label: Safe headline?
+    show_on_faq_index: true
+- id: FAQ-FC-007
+  slug: what-should-i-believe-after-five-minutes
+  layer: 0
+  priority: 7
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - expert
+  category:
+  - epistemic_posture
+  - inspection
+  - belief
+  - scrutiny
+  question: What should I believe after reading the site for five minutes?
+  short_answer: You should not yet believe the scientific claims. You should believe only that the work is public, structured,
+    inspectable, and serious enough to route into expert scrutiny.
+  long_answer: 'After five minutes, the appropriate conclusion is not acceptance of the framework. The appropriate conclusion
+    is that the public artifact exposes enough structure to deserve inspection: Program, Agenda, Corpus, Results, Verify,
+    Release Manifest, TauLib, prediction/falsification surfaces, errata, and reviewer/journalist routes. Whether the claims
+    are correct remains a separate expert-review question.'
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  related_pages:
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Corpus
+    url: https://panta-rhei.site/corpus/
+  display:
+    compact_label: What should I believe?
+    show_on_faq_index: true

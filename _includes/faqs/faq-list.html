@@ -1,0 +1,139 @@
+{%- comment -%}
+  FAQ List — universal renderer for FAQ entities.
+
+  Parameters (all optional):
+    layer       integer 0–4: only show entries from this layer
+    audience    comma-separated string: only entries whose audience array contains ANY of these
+    category    comma-separated string: only entries whose category array contains ANY of these
+    ids         comma-separated string: only entries whose id is in this list (preserves order)
+    limit       integer: cap to first N entries after filtering+sorting
+    style       "accordion" (default) | "card" | "compact"
+    heading     optional heading string rendered above the list
+    heading_level   "h2" (default) | "h3" | "h4"
+    show_layer_label  "true" / "false" — show layer label badge per entry (default: false)
+    empty_text  text shown when no entries match (default: "No FAQ entries match this filter.")
+
+  Sorting: by layer ascending, then priority ascending.
+
+  Source: site.data.faqs.<layer-file>.faqs (mirrored from corpus/faqs/).
+{%- endcomment -%}
+
+{%- assign style = include.style | default: "accordion" -%}
+{%- assign heading_level = include.heading_level | default: "h2" -%}
+{%- assign show_layer_label = include.show_layer_label | default: "false" -%}
+
+{%- comment -%} Flatten all FAQ entries from all 5 layer files {%- endcomment -%}
+{%- assign layer_files = "first_contact,first_orientation,journalist_due_diligence,technical_credibility,expert_handoff" | split: "," -%}
+{%- assign all_entries = "" | split: "" -%}
+{%- for fname in layer_files -%}
+  {%- assign collection = site.data.faqs[fname] -%}
+  {%- if collection and collection.faqs -%}
+    {%- for faq in collection.faqs -%}
+      {%- if faq.status != "retired" -%}
+        {%- assign all_entries = all_entries | push: faq -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Filter: layer {%- endcomment -%}
+{%- if include.layer != nil -%}
+  {%- assign layer_int = include.layer | plus: 0 -%}
+  {%- assign filtered = all_entries | where: "layer", layer_int -%}
+{%- else -%}
+  {%- assign filtered = all_entries -%}
+{%- endif -%}
+
+{%- comment -%} Filter: ids (preserves include order) {%- endcomment -%}
+{%- if include.ids -%}
+  {%- assign id_list = include.ids | split: "," -%}
+  {%- assign id_filtered = "" | split: "" -%}
+  {%- for raw_id in id_list -%}
+    {%- assign want = raw_id | strip -%}
+    {%- for entry in filtered -%}
+      {%- if entry.id == want -%}
+        {%- assign id_filtered = id_filtered | push: entry -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  {%- assign filtered = id_filtered -%}
+{%- endif -%}
+
+{%- comment -%} Filter: audience (any-of match) {%- endcomment -%}
+{%- if include.audience -%}
+  {%- assign audience_list = include.audience | split: "," -%}
+  {%- assign aud_filtered = "" | split: "" -%}
+  {%- for entry in filtered -%}
+    {%- assign keep = false -%}
+    {%- for raw in audience_list -%}
+      {%- assign want = raw | strip -%}
+      {%- if entry.audience contains want -%}
+        {%- assign keep = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if keep -%}
+      {%- assign aud_filtered = aud_filtered | push: entry -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign filtered = aud_filtered -%}
+{%- endif -%}
+
+{%- comment -%} Filter: category (any-of match) {%- endcomment -%}
+{%- if include.category -%}
+  {%- assign cat_list = include.category | split: "," -%}
+  {%- assign cat_filtered = "" | split: "" -%}
+  {%- for entry in filtered -%}
+    {%- assign keep = false -%}
+    {%- for raw in cat_list -%}
+      {%- assign want = raw | strip -%}
+      {%- if entry.category contains want -%}
+        {%- assign keep = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if keep -%}
+      {%- assign cat_filtered = cat_filtered | push: entry -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign filtered = cat_filtered -%}
+{%- endif -%}
+
+{%- comment -%} Sort: layer asc, then priority asc — only when no explicit ids list (which preserves order) {%- endcomment -%}
+{%- unless include.ids -%}
+  {%- assign filtered = filtered | sort: "priority" -%}
+  {%- assign filtered = filtered | sort: "layer" -%}
+{%- endunless -%}
+
+{%- comment -%} Limit {%- endcomment -%}
+{%- if include.limit -%}
+  {%- assign filtered = filtered | slice: 0, include.limit -%}
+{%- endif -%}
+
+<section class="faq-list" data-faq-style="{{ style }}" data-faq-count="{{ filtered.size }}">
+  {%- if include.heading -%}
+    <{{ heading_level }} class="faq-list-heading">{{ include.heading }}</{{ heading_level }}>
+  {%- endif -%}
+
+  {%- if filtered.size == 0 -%}
+    <p class="faq-empty muted-note">{{ include.empty_text | default: "No FAQ entries match this filter." }}</p>
+  {%- else -%}
+    {%- if style == "card" -%}
+      <ul class="faq-card-grid" role="list">
+        {%- for faq in filtered -%}
+          {%- include faqs/faq-card.html faq=faq show_layer_label=show_layer_label -%}
+        {%- endfor -%}
+      </ul>
+    {%- elsif style == "compact" -%}
+      <ul class="faq-compact-list" role="list">
+        {%- for faq in filtered -%}
+          <li class="faq-compact-item"><a href="/faq/#{{ faq.id }}"><strong>{{ faq.display.compact_label | default: faq.question }}</strong></a> <span class="muted-note">— {{ faq.short_answer }}</span></li>
+        {%- endfor -%}
+      </ul>
+    {%- else -%}
+      <div class="faq-accordion-stack">
+        {%- for faq in filtered -%}
+          {%- include faqs/faq-accordion.html faq=faq show_layer_label=show_layer_label -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+</section>

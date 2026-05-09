@@ -1,0 +1,699 @@
+collection: expert_handoff_faq
+version: v0.1-pilot
+last_reviewed: '2026-05-09'
+layer:
+  id: 4
+  label: Expert Handoff
+  description: Which expert to call, what packet to send, and what bounded question to ask.
+maintainer: Panta Rhei Research Program
+source_repo: corpus
+projection_repo: site
+status: active
+review_cadence: each public release
+faqs:
+- id: FAQ-EH-001
+  slug: which-expert-should-i-call-first
+  layer: 4
+  priority: 1
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - expert_routing
+  - review_strategy
+  - first_contact
+  question: Which expert should I call first?
+  short_answer: It depends on the claim. For TauLib, call a formal-methods expert; for kernel hinges, a mathematician; for
+    numerical predictions, a physicist; for scope, a philosopher of science.
+  long_answer: 'No single expert should be asked to judge the whole program at once. Match the expert to the claim layer:
+    formal build, mathematical hinge, physics bridge, prior art, interpretive scope, life-sector adequacy, or impact translation.'
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  display:
+    compact_label: Which expert first?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Lean/formal-methods reviewer
+  - Mathematician
+  - Physicist
+  - Philosopher of science
+  - Prior-art specialist
+  suggested_first_question: Which bounded claim layer are you competent to judge?
+- id: FAQ-EH-002
+  slug: what-should-a-mathematician-inspect
+  layer: 4
+  priority: 2
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - mathematics
+  - expert_routing
+  - foundational_hinges
+  - proof_review
+  question: What should a mathematician inspect first?
+  short_answer: 'Start with the Foundational Hinges route and the three load-bearing clusters: kernel categoricity/rigidity,
+    the Central Theorem, and the τ-internal spectral/RH route.'
+  long_answer: The mathematical first pass should inspect Books I–III through the hinge routes, not read the entire series.
+    The review asks whether the mathematical spine is nontrivial, correctly scoped, and dependent only on disclosed assumptions.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Mathematician Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/mathematician/
+  - title: Foundational Hinges
+    url: https://panta-rhei.site/corpus/foundational-hinges/
+  display:
+    compact_label: Mathematician?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Category theorist
+  - Model theorist/logician
+  - Analytic number theorist
+  - Operator theorist
+  - Algebraic geometer
+  suggested_first_question: Are the hinge claims meaningful and strong enough under disclosed assumptions?
+- id: FAQ-EH-003
+  slug: what-should-a-physicist-inspect
+  layer: 4
+  priority: 3
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - physics
+  - predictions
+  - master_constant
+  - falsification
+  - expert_routing
+  question: What should a physicist inspect first?
+  short_answer: Start with whether ι_τ is forced or fitted, then inspect prediction timing, the calibration cascade, and the
+    falsification pack.
+  long_answer: 'Physics review should focus first on the empirical track: master constant, prediction catalogue, calibration
+    cascade, timing categories, and falsification tests. Do not start with metaphysics.'
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Physicist Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/physicist/
+  - title: Master Constant Hinge
+    url: https://panta-rhei.site/corpus/foundational-hinges/master-constant-iota-tau/
+  - title: Prediction Timing
+    url: https://panta-rhei.site/results/predictions/timing/
+  - title: Falsification Pack
+    url: https://panta-rhei.site/results/falsifications/browse/
+  display:
+    compact_label: Physicist?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Particle physicist
+  - Cosmologist
+  - Precision-measurement physicist
+  - GR specialist
+  suggested_first_question: Is ι_τ forced before calibration, and are prediction categories honest?
+- id: FAQ-EH-004
+  slug: what-should-a-formal-methods-expert-inspect
+  layer: 4
+  priority: 4
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - formal_methods
+  - lean
+  - reproducibility
+  - tcb
+  - expert_routing
+  question: What should a formal-methods expert inspect first?
+  short_answer: Reproduce the pinned TauLib build, scan for `sorry` and `axiom`, inspect the custom axiom inventory, and run
+    `#print axioms` on selected hinge theorems.
+  long_answer: Formal-methods review begins with source, manifest, trust budget, and audit commands. The goal is to determine
+    whether the formalization claims reproduce and whether public prose accurately describes the Lean code.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Formal Methods Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/formal-methods/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TCB Disclosure
+    url: https://panta-rhei.site/verify/tcb/
+  display:
+    compact_label: Formal methods?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Lean 4 expert
+  - Mathlib expert
+  - Proof assistant auditor
+  - Research software engineer
+  suggested_first_question: Does the pinned build reproduce with the stated axiom/sorry/TCB state?
+- id: FAQ-EH-005
+  slug: what-should-a-prior-art-specialist-inspect
+  layer: 4
+  priority: 5
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - prior_art
+  - novelty
+  - overlap
+  - relabeling
+  - expert_routing
+  question: What should a prior-art specialist inspect first?
+  short_answer: Test whether claimed differences survive translation into neighboring vocabularies, especially τ-holomorphy,
+    spectral ζ, generation physics, life theories, and no-dark-sector programs.
+  long_answer: Prior-art review asks whether novelty survives direct comparison. Compare τ claims against established neighboring
+    programs and test for relabeling, rediscovery, or genuine structural difference.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Prior-Art Specialist Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/prior-art-specialist/
+  - title: Related Approaches
+    url: https://panta-rhei.site/program/about/related-approaches/
+  - title: Prior-Art Comparisons
+    url: https://panta-rhei.site/framework/prior-art/
+  display:
+    compact_label: Prior art?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Quaternionic/Clifford analysis specialist
+  - Hilbert-Pólya/Connes/Berry-Keating specialist
+  - Particle-theory prior-art specialist
+  - Formal biology/consciousness specialist
+  - Modified gravity specialist
+  suggested_first_question: After translation into closest prior vocabulary, is there substantive novelty or relabeling?
+- id: FAQ-EH-006
+  slug: what-should-a-philosopher-inspect
+  layer: 4
+  priority: 6
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - philosophy
+  - metaphysics
+  - theory_of_reality
+  - interpretation
+  - expert_routing
+  question: What should a philosopher of science, mind, or metaphysics inspect first?
+  short_answer: Inspect whether the framework earns its language, keeps status levels separate, and avoids turning definitions
+    into disguised conclusions.
+  long_answer: 'Philosophical review asks conceptual discipline: are formal, empirical, bridge, interpretive, and ontic claims
+    separated? Are terms such as reality, observer, life, mind, and value earned rather than smuggled in?'
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Metaphysics Verification
+    url: https://panta-rhei.site/verify/domain-verification/metaphysics/
+  - title: Theory of Reality Brief
+    url: https://panta-rhei.site/media/theory-of-reality-brief/
+  display:
+    compact_label: Philosopher?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Philosopher of science
+  - Metaphysician
+  - Philosopher of mind
+  - Philosopher of mathematics
+  - Ethics specialist
+  suggested_first_question: Are interpretive claims explanatory rather than merely definitional?
+- id: FAQ-EH-007
+  slug: what-should-a-life-scientist-inspect
+  layer: 4
+  priority: 7
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - life
+  - biology
+  - theoretical_biology
+  - expert_routing
+  question: What should a life scientist or theoretical biologist inspect first?
+  short_answer: Inspect whether life-sector claims connect to observable biological constraints rather than becoming true
+    only inside τ vocabulary.
+  long_answer: Life-science review should ask whether the framework explains biological structure or merely redescribes it.
+    The reviewer should test bridgeability to theoretical biology, origin-of-life, astrobiology, and systems biology criteria.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Life Verification
+    url: https://panta-rhei.site/verify/domain-verification/life/
+  - title: Results — Life
+    url: https://panta-rhei.site/results/life/
+  - title: Book VI
+    url: https://panta-rhei.site/corpus/monographs/book-vi/
+  display:
+    compact_label: Life scientist?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Theoretical biologist
+  - Systems biologist
+  - Origin-of-life researcher
+  - Astrobiologist
+  - Philosopher of biology
+  suggested_first_question: Does the τ-life criterion explain biological constraints or redefine life too broadly?
+- id: FAQ-EH-008
+  slug: what-should-an-impact-or-public-good-reviewer-inspect
+  layer: 4
+  priority: 8
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - impact
+  - public_good
+  - translation
+  - governance
+  - expert_routing
+  question: What should an impact or public-good reviewer inspect first?
+  short_answer: 'Inspect the dependency chain: upstream Results, translation assumptions, domain validation, benchmark metrics,
+    governance risks, and what is not yet deployment-ready.'
+  long_answer: Impact claims are conditional downstream scenarios, not product claims. Reviewers should trace the chain from
+    upstream τ result to domain translation to pilot benchmark to governance condition.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Impact
+    url: https://panta-rhei.site/impact/
+  - title: Global Public Good
+    url: https://panta-rhei.site/impact/global-public-good/
+  - title: Public-Good Impact Dossiers
+    url: https://panta-rhei.site/publications/research-briefings/public-good/
+  display:
+    compact_label: Impact reviewer?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Policy expert
+  - Public-good program evaluator
+  - Domain scientist
+  - Research impact evaluator
+  - Governance specialist
+  suggested_first_question: Does the dossier identify upstream τ dependencies and missing translation work clearly?
+- id: FAQ-EH-009
+  slug: what-should-a-reproducibility-reviewer-inspect
+  layer: 4
+  priority: 9
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - reproducibility
+  - release_manifest
+  - counts
+  - source_control
+  - expert_routing
+  question: What should a reproducibility reviewer inspect first?
+  short_answer: Inspect whether the Release Manifest, TauLib source, Registry counts, website counts, release notes, and archived
+    artifacts agree under documented filter rules.
+  long_answer: Reproducibility is not only `lake build`. It includes source provenance, counts, manifest-driven metrics, release
+    notes, archived artifacts, and correction behavior.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Filter Rules
+    url: https://panta-rhei.site/verify/filter-rules/
+  - title: Release History
+    url: https://panta-rhei.site/changelog/
+  display:
+    compact_label: Reproducibility?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Open-science reviewer
+  - Research software engineer
+  - Release engineer
+  - Data provenance specialist
+  suggested_first_question: Can a third party reproduce the build and reconcile all metrics from one manifest?
+- id: FAQ-EH-010
+  slug: what-should-an-editor-ask-an-expert
+  layer: 4
+  priority: 10
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - editor_checklist
+  - expert_interview
+  - responsible_coverage
+  question: What should an editor ask an outside expert?
+  short_answer: 'Ask a bounded question: “Does this specific claim layer hold up, and what would count as a failure?”'
+  long_answer: 'Editors should avoid broad reaction quotes. A good question names the artifact, layer, and failure condition:
+    formal build, hinge theorem, prediction independence, prior-art novelty, interpretive coherence, or impact translation.'
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  display:
+    compact_label: Ask experts?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Any domain expert matched to the claim layer
+  suggested_first_question: Which specific artifact did you inspect, and what is your confidence about that layer only?
+- id: FAQ-EH-011
+  slug: what-is-a-good-expert-answer
+  layer: 4
+  priority: 11
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - expert_interview
+  - evaluation_quality
+  - responsible_coverage
+  question: What counts as a useful expert answer?
+  short_answer: A useful answer names the layer inspected, the artifact checked, the specific objection or support, and the
+    remaining uncertainty.
+  long_answer: A useful answer is bounded and traceable. It identifies exactly what was inspected and what the comment supports
+    or challenges. Praise or dismissal without artifact and layer is weak evidence.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Scientific Rigor
+    url: https://panta-rhei.site/verify/scientific-rigor/
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  display:
+    compact_label: Useful expert answer?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Any external expert
+  suggested_first_question: Which public artifact did you inspect, and what exactly does your comment support or challenge?
+- id: FAQ-EH-012
+  slug: what-is-the-minimal-mathematics-packet
+  layer: 4
+  priority: 12
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - mathematics
+  - review_packet
+  - expert_handoff
+  question: What is the minimal packet for a mathematician?
+  short_answer: Send the Foundational Hinges page, the relevant hinge paper, the Mathematician Route, the Release Manifest,
+    and linked Registry/TauLib anchors.
+  long_answer: Do not send only the homepage or the full monograph series. Send a bounded packet around the specific hinge
+    under review, with formalization status and dependency anchors.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Foundational Hinges
+    url: https://panta-rhei.site/corpus/foundational-hinges/
+  - title: Mathematician Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/mathematician/
+  - title: Research Papers
+    url: https://panta-rhei.site/publications/research-papers/
+  display:
+    compact_label: Math packet?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Mathematician matched to hinge
+  suggested_first_question: Does this hinge theorem provide real mathematical content under disclosed assumptions?
+- id: FAQ-EH-013
+  slug: what-is-the-minimal-physics-packet
+  layer: 4
+  priority: 13
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - physics
+  - review_packet
+  - master_constant
+  - predictions
+  question: What is the minimal packet for a physicist?
+  short_answer: Send the Master Constant H3 page and paper, the Physicist Route, Prediction Timing, Calibration Cascade, and
+    Falsification Pack.
+  long_answer: A physics packet should focus on empirical and numerical claims, not the whole metaphysical program. The bounded
+    question is whether the ledger is structurally forced, independently generated, honestly timed, and testable.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Physicist Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/physicist/
+  - title: Master Constant Hinge
+    url: https://panta-rhei.site/corpus/foundational-hinges/master-constant-iota-tau/
+  - title: Prediction Timing
+    url: https://panta-rhei.site/results/predictions/timing/
+  - title: Calibration Cascade
+    url: https://panta-rhei.site/results/calibration-cascade/
+  - title: Falsification Pack
+    url: https://panta-rhei.site/results/falsifications/browse/
+  display:
+    compact_label: Physics packet?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Particle physicist
+  - Cosmologist
+  - Precision-measurement physicist
+  suggested_first_question: Is the master constant forced before calibration, and are prediction categories honest?
+- id: FAQ-EH-014
+  slug: what-is-the-minimal-formal-methods-packet
+  layer: 4
+  priority: 14
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - formal_methods
+  - review_packet
+  - reproducibility
+  - tcb
+  question: What is the minimal packet for a formal-methods reviewer?
+  short_answer: Send the Release Manifest, TauLib source, Formal Methods Route, TCB Disclosure, Custom Axiom Inventory, and
+    Formal Verification Stack.
+  long_answer: A formal-methods packet needs source, manifest, trust budget, and audit instructions. It should include the
+    specific theorem or module if reviewing a particular claim.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Formal Methods Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/formal-methods/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Source
+    url: https://github.com/Panta-Rhei-Research/taulib
+  - title: TCB Disclosure
+    url: https://panta-rhei.site/verify/tcb/
+  - title: Custom Axiom Inventory
+    url: https://panta-rhei.site/verify/custom-axioms/
+  display:
+    compact_label: Formal packet?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Lean 4 / Mathlib reviewer
+  - Proof assistant expert
+  - Research software engineer
+  suggested_first_question: Can you reproduce the pinned build and verify the axiom/sorry/trust-budget state?
+- id: FAQ-EH-015
+  slug: how-should-expert-disagreement-be-reported
+  layer: 4
+  priority: 15
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - expert_disagreement
+  - responsible_coverage
+  - uncertainty
+  - review_reporting
+  question: How should expert disagreement be reported?
+  short_answer: 'Report the disputed layer: research form, formalization, mathematics, prior art, physics bridge, empirical
+    prediction, interpretation, or impact translation.'
+  long_answer: A good article names the expert’s domain, artifact inspected, layer being judged, support or objection, and
+    remaining uncertainty. Do not flatten layered disagreement into a single verdict.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  - title: Scientific Rigor
+    url: https://panta-rhei.site/verify/scientific-rigor/
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  display:
+    compact_label: Report disagreement?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Any domain expert
+  suggested_first_question: Which layer are you disagreeing with, and what artifact did you inspect?
+- id: FAQ-EH-016
+  slug: what-expert-review-would-change-the-status
+  layer: 4
+  priority: 16
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - reviewer
+  - institution
+  category:
+  - status_change
+  - expert_review
+  - validation
+  - scrutiny
+  question: What kind of expert review would materially change the status?
+  short_answer: A review changes status only if it is specific, documented, artifact-linked, and bounded to a claim layer
+    or dependency chain.
+  long_answer: Informal praise or dismissal is not enough. A status-changing review identifies the artifact, specialist competence,
+    exact claim layer, method of inspection, and resulting judgment; it should be citable and incorporable into status labels,
+    errata, or Release Manifest notes.
+  source_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  related_pages:
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Errata
+    url: https://panta-rhei.site/publications/errata/
+  display:
+    compact_label: Status-changing review?
+    show_on_faq_index: true
+  suggested_expert_types:
+  - Formal-methods reviewer
+  - Domain specialist
+  - Prior-art specialist
+  - Reproducibility reviewer
+  suggested_first_question: Is this review specific enough to update a status label, erratum, or manifest note?

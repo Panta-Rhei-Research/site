@@ -1,0 +1,472 @@
+collection: first_orientation_faq
+version: v0.1-pilot
+last_reviewed: '2026-05-09'
+layer:
+  id: 1
+  label: First Orientation
+  description: 'First 1–3 minute orientation: where to start, lanes, Corpus, Results, master constant, failure paths.'
+maintainer: Panta Rhei Research Program
+source_repo: corpus
+projection_repo: site
+status: active
+review_cadence: each public release
+faqs:
+- id: FAQ-OR-001
+  slug: where-should-i-start
+  layer: 1
+  priority: 1
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - orientation
+  - entry_routes
+  - first_reader_path
+  question: Where should I start if I am not a specialist?
+  short_answer: Start with Discover. It is the guided first-contact route and explains how the site’s Program, Agenda, Corpus,
+    Results, Verify, Impact, and Publications lanes fit together.
+  long_answer: A non-specialist should begin with orientation rather than claims. Discover explains the site structure and
+    routes readers into the construction body, consequence surfaces, and inspection routes. The safest reading order is orientation
+    first, obligations second, construction third, results fourth, verification always.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Start Here
+    url: https://panta-rhei.site/discover/start-here/
+  - title: What to Read First
+    url: https://panta-rhei.site/discover/what-to-read-first/
+  display:
+    compact_label: Where do I start?
+    show_on_faq_index: true
+- id: FAQ-OR-002
+  slug: how-do-the-main-lanes-fit-together
+  layer: 1
+  priority: 2
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - site_architecture
+  - observatory
+  - orientation
+  question: How do the main lanes fit together?
+  short_answer: Agenda states the burden, Corpus carries the construction, Results reports current consequence surfaces, and
+    Verify exposes inspection routes.
+  long_answer: The site is organized as a research observatory. Discover orients; Program states identity and scope; Agenda
+    defines obligations; Corpus carries construction; Results reports consequence surfaces; Verify exposes inspection, bridge,
+    and falsification routes; Publications holds citable artifacts; Impact maps conditional relevance.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Program
+    url: https://panta-rhei.site/program/
+  - title: Agenda
+    url: https://panta-rhei.site/agenda/
+  - title: Corpus
+    url: https://panta-rhei.site/corpus/
+  - title: Results
+    url: https://panta-rhei.site/results/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  display:
+    compact_label: How is the site structured?
+    show_on_faq_index: true
+- id: FAQ-OR-003
+  slug: what-is-the-corpus
+  layer: 1
+  priority: 3
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - corpus
+  - construction
+  - research_body
+  question: What is the Corpus?
+  short_answer: 'The Corpus is the construction body of the theory: definitions, derivations, monograph exposition, registry
+    objects, TauLib projections, and dependency relations.'
+  long_answer: The Corpus is where the theory is built rather than merely announced. It is not identical to the books, the
+    Registry, or TauLib; those are projections of the Corpus. A reviewer asks there what was constructed, in what order, from
+    what earlier obligations, and with which dependency anchors.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Corpus
+    url: https://panta-rhei.site/corpus/
+  - title: Construction Spine
+    url: https://panta-rhei.site/corpus/construction-spine/
+  - title: Monograph Corpus
+    url: https://panta-rhei.site/corpus/monographs/
+  - title: Registry
+    url: https://panta-rhei.site/corpus/registry/
+  - title: TauLib Projection
+    url: https://panta-rhei.site/corpus/taulib/
+  display:
+    compact_label: What is the Corpus?
+    show_on_faq_index: true
+- id: FAQ-OR-004
+  slug: what-are-results
+  layer: 1
+  priority: 4
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - results
+  - claims
+  - status_grammar
+  question: What are Results, and are they the same as accepted scientific conclusions?
+  short_answer: Results are status-marked consequence surfaces of the built Corpus. They are not the same as external verification
+    or scientific acceptance.
+  long_answer: 'Results show what the framework currently says follows across mathematics, physics, life, and metaphysics.
+    They must be read with status markers: internal stance, verification route, and external-acceptance boundary are separate.
+    A result can be internally addressed without being externally accepted.'
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Results
+    url: https://panta-rhei.site/results/
+  - title: Classifications
+    url: https://panta-rhei.site/results/classifications/
+  - title: Browse Results
+    url: https://panta-rhei.site/results/browse/
+  display:
+    compact_label: Are Results accepted?
+    show_on_faq_index: true
+- id: FAQ-OR-005
+  slug: what-are-the-biggest-claims
+  layer: 1
+  priority: 5
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - flagship_claims
+  - results
+  - orientation
+  question: What are the biggest claims I should notice first?
+  short_answer: The first visible claims are the master constant, the typed Results catalogue, 67 quantitative predictions,
+    30 falsification tests, and domain readouts across mathematics, physics, life, and metaphysics.
+  long_answer: The homepage intentionally surfaces striking claims early, but it also tells readers these claims are not equivalent
+    in status. First orientation should identify high-signal claims and then route them into Results and Verify rather than
+    accepting them from the homepage alone.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Results
+    url: https://panta-rhei.site/results/
+  - title: Landmark Results
+    url: https://panta-rhei.site/results/landmark/
+  - title: Predictions
+    url: https://panta-rhei.site/results/predictions/
+  - title: Falsification Pack
+    url: https://panta-rhei.site/results/falsifications/browse/
+  display:
+    compact_label: Biggest claims?
+    show_on_faq_index: true
+- id: FAQ-OR-006
+  slug: what-is-the-master-constant
+  layer: 1
+  priority: 6
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - master_constant
+  - physics
+  - red_team
+  question: What is the master constant, and why does it matter?
+  short_answer: The master constant is the scalar value ι_τ = 2/(π + e) used by the numerical physics surface; the site treats
+    it as a central review target, not a rhetorical shortcut.
+  long_answer: The master constant is one of the first red-team questions. The physics surface depends on whether ι_τ is genuinely
+    forced by the kernel/scalar-readout construction or effectively fitted. The site routes this through a research paper,
+    Corpus H3 page, Step 2, Registry anchors, and TauLib evidence.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Master Constant Hinge
+    url: https://panta-rhei.site/corpus/foundational-hinges/master-constant-iota-tau/
+  - title: Master Constant Paper
+    url: https://panta-rhei.site/publications/research-papers/master-constant-iota-tau/
+  - title: Prediction Timing
+    url: https://panta-rhei.site/results/predictions/timing/
+  display:
+    compact_label: What is ι_τ?
+    show_on_faq_index: true
+- id: FAQ-OR-007
+  slug: is-the-master-constant-fitted
+  layer: 1
+  priority: 7
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - master_constant
+  - fitting
+  - red_team
+  - physics
+  question: Is the master constant fitted to data?
+  short_answer: That is the central red-team question. The site claims a structural derivation route, but downstream numerical
+    claims should not be weighted until this hinge is inspected.
+  long_answer: The first question is not whether downstream numbers are impressive. It is whether ι_τ is fixed before physical
+    calibration enters. If the derivation fails, the downstream zero-parameter physics claim weakens substantially.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Master Constant Hinge
+    url: https://panta-rhei.site/corpus/foundational-hinges/master-constant-iota-tau/
+  - title: Physicist Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/physicist/
+  - title: Prediction Timing
+    url: https://panta-rhei.site/results/predictions/timing/
+  display:
+    compact_label: Is ι_τ fitted?
+    show_on_faq_index: true
+- id: FAQ-OR-008
+  slug: what-happens-if-a-hinge-fails
+  layer: 1
+  priority: 8
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - falsification
+  - failure_modes
+  - red_team
+  - hinges
+  question: What happens if a key hinge fails?
+  short_answer: Then the downstream claims depending on that hinge weaken or fail. The site should be read as a dependency
+    structure, not as a list of independent claims.
+  long_answer: Claims are routed through construction steps, hinge pages, Registry entries, TauLib modules, and Verify surfaces.
+    If a hinge fails, the relevant downstream claims need to be relabeled, weakened, repaired, or withdrawn according to dependency.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Foundational Hinges
+    url: https://panta-rhei.site/corpus/foundational-hinges/
+  - title: Construction Spine Verification
+    url: https://panta-rhei.site/verify/construction-spine-verification/
+  - title: Falsification Pack
+    url: https://panta-rhei.site/results/falsifications/browse/
+  display:
+    compact_label: What if a hinge fails?
+    show_on_faq_index: true
+- id: FAQ-OR-009
+  slug: what-does-taulib-prove
+  layer: 1
+  priority: 9
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - taulib
+  - lean
+  - formalization
+  - verification
+  question: What does TauLib / Lean actually prove?
+  short_answer: TauLib proves that encoded formal statements compile under the pinned Lean environment. It does not by itself
+    prove empirical truth, bridge adequacy, or scientific acceptance.
+  long_answer: TauLib is the Lean formalization projection. If a theorem is encoded and compiles, Lean checks that theorem
+    relative to the formal environment, trusted computing base, and disclosed assumptions. Bridge claims and empirical interpretations
+    remain separate burdens.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  - title: TCB Disclosure
+    url: https://panta-rhei.site/verify/tcb/
+  display:
+    compact_label: What does Lean prove?
+    show_on_faq_index: true
+- id: FAQ-OR-010
+  slug: what-does-verification-not-settle
+  layer: 1
+  priority: 10
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - verification
+  - epistemic_boundaries
+  - bridge_claims
+  question: What does verification not settle?
+  short_answer: Verification does not settle empirical truth, semantic interpretation, bridge adequacy, domain validity, public-good
+    relevance, or external scientific acceptance.
+  long_answer: Formal checking can certify encoded formal claims; prediction surfaces can expose commitments; falsification
+    packs can identify failure paths. None of those alone establishes that a mathematical construction describes the physical
+    world or that a public-good application is ready.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Verification Framework
+    url: https://panta-rhei.site/verify/verification-framework/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  - title: Predictions & Falsification
+    url: https://panta-rhei.site/verify/predictions-and-falsification/
+  display:
+    compact_label: What not settled?
+    show_on_faq_index: true
+- id: FAQ-OR-011
+  slug: where-are-failure-paths
+  layer: 1
+  priority: 11
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - falsification
+  - predictions
+  - empirical_accountability
+  question: Where are the failure paths?
+  short_answer: Failure paths are exposed through prediction timing, falsification pack, hinge pages, Release Manifest, errata,
+    and Verify routes.
+  long_answer: Failure is not one thing. Mathematical hinges can fail; formal builds can fail; bridge claims can fail; empirical
+    predictions can fail; public-good translations can fail. The site should route each kind of failure to the right inspection
+    surface.
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Prediction Timing
+    url: https://panta-rhei.site/results/predictions/timing/
+  - title: Falsification Pack
+    url: https://panta-rhei.site/results/falsifications/browse/
+  - title: Errata
+    url: https://panta-rhei.site/publications/errata/
+  display:
+    compact_label: Where can it fail?
+    show_on_faq_index: true
+- id: FAQ-OR-012
+  slug: what-should-i-read-next-in-ten-minutes
+  layer: 1
+  priority: 12
+  audience:
+  - journalist
+  - editor
+  - first_time_reader
+  - skeptic
+  - reviewer
+  category:
+  - reading_path
+  - orientation
+  - practical_next_steps
+  question: What should I read next if I have ten more minutes?
+  short_answer: Read Discover, then Verify, then either the Master Constant hinge or Results overview, depending on whether
+    your next question is credibility or substance.
+  long_answer: 'A practical route is: Discover for structure; Verify for inspection boundaries; Master Constant for physics
+    skepticism; Results for consequence surfaces; Corpus/Construction Spine for construction burden; Journalist FAQ for responsible
+    coverage. Do not start by reading all seven monographs.'
+  source_pages:
+  - title: Homepage
+    url: https://panta-rhei.site/
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Discover
+    url: https://panta-rhei.site/discover/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Master Constant Hinge
+    url: https://panta-rhei.site/corpus/foundational-hinges/master-constant-iota-tau/
+  - title: Results
+    url: https://panta-rhei.site/results/
+  - title: Construction Spine
+    url: https://panta-rhei.site/corpus/construction-spine/
+  display:
+    compact_label: Next 10 minutes?
+    show_on_faq_index: true

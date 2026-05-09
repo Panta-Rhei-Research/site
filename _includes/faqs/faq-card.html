@@ -1,0 +1,36 @@
+{%- comment -%}
+  FAQ Card — single FAQ entry rendered as a compact card linking to the full
+  entry on the layer page (or main /faq/ index anchor).
+
+  Parameters:
+    faq                FAQ entry object (required)
+    show_layer_label   "true" / "false" — render layer label badge
+
+  Card layout: compact_label as title, short_answer as body, link to anchor on
+  layer page, layer badge optional.
+{%- endcomment -%}
+{%- assign faq = include.faq -%}
+{%- if faq -%}
+  {%- assign layer_id = faq.layer | plus: 0 -%}
+  {%- case layer_id -%}
+    {%- when 0 -%}{%- assign layer_url = "/faq/first-contact/" -%}{%- assign layer_label = "First Contact" -%}{%- assign layer_slug = "fc" -%}
+    {%- when 1 -%}{%- assign layer_url = "/faq/first-orientation/" -%}{%- assign layer_label = "First Orientation" -%}{%- assign layer_slug = "or" -%}
+    {%- when 2 -%}{%- assign layer_url = "/faq/journalist-due-diligence/" -%}{%- assign layer_label = "Journalist DD" -%}{%- assign layer_slug = "jd" -%}
+    {%- when 3 -%}{%- assign layer_url = "/faq/technical-credibility/" -%}{%- assign layer_label = "Technical Credibility" -%}{%- assign layer_slug = "tc" -%}
+    {%- when 4 -%}{%- assign layer_url = "/faq/expert-handoff/" -%}{%- assign layer_label = "Expert Handoff" -%}{%- assign layer_slug = "eh" -%}
+    {%- else -%}{%- assign layer_url = "/faq/" -%}{%- assign layer_label = "FAQ" -%}{%- assign layer_slug = "faq" -%}
+  {%- endcase -%}
+<li class="faq-card" data-faq-id="{{ faq.id }}" data-faq-layer="{{ layer_id }}" data-faq-layer-slug="{{ layer_slug }}">
+  <a class="faq-card-link" href="{{ layer_url | relative_url }}#{{ faq.id }}">
+    <p class="faq-card-eyebrow">
+      <code class="faq-card-id">{{ faq.id }}</code>
+      {%- if include.show_layer_label == "true" -%}
+        · <span class="faq-card-layer-badge faq-card-layer-{{ layer_slug }}">{{ layer_label }}</span>
+      {%- endif -%}
+    </p>
+    <h3 class="faq-card-title">{{ faq.display.compact_label | default: faq.question }}</h3>
+    <p class="faq-card-body">{{ faq.short_answer }}</p>
+    <span class="faq-card-cta">Read full answer →</span>
+  </a>
+</li>
+{%- endif -%}

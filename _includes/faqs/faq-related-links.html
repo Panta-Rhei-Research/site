@@ -1,0 +1,19 @@
+{%- comment -%}
+  FAQ Related Links — render a FAQ entry's related_pages list as inline link
+  buttons. Source pages are handled separately by the accordion include's
+  "Where this answer comes from" details element.
+{%- endcomment -%}
+{%- assign faq = include.faq -%}
+{%- if faq and faq.related_pages and faq.related_pages.size > 0 -%}
+<nav class="faq-related" aria-label="Related pages for {{ faq.id }}">
+  <p class="faq-related-heading">Read next</p>
+  <ul class="faq-related-list">
+    {%- for rel in faq.related_pages -%}
+      {%- assign label = rel.title | default: rel.label -%}
+      {%- if label and rel.url -%}
+        <li><a class="faq-related-link" href="{{ rel.url }}">{{ label }}</a></li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</nav>
+{%- endif -%}

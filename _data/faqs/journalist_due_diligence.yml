@@ -1,0 +1,657 @@
+collection: journalist_due_diligence_faq
+version: v0.1-pilot
+last_reviewed: '2026-05-09'
+layer:
+  id: 2
+  label: Journalist / Editor Due Diligence
+  description: 'Journalist/editor coverage questions: what to write, what to avoid, what to cite, which experts to call.'
+maintainer: Panta Rhei Research Program
+source_repo: corpus
+projection_repo: site
+status: active
+review_cadence: each public release
+faqs:
+- id: FAQ-JD-001
+  slug: can-i-write-before-expert-review
+  layer: 2
+  priority: 1
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - responsible_coverage
+  - peer_review
+  - framing
+  question: Can a journalist write about this before expert review?
+  short_answer: Yes, if the story is framed around inspectability, open-research infrastructure, and the public burden the
+    program accepts — not around validated scientific truth.
+  long_answer: Coverage before expert review is responsible only if status is clear. The story should be about public research
+    form and inspection surfaces, not about acceptance of the scientific claims.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  display:
+    compact_label: Write before review?
+    show_on_faq_index: true
+- id: FAQ-JD-002
+  slug: what-is-the-responsible-story
+  layer: 2
+  priority: 2
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - story_angle
+  - responsible_coverage
+  - inspection_architecture
+  question: What is the responsible first story?
+  short_answer: 'The responsible first story is the inspection architecture: what a serious high-scope research program exposes
+    before asking anyone to believe it.'
+  long_answer: The first story should be architectural and epistemic, not triumphalist. The site is a case study in obligations,
+    Corpus, Results, TauLib, Release Manifest, predictions, falsification, errata, and assessment protocols.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Story Angles
+    url: https://panta-rhei.site/media/story-angles/
+  - title: Open Research Brief
+    url: https://panta-rhei.site/media/open-research-brief/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  display:
+    compact_label: Responsible story?
+    show_on_faq_index: true
+- id: FAQ-JD-003
+  slug: what-should-i-avoid-writing
+  layer: 2
+  priority: 3
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - responsible_coverage
+  - hype_control
+  - avoid
+  question: What should I avoid writing?
+  short_answer: Do not write that the framework is proven, peer-reviewed, externally accepted, or that Lean proves the physical
+    claims.
+  long_answer: Avoid collapsing status boundaries. Do not present internal results as externally accepted conclusions, do
+    not call it a theory of everything, and do not treat Lean compilation as empirical truth.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Scope, Status & Scrutiny
+    url: https://panta-rhei.site/program/about/scope-status-and-scrutiny/
+  - title: Results Classifications
+    url: https://panta-rhei.site/results/classifications/
+  display:
+    compact_label: What not to write?
+    show_on_faq_index: true
+- id: FAQ-JD-004
+  slug: are-external-institutions-endorsing-this
+  layer: 2
+  priority: 4
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - endorsement
+  - external_validation
+  - citation_discipline
+  question: Are external institutions endorsing Panta Rhei?
+  short_answer: No. External organizations and references are cited as context, standards, or background, not as endorsement,
+    validation, review, or acceptance.
+  long_answer: Citations to open-science, standards, philosophy, repository, or reporting resources are contextual. They must
+    not be converted into institutional endorsement.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Bibliography
+    url: https://panta-rhei.site/bibliography/
+  - title: Cite
+    url: https://panta-rhei.site/cite/
+  display:
+    compact_label: Any endorsements?
+    show_on_faq_index: true
+- id: FAQ-JD-005
+  slug: is-it-peer-reviewed-or-covered
+  layer: 2
+  priority: 5
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - peer_review
+  - coverage
+  - external_validation
+  question: Is the work peer-reviewed or covered elsewhere?
+  short_answer: Not yet by traditional journals; the program is published openly for scrutiny.
+  long_answer: The work is independent open research, not settled peer-reviewed consensus. If there is no current third-party
+    press or review, say so and frame the piece as a first-contact inspection story.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  display:
+    compact_label: Reviewed or covered?
+    show_on_faq_index: true
+- id: FAQ-JD-006
+  slug: how-should-i-describe-the-work
+  layer: 2
+  priority: 6
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - description
+  - boilerplate
+  - naming
+  question: How should I describe the work accurately?
+  short_answer: 'Use: “Panta Rhei is an independent open research program dedicated to building a coherent theory of reality,
+    published as an inspectable research observatory.”'
+  long_answer: This phrasing identifies the scope, independence, public-release form, and inspection posture without claiming
+    validation. Use Panta Rhei Research Program for the program and Category τ for the framework where appropriate.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Theory of Reality Brief
+    url: https://panta-rhei.site/media/theory-of-reality-brief/
+  - title: Program
+    url: https://panta-rhei.site/program/
+  display:
+    compact_label: How to describe?
+    show_on_faq_index: true
+- id: FAQ-JD-007
+  slug: what-should-i-link-first
+  layer: 2
+  priority: 7
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - linking
+  - citation
+  - source_artifacts
+  question: What should I link first?
+  short_answer: Link the Journalist FAQ or Media Kit for framing, then Verify or the Release Manifest for inspection status,
+    and only then route readers to specific Results or papers.
+  long_answer: Do not link only a striking result without status context. A good link stack starts with framing and verification,
+    then points to the specific Corpus, Result, paper, Registry, or TauLib artifact.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Results
+    url: https://panta-rhei.site/results/
+  display:
+    compact_label: What to link?
+    show_on_faq_index: true
+- id: FAQ-JD-008
+  slug: how-do-i-cite-specific-claims
+  layer: 2
+  priority: 8
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - citation
+  - source_artifacts
+  - registry
+  - doi
+  question: How do I cite a specific result, paper, or registry object?
+  short_answer: Cite books and papers through DOI/citation pages, cite results by stable URL and status label, and cite registry
+    objects by stable object ID and permalink.
+  long_answer: Use the publication artifact for citable works, stable Result URLs for claims, Registry IDs for atomic objects,
+    and the Release Manifest/TauLib for formalization claims.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Cite
+    url: https://panta-rhei.site/cite/
+  - title: Research Papers
+    url: https://panta-rhei.site/publications/research-papers/
+  - title: Registry
+    url: https://panta-rhei.site/corpus/registry/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  display:
+    compact_label: How to cite?
+    show_on_faq_index: true
+- id: FAQ-JD-009
+  slug: what-are-the-most-checkable-artifacts
+  layer: 2
+  priority: 9
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - inspection
+  - source_artifacts
+  - verification
+  question: What are the most third-party-checkable artifacts?
+  short_answer: TauLib, the Release Manifest, Registry, Results status pages, prediction timing, falsification pack, errata,
+    research papers, and assessment protocols.
+  long_answer: Checkability comes from public source, stable IDs, explicit status, reproducible builds, named falsification
+    routes, and correction behavior. These artifacts are the best first links for experts.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Registry
+    url: https://panta-rhei.site/corpus/registry/
+  - title: Prediction Timing
+    url: https://panta-rhei.site/results/predictions/timing/
+  - title: Falsification Pack
+    url: https://panta-rhei.site/results/falsifications/browse/
+  - title: Errata
+    url: https://panta-rhei.site/publications/errata/
+  display:
+    compact_label: What can be checked?
+    show_on_faq_index: true
+- id: FAQ-JD-010
+  slug: what-should-an-editor-ask-before-assigning
+  layer: 2
+  priority: 10
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - editor_checklist
+  - responsible_coverage
+  - review
+  question: What should an editor ask before assigning a story?
+  short_answer: Ask whether the piece is about inspection architecture or validated science, what claims are being checked,
+    which experts will be called, and which status labels must be preserved.
+  long_answer: 'A responsible assignment picks a bounded path: inspection architecture, master constant, TauLib formalization,
+    prediction timing, falsification surface, or a domain-specific claim. Avoid a broad “new theory proves X” pitch.'
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  display:
+    compact_label: Editor checklist?
+    show_on_faq_index: true
+- id: FAQ-JD-011
+  slug: which-experts-should-i-call
+  layer: 2
+  priority: 11
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - expert_handoff
+  - review
+  - domain_validation
+  question: Which experts should I call first?
+  short_answer: Call a formal-methods reviewer for TauLib, a mathematician for kernel hinges, a physicist for prediction bridges,
+    and a philosopher of science for scope and framing.
+  long_answer: Match experts to claim layers. Formal build, mathematical hinge, physics bridge, prior art, philosophical interpretation,
+    life-sector adequacy, and impact translation require different reviewers.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: How to Verify by Role
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  display:
+    compact_label: Which experts?
+    show_on_faq_index: true
+- id: FAQ-JD-012
+  slug: what-should-i-ask-experts
+  layer: 2
+  priority: 12
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - expert_handoff
+  - red_team
+  - interview_questions
+  question: What should I ask outside experts?
+  short_answer: Ask whether the artifact is inspectable, whether the specific claim is well-typed, whether the derivation
+    is forced, whether prior art overlaps, and what would falsify it.
+  long_answer: Do not ask an expert to judge the entire program in one quote. Ask them which artifact they inspected, what
+    layer they can judge, and what would change their assessment.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Red-team FAQ
+    url: https://panta-rhei.site/program/about/red-team-faq/
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  display:
+    compact_label: Ask experts?
+    show_on_faq_index: true
+- id: FAQ-JD-013
+  slug: how-should-i-cover-predictions
+  layer: 2
+  priority: 13
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - predictions
+  - falsification
+  - physics
+  - responsible_coverage
+  question: How should I cover predictions and falsification claims?
+  short_answer: Cover them as public accountability commitments, not as validated confirmations. Preserve timing categories,
+    precision tiers, and failure conditions.
+  long_answer: Some prediction records are post-dictions, some tension-side commitments, and some forward tests. A responsible
+    piece links prediction timing and falsification surfaces and does not imply numerical agreement validates the whole framework.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Prediction Timing
+    url: https://panta-rhei.site/results/predictions/timing/
+  - title: Predictions & Falsification
+    url: https://panta-rhei.site/verify/predictions-and-falsification/
+  - title: Falsification Pack
+    url: https://panta-rhei.site/results/falsifications/browse/
+  display:
+    compact_label: Cover predictions?
+    show_on_faq_index: true
+- id: FAQ-JD-014
+  slug: how-should-i-cover-impact-claims
+  layer: 2
+  priority: 14
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - impact
+  - public_good
+  - translation
+  - responsible_coverage
+  question: How should I cover public-good or impact claims?
+  short_answer: Cover them as conditional impact pathways, not as deployed products, institutional adoption, or proven applications.
+  long_answer: Impact pages map what could matter if upstream Results survive review, translation, and uptake. Coverage should
+    name upstream dependencies, translation assumptions, required domain validation, and governance risks.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Impact
+    url: https://panta-rhei.site/impact/
+  - title: Global Public Good
+    url: https://panta-rhei.site/impact/global-public-good/
+  - title: Public-Good Impact Dossiers
+    url: https://panta-rhei.site/publications/research-briefings/public-good/
+  display:
+    compact_label: Cover impact?
+    show_on_faq_index: true
+- id: FAQ-JD-015
+  slug: what-funding-or-conflicts-should-i-disclose
+  layer: 2
+  priority: 15
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - funding
+  - conflicts
+  - disclosure
+  - independence
+  question: What funding or conflicts should I disclose?
+  short_answer: Disclose that the program is independently authored and self-funded, with no institutional funder, grant sponsor,
+    or corporate backer stated on the site.
+  long_answer: Report funding status neutrally. Independence may explain the publication route, but it is not evidence that
+    the claims are correct.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Founders
+    url: https://panta-rhei.site/program/about/founders/
+  - title: Contact
+    url: https://panta-rhei.site/contact/
+  display:
+    compact_label: Funding/conflicts?
+    show_on_faq_index: true
+- id: FAQ-JD-016
+  slug: can-i-quote-or-interview-authors
+  layer: 2
+  priority: 16
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - interviews
+  - quotes
+  - media_contact
+  question: Can I quote or interview the authors?
+  short_answer: Yes. The Journalist FAQ says direct quotes, interviews, podcasts, and background briefings are available on
+    request through the listed media contact route.
+  long_answer: Journalists should include outlet, angle, audience, format, length, and deadline. Current public material has
+    no embargo unless the authors specify otherwise for drafts or upcoming releases.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Contact
+    url: https://panta-rhei.site/contact/
+  - title: Social Media Kit
+    url: https://panta-rhei.site/media/social-media-kit/
+  display:
+    compact_label: Quotes/interviews?
+    show_on_faq_index: true
+- id: FAQ-JD-017
+  slug: what-if-i-find-an-error
+  layer: 2
+  priority: 17
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - corrections
+  - errata
+  - accountability
+  - engagement
+  question: What if I find an error?
+  short_answer: Report it. Corrections, errata, and bounded critique are part of the research architecture, not an embarrassment.
+  long_answer: Errors may include broken proofs, stale numerical values, wrong scope labels, citation issues, broken links,
+    or misleading framing. Report before publication where possible and describe unresolved discrepancies clearly.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Engage
+    url: https://panta-rhei.site/engage/
+  - title: Errata
+    url: https://panta-rhei.site/publications/errata/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Contact
+    url: https://panta-rhei.site/contact/
+  display:
+    compact_label: Found an error?
+    show_on_faq_index: true
+- id: FAQ-JD-018
+  slug: what-if-experts-disagree
+  layer: 2
+  priority: 18
+  audience:
+  - journalist
+  - editor
+  - fact_checker
+  - public_communicator
+  category:
+  - expert_disagreement
+  - responsible_coverage
+  - uncertainty
+  question: What if outside experts disagree?
+  short_answer: 'Report the disagreement by claim layer: form, formalization, bridge adequacy, prior art, empirical prediction,
+    or interpretation.'
+  long_answer: A useful article does not flatten disagreement into one yes/no verdict. It identifies the layer being disputed,
+    the artifact inspected, the expert domain, and remaining uncertainty.
+  source_pages:
+  - title: Journalist FAQ
+    url: https://panta-rhei.site/media/journalist-faq/
+  - title: Media Kit
+    url: https://panta-rhei.site/media/
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  related_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Review Kit
+    url: https://panta-rhei.site/media/review-kit/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  display:
+    compact_label: Experts disagree?
+    show_on_faq_index: true

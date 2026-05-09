@@ -1,0 +1,17 @@
+{%- comment -%}
+  FAQ Layer Nav — pill row navigating the 5 layer pages plus the main /faq/
+  index. Used at the top of the main /faq/ index and each layer page so
+  readers can jump between layers.
+
+  Parameters:
+    current_layer  integer 0–4 or "index" — highlights the current pill (optional)
+{%- endcomment -%}
+{%- assign cur = include.current_layer -%}
+<nav class="faq-layer-nav" aria-label="FAQ layers">
+  <a class="faq-layer-pill {% if cur == "index" %}is-active{% endif %}" href="{{ '/faq/' | relative_url }}">All FAQ</a>
+  <a class="faq-layer-pill faq-layer-pill-fc {% if cur == 0 %}is-active{% endif %}" href="{{ '/faq/first-contact/' | relative_url }}">First Contact</a>
+  <a class="faq-layer-pill faq-layer-pill-or {% if cur == 1 %}is-active{% endif %}" href="{{ '/faq/first-orientation/' | relative_url }}">First Orientation</a>
+  <a class="faq-layer-pill faq-layer-pill-jd {% if cur == 2 %}is-active{% endif %}" href="{{ '/faq/journalist-due-diligence/' | relative_url }}">Journalist DD</a>
+  <a class="faq-layer-pill faq-layer-pill-tc {% if cur == 3 %}is-active{% endif %}" href="{{ '/faq/technical-credibility/' | relative_url }}">Technical Credibility</a>
+  <a class="faq-layer-pill faq-layer-pill-eh {% if cur == 4 %}is-active{% endif %}" href="{{ '/faq/expert-handoff/' | relative_url }}">Expert Handoff</a>
+</nav>

@@ -1,0 +1,55 @@
+{%- comment -%}
+  FAQ JSON-LD — emit schema.org FAQPage structured data for full FAQ pages.
+  Use ONLY on /faq/ and the 5 layer pages, not on individual embeds, so search
+  crawlers see one canonical block per page.
+
+  Per the briefing pack §9.5: emit JSON-LD only on full FAQ pages, not every
+  embed. Treat as semantic markup, not an SEO promise (Google has restricted
+  FAQ rich results to authoritative gov/health sites).
+
+  Parameters:
+    layer  integer 0–4: limit to this layer's entries (optional; default = all)
+{%- endcomment -%}
+
+{%- assign layer_files = "first_contact,first_orientation,journalist_due_diligence,technical_credibility,expert_handoff" | split: "," -%}
+{%- assign all_entries = "" | split: "" -%}
+{%- for fname in layer_files -%}
+  {%- assign collection = site.data.faqs[fname] -%}
+  {%- if collection and collection.faqs -%}
+    {%- for faq in collection.faqs -%}
+      {%- if faq.status != "retired" -%}
+        {%- assign all_entries = all_entries | push: faq -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if include.layer != nil -%}
+  {%- assign layer_int = include.layer | plus: 0 -%}
+  {%- assign emit_entries = all_entries | where: "layer", layer_int -%}
+{%- else -%}
+  {%- assign emit_entries = all_entries -%}
+{%- endif -%}
+{%- assign emit_entries = emit_entries | sort: "priority" -%}
+{%- assign emit_entries = emit_entries | sort: "layer" -%}
+
+{%- if emit_entries.size > 0 -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for faq in emit_entries -%}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.long_answer | default: faq.short_answer | jsonify }}
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}

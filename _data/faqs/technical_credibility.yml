@@ -1,0 +1,637 @@
+collection: technical_credibility_faq
+version: v0.1-pilot
+last_reviewed: '2026-05-09'
+layer:
+  id: 3
+  label: Technical Credibility
+  description: TauLib, Lean, Release Manifest, sorry, custom axioms, TCB, Mathlib, build reproduction.
+maintainer: Panta Rhei Research Program
+source_repo: corpus
+projection_repo: site
+status: active
+review_cadence: each public release
+faqs:
+- id: FAQ-TC-001
+  slug: what-does-machine-checked-mean-here
+  layer: 3
+  priority: 1
+  audience: &id001
+  - journalist
+  - editor
+  - formal_methods
+  - skeptic
+  - expert
+  category:
+  - lean
+  - formalization
+  - machine_checking
+  - verification_boundary
+  question: What does “machine-checked in Lean” mean here?
+  short_answer: It means encoded formal statements compile under the pinned Lean environment, relative to Lean’s trusted kernel,
+    disclosed assumptions, and current TauLib snapshot.
+  long_answer: Machine-checked does not mean every prose claim is verified. It means the Lean-encoded theorem or obligation
+    is accepted by the proof checker under the disclosed environment and trust budget.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Formal Verification Stack
+    url: https://panta-rhei.site/verify/formal-verification-stack/
+  - title: TauLib Source
+    url: https://github.com/Panta-Rhei-Research/taulib
+  display:
+    compact_label: Machine-checked?
+    show_on_faq_index: true
+- id: FAQ-TC-002
+  slug: does-taulib-prove-the-physical-claims
+  layer: 3
+  priority: 2
+  audience: *id001
+  category:
+  - verification_boundary
+  - physics
+  - bridge_claims
+  - empirical_truth
+  question: Does TauLib prove the physical claims?
+  short_answer: No. TauLib verifies formal obligations where encoded; it does not by itself prove empirical truth, bridge
+    adequacy, semantic correspondence, or external scientific acceptance.
+  long_answer: Lean can check encoded derivations. It cannot by compilation alone prove that a τ-internal object corresponds
+    to a physical observable, that a measurement bridge is adequate, or that a numerical match validates the framework.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Verification Framework
+    url: https://panta-rhei.site/verify/verification-framework/
+  - title: Physicist Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/physicist/
+  display:
+    compact_label: Lean prove physics?
+    show_on_faq_index: true
+- id: FAQ-TC-003
+  slug: what-is-the-current-formalization-snapshot
+  layer: 3
+  priority: 3
+  audience: *id001
+  category:
+  - release_manifest
+  - taulib
+  - counts
+  - reproducibility
+  question: What is the current formalization snapshot?
+  short_answer: The current Release Manifest reports 512 Lean modules, 142,406 lines, 4,863 theorem/lemma declarations, 0
+    sorry assignments, and 3 custom axiom declarations.
+  long_answer: The Release Manifest is the authoritative current snapshot for release metrics and pins source revision, Lean
+    version, Mathlib version, counts, custom axioms, and sorry status. Other pages should render those facts from the manifest.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Filter Rules
+    url: https://panta-rhei.site/verify/filter-rules/
+  display:
+    compact_label: Current snapshot?
+    show_on_faq_index: true
+- id: FAQ-TC-004
+  slug: what-is-a-sorry
+  layer: 3
+  priority: 4
+  audience: *id001
+  category:
+  - lean
+  - sorry
+  - proof_gaps
+  - formalization
+  question: What is a `sorry`, and why does 0 `sorry` matter?
+  short_answer: In Lean, `sorry` is a placeholder for an unfinished proof. A 0-sorry release means no explicit unfinished-proof
+    placeholders remain in the pinned TauLib source.
+  long_answer: A `sorry` can temporarily accept a theorem without proof. A 0-sorry release is meaningful formalization hygiene,
+    while still not proving bridge adequacy or empirical truth.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Lean Axioms Documentation
+    url: https://lean-lang.org/doc/reference/latest/Axioms/
+  display:
+    compact_label: What is sorry?
+    show_on_faq_index: true
+- id: FAQ-TC-005
+  slug: does-zero-sorry-mean-the-theory-is-true
+  layer: 3
+  priority: 5
+  audience: *id001
+  category:
+  - proof_boundaries
+  - sorry
+  - verification_boundary
+  - hype_control
+  question: Does 0 `sorry` mean the theory is true?
+  short_answer: No. It means the formalized Lean proofs have no explicit unfinished-proof placeholders; it does not settle
+    bridge, semantic, empirical, or external-review questions.
+  long_answer: A 0-sorry Lean development is stronger than one with placeholder proofs, but it is not a truth certificate
+    for the whole research program. The encoded statements, correspondence to prose, bridge claims, and domain claims remain
+    separate burdens.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Formal Verification Stack
+    url: https://panta-rhei.site/verify/formal-verification-stack/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  display:
+    compact_label: 0 sorry proves it?
+    show_on_faq_index: true
+- id: FAQ-TC-006
+  slug: what-are-custom-axioms
+  layer: 3
+  priority: 6
+  audience: *id001
+  category:
+  - axioms
+  - trust_budget
+  - custom_axioms
+  - formalization
+  question: What are the custom axioms?
+  short_answer: They are three explicit TauLib axiom declarations beyond Mathlib’s trusted base, all located in Book III spectral
+    / number-theoretic bridge territory.
+  long_answer: A custom axiom is accepted without being proved inside Lean. The site treats the three custom axioms as visible
+    debts, with inventory pages explaining rationale, scope, and review burden.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Custom Axiom Inventory
+    url: https://panta-rhei.site/verify/custom-axioms/
+  - title: Book III
+    url: https://panta-rhei.site/corpus/monographs/book-iii/
+  display:
+    compact_label: Custom axioms?
+    show_on_faq_index: true
+- id: FAQ-TC-007
+  slug: are-custom-axioms-hidden
+  layer: 3
+  priority: 7
+  audience: *id001
+  category:
+  - axioms
+  - transparency
+  - formal_methods
+  - audit
+  question: Are the custom axioms hidden?
+  short_answer: No. They are exposed through the Release Manifest, Custom Axiom Inventory, TauLib source, and `#print axioms`
+    audit route.
+  long_answer: Reviewers should inspect axiom declarations, run `#print axioms` on downstream declarations, and check whether
+    theorem status labels reflect custom-axiom dependence.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Custom Axiom Inventory
+    url: https://panta-rhei.site/verify/custom-axioms/
+  - title: TCB Disclosure
+    url: https://panta-rhei.site/verify/tcb/
+  - title: TauLib Source
+    url: https://github.com/Panta-Rhei-Research/taulib
+  display:
+    compact_label: Axioms hidden?
+    show_on_faq_index: true
+- id: FAQ-TC-008
+  slug: what-is-compute-then-axiomatize
+  layer: 3
+  priority: 8
+  audience: *id001
+  category:
+  - custom_axioms
+  - finite_checks
+  - conjectural_status
+  - audit
+  question: What does “compute-then-axiomatize” mean?
+  short_answer: It means a universal claim is finite-checked over an explicit computable envelope, but the unbounded universal
+    step is still declared as an axiom rather than proved.
+  long_answer: This pattern is explicit debt, not proof. It is acceptable only if named, bounded, reproducible, load-bearing,
+    and reflected in downstream scope labels.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Custom Axiom Inventory
+    url: https://panta-rhei.site/verify/custom-axioms/
+  - title: TCB Disclosure
+    url: https://panta-rhei.site/verify/tcb/
+  display:
+    compact_label: Compute-then-axiomatize?
+    show_on_faq_index: true
+- id: FAQ-TC-009
+  slug: what-is-print-axioms
+  layer: 3
+  priority: 9
+  audience: *id001
+  category:
+  - lean
+  - axioms
+  - audit
+  - reproducibility
+  question: What is `#print axioms`, and why does it matter?
+  short_answer: '`#print axioms` is a Lean audit command that shows which axioms a declaration depends on, including custom
+    axioms or `sorryAx` where present.'
+  long_answer: It helps distinguish theorem statements that are fully proven under the disclosed base from statements that
+    depend on classical axioms, custom axioms, native computation trust, or placeholder proof artifacts.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Custom Axiom Inventory
+    url: https://panta-rhei.site/verify/custom-axioms/
+  - title: Lean Axioms Documentation
+    url: https://lean-lang.org/doc/reference/latest/Axioms/
+  display:
+    compact_label: '#print axioms?'
+    show_on_faq_index: true
+- id: FAQ-TC-010
+  slug: what-is-the-trusted-computing-base
+  layer: 3
+  priority: 10
+  audience: *id001
+  category:
+  - tcb
+  - lean
+  - trust_budget
+  - formalization
+  question: What is the trusted computing base?
+  short_answer: 'The trusted computing base is the underlying machinery a Lean proof depends on: Lean’s kernel, standard axioms,
+    and any disclosed extensions such as `native_decide`.'
+  long_answer: No proof assistant verifies itself from nothing. The question is whether the trust base is disclosed, bounded,
+    and auditable. TauLib’s TCB page names the Lean baseline and native computation costs.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: TCB Disclosure
+    url: https://panta-rhei.site/verify/tcb/
+  - title: Formal Verification Stack
+    url: https://panta-rhei.site/verify/formal-verification-stack/
+  display:
+    compact_label: TCB?
+    show_on_faq_index: true
+- id: FAQ-TC-011
+  slug: what-is-native-decide
+  layer: 3
+  priority: 11
+  audience: *id001
+  category:
+  - native_decide
+  - tcb
+  - finite_computation
+  - lean
+  question: What is `native_decide`, and why is it a trust issue?
+  short_answer: '`native_decide` proves decidable propositions by native computation; it is powerful, but it extends the trusted
+    base beyond purely kernel-reduced proof terms.'
+  long_answer: '`native_decide` is useful for finite computations, but it depends on native compilation/evaluation. The site
+    should treat it as a named trust-budget extension, not hidden magic.'
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: TCB Disclosure
+    url: https://panta-rhei.site/verify/tcb/
+  - title: Lean Proof Validation
+    url: https://lean-lang.org/doc/reference/latest/ValidatingProofs/
+  display:
+    compact_label: native_decide?
+    show_on_faq_index: true
+- id: FAQ-TC-012
+  slug: does-taulib-import-mathlib-mathematics
+  layer: 3
+  priority: 12
+  audience: *id001
+  category:
+  - mathlib
+  - imports
+  - object_level
+  - foundations
+  question: Does TauLib import Mathlib mathematics as its object-level foundation?
+  short_answer: The Release Manifest states that Mathlib is used for tactics only and that TauLib does not import Mathlib
+    mathematical content as the object-level foundation.
+  long_answer: The precise claim is code-level and should be audited through imports and dependencies. Lean/Mathlib tooling
+    is used, but τ object-level content is intended to be constructed internally rather than imported as mathematical semantics.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Source
+    url: https://github.com/Panta-Rhei-Research/taulib
+  display:
+    compact_label: Mathlib imports?
+    show_on_faq_index: true
+- id: FAQ-TC-013
+  slug: what-is-the-release-manifest
+  layer: 3
+  priority: 13
+  audience: *id001
+  category:
+  - release_manifest
+  - reproducibility
+  - counts
+  - provenance
+  question: What is the Release Manifest?
+  short_answer: 'The Release Manifest is the authoritative snapshot of the current public release: pinned source revision,
+    Lean/Mathlib versions, counts, axioms, sorry status, and boundaries.'
+  long_answer: If public numbers differ, the Release Manifest determines which count is load-bearing and which filter rule
+    is being used. It is the source of truth for release-state facts.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Filter Rules
+    url: https://panta-rhei.site/verify/filter-rules/
+  - title: Release History
+    url: https://panta-rhei.site/changelog/
+  display:
+    compact_label: Release Manifest?
+    show_on_faq_index: true
+- id: FAQ-TC-014
+  slug: why-do-counts-differ
+  layer: 3
+  priority: 14
+  audience: *id001
+  category:
+  - counts
+  - registry
+  - filter_rules
+  - release_manifest
+  question: Why do counts sometimes differ between Registry, dashboards, and TauLib?
+  short_answer: 'They count different units with different filter rules: registry objects, dashboard-display objects, formalized
+    dashboard objects, Lean modules, and direct `sorry` counts.'
+  long_answer: Registry objects are not Lean modules. Dashboard totals are filtered views. Formalized counts apply status
+    filters. `sorry` count is a source scan. The first question is always which filter rule each page uses.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Filter Rules
+    url: https://panta-rhei.site/verify/filter-rules/
+  - title: Registry
+    url: https://panta-rhei.site/corpus/registry/
+  display:
+    compact_label: Why count drift?
+    show_on_faq_index: true
+- id: FAQ-TC-015
+  slug: what-is-the-registry-vs-taulib
+  layer: 3
+  priority: 15
+  audience: *id001
+  category:
+  - registry
+  - taulib
+  - corpus
+  - traceability
+  question: What is the difference between the Registry and TauLib?
+  short_answer: The Registry is the object/dependency map of the Corpus; TauLib is the Lean formalization projection of selected
+    formal content.
+  long_answer: A registry object is a stable public ID for a Corpus item. A TauLib module is a Lean source file. The meaningful
+    audit question is whether claimed mappings between Registry, Corpus, and TauLib are explicit and inspectable.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Registry
+    url: https://panta-rhei.site/corpus/registry/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  - title: Corpus
+    url: https://panta-rhei.site/corpus/
+  display:
+    compact_label: Registry vs TauLib?
+    show_on_faq_index: true
+- id: FAQ-TC-016
+  slug: how-can-i-reproduce-the-build
+  layer: 3
+  priority: 16
+  audience: *id001
+  category:
+  - reproducibility
+  - build
+  - taulib
+  - release_manifest
+  question: How can I reproduce the TauLib build?
+  short_answer: Use the pinned TauLib commit and Lean/Mathlib versions from the Release Manifest, then run `lake build` and
+    verify that `rg "sorry" TauLib` returns no matches.
+  long_answer: Treat the pinned commit as authoritative, not a moving branch. A failed build or unexpected `sorry` is a serious
+    reproducibility issue.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Source
+    url: https://github.com/Panta-Rhei-Research/taulib
+  - title: Formal Methods Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/formal-methods/
+  display:
+    compact_label: Reproduce build?
+    show_on_faq_index: true
+- id: FAQ-TC-017
+  slug: does-every-result-have-a-lean-proof
+  layer: 3
+  priority: 17
+  audience: *id001
+  category:
+  - formalization_scope
+  - results
+  - bridge_claims
+  - verification_boundary
+  question: Does every Result page have a Lean proof?
+  short_answer: No. Results are consequence surfaces with status labels; some have formal support, some are bridge claims,
+    some are empirical, and some remain interpretive or domain-level.
+  long_answer: A Result page is not automatically a Lean theorem. The right question is status, Corpus support, formalized
+    component, bridge burden, and external validation route.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Results
+    url: https://panta-rhei.site/results/
+  - title: Results Classifications
+    url: https://panta-rhei.site/results/classifications/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  display:
+    compact_label: Every result formalized?
+    show_on_faq_index: true
+- id: FAQ-TC-018
+  slug: what-remains-bridge-pending
+  layer: 3
+  priority: 18
+  audience: *id001
+  category:
+  - bridge_claims
+  - verification_boundary
+  - domain_validation
+  - external_review
+  question: What remains bridge-pending?
+  short_answer: Any claim that transfers from τ-internal formal structure to standard mathematics, physics, biology, metaphysics,
+    measurement, or public impact needs a separate bridge check.
+  long_answer: Bridge adequacy asks whether a τ-internal construction legitimately transfers to the external target. The site
+    should keep internal proof, bridge claim, and domain validation visibly separate.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Formal Verification Stack
+    url: https://panta-rhei.site/verify/formal-verification-stack/
+  - title: Verification Framework
+    url: https://panta-rhei.site/verify/verification-framework/
+  - title: Domain Verification
+    url: https://panta-rhei.site/verify/domain-verification/
+  display:
+    compact_label: Bridge pending?
+    show_on_faq_index: true
+- id: FAQ-TC-019
+  slug: what-is-the-fastest-technical-audit
+  layer: 3
+  priority: 19
+  audience: *id001
+  category:
+  - audit
+  - reproducibility
+  - formal_methods
+  - review_path
+  question: What is the fastest technical audit path?
+  short_answer: Start with the Release Manifest, reproduce the pinned build, scan for `sorry` and `axiom`, then run `#print
+    axioms` on selected hinge theorems.
+  long_answer: A fast audit should confirm commit, build, Lean/Mathlib pins, source scans, custom axioms, TCB disclosure,
+    and theorem dependency traces before inspecting prose correspondence.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Formal Methods Route
+    url: https://panta-rhei.site/verify/how-to-verify-by-role/formal-methods/
+  - title: Custom Axiom Inventory
+    url: https://panta-rhei.site/verify/custom-axioms/
+  display:
+    compact_label: Fast audit?
+    show_on_faq_index: true
+- id: FAQ-TC-020
+  slug: what-would-be-a-serious-formalization-failure
+  layer: 3
+  priority: 20
+  audience: *id001
+  category:
+  - failure_modes
+  - reproducibility
+  - formalization
+  - audit
+  question: What would count as a serious formalization failure?
+  short_answer: A failed pinned build, unexpected `sorry`, undisclosed custom axiom, broken dependency trace, or mismatch
+    between formal theorem and public prose would all be serious failures.
+  long_answer: Such failures may require correction, retraction, relabeling, or narrowing. They do not all necessarily destroy
+    the entire program, but they must update status labels and public artifacts.
+  source_pages:
+  - title: Verify
+    url: https://panta-rhei.site/verify/
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: TauLib Inspection Bridge
+    url: https://panta-rhei.site/verify/taulib/
+  related_pages:
+  - title: Release Manifest
+    url: https://panta-rhei.site/verify/release-manifest/
+  - title: Errata
+    url: https://panta-rhei.site/publications/errata/
+  - title: Assessment Protocols
+    url: https://panta-rhei.site/verify/assessment-protocols/
+  display:
+    compact_label: Formal failure?
+    show_on_faq_index: true

@@ -1,0 +1,78 @@
+{%- comment -%}
+  FAQ Accordion — single FAQ entry rendered as a native <details>/<summary>
+  pair so it works without JS and is screen-reader friendly.
+
+  Parameters:
+    faq                FAQ entry object (required)
+    show_layer_label   "true" / "false" — render layer label badge in the summary
+
+  Layer labels (for badges):
+    0 = First Contact, 1 = First Orientation, 2 = Journalist DD,
+    3 = Technical Credibility, 4 = Expert Handoff
+{%- endcomment -%}
+{%- assign faq = include.faq -%}
+{%- if faq -%}
+  {%- assign layer_id = faq.layer | plus: 0 -%}
+  {%- case layer_id -%}
+    {%- when 0 -%}{%- assign layer_label = "First Contact" -%}{%- assign layer_slug = "fc" -%}
+    {%- when 1 -%}{%- assign layer_label = "First Orientation" -%}{%- assign layer_slug = "or" -%}
+    {%- when 2 -%}{%- assign layer_label = "Journalist DD" -%}{%- assign layer_slug = "jd" -%}
+    {%- when 3 -%}{%- assign layer_label = "Technical Credibility" -%}{%- assign layer_slug = "tc" -%}
+    {%- when 4 -%}{%- assign layer_label = "Expert Handoff" -%}{%- assign layer_slug = "eh" -%}
+    {%- else -%}{%- assign layer_label = "FAQ" -%}{%- assign layer_slug = "faq" -%}
+  {%- endcase -%}
+<details class="faq-entry" id="{{ faq.id }}" data-faq-id="{{ faq.id }}" data-faq-layer="{{ layer_id }}" data-faq-layer-slug="{{ layer_slug }}">
+  <summary class="faq-entry-summary">
+    <span class="faq-entry-question">{{ faq.question }}</span>
+    {%- if include.show_layer_label == "true" -%}
+      <span class="faq-entry-layer-badge faq-entry-layer-{{ layer_slug }}">{{ layer_label }}</span>
+    {%- endif -%}
+  </summary>
+  <div class="faq-entry-body">
+    <p class="faq-entry-short">{{ faq.short_answer }}</p>
+    {%- if faq.long_answer and faq.long_answer != faq.short_answer -%}
+      <div class="faq-entry-long">
+        <p>{{ faq.long_answer }}</p>
+      </div>
+    {%- endif -%}
+
+    {%- if faq.layer == 4 and faq.suggested_expert_types -%}
+      <div class="faq-entry-handoff">
+        <p class="faq-entry-handoff-heading"><strong>Suggested expert types</strong></p>
+        <ul>
+          {%- for expert in faq.suggested_expert_types -%}
+            <li>{{ expert }}</li>
+          {%- endfor -%}
+        </ul>
+        {%- if faq.suggested_first_question -%}
+          <p class="faq-entry-handoff-question">
+            <strong>Bounded question to ask first:</strong> {{ faq.suggested_first_question }}
+          </p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if faq.related_pages and faq.related_pages.size > 0 -%}
+      {%- include faqs/faq-related-links.html faq=faq -%}
+    {%- endif -%}
+
+    {%- if faq.source_pages and faq.source_pages.size > 0 -%}
+      <details class="faq-entry-sources">
+        <summary>Where this answer comes from</summary>
+        <ul>
+          {%- for src in faq.source_pages -%}
+            <li><a href="{{ src.url }}">{{ src.title }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </details>
+    {%- endif -%}
+
+    <p class="faq-entry-meta">
+      <span class="faq-entry-id"><code>{{ faq.id }}</code></span>
+      {%- if faq.audience and faq.audience.size > 0 -%}
+        <span class="faq-entry-audience">For: {{ faq.audience | join: " · " | replace: "_", " " }}</span>
+      {%- endif -%}
+    </p>
+  </div>
+</details>
+{%- endif -%}
