@@ -212,23 +212,8 @@ body.shell-home .site-header {
   }
 }
 
-.header-toc-btn {
-  gap: 2px;
-
-  &[aria-expanded="true"] {
-    .header-toc-chevron { transform: rotate(180deg); }
-  }
-}
-
 .header-page-icon {
   fill: currentColor;
-}
-
-.header-toc-chevron {
-  transition: transform 200ms ease;
-  flex-shrink: 0;
-  width: 9px;
-  height: 9px;
 }
 
 .header-toc-dropdown {
@@ -673,5 +658,4 @@ body.search-open {
   .header-nav { transition: none !important; }
   .drawer-backdrop { transition: none !important; }
   .hamburger-bar { transition: none !important; }
-  .header-toc-chevron { transition: none !important; }
 }

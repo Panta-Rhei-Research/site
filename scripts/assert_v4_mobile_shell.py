@@ -29,12 +29,15 @@ def built_path(root: Path, route: str) -> Path:
 
 def assert_header_shell(index_html: str, css: str) -> None:
     require(index_html, 'class="header-search shell-control"', "shared search shell control")
+    require(index_html, 'onclick="toggleSearch()"', "header search toggle binding")
     require(index_html, 'class="header-hamburger shell-control"', "shared explore shell control")
     require(css, ".shell-control", "shared shell-control CSS")
     require(css, ".header-page-drawer", "this-page drawer CSS")
     require(css, ".page-tool-row", "page tool row CSS")
     require(css, "body.search-open", "search body scroll lock")
     require(css, "body.page-drawer-open", "page drawer body scroll lock")
+    if "header-toc-chevron" in index_html or "header-toc-chevron" in css:
+        fail("This Page button still renders or styles the old chevron")
 
     nav_labels = re.findall(r'class="header-nav-link [^"]*">([^<]+)</a>', index_html)
     expected = ["Discover", "Program", "Agenda", "Corpus", "Results", "Verify", "Impact", "Engage"]
@@ -85,12 +88,30 @@ def assert_standard_page(html: str, route: str) -> None:
 def assert_search_shell(layout_html: str, css: str) -> None:
     require(layout_html, "new PagefindUI", "Pagefind initialization")
     require(layout_html, "syncGoogleSearchLink", "Google fallback search sync")
+    require(layout_html, 'aria-label="Search the site"', "search dialog accessible label")
+    require(layout_html, "function toggleSearch(force)", "toggle-capable search helper")
+    require(layout_html, "toggleSearch();", "header search toggle invocation")
     require(layout_html, "data-cfasync=\"false\"", "Rocket-Loader-safe search script")
     require(layout_html, "window.closePageDrawer", "page drawer close alias")
     require(layout_html, "navigator.share", "Web Share fallback path")
     require(layout_html, "navigator.clipboard", "clipboard fallback path")
     require(css, ".search-overlay-panel", "search overlay panel CSS")
     require(css, "max-height:calc(100dvh - 56px - 24px)", "mobile search shell-card height constraint")
+    require(css, ".pagefind-ui__filter-panel", "defensive Pagefind filter CSS")
+    if not re.search(r"display:\s*none\s*!important", css):
+        fail("Missing hidden Pagefind filter CSS")
+    forbidden = [
+        "search-overlay-title",
+        "search-overlay-close",
+        "search-overlay-hint",
+        "showEmptyFilters",
+        "openFilters",
+        "Search the Site",
+        "Try Hubble",
+    ]
+    for needle in forbidden:
+        if needle in layout_html or needle in css:
+            fail(f"Search shell still contains removed chrome/filter setting: {needle}")
     if re.search(r"@media \(max-width: 760px\)[\s\S]*?max-height:\s*100dvh", css):
         fail("Mobile search still uses full-screen 100dvh panel sizing")
 

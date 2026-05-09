@@ -67,14 +67,9 @@
        binds the same handlers via addEventListener so they fire reliably regardless of
        Rocket Loader timing. Do not remove the inline onclick attributes — they remain as a
        progressive-enhancement fallback for environments where the bind-script is blocked. -->
-  <div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-labelledby="search-overlay-title" onclick="if (event.target === this) closeSearch()" hidden>
+  <div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Search the site" onclick="if (event.target === this) closeSearch()" hidden>
     <div class="search-overlay-backdrop" onclick="closeSearch()"></div>
     <div class="search-overlay-panel glass" tabindex="-1" onclick="event.stopPropagation()">
-      <div class="search-overlay-header">
-        <span class="search-overlay-title" id="search-overlay-title">Search the Site</span>
-        <button class="search-overlay-close" onclick="closeSearch()" aria-label="Close search">&times;</button>
-      </div>
-      <p class="search-overlay-hint">Try Hubble, prime polarity, Book V, ring axioms, consciousness, or climate.</p>
       <div id="search-container"></div>
       <div class="search-overlay-actions">
         <a id="search-google-link" class="search-google-link" href="https://www.google.com/search?q=site%3Apanta-rhei.site" target="_blank" rel="noopener">Broader site search with Google</a>
@@ -92,8 +87,6 @@
           element: "#search-container",
           showSubResults: true,
           showImages: false,
-          showEmptyFilters: true,
-          openFilters: ["lane", "type"],
         });
       } else {
         document.getElementById('search-container').innerHTML =
@@ -103,6 +96,10 @@
     });
 
     var _searchPreviousFocus = null;
+    function isSearchOpen() {
+      var overlay = document.getElementById('search-overlay');
+      return !!(overlay && !overlay.hidden);
+    }
     function syncGoogleSearchLink() {
       var link = document.getElementById('search-google-link');
       if (!link) return;
@@ -112,6 +109,10 @@
       link.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
     }
     function openSearch() {
+      if (isSearchOpen()) {
+        focusSearchInput(4);
+        return;
+      }
       _searchPreviousFocus = document.activeElement;
       // Close other mobile surfaces
       if (window.closePageDrawer) window.closePageDrawer();
@@ -122,6 +123,14 @@
         btn.setAttribute('aria-expanded', 'true');
       });
       focusSearchInput(10);
+    }
+    function toggleSearch(force) {
+      var shouldOpen = typeof force === 'boolean' ? force : !isSearchOpen();
+      if (shouldOpen) {
+        openSearch();
+      } else {
+        closeSearch();
+      }
     }
     function focusSearchInput(attemptsRemaining) {
       var input = document.querySelector('#search-container .pagefind-ui__search-input, #search-container input[type="search"], #search-container input[type="text"]');
@@ -187,14 +196,17 @@
     // reliably on mobile regardless of Rocket Loader bootstrap timing.
     (function bindSearchTriggers() {
       function bindAll() {
-        var openSelectors = ['.header-search', '.footer-search-trigger'];
-        openSelectors.forEach(function(sel) {
-          document.querySelectorAll(sel).forEach(function(el) {
-            if (el.dataset.searchBound) return;
-            el.removeAttribute('onclick');
-            el.addEventListener('click', function(e) { e.preventDefault(); openSearch(); });
-            el.dataset.searchBound = '1';
-          });
+        document.querySelectorAll('.header-search').forEach(function(el) {
+          if (el.dataset.searchBound) return;
+          el.removeAttribute('onclick');
+          el.addEventListener('click', function(e) { e.preventDefault(); toggleSearch(); });
+          el.dataset.searchBound = '1';
+        });
+        document.querySelectorAll('.footer-search-trigger').forEach(function(el) {
+          if (el.dataset.searchBound) return;
+          el.removeAttribute('onclick');
+          el.addEventListener('click', function(e) { e.preventDefault(); openSearch(); });
+          el.dataset.searchBound = '1';
         });
         var overlay = document.getElementById('search-overlay');
         if (overlay && !overlay.dataset.searchBound) {
@@ -214,12 +226,6 @@
           panel.addEventListener('click', function(e) { e.stopPropagation(); });
           panel.dataset.searchBound = '1';
         }
-        var closeBtn = document.querySelector('.search-overlay-close');
-        if (closeBtn && !closeBtn.dataset.searchBound) {
-          closeBtn.removeAttribute('onclick');
-          closeBtn.addEventListener('click', function() { closeSearch(); });
-          closeBtn.dataset.searchBound = '1';
-        }
       }
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', bindAll);
@@ -227,6 +233,7 @@
         bindAll();
       }
     })();
+    window.toggleSearch = toggleSearch;
   </script>
 
   <script>
