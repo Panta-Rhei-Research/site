@@ -62,91 +62,17 @@ For specialist-level questions (formal-methods reviewers, domain experts), see t
 
 For the shortest citable orientation, start with [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}), then use the [Anchor Documents]({{ '/publications/anchor-documents/' | relative_url }}) for the longer canon.
 
-## Open Research / Inspection Architecture
+## Inspection architecture and proof status
 
-### Is Panta Rhei claiming its theory is proven?
+The questions below are sourced from the canonical FAQ entity collection (`corpus/faqs/`). Each entry has a stable ID and links to its source pages for deeper context.
 
-No. The public-facing inspection story is deliberately about the inspection standard, not endorsement of the theory. The public claim is that high-scope independent research should expose obligations, construction, result status, verification routes, failure paths, correction channels, and publication artifacts before asking for belief.
+{% include faqs/faq-list.html ids="FAQ-FC-001,FAQ-FC-002,FAQ-FC-003,FAQ-FC-005,FAQ-FC-006,FAQ-FC-007" heading="First contact — what this is, what it claims" heading_level="h3" %}
 
-### Why is the first story not the scientific claim?
+{% include faqs/faq-list.html ids="FAQ-JD-001,FAQ-JD-002,FAQ-JD-003,FAQ-JD-005,FAQ-JD-007,FAQ-JD-010,FAQ-JD-013,FAQ-JD-014" heading="Coverage discipline — what to write, avoid, link, cite" heading_level="h3" %}
 
-Because the safer and more public-relevant first story is architectural: what burden should ambitious open research accept before journalists, reviewers, or readers give it attention? Individual scientific claims still require domain review, formal inspection where applicable, empirical testing, and external assessment.
+{% include faqs/faq-list.html ids="FAQ-EH-001,FAQ-EH-002,FAQ-EH-010,FAQ-EH-011,FAQ-EH-015" heading="Expert handoff — which expert to call, what bounded question to ask" heading_level="h3" %}
 
-### What is the inspection architecture?
-
-It is the site-wide chain that lets readers move from Program identity and Agenda obligations to Corpus construction, Results consequences, Verify inspection, Impact conditional relevance, and Engage routes for questions, corrections, and scrutiny.
-
-### Does TauLib prove the theory?
-
-No. TauLib can check formalized internal claims where those claims have been encoded. It does not by itself prove empirical truth, bridge adequacy, semantic interpretation, public-good relevance, or external scientific acceptance.
-
-### Can a journalist write before expert review?
-
-Yes, if the article is framed as a story about inspectability, open-research infrastructure, and the public burden accepted by a high-scope independent program. It should not state or imply that external institutions have validated the scientific claims.
-
-### Do UNESCO, The Turing Way, TOP/COS, EQUATOR, COPE, or Zenodo endorse Panta Rhei?
-
-No. They are cited as official reference points for open science, reproducible research, transparency, reporting, peer-review ethics, and repository metadata. Citation is context, not endorsement.
-
-### How should errors be reported?
-
-Send corrections to [errata@panta-rhei.site](mailto:errata@panta-rhei.site), use the [Engage]({{ '/engage/' | relative_url }}) routes, or open a GitHub issue where the relevant public source allows it.
-
-## Coherent Theory of Reality
-
-### Is Panta Rhei a theory of everything?
-
-No. Panta Rhei is not using “theory of everything” as its public category. The program says “coherent theory of reality” because that phrase names a stricter burden: earn the language, earn the questions, build the answers, disclose limits, and make the public claim structure inspectable.
-
-### Does the Anchor Canon claim the theory is complete?
-
-No. The relevant anchor documents are doctrine-first and route-first. They define what kind of research object a coherent theory of reality would have to be; they do not claim that Panta Rhei has completed, proven, externally accepted, or finalized such a theory.
-
-### What is the safest headline angle?
-
-The safe angle is: “What should a serious theory of reality have to expose before asking for belief?” The story is about category, burden, and inspection route — not a certification of the scientific claims.
-
-### What should I link first?
-
-Use the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}) for newsroom framing, [C001 Standing in the Inquiry of Being]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}) for the charter stance, [WP001 Program Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}) for the whole program, and [WP002 T Theory Executive Synopsis]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}) for the theory synopsis. Then route readers to [Coherent Theory of Reality]({{ '/program/about/coherent-theory-of-reality/' | relative_url }}), [Agenda]({{ '/agenda/' | relative_url }}), and [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}).
-
-### Do the external sources cited by the theory-facing anchor documents endorse Panta Rhei?
-
-No. Britannica, Stanford Encyclopedia of Philosophy entries, UNESCO Open Science, UKRI impact-language sources, and responsible-innovation sources are cited as context only. Citation is not endorsement, validation, review, or external acceptance.
-
-## Technical Blueprint / Public Research Observatory
-
-### What is the public research observatory?
-
-It is the public architecture that lets readers trace Panta Rhei through Program identity, Agenda obligations, Corpus construction, Results consequences, Verify inspection, Publications artifacts, and Engage correction routes. The observatory is a review interface, not a proof of the theory.
-
-### Does the observatory blueprint claim the website validates the theory?
-
-No. WP004 explicitly says that inspection architecture is not validation. Jekyll, Pagefind, GitHub, Zenodo, and static publishing make the program easier to inspect; they do not certify scientific truth, bridge adequacy, peer review, or external acceptance.
-
-### What is the safest observatory headline angle?
-
-The safe angle is: “How should high-scope open research build the public interface that lets outsiders inspect it?” The story is technical and architectural: source paths, status routes, verification links, publication manifests, search, correction, and engagement.
-
-### What should I link first for the observatory blueprint?
-
-Use the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) for newsroom framing and [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) for the citable artifact. Then route readers to [Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }}), [Discover]({{ '/discover/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
-
-## What kind of research is this?
-
-The Panta Rhei Research Program is an **independent open research program dedicated to building a coherent theory of reality**. Its public release (April 2026) includes a seven-book monograph series, a Lean 4 formalization library called [TauLib]({{ '/verify/taulib/' | relative_url }}), and this research website as an inspection observatory.
-
-It is **not** a journal submission, a textbook, a software project, or a grant proposal. It is a research architecture published for scrutiny.
-
-## Is the work peer-reviewed?
-
-**Not yet by traditional journals.** The program is independent research published openly, with structural verification surfaces:
-
-- **Lean 4 formalization** — internal logical claims are machine-checked. The published formalized modules are built without `sorry`. See [TauLib]({{ '/verify/taulib/' | relative_url }}) and the [Lean Verification Report]({{ '/assets/media/lean-verification-report.pdf' | relative_url }}).
-- **Public Assessment Protocols** — structured critique routes for formal-methods, domain, prior-art, and LLM-assisted review. See [Verify · Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
-- **Reviewer's Dossier** — the [Reviewer's Dossier PDF]({{ '/assets/media/reviewers-dossier.pdf' | relative_url }}) is the structured entry point for journal reviewers and external evaluators.
-
-Lean compilation verifies internal consistency, **not physical truth**. Empirical claims still require empirical testing.
+<p class="muted-note"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries</a> · <a href="{{ '/faq/journalist-due-diligence/' | relative_url }}">All Journalist Due Diligence entries</a> · <a href="{{ '/faq/expert-handoff/' | relative_url }}">All Expert Handoff entries</a> · <a href="{{ '/media/review-kit/' | relative_url }}">Review Kit</a></p>
 
 ## Who funds the program?
 

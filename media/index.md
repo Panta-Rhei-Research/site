@@ -116,21 +116,13 @@ Suggested framing:
 
 For the blueprint framing, read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) and [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}).
 
-## What journalists can responsibly say
+## Responsible coverage
 
-- Panta Rhei has built an unusually structured public interface for inspecting a high-scope research program.
-- The site exposes Program, Agenda, Corpus, Results, Verify, Impact, and Engage surfaces.
-- It distinguishes internal program results from external verification or acceptance.
-- It provides a source-pinned Structural Challenge Ledger, core-semantics obligations, formalization surfaces, predictions, falsification paths, and correction routes.
-- Its inspection architecture is itself a public-facing artifact.
+The questions below are sourced from the canonical FAQ entity collection (`corpus/faqs/`). They cover the responsible-coverage surface — what to write, what to avoid, what counts as a safe headline, and how to handle uncertainty and expert disagreement.
 
-## What should not be said without further review
+{% include faqs/faq-list.html ids="FAQ-JD-002,FAQ-JD-003,FAQ-FC-005,FAQ-FC-006,FAQ-JD-010,FAQ-JD-013,FAQ-JD-014,FAQ-JD-018,FAQ-TC-005" %}
 
-- The framework is proven.
-- The claims are accepted by the scientific community.
-- Panta Rhei has solved all listed problems.
-- The Lean formalization proves the physical results.
-- The inspection architecture validates the scientific truth of the framework.
+<p class="muted-note"><a href="{{ '/faq/journalist-due-diligence/' | relative_url }}">All Journalist Due Diligence entries →</a> · <a href="{{ '/media/journalist-faq/' | relative_url }}">Journalist FAQ</a> · <a href="{{ '/media/review-kit/' | relative_url }}">Review Kit</a></p>
 
 ## Possible headlines
 

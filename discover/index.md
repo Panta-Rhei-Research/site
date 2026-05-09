@@ -139,6 +139,19 @@ Publications remains the stable artifact and release layer: Anchor Documents, Re
   <a class="v2-system-node" href="{{ '/engage/' | relative_url }}"><strong>Engage</strong>Open Scrutiny</a>
 </div>
 
+## First-contact and orientation FAQ
+
+Two structured FAQ layers paired with this Discover hub:
+
+- **First Contact** — the immediate credibility-filter questions: what is this, is it proven, is it peer-reviewed, who is behind it.
+- **First Orientation** — your first 1–3 minute orientation: where to start, lanes, Corpus, Results, the master constant, where the program could fail.
+
+Both render below as native accordions. The full 73-entry FAQ is at [`/faq/`]({{ '/faq/' | relative_url }}).
+
+{% include faqs/faq-list.html layer=0 heading="First contact" heading_level="h3" %}
+
+{% include faqs/faq-list.html layer=1 heading="First orientation" heading_level="h3" %}
+
 ## Deep links
 
 - [Start Here]({{ '/discover/start-here/' | relative_url }}) for the fastest general entry.
