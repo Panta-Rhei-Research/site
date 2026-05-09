@@ -40,6 +40,30 @@ Home::/|Publications::/publications/|Archived Releases::/publications/archived/|
 {%- when 'result-page' -%}
 Home::/|Results::/results/|{{ page.topic | default: page.domain_group | default: 'Results' | replace: '|', ' ' | capitalize }}::/results/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
 
+{%- comment -%}
+  Structural Challenge Ledger items — public obligation surface (Wave 6 SCL).
+  Permalink pattern: /agenda/structural-challenge-ledger/{domain}/{cluster}/{slug}/
+  Frontmatter contract: page.domain (lowercase, e.g. "physics"), page.cluster
+  (kebab-case, e.g. "cosmology-dark-sector"), page.title (e.g. "Dark Matter").
+  Hierarchy: Home › Agenda › Structural Challenge Ledger › {Domain} › {Title}
+  Cluster level intentionally omitted — it would deepen the breadcrumb to 6
+  levels with limited scanning value. Cluster context is conveyed by the hero
+  eyebrow and the visible chip row on the SCL entry itself.
+{%- endcomment -%}
+{%- when 'structural-challenge-entry' -%}
+Home::/|Agenda::/agenda/|Structural Challenge Ledger::/agenda/structural-challenge-ledger/|{{ page.domain | default: 'Domain' | capitalize | replace: '|', ' ' }}::/agenda/structural-challenge-ledger/{{ page.domain }}/|{{ page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
+
+{%- comment -%}
+  Challenge Response pages — Results-side projection of SCL items (Wave R5).
+  Permalink pattern: /results/challenge-responses/{domain}/{cluster}/{slug}/
+  Frontmatter contract: page.domain (lowercase), page.display_domain (capitalized,
+  e.g. "Physics"), page.cluster, page.short_title (e.g. "Dark Matter") preferred
+  over page.title (which carries the " — Challenge Response" suffix).
+  Hierarchy: Home › Results › Challenge Responses › {Display Domain} › {Title}
+{%- endcomment -%}
+{%- when 'challenge-response-entry' -%}
+Home::/|Results::/results/|Challenge Responses::/results/challenge-responses/|{{ page.display_domain | default: page.domain | default: 'Domain' | capitalize | replace: '|', ' ' }}::/results/challenge-responses/{{ page.domain }}/|{{ page.short_title | default: page.title | truncate: 60 | replace: '|', ' ' }}::{{ page.url }}
+
 {%- when 'registry-object' -%}
 Home::/|Corpus::/corpus/|Registry::/corpus/registry/|Book {{ page.book }}::/registry/books/book-{{ page.book | downcase }}/|{{ page.registry_id | replace: '|', ' ' }}::{{ page.url }}
 
