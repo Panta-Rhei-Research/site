@@ -7,8 +7,46 @@
   <meta name="description" content="{{ page.summary_short | strip_html | normalize_whitespace | escape }}">
   <meta property="og:description" content="{{ page.summary_short | strip_html | normalize_whitespace | escape }}">
   {% endif %}
+  {%- assign _slug = page.url -%}
+  {%- if _slug == nil or _slug == "" or _slug == "/" -%}
+    {%- assign og_card_slug = 'index' -%}
+  {%- else -%}
+    {%- assign _slug = _slug | remove_first: '/' -%}
+    {%- assign _slug_size = _slug | size | minus: 1 -%}
+    {%- assign _slug_last = _slug | slice: _slug_size, 1 -%}
+    {%- if _slug_last == '/' -%}
+      {%- assign _slug = _slug | slice: 0, _slug_size -%}
+    {%- endif -%}
+    {%- assign og_card_slug = _slug | replace: '/', '__' -%}
+  {%- endif -%}
+  {%- assign generated_og_card = site.data.og.generated_cards.cards[og_card_slug] -%}
+  {%- if generated_og_card and generated_og_card.image -%}
+    {%- assign og_image = generated_og_card.image -%}
+    {%- assign og_image_alt = generated_og_card.alt | default: site.title -%}
+  {%- elsif page.og_image and page.og_image != '' -%}
+    {%- assign og_image = page.og_image -%}
+    {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
+  {%- else -%}
+    {%- assign og_image = '/assets/og-image.png' -%}
+    {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
+  {%- endif -%}
   <meta name="robots" content="noindex,follow">
   {% include site-atlas-meta.html %}
+  <meta property="og:title" content="{{ page.title | default: "Redirecting" }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="{{ og_image | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ og_image_alt }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: "Redirecting" }}">
+  {% if page.summary_short %}
+  <meta name="twitter:description" content="{{ page.summary_short | strip_html | normalize_whitespace | escape }}">
+  {% endif %}
+  <meta name="twitter:image" content="{{ og_image | absolute_url }}">
+  <meta name="twitter:image:alt" content="{{ og_image_alt }}">
   <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
   <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
   <title>{{ page.title | default: "Redirecting" }} | {{ site.title }}</title>

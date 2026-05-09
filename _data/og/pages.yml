@@ -1,0 +1,90 @@
+schema_version: 1
+description: >
+  Curated overrides for the v4 OG/Twitter card production pipeline. The
+  generator also includes every Site Atlas launch-critical page.
+
+defaults:
+  template: og-dark-standard
+  variant: dark
+
+pages:
+  - route: /
+    icon: explore
+    eyebrow: "PUBLIC RESEARCH OBSERVATORY"
+    subtitle: "An independent open research program dedicated to building a coherent theory of reality."
+  - route: /program/
+    icon: account_balance
+    eyebrow: "PROGRAM · IDENTITY"
+    subtitle: "Identity, doctrine, scope, status, founders, and scrutiny posture."
+  - route: /agenda/
+    icon: checklist
+    eyebrow: "AGENDA · OBLIGATIONS"
+    subtitle: "What must be asked, recovered, built, refused, answered, and left open."
+  - route: /corpus/
+    icon: deployed_code
+    eyebrow: "CORPUS · CONSTRUCTION"
+    subtitle: "The construction body of the theory: spine, registry, TauLib, monographs, and graph."
+  - route: /results/
+    icon: inventory_2
+    eyebrow: "RESULTS · CONSEQUENCES"
+    subtitle: "Where the built Corpus becomes a world, with status-marked consequences routed to inspection."
+  - route: /verify/
+    icon: fact_check
+    eyebrow: "VERIFY · INSPECTION"
+    subtitle: "Where building becomes accountable through formal, empirical, bridge, and review checks."
+  - route: /publications/
+    icon: library_books
+    eyebrow: "PUBLICATIONS · ARTIFACTS"
+    variant: light
+    template: og-light-standard
+    subtitle: "Stable released research artifacts, downloads, citations, errata, and archive policy."
+  - route: /impact/
+    icon: public
+    eyebrow: "IMPACT · CONDITIONAL RELEVANCE"
+    subtitle: "What could matter if the work survives inspection, translation, and uptake."
+  - route: /engage/
+    icon: handshake
+    eyebrow: "ENGAGE · OPEN SCRUTINY"
+    subtitle: "How openness becomes operational without implying endorsement."
+
+  - route: /publications/anchor-documents/
+    icon: history_edu
+    variant: light
+    template: og-light-standard
+    subtitle: "Citable v4 anchor documents for first-contact readers, reviewers, and institutional audiences."
+  - route: /publications/anchor-documents/c001-standing-in-the-inquiry-of-being/
+    icon: history_edu
+    variant: light
+    template: og-light-standard
+    title: "C001 · Standing in the Inquiry of Being"
+    subtitle: "The program charter essay behind the public doctrine surface."
+  - route: /publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/
+    icon: account_balance
+    variant: light
+    template: og-light-standard
+    title: "WP001 · Executive Overview"
+    subtitle: "A compact executive orientation to the Panta Rhei Research Program."
+  - route: /publications/anchor-documents/wp002-t-theory-executive-synopsis/
+    icon: deployed_code
+    variant: light
+    template: og-light-standard
+    title: "WP002 · T-Theory Executive Synopsis"
+    subtitle: "The theory-side synopsis for readers entering through construction."
+  - route: /publications/anchor-documents/wp003-taulib-technical-overview/
+    icon: code
+    variant: light
+    template: og-light-standard
+    title: "WP003 · TauLib Technical Overview"
+    subtitle: "A technical map of the formal library and proof-checking surface."
+  - route: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
+    icon: hub
+    variant: light
+    template: og-light-standard
+    title: "WP004 · Public Research Observatory Blueprint"
+    subtitle: "The operational blueprint for public inspection and release governance."
+  - route: /publications/anchor-documents/wp005-global-public-good-impact-overview/
+    icon: public
+    variant: light
+    template: og-light-standard
+    title: "WP005 · Global Public Good Impact Overview"
+    subtitle: "Conditional public-good relevance downstream of verification, translation, and uptake."

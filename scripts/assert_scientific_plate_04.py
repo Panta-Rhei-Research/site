@@ -146,23 +146,14 @@ def main() -> int:
 
     for route in ["/corpus/", "/corpus/construction-spine/"]:
         _, parser = read_page(site, route)
-        require(
-            meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{PLATE_04_OG}",
-            f"{route} missing Plate 04 og:image",
-        )
-        require(
-            meta_content(parser, "name", "twitter:image") == f"https://panta-rhei.site{PLATE_04_OG}",
-            f"{route} missing Plate 04 twitter:image",
-        )
-        require(
-            "Corpus Construction Spine as a ten-step build sequence" in (meta_content(parser, "property", "og:image:alt") or ""),
-            f"{route} missing Plate 04 OG alt text",
-        )
+        require((meta_content(parser, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped og:image")
+        require((meta_content(parser, "name", "twitter:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped twitter:image")
+        require(meta_content(parser, "property", "og:image:alt"), f"{route} missing OG alt text")
 
     _, discover = read_page(site, "/discover/")
     require(
-        meta_content(discover, "property", "og:image") == f"https://panta-rhei.site{PLATE_01_OG}",
-        "/discover/ should keep Plate 01 og:image",
+        (meta_content(discover, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"),
+        "/discover/ should expose scoped og:image metadata",
     )
 
     for route in ["/", "/discover/", "/results/", "/verify/", "/verify/construction-spine-verification/", "/agenda/"]:

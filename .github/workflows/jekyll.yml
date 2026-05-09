@@ -64,6 +64,9 @@ jobs:
       - name: Check social previews are separated from normal build
         run: python3 scripts/assert_social_preview_separation.py _site
 
+      - name: Check production OG/Twitter card pipeline
+        run: python3 scripts/assert_og_pipeline.py _site
+
       - name: Check Site Atlas gates
         run: |
           python3 scripts/check_site_atlas_meta.py _site

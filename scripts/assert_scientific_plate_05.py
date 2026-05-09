@@ -135,23 +135,14 @@ def main() -> int:
 
     for route in ["/results/"]:
         _, parser = read_page(site, route)
-        require(
-            meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{PLATE_05_OG}",
-            f"{route} missing Plate 05 og:image",
-        )
-        require(
-            meta_content(parser, "name", "twitter:image") == f"https://panta-rhei.site{PLATE_05_OG}",
-            f"{route} missing Plate 05 twitter:image",
-        )
-        require(
-            "Results lane as a status-marked consequence layer" in (meta_content(parser, "property", "og:image:alt") or ""),
-            f"{route} missing Plate 05 OG alt text",
-        )
+        require((meta_content(parser, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped og:image")
+        require((meta_content(parser, "name", "twitter:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped twitter:image")
+        require(meta_content(parser, "property", "og:image:alt"), f"{route} missing OG alt text")
 
     _, discover = read_page(site, "/discover/")
     require(
-        meta_content(discover, "property", "og:image") == f"https://panta-rhei.site{PLATE_01_OG}",
-        "/discover/ should keep Plate 01 og:image",
+        (meta_content(discover, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"),
+        "/discover/ should expose scoped og:image metadata",
     )
 
     for route in ["/", "/discover/", "/agenda/", "/corpus/", "/verify/"]:

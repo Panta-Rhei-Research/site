@@ -139,23 +139,14 @@ def main() -> int:
 
     for route in ["/agenda/", "/program/"]:
         _, parser = read_page(site, route)
-        require(
-            meta_content(parser, "property", "og:image") == f"https://panta-rhei.site{PLATE_03_OG}",
-            f"{route} missing Plate 03 og:image",
-        )
-        require(
-            meta_content(parser, "name", "twitter:image") == f"https://panta-rhei.site{PLATE_03_OG}",
-            f"{route} missing Plate 03 twitter:image",
-        )
-        require(
-            "Agenda as the public obligation layer" in (meta_content(parser, "property", "og:image:alt") or ""),
-            f"{route} missing Plate 03 OG alt text",
-        )
+        require((meta_content(parser, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped og:image")
+        require((meta_content(parser, "name", "twitter:image") or "").startswith("https://panta-rhei.site/assets/"), f"{route} missing scoped twitter:image")
+        require(meta_content(parser, "property", "og:image:alt"), f"{route} missing OG alt text")
 
     _, discover = read_page(site, "/discover/")
     require(
-        meta_content(discover, "property", "og:image") == f"https://panta-rhei.site{PLATE_01_OG}",
-        "/discover/ should keep Plate 01 og:image",
+        (meta_content(discover, "property", "og:image") or "").startswith("https://panta-rhei.site/assets/"),
+        "/discover/ should expose scoped og:image metadata",
     )
 
     home_html, home = read_page(site, "/")
