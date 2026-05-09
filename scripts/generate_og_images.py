@@ -115,6 +115,13 @@ def display_route(route: str) -> str:
     return SITE_HOST if route == "/" else f"{SITE_HOST}{route.rstrip('/')}"
 
 
+def fit_route(route: str, max_chars: int = 44) -> str:
+    route = str(route)
+    if len(route) <= max_chars:
+        return route
+    return route[: max_chars - 3].rstrip("/_-") + "..."
+
+
 def humanize(value: str | None) -> str:
     if not value:
         return "Page"
@@ -337,8 +344,8 @@ def render_svg(record: dict[str, Any]) -> str:
     title_size = 112 if len(record["title"]) <= 32 else 94 if len(record["title"]) <= 58 else 80
     title_chars = max(16, int(680 / (title_size * 0.52)))
     title_lines = wrap_text(record["title"], title_chars, 2)
-    subtitle_lines = wrap_text(record["subtitle"], 52, 3)
-    title_y = 248 if len(title_lines) == 1 else 210
+    subtitle_lines = wrap_text(record["subtitle"], 52, 2)
+    title_y = 272 if len(title_lines) == 1 else 234
     title_tspans = "\n".join(
         f'<tspan x="78" y="{title_y + i * int(title_size * 0.92)}">{xml(line)}</tspan>'
         for i, line in enumerate(title_lines)
@@ -377,7 +384,7 @@ def render_svg(record: dict[str, Any]) -> str:
   <text font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="34" font-weight="400" fill="{variant["subtitle"]}">
     {subtitle_tspans}
   </text>
-  <text x="82" y="536" font-family="Source Code Pro OG, ui-monospace, monospace" font-size="30" font-weight="500" fill="{variant["route"]}">{xml(record["display_route"])}</text>
+  <text x="82" y="568" font-family="Source Code Pro OG, ui-monospace, monospace" font-size="30" font-weight="500" fill="{variant["route"]}">{xml(fit_route(record["display_route"]))}</text>
 </svg>
 """
 
