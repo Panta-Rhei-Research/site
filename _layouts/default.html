@@ -50,6 +50,15 @@
       {% if page.search_keywords %}<span class="sr-only" data-pagefind-meta="search_keywords">{{ page.search_keywords | join: ', ' }}</span>{% endif %}
       {% if page.summary_short %}<span class="sr-only" data-pagefind-meta="summary">{{ page.summary_short | strip_html }}</span>{% endif %}
       {{ content }}
+      {%- comment -%}
+        Bottom "This Page" inspection panel. Default visible on every
+        content page; suppressed on the homepage shell and any page that
+        opts out via `page_tools: false`. Briefing reference:
+          atlas/website/briefings/v4/27_v4_share_component_desktop.md §6
+      {%- endcomment -%}
+      {% if page.shell != 'home' and page.page_tools != false %}
+        {% include page-tools.html variant="bottom" %}
+      {% endif %}
     </main>
 
     {% unless page.shell == 'home' %}
@@ -307,7 +316,12 @@
   </script>
 
   <script>
-    // This-page utility drawer toggle
+    // This-page utility drawer toggle (open/close + focus trap + escape).
+    // Action handlers (copy-link, copy-citation, copy-reviewer-note,
+    // email-expert, share) live in /assets/js/page-actions.js, which is
+    // loaded as a deferred module below and uses delegated listeners
+    // attached to the document. Keeping the drawer open/close logic
+    // inline preserves header-specific focus-trap and resize behavior.
     (function() {
       var tocBtn = document.querySelector('.header-toc-btn');
       var tocDropdown = document.getElementById('header-toc-dropdown');
@@ -390,58 +404,10 @@
       // Auto-close on resize above mobile breakpoint
       var mq = window.matchMedia('(min-width: 761px)');
       mq.addEventListener('change', function(e) { if (e.matches) closeToc(); });
-
-      function showPageToolStatus(message) {
-        var tools = tocDropdown.querySelector('.page-drawer-tools');
-        if (!tools) return;
-        var status = tools.querySelector('.page-tool-toast');
-        if (!status) {
-          status = document.createElement('p');
-          status.className = 'page-tool-toast';
-          status.setAttribute('role', 'status');
-          tools.appendChild(status);
-        }
-        status.textContent = message;
-        window.clearTimeout(status._timer);
-        status._timer = window.setTimeout(function() { status.textContent = ''; }, 2200);
-      }
-
-      function copyText(value, successMessage) {
-        if (!value) return;
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(value).then(function() {
-            showPageToolStatus(successMessage);
-          }).catch(function() {
-            window.prompt('Copy this text', value);
-          });
-        } else {
-          window.prompt('Copy this text', value);
-        }
-      }
-
-      tocDropdown.addEventListener('click', function(e) {
-        var action = e.target.closest('[data-page-action]');
-        if (!action || action.disabled) return;
-        var actionName = action.getAttribute('data-page-action');
-        if (actionName === 'copy-link') {
-          e.preventDefault();
-          copyText(action.getAttribute('data-copy-value'), 'Link copied.');
-        } else if (actionName === 'copy-citation') {
-          e.preventDefault();
-          copyText(action.getAttribute('data-copy-value'), 'Citation copied.');
-        } else if (actionName === 'share') {
-          e.preventDefault();
-          var shareUrl = action.getAttribute('data-share-url') || window.location.href;
-          var shareTitle = action.getAttribute('data-share-title') || document.title;
-          if (navigator.share) {
-            navigator.share({ title: shareTitle, url: shareUrl }).catch(function() {});
-          } else {
-            copyText(shareUrl, 'Share link copied.');
-          }
-        }
-      });
     })();
   </script>
+
+  <script defer src="{{ '/assets/js/page-actions.js' | relative_url }}"></script>
 
   <script>
     // Mobile hamburger mega-menu toggle
