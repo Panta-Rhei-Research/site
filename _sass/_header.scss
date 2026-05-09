@@ -23,7 +23,12 @@ $tau-spectrum-rule:
   z-index: $z-header;
   height: $header-h;
   width: calc(100% - #{$page-px} * 2);  // ensures min side breathing room = $page-px (22px)
-  max-width: var(--site-shell-max);
+  // Align visible capsule edges with .page-grid CONTENT edges (rail backgrounds),
+  // not the page-grid outer box. Page-grid outer = $shell-max; its content area is
+  // $shell-max - 2*$page-px (because page-grid has padding-inline: $page-px). Without
+  // this subtraction, the header capsule visibly extends $page-px past the rails on
+  // each side at wide viewports — the brief's "nav wider than body" symptom.
+  max-width: calc(var(--site-shell-max) - #{$page-px * 2});
   margin: 10px auto 0;
   padding: 0 $page-px;
   display: flex;
@@ -59,7 +64,10 @@ $tau-spectrum-rule:
 }
 
 body.shell-home .site-header {
-  max-width: var(--site-home-shell-max);
+  // Same alignment principle as the standard shell — capsule edges match the
+  // home page-grid's content area (.page-grid-home outer = --site-home-shell-max,
+  // content area = that minus 2*$page-px).
+  max-width: calc(var(--site-home-shell-max) - #{$page-px * 2});
 }
 
 @media (max-width: $bp-collapse) {
@@ -88,22 +96,25 @@ body.shell-home .site-header {
 
 .header-brand-lockup {
   display: block;
-  height: 46px;       // brief: 42–52px target band
+  // Reduced from 46px → 41px (≈90%) per the topnav fine-tuning brief, to
+  // give the SVG lockup more breathing room inside the spectral-perimeter
+  // capsule without growing the nav height.
+  height: 41px;
   width: auto;
-  max-width: min(260px, 50vw);
+  max-width: min(234px, 45vw);
 
-  // Tablet: scale down a touch so the trailing controls + nav links
-  // still fit on one row above the mobile breakpoint.
+  // Tablet: scale down proportionally (40 → 36) so trailing controls + nav
+  // links still fit on one row above the mobile breakpoint.
   @media (max-width: $bp-collapse) {
-    height: 40px;
-    max-width: min(220px, 48vw);
+    height: 36px;
+    max-width: min(198px, 43vw);
   }
 
-  // Mobile: keep the full lockup but shrink further. The nav drawer
-  // takes the trailing slot so we have horizontal headroom.
+  // Mobile: shrink a final notch (36 → 32) — the nav drawer takes the
+  // trailing slot so horizontal headroom is fine.
   @media (max-width: $bp-stack) {
-    height: 36px;
-    max-width: min(200px, 56vw);
+    height: 32px;
+    max-width: min(180px, 56vw);
   }
 }
 
