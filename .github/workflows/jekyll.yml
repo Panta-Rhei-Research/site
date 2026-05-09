@@ -13,8 +13,30 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  # ── Pages concurrency scoping ────────────────────────────────
+  # The previous `group: "pages"` shared a single concurrency slot
+  # between every `push: main` deploy and every `pull_request` PR
+  # build. Even with `cancel-in-progress: false`, when 3+ runs queue
+  # on the same group, GitHub keeps only the running run + the most
+  # recently queued one — middle runs get evicted. Observed pattern
+  # 2026-05-09: site#147 / site#149 / site#150 all merged to main but
+  # their deploy runs cancelled mid-flight while PR-branch builds
+  # piled up on the same `pages` group.
+  #
+  # Fix: scope the group by event type.
+  #
+  # - `push: main` and `workflow_dispatch` claim the singleton
+  #   `pages` group with `cancel-in-progress: false`. Production
+  #   deploys queue cleanly without evicting each other; the
+  #   GitHub-Pages environment's own deployment lock then serializes
+  #   the actual `actions/deploy-pages` step.
+  # - `pull_request` builds claim a per-branch `pages-pr-<branch>`
+  #   group with `cancel-in-progress: true`. PRs don't fight for the
+  #   production deploy slot, fresh pushes to a PR cancel the older
+  #   PR run (saves CI minutes), and PR builds never starve `main`
+  #   deploys.
+  group: ${{ github.event_name == 'pull_request' && format('pages-pr-{0}', github.head_ref) || 'pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
