@@ -1369,7 +1369,7 @@ These detail pages cover the launch set of core cascade readouts. The full Const
 These pages do not recompute CODATA 2022 values or change the existing numerical prediction artifact.
 
 <div class="notice note">
-  <strong>Scope label.</strong> Tau-effective means τ-effective. Metadata keeps the stable value <code>tau_effective</code>; public pages render the visible label as <strong>τ-effective</strong>.
+  <strong>Scope label.</strong> <strong>τ-effective</strong> means internal τ-derived or τ-effective construction/readout. Metadata keeps the stable value <code>tau_effective</code>.
 </div>
 
 <div class="calibration-key-node-grid">
