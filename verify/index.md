@@ -214,6 +214,14 @@ These labels describe inspection state. They are related to, but distinct from, 
 - [Custom Axiom Inventory]({{ '/verify/custom-axioms/' | relative_url }}) and [TCB Disclosure]({{ '/verify/tcb/' | relative_url }}) name the trust budget.
 - [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}) gives practical entry points for different reviewers.
 
+## Technical Credibility FAQ
+
+A structured set of questions on what TauLib actually proves, what `0 sorry` means, what custom axioms are, the role of Mathlib, build reproduction, the Release Manifest, the trusted computing base, and where formal verification ends and bridge claims begin.
+
+{% include faqs/faq-list.html layer=3 limit=10 %}
+
+<p class="muted-note"><a href="{{ '/faq/technical-credibility/' | relative_url }}">All {{ site.data.faqs.technical_credibility.faqs.size }} Technical Credibility entries →</a></p>
+
 ## The Right First Question
 
 The right first question is not "should I already believe this?" The right first question is: **is this a serious research program that has earned structured engagement?**

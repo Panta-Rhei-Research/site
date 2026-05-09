@@ -266,3 +266,11 @@ The current registry is the public atomic projection of the corpus. The primary 
 </div>
 
 The Corpus lane is the place to ask: what has actually been built, how does one item depend on another, and where does a public result touch the underlying research body?
+
+## Frequently asked
+
+A focused subset of FAQ entries on what the Corpus actually is, how to cite it, what's in the Registry vs TauLib, and why count drift matters.
+
+{% include faqs/faq-list.html ids="FAQ-OR-003,FAQ-TC-015,FAQ-TC-014,FAQ-JD-008" %}
+
+<p class="muted-note"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries →</a></p>

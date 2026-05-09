@@ -213,6 +213,14 @@ Every result should be read with its status markers. An internally addressed res
 
 These labels report the program's internal status. They do not indicate external verification or scientific acceptance.
 
+## Frequently asked
+
+A focused subset of FAQ entries on what counts as a Result, the program's biggest claims, the master constant ι_τ, predictions and falsification paths, and what happens if a hinge fails.
+
+{% include faqs/faq-list.html ids="FAQ-OR-004,FAQ-OR-005,FAQ-OR-006,FAQ-OR-007,FAQ-OR-008,FAQ-OR-011,FAQ-TC-017" %}
+
+<p class="muted-note"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries →</a></p>
+
 ## Read next
 
 - [Landmark Results]({{ '/results/landmark-results/' | relative_url }}) — top results across all four domains

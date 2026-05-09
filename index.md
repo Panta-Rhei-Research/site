@@ -37,6 +37,14 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
   </div>
 </section>
 
+<section class="content-card homepage-section homepage-faq-strip">
+  <p class="v2-kicker">First-contact questions</p>
+  <h2>What is this, and what is it claiming?</h2>
+  <p class="muted-note">Five immediate credibility-filter questions before you choose where to read. Each links to its full answer with related routes and source pages.</p>
+  {% include faqs/faq-list.html ids="FAQ-FC-001,FAQ-FC-002,FAQ-FC-003,FAQ-FC-004,FAQ-FC-005" style="accordion" %}
+  <p class="muted-note" style="margin-top: 12px;"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries →</a></p>
+</section>
+
 <section class="content-card homepage-section">
   <p class="v2-kicker">Choose your entry</p>
   <h2>Different readers should not have to start in the same place</h2>
