@@ -988,6 +988,17 @@ a.part-card {
     border-color: var(--lane-current);
     box-shadow: var(--shadow-card);
   }
+
+  // Body-only variant: when the card has no PDF cover thumbnail (e.g. the
+  // publication-stream cards on /publications/latest/), collapse the cover
+  // column so the body uses the full card width. Without this, CSS-Grid
+  // auto-flow places the lone .pub-card__body into the 96px slot reserved
+  // for the cover and the entire card content gets squeezed into a 96px
+  // column — the layout regression seen on the publications stream.
+  &:not(:has(.pub-card__cover, .pub-card__cover-placeholder)) {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }
 
 .pub-card__cover {
