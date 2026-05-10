@@ -23,7 +23,6 @@ from __future__ import annotations
 
 import argparse
 import os
-import shutil
 import sys
 from pathlib import Path
 
@@ -33,6 +32,7 @@ SITE_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CORPUS_ROOT = SITE_ROOT.parent / "corpus"
 SITE_TARGET = SITE_ROOT / "_data" / "bibliography" / "prior-art-clusters.yml"
 SOURCE_REL = "data/bibliography/prior-art-clusters.yml"
+BIB_DIR = SITE_ROOT / "_bibliography"
 
 
 def resolve_corpus_root(arg: str | None) -> Path:
@@ -44,10 +44,62 @@ def resolve_corpus_root(arg: str | None) -> Path:
     return DEFAULT_CORPUS_ROOT.resolve()
 
 
+def index_bibliography_slugs() -> dict[str, str]:
+    """Return {lowercase_filename_stem: actual_stem} for all _bibliography/*.md.
+
+    Bibliography URLs are derived from the filename (Jekyll lowercases collection
+    permalinks under :name); the YAML may carry mixed-case bib_keys. We normalize
+    to lowercase for resolution.
+    """
+    if not BIB_DIR.is_dir():
+        return {}
+    return {p.stem.lower(): p.stem for p in BIB_DIR.glob("*.md")}
+
+
+def validate_references(data: dict, bib_index: dict[str, str]) -> tuple[list[str], list[str]]:
+    """Return (case_mismatch, truly_missing) lists of bib_keys.
+
+    case_mismatch: YAML key resolves to a real bibliography file under a
+    different casing (the layout's `| downcase` filter handles the URL emit;
+    these are warnings, not failures).
+
+    truly_missing: no bibliography file exists even case-insensitively. These
+    will 404 regardless of layout filtering and constitute a hard failure.
+    """
+    refs: set[str] = set()
+    for c in data.get("clusters", []):
+        for r in c.get("references") or []:
+            if isinstance(r, str):
+                refs.add(r)
+
+    case_mismatch: list[str] = []
+    truly_missing: list[str] = []
+    for r in sorted(refs):
+        rl = r.lower()
+        if rl in bib_index:
+            if bib_index[rl] != r:
+                case_mismatch.append(r)
+        else:
+            truly_missing.append(r)
+    return case_mismatch, truly_missing
+
+
+def atomic_write(target: Path, payload: bytes) -> None:
+    """Write to a sibling .tmp then os.replace — survives SIGINT mid-copy."""
+    tmp = target.with_suffix(target.suffix + ".tmp")
+    tmp.write_bytes(payload)
+    os.replace(tmp, target)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync prior-art clusters corpus → site")
     parser.add_argument("--corpus-root", default=None, help="Path to corpus repo (default: ../corpus)")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--allow-missing-refs",
+        action="store_true",
+        help="Don't fail when a reference has no bibliography file (default: fail).",
+    )
     args = parser.parse_args()
 
     corpus_root = resolve_corpus_root(args.corpus_root)
@@ -59,7 +111,8 @@ def main() -> int:
 
     # Validate parses + has clusters[] before copying
     try:
-        data = yaml.safe_load(src.read_text(encoding="utf-8"))
+        payload = src.read_bytes()
+        data = yaml.safe_load(payload.decode("utf-8"))
     except yaml.YAMLError as e:
         print(f"FAIL: source did not parse as YAML: {e}", file=sys.stderr)
         return 1
@@ -71,6 +124,31 @@ def main() -> int:
     n_refs = sum(len(c.get("references") or []) for c in data["clusters"])
     n_chs = sum(len(c.get("related_challenges") or []) for c in data["clusters"])
 
+    # Validate bib_key resolution before writing — surfaces the casing/missing
+    # gap that PR #170 QA caught after the fact (#1, #3 in the QA findings).
+    bib_index = index_bibliography_slugs()
+    if not bib_index:
+        print(f"WARN: no _bibliography/*.md files found at {BIB_DIR} — skipping reference validation", file=sys.stderr)
+        case_mismatch, truly_missing = [], []
+    else:
+        case_mismatch, truly_missing = validate_references(data, bib_index)
+
+    if case_mismatch:
+        print(f"INFO: {len(case_mismatch)} bib_key{'s' if len(case_mismatch) != 1 else ''} have casing different from filename — layout '| downcase' handles this:", file=sys.stderr)
+        for r in case_mismatch[:5]:
+            print(f"  · {r}", file=sys.stderr)
+        if len(case_mismatch) > 5:
+            print(f"  · ... and {len(case_mismatch) - 5} more", file=sys.stderr)
+
+    if truly_missing:
+        print(f"FAIL: {len(truly_missing)} bib_key{'s' if len(truly_missing) != 1 else ''} have no _bibliography/*.md file (will 404 if linked):", file=sys.stderr)
+        for r in truly_missing:
+            print(f"  ✗ {r}", file=sys.stderr)
+        if not args.allow_missing_refs:
+            print(f"\nFix in corpus/data/bibliography/prior-art-clusters.yml — add stubs or remove from references.", file=sys.stderr)
+            print(f"To bypass for an emergency sync, pass --allow-missing-refs.", file=sys.stderr)
+            return 1
+
     SITE_TARGET.parent.mkdir(parents=True, exist_ok=True)
 
     if args.dry_run:
@@ -78,16 +156,16 @@ def main() -> int:
         print(f"  [dry-run] {n_clusters} clusters · {n_refs} refs · {n_chs} challenges")
         return 0
 
-    shutil.copy2(src, SITE_TARGET)
+    atomic_write(SITE_TARGET, payload)
     sz = SITE_TARGET.stat().st_size
 
     print(f"✓ Prior-art clusters sync complete")
     print(f"  Source: {src}")
     print(f"  Target: _data/bibliography/prior-art-clusters.yml")
-    print(f"  Clusters: {n_clusters}")
-    print(f"  Refs:     {n_refs}")
+    print(f"  Clusters:   {n_clusters}")
+    print(f"  Refs:       {n_refs} ({len(case_mismatch)} case-normalized at render, {len(truly_missing)} unresolved)")
     print(f"  Challenges: {n_chs}")
-    print(f"  Size:     {sz} bytes")
+    print(f"  Size:       {sz} bytes")
     return 0
 
 

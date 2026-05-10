@@ -40,8 +40,14 @@ layout: program-doc
   <h2>Representative references</h2>
   <p class="muted-note">Curated subset ({{ cluster.references.size }} of {{ cluster.reference_count }} domain entries) — the most-cited and canonical works in this cluster. The full set is enumerable via the <a href="{{ '/bibliography/browse/' | relative_url }}">Bibliography browse</a> surface.</p>
   <ul class="prior-art-ref-list">
+    {%- comment -%}
+      bib_key URLs are emitted in lowercase: bibliography page slugs are derived from
+      filename (lowercase), but YAML references are mixed-case (CamelCase + lowercase).
+      The displayed chip text preserves original casing for citation-style readability.
+    {%- endcomment -%}
     {%- for bib_key in cluster.references -%}
-      <li><a class="prior-art-ref-link" href="{{ '/bibliography/' | append: bib_key | append: '/' | relative_url }}"><code>{{ bib_key }}</code></a></li>
+      {%- assign bib_slug = bib_key | downcase -%}
+      <li><a class="prior-art-ref-link" href="{{ '/bibliography/' | append: bib_slug | append: '/' | relative_url }}"><code>{{ bib_key }}</code></a></li>
     {%- endfor -%}
   </ul>
 </section>
@@ -63,9 +69,24 @@ layout: program-doc
 <section class="content-card prior-art-cluster-challenges">
   <h2>Related structural challenges</h2>
   <p class="muted-note">Structural Challenge Ledger items where this cluster's prior art is part of the obligation surface. Each link goes to the canonical SCL item; from there, the paired Challenge Response on the Results lane shows the program's current τ response.</p>
+  {%- comment -%}
+    Challenge ID → SCL permalink lookup via the flat challenge index at
+    _data/corpus/structural_challenges.yml. Falls back to an inert chip if
+    no match (lookup miss = stale or upstream data drift).
+  {%- endcomment -%}
   <ul class="prior-art-challenge-list">
     {%- for ch_id in cluster.related_challenges -%}
-      <li><code>{{ ch_id }}</code></li>
+      {%- assign ch_url = nil -%}
+      {%- for challenge in site.data.corpus.structural_challenges.challenges -%}
+        {%- if challenge.challenge_id == ch_id -%}
+          {%- assign ch_url = challenge.agenda_route -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if ch_url -%}
+        <li><a class="prior-art-challenge-link" href="{{ ch_url | relative_url }}"><code>{{ ch_id }}</code></a></li>
+      {%- else -%}
+        <li><code>{{ ch_id }}</code></li>
+      {%- endif -%}
     {%- endfor -%}
   </ul>
   <p class="muted-note" style="margin-top: 12px;">SCL items resolve via the <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>; the corresponding Challenge Responses live on the <a href="{{ '/results/challenge-responses/' | relative_url }}">Results-side projection</a>.</p>
