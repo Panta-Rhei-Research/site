@@ -3,7 +3,7 @@ layout: "program-doc"
 lane: "publications"
 v2_lane: "publications"
 status: "Canonical"
-last_updated: 2026-05-08
+last_updated: 2026-05-10
 updated: "May 2026"
 title: "WP005 — Global Public Good Impact Overview"
 title_plain: "Global Public Good Impact Overview"

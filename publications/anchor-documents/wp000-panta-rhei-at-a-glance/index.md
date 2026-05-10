@@ -3,7 +3,7 @@ layout: "program-doc"
 lane: "publications"
 v2_lane: "publications"
 status: "Canonical"
-last_updated: 2026-05-09
+last_updated: 2026-05-10
 updated: "May 2026"
 title: "WP000 — Panta Rhei at a Glance"
 title_plain: "Panta Rhei at a Glance"
