@@ -3,7 +3,7 @@ layout: "program-doc"
 lane: "publications"
 v2_lane: "publications"
 status: "Canonical"
-last_updated: 2026-05-08
+last_updated: 2026-05-10
 updated: "May 2026"
 title: "WP001 — Panta Rhei Research Program Executive Overview"
 title_plain: "Panta Rhei Research Program Executive Overview"
