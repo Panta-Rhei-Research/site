@@ -20,7 +20,7 @@
       <span class="eyebrow">{{ part.display_name }}</span>
       <h3>{{ part.title }}</h3>
       {%- if part.summary_short and part.summary_short != '' -%}
-      <p>{{ part.summary_short | strip_html | replace: '$', '' | truncate: 180 }}</p>
+      <p>{{ part.summary_short | replace: '$', '' | markdownify | strip_html | truncate: 180 }}</p>
       {%- endif -%}
       <div class="chip-row">
         <span class="chip">{{ part.chapter_count }} chapter{% if part.chapter_count != 1 %}s{% endif %}</span>
