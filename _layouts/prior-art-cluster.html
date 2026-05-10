@@ -1,0 +1,87 @@
+---
+layout: program-doc
+---
+
+{%- comment -%}
+  Prior-Art Cluster page layout. Reads the cluster data from
+  site.data.bibliography['prior-art-clusters'].clusters by matching the
+  page's `cluster_key` frontmatter. Renders:
+    - Cluster description + domain + reference count
+    - Curated representative references (links to bibliography entries)
+    - Related construction-spine steps
+    - Related Structural Challenge Ledger items (links into SCL)
+    - Cross-link to the Deep Comparison briefing for fuller editorial coverage
+
+  The per-cluster page surfaces the structured prior-art graph for one domain.
+  Source: corpus/data/bibliography/prior-art-clusters.yml
+{%- endcomment -%}
+
+{%- assign cluster_key = page.cluster_key -%}
+{%- assign clusters_root = site.data.bibliography['prior-art-clusters'] -%}
+{%- assign cluster = nil -%}
+{%- if clusters_root and clusters_root.clusters -%}
+  {%- for c in clusters_root.clusters -%}
+    {%- if c.cluster_key == cluster_key -%}
+      {%- assign cluster = c -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- if cluster -%}
+
+<section class="content-card prior-art-cluster-intro">
+  <p class="muted-note" style="font-family: var(--font-mono, monospace); font-size: 0.78rem;">Cluster ID: <code>{{ cluster.cluster_id }}</code> · {{ cluster.reference_count }} bibliography entries in domain</p>
+  <h2>{{ cluster.title }}</h2>
+  <p class="prose">{{ cluster.description }}</p>
+</section>
+
+{%- if cluster.references and cluster.references.size > 0 -%}
+<section class="content-card prior-art-cluster-references">
+  <h2>Representative references</h2>
+  <p class="muted-note">Curated subset ({{ cluster.references.size }} of {{ cluster.reference_count }} domain entries) — the most-cited and canonical works in this cluster. The full set is enumerable via the <a href="{{ '/bibliography/browse/' | relative_url }}">Bibliography browse</a> surface.</p>
+  <ul class="prior-art-ref-list">
+    {%- for bib_key in cluster.references -%}
+      <li><a class="prior-art-ref-link" href="{{ '/bibliography/' | append: bib_key | append: '/' | relative_url }}"><code>{{ bib_key }}</code></a></li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
+
+{%- if cluster.related_construction_steps and cluster.related_construction_steps.size > 0 -%}
+<section class="content-card prior-art-cluster-cs">
+  <h2>Where this cluster bears on the program</h2>
+  <p class="muted-note">Construction-spine steps the cluster's prior art most directly engages.</p>
+  <ul class="prior-art-cs-list">
+    {%- for cs_id in cluster.related_construction_steps -%}
+      <li><a class="prior-art-cs-link" href="{{ '/corpus/construction-spine/' | relative_url }}"><code>{{ cs_id }}</code></a></li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
+
+{%- if cluster.related_challenges and cluster.related_challenges.size > 0 -%}
+<section class="content-card prior-art-cluster-challenges">
+  <h2>Related structural challenges</h2>
+  <p class="muted-note">Structural Challenge Ledger items where this cluster's prior art is part of the obligation surface. Each link goes to the canonical SCL item; from there, the paired Challenge Response on the Results lane shows the program's current τ response.</p>
+  <ul class="prior-art-challenge-list">
+    {%- for ch_id in cluster.related_challenges -%}
+      <li><code>{{ ch_id }}</code></li>
+    {%- endfor -%}
+  </ul>
+  <p class="muted-note" style="margin-top: 12px;">SCL items resolve via the <a href="{{ '/agenda/structural-challenge-ledger/' | relative_url }}">Structural Challenge Ledger</a>; the corresponding Challenge Responses live on the <a href="{{ '/results/challenge-responses/' | relative_url }}">Results-side projection</a>.</p>
+</section>
+{%- endif -%}
+
+<section class="content-card prior-art-cluster-deep-comparison">
+  <h2>For fuller editorial comparisons</h2>
+  <p>The cluster surface here is the <strong>machine-readable backbone</strong>. For narrative comparisons against specific approach families — shared pressure, distinguishing claim, remaining burden — see the <a href="{{ '/agenda/kernel-model-reality/related-approaches/deep-comparison/' | relative_url }}">Deep Comparison briefing</a>, which carries the editorial work and will continue to expand as more comparisons are authored.</p>
+</section>
+
+{%- else -%}
+
+<section class="content-card">
+  <h2>Cluster not found</h2>
+  <p>No prior-art cluster with key <code>{{ cluster_key }}</code> in the current source data. See the <a href="{{ '/bibliography/prior-art/' | relative_url }}">prior-art cluster index</a> for the canonical list.</p>
+</section>
+
+{%- endif -%}
