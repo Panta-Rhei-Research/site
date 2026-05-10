@@ -86,7 +86,13 @@ def assert_standard_page(html: str, route: str) -> None:
     require(html, 'data-copy-value="https://panta-rhei.site', f"copy-link fallback on {route}")
     require(html, "github.com/Panta-Rhei-Research/site/issues/new", f"reviewer note link on {route}")
     require(html, 'id="page-drawer-toc-list"', f"page drawer TOC container on {route}")
-    require(html, 'class="page-drawer-empty"', f"page drawer empty-state fallback on {route}")
+    # Briefing 29 §3 — the drawer's "On this page" subsection now server-renders
+    # the local TOC from page H2s and only shows the empty-state placeholder
+    # (`<p class="page-drawer-empty">`) when a page genuinely has no headings.
+    # Spot-checked routes (/program/, /agenda/, /impact/, /verify/release-
+    # manifest/, /results/world-readout/physics/) all have headings, so the
+    # placeholder no longer appears in their HTML. The container check above
+    # already verifies the drawer infrastructure exists.
     require(html, 'name="prrp:atlas_id"', f"Site Atlas metadata preserved on {route}")
     require(html, '"@type": "BreadcrumbList"', f"breadcrumb JSON-LD preserved on {route}")
 
