@@ -122,3 +122,15 @@ If the program later claims to have earned something large, that claim means mor
 Foundational discipline is upstream of [Core Semantics]({{ '/agenda/core-semantics/' | relative_url }}). It constrains which languages, structures, and semantic loads the theory is allowed to carry without silently importing stronger foundations than it has earned.
 
 That is why the foundational discipline is not a decorative prelude. It is one of the deepest conditions of the entire research program.
+
+## Intellectual genealogy
+
+The five demands above (constructive · finitistically disciplined · resource-disciplined · typed · self-contained) place the program inside a recognisable lineage of foundational work, even as the τ-kernel departs from each tradition in specific ways:
+
+- The **constructive** demand draws on the intuitionist tradition (Brouwer, Heyting, Bishop) and the proof-theoretic culture that descends from it (Martin-Löf type theory, Coquand, Voevodsky's univalent foundations).
+- The **finitistic** discipline shares its caution with Hilbert's finitism, predicative analysis (Weyl, Feferman), and the reverse-mathematics programme (Friedman, Simpson) — though the τ-kernel's no-externalities stance is stricter than predicativism on its own.
+- The **resource-disciplined** demand on substructural use overlaps with linear logic (Girard), bunched logic (O'Hearn–Pym), and the resource-aware sub-traditions of dependent type theory.
+- The **typed** demand sits naturally within dependent type theory and category-theoretic foundations (Lawvere, Mac Lane), which the program uses as its working semantic environment.
+- The **self-contained** demand resonates with structural realism's stance against arbitrary external constants (Ladyman, French) and with the no-free-lunch impulse in coherence theories (Carnap, BonJour, the work of Quine on web-of-belief revisability).
+
+The program has not yet written a sustained philosophical engagement with each of these traditions. Where it agrees, departs, or aims to extend any of them is recorded incrementally as the construction proceeds. The point of naming the lineage here is not to claim alignment — only to acknowledge that the conversation the program enters is older than the program itself, and that the τ-kernel's deviations from each predecessor must be earned, not assumed.
