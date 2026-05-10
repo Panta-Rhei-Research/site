@@ -398,11 +398,34 @@ STANDARD_ROUTES: tuple[str, ...] = (
 )
 
 
+def find_main_css(root: Path) -> Path:
+    """Resolve _site/assets/css/main(.<hash>)?.css.
+
+    PR #176 introduced asset fingerprinting (_plugins/asset_fingerprint.rb)
+    which renames main.css → main.<hash>.css after Jekyll writes the
+    destination tree. The asserter previously hardcoded main.css and broke
+    on every post-#176 deploy. Now we glob and pick the unique non-source-map
+    match, falling back to the hardcoded name for fingerprint-disabled builds.
+    """
+    css_dir = root / "assets" / "css"
+    plain = css_dir / "main.css"
+    if plain.is_file():
+        return plain
+    candidates = sorted(p for p in css_dir.glob("main.*.css") if not p.name.endswith(".map"))
+    if len(candidates) == 1:
+        return candidates[0]
+    if len(candidates) > 1:
+        names = ", ".join(p.name for p in candidates)
+        fail(f"Multiple main.*.css candidates in {css_dir}: {names}")
+    fail(f"Could not resolve compiled main CSS under {css_dir}; expected main.css or main.<hash>.css")
+    raise SystemExit(1)  # unreachable; satisfies type checker
+
+
 def main() -> None:
     root = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("_site")
     source_root = root.parent if root.name == "_site" else Path(".")
 
-    css = read(root / "assets" / "css" / "main.css")
+    css = read(find_main_css(root))
     layout_html = read(source_root / "_layouts" / "default.html")
 
     # PR #155 moved share / clipboard handlers from inline layout JS to a
