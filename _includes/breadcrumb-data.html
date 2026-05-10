@@ -207,6 +207,17 @@ Home::/|Results::/results/|Falsifications::/results/falsifications/browse/|{{ pa
 {%- when 'bibliography-browse' -%}
 Home::/|Support::/cite/|Bibliography::/bibliography/|Browse & Filter::{{ page.url }}
 
+{%- comment -%}
+  Per-cluster prior-art pages — Bibliography lane projection of the
+  9-cluster graph backbone. Permalink: /bibliography/prior-art/{cluster_key}/.
+  Frontmatter contract: page.title (e.g. "Prior Art — Physics"),
+  page.cluster_key (e.g. "physics"). Hierarchy: Home › Bibliography ›
+  Prior-Art Clusters › {Cluster Title}. The index at /bibliography/prior-art/
+  is layout: program-doc and falls into that case below.
+{%- endcomment -%}
+{%- when 'prior-art-cluster' -%}
+Home::/|Bibliography::/bibliography/|Prior-Art Clusters::/bibliography/prior-art/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+
 {%- endcase -%}
 {%- endcapture -%}
 

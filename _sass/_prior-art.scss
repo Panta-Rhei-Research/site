@@ -136,6 +136,27 @@
   }
 }
 
+// Provisional-metadata badge — surfaces only when YAML
+// `metadata_pending: true` for a cluster (no clusters carry it at the
+// May 2026 launch; the badge wires the contract for future curation
+// states). Lives inline in the eyebrow, between the cluster ID and the
+// reference count, so reviewers see it at first glance without it
+// dominating the visual rhythm.
+.prior-art-cluster-pending-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.05rem 0.45rem;
+  background: rgba(255, 200, 100, 0.18);
+  border: 1px solid rgba(255, 200, 100, 0.45);
+  border-radius: $radius-pill;
+  color: var(--color-ink-700);
+  font-family: $font-ui;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
 .prior-art-ref-list,
 .prior-art-cs-list,
 .prior-art-challenge-list {
