@@ -44,27 +44,45 @@ def resolve_corpus_root(arg: str | None) -> Path:
     return DEFAULT_CORPUS_ROOT.resolve()
 
 
-def index_bibliography_slugs() -> dict[str, str]:
-    """Return {lowercase_filename_stem: actual_stem} for all _bibliography/*.md.
+def slugify(key: str) -> str:
+    """Mirror corpus/scripts/bibliography_common.py::slugify_key.
 
-    Bibliography URLs are derived from the filename (Jekyll lowercases collection
-    permalinks under :name); the YAML may carry mixed-case bib_keys. We normalize
-    to lowercase for resolution.
+    Lowercase, then collapse runs of non-alphanumeric (including underscores)
+    into single hyphens; strip leading/trailing hyphens. This matches the
+    bibliography filename convention Jekyll derives URLs from, so the YAML
+    key `FuchsFuchs26_Primon` resolves to `fuchsfuchs26-primon` — the same
+    transform the layout's `| downcase | replace: "_", "-"` Liquid filter
+    chain applies at render time.
+    """
+    import re
+
+    slug = re.sub(r"[^a-z0-9]+", "-", key.lower()).strip("-")
+    return slug or "reference"
+
+
+def index_bibliography_slugs() -> dict[str, str]:
+    """Return {filename_stem: actual_stem} for all _bibliography/*.md.
+
+    Bibliography URLs are derived from the filename (lowercase, hyphen-
+    separated). YAML bib_keys may carry mixed-case + underscores, so we
+    resolve via the corpus slugify rule rather than naive lowercase.
     """
     if not BIB_DIR.is_dir():
         return {}
-    return {p.stem.lower(): p.stem for p in BIB_DIR.glob("*.md")}
+    return {p.stem: p.stem for p in BIB_DIR.glob("*.md")}
 
 
 def validate_references(data: dict, bib_index: dict[str, str]) -> tuple[list[str], list[str]]:
     """Return (case_mismatch, truly_missing) lists of bib_keys.
 
     case_mismatch: YAML key resolves to a real bibliography file under a
-    different casing (the layout's `| downcase` filter handles the URL emit;
+    different casing or with underscores that map to hyphens (the layout's
+    `| downcase | replace: "_", "-"` filter chain handles the URL emit;
     these are warnings, not failures).
 
-    truly_missing: no bibliography file exists even case-insensitively. These
-    will 404 regardless of layout filtering and constitute a hard failure.
+    truly_missing: no bibliography file exists even after slugify
+    normalization. These will 404 regardless of layout filtering and
+    constitute a hard failure.
     """
     refs: set[str] = set()
     for c in data.get("clusters", []):
@@ -75,9 +93,9 @@ def validate_references(data: dict, bib_index: dict[str, str]) -> tuple[list[str
     case_mismatch: list[str] = []
     truly_missing: list[str] = []
     for r in sorted(refs):
-        rl = r.lower()
-        if rl in bib_index:
-            if bib_index[rl] != r:
+        slug = slugify(r)
+        if slug in bib_index:
+            if bib_index[slug] != r:
                 case_mismatch.append(r)
         else:
             truly_missing.append(r)
@@ -134,7 +152,7 @@ def main() -> int:
         case_mismatch, truly_missing = validate_references(data, bib_index)
 
     if case_mismatch:
-        print(f"INFO: {len(case_mismatch)} bib_key{'s' if len(case_mismatch) != 1 else ''} have casing different from filename — layout '| downcase' handles this:", file=sys.stderr)
+        print(f"INFO: {len(case_mismatch)} bib_key{'s' if len(case_mismatch) != 1 else ''} need slug normalization (case/underscores) — layout '| downcase | replace: \"_\", \"-\"' handles this:", file=sys.stderr)
         for r in case_mismatch[:5]:
             print(f"  · {r}", file=sys.stderr)
         if len(case_mismatch) > 5:

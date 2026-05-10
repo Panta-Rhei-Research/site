@@ -59,8 +59,14 @@ jobs:
 
       - name: Run link audit
         id: link_audit
+        # `set -o pipefail` makes the pipeline's exit status reflect the
+        # script's status (not tee's). Without it, a broken-link audit would
+        # exit 0 because tee succeeds — silently green-washing real findings.
+        # Discovered via the 2026-05-10 link audit which reported 8.9k
+        # findings yet concluded "success" before this fix.
         run: |
           chmod +x .github/scripts/link-check.sh
+          set -o pipefail
           if .github/scripts/link-check.sh _site 2>&1 | tee link-audit.log; then
             echo "status=clean" >> "$GITHUB_OUTPUT"
           else
