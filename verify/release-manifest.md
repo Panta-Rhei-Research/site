@@ -54,7 +54,7 @@ The TauLib browser under `/verify/taulib/docs/` is generated from the Corpus-nat
 |--------|------:|
 | Total modules | **{% include release-metric.html id="taulib.modules" %}** |
 | Total lines | {% include release-metric.html id="taulib.lines" %} |
-| Theorems + lemmas | {% include release-metric.html id="taulib.theorems_lemmas" %} |
+| Theorems + lemmas | {% include release-metric.html id="taulib.theorems_lemmas" %} = {% include release-metric.html id="taulib.theorems" %} `theorem` + 6 `lemma` declarations |
 | Definitions | {% include release-metric.html id="taulib.definitions" %} |
 | Structures + inductive types | {% include release-metric.html id="taulib.structures_inductives" %} |
 | Computations (`#eval`) | {% include release-metric.html id="taulib.evals" %} |

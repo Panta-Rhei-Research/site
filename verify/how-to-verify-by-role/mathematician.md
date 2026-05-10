@@ -88,7 +88,7 @@ This route separates those construction burdens from later result claims. The hi
 
 **The claim:** All non-trivial zeros of the τ-zeta function ζ<sub>τ</sub> lie on the critical line, via a spectral trichotomy argument (III.T14).
 
-**Why it is load-bearing:** This is the τ-framework's analogue of the Riemann Hypothesis, explicitly labeled **τ-effective / finite-window**. It does not claim to resolve the Clay problem directly; the bridge is marked conjectural via the Master Schema (III.T27). But the τ-internal theorem is the most significant individual result in Book III and a natural target for specialist scrutiny.
+**Why it is load-bearing:** This is the τ-framework's analogue of the Riemann Hypothesis, explicitly labeled **τ-effective / finite-window**. It does not claim to resolve the Clay problem directly; the bridge is marked conjectural via the Master Schema (III.T23). But the τ-internal theorem is the most significant individual result in Book III and a natural target for specialist scrutiny.
 
 **Where to look:**
 - Claim page: [Riemann Hypothesis (τ-internal)]({{ '/results/problem/riemann-hypothesis/' | relative_url }})
