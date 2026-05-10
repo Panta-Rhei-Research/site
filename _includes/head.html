@@ -150,17 +150,17 @@
 <!-- Theme color (mobile browser UI tinting) -->
 <meta name="theme-color" content="#163e64">
 
-<!-- Favicon set -->
-<link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+{%- assign cache_bust = site.time | date: '%s' -%}
+
+<!-- Favicon set (?v=cache_bust busts the 1-year edge cache when assets change) -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}?v={{ cache_bust }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}?v={{ cache_bust }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}?v={{ cache_bust }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}?v={{ cache_bust }}">
 <link rel="manifest" href="{{ '/assets/site.webmanifest' | relative_url }}">
 
 <!-- Fonts: local Inter variable fallback (zero external requests) -->
 <link rel="preload" href="{{ '/assets/fonts/InterVariable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-
-{%- assign cache_bust = site.time | date: '%s' -%}
 
 <!-- Critical CSS: inlined for instant first paint (eliminates render-blocking main.css from LCP path) -->
 <style>
