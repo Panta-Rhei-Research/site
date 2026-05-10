@@ -51,9 +51,11 @@ Public philosophical problem lists are used as raw source feeds. A problem enter
 
 Metaphysics items are routed through Book VII's four readout registers (`Reg_E` empirical/observational, `Reg_P` practical/normative, `Reg_D` diagrammatic/proof-theoretic, `Reg_C` commitment) and the six ontic narrowing requirements (`OR1` self-coherence, `OR2` completeness, `OR3` generativity, `OR4` independence, `OR5` continuity, `OR6` stability).
 
-## Build status
+## Active construction
 
-This is a **Wave 1 stub**. Item content lives in `corpus/structural-challenge-ledger/items/metaphysics/` and is populated in **Wave 5**.
+This domain ledger is in active construction. The four-cluster curation, register routing, and ontic-narrowing requirements above are canonical; detailed per-challenge items will appear on this page as the construction spine reaches each cluster.
+
+For the program-wide framework, see the [Structural Challenge Ledger overview]({{ '/agenda/structural-challenge-ledger/' | relative_url }}). For τ's metaphysics-side results, see the [Metaphysics results hub]({{ '/results/metaphysics/' | relative_url }}).
 
 ## What this ledger does not claim
 

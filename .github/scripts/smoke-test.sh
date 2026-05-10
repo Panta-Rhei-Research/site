@@ -96,6 +96,26 @@ echo "════════════════════════�
 echo ""
 
 echo "── Every expected file exists in _site/ ──────────────────"
+# Fingerprinted main bundle: filename embeds a 10-char content hash at build
+# time (see _plugins/asset_fingerprint.rb), so we can't check a literal name.
+hashed_css=( "$SITE"/assets/css/main.*.css )
+if [ -f "${hashed_css[0]}" ] && [ ${#hashed_css[@]} -eq 1 ]; then
+  pass "exists  /assets/css/main.<hash>.css (${hashed_css[0]##*/})"
+else
+  fail "MISSING /assets/css/main.<hash>.css (found ${#hashed_css[@]} match(es))"
+fi
+CHECK_COUNT=$((CHECK_COUNT+1))
+
+# Original (unhashed) main.css must NOT survive the rename — its presence
+# would mean fingerprinting silently regressed and any reference still
+# pointing at /assets/css/main.css would re-trigger the year-long cache lock.
+if [ -f "$SITE/assets/css/main.css" ]; then
+  fail "REGRESSION /assets/css/main.css present (fingerprint plugin failed to rename)"
+else
+  pass "absent  /assets/css/main.css (fingerprint plugin renamed it)"
+fi
+CHECK_COUNT=$((CHECK_COUNT+1))
+
 for f in \
   "/index.html" \
   "/discover/index.html" \
@@ -118,7 +138,6 @@ for f in \
   "/assets/favicon-16x16.png" \
   "/assets/apple-touch-icon.png" \
   "/assets/site.webmanifest" \
-  "/assets/css/main.css" \
   "/assets/fonts/InterVariable.woff2" \
   "/pagefind/pagefind.js" \
   "/pagefind/pagefind-ui.js" \

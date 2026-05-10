@@ -12,6 +12,7 @@ domain_slug: mathematics
 display_domain: Mathematics
 cluster: canonical-benchmarks
 challenge_family: canonical_benchmark
+axiom_dependency: bridge_functor_exists
 structural_challenge_id: CB-RIEMANN
 challenge_slug: riemann-hypothesis
 challenge_url: /agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/riemann-hypothesis/
@@ -23,7 +24,7 @@ response_rationale: Related Result pages carry a current partial answer route.
 registry_item_ids:
 - III.T14
 - III.T19
-- III.T27
+- III.T23
 registry_items:
 - registry_id: III.T14
   title: Spectral Trichotomy Lemma
@@ -43,14 +44,15 @@ registry_items:
   rationale: Explicit Result anchor result-091 for Riemann Hypothesis cites Registry item III.T19 as part of the current problem-facing
     account.
   related_result_id: result-091
-- registry_id: III.T27
-  title: Yang-Mills Gap Theorem
-  relation: direct_problem_account
+- registry_id: III.T23
+  title: Master Schema Theorem
+  relation: bridge_to_classical
   confidence: high
-  url: /registry/object/III.T27/
-  registry_path: registry/book-03/III.T27-yang-mills-gap-theorem.md
-  rationale: Explicit Result anchor result-073 for Riemann Hypothesis cites Registry item III.T27 as part of the current problem-facing
-    account.
+  url: /registry/object/III.T23/
+  registry_path: registry/book-03/III.T23-master-schema-theorem.md
+  rationale: Result anchor result-073 (Riemann Hypothesis spectral approach) cites the Master Schema bridge functor III.T23
+    as the conjectural bridge from the τ-internal spectral correspondence to the classical Riemann Hypothesis. III.T23 is
+    the dependency that justifies the Structurally constrained (Partial) status of this Challenge Response.
   related_result_id: result-073
 result_refs: []
 verification_route: formal_proof_checking
