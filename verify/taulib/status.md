@@ -59,6 +59,8 @@ This status page is generated against the Corpus-native TauLib projection, pinne
   </tbody>
 </table>
 
+<aside class="callout muted" style="font-size: 0.92rem; border-left: 3px solid var(--lane-current); padding: 0.6rem 0.9rem; margin: 1rem 0;"><strong>Reading the registry-linked-vs-total ratio.</strong> The "Registry-linked declarations" count is intentionally a subset of "Declarations / evaluations." The unlinked remainder is mostly (a) intermediate lemmas — small helper results used inside larger proofs that the Corpus does not assign individual registry IDs to, (b) namespace and structure-projection declarations (instance / private def / `protected`) generated as scaffolding around the registered theorems, and (c) low-level type-class inference machinery and small `rfl`-form computations that are kernel-honest but not Corpus-tracked. Registry-tracked declarations are the named surface a reviewer would cite; the unlinked declarations are the proof-internal machinery that lets the registered ones close. The ratio therefore reads as "<em>this many of our internal Lean declarations have been promoted to named Corpus objects with stable IDs</em>," not "<em>only this many of our declarations are real</em>." Future waves will widen registry coverage; a 100% ratio is not a target — a stable named surface for reviewer use is the actual goal.</aside>
+
 ## Verification Boundary
 
 TauLib verifies Lean-formalized statements and executable checks. It does not, by itself, verify empirical adequacy, semantic correspondence to manuscript prose, bridge sufficiency, life-recovery interpretation, or external acceptance. Those layers are inspected through the broader Verify matrix.

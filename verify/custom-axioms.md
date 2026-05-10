@@ -91,12 +91,15 @@ The table below summarises which custom axioms each headline theorem transitivel
 | Categoricity (kernel admits one model up to iso) | `categoricity_non_omega` | — | — | — | Internally addressed |
 | Generation count = 3 | `gen_count_three` | — | — | — | Internally addressed |
 | Critical Line Theorem (τ-internal ζ-purity) | `III.T19` | — | — | — | Internally addressed |
-| Master Schema → classical RH bridge | `III.T27` | ✓ | — | — | **Partial** |
+| Master Schema → classical RH bridge | `III.T23` | ✓ | — | — | **Partial** |
 | Higher-order Millennium reformulations | (Book III dictionary extensions) | — | ✓ | — | **Partial** |
 | Grand GRH for higher-rank automorphic L | (Book III adelic extensions) | — | (transitively) | ✓ | **Partial** |
+| τ-Yang–Mills mass gap (τ-internal) | `IV.T75` | — | — | — | Internally addressed |
 | Modal-S4 internal logic | `modal_S4_theorem` | — | — | — | Internally addressed |
 
 **Reading the table.** A column entry "✓" means the theorem's `#print axioms` output should surface that custom axiom. A "—" means it should not — the theorem closes against the Mathlib trusted base alone (plus `native_decide` extension where present). The site's status grammar (Internally addressed vs Partial) correctly propagates the dependency: every Partial-status theorem above carries a custom-axiom dependency that's the reason for its Partial classification.
+
+**Yang–Mills note.** The τ-internal mass-gap theorem `IV.T75` closes kernel-only — no custom-axiom dependency. It is Internally addressed inside τ. The corresponding [Challenge Response](/results/challenge-responses/mathematics/canonical-benchmarks/yang-mills-existence-mass-gap/) carries a Partial status because the bridge layer between the τ-formulation and the [Clay Yang–Mills statement on ℝ⁴](https://www.claymath.org/millennium-problems/yang-mills-the-maths-gap) is treated separately and not yet formally bridged via Lean. This is the same pattern as the Master Schema → classical RH split: a τ-internal kernel-only result plus an unproven bridge to the orthodox classical statement. The bridge layer is the program's open work; `IV.T75` itself is not axiom-dependent.
 
 **What an audit would establish.** Run `#print axioms <theorem-name>` for each row at the pinned commit. The set of custom axioms returned should match the ✓ marks above. Any mismatch is a finding the program wants to hear about (see also the [Formal Methods audit route]({{ '/verify/how-to-verify-by-role/formal-methods/' | relative_url }}) for the canonical reproducible protocol).
 
@@ -119,7 +122,7 @@ The precise Lean identifiers live in the TauLib source at the pinned commit. The
 
 **What closes the gap.** A constructive proof of the functor's existence for unbounded spectral data, or a rigorous obstruction argument that shows the finite-check must extend. This is an active research direction.
 
-**Where it is load-bearing.** The Master Schema (III.T27) — which is the bridge between τ-internal Riemann Hypothesis results and the classical Clay statement — depends on this axiom. Accordingly, the classical-RH claims are marked **Partial** on the site, not internally addressed. If this axiom is retracted or refuted, the bridge from τ-internal ζ-purity to classical RH falls, but the τ-internal Critical Line Theorem (III.T19) remains.
+**Where it is load-bearing.** The Master Schema Theorem (III.T23, in [Book III Chapter 30]({{ '/corpus/monographs/book-iii/part-04-the-spectral-doors/chapter-30-the-master-schema/' | relative_url }})) — which is the bridge between τ-internal Riemann Hypothesis results and the classical Clay statement — depends on this axiom. Accordingly, the classical-RH claims are marked **Partial** on the site, not internally addressed. If this axiom is retracted or refuted, the bridge from τ-internal ζ-purity to classical RH falls, but the τ-internal Critical Line Theorem (III.T19) remains.
 
 ### Axiom 2 — Spectral correspondence at O(3) (Book III)
 
