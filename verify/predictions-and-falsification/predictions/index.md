@@ -51,7 +51,7 @@ Every public prediction in the program references a Corpus registry object via i
 
 | Layer | Field | Coverage |
 |---|---|---|
-| Prediction page (`/predictions/{slug}/`) | `registry_id:` | 67 / 67 predictions carry a `registry_id` |
+| Prediction page (`/predictions/{slug}/`) | `registry_id:` | {% include release-metric.html id="predictions.records" %} / {% include release-metric.html id="predictions.records" %} predictions carry a `registry_id` |
 | Registry object (`/registry/object/{id}/`) | `lean_module:` + `lean_name:` | 57 / 57 unique referenced registry objects carry both fields |
 | TauLib (`github.com/Panta-Rhei-Research/taulib`) | Lean theorem | All `lean_name` identifiers resolve in the pinned release manifest |
 
