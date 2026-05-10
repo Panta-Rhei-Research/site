@@ -45,6 +45,18 @@ This is not the full Results lane. It is a small, high-signal entry surface for 
 
 Use [AI-Assisted Discovery]({{ '/discover/ai-assisted-discovery/' | relative_url }}) if you want a structured outside-in assessment of these landmark result surfaces before reading in depth.
 
+## Worked example — Hubble tension, in 200 words
+
+Of the cards below, the [Hubble tension result]({{ '/results/problem/hubble-tension-resolved-h-formula/' | relative_url }}) is the most accessible to a non-specialist reader. The argument compresses to:
+
+The Hubble constant $h$ measures how fast the universe expands. Two independent measurement methods disagree by ~5σ: the Planck CMB (early-universe) gives $h \approx 0.674$; SH0ES/Cepheid/JWST (late-universe) gives $h \approx 0.730$. This 5σ tension has resisted explanation within ΛCDM and motivated extensive new-physics proposals.
+
+The τ-framework derives $h = \tfrac{2}{3} + \iota_\tau^2 / 17 = 0.6735$ from two structurally fixed components: $\tfrac{2}{3}$ is the matter-dominated Einstein–de Sitter base value, and $\iota_\tau^2 / 17$ is the holonomy correction where $17 = W_3(3)$ is the sum of three consecutive partial quotients of the continued-fraction expansion of $\iota_\tau$ starting at index 3. Both terms are **fixed once $\iota_\tau$ is posited** — neither is fitted to data.
+
+The result lands at –120 ppm from the SH0ES/JWST measurement and is consistent with Planck CMB. **Falsification condition:** any joint Planck-and-SH0ES tightening that rules out $h = 0.6735$ at >5σ falsifies the readout. The readout sits in [V.T259]({{ '/registry/object/V.T259/' | relative_url }}); the Lean module is [`TauLib.BookV.Astrophysics.H0TensionLCDM`](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/BookV/Astrophysics/H0TensionLCDM.lean) (theorem `Tau.BookV.Astrophysics.hubble_uniqueness`).
+
+This is the orientation, not the proof. The full derivation, dependencies, and falsification path live in the linked result page below — but the sketch above is enough to know what the claim actually is.
+
 <div class="v2-grid v2-grid-2">
   <a class="v2-tile" href="{{ '/results/problem/hubble-tension-resolved-h-formula/' | relative_url }}">
     <h3>Hubble tension</h3>

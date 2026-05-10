@@ -79,6 +79,20 @@ It is not a product roadmap. It is not a deployment claim. It is not a claim tha
 
 Results and Verify remain upstream. Translation and domain uptake remain required before any impact claim becomes actionable.
 
+## What a translation layer would look like (conditional, not committed)
+
+Readers who think in terms of fundability, partnership, or institutional uptake sometimes ask: *if the τ-framework is validated, what would translation to a working artefact look like?* The program does not yet commit to any such artefact, but the conditional shape can be named without compromising the no-deployment-claim posture above.
+
+The plausible translation surfaces follow from the program's existing architecture:
+
+- **Formal-epistemics tooling** — TauLib's release-manifest discipline (pinned commits, axiom audits, sorry-regression CI) is portable to other formalisation projects that need similar accountability. A translation layer here would package the manifest pipeline as a reusable inspection-architecture toolkit.
+- **AI-alignment verification surfaces** — the constructive type-theoretic kernel and the bridge-discipline language between formal and empirical layers are directly relevant to alignment work that needs traceable provenance for safety claims. A translation layer here would expose the bridge-language as an interface other formal stacks can target.
+- **Scientific-modelling infrastructure** — the predictions ledger pattern (registered observable + derivation chain + named falsification path + version-pinned Lean theorem) is reusable by other research programs that want to expose the same accountability surfaces.
+
+Each of these is conditional in exactly the same sense Impact is conditional: contingent on upstream verification, translation discipline, and external uptake. None is a present-tense product claim.
+
+Naming the conditional shape here is itself a discipline: it lets the program acknowledge that fundable / partnerable / institutionally-actionable consequences are downstream of the framework — without pretending those consequences are present-tense, and without abandoning the engagement-without-endorsement posture that governs the rest of the site.
+
 ## Impact is conditional
 
 Impact is conditional: no consequence is stronger than the Results, verification status, translation assumptions, and domain uptake on which it depends.
