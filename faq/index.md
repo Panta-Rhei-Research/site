@@ -28,8 +28,16 @@ right_rail:
     updated: "May 2026"
 ---
 
+{%- comment -%}
+  Sum entries across all five FAQ layer files. Liquid for-loops do NOT accept
+  inline filters on the iterable expression — applying `| split: ","` directly
+  to the for-loop's iterable is a syntax error and silently leaves the
+  iteration empty (the cause of the /faq/ page showing "0 entries" instead of
+  73). Assign the split result first, then iterate over the named array.
+{%- endcomment -%}
 {% assign all_entries_count = 0 %}
-{% for fname in "first_contact,first_orientation,journalist_due_diligence,technical_credibility,expert_handoff" | split: "," %}
+{% assign faq_layer_files = "first_contact,first_orientation,journalist_due_diligence,technical_credibility,expert_handoff" | split: "," %}
+{% for fname in faq_layer_files %}
   {% assign coll = site.data.faqs[fname] %}
   {% if coll and coll.faqs %}
     {% assign all_entries_count = all_entries_count | plus: coll.faqs.size %}

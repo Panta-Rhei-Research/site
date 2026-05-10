@@ -39,10 +39,33 @@
       </button>
       <div class="header-page-drawer header-toc-dropdown" id="header-toc-dropdown" role="dialog" aria-label="This page" hidden>
         {% include page-tools.html variant="drawer" label="Page tools" %}
+        {%- comment -%}
+          On-this-page subsection. Server-renders the local TOC from page H2s
+          using the same content split as right-rail.html, so the drawer shows
+          real headings even with JavaScript disabled. Mobile-shell JS in
+          default.html still re-populates from the right-rail TOC on load
+          (preserves IntersectionObserver active-state syncing) — but this
+          ensures the empty fallback only appears when a page truly has no
+          local headings. Fixes briefing 29 §3 where /media/, /verify/how-to-
+          verify/ etc. visibly contained headings yet showed the empty state.
+        {%- endcomment -%}
+        {%- assign _drawer_toc_parts = content | split: '<h2' -%}
         <section class="page-drawer-section page-drawer-toc" aria-labelledby="page-drawer-toc-title">
           <div class="page-drawer-section-title" id="page-drawer-toc-title">On this page</div>
           <div class="page-drawer-toc-list" id="page-drawer-toc-list">
+            {%- if _drawer_toc_parts.size > 1 -%}
+              {%- for part in _drawer_toc_parts offset:1 -%}
+                {%- assign _h_raw = part | split: '</h2>' | first -%}
+                {%- assign _h_no_anchor = _h_raw | split: '</a>' | first -%}
+                {%- assign _h_text = _h_no_anchor | split: '>' | last | strip_html | strip -%}
+                {%- assign _h_id = _h_text | slugify -%}
+                {%- if _h_text != "" -%}
+            <a href="#{{ _h_id }}" class="toc-dropdown-link">{{ _h_text }}</a>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- else -%}
             <p class="page-drawer-empty">No local section headings on this page.</p>
+            {%- endif -%}
           </div>
         </section>
       </div>
