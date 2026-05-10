@@ -96,7 +96,10 @@ body.shell-home .site-footer {
 .footer-links {
   display: grid;
   grid-template-columns: minmax(190px, 1.12fr) repeat(4, minmax(104px, 1fr));
-  gap: 16px;
+  // Slightly more breathing room between top-level groups so the inner
+  // tightening of .footer-core-lanes (below) reads as a single unit
+  // distinct from the next column-group.
+  gap: 16px 22px;
 
   a,
   .footer-link-button {
@@ -150,7 +153,11 @@ body.shell-home .site-footer {
 .footer-core-lanes {
   display: grid;
   grid-template-columns: repeat(2, minmax(84px, 1fr));
-  gap: 7px 18px;
+  // Tighter horizontal gap (12px) than the outer .footer-links gap (22px)
+  // so the two lane sub-columns visibly bind into ONE Lanes group instead
+  // of looking like two unrelated columns. The 10px relative difference
+  // is enough to read as a group at a glance.
+  gap: 7px 12px;
 }
 
 .footer-core-lane-column {
@@ -164,6 +171,12 @@ body.shell-home .site-footer {
   font-size: 0.72rem;
   font-weight: 700;
   color: $text;
+  // Hairline divider below each column header — gives a quiet visual
+  // rhythm between the title and its links without adding visual weight.
+  // Alpha kept low (0.06) so it reads as "almost not there" — exactly
+  // enough to suggest a column boundary without competing with the type.
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(21, 23, 28, 0.06);
 }
 
 .social-icon {
