@@ -41,12 +41,14 @@ layout: program-doc
   <p class="muted-note">Curated subset ({{ cluster.references.size }} of {{ cluster.reference_count }} domain entries) — the most-cited and canonical works in this cluster. The full set is enumerable via the <a href="{{ '/bibliography/browse/' | relative_url }}">Bibliography browse</a> surface.</p>
   <ul class="prior-art-ref-list">
     {%- comment -%}
-      bib_key URLs are emitted in lowercase: bibliography page slugs are derived from
-      filename (lowercase), but YAML references are mixed-case (CamelCase + lowercase).
-      The displayed chip text preserves original casing for citation-style readability.
+      bib_key URLs are emitted in lowercase + hyphen-normalized: bibliography page
+      slugs are derived from filename (lowercase, with underscores converted to
+      hyphens to match Jekyll's permalink convention), while YAML bib_keys
+      preserve mixed-case + underscores for citation-style readability.
+      The displayed chip text preserves original casing.
     {%- endcomment -%}
     {%- for bib_key in cluster.references -%}
-      {%- assign bib_slug = bib_key | downcase -%}
+      {%- assign bib_slug = bib_key | downcase | replace: "_", "-" -%}
       <li><a class="prior-art-ref-link" href="{{ '/bibliography/' | append: bib_slug | append: '/' | relative_url }}"><code>{{ bib_key }}</code></a></li>
     {%- endfor -%}
   </ul>
