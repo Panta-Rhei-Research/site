@@ -38,9 +38,9 @@ right_rail:
 
 ## Canonical Artifact
 
-*T Theory Executive Synopsis* is the canonical theory-synopsis white paper in
-the Anchor Document Canon. It answers the question WP001 intentionally leaves
-open: what does the theory itself say?
+*τ-Theory Executive Synopsis* (WP002) is the canonical theory-synopsis white
+paper in the Anchor Document Canon. It answers the question the *Executive
+Overview* (WP001) intentionally leaves open: what does the theory itself say?
 
 The document is organized by the ten Construction Spine steps, grouped only as
 Mathematics, Physics, and Life and Metaphysics. It is not a seven-book digest
@@ -107,11 +107,11 @@ inspected.
 
 ## Claim Boundary
 
-WP002 is an executive synopsis of the theory route. It does not replace the
-monographs, Registry, TauLib, Results, or Verify surfaces. It does not claim
-proof substitution, empirical validation, final-theory status, peer review,
-deployment readiness, product availability, policy adoption, or achieved
-impact.
+The Synopsis is an executive treatment of the theory route. It does not
+replace the monographs, Registry, TauLib, Results, or Verify surfaces. It
+does not claim proof substitution, empirical validation, final-theory status,
+peer review, deployment readiness, product availability, policy adoption, or
+achieved impact.
 
 Hashes attest to the PDF bytes only; they do not certify correctness, peer
 review, empirical adequacy, legal status, DOI registration, or content

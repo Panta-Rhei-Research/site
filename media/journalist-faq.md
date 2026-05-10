@@ -62,7 +62,7 @@ This FAQ is written for **journalists, podcast hosts, editors, and public commun
 
 For specialist-level questions (formal-methods reviewers, domain experts), see the separate [Red-team FAQ]({{ '/program/about/red-team-faq/' | relative_url }}), [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}), and [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}).
 
-For the shortest citable orientation, start with [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}), then use the [Anchor Documents]({{ '/publications/anchor-documents/' | relative_url }}) for the longer canon.
+For the shortest citable orientation, start with [*Panta Rhei at a Glance*]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) (WP000), then use the [Anchor Documents]({{ '/publications/anchor-documents/' | relative_url }}) for the longer canon.
 
 ## Inspection architecture and proof status
 

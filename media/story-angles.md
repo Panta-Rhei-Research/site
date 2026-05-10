@@ -46,7 +46,7 @@ These are **five distinct framings** for covering the Panta Rhei Research Progra
 
 If your angle isn't covered here, write to [press@panta-rhei.site](mailto:press@panta-rhei.site) — the program is happy to provide quotes, background, or interview windows for framings we haven't anticipated.
 
-For the journalism-specific Q&A (peer review, funding, citation, embargo), see the [Journalist FAQ]({{ '/media/journalist-faq/' | relative_url }}). For the shortest public entry point, use [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) before sending readers into the longer anchor documents.
+For the journalism-specific Q&A (peer review, funding, citation, embargo), see the [Journalist FAQ]({{ '/media/journalist-faq/' | relative_url }}). For the shortest public entry point, use [*Panta Rhei at a Glance*]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) (WP000) before sending readers into the longer anchor documents.
 
 ---
 

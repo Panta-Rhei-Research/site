@@ -38,10 +38,10 @@ right_rail:
 
 ## Canonical Artifact
 
-*Standing in the Inquiry of Being* is the first Anchor Document in the canon and
-the program's constitutive Charter Essay. It records the inquiry stance behind
-the Program lane by situating categorical ontology in a chosen lineage from
-ancient formal intelligibility through modern structural thought.
+*Standing in the Inquiry of Being* (C001) is the first Anchor Document in the
+canon and the program's constitutive Charter Essay. It records the inquiry
+stance behind the Program lane by situating categorical ontology in a chosen
+lineage from ancient formal intelligibility through modern structural thought.
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ doc.pdf_path | relative_url }}">Download PDF</a>

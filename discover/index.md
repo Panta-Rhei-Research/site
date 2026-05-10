@@ -90,7 +90,7 @@ For journalists and public readers, the current [Open Research Brief]({{ '/media
 
 ## How the observatory is built
 
-The public site is itself part of the research form. [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) is the shortest public orientation; [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) explains the technical blueprint: how `panta-rhei.site`, public source repositories, generated projections, search, release manifests, publication artifacts, and correction routes work together as one public research observatory.
+The public site is itself part of the research form. [*Panta Rhei at a Glance*]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) (WP000) is the shortest public orientation; the [*Public Research Observatory Blueprint*]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) (WP004) explains the technical blueprint: how `panta-rhei.site`, public source repositories, generated projections, search, release manifests, publication artifacts, and correction routes work together as one public research observatory.
 
 Read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) if you want the newsroom version before entering the research lanes.
 

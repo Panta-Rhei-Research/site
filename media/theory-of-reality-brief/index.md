@@ -42,7 +42,7 @@ Panta Rhei is not asking journalists to cover a theory of everything as a settle
 
 ## What is new
 
-The Anchor Document Canon now carries this framing through [C001 Standing in the Inquiry of Being]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}), [WP001 Program Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}), and [WP002 T Theory Executive Synopsis]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}). It explains why Panta Rhei’s canonical public category is “coherent theory of reality,” not “theory of everything.”
+The Anchor Document Canon now carries this framing through [*Standing in the Inquiry of Being*]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}) (C001), the [*Executive Overview*]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}) (WP001), and the [*τ-Theory Executive Synopsis*]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}) (WP002). It explains why Panta Rhei’s canonical public category is “coherent theory of reality,” not “theory of everything.”
 
 The distinction matters. “Theory of everything” can sound like final possession. “Coherent theory of reality” is framed here as a public burden: earn the language, earn the questions, build the answers, disclose limits, and state conditional relevance.
 

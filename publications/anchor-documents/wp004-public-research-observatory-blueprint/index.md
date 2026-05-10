@@ -47,17 +47,17 @@ right_rail:
 
 ## Canonical Artifact
 
-*Public Research Observatory Blueprint* is the canonical anchor white paper for
-the program's inspectability architecture. It merges the earlier observatory
-and inspection-architecture narratives into one reusable pattern: how
-high-scope open research can expose routes, artifacts, status labels,
-verification surfaces, editorial boundaries, and challenge procedures before it
-asks anyone to believe its conclusions.
+*Public Research Observatory Blueprint* (WP004) is the canonical anchor white
+paper for the program's inspectability architecture. It merges the earlier
+observatory and inspection-architecture narratives into one reusable pattern:
+how high-scope open research can expose routes, artifacts, status labels,
+verification surfaces, editorial boundaries, and challenge procedures before
+it asks anyone to believe its conclusions.
 
-WP004 is not a theory synopsis and not a validation claim. It explains the
-public research observatory pattern, then uses Panta Rhei as the live case
-study for that pattern across Program, Agenda, Corpus, Results, Verify,
-Publications, Impact, and Engage.
+The Blueprint is not a theory synopsis and not a validation claim. It
+explains the public research observatory pattern, then uses Panta Rhei as the
+live case study for that pattern across Program, Agenda, Corpus, Results,
+Verify, Publications, Impact, and Engage.
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ doc.pdf_path | relative_url }}">Download PDF</a>
@@ -119,7 +119,7 @@ Publications, Impact, and Engage.
 
 ## Blueprint Scope
 
-WP004 centers on twelve inspectability surfaces: scope and claim boundaries,
+The Blueprint centers on twelve inspectability surfaces: scope and claim boundaries,
 artifact inventory, source routes, status labels, release metadata, formal
 verification boundaries, empirical and bridge boundaries, correction channels,
 review routes, media routes, governance routes, and continuity routes. The
@@ -139,10 +139,10 @@ For Panta Rhei, the case-study routes are:
 
 ## Claim Boundary
 
-WP004 explains inspection architecture. It does not validate T Theory, certify
-scientific claims, imply peer-review completion, establish external acceptance,
-claim deployment readiness, assert product availability, claim policy adoption,
-or assert achieved impact.
+The Blueprint explains inspection architecture. It does not validate T Theory,
+certify scientific claims, imply peer-review completion, establish external
+acceptance, claim deployment readiness, assert product availability, claim
+policy adoption, or assert achieved impact.
 
 Hashes attest to the PDF bytes only; they do not certify correctness, peer
 review, empirical adequacy, legal status, DOI registration, or content

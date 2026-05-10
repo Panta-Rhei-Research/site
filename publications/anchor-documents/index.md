@@ -46,9 +46,10 @@ right_rail:
 ## Start Here
 
 Anchor Documents are the downloadable offline routes into the Panta Rhei
-Research Program. The canon now begins with WP000, a four-page first-contact
-primer, followed by C001, the charter essay, and five canonical white papers.
-The website remains the live canonical superset; the PDFs are citable release
+Research Program. The canon now begins with *Panta Rhei at a Glance* (WP000),
+a four-page first-contact primer, followed by *Standing in the Inquiry of
+Being* (C001), the charter essay, and five canonical white papers. The
+website remains the live canonical superset; the PDFs are citable release
 artifacts that route back into Program, Corpus, TauLib, Publications, Impact,
 and Verify surfaces.
 
@@ -74,11 +75,14 @@ and Verify surfaces.
 
 ## Reading Routes
 
-Use WP000 first if you need the shortest public orientation. Use C001 if you
-need the program's inquiry stance. Use WP001 as the whole-program orientation.
-Use WP004 for the inspection architecture, WP003 for the formalization surface,
-WP005 for conditional impact, and WP002 last for the theory construction
-synopsis.
+Start with the at-a-glance primer if you need the shortest public orientation.
+Read the charter essay if you need the program's inquiry stance. Use the
+*Executive Overview* (WP001) as the whole-program orientation. Use the
+*Public Research Observatory Blueprint* (WP004) for the inspection
+architecture, the *TauLib Technical Overview* (WP003) for the formalization
+surface, the *Global Public Good Impact Overview* (WP005) for conditional
+impact, and the *τ-Theory Executive Synopsis* (WP002) last for the theory
+construction synopsis.
 
 <table>
   <caption>Anchor Document Canon</caption>
