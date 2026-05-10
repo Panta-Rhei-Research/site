@@ -56,9 +56,11 @@ The pinned source feed is Wikipedia's *List of unsolved problems in physics*, ca
 
 The 11 clusters group entries by where they sit scientifically: root foundations and physical semantics; quantum gravity, spacetime, time, and black holes; cosmology, early universe, and dark sector; particle physics, Standard Model, and BSM; QCD, nuclear physics, and dense matter; astrophysics, compact objects, and cosmic systems; fluid, plasma, turbulence, and collective dynamics; condensed matter, materials, and emergent phases; quantum information, computation, and cryptography; physics-life-mind boundary; peripheral imported phenomena.
 
-## Build status
+## Active construction
 
-This is a **Wave 1 stub**. Item content lives in `corpus/structural-challenge-ledger/items/physics/` and is populated in **Wave 3** (the largest wave: 102 refactored + 15 τ-native = 117 items).
+This domain ledger is in active construction. The ring architecture, subdomain clusters, and source policy above are canonical; detailed per-challenge items will appear on this page as the construction spine reaches each ring and cluster.
+
+For the program-wide framework, see the [Structural Challenge Ledger overview]({{ '/agenda/structural-challenge-ledger/' | relative_url }}). For τ's physics-side results, see the [Physics results hub]({{ '/results/physics/' | relative_url }}), the [Predictions browser]({{ '/results/predictions/browse/' | relative_url }}), and the [Falsification pack]({{ '/results/falsifications/browse/' | relative_url }}).
 
 ## What this ledger does not claim
 
