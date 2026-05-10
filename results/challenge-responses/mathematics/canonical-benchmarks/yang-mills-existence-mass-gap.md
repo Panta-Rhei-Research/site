@@ -82,3 +82,5 @@ tags:
 - mathematics
 summary_short: The Corpus currently constrains, reframes, or materially supports an account of this problem.
 ---
+
+The τ-internal mass-gap theorem `IV.T75` closes **kernel-only** against Mathlib + `native_decide` alone — no custom-axiom dependency. The reason this Challenge Response carries a **Structurally constrained** status rather than **Internally addressed** is the *bridge layer*: the formal correspondence between the τ-formulation of Yang–Mills and the [Clay Yang–Mills statement on ℝ⁴](https://www.claymath.org/millennium-problems/yang-mills-the-maths-gap) is treated separately and not yet formally bridged via Lean. This is the same pattern as the Master Schema → classical Riemann Hypothesis split: a τ-internal kernel-only result plus an unproven bridge to the orthodox classical statement. See the [Yang–Mills note on the Custom Axiom Inventory]({{ '/verify/custom-axioms/#yang-mills-note' | relative_url }}) for the full split, and [`IV.T75`]({{ '/registry/object/IV.T75/' | relative_url }}) for the kernel-only theorem itself. The bridge layer is the program's open work; `IV.T75` is not axiom-dependent.

@@ -46,7 +46,7 @@ Book III's Critical Line Theorem III.T19 sits in territory occupied by Hilbert-P
 - What is the τ spectral operator explicitly? On what Hilbert space does it act? Is it self-adjoint?
 - Does the τ operator reduce to Connes' adelic operator (or to Berry-Keating's xp quantization) under a specific translation, or is it genuinely different?
 - Do τ-zeros satisfy Montgomery-Odlyzko pair correlation (GUE statistics)? If yes, strong consistency with classical ζ; if no, τ is making a different prediction.
-- The Master Schema (III.T27) is the formal bridge between τ-internal and classical RH. What is the functor, explicitly?
+- The Master Schema (III.T23) is the formal bridge between τ-internal and classical RH. What is the functor, explicitly?
 
 ### 3. [Three Generations / Octonionic / Twistor / Preon]({{ '/agenda/kernel-model-reality/related-approaches/deep-comparison/' | relative_url }})
 
