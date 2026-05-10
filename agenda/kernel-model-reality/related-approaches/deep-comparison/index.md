@@ -196,3 +196,14 @@ The program's comparison rule is deliberately modest:
 - where Panta Rhei faces the same burden, the burden remains visible until discharged
 
 That is the point of this companion page. It makes the neighboring landscape more explicit while preserving the central discipline: ontic seriousness is not granted by resemblance to an ambitious theory. It is earned through the ledgers, the kernel burden, and public verification pressure.
+
+## See also
+
+This briefing carries the **narrative** comparison work — shared pressure, distinguishing claim, remaining burden — for selected approach families. The **machine-readable backbone** is the structured prior-art cluster surface: 9 domain clusters, 117 representative bibliography references, and 60 explicit edges to Structural Challenge Ledger items.
+
+- [**Prior-Art Cluster Index**]({{ '/bibliography/prior-art/' | relative_url }}) — the 9 clusters with reference counts and challenge edges
+- [Bibliography (browse)]({{ '/bibliography/browse/' | relative_url }}) — the full {% include release-metric.html id="bibliography.references" %}-entry catalogue
+- [Structural Challenge Ledger]({{ '/agenda/structural-challenge-ledger/' | relative_url }}) — the canonical obligation surface
+- [Challenge Responses]({{ '/results/challenge-responses/' | relative_url }}) — the Results-side projection
+
+Each individual SCL item and Challenge Response page now auto-displays the prior-art clusters whose representative references bear on its `challenge_id` (computed from `cluster.related_challenges` in `corpus/data/bibliography/prior-art-clusters.yml`). The Deep Comparison briefing remains the place for narrative editorial; the per-page panels surface the structured graph.

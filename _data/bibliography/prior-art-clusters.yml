@@ -1,0 +1,449 @@
+# Prior-art clusters for the Panta Rhei Research Program.
+#
+# Each cluster groups bibliography references that share a domain pressure
+# the program engages. The cluster body documents what kind of work belongs,
+# the strongest representative references, and the program-side construction
+# steps and structural challenges the cluster bears on. The Deep Comparison
+# briefing at /agenda/kernel-model-reality/related-approaches/deep-comparison/
+# carries fuller editorial comparisons for selected approach families; the
+# clusters here are the structured-data backbone the site projects from.
+#
+# References are stable bibliography bib_keys curated by domain importance
+# and by citation density inside the corpus (cited_in counts). They are
+# representative, not exhaustive — the full per-domain reference set is
+# enumerable via the Bibliography browse surface.
+#
+# Schema: corpus/schema/prior-art-cluster.schema.json
+# Validator: corpus/scripts/validate_prior_art_clusters.py
+# Sync target: site/_data/bibliography/prior-art-clusters.yml
+clusters:
+- cluster_id: pa000001
+  cluster_key: category_theory
+  title: Category Theory
+  summary: Bibliography domain cluster for Category Theory.
+  description: >-
+    Foundational and modern category-theoretic literature: classical category
+    theory, elementary topos theory (ETCS), enriched category theory, type-
+    theoretic foundations including Homotopy Type Theory, and category-theoretic
+    treatments of self-reference and diagonal arguments. The Panta Rhei kernel
+    inherits from this lineage — the K0–K6 axioms, the progression operator, the
+    Yoneda enrichment ladder, and the τ-topos with its four-valued internal logic
+    all sit in dialogue with this body of work. Reviewers comparing the framework
+    against ETCS, HoTT/UF, or topos-theoretic physics programs (Isham, Döring,
+    Schreiber) should start here; the Deep Comparison briefing covers the closest
+    approach families in narrative form.
+  domains:
+  - category_theory
+  reference_count: 60
+  references:
+  - MacLane1998
+  - MacLane1971
+  - Lawvere1964
+  - Lawvere1969
+  - Lawvere1969FP
+  - HoTTBook2013
+  - Awodey2010
+  - MoerdijkPalmgren2002
+  - WilliamsStay2021
+  - BocquetKaposiSattler2023
+  - vanDijkGietelinkOldenziel2020
+  - Yanofsky2003
+  - FuchsFuchs26_Primon
+  related_construction_steps:
+  - CS-01
+  - CS-03
+  related_publications:
+  - book-i
+  - book-ii
+  - book-iii
+  related_challenges:
+  - F1
+  - F2
+  - F8
+  - F9
+  - F12
+  metadata_pending: false
+
+- cluster_id: pa000002
+  cluster_key: computation_and_complexity
+  title: Computation and Complexity
+  summary: Bibliography domain cluster for Computation and Complexity.
+  description: >-
+    Classical complexity theory, computability, and the foundational catalogue
+    of NP-complete problems. The cluster is intentionally small in the corpus —
+    the program engages computation primarily via the τ-Tower Machine internal
+    model and the τ-internal P=NP collapse theorem, which is explicitly NOT a
+    resolution of the Clay P vs NP problem in the standard Turing-machine model
+    (see Red-team FAQ #4). Reviewers wanting to interrogate the τ-internal
+    computational substrate against the Cook–Levin / Karp / Garey–Johnson
+    lineage should use this cluster as their bibliography starting point.
+  domains:
+  - computation_and_complexity
+  reference_count: 22
+  references:
+  - Cook1971
+  - Karp1972
+  - GareyJohnson1979
+  - AaronsonWigderson2009
+  - AroraBarak2009
+  - BlumShubSmale1989
+  - Blum1998
+  - Impagliazzo1995
+  - Cormen2009
+  - Knuth1997
+  related_construction_steps:
+  - CS-09
+  related_publications:
+  - book-iii
+  related_challenges:
+  - CB-PVSNP
+  - F3
+  - F12
+  metadata_pending: false
+
+- cluster_id: pa000003
+  cluster_key: foundations_and_logic
+  title: Foundations and Logic
+  summary: Bibliography domain cluster for Foundations and Logic.
+  description: >-
+    The largest cluster in the corpus (492 entries) — covers classical
+    mathematical analysis (Ahlfors, Rudin, Hörmander), modern type theory and
+    transcendental syntax (Girard, Eng, Altenkirch–Kaposi), Gödel-limitation
+    discussions (Willard self-verifying systems, the categorical Gödel
+    treatments), and a substantial body of philosophical and physical
+    foundations literature that touches the program's logical core (Hume, Kant,
+    Schrödinger's "What is Life?"). The program's Foundations & Logic
+    challenges (F1–F18) — categoricity, Gödel-avoidance, internal logic,
+    paraconsistency, set-theoretic strength — engage this cluster directly. Some
+    Physics and Topology entries appear here due to existing classification
+    quirks; cluster taxonomy refinement is on the editorial backlog.
+  domains:
+  - foundations_and_logic
+  reference_count: 492
+  references:
+  - Ahlfors1979
+  - Rudin1987
+  - Hormander1990
+  - HoTTBook2013
+  - AltenkirchKaposi2016
+  - Eng2023
+  - Girard2016TS
+  - Willard2001
+  - Abel2023
+  - schrodinger1944
+  - hume1739
+  - kant1790
+  related_construction_steps:
+  - CS-01
+  - CS-03
+  - CS-09
+  related_publications:
+  - book-i
+  - book-ii
+  - book-iii
+  related_challenges:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F8
+  - F9
+  - F12
+  metadata_pending: false
+
+- cluster_id: pa000004
+  cluster_key: life_and_biology
+  title: Life and Biology
+  summary: Bibliography domain cluster for Life and Biology.
+  description: >-
+    Origin-of-life, consciousness, and biological-systems literature spanning
+    Aristotle's De Anima through modern theories of consciousness (Baars Global
+    Workspace, Chalmers' hard problem framing, Tononi's IIT, Dehaene's neural
+    correlates). The cluster supports Book VI (life as self-decoding distinctions)
+    and Book VII (consciousness as global section) and is engaged by the LIFE-SC
+    challenges around abiogenesis, homochirality, the genetic code, and the
+    cognition / consciousness boundary. Reviewers should note the program's
+    explicit "partially addressed" status on the hard problem (see Red-team FAQ
+    #13) — the cluster represents the prior art the program is in dialogue with,
+    not work the program claims to have superseded.
+  domains:
+  - life_and_biology
+  reference_count: 101
+  references:
+  - aristotle-de-anima
+  - schrodinger1944
+  - chalmers1995
+  - baars1988
+  - tononi2012
+  - dehaene2014
+  - dehaene2001
+  - crick1968
+  - lovelock1979
+  - bergson1907
+  - descartes1633
+  related_construction_steps:
+  - CS-07
+  - CS-08
+  related_publications:
+  - book-vi
+  - book-vii
+  related_challenges:
+  - LIFE-SC-06
+  - LIFE-SC-11
+  - LIFE-SC-13
+  - LIFE-SC-15
+  - LIFE-SC-26
+  - LIFE-SC-27
+  - LIFE-SC-28
+  - M-E3-19
+  - M-E3-20
+  - M-E3-21
+  metadata_pending: false
+
+- cluster_id: pa000005
+  cluster_key: metaphysics_and_philosophy
+  title: Metaphysics and Philosophy
+  summary: Bibliography domain cluster for Metaphysics and Philosophy.
+  description: >-
+    Classical and modern philosophy engaged by Book VII: Aristotelian ethics
+    and metaphysics, Cartesian foundations, Hegelian aesthetics, phenomenology
+    (Merleau-Ponty), and modern philosophy of mind (Block, Dennett, Damasio,
+    Edelman & Tononi). The cluster grounds the program's four-register
+    (Reg_E / Reg_P / Reg_D / Reg_C) architecture, the No Forced Stance theorem
+    (VII.T47), the Categorical Imperative derivation in Book VII, and the
+    Hard Problem of Consciousness Challenge Response. Reviewers comparing the
+    program's "consciousness as global section" framing against IIT, Global
+    Workspace, or higher-order theories should treat this cluster as the
+    prior-art horizon and read Red-team FAQ #11–#13 for the program's own
+    posture statements.
+  domains:
+  - metaphysics_and_philosophy
+  reference_count: 21
+  references:
+  - aristotle-ethics
+  - aristotle-de-anima
+  - merleau-ponty1945
+  - tononi2004
+  - descartes1641
+  - hegel1835
+  - dennett1991
+  - block1995
+  - damasio1999
+  - edelman2000
+  - hume1739
+  - kant1790
+  related_construction_steps:
+  - CS-08
+  - CS-10
+  related_publications:
+  - book-vii
+  related_challenges:
+  - M-E3-19
+  - M-E3-20
+  - M-E3-21
+  - M-E3-22
+  - M-E3-23
+  - M-E3-24
+  - M-E3-25
+  - M-E3-27
+  - M-E3-29
+  - MRC-01
+  metadata_pending: false
+
+- cluster_id: pa000006
+  cluster_key: number_theory_and_analysis
+  title: Number Theory and Analysis
+  summary: Bibliography domain cluster for Number Theory and Analysis.
+  description: >-
+    The analytic-number-theory and elliptic-curves literature engaged by
+    Book III's spectral and L-function machinery: Silverman on elliptic curves,
+    Bump and Diamond–Shurman on automorphic forms and modular forms, Iwaniec–
+    Kowalski on analytic methods, Edwards and Titchmarsh on the Riemann zeta
+    function, and the BCDT modularity literature. The Book III custom axiom
+    `grand_grh_adelic` is explicitly conditional on this body of work
+    (compute-then-axiomatize pattern; see /verify/custom-axioms/). Reviewers
+    auditing the program's GRH-adjacent claims and the Master Schema bridge
+    should start with Bump, Iwaniec–Kowalski, and the canonical RH literature
+    cited in Book III.
+  domains:
+  - number_theory_and_analysis
+  reference_count: 89
+  references:
+  - Silverman1986
+  - SilvermanAEC2009
+  - Bump1997
+  - Diamond2005
+  - IwaniecKowalski2004
+  - Koblitz1993
+  - Edwards1974
+  - Titchmarsh1986
+  - Apostol1976
+  - Baker1975
+  - BCDT01
+  - BCDT2001
+  related_construction_steps:
+  - CS-02
+  related_publications:
+  - book-iii
+  related_challenges:
+  - CB-RIEMANN
+  - CB-BSD
+  - CB-LANGLANDS
+  - CB-GRAND-GRH
+  metadata_pending: false
+
+- cluster_id: pa000007
+  cluster_key: physics
+  title: Physics
+  summary: Bibliography domain cluster for Physics.
+  description: >-
+    The largest physics-side cluster (199 entries) covering general relativity
+    (Einstein 1915 field equations, Schwarzschild, Kerr), observational cosmology
+    (Hubble, Perlmutter, Planck Collaboration, BICEP/Keck), gravitational waves
+    (LIGO 2016), Event Horizon Telescope, and Standard-Model particle physics
+    (Glashow, Weinberg, Salam, Gross–Wilczek). The cluster grounds Book IV
+    (Categorical Microcosm), Book V (Categorical Macrocosm), the calibration
+    cascade anchored by ι_τ ≈ 0.341304, the 67-prediction catalogue, and the
+    N1–N30 falsification pack. Reviewers auditing the EW-sector predictions,
+    the CMB-S4 r ≈ 0.0136 falsifier, or the cosmological-constant bridge should
+    read Red-team FAQ #11 for the precision-tier honesty discussion before
+    treating any single tier badge as endorsement of measurement-precision
+    agreement.
+  domains:
+  - physics
+  reference_count: 199
+  references:
+  - einstein1915field
+  - einstein1916foundation
+  - schwarzschild1916gravitationsfeld
+  - kerr1963gravitational
+  - hubble1929relation
+  - perlmutter1999measurements
+  - riess1998observational
+  - planck2020cosmological
+  - abbott2016observation
+  - EHT2019
+  - EHTSgrA2022
+  - Glashow1961
+  - Weinberg1967
+  - Salam1968
+  - GrossWilczek1973
+  - Feynman1949QED
+  - guth1981inflationary
+  - linde1982new
+  - Bohr1913
+  - ReedSimon1980
+  related_construction_steps:
+  - CS-04
+  - CS-05
+  - CS-06
+  related_publications:
+  - book-iv
+  - book-v
+  related_challenges:
+  - P005
+  - P013
+  - P017
+  - P019
+  - P037
+  - P038
+  - P039
+  - P045
+  - P050
+  - P051
+  - P062
+  - P068
+  - P083
+  - P087
+  - P091
+  - P093
+  metadata_pending: false
+
+- cluster_id: pa000008
+  cluster_key: topology_and_geometry
+  title: Topology and Geometry
+  summary: Bibliography domain cluster for Topology and Geometry.
+  description: >-
+    Algebraic geometry (Hartshorne, Griffiths–Harris, Voisin), complex geometry
+    (Huybrechts, Ahlfors's conformal-invariants treatment), several-complex-
+    variables analysis relevant to the τ-Holomorphy and Hartogs-extension
+    machinery in Book I (Grauert, Hörmander, Gunning–Rossi), and index theory
+    (Atiyah–Singer, Atiyah–Bott). The cluster grounds the program's
+    "Global Hartogs" claim on the split-complex boundary algebra ℋ[j] (which
+    requires careful treatment given zero divisors — see Pure Mathematics
+    expert-domain dossier). Reviewers should compare the τ-CR operator and
+    Hartogs-style extension on 𝕃 against the classical multi-variable
+    holomorphy literature.
+  domains:
+  - topology_and_geometry
+  reference_count: 139
+  references:
+  - GriffithsHarris1978
+  - Hartshorne1977
+  - Huybrechts2005
+  - VoisinHodge
+  - Ahlfors1973
+  - Grauert1958
+  - GunningRossi1965
+  - yoneda1954
+  - AtiyahBott1983
+  - AtiyahSinger1963
+  - AtiyahPatodiSinger1975
+  - BaouendiEbenfeltRothschild1999
+  - schwarzschild1916gravitationsfeld
+  - Stone1937
+  related_construction_steps:
+  - CS-01
+  - CS-02
+  related_publications:
+  - book-i
+  - book-ii
+  - book-iii
+  related_challenges:
+  - CB-HODGE
+  - CB-NAVIER-STOKES
+  - CB-POINCARE
+  - CB-YANG-MILLS
+  metadata_pending: false
+
+- cluster_id: pa000009
+  cluster_key: unclassified
+  title: Unclassified
+  summary: Bibliography domain cluster for Unclassified.
+  description: >-
+    Recent observational and theoretical work that has not yet received a
+    domain classification in the corpus — primarily contemporary cosmology
+    (BICEP/Keck 2021 r constraints, DESI 2024 BAO, Planck-adjacent fits),
+    BSM particle physics (ATLAS / CMS supersymmetry searches), grand-unified
+    theories (Georgi–Glashow, Fritzsch–Minkowski), and quantum-gravity programs
+    (loop quantum cosmology, EPRL spinfoams, AdS/CFT). The cluster is a holding
+    pen for entries pending taxonomic placement; the editorial backlog will
+    redistribute these into the seven primary clusters. Reviewers will likely
+    find the most-relevant references already cross-listed in Physics or
+    Number Theory clusters; this cluster is the canonical "to be sorted"
+    surface, not a substantive prior-art family.
+  domains:
+  - unclassified
+  reference_count: 25
+  references:
+  - BICEP2021r
+  - DESI2024bao
+  - ATLAS2021SUSY
+  - CMS2021SUSY
+  - GeorgiGlashow1974
+  - Fritzsch1975
+  - AmaldiDeBoerFuerstenau1991
+  - AshtekarPawlowskiSingh2006
+  - AgulloNelson2015
+  - EPRL2008
+  - FreidelKrasnov2008
+  - AharonyGubserMaldacenaOoguriOz2000
+  - EisensteinHu1998
+  related_construction_steps:
+  - CS-04
+  - CS-05
+  - CS-06
+  related_publications: []
+  related_challenges: []
+  metadata_pending: false
