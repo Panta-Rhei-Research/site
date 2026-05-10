@@ -1,0 +1,73 @@
+{%- comment -%}
+  Prior-Art Related Clusters — auto-detect display.
+
+  Reads site.data.bibliography['prior-art-clusters'].clusters and for each
+  cluster checks whether the current page's challenge_id is in
+  cluster.related_challenges. If matched, render a cluster card linking to
+  the cluster page + a few representative references.
+
+  Inputs (page-level):
+    page.structural_challenge_id   (Challenge Response pages)
+    page.challenge_id              (Structural Challenge Ledger items)
+    page.prior_art_refs            (optional explicit override — array of cluster_keys)
+
+  Result: zero per-page edits required for SCL items + Challenge Responses
+  whose challenge_id is in any cluster's related_challenges. Result pages
+  can opt in via explicit prior_art_refs frontmatter.
+{%- endcomment -%}
+
+{%- assign clusters_root = site.data.bibliography['prior-art-clusters'] -%}
+{%- assign current_challenge = page.challenge_id | default: page.structural_challenge_id -%}
+
+{%- comment -%} Build matched-clusters list — auto-detect by challenge_id, OR explicit prior_art_refs override {%- endcomment -%}
+{%- assign matched = "" | split: "" -%}
+{%- if page.prior_art_refs and page.prior_art_refs.size > 0 -%}
+  {%- for want in page.prior_art_refs -%}
+    {%- for c in clusters_root.clusters -%}
+      {%- if c.cluster_key == want -%}
+        {%- assign matched = matched | push: c -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- elsif current_challenge -%}
+  {%- for c in clusters_root.clusters -%}
+    {%- if c.related_challenges contains current_challenge -%}
+      {%- assign matched = matched | push: c -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- if matched.size > 0 -%}
+<section class="content-card prior-art-related" aria-labelledby="prior-art-related-heading">
+  <h2 id="prior-art-related-heading">Related approaches and prior art</h2>
+  <p class="muted-note">Bibliography clusters whose prior art bears on this {{ page.type | default: "page" | downcase }}. Each cluster links to its representative references and to the broader Deep Comparison briefing.</p>
+  <ul class="prior-art-related-list" role="list">
+    {%- for c in matched -%}
+    <li class="prior-art-related-item">
+      <a class="prior-art-related-link" href="{{ '/bibliography/prior-art/' | append: c.cluster_key | append: '/' | relative_url }}">
+        <p class="prior-art-related-eyebrow"><code>{{ c.cluster_id }}</code></p>
+        <h3 class="prior-art-related-title">{{ c.title }}</h3>
+        <p class="prior-art-related-counts">
+          <span><strong>{{ c.references.size }}</strong> representative references</span>
+          {%- if c.related_challenges.size > 0 -%}
+          <span><strong>{{ c.related_challenges.size }}</strong> SCL challenge edges</span>
+          {%- endif -%}
+        </p>
+        {%- if c.references.size > 0 -%}
+        <p class="prior-art-related-refs">
+          {%- for bib_key in c.references limit:5 -%}
+          <code class="prior-art-related-ref-chip">{{ bib_key }}</code>
+          {%- endfor -%}
+          {%- if c.references.size > 5 -%}
+          <span class="prior-art-related-ref-more">+{{ c.references.size | minus: 5 }} more</span>
+          {%- endif -%}
+        </p>
+        {%- endif -%}
+        <span class="prior-art-related-cta">Open cluster →</span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  <p class="muted-note prior-art-related-footer">Source: <a href="{{ '/bibliography/prior-art/' | relative_url }}">prior-art cluster index</a> · canonical data lives in <code>corpus/data/bibliography/prior-art-clusters.yml</code></p>
+</section>
+{%- endif -%}
