@@ -8,7 +8,7 @@ type: "Homepage"
 status: "Canonical"
 summary_short: "An open research program for a coherent theory of reality."
 hero_line: "The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality."
-hero_body: "It is published as a public research observatory: Discover for orientation, Program for identity, Agenda for obligations, Corpus for construction, Results for consequences, Verify for inspection, Impact for conditional relevance, and Engage for open scrutiny."
+hero_body: "The work spans foundational mathematics, physics, the categorical structure of life processes, and the philosophy of mind — developed as one unified construction. It is published as an inspectable public research observatory: readable, challengeable, and correctable before asking anyone to believe it."
 hero_ctas:
   - label: "Start with Discover"
     url: /discover/
@@ -19,16 +19,16 @@ hero_ctas:
     url: /results/
   - label: "Verify It Yourself"
     url: /verify/
-hero_supporting_line: "Static, inspectable, Pagefind-searchable, and organized around the v4 public research spine."
-og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
-twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
-og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Discover, Program, Agenda, Corpus, Results, Verify, Impact, and Engage."
+hero_supporting_line: "Engagement without endorsement: read carefully, inspect the claims, challenge weak links, find errors."
+og_image: /assets/images/plates/plate-20-panta-rhei-at-a-glance-og.jpg
+twitter_image: /assets/images/plates/plate-20-panta-rhei-at-a-glance-og.jpg
+og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a glance as an inspectable research engine with Discover, Program, Corpus, Results, Verify, Publications, Impact, and Engage."
 ---
 
 <section class="content-card homepage-section">
   <p class="v2-kicker">The research observatory at a glance</p>
-  <h2>The public research observatory</h2>
-  {% include scientific-plate.html id="plate-01-public-research-observatory" class="scientific-plate--hero" loading="eager" %}
+  <h2>Panta Rhei at a glance</h2>
+  {% include scientific-plate.html id="plate-20-panta-rhei-at-a-glance" class="scientific-plate--hero scientific-plate--at-a-glance" loading="eager" %}
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/discover/' | relative_url }}">Start with Discover</a>
     <a class="btn-ghost" href="{{ '/corpus/' | relative_url }}">Explore the Corpus</a>
@@ -175,4 +175,9 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
     <a class="btn-ghost" href="{{ '/publications/errata/' | relative_url }}">Errata</a>
     <a class="btn-ghost" href="{{ '/cite/' | relative_url }}">Cite</a>
   </div>
+</section>
+
+<section class="content-card homepage-section">
+  <p class="v2-kicker">Stay in inspection range</p>
+  {% include buttondown-subscribe.html tag="homepage" heading="Receive publication notifications" body="Get new Panta Rhei publication releases by email when dated artifacts are added — research notes, monograph supplements, white papers, and release manifests. Notifications are sent irregularly and only when there is something substantial to record." %}
 </section>
