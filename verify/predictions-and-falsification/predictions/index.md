@@ -51,9 +51,9 @@ Every public prediction in the program references a Corpus registry object via i
 
 | Layer | Field | Coverage |
 |---|---|---|
-| Prediction page (`/predictions/{slug}/`) | `registry_id:` | 67 / 67 predictions carry a `registry_id` |
-| Registry object (`/registry/object/{id}/`) | `lean_module:` + `lean_name:` | 57 / 57 unique referenced registry objects carry both fields |
-| TauLib (`github.com/Panta-Rhei-Research/taulib`) | Lean theorem | All `lean_name` identifiers resolve in the pinned release manifest |
+| Prediction page (`/predictions/{slug}/`) | `registry_id:` | every public prediction carries a `registry_id` ({% include release-metric.html id="predictions.records" %} total predictions, all linked) |
+| Registry object (`/registry/object/{id}/`) | `lean_module:` + `lean_name:` | every referenced registry object carries both fields |
+| TauLib (`github.com/Panta-Rhei-Research/taulib`) | Lean theorem | all `lean_name` identifiers resolve in the pinned release manifest |
 
 The chain is **transitive** (prediction → registry → Lean), not direct (prediction → Lean) — by design. The Corpus registry is the canonical naming layer; predictions are the empirical-projection layer; TauLib is the formal-evidence layer. Linking predictions directly to Lean would couple two layers that should remain independently revisable.
 
