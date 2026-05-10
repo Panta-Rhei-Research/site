@@ -6,7 +6,10 @@ lane: program
 v2_lane: program
 section: about-the-program
 permalink: /program/about/founders/
-summary_short: "Founders and current stewards of the Panta Rhei Research Program."
+summary_short: "Anna-Sophie Fuchs and Thorsten Fuchs — founders and current stewards of the Panta Rhei Research Program. An independent open research program, published as an inspectable public observatory."
+og_image: /assets/og/png/program__about__founders.png
+twitter_image: /assets/og/png/program__about__founders.png
+og_image_alt: "Panta Rhei preview card for Founders, with the Lucide fox-face-tail mark as a soft accent on the dark observatory background; eyebrow reads PROGRAM · ABOUT · FOUNDERS, body names Anna-Sophie Fuchs and Thorsten Fuchs."
 summary_cards:
   - title: "Independent by choice"
     body: "Anna-Sophie Fuchs and Thorsten Fuchs initiated and built the Panta Rhei Research Program as an independent open research program. There is no institutional sponsor and no funder, and no funder to disclose because there is no funder."
@@ -39,9 +42,11 @@ The program should be read through its public artifacts: the seven-book monograp
 <a href="https://www.linkedin.com/in/thorfuchs/" target="_blank" rel="noopener" class="profile-link">LinkedIn</a>
 <a href="https://mastodon.social/@thorfuchs" target="_blank" rel="me noopener" class="profile-link">Mastodon</a>
 
-**Dr. Thorsten Fuchs** holds a doctorate in mathematics; an earlier career in technology leadership at McKinsey & Company and Microsoft Germany was the parallel track during the years the research moved into the background and waited.
+**Dr. Thorsten Fuchs** studied pure mathematics — graduate work in algebraic structures — before spending many years in technology and business leadership at McKinsey & Company and, later, leading the Office Business Group at Microsoft Germany. Mathematics did not disappear during those years; it moved into the background and waited.
 
-In Panta Rhei he leads the formal and architectural side of the program. The work spans the τ-kernel — five generators, one progression operator, and the K0–K6 structural commitments that anchor it — through to the seven-book monograph series and its formal companion. **TauLib**, the Lean 4 formalization library, currently ships {% include release-metric.html id="taulib.modules" %} modules and {% include release-metric.html id="taulib.lines" %} lines, certifying {% include release-metric.html id="taulib.theorems_lemmas" %} theorems and lemmas with {% include release-metric.html id="taulib.sorry" %} `sorry` across the seven books and {% include release-metric.html id="taulib.custom_axioms" %} disclosed custom axioms (one of which is a Grand Riemann Hypothesis-class conjecture imported as a Book III spectral bridge; results conditional on it are flagged on each Result page). The eight foundational hinge papers (H1–H8), the [Master Constant ι<sub>τ</sub>](/corpus/foundational-hinges/master-constant-iota-tau/) and its falsification hinge, the calibration cascade for the {% include release-metric.html id="predictions.records" %} pre-registered predictions, the [Construction Spine](/corpus/construction-spine/) of CS-01 through CS-10, and the [Release Manifest](/verify/release-manifest/) discipline that pins each release to a specific TauLib commit and Mathlib revision are all his architectural authorship.
+What brought him back was not nostalgia for abstraction, but a question he could not let go of: *what if reality is more deeply coherent than it first appears?*
+
+In Panta Rhei he leads the formal and architectural side of that question — the kernel, the proofs, the inter-book structure, and the formal layer that accompanies the series through TauLib. The work spans the τ-kernel — five generators, one progression operator, and the K0–K6 structural commitments that anchor it — through to the seven-book monograph series and its formal companion. **TauLib**, the Lean 4 formalization library, currently ships {% include release-metric.html id="taulib.modules" %} modules and {% include release-metric.html id="taulib.lines" %} lines, certifying {% include release-metric.html id="taulib.theorems_lemmas" %} theorems and lemmas with {% include release-metric.html id="taulib.sorry" %} `sorry` across the seven books and {% include release-metric.html id="taulib.custom_axioms" %} disclosed custom axioms (one of which is a Grand Riemann Hypothesis-class conjecture imported as a Book III spectral bridge; results conditional on it are flagged on each Result page). The eight foundational hinge papers (H1–H8), the [Master Constant ι<sub>τ</sub>](/corpus/foundational-hinges/master-constant-iota-tau/) and its falsification hinge, the calibration cascade for the {% include release-metric.html id="predictions.records" %} pre-registered predictions, the [Construction Spine](/corpus/construction-spine/) of CS-01 through CS-10, and the [Release Manifest](/verify/release-manifest/) discipline that pins each release to a specific TauLib commit and Mathlib revision are all his architectural authorship.
 
 He presents the work not as a finished final word, but as a research architecture published for scrutiny on its own terms.
 
@@ -51,17 +56,21 @@ He presents the work not as a finished final word, but as a research architectur
 
 **Anna-Sophie Fuchs** trained as an underwater archaeologist. Her work taught her how to excavate layered structures patiently, document fragile connections, and reconstruct wholes from buried fragments. Those habits transferred unexpectedly well into a long-form research architecture.
 
-In Panta Rhei she carries the structural mapping of the seven-book corpus, the editorial discipline that keeps language and scope honest, and the cross-book coherence that holds {% include release-metric.html id="corpus.monograph_chapters" %} chapters across {% include release-metric.html id="corpus.monograph_parts" %} monograph parts together as one program rather than seven separate books. She is the collaboration's first skeptical reader, pressing every large claim to justify not only its ambition but also its language, scope, tone, and relation to actual readers — and she co-stewards the public observatory's editorial discipline, the assessment protocols at the inspection layer, and the engagement surfaces through which the program receives critique and correction.
+In Panta Rhei she brings structural mapping, editorial discipline, and the human questions that keep the project oriented toward lived reality. Where Thorsten tends to see algebraic architecture, Anna-Sophie sees what that architecture must still answer for actual readers. She carries the cross-book coherence that holds {% include release-metric.html id="corpus.monograph_chapters" %} chapters across {% include release-metric.html id="corpus.monograph_parts" %} monograph parts together as one program rather than seven separate books, and she is the collaboration's first skeptical reader, pressing every large claim to justify not only its ambition but also its language, scope, tone, and relation to actual readers. She co-stewards the public observatory's editorial discipline, the assessment protocols at the inspection layer, and the engagement surfaces through which the program receives critique and correction.
 
 ## Together
 
-Together, Anna-Sophie and Thorsten built **Panta Rhei** as one coherent research program rather than as a loose group of books or papers. The seven-book series is the current canonical monograph release. The program itself also includes this website, TauLib, the public registry, the guided tours, the verification companions, and the broader publication, verification, assessment, and engagement surfaces through which the work is made public.
+Together, Anna-Sophie and Thorsten built **Panta Rhei** as one coherent seven-book architecture rather than as seven separate books. The seven-book series is the current canonical monograph release; the program itself also includes this website, TauLib, the public registry, the guided tours, the verification companions, and the broader publication, verification, assessment, and engagement surfaces through which the work is made public.
+
+The second edition follows a dual-track ethos of verification and scrutiny: the formal layer is accompanied by Lean 4 work through the TauLib library, while the books themselves aim to state their scope, bridges, and limits as clearly as possible. The result is a seven-book arc through mathematics, physics, life, and metaphysics, culminating in the final self-enrichment where proof reaches the boundary of commitment.
 
 Their shared discipline can be stated simply:
 
 **First earn the language, then earn the question, then earn the answer.**
 
-For the public doctrine behind that discipline, see [What We Mean by a Coherent Theory of Reality](/program/about/coherent-theory-of-reality/) and the program's voice posture in [Independence, Scope & Scrutiny](/program/about/independence-scope-and-scrutiny/).
+That discipline shapes not only the mathematics, but the way the project presents itself to others. For the public doctrine behind it, see [What We Mean by a Coherent Theory of Reality](/program/about/coherent-theory-of-reality/) and the program's voice posture in [Independence, Scope & Scrutiny](/program/about/independence-scope-and-scrutiny/).
+
+They live near Munich with their family.
 
 ## Independent by choice — open to peer review on the program's terms
 
