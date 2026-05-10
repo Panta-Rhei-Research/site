@@ -95,6 +95,13 @@ layout: default
 </section>
 {% endif %}
 
+{%- comment -%}
+  Prior-art clusters auto-detected by challenge_id (or via explicit page.prior_art_refs
+  override). Renders only when at least one cluster's related_challenges contains
+  page.challenge_id. Source: corpus/data/bibliography/prior-art-clusters.yml.
+{%- endcomment -%}
+{% include prior-art/related-clusters.html %}
+
 {% if page.cross_domain_links.size > 0 %}
 <section class="content-card" aria-labelledby="sc-cross-heading">
   <h2 id="sc-cross-heading">Cross-domain links</h2>

@@ -114,6 +114,14 @@ layout: default
 </section>
 {% endif %}
 
+{%- comment -%}
+  Prior-art clusters auto-detected by structural_challenge_id (or via explicit
+  page.prior_art_refs override). Renders only when at least one cluster's
+  related_challenges contains the challenge_id. Source: corpus/data/bibliography/
+  prior-art-clusters.yml.
+{%- endcomment -%}
+{% include prior-art/related-clusters.html %}
+
 <section class="content-card" aria-labelledby="cr-disclaimer-heading">
   <h2 id="cr-disclaimer-heading">Status disclaimer</h2>
   <p class="muted-note" style="font-size: 0.9rem;">
