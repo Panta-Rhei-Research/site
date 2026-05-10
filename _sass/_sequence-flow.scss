@@ -1,9 +1,25 @@
 // ================================================================
 // Compact Sequence Flows
 // ================================================================
+//
+// Note (2026-05-10): the legacy `.v2-system-row` parent and the
+// shared `.v2-system-node` styling that lived here as a comma-list
+// have been removed. `.v2-system-node` is the strip-grid card used
+// by `.v2-system-strip` (homepage + discover + verify + corpus +
+// results + program — see _sass/_components.scss line 741) and
+// renders as a stacked-block card with `<strong>` lane label on top.
+// The pill-style sequence-flow rules collided with that — under the
+// `_sass/main.scss` import order, sequence-flow loads after
+// components, so its `display: inline-flex; text-align: center;
+// overflow-wrap: anywhere` was winning on every strip card and
+// squeezing the lane label into a 1-character min-content column,
+// rendering "Agenda" / "Kernel" / etc. as vertical letter stacks.
+//
+// `.v2-system-row` was dead code (no markup ever referenced it
+// outside this file). Removing it from the comma-list decouples the
+// sequence-flow pill aesthetic from the strip-grid card aesthetic.
 
-.sequence-flow,
-.v2-system-row {
+.sequence-flow {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -22,8 +38,7 @@
   max-width: 100%;
 }
 
-.sequence-flow__node,
-.v2-system-node {
+.sequence-flow__node {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -45,9 +60,7 @@
 }
 
 a.sequence-flow__node:hover,
-a.sequence-flow__node:focus-visible,
-a.v2-system-node:hover,
-a.v2-system-node:focus-visible {
+a.sequence-flow__node:focus-visible {
   color: var(--panta-blue-900);
   border-color: rgba(22, 62, 100, 0.28);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(232, 240, 246, 0.86));
@@ -67,8 +80,7 @@ a.v2-system-node:focus-visible {
   line-height: 1.28;
 }
 
-.sequence-flow__arrow,
-.v2-system-arrow {
+.sequence-flow__arrow {
   color: var(--panta-blue-700);
   font-family: var(--font-mono);
   font-size: 0.82rem;
@@ -91,8 +103,7 @@ a.v2-system-node:focus-visible {
 }
 
 @media (max-width: 620px) {
-  .sequence-flow,
-  .v2-system-row {
+  .sequence-flow {
     gap: 7px 6px;
   }
 
@@ -101,15 +112,13 @@ a.v2-system-node:focus-visible {
     gap: 6px;
   }
 
-  .sequence-flow__node,
-  .v2-system-node {
+  .sequence-flow__node {
     min-height: 32px;
     padding: 6px 8px;
     font-size: 0.74rem;
   }
 
-  .sequence-flow__arrow,
-  .v2-system-arrow {
+  .sequence-flow__arrow {
     font-size: 0.76rem;
   }
 }
