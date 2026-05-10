@@ -6,14 +6,18 @@
 # implementation for the current setup lives in workers/site-edge-headers.js.
 # Keep the two policies aligned if either file changes.
 #
-# Pagefind + main CSS use build-time cache-bust query strings (?v=epoch),
-# so 1-year max-age is safe — the URL changes on every deploy.
+# /assets/css/*.css and /assets/js/*.js are content-fingerprinted at build
+# time (filename embeds a SHA-256 prefix; see _plugins/asset_fingerprint.rb).
+# That makes the long-lived `immutable` lifetime safe — every CSS/JS change
+# produces a new URL, so browsers and edge caches refresh on the next page
+# load without manual purge. Pagefind UI is not fingerprinted by us; it uses
+# `?v=<build-epoch>` query strings emitted from _includes/head.html.
 
 # Immutable hashed assets (fonts, images, favicons, webmanifest)
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 
-# Build-output CSS/JS with cache-bust query strings
+# Fingerprinted CSS bundle (main.<hash>.css)
 /assets/css/*
   Cache-Control: public, max-age=31536000, immutable
 
