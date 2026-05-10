@@ -67,7 +67,7 @@
           "what_is_finite_checked": "For all τ-admissible spectral data up to a stated finite (n, k) bound (currently k ≤ 15), the functor's structure-preserving behaviour and the spectral-purity translation have been verified via native_decide. The trichotomy (III.T18) classifications match for all bounded configurations.",
           "what_is_axiomatized": "The universal extension: the functor B exists and preserves spectral purity for all τ-admissible data, not just the finite-check window.",
           "what_closes_the_gap": "A constructive proof of the functor's existence for unbounded (n, k), or a rigorous obstruction argument that the finite-check must extend. Active research.",
-          "load_bearing_for": "The Master Schema (III.T27) — the bridge between τ-internal Riemann Hypothesis results and the classical Clay statement — depends on this axiom. Classical-RH claims are marked Partial on the site, not internally addressed. The τ-internal Critical Line Theorem (III.T19) is preserved under retraction; the classical bridge falls.",
+          "load_bearing_for": "The Master Schema (III.T23) — the bridge between τ-internal Riemann Hypothesis results and the classical Clay statement — depends on this axiom. Classical-RH claims are marked Partial on the site, not internally addressed. The τ-internal Critical Line Theorem (III.T19) is preserved under retraction; the classical bridge falls.",
           "mathlib_bridge": "Mathlib does not have τ-categorical L-functions; the bridge functor's existence is the framework's commitment to such a bridge being possible. The Mathlib counterpart is the L-function theory in `Mathlib.NumberTheory.LSeries`, which the functor would land in."
         },
         "lean": {

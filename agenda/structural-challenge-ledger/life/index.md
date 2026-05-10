@@ -50,9 +50,11 @@ A challenge enters the canonical ledger only if it tests a declared E₂ obligat
 | **Evolution, morphology, tree** | LIFE-SC-17..24 | LUCA and tree-of-life topology; three-domain sector taxonomy and eukaryogenesis; major evolutionary transitions and multicellularity; open-ended evolution and evolvability; sexual reproduction; morphogenesis, body plans, and organ-size control; biological time and rhythms; ageing, senescence, and repair budget. |
 | **Ecology, cognition, bridge** | LIFE-SC-25..29 | Ecosystems, superorganisms, and Life basins; agency, cognition, and decision-making; neural computation, perception, learning, and memory; consciousness, language, and life-mind bridge; cosmic life and non-organism carriers. |
 
-## Build status
+## Active construction
 
-This is a **Wave 1 stub**. Item content lives in `corpus/structural-challenge-ledger/items/life/` and is populated in **Wave 4**.
+This domain ledger is in active construction. The five-cluster curation and the E₂ obligations that gate canonical entry are settled; detailed per-challenge items will appear on this page as the construction spine reaches each cluster.
+
+For the program-wide framework, see the [Structural Challenge Ledger overview]({{ '/agenda/structural-challenge-ledger/' | relative_url }}). For τ's life-side results, see the [Life results hub]({{ '/results/life/' | relative_url }}) and the [Life world readout]({{ '/results/world-readout/life/' | relative_url }}).
 
 ## What this ledger does not claim
 

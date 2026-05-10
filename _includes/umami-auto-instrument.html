@@ -1,0 +1,130 @@
+{%- comment -%}
+  Auto-instruments tile-grid and recurring-CTA surfaces with Umami event
+  attributes at runtime, for elements that the layout / markdown body did
+  not wire explicitly.
+
+  Why a runtime instrumentation pass (rather than only inline data-umami-event
+  attributes): the v2-tile lane-grids appear in 80+ markdown files as raw
+  HTML anchors. Inline editing each one is slow and drift-prone. Umami reads
+  data-umami-event* attributes at click time, so setting them via JS at
+  page-ready is equivalent to having them in the source HTML — and it covers
+  every current and future tile uniformly.
+
+  Surfaces auto-instrumented:
+    - <a class="v2-tile">                                → nav.tile.{destination-slug}
+    - <a class="explore-card">                           → nav.card.{destination-slug}
+    - aside.right-rail a.artifact-link                   → nav.rail.{destination-slug}
+    - .section-ctas / .homepage-section .btn-group anchors
+      (.btn-primary | .btn-secondary | .btn-ghost),
+      excluding .hero-card                               → cta.section.{destination-slug}
+
+  Naming derivation:
+    destination-slug = anchor.pathname stripped of leading/trailing "/",
+    segments joined with "-", truncated to ≤30 chars.
+    Example: "/results/predictions/browse/" → "results-predictions-browse".
+    "/" → "home". Off-site / fragment-only links are skipped.
+
+  Location attribution:
+    data-umami-event-location = current page's pathname slugified the same way
+    Example: a tile on /results/ pointing to /results/predictions/ emits
+      data-umami-event="nav.tile.results-predictions"
+      data-umami-event-location="results"
+
+  Skip rules:
+    - Anchor already has data-umami-event set (inline / via cta-attrs.html) — leave it.
+    - href is empty, "#", "javascript:", "mailto:", "tel:".
+    - href is fully external (host !== current host) — outbound vendors are
+      handled by cta-attrs.html where it's wired; out-of-scope tiles are rare.
+
+  Doctrine: atlas/website/doctrine/umami-events.md (verb: nav, objects: tile|card|section).
+
+  ≤50-char event name limit is enforced via slice + truncation in JS.
+{%- endcomment -%}
+<script>
+(function () {
+  'use strict';
+
+  function pathSlug(path) {
+    if (!path || path === '/') return 'home';
+    var parts = path.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean);
+    if (!parts.length) return 'home';
+    var slug = parts.join('-').toLowerCase().replace(/[^a-z0-9-]/g, '');
+    return slug.slice(0, 30);
+  }
+
+  function instrument(selector, verb, object) {
+    var anchors = document.querySelectorAll(selector);
+    var pageLoc = pathSlug(window.location.pathname);
+    for (var i = 0; i < anchors.length; i++) {
+      var a = anchors[i];
+      if (a.hasAttribute('data-umami-event')) continue;
+      var href = a.getAttribute('href') || '';
+      if (!href || href === '#' || href.charAt(0) === '#') continue;
+      if (/^(javascript:|mailto:|tel:)/i.test(href)) continue;
+      // Skip cross-host externals: cta-attrs.html owns those.
+      try {
+        var url = new URL(a.href, window.location.origin);
+        if (url.host && url.host !== window.location.host) continue;
+        var dest = pathSlug(url.pathname);
+        if (!dest) continue;
+        var name = (verb + '.' + object + '.' + dest).slice(0, 50);
+        a.setAttribute('data-umami-event', name);
+        a.setAttribute('data-umami-event-location', pageLoc);
+        a.setAttribute('data-umami-event-type', 'internal');
+      } catch (e) { /* malformed URL — skip silently */ }
+    }
+  }
+
+  function instrumentSectionCtas() {
+    // Section CTAs: btn-secondary / btn-ghost / btn-primary inside body
+    // content sections, but NOT inside .hero-card (hero CTAs are wired
+    // via cta-attrs.html in homepage.html / program-doc.html layouts).
+    var selectors = [
+      '.homepage-section .btn-group a.btn-primary',
+      '.homepage-section .btn-group a.btn-secondary',
+      '.homepage-section .btn-group a.btn-ghost',
+      '.section-ctas a.btn-primary',
+      '.section-ctas a.btn-secondary',
+      '.section-ctas a.btn-ghost'
+    ];
+    var anchors = document.querySelectorAll(selectors.join(', '));
+    var pageLoc = pathSlug(window.location.pathname);
+    for (var i = 0; i < anchors.length; i++) {
+      var a = anchors[i];
+      if (a.hasAttribute('data-umami-event')) continue;
+      // Skip if inside a hero card — hero CTAs go through cta-attrs.html.
+      if (a.closest('.hero-card')) continue;
+      var href = a.getAttribute('href') || '';
+      if (!href || href === '#' || href.charAt(0) === '#') continue;
+      if (/^(javascript:|mailto:|tel:)/i.test(href)) continue;
+      try {
+        var url = new URL(a.href, window.location.origin);
+        if (url.host && url.host !== window.location.host) continue;
+        var dest = pathSlug(url.pathname);
+        if (!dest) continue;
+        var name = ('cta.section.' + dest).slice(0, 50);
+        a.setAttribute('data-umami-event', name);
+        a.setAttribute('data-umami-event-location', pageLoc);
+        a.setAttribute('data-umami-event-type', 'internal');
+      } catch (e) { /* malformed URL — skip silently */ }
+    }
+  }
+
+  function run() {
+    instrument('a.v2-tile', 'nav', 'tile');
+    instrument('a.explore-card', 'nav', 'card');
+    // Right-rail Related / Artifacts / Registry / TauLib / Books / Results /
+    // Verify / Publications metadata cross-links. The right-rail-feedback
+    // Share / Feedback links already carry explicit data-umami-event and
+    // are skipped by the "already wired" check inside instrument().
+    instrument('aside.right-rail a.artifact-link', 'nav', 'rail');
+    instrumentSectionCtas();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run);
+  } else {
+    run();
+  }
+})();
+</script>

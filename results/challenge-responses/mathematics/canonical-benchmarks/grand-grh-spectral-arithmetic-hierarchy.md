@@ -12,6 +12,7 @@ domain_slug: mathematics
 display_domain: Mathematics
 cluster: canonical-benchmarks
 challenge_family: canonical_benchmark
+axiom_dependency: grand_grh_adelic
 structural_challenge_id: CB-GRAND-GRH
 challenge_slug: grand-grh-spectral-arithmetic-hierarchy
 challenge_url: /agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/grand-grh-spectral-arithmetic-hierarchy/

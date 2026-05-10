@@ -40,7 +40,7 @@ do_not_edit: true
 
 ## Overview
 
-V.T54 establishes that the electron mass m_e = 0.510998937 MeV can be derived from a 10-link chain starting at the axioms K0–K6. The derivation passes through ι<sub>τ</sub>, the sector couplings, the mass ratio formula, and ultimately reaches the electron mass with 0.025 ppm agreement with CODATA — the highest precision of any mass prediction in the framework. The single calibration anchor is m_n (neutron mass); no other experimental input is used.
+V.T54 establishes that the electron mass m_e = 0.510998937 MeV can be derived from a 10-link chain starting at the axioms K0–K6. The derivation passes through ι<sub>τ</sub>, the sector couplings, the mass ratio formula, and ultimately reaches the electron mass with 0.025 ppm agreement with CODATA — the highest precision of any mass prediction in the framework. The single calibration anchor is m_n (neutron mass); no other experimental input is used. The chain consumes α (the fine-structure constant) as an upstream intermediate, but α is itself kernel-derived from ι<sub>τ</sub> alone (`α = (11/15)²·ι<sub>τ</sub>⁴` at LO; full multi-loop via IV.T107) — so the m_e derivation is acyclic on the kernel, not circular.
 
 ## Detail
 
