@@ -12,6 +12,7 @@ domain_slug: mathematics
 display_domain: Mathematics
 cluster: canonical-benchmarks
 challenge_family: canonical_benchmark
+axiom_dependency: bridge_functor_exists
 structural_challenge_id: CB-RIEMANN
 challenge_slug: riemann-hypothesis
 challenge_url: /agenda/structural-challenge-ledger/mathematics/canonical-benchmarks/riemann-hypothesis/
