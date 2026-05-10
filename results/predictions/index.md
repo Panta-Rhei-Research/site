@@ -30,6 +30,8 @@ Predictions carry Corpus Wave 2 metadata along two separate axes:
 
 These tiers describe internal readout sharpness. They are distinct from public **status grammar** (Internally addressed / Partial / Qualitative / Contradicted / Not addressed), formal verification state, and external acceptance.
 
+<div class="notice warn"><strong>Reading the tiers honestly.</strong> A Tier-A or sub-10-ppm label means "structural derivation present in the kernel chain" — <em>not</em> "agreement at the precision of the experimental measurement." Two Tier-A predictions with very different agreement levels can sit side by side in the catalogue. For example: the fine-structure constant α is one of the most precisely measured quantities in physics (relative precision ≈ 10<sup>−10</sup>); our derivation α = (11/15)<sup>2</sup>·ι<sub>τ</sub><sup>4</sup> reproduces the CODATA central value to ~9.8 ppm — many orders of magnitude looser than the measurement. The electron mass m<sub>e</sub>, derived via the kernel-anchored cascade with the neutron mass as the dimensional anchor, agrees to ~0.025 ppm. Both are Tier-A. Both are honest derivations; only one is at measurement precision. Always open the per-prediction page to read the precision band, the dimensional-anchor chain, and the comparator-vintage details before treating any single tier badge as endorsement of measurement-level agreement. See also question 11 in the <a href="{{ '/program/about/red-team-faq/' | relative_url }}">Red-team FAQ</a> for the full discussion. We are reviewing whether to add a per-row precision-band column to the browse grid.</div>
+
 ## Where to go
 
 <div class="v2-grid">

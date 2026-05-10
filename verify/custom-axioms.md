@@ -29,6 +29,15 @@ The [Release Manifest]({{ '/verify/release-manifest/' | relative_url }}) states,
 
 The question a serious reviewer asks — and the April 2026 external assessments asked it explicitly — is: *for each custom axiom, what is the justification? Is this honest "compute-then-axiomatize" or is it a hidden load-bearing assumption dressed up as a universal statement?*
 
+## Registry "Axiom · 7" vs Lean "axiom: 3" — what the difference means
+
+A reviewer browsing the [Corpus Registry]({{ '/corpus/registry/' | relative_url }}) will see the type filter `Axiom · 7`. A reviewer running `rg "^axiom " TauLib` against the pinned commit will see exactly **3** matches. The numbers are not in conflict; they count two different things:
+
+- **The Lean kernel sense (count: 3)** — only declarations that begin with the keyword `axiom` in TauLib source. These are what `#print axioms` propagates into the trusted base of any theorem that depends on them. The 3 are `bridge_functor_exists`, `spectral_correspondence_O3`, and `grand_grh_adelic`, all in Book III. This is the count that matters for trusted-computing-base hygiene.
+- **The Registry "axiom-class" sense (count: 7)** — Corpus-level *typed claim entries* in the Axiom collection, which include the 3 Lean axioms above **plus 4 additional postulate-shaped entries** that are formalized as `def`, `structure`, `instance`, or `Commitment` declarations rather than as Lean `axiom`s. These 4 are Corpus claim records about kernel-level commitments (e.g. existence-of-structure postulates, the four `Commitment` declarations in Book VII that replaced earlier `: True := sorry` placeholders, and one structure-shape declaration). They are *not* Lean axioms; they do not propagate through `#print axioms`. They appear in the Registry's Axiom collection because the Corpus typology classifies them as axiom-class commitments at the prose level, not because the Lean kernel treats them that way.
+
+**Reviewer takeaway.** For trust-boundary purposes (what does Lean force you to accept on faith?), the canonical number is **3**. The Registry's 7 is the broader inventory of "things the Corpus declares without proof" — useful for editorial accountability but not equivalent to the Lean trusted base. We are reviewing whether to rename or split the Registry collection to make this distinction visible at the index level rather than only here.
+
 ## What "compute-then-axiomatize" means in TauLib
 
 The pattern is:
@@ -70,6 +79,28 @@ Expected output lists:
 - **Plus, if T transitively depends on a custom axiom**, the custom axiom's name.
 
 This is the diagnostic. A theorem claimed as "Internally addressed" that transitively depends on one of the three custom axioms should carry a scope label reflecting that dependency. The [Formal Methods audit route]({{ '/verify/how-to-verify-by-role/formal-methods/' | relative_url }}) names this as one of the fail-fast checks.
+
+## Headline-theorem axiom-dependency map
+
+The table below summarises which custom axioms each headline theorem transitively depends on at the pinned commit. **A reviewer should still run `#print axioms` locally to verify** — this table is the program's own published claim about the dependency structure and is exactly what an audit would falsify or confirm. Theorems with no custom-axiom dependency are flagged "kernel-only" — they propagate only Mathlib's trusted base (`Classical.choice`, `propext`, `Quot.sound`) and, where `native_decide` is invoked, the standard `Lean.ofReduceBool` + `Lean.trustCompiler` extension documented on the [TCB Disclosure]({{ '/verify/tcb/' | relative_url }}).
+
+| Headline theorem | Lean identifier | `bridge_functor_exists` | `spectral_correspondence_O3` | `grand_grh_adelic` | Site status |
+|---|---|---|---|---|---|
+| Central Theorem 𝒪(τ³) ≅ A_spec(𝕃) | `central_theorem_3_15` | — | — | — | Internally addressed |
+| Rigidity Aut(τ) = {id} | `rigidity_non_omega` | — | — | — | Internally addressed |
+| Categoricity (kernel admits one model up to iso) | `categoricity_non_omega` | — | — | — | Internally addressed |
+| Generation count = 3 | `gen_count_three` | — | — | — | Internally addressed |
+| Critical Line Theorem (τ-internal ζ-purity) | `III.T19` | — | — | — | Internally addressed |
+| Master Schema → classical RH bridge | `III.T27` | ✓ | — | — | **Partial** |
+| Higher-order Millennium reformulations | (Book III dictionary extensions) | — | ✓ | — | **Partial** |
+| Grand GRH for higher-rank automorphic L | (Book III adelic extensions) | — | (transitively) | ✓ | **Partial** |
+| Modal-S4 internal logic | `modal_S4_theorem` | — | — | — | Internally addressed |
+
+**Reading the table.** A column entry "✓" means the theorem's `#print axioms` output should surface that custom axiom. A "—" means it should not — the theorem closes against the Mathlib trusted base alone (plus `native_decide` extension where present). The site's status grammar (Internally addressed vs Partial) correctly propagates the dependency: every Partial-status theorem above carries a custom-axiom dependency that's the reason for its Partial classification.
+
+**What an audit would establish.** Run `#print axioms <theorem-name>` for each row at the pinned commit. The set of custom axioms returned should match the ✓ marks above. Any mismatch is a finding the program wants to hear about (see also the [Formal Methods audit route]({{ '/verify/how-to-verify-by-role/formal-methods/' | relative_url }}) for the canonical reproducible protocol).
+
+**Why this map is in the FAQ rather than embedded as live Lean output.** The May 2026 self-assessment surfaced as a Tier-A formal-methods finding that the literal `#print axioms` output for headline theorems is not yet embedded on the public verify page. Embedding live output requires running the Lean toolchain in CI and pasting the result into the build; that's on the verify-lane polish backlog. Until then, the table above is the program's own published claim about the dependency structure — and it can be falsified by any reviewer in 10 minutes using the workflow above.
 
 <details class="deep-dive" markdown="1">
 <summary>Per-axiom technical detail — universal claim, finite-envelope check, what would close it (technical reviewer detail)</summary>
