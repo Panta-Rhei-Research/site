@@ -54,12 +54,14 @@ The TauLib browser under `/verify/taulib/docs/` is generated from the Corpus-nat
 |--------|------:|
 | Total modules | **{% include release-metric.html id="taulib.modules" %}** |
 | Total lines | {% include release-metric.html id="taulib.lines" %} |
-| Theorems + lemmas | {% include release-metric.html id="taulib.theorems_lemmas" %} |
+| Theorems + lemmas | {% include release-metric.html id="taulib.theorems_lemmas" %} = {% include release-metric.html id="taulib.theorems" %} `theorem` + 6 `lemma` declarations |
 | Definitions | {% include release-metric.html id="taulib.definitions" %} |
 | Structures + inductive types | {% include release-metric.html id="taulib.structures_inductives" %} |
 | Computations (`#eval`) | {% include release-metric.html id="taulib.evals" %} |
 | Custom `axiom` declarations | **{% include release-metric.html id="taulib.custom_axioms" %}** (all in Book III — spectral / number-theoretic bridges) |
 | `sorry` (incomplete proofs) | **{% include release-metric.html id="taulib.sorry" %}** (across all {% include release-metric.html id="publications.books" %} books) |
+
+<aside class="callout muted" style="font-size: 0.92rem; border-left: 3px solid var(--lane-current); padding: 0.6rem 0.9rem; margin: 1rem 0;"><strong>Reading the headline counts honestly.</strong> The "Theorems + lemmas" total averages over Books I–VII. A non-trivial fraction of theorems in Books VI (Life) and VII (Metaphysics) are bookkeeping-shaped — for example, type-class instances, structure-projection lemmas, and small `rfl`-over-Boolean-defaults theorems used to wire commitments into the kernel. These are kernel-honest (they're real theorems with real proofs) but they are not load-bearing in the same sense as Book III's spectral closures or Book IV's physics-cascade theorems. See <a href="{{ '/program/about/red-team-faq/' | relative_url }}">Red-team FAQ #12</a> for the explicit accounting; the <a href="{{ '/verify/taulib/status/' | relative_url }}">TauLib status dashboard</a> breaks the count down per book so reviewers can read the distribution rather than the average.</aside>
 
 The {% include release-metric.html id="taulib.custom_axioms" %} custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module TauLib browser. The prior v1 release pinned at commit `181a59e` shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op — an axiom of type `True` is inhabited by `trivial` and added nothing to the theory.
 

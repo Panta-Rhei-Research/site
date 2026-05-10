@@ -42,6 +42,31 @@ layout: default
 </section>
 {% endif %}
 
+{%- comment -%}
+  Inline axiom-dependency badge — surfaces the Lean custom-axiom on which this
+  response transitively depends, so a reviewer reading the CR page does not need
+  to navigate to /verify/custom-axioms/ to learn why the status is Partial.
+  Driven by `axiom_dependency` frontmatter on the CR page (single value or array).
+  Source-of-truth contract for the dependency mapping is /verify/custom-axioms/
+  itself; the frontmatter on each CR is a denormalised pointer for readers.
+{%- endcomment -%}
+{% if page.axiom_dependency %}
+<section class="content-card content-card-axiom-dep" aria-labelledby="cr-axiom-heading" style="border-left: 3px solid var(--lane-current);">
+  <h2 id="cr-axiom-heading">Custom axiom dependency</h2>
+  <p>This response transitively depends on the following Lean custom <code>axiom</code> declaration{% if page.axiom_dependency.size and page.axiom_dependency.size > 1 %}s{% endif %} — which is why its status is <strong>{{ page.response_status_label | default: "Partial" }}</strong> rather than Internally addressed:</p>
+  <ul class="meta-list" style="font-size: 0.92rem;">
+    {% if page.axiom_dependency.size %}
+      {% for ax in page.axiom_dependency %}
+        <li class="meta-item"><code>{{ ax }}</code></li>
+      {% endfor %}
+    {% else %}
+      <li class="meta-item"><code>{{ page.axiom_dependency }}</code></li>
+    {% endif %}
+  </ul>
+  <p class="muted-note">See the <a href="{{ '/verify/custom-axioms/' | relative_url }}">Custom Axiom Inventory</a> for the per-axiom justification, finite-check envelope, and what specialist review would close on each. The headline-theorem dependency map there shows which τ-internal results are kernel-clean and which transitively pick up custom-axiom dependencies.</p>
+</section>
+{% endif %}
+
 <section class="content-card" aria-labelledby="cr-evidence-heading">
   <h2 id="cr-evidence-heading">Evidence route</h2>
   {% if page.registry_items.size > 0 %}

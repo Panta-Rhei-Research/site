@@ -93,10 +93,33 @@ layout: default
           data-title="{{ pred.title_plain | default: pred.title | downcase | escape }}"
           data-precision-rank="{{ precision_rank }}">
         <a class="prediction-card-link" href="{{ pred.url | relative_url }}">
+          {%- comment -%}
+            Precision-tier chip — always render when precision_tier is set, with
+            a deterministic human-readable label fallback when precision_display
+            is empty. Per the May 2026 self-assessment Pass-2 finding (N-7), the
+            chip-precision badge was previously gated on precision_display and
+            so only ~3 of 67 cards rendered it. The fallback below derives a
+            label from the canonical tier enum so every card with a tier shows
+            the band visibly. Per the "Reading the tiers honestly" notice on
+            /results/predictions/, the chip means "structural derivation
+            present at this band" — not "agreement at measurement precision."
+          {%- endcomment -%}
+          {%- assign precision_label = pred.precision_display -%}
+          {%- if precision_label == nil or precision_label == "" -%}
+            {%- case pred.precision_tier -%}
+              {%- when "sub_10_ppm" -%}{%- assign precision_label = "sub-10 ppm" -%}
+              {%- when "sub-10-ppm" -%}{%- assign precision_label = "sub-10 ppm" -%}
+              {%- when "ppm_10_to_1000" -%}{%- assign precision_label = "10–1000 ppm" -%}
+              {%- when "10-1000-ppm" -%}{%- assign precision_label = "10–1000 ppm" -%}
+              {%- when "percent_1_to_5" -%}{%- assign precision_label = "1–5%" -%}
+              {%- when "1-5-percent" -%}{%- assign precision_label = "1–5%" -%}
+              {%- when "structural" -%}{%- assign precision_label = "structural" -%}
+            {%- endcase -%}
+          {%- endif -%}
           <div class="prediction-card-top">
             <span class="chip chip-small">{{ pred.domain_display }}</span>
-            {% if pred.precision_display and pred.precision_display != "" %}
-            <span class="chip chip-small chip-precision-{{ pred.precision_tier }}">{{ pred.precision_display }}</span>
+            {% if precision_label and precision_label != "" %}
+            <span class="chip chip-small chip-precision-{{ pred.precision_tier }}" title="Precision band: {{ precision_label }} (structural derivation present, not measurement-precision agreement — see /results/predictions/)">{{ precision_label }}</span>
             {% endif %}
             {% if pred.cascade_tier and pred.cascade_tier != "" %}
             <span class="chip chip-small chip-tier-{{ pred.cascade_tier | downcase }}" title="Cascade Tier {{ pred.cascade_tier }}">Tier {{ pred.cascade_tier }}</span>

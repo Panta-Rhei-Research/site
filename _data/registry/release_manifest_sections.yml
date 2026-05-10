@@ -65,12 +65,14 @@ sections:
     |--------|------:|
     | Total modules | **{% include release-metric.html id="taulib.modules" %}** |
     | Total lines | {% include release-metric.html id="taulib.lines" %} |
-    | Theorems + lemmas | {% include release-metric.html id="taulib.theorems_lemmas" %} |
+    | Theorems + lemmas | {% include release-metric.html id="taulib.theorems_lemmas" %} = {% include release-metric.html id="taulib.theorems" %} `theorem` + 6 `lemma` declarations |
     | Definitions | {% include release-metric.html id="taulib.definitions" %} |
     | Structures + inductive types | {% include release-metric.html id="taulib.structures_inductives" %} |
     | Computations (`#eval`) | {% include release-metric.html id="taulib.evals" %} |
     | Custom `axiom` declarations | **{% include release-metric.html id="taulib.custom_axioms" %}** (all in Book III — spectral / number-theoretic bridges) |
     | `sorry` (incomplete proofs) | **{% include release-metric.html id="taulib.sorry" %}** (across all {% include release-metric.html id="publications.books" %} books) |
+
+    <aside class="callout muted" style="font-size: 0.92rem; border-left: 3px solid var(--lane-current); padding: 0.6rem 0.9rem; margin: 1rem 0;"><strong>Reading the headline counts honestly.</strong> The "Theorems + lemmas" total averages over Books I–VII. A non-trivial fraction of theorems in Books VI (Life) and VII (Metaphysics) are bookkeeping-shaped — for example, type-class instances, structure-projection lemmas, and small `rfl`-over-Boolean-defaults theorems used to wire commitments into the kernel. These are kernel-honest (they're real theorems with real proofs) but they are not load-bearing in the same sense as Book III's spectral closures or Book IV's physics-cascade theorems. See <a href="{{ '/program/about/red-team-faq/' | relative_url }}">Red-team FAQ #12</a> for the explicit accounting; the <a href="{{ '/verify/taulib/status/' | relative_url }}">TauLib status dashboard</a> breaks the count down per book so reviewers can read the distribution rather than the average.</aside>
 
     The {% include release-metric.html id="taulib.custom_axioms" %} custom axioms sit outside Mathlib's trusted base and are specific to the τ-framework's internal construction; they are named and documented in the per-module TauLib browser. The prior v1 release pinned at commit `181a59e` shipped a fourth axiom `central_theorem_physical : True` in Book IV which was retired in `peer-review-fixes-v1` (2026-04-19) as a no-op — an axiom of type `True` is inhabited by `trivial` and added nothing to the theory.
 
@@ -127,7 +129,7 @@ sections:
     ## What this release does NOT claim
 
     - **Book VII is formalized at methodological depth.** The Lean corpus for Book VII contains 7 modules that include three `def : Commitment` values carrying structural-commitment data (statement, warrant, registry_id). Zero `sorry`. The Book VII formalization is scaffolded; the monograph's prose content is the primary substance.
-    - **The physics bridge is not proof-assistant-verified.** TauLib verifies the internal τ-framework mathematics; it does not verify that τ-internal statements correspond to the external physics they are interpreted as describing. The {% include release-metric.html id="predictions.records" %} predictions surfaced in [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) and documented in the [Numerical Physics Ledger]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}) are derived from the framework's algebraic structure; their agreement with experiment is empirical, not machine-checked.
+    - **The physics bridge is not proof-assistant-verified.** TauLib verifies the internal τ-framework mathematics; it does not verify that τ-internal statements correspond to the external physics they are interpreted as describing. The {% include release-metric.html id="predictions.records" %} predictions surfaced in [Predictions Browse]({{ '/results/predictions/browse/' | relative_url }}) and documented in the [Numerical Prediction Supplement]({{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}) are derived from the framework's algebraic structure; their agreement with experiment is empirical, not machine-checked.
     - **Millennium resolutions are not Clay-valid formulations.** Only the Poincaré conjecture aligns with the Clay statement as solved (via Perelman's proof, re-read in τ-language). The other six Millennium claims are τ-internal formulations with explicit bridge-conjecture gaps; see the [Millennium & Langlands briefing]({{ '/results/fields/millennium-langlands/' | relative_url }}).
 
   'Reproduction instructions': |
@@ -162,9 +164,9 @@ sha256_checksums:
   '__preamble__': '077bd63d09631831'
   'Release state and trusted base': '5645da445738eed8'
   'Release identity': 'ed67f7af74c0b89a'
-  'Build status — summary': 'a3f285efcb9789ec'
+  'Build status — summary': '09d9861eac53e827'
   'Per-book reconciliation': '27daae2d0b703370'
   'How to read apparent "drift"': '8aa7ff8b50e9bef3'
-  'What this release does NOT claim': '08c18ddaafeef27d'
+  'What this release does NOT claim': '0630e12b7649b3d6'
   'Reproduction instructions': 'ed439638e8adbde5'
   'Next release targets': 'a03f32a9ced92312'

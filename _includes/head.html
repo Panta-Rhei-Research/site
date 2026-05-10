@@ -150,17 +150,17 @@
 <!-- Theme color (mobile browser UI tinting) -->
 <meta name="theme-color" content="#163e64">
 
-<!-- Favicon set -->
-<link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+{%- assign cache_bust = site.time | date: '%s' -%}
+
+<!-- Favicon set (?v=cache_bust busts the 1-year edge cache when assets change) -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}?v={{ cache_bust }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}?v={{ cache_bust }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}?v={{ cache_bust }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}?v={{ cache_bust }}">
 <link rel="manifest" href="{{ '/assets/site.webmanifest' | relative_url }}">
 
 <!-- Fonts: local Inter variable fallback (zero external requests) -->
 <link rel="preload" href="{{ '/assets/fonts/InterVariable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-
-{%- assign cache_bust = site.time | date: '%s' -%}
 
 <!-- Critical CSS: inlined for instant first paint (eliminates render-blocking main.css from LCP path) -->
 <style>
@@ -196,9 +196,12 @@ a{color:#163e64;text-decoration:none}
 @media(max-width:760px){.site-header,.shell-home .site-header{width:calc(100% - 20px);padding:0 10px}.page-grid,.page-grid-home{padding:0 10px;gap:12px}.header-nav{display:none}.header-controls{order:0;margin-left:auto}.hero-card{padding:20px 16px 16px}.content-card{padding:16px}}
 </style>
 
-<!-- Full stylesheet: async load (non-blocking — critical CSS above handles first paint) -->
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}?v={{ cache_bust }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ cache_bust }}"></noscript>
+<!-- Full stylesheet: async load (non-blocking — critical CSS above handles first paint).
+     Path is fingerprinted by _plugins/asset_fingerprint.rb at build time
+     (main.css → main.<hash>.css), so the long-lived `immutable` cache rule
+     on /assets/* invalidates automatically when the CSS changes. -->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
 
 <!-- Pagefind search (CSS deferred — only needed when search overlay opens; JS already deferred) -->
 <!-- data-cfasync="false" opts the Pagefind UI script out of Cloudflare Rocket Loader, which on mobile delays/breaks PagefindUI definition + onclick handlers. -->
@@ -214,3 +217,6 @@ a{color:#163e64;text-decoration:none}
 
 <!-- Analytics: Umami (privacy-friendly, no cookies) -->
 <script defer src="https://cloud.umami.is/script.js" data-website-id="690d10bc-07c8-4025-aef0-7f3b6e7b5969" data-performance="true"></script>
+
+<!-- Umami auto-instrumentation for tile-grid and section-CTA surfaces -->
+{%- include umami-auto-instrument.html -%}
