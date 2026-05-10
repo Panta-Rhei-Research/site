@@ -19,6 +19,8 @@ The **Falsification Pack** identifies the sharpest points where the τ-framework
 
 <div class="notice note"><strong>Scope.</strong> Falsifications complement the broader <a href="{{ '/results/predictions/' | relative_url }}">Numerical Prediction Catalogue</a>. Predictions list numerical comparisons; falsifications name the specific experiments whose outcomes would challenge or support key τ-categorical commitments on a fixed timeline. The <a href="{{ '/results/calibration-cascade/' | relative_url }}">Calibration Cascade</a> records the dependency and unit-context overlay behind these claims. Current tracking labels remain internal program labels unless an item explicitly records external review.</div>
 
+<div class="notice warn"><strong>Cascade-failure posture.</strong> The N1–N30 falsifiers descend algebraically from the same kernel — every zero-parameter prediction reduces to ι<sub>τ</sub> = 2/(π+e) plus integer-valued window-algebra coefficients. So the falsifiers are <em>not</em> independent in the statistical sense: three or more independent contradictions across different domains would falsify the master constant ι<sub>τ</sub> itself, not just the individual experiments. This is the framework's deliberate posture — see <a href="{{ '/program/about/red-team-faq/' | relative_url }}">Red-team FAQ Q1 and Q10</a> and the <em>What happens if one falsifies</em> section on the <a href="{{ '/results/falsifications/browse/' | relative_url }}">browse page</a> for the full discussion. A single contradicted N-point is not the same as a refuted framework, and the framework explicitly stakes its falsifiability on the cascade rather than on isolated tests.</div>
+
 ## Where to go
 
 <div class="v2-grid">
