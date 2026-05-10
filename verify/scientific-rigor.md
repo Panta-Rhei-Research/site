@@ -69,6 +69,10 @@ Before asking whether a specific result is true, a reviewer can ask whether the 
   </a>
 </div>
 
+## Methodological lineage
+
+The five-check inspection model above is not presented as a from-scratch invention. It continues several older traditions in the philosophy of science and the philosophy of formal verification: **Popper's** falsifiability criterion (results must expose what would refute them), **Lakatos's** distinction between progressive and degenerating research programmes (a programme earns standing through what it predicts and is willing to be checked against, not through internal elegance alone), **Feferman's** predicativism and unfolding programme (foundational claims should expose the resources they actually require), and the **formal-verification-philosophy** strand (de Bruijn, Harper, Bundy) that treats inspectability and machine-checkability as part of what it means to make a serious mathematical claim. The program treats inspection-readiness as a continuation of these lineages, not a replacement for them; it has not yet written a sustained engagement with any one of them, and the obligation to do so is acknowledged rather than discharged.
+
 ## Reader Stance
 
 The intended reader stance is neither deference nor dismissal. It is inspection. Follow the chain from publication prose to corpus object, from corpus object to formalization where available, and from formalization to the remaining bridge assumptions.

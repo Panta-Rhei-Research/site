@@ -62,15 +62,22 @@ The chain is **transitive** (prediction → registry → Lean), not direct (pred
 
 ### Worked example — the chain in full
 
-**Prediction:** [20-galaxy BTFR]({{ '/predictions/20-galaxy-btfr/' | relative_url }}) — slope τ = 3.991, observed = 3.97 ± 0.10, deviation 0.067 dex (1–5% precision tier).
+One prediction, four hops, no hand-waving. Read top-to-bottom; every line is the canonical identifier.
 
-**Registry object:** [V.D258 — 20-Galaxy Benchmark]({{ '/registry/object/V.D258/' | relative_url }}) — references `V.T85 (Planck)`, tested across galaxies from dwarfs through massive disks.
+| Hop | Layer | Identifier |
+|---|---|---|
+| 1 | Prediction page | [`/predictions/20-galaxy-btfr/`]({{ '/predictions/20-galaxy-btfr/' | relative_url }}) — τ-BTFR slope = 3.991 (zero free parameters), observed = 3.97 ± 0.10, RMS scatter 0.067 dex across 20 galaxies (DDO 154 dwarf through NGC 2841 giant) |
+| 2 | Registry `registry_id` | [`V.D258`]({{ '/registry/object/V.D258/' | relative_url }}) — *20-Galaxy Benchmark Table* (definition object); `depends_on: [V.T85, V.D257]` |
+| 3 | Registry hinge theorem | [`V.T85`]({{ '/registry/object/V.T85/' | relative_url }}) — *Flat Rotation Curve Theorem* (the actual physical content) |
+| 4 | TauLib `lean_module` | [`TauLib.BookV.Astrophysics.RotationCurves`](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/BookV/Astrophysics/RotationCurves.lean) |
+| 5 | TauLib `lean_name` (benchmark binding) | `Tau.BookV.Astrophysics.benchmark_T85_planck` |
+| 5′ | TauLib `lean_name` (hinge theorem) | `Tau.BookV.Astrophysics.FlatRotationCurveTheoremVt37` |
 
-**TauLib module:** [`TauLib.BookV.Astrophysics.RotationCurves`](https://github.com/Panta-Rhei-Research/taulib/blob/main/TauLib/BookV/Astrophysics/RotationCurves.lean)
+**What the theorem actually says (V.T85, plain reading).** For a disk galaxy with exponential surface density, the rotation velocity satisfies `v_c(r) → v_∞ = (G · M_b · c² / (2 · ℓ_τ))^(1/4)` at large radius — i.e. asymptotically flat rotation curves emerge from the τ-capacity gradient without invoking a dark-matter halo. Raising both sides to the fourth power gives the BTFR `v_∞⁴ ∝ M_b` with τ-fixed slope = 4 (kernel value; `3.991` is the benchmark-fit estimator over the 20-galaxy table, distinct from the kernel slope by `< 0.01`). The benchmark binding `benchmark_T85_planck` discharges V.T85 against the Planck-anchored mass calibration used in V.D258.
 
-**Lean theorem:** `Tau.BookV.Astrophysics.benchmark_T85_planck`
+**Falsification condition (1 line).** A pre-registered re-fit on a comparable rotation-curve sample (≥ 20 galaxies, similar mass span) returning a BTFR slope outside `[3.85, 4.15]`, or an RMS scatter > 0.15 dex once measurement floors are subtracted, kills V.T85 at this scope and propagates upward — the τ-BTFR derivation has no free parameter to absorb the residual. Cross-reference the [Falsification Pack]({{ '/results/falsifications/browse/' | relative_url }}) for the corresponding falsification record.
 
-To audit independently: `lake build TauLib.BookV.Astrophysics.RotationCurves` resolves `benchmark_T85_planck` against the formal kernel (0 sorry, 3 disclosed custom axioms; check via `#print axioms Tau.BookV.Astrophysics.benchmark_T85_planck`).
+**To audit independently.** `lake build TauLib.BookV.Astrophysics.RotationCurves` resolves both `benchmark_T85_planck` and `FlatRotationCurveTheoremVt37` against the formal kernel; `#print axioms Tau.BookV.Astrophysics.benchmark_T85_planck` enumerates the disclosed custom axioms (TauLib commits to `0 sorry`, with custom axioms tracked in the [release manifest]({{ '/verify/release-manifest/' | relative_url }})). Pin to the manifest commit SHA to reproduce.
 
 ### What the chain does and does not establish
 
