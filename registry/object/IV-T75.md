@@ -26,3 +26,9 @@ rev_dep_count: 0
 is_foundational: false
 is_central: false
 ---
+
+## Bridge-layer note
+
+This theorem closes **kernel-only** against Mathlib + `native_decide` — it carries no custom-axiom dependency. It is **Internally addressed** inside τ.
+
+The corresponding [Yang–Mills Existence and Mass Gap Challenge Response]({{ '/results/challenge-responses/mathematics/canonical-benchmarks/yang-mills-existence-mass-gap/' | relative_url }}) is marked **Structurally constrained** (Partial) — *not* because `IV.T75` itself is incomplete, but because the formal bridge between the τ-internal mass-gap statement and the [Clay Yang–Mills statement on ℝ⁴](https://www.claymath.org/millennium-problems/yang-mills-the-maths-gap) is treated separately and is not yet Lean-formalized. This is the same pattern as the τ-internal Critical Line Theorem (`III.T19`) versus the classical Riemann Hypothesis bridge: a kernel-clean τ-internal result plus an unproven bridge to the orthodox classical statement. See the [Yang–Mills note on the Custom Axiom Inventory]({{ '/verify/custom-axioms/#yang-mills-note' | relative_url }}) for the full split.
