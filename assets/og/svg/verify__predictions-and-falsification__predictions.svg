@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Panta Rhei preview card for Predictions — Verify lane.">
+  <defs>
+    <style>
+      @font-face { font-family: "EB Garamond OG"; src: url("../fonts-local/EBGaramond-Regular.ttf"); }
+      @font-face { font-family: "Source Sans 3 OG"; src: url("../fonts-local/SourceSans3-Regular.ttf"); }
+      @font-face { font-family: "Source Code Pro OG"; src: url("../fonts-local/SourceCodePro-Regular.ttf"); }
+    </style>
+    <linearGradient id="spectrum-rule" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5A7EB3"/><stop offset="34%" stop-color="#1B8278"/><stop offset="68%" stop-color="#9F5B5C"/><stop offset="100%" stop-color="#896092"/>
+    </linearGradient>
+    <linearGradient id="panta-og-dark-gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#13395E"/><stop offset="48%" stop-color="#163E64"/><stop offset="100%" stop-color="#1A4874"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#panta-og-dark-gradient)"/>
+  <rect x="0" y="618" width="1200" height="12" fill="url(#spectrum-rule)"/>
+
+  <!-- Faint Material Symbols 'track_changes' icon, decorative right-side accent.
+       Concentric-circle bullseye with a tracking path through it — semantically
+       represents prediction targeting against a structural target. -->
+  <svg x="835" y="220" width="300" height="300" viewBox="0 -960 960 960" opacity="0.20" aria-hidden="true">
+    <path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880h40v331q18 11 29 28.5t11 40.5q0 33-23.5 56.5T480-400q-33 0-56.5-23.5T400-480q0-23 11-41t29-28v-86q-52 14-86 56.5T320-480q0 66 47 113t113 47q66 0 113-47t47-113q0-36-14.5-66.5T586-600l57-57q35 33 56 78.5t21 98.5q0 100-70 170t-170 70q-100 0-170-70t-70-170q0-90 57-156.5T440-717v-81q-119 15-199.5 105T160-480q0 134 93 227t227 93q134 0 227-93t93-227q0-69-27-129t-74-104l57-57q57 55 90.5 129.5T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z" fill="#FFFFFF"/>
+  </svg>
+
+  <!-- π ρ wordmark + program name, top-right -->
+  <g transform="translate(785 26)" fill="#F8FAF7">
+    <text x="0" y="44" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-weight="400">π</text>
+    <text x="31" y="67" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-style="italic" font-weight="400">ρ</text>
+    <text x="86" y="36" font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="25" font-weight="700">Panta Rhei Research</text>
+    <text x="86" y="67" font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="21" opacity="0.82">Independent open research program</text>
+  </g>
+
+  <!-- Eyebrow pill, top-left -->
+  <g transform="translate(70 76)">
+    <rect width="408" height="44" rx="22" fill="#F8FAF7" opacity="0.96"/>
+    <text x="18" y="29" font-family="Source Code Pro OG, ui-monospace, monospace" font-size="19" font-weight="700" letter-spacing="1.8" fill="#163E64">VERIFY · PREDICTIONS · LEAN CHAIN</text>
+  </g>
+
+  <!-- Main title -->
+  <text font-family="EB Garamond OG, Georgia, serif" font-size="124" font-weight="400" fill="#F8FAF7">
+    <tspan x="78" y="260">Predictions</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="32" font-weight="400" fill="#D8E3EC">
+    <tspan x="82" y="380">Every public prediction is traceable</tspan>
+    <tspan x="82" y="424">through a registry object to a named</tspan>
+    <tspan x="82" y="468">Lean theorem in TauLib.</tspan>
+  </text>
+
+  <!-- Route line at bottom -->
+  <text x="82" y="568" font-family="Source Code Pro OG, ui-monospace, monospace" font-size="26" font-weight="500" fill="#B9CFE2">panta-rhei.site/verify/predictions-and-falsification/predictions</text>
+</svg>

@@ -7,7 +7,10 @@ v2_lane: verify
 type: "Verification Surface"
 verify_type: prediction
 status: "Canonical"
-summary_short: "Derived consequences that can serve as accountability surfaces for the program."
+summary_short: "Predictions as verification targets — every public prediction traceable through a registry object to a named Lean theorem in TauLib."
+og_image: /assets/og/png/verify__predictions-and-falsification__predictions.png
+twitter_image: /assets/og/png/verify__predictions-and-falsification__predictions.png
+og_image_alt: "Panta Rhei preview card for Predictions, with the Material Symbols track-changes bullseye-and-tracking-arrow icon as a soft accent on the dark observatory background; eyebrow reads VERIFY · PREDICTIONS · LEAN CHAIN, body says every public prediction is traceable through a registry object to a named Lean theorem in TauLib."
 right_rail:
   related:
     - title: "Results Predictions Browse"
