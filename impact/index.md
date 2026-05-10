@@ -81,17 +81,15 @@ Results and Verify remain upstream. Translation and domain uptake remain require
 
 ## What a translation layer would look like (conditional, not committed)
 
-Readers who think in terms of fundability, partnership, or institutional uptake sometimes ask: *if the τ-framework is validated, what would translation to a working artefact look like?* The program does not yet commit to any such artefact, but the conditional shape can be named without compromising the no-deployment-claim posture above.
+Readers who think in terms of fundability, partnership, or institutional uptake sometimes ask: *if the τ-framework is validated, what would translation to a working artefact look like?* The program does not yet commit to any such artefact, but three plausible translation surfaces can be named without compromising the no-deployment-claim posture above:
 
-The plausible translation surfaces follow from the program's existing architecture:
+- **Formal-epistemics tooling for AI system auditing** — TauLib's release-manifest discipline (pinned commits, custom-axiom audits, zero-sorry CI, registry-traceable theorem provenance) is portable to AI auditing pipelines that need similar accountability. A translation layer here would package the inspection architecture as a reusable toolkit for auditing the formal-epistemic layer of AI systems.
+- **Alignment-verification scaffolding for model governance** — the constructive type-theoretic kernel and the bridge-discipline language between formal and empirical layers are directly relevant to alignment-verification work that needs traceable provenance for safety claims. A translation layer here would expose that bridge-language as scaffolding model-governance regimes can target when they require checkable, version-pinned safety arguments.
+- **Scientific-modelling infrastructure for domains with complex causal structure** — the predictions-ledger pattern (registered observable + derivation chain + named falsification path + version-pinned Lean theorem) is reusable by research programs in domains whose causal structure is too tangled for present-day modelling discipline. A translation layer here would expose the same accountability surfaces to other complex-causal-structure programs.
 
-- **Formal-epistemics tooling** — TauLib's release-manifest discipline (pinned commits, axiom audits, sorry-regression CI) is portable to other formalisation projects that need similar accountability. A translation layer here would package the manifest pipeline as a reusable inspection-architecture toolkit.
-- **AI-alignment verification surfaces** — the constructive type-theoretic kernel and the bridge-discipline language between formal and empirical layers are directly relevant to alignment work that needs traceable provenance for safety claims. A translation layer here would expose the bridge-language as an interface other formal stacks can target.
-- **Scientific-modelling infrastructure** — the predictions ledger pattern (registered observable + derivation chain + named falsification path + version-pinned Lean theorem) is reusable by other research programs that want to expose the same accountability surfaces.
+**None of these are commitments. All three are conditional on results that are not yet complete** — contingent on upstream verification, translation discipline, and external uptake. None is a present-tense product claim.
 
-Each of these is conditional in exactly the same sense Impact is conditional: contingent on upstream verification, translation discipline, and external uptake. None is a present-tense product claim.
-
-Naming the conditional shape here is itself a discipline: it lets the program acknowledge that fundable / partnerable / institutionally-actionable consequences are downstream of the framework — without pretending those consequences are present-tense, and without abandoning the engagement-without-endorsement posture that governs the rest of the site.
+Naming the conditional shape here is itself a discipline: it lets the program acknowledge that fundable, partnerable, and institutionally-actionable consequences are downstream of the framework — without pretending those consequences are present-tense, and without abandoning the engagement-without-endorsement posture that governs the rest of the site.
 
 ## Impact is conditional
 

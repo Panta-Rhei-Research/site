@@ -76,6 +76,33 @@ Shared not as an endorsement, but as a page that may be worth expert inspection.
 {%- endcapture -%}
 {%- capture _citation_text -%}Panta Rhei Research Program. "{{ _page_title }}." Public research observatory. {{ _page_url }}{%- endcapture -%}
 
+{%- comment -%}
+  Pre-rendered mailto draft for the "Email to expert" affordance. Mirrors the
+  exact subject + body produced by buildEmailDraft() in /assets/js/page-actions.js
+  so right-click / middle-click / no-JS fallback all yield the same draft.
+  JS still re-computes on click (page-actions.js handleAction → email-expert)
+  to keep the date-of-access fresh, but the static href is now a valid
+  RFC 6068 mailto with no recipient + URL-encoded subject + body.
+  Closes ~8.9k html-proofer "mailto: contains no email address" findings.
+{%- endcomment -%}
+{%- capture _email_body_raw -%}
+Hi,
+
+I came across this page from the Panta Rhei Research Program and thought it might intersect with your work:
+
+{{ _page_url }}
+
+The project presents itself as an independent open research program, with public corpus pages, registry objects, prior-art notes, and verification surfaces.
+
+I am not endorsing the claims, but this page looked potentially worth expert inspection.
+
+Best,
+{%- endcapture -%}
+{%- assign _email_subject_raw = "Possibly worth inspection: " | append: _page_title -%}
+{%- assign _email_subject_enc = _email_subject_raw | url_encode -%}
+{%- assign _email_body_enc = _email_body_raw | url_encode -%}
+{%- assign _email_draft_href = "mailto:?subject=" | append: _email_subject_enc | append: "&body=" | append: _email_body_enc -%}
+
 {%- if _variant == "rail" -%}
 <aside class="page-tools page-tools--rail"
        data-page-tools

@@ -26,6 +26,17 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
 ---
 
 <section class="content-card homepage-section">
+  <p class="v2-kicker">What the formal layer currently exposes</p>
+  <h2>The formalization is real, public, and auditable</h2>
+  <p>TauLib currently exposes {% include release-metric.html id="taulib.modules" %} Lean&nbsp;4 modules, {% include release-metric.html id="taulib.theorems_lemmas" %} theorem and lemma records, {% include release-metric.html id="taulib.sorry" %} sorry assignments, and {% include release-metric.html id="taulib.custom_axioms" %} disclosed custom axioms — pinned to a release manifest with a sharp axiom and sorry budget. Formal checking is not empirical truth. The bridge to observation, measurement, and domain testing remains the empirical-accountability question — and is treated as such across the site. But the formal layer itself is real, public, and auditable today.</p>
+  <div class="btn-group section-ctas">
+    <a class="btn-secondary" href="{{ '/verify/' | relative_url }}">Verify it yourself</a>
+    <a class="btn-ghost" href="{{ '/corpus/taulib/' | relative_url }}">Browse TauLib</a>
+    <a class="btn-ghost" href="{{ '/verify/release-manifest/' | relative_url }}">Read the Release Manifest</a>
+  </div>
+</section>
+
+<section class="content-card homepage-section">
   <p class="v2-kicker">The research observatory at a glance</p>
   <h2>Panta Rhei at a glance</h2>
   {% include scientific-plate.html id="plate-20-panta-rhei-at-a-glance" class="scientific-plate--hero scientific-plate--at-a-glance" loading="eager" %}
