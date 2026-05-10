@@ -49,10 +49,14 @@ Document Canon. It gives nontechnical readers the shortest stable orientation
 to the program: what it is, how to read it, why it is structured as a public
 research observatory, and where to continue.
 
-WP000 should be read before the longer anchor documents if the reader needs a
-compact entry point. It points onward to C001 for the program's inquiry stance,
-WP001 for the whole-program overview, WP002 for the theory synopsis, WP003 for
-TauLib, WP004 for the observatory blueprint, and WP005 for conditional impact.
+The at-a-glance primer should be read before the longer anchor documents if
+the reader needs a compact entry point. It points onward to *Standing in the
+Inquiry of Being* (C001) for the program's inquiry stance, the *Executive
+Overview* (WP001) for the whole-program overview, the *τ-Theory Executive
+Synopsis* (WP002) for the theory synopsis, the *TauLib Technical Overview*
+(WP003) for TauLib, the *Public Research Observatory Blueprint* (WP004) for
+the observatory blueprint, and the *Global Public Good Impact Overview*
+(WP005) for conditional impact.
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ doc.pdf_path | relative_url }}">Download PDF</a>
@@ -118,7 +122,7 @@ TauLib, WP004 for the observatory blueprint, and WP005 for conditional impact.
 
 ## Four-Page Scope
 
-WP000 is deliberately short. It is for first-time readers, journalists,
+The primer is deliberately short. It is for first-time readers, journalists,
 reviewers, and public communicators who need to know how to enter the site
 without mistaking an orientation document for a proof, a peer-review record, or
 a final theory claim.
@@ -134,10 +138,11 @@ The primer covers:
 
 ## Claim Boundary
 
-WP000 is an orientation primer. It is not a primary research result, not a proof
-of T Theory, not a substitute for C001 or WP001, not a peer-review certificate,
-and not a claim of empirical validation, external acceptance, deployment
-readiness, policy adoption, product availability, or achieved impact.
+*Panta Rhei at a Glance* is an orientation primer. It is not a primary research
+result, not a proof of T Theory, not a substitute for the charter essay or the
+*Executive Overview*, not a peer-review certificate, and not a claim of
+empirical validation, external acceptance, deployment readiness, policy
+adoption, product availability, or achieved impact.
 
 Hashes attest to the PDF bytes only; they do not certify correctness, peer
 review, empirical adequacy, legal status, DOI registration, or content

@@ -38,11 +38,11 @@ right_rail:
 
 ## Canonical Artifact
 
-*Panta Rhei Research Program Executive Overview* is the first canonical white
-paper in the Anchor Document Canon. Its core thesis is that the program is
-structured enough to inspect: the public site separates Program, Agenda,
-Corpus, Results, Verify, Publications, Impact, and Engage so readers can follow
-claims without being asked for premature belief.
+*Panta Rhei Research Program: Executive Overview* (WP001) is the first
+canonical white paper in the Anchor Document Canon. Its core thesis is that
+the program is structured enough to inspect: the public site separates
+Program, Agenda, Corpus, Results, Verify, Publications, Impact, and Engage so
+readers can follow claims without being asked for premature belief.
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ doc.pdf_path | relative_url }}">Download PDF</a>
@@ -99,9 +99,9 @@ claims without being asked for premature belief.
 
 ## Claim Boundary
 
-WP001 is an executive overview and offline guide into the public observatory.
-It is not a primary research result, not a proof of T Theory, not a substitute
-for expert review, and not a claim of external acceptance for any mathematical,
+The Executive Overview is an offline guide into the public observatory. It is
+not a primary research result, not a proof of T Theory, not a substitute for
+expert review, and not a claim of external acceptance for any mathematical,
 physical, biological, or metaphysical claim.
 
 Hashes attest to the PDF bytes only; they do not certify correctness, peer

@@ -47,16 +47,17 @@ right_rail:
 
 ## Canonical Artifact
 
-*Global Public Good Impact Overview* is the canonical anchor white paper for
-the program's conditional-impact layer. It synthesizes the [Impact](/impact/)
-lane, [Global Public Good](/impact/global-public-good/) surface, 11 public-good
-portfolios, and 44 [Public-Good Briefings](/publications/research-briefings/public-good/)
-as an inspection route, not as an achieved-impact claim.
+*Global Public Good Impact Overview* (WP005) is the canonical anchor white
+paper for the program's conditional-impact layer. It synthesizes the
+[Impact](/impact/) lane, [Global Public Good](/impact/global-public-good/)
+surface, 11 public-good portfolios, and 44
+[Public-Good Briefings](/publications/research-briefings/public-good/) as an
+inspection route, not as an achieved-impact claim.
 
-WP005 asks what public-good pathways would become worth inspecting if upstream
-Results, Corpus constructions, TauLib formalization routes, translation
-assumptions, domain review, governance, and uptake all survived scrutiny. It
-keeps the consequence chain explicit:
+The Impact Overview asks what public-good pathways would become worth
+inspecting if upstream Results, Corpus constructions, TauLib formalization
+routes, translation assumptions, domain review, governance, and uptake all
+survived scrutiny. It keeps the consequence chain explicit:
 
 <p><strong>Result → Verification &amp; Review → Translation Layer → Domain Uptake → Consequence</strong></p>
 
@@ -120,7 +121,7 @@ keeps the consequence chain explicit:
 
 ## Scope
 
-WP005 covers three connected layers:
+The Impact Overview covers three connected layers:
 
 - The conditional-impact stance: impact is downstream of verification, review,
   translation, governance, and uptake.
@@ -137,10 +138,10 @@ such a claim could be made.
 
 ## Claim Boundary
 
-WP005 maps conditional public-good pathways and inspection routes. It does not
-claim deployment, product availability, institutional uptake, policy adoption,
-domain validation, peer-review completion, certified impact, achieved impact,
-or public-good delivery.
+The Impact Overview maps conditional public-good pathways and inspection
+routes. It does not claim deployment, product availability, institutional
+uptake, policy adoption, domain validation, peer-review completion, certified
+impact, achieved impact, or public-good delivery.
 
 Hashes attest to the PDF bytes only; they do not certify correctness, peer
 review, empirical adequacy, legal status, DOI registration, or content

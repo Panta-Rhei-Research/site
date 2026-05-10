@@ -116,7 +116,7 @@ Use these where the story is the intellectual category: coherent theory of reali
 
 > A theory of reality may not start with borrowed words and treat them as explanations. It must earn its language, earn its questions, and only then earn its answers.
 >
-> WP002: T Theory Executive Synopsis.
+> *τ-Theory Executive Synopsis* (WP002).
 > {{ site.url }}{{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}
 
 ## Public Research Observatory launch snippets
@@ -125,7 +125,7 @@ Use these where the story is the technical blueprint: how the website and GitHub
 
 ### X / Bluesky
 
-> WP004 asks a practical question: how should high-scope open research build the public interface that lets outsiders inspect it?
+> The *Public Research Observatory Blueprint* (WP004) asks a practical question: how should high-scope open research build the public interface that lets outsiders inspect it?
 > Program -> Agenda -> Corpus -> Results -> Verify, with Publications, Impact, Engage, search, and correction routes around the chain.
 > {{ site.url }}{{ '/media/public-research-observatory-brief/' | relative_url }}
 
@@ -133,7 +133,7 @@ Use these where the story is the technical blueprint: how the website and GitHub
 
 > A public research observatory is not a claim that a theory is true. It is the architecture that lets readers trace a claim through obligation, construction, status, verification, artifacts, and correction paths.
 >
-> WP004 documents how panta-rhei.site and the Panta Rhei GitHub organization implement that architecture for high-scope open research.
+> The Blueprint documents how panta-rhei.site and the Panta Rhei GitHub organization implement that architecture for high-scope open research.
 >
 > Brief: {{ site.url }}{{ '/media/public-research-observatory-brief/' | relative_url }}
 > White paper: {{ site.url }}{{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}
@@ -142,7 +142,7 @@ Use these where the story is the technical blueprint: how the website and GitHub
 
 > Inspection architecture is not validation. It is the public structure that makes validation, challenge, correction, review, and refusal easier to begin.
 >
-> WP004: Public Research Observatory Blueprint.
+> *Public Research Observatory Blueprint* (WP004).
 > {{ site.url }}{{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}
 
 ## X (Twitter) — under 280 characters

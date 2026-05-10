@@ -41,15 +41,16 @@ right_rail:
 
 ## Canonical Artifact
 
-*TauLib Technical Overview* is the canonical technical white paper for the
-TauLib Lean 4 formalization layer. It explains what TauLib is, how its
+*TauLib Technical Overview* (WP003) is the canonical technical white paper for
+the TauLib Lean 4 formalization layer. It explains what TauLib is, how its
 architecture is inspected, what the current Release Manifest pins, and how the
 Verify lane exposes the trust budget around the release.
 
-WP003 is deliberately narrower than WP002. It does not restate the whole theory
-construction. It routes technically minded readers into the formalization
-surface: repository, generated docs, release manifest, no-sorry check, custom
-axiom inventory, TCB disclosure, Registry correspondence, and review workflow.
+The Technical Overview is deliberately narrower than the *τ-Theory Executive
+Synopsis* (WP002). It does not restate the whole theory construction. It
+routes technically minded readers into the formalization surface: repository,
+generated docs, release manifest, no-sorry check, custom axiom inventory, TCB
+disclosure, Registry correspondence, and review workflow.
 
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ doc.pdf_path | relative_url }}">Download PDF</a>
@@ -111,8 +112,8 @@ axiom inventory, TCB disclosure, Registry correspondence, and review workflow.
 
 ## Current Release Snapshot
 
-The May 2026 release snapshot summarized in WP003 is pinned by the TauLib
-Release Manifest:
+The May 2026 release snapshot summarized in the Technical Overview is pinned
+by the TauLib Release Manifest:
 
 <table>
   <tbody>
@@ -157,11 +158,11 @@ Release Manifest:
 
 ## Claim Boundary
 
-WP003 documents the represented formalization release and its inspection
-routes. It does not claim empirical validation, semantic adequacy, complete
-formal coverage of the research program, peer-review completion, external
-acceptance, deployment readiness, product availability, policy adoption, or
-achieved impact.
+The Technical Overview documents the represented formalization release and
+its inspection routes. It does not claim empirical validation, semantic
+adequacy, complete formal coverage of the research program, peer-review
+completion, external acceptance, deployment readiness, product availability,
+policy adoption, or achieved impact.
 
 Hashes attest to the PDF bytes only; they do not certify correctness, peer
 review, empirical adequacy, legal status, DOI registration, or content

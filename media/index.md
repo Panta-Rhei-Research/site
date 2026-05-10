@@ -119,7 +119,7 @@ Suggested framing:
 
 > If independent open research is allowed to ask large questions, what public burden should it accept before asking anyone to care?
 
-For the shortest public orientation, start with [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}). For the canonical inspection-architecture framing, read the [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) and [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}).
+For the shortest public orientation, start with [*Panta Rhei at a Glance*]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) (WP000). For the canonical inspection-architecture framing, read the [Open Research Brief]({{ '/media/open-research-brief/' | relative_url }}) and the [*Public Research Observatory Blueprint*]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) (WP004).
 
 ## Suggested second story angle
 
@@ -131,19 +131,19 @@ Suggested framing:
 
 > If a research program wants to speak about reality as a whole, what must it expose before the phrase becomes more than a slogan?
 
-For the category framing, read the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}), [C001 Standing in the Inquiry of Being]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}), [WP001 Program Executive Overview]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}), and [WP002 T Theory Executive Synopsis]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}).
+For the category framing, read the [Theory of Reality Brief]({{ '/media/theory-of-reality-brief/' | relative_url }}), [*Standing in the Inquiry of Being*]({{ '/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/' | relative_url }}) (C001), the [*Executive Overview*]({{ '/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/' | relative_url }}) (WP001), and the [*τ-Theory Executive Synopsis*]({{ '/publications/anchor-documents/wp002-t-theory-executive-synopsis/' | relative_url }}) (WP002).
 
 ## Suggested third story angle
 
 The third safe story is the technical blueprint.
 
-Panta Rhei is not only publishing claims or PDFs. WP004 explains how the public site and GitHub organization implement a public research observatory: a route system where a reader can move from Program identity to Agenda obligations, Corpus construction, Results status, Verify inspection, Publications artifacts, and Engage correction paths.
+Panta Rhei is not only publishing claims or PDFs. The *Public Research Observatory Blueprint* (WP004) explains how the public site and GitHub organization implement a public research observatory: a route system where a reader can move from Program identity to Agenda obligations, Corpus construction, Results status, Verify inspection, Publications artifacts, and Engage correction paths.
 
 Suggested framing:
 
 > How should a high-scope open research program build the public interface that lets outsiders inspect it?
 
-For the blueprint framing, read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) and [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}).
+For the blueprint framing, read the [Public Research Observatory Brief]({{ '/media/public-research-observatory-brief/' | relative_url }}) and the [*Public Research Observatory Blueprint*]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) (WP004).
 
 ## Responsible coverage
 

@@ -40,7 +40,7 @@ Panta Rhei can be covered as a public research observatory: a website and GitHub
 
 ## What is new
 
-[WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) is the canonical technical blueprint for how `panta-rhei.site` implements inspectability as information architecture. [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) is the shorter first-contact route.
+The [*Public Research Observatory Blueprint*]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }}) (WP004) is the canonical technical blueprint for how `panta-rhei.site` implements inspectability as information architecture. [*Panta Rhei at a Glance*]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }}) (WP000) is the shorter first-contact route.
 
 This is not a results package. It does not say the theory is proven, accepted, or externally validated. It explains how the public site and GitHub organization make the program easier to inspect.
 
