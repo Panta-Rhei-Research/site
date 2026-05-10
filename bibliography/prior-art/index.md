@@ -73,7 +73,7 @@ right_rail:
 
 > The Corpus owns the prior-art clusters. The website renders prior-art projections.
 
-Cluster data is mirrored from [`corpus/data/bibliography/prior-art-clusters.yml`](https://github.com/Panta-Rhei-Research/corpus/blob/main/data/bibliography/prior-art-clusters.yml) via `scripts/sync_prior_art_clusters_from_corpus.py`. Edits land in the corpus repo first, then sync into this site. Each cluster has a stable ID (`pa<NNNNNN>`) for citation continuity.
+Cluster data is mirrored from `corpus/data/bibliography/prior-art-clusters.yml` (canonical, in the program's research corpus) into this site's `_data/bibliography/prior-art-clusters.yml` via `scripts/sync_prior_art_clusters_from_corpus.py`. Edits land in the corpus repo first, then sync into the site. Each cluster has a stable ID (`pa<NNNNNN>`) for citation continuity.
 
 ## Read next
 

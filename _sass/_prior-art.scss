@@ -196,13 +196,55 @@
 .prior-art-challenge-list li {
   display: inline-flex;
   align-items: center;
-  padding: 0.25rem 0.6rem;
-  background: rgba(255, 255, 255, 0.5);
-  border: var(--border-subtle);
-  border-radius: $radius-sm;
-  color: var(--color-ink-700);
-  font-family: $font-mono;
-  font-size: 0.78rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+
+  > code,
+  > .prior-art-challenge-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.6rem;
+    background: rgba(255, 255, 255, 0.5);
+    border: var(--border-subtle);
+    border-radius: $radius-sm;
+    color: var(--color-ink-700);
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    text-decoration: none;
+    transition:
+      background-color 120ms ease,
+      border-color 120ms ease,
+      color 120ms ease;
+  }
+
+  > .prior-art-challenge-link {
+    code {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+    }
+
+    &:hover,
+    &:focus-visible {
+      background: var(--paper-0, #FFFFFF);
+      border-color: var(--lane-current);
+      color: var(--lane-current);
+      outline: none;
+
+      code {
+        color: var(--lane-current);
+      }
+    }
+
+    &:focus-visible {
+      box-shadow: var(--focus-ring);
+    }
+  }
 }
 
 // ---------- Embed on SCL/CR pages: related-clusters card ----------
@@ -345,6 +387,7 @@
   .prior-art-cluster-card > a,
   .prior-art-ref-link,
   .prior-art-cs-link,
+  .prior-art-challenge-link,
   .prior-art-related-link {
     transition: none;
   }
