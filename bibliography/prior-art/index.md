@@ -75,6 +75,8 @@ right_rail:
 
 Cluster data is mirrored from `corpus/data/bibliography/prior-art-clusters.yml` (canonical, in the program's research corpus) into this site's `_data/bibliography/prior-art-clusters.yml` via `scripts/sync_prior_art_clusters_from_corpus.py`. Edits land in the corpus repo first, then sync into the site. Each cluster has a stable ID (`pa<NNNNNN>`) for citation continuity.
 
+The site renders a documented subset of the cluster schema — `cluster_id`, `title`, `description`, `references` (curated bib_keys), `related_construction_steps` (resolving to construction-spine page URLs), `related_challenges` (resolving to Structural Challenge Ledger URLs), `reference_count`, and `metadata_pending`. Other fields (`summary`, `domains`, `related_publications`) are carried faithfully for corpus-side traceability but not currently rendered. The full schema is documented in the sync script's module docstring.
+
 ## Read next
 
 - [Bibliography browse]({{ '/bibliography/browse/' | relative_url }}) — full filterable catalogue of {% include release-metric.html id="bibliography.references" %} entries

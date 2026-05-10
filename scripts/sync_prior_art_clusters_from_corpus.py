@@ -7,6 +7,39 @@ site/_data/bibliography/prior-art-clusters.yml so Liquid can read it via
 site.data.bibliography['prior-art-clusters'] (Jekyll auto-loads YAML in
 _data/).
 
+Cluster schema (per-cluster fields)
+-----------------------------------
+The Liquid layouts and the auto-detect include consume only a subset of the
+fields each cluster carries. The rest are mirrored faithfully from corpus
+for traceability, even though the site doesn't render them. This split is
+intentional and worth knowing when reading the synced YAML.
+
+  Consumed by site (rendered into pages):
+    cluster_id          stable id of form `pa<NNNNNN>` for citation continuity
+    cluster_key         snake_case key matching the cluster page filename
+    title               human-readable cluster name
+    description         long-form prose rendered on the per-cluster page
+    references          list of bib_keys → resolved via corpus slugify rule
+                        (lowercase + `_`→`-`) to /bibliography/<slug>/
+    related_construction_steps   list of CS-NN ids → resolved via
+                        _data/construction_spine to /corpus/construction-spine/<slug>/
+    related_challenges  list of {SCL-id} → resolved via
+                        _data/corpus/structural_challenges to canonical SCL URL
+    reference_count     total count of bibliography entries in domain
+                        (separate from len(references), which is the
+                        curated subset shown on the page)
+    metadata_pending    boolean — when true, page surfaces a
+                        "Provisional metadata" pill near the title
+
+  Carried for traceability but not rendered:
+    summary             short tagline (rendered titles use `title` directly)
+    domains             corpus-side domain-tag list (used in corpus exports)
+    related_publications  list of book identifiers (book-i…book-vii) — corpus
+                        contract, not currently surfaced on site
+
+Future site work that exposes the carried fields should update both this
+docstring and the layout — keep the schema documentation centralised here.
+
 Usage:
 
     python3 scripts/sync_prior_art_clusters_from_corpus.py
@@ -17,7 +50,8 @@ Resolves corpus root in this order:
   2. PRRP_CORPUS_ROOT env var
   3. ../corpus relative to site repo
 
-Exit code 0 on success, 1 on missing source / parse failure.
+Exit code 0 on success, 1 on missing source / parse failure / unresolved refs
+(unless --allow-missing-refs is passed for emergency syncs).
 """
 from __future__ import annotations
 

@@ -30,7 +30,19 @@ layout: program-doc
 {%- if cluster -%}
 
 <section class="content-card prior-art-cluster-intro">
-  <p class="muted-note" style="font-family: var(--font-mono, monospace); font-size: 0.78rem;">Cluster ID: <code>{{ cluster.cluster_id }}</code> · {{ cluster.reference_count }} bibliography entries in domain</p>
+  <p class="muted-note" style="font-family: var(--font-mono, monospace); font-size: 0.78rem;">
+    Cluster ID: <code>{{ cluster.cluster_id }}</code> · {{ cluster.reference_count }} bibliography entries in domain
+    {%- comment -%}
+      metadata_pending surfaces a "Provisional metadata" badge for clusters
+      whose curation is still in flux (e.g. taxonomic refinement still
+      pending, or representative-references list not yet finalized). The
+      flag is set to false on all clusters at the May 2026 launch, but the
+      badge wires the contract for any future cluster where it goes true.
+    {%- endcomment -%}
+    {%- if cluster.metadata_pending -%}
+      · <span class="prior-art-cluster-pending-pill" title="Cluster metadata is provisional and pending corpus-side curation">Provisional metadata</span>
+    {%- endif -%}
+  </p>
   <h2>{{ cluster.title }}</h2>
   <p class="prose">{{ cluster.description }}</p>
 </section>
@@ -59,9 +71,25 @@ layout: program-doc
 <section class="content-card prior-art-cluster-cs">
   <h2>Where this cluster bears on the program</h2>
   <p class="muted-note">Construction-spine steps the cluster's prior art most directly engages.</p>
+  {%- comment -%}
+    CS-NN → corpus_path lookup via the flat construction-spine index at
+    _data/construction_spine/construction-spine.json. Each step has its
+    own canonical page at /corpus/construction-spine/{slug}/. Falls back
+    to an inert chip if the lookup misses (stale or unrecognized id).
+  {%- endcomment -%}
   <ul class="prior-art-cs-list">
     {%- for cs_id in cluster.related_construction_steps -%}
-      <li><a class="prior-art-cs-link" href="{{ '/corpus/construction-spine/' | relative_url }}"><code>{{ cs_id }}</code></a></li>
+      {%- assign cs_url = nil -%}
+      {%- for step in site.data.construction_spine['construction-spine'] -%}
+        {%- if step.id == cs_id -%}
+          {%- assign cs_url = step.corpus_path -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if cs_url -%}
+        <li><a class="prior-art-cs-link" href="{{ cs_url | relative_url }}"><code>{{ cs_id }}</code></a></li>
+      {%- else -%}
+        <li><code>{{ cs_id }}</code></li>
+      {%- endif -%}
     {%- endfor -%}
   </ul>
 </section>

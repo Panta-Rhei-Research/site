@@ -40,7 +40,16 @@
 {%- if matched.size > 0 -%}
 <section class="content-card prior-art-related" aria-labelledby="prior-art-related-heading">
   <h2 id="prior-art-related-heading">Related approaches and prior art</h2>
-  <p class="muted-note">Bibliography clusters whose prior art bears on this {{ page.type | default: "page" | downcase }}. Each cluster links to its representative references and to the broader Deep Comparison briefing.</p>
+  {%- comment -%}
+    Wording rationale: the panel embeds on multiple page-types
+    (Structural Challenge Ledger items, Challenge Responses, opt-in
+    Result pages). Earlier wording substituted page.type | downcase,
+    which produced "structural challenge" / "challenge response" /
+    "page" mid-sentence — inconsistent and slightly stilted on the
+    proper-noun cases. "Page" is the lowest-common-denominator that
+    reads cleanly in every context.
+  {%- endcomment -%}
+  <p class="muted-note">Bibliography clusters whose prior art bears on this page. Each cluster links to its representative references and to the broader Deep Comparison briefing.</p>
   <ul class="prior-art-related-list" role="list">
     {%- for c in matched -%}
     <li class="prior-art-related-item">
