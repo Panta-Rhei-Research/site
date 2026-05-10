@@ -70,7 +70,7 @@ jobs:
           npm run headers:dry-run
 
       - name: Install Python QA dependencies
-        run: python3 -m pip install PyYAML
+        run: python3 -m pip install PyYAML beautifulsoup4
 
       - name: Check manifest-owned release metrics
         run: |
