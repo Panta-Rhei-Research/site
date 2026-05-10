@@ -44,11 +44,11 @@ The matrix is not a single checklist. It is a routing layer that helps a reader 
 
 ## Review routes
 
-The former standalone reviewer kit has been folded into Verify and Engage.
+The former broad reviewer-kit concept has been split into routed Verify/Engage workflows and a media-facing [Review Kit]({{ '/media/review-kit/' | relative_url }}) for expert handoff.
 
-Use this page to choose an inspection route. Use [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}) for structured workflows. Use [Engage → Review the Work]({{ '/engage/review-the-work/' | relative_url }}) to offer bounded review, critique, correction, or contribution.
+Use this page to choose an inspection route. Use [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}) for structured workflows. Use [Engage → Review the Work]({{ '/engage/review-the-work/' | relative_url }}) to offer bounded review, critique, correction, or contribution. Use the [Media Review Kit]({{ '/media/review-kit/' | relative_url }}) when a journalist, editor, or institution needs to route a bounded question to the right expert.
 
-Review is a routed activity, not a standalone kit. Panta Rhei is inspected through bounded routes across Verify and Engage.
+Review is a routed activity. The [Media Review Kit]({{ '/media/review-kit/' | relative_url }}) helps with expert handoff; Verify and Engage carry the deeper inspection and contribution routes.
 
 ## Start with the inspection architecture
 

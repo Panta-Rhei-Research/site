@@ -40,7 +40,7 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a pub
 <section class="content-card homepage-section homepage-faq-strip">
   <p class="v2-kicker">First-contact questions</p>
   <h2>What is this, and what is it claiming?</h2>
-  <p class="muted-note">Five immediate credibility-filter questions before you choose where to read. Each links to its full answer with related routes and source pages.</p>
+  <p class="muted-note">A first-contact credibility filter before you choose where to read. Each card links to its full answer with related routes and source pages — see the <a href="{{ '/faq/first-contact/' | relative_url }}">First Contact FAQ</a> for the complete layer.</p>
   {% include faqs/faq-list.html ids="FAQ-FC-001,FAQ-FC-002,FAQ-FC-003,FAQ-FC-004,FAQ-FC-005" style="accordion" %}
   <p class="muted-note" style="margin-top: 12px;"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries →</a></p>
 </section>
