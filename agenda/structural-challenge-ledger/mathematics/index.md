@@ -39,11 +39,11 @@ The mathematics ledger combines four challenge families:
 - **Foundations & Logic Challenge Set** — eighteen challenges drawn from socially stabilised foundational programmes: foundational adequacy, minimal expressive power, finitism/constructivism boundary, continuum ontic status, Gödel limitation, consistency, categoricity, categorical foundations, type-theoretic / univalent foundations, linear logic, paraconsistent / Belnap logic, internal logic, set-theoretic strength, independence and large cardinals, proof-theoretic strength, computability and formalisation, ontology of mathematical objects, and pluralism vs uniqueness.
 - **τ-native** — eight challenge families (kernel categoricity, central theorem bridge, τ-zeta and spectral arithmetic, GRH hierarchy, τ-topos and internal logic, address resolution and hyperfactorisation, diagonal limitation, formalisation adequacy) that cross-link to existing τ pages.
 
-## Build status
+## Active construction
 
-This is a **Wave 1 stub**. Item content is authored in subsequent waves and lives in `corpus/structural-challenge-ledger/items/mathematics/`. See the [program roadmap](/agenda/structural-challenge-ledger/) for wave-by-wave delivery.
+This domain ledger is in active construction. The framework, four-family architecture, and curation rules above are canonical; detailed per-challenge items will appear on this page as the construction spine reaches each family.
 
-When Wave 2 lands, this page will surface a four-family card grid populated from the corpus manifest at `_data/structural_challenges/mathematics.yml`.
+For the program-wide framework and source policy, see the [Structural Challenge Ledger overview]({{ '/agenda/structural-challenge-ledger/' | relative_url }}). For τ's published mathematical results, see the [Mathematics results hub]({{ '/results/mathematics/' | relative_url }}).
 
 ## What this ledger does not claim
 
