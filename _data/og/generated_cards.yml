@@ -671,6 +671,16 @@ cards:
     width: 1200
     height: 630
     webp: /assets/og/webp/program__about.webp
+  program__about__founders:
+    route: /program/about/founders/
+    page_key: program.founders
+    title: Founders
+    image: /assets/og/png/program__about__founders.png
+    svg: /assets/og/svg/program__about__founders.svg
+    alt: Panta Rhei preview card for Founders.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__founders.webp
   program__why-this-work-matters:
     route: /program/why-this-work-matters/
     page_key: program.why_this_work_matters
@@ -1222,6 +1232,16 @@ cards:
     width: 1200
     height: 630
     webp: /assets/og/webp/verify__predictions-and-falsification.webp
+  verify__predictions-and-falsification__predictions:
+    route: /verify/predictions-and-falsification/predictions/
+    page_key: null
+    title: Predictions and Falsification
+    image: /assets/og/png/verify__predictions-and-falsification__predictions.png
+    svg: /assets/og/svg/verify__predictions-and-falsification__predictions.svg
+    alt: Panta Rhei preview card for Predictions and Falsification.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__predictions-and-falsification__predictions.webp
   verify__release-manifest:
     route: /verify/release-manifest/
     page_key: verify.release_manifest
