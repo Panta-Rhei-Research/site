@@ -1,0 +1,36 @@
+{%- comment -%}
+sitemap-bucket.liquid — single source of truth for child-sitemap classification.
+
+Sets `_bucket` based on `include.url`. Buckets (mutually exclusive):
+
+  * core           — human-authored L0-L4 pages (default)
+  * registry       — /registry/* (4,570 auto-generated registry objects)
+  * bibliography   — /bibliography/* (1,149 auto-generated references)
+  * corpus-bulk    — /corpus/monographs/*, /corpus/taulib/* (1,129 auto-generated)
+  * results-bulk   — /results/{additional-noteworthy-results,problem,physics,life,
+                     metaphysics,mathematics,calibration-cascade,falsifications,
+                     predictions}/* (925 auto-generated facet/path pages)
+  * predictions    — /predictions/* (~67 auto-generated)
+
+The split is by URL prefix (deterministic, no frontmatter inspection needed) so
+it works identically across all six child sitemaps and the sitemap index.
+
+Usage:
+  {% include sitemap-bucket.liquid url=item.url %}
+  {% if _bucket == "core" %} ... {% endif %}
+{%- endcomment -%}
+{%- assign _parts = include.url | split: "/" -%}
+{%- assign _t = _parts[1] -%}
+{%- assign _s = _parts[2] -%}
+{%- assign _bucket = "core" -%}
+{%- if _t == "registry" -%}{%- assign _bucket = "registry" -%}{%- endif -%}
+{%- if _t == "bibliography" -%}{%- assign _bucket = "bibliography" -%}{%- endif -%}
+{%- if _t == "predictions" -%}{%- assign _bucket = "predictions" -%}{%- endif -%}
+{%- if _t == "corpus" -%}
+  {%- if _s == "monographs" -%}{%- assign _bucket = "corpus-bulk" -%}{%- endif -%}
+  {%- if _s == "taulib" -%}{%- assign _bucket = "corpus-bulk" -%}{%- endif -%}
+{%- endif -%}
+{%- if _t == "results" -%}
+  {%- assign _rb_list = "additional-noteworthy-results,problem,physics,life,metaphysics,mathematics,calibration-cascade,falsifications,predictions" | split: "," -%}
+  {%- if _rb_list contains _s -%}{%- assign _bucket = "results-bulk" -%}{%- endif -%}
+{%- endif -%}

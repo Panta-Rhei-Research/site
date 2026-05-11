@@ -1,0 +1,27 @@
+---
+# sitemap-corpus-bulk.xml — /corpus/monographs/* + /corpus/taulib/* (~1,129)
+#
+# Auto-generated TauLib-derived monograph and library reference pages.
+#
+# Inclusion rule: classifier `_bucket == "corpus-bulk"` from
+# `_includes/sitemap-bucket.liquid`.
+layout: null
+permalink: /sitemap-corpus-bulk.xml
+sitemap: false
+---
+{%- assign all_items = site.html_pages | concat: site.documents -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in all_items -%}
+  {%- if item.sitemap == false -%}{%- continue -%}{%- endif -%}
+  {%- if item.layout == "redirect" -%}{%- continue -%}{%- endif -%}
+  {%- include sitemap-bucket.liquid url=item.url -%}
+  {%- unless _bucket == "corpus-bulk" -%}{%- continue -%}{%- endunless -%}
+  {%- assign _mod = item.last_modified_at | default: item.last_updated | default: item.date | default: site.time -%}
+  <url>
+    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ _mod | date_to_xmlschema }}</lastmod>
+  </url>
+{%- endfor -%}
+
+</urlset>
