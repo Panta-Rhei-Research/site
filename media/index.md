@@ -3,7 +3,7 @@ layout: program-doc
 title: "Media Kit"
 permalink: /media/
 lane: support
-type: support_page
+type: media_kit
 support_type: media
 status: canonical
 last_updated: 2026-05-09
@@ -62,8 +62,8 @@ right_rail:
   - title: WP004 Observatory Blueprint
     url: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
   meta:
-    type: "Support page"
-    scope: "Media kit"
+    type: "Media Kit"
+    scope: "Press, podcasts, and public communicators"
     status: "Canonical"
     updated: "May 2026"
 ---
@@ -79,8 +79,8 @@ A compact, manifest-driven snapshot of the public release. Numbers are sourced f
 - **Status.** Independent research; not yet traditionally peer-reviewed. Open for structured scrutiny via [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }}) and [Engage → Review the Work]({{ '/engage/review-the-work/' | relative_url }}).
 - **Current public site.** v4 research observatory, May 2026.
 - **Canonical monographs.** Seven-book Second Edition, April 2026.
-- **Corpus.** {% include release-metric.html id="registry.dashboard_display.grand_total" %} registry objects with dependency routes.
-- **TauLib.** {% include release-metric.html id="taulib.modules" %} Lean 4 modules, {% include release-metric.html id="taulib.sorry" %} `sorry`, {% include release-metric.html id="taulib.custom_axioms" %} custom axioms in Book III bridge territory.
+- **Corpus.** {% include release-metric.html id="registry.registry_total.grand_total" %} registry objects with dependency routes.
+- **TauLib.** {% include release-metric.html id="taulib.modules" %} Lean 4 modules, {% include release-metric.html id="taulib.theorems_lemmas" %} theorem and lemma records, {% include release-metric.html id="taulib.sorry" %} `sorry` assignments, and {% include release-metric.html id="taulib.custom_axioms" %} disclosed custom axioms in the current public release.
 - **Results.** {% include release-metric.html id="results.records" %} key result pages across four domains.
 - **Predictions.** {% include release-metric.html id="predictions.records" %} quantitative prediction records and {% include release-metric.html id="falsifications.records" %} named falsification tests.
 - **Safe first angle.** Inspection architecture, not validation of the theory.
@@ -237,23 +237,13 @@ Start with [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}), [Asse
   </a>
   <a class="v2-tile" href="{{ '/media/posters/' | relative_url }}">
     <h3>Scientific Plates</h3>
-    <p>The program's visual atlas — print-quality 1536 × 864 master JPGs of every published scientific plate. CC BY 4.0; CORS-permissive index at /api/plates.json.</p>
+    <p>The program's visual atlas — print-quality master JPGs of every published scientific plate, with plate-specific dimensions. CC BY 4.0; CORS-permissive index at /api/plates.json.</p>
   </a>
   <a class="v2-tile" href="{{ '/publications/anchor-documents/' | relative_url }}">
     <h3>Anchor Documents</h3>
     <p>WP000, C001, and WP001–WP005: citable offline routes into the public observatory, theory synopsis, TauLib, inspection architecture, and conditional impact.</p>
   </a>
 </div>
-
-## Decisive test — CMB-S4 r ≈ 0.0136
-
-The single most journalism-leverageable framing: the program ships a **decisive falsification test on day one**. Category τ predicts the CMB-S4 tensor-to-scalar ratio at
-
-> r ≈ ι<sub>τ</sub>⁴ ≈ **0.0136**
-
-CMB-S4 — the next-generation CMB experiment, operational around 2030 — will measure r at a precision that distinguishes this prediction from competing inflationary models. **The framework is committed in advance.** If r ≈ 0.0136 the prediction succeeds; if r is materially different, the framework is in serious trouble.
-
-For the full timeline + all {% include release-metric.html id="falsifications.records" %} named falsification tests, see [Predictions & Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }}). For the angle's deeper framing, see [Story Angles → Falsification on day one]({{ '/media/story-angles/' | relative_url }}#angle-3--falsification-on-day-one).
 
 ## Quick Facts
 
@@ -267,6 +257,16 @@ For the full timeline + all {% include release-metric.html id="falsifications.re
 - **Predictions and falsification**: {% include release-metric.html id="predictions.records" %} quantitative prediction records plus {% include release-metric.html id="falsifications.records" %} named falsification tests in the current public projection
 - **Decisive test**: CMB-S4 tensor-to-scalar ratio r ≈ ι<sub>τ</sub>⁴ ≈ 0.0136 (~2030)
 - **Status**: Independent research — not yet peer-reviewed in traditional journals
+
+## Decisive test — CMB-S4 r ≈ 0.0136
+
+A specific falsification angle, sitting after the inspection-architecture framing above as one possible story among several. The program ships a **decisive falsification test on day one**. Category τ predicts the CMB-S4 tensor-to-scalar ratio at
+
+> r ≈ ι<sub>τ</sub>⁴ ≈ **0.0136**
+
+CMB-S4 — the next-generation CMB experiment, operational around 2030 — will measure r at a precision that distinguishes this prediction from competing inflationary models. **The framework is committed in advance.** If r ≈ 0.0136 the prediction succeeds; if r is materially different, the framework is in serious trouble.
+
+For the full timeline + all {% include release-metric.html id="falsifications.records" %} named falsification tests, see [Predictions & Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }}). For the angle's deeper framing, see [Story Angles → Falsification on day one]({{ '/media/story-angles/' | relative_url }}#angle-3--falsification-on-day-one).
 
 ## Downloadable Materials
 
@@ -388,7 +388,7 @@ Brand assets, diagrams, and public figures should be reused with attribution to 
 
 ### Scientific plates — visual atlas
 
-The program publishes a series of **scientific plates** — editorial-quality structural maps that compress key arguments into single-frame, scan-readable visuals. The full atlas (currently {{ site.data.plates | size }} plates, all CC BY 4.0) lives at [`/media/posters/`]({{ '/media/posters/' | relative_url }}), each with a print-quality 1536 × 864 master JPG suitable for editorial layouts, conference talks, slide decks, and printed handouts. A machine-readable index for cross-site embedding is published at [`/api/plates.json`]({{ '/api/plates.json' | relative_url }}) (CORS-permissive).
+The program publishes a series of **scientific plates** — editorial-quality structural maps that compress key arguments into single-frame, scan-readable visuals. The full atlas (currently {{ site.data.plates | size }} plates, all CC BY 4.0) lives at [`/media/posters/`]({{ '/media/posters/' | relative_url }}), each with a print-quality master JPG using plate-specific dimensions suitable for editorial layouts, conference talks, slide decks, and printed handouts. A machine-readable index for cross-site embedding is published at [`/api/plates.json`]({{ '/api/plates.json' | relative_url }}) (CORS-permissive).
 
 For social-media share cards, see [Social Media Kit → Share cards]({{ '/media/social-media-kit/' | relative_url }}#share-cards-visual-assets).
 

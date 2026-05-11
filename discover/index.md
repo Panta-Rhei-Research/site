@@ -6,7 +6,7 @@ v2_lane: discover
 permalink: /discover/
 type: "Lane Root"
 status: "Canonical"
-summary_short: "A guided first-contact route into the Panta Rhei Research Program."
+summary_short: "Start here. A guided first-contact route into the Panta Rhei Research Program — the canonical landing surface for readers arriving from a launch post, podcast, or external link."
 og_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
 twitter_image: /assets/images/plates/plate-01-public-research-observatory-og.jpg
 og_image_alt: "Scientific plate mapping the Panta Rhei Research Program as a public research observatory with Agenda, Corpus, Results, Verify, Publications, Impact, and Engage."
