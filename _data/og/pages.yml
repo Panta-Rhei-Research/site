@@ -52,6 +52,12 @@ pages:
     variant: light
     template: og-light-standard
     subtitle: "Citable v4 anchor documents for first-contact readers, reviewers, and institutional audiences."
+  - route: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+    icon: explore
+    variant: light
+    template: og-light-standard
+    title: "WP000 · Panta Rhei at a Glance"
+    subtitle: "A four-page first-contact primer for reading Panta Rhei as an inspectable public research object."
   - route: /publications/anchor-documents/c001-standing-in-the-inquiry-of-being/
     icon: history_edu
     variant: light
