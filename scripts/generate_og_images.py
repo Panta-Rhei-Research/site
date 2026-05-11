@@ -37,7 +37,8 @@ PNG_DIR = ASSETS_DIR / "png"
 WEBP_DIR = ASSETS_DIR / "webp"
 GALLERY_DIR = ASSETS_DIR / "gallery"
 ICON_DIR = ASSETS_DIR / "icons" / "material-symbols"
-LOCKUP_SVG = ASSETS_DIR / "logo" / "logo-og-lockup.svg"
+LOCKUP_SVG_DARK = ASSETS_DIR / "logo" / "logo-og-lockup.svg"
+LOCKUP_SVG_LIGHT = ASSETS_DIR / "logo" / "logo-og-lockup-light.svg"
 
 
 LANE_ICONS = {
@@ -329,41 +330,49 @@ def icon_markup(token: str, color: str, opacity: str) -> str:
     """
 
 
-def _load_lockup_inner() -> str:
-    """Read the canonical PRRP logo lockup SVG and return the inner content
-    (everything inside the outer <svg> element). Result is cached so the file
-    is read once per process even when rendering many cards."""
-    if not LOCKUP_SVG.exists():
-        return ""
-    text = LOCKUP_SVG.read_text(encoding="utf-8", errors="ignore")
-    # Drop the XML declaration and DOCTYPE if present.
+def _load_lockup_payload(svg_path: Path) -> tuple[str, float]:
+    """Read a Panta Rhei brand-lockup SVG and return (inner_content, src_width).
+
+    The src_width is parsed from the outer <svg viewBox="..."> declaration so
+    we compute the correct scale factor for each variant (the dark and light
+    lockup SVGs have slightly different viewBoxes: 2128x1074 vs 2111x1057)."""
+    if not svg_path.exists():
+        return "", 0.0
+    text = svg_path.read_text(encoding="utf-8", errors="ignore")
     text = re.sub(r"<\?xml[^?]*\?>", "", text)
     text = re.sub(r"<!DOCTYPE[^>]*>", "", text)
-    # Extract the inner content of the outer <svg> element.
-    match = re.search(r"<svg\b[^>]*>(.*)</svg>\s*$", text, re.DOTALL)
-    return match.group(1) if match else ""
+    inner_match = re.search(r"<svg\b[^>]*>(.*)</svg>\s*$", text, re.DOTALL)
+    inner = inner_match.group(1) if inner_match else ""
+    vb_match = re.search(r'viewBox="(?:\d+\s+\d+\s+)?(\d+(?:\.\d+)?)\s+\d+(?:\.\d+)?"', text)
+    src_w = float(vb_match.group(1)) if vb_match else 2128.0
+    return inner, src_w
 
 
-_LOCKUP_INNER_CACHE: str | None = None
+_LOCKUP_CACHE: dict[str, tuple[str, float]] = {}
 
 
 def render_lockup(color: str, variant: str = "dark") -> str:
-    """Embed the canonical Panta Rhei brand lockup SVG (logo-og-lockup.svg) in
-    the upper-right corner of the OG card. The source artwork is a navy chip
-    (#163E64) with cream wordmark (#F6F7F3) drawn as outlined paths, viewBox
-    2128x1074 (~2:1). We embed it inside a <g> with a translate+scale transform
-    so the rendered placement is consistent across all 1200x630 OG cards.
+    """Embed the canonical Panta Rhei brand lockup SVG in the upper-right of
+    the OG card. Two variants exist:
 
-    The `color` argument is accepted for back-compat with the dark/light variant
-    plumbing in VARIANTS["lockup"], but the canonical SVG is monochrome by
-    design so we don't recolor it. The chip provides its own contrast on light
-    backgrounds; on dark backgrounds the navy chip merges with the gradient and
-    the cream wordmark remains crisp on the card background."""
-    global _LOCKUP_INNER_CACHE
-    if _LOCKUP_INNER_CACHE is None:
-        _LOCKUP_INNER_CACHE = _load_lockup_inner()
-    inner = _LOCKUP_INNER_CACHE
-    if not inner:
+      * dark   -> logo-og-lockup.svg       (navy chip + cream wordmark)
+      * light  -> logo-og-lockup-light.svg (transparent bg + navy wordmark)
+
+    Both come from atlas/design/logo/logo-ug-images*.svg. We pick the lockup
+    that gives the right contrast on each card background: the dark cards use
+    the navy-chip lockup (the chip merges tastefully into the gradient and the
+    cream wordmark stays crisp); the light cards use the transparent-bg lockup
+    (navy wordmark on cream — no double-chip).
+
+    The `color` argument is accepted for back-compat with the per-variant
+    `lockup` color in VARIANTS, but the SVGs are designed monochrome so we do
+    not recolor them."""
+    key = "light" if variant == "light" else "dark"
+    if key not in _LOCKUP_CACHE:
+        path = LOCKUP_SVG_LIGHT if key == "light" else LOCKUP_SVG_DARK
+        _LOCKUP_CACHE[key] = _load_lockup_payload(path)
+    inner, src_w = _LOCKUP_CACHE[key]
+    if not inner or src_w <= 0:
         # Defensive fallback to the previous text lockup if the SVG goes missing.
         return f"""
       <g transform="translate(785 26)" fill="{color}">
@@ -374,10 +383,9 @@ def render_lockup(color: str, variant: str = "dark") -> str:
       </g>
     """
     # Layout: place the lockup chip in the upper-right of the 1200x630 card.
-    # Width 280 -> scale 280/2128 ~= 0.1316 -> height ~= 141.
+    # Target width 280 px; scale from each SVG's intrinsic viewBox width.
     # Origin x = 1200 - 280 - 48 (right margin) = 872, y = 28 (top margin).
     target_w = 280.0
-    src_w = 2128.0
     scale = target_w / src_w
     x = 872.0
     y = 28.0
@@ -418,7 +426,7 @@ def render_svg(record: dict[str, Any]) -> str:
   </defs>
   {background_svg(record["variant"])}
   {icon_markup(record["icon"], variant["icon"], icon_opacity)}
-  {render_lockup(variant["lockup"])}
+  {render_lockup(variant["lockup"], record["variant"])}
   <g transform="translate(70 76)">
     <rect width="{eyebrow_width}" height="44" rx="22" fill="{variant["eyebrow_bg"]}" opacity="0.96"/>
     <text x="18" y="29" font-family="Source Code Pro OG, ui-monospace, monospace" font-size="{eyebrow_font_size}" font-weight="700" letter-spacing="1.8" fill="{variant["eyebrow_text"]}">{xml(record["eyebrow"])}</text>
