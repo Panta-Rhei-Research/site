@@ -171,11 +171,49 @@ echo "── robots.txt + sitemap.xml integrity ──────────�
 file_contains "/robots.txt" "Content-Signal"                        "Content-Signal directive present"
 file_contains "/robots.txt" "Sitemap: https://panta-rhei.site"      "sitemap reference present"
 
-loc_count=$(grep -c '<loc>' "$SITE/sitemap.xml" 2>/dev/null || echo "0")
-if [ "$loc_count" -ge 100 ]; then
-  pass "sitemap has ${loc_count} URLs (expected ≥100)"
+# /sitemap.xml is a sitemap INDEX referencing six child sitemaps (see
+# _includes/sitemap-bucket.liquid). Validate:
+#   1. /sitemap.xml is a <sitemapindex> (not a <urlset>)
+#   2. All six child sitemap files exist
+#   3. Each child contains a non-trivial number of <loc> URLs
+#   4. Total URLs across children ≥ 5000 (canonical ~8,864 on prod)
+if grep -q '<sitemapindex' "$SITE/sitemap.xml" 2>/dev/null; then
+  pass "sitemap.xml is a <sitemapindex>"
 else
-  fail "sitemap has only ${loc_count} URLs (expected ≥100)"
+  fail "sitemap.xml is not a <sitemapindex> — expected sitemap index format"
+fi
+CHECK_COUNT=$((CHECK_COUNT+1))
+
+total_locs=0
+declare -A child_min=(
+  ["sitemap-core.xml"]=500
+  ["sitemap-registry.xml"]=4000
+  ["sitemap-bibliography.xml"]=1000
+  ["sitemap-corpus-bulk.xml"]=1000
+  ["sitemap-results-bulk.xml"]=500
+  ["sitemap-predictions.xml"]=20
+)
+for child in sitemap-core.xml sitemap-registry.xml sitemap-bibliography.xml sitemap-corpus-bulk.xml sitemap-results-bulk.xml sitemap-predictions.xml; do
+  if [ ! -f "$SITE/$child" ]; then
+    fail "MISSING /$child"
+    CHECK_COUNT=$((CHECK_COUNT+1))
+    continue
+  fi
+  child_locs=$(grep -c '<loc>' "$SITE/$child" 2>/dev/null || echo "0")
+  total_locs=$((total_locs + child_locs))
+  min_expected=${child_min[$child]}
+  if [ "$child_locs" -ge "$min_expected" ]; then
+    pass "/$child has ${child_locs} URLs (≥${min_expected} expected)"
+  else
+    fail "/$child has only ${child_locs} URLs (expected ≥${min_expected})"
+  fi
+  CHECK_COUNT=$((CHECK_COUNT+1))
+done
+
+if [ "$total_locs" -ge 5000 ]; then
+  pass "sitemap total URLs across children: ${total_locs} (≥5000 expected)"
+else
+  fail "sitemap total URLs across children: only ${total_locs} (expected ≥5000)"
 fi
 CHECK_COUNT=$((CHECK_COUNT+1))
 
