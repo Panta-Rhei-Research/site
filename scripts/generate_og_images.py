@@ -40,6 +40,15 @@ ICON_DIR = ASSETS_DIR / "icons" / "material-symbols"
 LOCKUP_SVG_DARK = ASSETS_DIR / "logo" / "logo-og-lockup.svg"
 LOCKUP_SVG_LIGHT = ASSETS_DIR / "logo" / "logo-og-lockup-light.svg"
 
+# Embedded card-design version. Bump this when the visual design changes (e.g.
+# new lockup, new colors, new typography). The string is included as a comment
+# in every generated SVG so:
+#   - card vintage is verifiable from any deployed PNG/SVG by inspecting the SVG
+#   - a design bump invalidates downstream CDN edge caches deterministically
+#     (the SVG/PNG/WEBP bytes change, ETags change, edges revalidate)
+# Format: vN where N is incremented on each design wave.
+CARD_DESIGN_VERSION = "v2"
+
 
 LANE_ICONS = {
     "home": "explore",
@@ -413,6 +422,7 @@ def render_svg(record: dict[str, Any]) -> str:
     icon_opacity = "0.18" if record["variant"] == "dark" else "0.10"
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
+<!-- Panta Rhei OG card · design {CARD_DESIGN_VERSION} · canonical-lockup -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="{xml(record['alt'])}">
   <defs>
     <style>
