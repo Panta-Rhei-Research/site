@@ -3,7 +3,7 @@ layout: program-doc
 title: "Open Research Brief"
 permalink: /media/open-research-brief/
 lane: support
-type: support_page
+type: press_brief
 support_type: media
 status: canonical
 last_updated: 2026-05-09
@@ -54,11 +54,13 @@ Open science, public trust, AI-enabled research, preprints, independent research
 
 A public research observatory:
 
+- **Discover** — first-contact orientation.
 - **Program** — identity and doctrine.
 - **Agenda** — obligations.
 - **Corpus** — construction.
 - **Results** — consequence surfaces.
 - **Verify** — inspection routes.
+- **Publications** — stable citable artifacts and release surfaces.
 - **Impact** — conditional relevance.
 - **Engage** — open scrutiny.
 
@@ -76,11 +78,12 @@ Panta Rhei has proven its theory, solved its ledgers, or received external scien
 
 ## Best first links
 
+- [Start Here / Discover]({{ '/discover/' | relative_url }})
 - [Homepage]({{ '/' | relative_url }})
 - [WP000 at a Glance]({{ '/publications/anchor-documents/wp000-panta-rhei-at-a-glance/' | relative_url }})
+- [Media Kit]({{ '/media/' | relative_url }})
 - [Inspection Observatory]({{ '/program/about/inspection-observatory/' | relative_url }})
 - [WP004 Public Research Observatory Blueprint]({{ '/publications/anchor-documents/wp004-public-research-observatory-blueprint/' | relative_url }})
-- [Media Kit]({{ '/media/' | relative_url }})
 - [How to Verify]({{ '/verify/how-to-verify/' | relative_url }})
 - [Assessment Protocols]({{ '/verify/assessment-protocols/' | relative_url }})
 - [Agenda]({{ '/agenda/' | relative_url }})

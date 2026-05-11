@@ -163,6 +163,12 @@ Home::/|Publications::/publications/|Archived Releases::/publications/archived/|
   {%- endif -%}
 {%- elsif page.lane == 'publications' and page.url == '/publications/bibliography/' -%}
 Home::/|Publications::/publications/|Bibliography::{{ page.url }}
+{%- elsif page.lane == 'support' and page.url contains '/media/' -%}
+  {%- if page.url == '/media/' -%}
+Home::/|Media Kit::{{ page.url }}
+  {%- else -%}
+Home::/|Media Kit::/media/|{{ page.title | replace: '|', ' ' }}::{{ page.url }}
+  {%- endif -%}
 {%- elsif page.lane == 'impact' and page.url contains '/impact/global-public-good/' -%}
   {%- if page.url == '/impact/global-public-good/' -%}
 Home::/|Impact::/impact/|Global Public Good::{{ page.url }}
