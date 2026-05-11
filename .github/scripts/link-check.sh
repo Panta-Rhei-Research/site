@@ -28,13 +28,23 @@ fi
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-# Only persistent false-positive: Pagefind URLs carry `?v=<epoch>` cache-bust
-# that html-proofer doesn't strip before the file-exists check. The rest of
-# the historical ignore-list (25 items tracked in
-# atlas/audits/site/2026-04-19-dead-link-audit.md) has been resolved at source
-# in a follow-up sprint — Book IV YAML fixes, registry-drift cleanup,
+# Persistent false-positives ignored:
+#
+# 1. /\/pagefind\// — Pagefind URLs carry `?v=<epoch>` cache-bust that
+#    html-proofer doesn't strip before the file-exists check.
+# 2. /^mailto:\?/ — The "Email to expert" affordance in _includes/page-tools.html
+#    emits a recipient-less mailto with URL-encoded subject + body. This is
+#    valid per RFC 6068 §2 ("the to-addr is OPTIONAL") and is the intended
+#    UX: the user picks the expert's address themselves. html-proofer's
+#    mailto-parser is conservative and reports "contains no email address";
+#    that finding is a parser limitation, not a real broken link. ~9k pages
+#    emit this anchor (every page using the page-tools "bottom" variant).
+#
+# The rest of the historical ignore-list (25 items tracked in
+# atlas/audits/site/2026-04-19-dead-link-audit.md) has been resolved at
+# source in a follow-up sprint — Book IV YAML fixes, registry-drift cleanup,
 # Results slug rewrites, asset generation, stale-ref removal.
-IGNORE_URLS='/\/pagefind\//'
+IGNORE_URLS='/\/pagefind\//,/^mailto:\?/'
 
 echo "═══════════════════════════════════════════════════════════"
 echo " Dead-link audit against ${SITE}/"
