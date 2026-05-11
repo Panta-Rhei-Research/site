@@ -721,6 +721,16 @@ cards:
     width: 1200
     height: 630
     webp: /assets/og/webp/publications__anchor-documents__c001-standing-in-the-inquiry-of-being.webp
+  publications__anchor-documents__wp000-panta-rhei-at-a-glance:
+    route: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+    page_key: null
+    title: WP000 · Panta Rhei at a Glance
+    image: /assets/og/png/publications__anchor-documents__wp000-panta-rhei-at-a-glance.png
+    svg: /assets/og/svg/publications__anchor-documents__wp000-panta-rhei-at-a-glance.svg
+    alt: Panta Rhei preview card for WP000 · Panta Rhei at a Glance.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/publications__anchor-documents__wp000-panta-rhei-at-a-glance.webp
   publications__anchor-documents__wp001-panta-rhei-research-program-executive-overview:
     route: /publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/
     page_key: null
