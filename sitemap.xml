@@ -1,44 +1,54 @@
 ---
-# sitemap.xml — custom Jekyll sitemap that overrides jekyll-sitemap
+# sitemap.xml — sitemap INDEX
 #
-# When a sitemap.xml file exists at site source root, jekyll-sitemap defers to
-# it and skips its own generation (per the plugin's `Site#generate` guard). This
-# template emits one <url> per published page/document with a non-empty <lastmod>
-# for every URL — including the 86% of pages (registry objects, prediction
-# pages, falsification packs, results, ...) where the upstream plugin emitted
-# no <lastmod> because they have no `last_modified_at` frontmatter.
+# As of May 2026, the sitemap is split into six child sitemaps so Google
+# Search Console can report indexing progress per content type, and so the
+# crawler can prioritize human-authored canonical pages over the 7,800+
+# auto-generated registry/bibliography/monograph/results-facet pages.
 #
-# lastmod fallback chain (in order):
-#   1. page.last_modified_at   — jekyll-last-modified-at convention (not used yet)
-#   2. page.last_updated       — this project's canonical "page version" field
-#   3. page.date               — Jekyll-auto for posts; explicit on some pages
-#   4. site.time               — build time (always available; never null)
+# Child sitemaps (mutually exclusive, classification by URL prefix in
+# `_includes/sitemap-bucket.liquid`):
 #
-# Exclusion rules:
-#   - sitemap: false           — page-level opt-out
-#   - layout: redirect         — legacy redirect stubs (already noindex'd; the
-#                                jekyll-sitemap convention is to exclude these)
-#   - .html files with no `output: true` — Jekyll handles this automatically;
-#                                          unpublished docs do not appear in
-#                                          site.documents.
+#   /sitemap-core.xml            ~1,047 human-authored L0-L4 pages
+#   /sitemap-registry.xml        ~4,570 /registry/* registry objects
+#   /sitemap-bibliography.xml    ~1,149 /bibliography/* references
+#   /sitemap-corpus-bulk.xml     ~1,129 /corpus/monographs/* + /corpus/taulib/*
+#   /sitemap-results-bulk.xml      ~925 /results/* facet + predictions/falsifications
+#   /sitemap-predictions.xml       ~67  /predictions/* prediction pages
 #
-# This file uses no Jekyll layout (`layout: null`) and is itself opted out of
-# its own sitemap (`sitemap: false`).
+# Total URLs across children equal the single-file v1 count (~8,875).
+#
+# robots.txt references /sitemap.xml — unchanged. Google auto-discovers
+# child sitemaps from the index. Last-modified for each child is the build
+# time, which is correct: any change in source triggers a full rebuild.
 layout: null
 permalink: /sitemap.xml
 sitemap: false
 ---
-{%- assign all_items = site.html_pages | concat: site.documents -%}
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{%- for item in all_items -%}
-{%- if item.sitemap == false -%}{%- continue -%}{%- endif -%}
-{%- if item.layout == "redirect" -%}{%- continue -%}{%- endif -%}
-{%- assign _mod = item.last_modified_at | default: item.last_updated | default: item.date | default: site.time -%}
-  <url>
-    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
-    <lastmod>{{ _mod | date_to_xmlschema }}</lastmod>
-  </url>
-{%- endfor -%}
-
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>{{ "/sitemap-core.xml" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "/sitemap-registry.xml" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "/sitemap-bibliography.xml" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "/sitemap-corpus-bulk.xml" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "/sitemap-results-bulk.xml" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{{ "/sitemap-predictions.xml" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </sitemap>
+</sitemapindex>

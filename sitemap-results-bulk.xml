@@ -1,0 +1,32 @@
+---
+# sitemap-results-bulk.xml — auto-generated /results/* facet/path pages (~925)
+#
+# Covers /results/{additional-noteworthy-results, problem, physics, life,
+# metaphysics, mathematics, calibration-cascade, falsifications,
+# predictions}/* — the templated facet structure under the Results lane.
+#
+# Curated /results/ overview pages (e.g. /results/, /results/predictions/browse/,
+# /results/falsifications/browse/) stay in sitemap-core.xml.
+#
+# Inclusion rule: classifier `_bucket == "results-bulk"` from
+# `_includes/sitemap-bucket.liquid`.
+layout: null
+permalink: /sitemap-results-bulk.xml
+sitemap: false
+---
+{%- assign all_items = site.html_pages | concat: site.documents -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in all_items -%}
+  {%- if item.sitemap == false -%}{%- continue -%}{%- endif -%}
+  {%- if item.layout == "redirect" -%}{%- continue -%}{%- endif -%}
+  {%- include sitemap-bucket.liquid url=item.url -%}
+  {%- unless _bucket == "results-bulk" -%}{%- continue -%}{%- endunless -%}
+  {%- assign _mod = item.last_modified_at | default: item.last_updated | default: item.date | default: site.time -%}
+  <url>
+    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ _mod | date_to_xmlschema }}</lastmod>
+  </url>
+{%- endfor -%}
+
+</urlset>

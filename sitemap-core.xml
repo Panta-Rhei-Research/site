@@ -1,0 +1,31 @@
+---
+# sitemap-core.xml — human-authored L0-L4 pages
+#
+# Highest crawl-priority sitemap: ~1,047 manually-authored pages including
+# all top-level lanes (program, agenda, corpus root + construction-spine +
+# foundational-hinges, verify, publications, impact, engage, discover,
+# media, results overview pages, etc.) but excluding the 7,800+ auto-
+# generated programmatic pages routed via the other five child sitemaps.
+#
+# Inclusion rule: classifier `_bucket == "core"` from
+# `_includes/sitemap-bucket.liquid`.
+layout: null
+permalink: /sitemap-core.xml
+sitemap: false
+---
+{%- assign all_items = site.html_pages | concat: site.documents -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in all_items -%}
+  {%- if item.sitemap == false -%}{%- continue -%}{%- endif -%}
+  {%- if item.layout == "redirect" -%}{%- continue -%}{%- endif -%}
+  {%- include sitemap-bucket.liquid url=item.url -%}
+  {%- unless _bucket == "core" -%}{%- continue -%}{%- endunless -%}
+  {%- assign _mod = item.last_modified_at | default: item.last_updated | default: item.date | default: site.time -%}
+  <url>
+    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ _mod | date_to_xmlschema }}</lastmod>
+  </url>
+{%- endfor -%}
+
+</urlset>
