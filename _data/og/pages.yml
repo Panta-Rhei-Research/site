@@ -88,3 +88,18 @@ pages:
     template: og-light-standard
     title: "WP005 · Global Public Good Impact Overview"
     subtitle: "Conditional public-good relevance downstream of verification, translation, and uptake."
+
+  # Pages outside the launch-critical set that nevertheless need a generated
+  # OG card because their frontmatter sets og_image to a /assets/og/png/ path.
+  # Without these overrides, the generator skips them and the override target
+  # 404s.
+  - route: /program/about/founders/
+    icon: groups
+    eyebrow: "PROGRAM · FOUNDERS"
+    title: "Founders"
+    subtitle: "Independent program by Dr. Thorsten Fuchs and Anna-Sophie Fuchs."
+  - route: /verify/predictions-and-falsification/predictions/
+    icon: track_changes
+    eyebrow: "VERIFY · PREDICTIONS"
+    title: "Predictions and Falsification"
+    subtitle: "Pre-registered, status-labeled predictions with inspection routes and falsification handles."

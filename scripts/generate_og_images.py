@@ -37,6 +37,7 @@ PNG_DIR = ASSETS_DIR / "png"
 WEBP_DIR = ASSETS_DIR / "webp"
 GALLERY_DIR = ASSETS_DIR / "gallery"
 ICON_DIR = ASSETS_DIR / "icons" / "material-symbols"
+LOCKUP_SVG = ASSETS_DIR / "logo" / "logo-og-lockup.svg"
 
 
 LANE_ICONS = {
@@ -328,8 +329,43 @@ def icon_markup(token: str, color: str, opacity: str) -> str:
     """
 
 
-def render_lockup(color: str) -> str:
-    return f"""
+def _load_lockup_inner() -> str:
+    """Read the canonical PRRP logo lockup SVG and return the inner content
+    (everything inside the outer <svg> element). Result is cached so the file
+    is read once per process even when rendering many cards."""
+    if not LOCKUP_SVG.exists():
+        return ""
+    text = LOCKUP_SVG.read_text(encoding="utf-8", errors="ignore")
+    # Drop the XML declaration and DOCTYPE if present.
+    text = re.sub(r"<\?xml[^?]*\?>", "", text)
+    text = re.sub(r"<!DOCTYPE[^>]*>", "", text)
+    # Extract the inner content of the outer <svg> element.
+    match = re.search(r"<svg\b[^>]*>(.*)</svg>\s*$", text, re.DOTALL)
+    return match.group(1) if match else ""
+
+
+_LOCKUP_INNER_CACHE: str | None = None
+
+
+def render_lockup(color: str, variant: str = "dark") -> str:
+    """Embed the canonical Panta Rhei brand lockup SVG (logo-og-lockup.svg) in
+    the upper-right corner of the OG card. The source artwork is a navy chip
+    (#163E64) with cream wordmark (#F6F7F3) drawn as outlined paths, viewBox
+    2128x1074 (~2:1). We embed it inside a <g> with a translate+scale transform
+    so the rendered placement is consistent across all 1200x630 OG cards.
+
+    The `color` argument is accepted for back-compat with the dark/light variant
+    plumbing in VARIANTS["lockup"], but the canonical SVG is monochrome by
+    design so we don't recolor it. The chip provides its own contrast on light
+    backgrounds; on dark backgrounds the navy chip merges with the gradient and
+    the cream wordmark remains crisp on the card background."""
+    global _LOCKUP_INNER_CACHE
+    if _LOCKUP_INNER_CACHE is None:
+        _LOCKUP_INNER_CACHE = _load_lockup_inner()
+    inner = _LOCKUP_INNER_CACHE
+    if not inner:
+        # Defensive fallback to the previous text lockup if the SVG goes missing.
+        return f"""
       <g transform="translate(785 26)" fill="{color}">
         <text x="0" y="44" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-weight="400">π</text>
         <text x="31" y="67" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-style="italic" font-weight="400">ρ</text>
@@ -337,6 +373,15 @@ def render_lockup(color: str) -> str:
         <text x="86" y="67" font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="21" opacity="0.82">Independent open research program</text>
       </g>
     """
+    # Layout: place the lockup chip in the upper-right of the 1200x630 card.
+    # Width 280 -> scale 280/2128 ~= 0.1316 -> height ~= 141.
+    # Origin x = 1200 - 280 - 48 (right margin) = 872, y = 28 (top margin).
+    target_w = 280.0
+    src_w = 2128.0
+    scale = target_w / src_w
+    x = 872.0
+    y = 28.0
+    return f'<g transform="translate({x:.0f} {y:.0f}) scale({scale:.6f})">{inner}</g>'
 
 
 def render_svg(record: dict[str, Any]) -> str:
