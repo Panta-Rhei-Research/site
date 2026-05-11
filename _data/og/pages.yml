@@ -109,3 +109,38 @@ pages:
     eyebrow: "VERIFY · PREDICTIONS"
     title: "Predictions and Falsification"
     subtitle: "Pre-registered, status-labeled predictions with inspection routes and falsification handles."
+
+  # /media/ sub-pages — newsroom briefs, FAQ, and press kits. The /media/ hub
+  # has a generated card via the launch-critical set, but its six sub-pages
+  # were falling back to the site-wide /assets/og-image.png. Give each its
+  # own dedicated card so the press surface looks intentional when shared.
+  - route: /media/open-research-brief/
+    icon: description
+    eyebrow: "MEDIA · PRESS BRIEF"
+    title: "Open Research Brief"
+    subtitle: "A newsroom-length brief for the first safe story: inspection architecture before belief."
+  - route: /media/theory-of-reality-brief/
+    icon: description
+    eyebrow: "MEDIA · PRESS BRIEF"
+    title: "Theory of Reality Brief"
+    subtitle: "A newsroom brief explaining why Panta Rhei says coherent theory of reality, not theory of everything."
+  - route: /media/public-research-observatory-brief/
+    icon: description
+    eyebrow: "MEDIA · PRESS BRIEF"
+    title: "Public Research Observatory Brief"
+    subtitle: "A newsroom brief for how panta-rhei.site implements a public research observatory."
+  - route: /media/journalist-faq/
+    icon: forum
+    eyebrow: "MEDIA · PRESS FAQ"
+    title: "Journalist FAQ"
+    subtitle: "Press FAQ — peer review, funding, citation, interviews, embargo policy."
+  - route: /media/social-media-kit/
+    icon: note_stack
+    eyebrow: "MEDIA · SOCIAL KIT"
+    title: "Social Media Kit"
+    subtitle: "Suggested posts, hashtags, and share cards for journalists and supporters."
+  - route: /media/story-angles/
+    icon: article
+    eyebrow: "MEDIA · STORY ANGLES"
+    title: "Story Angles for Journalists"
+    subtitle: "Five framings for journalists, with headlines, ledes, and key-fact anchors."

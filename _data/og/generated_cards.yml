@@ -651,6 +651,66 @@ cards:
     width: 1200
     height: 630
     webp: /assets/og/webp/media.webp
+  media__journalist-faq:
+    route: /media/journalist-faq/
+    page_key: support.media.journalist_faq
+    title: Journalist FAQ
+    image: /assets/og/png/media__journalist-faq.png
+    svg: /assets/og/svg/media__journalist-faq.svg
+    alt: Panta Rhei preview card for Journalist FAQ.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/media__journalist-faq.webp
+  media__open-research-brief:
+    route: /media/open-research-brief/
+    page_key: support.media.open_research_brief
+    title: Open Research Brief
+    image: /assets/og/png/media__open-research-brief.png
+    svg: /assets/og/svg/media__open-research-brief.svg
+    alt: Panta Rhei preview card for Open Research Brief.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/media__open-research-brief.webp
+  media__public-research-observatory-brief:
+    route: /media/public-research-observatory-brief/
+    page_key: support.media.public_research_observatory_brief
+    title: Public Research Observatory Brief
+    image: /assets/og/png/media__public-research-observatory-brief.png
+    svg: /assets/og/svg/media__public-research-observatory-brief.svg
+    alt: Panta Rhei preview card for Public Research Observatory Brief.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/media__public-research-observatory-brief.webp
+  media__social-media-kit:
+    route: /media/social-media-kit/
+    page_key: support.media.social_media_kit
+    title: Social Media Kit
+    image: /assets/og/png/media__social-media-kit.png
+    svg: /assets/og/svg/media__social-media-kit.svg
+    alt: Panta Rhei preview card for Social Media Kit.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/media__social-media-kit.webp
+  media__story-angles:
+    route: /media/story-angles/
+    page_key: support.media.story_angles
+    title: Story Angles for Journalists
+    image: /assets/og/png/media__story-angles.png
+    svg: /assets/og/svg/media__story-angles.svg
+    alt: Panta Rhei preview card for Story Angles for Journalists.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/media__story-angles.webp
+  media__theory-of-reality-brief:
+    route: /media/theory-of-reality-brief/
+    page_key: support.media.theory_of_reality_brief
+    title: Theory of Reality Brief
+    image: /assets/og/png/media__theory-of-reality-brief.png
+    svg: /assets/og/svg/media__theory-of-reality-brief.svg
+    alt: Panta Rhei preview card for Theory of Reality Brief.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/media__theory-of-reality-brief.webp
   program:
     route: /program/
     page_key: program.index
