@@ -30,7 +30,7 @@ right_rail:
       url: "/verify/release-manifest/"
     -
       title: "Generated Docs"
-      url: "https://taulib.panta-rhei.site/"
+      url: "https://taulib.site/"
   meta:
     type: "White Paper"
     status: "Canonical v1.0"
@@ -56,7 +56,7 @@ disclosure, Registry correspondence, and review workflow.
   <a class="btn" href="{{ doc.pdf_path | relative_url }}">Download PDF</a>
   <a class="btn" href="/verify/taulib/">Open Verify/TauLib</a>
   <a class="btn" href="https://github.com/Panta-Rhei-Research/taulib">Inspect TauLib Repository</a>
-  <a class="btn" href="https://taulib.panta-rhei.site/">Generated Docs</a>
+  <a class="btn" href="https://taulib.site/">Generated Docs</a>
 </div>
 
 ## Release Metadata
@@ -175,7 +175,7 @@ validity.
 - Pinned release facts: [Release Manifest](/verify/release-manifest/)
 - Trust-budget disclosure: [Custom Axioms](/verify/custom-axioms/) and [TCB](/verify/tcb/)
 - Source repository: [Panta-Rhei-Research/taulib](https://github.com/Panta-Rhei-Research/taulib)
-- Generated documentation: [taulib.panta-rhei.site](https://taulib.panta-rhei.site/)
+- Generated documentation: [taulib.site](https://taulib.site/)
 
 ## Citation
 
