@@ -79,8 +79,8 @@ documents:
     short_route: "https://prrp.site/wp003"
     mnemonic_route: "https://prrp.site/wp-taulib"
     pdf_path: "/assets/pdfs/anchor-documents/wp003-taulib-technical-overview.pdf"
-    checksum_sha256: "db01b46b129c0365741c5d8da5ee3afd70c4377ec1afbe3bc7e9a9d9a278a939"
-    file_size: "303,923 bytes"
+    checksum_sha256: "e6a1f6bced734b6ad5679f8a1793eabd59e013bf6c0631523f427887544a8a9d"
+    file_size: "304008 bytes"
     page_count: 39
     license: "CC-BY-4.0"
     summary: "A canonical v1.0 technical overview of TauLib as the Lean 4 formalization layer, Release Manifest, trust budget, generated docs, and Verify/TauLib inspection route."
