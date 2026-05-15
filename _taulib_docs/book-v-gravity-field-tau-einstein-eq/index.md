@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.GravityField.TauEinsteinEq",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.GravityField.TauEinsteinEq`.",
   "module_name": "TauLib.BookV.GravityField.TauEinsteinEq",
   "module_slug": "book-v-gravity-field-tau-einstein-eq",
@@ -40,10 +40,12 @@
     {
       "kind": "structure",
       "name": "CurvatureCharH",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-char-h/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-char-h/",
       "source_line_start": 82,
       "source_line_end": 97,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D49"
       ]
@@ -51,19 +53,23 @@
     {
       "kind": "def",
       "name": "CurvatureCharH.toFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/to-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/to-float/",
       "source_line_start": 100,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MatterCharField",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-char-field/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-char-field/",
       "source_line_start": 116,
       "source_line_end": 131,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D50"
       ]
@@ -71,28 +77,34 @@
     {
       "kind": "def",
       "name": "MatterCharField.total_numer",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-numer/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-numer/",
       "source_line_start": 134,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "MatterCharField.totalFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-float/",
       "source_line_start": 138,
       "source_line_end": 139,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TauEinsteinField",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/tau-einstein-field/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/tau-einstein-field/",
       "source_line_start": 161,
       "source_line_end": 174,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D51"
       ]
@@ -100,10 +112,12 @@
     {
       "kind": "theorem",
       "name": "bianchi_from_einstein",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/bianchi-from-einstein/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/bianchi-from-einstein/",
       "source_line_start": 191,
       "source_line_end": 194,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.C03"
       ]
@@ -111,10 +125,12 @@
     {
       "kind": "theorem",
       "name": "chart_recovers_efe",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/chart-recovers-efe/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/chart-recovers-efe/",
       "source_line_start": 206,
       "source_line_end": 208,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T26"
       ]
@@ -122,10 +138,12 @@
     {
       "kind": "theorem",
       "name": "hartogs_from_boundary",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/hartogs-from-boundary/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/hartogs-from-boundary/",
       "source_line_start": 223,
       "source_line_end": 225,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T27"
       ]
@@ -133,28 +151,34 @@
     {
       "kind": "theorem",
       "name": "matter_three_sectors",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-three-sectors/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-three-sectors/",
       "source_line_start": 232,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "curvature_is_gravity",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-is-gravity/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-is-gravity/",
       "source_line_start": 236,
       "source_line_end": 237,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_curvature",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-curvature/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-curvature/",
       "source_line_start": 271,
       "source_line_end": 276,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.R65",
         "V.R67",
@@ -164,46 +188,56 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l278/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l278/",
       "source_line_start": 278,
       "source_line_end": 278,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l279/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l279/",
       "source_line_start": 279,
       "source_line_end": 279,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_matter",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-matter/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-matter/",
       "source_line_start": 282,
       "source_line_end": 289,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l291/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l291/",
       "source_line_start": 291,
       "source_line_end": 291,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l292/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l292/",
       "source_line_start": 292,
       "source_line_end": 294,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -215,7 +249,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -293,22 +327,22 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CurvatureCharH](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-char-h/) | L82-L97 | defined | `V.D49` |
-| `def` | [CurvatureCharH.toFloat](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/to-float/) | L100-L101 | defined | — |
-| `structure` | [MatterCharField](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-char-field/) | L116-L131 | defined | `V.D50` |
-| `def` | [MatterCharField.total_numer](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-numer/) | L134-L135 | defined | — |
-| `def` | [MatterCharField.totalFloat](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-float/) | L138-L139 | defined | — |
-| `structure` | [TauEinsteinField](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/tau-einstein-field/) | L161-L174 | defined | `V.D51` |
-| `theorem` | [bianchi_from_einstein](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/bianchi-from-einstein/) | L191-L194 | formalized | `V.C03` |
-| `theorem` | [chart_recovers_efe](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/chart-recovers-efe/) | L206-L208 | formalized | `V.T26` |
-| `theorem` | [hartogs_from_boundary](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/hartogs-from-boundary/) | L223-L225 | formalized | `V.T27` |
-| `theorem` | [matter_three_sectors](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-three-sectors/) | L232-L233 | formalized | — |
-| `theorem` | [curvature_is_gravity](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-is-gravity/) | L236-L237 | formalized | — |
-| `def` | [example_curvature](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-curvature/) | L271-L276 | defined | `V.R65`, `V.R67`, `V.R68` |
-| `eval` | [#eval L278](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l278/) | L278-L278 | computed | — |
-| `eval` | [#eval L279](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l279/) | L279-L279 | computed | — |
-| `def` | [example_matter](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-matter/) | L282-L289 | defined | — |
-| `eval` | [#eval L291](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l291/) | L291-L291 | computed | — |
-| `eval` | [#eval L292](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l292/) | L292-L294 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CurvatureCharH](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-char-h/) | L82-L97 | type/data schema | type/data schema | `V.D49` |
+| `def` | [CurvatureCharH.toFloat](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/to-float/) | L100-L101 | data/computed value | data/computed value | — |
+| `structure` | [MatterCharField](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-char-field/) | L116-L131 | type/data schema | type/data schema | `V.D50` |
+| `def` | [MatterCharField.total_numer](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-numer/) | L134-L135 | data/computed value | data/computed value | — |
+| `def` | [MatterCharField.totalFloat](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/total-float/) | L138-L139 | data/computed value | data/computed value | — |
+| `structure` | [TauEinsteinField](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/tau-einstein-field/) | L161-L174 | type/data schema | type/data schema | `V.D51` |
+| `theorem` | [bianchi_from_einstein](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/bianchi-from-einstein/) | L191-L194 | proof obligation | formal proof obligation checked | `V.C03` |
+| `theorem` | [chart_recovers_efe](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/chart-recovers-efe/) | L206-L208 | proof obligation | formal proof obligation checked | `V.T26` |
+| `theorem` | [hartogs_from_boundary](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/hartogs-from-boundary/) | L223-L225 | proof obligation | formal proof obligation checked | `V.T27` |
+| `theorem` | [matter_three_sectors](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-three-sectors/) | L232-L233 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [curvature_is_gravity](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/curvature-is-gravity/) | L236-L237 | proof obligation | formal proof obligation checked | — |
+| `def` | [example_curvature](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-curvature/) | L271-L276 | definition | definition | `V.R65`, `V.R67`, `V.R68` |
+| `eval` | [#eval L278](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l278/) | L278-L278 | computed check | computed check | — |
+| `eval` | [#eval L279](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l279/) | L279-L279 | computed check | computed check | — |
+| `def` | [example_matter](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/example-matter/) | L282-L289 | definition | definition | — |
+| `eval` | [#eval L291](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l291/) | L291-L291 | computed check | computed check | — |
+| `eval` | [#eval L292](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l292/) | L292-L294 | computed check | computed check | — |

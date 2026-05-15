@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_to_hol",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-to-hol/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-to-hol/",
   "summary_short": "`def` declaration in `TauLib.BookII.CentralTheorem.CentralTheorem`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.CentralTheorem::spectral_to_hol",
   "declaration_slug": "spectral-to-hol",
   "kind": "def",
   "name": "spectral_to_hol",
   "module_name": "TauLib.BookII.CentralTheorem.CentralTheorem",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/",
   "source_line_start": 207,
   "source_line_end": 208,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L207-L208",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.CentralTheorem",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/verify/taulib/docs/book-ii-central-theorem-central-theorem/)
+- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/)
 - Source path: [`TauLib/BookII/CentralTheorem/CentralTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L207-L208)
 - Source range: L207-L208
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

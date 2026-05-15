@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "iota_sq_numer",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-sector-parameters/iota-sq-numer/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-sector-parameters/iota-sq-numer/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Sectors.SectorParameters`.",
   "declaration_id": "TauLib.BookIV.Sectors.SectorParameters::iota_sq_numer",
   "declaration_slug": "iota-sq-numer",
   "kind": "def",
   "name": "iota_sq_numer",
   "module_name": "TauLib.BookIV.Sectors.SectorParameters",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-sector-parameters/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-sector-parameters/",
   "source_line_start": 107,
   "source_line_end": 107,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SectorParameters.lean#L107-L107",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.SectorParameters",
-        "url": "/verify/taulib/docs/book-iv-sectors-sector-parameters/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-sector-parameters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.SectorParameters](/verify/taulib/docs/book-iv-sectors-sector-parameters/)
+- Module: [TauLib.BookIV.Sectors.SectorParameters](/corpus/taulib/docs/book-iv-sectors-sector-parameters/)
 - Source path: [`TauLib/BookIV/Sectors/SectorParameters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SectorParameters.lean#L107-L107)
 - Source range: L107-L107
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

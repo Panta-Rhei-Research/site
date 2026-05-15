@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cut_elimination_additive",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/cut-elimination-additive/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/cut-elimination-additive/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.MetaLogic.LinearDiscipline`.",
   "declaration_id": "TauLib.BookI.MetaLogic.LinearDiscipline::cut_elimination_additive",
   "declaration_slug": "cut-elimination-additive",
   "kind": "theorem",
   "name": "cut_elimination_additive",
   "module_name": "TauLib.BookI.MetaLogic.LinearDiscipline",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/",
   "source_line_start": 138,
   "source_line_end": 141,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearDiscipline.lean#L138-L141",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.LinearDiscipline",
-        "url": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.LinearDiscipline](/verify/taulib/docs/book-i-meta-logic-linear-discipline/)
+- Module: [TauLib.BookI.MetaLogic.LinearDiscipline](/corpus/taulib/docs/book-i-meta-logic-linear-discipline/)
 - Source path: [`TauLib/BookI/MetaLogic/LinearDiscipline.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearDiscipline.lean#L138-L141)
 - Source range: L138-L141
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

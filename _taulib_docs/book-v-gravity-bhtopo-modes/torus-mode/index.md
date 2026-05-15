@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TorusMode",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/torus-mode/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/torus-mode/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::TorusMode",
   "declaration_slug": "torus-mode",
   "kind": "structure",
   "name": "TorusMode",
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
   "source_line_start": 57,
   "source_line_end": 62,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L57-L62",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
 - Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L57-L62)
 - Source range: L57-L62
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

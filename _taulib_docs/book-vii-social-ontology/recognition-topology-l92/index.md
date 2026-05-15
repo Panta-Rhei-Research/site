@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "recognition_topology",
-  "permalink": "/verify/taulib/docs/book-vii-social-ontology/recognition-topology-l92/",
+  "permalink": "/corpus/taulib/docs/book-vii-social-ontology/recognition-topology-l92/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Social.Ontology`.",
   "declaration_id": "TauLib.BookVII.Social.Ontology::recognition_topology",
   "declaration_slug": "recognition-topology-l92",
   "kind": "def",
   "name": "recognition_topology",
   "module_name": "TauLib.BookVII.Social.Ontology",
-  "module_url": "/verify/taulib/docs/book-vii-social-ontology/",
+  "module_url": "/corpus/taulib/docs/book-vii-social-ontology/",
   "source_line_start": 92,
   "source_line_end": 92,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Social/Ontology.lean#L92-L92",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Social.Ontology",
-        "url": "/verify/taulib/docs/book-vii-social-ontology/"
+        "url": "/corpus/taulib/docs/book-vii-social-ontology/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Social.Ontology](/verify/taulib/docs/book-vii-social-ontology/)
+- Module: [TauLib.BookVII.Social.Ontology](/corpus/taulib/docs/book-vii-social-ontology/)
 - Source path: [`TauLib/BookVII/Social/Ontology.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Social/Ontology.lean#L92-L92)
 - Source range: L92-L92
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

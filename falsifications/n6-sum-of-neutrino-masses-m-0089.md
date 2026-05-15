@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N6 — Sum of neutrino masses mν = 0.089 eV"
-permalink: "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/"
+permalink: "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
 lane: "results"
 falsification_id: "N6"
 n_num: 6

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "threshold_is_sum",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-persistence-sector/threshold-is-sum/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/threshold-is-sum/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Persistence.PersistenceSector`.",
   "declaration_id": "TauLib.BookVI.Persistence.PersistenceSector::threshold_is_sum",
   "declaration_slug": "threshold-is-sum",
   "kind": "theorem",
   "name": "threshold_is_sum",
   "module_name": "TauLib.BookVI.Persistence.PersistenceSector",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/",
   "source_line_start": 280,
   "source_line_end": 283,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L280-L283",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.PersistenceSector",
-        "url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.PersistenceSector](/verify/taulib/docs/book-vi-persistence-persistence-sector/)
+- Module: [TauLib.BookVI.Persistence.PersistenceSector](/corpus/taulib/docs/book-vi-persistence-persistence-sector/)
 - Source path: [`TauLib/BookVI/Persistence/PersistenceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L280-L283)
 - Source range: L280-L283
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "emTensorSilent",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Sectors.SpectralPage`.",
   "declaration_id": "TauLib.BookIV.Sectors.SpectralPage::emTensorSilent",
   "declaration_slug": "em-tensor-silent",
   "kind": "def",
   "name": "emTensorSilent",
   "module_name": "TauLib.BookIV.Sectors.SpectralPage",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-spectral-page/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/",
   "source_line_start": 58,
   "source_line_end": 59,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SpectralPage.lean#L58-L59",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.SpectralPage",
-        "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.SpectralPage](/verify/taulib/docs/book-iv-sectors-spectral-page/)
+- Module: [TauLib.BookIV.Sectors.SpectralPage](/corpus/taulib/docs/book-iv-sectors-spectral-page/)
 - Source path: [`TauLib/BookIV/Sectors/SpectralPage.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SpectralPage.lean#L58-L59)
 - Source range: L58-L59
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

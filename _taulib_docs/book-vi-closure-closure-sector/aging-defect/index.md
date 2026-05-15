@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AgingDefect",
-  "permalink": "/verify/taulib/docs/book-vi-closure-closure-sector/aging-defect/",
+  "permalink": "/corpus/taulib/docs/book-vi-closure-closure-sector/aging-defect/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Closure.ClosureSector`.",
   "declaration_id": "TauLib.BookVI.Closure.ClosureSector::AgingDefect",
   "declaration_slug": "aging-defect",
   "kind": "structure",
   "name": "AgingDefect",
   "module_name": "TauLib.BookVI.Closure.ClosureSector",
-  "module_url": "/verify/taulib/docs/book-vi-closure-closure-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-closure-closure-sector/",
   "source_line_start": 132,
   "source_line_end": 139,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/ClosureSector.lean#L132-L139",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Closure.ClosureSector",
-        "url": "/verify/taulib/docs/book-vi-closure-closure-sector/"
+        "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Closure.ClosureSector](/verify/taulib/docs/book-vi-closure-closure-sector/)
+- Module: [TauLib.BookVI.Closure.ClosureSector](/corpus/taulib/docs/book-vi-closure-closure-sector/)
 - Source path: [`TauLib/BookVI/Closure/ClosureSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/ClosureSector.lean#L132-L139)
 - Source range: L132-L139
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "refinement_ray_check",
-  "permalink": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/refinement-ray-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/refinement-ray-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.CoherenceConnectivity`.",
   "declaration_id": "TauLib.BookII.Topology.CoherenceConnectivity::refinement_ray_check",
   "declaration_slug": "refinement-ray-check",
   "kind": "def",
   "name": "refinement_ray_check",
   "module_name": "TauLib.BookII.Topology.CoherenceConnectivity",
-  "module_url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/",
   "source_line_start": 151,
   "source_line_end": 187,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/CoherenceConnectivity.lean#L151-L187",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.CoherenceConnectivity",
-        "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/"
+        "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.CoherenceConnectivity](/verify/taulib/docs/book-ii-topology-coherence-connectivity/)
+- Module: [TauLib.BookII.Topology.CoherenceConnectivity](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/)
 - Source path: [`TauLib/BookII/Topology/CoherenceConnectivity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/CoherenceConnectivity.lean#L151-L187)
 - Source range: L151-L187
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

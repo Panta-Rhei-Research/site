@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Tour.Foundations",
-  "permalink": "/verify/taulib/docs/tour-foundations/",
+  "permalink": "/corpus/taulib/docs/tour-foundations/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Tour.Foundations`.",
   "module_name": "TauLib.Tour.Foundations",
   "module_slug": "tour-foundations",
@@ -32,91 +32,111 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l43/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l43/",
       "source_line_start": 43,
       "source_line_end": 43,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l44/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l44/",
       "source_line_start": 44,
       "source_line_end": 44,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l45/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l45/",
       "source_line_start": 45,
       "source_line_end": 45,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l46/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l46/",
       "source_line_start": 46,
       "source_line_end": 46,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l47/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l47/",
       "source_line_start": 47,
       "source_line_end": 108,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l112/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l112/",
       "source_line_start": 112,
       "source_line_end": 112,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l113/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l113/",
       "source_line_start": 113,
       "source_line_end": 113,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l123/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l123/",
       "source_line_start": 123,
       "source_line_end": 123,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l124/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l124/",
       "source_line_start": 124,
       "source_line_end": 124,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-foundations/eval-l125/",
+      "url": "/corpus/taulib/docs/tour-foundations/eval-l125/",
       "source_line_start": 125,
       "source_line_end": 144,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -128,7 +148,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -202,15 +222,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `eval` | [#eval L43](/verify/taulib/docs/tour-foundations/eval-l43/) | L43-L43 | computed | — |
-| `eval` | [#eval L44](/verify/taulib/docs/tour-foundations/eval-l44/) | L44-L44 | computed | — |
-| `eval` | [#eval L45](/verify/taulib/docs/tour-foundations/eval-l45/) | L45-L45 | computed | — |
-| `eval` | [#eval L46](/verify/taulib/docs/tour-foundations/eval-l46/) | L46-L46 | computed | — |
-| `eval` | [#eval L47](/verify/taulib/docs/tour-foundations/eval-l47/) | L47-L108 | computed | — |
-| `eval` | [#eval L112](/verify/taulib/docs/tour-foundations/eval-l112/) | L112-L112 | computed | — |
-| `eval` | [#eval L113](/verify/taulib/docs/tour-foundations/eval-l113/) | L113-L113 | computed | — |
-| `eval` | [#eval L123](/verify/taulib/docs/tour-foundations/eval-l123/) | L123-L123 | computed | — |
-| `eval` | [#eval L124](/verify/taulib/docs/tour-foundations/eval-l124/) | L124-L124 | computed | — |
-| `eval` | [#eval L125](/verify/taulib/docs/tour-foundations/eval-l125/) | L125-L144 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `eval` | [#eval L43](/corpus/taulib/docs/tour-foundations/eval-l43/) | L43-L43 | computed check | computed check | — |
+| `eval` | [#eval L44](/corpus/taulib/docs/tour-foundations/eval-l44/) | L44-L44 | computed check | computed check | — |
+| `eval` | [#eval L45](/corpus/taulib/docs/tour-foundations/eval-l45/) | L45-L45 | computed check | computed check | — |
+| `eval` | [#eval L46](/corpus/taulib/docs/tour-foundations/eval-l46/) | L46-L46 | computed check | computed check | — |
+| `eval` | [#eval L47](/corpus/taulib/docs/tour-foundations/eval-l47/) | L47-L108 | computed check | computed check | — |
+| `eval` | [#eval L112](/corpus/taulib/docs/tour-foundations/eval-l112/) | L112-L112 | computed check | computed check | — |
+| `eval` | [#eval L113](/corpus/taulib/docs/tour-foundations/eval-l113/) | L113-L113 | computed check | computed check | — |
+| `eval` | [#eval L123](/corpus/taulib/docs/tour-foundations/eval-l123/) | L123-L123 | computed check | computed check | — |
+| `eval` | [#eval L124](/corpus/taulib/docs/tour-foundations/eval-l124/) | L124-L124 | computed check | computed check | — |
+| `eval` | [#eval L125](/corpus/taulib/docs/tour-foundations/eval-l125/) | L125-L144 | computed check | computed check | — |

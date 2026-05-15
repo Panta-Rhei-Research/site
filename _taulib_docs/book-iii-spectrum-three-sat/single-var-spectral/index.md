@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "single_var_spectral",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-three-sat/single-var-spectral/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-three-sat/single-var-spectral/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectrum.ThreeSAT`.",
   "declaration_id": "TauLib.BookIII.Spectrum.ThreeSAT::single_var_spectral",
   "declaration_slug": "single-var-spectral",
   "kind": "theorem",
   "name": "single_var_spectral",
   "module_name": "TauLib.BookIII.Spectrum.ThreeSAT",
-  "module_url": "/verify/taulib/docs/book-iii-spectrum-three-sat/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectrum-three-sat/",
   "source_line_start": 160,
   "source_line_end": 162,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/ThreeSAT.lean#L160-L162",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectrum.ThreeSAT",
-        "url": "/verify/taulib/docs/book-iii-spectrum-three-sat/"
+        "url": "/corpus/taulib/docs/book-iii-spectrum-three-sat/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectrum.ThreeSAT](/verify/taulib/docs/book-iii-spectrum-three-sat/)
+- Module: [TauLib.BookIII.Spectrum.ThreeSAT](/corpus/taulib/docs/book-iii-spectrum-three-sat/)
 - Source path: [`TauLib/BookIII/Spectrum/ThreeSAT.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/ThreeSAT.lean#L160-L162)
 - Source range: L160-L162
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

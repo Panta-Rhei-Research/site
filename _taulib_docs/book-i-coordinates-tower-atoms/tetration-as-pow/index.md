@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tetration_as_pow",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-tower-atoms/tetration-as-pow/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/tetration-as-pow/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Coordinates.TowerAtoms`.",
   "declaration_id": "TauLib.BookI.Coordinates.TowerAtoms::tetration_as_pow",
   "declaration_slug": "tetration-as-pow",
   "kind": "theorem",
   "name": "tetration_as_pow",
   "module_name": "TauLib.BookI.Coordinates.TowerAtoms",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-tower-atoms/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/",
   "source_line_start": 116,
   "source_line_end": 120,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/TowerAtoms.lean#L116-L120",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.TowerAtoms",
-        "url": "/verify/taulib/docs/book-i-coordinates-tower-atoms/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.TowerAtoms](/verify/taulib/docs/book-i-coordinates-tower-atoms/)
+- Module: [TauLib.BookI.Coordinates.TowerAtoms](/corpus/taulib/docs/book-i-coordinates-tower-atoms/)
 - Source path: [`TauLib/BookI/Coordinates/TowerAtoms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/TowerAtoms.lean#L116-L120)
 - Source range: L116-L120
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

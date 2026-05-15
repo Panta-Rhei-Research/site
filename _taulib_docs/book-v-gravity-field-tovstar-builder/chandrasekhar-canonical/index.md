@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chandrasekhar_canonical",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/chandrasekhar-canonical/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/chandrasekhar-canonical/",
   "summary_short": "`def` declaration in `TauLib.BookV.GravityField.TOVStarBuilder`.",
   "declaration_id": "TauLib.BookV.GravityField.TOVStarBuilder::chandrasekhar_canonical",
   "declaration_slug": "chandrasekhar-canonical",
   "kind": "def",
   "name": "chandrasekhar_canonical",
   "module_name": "TauLib.BookV.GravityField.TOVStarBuilder",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/",
   "source_line_start": 272,
   "source_line_end": 276,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVStarBuilder.lean#L272-L276",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TOVStarBuilder",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TOVStarBuilder](/verify/taulib/docs/book-v-gravity-field-tovstar-builder/)
+- Module: [TauLib.BookV.GravityField.TOVStarBuilder](/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/)
 - Source path: [`TauLib/BookV/GravityField/TOVStarBuilder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVStarBuilder.lean#L272-L276)
 - Source range: L272-L276
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

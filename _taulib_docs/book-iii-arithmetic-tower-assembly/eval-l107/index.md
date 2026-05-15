@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L107",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l107/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l107/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Arithmetic.TowerAssembly`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.TowerAssembly::#eval:107",
   "declaration_slug": "eval-l107",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Arithmetic.TowerAssembly",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/",
   "source_line_start": 107,
   "source_line_end": 107,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/TowerAssembly.lean#L107-L107",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.TowerAssembly",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.TowerAssembly](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/)
+- Module: [TauLib.BookIII.Arithmetic.TowerAssembly](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/)
 - Source path: [`TauLib/BookIII/Arithmetic/TowerAssembly.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/TowerAssembly.lean#L107-L107)
 - Source range: L107-L107
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

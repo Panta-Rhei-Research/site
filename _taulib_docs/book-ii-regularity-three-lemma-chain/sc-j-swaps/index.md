@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sc_j_swaps",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-swaps/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-swaps/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Regularity.ThreeLemmaChain`.",
   "declaration_id": "TauLib.BookII.Regularity.ThreeLemmaChain::sc_j_swaps",
   "declaration_slug": "sc-j-swaps",
   "kind": "theorem",
   "name": "sc_j_swaps",
   "module_name": "TauLib.BookII.Regularity.ThreeLemmaChain",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/",
   "source_line_start": 231,
   "source_line_end": 233,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/ThreeLemmaChain.lean#L231-L233",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.ThreeLemmaChain",
-        "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.ThreeLemmaChain](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/)
+- Module: [TauLib.BookII.Regularity.ThreeLemmaChain](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/)
 - Source path: [`TauLib/BookII/Regularity/ThreeLemmaChain.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/ThreeLemmaChain.lean#L231-L233)
 - Source range: L231-L233
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

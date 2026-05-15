@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.GravityField.CalibrationTriangle",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.GravityField.CalibrationTriangle`.",
   "module_name": "TauLib.BookV.GravityField.CalibrationTriangle",
   "module_slug": "book-v-gravity-field-calibration-triangle",
@@ -42,10 +42,12 @@
     {
       "kind": "structure",
       "name": "CalibrationConstant",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-constant/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-constant/",
       "source_line_start": 72,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D78"
       ]
@@ -53,28 +55,34 @@
     {
       "kind": "def",
       "name": "CalibrationConstant.toFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/to-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/to-float/",
       "source_line_start": 86,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "CalibrationVertex",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-vertex/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-vertex/",
       "source_line_start": 94,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CalibrationTriangle",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle/",
       "source_line_start": 112,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D79"
       ]
@@ -82,19 +90,23 @@
     {
       "kind": "def",
       "name": "calibration_triangle",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle-l128/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle-l128/",
       "source_line_start": 128,
       "source_line_end": 134,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BoundaryHomomorphism",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/boundary-homomorphism/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/boundary-homomorphism/",
       "source_line_start": 150,
       "source_line_end": 157,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D80"
       ]
@@ -102,10 +114,12 @@
     {
       "kind": "theorem",
       "name": "edge_ratios_from_iota",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/edge-ratios-from-iota/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/edge-ratios-from-iota/",
       "source_line_start": 170,
       "source_line_end": 172,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T49"
       ]
@@ -113,10 +127,12 @@
     {
       "kind": "theorem",
       "name": "dimensional_bridge_complete",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/dimensional-bridge-complete/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/dimensional-bridge-complete/",
       "source_line_start": 178,
       "source_line_end": 181,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T50"
       ]
@@ -124,10 +140,12 @@
     {
       "kind": "theorem",
       "name": "xi_refinement_stable",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/xi-refinement-stable/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/xi-refinement-stable/",
       "source_line_start": 184,
       "source_line_end": 186,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P22"
       ]
@@ -135,10 +153,12 @@
     {
       "kind": "theorem",
       "name": "a_sector_preserved",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/a-sector-preserved/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/a-sector-preserved/",
       "source_line_start": 190,
       "source_line_end": 192,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P23"
       ]
@@ -146,28 +166,34 @@
     {
       "kind": "theorem",
       "name": "three_distinct_vertices",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/three-distinct-vertices/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/three-distinct-vertices/",
       "source_line_start": 195,
       "source_line_end": 199,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "triangle_vertex_count",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/triangle-vertex-count/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/triangle-vertex-count/",
       "source_line_start": 202,
       "source_line_end": 204,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l224/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l224/",
       "source_line_start": 224,
       "source_line_end": 224,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R100",
         "V.R101",
@@ -177,46 +203,56 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l225/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l225/",
       "source_line_start": 225,
       "source_line_end": 225,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l226/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l226/",
       "source_line_start": 226,
       "source_line_end": 226,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_xi",
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/example-xi/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/example-xi/",
       "source_line_start": 229,
       "source_line_end": 232,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l234/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l234/",
       "source_line_start": 234,
       "source_line_end": 234,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l235/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l235/",
       "source_line_start": 235,
       "source_line_end": 237,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -228,7 +264,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -308,23 +344,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CalibrationConstant](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-constant/) | L72-L83 | defined | `V.D78` |
-| `def` | [CalibrationConstant.toFloat](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/to-float/) | L86-L87 | defined | — |
-| `inductive` | [CalibrationVertex](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-vertex/) | L94-L101 | defined | — |
-| `structure` | [CalibrationTriangle](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle/) | L112-L125 | defined | `V.D79` |
-| `def` | [calibration_triangle](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle-l128/) | L128-L134 | defined | — |
-| `structure` | [BoundaryHomomorphism](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/boundary-homomorphism/) | L150-L157 | defined | `V.D80` |
-| `theorem` | [edge_ratios_from_iota](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/edge-ratios-from-iota/) | L170-L172 | formalized | `V.T49` |
-| `theorem` | [dimensional_bridge_complete](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/dimensional-bridge-complete/) | L178-L181 | formalized | `V.T50` |
-| `theorem` | [xi_refinement_stable](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/xi-refinement-stable/) | L184-L186 | formalized | `V.P22` |
-| `theorem` | [a_sector_preserved](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/a-sector-preserved/) | L190-L192 | formalized | `V.P23` |
-| `theorem` | [three_distinct_vertices](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/three-distinct-vertices/) | L195-L199 | formalized | — |
-| `theorem` | [triangle_vertex_count](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/triangle-vertex-count/) | L202-L204 | formalized | — |
-| `eval` | [#eval L224](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l224/) | L224-L224 | computed | `V.R100`, `V.R101`, `V.R102` |
-| `eval` | [#eval L225](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l225/) | L225-L225 | computed | — |
-| `eval` | [#eval L226](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l226/) | L226-L226 | computed | — |
-| `def` | [example_xi](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/example-xi/) | L229-L232 | defined | — |
-| `eval` | [#eval L234](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l234/) | L234-L234 | computed | — |
-| `eval` | [#eval L235](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l235/) | L235-L237 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CalibrationConstant](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-constant/) | L72-L83 | type/data schema | type/data schema | `V.D78` |
+| `def` | [CalibrationConstant.toFloat](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/to-float/) | L86-L87 | data/computed value | data/computed value | — |
+| `inductive` | [CalibrationVertex](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-vertex/) | L94-L101 | type/data schema | type/data schema | — |
+| `structure` | [CalibrationTriangle](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle/) | L112-L125 | type/data schema | type/data schema | `V.D79` |
+| `def` | [calibration_triangle](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle-l128/) | L128-L134 | definition | definition | — |
+| `structure` | [BoundaryHomomorphism](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/boundary-homomorphism/) | L150-L157 | type/data schema | type/data schema | `V.D80` |
+| `theorem` | [edge_ratios_from_iota](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/edge-ratios-from-iota/) | L170-L172 | proof obligation | formal proof obligation checked | `V.T49` |
+| `theorem` | [dimensional_bridge_complete](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/dimensional-bridge-complete/) | L178-L181 | proof obligation | formal proof obligation checked | `V.T50` |
+| `theorem` | [xi_refinement_stable](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/xi-refinement-stable/) | L184-L186 | proof obligation | formal proof obligation checked | `V.P22` |
+| `theorem` | [a_sector_preserved](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/a-sector-preserved/) | L190-L192 | proof obligation | formal proof obligation checked | `V.P23` |
+| `theorem` | [three_distinct_vertices](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/three-distinct-vertices/) | L195-L199 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [triangle_vertex_count](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/triangle-vertex-count/) | L202-L204 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L224](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l224/) | L224-L224 | computed check | computed check | `V.R100`, `V.R101`, `V.R102` |
+| `eval` | [#eval L225](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l225/) | L225-L225 | computed check | computed check | — |
+| `eval` | [#eval L226](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l226/) | L226-L226 | computed check | computed check | — |
+| `def` | [example_xi](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/example-xi/) | L229-L232 | definition | definition | — |
+| `eval` | [#eval L234](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l234/) | L234-L234 | computed check | computed check | — |
+| `eval` | [#eval L235](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/eval-l235/) | L235-L237 | computed check | computed check | — |

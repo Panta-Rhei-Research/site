@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hartogs_id_example",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-id-example/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-id-example/",
   "summary_short": "`def` declaration in `TauLib.BookI.Holomorphy.GlobalHartogs`.",
   "declaration_id": "TauLib.BookI.Holomorphy.GlobalHartogs::hartogs_id_example",
   "declaration_slug": "hartogs-id-example",
   "kind": "def",
   "name": "hartogs_id_example",
   "module_name": "TauLib.BookI.Holomorphy.GlobalHartogs",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/",
   "source_line_start": 117,
   "source_line_end": 123,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/GlobalHartogs.lean#L117-L123",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.GlobalHartogs",
-        "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.GlobalHartogs](/verify/taulib/docs/book-i-holomorphy-global-hartogs/)
+- Module: [TauLib.BookI.Holomorphy.GlobalHartogs](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/)
 - Source path: [`TauLib/BookI/Holomorphy/GlobalHartogs.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/GlobalHartogs.lean#L117-L123)
 - Source range: L117-L123
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

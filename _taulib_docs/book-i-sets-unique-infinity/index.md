@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Sets.UniqueInfinity",
-  "permalink": "/verify/taulib/docs/book-i-sets-unique-infinity/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-unique-infinity/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Sets.UniqueInfinity`.",
   "module_name": "TauLib.BookI.Sets.UniqueInfinity",
   "module_slug": "book-i-sets-unique-infinity",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "OmegaGermApproach",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach/",
       "source_line_start": 59,
       "source_line_end": 68,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D76"
       ]
@@ -46,46 +48,56 @@
     {
       "kind": "def",
       "name": "omega_germ_approach",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach-l71/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach-l71/",
       "source_line_start": 71,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "InfinityObject",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/infinity-object/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/infinity-object/",
       "source_line_start": 84,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "omega_rho_fixed",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/omega-rho-fixed/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/omega-rho-fixed/",
       "source_line_start": 92,
       "source_line_end": 93,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "omega_is_infinity",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/omega-is-infinity/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/omega-is-infinity/",
       "source_line_start": 96,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unique_infinity",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/unique-infinity/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/unique-infinity/",
       "source_line_start": 115,
       "source_line_end": 140,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T36"
       ]
@@ -93,28 +105,34 @@
     {
       "kind": "theorem",
       "name": "infinity_in_omega_fiber",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/infinity-in-omega-fiber/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/infinity-in-omega-fiber/",
       "source_line_start": 143,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_orbit_infinity",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/no-orbit-infinity/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/no-orbit-infinity/",
       "source_line_start": 148,
       "source_line_end": 153,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ultrametric_replaces_card",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/ultrametric-replaces-card/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/ultrametric-replaces-card/",
       "source_line_start": 177,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P37"
       ]
@@ -122,91 +140,111 @@
     {
       "kind": "def",
       "name": "GermConvergence",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/germ-convergence/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/germ-convergence/",
       "source_line_start": 197,
       "source_line_end": 199,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "const_seq_converges",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/const-seq-converges/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/const-seq-converges/",
       "source_line_start": 202,
       "source_line_end": 204,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "germ_convergence_via_reduction",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/germ-convergence-via-reduction/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/germ-convergence-via-reduction/",
       "source_line_start": 208,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cardinality_hierarchy_collapse",
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/cardinality-hierarchy-collapse/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/cardinality-hierarchy-collapse/",
       "source_line_start": 230,
       "source_line_end": 240,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/eval-l247/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/eval-l247/",
       "source_line_start": 247,
       "source_line_end": 247,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/example-l250/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/example-l250/",
       "source_line_start": 250,
       "source_line_end": 250,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/example-l251/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/example-l251/",
       "source_line_start": 251,
       "source_line_end": 251,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/example-l254/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/example-l254/",
       "source_line_start": 254,
       "source_line_end": 256,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/example-l259/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/example-l259/",
       "source_line_start": 259,
       "source_line_end": 259,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-unique-infinity/eval-l262/",
+      "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -218,7 +256,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -291,24 +329,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [OmegaGermApproach](/verify/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach/) | L59-L68 | defined | `I.D76` |
-| `def` | [omega_germ_approach](/verify/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach-l71/) | L71-L75 | defined | — |
-| `structure` | [InfinityObject](/verify/taulib/docs/book-i-sets-unique-infinity/infinity-object/) | L84-L89 | defined | — |
-| `theorem` | [omega_rho_fixed](/verify/taulib/docs/book-i-sets-unique-infinity/omega-rho-fixed/) | L92-L93 | formalized | — |
-| `def` | [omega_is_infinity](/verify/taulib/docs/book-i-sets-unique-infinity/omega-is-infinity/) | L96-L101 | defined | — |
-| `theorem` | [unique_infinity](/verify/taulib/docs/book-i-sets-unique-infinity/unique-infinity/) | L115-L140 | formalized | `I.T36` |
-| `theorem` | [infinity_in_omega_fiber](/verify/taulib/docs/book-i-sets-unique-infinity/infinity-in-omega-fiber/) | L143-L145 | formalized | — |
-| `theorem` | [no_orbit_infinity](/verify/taulib/docs/book-i-sets-unique-infinity/no-orbit-infinity/) | L148-L153 | formalized | — |
-| `theorem` | [ultrametric_replaces_card](/verify/taulib/docs/book-i-sets-unique-infinity/ultrametric-replaces-card/) | L177-L187 | formalized | `I.P37` |
-| `def` | [GermConvergence](/verify/taulib/docs/book-i-sets-unique-infinity/germ-convergence/) | L197-L199 | defined | — |
-| `theorem` | [const_seq_converges](/verify/taulib/docs/book-i-sets-unique-infinity/const-seq-converges/) | L202-L204 | formalized | — |
-| `theorem` | [germ_convergence_via_reduction](/verify/taulib/docs/book-i-sets-unique-infinity/germ-convergence-via-reduction/) | L208-L221 | formalized | — |
-| `theorem` | [cardinality_hierarchy_collapse](/verify/taulib/docs/book-i-sets-unique-infinity/cardinality-hierarchy-collapse/) | L230-L240 | formalized | — |
-| `eval` | [#eval L247](/verify/taulib/docs/book-i-sets-unique-infinity/eval-l247/) | L247-L247 | computed | — |
-| `example` | [#eval L250](/verify/taulib/docs/book-i-sets-unique-infinity/example-l250/) | L250-L250 | example | — |
-| `example` | [#eval L251](/verify/taulib/docs/book-i-sets-unique-infinity/example-l251/) | L251-L251 | example | — |
-| `example` | [#eval L254](/verify/taulib/docs/book-i-sets-unique-infinity/example-l254/) | L254-L256 | example | — |
-| `example` | [#eval L259](/verify/taulib/docs/book-i-sets-unique-infinity/example-l259/) | L259-L259 | example | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-i-sets-unique-infinity/eval-l262/) | L262-L264 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [OmegaGermApproach](/corpus/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach/) | L59-L68 | type/data schema | type/data schema | `I.D76` |
+| `def` | [omega_germ_approach](/corpus/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach-l71/) | L71-L75 | definition | definition | — |
+| `structure` | [InfinityObject](/corpus/taulib/docs/book-i-sets-unique-infinity/infinity-object/) | L84-L89 | type/data schema | type/data schema | — |
+| `theorem` | [omega_rho_fixed](/corpus/taulib/docs/book-i-sets-unique-infinity/omega-rho-fixed/) | L92-L93 | proof obligation | formal proof obligation checked | — |
+| `def` | [omega_is_infinity](/corpus/taulib/docs/book-i-sets-unique-infinity/omega-is-infinity/) | L96-L101 | definition | definition | — |
+| `theorem` | [unique_infinity](/corpus/taulib/docs/book-i-sets-unique-infinity/unique-infinity/) | L115-L140 | proof obligation | formal proof obligation checked | `I.T36` |
+| `theorem` | [infinity_in_omega_fiber](/corpus/taulib/docs/book-i-sets-unique-infinity/infinity-in-omega-fiber/) | L143-L145 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [no_orbit_infinity](/corpus/taulib/docs/book-i-sets-unique-infinity/no-orbit-infinity/) | L148-L153 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ultrametric_replaces_card](/corpus/taulib/docs/book-i-sets-unique-infinity/ultrametric-replaces-card/) | L177-L187 | proof obligation | formal proof obligation checked | `I.P37` |
+| `def` | [GermConvergence](/corpus/taulib/docs/book-i-sets-unique-infinity/germ-convergence/) | L197-L199 | data/computed value | data/computed value | — |
+| `theorem` | [const_seq_converges](/corpus/taulib/docs/book-i-sets-unique-infinity/const-seq-converges/) | L202-L204 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [germ_convergence_via_reduction](/corpus/taulib/docs/book-i-sets-unique-infinity/germ-convergence-via-reduction/) | L208-L221 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cardinality_hierarchy_collapse](/corpus/taulib/docs/book-i-sets-unique-infinity/cardinality-hierarchy-collapse/) | L230-L240 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L247](/corpus/taulib/docs/book-i-sets-unique-infinity/eval-l247/) | L247-L247 | computed check | computed check | — |
+| `example` | [#eval L250](/corpus/taulib/docs/book-i-sets-unique-infinity/example-l250/) | L250-L250 | example check | example | — |
+| `example` | [#eval L251](/corpus/taulib/docs/book-i-sets-unique-infinity/example-l251/) | L251-L251 | example check | example | — |
+| `example` | [#eval L254](/corpus/taulib/docs/book-i-sets-unique-infinity/example-l254/) | L254-L256 | example check | example | — |
+| `example` | [#eval L259](/corpus/taulib/docs/book-i-sets-unique-infinity/example-l259/) | L259-L259 | example check | example | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-i-sets-unique-infinity/eval-l262/) | L262-L264 | computed check | computed check | — |

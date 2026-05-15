@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pullback_obj",
-  "permalink": "/verify/taulib/docs/book-i-topos-limits-sites/pullback-obj/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-limits-sites/pullback-obj/",
   "summary_short": "`def` declaration in `TauLib.BookI.Topos.LimitsSites`.",
   "declaration_id": "TauLib.BookI.Topos.LimitsSites::pullback_obj",
   "declaration_slug": "pullback-obj",
   "kind": "def",
   "name": "pullback_obj",
   "module_name": "TauLib.BookI.Topos.LimitsSites",
-  "module_url": "/verify/taulib/docs/book-i-topos-limits-sites/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-limits-sites/",
   "source_line_start": 107,
   "source_line_end": 107,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L107-L107",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.LimitsSites",
-        "url": "/verify/taulib/docs/book-i-topos-limits-sites/"
+        "url": "/corpus/taulib/docs/book-i-topos-limits-sites/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.LimitsSites](/verify/taulib/docs/book-i-topos-limits-sites/)
+- Module: [TauLib.BookI.Topos.LimitsSites](/corpus/taulib/docs/book-i-topos-limits-sites/)
 - Source path: [`TauLib/BookI/Topos/LimitsSites.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L107-L107)
 - Source range: L107-L107
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

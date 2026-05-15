@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "all_procedures",
-  "permalink": "/verify/taulib/docs/book-iv-physics-readout-functor/all-procedures/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-readout-functor/all-procedures/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.ReadoutFunctor`.",
   "declaration_id": "TauLib.BookIV.Physics.ReadoutFunctor::all_procedures",
   "declaration_slug": "all-procedures",
   "kind": "def",
   "name": "all_procedures",
   "module_name": "TauLib.BookIV.Physics.ReadoutFunctor",
-  "module_url": "/verify/taulib/docs/book-iv-physics-readout-functor/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-readout-functor/",
   "source_line_start": 208,
   "source_line_end": 210,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/ReadoutFunctor.lean#L208-L210",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.ReadoutFunctor",
-        "url": "/verify/taulib/docs/book-iv-physics-readout-functor/"
+        "url": "/corpus/taulib/docs/book-iv-physics-readout-functor/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.ReadoutFunctor](/verify/taulib/docs/book-iv-physics-readout-functor/)
+- Module: [TauLib.BookIV.Physics.ReadoutFunctor](/corpus/taulib/docs/book-iv-physics-readout-functor/)
 - Source path: [`TauLib/BookIV/Physics/ReadoutFunctor.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/ReadoutFunctor.lean#L208-L210)
 - Source range: L208-L210
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

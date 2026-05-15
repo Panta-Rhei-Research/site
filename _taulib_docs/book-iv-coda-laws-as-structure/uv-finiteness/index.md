@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "uv_finiteness",
-  "permalink": "/verify/taulib/docs/book-iv-coda-laws-as-structure/uv-finiteness/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/uv-finiteness/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Coda.LawsAsStructure`.",
   "declaration_id": "TauLib.BookIV.Coda.LawsAsStructure::uv_finiteness",
   "declaration_slug": "uv-finiteness",
   "kind": "def",
   "name": "uv_finiteness",
   "module_name": "TauLib.BookIV.Coda.LawsAsStructure",
-  "module_url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/",
   "source_line_start": 212,
   "source_line_end": 212,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/LawsAsStructure.lean#L212-L212",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.LawsAsStructure",
-        "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/"
+        "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.LawsAsStructure](/verify/taulib/docs/book-iv-coda-laws-as-structure/)
+- Module: [TauLib.BookIV.Coda.LawsAsStructure](/corpus/taulib/docs/book-iv-coda-laws-as-structure/)
 - Source path: [`TauLib/BookIV/Coda/LawsAsStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/LawsAsStructure.lean#L212-L212)
 - Source range: L212-L212
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

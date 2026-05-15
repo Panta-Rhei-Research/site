@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "calibration_triangle",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle-l128/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-triangle-l128/",
   "summary_short": "`def` declaration in `TauLib.BookV.GravityField.CalibrationTriangle`.",
   "declaration_id": "TauLib.BookV.GravityField.CalibrationTriangle::calibration_triangle",
   "declaration_slug": "calibration-triangle-l128",
   "kind": "def",
   "name": "calibration_triangle",
   "module_name": "TauLib.BookV.GravityField.CalibrationTriangle",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/",
   "source_line_start": 128,
   "source_line_end": 134,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/CalibrationTriangle.lean#L128-L134",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.CalibrationTriangle",
-        "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.CalibrationTriangle](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/)
+- Module: [TauLib.BookV.GravityField.CalibrationTriangle](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/)
 - Source path: [`TauLib/BookV/GravityField/CalibrationTriangle.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/CalibrationTriangle.lean#L128-L134)
 - Source range: L128-L134
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

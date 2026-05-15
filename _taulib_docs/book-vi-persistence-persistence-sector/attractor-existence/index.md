@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AttractorExistence",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-persistence-sector/attractor-existence/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/attractor-existence/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Persistence.PersistenceSector`.",
   "declaration_id": "TauLib.BookVI.Persistence.PersistenceSector::AttractorExistence",
   "declaration_slug": "attractor-existence",
   "kind": "structure",
   "name": "AttractorExistence",
   "module_name": "TauLib.BookVI.Persistence.PersistenceSector",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/",
   "source_line_start": 296,
   "source_line_end": 311,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L296-L311",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.PersistenceSector",
-        "url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.PersistenceSector](/verify/taulib/docs/book-vi-persistence-persistence-sector/)
+- Module: [TauLib.BookVI.Persistence.PersistenceSector](/corpus/taulib/docs/book-vi-persistence-persistence-sector/)
 - Source path: [`TauLib/BookVI/Persistence/PersistenceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L296-L311)
 - Source range: L296-L311
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

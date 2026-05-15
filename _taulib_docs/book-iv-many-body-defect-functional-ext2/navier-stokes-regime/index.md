@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "NavierStokesRegime",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/navier-stokes-regime/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/navier-stokes-regime/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.ManyBody.DefectFunctionalExt2`.",
   "declaration_id": "TauLib.BookIV.ManyBody.DefectFunctionalExt2::NavierStokesRegime",
   "declaration_slug": "navier-stokes-regime",
   "kind": "structure",
   "name": "NavierStokesRegime",
   "module_name": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/",
   "source_line_start": 112,
   "source_line_end": 121,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean#L112-L121",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
-        "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt2](/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/)
+- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt2](/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/)
 - Source path: [`TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean#L112-L121)
 - Source range: L112-L121
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

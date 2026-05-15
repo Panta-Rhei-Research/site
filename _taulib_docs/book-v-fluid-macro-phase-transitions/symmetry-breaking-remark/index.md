@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "symmetry_breaking_remark",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/symmetry-breaking-remark/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/symmetry-breaking-remark/",
   "summary_short": "`def` declaration in `TauLib.BookV.FluidMacro.PhaseTransitions`.",
   "declaration_id": "TauLib.BookV.FluidMacro.PhaseTransitions::symmetry_breaking_remark",
   "declaration_slug": "symmetry-breaking-remark",
   "kind": "def",
   "name": "symmetry_breaking_remark",
   "module_name": "TauLib.BookV.FluidMacro.PhaseTransitions",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/",
   "source_line_start": 140,
   "source_line_end": 142,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/PhaseTransitions.lean#L140-L142",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.PhaseTransitions",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.PhaseTransitions](/verify/taulib/docs/book-v-fluid-macro-phase-transitions/)
+- Module: [TauLib.BookV.FluidMacro.PhaseTransitions](/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/)
 - Source path: [`TauLib/BookV/FluidMacro/PhaseTransitions.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/PhaseTransitions.lean#L140-L142)
 - Source range: L140-L142
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

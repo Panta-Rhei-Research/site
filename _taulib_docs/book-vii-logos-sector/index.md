@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVII.Logos.Sector",
-  "permalink": "/verify/taulib/docs/book-vii-logos-sector/",
+  "permalink": "/corpus/taulib/docs/book-vii-logos-sector/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVII.Logos.Sector`.",
   "module_name": "TauLib.BookVII.Logos.Sector",
   "module_slug": "book-vii-logos-sector",
@@ -59,10 +59,12 @@
     {
       "kind": "structure",
       "name": "MindAsInternalTopos",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/mind-as-internal-topos/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/mind-as-internal-topos/",
       "source_line_start": 87,
       "source_line_end": 96,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VII.D82"
       ]
@@ -70,19 +72,23 @@
     {
       "kind": "def",
       "name": "mind_topos",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/mind-topos/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/mind-topos/",
       "source_line_start": 98,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mind_topos_structure",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/mind-topos-structure/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/mind-topos-structure/",
       "source_line_start": 110,
       "source_line_end": 115,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T39"
       ]
@@ -90,10 +96,12 @@
     {
       "kind": "structure",
       "name": "StoryFunctor",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/story-functor/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/story-functor/",
       "source_line_start": 125,
       "source_line_end": 132,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VII.D83"
       ]
@@ -101,19 +109,23 @@
     {
       "kind": "def",
       "name": "story_functor",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/story-functor-l134/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/story-functor-l134/",
       "source_line_start": 134,
       "source_line_end": 134,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "narrative_identity",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/narrative-identity/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/narrative-identity/",
       "source_line_start": 143,
       "source_line_end": 147,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T40"
       ]
@@ -121,10 +133,12 @@
     {
       "kind": "theorem",
       "name": "consciousness_as_global_section",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/consciousness-as-global-section/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/consciousness-as-global-section/",
       "source_line_start": 158,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T41"
       ]
@@ -132,10 +146,12 @@
     {
       "kind": "theorem",
       "name": "binding_as_gluing",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/binding-as-gluing/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/binding-as-gluing/",
       "source_line_start": 171,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.L14"
       ]
@@ -143,10 +159,12 @@
     {
       "kind": "structure",
       "name": "IntentionalityAsMorphism",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/intentionality-as-morphism/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/intentionality-as-morphism/",
       "source_line_start": 184,
       "source_line_end": 189,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VII.D84"
       ]
@@ -154,19 +172,23 @@
     {
       "kind": "def",
       "name": "intentionality",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/intentionality/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/intentionality/",
       "source_line_start": 191,
       "source_line_end": 191,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "QualiaAsInternalMorphisms",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/qualia-as-internal-morphisms/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/qualia-as-internal-morphisms/",
       "source_line_start": 204,
       "source_line_end": 211,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VII.D85"
       ]
@@ -174,19 +196,23 @@
     {
       "kind": "def",
       "name": "qualia",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/qualia/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/qualia/",
       "source_line_start": 213,
       "source_line_end": 213,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "self_recognition_e3",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/self-recognition-e3/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/self-recognition-e3/",
       "source_line_start": 223,
       "source_line_end": 226,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T42"
       ]
@@ -194,10 +220,12 @@
     {
       "kind": "theorem",
       "name": "free_will_as_branching",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/free-will-as-branching/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/free-will-as-branching/",
       "source_line_start": 236,
       "source_line_end": 239,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T43"
       ]
@@ -205,10 +233,12 @@
     {
       "kind": "theorem",
       "name": "compatibilism_dissolution",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/compatibilism-dissolution/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/compatibilism-dissolution/",
       "source_line_start": 249,
       "source_line_end": 252,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.P26"
       ]
@@ -216,10 +246,12 @@
     {
       "kind": "theorem",
       "name": "identity_as_address_persistence_mind",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/identity-as-address-persistence-mind/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/identity-as-address-persistence-mind/",
       "source_line_start": 261,
       "source_line_end": 264,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.P27"
       ]
@@ -227,10 +259,12 @@
     {
       "kind": "theorem",
       "name": "emotions_as_register_crossings",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/emotions-as-register-crossings/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/emotions-as-register-crossings/",
       "source_line_start": 274,
       "source_line_end": 277,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T44"
       ]
@@ -238,10 +272,12 @@
     {
       "kind": "theorem",
       "name": "affect_as_subsymbolic_pressure",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/affect-as-subsymbolic-pressure/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/affect-as-subsymbolic-pressure/",
       "source_line_start": 287,
       "source_line_end": 290,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.L15"
       ]
@@ -249,10 +285,12 @@
     {
       "kind": "theorem",
       "name": "extended_mind_as_carrier_extension",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/extended-mind-as-carrier-extension/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/extended-mind-as-carrier-extension/",
       "source_line_start": 300,
       "source_line_end": 303,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.P28"
       ]
@@ -260,10 +298,12 @@
     {
       "kind": "structure",
       "name": "GenerativeSwitch",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/generative-switch/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/generative-switch/",
       "source_line_start": 317,
       "source_line_end": 324,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VII.D90"
       ]
@@ -271,19 +311,23 @@
     {
       "kind": "def",
       "name": "generative_switch",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/generative-switch-l326/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/generative-switch-l326/",
       "source_line_start": 326,
       "source_line_end": 326,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "layer_conflation_category_error",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/layer-conflation-category-error/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/layer-conflation-category-error/",
       "source_line_start": 337,
       "source_line_end": 341,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T48"
       ]
@@ -291,10 +335,12 @@
     {
       "kind": "structure",
       "name": "LogosSectorExtended",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/logos-sector-extended/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/logos-sector-extended/",
       "source_line_start": 357,
       "source_line_end": 366,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VII.D86"
       ]
@@ -302,55 +348,67 @@
     {
       "kind": "def",
       "name": "logos_extended",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/logos-extended/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/logos-extended/",
       "source_line_start": 368,
       "source_line_end": 368,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "OmegaRepresentative",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/omega-representative/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/omega-representative/",
       "source_line_start": 377,
       "source_line_end": 384,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "omega_rep",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/omega-rep/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/omega-rep/",
       "source_line_start": 386,
       "source_line_end": 386,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MediatorFixedPointBasin",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/mediator-fixed-point-basin/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/mediator-fixed-point-basin/",
       "source_line_start": 395,
       "source_line_end": 400,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "mediator_basin",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/mediator-basin/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/mediator-basin/",
       "source_line_start": 402,
       "source_line_end": 402,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "logos_characterization",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/logos-characterization/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/logos-characterization/",
       "source_line_start": 421,
       "source_line_end": 432,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.T45"
       ]
@@ -358,10 +416,12 @@
     {
       "kind": "def",
       "name": "omega_point_theorem",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/omega-point-theorem/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/omega-point-theorem/",
       "source_line_start": 457,
       "source_line_end": 463,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VII.T46"
       ]
@@ -369,10 +429,12 @@
     {
       "kind": "theorem",
       "name": "logos_rigidity",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/logos-rigidity/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/logos-rigidity/",
       "source_line_start": 479,
       "source_line_end": 487,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VII.L16"
       ]
@@ -380,10 +442,12 @@
     {
       "kind": "def",
       "name": "science_faith_boundary",
-      "url": "/verify/taulib/docs/book-vii-logos-sector/science-faith-boundary/",
+      "url": "/corpus/taulib/docs/book-vii-logos-sector/science-faith-boundary/",
       "source_line_start": 511,
       "source_line_end": 518,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VII.P29"
       ]
@@ -397,7 +461,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -494,37 +558,37 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [MindAsInternalTopos](/verify/taulib/docs/book-vii-logos-sector/mind-as-internal-topos/) | L87-L96 | defined | `VII.D82` |
-| `def` | [mind_topos](/verify/taulib/docs/book-vii-logos-sector/mind-topos/) | L98-L98 | defined | — |
-| `theorem` | [mind_topos_structure](/verify/taulib/docs/book-vii-logos-sector/mind-topos-structure/) | L110-L115 | formalized | `VII.T39` |
-| `structure` | [StoryFunctor](/verify/taulib/docs/book-vii-logos-sector/story-functor/) | L125-L132 | defined | `VII.D83` |
-| `def` | [story_functor](/verify/taulib/docs/book-vii-logos-sector/story-functor-l134/) | L134-L134 | defined | — |
-| `theorem` | [narrative_identity](/verify/taulib/docs/book-vii-logos-sector/narrative-identity/) | L143-L147 | formalized | `VII.T40` |
-| `theorem` | [consciousness_as_global_section](/verify/taulib/docs/book-vii-logos-sector/consciousness-as-global-section/) | L158-L161 | formalized | `VII.T41` |
-| `theorem` | [binding_as_gluing](/verify/taulib/docs/book-vii-logos-sector/binding-as-gluing/) | L171-L174 | formalized | `VII.L14` |
-| `structure` | [IntentionalityAsMorphism](/verify/taulib/docs/book-vii-logos-sector/intentionality-as-morphism/) | L184-L189 | defined | `VII.D84` |
-| `def` | [intentionality](/verify/taulib/docs/book-vii-logos-sector/intentionality/) | L191-L191 | defined | — |
-| `structure` | [QualiaAsInternalMorphisms](/verify/taulib/docs/book-vii-logos-sector/qualia-as-internal-morphisms/) | L204-L211 | defined | `VII.D85` |
-| `def` | [qualia](/verify/taulib/docs/book-vii-logos-sector/qualia/) | L213-L213 | defined | — |
-| `theorem` | [self_recognition_e3](/verify/taulib/docs/book-vii-logos-sector/self-recognition-e3/) | L223-L226 | formalized | `VII.T42` |
-| `theorem` | [free_will_as_branching](/verify/taulib/docs/book-vii-logos-sector/free-will-as-branching/) | L236-L239 | formalized | `VII.T43` |
-| `theorem` | [compatibilism_dissolution](/verify/taulib/docs/book-vii-logos-sector/compatibilism-dissolution/) | L249-L252 | formalized | `VII.P26` |
-| `theorem` | [identity_as_address_persistence_mind](/verify/taulib/docs/book-vii-logos-sector/identity-as-address-persistence-mind/) | L261-L264 | formalized | `VII.P27` |
-| `theorem` | [emotions_as_register_crossings](/verify/taulib/docs/book-vii-logos-sector/emotions-as-register-crossings/) | L274-L277 | formalized | `VII.T44` |
-| `theorem` | [affect_as_subsymbolic_pressure](/verify/taulib/docs/book-vii-logos-sector/affect-as-subsymbolic-pressure/) | L287-L290 | formalized | `VII.L15` |
-| `theorem` | [extended_mind_as_carrier_extension](/verify/taulib/docs/book-vii-logos-sector/extended-mind-as-carrier-extension/) | L300-L303 | formalized | `VII.P28` |
-| `structure` | [GenerativeSwitch](/verify/taulib/docs/book-vii-logos-sector/generative-switch/) | L317-L324 | defined | `VII.D90` |
-| `def` | [generative_switch](/verify/taulib/docs/book-vii-logos-sector/generative-switch-l326/) | L326-L326 | defined | — |
-| `theorem` | [layer_conflation_category_error](/verify/taulib/docs/book-vii-logos-sector/layer-conflation-category-error/) | L337-L341 | formalized | `VII.T48` |
-| `structure` | [LogosSectorExtended](/verify/taulib/docs/book-vii-logos-sector/logos-sector-extended/) | L357-L366 | defined | `VII.D86` |
-| `def` | [logos_extended](/verify/taulib/docs/book-vii-logos-sector/logos-extended/) | L368-L368 | defined | — |
-| `structure` | [OmegaRepresentative](/verify/taulib/docs/book-vii-logos-sector/omega-representative/) | L377-L384 | defined | — |
-| `def` | [omega_rep](/verify/taulib/docs/book-vii-logos-sector/omega-rep/) | L386-L386 | defined | — |
-| `structure` | [MediatorFixedPointBasin](/verify/taulib/docs/book-vii-logos-sector/mediator-fixed-point-basin/) | L395-L400 | defined | — |
-| `def` | [mediator_basin](/verify/taulib/docs/book-vii-logos-sector/mediator-basin/) | L402-L402 | defined | — |
-| `theorem` | [logos_characterization](/verify/taulib/docs/book-vii-logos-sector/logos-characterization/) | L421-L432 | formalized | `VII.T45` |
-| `def` | [omega_point_theorem](/verify/taulib/docs/book-vii-logos-sector/omega-point-theorem/) | L457-L463 | defined | `VII.T46` |
-| `theorem` | [logos_rigidity](/verify/taulib/docs/book-vii-logos-sector/logos-rigidity/) | L479-L487 | formalized | `VII.L16` |
-| `def` | [science_faith_boundary](/verify/taulib/docs/book-vii-logos-sector/science-faith-boundary/) | L511-L518 | defined | `VII.P29` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [MindAsInternalTopos](/corpus/taulib/docs/book-vii-logos-sector/mind-as-internal-topos/) | L87-L96 | type/data schema | type/data schema | `VII.D82` |
+| `def` | [mind_topos](/corpus/taulib/docs/book-vii-logos-sector/mind-topos/) | L98-L98 | definition | definition | — |
+| `theorem` | [mind_topos_structure](/corpus/taulib/docs/book-vii-logos-sector/mind-topos-structure/) | L110-L115 | proof obligation | formal proof obligation checked | `VII.T39` |
+| `structure` | [StoryFunctor](/corpus/taulib/docs/book-vii-logos-sector/story-functor/) | L125-L132 | type/data schema | type/data schema | `VII.D83` |
+| `def` | [story_functor](/corpus/taulib/docs/book-vii-logos-sector/story-functor-l134/) | L134-L134 | definition | definition | — |
+| `theorem` | [narrative_identity](/corpus/taulib/docs/book-vii-logos-sector/narrative-identity/) | L143-L147 | proof obligation | formal proof obligation checked | `VII.T40` |
+| `theorem` | [consciousness_as_global_section](/corpus/taulib/docs/book-vii-logos-sector/consciousness-as-global-section/) | L158-L161 | proof obligation | formal proof obligation checked | `VII.T41` |
+| `theorem` | [binding_as_gluing](/corpus/taulib/docs/book-vii-logos-sector/binding-as-gluing/) | L171-L174 | proof obligation | formal proof obligation checked | `VII.L14` |
+| `structure` | [IntentionalityAsMorphism](/corpus/taulib/docs/book-vii-logos-sector/intentionality-as-morphism/) | L184-L189 | type/data schema | type/data schema | `VII.D84` |
+| `def` | [intentionality](/corpus/taulib/docs/book-vii-logos-sector/intentionality/) | L191-L191 | data/computed value | data/computed value | — |
+| `structure` | [QualiaAsInternalMorphisms](/corpus/taulib/docs/book-vii-logos-sector/qualia-as-internal-morphisms/) | L204-L211 | type/data schema | type/data schema | `VII.D85` |
+| `def` | [qualia](/corpus/taulib/docs/book-vii-logos-sector/qualia/) | L213-L213 | definition | definition | — |
+| `theorem` | [self_recognition_e3](/corpus/taulib/docs/book-vii-logos-sector/self-recognition-e3/) | L223-L226 | proof obligation | formal proof obligation checked | `VII.T42` |
+| `theorem` | [free_will_as_branching](/corpus/taulib/docs/book-vii-logos-sector/free-will-as-branching/) | L236-L239 | proof obligation | formal proof obligation checked | `VII.T43` |
+| `theorem` | [compatibilism_dissolution](/corpus/taulib/docs/book-vii-logos-sector/compatibilism-dissolution/) | L249-L252 | proof obligation | formal proof obligation checked | `VII.P26` |
+| `theorem` | [identity_as_address_persistence_mind](/corpus/taulib/docs/book-vii-logos-sector/identity-as-address-persistence-mind/) | L261-L264 | proof obligation | formal proof obligation checked | `VII.P27` |
+| `theorem` | [emotions_as_register_crossings](/corpus/taulib/docs/book-vii-logos-sector/emotions-as-register-crossings/) | L274-L277 | proof obligation | formal proof obligation checked | `VII.T44` |
+| `theorem` | [affect_as_subsymbolic_pressure](/corpus/taulib/docs/book-vii-logos-sector/affect-as-subsymbolic-pressure/) | L287-L290 | proof obligation | formal proof obligation checked | `VII.L15` |
+| `theorem` | [extended_mind_as_carrier_extension](/corpus/taulib/docs/book-vii-logos-sector/extended-mind-as-carrier-extension/) | L300-L303 | proof obligation | formal proof obligation checked | `VII.P28` |
+| `structure` | [GenerativeSwitch](/corpus/taulib/docs/book-vii-logos-sector/generative-switch/) | L317-L324 | type/data schema | type/data schema | `VII.D90` |
+| `def` | [generative_switch](/corpus/taulib/docs/book-vii-logos-sector/generative-switch-l326/) | L326-L326 | definition | definition | — |
+| `theorem` | [layer_conflation_category_error](/corpus/taulib/docs/book-vii-logos-sector/layer-conflation-category-error/) | L337-L341 | proof obligation | formal proof obligation checked | `VII.T48` |
+| `structure` | [LogosSectorExtended](/corpus/taulib/docs/book-vii-logos-sector/logos-sector-extended/) | L357-L366 | type/data schema | type/data schema | `VII.D86` |
+| `def` | [logos_extended](/corpus/taulib/docs/book-vii-logos-sector/logos-extended/) | L368-L368 | definition | definition | — |
+| `structure` | [OmegaRepresentative](/corpus/taulib/docs/book-vii-logos-sector/omega-representative/) | L377-L384 | type/data schema | type/data schema | — |
+| `def` | [omega_rep](/corpus/taulib/docs/book-vii-logos-sector/omega-rep/) | L386-L386 | definition | definition | — |
+| `structure` | [MediatorFixedPointBasin](/corpus/taulib/docs/book-vii-logos-sector/mediator-fixed-point-basin/) | L395-L400 | type/data schema | type/data schema | — |
+| `def` | [mediator_basin](/corpus/taulib/docs/book-vii-logos-sector/mediator-basin/) | L402-L402 | definition | definition | — |
+| `theorem` | [logos_characterization](/corpus/taulib/docs/book-vii-logos-sector/logos-characterization/) | L421-L432 | proof obligation | formal proof obligation checked | `VII.T45` |
+| `def` | [omega_point_theorem](/corpus/taulib/docs/book-vii-logos-sector/omega-point-theorem/) | L457-L463 | definition | definition | `VII.T46` |
+| `theorem` | [logos_rigidity](/corpus/taulib/docs/book-vii-logos-sector/logos-rigidity/) | L479-L487 | proof obligation | formal proof obligation checked | `VII.L16` |
+| `def` | [science_faith_boundary](/corpus/taulib/docs/book-vii-logos-sector/science-faith-boundary/) | L511-L518 | definition | definition | `VII.P29` |

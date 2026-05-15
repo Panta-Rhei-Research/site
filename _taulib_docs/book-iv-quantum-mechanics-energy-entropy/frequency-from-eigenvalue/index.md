@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "FrequencyFromEigenvalue",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/frequency-from-eigenvalue/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/frequency-from-eigenvalue/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.QuantumMechanics.EnergyEntropy`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.EnergyEntropy::FrequencyFromEigenvalue",
   "declaration_slug": "frequency-from-eigenvalue",
   "kind": "structure",
   "name": "FrequencyFromEigenvalue",
   "module_name": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/",
   "source_line_start": 93,
   "source_line_end": 98,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean#L93-L98",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.EnergyEntropy](/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/)
+- Module: [TauLib.BookIV.QuantumMechanics.EnergyEntropy](/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean#L93-L98)
 - Source range: L93-L98
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

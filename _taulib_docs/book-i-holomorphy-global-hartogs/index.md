@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Holomorphy.GlobalHartogs",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Holomorphy.GlobalHartogs`.",
   "module_name": "TauLib.BookI.Holomorphy.GlobalHartogs",
   "module_slug": "book-i-holomorphy-global-hartogs",
@@ -34,19 +34,23 @@
     {
       "kind": "structure",
       "name": "HartogsData",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-data/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-data/",
       "source_line_start": 42,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "global_hartogs",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/global-hartogs/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/global-hartogs/",
       "source_line_start": 67,
       "source_line_end": 69,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T31"
       ]
@@ -54,73 +58,89 @@
     {
       "kind": "theorem",
       "name": "hartogs_unique_b",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-b/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-b/",
       "source_line_start": 72,
       "source_line_end": 74,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hartogs_unique_c",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-c/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-c/",
       "source_line_start": 77,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hartogs_ingredient_spectral",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-spectral/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-spectral/",
       "source_line_start": 86,
       "source_line_end": 90,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hartogs_ingredient_crt",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-crt/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-crt/",
       "source_line_start": 93,
       "source_line_end": 96,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hartogs_ingredient_coherence",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-coherence/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-coherence/",
       "source_line_start": 99,
       "source_line_end": 102,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hartogs_ingredient_identity",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-identity/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-identity/",
       "source_line_start": 105,
       "source_line_end": 110,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "hartogs_id_example",
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-id-example/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-id-example/",
       "source_line_start": 117,
       "source_line_end": 123,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/example-l126/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/example-l126/",
       "source_line_start": 126,
       "source_line_end": 142,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     }
   ],
@@ -132,7 +152,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -204,15 +224,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [HartogsData](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-data/) | L42-L54 | defined | — |
-| `theorem` | [global_hartogs](/verify/taulib/docs/book-i-holomorphy-global-hartogs/global-hartogs/) | L67-L69 | formalized | `I.T31` |
-| `theorem` | [hartogs_unique_b](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-b/) | L72-L74 | formalized | — |
-| `theorem` | [hartogs_unique_c](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-c/) | L77-L79 | formalized | — |
-| `theorem` | [hartogs_ingredient_spectral](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-spectral/) | L86-L90 | formalized | — |
-| `theorem` | [hartogs_ingredient_crt](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-crt/) | L93-L96 | formalized | — |
-| `theorem` | [hartogs_ingredient_coherence](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-coherence/) | L99-L102 | formalized | — |
-| `theorem` | [hartogs_ingredient_identity](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-identity/) | L105-L110 | formalized | — |
-| `def` | [hartogs_id_example](/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-id-example/) | L117-L123 | defined | — |
-| `example` | [#eval L126](/verify/taulib/docs/book-i-holomorphy-global-hartogs/example-l126/) | L126-L142 | example | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [HartogsData](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-data/) | L42-L54 | type/data schema | type/data schema | — |
+| `theorem` | [global_hartogs](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/global-hartogs/) | L67-L69 | proof obligation | formal proof obligation checked | `I.T31` |
+| `theorem` | [hartogs_unique_b](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-b/) | L72-L74 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hartogs_unique_c](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-unique-c/) | L77-L79 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hartogs_ingredient_spectral](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-spectral/) | L86-L90 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hartogs_ingredient_crt](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-crt/) | L93-L96 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hartogs_ingredient_coherence](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-coherence/) | L99-L102 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hartogs_ingredient_identity](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-identity/) | L105-L110 | proof obligation | formal proof obligation checked | — |
+| `def` | [hartogs_id_example](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-id-example/) | L117-L123 | definition | definition | — |
+| `example` | [#eval L126](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/example-l126/) | L126-L142 | example check | example | — |

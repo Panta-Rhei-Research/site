@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "calibrated_htau",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/calibrated-htau-l72/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/calibrated-htau-l72/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.CalibratedSplitComplex`.",
   "declaration_id": "TauLib.BookII.Hartogs.CalibratedSplitComplex::calibrated_htau",
   "declaration_slug": "calibrated-htau-l72",
   "kind": "def",
   "name": "calibrated_htau",
   "module_name": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/",
   "source_line_start": 72,
   "source_line_end": 77,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CalibratedSplitComplex.lean#L72-L77",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
-        "url": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CalibratedSplitComplex](/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/)
+- Module: [TauLib.BookII.Hartogs.CalibratedSplitComplex](/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/)
 - Source path: [`TauLib/BookII/Hartogs/CalibratedSplitComplex.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CalibratedSplitComplex.lean#L72-L77)
 - Source range: L72-L77
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coupling_identity_at_omega",
-  "permalink": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.CouplingIdentityApproximants`.",
   "declaration_id": "TauLib.BookI.Boundary.CouplingIdentityApproximants::coupling_identity_at_omega",
   "declaration_slug": "coupling-identity-at-omega",
   "kind": "theorem",
   "name": "coupling_identity_at_omega",
   "module_name": "TauLib.BookI.Boundary.CouplingIdentityApproximants",
-  "module_url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/",
   "source_line_start": 171,
   "source_line_end": 175,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/CouplingIdentityApproximants.lean#L171-L175",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.CouplingIdentityApproximants",
-        "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/"
+        "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.CouplingIdentityApproximants](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/)
+- Module: [TauLib.BookI.Boundary.CouplingIdentityApproximants](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/)
 - Source path: [`TauLib/BookI/Boundary/CouplingIdentityApproximants.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/CouplingIdentityApproximants.lean#L171-L175)
 - Source range: L171-L175
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

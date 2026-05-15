@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "four_gen_order_rigid",
-  "permalink": "/verify/taulib/docs/book-i-orbit-too-few/four-gen-order-rigid/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-too-few/four-gen-order-rigid/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.TooFew`.",
   "declaration_id": "TauLib.BookI.Orbit.TooFew::four_gen_order_rigid",
   "declaration_slug": "four-gen-order-rigid",
   "kind": "theorem",
   "name": "four_gen_order_rigid",
   "module_name": "TauLib.BookI.Orbit.TooFew",
-  "module_url": "/verify/taulib/docs/book-i-orbit-too-few/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-too-few/",
   "source_line_start": 122,
   "source_line_end": 162,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/TooFew.lean#L122-L162",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.TooFew",
-        "url": "/verify/taulib/docs/book-i-orbit-too-few/"
+        "url": "/corpus/taulib/docs/book-i-orbit-too-few/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.TooFew](/verify/taulib/docs/book-i-orbit-too-few/)
+- Module: [TauLib.BookI.Orbit.TooFew](/corpus/taulib/docs/book-i-orbit-too-few/)
 - Source path: [`TauLib/BookI/Orbit/TooFew.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/TooFew.lean#L122-L162)
 - Source range: L122-L162
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

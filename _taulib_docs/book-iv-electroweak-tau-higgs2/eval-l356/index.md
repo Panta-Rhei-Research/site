@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L356",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/eval-l356/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/eval-l356/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Electroweak.TauHiggs2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauHiggs2::#eval:356",
   "declaration_slug": "eval-l356",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/",
   "source_line_start": 356,
   "source_line_end": 356,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L356-L356",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauHiggs2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/verify/taulib/docs/book-iv-electroweak-tau-higgs2/)
+- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/)
 - Source path: [`TauLib/BookIV/Electroweak/TauHiggs2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L356-L356)
 - Source range: L356-L356
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

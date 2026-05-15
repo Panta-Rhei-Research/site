@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_ontic_invariant",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-ontic-invariant/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-ontic-invariant/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.AlphaDerivation`.",
   "declaration_id": "TauLib.BookIV.Electroweak.AlphaDerivation::alpha_ontic_invariant",
   "declaration_slug": "alpha-ontic-invariant",
   "kind": "theorem",
   "name": "alpha_ontic_invariant",
   "module_name": "TauLib.BookIV.Electroweak.AlphaDerivation",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/",
   "source_line_start": 212,
   "source_line_end": 213,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L212-L213",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.AlphaDerivation",
-        "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/)
+- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/)
 - Source path: [`TauLib/BookIV/Electroweak/AlphaDerivation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L212-L213)
 - Source range: L212-L213
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

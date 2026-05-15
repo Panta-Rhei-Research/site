@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RadiationMode",
-  "permalink": "/verify/taulib/docs/book-iv-arena-actors-dynamics/radiation-mode/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/radiation-mode/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Arena.ActorsDynamics`.",
   "declaration_id": "TauLib.BookIV.Arena.ActorsDynamics::RadiationMode",
   "declaration_slug": "radiation-mode",
   "kind": "structure",
   "name": "RadiationMode",
   "module_name": "TauLib.BookIV.Arena.ActorsDynamics",
-  "module_url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/",
   "source_line_start": 62,
   "source_line_end": 69,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/ActorsDynamics.lean#L62-L69",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.ActorsDynamics",
-        "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/"
+        "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.ActorsDynamics](/verify/taulib/docs/book-iv-arena-actors-dynamics/)
+- Module: [TauLib.BookIV.Arena.ActorsDynamics](/corpus/taulib/docs/book-iv-arena-actors-dynamics/)
 - Source path: [`TauLib/BookIV/Arena/ActorsDynamics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/ActorsDynamics.lean#L62-L69)
 - Source range: L62-L69
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

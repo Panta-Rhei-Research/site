@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pi_cubed_denom",
-  "permalink": "/verify/taulib/docs/book-iv-physics-holonomy-correction/pi-cubed-denom/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/pi-cubed-denom/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.HolonomyCorrection`.",
   "declaration_id": "TauLib.BookIV.Physics.HolonomyCorrection::pi_cubed_denom",
   "declaration_slug": "pi-cubed-denom",
   "kind": "def",
   "name": "pi_cubed_denom",
   "module_name": "TauLib.BookIV.Physics.HolonomyCorrection",
-  "module_url": "/verify/taulib/docs/book-iv-physics-holonomy-correction/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/",
   "source_line_start": 114,
   "source_line_end": 114,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/HolonomyCorrection.lean#L114-L114",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.HolonomyCorrection",
-        "url": "/verify/taulib/docs/book-iv-physics-holonomy-correction/"
+        "url": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.HolonomyCorrection](/verify/taulib/docs/book-iv-physics-holonomy-correction/)
+- Module: [TauLib.BookIV.Physics.HolonomyCorrection](/corpus/taulib/docs/book-iv-physics-holonomy-correction/)
 - Source path: [`TauLib/BookIV/Physics/HolonomyCorrection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/HolonomyCorrection.lean#L114-L114)
 - Source range: L114-L114
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

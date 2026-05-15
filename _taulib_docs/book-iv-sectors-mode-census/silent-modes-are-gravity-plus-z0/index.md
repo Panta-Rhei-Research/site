@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "silent_modes_are_gravity_plus_Z0",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-mode-census/silent-modes-are-gravity-plus-z0/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-mode-census/silent-modes-are-gravity-plus-z0/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Sectors.ModeCensus`.",
   "declaration_id": "TauLib.BookIV.Sectors.ModeCensus::silent_modes_are_gravity_plus_Z0",
   "declaration_slug": "silent-modes-are-gravity-plus-z0",
   "kind": "theorem",
   "name": "silent_modes_are_gravity_plus_Z0",
   "module_name": "TauLib.BookIV.Sectors.ModeCensus",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-mode-census/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-mode-census/",
   "source_line_start": 132,
   "source_line_end": 137,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/ModeCensus.lean#L132-L137",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.ModeCensus",
-        "url": "/verify/taulib/docs/book-iv-sectors-mode-census/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.ModeCensus](/verify/taulib/docs/book-iv-sectors-mode-census/)
+- Module: [TauLib.BookIV.Sectors.ModeCensus](/corpus/taulib/docs/book-iv-sectors-mode-census/)
 - Source path: [`TauLib/BookIV/Sectors/ModeCensus.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/ModeCensus.lean#L132-L137)
 - Source range: L132-L137
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

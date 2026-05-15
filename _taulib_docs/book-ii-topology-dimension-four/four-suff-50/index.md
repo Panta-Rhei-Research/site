@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "four_suff_50",
-  "permalink": "/verify/taulib/docs/book-ii-topology-dimension-four/four-suff-50/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-dimension-four/four-suff-50/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Topology.DimensionFour`.",
   "declaration_id": "TauLib.BookII.Topology.DimensionFour::four_suff_50",
   "declaration_slug": "four-suff-50",
   "kind": "theorem",
   "name": "four_suff_50",
   "module_name": "TauLib.BookII.Topology.DimensionFour",
-  "module_url": "/verify/taulib/docs/book-ii-topology-dimension-four/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-dimension-four/",
   "source_line_start": 145,
   "source_line_end": 145,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/DimensionFour.lean#L145-L145",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.DimensionFour",
-        "url": "/verify/taulib/docs/book-ii-topology-dimension-four/"
+        "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.DimensionFour](/verify/taulib/docs/book-ii-topology-dimension-four/)
+- Module: [TauLib.BookII.Topology.DimensionFour](/corpus/taulib/docs/book-ii-topology-dimension-four/)
 - Source path: [`TauLib/BookII/Topology/DimensionFour.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/DimensionFour.lean#L145-L145)
 - Source range: L145-L145
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

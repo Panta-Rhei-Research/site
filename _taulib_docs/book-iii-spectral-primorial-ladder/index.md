@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.PrimorialLadder",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.PrimorialLadder`.",
   "module_name": "TauLib.BookIII.Spectral.PrimorialLadder",
   "module_slug": "book-iii-spectral-primorial-ladder",
@@ -34,10 +34,12 @@
     {
       "kind": "structure",
       "name": "PrimorialStage",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage/",
       "source_line_start": 36,
       "source_line_end": 40,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D19"
       ]
@@ -45,10 +47,12 @@
     {
       "kind": "def",
       "name": "primorial_stage",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage-l43/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage-l43/",
       "source_line_start": 43,
       "source_line_end": 44,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D19"
       ]
@@ -56,10 +60,12 @@
     {
       "kind": "def",
       "name": "primorial_ladder_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-check/",
       "source_line_start": 48,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D19"
       ]
@@ -67,10 +73,12 @@
     {
       "kind": "def",
       "name": "primorial_divisibility_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-divisibility-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-divisibility-check/",
       "source_line_start": 63,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D19"
       ]
@@ -78,10 +86,12 @@
     {
       "kind": "def",
       "name": "primorial_growth_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-check/",
       "source_line_start": 76,
       "source_line_end": 84,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D19"
       ]
@@ -89,10 +99,12 @@
     {
       "kind": "def",
       "name": "cofinal_level",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-level/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-level/",
       "source_line_start": 91,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.T09"
       ]
@@ -100,10 +112,12 @@
     {
       "kind": "def",
       "name": "primorial_cofinal_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-check/",
       "source_line_start": 102,
       "source_line_end": 111,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T09"
       ]
@@ -111,10 +125,12 @@
     {
       "kind": "def",
       "name": "prime_cofinal_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-check/",
       "source_line_start": 115,
       "source_line_end": 128,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T09"
       ]
@@ -122,91 +138,111 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l135/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l135/",
       "source_line_start": 135,
       "source_line_end": 135,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l136/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l136/",
       "source_line_start": 136,
       "source_line_end": 136,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l139/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l139/",
       "source_line_start": 139,
       "source_line_end": 139,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l140/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l140/",
       "source_line_start": 140,
       "source_line_end": 140,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l141/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l141/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l144/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l144/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l145/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l145/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l146/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l146/",
       "source_line_start": 146,
       "source_line_end": 146,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l147/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l147/",
       "source_line_start": 147,
       "source_line_end": 147,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "primorial_ladder_8",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-8/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-8/",
       "source_line_start": 154,
       "source_line_end": 155,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D19"
       ]
@@ -214,10 +250,12 @@
     {
       "kind": "theorem",
       "name": "primorial_div_6",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-div-6/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-div-6/",
       "source_line_start": 158,
       "source_line_end": 159,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D19"
       ]
@@ -225,10 +263,12 @@
     {
       "kind": "theorem",
       "name": "primorial_growth_6",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-6/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-6/",
       "source_line_start": 162,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D19"
       ]
@@ -236,10 +276,12 @@
     {
       "kind": "theorem",
       "name": "primorial_cofinal_50",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-50/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-50/",
       "source_line_start": 166,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T09"
       ]
@@ -247,10 +289,12 @@
     {
       "kind": "theorem",
       "name": "prime_cofinal_30",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-30/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-30/",
       "source_line_start": 170,
       "source_line_end": 171,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T09"
       ]
@@ -258,10 +302,12 @@
     {
       "kind": "theorem",
       "name": "primorial_zero",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-zero/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-zero/",
       "source_line_start": 178,
       "source_line_end": 178,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D19"
       ]
@@ -269,10 +315,12 @@
     {
       "kind": "theorem",
       "name": "primorial_one",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-one/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-one/",
       "source_line_start": 181,
       "source_line_end": 181,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D19"
       ]
@@ -280,10 +328,12 @@
     {
       "kind": "theorem",
       "name": "primorial_three",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-three/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-three/",
       "source_line_start": 184,
       "source_line_end": 184,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D19"
       ]
@@ -291,10 +341,12 @@
     {
       "kind": "theorem",
       "name": "cofinal_30",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-30/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-30/",
       "source_line_start": 187,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T09"
       ]
@@ -302,10 +354,12 @@
     {
       "kind": "theorem",
       "name": "reduce_coherence_42",
-      "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/reduce-coherence-42/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/reduce-coherence-42/",
       "source_line_start": 190,
       "source_line_end": 193,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D19"
       ]
@@ -319,7 +373,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -391,32 +445,32 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [PrimorialStage](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage/) | L36-L40 | defined | `III.D19` |
-| `def` | [primorial_stage](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage-l43/) | L43-L44 | defined | `III.D19` |
-| `def` | [primorial_ladder_check](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-check/) | L48-L60 | defined | `III.D19` |
-| `def` | [primorial_divisibility_check](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-divisibility-check/) | L63-L73 | defined | `III.D19` |
-| `def` | [primorial_growth_check](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-check/) | L76-L84 | defined | `III.D19` |
-| `def` | [cofinal_level](/verify/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-level/) | L91-L98 | defined | `III.T09` |
-| `def` | [primorial_cofinal_check](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-check/) | L102-L111 | defined | `III.T09` |
-| `def` | [prime_cofinal_check](/verify/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-check/) | L115-L128 | defined | `III.T09` |
-| `eval` | [#eval L135](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l135/) | L135-L135 | computed | — |
-| `eval` | [#eval L136](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l136/) | L136-L136 | computed | — |
-| `eval` | [#eval L139](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l139/) | L139-L139 | computed | — |
-| `eval` | [#eval L140](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l140/) | L140-L140 | computed | — |
-| `eval` | [#eval L141](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l141/) | L141-L141 | computed | — |
-| `eval` | [#eval L144](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l144/) | L144-L144 | computed | — |
-| `eval` | [#eval L145](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l145/) | L145-L145 | computed | — |
-| `eval` | [#eval L146](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l146/) | L146-L146 | computed | — |
-| `eval` | [#eval L147](/verify/taulib/docs/book-iii-spectral-primorial-ladder/eval-l147/) | L147-L147 | computed | — |
-| `theorem` | [primorial_ladder_8](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-8/) | L154-L155 | formalized | `III.D19` |
-| `theorem` | [primorial_div_6](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-div-6/) | L158-L159 | formalized | `III.D19` |
-| `theorem` | [primorial_growth_6](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-6/) | L162-L163 | formalized | `III.D19` |
-| `theorem` | [primorial_cofinal_50](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-50/) | L166-L167 | formalized | `III.T09` |
-| `theorem` | [prime_cofinal_30](/verify/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-30/) | L170-L171 | formalized | `III.T09` |
-| `theorem` | [primorial_zero](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-zero/) | L178-L178 | formalized | `III.D19` |
-| `theorem` | [primorial_one](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-one/) | L181-L181 | formalized | `III.D19` |
-| `theorem` | [primorial_three](/verify/taulib/docs/book-iii-spectral-primorial-ladder/primorial-three/) | L184-L184 | formalized | `III.D19` |
-| `theorem` | [cofinal_30](/verify/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-30/) | L187-L187 | formalized | `III.T09` |
-| `theorem` | [reduce_coherence_42](/verify/taulib/docs/book-iii-spectral-primorial-ladder/reduce-coherence-42/) | L190-L193 | formalized | `III.D19` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [PrimorialStage](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage/) | L36-L40 | type/data schema | type/data schema | `III.D19` |
+| `def` | [primorial_stage](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-stage-l43/) | L43-L44 | definition | definition | `III.D19` |
+| `def` | [primorial_ladder_check](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-check/) | L48-L60 | data/computed value | data/computed value | `III.D19` |
+| `def` | [primorial_divisibility_check](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-divisibility-check/) | L63-L73 | data/computed value | data/computed value | `III.D19` |
+| `def` | [primorial_growth_check](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-check/) | L76-L84 | data/computed value | data/computed value | `III.D19` |
+| `def` | [cofinal_level](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-level/) | L91-L98 | definition | definition | `III.T09` |
+| `def` | [primorial_cofinal_check](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-check/) | L102-L111 | data/computed value | data/computed value | `III.T09` |
+| `def` | [prime_cofinal_check](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-check/) | L115-L128 | data/computed value | data/computed value | `III.T09` |
+| `eval` | [#eval L135](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l135/) | L135-L135 | computed check | computed check | — |
+| `eval` | [#eval L136](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l136/) | L136-L136 | computed check | computed check | — |
+| `eval` | [#eval L139](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l139/) | L139-L139 | computed check | computed check | — |
+| `eval` | [#eval L140](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l140/) | L140-L140 | computed check | computed check | — |
+| `eval` | [#eval L141](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l141/) | L141-L141 | computed check | computed check | — |
+| `eval` | [#eval L144](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l144/) | L144-L144 | computed check | computed check | — |
+| `eval` | [#eval L145](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l145/) | L145-L145 | computed check | computed check | — |
+| `eval` | [#eval L146](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l146/) | L146-L146 | computed check | computed check | — |
+| `eval` | [#eval L147](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/eval-l147/) | L147-L147 | computed check | computed check | — |
+| `theorem` | [primorial_ladder_8](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-ladder-8/) | L154-L155 | proof obligation | formal proof obligation checked | `III.D19` |
+| `theorem` | [primorial_div_6](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-div-6/) | L158-L159 | proof obligation | formal proof obligation checked | `III.D19` |
+| `theorem` | [primorial_growth_6](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-growth-6/) | L162-L163 | proof obligation | formal proof obligation checked | `III.D19` |
+| `theorem` | [primorial_cofinal_50](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-cofinal-50/) | L166-L167 | proof obligation | formal proof obligation checked | `III.T09` |
+| `theorem` | [prime_cofinal_30](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-30/) | L170-L171 | proof obligation | formal proof obligation checked | `III.T09` |
+| `theorem` | [primorial_zero](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-zero/) | L178-L178 | proof obligation | formal proof obligation checked | `III.D19` |
+| `theorem` | [primorial_one](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-one/) | L181-L181 | proof obligation | formal proof obligation checked | `III.D19` |
+| `theorem` | [primorial_three](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/primorial-three/) | L184-L184 | proof obligation | formal proof obligation checked | `III.D19` |
+| `theorem` | [cofinal_30](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/cofinal-30/) | L187-L187 | proof obligation | formal proof obligation checked | `III.T09` |
+| `theorem` | [reduce_coherence_42](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/reduce-coherence-42/) | L190-L193 | proof obligation | formal proof obligation checked | `III.D19` |

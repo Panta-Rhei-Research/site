@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CalibrationSufficiency",
-  "permalink": "/verify/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Coda.CalibrationChain`.",
   "declaration_id": "TauLib.BookV.Coda.CalibrationChain::CalibrationSufficiency",
   "declaration_slug": "calibration-sufficiency",
   "kind": "structure",
   "name": "CalibrationSufficiency",
   "module_name": "TauLib.BookV.Coda.CalibrationChain",
-  "module_url": "/verify/taulib/docs/book-v-coda-calibration-chain/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-calibration-chain/",
   "source_line_start": 98,
   "source_line_end": 115,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/CalibrationChain.lean#L98-L115",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.CalibrationChain",
-        "url": "/verify/taulib/docs/book-v-coda-calibration-chain/"
+        "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.CalibrationChain](/verify/taulib/docs/book-v-coda-calibration-chain/)
+- Module: [TauLib.BookV.Coda.CalibrationChain](/corpus/taulib/docs/book-v-coda-calibration-chain/)
 - Source path: [`TauLib/BookV/Coda/CalibrationChain.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/CalibrationChain.lean#L98-L115)
 - Source range: L98-L115
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

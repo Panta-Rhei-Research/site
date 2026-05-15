@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Arithmetic.EnrichedBiSquare`.",
   "module_name": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
   "module_slug": "book-iii-arithmetic-enriched-bi-square",
@@ -33,10 +33,12 @@
     {
       "kind": "def",
       "name": "finite_factorization_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-check/",
       "source_line_start": 44,
       "source_line_end": 66,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T38"
       ]
@@ -44,10 +46,12 @@
     {
       "kind": "def",
       "name": "enriched_bisquare_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-check/",
       "source_line_start": 75,
       "source_line_end": 100,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D65"
       ]
@@ -55,10 +59,12 @@
     {
       "kind": "def",
       "name": "bisquare_comparison_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-check/",
       "source_line_start": 110,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T39"
       ]
@@ -66,64 +72,78 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l141/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l141/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l142/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l142/",
       "source_line_start": 142,
       "source_line_end": 142,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l143/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l143/",
       "source_line_start": 143,
       "source_line_end": 143,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "enriched_bisquare_10_3",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-10-3/",
       "source_line_start": 149,
       "source_line_end": 150,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "finite_factorization_15_4",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-15-4/",
       "source_line_start": 152,
       "source_line_end": 153,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bisquare_comparison_15_4",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-15-4/",
       "source_line_start": 155,
       "source_line_end": 156,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "enriched_bs_10_1",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bs-10-1/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bs-10-1/",
       "source_line_start": 163,
       "source_line_end": 164,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D65"
       ]
@@ -131,10 +151,12 @@
     {
       "kind": "theorem",
       "name": "factorization_10_1",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/factorization-10-1/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/factorization-10-1/",
       "source_line_start": 167,
       "source_line_end": 168,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T38"
       ]
@@ -142,10 +164,12 @@
     {
       "kind": "theorem",
       "name": "comparison_10_1",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/comparison-10-1/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/comparison-10-1/",
       "source_line_start": 171,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T39"
       ]
@@ -159,7 +183,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -230,17 +254,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [finite_factorization_check](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-check/) | L44-L66 | defined | `III.T38` |
-| `def` | [enriched_bisquare_check](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-check/) | L75-L100 | defined | `III.D65` |
-| `def` | [bisquare_comparison_check](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-check/) | L110-L135 | defined | `III.T39` |
-| `eval` | [#eval L141](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l141/) | L141-L141 | computed | — |
-| `eval` | [#eval L142](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l142/) | L142-L142 | computed | — |
-| `eval` | [#eval L143](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l143/) | L143-L143 | computed | — |
-| `theorem` | [enriched_bisquare_10_3](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-10-3/) | L149-L150 | formalized | — |
-| `theorem` | [finite_factorization_15_4](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-15-4/) | L152-L153 | formalized | — |
-| `theorem` | [bisquare_comparison_15_4](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-15-4/) | L155-L156 | formalized | — |
-| `theorem` | [enriched_bs_10_1](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bs-10-1/) | L163-L164 | formalized | `III.D65` |
-| `theorem` | [factorization_10_1](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/factorization-10-1/) | L167-L168 | formalized | `III.T38` |
-| `theorem` | [comparison_10_1](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/comparison-10-1/) | L171-L174 | formalized | `III.T39` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [finite_factorization_check](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-check/) | L44-L66 | data/computed value | data/computed value | `III.T38` |
+| `def` | [enriched_bisquare_check](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-check/) | L75-L100 | data/computed value | data/computed value | `III.D65` |
+| `def` | [bisquare_comparison_check](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-check/) | L110-L135 | data/computed value | data/computed value | `III.T39` |
+| `eval` | [#eval L141](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l141/) | L141-L141 | computed check | computed check | — |
+| `eval` | [#eval L142](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l142/) | L142-L142 | computed check | computed check | — |
+| `eval` | [#eval L143](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l143/) | L143-L143 | computed check | computed check | — |
+| `theorem` | [enriched_bisquare_10_3](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bisquare-10-3/) | L149-L150 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [finite_factorization_15_4](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/finite-factorization-15-4/) | L152-L153 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bisquare_comparison_15_4](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-15-4/) | L155-L156 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [enriched_bs_10_1](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/enriched-bs-10-1/) | L163-L164 | proof obligation | formal proof obligation checked | `III.D65` |
+| `theorem` | [factorization_10_1](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/factorization-10-1/) | L167-L168 | proof obligation | formal proof obligation checked | `III.T38` |
+| `theorem` | [comparison_10_1](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/comparison-10-1/) | L171-L174 | proof obligation | formal proof obligation checked | `III.T39` |

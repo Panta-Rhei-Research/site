@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RegimeBoundaryCharacter",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/regime-boundary-character/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/regime-boundary-character/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Cosmology.BigBangRegime`.",
   "declaration_id": "TauLib.BookV.Cosmology.BigBangRegime::RegimeBoundaryCharacter",
   "declaration_slug": "regime-boundary-character",
   "kind": "structure",
   "name": "RegimeBoundaryCharacter",
   "module_name": "TauLib.BookV.Cosmology.BigBangRegime",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/",
   "source_line_start": 128,
   "source_line_end": 137,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BigBangRegime.lean#L128-L137",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BigBangRegime",
-        "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BigBangRegime](/verify/taulib/docs/book-v-cosmology-big-bang-regime/)
+- Module: [TauLib.BookV.Cosmology.BigBangRegime](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/)
 - Source path: [`TauLib/BookV/Cosmology/BigBangRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BigBangRegime.lean#L128-L137)
 - Source range: L128-L137
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

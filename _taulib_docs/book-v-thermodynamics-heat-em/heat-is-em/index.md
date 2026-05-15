@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HeatIsEM",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Thermodynamics.HeatEM`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.HeatEM::HeatIsEM",
   "declaration_slug": "heat-is-em",
   "kind": "structure",
   "name": "HeatIsEM",
   "module_name": "TauLib.BookV.Thermodynamics.HeatEM",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/",
   "source_line_start": 244,
   "source_line_end": 252,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/HeatEM.lean#L244-L252",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.HeatEM",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.HeatEM](/verify/taulib/docs/book-v-thermodynamics-heat-em/)
+- Module: [TauLib.BookV.Thermodynamics.HeatEM](/corpus/taulib/docs/book-v-thermodynamics-heat-em/)
 - Source path: [`TauLib/BookV/Thermodynamics/HeatEM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/HeatEM.lean#L244-L252)
 - Source range: L244-L252
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

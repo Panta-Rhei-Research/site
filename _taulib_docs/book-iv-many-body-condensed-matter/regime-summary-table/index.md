@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "regime_summary_table",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-condensed-matter/regime-summary-table/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/regime-summary-table/",
   "summary_short": "`def` declaration in `TauLib.BookIV.ManyBody.CondensedMatter`.",
   "declaration_id": "TauLib.BookIV.ManyBody.CondensedMatter::regime_summary_table",
   "declaration_slug": "regime-summary-table",
   "kind": "def",
   "name": "regime_summary_table",
   "module_name": "TauLib.BookIV.ManyBody.CondensedMatter",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/",
   "source_line_start": 236,
   "source_line_end": 247,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L236-L247",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.CondensedMatter",
-        "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/verify/taulib/docs/book-iv-many-body-condensed-matter/)
+- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/corpus/taulib/docs/book-iv-many-body-condensed-matter/)
 - Source path: [`TauLib/BookIV/ManyBody/CondensedMatter.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L236-L247)
 - Source range: L236-L247
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

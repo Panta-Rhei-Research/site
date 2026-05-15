@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "synchrotron_ratio_universal",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-ehtreread/synchrotron-ratio-universal/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/synchrotron-ratio-universal/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.EHTReread`.",
   "declaration_id": "TauLib.BookV.Astrophysics.EHTReread::synchrotron_ratio_universal",
   "declaration_slug": "synchrotron-ratio-universal",
   "kind": "theorem",
   "name": "synchrotron_ratio_universal",
   "module_name": "TauLib.BookV.Astrophysics.EHTReread",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/",
   "source_line_start": 370,
   "source_line_end": 372,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L370-L372",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.EHTReread",
-        "url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.EHTReread](/verify/taulib/docs/book-v-astrophysics-ehtreread/)
+- Module: [TauLib.BookV.Astrophysics.EHTReread](/corpus/taulib/docs/book-v-astrophysics-ehtreread/)
 - Source path: [`TauLib/BookV/Astrophysics/EHTReread.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L370-L372)
 - Source range: L370-L372
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

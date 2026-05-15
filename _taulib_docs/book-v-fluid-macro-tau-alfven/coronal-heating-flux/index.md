@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CoronalHeatingFlux",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux/",
   "summary_short": "`structure` declaration in `TauLib.BookV.FluidMacro.TauAlfven`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauAlfven::CoronalHeatingFlux",
   "declaration_slug": "coronal-heating-flux",
   "kind": "structure",
   "name": "CoronalHeatingFlux",
   "module_name": "TauLib.BookV.FluidMacro.TauAlfven",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/",
   "source_line_start": 279,
   "source_line_end": 288,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauAlfven.lean#L279-L288",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauAlfven",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauAlfven](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/)
+- Module: [TauLib.BookV.FluidMacro.TauAlfven](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/)
 - Source path: [`TauLib/BookV/FluidMacro/TauAlfven.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauAlfven.lean#L279-L288)
 - Source range: L279-L288
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

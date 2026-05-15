@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chart_readout_schwarzschild",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/chart-readout-schwarzschild/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/chart-readout-schwarzschild/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.GravityField.TauSchwarzschild`.",
   "declaration_id": "TauLib.BookV.GravityField.TauSchwarzschild::chart_readout_schwarzschild",
   "declaration_slug": "chart-readout-schwarzschild",
   "kind": "theorem",
   "name": "chart_readout_schwarzschild",
   "module_name": "TauLib.BookV.GravityField.TauSchwarzschild",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
   "source_line_start": 188,
   "source_line_end": 190,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschild.lean#L188-L190",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TauSchwarzschild",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TauSchwarzschild](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/)
+- Module: [TauLib.BookV.GravityField.TauSchwarzschild](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/)
 - Source path: [`TauLib/BookV/GravityField/TauSchwarzschild.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschild.lean#L188-L190)
 - Source range: L188-L190
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

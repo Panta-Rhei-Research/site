@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bool_of_is_prime",
-  "permalink": "/verify/taulib/docs/book-i-polarity-prime-bridge/bool-of-is-prime/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-prime-bridge/bool-of-is-prime/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.PrimeBridge`.",
   "declaration_id": "TauLib.BookI.Polarity.PrimeBridge::bool_of_is_prime",
   "declaration_slug": "bool-of-is-prime",
   "kind": "theorem",
   "name": "bool_of_is_prime",
   "module_name": "TauLib.BookI.Polarity.PrimeBridge",
-  "module_url": "/verify/taulib/docs/book-i-polarity-prime-bridge/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-prime-bridge/",
   "source_line_start": 166,
   "source_line_end": 179,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimeBridge.lean#L166-L179",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.PrimeBridge",
-        "url": "/verify/taulib/docs/book-i-polarity-prime-bridge/"
+        "url": "/corpus/taulib/docs/book-i-polarity-prime-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.PrimeBridge](/verify/taulib/docs/book-i-polarity-prime-bridge/)
+- Module: [TauLib.BookI.Polarity.PrimeBridge](/corpus/taulib/docs/book-i-polarity-prime-bridge/)
 - Source path: [`TauLib/BookI/Polarity/PrimeBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimeBridge.lean#L166-L179)
 - Source range: L166-L179
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

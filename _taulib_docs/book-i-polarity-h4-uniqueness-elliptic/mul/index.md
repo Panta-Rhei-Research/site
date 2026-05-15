@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "GaussianElliptic.mul",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/mul/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/mul/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.H4UniquenessElliptic`.",
   "declaration_id": "TauLib.BookI.Polarity.H4UniquenessElliptic::GaussianElliptic.mul",
   "declaration_slug": "mul",
   "kind": "def",
   "name": "GaussianElliptic.mul",
   "module_name": "TauLib.BookI.Polarity.H4UniquenessElliptic",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/",
   "source_line_start": 220,
   "source_line_end": 221,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4UniquenessElliptic.lean#L220-L221",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H4UniquenessElliptic",
-        "url": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H4UniquenessElliptic](/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/)
+- Module: [TauLib.BookI.Polarity.H4UniquenessElliptic](/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/)
 - Source path: [`TauLib/BookI/Polarity/H4UniquenessElliptic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4UniquenessElliptic.lean#L220-L221)
 - Source range: L220-L221
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

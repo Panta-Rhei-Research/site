@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hartogs_uniqueness_check",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-hartogs-extension/hartogs-uniqueness-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-hartogs-extension/hartogs-uniqueness-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.CentralTheorem.HartogsExtension`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.HartogsExtension::hartogs_uniqueness_check",
   "declaration_slug": "hartogs-uniqueness-check",
   "kind": "def",
   "name": "hartogs_uniqueness_check",
   "module_name": "TauLib.BookII.CentralTheorem.HartogsExtension",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-hartogs-extension/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-hartogs-extension/",
   "source_line_start": 149,
   "source_line_end": 170,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/HartogsExtension.lean#L149-L170",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.HartogsExtension",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-hartogs-extension/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-hartogs-extension/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.HartogsExtension](/verify/taulib/docs/book-ii-central-theorem-hartogs-extension/)
+- Module: [TauLib.BookII.CentralTheorem.HartogsExtension](/corpus/taulib/docs/book-ii-central-theorem-hartogs-extension/)
 - Source path: [`TauLib/BookII/CentralTheorem/HartogsExtension.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/HartogsExtension.lean#L149-L170)
 - Source range: L149-L170
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

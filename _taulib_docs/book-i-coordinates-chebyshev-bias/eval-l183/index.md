@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L183",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-chebyshev-bias/eval-l183/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/eval-l183/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Coordinates.ChebyshevBias`.",
   "declaration_id": "TauLib.BookI.Coordinates.ChebyshevBias::#eval:183",
   "declaration_slug": "eval-l183",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Coordinates.ChebyshevBias",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-chebyshev-bias/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/",
   "source_line_start": 183,
   "source_line_end": 183,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/ChebyshevBias.lean#L183-L183",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.ChebyshevBias",
-        "url": "/verify/taulib/docs/book-i-coordinates-chebyshev-bias/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.ChebyshevBias](/verify/taulib/docs/book-i-coordinates-chebyshev-bias/)
+- Module: [TauLib.BookI.Coordinates.ChebyshevBias](/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/)
 - Source path: [`TauLib/BookI/Coordinates/ChebyshevBias.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/ChebyshevBias.lean#L183-L183)
 - Source range: L183-L183
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

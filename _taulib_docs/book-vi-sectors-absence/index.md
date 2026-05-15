@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Sectors.Absence",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-absence/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-absence/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Sectors.Absence`.",
   "module_name": "TauLib.BookVI.Sectors.Absence",
   "module_slug": "book-vi-sectors-absence",
@@ -36,10 +36,12 @@
     {
       "kind": "structure",
       "name": "NoDist",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/no-dist/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/no-dist/",
       "source_line_start": 24,
       "source_line_end": 27,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D21"
       ]
@@ -47,10 +49,12 @@
     {
       "kind": "structure",
       "name": "NoSelfDesc",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/no-self-desc/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/no-self-desc/",
       "source_line_start": 30,
       "source_line_end": 34,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D22"
       ]
@@ -58,10 +62,12 @@
     {
       "kind": "structure",
       "name": "VirusNoDist",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/virus-no-dist/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/virus-no-dist/",
       "source_line_start": 37,
       "source_line_end": 41,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T15"
       ]
@@ -69,28 +75,34 @@
     {
       "kind": "def",
       "name": "virus",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/virus/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/virus/",
       "source_line_start": 43,
       "source_line_end": 45,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "virus_nodist",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/virus-nodist/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/virus-nodist/",
       "source_line_start": 47,
       "source_line_end": 50,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NSNoSelfDesc",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/nsno-self-desc/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/nsno-self-desc/",
       "source_line_start": 53,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L06"
       ]
@@ -98,28 +110,34 @@
     {
       "kind": "def",
       "name": "ns_nosd",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/ns-nosd/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/ns-nosd/",
       "source_line_start": 59,
       "source_line_end": 61,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ns_noselfdesc",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/ns-noselfdesc/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/ns-noselfdesc/",
       "source_line_start": 63,
       "source_line_end": 66,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ConsumerBridgeE3",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3/",
       "source_line_start": 69,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L07"
       ]
@@ -127,28 +145,34 @@
     {
       "kind": "def",
       "name": "consumer_bridge",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/consumer-bridge/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/consumer-bridge/",
       "source_line_start": 74,
       "source_line_end": 74,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "consumer_bridge_e3",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3-l76/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3-l76/",
       "source_line_start": 76,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CircadianRotation",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/circadian-rotation/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/circadian-rotation/",
       "source_line_start": 82,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P09"
       ]
@@ -156,19 +180,23 @@
     {
       "kind": "def",
       "name": "circadian",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/circadian/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/circadian/",
       "source_line_start": 87,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "circadian_rotation",
-      "url": "/verify/taulib/docs/book-vi-sectors-absence/circadian-rotation-l89/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-absence/circadian-rotation-l89/",
       "source_line_start": 89,
       "source_line_end": 94,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -180,7 +208,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -254,19 +282,19 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [NoDist](/verify/taulib/docs/book-vi-sectors-absence/no-dist/) | L24-L27 | defined | `VI.D21` |
-| `structure` | [NoSelfDesc](/verify/taulib/docs/book-vi-sectors-absence/no-self-desc/) | L30-L34 | defined | `VI.D22` |
-| `structure` | [VirusNoDist](/verify/taulib/docs/book-vi-sectors-absence/virus-no-dist/) | L37-L41 | defined | `VI.T15` |
-| `def` | [virus](/verify/taulib/docs/book-vi-sectors-absence/virus/) | L43-L45 | defined | — |
-| `theorem` | [virus_nodist](/verify/taulib/docs/book-vi-sectors-absence/virus-nodist/) | L47-L50 | formalized | — |
-| `structure` | [NSNoSelfDesc](/verify/taulib/docs/book-vi-sectors-absence/nsno-self-desc/) | L53-L57 | defined | `VI.L06` |
-| `def` | [ns_nosd](/verify/taulib/docs/book-vi-sectors-absence/ns-nosd/) | L59-L61 | defined | — |
-| `theorem` | [ns_noselfdesc](/verify/taulib/docs/book-vi-sectors-absence/ns-noselfdesc/) | L63-L66 | formalized | — |
-| `structure` | [ConsumerBridgeE3](/verify/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3/) | L69-L72 | defined | `VI.L07` |
-| `def` | [consumer_bridge](/verify/taulib/docs/book-vi-sectors-absence/consumer-bridge/) | L74-L74 | defined | — |
-| `theorem` | [consumer_bridge_e3](/verify/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3-l76/) | L76-L79 | formalized | — |
-| `structure` | [CircadianRotation](/verify/taulib/docs/book-vi-sectors-absence/circadian-rotation/) | L82-L85 | defined | `VI.P09` |
-| `def` | [circadian](/verify/taulib/docs/book-vi-sectors-absence/circadian/) | L87-L87 | defined | — |
-| `theorem` | [circadian_rotation](/verify/taulib/docs/book-vi-sectors-absence/circadian-rotation-l89/) | L89-L94 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [NoDist](/corpus/taulib/docs/book-vi-sectors-absence/no-dist/) | L24-L27 | type/data schema | type/data schema | `VI.D21` |
+| `structure` | [NoSelfDesc](/corpus/taulib/docs/book-vi-sectors-absence/no-self-desc/) | L30-L34 | type/data schema | type/data schema | `VI.D22` |
+| `structure` | [VirusNoDist](/corpus/taulib/docs/book-vi-sectors-absence/virus-no-dist/) | L37-L41 | type/data schema | type/data schema | `VI.T15` |
+| `def` | [virus](/corpus/taulib/docs/book-vi-sectors-absence/virus/) | L43-L45 | definition | definition | — |
+| `theorem` | [virus_nodist](/corpus/taulib/docs/book-vi-sectors-absence/virus-nodist/) | L47-L50 | proof obligation | formal proof obligation checked | — |
+| `structure` | [NSNoSelfDesc](/corpus/taulib/docs/book-vi-sectors-absence/nsno-self-desc/) | L53-L57 | type/data schema | type/data schema | `VI.L06` |
+| `def` | [ns_nosd](/corpus/taulib/docs/book-vi-sectors-absence/ns-nosd/) | L59-L61 | definition | definition | — |
+| `theorem` | [ns_noselfdesc](/corpus/taulib/docs/book-vi-sectors-absence/ns-noselfdesc/) | L63-L66 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ConsumerBridgeE3](/corpus/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3/) | L69-L72 | type/data schema | type/data schema | `VI.L07` |
+| `def` | [consumer_bridge](/corpus/taulib/docs/book-vi-sectors-absence/consumer-bridge/) | L74-L74 | definition | definition | — |
+| `theorem` | [consumer_bridge_e3](/corpus/taulib/docs/book-vi-sectors-absence/consumer-bridge-e3-l76/) | L76-L79 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CircadianRotation](/corpus/taulib/docs/book-vi-sectors-absence/circadian-rotation/) | L82-L85 | type/data schema | type/data schema | `VI.P09` |
+| `def` | [circadian](/corpus/taulib/docs/book-vi-sectors-absence/circadian/) | L87-L87 | definition | definition | — |
+| `theorem` | [circadian_rotation](/corpus/taulib/docs/book-vi-sectors-absence/circadian-rotation-l89/) | L89-L94 | proof obligation | formal proof obligation checked | — |

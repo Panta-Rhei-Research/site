@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "NoRunningPrinciple",
-  "permalink": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-principle/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-principle/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Physics.Thermodynamics`.",
   "declaration_id": "TauLib.BookIV.Physics.Thermodynamics::NoRunningPrinciple",
   "declaration_slug": "no-running-principle",
   "kind": "structure",
   "name": "NoRunningPrinciple",
   "module_name": "TauLib.BookIV.Physics.Thermodynamics",
-  "module_url": "/verify/taulib/docs/book-iv-physics-thermodynamics/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/",
   "source_line_start": 140,
   "source_line_end": 151,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L140-L151",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.Thermodynamics",
-        "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/"
+        "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.Thermodynamics](/verify/taulib/docs/book-iv-physics-thermodynamics/)
+- Module: [TauLib.BookIV.Physics.Thermodynamics](/corpus/taulib/docs/book-iv-physics-thermodynamics/)
 - Source path: [`TauLib/BookIV/Physics/Thermodynamics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L140-L151)
 - Source range: L140-L151
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

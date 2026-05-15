@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CayleyDist_eq_zero_iff_rhoCount",
-  "permalink": "/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-eq-zero-iff-rho-count/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-eq-zero-iff-rho-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Addressability.CayleyMetric`.",
   "declaration_id": "TauLib.BookI.Addressability.CayleyMetric::CayleyDist_eq_zero_iff_rhoCount",
   "declaration_slug": "cayley-dist-eq-zero-iff-rho-count",
   "kind": "theorem",
   "name": "CayleyDist_eq_zero_iff_rhoCount",
   "module_name": "TauLib.BookI.Addressability.CayleyMetric",
-  "module_url": "/verify/taulib/docs/book-i-addressability-cayley-metric/",
+  "module_url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/",
   "source_line_start": 95,
   "source_line_end": 98,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/CayleyMetric.lean#L95-L98",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Addressability.CayleyMetric",
-        "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/"
+        "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Addressability.CayleyMetric](/verify/taulib/docs/book-i-addressability-cayley-metric/)
+- Module: [TauLib.BookI.Addressability.CayleyMetric](/corpus/taulib/docs/book-i-addressability-cayley-metric/)
 - Source path: [`TauLib/BookI/Addressability/CayleyMetric.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/CayleyMetric.lean#L95-L98)
 - Source range: L95-L98
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "id_arrow",
-  "permalink": "/verify/taulib/docs/book-i-topos-earned-arrows/id-arrow/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-earned-arrows/id-arrow/",
   "summary_short": "`def` declaration in `TauLib.BookI.Topos.EarnedArrows`.",
   "declaration_id": "TauLib.BookI.Topos.EarnedArrows::id_arrow",
   "declaration_slug": "id-arrow",
   "kind": "def",
   "name": "id_arrow",
   "module_name": "TauLib.BookI.Topos.EarnedArrows",
-  "module_url": "/verify/taulib/docs/book-i-topos-earned-arrows/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-earned-arrows/",
   "source_line_start": 62,
   "source_line_end": 63,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedArrows.lean#L62-L63",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.EarnedArrows",
-        "url": "/verify/taulib/docs/book-i-topos-earned-arrows/"
+        "url": "/corpus/taulib/docs/book-i-topos-earned-arrows/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.EarnedArrows](/verify/taulib/docs/book-i-topos-earned-arrows/)
+- Module: [TauLib.BookI.Topos.EarnedArrows](/corpus/taulib/docs/book-i-topos-earned-arrows/)
 - Source path: [`TauLib/BookI/Topos/EarnedArrows.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedArrows.lean#L62-L63)
 - Source range: L62-L63
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

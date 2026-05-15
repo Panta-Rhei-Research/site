@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "basin_fusion_lemma",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/basin-fusion-lemma/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/basin-fusion-lemma/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.CosmicLife.GalaxyBasin`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.GalaxyBasin::basin_fusion_lemma",
   "declaration_slug": "basin-fusion-lemma",
   "kind": "theorem",
   "name": "basin_fusion_lemma",
   "module_name": "TauLib.BookVI.CosmicLife.GalaxyBasin",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/",
   "source_line_start": 148,
   "source_line_end": 155,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/GalaxyBasin.lean#L148-L155",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.GalaxyBasin",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.GalaxyBasin](/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/)
+- Module: [TauLib.BookVI.CosmicLife.GalaxyBasin](/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/)
 - Source path: [`TauLib/BookVI/CosmicLife/GalaxyBasin.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/GalaxyBasin.lean#L148-L155)
 - Source range: L148-L155
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

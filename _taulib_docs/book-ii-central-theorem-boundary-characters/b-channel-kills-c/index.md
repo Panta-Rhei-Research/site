@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "b_channel_kills_c",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/b-channel-kills-c/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/b-channel-kills-c/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.CentralTheorem.BoundaryCharacters`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.BoundaryCharacters::b_channel_kills_c",
   "declaration_slug": "b-channel-kills-c",
   "kind": "theorem",
   "name": "b_channel_kills_c",
   "module_name": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/",
   "source_line_start": 317,
   "source_line_end": 319,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/BoundaryCharacters.lean#L317-L319",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.BoundaryCharacters](/verify/taulib/docs/book-ii-central-theorem-boundary-characters/)
+- Module: [TauLib.BookII.CentralTheorem.BoundaryCharacters](/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/)
 - Source path: [`TauLib/BookII/CentralTheorem/BoundaryCharacters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/BoundaryCharacters.lean#L317-L319)
 - Source range: L317-L319
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

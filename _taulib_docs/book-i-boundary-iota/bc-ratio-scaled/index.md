@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bc_ratio_scaled",
-  "permalink": "/verify/taulib/docs/book-i-boundary-iota/bc-ratio-scaled/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-iota/bc-ratio-scaled/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Iota`.",
   "declaration_id": "TauLib.BookI.Boundary.Iota::bc_ratio_scaled",
   "declaration_slug": "bc-ratio-scaled",
   "kind": "def",
   "name": "bc_ratio_scaled",
   "module_name": "TauLib.BookI.Boundary.Iota",
-  "module_url": "/verify/taulib/docs/book-i-boundary-iota/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-iota/",
   "source_line_start": 75,
   "source_line_end": 78,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L75-L78",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Iota",
-        "url": "/verify/taulib/docs/book-i-boundary-iota/"
+        "url": "/corpus/taulib/docs/book-i-boundary-iota/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Iota](/verify/taulib/docs/book-i-boundary-iota/)
+- Module: [TauLib.BookI.Boundary.Iota](/corpus/taulib/docs/book-i-boundary-iota/)
 - Source path: [`TauLib/BookI/Boundary/Iota.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L75-L78)
 - Source range: L75-L78
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

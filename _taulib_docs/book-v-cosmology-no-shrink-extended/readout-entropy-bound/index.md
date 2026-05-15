@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ReadoutEntropyBound",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/readout-entropy-bound/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/readout-entropy-bound/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Cosmology.NoShrinkExtended`.",
   "declaration_id": "TauLib.BookV.Cosmology.NoShrinkExtended::ReadoutEntropyBound",
   "declaration_slug": "readout-entropy-bound",
   "kind": "structure",
   "name": "ReadoutEntropyBound",
   "module_name": "TauLib.BookV.Cosmology.NoShrinkExtended",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/",
   "source_line_start": 274,
   "source_line_end": 280,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NoShrinkExtended.lean#L274-L280",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.NoShrinkExtended",
-        "url": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.NoShrinkExtended](/verify/taulib/docs/book-v-cosmology-no-shrink-extended/)
+- Module: [TauLib.BookV.Cosmology.NoShrinkExtended](/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/)
 - Source path: [`TauLib/BookV/Cosmology/NoShrinkExtended.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NoShrinkExtended.lean#L274-L280)
 - Source range: L274-L280
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

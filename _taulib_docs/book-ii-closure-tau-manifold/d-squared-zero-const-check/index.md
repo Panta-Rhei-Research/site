@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "d_squared_zero_const_check",
-  "permalink": "/verify/taulib/docs/book-ii-closure-tau-manifold/d-squared-zero-const-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-tau-manifold/d-squared-zero-const-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Closure.TauManifold`.",
   "declaration_id": "TauLib.BookII.Closure.TauManifold::d_squared_zero_const_check",
   "declaration_slug": "d-squared-zero-const-check",
   "kind": "def",
   "name": "d_squared_zero_const_check",
   "module_name": "TauLib.BookII.Closure.TauManifold",
-  "module_url": "/verify/taulib/docs/book-ii-closure-tau-manifold/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-tau-manifold/",
   "source_line_start": 124,
   "source_line_end": 135,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/TauManifold.lean#L124-L135",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.TauManifold",
-        "url": "/verify/taulib/docs/book-ii-closure-tau-manifold/"
+        "url": "/corpus/taulib/docs/book-ii-closure-tau-manifold/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.TauManifold](/verify/taulib/docs/book-ii-closure-tau-manifold/)
+- Module: [TauLib.BookII.Closure.TauManifold](/corpus/taulib/docs/book-ii-closure-tau-manifold/)
 - Source path: [`TauLib/BookII/Closure/TauManifold.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/TauManifold.lean#L124-L135)
 - Source range: L124-L135
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

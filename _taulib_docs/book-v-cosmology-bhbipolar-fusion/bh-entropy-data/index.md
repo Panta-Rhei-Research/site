@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bh_entropy_data",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/bh-entropy-data/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/bh-entropy-data/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.BHBipolarFusion`.",
   "declaration_id": "TauLib.BookV.Cosmology.BHBipolarFusion::bh_entropy_data",
   "declaration_slug": "bh-entropy-data",
   "kind": "def",
   "name": "bh_entropy_data",
   "module_name": "TauLib.BookV.Cosmology.BHBipolarFusion",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/",
   "source_line_start": 243,
   "source_line_end": 247,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BHBipolarFusion.lean#L243-L247",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BHBipolarFusion",
-        "url": "/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BHBipolarFusion](/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/)
+- Module: [TauLib.BookV.Cosmology.BHBipolarFusion](/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/)
 - Source path: [`TauLib/BookV/Cosmology/BHBipolarFusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BHBipolarFusion.lean#L243-L247)
 - Source range: L243-L247
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

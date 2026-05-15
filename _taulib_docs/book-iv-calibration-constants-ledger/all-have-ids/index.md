@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "all_have_ids",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-constants-ledger/all-have-ids/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-constants-ledger/all-have-ids/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.ConstantsLedger`.",
   "declaration_id": "TauLib.BookIV.Calibration.ConstantsLedger::all_have_ids",
   "declaration_slug": "all-have-ids",
   "kind": "theorem",
   "name": "all_have_ids",
   "module_name": "TauLib.BookIV.Calibration.ConstantsLedger",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-constants-ledger/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger/",
   "source_line_start": 195,
   "source_line_end": 196,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/ConstantsLedger.lean#L195-L196",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.ConstantsLedger",
-        "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.ConstantsLedger](/verify/taulib/docs/book-iv-calibration-constants-ledger/)
+- Module: [TauLib.BookIV.Calibration.ConstantsLedger](/corpus/taulib/docs/book-iv-calibration-constants-ledger/)
 - Source path: [`TauLib/BookIV/Calibration/ConstantsLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/ConstantsLedger.lean#L195-L196)
 - Source range: L195-L196
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

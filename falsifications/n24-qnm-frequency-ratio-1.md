@@ -1,14 +1,14 @@
 ---
 layout: "falsification-page"
 title: "N24 — QNM frequency ratio ιτ⁻¹"
-permalink: "/results/falsifications/n24-qnm-frequency-ratio-1/"
+permalink: "/falsifications/n24-qnm-frequency-ratio-1/"
 lane: "results"
 falsification_id: "N24"
 n_num: 24
 tier: "A"
 domain: "black-holes"
 domain_display: "Black Holes"
-prediction: "2.929$iota-tau-inv approx 2.929. quasinormal modes!ratio prediction pred:n24 $T^2$ winding modes give $_(1,0)/_(0,1) = _^-1$ (V.T168). Orthodox $S^2$: $_3/_2 1.5$."
+prediction: "T² winding modes give f_(0,1)/f_(1,0) = ιτ^-1 ≈ 2.929 at leading order (V.T168). The Kerr primary scale remains mass/spin dependent; the τ claim is the ratio."
 experiment: "LIGO/Virgo A+, LISA, Einstein Telescope"
 timeline: "2029–2035."
 current_status: "consistent"
@@ -43,46 +43,31 @@ do_not_edit: true
 
 ## N24: Prediction
 
-≈ 2.929$iota-tau-inv approx 2.929.
-
 $T^2$ winding modes give
-$ω_(1,0)/ω_(0,1) = ι<sub>τ</sub>^-1$
-(V.T168).
-Orthodox $S^2$: $ω_3/ω_2 ≈ 1.5$.
+$f_{(0,1)}/f_{(1,0)} = ι<sub>τ</sub>⁻¹ ≈ 2.929$
+at leading order (V.T168).
+The Kerr primary ringdown scale remains dependent on remnant mass and
+spin; this falsification path tests the τ ratio claim, not mass-only
+ringdown uniqueness.
+Orthodox Kerr ringdown does not predict this fixed $T^2$ cycle ratio.
 *Experiment:* LIGO/Virgo A+, LISA, Einstein Telescope.
 *Timeline:* 2029–2035.
 
 
 ## Derivation Context
 
-The PDG 2024 central value
-is $ρ = 0.159 ± 0.010$.
-The factor $1/(2π)$ is the normalized
-angular measure on one lobe of $$:
-CP violation in the quark sector
-is governed by the geometry
-of the lemniscate boundary.
+The source derivation uses the $T^2$ horizon fiber with primitive cycles
+$(1,0)$ and $(0,1)$. If the secondary topology readout is present, the
+ratio between the inner-cycle and outer-cycle frequencies is fixed by
+$r/R = ι<sub>τ</sub>$. This makes the proposed ratio independent of the
+common Kerr mass/spin scale at leading order.
 
-where $κ_D = 1 - ι<sub>τ</sub>$.
-The PDG 2024 value is
-$η = 0.349^+0.012_-0.011$,
-giving a deviation of $-2\,285$ ppm ($-0.23%$, $0.7σ$).
+Failure would be a robust high-SNR ringdown measurement inconsistent
+with the $ι<sub>τ</sub>⁻¹$ ratio while meeting the analysis requirements
+for mode identification, start-time stability, and posterior predictive
+checks. Current public status remains released and consistent, not
+validated.
 
-The exponents in (eq:ch61-etabar)
-are not numerological accidents.
-They have a topological reading
-(IV.D363/IV.T173):
-
--14
-&= -12 · |lobes|
-= -12 × 2
-(holonomy factor),
-+54
-&= |gen|2 · |lobes|
-+ 1|lobes|
-= 34 + 12
-(coupling factor),
--12
-&= -1|lobes|
-= |gen|^-1/2|_|gen|=4
-(normalization factor).
+Correction record: [ERRATUM-005](/publications/books/book-v/errata/)
+records the 2026-05-15 correction of mass/spin wording, ratio direction,
+and generated-page contamination for this test surface.

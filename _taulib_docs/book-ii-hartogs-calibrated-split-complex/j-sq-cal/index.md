@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "j_sq_cal",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/j-sq-cal/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/j-sq-cal/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Hartogs.CalibratedSplitComplex`.",
   "declaration_id": "TauLib.BookII.Hartogs.CalibratedSplitComplex::j_sq_cal",
   "declaration_slug": "j-sq-cal",
   "kind": "theorem",
   "name": "j_sq_cal",
   "module_name": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/",
   "source_line_start": 306,
   "source_line_end": 306,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CalibratedSplitComplex.lean#L306-L306",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
-        "url": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CalibratedSplitComplex](/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/)
+- Module: [TauLib.BookII.Hartogs.CalibratedSplitComplex](/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/)
 - Source path: [`TauLib/BookII/Hartogs/CalibratedSplitComplex.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CalibratedSplitComplex.lean#L306-L306)
 - Source range: L306-L306
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Holomorphy.IdentityTheorem",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Holomorphy.IdentityTheorem`.",
   "module_name": "TauLib.BookI.Holomorphy.IdentityTheorem",
   "module_slug": "book-i-holomorphy-identity-theorem",
@@ -40,46 +40,56 @@
     {
       "kind": "def",
       "name": "agree_at",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-at/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-at/",
       "source_line_start": 48,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "agree_at_check",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-at-check/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-at-check/",
       "source_line_start": 52,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "agree_up_to",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-up-to/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-up-to/",
       "source_line_start": 57,
       "source_line_end": 58,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "agree_all",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-all/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-all/",
       "source_line_start": 61,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tail_agree_downward",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-downward/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-downward/",
       "source_line_start": 77,
       "source_line_end": 95,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.L07"
       ]
@@ -87,19 +97,23 @@
     {
       "kind": "theorem",
       "name": "tail_agree_propagation",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-propagation/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-propagation/",
       "source_line_start": 100,
       "source_line_end": 105,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_identity_reduce",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-reduce/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-reduce/",
       "source_line_start": 118,
       "source_line_end": 125,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T21"
       ]
@@ -107,28 +121,34 @@
     {
       "kind": "theorem",
       "name": "tau_identity_nat",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-nat/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-nat/",
       "source_line_start": 134,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_identity_finite_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-finite-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-finite-witness/",
       "source_line_start": 147,
       "source_line_end": 183,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HolL",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/hol-l/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/hol-l/",
       "source_line_start": 192,
       "source_line_end": 194,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D49"
       ]
@@ -136,82 +156,100 @@
     {
       "kind": "theorem",
       "name": "hol_L_identity",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/hol-l-identity/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/hol-l-identity/",
       "source_line_start": 200,
       "source_line_end": 206,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/example-l214/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/example-l214/",
       "source_line_start": 214,
       "source_line_end": 214,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "chi_plus_self_agree",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/chi-plus-self-agree/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/chi-plus-self-agree/",
       "source_line_start": 217,
       "source_line_end": 219,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "id_eq_chi_sum",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum/",
       "source_line_start": 224,
       "source_line_end": 226,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "id_eq_chi_sum_c",
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum-c/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum-c/",
       "source_line_start": 228,
       "source_line_end": 230,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l237/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l237/",
       "source_line_start": 237,
       "source_line_end": 237,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l238/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l238/",
       "source_line_start": 238,
       "source_line_end": 238,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l239/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l239/",
       "source_line_start": 239,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l242/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l242/",
       "source_line_start": 242,
       "source_line_end": 244,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -223,7 +261,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -301,24 +339,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [agree_at](/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-at/) | L48-L49 | defined | — |
-| `def` | [agree_at_check](/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-at-check/) | L52-L53 | defined | — |
-| `def` | [agree_up_to](/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-up-to/) | L57-L58 | defined | — |
-| `def` | [agree_all](/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-all/) | L61-L62 | defined | — |
-| `theorem` | [tail_agree_downward](/verify/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-downward/) | L77-L95 | formalized | `I.L07` |
-| `theorem` | [tail_agree_propagation](/verify/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-propagation/) | L100-L105 | formalized | — |
-| `theorem` | [tau_identity_reduce](/verify/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-reduce/) | L118-L125 | formalized | `I.T21` |
-| `theorem` | [tau_identity_nat](/verify/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-nat/) | L134-L138 | formalized | — |
-| `theorem` | [tau_identity_finite_witness](/verify/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-finite-witness/) | L147-L183 | formalized | — |
-| `structure` | [HolL](/verify/taulib/docs/book-i-holomorphy-identity-theorem/hol-l/) | L192-L194 | defined | `I.D49` |
-| `theorem` | [hol_L_identity](/verify/taulib/docs/book-i-holomorphy-identity-theorem/hol-l-identity/) | L200-L206 | formalized | — |
-| `example` | [#eval L214](/verify/taulib/docs/book-i-holomorphy-identity-theorem/example-l214/) | L214-L214 | example | — |
-| `theorem` | [chi_plus_self_agree](/verify/taulib/docs/book-i-holomorphy-identity-theorem/chi-plus-self-agree/) | L217-L219 | formalized | — |
-| `theorem` | [id_eq_chi_sum](/verify/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum/) | L224-L226 | formalized | — |
-| `theorem` | [id_eq_chi_sum_c](/verify/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum-c/) | L228-L230 | formalized | — |
-| `eval` | [#eval L237](/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l237/) | L237-L237 | computed | — |
-| `eval` | [#eval L238](/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l238/) | L238-L238 | computed | — |
-| `eval` | [#eval L239](/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l239/) | L239-L239 | computed | — |
-| `eval` | [#eval L242](/verify/taulib/docs/book-i-holomorphy-identity-theorem/eval-l242/) | L242-L244 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [agree_at](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-at/) | L48-L49 | definition | definition | — |
+| `def` | [agree_at_check](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-at-check/) | L52-L53 | data/computed value | data/computed value | — |
+| `def` | [agree_up_to](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-up-to/) | L57-L58 | definition | definition | — |
+| `def` | [agree_all](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-all/) | L61-L62 | definition | definition | — |
+| `theorem` | [tail_agree_downward](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-downward/) | L77-L95 | proof obligation | formal proof obligation checked | `I.L07` |
+| `theorem` | [tail_agree_propagation](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tail-agree-propagation/) | L100-L105 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_identity_reduce](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-reduce/) | L118-L125 | proof obligation | formal proof obligation checked | `I.T21` |
+| `theorem` | [tau_identity_nat](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-nat/) | L134-L138 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_identity_finite_witness](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/tau-identity-finite-witness/) | L147-L183 | proof obligation | formal proof obligation checked | — |
+| `structure` | [HolL](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/hol-l/) | L192-L194 | type/data schema | type/data schema | `I.D49` |
+| `theorem` | [hol_L_identity](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/hol-l-identity/) | L200-L206 | proof obligation | formal proof obligation checked | — |
+| `example` | [#eval L214](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/example-l214/) | L214-L214 | example check | example | — |
+| `theorem` | [chi_plus_self_agree](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/chi-plus-self-agree/) | L217-L219 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [id_eq_chi_sum](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum/) | L224-L226 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [id_eq_chi_sum_c](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum-c/) | L228-L230 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L237](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l237/) | L237-L237 | computed check | computed check | — |
+| `eval` | [#eval L238](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l238/) | L238-L238 | computed check | computed check | — |
+| `eval` | [#eval L239](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l239/) | L239-L239 | computed check | computed check | — |
+| `eval` | [#eval L242](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/eval-l242/) | L242-L244 | computed check | computed check | — |

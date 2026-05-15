@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "boundary_triad",
-  "permalink": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/boundary-triad/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/boundary-triad/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Arena.BoundaryHolonomy`.",
   "declaration_id": "TauLib.BookIV.Arena.BoundaryHolonomy::boundary_triad",
   "declaration_slug": "boundary-triad",
   "kind": "theorem",
   "name": "boundary_triad",
   "module_name": "TauLib.BookIV.Arena.BoundaryHolonomy",
-  "module_url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/",
   "source_line_start": 217,
   "source_line_end": 226,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L217-L226",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.BoundaryHolonomy",
-        "url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/"
+        "url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/verify/taulib/docs/book-iv-arena-boundary-holonomy/)
+- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/corpus/taulib/docs/book-iv-arena-boundary-holonomy/)
 - Source path: [`TauLib/BookIV/Arena/BoundaryHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L217-L226)
 - Source range: L217-L226
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

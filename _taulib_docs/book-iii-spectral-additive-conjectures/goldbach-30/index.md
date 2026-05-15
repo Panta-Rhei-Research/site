@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "goldbach_30",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-additive-conjectures/goldbach-30/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-additive-conjectures/goldbach-30/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.AdditiveConjectures`.",
   "declaration_id": "TauLib.BookIII.Spectral.AdditiveConjectures::goldbach_30",
   "declaration_slug": "goldbach-30",
   "kind": "theorem",
   "name": "goldbach_30",
   "module_name": "TauLib.BookIII.Spectral.AdditiveConjectures",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-additive-conjectures/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-additive-conjectures/",
   "source_line_start": 191,
   "source_line_end": 192,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/AdditiveConjectures.lean#L191-L192",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.AdditiveConjectures",
-        "url": "/verify/taulib/docs/book-iii-spectral-additive-conjectures/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-additive-conjectures/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.AdditiveConjectures](/verify/taulib/docs/book-iii-spectral-additive-conjectures/)
+- Module: [TauLib.BookIII.Spectral.AdditiveConjectures](/corpus/taulib/docs/book-iii-spectral-additive-conjectures/)
 - Source path: [`TauLib/BookIII/Spectral/AdditiveConjectures.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/AdditiveConjectures.lean#L191-L192)
 - Source range: L191-L192
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

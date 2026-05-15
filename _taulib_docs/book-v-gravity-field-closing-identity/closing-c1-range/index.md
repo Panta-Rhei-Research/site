@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "closing_c1_range",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-closing-identity/closing-c1-range/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-closing-identity/closing-c1-range/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.GravityField.ClosingIdentity`.",
   "declaration_id": "TauLib.BookV.GravityField.ClosingIdentity::closing_c1_range",
   "declaration_slug": "closing-c1-range",
   "kind": "theorem",
   "name": "closing_c1_range",
   "module_name": "TauLib.BookV.GravityField.ClosingIdentity",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-closing-identity/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-closing-identity/",
   "source_line_start": 232,
   "source_line_end": 234,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ClosingIdentity.lean#L232-L234",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.ClosingIdentity",
-        "url": "/verify/taulib/docs/book-v-gravity-field-closing-identity/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-closing-identity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.ClosingIdentity](/verify/taulib/docs/book-v-gravity-field-closing-identity/)
+- Module: [TauLib.BookV.GravityField.ClosingIdentity](/corpus/taulib/docs/book-v-gravity-field-closing-identity/)
 - Source path: [`TauLib/BookV/GravityField/ClosingIdentity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ClosingIdentity.lean#L232-L234)
 - Source range: L232-L234
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

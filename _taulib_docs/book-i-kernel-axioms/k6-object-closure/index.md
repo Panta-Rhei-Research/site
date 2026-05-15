@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "K6_object_closure",
-  "permalink": "/verify/taulib/docs/book-i-kernel-axioms/k6-object-closure/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-axioms/k6-object-closure/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Kernel.Axioms`.",
   "declaration_id": "TauLib.BookI.Kernel.Axioms::K6_object_closure",
   "declaration_slug": "k6-object-closure",
   "kind": "theorem",
   "name": "K6_object_closure",
   "module_name": "TauLib.BookI.Kernel.Axioms",
-  "module_url": "/verify/taulib/docs/book-i-kernel-axioms/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-axioms/",
   "source_line_start": 128,
   "source_line_end": 135,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Axioms.lean#L128-L135",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Kernel.Axioms",
-        "url": "/verify/taulib/docs/book-i-kernel-axioms/"
+        "url": "/corpus/taulib/docs/book-i-kernel-axioms/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Kernel.Axioms](/verify/taulib/docs/book-i-kernel-axioms/)
+- Module: [TauLib.BookI.Kernel.Axioms](/corpus/taulib/docs/book-i-kernel-axioms/)
 - Source path: [`TauLib/BookI/Kernel/Axioms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Axioms.lean#L128-L135)
 - Source range: L128-L135
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

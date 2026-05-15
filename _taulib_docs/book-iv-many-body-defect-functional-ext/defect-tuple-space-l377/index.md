@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "defect_tuple_space",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/defect-tuple-space-l377/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/defect-tuple-space-l377/",
   "summary_short": "`def` declaration in `TauLib.BookIV.ManyBody.DefectFunctionalExt`.",
   "declaration_id": "TauLib.BookIV.ManyBody.DefectFunctionalExt::defect_tuple_space",
   "declaration_slug": "defect-tuple-space-l377",
   "kind": "def",
   "name": "defect_tuple_space",
   "module_name": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/",
   "source_line_start": 377,
   "source_line_end": 377,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L377-L377",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-        "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/verify/taulib/docs/book-iv-many-body-defect-functional-ext/)
+- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/)
 - Source path: [`TauLib/BookIV/ManyBody/DefectFunctionalExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L377-L377)
 - Source range: L377-L377
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

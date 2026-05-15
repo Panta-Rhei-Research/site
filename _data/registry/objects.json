@@ -6989,7 +6989,7 @@
   {
     "id": "II.R20",
     "type": "remark",
-    "name": "Open Questions and Agenda",
+    "name": "Open Questions and Research Agenda",
     "book": "II",
     "part": 10,
     "chapter": 58,
@@ -44576,7 +44576,7 @@
   {
     "id": "V.D243",
     "type": "definition",
-    "name": "T² GW Echo Time Formulas with Frequency Bands",
+    "name": "T² GW Cycle-Delay Time Formulas with Frequency Bands",
     "book": "V",
     "part": 6,
     "chapter": 50,
@@ -58924,7 +58924,7 @@
   {
     "id": "V.T169",
     "type": "theorem",
-    "name": "GW Echo Times t± = 4GM·ι_τ^{±1}/c³",
+    "name": "GW Cycle-Delay Times t± = 4GM·ι_τ^{±1}/c³",
     "book": "V",
     "part": 6,
     "chapter": 51,

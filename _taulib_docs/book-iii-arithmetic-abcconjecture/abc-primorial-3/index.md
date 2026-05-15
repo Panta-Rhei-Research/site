@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "abc_primorial_3",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-abcconjecture/abc-primorial-3/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-abcconjecture/abc-primorial-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.ABCConjecture`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.ABCConjecture::abc_primorial_3",
   "declaration_slug": "abc-primorial-3",
   "kind": "theorem",
   "name": "abc_primorial_3",
   "module_name": "TauLib.BookIII.Arithmetic.ABCConjecture",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-abcconjecture/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-abcconjecture/",
   "source_line_start": 197,
   "source_line_end": 198,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ABCConjecture.lean#L197-L198",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.ABCConjecture",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-abcconjecture/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-abcconjecture/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.ABCConjecture](/verify/taulib/docs/book-iii-arithmetic-abcconjecture/)
+- Module: [TauLib.BookIII.Arithmetic.ABCConjecture](/corpus/taulib/docs/book-iii-arithmetic-abcconjecture/)
 - Source path: [`TauLib/BookIII/Arithmetic/ABCConjecture.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ABCConjecture.lean#L197-L198)
 - Source range: L197-L198
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

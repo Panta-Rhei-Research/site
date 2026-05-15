@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "inner_product_unique",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-unique/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-unique/",
   "summary_short": "`def` declaration in `TauLib.BookIV.QuantumMechanics.HilbertSpace`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.HilbertSpace::inner_product_unique",
   "declaration_slug": "inner-product-unique",
   "kind": "def",
   "name": "inner_product_unique",
   "module_name": "TauLib.BookIV.QuantumMechanics.HilbertSpace",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/",
   "source_line_start": 141,
   "source_line_end": 145,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/HilbertSpace.lean#L141-L145",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.HilbertSpace",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.HilbertSpace](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/)
+- Module: [TauLib.BookIV.QuantumMechanics.HilbertSpace](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/HilbertSpace.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/HilbertSpace.lean#L141-L145)
 - Source range: L141-L145
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

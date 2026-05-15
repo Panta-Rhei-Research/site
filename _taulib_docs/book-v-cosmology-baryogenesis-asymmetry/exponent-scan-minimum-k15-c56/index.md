@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "exponent_scan_minimum_k15_c56",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/exponent-scan-minimum-k15-c56/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/exponent-scan-minimum-k15-c56/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.BaryogenesisAsymmetry`.",
   "declaration_id": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry::exponent_scan_minimum_k15_c56",
   "declaration_slug": "exponent-scan-minimum-k15-c56",
   "kind": "theorem",
   "name": "exponent_scan_minimum_k15_c56",
   "module_name": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/",
   "source_line_start": 150,
   "source_line_end": 150,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean#L150-L150",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry",
-        "url": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BaryogenesisAsymmetry](/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/)
+- Module: [TauLib.BookV.Cosmology.BaryogenesisAsymmetry](/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/)
 - Source path: [`TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean#L150-L150)
 - Source range: L150-L150
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "topos_explosion_barrier",
-  "permalink": "/verify/taulib/docs/book-i-topos-earned-topos/topos-explosion-barrier/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-earned-topos/topos-explosion-barrier/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.EarnedTopos`.",
   "declaration_id": "TauLib.BookI.Topos.EarnedTopos::topos_explosion_barrier",
   "declaration_slug": "topos-explosion-barrier",
   "kind": "theorem",
   "name": "topos_explosion_barrier",
   "module_name": "TauLib.BookI.Topos.EarnedTopos",
-  "module_url": "/verify/taulib/docs/book-i-topos-earned-topos/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-earned-topos/",
   "source_line_start": 162,
   "source_line_end": 163,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedTopos.lean#L162-L163",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.EarnedTopos",
-        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
+        "url": "/corpus/taulib/docs/book-i-topos-earned-topos/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.EarnedTopos](/verify/taulib/docs/book-i-topos-earned-topos/)
+- Module: [TauLib.BookI.Topos.EarnedTopos](/corpus/taulib/docs/book-i-topos-earned-topos/)
 - Source path: [`TauLib/BookI/Topos/EarnedTopos.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedTopos.lean#L162-L163)
 - Source range: L162-L163
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

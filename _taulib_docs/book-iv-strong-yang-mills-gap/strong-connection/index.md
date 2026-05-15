@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "StrongConnection",
-  "permalink": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/strong-connection/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/strong-connection/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Strong.YangMillsGap`.",
   "declaration_id": "TauLib.BookIV.Strong.YangMillsGap::StrongConnection",
   "declaration_slug": "strong-connection",
   "kind": "structure",
   "name": "StrongConnection",
   "module_name": "TauLib.BookIV.Strong.YangMillsGap",
-  "module_url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/",
   "source_line_start": 75,
   "source_line_end": 82,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L75-L82",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.YangMillsGap",
-        "url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/"
+        "url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.YangMillsGap](/verify/taulib/docs/book-iv-strong-yang-mills-gap/)
+- Module: [TauLib.BookIV.Strong.YangMillsGap](/corpus/taulib/docs/book-iv-strong-yang-mills-gap/)
 - Source path: [`TauLib/BookIV/Strong/YangMillsGap.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L75-L82)
 - Source range: L75-L82
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

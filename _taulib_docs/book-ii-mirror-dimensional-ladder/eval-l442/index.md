@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L442",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/eval-l442/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/eval-l442/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Mirror.DimensionalLadder`.",
   "declaration_id": "TauLib.BookII.Mirror.DimensionalLadder::#eval:442",
   "declaration_slug": "eval-l442",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Mirror.DimensionalLadder",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/",
   "source_line_start": 442,
   "source_line_end": 442,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/DimensionalLadder.lean#L442-L442",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.DimensionalLadder",
-        "url": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.DimensionalLadder](/verify/taulib/docs/book-ii-mirror-dimensional-ladder/)
+- Module: [TauLib.BookII.Mirror.DimensionalLadder](/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/)
 - Source path: [`TauLib/BookII/Mirror/DimensionalLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/DimensionalLadder.lean#L442-L442)
 - Source range: L442-L442
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

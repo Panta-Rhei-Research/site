@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "GeodesicDuration.tick_count",
-  "permalink": "/verify/taulib/docs/book-v-temporal-base-circle/tick-count/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-base-circle/tick-count/",
   "summary_short": "`def` declaration in `TauLib.BookV.Temporal.BaseCircle`.",
   "declaration_id": "TauLib.BookV.Temporal.BaseCircle::GeodesicDuration.tick_count",
   "declaration_slug": "tick-count",
   "kind": "def",
   "name": "GeodesicDuration.tick_count",
   "module_name": "TauLib.BookV.Temporal.BaseCircle",
-  "module_url": "/verify/taulib/docs/book-v-temporal-base-circle/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-base-circle/",
   "source_line_start": 242,
   "source_line_end": 243,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BaseCircle.lean#L242-L243",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.BaseCircle",
-        "url": "/verify/taulib/docs/book-v-temporal-base-circle/"
+        "url": "/corpus/taulib/docs/book-v-temporal-base-circle/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.BaseCircle](/verify/taulib/docs/book-v-temporal-base-circle/)
+- Module: [TauLib.BookV.Temporal.BaseCircle](/corpus/taulib/docs/book-v-temporal-base-circle/)
 - Source path: [`TauLib/BookV/Temporal/BaseCircle.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BaseCircle.lean#L242-L243)
 - Source range: L242-L243
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

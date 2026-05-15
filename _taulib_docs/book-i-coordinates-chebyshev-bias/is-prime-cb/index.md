@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "is_prime_cb",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-chebyshev-bias/is-prime-cb/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/is-prime-cb/",
   "summary_short": "`def` declaration in `TauLib.BookI.Coordinates.ChebyshevBias`.",
   "declaration_id": "TauLib.BookI.Coordinates.ChebyshevBias::is_prime_cb",
   "declaration_slug": "is-prime-cb",
   "kind": "def",
   "name": "is_prime_cb",
   "module_name": "TauLib.BookI.Coordinates.ChebyshevBias",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-chebyshev-bias/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/",
   "source_line_start": 44,
   "source_line_end": 53,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/ChebyshevBias.lean#L44-L53",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.ChebyshevBias",
-        "url": "/verify/taulib/docs/book-i-coordinates-chebyshev-bias/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.ChebyshevBias](/verify/taulib/docs/book-i-coordinates-chebyshev-bias/)
+- Module: [TauLib.BookI.Coordinates.ChebyshevBias](/corpus/taulib/docs/book-i-coordinates-chebyshev-bias/)
 - Source path: [`TauLib/BookI/Coordinates/ChebyshevBias.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/ChebyshevBias.lean#L44-L53)
 - Source range: L44-L53
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

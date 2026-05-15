@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L109",
-  "permalink": "/verify/taulib/docs/book-i-topos-cartesian-product/example-l109/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-cartesian-product/example-l109/",
   "summary_short": "`example` declaration in `TauLib.BookI.Topos.CartesianProduct`.",
   "declaration_id": "TauLib.BookI.Topos.CartesianProduct::#eval:109",
   "declaration_slug": "example-l109",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Topos.CartesianProduct",
-  "module_url": "/verify/taulib/docs/book-i-topos-cartesian-product/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-cartesian-product/",
   "source_line_start": 109,
   "source_line_end": 109,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CartesianProduct.lean#L109-L109",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.CartesianProduct",
-        "url": "/verify/taulib/docs/book-i-topos-cartesian-product/"
+        "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.CartesianProduct](/verify/taulib/docs/book-i-topos-cartesian-product/)
+- Module: [TauLib.BookI.Topos.CartesianProduct](/corpus/taulib/docs/book-i-topos-cartesian-product/)
 - Source path: [`TauLib/BookI/Topos/CartesianProduct.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CartesianProduct.lean#L109-L109)
 - Source range: L109-L109
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

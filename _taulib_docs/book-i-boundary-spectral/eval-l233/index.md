@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L233",
-  "permalink": "/verify/taulib/docs/book-i-boundary-spectral/eval-l233/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-spectral/eval-l233/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Boundary.Spectral`.",
   "declaration_id": "TauLib.BookI.Boundary.Spectral::#eval:233",
   "declaration_slug": "eval-l233",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Spectral",
-  "module_url": "/verify/taulib/docs/book-i-boundary-spectral/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-spectral/",
   "source_line_start": 233,
   "source_line_end": 235,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L233-L235",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Spectral",
-        "url": "/verify/taulib/docs/book-i-boundary-spectral/"
+        "url": "/corpus/taulib/docs/book-i-boundary-spectral/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Spectral](/verify/taulib/docs/book-i-boundary-spectral/)
+- Module: [TauLib.BookI.Boundary.Spectral](/corpus/taulib/docs/book-i-boundary-spectral/)
 - Source path: [`TauLib/BookI/Boundary/Spectral.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L233-L235)
 - Source range: L233-L235
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

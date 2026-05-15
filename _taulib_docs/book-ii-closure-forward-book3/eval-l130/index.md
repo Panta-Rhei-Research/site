@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L130",
-  "permalink": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l130/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l130/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Closure.ForwardBook3`.",
   "declaration_id": "TauLib.BookII.Closure.ForwardBook3::#eval:130",
   "declaration_slug": "eval-l130",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Closure.ForwardBook3",
-  "module_url": "/verify/taulib/docs/book-ii-closure-forward-book3/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-forward-book3/",
   "source_line_start": 130,
   "source_line_end": 130,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/ForwardBook3.lean#L130-L130",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.ForwardBook3",
-        "url": "/verify/taulib/docs/book-ii-closure-forward-book3/"
+        "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.ForwardBook3](/verify/taulib/docs/book-ii-closure-forward-book3/)
+- Module: [TauLib.BookII.Closure.ForwardBook3](/corpus/taulib/docs/book-ii-closure-forward-book3/)
 - Source path: [`TauLib/BookII/Closure/ForwardBook3.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/ForwardBook3.lean#L130-L130)
 - Source range: L130-L130
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

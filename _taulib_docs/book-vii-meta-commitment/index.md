@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVII.Meta.Commitment",
-  "permalink": "/verify/taulib/docs/book-vii-meta-commitment/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-commitment/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVII.Meta.Commitment`.",
   "module_name": "TauLib.BookVII.Meta.Commitment",
   "module_slug": "book-vii-meta-commitment",
@@ -29,10 +29,12 @@
     {
       "kind": "structure",
       "name": "Commitment",
-      "url": "/verify/taulib/docs/book-vii-meta-commitment/commitment/",
+      "url": "/corpus/taulib/docs/book-vii-meta-commitment/commitment/",
       "source_line_start": 110,
       "source_line_end": 116,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     }
   ],
@@ -44,7 +46,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -113,6 +115,6 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [Commitment](/verify/taulib/docs/book-vii-meta-commitment/commitment/) | L110-L116 | defined | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [Commitment](/corpus/taulib/docs/book-vii-meta-commitment/commitment/) | L110-L116 | type/data schema | type/data schema | — |

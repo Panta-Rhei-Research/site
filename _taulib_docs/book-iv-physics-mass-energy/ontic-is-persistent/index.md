@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ontic_is_persistent",
-  "permalink": "/verify/taulib/docs/book-iv-physics-mass-energy/ontic-is-persistent/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-mass-energy/ontic-is-persistent/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Physics.MassEnergy`.",
   "declaration_id": "TauLib.BookIV.Physics.MassEnergy::ontic_is_persistent",
   "declaration_slug": "ontic-is-persistent",
   "kind": "theorem",
   "name": "ontic_is_persistent",
   "module_name": "TauLib.BookIV.Physics.MassEnergy",
-  "module_url": "/verify/taulib/docs/book-iv-physics-mass-energy/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-mass-energy/",
   "source_line_start": 219,
   "source_line_end": 220,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/MassEnergy.lean#L219-L220",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.MassEnergy",
-        "url": "/verify/taulib/docs/book-iv-physics-mass-energy/"
+        "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.MassEnergy](/verify/taulib/docs/book-iv-physics-mass-energy/)
+- Module: [TauLib.BookIV.Physics.MassEnergy](/corpus/taulib/docs/book-iv-physics-mass-energy/)
 - Source path: [`TauLib/BookIV/Physics/MassEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/MassEnergy.lean#L219-L220)
 - Source range: L219-L220
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

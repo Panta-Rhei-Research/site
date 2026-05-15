@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L301",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/eval-l301/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/eval-l301/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Mirror.WaveHolomorphy`.",
   "declaration_id": "TauLib.BookII.Mirror.WaveHolomorphy::#eval:301",
   "declaration_slug": "eval-l301",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Mirror.WaveHolomorphy",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/",
   "source_line_start": 301,
   "source_line_end": 301,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/WaveHolomorphy.lean#L301-L301",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.WaveHolomorphy",
-        "url": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.WaveHolomorphy](/verify/taulib/docs/book-ii-mirror-wave-holomorphy/)
+- Module: [TauLib.BookII.Mirror.WaveHolomorphy](/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/)
 - Source path: [`TauLib/BookII/Mirror/WaveHolomorphy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/WaveHolomorphy.lean#L301-L301)
 - Source range: L301-L301
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

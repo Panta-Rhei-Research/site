@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "self_assembly",
-  "permalink": "/verify/taulib/docs/book-vi-agency-metabolic-energy/self-assembly/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/self-assembly/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Agency.MetabolicEnergy`.",
   "declaration_id": "TauLib.BookVI.Agency.MetabolicEnergy::self_assembly",
   "declaration_slug": "self-assembly",
   "kind": "def",
   "name": "self_assembly",
   "module_name": "TauLib.BookVI.Agency.MetabolicEnergy",
-  "module_url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/",
+  "module_url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/",
   "source_line_start": 171,
   "source_line_end": 171,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/MetabolicEnergy.lean#L171-L171",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Agency.MetabolicEnergy",
-        "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/"
+        "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Agency.MetabolicEnergy](/verify/taulib/docs/book-vi-agency-metabolic-energy/)
+- Module: [TauLib.BookVI.Agency.MetabolicEnergy](/corpus/taulib/docs/book-vi-agency-metabolic-energy/)
 - Source path: [`TauLib/BookVI/Agency/MetabolicEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/MetabolicEnergy.lean#L171-L171)
 - Source range: L171-L171
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

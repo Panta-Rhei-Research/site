@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ontic_minimality",
-  "permalink": "/verify/taulib/docs/book-iv-arena-coherence-kernel/ontic-minimality/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/ontic-minimality/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Arena.CoherenceKernel`.",
   "declaration_id": "TauLib.BookIV.Arena.CoherenceKernel::ontic_minimality",
   "declaration_slug": "ontic-minimality",
   "kind": "theorem",
   "name": "ontic_minimality",
   "module_name": "TauLib.BookIV.Arena.CoherenceKernel",
-  "module_url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/",
   "source_line_start": 151,
   "source_line_end": 167,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L151-L167",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.CoherenceKernel",
-        "url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/"
+        "url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.CoherenceKernel](/verify/taulib/docs/book-iv-arena-coherence-kernel/)
+- Module: [TauLib.BookIV.Arena.CoherenceKernel](/corpus/taulib/docs/book-iv-arena-coherence-kernel/)
 - Source path: [`TauLib/BookIV/Arena/CoherenceKernel.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L151-L167)
 - Source range: L151-L167
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "juno_dune_predictions",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-neutrino-background/juno-dune-predictions/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/juno-dune-predictions/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.NeutrinoBackground`.",
   "declaration_id": "TauLib.BookV.Cosmology.NeutrinoBackground::juno_dune_predictions",
   "declaration_slug": "juno-dune-predictions",
   "kind": "def",
   "name": "juno_dune_predictions",
   "module_name": "TauLib.BookV.Cosmology.NeutrinoBackground",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/",
   "source_line_start": 237,
   "source_line_end": 240,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L237-L240",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.NeutrinoBackground",
-        "url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/verify/taulib/docs/book-v-cosmology-neutrino-background/)
+- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/corpus/taulib/docs/book-v-cosmology-neutrino-background/)
 - Source path: [`TauLib/BookV/Cosmology/NeutrinoBackground.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L237-L240)
 - Source range: L237-L240
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

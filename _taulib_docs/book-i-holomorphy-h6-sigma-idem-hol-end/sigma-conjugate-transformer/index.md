@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sigma_conjugate_transformer",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-transformer/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-transformer/",
   "summary_short": "`def` declaration in `TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd`.",
   "declaration_id": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd::sigma_conjugate_transformer",
   "declaration_slug": "sigma-conjugate-transformer",
   "kind": "def",
   "name": "sigma_conjugate_transformer",
   "module_name": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/",
   "source_line_start": 116,
   "source_line_end": 118,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6SigmaIdemHolEnd.lean#L116-L118",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
-        "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/)
+- Module: [TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/)
 - Source path: [`TauLib/BookI/Holomorphy/H6SigmaIdemHolEnd.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6SigmaIdemHolEnd.lean#L116-L118)
 - Source range: L116-L118
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

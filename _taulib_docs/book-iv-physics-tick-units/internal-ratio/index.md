@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "InternalRatio",
-  "permalink": "/verify/taulib/docs/book-iv-physics-tick-units/internal-ratio/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-tick-units/internal-ratio/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Physics.TickUnits`.",
   "declaration_id": "TauLib.BookIV.Physics.TickUnits::InternalRatio",
   "declaration_slug": "internal-ratio",
   "kind": "structure",
   "name": "InternalRatio",
   "module_name": "TauLib.BookIV.Physics.TickUnits",
-  "module_url": "/verify/taulib/docs/book-iv-physics-tick-units/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-tick-units/",
   "source_line_start": 174,
   "source_line_end": 185,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/TickUnits.lean#L174-L185",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.TickUnits",
-        "url": "/verify/taulib/docs/book-iv-physics-tick-units/"
+        "url": "/corpus/taulib/docs/book-iv-physics-tick-units/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.TickUnits](/verify/taulib/docs/book-iv-physics-tick-units/)
+- Module: [TauLib.BookIV.Physics.TickUnits](/corpus/taulib/docs/book-iv-physics-tick-units/)
 - Source path: [`TauLib/BookIV/Physics/TickUnits.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/TickUnits.lean#L174-L185)
 - Source range: L174-L185
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

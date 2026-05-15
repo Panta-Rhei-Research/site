@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "embed_nat_into_d",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/embed-nat-into-d/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/embed-nat-into-d/",
   "summary_short": "`def` declaration in `TauLib.BookI.KernelFoundation.ScalarBridges`.",
   "declaration_id": "TauLib.BookI.KernelFoundation.ScalarBridges::embed_nat_into_d",
   "declaration_slug": "embed-nat-into-d",
   "kind": "def",
   "name": "embed_nat_into_d",
   "module_name": "TauLib.BookI.KernelFoundation.ScalarBridges",
-  "module_url": "/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/",
   "source_line_start": 113,
   "source_line_end": 143,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/ScalarBridges.lean#L113-L143",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.KernelFoundation.ScalarBridges",
-        "url": "/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/"
+        "url": "/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.KernelFoundation.ScalarBridges](/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/)
+- Module: [TauLib.BookI.KernelFoundation.ScalarBridges](/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/)
 - Source path: [`TauLib/BookI/KernelFoundation/ScalarBridges.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/ScalarBridges.lean#L113-L143)
 - Source range: L113-L143
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

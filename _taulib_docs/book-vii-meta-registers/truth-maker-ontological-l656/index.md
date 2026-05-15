@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "truth_maker_ontological",
-  "permalink": "/verify/taulib/docs/book-vii-meta-registers/truth-maker-ontological-l656/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-registers/truth-maker-ontological-l656/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Meta.Registers`.",
   "declaration_id": "TauLib.BookVII.Meta.Registers::truth_maker_ontological",
   "declaration_slug": "truth-maker-ontological-l656",
   "kind": "def",
   "name": "truth_maker_ontological",
   "module_name": "TauLib.BookVII.Meta.Registers",
-  "module_url": "/verify/taulib/docs/book-vii-meta-registers/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-registers/",
   "source_line_start": 656,
   "source_line_end": 656,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L656-L656",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Registers",
-        "url": "/verify/taulib/docs/book-vii-meta-registers/"
+        "url": "/corpus/taulib/docs/book-vii-meta-registers/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Registers](/verify/taulib/docs/book-vii-meta-registers/)
+- Module: [TauLib.BookVII.Meta.Registers](/corpus/taulib/docs/book-vii-meta-registers/)
 - Source path: [`TauLib/BookVII/Meta/Registers.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L656-L656)
 - Source range: L656-L656
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

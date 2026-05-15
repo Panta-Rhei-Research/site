@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ext_gcd",
-  "permalink": "/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.ExtGCD`.",
   "declaration_id": "TauLib.BookI.Polarity.ExtGCD::ext_gcd",
   "declaration_slug": "ext-gcd",
   "kind": "def",
   "name": "ext_gcd",
   "module_name": "TauLib.BookI.Polarity.ExtGCD",
-  "module_url": "/verify/taulib/docs/book-i-polarity-ext-gcd/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/",
   "source_line_start": 27,
   "source_line_end": 33,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ExtGCD.lean#L27-L33",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.ExtGCD",
-        "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/"
+        "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.ExtGCD](/verify/taulib/docs/book-i-polarity-ext-gcd/)
+- Module: [TauLib.BookI.Polarity.ExtGCD](/corpus/taulib/docs/book-i-polarity-ext-gcd/)
 - Source path: [`TauLib/BookI/Polarity/ExtGCD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ExtGCD.lean#L27-L33)
 - Source range: L27-L33
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

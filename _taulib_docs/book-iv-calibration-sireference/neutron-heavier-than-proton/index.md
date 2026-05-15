@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "neutron_heavier_than_proton",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-sireference/neutron-heavier-than-proton/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-sireference/neutron-heavier-than-proton/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.SIReference`.",
   "declaration_id": "TauLib.BookIV.Calibration.SIReference::neutron_heavier_than_proton",
   "declaration_slug": "neutron-heavier-than-proton",
   "kind": "theorem",
   "name": "neutron_heavier_than_proton",
   "module_name": "TauLib.BookIV.Calibration.SIReference",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-sireference/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-sireference/",
   "source_line_start": 283,
   "source_line_end": 286,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L283-L286",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.SIReference",
-        "url": "/verify/taulib/docs/book-iv-calibration-sireference/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-sireference/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.SIReference](/verify/taulib/docs/book-iv-calibration-sireference/)
+- Module: [TauLib.BookIV.Calibration.SIReference](/corpus/taulib/docs/book-iv-calibration-sireference/)
 - Source path: [`TauLib/BookIV/Calibration/SIReference.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L283-L286)
 - Source range: L283-L286
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

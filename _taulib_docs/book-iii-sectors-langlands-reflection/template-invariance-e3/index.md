@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "template_invariance_e3",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-langlands-reflection/template-invariance-e3/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-langlands-reflection/template-invariance-e3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Sectors.LanglandsReflection`.",
   "declaration_id": "TauLib.BookIII.Sectors.LanglandsReflection::template_invariance_e3",
   "declaration_slug": "template-invariance-e3",
   "kind": "theorem",
   "name": "template_invariance_e3",
   "module_name": "TauLib.BookIII.Sectors.LanglandsReflection",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-langlands-reflection/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-langlands-reflection/",
   "source_line_start": 264,
   "source_line_end": 265,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/LanglandsReflection.lean#L264-L265",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.LanglandsReflection",
-        "url": "/verify/taulib/docs/book-iii-sectors-langlands-reflection/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-langlands-reflection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.LanglandsReflection](/verify/taulib/docs/book-iii-sectors-langlands-reflection/)
+- Module: [TauLib.BookIII.Sectors.LanglandsReflection](/corpus/taulib/docs/book-iii-sectors-langlands-reflection/)
 - Source path: [`TauLib/BookIII/Sectors/LanglandsReflection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/LanglandsReflection.lean#L264-L265)
 - Source range: L264-L265
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

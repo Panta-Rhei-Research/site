@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.CosmicLife.BHSelfDesc",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.CosmicLife.BHSelfDesc`.",
   "module_name": "TauLib.BookVI.CosmicLife.BHSelfDesc",
   "module_slug": "book-vi-cosmic-life-bhself-desc",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "BHDecodeTarget",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-target/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-target/",
       "source_line_start": 38,
       "source_line_end": 45,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D58"
       ]
@@ -50,19 +52,23 @@
     {
       "kind": "def",
       "name": "bh_target",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-target/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-target/",
       "source_line_start": 47,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BHDecodeHorizon",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-horizon/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-horizon/",
       "source_line_start": 55,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D59"
       ]
@@ -70,19 +76,23 @@
     {
       "kind": "def",
       "name": "bh_horizon",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-horizon/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-horizon/",
       "source_line_start": 64,
       "source_line_end": 64,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bh_uniqueness_lemma",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-uniqueness-lemma/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-uniqueness-lemma/",
       "source_line_start": 72,
       "source_line_end": 74,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.L09"
       ]
@@ -90,10 +100,12 @@
     {
       "kind": "theorem",
       "name": "bh_constancy_lemma",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-constancy-lemma/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-constancy-lemma/",
       "source_line_start": 78,
       "source_line_end": 80,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.L10"
       ]
@@ -101,37 +113,45 @@
     {
       "kind": "structure",
       "name": "BHEvaluator",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhevaluator/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhevaluator/",
       "source_line_start": 89,
       "source_line_end": 96,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "bh_evaluator",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-evaluator/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-evaluator/",
       "source_line_start": 98,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "evaluator_modes_consistent",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/evaluator-modes-consistent/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/evaluator-modes-consistent/",
       "source_line_start": 101,
       "source_line_end": 102,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BHSelfDescResult",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhself-desc-result/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhself-desc-result/",
       "source_line_start": 113,
       "source_line_end": 123,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T30"
       ]
@@ -139,19 +159,23 @@
     {
       "kind": "def",
       "name": "bh_sd",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-sd/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-sd/",
       "source_line_start": 125,
       "source_line_end": 127,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bh_selfdesc_theorem",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-selfdesc-theorem/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-selfdesc-theorem/",
       "source_line_start": 130,
       "source_line_end": 136,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.T30"
       ]
@@ -159,10 +183,12 @@
     {
       "kind": "theorem",
       "name": "selfdesc_uses_bookV_modes",
-      "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/selfdesc-uses-book-v-modes/",
+      "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/selfdesc-uses-book-v-modes/",
       "source_line_start": 139,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -174,7 +200,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -251,18 +277,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [BHDecodeTarget](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-target/) | L38-L45 | defined | `VI.D58` |
-| `def` | [bh_target](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-target/) | L47-L47 | defined | — |
-| `structure` | [BHDecodeHorizon](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-horizon/) | L55-L62 | defined | `VI.D59` |
-| `def` | [bh_horizon](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-horizon/) | L64-L64 | defined | — |
-| `theorem` | [bh_uniqueness_lemma](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-uniqueness-lemma/) | L72-L74 | formalized | `VI.L09` |
-| `theorem` | [bh_constancy_lemma](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-constancy-lemma/) | L78-L80 | formalized | `VI.L10` |
-| `structure` | [BHEvaluator](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhevaluator/) | L89-L96 | defined | — |
-| `def` | [bh_evaluator](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-evaluator/) | L98-L98 | defined | — |
-| `theorem` | [evaluator_modes_consistent](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/evaluator-modes-consistent/) | L101-L102 | formalized | — |
-| `structure` | [BHSelfDescResult](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhself-desc-result/) | L113-L123 | defined | `VI.T30` |
-| `def` | [bh_sd](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-sd/) | L125-L127 | defined | — |
-| `theorem` | [bh_selfdesc_theorem](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-selfdesc-theorem/) | L130-L136 | formalized | `VI.T30` |
-| `theorem` | [selfdesc_uses_bookV_modes](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/selfdesc-uses-book-v-modes/) | L139-L144 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [BHDecodeTarget](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-target/) | L38-L45 | type/data schema | type/data schema | `VI.D58` |
+| `def` | [bh_target](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-target/) | L47-L47 | definition | definition | — |
+| `structure` | [BHDecodeHorizon](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhdecode-horizon/) | L55-L62 | type/data schema | type/data schema | `VI.D59` |
+| `def` | [bh_horizon](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-horizon/) | L64-L64 | definition | definition | — |
+| `theorem` | [bh_uniqueness_lemma](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-uniqueness-lemma/) | L72-L74 | proof obligation | formal proof obligation checked | `VI.L09` |
+| `theorem` | [bh_constancy_lemma](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-constancy-lemma/) | L78-L80 | proof obligation | formal proof obligation checked | `VI.L10` |
+| `structure` | [BHEvaluator](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhevaluator/) | L89-L96 | type/data schema | type/data schema | — |
+| `def` | [bh_evaluator](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-evaluator/) | L98-L98 | definition | definition | — |
+| `theorem` | [evaluator_modes_consistent](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/evaluator-modes-consistent/) | L101-L102 | proof obligation | formal proof obligation checked | — |
+| `structure` | [BHSelfDescResult](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhself-desc-result/) | L113-L123 | type/data schema | type/data schema | `VI.T30` |
+| `def` | [bh_sd](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-sd/) | L125-L127 | definition | definition | — |
+| `theorem` | [bh_selfdesc_theorem](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-selfdesc-theorem/) | L130-L136 | proof obligation | formal proof obligation checked | `VI.T30` |
+| `theorem` | [selfdesc_uses_bookV_modes](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/selfdesc-uses-book-v-modes/) | L139-L144 | proof obligation | formal proof obligation checked | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "E8_follows_from_E4",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-modular-forms/e8-follows-from-e4/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e8-follows-from-e4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.ModularForms`.",
   "declaration_id": "TauLib.BookIII.Spectral.ModularForms::E8_follows_from_E4",
   "declaration_slug": "e8-follows-from-e4",
   "kind": "theorem",
   "name": "E8_follows_from_E4",
   "module_name": "TauLib.BookIII.Spectral.ModularForms",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-modular-forms/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/",
   "source_line_start": 173,
   "source_line_end": 176,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/ModularForms.lean#L173-L176",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.ModularForms",
-        "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.ModularForms](/verify/taulib/docs/book-iii-spectral-modular-forms/)
+- Module: [TauLib.BookIII.Spectral.ModularForms](/corpus/taulib/docs/book-iii-spectral-modular-forms/)
 - Source path: [`TauLib/BookIII/Spectral/ModularForms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/ModularForms.lean#L173-L176)
 - Source range: L173-L176
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

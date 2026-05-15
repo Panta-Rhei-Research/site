@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "weak_unique_balanced",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-sector-parameters/weak-unique-balanced/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-sector-parameters/weak-unique-balanced/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Sectors.SectorParameters`.",
   "declaration_id": "TauLib.BookIV.Sectors.SectorParameters::weak_unique_balanced",
   "declaration_slug": "weak-unique-balanced",
   "kind": "theorem",
   "name": "weak_unique_balanced",
   "module_name": "TauLib.BookIV.Sectors.SectorParameters",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-sector-parameters/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-sector-parameters/",
   "source_line_start": 242,
   "source_line_end": 248,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SectorParameters.lean#L242-L248",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.SectorParameters",
-        "url": "/verify/taulib/docs/book-iv-sectors-sector-parameters/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-sector-parameters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.SectorParameters](/verify/taulib/docs/book-iv-sectors-sector-parameters/)
+- Module: [TauLib.BookIV.Sectors.SectorParameters](/corpus/taulib/docs/book-iv-sectors-sector-parameters/)
 - Source path: [`TauLib/BookIV/Sectors/SectorParameters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SectorParameters.lean#L242-L248)
 - Source range: L242-L248
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

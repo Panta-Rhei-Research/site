@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "physics_in_part5",
-  "permalink": "/verify/taulib/docs/book-iii-physics-physics-assembly/physics-in-part5/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-physics-assembly/physics-in-part5/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Physics.PhysicsAssembly`.",
   "declaration_id": "TauLib.BookIII.Physics.PhysicsAssembly::physics_in_part5",
   "declaration_slug": "physics-in-part5",
   "kind": "def",
   "name": "physics_in_part5",
   "module_name": "TauLib.BookIII.Physics.PhysicsAssembly",
-  "module_url": "/verify/taulib/docs/book-iii-physics-physics-assembly/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-physics-assembly/",
   "source_line_start": 92,
   "source_line_end": 95,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PhysicsAssembly.lean#L92-L95",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.PhysicsAssembly",
-        "url": "/verify/taulib/docs/book-iii-physics-physics-assembly/"
+        "url": "/corpus/taulib/docs/book-iii-physics-physics-assembly/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.PhysicsAssembly](/verify/taulib/docs/book-iii-physics-physics-assembly/)
+- Module: [TauLib.BookIII.Physics.PhysicsAssembly](/corpus/taulib/docs/book-iii-physics-physics-assembly/)
 - Source path: [`TauLib/BookIII/Physics/PhysicsAssembly.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PhysicsAssembly.lean#L92-L95)
 - Source range: L92-L95
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

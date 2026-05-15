@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Kernel.Diagonal",
-  "permalink": "/verify/taulib/docs/book-i-kernel-diagonal/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-diagonal/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Kernel.Diagonal`.",
   "module_name": "TauLib.BookI.Kernel.Diagonal",
   "module_slug": "book-i-kernel-diagonal",
@@ -35,10 +35,12 @@
     {
       "kind": "theorem",
       "name": "diagonal_channel_count",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/diagonal-channel-count/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/diagonal-channel-count/",
       "source_line_start": 38,
       "source_line_end": 39,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.D03"
       ]
@@ -46,55 +48,67 @@
     {
       "kind": "theorem",
       "name": "nonOmega_complete",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/non-omega-complete/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/non-omega-complete/",
       "source_line_start": 42,
       "source_line_end": 44,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "solenoidalGenerators",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-generators/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-generators/",
       "source_line_start": 52,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "solenoidal_count",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-count/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-count/",
       "source_line_start": 55,
       "source_line_end": 56,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "solenoidal_ne_alpha",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-alpha/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-alpha/",
       "source_line_start": 59,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "solenoidal_ne_omega",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-omega/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-omega/",
       "source_line_start": 65,
       "source_line_end": 68,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rewiring_levels_eq_solenoidal",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/rewiring-levels-eq-solenoidal/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/rewiring-levels-eq-solenoidal/",
       "source_line_start": 77,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.D03"
       ]
@@ -102,10 +116,12 @@
     {
       "kind": "theorem",
       "name": "alpha_unique_scaffold",
-      "url": "/verify/taulib/docs/book-i-kernel-diagonal/alpha-unique-scaffold/",
+      "url": "/corpus/taulib/docs/book-i-kernel-diagonal/alpha-unique-scaffold/",
       "source_line_start": 83,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -117,7 +133,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -190,13 +206,13 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [diagonal_channel_count](/verify/taulib/docs/book-i-kernel-diagonal/diagonal-channel-count/) | L38-L39 | formalized | `I.D03` |
-| `theorem` | [nonOmega_complete](/verify/taulib/docs/book-i-kernel-diagonal/non-omega-complete/) | L42-L44 | formalized | — |
-| `def` | [solenoidalGenerators](/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-generators/) | L52-L52 | defined | — |
-| `theorem` | [solenoidal_count](/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-count/) | L55-L56 | formalized | — |
-| `theorem` | [solenoidal_ne_alpha](/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-alpha/) | L59-L62 | formalized | — |
-| `theorem` | [solenoidal_ne_omega](/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-omega/) | L65-L68 | formalized | — |
-| `theorem` | [rewiring_levels_eq_solenoidal](/verify/taulib/docs/book-i-kernel-diagonal/rewiring-levels-eq-solenoidal/) | L77-L79 | formalized | `I.D03` |
-| `theorem` | [alpha_unique_scaffold](/verify/taulib/docs/book-i-kernel-diagonal/alpha-unique-scaffold/) | L83-L87 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [diagonal_channel_count](/corpus/taulib/docs/book-i-kernel-diagonal/diagonal-channel-count/) | L38-L39 | proof obligation | formal proof obligation checked | `I.D03` |
+| `theorem` | [nonOmega_complete](/corpus/taulib/docs/book-i-kernel-diagonal/non-omega-complete/) | L42-L44 | proof obligation | formal proof obligation checked | — |
+| `def` | [solenoidalGenerators](/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-generators/) | L52-L52 | data/computed value | data/computed value | — |
+| `theorem` | [solenoidal_count](/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-count/) | L55-L56 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [solenoidal_ne_alpha](/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-alpha/) | L59-L62 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [solenoidal_ne_omega](/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-ne-omega/) | L65-L68 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rewiring_levels_eq_solenoidal](/corpus/taulib/docs/book-i-kernel-diagonal/rewiring-levels-eq-solenoidal/) | L77-L79 | proof obligation | formal proof obligation checked | `I.D03` |
+| `theorem` | [alpha_unique_scaffold](/corpus/taulib/docs/book-i-kernel-diagonal/alpha-unique-scaffold/) | L83-L87 | proof obligation | formal proof obligation checked | — |

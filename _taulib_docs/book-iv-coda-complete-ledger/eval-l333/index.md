@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L333",
-  "permalink": "/verify/taulib/docs/book-iv-coda-complete-ledger/eval-l333/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-complete-ledger/eval-l333/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Coda.CompleteLedger`.",
   "declaration_id": "TauLib.BookIV.Coda.CompleteLedger::#eval:333",
   "declaration_slug": "eval-l333",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Coda.CompleteLedger",
-  "module_url": "/verify/taulib/docs/book-iv-coda-complete-ledger/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/",
   "source_line_start": 333,
   "source_line_end": 333,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L333-L333",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.CompleteLedger",
-        "url": "/verify/taulib/docs/book-iv-coda-complete-ledger/"
+        "url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.CompleteLedger](/verify/taulib/docs/book-iv-coda-complete-ledger/)
+- Module: [TauLib.BookIV.Coda.CompleteLedger](/corpus/taulib/docs/book-iv-coda-complete-ledger/)
 - Source path: [`TauLib/BookIV/Coda/CompleteLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L333-L333)
 - Source range: L333-L333
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

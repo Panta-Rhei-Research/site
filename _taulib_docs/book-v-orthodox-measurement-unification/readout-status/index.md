@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ReadoutStatus",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-measurement-unification/readout-status/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/readout-status/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.Orthodox.MeasurementUnification`.",
   "declaration_id": "TauLib.BookV.Orthodox.MeasurementUnification::ReadoutStatus",
   "declaration_slug": "readout-status",
   "kind": "inductive",
   "name": "ReadoutStatus",
   "module_name": "TauLib.BookV.Orthodox.MeasurementUnification",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-measurement-unification/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/",
   "source_line_start": 66,
   "source_line_end": 71,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/MeasurementUnification.lean#L66-L71",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.MeasurementUnification",
-        "url": "/verify/taulib/docs/book-v-orthodox-measurement-unification/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.MeasurementUnification](/verify/taulib/docs/book-v-orthodox-measurement-unification/)
+- Module: [TauLib.BookV.Orthodox.MeasurementUnification](/corpus/taulib/docs/book-v-orthodox-measurement-unification/)
 - Source path: [`TauLib/BookV/Orthodox/MeasurementUnification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/MeasurementUnification.lean#L66-L71)
 - Source range: L66-L71
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

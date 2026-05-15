@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primorial_approx",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/primorial-approx/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/primorial-approx/",
   "summary_short": "`def` declaration in `TauLib.BookVI.CosmicLife.CrossLimit`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.CrossLimit::primorial_approx",
   "declaration_slug": "primorial-approx",
   "kind": "def",
   "name": "primorial_approx",
   "module_name": "TauLib.BookVI.CosmicLife.CrossLimit",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/",
   "source_line_start": 87,
   "source_line_end": 88,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/CrossLimit.lean#L87-L88",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.CrossLimit",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.CrossLimit](/verify/taulib/docs/book-vi-cosmic-life-cross-limit/)
+- Module: [TauLib.BookVI.CosmicLife.CrossLimit](/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/)
 - Source path: [`TauLib/BookVI/CosmicLife/CrossLimit.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/CrossLimit.lean#L87-L88)
 - Source range: L87-L88
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

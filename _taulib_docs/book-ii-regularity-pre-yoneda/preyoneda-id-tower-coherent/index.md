@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "preyoneda_id_tower_coherent",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/preyoneda-id-tower-coherent/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/preyoneda-id-tower-coherent/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Regularity.PreYoneda`.",
   "declaration_id": "TauLib.BookII.Regularity.PreYoneda::preyoneda_id_tower_coherent",
   "declaration_slug": "preyoneda-id-tower-coherent",
   "kind": "theorem",
   "name": "preyoneda_id_tower_coherent",
   "module_name": "TauLib.BookII.Regularity.PreYoneda",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/",
   "source_line_start": 356,
   "source_line_end": 360,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PreYoneda.lean#L356-L360",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.PreYoneda",
-        "url": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.PreYoneda](/verify/taulib/docs/book-ii-regularity-pre-yoneda/)
+- Module: [TauLib.BookII.Regularity.PreYoneda](/corpus/taulib/docs/book-ii-regularity-pre-yoneda/)
 - Source path: [`TauLib/BookII/Regularity/PreYoneda.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PreYoneda.lean#L356-L360)
 - Source range: L356-L360
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

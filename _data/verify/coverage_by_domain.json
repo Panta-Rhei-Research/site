@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T11:10:50+00:00",
+  "generated": "2026-05-15T18:05:49+00:00",
   "source": "corpus/exports/public/taulib-projections/data/modules.json",
   "source_commit": "cb5e83015b54dd72eba560953fe2461820078757",
   "schema_version": "verify-v3.0",
@@ -38,9 +38,9 @@
     },
     "physics": {
       "module_count": 171,
-      "line_count": 58581,
+      "line_count": 58753,
       "declaration_counts": {
-        "def": 1567,
+        "def": 1573,
         "theorem": 1703,
         "structure": 1102,
         "example": 3,
@@ -57,11 +57,11 @@
         },
         "BookV": {
           "module_count": 81,
-          "line_count": 28597
+          "line_count": 28769
         }
       },
-      "declaration_count": 6069,
-      "formalized_count": 4489,
+      "declaration_count": 6075,
+      "formalized_count": 4495,
       "axiom_count": 0
     },
     "life": {
@@ -115,10 +115,10 @@
   },
   "global_summary": {
     "module_count": 512,
-    "declaration_count": 14601,
+    "declaration_count": 14607,
     "registry_linked_module_count": 478,
     "formal_status_counts": {
-      "defined": 5441,
+      "defined": 5447,
       "formalized": 4863,
       "example": 371,
       "computed": 3923,

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau3_cr_integrable",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/tau3-cr-integrable/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/tau3-cr-integrable/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.QuantumMechanics.CRAddressSpace`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.CRAddressSpace::tau3_cr_integrable",
   "declaration_slug": "tau3-cr-integrable",
   "kind": "theorem",
   "name": "tau3_cr_integrable",
   "module_name": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/",
   "source_line_start": 103,
   "source_line_end": 103,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean#L103-L103",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.CRAddressSpace](/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/)
+- Module: [TauLib.BookIV.QuantumMechanics.CRAddressSpace](/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean#L103-L103)
 - Source range: L103-L103
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

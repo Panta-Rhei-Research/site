@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L348",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l348/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l348/",
   "summary_short": "`eval` declaration in `TauLib.BookII.CentralTheorem.CentralTheorem`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.CentralTheorem::#eval:348",
   "declaration_slug": "eval-l348",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.CentralTheorem.CentralTheorem",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/",
   "source_line_start": 348,
   "source_line_end": 348,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L348-L348",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.CentralTheorem",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/verify/taulib/docs/book-ii-central-theorem-central-theorem/)
+- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/)
 - Source path: [`TauLib/BookII/CentralTheorem/CentralTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L348-L348)
 - Source range: L348-L348
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

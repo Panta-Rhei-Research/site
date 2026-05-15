@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "k5_status",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-substrate/k5-status/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-substrate/k5-status/",
   "summary_short": "`def` declaration in `TauLib.BookI.MetaLogic.Substrate`.",
   "declaration_id": "TauLib.BookI.MetaLogic.Substrate::k5_status",
   "declaration_slug": "k5-status",
   "kind": "def",
   "name": "k5_status",
   "module_name": "TauLib.BookI.MetaLogic.Substrate",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-substrate/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-substrate/",
   "source_line_start": 51,
   "source_line_end": 54,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/Substrate.lean#L51-L54",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.Substrate",
-        "url": "/verify/taulib/docs/book-i-meta-logic-substrate/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.Substrate](/verify/taulib/docs/book-i-meta-logic-substrate/)
+- Module: [TauLib.BookI.MetaLogic.Substrate](/corpus/taulib/docs/book-i-meta-logic-substrate/)
 - Source path: [`TauLib/BookI/MetaLogic/Substrate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/Substrate.lean#L51-L54)
 - Source range: L51-L54
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

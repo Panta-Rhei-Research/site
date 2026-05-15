@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Geometry.CausalStructure",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-causal-structure/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-causal-structure/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Geometry.CausalStructure`.",
   "module_name": "TauLib.BookII.Geometry.CausalStructure",
   "module_slug": "book-ii-geometry-causal-structure",
@@ -35,10 +35,12 @@
     {
       "kind": "def",
       "name": "wave_char_roots",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/wave-char-roots/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/wave-char-roots/",
       "source_line_start": 47,
       "source_line_end": 48,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D21"
       ]
@@ -46,55 +48,67 @@
     {
       "kind": "def",
       "name": "wave_discriminant_positive",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/wave-discriminant-positive/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/wave-discriminant-positive/",
       "source_line_start": 53,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "j_squared_plus_one",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/j-squared-plus-one/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/j-squared-plus-one/",
       "source_line_start": 60,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "char_xi",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/char-xi/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/char-xi/",
       "source_line_start": 71,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "char_zeta",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/char-zeta/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/char-zeta/",
       "source_line_start": 74,
       "source_line_end": 74,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "char_recover_check",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/char-recover-check/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/char-recover-check/",
       "source_line_start": 78,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "CausalClass",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/causal-class/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/causal-class/",
       "source_line_start": 94,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D22"
       ]
@@ -102,46 +116,56 @@
     {
       "kind": "def",
       "name": "classify_causal",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/classify-causal/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/classify-causal/",
       "source_line_start": 101,
       "source_line_end": 105,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "null_cone_check",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/null-cone-check/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/null-cone-check/",
       "source_line_start": 108,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "e_plus_null",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/e-plus-null/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/e-plus-null/",
       "source_line_start": 116,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "e_minus_null",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/e-minus-null/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/e-minus-null/",
       "source_line_start": 121,
       "source_line_end": 122,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "static_limit_check",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/static-limit-check/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/static-limit-check/",
       "source_line_start": 136,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T19"
       ]
@@ -149,172 +173,210 @@
     {
       "kind": "def",
       "name": "indefinite_signature_check",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/indefinite-signature-check/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/indefinite-signature-check/",
       "source_line_start": 146,
       "source_line_end": 150,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sector_causal_correspondence",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/sector-causal-correspondence/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/sector-causal-correspondence/",
       "source_line_start": 160,
       "source_line_end": 166,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l172/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l172/",
       "source_line_start": 172,
       "source_line_end": 172,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l173/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l173/",
       "source_line_start": 173,
       "source_line_end": 173,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l174/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l174/",
       "source_line_start": 174,
       "source_line_end": 174,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l175/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l175/",
       "source_line_start": 175,
       "source_line_end": 175,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l176/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l176/",
       "source_line_start": 176,
       "source_line_end": 176,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l177/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l177/",
       "source_line_start": 177,
       "source_line_end": 177,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l178/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l178/",
       "source_line_start": 178,
       "source_line_end": 178,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l179/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l179/",
       "source_line_start": 179,
       "source_line_end": 179,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l181/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l181/",
       "source_line_start": 181,
       "source_line_end": 181,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l182/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l182/",
       "source_line_start": 182,
       "source_line_end": 182,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l183/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l183/",
       "source_line_start": 183,
       "source_line_end": 183,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "wave_disc",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/wave-disc/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/wave-disc/",
       "source_line_start": 186,
       "source_line_end": 186,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "char_recover",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/char-recover/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/char-recover/",
       "source_line_start": 187,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "null_cone",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/null-cone/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/null-cone/",
       "source_line_start": 188,
       "source_line_end": 188,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "static_lim",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/static-lim/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/static-lim/",
       "source_line_start": 189,
       "source_line_end": 189,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "indef_sig",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/indef-sig/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/indef-sig/",
       "source_line_start": 190,
       "source_line_end": 190,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sector_causal",
-      "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/sector-causal/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/sector-causal/",
       "source_line_start": 191,
       "source_line_end": 193,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -326,7 +388,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -399,36 +461,36 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [wave_char_roots](/verify/taulib/docs/book-ii-geometry-causal-structure/wave-char-roots/) | L47-L48 | defined | `II.D21` |
-| `def` | [wave_discriminant_positive](/verify/taulib/docs/book-ii-geometry-causal-structure/wave-discriminant-positive/) | L53-L57 | defined | — |
-| `theorem` | [j_squared_plus_one](/verify/taulib/docs/book-ii-geometry-causal-structure/j-squared-plus-one/) | L60-L62 | formalized | — |
-| `def` | [char_xi](/verify/taulib/docs/book-ii-geometry-causal-structure/char-xi/) | L71-L71 | defined | — |
-| `def` | [char_zeta](/verify/taulib/docs/book-ii-geometry-causal-structure/char-zeta/) | L74-L74 | defined | — |
-| `def` | [char_recover_check](/verify/taulib/docs/book-ii-geometry-causal-structure/char-recover-check/) | L78-L83 | defined | — |
-| `inductive` | [CausalClass](/verify/taulib/docs/book-ii-geometry-causal-structure/causal-class/) | L94-L98 | defined | `II.D22` |
-| `def` | [classify_causal](/verify/taulib/docs/book-ii-geometry-causal-structure/classify-causal/) | L101-L105 | defined | — |
-| `def` | [null_cone_check](/verify/taulib/docs/book-ii-geometry-causal-structure/null-cone-check/) | L108-L112 | defined | — |
-| `def` | [e_plus_null](/verify/taulib/docs/book-ii-geometry-causal-structure/e-plus-null/) | L116-L117 | defined | — |
-| `def` | [e_minus_null](/verify/taulib/docs/book-ii-geometry-causal-structure/e-minus-null/) | L121-L122 | defined | — |
-| `def` | [static_limit_check](/verify/taulib/docs/book-ii-geometry-causal-structure/static-limit-check/) | L136-L142 | defined | `II.T19` |
-| `def` | [indefinite_signature_check](/verify/taulib/docs/book-ii-geometry-causal-structure/indefinite-signature-check/) | L146-L150 | defined | — |
-| `def` | [sector_causal_correspondence](/verify/taulib/docs/book-ii-geometry-causal-structure/sector-causal-correspondence/) | L160-L166 | defined | — |
-| `eval` | [#eval L172](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l172/) | L172-L172 | computed | — |
-| `eval` | [#eval L173](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l173/) | L173-L173 | computed | — |
-| `eval` | [#eval L174](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l174/) | L174-L174 | computed | — |
-| `eval` | [#eval L175](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l175/) | L175-L175 | computed | — |
-| `eval` | [#eval L176](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l176/) | L176-L176 | computed | — |
-| `eval` | [#eval L177](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l177/) | L177-L177 | computed | — |
-| `eval` | [#eval L178](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l178/) | L178-L178 | computed | — |
-| `eval` | [#eval L179](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l179/) | L179-L179 | computed | — |
-| `eval` | [#eval L181](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l181/) | L181-L181 | computed | — |
-| `eval` | [#eval L182](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l182/) | L182-L182 | computed | — |
-| `eval` | [#eval L183](/verify/taulib/docs/book-ii-geometry-causal-structure/eval-l183/) | L183-L183 | computed | — |
-| `theorem` | [wave_disc](/verify/taulib/docs/book-ii-geometry-causal-structure/wave-disc/) | L186-L186 | formalized | — |
-| `theorem` | [char_recover](/verify/taulib/docs/book-ii-geometry-causal-structure/char-recover/) | L187-L187 | formalized | — |
-| `theorem` | [null_cone](/verify/taulib/docs/book-ii-geometry-causal-structure/null-cone/) | L188-L188 | formalized | — |
-| `theorem` | [static_lim](/verify/taulib/docs/book-ii-geometry-causal-structure/static-lim/) | L189-L189 | formalized | — |
-| `theorem` | [indef_sig](/verify/taulib/docs/book-ii-geometry-causal-structure/indef-sig/) | L190-L190 | formalized | — |
-| `theorem` | [sector_causal](/verify/taulib/docs/book-ii-geometry-causal-structure/sector-causal/) | L191-L193 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [wave_char_roots](/corpus/taulib/docs/book-ii-geometry-causal-structure/wave-char-roots/) | L47-L48 | data/computed value | data/computed value | `II.D21` |
+| `def` | [wave_discriminant_positive](/corpus/taulib/docs/book-ii-geometry-causal-structure/wave-discriminant-positive/) | L53-L57 | data/computed value | data/computed value | — |
+| `theorem` | [j_squared_plus_one](/corpus/taulib/docs/book-ii-geometry-causal-structure/j-squared-plus-one/) | L60-L62 | proof obligation | formal proof obligation checked | — |
+| `def` | [char_xi](/corpus/taulib/docs/book-ii-geometry-causal-structure/char-xi/) | L71-L71 | data/computed value | data/computed value | — |
+| `def` | [char_zeta](/corpus/taulib/docs/book-ii-geometry-causal-structure/char-zeta/) | L74-L74 | data/computed value | data/computed value | — |
+| `def` | [char_recover_check](/corpus/taulib/docs/book-ii-geometry-causal-structure/char-recover-check/) | L78-L83 | data/computed value | data/computed value | — |
+| `inductive` | [CausalClass](/corpus/taulib/docs/book-ii-geometry-causal-structure/causal-class/) | L94-L98 | type/data schema | type/data schema | `II.D22` |
+| `def` | [classify_causal](/corpus/taulib/docs/book-ii-geometry-causal-structure/classify-causal/) | L101-L105 | data/computed value | data/computed value | — |
+| `def` | [null_cone_check](/corpus/taulib/docs/book-ii-geometry-causal-structure/null-cone-check/) | L108-L112 | data/computed value | data/computed value | — |
+| `def` | [e_plus_null](/corpus/taulib/docs/book-ii-geometry-causal-structure/e-plus-null/) | L116-L117 | data/computed value | data/computed value | — |
+| `def` | [e_minus_null](/corpus/taulib/docs/book-ii-geometry-causal-structure/e-minus-null/) | L121-L122 | data/computed value | data/computed value | — |
+| `def` | [static_limit_check](/corpus/taulib/docs/book-ii-geometry-causal-structure/static-limit-check/) | L136-L142 | data/computed value | data/computed value | `II.T19` |
+| `def` | [indefinite_signature_check](/corpus/taulib/docs/book-ii-geometry-causal-structure/indefinite-signature-check/) | L146-L150 | data/computed value | data/computed value | — |
+| `def` | [sector_causal_correspondence](/corpus/taulib/docs/book-ii-geometry-causal-structure/sector-causal-correspondence/) | L160-L166 | data/computed value | data/computed value | — |
+| `eval` | [#eval L172](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l172/) | L172-L172 | computed check | computed check | — |
+| `eval` | [#eval L173](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l173/) | L173-L173 | computed check | computed check | — |
+| `eval` | [#eval L174](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l174/) | L174-L174 | computed check | computed check | — |
+| `eval` | [#eval L175](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l175/) | L175-L175 | computed check | computed check | — |
+| `eval` | [#eval L176](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l176/) | L176-L176 | computed check | computed check | — |
+| `eval` | [#eval L177](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l177/) | L177-L177 | computed check | computed check | — |
+| `eval` | [#eval L178](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l178/) | L178-L178 | computed check | computed check | — |
+| `eval` | [#eval L179](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l179/) | L179-L179 | computed check | computed check | — |
+| `eval` | [#eval L181](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l181/) | L181-L181 | computed check | computed check | — |
+| `eval` | [#eval L182](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l182/) | L182-L182 | computed check | computed check | — |
+| `eval` | [#eval L183](/corpus/taulib/docs/book-ii-geometry-causal-structure/eval-l183/) | L183-L183 | computed check | computed check | — |
+| `theorem` | [wave_disc](/corpus/taulib/docs/book-ii-geometry-causal-structure/wave-disc/) | L186-L186 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [char_recover](/corpus/taulib/docs/book-ii-geometry-causal-structure/char-recover/) | L187-L187 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [null_cone](/corpus/taulib/docs/book-ii-geometry-causal-structure/null-cone/) | L188-L188 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [static_lim](/corpus/taulib/docs/book-ii-geometry-causal-structure/static-lim/) | L189-L189 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [indef_sig](/corpus/taulib/docs/book-ii-geometry-causal-structure/indef-sig/) | L190-L190 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sector_causal](/corpus/taulib/docs/book-ii-geometry-causal-structure/sector-causal/) | L191-L193 | proof obligation | formal proof obligation checked | — |

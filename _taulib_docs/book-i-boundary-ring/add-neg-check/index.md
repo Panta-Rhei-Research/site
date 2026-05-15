@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "add_neg_check",
-  "permalink": "/verify/taulib/docs/book-i-boundary-ring/add-neg-check/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-ring/add-neg-check/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Ring`.",
   "declaration_id": "TauLib.BookI.Boundary.Ring::add_neg_check",
   "declaration_slug": "add-neg-check",
   "kind": "def",
   "name": "add_neg_check",
   "module_name": "TauLib.BookI.Boundary.Ring",
-  "module_url": "/verify/taulib/docs/book-i-boundary-ring/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-ring/",
   "source_line_start": 301,
   "source_line_end": 303,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Ring.lean#L301-L303",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Ring",
-        "url": "/verify/taulib/docs/book-i-boundary-ring/"
+        "url": "/corpus/taulib/docs/book-i-boundary-ring/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Ring](/verify/taulib/docs/book-i-boundary-ring/)
+- Module: [TauLib.BookI.Boundary.Ring](/corpus/taulib/docs/book-i-boundary-ring/)
 - Source path: [`TauLib/BookI/Boundary/Ring.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Ring.lean#L301-L303)
 - Source range: L301-L303
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CRTHyp",
-  "permalink": "/verify/taulib/docs/book-i-polarity-nth-prime/crthyp/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-nth-prime/crthyp/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Polarity.NthPrime`.",
   "declaration_id": "TauLib.BookI.Polarity.NthPrime::CRTHyp",
   "declaration_slug": "crthyp",
   "kind": "structure",
   "name": "CRTHyp",
   "module_name": "TauLib.BookI.Polarity.NthPrime",
-  "module_url": "/verify/taulib/docs/book-i-polarity-nth-prime/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-nth-prime/",
   "source_line_start": 197,
   "source_line_end": 200,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/NthPrime.lean#L197-L200",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.NthPrime",
-        "url": "/verify/taulib/docs/book-i-polarity-nth-prime/"
+        "url": "/corpus/taulib/docs/book-i-polarity-nth-prime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.NthPrime](/verify/taulib/docs/book-i-polarity-nth-prime/)
+- Module: [TauLib.BookI.Polarity.NthPrime](/corpus/taulib/docs/book-i-polarity-nth-prime/)
 - Source path: [`TauLib/BookI/Polarity/NthPrime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/NthPrime.lean#L197-L200)
 - Source range: L197-L200
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

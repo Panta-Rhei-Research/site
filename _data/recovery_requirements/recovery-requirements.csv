@@ -1,0 +1,46 @@
+id,title,domain,item_type,recovery_status,verification_status,url
+LREC-L0,Life as a Recoverable Category,life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/life-as-a-recoverable-category/
+LREC-L1,Boundary and Individuality,life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/boundary-and-individuality/
+LREC-L2,Metabolism and Energy Throughput,life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/metabolism-and-energy-throughput/
+LREC-L3,"Encoding, Heredity, and Genotype/Phenotype Split",life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/encoding-heredity-and-genotype-phenotype-split/
+LREC-L4,"Reproduction, Heredity, and Variation",life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/reproduction-heredity-and-variation/
+LREC-L5,Evolution and Adaptive Search,life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/evolution-and-adaptive-search/
+LREC-L6,Morphogenesis and Development,life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/morphogenesis-and-development/
+LREC-L7,Tree-of-Life and Classification Structure,life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/tree-of-life-and-classification-structure/
+LREC-L8,Ecology and Multi-Agent Coupling,life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/ecology-and-multi-agent-coupling/
+LREC-L9,"Nervous Systems, Cognition, and Life-Mind Bridge",life,recovery_requirement,partial,pending_life_verification,/program/research-agenda/recovery-requirements/life/nervous-systems-cognition-and-life-mind-bridge/
+MREF-R0,Mathematical Refusals Overview,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/mathematical-refusals-overview/
+MREF-R1,Unrestricted Power Set Formation,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-power-set-formation/
+MREF-R2,Unrestricted Comprehension,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-comprehension/
+MREF-R3,Unrestricted Choice,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/unrestricted-choice/
+MREF-R4,Arbitrary Nonconstructive Existence,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/arbitrary-nonconstructive-existence/
+MREF-R5,Completed Uncountable Totalities,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/completed-uncountable-totalities/
+MREF-R6,Silent Contraction and Unrestricted Reuse,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/silent-contraction-and-unrestricted-reuse/
+MREF-R7,Impredicative Large-Universe Assumptions,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/impredicative-large-universe-assumptions/
+MREF-R8,Unqualified Theorem Transfer,mathematics,mathematical_refusal,not_applicable,not_yet_verified,/program/research-agenda/recovery-requirements/mathematics/refusals/unqualified-theorem-transfer/
+MREC-M0,Mechanical Formal Checkability,mathematics,recovery_requirement,partial,pending_formal_verification,/program/research-agenda/recovery-requirements/mathematics/mechanical-formal-checkability/
+MREC-M1,"Finite Syntax, Terms, and Proof Objects",mathematics,recovery_requirement,partial,pending_formal_verification,/program/research-agenda/recovery-requirements/mathematics/finite-syntax-terms-and-proof-objects/
+MREC-M2,Finite Arithmetic and Algebraic Structure,mathematics,recovery_requirement,partial,pending_bridge_verification,/program/research-agenda/recovery-requirements/mathematics/finite-arithmetic-and-algebraic-structure/
+MREC-M3,Euclidean Geometry,mathematics,recovery_requirement,partial,pending_bridge_verification,/program/research-agenda/recovery-requirements/mathematics/euclidean-geometry/
+MREC-M4,ZFC as Object Theory,mathematics,recovery_requirement,partial,pending_bridge_verification,/program/research-agenda/recovery-requirements/mathematics/zfc-as-object-theory/
+MREC-M5,Bridge Adequacy to Standard Mathematics,mathematics,recovery_requirement,partial,pending_bridge_verification,/program/research-agenda/recovery-requirements/mathematics/bridge-adequacy-to-standard-mathematics/
+METH-R0,Reality as a Recoverable Field,metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/reality-as-a-recoverable-field/
+METH-R1,"Being, Existence, and Ontological Status",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/being-existence-and-ontological-status/
+METH-R10,"Value, Normativity, and Ethics",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/value-normativity-and-ethics/
+METH-R11,"Ultimate Boundary, Closure, and the Question of Why",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/ultimate-boundary-closure-and-the-question-of-why/
+METH-R2,"Identity, Difference, and Individuation",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/identity-difference-and-individuation/
+METH-R3,"Relation, Dependence, and Grounding",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/relation-dependence-and-grounding/
+METH-R4,"Causality, Explanation, and Constraint",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/causality-explanation-and-constraint/
+METH-R5,"Modality: Possibility, Necessity, and Contingency",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/modality-possibility-necessity-and-contingency/
+METH-R6,"Time, Becoming, and Process",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/time-becoming-and-process/
+METH-R7,"Truth, Knowledge, and Intelligibility",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/truth-knowledge-and-intelligibility/
+METH-R8,"Mind, Subjectivity, and First-Person Orientation",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/mind-subjectivity-and-first-person-orientation/
+METH-R9,"Language, Symbol, and Narrative",metaphysics,recovery_requirement,partial,pending_metaphysics_verification,/program/research-agenda/recovery-requirements/metaphysics/language-symbol-and-narrative/
+PREC-P0,Physical Quantity Types,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/physical-quantity-types/
+PREC-P1,Dimensional Algebra,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/dimensional-algebra/
+PREC-P2,Natural / Internal Unit System,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/natural-internal-unit-system/
+PREC-P3,SI / Empirical Calibration Bridge,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/si-empirical-calibration-bridge/
+PREC-P4,Fundamental Constants,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/fundamental-constants/
+PREC-P5,Core Dynamical Laws,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/core-dynamical-laws/
+PREC-P6,Physical Regime Bridges,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/physical-regime-bridges/
+PREC-P7,Empirical Observability and Measurement,physics,recovery_requirement,partial,pending_physics_verification,/program/research-agenda/recovery-requirements/physics/empirical-observability-and-measurement/

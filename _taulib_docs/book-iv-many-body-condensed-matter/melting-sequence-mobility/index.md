@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MeltingSequenceMobility",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-mobility/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-mobility/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.ManyBody.CondensedMatter`.",
   "declaration_id": "TauLib.BookIV.ManyBody.CondensedMatter::MeltingSequenceMobility",
   "declaration_slug": "melting-sequence-mobility",
   "kind": "structure",
   "name": "MeltingSequenceMobility",
   "module_name": "TauLib.BookIV.ManyBody.CondensedMatter",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/",
   "source_line_start": 64,
   "source_line_end": 74,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L64-L74",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.CondensedMatter",
-        "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/verify/taulib/docs/book-iv-many-body-condensed-matter/)
+- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/corpus/taulib/docs/book-iv-many-body-condensed-matter/)
 - Source path: [`TauLib/BookIV/ManyBody/CondensedMatter.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L64-L74)
 - Source range: L64-L74
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

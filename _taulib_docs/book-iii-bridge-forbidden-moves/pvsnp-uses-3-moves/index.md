@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pvsnp_uses_3_moves",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-forbidden-moves/pvsnp-uses-3-moves/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-forbidden-moves/pvsnp-uses-3-moves/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Bridge.ForbiddenMoves`.",
   "declaration_id": "TauLib.BookIII.Bridge.ForbiddenMoves::pvsnp_uses_3_moves",
   "declaration_slug": "pvsnp-uses-3-moves",
   "kind": "theorem",
   "name": "pvsnp_uses_3_moves",
   "module_name": "TauLib.BookIII.Bridge.ForbiddenMoves",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-forbidden-moves/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-forbidden-moves/",
   "source_line_start": 268,
   "source_line_end": 269,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ForbiddenMoves.lean#L268-L269",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ForbiddenMoves",
-        "url": "/verify/taulib/docs/book-iii-bridge-forbidden-moves/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-forbidden-moves/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ForbiddenMoves](/verify/taulib/docs/book-iii-bridge-forbidden-moves/)
+- Module: [TauLib.BookIII.Bridge.ForbiddenMoves](/corpus/taulib/docs/book-iii-bridge-forbidden-moves/)
 - Source path: [`TauLib/BookIII/Bridge/ForbiddenMoves.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ForbiddenMoves.lean#L268-L269)
 - Source range: L268-L269
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

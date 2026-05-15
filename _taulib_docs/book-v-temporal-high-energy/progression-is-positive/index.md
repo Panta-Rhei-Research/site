@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "progression_is_positive",
-  "permalink": "/verify/taulib/docs/book-v-temporal-high-energy/progression-is-positive/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-high-energy/progression-is-positive/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Temporal.HighEnergy`.",
   "declaration_id": "TauLib.BookV.Temporal.HighEnergy::progression_is_positive",
   "declaration_slug": "progression-is-positive",
   "kind": "theorem",
   "name": "progression_is_positive",
   "module_name": "TauLib.BookV.Temporal.HighEnergy",
-  "module_url": "/verify/taulib/docs/book-v-temporal-high-energy/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-high-energy/",
   "source_line_start": 198,
   "source_line_end": 201,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/HighEnergy.lean#L198-L201",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.HighEnergy",
-        "url": "/verify/taulib/docs/book-v-temporal-high-energy/"
+        "url": "/corpus/taulib/docs/book-v-temporal-high-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.HighEnergy](/verify/taulib/docs/book-v-temporal-high-energy/)
+- Module: [TauLib.BookV.Temporal.HighEnergy](/corpus/taulib/docs/book-v-temporal-high-energy/)
 - Source path: [`TauLib/BookV/Temporal/HighEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/HighEnergy.lean#L198-L201)
 - Source range: L198-L201
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

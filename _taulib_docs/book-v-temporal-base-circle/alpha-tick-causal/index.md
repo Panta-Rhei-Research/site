@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_tick_causal",
-  "permalink": "/verify/taulib/docs/book-v-temporal-base-circle/alpha-tick-causal/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-base-circle/alpha-tick-causal/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Temporal.BaseCircle`.",
   "declaration_id": "TauLib.BookV.Temporal.BaseCircle::alpha_tick_causal",
   "declaration_slug": "alpha-tick-causal",
   "kind": "theorem",
   "name": "alpha_tick_causal",
   "module_name": "TauLib.BookV.Temporal.BaseCircle",
-  "module_url": "/verify/taulib/docs/book-v-temporal-base-circle/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-base-circle/",
   "source_line_start": 118,
   "source_line_end": 120,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BaseCircle.lean#L118-L120",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.BaseCircle",
-        "url": "/verify/taulib/docs/book-v-temporal-base-circle/"
+        "url": "/corpus/taulib/docs/book-v-temporal-base-circle/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.BaseCircle](/verify/taulib/docs/book-v-temporal-base-circle/)
+- Module: [TauLib.BookV.Temporal.BaseCircle](/corpus/taulib/docs/book-v-temporal-base-circle/)
 - Source path: [`TauLib/BookV/Temporal/BaseCircle.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BaseCircle.lean#L118-L120)
 - Source range: L118-L120
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

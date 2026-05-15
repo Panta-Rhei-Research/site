@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "prime_atom",
-  "permalink": "/verify/taulib/docs/book-i-sets-orbit-sets/prime-atom/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-orbit-sets/prime-atom/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.OrbitSets`.",
   "declaration_id": "TauLib.BookI.Sets.OrbitSets::prime_atom",
   "declaration_slug": "prime-atom",
   "kind": "theorem",
   "name": "prime_atom",
   "module_name": "TauLib.BookI.Sets.OrbitSets",
-  "module_url": "/verify/taulib/docs/book-i-sets-orbit-sets/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-orbit-sets/",
   "source_line_start": 183,
   "source_line_end": 191,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/OrbitSets.lean#L183-L191",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.OrbitSets",
-        "url": "/verify/taulib/docs/book-i-sets-orbit-sets/"
+        "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.OrbitSets](/verify/taulib/docs/book-i-sets-orbit-sets/)
+- Module: [TauLib.BookI.Sets.OrbitSets](/corpus/taulib/docs/book-i-sets-orbit-sets/)
 - Source path: [`TauLib/BookI/Sets/OrbitSets.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/OrbitSets.lean#L183-L191)
 - Source range: L183-L191
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

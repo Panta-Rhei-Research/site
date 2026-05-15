@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "full_canonical_ladder",
-  "permalink": "/verify/taulib/docs/book-iii-enrichment-canonical-ladder/full-canonical-ladder/",
+  "permalink": "/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/full-canonical-ladder/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Enrichment.CanonicalLadder`.",
   "declaration_id": "TauLib.BookIII.Enrichment.CanonicalLadder::full_canonical_ladder",
   "declaration_slug": "full-canonical-ladder",
   "kind": "def",
   "name": "full_canonical_ladder",
   "module_name": "TauLib.BookIII.Enrichment.CanonicalLadder",
-  "module_url": "/verify/taulib/docs/book-iii-enrichment-canonical-ladder/",
+  "module_url": "/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/",
   "source_line_start": 191,
   "source_line_end": 192,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Enrichment/CanonicalLadder.lean#L191-L192",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Enrichment.CanonicalLadder",
-        "url": "/verify/taulib/docs/book-iii-enrichment-canonical-ladder/"
+        "url": "/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Enrichment.CanonicalLadder](/verify/taulib/docs/book-iii-enrichment-canonical-ladder/)
+- Module: [TauLib.BookIII.Enrichment.CanonicalLadder](/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/)
 - Source path: [`TauLib/BookIII/Enrichment/CanonicalLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Enrichment/CanonicalLadder.lean#L191-L192)
 - Source range: L191-L192
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

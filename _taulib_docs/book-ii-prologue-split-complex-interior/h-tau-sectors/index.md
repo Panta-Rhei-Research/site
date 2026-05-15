@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h_tau_sectors",
-  "permalink": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sectors/",
+  "permalink": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sectors/",
   "summary_short": "`def` declaration in `TauLib.BookII.Prologue.SplitComplexInterior`.",
   "declaration_id": "TauLib.BookII.Prologue.SplitComplexInterior::h_tau_sectors",
   "declaration_slug": "h-tau-sectors",
   "kind": "def",
   "name": "h_tau_sectors",
   "module_name": "TauLib.BookII.Prologue.SplitComplexInterior",
-  "module_url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/",
+  "module_url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/",
   "source_line_start": 49,
   "source_line_end": 49,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Prologue/SplitComplexInterior.lean#L49-L49",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Prologue.SplitComplexInterior",
-        "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/"
+        "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Prologue.SplitComplexInterior](/verify/taulib/docs/book-ii-prologue-split-complex-interior/)
+- Module: [TauLib.BookII.Prologue.SplitComplexInterior](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/)
 - Source path: [`TauLib/BookII/Prologue/SplitComplexInterior.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Prologue/SplitComplexInterior.lean#L49-L49)
 - Source range: L49-L49
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

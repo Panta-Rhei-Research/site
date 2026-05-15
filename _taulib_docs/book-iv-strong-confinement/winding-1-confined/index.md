@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "winding_1_confined",
-  "permalink": "/verify/taulib/docs/book-iv-strong-confinement/winding-1-confined/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-confinement/winding-1-confined/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Strong.Confinement`.",
   "declaration_id": "TauLib.BookIV.Strong.Confinement::winding_1_confined",
   "declaration_slug": "winding-1-confined",
   "kind": "theorem",
   "name": "winding_1_confined",
   "module_name": "TauLib.BookIV.Strong.Confinement",
-  "module_url": "/verify/taulib/docs/book-iv-strong-confinement/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-confinement/",
   "source_line_start": 83,
   "source_line_end": 83,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/Confinement.lean#L83-L83",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.Confinement",
-        "url": "/verify/taulib/docs/book-iv-strong-confinement/"
+        "url": "/corpus/taulib/docs/book-iv-strong-confinement/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.Confinement](/verify/taulib/docs/book-iv-strong-confinement/)
+- Module: [TauLib.BookIV.Strong.Confinement](/corpus/taulib/docs/book-iv-strong-confinement/)
 - Source path: [`TauLib/BookIV/Strong/Confinement.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/Confinement.lean#L83-L83)
 - Source range: L83-L83
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

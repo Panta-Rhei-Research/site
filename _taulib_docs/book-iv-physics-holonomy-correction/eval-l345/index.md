@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L345",
-  "permalink": "/verify/taulib/docs/book-iv-physics-holonomy-correction/eval-l345/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/eval-l345/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Physics.HolonomyCorrection`.",
   "declaration_id": "TauLib.BookIV.Physics.HolonomyCorrection::#eval:345",
   "declaration_slug": "eval-l345",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Physics.HolonomyCorrection",
-  "module_url": "/verify/taulib/docs/book-iv-physics-holonomy-correction/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/",
   "source_line_start": 345,
   "source_line_end": 348,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/HolonomyCorrection.lean#L345-L348",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.HolonomyCorrection",
-        "url": "/verify/taulib/docs/book-iv-physics-holonomy-correction/"
+        "url": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.HolonomyCorrection](/verify/taulib/docs/book-iv-physics-holonomy-correction/)
+- Module: [TauLib.BookIV.Physics.HolonomyCorrection](/corpus/taulib/docs/book-iv-physics-holonomy-correction/)
 - Source path: [`TauLib/BookIV/Physics/HolonomyCorrection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/HolonomyCorrection.lean#L345-L348)
 - Source range: L345-L348
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

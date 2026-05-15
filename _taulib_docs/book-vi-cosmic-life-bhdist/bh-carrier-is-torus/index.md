@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bh_carrier_is_torus",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/bh-carrier-is-torus/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/bh-carrier-is-torus/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.CosmicLife.BHDist`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.BHDist::bh_carrier_is_torus",
   "declaration_slug": "bh-carrier-is-torus",
   "kind": "theorem",
   "name": "bh_carrier_is_torus",
   "module_name": "TauLib.BookVI.CosmicLife.BHDist",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/",
   "source_line_start": 43,
   "source_line_end": 43,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHDist.lean#L43-L43",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.BHDist",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.BHDist](/verify/taulib/docs/book-vi-cosmic-life-bhdist/)
+- Module: [TauLib.BookVI.CosmicLife.BHDist](/corpus/taulib/docs/book-vi-cosmic-life-bhdist/)
 - Source path: [`TauLib/BookVI/CosmicLife/BHDist.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHDist.lean#L43-L43)
 - Source range: L43-L43
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

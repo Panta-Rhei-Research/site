@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BiMonoidal",
-  "permalink": "/verify/taulib/docs/book-i-topos-wedge-product/bi-monoidal/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-wedge-product/bi-monoidal/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Topos.WedgeProduct`.",
   "declaration_id": "TauLib.BookI.Topos.WedgeProduct::BiMonoidal",
   "declaration_slug": "bi-monoidal",
   "kind": "structure",
   "name": "BiMonoidal",
   "module_name": "TauLib.BookI.Topos.WedgeProduct",
-  "module_url": "/verify/taulib/docs/book-i-topos-wedge-product/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-wedge-product/",
   "source_line_start": 86,
   "source_line_end": 94,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/WedgeProduct.lean#L86-L94",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.WedgeProduct",
-        "url": "/verify/taulib/docs/book-i-topos-wedge-product/"
+        "url": "/corpus/taulib/docs/book-i-topos-wedge-product/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.WedgeProduct](/verify/taulib/docs/book-i-topos-wedge-product/)
+- Module: [TauLib.BookI.Topos.WedgeProduct](/corpus/taulib/docs/book-i-topos-wedge-product/)
 - Source path: [`TauLib/BookI/Topos/WedgeProduct.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/WedgeProduct.lean#L86-L94)
 - Source range: L86-L94
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

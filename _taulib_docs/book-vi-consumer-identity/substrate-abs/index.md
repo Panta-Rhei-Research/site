@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "substrate_abs",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-identity/substrate-abs/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-identity/substrate-abs/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Consumer.Identity`.",
   "declaration_id": "TauLib.BookVI.Consumer.Identity::substrate_abs",
   "declaration_slug": "substrate-abs",
   "kind": "def",
   "name": "substrate_abs",
   "module_name": "TauLib.BookVI.Consumer.Identity",
-  "module_url": "/verify/taulib/docs/book-vi-consumer-identity/",
+  "module_url": "/corpus/taulib/docs/book-vi-consumer-identity/",
   "source_line_start": 104,
   "source_line_end": 104,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Identity.lean#L104-L104",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Consumer.Identity",
-        "url": "/verify/taulib/docs/book-vi-consumer-identity/"
+        "url": "/corpus/taulib/docs/book-vi-consumer-identity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Consumer.Identity](/verify/taulib/docs/book-vi-consumer-identity/)
+- Module: [TauLib.BookVI.Consumer.Identity](/corpus/taulib/docs/book-vi-consumer-identity/)
 - Source path: [`TauLib/BookVI/Consumer/Identity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Identity.lean#L104-L104)
 - Source range: L104-L104
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "isw",
-  "permalink": "/verify/taulib/docs/book-vi-closure-ecosystem/isw/",
+  "permalink": "/corpus/taulib/docs/book-vi-closure-ecosystem/isw/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Closure.Ecosystem`.",
   "declaration_id": "TauLib.BookVI.Closure.Ecosystem::isw",
   "declaration_slug": "isw",
   "kind": "def",
   "name": "isw",
   "module_name": "TauLib.BookVI.Closure.Ecosystem",
-  "module_url": "/verify/taulib/docs/book-vi-closure-ecosystem/",
+  "module_url": "/corpus/taulib/docs/book-vi-closure-ecosystem/",
   "source_line_start": 46,
   "source_line_end": 48,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/Ecosystem.lean#L46-L48",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Closure.Ecosystem",
-        "url": "/verify/taulib/docs/book-vi-closure-ecosystem/"
+        "url": "/corpus/taulib/docs/book-vi-closure-ecosystem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Closure.Ecosystem](/verify/taulib/docs/book-vi-closure-ecosystem/)
+- Module: [TauLib.BookVI.Closure.Ecosystem](/corpus/taulib/docs/book-vi-closure-ecosystem/)
 - Source path: [`TauLib/BookVI/Closure/Ecosystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/Ecosystem.lean#L46-L48)
 - Source range: L46-L48
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

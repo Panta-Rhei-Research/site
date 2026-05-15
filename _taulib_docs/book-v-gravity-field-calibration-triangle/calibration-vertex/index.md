@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CalibrationVertex",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-vertex/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/calibration-vertex/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.GravityField.CalibrationTriangle`.",
   "declaration_id": "TauLib.BookV.GravityField.CalibrationTriangle::CalibrationVertex",
   "declaration_slug": "calibration-vertex",
   "kind": "inductive",
   "name": "CalibrationVertex",
   "module_name": "TauLib.BookV.GravityField.CalibrationTriangle",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/",
   "source_line_start": 94,
   "source_line_end": 101,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/CalibrationTriangle.lean#L94-L101",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.CalibrationTriangle",
-        "url": "/verify/taulib/docs/book-v-gravity-field-calibration-triangle/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.CalibrationTriangle](/verify/taulib/docs/book-v-gravity-field-calibration-triangle/)
+- Module: [TauLib.BookV.GravityField.CalibrationTriangle](/corpus/taulib/docs/book-v-gravity-field-calibration-triangle/)
 - Source path: [`TauLib/BookV/GravityField/CalibrationTriangle.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/CalibrationTriangle.lean#L94-L101)
 - Source range: L94-L101
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

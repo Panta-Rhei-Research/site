@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ProtoCode",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/proto-code/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/proto-code/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Arithmetic.ProtoCodes`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.ProtoCodes::ProtoCode",
   "declaration_slug": "proto-code",
   "kind": "structure",
   "name": "ProtoCode",
   "module_name": "TauLib.BookIII.Arithmetic.ProtoCodes",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/",
   "source_line_start": 42,
   "source_line_end": 47,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L42-L47",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.ProtoCodes",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/verify/taulib/docs/book-iii-arithmetic-proto-codes/)
+- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/corpus/taulib/docs/book-iii-arithmetic-proto-codes/)
 - Source path: [`TauLib/BookIII/Arithmetic/ProtoCodes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L42-L47)
 - Source range: L42-L47
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

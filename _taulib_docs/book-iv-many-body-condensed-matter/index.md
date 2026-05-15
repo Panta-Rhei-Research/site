@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.ManyBody.CondensedMatter",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-condensed-matter/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.ManyBody.CondensedMatter`.",
   "module_name": "TauLib.BookIV.ManyBody.CondensedMatter",
   "module_slug": "book-iv-many-body-condensed-matter",
@@ -37,10 +37,12 @@
     {
       "kind": "structure",
       "name": "MeltingSequenceMobility",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-mobility/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-mobility/",
       "source_line_start": 64,
       "source_line_end": 74,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P143"
       ]
@@ -48,46 +50,56 @@
     {
       "kind": "def",
       "name": "melting_sequence",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence/",
       "source_line_start": 76,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "six_nontopo_regimes",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/six-nontopo-regimes/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/six-nontopo-regimes/",
       "source_line_start": 78,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "melting_monotone",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-monotone/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-monotone/",
       "source_line_start": 81,
       "source_line_end": 82,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "melting_sequence_count",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-count/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-count/",
       "source_line_start": 84,
       "source_line_end": 85,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TopologicalBranch",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/topological-branch/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/topological-branch/",
       "source_line_start": 101,
       "source_line_end": 116,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D240"
       ]
@@ -95,37 +107,45 @@
     {
       "kind": "def",
       "name": "topological_branch",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/topological-branch-l118/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/topological-branch-l118/",
       "source_line_start": 118,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "two_topological_regimes",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/two-topological-regimes/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/two-topological-regimes/",
       "source_line_start": 120,
       "source_line_end": 121,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "topological_distinguished_by_em",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/topological-distinguished-by-em/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/topological-distinguished-by-em/",
       "source_line_start": 123,
       "source_line_end": 124,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiberBaseFactorization",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization/",
       "source_line_start": 149,
       "source_line_end": 162,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T94"
       ]
@@ -133,37 +153,45 @@
     {
       "kind": "def",
       "name": "fiber_base_factorization",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization-l164/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization-l164/",
       "source_line_start": 164,
       "source_line_end": 164,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "factorization_exact",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/factorization-exact/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/factorization-exact/",
       "source_line_start": 166,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coupling_through_omega",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/coupling-through-omega/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/coupling-through-omega/",
       "source_line_start": 169,
       "source_line_end": 170,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiberLevelComplete",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete/",
       "source_line_start": 192,
       "source_line_end": 203,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P144"
       ]
@@ -171,145 +199,177 @@
     {
       "kind": "def",
       "name": "fiber_level_complete",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete-l205/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete-l205/",
       "source_line_start": 205,
       "source_line_end": 205,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fiber_all_classified",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-all-classified/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-all-classified/",
       "source_line_start": 207,
       "source_line_end": 208,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fiber_five_parts",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-five-parts/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-five-parts/",
       "source_line_start": 210,
       "source_line_end": 211,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fiber_parts_count",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-parts-count/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-parts-count/",
       "source_line_start": 213,
       "source_line_end": 214,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "RegimeSummary",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/regime-summary/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/regime-summary/",
       "source_line_start": 226,
       "source_line_end": 233,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "regime_summary_table",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/regime-summary-table/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/regime-summary-table/",
       "source_line_start": 236,
       "source_line_end": 247,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ten_regimes_total",
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/ten-regimes-total/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/ten-regimes-total/",
       "source_line_start": 249,
       "source_line_end": 250,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l256/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l256/",
       "source_line_start": 256,
       "source_line_end": 256,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l257/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l257/",
       "source_line_start": 257,
       "source_line_end": 257,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l258/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l258/",
       "source_line_start": 258,
       "source_line_end": 258,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l259/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l259/",
       "source_line_start": 259,
       "source_line_end": 259,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l260/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l261/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l261/",
       "source_line_start": 261,
       "source_line_end": 261,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l262/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l263/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l263/",
       "source_line_start": 263,
       "source_line_end": 263,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l264/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 266,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -321,7 +381,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -396,35 +456,35 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [MeltingSequenceMobility](/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-mobility/) | L64-L74 | defined | `IV.P143` |
-| `def` | [melting_sequence](/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence/) | L76-L76 | defined | — |
-| `theorem` | [six_nontopo_regimes](/verify/taulib/docs/book-iv-many-body-condensed-matter/six-nontopo-regimes/) | L78-L79 | formalized | — |
-| `theorem` | [melting_monotone](/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-monotone/) | L81-L82 | formalized | — |
-| `theorem` | [melting_sequence_count](/verify/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-count/) | L84-L85 | formalized | — |
-| `structure` | [TopologicalBranch](/verify/taulib/docs/book-iv-many-body-condensed-matter/topological-branch/) | L101-L116 | defined | `IV.D240` |
-| `def` | [topological_branch](/verify/taulib/docs/book-iv-many-body-condensed-matter/topological-branch-l118/) | L118-L118 | defined | — |
-| `theorem` | [two_topological_regimes](/verify/taulib/docs/book-iv-many-body-condensed-matter/two-topological-regimes/) | L120-L121 | formalized | — |
-| `theorem` | [topological_distinguished_by_em](/verify/taulib/docs/book-iv-many-body-condensed-matter/topological-distinguished-by-em/) | L123-L124 | formalized | — |
-| `structure` | [FiberBaseFactorization](/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization/) | L149-L162 | defined | `IV.T94` |
-| `def` | [fiber_base_factorization](/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization-l164/) | L164-L164 | defined | — |
-| `theorem` | [factorization_exact](/verify/taulib/docs/book-iv-many-body-condensed-matter/factorization-exact/) | L166-L167 | formalized | — |
-| `theorem` | [coupling_through_omega](/verify/taulib/docs/book-iv-many-body-condensed-matter/coupling-through-omega/) | L169-L170 | formalized | — |
-| `structure` | [FiberLevelComplete](/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete/) | L192-L203 | defined | `IV.P144` |
-| `def` | [fiber_level_complete](/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete-l205/) | L205-L205 | defined | — |
-| `theorem` | [fiber_all_classified](/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-all-classified/) | L207-L208 | formalized | — |
-| `theorem` | [fiber_five_parts](/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-five-parts/) | L210-L211 | formalized | — |
-| `theorem` | [fiber_parts_count](/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-parts-count/) | L213-L214 | formalized | — |
-| `structure` | [RegimeSummary](/verify/taulib/docs/book-iv-many-body-condensed-matter/regime-summary/) | L226-L233 | defined | — |
-| `def` | [regime_summary_table](/verify/taulib/docs/book-iv-many-body-condensed-matter/regime-summary-table/) | L236-L247 | defined | — |
-| `theorem` | [ten_regimes_total](/verify/taulib/docs/book-iv-many-body-condensed-matter/ten-regimes-total/) | L249-L250 | formalized | — |
-| `eval` | [#eval L256](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l256/) | L256-L256 | computed | — |
-| `eval` | [#eval L257](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l257/) | L257-L257 | computed | — |
-| `eval` | [#eval L258](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l258/) | L258-L258 | computed | — |
-| `eval` | [#eval L259](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l259/) | L259-L259 | computed | — |
-| `eval` | [#eval L260](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l260/) | L260-L260 | computed | — |
-| `eval` | [#eval L261](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l261/) | L261-L261 | computed | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l262/) | L262-L262 | computed | — |
-| `eval` | [#eval L263](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l263/) | L263-L263 | computed | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l264/) | L264-L266 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [MeltingSequenceMobility](/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-mobility/) | L64-L74 | type/data schema | type/data schema | `IV.P143` |
+| `def` | [melting_sequence](/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence/) | L76-L76 | definition | definition | — |
+| `theorem` | [six_nontopo_regimes](/corpus/taulib/docs/book-iv-many-body-condensed-matter/six-nontopo-regimes/) | L78-L79 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [melting_monotone](/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-monotone/) | L81-L82 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [melting_sequence_count](/corpus/taulib/docs/book-iv-many-body-condensed-matter/melting-sequence-count/) | L84-L85 | proof obligation | formal proof obligation checked | — |
+| `structure` | [TopologicalBranch](/corpus/taulib/docs/book-iv-many-body-condensed-matter/topological-branch/) | L101-L116 | type/data schema | type/data schema | `IV.D240` |
+| `def` | [topological_branch](/corpus/taulib/docs/book-iv-many-body-condensed-matter/topological-branch-l118/) | L118-L118 | definition | definition | — |
+| `theorem` | [two_topological_regimes](/corpus/taulib/docs/book-iv-many-body-condensed-matter/two-topological-regimes/) | L120-L121 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [topological_distinguished_by_em](/corpus/taulib/docs/book-iv-many-body-condensed-matter/topological-distinguished-by-em/) | L123-L124 | proof obligation | formal proof obligation checked | — |
+| `structure` | [FiberBaseFactorization](/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization/) | L149-L162 | type/data schema | type/data schema | `IV.T94` |
+| `def` | [fiber_base_factorization](/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization-l164/) | L164-L164 | definition | definition | — |
+| `theorem` | [factorization_exact](/corpus/taulib/docs/book-iv-many-body-condensed-matter/factorization-exact/) | L166-L167 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coupling_through_omega](/corpus/taulib/docs/book-iv-many-body-condensed-matter/coupling-through-omega/) | L169-L170 | proof obligation | formal proof obligation checked | — |
+| `structure` | [FiberLevelComplete](/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete/) | L192-L203 | type/data schema | type/data schema | `IV.P144` |
+| `def` | [fiber_level_complete](/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-level-complete-l205/) | L205-L205 | definition | definition | — |
+| `theorem` | [fiber_all_classified](/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-all-classified/) | L207-L208 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fiber_five_parts](/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-five-parts/) | L210-L211 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fiber_parts_count](/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-parts-count/) | L213-L214 | proof obligation | formal proof obligation checked | — |
+| `structure` | [RegimeSummary](/corpus/taulib/docs/book-iv-many-body-condensed-matter/regime-summary/) | L226-L233 | type/data schema | type/data schema | — |
+| `def` | [regime_summary_table](/corpus/taulib/docs/book-iv-many-body-condensed-matter/regime-summary-table/) | L236-L247 | data/computed value | data/computed value | — |
+| `theorem` | [ten_regimes_total](/corpus/taulib/docs/book-iv-many-body-condensed-matter/ten-regimes-total/) | L249-L250 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L256](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l256/) | L256-L256 | computed check | computed check | — |
+| `eval` | [#eval L257](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l257/) | L257-L257 | computed check | computed check | — |
+| `eval` | [#eval L258](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l258/) | L258-L258 | computed check | computed check | — |
+| `eval` | [#eval L259](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l259/) | L259-L259 | computed check | computed check | — |
+| `eval` | [#eval L260](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l260/) | L260-L260 | computed check | computed check | — |
+| `eval` | [#eval L261](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l261/) | L261-L261 | computed check | computed check | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l262/) | L262-L262 | computed check | computed check | — |
+| `eval` | [#eval L263](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l263/) | L263-L263 | computed check | computed check | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l264/) | L264-L266 | computed check | computed check | — |

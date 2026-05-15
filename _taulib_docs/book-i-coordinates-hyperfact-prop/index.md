@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Coordinates.HyperfactProp",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Coordinates.HyperfactProp`.",
   "module_name": "TauLib.BookI.Coordinates.HyperfactProp",
   "module_slug": "book-i-coordinates-hyperfact-prop",
@@ -32,37 +32,45 @@
     {
       "kind": "def",
       "name": "IsHyperfactWitness",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/is-hyperfact-witness/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/is-hyperfact-witness/",
       "source_line_start": 73,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hyperfact_BC_unique",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bc-unique/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bc-unique/",
       "source_line_start": 85,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hyperfact_D_unique_of_BC",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-d-unique-of-bc/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-d-unique-of-bc/",
       "source_line_start": 108,
       "source_line_end": 114,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hyperfact_BCD_unique",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bcd-unique/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bcd-unique/",
       "source_line_start": 126,
       "source_line_end": 137,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -74,7 +82,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -144,9 +152,9 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [IsHyperfactWitness](/verify/taulib/docs/book-i-coordinates-hyperfact-prop/is-hyperfact-witness/) | L73-L76 | defined | — |
-| `theorem` | [hyperfact_BC_unique](/verify/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bc-unique/) | L85-L100 | formalized | — |
-| `theorem` | [hyperfact_D_unique_of_BC](/verify/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-d-unique-of-bc/) | L108-L114 | formalized | — |
-| `theorem` | [hyperfact_BCD_unique](/verify/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bcd-unique/) | L126-L137 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [IsHyperfactWitness](/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/is-hyperfact-witness/) | L73-L76 | definition | definition | — |
+| `theorem` | [hyperfact_BC_unique](/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bc-unique/) | L85-L100 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hyperfact_D_unique_of_BC](/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-d-unique-of-bc/) | L108-L114 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hyperfact_BCD_unique](/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-bcd-unique/) | L126-L137 | proof obligation | formal proof obligation checked | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "indef_sig",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-causal-structure/indef-sig/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-causal-structure/indef-sig/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Geometry.CausalStructure`.",
   "declaration_id": "TauLib.BookII.Geometry.CausalStructure::indef_sig",
   "declaration_slug": "indef-sig",
   "kind": "theorem",
   "name": "indef_sig",
   "module_name": "TauLib.BookII.Geometry.CausalStructure",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-causal-structure/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/",
   "source_line_start": 190,
   "source_line_end": 190,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/CausalStructure.lean#L190-L190",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.CausalStructure",
-        "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.CausalStructure](/verify/taulib/docs/book-ii-geometry-causal-structure/)
+- Module: [TauLib.BookII.Geometry.CausalStructure](/corpus/taulib/docs/book-ii-geometry-causal-structure/)
 - Source path: [`TauLib/BookII/Geometry/CausalStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/CausalStructure.lean#L190-L190)
 - Source range: L190-L190
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pi_30",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-30/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-30/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.SieveInfrastructure`.",
   "declaration_id": "TauLib.BookIII.Spectral.SieveInfrastructure::pi_30",
   "declaration_slug": "pi-30",
   "kind": "theorem",
   "name": "pi_30",
   "module_name": "TauLib.BookIII.Spectral.SieveInfrastructure",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/",
   "source_line_start": 297,
   "source_line_end": 297,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/SieveInfrastructure.lean#L297-L297",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.SieveInfrastructure",
-        "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.SieveInfrastructure](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/)
+- Module: [TauLib.BookIII.Spectral.SieveInfrastructure](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/)
 - Source path: [`TauLib/BookIII/Spectral/SieveInfrastructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/SieveInfrastructure.lean#L297-L297)
 - Source range: L297-L297
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

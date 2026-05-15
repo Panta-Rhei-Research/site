@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Physics.InternalEquations",
-  "permalink": "/verify/taulib/docs/book-iv-physics-internal-equations/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-internal-equations/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Physics.InternalEquations`.",
   "module_name": "TauLib.BookIV.Physics.InternalEquations",
   "module_slug": "book-iv-physics-internal-equations",
@@ -37,10 +37,12 @@
     {
       "kind": "inductive",
       "name": "EquationLayer",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/equation-layer/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/equation-layer/",
       "source_line_start": 55,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D324"
       ]
@@ -48,10 +50,12 @@
     {
       "kind": "structure",
       "name": "InternalIdentity",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/internal-identity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/internal-identity/",
       "source_line_start": 82,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D323"
       ]
@@ -59,55 +63,67 @@
     {
       "kind": "def",
       "name": "mass_ratio_identity",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-identity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-identity/",
       "source_line_start": 104,
       "source_line_end": 110,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "alpha_identity",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/alpha-identity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/alpha-identity/",
       "source_line_start": 115,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "gravity_coupling_identity",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/gravity-coupling-identity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/gravity-coupling-identity/",
       "source_line_start": 127,
       "source_line_end": 133,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "temporal_complement_identity",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/temporal-complement-identity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/temporal-complement-identity/",
       "source_line_start": 138,
       "source_line_end": 144,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "confinement_identity",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/confinement-identity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/confinement-identity/",
       "source_line_start": 149,
       "source_line_end": 155,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "internal_identity_dimensionless",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/internal-identity-dimensionless/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/internal-identity-dimensionless/",
       "source_line_start": 163,
       "source_line_end": 169,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P176"
       ]
@@ -115,10 +131,12 @@
     {
       "kind": "theorem",
       "name": "mass_ratio_internal",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-internal/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-internal/",
       "source_line_start": 173,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T127"
       ]
@@ -126,55 +144,67 @@
     {
       "kind": "theorem",
       "name": "all_from_iota",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/all-from-iota/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/all-from-iota/",
       "source_line_start": 177,
       "source_line_end": 183,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mass_ratio_strong_sector",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-strong-sector/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-strong-sector/",
       "source_line_start": 186,
       "source_line_end": 189,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha_em_sector",
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/alpha-em-sector/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/alpha-em-sector/",
       "source_line_start": 192,
       "source_line_end": 195,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/eval-l201/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/eval-l201/",
       "source_line_start": 201,
       "source_line_end": 201,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/eval-l202/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/eval-l202/",
       "source_line_start": 202,
       "source_line_end": 202,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-internal-equations/eval-l203/",
+      "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/eval-l203/",
       "source_line_start": 203,
       "source_line_end": 205,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -186,7 +216,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -261,20 +291,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [EquationLayer](/verify/taulib/docs/book-iv-physics-internal-equations/equation-layer/) | L55-L69 | defined | `IV.D324` |
-| `structure` | [InternalIdentity](/verify/taulib/docs/book-iv-physics-internal-equations/internal-identity/) | L82-L95 | defined | `IV.D323` |
-| `def` | [mass_ratio_identity](/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-identity/) | L104-L110 | defined | — |
-| `def` | [alpha_identity](/verify/taulib/docs/book-iv-physics-internal-equations/alpha-identity/) | L115-L121 | defined | — |
-| `def` | [gravity_coupling_identity](/verify/taulib/docs/book-iv-physics-internal-equations/gravity-coupling-identity/) | L127-L133 | defined | — |
-| `def` | [temporal_complement_identity](/verify/taulib/docs/book-iv-physics-internal-equations/temporal-complement-identity/) | L138-L144 | defined | — |
-| `def` | [confinement_identity](/verify/taulib/docs/book-iv-physics-internal-equations/confinement-identity/) | L149-L155 | defined | — |
-| `theorem` | [internal_identity_dimensionless](/verify/taulib/docs/book-iv-physics-internal-equations/internal-identity-dimensionless/) | L163-L169 | formalized | `IV.P176` |
-| `theorem` | [mass_ratio_internal](/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-internal/) | L173-L174 | formalized | `IV.T127` |
-| `theorem` | [all_from_iota](/verify/taulib/docs/book-iv-physics-internal-equations/all-from-iota/) | L177-L183 | formalized | — |
-| `theorem` | [mass_ratio_strong_sector](/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-strong-sector/) | L186-L189 | formalized | — |
-| `theorem` | [alpha_em_sector](/verify/taulib/docs/book-iv-physics-internal-equations/alpha-em-sector/) | L192-L195 | formalized | — |
-| `eval` | [#eval L201](/verify/taulib/docs/book-iv-physics-internal-equations/eval-l201/) | L201-L201 | computed | — |
-| `eval` | [#eval L202](/verify/taulib/docs/book-iv-physics-internal-equations/eval-l202/) | L202-L202 | computed | — |
-| `eval` | [#eval L203](/verify/taulib/docs/book-iv-physics-internal-equations/eval-l203/) | L203-L205 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [EquationLayer](/corpus/taulib/docs/book-iv-physics-internal-equations/equation-layer/) | L55-L69 | type/data schema | type/data schema | `IV.D324` |
+| `structure` | [InternalIdentity](/corpus/taulib/docs/book-iv-physics-internal-equations/internal-identity/) | L82-L95 | type/data schema | type/data schema | `IV.D323` |
+| `def` | [mass_ratio_identity](/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-identity/) | L104-L110 | data/computed value | data/computed value | — |
+| `def` | [alpha_identity](/corpus/taulib/docs/book-iv-physics-internal-equations/alpha-identity/) | L115-L121 | data/computed value | data/computed value | — |
+| `def` | [gravity_coupling_identity](/corpus/taulib/docs/book-iv-physics-internal-equations/gravity-coupling-identity/) | L127-L133 | data/computed value | data/computed value | — |
+| `def` | [temporal_complement_identity](/corpus/taulib/docs/book-iv-physics-internal-equations/temporal-complement-identity/) | L138-L144 | data/computed value | data/computed value | — |
+| `def` | [confinement_identity](/corpus/taulib/docs/book-iv-physics-internal-equations/confinement-identity/) | L149-L155 | data/computed value | data/computed value | — |
+| `theorem` | [internal_identity_dimensionless](/corpus/taulib/docs/book-iv-physics-internal-equations/internal-identity-dimensionless/) | L163-L169 | proof obligation | formal proof obligation checked | `IV.P176` |
+| `theorem` | [mass_ratio_internal](/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-internal/) | L173-L174 | proof obligation | formal proof obligation checked | `IV.T127` |
+| `theorem` | [all_from_iota](/corpus/taulib/docs/book-iv-physics-internal-equations/all-from-iota/) | L177-L183 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mass_ratio_strong_sector](/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-strong-sector/) | L186-L189 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [alpha_em_sector](/corpus/taulib/docs/book-iv-physics-internal-equations/alpha-em-sector/) | L192-L195 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L201](/corpus/taulib/docs/book-iv-physics-internal-equations/eval-l201/) | L201-L201 | computed check | computed check | — |
+| `eval` | [#eval L202](/corpus/taulib/docs/book-iv-physics-internal-equations/eval-l202/) | L202-L202 | computed check | computed check | — |
+| `eval` | [#eval L203](/corpus/taulib/docs/book-iv-physics-internal-equations/eval-l203/) | L203-L205 | computed check | computed check | — |

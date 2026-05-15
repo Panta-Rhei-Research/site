@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AlphaPrecisionBarrier",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.AlphaDerivation`.",
   "declaration_id": "TauLib.BookIV.Electroweak.AlphaDerivation::AlphaPrecisionBarrier",
   "declaration_slug": "alpha-precision-barrier",
   "kind": "structure",
   "name": "AlphaPrecisionBarrier",
   "module_name": "TauLib.BookIV.Electroweak.AlphaDerivation",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/",
   "source_line_start": 471,
   "source_line_end": 478,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L471-L478",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.AlphaDerivation",
-        "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/)
+- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/)
 - Source path: [`TauLib/BookIV/Electroweak/AlphaDerivation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L471-L478)
 - Source range: L471-L478
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

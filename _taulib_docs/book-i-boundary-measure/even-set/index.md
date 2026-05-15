@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "even_set",
-  "permalink": "/verify/taulib/docs/book-i-boundary-measure/even-set/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-measure/even-set/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Measure`.",
   "declaration_id": "TauLib.BookI.Boundary.Measure::even_set",
   "declaration_slug": "even-set",
   "kind": "def",
   "name": "even_set",
   "module_name": "TauLib.BookI.Boundary.Measure",
-  "module_url": "/verify/taulib/docs/book-i-boundary-measure/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-measure/",
   "source_line_start": 169,
   "source_line_end": 170,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Measure.lean#L169-L170",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Measure",
-        "url": "/verify/taulib/docs/book-i-boundary-measure/"
+        "url": "/corpus/taulib/docs/book-i-boundary-measure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Measure](/verify/taulib/docs/book-i-boundary-measure/)
+- Module: [TauLib.BookI.Boundary.Measure](/corpus/taulib/docs/book-i-boundary-measure/)
 - Source path: [`TauLib/BookI/Boundary/Measure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Measure.lean#L169-L170)
 - Source range: L169-L170
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

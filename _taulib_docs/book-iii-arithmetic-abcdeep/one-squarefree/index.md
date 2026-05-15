@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "one_squarefree",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-abcdeep/one-squarefree/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-abcdeep/one-squarefree/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.ABCDeep`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.ABCDeep::one_squarefree",
   "declaration_slug": "one-squarefree",
   "kind": "theorem",
   "name": "one_squarefree",
   "module_name": "TauLib.BookIII.Arithmetic.ABCDeep",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-abcdeep/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-abcdeep/",
   "source_line_start": 220,
   "source_line_end": 220,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ABCDeep.lean#L220-L220",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.ABCDeep",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-abcdeep/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-abcdeep/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.ABCDeep](/verify/taulib/docs/book-iii-arithmetic-abcdeep/)
+- Module: [TauLib.BookIII.Arithmetic.ABCDeep](/corpus/taulib/docs/book-iii-arithmetic-abcdeep/)
 - Source path: [`TauLib/BookIII/Arithmetic/ABCDeep.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ABCDeep.lean#L220-L220)
 - Source range: L220-L220
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

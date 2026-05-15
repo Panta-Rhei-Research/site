@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "base_diverges",
-  "permalink": "/verify/taulib/docs/book-ii-interior-omega-readout/base-diverges/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-omega-readout/base-diverges/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Interior.OmegaReadout`.",
   "declaration_id": "TauLib.BookII.Interior.OmegaReadout::base_diverges",
   "declaration_slug": "base-diverges",
   "kind": "theorem",
   "name": "base_diverges",
   "module_name": "TauLib.BookII.Interior.OmegaReadout",
-  "module_url": "/verify/taulib/docs/book-ii-interior-omega-readout/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-omega-readout/",
   "source_line_start": 163,
   "source_line_end": 163,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/OmegaReadout.lean#L163-L163",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.OmegaReadout",
-        "url": "/verify/taulib/docs/book-ii-interior-omega-readout/"
+        "url": "/corpus/taulib/docs/book-ii-interior-omega-readout/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.OmegaReadout](/verify/taulib/docs/book-ii-interior-omega-readout/)
+- Module: [TauLib.BookII.Interior.OmegaReadout](/corpus/taulib/docs/book-ii-interior-omega-readout/)
 - Source path: [`TauLib/BookII/Interior/OmegaReadout.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/OmegaReadout.lean#L163-L163)
 - Source range: L163-L163
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

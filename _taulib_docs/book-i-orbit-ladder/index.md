@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Orbit.Ladder",
-  "permalink": "/verify/taulib/docs/book-i-orbit-ladder/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-ladder/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Orbit.Ladder`.",
   "module_name": "TauLib.BookI.Orbit.Ladder",
   "module_slug": "book-i-orbit-ladder",
@@ -38,10 +38,12 @@
     {
       "kind": "inductive",
       "name": "LadderLevel",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/ladder-level/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/ladder-level/",
       "source_line_start": 43,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D06"
       ]
@@ -49,73 +51,89 @@
     {
       "kind": "def",
       "name": "tetration",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/tetration/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/tetration/",
       "source_line_start": 52,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "ladderOp",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/ladder-op/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/ladder-op/",
       "source_line_start": 57,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "ladderChannel",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/ladder-channel/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/ladder-channel/",
       "source_line_start": 67,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "add_injective",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/add-injective/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/add-injective/",
       "source_line_start": 79,
       "source_line_end": 82,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mul_injective",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/mul-injective/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/mul-injective/",
       "source_line_start": 85,
       "source_line_end": 103,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "exp_injective",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/exp-injective/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/exp-injective/",
       "source_line_start": 106,
       "source_line_end": 117,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "available_channels",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/available-channels/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/available-channels/",
       "source_line_start": 124,
       "source_line_end": 125,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "pentation_channel_exhaustion",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/pentation-channel-exhaustion/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/pentation-channel-exhaustion/",
       "source_line_start": 132,
       "source_line_end": 134,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.L01"
       ]
@@ -123,10 +141,12 @@
     {
       "kind": "theorem",
       "name": "ladder_saturation",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/ladder-saturation/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/ladder-saturation/",
       "source_line_start": 142,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T02"
       ]
@@ -134,19 +154,23 @@
     {
       "kind": "theorem",
       "name": "ladder_channels_assigned",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/ladder-channels-assigned/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/ladder-channels-assigned/",
       "source_line_start": 147,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ladder_channels_distinct",
-      "url": "/verify/taulib/docs/book-i-orbit-ladder/ladder-channels-distinct/",
+      "url": "/corpus/taulib/docs/book-i-orbit-ladder/ladder-channels-distinct/",
       "source_line_start": 154,
       "source_line_end": 158,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -158,7 +182,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -234,17 +258,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [LadderLevel](/verify/taulib/docs/book-i-orbit-ladder/ladder-level/) | L43-L49 | defined | `I.D06` |
-| `def` | [tetration](/verify/taulib/docs/book-i-orbit-ladder/tetration/) | L52-L54 | defined | — |
-| `def` | [ladderOp](/verify/taulib/docs/book-i-orbit-ladder/ladder-op/) | L57-L62 | defined | — |
-| `def` | [ladderChannel](/verify/taulib/docs/book-i-orbit-ladder/ladder-channel/) | L67-L72 | defined | — |
-| `theorem` | [add_injective](/verify/taulib/docs/book-i-orbit-ladder/add-injective/) | L79-L82 | formalized | — |
-| `theorem` | [mul_injective](/verify/taulib/docs/book-i-orbit-ladder/mul-injective/) | L85-L103 | formalized | — |
-| `theorem` | [exp_injective](/verify/taulib/docs/book-i-orbit-ladder/exp-injective/) | L106-L117 | formalized | — |
-| `theorem` | [available_channels](/verify/taulib/docs/book-i-orbit-ladder/available-channels/) | L124-L125 | formalized | — |
-| `theorem` | [pentation_channel_exhaustion](/verify/taulib/docs/book-i-orbit-ladder/pentation-channel-exhaustion/) | L132-L134 | formalized | `I.L01` |
-| `theorem` | [ladder_saturation](/verify/taulib/docs/book-i-orbit-ladder/ladder-saturation/) | L142-L144 | formalized | `I.T02` |
-| `theorem` | [ladder_channels_assigned](/verify/taulib/docs/book-i-orbit-ladder/ladder-channels-assigned/) | L147-L151 | formalized | — |
-| `theorem` | [ladder_channels_distinct](/verify/taulib/docs/book-i-orbit-ladder/ladder-channels-distinct/) | L154-L158 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [LadderLevel](/corpus/taulib/docs/book-i-orbit-ladder/ladder-level/) | L43-L49 | type/data schema | type/data schema | `I.D06` |
+| `def` | [tetration](/corpus/taulib/docs/book-i-orbit-ladder/tetration/) | L52-L54 | data/computed value | data/computed value | — |
+| `def` | [ladderOp](/corpus/taulib/docs/book-i-orbit-ladder/ladder-op/) | L57-L62 | definition | definition | — |
+| `def` | [ladderChannel](/corpus/taulib/docs/book-i-orbit-ladder/ladder-channel/) | L67-L72 | definition | definition | — |
+| `theorem` | [add_injective](/corpus/taulib/docs/book-i-orbit-ladder/add-injective/) | L79-L82 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mul_injective](/corpus/taulib/docs/book-i-orbit-ladder/mul-injective/) | L85-L103 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [exp_injective](/corpus/taulib/docs/book-i-orbit-ladder/exp-injective/) | L106-L117 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [available_channels](/corpus/taulib/docs/book-i-orbit-ladder/available-channels/) | L124-L125 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [pentation_channel_exhaustion](/corpus/taulib/docs/book-i-orbit-ladder/pentation-channel-exhaustion/) | L132-L134 | proof obligation | formal proof obligation checked | `I.L01` |
+| `theorem` | [ladder_saturation](/corpus/taulib/docs/book-i-orbit-ladder/ladder-saturation/) | L142-L144 | proof obligation | formal proof obligation checked | `I.T02` |
+| `theorem` | [ladder_channels_assigned](/corpus/taulib/docs/book-i-orbit-ladder/ladder-channels-assigned/) | L147-L151 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ladder_channels_distinct](/corpus/taulib/docs/book-i-orbit-ladder/ladder-channels-distinct/) | L154-L158 | proof obligation | formal proof obligation checked | — |

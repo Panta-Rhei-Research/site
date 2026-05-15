@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_dark_matter_icm",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/no-dark-matter-icm/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/no-dark-matter-icm/",
   "summary_short": "`def` declaration in `TauLib.BookV.FluidMacro.TauPlasma`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauPlasma::no_dark_matter_icm",
   "declaration_slug": "no-dark-matter-icm",
   "kind": "def",
   "name": "no_dark_matter_icm",
   "module_name": "TauLib.BookV.FluidMacro.TauPlasma",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/",
   "source_line_start": 260,
   "source_line_end": 262,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauPlasma.lean#L260-L262",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauPlasma",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauPlasma](/verify/taulib/docs/book-v-fluid-macro-tau-plasma/)
+- Module: [TauLib.BookV.FluidMacro.TauPlasma](/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/)
 - Source path: [`TauLib/BookV/FluidMacro/TauPlasma.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauPlasma.lean#L260-L262)
 - Source range: L260-L262
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

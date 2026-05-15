@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "four_quantities_depend",
-  "permalink": "/verify/taulib/docs/book-iv-particles-beta-decay/four-quantities-depend/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-beta-decay/four-quantities-depend/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Particles.BetaDecay`.",
   "declaration_id": "TauLib.BookIV.Particles.BetaDecay::four_quantities_depend",
   "declaration_slug": "four-quantities-depend",
   "kind": "theorem",
   "name": "four_quantities_depend",
   "module_name": "TauLib.BookIV.Particles.BetaDecay",
-  "module_url": "/verify/taulib/docs/book-iv-particles-beta-decay/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-beta-decay/",
   "source_line_start": 330,
   "source_line_end": 330,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L330-L330",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.BetaDecay",
-        "url": "/verify/taulib/docs/book-iv-particles-beta-decay/"
+        "url": "/corpus/taulib/docs/book-iv-particles-beta-decay/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.BetaDecay](/verify/taulib/docs/book-iv-particles-beta-decay/)
+- Module: [TauLib.BookIV.Particles.BetaDecay](/corpus/taulib/docs/book-iv-particles-beta-decay/)
 - Source path: [`TauLib/BookIV/Particles/BetaDecay.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L330-L330)
 - Source range: L330-L330
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

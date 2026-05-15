@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauConnection",
-  "permalink": "/verify/taulib/docs/book-ii-closure-connection/tau-connection/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-connection/tau-connection/",
   "summary_short": "`structure` declaration in `TauLib.BookII.Closure.Connection`.",
   "declaration_id": "TauLib.BookII.Closure.Connection::TauConnection",
   "declaration_slug": "tau-connection",
   "kind": "structure",
   "name": "TauConnection",
   "module_name": "TauLib.BookII.Closure.Connection",
-  "module_url": "/verify/taulib/docs/book-ii-closure-connection/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-connection/",
   "source_line_start": 54,
   "source_line_end": 55,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/Connection.lean#L54-L55",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.Connection",
-        "url": "/verify/taulib/docs/book-ii-closure-connection/"
+        "url": "/corpus/taulib/docs/book-ii-closure-connection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.Connection](/verify/taulib/docs/book-ii-closure-connection/)
+- Module: [TauLib.BookII.Closure.Connection](/corpus/taulib/docs/book-ii-closure-connection/)
 - Source path: [`TauLib/BookII/Closure/Connection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/Connection.lean#L54-L55)
 - Source range: L54-L55
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

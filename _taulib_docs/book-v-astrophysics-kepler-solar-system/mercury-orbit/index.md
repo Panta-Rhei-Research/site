@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mercury_orbit",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/mercury-orbit/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/mercury-orbit/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.KeplerSolarSystem`.",
   "declaration_id": "TauLib.BookV.Astrophysics.KeplerSolarSystem::mercury_orbit",
   "declaration_slug": "mercury-orbit",
   "kind": "def",
   "name": "mercury_orbit",
   "module_name": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/",
   "source_line_start": 106,
   "source_line_end": 112,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L106-L112",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-        "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/)
+- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/)
 - Source path: [`TauLib/BookV/Astrophysics/KeplerSolarSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L106-L112)
 - Source range: L106-L112
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

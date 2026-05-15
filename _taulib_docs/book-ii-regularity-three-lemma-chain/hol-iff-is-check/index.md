@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hol_iff_is_check",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Regularity.ThreeLemmaChain`.",
   "declaration_id": "TauLib.BookII.Regularity.ThreeLemmaChain::hol_iff_is_check",
   "declaration_slug": "hol-iff-is-check",
   "kind": "def",
   "name": "hol_iff_is_check",
   "module_name": "TauLib.BookII.Regularity.ThreeLemmaChain",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/",
   "source_line_start": 299,
   "source_line_end": 303,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/ThreeLemmaChain.lean#L299-L303",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.ThreeLemmaChain",
-        "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.ThreeLemmaChain](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/)
+- Module: [TauLib.BookII.Regularity.ThreeLemmaChain](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/)
 - Source path: [`TauLib/BookII/Regularity/ThreeLemmaChain.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/ThreeLemmaChain.lean#L299-L303)
 - Source range: L299-L303
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

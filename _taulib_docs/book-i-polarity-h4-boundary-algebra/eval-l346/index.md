@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L346",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/eval-l346/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/eval-l346/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Polarity.H4BoundaryAlgebra`.",
   "declaration_id": "TauLib.BookI.Polarity.H4BoundaryAlgebra::#eval:346",
   "declaration_slug": "eval-l346",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/",
   "source_line_start": 346,
   "source_line_end": 346,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L346-L346",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-        "url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/)
+- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/)
 - Source path: [`TauLib/BookI/Polarity/H4BoundaryAlgebra.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L346-L346)
 - Source range: L346-L346
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

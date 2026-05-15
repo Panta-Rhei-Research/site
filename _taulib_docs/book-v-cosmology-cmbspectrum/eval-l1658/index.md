@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L1658",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/eval-l1658/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/eval-l1658/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Cosmology.CMBSpectrum`.",
   "declaration_id": "TauLib.BookV.Cosmology.CMBSpectrum::#eval:1658",
   "declaration_slug": "eval-l1658",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Cosmology.CMBSpectrum",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/",
   "source_line_start": 1658,
   "source_line_end": 1658,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CMBSpectrum.lean#L1658-L1658",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.CMBSpectrum",
-        "url": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.CMBSpectrum](/verify/taulib/docs/book-v-cosmology-cmbspectrum/)
+- Module: [TauLib.BookV.Cosmology.CMBSpectrum](/corpus/taulib/docs/book-v-cosmology-cmbspectrum/)
 - Source path: [`TauLib/BookV/Cosmology/CMBSpectrum.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CMBSpectrum.lean#L1658-L1658)
 - Source range: L1658-L1658
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

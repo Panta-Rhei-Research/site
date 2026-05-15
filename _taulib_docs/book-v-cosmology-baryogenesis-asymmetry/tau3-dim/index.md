@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau3_dim",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/tau3-dim/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/tau3-dim/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.BaryogenesisAsymmetry`.",
   "declaration_id": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry::tau3_dim",
   "declaration_slug": "tau3-dim",
   "kind": "def",
   "name": "tau3_dim",
   "module_name": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/",
   "source_line_start": 76,
   "source_line_end": 76,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean#L76-L76",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry",
-        "url": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BaryogenesisAsymmetry](/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/)
+- Module: [TauLib.BookV.Cosmology.BaryogenesisAsymmetry](/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/)
 - Source path: [`TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean#L76-L76)
 - Source range: L76-L76
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

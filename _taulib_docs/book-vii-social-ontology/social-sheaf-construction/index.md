@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "social_sheaf_construction",
-  "permalink": "/verify/taulib/docs/book-vii-social-ontology/social-sheaf-construction/",
+  "permalink": "/corpus/taulib/docs/book-vii-social-ontology/social-sheaf-construction/",
   "summary_short": "`theorem` declaration in `TauLib.BookVII.Social.Ontology`.",
   "declaration_id": "TauLib.BookVII.Social.Ontology::social_sheaf_construction",
   "declaration_slug": "social-sheaf-construction",
   "kind": "theorem",
   "name": "social_sheaf_construction",
   "module_name": "TauLib.BookVII.Social.Ontology",
-  "module_url": "/verify/taulib/docs/book-vii-social-ontology/",
+  "module_url": "/corpus/taulib/docs/book-vii-social-ontology/",
   "source_line_start": 175,
   "source_line_end": 180,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Social/Ontology.lean#L175-L180",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Social.Ontology",
-        "url": "/verify/taulib/docs/book-vii-social-ontology/"
+        "url": "/corpus/taulib/docs/book-vii-social-ontology/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Social.Ontology](/verify/taulib/docs/book-vii-social-ontology/)
+- Module: [TauLib.BookVII.Social.Ontology](/corpus/taulib/docs/book-vii-social-ontology/)
 - Source path: [`TauLib/BookVII/Social/Ontology.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Social/Ontology.lean#L175-L180)
 - Source range: L175-L180
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

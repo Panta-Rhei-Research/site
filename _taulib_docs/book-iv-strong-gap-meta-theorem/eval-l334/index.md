@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L334",
-  "permalink": "/verify/taulib/docs/book-iv-strong-gap-meta-theorem/eval-l334/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/eval-l334/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Strong.GapMetaTheorem`.",
   "declaration_id": "TauLib.BookIV.Strong.GapMetaTheorem::#eval:334",
   "declaration_slug": "eval-l334",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Strong.GapMetaTheorem",
-  "module_url": "/verify/taulib/docs/book-iv-strong-gap-meta-theorem/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/",
   "source_line_start": 334,
   "source_line_end": 336,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/GapMetaTheorem.lean#L334-L336",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.GapMetaTheorem",
-        "url": "/verify/taulib/docs/book-iv-strong-gap-meta-theorem/"
+        "url": "/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.GapMetaTheorem](/verify/taulib/docs/book-iv-strong-gap-meta-theorem/)
+- Module: [TauLib.BookIV.Strong.GapMetaTheorem](/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/)
 - Source path: [`TauLib/BookIV/Strong/GapMetaTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/GapMetaTheorem.lean#L334-L336)
 - Source range: L334-L336
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

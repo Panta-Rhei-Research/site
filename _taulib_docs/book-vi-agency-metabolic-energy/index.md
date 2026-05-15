@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Agency.MetabolicEnergy",
-  "permalink": "/verify/taulib/docs/book-vi-agency-metabolic-energy/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Agency.MetabolicEnergy`.",
   "module_name": "TauLib.BookVI.Agency.MetabolicEnergy",
   "module_slug": "book-vi-agency-metabolic-energy",
@@ -34,10 +34,12 @@
     {
       "kind": "structure",
       "name": "ATPOscillation",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/atposcillation/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/atposcillation/",
       "source_line_start": 39,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D32"
       ]
@@ -45,19 +47,23 @@
     {
       "kind": "def",
       "name": "atp",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/atp/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/atp/",
       "source_line_start": 52,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CurrencyUniqueness",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/currency-uniqueness/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/currency-uniqueness/",
       "source_line_start": 65,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T19"
       ]
@@ -65,28 +71,34 @@
     {
       "kind": "def",
       "name": "currency_uniq",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/currency-uniq/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/currency-uniq/",
       "source_line_start": 80,
       "source_line_end": 82,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "atp_universality",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/atp-universality/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/atp-universality/",
       "source_line_start": 84,
       "source_line_end": 89,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MembraneAsLemniscate",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-as-lemniscate/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-as-lemniscate/",
       "source_line_start": 100,
       "source_line_end": 113,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D33"
       ]
@@ -94,37 +106,45 @@
     {
       "kind": "def",
       "name": "membrane",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane/",
       "source_line_start": 115,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "membrane_two_leaflets",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-two-leaflets/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-two-leaflets/",
       "source_line_start": 119,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "membrane_realizes_distinction",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-realizes-distinction/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-realizes-distinction/",
       "source_line_start": 122,
       "source_line_end": 123,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "KrebsCycleLoop",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop/",
       "source_line_start": 133,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P11"
       ]
@@ -132,28 +152,34 @@
     {
       "kind": "def",
       "name": "krebs",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/krebs/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/krebs/",
       "source_line_start": 144,
       "source_line_end": 146,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "krebs_cycle_loop",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop-l148/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop-l148/",
       "source_line_start": 148,
       "source_line_end": 152,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MembraneAssembly",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-assembly/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-assembly/",
       "source_line_start": 162,
       "source_line_end": 169,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P12"
       ]
@@ -161,19 +187,23 @@
     {
       "kind": "def",
       "name": "self_assembly",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/self-assembly/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/self-assembly/",
       "source_line_start": 171,
       "source_line_end": 171,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "membrane_self_assembly",
-      "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-self-assembly/",
+      "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-self-assembly/",
       "source_line_start": 173,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -185,7 +215,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -257,20 +287,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [ATPOscillation](/verify/taulib/docs/book-vi-agency-metabolic-energy/atposcillation/) | L39-L50 | defined | `VI.D32` |
-| `def` | [atp](/verify/taulib/docs/book-vi-agency-metabolic-energy/atp/) | L52-L54 | defined | — |
-| `structure` | [CurrencyUniqueness](/verify/taulib/docs/book-vi-agency-metabolic-energy/currency-uniqueness/) | L65-L78 | defined | `VI.T19` |
-| `def` | [currency_uniq](/verify/taulib/docs/book-vi-agency-metabolic-energy/currency-uniq/) | L80-L82 | defined | — |
-| `theorem` | [atp_universality](/verify/taulib/docs/book-vi-agency-metabolic-energy/atp-universality/) | L84-L89 | formalized | — |
-| `structure` | [MembraneAsLemniscate](/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-as-lemniscate/) | L100-L113 | defined | `VI.D33` |
-| `def` | [membrane](/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane/) | L115-L117 | defined | — |
-| `theorem` | [membrane_two_leaflets](/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-two-leaflets/) | L119-L120 | formalized | — |
-| `theorem` | [membrane_realizes_distinction](/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-realizes-distinction/) | L122-L123 | formalized | — |
-| `structure` | [KrebsCycleLoop](/verify/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop/) | L133-L142 | defined | `VI.P11` |
-| `def` | [krebs](/verify/taulib/docs/book-vi-agency-metabolic-energy/krebs/) | L144-L146 | defined | — |
-| `theorem` | [krebs_cycle_loop](/verify/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop-l148/) | L148-L152 | formalized | — |
-| `structure` | [MembraneAssembly](/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-assembly/) | L162-L169 | defined | `VI.P12` |
-| `def` | [self_assembly](/verify/taulib/docs/book-vi-agency-metabolic-energy/self-assembly/) | L171-L171 | defined | — |
-| `theorem` | [membrane_self_assembly](/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-self-assembly/) | L173-L179 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [ATPOscillation](/corpus/taulib/docs/book-vi-agency-metabolic-energy/atposcillation/) | L39-L50 | type/data schema | type/data schema | `VI.D32` |
+| `def` | [atp](/corpus/taulib/docs/book-vi-agency-metabolic-energy/atp/) | L52-L54 | definition | definition | — |
+| `structure` | [CurrencyUniqueness](/corpus/taulib/docs/book-vi-agency-metabolic-energy/currency-uniqueness/) | L65-L78 | type/data schema | type/data schema | `VI.T19` |
+| `def` | [currency_uniq](/corpus/taulib/docs/book-vi-agency-metabolic-energy/currency-uniq/) | L80-L82 | definition | definition | — |
+| `theorem` | [atp_universality](/corpus/taulib/docs/book-vi-agency-metabolic-energy/atp-universality/) | L84-L89 | proof obligation | formal proof obligation checked | — |
+| `structure` | [MembraneAsLemniscate](/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-as-lemniscate/) | L100-L113 | type/data schema | type/data schema | `VI.D33` |
+| `def` | [membrane](/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane/) | L115-L117 | definition | definition | — |
+| `theorem` | [membrane_two_leaflets](/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-two-leaflets/) | L119-L120 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [membrane_realizes_distinction](/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-realizes-distinction/) | L122-L123 | proof obligation | formal proof obligation checked | — |
+| `structure` | [KrebsCycleLoop](/corpus/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop/) | L133-L142 | type/data schema | type/data schema | `VI.P11` |
+| `def` | [krebs](/corpus/taulib/docs/book-vi-agency-metabolic-energy/krebs/) | L144-L146 | definition | definition | — |
+| `theorem` | [krebs_cycle_loop](/corpus/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop-l148/) | L148-L152 | proof obligation | formal proof obligation checked | — |
+| `structure` | [MembraneAssembly](/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-assembly/) | L162-L169 | type/data schema | type/data schema | `VI.P12` |
+| `def` | [self_assembly](/corpus/taulib/docs/book-vi-agency-metabolic-energy/self-assembly/) | L171-L171 | definition | definition | — |
+| `theorem` | [membrane_self_assembly](/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-self-assembly/) | L173-L179 | proof obligation | formal proof obligation checked | — |

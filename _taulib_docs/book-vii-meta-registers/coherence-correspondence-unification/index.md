@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coherence_correspondence_unification",
-  "permalink": "/verify/taulib/docs/book-vii-meta-registers/coherence-correspondence-unification/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-registers/coherence-correspondence-unification/",
   "summary_short": "`theorem` declaration in `TauLib.BookVII.Meta.Registers`.",
   "declaration_id": "TauLib.BookVII.Meta.Registers::coherence_correspondence_unification",
   "declaration_slug": "coherence-correspondence-unification",
   "kind": "theorem",
   "name": "coherence_correspondence_unification",
   "module_name": "TauLib.BookVII.Meta.Registers",
-  "module_url": "/verify/taulib/docs/book-vii-meta-registers/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-registers/",
   "source_line_start": 675,
   "source_line_end": 679,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L675-L679",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Registers",
-        "url": "/verify/taulib/docs/book-vii-meta-registers/"
+        "url": "/corpus/taulib/docs/book-vii-meta-registers/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Registers](/verify/taulib/docs/book-vii-meta-registers/)
+- Module: [TauLib.BookVII.Meta.Registers](/corpus/taulib/docs/book-vii-meta-registers/)
 - Source path: [`TauLib/BookVII/Meta/Registers.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L675-L679)
 - Source range: L675-L679
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

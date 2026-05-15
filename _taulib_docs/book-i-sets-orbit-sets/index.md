@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Sets.OrbitSets",
-  "permalink": "/verify/taulib/docs/book-i-sets-orbit-sets/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-orbit-sets/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Sets.OrbitSets`.",
   "module_name": "TauLib.BookI.Sets.OrbitSets",
   "module_slug": "book-i-sets-orbit-sets",
@@ -38,10 +38,12 @@
     {
       "kind": "def",
       "name": "orbit_set_alpha",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha/",
       "source_line_start": 58,
       "source_line_end": 66,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D94"
       ]
@@ -49,19 +51,23 @@
     {
       "kind": "theorem",
       "name": "orbit_set_alpha_eq_tau_mem",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-eq-tau-mem/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-eq-tau-mem/",
       "source_line_start": 76,
       "source_line_end": 78,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "orbit_set_pi",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi/",
       "source_line_start": 87,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D94"
       ]
@@ -69,10 +75,12 @@
     {
       "kind": "def",
       "name": "orbit_set_gamma",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma/",
       "source_line_start": 100,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D94"
       ]
@@ -80,10 +88,12 @@
     {
       "kind": "def",
       "name": "orbit_set_eta",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-eta/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-eta/",
       "source_line_start": 113,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D94"
       ]
@@ -91,10 +101,12 @@
     {
       "kind": "def",
       "name": "orbit_set_omega",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-omega/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-omega/",
       "source_line_start": 130,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D94"
       ]
@@ -102,37 +114,45 @@
     {
       "kind": "theorem",
       "name": "self_containment_alpha",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/self-containment-alpha/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/self-containment-alpha/",
       "source_line_start": 143,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "self_containment_omega",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/self-containment-omega/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/self-containment-omega/",
       "source_line_start": 148,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "not_self_containment_pi",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/not-self-containment-pi/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/not-self-containment-pi/",
       "source_line_start": 162,
       "source_line_end": 164,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_set_order_bound",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-order-bound/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-order-bound/",
       "source_line_start": 172,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P42"
       ]
@@ -140,10 +160,12 @@
     {
       "kind": "theorem",
       "name": "prime_atom",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/prime-atom/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/prime-atom/",
       "source_line_start": 183,
       "source_line_end": 191,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.R30"
       ]
@@ -151,37 +173,45 @@
     {
       "kind": "theorem",
       "name": "orbit_set_alpha_has_one",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-has-one/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-has-one/",
       "source_line_start": 199,
       "source_line_end": 200,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_set_alpha_bounded",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-bounded/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-bounded/",
       "source_line_start": 207,
       "source_line_end": 211,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha_orbit_set_not_all",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/alpha-orbit-set-not-all/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/alpha-orbit-set-not-all/",
       "source_line_start": 214,
       "source_line_end": 216,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "omega_orbit_set_exceeds_alpha",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/omega-orbit-set-exceeds-alpha/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/omega-orbit-set-exceeds-alpha/",
       "source_line_start": 220,
       "source_line_end": 222,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.R28"
       ]
@@ -189,10 +219,12 @@
     {
       "kind": "theorem",
       "name": "nat_not_internal_set",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/nat-not-internal-set/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/nat-not-internal-set/",
       "source_line_start": 229,
       "source_line_end": 232,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.R28"
       ]
@@ -200,136 +232,166 @@
     {
       "kind": "theorem",
       "name": "gamma_eta_intersection",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/gamma-eta-intersection/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/gamma-eta-intersection/",
       "source_line_start": 239,
       "source_line_end": 241,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_set_pi_monotone",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi-monotone/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi-monotone/",
       "source_line_start": 248,
       "source_line_end": 252,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_set_gamma_has_one",
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma-has-one/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma-has-one/",
       "source_line_start": 259,
       "source_line_end": 260,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l267/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l267/",
       "source_line_start": 267,
       "source_line_end": 267,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l270/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l270/",
       "source_line_start": 270,
       "source_line_end": 270,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l273/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l273/",
       "source_line_start": 273,
       "source_line_end": 273,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l276/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l276/",
       "source_line_start": 276,
       "source_line_end": 276,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l279/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l279/",
       "source_line_start": 279,
       "source_line_end": 280,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l283/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l283/",
       "source_line_start": 283,
       "source_line_end": 283,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l286/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l286/",
       "source_line_start": 286,
       "source_line_end": 286,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/example-l289/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/example-l289/",
       "source_line_start": 289,
       "source_line_end": 289,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/eval-l296/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l296/",
       "source_line_start": 296,
       "source_line_end": 296,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/eval-l297/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l297/",
       "source_line_start": 297,
       "source_line_end": 297,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/eval-l298/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l298/",
       "source_line_start": 298,
       "source_line_end": 298,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-orbit-sets/eval-l299/",
+      "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l299/",
       "source_line_start": 299,
       "source_line_end": 301,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -341,7 +403,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -417,36 +479,36 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [orbit_set_alpha](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha/) | L58-L66 | defined | `I.D94` |
-| `theorem` | [orbit_set_alpha_eq_tau_mem](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-eq-tau-mem/) | L76-L78 | formalized | — |
-| `def` | [orbit_set_pi](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi/) | L87-L91 | defined | `I.D94` |
-| `def` | [orbit_set_gamma](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma/) | L100-L104 | defined | `I.D94` |
-| `def` | [orbit_set_eta](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-eta/) | L113-L117 | defined | `I.D94` |
-| `def` | [orbit_set_omega](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-omega/) | L130-L135 | defined | `I.D94` |
-| `theorem` | [self_containment_alpha](/verify/taulib/docs/book-i-sets-orbit-sets/self-containment-alpha/) | L143-L144 | formalized | — |
-| `theorem` | [self_containment_omega](/verify/taulib/docs/book-i-sets-orbit-sets/self-containment-omega/) | L148-L149 | formalized | — |
-| `theorem` | [not_self_containment_pi](/verify/taulib/docs/book-i-sets-orbit-sets/not-self-containment-pi/) | L162-L164 | formalized | — |
-| `theorem` | [orbit_set_order_bound](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-order-bound/) | L172-L174 | formalized | `I.P42` |
-| `theorem` | [prime_atom](/verify/taulib/docs/book-i-sets-orbit-sets/prime-atom/) | L183-L191 | formalized | `I.R30` |
-| `theorem` | [orbit_set_alpha_has_one](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-has-one/) | L199-L200 | formalized | — |
-| `theorem` | [orbit_set_alpha_bounded](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-bounded/) | L207-L211 | formalized | — |
-| `theorem` | [alpha_orbit_set_not_all](/verify/taulib/docs/book-i-sets-orbit-sets/alpha-orbit-set-not-all/) | L214-L216 | formalized | — |
-| `theorem` | [omega_orbit_set_exceeds_alpha](/verify/taulib/docs/book-i-sets-orbit-sets/omega-orbit-set-exceeds-alpha/) | L220-L222 | formalized | `I.R28` |
-| `theorem` | [nat_not_internal_set](/verify/taulib/docs/book-i-sets-orbit-sets/nat-not-internal-set/) | L229-L232 | formalized | `I.R28` |
-| `theorem` | [gamma_eta_intersection](/verify/taulib/docs/book-i-sets-orbit-sets/gamma-eta-intersection/) | L239-L241 | formalized | — |
-| `theorem` | [orbit_set_pi_monotone](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi-monotone/) | L248-L252 | formalized | — |
-| `theorem` | [orbit_set_gamma_has_one](/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma-has-one/) | L259-L260 | formalized | — |
-| `example` | [#eval L267](/verify/taulib/docs/book-i-sets-orbit-sets/example-l267/) | L267-L267 | example | — |
-| `example` | [#eval L270](/verify/taulib/docs/book-i-sets-orbit-sets/example-l270/) | L270-L270 | example | — |
-| `example` | [#eval L273](/verify/taulib/docs/book-i-sets-orbit-sets/example-l273/) | L273-L273 | example | — |
-| `example` | [#eval L276](/verify/taulib/docs/book-i-sets-orbit-sets/example-l276/) | L276-L276 | example | — |
-| `example` | [#eval L279](/verify/taulib/docs/book-i-sets-orbit-sets/example-l279/) | L279-L280 | example | — |
-| `example` | [#eval L283](/verify/taulib/docs/book-i-sets-orbit-sets/example-l283/) | L283-L283 | example | — |
-| `example` | [#eval L286](/verify/taulib/docs/book-i-sets-orbit-sets/example-l286/) | L286-L286 | example | — |
-| `example` | [#eval L289](/verify/taulib/docs/book-i-sets-orbit-sets/example-l289/) | L289-L289 | example | — |
-| `eval` | [#eval L296](/verify/taulib/docs/book-i-sets-orbit-sets/eval-l296/) | L296-L296 | computed | — |
-| `eval` | [#eval L297](/verify/taulib/docs/book-i-sets-orbit-sets/eval-l297/) | L297-L297 | computed | — |
-| `eval` | [#eval L298](/verify/taulib/docs/book-i-sets-orbit-sets/eval-l298/) | L298-L298 | computed | — |
-| `eval` | [#eval L299](/verify/taulib/docs/book-i-sets-orbit-sets/eval-l299/) | L299-L301 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [orbit_set_alpha](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha/) | L58-L66 | definition | definition | `I.D94` |
+| `theorem` | [orbit_set_alpha_eq_tau_mem](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-eq-tau-mem/) | L76-L78 | proof obligation | formal proof obligation checked | — |
+| `def` | [orbit_set_pi](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi/) | L87-L91 | definition | definition | `I.D94` |
+| `def` | [orbit_set_gamma](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma/) | L100-L104 | definition | definition | `I.D94` |
+| `def` | [orbit_set_eta](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-eta/) | L113-L117 | definition | definition | `I.D94` |
+| `def` | [orbit_set_omega](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-omega/) | L130-L135 | definition | definition | `I.D94` |
+| `theorem` | [self_containment_alpha](/corpus/taulib/docs/book-i-sets-orbit-sets/self-containment-alpha/) | L143-L144 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [self_containment_omega](/corpus/taulib/docs/book-i-sets-orbit-sets/self-containment-omega/) | L148-L149 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [not_self_containment_pi](/corpus/taulib/docs/book-i-sets-orbit-sets/not-self-containment-pi/) | L162-L164 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [orbit_set_order_bound](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-order-bound/) | L172-L174 | proof obligation | formal proof obligation checked | `I.P42` |
+| `theorem` | [prime_atom](/corpus/taulib/docs/book-i-sets-orbit-sets/prime-atom/) | L183-L191 | proof obligation | formal proof obligation checked | `I.R30` |
+| `theorem` | [orbit_set_alpha_has_one](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-has-one/) | L199-L200 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [orbit_set_alpha_bounded](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-alpha-bounded/) | L207-L211 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [alpha_orbit_set_not_all](/corpus/taulib/docs/book-i-sets-orbit-sets/alpha-orbit-set-not-all/) | L214-L216 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [omega_orbit_set_exceeds_alpha](/corpus/taulib/docs/book-i-sets-orbit-sets/omega-orbit-set-exceeds-alpha/) | L220-L222 | proof obligation | formal proof obligation checked | `I.R28` |
+| `theorem` | [nat_not_internal_set](/corpus/taulib/docs/book-i-sets-orbit-sets/nat-not-internal-set/) | L229-L232 | proof obligation | formal proof obligation checked | `I.R28` |
+| `theorem` | [gamma_eta_intersection](/corpus/taulib/docs/book-i-sets-orbit-sets/gamma-eta-intersection/) | L239-L241 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [orbit_set_pi_monotone](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-pi-monotone/) | L248-L252 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [orbit_set_gamma_has_one](/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-gamma-has-one/) | L259-L260 | proof obligation | formal proof obligation checked | — |
+| `example` | [#eval L267](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l267/) | L267-L267 | example check | example | — |
+| `example` | [#eval L270](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l270/) | L270-L270 | example check | example | — |
+| `example` | [#eval L273](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l273/) | L273-L273 | example check | example | — |
+| `example` | [#eval L276](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l276/) | L276-L276 | example check | example | — |
+| `example` | [#eval L279](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l279/) | L279-L280 | example check | example | — |
+| `example` | [#eval L283](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l283/) | L283-L283 | example check | example | — |
+| `example` | [#eval L286](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l286/) | L286-L286 | example check | example | — |
+| `example` | [#eval L289](/corpus/taulib/docs/book-i-sets-orbit-sets/example-l289/) | L289-L289 | example check | example | — |
+| `eval` | [#eval L296](/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l296/) | L296-L296 | computed check | computed check | — |
+| `eval` | [#eval L297](/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l297/) | L297-L297 | computed check | computed check | — |
+| `eval` | [#eval L298](/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l298/) | L298-L298 | computed check | computed check | — |
+| `eval` | [#eval L299](/corpus/taulib/docs/book-i-sets-orbit-sets/eval-l299/) | L299-L301 | computed check | computed check | — |

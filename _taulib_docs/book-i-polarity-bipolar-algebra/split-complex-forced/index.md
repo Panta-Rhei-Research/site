@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "split_complex_forced",
-  "permalink": "/verify/taulib/docs/book-i-polarity-bipolar-algebra/split-complex-forced/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-bipolar-algebra/split-complex-forced/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.BipolarAlgebra`.",
   "declaration_id": "TauLib.BookI.Polarity.BipolarAlgebra::split_complex_forced",
   "declaration_slug": "split-complex-forced",
   "kind": "theorem",
   "name": "split_complex_forced",
   "module_name": "TauLib.BookI.Polarity.BipolarAlgebra",
-  "module_url": "/verify/taulib/docs/book-i-polarity-bipolar-algebra/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-bipolar-algebra/",
   "source_line_start": 229,
   "source_line_end": 237,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/BipolarAlgebra.lean#L229-L237",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.BipolarAlgebra",
-        "url": "/verify/taulib/docs/book-i-polarity-bipolar-algebra/"
+        "url": "/corpus/taulib/docs/book-i-polarity-bipolar-algebra/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.BipolarAlgebra](/verify/taulib/docs/book-i-polarity-bipolar-algebra/)
+- Module: [TauLib.BookI.Polarity.BipolarAlgebra](/corpus/taulib/docs/book-i-polarity-bipolar-algebra/)
 - Source path: [`TauLib/BookI/Polarity/BipolarAlgebra.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/BipolarAlgebra.lean#L229-L237)
 - Source range: L229-L237
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

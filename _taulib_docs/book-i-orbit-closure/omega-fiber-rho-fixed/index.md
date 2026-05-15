@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_fiber_rho_fixed",
-  "permalink": "/verify/taulib/docs/book-i-orbit-closure/omega-fiber-rho-fixed/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-closure/omega-fiber-rho-fixed/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.Closure`.",
   "declaration_id": "TauLib.BookI.Orbit.Closure::omega_fiber_rho_fixed",
   "declaration_slug": "omega-fiber-rho-fixed",
   "kind": "theorem",
   "name": "omega_fiber_rho_fixed",
   "module_name": "TauLib.BookI.Orbit.Closure",
-  "module_url": "/verify/taulib/docs/book-i-orbit-closure/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-closure/",
   "source_line_start": 89,
   "source_line_end": 91,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Closure.lean#L89-L91",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Closure",
-        "url": "/verify/taulib/docs/book-i-orbit-closure/"
+        "url": "/corpus/taulib/docs/book-i-orbit-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Closure](/verify/taulib/docs/book-i-orbit-closure/)
+- Module: [TauLib.BookI.Orbit.Closure](/corpus/taulib/docs/book-i-orbit-closure/)
 - Source path: [`TauLib/BookI/Orbit/Closure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Closure.lean#L89-L91)
 - Source range: L89-L91
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

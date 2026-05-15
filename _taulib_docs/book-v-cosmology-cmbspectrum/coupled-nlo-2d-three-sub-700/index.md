@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coupled_nlo_2d_three_sub_700",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/coupled-nlo-2d-three-sub-700/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/coupled-nlo-2d-three-sub-700/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.CMBSpectrum`.",
   "declaration_id": "TauLib.BookV.Cosmology.CMBSpectrum::coupled_nlo_2d_three_sub_700",
   "declaration_slug": "coupled-nlo-2d-three-sub-700",
   "kind": "theorem",
   "name": "coupled_nlo_2d_three_sub_700",
   "module_name": "TauLib.BookV.Cosmology.CMBSpectrum",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/",
   "source_line_start": 1769,
   "source_line_end": 1773,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CMBSpectrum.lean#L1769-L1773",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.CMBSpectrum",
-        "url": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.CMBSpectrum](/verify/taulib/docs/book-v-cosmology-cmbspectrum/)
+- Module: [TauLib.BookV.Cosmology.CMBSpectrum](/corpus/taulib/docs/book-v-cosmology-cmbspectrum/)
 - Source path: [`TauLib/BookV/Cosmology/CMBSpectrum.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CMBSpectrum.lean#L1769-L1773)
 - Source range: L1769-L1773
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

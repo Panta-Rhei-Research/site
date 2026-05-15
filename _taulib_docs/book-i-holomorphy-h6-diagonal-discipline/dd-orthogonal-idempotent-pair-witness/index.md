@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "dd_orthogonal_idempotent_pair_witness",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/dd-orthogonal-idempotent-pair-witness/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/dd-orthogonal-idempotent-pair-witness/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.H6DiagonalDiscipline`.",
   "declaration_id": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline::dd_orthogonal_idempotent_pair_witness",
   "declaration_slug": "dd-orthogonal-idempotent-pair-witness",
   "kind": "theorem",
   "name": "dd_orthogonal_idempotent_pair_witness",
   "module_name": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/",
   "source_line_start": 122,
   "source_line_end": 124,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6DiagonalDiscipline.lean#L122-L124",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline",
-        "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.H6DiagonalDiscipline](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/)
+- Module: [TauLib.BookI.Holomorphy.H6DiagonalDiscipline](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/)
 - Source path: [`TauLib/BookI/Holomorphy/H6DiagonalDiscipline.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6DiagonalDiscipline.lean#L122-L124)
 - Source range: L122-L124
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

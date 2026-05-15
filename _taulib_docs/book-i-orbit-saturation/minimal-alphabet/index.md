@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "minimal_alphabet",
-  "permalink": "/verify/taulib/docs/book-i-orbit-saturation/minimal-alphabet/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-saturation/minimal-alphabet/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.Saturation`.",
   "declaration_id": "TauLib.BookI.Orbit.Saturation::minimal_alphabet",
   "declaration_slug": "minimal-alphabet",
   "kind": "theorem",
   "name": "minimal_alphabet",
   "module_name": "TauLib.BookI.Orbit.Saturation",
-  "module_url": "/verify/taulib/docs/book-i-orbit-saturation/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-saturation/",
   "source_line_start": 146,
   "source_line_end": 163,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Saturation.lean#L146-L163",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Saturation",
-        "url": "/verify/taulib/docs/book-i-orbit-saturation/"
+        "url": "/corpus/taulib/docs/book-i-orbit-saturation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Saturation](/verify/taulib/docs/book-i-orbit-saturation/)
+- Module: [TauLib.BookI.Orbit.Saturation](/corpus/taulib/docs/book-i-orbit-saturation/)
 - Source path: [`TauLib/BookI/Orbit/Saturation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Saturation.lean#L146-L163)
 - Source range: L146-L163
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

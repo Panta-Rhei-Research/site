@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "temporal_complement_sectors",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-frame-holonomy/temporal-complement-sectors/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/temporal-complement-sectors/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.GravityField.FrameHolonomy`.",
   "declaration_id": "TauLib.BookV.GravityField.FrameHolonomy::temporal_complement_sectors",
   "declaration_slug": "temporal-complement-sectors",
   "kind": "theorem",
   "name": "temporal_complement_sectors",
   "module_name": "TauLib.BookV.GravityField.FrameHolonomy",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-frame-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/",
   "source_line_start": 266,
   "source_line_end": 268,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/FrameHolonomy.lean#L266-L268",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.FrameHolonomy",
-        "url": "/verify/taulib/docs/book-v-gravity-field-frame-holonomy/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.FrameHolonomy](/verify/taulib/docs/book-v-gravity-field-frame-holonomy/)
+- Module: [TauLib.BookV.GravityField.FrameHolonomy](/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/)
 - Source path: [`TauLib/BookV/GravityField/FrameHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/FrameHolonomy.lean#L266-L268)
 - Source range: L266-L268
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "seed_order_pi_gamma",
-  "permalink": "/verify/taulib/docs/book-i-denotation-order/seed-order-pi-gamma/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-order/seed-order-pi-gamma/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Denotation.Order`.",
   "declaration_id": "TauLib.BookI.Denotation.Order::seed_order_pi_gamma",
   "declaration_slug": "seed-order-pi-gamma",
   "kind": "theorem",
   "name": "seed_order_pi_gamma",
   "module_name": "TauLib.BookI.Denotation.Order",
-  "module_url": "/verify/taulib/docs/book-i-denotation-order/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-order/",
   "source_line_start": 124,
   "source_line_end": 125,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Order.lean#L124-L125",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Order",
-        "url": "/verify/taulib/docs/book-i-denotation-order/"
+        "url": "/corpus/taulib/docs/book-i-denotation-order/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Order](/verify/taulib/docs/book-i-denotation-order/)
+- Module: [TauLib.BookI.Denotation.Order](/corpus/taulib/docs/book-i-denotation-order/)
 - Source path: [`TauLib/BookI/Denotation/Order.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Order.lean#L124-L125)
 - Source range: L124-L125
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

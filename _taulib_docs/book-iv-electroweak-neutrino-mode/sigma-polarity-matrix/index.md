@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SigmaPolarityMatrix",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/sigma-polarity-matrix/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/sigma-polarity-matrix/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.NeutrinoMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.NeutrinoMode::SigmaPolarityMatrix",
   "declaration_slug": "sigma-polarity-matrix",
   "kind": "structure",
   "name": "SigmaPolarityMatrix",
   "module_name": "TauLib.BookIV.Electroweak.NeutrinoMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/",
   "source_line_start": 375,
   "source_line_end": 381,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L375-L381",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.NeutrinoMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/verify/taulib/docs/book-iv-electroweak-neutrino-mode/)
+- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/NeutrinoMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L375-L381)
 - Source range: L375-L381
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

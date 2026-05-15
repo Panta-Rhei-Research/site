@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Sectors.LifeLoop",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-life-loop/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-life-loop/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Sectors.LifeLoop`.",
   "module_name": "TauLib.BookVI.Sectors.LifeLoop",
   "module_slug": "book-vi-sectors-life-loop",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "LifeLoopClass",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/life-loop-class/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/life-loop-class/",
       "source_line_start": 28,
       "source_line_end": 31,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D10"
       ]
@@ -50,19 +52,23 @@
     {
       "kind": "def",
       "name": "life_loop",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/life-loop/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/life-loop/",
       "source_line_start": 33,
       "source_line_end": 35,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DecodeTarget",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/decode-target/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/decode-target/",
       "source_line_start": 38,
       "source_line_end": 41,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D11"
       ]
@@ -70,19 +76,23 @@
     {
       "kind": "def",
       "name": "decode_target",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/decode-target-l43/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/decode-target-l43/",
       "source_line_start": 43,
       "source_line_end": 43,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DecodeHorizon",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/decode-horizon/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/decode-horizon/",
       "source_line_start": 46,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D12"
       ]
@@ -90,19 +100,23 @@
     {
       "kind": "def",
       "name": "decode_horizon",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/decode-horizon-l51/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/decode-horizon-l51/",
       "source_line_start": 51,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SourceSubClass",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/source-sub-class/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/source-sub-class/",
       "source_line_start": 54,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D13"
       ]
@@ -110,10 +124,12 @@
     {
       "kind": "structure",
       "name": "ClosureSubClass",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/closure-sub-class/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/closure-sub-class/",
       "source_line_start": 60,
       "source_line_end": 63,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D14"
       ]
@@ -121,10 +137,12 @@
     {
       "kind": "structure",
       "name": "MetabolicFiberTheorem",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem/",
       "source_line_start": 67,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T05"
       ]
@@ -132,28 +150,34 @@
     {
       "kind": "def",
       "name": "metabolic_fiber",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber/",
       "source_line_start": 74,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "metabolic_fiber_theorem",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem-l78/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem-l78/",
       "source_line_start": 78,
       "source_line_end": 82,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ConsumerMixerUniqueness",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness/",
       "source_line_start": 85,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T06"
       ]
@@ -161,28 +185,34 @@
     {
       "kind": "def",
       "name": "consumer_mixer",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/consumer-mixer/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/consumer-mixer/",
       "source_line_start": 91,
       "source_line_end": 93,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "consumer_mixer_uniqueness",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness-l95/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness-l95/",
       "source_line_start": 95,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seven_forces_e2",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/seven-forces-e2/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/seven-forces-e2/",
       "source_line_start": 101,
       "source_line_end": 101,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.P06"
       ]
@@ -190,10 +220,12 @@
     {
       "kind": "theorem",
       "name": "force_sector_matching",
-      "url": "/verify/taulib/docs/book-vi-sectors-life-loop/force-sector-matching/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/force-sector-matching/",
       "source_line_start": 104,
       "source_line_end": 106,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.P07"
       ]
@@ -207,7 +239,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -284,21 +316,21 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [LifeLoopClass](/verify/taulib/docs/book-vi-sectors-life-loop/life-loop-class/) | L28-L31 | defined | `VI.D10` |
-| `def` | [life_loop](/verify/taulib/docs/book-vi-sectors-life-loop/life-loop/) | L33-L35 | defined | — |
-| `structure` | [DecodeTarget](/verify/taulib/docs/book-vi-sectors-life-loop/decode-target/) | L38-L41 | defined | `VI.D11` |
-| `def` | [decode_target](/verify/taulib/docs/book-vi-sectors-life-loop/decode-target-l43/) | L43-L43 | defined | — |
-| `structure` | [DecodeHorizon](/verify/taulib/docs/book-vi-sectors-life-loop/decode-horizon/) | L46-L49 | defined | `VI.D12` |
-| `def` | [decode_horizon](/verify/taulib/docs/book-vi-sectors-life-loop/decode-horizon-l51/) | L51-L51 | defined | — |
-| `structure` | [SourceSubClass](/verify/taulib/docs/book-vi-sectors-life-loop/source-sub-class/) | L54-L57 | defined | `VI.D13` |
-| `structure` | [ClosureSubClass](/verify/taulib/docs/book-vi-sectors-life-loop/closure-sub-class/) | L60-L63 | defined | `VI.D14` |
-| `structure` | [MetabolicFiberTheorem](/verify/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem/) | L67-L72 | defined | `VI.T05` |
-| `def` | [metabolic_fiber](/verify/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber/) | L74-L76 | defined | — |
-| `theorem` | [metabolic_fiber_theorem](/verify/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem-l78/) | L78-L82 | formalized | — |
-| `structure` | [ConsumerMixerUniqueness](/verify/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness/) | L85-L89 | defined | `VI.T06` |
-| `def` | [consumer_mixer](/verify/taulib/docs/book-vi-sectors-life-loop/consumer-mixer/) | L91-L93 | defined | — |
-| `theorem` | [consumer_mixer_uniqueness](/verify/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness-l95/) | L95-L98 | formalized | — |
-| `theorem` | [seven_forces_e2](/verify/taulib/docs/book-vi-sectors-life-loop/seven-forces-e2/) | L101-L101 | formalized | `VI.P06` |
-| `theorem` | [force_sector_matching](/verify/taulib/docs/book-vi-sectors-life-loop/force-sector-matching/) | L104-L106 | formalized | `VI.P07` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [LifeLoopClass](/corpus/taulib/docs/book-vi-sectors-life-loop/life-loop-class/) | L28-L31 | type/data schema | type/data schema | `VI.D10` |
+| `def` | [life_loop](/corpus/taulib/docs/book-vi-sectors-life-loop/life-loop/) | L33-L35 | definition | definition | — |
+| `structure` | [DecodeTarget](/corpus/taulib/docs/book-vi-sectors-life-loop/decode-target/) | L38-L41 | type/data schema | type/data schema | `VI.D11` |
+| `def` | [decode_target](/corpus/taulib/docs/book-vi-sectors-life-loop/decode-target-l43/) | L43-L43 | definition | definition | — |
+| `structure` | [DecodeHorizon](/corpus/taulib/docs/book-vi-sectors-life-loop/decode-horizon/) | L46-L49 | type/data schema | type/data schema | `VI.D12` |
+| `def` | [decode_horizon](/corpus/taulib/docs/book-vi-sectors-life-loop/decode-horizon-l51/) | L51-L51 | definition | definition | — |
+| `structure` | [SourceSubClass](/corpus/taulib/docs/book-vi-sectors-life-loop/source-sub-class/) | L54-L57 | type/data schema | type/data schema | `VI.D13` |
+| `structure` | [ClosureSubClass](/corpus/taulib/docs/book-vi-sectors-life-loop/closure-sub-class/) | L60-L63 | type/data schema | type/data schema | `VI.D14` |
+| `structure` | [MetabolicFiberTheorem](/corpus/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem/) | L67-L72 | type/data schema | type/data schema | `VI.T05` |
+| `def` | [metabolic_fiber](/corpus/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber/) | L74-L76 | definition | definition | — |
+| `theorem` | [metabolic_fiber_theorem](/corpus/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber-theorem-l78/) | L78-L82 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ConsumerMixerUniqueness](/corpus/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness/) | L85-L89 | type/data schema | type/data schema | `VI.T06` |
+| `def` | [consumer_mixer](/corpus/taulib/docs/book-vi-sectors-life-loop/consumer-mixer/) | L91-L93 | definition | definition | — |
+| `theorem` | [consumer_mixer_uniqueness](/corpus/taulib/docs/book-vi-sectors-life-loop/consumer-mixer-uniqueness-l95/) | L95-L98 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seven_forces_e2](/corpus/taulib/docs/book-vi-sectors-life-loop/seven-forces-e2/) | L101-L101 | proof obligation | formal proof obligation checked | `VI.P06` |
+| `theorem` | [force_sector_matching](/corpus/taulib/docs/book-vi-sectors-life-loop/force-sector-matching/) | L104-L106 | proof obligation | formal proof obligation checked | `VI.P07` |

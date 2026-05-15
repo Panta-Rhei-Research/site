@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Truth4",
-  "permalink": "/verify/taulib/docs/book-i-logic-truth4/truth4/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-truth4/truth4/",
   "summary_short": "`inductive` declaration in `TauLib.BookI.Logic.Truth4`.",
   "declaration_id": "TauLib.BookI.Logic.Truth4::Truth4",
   "declaration_slug": "truth4",
   "kind": "inductive",
   "name": "Truth4",
   "module_name": "TauLib.BookI.Logic.Truth4",
-  "module_url": "/verify/taulib/docs/book-i-logic-truth4/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-truth4/",
   "source_line_start": 41,
   "source_line_end": 48,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Truth4.lean#L41-L48",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.Truth4",
-        "url": "/verify/taulib/docs/book-i-logic-truth4/"
+        "url": "/corpus/taulib/docs/book-i-logic-truth4/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.Truth4](/verify/taulib/docs/book-i-logic-truth4/)
+- Module: [TauLib.BookI.Logic.Truth4](/corpus/taulib/docs/book-i-logic-truth4/)
 - Source path: [`TauLib/BookI/Logic/Truth4.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Truth4.lean#L41-L48)
 - Source range: L41-L48
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

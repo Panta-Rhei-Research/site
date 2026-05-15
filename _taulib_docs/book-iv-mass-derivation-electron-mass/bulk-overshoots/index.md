@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bulk_overshoots",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-electron-mass/bulk-overshoots/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/bulk-overshoots/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.MassDerivation.ElectronMass`.",
   "declaration_id": "TauLib.BookIV.MassDerivation.ElectronMass::bulk_overshoots",
   "declaration_slug": "bulk-overshoots",
   "kind": "theorem",
   "name": "bulk_overshoots",
   "module_name": "TauLib.BookIV.MassDerivation.ElectronMass",
-  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-electron-mass/",
+  "module_url": "/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/",
   "source_line_start": 128,
   "source_line_end": 130,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/ElectronMass.lean#L128-L130",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.MassDerivation.ElectronMass",
-        "url": "/verify/taulib/docs/book-iv-mass-derivation-electron-mass/"
+        "url": "/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.MassDerivation.ElectronMass](/verify/taulib/docs/book-iv-mass-derivation-electron-mass/)
+- Module: [TauLib.BookIV.MassDerivation.ElectronMass](/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/)
 - Source path: [`TauLib/BookIV/MassDerivation/ElectronMass.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/ElectronMass.lean#L128-L130)
 - Source range: L128-L130
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

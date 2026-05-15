@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mediator_basin_check",
-  "permalink": "/verify/taulib/docs/book-vii-final-boundary/mediator-basin-check/",
+  "permalink": "/corpus/taulib/docs/book-vii-final-boundary/mediator-basin-check/",
   "summary_short": "`theorem` declaration in `TauLib.BookVII.Final.Boundary`.",
   "declaration_id": "TauLib.BookVII.Final.Boundary::mediator_basin_check",
   "declaration_slug": "mediator-basin-check",
   "kind": "theorem",
   "name": "mediator_basin_check",
   "module_name": "TauLib.BookVII.Final.Boundary",
-  "module_url": "/verify/taulib/docs/book-vii-final-boundary/",
+  "module_url": "/corpus/taulib/docs/book-vii-final-boundary/",
   "source_line_start": 132,
   "source_line_end": 136,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Final/Boundary.lean#L132-L136",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Final.Boundary",
-        "url": "/verify/taulib/docs/book-vii-final-boundary/"
+        "url": "/corpus/taulib/docs/book-vii-final-boundary/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Final.Boundary](/verify/taulib/docs/book-vii-final-boundary/)
+- Module: [TauLib.BookVII.Final.Boundary](/corpus/taulib/docs/book-vii-final-boundary/)
 - Source path: [`TauLib/BookVII/Final/Boundary.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Final/Boundary.lean#L132-L136)
 - Source range: L132-L136
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

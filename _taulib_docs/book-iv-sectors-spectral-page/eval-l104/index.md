@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L104",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-spectral-page/eval-l104/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-spectral-page/eval-l104/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Sectors.SpectralPage`.",
   "declaration_id": "TauLib.BookIV.Sectors.SpectralPage::#eval:104",
   "declaration_slug": "eval-l104",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Sectors.SpectralPage",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-spectral-page/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/",
   "source_line_start": 104,
   "source_line_end": 104,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SpectralPage.lean#L104-L104",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.SpectralPage",
-        "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.SpectralPage](/verify/taulib/docs/book-iv-sectors-spectral-page/)
+- Module: [TauLib.BookIV.Sectors.SpectralPage](/corpus/taulib/docs/book-iv-sectors-spectral-page/)
 - Source path: [`TauLib/BookIV/Sectors/SpectralPage.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/SpectralPage.lean#L104-L104)
 - Source range: L104-L104
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

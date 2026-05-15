@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "nucleon_mass_decomposition",
-  "permalink": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/nucleon-mass-decomposition/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/nucleon-mass-decomposition/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.HadronsNuclei`.",
   "declaration_id": "TauLib.BookIV.Particles.HadronsNuclei::nucleon_mass_decomposition",
   "declaration_slug": "nucleon-mass-decomposition",
   "kind": "def",
   "name": "nucleon_mass_decomposition",
   "module_name": "TauLib.BookIV.Particles.HadronsNuclei",
-  "module_url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/",
   "source_line_start": 172,
   "source_line_end": 172,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L172-L172",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.HadronsNuclei",
-        "url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/"
+        "url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.HadronsNuclei](/verify/taulib/docs/book-iv-particles-hadrons-nuclei/)
+- Module: [TauLib.BookIV.Particles.HadronsNuclei](/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/)
 - Source path: [`TauLib/BookIV/Particles/HadronsNuclei.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L172-L172)
 - Source range: L172-L172
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

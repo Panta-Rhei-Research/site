@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L116",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact-fta/eval-l116/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/eval-l116/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Coordinates.HyperfactFTA`.",
   "declaration_id": "TauLib.BookI.Coordinates.HyperfactFTA::#eval:116",
   "declaration_slug": "eval-l116",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Coordinates.HyperfactFTA",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-hyperfact-fta/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/",
   "source_line_start": 116,
   "source_line_end": 116,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactFTA.lean#L116-L116",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.HyperfactFTA",
-        "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-fta/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.HyperfactFTA](/verify/taulib/docs/book-i-coordinates-hyperfact-fta/)
+- Module: [TauLib.BookI.Coordinates.HyperfactFTA](/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/)
 - Source path: [`TauLib/BookI/Coordinates/HyperfactFTA.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactFTA.lean#L116-L116)
 - Source range: L116-L116
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

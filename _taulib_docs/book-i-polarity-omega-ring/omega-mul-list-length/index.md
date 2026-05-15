@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_mul_list_length",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-ring/omega-mul-list-length/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-ring/omega-mul-list-length/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.OmegaRing`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaRing::omega_mul_list_length",
   "declaration_slug": "omega-mul-list-length",
   "kind": "theorem",
   "name": "omega_mul_list_length",
   "module_name": "TauLib.BookI.Polarity.OmegaRing",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-ring/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-ring/",
   "source_line_start": 103,
   "source_line_end": 106,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaRing.lean#L103-L106",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaRing",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-ring/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-ring/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaRing](/verify/taulib/docs/book-i-polarity-omega-ring/)
+- Module: [TauLib.BookI.Polarity.OmegaRing](/corpus/taulib/docs/book-i-polarity-omega-ring/)
 - Source path: [`TauLib/BookI/Polarity/OmegaRing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaRing.lean#L103-L106)
 - Source range: L103-L106
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

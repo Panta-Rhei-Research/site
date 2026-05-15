@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "between_transitivity_check",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-betweenness/between-transitivity-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-betweenness/between-transitivity-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Geometry.Betweenness`.",
   "declaration_id": "TauLib.BookII.Geometry.Betweenness::between_transitivity_check",
   "declaration_slug": "between-transitivity-check",
   "kind": "def",
   "name": "between_transitivity_check",
   "module_name": "TauLib.BookII.Geometry.Betweenness",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-betweenness/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-betweenness/",
   "source_line_start": 83,
   "source_line_end": 95,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/Betweenness.lean#L83-L95",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.Betweenness",
-        "url": "/verify/taulib/docs/book-ii-geometry-betweenness/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.Betweenness](/verify/taulib/docs/book-ii-geometry-betweenness/)
+- Module: [TauLib.BookII.Geometry.Betweenness](/corpus/taulib/docs/book-ii-geometry-betweenness/)
 - Source path: [`TauLib/BookII/Geometry/Betweenness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/Betweenness.lean#L83-L95)
 - Source range: L83-L95
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

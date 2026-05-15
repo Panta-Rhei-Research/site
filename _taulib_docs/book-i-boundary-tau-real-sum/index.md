@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealSum",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-sum/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealSum`.",
   "module_name": "TauLib.BookI.Boundary.TauRealSum",
   "module_slug": "book-i-boundary-tau-real-sum",
@@ -37,82 +37,100 @@
     {
       "kind": "def",
       "name": "TauRat.factorial",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial/",
       "source_line_start": 57,
       "source_line_end": 58,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.factorial_pos",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial-pos/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial-pos/",
       "source_line_start": 61,
       "source_line_end": 66,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.factorial_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial-to-rat/",
       "source_line_start": 69,
       "source_line_end": 72,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.factorial_ne_zero",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial-ne-zero/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial-ne-zero/",
       "source_line_start": 75,
       "source_line_end": 76,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauRat.sum",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/sum/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum/",
       "source_line_start": 83,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauRat.sumFromTo",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to/",
       "source_line_start": 99,
       "source_line_end": 106,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.sumFromTo_self",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-self/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-self/",
       "source_line_start": 108,
       "source_line_end": 114,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.sum_sub_toRat_eq_sumFromTo",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-sub-to-rat-eq-sum-from-to/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-sub-to-rat-eq-sum-from-to/",
       "source_line_start": 122,
       "source_line_end": 147,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.sumFromTo_abs_le",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-abs-le/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-abs-le/",
       "source_line_start": 158,
       "source_line_end": 192,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -124,7 +142,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -197,14 +215,14 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauRat.factorial](/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial/) | L57-L58 | defined | — |
-| `theorem` | [TauRat.factorial_pos](/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial-pos/) | L61-L66 | formalized | — |
-| `theorem` | [TauRat.factorial_toRat](/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial-to-rat/) | L69-L72 | formalized | — |
-| `theorem` | [TauRat.factorial_ne_zero](/verify/taulib/docs/book-i-boundary-tau-real-sum/factorial-ne-zero/) | L75-L76 | formalized | — |
-| `def` | [TauRat.sum](/verify/taulib/docs/book-i-boundary-tau-real-sum/sum/) | L83-L91 | defined | — |
-| `def` | [TauRat.sumFromTo](/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to/) | L99-L106 | defined | — |
-| `theorem` | [TauRat.sumFromTo_self](/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-self/) | L108-L114 | formalized | — |
-| `theorem` | [TauRat.sum_sub_toRat_eq_sumFromTo](/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-sub-to-rat-eq-sum-from-to/) | L122-L147 | formalized | — |
-| `theorem` | [TauRat.sumFromTo_abs_le](/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-abs-le/) | L158-L192 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauRat.factorial](/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial/) | L57-L58 | data/computed value | data/computed value | — |
+| `theorem` | [TauRat.factorial_pos](/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial-pos/) | L61-L66 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.factorial_toRat](/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial-to-rat/) | L69-L72 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.factorial_ne_zero](/corpus/taulib/docs/book-i-boundary-tau-real-sum/factorial-ne-zero/) | L75-L76 | proof obligation | formal proof obligation checked | — |
+| `def` | [TauRat.sum](/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum/) | L83-L91 | data/computed value | data/computed value | — |
+| `def` | [TauRat.sumFromTo](/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to/) | L99-L106 | data/computed value | data/computed value | — |
+| `theorem` | [TauRat.sumFromTo_self](/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-self/) | L108-L114 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.sum_sub_toRat_eq_sumFromTo](/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-sub-to-rat-eq-sum-from-to/) | L122-L147 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.sumFromTo_abs_le](/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-abs-le/) | L158-L192 | proof obligation | formal proof obligation checked | — |

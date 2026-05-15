@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "anchor",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/anchor/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/anchor/",
   "summary_short": "`def` declaration in `TauLib.BookVI.CosmicLife.GalaxyBasin`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.GalaxyBasin::anchor",
   "declaration_slug": "anchor",
   "kind": "def",
   "name": "anchor",
   "module_name": "TauLib.BookVI.CosmicLife.GalaxyBasin",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/",
   "source_line_start": 118,
   "source_line_end": 118,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/GalaxyBasin.lean#L118-L118",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.GalaxyBasin",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.GalaxyBasin](/verify/taulib/docs/book-vi-cosmic-life-galaxy-basin/)
+- Module: [TauLib.BookVI.CosmicLife.GalaxyBasin](/corpus/taulib/docs/book-vi-cosmic-life-galaxy-basin/)
 - Source path: [`TauLib/BookVI/CosmicLife/GalaxyBasin.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/GalaxyBasin.lean#L118-L118)
 - Source range: L118-L118
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

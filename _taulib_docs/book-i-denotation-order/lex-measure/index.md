@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "lex_measure",
-  "permalink": "/verify/taulib/docs/book-i-denotation-order/lex-measure/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-order/lex-measure/",
   "summary_short": "`def` declaration in `TauLib.BookI.Denotation.Order`.",
   "declaration_id": "TauLib.BookI.Denotation.Order::lex_measure",
   "declaration_slug": "lex-measure",
   "kind": "def",
   "name": "lex_measure",
   "module_name": "TauLib.BookI.Denotation.Order",
-  "module_url": "/verify/taulib/docs/book-i-denotation-order/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-order/",
   "source_line_start": 138,
   "source_line_end": 138,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Order.lean#L138-L138",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Order",
-        "url": "/verify/taulib/docs/book-i-denotation-order/"
+        "url": "/corpus/taulib/docs/book-i-denotation-order/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Order](/verify/taulib/docs/book-i-denotation-order/)
+- Module: [TauLib.BookI.Denotation.Order](/corpus/taulib/docs/book-i-denotation-order/)
 - Source path: [`TauLib/BookI/Denotation/Order.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Order.lean#L138-L138)
 - Source range: L138-L138
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

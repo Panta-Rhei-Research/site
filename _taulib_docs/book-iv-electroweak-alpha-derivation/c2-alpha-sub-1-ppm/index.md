@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "c2_alpha_sub_1_ppm",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/c2-alpha-sub-1-ppm/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/c2-alpha-sub-1-ppm/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.AlphaDerivation`.",
   "declaration_id": "TauLib.BookIV.Electroweak.AlphaDerivation::c2_alpha_sub_1_ppm",
   "declaration_slug": "c2-alpha-sub-1-ppm",
   "kind": "theorem",
   "name": "c2_alpha_sub_1_ppm",
   "module_name": "TauLib.BookIV.Electroweak.AlphaDerivation",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/",
   "source_line_start": 437,
   "source_line_end": 439,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L437-L439",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.AlphaDerivation",
-        "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/)
+- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/)
 - Source path: [`TauLib/BookIV/Electroweak/AlphaDerivation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L437-L439)
 - Source range: L437-L439
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

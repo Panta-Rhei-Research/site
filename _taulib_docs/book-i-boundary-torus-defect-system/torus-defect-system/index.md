@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TorusDefectSystem",
-  "permalink": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-defect-system/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-defect-system/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.TorusDefectSystem`.",
   "declaration_id": "TauLib.BookI.Boundary.TorusDefectSystem::TorusDefectSystem",
   "declaration_slug": "torus-defect-system",
   "kind": "def",
   "name": "TorusDefectSystem",
   "module_name": "TauLib.BookI.Boundary.TorusDefectSystem",
-  "module_url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/",
   "source_line_start": 191,
   "source_line_end": 196,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TorusDefectSystem.lean#L191-L196",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TorusDefectSystem",
-        "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/"
+        "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TorusDefectSystem](/verify/taulib/docs/book-i-boundary-torus-defect-system/)
+- Module: [TauLib.BookI.Boundary.TorusDefectSystem](/corpus/taulib/docs/book-i-boundary-torus-defect-system/)
 - Source path: [`TauLib/BookI/Boundary/TorusDefectSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TorusDefectSystem.lean#L191-L196)
 - Source range: L191-L196
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L315",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-coupling-formulas/eval-l315/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-coupling-formulas/eval-l315/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Sectors.CouplingFormulas`.",
   "declaration_id": "TauLib.BookIV.Sectors.CouplingFormulas::#eval:315",
   "declaration_slug": "eval-l315",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Sectors.CouplingFormulas",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-coupling-formulas/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-coupling-formulas/",
   "source_line_start": 315,
   "source_line_end": 315,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/CouplingFormulas.lean#L315-L315",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.CouplingFormulas",
-        "url": "/verify/taulib/docs/book-iv-sectors-coupling-formulas/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-coupling-formulas/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.CouplingFormulas](/verify/taulib/docs/book-iv-sectors-coupling-formulas/)
+- Module: [TauLib.BookIV.Sectors.CouplingFormulas](/corpus/taulib/docs/book-iv-sectors-coupling-formulas/)
 - Source path: [`TauLib/BookIV/Sectors/CouplingFormulas.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/CouplingFormulas.lean#L315-L315)
 - Source range: L315-L315
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

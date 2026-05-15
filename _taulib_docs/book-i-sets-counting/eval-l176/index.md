@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L176",
-  "permalink": "/verify/taulib/docs/book-i-sets-counting/eval-l176/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-counting/eval-l176/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Sets.Counting`.",
   "declaration_id": "TauLib.BookI.Sets.Counting::#eval:176",
   "declaration_slug": "eval-l176",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Sets.Counting",
-  "module_url": "/verify/taulib/docs/book-i-sets-counting/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-counting/",
   "source_line_start": 176,
   "source_line_end": 176,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L176-L176",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Counting",
-        "url": "/verify/taulib/docs/book-i-sets-counting/"
+        "url": "/corpus/taulib/docs/book-i-sets-counting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Counting](/verify/taulib/docs/book-i-sets-counting/)
+- Module: [TauLib.BookI.Sets.Counting](/corpus/taulib/docs/book-i-sets-counting/)
 - Source path: [`TauLib/BookI/Sets/Counting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L176-L176)
 - Source range: L176-L176
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

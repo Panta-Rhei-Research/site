@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_point_theorem",
-  "permalink": "/verify/taulib/docs/book-vii-logos-sector/omega-point-theorem/",
+  "permalink": "/corpus/taulib/docs/book-vii-logos-sector/omega-point-theorem/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Logos.Sector`.",
   "declaration_id": "TauLib.BookVII.Logos.Sector::omega_point_theorem",
   "declaration_slug": "omega-point-theorem",
   "kind": "def",
   "name": "omega_point_theorem",
   "module_name": "TauLib.BookVII.Logos.Sector",
-  "module_url": "/verify/taulib/docs/book-vii-logos-sector/",
+  "module_url": "/corpus/taulib/docs/book-vii-logos-sector/",
   "source_line_start": 457,
   "source_line_end": 463,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L457-L463",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Logos.Sector",
-        "url": "/verify/taulib/docs/book-vii-logos-sector/"
+        "url": "/corpus/taulib/docs/book-vii-logos-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Logos.Sector](/verify/taulib/docs/book-vii-logos-sector/)
+- Module: [TauLib.BookVII.Logos.Sector](/corpus/taulib/docs/book-vii-logos-sector/)
 - Source path: [`TauLib/BookVII/Logos/Sector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L457-L463)
 - Source range: L457-L463
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

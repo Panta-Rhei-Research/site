@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "seedAgree_symm",
-  "permalink": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-symm/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-symm/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Addressability.OnticUltrametric`.",
   "declaration_id": "TauLib.BookI.Addressability.OnticUltrametric::seedAgree_symm",
   "declaration_slug": "seed-agree-symm",
   "kind": "theorem",
   "name": "seedAgree_symm",
   "module_name": "TauLib.BookI.Addressability.OnticUltrametric",
-  "module_url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/",
+  "module_url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/",
   "source_line_start": 68,
   "source_line_end": 71,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/OnticUltrametric.lean#L68-L71",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Addressability.OnticUltrametric",
-        "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/"
+        "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Addressability.OnticUltrametric](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/)
+- Module: [TauLib.BookI.Addressability.OnticUltrametric](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/)
 - Source path: [`TauLib/BookI/Addressability/OnticUltrametric.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/OnticUltrametric.lean#L68-L71)
 - Source range: L68-L71
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

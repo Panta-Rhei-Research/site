@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "GaugeTransformationLaw",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.GaugeInvariance2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.GaugeInvariance2::GaugeTransformationLaw",
   "declaration_slug": "gauge-transformation-law",
   "kind": "structure",
   "name": "GaugeTransformationLaw",
   "module_name": "TauLib.BookIV.Electroweak.GaugeInvariance2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/",
   "source_line_start": 194,
   "source_line_end": 203,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance2.lean#L194-L203",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.GaugeInvariance2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.GaugeInvariance2](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/)
+- Module: [TauLib.BookIV.Electroweak.GaugeInvariance2](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/)
 - Source path: [`TauLib/BookIV/Electroweak/GaugeInvariance2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance2.lean#L194-L203)
 - Source range: L194-L203
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

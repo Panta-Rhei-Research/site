@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.QuantumMechanics.QuantumCharacters",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.QuantumMechanics.QuantumCharacters`.",
   "module_name": "TauLib.BookIV.QuantumMechanics.QuantumCharacters",
   "module_slug": "book-iv-quantum-mechanics-quantum-characters",
@@ -45,10 +45,12 @@
     {
       "kind": "structure",
       "name": "SpaceCharacter",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/space-character/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/space-character/",
       "source_line_start": 43,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D55"
       ]
@@ -56,10 +58,12 @@
     {
       "kind": "def",
       "name": "characters_on_torus",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-on-torus/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-on-torus/",
       "source_line_start": 58,
       "source_line_end": 61,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.P11"
       ]
@@ -67,19 +71,23 @@
     {
       "kind": "theorem",
       "name": "characters_determined_by_pair",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-determined-by-pair/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-determined-by-pair/",
       "source_line_start": 64,
       "source_line_end": 65,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiberCharacter",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/fiber-character/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/fiber-character/",
       "source_line_start": 77,
       "source_line_end": 84,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D56"
       ]
@@ -87,10 +95,12 @@
     {
       "kind": "structure",
       "name": "CharacterVariety",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-variety/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-variety/",
       "source_line_start": 87,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D56"
       ]
@@ -98,19 +108,23 @@
     {
       "kind": "def",
       "name": "char_variety",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/char-variety/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/char-variety/",
       "source_line_start": 97,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "automatic_quantization",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/automatic-quantization/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/automatic-quantization/",
       "source_line_start": 110,
       "source_line_end": 111,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P12"
       ]
@@ -118,10 +132,12 @@
     {
       "kind": "structure",
       "name": "CharacterPrecision",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-precision/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-precision/",
       "source_line_start": 120,
       "source_line_end": 131,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D57"
       ]
@@ -129,10 +145,12 @@
     {
       "kind": "structure",
       "name": "GeometricCharge",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/geometric-charge/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/geometric-charge/",
       "source_line_start": 140,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D58"
       ]
@@ -140,19 +158,23 @@
     {
       "kind": "def",
       "name": "unit_charge",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/unit-charge/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/unit-charge/",
       "source_line_start": 150,
       "source_line_end": 153,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "charge_quantized",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/charge-quantized/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/charge-quantized/",
       "source_line_start": 163,
       "source_line_end": 165,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P13"
       ]
@@ -160,10 +182,12 @@
     {
       "kind": "structure",
       "name": "EnergyDuality",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality/",
       "source_line_start": 180,
       "source_line_end": 194,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P14"
       ]
@@ -171,19 +195,23 @@
     {
       "kind": "theorem",
       "name": "energy_duality",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality-l197/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality-l197/",
       "source_line_start": 197,
       "source_line_end": 199,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "StateSharpness",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/state-sharpness/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/state-sharpness/",
       "source_line_start": 207,
       "source_line_end": 212,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D59"
       ]
@@ -191,10 +219,12 @@
     {
       "kind": "theorem",
       "name": "conjugate_tradeoff",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/conjugate-tradeoff/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/conjugate-tradeoff/",
       "source_line_start": 223,
       "source_line_end": 228,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P15"
       ]
@@ -202,10 +232,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l238/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l238/",
       "source_line_start": 238,
       "source_line_end": 238,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R15"
       ]
@@ -213,55 +245,67 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l239/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l239/",
       "source_line_start": 239,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l240/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l240/",
       "source_line_start": 240,
       "source_line_end": 240,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l241/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l241/",
       "source_line_start": 241,
       "source_line_end": 241,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l244/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l244/",
       "source_line_start": 244,
       "source_line_end": 244,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l245/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l245/",
       "source_line_start": 245,
       "source_line_end": 245,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l246/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l246/",
       "source_line_start": 246,
       "source_line_end": 248,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -273,7 +317,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -356,27 +400,27 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [SpaceCharacter](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/space-character/) | L43-L50 | defined | `IV.D55` |
-| `def` | [characters_on_torus](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-on-torus/) | L58-L61 | defined | `IV.P11` |
-| `theorem` | [characters_determined_by_pair](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-determined-by-pair/) | L64-L65 | formalized | — |
-| `structure` | [FiberCharacter](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/fiber-character/) | L77-L84 | defined | `IV.D56` |
-| `structure` | [CharacterVariety](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-variety/) | L87-L94 | defined | `IV.D56` |
-| `def` | [char_variety](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/char-variety/) | L97-L101 | defined | — |
-| `theorem` | [automatic_quantization](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/automatic-quantization/) | L110-L111 | formalized | `IV.P12` |
-| `structure` | [CharacterPrecision](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-precision/) | L120-L131 | defined | `IV.D57` |
-| `structure` | [GeometricCharge](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/geometric-charge/) | L140-L147 | defined | `IV.D58` |
-| `def` | [unit_charge](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/unit-charge/) | L150-L153 | defined | — |
-| `theorem` | [charge_quantized](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/charge-quantized/) | L163-L165 | formalized | `IV.P13` |
-| `structure` | [EnergyDuality](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality/) | L180-L194 | defined | `IV.P14` |
-| `theorem` | [energy_duality](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality-l197/) | L197-L199 | formalized | — |
-| `inductive` | [StateSharpness](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/state-sharpness/) | L207-L212 | defined | `IV.D59` |
-| `theorem` | [conjugate_tradeoff](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/conjugate-tradeoff/) | L223-L228 | formalized | `IV.P15` |
-| `eval` | [#eval L238](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l238/) | L238-L238 | computed | `IV.R15` |
-| `eval` | [#eval L239](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l239/) | L239-L239 | computed | — |
-| `eval` | [#eval L240](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l240/) | L240-L240 | computed | — |
-| `eval` | [#eval L241](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l241/) | L241-L241 | computed | — |
-| `eval` | [#eval L244](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l244/) | L244-L244 | computed | — |
-| `eval` | [#eval L245](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l245/) | L245-L245 | computed | — |
-| `eval` | [#eval L246](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l246/) | L246-L248 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [SpaceCharacter](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/space-character/) | L43-L50 | type/data schema | type/data schema | `IV.D55` |
+| `def` | [characters_on_torus](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-on-torus/) | L58-L61 | definition | definition | `IV.P11` |
+| `theorem` | [characters_determined_by_pair](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/characters-determined-by-pair/) | L64-L65 | proof obligation | formal proof obligation checked | — |
+| `structure` | [FiberCharacter](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/fiber-character/) | L77-L84 | type/data schema | type/data schema | `IV.D56` |
+| `structure` | [CharacterVariety](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-variety/) | L87-L94 | type/data schema | type/data schema | `IV.D56` |
+| `def` | [char_variety](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/char-variety/) | L97-L101 | definition | definition | — |
+| `theorem` | [automatic_quantization](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/automatic-quantization/) | L110-L111 | proof obligation | formal proof obligation checked | `IV.P12` |
+| `structure` | [CharacterPrecision](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-precision/) | L120-L131 | type/data schema | type/data schema | `IV.D57` |
+| `structure` | [GeometricCharge](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/geometric-charge/) | L140-L147 | type/data schema | type/data schema | `IV.D58` |
+| `def` | [unit_charge](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/unit-charge/) | L150-L153 | definition | definition | — |
+| `theorem` | [charge_quantized](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/charge-quantized/) | L163-L165 | proof obligation | formal proof obligation checked | `IV.P13` |
+| `structure` | [EnergyDuality](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality/) | L180-L194 | type/data schema | type/data schema | `IV.P14` |
+| `theorem` | [energy_duality](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/energy-duality-l197/) | L197-L199 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [StateSharpness](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/state-sharpness/) | L207-L212 | type/data schema | type/data schema | `IV.D59` |
+| `theorem` | [conjugate_tradeoff](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/conjugate-tradeoff/) | L223-L228 | proof obligation | formal proof obligation checked | `IV.P15` |
+| `eval` | [#eval L238](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l238/) | L238-L238 | computed check | computed check | `IV.R15` |
+| `eval` | [#eval L239](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l239/) | L239-L239 | computed check | computed check | — |
+| `eval` | [#eval L240](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l240/) | L240-L240 | computed check | computed check | — |
+| `eval` | [#eval L241](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l241/) | L241-L241 | computed check | computed check | — |
+| `eval` | [#eval L244](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l244/) | L244-L244 | computed check | computed check | — |
+| `eval` | [#eval L245](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l245/) | L245-L245 | computed check | computed check | — |
+| `eval` | [#eval L246](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/eval-l246/) | L246-L248 | computed check | computed check | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "IndividualNeutrinoMasses",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-neutrino-background/individual-neutrino-masses/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/individual-neutrino-masses/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Cosmology.NeutrinoBackground`.",
   "declaration_id": "TauLib.BookV.Cosmology.NeutrinoBackground::IndividualNeutrinoMasses",
   "declaration_slug": "individual-neutrino-masses",
   "kind": "structure",
   "name": "IndividualNeutrinoMasses",
   "module_name": "TauLib.BookV.Cosmology.NeutrinoBackground",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/",
   "source_line_start": 198,
   "source_line_end": 209,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L198-L209",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.NeutrinoBackground",
-        "url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/verify/taulib/docs/book-v-cosmology-neutrino-background/)
+- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/corpus/taulib/docs/book-v-cosmology-neutrino-background/)
 - Source path: [`TauLib/BookV/Cosmology/NeutrinoBackground.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L198-L209)
 - Source range: L198-L209
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L227",
-  "permalink": "/verify/taulib/docs/book-ii-closure-tau-manifold/eval-l227/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-tau-manifold/eval-l227/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Closure.TauManifold`.",
   "declaration_id": "TauLib.BookII.Closure.TauManifold::#eval:227",
   "declaration_slug": "eval-l227",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Closure.TauManifold",
-  "module_url": "/verify/taulib/docs/book-ii-closure-tau-manifold/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-tau-manifold/",
   "source_line_start": 227,
   "source_line_end": 227,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/TauManifold.lean#L227-L227",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.TauManifold",
-        "url": "/verify/taulib/docs/book-ii-closure-tau-manifold/"
+        "url": "/corpus/taulib/docs/book-ii-closure-tau-manifold/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.TauManifold](/verify/taulib/docs/book-ii-closure-tau-manifold/)
+- Module: [TauLib.BookII.Closure.TauManifold](/corpus/taulib/docs/book-ii-closure-tau-manifold/)
 - Source path: [`TauLib/BookII/Closure/TauManifold.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/TauManifold.lean#L227-L227)
 - Source range: L227-L227
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

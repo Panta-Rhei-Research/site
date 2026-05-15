@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.inv_mul_cancel",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-inv/inv-mul-cancel/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/inv-mul-cancel/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealInv`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealInv::TauReal.inv_mul_cancel",
   "declaration_slug": "inv-mul-cancel",
   "kind": "theorem",
   "name": "TauReal.inv_mul_cancel",
   "module_name": "TauLib.BookI.Boundary.TauRealInv",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/",
   "source_line_start": 160,
   "source_line_end": 163,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealInv.lean#L160-L163",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealInv",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealInv](/verify/taulib/docs/book-i-boundary-tau-real-inv/)
+- Module: [TauLib.BookI.Boundary.TauRealInv](/corpus/taulib/docs/book-i-boundary-tau-real-inv/)
 - Source path: [`TauLib/BookI/Boundary/TauRealInv.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealInv.lean#L160-L163)
 - Source range: L160-L163
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

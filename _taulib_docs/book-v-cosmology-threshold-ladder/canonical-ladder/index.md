@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_ladder",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/canonical-ladder/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/canonical-ladder/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.ThresholdLadder`.",
   "declaration_id": "TauLib.BookV.Cosmology.ThresholdLadder::canonical_ladder",
   "declaration_slug": "canonical-ladder",
   "kind": "def",
   "name": "canonical_ladder",
   "module_name": "TauLib.BookV.Cosmology.ThresholdLadder",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/",
   "source_line_start": 125,
   "source_line_end": 138,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/ThresholdLadder.lean#L125-L138",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.ThresholdLadder",
-        "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.ThresholdLadder](/verify/taulib/docs/book-v-cosmology-threshold-ladder/)
+- Module: [TauLib.BookV.Cosmology.ThresholdLadder](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/)
 - Source path: [`TauLib/BookV/Cosmology/ThresholdLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/ThresholdLadder.lean#L125-L138)
 - Source range: L125-L138
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

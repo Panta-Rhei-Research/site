@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "scope_declaration_count",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/scope-declaration-count/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/scope-declaration-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.MetaLogic.ReceptionCriterion`.",
   "declaration_id": "TauLib.BookI.MetaLogic.ReceptionCriterion::scope_declaration_count",
   "declaration_slug": "scope-declaration-count",
   "kind": "theorem",
   "name": "scope_declaration_count",
   "module_name": "TauLib.BookI.MetaLogic.ReceptionCriterion",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/",
   "source_line_start": 167,
   "source_line_end": 167,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/ReceptionCriterion.lean#L167-L167",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.ReceptionCriterion",
-        "url": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.ReceptionCriterion](/verify/taulib/docs/book-i-meta-logic-reception-criterion/)
+- Module: [TauLib.BookI.MetaLogic.ReceptionCriterion](/corpus/taulib/docs/book-i-meta-logic-reception-criterion/)
 - Source path: [`TauLib/BookI/MetaLogic/ReceptionCriterion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/ReceptionCriterion.lean#L167-L167)
 - Source range: L167-L167
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

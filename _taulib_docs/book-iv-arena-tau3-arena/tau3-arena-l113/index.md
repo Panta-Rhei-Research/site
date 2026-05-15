@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau3_arena",
-  "permalink": "/verify/taulib/docs/book-iv-arena-tau3-arena/tau3-arena-l113/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-tau3-arena/tau3-arena-l113/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Arena.Tau3Arena`.",
   "declaration_id": "TauLib.BookIV.Arena.Tau3Arena::tau3_arena",
   "declaration_slug": "tau3-arena-l113",
   "kind": "def",
   "name": "tau3_arena",
   "module_name": "TauLib.BookIV.Arena.Tau3Arena",
-  "module_url": "/verify/taulib/docs/book-iv-arena-tau3-arena/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/",
   "source_line_start": 113,
   "source_line_end": 117,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L113-L117",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.Tau3Arena",
-        "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/"
+        "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.Tau3Arena](/verify/taulib/docs/book-iv-arena-tau3-arena/)
+- Module: [TauLib.BookIV.Arena.Tau3Arena](/corpus/taulib/docs/book-iv-arena-tau3-arena/)
 - Source path: [`TauLib/BookIV/Arena/Tau3Arena.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L113-L117)
 - Source range: L113-L117
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

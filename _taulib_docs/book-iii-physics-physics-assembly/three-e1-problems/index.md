@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "three_e1_problems",
-  "permalink": "/verify/taulib/docs/book-iii-physics-physics-assembly/three-e1-problems/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-physics-assembly/three-e1-problems/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Physics.PhysicsAssembly`.",
   "declaration_id": "TauLib.BookIII.Physics.PhysicsAssembly::three_e1_problems",
   "declaration_slug": "three-e1-problems",
   "kind": "theorem",
   "name": "three_e1_problems",
   "module_name": "TauLib.BookIII.Physics.PhysicsAssembly",
-  "module_url": "/verify/taulib/docs/book-iii-physics-physics-assembly/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-physics-assembly/",
   "source_line_start": 153,
   "source_line_end": 157,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PhysicsAssembly.lean#L153-L157",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.PhysicsAssembly",
-        "url": "/verify/taulib/docs/book-iii-physics-physics-assembly/"
+        "url": "/corpus/taulib/docs/book-iii-physics-physics-assembly/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.PhysicsAssembly](/verify/taulib/docs/book-iii-physics-physics-assembly/)
+- Module: [TauLib.BookIII.Physics.PhysicsAssembly](/corpus/taulib/docs/book-iii-physics-physics-assembly/)
 - Source path: [`TauLib/BookIII/Physics/PhysicsAssembly.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PhysicsAssembly.lean#L153-L157)
 - Source range: L153-L157
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

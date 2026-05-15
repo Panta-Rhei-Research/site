@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Closure.ForwardBook3",
-  "permalink": "/verify/taulib/docs/book-ii-closure-forward-book3/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-forward-book3/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Closure.ForwardBook3`.",
   "module_name": "TauLib.BookII.Closure.ForwardBook3",
   "module_slug": "book-ii-closure-forward-book3",
@@ -34,10 +34,12 @@
     {
       "kind": "structure",
       "name": "E1ExportPackage",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/e1-export-package/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/e1-export-package/",
       "source_line_start": 49,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D66"
       ]
@@ -45,10 +47,12 @@
     {
       "kind": "def",
       "name": "compute_e1_export",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/compute-e1-export/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/compute-e1-export/",
       "source_line_start": 63,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "II.D66"
       ]
@@ -56,10 +60,12 @@
     {
       "kind": "def",
       "name": "export_package_complete",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-package-complete/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-package-complete/",
       "source_line_start": 74,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D66"
       ]
@@ -67,10 +73,12 @@
     {
       "kind": "def",
       "name": "full_export_check",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/full-export-check/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/full-export-check/",
       "source_line_start": 83,
       "source_line_end": 84,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D66"
       ]
@@ -78,28 +86,34 @@
     {
       "kind": "def",
       "name": "export_component_count",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-component-count/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-component-count/",
       "source_line_start": 91,
       "source_line_end": 97,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "export_all_six",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-all-six/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-all-six/",
       "source_line_start": 100,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "book3_entry_level",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/book3-entry-level/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/book3-entry-level/",
       "source_line_start": 109,
       "source_line_end": 113,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "II.D66"
       ]
@@ -107,136 +121,166 @@
     {
       "kind": "def",
       "name": "book3_starts_at_e1",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/book3-starts-at-e1/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/book3-starts-at-e1/",
       "source_line_start": 116,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l124/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l124/",
       "source_line_start": 124,
       "source_line_end": 124,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l130/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l130/",
       "source_line_start": 130,
       "source_line_end": 130,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l133/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l133/",
       "source_line_start": 133,
       "source_line_end": 133,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l136/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l136/",
       "source_line_start": 136,
       "source_line_end": 136,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l137/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l137/",
       "source_line_start": 137,
       "source_line_end": 137,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l140/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l140/",
       "source_line_start": 140,
       "source_line_end": 140,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l141/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l141/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l144/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l144/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l145/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l145/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l146/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l146/",
       "source_line_start": 146,
       "source_line_end": 146,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l147/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l147/",
       "source_line_start": 147,
       "source_line_end": 147,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l148/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l148/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/eval-l149/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l149/",
       "source_line_start": 149,
       "source_line_end": 149,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "full_export_3_15_3",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/full-export-3-15-3/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/full-export-3-15-3/",
       "source_line_start": 156,
       "source_line_end": 157,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D66"
       ]
@@ -244,10 +288,12 @@
     {
       "kind": "theorem",
       "name": "all_six_3_15_3",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/all-six-3-15-3/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/all-six-3-15-3/",
       "source_line_start": 160,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D66"
       ]
@@ -255,10 +301,12 @@
     {
       "kind": "theorem",
       "name": "book3_e1_3_15_3",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/book3-e1-3-15-3/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/book3-e1-3-15-3/",
       "source_line_start": 164,
       "source_line_end": 165,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D66"
       ]
@@ -266,64 +314,78 @@
     {
       "kind": "theorem",
       "name": "export_e1_layer",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-e1-layer/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-e1-layer/",
       "source_line_start": 168,
       "source_line_end": 169,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "export_central",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-central/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-central/",
       "source_line_start": 171,
       "source_line_end": 172,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "export_categoricity",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-categoricity/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-categoricity/",
       "source_line_start": 174,
       "source_line_end": 175,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "export_ladder",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-ladder/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-ladder/",
       "source_line_start": 177,
       "source_line_end": 178,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "export_manifold",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-manifold/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-manifold/",
       "source_line_start": 180,
       "source_line_end": 181,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "export_proto",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-proto/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-proto/",
       "source_line_start": 183,
       "source_line_end": 184,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "complete_means_six",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/complete-means-six/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/complete-means-six/",
       "source_line_start": 192,
       "source_line_end": 205,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D66"
       ]
@@ -331,10 +393,12 @@
     {
       "kind": "theorem",
       "name": "export_implies_e1",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-implies-e1/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-implies-e1/",
       "source_line_start": 209,
       "source_line_end": 215,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D66"
       ]
@@ -342,10 +406,12 @@
     {
       "kind": "theorem",
       "name": "export_implies_central",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/export-implies-central/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-implies-central/",
       "source_line_start": 219,
       "source_line_end": 225,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D66"
       ]
@@ -353,10 +419,12 @@
     {
       "kind": "theorem",
       "name": "e1_gt_e0",
-      "url": "/verify/taulib/docs/book-ii-closure-forward-book3/e1-gt-e0/",
+      "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/e1-gt-e0/",
       "source_line_start": 229,
       "source_line_end": 232,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D66"
       ]
@@ -370,7 +438,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -442,39 +510,39 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [E1ExportPackage](/verify/taulib/docs/book-ii-closure-forward-book3/e1-export-package/) | L49-L56 | defined | `II.D66` |
-| `def` | [compute_e1_export](/verify/taulib/docs/book-ii-closure-forward-book3/compute-e1-export/) | L63-L70 | defined | `II.D66` |
-| `def` | [export_package_complete](/verify/taulib/docs/book-ii-closure-forward-book3/export-package-complete/) | L74-L80 | defined | `II.D66` |
-| `def` | [full_export_check](/verify/taulib/docs/book-ii-closure-forward-book3/full-export-check/) | L83-L84 | defined | `II.D66` |
-| `def` | [export_component_count](/verify/taulib/docs/book-ii-closure-forward-book3/export-component-count/) | L91-L97 | defined | — |
-| `def` | [export_all_six](/verify/taulib/docs/book-ii-closure-forward-book3/export-all-six/) | L100-L101 | defined | — |
-| `def` | [book3_entry_level](/verify/taulib/docs/book-ii-closure-forward-book3/book3-entry-level/) | L109-L113 | defined | `II.D66` |
-| `def` | [book3_starts_at_e1](/verify/taulib/docs/book-ii-closure-forward-book3/book3-starts-at-e1/) | L116-L117 | defined | — |
-| `eval` | [#eval L124](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l124/) | L124-L124 | computed | — |
-| `eval` | [#eval L130](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l130/) | L130-L130 | computed | — |
-| `eval` | [#eval L133](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l133/) | L133-L133 | computed | — |
-| `eval` | [#eval L136](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l136/) | L136-L136 | computed | — |
-| `eval` | [#eval L137](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l137/) | L137-L137 | computed | — |
-| `eval` | [#eval L140](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l140/) | L140-L140 | computed | — |
-| `eval` | [#eval L141](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l141/) | L141-L141 | computed | — |
-| `eval` | [#eval L144](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l144/) | L144-L144 | computed | — |
-| `eval` | [#eval L145](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l145/) | L145-L145 | computed | — |
-| `eval` | [#eval L146](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l146/) | L146-L146 | computed | — |
-| `eval` | [#eval L147](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l147/) | L147-L147 | computed | — |
-| `eval` | [#eval L148](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l148/) | L148-L148 | computed | — |
-| `eval` | [#eval L149](/verify/taulib/docs/book-ii-closure-forward-book3/eval-l149/) | L149-L149 | computed | — |
-| `theorem` | [full_export_3_15_3](/verify/taulib/docs/book-ii-closure-forward-book3/full-export-3-15-3/) | L156-L157 | formalized | `II.D66` |
-| `theorem` | [all_six_3_15_3](/verify/taulib/docs/book-ii-closure-forward-book3/all-six-3-15-3/) | L160-L161 | formalized | `II.D66` |
-| `theorem` | [book3_e1_3_15_3](/verify/taulib/docs/book-ii-closure-forward-book3/book3-e1-3-15-3/) | L164-L165 | formalized | `II.D66` |
-| `theorem` | [export_e1_layer](/verify/taulib/docs/book-ii-closure-forward-book3/export-e1-layer/) | L168-L169 | formalized | — |
-| `theorem` | [export_central](/verify/taulib/docs/book-ii-closure-forward-book3/export-central/) | L171-L172 | formalized | — |
-| `theorem` | [export_categoricity](/verify/taulib/docs/book-ii-closure-forward-book3/export-categoricity/) | L174-L175 | formalized | — |
-| `theorem` | [export_ladder](/verify/taulib/docs/book-ii-closure-forward-book3/export-ladder/) | L177-L178 | formalized | — |
-| `theorem` | [export_manifold](/verify/taulib/docs/book-ii-closure-forward-book3/export-manifold/) | L180-L181 | formalized | — |
-| `theorem` | [export_proto](/verify/taulib/docs/book-ii-closure-forward-book3/export-proto/) | L183-L184 | formalized | — |
-| `theorem` | [complete_means_six](/verify/taulib/docs/book-ii-closure-forward-book3/complete-means-six/) | L192-L205 | formalized | `II.D66` |
-| `theorem` | [export_implies_e1](/verify/taulib/docs/book-ii-closure-forward-book3/export-implies-e1/) | L209-L215 | formalized | `II.D66` |
-| `theorem` | [export_implies_central](/verify/taulib/docs/book-ii-closure-forward-book3/export-implies-central/) | L219-L225 | formalized | `II.D66` |
-| `theorem` | [e1_gt_e0](/verify/taulib/docs/book-ii-closure-forward-book3/e1-gt-e0/) | L229-L232 | formalized | `II.D66` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [E1ExportPackage](/corpus/taulib/docs/book-ii-closure-forward-book3/e1-export-package/) | L49-L56 | type/data schema | type/data schema | `II.D66` |
+| `def` | [compute_e1_export](/corpus/taulib/docs/book-ii-closure-forward-book3/compute-e1-export/) | L63-L70 | definition | definition | `II.D66` |
+| `def` | [export_package_complete](/corpus/taulib/docs/book-ii-closure-forward-book3/export-package-complete/) | L74-L80 | data/computed value | data/computed value | `II.D66` |
+| `def` | [full_export_check](/corpus/taulib/docs/book-ii-closure-forward-book3/full-export-check/) | L83-L84 | data/computed value | data/computed value | `II.D66` |
+| `def` | [export_component_count](/corpus/taulib/docs/book-ii-closure-forward-book3/export-component-count/) | L91-L97 | data/computed value | data/computed value | — |
+| `def` | [export_all_six](/corpus/taulib/docs/book-ii-closure-forward-book3/export-all-six/) | L100-L101 | data/computed value | data/computed value | — |
+| `def` | [book3_entry_level](/corpus/taulib/docs/book-ii-closure-forward-book3/book3-entry-level/) | L109-L113 | definition | definition | `II.D66` |
+| `def` | [book3_starts_at_e1](/corpus/taulib/docs/book-ii-closure-forward-book3/book3-starts-at-e1/) | L116-L117 | data/computed value | data/computed value | — |
+| `eval` | [#eval L124](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l124/) | L124-L124 | computed check | computed check | — |
+| `eval` | [#eval L130](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l130/) | L130-L130 | computed check | computed check | — |
+| `eval` | [#eval L133](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l133/) | L133-L133 | computed check | computed check | — |
+| `eval` | [#eval L136](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l136/) | L136-L136 | computed check | computed check | — |
+| `eval` | [#eval L137](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l137/) | L137-L137 | computed check | computed check | — |
+| `eval` | [#eval L140](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l140/) | L140-L140 | computed check | computed check | — |
+| `eval` | [#eval L141](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l141/) | L141-L141 | computed check | computed check | — |
+| `eval` | [#eval L144](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l144/) | L144-L144 | computed check | computed check | — |
+| `eval` | [#eval L145](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l145/) | L145-L145 | computed check | computed check | — |
+| `eval` | [#eval L146](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l146/) | L146-L146 | computed check | computed check | — |
+| `eval` | [#eval L147](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l147/) | L147-L147 | computed check | computed check | — |
+| `eval` | [#eval L148](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l148/) | L148-L148 | computed check | computed check | — |
+| `eval` | [#eval L149](/corpus/taulib/docs/book-ii-closure-forward-book3/eval-l149/) | L149-L149 | computed check | computed check | — |
+| `theorem` | [full_export_3_15_3](/corpus/taulib/docs/book-ii-closure-forward-book3/full-export-3-15-3/) | L156-L157 | proof obligation | formal proof obligation checked | `II.D66` |
+| `theorem` | [all_six_3_15_3](/corpus/taulib/docs/book-ii-closure-forward-book3/all-six-3-15-3/) | L160-L161 | proof obligation | formal proof obligation checked | `II.D66` |
+| `theorem` | [book3_e1_3_15_3](/corpus/taulib/docs/book-ii-closure-forward-book3/book3-e1-3-15-3/) | L164-L165 | proof obligation | formal proof obligation checked | `II.D66` |
+| `theorem` | [export_e1_layer](/corpus/taulib/docs/book-ii-closure-forward-book3/export-e1-layer/) | L168-L169 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [export_central](/corpus/taulib/docs/book-ii-closure-forward-book3/export-central/) | L171-L172 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [export_categoricity](/corpus/taulib/docs/book-ii-closure-forward-book3/export-categoricity/) | L174-L175 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [export_ladder](/corpus/taulib/docs/book-ii-closure-forward-book3/export-ladder/) | L177-L178 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [export_manifold](/corpus/taulib/docs/book-ii-closure-forward-book3/export-manifold/) | L180-L181 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [export_proto](/corpus/taulib/docs/book-ii-closure-forward-book3/export-proto/) | L183-L184 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [complete_means_six](/corpus/taulib/docs/book-ii-closure-forward-book3/complete-means-six/) | L192-L205 | proof obligation | formal proof obligation checked | `II.D66` |
+| `theorem` | [export_implies_e1](/corpus/taulib/docs/book-ii-closure-forward-book3/export-implies-e1/) | L209-L215 | proof obligation | formal proof obligation checked | `II.D66` |
+| `theorem` | [export_implies_central](/corpus/taulib/docs/book-ii-closure-forward-book3/export-implies-central/) | L219-L225 | proof obligation | formal proof obligation checked | `II.D66` |
+| `theorem` | [e1_gt_e0](/corpus/taulib/docs/book-ii-closure-forward-book3/e1-gt-e0/) | L229-L232 | proof obligation | formal proof obligation checked | `II.D66` |

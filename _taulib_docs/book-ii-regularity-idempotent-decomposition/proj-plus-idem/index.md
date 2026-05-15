@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "proj_plus_idem",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/proj-plus-idem/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/proj-plus-idem/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Regularity.IdempotentDecomposition`.",
   "declaration_id": "TauLib.BookII.Regularity.IdempotentDecomposition::proj_plus_idem",
   "declaration_slug": "proj-plus-idem",
   "kind": "theorem",
   "name": "proj_plus_idem",
   "module_name": "TauLib.BookII.Regularity.IdempotentDecomposition",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/",
   "source_line_start": 111,
   "source_line_end": 113,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/IdempotentDecomposition.lean#L111-L113",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.IdempotentDecomposition",
-        "url": "/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.IdempotentDecomposition](/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/)
+- Module: [TauLib.BookII.Regularity.IdempotentDecomposition](/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/)
 - Source path: [`TauLib/BookII/Regularity/IdempotentDecomposition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/IdempotentDecomposition.lean#L111-L113)
 - Source range: L111-L113
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

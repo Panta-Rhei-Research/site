@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "info_preservation_structural",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bhbirth-topology/info-preservation-structural/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bhbirth-topology/info-preservation-structural/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.BHBirthTopology`.",
   "declaration_id": "TauLib.BookV.Cosmology.BHBirthTopology::info_preservation_structural",
   "declaration_slug": "info-preservation-structural",
   "kind": "def",
   "name": "info_preservation_structural",
   "module_name": "TauLib.BookV.Cosmology.BHBirthTopology",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bhbirth-topology/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bhbirth-topology/",
   "source_line_start": 336,
   "source_line_end": 336,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BHBirthTopology.lean#L336-L336",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BHBirthTopology",
-        "url": "/verify/taulib/docs/book-v-cosmology-bhbirth-topology/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bhbirth-topology/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BHBirthTopology](/verify/taulib/docs/book-v-cosmology-bhbirth-topology/)
+- Module: [TauLib.BookV.Cosmology.BHBirthTopology](/corpus/taulib/docs/book-v-cosmology-bhbirth-topology/)
 - Source path: [`TauLib/BookV/Cosmology/BHBirthTopology.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BHBirthTopology.lean#L336-L336)
 - Source range: L336-L336
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

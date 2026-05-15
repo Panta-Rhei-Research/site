@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "logos_characterization",
-  "permalink": "/verify/taulib/docs/book-vii-logos-sector/logos-characterization/",
+  "permalink": "/corpus/taulib/docs/book-vii-logos-sector/logos-characterization/",
   "summary_short": "`theorem` declaration in `TauLib.BookVII.Logos.Sector`.",
   "declaration_id": "TauLib.BookVII.Logos.Sector::logos_characterization",
   "declaration_slug": "logos-characterization",
   "kind": "theorem",
   "name": "logos_characterization",
   "module_name": "TauLib.BookVII.Logos.Sector",
-  "module_url": "/verify/taulib/docs/book-vii-logos-sector/",
+  "module_url": "/corpus/taulib/docs/book-vii-logos-sector/",
   "source_line_start": 421,
   "source_line_end": 432,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L421-L432",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Logos.Sector",
-        "url": "/verify/taulib/docs/book-vii-logos-sector/"
+        "url": "/corpus/taulib/docs/book-vii-logos-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Logos.Sector](/verify/taulib/docs/book-vii-logos-sector/)
+- Module: [TauLib.BookVII.Logos.Sector](/corpus/taulib/docs/book-vii-logos-sector/)
 - Source path: [`TauLib/BookVII/Logos/Sector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L421-L432)
 - Source range: L421-L432
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

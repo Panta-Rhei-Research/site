@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cylinder_count",
-  "permalink": "/verify/taulib/docs/book-ii-domains-cylinders/cylinder-count/",
+  "permalink": "/corpus/taulib/docs/book-ii-domains-cylinders/cylinder-count/",
   "summary_short": "`def` declaration in `TauLib.BookII.Domains.Cylinders`.",
   "declaration_id": "TauLib.BookII.Domains.Cylinders::cylinder_count",
   "declaration_slug": "cylinder-count",
   "kind": "def",
   "name": "cylinder_count",
   "module_name": "TauLib.BookII.Domains.Cylinders",
-  "module_url": "/verify/taulib/docs/book-ii-domains-cylinders/",
+  "module_url": "/corpus/taulib/docs/book-ii-domains-cylinders/",
   "source_line_start": 40,
   "source_line_end": 47,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Cylinders.lean#L40-L47",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Domains.Cylinders",
-        "url": "/verify/taulib/docs/book-ii-domains-cylinders/"
+        "url": "/corpus/taulib/docs/book-ii-domains-cylinders/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Domains.Cylinders](/verify/taulib/docs/book-ii-domains-cylinders/)
+- Module: [TauLib.BookII.Domains.Cylinders](/corpus/taulib/docs/book-ii-domains-cylinders/)
 - Source path: [`TauLib/BookII/Domains/Cylinders.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Cylinders.lean#L40-L47)
 - Source range: L40-L47
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

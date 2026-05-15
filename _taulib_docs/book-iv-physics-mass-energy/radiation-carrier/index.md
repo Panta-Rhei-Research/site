@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RadiationCarrier",
-  "permalink": "/verify/taulib/docs/book-iv-physics-mass-energy/radiation-carrier/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-mass-energy/radiation-carrier/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Physics.MassEnergy`.",
   "declaration_id": "TauLib.BookIV.Physics.MassEnergy::RadiationCarrier",
   "declaration_slug": "radiation-carrier",
   "kind": "structure",
   "name": "RadiationCarrier",
   "module_name": "TauLib.BookIV.Physics.MassEnergy",
-  "module_url": "/verify/taulib/docs/book-iv-physics-mass-energy/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-mass-energy/",
   "source_line_start": 179,
   "source_line_end": 184,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/MassEnergy.lean#L179-L184",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.MassEnergy",
-        "url": "/verify/taulib/docs/book-iv-physics-mass-energy/"
+        "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.MassEnergy](/verify/taulib/docs/book-iv-physics-mass-energy/)
+- Module: [TauLib.BookIV.Physics.MassEnergy](/corpus/taulib/docs/book-iv-physics-mass-energy/)
 - Source path: [`TauLib/BookIV/Physics/MassEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/MassEnergy.lean#L179-L184)
 - Source range: L179-L184
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

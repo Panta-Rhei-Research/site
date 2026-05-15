@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "split_complex_zero_divisor",
-  "permalink": "/verify/taulib/docs/book-i-polarity-lemniscate/split-complex-zero-divisor/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-lemniscate/split-complex-zero-divisor/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.Lemniscate`.",
   "declaration_id": "TauLib.BookI.Polarity.Lemniscate::split_complex_zero_divisor",
   "declaration_slug": "split-complex-zero-divisor",
   "kind": "theorem",
   "name": "split_complex_zero_divisor",
   "module_name": "TauLib.BookI.Polarity.Lemniscate",
-  "module_url": "/verify/taulib/docs/book-i-polarity-lemniscate/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-lemniscate/",
   "source_line_start": 120,
   "source_line_end": 122,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Lemniscate.lean#L120-L122",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.Lemniscate",
-        "url": "/verify/taulib/docs/book-i-polarity-lemniscate/"
+        "url": "/corpus/taulib/docs/book-i-polarity-lemniscate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.Lemniscate](/verify/taulib/docs/book-i-polarity-lemniscate/)
+- Module: [TauLib.BookI.Polarity.Lemniscate](/corpus/taulib/docs/book-i-polarity-lemniscate/)
 - Source path: [`TauLib/BookI/Polarity/Lemniscate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Lemniscate.lean#L120-L122)
 - Source range: L120-L122
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

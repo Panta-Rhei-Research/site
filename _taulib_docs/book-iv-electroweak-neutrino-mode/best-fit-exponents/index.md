@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bestFitExponents",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/best-fit-exponents/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/best-fit-exponents/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.NeutrinoMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.NeutrinoMode::bestFitExponents",
   "declaration_slug": "best-fit-exponents",
   "kind": "def",
   "name": "bestFitExponents",
   "module_name": "TauLib.BookIV.Electroweak.NeutrinoMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/",
   "source_line_start": 392,
   "source_line_end": 396,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L392-L396",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.NeutrinoMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/verify/taulib/docs/book-iv-electroweak-neutrino-mode/)
+- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/NeutrinoMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L392-L396)
 - Source range: L392-L396
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

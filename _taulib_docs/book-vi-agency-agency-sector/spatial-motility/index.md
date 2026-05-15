@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spatial_motility",
-  "permalink": "/verify/taulib/docs/book-vi-agency-agency-sector/spatial-motility/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-agency-sector/spatial-motility/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Agency.AgencySector`.",
   "declaration_id": "TauLib.BookVI.Agency.AgencySector::spatial_motility",
   "declaration_slug": "spatial-motility",
   "kind": "def",
   "name": "spatial_motility",
   "module_name": "TauLib.BookVI.Agency.AgencySector",
-  "module_url": "/verify/taulib/docs/book-vi-agency-agency-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-agency-agency-sector/",
   "source_line_start": 80,
   "source_line_end": 82,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/AgencySector.lean#L80-L82",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Agency.AgencySector",
-        "url": "/verify/taulib/docs/book-vi-agency-agency-sector/"
+        "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Agency.AgencySector](/verify/taulib/docs/book-vi-agency-agency-sector/)
+- Module: [TauLib.BookVI.Agency.AgencySector](/corpus/taulib/docs/book-vi-agency-agency-sector/)
 - Source path: [`TauLib/BookVI/Agency/AgencySector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/AgencySector.lean#L80-L82)
 - Source range: L80-L82
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

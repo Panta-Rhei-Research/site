@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "normalize",
-  "permalink": "/verify/taulib/docs/book-i-addressability-address-resolution/normalize/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-address-resolution/normalize/",
   "summary_short": "`def` declaration in `TauLib.BookI.Addressability.AddressResolution`.",
   "declaration_id": "TauLib.BookI.Addressability.AddressResolution::normalize",
   "declaration_slug": "normalize",
   "kind": "def",
   "name": "normalize",
   "module_name": "TauLib.BookI.Addressability.AddressResolution",
-  "module_url": "/verify/taulib/docs/book-i-addressability-address-resolution/",
+  "module_url": "/corpus/taulib/docs/book-i-addressability-address-resolution/",
   "source_line_start": 74,
   "source_line_end": 80,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/AddressResolution.lean#L74-L80",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Addressability.AddressResolution",
-        "url": "/verify/taulib/docs/book-i-addressability-address-resolution/"
+        "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Addressability.AddressResolution](/verify/taulib/docs/book-i-addressability-address-resolution/)
+- Module: [TauLib.BookI.Addressability.AddressResolution](/corpus/taulib/docs/book-i-addressability-address-resolution/)
 - Source path: [`TauLib/BookI/Addressability/AddressResolution.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/AddressResolution.lean#L74-L80)
 - Source range: L74-L80
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

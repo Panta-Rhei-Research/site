@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "magnetar_from_vortex",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-compact-objects/magnetar-from-vortex/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/magnetar-from-vortex/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.CompactObjects`.",
   "declaration_id": "TauLib.BookV.Astrophysics.CompactObjects::magnetar_from_vortex",
   "declaration_slug": "magnetar-from-vortex",
   "kind": "theorem",
   "name": "magnetar_from_vortex",
   "module_name": "TauLib.BookV.Astrophysics.CompactObjects",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/",
   "source_line_start": 214,
   "source_line_end": 216,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L214-L216",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.CompactObjects",
-        "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.CompactObjects](/verify/taulib/docs/book-v-astrophysics-compact-objects/)
+- Module: [TauLib.BookV.Astrophysics.CompactObjects](/corpus/taulib/docs/book-v-astrophysics-compact-objects/)
 - Source path: [`TauLib/BookV/Astrophysics/CompactObjects.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L214-L216)
 - Source range: L214-L216
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Astrophysics.KeplerSolarSystem`.",
   "module_name": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
   "module_slug": "book-v-astrophysics-kepler-solar-system",
@@ -46,19 +46,23 @@
     {
       "kind": "inductive",
       "name": "OrbitType",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/orbit-type/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/orbit-type/",
       "source_line_start": 63,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "KeplerOrbitData",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-orbit-data/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-orbit-data/",
       "source_line_start": 79,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D118"
       ]
@@ -66,28 +70,34 @@
     {
       "kind": "def",
       "name": "earth_orbit",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/earth-orbit/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/earth-orbit/",
       "source_line_start": 97,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "mercury_orbit",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/mercury-orbit/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/mercury-orbit/",
       "source_line_start": 106,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "kepler_first_law",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-first-law/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-first-law/",
       "source_line_start": 121,
       "source_line_end": 123,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T81"
       ]
@@ -95,10 +105,12 @@
     {
       "kind": "theorem",
       "name": "kepler_second_law",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-second-law/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-second-law/",
       "source_line_start": 128,
       "source_line_end": 130,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T82"
       ]
@@ -106,10 +118,12 @@
     {
       "kind": "theorem",
       "name": "kepler_third_law",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-third-law/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-third-law/",
       "source_line_start": 135,
       "source_line_end": 137,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T83"
       ]
@@ -117,10 +131,12 @@
     {
       "kind": "structure",
       "name": "TidalForceStructure",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-structure/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-structure/",
       "source_line_start": 147,
       "source_line_end": 158,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D119"
       ]
@@ -128,10 +144,12 @@
     {
       "kind": "theorem",
       "name": "tidal_force_gradient",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-gradient/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-gradient/",
       "source_line_start": 163,
       "source_line_end": 165,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T84"
       ]
@@ -139,10 +157,12 @@
     {
       "kind": "theorem",
       "name": "orbital_stability",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/orbital-stability/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/orbital-stability/",
       "source_line_start": 173,
       "source_line_end": 175,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P59"
       ]
@@ -150,10 +170,12 @@
     {
       "kind": "theorem",
       "name": "resonance_rational",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/resonance-rational/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/resonance-rational/",
       "source_line_start": 180,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P60"
       ]
@@ -161,10 +183,12 @@
     {
       "kind": "theorem",
       "name": "solar_system_single_readout",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/solar-system-single-readout/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/solar-system-single-readout/",
       "source_line_start": 188,
       "source_line_end": 190,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P61"
       ]
@@ -172,19 +196,23 @@
     {
       "kind": "inductive",
       "name": "PlanetaryType",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-type/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-type/",
       "source_line_start": 193,
       "source_line_end": 202,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "planetary_classification",
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-classification/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-classification/",
       "source_line_start": 207,
       "source_line_end": 210,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P62"
       ]
@@ -192,10 +220,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l239/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l239/",
       "source_line_start": 239,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R165",
         "V.R166",
@@ -206,28 +236,34 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l240/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l240/",
       "source_line_start": 240,
       "source_line_end": 240,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l241/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l241/",
       "source_line_start": 241,
       "source_line_end": 241,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l242/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l242/",
       "source_line_start": 242,
       "source_line_end": 244,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -239,7 +275,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -323,23 +359,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [OrbitType](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/orbit-type/) | L63-L72 | defined | — |
-| `structure` | [KeplerOrbitData](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-orbit-data/) | L79-L94 | defined | `V.D118` |
-| `def` | [earth_orbit](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/earth-orbit/) | L97-L103 | defined | — |
-| `def` | [mercury_orbit](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/mercury-orbit/) | L106-L112 | defined | — |
-| `theorem` | [kepler_first_law](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-first-law/) | L121-L123 | formalized | `V.T81` |
-| `theorem` | [kepler_second_law](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-second-law/) | L128-L130 | formalized | `V.T82` |
-| `theorem` | [kepler_third_law](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-third-law/) | L135-L137 | formalized | `V.T83` |
-| `structure` | [TidalForceStructure](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-structure/) | L147-L158 | defined | `V.D119` |
-| `theorem` | [tidal_force_gradient](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-gradient/) | L163-L165 | formalized | `V.T84` |
-| `theorem` | [orbital_stability](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/orbital-stability/) | L173-L175 | formalized | `V.P59` |
-| `theorem` | [resonance_rational](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/resonance-rational/) | L180-L182 | formalized | `V.P60` |
-| `theorem` | [solar_system_single_readout](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/solar-system-single-readout/) | L188-L190 | formalized | `V.P61` |
-| `inductive` | [PlanetaryType](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-type/) | L193-L202 | defined | — |
-| `theorem` | [planetary_classification](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-classification/) | L207-L210 | formalized | `V.P62` |
-| `eval` | [#eval L239](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l239/) | L239-L239 | computed | `V.R165`, `V.R166`, `V.R167`, `V.R168` |
-| `eval` | [#eval L240](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l240/) | L240-L240 | computed | — |
-| `eval` | [#eval L241](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l241/) | L241-L241 | computed | — |
-| `eval` | [#eval L242](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l242/) | L242-L244 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [OrbitType](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/orbit-type/) | L63-L72 | type/data schema | type/data schema | — |
+| `structure` | [KeplerOrbitData](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-orbit-data/) | L79-L94 | type/data schema | type/data schema | `V.D118` |
+| `def` | [earth_orbit](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/earth-orbit/) | L97-L103 | definition | definition | — |
+| `def` | [mercury_orbit](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/mercury-orbit/) | L106-L112 | definition | definition | — |
+| `theorem` | [kepler_first_law](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-first-law/) | L121-L123 | proof obligation | formal proof obligation checked | `V.T81` |
+| `theorem` | [kepler_second_law](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-second-law/) | L128-L130 | proof obligation | formal proof obligation checked | `V.T82` |
+| `theorem` | [kepler_third_law](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/kepler-third-law/) | L135-L137 | proof obligation | formal proof obligation checked | `V.T83` |
+| `structure` | [TidalForceStructure](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-structure/) | L147-L158 | type/data schema | type/data schema | `V.D119` |
+| `theorem` | [tidal_force_gradient](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-gradient/) | L163-L165 | proof obligation | formal proof obligation checked | `V.T84` |
+| `theorem` | [orbital_stability](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/orbital-stability/) | L173-L175 | proof obligation | formal proof obligation checked | `V.P59` |
+| `theorem` | [resonance_rational](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/resonance-rational/) | L180-L182 | proof obligation | formal proof obligation checked | `V.P60` |
+| `theorem` | [solar_system_single_readout](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/solar-system-single-readout/) | L188-L190 | proof obligation | formal proof obligation checked | `V.P61` |
+| `inductive` | [PlanetaryType](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-type/) | L193-L202 | type/data schema | type/data schema | — |
+| `theorem` | [planetary_classification](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/planetary-classification/) | L207-L210 | proof obligation | formal proof obligation checked | `V.P62` |
+| `eval` | [#eval L239](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l239/) | L239-L239 | computed check | computed check | `V.R165`, `V.R166`, `V.R167`, `V.R168` |
+| `eval` | [#eval L240](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l240/) | L240-L240 | computed check | computed check | — |
+| `eval` | [#eval L241](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l241/) | L241-L241 | computed check | computed check | — |
+| `eval` | [#eval L242](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l242/) | L242-L244 | computed check | computed check | — |

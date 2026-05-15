@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L163",
-  "permalink": "/verify/taulib/docs/book-ii-domains-cylinders/eval-l163/",
+  "permalink": "/corpus/taulib/docs/book-ii-domains-cylinders/eval-l163/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Domains.Cylinders`.",
   "declaration_id": "TauLib.BookII.Domains.Cylinders::#eval:163",
   "declaration_slug": "eval-l163",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Domains.Cylinders",
-  "module_url": "/verify/taulib/docs/book-ii-domains-cylinders/",
+  "module_url": "/corpus/taulib/docs/book-ii-domains-cylinders/",
   "source_line_start": 163,
   "source_line_end": 163,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Cylinders.lean#L163-L163",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Domains.Cylinders",
-        "url": "/verify/taulib/docs/book-ii-domains-cylinders/"
+        "url": "/corpus/taulib/docs/book-ii-domains-cylinders/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Domains.Cylinders](/verify/taulib/docs/book-ii-domains-cylinders/)
+- Module: [TauLib.BookII.Domains.Cylinders](/corpus/taulib/docs/book-ii-domains-cylinders/)
 - Source path: [`TauLib/BookII/Domains/Cylinders.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Cylinders.lean#L163-L163)
 - Source range: L163-L163
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

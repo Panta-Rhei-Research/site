@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hartogs_ingredient_spectral",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-spectral/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/hartogs-ingredient-spectral/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.GlobalHartogs`.",
   "declaration_id": "TauLib.BookI.Holomorphy.GlobalHartogs::hartogs_ingredient_spectral",
   "declaration_slug": "hartogs-ingredient-spectral",
   "kind": "theorem",
   "name": "hartogs_ingredient_spectral",
   "module_name": "TauLib.BookI.Holomorphy.GlobalHartogs",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/",
   "source_line_start": 86,
   "source_line_end": 90,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/GlobalHartogs.lean#L86-L90",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.GlobalHartogs",
-        "url": "/verify/taulib/docs/book-i-holomorphy-global-hartogs/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-global-hartogs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.GlobalHartogs](/verify/taulib/docs/book-i-holomorphy-global-hartogs/)
+- Module: [TauLib.BookI.Holomorphy.GlobalHartogs](/corpus/taulib/docs/book-i-holomorphy-global-hartogs/)
 - Source path: [`TauLib/BookI/Holomorphy/GlobalHartogs.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/GlobalHartogs.lean#L86-L90)
 - Source range: L86-L90
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

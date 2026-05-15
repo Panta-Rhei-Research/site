@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "elliptic_hartogs_not_natural",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/elliptic-hartogs-not-natural/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/elliptic-hartogs-not-natural/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Mirror.WaveHolomorphy`.",
   "declaration_id": "TauLib.BookII.Mirror.WaveHolomorphy::elliptic_hartogs_not_natural",
   "declaration_slug": "elliptic-hartogs-not-natural",
   "kind": "theorem",
   "name": "elliptic_hartogs_not_natural",
   "module_name": "TauLib.BookII.Mirror.WaveHolomorphy",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/",
   "source_line_start": 98,
   "source_line_end": 99,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/WaveHolomorphy.lean#L98-L99",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.WaveHolomorphy",
-        "url": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.WaveHolomorphy](/verify/taulib/docs/book-ii-mirror-wave-holomorphy/)
+- Module: [TauLib.BookII.Mirror.WaveHolomorphy](/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/)
 - Source path: [`TauLib/BookII/Mirror/WaveHolomorphy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/WaveHolomorphy.lean#L98-L99)
 - Source range: L98-L99
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

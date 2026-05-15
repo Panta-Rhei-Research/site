@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "b_to_i_zero",
-  "permalink": "/verify/taulib/docs/book-iii-doors-mutual-determination/b-to-i-zero/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-mutual-determination/b-to-i-zero/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.MutualDetermination`.",
   "declaration_id": "TauLib.BookIII.Doors.MutualDetermination::b_to_i_zero",
   "declaration_slug": "b-to-i-zero",
   "kind": "theorem",
   "name": "b_to_i_zero",
   "module_name": "TauLib.BookIII.Doors.MutualDetermination",
-  "module_url": "/verify/taulib/docs/book-iii-doors-mutual-determination/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/",
   "source_line_start": 138,
   "source_line_end": 139,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MutualDetermination.lean#L138-L139",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.MutualDetermination",
-        "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/"
+        "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.MutualDetermination](/verify/taulib/docs/book-iii-doors-mutual-determination/)
+- Module: [TauLib.BookIII.Doors.MutualDetermination](/corpus/taulib/docs/book-iii-doors-mutual-determination/)
 - Source path: [`TauLib/BookIII/Doors/MutualDetermination.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MutualDetermination.lean#L138-L139)
 - Source range: L138-L139
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tick_exhaustion",
-  "permalink": "/verify/taulib/docs/book-iv-physics-tick-units/tick-exhaustion/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-tick-units/tick-exhaustion/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Physics.TickUnits`.",
   "declaration_id": "TauLib.BookIV.Physics.TickUnits::tick_exhaustion",
   "declaration_slug": "tick-exhaustion",
   "kind": "theorem",
   "name": "tick_exhaustion",
   "module_name": "TauLib.BookIV.Physics.TickUnits",
-  "module_url": "/verify/taulib/docs/book-iv-physics-tick-units/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-tick-units/",
   "source_line_start": 149,
   "source_line_end": 152,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/TickUnits.lean#L149-L152",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.TickUnits",
-        "url": "/verify/taulib/docs/book-iv-physics-tick-units/"
+        "url": "/corpus/taulib/docs/book-iv-physics-tick-units/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.TickUnits](/verify/taulib/docs/book-iv-physics-tick-units/)
+- Module: [TauLib.BookIV.Physics.TickUnits](/corpus/taulib/docs/book-iv-physics-tick-units/)
 - Source path: [`TauLib/BookIV/Physics/TickUnits.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/TickUnits.lean#L149-L152)
 - Source range: L149-L152
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

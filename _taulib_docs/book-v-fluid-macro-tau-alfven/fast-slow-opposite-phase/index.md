@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fast_slow_opposite_phase",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/fast-slow-opposite-phase/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/fast-slow-opposite-phase/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.FluidMacro.TauAlfven`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauAlfven::fast_slow_opposite_phase",
   "declaration_slug": "fast-slow-opposite-phase",
   "kind": "theorem",
   "name": "fast_slow_opposite_phase",
   "module_name": "TauLib.BookV.FluidMacro.TauAlfven",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/",
   "source_line_start": 171,
   "source_line_end": 176,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauAlfven.lean#L171-L176",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauAlfven",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauAlfven](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/)
+- Module: [TauLib.BookV.FluidMacro.TauAlfven](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/)
 - Source path: [`TauLib/BookV/FluidMacro/TauAlfven.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauAlfven.lean#L171-L176)
 - Source range: L171-L176
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

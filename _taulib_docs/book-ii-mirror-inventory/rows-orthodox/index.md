@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "rows_orthodox",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-inventory/rows-orthodox/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-inventory/rows-orthodox/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Mirror.Inventory`.",
   "declaration_id": "TauLib.BookII.Mirror.Inventory::rows_orthodox",
   "declaration_slug": "rows-orthodox",
   "kind": "theorem",
   "name": "rows_orthodox",
   "module_name": "TauLib.BookII.Mirror.Inventory",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-inventory/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-inventory/",
   "source_line_start": 199,
   "source_line_end": 200,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/Inventory.lean#L199-L200",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.Inventory",
-        "url": "/verify/taulib/docs/book-ii-mirror-inventory/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-inventory/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.Inventory](/verify/taulib/docs/book-ii-mirror-inventory/)
+- Module: [TauLib.BookII.Mirror.Inventory](/corpus/taulib/docs/book-ii-mirror-inventory/)
 - Source path: [`TauLib/BookII/Mirror/Inventory.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/Inventory.lean#L199-L200)
 - Source range: L199-L200
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

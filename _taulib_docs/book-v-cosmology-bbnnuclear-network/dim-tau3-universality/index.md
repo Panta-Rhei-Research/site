@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "dim_tau3_universality",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/dim-tau3-universality/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/dim-tau3-universality/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.BBNNuclearNetwork`.",
   "declaration_id": "TauLib.BookV.Cosmology.BBNNuclearNetwork::dim_tau3_universality",
   "declaration_slug": "dim-tau3-universality",
   "kind": "theorem",
   "name": "dim_tau3_universality",
   "module_name": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/",
   "source_line_start": 455,
   "source_line_end": 460,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNNuclearNetwork.lean#L455-L460",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
-        "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BBNNuclearNetwork](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/)
+- Module: [TauLib.BookV.Cosmology.BBNNuclearNetwork](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/)
 - Source path: [`TauLib/BookV/Cosmology/BBNNuclearNetwork.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNNuclearNetwork.lean#L455-L460)
 - Source range: L455-L460
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

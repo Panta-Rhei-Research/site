@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HolFun",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/hol-fun/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/hol-fun/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Holomorphy.TauHolomorphic`.",
   "declaration_id": "TauLib.BookI.Holomorphy.TauHolomorphic::HolFun",
   "declaration_slug": "hol-fun",
   "kind": "structure",
   "name": "HolFun",
   "module_name": "TauLib.BookI.Holomorphy.TauHolomorphic",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/",
   "source_line_start": 117,
   "source_line_end": 121,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/TauHolomorphic.lean#L117-L121",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.TauHolomorphic",
-        "url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.TauHolomorphic](/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/)
+- Module: [TauLib.BookI.Holomorphy.TauHolomorphic](/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/)
 - Source path: [`TauLib/BookI/Holomorphy/TauHolomorphic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/TauHolomorphic.lean#L117-L121)
 - Source range: L117-L121
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

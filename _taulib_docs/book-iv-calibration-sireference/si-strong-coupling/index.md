@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "si_strong_coupling",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-sireference/si-strong-coupling/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-sireference/si-strong-coupling/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.SIReference`.",
   "declaration_id": "TauLib.BookIV.Calibration.SIReference::si_strong_coupling",
   "declaration_slug": "si-strong-coupling",
   "kind": "def",
   "name": "si_strong_coupling",
   "module_name": "TauLib.BookIV.Calibration.SIReference",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-sireference/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-sireference/",
   "source_line_start": 184,
   "source_line_end": 189,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L184-L189",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.SIReference",
-        "url": "/verify/taulib/docs/book-iv-calibration-sireference/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-sireference/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.SIReference](/verify/taulib/docs/book-iv-calibration-sireference/)
+- Module: [TauLib.BookIV.Calibration.SIReference](/corpus/taulib/docs/book-iv-calibration-sireference/)
 - Source path: [`TauLib/BookIV/Calibration/SIReference.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L184-L189)
 - Source range: L184-L189
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

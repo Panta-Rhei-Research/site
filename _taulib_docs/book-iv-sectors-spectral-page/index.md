@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Sectors.SpectralPage",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-spectral-page/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-spectral-page/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Sectors.SpectralPage`.",
   "module_name": "TauLib.BookIV.Sectors.SpectralPage",
   "module_slug": "book-iv-sectors-spectral-page",
@@ -35,10 +35,12 @@
     {
       "kind": "def",
       "name": "tensorModes",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/tensor-modes/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/tensor-modes/",
       "source_line_start": 50,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "IV.D331"
       ]
@@ -46,28 +48,34 @@
     {
       "kind": "def",
       "name": "emTensorActive",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active/",
       "source_line_start": 54,
       "source_line_end": 55,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "emTensorSilent",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent/",
       "source_line_start": 58,
       "source_line_end": 59,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "em_tensor_total",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-total/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-total/",
       "source_line_start": 66,
       "source_line_end": 66,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T133"
       ]
@@ -75,10 +83,12 @@
     {
       "kind": "theorem",
       "name": "em_tensor_active_count",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active-count/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active-count/",
       "source_line_start": 69,
       "source_line_end": 69,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T133"
       ]
@@ -86,46 +96,56 @@
     {
       "kind": "theorem",
       "name": "em_tensor_silent_count",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent-count/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent-count/",
       "source_line_start": 72,
       "source_line_end": 72,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tensor_partition",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/tensor-partition/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/tensor-partition/",
       "source_line_start": 75,
       "source_line_end": 76,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "density_is_square",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/density-is-square/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/density-is-square/",
       "source_line_start": 83,
       "source_line_end": 83,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "density_equals_square",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/density-equals-square/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/density-equals-square/",
       "source_line_start": 86,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tensor_equals_sieve_times_correction",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/tensor-equals-sieve-times-correction/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/tensor-equals-sieve-times-correction/",
       "source_line_start": 92,
       "source_line_end": 93,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P179"
       ]
@@ -133,37 +153,45 @@
     {
       "kind": "theorem",
       "name": "correction_cross_mult",
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/correction-cross-mult/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/correction-cross-mult/",
       "source_line_start": 97,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/eval-l104/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/eval-l104/",
       "source_line_start": 104,
       "source_line_end": 104,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/eval-l105/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/eval-l105/",
       "source_line_start": 105,
       "source_line_end": 105,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-spectral-page/eval-l106/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-spectral-page/eval-l106/",
       "source_line_start": 106,
       "source_line_end": 108,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -175,7 +203,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -248,19 +276,19 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [tensorModes](/verify/taulib/docs/book-iv-sectors-spectral-page/tensor-modes/) | L50-L51 | defined | `IV.D331` |
-| `def` | [emTensorActive](/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active/) | L54-L55 | defined | — |
-| `def` | [emTensorSilent](/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent/) | L58-L59 | defined | — |
-| `theorem` | [em_tensor_total](/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-total/) | L66-L66 | formalized | `IV.T133` |
-| `theorem` | [em_tensor_active_count](/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active-count/) | L69-L69 | formalized | `IV.T133` |
-| `theorem` | [em_tensor_silent_count](/verify/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent-count/) | L72-L72 | formalized | — |
-| `theorem` | [tensor_partition](/verify/taulib/docs/book-iv-sectors-spectral-page/tensor-partition/) | L75-L76 | formalized | — |
-| `theorem` | [density_is_square](/verify/taulib/docs/book-iv-sectors-spectral-page/density-is-square/) | L83-L83 | formalized | — |
-| `theorem` | [density_equals_square](/verify/taulib/docs/book-iv-sectors-spectral-page/density-equals-square/) | L86-L87 | formalized | — |
-| `theorem` | [tensor_equals_sieve_times_correction](/verify/taulib/docs/book-iv-sectors-spectral-page/tensor-equals-sieve-times-correction/) | L92-L93 | formalized | `IV.P179` |
-| `theorem` | [correction_cross_mult](/verify/taulib/docs/book-iv-sectors-spectral-page/correction-cross-mult/) | L97-L98 | formalized | — |
-| `eval` | [#eval L104](/verify/taulib/docs/book-iv-sectors-spectral-page/eval-l104/) | L104-L104 | computed | — |
-| `eval` | [#eval L105](/verify/taulib/docs/book-iv-sectors-spectral-page/eval-l105/) | L105-L105 | computed | — |
-| `eval` | [#eval L106](/verify/taulib/docs/book-iv-sectors-spectral-page/eval-l106/) | L106-L108 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [tensorModes](/corpus/taulib/docs/book-iv-sectors-spectral-page/tensor-modes/) | L50-L51 | data/computed value | data/computed value | `IV.D331` |
+| `def` | [emTensorActive](/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active/) | L54-L55 | data/computed value | data/computed value | — |
+| `def` | [emTensorSilent](/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent/) | L58-L59 | data/computed value | data/computed value | — |
+| `theorem` | [em_tensor_total](/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-total/) | L66-L66 | proof obligation | formal proof obligation checked | `IV.T133` |
+| `theorem` | [em_tensor_active_count](/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-active-count/) | L69-L69 | proof obligation | formal proof obligation checked | `IV.T133` |
+| `theorem` | [em_tensor_silent_count](/corpus/taulib/docs/book-iv-sectors-spectral-page/em-tensor-silent-count/) | L72-L72 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tensor_partition](/corpus/taulib/docs/book-iv-sectors-spectral-page/tensor-partition/) | L75-L76 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [density_is_square](/corpus/taulib/docs/book-iv-sectors-spectral-page/density-is-square/) | L83-L83 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [density_equals_square](/corpus/taulib/docs/book-iv-sectors-spectral-page/density-equals-square/) | L86-L87 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tensor_equals_sieve_times_correction](/corpus/taulib/docs/book-iv-sectors-spectral-page/tensor-equals-sieve-times-correction/) | L92-L93 | proof obligation | formal proof obligation checked | `IV.P179` |
+| `theorem` | [correction_cross_mult](/corpus/taulib/docs/book-iv-sectors-spectral-page/correction-cross-mult/) | L97-L98 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L104](/corpus/taulib/docs/book-iv-sectors-spectral-page/eval-l104/) | L104-L104 | computed check | computed check | — |
+| `eval` | [#eval L105](/corpus/taulib/docs/book-iv-sectors-spectral-page/eval-l105/) | L105-L105 | computed check | computed check | — |
+| `eval` | [#eval L106](/corpus/taulib/docs/book-iv-sectors-spectral-page/eval-l106/) | L106-L108 | computed check | computed check | — |

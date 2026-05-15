@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.lt_iff_le_and_not_equiv",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-order/lt-iff-le-and-not-equiv/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-order/lt-iff-le-and-not-equiv/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRatOrder`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatOrder::TauRat.lt_iff_le_and_not_equiv",
   "declaration_slug": "lt-iff-le-and-not-equiv",
   "kind": "theorem",
   "name": "TauRat.lt_iff_le_and_not_equiv",
   "module_name": "TauLib.BookI.Boundary.TauRatOrder",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-order/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-order/",
   "source_line_start": 100,
   "source_line_end": 112,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatOrder.lean#L100-L112",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatOrder",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-order/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-order/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatOrder](/verify/taulib/docs/book-i-boundary-tau-rat-order/)
+- Module: [TauLib.BookI.Boundary.TauRatOrder](/corpus/taulib/docs/book-i-boundary-tau-rat-order/)
 - Source path: [`TauLib/BookI/Boundary/TauRatOrder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatOrder.lean#L100-L112)
 - Source range: L100-L112
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

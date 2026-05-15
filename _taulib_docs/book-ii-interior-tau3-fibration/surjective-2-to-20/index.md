@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "surjective_2_to_20",
-  "permalink": "/verify/taulib/docs/book-ii-interior-tau3-fibration/surjective-2-to-20/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/surjective-2-to-20/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Interior.Tau3Fibration`.",
   "declaration_id": "TauLib.BookII.Interior.Tau3Fibration::surjective_2_to_20",
   "declaration_slug": "surjective-2-to-20",
   "kind": "theorem",
   "name": "surjective_2_to_20",
   "module_name": "TauLib.BookII.Interior.Tau3Fibration",
-  "module_url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/",
   "source_line_start": 177,
   "source_line_end": 177,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/Tau3Fibration.lean#L177-L177",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.Tau3Fibration",
-        "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/"
+        "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.Tau3Fibration](/verify/taulib/docs/book-ii-interior-tau3-fibration/)
+- Module: [TauLib.BookII.Interior.Tau3Fibration](/corpus/taulib/docs/book-ii-interior-tau3-fibration/)
 - Source path: [`TauLib/BookII/Interior/Tau3Fibration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/Tau3Fibration.lean#L177-L177)
 - Source range: L177-L177
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

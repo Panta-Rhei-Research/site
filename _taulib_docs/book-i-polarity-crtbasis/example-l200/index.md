@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L200",
-  "permalink": "/verify/taulib/docs/book-i-polarity-crtbasis/example-l200/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-crtbasis/example-l200/",
   "summary_short": "`example` declaration in `TauLib.BookI.Polarity.CRTBasis`.",
   "declaration_id": "TauLib.BookI.Polarity.CRTBasis::#eval:200",
   "declaration_slug": "example-l200",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.CRTBasis",
-  "module_url": "/verify/taulib/docs/book-i-polarity-crtbasis/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-crtbasis/",
   "source_line_start": 200,
   "source_line_end": 201,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/CRTBasis.lean#L200-L201",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.CRTBasis",
-        "url": "/verify/taulib/docs/book-i-polarity-crtbasis/"
+        "url": "/corpus/taulib/docs/book-i-polarity-crtbasis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.CRTBasis](/verify/taulib/docs/book-i-polarity-crtbasis/)
+- Module: [TauLib.BookI.Polarity.CRTBasis](/corpus/taulib/docs/book-i-polarity-crtbasis/)
 - Source path: [`TauLib/BookI/Polarity/CRTBasis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/CRTBasis.lean#L200-L201)
 - Source range: L200-L201
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

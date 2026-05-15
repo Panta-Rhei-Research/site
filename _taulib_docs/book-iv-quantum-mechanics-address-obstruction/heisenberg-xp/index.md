@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HeisenbergXP",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/heisenberg-xp/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/heisenberg-xp/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.QuantumMechanics.AddressObstruction`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.AddressObstruction::HeisenbergXP",
   "declaration_slug": "heisenberg-xp",
   "kind": "structure",
   "name": "HeisenbergXP",
   "module_name": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
   "source_line_start": 279,
   "source_line_end": 292,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L279-L292",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
+- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/AddressObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L279-L292)
 - Source range: L279-L292
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

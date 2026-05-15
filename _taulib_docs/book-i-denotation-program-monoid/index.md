@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Denotation.ProgramMonoid",
-  "permalink": "/verify/taulib/docs/book-i-denotation-program-monoid/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-program-monoid/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Denotation.ProgramMonoid`.",
   "module_name": "TauLib.BookI.Denotation.ProgramMonoid",
   "module_slug": "book-i-denotation-program-monoid",
@@ -37,10 +37,12 @@
     {
       "kind": "inductive",
       "name": "Instruction",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/instruction/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/instruction/",
       "source_line_start": 37,
       "source_line_end": 43,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D14"
       ]
@@ -48,82 +50,100 @@
     {
       "kind": "def",
       "name": "execInstruction",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-instruction/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-instruction/",
       "source_line_start": 46,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "execProgram",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-program/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-program/",
       "source_line_start": 52,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NormalForm",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/normal-form/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/normal-form/",
       "source_line_start": 60,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "countRho",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/count-rho/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/count-rho/",
       "source_line_start": 65,
       "source_line_end": 68,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "NormalForm.id",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/id/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/id/",
       "source_line_start": 71,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "NormalForm.compose",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/compose/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/compose/",
       "source_line_start": 76,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "execNF",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-nf/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-nf/",
       "source_line_start": 81,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "Program.compose",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/compose-l90/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/compose-l90/",
       "source_line_start": 90,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "compose_assoc",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/compose-assoc/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/compose-assoc/",
       "source_line_start": 93,
       "source_line_end": 95,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T03"
       ]
@@ -131,64 +151,78 @@
     {
       "kind": "theorem",
       "name": "compose_id_left",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/compose-id-left/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/compose-id-left/",
       "source_line_start": 98,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "compose_id_right",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/compose-id-right/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/compose-id-right/",
       "source_line_start": 103,
       "source_line_end": 105,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "exec_compose",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-compose/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-compose/",
       "source_line_start": 112,
       "source_line_end": 114,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "exec_nil",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-nil/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-nil/",
       "source_line_start": 117,
       "source_line_end": 118,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "exec_rho",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-rho/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-rho/",
       "source_line_start": 121,
       "source_line_end": 123,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "exec_sigma",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-sigma/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-sigma/",
       "source_line_start": 126,
       "source_line_end": 128,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rho_count_compose",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/rho-count-compose/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/rho-count-compose/",
       "source_line_start": 136,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.L02"
       ]
@@ -196,10 +230,12 @@
     {
       "kind": "theorem",
       "name": "rho_count_nil",
-      "url": "/verify/taulib/docs/book-i-denotation-program-monoid/rho-count-nil/",
+      "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/rho-count-nil/",
       "source_line_start": 152,
       "source_line_end": 154,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -211,7 +247,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -286,23 +322,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [Instruction](/verify/taulib/docs/book-i-denotation-program-monoid/instruction/) | L37-L43 | defined | `I.D14` |
-| `def` | [execInstruction](/verify/taulib/docs/book-i-denotation-program-monoid/exec-instruction/) | L46-L49 | defined | — |
-| `def` | [execProgram](/verify/taulib/docs/book-i-denotation-program-monoid/exec-program/) | L52-L53 | defined | — |
-| `structure` | [NormalForm](/verify/taulib/docs/book-i-denotation-program-monoid/normal-form/) | L60-L62 | defined | — |
-| `def` | [countRho](/verify/taulib/docs/book-i-denotation-program-monoid/count-rho/) | L65-L68 | defined | — |
-| `def` | [NormalForm.id](/verify/taulib/docs/book-i-denotation-program-monoid/id/) | L71-L73 | defined | — |
-| `def` | [NormalForm.compose](/verify/taulib/docs/book-i-denotation-program-monoid/compose/) | L76-L78 | defined | — |
-| `def` | [execNF](/verify/taulib/docs/book-i-denotation-program-monoid/exec-nf/) | L81-L83 | defined | — |
-| `def` | [Program.compose](/verify/taulib/docs/book-i-denotation-program-monoid/compose-l90/) | L90-L90 | defined | — |
-| `theorem` | [compose_assoc](/verify/taulib/docs/book-i-denotation-program-monoid/compose-assoc/) | L93-L95 | formalized | `I.T03` |
-| `theorem` | [compose_id_left](/verify/taulib/docs/book-i-denotation-program-monoid/compose-id-left/) | L98-L100 | formalized | — |
-| `theorem` | [compose_id_right](/verify/taulib/docs/book-i-denotation-program-monoid/compose-id-right/) | L103-L105 | formalized | — |
-| `theorem` | [exec_compose](/verify/taulib/docs/book-i-denotation-program-monoid/exec-compose/) | L112-L114 | formalized | — |
-| `theorem` | [exec_nil](/verify/taulib/docs/book-i-denotation-program-monoid/exec-nil/) | L117-L118 | formalized | — |
-| `theorem` | [exec_rho](/verify/taulib/docs/book-i-denotation-program-monoid/exec-rho/) | L121-L123 | formalized | — |
-| `theorem` | [exec_sigma](/verify/taulib/docs/book-i-denotation-program-monoid/exec-sigma/) | L126-L128 | formalized | — |
-| `theorem` | [rho_count_compose](/verify/taulib/docs/book-i-denotation-program-monoid/rho-count-compose/) | L136-L149 | formalized | `I.L02` |
-| `theorem` | [rho_count_nil](/verify/taulib/docs/book-i-denotation-program-monoid/rho-count-nil/) | L152-L154 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [Instruction](/corpus/taulib/docs/book-i-denotation-program-monoid/instruction/) | L37-L43 | type/data schema | type/data schema | `I.D14` |
+| `def` | [execInstruction](/corpus/taulib/docs/book-i-denotation-program-monoid/exec-instruction/) | L46-L49 | definition | definition | — |
+| `def` | [execProgram](/corpus/taulib/docs/book-i-denotation-program-monoid/exec-program/) | L52-L53 | definition | definition | — |
+| `structure` | [NormalForm](/corpus/taulib/docs/book-i-denotation-program-monoid/normal-form/) | L60-L62 | type/data schema | type/data schema | — |
+| `def` | [countRho](/corpus/taulib/docs/book-i-denotation-program-monoid/count-rho/) | L65-L68 | definition | definition | — |
+| `def` | [NormalForm.id](/corpus/taulib/docs/book-i-denotation-program-monoid/id/) | L71-L73 | definition | definition | — |
+| `def` | [NormalForm.compose](/corpus/taulib/docs/book-i-denotation-program-monoid/compose/) | L76-L78 | definition | definition | — |
+| `def` | [execNF](/corpus/taulib/docs/book-i-denotation-program-monoid/exec-nf/) | L81-L83 | definition | definition | — |
+| `def` | [Program.compose](/corpus/taulib/docs/book-i-denotation-program-monoid/compose-l90/) | L90-L90 | definition | definition | — |
+| `theorem` | [compose_assoc](/corpus/taulib/docs/book-i-denotation-program-monoid/compose-assoc/) | L93-L95 | proof obligation | formal proof obligation checked | `I.T03` |
+| `theorem` | [compose_id_left](/corpus/taulib/docs/book-i-denotation-program-monoid/compose-id-left/) | L98-L100 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [compose_id_right](/corpus/taulib/docs/book-i-denotation-program-monoid/compose-id-right/) | L103-L105 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [exec_compose](/corpus/taulib/docs/book-i-denotation-program-monoid/exec-compose/) | L112-L114 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [exec_nil](/corpus/taulib/docs/book-i-denotation-program-monoid/exec-nil/) | L117-L118 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [exec_rho](/corpus/taulib/docs/book-i-denotation-program-monoid/exec-rho/) | L121-L123 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [exec_sigma](/corpus/taulib/docs/book-i-denotation-program-monoid/exec-sigma/) | L126-L128 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rho_count_compose](/corpus/taulib/docs/book-i-denotation-program-monoid/rho-count-compose/) | L136-L149 | proof obligation | formal proof obligation checked | `I.L02` |
+| `theorem` | [rho_count_nil](/corpus/taulib/docs/book-i-denotation-program-monoid/rho-count-nil/) | L152-L154 | proof obligation | formal proof obligation checked | — |

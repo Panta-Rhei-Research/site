@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "theta_qcd_zero_from_sa_i",
-  "permalink": "/verify/taulib/docs/book-iv-particles-strong-cp/theta-qcd-zero-from-sa-i/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-strong-cp/theta-qcd-zero-from-sa-i/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Particles.StrongCP`.",
   "declaration_id": "TauLib.BookIV.Particles.StrongCP::theta_qcd_zero_from_sa_i",
   "declaration_slug": "theta-qcd-zero-from-sa-i",
   "kind": "theorem",
   "name": "theta_qcd_zero_from_sa_i",
   "module_name": "TauLib.BookIV.Particles.StrongCP",
-  "module_url": "/verify/taulib/docs/book-iv-particles-strong-cp/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-strong-cp/",
   "source_line_start": 73,
   "source_line_end": 73,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/StrongCP.lean#L73-L73",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.StrongCP",
-        "url": "/verify/taulib/docs/book-iv-particles-strong-cp/"
+        "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.StrongCP](/verify/taulib/docs/book-iv-particles-strong-cp/)
+- Module: [TauLib.BookIV.Particles.StrongCP](/corpus/taulib/docs/book-iv-particles-strong-cp/)
 - Source path: [`TauLib/BookIV/Particles/StrongCP.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/StrongCP.lean#L73-L73)
 - Source range: L73-L73
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

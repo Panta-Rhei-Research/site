@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ew_bridge",
-  "permalink": "/verify/taulib/docs/book-v-coda-bridge-to-life/ew-bridge/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-bridge-to-life/ew-bridge/",
   "summary_short": "`def` declaration in `TauLib.BookV.Coda.BridgeToLife`.",
   "declaration_id": "TauLib.BookV.Coda.BridgeToLife::ew_bridge",
   "declaration_slug": "ew-bridge",
   "kind": "def",
   "name": "ew_bridge",
   "module_name": "TauLib.BookV.Coda.BridgeToLife",
-  "module_url": "/verify/taulib/docs/book-v-coda-bridge-to-life/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-bridge-to-life/",
   "source_line_start": 329,
   "source_line_end": 329,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/BridgeToLife.lean#L329-L329",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.BridgeToLife",
-        "url": "/verify/taulib/docs/book-v-coda-bridge-to-life/"
+        "url": "/corpus/taulib/docs/book-v-coda-bridge-to-life/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.BridgeToLife](/verify/taulib/docs/book-v-coda-bridge-to-life/)
+- Module: [TauLib.BookV.Coda.BridgeToLife](/corpus/taulib/docs/book-v-coda-bridge-to-life/)
 - Source path: [`TauLib/BookV/Coda/BridgeToLife.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/BridgeToLife.lean#L329-L329)
 - Source range: L329-L329
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "yukawa_ordering",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/yukawa-ordering/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/yukawa-ordering/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.EWSynthesis`.",
   "declaration_id": "TauLib.BookIV.Electroweak.EWSynthesis::yukawa_ordering",
   "declaration_slug": "yukawa-ordering",
   "kind": "theorem",
   "name": "yukawa_ordering",
   "module_name": "TauLib.BookIV.Electroweak.EWSynthesis",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/",
   "source_line_start": 230,
   "source_line_end": 237,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L230-L237",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.EWSynthesis",
-        "url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/verify/taulib/docs/book-iv-electroweak-ewsynthesis/)
+- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/)
 - Source path: [`TauLib/BookIV/Electroweak/EWSynthesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L230-L237)
 - Source range: L230-L237
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

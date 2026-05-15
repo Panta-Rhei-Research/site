@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "classicalTruncation",
-  "permalink": "/verify/taulib/docs/book-i-topos-paraconsistent-soundness/classical-truncation/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/classical-truncation/",
   "summary_short": "`def` declaration in `TauLib.BookI.Topos.ParaconsistentSoundness`.",
   "declaration_id": "TauLib.BookI.Topos.ParaconsistentSoundness::classicalTruncation",
   "declaration_slug": "classical-truncation",
   "kind": "def",
   "name": "classicalTruncation",
   "module_name": "TauLib.BookI.Topos.ParaconsistentSoundness",
-  "module_url": "/verify/taulib/docs/book-i-topos-paraconsistent-soundness/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/",
   "source_line_start": 346,
   "source_line_end": 350,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/ParaconsistentSoundness.lean#L346-L350",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.ParaconsistentSoundness",
-        "url": "/verify/taulib/docs/book-i-topos-paraconsistent-soundness/"
+        "url": "/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.ParaconsistentSoundness](/verify/taulib/docs/book-i-topos-paraconsistent-soundness/)
+- Module: [TauLib.BookI.Topos.ParaconsistentSoundness](/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/)
 - Source path: [`TauLib/BookI/Topos/ParaconsistentSoundness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/ParaconsistentSoundness.lean#L346-L350)
 - Source range: L346-L350
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

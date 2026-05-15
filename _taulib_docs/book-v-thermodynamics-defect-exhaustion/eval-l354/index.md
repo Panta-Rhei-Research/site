@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L354",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/eval-l354/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/eval-l354/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Thermodynamics.DefectExhaustion`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.DefectExhaustion::#eval:354",
   "declaration_slug": "eval-l354",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Thermodynamics.DefectExhaustion",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/",
   "source_line_start": 354,
   "source_line_end": 354,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DefectExhaustion.lean#L354-L354",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.DefectExhaustion",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.DefectExhaustion](/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/)
+- Module: [TauLib.BookV.Thermodynamics.DefectExhaustion](/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/)
 - Source path: [`TauLib/BookV/Thermodynamics/DefectExhaustion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DefectExhaustion.lean#L354-L354)
 - Source range: L354-L354
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

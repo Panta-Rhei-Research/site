@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "abcd_coords",
-  "permalink": "/verify/taulib/docs/book-ii-topology-dimension-four/abcd-coords/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-dimension-four/abcd-coords/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.DimensionFour`.",
   "declaration_id": "TauLib.BookII.Topology.DimensionFour::abcd_coords",
   "declaration_slug": "abcd-coords",
   "kind": "def",
   "name": "abcd_coords",
   "module_name": "TauLib.BookII.Topology.DimensionFour",
-  "module_url": "/verify/taulib/docs/book-ii-topology-dimension-four/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-dimension-four/",
   "source_line_start": 38,
   "source_line_end": 40,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/DimensionFour.lean#L38-L40",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.DimensionFour",
-        "url": "/verify/taulib/docs/book-ii-topology-dimension-four/"
+        "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.DimensionFour](/verify/taulib/docs/book-ii-topology-dimension-four/)
+- Module: [TauLib.BookII.Topology.DimensionFour](/corpus/taulib/docs/book-ii-topology-dimension-four/)
 - Source path: [`TauLib/BookII/Topology/DimensionFour.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/DimensionFour.lean#L38-L40)
 - Source range: L38-L40
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

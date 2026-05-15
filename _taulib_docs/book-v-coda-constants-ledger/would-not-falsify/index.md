@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "would_not_falsify",
-  "permalink": "/verify/taulib/docs/book-v-coda-constants-ledger/would-not-falsify/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-constants-ledger/would-not-falsify/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Coda.ConstantsLedger`.",
   "declaration_id": "TauLib.BookV.Coda.ConstantsLedger::would_not_falsify",
   "declaration_slug": "would-not-falsify",
   "kind": "theorem",
   "name": "would_not_falsify",
   "module_name": "TauLib.BookV.Coda.ConstantsLedger",
-  "module_url": "/verify/taulib/docs/book-v-coda-constants-ledger/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-constants-ledger/",
   "source_line_start": 258,
   "source_line_end": 260,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/ConstantsLedger.lean#L258-L260",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.ConstantsLedger",
-        "url": "/verify/taulib/docs/book-v-coda-constants-ledger/"
+        "url": "/corpus/taulib/docs/book-v-coda-constants-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.ConstantsLedger](/verify/taulib/docs/book-v-coda-constants-ledger/)
+- Module: [TauLib.BookV.Coda.ConstantsLedger](/corpus/taulib/docs/book-v-coda-constants-ledger/)
 - Source path: [`TauLib/BookV/Coda/ConstantsLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/ConstantsLedger.lean#L258-L260)
 - Source range: L258-L260
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

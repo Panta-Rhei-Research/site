@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Orbit.Countability",
-  "permalink": "/verify/taulib/docs/book-i-orbit-countability/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-countability/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Orbit.Countability`.",
   "module_name": "TauLib.BookI.Orbit.Countability",
   "module_slug": "book-i-orbit-countability",
@@ -30,64 +30,78 @@
     {
       "kind": "def",
       "name": "orbitEnumerate",
-      "url": "/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate/",
+      "url": "/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate/",
       "source_line_start": 27,
       "source_line_end": 28,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_enumerate_injective",
-      "url": "/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate-injective/",
+      "url": "/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate-injective/",
       "source_line_start": 31,
       "source_line_end": 35,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_enumerate_surjective",
-      "url": "/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate-surjective/",
+      "url": "/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate-surjective/",
       "source_line_start": 38,
       "source_line_end": 43,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_enumerate_in_ray",
-      "url": "/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate-in-ray/",
+      "url": "/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate-in-ray/",
       "source_line_start": 46,
       "source_line_end": 48,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tauObj_encode",
-      "url": "/verify/taulib/docs/book-i-orbit-countability/tau-obj-encode/",
+      "url": "/corpus/taulib/docs/book-i-orbit-countability/tau-obj-encode/",
       "source_line_start": 56,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tauObj_encode_injective",
-      "url": "/verify/taulib/docs/book-i-orbit-countability/tau-obj-encode-injective/",
+      "url": "/corpus/taulib/docs/book-i-orbit-countability/tau-obj-encode-injective/",
       "source_line_start": 60,
       "source_line_end": 70,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tauObj_countable",
-      "url": "/verify/taulib/docs/book-i-orbit-countability/tau-obj-countable/",
+      "url": "/corpus/taulib/docs/book-i-orbit-countability/tau-obj-countable/",
       "source_line_start": 73,
       "source_line_end": 76,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P04"
       ]
@@ -101,7 +115,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -169,12 +183,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [orbitEnumerate](/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate/) | L27-L28 | defined | — |
-| `theorem` | [orbit_enumerate_injective](/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate-injective/) | L31-L35 | formalized | — |
-| `theorem` | [orbit_enumerate_surjective](/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate-surjective/) | L38-L43 | formalized | — |
-| `theorem` | [orbit_enumerate_in_ray](/verify/taulib/docs/book-i-orbit-countability/orbit-enumerate-in-ray/) | L46-L48 | formalized | — |
-| `def` | [tauObj_encode](/verify/taulib/docs/book-i-orbit-countability/tau-obj-encode/) | L56-L57 | defined | — |
-| `theorem` | [tauObj_encode_injective](/verify/taulib/docs/book-i-orbit-countability/tau-obj-encode-injective/) | L60-L70 | formalized | — |
-| `theorem` | [tauObj_countable](/verify/taulib/docs/book-i-orbit-countability/tau-obj-countable/) | L73-L76 | formalized | `I.P04` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [orbitEnumerate](/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate/) | L27-L28 | data/computed value | data/computed value | — |
+| `theorem` | [orbit_enumerate_injective](/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate-injective/) | L31-L35 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [orbit_enumerate_surjective](/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate-surjective/) | L38-L43 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [orbit_enumerate_in_ray](/corpus/taulib/docs/book-i-orbit-countability/orbit-enumerate-in-ray/) | L46-L48 | proof obligation | formal proof obligation checked | — |
+| `def` | [tauObj_encode](/corpus/taulib/docs/book-i-orbit-countability/tau-obj-encode/) | L56-L57 | data/computed value | data/computed value | — |
+| `theorem` | [tauObj_encode_injective](/corpus/taulib/docs/book-i-orbit-countability/tau-obj-encode-injective/) | L60-L70 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tauObj_countable](/corpus/taulib/docs/book-i-orbit-countability/tau-obj-countable/) | L73-L76 | proof obligation | formal proof obligation checked | `I.P04` |

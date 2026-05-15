@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example_holonomy",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-frame-holonomy/example-holonomy/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/example-holonomy/",
   "summary_short": "`def` declaration in `TauLib.BookV.GravityField.FrameHolonomy`.",
   "declaration_id": "TauLib.BookV.GravityField.FrameHolonomy::example_holonomy",
   "declaration_slug": "example-holonomy",
   "kind": "def",
   "name": "example_holonomy",
   "module_name": "TauLib.BookV.GravityField.FrameHolonomy",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-frame-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/",
   "source_line_start": 357,
   "source_line_end": 362,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/FrameHolonomy.lean#L357-L362",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.FrameHolonomy",
-        "url": "/verify/taulib/docs/book-v-gravity-field-frame-holonomy/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.FrameHolonomy](/verify/taulib/docs/book-v-gravity-field-frame-holonomy/)
+- Module: [TauLib.BookV.GravityField.FrameHolonomy](/corpus/taulib/docs/book-v-gravity-field-frame-holonomy/)
 - Source path: [`TauLib/BookV/GravityField/FrameHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/FrameHolonomy.lean#L357-L362)
 - Source range: L357-L362
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

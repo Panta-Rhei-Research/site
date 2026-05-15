@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauHorizon.radiusFloat",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/radius-float/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/radius-float/",
   "summary_short": "`def` declaration in `TauLib.BookV.GravityField.NonlinearEinstein`.",
   "declaration_id": "TauLib.BookV.GravityField.NonlinearEinstein::TauHorizon.radiusFloat",
   "declaration_slug": "radius-float",
   "kind": "def",
   "name": "TauHorizon.radiusFloat",
   "module_name": "TauLib.BookV.GravityField.NonlinearEinstein",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/",
   "source_line_start": 277,
   "source_line_end": 278,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/NonlinearEinstein.lean#L277-L278",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.NonlinearEinstein",
-        "url": "/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.NonlinearEinstein](/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/)
+- Module: [TauLib.BookV.GravityField.NonlinearEinstein](/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/)
 - Source path: [`TauLib/BookV/GravityField/NonlinearEinstein.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/NonlinearEinstein.lean#L277-L278)
 - Source range: L277-L278
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

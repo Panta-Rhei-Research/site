@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.iota_tau",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.TauRealIotaTau`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealIotaTau::TauReal.iota_tau",
   "declaration_slug": "iota-tau",
   "kind": "def",
   "name": "TauReal.iota_tau",
   "module_name": "TauLib.BookI.Boundary.TauRealIotaTau",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/",
   "source_line_start": 98,
   "source_line_end": 99,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealIotaTau.lean#L98-L99",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealIotaTau",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealIotaTau](/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/)
+- Module: [TauLib.BookI.Boundary.TauRealIotaTau](/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/)
 - Source path: [`TauLib/BookI/Boundary/TauRealIotaTau.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealIotaTau.lean#L98-L99)
 - Source range: L98-L99
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

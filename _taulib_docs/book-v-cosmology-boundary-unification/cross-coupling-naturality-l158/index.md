@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cross_coupling_naturality",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality-l158/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality-l158/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.BoundaryUnification`.",
   "declaration_id": "TauLib.BookV.Cosmology.BoundaryUnification::cross_coupling_naturality",
   "declaration_slug": "cross-coupling-naturality-l158",
   "kind": "theorem",
   "name": "cross_coupling_naturality",
   "module_name": "TauLib.BookV.Cosmology.BoundaryUnification",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/",
   "source_line_start": 158,
   "source_line_end": 160,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BoundaryUnification.lean#L158-L160",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BoundaryUnification",
-        "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BoundaryUnification](/verify/taulib/docs/book-v-cosmology-boundary-unification/)
+- Module: [TauLib.BookV.Cosmology.BoundaryUnification](/corpus/taulib/docs/book-v-cosmology-boundary-unification/)
 - Source path: [`TauLib/BookV/Cosmology/BoundaryUnification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BoundaryUnification.lean#L158-L160)
 - Source range: L158-L160
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

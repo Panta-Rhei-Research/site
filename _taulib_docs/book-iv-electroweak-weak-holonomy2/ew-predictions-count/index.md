@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ew_predictions_count",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy2/ew-predictions-count/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy2/ew-predictions-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.WeakHolonomy2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeakHolonomy2::ew_predictions_count",
   "declaration_slug": "ew-predictions-count",
   "kind": "theorem",
   "name": "ew_predictions_count",
   "module_name": "TauLib.BookIV.Electroweak.WeakHolonomy2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy2/",
   "source_line_start": 274,
   "source_line_end": 274,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakHolonomy2.lean#L274-L274",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeakHolonomy2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeakHolonomy2](/verify/taulib/docs/book-iv-electroweak-weak-holonomy2/)
+- Module: [TauLib.BookIV.Electroweak.WeakHolonomy2](/corpus/taulib/docs/book-iv-electroweak-weak-holonomy2/)
 - Source path: [`TauLib/BookIV/Electroweak/WeakHolonomy2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakHolonomy2.lean#L274-L274)
 - Source range: L274-L274
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

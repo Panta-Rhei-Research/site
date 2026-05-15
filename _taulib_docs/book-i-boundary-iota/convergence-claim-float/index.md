@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ConvergenceClaimFloat",
-  "permalink": "/verify/taulib/docs/book-i-boundary-iota/convergence-claim-float/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-iota/convergence-claim-float/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Iota`.",
   "declaration_id": "TauLib.BookI.Boundary.Iota::ConvergenceClaimFloat",
   "declaration_slug": "convergence-claim-float",
   "kind": "def",
   "name": "ConvergenceClaimFloat",
   "module_name": "TauLib.BookI.Boundary.Iota",
-  "module_url": "/verify/taulib/docs/book-i-boundary-iota/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-iota/",
   "source_line_start": 89,
   "source_line_end": 92,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L89-L92",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Iota",
-        "url": "/verify/taulib/docs/book-i-boundary-iota/"
+        "url": "/corpus/taulib/docs/book-i-boundary-iota/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Iota](/verify/taulib/docs/book-i-boundary-iota/)
+- Module: [TauLib.BookI.Boundary.Iota](/corpus/taulib/docs/book-i-boundary-iota/)
 - Source path: [`TauLib/BookI/Boundary/Iota.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L89-L92)
 - Source range: L89-L92
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

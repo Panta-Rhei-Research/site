@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L123",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-bsd/eval-l123/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-bsd/eval-l123/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Arithmetic.BSD`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.BSD::#eval:123",
   "declaration_slug": "eval-l123",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Arithmetic.BSD",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-bsd/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-bsd/",
   "source_line_start": 123,
   "source_line_end": 123,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/BSD.lean#L123-L123",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.BSD",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-bsd/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-bsd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.BSD](/verify/taulib/docs/book-iii-arithmetic-bsd/)
+- Module: [TauLib.BookIII.Arithmetic.BSD](/corpus/taulib/docs/book-iii-arithmetic-bsd/)
 - Source path: [`TauLib/BookIII/Arithmetic/BSD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/BSD.lean#L123-L123)
 - Source range: L123-L123
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

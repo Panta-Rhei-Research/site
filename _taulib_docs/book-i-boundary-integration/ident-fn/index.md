@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ident_fn",
-  "permalink": "/verify/taulib/docs/book-i-boundary-integration/ident-fn/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-integration/ident-fn/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Integration`.",
   "declaration_id": "TauLib.BookI.Boundary.Integration::ident_fn",
   "declaration_slug": "ident-fn",
   "kind": "def",
   "name": "ident_fn",
   "module_name": "TauLib.BookI.Boundary.Integration",
-  "module_url": "/verify/taulib/docs/book-i-boundary-integration/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-integration/",
   "source_line_start": 101,
   "source_line_end": 101,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Integration.lean#L101-L101",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Integration",
-        "url": "/verify/taulib/docs/book-i-boundary-integration/"
+        "url": "/corpus/taulib/docs/book-i-boundary-integration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Integration](/verify/taulib/docs/book-i-boundary-integration/)
+- Module: [TauLib.BookI.Boundary.Integration](/corpus/taulib/docs/book-i-boundary-integration/)
 - Source path: [`TauLib/BookI/Boundary/Integration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Integration.lean#L101-L101)
 - Source range: L101-L101
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "EtaEtaPrime",
-  "permalink": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/eta-eta-prime/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/eta-eta-prime/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Particles.HadronsNuclei`.",
   "declaration_id": "TauLib.BookIV.Particles.HadronsNuclei::EtaEtaPrime",
   "declaration_slug": "eta-eta-prime",
   "kind": "structure",
   "name": "EtaEtaPrime",
   "module_name": "TauLib.BookIV.Particles.HadronsNuclei",
-  "module_url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/",
   "source_line_start": 100,
   "source_line_end": 107,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L100-L107",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.HadronsNuclei",
-        "url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/"
+        "url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.HadronsNuclei](/verify/taulib/docs/book-iv-particles-hadrons-nuclei/)
+- Module: [TauLib.BookIV.Particles.HadronsNuclei](/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/)
 - Source path: [`TauLib/BookIV/Particles/HadronsNuclei.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L100-L107)
 - Source range: L100-L107
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "blocking_mechanism_count",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/blocking-mechanism-count/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/blocking-mechanism-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.MetaLogic.OnticInvariance`.",
   "declaration_id": "TauLib.BookI.MetaLogic.OnticInvariance::blocking_mechanism_count",
   "declaration_slug": "blocking-mechanism-count",
   "kind": "theorem",
   "name": "blocking_mechanism_count",
   "module_name": "TauLib.BookI.MetaLogic.OnticInvariance",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/",
   "source_line_start": 60,
   "source_line_end": 60,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/OnticInvariance.lean#L60-L60",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.OnticInvariance",
-        "url": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.OnticInvariance](/verify/taulib/docs/book-i-meta-logic-ontic-invariance/)
+- Module: [TauLib.BookI.MetaLogic.OnticInvariance](/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/)
 - Source path: [`TauLib/BookI/MetaLogic/OnticInvariance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/OnticInvariance.lean#L60-L60)
 - Source range: L60-L60
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

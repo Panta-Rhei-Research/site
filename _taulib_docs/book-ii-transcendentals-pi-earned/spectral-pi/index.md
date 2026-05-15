@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_pi",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-pi-earned/spectral-pi/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-pi-earned/spectral-pi/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Transcendentals.PiEarned`.",
   "declaration_id": "TauLib.BookII.Transcendentals.PiEarned::spectral_pi",
   "declaration_slug": "spectral-pi",
   "kind": "theorem",
   "name": "spectral_pi",
   "module_name": "TauLib.BookII.Transcendentals.PiEarned",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-pi-earned/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-pi-earned/",
   "source_line_start": 166,
   "source_line_end": 166,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/PiEarned.lean#L166-L166",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.PiEarned",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-pi-earned/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-pi-earned/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.PiEarned](/verify/taulib/docs/book-ii-transcendentals-pi-earned/)
+- Module: [TauLib.BookII.Transcendentals.PiEarned](/corpus/taulib/docs/book-ii-transcendentals-pi-earned/)
 - Source path: [`TauLib/BookII/Transcendentals/PiEarned.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/PiEarned.lean#L166-L166)
 - Source range: L166-L166
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

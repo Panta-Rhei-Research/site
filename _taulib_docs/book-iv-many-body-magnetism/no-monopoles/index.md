@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "NoMonopoles",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-magnetism/no-monopoles/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-magnetism/no-monopoles/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.ManyBody.Magnetism`.",
   "declaration_id": "TauLib.BookIV.ManyBody.Magnetism::NoMonopoles",
   "declaration_slug": "no-monopoles",
   "kind": "structure",
   "name": "NoMonopoles",
   "module_name": "TauLib.BookIV.ManyBody.Magnetism",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-magnetism/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-magnetism/",
   "source_line_start": 131,
   "source_line_end": 144,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/Magnetism.lean#L131-L144",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.Magnetism",
-        "url": "/verify/taulib/docs/book-iv-many-body-magnetism/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-magnetism/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.Magnetism](/verify/taulib/docs/book-iv-many-body-magnetism/)
+- Module: [TauLib.BookIV.ManyBody.Magnetism](/corpus/taulib/docs/book-iv-many-body-magnetism/)
 - Source path: [`TauLib/BookIV/ManyBody/Magnetism.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/Magnetism.lean#L131-L144)
 - Source range: L131-L144
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

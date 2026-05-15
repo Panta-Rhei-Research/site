@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example_decoherence",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/example-decoherence/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/example-decoherence/",
   "summary_short": "`def` declaration in `TauLib.BookIV.QuantumMechanics.Measurement`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.Measurement::example_decoherence",
   "declaration_slug": "example-decoherence",
   "kind": "def",
   "name": "example_decoherence",
   "module_name": "TauLib.BookIV.QuantumMechanics.Measurement",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/",
   "source_line_start": 288,
   "source_line_end": 291,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L288-L291",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.Measurement",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.Measurement](/verify/taulib/docs/book-iv-quantum-mechanics-measurement/)
+- Module: [TauLib.BookIV.QuantumMechanics.Measurement](/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/Measurement.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L288-L291)
 - Source range: L288-L291
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

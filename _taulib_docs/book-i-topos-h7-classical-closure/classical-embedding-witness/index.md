@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "classical_embedding_witness",
-  "permalink": "/verify/taulib/docs/book-i-topos-h7-classical-closure/classical-embedding-witness/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/classical-embedding-witness/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.H7ClassicalClosure`.",
   "declaration_id": "TauLib.BookI.Topos.H7ClassicalClosure::classical_embedding_witness",
   "declaration_slug": "classical-embedding-witness",
   "kind": "theorem",
   "name": "classical_embedding_witness",
   "module_name": "TauLib.BookI.Topos.H7ClassicalClosure",
-  "module_url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/",
   "source_line_start": 139,
   "source_line_end": 142,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7ClassicalClosure.lean#L139-L142",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.H7ClassicalClosure",
-        "url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/"
+        "url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.H7ClassicalClosure](/verify/taulib/docs/book-i-topos-h7-classical-closure/)
+- Module: [TauLib.BookI.Topos.H7ClassicalClosure](/corpus/taulib/docs/book-i-topos-h7-classical-closure/)
 - Source path: [`TauLib/BookI/Topos/H7ClassicalClosure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7ClassicalClosure.lean#L139-L142)
 - Source range: L139-L142
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

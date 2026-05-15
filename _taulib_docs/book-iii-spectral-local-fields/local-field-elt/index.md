@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "LocalFieldElt",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-local-fields/local-field-elt/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-local-fields/local-field-elt/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Spectral.LocalFields`.",
   "declaration_id": "TauLib.BookIII.Spectral.LocalFields::LocalFieldElt",
   "declaration_slug": "local-field-elt",
   "kind": "structure",
   "name": "LocalFieldElt",
   "module_name": "TauLib.BookIII.Spectral.LocalFields",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-local-fields/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-local-fields/",
   "source_line_start": 36,
   "source_line_end": 40,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/LocalFields.lean#L36-L40",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.LocalFields",
-        "url": "/verify/taulib/docs/book-iii-spectral-local-fields/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.LocalFields](/verify/taulib/docs/book-iii-spectral-local-fields/)
+- Module: [TauLib.BookIII.Spectral.LocalFields](/corpus/taulib/docs/book-iii-spectral-local-fields/)
 - Source path: [`TauLib/BookIII/Spectral/LocalFields.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/LocalFields.lean#L36-L40)
 - Source range: L36-L40
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

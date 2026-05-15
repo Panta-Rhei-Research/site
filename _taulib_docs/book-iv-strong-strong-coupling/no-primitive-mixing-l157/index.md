@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_primitive_mixing",
-  "permalink": "/verify/taulib/docs/book-iv-strong-strong-coupling/no-primitive-mixing-l157/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-strong-coupling/no-primitive-mixing-l157/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Strong.StrongCoupling`.",
   "declaration_id": "TauLib.BookIV.Strong.StrongCoupling::no_primitive_mixing",
   "declaration_slug": "no-primitive-mixing-l157",
   "kind": "def",
   "name": "no_primitive_mixing",
   "module_name": "TauLib.BookIV.Strong.StrongCoupling",
-  "module_url": "/verify/taulib/docs/book-iv-strong-strong-coupling/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-strong-coupling/",
   "source_line_start": 157,
   "source_line_end": 157,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/StrongCoupling.lean#L157-L157",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.StrongCoupling",
-        "url": "/verify/taulib/docs/book-iv-strong-strong-coupling/"
+        "url": "/corpus/taulib/docs/book-iv-strong-strong-coupling/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.StrongCoupling](/verify/taulib/docs/book-iv-strong-strong-coupling/)
+- Module: [TauLib.BookIV.Strong.StrongCoupling](/corpus/taulib/docs/book-iv-strong-strong-coupling/)
 - Source path: [`TauLib/BookIV/Strong/StrongCoupling.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/StrongCoupling.lean#L157-L157)
 - Source range: L157-L157
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

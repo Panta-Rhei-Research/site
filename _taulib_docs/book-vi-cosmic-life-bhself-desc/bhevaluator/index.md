@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BHEvaluator",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bhevaluator/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bhevaluator/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.CosmicLife.BHSelfDesc`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.BHSelfDesc::BHEvaluator",
   "declaration_slug": "bhevaluator",
   "kind": "structure",
   "name": "BHEvaluator",
   "module_name": "TauLib.BookVI.CosmicLife.BHSelfDesc",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/",
   "source_line_start": 89,
   "source_line_end": 96,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHSelfDesc.lean#L89-L96",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.BHSelfDesc",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.BHSelfDesc](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/)
+- Module: [TauLib.BookVI.CosmicLife.BHSelfDesc](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/)
 - Source path: [`TauLib/BookVI/CosmicLife/BHSelfDesc.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHSelfDesc.lean#L89-L96)
 - Source range: L89-L96
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

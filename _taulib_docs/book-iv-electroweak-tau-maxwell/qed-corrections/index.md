@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "qed_corrections",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-maxwell/qed-corrections/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/qed-corrections/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.TauMaxwell`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauMaxwell::qed_corrections",
   "declaration_slug": "qed-corrections",
   "kind": "theorem",
   "name": "qed_corrections",
   "module_name": "TauLib.BookIV.Electroweak.TauMaxwell",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-maxwell/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/",
   "source_line_start": 470,
   "source_line_end": 470,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauMaxwell.lean#L470-L470",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauMaxwell",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-maxwell/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauMaxwell](/verify/taulib/docs/book-iv-electroweak-tau-maxwell/)
+- Module: [TauLib.BookIV.Electroweak.TauMaxwell](/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/)
 - Source path: [`TauLib/BookIV/Electroweak/TauMaxwell.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauMaxwell.lean#L470-L470)
 - Source range: L470-L470
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

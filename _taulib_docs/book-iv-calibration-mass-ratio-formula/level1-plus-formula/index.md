@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Level1PlusFormula",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/level1-plus-formula/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/level1-plus-formula/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.MassRatioFormula`.",
   "declaration_id": "TauLib.BookIV.Calibration.MassRatioFormula::Level1PlusFormula",
   "declaration_slug": "level1-plus-formula",
   "kind": "structure",
   "name": "Level1PlusFormula",
   "module_name": "TauLib.BookIV.Calibration.MassRatioFormula",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/",
   "source_line_start": 270,
   "source_line_end": 281,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/MassRatioFormula.lean#L270-L281",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.MassRatioFormula",
-        "url": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.MassRatioFormula](/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/)
+- Module: [TauLib.BookIV.Calibration.MassRatioFormula](/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/)
 - Source path: [`TauLib/BookIV/Calibration/MassRatioFormula.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/MassRatioFormula.lean#L270-L281)
 - Source range: L270-L281
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

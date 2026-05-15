@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L92",
-  "permalink": "/verify/taulib/docs/book-i-denotation-growth-escape/eval-l92/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-growth-escape/eval-l92/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Denotation.GrowthEscape`.",
   "declaration_id": "TauLib.BookI.Denotation.GrowthEscape::#eval:92",
   "declaration_slug": "eval-l92",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Denotation.GrowthEscape",
-  "module_url": "/verify/taulib/docs/book-i-denotation-growth-escape/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-growth-escape/",
   "source_line_start": 92,
   "source_line_end": 92,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/GrowthEscape.lean#L92-L92",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.GrowthEscape",
-        "url": "/verify/taulib/docs/book-i-denotation-growth-escape/"
+        "url": "/corpus/taulib/docs/book-i-denotation-growth-escape/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.GrowthEscape](/verify/taulib/docs/book-i-denotation-growth-escape/)
+- Module: [TauLib.BookI.Denotation.GrowthEscape](/corpus/taulib/docs/book-i-denotation-growth-escape/)
 - Source path: [`TauLib/BookI/Denotation/GrowthEscape.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/GrowthEscape.lean#L92-L92)
 - Source range: L92-L92
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

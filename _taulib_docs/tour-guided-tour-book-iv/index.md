@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Tour.GuidedTour.BookIV",
-  "permalink": "/verify/taulib/docs/tour-guided-tour-book-iv/",
+  "permalink": "/corpus/taulib/docs/tour-guided-tour-book-iv/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Tour.GuidedTour.BookIV`.",
   "module_name": "TauLib.Tour.GuidedTour.BookIV",
   "module_slug": "tour-guided-tour-book-iv",
@@ -31,37 +31,45 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-guided-tour-book-iv/eval-l97/",
+      "url": "/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l97/",
       "source_line_start": 97,
       "source_line_end": 97,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-guided-tour-book-iv/eval-l98/",
+      "url": "/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l98/",
       "source_line_start": 98,
       "source_line_end": 128,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-guided-tour-book-iv/eval-l129/",
+      "url": "/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l129/",
       "source_line_start": 129,
       "source_line_end": 139,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-guided-tour-book-iv/eval-l142/",
+      "url": "/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l142/",
       "source_line_start": 142,
       "source_line_end": 164,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -73,7 +81,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -146,9 +154,9 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `eval` | [#eval L97](/verify/taulib/docs/tour-guided-tour-book-iv/eval-l97/) | L97-L97 | computed | — |
-| `eval` | [#eval L98](/verify/taulib/docs/tour-guided-tour-book-iv/eval-l98/) | L98-L128 | computed | — |
-| `eval` | [#eval L129](/verify/taulib/docs/tour-guided-tour-book-iv/eval-l129/) | L129-L139 | computed | — |
-| `eval` | [#eval L142](/verify/taulib/docs/tour-guided-tour-book-iv/eval-l142/) | L142-L164 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `eval` | [#eval L97](/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l97/) | L97-L97 | computed check | computed check | — |
+| `eval` | [#eval L98](/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l98/) | L98-L128 | computed check | computed check | — |
+| `eval` | [#eval L129](/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l129/) | L129-L139 | computed check | computed check | — |
+| `eval` | [#eval L142](/corpus/taulib/docs/tour-guided-tour-book-iv/eval-l142/) | L142-L164 | computed check | computed check | — |

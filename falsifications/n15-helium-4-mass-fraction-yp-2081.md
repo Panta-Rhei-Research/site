@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N15 — Helium-4 mass fraction $Y_p = 20/81$"
-permalink: "/results/falsifications/n15-helium-4-mass-fraction-yp-2081/"
+permalink: "/falsifications/n15-helium-4-mass-fraction-yp-2081/"
 lane: "results"
 falsification_id: "N15"
 n_num: 15

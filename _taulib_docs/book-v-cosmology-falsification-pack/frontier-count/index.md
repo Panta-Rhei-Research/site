@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "frontier_count",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-falsification-pack/frontier-count/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/frontier-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.FalsificationPack`.",
   "declaration_id": "TauLib.BookV.Cosmology.FalsificationPack::frontier_count",
   "declaration_slug": "frontier-count",
   "kind": "theorem",
   "name": "frontier_count",
   "module_name": "TauLib.BookV.Cosmology.FalsificationPack",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/",
-  "source_line_start": 216,
-  "source_line_end": 217,
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/",
+  "source_line_start": 379,
+  "source_line_end": 380,
   "registry_ids": [],
   "related_registry_items": [],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L216-L217",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L379-L380",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.FalsificationPack",
-        "url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -34,14 +36,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L216-L217",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L379-L380",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.FalsificationPack](/verify/taulib/docs/book-v-cosmology-falsification-pack/)
-- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L216-L217)
-- Source range: L216-L217
+- Module: [TauLib.BookV.Cosmology.FalsificationPack](/corpus/taulib/docs/book-v-cosmology-falsification-pack/)
+- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L379-L380)
+- Source range: L379-L380
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

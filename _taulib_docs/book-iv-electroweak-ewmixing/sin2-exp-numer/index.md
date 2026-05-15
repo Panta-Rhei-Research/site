@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sin2_exp_numer",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-ewmixing/sin2-exp-numer/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-ewmixing/sin2-exp-numer/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.EWMixing`.",
   "declaration_id": "TauLib.BookIV.Electroweak.EWMixing::sin2_exp_numer",
   "declaration_slug": "sin2-exp-numer",
   "kind": "def",
   "name": "sin2_exp_numer",
   "module_name": "TauLib.BookIV.Electroweak.EWMixing",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-ewmixing/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-ewmixing/",
   "source_line_start": 360,
   "source_line_end": 360,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWMixing.lean#L360-L360",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.EWMixing",
-        "url": "/verify/taulib/docs/book-iv-electroweak-ewmixing/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-ewmixing/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.EWMixing](/verify/taulib/docs/book-iv-electroweak-ewmixing/)
+- Module: [TauLib.BookIV.Electroweak.EWMixing](/corpus/taulib/docs/book-iv-electroweak-ewmixing/)
 - Source path: [`TauLib/BookIV/Electroweak/EWMixing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWMixing.lean#L360-L360)
 - Source range: L360-L360
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

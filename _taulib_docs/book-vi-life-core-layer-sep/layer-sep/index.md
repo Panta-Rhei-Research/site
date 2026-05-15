@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "layer_sep",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-layer-sep/layer-sep/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-layer-sep/layer-sep/",
   "summary_short": "`def` declaration in `TauLib.BookVI.LifeCore.LayerSep`.",
   "declaration_id": "TauLib.BookVI.LifeCore.LayerSep::layer_sep",
   "declaration_slug": "layer-sep",
   "kind": "def",
   "name": "layer_sep",
   "module_name": "TauLib.BookVI.LifeCore.LayerSep",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-layer-sep/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/",
   "source_line_start": 49,
   "source_line_end": 49,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/LayerSep.lean#L49-L49",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.LayerSep",
-        "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.LayerSep](/verify/taulib/docs/book-vi-life-core-layer-sep/)
+- Module: [TauLib.BookVI.LifeCore.LayerSep](/corpus/taulib/docs/book-vi-life-core-layer-sep/)
 - Source path: [`TauLib/BookVI/LifeCore/LayerSep.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/LayerSep.lean#L49-L49)
 - Source range: L49-L49
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "boundary_to_interior_check",
-  "permalink": "/verify/taulib/docs/book-iii-doors-mutual-determination/boundary-to-interior-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-mutual-determination/boundary-to-interior-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.MutualDetermination`.",
   "declaration_id": "TauLib.BookIII.Doors.MutualDetermination::boundary_to_interior_check",
   "declaration_slug": "boundary-to-interior-check",
   "kind": "def",
   "name": "boundary_to_interior_check",
   "module_name": "TauLib.BookIII.Doors.MutualDetermination",
-  "module_url": "/verify/taulib/docs/book-iii-doors-mutual-determination/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/",
   "source_line_start": 42,
   "source_line_end": 56,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MutualDetermination.lean#L42-L56",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.MutualDetermination",
-        "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/"
+        "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.MutualDetermination](/verify/taulib/docs/book-iii-doors-mutual-determination/)
+- Module: [TauLib.BookIII.Doors.MutualDetermination](/corpus/taulib/docs/book-iii-doors-mutual-determination/)
 - Source path: [`TauLib/BookIII/Doors/MutualDetermination.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MutualDetermination.lean#L42-L56)
 - Source range: L42-L56
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

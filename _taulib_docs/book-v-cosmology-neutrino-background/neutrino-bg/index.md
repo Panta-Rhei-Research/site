@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "neutrino_bg",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-neutrino-background/neutrino-bg/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/neutrino-bg/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.NeutrinoBackground`.",
   "declaration_id": "TauLib.BookV.Cosmology.NeutrinoBackground::neutrino_bg",
   "declaration_slug": "neutrino-bg",
   "kind": "def",
   "name": "neutrino_bg",
   "module_name": "TauLib.BookV.Cosmology.NeutrinoBackground",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/",
   "source_line_start": 62,
   "source_line_end": 64,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L62-L64",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.NeutrinoBackground",
-        "url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/verify/taulib/docs/book-v-cosmology-neutrino-background/)
+- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/corpus/taulib/docs/book-v-cosmology-neutrino-background/)
 - Source path: [`TauLib/BookV/Cosmology/NeutrinoBackground.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L62-L64)
 - Source range: L62-L64
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

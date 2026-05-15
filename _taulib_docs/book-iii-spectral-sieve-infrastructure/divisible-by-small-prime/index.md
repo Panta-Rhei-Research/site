@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "divisible_by_small_prime",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/divisible-by-small-prime/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/divisible-by-small-prime/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.SieveInfrastructure`.",
   "declaration_id": "TauLib.BookIII.Spectral.SieveInfrastructure::divisible_by_small_prime",
   "declaration_slug": "divisible-by-small-prime",
   "kind": "def",
   "name": "divisible_by_small_prime",
   "module_name": "TauLib.BookIII.Spectral.SieveInfrastructure",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/",
   "source_line_start": 124,
   "source_line_end": 134,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/SieveInfrastructure.lean#L124-L134",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.SieveInfrastructure",
-        "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.SieveInfrastructure](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/)
+- Module: [TauLib.BookIII.Spectral.SieveInfrastructure](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/)
 - Source path: [`TauLib/BookIII/Spectral/SieveInfrastructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/SieveInfrastructure.lean#L124-L134)
 - Source range: L124-L134
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_germ_transformer_check",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-extensions-omega-germs/omega-germ-transformer-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-extensions-omega-germs/omega-germ-transformer-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms::omega_germ_transformer_check",
   "declaration_slug": "omega-germ-transformer-check",
   "kind": "def",
   "name": "omega_germ_transformer_check",
   "module_name": "TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-extensions-omega-germs/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-extensions-omega-germs/",
   "source_line_start": 144,
   "source_line_end": 160,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/ExtensionsOmegaGerms.lean#L144-L160",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-extensions-omega-germs/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-extensions-omega-germs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms](/verify/taulib/docs/book-ii-central-theorem-extensions-omega-germs/)
+- Module: [TauLib.BookII.CentralTheorem.ExtensionsOmegaGerms](/corpus/taulib/docs/book-ii-central-theorem-extensions-omega-germs/)
 - Source path: [`TauLib/BookII/CentralTheorem/ExtensionsOmegaGerms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/ExtensionsOmegaGerms.lean#L144-L160)
 - Source range: L144-L160
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Denotation.SolenoidPitch",
-  "permalink": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Denotation.SolenoidPitch`.",
   "module_name": "TauLib.BookI.Denotation.SolenoidPitch",
   "module_slug": "book-i-denotation-solenoid-pitch",
@@ -28,163 +28,199 @@
     {
       "kind": "theorem",
       "name": "depth_sync",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync/",
       "source_line_start": 67,
       "source_line_end": 69,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "depth_sync_sigma",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync-sigma/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync-sigma/",
       "source_line_start": 74,
       "source_line_end": 77,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "pitch_ratio_one",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/pitch-ratio-one/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/pitch-ratio-one/",
       "source_line_start": 90,
       "source_line_end": 92,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha_advance",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/alpha-advance/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/alpha-advance/",
       "source_line_start": 95,
       "source_line_end": 97,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "pi_advance",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/pi-advance/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/pi-advance/",
       "source_line_start": 100,
       "source_line_end": 102,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "advance_ratio_eq",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/advance-ratio-eq/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/advance-ratio-eq/",
       "source_line_start": 105,
       "source_line_end": 108,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "c_tau_eq_one",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/c-tau-eq-one/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/c-tau-eq-one/",
       "source_line_start": 132,
       "source_line_end": 140,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "universal_depth_sync",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/universal-depth-sync/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/universal-depth-sync/",
       "source_line_start": 148,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_orbit_sync",
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/four-orbit-sync/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/four-orbit-sync/",
       "source_line_start": 155,
       "source_line_end": 160,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l167/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l167/",
       "source_line_start": 167,
       "source_line_end": 167,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l168/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l168/",
       "source_line_start": 168,
       "source_line_end": 168,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l169/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l169/",
       "source_line_start": 169,
       "source_line_end": 169,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l170/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l170/",
       "source_line_start": 170,
       "source_line_end": 170,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l171/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l171/",
       "source_line_start": 171,
       "source_line_end": 171,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l172/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l172/",
       "source_line_start": 172,
       "source_line_end": 172,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l175/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l175/",
       "source_line_start": 175,
       "source_line_end": 175,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l176/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l176/",
       "source_line_start": 176,
       "source_line_end": 176,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l179/",
+      "url": "/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l179/",
       "source_line_start": 179,
       "source_line_end": 181,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -196,7 +232,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -264,23 +300,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [depth_sync](/verify/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync/) | L67-L69 | formalized | — |
-| `theorem` | [depth_sync_sigma](/verify/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync-sigma/) | L74-L77 | formalized | — |
-| `theorem` | [pitch_ratio_one](/verify/taulib/docs/book-i-denotation-solenoid-pitch/pitch-ratio-one/) | L90-L92 | formalized | — |
-| `theorem` | [alpha_advance](/verify/taulib/docs/book-i-denotation-solenoid-pitch/alpha-advance/) | L95-L97 | formalized | — |
-| `theorem` | [pi_advance](/verify/taulib/docs/book-i-denotation-solenoid-pitch/pi-advance/) | L100-L102 | formalized | — |
-| `theorem` | [advance_ratio_eq](/verify/taulib/docs/book-i-denotation-solenoid-pitch/advance-ratio-eq/) | L105-L108 | formalized | — |
-| `theorem` | [c_tau_eq_one](/verify/taulib/docs/book-i-denotation-solenoid-pitch/c-tau-eq-one/) | L132-L140 | formalized | — |
-| `theorem` | [universal_depth_sync](/verify/taulib/docs/book-i-denotation-solenoid-pitch/universal-depth-sync/) | L148-L151 | formalized | — |
-| `theorem` | [four_orbit_sync](/verify/taulib/docs/book-i-denotation-solenoid-pitch/four-orbit-sync/) | L155-L160 | formalized | — |
-| `eval` | [#eval L167](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l167/) | L167-L167 | computed | — |
-| `eval` | [#eval L168](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l168/) | L168-L168 | computed | — |
-| `eval` | [#eval L169](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l169/) | L169-L169 | computed | — |
-| `eval` | [#eval L170](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l170/) | L170-L170 | computed | — |
-| `eval` | [#eval L171](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l171/) | L171-L171 | computed | — |
-| `eval` | [#eval L172](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l172/) | L172-L172 | computed | — |
-| `eval` | [#eval L175](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l175/) | L175-L175 | computed | — |
-| `eval` | [#eval L176](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l176/) | L176-L176 | computed | — |
-| `eval` | [#eval L179](/verify/taulib/docs/book-i-denotation-solenoid-pitch/eval-l179/) | L179-L181 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [depth_sync](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync/) | L67-L69 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [depth_sync_sigma](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/depth-sync-sigma/) | L74-L77 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [pitch_ratio_one](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/pitch-ratio-one/) | L90-L92 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [alpha_advance](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/alpha-advance/) | L95-L97 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [pi_advance](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/pi-advance/) | L100-L102 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [advance_ratio_eq](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/advance-ratio-eq/) | L105-L108 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [c_tau_eq_one](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/c-tau-eq-one/) | L132-L140 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [universal_depth_sync](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/universal-depth-sync/) | L148-L151 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [four_orbit_sync](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/four-orbit-sync/) | L155-L160 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L167](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l167/) | L167-L167 | computed check | computed check | — |
+| `eval` | [#eval L168](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l168/) | L168-L168 | computed check | computed check | — |
+| `eval` | [#eval L169](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l169/) | L169-L169 | computed check | computed check | — |
+| `eval` | [#eval L170](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l170/) | L170-L170 | computed check | computed check | — |
+| `eval` | [#eval L171](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l171/) | L171-L171 | computed check | computed check | — |
+| `eval` | [#eval L172](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l172/) | L172-L172 | computed check | computed check | — |
+| `eval` | [#eval L175](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l175/) | L175-L175 | computed check | computed check | — |
+| `eval` | [#eval L176](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l176/) | L176-L176 | computed check | computed check | — |
+| `eval` | [#eval L179](/corpus/taulib/docs/book-i-denotation-solenoid-pitch/eval-l179/) | L179-L181 | computed check | computed check | — |

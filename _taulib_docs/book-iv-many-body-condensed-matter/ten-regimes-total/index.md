@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ten_regimes_total",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-condensed-matter/ten-regimes-total/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/ten-regimes-total/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.ManyBody.CondensedMatter`.",
   "declaration_id": "TauLib.BookIV.ManyBody.CondensedMatter::ten_regimes_total",
   "declaration_slug": "ten-regimes-total",
   "kind": "theorem",
   "name": "ten_regimes_total",
   "module_name": "TauLib.BookIV.ManyBody.CondensedMatter",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/",
   "source_line_start": 249,
   "source_line_end": 250,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L249-L250",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.CondensedMatter",
-        "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/verify/taulib/docs/book-iv-many-body-condensed-matter/)
+- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/corpus/taulib/docs/book-iv-many-body-condensed-matter/)
 - Source path: [`TauLib/BookIV/ManyBody/CondensedMatter.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L249-L250)
 - Source range: L249-L250
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

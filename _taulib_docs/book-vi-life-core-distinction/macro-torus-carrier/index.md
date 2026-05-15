@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MacroTorusCarrier",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-distinction/macro-torus-carrier/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-distinction/macro-torus-carrier/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.LifeCore.Distinction`.",
   "declaration_id": "TauLib.BookVI.LifeCore.Distinction::MacroTorusCarrier",
   "declaration_slug": "macro-torus-carrier",
   "kind": "structure",
   "name": "MacroTorusCarrier",
   "module_name": "TauLib.BookVI.LifeCore.Distinction",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-distinction/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-distinction/",
   "source_line_start": 51,
   "source_line_end": 55,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/Distinction.lean#L51-L55",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.Distinction",
-        "url": "/verify/taulib/docs/book-vi-life-core-distinction/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-distinction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.Distinction](/verify/taulib/docs/book-vi-life-core-distinction/)
+- Module: [TauLib.BookVI.LifeCore.Distinction](/corpus/taulib/docs/book-vi-life-core-distinction/)
 - Source path: [`TauLib/BookVI/LifeCore/Distinction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/Distinction.lean#L51-L55)
 - Source range: L51-L55
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

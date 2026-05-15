@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "z_reion",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-reionization/z-reion/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-reionization/z-reion/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.Reionization`.",
   "declaration_id": "TauLib.BookV.Cosmology.Reionization::z_reion",
   "declaration_slug": "z-reion",
   "kind": "def",
   "name": "z_reion",
   "module_name": "TauLib.BookV.Cosmology.Reionization",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-reionization/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-reionization/",
   "source_line_start": 81,
   "source_line_end": 81,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/Reionization.lean#L81-L81",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.Reionization",
-        "url": "/verify/taulib/docs/book-v-cosmology-reionization/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-reionization/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.Reionization](/verify/taulib/docs/book-v-cosmology-reionization/)
+- Module: [TauLib.BookV.Cosmology.Reionization](/corpus/taulib/docs/book-v-cosmology-reionization/)
 - Source path: [`TauLib/BookV/Cosmology/Reionization.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/Reionization.lean#L81-L81)
 - Source range: L81-L81
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

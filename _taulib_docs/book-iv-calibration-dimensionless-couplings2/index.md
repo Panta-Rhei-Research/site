@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.DimensionlessCouplings2",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.DimensionlessCouplings2`.",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessCouplings2",
   "module_slug": "book-iv-calibration-dimensionless-couplings2",
@@ -40,10 +40,12 @@
     {
       "kind": "theorem",
       "name": "temporal_complement_ch10",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-complement-ch10/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-complement-ch10/",
       "source_line_start": 65,
       "source_line_end": 67,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T104"
       ]
@@ -51,10 +53,12 @@
     {
       "kind": "theorem",
       "name": "temporal_mult_ch10",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-mult-ch10/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-mult-ch10/",
       "source_line_start": 75,
       "source_line_end": 78,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T105"
       ]
@@ -62,10 +66,12 @@
     {
       "kind": "theorem",
       "name": "power_hierarchy_ch10",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/power-hierarchy-ch10/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/power-hierarchy-ch10/",
       "source_line_start": 90,
       "source_line_end": 97,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T106"
       ]
@@ -73,10 +79,12 @@
     {
       "kind": "theorem",
       "name": "hierarchy_resolution",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/hierarchy-resolution/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/hierarchy-resolution/",
       "source_line_start": 106,
       "source_line_end": 109,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P165"
       ]
@@ -84,10 +92,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l118/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l118/",
       "source_line_start": 118,
       "source_line_end": 118,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R254"
       ]
@@ -95,37 +105,45 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l119/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l119/",
       "source_line_start": 119,
       "source_line_end": 119,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l120/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l120/",
       "source_line_start": 120,
       "source_line_end": 120,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l121/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l121/",
       "source_line_start": 121,
       "source_line_end": 121,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l122/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l122/",
       "source_line_start": 122,
       "source_line_end": 124,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -137,7 +155,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -215,14 +233,14 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [temporal_complement_ch10](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-complement-ch10/) | L65-L67 | formalized | `IV.T104` |
-| `theorem` | [temporal_mult_ch10](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-mult-ch10/) | L75-L78 | formalized | `IV.T105` |
-| `theorem` | [power_hierarchy_ch10](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/power-hierarchy-ch10/) | L90-L97 | formalized | `IV.T106` |
-| `theorem` | [hierarchy_resolution](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/hierarchy-resolution/) | L106-L109 | formalized | `IV.P165` |
-| `eval` | [#eval L118](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l118/) | L118-L118 | computed | `IV.R254` |
-| `eval` | [#eval L119](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l119/) | L119-L119 | computed | — |
-| `eval` | [#eval L120](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l120/) | L120-L120 | computed | — |
-| `eval` | [#eval L121](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l121/) | L121-L121 | computed | — |
-| `eval` | [#eval L122](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l122/) | L122-L124 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [temporal_complement_ch10](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-complement-ch10/) | L65-L67 | proof obligation | formal proof obligation checked | `IV.T104` |
+| `theorem` | [temporal_mult_ch10](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-mult-ch10/) | L75-L78 | proof obligation | formal proof obligation checked | `IV.T105` |
+| `theorem` | [power_hierarchy_ch10](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/power-hierarchy-ch10/) | L90-L97 | proof obligation | formal proof obligation checked | `IV.T106` |
+| `theorem` | [hierarchy_resolution](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/hierarchy-resolution/) | L106-L109 | proof obligation | formal proof obligation checked | `IV.P165` |
+| `eval` | [#eval L118](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l118/) | L118-L118 | computed check | computed check | `IV.R254` |
+| `eval` | [#eval L119](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l119/) | L119-L119 | computed check | computed check | — |
+| `eval` | [#eval L120](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l120/) | L120-L120 | computed check | computed check | — |
+| `eval` | [#eval L121](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l121/) | L121-L121 | computed check | computed check | — |
+| `eval` | [#eval L122](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/eval-l122/) | L122-L124 | computed check | computed check | — |

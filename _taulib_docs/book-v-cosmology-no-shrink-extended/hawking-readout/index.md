@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hawking_readout",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/hawking-readout/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/hawking-readout/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.NoShrinkExtended`.",
   "declaration_id": "TauLib.BookV.Cosmology.NoShrinkExtended::hawking_readout",
   "declaration_slug": "hawking-readout",
   "kind": "theorem",
   "name": "hawking_readout",
   "module_name": "TauLib.BookV.Cosmology.NoShrinkExtended",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/",
   "source_line_start": 149,
   "source_line_end": 151,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NoShrinkExtended.lean#L149-L151",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.NoShrinkExtended",
-        "url": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.NoShrinkExtended](/verify/taulib/docs/book-v-cosmology-no-shrink-extended/)
+- Module: [TauLib.BookV.Cosmology.NoShrinkExtended](/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/)
 - Source path: [`TauLib/BookV/Cosmology/NoShrinkExtended.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NoShrinkExtended.lean#L149-L151)
 - Source range: L149-L151
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

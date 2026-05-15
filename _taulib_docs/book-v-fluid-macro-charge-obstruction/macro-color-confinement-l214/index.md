@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "macro_color_confinement",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement-l214/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement-l214/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.FluidMacro.ChargeObstruction`.",
   "declaration_id": "TauLib.BookV.FluidMacro.ChargeObstruction::macro_color_confinement",
   "declaration_slug": "macro-color-confinement-l214",
   "kind": "theorem",
   "name": "macro_color_confinement",
   "module_name": "TauLib.BookV.FluidMacro.ChargeObstruction",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/",
   "source_line_start": 214,
   "source_line_end": 216,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/ChargeObstruction.lean#L214-L216",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.ChargeObstruction",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.ChargeObstruction](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/)
+- Module: [TauLib.BookV.FluidMacro.ChargeObstruction](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/)
 - Source path: [`TauLib/BookV/FluidMacro/ChargeObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/ChargeObstruction.lean#L214-L216)
 - Source range: L214-L216
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "enr_01_15_4",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/enr-01-15-4/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/enr-01-15-4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.EnrFunctor01`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.EnrFunctor01::enr_01_15_4",
   "declaration_slug": "enr-01-15-4",
   "kind": "theorem",
   "name": "enr_01_15_4",
   "module_name": "TauLib.BookIII.Arithmetic.EnrFunctor01",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/",
   "source_line_start": 136,
   "source_line_end": 137,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrFunctor01.lean#L136-L137",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.EnrFunctor01",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.EnrFunctor01](/verify/taulib/docs/book-iii-arithmetic-enr-functor01/)
+- Module: [TauLib.BookIII.Arithmetic.EnrFunctor01](/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/)
 - Source path: [`TauLib/BookIII/Arithmetic/EnrFunctor01.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrFunctor01.lean#L136-L137)
 - Source range: L136-L137
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

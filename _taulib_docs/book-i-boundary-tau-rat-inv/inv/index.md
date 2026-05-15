@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.inv",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/inv/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/inv/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.TauRatInv`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatInv::TauRat.inv",
   "declaration_slug": "inv",
   "kind": "def",
   "name": "TauRat.inv",
   "module_name": "TauLib.BookI.Boundary.TauRatInv",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/",
   "source_line_start": 62,
   "source_line_end": 65,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatInv.lean#L62-L65",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatInv",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatInv](/verify/taulib/docs/book-i-boundary-tau-rat-inv/)
+- Module: [TauLib.BookI.Boundary.TauRatInv](/corpus/taulib/docs/book-i-boundary-tau-rat-inv/)
 - Source path: [`TauLib/BookI/Boundary/TauRatInv.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatInv.lean#L62-L65)
 - Source range: L62-L65
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

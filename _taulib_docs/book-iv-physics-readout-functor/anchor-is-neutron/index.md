@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "anchor_is_neutron",
-  "permalink": "/verify/taulib/docs/book-iv-physics-readout-functor/anchor-is-neutron/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-readout-functor/anchor-is-neutron/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Physics.ReadoutFunctor`.",
   "declaration_id": "TauLib.BookIV.Physics.ReadoutFunctor::anchor_is_neutron",
   "declaration_slug": "anchor-is-neutron",
   "kind": "theorem",
   "name": "anchor_is_neutron",
   "module_name": "TauLib.BookIV.Physics.ReadoutFunctor",
-  "module_url": "/verify/taulib/docs/book-iv-physics-readout-functor/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-readout-functor/",
   "source_line_start": 244,
   "source_line_end": 245,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/ReadoutFunctor.lean#L244-L245",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.ReadoutFunctor",
-        "url": "/verify/taulib/docs/book-iv-physics-readout-functor/"
+        "url": "/corpus/taulib/docs/book-iv-physics-readout-functor/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.ReadoutFunctor](/verify/taulib/docs/book-iv-physics-readout-functor/)
+- Module: [TauLib.BookIV.Physics.ReadoutFunctor](/corpus/taulib/docs/book-iv-physics-readout-functor/)
 - Source path: [`TauLib/BookIV/Physics/ReadoutFunctor.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/ReadoutFunctor.lean#L244-L245)
 - Source range: L244-L245
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

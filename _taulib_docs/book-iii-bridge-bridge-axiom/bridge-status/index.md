@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BridgeStatus",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/bridge-status/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/bridge-status/",
   "summary_short": "`inductive` declaration in `TauLib.BookIII.Bridge.BridgeAxiom`.",
   "declaration_id": "TauLib.BookIII.Bridge.BridgeAxiom::BridgeStatus",
   "declaration_slug": "bridge-status",
   "kind": "inductive",
   "name": "BridgeStatus",
   "module_name": "TauLib.BookIII.Bridge.BridgeAxiom",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/",
   "source_line_start": 176,
   "source_line_end": 180,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/BridgeAxiom.lean#L176-L180",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.BridgeAxiom",
-        "url": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.BridgeAxiom](/verify/taulib/docs/book-iii-bridge-bridge-axiom/)
+- Module: [TauLib.BookIII.Bridge.BridgeAxiom](/corpus/taulib/docs/book-iii-bridge-bridge-axiom/)
 - Source path: [`TauLib/BookIII/Bridge/BridgeAxiom.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/BridgeAxiom.lean#L176-L180)
 - Source range: L176-L180
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

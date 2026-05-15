@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ladderOp",
-  "permalink": "/verify/taulib/docs/book-i-orbit-ladder/ladder-op/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-ladder/ladder-op/",
   "summary_short": "`def` declaration in `TauLib.BookI.Orbit.Ladder`.",
   "declaration_id": "TauLib.BookI.Orbit.Ladder::ladderOp",
   "declaration_slug": "ladder-op",
   "kind": "def",
   "name": "ladderOp",
   "module_name": "TauLib.BookI.Orbit.Ladder",
-  "module_url": "/verify/taulib/docs/book-i-orbit-ladder/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-ladder/",
   "source_line_start": 57,
   "source_line_end": 62,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Ladder.lean#L57-L62",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Ladder",
-        "url": "/verify/taulib/docs/book-i-orbit-ladder/"
+        "url": "/corpus/taulib/docs/book-i-orbit-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Ladder](/verify/taulib/docs/book-i-orbit-ladder/)
+- Module: [TauLib.BookI.Orbit.Ladder](/corpus/taulib/docs/book-i-orbit-ladder/)
 - Source path: [`TauLib/BookI/Orbit/Ladder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Ladder.lean#L57-L62)
 - Source range: L57-L62
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

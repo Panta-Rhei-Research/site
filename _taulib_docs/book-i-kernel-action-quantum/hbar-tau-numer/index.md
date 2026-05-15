@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hbar_tau_numer",
-  "permalink": "/verify/taulib/docs/book-i-kernel-action-quantum/hbar-tau-numer/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-action-quantum/hbar-tau-numer/",
   "summary_short": "`def` declaration in `TauLib.BookI.Kernel.ActionQuantum`.",
   "declaration_id": "TauLib.BookI.Kernel.ActionQuantum::hbar_tau_numer",
   "declaration_slug": "hbar-tau-numer",
   "kind": "def",
   "name": "hbar_tau_numer",
   "module_name": "TauLib.BookI.Kernel.ActionQuantum",
-  "module_url": "/verify/taulib/docs/book-i-kernel-action-quantum/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-action-quantum/",
   "source_line_start": 65,
   "source_line_end": 65,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/ActionQuantum.lean#L65-L65",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Kernel.ActionQuantum",
-        "url": "/verify/taulib/docs/book-i-kernel-action-quantum/"
+        "url": "/corpus/taulib/docs/book-i-kernel-action-quantum/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Kernel.ActionQuantum](/verify/taulib/docs/book-i-kernel-action-quantum/)
+- Module: [TauLib.BookI.Kernel.ActionQuantum](/corpus/taulib/docs/book-i-kernel-action-quantum/)
 - Source path: [`TauLib/BookI/Kernel/ActionQuantum.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/ActionQuantum.lean#L65-L65)
 - Source range: L65-L65
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

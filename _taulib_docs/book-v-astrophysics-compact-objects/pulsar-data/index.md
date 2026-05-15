@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PulsarData",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-compact-objects/pulsar-data/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/pulsar-data/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Astrophysics.CompactObjects`.",
   "declaration_id": "TauLib.BookV.Astrophysics.CompactObjects::PulsarData",
   "declaration_slug": "pulsar-data",
   "kind": "structure",
   "name": "PulsarData",
   "module_name": "TauLib.BookV.Astrophysics.CompactObjects",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/",
   "source_line_start": 166,
   "source_line_end": 179,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L166-L179",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.CompactObjects",
-        "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.CompactObjects](/verify/taulib/docs/book-v-astrophysics-compact-objects/)
+- Module: [TauLib.BookV.Astrophysics.CompactObjects](/corpus/taulib/docs/book-v-astrophysics-compact-objects/)
 - Source path: [`TauLib/BookV/Astrophysics/CompactObjects.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L166-L179)
 - Source range: L166-L179
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

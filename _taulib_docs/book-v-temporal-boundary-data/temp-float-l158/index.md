@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CnuBSurface.tempFloat",
-  "permalink": "/verify/taulib/docs/book-v-temporal-boundary-data/temp-float-l158/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-boundary-data/temp-float-l158/",
   "summary_short": "`def` declaration in `TauLib.BookV.Temporal.BoundaryData`.",
   "declaration_id": "TauLib.BookV.Temporal.BoundaryData::CnuBSurface.tempFloat",
   "declaration_slug": "temp-float-l158",
   "kind": "def",
   "name": "CnuBSurface.tempFloat",
   "module_name": "TauLib.BookV.Temporal.BoundaryData",
-  "module_url": "/verify/taulib/docs/book-v-temporal-boundary-data/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-boundary-data/",
   "source_line_start": 158,
   "source_line_end": 159,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BoundaryData.lean#L158-L159",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.BoundaryData",
-        "url": "/verify/taulib/docs/book-v-temporal-boundary-data/"
+        "url": "/corpus/taulib/docs/book-v-temporal-boundary-data/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.BoundaryData](/verify/taulib/docs/book-v-temporal-boundary-data/)
+- Module: [TauLib.BookV.Temporal.BoundaryData](/corpus/taulib/docs/book-v-temporal-boundary-data/)
 - Source path: [`TauLib/BookV/Temporal/BoundaryData.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BoundaryData.lean#L158-L159)
 - Source range: L158-L159
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

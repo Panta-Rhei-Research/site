@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MassHierarchy",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/mass-hierarchy/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/mass-hierarchy/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.MassDerivation.BreathingModes`.",
   "declaration_id": "TauLib.BookIV.MassDerivation.BreathingModes::MassHierarchy",
   "declaration_slug": "mass-hierarchy",
   "kind": "structure",
   "name": "MassHierarchy",
   "module_name": "TauLib.BookIV.MassDerivation.BreathingModes",
-  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/",
+  "module_url": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/",
   "source_line_start": 42,
   "source_line_end": 48,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/BreathingModes.lean#L42-L48",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.MassDerivation.BreathingModes",
-        "url": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/"
+        "url": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.MassDerivation.BreathingModes](/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/)
+- Module: [TauLib.BookIV.MassDerivation.BreathingModes](/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/)
 - Source path: [`TauLib/BookIV/MassDerivation/BreathingModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/BreathingModes.lean#L42-L48)
 - Source range: L42-L48
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

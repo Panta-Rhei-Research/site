@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.is_nonzero",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-field/is-nonzero/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/is-nonzero/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.TauRatField`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatField::TauRat.is_nonzero",
   "declaration_slug": "is-nonzero",
   "kind": "def",
   "name": "TauRat.is_nonzero",
   "module_name": "TauLib.BookI.Boundary.TauRatField",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-field/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/",
   "source_line_start": 183,
   "source_line_end": 183,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatField.lean#L183-L183",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatField",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-field/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatField](/verify/taulib/docs/book-i-boundary-tau-rat-field/)
+- Module: [TauLib.BookI.Boundary.TauRatField](/corpus/taulib/docs/book-i-boundary-tau-rat-field/)
 - Source path: [`TauLib/BookI/Boundary/TauRatField.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatField.lean#L183-L183)
 - Source range: L183-L183
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

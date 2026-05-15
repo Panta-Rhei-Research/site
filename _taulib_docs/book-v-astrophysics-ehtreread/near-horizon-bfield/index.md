@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "NearHorizonBField",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-ehtreread/near-horizon-bfield/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/near-horizon-bfield/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Astrophysics.EHTReread`.",
   "declaration_id": "TauLib.BookV.Astrophysics.EHTReread::NearHorizonBField",
   "declaration_slug": "near-horizon-bfield",
   "kind": "structure",
   "name": "NearHorizonBField",
   "module_name": "TauLib.BookV.Astrophysics.EHTReread",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/",
   "source_line_start": 585,
   "source_line_end": 596,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L585-L596",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.EHTReread",
-        "url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.EHTReread](/verify/taulib/docs/book-v-astrophysics-ehtreread/)
+- Module: [TauLib.BookV.Astrophysics.EHTReread](/corpus/taulib/docs/book-v-astrophysics-ehtreread/)
 - Source path: [`TauLib/BookV/Astrophysics/EHTReread.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L585-L596)
 - Source range: L585-L596
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

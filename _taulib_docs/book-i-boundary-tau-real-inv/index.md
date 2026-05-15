@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealInv",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-inv/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealInv`.",
   "module_name": "TauLib.BookI.Boundary.TauRealInv",
   "module_slug": "book-i-boundary-tau-real-inv",
@@ -41,64 +41,78 @@
     {
       "kind": "def",
       "name": "TauReal.BoundedAwayFromZero",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/bounded-away-from-zero/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/bounded-away-from-zero/",
       "source_line_start": 68,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.is_nonzero_of_bounded_away",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/is-nonzero-of-bounded-away/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/is-nonzero-of-bounded-away/",
       "source_line_start": 74,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.inv",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/inv/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/inv/",
       "source_line_start": 112,
       "source_line_end": 114,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.div",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/div/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/div/",
       "source_line_start": 117,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.mul_inv_cancel",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/mul-inv-cancel/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/mul-inv-cancel/",
       "source_line_start": 132,
       "source_line_end": 156,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.inv_mul_cancel",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/inv-mul-cancel/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/inv-mul-cancel/",
       "source_line_start": 160,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.div_self",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/div-self/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/div-self/",
       "source_line_start": 166,
       "source_line_end": 170,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -110,7 +124,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -185,12 +199,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauReal.BoundedAwayFromZero](/verify/taulib/docs/book-i-boundary-tau-real-inv/bounded-away-from-zero/) | L68-L70 | defined | — |
-| `theorem` | [TauReal.is_nonzero_of_bounded_away](/verify/taulib/docs/book-i-boundary-tau-real-inv/is-nonzero-of-bounded-away/) | L74-L100 | formalized | — |
-| `def` | [TauReal.inv](/verify/taulib/docs/book-i-boundary-tau-real-inv/inv/) | L112-L114 | defined | — |
-| `def` | [TauReal.div](/verify/taulib/docs/book-i-boundary-tau-real-inv/div/) | L117-L118 | defined | — |
-| `theorem` | [TauReal.mul_inv_cancel](/verify/taulib/docs/book-i-boundary-tau-real-inv/mul-inv-cancel/) | L132-L156 | formalized | — |
-| `theorem` | [TauReal.inv_mul_cancel](/verify/taulib/docs/book-i-boundary-tau-real-inv/inv-mul-cancel/) | L160-L163 | formalized | — |
-| `theorem` | [TauReal.div_self](/verify/taulib/docs/book-i-boundary-tau-real-inv/div-self/) | L166-L170 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauReal.BoundedAwayFromZero](/corpus/taulib/docs/book-i-boundary-tau-real-inv/bounded-away-from-zero/) | L68-L70 | definition | definition | — |
+| `theorem` | [TauReal.is_nonzero_of_bounded_away](/corpus/taulib/docs/book-i-boundary-tau-real-inv/is-nonzero-of-bounded-away/) | L74-L100 | proof obligation | formal proof obligation checked | — |
+| `def` | [TauReal.inv](/corpus/taulib/docs/book-i-boundary-tau-real-inv/inv/) | L112-L114 | definition | definition | — |
+| `def` | [TauReal.div](/corpus/taulib/docs/book-i-boundary-tau-real-inv/div/) | L117-L118 | definition | definition | — |
+| `theorem` | [TauReal.mul_inv_cancel](/corpus/taulib/docs/book-i-boundary-tau-real-inv/mul-inv-cancel/) | L132-L156 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.inv_mul_cancel](/corpus/taulib/docs/book-i-boundary-tau-real-inv/inv-mul-cancel/) | L160-L163 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.div_self](/corpus/taulib/docs/book-i-boundary-tau-real-inv/div-self/) | L166-L170 | proof obligation | formal proof obligation checked | — |

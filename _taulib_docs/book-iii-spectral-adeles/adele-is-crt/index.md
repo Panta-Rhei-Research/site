@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "adele_is_crt",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-adeles/adele-is-crt/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-is-crt/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.Adeles`.",
   "declaration_id": "TauLib.BookIII.Spectral.Adeles::adele_is_crt",
   "declaration_slug": "adele-is-crt",
   "kind": "theorem",
   "name": "adele_is_crt",
   "module_name": "TauLib.BookIII.Spectral.Adeles",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-adeles/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-adeles/",
   "source_line_start": 252,
   "source_line_end": 253,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Adeles.lean#L252-L253",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.Adeles",
-        "url": "/verify/taulib/docs/book-iii-spectral-adeles/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-adeles/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.Adeles](/verify/taulib/docs/book-iii-spectral-adeles/)
+- Module: [TauLib.BookIII.Spectral.Adeles](/corpus/taulib/docs/book-iii-spectral-adeles/)
 - Source path: [`TauLib/BookIII/Spectral/Adeles.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Adeles.lean#L252-L253)
 - Source range: L252-L253
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

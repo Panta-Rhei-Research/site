@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BHEvolutionMode.is_internal",
-  "permalink": "/verify/taulib/docs/book-v-gravity-schwarzschild/is-internal/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-schwarzschild/is-internal/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.Schwarzschild`.",
   "declaration_id": "TauLib.BookV.Gravity.Schwarzschild::BHEvolutionMode.is_internal",
   "declaration_slug": "is-internal",
   "kind": "def",
   "name": "BHEvolutionMode.is_internal",
   "module_name": "TauLib.BookV.Gravity.Schwarzschild",
-  "module_url": "/verify/taulib/docs/book-v-gravity-schwarzschild/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/",
   "source_line_start": 190,
   "source_line_end": 193,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/Schwarzschild.lean#L190-L193",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.Schwarzschild",
-        "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/"
+        "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.Schwarzschild](/verify/taulib/docs/book-v-gravity-schwarzschild/)
+- Module: [TauLib.BookV.Gravity.Schwarzschild](/corpus/taulib/docs/book-v-gravity-schwarzschild/)
 - Source path: [`TauLib/BookV/Gravity/Schwarzschild.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/Schwarzschild.lean#L190-L193)
 - Source range: L190-L193
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

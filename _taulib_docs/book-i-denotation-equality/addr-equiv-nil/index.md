@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "addr_equiv_nil",
-  "permalink": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv-nil/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-nil/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Denotation.Equality`.",
   "declaration_id": "TauLib.BookI.Denotation.Equality::addr_equiv_nil",
   "declaration_slug": "addr-equiv-nil",
   "kind": "theorem",
   "name": "addr_equiv_nil",
   "module_name": "TauLib.BookI.Denotation.Equality",
-  "module_url": "/verify/taulib/docs/book-i-denotation-equality/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-equality/",
   "source_line_start": 66,
   "source_line_end": 67,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Equality.lean#L66-L67",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Equality",
-        "url": "/verify/taulib/docs/book-i-denotation-equality/"
+        "url": "/corpus/taulib/docs/book-i-denotation-equality/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Equality](/verify/taulib/docs/book-i-denotation-equality/)
+- Module: [TauLib.BookI.Denotation.Equality](/corpus/taulib/docs/book-i-denotation-equality/)
 - Source path: [`TauLib/BookI/Denotation/Equality.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Equality.lean#L66-L67)
 - Source range: L66-L67
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

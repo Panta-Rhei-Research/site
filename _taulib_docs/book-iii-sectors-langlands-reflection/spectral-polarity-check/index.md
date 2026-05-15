@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_polarity_check",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-langlands-reflection/spectral-polarity-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-langlands-reflection/spectral-polarity-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Sectors.LanglandsReflection`.",
   "declaration_id": "TauLib.BookIII.Sectors.LanglandsReflection::spectral_polarity_check",
   "declaration_slug": "spectral-polarity-check",
   "kind": "def",
   "name": "spectral_polarity_check",
   "module_name": "TauLib.BookIII.Sectors.LanglandsReflection",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-langlands-reflection/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-langlands-reflection/",
   "source_line_start": 168,
   "source_line_end": 181,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/LanglandsReflection.lean#L168-L181",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.LanglandsReflection",
-        "url": "/verify/taulib/docs/book-iii-sectors-langlands-reflection/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-langlands-reflection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.LanglandsReflection](/verify/taulib/docs/book-iii-sectors-langlands-reflection/)
+- Module: [TauLib.BookIII.Sectors.LanglandsReflection](/corpus/taulib/docs/book-iii-sectors-langlands-reflection/)
 - Source path: [`TauLib/BookIII/Sectors/LanglandsReflection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/LanglandsReflection.lean#L168-L181)
 - Source range: L168-L181
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

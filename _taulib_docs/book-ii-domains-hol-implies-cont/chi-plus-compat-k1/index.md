@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chi_plus_compat_k1",
-  "permalink": "/verify/taulib/docs/book-ii-domains-hol-implies-cont/chi-plus-compat-k1/",
+  "permalink": "/corpus/taulib/docs/book-ii-domains-hol-implies-cont/chi-plus-compat-k1/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Domains.HolImpliesCont`.",
   "declaration_id": "TauLib.BookII.Domains.HolImpliesCont::chi_plus_compat_k1",
   "declaration_slug": "chi-plus-compat-k1",
   "kind": "theorem",
   "name": "chi_plus_compat_k1",
   "module_name": "TauLib.BookII.Domains.HolImpliesCont",
-  "module_url": "/verify/taulib/docs/book-ii-domains-hol-implies-cont/",
+  "module_url": "/corpus/taulib/docs/book-ii-domains-hol-implies-cont/",
   "source_line_start": 143,
   "source_line_end": 143,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/HolImpliesCont.lean#L143-L143",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Domains.HolImpliesCont",
-        "url": "/verify/taulib/docs/book-ii-domains-hol-implies-cont/"
+        "url": "/corpus/taulib/docs/book-ii-domains-hol-implies-cont/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Domains.HolImpliesCont](/verify/taulib/docs/book-ii-domains-hol-implies-cont/)
+- Module: [TauLib.BookII.Domains.HolImpliesCont](/corpus/taulib/docs/book-ii-domains-hol-implies-cont/)
 - Source path: [`TauLib/BookII/Domains/HolImpliesCont.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/HolImpliesCont.lean#L143-L143)
 - Source range: L143-L143
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

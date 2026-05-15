@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "s2_lyapunov_x10000",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/s2-lyapunov-x10000/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/s2-lyapunov-x10000/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::s2_lyapunov_x10000",
   "declaration_slug": "s2-lyapunov-x10000",
   "kind": "def",
   "name": "s2_lyapunov_x10000",
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
-  "source_line_start": 702,
-  "source_line_end": 702,
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "source_line_start": 711,
+  "source_line_end": 711,
   "registry_ids": [],
   "related_registry_items": [],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L702-L702",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L711-L711",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -34,14 +36,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L702-L702",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L711-L711",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
-- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L702-L702)
-- Source range: L702-L702
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L711-L711)
+- Source range: L711-L711
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

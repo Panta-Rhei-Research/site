@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coeff_list",
-  "permalink": "/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.InverseLimit`.",
   "declaration_id": "TauLib.BookI.Polarity.InverseLimit::coeff_list",
   "declaration_slug": "coeff-list",
   "kind": "def",
   "name": "coeff_list",
   "module_name": "TauLib.BookI.Polarity.InverseLimit",
-  "module_url": "/verify/taulib/docs/book-i-polarity-inverse-limit/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/",
   "source_line_start": 118,
   "source_line_end": 120,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/InverseLimit.lean#L118-L120",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.InverseLimit",
-        "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/"
+        "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.InverseLimit](/verify/taulib/docs/book-i-polarity-inverse-limit/)
+- Module: [TauLib.BookI.Polarity.InverseLimit](/corpus/taulib/docs/book-i-polarity-inverse-limit/)
 - Source path: [`TauLib/BookI/Polarity/InverseLimit.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/InverseLimit.lean#L118-L120)
 - Source range: L118-L120
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

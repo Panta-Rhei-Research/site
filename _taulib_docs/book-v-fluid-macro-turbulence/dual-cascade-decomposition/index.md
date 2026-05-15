@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "dual_cascade_decomposition",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade-decomposition/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade-decomposition/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.FluidMacro.Turbulence`.",
   "declaration_id": "TauLib.BookV.FluidMacro.Turbulence::dual_cascade_decomposition",
   "declaration_slug": "dual-cascade-decomposition",
   "kind": "theorem",
   "name": "dual_cascade_decomposition",
   "module_name": "TauLib.BookV.FluidMacro.Turbulence",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/",
   "source_line_start": 195,
   "source_line_end": 201,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/Turbulence.lean#L195-L201",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.Turbulence",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.Turbulence](/verify/taulib/docs/book-v-fluid-macro-turbulence/)
+- Module: [TauLib.BookV.FluidMacro.Turbulence](/corpus/taulib/docs/book-v-fluid-macro-turbulence/)
 - Source path: [`TauLib/BookV/FluidMacro/Turbulence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/Turbulence.lean#L195-L201)
 - Source range: L195-L201
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

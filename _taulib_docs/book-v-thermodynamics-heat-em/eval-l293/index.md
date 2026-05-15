@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L293",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l293/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l293/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Thermodynamics.HeatEM`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.HeatEM::#eval:293",
   "declaration_slug": "eval-l293",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Thermodynamics.HeatEM",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/",
   "source_line_start": 293,
   "source_line_end": 295,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/HeatEM.lean#L293-L295",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.HeatEM",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.HeatEM](/verify/taulib/docs/book-v-thermodynamics-heat-em/)
+- Module: [TauLib.BookV.Thermodynamics.HeatEM](/corpus/taulib/docs/book-v-thermodynamics-heat-em/)
 - Source path: [`TauLib/BookV/Thermodynamics/HeatEM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/HeatEM.lean#L293-L295)
 - Source range: L293-L295
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

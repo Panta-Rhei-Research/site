@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.GravityField.BipolarHolonomy",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.GravityField.BipolarHolonomy`.",
   "module_name": "TauLib.BookV.GravityField.BipolarHolonomy",
   "module_slug": "book-v-gravity-field-bipolar-holonomy",
@@ -38,10 +38,12 @@
     {
       "kind": "structure",
       "name": "BipolarHolonomySpace",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bipolar-holonomy-space/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bipolar-holonomy-space/",
       "source_line_start": 60,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D101"
       ]
@@ -49,19 +51,23 @@
     {
       "kind": "def",
       "name": "canonical_bhs",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/canonical-bhs/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/canonical-bhs/",
       "source_line_start": 72,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bhs_dimension",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-dimension/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-dimension/",
       "source_line_start": 87,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T84"
       ]
@@ -69,37 +75,45 @@
     {
       "kind": "theorem",
       "name": "bhs_b1_arena_earned",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-arena-earned/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-arena-earned/",
       "source_line_start": 95,
       "source_line_end": 96,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bhs_b1_dual_earned",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-dual-earned/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-dual-earned/",
       "source_line_start": 100,
       "source_line_end": 102,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bhs_b1_boundary_earned",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-boundary-earned/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-boundary-earned/",
       "source_line_start": 106,
       "source_line_end": 107,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bhs_equals_exponent",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-equals-exponent/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-equals-exponent/",
       "source_line_start": 121,
       "source_line_end": 122,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T85"
       ]
@@ -107,19 +121,23 @@
     {
       "kind": "theorem",
       "name": "bhs_matches_closing",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-matches-closing/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-matches-closing/",
       "source_line_start": 125,
       "source_line_end": 126,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bhs_universality",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-universality/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-universality/",
       "source_line_start": 142,
       "source_line_end": 143,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T86"
       ]
@@ -127,10 +145,12 @@
     {
       "kind": "theorem",
       "name": "bhs_is_topological",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-is-topological/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-is-topological/",
       "source_line_start": 154,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R170"
       ]
@@ -138,46 +158,56 @@
     {
       "kind": "theorem",
       "name": "bhs_minimal",
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-minimal/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-minimal/",
       "source_line_start": 169,
       "source_line_end": 173,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l179/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l179/",
       "source_line_start": 179,
       "source_line_end": 179,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l180/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l180/",
       "source_line_start": 180,
       "source_line_end": 180,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l181/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l181/",
       "source_line_start": 181,
       "source_line_end": 181,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l182/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l182/",
       "source_line_start": 182,
       "source_line_end": 184,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -189,7 +219,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -265,20 +295,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [BipolarHolonomySpace](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bipolar-holonomy-space/) | L60-L69 | defined | `V.D101` |
-| `def` | [canonical_bhs](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/canonical-bhs/) | L72-L75 | defined | — |
-| `theorem` | [bhs_dimension](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-dimension/) | L87-L87 | formalized | `V.T84` |
-| `theorem` | [bhs_b1_arena_earned](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-arena-earned/) | L95-L96 | formalized | — |
-| `theorem` | [bhs_b1_dual_earned](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-dual-earned/) | L100-L102 | formalized | — |
-| `theorem` | [bhs_b1_boundary_earned](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-boundary-earned/) | L106-L107 | formalized | — |
-| `theorem` | [bhs_equals_exponent](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-equals-exponent/) | L121-L122 | formalized | `V.T85` |
-| `theorem` | [bhs_matches_closing](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-matches-closing/) | L125-L126 | formalized | — |
-| `theorem` | [bhs_universality](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-universality/) | L142-L143 | formalized | `V.T86` |
-| `theorem` | [bhs_is_topological](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-is-topological/) | L154-L161 | formalized | `V.R170` |
-| `theorem` | [bhs_minimal](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-minimal/) | L169-L173 | formalized | — |
-| `eval` | [#eval L179](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l179/) | L179-L179 | computed | — |
-| `eval` | [#eval L180](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l180/) | L180-L180 | computed | — |
-| `eval` | [#eval L181](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l181/) | L181-L181 | computed | — |
-| `eval` | [#eval L182](/verify/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l182/) | L182-L184 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [BipolarHolonomySpace](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bipolar-holonomy-space/) | L60-L69 | type/data schema | type/data schema | `V.D101` |
+| `def` | [canonical_bhs](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/canonical-bhs/) | L72-L75 | definition | definition | — |
+| `theorem` | [bhs_dimension](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-dimension/) | L87-L87 | proof obligation | formal proof obligation checked | `V.T84` |
+| `theorem` | [bhs_b1_arena_earned](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-arena-earned/) | L95-L96 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bhs_b1_dual_earned](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-dual-earned/) | L100-L102 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bhs_b1_boundary_earned](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-b1-boundary-earned/) | L106-L107 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bhs_equals_exponent](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-equals-exponent/) | L121-L122 | proof obligation | formal proof obligation checked | `V.T85` |
+| `theorem` | [bhs_matches_closing](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-matches-closing/) | L125-L126 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bhs_universality](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-universality/) | L142-L143 | proof obligation | formal proof obligation checked | `V.T86` |
+| `theorem` | [bhs_is_topological](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-is-topological/) | L154-L161 | proof obligation | formal proof obligation checked | `V.R170` |
+| `theorem` | [bhs_minimal](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/bhs-minimal/) | L169-L173 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L179](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l179/) | L179-L179 | computed check | computed check | — |
+| `eval` | [#eval L180](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l180/) | L180-L180 | computed check | computed check | — |
+| `eval` | [#eval L181](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l181/) | L181-L181 | computed check | computed check | — |
+| `eval` | [#eval L182](/corpus/taulib/docs/book-v-gravity-field-bipolar-holonomy/eval-l182/) | L182-L184 | computed check | computed check | — |

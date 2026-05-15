@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "probe_naturality_structural",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-naturality-structural/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-naturality-structural/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Enrichment.YonedaTheorem`.",
   "declaration_id": "TauLib.BookII.Enrichment.YonedaTheorem::probe_naturality_structural",
   "declaration_slug": "probe-naturality-structural",
   "kind": "theorem",
   "name": "probe_naturality_structural",
   "module_name": "TauLib.BookII.Enrichment.YonedaTheorem",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/",
   "source_line_start": 339,
   "source_line_end": 343,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/YonedaTheorem.lean#L339-L343",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.YonedaTheorem",
-        "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.YonedaTheorem](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/)
+- Module: [TauLib.BookII.Enrichment.YonedaTheorem](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/)
 - Source path: [`TauLib/BookII/Enrichment/YonedaTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/YonedaTheorem.lean#L339-L343)
 - Source range: L339-L343
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

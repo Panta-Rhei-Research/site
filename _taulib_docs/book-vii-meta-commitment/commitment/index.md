@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Commitment",
-  "permalink": "/verify/taulib/docs/book-vii-meta-commitment/commitment/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-commitment/commitment/",
   "summary_short": "`structure` declaration in `TauLib.BookVII.Meta.Commitment`.",
   "declaration_id": "TauLib.BookVII.Meta.Commitment::Commitment",
   "declaration_slug": "commitment",
   "kind": "structure",
   "name": "Commitment",
   "module_name": "TauLib.BookVII.Meta.Commitment",
-  "module_url": "/verify/taulib/docs/book-vii-meta-commitment/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-commitment/",
   "source_line_start": 110,
   "source_line_end": 116,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Commitment.lean#L110-L116",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Commitment",
-        "url": "/verify/taulib/docs/book-vii-meta-commitment/"
+        "url": "/corpus/taulib/docs/book-vii-meta-commitment/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Commitment](/verify/taulib/docs/book-vii-meta-commitment/)
+- Module: [TauLib.BookVII.Meta.Commitment](/corpus/taulib/docs/book-vii-meta-commitment/)
 - Source path: [`TauLib/BookVII/Meta/Commitment.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Commitment.lean#L110-L116)
 - Source range: L110-L116
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sound_horizon_data",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/sound-horizon-data/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/sound-horizon-data/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.CMBSpectrum`.",
   "declaration_id": "TauLib.BookV.Cosmology.CMBSpectrum::sound_horizon_data",
   "declaration_slug": "sound-horizon-data",
   "kind": "def",
   "name": "sound_horizon_data",
   "module_name": "TauLib.BookV.Cosmology.CMBSpectrum",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/",
   "source_line_start": 130,
   "source_line_end": 130,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CMBSpectrum.lean#L130-L130",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.CMBSpectrum",
-        "url": "/verify/taulib/docs/book-v-cosmology-cmbspectrum/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-cmbspectrum/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.CMBSpectrum](/verify/taulib/docs/book-v-cosmology-cmbspectrum/)
+- Module: [TauLib.BookV.Cosmology.CMBSpectrum](/corpus/taulib/docs/book-v-cosmology-cmbspectrum/)
 - Source path: [`TauLib/BookV/Cosmology/CMBSpectrum.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CMBSpectrum.lean#L130-L130)
 - Source range: L130-L130
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

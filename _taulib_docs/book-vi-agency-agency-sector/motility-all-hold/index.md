@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "motility_all_hold",
-  "permalink": "/verify/taulib/docs/book-vi-agency-agency-sector/motility-all-hold/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-agency-sector/motility-all-hold/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Agency.AgencySector`.",
   "declaration_id": "TauLib.BookVI.Agency.AgencySector::motility_all_hold",
   "declaration_slug": "motility-all-hold",
   "kind": "theorem",
   "name": "motility_all_hold",
   "module_name": "TauLib.BookVI.Agency.AgencySector",
-  "module_url": "/verify/taulib/docs/book-vi-agency-agency-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-agency-agency-sector/",
   "source_line_start": 88,
   "source_line_end": 92,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/AgencySector.lean#L88-L92",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Agency.AgencySector",
-        "url": "/verify/taulib/docs/book-vi-agency-agency-sector/"
+        "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Agency.AgencySector](/verify/taulib/docs/book-vi-agency-agency-sector/)
+- Module: [TauLib.BookVI.Agency.AgencySector](/corpus/taulib/docs/book-vi-agency-agency-sector/)
 - Source path: [`TauLib/BookVI/Agency/AgencySector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/AgencySector.lean#L88-L92)
 - Source range: L88-L92
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

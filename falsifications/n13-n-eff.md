@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N13 — Effective neutrino number N_eff"
-permalink: "/results/falsifications/n13-n-eff/"
+permalink: "/falsifications/n13-n-eff/"
 lane: "results"
 falsification_id: "N13"
 n_num: 13

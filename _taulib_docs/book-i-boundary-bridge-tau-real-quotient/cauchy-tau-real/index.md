@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CauchyTauReal",
-  "permalink": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/cauchy-tau-real/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/cauchy-tau-real/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Boundary.Bridge.TauRealQuotient`.",
   "declaration_id": "TauLib.BookI.Boundary.Bridge.TauRealQuotient::CauchyTauReal",
   "declaration_slug": "cauchy-tau-real",
   "kind": "structure",
   "name": "CauchyTauReal",
   "module_name": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
-  "module_url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/",
   "source_line_start": 81,
   "source_line_end": 88,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean#L81-L88",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
-        "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/"
+        "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Bridge.TauRealQuotient](/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/)
+- Module: [TauLib.BookI.Boundary.Bridge.TauRealQuotient](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/)
 - Source path: [`TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean#L81-L88)
 - Source range: L81-L88
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

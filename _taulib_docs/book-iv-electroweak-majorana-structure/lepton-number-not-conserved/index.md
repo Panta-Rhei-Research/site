@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "lepton_number_not_conserved",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/lepton-number-not-conserved/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/lepton-number-not-conserved/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.MajoranaStructure`.",
   "declaration_id": "TauLib.BookIV.Electroweak.MajoranaStructure::lepton_number_not_conserved",
   "declaration_slug": "lepton-number-not-conserved",
   "kind": "def",
   "name": "lepton_number_not_conserved",
   "module_name": "TauLib.BookIV.Electroweak.MajoranaStructure",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/",
   "source_line_start": 183,
   "source_line_end": 187,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/MajoranaStructure.lean#L183-L187",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.MajoranaStructure",
-        "url": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.MajoranaStructure](/verify/taulib/docs/book-iv-electroweak-majorana-structure/)
+- Module: [TauLib.BookIV.Electroweak.MajoranaStructure](/corpus/taulib/docs/book-iv-electroweak-majorana-structure/)
 - Source path: [`TauLib/BookIV/Electroweak/MajoranaStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/MajoranaStructure.lean#L183-L187)
 - Source range: L183-L187
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

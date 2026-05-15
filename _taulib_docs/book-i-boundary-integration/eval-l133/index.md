@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L133",
-  "permalink": "/verify/taulib/docs/book-i-boundary-integration/eval-l133/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-integration/eval-l133/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Boundary.Integration`.",
   "declaration_id": "TauLib.BookI.Boundary.Integration::#eval:133",
   "declaration_slug": "eval-l133",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Integration",
-  "module_url": "/verify/taulib/docs/book-i-boundary-integration/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-integration/",
   "source_line_start": 133,
   "source_line_end": 133,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Integration.lean#L133-L133",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Integration",
-        "url": "/verify/taulib/docs/book-i-boundary-integration/"
+        "url": "/corpus/taulib/docs/book-i-boundary-integration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Integration](/verify/taulib/docs/book-i-boundary-integration/)
+- Module: [TauLib.BookI.Boundary.Integration](/corpus/taulib/docs/book-i-boundary-integration/)
 - Source path: [`TauLib/BookI/Boundary/Integration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Integration.lean#L133-L133)
 - Source range: L133-L133
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

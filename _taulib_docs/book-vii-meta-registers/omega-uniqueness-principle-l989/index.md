@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_uniqueness_principle",
-  "permalink": "/verify/taulib/docs/book-vii-meta-registers/omega-uniqueness-principle-l989/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-registers/omega-uniqueness-principle-l989/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Meta.Registers`.",
   "declaration_id": "TauLib.BookVII.Meta.Registers::omega_uniqueness_principle",
   "declaration_slug": "omega-uniqueness-principle-l989",
   "kind": "def",
   "name": "omega_uniqueness_principle",
   "module_name": "TauLib.BookVII.Meta.Registers",
-  "module_url": "/verify/taulib/docs/book-vii-meta-registers/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-registers/",
   "source_line_start": 989,
   "source_line_end": 989,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L989-L989",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Registers",
-        "url": "/verify/taulib/docs/book-vii-meta-registers/"
+        "url": "/corpus/taulib/docs/book-vii-meta-registers/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Registers](/verify/taulib/docs/book-vii-meta-registers/)
+- Module: [TauLib.BookVII.Meta.Registers](/corpus/taulib/docs/book-vii-meta-registers/)
 - Source path: [`TauLib/BookVII/Meta/Registers.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L989-L989)
 - Source range: L989-L989
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

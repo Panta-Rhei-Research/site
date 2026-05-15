@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ChannelEigenstate",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/channel-eigenstate/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/channel-eigenstate/",
   "summary_short": "`inductive` declaration in `TauLib.BookI.Polarity.H4BoundaryAlgebra`.",
   "declaration_id": "TauLib.BookI.Polarity.H4BoundaryAlgebra::ChannelEigenstate",
   "declaration_slug": "channel-eigenstate",
   "kind": "inductive",
   "name": "ChannelEigenstate",
   "module_name": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/",
   "source_line_start": 242,
   "source_line_end": 247,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L242-L247",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-        "url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/)
+- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/)
 - Source path: [`TauLib/BookI/Polarity/H4BoundaryAlgebra.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L242-L247)
 - Source range: L242-L247
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

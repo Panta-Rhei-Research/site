@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "grand_grh_adelic",
-  "permalink": "/verify/taulib/docs/book-iii-doors-grand-grh/grand-grh-adelic/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-grand-grh/grand-grh-adelic/",
   "summary_short": "`axiom` declaration in `TauLib.BookIII.Doors.GrandGRH`.",
   "declaration_id": "TauLib.BookIII.Doors.GrandGRH::grand_grh_adelic",
   "declaration_slug": "grand-grh-adelic",
   "kind": "axiom",
   "name": "grand_grh_adelic",
   "module_name": "TauLib.BookIII.Doors.GrandGRH",
-  "module_url": "/verify/taulib/docs/book-iii-doors-grand-grh/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-grand-grh/",
   "source_line_start": 125,
   "source_line_end": 126,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/GrandGRH.lean#L125-L126",
   "formal_status": "axiom",
+  "declaration_role": "trusted axiom",
+  "formal_status_label": "axiom",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.GrandGRH",
-        "url": "/verify/taulib/docs/book-iii-doors-grand-grh/"
+        "url": "/corpus/taulib/docs/book-iii-doors-grand-grh/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,6 +51,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "axiom",
+      "role": "trusted axiom",
       "status": "axiom"
     }
   },
@@ -70,10 +73,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.GrandGRH](/verify/taulib/docs/book-iii-doors-grand-grh/)
+- Module: [TauLib.BookIII.Doors.GrandGRH](/corpus/taulib/docs/book-iii-doors-grand-grh/)
 - Source path: [`TauLib/BookIII/Doors/GrandGRH.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/GrandGRH.lean#L125-L126)
 - Source range: L125-L126
 - Kind: `axiom`
+- Public role: `trusted axiom`
 - Formal status hint: `axiom`
 
 ## Registry Links

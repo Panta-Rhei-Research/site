@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hol_comp_sf",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-category-structure/hol-comp-sf/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-category-structure/hol-comp-sf/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.CategoryStructure`.",
   "declaration_id": "TauLib.BookII.Hartogs.CategoryStructure::hol_comp_sf",
   "declaration_slug": "hol-comp-sf",
   "kind": "def",
   "name": "hol_comp_sf",
   "module_name": "TauLib.BookII.Hartogs.CategoryStructure",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-category-structure/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-category-structure/",
   "source_line_start": 67,
   "source_line_end": 68,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CategoryStructure.lean#L67-L68",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CategoryStructure",
-        "url": "/verify/taulib/docs/book-ii-hartogs-category-structure/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-category-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CategoryStructure](/verify/taulib/docs/book-ii-hartogs-category-structure/)
+- Module: [TauLib.BookII.Hartogs.CategoryStructure](/corpus/taulib/docs/book-ii-hartogs-category-structure/)
 - Source path: [`TauLib/BookII/Hartogs/CategoryStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CategoryStructure.lean#L67-L68)
 - Source range: L67-L68
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

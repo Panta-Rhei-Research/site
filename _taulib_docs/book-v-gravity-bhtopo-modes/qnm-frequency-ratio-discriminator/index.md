@@ -2,16 +2,16 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "qnm_frequency_ratio_discriminator",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/qnm-frequency-ratio-discriminator/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/qnm-frequency-ratio-discriminator/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::qnm_frequency_ratio_discriminator",
   "declaration_slug": "qnm-frequency-ratio-discriminator",
   "kind": "def",
   "name": "qnm_frequency_ratio_discriminator",
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
-  "source_line_start": 345,
-  "source_line_end": 347,
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "source_line_start": 350,
+  "source_line_end": 352,
   "registry_ids": [
     "V.T185"
   ],
@@ -22,17 +22,19 @@
       "url": "/registry/object/V.T185/"
     }
   ],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L345-L347",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L350-L352",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -42,14 +44,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L345-L347",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L350-L352",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
-- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L345-L347)
-- Source range: L345-L347
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L350-L352)
+- Source range: L350-L352
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

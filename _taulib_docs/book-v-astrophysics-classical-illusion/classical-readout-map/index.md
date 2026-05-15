@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ClassicalReadoutMap",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/classical-readout-map/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/classical-readout-map/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Astrophysics.ClassicalIllusion`.",
   "declaration_id": "TauLib.BookV.Astrophysics.ClassicalIllusion::ClassicalReadoutMap",
   "declaration_slug": "classical-readout-map",
   "kind": "structure",
   "name": "ClassicalReadoutMap",
   "module_name": "TauLib.BookV.Astrophysics.ClassicalIllusion",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/",
   "source_line_start": 87,
   "source_line_end": 98,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/ClassicalIllusion.lean#L87-L98",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.ClassicalIllusion",
-        "url": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.ClassicalIllusion](/verify/taulib/docs/book-v-astrophysics-classical-illusion/)
+- Module: [TauLib.BookV.Astrophysics.ClassicalIllusion](/corpus/taulib/docs/book-v-astrophysics-classical-illusion/)
 - Source path: [`TauLib/BookV/Astrophysics/ClassicalIllusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/ClassicalIllusion.lean#L87-L98)
 - Source range: L87-L98
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

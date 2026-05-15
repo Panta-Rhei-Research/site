@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauSphaleronQuestion",
-  "permalink": "/verify/taulib/docs/book-iv-coda-complete-ledger/tau-sphaleron-question/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-complete-ledger/tau-sphaleron-question/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Coda.CompleteLedger`.",
   "declaration_id": "TauLib.BookIV.Coda.CompleteLedger::TauSphaleronQuestion",
   "declaration_slug": "tau-sphaleron-question",
   "kind": "structure",
   "name": "TauSphaleronQuestion",
   "module_name": "TauLib.BookIV.Coda.CompleteLedger",
-  "module_url": "/verify/taulib/docs/book-iv-coda-complete-ledger/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/",
   "source_line_start": 171,
   "source_line_end": 182,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L171-L182",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.CompleteLedger",
-        "url": "/verify/taulib/docs/book-iv-coda-complete-ledger/"
+        "url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.CompleteLedger](/verify/taulib/docs/book-iv-coda-complete-ledger/)
+- Module: [TauLib.BookIV.Coda.CompleteLedger](/corpus/taulib/docs/book-iv-coda-complete-ledger/)
 - Source path: [`TauLib/BookIV/Coda/CompleteLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L171-L182)
 - Source range: L171-L182
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

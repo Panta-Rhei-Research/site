@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "KolmogorovExponent",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent/",
   "summary_short": "`structure` declaration in `TauLib.BookV.FluidMacro.Turbulence`.",
   "declaration_id": "TauLib.BookV.FluidMacro.Turbulence::KolmogorovExponent",
   "declaration_slug": "kolmogorov-exponent",
   "kind": "structure",
   "name": "KolmogorovExponent",
   "module_name": "TauLib.BookV.FluidMacro.Turbulence",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/",
   "source_line_start": 101,
   "source_line_end": 108,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/Turbulence.lean#L101-L108",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.Turbulence",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.Turbulence](/verify/taulib/docs/book-v-fluid-macro-turbulence/)
+- Module: [TauLib.BookV.FluidMacro.Turbulence](/corpus/taulib/docs/book-v-fluid-macro-turbulence/)
 - Source path: [`TauLib/BookV/FluidMacro/Turbulence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/Turbulence.lean#L101-L108)
 - Source range: L101-L108
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

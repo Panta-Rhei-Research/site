@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BoundaryCharacter",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-boundary-characters/boundary-character/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/boundary-character/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Sectors.BoundaryCharacters`.",
   "declaration_id": "TauLib.BookIII.Sectors.BoundaryCharacters::BoundaryCharacter",
   "declaration_slug": "boundary-character",
   "kind": "structure",
   "name": "BoundaryCharacter",
   "module_name": "TauLib.BookIII.Sectors.BoundaryCharacters",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/",
   "source_line_start": 41,
   "source_line_end": 44,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/BoundaryCharacters.lean#L41-L44",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.BoundaryCharacters",
-        "url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.BoundaryCharacters](/verify/taulib/docs/book-iii-sectors-boundary-characters/)
+- Module: [TauLib.BookIII.Sectors.BoundaryCharacters](/corpus/taulib/docs/book-iii-sectors-boundary-characters/)
 - Source path: [`TauLib/BookIII/Sectors/BoundaryCharacters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/BoundaryCharacters.lean#L41-L44)
 - Source range: L41-L44
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h8_taureal_mathlib_commring_bridge_synthesis",
-  "permalink": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/h8-taureal-mathlib-commring-bridge-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/h8-taureal-mathlib-commring-bridge-synthesis/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Bridge.TauRealQuotient`.",
   "declaration_id": "TauLib.BookI.Boundary.Bridge.TauRealQuotient::h8_taureal_mathlib_commring_bridge_synthesis",
   "declaration_slug": "h8-taureal-mathlib-commring-bridge-synthesis",
   "kind": "theorem",
   "name": "h8_taureal_mathlib_commring_bridge_synthesis",
   "module_name": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
-  "module_url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/",
   "source_line_start": 320,
   "source_line_end": 339,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean#L320-L339",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
-        "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/"
+        "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Bridge.TauRealQuotient](/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/)
+- Module: [TauLib.BookI.Boundary.Bridge.TauRealQuotient](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/)
 - Source path: [`TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean#L320-L339)
 - Source range: L320-L339
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

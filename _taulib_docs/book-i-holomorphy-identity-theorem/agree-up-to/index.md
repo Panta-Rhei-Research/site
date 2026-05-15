@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "agree_up_to",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/agree-up-to/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/agree-up-to/",
   "summary_short": "`def` declaration in `TauLib.BookI.Holomorphy.IdentityTheorem`.",
   "declaration_id": "TauLib.BookI.Holomorphy.IdentityTheorem::agree_up_to",
   "declaration_slug": "agree-up-to",
   "kind": "def",
   "name": "agree_up_to",
   "module_name": "TauLib.BookI.Holomorphy.IdentityTheorem",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/",
   "source_line_start": 57,
   "source_line_end": 58,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/IdentityTheorem.lean#L57-L58",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.IdentityTheorem",
-        "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.IdentityTheorem](/verify/taulib/docs/book-i-holomorphy-identity-theorem/)
+- Module: [TauLib.BookI.Holomorphy.IdentityTheorem](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/)
 - Source path: [`TauLib/BookI/Holomorphy/IdentityTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/IdentityTheorem.lean#L57-L58)
 - Source range: L57-L58
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

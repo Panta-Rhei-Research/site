@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fixed_points_stage2",
-  "permalink": "/verify/taulib/docs/book-iii-computation-e2-witness/fixed-points-stage2/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-e2-witness/fixed-points-stage2/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Computation.E2Witness`.",
   "declaration_id": "TauLib.BookIII.Computation.E2Witness::fixed_points_stage2",
   "declaration_slug": "fixed-points-stage2",
   "kind": "theorem",
   "name": "fixed_points_stage2",
   "module_name": "TauLib.BookIII.Computation.E2Witness",
-  "module_url": "/verify/taulib/docs/book-iii-computation-e2-witness/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-e2-witness/",
   "source_line_start": 210,
   "source_line_end": 211,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/E2Witness.lean#L210-L211",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.E2Witness",
-        "url": "/verify/taulib/docs/book-iii-computation-e2-witness/"
+        "url": "/corpus/taulib/docs/book-iii-computation-e2-witness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.E2Witness](/verify/taulib/docs/book-iii-computation-e2-witness/)
+- Module: [TauLib.BookIII.Computation.E2Witness](/corpus/taulib/docs/book-iii-computation-e2-witness/)
 - Source path: [`TauLib/BookIII/Computation/E2Witness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/E2Witness.lean#L210-L211)
 - Source range: L210-L211
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

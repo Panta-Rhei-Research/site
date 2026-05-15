@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BookICrownJewel",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/book-icrown-jewel/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/book-icrown-jewel/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Holomorphy.PresheafEssence`.",
   "declaration_id": "TauLib.BookI.Holomorphy.PresheafEssence::BookICrownJewel",
   "declaration_slug": "book-icrown-jewel",
   "kind": "structure",
   "name": "BookICrownJewel",
   "module_name": "TauLib.BookI.Holomorphy.PresheafEssence",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/",
   "source_line_start": 234,
   "source_line_end": 252,
   "registry_ids": [
@@ -36,15 +36,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/PresheafEssence.lean#L234-L252",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.PresheafEssence",
-        "url": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -61,7 +63,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -82,11 +85,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.PresheafEssence](/verify/taulib/docs/book-i-holomorphy-presheaf-essence/)
+- Module: [TauLib.BookI.Holomorphy.PresheafEssence](/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/)
 - Source path: [`TauLib/BookI/Holomorphy/PresheafEssence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/PresheafEssence.lean#L234-L252)
 - Source range: L234-L252
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

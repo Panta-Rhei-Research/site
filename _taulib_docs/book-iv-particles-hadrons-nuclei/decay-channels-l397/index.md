@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "decay_channels",
-  "permalink": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/decay-channels-l397/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/decay-channels-l397/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.HadronsNuclei`.",
   "declaration_id": "TauLib.BookIV.Particles.HadronsNuclei::decay_channels",
   "declaration_slug": "decay-channels-l397",
   "kind": "def",
   "name": "decay_channels",
   "module_name": "TauLib.BookIV.Particles.HadronsNuclei",
-  "module_url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/",
   "source_line_start": 397,
   "source_line_end": 397,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L397-L397",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.HadronsNuclei",
-        "url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/"
+        "url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.HadronsNuclei](/verify/taulib/docs/book-iv-particles-hadrons-nuclei/)
+- Module: [TauLib.BookIV.Particles.HadronsNuclei](/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/)
 - Source path: [`TauLib/BookIV/Particles/HadronsNuclei.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L397-L397)
 - Source range: L397-L397
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

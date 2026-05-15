@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "comp_reduce_coherent",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-diagonal-protection/comp-reduce-coherent/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/comp-reduce-coherent/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.DiagonalProtection`.",
   "declaration_id": "TauLib.BookI.Holomorphy.DiagonalProtection::comp_reduce_coherent",
   "declaration_slug": "comp-reduce-coherent",
   "kind": "theorem",
   "name": "comp_reduce_coherent",
   "module_name": "TauLib.BookI.Holomorphy.DiagonalProtection",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-diagonal-protection/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/",
   "source_line_start": 134,
   "source_line_end": 160,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DiagonalProtection.lean#L134-L160",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.DiagonalProtection",
-        "url": "/verify/taulib/docs/book-i-holomorphy-diagonal-protection/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.DiagonalProtection](/verify/taulib/docs/book-i-holomorphy-diagonal-protection/)
+- Module: [TauLib.BookI.Holomorphy.DiagonalProtection](/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/)
 - Source path: [`TauLib/BookI/Holomorphy/DiagonalProtection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DiagonalProtection.lean#L134-L160)
 - Source range: L134-L160
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

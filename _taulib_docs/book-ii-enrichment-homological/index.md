@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Enrichment.Homological",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-homological/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-homological/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Enrichment.Homological`.",
   "module_name": "TauLib.BookII.Enrichment.Homological",
   "module_slug": "book-ii-enrichment-homological",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "ChainComplex",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/chain-complex/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/chain-complex/",
       "source_line_start": 48,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D84"
       ]
@@ -46,10 +48,12 @@
     {
       "kind": "def",
       "name": "primorial_chain",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/primorial-chain/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/primorial-chain/",
       "source_line_start": 54,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "II.D84"
       ]
@@ -57,10 +61,12 @@
     {
       "kind": "def",
       "name": "boundary_coherence_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/boundary-coherence-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/boundary-coherence-check/",
       "source_line_start": 60,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D84"
       ]
@@ -68,10 +74,12 @@
     {
       "kind": "def",
       "name": "ses_exactness_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/ses-exactness-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/ses-exactness-check/",
       "source_line_start": 86,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D85"
       ]
@@ -79,10 +87,12 @@
     {
       "kind": "def",
       "name": "ses_kernel_size",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/ses-kernel-size/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/ses-kernel-size/",
       "source_line_start": 106,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D85"
       ]
@@ -90,10 +100,12 @@
     {
       "kind": "def",
       "name": "homology_trivial_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/homology-trivial-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/homology-trivial-check/",
       "source_line_start": 115,
       "source_line_end": 119,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D85"
       ]
@@ -101,10 +113,12 @@
     {
       "kind": "def",
       "name": "ses_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/ses-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/ses-check/",
       "source_line_start": 128,
       "source_line_end": 155,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.P19"
       ]
@@ -112,10 +126,12 @@
     {
       "kind": "def",
       "name": "les_exactness_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/les-exactness-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/les-exactness-check/",
       "source_line_start": 159,
       "source_line_end": 160,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.P19"
       ]
@@ -123,10 +139,12 @@
     {
       "kind": "theorem",
       "name": "boundary_coherence_2",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/boundary-coherence-2/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/boundary-coherence-2/",
       "source_line_start": 167,
       "source_line_end": 168,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T54"
       ]
@@ -134,10 +152,12 @@
     {
       "kind": "theorem",
       "name": "boundary_coherence_3",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/boundary-coherence-3/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/boundary-coherence-3/",
       "source_line_start": 171,
       "source_line_end": 172,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T54"
       ]
@@ -145,10 +165,12 @@
     {
       "kind": "theorem",
       "name": "ses_exact_1",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/ses-exact-1/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/ses-exact-1/",
       "source_line_start": 175,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D85"
       ]
@@ -156,10 +178,12 @@
     {
       "kind": "theorem",
       "name": "ses_exact_2",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/ses-exact-2/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/ses-exact-2/",
       "source_line_start": 179,
       "source_line_end": 180,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D85"
       ]
@@ -167,10 +191,12 @@
     {
       "kind": "theorem",
       "name": "homology_trivial_1",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/homology-trivial-1/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/homology-trivial-1/",
       "source_line_start": 183,
       "source_line_end": 184,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D85"
       ]
@@ -178,10 +204,12 @@
     {
       "kind": "theorem",
       "name": "homology_trivial_2",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/homology-trivial-2/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/homology-trivial-2/",
       "source_line_start": 187,
       "source_line_end": 188,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D85"
       ]
@@ -189,10 +217,12 @@
     {
       "kind": "theorem",
       "name": "ses_stage1",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/ses-stage1/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/ses-stage1/",
       "source_line_start": 191,
       "source_line_end": 192,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.P19"
       ]
@@ -200,10 +230,12 @@
     {
       "kind": "theorem",
       "name": "ses_stage2",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/ses-stage2/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/ses-stage2/",
       "source_line_start": 195,
       "source_line_end": 196,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.P19"
       ]
@@ -211,10 +243,12 @@
     {
       "kind": "theorem",
       "name": "les_stage2",
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/les-stage2/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/les-stage2/",
       "source_line_start": 199,
       "source_line_end": 200,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.P19"
       ]
@@ -222,91 +256,111 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l206/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l206/",
       "source_line_start": 206,
       "source_line_end": 206,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l207/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l207/",
       "source_line_start": 207,
       "source_line_end": 207,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l208/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l208/",
       "source_line_start": 208,
       "source_line_end": 208,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l209/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l209/",
       "source_line_start": 209,
       "source_line_end": 209,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l210/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l210/",
       "source_line_start": 210,
       "source_line_end": 210,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l211/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l211/",
       "source_line_start": 211,
       "source_line_end": 211,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l212/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l212/",
       "source_line_start": 212,
       "source_line_end": 212,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l213/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l213/",
       "source_line_start": 213,
       "source_line_end": 213,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l214/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l214/",
       "source_line_start": 214,
       "source_line_end": 214,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-homological/eval-l215/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-homological/eval-l215/",
       "source_line_start": 215,
       "source_line_end": 217,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -318,7 +372,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -391,32 +445,32 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [ChainComplex](/verify/taulib/docs/book-ii-enrichment-homological/chain-complex/) | L48-L50 | defined | `II.D84` |
-| `def` | [primorial_chain](/verify/taulib/docs/book-ii-enrichment-homological/primorial-chain/) | L54-L56 | defined | `II.D84` |
-| `def` | [boundary_coherence_check](/verify/taulib/docs/book-ii-enrichment-homological/boundary-coherence-check/) | L60-L75 | defined | `II.D84` |
-| `def` | [ses_exactness_check](/verify/taulib/docs/book-ii-enrichment-homological/ses-exactness-check/) | L86-L102 | defined | `II.D85` |
-| `def` | [ses_kernel_size](/verify/taulib/docs/book-ii-enrichment-homological/ses-kernel-size/) | L106-L112 | defined | `II.D85` |
-| `def` | [homology_trivial_check](/verify/taulib/docs/book-ii-enrichment-homological/homology-trivial-check/) | L115-L119 | defined | `II.D85` |
-| `def` | [ses_check](/verify/taulib/docs/book-ii-enrichment-homological/ses-check/) | L128-L155 | defined | `II.P19` |
-| `def` | [les_exactness_check](/verify/taulib/docs/book-ii-enrichment-homological/les-exactness-check/) | L159-L160 | defined | `II.P19` |
-| `theorem` | [boundary_coherence_2](/verify/taulib/docs/book-ii-enrichment-homological/boundary-coherence-2/) | L167-L168 | formalized | `II.T54` |
-| `theorem` | [boundary_coherence_3](/verify/taulib/docs/book-ii-enrichment-homological/boundary-coherence-3/) | L171-L172 | formalized | `II.T54` |
-| `theorem` | [ses_exact_1](/verify/taulib/docs/book-ii-enrichment-homological/ses-exact-1/) | L175-L176 | formalized | `II.D85` |
-| `theorem` | [ses_exact_2](/verify/taulib/docs/book-ii-enrichment-homological/ses-exact-2/) | L179-L180 | formalized | `II.D85` |
-| `theorem` | [homology_trivial_1](/verify/taulib/docs/book-ii-enrichment-homological/homology-trivial-1/) | L183-L184 | formalized | `II.D85` |
-| `theorem` | [homology_trivial_2](/verify/taulib/docs/book-ii-enrichment-homological/homology-trivial-2/) | L187-L188 | formalized | `II.D85` |
-| `theorem` | [ses_stage1](/verify/taulib/docs/book-ii-enrichment-homological/ses-stage1/) | L191-L192 | formalized | `II.P19` |
-| `theorem` | [ses_stage2](/verify/taulib/docs/book-ii-enrichment-homological/ses-stage2/) | L195-L196 | formalized | `II.P19` |
-| `theorem` | [les_stage2](/verify/taulib/docs/book-ii-enrichment-homological/les-stage2/) | L199-L200 | formalized | `II.P19` |
-| `eval` | [#eval L206](/verify/taulib/docs/book-ii-enrichment-homological/eval-l206/) | L206-L206 | computed | — |
-| `eval` | [#eval L207](/verify/taulib/docs/book-ii-enrichment-homological/eval-l207/) | L207-L207 | computed | — |
-| `eval` | [#eval L208](/verify/taulib/docs/book-ii-enrichment-homological/eval-l208/) | L208-L208 | computed | — |
-| `eval` | [#eval L209](/verify/taulib/docs/book-ii-enrichment-homological/eval-l209/) | L209-L209 | computed | — |
-| `eval` | [#eval L210](/verify/taulib/docs/book-ii-enrichment-homological/eval-l210/) | L210-L210 | computed | — |
-| `eval` | [#eval L211](/verify/taulib/docs/book-ii-enrichment-homological/eval-l211/) | L211-L211 | computed | — |
-| `eval` | [#eval L212](/verify/taulib/docs/book-ii-enrichment-homological/eval-l212/) | L212-L212 | computed | — |
-| `eval` | [#eval L213](/verify/taulib/docs/book-ii-enrichment-homological/eval-l213/) | L213-L213 | computed | — |
-| `eval` | [#eval L214](/verify/taulib/docs/book-ii-enrichment-homological/eval-l214/) | L214-L214 | computed | — |
-| `eval` | [#eval L215](/verify/taulib/docs/book-ii-enrichment-homological/eval-l215/) | L215-L217 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [ChainComplex](/corpus/taulib/docs/book-ii-enrichment-homological/chain-complex/) | L48-L50 | type/data schema | type/data schema | `II.D84` |
+| `def` | [primorial_chain](/corpus/taulib/docs/book-ii-enrichment-homological/primorial-chain/) | L54-L56 | definition | definition | `II.D84` |
+| `def` | [boundary_coherence_check](/corpus/taulib/docs/book-ii-enrichment-homological/boundary-coherence-check/) | L60-L75 | data/computed value | data/computed value | `II.D84` |
+| `def` | [ses_exactness_check](/corpus/taulib/docs/book-ii-enrichment-homological/ses-exactness-check/) | L86-L102 | data/computed value | data/computed value | `II.D85` |
+| `def` | [ses_kernel_size](/corpus/taulib/docs/book-ii-enrichment-homological/ses-kernel-size/) | L106-L112 | data/computed value | data/computed value | `II.D85` |
+| `def` | [homology_trivial_check](/corpus/taulib/docs/book-ii-enrichment-homological/homology-trivial-check/) | L115-L119 | data/computed value | data/computed value | `II.D85` |
+| `def` | [ses_check](/corpus/taulib/docs/book-ii-enrichment-homological/ses-check/) | L128-L155 | data/computed value | data/computed value | `II.P19` |
+| `def` | [les_exactness_check](/corpus/taulib/docs/book-ii-enrichment-homological/les-exactness-check/) | L159-L160 | data/computed value | data/computed value | `II.P19` |
+| `theorem` | [boundary_coherence_2](/corpus/taulib/docs/book-ii-enrichment-homological/boundary-coherence-2/) | L167-L168 | proof obligation | formal proof obligation checked | `II.T54` |
+| `theorem` | [boundary_coherence_3](/corpus/taulib/docs/book-ii-enrichment-homological/boundary-coherence-3/) | L171-L172 | proof obligation | formal proof obligation checked | `II.T54` |
+| `theorem` | [ses_exact_1](/corpus/taulib/docs/book-ii-enrichment-homological/ses-exact-1/) | L175-L176 | proof obligation | formal proof obligation checked | `II.D85` |
+| `theorem` | [ses_exact_2](/corpus/taulib/docs/book-ii-enrichment-homological/ses-exact-2/) | L179-L180 | proof obligation | formal proof obligation checked | `II.D85` |
+| `theorem` | [homology_trivial_1](/corpus/taulib/docs/book-ii-enrichment-homological/homology-trivial-1/) | L183-L184 | proof obligation | formal proof obligation checked | `II.D85` |
+| `theorem` | [homology_trivial_2](/corpus/taulib/docs/book-ii-enrichment-homological/homology-trivial-2/) | L187-L188 | proof obligation | formal proof obligation checked | `II.D85` |
+| `theorem` | [ses_stage1](/corpus/taulib/docs/book-ii-enrichment-homological/ses-stage1/) | L191-L192 | proof obligation | formal proof obligation checked | `II.P19` |
+| `theorem` | [ses_stage2](/corpus/taulib/docs/book-ii-enrichment-homological/ses-stage2/) | L195-L196 | proof obligation | formal proof obligation checked | `II.P19` |
+| `theorem` | [les_stage2](/corpus/taulib/docs/book-ii-enrichment-homological/les-stage2/) | L199-L200 | proof obligation | formal proof obligation checked | `II.P19` |
+| `eval` | [#eval L206](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l206/) | L206-L206 | computed check | computed check | — |
+| `eval` | [#eval L207](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l207/) | L207-L207 | computed check | computed check | — |
+| `eval` | [#eval L208](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l208/) | L208-L208 | computed check | computed check | — |
+| `eval` | [#eval L209](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l209/) | L209-L209 | computed check | computed check | — |
+| `eval` | [#eval L210](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l210/) | L210-L210 | computed check | computed check | — |
+| `eval` | [#eval L211](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l211/) | L211-L211 | computed check | computed check | — |
+| `eval` | [#eval L212](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l212/) | L212-L212 | computed check | computed check | — |
+| `eval` | [#eval L213](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l213/) | L213-L213 | computed check | computed check | — |
+| `eval` | [#eval L214](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l214/) | L214-L214 | computed check | computed check | — |
+| `eval` | [#eval L215](/corpus/taulib/docs/book-ii-enrichment-homological/eval-l215/) | L215-L217 | computed check | computed check | — |

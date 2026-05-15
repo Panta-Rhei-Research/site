@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CircadianTau1",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Persistence.TemporalLemniscate`.",
   "declaration_id": "TauLib.BookVI.Persistence.TemporalLemniscate::CircadianTau1",
   "declaration_slug": "circadian-tau1",
   "kind": "structure",
   "name": "CircadianTau1",
   "module_name": "TauLib.BookVI.Persistence.TemporalLemniscate",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/",
   "source_line_start": 102,
   "source_line_end": 107,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/TemporalLemniscate.lean#L102-L107",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.TemporalLemniscate",
-        "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.TemporalLemniscate](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/)
+- Module: [TauLib.BookVI.Persistence.TemporalLemniscate](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/)
 - Source path: [`TauLib/BookVI/Persistence/TemporalLemniscate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/TemporalLemniscate.lean#L102-L107)
 - Source range: L102-L107
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PlasmaWaveMode",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/plasma-wave-mode/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/plasma-wave-mode/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.FluidMacro.TauPlasma`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauPlasma::PlasmaWaveMode",
   "declaration_slug": "plasma-wave-mode",
   "kind": "inductive",
   "name": "PlasmaWaveMode",
   "module_name": "TauLib.BookV.FluidMacro.TauPlasma",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/",
   "source_line_start": 165,
   "source_line_end": 172,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauPlasma.lean#L165-L172",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauPlasma",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauPlasma](/verify/taulib/docs/book-v-fluid-macro-tau-plasma/)
+- Module: [TauLib.BookV.FluidMacro.TauPlasma](/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/)
 - Source path: [`TauLib/BookV/FluidMacro/TauPlasma.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauPlasma.lean#L165-L172)
 - Source range: L165-L172
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

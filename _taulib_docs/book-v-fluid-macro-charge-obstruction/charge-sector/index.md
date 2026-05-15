@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ChargeSector",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-sector/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-sector/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.FluidMacro.ChargeObstruction`.",
   "declaration_id": "TauLib.BookV.FluidMacro.ChargeObstruction::ChargeSector",
   "declaration_slug": "charge-sector",
   "kind": "inductive",
   "name": "ChargeSector",
   "module_name": "TauLib.BookV.FluidMacro.ChargeObstruction",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/",
   "source_line_start": 58,
   "source_line_end": 65,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/ChargeObstruction.lean#L58-L65",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.ChargeObstruction",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.ChargeObstruction](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/)
+- Module: [TauLib.BookV.FluidMacro.ChargeObstruction](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/)
 - Source path: [`TauLib/BookV/FluidMacro/ChargeObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/ChargeObstruction.lean#L58-L65)
 - Source range: L58-L65
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

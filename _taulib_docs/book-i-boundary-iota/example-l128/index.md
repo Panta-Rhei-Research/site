@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L128",
-  "permalink": "/verify/taulib/docs/book-i-boundary-iota/example-l128/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-iota/example-l128/",
   "summary_short": "`example` declaration in `TauLib.BookI.Boundary.Iota`.",
   "declaration_id": "TauLib.BookI.Boundary.Iota::#eval:128",
   "declaration_slug": "example-l128",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Iota",
-  "module_url": "/verify/taulib/docs/book-i-boundary-iota/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-iota/",
   "source_line_start": 128,
   "source_line_end": 128,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L128-L128",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Iota",
-        "url": "/verify/taulib/docs/book-i-boundary-iota/"
+        "url": "/corpus/taulib/docs/book-i-boundary-iota/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Iota](/verify/taulib/docs/book-i-boundary-iota/)
+- Module: [TauLib.BookI.Boundary.Iota](/corpus/taulib/docs/book-i-boundary-iota/)
 - Source path: [`TauLib/BookI/Boundary/Iota.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L128-L128)
 - Source range: L128-L128
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

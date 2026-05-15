@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_duty",
-  "permalink": "/verify/taulib/docs/book-vii-ethics-ciproof/canonical-duty/",
+  "permalink": "/corpus/taulib/docs/book-vii-ethics-ciproof/canonical-duty/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Ethics.CIProof`.",
   "declaration_id": "TauLib.BookVII.Ethics.CIProof::canonical_duty",
   "declaration_slug": "canonical-duty",
   "kind": "def",
   "name": "canonical_duty",
   "module_name": "TauLib.BookVII.Ethics.CIProof",
-  "module_url": "/verify/taulib/docs/book-vii-ethics-ciproof/",
+  "module_url": "/corpus/taulib/docs/book-vii-ethics-ciproof/",
   "source_line_start": 198,
   "source_line_end": 198,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L198-L198",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Ethics.CIProof",
-        "url": "/verify/taulib/docs/book-vii-ethics-ciproof/"
+        "url": "/corpus/taulib/docs/book-vii-ethics-ciproof/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Ethics.CIProof](/verify/taulib/docs/book-vii-ethics-ciproof/)
+- Module: [TauLib.BookVII.Ethics.CIProof](/corpus/taulib/docs/book-vii-ethics-ciproof/)
 - Source path: [`TauLib/BookVII/Ethics/CIProof.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L198-L198)
 - Source range: L198-L198
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

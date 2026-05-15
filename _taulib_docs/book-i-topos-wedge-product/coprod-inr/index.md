@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coprod_inr",
-  "permalink": "/verify/taulib/docs/book-i-topos-wedge-product/coprod-inr/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-wedge-product/coprod-inr/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.WedgeProduct`.",
   "declaration_id": "TauLib.BookI.Topos.WedgeProduct::coprod_inr",
   "declaration_slug": "coprod-inr",
   "kind": "theorem",
   "name": "coprod_inr",
   "module_name": "TauLib.BookI.Topos.WedgeProduct",
-  "module_url": "/verify/taulib/docs/book-i-topos-wedge-product/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-wedge-product/",
   "source_line_start": 39,
   "source_line_end": 41,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/WedgeProduct.lean#L39-L41",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.WedgeProduct",
-        "url": "/verify/taulib/docs/book-i-topos-wedge-product/"
+        "url": "/corpus/taulib/docs/book-i-topos-wedge-product/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.WedgeProduct](/verify/taulib/docs/book-i-topos-wedge-product/)
+- Module: [TauLib.BookI.Topos.WedgeProduct](/corpus/taulib/docs/book-i-topos-wedge-product/)
 - Source path: [`TauLib/BookI/Topos/WedgeProduct.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/WedgeProduct.lean#L39-L41)
 - Source range: L39-L41
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

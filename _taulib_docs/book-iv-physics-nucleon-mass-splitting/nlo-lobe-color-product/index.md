@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "nlo_lobe_color_product",
-  "permalink": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/nlo-lobe-color-product/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/nlo-lobe-color-product/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Physics.NucleonMassSplitting`.",
   "declaration_id": "TauLib.BookIV.Physics.NucleonMassSplitting::nlo_lobe_color_product",
   "declaration_slug": "nlo-lobe-color-product",
   "kind": "theorem",
   "name": "nlo_lobe_color_product",
   "module_name": "TauLib.BookIV.Physics.NucleonMassSplitting",
-  "module_url": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/",
   "source_line_start": 290,
   "source_line_end": 290,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/NucleonMassSplitting.lean#L290-L290",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.NucleonMassSplitting",
-        "url": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/"
+        "url": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.NucleonMassSplitting](/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/)
+- Module: [TauLib.BookIV.Physics.NucleonMassSplitting](/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/)
 - Source path: [`TauLib/BookIV/Physics/NucleonMassSplitting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/NucleonMassSplitting.lean#L290-L290)
 - Source range: L290-L290
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

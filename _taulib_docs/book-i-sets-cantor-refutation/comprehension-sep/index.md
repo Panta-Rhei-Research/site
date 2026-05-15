@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ComprehensionSep",
-  "permalink": "/verify/taulib/docs/book-i-sets-cantor-refutation/comprehension-sep/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-cantor-refutation/comprehension-sep/",
   "summary_short": "`def` declaration in `TauLib.BookI.Sets.CantorRefutation`.",
   "declaration_id": "TauLib.BookI.Sets.CantorRefutation::ComprehensionSep",
   "declaration_slug": "comprehension-sep",
   "kind": "def",
   "name": "ComprehensionSep",
   "module_name": "TauLib.BookI.Sets.CantorRefutation",
-  "module_url": "/verify/taulib/docs/book-i-sets-cantor-refutation/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-cantor-refutation/",
   "source_line_start": 79,
   "source_line_end": 79,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/CantorRefutation.lean#L79-L79",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.CantorRefutation",
-        "url": "/verify/taulib/docs/book-i-sets-cantor-refutation/"
+        "url": "/corpus/taulib/docs/book-i-sets-cantor-refutation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.CantorRefutation](/verify/taulib/docs/book-i-sets-cantor-refutation/)
+- Module: [TauLib.BookI.Sets.CantorRefutation](/corpus/taulib/docs/book-i-sets-cantor-refutation/)
 - Source path: [`TauLib/BookI/Sets/CantorRefutation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/CantorRefutation.lean#L79-L79)
 - Source range: L79-L79
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

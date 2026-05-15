@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L156",
-  "permalink": "/verify/taulib/docs/book-iii-doors-critical-line/eval-l156/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-critical-line/eval-l156/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Doors.CriticalLine`.",
   "declaration_id": "TauLib.BookIII.Doors.CriticalLine::#eval:156",
   "declaration_slug": "eval-l156",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Doors.CriticalLine",
-  "module_url": "/verify/taulib/docs/book-iii-doors-critical-line/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-critical-line/",
   "source_line_start": 156,
   "source_line_end": 156,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/CriticalLine.lean#L156-L156",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.CriticalLine",
-        "url": "/verify/taulib/docs/book-iii-doors-critical-line/"
+        "url": "/corpus/taulib/docs/book-iii-doors-critical-line/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.CriticalLine](/verify/taulib/docs/book-iii-doors-critical-line/)
+- Module: [TauLib.BookIII.Doors.CriticalLine](/corpus/taulib/docs/book-iii-doors-critical-line/)
 - Source path: [`TauLib/BookIII/Doors/CriticalLine.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/CriticalLine.lean#L156-L156)
 - Source range: L156-L156
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

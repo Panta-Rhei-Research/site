@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eternal_circulation_theorem",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/eternal-circulation-theorem/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/eternal-circulation-theorem/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.CosmologicalEndstate`.",
   "declaration_id": "TauLib.BookV.Cosmology.CosmologicalEndstate::eternal_circulation_theorem",
   "declaration_slug": "eternal-circulation-theorem",
   "kind": "theorem",
   "name": "eternal_circulation_theorem",
   "module_name": "TauLib.BookV.Cosmology.CosmologicalEndstate",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/",
   "source_line_start": 203,
   "source_line_end": 205,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CosmologicalEndstate.lean#L203-L205",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.CosmologicalEndstate",
-        "url": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.CosmologicalEndstate](/verify/taulib/docs/book-v-cosmology-cosmological-endstate/)
+- Module: [TauLib.BookV.Cosmology.CosmologicalEndstate](/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/)
 - Source path: [`TauLib/BookV/Cosmology/CosmologicalEndstate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CosmologicalEndstate.lean#L203-L205)
 - Source range: L203-L205
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

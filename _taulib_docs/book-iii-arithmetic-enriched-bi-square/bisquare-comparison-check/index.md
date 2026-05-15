@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bisquare_comparison_check",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Arithmetic.EnrichedBiSquare`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.EnrichedBiSquare::bisquare_comparison_check",
   "declaration_slug": "bisquare-comparison-check",
   "kind": "def",
   "name": "bisquare_comparison_check",
   "module_name": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
   "source_line_start": 110,
   "source_line_end": 135,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean#L110-L135",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.EnrichedBiSquare](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/)
+- Module: [TauLib.BookIII.Arithmetic.EnrichedBiSquare](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/)
 - Source path: [`TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean#L110-L135)
 - Source range: L110-L135
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

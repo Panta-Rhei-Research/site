@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L96",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-descent/eval-l96/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-descent/eval-l96/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Coordinates.Descent`.",
   "declaration_id": "TauLib.BookI.Coordinates.Descent::#eval:96",
   "declaration_slug": "eval-l96",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Coordinates.Descent",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-descent/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-descent/",
   "source_line_start": 96,
   "source_line_end": 98,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/Descent.lean#L96-L98",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.Descent",
-        "url": "/verify/taulib/docs/book-i-coordinates-descent/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-descent/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.Descent](/verify/taulib/docs/book-i-coordinates-descent/)
+- Module: [TauLib.BookI.Coordinates.Descent](/corpus/taulib/docs/book-i-coordinates-descent/)
 - Source path: [`TauLib/BookI/Coordinates/Descent.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/Descent.lean#L96-L98)
 - Source range: L96-L98
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

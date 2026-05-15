@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.CalibrationAnchor",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.CalibrationAnchor`.",
   "module_name": "TauLib.BookIV.Calibration.CalibrationAnchor",
   "module_slug": "book-iv-calibration-calibration-anchor",
@@ -40,10 +40,12 @@
     {
       "kind": "structure",
       "name": "CalibrationAnchor",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/calibration-anchor/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/calibration-anchor/",
       "source_line_start": 64,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D30"
       ]
@@ -51,28 +53,34 @@
     {
       "kind": "def",
       "name": "neutron_anchor",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/neutron-anchor/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/neutron-anchor/",
       "source_line_start": 78,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "anchor_matches_si",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/anchor-matches-si/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/anchor-matches-si/",
       "source_line_start": 86,
       "source_line_end": 89,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TauToSIConversion",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/tau-to-siconversion/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/tau-to-siconversion/",
       "source_line_start": 102,
       "source_line_end": 113,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D31"
       ]
@@ -80,28 +88,34 @@
     {
       "kind": "def",
       "name": "lambda_mass",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/lambda-mass/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/lambda-mass/",
       "source_line_start": 116,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DimensionalFactorization",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/dimensional-factorization/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/dimensional-factorization/",
       "source_line_start": 130,
       "source_line_end": 141,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "parameter_count",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/parameter-count/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/parameter-count/",
       "source_line_start": 146,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T05"
       ]
@@ -109,37 +123,45 @@
     {
       "kind": "inductive",
       "name": "RelationalStatus",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/relational-status/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/relational-status/",
       "source_line_start": 158,
       "source_line_end": 162,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "RelationalQuantity",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantity/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantity/",
       "source_line_start": 165,
       "source_line_end": 172,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "relational_quantities",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantities/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantities/",
       "source_line_start": 175,
       "source_line_end": 181,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_collapse",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/tau-collapse/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/tau-collapse/",
       "source_line_start": 186,
       "source_line_end": 190,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T06"
       ]
@@ -147,10 +169,12 @@
     {
       "kind": "inductive",
       "name": "OntologicalPriority",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/ontological-priority/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/ontological-priority/",
       "source_line_start": 205,
       "source_line_end": 210,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R07"
       ]
@@ -158,82 +182,100 @@
     {
       "kind": "def",
       "name": "OntologicalPriority.toNat",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/to-nat/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/to-nat/",
       "source_line_start": 213,
       "source_line_end": 217,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "neutron_first",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/neutron-first/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/neutron-first/",
       "source_line_start": 220,
       "source_line_end": 224,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "priority_levels",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/priority-levels/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/priority-levels/",
       "source_line_start": 227,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "anchor_positive",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/anchor-positive/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/anchor-positive/",
       "source_line_start": 234,
       "source_line_end": 236,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "anchor_much_heavier_than_electron",
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/anchor-much-heavier-than-electron/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/anchor-much-heavier-than-electron/",
       "source_line_start": 240,
       "source_line_end": 243,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l250/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l250/",
       "source_line_start": 250,
       "source_line_end": 250,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l253/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l253/",
       "source_line_start": 253,
       "source_line_end": 253,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l256/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l256/",
       "source_line_start": 256,
       "source_line_end": 256,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l257/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l257/",
       "source_line_start": 257,
       "source_line_end": 259,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -245,7 +287,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -323,26 +365,26 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CalibrationAnchor](/verify/taulib/docs/book-iv-calibration-calibration-anchor/calibration-anchor/) | L64-L75 | defined | `IV.D30` |
-| `def` | [neutron_anchor](/verify/taulib/docs/book-iv-calibration-calibration-anchor/neutron-anchor/) | L78-L83 | defined | — |
-| `theorem` | [anchor_matches_si](/verify/taulib/docs/book-iv-calibration-calibration-anchor/anchor-matches-si/) | L86-L89 | formalized | — |
-| `structure` | [TauToSIConversion](/verify/taulib/docs/book-iv-calibration-calibration-anchor/tau-to-siconversion/) | L102-L113 | defined | `IV.D31` |
-| `def` | [lambda_mass](/verify/taulib/docs/book-iv-calibration-calibration-anchor/lambda-mass/) | L116-L121 | defined | — |
-| `structure` | [DimensionalFactorization](/verify/taulib/docs/book-iv-calibration-calibration-anchor/dimensional-factorization/) | L130-L141 | defined | — |
-| `theorem` | [parameter_count](/verify/taulib/docs/book-iv-calibration-calibration-anchor/parameter-count/) | L146-L151 | formalized | `IV.T05` |
-| `inductive` | [RelationalStatus](/verify/taulib/docs/book-iv-calibration-calibration-anchor/relational-status/) | L158-L162 | defined | — |
-| `structure` | [RelationalQuantity](/verify/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantity/) | L165-L172 | defined | — |
-| `def` | [relational_quantities](/verify/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantities/) | L175-L181 | defined | — |
-| `theorem` | [tau_collapse](/verify/taulib/docs/book-iv-calibration-calibration-anchor/tau-collapse/) | L186-L190 | formalized | `IV.T06` |
-| `inductive` | [OntologicalPriority](/verify/taulib/docs/book-iv-calibration-calibration-anchor/ontological-priority/) | L205-L210 | defined | `IV.R07` |
-| `def` | [OntologicalPriority.toNat](/verify/taulib/docs/book-iv-calibration-calibration-anchor/to-nat/) | L213-L217 | defined | — |
-| `theorem` | [neutron_first](/verify/taulib/docs/book-iv-calibration-calibration-anchor/neutron-first/) | L220-L224 | formalized | — |
-| `theorem` | [priority_levels](/verify/taulib/docs/book-iv-calibration-calibration-anchor/priority-levels/) | L227-L227 | formalized | — |
-| `theorem` | [anchor_positive](/verify/taulib/docs/book-iv-calibration-calibration-anchor/anchor-positive/) | L234-L236 | formalized | — |
-| `theorem` | [anchor_much_heavier_than_electron](/verify/taulib/docs/book-iv-calibration-calibration-anchor/anchor-much-heavier-than-electron/) | L240-L243 | formalized | — |
-| `eval` | [#eval L250](/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l250/) | L250-L250 | computed | — |
-| `eval` | [#eval L253](/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l253/) | L253-L253 | computed | — |
-| `eval` | [#eval L256](/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l256/) | L256-L256 | computed | — |
-| `eval` | [#eval L257](/verify/taulib/docs/book-iv-calibration-calibration-anchor/eval-l257/) | L257-L259 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CalibrationAnchor](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/calibration-anchor/) | L64-L75 | type/data schema | type/data schema | `IV.D30` |
+| `def` | [neutron_anchor](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/neutron-anchor/) | L78-L83 | definition | definition | — |
+| `theorem` | [anchor_matches_si](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/anchor-matches-si/) | L86-L89 | proof obligation | formal proof obligation checked | — |
+| `structure` | [TauToSIConversion](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/tau-to-siconversion/) | L102-L113 | type/data schema | type/data schema | `IV.D31` |
+| `def` | [lambda_mass](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/lambda-mass/) | L116-L121 | definition | definition | — |
+| `structure` | [DimensionalFactorization](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/dimensional-factorization/) | L130-L141 | type/data schema | type/data schema | — |
+| `theorem` | [parameter_count](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/parameter-count/) | L146-L151 | proof obligation | formal proof obligation checked | `IV.T05` |
+| `inductive` | [RelationalStatus](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/relational-status/) | L158-L162 | type/data schema | type/data schema | — |
+| `structure` | [RelationalQuantity](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantity/) | L165-L172 | type/data schema | type/data schema | — |
+| `def` | [relational_quantities](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantities/) | L175-L181 | data/computed value | data/computed value | — |
+| `theorem` | [tau_collapse](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/tau-collapse/) | L186-L190 | proof obligation | formal proof obligation checked | `IV.T06` |
+| `inductive` | [OntologicalPriority](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/ontological-priority/) | L205-L210 | type/data schema | type/data schema | `IV.R07` |
+| `def` | [OntologicalPriority.toNat](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/to-nat/) | L213-L217 | definition | definition | — |
+| `theorem` | [neutron_first](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/neutron-first/) | L220-L224 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [priority_levels](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/priority-levels/) | L227-L227 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [anchor_positive](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/anchor-positive/) | L234-L236 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [anchor_much_heavier_than_electron](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/anchor-much-heavier-than-electron/) | L240-L243 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L250](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l250/) | L250-L250 | computed check | computed check | — |
+| `eval` | [#eval L253](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l253/) | L253-L253 | computed check | computed check | — |
+| `eval` | [#eval L256](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l256/) | L256-L256 | computed check | computed check | — |
+| `eval` | [#eval L257](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/eval-l257/) | L257-L259 | computed check | computed check | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AlgebraicDegradation",
-  "permalink": "/verify/taulib/docs/book-i-orbit-saturation/algebraic-degradation/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-saturation/algebraic-degradation/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Orbit.Saturation`.",
   "declaration_id": "TauLib.BookI.Orbit.Saturation::AlgebraicDegradation",
   "declaration_slug": "algebraic-degradation",
   "kind": "structure",
   "name": "AlgebraicDegradation",
   "module_name": "TauLib.BookI.Orbit.Saturation",
-  "module_url": "/verify/taulib/docs/book-i-orbit-saturation/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-saturation/",
   "source_line_start": 83,
   "source_line_end": 86,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Saturation.lean#L83-L86",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Saturation",
-        "url": "/verify/taulib/docs/book-i-orbit-saturation/"
+        "url": "/corpus/taulib/docs/book-i-orbit-saturation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Saturation](/verify/taulib/docs/book-i-orbit-saturation/)
+- Module: [TauLib.BookI.Orbit.Saturation](/corpus/taulib/docs/book-i-orbit-saturation/)
 - Source path: [`TauLib/BookI/Orbit/Saturation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Saturation.lean#L83-L86)
 - Source range: L83-L86
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

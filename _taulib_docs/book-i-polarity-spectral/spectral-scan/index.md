@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_scan",
-  "permalink": "/verify/taulib/docs/book-i-polarity-spectral/spectral-scan/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-spectral/spectral-scan/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.Spectral`.",
   "declaration_id": "TauLib.BookI.Polarity.Spectral::spectral_scan",
   "declaration_slug": "spectral-scan",
   "kind": "def",
   "name": "spectral_scan",
   "module_name": "TauLib.BookI.Polarity.Spectral",
-  "module_url": "/verify/taulib/docs/book-i-polarity-spectral/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-spectral/",
   "source_line_start": 36,
   "source_line_end": 48,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Spectral.lean#L36-L48",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.Spectral",
-        "url": "/verify/taulib/docs/book-i-polarity-spectral/"
+        "url": "/corpus/taulib/docs/book-i-polarity-spectral/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.Spectral](/verify/taulib/docs/book-i-polarity-spectral/)
+- Module: [TauLib.BookI.Polarity.Spectral](/corpus/taulib/docs/book-i-polarity-spectral/)
 - Source path: [`TauLib/BookI/Polarity/Spectral.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Spectral.lean#L36-L48)
 - Source range: L36-L48
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

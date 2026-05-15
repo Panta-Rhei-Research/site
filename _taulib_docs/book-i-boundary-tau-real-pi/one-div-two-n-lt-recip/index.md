@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Rat.one_div_two_n_lt_recip",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-pi/one-div-two-n-lt-recip/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/one-div-two-n-lt-recip/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealPi`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealPi::Rat.one_div_two_n_lt_recip",
   "declaration_slug": "one-div-two-n-lt-recip",
   "kind": "theorem",
   "name": "Rat.one_div_two_n_lt_recip",
   "module_name": "TauLib.BookI.Boundary.TauRealPi",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/",
   "source_line_start": 251,
   "source_line_end": 264,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealPi.lean#L251-L264",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealPi",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealPi](/verify/taulib/docs/book-i-boundary-tau-real-pi/)
+- Module: [TauLib.BookI.Boundary.TauRealPi](/corpus/taulib/docs/book-i-boundary-tau-real-pi/)
 - Source path: [`TauLib/BookI/Boundary/TauRealPi.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealPi.lean#L251-L264)
 - Source range: L251-L264
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

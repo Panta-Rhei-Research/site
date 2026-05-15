@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealPi",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-pi/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealPi`.",
   "module_name": "TauLib.BookI.Boundary.TauRealPi",
   "module_slug": "book-i-boundary-tau-real-pi",
@@ -40,109 +40,133 @@
     {
       "kind": "def",
       "name": "TauRat.pi_pair_term",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term/",
       "source_line_start": 70,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.pi_pair_term_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-to-rat/",
       "source_line_start": 73,
       "source_line_end": 76,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.pi_pair_term_pos",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-pos/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-pos/",
       "source_line_start": 78,
       "source_line_end": 83,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_pi_pair_term_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/abs-pi-pair-term-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/abs-pi-pair-term-to-rat/",
       "source_line_start": 85,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauRat.pi_partial",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-partial/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-partial/",
       "source_line_start": 90,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.pi",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi/",
       "source_line_start": 93,
       "source_line_end": 93,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Nat.four_k_plus_one_three_ge",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/four-k-plus-one-three-ge/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/four-k-plus-one-three-ge/",
       "source_line_start": 101,
       "source_line_end": 104,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.pi_pair_term_le_telescope",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-le-telescope/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-le-telescope/",
       "source_line_start": 107,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.sumFromTo_pi_pair_term_bound",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/sum-from-to-pi-pair-term-bound/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/sum-from-to-pi-pair-term-bound/",
       "source_line_start": 152,
       "source_line_end": 199,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.pi_partial_cauchy_bound",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-partial-cauchy-bound/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-partial-cauchy-bound/",
       "source_line_start": 205,
       "source_line_end": 243,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Rat.one_div_two_n_lt_recip",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/one-div-two-n-lt-recip/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/one-div-two-n-lt-recip/",
       "source_line_start": 251,
       "source_line_end": 264,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.pi_isCauchy",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-is-cauchy/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-is-cauchy/",
       "source_line_start": 271,
       "source_line_end": 300,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -154,7 +178,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -228,17 +252,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauRat.pi_pair_term](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term/) | L70-L71 | defined | — |
-| `theorem` | [TauRat.pi_pair_term_toRat](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-to-rat/) | L73-L76 | formalized | — |
-| `theorem` | [TauRat.pi_pair_term_pos](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-pos/) | L78-L83 | formalized | — |
-| `theorem` | [TauRat.abs_pi_pair_term_toRat](/verify/taulib/docs/book-i-boundary-tau-real-pi/abs-pi-pair-term-to-rat/) | L85-L87 | formalized | — |
-| `def` | [TauRat.pi_partial](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-partial/) | L90-L90 | defined | — |
-| `def` | [TauReal.pi](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi/) | L93-L93 | defined | — |
-| `theorem` | [Nat.four_k_plus_one_three_ge](/verify/taulib/docs/book-i-boundary-tau-real-pi/four-k-plus-one-three-ge/) | L101-L104 | formalized | — |
-| `theorem` | [TauRat.pi_pair_term_le_telescope](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-le-telescope/) | L107-L144 | formalized | — |
-| `theorem` | [TauReal.sumFromTo_pi_pair_term_bound](/verify/taulib/docs/book-i-boundary-tau-real-pi/sum-from-to-pi-pair-term-bound/) | L152-L199 | formalized | — |
-| `theorem` | [TauReal.pi_partial_cauchy_bound](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-partial-cauchy-bound/) | L205-L243 | formalized | — |
-| `theorem` | [Rat.one_div_two_n_lt_recip](/verify/taulib/docs/book-i-boundary-tau-real-pi/one-div-two-n-lt-recip/) | L251-L264 | formalized | — |
-| `theorem` | [TauReal.pi_isCauchy](/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-is-cauchy/) | L271-L300 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauRat.pi_pair_term](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term/) | L70-L71 | data/computed value | data/computed value | — |
+| `theorem` | [TauRat.pi_pair_term_toRat](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-to-rat/) | L73-L76 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.pi_pair_term_pos](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-pos/) | L78-L83 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_pi_pair_term_toRat](/corpus/taulib/docs/book-i-boundary-tau-real-pi/abs-pi-pair-term-to-rat/) | L85-L87 | proof obligation | formal proof obligation checked | — |
+| `def` | [TauRat.pi_partial](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-partial/) | L90-L90 | data/computed value | data/computed value | — |
+| `def` | [TauReal.pi](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi/) | L93-L93 | definition | definition | — |
+| `theorem` | [Nat.four_k_plus_one_three_ge](/corpus/taulib/docs/book-i-boundary-tau-real-pi/four-k-plus-one-three-ge/) | L101-L104 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.pi_pair_term_le_telescope](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-pair-term-le-telescope/) | L107-L144 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.sumFromTo_pi_pair_term_bound](/corpus/taulib/docs/book-i-boundary-tau-real-pi/sum-from-to-pi-pair-term-bound/) | L152-L199 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.pi_partial_cauchy_bound](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-partial-cauchy-bound/) | L205-L243 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [Rat.one_div_two_n_lt_recip](/corpus/taulib/docs/book-i-boundary-tau-real-pi/one-div-two-n-lt-recip/) | L251-L264 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.pi_isCauchy](/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-is-cauchy/) | L271-L300 | proof obligation | formal proof obligation checked | — |

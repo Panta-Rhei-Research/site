@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "unique_massless_transport",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-transport/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-transport/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.AlphaDerivation`.",
   "declaration_id": "TauLib.BookIV.Electroweak.AlphaDerivation::unique_massless_transport",
   "declaration_slug": "unique-massless-transport",
   "kind": "theorem",
   "name": "unique_massless_transport",
   "module_name": "TauLib.BookIV.Electroweak.AlphaDerivation",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/",
   "source_line_start": 333,
   "source_line_end": 334,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L333-L334",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.AlphaDerivation",
-        "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/)
+- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/)
 - Source path: [`TauLib/BookIV/Electroweak/AlphaDerivation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L333-L334)
 - Source range: L333-L334
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

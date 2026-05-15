@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PlanckCharacter",
-  "permalink": "/verify/taulib/docs/book-iv-physics-planck-character/planck-character/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-planck-character/planck-character/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Physics.PlanckCharacter`.",
   "declaration_id": "TauLib.BookIV.Physics.PlanckCharacter::PlanckCharacter",
   "declaration_slug": "planck-character",
   "kind": "structure",
   "name": "PlanckCharacter",
   "module_name": "TauLib.BookIV.Physics.PlanckCharacter",
-  "module_url": "/verify/taulib/docs/book-iv-physics-planck-character/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-planck-character/",
   "source_line_start": 70,
   "source_line_end": 81,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/PlanckCharacter.lean#L70-L81",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.PlanckCharacter",
-        "url": "/verify/taulib/docs/book-iv-physics-planck-character/"
+        "url": "/corpus/taulib/docs/book-iv-physics-planck-character/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.PlanckCharacter](/verify/taulib/docs/book-iv-physics-planck-character/)
+- Module: [TauLib.BookIV.Physics.PlanckCharacter](/corpus/taulib/docs/book-iv-physics-planck-character/)
 - Source path: [`TauLib/BookIV/Physics/PlanckCharacter.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/PlanckCharacter.lean#L70-L81)
 - Source range: L70-L81
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

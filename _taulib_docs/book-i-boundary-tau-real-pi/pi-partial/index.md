@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.pi_partial",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-pi/pi-partial/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/pi-partial/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.TauRealPi`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealPi::TauRat.pi_partial",
   "declaration_slug": "pi-partial",
   "kind": "def",
   "name": "TauRat.pi_partial",
   "module_name": "TauLib.BookI.Boundary.TauRealPi",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/",
   "source_line_start": 90,
   "source_line_end": 90,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealPi.lean#L90-L90",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealPi",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealPi](/verify/taulib/docs/book-i-boundary-tau-real-pi/)
+- Module: [TauLib.BookI.Boundary.TauRealPi](/corpus/taulib/docs/book-i-boundary-tau-real-pi/)
 - Source path: [`TauLib/BookI/Boundary/TauRealPi.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealPi.lean#L90-L90)
 - Source range: L90-L90
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

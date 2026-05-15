@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.KernelFoundation.GirardLinearEmbedding`.",
   "module_name": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding",
   "module_slug": "book-i-kernel-foundation-girard-linear-embedding",
@@ -32,163 +32,199 @@
     {
       "kind": "inductive",
       "name": "Formula",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/formula/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/formula/",
       "source_line_start": 115,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "Sequent",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/sequent/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/sequent/",
       "source_line_start": 124,
       "source_line_end": 127,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "StructuralRule",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule/",
       "source_line_start": 134,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "StructuralRule.admittedInLinear",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/admitted-in-linear/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/admitted-in-linear/",
       "source_line_start": 142,
       "source_line_end": 154,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "allStructuralRules",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/all-structural-rules/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/all-structural-rules/",
       "source_line_start": 157,
       "source_line_end": 158,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "structural_rule_count",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule-count/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule-count/",
       "source_line_start": 160,
       "source_line_end": 160,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "linear_fragment_signature",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/linear-fragment-signature/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/linear-fragment-signature/",
       "source_line_start": 164,
       "source_line_end": 166,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "ConnectiveTier",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/connective-tier/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/connective-tier/",
       "source_line_start": 173,
       "source_line_end": 176,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "Formula.tier",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/tier/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/tier/",
       "source_line_start": 179,
       "source_line_end": 196,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "cutSequent",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-sequent/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-sequent/",
       "source_line_start": 206,
       "source_line_end": 210,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cut_produces_sequent_when_applicable",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-produces-sequent-when-applicable/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-produces-sequent-when-applicable/",
       "source_line_start": 224,
       "source_line_end": 231,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "diagonal_linear_correspondence_witness",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/diagonal-linear-correspondence-witness/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/diagonal-linear-correspondence-witness/",
       "source_line_start": 247,
       "source_line_end": 252,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h8_girard_linear_embedding_synthesis",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/h8-girard-linear-embedding-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/h8-girard-linear-embedding-synthesis/",
       "source_line_start": 273,
       "source_line_end": 293,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l299/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l299/",
       "source_line_start": 299,
       "source_line_end": 299,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l300/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l300/",
       "source_line_start": 300,
       "source_line_end": 300,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l301/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l301/",
       "source_line_start": 301,
       "source_line_end": 301,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l302/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l302/",
       "source_line_start": 302,
       "source_line_end": 302,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l303/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l303/",
       "source_line_start": 303,
       "source_line_end": 305,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -200,7 +236,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -271,23 +307,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [Formula](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/formula/) | L115-L121 | defined | — |
-| `structure` | [Sequent](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/sequent/) | L124-L127 | defined | — |
-| `inductive` | [StructuralRule](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule/) | L134-L138 | defined | — |
-| `def` | [StructuralRule.admittedInLinear](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/admitted-in-linear/) | L142-L154 | defined | — |
-| `def` | [allStructuralRules](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/all-structural-rules/) | L157-L158 | defined | — |
-| `theorem` | [structural_rule_count](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule-count/) | L160-L160 | formalized | — |
-| `theorem` | [linear_fragment_signature](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/linear-fragment-signature/) | L164-L166 | formalized | — |
-| `inductive` | [ConnectiveTier](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/connective-tier/) | L173-L176 | defined | — |
-| `def` | [Formula.tier](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/tier/) | L179-L196 | defined | — |
-| `def` | [cutSequent](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-sequent/) | L206-L210 | defined | — |
-| `theorem` | [cut_produces_sequent_when_applicable](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-produces-sequent-when-applicable/) | L224-L231 | formalized | — |
-| `theorem` | [diagonal_linear_correspondence_witness](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/diagonal-linear-correspondence-witness/) | L247-L252 | formalized | — |
-| `theorem` | [h8_girard_linear_embedding_synthesis](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/h8-girard-linear-embedding-synthesis/) | L273-L293 | formalized | — |
-| `eval` | [#eval L299](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l299/) | L299-L299 | computed | — |
-| `eval` | [#eval L300](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l300/) | L300-L300 | computed | — |
-| `eval` | [#eval L301](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l301/) | L301-L301 | computed | — |
-| `eval` | [#eval L302](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l302/) | L302-L302 | computed | — |
-| `eval` | [#eval L303](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l303/) | L303-L305 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [Formula](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/formula/) | L115-L121 | type/data schema | type/data schema | — |
+| `structure` | [Sequent](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/sequent/) | L124-L127 | type/data schema | type/data schema | — |
+| `inductive` | [StructuralRule](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule/) | L134-L138 | type/data schema | type/data schema | — |
+| `def` | [StructuralRule.admittedInLinear](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/admitted-in-linear/) | L142-L154 | definition | definition | — |
+| `def` | [allStructuralRules](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/all-structural-rules/) | L157-L158 | data/computed value | data/computed value | — |
+| `theorem` | [structural_rule_count](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/structural-rule-count/) | L160-L160 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [linear_fragment_signature](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/linear-fragment-signature/) | L164-L166 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [ConnectiveTier](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/connective-tier/) | L173-L176 | type/data schema | type/data schema | — |
+| `def` | [Formula.tier](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/tier/) | L179-L196 | definition | definition | — |
+| `def` | [cutSequent](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-sequent/) | L206-L210 | definition | definition | — |
+| `theorem` | [cut_produces_sequent_when_applicable](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-produces-sequent-when-applicable/) | L224-L231 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [diagonal_linear_correspondence_witness](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/diagonal-linear-correspondence-witness/) | L247-L252 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h8_girard_linear_embedding_synthesis](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/h8-girard-linear-embedding-synthesis/) | L273-L293 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L299](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l299/) | L299-L299 | computed check | computed check | — |
+| `eval` | [#eval L300](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l300/) | L300-L300 | computed check | computed check | — |
+| `eval` | [#eval L301](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l301/) | L301-L301 | computed check | computed check | — |
+| `eval` | [#eval L302](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l302/) | L302-L302 | computed check | computed check | — |
+| `eval` | [#eval L303](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/eval-l303/) | L303-L305 | computed check | computed check | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "structural_rigidity",
-  "permalink": "/verify/taulib/docs/book-v-coda-hermetic-closure/structural-rigidity-l306/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-hermetic-closure/structural-rigidity-l306/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Coda.HermeticClosure`.",
   "declaration_id": "TauLib.BookV.Coda.HermeticClosure::structural_rigidity",
   "declaration_slug": "structural-rigidity-l306",
   "kind": "theorem",
   "name": "structural_rigidity",
   "module_name": "TauLib.BookV.Coda.HermeticClosure",
-  "module_url": "/verify/taulib/docs/book-v-coda-hermetic-closure/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/",
   "source_line_start": 306,
   "source_line_end": 311,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L306-L311",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.HermeticClosure",
-        "url": "/verify/taulib/docs/book-v-coda-hermetic-closure/"
+        "url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.HermeticClosure](/verify/taulib/docs/book-v-coda-hermetic-closure/)
+- Module: [TauLib.BookV.Coda.HermeticClosure](/corpus/taulib/docs/book-v-coda-hermetic-closure/)
 - Source path: [`TauLib/BookV/Coda/HermeticClosure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L306-L311)
 - Source range: L306-L311
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

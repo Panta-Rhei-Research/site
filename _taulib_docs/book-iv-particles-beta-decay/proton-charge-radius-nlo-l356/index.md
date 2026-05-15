@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "proton_charge_radius_nlo",
-  "permalink": "/verify/taulib/docs/book-iv-particles-beta-decay/proton-charge-radius-nlo-l356/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-beta-decay/proton-charge-radius-nlo-l356/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.BetaDecay`.",
   "declaration_id": "TauLib.BookIV.Particles.BetaDecay::proton_charge_radius_nlo",
   "declaration_slug": "proton-charge-radius-nlo-l356",
   "kind": "def",
   "name": "proton_charge_radius_nlo",
   "module_name": "TauLib.BookIV.Particles.BetaDecay",
-  "module_url": "/verify/taulib/docs/book-iv-particles-beta-decay/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-beta-decay/",
   "source_line_start": 356,
   "source_line_end": 356,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L356-L356",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.BetaDecay",
-        "url": "/verify/taulib/docs/book-iv-particles-beta-decay/"
+        "url": "/corpus/taulib/docs/book-iv-particles-beta-decay/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.BetaDecay](/verify/taulib/docs/book-iv-particles-beta-decay/)
+- Module: [TauLib.BookIV.Particles.BetaDecay](/corpus/taulib/docs/book-iv-particles-beta-decay/)
 - Source path: [`TauLib/BookIV/Particles/BetaDecay.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L356-L356)
 - Source range: L356-L356
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

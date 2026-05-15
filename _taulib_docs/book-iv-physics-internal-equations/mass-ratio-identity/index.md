@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mass_ratio_identity",
-  "permalink": "/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-identity/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-identity/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.InternalEquations`.",
   "declaration_id": "TauLib.BookIV.Physics.InternalEquations::mass_ratio_identity",
   "declaration_slug": "mass-ratio-identity",
   "kind": "def",
   "name": "mass_ratio_identity",
   "module_name": "TauLib.BookIV.Physics.InternalEquations",
-  "module_url": "/verify/taulib/docs/book-iv-physics-internal-equations/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-internal-equations/",
   "source_line_start": 104,
   "source_line_end": 110,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/InternalEquations.lean#L104-L110",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.InternalEquations",
-        "url": "/verify/taulib/docs/book-iv-physics-internal-equations/"
+        "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.InternalEquations](/verify/taulib/docs/book-iv-physics-internal-equations/)
+- Module: [TauLib.BookIV.Physics.InternalEquations](/corpus/taulib/docs/book-iv-physics-internal-equations/)
 - Source path: [`TauLib/BookIV/Physics/InternalEquations.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/InternalEquations.lean#L104-L110)
 - Source range: L104-L110
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

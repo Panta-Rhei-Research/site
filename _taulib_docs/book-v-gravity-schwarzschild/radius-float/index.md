@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SchwarzschildRelation.radiusFloat",
-  "permalink": "/verify/taulib/docs/book-v-gravity-schwarzschild/radius-float/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-schwarzschild/radius-float/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.Schwarzschild`.",
   "declaration_id": "TauLib.BookV.Gravity.Schwarzschild::SchwarzschildRelation.radiusFloat",
   "declaration_slug": "radius-float",
   "kind": "def",
   "name": "SchwarzschildRelation.radiusFloat",
   "module_name": "TauLib.BookV.Gravity.Schwarzschild",
-  "module_url": "/verify/taulib/docs/book-v-gravity-schwarzschild/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/",
   "source_line_start": 131,
   "source_line_end": 132,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/Schwarzschild.lean#L131-L132",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.Schwarzschild",
-        "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/"
+        "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.Schwarzschild](/verify/taulib/docs/book-v-gravity-schwarzschild/)
+- Module: [TauLib.BookV.Gravity.Schwarzschild](/corpus/taulib/docs/book-v-gravity-schwarzschild/)
 - Source path: [`TauLib/BookV/Gravity/Schwarzschild.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/Schwarzschild.lean#L131-L132)
 - Source range: L131-L132
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

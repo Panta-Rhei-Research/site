@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_strict_mem",
-  "permalink": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem/",
   "summary_short": "`def` declaration in `TauLib.BookI.Sets.Powerset`.",
   "declaration_id": "TauLib.BookI.Sets.Powerset::tau_strict_mem",
   "declaration_slug": "tau-strict-mem",
   "kind": "def",
   "name": "tau_strict_mem",
   "module_name": "TauLib.BookI.Sets.Powerset",
-  "module_url": "/verify/taulib/docs/book-i-sets-powerset/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-powerset/",
   "source_line_start": 39,
   "source_line_end": 39,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Powerset.lean#L39-L39",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Powerset",
-        "url": "/verify/taulib/docs/book-i-sets-powerset/"
+        "url": "/corpus/taulib/docs/book-i-sets-powerset/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Powerset](/verify/taulib/docs/book-i-sets-powerset/)
+- Module: [TauLib.BookI.Sets.Powerset](/corpus/taulib/docs/book-i-sets-powerset/)
 - Source path: [`TauLib/BookI/Sets/Powerset.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Powerset.lean#L39-L39)
 - Source range: L39-L39
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

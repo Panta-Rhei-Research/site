@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "finiteStageEpsilon",
-  "permalink": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.CouplingIdentityApproximants`.",
   "declaration_id": "TauLib.BookI.Boundary.CouplingIdentityApproximants::finiteStageEpsilon",
   "declaration_slug": "finite-stage-epsilon",
   "kind": "def",
   "name": "finiteStageEpsilon",
   "module_name": "TauLib.BookI.Boundary.CouplingIdentityApproximants",
-  "module_url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/",
   "source_line_start": 191,
   "source_line_end": 193,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/CouplingIdentityApproximants.lean#L191-L193",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.CouplingIdentityApproximants",
-        "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/"
+        "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.CouplingIdentityApproximants](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/)
+- Module: [TauLib.BookI.Boundary.CouplingIdentityApproximants](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/)
 - Source path: [`TauLib/BookI/Boundary/CouplingIdentityApproximants.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/CouplingIdentityApproximants.lean#L191-L193)
 - Source range: L191-L193
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

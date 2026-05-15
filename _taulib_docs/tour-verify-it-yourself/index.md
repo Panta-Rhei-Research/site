@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Tour.VerifyItYourself",
-  "permalink": "/verify/taulib/docs/tour-verify-it-yourself/",
+  "permalink": "/corpus/taulib/docs/tour-verify-it-yourself/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Tour.VerifyItYourself`.",
   "module_name": "TauLib.Tour.VerifyItYourself",
   "module_slug": "tour-verify-it-yourself",
@@ -34,73 +34,89 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l49/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l49/",
       "source_line_start": 49,
       "source_line_end": 49,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l59/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l59/",
       "source_line_start": 59,
       "source_line_end": 59,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l60/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l60/",
       "source_line_start": 60,
       "source_line_end": 60,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l61/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l61/",
       "source_line_start": 61,
       "source_line_end": 61,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l62/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l62/",
       "source_line_start": 62,
       "source_line_end": 62,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l68/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l68/",
       "source_line_start": 68,
       "source_line_end": 68,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l69/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l69/",
       "source_line_start": 69,
       "source_line_end": 69,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-verify-it-yourself/eval-l70/",
+      "url": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l70/",
       "source_line_start": 70,
       "source_line_end": 251,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -112,7 +128,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -188,13 +204,13 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `eval` | [#eval L49](/verify/taulib/docs/tour-verify-it-yourself/eval-l49/) | L49-L49 | computed | — |
-| `eval` | [#eval L59](/verify/taulib/docs/tour-verify-it-yourself/eval-l59/) | L59-L59 | computed | — |
-| `eval` | [#eval L60](/verify/taulib/docs/tour-verify-it-yourself/eval-l60/) | L60-L60 | computed | — |
-| `eval` | [#eval L61](/verify/taulib/docs/tour-verify-it-yourself/eval-l61/) | L61-L61 | computed | — |
-| `eval` | [#eval L62](/verify/taulib/docs/tour-verify-it-yourself/eval-l62/) | L62-L62 | computed | — |
-| `eval` | [#eval L68](/verify/taulib/docs/tour-verify-it-yourself/eval-l68/) | L68-L68 | computed | — |
-| `eval` | [#eval L69](/verify/taulib/docs/tour-verify-it-yourself/eval-l69/) | L69-L69 | computed | — |
-| `eval` | [#eval L70](/verify/taulib/docs/tour-verify-it-yourself/eval-l70/) | L70-L251 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `eval` | [#eval L49](/corpus/taulib/docs/tour-verify-it-yourself/eval-l49/) | L49-L49 | computed check | computed check | — |
+| `eval` | [#eval L59](/corpus/taulib/docs/tour-verify-it-yourself/eval-l59/) | L59-L59 | computed check | computed check | — |
+| `eval` | [#eval L60](/corpus/taulib/docs/tour-verify-it-yourself/eval-l60/) | L60-L60 | computed check | computed check | — |
+| `eval` | [#eval L61](/corpus/taulib/docs/tour-verify-it-yourself/eval-l61/) | L61-L61 | computed check | computed check | — |
+| `eval` | [#eval L62](/corpus/taulib/docs/tour-verify-it-yourself/eval-l62/) | L62-L62 | computed check | computed check | — |
+| `eval` | [#eval L68](/corpus/taulib/docs/tour-verify-it-yourself/eval-l68/) | L68-L68 | computed check | computed check | — |
+| `eval` | [#eval L69](/corpus/taulib/docs/tour-verify-it-yourself/eval-l69/) | L69-L69 | computed check | computed check | — |
+| `eval` | [#eval L70](/corpus/taulib/docs/tour-verify-it-yourself/eval-l70/) | L70-L251 | computed check | computed check | — |

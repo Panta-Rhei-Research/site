@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ckm_beta_tau_deg",
-  "permalink": "/verify/taulib/docs/book-iv-particles-three-generations/ckm-beta-tau-deg/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-three-generations/ckm-beta-tau-deg/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.ThreeGenerations`.",
   "declaration_id": "TauLib.BookIV.Particles.ThreeGenerations::ckm_beta_tau_deg",
   "declaration_slug": "ckm-beta-tau-deg",
   "kind": "def",
   "name": "ckm_beta_tau_deg",
   "module_name": "TauLib.BookIV.Particles.ThreeGenerations",
-  "module_url": "/verify/taulib/docs/book-iv-particles-three-generations/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-three-generations/",
   "source_line_start": 1365,
   "source_line_end": 1365,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/ThreeGenerations.lean#L1365-L1365",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.ThreeGenerations",
-        "url": "/verify/taulib/docs/book-iv-particles-three-generations/"
+        "url": "/corpus/taulib/docs/book-iv-particles-three-generations/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.ThreeGenerations](/verify/taulib/docs/book-iv-particles-three-generations/)
+- Module: [TauLib.BookIV.Particles.ThreeGenerations](/corpus/taulib/docs/book-iv-particles-three-generations/)
 - Source path: [`TauLib/BookIV/Particles/ThreeGenerations.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/ThreeGenerations.lean#L1365-L1365)
 - Source range: L1365-L1365
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

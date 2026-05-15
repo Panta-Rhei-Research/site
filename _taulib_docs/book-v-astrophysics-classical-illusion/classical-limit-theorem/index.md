@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "classical_limit_theorem",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/classical-limit-theorem/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/classical-limit-theorem/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.ClassicalIllusion`.",
   "declaration_id": "TauLib.BookV.Astrophysics.ClassicalIllusion::classical_limit_theorem",
   "declaration_slug": "classical-limit-theorem",
   "kind": "theorem",
   "name": "classical_limit_theorem",
   "module_name": "TauLib.BookV.Astrophysics.ClassicalIllusion",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/",
   "source_line_start": 123,
   "source_line_end": 125,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/ClassicalIllusion.lean#L123-L125",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.ClassicalIllusion",
-        "url": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.ClassicalIllusion](/verify/taulib/docs/book-v-astrophysics-classical-illusion/)
+- Module: [TauLib.BookV.Astrophysics.ClassicalIllusion](/corpus/taulib/docs/book-v-astrophysics-classical-illusion/)
 - Source path: [`TauLib/BookV/Astrophysics/ClassicalIllusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/ClassicalIllusion.lean#L123-L125)
 - Source range: L123-L125
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

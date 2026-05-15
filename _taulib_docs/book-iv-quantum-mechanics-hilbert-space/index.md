@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.QuantumMechanics.HilbertSpace",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.QuantumMechanics.HilbertSpace`.",
   "module_name": "TauLib.BookIV.QuantumMechanics.HilbertSpace",
   "module_slug": "book-iv-quantum-mechanics-hilbert-space",
@@ -46,10 +46,12 @@
     {
       "kind": "structure",
       "name": "CRFunctionSpace",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/crfunction-space/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/crfunction-space/",
       "source_line_start": 48,
       "source_line_end": 58,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D60"
       ]
@@ -57,19 +59,23 @@
     {
       "kind": "def",
       "name": "cr_function_space",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-function-space/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-function-space/",
       "source_line_start": 61,
       "source_line_end": 67,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cr_space_algebraic",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-space-algebraic/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-space-algebraic/",
       "source_line_start": 75,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P16"
       ]
@@ -77,10 +83,12 @@
     {
       "kind": "structure",
       "name": "TauInnerProduct",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product/",
       "source_line_start": 89,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D61"
       ]
@@ -88,19 +96,23 @@
     {
       "kind": "def",
       "name": "tau_inner_product",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product-l102/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product-l102/",
       "source_line_start": 102,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "inner_product_properties",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-properties/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-properties/",
       "source_line_start": 116,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P17"
       ]
@@ -108,10 +120,12 @@
     {
       "kind": "structure",
       "name": "InnerProductUniqueness",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-uniqueness/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-uniqueness/",
       "source_line_start": 131,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P18"
       ]
@@ -119,19 +133,23 @@
     {
       "kind": "def",
       "name": "inner_product_unique",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-unique/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-unique/",
       "source_line_start": 141,
       "source_line_end": 145,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HilbertSpaceTau",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-space-tau/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-space-tau/",
       "source_line_start": 153,
       "source_line_end": 163,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D62"
       ]
@@ -139,19 +157,23 @@
     {
       "kind": "def",
       "name": "hilbert_tau",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-tau/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-tau/",
       "source_line_start": 166,
       "source_line_end": 172,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "von_neumann_axioms",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/von-neumann-axioms/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/von-neumann-axioms/",
       "source_line_start": 181,
       "source_line_end": 185,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T18"
       ]
@@ -159,10 +181,12 @@
     {
       "kind": "structure",
       "name": "BoundaryDetermination",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determination/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determination/",
       "source_line_start": 195,
       "source_line_end": 204,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P19"
       ]
@@ -170,19 +194,23 @@
     {
       "kind": "def",
       "name": "boundary_determines_states",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determines-states/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determines-states/",
       "source_line_start": 207,
       "source_line_end": 212,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ONBStructure",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onbstructure/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onbstructure/",
       "source_line_start": 221,
       "source_line_end": 234,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T19"
       ]
@@ -190,19 +218,23 @@
     {
       "kind": "def",
       "name": "onb_admissible",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-admissible/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-admissible/",
       "source_line_start": 237,
       "source_line_end": 245,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "onb_is_admissible_characters",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-is-admissible-characters/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-is-admissible-characters/",
       "source_line_start": 248,
       "source_line_end": 253,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T19"
       ]
@@ -210,10 +242,12 @@
     {
       "kind": "theorem",
       "name": "spectral_completeness",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/spectral-completeness/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/spectral-completeness/",
       "source_line_start": 262,
       "source_line_end": 263,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P20"
       ]
@@ -221,10 +255,12 @@
     {
       "kind": "structure",
       "name": "PhysicalState",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/physical-state/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/physical-state/",
       "source_line_start": 271,
       "source_line_end": 278,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D63"
       ]
@@ -232,10 +268,12 @@
     {
       "kind": "inductive",
       "name": "EntanglementClass",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-class/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-class/",
       "source_line_start": 286,
       "source_line_end": 291,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D64"
       ]
@@ -243,10 +281,12 @@
     {
       "kind": "structure",
       "name": "EntanglementGenericity",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-genericity/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-genericity/",
       "source_line_start": 300,
       "source_line_end": 307,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P21"
       ]
@@ -254,19 +294,23 @@
     {
       "kind": "def",
       "name": "entangled_is_generic",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entangled-is-generic/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entangled-is-generic/",
       "source_line_start": 310,
       "source_line_end": 314,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "superposition_from_linearity",
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/superposition-from-linearity/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/superposition-from-linearity/",
       "source_line_start": 324,
       "source_line_end": 325,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P22"
       ]
@@ -274,64 +318,78 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l331/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l331/",
       "source_line_start": 331,
       "source_line_end": 331,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l332/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l332/",
       "source_line_start": 332,
       "source_line_end": 332,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l333/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l333/",
       "source_line_start": 333,
       "source_line_end": 333,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l334/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l334/",
       "source_line_start": 334,
       "source_line_end": 334,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l335/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l335/",
       "source_line_start": 335,
       "source_line_end": 335,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l336/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l336/",
       "source_line_start": 336,
       "source_line_end": 336,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l337/",
+      "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l337/",
       "source_line_start": 337,
       "source_line_end": 339,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -343,7 +401,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -427,34 +485,34 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CRFunctionSpace](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/crfunction-space/) | L48-L58 | defined | `IV.D60` |
-| `def` | [cr_function_space](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-function-space/) | L61-L67 | defined | — |
-| `theorem` | [cr_space_algebraic](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-space-algebraic/) | L75-L79 | formalized | `IV.P16` |
-| `structure` | [TauInnerProduct](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product/) | L89-L99 | defined | `IV.D61` |
-| `def` | [tau_inner_product](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product-l102/) | L102-L108 | defined | — |
-| `theorem` | [inner_product_properties](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-properties/) | L116-L120 | formalized | `IV.P17` |
-| `structure` | [InnerProductUniqueness](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-uniqueness/) | L131-L138 | defined | `IV.P18` |
-| `def` | [inner_product_unique](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-unique/) | L141-L145 | defined | — |
-| `structure` | [HilbertSpaceTau](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-space-tau/) | L153-L163 | defined | `IV.D62` |
-| `def` | [hilbert_tau](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-tau/) | L166-L172 | defined | — |
-| `theorem` | [von_neumann_axioms](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/von-neumann-axioms/) | L181-L185 | formalized | `IV.T18` |
-| `structure` | [BoundaryDetermination](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determination/) | L195-L204 | defined | `IV.P19` |
-| `def` | [boundary_determines_states](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determines-states/) | L207-L212 | defined | — |
-| `structure` | [ONBStructure](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onbstructure/) | L221-L234 | defined | `IV.T19` |
-| `def` | [onb_admissible](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-admissible/) | L237-L245 | defined | — |
-| `theorem` | [onb_is_admissible_characters](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-is-admissible-characters/) | L248-L253 | formalized | `IV.T19` |
-| `theorem` | [spectral_completeness](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/spectral-completeness/) | L262-L263 | formalized | `IV.P20` |
-| `structure` | [PhysicalState](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/physical-state/) | L271-L278 | defined | `IV.D63` |
-| `inductive` | [EntanglementClass](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-class/) | L286-L291 | defined | `IV.D64` |
-| `structure` | [EntanglementGenericity](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-genericity/) | L300-L307 | defined | `IV.P21` |
-| `def` | [entangled_is_generic](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entangled-is-generic/) | L310-L314 | defined | — |
-| `theorem` | [superposition_from_linearity](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/superposition-from-linearity/) | L324-L325 | formalized | `IV.P22` |
-| `eval` | [#eval L331](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l331/) | L331-L331 | computed | — |
-| `eval` | [#eval L332](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l332/) | L332-L332 | computed | — |
-| `eval` | [#eval L333](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l333/) | L333-L333 | computed | — |
-| `eval` | [#eval L334](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l334/) | L334-L334 | computed | — |
-| `eval` | [#eval L335](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l335/) | L335-L335 | computed | — |
-| `eval` | [#eval L336](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l336/) | L336-L336 | computed | — |
-| `eval` | [#eval L337](/verify/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l337/) | L337-L339 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CRFunctionSpace](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/crfunction-space/) | L48-L58 | type/data schema | type/data schema | `IV.D60` |
+| `def` | [cr_function_space](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-function-space/) | L61-L67 | definition | definition | — |
+| `theorem` | [cr_space_algebraic](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/cr-space-algebraic/) | L75-L79 | proof obligation | formal proof obligation checked | `IV.P16` |
+| `structure` | [TauInnerProduct](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product/) | L89-L99 | type/data schema | type/data schema | `IV.D61` |
+| `def` | [tau_inner_product](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/tau-inner-product-l102/) | L102-L108 | definition | definition | — |
+| `theorem` | [inner_product_properties](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-properties/) | L116-L120 | proof obligation | formal proof obligation checked | `IV.P17` |
+| `structure` | [InnerProductUniqueness](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-uniqueness/) | L131-L138 | type/data schema | type/data schema | `IV.P18` |
+| `def` | [inner_product_unique](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/inner-product-unique/) | L141-L145 | definition | definition | — |
+| `structure` | [HilbertSpaceTau](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-space-tau/) | L153-L163 | type/data schema | type/data schema | `IV.D62` |
+| `def` | [hilbert_tau](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/hilbert-tau/) | L166-L172 | definition | definition | — |
+| `theorem` | [von_neumann_axioms](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/von-neumann-axioms/) | L181-L185 | proof obligation | formal proof obligation checked | `IV.T18` |
+| `structure` | [BoundaryDetermination](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determination/) | L195-L204 | type/data schema | type/data schema | `IV.P19` |
+| `def` | [boundary_determines_states](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/boundary-determines-states/) | L207-L212 | definition | definition | — |
+| `structure` | [ONBStructure](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onbstructure/) | L221-L234 | type/data schema | type/data schema | `IV.T19` |
+| `def` | [onb_admissible](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-admissible/) | L237-L245 | definition | definition | — |
+| `theorem` | [onb_is_admissible_characters](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/onb-is-admissible-characters/) | L248-L253 | proof obligation | formal proof obligation checked | `IV.T19` |
+| `theorem` | [spectral_completeness](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/spectral-completeness/) | L262-L263 | proof obligation | formal proof obligation checked | `IV.P20` |
+| `structure` | [PhysicalState](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/physical-state/) | L271-L278 | type/data schema | type/data schema | `IV.D63` |
+| `inductive` | [EntanglementClass](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-class/) | L286-L291 | type/data schema | type/data schema | `IV.D64` |
+| `structure` | [EntanglementGenericity](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entanglement-genericity/) | L300-L307 | type/data schema | type/data schema | `IV.P21` |
+| `def` | [entangled_is_generic](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/entangled-is-generic/) | L310-L314 | definition | definition | — |
+| `theorem` | [superposition_from_linearity](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/superposition-from-linearity/) | L324-L325 | proof obligation | formal proof obligation checked | `IV.P22` |
+| `eval` | [#eval L331](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l331/) | L331-L331 | computed check | computed check | — |
+| `eval` | [#eval L332](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l332/) | L332-L332 | computed check | computed check | — |
+| `eval` | [#eval L333](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l333/) | L333-L333 | computed check | computed check | — |
+| `eval` | [#eval L334](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l334/) | L334-L334 | computed check | computed check | — |
+| `eval` | [#eval L335](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l335/) | L335-L335 | computed check | computed check | — |
+| `eval` | [#eval L336](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l336/) | L336-L336 | computed check | computed check | — |
+| `eval` | [#eval L337](/corpus/taulib/docs/book-iv-quantum-mechanics-hilbert-space/eval-l337/) | L337-L339 | computed check | computed check | — |

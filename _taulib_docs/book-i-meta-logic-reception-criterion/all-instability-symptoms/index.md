@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "allInstabilitySymptoms",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/all-instability-symptoms/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/all-instability-symptoms/",
   "summary_short": "`def` declaration in `TauLib.BookI.MetaLogic.ReceptionCriterion`.",
   "declaration_id": "TauLib.BookI.MetaLogic.ReceptionCriterion::allInstabilitySymptoms",
   "declaration_slug": "all-instability-symptoms",
   "kind": "def",
   "name": "allInstabilitySymptoms",
   "module_name": "TauLib.BookI.MetaLogic.ReceptionCriterion",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/",
   "source_line_start": 80,
   "source_line_end": 81,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/ReceptionCriterion.lean#L80-L81",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.ReceptionCriterion",
-        "url": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.ReceptionCriterion](/verify/taulib/docs/book-i-meta-logic-reception-criterion/)
+- Module: [TauLib.BookI.MetaLogic.ReceptionCriterion](/corpus/taulib/docs/book-i-meta-logic-reception-criterion/)
 - Source path: [`TauLib/BookI/MetaLogic/ReceptionCriterion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/ReceptionCriterion.lean#L80-L81)
 - Source range: L80-L81
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

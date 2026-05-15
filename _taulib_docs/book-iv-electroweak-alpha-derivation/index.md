@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Electroweak.AlphaDerivation",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Electroweak.AlphaDerivation`.",
   "module_name": "TauLib.BookIV.Electroweak.AlphaDerivation",
   "module_slug": "book-iv-electroweak-alpha-derivation",
@@ -60,10 +60,12 @@
     {
       "kind": "structure",
       "name": "AlphaTau",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau/",
       "source_line_start": 68,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D104"
       ]
@@ -71,28 +73,34 @@
     {
       "kind": "def",
       "name": "alpha_tau",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-l86/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-l86/",
       "source_line_start": 86,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "alpha_tau_float",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-float/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-float/",
       "source_line_start": 98,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NullTransportMode",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/null-transport-mode/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/null-transport-mode/",
       "source_line_start": 108,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D105"
       ]
@@ -100,28 +108,34 @@
     {
       "kind": "def",
       "name": "photon_null",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/photon-null/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/photon-null/",
       "source_line_start": 120,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "graviton_null",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/graviton-null/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/graviton-null/",
       "source_line_start": 124,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HolonomyCorrectionR",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-correction-r/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-correction-r/",
       "source_line_start": 135,
       "source_line_end": 144,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D106"
       ]
@@ -129,28 +143,34 @@
     {
       "kind": "def",
       "name": "HolonomyCorrectionR.toFloat",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/to-float/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/to-float/",
       "source_line_start": 146,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "correction_r",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/correction-r/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/correction-r/",
       "source_line_start": 150,
       "source_line_end": 155,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HolonomyFormulaExact",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact/",
       "source_line_start": 165,
       "source_line_end": 177,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T49"
       ]
@@ -158,28 +178,34 @@
     {
       "kind": "def",
       "name": "holonomy_formula",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula/",
       "source_line_start": 180,
       "source_line_end": 186,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_formula_exact",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact-l188/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact-l188/",
       "source_line_start": 188,
       "source_line_end": 189,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "OnticInvariant",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant/",
       "source_line_start": 198,
       "source_line_end": 206,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T50"
       ]
@@ -187,28 +213,34 @@
     {
       "kind": "def",
       "name": "ontic_invariant_instance",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant-instance/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant-instance/",
       "source_line_start": 208,
       "source_line_end": 210,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha_ontic_invariant",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-ontic-invariant/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-ontic-invariant/",
       "source_line_start": 212,
       "source_line_end": 213,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ABHolonomyLemma",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/abholonomy-lemma/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/abholonomy-lemma/",
       "source_line_start": 222,
       "source_line_end": 232,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.L02"
       ]
@@ -216,28 +248,34 @@
     {
       "kind": "def",
       "name": "ab_holonomy",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy/",
       "source_line_start": 235,
       "source_line_end": 240,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ab_holonomy_lemma",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy-lemma/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy-lemma/",
       "source_line_start": 242,
       "source_line_end": 243,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "PhotonPhaseQuantum",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum/",
       "source_line_start": 252,
       "source_line_end": 259,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.L03"
       ]
@@ -245,28 +283,34 @@
     {
       "kind": "def",
       "name": "phase_quantum_instance",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/phase-quantum-instance/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/phase-quantum-instance/",
       "source_line_start": 261,
       "source_line_end": 265,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "photon_phase_quantum",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum-l267/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum-l267/",
       "source_line_start": 267,
       "source_line_end": 268,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AlphaRelationalUnits",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units/",
       "source_line_start": 278,
       "source_line_end": 294,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.L04"
       ]
@@ -274,28 +318,34 @@
     {
       "kind": "def",
       "name": "alpha_rel",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-rel/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-rel/",
       "source_line_start": 297,
       "source_line_end": 307,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha_relational_units",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units-l309/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units-l309/",
       "source_line_start": 309,
       "source_line_end": 310,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "UniqueMassless",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless/",
       "source_line_start": 319,
       "source_line_end": 326,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P50"
       ]
@@ -303,28 +353,34 @@
     {
       "kind": "def",
       "name": "unique_massless_instance",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-instance/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-instance/",
       "source_line_start": 328,
       "source_line_end": 331,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unique_massless_transport",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-transport/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-transport/",
       "source_line_start": 333,
       "source_line_end": 334,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "StructuralIndependence",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence/",
       "source_line_start": 344,
       "source_line_end": 351,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P51"
       ]
@@ -332,28 +388,34 @@
     {
       "kind": "def",
       "name": "structural_indep_instance",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/structural-indep-instance/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/structural-indep-instance/",
       "source_line_start": 353,
       "source_line_end": 353,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "structural_independence",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence-l355/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence-l355/",
       "source_line_start": 355,
       "source_line_end": 357,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l393/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l393/",
       "source_line_start": 393,
       "source_line_end": 393,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R27",
         "IV.R365",
@@ -370,109 +432,133 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l394/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l394/",
       "source_line_start": 394,
       "source_line_end": 394,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l395/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l395/",
       "source_line_start": 395,
       "source_line_end": 395,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l396/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l396/",
       "source_line_start": 396,
       "source_line_end": 396,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l397/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l397/",
       "source_line_start": 397,
       "source_line_end": 397,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l398/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l398/",
       "source_line_start": 398,
       "source_line_end": 398,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l399/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l399/",
       "source_line_start": 399,
       "source_line_end": 399,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l400/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l400/",
       "source_line_start": 400,
       "source_line_end": 400,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l401/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l401/",
       "source_line_start": 401,
       "source_line_end": 401,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l402/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l402/",
       "source_line_start": 402,
       "source_line_end": 402,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_null",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/example-null/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/example-null/",
       "source_line_start": 403,
       "source_line_end": 403,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l404/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l404/",
       "source_line_start": 404,
       "source_line_end": 404,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TwoLoopWindowCoeff",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window-coeff/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window-coeff/",
       "source_line_start": 416,
       "source_line_end": 427,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D384"
       ]
@@ -480,19 +566,23 @@
     {
       "kind": "def",
       "name": "two_loop_window",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window/",
       "source_line_start": 429,
       "source_line_end": 429,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "window_depth_loop_correspondence",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/window-depth-loop-correspondence/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/window-depth-loop-correspondence/",
       "source_line_start": 432,
       "source_line_end": 433,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T204"
       ]
@@ -500,10 +590,12 @@
     {
       "kind": "theorem",
       "name": "c2_alpha_sub_1_ppm",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/c2-alpha-sub-1-ppm/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/c2-alpha-sub-1-ppm/",
       "source_line_start": 437,
       "source_line_end": 439,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P225"
       ]
@@ -511,10 +603,12 @@
     {
       "kind": "structure",
       "name": "AlphaNLOCatalog",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlocatalog/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlocatalog/",
       "source_line_start": 455,
       "source_line_end": 464,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D385"
       ]
@@ -522,19 +616,23 @@
     {
       "kind": "def",
       "name": "alpha_nlo_catalog",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlo-catalog/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlo-catalog/",
       "source_line_start": 466,
       "source_line_end": 466,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AlphaPrecisionBarrier",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier/",
       "source_line_start": 471,
       "source_line_end": 478,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T205"
       ]
@@ -542,19 +640,23 @@
     {
       "kind": "def",
       "name": "alpha_precision_barrier",
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier-l480/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier-l480/",
       "source_line_start": 480,
       "source_line_end": 480,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l486/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l486/",
       "source_line_start": 486,
       "source_line_end": 486,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R440"
       ]
@@ -562,55 +664,67 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l487/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l487/",
       "source_line_start": 487,
       "source_line_end": 487,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l488/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l488/",
       "source_line_start": 488,
       "source_line_end": 488,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l489/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l489/",
       "source_line_start": 489,
       "source_line_end": 489,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l490/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l490/",
       "source_line_start": 490,
       "source_line_end": 490,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l491/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l491/",
       "source_line_start": 491,
       "source_line_end": 491,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l492/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l492/",
       "source_line_start": 492,
       "source_line_end": 494,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -622,7 +736,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -720,62 +834,62 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [AlphaTau](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau/) | L68-L83 | defined | `IV.D104` |
-| `def` | [alpha_tau](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-l86/) | L86-L95 | defined | — |
-| `def` | [alpha_tau_float](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-float/) | L98-L99 | defined | — |
-| `structure` | [NullTransportMode](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/null-transport-mode/) | L108-L117 | defined | `IV.D105` |
-| `def` | [photon_null](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/photon-null/) | L120-L121 | defined | — |
-| `def` | [graviton_null](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/graviton-null/) | L124-L125 | defined | — |
-| `structure` | [HolonomyCorrectionR](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-correction-r/) | L135-L144 | defined | `IV.D106` |
-| `def` | [HolonomyCorrectionR.toFloat](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/to-float/) | L146-L147 | defined | — |
-| `def` | [correction_r](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/correction-r/) | L150-L155 | defined | — |
-| `structure` | [HolonomyFormulaExact](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact/) | L165-L177 | defined | `IV.T49` |
-| `def` | [holonomy_formula](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula/) | L180-L186 | defined | — |
-| `theorem` | [holonomy_formula_exact](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact-l188/) | L188-L189 | formalized | — |
-| `structure` | [OnticInvariant](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant/) | L198-L206 | defined | `IV.T50` |
-| `def` | [ontic_invariant_instance](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant-instance/) | L208-L210 | defined | — |
-| `theorem` | [alpha_ontic_invariant](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-ontic-invariant/) | L212-L213 | formalized | — |
-| `structure` | [ABHolonomyLemma](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/abholonomy-lemma/) | L222-L232 | defined | `IV.L02` |
-| `def` | [ab_holonomy](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy/) | L235-L240 | defined | — |
-| `theorem` | [ab_holonomy_lemma](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy-lemma/) | L242-L243 | formalized | — |
-| `structure` | [PhotonPhaseQuantum](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum/) | L252-L259 | defined | `IV.L03` |
-| `def` | [phase_quantum_instance](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/phase-quantum-instance/) | L261-L265 | defined | — |
-| `theorem` | [photon_phase_quantum](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum-l267/) | L267-L268 | formalized | — |
-| `structure` | [AlphaRelationalUnits](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units/) | L278-L294 | defined | `IV.L04` |
-| `def` | [alpha_rel](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-rel/) | L297-L307 | defined | — |
-| `theorem` | [alpha_relational_units](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units-l309/) | L309-L310 | formalized | — |
-| `structure` | [UniqueMassless](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless/) | L319-L326 | defined | `IV.P50` |
-| `def` | [unique_massless_instance](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-instance/) | L328-L331 | defined | — |
-| `theorem` | [unique_massless_transport](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-transport/) | L333-L334 | formalized | — |
-| `structure` | [StructuralIndependence](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence/) | L344-L351 | defined | `IV.P51` |
-| `def` | [structural_indep_instance](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/structural-indep-instance/) | L353-L353 | defined | — |
-| `theorem` | [structural_independence](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence-l355/) | L355-L357 | formalized | — |
-| `eval` | [#eval L393](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l393/) | L393-L393 | computed | `IV.R27`, `IV.R365`, `IV.R366`, `IV.R367`, `IV.R368`, `IV.R369`, `IV.R370`, `IV.R371`, `IV.R372`, `IV.R373` |
-| `eval` | [#eval L394](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l394/) | L394-L394 | computed | — |
-| `eval` | [#eval L395](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l395/) | L395-L395 | computed | — |
-| `eval` | [#eval L396](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l396/) | L396-L396 | computed | — |
-| `eval` | [#eval L397](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l397/) | L397-L397 | computed | — |
-| `eval` | [#eval L398](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l398/) | L398-L398 | computed | — |
-| `eval` | [#eval L399](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l399/) | L399-L399 | computed | — |
-| `eval` | [#eval L400](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l400/) | L400-L400 | computed | — |
-| `eval` | [#eval L401](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l401/) | L401-L401 | computed | — |
-| `eval` | [#eval L402](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l402/) | L402-L402 | computed | — |
-| `def` | [example_null](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/example-null/) | L403-L403 | defined | — |
-| `eval` | [#eval L404](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l404/) | L404-L404 | computed | — |
-| `structure` | [TwoLoopWindowCoeff](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window-coeff/) | L416-L427 | defined | `IV.D384` |
-| `def` | [two_loop_window](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window/) | L429-L429 | defined | — |
-| `theorem` | [window_depth_loop_correspondence](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/window-depth-loop-correspondence/) | L432-L433 | formalized | `IV.T204` |
-| `theorem` | [c2_alpha_sub_1_ppm](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/c2-alpha-sub-1-ppm/) | L437-L439 | formalized | `IV.P225` |
-| `structure` | [AlphaNLOCatalog](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlocatalog/) | L455-L464 | defined | `IV.D385` |
-| `def` | [alpha_nlo_catalog](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlo-catalog/) | L466-L466 | defined | — |
-| `structure` | [AlphaPrecisionBarrier](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier/) | L471-L478 | defined | `IV.T205` |
-| `def` | [alpha_precision_barrier](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier-l480/) | L480-L480 | defined | — |
-| `eval` | [#eval L486](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l486/) | L486-L486 | computed | `IV.R440` |
-| `eval` | [#eval L487](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l487/) | L487-L487 | computed | — |
-| `eval` | [#eval L488](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l488/) | L488-L488 | computed | — |
-| `eval` | [#eval L489](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l489/) | L489-L489 | computed | — |
-| `eval` | [#eval L490](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l490/) | L490-L490 | computed | — |
-| `eval` | [#eval L491](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l491/) | L491-L491 | computed | — |
-| `eval` | [#eval L492](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l492/) | L492-L494 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [AlphaTau](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau/) | L68-L83 | type/data schema | type/data schema | `IV.D104` |
+| `def` | [alpha_tau](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-l86/) | L86-L95 | definition | definition | — |
+| `def` | [alpha_tau_float](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-tau-float/) | L98-L99 | data/computed value | data/computed value | — |
+| `structure` | [NullTransportMode](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/null-transport-mode/) | L108-L117 | type/data schema | type/data schema | `IV.D105` |
+| `def` | [photon_null](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/photon-null/) | L120-L121 | definition | definition | — |
+| `def` | [graviton_null](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/graviton-null/) | L124-L125 | definition | definition | — |
+| `structure` | [HolonomyCorrectionR](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-correction-r/) | L135-L144 | type/data schema | type/data schema | `IV.D106` |
+| `def` | [HolonomyCorrectionR.toFloat](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/to-float/) | L146-L147 | data/computed value | data/computed value | — |
+| `def` | [correction_r](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/correction-r/) | L150-L155 | definition | definition | — |
+| `structure` | [HolonomyFormulaExact](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact/) | L165-L177 | type/data schema | type/data schema | `IV.T49` |
+| `def` | [holonomy_formula](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula/) | L180-L186 | definition | definition | — |
+| `theorem` | [holonomy_formula_exact](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/holonomy-formula-exact-l188/) | L188-L189 | proof obligation | formal proof obligation checked | — |
+| `structure` | [OnticInvariant](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant/) | L198-L206 | type/data schema | type/data schema | `IV.T50` |
+| `def` | [ontic_invariant_instance](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ontic-invariant-instance/) | L208-L210 | definition | definition | — |
+| `theorem` | [alpha_ontic_invariant](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-ontic-invariant/) | L212-L213 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ABHolonomyLemma](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/abholonomy-lemma/) | L222-L232 | type/data schema | type/data schema | `IV.L02` |
+| `def` | [ab_holonomy](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy/) | L235-L240 | definition | definition | — |
+| `theorem` | [ab_holonomy_lemma](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/ab-holonomy-lemma/) | L242-L243 | proof obligation | formal proof obligation checked | — |
+| `structure` | [PhotonPhaseQuantum](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum/) | L252-L259 | type/data schema | type/data schema | `IV.L03` |
+| `def` | [phase_quantum_instance](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/phase-quantum-instance/) | L261-L265 | definition | definition | — |
+| `theorem` | [photon_phase_quantum](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/photon-phase-quantum-l267/) | L267-L268 | proof obligation | formal proof obligation checked | — |
+| `structure` | [AlphaRelationalUnits](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units/) | L278-L294 | type/data schema | type/data schema | `IV.L04` |
+| `def` | [alpha_rel](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-rel/) | L297-L307 | definition | definition | — |
+| `theorem` | [alpha_relational_units](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-relational-units-l309/) | L309-L310 | proof obligation | formal proof obligation checked | — |
+| `structure` | [UniqueMassless](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless/) | L319-L326 | type/data schema | type/data schema | `IV.P50` |
+| `def` | [unique_massless_instance](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-instance/) | L328-L331 | definition | definition | — |
+| `theorem` | [unique_massless_transport](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/unique-massless-transport/) | L333-L334 | proof obligation | formal proof obligation checked | — |
+| `structure` | [StructuralIndependence](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence/) | L344-L351 | type/data schema | type/data schema | `IV.P51` |
+| `def` | [structural_indep_instance](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/structural-indep-instance/) | L353-L353 | definition | definition | — |
+| `theorem` | [structural_independence](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/structural-independence-l355/) | L355-L357 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L393](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l393/) | L393-L393 | computed check | computed check | `IV.R27`, `IV.R365`, `IV.R366`, `IV.R367`, `IV.R368`, `IV.R369`, `IV.R370`, `IV.R371`, `IV.R372`, `IV.R373` |
+| `eval` | [#eval L394](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l394/) | L394-L394 | computed check | computed check | — |
+| `eval` | [#eval L395](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l395/) | L395-L395 | computed check | computed check | — |
+| `eval` | [#eval L396](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l396/) | L396-L396 | computed check | computed check | — |
+| `eval` | [#eval L397](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l397/) | L397-L397 | computed check | computed check | — |
+| `eval` | [#eval L398](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l398/) | L398-L398 | computed check | computed check | — |
+| `eval` | [#eval L399](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l399/) | L399-L399 | computed check | computed check | — |
+| `eval` | [#eval L400](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l400/) | L400-L400 | computed check | computed check | — |
+| `eval` | [#eval L401](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l401/) | L401-L401 | computed check | computed check | — |
+| `eval` | [#eval L402](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l402/) | L402-L402 | computed check | computed check | — |
+| `def` | [example_null](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/example-null/) | L403-L403 | definition | definition | — |
+| `eval` | [#eval L404](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l404/) | L404-L404 | computed check | computed check | — |
+| `structure` | [TwoLoopWindowCoeff](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window-coeff/) | L416-L427 | type/data schema | type/data schema | `IV.D384` |
+| `def` | [two_loop_window](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/two-loop-window/) | L429-L429 | definition | definition | — |
+| `theorem` | [window_depth_loop_correspondence](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/window-depth-loop-correspondence/) | L432-L433 | proof obligation | formal proof obligation checked | `IV.T204` |
+| `theorem` | [c2_alpha_sub_1_ppm](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/c2-alpha-sub-1-ppm/) | L437-L439 | proof obligation | formal proof obligation checked | `IV.P225` |
+| `structure` | [AlphaNLOCatalog](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlocatalog/) | L455-L464 | type/data schema | type/data schema | `IV.D385` |
+| `def` | [alpha_nlo_catalog](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-nlo-catalog/) | L466-L466 | definition | definition | — |
+| `structure` | [AlphaPrecisionBarrier](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier/) | L471-L478 | type/data schema | type/data schema | `IV.T205` |
+| `def` | [alpha_precision_barrier](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/alpha-precision-barrier-l480/) | L480-L480 | definition | definition | — |
+| `eval` | [#eval L486](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l486/) | L486-L486 | computed check | computed check | `IV.R440` |
+| `eval` | [#eval L487](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l487/) | L487-L487 | computed check | computed check | — |
+| `eval` | [#eval L488](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l488/) | L488-L488 | computed check | computed check | — |
+| `eval` | [#eval L489](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l489/) | L489-L489 | computed check | computed check | — |
+| `eval` | [#eval L490](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l490/) | L490-L490 | computed check | computed check | — |
+| `eval` | [#eval L491](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l491/) | L491-L491 | computed check | computed check | — |
+| `eval` | [#eval L492](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/eval-l492/) | L492-L494 | computed check | computed check | — |

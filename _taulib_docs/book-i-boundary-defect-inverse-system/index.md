@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.DefectInverseSystem",
-  "permalink": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.DefectInverseSystem`.",
   "module_name": "TauLib.BookI.Boundary.DefectInverseSystem",
   "module_slug": "book-i-boundary-defect-inverse-system",
@@ -35,145 +35,177 @@
     {
       "kind": "structure",
       "name": "DefectInverseSystem",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/defect-inverse-system/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/defect-inverse-system/",
       "source_line_start": 143,
       "source_line_end": 159,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DefectInverseSystem.Thread",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/thread/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/thread/",
       "source_line_start": 172,
       "source_line_end": 176,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DefectInverseSystem.SigmaFixedThread",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/sigma-fixed-thread/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/sigma-fixed-thread/",
       "source_line_start": 181,
       "source_line_end": 184,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "DefectInverseSystem.sigma_invariance",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/sigma-invariance/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/sigma-invariance/",
       "source_line_start": 199,
       "source_line_end": 202,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "DefectInverseSystem.sigma_thread_compatible",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/sigma-thread-compatible/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/sigma-thread-compatible/",
       "source_line_start": 208,
       "source_line_end": 213,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DefectInverseSystem.IsNonPolar",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/is-non-polar/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/is-non-polar/",
       "source_line_start": 232,
       "source_line_end": 237,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DefectInverseSystem.IsOmegaApproaching",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/is-omega-approaching/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/is-omega-approaching/",
       "source_line_start": 246,
       "source_line_end": 250,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DefectInverseSystem.IsCrossingPoint",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/is-crossing-point/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/is-crossing-point/",
       "source_line_start": 255,
       "source_line_end": 261,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "DefectInverseSystem.intersection_iff",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/intersection-iff/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/intersection-iff/",
       "source_line_start": 275,
       "source_line_end": 283,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TrivialDefectSystem",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/trivial-defect-system/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/trivial-defect-system/",
       "source_line_start": 295,
       "source_line_end": 300,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TrivialDefectSystem.trivialThread",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/trivial-thread/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/trivial-thread/",
       "source_line_start": 303,
       "source_line_end": 307,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "trivial_sigma_invariance",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/trivial-sigma-invariance/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/trivial-sigma-invariance/",
       "source_line_start": 311,
       "source_line_end": 316,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DefectInverseSystem.threadReadout",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout/",
       "source_line_start": 330,
       "source_line_end": 334,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DefectInverseSystem.threadReadoutTauReal",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout-tau-real/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout-tau-real/",
       "source_line_start": 340,
       "source_line_end": 344,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DefectInverseSystem.toCrossingPointDefectGerm",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/to-crossing-point-defect-germ/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/to-crossing-point-defect-germ/",
       "source_line_start": 355,
       "source_line_end": 360,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "OmegaInverseLimit.toDefectThread",
-      "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/to-defect-thread/",
+      "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/to-defect-thread/",
       "source_line_start": 377,
       "source_line_end": 389,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     }
   ],
@@ -185,7 +217,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -255,21 +287,21 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [DefectInverseSystem](/verify/taulib/docs/book-i-boundary-defect-inverse-system/defect-inverse-system/) | L143-L159 | defined | — |
-| `structure` | [DefectInverseSystem.Thread](/verify/taulib/docs/book-i-boundary-defect-inverse-system/thread/) | L172-L176 | defined | — |
-| `structure` | [DefectInverseSystem.SigmaFixedThread](/verify/taulib/docs/book-i-boundary-defect-inverse-system/sigma-fixed-thread/) | L181-L184 | defined | — |
-| `theorem` | [DefectInverseSystem.sigma_invariance](/verify/taulib/docs/book-i-boundary-defect-inverse-system/sigma-invariance/) | L199-L202 | formalized | — |
-| `theorem` | [DefectInverseSystem.sigma_thread_compatible](/verify/taulib/docs/book-i-boundary-defect-inverse-system/sigma-thread-compatible/) | L208-L213 | formalized | — |
-| `def` | [DefectInverseSystem.IsNonPolar](/verify/taulib/docs/book-i-boundary-defect-inverse-system/is-non-polar/) | L232-L237 | defined | — |
-| `def` | [DefectInverseSystem.IsOmegaApproaching](/verify/taulib/docs/book-i-boundary-defect-inverse-system/is-omega-approaching/) | L246-L250 | defined | — |
-| `def` | [DefectInverseSystem.IsCrossingPoint](/verify/taulib/docs/book-i-boundary-defect-inverse-system/is-crossing-point/) | L255-L261 | defined | — |
-| `theorem` | [DefectInverseSystem.intersection_iff](/verify/taulib/docs/book-i-boundary-defect-inverse-system/intersection-iff/) | L275-L283 | formalized | — |
-| `def` | [TrivialDefectSystem](/verify/taulib/docs/book-i-boundary-defect-inverse-system/trivial-defect-system/) | L295-L300 | defined | — |
-| `def` | [TrivialDefectSystem.trivialThread](/verify/taulib/docs/book-i-boundary-defect-inverse-system/trivial-thread/) | L303-L307 | defined | — |
-| `theorem` | [trivial_sigma_invariance](/verify/taulib/docs/book-i-boundary-defect-inverse-system/trivial-sigma-invariance/) | L311-L316 | formalized | — |
-| `def` | [DefectInverseSystem.threadReadout](/verify/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout/) | L330-L334 | defined | — |
-| `def` | [DefectInverseSystem.threadReadoutTauReal](/verify/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout-tau-real/) | L340-L344 | defined | — |
-| `def` | [DefectInverseSystem.toCrossingPointDefectGerm](/verify/taulib/docs/book-i-boundary-defect-inverse-system/to-crossing-point-defect-germ/) | L355-L360 | defined | — |
-| `def` | [OmegaInverseLimit.toDefectThread](/verify/taulib/docs/book-i-boundary-defect-inverse-system/to-defect-thread/) | L377-L389 | defined | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [DefectInverseSystem](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/defect-inverse-system/) | L143-L159 | type/data schema | type/data schema | — |
+| `structure` | [DefectInverseSystem.Thread](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/thread/) | L172-L176 | type/data schema | type/data schema | — |
+| `structure` | [DefectInverseSystem.SigmaFixedThread](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/sigma-fixed-thread/) | L181-L184 | type/data schema | type/data schema | — |
+| `theorem` | [DefectInverseSystem.sigma_invariance](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/sigma-invariance/) | L199-L202 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [DefectInverseSystem.sigma_thread_compatible](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/sigma-thread-compatible/) | L208-L213 | proof obligation | formal proof obligation checked | — |
+| `def` | [DefectInverseSystem.IsNonPolar](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/is-non-polar/) | L232-L237 | definition | definition | — |
+| `def` | [DefectInverseSystem.IsOmegaApproaching](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/is-omega-approaching/) | L246-L250 | definition | definition | — |
+| `def` | [DefectInverseSystem.IsCrossingPoint](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/is-crossing-point/) | L255-L261 | definition | definition | — |
+| `theorem` | [DefectInverseSystem.intersection_iff](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/intersection-iff/) | L275-L283 | proof obligation | formal proof obligation checked | — |
+| `def` | [TrivialDefectSystem](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/trivial-defect-system/) | L295-L300 | definition | definition | — |
+| `def` | [TrivialDefectSystem.trivialThread](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/trivial-thread/) | L303-L307 | definition | definition | — |
+| `theorem` | [trivial_sigma_invariance](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/trivial-sigma-invariance/) | L311-L316 | proof obligation | formal proof obligation checked | — |
+| `def` | [DefectInverseSystem.threadReadout](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout/) | L330-L334 | definition | definition | — |
+| `def` | [DefectInverseSystem.threadReadoutTauReal](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/thread-readout-tau-real/) | L340-L344 | definition | definition | — |
+| `def` | [DefectInverseSystem.toCrossingPointDefectGerm](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/to-crossing-point-defect-germ/) | L355-L360 | definition | definition | — |
+| `def` | [OmegaInverseLimit.toDefectThread](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/to-defect-thread/) | L377-L389 | definition | definition | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TopologicalIntegralityOfTheta",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/topological-integrality-of-theta/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/topological-integrality-of-theta/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.ManyBody.DefectFunctionalExt`.",
   "declaration_id": "TauLib.BookIV.ManyBody.DefectFunctionalExt::TopologicalIntegralityOfTheta",
   "declaration_slug": "topological-integrality-of-theta",
   "kind": "structure",
   "name": "TopologicalIntegralityOfTheta",
   "module_name": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/",
   "source_line_start": 66,
   "source_line_end": 73,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L66-L73",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-        "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/verify/taulib/docs/book-iv-many-body-defect-functional-ext/)
+- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/)
 - Source path: [`TauLib/BookIV/ManyBody/DefectFunctionalExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L66-L73)
 - Source range: L66-L73
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

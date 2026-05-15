@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Topology.Invariant",
-  "permalink": "/verify/taulib/docs/book-ii-topology-invariant/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-invariant/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Topology.Invariant`.",
   "module_name": "TauLib.BookII.Topology.Invariant",
   "module_slug": "book-ii-topology-invariant",
@@ -31,19 +31,23 @@
     {
       "kind": "def",
       "name": "crt_continuous_check",
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/crt-continuous-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/crt-continuous-check/",
       "source_line_start": 40,
       "source_line_end": 58,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "topology_unique_check",
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/topology-unique-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/topology-unique-check/",
       "source_line_start": 68,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T10"
       ]
@@ -51,82 +55,100 @@
     {
       "kind": "def",
       "name": "reduction_compatible_check",
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/reduction-compatible-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/reduction-compatible-check/",
       "source_line_start": 81,
       "source_line_end": 92,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/eval-l98/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/eval-l98/",
       "source_line_start": 98,
       "source_line_end": 98,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/eval-l99/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/eval-l99/",
       "source_line_start": 99,
       "source_line_end": 99,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/eval-l100/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/eval-l100/",
       "source_line_start": 100,
       "source_line_end": 100,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/eval-l101/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/eval-l101/",
       "source_line_start": 101,
       "source_line_end": 101,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "crt_cont_k1",
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/crt-cont-k1/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/crt-cont-k1/",
       "source_line_start": 104,
       "source_line_end": 104,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "crt_cont_k2",
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/crt-cont-k2/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/crt-cont-k2/",
       "source_line_start": 105,
       "source_line_end": 105,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "topo_unique",
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/topo-unique/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/topo-unique/",
       "source_line_start": 106,
       "source_line_end": 106,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "red_compat",
-      "url": "/verify/taulib/docs/book-ii-topology-invariant/red-compat/",
+      "url": "/corpus/taulib/docs/book-ii-topology-invariant/red-compat/",
       "source_line_start": 107,
       "source_line_end": 109,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -138,7 +160,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -207,16 +229,16 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [crt_continuous_check](/verify/taulib/docs/book-ii-topology-invariant/crt-continuous-check/) | L40-L58 | defined | — |
-| `def` | [topology_unique_check](/verify/taulib/docs/book-ii-topology-invariant/topology-unique-check/) | L68-L76 | defined | `II.T10` |
-| `def` | [reduction_compatible_check](/verify/taulib/docs/book-ii-topology-invariant/reduction-compatible-check/) | L81-L92 | defined | — |
-| `eval` | [#eval L98](/verify/taulib/docs/book-ii-topology-invariant/eval-l98/) | L98-L98 | computed | — |
-| `eval` | [#eval L99](/verify/taulib/docs/book-ii-topology-invariant/eval-l99/) | L99-L99 | computed | — |
-| `eval` | [#eval L100](/verify/taulib/docs/book-ii-topology-invariant/eval-l100/) | L100-L100 | computed | — |
-| `eval` | [#eval L101](/verify/taulib/docs/book-ii-topology-invariant/eval-l101/) | L101-L101 | computed | — |
-| `theorem` | [crt_cont_k1](/verify/taulib/docs/book-ii-topology-invariant/crt-cont-k1/) | L104-L104 | formalized | — |
-| `theorem` | [crt_cont_k2](/verify/taulib/docs/book-ii-topology-invariant/crt-cont-k2/) | L105-L105 | formalized | — |
-| `theorem` | [topo_unique](/verify/taulib/docs/book-ii-topology-invariant/topo-unique/) | L106-L106 | formalized | — |
-| `theorem` | [red_compat](/verify/taulib/docs/book-ii-topology-invariant/red-compat/) | L107-L109 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [crt_continuous_check](/corpus/taulib/docs/book-ii-topology-invariant/crt-continuous-check/) | L40-L58 | data/computed value | data/computed value | — |
+| `def` | [topology_unique_check](/corpus/taulib/docs/book-ii-topology-invariant/topology-unique-check/) | L68-L76 | data/computed value | data/computed value | `II.T10` |
+| `def` | [reduction_compatible_check](/corpus/taulib/docs/book-ii-topology-invariant/reduction-compatible-check/) | L81-L92 | data/computed value | data/computed value | — |
+| `eval` | [#eval L98](/corpus/taulib/docs/book-ii-topology-invariant/eval-l98/) | L98-L98 | computed check | computed check | — |
+| `eval` | [#eval L99](/corpus/taulib/docs/book-ii-topology-invariant/eval-l99/) | L99-L99 | computed check | computed check | — |
+| `eval` | [#eval L100](/corpus/taulib/docs/book-ii-topology-invariant/eval-l100/) | L100-L100 | computed check | computed check | — |
+| `eval` | [#eval L101](/corpus/taulib/docs/book-ii-topology-invariant/eval-l101/) | L101-L101 | computed check | computed check | — |
+| `theorem` | [crt_cont_k1](/corpus/taulib/docs/book-ii-topology-invariant/crt-cont-k1/) | L104-L104 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [crt_cont_k2](/corpus/taulib/docs/book-ii-topology-invariant/crt-cont-k2/) | L105-L105 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [topo_unique](/corpus/taulib/docs/book-ii-topology-invariant/topo-unique/) | L106-L106 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [red_compat](/corpus/taulib/docs/book-ii-topology-invariant/red-compat/) | L107-L109 | proof obligation | formal proof obligation checked | — |

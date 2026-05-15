@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauVacuum.energyFloat",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/energy-float/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/energy-float/",
   "summary_short": "`def` declaration in `TauLib.BookV.Thermodynamics.VacuumNoVoid`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.VacuumNoVoid::TauVacuum.energyFloat",
   "declaration_slug": "energy-float",
   "kind": "def",
   "name": "TauVacuum.energyFloat",
   "module_name": "TauLib.BookV.Thermodynamics.VacuumNoVoid",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/",
   "source_line_start": 88,
   "source_line_end": 89,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/VacuumNoVoid.lean#L88-L89",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.VacuumNoVoid",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.VacuumNoVoid](/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/)
+- Module: [TauLib.BookV.Thermodynamics.VacuumNoVoid](/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/)
 - Source path: [`TauLib/BookV/Thermodynamics/VacuumNoVoid.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/VacuumNoVoid.lean#L88-L89)
 - Source range: L88-L89
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

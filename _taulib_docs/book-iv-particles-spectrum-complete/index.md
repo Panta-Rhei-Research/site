@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Particles.SpectrumComplete",
-  "permalink": "/verify/taulib/docs/book-iv-particles-spectrum-complete/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Particles.SpectrumComplete`.",
   "module_name": "TauLib.BookIV.Particles.SpectrumComplete",
   "module_slug": "book-iv-particles-spectrum-complete",
@@ -38,10 +38,12 @@
     {
       "kind": "inductive",
       "name": "OnticCriterion",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-criterion/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-criterion/",
       "source_line_start": 48,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D209"
       ]
@@ -49,10 +51,12 @@
     {
       "kind": "structure",
       "name": "OnticEntity",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-entity/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-entity/",
       "source_line_start": 60,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D209"
       ]
@@ -60,28 +64,34 @@
     {
       "kind": "def",
       "name": "ontic_register",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-register/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-register/",
       "source_line_start": 76,
       "source_line_end": 92,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ontic_register_count",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-register-count/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-register-count/",
       "source_line_start": 94,
       "source_line_end": 94,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ParameterCount",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/parameter-count/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/parameter-count/",
       "source_line_start": 104,
       "source_line_end": 115,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R149"
       ]
@@ -89,55 +99,67 @@
     {
       "kind": "def",
       "name": "parameter_count",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/parameter-count-l117/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/parameter-count-l117/",
       "source_line_start": 117,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "zero_fitting",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/zero-fitting/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/zero-fitting/",
       "source_line_start": 119,
       "source_line_end": 119,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "zero_effective",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/zero-effective/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/zero-effective/",
       "source_line_start": 120,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "zero_ad_hoc",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/zero-ad-hoc/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/zero-ad-hoc/",
       "source_line_start": 121,
       "source_line_end": 121,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "total_inputs",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/total-inputs/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/total-inputs/",
       "source_line_start": 122,
       "source_line_end": 123,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NonOnticEntity",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entity/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entity/",
       "source_line_start": 131,
       "source_line_end": 136,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R151"
       ]
@@ -145,28 +167,34 @@
     {
       "kind": "def",
       "name": "non_ontic_entities",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entities/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entities/",
       "source_line_start": 138,
       "source_line_end": 149,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "five_non_ontic",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/five-non-ontic/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/five-non-ontic/",
       "source_line_start": 151,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "OntologicalLine",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/ontological-line/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontological-line/",
       "source_line_start": 161,
       "source_line_end": 172,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R152"
       ]
@@ -174,28 +202,34 @@
     {
       "kind": "def",
       "name": "ontological_line",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/ontological-line-l174/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontological-line-l174/",
       "source_line_start": 174,
       "source_line_end": 174,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "line_is_mathematical",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/line-is-mathematical/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/line-is-mathematical/",
       "source_line_start": 176,
       "source_line_end": 177,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DictionaryLimits",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits/",
       "source_line_start": 188,
       "source_line_end": 195,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R153"
       ]
@@ -203,37 +237,45 @@
     {
       "kind": "def",
       "name": "dictionary_limits",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits-l197/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits-l197/",
       "source_line_start": 197,
       "source_line_end": 197,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "three_tau_only",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/three-tau-only/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/three-tau-only/",
       "source_line_start": 199,
       "source_line_end": 199,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_sm_only",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/four-sm-only/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/four-sm-only/",
       "source_line_start": 200,
       "source_line_end": 200,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TemperatureNotFundamental",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental/",
       "source_line_start": 210,
       "source_line_end": 219,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R154"
       ]
@@ -241,163 +283,199 @@
     {
       "kind": "def",
       "name": "temperature_not_fundamental",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental-l221/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental-l221/",
       "source_line_start": 221,
       "source_line_end": 221,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "temp_is_derived",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/temp-is-derived/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/temp-is-derived/",
       "source_line_start": 223,
       "source_line_end": 224,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SpectrumSummary",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary/",
       "source_line_start": 235,
       "source_line_end": 246,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "spectrum_summary",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary-l248/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary-l248/",
       "source_line_start": 248,
       "source_line_end": 248,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectrum_complete",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-complete/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-complete/",
       "source_line_start": 250,
       "source_line_end": 250,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectrum_no_bsm",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-no-bsm/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-no-bsm/",
       "source_line_start": 251,
       "source_line_end": 251,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectrum_two_inputs",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-two-inputs/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-two-inputs/",
       "source_line_start": 252,
       "source_line_end": 252,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "total_entities",
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/total-entities/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/total-entities/",
       "source_line_start": 255,
       "source_line_end": 256,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l262/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l263/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l263/",
       "source_line_start": 263,
       "source_line_end": 263,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l264/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l265/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l265/",
       "source_line_start": 265,
       "source_line_end": 265,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l266/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l266/",
       "source_line_start": 266,
       "source_line_end": 266,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l267/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l267/",
       "source_line_start": 267,
       "source_line_end": 267,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l268/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l268/",
       "source_line_start": 268,
       "source_line_end": 268,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l269/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l269/",
       "source_line_start": 269,
       "source_line_end": 269,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l270/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l270/",
       "source_line_start": 270,
       "source_line_end": 270,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l271/",
+      "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l271/",
       "source_line_start": 271,
       "source_line_end": 273,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -409,7 +487,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -485,44 +563,44 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [OnticCriterion](/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-criterion/) | L48-L57 | defined | `IV.D209` |
-| `structure` | [OnticEntity](/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-entity/) | L60-L69 | defined | `IV.D209` |
-| `def` | [ontic_register](/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-register/) | L76-L92 | defined | — |
-| `theorem` | [ontic_register_count](/verify/taulib/docs/book-iv-particles-spectrum-complete/ontic-register-count/) | L94-L94 | formalized | — |
-| `structure` | [ParameterCount](/verify/taulib/docs/book-iv-particles-spectrum-complete/parameter-count/) | L104-L115 | defined | `IV.R149` |
-| `def` | [parameter_count](/verify/taulib/docs/book-iv-particles-spectrum-complete/parameter-count-l117/) | L117-L117 | defined | — |
-| `theorem` | [zero_fitting](/verify/taulib/docs/book-iv-particles-spectrum-complete/zero-fitting/) | L119-L119 | formalized | — |
-| `theorem` | [zero_effective](/verify/taulib/docs/book-iv-particles-spectrum-complete/zero-effective/) | L120-L120 | formalized | — |
-| `theorem` | [zero_ad_hoc](/verify/taulib/docs/book-iv-particles-spectrum-complete/zero-ad-hoc/) | L121-L121 | formalized | — |
-| `theorem` | [total_inputs](/verify/taulib/docs/book-iv-particles-spectrum-complete/total-inputs/) | L122-L123 | formalized | — |
-| `structure` | [NonOnticEntity](/verify/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entity/) | L131-L136 | defined | `IV.R151` |
-| `def` | [non_ontic_entities](/verify/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entities/) | L138-L149 | defined | — |
-| `theorem` | [five_non_ontic](/verify/taulib/docs/book-iv-particles-spectrum-complete/five-non-ontic/) | L151-L151 | formalized | — |
-| `structure` | [OntologicalLine](/verify/taulib/docs/book-iv-particles-spectrum-complete/ontological-line/) | L161-L172 | defined | `IV.R152` |
-| `def` | [ontological_line](/verify/taulib/docs/book-iv-particles-spectrum-complete/ontological-line-l174/) | L174-L174 | defined | — |
-| `theorem` | [line_is_mathematical](/verify/taulib/docs/book-iv-particles-spectrum-complete/line-is-mathematical/) | L176-L177 | formalized | — |
-| `structure` | [DictionaryLimits](/verify/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits/) | L188-L195 | defined | `IV.R153` |
-| `def` | [dictionary_limits](/verify/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits-l197/) | L197-L197 | defined | — |
-| `theorem` | [three_tau_only](/verify/taulib/docs/book-iv-particles-spectrum-complete/three-tau-only/) | L199-L199 | formalized | — |
-| `theorem` | [four_sm_only](/verify/taulib/docs/book-iv-particles-spectrum-complete/four-sm-only/) | L200-L200 | formalized | — |
-| `structure` | [TemperatureNotFundamental](/verify/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental/) | L210-L219 | defined | `IV.R154` |
-| `def` | [temperature_not_fundamental](/verify/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental-l221/) | L221-L221 | defined | — |
-| `theorem` | [temp_is_derived](/verify/taulib/docs/book-iv-particles-spectrum-complete/temp-is-derived/) | L223-L224 | formalized | — |
-| `structure` | [SpectrumSummary](/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary/) | L235-L246 | defined | — |
-| `def` | [spectrum_summary](/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary-l248/) | L248-L248 | defined | — |
-| `theorem` | [spectrum_complete](/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-complete/) | L250-L250 | formalized | — |
-| `theorem` | [spectrum_no_bsm](/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-no-bsm/) | L251-L251 | formalized | — |
-| `theorem` | [spectrum_two_inputs](/verify/taulib/docs/book-iv-particles-spectrum-complete/spectrum-two-inputs/) | L252-L252 | formalized | — |
-| `theorem` | [total_entities](/verify/taulib/docs/book-iv-particles-spectrum-complete/total-entities/) | L255-L256 | formalized | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l262/) | L262-L262 | computed | — |
-| `eval` | [#eval L263](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l263/) | L263-L263 | computed | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l264/) | L264-L264 | computed | — |
-| `eval` | [#eval L265](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l265/) | L265-L265 | computed | — |
-| `eval` | [#eval L266](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l266/) | L266-L266 | computed | — |
-| `eval` | [#eval L267](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l267/) | L267-L267 | computed | — |
-| `eval` | [#eval L268](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l268/) | L268-L268 | computed | — |
-| `eval` | [#eval L269](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l269/) | L269-L269 | computed | — |
-| `eval` | [#eval L270](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l270/) | L270-L270 | computed | — |
-| `eval` | [#eval L271](/verify/taulib/docs/book-iv-particles-spectrum-complete/eval-l271/) | L271-L273 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [OnticCriterion](/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-criterion/) | L48-L57 | type/data schema | type/data schema | `IV.D209` |
+| `structure` | [OnticEntity](/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-entity/) | L60-L69 | type/data schema | type/data schema | `IV.D209` |
+| `def` | [ontic_register](/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-register/) | L76-L92 | data/computed value | data/computed value | — |
+| `theorem` | [ontic_register_count](/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontic-register-count/) | L94-L94 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ParameterCount](/corpus/taulib/docs/book-iv-particles-spectrum-complete/parameter-count/) | L104-L115 | type/data schema | type/data schema | `IV.R149` |
+| `def` | [parameter_count](/corpus/taulib/docs/book-iv-particles-spectrum-complete/parameter-count-l117/) | L117-L117 | definition | definition | — |
+| `theorem` | [zero_fitting](/corpus/taulib/docs/book-iv-particles-spectrum-complete/zero-fitting/) | L119-L119 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [zero_effective](/corpus/taulib/docs/book-iv-particles-spectrum-complete/zero-effective/) | L120-L120 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [zero_ad_hoc](/corpus/taulib/docs/book-iv-particles-spectrum-complete/zero-ad-hoc/) | L121-L121 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [total_inputs](/corpus/taulib/docs/book-iv-particles-spectrum-complete/total-inputs/) | L122-L123 | proof obligation | formal proof obligation checked | — |
+| `structure` | [NonOnticEntity](/corpus/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entity/) | L131-L136 | type/data schema | type/data schema | `IV.R151` |
+| `def` | [non_ontic_entities](/corpus/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entities/) | L138-L149 | data/computed value | data/computed value | — |
+| `theorem` | [five_non_ontic](/corpus/taulib/docs/book-iv-particles-spectrum-complete/five-non-ontic/) | L151-L151 | proof obligation | formal proof obligation checked | — |
+| `structure` | [OntologicalLine](/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontological-line/) | L161-L172 | type/data schema | type/data schema | `IV.R152` |
+| `def` | [ontological_line](/corpus/taulib/docs/book-iv-particles-spectrum-complete/ontological-line-l174/) | L174-L174 | definition | definition | — |
+| `theorem` | [line_is_mathematical](/corpus/taulib/docs/book-iv-particles-spectrum-complete/line-is-mathematical/) | L176-L177 | proof obligation | formal proof obligation checked | — |
+| `structure` | [DictionaryLimits](/corpus/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits/) | L188-L195 | type/data schema | type/data schema | `IV.R153` |
+| `def` | [dictionary_limits](/corpus/taulib/docs/book-iv-particles-spectrum-complete/dictionary-limits-l197/) | L197-L197 | definition | definition | — |
+| `theorem` | [three_tau_only](/corpus/taulib/docs/book-iv-particles-spectrum-complete/three-tau-only/) | L199-L199 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [four_sm_only](/corpus/taulib/docs/book-iv-particles-spectrum-complete/four-sm-only/) | L200-L200 | proof obligation | formal proof obligation checked | — |
+| `structure` | [TemperatureNotFundamental](/corpus/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental/) | L210-L219 | type/data schema | type/data schema | `IV.R154` |
+| `def` | [temperature_not_fundamental](/corpus/taulib/docs/book-iv-particles-spectrum-complete/temperature-not-fundamental-l221/) | L221-L221 | definition | definition | — |
+| `theorem` | [temp_is_derived](/corpus/taulib/docs/book-iv-particles-spectrum-complete/temp-is-derived/) | L223-L224 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SpectrumSummary](/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary/) | L235-L246 | type/data schema | type/data schema | — |
+| `def` | [spectrum_summary](/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-summary-l248/) | L248-L248 | definition | definition | — |
+| `theorem` | [spectrum_complete](/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-complete/) | L250-L250 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [spectrum_no_bsm](/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-no-bsm/) | L251-L251 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [spectrum_two_inputs](/corpus/taulib/docs/book-iv-particles-spectrum-complete/spectrum-two-inputs/) | L252-L252 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [total_entities](/corpus/taulib/docs/book-iv-particles-spectrum-complete/total-entities/) | L255-L256 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l262/) | L262-L262 | computed check | computed check | — |
+| `eval` | [#eval L263](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l263/) | L263-L263 | computed check | computed check | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l264/) | L264-L264 | computed check | computed check | — |
+| `eval` | [#eval L265](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l265/) | L265-L265 | computed check | computed check | — |
+| `eval` | [#eval L266](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l266/) | L266-L266 | computed check | computed check | — |
+| `eval` | [#eval L267](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l267/) | L267-L267 | computed check | computed check | — |
+| `eval` | [#eval L268](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l268/) | L268-L268 | computed check | computed check | — |
+| `eval` | [#eval L269](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l269/) | L269-L269 | computed check | computed check | — |
+| `eval` | [#eval L270](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l270/) | L270-L270 | computed check | computed check | — |
+| `eval` | [#eval L271](/corpus/taulib/docs/book-iv-particles-spectrum-complete/eval-l271/) | L271-L273 | computed check | computed check | — |

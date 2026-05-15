@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MembraneAsLemniscate",
-  "permalink": "/verify/taulib/docs/book-vi-agency-metabolic-energy/membrane-as-lemniscate/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/membrane-as-lemniscate/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Agency.MetabolicEnergy`.",
   "declaration_id": "TauLib.BookVI.Agency.MetabolicEnergy::MembraneAsLemniscate",
   "declaration_slug": "membrane-as-lemniscate",
   "kind": "structure",
   "name": "MembraneAsLemniscate",
   "module_name": "TauLib.BookVI.Agency.MetabolicEnergy",
-  "module_url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/",
+  "module_url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/",
   "source_line_start": 100,
   "source_line_end": 113,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/MetabolicEnergy.lean#L100-L113",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Agency.MetabolicEnergy",
-        "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/"
+        "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Agency.MetabolicEnergy](/verify/taulib/docs/book-vi-agency-metabolic-energy/)
+- Module: [TauLib.BookVI.Agency.MetabolicEnergy](/corpus/taulib/docs/book-vi-agency-metabolic-energy/)
 - Source path: [`TauLib/BookVI/Agency/MetabolicEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/MetabolicEnergy.lean#L100-L113)
 - Source range: L100-L113
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

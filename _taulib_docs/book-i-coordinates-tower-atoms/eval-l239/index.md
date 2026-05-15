@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L239",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-tower-atoms/eval-l239/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/eval-l239/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Coordinates.TowerAtoms`.",
   "declaration_id": "TauLib.BookI.Coordinates.TowerAtoms::#eval:239",
   "declaration_slug": "eval-l239",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Coordinates.TowerAtoms",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-tower-atoms/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/",
   "source_line_start": 239,
   "source_line_end": 239,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/TowerAtoms.lean#L239-L239",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.TowerAtoms",
-        "url": "/verify/taulib/docs/book-i-coordinates-tower-atoms/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.TowerAtoms](/verify/taulib/docs/book-i-coordinates-tower-atoms/)
+- Module: [TauLib.BookI.Coordinates.TowerAtoms](/corpus/taulib/docs/book-i-coordinates-tower-atoms/)
 - Source path: [`TauLib/BookI/Coordinates/TowerAtoms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/TowerAtoms.lean#L239-L239)
 - Source range: L239-L239
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

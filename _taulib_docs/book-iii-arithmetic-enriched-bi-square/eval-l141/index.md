@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L141",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l141/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/eval-l141/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Arithmetic.EnrichedBiSquare`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.EnrichedBiSquare::#eval:141",
   "declaration_slug": "eval-l141",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
   "source_line_start": 141,
   "source_line_end": 141,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean#L141-L141",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.EnrichedBiSquare](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/)
+- Module: [TauLib.BookIII.Arithmetic.EnrichedBiSquare](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/)
 - Source path: [`TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean#L141-L141)
 - Source range: L141-L141
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

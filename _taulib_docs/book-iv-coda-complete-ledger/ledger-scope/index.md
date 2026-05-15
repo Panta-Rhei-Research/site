@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "LedgerScope",
-  "permalink": "/verify/taulib/docs/book-iv-coda-complete-ledger/ledger-scope/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-complete-ledger/ledger-scope/",
   "summary_short": "`inductive` declaration in `TauLib.BookIV.Coda.CompleteLedger`.",
   "declaration_id": "TauLib.BookIV.Coda.CompleteLedger::LedgerScope",
   "declaration_slug": "ledger-scope",
   "kind": "inductive",
   "name": "LedgerScope",
   "module_name": "TauLib.BookIV.Coda.CompleteLedger",
-  "module_url": "/verify/taulib/docs/book-iv-coda-complete-ledger/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/",
   "source_line_start": 290,
   "source_line_end": 295,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L290-L295",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.CompleteLedger",
-        "url": "/verify/taulib/docs/book-iv-coda-complete-ledger/"
+        "url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.CompleteLedger](/verify/taulib/docs/book-iv-coda-complete-ledger/)
+- Module: [TauLib.BookIV.Coda.CompleteLedger](/corpus/taulib/docs/book-iv-coda-complete-ledger/)
 - Source path: [`TauLib/BookIV/Coda/CompleteLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L290-L295)
 - Source range: L290-L295
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

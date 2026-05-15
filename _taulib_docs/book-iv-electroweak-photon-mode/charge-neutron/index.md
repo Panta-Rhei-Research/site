@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "charge_neutron",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-photon-mode/charge-neutron/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/charge-neutron/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.PhotonMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.PhotonMode::charge_neutron",
   "declaration_slug": "charge-neutron",
   "kind": "def",
   "name": "charge_neutron",
   "module_name": "TauLib.BookIV.Electroweak.PhotonMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/",
   "source_line_start": 155,
   "source_line_end": 155,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L155-L155",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.PhotonMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.PhotonMode](/verify/taulib/docs/book-iv-electroweak-photon-mode/)
+- Module: [TauLib.BookIV.Electroweak.PhotonMode](/corpus/taulib/docs/book-iv-electroweak-photon-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/PhotonMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L155-L155)
 - Source range: L155-L155
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

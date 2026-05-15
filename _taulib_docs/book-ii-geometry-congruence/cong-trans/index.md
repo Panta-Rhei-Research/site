@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cong_trans",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-congruence/cong-trans/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-congruence/cong-trans/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Geometry.Congruence`.",
   "declaration_id": "TauLib.BookII.Geometry.Congruence::cong_trans",
   "declaration_slug": "cong-trans",
   "kind": "theorem",
   "name": "cong_trans",
   "module_name": "TauLib.BookII.Geometry.Congruence",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-congruence/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-congruence/",
   "source_line_start": 134,
   "source_line_end": 134,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/Congruence.lean#L134-L134",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.Congruence",
-        "url": "/verify/taulib/docs/book-ii-geometry-congruence/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-congruence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.Congruence](/verify/taulib/docs/book-ii-geometry-congruence/)
+- Module: [TauLib.BookII.Geometry.Congruence](/corpus/taulib/docs/book-ii-geometry-congruence/)
 - Source path: [`TauLib/BookII/Geometry/Congruence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/Congruence.lean#L134-L134)
 - Source range: L134-L134
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

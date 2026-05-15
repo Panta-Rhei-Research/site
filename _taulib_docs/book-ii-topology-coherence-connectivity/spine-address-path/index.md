@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spine_address_path",
-  "permalink": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-path/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-path/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.CoherenceConnectivity`.",
   "declaration_id": "TauLib.BookII.Topology.CoherenceConnectivity::spine_address_path",
   "declaration_slug": "spine-address-path",
   "kind": "def",
   "name": "spine_address_path",
   "module_name": "TauLib.BookII.Topology.CoherenceConnectivity",
-  "module_url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/",
   "source_line_start": 108,
   "source_line_end": 109,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/CoherenceConnectivity.lean#L108-L109",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.CoherenceConnectivity",
-        "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/"
+        "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.CoherenceConnectivity](/verify/taulib/docs/book-ii-topology-coherence-connectivity/)
+- Module: [TauLib.BookII.Topology.CoherenceConnectivity](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/)
 - Source path: [`TauLib/BookII/Topology/CoherenceConnectivity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/CoherenceConnectivity.lean#L108-L109)
 - Source range: L108-L109
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

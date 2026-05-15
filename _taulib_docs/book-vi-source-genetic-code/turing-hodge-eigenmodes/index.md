@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TuringHodgeEigenmodes",
-  "permalink": "/verify/taulib/docs/book-vi-source-genetic-code/turing-hodge-eigenmodes/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-genetic-code/turing-hodge-eigenmodes/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Source.GeneticCode`.",
   "declaration_id": "TauLib.BookVI.Source.GeneticCode::TuringHodgeEigenmodes",
   "declaration_slug": "turing-hodge-eigenmodes",
   "kind": "structure",
   "name": "TuringHodgeEigenmodes",
   "module_name": "TauLib.BookVI.Source.GeneticCode",
-  "module_url": "/verify/taulib/docs/book-vi-source-genetic-code/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-genetic-code/",
   "source_line_start": 140,
   "source_line_end": 149,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L140-L149",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.GeneticCode",
-        "url": "/verify/taulib/docs/book-vi-source-genetic-code/"
+        "url": "/corpus/taulib/docs/book-vi-source-genetic-code/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.GeneticCode](/verify/taulib/docs/book-vi-source-genetic-code/)
+- Module: [TauLib.BookVI.Source.GeneticCode](/corpus/taulib/docs/book-vi-source-genetic-code/)
 - Source path: [`TauLib/BookVI/Source/GeneticCode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L140-L149)
 - Source range: L140-L149
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

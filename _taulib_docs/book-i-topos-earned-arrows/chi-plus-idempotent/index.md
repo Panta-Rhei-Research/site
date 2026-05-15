@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chi_plus_idempotent",
-  "permalink": "/verify/taulib/docs/book-i-topos-earned-arrows/chi-plus-idempotent/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-earned-arrows/chi-plus-idempotent/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.EarnedArrows`.",
   "declaration_id": "TauLib.BookI.Topos.EarnedArrows::chi_plus_idempotent",
   "declaration_slug": "chi-plus-idempotent",
   "kind": "theorem",
   "name": "chi_plus_idempotent",
   "module_name": "TauLib.BookI.Topos.EarnedArrows",
-  "module_url": "/verify/taulib/docs/book-i-topos-earned-arrows/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-earned-arrows/",
   "source_line_start": 136,
   "source_line_end": 138,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedArrows.lean#L136-L138",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.EarnedArrows",
-        "url": "/verify/taulib/docs/book-i-topos-earned-arrows/"
+        "url": "/corpus/taulib/docs/book-i-topos-earned-arrows/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.EarnedArrows](/verify/taulib/docs/book-i-topos-earned-arrows/)
+- Module: [TauLib.BookI.Topos.EarnedArrows](/corpus/taulib/docs/book-i-topos-earned-arrows/)
 - Source path: [`TauLib/BookI/Topos/EarnedArrows.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedArrows.lean#L136-L138)
 - Source range: L136-L138
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

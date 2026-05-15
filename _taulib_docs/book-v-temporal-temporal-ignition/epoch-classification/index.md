@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "epoch_classification",
-  "permalink": "/verify/taulib/docs/book-v-temporal-temporal-ignition/epoch-classification/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/epoch-classification/",
   "summary_short": "`def` declaration in `TauLib.BookV.Temporal.TemporalIgnition`.",
   "declaration_id": "TauLib.BookV.Temporal.TemporalIgnition::epoch_classification",
   "declaration_slug": "epoch-classification",
   "kind": "def",
   "name": "epoch_classification",
   "module_name": "TauLib.BookV.Temporal.TemporalIgnition",
-  "module_url": "/verify/taulib/docs/book-v-temporal-temporal-ignition/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/",
   "source_line_start": 115,
   "source_line_end": 118,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/TemporalIgnition.lean#L115-L118",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.TemporalIgnition",
-        "url": "/verify/taulib/docs/book-v-temporal-temporal-ignition/"
+        "url": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.TemporalIgnition](/verify/taulib/docs/book-v-temporal-temporal-ignition/)
+- Module: [TauLib.BookV.Temporal.TemporalIgnition](/corpus/taulib/docs/book-v-temporal-temporal-ignition/)
 - Source path: [`TauLib/BookV/Temporal/TemporalIgnition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/TemporalIgnition.lean#L115-L118)
 - Source range: L115-L118
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

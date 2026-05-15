@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "torus_above_threshold",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/torus-above-threshold/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/torus-above-threshold/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.GravityField.TOVPhaseBoundary`.",
   "declaration_id": "TauLib.BookV.GravityField.TOVPhaseBoundary::torus_above_threshold",
   "declaration_slug": "torus-above-threshold",
   "kind": "theorem",
   "name": "torus_above_threshold",
   "module_name": "TauLib.BookV.GravityField.TOVPhaseBoundary",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/",
   "source_line_start": 211,
   "source_line_end": 213,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVPhaseBoundary.lean#L211-L213",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TOVPhaseBoundary",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TOVPhaseBoundary](/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/)
+- Module: [TauLib.BookV.GravityField.TOVPhaseBoundary](/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/)
 - Source path: [`TauLib/BookV/GravityField/TOVPhaseBoundary.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVPhaseBoundary.lean#L211-L213)
 - Source range: L211-L213
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

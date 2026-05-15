@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauIntQ.toInt_ofInt",
-  "permalink": "/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/to-int-of-int/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/to-int-of-int/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Bridge.TauIntQuotient`.",
   "declaration_id": "TauLib.BookI.Boundary.Bridge.TauIntQuotient::TauIntQ.toInt_ofInt",
   "declaration_slug": "to-int-of-int",
   "kind": "theorem",
   "name": "TauIntQ.toInt_ofInt",
   "module_name": "TauLib.BookI.Boundary.Bridge.TauIntQuotient",
-  "module_url": "/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/",
   "source_line_start": 297,
   "source_line_end": 298,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauIntQuotient.lean#L297-L298",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Bridge.TauIntQuotient",
-        "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/"
+        "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Bridge.TauIntQuotient](/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/)
+- Module: [TauLib.BookI.Boundary.Bridge.TauIntQuotient](/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/)
 - Source path: [`TauLib/BookI/Boundary/Bridge/TauIntQuotient.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauIntQuotient.lean#L297-L298)
 - Source range: L297-L298
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

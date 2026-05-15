@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "export_vi_count",
-  "permalink": "/verify/taulib/docs/book-v-coda-bridge-to-life/export-vi-count/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-bridge-to-life/export-vi-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Coda.BridgeToLife`.",
   "declaration_id": "TauLib.BookV.Coda.BridgeToLife::export_vi_count",
   "declaration_slug": "export-vi-count",
   "kind": "theorem",
   "name": "export_vi_count",
   "module_name": "TauLib.BookV.Coda.BridgeToLife",
-  "module_url": "/verify/taulib/docs/book-v-coda-bridge-to-life/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-bridge-to-life/",
   "source_line_start": 127,
   "source_line_end": 128,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/BridgeToLife.lean#L127-L128",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.BridgeToLife",
-        "url": "/verify/taulib/docs/book-v-coda-bridge-to-life/"
+        "url": "/corpus/taulib/docs/book-v-coda-bridge-to-life/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.BridgeToLife](/verify/taulib/docs/book-v-coda-bridge-to-life/)
+- Module: [TauLib.BookV.Coda.BridgeToLife](/corpus/taulib/docs/book-v-coda-bridge-to-life/)
 - Source path: [`TauLib/BookV/Coda/BridgeToLife.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/BridgeToLife.lean#L127-L128)
 - Source range: L127-L128
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

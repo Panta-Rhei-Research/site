@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "wave_equation_from_split_cr_v",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr-v/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr-v/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR`.",
   "declaration_id": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR::wave_equation_from_split_cr_v",
   "declaration_slug": "wave-equation-from-split-cr-v",
   "kind": "theorem",
   "name": "wave_equation_from_split_cr_v",
   "module_name": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/",
   "source_line_start": 227,
   "source_line_end": 234,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6EarnedCodomainWaveCR.lean#L227-L234",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR",
-        "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/)
+- Module: [TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/)
 - Source path: [`TauLib/BookI/Holomorphy/H6EarnedCodomainWaveCR.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6EarnedCodomainWaveCR.lean#L227-L234)
 - Source range: L227-L234
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

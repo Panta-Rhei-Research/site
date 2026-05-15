@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_escapes_obstruction",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-physics-quadrant/tau-escapes-obstruction/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-physics-quadrant/tau-escapes-obstruction/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Mirror.PhysicsQuadrant`.",
   "declaration_id": "TauLib.BookII.Mirror.PhysicsQuadrant::tau_escapes_obstruction",
   "declaration_slug": "tau-escapes-obstruction",
   "kind": "theorem",
   "name": "tau_escapes_obstruction",
   "module_name": "TauLib.BookII.Mirror.PhysicsQuadrant",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-physics-quadrant/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-physics-quadrant/",
   "source_line_start": 164,
   "source_line_end": 168,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/PhysicsQuadrant.lean#L164-L168",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.PhysicsQuadrant",
-        "url": "/verify/taulib/docs/book-ii-mirror-physics-quadrant/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-physics-quadrant/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.PhysicsQuadrant](/verify/taulib/docs/book-ii-mirror-physics-quadrant/)
+- Module: [TauLib.BookII.Mirror.PhysicsQuadrant](/corpus/taulib/docs/book-ii-mirror-physics-quadrant/)
 - Source path: [`TauLib/BookII/Mirror/PhysicsQuadrant.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/PhysicsQuadrant.lean#L164-L168)
 - Source range: L164-L168
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

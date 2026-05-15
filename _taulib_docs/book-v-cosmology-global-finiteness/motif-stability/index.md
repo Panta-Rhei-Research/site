@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MotifStability",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-global-finiteness/motif-stability/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/motif-stability/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.Cosmology.GlobalFiniteness`.",
   "declaration_id": "TauLib.BookV.Cosmology.GlobalFiniteness::MotifStability",
   "declaration_slug": "motif-stability",
   "kind": "inductive",
   "name": "MotifStability",
   "module_name": "TauLib.BookV.Cosmology.GlobalFiniteness",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/",
   "source_line_start": 73,
   "source_line_end": 80,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/GlobalFiniteness.lean#L73-L80",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.GlobalFiniteness",
-        "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.GlobalFiniteness](/verify/taulib/docs/book-v-cosmology-global-finiteness/)
+- Module: [TauLib.BookV.Cosmology.GlobalFiniteness](/corpus/taulib/docs/book-v-cosmology-global-finiteness/)
 - Source path: [`TauLib/BookV/Cosmology/GlobalFiniteness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/GlobalFiniteness.lean#L73-L80)
 - Source range: L73-L80
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

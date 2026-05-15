@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_kernel",
-  "permalink": "/verify/taulib/docs/book-iv-arena-coherence-kernel/canonical-kernel/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/canonical-kernel/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Arena.CoherenceKernel`.",
   "declaration_id": "TauLib.BookIV.Arena.CoherenceKernel::canonical_kernel",
   "declaration_slug": "canonical-kernel",
   "kind": "def",
   "name": "canonical_kernel",
   "module_name": "TauLib.BookIV.Arena.CoherenceKernel",
-  "module_url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/",
   "source_line_start": 90,
   "source_line_end": 95,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L90-L95",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.CoherenceKernel",
-        "url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/"
+        "url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.CoherenceKernel](/verify/taulib/docs/book-iv-arena-coherence-kernel/)
+- Module: [TauLib.BookIV.Arena.CoherenceKernel](/corpus/taulib/docs/book-iv-arena-coherence-kernel/)
 - Source path: [`TauLib/BookIV/Arena/CoherenceKernel.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L90-L95)
 - Source range: L90-L95
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

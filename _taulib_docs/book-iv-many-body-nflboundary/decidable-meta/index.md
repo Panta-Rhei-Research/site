@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DecidableMeta",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-nflboundary/decidable-meta/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-nflboundary/decidable-meta/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.ManyBody.NFLBoundary`.",
   "declaration_id": "TauLib.BookIV.ManyBody.NFLBoundary::DecidableMeta",
   "declaration_slug": "decidable-meta",
   "kind": "structure",
   "name": "DecidableMeta",
   "module_name": "TauLib.BookIV.ManyBody.NFLBoundary",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-nflboundary/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/",
   "source_line_start": 122,
   "source_line_end": 133,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/NFLBoundary.lean#L122-L133",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.NFLBoundary",
-        "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.NFLBoundary](/verify/taulib/docs/book-iv-many-body-nflboundary/)
+- Module: [TauLib.BookIV.ManyBody.NFLBoundary](/corpus/taulib/docs/book-iv-many-body-nflboundary/)
 - Source path: [`TauLib/BookIV/ManyBody/NFLBoundary.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/NFLBoundary.lean#L122-L133)
 - Source range: L122-L133
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

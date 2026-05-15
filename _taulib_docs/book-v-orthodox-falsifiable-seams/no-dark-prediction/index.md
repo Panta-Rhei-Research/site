@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_dark_prediction",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-prediction/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-prediction/",
   "summary_short": "`def` declaration in `TauLib.BookV.Orthodox.FalsifiableSeams`.",
   "declaration_id": "TauLib.BookV.Orthodox.FalsifiableSeams::no_dark_prediction",
   "declaration_slug": "no-dark-prediction",
   "kind": "def",
   "name": "no_dark_prediction",
   "module_name": "TauLib.BookV.Orthodox.FalsifiableSeams",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/",
   "source_line_start": 161,
   "source_line_end": 166,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/FalsifiableSeams.lean#L161-L166",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.FalsifiableSeams",
-        "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.FalsifiableSeams](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/)
+- Module: [TauLib.BookV.Orthodox.FalsifiableSeams](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/)
 - Source path: [`TauLib/BookV/Orthodox/FalsifiableSeams.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/FalsifiableSeams.lean#L161-L166)
 - Source range: L161-L166
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

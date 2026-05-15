@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauHiggsMass",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/tau-higgs-mass/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/tau-higgs-mass/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.TauHiggs2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauHiggs2::TauHiggsMass",
   "declaration_slug": "tau-higgs-mass",
   "kind": "structure",
   "name": "TauHiggsMass",
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/",
   "source_line_start": 84,
   "source_line_end": 93,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L84-L93",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauHiggs2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/verify/taulib/docs/book-iv-electroweak-tau-higgs2/)
+- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/)
 - Source path: [`TauLib/BookIV/Electroweak/TauHiggs2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L84-L93)
 - Source range: L84-L93
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

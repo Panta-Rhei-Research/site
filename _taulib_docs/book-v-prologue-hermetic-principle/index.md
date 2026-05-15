@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Prologue.HermeticPrinciple",
-  "permalink": "/verify/taulib/docs/book-v-prologue-hermetic-principle/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Prologue.HermeticPrinciple`.",
   "module_name": "TauLib.BookV.Prologue.HermeticPrinciple",
   "module_slug": "book-v-prologue-hermetic-principle",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "FiberCompleteness",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness/",
       "source_line_start": 62,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R04"
       ]
@@ -46,19 +48,23 @@
     {
       "kind": "def",
       "name": "canonical_fiber_completeness",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/canonical-fiber-completeness/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/canonical-fiber-completeness/",
       "source_line_start": 76,
       "source_line_end": 81,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fiber_completeness_count",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness-count/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness-count/",
       "source_line_start": 84,
       "source_line_end": 85,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R04"
       ]
@@ -66,19 +72,23 @@
     {
       "kind": "theorem",
       "name": "base_completeness_count",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/base-completeness-count/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/base-completeness-count/",
       "source_line_start": 88,
       "source_line_end": 89,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fiber_covers_nongrav",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/fiber-covers-nongrav/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/fiber-covers-nongrav/",
       "source_line_start": 104,
       "source_line_end": 112,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T06"
       ]
@@ -86,10 +96,12 @@
     {
       "kind": "theorem",
       "name": "temporal_complement_recap",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/temporal-complement-recap/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/temporal-complement-recap/",
       "source_line_start": 125,
       "source_line_end": 127,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R05"
       ]
@@ -97,64 +109,78 @@
     {
       "kind": "theorem",
       "name": "hermetic_base_fiber",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/hermetic-base-fiber/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/hermetic-base-fiber/",
       "source_line_start": 135,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_covers_all",
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/holonomy-covers-all/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/holonomy-covers-all/",
       "source_line_start": 141,
       "source_line_end": 143,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l149/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l149/",
       "source_line_start": 149,
       "source_line_end": 149,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l150/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l150/",
       "source_line_start": 150,
       "source_line_end": 150,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l151/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l151/",
       "source_line_start": 151,
       "source_line_end": 151,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l152/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l152/",
       "source_line_start": 152,
       "source_line_end": 152,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l153/",
+      "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l153/",
       "source_line_start": 153,
       "source_line_end": 155,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -166,7 +192,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -239,18 +265,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [FiberCompleteness](/verify/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness/) | L62-L73 | defined | `V.R04` |
-| `def` | [canonical_fiber_completeness](/verify/taulib/docs/book-v-prologue-hermetic-principle/canonical-fiber-completeness/) | L76-L81 | defined | — |
-| `theorem` | [fiber_completeness_count](/verify/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness-count/) | L84-L85 | formalized | `V.R04` |
-| `theorem` | [base_completeness_count](/verify/taulib/docs/book-v-prologue-hermetic-principle/base-completeness-count/) | L88-L89 | formalized | — |
-| `theorem` | [fiber_covers_nongrav](/verify/taulib/docs/book-v-prologue-hermetic-principle/fiber-covers-nongrav/) | L104-L112 | formalized | `V.T06` |
-| `theorem` | [temporal_complement_recap](/verify/taulib/docs/book-v-prologue-hermetic-principle/temporal-complement-recap/) | L125-L127 | formalized | `V.R05` |
-| `theorem` | [hermetic_base_fiber](/verify/taulib/docs/book-v-prologue-hermetic-principle/hermetic-base-fiber/) | L135-L138 | formalized | — |
-| `theorem` | [holonomy_covers_all](/verify/taulib/docs/book-v-prologue-hermetic-principle/holonomy-covers-all/) | L141-L143 | formalized | — |
-| `eval` | [#eval L149](/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l149/) | L149-L149 | computed | — |
-| `eval` | [#eval L150](/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l150/) | L150-L150 | computed | — |
-| `eval` | [#eval L151](/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l151/) | L151-L151 | computed | — |
-| `eval` | [#eval L152](/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l152/) | L152-L152 | computed | — |
-| `eval` | [#eval L153](/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l153/) | L153-L155 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [FiberCompleteness](/corpus/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness/) | L62-L73 | type/data schema | type/data schema | `V.R04` |
+| `def` | [canonical_fiber_completeness](/corpus/taulib/docs/book-v-prologue-hermetic-principle/canonical-fiber-completeness/) | L76-L81 | definition | definition | — |
+| `theorem` | [fiber_completeness_count](/corpus/taulib/docs/book-v-prologue-hermetic-principle/fiber-completeness-count/) | L84-L85 | proof obligation | formal proof obligation checked | `V.R04` |
+| `theorem` | [base_completeness_count](/corpus/taulib/docs/book-v-prologue-hermetic-principle/base-completeness-count/) | L88-L89 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fiber_covers_nongrav](/corpus/taulib/docs/book-v-prologue-hermetic-principle/fiber-covers-nongrav/) | L104-L112 | proof obligation | formal proof obligation checked | `V.T06` |
+| `theorem` | [temporal_complement_recap](/corpus/taulib/docs/book-v-prologue-hermetic-principle/temporal-complement-recap/) | L125-L127 | proof obligation | formal proof obligation checked | `V.R05` |
+| `theorem` | [hermetic_base_fiber](/corpus/taulib/docs/book-v-prologue-hermetic-principle/hermetic-base-fiber/) | L135-L138 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [holonomy_covers_all](/corpus/taulib/docs/book-v-prologue-hermetic-principle/holonomy-covers-all/) | L141-L143 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L149](/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l149/) | L149-L149 | computed check | computed check | — |
+| `eval` | [#eval L150](/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l150/) | L150-L150 | computed check | computed check | — |
+| `eval` | [#eval L151](/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l151/) | L151-L151 | computed check | computed check | — |
+| `eval` | [#eval L152](/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l152/) | L152-L152 | computed check | computed check | — |
+| `eval` | [#eval L153](/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l153/) | L153-L155 | computed check | computed check | — |

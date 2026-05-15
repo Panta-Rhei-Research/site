@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "channel_stabilization_check",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-positive-regularity/channel-stabilization-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-positive-regularity/channel-stabilization-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Regularity.PositiveRegularity`.",
   "declaration_id": "TauLib.BookII.Regularity.PositiveRegularity::channel_stabilization_check",
   "declaration_slug": "channel-stabilization-check",
   "kind": "def",
   "name": "channel_stabilization_check",
   "module_name": "TauLib.BookII.Regularity.PositiveRegularity",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-positive-regularity/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-positive-regularity/",
   "source_line_start": 248,
   "source_line_end": 282,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PositiveRegularity.lean#L248-L282",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.PositiveRegularity",
-        "url": "/verify/taulib/docs/book-ii-regularity-positive-regularity/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-positive-regularity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.PositiveRegularity](/verify/taulib/docs/book-ii-regularity-positive-regularity/)
+- Module: [TauLib.BookII.Regularity.PositiveRegularity](/corpus/taulib/docs/book-ii-regularity-positive-regularity/)
 - Source path: [`TauLib/BookII/Regularity/PositiveRegularity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PositiveRegularity.lean#L248-L282)
 - Source range: L248-L282
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

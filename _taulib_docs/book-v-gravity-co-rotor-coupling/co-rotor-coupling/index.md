@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CoRotorCoupling",
-  "permalink": "/verify/taulib/docs/book-v-gravity-co-rotor-coupling/co-rotor-coupling/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/co-rotor-coupling/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Gravity.CoRotorCoupling`.",
   "declaration_id": "TauLib.BookV.Gravity.CoRotorCoupling::CoRotorCoupling",
   "declaration_slug": "co-rotor-coupling",
   "kind": "structure",
   "name": "CoRotorCoupling",
   "module_name": "TauLib.BookV.Gravity.CoRotorCoupling",
-  "module_url": "/verify/taulib/docs/book-v-gravity-co-rotor-coupling/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/",
   "source_line_start": 90,
   "source_line_end": 103,
   "registry_ids": [
@@ -18,15 +18,17 @@
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/CoRotorCoupling.lean#L90-L103",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.CoRotorCoupling",
-        "url": "/verify/taulib/docs/book-v-gravity-co-rotor-coupling/"
+        "url": "/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -43,7 +45,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -64,11 +67,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.CoRotorCoupling](/verify/taulib/docs/book-v-gravity-co-rotor-coupling/)
+- Module: [TauLib.BookV.Gravity.CoRotorCoupling](/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/)
 - Source path: [`TauLib/BookV/Gravity/CoRotorCoupling.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/CoRotorCoupling.lean#L90-L103)
 - Source range: L90-L103
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

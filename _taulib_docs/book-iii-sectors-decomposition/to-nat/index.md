@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Sector.toNat",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-decomposition/to-nat/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-decomposition/to-nat/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Sectors.Decomposition`.",
   "declaration_id": "TauLib.BookIII.Sectors.Decomposition::Sector.toNat",
   "declaration_slug": "to-nat",
   "kind": "def",
   "name": "Sector.toNat",
   "module_name": "TauLib.BookIII.Sectors.Decomposition",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-decomposition/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-decomposition/",
   "source_line_start": 66,
   "source_line_end": 71,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/Decomposition.lean#L66-L71",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.Decomposition",
-        "url": "/verify/taulib/docs/book-iii-sectors-decomposition/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-decomposition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.Decomposition](/verify/taulib/docs/book-iii-sectors-decomposition/)
+- Module: [TauLib.BookIII.Sectors.Decomposition](/corpus/taulib/docs/book-iii-sectors-decomposition/)
 - Source path: [`TauLib/BookIII/Sectors/Decomposition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/Decomposition.lean#L66-L71)
 - Source range: L66-L71
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

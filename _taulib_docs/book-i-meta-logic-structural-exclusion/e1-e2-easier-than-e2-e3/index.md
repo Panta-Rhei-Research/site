@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "e1_e2_easier_than_e2_e3",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-easier-than-e2-e3/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-easier-than-e2-e3/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.MetaLogic.StructuralExclusion`.",
   "declaration_id": "TauLib.BookI.MetaLogic.StructuralExclusion::e1_e2_easier_than_e2_e3",
   "declaration_slug": "e1-e2-easier-than-e2-e3",
   "kind": "theorem",
   "name": "e1_e2_easier_than_e2_e3",
   "module_name": "TauLib.BookI.MetaLogic.StructuralExclusion",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/",
   "source_line_start": 182,
   "source_line_end": 183,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/StructuralExclusion.lean#L182-L183",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.StructuralExclusion",
-        "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.StructuralExclusion](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/)
+- Module: [TauLib.BookI.MetaLogic.StructuralExclusion](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/)
 - Source path: [`TauLib/BookI/MetaLogic/StructuralExclusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/StructuralExclusion.lean#L182-L183)
 - Source range: L182-L183
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

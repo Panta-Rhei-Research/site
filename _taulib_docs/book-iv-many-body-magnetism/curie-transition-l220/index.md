@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "curie_transition",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-magnetism/curie-transition-l220/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-magnetism/curie-transition-l220/",
   "summary_short": "`def` declaration in `TauLib.BookIV.ManyBody.Magnetism`.",
   "declaration_id": "TauLib.BookIV.ManyBody.Magnetism::curie_transition",
   "declaration_slug": "curie-transition-l220",
   "kind": "def",
   "name": "curie_transition",
   "module_name": "TauLib.BookIV.ManyBody.Magnetism",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-magnetism/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-magnetism/",
   "source_line_start": 220,
   "source_line_end": 220,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/Magnetism.lean#L220-L220",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.Magnetism",
-        "url": "/verify/taulib/docs/book-iv-many-body-magnetism/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-magnetism/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.Magnetism](/verify/taulib/docs/book-iv-many-body-magnetism/)
+- Module: [TauLib.BookIV.ManyBody.Magnetism](/corpus/taulib/docs/book-iv-many-body-magnetism/)
 - Source path: [`TauLib/BookIV/ManyBody/Magnetism.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/Magnetism.lean#L220-L220)
 - Source range: L220-L220
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

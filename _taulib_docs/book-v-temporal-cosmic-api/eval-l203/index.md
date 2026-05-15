@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L203",
-  "permalink": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l203/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l203/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Temporal.CosmicAPI`.",
   "declaration_id": "TauLib.BookV.Temporal.CosmicAPI::#eval:203",
   "declaration_slug": "eval-l203",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Temporal.CosmicAPI",
-  "module_url": "/verify/taulib/docs/book-v-temporal-cosmic-api/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/",
   "source_line_start": 203,
   "source_line_end": 205,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/CosmicAPI.lean#L203-L205",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.CosmicAPI",
-        "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/"
+        "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.CosmicAPI](/verify/taulib/docs/book-v-temporal-cosmic-api/)
+- Module: [TauLib.BookV.Temporal.CosmicAPI](/corpus/taulib/docs/book-v-temporal-cosmic-api/)
 - Source path: [`TauLib/BookV/Temporal/CosmicAPI.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/CosmicAPI.lean#L203-L205)
 - Source range: L203-L205
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauEinsteinField",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/tau-einstein-field/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/tau-einstein-field/",
   "summary_short": "`structure` declaration in `TauLib.BookV.GravityField.TauEinsteinEq`.",
   "declaration_id": "TauLib.BookV.GravityField.TauEinsteinEq::TauEinsteinField",
   "declaration_slug": "tau-einstein-field",
   "kind": "structure",
   "name": "TauEinsteinField",
   "module_name": "TauLib.BookV.GravityField.TauEinsteinEq",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
   "source_line_start": 161,
   "source_line_end": 174,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauEinsteinEq.lean#L161-L174",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TauEinsteinEq",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TauEinsteinEq](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/)
+- Module: [TauLib.BookV.GravityField.TauEinsteinEq](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/)
 - Source path: [`TauLib/BookV/GravityField/TauEinsteinEq.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauEinsteinEq.lean#L161-L174)
 - Source range: L161-L174
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

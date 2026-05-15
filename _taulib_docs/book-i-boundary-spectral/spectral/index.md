@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral",
-  "permalink": "/verify/taulib/docs/book-i-boundary-spectral/spectral/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-spectral/spectral/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Spectral`.",
   "declaration_id": "TauLib.BookI.Boundary.Spectral::spectral",
   "declaration_slug": "spectral",
   "kind": "def",
   "name": "spectral",
   "module_name": "TauLib.BookI.Boundary.Spectral",
-  "module_url": "/verify/taulib/docs/book-i-boundary-spectral/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-spectral/",
   "source_line_start": 44,
   "source_line_end": 44,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L44-L44",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Spectral",
-        "url": "/verify/taulib/docs/book-i-boundary-spectral/"
+        "url": "/corpus/taulib/docs/book-i-boundary-spectral/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Spectral](/verify/taulib/docs/book-i-boundary-spectral/)
+- Module: [TauLib.BookI.Boundary.Spectral](/corpus/taulib/docs/book-i-boundary-spectral/)
 - Source path: [`TauLib/BookI/Boundary/Spectral.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L44-L44)
 - Source range: L44-L44
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Doors.Poincare",
-  "permalink": "/verify/taulib/docs/book-iii-doors-poincare/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-poincare/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Doors.Poincare`.",
   "module_name": "TauLib.BookIII.Doors.Poincare",
   "module_slug": "book-iii-doors-poincare",
@@ -33,10 +33,12 @@
     {
       "kind": "def",
       "name": "simply_connected_check",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/simply-connected-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/simply-connected-check/",
       "source_line_start": 42,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D35"
       ]
@@ -44,10 +46,12 @@
     {
       "kind": "def",
       "name": "terminal_object_check",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/terminal-object-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/terminal-object-check/",
       "source_line_start": 67,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D35"
       ]
@@ -55,10 +59,12 @@
     {
       "kind": "def",
       "name": "gluing_guarantee_check",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/gluing-guarantee-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/gluing-guarantee-check/",
       "source_line_start": 96,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P13"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "def",
       "name": "obstruction_check",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/obstruction-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/obstruction-check/",
       "source_line_start": 122,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P13"
       ]
@@ -77,82 +85,100 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/eval-l148/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/eval-l148/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/eval-l149/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/eval-l149/",
       "source_line_start": 149,
       "source_line_end": 149,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/eval-l150/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/eval-l150/",
       "source_line_start": 150,
       "source_line_end": 150,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/eval-l151/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/eval-l151/",
       "source_line_start": 151,
       "source_line_end": 151,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "simply_connected_15_4",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/simply-connected-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/simply-connected-15-4/",
       "source_line_start": 157,
       "source_line_end": 158,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "terminal_object_10_3",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/terminal-object-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/terminal-object-10-3/",
       "source_line_start": 160,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "gluing_guarantee_15_4",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/gluing-guarantee-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/gluing-guarantee-15-4/",
       "source_line_start": 163,
       "source_line_end": 164,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "obstruction_4",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/obstruction-4/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/obstruction-4/",
       "source_line_start": 166,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "crt_bijective_42_3",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/crt-bijective-42-3/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/crt-bijective-42-3/",
       "source_line_start": 175,
       "source_line_end": 177,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D35"
       ]
@@ -160,10 +186,12 @@
     {
       "kind": "theorem",
       "name": "terminal_depth_1",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/terminal-depth-1/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/terminal-depth-1/",
       "source_line_start": 180,
       "source_line_end": 181,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D35"
       ]
@@ -171,10 +199,12 @@
     {
       "kind": "theorem",
       "name": "gluing_depth_1",
-      "url": "/verify/taulib/docs/book-iii-doors-poincare/gluing-depth-1/",
+      "url": "/corpus/taulib/docs/book-iii-doors-poincare/gluing-depth-1/",
       "source_line_start": 184,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P13"
       ]
@@ -188,7 +218,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -259,20 +289,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [simply_connected_check](/verify/taulib/docs/book-iii-doors-poincare/simply-connected-check/) | L42-L62 | defined | `III.D35` |
-| `def` | [terminal_object_check](/verify/taulib/docs/book-iii-doors-poincare/terminal-object-check/) | L67-L86 | defined | `III.D35` |
-| `def` | [gluing_guarantee_check](/verify/taulib/docs/book-iii-doors-poincare/gluing-guarantee-check/) | L96-L117 | defined | `III.P13` |
-| `def` | [obstruction_check](/verify/taulib/docs/book-iii-doors-poincare/obstruction-check/) | L122-L142 | defined | `III.P13` |
-| `eval` | [#eval L148](/verify/taulib/docs/book-iii-doors-poincare/eval-l148/) | L148-L148 | computed | — |
-| `eval` | [#eval L149](/verify/taulib/docs/book-iii-doors-poincare/eval-l149/) | L149-L149 | computed | — |
-| `eval` | [#eval L150](/verify/taulib/docs/book-iii-doors-poincare/eval-l150/) | L150-L150 | computed | — |
-| `eval` | [#eval L151](/verify/taulib/docs/book-iii-doors-poincare/eval-l151/) | L151-L151 | computed | — |
-| `theorem` | [simply_connected_15_4](/verify/taulib/docs/book-iii-doors-poincare/simply-connected-15-4/) | L157-L158 | formalized | — |
-| `theorem` | [terminal_object_10_3](/verify/taulib/docs/book-iii-doors-poincare/terminal-object-10-3/) | L160-L161 | formalized | — |
-| `theorem` | [gluing_guarantee_15_4](/verify/taulib/docs/book-iii-doors-poincare/gluing-guarantee-15-4/) | L163-L164 | formalized | — |
-| `theorem` | [obstruction_4](/verify/taulib/docs/book-iii-doors-poincare/obstruction-4/) | L166-L167 | formalized | — |
-| `theorem` | [crt_bijective_42_3](/verify/taulib/docs/book-iii-doors-poincare/crt-bijective-42-3/) | L175-L177 | formalized | `III.D35` |
-| `theorem` | [terminal_depth_1](/verify/taulib/docs/book-iii-doors-poincare/terminal-depth-1/) | L180-L181 | formalized | `III.D35` |
-| `theorem` | [gluing_depth_1](/verify/taulib/docs/book-iii-doors-poincare/gluing-depth-1/) | L184-L187 | formalized | `III.P13` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [simply_connected_check](/corpus/taulib/docs/book-iii-doors-poincare/simply-connected-check/) | L42-L62 | data/computed value | data/computed value | `III.D35` |
+| `def` | [terminal_object_check](/corpus/taulib/docs/book-iii-doors-poincare/terminal-object-check/) | L67-L86 | data/computed value | data/computed value | `III.D35` |
+| `def` | [gluing_guarantee_check](/corpus/taulib/docs/book-iii-doors-poincare/gluing-guarantee-check/) | L96-L117 | data/computed value | data/computed value | `III.P13` |
+| `def` | [obstruction_check](/corpus/taulib/docs/book-iii-doors-poincare/obstruction-check/) | L122-L142 | data/computed value | data/computed value | `III.P13` |
+| `eval` | [#eval L148](/corpus/taulib/docs/book-iii-doors-poincare/eval-l148/) | L148-L148 | computed check | computed check | — |
+| `eval` | [#eval L149](/corpus/taulib/docs/book-iii-doors-poincare/eval-l149/) | L149-L149 | computed check | computed check | — |
+| `eval` | [#eval L150](/corpus/taulib/docs/book-iii-doors-poincare/eval-l150/) | L150-L150 | computed check | computed check | — |
+| `eval` | [#eval L151](/corpus/taulib/docs/book-iii-doors-poincare/eval-l151/) | L151-L151 | computed check | computed check | — |
+| `theorem` | [simply_connected_15_4](/corpus/taulib/docs/book-iii-doors-poincare/simply-connected-15-4/) | L157-L158 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [terminal_object_10_3](/corpus/taulib/docs/book-iii-doors-poincare/terminal-object-10-3/) | L160-L161 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [gluing_guarantee_15_4](/corpus/taulib/docs/book-iii-doors-poincare/gluing-guarantee-15-4/) | L163-L164 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [obstruction_4](/corpus/taulib/docs/book-iii-doors-poincare/obstruction-4/) | L166-L167 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [crt_bijective_42_3](/corpus/taulib/docs/book-iii-doors-poincare/crt-bijective-42-3/) | L175-L177 | proof obligation | formal proof obligation checked | `III.D35` |
+| `theorem` | [terminal_depth_1](/corpus/taulib/docs/book-iii-doors-poincare/terminal-depth-1/) | L180-L181 | proof obligation | formal proof obligation checked | `III.D35` |
+| `theorem` | [gluing_depth_1](/corpus/taulib/docs/book-iii-doors-poincare/gluing-depth-1/) | L184-L187 | proof obligation | formal proof obligation checked | `III.P13` |

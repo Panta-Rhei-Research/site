@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MacroReynoldsNumber",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/macro-reynolds-number/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/macro-reynolds-number/",
   "summary_short": "`structure` declaration in `TauLib.BookV.FluidMacro.NavierStokesMacro`.",
   "declaration_id": "TauLib.BookV.FluidMacro.NavierStokesMacro::MacroReynoldsNumber",
   "declaration_slug": "macro-reynolds-number",
   "kind": "structure",
   "name": "MacroReynoldsNumber",
   "module_name": "TauLib.BookV.FluidMacro.NavierStokesMacro",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/",
   "source_line_start": 220,
   "source_line_end": 229,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/NavierStokesMacro.lean#L220-L229",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.NavierStokesMacro",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.NavierStokesMacro](/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/)
+- Module: [TauLib.BookV.FluidMacro.NavierStokesMacro](/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/)
 - Source path: [`TauLib/BookV/FluidMacro/NavierStokesMacro.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/NavierStokesMacro.lean#L220-L229)
 - Source range: L220-L229
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

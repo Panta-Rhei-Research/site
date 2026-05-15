@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L118",
-  "permalink": "/verify/taulib/docs/book-i-topos-wedge-product/eval-l118/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-wedge-product/eval-l118/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Topos.WedgeProduct`.",
   "declaration_id": "TauLib.BookI.Topos.WedgeProduct::#eval:118",
   "declaration_slug": "eval-l118",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Topos.WedgeProduct",
-  "module_url": "/verify/taulib/docs/book-i-topos-wedge-product/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-wedge-product/",
   "source_line_start": 118,
   "source_line_end": 121,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/WedgeProduct.lean#L118-L121",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.WedgeProduct",
-        "url": "/verify/taulib/docs/book-i-topos-wedge-product/"
+        "url": "/corpus/taulib/docs/book-i-topos-wedge-product/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.WedgeProduct](/verify/taulib/docs/book-i-topos-wedge-product/)
+- Module: [TauLib.BookI.Topos.WedgeProduct](/corpus/taulib/docs/book-i-topos-wedge-product/)
 - Source path: [`TauLib/BookI/Topos/WedgeProduct.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/WedgeProduct.lean#L118-L121)
 - Source range: L118-L121
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

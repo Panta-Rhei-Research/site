@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L173",
-  "permalink": "/verify/taulib/docs/book-i-boundary-cyclotomic/example-l173/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-cyclotomic/example-l173/",
   "summary_short": "`example` declaration in `TauLib.BookI.Boundary.Cyclotomic`.",
   "declaration_id": "TauLib.BookI.Boundary.Cyclotomic::#eval:173",
   "declaration_slug": "example-l173",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Cyclotomic",
-  "module_url": "/verify/taulib/docs/book-i-boundary-cyclotomic/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-cyclotomic/",
   "source_line_start": 173,
   "source_line_end": 189,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Cyclotomic.lean#L173-L189",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Cyclotomic",
-        "url": "/verify/taulib/docs/book-i-boundary-cyclotomic/"
+        "url": "/corpus/taulib/docs/book-i-boundary-cyclotomic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Cyclotomic](/verify/taulib/docs/book-i-boundary-cyclotomic/)
+- Module: [TauLib.BookI.Boundary.Cyclotomic](/corpus/taulib/docs/book-i-boundary-cyclotomic/)
 - Source path: [`TauLib/BookI/Boundary/Cyclotomic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Cyclotomic.lean#L173-L189)
 - Source range: L173-L189
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

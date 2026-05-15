@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_orphan_phenomenon",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/no-orphan-phenomenon/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/no-orphan-phenomenon/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.SectorExhaustion`.",
   "declaration_id": "TauLib.BookV.Astrophysics.SectorExhaustion::no_orphan_phenomenon",
   "declaration_slug": "no-orphan-phenomenon",
   "kind": "theorem",
   "name": "no_orphan_phenomenon",
   "module_name": "TauLib.BookV.Astrophysics.SectorExhaustion",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/",
   "source_line_start": 171,
   "source_line_end": 173,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L171-L173",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.SectorExhaustion",
-        "url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/)
+- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/)
 - Source path: [`TauLib/BookV/Astrophysics/SectorExhaustion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L171-L173)
 - Source range: L171-L173
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

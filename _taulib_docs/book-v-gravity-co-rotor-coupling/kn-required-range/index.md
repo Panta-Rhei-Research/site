@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "kn_required_range",
-  "permalink": "/verify/taulib/docs/book-v-gravity-co-rotor-coupling/kn-required-range/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/kn-required-range/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Gravity.CoRotorCoupling`.",
   "declaration_id": "TauLib.BookV.Gravity.CoRotorCoupling::kn_required_range",
   "declaration_slug": "kn-required-range",
   "kind": "theorem",
   "name": "kn_required_range",
   "module_name": "TauLib.BookV.Gravity.CoRotorCoupling",
-  "module_url": "/verify/taulib/docs/book-v-gravity-co-rotor-coupling/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/",
   "source_line_start": 143,
   "source_line_end": 146,
   "registry_ids": [
@@ -18,15 +18,17 @@
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/CoRotorCoupling.lean#L143-L146",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.CoRotorCoupling",
-        "url": "/verify/taulib/docs/book-v-gravity-co-rotor-coupling/"
+        "url": "/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -43,7 +45,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -64,11 +67,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.CoRotorCoupling](/verify/taulib/docs/book-v-gravity-co-rotor-coupling/)
+- Module: [TauLib.BookV.Gravity.CoRotorCoupling](/corpus/taulib/docs/book-v-gravity-co-rotor-coupling/)
 - Source path: [`TauLib/BookV/Gravity/CoRotorCoupling.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/CoRotorCoupling.lean#L143-L146)
 - Source range: L143-L146
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CrossingPointDefectGerm",
-  "permalink": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/crossing-point-defect-germ/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/crossing-point-defect-germ/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Boundary.IotaTauStructural`.",
   "declaration_id": "TauLib.BookI.Boundary.IotaTauStructural::CrossingPointDefectGerm",
   "declaration_slug": "crossing-point-defect-germ",
   "kind": "structure",
   "name": "CrossingPointDefectGerm",
   "module_name": "TauLib.BookI.Boundary.IotaTauStructural",
-  "module_url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/",
   "source_line_start": 96,
   "source_line_end": 103,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/IotaTauStructural.lean#L96-L103",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.IotaTauStructural",
-        "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/"
+        "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.IotaTauStructural](/verify/taulib/docs/book-i-boundary-iota-tau-structural/)
+- Module: [TauLib.BookI.Boundary.IotaTauStructural](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/)
 - Source path: [`TauLib/BookI/Boundary/IotaTauStructural.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/IotaTauStructural.lean#L96-L103)
 - Source range: L96-L103
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

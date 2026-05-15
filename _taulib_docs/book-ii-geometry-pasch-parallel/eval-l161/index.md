@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L161",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-pasch-parallel/eval-l161/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-pasch-parallel/eval-l161/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Geometry.PaschParallel`.",
   "declaration_id": "TauLib.BookII.Geometry.PaschParallel::#eval:161",
   "declaration_slug": "eval-l161",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Geometry.PaschParallel",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-pasch-parallel/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-pasch-parallel/",
   "source_line_start": 161,
   "source_line_end": 161,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/PaschParallel.lean#L161-L161",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.PaschParallel",
-        "url": "/verify/taulib/docs/book-ii-geometry-pasch-parallel/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-pasch-parallel/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.PaschParallel](/verify/taulib/docs/book-ii-geometry-pasch-parallel/)
+- Module: [TauLib.BookII.Geometry.PaschParallel](/corpus/taulib/docs/book-ii-geometry-pasch-parallel/)
 - Source path: [`TauLib/BookII/Geometry/PaschParallel.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/PaschParallel.lean#L161-L161)
 - Source range: L161-L161
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

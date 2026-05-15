@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_hierarchy_holds",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-global-finiteness/no-hierarchy-holds/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/no-hierarchy-holds/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.GlobalFiniteness`.",
   "declaration_id": "TauLib.BookV.Cosmology.GlobalFiniteness::no_hierarchy_holds",
   "declaration_slug": "no-hierarchy-holds",
   "kind": "theorem",
   "name": "no_hierarchy_holds",
   "module_name": "TauLib.BookV.Cosmology.GlobalFiniteness",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/",
   "source_line_start": 269,
   "source_line_end": 269,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/GlobalFiniteness.lean#L269-L269",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.GlobalFiniteness",
-        "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.GlobalFiniteness](/verify/taulib/docs/book-v-cosmology-global-finiteness/)
+- Module: [TauLib.BookV.Cosmology.GlobalFiniteness](/corpus/taulib/docs/book-v-cosmology-global-finiteness/)
 - Source path: [`TauLib/BookV/Cosmology/GlobalFiniteness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/GlobalFiniteness.lean#L269-L269)
 - Source range: L269-L269
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

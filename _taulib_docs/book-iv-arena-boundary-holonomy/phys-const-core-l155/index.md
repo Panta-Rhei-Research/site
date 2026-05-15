@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "phys_const_core",
-  "permalink": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/phys-const-core-l155/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/phys-const-core-l155/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Arena.BoundaryHolonomy`.",
   "declaration_id": "TauLib.BookIV.Arena.BoundaryHolonomy::phys_const_core",
   "declaration_slug": "phys-const-core-l155",
   "kind": "def",
   "name": "phys_const_core",
   "module_name": "TauLib.BookIV.Arena.BoundaryHolonomy",
-  "module_url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/",
   "source_line_start": 155,
   "source_line_end": 158,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L155-L158",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.BoundaryHolonomy",
-        "url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/"
+        "url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/verify/taulib/docs/book-iv-arena-boundary-holonomy/)
+- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/corpus/taulib/docs/book-iv-arena-boundary-holonomy/)
 - Source path: [`TauLib/BookIV/Arena/BoundaryHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L155-L158)
 - Source range: L155-L158
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

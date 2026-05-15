@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "id_eq_chi_sum_c",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum-c/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/id-eq-chi-sum-c/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.IdentityTheorem`.",
   "declaration_id": "TauLib.BookI.Holomorphy.IdentityTheorem::id_eq_chi_sum_c",
   "declaration_slug": "id-eq-chi-sum-c",
   "kind": "theorem",
   "name": "id_eq_chi_sum_c",
   "module_name": "TauLib.BookI.Holomorphy.IdentityTheorem",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/",
   "source_line_start": 228,
   "source_line_end": 230,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/IdentityTheorem.lean#L228-L230",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.IdentityTheorem",
-        "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.IdentityTheorem](/verify/taulib/docs/book-i-holomorphy-identity-theorem/)
+- Module: [TauLib.BookI.Holomorphy.IdentityTheorem](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/)
 - Source path: [`TauLib/BookI/Holomorphy/IdentityTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/IdentityTheorem.lean#L228-L230)
 - Source range: L228-L230
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

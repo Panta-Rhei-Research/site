@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TestablePrediction",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-falsification-pack/testable-prediction/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/testable-prediction/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Cosmology.FalsificationPack`.",
   "declaration_id": "TauLib.BookV.Cosmology.FalsificationPack::TestablePrediction",
   "declaration_slug": "testable-prediction",
   "kind": "structure",
   "name": "TestablePrediction",
   "module_name": "TauLib.BookV.Cosmology.FalsificationPack",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/",
-  "source_line_start": 66,
-  "source_line_end": 77,
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/",
+  "source_line_start": 67,
+  "source_line_end": 78,
   "registry_ids": [],
   "related_registry_items": [],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L66-L77",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L67-L78",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.FalsificationPack",
-        "url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -34,14 +36,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L66-L77",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L67-L78",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.FalsificationPack](/verify/taulib/docs/book-v-cosmology-falsification-pack/)
-- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L66-L77)
-- Source range: L66-L77
+- Module: [TauLib.BookV.Cosmology.FalsificationPack](/corpus/taulib/docs/book-v-cosmology-falsification-pack/)
+- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L67-L78)
+- Source range: L67-L78
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

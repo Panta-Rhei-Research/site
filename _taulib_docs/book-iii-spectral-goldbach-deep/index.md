@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.GoldbachDeep",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.GoldbachDeep`.",
   "module_name": "TauLib.BookIII.Spectral.GoldbachDeep",
   "module_slug": "book-iii-spectral-goldbach-deep",
@@ -39,19 +39,23 @@
     {
       "kind": "def",
       "name": "goldbach_sieve_pair",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-pair/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-pair/",
       "source_line_start": 52,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "goldbach_sieve_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-check/",
       "source_line_start": 63,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D102"
       ]
@@ -59,10 +63,12 @@
     {
       "kind": "def",
       "name": "goldbach_partition_count_sieve",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-sieve/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-sieve/",
       "source_line_start": 79,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D103"
       ]
@@ -70,10 +76,12 @@
     {
       "kind": "def",
       "name": "goldbach_partition_count_at_primorial",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-at-primorial/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-at-primorial/",
       "source_line_start": 92,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D103"
       ]
@@ -81,10 +89,12 @@
     {
       "kind": "def",
       "name": "partition_growth_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-check/",
       "source_line_start": 98,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T70"
       ]
@@ -92,10 +102,12 @@
     {
       "kind": "def",
       "name": "goldbach_obstruction_count",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-obstruction-count/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-obstruction-count/",
       "source_line_start": 117,
       "source_line_end": 119,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D104"
       ]
@@ -103,10 +115,12 @@
     {
       "kind": "def",
       "name": "obstruction_bounded_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-check/",
       "source_line_start": 122,
       "source_line_end": 133,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T71"
       ]
@@ -114,19 +128,23 @@
     {
       "kind": "def",
       "name": "crt_goldbach_local_solvable",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-local-solvable/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-local-solvable/",
       "source_line_start": 141,
       "source_line_end": 154,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_goldbach_duality_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-check/",
       "source_line_start": 158,
       "source_line_end": 167,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P43"
       ]
@@ -134,10 +152,12 @@
     {
       "kind": "theorem",
       "name": "goldbach_500",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-500/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-500/",
       "source_line_start": 174,
       "source_line_end": 175,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T68"
       ]
@@ -145,10 +165,12 @@
     {
       "kind": "theorem",
       "name": "goldbach_primorial_m4",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-primorial-m4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-primorial-m4/",
       "source_line_start": 178,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T69"
       ]
@@ -156,10 +178,12 @@
     {
       "kind": "theorem",
       "name": "partition_growth_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-4/",
       "source_line_start": 182,
       "source_line_end": 183,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T70"
       ]
@@ -167,10 +191,12 @@
     {
       "kind": "theorem",
       "name": "obstruction_bounded_5",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-5/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-5/",
       "source_line_start": 186,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T71"
       ]
@@ -178,10 +204,12 @@
     {
       "kind": "theorem",
       "name": "crt_goldbach_duality_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-3/",
       "source_line_start": 190,
       "source_line_end": 191,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P43"
       ]
@@ -189,10 +217,12 @@
     {
       "kind": "theorem",
       "name": "partition_m2",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-m2/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-m2/",
       "source_line_start": 198,
       "source_line_end": 199,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D103"
       ]
@@ -200,10 +230,12 @@
     {
       "kind": "theorem",
       "name": "partition_m3",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-m3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-m3/",
       "source_line_start": 202,
       "source_line_end": 203,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D103"
       ]
@@ -211,10 +243,12 @@
     {
       "kind": "theorem",
       "name": "partition_m4_pos",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-m4-pos/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-m4-pos/",
       "source_line_start": 206,
       "source_line_end": 207,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D103"
       ]
@@ -222,10 +256,12 @@
     {
       "kind": "theorem",
       "name": "obstruction_100_p2",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p2/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p2/",
       "source_line_start": 210,
       "source_line_end": 211,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D104"
       ]
@@ -233,10 +269,12 @@
     {
       "kind": "theorem",
       "name": "obstruction_100_p3",
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p3/",
       "source_line_start": 214,
       "source_line_end": 215,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D104"
       ]
@@ -244,91 +282,111 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l221/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l221/",
       "source_line_start": 221,
       "source_line_end": 221,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l222/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l222/",
       "source_line_start": 222,
       "source_line_end": 222,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l223/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l223/",
       "source_line_start": 223,
       "source_line_end": 223,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l224/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l224/",
       "source_line_start": 224,
       "source_line_end": 224,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l225/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l225/",
       "source_line_start": 225,
       "source_line_end": 225,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l226/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l226/",
       "source_line_start": 226,
       "source_line_end": 226,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l227/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l227/",
       "source_line_start": 227,
       "source_line_end": 227,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l228/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l228/",
       "source_line_start": 228,
       "source_line_end": 228,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l229/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l229/",
       "source_line_start": 229,
       "source_line_end": 229,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l230/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l230/",
       "source_line_start": 230,
       "source_line_end": 232,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -340,7 +398,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -417,34 +475,34 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [goldbach_sieve_pair](/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-pair/) | L52-L60 | defined | — |
-| `def` | [goldbach_sieve_check](/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-check/) | L63-L72 | defined | `III.D102` |
-| `def` | [goldbach_partition_count_sieve](/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-sieve/) | L79-L89 | defined | `III.D103` |
-| `def` | [goldbach_partition_count_at_primorial](/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-at-primorial/) | L92-L95 | defined | `III.D103` |
-| `def` | [partition_growth_check](/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-check/) | L98-L108 | defined | `III.T70` |
-| `def` | [goldbach_obstruction_count](/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-obstruction-count/) | L117-L119 | defined | `III.D104` |
-| `def` | [obstruction_bounded_check](/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-check/) | L122-L133 | defined | `III.T71` |
-| `def` | [crt_goldbach_local_solvable](/verify/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-local-solvable/) | L141-L154 | defined | — |
-| `def` | [crt_goldbach_duality_check](/verify/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-check/) | L158-L167 | defined | `III.P43` |
-| `theorem` | [goldbach_500](/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-500/) | L174-L175 | formalized | `III.T68` |
-| `theorem` | [goldbach_primorial_m4](/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-primorial-m4/) | L178-L179 | formalized | `III.T69` |
-| `theorem` | [partition_growth_4](/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-4/) | L182-L183 | formalized | `III.T70` |
-| `theorem` | [obstruction_bounded_5](/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-5/) | L186-L187 | formalized | `III.T71` |
-| `theorem` | [crt_goldbach_duality_3](/verify/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-3/) | L190-L191 | formalized | `III.P43` |
-| `theorem` | [partition_m2](/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-m2/) | L198-L199 | formalized | `III.D103` |
-| `theorem` | [partition_m3](/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-m3/) | L202-L203 | formalized | `III.D103` |
-| `theorem` | [partition_m4_pos](/verify/taulib/docs/book-iii-spectral-goldbach-deep/partition-m4-pos/) | L206-L207 | formalized | `III.D103` |
-| `theorem` | [obstruction_100_p2](/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p2/) | L210-L211 | formalized | `III.D104` |
-| `theorem` | [obstruction_100_p3](/verify/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p3/) | L214-L215 | formalized | `III.D104` |
-| `eval` | [#eval L221](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l221/) | L221-L221 | computed | — |
-| `eval` | [#eval L222](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l222/) | L222-L222 | computed | — |
-| `eval` | [#eval L223](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l223/) | L223-L223 | computed | — |
-| `eval` | [#eval L224](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l224/) | L224-L224 | computed | — |
-| `eval` | [#eval L225](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l225/) | L225-L225 | computed | — |
-| `eval` | [#eval L226](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l226/) | L226-L226 | computed | — |
-| `eval` | [#eval L227](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l227/) | L227-L227 | computed | — |
-| `eval` | [#eval L228](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l228/) | L228-L228 | computed | — |
-| `eval` | [#eval L229](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l229/) | L229-L229 | computed | — |
-| `eval` | [#eval L230](/verify/taulib/docs/book-iii-spectral-goldbach-deep/eval-l230/) | L230-L232 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [goldbach_sieve_pair](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-pair/) | L52-L60 | data/computed value | data/computed value | — |
+| `def` | [goldbach_sieve_check](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-sieve-check/) | L63-L72 | data/computed value | data/computed value | `III.D102` |
+| `def` | [goldbach_partition_count_sieve](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-sieve/) | L79-L89 | data/computed value | data/computed value | `III.D103` |
+| `def` | [goldbach_partition_count_at_primorial](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-partition-count-at-primorial/) | L92-L95 | data/computed value | data/computed value | `III.D103` |
+| `def` | [partition_growth_check](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-check/) | L98-L108 | data/computed value | data/computed value | `III.T70` |
+| `def` | [goldbach_obstruction_count](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-obstruction-count/) | L117-L119 | data/computed value | data/computed value | `III.D104` |
+| `def` | [obstruction_bounded_check](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-check/) | L122-L133 | data/computed value | data/computed value | `III.T71` |
+| `def` | [crt_goldbach_local_solvable](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-local-solvable/) | L141-L154 | data/computed value | data/computed value | — |
+| `def` | [crt_goldbach_duality_check](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-check/) | L158-L167 | data/computed value | data/computed value | `III.P43` |
+| `theorem` | [goldbach_500](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-500/) | L174-L175 | proof obligation | formal proof obligation checked | `III.T68` |
+| `theorem` | [goldbach_primorial_m4](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-primorial-m4/) | L178-L179 | proof obligation | formal proof obligation checked | `III.T69` |
+| `theorem` | [partition_growth_4](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-growth-4/) | L182-L183 | proof obligation | formal proof obligation checked | `III.T70` |
+| `theorem` | [obstruction_bounded_5](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-bounded-5/) | L186-L187 | proof obligation | formal proof obligation checked | `III.T71` |
+| `theorem` | [crt_goldbach_duality_3](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/crt-goldbach-duality-3/) | L190-L191 | proof obligation | formal proof obligation checked | `III.P43` |
+| `theorem` | [partition_m2](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-m2/) | L198-L199 | proof obligation | formal proof obligation checked | `III.D103` |
+| `theorem` | [partition_m3](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-m3/) | L202-L203 | proof obligation | formal proof obligation checked | `III.D103` |
+| `theorem` | [partition_m4_pos](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/partition-m4-pos/) | L206-L207 | proof obligation | formal proof obligation checked | `III.D103` |
+| `theorem` | [obstruction_100_p2](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p2/) | L210-L211 | proof obligation | formal proof obligation checked | `III.D104` |
+| `theorem` | [obstruction_100_p3](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/obstruction-100-p3/) | L214-L215 | proof obligation | formal proof obligation checked | `III.D104` |
+| `eval` | [#eval L221](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l221/) | L221-L221 | computed check | computed check | — |
+| `eval` | [#eval L222](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l222/) | L222-L222 | computed check | computed check | — |
+| `eval` | [#eval L223](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l223/) | L223-L223 | computed check | computed check | — |
+| `eval` | [#eval L224](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l224/) | L224-L224 | computed check | computed check | — |
+| `eval` | [#eval L225](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l225/) | L225-L225 | computed check | computed check | — |
+| `eval` | [#eval L226](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l226/) | L226-L226 | computed check | computed check | — |
+| `eval` | [#eval L227](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l227/) | L227-L227 | computed check | computed check | — |
+| `eval` | [#eval L228](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l228/) | L228-L228 | computed check | computed check | — |
+| `eval` | [#eval L229](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l229/) | L229-L229 | computed check | computed check | — |
+| `eval` | [#eval L230](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/eval-l230/) | L230-L232 | computed check | computed check | — |

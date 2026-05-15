@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "signature_rigidity_uniqueness",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity-uniqueness/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity-uniqueness/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Consumer.ConsumerMixer`.",
   "declaration_id": "TauLib.BookVI.Consumer.ConsumerMixer::signature_rigidity_uniqueness",
   "declaration_slug": "signature-rigidity-uniqueness",
   "kind": "theorem",
   "name": "signature_rigidity_uniqueness",
   "module_name": "TauLib.BookVI.Consumer.ConsumerMixer",
-  "module_url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/",
+  "module_url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/",
   "source_line_start": 99,
   "source_line_end": 104,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/ConsumerMixer.lean#L99-L104",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Consumer.ConsumerMixer",
-        "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/"
+        "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Consumer.ConsumerMixer](/verify/taulib/docs/book-vi-consumer-consumer-mixer/)
+- Module: [TauLib.BookVI.Consumer.ConsumerMixer](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/)
 - Source path: [`TauLib/BookVI/Consumer/ConsumerMixer.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/ConsumerMixer.lean#L99-L104)
 - Source range: L99-L104
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

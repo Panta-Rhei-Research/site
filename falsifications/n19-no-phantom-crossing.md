@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N19 — No phantom crossing"
-permalink: "/results/falsifications/n19-no-phantom-crossing/"
+permalink: "/falsifications/n19-no-phantom-crossing/"
 lane: "results"
 falsification_id: "N19"
 n_num: 19

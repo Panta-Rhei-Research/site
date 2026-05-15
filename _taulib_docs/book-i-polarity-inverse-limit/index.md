@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Polarity.InverseLimit",
-  "permalink": "/verify/taulib/docs/book-i-polarity-inverse-limit/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-inverse-limit/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Polarity.InverseLimit`.",
   "module_name": "TauLib.BookI.Polarity.InverseLimit",
   "module_slug": "book-i-polarity-inverse-limit",
@@ -32,109 +32,133 @@
     {
       "kind": "structure",
       "name": "OmegaInverseLimit",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/omega-inverse-limit/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/omega-inverse-limit/",
       "source_line_start": 85,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "nat_to_inverse_limit",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit/",
       "source_line_start": 99,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "coeff_list",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list/",
       "source_line_start": 118,
       "source_line_end": 120,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coeff_list_length",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list-length/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list-length/",
       "source_line_start": 122,
       "source_line_end": 126,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "getD_eq_getElem'",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/get-d-eq-get-elem/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/get-d-eq-get-elem/",
       "source_line_start": 128,
       "source_line_end": 130,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coeff_list_getD",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list-get-d/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list-get-d/",
       "source_line_start": 132,
       "source_line_end": 150,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "OmegaInverseLimit.truncate",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/truncate/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/truncate/",
       "source_line_start": 154,
       "source_line_end": 156,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "OmegaInverseLimit.truncate_getD",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/truncate-get-d/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/truncate-get-d/",
       "source_line_start": 159,
       "source_line_end": 162,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "truncate_compat",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/truncate-compat/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/truncate-compat/",
       "source_line_start": 171,
       "source_line_end": 184,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nat_to_inverse_limit_truncate_components",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-truncate-components/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-truncate-components/",
       "source_line_start": 193,
       "source_line_end": 199,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "OmegaInverseLimit.ext",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/ext/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/ext/",
       "source_line_start": 208,
       "source_line_end": 215,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nat_to_inverse_limit_inj_componentwise",
-      "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-inj-componentwise/",
+      "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-inj-componentwise/",
       "source_line_start": 226,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -146,7 +170,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -216,17 +240,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [OmegaInverseLimit](/verify/taulib/docs/book-i-polarity-inverse-limit/omega-inverse-limit/) | L85-L91 | defined | — |
-| `def` | [nat_to_inverse_limit](/verify/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit/) | L99-L108 | defined | — |
-| `def` | [coeff_list](/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list/) | L118-L120 | defined | — |
-| `theorem` | [coeff_list_length](/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list-length/) | L122-L126 | formalized | — |
-| `theorem` | [getD_eq_getElem'](/verify/taulib/docs/book-i-polarity-inverse-limit/get-d-eq-get-elem/) | L128-L130 | formalized | — |
-| `theorem` | [coeff_list_getD](/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list-get-d/) | L132-L150 | formalized | — |
-| `def` | [OmegaInverseLimit.truncate](/verify/taulib/docs/book-i-polarity-inverse-limit/truncate/) | L154-L156 | defined | — |
-| `theorem` | [OmegaInverseLimit.truncate_getD](/verify/taulib/docs/book-i-polarity-inverse-limit/truncate-get-d/) | L159-L162 | formalized | — |
-| `theorem` | [truncate_compat](/verify/taulib/docs/book-i-polarity-inverse-limit/truncate-compat/) | L171-L184 | formalized | — |
-| `theorem` | [nat_to_inverse_limit_truncate_components](/verify/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-truncate-components/) | L193-L199 | formalized | — |
-| `theorem` | [OmegaInverseLimit.ext](/verify/taulib/docs/book-i-polarity-inverse-limit/ext/) | L208-L215 | formalized | — |
-| `theorem` | [nat_to_inverse_limit_inj_componentwise](/verify/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-inj-componentwise/) | L226-L233 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [OmegaInverseLimit](/corpus/taulib/docs/book-i-polarity-inverse-limit/omega-inverse-limit/) | L85-L91 | type/data schema | type/data schema | — |
+| `def` | [nat_to_inverse_limit](/corpus/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit/) | L99-L108 | definition | definition | — |
+| `def` | [coeff_list](/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list/) | L118-L120 | definition | definition | — |
+| `theorem` | [coeff_list_length](/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list-length/) | L122-L126 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [getD_eq_getElem'](/corpus/taulib/docs/book-i-polarity-inverse-limit/get-d-eq-get-elem/) | L128-L130 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coeff_list_getD](/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list-get-d/) | L132-L150 | proof obligation | formal proof obligation checked | — |
+| `def` | [OmegaInverseLimit.truncate](/corpus/taulib/docs/book-i-polarity-inverse-limit/truncate/) | L154-L156 | definition | definition | — |
+| `theorem` | [OmegaInverseLimit.truncate_getD](/corpus/taulib/docs/book-i-polarity-inverse-limit/truncate-get-d/) | L159-L162 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [truncate_compat](/corpus/taulib/docs/book-i-polarity-inverse-limit/truncate-compat/) | L171-L184 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nat_to_inverse_limit_truncate_components](/corpus/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-truncate-components/) | L193-L199 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [OmegaInverseLimit.ext](/corpus/taulib/docs/book-i-polarity-inverse-limit/ext/) | L208-L215 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nat_to_inverse_limit_inj_componentwise](/corpus/taulib/docs/book-i-polarity-inverse-limit/nat-to-inverse-limit-inj-componentwise/) | L226-L233 | proof obligation | formal proof obligation checked | — |

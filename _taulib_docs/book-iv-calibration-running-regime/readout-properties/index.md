@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "readout_properties",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-running-regime/readout-properties/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-running-regime/readout-properties/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.RunningRegime`.",
   "declaration_id": "TauLib.BookIV.Calibration.RunningRegime::readout_properties",
   "declaration_slug": "readout-properties",
   "kind": "theorem",
   "name": "readout_properties",
   "module_name": "TauLib.BookIV.Calibration.RunningRegime",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-running-regime/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-running-regime/",
   "source_line_start": 88,
   "source_line_end": 90,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/RunningRegime.lean#L88-L90",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.RunningRegime",
-        "url": "/verify/taulib/docs/book-iv-calibration-running-regime/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.RunningRegime](/verify/taulib/docs/book-iv-calibration-running-regime/)
+- Module: [TauLib.BookIV.Calibration.RunningRegime](/corpus/taulib/docs/book-iv-calibration-running-regime/)
 - Source path: [`TauLib/BookIV/Calibration/RunningRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/RunningRegime.lean#L88-L90)
 - Source range: L88-L90
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

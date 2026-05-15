@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "source_generator_match",
-  "permalink": "/verify/taulib/docs/book-vi-source-source-sector/source-generator-match/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-source-sector/source-generator-match/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Source.SourceSector`.",
   "declaration_id": "TauLib.BookVI.Source.SourceSector::source_generator_match",
   "declaration_slug": "source-generator-match",
   "kind": "theorem",
   "name": "source_generator_match",
   "module_name": "TauLib.BookVI.Source.SourceSector",
-  "module_url": "/verify/taulib/docs/book-vi-source-source-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-source-sector/",
   "source_line_start": 58,
   "source_line_end": 60,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/SourceSector.lean#L58-L60",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.SourceSector",
-        "url": "/verify/taulib/docs/book-vi-source-source-sector/"
+        "url": "/corpus/taulib/docs/book-vi-source-source-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.SourceSector](/verify/taulib/docs/book-vi-source-source-sector/)
+- Module: [TauLib.BookVI.Source.SourceSector](/corpus/taulib/docs/book-vi-source-source-sector/)
 - Source path: [`TauLib/BookVI/Source/SourceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/SourceSector.lean#L58-L60)
 - Source range: L58-L60
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

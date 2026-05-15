@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Cosmology.ThresholdLadder",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Cosmology.ThresholdLadder`.",
   "module_name": "TauLib.BookV.Cosmology.ThresholdLadder",
   "module_slug": "book-v-cosmology-threshold-ladder",
@@ -46,19 +46,23 @@
     {
       "kind": "inductive",
       "name": "ThresholdType",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/threshold-type/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/threshold-type/",
       "source_line_start": 64,
       "source_line_end": 77,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ThresholdRegimeBoundary",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/threshold-regime-boundary/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/threshold-regime-boundary/",
       "source_line_start": 84,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D158"
       ]
@@ -66,10 +70,12 @@
     {
       "kind": "structure",
       "name": "CanonicalThresholds",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/canonical-thresholds/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/canonical-thresholds/",
       "source_line_start": 103,
       "source_line_end": 122,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D159"
       ]
@@ -77,19 +83,23 @@
     {
       "kind": "def",
       "name": "canonical_ladder",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/canonical-ladder/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/canonical-ladder/",
       "source_line_start": 125,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ladder_monotonicity",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/ladder-monotonicity/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/ladder-monotonicity/",
       "source_line_start": 146,
       "source_line_end": 152,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T107"
       ]
@@ -97,10 +107,12 @@
     {
       "kind": "structure",
       "name": "NeutronThreshold",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/neutron-threshold/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/neutron-threshold/",
       "source_line_start": 166,
       "source_line_end": 173,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D160"
       ]
@@ -108,10 +120,12 @@
     {
       "kind": "structure",
       "name": "SakharovConditions",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/sakharov-conditions/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/sakharov-conditions/",
       "source_line_start": 185,
       "source_line_end": 194,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R220"
       ]
@@ -119,10 +133,12 @@
     {
       "kind": "structure",
       "name": "NucleosyntheticWindow",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthetic-window/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthetic-window/",
       "source_line_start": 205,
       "source_line_end": 214,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D161"
       ]
@@ -130,10 +146,12 @@
     {
       "kind": "structure",
       "name": "NucleosynthesisResult",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-result/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-result/",
       "source_line_start": 228,
       "source_line_end": 233,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T108"
       ]
@@ -141,28 +159,34 @@
     {
       "kind": "def",
       "name": "tau_yp",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/tau-yp/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/tau-yp/",
       "source_line_start": 236,
       "source_line_end": 238,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nucleosynthesis_from_tau",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-from-tau/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-from-tau/",
       "source_line_start": 241,
       "source_line_end": 243,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CmbOrigin",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin/",
       "source_line_start": 257,
       "source_line_end": 264,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.P92"
       ]
@@ -170,28 +194,34 @@
     {
       "kind": "def",
       "name": "observed_cmb",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/observed-cmb/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/observed-cmb/",
       "source_line_start": 267,
       "source_line_end": 270,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cmb_origin",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin-l273/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin-l273/",
       "source_line_start": 273,
       "source_line_end": 273,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MassHierarchyAtLN",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-at-ln/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-at-ln/",
       "source_line_start": 283,
       "source_line_end": 288,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R218"
       ]
@@ -199,19 +229,23 @@
     {
       "kind": "def",
       "name": "mass_hierarchy_r",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-r/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-r/",
       "source_line_start": 291,
       "source_line_end": 293,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ThresholdLadderComplete",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/threshold-ladder-complete/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/threshold-ladder-complete/",
       "source_line_start": 301,
       "source_line_end": 308,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D162"
       ]
@@ -219,19 +253,23 @@
     {
       "kind": "def",
       "name": "complete_ladder",
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/complete-ladder/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/complete-ladder/",
       "source_line_start": 311,
       "source_line_end": 314,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l332/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l332/",
       "source_line_start": 332,
       "source_line_end": 332,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R219",
         "V.R221"
@@ -240,46 +278,56 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l333/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l333/",
       "source_line_start": 333,
       "source_line_end": 333,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l334/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l334/",
       "source_line_start": 334,
       "source_line_end": 334,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l335/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l335/",
       "source_line_start": 335,
       "source_line_end": 335,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l336/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l336/",
       "source_line_start": 336,
       "source_line_end": 336,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l337/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l337/",
       "source_line_start": 337,
       "source_line_end": 339,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -291,7 +339,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -375,29 +423,29 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [ThresholdType](/verify/taulib/docs/book-v-cosmology-threshold-ladder/threshold-type/) | L64-L77 | defined | — |
-| `structure` | [ThresholdRegimeBoundary](/verify/taulib/docs/book-v-cosmology-threshold-ladder/threshold-regime-boundary/) | L84-L95 | defined | `V.D158` |
-| `structure` | [CanonicalThresholds](/verify/taulib/docs/book-v-cosmology-threshold-ladder/canonical-thresholds/) | L103-L122 | defined | `V.D159` |
-| `def` | [canonical_ladder](/verify/taulib/docs/book-v-cosmology-threshold-ladder/canonical-ladder/) | L125-L138 | defined | — |
-| `theorem` | [ladder_monotonicity](/verify/taulib/docs/book-v-cosmology-threshold-ladder/ladder-monotonicity/) | L146-L152 | formalized | `V.T107` |
-| `structure` | [NeutronThreshold](/verify/taulib/docs/book-v-cosmology-threshold-ladder/neutron-threshold/) | L166-L173 | defined | `V.D160` |
-| `structure` | [SakharovConditions](/verify/taulib/docs/book-v-cosmology-threshold-ladder/sakharov-conditions/) | L185-L194 | defined | `V.R220` |
-| `structure` | [NucleosyntheticWindow](/verify/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthetic-window/) | L205-L214 | defined | `V.D161` |
-| `structure` | [NucleosynthesisResult](/verify/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-result/) | L228-L233 | defined | `V.T108` |
-| `def` | [tau_yp](/verify/taulib/docs/book-v-cosmology-threshold-ladder/tau-yp/) | L236-L238 | defined | — |
-| `theorem` | [nucleosynthesis_from_tau](/verify/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-from-tau/) | L241-L243 | formalized | — |
-| `structure` | [CmbOrigin](/verify/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin/) | L257-L264 | defined | `V.P92` |
-| `def` | [observed_cmb](/verify/taulib/docs/book-v-cosmology-threshold-ladder/observed-cmb/) | L267-L270 | defined | — |
-| `theorem` | [cmb_origin](/verify/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin-l273/) | L273-L273 | formalized | — |
-| `structure` | [MassHierarchyAtLN](/verify/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-at-ln/) | L283-L288 | defined | `V.R218` |
-| `def` | [mass_hierarchy_r](/verify/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-r/) | L291-L293 | defined | — |
-| `structure` | [ThresholdLadderComplete](/verify/taulib/docs/book-v-cosmology-threshold-ladder/threshold-ladder-complete/) | L301-L308 | defined | `V.D162` |
-| `def` | [complete_ladder](/verify/taulib/docs/book-v-cosmology-threshold-ladder/complete-ladder/) | L311-L314 | defined | — |
-| `eval` | [#eval L332](/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l332/) | L332-L332 | computed | `V.R219`, `V.R221` |
-| `eval` | [#eval L333](/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l333/) | L333-L333 | computed | — |
-| `eval` | [#eval L334](/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l334/) | L334-L334 | computed | — |
-| `eval` | [#eval L335](/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l335/) | L335-L335 | computed | — |
-| `eval` | [#eval L336](/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l336/) | L336-L336 | computed | — |
-| `eval` | [#eval L337](/verify/taulib/docs/book-v-cosmology-threshold-ladder/eval-l337/) | L337-L339 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [ThresholdType](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/threshold-type/) | L64-L77 | type/data schema | type/data schema | — |
+| `structure` | [ThresholdRegimeBoundary](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/threshold-regime-boundary/) | L84-L95 | type/data schema | type/data schema | `V.D158` |
+| `structure` | [CanonicalThresholds](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/canonical-thresholds/) | L103-L122 | type/data schema | type/data schema | `V.D159` |
+| `def` | [canonical_ladder](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/canonical-ladder/) | L125-L138 | definition | definition | — |
+| `theorem` | [ladder_monotonicity](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/ladder-monotonicity/) | L146-L152 | proof obligation | formal proof obligation checked | `V.T107` |
+| `structure` | [NeutronThreshold](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/neutron-threshold/) | L166-L173 | type/data schema | type/data schema | `V.D160` |
+| `structure` | [SakharovConditions](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/sakharov-conditions/) | L185-L194 | type/data schema | type/data schema | `V.R220` |
+| `structure` | [NucleosyntheticWindow](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthetic-window/) | L205-L214 | type/data schema | type/data schema | `V.D161` |
+| `structure` | [NucleosynthesisResult](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-result/) | L228-L233 | type/data schema | type/data schema | `V.T108` |
+| `def` | [tau_yp](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/tau-yp/) | L236-L238 | definition | definition | — |
+| `theorem` | [nucleosynthesis_from_tau](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/nucleosynthesis-from-tau/) | L241-L243 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CmbOrigin](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin/) | L257-L264 | type/data schema | type/data schema | `V.P92` |
+| `def` | [observed_cmb](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/observed-cmb/) | L267-L270 | definition | definition | — |
+| `theorem` | [cmb_origin](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/cmb-origin-l273/) | L273-L273 | proof obligation | formal proof obligation checked | — |
+| `structure` | [MassHierarchyAtLN](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-at-ln/) | L283-L288 | type/data schema | type/data schema | `V.R218` |
+| `def` | [mass_hierarchy_r](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/mass-hierarchy-r/) | L291-L293 | definition | definition | — |
+| `structure` | [ThresholdLadderComplete](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/threshold-ladder-complete/) | L301-L308 | type/data schema | type/data schema | `V.D162` |
+| `def` | [complete_ladder](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/complete-ladder/) | L311-L314 | definition | definition | — |
+| `eval` | [#eval L332](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l332/) | L332-L332 | computed check | computed check | `V.R219`, `V.R221` |
+| `eval` | [#eval L333](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l333/) | L333-L333 | computed check | computed check | — |
+| `eval` | [#eval L334](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l334/) | L334-L334 | computed check | computed check | — |
+| `eval` | [#eval L335](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l335/) | L335-L335 | computed check | computed check | — |
+| `eval` | [#eval L336](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l336/) | L336-L336 | computed check | computed check | — |
+| `eval` | [#eval L337](/corpus/taulib/docs/book-v-cosmology-threshold-ladder/eval-l337/) | L337-L339 | computed check | computed check | — |

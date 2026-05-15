@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "c3_defect_contractivity",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-fluid-regimes/c3-defect-contractivity/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-fluid-regimes/c3-defect-contractivity/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.ManyBody.FluidRegimes`.",
   "declaration_id": "TauLib.BookIV.ManyBody.FluidRegimes::c3_defect_contractivity",
   "declaration_slug": "c3-defect-contractivity",
   "kind": "theorem",
   "name": "c3_defect_contractivity",
   "module_name": "TauLib.BookIV.ManyBody.FluidRegimes",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-fluid-regimes/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-fluid-regimes/",
   "source_line_start": 477,
   "source_line_end": 481,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/FluidRegimes.lean#L477-L481",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.FluidRegimes",
-        "url": "/verify/taulib/docs/book-iv-many-body-fluid-regimes/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-fluid-regimes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.FluidRegimes](/verify/taulib/docs/book-iv-many-body-fluid-regimes/)
+- Module: [TauLib.BookIV.ManyBody.FluidRegimes](/corpus/taulib/docs/book-iv-many-body-fluid-regimes/)
 - Source path: [`TauLib/BookIV/ManyBody/FluidRegimes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/FluidRegimes.lean#L477-L481)
 - Source range: L477-L481
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

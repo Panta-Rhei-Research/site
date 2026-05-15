@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "prime_independence_check",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-crt/prime-independence-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-crt/prime-independence-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.CRT`.",
   "declaration_id": "TauLib.BookIII.Spectral.CRT::prime_independence_check",
   "declaration_slug": "prime-independence-check",
   "kind": "def",
   "name": "prime_independence_check",
   "module_name": "TauLib.BookIII.Spectral.CRT",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-crt/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-crt/",
   "source_line_start": 169,
   "source_line_end": 195,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/CRT.lean#L169-L195",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.CRT",
-        "url": "/verify/taulib/docs/book-iii-spectral-crt/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-crt/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.CRT](/verify/taulib/docs/book-iii-spectral-crt/)
+- Module: [TauLib.BookIII.Spectral.CRT](/corpus/taulib/docs/book-iii-spectral-crt/)
 - Source path: [`TauLib/BookIII/Spectral/CRT.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/CRT.lean#L169-L195)
 - Source range: L169-L195
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

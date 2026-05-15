@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Arithmetic.TowerAssembly",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Arithmetic.TowerAssembly`.",
   "module_name": "TauLib.BookIII.Arithmetic.TowerAssembly",
   "module_slug": "book-iii-arithmetic-tower-assembly",
@@ -33,10 +33,12 @@
     {
       "kind": "def",
       "name": "tower_strict_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict-check/",
       "source_line_start": 39,
       "source_line_end": 43,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T40"
       ]
@@ -44,10 +46,12 @@
     {
       "kind": "def",
       "name": "millennium_coverage_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage-check/",
       "source_line_start": 46,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T40"
       ]
@@ -55,10 +59,12 @@
     {
       "kind": "def",
       "name": "scaling_chain_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-check/",
       "source_line_start": 60,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T40"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "def",
       "name": "tower_assembly_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-check/",
       "source_line_start": 98,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T40"
       ]
@@ -77,82 +85,100 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l107/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l107/",
       "source_line_start": 107,
       "source_line_end": 107,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l108/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l108/",
       "source_line_start": 108,
       "source_line_end": 108,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l109/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l109/",
       "source_line_start": 109,
       "source_line_end": 109,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l110/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l110/",
       "source_line_start": 110,
       "source_line_end": 110,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tower_strict",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict/",
       "source_line_start": 116,
       "source_line_end": 117,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "millennium_coverage",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage/",
       "source_line_start": 119,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "scaling_chain_15_3",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-15-3/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-15-3/",
       "source_line_start": 122,
       "source_line_end": 123,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tower_assembly_15_3",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-15-3/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-15-3/",
       "source_line_start": 125,
       "source_line_end": 126,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "e0_lt_e1",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/e0-lt-e1/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/e0-lt-e1/",
       "source_line_start": 133,
       "source_line_end": 133,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T40"
       ]
@@ -160,10 +186,12 @@
     {
       "kind": "theorem",
       "name": "e1_lt_e2",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/e1-lt-e2/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/e1-lt-e2/",
       "source_line_start": 136,
       "source_line_end": 136,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T40"
       ]
@@ -171,10 +199,12 @@
     {
       "kind": "theorem",
       "name": "e2_lt_e3",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/e2-lt-e3/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/e2-lt-e3/",
       "source_line_start": 139,
       "source_line_end": 139,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T40"
       ]
@@ -182,10 +212,12 @@
     {
       "kind": "theorem",
       "name": "eight_problems",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eight-problems/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eight-problems/",
       "source_line_start": 142,
       "source_line_end": 148,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T40"
       ]
@@ -199,7 +231,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -270,21 +302,21 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [tower_strict_check](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict-check/) | L39-L43 | defined | `III.T40` |
-| `def` | [millennium_coverage_check](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage-check/) | L46-L56 | defined | `III.T40` |
-| `def` | [scaling_chain_check](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-check/) | L60-L94 | defined | `III.T40` |
-| `def` | [tower_assembly_check](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-check/) | L98-L101 | defined | `III.T40` |
-| `eval` | [#eval L107](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l107/) | L107-L107 | computed | — |
-| `eval` | [#eval L108](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l108/) | L108-L108 | computed | — |
-| `eval` | [#eval L109](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l109/) | L109-L109 | computed | — |
-| `eval` | [#eval L110](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l110/) | L110-L110 | computed | — |
-| `theorem` | [tower_strict](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict/) | L116-L117 | formalized | — |
-| `theorem` | [millennium_coverage](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage/) | L119-L120 | formalized | — |
-| `theorem` | [scaling_chain_15_3](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-15-3/) | L122-L123 | formalized | — |
-| `theorem` | [tower_assembly_15_3](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-15-3/) | L125-L126 | formalized | — |
-| `theorem` | [e0_lt_e1](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/e0-lt-e1/) | L133-L133 | formalized | `III.T40` |
-| `theorem` | [e1_lt_e2](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/e1-lt-e2/) | L136-L136 | formalized | `III.T40` |
-| `theorem` | [e2_lt_e3](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/e2-lt-e3/) | L139-L139 | formalized | `III.T40` |
-| `theorem` | [eight_problems](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/eight-problems/) | L142-L148 | formalized | `III.T40` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [tower_strict_check](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict-check/) | L39-L43 | data/computed value | data/computed value | `III.T40` |
+| `def` | [millennium_coverage_check](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage-check/) | L46-L56 | data/computed value | data/computed value | `III.T40` |
+| `def` | [scaling_chain_check](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-check/) | L60-L94 | data/computed value | data/computed value | `III.T40` |
+| `def` | [tower_assembly_check](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-check/) | L98-L101 | data/computed value | data/computed value | `III.T40` |
+| `eval` | [#eval L107](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l107/) | L107-L107 | computed check | computed check | — |
+| `eval` | [#eval L108](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l108/) | L108-L108 | computed check | computed check | — |
+| `eval` | [#eval L109](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l109/) | L109-L109 | computed check | computed check | — |
+| `eval` | [#eval L110](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eval-l110/) | L110-L110 | computed check | computed check | — |
+| `theorem` | [tower_strict](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-strict/) | L116-L117 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [millennium_coverage](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/millennium-coverage/) | L119-L120 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [scaling_chain_15_3](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/scaling-chain-15-3/) | L122-L123 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tower_assembly_15_3](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/tower-assembly-15-3/) | L125-L126 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [e0_lt_e1](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/e0-lt-e1/) | L133-L133 | proof obligation | formal proof obligation checked | `III.T40` |
+| `theorem` | [e1_lt_e2](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/e1-lt-e2/) | L136-L136 | proof obligation | formal proof obligation checked | `III.T40` |
+| `theorem` | [e2_lt_e3](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/e2-lt-e3/) | L139-L139 | proof obligation | formal proof obligation checked | `III.T40` |
+| `theorem` | [eight_problems](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/eight-problems/) | L142-L148 | proof obligation | formal proof obligation checked | `III.T40` |

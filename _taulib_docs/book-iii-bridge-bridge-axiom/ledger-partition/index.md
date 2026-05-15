@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ledger_partition",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/ledger-partition/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/ledger-partition/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Bridge.BridgeAxiom`.",
   "declaration_id": "TauLib.BookIII.Bridge.BridgeAxiom::ledger_partition",
   "declaration_slug": "ledger-partition",
   "kind": "theorem",
   "name": "ledger_partition",
   "module_name": "TauLib.BookIII.Bridge.BridgeAxiom",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/",
   "source_line_start": 402,
   "source_line_end": 408,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/BridgeAxiom.lean#L402-L408",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.BridgeAxiom",
-        "url": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.BridgeAxiom](/verify/taulib/docs/book-iii-bridge-bridge-axiom/)
+- Module: [TauLib.BookIII.Bridge.BridgeAxiom](/corpus/taulib/docs/book-iii-bridge-bridge-axiom/)
 - Source path: [`TauLib/BookIII/Bridge/BridgeAxiom.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/BridgeAxiom.lean#L402-L408)
 - Source range: L402-L408
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

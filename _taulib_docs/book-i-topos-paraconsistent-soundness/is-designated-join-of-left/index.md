@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "isDesignated_join_of_left",
-  "permalink": "/verify/taulib/docs/book-i-topos-paraconsistent-soundness/is-designated-join-of-left/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/is-designated-join-of-left/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.ParaconsistentSoundness`.",
   "declaration_id": "TauLib.BookI.Topos.ParaconsistentSoundness::isDesignated_join_of_left",
   "declaration_slug": "is-designated-join-of-left",
   "kind": "theorem",
   "name": "isDesignated_join_of_left",
   "module_name": "TauLib.BookI.Topos.ParaconsistentSoundness",
-  "module_url": "/verify/taulib/docs/book-i-topos-paraconsistent-soundness/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/",
   "source_line_start": 212,
   "source_line_end": 214,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/ParaconsistentSoundness.lean#L212-L214",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.ParaconsistentSoundness",
-        "url": "/verify/taulib/docs/book-i-topos-paraconsistent-soundness/"
+        "url": "/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.ParaconsistentSoundness](/verify/taulib/docs/book-i-topos-paraconsistent-soundness/)
+- Module: [TauLib.BookI.Topos.ParaconsistentSoundness](/corpus/taulib/docs/book-i-topos-paraconsistent-soundness/)
 - Source path: [`TauLib/BookI/Topos/ParaconsistentSoundness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/ParaconsistentSoundness.lean#L212-L214)
 - Source range: L212-L214
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

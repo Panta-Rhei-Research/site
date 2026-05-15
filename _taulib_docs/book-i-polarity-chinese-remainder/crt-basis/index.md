@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "crt_basis",
-  "permalink": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-basis/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-basis/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.ChineseRemainder`.",
   "declaration_id": "TauLib.BookI.Polarity.ChineseRemainder::crt_basis",
   "declaration_slug": "crt-basis",
   "kind": "def",
   "name": "crt_basis",
   "module_name": "TauLib.BookI.Polarity.ChineseRemainder",
-  "module_url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/",
   "source_line_start": 102,
   "source_line_end": 106,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ChineseRemainder.lean#L102-L106",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.ChineseRemainder",
-        "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/"
+        "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.ChineseRemainder](/verify/taulib/docs/book-i-polarity-chinese-remainder/)
+- Module: [TauLib.BookI.Polarity.ChineseRemainder](/corpus/taulib/docs/book-i-polarity-chinese-remainder/)
 - Source path: [`TauLib/BookI/Polarity/ChineseRemainder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ChineseRemainder.lean#L102-L106)
 - Source range: L102-L106
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

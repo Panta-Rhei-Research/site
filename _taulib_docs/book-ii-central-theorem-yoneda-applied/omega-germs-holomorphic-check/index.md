@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_germs_holomorphic_check",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-yoneda-applied/omega-germs-holomorphic-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-yoneda-applied/omega-germs-holomorphic-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.CentralTheorem.YonedaApplied`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.YonedaApplied::omega_germs_holomorphic_check",
   "declaration_slug": "omega-germs-holomorphic-check",
   "kind": "def",
   "name": "omega_germs_holomorphic_check",
   "module_name": "TauLib.BookII.CentralTheorem.YonedaApplied",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-yoneda-applied/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-yoneda-applied/",
   "source_line_start": 132,
   "source_line_end": 162,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/YonedaApplied.lean#L132-L162",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.YonedaApplied",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-yoneda-applied/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-yoneda-applied/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.YonedaApplied](/verify/taulib/docs/book-ii-central-theorem-yoneda-applied/)
+- Module: [TauLib.BookII.CentralTheorem.YonedaApplied](/corpus/taulib/docs/book-ii-central-theorem-yoneda-applied/)
 - Source path: [`TauLib/BookII/CentralTheorem/YonedaApplied.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/YonedaApplied.lean#L132-L162)
 - Source range: L132-L162
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

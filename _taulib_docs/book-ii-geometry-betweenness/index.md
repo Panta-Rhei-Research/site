@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Geometry.Betweenness",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-betweenness/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-betweenness/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Geometry.Betweenness`.",
   "module_name": "TauLib.BookII.Geometry.Betweenness",
   "module_slug": "book-ii-geometry-betweenness",
@@ -33,10 +33,12 @@
     {
       "kind": "def",
       "name": "between",
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/between/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/between/",
       "source_line_start": 38,
       "source_line_end": 42,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D19"
       ]
@@ -44,109 +46,133 @@
     {
       "kind": "def",
       "name": "between_identity_check",
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/between-identity-check/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/between-identity-check/",
       "source_line_start": 51,
       "source_line_end": 61,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "between_connectivity_check",
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/between-connectivity-check/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/between-connectivity-check/",
       "source_line_start": 66,
       "source_line_end": 77,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "between_transitivity_check",
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/between-transitivity-check/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/between-transitivity-check/",
       "source_line_start": 83,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/eval-l102/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l102/",
       "source_line_start": 102,
       "source_line_end": 102,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/eval-l104/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l104/",
       "source_line_start": 104,
       "source_line_end": 104,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/eval-l106/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l106/",
       "source_line_start": 106,
       "source_line_end": 106,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/eval-l109/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l109/",
       "source_line_start": 109,
       "source_line_end": 109,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/eval-l110/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l110/",
       "source_line_start": 110,
       "source_line_end": 110,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/eval-l111/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l111/",
       "source_line_start": 111,
       "source_line_end": 111,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "identity_10",
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/identity-10/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/identity-10/",
       "source_line_start": 114,
       "source_line_end": 114,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "connectivity_8",
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/connectivity-8/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/connectivity-8/",
       "source_line_start": 115,
       "source_line_end": 115,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "transitivity_6",
-      "url": "/verify/taulib/docs/book-ii-geometry-betweenness/transitivity-6/",
+      "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/transitivity-6/",
       "source_line_start": 116,
       "source_line_end": 118,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -158,7 +184,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -229,18 +255,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [between](/verify/taulib/docs/book-ii-geometry-betweenness/between/) | L38-L42 | defined | `II.D19` |
-| `def` | [between_identity_check](/verify/taulib/docs/book-ii-geometry-betweenness/between-identity-check/) | L51-L61 | defined | — |
-| `def` | [between_connectivity_check](/verify/taulib/docs/book-ii-geometry-betweenness/between-connectivity-check/) | L66-L77 | defined | — |
-| `def` | [between_transitivity_check](/verify/taulib/docs/book-ii-geometry-betweenness/between-transitivity-check/) | L83-L95 | defined | — |
-| `eval` | [#eval L102](/verify/taulib/docs/book-ii-geometry-betweenness/eval-l102/) | L102-L102 | computed | — |
-| `eval` | [#eval L104](/verify/taulib/docs/book-ii-geometry-betweenness/eval-l104/) | L104-L104 | computed | — |
-| `eval` | [#eval L106](/verify/taulib/docs/book-ii-geometry-betweenness/eval-l106/) | L106-L106 | computed | — |
-| `eval` | [#eval L109](/verify/taulib/docs/book-ii-geometry-betweenness/eval-l109/) | L109-L109 | computed | — |
-| `eval` | [#eval L110](/verify/taulib/docs/book-ii-geometry-betweenness/eval-l110/) | L110-L110 | computed | — |
-| `eval` | [#eval L111](/verify/taulib/docs/book-ii-geometry-betweenness/eval-l111/) | L111-L111 | computed | — |
-| `theorem` | [identity_10](/verify/taulib/docs/book-ii-geometry-betweenness/identity-10/) | L114-L114 | formalized | — |
-| `theorem` | [connectivity_8](/verify/taulib/docs/book-ii-geometry-betweenness/connectivity-8/) | L115-L115 | formalized | — |
-| `theorem` | [transitivity_6](/verify/taulib/docs/book-ii-geometry-betweenness/transitivity-6/) | L116-L118 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [between](/corpus/taulib/docs/book-ii-geometry-betweenness/between/) | L38-L42 | data/computed value | data/computed value | `II.D19` |
+| `def` | [between_identity_check](/corpus/taulib/docs/book-ii-geometry-betweenness/between-identity-check/) | L51-L61 | data/computed value | data/computed value | — |
+| `def` | [between_connectivity_check](/corpus/taulib/docs/book-ii-geometry-betweenness/between-connectivity-check/) | L66-L77 | data/computed value | data/computed value | — |
+| `def` | [between_transitivity_check](/corpus/taulib/docs/book-ii-geometry-betweenness/between-transitivity-check/) | L83-L95 | data/computed value | data/computed value | — |
+| `eval` | [#eval L102](/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l102/) | L102-L102 | computed check | computed check | — |
+| `eval` | [#eval L104](/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l104/) | L104-L104 | computed check | computed check | — |
+| `eval` | [#eval L106](/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l106/) | L106-L106 | computed check | computed check | — |
+| `eval` | [#eval L109](/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l109/) | L109-L109 | computed check | computed check | — |
+| `eval` | [#eval L110](/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l110/) | L110-L110 | computed check | computed check | — |
+| `eval` | [#eval L111](/corpus/taulib/docs/book-ii-geometry-betweenness/eval-l111/) | L111-L111 | computed check | computed check | — |
+| `theorem` | [identity_10](/corpus/taulib/docs/book-ii-geometry-betweenness/identity-10/) | L114-L114 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [connectivity_8](/corpus/taulib/docs/book-ii-geometry-betweenness/connectivity-8/) | L115-L115 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [transitivity_6](/corpus/taulib/docs/book-ii-geometry-betweenness/transitivity-6/) | L116-L118 | proof obligation | formal proof obligation checked | — |

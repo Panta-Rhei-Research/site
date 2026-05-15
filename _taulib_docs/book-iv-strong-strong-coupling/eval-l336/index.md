@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L336",
-  "permalink": "/verify/taulib/docs/book-iv-strong-strong-coupling/eval-l336/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-strong-coupling/eval-l336/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Strong.StrongCoupling`.",
   "declaration_id": "TauLib.BookIV.Strong.StrongCoupling::#eval:336",
   "declaration_slug": "eval-l336",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Strong.StrongCoupling",
-  "module_url": "/verify/taulib/docs/book-iv-strong-strong-coupling/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-strong-coupling/",
   "source_line_start": 336,
   "source_line_end": 336,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/StrongCoupling.lean#L336-L336",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.StrongCoupling",
-        "url": "/verify/taulib/docs/book-iv-strong-strong-coupling/"
+        "url": "/corpus/taulib/docs/book-iv-strong-strong-coupling/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.StrongCoupling](/verify/taulib/docs/book-iv-strong-strong-coupling/)
+- Module: [TauLib.BookIV.Strong.StrongCoupling](/corpus/taulib/docs/book-iv-strong-strong-coupling/)
 - Source path: [`TauLib/BookIV/Strong/StrongCoupling.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/StrongCoupling.lean#L336-L336)
 - Source range: L336-L336
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

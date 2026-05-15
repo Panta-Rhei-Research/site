@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "galois_order_check_1",
-  "permalink": "/verify/taulib/docs/book-i-boundary-galois/galois-order-check-1/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-galois/galois-order-check-1/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Galois`.",
   "declaration_id": "TauLib.BookI.Boundary.Galois::galois_order_check_1",
   "declaration_slug": "galois-order-check-1",
   "kind": "theorem",
   "name": "galois_order_check_1",
   "module_name": "TauLib.BookI.Boundary.Galois",
-  "module_url": "/verify/taulib/docs/book-i-boundary-galois/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-galois/",
   "source_line_start": 233,
   "source_line_end": 234,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Galois.lean#L233-L234",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Galois",
-        "url": "/verify/taulib/docs/book-i-boundary-galois/"
+        "url": "/corpus/taulib/docs/book-i-boundary-galois/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Galois](/verify/taulib/docs/book-i-boundary-galois/)
+- Module: [TauLib.BookI.Boundary.Galois](/corpus/taulib/docs/book-i-boundary-galois/)
 - Source path: [`TauLib/BookI/Boundary/Galois.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Galois.lean#L233-L234)
 - Source range: L233-L234
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

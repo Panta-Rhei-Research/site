@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "timescale_half_life_def",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-persistence-sector/timescale-half-life-def/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/timescale-half-life-def/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Persistence.PersistenceSector`.",
   "declaration_id": "TauLib.BookVI.Persistence.PersistenceSector::timescale_half_life_def",
   "declaration_slug": "timescale-half-life-def",
   "kind": "def",
   "name": "timescale_half_life_def",
   "module_name": "TauLib.BookVI.Persistence.PersistenceSector",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/",
   "source_line_start": 392,
   "source_line_end": 392,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L392-L392",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.PersistenceSector",
-        "url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.PersistenceSector](/verify/taulib/docs/book-vi-persistence-persistence-sector/)
+- Module: [TauLib.BookVI.Persistence.PersistenceSector](/corpus/taulib/docs/book-vi-persistence-persistence-sector/)
 - Source path: [`TauLib/BookVI/Persistence/PersistenceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L392-L392)
 - Source range: L392-L392
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealMulCongr",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-mul-congr/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-mul-congr/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealMulCongr`.",
   "module_name": "TauLib.BookI.Boundary.TauRealMulCongr",
   "module_slug": "book-i-boundary-tau-real-mul-congr",
@@ -37,10 +37,12 @@
     {
       "kind": "theorem",
       "name": "TauReal.mul_respects_equiv_right_of_bound",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-mul-congr/mul-respects-equiv-right-of-bound/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-mul-congr/mul-respects-equiv-right-of-bound/",
       "source_line_start": 73,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -52,7 +54,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -126,6 +128,6 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [TauReal.mul_respects_equiv_right_of_bound](/verify/taulib/docs/book-i-boundary-tau-real-mul-congr/mul-respects-equiv-right-of-bound/) | L73-L179 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [TauReal.mul_respects_equiv_right_of_bound](/corpus/taulib/docs/book-i-boundary-tau-real-mul-congr/mul-respects-equiv-right-of-bound/) | L73-L179 | proof obligation | formal proof obligation checked | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.ofNatRecip_pos",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-pos/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-pos/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRatAbs`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatAbs::TauRat.ofNatRecip_pos",
   "declaration_slug": "of-nat-recip-pos",
   "kind": "theorem",
   "name": "TauRat.ofNatRecip_pos",
   "module_name": "TauLib.BookI.Boundary.TauRatAbs",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/",
   "source_line_start": 211,
   "source_line_end": 219,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatAbs.lean#L211-L219",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatAbs",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatAbs](/verify/taulib/docs/book-i-boundary-tau-rat-abs/)
+- Module: [TauLib.BookI.Boundary.TauRatAbs](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/)
 - Source path: [`TauLib/BookI/Boundary/TauRatAbs.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatAbs.lean#L211-L219)
 - Source range: L211-L219
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

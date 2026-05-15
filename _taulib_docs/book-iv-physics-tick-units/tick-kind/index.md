@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TickKind",
-  "permalink": "/verify/taulib/docs/book-iv-physics-tick-units/tick-kind/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-tick-units/tick-kind/",
   "summary_short": "`inductive` declaration in `TauLib.BookIV.Physics.TickUnits`.",
   "declaration_id": "TauLib.BookIV.Physics.TickUnits::TickKind",
   "declaration_slug": "tick-kind",
   "kind": "inductive",
   "name": "TickKind",
   "module_name": "TauLib.BookIV.Physics.TickUnits",
-  "module_url": "/verify/taulib/docs/book-iv-physics-tick-units/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-tick-units/",
   "source_line_start": 54,
   "source_line_end": 70,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/TickUnits.lean#L54-L70",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.TickUnits",
-        "url": "/verify/taulib/docs/book-iv-physics-tick-units/"
+        "url": "/corpus/taulib/docs/book-iv-physics-tick-units/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.TickUnits](/verify/taulib/docs/book-iv-physics-tick-units/)
+- Module: [TauLib.BookIV.Physics.TickUnits](/corpus/taulib/docs/book-iv-physics-tick-units/)
 - Source path: [`TauLib/BookIV/Physics/TickUnits.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/TickUnits.lean#L54-L70)
 - Source range: L54-L70
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "wave_laplace",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/wave-laplace/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/wave-laplace/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Transcendentals.JReplacesI`.",
   "declaration_id": "TauLib.BookII.Transcendentals.JReplacesI::wave_laplace",
   "declaration_slug": "wave-laplace",
   "kind": "theorem",
   "name": "wave_laplace",
   "module_name": "TauLib.BookII.Transcendentals.JReplacesI",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/",
   "source_line_start": 177,
   "source_line_end": 177,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/JReplacesI.lean#L177-L177",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.JReplacesI",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.JReplacesI](/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/)
+- Module: [TauLib.BookII.Transcendentals.JReplacesI](/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/)
 - Source path: [`TauLib/BookII/Transcendentals/JReplacesI.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/JReplacesI.lean#L177-L177)
 - Source range: L177-L177
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

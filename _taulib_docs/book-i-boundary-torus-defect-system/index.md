@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TorusDefectSystem",
-  "permalink": "/verify/taulib/docs/book-i-boundary-torus-defect-system/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TorusDefectSystem`.",
   "module_name": "TauLib.BookI.Boundary.TorusDefectSystem",
   "module_slug": "book-i-boundary-torus-defect-system",
@@ -33,163 +33,199 @@
     {
       "kind": "inductive",
       "name": "TorusDefect",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-defect/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-defect/",
       "source_line_start": 141,
       "source_line_end": 145,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TorusDefect.sigmaSwap",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap/",
       "source_line_start": 152,
       "source_line_end": 164,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusDefect.sigmaSwap_involutive",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap-involutive/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap-involutive/",
       "source_line_start": 167,
       "source_line_end": 169,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusDefect.sigma_fixed_iff_crossing",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-iff-crossing/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-iff-crossing/",
       "source_line_start": 177,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TorusDefectSystem",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-defect-system/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-defect-system/",
       "source_line_start": 191,
       "source_line_end": 196,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TorusDefectSystem.crossingThread",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread/",
       "source_line_start": 206,
       "source_line_end": 210,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusDefectSystem.sigma_fixed_thread_pointwise_crossing",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-pointwise-crossing/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-pointwise-crossing/",
       "source_line_start": 222,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "DefectInverseSystem.SigmaFixedThread.ext",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/ext/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/ext/",
       "source_line_start": 236,
       "source_line_end": 244,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusDefectSystem.sigma_fixed_thread_is_crossing",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-is-crossing/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-is-crossing/",
       "source_line_start": 252,
       "source_line_end": 258,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "torusAnchor",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-anchor/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-anchor/",
       "source_line_start": 266,
       "source_line_end": 267,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "torusMwd",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-mwd/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-mwd/",
       "source_line_start": 273,
       "source_line_end": 275,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "torusSingletonUniqueness",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-singleton-uniqueness/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-singleton-uniqueness/",
       "source_line_start": 283,
       "source_line_end": 289,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusDefectSystem.crossingThread_is_crossingPoint",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread-is-crossing-point/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread-is-crossing-point/",
       "source_line_start": 296,
       "source_line_end": 303,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TorusIdentity",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-identity/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-identity/",
       "source_line_start": 311,
       "source_line_end": 313,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TorusIdentityFull",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-identity-full/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-identity-full/",
       "source_line_start": 317,
       "source_line_end": 326,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusIdentity.universal_fixed_unconditional",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-unconditional/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-unconditional/",
       "source_line_start": 344,
       "source_line_end": 348,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusIdentity.universal_fixed_scalar_unconditional",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-scalar-unconditional/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-scalar-unconditional/",
       "source_line_start": 353,
       "source_line_end": 361,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TorusIdentity.fixes_crossing_thread",
-      "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/fixes-crossing-thread/",
+      "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/fixes-crossing-thread/",
       "source_line_start": 370,
       "source_line_end": 378,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -201,7 +237,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -269,23 +305,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [TorusDefect](/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-defect/) | L141-L145 | defined | — |
-| `def` | [TorusDefect.sigmaSwap](/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap/) | L152-L164 | defined | — |
-| `theorem` | [TorusDefect.sigmaSwap_involutive](/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap-involutive/) | L167-L169 | formalized | — |
-| `theorem` | [TorusDefect.sigma_fixed_iff_crossing](/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-iff-crossing/) | L177-L179 | formalized | — |
-| `def` | [TorusDefectSystem](/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-defect-system/) | L191-L196 | defined | — |
-| `def` | [TorusDefectSystem.crossingThread](/verify/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread/) | L206-L210 | defined | — |
-| `theorem` | [TorusDefectSystem.sigma_fixed_thread_pointwise_crossing](/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-pointwise-crossing/) | L222-L227 | formalized | — |
-| `theorem` | [DefectInverseSystem.SigmaFixedThread.ext](/verify/taulib/docs/book-i-boundary-torus-defect-system/ext/) | L236-L244 | formalized | — |
-| `theorem` | [TorusDefectSystem.sigma_fixed_thread_is_crossing](/verify/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-is-crossing/) | L252-L258 | formalized | — |
-| `def` | [torusAnchor](/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-anchor/) | L266-L267 | defined | — |
-| `def` | [torusMwd](/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-mwd/) | L273-L275 | defined | — |
-| `theorem` | [torusSingletonUniqueness](/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-singleton-uniqueness/) | L283-L289 | formalized | — |
-| `theorem` | [TorusDefectSystem.crossingThread_is_crossingPoint](/verify/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread-is-crossing-point/) | L296-L303 | formalized | — |
-| `def` | [TorusIdentity](/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-identity/) | L311-L313 | defined | — |
-| `def` | [TorusIdentityFull](/verify/taulib/docs/book-i-boundary-torus-defect-system/torus-identity-full/) | L317-L326 | defined | — |
-| `theorem` | [TorusIdentity.universal_fixed_unconditional](/verify/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-unconditional/) | L344-L348 | formalized | — |
-| `theorem` | [TorusIdentity.universal_fixed_scalar_unconditional](/verify/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-scalar-unconditional/) | L353-L361 | formalized | — |
-| `theorem` | [TorusIdentity.fixes_crossing_thread](/verify/taulib/docs/book-i-boundary-torus-defect-system/fixes-crossing-thread/) | L370-L378 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [TorusDefect](/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-defect/) | L141-L145 | type/data schema | type/data schema | — |
+| `def` | [TorusDefect.sigmaSwap](/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap/) | L152-L164 | definition | definition | — |
+| `theorem` | [TorusDefect.sigmaSwap_involutive](/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-swap-involutive/) | L167-L169 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TorusDefect.sigma_fixed_iff_crossing](/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-iff-crossing/) | L177-L179 | proof obligation | formal proof obligation checked | — |
+| `def` | [TorusDefectSystem](/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-defect-system/) | L191-L196 | definition | definition | — |
+| `def` | [TorusDefectSystem.crossingThread](/corpus/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread/) | L206-L210 | definition | definition | — |
+| `theorem` | [TorusDefectSystem.sigma_fixed_thread_pointwise_crossing](/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-pointwise-crossing/) | L222-L227 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [DefectInverseSystem.SigmaFixedThread.ext](/corpus/taulib/docs/book-i-boundary-torus-defect-system/ext/) | L236-L244 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TorusDefectSystem.sigma_fixed_thread_is_crossing](/corpus/taulib/docs/book-i-boundary-torus-defect-system/sigma-fixed-thread-is-crossing/) | L252-L258 | proof obligation | formal proof obligation checked | — |
+| `def` | [torusAnchor](/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-anchor/) | L266-L267 | definition | definition | — |
+| `def` | [torusMwd](/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-mwd/) | L273-L275 | definition | definition | — |
+| `theorem` | [torusSingletonUniqueness](/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-singleton-uniqueness/) | L283-L289 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TorusDefectSystem.crossingThread_is_crossingPoint](/corpus/taulib/docs/book-i-boundary-torus-defect-system/crossing-thread-is-crossing-point/) | L296-L303 | proof obligation | formal proof obligation checked | — |
+| `def` | [TorusIdentity](/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-identity/) | L311-L313 | definition | definition | — |
+| `def` | [TorusIdentityFull](/corpus/taulib/docs/book-i-boundary-torus-defect-system/torus-identity-full/) | L317-L326 | definition | definition | — |
+| `theorem` | [TorusIdentity.universal_fixed_unconditional](/corpus/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-unconditional/) | L344-L348 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TorusIdentity.universal_fixed_scalar_unconditional](/corpus/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-scalar-unconditional/) | L353-L361 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TorusIdentity.fixes_crossing_thread](/corpus/taulib/docs/book-i-boundary-torus-defect-system/fixes-crossing-thread/) | L370-L378 | proof obligation | formal proof obligation checked | — |

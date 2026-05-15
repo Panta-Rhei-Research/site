@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_resolution_6",
-  "permalink": "/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-6/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-6/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.SpectralDecomp`.",
   "declaration_id": "TauLib.BookIII.Doors.SpectralDecomp::spectral_resolution_6",
   "declaration_slug": "spectral-resolution-6",
   "kind": "theorem",
   "name": "spectral_resolution_6",
   "module_name": "TauLib.BookIII.Doors.SpectralDecomp",
-  "module_url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/",
   "source_line_start": 236,
   "source_line_end": 237,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralDecomp.lean#L236-L237",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.SpectralDecomp",
-        "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/"
+        "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.SpectralDecomp](/verify/taulib/docs/book-iii-doors-spectral-decomp/)
+- Module: [TauLib.BookIII.Doors.SpectralDecomp](/corpus/taulib/docs/book-iii-doors-spectral-decomp/)
 - Source path: [`TauLib/BookIII/Doors/SpectralDecomp.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralDecomp.lean#L236-L237)
 - Source range: L236-L237
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

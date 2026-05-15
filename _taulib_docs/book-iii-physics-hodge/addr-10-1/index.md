@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "addr_10_1",
-  "permalink": "/verify/taulib/docs/book-iii-physics-hodge/addr-10-1/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-hodge/addr-10-1/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Physics.Hodge`.",
   "declaration_id": "TauLib.BookIII.Physics.Hodge::addr_10_1",
   "declaration_slug": "addr-10-1",
   "kind": "theorem",
   "name": "addr_10_1",
   "module_name": "TauLib.BookIII.Physics.Hodge",
-  "module_url": "/verify/taulib/docs/book-iii-physics-hodge/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-hodge/",
   "source_line_start": 286,
   "source_line_end": 287,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/Hodge.lean#L286-L287",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.Hodge",
-        "url": "/verify/taulib/docs/book-iii-physics-hodge/"
+        "url": "/corpus/taulib/docs/book-iii-physics-hodge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.Hodge](/verify/taulib/docs/book-iii-physics-hodge/)
+- Module: [TauLib.BookIII.Physics.Hodge](/corpus/taulib/docs/book-iii-physics-hodge/)
 - Source path: [`TauLib/BookIII/Physics/Hodge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/Hodge.lean#L286-L287)
 - Source range: L286-L287
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

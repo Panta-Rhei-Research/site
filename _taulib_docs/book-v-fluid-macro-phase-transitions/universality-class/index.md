@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "UniversalityClass",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/universality-class/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/universality-class/",
   "summary_short": "`structure` declaration in `TauLib.BookV.FluidMacro.PhaseTransitions`.",
   "declaration_id": "TauLib.BookV.FluidMacro.PhaseTransitions::UniversalityClass",
   "declaration_slug": "universality-class",
   "kind": "structure",
   "name": "UniversalityClass",
   "module_name": "TauLib.BookV.FluidMacro.PhaseTransitions",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/",
   "source_line_start": 193,
   "source_line_end": 202,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/PhaseTransitions.lean#L193-L202",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.PhaseTransitions",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.PhaseTransitions](/verify/taulib/docs/book-v-fluid-macro-phase-transitions/)
+- Module: [TauLib.BookV.FluidMacro.PhaseTransitions](/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/)
 - Source path: [`TauLib/BookV/FluidMacro/PhaseTransitions.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/PhaseTransitions.lean#L193-L202)
 - Source range: L193-L202
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

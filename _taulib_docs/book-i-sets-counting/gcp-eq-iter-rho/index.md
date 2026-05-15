@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "gcp_eq_iter_rho",
-  "permalink": "/verify/taulib/docs/book-i-sets-counting/gcp-eq-iter-rho/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-counting/gcp-eq-iter-rho/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.Counting`.",
   "declaration_id": "TauLib.BookI.Sets.Counting::gcp_eq_iter_rho",
   "declaration_slug": "gcp-eq-iter-rho",
   "kind": "theorem",
   "name": "gcp_eq_iter_rho",
   "module_name": "TauLib.BookI.Sets.Counting",
-  "module_url": "/verify/taulib/docs/book-i-sets-counting/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-counting/",
   "source_line_start": 71,
   "source_line_end": 73,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L71-L73",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Counting",
-        "url": "/verify/taulib/docs/book-i-sets-counting/"
+        "url": "/corpus/taulib/docs/book-i-sets-counting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Counting](/verify/taulib/docs/book-i-sets-counting/)
+- Module: [TauLib.BookI.Sets.Counting](/corpus/taulib/docs/book-i-sets-counting/)
 - Source path: [`TauLib/BookI/Sets/Counting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L71-L73)
 - Source range: L71-L73
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

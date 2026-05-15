@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "execProgram",
-  "permalink": "/verify/taulib/docs/book-i-denotation-program-monoid/exec-program/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-program-monoid/exec-program/",
   "summary_short": "`def` declaration in `TauLib.BookI.Denotation.ProgramMonoid`.",
   "declaration_id": "TauLib.BookI.Denotation.ProgramMonoid::execProgram",
   "declaration_slug": "exec-program",
   "kind": "def",
   "name": "execProgram",
   "module_name": "TauLib.BookI.Denotation.ProgramMonoid",
-  "module_url": "/verify/taulib/docs/book-i-denotation-program-monoid/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-program-monoid/",
   "source_line_start": 52,
   "source_line_end": 53,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/ProgramMonoid.lean#L52-L53",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.ProgramMonoid",
-        "url": "/verify/taulib/docs/book-i-denotation-program-monoid/"
+        "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.ProgramMonoid](/verify/taulib/docs/book-i-denotation-program-monoid/)
+- Module: [TauLib.BookI.Denotation.ProgramMonoid](/corpus/taulib/docs/book-i-denotation-program-monoid/)
 - Source path: [`TauLib/BookI/Denotation/ProgramMonoid.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/ProgramMonoid.lean#L52-L53)
 - Source range: L52-L53
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

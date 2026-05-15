@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "reduce",
-  "permalink": "/verify/taulib/docs/book-i-polarity-mod-arith/reduce/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-mod-arith/reduce/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.ModArith`.",
   "declaration_id": "TauLib.BookI.Polarity.ModArith::reduce",
   "declaration_slug": "reduce",
   "kind": "def",
   "name": "reduce",
   "module_name": "TauLib.BookI.Polarity.ModArith",
-  "module_url": "/verify/taulib/docs/book-i-polarity-mod-arith/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-mod-arith/",
   "source_line_start": 62,
   "source_line_end": 62,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ModArith.lean#L62-L62",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.ModArith",
-        "url": "/verify/taulib/docs/book-i-polarity-mod-arith/"
+        "url": "/corpus/taulib/docs/book-i-polarity-mod-arith/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.ModArith](/verify/taulib/docs/book-i-polarity-mod-arith/)
+- Module: [TauLib.BookI.Polarity.ModArith](/corpus/taulib/docs/book-i-polarity-mod-arith/)
 - Source path: [`TauLib/BookI/Polarity/ModArith.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ModArith.lean#L62-L62)
 - Source range: L62-L62
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

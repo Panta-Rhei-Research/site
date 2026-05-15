@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "OntologicalPriority.toNat",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/to-nat/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/to-nat/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.CalibrationAnchor`.",
   "declaration_id": "TauLib.BookIV.Calibration.CalibrationAnchor::OntologicalPriority.toNat",
   "declaration_slug": "to-nat",
   "kind": "def",
   "name": "OntologicalPriority.toNat",
   "module_name": "TauLib.BookIV.Calibration.CalibrationAnchor",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/",
   "source_line_start": 213,
   "source_line_end": 217,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchor.lean#L213-L217",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.CalibrationAnchor",
-        "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.CalibrationAnchor](/verify/taulib/docs/book-iv-calibration-calibration-anchor/)
+- Module: [TauLib.BookIV.Calibration.CalibrationAnchor](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/)
 - Source path: [`TauLib/BookIV/Calibration/CalibrationAnchor.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchor.lean#L213-L217)
 - Source range: L213-L217
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

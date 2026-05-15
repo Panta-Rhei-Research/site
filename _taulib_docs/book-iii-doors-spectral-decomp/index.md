@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Doors.SpectralDecomp",
-  "permalink": "/verify/taulib/docs/book-iii-doors-spectral-decomp/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Doors.SpectralDecomp`.",
   "module_name": "TauLib.BookIII.Doors.SpectralDecomp",
   "module_slug": "book-iii-doors-spectral-decomp",
@@ -33,10 +33,12 @@
     {
       "kind": "def",
       "name": "spectral_projector",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-projector/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-projector/",
       "source_line_start": 54,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D80"
       ]
@@ -44,10 +46,12 @@
     {
       "kind": "def",
       "name": "projector_idempotent_check",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-idempotent-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-idempotent-check/",
       "source_line_start": 63,
       "source_line_end": 82,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D80"
       ]
@@ -55,10 +59,12 @@
     {
       "kind": "def",
       "name": "projector_orthogonal_check",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-orthogonal-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-orthogonal-check/",
       "source_line_start": 85,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D80"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "def",
       "name": "projector_check",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-check/",
       "source_line_start": 111,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D80"
       ]
@@ -77,10 +85,12 @@
     {
       "kind": "def",
       "name": "spectral_measure",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-measure/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-measure/",
       "source_line_start": 120,
       "source_line_end": 122,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D81"
       ]
@@ -88,10 +98,12 @@
     {
       "kind": "def",
       "name": "measure_total_check",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/measure-total-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/measure-total-check/",
       "source_line_start": 125,
       "source_line_end": 132,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D81"
       ]
@@ -99,10 +111,12 @@
     {
       "kind": "def",
       "name": "parseval_check",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/parseval-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/parseval-check/",
       "source_line_start": 141,
       "source_line_end": 165,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T56"
       ]
@@ -110,10 +124,12 @@
     {
       "kind": "def",
       "name": "spectral_resolution_check",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-check/",
       "source_line_start": 175,
       "source_line_end": 201,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P48"
       ]
@@ -121,10 +137,12 @@
     {
       "kind": "theorem",
       "name": "projector_check_2",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-check-2/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-check-2/",
       "source_line_start": 208,
       "source_line_end": 209,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D80"
       ]
@@ -132,10 +150,12 @@
     {
       "kind": "theorem",
       "name": "projector_check_6",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-check-6/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-check-6/",
       "source_line_start": 212,
       "source_line_end": 213,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D80"
       ]
@@ -143,10 +163,12 @@
     {
       "kind": "theorem",
       "name": "measure_total_6",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/measure-total-6/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/measure-total-6/",
       "source_line_start": 216,
       "source_line_end": 217,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D81"
       ]
@@ -154,10 +176,12 @@
     {
       "kind": "theorem",
       "name": "measure_total_30",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/measure-total-30/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/measure-total-30/",
       "source_line_start": 220,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D81"
       ]
@@ -165,10 +189,12 @@
     {
       "kind": "theorem",
       "name": "parseval_2",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/parseval-2/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/parseval-2/",
       "source_line_start": 224,
       "source_line_end": 225,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T56"
       ]
@@ -176,10 +202,12 @@
     {
       "kind": "theorem",
       "name": "parseval_6",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/parseval-6/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/parseval-6/",
       "source_line_start": 228,
       "source_line_end": 229,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T56"
       ]
@@ -187,10 +215,12 @@
     {
       "kind": "theorem",
       "name": "spectral_resolution_2",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-2/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-2/",
       "source_line_start": 232,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P48"
       ]
@@ -198,10 +228,12 @@
     {
       "kind": "theorem",
       "name": "spectral_resolution_6",
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-6/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-6/",
       "source_line_start": 236,
       "source_line_end": 237,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P48"
       ]
@@ -209,64 +241,78 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l243/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l243/",
       "source_line_start": 243,
       "source_line_end": 243,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l244/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l244/",
       "source_line_start": 244,
       "source_line_end": 244,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l245/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l245/",
       "source_line_start": 245,
       "source_line_end": 245,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l246/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l246/",
       "source_line_start": 246,
       "source_line_end": 246,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l247/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l247/",
       "source_line_start": 247,
       "source_line_end": 247,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l248/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l248/",
       "source_line_start": 248,
       "source_line_end": 248,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l249/",
+      "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l249/",
       "source_line_start": 249,
       "source_line_end": 251,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -278,7 +324,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -349,28 +395,28 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [spectral_projector](/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-projector/) | L54-L60 | defined | `III.D80` |
-| `def` | [projector_idempotent_check](/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-idempotent-check/) | L63-L82 | defined | `III.D80` |
-| `def` | [projector_orthogonal_check](/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-orthogonal-check/) | L85-L108 | defined | `III.D80` |
-| `def` | [projector_check](/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-check/) | L111-L112 | defined | `III.D80` |
-| `def` | [spectral_measure](/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-measure/) | L120-L122 | defined | `III.D81` |
-| `def` | [measure_total_check](/verify/taulib/docs/book-iii-doors-spectral-decomp/measure-total-check/) | L125-L132 | defined | `III.D81` |
-| `def` | [parseval_check](/verify/taulib/docs/book-iii-doors-spectral-decomp/parseval-check/) | L141-L165 | defined | `III.T56` |
-| `def` | [spectral_resolution_check](/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-check/) | L175-L201 | defined | `III.P48` |
-| `theorem` | [projector_check_2](/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-check-2/) | L208-L209 | formalized | `III.D80` |
-| `theorem` | [projector_check_6](/verify/taulib/docs/book-iii-doors-spectral-decomp/projector-check-6/) | L212-L213 | formalized | `III.D80` |
-| `theorem` | [measure_total_6](/verify/taulib/docs/book-iii-doors-spectral-decomp/measure-total-6/) | L216-L217 | formalized | `III.D81` |
-| `theorem` | [measure_total_30](/verify/taulib/docs/book-iii-doors-spectral-decomp/measure-total-30/) | L220-L221 | formalized | `III.D81` |
-| `theorem` | [parseval_2](/verify/taulib/docs/book-iii-doors-spectral-decomp/parseval-2/) | L224-L225 | formalized | `III.T56` |
-| `theorem` | [parseval_6](/verify/taulib/docs/book-iii-doors-spectral-decomp/parseval-6/) | L228-L229 | formalized | `III.T56` |
-| `theorem` | [spectral_resolution_2](/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-2/) | L232-L233 | formalized | `III.P48` |
-| `theorem` | [spectral_resolution_6](/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-6/) | L236-L237 | formalized | `III.P48` |
-| `eval` | [#eval L243](/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l243/) | L243-L243 | computed | — |
-| `eval` | [#eval L244](/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l244/) | L244-L244 | computed | — |
-| `eval` | [#eval L245](/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l245/) | L245-L245 | computed | — |
-| `eval` | [#eval L246](/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l246/) | L246-L246 | computed | — |
-| `eval` | [#eval L247](/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l247/) | L247-L247 | computed | — |
-| `eval` | [#eval L248](/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l248/) | L248-L248 | computed | — |
-| `eval` | [#eval L249](/verify/taulib/docs/book-iii-doors-spectral-decomp/eval-l249/) | L249-L251 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [spectral_projector](/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-projector/) | L54-L60 | data/computed value | data/computed value | `III.D80` |
+| `def` | [projector_idempotent_check](/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-idempotent-check/) | L63-L82 | data/computed value | data/computed value | `III.D80` |
+| `def` | [projector_orthogonal_check](/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-orthogonal-check/) | L85-L108 | data/computed value | data/computed value | `III.D80` |
+| `def` | [projector_check](/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-check/) | L111-L112 | data/computed value | data/computed value | `III.D80` |
+| `def` | [spectral_measure](/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-measure/) | L120-L122 | data/computed value | data/computed value | `III.D81` |
+| `def` | [measure_total_check](/corpus/taulib/docs/book-iii-doors-spectral-decomp/measure-total-check/) | L125-L132 | data/computed value | data/computed value | `III.D81` |
+| `def` | [parseval_check](/corpus/taulib/docs/book-iii-doors-spectral-decomp/parseval-check/) | L141-L165 | data/computed value | data/computed value | `III.T56` |
+| `def` | [spectral_resolution_check](/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-check/) | L175-L201 | data/computed value | data/computed value | `III.P48` |
+| `theorem` | [projector_check_2](/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-check-2/) | L208-L209 | proof obligation | formal proof obligation checked | `III.D80` |
+| `theorem` | [projector_check_6](/corpus/taulib/docs/book-iii-doors-spectral-decomp/projector-check-6/) | L212-L213 | proof obligation | formal proof obligation checked | `III.D80` |
+| `theorem` | [measure_total_6](/corpus/taulib/docs/book-iii-doors-spectral-decomp/measure-total-6/) | L216-L217 | proof obligation | formal proof obligation checked | `III.D81` |
+| `theorem` | [measure_total_30](/corpus/taulib/docs/book-iii-doors-spectral-decomp/measure-total-30/) | L220-L221 | proof obligation | formal proof obligation checked | `III.D81` |
+| `theorem` | [parseval_2](/corpus/taulib/docs/book-iii-doors-spectral-decomp/parseval-2/) | L224-L225 | proof obligation | formal proof obligation checked | `III.T56` |
+| `theorem` | [parseval_6](/corpus/taulib/docs/book-iii-doors-spectral-decomp/parseval-6/) | L228-L229 | proof obligation | formal proof obligation checked | `III.T56` |
+| `theorem` | [spectral_resolution_2](/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-2/) | L232-L233 | proof obligation | formal proof obligation checked | `III.P48` |
+| `theorem` | [spectral_resolution_6](/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-resolution-6/) | L236-L237 | proof obligation | formal proof obligation checked | `III.P48` |
+| `eval` | [#eval L243](/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l243/) | L243-L243 | computed check | computed check | — |
+| `eval` | [#eval L244](/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l244/) | L244-L244 | computed check | computed check | — |
+| `eval` | [#eval L245](/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l245/) | L245-L245 | computed check | computed check | — |
+| `eval` | [#eval L246](/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l246/) | L246-L246 | computed check | computed check | — |
+| `eval` | [#eval L247](/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l247/) | L247-L247 | computed check | computed check | — |
+| `eval` | [#eval L248](/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l248/) | L248-L248 | computed check | computed check | — |
+| `eval` | [#eval L249](/corpus/taulib/docs/book-iii-doors-spectral-decomp/eval-l249/) | L249-L251 | computed check | computed check | — |

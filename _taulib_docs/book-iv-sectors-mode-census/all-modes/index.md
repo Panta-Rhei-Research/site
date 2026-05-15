@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "allModes",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-mode-census/all-modes/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-mode-census/all-modes/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Sectors.ModeCensus`.",
   "declaration_id": "TauLib.BookIV.Sectors.ModeCensus::allModes",
   "declaration_slug": "all-modes",
   "kind": "def",
   "name": "allModes",
   "module_name": "TauLib.BookIV.Sectors.ModeCensus",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-mode-census/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-mode-census/",
   "source_line_start": 93,
   "source_line_end": 98,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/ModeCensus.lean#L93-L98",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.ModeCensus",
-        "url": "/verify/taulib/docs/book-iv-sectors-mode-census/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.ModeCensus](/verify/taulib/docs/book-iv-sectors-mode-census/)
+- Module: [TauLib.BookIV.Sectors.ModeCensus](/corpus/taulib/docs/book-iv-sectors-mode-census/)
 - Source path: [`TauLib/BookIV/Sectors/ModeCensus.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/ModeCensus.lean#L93-L98)
 - Source range: L93-L98
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

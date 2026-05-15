@@ -29,8 +29,8 @@ def main() -> int:
     plates = load_yaml("_data/corpus/assets/scientific_plates.yml").get("scientific_plates", [])
     covers = load_yaml("_data/corpus/assets/covers.yml").get("covers", [])
 
-    if len(errata) != 4:
-        error(f"expected 4 errata, found {len(errata)}", errors)
+    if len(errata) != 5:
+        error(f"expected 5 errata, found {len(errata)}", errors)
     if len(changelog) != 5:
         error(f"expected 5 changelog entries, found {len(changelog)}", errors)
     if len(editions) != 14:
@@ -76,6 +76,9 @@ def main() -> int:
     book_ii_errata = (ROOT / "publications/books/book-ii/errata/index.md").read_text(encoding="utf-8")
     if "No book-specific errata currently issued" not in book_ii_errata:
         error("zero-state book errata page missing for Book II", errors)
+    book_v_errata = (ROOT / "publications/books/book-v/errata/index.md").read_text(encoding="utf-8")
+    if "ERRATUM-005" not in book_v_errata:
+        error("Book V errata page missing expected ERRATUM-005 record", errors)
 
     if errors:
         print("Wave 4 site projection assertions failed:")

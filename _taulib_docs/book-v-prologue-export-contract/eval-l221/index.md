@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L221",
-  "permalink": "/verify/taulib/docs/book-v-prologue-export-contract/eval-l221/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-export-contract/eval-l221/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Prologue.ExportContract`.",
   "declaration_id": "TauLib.BookV.Prologue.ExportContract::#eval:221",
   "declaration_slug": "eval-l221",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Prologue.ExportContract",
-  "module_url": "/verify/taulib/docs/book-v-prologue-export-contract/",
+  "module_url": "/corpus/taulib/docs/book-v-prologue-export-contract/",
   "source_line_start": 221,
   "source_line_end": 221,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L221-L221",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Prologue.ExportContract",
-        "url": "/verify/taulib/docs/book-v-prologue-export-contract/"
+        "url": "/corpus/taulib/docs/book-v-prologue-export-contract/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Prologue.ExportContract](/verify/taulib/docs/book-v-prologue-export-contract/)
+- Module: [TauLib.BookV.Prologue.ExportContract](/corpus/taulib/docs/book-v-prologue-export-contract/)
 - Source path: [`TauLib/BookV/Prologue/ExportContract.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L221-L221)
 - Source range: L221-L221
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

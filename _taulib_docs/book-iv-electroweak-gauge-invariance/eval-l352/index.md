@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L352",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/eval-l352/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/eval-l352/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Electroweak.GaugeInvariance`.",
   "declaration_id": "TauLib.BookIV.Electroweak.GaugeInvariance::#eval:352",
   "declaration_slug": "eval-l352",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Electroweak.GaugeInvariance",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/",
   "source_line_start": 352,
   "source_line_end": 352,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L352-L352",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.GaugeInvariance",
-        "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/verify/taulib/docs/book-iv-electroweak-gauge-invariance/)
+- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/)
 - Source path: [`TauLib/BookIV/Electroweak/GaugeInvariance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L352-L352)
 - Source range: L352-L352
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

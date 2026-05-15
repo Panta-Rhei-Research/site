@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "numericalReadout_two_const",
-  "permalink": "/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-two-const/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-two-const/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.NumericalProjection`.",
   "declaration_id": "TauLib.BookI.Boundary.NumericalProjection::numericalReadout_two_const",
   "declaration_slug": "numerical-readout-two-const",
   "kind": "theorem",
   "name": "numericalReadout_two_const",
   "module_name": "TauLib.BookI.Boundary.NumericalProjection",
-  "module_url": "/verify/taulib/docs/book-i-boundary-numerical-projection/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/",
   "source_line_start": 139,
   "source_line_end": 142,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/NumericalProjection.lean#L139-L142",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.NumericalProjection",
-        "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/"
+        "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.NumericalProjection](/verify/taulib/docs/book-i-boundary-numerical-projection/)
+- Module: [TauLib.BookI.Boundary.NumericalProjection](/corpus/taulib/docs/book-i-boundary-numerical-projection/)
 - Source path: [`TauLib/BookI/Boundary/NumericalProjection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/NumericalProjection.lean#L139-L142)
 - Source range: L139-L142
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

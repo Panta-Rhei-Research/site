@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.DimensionalBridge",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.DimensionalBridge`.",
   "module_name": "TauLib.BookIV.Calibration.DimensionalBridge",
   "module_slug": "book-iv-calibration-dimensional-bridge",
@@ -42,10 +42,12 @@
     {
       "kind": "structure",
       "name": "DimExponents",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/dim-exponents/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/dim-exponents/",
       "source_line_start": 64,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D32"
       ]
@@ -53,46 +55,56 @@
     {
       "kind": "def",
       "name": "DimExponents.add",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/add/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/add/",
       "source_line_start": 72,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DimExponents.scale",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/scale/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/scale/",
       "source_line_start": 76,
       "source_line_end": 77,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "DimExponents.zero",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/zero/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/zero/",
       "source_line_start": 80,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DimensionalFormula",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/dimensional-formula/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/dimensional-formula/",
       "source_line_start": 89,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "c_formula",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/c-formula/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/c-formula/",
       "source_line_start": 110,
       "source_line_end": 116,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D33"
       ]
@@ -100,10 +112,12 @@
     {
       "kind": "def",
       "name": "h_formula",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/h-formula/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/h-formula/",
       "source_line_start": 120,
       "source_line_end": 126,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D34"
       ]
@@ -111,10 +125,12 @@
     {
       "kind": "def",
       "name": "ke_formula",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/ke-formula/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/ke-formula/",
       "source_line_start": 130,
       "source_line_end": 136,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D35"
       ]
@@ -122,10 +138,12 @@
     {
       "kind": "def",
       "name": "eps0_formula",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-formula/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-formula/",
       "source_line_start": 140,
       "source_line_end": 146,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D36"
       ]
@@ -133,10 +151,12 @@
     {
       "kind": "def",
       "name": "mu0_formula",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/mu0-formula/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/mu0-formula/",
       "source_line_start": 150,
       "source_line_end": 156,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D37"
       ]
@@ -144,28 +164,34 @@
     {
       "kind": "def",
       "name": "derivation_chain",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain/",
       "source_line_start": 159,
       "source_line_end": 160,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "derivation_chain_count",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain-count/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain-count/",
       "source_line_start": 163,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "maxwell_dimensional",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-dimensional/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-dimensional/",
       "source_line_start": 172,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T07"
       ]
@@ -173,10 +199,12 @@
     {
       "kind": "theorem",
       "name": "maxwell_prefactor",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-prefactor/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-prefactor/",
       "source_line_start": 182,
       "source_line_end": 186,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T07"
       ]
@@ -184,19 +212,23 @@
     {
       "kind": "theorem",
       "name": "maxwell_complete",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-complete/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-complete/",
       "source_line_start": 191,
       "source_line_end": 200,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coulomb_permittivity_dimensional",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-dimensional/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-dimensional/",
       "source_line_start": 209,
       "source_line_end": 211,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T08"
       ]
@@ -204,10 +236,12 @@
     {
       "kind": "theorem",
       "name": "coulomb_permittivity_prefactor",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-prefactor/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-prefactor/",
       "source_line_start": 223,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T08"
       ]
@@ -215,46 +249,56 @@
     {
       "kind": "inductive",
       "name": "SITier",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/sitier/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/sitier/",
       "source_line_start": 234,
       "source_line_end": 238,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TieredConstant",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-constant/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-constant/",
       "source_line_start": 241,
       "source_line_end": 244,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tiered_exact_constants",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-exact-constants/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-exact-constants/",
       "source_line_start": 247,
       "source_line_end": 252,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tiered_count",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-count/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-count/",
       "source_line_start": 255,
       "source_line_end": 257,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GravityFrontier",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier/",
       "source_line_start": 270,
       "source_line_end": 279,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R08"
       ]
@@ -262,127 +306,155 @@
     {
       "kind": "def",
       "name": "gravity_frontier",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier-l282/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier-l282/",
       "source_line_start": 282,
       "source_line_end": 282,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "g_is_deferred",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/g-is-deferred/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/g-is-deferred/",
       "source_line_start": 285,
       "source_line_end": 285,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "c_is_velocity",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/c-is-velocity/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/c-is-velocity/",
       "source_line_start": 292,
       "source_line_end": 293,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_is_action",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/h-is-action/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/h-is-action/",
       "source_line_start": 296,
       "source_line_end": 297,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "eps0_mu0_inverse",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-mu0-inverse/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-mu0-inverse/",
       "source_line_start": 300,
       "source_line_end": 303,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ke_eps0_inverse",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/ke-eps0-inverse/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/ke-eps0-inverse/",
       "source_line_start": 306,
       "source_line_end": 309,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l316/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l316/",
       "source_line_start": 316,
       "source_line_end": 316,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l319/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l319/",
       "source_line_start": 319,
       "source_line_end": 319,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l320/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l320/",
       "source_line_start": 320,
       "source_line_end": 320,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l321/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l321/",
       "source_line_start": 321,
       "source_line_end": 321,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l322/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l322/",
       "source_line_start": 322,
       "source_line_end": 322,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l323/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l323/",
       "source_line_start": 323,
       "source_line_end": 323,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l326/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l326/",
       "source_line_start": 326,
       "source_line_end": 326,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l329/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l329/",
       "source_line_start": 329,
       "source_line_end": 331,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -394,7 +466,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -474,41 +546,41 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [DimExponents](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/dim-exponents/) | L64-L69 | defined | `IV.D32` |
-| `def` | [DimExponents.add](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/add/) | L72-L73 | defined | — |
-| `def` | [DimExponents.scale](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/scale/) | L76-L77 | defined | — |
-| `def` | [DimExponents.zero](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/zero/) | L80-L80 | defined | — |
-| `structure` | [DimensionalFormula](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/dimensional-formula/) | L89-L102 | defined | — |
-| `def` | [c_formula](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/c-formula/) | L110-L116 | defined | `IV.D33` |
-| `def` | [h_formula](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/h-formula/) | L120-L126 | defined | `IV.D34` |
-| `def` | [ke_formula](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/ke-formula/) | L130-L136 | defined | `IV.D35` |
-| `def` | [eps0_formula](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-formula/) | L140-L146 | defined | `IV.D36` |
-| `def` | [mu0_formula](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/mu0-formula/) | L150-L156 | defined | `IV.D37` |
-| `def` | [derivation_chain](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain/) | L159-L160 | defined | — |
-| `theorem` | [derivation_chain_count](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain-count/) | L163-L163 | formalized | — |
-| `theorem` | [maxwell_dimensional](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-dimensional/) | L172-L176 | formalized | `IV.T07` |
-| `theorem` | [maxwell_prefactor](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-prefactor/) | L182-L186 | formalized | `IV.T07` |
-| `theorem` | [maxwell_complete](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-complete/) | L191-L200 | formalized | — |
-| `theorem` | [coulomb_permittivity_dimensional](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-dimensional/) | L209-L211 | formalized | `IV.T08` |
-| `theorem` | [coulomb_permittivity_prefactor](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-prefactor/) | L223-L227 | formalized | `IV.T08` |
-| `inductive` | [SITier](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/sitier/) | L234-L238 | defined | — |
-| `structure` | [TieredConstant](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-constant/) | L241-L244 | defined | — |
-| `def` | [tiered_exact_constants](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-exact-constants/) | L247-L252 | defined | — |
-| `theorem` | [tiered_count](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-count/) | L255-L257 | formalized | — |
-| `structure` | [GravityFrontier](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier/) | L270-L279 | defined | `IV.R08` |
-| `def` | [gravity_frontier](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier-l282/) | L282-L282 | defined | — |
-| `theorem` | [g_is_deferred](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/g-is-deferred/) | L285-L285 | formalized | — |
-| `theorem` | [c_is_velocity](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/c-is-velocity/) | L292-L293 | formalized | — |
-| `theorem` | [h_is_action](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/h-is-action/) | L296-L297 | formalized | — |
-| `theorem` | [eps0_mu0_inverse](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-mu0-inverse/) | L300-L303 | formalized | — |
-| `theorem` | [ke_eps0_inverse](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/ke-eps0-inverse/) | L306-L309 | formalized | — |
-| `eval` | [#eval L316](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l316/) | L316-L316 | computed | — |
-| `eval` | [#eval L319](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l319/) | L319-L319 | computed | — |
-| `eval` | [#eval L320](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l320/) | L320-L320 | computed | — |
-| `eval` | [#eval L321](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l321/) | L321-L321 | computed | — |
-| `eval` | [#eval L322](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l322/) | L322-L322 | computed | — |
-| `eval` | [#eval L323](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l323/) | L323-L323 | computed | — |
-| `eval` | [#eval L326](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l326/) | L326-L326 | computed | — |
-| `eval` | [#eval L329](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l329/) | L329-L331 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [DimExponents](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/dim-exponents/) | L64-L69 | type/data schema | type/data schema | `IV.D32` |
+| `def` | [DimExponents.add](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/add/) | L72-L73 | definition | definition | — |
+| `def` | [DimExponents.scale](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/scale/) | L76-L77 | data/computed value | data/computed value | — |
+| `def` | [DimExponents.zero](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/zero/) | L80-L80 | definition | definition | — |
+| `structure` | [DimensionalFormula](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/dimensional-formula/) | L89-L102 | type/data schema | type/data schema | — |
+| `def` | [c_formula](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/c-formula/) | L110-L116 | definition | definition | `IV.D33` |
+| `def` | [h_formula](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/h-formula/) | L120-L126 | definition | definition | `IV.D34` |
+| `def` | [ke_formula](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/ke-formula/) | L130-L136 | definition | definition | `IV.D35` |
+| `def` | [eps0_formula](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-formula/) | L140-L146 | definition | definition | `IV.D36` |
+| `def` | [mu0_formula](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/mu0-formula/) | L150-L156 | definition | definition | `IV.D37` |
+| `def` | [derivation_chain](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain/) | L159-L160 | data/computed value | data/computed value | — |
+| `theorem` | [derivation_chain_count](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/derivation-chain-count/) | L163-L163 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [maxwell_dimensional](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-dimensional/) | L172-L176 | proof obligation | formal proof obligation checked | `IV.T07` |
+| `theorem` | [maxwell_prefactor](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-prefactor/) | L182-L186 | proof obligation | formal proof obligation checked | `IV.T07` |
+| `theorem` | [maxwell_complete](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-complete/) | L191-L200 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coulomb_permittivity_dimensional](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-dimensional/) | L209-L211 | proof obligation | formal proof obligation checked | `IV.T08` |
+| `theorem` | [coulomb_permittivity_prefactor](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/coulomb-permittivity-prefactor/) | L223-L227 | proof obligation | formal proof obligation checked | `IV.T08` |
+| `inductive` | [SITier](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/sitier/) | L234-L238 | type/data schema | type/data schema | — |
+| `structure` | [TieredConstant](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-constant/) | L241-L244 | type/data schema | type/data schema | — |
+| `def` | [tiered_exact_constants](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-exact-constants/) | L247-L252 | data/computed value | data/computed value | — |
+| `theorem` | [tiered_count](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/tiered-count/) | L255-L257 | proof obligation | formal proof obligation checked | — |
+| `structure` | [GravityFrontier](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier/) | L270-L279 | type/data schema | type/data schema | `IV.R08` |
+| `def` | [gravity_frontier](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/gravity-frontier-l282/) | L282-L282 | definition | definition | — |
+| `theorem` | [g_is_deferred](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/g-is-deferred/) | L285-L285 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [c_is_velocity](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/c-is-velocity/) | L292-L293 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_is_action](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/h-is-action/) | L296-L297 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [eps0_mu0_inverse](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eps0-mu0-inverse/) | L300-L303 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ke_eps0_inverse](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/ke-eps0-inverse/) | L306-L309 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L316](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l316/) | L316-L316 | computed check | computed check | — |
+| `eval` | [#eval L319](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l319/) | L319-L319 | computed check | computed check | — |
+| `eval` | [#eval L320](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l320/) | L320-L320 | computed check | computed check | — |
+| `eval` | [#eval L321](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l321/) | L321-L321 | computed check | computed check | — |
+| `eval` | [#eval L322](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l322/) | L322-L322 | computed check | computed check | — |
+| `eval` | [#eval L323](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l323/) | L323-L323 | computed check | computed check | — |
+| `eval` | [#eval L326](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l326/) | L326-L326 | computed check | computed check | — |
+| `eval` | [#eval L329](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/eval-l329/) | L329-L331 | computed check | computed check | — |

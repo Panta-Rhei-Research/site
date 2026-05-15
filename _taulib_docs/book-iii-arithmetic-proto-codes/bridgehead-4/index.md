@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bridgehead_4",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/bridgehead-4/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/bridgehead-4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.ProtoCodes`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.ProtoCodes::bridgehead_4",
   "declaration_slug": "bridgehead-4",
   "kind": "theorem",
   "name": "bridgehead_4",
   "module_name": "TauLib.BookIII.Arithmetic.ProtoCodes",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/",
   "source_line_start": 167,
   "source_line_end": 168,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L167-L168",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.ProtoCodes",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/verify/taulib/docs/book-iii-arithmetic-proto-codes/)
+- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/corpus/taulib/docs/book-iii-arithmetic-proto-codes/)
 - Source path: [`TauLib/BookIII/Arithmetic/ProtoCodes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L167-L168)
 - Source range: L167-L168
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

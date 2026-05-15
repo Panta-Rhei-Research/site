@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "K5StructuralExclusion",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion/",
   "summary_short": "`structure` declaration in `TauLib.BookI.MetaLogic.StructuralExclusion`.",
   "declaration_id": "TauLib.BookI.MetaLogic.StructuralExclusion::K5StructuralExclusion",
   "declaration_slug": "k5-structural-exclusion",
   "kind": "structure",
   "name": "K5StructuralExclusion",
   "module_name": "TauLib.BookI.MetaLogic.StructuralExclusion",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/",
   "source_line_start": 109,
   "source_line_end": 117,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/StructuralExclusion.lean#L109-L117",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.StructuralExclusion",
-        "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.StructuralExclusion](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/)
+- Module: [TauLib.BookI.MetaLogic.StructuralExclusion](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/)
 - Source path: [`TauLib/BookI/MetaLogic/StructuralExclusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/StructuralExclusion.lean#L109-L117)
 - Source range: L109-L117
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

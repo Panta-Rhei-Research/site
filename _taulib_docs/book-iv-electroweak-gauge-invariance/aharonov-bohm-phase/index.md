@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AharonovBohmPhase",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/aharonov-bohm-phase/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/aharonov-bohm-phase/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.GaugeInvariance`.",
   "declaration_id": "TauLib.BookIV.Electroweak.GaugeInvariance::AharonovBohmPhase",
   "declaration_slug": "aharonov-bohm-phase",
   "kind": "structure",
   "name": "AharonovBohmPhase",
   "module_name": "TauLib.BookIV.Electroweak.GaugeInvariance",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/",
   "source_line_start": 233,
   "source_line_end": 241,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L233-L241",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.GaugeInvariance",
-        "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/verify/taulib/docs/book-iv-electroweak-gauge-invariance/)
+- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/)
 - Source path: [`TauLib/BookIV/Electroweak/GaugeInvariance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L233-L241)
 - Source range: L233-L241
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

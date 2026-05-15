@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "commutator_lifts",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/commutator-lifts/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/commutator-lifts/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.QuantumMechanics.Quantization`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.Quantization::commutator_lifts",
   "declaration_slug": "commutator-lifts",
   "kind": "theorem",
   "name": "commutator_lifts",
   "module_name": "TauLib.BookIV.QuantumMechanics.Quantization",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/",
   "source_line_start": 105,
   "source_line_end": 108,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Quantization.lean#L105-L108",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.Quantization",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.Quantization](/verify/taulib/docs/book-iv-quantum-mechanics-quantization/)
+- Module: [TauLib.BookIV.QuantumMechanics.Quantization](/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/Quantization.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Quantization.lean#L105-L108)
 - Source range: L105-L108
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primary_invariants",
-  "permalink": "/verify/taulib/docs/book-iv-arena-actors-dynamics/primary-invariants/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/primary-invariants/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Arena.ActorsDynamics`.",
   "declaration_id": "TauLib.BookIV.Arena.ActorsDynamics::primary_invariants",
   "declaration_slug": "primary-invariants",
   "kind": "def",
   "name": "primary_invariants",
   "module_name": "TauLib.BookIV.Arena.ActorsDynamics",
-  "module_url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/",
   "source_line_start": 102,
   "source_line_end": 103,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/ActorsDynamics.lean#L102-L103",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.ActorsDynamics",
-        "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/"
+        "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.ActorsDynamics](/verify/taulib/docs/book-iv-arena-actors-dynamics/)
+- Module: [TauLib.BookIV.Arena.ActorsDynamics](/corpus/taulib/docs/book-iv-arena-actors-dynamics/)
 - Source path: [`TauLib/BookIV/Arena/ActorsDynamics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/ActorsDynamics.lean#L102-L103)
 - Source range: L102-L103
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

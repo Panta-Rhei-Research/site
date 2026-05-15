@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectrum.KernelHinge",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectrum.KernelHinge`.",
   "module_name": "TauLib.BookIII.Spectrum.KernelHinge",
   "module_slug": "book-iii-spectrum-kernel-hinge",
@@ -36,10 +36,12 @@
     {
       "kind": "structure",
       "name": "KernelHinge",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge/",
       "source_line_start": 59,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D74"
       ]
@@ -47,19 +49,23 @@
     {
       "kind": "def",
       "name": "kernel_hinge",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge-l88/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge-l88/",
       "source_line_start": 88,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BookIIBridge",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-iibridge/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-iibridge/",
       "source_line_start": 111,
       "source_line_end": 119,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.T34"
       ]
@@ -67,19 +73,23 @@
     {
       "kind": "def",
       "name": "book_ii_bridge",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge/",
       "source_line_start": 122,
       "source_line_end": 126,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "book_ii_bridge_complete",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge-complete/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge-complete/",
       "source_line_start": 131,
       "source_line_end": 134,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T34"
       ]
@@ -87,55 +97,67 @@
     {
       "kind": "theorem",
       "name": "book_i_generators",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-generators/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-generators/",
       "source_line_start": 141,
       "source_line_end": 142,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "book_i_parts",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-parts/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-parts/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "book_i_monoid_assoc",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-monoid-assoc/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-monoid-assoc/",
       "source_line_start": 148,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "book_i_non_boolean",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-non-boolean/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-non-boolean/",
       "source_line_start": 154,
       "source_line_end": 157,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "book_i_admissibility",
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-admissibility/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-admissibility/",
       "source_line_start": 160,
       "source_line_end": 173,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/eval-l176/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/eval-l176/",
       "source_line_start": 176,
       "source_line_end": 178,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -147,7 +169,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -220,16 +242,16 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [KernelHinge](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge/) | L59-L85 | defined | `I.D74` |
-| `def` | [kernel_hinge](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge-l88/) | L88-L94 | defined | — |
-| `structure` | [BookIIBridge](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-iibridge/) | L111-L119 | defined | `I.T34` |
-| `def` | [book_ii_bridge](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge/) | L122-L126 | defined | — |
-| `theorem` | [book_ii_bridge_complete](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge-complete/) | L131-L134 | formalized | `I.T34` |
-| `theorem` | [book_i_generators](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-generators/) | L141-L142 | formalized | — |
-| `theorem` | [book_i_parts](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-parts/) | L145-L145 | formalized | — |
-| `theorem` | [book_i_monoid_assoc](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-monoid-assoc/) | L148-L151 | formalized | — |
-| `theorem` | [book_i_non_boolean](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-non-boolean/) | L154-L157 | formalized | — |
-| `theorem` | [book_i_admissibility](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-admissibility/) | L160-L173 | formalized | — |
-| `eval` | [#eval L176](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/eval-l176/) | L176-L178 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [KernelHinge](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge/) | L59-L85 | type/data schema | type/data schema | `I.D74` |
+| `def` | [kernel_hinge](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/kernel-hinge-l88/) | L88-L94 | definition | definition | — |
+| `structure` | [BookIIBridge](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-iibridge/) | L111-L119 | type/data schema | type/data schema | `I.T34` |
+| `def` | [book_ii_bridge](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge/) | L122-L126 | definition | definition | — |
+| `theorem` | [book_ii_bridge_complete](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-ii-bridge-complete/) | L131-L134 | proof obligation | formal proof obligation checked | `I.T34` |
+| `theorem` | [book_i_generators](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-generators/) | L141-L142 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [book_i_parts](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-parts/) | L145-L145 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [book_i_monoid_assoc](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-monoid-assoc/) | L148-L151 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [book_i_non_boolean](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-non-boolean/) | L154-L157 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [book_i_admissibility](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-admissibility/) | L160-L173 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L176](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/eval-l176/) | L176-L178 | computed check | computed check | — |

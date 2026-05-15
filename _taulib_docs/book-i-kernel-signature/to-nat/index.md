@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Generator.toNat",
-  "permalink": "/verify/taulib/docs/book-i-kernel-signature/to-nat/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-signature/to-nat/",
   "summary_short": "`def` declaration in `TauLib.BookI.Kernel.Signature`.",
   "declaration_id": "TauLib.BookI.Kernel.Signature::Generator.toNat",
   "declaration_slug": "to-nat",
   "kind": "def",
   "name": "Generator.toNat",
   "module_name": "TauLib.BookI.Kernel.Signature",
-  "module_url": "/verify/taulib/docs/book-i-kernel-signature/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-signature/",
   "source_line_start": 78,
   "source_line_end": 91,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Signature.lean#L78-L91",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Kernel.Signature",
-        "url": "/verify/taulib/docs/book-i-kernel-signature/"
+        "url": "/corpus/taulib/docs/book-i-kernel-signature/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Kernel.Signature](/verify/taulib/docs/book-i-kernel-signature/)
+- Module: [TauLib.BookI.Kernel.Signature](/corpus/taulib/docs/book-i-kernel-signature/)
 - Source path: [`TauLib/BookI/Kernel/Signature.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Signature.lean#L78-L91)
 - Source range: L78-L91
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

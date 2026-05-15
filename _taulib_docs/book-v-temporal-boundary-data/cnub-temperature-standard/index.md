@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cnub_temperature_standard",
-  "permalink": "/verify/taulib/docs/book-v-temporal-boundary-data/cnub-temperature-standard/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-boundary-data/cnub-temperature-standard/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Temporal.BoundaryData`.",
   "declaration_id": "TauLib.BookV.Temporal.BoundaryData::cnub_temperature_standard",
   "declaration_slug": "cnub-temperature-standard",
   "kind": "theorem",
   "name": "cnub_temperature_standard",
   "module_name": "TauLib.BookV.Temporal.BoundaryData",
-  "module_url": "/verify/taulib/docs/book-v-temporal-boundary-data/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-boundary-data/",
   "source_line_start": 213,
   "source_line_end": 216,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BoundaryData.lean#L213-L216",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.BoundaryData",
-        "url": "/verify/taulib/docs/book-v-temporal-boundary-data/"
+        "url": "/corpus/taulib/docs/book-v-temporal-boundary-data/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.BoundaryData](/verify/taulib/docs/book-v-temporal-boundary-data/)
+- Module: [TauLib.BookV.Temporal.BoundaryData](/corpus/taulib/docs/book-v-temporal-boundary-data/)
 - Source path: [`TauLib/BookV/Temporal/BoundaryData.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/BoundaryData.lean#L213-L216)
 - Source range: L213-L216
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

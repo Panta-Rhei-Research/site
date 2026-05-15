@@ -2,16 +2,16 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bh_t2_falsification",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/bh-t2-falsification/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/bh-t2-falsification/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::bh_t2_falsification",
   "declaration_slug": "bh-t2-falsification",
   "kind": "def",
   "name": "bh_t2_falsification",
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
-  "source_line_start": 401,
-  "source_line_end": 406,
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "source_line_start": 406,
+  "source_line_end": 412,
   "registry_ids": [
     "V.P131"
   ],
@@ -22,17 +22,19 @@
       "url": "/registry/object/V.P131/"
     }
   ],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L401-L406",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L406-L412",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -42,14 +44,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L401-L406",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L406-L412",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
-- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L401-L406)
-- Source range: L401-L406
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L406-L412)
+- Source range: L406-L412
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 
@@ -85,7 +89,7 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 ```lean
 /-- [V.P131] Three falsifiable T² BH predictions with explicit error bars.
     (1) QNM ratio = ι_τ⁻¹ (discriminator), (2) shadow correction +2.91%,
-    (3) GW echoes at t₊ = 4GM·ι_τ/c³. All zero-free-parameter predictions. -/
+    (3) T² cycle-delay readouts at t₊ = 4GM·ι_τ/c³. All zero-free-parameter predictions. -/
 ```
 
 ## Source Excerpt
@@ -95,6 +99,7 @@ def bh_t2_falsification : String :=
   "Three falsifiable T² BH predictions: " ++
   "(1) QNM ratio = ι_τ⁻¹ ≈ 2.930 vs S² 0.928, " ++
   "(2) shadow f = 1+ι_τ²/4 = 1.0291 (ngEHT), " ++
-  "(3) GW echoes t₋/t₊ = ι_τ⁻² = 8.585 (LIGO O5+). " ++
+  "(3) T² cycle-delay t₋/t₊ = ι_τ⁻² = 8.585 (LIGO O5+), " ++
+  "distinct from reflective-surface ECO echoes. " ++
   "Zero free parameters."
 ```

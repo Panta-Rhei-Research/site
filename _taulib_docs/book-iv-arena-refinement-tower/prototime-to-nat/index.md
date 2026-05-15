@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "prototime_to_nat",
-  "permalink": "/verify/taulib/docs/book-iv-arena-refinement-tower/prototime-to-nat/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-refinement-tower/prototime-to-nat/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Arena.RefinementTower`.",
   "declaration_id": "TauLib.BookIV.Arena.RefinementTower::prototime_to_nat",
   "declaration_slug": "prototime-to-nat",
   "kind": "def",
   "name": "prototime_to_nat",
   "module_name": "TauLib.BookIV.Arena.RefinementTower",
-  "module_url": "/verify/taulib/docs/book-iv-arena-refinement-tower/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-refinement-tower/",
   "source_line_start": 116,
   "source_line_end": 116,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/RefinementTower.lean#L116-L116",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.RefinementTower",
-        "url": "/verify/taulib/docs/book-iv-arena-refinement-tower/"
+        "url": "/corpus/taulib/docs/book-iv-arena-refinement-tower/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.RefinementTower](/verify/taulib/docs/book-iv-arena-refinement-tower/)
+- Module: [TauLib.BookIV.Arena.RefinementTower](/corpus/taulib/docs/book-iv-arena-refinement-tower/)
 - Source path: [`TauLib/BookIV/Arena/RefinementTower.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/RefinementTower.lean#L116-L116)
 - Source range: L116-L116
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

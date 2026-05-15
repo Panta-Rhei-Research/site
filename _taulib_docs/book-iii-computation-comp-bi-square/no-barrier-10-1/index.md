@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_barrier_10_1",
-  "permalink": "/verify/taulib/docs/book-iii-computation-comp-bi-square/no-barrier-10-1/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-comp-bi-square/no-barrier-10-1/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Computation.CompBiSquare`.",
   "declaration_id": "TauLib.BookIII.Computation.CompBiSquare::no_barrier_10_1",
   "declaration_slug": "no-barrier-10-1",
   "kind": "theorem",
   "name": "no_barrier_10_1",
   "module_name": "TauLib.BookIII.Computation.CompBiSquare",
-  "module_url": "/verify/taulib/docs/book-iii-computation-comp-bi-square/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-comp-bi-square/",
   "source_line_start": 192,
   "source_line_end": 195,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/CompBiSquare.lean#L192-L195",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.CompBiSquare",
-        "url": "/verify/taulib/docs/book-iii-computation-comp-bi-square/"
+        "url": "/corpus/taulib/docs/book-iii-computation-comp-bi-square/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.CompBiSquare](/verify/taulib/docs/book-iii-computation-comp-bi-square/)
+- Module: [TauLib.BookIII.Computation.CompBiSquare](/corpus/taulib/docs/book-iii-computation-comp-bi-square/)
 - Source path: [`TauLib/BookIII/Computation/CompBiSquare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/CompBiSquare.lean#L192-L195)
 - Source range: L192-L195
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "non_commutativity_witness",
-  "permalink": "/verify/taulib/docs/book-i-boundary-quaternions/non-commutativity-witness/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-quaternions/non-commutativity-witness/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Quaternions`.",
   "declaration_id": "TauLib.BookI.Boundary.Quaternions::non_commutativity_witness",
   "declaration_slug": "non-commutativity-witness",
   "kind": "theorem",
   "name": "non_commutativity_witness",
   "module_name": "TauLib.BookI.Boundary.Quaternions",
-  "module_url": "/verify/taulib/docs/book-i-boundary-quaternions/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-quaternions/",
   "source_line_start": 224,
   "source_line_end": 242,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Quaternions.lean#L224-L242",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Quaternions",
-        "url": "/verify/taulib/docs/book-i-boundary-quaternions/"
+        "url": "/corpus/taulib/docs/book-i-boundary-quaternions/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Quaternions](/verify/taulib/docs/book-i-boundary-quaternions/)
+- Module: [TauLib.BookI.Boundary.Quaternions](/corpus/taulib/docs/book-i-boundary-quaternions/)
 - Source path: [`TauLib/BookI/Boundary/Quaternions.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Quaternions.lean#L224-L242)
 - Source range: L224-L242
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

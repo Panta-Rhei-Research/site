@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fiber_base_factorization",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization-l164/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/fiber-base-factorization-l164/",
   "summary_short": "`def` declaration in `TauLib.BookIV.ManyBody.CondensedMatter`.",
   "declaration_id": "TauLib.BookIV.ManyBody.CondensedMatter::fiber_base_factorization",
   "declaration_slug": "fiber-base-factorization-l164",
   "kind": "def",
   "name": "fiber_base_factorization",
   "module_name": "TauLib.BookIV.ManyBody.CondensedMatter",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/",
   "source_line_start": 164,
   "source_line_end": 164,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L164-L164",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.CondensedMatter",
-        "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/verify/taulib/docs/book-iv-many-body-condensed-matter/)
+- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/corpus/taulib/docs/book-iv-many-body-condensed-matter/)
 - Source path: [`TauLib/BookIV/ManyBody/CondensedMatter.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L164-L164)
 - Source range: L164-L164
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

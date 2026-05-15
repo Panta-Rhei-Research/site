@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PhotonBoundaryChar",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-photon-mode/photon-boundary-char/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/photon-boundary-char/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.PhotonMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.PhotonMode::PhotonBoundaryChar",
   "declaration_slug": "photon-boundary-char",
   "kind": "structure",
   "name": "PhotonBoundaryChar",
   "module_name": "TauLib.BookIV.Electroweak.PhotonMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/",
   "source_line_start": 266,
   "source_line_end": 270,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L266-L270",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.PhotonMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.PhotonMode](/verify/taulib/docs/book-iv-electroweak-photon-mode/)
+- Module: [TauLib.BookIV.Electroweak.PhotonMode](/corpus/taulib/docs/book-iv-electroweak-photon-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/PhotonMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L266-L270)
 - Source range: L266-L270
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

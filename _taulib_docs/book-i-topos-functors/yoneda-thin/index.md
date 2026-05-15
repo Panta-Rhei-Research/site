@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "yoneda_thin",
-  "permalink": "/verify/taulib/docs/book-i-topos-functors/yoneda-thin/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-functors/yoneda-thin/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.Functors`.",
   "declaration_id": "TauLib.BookI.Topos.Functors::yoneda_thin",
   "declaration_slug": "yoneda-thin",
   "kind": "theorem",
   "name": "yoneda_thin",
   "module_name": "TauLib.BookI.Topos.Functors",
-  "module_url": "/verify/taulib/docs/book-i-topos-functors/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-functors/",
   "source_line_start": 146,
   "source_line_end": 148,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/Functors.lean#L146-L148",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.Functors",
-        "url": "/verify/taulib/docs/book-i-topos-functors/"
+        "url": "/corpus/taulib/docs/book-i-topos-functors/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.Functors](/verify/taulib/docs/book-i-topos-functors/)
+- Module: [TauLib.BookI.Topos.Functors](/corpus/taulib/docs/book-i-topos-functors/)
 - Source path: [`TauLib/BookI/Topos/Functors.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/Functors.lean#L146-L148)
 - Source range: L146-L148
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

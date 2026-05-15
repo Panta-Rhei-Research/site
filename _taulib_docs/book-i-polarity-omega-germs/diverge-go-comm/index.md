@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "diverge_go_comm",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-germs/diverge-go-comm/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-germs/diverge-go-comm/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.OmegaGerms`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaGerms::diverge_go_comm",
   "declaration_slug": "diverge-go-comm",
   "kind": "theorem",
   "name": "diverge_go_comm",
   "module_name": "TauLib.BookI.Polarity.OmegaGerms",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-germs/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-germs/",
   "source_line_start": 219,
   "source_line_end": 234,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L219-L234",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaGerms",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-germs/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-germs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaGerms](/verify/taulib/docs/book-i-polarity-omega-germs/)
+- Module: [TauLib.BookI.Polarity.OmegaGerms](/corpus/taulib/docs/book-i-polarity-omega-germs/)
 - Source path: [`TauLib/BookI/Polarity/OmegaGerms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L219-L234)
 - Source range: L219-L234
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

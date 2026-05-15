@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "consumer_sector",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-four-plus-one/consumer-sector/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/consumer-sector/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Sectors.FourPlusOne`.",
   "declaration_id": "TauLib.BookVI.Sectors.FourPlusOne::consumer_sector",
   "declaration_slug": "consumer-sector",
   "kind": "def",
   "name": "consumer_sector",
   "module_name": "TauLib.BookVI.Sectors.FourPlusOne",
-  "module_url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/",
+  "module_url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/",
   "source_line_start": 53,
   "source_line_end": 56,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/FourPlusOne.lean#L53-L56",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Sectors.FourPlusOne",
-        "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/"
+        "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Sectors.FourPlusOne](/verify/taulib/docs/book-vi-sectors-four-plus-one/)
+- Module: [TauLib.BookVI.Sectors.FourPlusOne](/corpus/taulib/docs/book-vi-sectors-four-plus-one/)
 - Source path: [`TauLib/BookVI/Sectors/FourPlusOne.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/FourPlusOne.lean#L53-L56)
 - Source range: L53-L56
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

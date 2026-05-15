@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eht_comparison_remark",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-ehtreread/eht-comparison-remark/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/eht-comparison-remark/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.EHTReread`.",
   "declaration_id": "TauLib.BookV.Astrophysics.EHTReread::eht_comparison_remark",
   "declaration_slug": "eht-comparison-remark",
   "kind": "def",
   "name": "eht_comparison_remark",
   "module_name": "TauLib.BookV.Astrophysics.EHTReread",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/",
   "source_line_start": 508,
   "source_line_end": 510,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L508-L510",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.EHTReread",
-        "url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.EHTReread](/verify/taulib/docs/book-v-astrophysics-ehtreread/)
+- Module: [TauLib.BookV.Astrophysics.EHTReread](/corpus/taulib/docs/book-v-astrophysics-ehtreread/)
 - Source path: [`TauLib/BookV/Astrophysics/EHTReread.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L508-L510)
 - Source range: L508-L510
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

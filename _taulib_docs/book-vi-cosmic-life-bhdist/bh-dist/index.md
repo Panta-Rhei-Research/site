@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bh_dist",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/bh-dist/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/bh-dist/",
   "summary_short": "`def` declaration in `TauLib.BookVI.CosmicLife.BHDist`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.BHDist::bh_dist",
   "declaration_slug": "bh-dist",
   "kind": "def",
   "name": "bh_dist",
   "module_name": "TauLib.BookVI.CosmicLife.BHDist",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/",
   "source_line_start": 144,
   "source_line_end": 146,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHDist.lean#L144-L146",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.BHDist",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.BHDist](/verify/taulib/docs/book-vi-cosmic-life-bhdist/)
+- Module: [TauLib.BookVI.CosmicLife.BHDist](/corpus/taulib/docs/book-vi-cosmic-life-bhdist/)
 - Source path: [`TauLib/BookVI/CosmicLife/BHDist.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHDist.lean#L144-L146)
 - Source range: L144-L146
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "s4_unique_from_neg7",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/s4-unique-from-neg7/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/s4-unique-from-neg7/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.EpsteinZeta`.",
   "declaration_id": "TauLib.BookIV.Calibration.EpsteinZeta::s4_unique_from_neg7",
   "declaration_slug": "s4-unique-from-neg7",
   "kind": "theorem",
   "name": "s4_unique_from_neg7",
   "module_name": "TauLib.BookIV.Calibration.EpsteinZeta",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/",
   "source_line_start": 140,
   "source_line_end": 141,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/EpsteinZeta.lean#L140-L141",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.EpsteinZeta",
-        "url": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.EpsteinZeta](/verify/taulib/docs/book-iv-calibration-epstein-zeta/)
+- Module: [TauLib.BookIV.Calibration.EpsteinZeta](/corpus/taulib/docs/book-iv-calibration-epstein-zeta/)
 - Source path: [`TauLib/BookIV/Calibration/EpsteinZeta.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/EpsteinZeta.lean#L140-L141)
 - Source range: L140-L141
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

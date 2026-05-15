@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "LifePhaseBoundary",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.LifeCore.LayerSep`.",
   "declaration_id": "TauLib.BookVI.LifeCore.LayerSep::LifePhaseBoundary",
   "declaration_slug": "life-phase-boundary",
   "kind": "structure",
   "name": "LifePhaseBoundary",
   "module_name": "TauLib.BookVI.LifeCore.LayerSep",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-layer-sep/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/",
   "source_line_start": 75,
   "source_line_end": 78,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/LayerSep.lean#L75-L78",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.LayerSep",
-        "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.LayerSep](/verify/taulib/docs/book-vi-life-core-layer-sep/)
+- Module: [TauLib.BookVI.LifeCore.LayerSep](/corpus/taulib/docs/book-vi-life-core-layer-sep/)
 - Source path: [`TauLib/BookVI/LifeCore/LayerSep.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/LayerSep.lean#L75-L78)
 - Source range: L75-L78
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

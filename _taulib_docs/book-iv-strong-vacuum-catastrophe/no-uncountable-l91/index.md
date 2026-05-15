@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_uncountable",
-  "permalink": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/no-uncountable-l91/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/no-uncountable-l91/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Strong.VacuumCatastrophe`.",
   "declaration_id": "TauLib.BookIV.Strong.VacuumCatastrophe::no_uncountable",
   "declaration_slug": "no-uncountable-l91",
   "kind": "def",
   "name": "no_uncountable",
   "module_name": "TauLib.BookIV.Strong.VacuumCatastrophe",
-  "module_url": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/",
   "source_line_start": 91,
   "source_line_end": 91,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/VacuumCatastrophe.lean#L91-L91",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.VacuumCatastrophe",
-        "url": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/"
+        "url": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.VacuumCatastrophe](/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/)
+- Module: [TauLib.BookIV.Strong.VacuumCatastrophe](/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/)
 - Source path: [`TauLib/BookIV/Strong/VacuumCatastrophe.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/VacuumCatastrophe.lean#L91-L91)
 - Source range: L91-L91
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.ManyBody.NFLBoundary",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-nflboundary/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-nflboundary/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.ManyBody.NFLBoundary`.",
   "module_name": "TauLib.BookIV.ManyBody.NFLBoundary",
   "module_slug": "book-iv-many-body-nflboundary",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "NonDissEndomorphism",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/non-diss-endomorphism/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/non-diss-endomorphism/",
       "source_line_start": 48,
       "source_line_end": 55,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D390"
       ]
@@ -46,19 +48,23 @@
     {
       "kind": "def",
       "name": "nondiss_endomorphism",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/nondiss-endomorphism/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/nondiss-endomorphism/",
       "source_line_start": 57,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NFLBoundary",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/nflboundary/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/nflboundary/",
       "source_line_start": 79,
       "source_line_end": 92,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T210"
       ]
@@ -66,46 +72,56 @@
     {
       "kind": "def",
       "name": "nfl_boundary",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/nfl-boundary/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/nfl-boundary/",
       "source_line_start": 94,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nfl_nondiss_iff_aut",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/nfl-nondiss-iff-aut/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/nfl-nondiss-iff-aut/",
       "source_line_start": 96,
       "source_line_end": 97,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "euler_all_automorphisms",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/euler-all-automorphisms/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/euler-all-automorphisms/",
       "source_line_start": 99,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ns_has_strict_endomorphisms",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/ns-has-strict-endomorphisms/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/ns-has-strict-endomorphisms/",
       "source_line_start": 102,
       "source_line_end": 103,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DecidableMeta",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/decidable-meta/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/decidable-meta/",
       "source_line_start": 122,
       "source_line_end": 133,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T211"
       ]
@@ -113,37 +129,45 @@
     {
       "kind": "def",
       "name": "decidable_meta",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/decidable-meta-l135/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/decidable-meta-l135/",
       "source_line_start": 135,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "phase_classification_decidable",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/phase-classification-decidable/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/phase-classification-decidable/",
       "source_line_start": 137,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_real_arithmetic",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/no-real-arithmetic/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/no-real-arithmetic/",
       "source_line_start": 140,
       "source_line_end": 141,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TenRegimeInstantiations",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/ten-regime-instantiations/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-regime-instantiations/",
       "source_line_start": 149,
       "source_line_end": 159,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P229"
       ]
@@ -151,91 +175,111 @@
     {
       "kind": "def",
       "name": "ten_regimes",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/ten-regimes/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-regimes/",
       "source_line_start": 161,
       "source_line_end": 161,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ten_decidable_regimes_total",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-total/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-total/",
       "source_line_start": 163,
       "source_line_end": 164,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ten_decidable_regimes_all",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-all/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-all/",
       "source_line_start": 166,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ten_decidable_regimes_count",
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-count/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-count/",
       "source_line_start": 169,
       "source_line_end": 170,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l176/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l176/",
       "source_line_start": 176,
       "source_line_end": 176,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l177/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l177/",
       "source_line_start": 177,
       "source_line_end": 177,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l178/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l178/",
       "source_line_start": 178,
       "source_line_end": 178,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l179/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l179/",
       "source_line_start": 179,
       "source_line_end": 179,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l180/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l180/",
       "source_line_start": 180,
       "source_line_end": 180,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l181/",
+      "url": "/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l181/",
       "source_line_start": 181,
       "source_line_end": 183,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -247,7 +291,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -320,27 +364,27 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [NonDissEndomorphism](/verify/taulib/docs/book-iv-many-body-nflboundary/non-diss-endomorphism/) | L48-L55 | defined | `IV.D390` |
-| `def` | [nondiss_endomorphism](/verify/taulib/docs/book-iv-many-body-nflboundary/nondiss-endomorphism/) | L57-L57 | defined | — |
-| `structure` | [NFLBoundary](/verify/taulib/docs/book-iv-many-body-nflboundary/nflboundary/) | L79-L92 | defined | `IV.T210` |
-| `def` | [nfl_boundary](/verify/taulib/docs/book-iv-many-body-nflboundary/nfl-boundary/) | L94-L94 | defined | — |
-| `theorem` | [nfl_nondiss_iff_aut](/verify/taulib/docs/book-iv-many-body-nflboundary/nfl-nondiss-iff-aut/) | L96-L97 | formalized | — |
-| `theorem` | [euler_all_automorphisms](/verify/taulib/docs/book-iv-many-body-nflboundary/euler-all-automorphisms/) | L99-L100 | formalized | — |
-| `theorem` | [ns_has_strict_endomorphisms](/verify/taulib/docs/book-iv-many-body-nflboundary/ns-has-strict-endomorphisms/) | L102-L103 | formalized | — |
-| `structure` | [DecidableMeta](/verify/taulib/docs/book-iv-many-body-nflboundary/decidable-meta/) | L122-L133 | defined | `IV.T211` |
-| `def` | [decidable_meta](/verify/taulib/docs/book-iv-many-body-nflboundary/decidable-meta-l135/) | L135-L135 | defined | — |
-| `theorem` | [phase_classification_decidable](/verify/taulib/docs/book-iv-many-body-nflboundary/phase-classification-decidable/) | L137-L138 | formalized | — |
-| `theorem` | [no_real_arithmetic](/verify/taulib/docs/book-iv-many-body-nflboundary/no-real-arithmetic/) | L140-L141 | formalized | — |
-| `structure` | [TenRegimeInstantiations](/verify/taulib/docs/book-iv-many-body-nflboundary/ten-regime-instantiations/) | L149-L159 | defined | `IV.P229` |
-| `def` | [ten_regimes](/verify/taulib/docs/book-iv-many-body-nflboundary/ten-regimes/) | L161-L161 | defined | — |
-| `theorem` | [ten_decidable_regimes_total](/verify/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-total/) | L163-L164 | formalized | — |
-| `theorem` | [ten_decidable_regimes_all](/verify/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-all/) | L166-L167 | formalized | — |
-| `theorem` | [ten_decidable_regimes_count](/verify/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-count/) | L169-L170 | formalized | — |
-| `eval` | [#eval L176](/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l176/) | L176-L176 | computed | — |
-| `eval` | [#eval L177](/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l177/) | L177-L177 | computed | — |
-| `eval` | [#eval L178](/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l178/) | L178-L178 | computed | — |
-| `eval` | [#eval L179](/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l179/) | L179-L179 | computed | — |
-| `eval` | [#eval L180](/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l180/) | L180-L180 | computed | — |
-| `eval` | [#eval L181](/verify/taulib/docs/book-iv-many-body-nflboundary/eval-l181/) | L181-L183 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [NonDissEndomorphism](/corpus/taulib/docs/book-iv-many-body-nflboundary/non-diss-endomorphism/) | L48-L55 | type/data schema | type/data schema | `IV.D390` |
+| `def` | [nondiss_endomorphism](/corpus/taulib/docs/book-iv-many-body-nflboundary/nondiss-endomorphism/) | L57-L57 | definition | definition | — |
+| `structure` | [NFLBoundary](/corpus/taulib/docs/book-iv-many-body-nflboundary/nflboundary/) | L79-L92 | type/data schema | type/data schema | `IV.T210` |
+| `def` | [nfl_boundary](/corpus/taulib/docs/book-iv-many-body-nflboundary/nfl-boundary/) | L94-L94 | definition | definition | — |
+| `theorem` | [nfl_nondiss_iff_aut](/corpus/taulib/docs/book-iv-many-body-nflboundary/nfl-nondiss-iff-aut/) | L96-L97 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [euler_all_automorphisms](/corpus/taulib/docs/book-iv-many-body-nflboundary/euler-all-automorphisms/) | L99-L100 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ns_has_strict_endomorphisms](/corpus/taulib/docs/book-iv-many-body-nflboundary/ns-has-strict-endomorphisms/) | L102-L103 | proof obligation | formal proof obligation checked | — |
+| `structure` | [DecidableMeta](/corpus/taulib/docs/book-iv-many-body-nflboundary/decidable-meta/) | L122-L133 | type/data schema | type/data schema | `IV.T211` |
+| `def` | [decidable_meta](/corpus/taulib/docs/book-iv-many-body-nflboundary/decidable-meta-l135/) | L135-L135 | definition | definition | — |
+| `theorem` | [phase_classification_decidable](/corpus/taulib/docs/book-iv-many-body-nflboundary/phase-classification-decidable/) | L137-L138 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [no_real_arithmetic](/corpus/taulib/docs/book-iv-many-body-nflboundary/no-real-arithmetic/) | L140-L141 | proof obligation | formal proof obligation checked | — |
+| `structure` | [TenRegimeInstantiations](/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-regime-instantiations/) | L149-L159 | type/data schema | type/data schema | `IV.P229` |
+| `def` | [ten_regimes](/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-regimes/) | L161-L161 | definition | definition | — |
+| `theorem` | [ten_decidable_regimes_total](/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-total/) | L163-L164 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ten_decidable_regimes_all](/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-all/) | L166-L167 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ten_decidable_regimes_count](/corpus/taulib/docs/book-iv-many-body-nflboundary/ten-decidable-regimes-count/) | L169-L170 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L176](/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l176/) | L176-L176 | computed check | computed check | — |
+| `eval` | [#eval L177](/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l177/) | L177-L177 | computed check | computed check | — |
+| `eval` | [#eval L178](/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l178/) | L178-L178 | computed check | computed check | — |
+| `eval` | [#eval L179](/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l179/) | L179-L179 | computed check | computed check | — |
+| `eval` | [#eval L180](/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l180/) | L180-L180 | computed check | computed check | — |
+| `eval` | [#eval L181](/corpus/taulib/docs/book-iv-many-body-nflboundary/eval-l181/) | L181-L183 | computed check | computed check | — |

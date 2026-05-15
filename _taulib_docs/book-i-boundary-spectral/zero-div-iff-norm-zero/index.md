@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "zero_div_iff_norm_zero",
-  "permalink": "/verify/taulib/docs/book-i-boundary-spectral/zero-div-iff-norm-zero/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-spectral/zero-div-iff-norm-zero/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Spectral`.",
   "declaration_id": "TauLib.BookI.Boundary.Spectral::zero_div_iff_norm_zero",
   "declaration_slug": "zero-div-iff-norm-zero",
   "kind": "theorem",
   "name": "zero_div_iff_norm_zero",
   "module_name": "TauLib.BookI.Boundary.Spectral",
-  "module_url": "/verify/taulib/docs/book-i-boundary-spectral/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-spectral/",
   "source_line_start": 199,
   "source_line_end": 202,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L199-L202",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Spectral",
-        "url": "/verify/taulib/docs/book-i-boundary-spectral/"
+        "url": "/corpus/taulib/docs/book-i-boundary-spectral/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Spectral](/verify/taulib/docs/book-i-boundary-spectral/)
+- Module: [TauLib.BookI.Boundary.Spectral](/corpus/taulib/docs/book-i-boundary-spectral/)
 - Source path: [`TauLib/BookI/Boundary/Spectral.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L199-L202)
 - Source range: L199-L202
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

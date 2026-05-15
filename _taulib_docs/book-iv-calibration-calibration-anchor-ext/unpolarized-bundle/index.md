@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "unpolarized_bundle",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/unpolarized-bundle/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/unpolarized-bundle/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.CalibrationAnchorExt`.",
   "declaration_id": "TauLib.BookIV.Calibration.CalibrationAnchorExt::unpolarized_bundle",
   "declaration_slug": "unpolarized-bundle",
   "kind": "def",
   "name": "unpolarized_bundle",
   "module_name": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/",
   "source_line_start": 255,
   "source_line_end": 255,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchorExt.lean#L255-L255",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
-        "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.CalibrationAnchorExt](/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/)
+- Module: [TauLib.BookIV.Calibration.CalibrationAnchorExt](/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/)
 - Source path: [`TauLib/BookIV/Calibration/CalibrationAnchorExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchorExt.lean#L255-L255)
 - Source range: L255-L255
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

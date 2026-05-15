@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L385",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-ring/eval-l385/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-ring/eval-l385/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Polarity.OmegaRing`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaRing::#eval:385",
   "declaration_slug": "eval-l385",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.OmegaRing",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-ring/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-ring/",
   "source_line_start": 385,
   "source_line_end": 385,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaRing.lean#L385-L385",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaRing",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-ring/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-ring/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaRing](/verify/taulib/docs/book-i-polarity-omega-ring/)
+- Module: [TauLib.BookI.Polarity.OmegaRing](/corpus/taulib/docs/book-i-polarity-omega-ring/)
 - Source path: [`TauLib/BookI/Polarity/OmegaRing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaRing.lean#L385-L385)
 - Source range: L385-L385
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

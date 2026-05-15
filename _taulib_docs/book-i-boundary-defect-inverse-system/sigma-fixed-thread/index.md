@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DefectInverseSystem.SigmaFixedThread",
-  "permalink": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/sigma-fixed-thread/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/sigma-fixed-thread/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Boundary.DefectInverseSystem`.",
   "declaration_id": "TauLib.BookI.Boundary.DefectInverseSystem::DefectInverseSystem.SigmaFixedThread",
   "declaration_slug": "sigma-fixed-thread",
   "kind": "structure",
   "name": "DefectInverseSystem.SigmaFixedThread",
   "module_name": "TauLib.BookI.Boundary.DefectInverseSystem",
-  "module_url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/",
   "source_line_start": 181,
   "source_line_end": 184,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/DefectInverseSystem.lean#L181-L184",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.DefectInverseSystem",
-        "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/"
+        "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.DefectInverseSystem](/verify/taulib/docs/book-i-boundary-defect-inverse-system/)
+- Module: [TauLib.BookI.Boundary.DefectInverseSystem](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/)
 - Source path: [`TauLib/BookI/Boundary/DefectInverseSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/DefectInverseSystem.lean#L181-L184)
 - Source range: L181-L184
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

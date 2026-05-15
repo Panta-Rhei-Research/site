@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "operational_closure_5_3",
-  "permalink": "/verify/taulib/docs/book-iii-computation-e2-agent/operational-closure-5-3/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-e2-agent/operational-closure-5-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Computation.E2Agent`.",
   "declaration_id": "TauLib.BookIII.Computation.E2Agent::operational_closure_5_3",
   "declaration_slug": "operational-closure-5-3",
   "kind": "theorem",
   "name": "operational_closure_5_3",
   "module_name": "TauLib.BookIII.Computation.E2Agent",
-  "module_url": "/verify/taulib/docs/book-iii-computation-e2-agent/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-e2-agent/",
   "source_line_start": 157,
   "source_line_end": 158,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/E2Agent.lean#L157-L158",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.E2Agent",
-        "url": "/verify/taulib/docs/book-iii-computation-e2-agent/"
+        "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.E2Agent](/verify/taulib/docs/book-iii-computation-e2-agent/)
+- Module: [TauLib.BookIII.Computation.E2Agent](/corpus/taulib/docs/book-iii-computation-e2-agent/)
 - Source path: [`TauLib/BookIII/Computation/E2Agent.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/E2Agent.lean#L157-L158)
 - Source range: L157-L158
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

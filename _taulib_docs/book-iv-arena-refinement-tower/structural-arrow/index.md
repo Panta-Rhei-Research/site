@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "structural_arrow",
-  "permalink": "/verify/taulib/docs/book-iv-arena-refinement-tower/structural-arrow/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-refinement-tower/structural-arrow/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Arena.RefinementTower`.",
   "declaration_id": "TauLib.BookIV.Arena.RefinementTower::structural_arrow",
   "declaration_slug": "structural-arrow",
   "kind": "theorem",
   "name": "structural_arrow",
   "module_name": "TauLib.BookIV.Arena.RefinementTower",
-  "module_url": "/verify/taulib/docs/book-iv-arena-refinement-tower/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-refinement-tower/",
   "source_line_start": 129,
   "source_line_end": 130,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/RefinementTower.lean#L129-L130",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.RefinementTower",
-        "url": "/verify/taulib/docs/book-iv-arena-refinement-tower/"
+        "url": "/corpus/taulib/docs/book-iv-arena-refinement-tower/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.RefinementTower](/verify/taulib/docs/book-iv-arena-refinement-tower/)
+- Module: [TauLib.BookIV.Arena.RefinementTower](/corpus/taulib/docs/book-iv-arena-refinement-tower/)
 - Source path: [`TauLib/BookIV/Arena/RefinementTower.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/RefinementTower.lean#L129-L130)
 - Source range: L129-L130
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

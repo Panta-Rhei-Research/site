@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h4_closure_synthesis",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/h4-closure-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/h4-closure-synthesis/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.H4UniquenessElliptic`.",
   "declaration_id": "TauLib.BookI.Polarity.H4UniquenessElliptic::h4_closure_synthesis",
   "declaration_slug": "h4-closure-synthesis",
   "kind": "theorem",
   "name": "h4_closure_synthesis",
   "module_name": "TauLib.BookI.Polarity.H4UniquenessElliptic",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/",
   "source_line_start": 323,
   "source_line_end": 334,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4UniquenessElliptic.lean#L323-L334",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H4UniquenessElliptic",
-        "url": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H4UniquenessElliptic](/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/)
+- Module: [TauLib.BookI.Polarity.H4UniquenessElliptic](/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/)
 - Source path: [`TauLib/BookI/Polarity/H4UniquenessElliptic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4UniquenessElliptic.lean#L323-L334)
 - Source range: L323-L334
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

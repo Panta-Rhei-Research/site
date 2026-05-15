@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRatAbs",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRatAbs`.",
   "module_name": "TauLib.BookI.Boundary.TauRatAbs",
   "module_slug": "book-i-boundary-tau-rat-abs",
@@ -40,154 +40,188 @@
     {
       "kind": "def",
       "name": "TauRat.abs",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs/",
       "source_line_start": 62,
       "source_line_end": 63,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.toRat_nonneg_iff_num_nonneg",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-nonneg-iff-num-nonneg/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-nonneg-iff-num-nonneg/",
       "source_line_start": 72,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.toRat_neg_iff_num_neg",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-neg-iff-num-neg/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-neg-iff-num-neg/",
       "source_line_start": 87,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "toRat_abs_of_nonneg",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-nonneg/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-nonneg/",
       "source_line_start": 105,
       "source_line_end": 108,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "toRat_abs_of_neg",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-neg/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-neg/",
       "source_line_start": 111,
       "source_line_end": 114,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_nonneg",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-nonneg/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-nonneg/",
       "source_line_start": 121,
       "source_line_end": 126,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_equiv_zero_iff_equiv_zero",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-equiv-zero-iff-equiv-zero/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-equiv-zero-iff-equiv-zero/",
       "source_line_start": 133,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_of_equiv",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-of-equiv/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-of-equiv/",
       "source_line_start": 151,
       "source_line_end": 160,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.toRat_abs",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs/",
       "source_line_start": 168,
       "source_line_end": 172,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_triangle",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-triangle/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-triangle/",
       "source_line_start": 179,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_negate",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-negate/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-negate/",
       "source_line_start": 185,
       "source_line_end": 197,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauRat.ofNatRecip",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip/",
       "source_line_start": 207,
       "source_line_end": 208,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.ofNatRecip_pos",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-pos/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-pos/",
       "source_line_start": 211,
       "source_line_end": 219,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.ofNatRecip_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-to-rat/",
       "source_line_start": 222,
       "source_line_end": 225,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/example-l232/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/example-l232/",
       "source_line_start": 232,
       "source_line_end": 237,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/example-l240/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/example-l240/",
       "source_line_start": 240,
       "source_line_end": 245,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-tau-rat-abs/example-l248/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-abs/example-l248/",
       "source_line_start": 248,
       "source_line_end": 251,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     }
   ],
@@ -199,7 +233,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -274,22 +308,22 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauRat.abs](/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs/) | L62-L63 | defined | — |
-| `theorem` | [TauRat.toRat_nonneg_iff_num_nonneg](/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-nonneg-iff-num-nonneg/) | L72-L84 | formalized | — |
-| `theorem` | [TauRat.toRat_neg_iff_num_neg](/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-neg-iff-num-neg/) | L87-L98 | formalized | — |
-| `theorem` | [toRat_abs_of_nonneg](/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-nonneg/) | L105-L108 | formalized | — |
-| `theorem` | [toRat_abs_of_neg](/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-neg/) | L111-L114 | formalized | — |
-| `theorem` | [TauRat.abs_nonneg](/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-nonneg/) | L121-L126 | formalized | — |
-| `theorem` | [TauRat.abs_equiv_zero_iff_equiv_zero](/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-equiv-zero-iff-equiv-zero/) | L133-L144 | formalized | — |
-| `theorem` | [TauRat.abs_of_equiv](/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-of-equiv/) | L151-L160 | formalized | — |
-| `theorem` | [TauRat.toRat_abs](/verify/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs/) | L168-L172 | formalized | — |
-| `theorem` | [TauRat.abs_triangle](/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-triangle/) | L179-L182 | formalized | — |
-| `theorem` | [TauRat.abs_negate](/verify/taulib/docs/book-i-boundary-tau-rat-abs/abs-negate/) | L185-L197 | formalized | — |
-| `def` | [TauRat.ofNatRecip](/verify/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip/) | L207-L208 | defined | — |
-| `theorem` | [TauRat.ofNatRecip_pos](/verify/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-pos/) | L211-L219 | formalized | — |
-| `theorem` | [TauRat.ofNatRecip_toRat](/verify/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-to-rat/) | L222-L225 | formalized | — |
-| `example` | [#eval L232](/verify/taulib/docs/book-i-boundary-tau-rat-abs/example-l232/) | L232-L237 | example | — |
-| `example` | [#eval L240](/verify/taulib/docs/book-i-boundary-tau-rat-abs/example-l240/) | L240-L245 | example | — |
-| `example` | [#eval L248](/verify/taulib/docs/book-i-boundary-tau-rat-abs/example-l248/) | L248-L251 | example | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauRat.abs](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs/) | L62-L63 | definition | definition | — |
+| `theorem` | [TauRat.toRat_nonneg_iff_num_nonneg](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-nonneg-iff-num-nonneg/) | L72-L84 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.toRat_neg_iff_num_neg](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-neg-iff-num-neg/) | L87-L98 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [toRat_abs_of_nonneg](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-nonneg/) | L105-L108 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [toRat_abs_of_neg](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs-of-neg/) | L111-L114 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_nonneg](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-nonneg/) | L121-L126 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_equiv_zero_iff_equiv_zero](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-equiv-zero-iff-equiv-zero/) | L133-L144 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_of_equiv](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-of-equiv/) | L151-L160 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.toRat_abs](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/to-rat-abs/) | L168-L172 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_triangle](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-triangle/) | L179-L182 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_negate](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/abs-negate/) | L185-L197 | proof obligation | formal proof obligation checked | — |
+| `def` | [TauRat.ofNatRecip](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip/) | L207-L208 | data/computed value | data/computed value | — |
+| `theorem` | [TauRat.ofNatRecip_pos](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-pos/) | L211-L219 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.ofNatRecip_toRat](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/of-nat-recip-to-rat/) | L222-L225 | proof obligation | formal proof obligation checked | — |
+| `example` | [#eval L232](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/example-l232/) | L232-L237 | example check | example | — |
+| `example` | [#eval L240](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/example-l240/) | L240-L245 | example check | example | — |
+| `example` | [#eval L248](/corpus/taulib/docs/book-i-boundary-tau-rat-abs/example-l248/) | L248-L251 | example check | example | — |

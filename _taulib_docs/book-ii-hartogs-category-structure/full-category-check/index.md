@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "full_category_check",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-category-structure/full-category-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-category-structure/full-category-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.CategoryStructure`.",
   "declaration_id": "TauLib.BookII.Hartogs.CategoryStructure::full_category_check",
   "declaration_slug": "full-category-check",
   "kind": "def",
   "name": "full_category_check",
   "module_name": "TauLib.BookII.Hartogs.CategoryStructure",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-category-structure/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-category-structure/",
   "source_line_start": 388,
   "source_line_end": 391,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CategoryStructure.lean#L388-L391",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CategoryStructure",
-        "url": "/verify/taulib/docs/book-ii-hartogs-category-structure/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-category-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CategoryStructure](/verify/taulib/docs/book-ii-hartogs-category-structure/)
+- Module: [TauLib.BookII.Hartogs.CategoryStructure](/corpus/taulib/docs/book-ii-hartogs-category-structure/)
 - Source path: [`TauLib/BookII/Hartogs/CategoryStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CategoryStructure.lean#L388-L391)
 - Source range: L388-L391
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

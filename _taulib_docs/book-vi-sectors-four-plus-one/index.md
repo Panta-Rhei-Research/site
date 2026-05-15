@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Sectors.FourPlusOne",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-four-plus-one/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Sectors.FourPlusOne`.",
   "module_name": "TauLib.BookVI.Sectors.FourPlusOne",
   "module_slug": "book-vi-sectors-four-plus-one",
@@ -45,10 +45,12 @@
     {
       "kind": "structure",
       "name": "LifeSector",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/life-sector/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/life-sector/",
       "source_line_start": 22,
       "source_line_end": 26,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D15"
       ]
@@ -56,10 +58,12 @@
     {
       "kind": "def",
       "name": "persistence_sector",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/persistence-sector/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/persistence-sector/",
       "source_line_start": 29,
       "source_line_end": 32,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.D16"
       ]
@@ -67,10 +71,12 @@
     {
       "kind": "def",
       "name": "agency_sector",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/agency-sector/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/agency-sector/",
       "source_line_start": 35,
       "source_line_end": 38,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.D17"
       ]
@@ -78,10 +84,12 @@
     {
       "kind": "def",
       "name": "source_sector",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/source-sector/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/source-sector/",
       "source_line_start": 41,
       "source_line_end": 44,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.D18"
       ]
@@ -89,10 +97,12 @@
     {
       "kind": "def",
       "name": "closure_sector",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/closure-sector/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/closure-sector/",
       "source_line_start": 47,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.D19"
       ]
@@ -100,10 +110,12 @@
     {
       "kind": "def",
       "name": "consumer_sector",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/consumer-sector/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/consumer-sector/",
       "source_line_start": 53,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.D20"
       ]
@@ -111,46 +123,56 @@
     {
       "kind": "def",
       "name": "all_sectors",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/all-sectors/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/all-sectors/",
       "source_line_start": 58,
       "source_line_end": 59,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sector_count",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/sector-count/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/sector-count/",
       "source_line_start": 61,
       "source_line_end": 61,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "primitive_sectors",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/primitive-sectors/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/primitive-sectors/",
       "source_line_start": 63,
       "source_line_end": 64,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "primitive_count",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/primitive-count/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/primitive-count/",
       "source_line_start": 66,
       "source_line_end": 66,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GeneratorAdequacy",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy/",
       "source_line_start": 69,
       "source_line_end": 74,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T07"
       ]
@@ -158,28 +180,34 @@
     {
       "kind": "def",
       "name": "gen_adequacy",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/gen-adequacy/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/gen-adequacy/",
       "source_line_start": 76,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "generator_adequacy_e2",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy-e2/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy-e2/",
       "source_line_start": 80,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NeutronNoDist",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/neutron-no-dist/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/neutron-no-dist/",
       "source_line_start": 87,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L05"
       ]
@@ -187,19 +215,23 @@
     {
       "kind": "def",
       "name": "neutron_nd",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/neutron-nd/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/neutron-nd/",
       "source_line_start": 92,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "neutron_nodist",
-      "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/neutron-nodist/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/neutron-nodist/",
       "source_line_start": 96,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -211,7 +243,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -294,21 +326,21 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [LifeSector](/verify/taulib/docs/book-vi-sectors-four-plus-one/life-sector/) | L22-L26 | defined | `VI.D15` |
-| `def` | [persistence_sector](/verify/taulib/docs/book-vi-sectors-four-plus-one/persistence-sector/) | L29-L32 | defined | `VI.D16` |
-| `def` | [agency_sector](/verify/taulib/docs/book-vi-sectors-four-plus-one/agency-sector/) | L35-L38 | defined | `VI.D17` |
-| `def` | [source_sector](/verify/taulib/docs/book-vi-sectors-four-plus-one/source-sector/) | L41-L44 | defined | `VI.D18` |
-| `def` | [closure_sector](/verify/taulib/docs/book-vi-sectors-four-plus-one/closure-sector/) | L47-L50 | defined | `VI.D19` |
-| `def` | [consumer_sector](/verify/taulib/docs/book-vi-sectors-four-plus-one/consumer-sector/) | L53-L56 | defined | `VI.D20` |
-| `def` | [all_sectors](/verify/taulib/docs/book-vi-sectors-four-plus-one/all-sectors/) | L58-L59 | defined | — |
-| `theorem` | [sector_count](/verify/taulib/docs/book-vi-sectors-four-plus-one/sector-count/) | L61-L61 | formalized | — |
-| `def` | [primitive_sectors](/verify/taulib/docs/book-vi-sectors-four-plus-one/primitive-sectors/) | L63-L64 | defined | — |
-| `theorem` | [primitive_count](/verify/taulib/docs/book-vi-sectors-four-plus-one/primitive-count/) | L66-L66 | formalized | — |
-| `structure` | [GeneratorAdequacy](/verify/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy/) | L69-L74 | defined | `VI.T07` |
-| `def` | [gen_adequacy](/verify/taulib/docs/book-vi-sectors-four-plus-one/gen-adequacy/) | L76-L78 | defined | — |
-| `theorem` | [generator_adequacy_e2](/verify/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy-e2/) | L80-L84 | formalized | — |
-| `structure` | [NeutronNoDist](/verify/taulib/docs/book-vi-sectors-four-plus-one/neutron-no-dist/) | L87-L90 | defined | `VI.L05` |
-| `def` | [neutron_nd](/verify/taulib/docs/book-vi-sectors-four-plus-one/neutron-nd/) | L92-L94 | defined | — |
-| `theorem` | [neutron_nodist](/verify/taulib/docs/book-vi-sectors-four-plus-one/neutron-nodist/) | L96-L98 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [LifeSector](/corpus/taulib/docs/book-vi-sectors-four-plus-one/life-sector/) | L22-L26 | type/data schema | type/data schema | `VI.D15` |
+| `def` | [persistence_sector](/corpus/taulib/docs/book-vi-sectors-four-plus-one/persistence-sector/) | L29-L32 | definition | definition | `VI.D16` |
+| `def` | [agency_sector](/corpus/taulib/docs/book-vi-sectors-four-plus-one/agency-sector/) | L35-L38 | definition | definition | `VI.D17` |
+| `def` | [source_sector](/corpus/taulib/docs/book-vi-sectors-four-plus-one/source-sector/) | L41-L44 | definition | definition | `VI.D18` |
+| `def` | [closure_sector](/corpus/taulib/docs/book-vi-sectors-four-plus-one/closure-sector/) | L47-L50 | definition | definition | `VI.D19` |
+| `def` | [consumer_sector](/corpus/taulib/docs/book-vi-sectors-four-plus-one/consumer-sector/) | L53-L56 | definition | definition | `VI.D20` |
+| `def` | [all_sectors](/corpus/taulib/docs/book-vi-sectors-four-plus-one/all-sectors/) | L58-L59 | data/computed value | data/computed value | — |
+| `theorem` | [sector_count](/corpus/taulib/docs/book-vi-sectors-four-plus-one/sector-count/) | L61-L61 | proof obligation | formal proof obligation checked | — |
+| `def` | [primitive_sectors](/corpus/taulib/docs/book-vi-sectors-four-plus-one/primitive-sectors/) | L63-L64 | data/computed value | data/computed value | — |
+| `theorem` | [primitive_count](/corpus/taulib/docs/book-vi-sectors-four-plus-one/primitive-count/) | L66-L66 | proof obligation | formal proof obligation checked | — |
+| `structure` | [GeneratorAdequacy](/corpus/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy/) | L69-L74 | type/data schema | type/data schema | `VI.T07` |
+| `def` | [gen_adequacy](/corpus/taulib/docs/book-vi-sectors-four-plus-one/gen-adequacy/) | L76-L78 | definition | definition | — |
+| `theorem` | [generator_adequacy_e2](/corpus/taulib/docs/book-vi-sectors-four-plus-one/generator-adequacy-e2/) | L80-L84 | proof obligation | formal proof obligation checked | — |
+| `structure` | [NeutronNoDist](/corpus/taulib/docs/book-vi-sectors-four-plus-one/neutron-no-dist/) | L87-L90 | type/data schema | type/data schema | `VI.L05` |
+| `def` | [neutron_nd](/corpus/taulib/docs/book-vi-sectors-four-plus-one/neutron-nd/) | L92-L94 | definition | definition | — |
+| `theorem` | [neutron_nodist](/corpus/taulib/docs/book-vi-sectors-four-plus-one/neutron-nodist/) | L96-L98 | proof obligation | formal proof obligation checked | — |

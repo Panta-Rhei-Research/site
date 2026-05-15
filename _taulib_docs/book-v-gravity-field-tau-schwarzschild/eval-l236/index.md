@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L236",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l236/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l236/",
   "summary_short": "`eval` declaration in `TauLib.BookV.GravityField.TauSchwarzschild`.",
   "declaration_id": "TauLib.BookV.GravityField.TauSchwarzschild::#eval:236",
   "declaration_slug": "eval-l236",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.GravityField.TauSchwarzschild",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
   "source_line_start": 236,
   "source_line_end": 236,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschild.lean#L236-L236",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TauSchwarzschild",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TauSchwarzschild](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/)
+- Module: [TauLib.BookV.GravityField.TauSchwarzschild](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/)
 - Source path: [`TauLib/BookV/GravityField/TauSchwarzschild.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschild.lean#L236-L236)
 - Source range: L236-L236
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

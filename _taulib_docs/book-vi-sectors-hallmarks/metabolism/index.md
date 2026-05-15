@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "metabolism",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-hallmarks/metabolism/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-hallmarks/metabolism/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Sectors.Hallmarks`.",
   "declaration_id": "TauLib.BookVI.Sectors.Hallmarks::metabolism",
   "declaration_slug": "metabolism",
   "kind": "def",
   "name": "metabolism",
   "module_name": "TauLib.BookVI.Sectors.Hallmarks",
-  "module_url": "/verify/taulib/docs/book-vi-sectors-hallmarks/",
+  "module_url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/",
   "source_line_start": 30,
   "source_line_end": 32,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Hallmarks.lean#L30-L32",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Sectors.Hallmarks",
-        "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/"
+        "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Sectors.Hallmarks](/verify/taulib/docs/book-vi-sectors-hallmarks/)
+- Module: [TauLib.BookVI.Sectors.Hallmarks](/corpus/taulib/docs/book-vi-sectors-hallmarks/)
 - Source path: [`TauLib/BookVI/Sectors/Hallmarks.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Hallmarks.lean#L30-L32)
 - Source range: L30-L32
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "remark_cooper_pairing",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/remark-cooper-pairing/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/remark-cooper-pairing/",
   "summary_short": "`def` declaration in `TauLib.BookIV.ManyBody.DefectFunctionalExt2`.",
   "declaration_id": "TauLib.BookIV.ManyBody.DefectFunctionalExt2::remark_cooper_pairing",
   "declaration_slug": "remark-cooper-pairing",
   "kind": "def",
   "name": "remark_cooper_pairing",
   "module_name": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/",
   "source_line_start": 267,
   "source_line_end": 268,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean#L267-L268",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
-        "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt2](/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/)
+- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt2](/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/)
 - Source path: [`TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean#L267-L268)
 - Source range: L267-L268
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

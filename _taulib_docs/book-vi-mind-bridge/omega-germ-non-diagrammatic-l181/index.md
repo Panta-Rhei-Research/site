@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_germ_non_diagrammatic",
-  "permalink": "/verify/taulib/docs/book-vi-mind-bridge/omega-germ-non-diagrammatic-l181/",
+  "permalink": "/corpus/taulib/docs/book-vi-mind-bridge/omega-germ-non-diagrammatic-l181/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Mind.Bridge`.",
   "declaration_id": "TauLib.BookVI.Mind.Bridge::omega_germ_non_diagrammatic",
   "declaration_slug": "omega-germ-non-diagrammatic-l181",
   "kind": "theorem",
   "name": "omega_germ_non_diagrammatic",
   "module_name": "TauLib.BookVI.Mind.Bridge",
-  "module_url": "/verify/taulib/docs/book-vi-mind-bridge/",
+  "module_url": "/corpus/taulib/docs/book-vi-mind-bridge/",
   "source_line_start": 181,
   "source_line_end": 184,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Mind/Bridge.lean#L181-L184",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Mind.Bridge",
-        "url": "/verify/taulib/docs/book-vi-mind-bridge/"
+        "url": "/corpus/taulib/docs/book-vi-mind-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Mind.Bridge](/verify/taulib/docs/book-vi-mind-bridge/)
+- Module: [TauLib.BookVI.Mind.Bridge](/corpus/taulib/docs/book-vi-mind-bridge/)
 - Source path: [`TauLib/BookVI/Mind/Bridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Mind/Bridge.lean#L181-L184)
 - Source range: L181-L184
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

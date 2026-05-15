@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "j_vs_i_check",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/j-vs-i-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/j-vs-i-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Transcendentals.JReplacesI`.",
   "declaration_id": "TauLib.BookII.Transcendentals.JReplacesI::j_vs_i_check",
   "declaration_slug": "j-vs-i-check",
   "kind": "def",
   "name": "j_vs_i_check",
   "module_name": "TauLib.BookII.Transcendentals.JReplacesI",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/",
   "source_line_start": 103,
   "source_line_end": 111,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/JReplacesI.lean#L103-L111",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.JReplacesI",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.JReplacesI](/verify/taulib/docs/book-ii-transcendentals-jreplaces-i/)
+- Module: [TauLib.BookII.Transcendentals.JReplacesI](/corpus/taulib/docs/book-ii-transcendentals-jreplaces-i/)
 - Source path: [`TauLib/BookII/Transcendentals/JReplacesI.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/JReplacesI.lean#L103-L111)
 - Source range: L103-L111
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

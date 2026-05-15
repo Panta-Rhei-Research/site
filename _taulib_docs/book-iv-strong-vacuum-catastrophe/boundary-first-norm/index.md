@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BoundaryFirstNorm",
-  "permalink": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/boundary-first-norm/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/boundary-first-norm/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Strong.VacuumCatastrophe`.",
   "declaration_id": "TauLib.BookIV.Strong.VacuumCatastrophe::BoundaryFirstNorm",
   "declaration_slug": "boundary-first-norm",
   "kind": "structure",
   "name": "BoundaryFirstNorm",
   "module_name": "TauLib.BookIV.Strong.VacuumCatastrophe",
-  "module_url": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/",
   "source_line_start": 54,
   "source_line_end": 63,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/VacuumCatastrophe.lean#L54-L63",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.VacuumCatastrophe",
-        "url": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/"
+        "url": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.VacuumCatastrophe](/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/)
+- Module: [TauLib.BookIV.Strong.VacuumCatastrophe](/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/)
 - Source path: [`TauLib/BookIV/Strong/VacuumCatastrophe.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/VacuumCatastrophe.lean#L54-L63)
 - Source range: L54-L63
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

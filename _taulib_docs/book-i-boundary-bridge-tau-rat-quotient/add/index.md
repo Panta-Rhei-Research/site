@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRatQ.add",
-  "permalink": "/verify/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/add/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/add/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Bridge.TauRatQuotient`.",
   "declaration_id": "TauLib.BookI.Boundary.Bridge.TauRatQuotient::TauRatQ.add",
   "declaration_slug": "add",
   "kind": "def",
   "name": "TauRatQ.add",
   "module_name": "TauLib.BookI.Boundary.Bridge.TauRatQuotient",
-  "module_url": "/verify/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/",
   "source_line_start": 107,
   "source_line_end": 109,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRatQuotient.lean#L107-L109",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Bridge.TauRatQuotient",
-        "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/"
+        "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Bridge.TauRatQuotient](/verify/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/)
+- Module: [TauLib.BookI.Boundary.Bridge.TauRatQuotient](/corpus/taulib/docs/book-i-boundary-bridge-tau-rat-quotient/)
 - Source path: [`TauLib/BookI/Boundary/Bridge/TauRatQuotient.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRatQuotient.lean#L107-L109)
 - Source range: L107-L109
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

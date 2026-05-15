@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "equal_mag_in_A",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-decomposition/equal-mag-in-a/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-decomposition/equal-mag-in-a/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Sectors.Decomposition`.",
   "declaration_id": "TauLib.BookIII.Sectors.Decomposition::equal_mag_in_A",
   "declaration_slug": "equal-mag-in-a",
   "kind": "theorem",
   "name": "equal_mag_in_A",
   "module_name": "TauLib.BookIII.Sectors.Decomposition",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-decomposition/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-decomposition/",
   "source_line_start": 207,
   "source_line_end": 207,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/Decomposition.lean#L207-L207",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.Decomposition",
-        "url": "/verify/taulib/docs/book-iii-sectors-decomposition/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-decomposition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.Decomposition](/verify/taulib/docs/book-iii-sectors-decomposition/)
+- Module: [TauLib.BookIII.Sectors.Decomposition](/corpus/taulib/docs/book-iii-sectors-decomposition/)
 - Source path: [`TauLib/BookIII/Sectors/Decomposition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/Decomposition.lean#L207-L207)
 - Source range: L207-L207
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

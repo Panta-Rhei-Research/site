@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "EpsteinZetaStructure",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/epstein-zeta-structure/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/epstein-zeta-structure/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.EpsteinZeta`.",
   "declaration_id": "TauLib.BookIV.Calibration.EpsteinZeta::EpsteinZetaStructure",
   "declaration_slug": "epstein-zeta-structure",
   "kind": "structure",
   "name": "EpsteinZetaStructure",
   "module_name": "TauLib.BookIV.Calibration.EpsteinZeta",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/",
   "source_line_start": 74,
   "source_line_end": 85,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/EpsteinZeta.lean#L74-L85",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.EpsteinZeta",
-        "url": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.EpsteinZeta](/verify/taulib/docs/book-iv-calibration-epstein-zeta/)
+- Module: [TauLib.BookIV.Calibration.EpsteinZeta](/corpus/taulib/docs/book-iv-calibration-epstein-zeta/)
 - Source path: [`TauLib/BookIV/Calibration/EpsteinZeta.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/EpsteinZeta.lean#L74-L85)
 - Source range: L74-L85
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

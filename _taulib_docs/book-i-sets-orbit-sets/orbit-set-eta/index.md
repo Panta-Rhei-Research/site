@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "orbit_set_eta",
-  "permalink": "/verify/taulib/docs/book-i-sets-orbit-sets/orbit-set-eta/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-orbit-sets/orbit-set-eta/",
   "summary_short": "`def` declaration in `TauLib.BookI.Sets.OrbitSets`.",
   "declaration_id": "TauLib.BookI.Sets.OrbitSets::orbit_set_eta",
   "declaration_slug": "orbit-set-eta",
   "kind": "def",
   "name": "orbit_set_eta",
   "module_name": "TauLib.BookI.Sets.OrbitSets",
-  "module_url": "/verify/taulib/docs/book-i-sets-orbit-sets/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-orbit-sets/",
   "source_line_start": 113,
   "source_line_end": 117,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/OrbitSets.lean#L113-L117",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.OrbitSets",
-        "url": "/verify/taulib/docs/book-i-sets-orbit-sets/"
+        "url": "/corpus/taulib/docs/book-i-sets-orbit-sets/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.OrbitSets](/verify/taulib/docs/book-i-sets-orbit-sets/)
+- Module: [TauLib.BookI.Sets.OrbitSets](/corpus/taulib/docs/book-i-sets-orbit-sets/)
 - Source path: [`TauLib/BookI/Sets/OrbitSets.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/OrbitSets.lean#L113-L117)
 - Source range: L113-L117
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

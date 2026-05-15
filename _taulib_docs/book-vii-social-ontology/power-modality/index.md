@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PowerModality",
-  "permalink": "/verify/taulib/docs/book-vii-social-ontology/power-modality/",
+  "permalink": "/corpus/taulib/docs/book-vii-social-ontology/power-modality/",
   "summary_short": "`inductive` declaration in `TauLib.BookVII.Social.Ontology`.",
   "declaration_id": "TauLib.BookVII.Social.Ontology::PowerModality",
   "declaration_slug": "power-modality",
   "kind": "inductive",
   "name": "PowerModality",
   "module_name": "TauLib.BookVII.Social.Ontology",
-  "module_url": "/verify/taulib/docs/book-vii-social-ontology/",
+  "module_url": "/corpus/taulib/docs/book-vii-social-ontology/",
   "source_line_start": 244,
   "source_line_end": 249,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Social/Ontology.lean#L244-L249",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Social.Ontology",
-        "url": "/verify/taulib/docs/book-vii-social-ontology/"
+        "url": "/corpus/taulib/docs/book-vii-social-ontology/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Social.Ontology](/verify/taulib/docs/book-vii-social-ontology/)
+- Module: [TauLib.BookVII.Social.Ontology](/corpus/taulib/docs/book-vii-social-ontology/)
 - Source path: [`TauLib/BookVII/Social/Ontology.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Social/Ontology.lean#L244-L249)
 - Source range: L244-L249
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

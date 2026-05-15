@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coeff_list_getD",
-  "permalink": "/verify/taulib/docs/book-i-polarity-inverse-limit/coeff-list-get-d/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-inverse-limit/coeff-list-get-d/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.InverseLimit`.",
   "declaration_id": "TauLib.BookI.Polarity.InverseLimit::coeff_list_getD",
   "declaration_slug": "coeff-list-get-d",
   "kind": "theorem",
   "name": "coeff_list_getD",
   "module_name": "TauLib.BookI.Polarity.InverseLimit",
-  "module_url": "/verify/taulib/docs/book-i-polarity-inverse-limit/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/",
   "source_line_start": 132,
   "source_line_end": 150,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/InverseLimit.lean#L132-L150",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.InverseLimit",
-        "url": "/verify/taulib/docs/book-i-polarity-inverse-limit/"
+        "url": "/corpus/taulib/docs/book-i-polarity-inverse-limit/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.InverseLimit](/verify/taulib/docs/book-i-polarity-inverse-limit/)
+- Module: [TauLib.BookI.Polarity.InverseLimit](/corpus/taulib/docs/book-i-polarity-inverse-limit/)
 - Source path: [`TauLib/BookI/Polarity/InverseLimit.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/InverseLimit.lean#L132-L150)
 - Source range: L132-L150
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

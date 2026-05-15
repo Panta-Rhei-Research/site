@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Denotation.Order",
-  "permalink": "/verify/taulib/docs/book-i-denotation-order/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-order/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Denotation.Order`.",
   "module_name": "TauLib.BookI.Denotation.Order",
   "module_slug": "book-i-denotation-order",
@@ -29,127 +29,155 @@
     {
       "kind": "theorem",
       "name": "Generator.toNat_injective",
-      "url": "/verify/taulib/docs/book-i-denotation-order/to-nat-injective/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/to-nat-injective/",
       "source_line_start": 32,
       "source_line_end": 33,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "denotational_lt",
-      "url": "/verify/taulib/docs/book-i-denotation-order/denotational-lt/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/denotational-lt/",
       "source_line_start": 40,
       "source_line_end": 46,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "denotational_lt_irrefl",
-      "url": "/verify/taulib/docs/book-i-denotation-order/denotational-lt-irrefl/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/denotational-lt-irrefl/",
       "source_line_start": 53,
       "source_line_end": 57,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "denotational_lt_trans",
-      "url": "/verify/taulib/docs/book-i-denotation-order/denotational-lt-trans/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/denotational-lt-trans/",
       "source_line_start": 60,
       "source_line_end": 71,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "denotational_lt_trichotomy",
-      "url": "/verify/taulib/docs/book-i-denotation-order/denotational-lt-trichotomy/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/denotational-lt-trichotomy/",
       "source_line_start": 74,
       "source_line_end": 93,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha_zero_minimum",
-      "url": "/verify/taulib/docs/book-i-denotation-order/alpha-zero-minimum/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/alpha-zero-minimum/",
       "source_line_start": 100,
       "source_line_end": 113,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "orbit_depth_order",
-      "url": "/verify/taulib/docs/book-i-denotation-order/orbit-depth-order/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/orbit-depth-order/",
       "source_line_start": 116,
       "source_line_end": 118,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seed_order_alpha_pi",
-      "url": "/verify/taulib/docs/book-i-denotation-order/seed-order-alpha-pi/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/seed-order-alpha-pi/",
       "source_line_start": 121,
       "source_line_end": 122,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seed_order_pi_gamma",
-      "url": "/verify/taulib/docs/book-i-denotation-order/seed-order-pi-gamma/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/seed-order-pi-gamma/",
       "source_line_start": 124,
       "source_line_end": 125,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seed_order_gamma_eta",
-      "url": "/verify/taulib/docs/book-i-denotation-order/seed-order-gamma-eta/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/seed-order-gamma-eta/",
       "source_line_start": 127,
       "source_line_end": 128,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seed_order_eta_omega",
-      "url": "/verify/taulib/docs/book-i-denotation-order/seed-order-eta-omega/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/seed-order-eta-omega/",
       "source_line_start": 130,
       "source_line_end": 131,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "lex_measure",
-      "url": "/verify/taulib/docs/book-i-denotation-order/lex-measure/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/lex-measure/",
       "source_line_start": 138,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "denotational_lt_sub_lex",
-      "url": "/verify/taulib/docs/book-i-denotation-order/denotational-lt-sub-lex/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/denotational-lt-sub-lex/",
       "source_line_start": 141,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "denotational_lt_wf",
-      "url": "/verify/taulib/docs/book-i-denotation-order/denotational-lt-wf/",
+      "url": "/corpus/taulib/docs/book-i-denotation-order/denotational-lt-wf/",
       "source_line_start": 154,
       "source_line_end": 159,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P07"
       ]
@@ -163,7 +191,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -230,19 +258,19 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [Generator.toNat_injective](/verify/taulib/docs/book-i-denotation-order/to-nat-injective/) | L32-L33 | formalized | — |
-| `def` | [denotational_lt](/verify/taulib/docs/book-i-denotation-order/denotational-lt/) | L40-L46 | defined | — |
-| `theorem` | [denotational_lt_irrefl](/verify/taulib/docs/book-i-denotation-order/denotational-lt-irrefl/) | L53-L57 | formalized | — |
-| `theorem` | [denotational_lt_trans](/verify/taulib/docs/book-i-denotation-order/denotational-lt-trans/) | L60-L71 | formalized | — |
-| `theorem` | [denotational_lt_trichotomy](/verify/taulib/docs/book-i-denotation-order/denotational-lt-trichotomy/) | L74-L93 | formalized | — |
-| `theorem` | [alpha_zero_minimum](/verify/taulib/docs/book-i-denotation-order/alpha-zero-minimum/) | L100-L113 | formalized | — |
-| `theorem` | [orbit_depth_order](/verify/taulib/docs/book-i-denotation-order/orbit-depth-order/) | L116-L118 | formalized | — |
-| `theorem` | [seed_order_alpha_pi](/verify/taulib/docs/book-i-denotation-order/seed-order-alpha-pi/) | L121-L122 | formalized | — |
-| `theorem` | [seed_order_pi_gamma](/verify/taulib/docs/book-i-denotation-order/seed-order-pi-gamma/) | L124-L125 | formalized | — |
-| `theorem` | [seed_order_gamma_eta](/verify/taulib/docs/book-i-denotation-order/seed-order-gamma-eta/) | L127-L128 | formalized | — |
-| `theorem` | [seed_order_eta_omega](/verify/taulib/docs/book-i-denotation-order/seed-order-eta-omega/) | L130-L131 | formalized | — |
-| `def` | [lex_measure](/verify/taulib/docs/book-i-denotation-order/lex-measure/) | L138-L138 | defined | — |
-| `theorem` | [denotational_lt_sub_lex](/verify/taulib/docs/book-i-denotation-order/denotational-lt-sub-lex/) | L141-L149 | formalized | — |
-| `theorem` | [denotational_lt_wf](/verify/taulib/docs/book-i-denotation-order/denotational-lt-wf/) | L154-L159 | formalized | `I.P07` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [Generator.toNat_injective](/corpus/taulib/docs/book-i-denotation-order/to-nat-injective/) | L32-L33 | proof obligation | formal proof obligation checked | — |
+| `def` | [denotational_lt](/corpus/taulib/docs/book-i-denotation-order/denotational-lt/) | L40-L46 | definition | definition | — |
+| `theorem` | [denotational_lt_irrefl](/corpus/taulib/docs/book-i-denotation-order/denotational-lt-irrefl/) | L53-L57 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [denotational_lt_trans](/corpus/taulib/docs/book-i-denotation-order/denotational-lt-trans/) | L60-L71 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [denotational_lt_trichotomy](/corpus/taulib/docs/book-i-denotation-order/denotational-lt-trichotomy/) | L74-L93 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [alpha_zero_minimum](/corpus/taulib/docs/book-i-denotation-order/alpha-zero-minimum/) | L100-L113 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [orbit_depth_order](/corpus/taulib/docs/book-i-denotation-order/orbit-depth-order/) | L116-L118 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seed_order_alpha_pi](/corpus/taulib/docs/book-i-denotation-order/seed-order-alpha-pi/) | L121-L122 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seed_order_pi_gamma](/corpus/taulib/docs/book-i-denotation-order/seed-order-pi-gamma/) | L124-L125 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seed_order_gamma_eta](/corpus/taulib/docs/book-i-denotation-order/seed-order-gamma-eta/) | L127-L128 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seed_order_eta_omega](/corpus/taulib/docs/book-i-denotation-order/seed-order-eta-omega/) | L130-L131 | proof obligation | formal proof obligation checked | — |
+| `def` | [lex_measure](/corpus/taulib/docs/book-i-denotation-order/lex-measure/) | L138-L138 | data/computed value | data/computed value | — |
+| `theorem` | [denotational_lt_sub_lex](/corpus/taulib/docs/book-i-denotation-order/denotational-lt-sub-lex/) | L141-L149 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [denotational_lt_wf](/corpus/taulib/docs/book-i-denotation-order/denotational-lt-wf/) | L154-L159 | proof obligation | formal proof obligation checked | `I.P07` |

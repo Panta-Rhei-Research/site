@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PrimoriallyThin",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-thinness/primorially-thin/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-thinness/primorially-thin/",
   "summary_short": "`def` declaration in `TauLib.BookI.Holomorphy.Thinness`.",
   "declaration_id": "TauLib.BookI.Holomorphy.Thinness::PrimoriallyThin",
   "declaration_slug": "primorially-thin",
   "kind": "def",
   "name": "PrimoriallyThin",
   "module_name": "TauLib.BookI.Holomorphy.Thinness",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-thinness/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-thinness/",
   "source_line_start": 40,
   "source_line_end": 41,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/Thinness.lean#L40-L41",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.Thinness",
-        "url": "/verify/taulib/docs/book-i-holomorphy-thinness/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-thinness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.Thinness](/verify/taulib/docs/book-i-holomorphy-thinness/)
+- Module: [TauLib.BookI.Holomorphy.Thinness](/corpus/taulib/docs/book-i-holomorphy-thinness/)
 - Source path: [`TauLib/BookI/Holomorphy/Thinness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/Thinness.lean#L40-L41)
 - Source range: L40-L41
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "iota_numer",
-  "permalink": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-numer/",
+  "permalink": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-numer/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Hinge.HingeTheorem`.",
   "declaration_id": "TauLib.BookIII.Hinge.HingeTheorem::iota_numer",
   "declaration_slug": "iota-numer",
   "kind": "def",
   "name": "iota_numer",
   "module_name": "TauLib.BookIII.Hinge.HingeTheorem",
-  "module_url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/",
+  "module_url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/",
   "source_line_start": 190,
   "source_line_end": 190,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/HingeTheorem.lean#L190-L190",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Hinge.HingeTheorem",
-        "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/"
+        "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Hinge.HingeTheorem](/verify/taulib/docs/book-iii-hinge-hinge-theorem/)
+- Module: [TauLib.BookIII.Hinge.HingeTheorem](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/)
 - Source path: [`TauLib/BookIII/Hinge/HingeTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/HingeTheorem.lean#L190-L190)
 - Source range: L190-L190
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

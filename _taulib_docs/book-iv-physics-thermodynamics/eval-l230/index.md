@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L230",
-  "permalink": "/verify/taulib/docs/book-iv-physics-thermodynamics/eval-l230/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-thermodynamics/eval-l230/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Physics.Thermodynamics`.",
   "declaration_id": "TauLib.BookIV.Physics.Thermodynamics::#eval:230",
   "declaration_slug": "eval-l230",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Physics.Thermodynamics",
-  "module_url": "/verify/taulib/docs/book-iv-physics-thermodynamics/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/",
   "source_line_start": 230,
   "source_line_end": 230,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L230-L230",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.Thermodynamics",
-        "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/"
+        "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.Thermodynamics](/verify/taulib/docs/book-iv-physics-thermodynamics/)
+- Module: [TauLib.BookIV.Physics.Thermodynamics](/corpus/taulib/docs/book-iv-physics-thermodynamics/)
 - Source path: [`TauLib/BookIV/Physics/Thermodynamics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L230-L230)
 - Source range: L230-L230
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

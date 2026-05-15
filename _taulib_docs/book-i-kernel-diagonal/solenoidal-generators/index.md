@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "solenoidalGenerators",
-  "permalink": "/verify/taulib/docs/book-i-kernel-diagonal/solenoidal-generators/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-diagonal/solenoidal-generators/",
   "summary_short": "`def` declaration in `TauLib.BookI.Kernel.Diagonal`.",
   "declaration_id": "TauLib.BookI.Kernel.Diagonal::solenoidalGenerators",
   "declaration_slug": "solenoidal-generators",
   "kind": "def",
   "name": "solenoidalGenerators",
   "module_name": "TauLib.BookI.Kernel.Diagonal",
-  "module_url": "/verify/taulib/docs/book-i-kernel-diagonal/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-diagonal/",
   "source_line_start": 52,
   "source_line_end": 52,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Diagonal.lean#L52-L52",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Kernel.Diagonal",
-        "url": "/verify/taulib/docs/book-i-kernel-diagonal/"
+        "url": "/corpus/taulib/docs/book-i-kernel-diagonal/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Kernel.Diagonal](/verify/taulib/docs/book-i-kernel-diagonal/)
+- Module: [TauLib.BookI.Kernel.Diagonal](/corpus/taulib/docs/book-i-kernel-diagonal/)
 - Source path: [`TauLib/BookI/Kernel/Diagonal.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Diagonal.lean#L52-L52)
 - Source range: L52-L52
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

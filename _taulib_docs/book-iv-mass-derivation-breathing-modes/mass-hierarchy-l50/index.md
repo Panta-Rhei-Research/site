@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mass_hierarchy",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/mass-hierarchy-l50/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/mass-hierarchy-l50/",
   "summary_short": "`def` declaration in `TauLib.BookIV.MassDerivation.BreathingModes`.",
   "declaration_id": "TauLib.BookIV.MassDerivation.BreathingModes::mass_hierarchy",
   "declaration_slug": "mass-hierarchy-l50",
   "kind": "def",
   "name": "mass_hierarchy",
   "module_name": "TauLib.BookIV.MassDerivation.BreathingModes",
-  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/",
+  "module_url": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/",
   "source_line_start": 50,
   "source_line_end": 52,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/BreathingModes.lean#L50-L52",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.MassDerivation.BreathingModes",
-        "url": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/"
+        "url": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.MassDerivation.BreathingModes](/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/)
+- Module: [TauLib.BookIV.MassDerivation.BreathingModes](/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/)
 - Source path: [`TauLib/BookIV/MassDerivation/BreathingModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/BreathingModes.lean#L50-L52)
 - Source range: L50-L52
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

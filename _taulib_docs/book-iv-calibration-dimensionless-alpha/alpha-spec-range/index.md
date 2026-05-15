@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_spec_range",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/alpha-spec-range/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/alpha-spec-range/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.DimensionlessAlpha`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionlessAlpha::alpha_spec_range",
   "declaration_slug": "alpha-spec-range",
   "kind": "theorem",
   "name": "alpha_spec_range",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessAlpha",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/",
   "source_line_start": 41,
   "source_line_end": 44,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessAlpha.lean#L41-L44",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionlessAlpha",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionlessAlpha](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/)
+- Module: [TauLib.BookIV.Calibration.DimensionlessAlpha](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionlessAlpha.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessAlpha.lean#L41-L44)
 - Source range: L41-L44
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L241",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l241/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/eval-l241/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Astrophysics.KeplerSolarSystem`.",
   "declaration_id": "TauLib.BookV.Astrophysics.KeplerSolarSystem::#eval:241",
   "declaration_slug": "eval-l241",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/",
   "source_line_start": 241,
   "source_line_end": 241,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L241-L241",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-        "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/)
+- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/)
 - Source path: [`TauLib/BookV/Astrophysics/KeplerSolarSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L241-L241)
 - Source range: L241-L241
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_unique_scaffold",
-  "permalink": "/verify/taulib/docs/book-i-kernel-diagonal/alpha-unique-scaffold/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-diagonal/alpha-unique-scaffold/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Kernel.Diagonal`.",
   "declaration_id": "TauLib.BookI.Kernel.Diagonal::alpha_unique_scaffold",
   "declaration_slug": "alpha-unique-scaffold",
   "kind": "theorem",
   "name": "alpha_unique_scaffold",
   "module_name": "TauLib.BookI.Kernel.Diagonal",
-  "module_url": "/verify/taulib/docs/book-i-kernel-diagonal/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-diagonal/",
   "source_line_start": 83,
   "source_line_end": 87,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Diagonal.lean#L83-L87",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Kernel.Diagonal",
-        "url": "/verify/taulib/docs/book-i-kernel-diagonal/"
+        "url": "/corpus/taulib/docs/book-i-kernel-diagonal/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Kernel.Diagonal](/verify/taulib/docs/book-i-kernel-diagonal/)
+- Module: [TauLib.BookI.Kernel.Diagonal](/corpus/taulib/docs/book-i-kernel-diagonal/)
 - Source path: [`TauLib/BookI/Kernel/Diagonal.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Diagonal.lean#L83-L87)
 - Source range: L83-L87
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

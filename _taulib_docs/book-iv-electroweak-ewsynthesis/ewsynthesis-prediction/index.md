@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "EWSynthesisPrediction",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/ewsynthesis-prediction/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/ewsynthesis-prediction/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.EWSynthesis`.",
   "declaration_id": "TauLib.BookIV.Electroweak.EWSynthesis::EWSynthesisPrediction",
   "declaration_slug": "ewsynthesis-prediction",
   "kind": "structure",
   "name": "EWSynthesisPrediction",
   "module_name": "TauLib.BookIV.Electroweak.EWSynthesis",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/",
   "source_line_start": 121,
   "source_line_end": 134,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L121-L134",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.EWSynthesis",
-        "url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/verify/taulib/docs/book-iv-electroweak-ewsynthesis/)
+- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/)
 - Source path: [`TauLib/BookIV/Electroweak/EWSynthesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L121-L134)
 - Source range: L121-L134
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

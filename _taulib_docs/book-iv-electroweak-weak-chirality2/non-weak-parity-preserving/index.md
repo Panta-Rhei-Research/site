@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "non_weak_parity_preserving",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weak-chirality2/non-weak-parity-preserving/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality2/non-weak-parity-preserving/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.WeakChirality2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeakChirality2::non_weak_parity_preserving",
   "declaration_slug": "non-weak-parity-preserving",
   "kind": "theorem",
   "name": "non_weak_parity_preserving",
   "module_name": "TauLib.BookIV.Electroweak.WeakChirality2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality2/",
   "source_line_start": 133,
   "source_line_end": 137,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakChirality2.lean#L133-L137",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeakChirality2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeakChirality2](/verify/taulib/docs/book-iv-electroweak-weak-chirality2/)
+- Module: [TauLib.BookIV.Electroweak.WeakChirality2](/corpus/taulib/docs/book-iv-electroweak-weak-chirality2/)
 - Source path: [`TauLib/BookIV/Electroweak/WeakChirality2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakChirality2.lean#L133-L137)
 - Source range: L133-L137
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

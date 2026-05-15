@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L195",
-  "permalink": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l195/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l195/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Physics.FluidData`.",
   "declaration_id": "TauLib.BookIII.Physics.FluidData::#eval:195",
   "declaration_slug": "eval-l195",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Physics.FluidData",
-  "module_url": "/verify/taulib/docs/book-iii-physics-fluid-data/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-fluid-data/",
   "source_line_start": 195,
   "source_line_end": 195,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/FluidData.lean#L195-L195",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.FluidData",
-        "url": "/verify/taulib/docs/book-iii-physics-fluid-data/"
+        "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.FluidData](/verify/taulib/docs/book-iii-physics-fluid-data/)
+- Module: [TauLib.BookIII.Physics.FluidData](/corpus/taulib/docs/book-iii-physics-fluid-data/)
 - Source path: [`TauLib/BookIII/Physics/FluidData.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/FluidData.lean#L195-L195)
 - Source range: L195-L195
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

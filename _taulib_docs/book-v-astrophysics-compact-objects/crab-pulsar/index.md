@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "crab_pulsar",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-compact-objects/crab-pulsar/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/crab-pulsar/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.CompactObjects`.",
   "declaration_id": "TauLib.BookV.Astrophysics.CompactObjects::crab_pulsar",
   "declaration_slug": "crab-pulsar",
   "kind": "def",
   "name": "crab_pulsar",
   "module_name": "TauLib.BookV.Astrophysics.CompactObjects",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/",
   "source_line_start": 247,
   "source_line_end": 260,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L247-L260",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.CompactObjects",
-        "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.CompactObjects](/verify/taulib/docs/book-v-astrophysics-compact-objects/)
+- Module: [TauLib.BookV.Astrophysics.CompactObjects](/corpus/taulib/docs/book-v-astrophysics-compact-objects/)
 - Source path: [`TauLib/BookV/Astrophysics/CompactObjects.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L247-L260)
 - Source range: L247-L260
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "idx_dvd_gcd",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-primes/idx-dvd-gcd/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-primes/idx-dvd-gcd/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Coordinates.Primes`.",
   "declaration_id": "TauLib.BookI.Coordinates.Primes::idx_dvd_gcd",
   "declaration_slug": "idx-dvd-gcd",
   "kind": "theorem",
   "name": "idx_dvd_gcd",
   "module_name": "TauLib.BookI.Coordinates.Primes",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-primes/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-primes/",
   "source_line_start": 146,
   "source_line_end": 147,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/Primes.lean#L146-L147",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.Primes",
-        "url": "/verify/taulib/docs/book-i-coordinates-primes/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-primes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.Primes](/verify/taulib/docs/book-i-coordinates-primes/)
+- Module: [TauLib.BookI.Coordinates.Primes](/corpus/taulib/docs/book-i-coordinates-primes/)
 - Source path: [`TauLib/BookI/Coordinates/Primes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/Primes.lean#L146-L147)
 - Source range: L146-L147
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

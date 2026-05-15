@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "identity_as_address_persistence_mind",
-  "permalink": "/verify/taulib/docs/book-vii-logos-sector/identity-as-address-persistence-mind/",
+  "permalink": "/corpus/taulib/docs/book-vii-logos-sector/identity-as-address-persistence-mind/",
   "summary_short": "`theorem` declaration in `TauLib.BookVII.Logos.Sector`.",
   "declaration_id": "TauLib.BookVII.Logos.Sector::identity_as_address_persistence_mind",
   "declaration_slug": "identity-as-address-persistence-mind",
   "kind": "theorem",
   "name": "identity_as_address_persistence_mind",
   "module_name": "TauLib.BookVII.Logos.Sector",
-  "module_url": "/verify/taulib/docs/book-vii-logos-sector/",
+  "module_url": "/corpus/taulib/docs/book-vii-logos-sector/",
   "source_line_start": 261,
   "source_line_end": 264,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L261-L264",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Logos.Sector",
-        "url": "/verify/taulib/docs/book-vii-logos-sector/"
+        "url": "/corpus/taulib/docs/book-vii-logos-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Logos.Sector](/verify/taulib/docs/book-vii-logos-sector/)
+- Module: [TauLib.BookVII.Logos.Sector](/corpus/taulib/docs/book-vii-logos-sector/)
 - Source path: [`TauLib/BookVII/Logos/Sector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L261-L264)
 - Source range: L261-L264
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

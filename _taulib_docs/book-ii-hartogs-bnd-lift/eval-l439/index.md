@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L439",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/eval-l439/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/eval-l439/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Hartogs.BndLift`.",
   "declaration_id": "TauLib.BookII.Hartogs.BndLift::#eval:439",
   "declaration_slug": "eval-l439",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Hartogs.BndLift",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/",
   "source_line_start": 439,
   "source_line_end": 439,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/BndLift.lean#L439-L439",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.BndLift",
-        "url": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.BndLift](/verify/taulib/docs/book-ii-hartogs-bnd-lift/)
+- Module: [TauLib.BookII.Hartogs.BndLift](/corpus/taulib/docs/book-ii-hartogs-bnd-lift/)
 - Source path: [`TauLib/BookII/Hartogs/BndLift.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/BndLift.lean#L439-L439)
 - Source range: L439-L439
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

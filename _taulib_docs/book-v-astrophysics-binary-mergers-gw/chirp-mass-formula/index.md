@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chirp_mass_formula",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-formula/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-formula/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.BinaryMergersGW`.",
   "declaration_id": "TauLib.BookV.Astrophysics.BinaryMergersGW::chirp_mass_formula",
   "declaration_slug": "chirp-mass-formula",
   "kind": "theorem",
   "name": "chirp_mass_formula",
   "module_name": "TauLib.BookV.Astrophysics.BinaryMergersGW",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/",
   "source_line_start": 129,
   "source_line_end": 131,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/BinaryMergersGW.lean#L129-L131",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.BinaryMergersGW",
-        "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.BinaryMergersGW](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/)
+- Module: [TauLib.BookV.Astrophysics.BinaryMergersGW](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/)
 - Source path: [`TauLib/BookV/Astrophysics/BinaryMergersGW.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/BinaryMergersGW.lean#L129-L131)
 - Source range: L129-L131
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bsd_coherence_check",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-bsd/bsd-coherence-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-bsd/bsd-coherence-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Arithmetic.BSD`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.BSD::bsd_coherence_check",
   "declaration_slug": "bsd-coherence-check",
   "kind": "def",
   "name": "bsd_coherence_check",
   "module_name": "TauLib.BookIII.Arithmetic.BSD",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-bsd/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-bsd/",
   "source_line_start": 38,
   "source_line_end": 55,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/BSD.lean#L38-L55",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.BSD",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-bsd/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-bsd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.BSD](/verify/taulib/docs/book-iii-arithmetic-bsd/)
+- Module: [TauLib.BookIII.Arithmetic.BSD](/corpus/taulib/docs/book-iii-arithmetic-bsd/)
 - Source path: [`TauLib/BookIII/Arithmetic/BSD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/BSD.lean#L38-L55)
 - Source range: L38-L55
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

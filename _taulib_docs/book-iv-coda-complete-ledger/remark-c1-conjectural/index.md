@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "remark_c1_conjectural",
-  "permalink": "/verify/taulib/docs/book-iv-coda-complete-ledger/remark-c1-conjectural/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-complete-ledger/remark-c1-conjectural/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Coda.CompleteLedger`.",
   "declaration_id": "TauLib.BookIV.Coda.CompleteLedger::remark_c1_conjectural",
   "declaration_slug": "remark-c1-conjectural",
   "kind": "def",
   "name": "remark_c1_conjectural",
   "module_name": "TauLib.BookIV.Coda.CompleteLedger",
-  "module_url": "/verify/taulib/docs/book-iv-coda-complete-ledger/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/",
   "source_line_start": 59,
   "source_line_end": 61,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L59-L61",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.CompleteLedger",
-        "url": "/verify/taulib/docs/book-iv-coda-complete-ledger/"
+        "url": "/corpus/taulib/docs/book-iv-coda-complete-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.CompleteLedger](/verify/taulib/docs/book-iv-coda-complete-ledger/)
+- Module: [TauLib.BookIV.Coda.CompleteLedger](/corpus/taulib/docs/book-iv-coda-complete-ledger/)
 - Source path: [`TauLib/BookIV/Coda/CompleteLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/CompleteLedger.lean#L59-L61)
 - Source range: L59-L61
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

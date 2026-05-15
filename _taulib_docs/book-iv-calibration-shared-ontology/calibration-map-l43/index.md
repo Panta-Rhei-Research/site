@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "calibration_map",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-map-l43/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-map-l43/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.SharedOntology`.",
   "declaration_id": "TauLib.BookIV.Calibration.SharedOntology::calibration_map",
   "declaration_slug": "calibration-map-l43",
   "kind": "def",
   "name": "calibration_map",
   "module_name": "TauLib.BookIV.Calibration.SharedOntology",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/",
   "source_line_start": 43,
   "source_line_end": 48,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SharedOntology.lean#L43-L48",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.SharedOntology",
-        "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.SharedOntology](/verify/taulib/docs/book-iv-calibration-shared-ontology/)
+- Module: [TauLib.BookIV.Calibration.SharedOntology](/corpus/taulib/docs/book-iv-calibration-shared-ontology/)
 - Source path: [`TauLib/BookIV/Calibration/SharedOntology.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SharedOntology.lean#L43-L48)
 - Source range: L43-L48
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

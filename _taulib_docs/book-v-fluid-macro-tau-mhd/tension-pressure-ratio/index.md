@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tension_pressure_ratio",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/tension-pressure-ratio/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/tension-pressure-ratio/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.FluidMacro.TauMHD`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauMHD::tension_pressure_ratio",
   "declaration_slug": "tension-pressure-ratio",
   "kind": "theorem",
   "name": "tension_pressure_ratio",
   "module_name": "TauLib.BookV.FluidMacro.TauMHD",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/",
   "source_line_start": 128,
   "source_line_end": 129,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauMHD.lean#L128-L129",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauMHD",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauMHD](/verify/taulib/docs/book-v-fluid-macro-tau-mhd/)
+- Module: [TauLib.BookV.FluidMacro.TauMHD](/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/)
 - Source path: [`TauLib/BookV/FluidMacro/TauMHD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauMHD.lean#L128-L129)
 - Source range: L128-L129
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mode_interpretation_5",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-5/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.WeinbergNLO`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeinbergNLO::mode_interpretation_5",
   "declaration_slug": "mode-interpretation-5",
   "kind": "theorem",
   "name": "mode_interpretation_5",
   "module_name": "TauLib.BookIV.Electroweak.WeinbergNLO",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/",
   "source_line_start": 172,
   "source_line_end": 172,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeinbergNLO.lean#L172-L172",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeinbergNLO",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeinbergNLO](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/)
+- Module: [TauLib.BookIV.Electroweak.WeinbergNLO](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/)
 - Source path: [`TauLib/BookIV/Electroweak/WeinbergNLO.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeinbergNLO.lean#L172-L172)
 - Source range: L172-L172
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

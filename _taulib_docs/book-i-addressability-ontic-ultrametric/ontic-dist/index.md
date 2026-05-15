@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "OnticDist",
-  "permalink": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist/",
   "summary_short": "`def` declaration in `TauLib.BookI.Addressability.OnticUltrametric`.",
   "declaration_id": "TauLib.BookI.Addressability.OnticUltrametric::OnticDist",
   "declaration_slug": "ontic-dist",
   "kind": "def",
   "name": "OnticDist",
   "module_name": "TauLib.BookI.Addressability.OnticUltrametric",
-  "module_url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/",
+  "module_url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/",
   "source_line_start": 109,
   "source_line_end": 113,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/OnticUltrametric.lean#L109-L113",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Addressability.OnticUltrametric",
-        "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/"
+        "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Addressability.OnticUltrametric](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/)
+- Module: [TauLib.BookI.Addressability.OnticUltrametric](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/)
 - Source path: [`TauLib/BookI/Addressability/OnticUltrametric.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/OnticUltrametric.lean#L109-L113)
 - Source range: L109-L113
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

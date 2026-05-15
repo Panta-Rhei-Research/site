@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L173",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-three-sat/example-l173/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-three-sat/example-l173/",
   "summary_short": "`example` declaration in `TauLib.BookIII.Spectrum.ThreeSAT`.",
   "declaration_id": "TauLib.BookIII.Spectrum.ThreeSAT::#eval:173",
   "declaration_slug": "example-l173",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookIII.Spectrum.ThreeSAT",
-  "module_url": "/verify/taulib/docs/book-iii-spectrum-three-sat/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectrum-three-sat/",
   "source_line_start": 173,
   "source_line_end": 173,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/ThreeSAT.lean#L173-L173",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectrum.ThreeSAT",
-        "url": "/verify/taulib/docs/book-iii-spectrum-three-sat/"
+        "url": "/corpus/taulib/docs/book-iii-spectrum-three-sat/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectrum.ThreeSAT](/verify/taulib/docs/book-iii-spectrum-three-sat/)
+- Module: [TauLib.BookIII.Spectrum.ThreeSAT](/corpus/taulib/docs/book-iii-spectrum-three-sat/)
 - Source path: [`TauLib/BookIII/Spectrum/ThreeSAT.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/ThreeSAT.lean#L173-L173)
 - Source range: L173-L173
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

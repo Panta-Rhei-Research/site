@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "metabolic_fiber",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-life-loop/metabolic-fiber/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Sectors.LifeLoop`.",
   "declaration_id": "TauLib.BookVI.Sectors.LifeLoop::metabolic_fiber",
   "declaration_slug": "metabolic-fiber",
   "kind": "def",
   "name": "metabolic_fiber",
   "module_name": "TauLib.BookVI.Sectors.LifeLoop",
-  "module_url": "/verify/taulib/docs/book-vi-sectors-life-loop/",
+  "module_url": "/corpus/taulib/docs/book-vi-sectors-life-loop/",
   "source_line_start": 74,
   "source_line_end": 76,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/LifeLoop.lean#L74-L76",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Sectors.LifeLoop",
-        "url": "/verify/taulib/docs/book-vi-sectors-life-loop/"
+        "url": "/corpus/taulib/docs/book-vi-sectors-life-loop/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Sectors.LifeLoop](/verify/taulib/docs/book-vi-sectors-life-loop/)
+- Module: [TauLib.BookVI.Sectors.LifeLoop](/corpus/taulib/docs/book-vi-sectors-life-loop/)
 - Source path: [`TauLib/BookVI/Sectors/LifeLoop.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/LifeLoop.lean#L74-L76)
 - Source range: L74-L76
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

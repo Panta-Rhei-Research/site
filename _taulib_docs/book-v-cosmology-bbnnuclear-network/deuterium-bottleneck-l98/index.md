@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "deuterium_bottleneck",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck-l98/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck-l98/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.BBNNuclearNetwork`.",
   "declaration_id": "TauLib.BookV.Cosmology.BBNNuclearNetwork::deuterium_bottleneck",
   "declaration_slug": "deuterium-bottleneck-l98",
   "kind": "def",
   "name": "deuterium_bottleneck",
   "module_name": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/",
   "source_line_start": 98,
   "source_line_end": 98,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNNuclearNetwork.lean#L98-L98",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
-        "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BBNNuclearNetwork](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/)
+- Module: [TauLib.BookV.Cosmology.BBNNuclearNetwork](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/)
 - Source path: [`TauLib/BookV/Cosmology/BBNNuclearNetwork.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNNuclearNetwork.lean#L98-L98)
 - Source range: L98-L98
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

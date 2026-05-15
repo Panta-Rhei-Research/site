@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L70",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-thinness/example-l70/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-thinness/example-l70/",
   "summary_short": "`example` declaration in `TauLib.BookI.Holomorphy.Thinness`.",
   "declaration_id": "TauLib.BookI.Holomorphy.Thinness::#eval:70",
   "declaration_slug": "example-l70",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Holomorphy.Thinness",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-thinness/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-thinness/",
   "source_line_start": 70,
   "source_line_end": 70,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/Thinness.lean#L70-L70",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.Thinness",
-        "url": "/verify/taulib/docs/book-i-holomorphy-thinness/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-thinness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.Thinness](/verify/taulib/docs/book-i-holomorphy-thinness/)
+- Module: [TauLib.BookI.Holomorphy.Thinness](/corpus/taulib/docs/book-i-holomorphy-thinness/)
 - Source path: [`TauLib/BookI/Holomorphy/Thinness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/Thinness.lean#L70-L70)
 - Source range: L70-L70
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

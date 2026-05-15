@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Doors.MutualDetermination",
-  "permalink": "/verify/taulib/docs/book-iii-doors-mutual-determination/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-mutual-determination/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Doors.MutualDetermination`.",
   "module_name": "TauLib.BookIII.Doors.MutualDetermination",
   "module_slug": "book-iii-doors-mutual-determination",
@@ -32,10 +32,12 @@
     {
       "kind": "inductive",
       "name": "MDDescription",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/mddescription/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/mddescription/",
       "source_line_start": 34,
       "source_line_end": 38,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D25"
       ]
@@ -43,10 +45,12 @@
     {
       "kind": "def",
       "name": "boundary_to_interior_check",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/boundary-to-interior-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/boundary-to-interior-check/",
       "source_line_start": 42,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D25"
       ]
@@ -54,10 +58,12 @@
     {
       "kind": "def",
       "name": "interior_to_spectral_check",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/interior-to-spectral-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/interior-to-spectral-check/",
       "source_line_start": 60,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D25"
       ]
@@ -65,10 +71,12 @@
     {
       "kind": "def",
       "name": "spectral_to_boundary_check",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/spectral-to-boundary-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/spectral-to-boundary-check/",
       "source_line_start": 79,
       "source_line_end": 100,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D25"
       ]
@@ -76,10 +84,12 @@
     {
       "kind": "def",
       "name": "mutual_det_check",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/mutual-det-check/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/mutual-det-check/",
       "source_line_start": 103,
       "source_line_end": 106,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D25"
       ]
@@ -87,82 +97,100 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l112/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l112/",
       "source_line_start": 112,
       "source_line_end": 112,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l113/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l113/",
       "source_line_start": 113,
       "source_line_end": 113,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l114/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l114/",
       "source_line_start": 114,
       "source_line_end": 114,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l115/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l115/",
       "source_line_start": 115,
       "source_line_end": 115,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "b_to_i_15_4",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/b-to-i-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/b-to-i-15-4/",
       "source_line_start": 121,
       "source_line_end": 122,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "i_to_s_15_4",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/i-to-s-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/i-to-s-15-4/",
       "source_line_start": 124,
       "source_line_end": 125,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "s_to_b_10_3",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/s-to-b-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/s-to-b-10-3/",
       "source_line_start": 127,
       "source_line_end": 128,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mutual_det_10_3",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/mutual-det-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/mutual-det-10-3/",
       "source_line_start": 130,
       "source_line_end": 131,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "b_to_i_zero",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/b-to-i-zero/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/b-to-i-zero/",
       "source_line_start": 138,
       "source_line_end": 139,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D25"
       ]
@@ -170,10 +198,12 @@
     {
       "kind": "theorem",
       "name": "md_cycle_42_3",
-      "url": "/verify/taulib/docs/book-iii-doors-mutual-determination/md-cycle-42-3/",
+      "url": "/corpus/taulib/docs/book-iii-doors-mutual-determination/md-cycle-42-3/",
       "source_line_start": 142,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D25"
       ]
@@ -187,7 +217,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -257,20 +287,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [MDDescription](/verify/taulib/docs/book-iii-doors-mutual-determination/mddescription/) | L34-L38 | defined | `III.D25` |
-| `def` | [boundary_to_interior_check](/verify/taulib/docs/book-iii-doors-mutual-determination/boundary-to-interior-check/) | L42-L56 | defined | `III.D25` |
-| `def` | [interior_to_spectral_check](/verify/taulib/docs/book-iii-doors-mutual-determination/interior-to-spectral-check/) | L60-L75 | defined | `III.D25` |
-| `def` | [spectral_to_boundary_check](/verify/taulib/docs/book-iii-doors-mutual-determination/spectral-to-boundary-check/) | L79-L100 | defined | `III.D25` |
-| `def` | [mutual_det_check](/verify/taulib/docs/book-iii-doors-mutual-determination/mutual-det-check/) | L103-L106 | defined | `III.D25` |
-| `eval` | [#eval L112](/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l112/) | L112-L112 | computed | — |
-| `eval` | [#eval L113](/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l113/) | L113-L113 | computed | — |
-| `eval` | [#eval L114](/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l114/) | L114-L114 | computed | — |
-| `eval` | [#eval L115](/verify/taulib/docs/book-iii-doors-mutual-determination/eval-l115/) | L115-L115 | computed | — |
-| `theorem` | [b_to_i_15_4](/verify/taulib/docs/book-iii-doors-mutual-determination/b-to-i-15-4/) | L121-L122 | formalized | — |
-| `theorem` | [i_to_s_15_4](/verify/taulib/docs/book-iii-doors-mutual-determination/i-to-s-15-4/) | L124-L125 | formalized | — |
-| `theorem` | [s_to_b_10_3](/verify/taulib/docs/book-iii-doors-mutual-determination/s-to-b-10-3/) | L127-L128 | formalized | — |
-| `theorem` | [mutual_det_10_3](/verify/taulib/docs/book-iii-doors-mutual-determination/mutual-det-10-3/) | L130-L131 | formalized | — |
-| `theorem` | [b_to_i_zero](/verify/taulib/docs/book-iii-doors-mutual-determination/b-to-i-zero/) | L138-L139 | formalized | `III.D25` |
-| `theorem` | [md_cycle_42_3](/verify/taulib/docs/book-iii-doors-mutual-determination/md-cycle-42-3/) | L142-L149 | formalized | `III.D25` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [MDDescription](/corpus/taulib/docs/book-iii-doors-mutual-determination/mddescription/) | L34-L38 | type/data schema | type/data schema | `III.D25` |
+| `def` | [boundary_to_interior_check](/corpus/taulib/docs/book-iii-doors-mutual-determination/boundary-to-interior-check/) | L42-L56 | data/computed value | data/computed value | `III.D25` |
+| `def` | [interior_to_spectral_check](/corpus/taulib/docs/book-iii-doors-mutual-determination/interior-to-spectral-check/) | L60-L75 | data/computed value | data/computed value | `III.D25` |
+| `def` | [spectral_to_boundary_check](/corpus/taulib/docs/book-iii-doors-mutual-determination/spectral-to-boundary-check/) | L79-L100 | data/computed value | data/computed value | `III.D25` |
+| `def` | [mutual_det_check](/corpus/taulib/docs/book-iii-doors-mutual-determination/mutual-det-check/) | L103-L106 | data/computed value | data/computed value | `III.D25` |
+| `eval` | [#eval L112](/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l112/) | L112-L112 | computed check | computed check | — |
+| `eval` | [#eval L113](/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l113/) | L113-L113 | computed check | computed check | — |
+| `eval` | [#eval L114](/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l114/) | L114-L114 | computed check | computed check | — |
+| `eval` | [#eval L115](/corpus/taulib/docs/book-iii-doors-mutual-determination/eval-l115/) | L115-L115 | computed check | computed check | — |
+| `theorem` | [b_to_i_15_4](/corpus/taulib/docs/book-iii-doors-mutual-determination/b-to-i-15-4/) | L121-L122 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [i_to_s_15_4](/corpus/taulib/docs/book-iii-doors-mutual-determination/i-to-s-15-4/) | L124-L125 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [s_to_b_10_3](/corpus/taulib/docs/book-iii-doors-mutual-determination/s-to-b-10-3/) | L127-L128 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mutual_det_10_3](/corpus/taulib/docs/book-iii-doors-mutual-determination/mutual-det-10-3/) | L130-L131 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [b_to_i_zero](/corpus/taulib/docs/book-iii-doors-mutual-determination/b-to-i-zero/) | L138-L139 | proof obligation | formal proof obligation checked | `III.D25` |
+| `theorem` | [md_cycle_42_3](/corpus/taulib/docs/book-iii-doors-mutual-determination/md-cycle-42-3/) | L142-L149 | proof obligation | formal proof obligation checked | `III.D25` |

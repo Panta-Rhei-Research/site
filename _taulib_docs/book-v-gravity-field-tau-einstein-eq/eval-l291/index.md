@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L291",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l291/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/eval-l291/",
   "summary_short": "`eval` declaration in `TauLib.BookV.GravityField.TauEinsteinEq`.",
   "declaration_id": "TauLib.BookV.GravityField.TauEinsteinEq::#eval:291",
   "declaration_slug": "eval-l291",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.GravityField.TauEinsteinEq",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
   "source_line_start": 291,
   "source_line_end": 291,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauEinsteinEq.lean#L291-L291",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TauEinsteinEq",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TauEinsteinEq](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/)
+- Module: [TauLib.BookV.GravityField.TauEinsteinEq](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/)
 - Source path: [`TauLib/BookV/GravityField/TauEinsteinEq.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauEinsteinEq.lean#L291-L291)
 - Source range: L291-L291
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

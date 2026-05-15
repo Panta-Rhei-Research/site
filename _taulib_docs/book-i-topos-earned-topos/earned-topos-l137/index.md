@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "earned_topos",
-  "permalink": "/verify/taulib/docs/book-i-topos-earned-topos/earned-topos-l137/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-earned-topos/earned-topos-l137/",
   "summary_short": "`def` declaration in `TauLib.BookI.Topos.EarnedTopos`.",
   "declaration_id": "TauLib.BookI.Topos.EarnedTopos::earned_topos",
   "declaration_slug": "earned-topos-l137",
   "kind": "def",
   "name": "earned_topos",
   "module_name": "TauLib.BookI.Topos.EarnedTopos",
-  "module_url": "/verify/taulib/docs/book-i-topos-earned-topos/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-earned-topos/",
   "source_line_start": 137,
   "source_line_end": 140,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedTopos.lean#L137-L140",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.EarnedTopos",
-        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
+        "url": "/corpus/taulib/docs/book-i-topos-earned-topos/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.EarnedTopos](/verify/taulib/docs/book-i-topos-earned-topos/)
+- Module: [TauLib.BookI.Topos.EarnedTopos](/corpus/taulib/docs/book-i-topos-earned-topos/)
 - Source path: [`TauLib/BookI/Topos/EarnedTopos.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedTopos.lean#L137-L140)
 - Source range: L137-L140
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

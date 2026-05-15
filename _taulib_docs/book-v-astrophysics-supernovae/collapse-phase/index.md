@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CollapsePhase",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-supernovae/collapse-phase/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-supernovae/collapse-phase/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.Astrophysics.Supernovae`.",
   "declaration_id": "TauLib.BookV.Astrophysics.Supernovae::CollapsePhase",
   "declaration_slug": "collapse-phase",
   "kind": "inductive",
   "name": "CollapsePhase",
   "module_name": "TauLib.BookV.Astrophysics.Supernovae",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-supernovae/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/",
   "source_line_start": 111,
   "source_line_end": 124,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/Supernovae.lean#L111-L124",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.Supernovae",
-        "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.Supernovae](/verify/taulib/docs/book-v-astrophysics-supernovae/)
+- Module: [TauLib.BookV.Astrophysics.Supernovae](/corpus/taulib/docs/book-v-astrophysics-supernovae/)
 - Source path: [`TauLib/BookV/Astrophysics/Supernovae.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/Supernovae.lean#L111-L124)
 - Source range: L111-L124
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

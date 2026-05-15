@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealAbs",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-abs/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-abs/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealAbs`.",
   "module_name": "TauLib.BookI.Boundary.TauRealAbs",
   "module_slug": "book-i-boundary-tau-real-abs",
@@ -38,55 +38,67 @@
     {
       "kind": "def",
       "name": "TauReal.abs",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-abs/abs/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs/",
       "source_line_start": 50,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.abs_nonneg",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-nonneg/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-nonneg/",
       "source_line_start": 68,
       "source_line_end": 88,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_sub_abs_le_abs_sub_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-sub-abs-le-abs-sub-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-sub-abs-le-abs-sub-to-rat/",
       "source_line_start": 96,
       "source_line_end": 99,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.abs_of_equiv",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-of-equiv/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-of-equiv/",
       "source_line_start": 103,
       "source_line_end": 114,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.abs_preserves_cauchy",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-preserves-cauchy/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-preserves-cauchy/",
       "source_line_start": 122,
       "source_line_end": 132,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.abs_triangle",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-triangle/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-triangle/",
       "source_line_start": 146,
       "source_line_end": 172,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -98,7 +110,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -170,11 +182,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauReal.abs](/verify/taulib/docs/book-i-boundary-tau-real-abs/abs/) | L50-L60 | defined | — |
-| `theorem` | [TauReal.abs_nonneg](/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-nonneg/) | L68-L88 | formalized | — |
-| `theorem` | [TauRat.abs_sub_abs_le_abs_sub_toRat](/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-sub-abs-le-abs-sub-to-rat/) | L96-L99 | formalized | — |
-| `theorem` | [TauReal.abs_of_equiv](/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-of-equiv/) | L103-L114 | formalized | — |
-| `theorem` | [TauReal.abs_preserves_cauchy](/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-preserves-cauchy/) | L122-L132 | formalized | — |
-| `theorem` | [TauReal.abs_triangle](/verify/taulib/docs/book-i-boundary-tau-real-abs/abs-triangle/) | L146-L172 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauReal.abs](/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs/) | L50-L60 | definition | definition | — |
+| `theorem` | [TauReal.abs_nonneg](/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-nonneg/) | L68-L88 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_sub_abs_le_abs_sub_toRat](/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-sub-abs-le-abs-sub-to-rat/) | L96-L99 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.abs_of_equiv](/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-of-equiv/) | L103-L114 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.abs_preserves_cauchy](/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-preserves-cauchy/) | L122-L132 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.abs_triangle](/corpus/taulib/docs/book-i-boundary-tau-real-abs/abs-triangle/) | L146-L172 | proof obligation | formal proof obligation checked | — |

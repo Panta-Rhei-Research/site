@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pvsnp_forbidden_damage",
-  "permalink": "/verify/taulib/docs/book-iii-doors-bridge-tightening/pvsnp-forbidden-damage/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/pvsnp-forbidden-damage/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.BridgeTightening`.",
   "declaration_id": "TauLib.BookIII.Doors.BridgeTightening::pvsnp_forbidden_damage",
   "declaration_slug": "pvsnp-forbidden-damage",
   "kind": "def",
   "name": "pvsnp_forbidden_damage",
   "module_name": "TauLib.BookIII.Doors.BridgeTightening",
-  "module_url": "/verify/taulib/docs/book-iii-doors-bridge-tightening/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/",
   "source_line_start": 181,
   "source_line_end": 183,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/BridgeTightening.lean#L181-L183",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.BridgeTightening",
-        "url": "/verify/taulib/docs/book-iii-doors-bridge-tightening/"
+        "url": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.BridgeTightening](/verify/taulib/docs/book-iii-doors-bridge-tightening/)
+- Module: [TauLib.BookIII.Doors.BridgeTightening](/corpus/taulib/docs/book-iii-doors-bridge-tightening/)
 - Source path: [`TauLib/BookIII/Doors/BridgeTightening.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/BridgeTightening.lean#L181-L183)
 - Source range: L181-L183
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

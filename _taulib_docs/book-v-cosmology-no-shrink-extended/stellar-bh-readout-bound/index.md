@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "stellar_bh_readout_bound",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/stellar-bh-readout-bound/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/stellar-bh-readout-bound/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.NoShrinkExtended`.",
   "declaration_id": "TauLib.BookV.Cosmology.NoShrinkExtended::stellar_bh_readout_bound",
   "declaration_slug": "stellar-bh-readout-bound",
   "kind": "def",
   "name": "stellar_bh_readout_bound",
   "module_name": "TauLib.BookV.Cosmology.NoShrinkExtended",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/",
   "source_line_start": 296,
   "source_line_end": 299,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NoShrinkExtended.lean#L296-L299",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.NoShrinkExtended",
-        "url": "/verify/taulib/docs/book-v-cosmology-no-shrink-extended/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.NoShrinkExtended](/verify/taulib/docs/book-v-cosmology-no-shrink-extended/)
+- Module: [TauLib.BookV.Cosmology.NoShrinkExtended](/corpus/taulib/docs/book-v-cosmology-no-shrink-extended/)
 - Source path: [`TauLib/BookV/Cosmology/NoShrinkExtended.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NoShrinkExtended.lean#L296-L299)
 - Source range: L296-L299
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

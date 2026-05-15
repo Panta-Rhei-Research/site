@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "OmegaTail",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-germs/omega-tail/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-germs/omega-tail/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Polarity.OmegaGerms`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaGerms::OmegaTail",
   "declaration_slug": "omega-tail",
   "kind": "structure",
   "name": "OmegaTail",
   "module_name": "TauLib.BookI.Polarity.OmegaGerms",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-germs/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-germs/",
   "source_line_start": 36,
   "source_line_end": 40,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L36-L40",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaGerms",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-germs/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-germs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaGerms](/verify/taulib/docs/book-i-polarity-omega-germs/)
+- Module: [TauLib.BookI.Polarity.OmegaGerms](/corpus/taulib/docs/book-i-polarity-omega-germs/)
 - Source path: [`TauLib/BookI/Polarity/OmegaGerms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L36-L40)
 - Source range: L36-L40
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

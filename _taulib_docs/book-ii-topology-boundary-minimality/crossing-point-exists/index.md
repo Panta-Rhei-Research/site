@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "crossing_point_exists",
-  "permalink": "/verify/taulib/docs/book-ii-topology-boundary-minimality/crossing-point-exists/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/crossing-point-exists/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.BoundaryMinimality`.",
   "declaration_id": "TauLib.BookII.Topology.BoundaryMinimality::crossing_point_exists",
   "declaration_slug": "crossing-point-exists",
   "kind": "def",
   "name": "crossing_point_exists",
   "module_name": "TauLib.BookII.Topology.BoundaryMinimality",
-  "module_url": "/verify/taulib/docs/book-ii-topology-boundary-minimality/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/",
   "source_line_start": 135,
   "source_line_end": 144,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/BoundaryMinimality.lean#L135-L144",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.BoundaryMinimality",
-        "url": "/verify/taulib/docs/book-ii-topology-boundary-minimality/"
+        "url": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.BoundaryMinimality](/verify/taulib/docs/book-ii-topology-boundary-minimality/)
+- Module: [TauLib.BookII.Topology.BoundaryMinimality](/corpus/taulib/docs/book-ii-topology-boundary-minimality/)
 - Source path: [`TauLib/BookII/Topology/BoundaryMinimality.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/BoundaryMinimality.lean#L135-L144)
 - Source range: L135-L144
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

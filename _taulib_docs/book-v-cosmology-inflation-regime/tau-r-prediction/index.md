@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_r_prediction",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-inflation-regime/tau-r-prediction/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/tau-r-prediction/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.InflationRegime`.",
   "declaration_id": "TauLib.BookV.Cosmology.InflationRegime::tau_r_prediction",
   "declaration_slug": "tau-r-prediction",
   "kind": "def",
   "name": "tau_r_prediction",
   "module_name": "TauLib.BookV.Cosmology.InflationRegime",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-inflation-regime/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/",
   "source_line_start": 242,
   "source_line_end": 245,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/InflationRegime.lean#L242-L245",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.InflationRegime",
-        "url": "/verify/taulib/docs/book-v-cosmology-inflation-regime/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.InflationRegime](/verify/taulib/docs/book-v-cosmology-inflation-regime/)
+- Module: [TauLib.BookV.Cosmology.InflationRegime](/corpus/taulib/docs/book-v-cosmology-inflation-regime/)
 - Source path: [`TauLib/BookV/Cosmology/InflationRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/InflationRegime.lean#L242-L245)
 - Source range: L242-L245
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

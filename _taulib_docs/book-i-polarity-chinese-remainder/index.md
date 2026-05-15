@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Polarity.ChineseRemainder",
-  "permalink": "/verify/taulib/docs/book-i-polarity-chinese-remainder/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Polarity.ChineseRemainder`.",
   "module_name": "TauLib.BookI.Polarity.ChineseRemainder",
   "module_slug": "book-i-polarity-chinese-remainder",
@@ -39,1126 +39,1376 @@
     {
       "kind": "def",
       "name": "mod_inv_go",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go/",
       "source_line_start": 40,
       "source_line_end": 44,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "mod_inv",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv/",
       "source_line_start": 47,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mod_inv_go_correct",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go-correct/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go-correct/",
       "source_line_start": 54,
       "source_line_end": 71,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mod_inv_correct",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-correct/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-correct/",
       "source_line_start": 74,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_decompose",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-decompose/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-decompose/",
       "source_line_start": 92,
       "source_line_end": 93,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_basis",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-basis/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-basis/",
       "source_line_start": 102,
       "source_line_end": 106,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_reconstruct_go",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct-go/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct-go/",
       "source_line_start": 113,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_reconstruct",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct/",
       "source_line_start": 124,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_basis_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-basis-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-basis-check/",
       "source_line_start": 132,
       "source_line_end": 133,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_roundtrip_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-roundtrip-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-roundtrip-check/",
       "source_line_start": 136,
       "source_line_end": 137,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_coherence_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-coherence-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-coherence-check/",
       "source_line_start": 141,
       "source_line_end": 143,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_exhaustive_check_go",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check-go/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check-go/",
       "source_line_start": 146,
       "source_line_end": 150,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_exhaustive_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check/",
       "source_line_start": 152,
       "source_line_end": 153,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_idempotent_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-idempotent-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-idempotent-check/",
       "source_line_start": 160,
       "source_line_end": 163,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_orthogonal_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-orthogonal-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-orthogonal-check/",
       "source_line_start": 166,
       "source_line_end": 167,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_partition_go",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-go/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-go/",
       "source_line_start": 170,
       "source_line_end": 174,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_partition_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-check/",
       "source_line_start": 176,
       "source_line_end": 177,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l185/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l185/",
       "source_line_start": 185,
       "source_line_end": 185,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l186/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l186/",
       "source_line_start": 186,
       "source_line_end": 186,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l187/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l187/",
       "source_line_start": 187,
       "source_line_end": 187,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l189/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l189/",
       "source_line_start": 189,
       "source_line_end": 189,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l190/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l190/",
       "source_line_start": 190,
       "source_line_end": 190,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l191/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l191/",
       "source_line_start": 191,
       "source_line_end": 191,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l193/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l193/",
       "source_line_start": 193,
       "source_line_end": 193,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l194/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l195/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l195/",
       "source_line_start": 195,
       "source_line_end": 195,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l198/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l198/",
       "source_line_start": 198,
       "source_line_end": 198,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l199/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l199/",
       "source_line_start": 199,
       "source_line_end": 199,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l200/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l200/",
       "source_line_start": 200,
       "source_line_end": 200,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l201/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l201/",
       "source_line_start": 201,
       "source_line_end": 201,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l202/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l202/",
       "source_line_start": 202,
       "source_line_end": 202,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l203/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l203/",
       "source_line_start": 203,
       "source_line_end": 203,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l204/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l204/",
       "source_line_start": 204,
       "source_line_end": 204,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l205/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l205/",
       "source_line_start": 205,
       "source_line_end": 205,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l206/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l206/",
       "source_line_start": 206,
       "source_line_end": 206,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l207/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l207/",
       "source_line_start": 207,
       "source_line_end": 207,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l208/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l208/",
       "source_line_start": 208,
       "source_line_end": 208,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l209/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l209/",
       "source_line_start": 209,
       "source_line_end": 209,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l210/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l210/",
       "source_line_start": 210,
       "source_line_end": 210,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l211/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l211/",
       "source_line_start": 211,
       "source_line_end": 211,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l212/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l212/",
       "source_line_start": 212,
       "source_line_end": 212,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l213/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l213/",
       "source_line_start": 213,
       "source_line_end": 213,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l216/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l216/",
       "source_line_start": 216,
       "source_line_end": 216,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l217/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l217/",
       "source_line_start": 217,
       "source_line_end": 217,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l218/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l218/",
       "source_line_start": 218,
       "source_line_end": 218,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l219/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l219/",
       "source_line_start": 219,
       "source_line_end": 219,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l220/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l220/",
       "source_line_start": 220,
       "source_line_end": 220,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l227/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l227/",
       "source_line_start": 227,
       "source_line_end": 227,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l228/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l228/",
       "source_line_start": 228,
       "source_line_end": 228,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l229/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l229/",
       "source_line_start": 229,
       "source_line_end": 229,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l230/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l230/",
       "source_line_start": 230,
       "source_line_end": 230,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l231/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l231/",
       "source_line_start": 231,
       "source_line_end": 231,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l232/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l232/",
       "source_line_start": 232,
       "source_line_end": 232,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l233/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l233/",
       "source_line_start": 233,
       "source_line_end": 233,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l234/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l234/",
       "source_line_start": 234,
       "source_line_end": 234,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l235/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l235/",
       "source_line_start": 235,
       "source_line_end": 235,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l238/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l238/",
       "source_line_start": 238,
       "source_line_end": 238,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l239/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l239/",
       "source_line_start": 239,
       "source_line_end": 239,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l240/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l240/",
       "source_line_start": 240,
       "source_line_end": 240,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l241/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l241/",
       "source_line_start": 241,
       "source_line_end": 241,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l242/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l242/",
       "source_line_start": 242,
       "source_line_end": 242,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l243/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l243/",
       "source_line_start": 243,
       "source_line_end": 243,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l246/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l246/",
       "source_line_start": 246,
       "source_line_end": 246,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l247/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l247/",
       "source_line_start": 247,
       "source_line_end": 247,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l248/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l248/",
       "source_line_start": 248,
       "source_line_end": 248,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l249/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l249/",
       "source_line_start": 249,
       "source_line_end": 249,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l250/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l250/",
       "source_line_start": 250,
       "source_line_end": 250,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l257/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l257/",
       "source_line_start": 257,
       "source_line_end": 257,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l258/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l258/",
       "source_line_start": 258,
       "source_line_end": 258,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l259/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l259/",
       "source_line_start": 259,
       "source_line_end": 259,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l260/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l261/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l261/",
       "source_line_start": 261,
       "source_line_end": 261,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l262/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l264/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l265/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l265/",
       "source_line_start": 265,
       "source_line_end": 265,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l266/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l266/",
       "source_line_start": 266,
       "source_line_end": 266,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l267/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l267/",
       "source_line_start": 267,
       "source_line_end": 267,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l268/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l268/",
       "source_line_start": 268,
       "source_line_end": 268,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l270/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l270/",
       "source_line_start": 270,
       "source_line_end": 270,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l271/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l271/",
       "source_line_start": 271,
       "source_line_end": 271,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l272/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l272/",
       "source_line_start": 272,
       "source_line_end": 272,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l273/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l273/",
       "source_line_start": 273,
       "source_line_end": 273,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l274/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l274/",
       "source_line_start": 274,
       "source_line_end": 274,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l275/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l275/",
       "source_line_start": 275,
       "source_line_end": 275,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l278/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l278/",
       "source_line_start": 278,
       "source_line_end": 278,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l279/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l279/",
       "source_line_start": 279,
       "source_line_end": 279,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l280/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l280/",
       "source_line_start": 280,
       "source_line_end": 280,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l287/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l287/",
       "source_line_start": 287,
       "source_line_end": 287,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l288/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l288/",
       "source_line_start": 288,
       "source_line_end": 288,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l289/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l289/",
       "source_line_start": 289,
       "source_line_end": 289,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l290/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l290/",
       "source_line_start": 290,
       "source_line_end": 290,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l291/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l291/",
       "source_line_start": 291,
       "source_line_end": 291,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l292/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l292/",
       "source_line_start": 292,
       "source_line_end": 292,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l293/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l293/",
       "source_line_start": 293,
       "source_line_end": 293,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l294/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l294/",
       "source_line_start": 294,
       "source_line_end": 294,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l295/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l295/",
       "source_line_start": 295,
       "source_line_end": 295,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_add_hom_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-add-hom-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-add-hom-check/",
       "source_line_start": 302,
       "source_line_end": 307,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "crt_mul_hom_check",
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-mul-hom-check/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-mul-hom-check/",
       "source_line_start": 310,
       "source_line_end": 315,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l318/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l318/",
       "source_line_start": 318,
       "source_line_end": 318,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l319/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l319/",
       "source_line_start": 319,
       "source_line_end": 319,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l320/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l320/",
       "source_line_start": 320,
       "source_line_end": 320,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l323/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l323/",
       "source_line_start": 323,
       "source_line_end": 323,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l324/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l324/",
       "source_line_start": 324,
       "source_line_end": 324,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l325/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l325/",
       "source_line_start": 325,
       "source_line_end": 325,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l332/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l332/",
       "source_line_start": 332,
       "source_line_end": 332,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l333/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l333/",
       "source_line_start": 333,
       "source_line_end": 333,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l334/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l334/",
       "source_line_start": 334,
       "source_line_end": 334,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l335/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l335/",
       "source_line_start": 335,
       "source_line_end": 335,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l338/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l338/",
       "source_line_start": 338,
       "source_line_end": 338,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l339/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l339/",
       "source_line_start": 339,
       "source_line_end": 339,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l340/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l340/",
       "source_line_start": 340,
       "source_line_end": 340,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l343/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l343/",
       "source_line_start": 343,
       "source_line_end": 343,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l344/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l344/",
       "source_line_start": 344,
       "source_line_end": 344,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l347/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l347/",
       "source_line_start": 347,
       "source_line_end": 347,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l348/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l348/",
       "source_line_start": 348,
       "source_line_end": 348,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l349/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l349/",
       "source_line_start": 349,
       "source_line_end": 349,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l352/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l352/",
       "source_line_start": 352,
       "source_line_end": 352,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l353/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l353/",
       "source_line_start": 353,
       "source_line_end": 353,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l354/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l354/",
       "source_line_start": 354,
       "source_line_end": 354,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l357/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l357/",
       "source_line_start": 357,
       "source_line_end": 357,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l358/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l358/",
       "source_line_start": 358,
       "source_line_end": 358,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l361/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l361/",
       "source_line_start": 361,
       "source_line_end": 361,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l364/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l364/",
       "source_line_start": 364,
       "source_line_end": 364,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l365/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l365/",
       "source_line_start": 365,
       "source_line_end": 365,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l366/",
+      "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l366/",
       "source_line_start": 366,
       "source_line_end": 368,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -1170,7 +1420,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -1247,130 +1497,130 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [mod_inv_go](/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go/) | L40-L44 | defined | — |
-| `def` | [mod_inv](/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv/) | L47-L47 | defined | — |
-| `theorem` | [mod_inv_go_correct](/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go-correct/) | L54-L71 | formalized | — |
-| `theorem` | [mod_inv_correct](/verify/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-correct/) | L74-L84 | formalized | — |
-| `def` | [crt_decompose](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-decompose/) | L92-L93 | defined | — |
-| `def` | [crt_basis](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-basis/) | L102-L106 | defined | — |
-| `def` | [crt_reconstruct_go](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct-go/) | L113-L121 | defined | — |
-| `def` | [crt_reconstruct](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct/) | L124-L125 | defined | — |
-| `def` | [crt_basis_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-basis-check/) | L132-L133 | defined | — |
-| `def` | [crt_roundtrip_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-roundtrip-check/) | L136-L137 | defined | — |
-| `def` | [crt_coherence_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-coherence-check/) | L141-L143 | defined | — |
-| `def` | [crt_exhaustive_check_go](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check-go/) | L146-L150 | defined | — |
-| `def` | [crt_exhaustive_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check/) | L152-L153 | defined | — |
-| `def` | [crt_idempotent_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-idempotent-check/) | L160-L163 | defined | — |
-| `def` | [crt_orthogonal_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-orthogonal-check/) | L166-L167 | defined | — |
-| `def` | [crt_partition_go](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-go/) | L170-L174 | defined | — |
-| `def` | [crt_partition_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-check/) | L176-L177 | defined | — |
-| `example` | [#eval L185](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l185/) | L185-L185 | example | — |
-| `example` | [#eval L186](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l186/) | L186-L186 | example | — |
-| `example` | [#eval L187](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l187/) | L187-L187 | example | — |
-| `example` | [#eval L189](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l189/) | L189-L189 | example | — |
-| `example` | [#eval L190](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l190/) | L190-L190 | example | — |
-| `example` | [#eval L191](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l191/) | L191-L191 | example | — |
-| `example` | [#eval L193](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l193/) | L193-L193 | example | — |
-| `example` | [#eval L194](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l194/) | L194-L194 | example | — |
-| `example` | [#eval L195](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l195/) | L195-L195 | example | — |
-| `example` | [#eval L198](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l198/) | L198-L198 | example | — |
-| `example` | [#eval L199](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l199/) | L199-L199 | example | — |
-| `example` | [#eval L200](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l200/) | L200-L200 | example | — |
-| `example` | [#eval L201](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l201/) | L201-L201 | example | — |
-| `example` | [#eval L202](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l202/) | L202-L202 | example | — |
-| `example` | [#eval L203](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l203/) | L203-L203 | example | — |
-| `example` | [#eval L204](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l204/) | L204-L204 | example | — |
-| `example` | [#eval L205](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l205/) | L205-L205 | example | — |
-| `example` | [#eval L206](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l206/) | L206-L206 | example | — |
-| `example` | [#eval L207](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l207/) | L207-L207 | example | — |
-| `example` | [#eval L208](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l208/) | L208-L208 | example | — |
-| `example` | [#eval L209](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l209/) | L209-L209 | example | — |
-| `example` | [#eval L210](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l210/) | L210-L210 | example | — |
-| `example` | [#eval L211](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l211/) | L211-L211 | example | — |
-| `example` | [#eval L212](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l212/) | L212-L212 | example | — |
-| `example` | [#eval L213](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l213/) | L213-L213 | example | — |
-| `example` | [#eval L216](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l216/) | L216-L216 | example | — |
-| `example` | [#eval L217](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l217/) | L217-L217 | example | — |
-| `example` | [#eval L218](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l218/) | L218-L218 | example | — |
-| `example` | [#eval L219](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l219/) | L219-L219 | example | — |
-| `example` | [#eval L220](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l220/) | L220-L220 | example | — |
-| `example` | [#eval L227](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l227/) | L227-L227 | example | — |
-| `example` | [#eval L228](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l228/) | L228-L228 | example | — |
-| `example` | [#eval L229](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l229/) | L229-L229 | example | — |
-| `example` | [#eval L230](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l230/) | L230-L230 | example | — |
-| `example` | [#eval L231](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l231/) | L231-L231 | example | — |
-| `example` | [#eval L232](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l232/) | L232-L232 | example | — |
-| `example` | [#eval L233](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l233/) | L233-L233 | example | — |
-| `example` | [#eval L234](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l234/) | L234-L234 | example | — |
-| `example` | [#eval L235](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l235/) | L235-L235 | example | — |
-| `example` | [#eval L238](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l238/) | L238-L238 | example | — |
-| `example` | [#eval L239](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l239/) | L239-L239 | example | — |
-| `example` | [#eval L240](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l240/) | L240-L240 | example | — |
-| `example` | [#eval L241](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l241/) | L241-L241 | example | — |
-| `example` | [#eval L242](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l242/) | L242-L242 | example | — |
-| `example` | [#eval L243](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l243/) | L243-L243 | example | — |
-| `example` | [#eval L246](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l246/) | L246-L246 | example | — |
-| `example` | [#eval L247](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l247/) | L247-L247 | example | — |
-| `example` | [#eval L248](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l248/) | L248-L248 | example | — |
-| `example` | [#eval L249](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l249/) | L249-L249 | example | — |
-| `example` | [#eval L250](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l250/) | L250-L250 | example | — |
-| `example` | [#eval L257](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l257/) | L257-L257 | example | — |
-| `example` | [#eval L258](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l258/) | L258-L258 | example | — |
-| `example` | [#eval L259](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l259/) | L259-L259 | example | — |
-| `example` | [#eval L260](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l260/) | L260-L260 | example | — |
-| `example` | [#eval L261](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l261/) | L261-L261 | example | — |
-| `example` | [#eval L262](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l262/) | L262-L262 | example | — |
-| `example` | [#eval L264](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l264/) | L264-L264 | example | — |
-| `example` | [#eval L265](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l265/) | L265-L265 | example | — |
-| `example` | [#eval L266](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l266/) | L266-L266 | example | — |
-| `example` | [#eval L267](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l267/) | L267-L267 | example | — |
-| `example` | [#eval L268](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l268/) | L268-L268 | example | — |
-| `example` | [#eval L270](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l270/) | L270-L270 | example | — |
-| `example` | [#eval L271](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l271/) | L271-L271 | example | — |
-| `example` | [#eval L272](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l272/) | L272-L272 | example | — |
-| `example` | [#eval L273](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l273/) | L273-L273 | example | — |
-| `example` | [#eval L274](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l274/) | L274-L274 | example | — |
-| `example` | [#eval L275](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l275/) | L275-L275 | example | — |
-| `example` | [#eval L278](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l278/) | L278-L278 | example | — |
-| `example` | [#eval L279](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l279/) | L279-L279 | example | — |
-| `example` | [#eval L280](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l280/) | L280-L280 | example | — |
-| `example` | [#eval L287](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l287/) | L287-L287 | example | — |
-| `example` | [#eval L288](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l288/) | L288-L288 | example | — |
-| `example` | [#eval L289](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l289/) | L289-L289 | example | — |
-| `example` | [#eval L290](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l290/) | L290-L290 | example | — |
-| `example` | [#eval L291](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l291/) | L291-L291 | example | — |
-| `example` | [#eval L292](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l292/) | L292-L292 | example | — |
-| `example` | [#eval L293](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l293/) | L293-L293 | example | — |
-| `example` | [#eval L294](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l294/) | L294-L294 | example | — |
-| `example` | [#eval L295](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l295/) | L295-L295 | example | — |
-| `def` | [crt_add_hom_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-add-hom-check/) | L302-L307 | defined | — |
-| `def` | [crt_mul_hom_check](/verify/taulib/docs/book-i-polarity-chinese-remainder/crt-mul-hom-check/) | L310-L315 | defined | — |
-| `example` | [#eval L318](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l318/) | L318-L318 | example | — |
-| `example` | [#eval L319](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l319/) | L319-L319 | example | — |
-| `example` | [#eval L320](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l320/) | L320-L320 | example | — |
-| `example` | [#eval L323](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l323/) | L323-L323 | example | — |
-| `example` | [#eval L324](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l324/) | L324-L324 | example | — |
-| `example` | [#eval L325](/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l325/) | L325-L325 | example | — |
-| `eval` | [#eval L332](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l332/) | L332-L332 | computed | — |
-| `eval` | [#eval L333](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l333/) | L333-L333 | computed | — |
-| `eval` | [#eval L334](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l334/) | L334-L334 | computed | — |
-| `eval` | [#eval L335](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l335/) | L335-L335 | computed | — |
-| `eval` | [#eval L338](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l338/) | L338-L338 | computed | — |
-| `eval` | [#eval L339](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l339/) | L339-L339 | computed | — |
-| `eval` | [#eval L340](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l340/) | L340-L340 | computed | — |
-| `eval` | [#eval L343](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l343/) | L343-L343 | computed | — |
-| `eval` | [#eval L344](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l344/) | L344-L344 | computed | — |
-| `eval` | [#eval L347](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l347/) | L347-L347 | computed | — |
-| `eval` | [#eval L348](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l348/) | L348-L348 | computed | — |
-| `eval` | [#eval L349](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l349/) | L349-L349 | computed | — |
-| `eval` | [#eval L352](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l352/) | L352-L352 | computed | — |
-| `eval` | [#eval L353](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l353/) | L353-L353 | computed | — |
-| `eval` | [#eval L354](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l354/) | L354-L354 | computed | — |
-| `eval` | [#eval L357](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l357/) | L357-L357 | computed | — |
-| `eval` | [#eval L358](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l358/) | L358-L358 | computed | — |
-| `eval` | [#eval L361](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l361/) | L361-L361 | computed | — |
-| `eval` | [#eval L364](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l364/) | L364-L364 | computed | — |
-| `eval` | [#eval L365](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l365/) | L365-L365 | computed | — |
-| `eval` | [#eval L366](/verify/taulib/docs/book-i-polarity-chinese-remainder/eval-l366/) | L366-L368 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [mod_inv_go](/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go/) | L40-L44 | data/computed value | data/computed value | — |
+| `def` | [mod_inv](/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv/) | L47-L47 | data/computed value | data/computed value | — |
+| `theorem` | [mod_inv_go_correct](/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-go-correct/) | L54-L71 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mod_inv_correct](/corpus/taulib/docs/book-i-polarity-chinese-remainder/mod-inv-correct/) | L74-L84 | proof obligation | formal proof obligation checked | — |
+| `def` | [crt_decompose](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-decompose/) | L92-L93 | data/computed value | data/computed value | — |
+| `def` | [crt_basis](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-basis/) | L102-L106 | definition | definition | — |
+| `def` | [crt_reconstruct_go](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct-go/) | L113-L121 | data/computed value | data/computed value | — |
+| `def` | [crt_reconstruct](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-reconstruct/) | L124-L125 | data/computed value | data/computed value | — |
+| `def` | [crt_basis_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-basis-check/) | L132-L133 | data/computed value | data/computed value | — |
+| `def` | [crt_roundtrip_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-roundtrip-check/) | L136-L137 | data/computed value | data/computed value | — |
+| `def` | [crt_coherence_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-coherence-check/) | L141-L143 | data/computed value | data/computed value | — |
+| `def` | [crt_exhaustive_check_go](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check-go/) | L146-L150 | data/computed value | data/computed value | — |
+| `def` | [crt_exhaustive_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-exhaustive-check/) | L152-L153 | data/computed value | data/computed value | — |
+| `def` | [crt_idempotent_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-idempotent-check/) | L160-L163 | data/computed value | data/computed value | — |
+| `def` | [crt_orthogonal_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-orthogonal-check/) | L166-L167 | data/computed value | data/computed value | — |
+| `def` | [crt_partition_go](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-go/) | L170-L174 | data/computed value | data/computed value | — |
+| `def` | [crt_partition_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-partition-check/) | L176-L177 | data/computed value | data/computed value | — |
+| `example` | [#eval L185](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l185/) | L185-L185 | example check | example | — |
+| `example` | [#eval L186](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l186/) | L186-L186 | example check | example | — |
+| `example` | [#eval L187](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l187/) | L187-L187 | example check | example | — |
+| `example` | [#eval L189](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l189/) | L189-L189 | example check | example | — |
+| `example` | [#eval L190](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l190/) | L190-L190 | example check | example | — |
+| `example` | [#eval L191](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l191/) | L191-L191 | example check | example | — |
+| `example` | [#eval L193](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l193/) | L193-L193 | example check | example | — |
+| `example` | [#eval L194](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l194/) | L194-L194 | example check | example | — |
+| `example` | [#eval L195](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l195/) | L195-L195 | example check | example | — |
+| `example` | [#eval L198](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l198/) | L198-L198 | example check | example | — |
+| `example` | [#eval L199](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l199/) | L199-L199 | example check | example | — |
+| `example` | [#eval L200](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l200/) | L200-L200 | example check | example | — |
+| `example` | [#eval L201](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l201/) | L201-L201 | example check | example | — |
+| `example` | [#eval L202](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l202/) | L202-L202 | example check | example | — |
+| `example` | [#eval L203](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l203/) | L203-L203 | example check | example | — |
+| `example` | [#eval L204](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l204/) | L204-L204 | example check | example | — |
+| `example` | [#eval L205](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l205/) | L205-L205 | example check | example | — |
+| `example` | [#eval L206](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l206/) | L206-L206 | example check | example | — |
+| `example` | [#eval L207](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l207/) | L207-L207 | example check | example | — |
+| `example` | [#eval L208](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l208/) | L208-L208 | example check | example | — |
+| `example` | [#eval L209](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l209/) | L209-L209 | example check | example | — |
+| `example` | [#eval L210](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l210/) | L210-L210 | example check | example | — |
+| `example` | [#eval L211](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l211/) | L211-L211 | example check | example | — |
+| `example` | [#eval L212](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l212/) | L212-L212 | example check | example | — |
+| `example` | [#eval L213](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l213/) | L213-L213 | example check | example | — |
+| `example` | [#eval L216](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l216/) | L216-L216 | example check | example | — |
+| `example` | [#eval L217](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l217/) | L217-L217 | example check | example | — |
+| `example` | [#eval L218](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l218/) | L218-L218 | example check | example | — |
+| `example` | [#eval L219](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l219/) | L219-L219 | example check | example | — |
+| `example` | [#eval L220](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l220/) | L220-L220 | example check | example | — |
+| `example` | [#eval L227](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l227/) | L227-L227 | example check | example | — |
+| `example` | [#eval L228](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l228/) | L228-L228 | example check | example | — |
+| `example` | [#eval L229](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l229/) | L229-L229 | example check | example | — |
+| `example` | [#eval L230](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l230/) | L230-L230 | example check | example | — |
+| `example` | [#eval L231](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l231/) | L231-L231 | example check | example | — |
+| `example` | [#eval L232](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l232/) | L232-L232 | example check | example | — |
+| `example` | [#eval L233](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l233/) | L233-L233 | example check | example | — |
+| `example` | [#eval L234](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l234/) | L234-L234 | example check | example | — |
+| `example` | [#eval L235](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l235/) | L235-L235 | example check | example | — |
+| `example` | [#eval L238](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l238/) | L238-L238 | example check | example | — |
+| `example` | [#eval L239](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l239/) | L239-L239 | example check | example | — |
+| `example` | [#eval L240](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l240/) | L240-L240 | example check | example | — |
+| `example` | [#eval L241](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l241/) | L241-L241 | example check | example | — |
+| `example` | [#eval L242](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l242/) | L242-L242 | example check | example | — |
+| `example` | [#eval L243](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l243/) | L243-L243 | example check | example | — |
+| `example` | [#eval L246](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l246/) | L246-L246 | example check | example | — |
+| `example` | [#eval L247](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l247/) | L247-L247 | example check | example | — |
+| `example` | [#eval L248](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l248/) | L248-L248 | example check | example | — |
+| `example` | [#eval L249](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l249/) | L249-L249 | example check | example | — |
+| `example` | [#eval L250](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l250/) | L250-L250 | example check | example | — |
+| `example` | [#eval L257](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l257/) | L257-L257 | example check | example | — |
+| `example` | [#eval L258](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l258/) | L258-L258 | example check | example | — |
+| `example` | [#eval L259](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l259/) | L259-L259 | example check | example | — |
+| `example` | [#eval L260](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l260/) | L260-L260 | example check | example | — |
+| `example` | [#eval L261](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l261/) | L261-L261 | example check | example | — |
+| `example` | [#eval L262](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l262/) | L262-L262 | example check | example | — |
+| `example` | [#eval L264](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l264/) | L264-L264 | example check | example | — |
+| `example` | [#eval L265](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l265/) | L265-L265 | example check | example | — |
+| `example` | [#eval L266](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l266/) | L266-L266 | example check | example | — |
+| `example` | [#eval L267](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l267/) | L267-L267 | example check | example | — |
+| `example` | [#eval L268](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l268/) | L268-L268 | example check | example | — |
+| `example` | [#eval L270](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l270/) | L270-L270 | example check | example | — |
+| `example` | [#eval L271](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l271/) | L271-L271 | example check | example | — |
+| `example` | [#eval L272](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l272/) | L272-L272 | example check | example | — |
+| `example` | [#eval L273](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l273/) | L273-L273 | example check | example | — |
+| `example` | [#eval L274](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l274/) | L274-L274 | example check | example | — |
+| `example` | [#eval L275](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l275/) | L275-L275 | example check | example | — |
+| `example` | [#eval L278](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l278/) | L278-L278 | example check | example | — |
+| `example` | [#eval L279](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l279/) | L279-L279 | example check | example | — |
+| `example` | [#eval L280](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l280/) | L280-L280 | example check | example | — |
+| `example` | [#eval L287](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l287/) | L287-L287 | example check | example | — |
+| `example` | [#eval L288](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l288/) | L288-L288 | example check | example | — |
+| `example` | [#eval L289](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l289/) | L289-L289 | example check | example | — |
+| `example` | [#eval L290](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l290/) | L290-L290 | example check | example | — |
+| `example` | [#eval L291](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l291/) | L291-L291 | example check | example | — |
+| `example` | [#eval L292](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l292/) | L292-L292 | example check | example | — |
+| `example` | [#eval L293](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l293/) | L293-L293 | example check | example | — |
+| `example` | [#eval L294](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l294/) | L294-L294 | example check | example | — |
+| `example` | [#eval L295](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l295/) | L295-L295 | example check | example | — |
+| `def` | [crt_add_hom_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-add-hom-check/) | L302-L307 | data/computed value | data/computed value | — |
+| `def` | [crt_mul_hom_check](/corpus/taulib/docs/book-i-polarity-chinese-remainder/crt-mul-hom-check/) | L310-L315 | data/computed value | data/computed value | — |
+| `example` | [#eval L318](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l318/) | L318-L318 | example check | example | — |
+| `example` | [#eval L319](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l319/) | L319-L319 | example check | example | — |
+| `example` | [#eval L320](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l320/) | L320-L320 | example check | example | — |
+| `example` | [#eval L323](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l323/) | L323-L323 | example check | example | — |
+| `example` | [#eval L324](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l324/) | L324-L324 | example check | example | — |
+| `example` | [#eval L325](/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l325/) | L325-L325 | example check | example | — |
+| `eval` | [#eval L332](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l332/) | L332-L332 | computed check | computed check | — |
+| `eval` | [#eval L333](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l333/) | L333-L333 | computed check | computed check | — |
+| `eval` | [#eval L334](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l334/) | L334-L334 | computed check | computed check | — |
+| `eval` | [#eval L335](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l335/) | L335-L335 | computed check | computed check | — |
+| `eval` | [#eval L338](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l338/) | L338-L338 | computed check | computed check | — |
+| `eval` | [#eval L339](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l339/) | L339-L339 | computed check | computed check | — |
+| `eval` | [#eval L340](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l340/) | L340-L340 | computed check | computed check | — |
+| `eval` | [#eval L343](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l343/) | L343-L343 | computed check | computed check | — |
+| `eval` | [#eval L344](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l344/) | L344-L344 | computed check | computed check | — |
+| `eval` | [#eval L347](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l347/) | L347-L347 | computed check | computed check | — |
+| `eval` | [#eval L348](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l348/) | L348-L348 | computed check | computed check | — |
+| `eval` | [#eval L349](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l349/) | L349-L349 | computed check | computed check | — |
+| `eval` | [#eval L352](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l352/) | L352-L352 | computed check | computed check | — |
+| `eval` | [#eval L353](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l353/) | L353-L353 | computed check | computed check | — |
+| `eval` | [#eval L354](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l354/) | L354-L354 | computed check | computed check | — |
+| `eval` | [#eval L357](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l357/) | L357-L357 | computed check | computed check | — |
+| `eval` | [#eval L358](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l358/) | L358-L358 | computed check | computed check | — |
+| `eval` | [#eval L361](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l361/) | L361-L361 | computed check | computed check | — |
+| `eval` | [#eval L364](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l364/) | L364-L364 | computed check | computed check | — |
+| `eval` | [#eval L365](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l365/) | L365-L365 | computed check | computed check | — |
+| `eval` | [#eval L366](/corpus/taulib/docs/book-i-polarity-chinese-remainder/eval-l366/) | L366-L368 | computed check | computed check | — |

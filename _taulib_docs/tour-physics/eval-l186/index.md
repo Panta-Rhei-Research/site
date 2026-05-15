@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L186",
-  "permalink": "/verify/taulib/docs/tour-physics/eval-l186/",
+  "permalink": "/corpus/taulib/docs/tour-physics/eval-l186/",
   "summary_short": "`eval` declaration in `TauLib.Tour.Physics`.",
   "declaration_id": "TauLib.Tour.Physics::#eval:186",
   "declaration_slug": "eval-l186",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.Tour.Physics",
-  "module_url": "/verify/taulib/docs/tour-physics/",
+  "module_url": "/corpus/taulib/docs/tour-physics/",
   "source_line_start": 186,
   "source_line_end": 193,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/Physics.lean#L186-L193",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.Tour.Physics",
-        "url": "/verify/taulib/docs/tour-physics/"
+        "url": "/corpus/taulib/docs/tour-physics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.Tour.Physics](/verify/taulib/docs/tour-physics/)
+- Module: [TauLib.Tour.Physics](/corpus/taulib/docs/tour-physics/)
 - Source path: [`TauLib/Tour/Physics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/Physics.lean#L186-L193)
 - Source range: L186-L193
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

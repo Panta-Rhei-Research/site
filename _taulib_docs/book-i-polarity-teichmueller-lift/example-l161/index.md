@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L161",
-  "permalink": "/verify/taulib/docs/book-i-polarity-teichmueller-lift/example-l161/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-teichmueller-lift/example-l161/",
   "summary_short": "`example` declaration in `TauLib.BookI.Polarity.TeichmuellerLift`.",
   "declaration_id": "TauLib.BookI.Polarity.TeichmuellerLift::#eval:161",
   "declaration_slug": "example-l161",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.TeichmuellerLift",
-  "module_url": "/verify/taulib/docs/book-i-polarity-teichmueller-lift/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-teichmueller-lift/",
   "source_line_start": 161,
   "source_line_end": 161,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/TeichmuellerLift.lean#L161-L161",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.TeichmuellerLift",
-        "url": "/verify/taulib/docs/book-i-polarity-teichmueller-lift/"
+        "url": "/corpus/taulib/docs/book-i-polarity-teichmueller-lift/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.TeichmuellerLift](/verify/taulib/docs/book-i-polarity-teichmueller-lift/)
+- Module: [TauLib.BookI.Polarity.TeichmuellerLift](/corpus/taulib/docs/book-i-polarity-teichmueller-lift/)
 - Source path: [`TauLib/BookI/Polarity/TeichmuellerLift.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/TeichmuellerLift.lean#L161-L161)
 - Source range: L161-L161
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

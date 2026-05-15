@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "neutron_lifetime_precision",
-  "permalink": "/verify/taulib/docs/book-iv-particles-beta-decay/neutron-lifetime-precision-l404/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-beta-decay/neutron-lifetime-precision-l404/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.BetaDecay`.",
   "declaration_id": "TauLib.BookIV.Particles.BetaDecay::neutron_lifetime_precision",
   "declaration_slug": "neutron-lifetime-precision-l404",
   "kind": "def",
   "name": "neutron_lifetime_precision",
   "module_name": "TauLib.BookIV.Particles.BetaDecay",
-  "module_url": "/verify/taulib/docs/book-iv-particles-beta-decay/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-beta-decay/",
   "source_line_start": 404,
   "source_line_end": 404,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L404-L404",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.BetaDecay",
-        "url": "/verify/taulib/docs/book-iv-particles-beta-decay/"
+        "url": "/corpus/taulib/docs/book-iv-particles-beta-decay/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.BetaDecay](/verify/taulib/docs/book-iv-particles-beta-decay/)
+- Module: [TauLib.BookIV.Particles.BetaDecay](/corpus/taulib/docs/book-iv-particles-beta-decay/)
 - Source path: [`TauLib/BookIV/Particles/BetaDecay.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L404-L404)
 - Source range: L404-L404
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

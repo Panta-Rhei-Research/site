@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TwoPointObject",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-parity-bridge/two-point-object/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/two-point-object/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.LifeCore.ParityBridge`.",
   "declaration_id": "TauLib.BookVI.LifeCore.ParityBridge::TwoPointObject",
   "declaration_slug": "two-point-object",
   "kind": "structure",
   "name": "TwoPointObject",
   "module_name": "TauLib.BookVI.LifeCore.ParityBridge",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/",
   "source_line_start": 43,
   "source_line_end": 48,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/ParityBridge.lean#L43-L48",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.ParityBridge",
-        "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.ParityBridge](/verify/taulib/docs/book-vi-life-core-parity-bridge/)
+- Module: [TauLib.BookVI.LifeCore.ParityBridge](/corpus/taulib/docs/book-vi-life-core-parity-bridge/)
 - Source path: [`TauLib/BookVI/LifeCore/ParityBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/ParityBridge.lean#L43-L48)
 - Source range: L43-L48
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

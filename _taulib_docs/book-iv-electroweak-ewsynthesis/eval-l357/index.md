@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L357",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/eval-l357/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/eval-l357/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Electroweak.EWSynthesis`.",
   "declaration_id": "TauLib.BookIV.Electroweak.EWSynthesis::#eval:357",
   "declaration_slug": "eval-l357",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Electroweak.EWSynthesis",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/",
   "source_line_start": 357,
   "source_line_end": 357,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L357-L357",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.EWSynthesis",
-        "url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/verify/taulib/docs/book-iv-electroweak-ewsynthesis/)
+- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/)
 - Source path: [`TauLib/BookIV/Electroweak/EWSynthesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L357-L357)
 - Source range: L357-L357
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

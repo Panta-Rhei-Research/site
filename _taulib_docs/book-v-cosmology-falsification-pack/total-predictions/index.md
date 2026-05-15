@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "total_predictions",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-falsification-pack/total-predictions/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/total-predictions/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.FalsificationPack`.",
   "declaration_id": "TauLib.BookV.Cosmology.FalsificationPack::total_predictions",
   "declaration_slug": "total-predictions",
   "kind": "theorem",
   "name": "total_predictions",
   "module_name": "TauLib.BookV.Cosmology.FalsificationPack",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/",
-  "source_line_start": 220,
-  "source_line_end": 223,
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/",
+  "source_line_start": 383,
+  "source_line_end": 386,
   "registry_ids": [],
   "related_registry_items": [],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L220-L223",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L383-L386",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.FalsificationPack",
-        "url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -34,14 +36,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L220-L223",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L383-L386",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.FalsificationPack](/verify/taulib/docs/book-v-cosmology-falsification-pack/)
-- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L220-L223)
-- Source range: L220-L223
+- Module: [TauLib.BookV.Cosmology.FalsificationPack](/corpus/taulib/docs/book-v-cosmology-falsification-pack/)
+- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L383-L386)
+- Source range: L383-L386
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 
@@ -75,7 +79,7 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 ## Immediate Comment / Docstring
 
 ```lean
-/-- Total: 10 testable predictions. -/
+/-- Total: 16 testable predictions (4 + 9 + 3). -/
 ```
 
 ## Source Excerpt
@@ -84,5 +88,5 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 theorem total_predictions :
     falsification_package.structural.length +
     falsification_package.quantitative.length +
-    falsification_package.frontier.length = 10 := by native_decide
+    falsification_package.frontier.length = 16 := by native_decide
 ```

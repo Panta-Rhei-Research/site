@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "higgs_factor_four_betti",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/higgs-factor-four-betti/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/higgs-factor-four-betti/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.TauHiggs2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauHiggs2::higgs_factor_four_betti",
   "declaration_slug": "higgs-factor-four-betti",
   "kind": "theorem",
   "name": "higgs_factor_four_betti",
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/",
   "source_line_start": 384,
   "source_line_end": 385,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L384-L385",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauHiggs2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/verify/taulib/docs/book-iv-electroweak-tau-higgs2/)
+- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/)
 - Source path: [`TauLib/BookIV/Electroweak/TauHiggs2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L384-L385)
 - Source range: L384-L385
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

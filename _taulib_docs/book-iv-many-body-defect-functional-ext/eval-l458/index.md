@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L458",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/eval-l458/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/eval-l458/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.ManyBody.DefectFunctionalExt`.",
   "declaration_id": "TauLib.BookIV.ManyBody.DefectFunctionalExt::#eval:458",
   "declaration_slug": "eval-l458",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/",
   "source_line_start": 458,
   "source_line_end": 458,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L458-L458",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-        "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/verify/taulib/docs/book-iv-many-body-defect-functional-ext/)
+- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/)
 - Source path: [`TauLib/BookIV/ManyBody/DefectFunctionalExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L458-L458)
 - Source range: L458-L458
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

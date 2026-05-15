@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "full_mutual_determination_check",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-mutual-determination/full-mutual-determination-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-mutual-determination/full-mutual-determination-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.MutualDetermination`.",
   "declaration_id": "TauLib.BookII.Hartogs.MutualDetermination::full_mutual_determination_check",
   "declaration_slug": "full-mutual-determination-check",
   "kind": "def",
   "name": "full_mutual_determination_check",
   "module_name": "TauLib.BookII.Hartogs.MutualDetermination",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-mutual-determination/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-mutual-determination/",
   "source_line_start": 275,
   "source_line_end": 276,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/MutualDetermination.lean#L275-L276",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.MutualDetermination",
-        "url": "/verify/taulib/docs/book-ii-hartogs-mutual-determination/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-mutual-determination/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.MutualDetermination](/verify/taulib/docs/book-ii-hartogs-mutual-determination/)
+- Module: [TauLib.BookII.Hartogs.MutualDetermination](/corpus/taulib/docs/book-ii-hartogs-mutual-determination/)
 - Source path: [`TauLib/BookII/Hartogs/MutualDetermination.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/MutualDetermination.lean#L275-L276)
 - Source range: L275-L276
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

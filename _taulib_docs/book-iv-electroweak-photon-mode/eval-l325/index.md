@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L325",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-photon-mode/eval-l325/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/eval-l325/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Electroweak.PhotonMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.PhotonMode::#eval:325",
   "declaration_slug": "eval-l325",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Electroweak.PhotonMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/",
   "source_line_start": 325,
   "source_line_end": 325,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L325-L325",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.PhotonMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.PhotonMode](/verify/taulib/docs/book-iv-electroweak-photon-mode/)
+- Module: [TauLib.BookIV.Electroweak.PhotonMode](/corpus/taulib/docs/book-iv-electroweak-photon-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/PhotonMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L325-L325)
 - Source range: L325-L325
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

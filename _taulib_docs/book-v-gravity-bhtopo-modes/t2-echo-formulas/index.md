@@ -2,37 +2,39 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "T2EchoFormulas",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/t2-echo-formulas/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/t2-echo-formulas/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::T2EchoFormulas",
   "declaration_slug": "t2-echo-formulas",
   "kind": "structure",
   "name": "T2EchoFormulas",
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
-  "source_line_start": 312,
-  "source_line_end": 321,
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "source_line_start": 317,
+  "source_line_end": 326,
   "registry_ids": [
     "V.D243"
   ],
   "related_registry_items": [
     {
       "id": "V.D243",
-      "title": "T² GW Echo Time Formulas with Frequency Bands",
+      "title": "T² GW Cycle-Delay Time Formulas with Frequency Bands",
       "url": "/registry/object/V.D243/"
     }
   ],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L312-L321",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L317-L326",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -42,14 +44,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L312-L321",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L317-L326",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,21 +73,22 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
-- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L312-L321)
-- Source range: L312-L321
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L317-L326)
+- Source range: L317-L326
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 
-- `V.D243` — T² GW Echo Time Formulas with Frequency Bands
+- `V.D243` — T² GW Cycle-Delay Time Formulas with Frequency Bands
 
 ## Immediate Comment / Docstring
 
 ```lean
-/-- [V.D243] Structure capturing T² GW echo time formulas.
-    t₋/t₊ = ι_τ⁻² ≈ 8.585. Both echoes fall in LIGO band for stellar-mass BHs.
+/-- [V.D243] Structure capturing T² GW cycle-delay formulas.
+    t₋/t₊ = ι_τ⁻² ≈ 8.585. Both delay readouts fall in LIGO band for stellar-mass BHs.
     Ratio stored ×1000 for Nat arithmetic. -/
 ```
 
@@ -92,9 +96,9 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ```lean
 structure T2EchoFormulas where
-  /-- Echo time ratio ×1000 (ι_τ⁻² ≈ 8.585 → 8585). -/
+  /-- Cycle-delay time ratio ×1000 (ι_τ⁻² ≈ 8.585 → 8585). -/
   ratio_x1000 : Nat := 8585
-  /-- Number of echo times in LIGO band (inner + outer). -/
+  /-- Number of cycle-delay times in LIGO band (inner + outer). -/
   n_ligo_band : Nat := 2
   /-- Number of reference events tested (GW150914). -/
   n_reference_events : Nat := 1

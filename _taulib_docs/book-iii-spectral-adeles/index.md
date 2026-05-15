@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.Adeles",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-adeles/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-adeles/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.Adeles`.",
   "module_name": "TauLib.BookIII.Spectral.Adeles",
   "module_slug": "book-iii-spectral-adeles",
@@ -34,10 +34,12 @@
     {
       "kind": "structure",
       "name": "AdeleElement",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-element/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-element/",
       "source_line_start": 38,
       "source_line_end": 41,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D22"
       ]
@@ -45,10 +47,12 @@
     {
       "kind": "def",
       "name": "to_adele",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/to-adele/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/to-adele/",
       "source_line_start": 45,
       "source_line_end": 46,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D22"
       ]
@@ -56,10 +60,12 @@
     {
       "kind": "def",
       "name": "adele_add",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-add/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-add/",
       "source_line_start": 49,
       "source_line_end": 61,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D22"
       ]
@@ -67,10 +73,12 @@
     {
       "kind": "def",
       "name": "adele_mul",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-mul/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-mul/",
       "source_line_start": 64,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D22"
       ]
@@ -78,10 +86,12 @@
     {
       "kind": "def",
       "name": "adele_ring_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-ring-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-ring-check/",
       "source_line_start": 79,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D22"
       ]
@@ -89,10 +99,12 @@
     {
       "kind": "def",
       "name": "adelic_embedding_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adelic-embedding-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adelic-embedding-check/",
       "source_line_start": 110,
       "source_line_end": 130,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T12"
       ]
@@ -100,10 +112,12 @@
     {
       "kind": "def",
       "name": "adelic_dense_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adelic-dense-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adelic-dense-check/",
       "source_line_start": 134,
       "source_line_end": 146,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T12"
       ]
@@ -111,10 +125,12 @@
     {
       "kind": "def",
       "name": "euler_product_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/euler-product-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/euler-product-check/",
       "source_line_start": 155,
       "source_line_end": 173,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P07"
       ]
@@ -122,10 +138,12 @@
     {
       "kind": "def",
       "name": "local_factor_independence_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/local-factor-independence-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/local-factor-independence-check/",
       "source_line_start": 177,
       "source_line_end": 199,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P07"
       ]
@@ -133,91 +151,111 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l206/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l206/",
       "source_line_start": 206,
       "source_line_end": 206,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l207/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l207/",
       "source_line_start": 207,
       "source_line_end": 207,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l210/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l210/",
       "source_line_start": 210,
       "source_line_end": 210,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l211/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l211/",
       "source_line_start": 211,
       "source_line_end": 211,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l214/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l214/",
       "source_line_start": 214,
       "source_line_end": 214,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l215/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l215/",
       "source_line_start": 215,
       "source_line_end": 215,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l216/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l216/",
       "source_line_start": 216,
       "source_line_end": 216,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l217/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l217/",
       "source_line_start": 217,
       "source_line_end": 217,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/eval-l218/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/eval-l218/",
       "source_line_start": 218,
       "source_line_end": 218,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "adele_ring_10_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-ring-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-ring-10-3/",
       "source_line_start": 225,
       "source_line_end": 226,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D22"
       ]
@@ -225,10 +263,12 @@
     {
       "kind": "theorem",
       "name": "adelic_embedding_15_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adelic-embedding-15-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adelic-embedding-15-3/",
       "source_line_start": 229,
       "source_line_end": 230,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T12"
       ]
@@ -236,10 +276,12 @@
     {
       "kind": "theorem",
       "name": "adelic_dense_20_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adelic-dense-20-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adelic-dense-20-4/",
       "source_line_start": 233,
       "source_line_end": 234,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T12"
       ]
@@ -247,10 +289,12 @@
     {
       "kind": "theorem",
       "name": "euler_product_20_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/euler-product-20-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/euler-product-20-4/",
       "source_line_start": 237,
       "source_line_end": 238,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P07"
       ]
@@ -258,10 +302,12 @@
     {
       "kind": "theorem",
       "name": "local_factor_ind_10_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/local-factor-ind-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/local-factor-ind-10-3/",
       "source_line_start": 241,
       "source_line_end": 242,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P07"
       ]
@@ -269,10 +315,12 @@
     {
       "kind": "theorem",
       "name": "adele_zero_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-zero-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-zero-3/",
       "source_line_start": 249,
       "source_line_end": 249,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D22"
       ]
@@ -280,10 +328,12 @@
     {
       "kind": "theorem",
       "name": "adele_is_crt",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-is-crt/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-is-crt/",
       "source_line_start": 252,
       "source_line_end": 253,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T12"
       ]
@@ -291,10 +341,12 @@
     {
       "kind": "theorem",
       "name": "adele_injective_1_2",
-      "url": "/verify/taulib/docs/book-iii-spectral-adeles/adele-injective-1-2/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-injective-1-2/",
       "source_line_start": 256,
       "source_line_end": 259,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T12"
       ]
@@ -308,7 +360,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -380,31 +432,31 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [AdeleElement](/verify/taulib/docs/book-iii-spectral-adeles/adele-element/) | L38-L41 | defined | `III.D22` |
-| `def` | [to_adele](/verify/taulib/docs/book-iii-spectral-adeles/to-adele/) | L45-L46 | defined | `III.D22` |
-| `def` | [adele_add](/verify/taulib/docs/book-iii-spectral-adeles/adele-add/) | L49-L61 | defined | `III.D22` |
-| `def` | [adele_mul](/verify/taulib/docs/book-iii-spectral-adeles/adele-mul/) | L64-L76 | defined | `III.D22` |
-| `def` | [adele_ring_check](/verify/taulib/docs/book-iii-spectral-adeles/adele-ring-check/) | L79-L102 | defined | `III.D22` |
-| `def` | [adelic_embedding_check](/verify/taulib/docs/book-iii-spectral-adeles/adelic-embedding-check/) | L110-L130 | defined | `III.T12` |
-| `def` | [adelic_dense_check](/verify/taulib/docs/book-iii-spectral-adeles/adelic-dense-check/) | L134-L146 | defined | `III.T12` |
-| `def` | [euler_product_check](/verify/taulib/docs/book-iii-spectral-adeles/euler-product-check/) | L155-L173 | defined | `III.P07` |
-| `def` | [local_factor_independence_check](/verify/taulib/docs/book-iii-spectral-adeles/local-factor-independence-check/) | L177-L199 | defined | `III.P07` |
-| `eval` | [#eval L206](/verify/taulib/docs/book-iii-spectral-adeles/eval-l206/) | L206-L206 | computed | — |
-| `eval` | [#eval L207](/verify/taulib/docs/book-iii-spectral-adeles/eval-l207/) | L207-L207 | computed | — |
-| `eval` | [#eval L210](/verify/taulib/docs/book-iii-spectral-adeles/eval-l210/) | L210-L210 | computed | — |
-| `eval` | [#eval L211](/verify/taulib/docs/book-iii-spectral-adeles/eval-l211/) | L211-L211 | computed | — |
-| `eval` | [#eval L214](/verify/taulib/docs/book-iii-spectral-adeles/eval-l214/) | L214-L214 | computed | — |
-| `eval` | [#eval L215](/verify/taulib/docs/book-iii-spectral-adeles/eval-l215/) | L215-L215 | computed | — |
-| `eval` | [#eval L216](/verify/taulib/docs/book-iii-spectral-adeles/eval-l216/) | L216-L216 | computed | — |
-| `eval` | [#eval L217](/verify/taulib/docs/book-iii-spectral-adeles/eval-l217/) | L217-L217 | computed | — |
-| `eval` | [#eval L218](/verify/taulib/docs/book-iii-spectral-adeles/eval-l218/) | L218-L218 | computed | — |
-| `theorem` | [adele_ring_10_3](/verify/taulib/docs/book-iii-spectral-adeles/adele-ring-10-3/) | L225-L226 | formalized | `III.D22` |
-| `theorem` | [adelic_embedding_15_3](/verify/taulib/docs/book-iii-spectral-adeles/adelic-embedding-15-3/) | L229-L230 | formalized | `III.T12` |
-| `theorem` | [adelic_dense_20_4](/verify/taulib/docs/book-iii-spectral-adeles/adelic-dense-20-4/) | L233-L234 | formalized | `III.T12` |
-| `theorem` | [euler_product_20_4](/verify/taulib/docs/book-iii-spectral-adeles/euler-product-20-4/) | L237-L238 | formalized | `III.P07` |
-| `theorem` | [local_factor_ind_10_3](/verify/taulib/docs/book-iii-spectral-adeles/local-factor-ind-10-3/) | L241-L242 | formalized | `III.P07` |
-| `theorem` | [adele_zero_3](/verify/taulib/docs/book-iii-spectral-adeles/adele-zero-3/) | L249-L249 | formalized | `III.D22` |
-| `theorem` | [adele_is_crt](/verify/taulib/docs/book-iii-spectral-adeles/adele-is-crt/) | L252-L253 | formalized | `III.T12` |
-| `theorem` | [adele_injective_1_2](/verify/taulib/docs/book-iii-spectral-adeles/adele-injective-1-2/) | L256-L259 | formalized | `III.T12` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [AdeleElement](/corpus/taulib/docs/book-iii-spectral-adeles/adele-element/) | L38-L41 | type/data schema | type/data schema | `III.D22` |
+| `def` | [to_adele](/corpus/taulib/docs/book-iii-spectral-adeles/to-adele/) | L45-L46 | definition | definition | `III.D22` |
+| `def` | [adele_add](/corpus/taulib/docs/book-iii-spectral-adeles/adele-add/) | L49-L61 | definition | definition | `III.D22` |
+| `def` | [adele_mul](/corpus/taulib/docs/book-iii-spectral-adeles/adele-mul/) | L64-L76 | definition | definition | `III.D22` |
+| `def` | [adele_ring_check](/corpus/taulib/docs/book-iii-spectral-adeles/adele-ring-check/) | L79-L102 | data/computed value | data/computed value | `III.D22` |
+| `def` | [adelic_embedding_check](/corpus/taulib/docs/book-iii-spectral-adeles/adelic-embedding-check/) | L110-L130 | data/computed value | data/computed value | `III.T12` |
+| `def` | [adelic_dense_check](/corpus/taulib/docs/book-iii-spectral-adeles/adelic-dense-check/) | L134-L146 | data/computed value | data/computed value | `III.T12` |
+| `def` | [euler_product_check](/corpus/taulib/docs/book-iii-spectral-adeles/euler-product-check/) | L155-L173 | data/computed value | data/computed value | `III.P07` |
+| `def` | [local_factor_independence_check](/corpus/taulib/docs/book-iii-spectral-adeles/local-factor-independence-check/) | L177-L199 | data/computed value | data/computed value | `III.P07` |
+| `eval` | [#eval L206](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l206/) | L206-L206 | computed check | computed check | — |
+| `eval` | [#eval L207](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l207/) | L207-L207 | computed check | computed check | — |
+| `eval` | [#eval L210](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l210/) | L210-L210 | computed check | computed check | — |
+| `eval` | [#eval L211](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l211/) | L211-L211 | computed check | computed check | — |
+| `eval` | [#eval L214](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l214/) | L214-L214 | computed check | computed check | — |
+| `eval` | [#eval L215](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l215/) | L215-L215 | computed check | computed check | — |
+| `eval` | [#eval L216](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l216/) | L216-L216 | computed check | computed check | — |
+| `eval` | [#eval L217](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l217/) | L217-L217 | computed check | computed check | — |
+| `eval` | [#eval L218](/corpus/taulib/docs/book-iii-spectral-adeles/eval-l218/) | L218-L218 | computed check | computed check | — |
+| `theorem` | [adele_ring_10_3](/corpus/taulib/docs/book-iii-spectral-adeles/adele-ring-10-3/) | L225-L226 | proof obligation | formal proof obligation checked | `III.D22` |
+| `theorem` | [adelic_embedding_15_3](/corpus/taulib/docs/book-iii-spectral-adeles/adelic-embedding-15-3/) | L229-L230 | proof obligation | formal proof obligation checked | `III.T12` |
+| `theorem` | [adelic_dense_20_4](/corpus/taulib/docs/book-iii-spectral-adeles/adelic-dense-20-4/) | L233-L234 | proof obligation | formal proof obligation checked | `III.T12` |
+| `theorem` | [euler_product_20_4](/corpus/taulib/docs/book-iii-spectral-adeles/euler-product-20-4/) | L237-L238 | proof obligation | formal proof obligation checked | `III.P07` |
+| `theorem` | [local_factor_ind_10_3](/corpus/taulib/docs/book-iii-spectral-adeles/local-factor-ind-10-3/) | L241-L242 | proof obligation | formal proof obligation checked | `III.P07` |
+| `theorem` | [adele_zero_3](/corpus/taulib/docs/book-iii-spectral-adeles/adele-zero-3/) | L249-L249 | proof obligation | formal proof obligation checked | `III.D22` |
+| `theorem` | [adele_is_crt](/corpus/taulib/docs/book-iii-spectral-adeles/adele-is-crt/) | L252-L253 | proof obligation | formal proof obligation checked | `III.T12` |
+| `theorem` | [adele_injective_1_2](/corpus/taulib/docs/book-iii-spectral-adeles/adele-injective-1-2/) | L256-L259 | proof obligation | formal proof obligation checked | `III.T12` |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "phase_transport_monotone",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/phase-transport-monotone/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/phase-transport-monotone/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.QuantumMechanics.AddressObstruction`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.AddressObstruction::phase_transport_monotone",
   "declaration_slug": "phase-transport-monotone",
   "kind": "theorem",
   "name": "phase_transport_monotone",
   "module_name": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
   "source_line_start": 133,
   "source_line_end": 143,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L133-L143",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
+- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/AddressObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L133-L143)
 - Source range: L133-L143
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

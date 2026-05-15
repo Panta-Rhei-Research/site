@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L256",
-  "permalink": "/verify/taulib/docs/book-i-boundary-fourier/eval-l256/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-fourier/eval-l256/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Boundary.Fourier`.",
   "declaration_id": "TauLib.BookI.Boundary.Fourier::#eval:256",
   "declaration_slug": "eval-l256",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Fourier",
-  "module_url": "/verify/taulib/docs/book-i-boundary-fourier/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-fourier/",
   "source_line_start": 256,
   "source_line_end": 256,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Fourier.lean#L256-L256",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Fourier",
-        "url": "/verify/taulib/docs/book-i-boundary-fourier/"
+        "url": "/corpus/taulib/docs/book-i-boundary-fourier/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Fourier](/verify/taulib/docs/book-i-boundary-fourier/)
+- Module: [TauLib.BookI.Boundary.Fourier](/corpus/taulib/docs/book-i-boundary-fourier/)
 - Source path: [`TauLib/BookI/Boundary/Fourier.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Fourier.lean#L256-L256)
 - Source range: L256-L256
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

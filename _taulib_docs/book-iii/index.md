@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII",
-  "permalink": "/verify/taulib/docs/book-iii/",
+  "permalink": "/corpus/taulib/docs/book-iii/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII`.",
   "module_name": "TauLib.BookIII",
   "module_slug": "book-iii",
@@ -98,7 +98,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -233,6 +233,6 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| — | — | — | — | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| — | — | — | — | — | — |

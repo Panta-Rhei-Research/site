@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "witness_check",
-  "permalink": "/verify/taulib/docs/book-iii-computation-witness-search/witness-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-witness-search/witness-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Computation.WitnessSearch`.",
   "declaration_id": "TauLib.BookIII.Computation.WitnessSearch::witness_check",
   "declaration_slug": "witness-check",
   "kind": "def",
   "name": "witness_check",
   "module_name": "TauLib.BookIII.Computation.WitnessSearch",
-  "module_url": "/verify/taulib/docs/book-iii-computation-witness-search/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-witness-search/",
   "source_line_start": 59,
   "source_line_end": 76,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/WitnessSearch.lean#L59-L76",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.WitnessSearch",
-        "url": "/verify/taulib/docs/book-iii-computation-witness-search/"
+        "url": "/corpus/taulib/docs/book-iii-computation-witness-search/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.WitnessSearch](/verify/taulib/docs/book-iii-computation-witness-search/)
+- Module: [TauLib.BookIII.Computation.WitnessSearch](/corpus/taulib/docs/book-iii-computation-witness-search/)
 - Source path: [`TauLib/BookIII/Computation/WitnessSearch.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/WitnessSearch.lean#L59-L76)
 - Source range: L59-L76
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

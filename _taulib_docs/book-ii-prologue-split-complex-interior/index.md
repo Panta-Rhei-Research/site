@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Prologue.SplitComplexInterior",
-  "permalink": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/",
+  "permalink": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Prologue.SplitComplexInterior`.",
   "module_name": "TauLib.BookII.Prologue.SplitComplexInterior",
   "module_slug": "book-ii-prologue-split-complex-interior",
@@ -32,154 +32,188 @@
     {
       "kind": "def",
       "name": "h_tau_sectors",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sectors/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sectors/",
       "source_line_start": 49,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "h_tau_b_sector",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-b-sector/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-b-sector/",
       "source_line_start": 52,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "h_tau_c_sector",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-c-sector/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-c-sector/",
       "source_line_start": 55,
       "source_line_end": 55,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_mul_comm",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-mul-comm/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-mul-comm/",
       "source_line_start": 62,
       "source_line_end": 64,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_zero_divisors",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-zero-divisors/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-zero-divisors/",
       "source_line_start": 68,
       "source_line_end": 70,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_sector_faithful",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sector-faithful/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sector-faithful/",
       "source_line_start": 73,
       "source_line_end": 75,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_e_plus_idem",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-plus-idem/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-plus-idem/",
       "source_line_start": 82,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_e_minus_idem",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-minus-idem/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-minus-idem/",
       "source_line_start": 87,
       "source_line_end": 89,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_e_orthogonal",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-orthogonal/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-orthogonal/",
       "source_line_start": 92,
       "source_line_end": 94,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_e_partition",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-partition/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-partition/",
       "source_line_start": 97,
       "source_line_end": 99,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_nontrivial_idempotent",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-nontrivial-idempotent/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-nontrivial-idempotent/",
       "source_line_start": 107,
       "source_line_end": 117,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h_tau_no_elliptic_idempotent",
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-no-elliptic-idempotent/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-no-elliptic-idempotent/",
       "source_line_start": 121,
       "source_line_end": 124,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l130/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l130/",
       "source_line_start": 130,
       "source_line_end": 130,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l131/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l131/",
       "source_line_start": 131,
       "source_line_end": 131,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l132/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l132/",
       "source_line_start": 132,
       "source_line_end": 132,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l133/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l133/",
       "source_line_start": 133,
       "source_line_end": 133,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l134/",
+      "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l134/",
       "source_line_start": 134,
       "source_line_end": 136,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -191,7 +225,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -261,22 +295,22 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [h_tau_sectors](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sectors/) | L49-L49 | defined | — |
-| `def` | [h_tau_b_sector](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-b-sector/) | L52-L52 | defined | — |
-| `def` | [h_tau_c_sector](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-c-sector/) | L55-L55 | defined | — |
-| `theorem` | [h_tau_mul_comm](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-mul-comm/) | L62-L64 | formalized | — |
-| `theorem` | [h_tau_zero_divisors](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-zero-divisors/) | L68-L70 | formalized | — |
-| `theorem` | [h_tau_sector_faithful](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sector-faithful/) | L73-L75 | formalized | — |
-| `theorem` | [h_tau_e_plus_idem](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-plus-idem/) | L82-L84 | formalized | — |
-| `theorem` | [h_tau_e_minus_idem](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-minus-idem/) | L87-L89 | formalized | — |
-| `theorem` | [h_tau_e_orthogonal](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-orthogonal/) | L92-L94 | formalized | — |
-| `theorem` | [h_tau_e_partition](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-partition/) | L97-L99 | formalized | — |
-| `theorem` | [h_tau_nontrivial_idempotent](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-nontrivial-idempotent/) | L107-L117 | formalized | — |
-| `theorem` | [h_tau_no_elliptic_idempotent](/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-no-elliptic-idempotent/) | L121-L124 | formalized | — |
-| `eval` | [#eval L130](/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l130/) | L130-L130 | computed | — |
-| `eval` | [#eval L131](/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l131/) | L131-L131 | computed | — |
-| `eval` | [#eval L132](/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l132/) | L132-L132 | computed | — |
-| `eval` | [#eval L133](/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l133/) | L133-L133 | computed | — |
-| `eval` | [#eval L134](/verify/taulib/docs/book-ii-prologue-split-complex-interior/eval-l134/) | L134-L136 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [h_tau_sectors](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sectors/) | L49-L49 | definition | definition | — |
+| `def` | [h_tau_b_sector](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-b-sector/) | L52-L52 | data/computed value | data/computed value | — |
+| `def` | [h_tau_c_sector](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-c-sector/) | L55-L55 | data/computed value | data/computed value | — |
+| `theorem` | [h_tau_mul_comm](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-mul-comm/) | L62-L64 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_zero_divisors](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-zero-divisors/) | L68-L70 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_sector_faithful](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-sector-faithful/) | L73-L75 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_e_plus_idem](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-plus-idem/) | L82-L84 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_e_minus_idem](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-minus-idem/) | L87-L89 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_e_orthogonal](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-orthogonal/) | L92-L94 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_e_partition](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-e-partition/) | L97-L99 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_nontrivial_idempotent](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-nontrivial-idempotent/) | L107-L117 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h_tau_no_elliptic_idempotent](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-no-elliptic-idempotent/) | L121-L124 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L130](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l130/) | L130-L130 | computed check | computed check | — |
+| `eval` | [#eval L131](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l131/) | L131-L131 | computed check | computed check | — |
+| `eval` | [#eval L132](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l132/) | L132-L132 | computed check | computed check | — |
+| `eval` | [#eval L133](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l133/) | L133-L133 | computed check | computed check | — |
+| `eval` | [#eval L134](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/eval-l134/) | L134-L136 | computed check | computed check | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chandrasekhar_mass_limit",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-compact-objects/chandrasekhar-mass-limit/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/chandrasekhar-mass-limit/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.CompactObjects`.",
   "declaration_id": "TauLib.BookV.Astrophysics.CompactObjects::chandrasekhar_mass_limit",
   "declaration_slug": "chandrasekhar-mass-limit",
   "kind": "def",
   "name": "chandrasekhar_mass_limit",
   "module_name": "TauLib.BookV.Astrophysics.CompactObjects",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/",
   "source_line_start": 98,
   "source_line_end": 98,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L98-L98",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.CompactObjects",
-        "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.CompactObjects](/verify/taulib/docs/book-v-astrophysics-compact-objects/)
+- Module: [TauLib.BookV.Astrophysics.CompactObjects](/corpus/taulib/docs/book-v-astrophysics-compact-objects/)
 - Source path: [`TauLib/BookV/Astrophysics/CompactObjects.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/CompactObjects.lean#L98-L98)
 - Source range: L98-L98
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

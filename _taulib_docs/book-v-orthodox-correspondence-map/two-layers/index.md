@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "two_layers",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-correspondence-map/two-layers/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/two-layers/",
   "summary_short": "`def` declaration in `TauLib.BookV.Orthodox.CorrespondenceMap`.",
   "declaration_id": "TauLib.BookV.Orthodox.CorrespondenceMap::two_layers",
   "declaration_slug": "two-layers",
   "kind": "def",
   "name": "two_layers",
   "module_name": "TauLib.BookV.Orthodox.CorrespondenceMap",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-correspondence-map/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/",
   "source_line_start": 165,
   "source_line_end": 167,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/CorrespondenceMap.lean#L165-L167",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.CorrespondenceMap",
-        "url": "/verify/taulib/docs/book-v-orthodox-correspondence-map/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.CorrespondenceMap](/verify/taulib/docs/book-v-orthodox-correspondence-map/)
+- Module: [TauLib.BookV.Orthodox.CorrespondenceMap](/corpus/taulib/docs/book-v-orthodox-correspondence-map/)
 - Source path: [`TauLib/BookV/Orthodox/CorrespondenceMap.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/CorrespondenceMap.lean#L165-L167)
 - Source range: L165-L167
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

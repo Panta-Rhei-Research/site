@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "register_independence",
-  "permalink": "/verify/taulib/docs/book-vii-meta-registers/register-independence/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-registers/register-independence/",
   "summary_short": "`theorem` declaration in `TauLib.BookVII.Meta.Registers`.",
   "declaration_id": "TauLib.BookVII.Meta.Registers::register_independence",
   "declaration_slug": "register-independence",
   "kind": "theorem",
   "name": "register_independence",
   "module_name": "TauLib.BookVII.Meta.Registers",
-  "module_url": "/verify/taulib/docs/book-vii-meta-registers/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-registers/",
   "source_line_start": 174,
   "source_line_end": 183,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L174-L183",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Registers",
-        "url": "/verify/taulib/docs/book-vii-meta-registers/"
+        "url": "/corpus/taulib/docs/book-vii-meta-registers/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Registers](/verify/taulib/docs/book-vii-meta-registers/)
+- Module: [TauLib.BookVII.Meta.Registers](/corpus/taulib/docs/book-vii-meta-registers/)
 - Source path: [`TauLib/BookVII/Meta/Registers.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Registers.lean#L174-L183)
 - Source range: L174-L183
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

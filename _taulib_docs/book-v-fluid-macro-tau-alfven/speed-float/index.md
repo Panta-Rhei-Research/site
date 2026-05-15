@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AlfvenWaveMode.speedFloat",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/speed-float/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/speed-float/",
   "summary_short": "`def` declaration in `TauLib.BookV.FluidMacro.TauAlfven`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauAlfven::AlfvenWaveMode.speedFloat",
   "declaration_slug": "speed-float",
   "kind": "def",
   "name": "AlfvenWaveMode.speedFloat",
   "module_name": "TauLib.BookV.FluidMacro.TauAlfven",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/",
   "source_line_start": 98,
   "source_line_end": 99,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauAlfven.lean#L98-L99",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauAlfven",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauAlfven](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/)
+- Module: [TauLib.BookV.FluidMacro.TauAlfven](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/)
 - Source path: [`TauLib/BookV/FluidMacro/TauAlfven.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauAlfven.lean#L98-L99)
 - Source range: L98-L99
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

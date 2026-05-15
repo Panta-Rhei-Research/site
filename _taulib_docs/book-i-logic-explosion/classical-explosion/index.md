@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "classical_explosion",
-  "permalink": "/verify/taulib/docs/book-i-logic-explosion/classical-explosion/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-explosion/classical-explosion/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Logic.Explosion`.",
   "declaration_id": "TauLib.BookI.Logic.Explosion::classical_explosion",
   "declaration_slug": "classical-explosion",
   "kind": "theorem",
   "name": "classical_explosion",
   "module_name": "TauLib.BookI.Logic.Explosion",
-  "module_url": "/verify/taulib/docs/book-i-logic-explosion/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-explosion/",
   "source_line_start": 73,
   "source_line_end": 74,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Explosion.lean#L73-L74",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.Explosion",
-        "url": "/verify/taulib/docs/book-i-logic-explosion/"
+        "url": "/corpus/taulib/docs/book-i-logic-explosion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.Explosion](/verify/taulib/docs/book-i-logic-explosion/)
+- Module: [TauLib.BookI.Logic.Explosion](/corpus/taulib/docs/book-i-logic-explosion/)
 - Source path: [`TauLib/BookI/Logic/Explosion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Explosion.lean#L73-L74)
 - Source range: L73-L74
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

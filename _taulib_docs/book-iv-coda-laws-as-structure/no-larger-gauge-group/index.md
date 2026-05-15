@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "NoLargerGaugeGroup",
-  "permalink": "/verify/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge-group/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge-group/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Coda.LawsAsStructure`.",
   "declaration_id": "TauLib.BookIV.Coda.LawsAsStructure::NoLargerGaugeGroup",
   "declaration_slug": "no-larger-gauge-group",
   "kind": "structure",
   "name": "NoLargerGaugeGroup",
   "module_name": "TauLib.BookIV.Coda.LawsAsStructure",
-  "module_url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/",
   "source_line_start": 141,
   "source_line_end": 150,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/LawsAsStructure.lean#L141-L150",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.LawsAsStructure",
-        "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/"
+        "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.LawsAsStructure](/verify/taulib/docs/book-iv-coda-laws-as-structure/)
+- Module: [TauLib.BookIV.Coda.LawsAsStructure](/corpus/taulib/docs/book-iv-coda-laws-as-structure/)
 - Source path: [`TauLib/BookIV/Coda/LawsAsStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/LawsAsStructure.lean#L141-L150)
 - Source range: L141-L150
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "early_late_depth",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/early-late-depth/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/early-late-depth/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.H0TensionLCDM`.",
   "declaration_id": "TauLib.BookV.Astrophysics.H0TensionLCDM::early_late_depth",
   "declaration_slug": "early-late-depth",
   "kind": "theorem",
   "name": "early_late_depth",
   "module_name": "TauLib.BookV.Astrophysics.H0TensionLCDM",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/",
   "source_line_start": 178,
   "source_line_end": 180,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/H0TensionLCDM.lean#L178-L180",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.H0TensionLCDM",
-        "url": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.H0TensionLCDM](/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/)
+- Module: [TauLib.BookV.Astrophysics.H0TensionLCDM](/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/)
 - Source path: [`TauLib/BookV/Astrophysics/H0TensionLCDM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/H0TensionLCDM.lean#L178-L180)
 - Source range: L178-L180
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

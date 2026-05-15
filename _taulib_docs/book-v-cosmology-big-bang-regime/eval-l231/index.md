@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L231",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l231/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l231/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Cosmology.BigBangRegime`.",
   "declaration_id": "TauLib.BookV.Cosmology.BigBangRegime::#eval:231",
   "declaration_slug": "eval-l231",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Cosmology.BigBangRegime",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/",
   "source_line_start": 231,
   "source_line_end": 231,
   "registry_ids": [
@@ -48,15 +48,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BigBangRegime.lean#L231-L231",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BigBangRegime",
-        "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -73,7 +75,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -94,11 +97,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BigBangRegime](/verify/taulib/docs/book-v-cosmology-big-bang-regime/)
+- Module: [TauLib.BookV.Cosmology.BigBangRegime](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/)
 - Source path: [`TauLib/BookV/Cosmology/BigBangRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BigBangRegime.lean#L231-L231)
 - Source range: L231-L231
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

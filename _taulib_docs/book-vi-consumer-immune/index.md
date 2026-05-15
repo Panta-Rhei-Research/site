@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Consumer.Immune",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-immune/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-immune/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Consumer.Immune`.",
   "module_name": "TauLib.BookVI.Consumer.Immune",
   "module_slug": "book-vi-consumer-immune",
@@ -31,10 +31,12 @@
     {
       "kind": "structure",
       "name": "CellularDistinction",
-      "url": "/verify/taulib/docs/book-vi-consumer-immune/cellular-distinction/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-immune/cellular-distinction/",
       "source_line_start": 32,
       "source_line_end": 39,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D51"
       ]
@@ -42,28 +44,34 @@
     {
       "kind": "def",
       "name": "cell_dist",
-      "url": "/verify/taulib/docs/book-vi-consumer-immune/cell-dist/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-immune/cell-dist/",
       "source_line_start": 41,
       "source_line_end": 41,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cellular_distinction_is_tau",
-      "url": "/verify/taulib/docs/book-vi-consumer-immune/cellular-distinction-is-tau/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-immune/cellular-distinction-is-tau/",
       "source_line_start": 43,
       "source_line_end": 47,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AutoimmunityFailure",
-      "url": "/verify/taulib/docs/book-vi-consumer-immune/autoimmunity-failure/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-immune/autoimmunity-failure/",
       "source_line_start": 61,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T28"
       ]
@@ -71,19 +79,23 @@
     {
       "kind": "def",
       "name": "autoimmune",
-      "url": "/verify/taulib/docs/book-vi-consumer-immune/autoimmune/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-immune/autoimmune/",
       "source_line_start": 78,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "autoimmunity_five_failures",
-      "url": "/verify/taulib/docs/book-vi-consumer-immune/autoimmunity-five-failures/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-immune/autoimmunity-five-failures/",
       "source_line_start": 82,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -95,7 +107,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -164,11 +176,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CellularDistinction](/verify/taulib/docs/book-vi-consumer-immune/cellular-distinction/) | L32-L39 | defined | `VI.D51` |
-| `def` | [cell_dist](/verify/taulib/docs/book-vi-consumer-immune/cell-dist/) | L41-L41 | defined | — |
-| `theorem` | [cellular_distinction_is_tau](/verify/taulib/docs/book-vi-consumer-immune/cellular-distinction-is-tau/) | L43-L47 | formalized | — |
-| `structure` | [AutoimmunityFailure](/verify/taulib/docs/book-vi-consumer-immune/autoimmunity-failure/) | L61-L76 | defined | `VI.T28` |
-| `def` | [autoimmune](/verify/taulib/docs/book-vi-consumer-immune/autoimmune/) | L78-L80 | defined | — |
-| `theorem` | [autoimmunity_five_failures](/verify/taulib/docs/book-vi-consumer-immune/autoimmunity-five-failures/) | L82-L91 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CellularDistinction](/corpus/taulib/docs/book-vi-consumer-immune/cellular-distinction/) | L32-L39 | type/data schema | type/data schema | `VI.D51` |
+| `def` | [cell_dist](/corpus/taulib/docs/book-vi-consumer-immune/cell-dist/) | L41-L41 | definition | definition | — |
+| `theorem` | [cellular_distinction_is_tau](/corpus/taulib/docs/book-vi-consumer-immune/cellular-distinction-is-tau/) | L43-L47 | proof obligation | formal proof obligation checked | — |
+| `structure` | [AutoimmunityFailure](/corpus/taulib/docs/book-vi-consumer-immune/autoimmunity-failure/) | L61-L76 | type/data schema | type/data schema | `VI.T28` |
+| `def` | [autoimmune](/corpus/taulib/docs/book-vi-consumer-immune/autoimmune/) | L78-L80 | definition | definition | — |
+| `theorem` | [autoimmunity_five_failures](/corpus/taulib/docs/book-vi-consumer-immune/autoimmunity-five-failures/) | L82-L91 | proof obligation | formal proof obligation checked | — |

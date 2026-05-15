@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "matter_three_sectors",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-three-sectors/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/matter-three-sectors/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.GravityField.TauEinsteinEq`.",
   "declaration_id": "TauLib.BookV.GravityField.TauEinsteinEq::matter_three_sectors",
   "declaration_slug": "matter-three-sectors",
   "kind": "theorem",
   "name": "matter_three_sectors",
   "module_name": "TauLib.BookV.GravityField.TauEinsteinEq",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/",
   "source_line_start": 232,
   "source_line_end": 233,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauEinsteinEq.lean#L232-L233",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TauEinsteinEq",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TauEinsteinEq](/verify/taulib/docs/book-v-gravity-field-tau-einstein-eq/)
+- Module: [TauLib.BookV.GravityField.TauEinsteinEq](/corpus/taulib/docs/book-v-gravity-field-tau-einstein-eq/)
 - Source path: [`TauLib/BookV/GravityField/TauEinsteinEq.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauEinsteinEq.lean#L232-L233)
 - Source range: L232-L233
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

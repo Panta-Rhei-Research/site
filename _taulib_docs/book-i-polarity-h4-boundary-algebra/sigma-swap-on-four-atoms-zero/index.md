@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sigmaSwap_on_four_atoms_zero",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/sigma-swap-on-four-atoms-zero/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/sigma-swap-on-four-atoms-zero/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.H4BoundaryAlgebra`.",
   "declaration_id": "TauLib.BookI.Polarity.H4BoundaryAlgebra::sigmaSwap_on_four_atoms_zero",
   "declaration_slug": "sigma-swap-on-four-atoms-zero",
   "kind": "theorem",
   "name": "sigmaSwap_on_four_atoms_zero",
   "module_name": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/",
   "source_line_start": 215,
   "source_line_end": 218,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L215-L218",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-        "url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/)
+- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/)
 - Source path: [`TauLib/BookI/Polarity/H4BoundaryAlgebra.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L215-L218)
 - Source range: L215-L218
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

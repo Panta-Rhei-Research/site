@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "op_momentum",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/op-momentum/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/op-momentum/",
   "summary_short": "`def` declaration in `TauLib.BookIV.QuantumMechanics.Quantization`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.Quantization::op_momentum",
   "declaration_slug": "op-momentum",
   "kind": "def",
   "name": "op_momentum",
   "module_name": "TauLib.BookIV.QuantumMechanics.Quantization",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/",
   "source_line_start": 91,
   "source_line_end": 95,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Quantization.lean#L91-L95",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.Quantization",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.Quantization](/verify/taulib/docs/book-iv-quantum-mechanics-quantization/)
+- Module: [TauLib.BookIV.QuantumMechanics.Quantization](/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/Quantization.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Quantization.lean#L91-L95)
 - Source range: L91-L95
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "approx_seq",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-orthodox-bridge/approx-seq/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/approx-seq/",
   "summary_short": "`def` declaration in `TauLib.BookII.Geometry.OrthodoxBridge`.",
   "declaration_id": "TauLib.BookII.Geometry.OrthodoxBridge::approx_seq",
   "declaration_slug": "approx-seq",
   "kind": "def",
   "name": "approx_seq",
   "module_name": "TauLib.BookII.Geometry.OrthodoxBridge",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-orthodox-bridge/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/",
   "source_line_start": 44,
   "source_line_end": 44,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/OrthodoxBridge.lean#L44-L44",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.OrthodoxBridge",
-        "url": "/verify/taulib/docs/book-ii-geometry-orthodox-bridge/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.OrthodoxBridge](/verify/taulib/docs/book-ii-geometry-orthodox-bridge/)
+- Module: [TauLib.BookII.Geometry.OrthodoxBridge](/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/)
 - Source path: [`TauLib/BookII/Geometry/OrthodoxBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/OrthodoxBridge.lean#L44-L44)
 - Source range: L44-L44
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

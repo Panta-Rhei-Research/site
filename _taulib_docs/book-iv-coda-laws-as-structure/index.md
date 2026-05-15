@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Coda.LawsAsStructure",
-  "permalink": "/verify/taulib/docs/book-iv-coda-laws-as-structure/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Coda.LawsAsStructure`.",
   "module_name": "TauLib.BookIV.Coda.LawsAsStructure",
   "module_slug": "book-iv-coda-laws-as-structure",
@@ -38,10 +38,12 @@
     {
       "kind": "structure",
       "name": "TowerNaturalTransformation",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation/",
       "source_line_start": 63,
       "source_line_end": 74,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D241"
       ]
@@ -49,37 +51,45 @@
     {
       "kind": "def",
       "name": "tower_natural_transformation",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation-l76/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation-l76/",
       "source_line_start": 76,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tower_nat_commutes",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-commutes/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-commutes/",
       "source_line_start": 78,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tower_nat_conservation",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-conservation/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-conservation/",
       "source_line_start": 81,
       "source_line_end": 82,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "remark_noether_corollary",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/remark-noether-corollary/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/remark-noether-corollary/",
       "source_line_start": 97,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": [
         "IV.R180"
       ]
@@ -87,82 +97,100 @@
     {
       "kind": "inductive",
       "name": "ConservationLaw",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/conservation-law/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/conservation-law/",
       "source_line_start": 102,
       "source_line_end": 119,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "conservation_laws_exhaust",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/conservation-laws-exhaust/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/conservation-laws-exhaust/",
       "source_line_start": 122,
       "source_line_end": 126,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NoLargerGaugeGroup",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge-group/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge-group/",
       "source_line_start": 141,
       "source_line_end": 150,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_larger_gauge",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge/",
       "source_line_start": 152,
       "source_line_end": 152,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "five_generators_fixed",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/five-generators-fixed/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/five-generators-fixed/",
       "source_line_start": 154,
       "source_line_end": 155,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DiscreteSymmetryStatus",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry-status/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry-status/",
       "source_line_start": 168,
       "source_line_end": 177,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "discrete_symmetry",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry/",
       "source_line_start": 179,
       "source_line_end": 179,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cpt_preserved",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/cpt-preserved/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/cpt-preserved/",
       "source_line_start": 181,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "UVFiniteness",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/uvfiniteness/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/uvfiniteness/",
       "source_line_start": 197,
       "source_line_end": 210,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P145"
       ]
@@ -170,127 +198,155 @@
     {
       "kind": "def",
       "name": "uv_finiteness",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/uv-finiteness/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/uv-finiteness/",
       "source_line_start": 212,
       "source_line_end": 212,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "uv_finite_at_each_level",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/uv-finite-at-each-level/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/uv-finite-at-each-level/",
       "source_line_start": 214,
       "source_line_end": 215,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_regularization_needed",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/no-regularization-needed/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-regularization-needed/",
       "source_line_start": 217,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "LawsAsStructureSummary",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure-summary/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure-summary/",
       "source_line_start": 238,
       "source_line_end": 249,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "laws_as_structure",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure/",
       "source_line_start": 251,
       "source_line_end": 251,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "laws_structural",
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/laws-structural/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/laws-structural/",
       "source_line_start": 253,
       "source_line_end": 254,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l260/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l261/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l261/",
       "source_line_start": 261,
       "source_line_end": 261,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l262/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l263/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l263/",
       "source_line_start": 263,
       "source_line_end": 263,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l264/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l265/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l265/",
       "source_line_start": 265,
       "source_line_end": 265,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l266/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l266/",
       "source_line_start": 266,
       "source_line_end": 266,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l267/",
+      "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l267/",
       "source_line_start": 267,
       "source_line_end": 269,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -302,7 +358,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -378,33 +434,33 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [TowerNaturalTransformation](/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation/) | L63-L74 | defined | `IV.D241` |
-| `def` | [tower_natural_transformation](/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation-l76/) | L76-L76 | defined | — |
-| `theorem` | [tower_nat_commutes](/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-commutes/) | L78-L79 | formalized | — |
-| `theorem` | [tower_nat_conservation](/verify/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-conservation/) | L81-L82 | formalized | — |
-| `def` | [remark_noether_corollary](/verify/taulib/docs/book-iv-coda-laws-as-structure/remark-noether-corollary/) | L97-L99 | defined | `IV.R180` |
-| `inductive` | [ConservationLaw](/verify/taulib/docs/book-iv-coda-laws-as-structure/conservation-law/) | L102-L119 | defined | — |
-| `theorem` | [conservation_laws_exhaust](/verify/taulib/docs/book-iv-coda-laws-as-structure/conservation-laws-exhaust/) | L122-L126 | formalized | — |
-| `structure` | [NoLargerGaugeGroup](/verify/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge-group/) | L141-L150 | defined | — |
-| `def` | [no_larger_gauge](/verify/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge/) | L152-L152 | defined | — |
-| `theorem` | [five_generators_fixed](/verify/taulib/docs/book-iv-coda-laws-as-structure/five-generators-fixed/) | L154-L155 | formalized | — |
-| `structure` | [DiscreteSymmetryStatus](/verify/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry-status/) | L168-L177 | defined | — |
-| `def` | [discrete_symmetry](/verify/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry/) | L179-L179 | defined | — |
-| `theorem` | [cpt_preserved](/verify/taulib/docs/book-iv-coda-laws-as-structure/cpt-preserved/) | L181-L182 | formalized | — |
-| `structure` | [UVFiniteness](/verify/taulib/docs/book-iv-coda-laws-as-structure/uvfiniteness/) | L197-L210 | defined | `IV.P145` |
-| `def` | [uv_finiteness](/verify/taulib/docs/book-iv-coda-laws-as-structure/uv-finiteness/) | L212-L212 | defined | — |
-| `theorem` | [uv_finite_at_each_level](/verify/taulib/docs/book-iv-coda-laws-as-structure/uv-finite-at-each-level/) | L214-L215 | formalized | — |
-| `theorem` | [no_regularization_needed](/verify/taulib/docs/book-iv-coda-laws-as-structure/no-regularization-needed/) | L217-L221 | formalized | — |
-| `structure` | [LawsAsStructureSummary](/verify/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure-summary/) | L238-L249 | defined | — |
-| `def` | [laws_as_structure](/verify/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure/) | L251-L251 | defined | — |
-| `theorem` | [laws_structural](/verify/taulib/docs/book-iv-coda-laws-as-structure/laws-structural/) | L253-L254 | formalized | — |
-| `eval` | [#eval L260](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l260/) | L260-L260 | computed | — |
-| `eval` | [#eval L261](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l261/) | L261-L261 | computed | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l262/) | L262-L262 | computed | — |
-| `eval` | [#eval L263](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l263/) | L263-L263 | computed | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l264/) | L264-L264 | computed | — |
-| `eval` | [#eval L265](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l265/) | L265-L265 | computed | — |
-| `eval` | [#eval L266](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l266/) | L266-L266 | computed | — |
-| `eval` | [#eval L267](/verify/taulib/docs/book-iv-coda-laws-as-structure/eval-l267/) | L267-L269 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [TowerNaturalTransformation](/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation/) | L63-L74 | type/data schema | type/data schema | `IV.D241` |
+| `def` | [tower_natural_transformation](/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-natural-transformation-l76/) | L76-L76 | definition | definition | — |
+| `theorem` | [tower_nat_commutes](/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-commutes/) | L78-L79 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tower_nat_conservation](/corpus/taulib/docs/book-iv-coda-laws-as-structure/tower-nat-conservation/) | L81-L82 | proof obligation | formal proof obligation checked | — |
+| `def` | [remark_noether_corollary](/corpus/taulib/docs/book-iv-coda-laws-as-structure/remark-noether-corollary/) | L97-L99 | docstring/data record | docstring/data record | `IV.R180` |
+| `inductive` | [ConservationLaw](/corpus/taulib/docs/book-iv-coda-laws-as-structure/conservation-law/) | L102-L119 | type/data schema | type/data schema | — |
+| `theorem` | [conservation_laws_exhaust](/corpus/taulib/docs/book-iv-coda-laws-as-structure/conservation-laws-exhaust/) | L122-L126 | proof obligation | formal proof obligation checked | — |
+| `structure` | [NoLargerGaugeGroup](/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge-group/) | L141-L150 | type/data schema | type/data schema | — |
+| `def` | [no_larger_gauge](/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-larger-gauge/) | L152-L152 | definition | definition | — |
+| `theorem` | [five_generators_fixed](/corpus/taulib/docs/book-iv-coda-laws-as-structure/five-generators-fixed/) | L154-L155 | proof obligation | formal proof obligation checked | — |
+| `structure` | [DiscreteSymmetryStatus](/corpus/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry-status/) | L168-L177 | type/data schema | type/data schema | — |
+| `def` | [discrete_symmetry](/corpus/taulib/docs/book-iv-coda-laws-as-structure/discrete-symmetry/) | L179-L179 | definition | definition | — |
+| `theorem` | [cpt_preserved](/corpus/taulib/docs/book-iv-coda-laws-as-structure/cpt-preserved/) | L181-L182 | proof obligation | formal proof obligation checked | — |
+| `structure` | [UVFiniteness](/corpus/taulib/docs/book-iv-coda-laws-as-structure/uvfiniteness/) | L197-L210 | type/data schema | type/data schema | `IV.P145` |
+| `def` | [uv_finiteness](/corpus/taulib/docs/book-iv-coda-laws-as-structure/uv-finiteness/) | L212-L212 | definition | definition | — |
+| `theorem` | [uv_finite_at_each_level](/corpus/taulib/docs/book-iv-coda-laws-as-structure/uv-finite-at-each-level/) | L214-L215 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [no_regularization_needed](/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-regularization-needed/) | L217-L221 | proof obligation | formal proof obligation checked | — |
+| `structure` | [LawsAsStructureSummary](/corpus/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure-summary/) | L238-L249 | type/data schema | type/data schema | — |
+| `def` | [laws_as_structure](/corpus/taulib/docs/book-iv-coda-laws-as-structure/laws-as-structure/) | L251-L251 | definition | definition | — |
+| `theorem` | [laws_structural](/corpus/taulib/docs/book-iv-coda-laws-as-structure/laws-structural/) | L253-L254 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L260](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l260/) | L260-L260 | computed check | computed check | — |
+| `eval` | [#eval L261](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l261/) | L261-L261 | computed check | computed check | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l262/) | L262-L262 | computed check | computed check | — |
+| `eval` | [#eval L263](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l263/) | L263-L263 | computed check | computed check | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l264/) | L264-L264 | computed check | computed check | — |
+| `eval` | [#eval L265](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l265/) | L265-L265 | computed check | computed check | — |
+| `eval` | [#eval L266](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l266/) | L266-L266 | computed check | computed check | — |
+| `eval` | [#eval L267](/corpus/taulib/docs/book-iv-coda-laws-as-structure/eval-l267/) | L267-L269 | computed check | computed check | — |

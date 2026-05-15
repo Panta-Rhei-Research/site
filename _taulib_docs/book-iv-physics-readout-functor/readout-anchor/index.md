@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ReadoutAnchor",
-  "permalink": "/verify/taulib/docs/book-iv-physics-readout-functor/readout-anchor/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-readout-functor/readout-anchor/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Physics.ReadoutFunctor`.",
   "declaration_id": "TauLib.BookIV.Physics.ReadoutFunctor::ReadoutAnchor",
   "declaration_slug": "readout-anchor",
   "kind": "structure",
   "name": "ReadoutAnchor",
   "module_name": "TauLib.BookIV.Physics.ReadoutFunctor",
-  "module_url": "/verify/taulib/docs/book-iv-physics-readout-functor/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-readout-functor/",
   "source_line_start": 137,
   "source_line_end": 148,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/ReadoutFunctor.lean#L137-L148",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.ReadoutFunctor",
-        "url": "/verify/taulib/docs/book-iv-physics-readout-functor/"
+        "url": "/corpus/taulib/docs/book-iv-physics-readout-functor/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.ReadoutFunctor](/verify/taulib/docs/book-iv-physics-readout-functor/)
+- Module: [TauLib.BookIV.Physics.ReadoutFunctor](/corpus/taulib/docs/book-iv-physics-readout-functor/)
 - Source path: [`TauLib/BookIV/Physics/ReadoutFunctor.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/ReadoutFunctor.lean#L137-L148)
 - Source range: L137-L148
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.FluidMacro.ChargeObstruction",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.FluidMacro.ChargeObstruction`.",
   "module_name": "TauLib.BookV.FluidMacro.ChargeObstruction",
   "module_slug": "book-v-fluid-macro-charge-obstruction",
@@ -42,19 +42,23 @@
     {
       "kind": "inductive",
       "name": "ChargeSector",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-sector/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-sector/",
       "source_line_start": 58,
       "source_line_end": 65,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MacroCharge",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-charge/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-charge/",
       "source_line_start": 72,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D101"
       ]
@@ -62,19 +66,23 @@
     {
       "kind": "def",
       "name": "MacroCharge.isGloballyNeutral",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/is-globally-neutral/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/is-globally-neutral/",
       "source_line_start": 82,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NoIsolatedChargesThm",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges-thm/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges-thm/",
       "source_line_start": 96,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T73"
       ]
@@ -82,19 +90,23 @@
     {
       "kind": "theorem",
       "name": "no_isolated_charges",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges/",
       "source_line_start": 106,
       "source_line_end": 107,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ChargeQuantum",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantum/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantum/",
       "source_line_start": 118,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R149"
       ]
@@ -102,19 +114,23 @@
     {
       "kind": "def",
       "name": "charge_quantization",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantization/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantization/",
       "source_line_start": 124,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sourceless_macro_flux",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/sourceless-macro-flux/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/sourceless-macro-flux/",
       "source_line_start": 137,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.C10"
       ]
@@ -122,19 +138,23 @@
     {
       "kind": "structure",
       "name": "MagneticCharge",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/magnetic-charge/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/magnetic-charge/",
       "source_line_start": 145,
       "source_line_end": 150,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_magnetic_monopoles",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/no-magnetic-monopoles/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/no-magnetic-monopoles/",
       "source_line_start": 157,
       "source_line_end": 158,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.C11"
       ]
@@ -142,10 +162,12 @@
     {
       "kind": "structure",
       "name": "MacroEMField",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-emfield/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-emfield/",
       "source_line_start": 170,
       "source_line_end": 177,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D102"
       ]
@@ -153,28 +175,34 @@
     {
       "kind": "def",
       "name": "MacroEMField.standard",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/standard/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/standard/",
       "source_line_start": 180,
       "source_line_end": 181,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "ConfinementLevel",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/confinement-level/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/confinement-level/",
       "source_line_start": 188,
       "source_line_end": 195,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MacroColorConfinement",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement/",
       "source_line_start": 204,
       "source_line_end": 211,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.C12"
       ]
@@ -182,19 +210,23 @@
     {
       "kind": "theorem",
       "name": "macro_color_confinement",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement-l214/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement-l214/",
       "source_line_start": 214,
       "source_line_end": 216,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MacroCurrent",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-current/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-current/",
       "source_line_start": 226,
       "source_line_end": 233,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D103"
       ]
@@ -202,64 +234,78 @@
     {
       "kind": "theorem",
       "name": "current_conservation",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/current-conservation/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/current-conservation/",
       "source_line_start": 236,
       "source_line_end": 237,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "electron_charge",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/electron-charge/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/electron-charge/",
       "source_line_start": 256,
       "source_line_end": 256,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "proton_charge",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/proton-charge/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/proton-charge/",
       "source_line_start": 257,
       "source_line_end": 257,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_balance",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/example-balance/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/example-balance/",
       "source_line_start": 260,
       "source_line_end": 263,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l265/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l265/",
       "source_line_start": 265,
       "source_line_end": 265,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l266/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l266/",
       "source_line_start": 266,
       "source_line_end": 266,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l267/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l267/",
       "source_line_start": 267,
       "source_line_end": 269,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -271,7 +317,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -351,28 +397,28 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [ChargeSector](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-sector/) | L58-L65 | defined | — |
-| `structure` | [MacroCharge](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-charge/) | L72-L79 | defined | `V.D101` |
-| `def` | [MacroCharge.isGloballyNeutral](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/is-globally-neutral/) | L82-L83 | defined | — |
-| `structure` | [NoIsolatedChargesThm](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges-thm/) | L96-L103 | defined | `V.T73` |
-| `theorem` | [no_isolated_charges](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges/) | L106-L107 | formalized | — |
-| `structure` | [ChargeQuantum](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantum/) | L118-L121 | defined | `V.R149` |
-| `def` | [charge_quantization](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantization/) | L124-L124 | defined | — |
-| `theorem` | [sourceless_macro_flux](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/sourceless-macro-flux/) | L137-L138 | formalized | `V.C10` |
-| `structure` | [MagneticCharge](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/magnetic-charge/) | L145-L150 | defined | — |
-| `theorem` | [no_magnetic_monopoles](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/no-magnetic-monopoles/) | L157-L158 | formalized | `V.C11` |
-| `structure` | [MacroEMField](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-emfield/) | L170-L177 | defined | `V.D102` |
-| `def` | [MacroEMField.standard](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/standard/) | L180-L181 | defined | — |
-| `inductive` | [ConfinementLevel](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/confinement-level/) | L188-L195 | defined | — |
-| `structure` | [MacroColorConfinement](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement/) | L204-L211 | defined | `V.C12` |
-| `theorem` | [macro_color_confinement](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement-l214/) | L214-L216 | formalized | — |
-| `structure` | [MacroCurrent](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-current/) | L226-L233 | defined | `V.D103` |
-| `theorem` | [current_conservation](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/current-conservation/) | L236-L237 | formalized | — |
-| `def` | [electron_charge](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/electron-charge/) | L256-L256 | defined | — |
-| `def` | [proton_charge](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/proton-charge/) | L257-L257 | defined | — |
-| `def` | [example_balance](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/example-balance/) | L260-L263 | defined | — |
-| `eval` | [#eval L265](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l265/) | L265-L265 | computed | — |
-| `eval` | [#eval L266](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l266/) | L266-L266 | computed | — |
-| `eval` | [#eval L267](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l267/) | L267-L269 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [ChargeSector](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-sector/) | L58-L65 | type/data schema | type/data schema | — |
+| `structure` | [MacroCharge](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-charge/) | L72-L79 | type/data schema | type/data schema | `V.D101` |
+| `def` | [MacroCharge.isGloballyNeutral](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/is-globally-neutral/) | L82-L83 | data/computed value | data/computed value | — |
+| `structure` | [NoIsolatedChargesThm](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges-thm/) | L96-L103 | type/data schema | type/data schema | `V.T73` |
+| `theorem` | [no_isolated_charges](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/no-isolated-charges/) | L106-L107 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ChargeQuantum](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantum/) | L118-L121 | type/data schema | type/data schema | `V.R149` |
+| `def` | [charge_quantization](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/charge-quantization/) | L124-L124 | definition | definition | — |
+| `theorem` | [sourceless_macro_flux](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/sourceless-macro-flux/) | L137-L138 | proof obligation | formal proof obligation checked | `V.C10` |
+| `structure` | [MagneticCharge](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/magnetic-charge/) | L145-L150 | type/data schema | type/data schema | — |
+| `theorem` | [no_magnetic_monopoles](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/no-magnetic-monopoles/) | L157-L158 | proof obligation | formal proof obligation checked | `V.C11` |
+| `structure` | [MacroEMField](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-emfield/) | L170-L177 | type/data schema | type/data schema | `V.D102` |
+| `def` | [MacroEMField.standard](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/standard/) | L180-L181 | definition | definition | — |
+| `inductive` | [ConfinementLevel](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/confinement-level/) | L188-L195 | type/data schema | type/data schema | — |
+| `structure` | [MacroColorConfinement](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement/) | L204-L211 | type/data schema | type/data schema | `V.C12` |
+| `theorem` | [macro_color_confinement](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-color-confinement-l214/) | L214-L216 | proof obligation | formal proof obligation checked | — |
+| `structure` | [MacroCurrent](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/macro-current/) | L226-L233 | type/data schema | type/data schema | `V.D103` |
+| `theorem` | [current_conservation](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/current-conservation/) | L236-L237 | proof obligation | formal proof obligation checked | — |
+| `def` | [electron_charge](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/electron-charge/) | L256-L256 | definition | definition | — |
+| `def` | [proton_charge](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/proton-charge/) | L257-L257 | definition | definition | — |
+| `def` | [example_balance](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/example-balance/) | L260-L263 | definition | definition | — |
+| `eval` | [#eval L265](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l265/) | L265-L265 | computed check | computed check | — |
+| `eval` | [#eval L266](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l266/) | L266-L266 | computed check | computed check | — |
+| `eval` | [#eval L267](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/eval-l267/) | L267-L269 | computed check | computed check | — |

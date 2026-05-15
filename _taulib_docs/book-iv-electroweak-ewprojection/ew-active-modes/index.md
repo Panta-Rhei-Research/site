@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ewActiveModes",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-ewprojection/ew-active-modes/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-ewprojection/ew-active-modes/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.EWProjection`.",
   "declaration_id": "TauLib.BookIV.Electroweak.EWProjection::ewActiveModes",
   "declaration_slug": "ew-active-modes",
   "kind": "def",
   "name": "ewActiveModes",
   "module_name": "TauLib.BookIV.Electroweak.EWProjection",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-ewprojection/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-ewprojection/",
   "source_line_start": 86,
   "source_line_end": 87,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWProjection.lean#L86-L87",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.EWProjection",
-        "url": "/verify/taulib/docs/book-iv-electroweak-ewprojection/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-ewprojection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.EWProjection](/verify/taulib/docs/book-iv-electroweak-ewprojection/)
+- Module: [TauLib.BookIV.Electroweak.EWProjection](/corpus/taulib/docs/book-iv-electroweak-ewprojection/)
 - Source path: [`TauLib/BookIV/Electroweak/EWProjection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWProjection.lean#L86-L87)
 - Source range: L86-L87
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

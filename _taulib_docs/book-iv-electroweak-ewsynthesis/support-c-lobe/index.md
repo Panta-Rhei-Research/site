@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "support_C_lobe",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/support-c-lobe/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/support-c-lobe/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.EWSynthesis`.",
   "declaration_id": "TauLib.BookIV.Electroweak.EWSynthesis::support_C_lobe",
   "declaration_slug": "support-c-lobe",
   "kind": "def",
   "name": "support_C_lobe",
   "module_name": "TauLib.BookIV.Electroweak.EWSynthesis",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/",
   "source_line_start": 293,
   "source_line_end": 296,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L293-L296",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.EWSynthesis",
-        "url": "/verify/taulib/docs/book-iv-electroweak-ewsynthesis/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/verify/taulib/docs/book-iv-electroweak-ewsynthesis/)
+- Module: [TauLib.BookIV.Electroweak.EWSynthesis](/corpus/taulib/docs/book-iv-electroweak-ewsynthesis/)
 - Source path: [`TauLib/BookIV/Electroweak/EWSynthesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWSynthesis.lean#L293-L296)
 - Source range: L293-L296
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

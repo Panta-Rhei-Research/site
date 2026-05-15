@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "wolfenstein_eta_candidate",
-  "permalink": "/verify/taulib/docs/book-iv-particles-three-generations/wolfenstein-eta-candidate/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-three-generations/wolfenstein-eta-candidate/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.ThreeGenerations`.",
   "declaration_id": "TauLib.BookIV.Particles.ThreeGenerations::wolfenstein_eta_candidate",
   "declaration_slug": "wolfenstein-eta-candidate",
   "kind": "def",
   "name": "wolfenstein_eta_candidate",
   "module_name": "TauLib.BookIV.Particles.ThreeGenerations",
-  "module_url": "/verify/taulib/docs/book-iv-particles-three-generations/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-three-generations/",
   "source_line_start": 1282,
   "source_line_end": 1282,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/ThreeGenerations.lean#L1282-L1282",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.ThreeGenerations",
-        "url": "/verify/taulib/docs/book-iv-particles-three-generations/"
+        "url": "/corpus/taulib/docs/book-iv-particles-three-generations/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.ThreeGenerations](/verify/taulib/docs/book-iv-particles-three-generations/)
+- Module: [TauLib.BookIV.Particles.ThreeGenerations](/corpus/taulib/docs/book-iv-particles-three-generations/)
 - Source path: [`TauLib/BookIV/Particles/ThreeGenerations.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/ThreeGenerations.lean#L1282-L1282)
 - Source range: L1282-L1282
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

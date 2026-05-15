@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L193",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/example-l193/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/example-l193/",
   "summary_short": "`example` declaration in `TauLib.BookIV.QuantumMechanics.CRAddressSpace`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.CRAddressSpace::#eval:193",
   "declaration_slug": "example-l193",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/",
   "source_line_start": 193,
   "source_line_end": 193,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean#L193-L193",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.CRAddressSpace](/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/)
+- Module: [TauLib.BookIV.QuantumMechanics.CRAddressSpace](/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean#L193-L193)
 - Source range: L193-L193
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

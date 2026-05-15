@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "EmEliminability",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-linearity-audit/em-eliminability/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-linearity-audit/em-eliminability/",
   "summary_short": "`structure` declaration in `TauLib.BookI.MetaLogic.LinearityAudit`.",
   "declaration_id": "TauLib.BookI.MetaLogic.LinearityAudit::EmEliminability",
   "declaration_slug": "em-eliminability",
   "kind": "structure",
   "name": "EmEliminability",
   "module_name": "TauLib.BookI.MetaLogic.LinearityAudit",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-linearity-audit/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-linearity-audit/",
   "source_line_start": 239,
   "source_line_end": 243,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearityAudit.lean#L239-L243",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.LinearityAudit",
-        "url": "/verify/taulib/docs/book-i-meta-logic-linearity-audit/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-linearity-audit/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.LinearityAudit](/verify/taulib/docs/book-i-meta-logic-linearity-audit/)
+- Module: [TauLib.BookI.MetaLogic.LinearityAudit](/corpus/taulib/docs/book-i-meta-logic-linearity-audit/)
 - Source path: [`TauLib/BookI/MetaLogic/LinearityAudit.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearityAudit.lean#L239-L243)
 - Source range: L239-L243
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

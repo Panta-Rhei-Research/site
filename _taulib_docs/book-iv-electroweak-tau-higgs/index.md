@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Electroweak.TauHiggs",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Electroweak.TauHiggs`.",
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs",
   "module_slug": "book-iv-electroweak-tau-higgs",
@@ -43,10 +43,12 @@
     {
       "kind": "structure",
       "name": "HiggsMechanism",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism/",
       "source_line_start": 60,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D134"
       ]
@@ -54,19 +56,23 @@
     {
       "kind": "def",
       "name": "higgs_mechanism",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism-l73/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism-l73/",
       "source_line_start": 73,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CoherenceFunctional",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/coherence-functional/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/coherence-functional/",
       "source_line_start": 86,
       "source_line_end": 97,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D135"
       ]
@@ -74,19 +80,23 @@
     {
       "kind": "def",
       "name": "coherence_V1",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/coherence-v1/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/coherence-v1/",
       "source_line_start": 100,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "PhysicalVacuum",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum/",
       "source_line_start": 114,
       "source_line_end": 123,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D136"
       ]
@@ -94,19 +104,23 @@
     {
       "kind": "def",
       "name": "physical_vacuum",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum-l125/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum-l125/",
       "source_line_start": 125,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MinimalityCondition",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition/",
       "source_line_start": 135,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D137"
       ]
@@ -114,19 +128,23 @@
     {
       "kind": "def",
       "name": "minimality_condition",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition-l144/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition-l144/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "EMNullity",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/emnullity/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/emnullity/",
       "source_line_start": 157,
       "source_line_end": 164,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D138"
       ]
@@ -134,19 +152,23 @@
     {
       "kind": "def",
       "name": "em_nullity",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/em-nullity/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/em-nullity/",
       "source_line_start": 166,
       "source_line_end": 166,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SigmaPolarity",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity/",
       "source_line_start": 176,
       "source_line_end": 183,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D139"
       ]
@@ -154,19 +176,23 @@
     {
       "kind": "def",
       "name": "sigma_polarity",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity-l185/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity-l185/",
       "source_line_start": 185,
       "source_line_end": 185,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiberSpinDecomposition",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition/",
       "source_line_start": 198,
       "source_line_end": 207,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.L06"
       ]
@@ -174,19 +200,23 @@
     {
       "kind": "def",
       "name": "fiber_spin_decomposition",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition-l209/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition-l209/",
       "source_line_start": 209,
       "source_line_end": 209,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "vacuum_existence_uniqueness_stability",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/vacuum-existence-uniqueness-stability/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/vacuum-existence-uniqueness-stability/",
       "source_line_start": 221,
       "source_line_end": 225,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T63"
       ]
@@ -194,10 +224,12 @@
     {
       "kind": "theorem",
       "name": "surviving_is_spin0",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/surviving-is-spin0/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/surviving-is-spin0/",
       "source_line_start": 235,
       "source_line_end": 239,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T64"
       ]
@@ -205,19 +237,23 @@
     {
       "kind": "theorem",
       "name": "surviving_at_crossing",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/surviving-at-crossing/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/surviving-at-crossing/",
       "source_line_start": 242,
       "source_line_end": 245,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DegenerateVacuumManifold",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold/",
       "source_line_start": 258,
       "source_line_end": 267,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P72"
       ]
@@ -225,19 +261,23 @@
     {
       "kind": "def",
       "name": "degenerate_vacuum_manifold",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold-l269/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold-l269/",
       "source_line_start": 269,
       "source_line_end": 269,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "VnMinimumCircle",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-circle/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-circle/",
       "source_line_start": 278,
       "source_line_end": 285,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P73"
       ]
@@ -245,19 +285,23 @@
     {
       "kind": "def",
       "name": "vn_minimum_on_circle",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-on-circle/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-on-circle/",
       "source_line_start": 287,
       "source_line_end": 287,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "remark_sector_separation",
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/remark-sector-separation/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/remark-sector-separation/",
       "source_line_start": 303,
       "source_line_end": 304,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": [
         "IV.R34"
       ]
@@ -265,100 +309,122 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l310/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l310/",
       "source_line_start": 310,
       "source_line_end": 310,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l311/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l311/",
       "source_line_start": 311,
       "source_line_end": 311,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l312/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l312/",
       "source_line_start": 312,
       "source_line_end": 312,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l313/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l313/",
       "source_line_start": 313,
       "source_line_end": 313,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l314/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l314/",
       "source_line_start": 314,
       "source_line_end": 314,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l315/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l315/",
       "source_line_start": 315,
       "source_line_end": 315,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l316/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l316/",
       "source_line_start": 316,
       "source_line_end": 316,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l317/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l317/",
       "source_line_start": 317,
       "source_line_end": 317,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l318/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l318/",
       "source_line_start": 318,
       "source_line_end": 318,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l319/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l319/",
       "source_line_start": 319,
       "source_line_end": 319,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l320/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l320/",
       "source_line_start": 320,
       "source_line_end": 322,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -370,7 +436,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -451,38 +517,38 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [HiggsMechanism](/verify/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism/) | L60-L71 | defined | `IV.D134` |
-| `def` | [higgs_mechanism](/verify/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism-l73/) | L73-L73 | defined | — |
-| `structure` | [CoherenceFunctional](/verify/taulib/docs/book-iv-electroweak-tau-higgs/coherence-functional/) | L86-L97 | defined | `IV.D135` |
-| `def` | [coherence_V1](/verify/taulib/docs/book-iv-electroweak-tau-higgs/coherence-v1/) | L100-L102 | defined | — |
-| `structure` | [PhysicalVacuum](/verify/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum/) | L114-L123 | defined | `IV.D136` |
-| `def` | [physical_vacuum](/verify/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum-l125/) | L125-L125 | defined | — |
-| `structure` | [MinimalityCondition](/verify/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition/) | L135-L142 | defined | `IV.D137` |
-| `def` | [minimality_condition](/verify/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition-l144/) | L144-L144 | defined | — |
-| `structure` | [EMNullity](/verify/taulib/docs/book-iv-electroweak-tau-higgs/emnullity/) | L157-L164 | defined | `IV.D138` |
-| `def` | [em_nullity](/verify/taulib/docs/book-iv-electroweak-tau-higgs/em-nullity/) | L166-L166 | defined | — |
-| `structure` | [SigmaPolarity](/verify/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity/) | L176-L183 | defined | `IV.D139` |
-| `def` | [sigma_polarity](/verify/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity-l185/) | L185-L185 | defined | — |
-| `structure` | [FiberSpinDecomposition](/verify/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition/) | L198-L207 | defined | `IV.L06` |
-| `def` | [fiber_spin_decomposition](/verify/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition-l209/) | L209-L209 | defined | — |
-| `theorem` | [vacuum_existence_uniqueness_stability](/verify/taulib/docs/book-iv-electroweak-tau-higgs/vacuum-existence-uniqueness-stability/) | L221-L225 | formalized | `IV.T63` |
-| `theorem` | [surviving_is_spin0](/verify/taulib/docs/book-iv-electroweak-tau-higgs/surviving-is-spin0/) | L235-L239 | formalized | `IV.T64` |
-| `theorem` | [surviving_at_crossing](/verify/taulib/docs/book-iv-electroweak-tau-higgs/surviving-at-crossing/) | L242-L245 | formalized | — |
-| `structure` | [DegenerateVacuumManifold](/verify/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold/) | L258-L267 | defined | `IV.P72` |
-| `def` | [degenerate_vacuum_manifold](/verify/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold-l269/) | L269-L269 | defined | — |
-| `structure` | [VnMinimumCircle](/verify/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-circle/) | L278-L285 | defined | `IV.P73` |
-| `def` | [vn_minimum_on_circle](/verify/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-on-circle/) | L287-L287 | defined | — |
-| `def` | [remark_sector_separation](/verify/taulib/docs/book-iv-electroweak-tau-higgs/remark-sector-separation/) | L303-L304 | defined | `IV.R34` |
-| `eval` | [#eval L310](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l310/) | L310-L310 | computed | — |
-| `eval` | [#eval L311](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l311/) | L311-L311 | computed | — |
-| `eval` | [#eval L312](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l312/) | L312-L312 | computed | — |
-| `eval` | [#eval L313](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l313/) | L313-L313 | computed | — |
-| `eval` | [#eval L314](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l314/) | L314-L314 | computed | — |
-| `eval` | [#eval L315](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l315/) | L315-L315 | computed | — |
-| `eval` | [#eval L316](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l316/) | L316-L316 | computed | — |
-| `eval` | [#eval L317](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l317/) | L317-L317 | computed | — |
-| `eval` | [#eval L318](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l318/) | L318-L318 | computed | — |
-| `eval` | [#eval L319](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l319/) | L319-L319 | computed | — |
-| `eval` | [#eval L320](/verify/taulib/docs/book-iv-electroweak-tau-higgs/eval-l320/) | L320-L322 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [HiggsMechanism](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism/) | L60-L71 | type/data schema | type/data schema | `IV.D134` |
+| `def` | [higgs_mechanism](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/higgs-mechanism-l73/) | L73-L73 | definition | definition | — |
+| `structure` | [CoherenceFunctional](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/coherence-functional/) | L86-L97 | type/data schema | type/data schema | `IV.D135` |
+| `def` | [coherence_V1](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/coherence-v1/) | L100-L102 | definition | definition | — |
+| `structure` | [PhysicalVacuum](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum/) | L114-L123 | type/data schema | type/data schema | `IV.D136` |
+| `def` | [physical_vacuum](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/physical-vacuum-l125/) | L125-L125 | definition | definition | — |
+| `structure` | [MinimalityCondition](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition/) | L135-L142 | type/data schema | type/data schema | `IV.D137` |
+| `def` | [minimality_condition](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/minimality-condition-l144/) | L144-L144 | definition | definition | — |
+| `structure` | [EMNullity](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/emnullity/) | L157-L164 | type/data schema | type/data schema | `IV.D138` |
+| `def` | [em_nullity](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/em-nullity/) | L166-L166 | definition | definition | — |
+| `structure` | [SigmaPolarity](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity/) | L176-L183 | type/data schema | type/data schema | `IV.D139` |
+| `def` | [sigma_polarity](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity-l185/) | L185-L185 | definition | definition | — |
+| `structure` | [FiberSpinDecomposition](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition/) | L198-L207 | type/data schema | type/data schema | `IV.L06` |
+| `def` | [fiber_spin_decomposition](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/fiber-spin-decomposition-l209/) | L209-L209 | definition | definition | — |
+| `theorem` | [vacuum_existence_uniqueness_stability](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/vacuum-existence-uniqueness-stability/) | L221-L225 | proof obligation | formal proof obligation checked | `IV.T63` |
+| `theorem` | [surviving_is_spin0](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/surviving-is-spin0/) | L235-L239 | proof obligation | formal proof obligation checked | `IV.T64` |
+| `theorem` | [surviving_at_crossing](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/surviving-at-crossing/) | L242-L245 | proof obligation | formal proof obligation checked | — |
+| `structure` | [DegenerateVacuumManifold](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold/) | L258-L267 | type/data schema | type/data schema | `IV.P72` |
+| `def` | [degenerate_vacuum_manifold](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/degenerate-vacuum-manifold-l269/) | L269-L269 | definition | definition | — |
+| `structure` | [VnMinimumCircle](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-circle/) | L278-L285 | type/data schema | type/data schema | `IV.P73` |
+| `def` | [vn_minimum_on_circle](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/vn-minimum-on-circle/) | L287-L287 | definition | definition | — |
+| `def` | [remark_sector_separation](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/remark-sector-separation/) | L303-L304 | docstring/data record | docstring/data record | `IV.R34` |
+| `eval` | [#eval L310](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l310/) | L310-L310 | computed check | computed check | — |
+| `eval` | [#eval L311](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l311/) | L311-L311 | computed check | computed check | — |
+| `eval` | [#eval L312](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l312/) | L312-L312 | computed check | computed check | — |
+| `eval` | [#eval L313](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l313/) | L313-L313 | computed check | computed check | — |
+| `eval` | [#eval L314](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l314/) | L314-L314 | computed check | computed check | — |
+| `eval` | [#eval L315](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l315/) | L315-L315 | computed check | computed check | — |
+| `eval` | [#eval L316](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l316/) | L316-L316 | computed check | computed check | — |
+| `eval` | [#eval L317](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l317/) | L317-L317 | computed check | computed check | — |
+| `eval` | [#eval L318](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l318/) | L318-L318 | computed check | computed check | — |
+| `eval` | [#eval L319](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l319/) | L319-L319 | computed check | computed check | — |
+| `eval` | [#eval L320](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/eval-l320/) | L320-L322 | computed check | computed check | — |

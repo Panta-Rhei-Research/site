@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "IdentityFaithfulReception",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/identity-faithful-reception/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/identity-faithful-reception/",
   "summary_short": "`structure` declaration in `TauLib.BookI.MetaLogic.ReceptionCriterion`.",
   "declaration_id": "TauLib.BookI.MetaLogic.ReceptionCriterion::IdentityFaithfulReception",
   "declaration_slug": "identity-faithful-reception",
   "kind": "structure",
   "name": "IdentityFaithfulReception",
   "module_name": "TauLib.BookI.MetaLogic.ReceptionCriterion",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/",
   "source_line_start": 39,
   "source_line_end": 45,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/ReceptionCriterion.lean#L39-L45",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.ReceptionCriterion",
-        "url": "/verify/taulib/docs/book-i-meta-logic-reception-criterion/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-reception-criterion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.ReceptionCriterion](/verify/taulib/docs/book-i-meta-logic-reception-criterion/)
+- Module: [TauLib.BookI.MetaLogic.ReceptionCriterion](/corpus/taulib/docs/book-i-meta-logic-reception-criterion/)
 - Source path: [`TauLib/BookI/MetaLogic/ReceptionCriterion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/ReceptionCriterion.lean#L39-L45)
 - Source range: L39-L45
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

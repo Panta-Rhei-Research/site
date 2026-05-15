@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chi_plus_crt",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/chi-plus-crt/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/chi-plus-crt/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.TauHolomorphic`.",
   "declaration_id": "TauLib.BookI.Holomorphy.TauHolomorphic::chi_plus_crt",
   "declaration_slug": "chi-plus-crt",
   "kind": "theorem",
   "name": "chi_plus_crt",
   "module_name": "TauLib.BookI.Holomorphy.TauHolomorphic",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/",
   "source_line_start": 222,
   "source_line_end": 225,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/TauHolomorphic.lean#L222-L225",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.TauHolomorphic",
-        "url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.TauHolomorphic](/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/)
+- Module: [TauLib.BookI.Holomorphy.TauHolomorphic](/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/)
 - Source path: [`TauLib/BookI/Holomorphy/TauHolomorphic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/TauHolomorphic.lean#L222-L225)
 - Source range: L222-L225
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

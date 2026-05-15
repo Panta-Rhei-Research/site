@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.e_partial_le_three",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-pi-plus-e/e-partial-le-three/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-pi-plus-e/e-partial-le-three/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealPiPlusE`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealPiPlusE::TauRat.e_partial_le_three",
   "declaration_slug": "e-partial-le-three",
   "kind": "theorem",
   "name": "TauRat.e_partial_le_three",
   "module_name": "TauLib.BookI.Boundary.TauRealPiPlusE",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-pi-plus-e/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi-plus-e/",
   "source_line_start": 262,
   "source_line_end": 299,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealPiPlusE.lean#L262-L299",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealPiPlusE",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-pi-plus-e/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-pi-plus-e/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealPiPlusE](/verify/taulib/docs/book-i-boundary-tau-real-pi-plus-e/)
+- Module: [TauLib.BookI.Boundary.TauRealPiPlusE](/corpus/taulib/docs/book-i-boundary-tau-real-pi-plus-e/)
 - Source path: [`TauLib/BookI/Boundary/TauRealPiPlusE.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealPiPlusE.lean#L262-L299)
 - Source range: L262-L299
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

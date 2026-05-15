@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sigma_involution",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/sigma-involution/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/sigma-involution/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.MajoranaStructure`.",
   "declaration_id": "TauLib.BookIV.Electroweak.MajoranaStructure::sigma_involution",
   "declaration_slug": "sigma-involution",
   "kind": "theorem",
   "name": "sigma_involution",
   "module_name": "TauLib.BookIV.Electroweak.MajoranaStructure",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/",
   "source_line_start": 124,
   "source_line_end": 126,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/MajoranaStructure.lean#L124-L126",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.MajoranaStructure",
-        "url": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.MajoranaStructure](/verify/taulib/docs/book-iv-electroweak-majorana-structure/)
+- Module: [TauLib.BookIV.Electroweak.MajoranaStructure](/corpus/taulib/docs/book-iv-electroweak-majorana-structure/)
 - Source path: [`TauLib/BookIV/Electroweak/MajoranaStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/MajoranaStructure.lean#L124-L126)
 - Source range: L124-L126
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "photon_field",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/photon-field/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/photon-field/",
   "summary_short": "`def` declaration in `TauLib.BookV.GravityField.LorentzNoMinkowski`.",
   "declaration_id": "TauLib.BookV.GravityField.LorentzNoMinkowski::photon_field",
   "declaration_slug": "photon-field",
   "kind": "def",
   "name": "photon_field",
   "module_name": "TauLib.BookV.GravityField.LorentzNoMinkowski",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
   "source_line_start": 89,
   "source_line_end": 93,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LorentzNoMinkowski.lean#L89-L93",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.LorentzNoMinkowski",
-        "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.LorentzNoMinkowski](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/)
+- Module: [TauLib.BookV.GravityField.LorentzNoMinkowski](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/)
 - Source path: [`TauLib/BookV/GravityField/LorentzNoMinkowski.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LorentzNoMinkowski.lean#L89-L93)
 - Source range: L89-L93
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

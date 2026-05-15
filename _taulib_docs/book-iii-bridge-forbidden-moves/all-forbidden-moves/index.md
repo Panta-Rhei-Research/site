@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "all_forbidden_moves",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-forbidden-moves/all-forbidden-moves/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-forbidden-moves/all-forbidden-moves/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Bridge.ForbiddenMoves`.",
   "declaration_id": "TauLib.BookIII.Bridge.ForbiddenMoves::all_forbidden_moves",
   "declaration_slug": "all-forbidden-moves",
   "kind": "def",
   "name": "all_forbidden_moves",
   "module_name": "TauLib.BookIII.Bridge.ForbiddenMoves",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-forbidden-moves/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-forbidden-moves/",
   "source_line_start": 63,
   "source_line_end": 65,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ForbiddenMoves.lean#L63-L65",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ForbiddenMoves",
-        "url": "/verify/taulib/docs/book-iii-bridge-forbidden-moves/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-forbidden-moves/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ForbiddenMoves](/verify/taulib/docs/book-iii-bridge-forbidden-moves/)
+- Module: [TauLib.BookIII.Bridge.ForbiddenMoves](/corpus/taulib/docs/book-iii-bridge-forbidden-moves/)
 - Source path: [`TauLib/BookIII/Bridge/ForbiddenMoves.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ForbiddenMoves.lean#L63-L65)
 - Source range: L63-L65
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

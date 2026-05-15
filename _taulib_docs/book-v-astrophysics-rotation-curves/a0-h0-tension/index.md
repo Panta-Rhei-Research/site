@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "a0_h0_tension",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-rotation-curves/a0-h0-tension/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-rotation-curves/a0-h0-tension/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.RotationCurves`.",
   "declaration_id": "TauLib.BookV.Astrophysics.RotationCurves::a0_h0_tension",
   "declaration_slug": "a0-h0-tension",
   "kind": "def",
   "name": "a0_h0_tension",
   "module_name": "TauLib.BookV.Astrophysics.RotationCurves",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-rotation-curves/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-rotation-curves/",
   "source_line_start": 240,
   "source_line_end": 242,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/RotationCurves.lean#L240-L242",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.RotationCurves",
-        "url": "/verify/taulib/docs/book-v-astrophysics-rotation-curves/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-rotation-curves/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.RotationCurves](/verify/taulib/docs/book-v-astrophysics-rotation-curves/)
+- Module: [TauLib.BookV.Astrophysics.RotationCurves](/corpus/taulib/docs/book-v-astrophysics-rotation-curves/)
 - Source path: [`TauLib/BookV/Astrophysics/RotationCurves.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/RotationCurves.lean#L240-L242)
 - Source range: L240-L242
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

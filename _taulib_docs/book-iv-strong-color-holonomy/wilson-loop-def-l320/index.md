@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "wilson_loop_def",
-  "permalink": "/verify/taulib/docs/book-iv-strong-color-holonomy/wilson-loop-def-l320/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-color-holonomy/wilson-loop-def-l320/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Strong.ColorHolonomy`.",
   "declaration_id": "TauLib.BookIV.Strong.ColorHolonomy::wilson_loop_def",
   "declaration_slug": "wilson-loop-def-l320",
   "kind": "def",
   "name": "wilson_loop_def",
   "module_name": "TauLib.BookIV.Strong.ColorHolonomy",
-  "module_url": "/verify/taulib/docs/book-iv-strong-color-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-color-holonomy/",
   "source_line_start": 320,
   "source_line_end": 320,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/ColorHolonomy.lean#L320-L320",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.ColorHolonomy",
-        "url": "/verify/taulib/docs/book-iv-strong-color-holonomy/"
+        "url": "/corpus/taulib/docs/book-iv-strong-color-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.ColorHolonomy](/verify/taulib/docs/book-iv-strong-color-holonomy/)
+- Module: [TauLib.BookIV.Strong.ColorHolonomy](/corpus/taulib/docs/book-iv-strong-color-holonomy/)
 - Source path: [`TauLib/BookIV/Strong/ColorHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/ColorHolonomy.lean#L320-L320)
 - Source range: L320-L320
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

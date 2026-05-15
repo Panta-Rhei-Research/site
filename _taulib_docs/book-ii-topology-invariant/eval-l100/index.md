@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L100",
-  "permalink": "/verify/taulib/docs/book-ii-topology-invariant/eval-l100/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-invariant/eval-l100/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Topology.Invariant`.",
   "declaration_id": "TauLib.BookII.Topology.Invariant::#eval:100",
   "declaration_slug": "eval-l100",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Topology.Invariant",
-  "module_url": "/verify/taulib/docs/book-ii-topology-invariant/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-invariant/",
   "source_line_start": 100,
   "source_line_end": 100,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/Invariant.lean#L100-L100",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.Invariant",
-        "url": "/verify/taulib/docs/book-ii-topology-invariant/"
+        "url": "/corpus/taulib/docs/book-ii-topology-invariant/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.Invariant](/verify/taulib/docs/book-ii-topology-invariant/)
+- Module: [TauLib.BookII.Topology.Invariant](/corpus/taulib/docs/book-ii-topology-invariant/)
 - Source path: [`TauLib/BookII/Topology/Invariant.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/Invariant.lean#L100-L100)
 - Source range: L100-L100
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

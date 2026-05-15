@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pmns_angle_prediction",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/pmns-angle-prediction/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/pmns-angle-prediction/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.NeutrinoMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.NeutrinoMode::pmns_angle_prediction",
   "declaration_slug": "pmns-angle-prediction",
   "kind": "def",
   "name": "pmns_angle_prediction",
   "module_name": "TauLib.BookIV.Electroweak.NeutrinoMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/",
   "source_line_start": 456,
   "source_line_end": 457,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L456-L457",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.NeutrinoMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/verify/taulib/docs/book-iv-electroweak-neutrino-mode/)
+- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/NeutrinoMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L456-L457)
 - Source range: L456-L457
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

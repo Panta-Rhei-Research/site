@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "res_halving_5",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/res-halving-5/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/res-halving-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Transcendentals.IotaTauConfirmed`.",
   "declaration_id": "TauLib.BookII.Transcendentals.IotaTauConfirmed::res_halving_5",
   "declaration_slug": "res-halving-5",
   "kind": "theorem",
   "name": "res_halving_5",
   "module_name": "TauLib.BookII.Transcendentals.IotaTauConfirmed",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/",
   "source_line_start": 208,
   "source_line_end": 208,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/IotaTauConfirmed.lean#L208-L208",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.IotaTauConfirmed",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.IotaTauConfirmed](/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/)
+- Module: [TauLib.BookII.Transcendentals.IotaTauConfirmed](/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/)
 - Source path: [`TauLib/BookII/Transcendentals/IotaTauConfirmed.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/IotaTauConfirmed.lean#L208-L208)
 - Source range: L208-L208
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.ConstantsLedgerExt",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.ConstantsLedgerExt`.",
   "module_name": "TauLib.BookIV.Calibration.ConstantsLedgerExt",
   "module_slug": "book-iv-calibration-constants-ledger-ext",
@@ -38,10 +38,12 @@
     {
       "kind": "structure",
       "name": "CouplingTable",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table/",
       "source_line_start": 35,
       "source_line_end": 45,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D305"
       ]
@@ -49,19 +51,23 @@
     {
       "kind": "def",
       "name": "coupling_table",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table-l48/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table-l48/",
       "source_line_start": 48,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FundamentalScalesTable",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales-table/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales-table/",
       "source_line_start": 65,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D306"
       ]
@@ -69,19 +75,23 @@
     {
       "kind": "def",
       "name": "fundamental_scales",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales/",
       "source_line_start": 76,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ParticleMassTable",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table/",
       "source_line_start": 88,
       "source_line_end": 96,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D307"
       ]
@@ -89,19 +99,23 @@
     {
       "kind": "def",
       "name": "particle_mass_table",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table-l99/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table-l99/",
       "source_line_start": 99,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "StructuralConstantsTable",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants-table/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants-table/",
       "source_line_start": 115,
       "source_line_end": 131,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D308"
       ]
@@ -109,19 +123,23 @@
     {
       "kind": "def",
       "name": "structural_constants",
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants/",
       "source_line_start": 134,
       "source_line_end": 144,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l158/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l158/",
       "source_line_start": 158,
       "source_line_end": 158,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R286",
         "IV.R287"
@@ -130,37 +148,45 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l159/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l159/",
       "source_line_start": 159,
       "source_line_end": 159,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l160/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l160/",
       "source_line_start": 160,
       "source_line_end": 160,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l161/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l161/",
       "source_line_start": 161,
       "source_line_end": 161,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l162/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l162/",
       "source_line_start": 162,
       "source_line_end": 164,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -172,7 +198,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -248,18 +274,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CouplingTable](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table/) | L35-L45 | defined | `IV.D305` |
-| `def` | [coupling_table](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table-l48/) | L48-L54 | defined | — |
-| `structure` | [FundamentalScalesTable](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales-table/) | L65-L73 | defined | `IV.D306` |
-| `def` | [fundamental_scales](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales/) | L76-L80 | defined | — |
-| `structure` | [ParticleMassTable](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table/) | L88-L96 | defined | `IV.D307` |
-| `def` | [particle_mass_table](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table-l99/) | L99-L103 | defined | — |
-| `structure` | [StructuralConstantsTable](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants-table/) | L115-L131 | defined | `IV.D308` |
-| `def` | [structural_constants](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants/) | L134-L144 | defined | — |
-| `eval` | [#eval L158](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l158/) | L158-L158 | computed | `IV.R286`, `IV.R287` |
-| `eval` | [#eval L159](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l159/) | L159-L159 | computed | — |
-| `eval` | [#eval L160](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l160/) | L160-L160 | computed | — |
-| `eval` | [#eval L161](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l161/) | L161-L161 | computed | — |
-| `eval` | [#eval L162](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l162/) | L162-L164 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CouplingTable](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table/) | L35-L45 | type/data schema | type/data schema | `IV.D305` |
+| `def` | [coupling_table](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/coupling-table-l48/) | L48-L54 | definition | definition | — |
+| `structure` | [FundamentalScalesTable](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales-table/) | L65-L73 | type/data schema | type/data schema | `IV.D306` |
+| `def` | [fundamental_scales](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales/) | L76-L80 | definition | definition | — |
+| `structure` | [ParticleMassTable](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table/) | L88-L96 | type/data schema | type/data schema | `IV.D307` |
+| `def` | [particle_mass_table](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/particle-mass-table-l99/) | L99-L103 | definition | definition | — |
+| `structure` | [StructuralConstantsTable](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants-table/) | L115-L131 | type/data schema | type/data schema | `IV.D308` |
+| `def` | [structural_constants](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/structural-constants/) | L134-L144 | definition | definition | — |
+| `eval` | [#eval L158](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l158/) | L158-L158 | computed check | computed check | `IV.R286`, `IV.R287` |
+| `eval` | [#eval L159](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l159/) | L159-L159 | computed check | computed check | — |
+| `eval` | [#eval L160](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l160/) | L160-L160 | computed check | computed check | — |
+| `eval` | [#eval L161](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l161/) | L161-L161 | computed check | computed check | — |
+| `eval` | [#eval L162](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/eval-l162/) | L162-L164 | computed check | computed check | — |

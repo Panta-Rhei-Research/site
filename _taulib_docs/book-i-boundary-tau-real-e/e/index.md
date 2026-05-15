@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.e",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-e/e/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.TauRealE`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealE::TauReal.e",
   "declaration_slug": "e",
   "kind": "def",
   "name": "TauReal.e",
   "module_name": "TauLib.BookI.Boundary.TauRealE",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-e/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/",
   "source_line_start": 69,
   "source_line_end": 69,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealE.lean#L69-L69",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealE",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealE](/verify/taulib/docs/book-i-boundary-tau-real-e/)
+- Module: [TauLib.BookI.Boundary.TauRealE](/corpus/taulib/docs/book-i-boundary-tau-real-e/)
 - Source path: [`TauLib/BookI/Boundary/TauRealE.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealE.lean#L69-L69)
 - Source range: L69-L69
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

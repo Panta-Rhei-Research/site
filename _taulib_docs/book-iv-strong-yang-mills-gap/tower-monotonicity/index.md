@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TowerMonotonicity",
-  "permalink": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/tower-monotonicity/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/tower-monotonicity/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Strong.YangMillsGap`.",
   "declaration_id": "TauLib.BookIV.Strong.YangMillsGap::TowerMonotonicity",
   "declaration_slug": "tower-monotonicity",
   "kind": "structure",
   "name": "TowerMonotonicity",
   "module_name": "TauLib.BookIV.Strong.YangMillsGap",
-  "module_url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/",
   "source_line_start": 263,
   "source_line_end": 268,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L263-L268",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.YangMillsGap",
-        "url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/"
+        "url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.YangMillsGap](/verify/taulib/docs/book-iv-strong-yang-mills-gap/)
+- Module: [TauLib.BookIV.Strong.YangMillsGap](/corpus/taulib/docs/book-iv-strong-yang-mills-gap/)
 - Source path: [`TauLib/BookIV/Strong/YangMillsGap.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L263-L268)
 - Source range: L263-L268
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

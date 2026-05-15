@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "IntergenerationalTransfer",
-  "permalink": "/verify/taulib/docs/book-vi-source-epigenetics/intergenerational-transfer/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-epigenetics/intergenerational-transfer/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Source.Epigenetics`.",
   "declaration_id": "TauLib.BookVI.Source.Epigenetics::IntergenerationalTransfer",
   "declaration_slug": "intergenerational-transfer",
   "kind": "structure",
   "name": "IntergenerationalTransfer",
   "module_name": "TauLib.BookVI.Source.Epigenetics",
-  "module_url": "/verify/taulib/docs/book-vi-source-epigenetics/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-epigenetics/",
   "source_line_start": 166,
   "source_line_end": 175,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L166-L175",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.Epigenetics",
-        "url": "/verify/taulib/docs/book-vi-source-epigenetics/"
+        "url": "/corpus/taulib/docs/book-vi-source-epigenetics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.Epigenetics](/verify/taulib/docs/book-vi-source-epigenetics/)
+- Module: [TauLib.BookVI.Source.Epigenetics](/corpus/taulib/docs/book-vi-source-epigenetics/)
 - Source path: [`TauLib/BookVI/Source/Epigenetics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L166-L175)
 - Source range: L166-L175
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

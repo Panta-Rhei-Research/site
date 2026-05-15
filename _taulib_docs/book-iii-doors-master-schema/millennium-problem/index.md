@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MillenniumProblem",
-  "permalink": "/verify/taulib/docs/book-iii-doors-master-schema/millennium-problem/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-master-schema/millennium-problem/",
   "summary_short": "`inductive` declaration in `TauLib.BookIII.Doors.MasterSchema`.",
   "declaration_id": "TauLib.BookIII.Doors.MasterSchema::MillenniumProblem",
   "declaration_slug": "millennium-problem",
   "kind": "inductive",
   "name": "MillenniumProblem",
   "module_name": "TauLib.BookIII.Doors.MasterSchema",
-  "module_url": "/verify/taulib/docs/book-iii-doors-master-schema/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-master-schema/",
   "source_line_start": 38,
   "source_line_end": 47,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MasterSchema.lean#L38-L47",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.MasterSchema",
-        "url": "/verify/taulib/docs/book-iii-doors-master-schema/"
+        "url": "/corpus/taulib/docs/book-iii-doors-master-schema/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.MasterSchema](/verify/taulib/docs/book-iii-doors-master-schema/)
+- Module: [TauLib.BookIII.Doors.MasterSchema](/corpus/taulib/docs/book-iii-doors-master-schema/)
 - Source path: [`TauLib/BookIII/Doors/MasterSchema.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MasterSchema.lean#L38-L47)
 - Source range: L38-L47
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

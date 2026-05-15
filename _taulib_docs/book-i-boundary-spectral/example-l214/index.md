@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L214",
-  "permalink": "/verify/taulib/docs/book-i-boundary-spectral/example-l214/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-spectral/example-l214/",
   "summary_short": "`example` declaration in `TauLib.BookI.Boundary.Spectral`.",
   "declaration_id": "TauLib.BookI.Boundary.Spectral::#eval:214",
   "declaration_slug": "example-l214",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Spectral",
-  "module_url": "/verify/taulib/docs/book-i-boundary-spectral/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-spectral/",
   "source_line_start": 214,
   "source_line_end": 215,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L214-L215",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Spectral",
-        "url": "/verify/taulib/docs/book-i-boundary-spectral/"
+        "url": "/corpus/taulib/docs/book-i-boundary-spectral/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Spectral](/verify/taulib/docs/book-i-boundary-spectral/)
+- Module: [TauLib.BookI.Boundary.Spectral](/corpus/taulib/docs/book-i-boundary-spectral/)
 - Source path: [`TauLib/BookI/Boundary/Spectral.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Spectral.lean#L214-L215)
 - Source range: L214-L215
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

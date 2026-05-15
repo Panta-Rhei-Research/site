@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR`.",
   "module_name": "TauLib.BookI.Holomorphy.H6EarnedCodomainWaveCR",
   "module_slug": "book-i-holomorphy-h6-earned-codomain-wave-cr",
@@ -34,73 +34,89 @@
     {
       "kind": "theorem",
       "name": "cc_axioms_concrete_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/cc-axioms-concrete-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/cc-axioms-concrete-witness/",
       "source_line_start": 135,
       "source_line_end": 150,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "earned_codomain_structural_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/earned-codomain-structural-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/earned-codomain-structural-witness/",
       "source_line_start": 166,
       "source_line_end": 172,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "split_cr_system",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/split-cr-system/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/split-cr-system/",
       "source_line_start": 190,
       "source_line_end": 193,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "wave_equation_from_split_cr",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr/",
       "source_line_start": 214,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "wave_equation_from_split_cr_v",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr-v/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr-v/",
       "source_line_start": 227,
       "source_line_end": 234,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "laplace_from_classical_cr_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/laplace-from-classical-cr-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/laplace-from-classical-cr-witness/",
       "source_line_start": 247,
       "source_line_end": 263,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h6_section4_5_synthesis",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/h6-section4-5-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/h6-section4-5-synthesis/",
       "source_line_start": 286,
       "source_line_end": 303,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/example-l314/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/example-l314/",
       "source_line_start": 314,
       "source_line_end": 320,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     }
   ],
@@ -112,7 +128,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -181,13 +197,13 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [cc_axioms_concrete_witness](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/cc-axioms-concrete-witness/) | L135-L150 | formalized | — |
-| `theorem` | [earned_codomain_structural_witness](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/earned-codomain-structural-witness/) | L166-L172 | formalized | — |
-| `def` | [split_cr_system](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/split-cr-system/) | L190-L193 | defined | — |
-| `theorem` | [wave_equation_from_split_cr](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr/) | L214-L221 | formalized | — |
-| `theorem` | [wave_equation_from_split_cr_v](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr-v/) | L227-L234 | formalized | — |
-| `theorem` | [laplace_from_classical_cr_witness](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/laplace-from-classical-cr-witness/) | L247-L263 | formalized | — |
-| `theorem` | [h6_section4_5_synthesis](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/h6-section4-5-synthesis/) | L286-L303 | formalized | — |
-| `example` | [#eval L314](/verify/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/example-l314/) | L314-L320 | example | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [cc_axioms_concrete_witness](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/cc-axioms-concrete-witness/) | L135-L150 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [earned_codomain_structural_witness](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/earned-codomain-structural-witness/) | L166-L172 | proof obligation | formal proof obligation checked | — |
+| `def` | [split_cr_system](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/split-cr-system/) | L190-L193 | definition | definition | — |
+| `theorem` | [wave_equation_from_split_cr](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr/) | L214-L221 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [wave_equation_from_split_cr_v](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/wave-equation-from-split-cr-v/) | L227-L234 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [laplace_from_classical_cr_witness](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/laplace-from-classical-cr-witness/) | L247-L263 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h6_section4_5_synthesis](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/h6-section4-5-synthesis/) | L286-L303 | proof obligation | formal proof obligation checked | — |
+| `example` | [#eval L314](/corpus/taulib/docs/book-i-holomorphy-h6-earned-codomain-wave-cr/example-l314/) | L314-L320 | example check | example | — |

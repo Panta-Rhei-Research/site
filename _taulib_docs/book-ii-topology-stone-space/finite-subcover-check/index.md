@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "finite_subcover_check",
-  "permalink": "/verify/taulib/docs/book-ii-topology-stone-space/finite-subcover-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-stone-space/finite-subcover-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.StoneSpace`.",
   "declaration_id": "TauLib.BookII.Topology.StoneSpace::finite_subcover_check",
   "declaration_slug": "finite-subcover-check",
   "kind": "def",
   "name": "finite_subcover_check",
   "module_name": "TauLib.BookII.Topology.StoneSpace",
-  "module_url": "/verify/taulib/docs/book-ii-topology-stone-space/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-stone-space/",
   "source_line_start": 91,
   "source_line_end": 105,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/StoneSpace.lean#L91-L105",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.StoneSpace",
-        "url": "/verify/taulib/docs/book-ii-topology-stone-space/"
+        "url": "/corpus/taulib/docs/book-ii-topology-stone-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.StoneSpace](/verify/taulib/docs/book-ii-topology-stone-space/)
+- Module: [TauLib.BookII.Topology.StoneSpace](/corpus/taulib/docs/book-ii-topology-stone-space/)
 - Source path: [`TauLib/BookII/Topology/StoneSpace.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/StoneSpace.lean#L91-L105)
 - Source range: L91-L105
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

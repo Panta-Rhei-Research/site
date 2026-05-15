@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Topology.CoherenceConnectivity",
-  "permalink": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Topology.CoherenceConnectivity`.",
   "module_name": "TauLib.BookII.Topology.CoherenceConnectivity",
   "module_slug": "book-ii-topology-coherence-connectivity",
@@ -29,172 +29,210 @@
     {
       "kind": "def",
       "name": "two_readout_check",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/two-readout-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/two-readout-check/",
       "source_line_start": 52,
       "source_line_end": 81,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "spine_address_length",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-length/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-length/",
       "source_line_start": 93,
       "source_line_end": 105,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "spine_address_path",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-path/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-path/",
       "source_line_start": 108,
       "source_line_end": 109,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "address_connectivity_check",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/address-connectivity-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/address-connectivity-check/",
       "source_line_start": 114,
       "source_line_end": 131,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "alpha1_base_check",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base-check/",
       "source_line_start": 134,
       "source_line_end": 139,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "refinement_ray_check",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/refinement-ray-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/refinement-ray-check/",
       "source_line_start": 151,
       "source_line_end": 187,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l193/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l193/",
       "source_line_start": 193,
       "source_line_end": 193,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l194/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l195/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l195/",
       "source_line_start": 195,
       "source_line_end": 195,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l196/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l196/",
       "source_line_start": 196,
       "source_line_end": 196,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l198/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l198/",
       "source_line_start": 198,
       "source_line_end": 198,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l200/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l200/",
       "source_line_start": 200,
       "source_line_end": 200,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l201/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l201/",
       "source_line_start": 201,
       "source_line_end": 201,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l202/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l202/",
       "source_line_start": 202,
       "source_line_end": 202,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l203/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l203/",
       "source_line_start": 203,
       "source_line_end": 203,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "two_readout",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/two-readout/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/two-readout/",
       "source_line_start": 206,
       "source_line_end": 206,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "addr_conn",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/addr-conn/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/addr-conn/",
       "source_line_start": 207,
       "source_line_end": 207,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha1_base",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base/",
       "source_line_start": 208,
       "source_line_end": 208,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "refine_ray",
-      "url": "/verify/taulib/docs/book-ii-topology-coherence-connectivity/refine-ray/",
+      "url": "/corpus/taulib/docs/book-ii-topology-coherence-connectivity/refine-ray/",
       "source_line_start": 209,
       "source_line_end": 211,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -206,7 +244,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -275,24 +313,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [two_readout_check](/verify/taulib/docs/book-ii-topology-coherence-connectivity/two-readout-check/) | L52-L81 | defined | — |
-| `def` | [spine_address_length](/verify/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-length/) | L93-L105 | defined | — |
-| `def` | [spine_address_path](/verify/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-path/) | L108-L109 | defined | — |
-| `def` | [address_connectivity_check](/verify/taulib/docs/book-ii-topology-coherence-connectivity/address-connectivity-check/) | L114-L131 | defined | — |
-| `def` | [alpha1_base_check](/verify/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base-check/) | L134-L139 | defined | — |
-| `def` | [refinement_ray_check](/verify/taulib/docs/book-ii-topology-coherence-connectivity/refinement-ray-check/) | L151-L187 | defined | — |
-| `eval` | [#eval L193](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l193/) | L193-L193 | computed | — |
-| `eval` | [#eval L194](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l194/) | L194-L194 | computed | — |
-| `eval` | [#eval L195](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l195/) | L195-L195 | computed | — |
-| `eval` | [#eval L196](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l196/) | L196-L196 | computed | — |
-| `eval` | [#eval L198](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l198/) | L198-L198 | computed | — |
-| `eval` | [#eval L200](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l200/) | L200-L200 | computed | — |
-| `eval` | [#eval L201](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l201/) | L201-L201 | computed | — |
-| `eval` | [#eval L202](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l202/) | L202-L202 | computed | — |
-| `eval` | [#eval L203](/verify/taulib/docs/book-ii-topology-coherence-connectivity/eval-l203/) | L203-L203 | computed | — |
-| `theorem` | [two_readout](/verify/taulib/docs/book-ii-topology-coherence-connectivity/two-readout/) | L206-L206 | formalized | — |
-| `theorem` | [addr_conn](/verify/taulib/docs/book-ii-topology-coherence-connectivity/addr-conn/) | L207-L207 | formalized | — |
-| `theorem` | [alpha1_base](/verify/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base/) | L208-L208 | formalized | — |
-| `theorem` | [refine_ray](/verify/taulib/docs/book-ii-topology-coherence-connectivity/refine-ray/) | L209-L211 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [two_readout_check](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/two-readout-check/) | L52-L81 | data/computed value | data/computed value | — |
+| `def` | [spine_address_length](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-length/) | L93-L105 | definition | definition | — |
+| `def` | [spine_address_path](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/spine-address-path/) | L108-L109 | definition | definition | — |
+| `def` | [address_connectivity_check](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/address-connectivity-check/) | L114-L131 | data/computed value | data/computed value | — |
+| `def` | [alpha1_base_check](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base-check/) | L134-L139 | data/computed value | data/computed value | — |
+| `def` | [refinement_ray_check](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/refinement-ray-check/) | L151-L187 | data/computed value | data/computed value | — |
+| `eval` | [#eval L193](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l193/) | L193-L193 | computed check | computed check | — |
+| `eval` | [#eval L194](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l194/) | L194-L194 | computed check | computed check | — |
+| `eval` | [#eval L195](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l195/) | L195-L195 | computed check | computed check | — |
+| `eval` | [#eval L196](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l196/) | L196-L196 | computed check | computed check | — |
+| `eval` | [#eval L198](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l198/) | L198-L198 | computed check | computed check | — |
+| `eval` | [#eval L200](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l200/) | L200-L200 | computed check | computed check | — |
+| `eval` | [#eval L201](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l201/) | L201-L201 | computed check | computed check | — |
+| `eval` | [#eval L202](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l202/) | L202-L202 | computed check | computed check | — |
+| `eval` | [#eval L203](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/eval-l203/) | L203-L203 | computed check | computed check | — |
+| `theorem` | [two_readout](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/two-readout/) | L206-L206 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [addr_conn](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/addr-conn/) | L207-L207 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [alpha1_base](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/alpha1-base/) | L208-L208 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [refine_ray](/corpus/taulib/docs/book-ii-topology-coherence-connectivity/refine-ray/) | L209-L211 | proof obligation | formal proof obligation checked | — |

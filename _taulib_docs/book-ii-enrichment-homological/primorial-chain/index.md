@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primorial_chain",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-homological/primorial-chain/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-homological/primorial-chain/",
   "summary_short": "`def` declaration in `TauLib.BookII.Enrichment.Homological`.",
   "declaration_id": "TauLib.BookII.Enrichment.Homological::primorial_chain",
   "declaration_slug": "primorial-chain",
   "kind": "def",
   "name": "primorial_chain",
   "module_name": "TauLib.BookII.Enrichment.Homological",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-homological/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-homological/",
   "source_line_start": 54,
   "source_line_end": 56,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/Homological.lean#L54-L56",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.Homological",
-        "url": "/verify/taulib/docs/book-ii-enrichment-homological/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-homological/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.Homological](/verify/taulib/docs/book-ii-enrichment-homological/)
+- Module: [TauLib.BookII.Enrichment.Homological](/corpus/taulib/docs/book-ii-enrichment-homological/)
 - Source path: [`TauLib/BookII/Enrichment/Homological.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/Homological.lean#L54-L56)
 - Source range: L54-L56
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

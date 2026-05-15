@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "allSignLevels",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-sign-classification/all-sign-levels/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-sign-classification/all-sign-levels/",
   "summary_short": "`def` declaration in `TauLib.BookII.Mirror.SignClassification`.",
   "declaration_id": "TauLib.BookII.Mirror.SignClassification::allSignLevels",
   "declaration_slug": "all-sign-levels",
   "kind": "def",
   "name": "allSignLevels",
   "module_name": "TauLib.BookII.Mirror.SignClassification",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-sign-classification/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-sign-classification/",
   "source_line_start": 103,
   "source_line_end": 106,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/SignClassification.lean#L103-L106",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.SignClassification",
-        "url": "/verify/taulib/docs/book-ii-mirror-sign-classification/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-sign-classification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.SignClassification](/verify/taulib/docs/book-ii-mirror-sign-classification/)
+- Module: [TauLib.BookII.Mirror.SignClassification](/corpus/taulib/docs/book-ii-mirror-sign-classification/)
 - Source path: [`TauLib/BookII/Mirror/SignClassification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/SignClassification.lean#L103-L106)
 - Source range: L103-L106
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

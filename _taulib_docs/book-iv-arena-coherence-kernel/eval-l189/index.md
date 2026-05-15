@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L189",
-  "permalink": "/verify/taulib/docs/book-iv-arena-coherence-kernel/eval-l189/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/eval-l189/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Arena.CoherenceKernel`.",
   "declaration_id": "TauLib.BookIV.Arena.CoherenceKernel::#eval:189",
   "declaration_slug": "eval-l189",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Arena.CoherenceKernel",
-  "module_url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/",
   "source_line_start": 189,
   "source_line_end": 189,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L189-L189",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.CoherenceKernel",
-        "url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/"
+        "url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.CoherenceKernel](/verify/taulib/docs/book-iv-arena-coherence-kernel/)
+- Module: [TauLib.BookIV.Arena.CoherenceKernel](/corpus/taulib/docs/book-iv-arena-coherence-kernel/)
 - Source path: [`TauLib/BookIV/Arena/CoherenceKernel.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L189-L189)
 - Source range: L189-L189
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

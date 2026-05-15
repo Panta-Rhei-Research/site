@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L297",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-closing-identity/eval-l297/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-closing-identity/eval-l297/",
   "summary_short": "`eval` declaration in `TauLib.BookV.GravityField.ClosingIdentity`.",
   "declaration_id": "TauLib.BookV.GravityField.ClosingIdentity::#eval:297",
   "declaration_slug": "eval-l297",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.GravityField.ClosingIdentity",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-closing-identity/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-closing-identity/",
   "source_line_start": 297,
   "source_line_end": 299,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ClosingIdentity.lean#L297-L299",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.ClosingIdentity",
-        "url": "/verify/taulib/docs/book-v-gravity-field-closing-identity/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-closing-identity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.ClosingIdentity](/verify/taulib/docs/book-v-gravity-field-closing-identity/)
+- Module: [TauLib.BookV.GravityField.ClosingIdentity](/corpus/taulib/docs/book-v-gravity-field-closing-identity/)
 - Source path: [`TauLib/BookV/GravityField/ClosingIdentity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ClosingIdentity.lean#L297-L299)
 - Source range: L297-L299
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

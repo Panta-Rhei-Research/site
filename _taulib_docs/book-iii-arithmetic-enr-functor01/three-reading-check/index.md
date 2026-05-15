@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "three_reading_check",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/three-reading-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/three-reading-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Arithmetic.EnrFunctor01`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.EnrFunctor01::three_reading_check",
   "declaration_slug": "three-reading-check",
   "kind": "def",
   "name": "three_reading_check",
   "module_name": "TauLib.BookIII.Arithmetic.EnrFunctor01",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/",
   "source_line_start": 112,
   "source_line_end": 121,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrFunctor01.lean#L112-L121",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.EnrFunctor01",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-enr-functor01/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.EnrFunctor01](/verify/taulib/docs/book-iii-arithmetic-enr-functor01/)
+- Module: [TauLib.BookIII.Arithmetic.EnrFunctor01](/corpus/taulib/docs/book-iii-arithmetic-enr-functor01/)
 - Source path: [`TauLib/BookIII/Arithmetic/EnrFunctor01.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrFunctor01.lean#L112-L121)
 - Source range: L112-L121
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

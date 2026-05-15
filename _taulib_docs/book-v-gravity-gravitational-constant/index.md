@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Gravity.GravitationalConstant",
-  "permalink": "/verify/taulib/docs/book-v-gravity-gravitational-constant/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Gravity.GravitationalConstant`.",
   "module_name": "TauLib.BookV.Gravity.GravitationalConstant",
   "module_slug": "book-v-gravity-gravitational-constant",
@@ -37,10 +37,12 @@
     {
       "kind": "structure",
       "name": "TorusVacuum",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/torus-vacuum/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/torus-vacuum/",
       "source_line_start": 74,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D01"
       ]
@@ -48,46 +50,56 @@
     {
       "kind": "def",
       "name": "TorusVacuum.minorFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/minor-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/minor-float/",
       "source_line_start": 94,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TorusVacuum.majorFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/major-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/major-float/",
       "source_line_start": 98,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TorusVacuum.ratioFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/ratio-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/ratio-float/",
       "source_line_start": 102,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "unit_torus_vacuum",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-vacuum/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-vacuum/",
       "source_line_start": 111,
       "source_line_end": 119,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GravConstant",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/grav-constant/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/grav-constant/",
       "source_line_start": 138,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D02"
       ]
@@ -95,55 +107,67 @@
     {
       "kind": "def",
       "name": "GravConstant.toFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/to-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/to-float/",
       "source_line_start": 150,
       "source_line_end": 151,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "g_tau_iota_factor_numer",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-numer/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-numer/",
       "source_line_start": 160,
       "source_line_end": 160,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "g_tau_iota_factor_denom",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-denom/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-denom/",
       "source_line_start": 161,
       "source_line_end": 161,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "gravity_self_coupling_numer",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-numer/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-numer/",
       "source_line_start": 164,
       "source_line_end": 164,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "gravity_self_coupling_denom",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-denom/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-denom/",
       "source_line_start": 165,
       "source_line_end": 165,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "vacuum_shape_ratio_holds",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/vacuum-shape-ratio-holds/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/vacuum-shape-ratio-holds/",
       "source_line_start": 173,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T01"
       ]
@@ -151,19 +175,23 @@
     {
       "kind": "theorem",
       "name": "unit_torus_has_iota_ratio",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-has-iota-ratio/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-has-iota-ratio/",
       "source_line_start": 179,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "g_tau_well_defined",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-well-defined/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-well-defined/",
       "source_line_start": 186,
       "source_line_end": 188,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P01"
       ]
@@ -171,64 +199,78 @@
     {
       "kind": "theorem",
       "name": "gravity_coupling_positive",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/gravity-coupling-positive/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/gravity-coupling-positive/",
       "source_line_start": 191,
       "source_line_end": 193,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "g_tau_factor_positive",
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-factor-positive/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-factor-positive/",
       "source_line_start": 196,
       "source_line_end": 198,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l204/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l204/",
       "source_line_start": 204,
       "source_line_end": 204,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l205/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l205/",
       "source_line_start": 205,
       "source_line_end": 205,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l206/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l206/",
       "source_line_start": 206,
       "source_line_end": 206,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l209/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l209/",
       "source_line_start": 209,
       "source_line_end": 209,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l213/",
+      "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l213/",
       "source_line_start": 213,
       "source_line_end": 216,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -240,7 +282,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -312,26 +354,26 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [TorusVacuum](/verify/taulib/docs/book-v-gravity-gravitational-constant/torus-vacuum/) | L74-L91 | defined | `V.D01` |
-| `def` | [TorusVacuum.minorFloat](/verify/taulib/docs/book-v-gravity-gravitational-constant/minor-float/) | L94-L95 | defined | — |
-| `def` | [TorusVacuum.majorFloat](/verify/taulib/docs/book-v-gravity-gravitational-constant/major-float/) | L98-L99 | defined | — |
-| `def` | [TorusVacuum.ratioFloat](/verify/taulib/docs/book-v-gravity-gravitational-constant/ratio-float/) | L102-L103 | defined | — |
-| `def` | [unit_torus_vacuum](/verify/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-vacuum/) | L111-L119 | defined | — |
-| `structure` | [GravConstant](/verify/taulib/docs/book-v-gravity-gravitational-constant/grav-constant/) | L138-L147 | defined | `V.D02` |
-| `def` | [GravConstant.toFloat](/verify/taulib/docs/book-v-gravity-gravitational-constant/to-float/) | L150-L151 | defined | — |
-| `def` | [g_tau_iota_factor_numer](/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-numer/) | L160-L160 | defined | — |
-| `def` | [g_tau_iota_factor_denom](/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-denom/) | L161-L161 | defined | — |
-| `def` | [gravity_self_coupling_numer](/verify/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-numer/) | L164-L164 | defined | — |
-| `def` | [gravity_self_coupling_denom](/verify/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-denom/) | L165-L165 | defined | — |
-| `theorem` | [vacuum_shape_ratio_holds](/verify/taulib/docs/book-v-gravity-gravitational-constant/vacuum-shape-ratio-holds/) | L173-L176 | formalized | `V.T01` |
-| `theorem` | [unit_torus_has_iota_ratio](/verify/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-has-iota-ratio/) | L179-L182 | formalized | — |
-| `theorem` | [g_tau_well_defined](/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-well-defined/) | L186-L188 | formalized | `V.P01` |
-| `theorem` | [gravity_coupling_positive](/verify/taulib/docs/book-v-gravity-gravitational-constant/gravity-coupling-positive/) | L191-L193 | formalized | — |
-| `theorem` | [g_tau_factor_positive](/verify/taulib/docs/book-v-gravity-gravitational-constant/g-tau-factor-positive/) | L196-L198 | formalized | — |
-| `eval` | [#eval L204](/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l204/) | L204-L204 | computed | — |
-| `eval` | [#eval L205](/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l205/) | L205-L205 | computed | — |
-| `eval` | [#eval L206](/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l206/) | L206-L206 | computed | — |
-| `eval` | [#eval L209](/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l209/) | L209-L209 | computed | — |
-| `eval` | [#eval L213](/verify/taulib/docs/book-v-gravity-gravitational-constant/eval-l213/) | L213-L216 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [TorusVacuum](/corpus/taulib/docs/book-v-gravity-gravitational-constant/torus-vacuum/) | L74-L91 | type/data schema | type/data schema | `V.D01` |
+| `def` | [TorusVacuum.minorFloat](/corpus/taulib/docs/book-v-gravity-gravitational-constant/minor-float/) | L94-L95 | data/computed value | data/computed value | — |
+| `def` | [TorusVacuum.majorFloat](/corpus/taulib/docs/book-v-gravity-gravitational-constant/major-float/) | L98-L99 | data/computed value | data/computed value | — |
+| `def` | [TorusVacuum.ratioFloat](/corpus/taulib/docs/book-v-gravity-gravitational-constant/ratio-float/) | L102-L103 | data/computed value | data/computed value | — |
+| `def` | [unit_torus_vacuum](/corpus/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-vacuum/) | L111-L119 | definition | definition | — |
+| `structure` | [GravConstant](/corpus/taulib/docs/book-v-gravity-gravitational-constant/grav-constant/) | L138-L147 | type/data schema | type/data schema | `V.D02` |
+| `def` | [GravConstant.toFloat](/corpus/taulib/docs/book-v-gravity-gravitational-constant/to-float/) | L150-L151 | data/computed value | data/computed value | — |
+| `def` | [g_tau_iota_factor_numer](/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-numer/) | L160-L160 | data/computed value | data/computed value | — |
+| `def` | [g_tau_iota_factor_denom](/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-iota-factor-denom/) | L161-L161 | data/computed value | data/computed value | — |
+| `def` | [gravity_self_coupling_numer](/corpus/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-numer/) | L164-L164 | data/computed value | data/computed value | — |
+| `def` | [gravity_self_coupling_denom](/corpus/taulib/docs/book-v-gravity-gravitational-constant/gravity-self-coupling-denom/) | L165-L165 | data/computed value | data/computed value | — |
+| `theorem` | [vacuum_shape_ratio_holds](/corpus/taulib/docs/book-v-gravity-gravitational-constant/vacuum-shape-ratio-holds/) | L173-L176 | proof obligation | formal proof obligation checked | `V.T01` |
+| `theorem` | [unit_torus_has_iota_ratio](/corpus/taulib/docs/book-v-gravity-gravitational-constant/unit-torus-has-iota-ratio/) | L179-L182 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [g_tau_well_defined](/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-well-defined/) | L186-L188 | proof obligation | formal proof obligation checked | `V.P01` |
+| `theorem` | [gravity_coupling_positive](/corpus/taulib/docs/book-v-gravity-gravitational-constant/gravity-coupling-positive/) | L191-L193 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [g_tau_factor_positive](/corpus/taulib/docs/book-v-gravity-gravitational-constant/g-tau-factor-positive/) | L196-L198 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L204](/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l204/) | L204-L204 | computed check | computed check | — |
+| `eval` | [#eval L205](/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l205/) | L205-L205 | computed check | computed check | — |
+| `eval` | [#eval L206](/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l206/) | L206-L206 | computed check | computed check | — |
+| `eval` | [#eval L209](/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l209/) | L209-L209 | computed check | computed check | — |
+| `eval` | [#eval L213](/corpus/taulib/docs/book-v-gravity-gravitational-constant/eval-l213/) | L213-L216 | computed check | computed check | — |

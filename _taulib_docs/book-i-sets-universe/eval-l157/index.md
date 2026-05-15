@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L157",
-  "permalink": "/verify/taulib/docs/book-i-sets-universe/eval-l157/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-universe/eval-l157/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Sets.Universe`.",
   "declaration_id": "TauLib.BookI.Sets.Universe::#eval:157",
   "declaration_slug": "eval-l157",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Sets.Universe",
-  "module_url": "/verify/taulib/docs/book-i-sets-universe/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-universe/",
   "source_line_start": 157,
   "source_line_end": 159,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Universe.lean#L157-L159",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Universe",
-        "url": "/verify/taulib/docs/book-i-sets-universe/"
+        "url": "/corpus/taulib/docs/book-i-sets-universe/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Universe](/verify/taulib/docs/book-i-sets-universe/)
+- Module: [TauLib.BookI.Sets.Universe](/corpus/taulib/docs/book-i-sets-universe/)
 - Source path: [`TauLib/BookI/Sets/Universe.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Universe.lean#L157-L159)
 - Source range: L157-L159
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

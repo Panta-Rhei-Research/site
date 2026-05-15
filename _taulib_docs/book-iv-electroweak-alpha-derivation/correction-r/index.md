@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "correction_r",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/correction-r/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/correction-r/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.AlphaDerivation`.",
   "declaration_id": "TauLib.BookIV.Electroweak.AlphaDerivation::correction_r",
   "declaration_slug": "correction-r",
   "kind": "def",
   "name": "correction_r",
   "module_name": "TauLib.BookIV.Electroweak.AlphaDerivation",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/",
   "source_line_start": 150,
   "source_line_end": 155,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L150-L155",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.AlphaDerivation",
-        "url": "/verify/taulib/docs/book-iv-electroweak-alpha-derivation/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/verify/taulib/docs/book-iv-electroweak-alpha-derivation/)
+- Module: [TauLib.BookIV.Electroweak.AlphaDerivation](/corpus/taulib/docs/book-iv-electroweak-alpha-derivation/)
 - Source path: [`TauLib/BookIV/Electroweak/AlphaDerivation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/AlphaDerivation.lean#L150-L155)
 - Source range: L150-L155
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

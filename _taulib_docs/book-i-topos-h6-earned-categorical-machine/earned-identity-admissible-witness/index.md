@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "earned_identity_admissible_witness",
-  "permalink": "/verify/taulib/docs/book-i-topos-h6-earned-categorical-machine/earned-identity-admissible-witness/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-h6-earned-categorical-machine/earned-identity-admissible-witness/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.H6EarnedCategoricalMachine`.",
   "declaration_id": "TauLib.BookI.Topos.H6EarnedCategoricalMachine::earned_identity_admissible_witness",
   "declaration_slug": "earned-identity-admissible-witness",
   "kind": "theorem",
   "name": "earned_identity_admissible_witness",
   "module_name": "TauLib.BookI.Topos.H6EarnedCategoricalMachine",
-  "module_url": "/verify/taulib/docs/book-i-topos-h6-earned-categorical-machine/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-h6-earned-categorical-machine/",
   "source_line_start": 132,
   "source_line_end": 137,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H6EarnedCategoricalMachine.lean#L132-L137",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.H6EarnedCategoricalMachine",
-        "url": "/verify/taulib/docs/book-i-topos-h6-earned-categorical-machine/"
+        "url": "/corpus/taulib/docs/book-i-topos-h6-earned-categorical-machine/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.H6EarnedCategoricalMachine](/verify/taulib/docs/book-i-topos-h6-earned-categorical-machine/)
+- Module: [TauLib.BookI.Topos.H6EarnedCategoricalMachine](/corpus/taulib/docs/book-i-topos-h6-earned-categorical-machine/)
 - Source path: [`TauLib/BookI/Topos/H6EarnedCategoricalMachine.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H6EarnedCategoricalMachine.lean#L132-L137)
 - Source range: L132-L137
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

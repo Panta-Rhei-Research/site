@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ThresholdUniquenessFiveSixths",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/threshold-uniqueness-five-sixths/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/threshold-uniqueness-five-sixths/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Cosmology.BBNBaryogenesis`.",
   "declaration_id": "TauLib.BookV.Cosmology.BBNBaryogenesis::ThresholdUniquenessFiveSixths",
   "declaration_slug": "threshold-uniqueness-five-sixths",
   "kind": "structure",
   "name": "ThresholdUniquenessFiveSixths",
   "module_name": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
   "source_line_start": 420,
   "source_line_end": 433,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L420-L433",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-        "url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
+- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
 - Source path: [`TauLib/BookV/Cosmology/BBNBaryogenesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L420-L433)
 - Source range: L420-L433
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

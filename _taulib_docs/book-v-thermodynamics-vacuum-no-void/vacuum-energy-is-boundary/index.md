@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "vacuum_energy_is_boundary",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/vacuum-energy-is-boundary/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/vacuum-energy-is-boundary/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Thermodynamics.VacuumNoVoid`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.VacuumNoVoid::vacuum_energy_is_boundary",
   "declaration_slug": "vacuum-energy-is-boundary",
   "kind": "theorem",
   "name": "vacuum_energy_is_boundary",
   "module_name": "TauLib.BookV.Thermodynamics.VacuumNoVoid",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/",
   "source_line_start": 105,
   "source_line_end": 107,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/VacuumNoVoid.lean#L105-L107",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.VacuumNoVoid",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.VacuumNoVoid](/verify/taulib/docs/book-v-thermodynamics-vacuum-no-void/)
+- Module: [TauLib.BookV.Thermodynamics.VacuumNoVoid](/corpus/taulib/docs/book-v-thermodynamics-vacuum-no-void/)
 - Source path: [`TauLib/BookV/Thermodynamics/VacuumNoVoid.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/VacuumNoVoid.lean#L105-L107)
 - Source range: L105-L107
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

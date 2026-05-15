@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cosmic_stack_api",
-  "permalink": "/verify/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api/",
   "summary_short": "`def` declaration in `TauLib.BookV.Temporal.CosmicAPI`.",
   "declaration_id": "TauLib.BookV.Temporal.CosmicAPI::cosmic_stack_api",
   "declaration_slug": "cosmic-stack-api",
   "kind": "def",
   "name": "cosmic_stack_api",
   "module_name": "TauLib.BookV.Temporal.CosmicAPI",
-  "module_url": "/verify/taulib/docs/book-v-temporal-cosmic-api/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/",
   "source_line_start": 91,
   "source_line_end": 118,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/CosmicAPI.lean#L91-L118",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.CosmicAPI",
-        "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/"
+        "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.CosmicAPI](/verify/taulib/docs/book-v-temporal-cosmic-api/)
+- Module: [TauLib.BookV.Temporal.CosmicAPI](/corpus/taulib/docs/book-v-temporal-cosmic-api/)
 - Source path: [`TauLib/BookV/Temporal/CosmicAPI.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/CosmicAPI.lean#L91-L118)
 - Source range: L91-L118
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.RunningRegime",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-running-regime/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-running-regime/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.RunningRegime`.",
   "module_name": "TauLib.BookIV.Calibration.RunningRegime",
   "module_slug": "book-iv-calibration-running-regime",
@@ -43,10 +43,12 @@
     {
       "kind": "structure",
       "name": "BetaFunction",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/beta-function/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/beta-function/",
       "source_line_start": 42,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D299"
       ]
@@ -54,10 +56,12 @@
     {
       "kind": "structure",
       "name": "ObservableLedger",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/observable-ledger/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/observable-ledger/",
       "source_line_start": 59,
       "source_line_end": 66,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D300"
       ]
@@ -65,10 +69,12 @@
     {
       "kind": "structure",
       "name": "ReadoutFunctor",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/readout-functor/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/readout-functor/",
       "source_line_start": 75,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D301"
       ]
@@ -76,10 +82,12 @@
     {
       "kind": "theorem",
       "name": "readout_properties",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/readout-properties/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/readout-properties/",
       "source_line_start": 88,
       "source_line_end": 90,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P168"
       ]
@@ -87,10 +95,12 @@
     {
       "kind": "theorem",
       "name": "beta_as_derivative",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/beta-as-derivative/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/beta-as-derivative/",
       "source_line_start": 95,
       "source_line_end": 97,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P169"
       ]
@@ -98,10 +108,12 @@
     {
       "kind": "structure",
       "name": "EntropyAtScale",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/entropy-at-scale/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/entropy-at-scale/",
       "source_line_start": 112,
       "source_line_end": 122,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D302"
       ]
@@ -109,10 +121,12 @@
     {
       "kind": "theorem",
       "name": "entropy_invariance",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/entropy-invariance/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/entropy-invariance/",
       "source_line_start": 126,
       "source_line_end": 129,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P170"
       ]
@@ -120,10 +134,12 @@
     {
       "kind": "structure",
       "name": "RegimeTransition",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/regime-transition/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/regime-transition/",
       "source_line_start": 137,
       "source_line_end": 145,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D303"
       ]
@@ -131,10 +147,12 @@
     {
       "kind": "structure",
       "name": "ReadoutLandscape",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/readout-landscape/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/readout-landscape/",
       "source_line_start": 157,
       "source_line_end": 164,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D304"
       ]
@@ -142,10 +160,12 @@
     {
       "kind": "theorem",
       "name": "readout_landscape_unique",
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/readout-landscape-unique/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/readout-landscape-unique/",
       "source_line_start": 173,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T113"
       ]
@@ -153,28 +173,34 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/eval-l180/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/eval-l180/",
       "source_line_start": 180,
       "source_line_end": 180,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/eval-l181/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/eval-l181/",
       "source_line_start": 181,
       "source_line_end": 181,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-running-regime/eval-l182/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/eval-l182/",
       "source_line_start": 182,
       "source_line_end": 184,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -186,7 +212,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -267,18 +293,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [BetaFunction](/verify/taulib/docs/book-iv-calibration-running-regime/beta-function/) | L42-L50 | defined | `IV.D299` |
-| `structure` | [ObservableLedger](/verify/taulib/docs/book-iv-calibration-running-regime/observable-ledger/) | L59-L66 | defined | `IV.D300` |
-| `structure` | [ReadoutFunctor](/verify/taulib/docs/book-iv-calibration-running-regime/readout-functor/) | L75-L85 | defined | `IV.D301` |
-| `theorem` | [readout_properties](/verify/taulib/docs/book-iv-calibration-running-regime/readout-properties/) | L88-L90 | formalized | `IV.P168` |
-| `theorem` | [beta_as_derivative](/verify/taulib/docs/book-iv-calibration-running-regime/beta-as-derivative/) | L95-L97 | formalized | `IV.P169` |
-| `structure` | [EntropyAtScale](/verify/taulib/docs/book-iv-calibration-running-regime/entropy-at-scale/) | L112-L122 | defined | `IV.D302` |
-| `theorem` | [entropy_invariance](/verify/taulib/docs/book-iv-calibration-running-regime/entropy-invariance/) | L126-L129 | formalized | `IV.P170` |
-| `structure` | [RegimeTransition](/verify/taulib/docs/book-iv-calibration-running-regime/regime-transition/) | L137-L145 | defined | `IV.D303` |
-| `structure` | [ReadoutLandscape](/verify/taulib/docs/book-iv-calibration-running-regime/readout-landscape/) | L157-L164 | defined | `IV.D304` |
-| `theorem` | [readout_landscape_unique](/verify/taulib/docs/book-iv-calibration-running-regime/readout-landscape-unique/) | L173-L174 | formalized | `IV.T113` |
-| `eval` | [#eval L180](/verify/taulib/docs/book-iv-calibration-running-regime/eval-l180/) | L180-L180 | computed | — |
-| `eval` | [#eval L181](/verify/taulib/docs/book-iv-calibration-running-regime/eval-l181/) | L181-L181 | computed | — |
-| `eval` | [#eval L182](/verify/taulib/docs/book-iv-calibration-running-regime/eval-l182/) | L182-L184 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [BetaFunction](/corpus/taulib/docs/book-iv-calibration-running-regime/beta-function/) | L42-L50 | type/data schema | type/data schema | `IV.D299` |
+| `structure` | [ObservableLedger](/corpus/taulib/docs/book-iv-calibration-running-regime/observable-ledger/) | L59-L66 | type/data schema | type/data schema | `IV.D300` |
+| `structure` | [ReadoutFunctor](/corpus/taulib/docs/book-iv-calibration-running-regime/readout-functor/) | L75-L85 | type/data schema | type/data schema | `IV.D301` |
+| `theorem` | [readout_properties](/corpus/taulib/docs/book-iv-calibration-running-regime/readout-properties/) | L88-L90 | proof obligation | formal proof obligation checked | `IV.P168` |
+| `theorem` | [beta_as_derivative](/corpus/taulib/docs/book-iv-calibration-running-regime/beta-as-derivative/) | L95-L97 | proof obligation | formal proof obligation checked | `IV.P169` |
+| `structure` | [EntropyAtScale](/corpus/taulib/docs/book-iv-calibration-running-regime/entropy-at-scale/) | L112-L122 | type/data schema | type/data schema | `IV.D302` |
+| `theorem` | [entropy_invariance](/corpus/taulib/docs/book-iv-calibration-running-regime/entropy-invariance/) | L126-L129 | proof obligation | formal proof obligation checked | `IV.P170` |
+| `structure` | [RegimeTransition](/corpus/taulib/docs/book-iv-calibration-running-regime/regime-transition/) | L137-L145 | type/data schema | type/data schema | `IV.D303` |
+| `structure` | [ReadoutLandscape](/corpus/taulib/docs/book-iv-calibration-running-regime/readout-landscape/) | L157-L164 | type/data schema | type/data schema | `IV.D304` |
+| `theorem` | [readout_landscape_unique](/corpus/taulib/docs/book-iv-calibration-running-regime/readout-landscape-unique/) | L173-L174 | proof obligation | formal proof obligation checked | `IV.T113` |
+| `eval` | [#eval L180](/corpus/taulib/docs/book-iv-calibration-running-regime/eval-l180/) | L180-L180 | computed check | computed check | — |
+| `eval` | [#eval L181](/corpus/taulib/docs/book-iv-calibration-running-regime/eval-l181/) | L181-L181 | computed check | computed check | — |
+| `eval` | [#eval L182](/corpus/taulib/docs/book-iv-calibration-running-regime/eval-l182/) | L182-L184 | computed check | computed check | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bh_constancy_lemma",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-constancy-lemma/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/bh-constancy-lemma/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.CosmicLife.BHSelfDesc`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.BHSelfDesc::bh_constancy_lemma",
   "declaration_slug": "bh-constancy-lemma",
   "kind": "theorem",
   "name": "bh_constancy_lemma",
   "module_name": "TauLib.BookVI.CosmicLife.BHSelfDesc",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/",
   "source_line_start": 78,
   "source_line_end": 80,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHSelfDesc.lean#L78-L80",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.BHSelfDesc",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.BHSelfDesc](/verify/taulib/docs/book-vi-cosmic-life-bhself-desc/)
+- Module: [TauLib.BookVI.CosmicLife.BHSelfDesc](/corpus/taulib/docs/book-vi-cosmic-life-bhself-desc/)
 - Source path: [`TauLib/BookVI/CosmicLife/BHSelfDesc.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHSelfDesc.lean#L78-L80)
 - Source range: L78-L80
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

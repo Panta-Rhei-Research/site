@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "product_assoc",
-  "permalink": "/verify/taulib/docs/book-i-topos-cartesian-product/product-assoc/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-cartesian-product/product-assoc/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.CartesianProduct`.",
   "declaration_id": "TauLib.BookI.Topos.CartesianProduct::product_assoc",
   "declaration_slug": "product-assoc",
   "kind": "theorem",
   "name": "product_assoc",
   "module_name": "TauLib.BookI.Topos.CartesianProduct",
-  "module_url": "/verify/taulib/docs/book-i-topos-cartesian-product/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-cartesian-product/",
   "source_line_start": 65,
   "source_line_end": 68,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CartesianProduct.lean#L65-L68",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.CartesianProduct",
-        "url": "/verify/taulib/docs/book-i-topos-cartesian-product/"
+        "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.CartesianProduct](/verify/taulib/docs/book-i-topos-cartesian-product/)
+- Module: [TauLib.BookI.Topos.CartesianProduct](/corpus/taulib/docs/book-i-topos-cartesian-product/)
 - Source path: [`TauLib/BookI/Topos/CartesianProduct.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CartesianProduct.lean#L65-L68)
 - Source range: L65-L68
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

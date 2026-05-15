@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "parameter_count",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/parameter-count/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/parameter-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.CalibrationAnchor`.",
   "declaration_id": "TauLib.BookIV.Calibration.CalibrationAnchor::parameter_count",
   "declaration_slug": "parameter-count",
   "kind": "theorem",
   "name": "parameter_count",
   "module_name": "TauLib.BookIV.Calibration.CalibrationAnchor",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/",
   "source_line_start": 146,
   "source_line_end": 151,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchor.lean#L146-L151",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.CalibrationAnchor",
-        "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.CalibrationAnchor](/verify/taulib/docs/book-iv-calibration-calibration-anchor/)
+- Module: [TauLib.BookIV.Calibration.CalibrationAnchor](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/)
 - Source path: [`TauLib/BookIV/Calibration/CalibrationAnchor.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchor.lean#L146-L151)
 - Source range: L146-L151
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealIotaTau",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealIotaTau`.",
   "module_name": "TauLib.BookI.Boundary.TauRealIotaTau",
   "module_slug": "book-i-boundary-tau-real-iota-tau",
@@ -40,37 +40,45 @@
     {
       "kind": "def",
       "name": "TauReal.two",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/two/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/two/",
       "source_line_start": 77,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.two_approx_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/two-approx-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/two-approx-to-rat/",
       "source_line_start": 81,
       "source_line_end": 85,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.iota_tau",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau/",
       "source_line_start": 98,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.iota_tau_mul_pi_plus_e_eq_two",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau-mul-pi-plus-e-eq-two/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau-mul-pi-plus-e-eq-two/",
       "source_line_start": 118,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -82,7 +90,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -156,9 +164,9 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauReal.two](/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/two/) | L77-L78 | defined | — |
-| `theorem` | [TauReal.two_approx_toRat](/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/two-approx-to-rat/) | L81-L85 | formalized | — |
-| `def` | [TauReal.iota_tau](/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau/) | L98-L99 | defined | — |
-| `theorem` | [TauReal.iota_tau_mul_pi_plus_e_eq_two](/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau-mul-pi-plus-e-eq-two/) | L118-L167 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauReal.two](/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/two/) | L77-L78 | definition | definition | — |
+| `theorem` | [TauReal.two_approx_toRat](/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/two-approx-to-rat/) | L81-L85 | proof obligation | formal proof obligation checked | — |
+| `def` | [TauReal.iota_tau](/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau/) | L98-L99 | definition | definition | — |
+| `theorem` | [TauReal.iota_tau_mul_pi_plus_e_eq_two](/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau-mul-pi-plus-e-eq-two/) | L118-L167 | proof obligation | formal proof obligation checked | — |

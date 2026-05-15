@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_unit",
-  "permalink": "/verify/taulib/docs/book-i-sets-membership/tau-unit/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-membership/tau-unit/",
   "summary_short": "`def` declaration in `TauLib.BookI.Sets.Membership`.",
   "declaration_id": "TauLib.BookI.Sets.Membership::tau_unit",
   "declaration_slug": "tau-unit",
   "kind": "def",
   "name": "tau_unit",
   "module_name": "TauLib.BookI.Sets.Membership",
-  "module_url": "/verify/taulib/docs/book-i-sets-membership/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-membership/",
   "source_line_start": 90,
   "source_line_end": 90,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Membership.lean#L90-L90",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Membership",
-        "url": "/verify/taulib/docs/book-i-sets-membership/"
+        "url": "/corpus/taulib/docs/book-i-sets-membership/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Membership](/verify/taulib/docs/book-i-sets-membership/)
+- Module: [TauLib.BookI.Sets.Membership](/corpus/taulib/docs/book-i-sets-membership/)
 - Source path: [`TauLib/BookI/Sets/Membership.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Membership.lean#L90-L90)
 - Source range: L90-L90
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

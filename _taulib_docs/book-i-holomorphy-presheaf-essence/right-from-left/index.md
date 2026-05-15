@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "right_from_left",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/right-from-left/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/right-from-left/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.PresheafEssence`.",
   "declaration_id": "TauLib.BookI.Holomorphy.PresheafEssence::right_from_left",
   "declaration_slug": "right-from-left",
   "kind": "theorem",
   "name": "right_from_left",
   "module_name": "TauLib.BookI.Holomorphy.PresheafEssence",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/",
   "source_line_start": 160,
   "source_line_end": 170,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/PresheafEssence.lean#L160-L170",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.PresheafEssence",
-        "url": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.PresheafEssence](/verify/taulib/docs/book-i-holomorphy-presheaf-essence/)
+- Module: [TauLib.BookI.Holomorphy.PresheafEssence](/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/)
 - Source path: [`TauLib/BookI/Holomorphy/PresheafEssence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/PresheafEssence.lean#L160-L170)
 - Source range: L160-L170
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

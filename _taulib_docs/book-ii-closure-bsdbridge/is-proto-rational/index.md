@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "is_proto_rational",
-  "permalink": "/verify/taulib/docs/book-ii-closure-bsdbridge/is-proto-rational/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-bsdbridge/is-proto-rational/",
   "summary_short": "`def` declaration in `TauLib.BookII.Closure.BSDbridge`.",
   "declaration_id": "TauLib.BookII.Closure.BSDbridge::is_proto_rational",
   "declaration_slug": "is-proto-rational",
   "kind": "def",
   "name": "is_proto_rational",
   "module_name": "TauLib.BookII.Closure.BSDbridge",
-  "module_url": "/verify/taulib/docs/book-ii-closure-bsdbridge/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-bsdbridge/",
   "source_line_start": 53,
   "source_line_end": 62,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/BSDbridge.lean#L53-L62",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.BSDbridge",
-        "url": "/verify/taulib/docs/book-ii-closure-bsdbridge/"
+        "url": "/corpus/taulib/docs/book-ii-closure-bsdbridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.BSDbridge](/verify/taulib/docs/book-ii-closure-bsdbridge/)
+- Module: [TauLib.BookII.Closure.BSDbridge](/corpus/taulib/docs/book-ii-closure-bsdbridge/)
 - Source path: [`TauLib/BookII/Closure/BSDbridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/BSDbridge.lean#L53-L62)
 - Source range: L53-L62
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

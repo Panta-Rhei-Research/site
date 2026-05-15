@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L285",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/eval-l285/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/eval-l285/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Cosmology.CosmologicalEndstate`.",
   "declaration_id": "TauLib.BookV.Cosmology.CosmologicalEndstate::#eval:285",
   "declaration_slug": "eval-l285",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Cosmology.CosmologicalEndstate",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/",
   "source_line_start": 285,
   "source_line_end": 287,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CosmologicalEndstate.lean#L285-L287",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.CosmologicalEndstate",
-        "url": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.CosmologicalEndstate](/verify/taulib/docs/book-v-cosmology-cosmological-endstate/)
+- Module: [TauLib.BookV.Cosmology.CosmologicalEndstate](/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/)
 - Source path: [`TauLib/BookV/Cosmology/CosmologicalEndstate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CosmologicalEndstate.lean#L285-L287)
 - Source range: L285-L287
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

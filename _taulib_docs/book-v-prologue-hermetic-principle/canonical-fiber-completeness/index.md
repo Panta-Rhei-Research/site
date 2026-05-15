@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_fiber_completeness",
-  "permalink": "/verify/taulib/docs/book-v-prologue-hermetic-principle/canonical-fiber-completeness/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/canonical-fiber-completeness/",
   "summary_short": "`def` declaration in `TauLib.BookV.Prologue.HermeticPrinciple`.",
   "declaration_id": "TauLib.BookV.Prologue.HermeticPrinciple::canonical_fiber_completeness",
   "declaration_slug": "canonical-fiber-completeness",
   "kind": "def",
   "name": "canonical_fiber_completeness",
   "module_name": "TauLib.BookV.Prologue.HermeticPrinciple",
-  "module_url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/",
+  "module_url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/",
   "source_line_start": 76,
   "source_line_end": 81,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/HermeticPrinciple.lean#L76-L81",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Prologue.HermeticPrinciple",
-        "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/"
+        "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Prologue.HermeticPrinciple](/verify/taulib/docs/book-v-prologue-hermetic-principle/)
+- Module: [TauLib.BookV.Prologue.HermeticPrinciple](/corpus/taulib/docs/book-v-prologue-hermetic-principle/)
 - Source path: [`TauLib/BookV/Prologue/HermeticPrinciple.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/HermeticPrinciple.lean#L76-L81)
 - Source range: L76-L81
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

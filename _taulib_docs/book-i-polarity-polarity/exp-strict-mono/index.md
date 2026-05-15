@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "exp_strict_mono",
-  "permalink": "/verify/taulib/docs/book-i-polarity-polarity/exp-strict-mono/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-polarity/exp-strict-mono/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.Polarity`.",
   "declaration_id": "TauLib.BookI.Polarity.Polarity::exp_strict_mono",
   "declaration_slug": "exp-strict-mono",
   "kind": "theorem",
   "name": "exp_strict_mono",
   "module_name": "TauLib.BookI.Polarity.Polarity",
-  "module_url": "/verify/taulib/docs/book-i-polarity-polarity/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-polarity/",
   "source_line_start": 70,
   "source_line_end": 75,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Polarity.lean#L70-L75",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.Polarity",
-        "url": "/verify/taulib/docs/book-i-polarity-polarity/"
+        "url": "/corpus/taulib/docs/book-i-polarity-polarity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.Polarity](/verify/taulib/docs/book-i-polarity-polarity/)
+- Module: [TauLib.BookI.Polarity.Polarity](/corpus/taulib/docs/book-i-polarity-polarity/)
 - Source path: [`TauLib/BookI/Polarity/Polarity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Polarity.lean#L70-L75)
 - Source range: L70-L75
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

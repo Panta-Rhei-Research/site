@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "orthodox_full_resonance",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/orthodox-full-resonance/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/orthodox-full-resonance/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.MetaLogic.DiagonalResonance`.",
   "declaration_id": "TauLib.BookI.MetaLogic.DiagonalResonance::orthodox_full_resonance",
   "declaration_slug": "orthodox-full-resonance",
   "kind": "theorem",
   "name": "orthodox_full_resonance",
   "module_name": "TauLib.BookI.MetaLogic.DiagonalResonance",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/",
   "source_line_start": 177,
   "source_line_end": 179,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/DiagonalResonance.lean#L177-L179",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.DiagonalResonance",
-        "url": "/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.DiagonalResonance](/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/)
+- Module: [TauLib.BookI.MetaLogic.DiagonalResonance](/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/)
 - Source path: [`TauLib/BookI/MetaLogic/DiagonalResonance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/DiagonalResonance.lean#L177-L179)
 - Source range: L177-L179
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

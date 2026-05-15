@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "geometric_implies_central",
-  "permalink": "/verify/taulib/docs/book-ii-closure-geometric-bi-square/geometric-implies-central/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-geometric-bi-square/geometric-implies-central/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Closure.GeometricBiSquare`.",
   "declaration_id": "TauLib.BookII.Closure.GeometricBiSquare::geometric_implies_central",
   "declaration_slug": "geometric-implies-central",
   "kind": "theorem",
   "name": "geometric_implies_central",
   "module_name": "TauLib.BookII.Closure.GeometricBiSquare",
-  "module_url": "/verify/taulib/docs/book-ii-closure-geometric-bi-square/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-geometric-bi-square/",
   "source_line_start": 322,
   "source_line_end": 329,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/GeometricBiSquare.lean#L322-L329",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.GeometricBiSquare",
-        "url": "/verify/taulib/docs/book-ii-closure-geometric-bi-square/"
+        "url": "/corpus/taulib/docs/book-ii-closure-geometric-bi-square/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.GeometricBiSquare](/verify/taulib/docs/book-ii-closure-geometric-bi-square/)
+- Module: [TauLib.BookII.Closure.GeometricBiSquare](/corpus/taulib/docs/book-ii-closure-geometric-bi-square/)
 - Source path: [`TauLib/BookII/Closure/GeometricBiSquare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/GeometricBiSquare.lean#L322-L329)
 - Source range: L322-L329
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

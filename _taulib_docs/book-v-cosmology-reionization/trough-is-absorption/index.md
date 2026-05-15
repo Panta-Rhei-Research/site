@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "trough_is_absorption",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-reionization/trough-is-absorption/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-reionization/trough-is-absorption/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.Reionization`.",
   "declaration_id": "TauLib.BookV.Cosmology.Reionization::trough_is_absorption",
   "declaration_slug": "trough-is-absorption",
   "kind": "theorem",
   "name": "trough_is_absorption",
   "module_name": "TauLib.BookV.Cosmology.Reionization",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-reionization/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-reionization/",
   "source_line_start": 87,
   "source_line_end": 104,
   "registry_ids": [
@@ -30,15 +30,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/Reionization.lean#L87-L104",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.Reionization",
-        "url": "/verify/taulib/docs/book-v-cosmology-reionization/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-reionization/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -55,7 +57,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -76,11 +79,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.Reionization](/verify/taulib/docs/book-v-cosmology-reionization/)
+- Module: [TauLib.BookV.Cosmology.Reionization](/corpus/taulib/docs/book-v-cosmology-reionization/)
 - Source path: [`TauLib/BookV/Cosmology/Reionization.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/Reionization.lean#L87-L104)
 - Source range: L87-L104
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

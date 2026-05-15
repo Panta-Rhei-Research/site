@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.CouplingIdentityApproximants",
-  "permalink": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.CouplingIdentityApproximants`.",
   "module_name": "TauLib.BookI.Boundary.CouplingIdentityApproximants",
   "module_slug": "book-i-boundary-coupling-identity-approximants",
@@ -35,163 +35,199 @@
     {
       "kind": "def",
       "name": "twoApproxAt",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at/",
       "source_line_start": 122,
       "source_line_end": 122,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "piApproxAt",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/pi-approx-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/pi-approx-at/",
       "source_line_start": 127,
       "source_line_end": 127,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "eApproxAt",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/e-approx-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/e-approx-at/",
       "source_line_start": 131,
       "source_line_end": 131,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "iotaApproxAt",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-approx-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-approx-at/",
       "source_line_start": 136,
       "source_line_end": 136,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "twoApproxAt_toRat_eq_two",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at-to-rat-eq-two/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at-to-rat-eq-two/",
       "source_line_start": 150,
       "source_line_end": 152,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coupling_identity_at_omega",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega/",
       "source_line_start": 171,
       "source_line_end": 175,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "finiteStageEpsilon",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon/",
       "source_line_start": 191,
       "source_line_end": 193,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "finiteStageNormalisation_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-normalisation-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-normalisation-to-rat/",
       "source_line_start": 205,
       "source_line_end": 210,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "finiteStageEpsilon_converges",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon-converges/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon-converges/",
       "source_line_start": 229,
       "source_line_end": 257,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l264/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l265/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l265/",
       "source_line_start": 265,
       "source_line_end": 265,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l266/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l266/",
       "source_line_start": 266,
       "source_line_end": 266,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l267/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l267/",
       "source_line_start": 267,
       "source_line_end": 267,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l270/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l270/",
       "source_line_start": 270,
       "source_line_end": 270,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l273/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l273/",
       "source_line_start": 273,
       "source_line_end": 273,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l274/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l274/",
       "source_line_start": 274,
       "source_line_end": 274,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coupling_identity_at_omega_for_germ",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega-for-germ/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega-for-germ/",
       "source_line_start": 287,
       "source_line_end": 290,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "iota_tau_coupling_and_universality_synthesis",
-      "url": "/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-tau-coupling-and-universality-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-tau-coupling-and-universality-synthesis/",
       "source_line_start": 303,
       "source_line_end": 312,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -203,7 +239,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -271,23 +307,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [twoApproxAt](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at/) | L122-L122 | defined | — |
-| `def` | [piApproxAt](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/pi-approx-at/) | L127-L127 | defined | — |
-| `def` | [eApproxAt](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/e-approx-at/) | L131-L131 | defined | — |
-| `def` | [iotaApproxAt](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-approx-at/) | L136-L136 | defined | — |
-| `theorem` | [twoApproxAt_toRat_eq_two](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at-to-rat-eq-two/) | L150-L152 | formalized | — |
-| `theorem` | [coupling_identity_at_omega](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega/) | L171-L175 | formalized | — |
-| `def` | [finiteStageEpsilon](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon/) | L191-L193 | defined | — |
-| `theorem` | [finiteStageNormalisation_toRat](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-normalisation-to-rat/) | L205-L210 | formalized | — |
-| `theorem` | [finiteStageEpsilon_converges](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon-converges/) | L229-L257 | formalized | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l264/) | L264-L264 | computed | — |
-| `eval` | [#eval L265](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l265/) | L265-L265 | computed | — |
-| `eval` | [#eval L266](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l266/) | L266-L266 | computed | — |
-| `eval` | [#eval L267](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l267/) | L267-L267 | computed | — |
-| `eval` | [#eval L270](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l270/) | L270-L270 | computed | — |
-| `eval` | [#eval L273](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l273/) | L273-L273 | computed | — |
-| `eval` | [#eval L274](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l274/) | L274-L274 | computed | — |
-| `theorem` | [coupling_identity_at_omega_for_germ](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega-for-germ/) | L287-L290 | formalized | — |
-| `theorem` | [iota_tau_coupling_and_universality_synthesis](/verify/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-tau-coupling-and-universality-synthesis/) | L303-L312 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [twoApproxAt](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at/) | L122-L122 | data/computed value | data/computed value | — |
+| `def` | [piApproxAt](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/pi-approx-at/) | L127-L127 | data/computed value | data/computed value | — |
+| `def` | [eApproxAt](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/e-approx-at/) | L131-L131 | data/computed value | data/computed value | — |
+| `def` | [iotaApproxAt](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-approx-at/) | L136-L136 | data/computed value | data/computed value | — |
+| `theorem` | [twoApproxAt_toRat_eq_two](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/two-approx-at-to-rat-eq-two/) | L150-L152 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coupling_identity_at_omega](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega/) | L171-L175 | proof obligation | formal proof obligation checked | — |
+| `def` | [finiteStageEpsilon](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon/) | L191-L193 | data/computed value | data/computed value | — |
+| `theorem` | [finiteStageNormalisation_toRat](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-normalisation-to-rat/) | L205-L210 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [finiteStageEpsilon_converges](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/finite-stage-epsilon-converges/) | L229-L257 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l264/) | L264-L264 | computed check | computed check | — |
+| `eval` | [#eval L265](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l265/) | L265-L265 | computed check | computed check | — |
+| `eval` | [#eval L266](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l266/) | L266-L266 | computed check | computed check | — |
+| `eval` | [#eval L267](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l267/) | L267-L267 | computed check | computed check | — |
+| `eval` | [#eval L270](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l270/) | L270-L270 | computed check | computed check | — |
+| `eval` | [#eval L273](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l273/) | L273-L273 | computed check | computed check | — |
+| `eval` | [#eval L274](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/eval-l274/) | L274-L274 | computed check | computed check | — |
+| `theorem` | [coupling_identity_at_omega_for_germ](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/coupling-identity-at-omega-for-germ/) | L287-L290 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [iota_tau_coupling_and_universality_synthesis](/corpus/taulib/docs/book-i-boundary-coupling-identity-approximants/iota-tau-coupling-and-universality-synthesis/) | L303-L312 | proof obligation | formal proof obligation checked | — |

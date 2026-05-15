@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fundamental_scales",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/fundamental-scales/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.ConstantsLedgerExt`.",
   "declaration_id": "TauLib.BookIV.Calibration.ConstantsLedgerExt::fundamental_scales",
   "declaration_slug": "fundamental-scales",
   "kind": "def",
   "name": "fundamental_scales",
   "module_name": "TauLib.BookIV.Calibration.ConstantsLedgerExt",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/",
   "source_line_start": 76,
   "source_line_end": 80,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/ConstantsLedgerExt.lean#L76-L80",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.ConstantsLedgerExt",
-        "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.ConstantsLedgerExt](/verify/taulib/docs/book-iv-calibration-constants-ledger-ext/)
+- Module: [TauLib.BookIV.Calibration.ConstantsLedgerExt](/corpus/taulib/docs/book-iv-calibration-constants-ledger-ext/)
 - Source path: [`TauLib/BookIV/Calibration/ConstantsLedgerExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/ConstantsLedgerExt.lean#L76-L80)
 - Source range: L76-L80
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

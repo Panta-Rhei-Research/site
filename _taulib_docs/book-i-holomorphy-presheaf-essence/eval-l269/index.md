@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L269",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/eval-l269/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/eval-l269/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Holomorphy.PresheafEssence`.",
   "declaration_id": "TauLib.BookI.Holomorphy.PresheafEssence::#eval:269",
   "declaration_slug": "eval-l269",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Holomorphy.PresheafEssence",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/",
   "source_line_start": 269,
   "source_line_end": 287,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/PresheafEssence.lean#L269-L287",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.PresheafEssence",
-        "url": "/verify/taulib/docs/book-i-holomorphy-presheaf-essence/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.PresheafEssence](/verify/taulib/docs/book-i-holomorphy-presheaf-essence/)
+- Module: [TauLib.BookI.Holomorphy.PresheafEssence](/corpus/taulib/docs/book-i-holomorphy-presheaf-essence/)
 - Source path: [`TauLib/BookI/Holomorphy/PresheafEssence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/PresheafEssence.lean#L269-L287)
 - Source range: L269-L287
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

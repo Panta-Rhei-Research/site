@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ZFCAxiom",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/zfcaxiom/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/zfcaxiom/",
   "summary_short": "`inductive` declaration in `TauLib.BookIII.Bridge.ZFCasVM`.",
   "declaration_id": "TauLib.BookIII.Bridge.ZFCasVM::ZFCAxiom",
   "declaration_slug": "zfcaxiom",
   "kind": "inductive",
   "name": "ZFCAxiom",
   "module_name": "TauLib.BookIII.Bridge.ZFCasVM",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/",
   "source_line_start": 45,
   "source_line_end": 55,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ZFCasVM.lean#L45-L55",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ZFCasVM",
-        "url": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ZFCasVM](/verify/taulib/docs/book-iii-bridge-zfcas-vm/)
+- Module: [TauLib.BookIII.Bridge.ZFCasVM](/corpus/taulib/docs/book-iii-bridge-zfcas-vm/)
 - Source path: [`TauLib/BookIII/Bridge/ZFCasVM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ZFCasVM.lean#L45-L55)
 - Source range: L45-L55
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

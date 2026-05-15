@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "code_constant_3",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-code-decode/code-constant-3/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-code-decode/code-constant-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Regularity.CodeDecode`.",
   "declaration_id": "TauLib.BookII.Regularity.CodeDecode::code_constant_3",
   "declaration_slug": "code-constant-3",
   "kind": "theorem",
   "name": "code_constant_3",
   "module_name": "TauLib.BookII.Regularity.CodeDecode",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-code-decode/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-code-decode/",
   "source_line_start": 445,
   "source_line_end": 446,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/CodeDecode.lean#L445-L446",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.CodeDecode",
-        "url": "/verify/taulib/docs/book-ii-regularity-code-decode/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-code-decode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.CodeDecode](/verify/taulib/docs/book-ii-regularity-code-decode/)
+- Module: [TauLib.BookII.Regularity.CodeDecode](/corpus/taulib/docs/book-ii-regularity-code-decode/)
 - Source path: [`TauLib/BookII/Regularity/CodeDecode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/CodeDecode.lean#L445-L446)
 - Source range: L445-L446
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

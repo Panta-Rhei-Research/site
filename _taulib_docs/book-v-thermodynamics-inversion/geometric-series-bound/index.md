@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "geometric_series_bound",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-inversion/geometric-series-bound/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-inversion/geometric-series-bound/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Thermodynamics.Inversion`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.Inversion::geometric_series_bound",
   "declaration_slug": "geometric-series-bound",
   "kind": "theorem",
   "name": "geometric_series_bound",
   "module_name": "TauLib.BookV.Thermodynamics.Inversion",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-inversion/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-inversion/",
   "source_line_start": 201,
   "source_line_end": 204,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/Inversion.lean#L201-L204",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.Inversion",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-inversion/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-inversion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.Inversion](/verify/taulib/docs/book-v-thermodynamics-inversion/)
+- Module: [TauLib.BookV.Thermodynamics.Inversion](/corpus/taulib/docs/book-v-thermodynamics-inversion/)
 - Source path: [`TauLib/BookV/Thermodynamics/Inversion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/Inversion.lean#L201-L204)
 - Source range: L201-L204
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

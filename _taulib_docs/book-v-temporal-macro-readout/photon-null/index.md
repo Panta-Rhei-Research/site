@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "photon_null",
-  "permalink": "/verify/taulib/docs/book-v-temporal-macro-readout/photon-null/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-macro-readout/photon-null/",
   "summary_short": "`def` declaration in `TauLib.BookV.Temporal.MacroReadout`.",
   "declaration_id": "TauLib.BookV.Temporal.MacroReadout::photon_null",
   "declaration_slug": "photon-null",
   "kind": "def",
   "name": "photon_null",
   "module_name": "TauLib.BookV.Temporal.MacroReadout",
-  "module_url": "/verify/taulib/docs/book-v-temporal-macro-readout/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-macro-readout/",
   "source_line_start": 55,
   "source_line_end": 61,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/MacroReadout.lean#L55-L61",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.MacroReadout",
-        "url": "/verify/taulib/docs/book-v-temporal-macro-readout/"
+        "url": "/corpus/taulib/docs/book-v-temporal-macro-readout/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.MacroReadout](/verify/taulib/docs/book-v-temporal-macro-readout/)
+- Module: [TauLib.BookV.Temporal.MacroReadout](/corpus/taulib/docs/book-v-temporal-macro-readout/)
 - Source path: [`TauLib/BookV/Temporal/MacroReadout.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/MacroReadout.lean#L55-L61)
 - Source range: L55-L61
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "distinction_wd",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-distinction/distinction-wd/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-distinction/distinction-wd/",
   "summary_short": "`def` declaration in `TauLib.BookVI.LifeCore.Distinction`.",
   "declaration_id": "TauLib.BookVI.LifeCore.Distinction::distinction_wd",
   "declaration_slug": "distinction-wd",
   "kind": "def",
   "name": "distinction_wd",
   "module_name": "TauLib.BookVI.LifeCore.Distinction",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-distinction/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-distinction/",
   "source_line_start": 72,
   "source_line_end": 72,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/Distinction.lean#L72-L72",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.Distinction",
-        "url": "/verify/taulib/docs/book-vi-life-core-distinction/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-distinction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.Distinction](/verify/taulib/docs/book-vi-life-core-distinction/)
+- Module: [TauLib.BookVI.LifeCore.Distinction](/corpus/taulib/docs/book-vi-life-core-distinction/)
 - Source path: [`TauLib/BookVI/LifeCore/Distinction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/Distinction.lean#L72-L72)
 - Source range: L72-L72
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bipolar_indep_30",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/bipolar-indep-30/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/bipolar-indep-30/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Hartogs.BndLift`.",
   "declaration_id": "TauLib.BookII.Hartogs.BndLift::bipolar_indep_30",
   "declaration_slug": "bipolar-indep-30",
   "kind": "theorem",
   "name": "bipolar_indep_30",
   "module_name": "TauLib.BookII.Hartogs.BndLift",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/",
   "source_line_start": 462,
   "source_line_end": 462,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/BndLift.lean#L462-L462",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.BndLift",
-        "url": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.BndLift](/verify/taulib/docs/book-ii-hartogs-bnd-lift/)
+- Module: [TauLib.BookII.Hartogs.BndLift](/corpus/taulib/docs/book-ii-hartogs-bnd-lift/)
 - Source path: [`TauLib/BookII/Hartogs/BndLift.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/BndLift.lean#L462-L462)
 - Source range: L462-L462
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L493",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/eval-l493/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/eval-l493/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Astrophysics.H0TensionLCDM`.",
   "declaration_id": "TauLib.BookV.Astrophysics.H0TensionLCDM::#eval:493",
   "declaration_slug": "eval-l493",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Astrophysics.H0TensionLCDM",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/",
   "source_line_start": 493,
   "source_line_end": 493,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/H0TensionLCDM.lean#L493-L493",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.H0TensionLCDM",
-        "url": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.H0TensionLCDM](/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/)
+- Module: [TauLib.BookV.Astrophysics.H0TensionLCDM](/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/)
 - Source path: [`TauLib/BookV/Astrophysics/H0TensionLCDM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/H0TensionLCDM.lean#L493-L493)
 - Source range: L493-L493
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

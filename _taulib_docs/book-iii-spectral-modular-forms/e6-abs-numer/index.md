@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "E6_abs_numer",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-numer/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-numer/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.ModularForms`.",
   "declaration_id": "TauLib.BookIII.Spectral.ModularForms::E6_abs_numer",
   "declaration_slug": "e6-abs-numer",
   "kind": "def",
   "name": "E6_abs_numer",
   "module_name": "TauLib.BookIII.Spectral.ModularForms",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-modular-forms/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/",
   "source_line_start": 77,
   "source_line_end": 77,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/ModularForms.lean#L77-L77",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.ModularForms",
-        "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.ModularForms](/verify/taulib/docs/book-iii-spectral-modular-forms/)
+- Module: [TauLib.BookIII.Spectral.ModularForms](/corpus/taulib/docs/book-iii-spectral-modular-forms/)
 - Source path: [`TauLib/BookIII/Spectral/ModularForms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/ModularForms.lean#L77-L77)
 - Source range: L77-L77
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

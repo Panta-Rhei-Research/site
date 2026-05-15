@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.MetaLogic.Substrate",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-substrate/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-substrate/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.MetaLogic.Substrate`.",
   "module_name": "TauLib.BookI.MetaLogic.Substrate",
   "module_slug": "book-i-meta-logic-substrate",
@@ -34,235 +34,287 @@
     {
       "kind": "inductive",
       "name": "StructuralRule",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/structural-rule/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/structural-rule/",
       "source_line_start": 29,
       "source_line_end": 35,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "ObjectLevelStatus",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/object-level-status/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/object-level-status/",
       "source_line_start": 42,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "k5_status",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/k5-status/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/k5-status/",
       "source_line_start": 51,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "contraction_refused",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/contraction-refused/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/contraction-refused/",
       "source_line_start": 61,
       "source_line_end": 61,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "weakening_refused",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/weakening-refused/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/weakening-refused/",
       "source_line_start": 64,
       "source_line_end": 64,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "exchange_preserved",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/exchange-preserved/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/exchange-preserved/",
       "source_line_start": 67,
       "source_line_end": 67,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "allRules",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/all-rules/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/all-rules/",
       "source_line_start": 74,
       "source_line_end": 74,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "allRules_length",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/all-rules-length/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/all-rules-length/",
       "source_line_start": 77,
       "source_line_end": 77,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "refusedRules",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/refused-rules/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/refused-rules/",
       "source_line_start": 80,
       "source_line_end": 81,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "preservedRules",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/preserved-rules/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/preserved-rules/",
       "source_line_start": 84,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "refused_count",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/refused-count/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/refused-count/",
       "source_line_start": 88,
       "source_line_end": 88,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "preserved_count",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/preserved-count/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/preserved-count/",
       "source_line_start": 91,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "refused_are",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/refused-are/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/refused-are/",
       "source_line_start": 94,
       "source_line_end": 94,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "preserved_is",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/preserved-is/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/preserved-is/",
       "source_line_start": 97,
       "source_line_end": 97,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "count_partition",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/count-partition/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/count-partition/",
       "source_line_start": 100,
       "source_line_end": 101,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "diagonal_discipline_refuses_contraction",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-contraction/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-contraction/",
       "source_line_start": 113,
       "source_line_end": 115,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "diagonal_discipline_refuses_weakening",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-weakening/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-weakening/",
       "source_line_start": 120,
       "source_line_end": 122,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "scaffold_invariant",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/scaffold-invariant/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/scaffold-invariant/",
       "source_line_start": 126,
       "source_line_end": 126,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rewiring_budget",
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/rewiring-budget/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/rewiring-budget/",
       "source_line_start": 131,
       "source_line_end": 133,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/eval-l139/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l139/",
       "source_line_start": 139,
       "source_line_end": 139,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/eval-l140/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l140/",
       "source_line_start": 140,
       "source_line_end": 140,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/eval-l141/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l141/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/eval-l142/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l142/",
       "source_line_start": 142,
       "source_line_end": 142,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/eval-l143/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l143/",
       "source_line_start": 143,
       "source_line_end": 143,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/eval-l144/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l144/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-substrate/eval-l145/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l145/",
       "source_line_start": 145,
       "source_line_end": 147,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -274,7 +326,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -346,31 +398,31 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [StructuralRule](/verify/taulib/docs/book-i-meta-logic-substrate/structural-rule/) | L29-L35 | defined | — |
-| `inductive` | [ObjectLevelStatus](/verify/taulib/docs/book-i-meta-logic-substrate/object-level-status/) | L42-L47 | defined | — |
-| `def` | [k5_status](/verify/taulib/docs/book-i-meta-logic-substrate/k5-status/) | L51-L54 | defined | — |
-| `theorem` | [contraction_refused](/verify/taulib/docs/book-i-meta-logic-substrate/contraction-refused/) | L61-L61 | formalized | — |
-| `theorem` | [weakening_refused](/verify/taulib/docs/book-i-meta-logic-substrate/weakening-refused/) | L64-L64 | formalized | — |
-| `theorem` | [exchange_preserved](/verify/taulib/docs/book-i-meta-logic-substrate/exchange-preserved/) | L67-L67 | formalized | — |
-| `def` | [allRules](/verify/taulib/docs/book-i-meta-logic-substrate/all-rules/) | L74-L74 | defined | — |
-| `theorem` | [allRules_length](/verify/taulib/docs/book-i-meta-logic-substrate/all-rules-length/) | L77-L77 | formalized | — |
-| `def` | [refusedRules](/verify/taulib/docs/book-i-meta-logic-substrate/refused-rules/) | L80-L81 | defined | — |
-| `def` | [preservedRules](/verify/taulib/docs/book-i-meta-logic-substrate/preserved-rules/) | L84-L85 | defined | — |
-| `theorem` | [refused_count](/verify/taulib/docs/book-i-meta-logic-substrate/refused-count/) | L88-L88 | formalized | — |
-| `theorem` | [preserved_count](/verify/taulib/docs/book-i-meta-logic-substrate/preserved-count/) | L91-L91 | formalized | — |
-| `theorem` | [refused_are](/verify/taulib/docs/book-i-meta-logic-substrate/refused-are/) | L94-L94 | formalized | — |
-| `theorem` | [preserved_is](/verify/taulib/docs/book-i-meta-logic-substrate/preserved-is/) | L97-L97 | formalized | — |
-| `theorem` | [count_partition](/verify/taulib/docs/book-i-meta-logic-substrate/count-partition/) | L100-L101 | formalized | — |
-| `theorem` | [diagonal_discipline_refuses_contraction](/verify/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-contraction/) | L113-L115 | formalized | — |
-| `theorem` | [diagonal_discipline_refuses_weakening](/verify/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-weakening/) | L120-L122 | formalized | — |
-| `theorem` | [scaffold_invariant](/verify/taulib/docs/book-i-meta-logic-substrate/scaffold-invariant/) | L126-L126 | formalized | — |
-| `theorem` | [rewiring_budget](/verify/taulib/docs/book-i-meta-logic-substrate/rewiring-budget/) | L131-L133 | formalized | — |
-| `eval` | [#eval L139](/verify/taulib/docs/book-i-meta-logic-substrate/eval-l139/) | L139-L139 | computed | — |
-| `eval` | [#eval L140](/verify/taulib/docs/book-i-meta-logic-substrate/eval-l140/) | L140-L140 | computed | — |
-| `eval` | [#eval L141](/verify/taulib/docs/book-i-meta-logic-substrate/eval-l141/) | L141-L141 | computed | — |
-| `eval` | [#eval L142](/verify/taulib/docs/book-i-meta-logic-substrate/eval-l142/) | L142-L142 | computed | — |
-| `eval` | [#eval L143](/verify/taulib/docs/book-i-meta-logic-substrate/eval-l143/) | L143-L143 | computed | — |
-| `eval` | [#eval L144](/verify/taulib/docs/book-i-meta-logic-substrate/eval-l144/) | L144-L144 | computed | — |
-| `eval` | [#eval L145](/verify/taulib/docs/book-i-meta-logic-substrate/eval-l145/) | L145-L147 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [StructuralRule](/corpus/taulib/docs/book-i-meta-logic-substrate/structural-rule/) | L29-L35 | type/data schema | type/data schema | — |
+| `inductive` | [ObjectLevelStatus](/corpus/taulib/docs/book-i-meta-logic-substrate/object-level-status/) | L42-L47 | type/data schema | type/data schema | — |
+| `def` | [k5_status](/corpus/taulib/docs/book-i-meta-logic-substrate/k5-status/) | L51-L54 | definition | definition | — |
+| `theorem` | [contraction_refused](/corpus/taulib/docs/book-i-meta-logic-substrate/contraction-refused/) | L61-L61 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [weakening_refused](/corpus/taulib/docs/book-i-meta-logic-substrate/weakening-refused/) | L64-L64 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [exchange_preserved](/corpus/taulib/docs/book-i-meta-logic-substrate/exchange-preserved/) | L67-L67 | proof obligation | formal proof obligation checked | — |
+| `def` | [allRules](/corpus/taulib/docs/book-i-meta-logic-substrate/all-rules/) | L74-L74 | data/computed value | data/computed value | — |
+| `theorem` | [allRules_length](/corpus/taulib/docs/book-i-meta-logic-substrate/all-rules-length/) | L77-L77 | proof obligation | formal proof obligation checked | — |
+| `def` | [refusedRules](/corpus/taulib/docs/book-i-meta-logic-substrate/refused-rules/) | L80-L81 | data/computed value | data/computed value | — |
+| `def` | [preservedRules](/corpus/taulib/docs/book-i-meta-logic-substrate/preserved-rules/) | L84-L85 | data/computed value | data/computed value | — |
+| `theorem` | [refused_count](/corpus/taulib/docs/book-i-meta-logic-substrate/refused-count/) | L88-L88 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [preserved_count](/corpus/taulib/docs/book-i-meta-logic-substrate/preserved-count/) | L91-L91 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [refused_are](/corpus/taulib/docs/book-i-meta-logic-substrate/refused-are/) | L94-L94 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [preserved_is](/corpus/taulib/docs/book-i-meta-logic-substrate/preserved-is/) | L97-L97 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [count_partition](/corpus/taulib/docs/book-i-meta-logic-substrate/count-partition/) | L100-L101 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [diagonal_discipline_refuses_contraction](/corpus/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-contraction/) | L113-L115 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [diagonal_discipline_refuses_weakening](/corpus/taulib/docs/book-i-meta-logic-substrate/diagonal-discipline-refuses-weakening/) | L120-L122 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [scaffold_invariant](/corpus/taulib/docs/book-i-meta-logic-substrate/scaffold-invariant/) | L126-L126 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rewiring_budget](/corpus/taulib/docs/book-i-meta-logic-substrate/rewiring-budget/) | L131-L133 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L139](/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l139/) | L139-L139 | computed check | computed check | — |
+| `eval` | [#eval L140](/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l140/) | L140-L140 | computed check | computed check | — |
+| `eval` | [#eval L141](/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l141/) | L141-L141 | computed check | computed check | — |
+| `eval` | [#eval L142](/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l142/) | L142-L142 | computed check | computed check | — |
+| `eval` | [#eval L143](/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l143/) | L143-L143 | computed check | computed check | — |
+| `eval` | [#eval L144](/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l144/) | L144-L144 | computed check | computed check | — |
+| `eval` | [#eval L145](/corpus/taulib/docs/book-i-meta-logic-substrate/eval-l145/) | L145-L147 | computed check | computed check | — |

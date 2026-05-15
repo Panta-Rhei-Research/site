@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "godel_sentence",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-incompleteness/godel-sentence/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-incompleteness/godel-sentence/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Bridge.Incompleteness`.",
   "declaration_id": "TauLib.BookIII.Bridge.Incompleteness::godel_sentence",
   "declaration_slug": "godel-sentence",
   "kind": "def",
   "name": "godel_sentence",
   "module_name": "TauLib.BookIII.Bridge.Incompleteness",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-incompleteness/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-incompleteness/",
   "source_line_start": 60,
   "source_line_end": 67,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/Incompleteness.lean#L60-L67",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.Incompleteness",
-        "url": "/verify/taulib/docs/book-iii-bridge-incompleteness/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-incompleteness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.Incompleteness](/verify/taulib/docs/book-iii-bridge-incompleteness/)
+- Module: [TauLib.BookIII.Bridge.Incompleteness](/corpus/taulib/docs/book-iii-bridge-incompleteness/)
 - Source path: [`TauLib/BookIII/Bridge/Incompleteness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/Incompleteness.lean#L60-L67)
 - Source range: L60-L67
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

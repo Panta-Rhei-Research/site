@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ExcitationCost",
-  "permalink": "/verify/taulib/docs/book-iv-strong-gap-meta-theorem/excitation-cost/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/excitation-cost/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Strong.GapMetaTheorem`.",
   "declaration_id": "TauLib.BookIV.Strong.GapMetaTheorem::ExcitationCost",
   "declaration_slug": "excitation-cost",
   "kind": "structure",
   "name": "ExcitationCost",
   "module_name": "TauLib.BookIV.Strong.GapMetaTheorem",
-  "module_url": "/verify/taulib/docs/book-iv-strong-gap-meta-theorem/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/",
   "source_line_start": 143,
   "source_line_end": 150,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/GapMetaTheorem.lean#L143-L150",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.GapMetaTheorem",
-        "url": "/verify/taulib/docs/book-iv-strong-gap-meta-theorem/"
+        "url": "/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.GapMetaTheorem](/verify/taulib/docs/book-iv-strong-gap-meta-theorem/)
+- Module: [TauLib.BookIV.Strong.GapMetaTheorem](/corpus/taulib/docs/book-iv-strong-gap-meta-theorem/)
 - Source path: [`TauLib/BookIV/Strong/GapMetaTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/GapMetaTheorem.lean#L143-L150)
 - Source range: L143-L150
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

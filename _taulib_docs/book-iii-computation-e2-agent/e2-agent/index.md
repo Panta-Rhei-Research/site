@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "E2Agent",
-  "permalink": "/verify/taulib/docs/book-iii-computation-e2-agent/e2-agent/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-e2-agent/e2-agent/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Computation.E2Agent`.",
   "declaration_id": "TauLib.BookIII.Computation.E2Agent::E2Agent",
   "declaration_slug": "e2-agent",
   "kind": "structure",
   "name": "E2Agent",
   "module_name": "TauLib.BookIII.Computation.E2Agent",
-  "module_url": "/verify/taulib/docs/book-iii-computation-e2-agent/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-e2-agent/",
   "source_line_start": 37,
   "source_line_end": 41,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/E2Agent.lean#L37-L41",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.E2Agent",
-        "url": "/verify/taulib/docs/book-iii-computation-e2-agent/"
+        "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.E2Agent](/verify/taulib/docs/book-iii-computation-e2-agent/)
+- Module: [TauLib.BookIII.Computation.E2Agent](/corpus/taulib/docs/book-iii-computation-e2-agent/)
 - Source path: [`TauLib/BookIII/Computation/E2Agent.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/E2Agent.lean#L37-L41)
 - Source range: L37-L41
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

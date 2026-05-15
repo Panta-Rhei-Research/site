@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "all_roads_m_e",
-  "permalink": "/verify/taulib/docs/book-iv-particles-beta-decay/all-roads-m-e/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-beta-decay/all-roads-m-e/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.BetaDecay`.",
   "declaration_id": "TauLib.BookIV.Particles.BetaDecay::all_roads_m_e",
   "declaration_slug": "all-roads-m-e",
   "kind": "def",
   "name": "all_roads_m_e",
   "module_name": "TauLib.BookIV.Particles.BetaDecay",
-  "module_url": "/verify/taulib/docs/book-iv-particles-beta-decay/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-beta-decay/",
   "source_line_start": 328,
   "source_line_end": 328,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L328-L328",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.BetaDecay",
-        "url": "/verify/taulib/docs/book-iv-particles-beta-decay/"
+        "url": "/corpus/taulib/docs/book-iv-particles-beta-decay/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.BetaDecay](/verify/taulib/docs/book-iv-particles-beta-decay/)
+- Module: [TauLib.BookIV.Particles.BetaDecay](/corpus/taulib/docs/book-iv-particles-beta-decay/)
 - Source path: [`TauLib/BookIV/Particles/BetaDecay.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/BetaDecay.lean#L328-L328)
 - Source range: L328-L328
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

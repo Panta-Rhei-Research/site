@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "zero_divisors_exist",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-categoricity/zero-divisors-exist/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-categoricity/zero-divisors-exist/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.CentralTheorem.Categoricity`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.Categoricity::zero_divisors_exist",
   "declaration_slug": "zero-divisors-exist",
   "kind": "theorem",
   "name": "zero_divisors_exist",
   "module_name": "TauLib.BookII.CentralTheorem.Categoricity",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-categoricity/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-categoricity/",
   "source_line_start": 339,
   "source_line_end": 341,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/Categoricity.lean#L339-L341",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.Categoricity",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-categoricity/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-categoricity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.Categoricity](/verify/taulib/docs/book-ii-central-theorem-categoricity/)
+- Module: [TauLib.BookII.CentralTheorem.Categoricity](/corpus/taulib/docs/book-ii-central-theorem-categoricity/)
 - Source path: [`TauLib/BookII/CentralTheorem/Categoricity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/Categoricity.lean#L339-L341)
 - Source range: L339-L341
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

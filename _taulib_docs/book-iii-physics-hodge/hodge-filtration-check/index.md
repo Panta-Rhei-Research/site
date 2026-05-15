@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hodge_filtration_check",
-  "permalink": "/verify/taulib/docs/book-iii-physics-hodge/hodge-filtration-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-hodge/hodge-filtration-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Physics.Hodge`.",
   "declaration_id": "TauLib.BookIII.Physics.Hodge::hodge_filtration_check",
   "declaration_slug": "hodge-filtration-check",
   "kind": "def",
   "name": "hodge_filtration_check",
   "module_name": "TauLib.BookIII.Physics.Hodge",
-  "module_url": "/verify/taulib/docs/book-iii-physics-hodge/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-hodge/",
   "source_line_start": 178,
   "source_line_end": 205,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/Hodge.lean#L178-L205",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.Hodge",
-        "url": "/verify/taulib/docs/book-iii-physics-hodge/"
+        "url": "/corpus/taulib/docs/book-iii-physics-hodge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.Hodge](/verify/taulib/docs/book-iii-physics-hodge/)
+- Module: [TauLib.BookIII.Physics.Hodge](/corpus/taulib/docs/book-iii-physics-hodge/)
 - Source path: [`TauLib/BookIII/Physics/Hodge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/Hodge.lean#L178-L205)
 - Source range: L178-L205
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

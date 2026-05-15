@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "e3_predicate",
-  "permalink": "/verify/taulib/docs/book-iii-mirror-e3-witness/e3-predicate/",
+  "permalink": "/corpus/taulib/docs/book-iii-mirror-e3-witness/e3-predicate/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Mirror.E3Witness`.",
   "declaration_id": "TauLib.BookIII.Mirror.E3Witness::e3_predicate",
   "declaration_slug": "e3-predicate",
   "kind": "def",
   "name": "e3_predicate",
   "module_name": "TauLib.BookIII.Mirror.E3Witness",
-  "module_url": "/verify/taulib/docs/book-iii-mirror-e3-witness/",
+  "module_url": "/corpus/taulib/docs/book-iii-mirror-e3-witness/",
   "source_line_start": 57,
   "source_line_end": 68,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/E3Witness.lean#L57-L68",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Mirror.E3Witness",
-        "url": "/verify/taulib/docs/book-iii-mirror-e3-witness/"
+        "url": "/corpus/taulib/docs/book-iii-mirror-e3-witness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Mirror.E3Witness](/verify/taulib/docs/book-iii-mirror-e3-witness/)
+- Module: [TauLib.BookIII.Mirror.E3Witness](/corpus/taulib/docs/book-iii-mirror-e3-witness/)
 - Source path: [`TauLib/BookIII/Mirror/E3Witness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/E3Witness.lean#L57-L68)
 - Source range: L57-L68
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

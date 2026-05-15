@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CartesianMonoidal",
-  "permalink": "/verify/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Topos.CartesianProduct`.",
   "declaration_id": "TauLib.BookI.Topos.CartesianProduct::CartesianMonoidal",
   "declaration_slug": "cartesian-monoidal",
   "kind": "structure",
   "name": "CartesianMonoidal",
   "module_name": "TauLib.BookI.Topos.CartesianProduct",
-  "module_url": "/verify/taulib/docs/book-i-topos-cartesian-product/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-cartesian-product/",
   "source_line_start": 81,
   "source_line_end": 85,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CartesianProduct.lean#L81-L85",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.CartesianProduct",
-        "url": "/verify/taulib/docs/book-i-topos-cartesian-product/"
+        "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.CartesianProduct](/verify/taulib/docs/book-i-topos-cartesian-product/)
+- Module: [TauLib.BookI.Topos.CartesianProduct](/corpus/taulib/docs/book-i-topos-cartesian-product/)
 - Source path: [`TauLib/BookI/Topos/CartesianProduct.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CartesianProduct.lean#L81-L85)
 - Source range: L81-L85
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Closure.Curvature",
-  "permalink": "/verify/taulib/docs/book-ii-closure-curvature/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-curvature/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Closure.Curvature`.",
   "module_name": "TauLib.BookII.Closure.Curvature",
   "module_slug": "book-ii-closure-curvature",
@@ -34,10 +34,12 @@
     {
       "kind": "def",
       "name": "curvature_check",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/curvature-check/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/curvature-check/",
       "source_line_start": 51,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D80"
       ]
@@ -45,10 +47,12 @@
     {
       "kind": "def",
       "name": "cyclic_distance",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/cyclic-distance/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/cyclic-distance/",
       "source_line_start": 79,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D81"
       ]
@@ -56,10 +60,12 @@
     {
       "kind": "def",
       "name": "geodesic_direction",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-direction/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-direction/",
       "source_line_start": 87,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D81"
       ]
@@ -67,10 +73,12 @@
     {
       "kind": "def",
       "name": "geodesic_check",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-check/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-check/",
       "source_line_start": 93,
       "source_line_end": 109,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D81"
       ]
@@ -78,10 +86,12 @@
     {
       "kind": "def",
       "name": "geodesic_completeness_check",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-completeness-check/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-completeness-check/",
       "source_line_start": 117,
       "source_line_end": 134,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.P17"
       ]
@@ -89,10 +99,12 @@
     {
       "kind": "def",
       "name": "lemniscate_holonomy_check",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-check/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-check/",
       "source_line_start": 145,
       "source_line_end": 158,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T52"
       ]
@@ -100,10 +112,12 @@
     {
       "kind": "theorem",
       "name": "flat_curvature_vanishes_1",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-1/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-1/",
       "source_line_start": 165,
       "source_line_end": 166,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T51"
       ]
@@ -111,10 +125,12 @@
     {
       "kind": "theorem",
       "name": "flat_curvature_vanishes_2",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-2/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-2/",
       "source_line_start": 169,
       "source_line_end": 170,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T51"
       ]
@@ -122,10 +138,12 @@
     {
       "kind": "theorem",
       "name": "geodesic_correct_1",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-correct-1/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-correct-1/",
       "source_line_start": 173,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D81"
       ]
@@ -133,10 +151,12 @@
     {
       "kind": "theorem",
       "name": "geodesic_correct_2",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-correct-2/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-correct-2/",
       "source_line_start": 177,
       "source_line_end": 178,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D81"
       ]
@@ -144,10 +164,12 @@
     {
       "kind": "theorem",
       "name": "geodesic_complete_1",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-complete-1/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-complete-1/",
       "source_line_start": 181,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.P17"
       ]
@@ -155,10 +177,12 @@
     {
       "kind": "theorem",
       "name": "geodesic_complete_2",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-complete-2/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-complete-2/",
       "source_line_start": 185,
       "source_line_end": 186,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.P17"
       ]
@@ -166,10 +190,12 @@
     {
       "kind": "theorem",
       "name": "lemniscate_holonomy_1",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-1/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-1/",
       "source_line_start": 189,
       "source_line_end": 190,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T52"
       ]
@@ -177,10 +203,12 @@
     {
       "kind": "theorem",
       "name": "lemniscate_holonomy_2",
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-2/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-2/",
       "source_line_start": 193,
       "source_line_end": 194,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T52"
       ]
@@ -188,73 +216,89 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l201/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l201/",
       "source_line_start": 201,
       "source_line_end": 201,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l202/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l202/",
       "source_line_start": 202,
       "source_line_end": 202,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l205/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l205/",
       "source_line_start": 205,
       "source_line_end": 205,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l206/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l206/",
       "source_line_start": 206,
       "source_line_end": 206,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l209/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l209/",
       "source_line_start": 209,
       "source_line_end": 209,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l210/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l210/",
       "source_line_start": 210,
       "source_line_end": 210,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l213/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l213/",
       "source_line_start": 213,
       "source_line_end": 213,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-curvature/eval-l214/",
+      "url": "/corpus/taulib/docs/book-ii-closure-curvature/eval-l214/",
       "source_line_start": 214,
       "source_line_end": 216,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -266,7 +310,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -338,27 +382,27 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [curvature_check](/verify/taulib/docs/book-ii-closure-curvature/curvature-check/) | L51-L72 | defined | `II.D80` |
-| `def` | [cyclic_distance](/verify/taulib/docs/book-ii-closure-curvature/cyclic-distance/) | L79-L83 | defined | `II.D81` |
-| `def` | [geodesic_direction](/verify/taulib/docs/book-ii-closure-curvature/geodesic-direction/) | L87-L90 | defined | `II.D81` |
-| `def` | [geodesic_check](/verify/taulib/docs/book-ii-closure-curvature/geodesic-check/) | L93-L109 | defined | `II.D81` |
-| `def` | [geodesic_completeness_check](/verify/taulib/docs/book-ii-closure-curvature/geodesic-completeness-check/) | L117-L134 | defined | `II.P17` |
-| `def` | [lemniscate_holonomy_check](/verify/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-check/) | L145-L158 | defined | `II.T52` |
-| `theorem` | [flat_curvature_vanishes_1](/verify/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-1/) | L165-L166 | formalized | `II.T51` |
-| `theorem` | [flat_curvature_vanishes_2](/verify/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-2/) | L169-L170 | formalized | `II.T51` |
-| `theorem` | [geodesic_correct_1](/verify/taulib/docs/book-ii-closure-curvature/geodesic-correct-1/) | L173-L174 | formalized | `II.D81` |
-| `theorem` | [geodesic_correct_2](/verify/taulib/docs/book-ii-closure-curvature/geodesic-correct-2/) | L177-L178 | formalized | `II.D81` |
-| `theorem` | [geodesic_complete_1](/verify/taulib/docs/book-ii-closure-curvature/geodesic-complete-1/) | L181-L182 | formalized | `II.P17` |
-| `theorem` | [geodesic_complete_2](/verify/taulib/docs/book-ii-closure-curvature/geodesic-complete-2/) | L185-L186 | formalized | `II.P17` |
-| `theorem` | [lemniscate_holonomy_1](/verify/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-1/) | L189-L190 | formalized | `II.T52` |
-| `theorem` | [lemniscate_holonomy_2](/verify/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-2/) | L193-L194 | formalized | `II.T52` |
-| `eval` | [#eval L201](/verify/taulib/docs/book-ii-closure-curvature/eval-l201/) | L201-L201 | computed | — |
-| `eval` | [#eval L202](/verify/taulib/docs/book-ii-closure-curvature/eval-l202/) | L202-L202 | computed | — |
-| `eval` | [#eval L205](/verify/taulib/docs/book-ii-closure-curvature/eval-l205/) | L205-L205 | computed | — |
-| `eval` | [#eval L206](/verify/taulib/docs/book-ii-closure-curvature/eval-l206/) | L206-L206 | computed | — |
-| `eval` | [#eval L209](/verify/taulib/docs/book-ii-closure-curvature/eval-l209/) | L209-L209 | computed | — |
-| `eval` | [#eval L210](/verify/taulib/docs/book-ii-closure-curvature/eval-l210/) | L210-L210 | computed | — |
-| `eval` | [#eval L213](/verify/taulib/docs/book-ii-closure-curvature/eval-l213/) | L213-L213 | computed | — |
-| `eval` | [#eval L214](/verify/taulib/docs/book-ii-closure-curvature/eval-l214/) | L214-L216 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [curvature_check](/corpus/taulib/docs/book-ii-closure-curvature/curvature-check/) | L51-L72 | data/computed value | data/computed value | `II.D80` |
+| `def` | [cyclic_distance](/corpus/taulib/docs/book-ii-closure-curvature/cyclic-distance/) | L79-L83 | data/computed value | data/computed value | `II.D81` |
+| `def` | [geodesic_direction](/corpus/taulib/docs/book-ii-closure-curvature/geodesic-direction/) | L87-L90 | data/computed value | data/computed value | `II.D81` |
+| `def` | [geodesic_check](/corpus/taulib/docs/book-ii-closure-curvature/geodesic-check/) | L93-L109 | data/computed value | data/computed value | `II.D81` |
+| `def` | [geodesic_completeness_check](/corpus/taulib/docs/book-ii-closure-curvature/geodesic-completeness-check/) | L117-L134 | data/computed value | data/computed value | `II.P17` |
+| `def` | [lemniscate_holonomy_check](/corpus/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-check/) | L145-L158 | data/computed value | data/computed value | `II.T52` |
+| `theorem` | [flat_curvature_vanishes_1](/corpus/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-1/) | L165-L166 | proof obligation | formal proof obligation checked | `II.T51` |
+| `theorem` | [flat_curvature_vanishes_2](/corpus/taulib/docs/book-ii-closure-curvature/flat-curvature-vanishes-2/) | L169-L170 | proof obligation | formal proof obligation checked | `II.T51` |
+| `theorem` | [geodesic_correct_1](/corpus/taulib/docs/book-ii-closure-curvature/geodesic-correct-1/) | L173-L174 | proof obligation | formal proof obligation checked | `II.D81` |
+| `theorem` | [geodesic_correct_2](/corpus/taulib/docs/book-ii-closure-curvature/geodesic-correct-2/) | L177-L178 | proof obligation | formal proof obligation checked | `II.D81` |
+| `theorem` | [geodesic_complete_1](/corpus/taulib/docs/book-ii-closure-curvature/geodesic-complete-1/) | L181-L182 | proof obligation | formal proof obligation checked | `II.P17` |
+| `theorem` | [geodesic_complete_2](/corpus/taulib/docs/book-ii-closure-curvature/geodesic-complete-2/) | L185-L186 | proof obligation | formal proof obligation checked | `II.P17` |
+| `theorem` | [lemniscate_holonomy_1](/corpus/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-1/) | L189-L190 | proof obligation | formal proof obligation checked | `II.T52` |
+| `theorem` | [lemniscate_holonomy_2](/corpus/taulib/docs/book-ii-closure-curvature/lemniscate-holonomy-2/) | L193-L194 | proof obligation | formal proof obligation checked | `II.T52` |
+| `eval` | [#eval L201](/corpus/taulib/docs/book-ii-closure-curvature/eval-l201/) | L201-L201 | computed check | computed check | — |
+| `eval` | [#eval L202](/corpus/taulib/docs/book-ii-closure-curvature/eval-l202/) | L202-L202 | computed check | computed check | — |
+| `eval` | [#eval L205](/corpus/taulib/docs/book-ii-closure-curvature/eval-l205/) | L205-L205 | computed check | computed check | — |
+| `eval` | [#eval L206](/corpus/taulib/docs/book-ii-closure-curvature/eval-l206/) | L206-L206 | computed check | computed check | — |
+| `eval` | [#eval L209](/corpus/taulib/docs/book-ii-closure-curvature/eval-l209/) | L209-L209 | computed check | computed check | — |
+| `eval` | [#eval L210](/corpus/taulib/docs/book-ii-closure-curvature/eval-l210/) | L210-L210 | computed check | computed check | — |
+| `eval` | [#eval L213](/corpus/taulib/docs/book-ii-closure-curvature/eval-l213/) | L213-L213 | computed check | computed check | — |
+| `eval` | [#eval L214](/corpus/taulib/docs/book-ii-closure-curvature/eval-l214/) | L214-L216 | computed check | computed check | — |

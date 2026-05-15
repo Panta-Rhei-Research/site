@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "circular_winding_theorem",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-ehtreread/circular-winding-theorem/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/circular-winding-theorem/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.EHTReread`.",
   "declaration_id": "TauLib.BookV.Astrophysics.EHTReread::circular_winding_theorem",
   "declaration_slug": "circular-winding-theorem",
   "kind": "theorem",
   "name": "circular_winding_theorem",
   "module_name": "TauLib.BookV.Astrophysics.EHTReread",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/",
   "source_line_start": 569,
   "source_line_end": 571,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L569-L571",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.EHTReread",
-        "url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.EHTReread](/verify/taulib/docs/book-v-astrophysics-ehtreread/)
+- Module: [TauLib.BookV.Astrophysics.EHTReread](/corpus/taulib/docs/book-v-astrophysics-ehtreread/)
 - Source path: [`TauLib/BookV/Astrophysics/EHTReread.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L569-L571)
 - Source range: L569-L571
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L332",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/eval-l332/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/eval-l332/",
   "summary_short": "`eval` declaration in `TauLib.BookV.GravityField.TOVStarBuilder`.",
   "declaration_id": "TauLib.BookV.GravityField.TOVStarBuilder::#eval:332",
   "declaration_slug": "eval-l332",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.GravityField.TOVStarBuilder",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/",
   "source_line_start": 332,
   "source_line_end": 332,
   "registry_ids": [
@@ -48,15 +48,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVStarBuilder.lean#L332-L332",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TOVStarBuilder",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -73,7 +75,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -94,11 +97,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TOVStarBuilder](/verify/taulib/docs/book-v-gravity-field-tovstar-builder/)
+- Module: [TauLib.BookV.GravityField.TOVStarBuilder](/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/)
 - Source path: [`TauLib/BookV/GravityField/TOVStarBuilder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVStarBuilder.lean#L332-L332)
 - Source range: L332-L332
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ParameterCount",
-  "permalink": "/verify/taulib/docs/book-iv-particles-spectrum-complete/parameter-count/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/parameter-count/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Particles.SpectrumComplete`.",
   "declaration_id": "TauLib.BookIV.Particles.SpectrumComplete::ParameterCount",
   "declaration_slug": "parameter-count",
   "kind": "structure",
   "name": "ParameterCount",
   "module_name": "TauLib.BookIV.Particles.SpectrumComplete",
-  "module_url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/",
   "source_line_start": 104,
   "source_line_end": 115,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SpectrumComplete.lean#L104-L115",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.SpectrumComplete",
-        "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/"
+        "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.SpectrumComplete](/verify/taulib/docs/book-iv-particles-spectrum-complete/)
+- Module: [TauLib.BookIV.Particles.SpectrumComplete](/corpus/taulib/docs/book-iv-particles-spectrum-complete/)
 - Source path: [`TauLib/BookIV/Particles/SpectrumComplete.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SpectrumComplete.lean#L104-L115)
 - Source range: L104-L115
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

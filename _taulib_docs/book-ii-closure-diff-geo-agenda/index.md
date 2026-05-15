@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Closure.DiffGeoAgenda",
-  "permalink": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Closure.DiffGeoAgenda`.",
   "module_name": "TauLib.BookII.Closure.DiffGeoAgenda",
   "module_slug": "book-ii-closure-diff-geo-agenda",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "ConnectionPlaceholder",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/connection-placeholder/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/connection-placeholder/",
       "source_line_start": 48,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.R21"
       ]
@@ -46,10 +48,12 @@
     {
       "kind": "structure",
       "name": "CurvaturePlaceholder",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-placeholder/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-placeholder/",
       "source_line_start": 54,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.R21"
       ]
@@ -57,10 +61,12 @@
     {
       "kind": "structure",
       "name": "HolonomyPlaceholder",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-placeholder/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-placeholder/",
       "source_line_start": 60,
       "source_line_end": 63,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.R21"
       ]
@@ -68,37 +74,45 @@
     {
       "kind": "def",
       "name": "default_connection",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/default-connection/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/default-connection/",
       "source_line_start": 66,
       "source_line_end": 67,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "default_curvature",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/default-curvature/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/default-curvature/",
       "source_line_start": 70,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "default_holonomy",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/default-holonomy/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/default-holonomy/",
       "source_line_start": 74,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "diffgeo_not_yet_earned",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-yet-earned/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-yet-earned/",
       "source_line_start": 78,
       "source_line_end": 81,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.R21"
       ]
@@ -106,10 +120,12 @@
     {
       "kind": "def",
       "name": "e1_complete_for_book3",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-for-book3/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-for-book3/",
       "source_line_start": 90,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.R22"
       ]
@@ -117,10 +133,12 @@
     {
       "kind": "def",
       "name": "book3_prerequisites_check",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prerequisites-check/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prerequisites-check/",
       "source_line_start": 99,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.R22"
       ]
@@ -128,64 +146,78 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l111/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l111/",
       "source_line_start": 111,
       "source_line_end": 111,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l114/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l114/",
       "source_line_start": 114,
       "source_line_end": 114,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l115/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l115/",
       "source_line_start": 115,
       "source_line_end": 115,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l116/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l116/",
       "source_line_start": 116,
       "source_line_end": 116,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l119/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l119/",
       "source_line_start": 119,
       "source_line_end": 119,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l122/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l122/",
       "source_line_start": 122,
       "source_line_end": 122,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "diffgeo_not_earned",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-earned/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-earned/",
       "source_line_start": 129,
       "source_line_end": 130,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.R21"
       ]
@@ -193,10 +225,12 @@
     {
       "kind": "theorem",
       "name": "e1_complete_b3_10_3_3",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-b3-10-3-3/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-b3-10-3-3/",
       "source_line_start": 133,
       "source_line_end": 134,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.R22"
       ]
@@ -204,10 +238,12 @@
     {
       "kind": "theorem",
       "name": "book3_prereq_3_15_3",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prereq-3-15-3/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prereq-3-15-3/",
       "source_line_start": 137,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.R22"
       ]
@@ -215,10 +251,12 @@
     {
       "kind": "theorem",
       "name": "connection_not_earned",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/connection-not-earned/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/connection-not-earned/",
       "source_line_start": 145,
       "source_line_end": 146,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.R21"
       ]
@@ -226,10 +264,12 @@
     {
       "kind": "theorem",
       "name": "curvature_not_earned",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-not-earned/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-not-earned/",
       "source_line_start": 149,
       "source_line_end": 150,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.R21"
       ]
@@ -237,10 +277,12 @@
     {
       "kind": "theorem",
       "name": "holonomy_not_earned",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-not-earned/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-not-earned/",
       "source_line_start": 153,
       "source_line_end": 154,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.R21"
       ]
@@ -248,10 +290,12 @@
     {
       "kind": "theorem",
       "name": "e1_includes_self_enrichment",
-      "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/e1-includes-self-enrichment/",
+      "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/e1-includes-self-enrichment/",
       "source_line_start": 160,
       "source_line_end": 168,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.R22"
       ]
@@ -265,7 +309,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -338,27 +382,27 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [ConnectionPlaceholder](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/connection-placeholder/) | L48-L51 | defined | `II.R21` |
-| `structure` | [CurvaturePlaceholder](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-placeholder/) | L54-L57 | defined | `II.R21` |
-| `structure` | [HolonomyPlaceholder](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-placeholder/) | L60-L63 | defined | `II.R21` |
-| `def` | [default_connection](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/default-connection/) | L66-L67 | defined | — |
-| `def` | [default_curvature](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/default-curvature/) | L70-L71 | defined | — |
-| `def` | [default_holonomy](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/default-holonomy/) | L74-L75 | defined | — |
-| `def` | [diffgeo_not_yet_earned](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-yet-earned/) | L78-L81 | defined | `II.R21` |
-| `def` | [e1_complete_for_book3](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-for-book3/) | L90-L91 | defined | `II.R22` |
-| `def` | [book3_prerequisites_check](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prerequisites-check/) | L99-L104 | defined | `II.R22` |
-| `eval` | [#eval L111](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l111/) | L111-L111 | computed | — |
-| `eval` | [#eval L114](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l114/) | L114-L114 | computed | — |
-| `eval` | [#eval L115](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l115/) | L115-L115 | computed | — |
-| `eval` | [#eval L116](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l116/) | L116-L116 | computed | — |
-| `eval` | [#eval L119](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l119/) | L119-L119 | computed | — |
-| `eval` | [#eval L122](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l122/) | L122-L122 | computed | — |
-| `theorem` | [diffgeo_not_earned](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-earned/) | L129-L130 | formalized | `II.R21` |
-| `theorem` | [e1_complete_b3_10_3_3](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-b3-10-3-3/) | L133-L134 | formalized | `II.R22` |
-| `theorem` | [book3_prereq_3_15_3](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prereq-3-15-3/) | L137-L138 | formalized | `II.R22` |
-| `theorem` | [connection_not_earned](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/connection-not-earned/) | L145-L146 | formalized | `II.R21` |
-| `theorem` | [curvature_not_earned](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-not-earned/) | L149-L150 | formalized | `II.R21` |
-| `theorem` | [holonomy_not_earned](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-not-earned/) | L153-L154 | formalized | `II.R21` |
-| `theorem` | [e1_includes_self_enrichment](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/e1-includes-self-enrichment/) | L160-L168 | formalized | `II.R22` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [ConnectionPlaceholder](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/connection-placeholder/) | L48-L51 | type/data schema | type/data schema | `II.R21` |
+| `structure` | [CurvaturePlaceholder](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-placeholder/) | L54-L57 | type/data schema | type/data schema | `II.R21` |
+| `structure` | [HolonomyPlaceholder](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-placeholder/) | L60-L63 | type/data schema | type/data schema | `II.R21` |
+| `def` | [default_connection](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/default-connection/) | L66-L67 | definition | definition | — |
+| `def` | [default_curvature](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/default-curvature/) | L70-L71 | definition | definition | — |
+| `def` | [default_holonomy](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/default-holonomy/) | L74-L75 | definition | definition | — |
+| `def` | [diffgeo_not_yet_earned](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-yet-earned/) | L78-L81 | data/computed value | data/computed value | `II.R21` |
+| `def` | [e1_complete_for_book3](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-for-book3/) | L90-L91 | data/computed value | data/computed value | `II.R22` |
+| `def` | [book3_prerequisites_check](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prerequisites-check/) | L99-L104 | data/computed value | data/computed value | `II.R22` |
+| `eval` | [#eval L111](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l111/) | L111-L111 | computed check | computed check | — |
+| `eval` | [#eval L114](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l114/) | L114-L114 | computed check | computed check | — |
+| `eval` | [#eval L115](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l115/) | L115-L115 | computed check | computed check | — |
+| `eval` | [#eval L116](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l116/) | L116-L116 | computed check | computed check | — |
+| `eval` | [#eval L119](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l119/) | L119-L119 | computed check | computed check | — |
+| `eval` | [#eval L122](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/eval-l122/) | L122-L122 | computed check | computed check | — |
+| `theorem` | [diffgeo_not_earned](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/diffgeo-not-earned/) | L129-L130 | proof obligation | formal proof obligation checked | `II.R21` |
+| `theorem` | [e1_complete_b3_10_3_3](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/e1-complete-b3-10-3-3/) | L133-L134 | proof obligation | formal proof obligation checked | `II.R22` |
+| `theorem` | [book3_prereq_3_15_3](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prereq-3-15-3/) | L137-L138 | proof obligation | formal proof obligation checked | `II.R22` |
+| `theorem` | [connection_not_earned](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/connection-not-earned/) | L145-L146 | proof obligation | formal proof obligation checked | `II.R21` |
+| `theorem` | [curvature_not_earned](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/curvature-not-earned/) | L149-L150 | proof obligation | formal proof obligation checked | `II.R21` |
+| `theorem` | [holonomy_not_earned](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-not-earned/) | L153-L154 | proof obligation | formal proof obligation checked | `II.R21` |
+| `theorem` | [e1_includes_self_enrichment](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/e1-includes-self-enrichment/) | L160-L168 | proof obligation | formal proof obligation checked | `II.R22` |

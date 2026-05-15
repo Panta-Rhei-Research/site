@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "den_injective_check",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-orthodox-bridge/den-injective-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/den-injective-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Geometry.OrthodoxBridge`.",
   "declaration_id": "TauLib.BookII.Geometry.OrthodoxBridge::den_injective_check",
   "declaration_slug": "den-injective-check",
   "kind": "def",
   "name": "den_injective_check",
   "module_name": "TauLib.BookII.Geometry.OrthodoxBridge",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-orthodox-bridge/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/",
   "source_line_start": 127,
   "source_line_end": 135,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/OrthodoxBridge.lean#L127-L135",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.OrthodoxBridge",
-        "url": "/verify/taulib/docs/book-ii-geometry-orthodox-bridge/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.OrthodoxBridge](/verify/taulib/docs/book-ii-geometry-orthodox-bridge/)
+- Module: [TauLib.BookII.Geometry.OrthodoxBridge](/corpus/taulib/docs/book-ii-geometry-orthodox-bridge/)
 - Source path: [`TauLib/BookII/Geometry/OrthodoxBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/OrthodoxBridge.lean#L127-L135)
 - Source range: L127-L135
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L338",
-  "permalink": "/verify/taulib/docs/book-i-logic-truth4/eval-l338/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-truth4/eval-l338/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Logic.Truth4`.",
   "declaration_id": "TauLib.BookI.Logic.Truth4::#eval:338",
   "declaration_slug": "eval-l338",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Logic.Truth4",
-  "module_url": "/verify/taulib/docs/book-i-logic-truth4/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-truth4/",
   "source_line_start": 338,
   "source_line_end": 338,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Truth4.lean#L338-L338",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.Truth4",
-        "url": "/verify/taulib/docs/book-i-logic-truth4/"
+        "url": "/corpus/taulib/docs/book-i-logic-truth4/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.Truth4](/verify/taulib/docs/book-i-logic-truth4/)
+- Module: [TauLib.BookI.Logic.Truth4](/corpus/taulib/docs/book-i-logic-truth4/)
 - Source path: [`TauLib/BookI/Logic/Truth4.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Truth4.lean#L338-L338)
 - Source range: L338-L338
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

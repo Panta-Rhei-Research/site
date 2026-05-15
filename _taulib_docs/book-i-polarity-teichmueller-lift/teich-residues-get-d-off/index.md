@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "teich_residues_getD_off",
-  "permalink": "/verify/taulib/docs/book-i-polarity-teichmueller-lift/teich-residues-get-d-off/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-teichmueller-lift/teich-residues-get-d-off/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.TeichmuellerLift`.",
   "declaration_id": "TauLib.BookI.Polarity.TeichmuellerLift::teich_residues_getD_off",
   "declaration_slug": "teich-residues-get-d-off",
   "kind": "theorem",
   "name": "teich_residues_getD_off",
   "module_name": "TauLib.BookI.Polarity.TeichmuellerLift",
-  "module_url": "/verify/taulib/docs/book-i-polarity-teichmueller-lift/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-teichmueller-lift/",
   "source_line_start": 203,
   "source_line_end": 209,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/TeichmuellerLift.lean#L203-L209",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.TeichmuellerLift",
-        "url": "/verify/taulib/docs/book-i-polarity-teichmueller-lift/"
+        "url": "/corpus/taulib/docs/book-i-polarity-teichmueller-lift/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.TeichmuellerLift](/verify/taulib/docs/book-i-polarity-teichmueller-lift/)
+- Module: [TauLib.BookI.Polarity.TeichmuellerLift](/corpus/taulib/docs/book-i-polarity-teichmueller-lift/)
 - Source path: [`TauLib/BookI/Polarity/TeichmuellerLift.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/TeichmuellerLift.lean#L203-L209)
 - Source range: L203-L209
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L312",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/eval-l312/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/eval-l312/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Orthodox.EmergentGeometry`.",
   "declaration_id": "TauLib.BookV.Orthodox.EmergentGeometry::#eval:312",
   "declaration_slug": "eval-l312",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Orthodox.EmergentGeometry",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/",
   "source_line_start": 312,
   "source_line_end": 314,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/EmergentGeometry.lean#L312-L314",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.EmergentGeometry",
-        "url": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.EmergentGeometry](/verify/taulib/docs/book-v-orthodox-emergent-geometry/)
+- Module: [TauLib.BookV.Orthodox.EmergentGeometry](/corpus/taulib/docs/book-v-orthodox-emergent-geometry/)
 - Source path: [`TauLib/BookV/Orthodox/EmergentGeometry.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/EmergentGeometry.lean#L312-L314)
 - Source range: L312-L314
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

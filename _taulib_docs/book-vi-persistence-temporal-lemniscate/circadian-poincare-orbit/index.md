@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "circadian_poincare_orbit",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare-orbit/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare-orbit/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Persistence.TemporalLemniscate`.",
   "declaration_id": "TauLib.BookVI.Persistence.TemporalLemniscate::circadian_poincare_orbit",
   "declaration_slug": "circadian-poincare-orbit",
   "kind": "theorem",
   "name": "circadian_poincare_orbit",
   "module_name": "TauLib.BookVI.Persistence.TemporalLemniscate",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/",
   "source_line_start": 88,
   "source_line_end": 93,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/TemporalLemniscate.lean#L88-L93",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.TemporalLemniscate",
-        "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.TemporalLemniscate](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/)
+- Module: [TauLib.BookVI.Persistence.TemporalLemniscate](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/)
 - Source path: [`TauLib/BookVI/Persistence/TemporalLemniscate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/TemporalLemniscate.lean#L88-L93)
 - Source range: L88-L93
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

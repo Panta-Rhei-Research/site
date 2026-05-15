@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauArrow",
-  "permalink": "/verify/taulib/docs/book-i-topos-earned-arrows/tau-arrow/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-earned-arrows/tau-arrow/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Topos.EarnedArrows`.",
   "declaration_id": "TauLib.BookI.Topos.EarnedArrows::TauArrow",
   "declaration_slug": "tau-arrow",
   "kind": "structure",
   "name": "TauArrow",
   "module_name": "TauLib.BookI.Topos.EarnedArrows",
-  "module_url": "/verify/taulib/docs/book-i-topos-earned-arrows/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-earned-arrows/",
   "source_line_start": 47,
   "source_line_end": 50,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedArrows.lean#L47-L50",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.EarnedArrows",
-        "url": "/verify/taulib/docs/book-i-topos-earned-arrows/"
+        "url": "/corpus/taulib/docs/book-i-topos-earned-arrows/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.EarnedArrows](/verify/taulib/docs/book-i-topos-earned-arrows/)
+- Module: [TauLib.BookI.Topos.EarnedArrows](/corpus/taulib/docs/book-i-topos-earned-arrows/)
 - Source path: [`TauLib/BookI/Topos/EarnedArrows.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedArrows.lean#L47-L50)
 - Source range: L47-L50
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

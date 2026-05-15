@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Physics.Thermodynamics",
-  "permalink": "/verify/taulib/docs/book-iv-physics-thermodynamics/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-thermodynamics/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Physics.Thermodynamics`.",
   "module_name": "TauLib.BookIV.Physics.Thermodynamics",
   "module_slug": "book-iv-physics-thermodynamics",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "EntropySplitting",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/entropy-splitting/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/entropy-splitting/",
       "source_line_start": 76,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D24"
       ]
@@ -50,37 +52,45 @@
     {
       "kind": "def",
       "name": "EntropySplitting.totalFloat",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/total-float/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/total-float/",
       "source_line_start": 92,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "EntropySplitting.sDefFloat",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/s-def-float/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/s-def-float/",
       "source_line_start": 97,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "EntropySplitting.sRefFloat",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/s-ref-float/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/s-ref-float/",
       "source_line_start": 101,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DefectBudget",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/defect-budget/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/defect-budget/",
       "source_line_start": 116,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D25"
       ]
@@ -88,10 +98,12 @@
     {
       "kind": "structure",
       "name": "NoRunningPrinciple",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-principle/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-principle/",
       "source_line_start": 140,
       "source_line_end": 151,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P04"
       ]
@@ -99,64 +111,78 @@
     {
       "kind": "def",
       "name": "no_running_em",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-em/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-em/",
       "source_line_start": 158,
       "source_line_end": 162,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_running_weak",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-weak/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-weak/",
       "source_line_start": 165,
       "source_line_end": 169,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_running_strong",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-strong/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-strong/",
       "source_line_start": 172,
       "source_line_end": 176,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_running_gravity",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-gravity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-gravity/",
       "source_line_start": 179,
       "source_line_end": 183,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_running_higgs",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-higgs/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-higgs/",
       "source_line_start": 186,
       "source_line_end": 190,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "all_no_running",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/all-no-running/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/all-no-running/",
       "source_line_start": 193,
       "source_line_end": 195,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "euler_budget_conserved",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/euler-budget-conserved/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/euler-budget-conserved/",
       "source_line_start": 203,
       "source_line_end": 205,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T04"
       ]
@@ -164,28 +190,34 @@
     {
       "kind": "theorem",
       "name": "no_running_all_sectors",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-all-sectors/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-all-sectors/",
       "source_line_start": 208,
       "source_line_end": 208,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "all_regime_independent",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/all-regime-independent/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/all-regime-independent/",
       "source_line_start": 211,
       "source_line_end": 214,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "s_def_zero_at_horizon",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/s-def-zero-at-horizon/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/s-def-zero-at-horizon/",
       "source_line_start": 218,
       "source_line_end": 219,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.R05"
       ]
@@ -193,37 +225,45 @@
     {
       "kind": "theorem",
       "name": "budget_nonneg",
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/budget-nonneg/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/budget-nonneg/",
       "source_line_start": 222,
       "source_line_end": 223,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/eval-l230/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/eval-l230/",
       "source_line_start": 230,
       "source_line_end": 230,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/eval-l234/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/eval-l234/",
       "source_line_start": 234,
       "source_line_end": 234,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/eval-l237/",
+      "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/eval-l237/",
       "source_line_start": 237,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -235,7 +275,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -310,25 +350,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [EntropySplitting](/verify/taulib/docs/book-iv-physics-thermodynamics/entropy-splitting/) | L76-L89 | defined | `IV.D24` |
-| `def` | [EntropySplitting.totalFloat](/verify/taulib/docs/book-iv-physics-thermodynamics/total-float/) | L92-L94 | defined | — |
-| `def` | [EntropySplitting.sDefFloat](/verify/taulib/docs/book-iv-physics-thermodynamics/s-def-float/) | L97-L98 | defined | — |
-| `def` | [EntropySplitting.sRefFloat](/verify/taulib/docs/book-iv-physics-thermodynamics/s-ref-float/) | L101-L102 | defined | — |
-| `structure` | [DefectBudget](/verify/taulib/docs/book-iv-physics-thermodynamics/defect-budget/) | L116-L124 | defined | `IV.D25` |
-| `structure` | [NoRunningPrinciple](/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-principle/) | L140-L151 | defined | `IV.P04` |
-| `def` | [no_running_em](/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-em/) | L158-L162 | defined | — |
-| `def` | [no_running_weak](/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-weak/) | L165-L169 | defined | — |
-| `def` | [no_running_strong](/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-strong/) | L172-L176 | defined | — |
-| `def` | [no_running_gravity](/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-gravity/) | L179-L183 | defined | — |
-| `def` | [no_running_higgs](/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-higgs/) | L186-L190 | defined | — |
-| `def` | [all_no_running](/verify/taulib/docs/book-iv-physics-thermodynamics/all-no-running/) | L193-L195 | defined | — |
-| `theorem` | [euler_budget_conserved](/verify/taulib/docs/book-iv-physics-thermodynamics/euler-budget-conserved/) | L203-L205 | formalized | `IV.T04` |
-| `theorem` | [no_running_all_sectors](/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-all-sectors/) | L208-L208 | formalized | — |
-| `theorem` | [all_regime_independent](/verify/taulib/docs/book-iv-physics-thermodynamics/all-regime-independent/) | L211-L214 | formalized | — |
-| `theorem` | [s_def_zero_at_horizon](/verify/taulib/docs/book-iv-physics-thermodynamics/s-def-zero-at-horizon/) | L218-L219 | formalized | `IV.R05` |
-| `theorem` | [budget_nonneg](/verify/taulib/docs/book-iv-physics-thermodynamics/budget-nonneg/) | L222-L223 | formalized | — |
-| `eval` | [#eval L230](/verify/taulib/docs/book-iv-physics-thermodynamics/eval-l230/) | L230-L230 | computed | — |
-| `eval` | [#eval L234](/verify/taulib/docs/book-iv-physics-thermodynamics/eval-l234/) | L234-L234 | computed | — |
-| `eval` | [#eval L237](/verify/taulib/docs/book-iv-physics-thermodynamics/eval-l237/) | L237-L239 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [EntropySplitting](/corpus/taulib/docs/book-iv-physics-thermodynamics/entropy-splitting/) | L76-L89 | type/data schema | type/data schema | `IV.D24` |
+| `def` | [EntropySplitting.totalFloat](/corpus/taulib/docs/book-iv-physics-thermodynamics/total-float/) | L92-L94 | data/computed value | data/computed value | — |
+| `def` | [EntropySplitting.sDefFloat](/corpus/taulib/docs/book-iv-physics-thermodynamics/s-def-float/) | L97-L98 | data/computed value | data/computed value | — |
+| `def` | [EntropySplitting.sRefFloat](/corpus/taulib/docs/book-iv-physics-thermodynamics/s-ref-float/) | L101-L102 | data/computed value | data/computed value | — |
+| `structure` | [DefectBudget](/corpus/taulib/docs/book-iv-physics-thermodynamics/defect-budget/) | L116-L124 | type/data schema | type/data schema | `IV.D25` |
+| `structure` | [NoRunningPrinciple](/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-principle/) | L140-L151 | type/data schema | type/data schema | `IV.P04` |
+| `def` | [no_running_em](/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-em/) | L158-L162 | definition | definition | — |
+| `def` | [no_running_weak](/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-weak/) | L165-L169 | definition | definition | — |
+| `def` | [no_running_strong](/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-strong/) | L172-L176 | definition | definition | — |
+| `def` | [no_running_gravity](/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-gravity/) | L179-L183 | definition | definition | — |
+| `def` | [no_running_higgs](/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-higgs/) | L186-L190 | definition | definition | — |
+| `def` | [all_no_running](/corpus/taulib/docs/book-iv-physics-thermodynamics/all-no-running/) | L193-L195 | data/computed value | data/computed value | — |
+| `theorem` | [euler_budget_conserved](/corpus/taulib/docs/book-iv-physics-thermodynamics/euler-budget-conserved/) | L203-L205 | proof obligation | formal proof obligation checked | `IV.T04` |
+| `theorem` | [no_running_all_sectors](/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-all-sectors/) | L208-L208 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [all_regime_independent](/corpus/taulib/docs/book-iv-physics-thermodynamics/all-regime-independent/) | L211-L214 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [s_def_zero_at_horizon](/corpus/taulib/docs/book-iv-physics-thermodynamics/s-def-zero-at-horizon/) | L218-L219 | proof obligation | formal proof obligation checked | `IV.R05` |
+| `theorem` | [budget_nonneg](/corpus/taulib/docs/book-iv-physics-thermodynamics/budget-nonneg/) | L222-L223 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L230](/corpus/taulib/docs/book-iv-physics-thermodynamics/eval-l230/) | L230-L230 | computed check | computed check | — |
+| `eval` | [#eval L234](/corpus/taulib/docs/book-iv-physics-thermodynamics/eval-l234/) | L234-L234 | computed check | computed check | — |
+| `eval` | [#eval L237](/corpus/taulib/docs/book-iv-physics-thermodynamics/eval-l237/) | L237-L239 | computed check | computed check | — |

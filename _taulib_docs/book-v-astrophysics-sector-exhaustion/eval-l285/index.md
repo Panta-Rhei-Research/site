@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L285",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/eval-l285/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/eval-l285/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Astrophysics.SectorExhaustion`.",
   "declaration_id": "TauLib.BookV.Astrophysics.SectorExhaustion::#eval:285",
   "declaration_slug": "eval-l285",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Astrophysics.SectorExhaustion",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/",
   "source_line_start": 285,
   "source_line_end": 285,
   "registry_ids": [
@@ -36,15 +36,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L285-L285",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.SectorExhaustion",
-        "url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -61,7 +63,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -82,11 +85,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/)
+- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/)
 - Source path: [`TauLib/BookV/Astrophysics/SectorExhaustion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L285-L285)
 - Source range: L285-L285
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

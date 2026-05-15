@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N10 — Spectral index $n_s = 1 - 2/57$"
-permalink: "/results/falsifications/n10-spectral-index-ns-1-257/"
+permalink: "/falsifications/n10-spectral-index-ns-1-257/"
 lane: "results"
 falsification_id: "N10"
 n_num: 10

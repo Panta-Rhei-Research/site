@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "full_self_enrich_8_3",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/full-self-enrich-8-3/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-self-enrichment/full-self-enrich-8-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Enrichment.SelfEnrichment`.",
   "declaration_id": "TauLib.BookII.Enrichment.SelfEnrichment::full_self_enrich_8_3",
   "declaration_slug": "full-self-enrich-8-3",
   "kind": "theorem",
   "name": "full_self_enrich_8_3",
   "module_name": "TauLib.BookII.Enrichment.SelfEnrichment",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-self-enrichment/",
   "source_line_start": 333,
   "source_line_end": 334,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfEnrichment.lean#L333-L334",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.SelfEnrichment",
-        "url": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-self-enrichment/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.SelfEnrichment](/verify/taulib/docs/book-ii-enrichment-self-enrichment/)
+- Module: [TauLib.BookII.Enrichment.SelfEnrichment](/corpus/taulib/docs/book-ii-enrichment-self-enrichment/)
 - Source path: [`TauLib/BookII/Enrichment/SelfEnrichment.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfEnrichment.lean#L333-L334)
 - Source range: L333-L334
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

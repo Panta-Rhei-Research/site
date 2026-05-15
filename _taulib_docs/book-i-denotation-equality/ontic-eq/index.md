@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ontic_eq",
-  "permalink": "/verify/taulib/docs/book-i-denotation-equality/ontic-eq/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-equality/ontic-eq/",
   "summary_short": "`def` declaration in `TauLib.BookI.Denotation.Equality`.",
   "declaration_id": "TauLib.BookI.Denotation.Equality::ontic_eq",
   "declaration_slug": "ontic-eq",
   "kind": "def",
   "name": "ontic_eq",
   "module_name": "TauLib.BookI.Denotation.Equality",
-  "module_url": "/verify/taulib/docs/book-i-denotation-equality/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-equality/",
   "source_line_start": 32,
   "source_line_end": 32,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Equality.lean#L32-L32",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Equality",
-        "url": "/verify/taulib/docs/book-i-denotation-equality/"
+        "url": "/corpus/taulib/docs/book-i-denotation-equality/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Equality](/verify/taulib/docs/book-i-denotation-equality/)
+- Module: [TauLib.BookI.Denotation.Equality](/corpus/taulib/docs/book-i-denotation-equality/)
 - Source path: [`TauLib/BookI/Denotation/Equality.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Equality.lean#L32-L32)
 - Source range: L32-L32
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

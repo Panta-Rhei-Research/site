@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_running_strong",
-  "permalink": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-strong/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-strong/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.Thermodynamics`.",
   "declaration_id": "TauLib.BookIV.Physics.Thermodynamics::no_running_strong",
   "declaration_slug": "no-running-strong",
   "kind": "def",
   "name": "no_running_strong",
   "module_name": "TauLib.BookIV.Physics.Thermodynamics",
-  "module_url": "/verify/taulib/docs/book-iv-physics-thermodynamics/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/",
   "source_line_start": 172,
   "source_line_end": 176,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L172-L176",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.Thermodynamics",
-        "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/"
+        "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.Thermodynamics](/verify/taulib/docs/book-iv-physics-thermodynamics/)
+- Module: [TauLib.BookIV.Physics.Thermodynamics](/corpus/taulib/docs/book-iv-physics-thermodynamics/)
 - Source path: [`TauLib/BookIV/Physics/Thermodynamics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L172-L176)
 - Source range: L172-L176
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

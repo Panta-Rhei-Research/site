@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "temporal_lemniscate_two_lobes",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-two-lobes/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-two-lobes/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Persistence.TemporalLemniscate`.",
   "declaration_id": "TauLib.BookVI.Persistence.TemporalLemniscate::temporal_lemniscate_two_lobes",
   "declaration_slug": "temporal-lemniscate-two-lobes",
   "kind": "theorem",
   "name": "temporal_lemniscate_two_lobes",
   "module_name": "TauLib.BookVI.Persistence.TemporalLemniscate",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/",
   "source_line_start": 55,
   "source_line_end": 56,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/TemporalLemniscate.lean#L55-L56",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.TemporalLemniscate",
-        "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.TemporalLemniscate](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/)
+- Module: [TauLib.BookVI.Persistence.TemporalLemniscate](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/)
 - Source path: [`TauLib/BookVI/Persistence/TemporalLemniscate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/TemporalLemniscate.lean#L55-L56)
 - Source range: L55-L56
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

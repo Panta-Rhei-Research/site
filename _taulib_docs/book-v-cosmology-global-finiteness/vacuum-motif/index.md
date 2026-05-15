@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "vacuum_motif",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-global-finiteness/vacuum-motif/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/vacuum-motif/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.GlobalFiniteness`.",
   "declaration_id": "TauLib.BookV.Cosmology.GlobalFiniteness::vacuum_motif",
   "declaration_slug": "vacuum-motif",
   "kind": "def",
   "name": "vacuum_motif",
   "module_name": "TauLib.BookV.Cosmology.GlobalFiniteness",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/",
   "source_line_start": 319,
   "source_line_end": 326,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/GlobalFiniteness.lean#L319-L326",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.GlobalFiniteness",
-        "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.GlobalFiniteness](/verify/taulib/docs/book-v-cosmology-global-finiteness/)
+- Module: [TauLib.BookV.Cosmology.GlobalFiniteness](/corpus/taulib/docs/book-v-cosmology-global-finiteness/)
 - Source path: [`TauLib/BookV/Cosmology/GlobalFiniteness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/GlobalFiniteness.lean#L319-L326)
 - Source range: L319-L326
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

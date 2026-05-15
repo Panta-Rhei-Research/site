@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "approach_count",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-other-approaches/approach-count/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-other-approaches/approach-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Orthodox.OtherApproaches`.",
   "declaration_id": "TauLib.BookV.Orthodox.OtherApproaches::approach_count",
   "declaration_slug": "approach-count",
   "kind": "theorem",
   "name": "approach_count",
   "module_name": "TauLib.BookV.Orthodox.OtherApproaches",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-other-approaches/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-other-approaches/",
   "source_line_start": 135,
   "source_line_end": 136,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/OtherApproaches.lean#L135-L136",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.OtherApproaches",
-        "url": "/verify/taulib/docs/book-v-orthodox-other-approaches/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-other-approaches/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.OtherApproaches](/verify/taulib/docs/book-v-orthodox-other-approaches/)
+- Module: [TauLib.BookV.Orthodox.OtherApproaches](/corpus/taulib/docs/book-v-orthodox-other-approaches/)
 - Source path: [`TauLib/BookV/Orthodox/OtherApproaches.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/OtherApproaches.lean#L135-L136)
 - Source range: L135-L136
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

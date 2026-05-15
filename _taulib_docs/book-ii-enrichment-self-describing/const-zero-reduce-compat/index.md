@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "const_zero_reduce_compat",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-self-describing/const-zero-reduce-compat/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-self-describing/const-zero-reduce-compat/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Enrichment.SelfDescribing`.",
   "declaration_id": "TauLib.BookII.Enrichment.SelfDescribing::const_zero_reduce_compat",
   "declaration_slug": "const-zero-reduce-compat",
   "kind": "theorem",
   "name": "const_zero_reduce_compat",
   "module_name": "TauLib.BookII.Enrichment.SelfDescribing",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-self-describing/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/",
   "source_line_start": 233,
   "source_line_end": 235,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L233-L235",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.SelfDescribing",
-        "url": "/verify/taulib/docs/book-ii-enrichment-self-describing/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.SelfDescribing](/verify/taulib/docs/book-ii-enrichment-self-describing/)
+- Module: [TauLib.BookII.Enrichment.SelfDescribing](/corpus/taulib/docs/book-ii-enrichment-self-describing/)
 - Source path: [`TauLib/BookII/Enrichment/SelfDescribing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L233-L235)
 - Source range: L233-L235
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

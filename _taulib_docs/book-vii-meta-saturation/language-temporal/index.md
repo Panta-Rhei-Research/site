@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "language_temporal",
-  "permalink": "/verify/taulib/docs/book-vii-meta-saturation/language-temporal/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-saturation/language-temporal/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Meta.Saturation`.",
   "declaration_id": "TauLib.BookVII.Meta.Saturation::language_temporal",
   "declaration_slug": "language-temporal",
   "kind": "def",
   "name": "language_temporal",
   "module_name": "TauLib.BookVII.Meta.Saturation",
-  "module_url": "/verify/taulib/docs/book-vii-meta-saturation/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-saturation/",
   "source_line_start": 616,
   "source_line_end": 616,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Saturation.lean#L616-L616",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Saturation",
-        "url": "/verify/taulib/docs/book-vii-meta-saturation/"
+        "url": "/corpus/taulib/docs/book-vii-meta-saturation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Saturation](/verify/taulib/docs/book-vii-meta-saturation/)
+- Module: [TauLib.BookVII.Meta.Saturation](/corpus/taulib/docs/book-vii-meta-saturation/)
 - Source path: [`TauLib/BookVII/Meta/Saturation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Saturation.lean#L616-L616)
 - Source range: L616-L616
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

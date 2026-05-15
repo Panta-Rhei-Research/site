@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauComplex.negate",
-  "permalink": "/verify/taulib/docs/book-i-boundary-complex-field/negate/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-complex-field/negate/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.ComplexField`.",
   "declaration_id": "TauLib.BookI.Boundary.ComplexField::TauComplex.negate",
   "declaration_slug": "negate",
   "kind": "def",
   "name": "TauComplex.negate",
   "module_name": "TauLib.BookI.Boundary.ComplexField",
-  "module_url": "/verify/taulib/docs/book-i-boundary-complex-field/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-complex-field/",
   "source_line_start": 94,
   "source_line_end": 95,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ComplexField.lean#L94-L95",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.ComplexField",
-        "url": "/verify/taulib/docs/book-i-boundary-complex-field/"
+        "url": "/corpus/taulib/docs/book-i-boundary-complex-field/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.ComplexField](/verify/taulib/docs/book-i-boundary-complex-field/)
+- Module: [TauLib.BookI.Boundary.ComplexField](/corpus/taulib/docs/book-i-boundary-complex-field/)
 - Source path: [`TauLib/BookI/Boundary/ComplexField.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ComplexField.lean#L94-L95)
 - Source range: L94-L95
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

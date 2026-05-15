@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "maxwell_complete",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-complete/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/maxwell-complete/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.DimensionalBridge`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionalBridge::maxwell_complete",
   "declaration_slug": "maxwell-complete",
   "kind": "theorem",
   "name": "maxwell_complete",
   "module_name": "TauLib.BookIV.Calibration.DimensionalBridge",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/",
   "source_line_start": 191,
   "source_line_end": 200,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridge.lean#L191-L200",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionalBridge",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionalBridge](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/)
+- Module: [TauLib.BookIV.Calibration.DimensionalBridge](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionalBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridge.lean#L191-L200)
 - Source range: L191-L200
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

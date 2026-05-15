@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tetration_exceeds_primorial",
-  "permalink": "/verify/taulib/docs/book-i-denotation-growth-escape/tetration-exceeds-primorial/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-growth-escape/tetration-exceeds-primorial/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Denotation.GrowthEscape`.",
   "declaration_id": "TauLib.BookI.Denotation.GrowthEscape::tetration_exceeds_primorial",
   "declaration_slug": "tetration-exceeds-primorial",
   "kind": "theorem",
   "name": "tetration_exceeds_primorial",
   "module_name": "TauLib.BookI.Denotation.GrowthEscape",
-  "module_url": "/verify/taulib/docs/book-i-denotation-growth-escape/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-growth-escape/",
   "source_line_start": 38,
   "source_line_end": 40,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/GrowthEscape.lean#L38-L40",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.GrowthEscape",
-        "url": "/verify/taulib/docs/book-i-denotation-growth-escape/"
+        "url": "/corpus/taulib/docs/book-i-denotation-growth-escape/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.GrowthEscape](/verify/taulib/docs/book-i-denotation-growth-escape/)
+- Module: [TauLib.BookI.Denotation.GrowthEscape](/corpus/taulib/docs/book-i-denotation-growth-escape/)
 - Source path: [`TauLib/BookI/Denotation/GrowthEscape.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/GrowthEscape.lean#L38-L40)
 - Source range: L38-L40
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

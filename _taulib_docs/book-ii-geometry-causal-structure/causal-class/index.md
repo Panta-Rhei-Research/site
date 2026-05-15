@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CausalClass",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-causal-structure/causal-class/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-causal-structure/causal-class/",
   "summary_short": "`inductive` declaration in `TauLib.BookII.Geometry.CausalStructure`.",
   "declaration_id": "TauLib.BookII.Geometry.CausalStructure::CausalClass",
   "declaration_slug": "causal-class",
   "kind": "inductive",
   "name": "CausalClass",
   "module_name": "TauLib.BookII.Geometry.CausalStructure",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-causal-structure/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/",
   "source_line_start": 94,
   "source_line_end": 98,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/CausalStructure.lean#L94-L98",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.CausalStructure",
-        "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.CausalStructure](/verify/taulib/docs/book-ii-geometry-causal-structure/)
+- Module: [TauLib.BookII.Geometry.CausalStructure](/corpus/taulib/docs/book-ii-geometry-causal-structure/)
 - Source path: [`TauLib/BookII/Geometry/CausalStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/CausalStructure.lean#L94-L98)
 - Source range: L94-L98
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

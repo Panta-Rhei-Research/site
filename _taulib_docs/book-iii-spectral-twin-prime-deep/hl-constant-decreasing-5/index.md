@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hl_constant_decreasing_5",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-twin-prime-deep/hl-constant-decreasing-5/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/hl-constant-decreasing-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.TwinPrimeDeep`.",
   "declaration_id": "TauLib.BookIII.Spectral.TwinPrimeDeep::hl_constant_decreasing_5",
   "declaration_slug": "hl-constant-decreasing-5",
   "kind": "theorem",
   "name": "hl_constant_decreasing_5",
   "module_name": "TauLib.BookIII.Spectral.TwinPrimeDeep",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-twin-prime-deep/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/",
   "source_line_start": 211,
   "source_line_end": 212,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/TwinPrimeDeep.lean#L211-L212",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.TwinPrimeDeep",
-        "url": "/verify/taulib/docs/book-iii-spectral-twin-prime-deep/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.TwinPrimeDeep](/verify/taulib/docs/book-iii-spectral-twin-prime-deep/)
+- Module: [TauLib.BookIII.Spectral.TwinPrimeDeep](/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/)
 - Source path: [`TauLib/BookIII/Spectral/TwinPrimeDeep.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/TwinPrimeDeep.lean#L211-L212)
 - Source range: L211-L212
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

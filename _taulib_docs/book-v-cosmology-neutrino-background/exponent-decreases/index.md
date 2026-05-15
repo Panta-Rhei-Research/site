@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "exponent_decreases",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-neutrino-background/exponent-decreases/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/exponent-decreases/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.NeutrinoBackground`.",
   "declaration_id": "TauLib.BookV.Cosmology.NeutrinoBackground::exponent_decreases",
   "declaration_slug": "exponent-decreases",
   "kind": "theorem",
   "name": "exponent_decreases",
   "module_name": "TauLib.BookV.Cosmology.NeutrinoBackground",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/",
   "source_line_start": 115,
   "source_line_end": 116,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L115-L116",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.NeutrinoBackground",
-        "url": "/verify/taulib/docs/book-v-cosmology-neutrino-background/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-neutrino-background/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/verify/taulib/docs/book-v-cosmology-neutrino-background/)
+- Module: [TauLib.BookV.Cosmology.NeutrinoBackground](/corpus/taulib/docs/book-v-cosmology-neutrino-background/)
 - Source path: [`TauLib/BookV/Cosmology/NeutrinoBackground.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/NeutrinoBackground.lean#L115-L116)
 - Source range: L115-L116
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

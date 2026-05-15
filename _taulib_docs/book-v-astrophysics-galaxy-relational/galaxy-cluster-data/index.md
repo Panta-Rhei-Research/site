@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "GalaxyClusterData",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-galaxy-relational/galaxy-cluster-data/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/galaxy-cluster-data/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Astrophysics.GalaxyRelational`.",
   "declaration_id": "TauLib.BookV.Astrophysics.GalaxyRelational::GalaxyClusterData",
   "declaration_slug": "galaxy-cluster-data",
   "kind": "structure",
   "name": "GalaxyClusterData",
   "module_name": "TauLib.BookV.Astrophysics.GalaxyRelational",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-galaxy-relational/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/",
   "source_line_start": 187,
   "source_line_end": 200,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/GalaxyRelational.lean#L187-L200",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.GalaxyRelational",
-        "url": "/verify/taulib/docs/book-v-astrophysics-galaxy-relational/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.GalaxyRelational](/verify/taulib/docs/book-v-astrophysics-galaxy-relational/)
+- Module: [TauLib.BookV.Astrophysics.GalaxyRelational](/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/)
 - Source path: [`TauLib/BookV/Astrophysics/GalaxyRelational.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/GalaxyRelational.lean#L187-L200)
 - Source range: L187-L200
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

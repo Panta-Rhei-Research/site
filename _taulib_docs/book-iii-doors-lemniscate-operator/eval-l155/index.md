@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L155",
-  "permalink": "/verify/taulib/docs/book-iii-doors-lemniscate-operator/eval-l155/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-lemniscate-operator/eval-l155/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Doors.LemniscateOperator`.",
   "declaration_id": "TauLib.BookIII.Doors.LemniscateOperator::#eval:155",
   "declaration_slug": "eval-l155",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Doors.LemniscateOperator",
-  "module_url": "/verify/taulib/docs/book-iii-doors-lemniscate-operator/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-lemniscate-operator/",
   "source_line_start": 155,
   "source_line_end": 155,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/LemniscateOperator.lean#L155-L155",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.LemniscateOperator",
-        "url": "/verify/taulib/docs/book-iii-doors-lemniscate-operator/"
+        "url": "/corpus/taulib/docs/book-iii-doors-lemniscate-operator/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.LemniscateOperator](/verify/taulib/docs/book-iii-doors-lemniscate-operator/)
+- Module: [TauLib.BookIII.Doors.LemniscateOperator](/corpus/taulib/docs/book-iii-doors-lemniscate-operator/)
 - Source path: [`TauLib/BookIII/Doors/LemniscateOperator.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/LemniscateOperator.lean#L155-L155)
 - Source range: L155-L155
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

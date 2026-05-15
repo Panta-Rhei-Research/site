@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_strict_mem_induction",
-  "permalink": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-induction/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-induction/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.Powerset`.",
   "declaration_id": "TauLib.BookI.Sets.Powerset::tau_strict_mem_induction",
   "declaration_slug": "tau-strict-mem-induction",
   "kind": "theorem",
   "name": "tau_strict_mem_induction",
   "module_name": "TauLib.BookI.Sets.Powerset",
-  "module_url": "/verify/taulib/docs/book-i-sets-powerset/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-powerset/",
   "source_line_start": 105,
   "source_line_end": 108,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Powerset.lean#L105-L108",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Powerset",
-        "url": "/verify/taulib/docs/book-i-sets-powerset/"
+        "url": "/corpus/taulib/docs/book-i-sets-powerset/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Powerset](/verify/taulib/docs/book-i-sets-powerset/)
+- Module: [TauLib.BookI.Sets.Powerset](/corpus/taulib/docs/book-i-sets-powerset/)
 - Source path: [`TauLib/BookI/Sets/Powerset.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Powerset.lean#L105-L108)
 - Source range: L105-L108
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

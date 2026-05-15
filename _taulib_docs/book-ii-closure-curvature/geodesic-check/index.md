@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "geodesic_check",
-  "permalink": "/verify/taulib/docs/book-ii-closure-curvature/geodesic-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-curvature/geodesic-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Closure.Curvature`.",
   "declaration_id": "TauLib.BookII.Closure.Curvature::geodesic_check",
   "declaration_slug": "geodesic-check",
   "kind": "def",
   "name": "geodesic_check",
   "module_name": "TauLib.BookII.Closure.Curvature",
-  "module_url": "/verify/taulib/docs/book-ii-closure-curvature/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-curvature/",
   "source_line_start": 93,
   "source_line_end": 109,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/Curvature.lean#L93-L109",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.Curvature",
-        "url": "/verify/taulib/docs/book-ii-closure-curvature/"
+        "url": "/corpus/taulib/docs/book-ii-closure-curvature/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.Curvature](/verify/taulib/docs/book-ii-closure-curvature/)
+- Module: [TauLib.BookII.Closure.Curvature](/corpus/taulib/docs/book-ii-closure-curvature/)
 - Source path: [`TauLib/BookII/Closure/Curvature.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/Curvature.lean#L93-L109)
 - Source range: L93-L109
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L376",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-germs/example-l376/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-germs/example-l376/",
   "summary_short": "`example` declaration in `TauLib.BookI.Polarity.OmegaGerms`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaGerms::#eval:376",
   "declaration_slug": "example-l376",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.OmegaGerms",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-germs/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-germs/",
   "source_line_start": 376,
   "source_line_end": 377,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L376-L377",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaGerms",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-germs/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-germs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaGerms](/verify/taulib/docs/book-i-polarity-omega-germs/)
+- Module: [TauLib.BookI.Polarity.OmegaGerms](/corpus/taulib/docs/book-i-polarity-omega-germs/)
 - Source path: [`TauLib/BookI/Polarity/OmegaGerms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L376-L377)
 - Source range: L376-L377
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

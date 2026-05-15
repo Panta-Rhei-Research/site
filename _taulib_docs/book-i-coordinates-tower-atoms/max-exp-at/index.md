@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "max_exp_at",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-tower-atoms/max-exp-at/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/max-exp-at/",
   "summary_short": "`def` declaration in `TauLib.BookI.Coordinates.TowerAtoms`.",
   "declaration_id": "TauLib.BookI.Coordinates.TowerAtoms::max_exp_at",
   "declaration_slug": "max-exp-at",
   "kind": "def",
   "name": "max_exp_at",
   "module_name": "TauLib.BookI.Coordinates.TowerAtoms",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-tower-atoms/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/",
   "source_line_start": 188,
   "source_line_end": 197,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/TowerAtoms.lean#L188-L197",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.TowerAtoms",
-        "url": "/verify/taulib/docs/book-i-coordinates-tower-atoms/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-tower-atoms/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.TowerAtoms](/verify/taulib/docs/book-i-coordinates-tower-atoms/)
+- Module: [TauLib.BookI.Coordinates.TowerAtoms](/corpus/taulib/docs/book-i-coordinates-tower-atoms/)
 - Source path: [`TauLib/BookI/Coordinates/TowerAtoms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/TowerAtoms.lean#L188-L197)
 - Source range: L188-L197
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

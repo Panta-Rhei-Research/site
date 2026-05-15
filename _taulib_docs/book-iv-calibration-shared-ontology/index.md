@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.SharedOntology",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-shared-ontology/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.SharedOntology`.",
   "module_name": "TauLib.BookIV.Calibration.SharedOntology",
   "module_slug": "book-iv-calibration-shared-ontology",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "CalibrationMap",
-      "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-map/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-map/",
       "source_line_start": 31,
       "source_line_end": 40,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P159"
       ]
@@ -46,19 +48,23 @@
     {
       "kind": "def",
       "name": "calibration_map",
-      "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-map-l43/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-map-l43/",
       "source_line_start": 43,
       "source_line_end": 48,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "calibration_structural",
-      "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-structural/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-structural/",
       "source_line_start": 52,
       "source_line_end": 55,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P159"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/eval-l73/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/eval-l73/",
       "source_line_start": 73,
       "source_line_end": 73,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R242",
         "IV.R243",
@@ -79,10 +87,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/eval-l74/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/eval-l74/",
       "source_line_start": 74,
       "source_line_end": 76,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -94,7 +104,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -167,10 +177,10 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CalibrationMap](/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-map/) | L31-L40 | defined | `IV.P159` |
-| `def` | [calibration_map](/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-map-l43/) | L43-L48 | defined | — |
-| `theorem` | [calibration_structural](/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-structural/) | L52-L55 | formalized | `IV.P159` |
-| `eval` | [#eval L73](/verify/taulib/docs/book-iv-calibration-shared-ontology/eval-l73/) | L73-L73 | computed | `IV.R242`, `IV.R243`, `IV.R245` |
-| `eval` | [#eval L74](/verify/taulib/docs/book-iv-calibration-shared-ontology/eval-l74/) | L74-L76 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CalibrationMap](/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-map/) | L31-L40 | type/data schema | type/data schema | `IV.P159` |
+| `def` | [calibration_map](/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-map-l43/) | L43-L48 | definition | definition | — |
+| `theorem` | [calibration_structural](/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-structural/) | L52-L55 | proof obligation | formal proof obligation checked | `IV.P159` |
+| `eval` | [#eval L73](/corpus/taulib/docs/book-iv-calibration-shared-ontology/eval-l73/) | L73-L73 | computed check | computed check | `IV.R242`, `IV.R243`, `IV.R245` |
+| `eval` | [#eval L74](/corpus/taulib/docs/book-iv-calibration-shared-ontology/eval-l74/) | L74-L76 | computed check | computed check | — |

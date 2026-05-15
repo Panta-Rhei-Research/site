@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L272",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/eval-l272/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/eval-l272/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Hartogs.CalibratedSplitComplex`.",
   "declaration_id": "TauLib.BookII.Hartogs.CalibratedSplitComplex::#eval:272",
   "declaration_slug": "eval-l272",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/",
   "source_line_start": 272,
   "source_line_end": 272,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CalibratedSplitComplex.lean#L272-L272",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CalibratedSplitComplex",
-        "url": "/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CalibratedSplitComplex](/verify/taulib/docs/book-ii-hartogs-calibrated-split-complex/)
+- Module: [TauLib.BookII.Hartogs.CalibratedSplitComplex](/corpus/taulib/docs/book-ii-hartogs-calibrated-split-complex/)
 - Source path: [`TauLib/BookII/Hartogs/CalibratedSplitComplex.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CalibratedSplitComplex.lean#L272-L272)
 - Source range: L272-L272
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

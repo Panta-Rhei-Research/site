@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "obstruction_value",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-translation-obstruction/obstruction-value/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-translation-obstruction/obstruction-value/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Bridge.TranslationObstruction`.",
   "declaration_id": "TauLib.BookIII.Bridge.TranslationObstruction::obstruction_value",
   "declaration_slug": "obstruction-value",
   "kind": "def",
   "name": "obstruction_value",
   "module_name": "TauLib.BookIII.Bridge.TranslationObstruction",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-translation-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-translation-obstruction/",
   "source_line_start": 78,
   "source_line_end": 98,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/TranslationObstruction.lean#L78-L98",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.TranslationObstruction",
-        "url": "/verify/taulib/docs/book-iii-bridge-translation-obstruction/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-translation-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.TranslationObstruction](/verify/taulib/docs/book-iii-bridge-translation-obstruction/)
+- Module: [TauLib.BookIII.Bridge.TranslationObstruction](/corpus/taulib/docs/book-iii-bridge-translation-obstruction/)
 - Source path: [`TauLib/BookIII/Bridge/TranslationObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/TranslationObstruction.lean#L78-L98)
 - Source range: L78-L98
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

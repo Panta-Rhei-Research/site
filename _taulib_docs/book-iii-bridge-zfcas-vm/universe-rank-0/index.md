@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "universe_rank_0",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/universe-rank-0/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/universe-rank-0/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Bridge.ZFCasVM`.",
   "declaration_id": "TauLib.BookIII.Bridge.ZFCasVM::universe_rank_0",
   "declaration_slug": "universe-rank-0",
   "kind": "theorem",
   "name": "universe_rank_0",
   "module_name": "TauLib.BookIII.Bridge.ZFCasVM",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/",
   "source_line_start": 295,
   "source_line_end": 295,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ZFCasVM.lean#L295-L295",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ZFCasVM",
-        "url": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ZFCasVM](/verify/taulib/docs/book-iii-bridge-zfcas-vm/)
+- Module: [TauLib.BookIII.Bridge.ZFCasVM](/corpus/taulib/docs/book-iii-bridge-zfcas-vm/)
 - Source path: [`TauLib/BookIII/Bridge/ZFCasVM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ZFCasVM.lean#L295-L295)
 - Source range: L295-L295
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "gr_as_chart_shadow",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/gr-as-chart-shadow/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/gr-as-chart-shadow/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Orthodox.EmergentGeometry`.",
   "declaration_id": "TauLib.BookV.Orthodox.EmergentGeometry::gr_as_chart_shadow",
   "declaration_slug": "gr-as-chart-shadow",
   "kind": "theorem",
   "name": "gr_as_chart_shadow",
   "module_name": "TauLib.BookV.Orthodox.EmergentGeometry",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/",
   "source_line_start": 100,
   "source_line_end": 102,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/EmergentGeometry.lean#L100-L102",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.EmergentGeometry",
-        "url": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.EmergentGeometry](/verify/taulib/docs/book-v-orthodox-emergent-geometry/)
+- Module: [TauLib.BookV.Orthodox.EmergentGeometry](/corpus/taulib/docs/book-v-orthodox-emergent-geometry/)
 - Source path: [`TauLib/BookV/Orthodox/EmergentGeometry.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/EmergentGeometry.lean#L100-L102)
 - Source range: L100-L102
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ultrametric_replaces_card",
-  "permalink": "/verify/taulib/docs/book-i-sets-unique-infinity/ultrametric-replaces-card/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-unique-infinity/ultrametric-replaces-card/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.UniqueInfinity`.",
   "declaration_id": "TauLib.BookI.Sets.UniqueInfinity::ultrametric_replaces_card",
   "declaration_slug": "ultrametric-replaces-card",
   "kind": "theorem",
   "name": "ultrametric_replaces_card",
   "module_name": "TauLib.BookI.Sets.UniqueInfinity",
-  "module_url": "/verify/taulib/docs/book-i-sets-unique-infinity/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-unique-infinity/",
   "source_line_start": 177,
   "source_line_end": 187,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/UniqueInfinity.lean#L177-L187",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.UniqueInfinity",
-        "url": "/verify/taulib/docs/book-i-sets-unique-infinity/"
+        "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.UniqueInfinity](/verify/taulib/docs/book-i-sets-unique-infinity/)
+- Module: [TauLib.BookI.Sets.UniqueInfinity](/corpus/taulib/docs/book-i-sets-unique-infinity/)
 - Source path: [`TauLib/BookI/Sets/UniqueInfinity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/UniqueInfinity.lean#L177-L187)
 - Source range: L177-L187
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

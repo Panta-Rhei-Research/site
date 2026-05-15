@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "weinberg_nnlo_coeffs",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nnlo-coeffs/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nnlo-coeffs/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.WeinbergNLO`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeinbergNLO::weinberg_nnlo_coeffs",
   "declaration_slug": "weinberg-nnlo-coeffs",
   "kind": "def",
   "name": "weinberg_nnlo_coeffs",
   "module_name": "TauLib.BookIV.Electroweak.WeinbergNLO",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/",
   "source_line_start": 223,
   "source_line_end": 224,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeinbergNLO.lean#L223-L224",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeinbergNLO",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeinbergNLO](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/)
+- Module: [TauLib.BookIV.Electroweak.WeinbergNLO](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/)
 - Source path: [`TauLib/BookIV/Electroweak/WeinbergNLO.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeinbergNLO.lean#L223-L224)
 - Source range: L223-L224
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

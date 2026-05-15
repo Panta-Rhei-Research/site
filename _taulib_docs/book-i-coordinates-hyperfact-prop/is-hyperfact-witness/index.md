@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "IsHyperfactWitness",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/is-hyperfact-witness/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/is-hyperfact-witness/",
   "summary_short": "`def` declaration in `TauLib.BookI.Coordinates.HyperfactProp`.",
   "declaration_id": "TauLib.BookI.Coordinates.HyperfactProp::IsHyperfactWitness",
   "declaration_slug": "is-hyperfact-witness",
   "kind": "def",
   "name": "IsHyperfactWitness",
   "module_name": "TauLib.BookI.Coordinates.HyperfactProp",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/",
   "source_line_start": 73,
   "source_line_end": 76,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactProp.lean#L73-L76",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.HyperfactProp",
-        "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.HyperfactProp](/verify/taulib/docs/book-i-coordinates-hyperfact-prop/)
+- Module: [TauLib.BookI.Coordinates.HyperfactProp](/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/)
 - Source path: [`TauLib/BookI/Coordinates/HyperfactProp.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactProp.lean#L73-L76)
 - Source range: L73-L76
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Cosmology.GlobalFiniteness",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-global-finiteness/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Cosmology.GlobalFiniteness`.",
   "module_name": "TauLib.BookV.Cosmology.GlobalFiniteness",
   "module_slug": "book-v-cosmology-global-finiteness",
@@ -43,19 +43,23 @@
     {
       "kind": "inductive",
       "name": "MotifStability",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/motif-stability/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/motif-stability/",
       "source_line_start": 73,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TopologicalMotif",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/topological-motif/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/topological-motif/",
       "source_line_start": 87,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D178"
       ]
@@ -63,10 +67,12 @@
     {
       "kind": "structure",
       "name": "FiniteMotifBound",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-bound/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-bound/",
       "source_line_start": 119,
       "source_line_end": 132,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T116"
       ]
@@ -74,37 +80,45 @@
     {
       "kind": "def",
       "name": "motif_bound_depth1",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/motif-bound-depth1/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/motif-bound-depth1/",
       "source_line_start": 135,
       "source_line_end": 141,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "finite_motif_theorem",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-theorem/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-theorem/",
       "source_line_start": 144,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "defect_tuple_base",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/defect-tuple-base/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/defect-tuple-base/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SaturationRadius",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius/",
       "source_line_start": 162,
       "source_line_end": 171,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D179"
       ]
@@ -112,10 +126,12 @@
     {
       "kind": "theorem",
       "name": "saturation_radius_theorem",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius-theorem/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius-theorem/",
       "source_line_start": 186,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T117"
       ]
@@ -123,10 +139,12 @@
     {
       "kind": "structure",
       "name": "AbsorbingPattern",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern/",
       "source_line_start": 201,
       "source_line_end": 212,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D180"
       ]
@@ -134,10 +152,12 @@
     {
       "kind": "theorem",
       "name": "absorbing_pattern_theorem",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern-theorem/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern-theorem/",
       "source_line_start": 227,
       "source_line_end": 229,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T118"
       ]
@@ -145,10 +165,12 @@
     {
       "kind": "def",
       "name": "contrast_fractal",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal/",
       "source_line_start": 238,
       "source_line_end": 240,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.R234"
       ]
@@ -156,19 +178,23 @@
     {
       "kind": "theorem",
       "name": "contrast_fractal_holds",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal-holds/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal-holds/",
       "source_line_start": 242,
       "source_line_end": 242,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "saturation_vs_observable",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable/",
       "source_line_start": 252,
       "source_line_end": 254,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.R235"
       ]
@@ -176,19 +202,23 @@
     {
       "kind": "theorem",
       "name": "saturation_vs_observable_holds",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable-holds/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable-holds/",
       "source_line_start": 256,
       "source_line_end": 256,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_infinite_hierarchy",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/no-infinite-hierarchy/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/no-infinite-hierarchy/",
       "source_line_start": 265,
       "source_line_end": 267,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.R236"
       ]
@@ -196,19 +226,23 @@
     {
       "kind": "theorem",
       "name": "no_hierarchy_holds",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/no-hierarchy-holds/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/no-hierarchy-holds/",
       "source_line_start": 269,
       "source_line_end": 269,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GlobalFinitenessStatement",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness-statement/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness-statement/",
       "source_line_start": 285,
       "source_line_end": 294,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.C20"
       ]
@@ -216,19 +250,23 @@
     {
       "kind": "theorem",
       "name": "global_finiteness",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness/",
       "source_line_start": 297,
       "source_line_end": 298,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "what_chain_does_not_prove",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/what-chain-does-not-prove/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/what-chain-does-not-prove/",
       "source_line_start": 308,
       "source_line_end": 310,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.R237"
       ]
@@ -236,64 +274,78 @@
     {
       "kind": "theorem",
       "name": "chain_disclaimer_holds",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/chain-disclaimer-holds/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/chain-disclaimer-holds/",
       "source_line_start": 312,
       "source_line_end": 312,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "vacuum_motif",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/vacuum-motif/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/vacuum-motif/",
       "source_line_start": 319,
       "source_line_end": 326,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_absorbing",
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/example-absorbing/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/example-absorbing/",
       "source_line_start": 329,
       "source_line_end": 331,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l333/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l333/",
       "source_line_start": 333,
       "source_line_end": 333,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l334/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l334/",
       "source_line_start": 334,
       "source_line_end": 334,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l335/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l335/",
       "source_line_start": 335,
       "source_line_end": 335,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l336/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l336/",
       "source_line_start": 336,
       "source_line_end": 338,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -305,7 +357,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -386,31 +438,31 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [MotifStability](/verify/taulib/docs/book-v-cosmology-global-finiteness/motif-stability/) | L73-L80 | defined | — |
-| `structure` | [TopologicalMotif](/verify/taulib/docs/book-v-cosmology-global-finiteness/topological-motif/) | L87-L102 | defined | `V.D178` |
-| `structure` | [FiniteMotifBound](/verify/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-bound/) | L119-L132 | defined | `V.T116` |
-| `def` | [motif_bound_depth1](/verify/taulib/docs/book-v-cosmology-global-finiteness/motif-bound-depth1/) | L135-L141 | defined | — |
-| `theorem` | [finite_motif_theorem](/verify/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-theorem/) | L144-L145 | formalized | — |
-| `theorem` | [defect_tuple_base](/verify/taulib/docs/book-v-cosmology-global-finiteness/defect-tuple-base/) | L148-L148 | formalized | — |
-| `structure` | [SaturationRadius](/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius/) | L162-L171 | defined | `V.D179` |
-| `theorem` | [saturation_radius_theorem](/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius-theorem/) | L186-L187 | formalized | `V.T117` |
-| `structure` | [AbsorbingPattern](/verify/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern/) | L201-L212 | defined | `V.D180` |
-| `theorem` | [absorbing_pattern_theorem](/verify/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern-theorem/) | L227-L229 | formalized | `V.T118` |
-| `def` | [contrast_fractal](/verify/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal/) | L238-L240 | defined | `V.R234` |
-| `theorem` | [contrast_fractal_holds](/verify/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal-holds/) | L242-L242 | formalized | — |
-| `def` | [saturation_vs_observable](/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable/) | L252-L254 | defined | `V.R235` |
-| `theorem` | [saturation_vs_observable_holds](/verify/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable-holds/) | L256-L256 | formalized | — |
-| `def` | [no_infinite_hierarchy](/verify/taulib/docs/book-v-cosmology-global-finiteness/no-infinite-hierarchy/) | L265-L267 | defined | `V.R236` |
-| `theorem` | [no_hierarchy_holds](/verify/taulib/docs/book-v-cosmology-global-finiteness/no-hierarchy-holds/) | L269-L269 | formalized | — |
-| `structure` | [GlobalFinitenessStatement](/verify/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness-statement/) | L285-L294 | defined | `V.C20` |
-| `theorem` | [global_finiteness](/verify/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness/) | L297-L298 | formalized | — |
-| `def` | [what_chain_does_not_prove](/verify/taulib/docs/book-v-cosmology-global-finiteness/what-chain-does-not-prove/) | L308-L310 | defined | `V.R237` |
-| `theorem` | [chain_disclaimer_holds](/verify/taulib/docs/book-v-cosmology-global-finiteness/chain-disclaimer-holds/) | L312-L312 | formalized | — |
-| `def` | [vacuum_motif](/verify/taulib/docs/book-v-cosmology-global-finiteness/vacuum-motif/) | L319-L326 | defined | — |
-| `def` | [example_absorbing](/verify/taulib/docs/book-v-cosmology-global-finiteness/example-absorbing/) | L329-L331 | defined | — |
-| `eval` | [#eval L333](/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l333/) | L333-L333 | computed | — |
-| `eval` | [#eval L334](/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l334/) | L334-L334 | computed | — |
-| `eval` | [#eval L335](/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l335/) | L335-L335 | computed | — |
-| `eval` | [#eval L336](/verify/taulib/docs/book-v-cosmology-global-finiteness/eval-l336/) | L336-L338 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [MotifStability](/corpus/taulib/docs/book-v-cosmology-global-finiteness/motif-stability/) | L73-L80 | type/data schema | type/data schema | — |
+| `structure` | [TopologicalMotif](/corpus/taulib/docs/book-v-cosmology-global-finiteness/topological-motif/) | L87-L102 | type/data schema | type/data schema | `V.D178` |
+| `structure` | [FiniteMotifBound](/corpus/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-bound/) | L119-L132 | type/data schema | type/data schema | `V.T116` |
+| `def` | [motif_bound_depth1](/corpus/taulib/docs/book-v-cosmology-global-finiteness/motif-bound-depth1/) | L135-L141 | definition | definition | — |
+| `theorem` | [finite_motif_theorem](/corpus/taulib/docs/book-v-cosmology-global-finiteness/finite-motif-theorem/) | L144-L145 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [defect_tuple_base](/corpus/taulib/docs/book-v-cosmology-global-finiteness/defect-tuple-base/) | L148-L148 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SaturationRadius](/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius/) | L162-L171 | type/data schema | type/data schema | `V.D179` |
+| `theorem` | [saturation_radius_theorem](/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-radius-theorem/) | L186-L187 | proof obligation | formal proof obligation checked | `V.T117` |
+| `structure` | [AbsorbingPattern](/corpus/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern/) | L201-L212 | type/data schema | type/data schema | `V.D180` |
+| `theorem` | [absorbing_pattern_theorem](/corpus/taulib/docs/book-v-cosmology-global-finiteness/absorbing-pattern-theorem/) | L227-L229 | proof obligation | formal proof obligation checked | `V.T118` |
+| `def` | [contrast_fractal](/corpus/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal/) | L238-L240 | definition | definition | `V.R234` |
+| `theorem` | [contrast_fractal_holds](/corpus/taulib/docs/book-v-cosmology-global-finiteness/contrast-fractal-holds/) | L242-L242 | proof obligation | formal proof obligation checked | — |
+| `def` | [saturation_vs_observable](/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable/) | L252-L254 | definition | definition | `V.R235` |
+| `theorem` | [saturation_vs_observable_holds](/corpus/taulib/docs/book-v-cosmology-global-finiteness/saturation-vs-observable-holds/) | L256-L256 | proof obligation | formal proof obligation checked | — |
+| `def` | [no_infinite_hierarchy](/corpus/taulib/docs/book-v-cosmology-global-finiteness/no-infinite-hierarchy/) | L265-L267 | definition | definition | `V.R236` |
+| `theorem` | [no_hierarchy_holds](/corpus/taulib/docs/book-v-cosmology-global-finiteness/no-hierarchy-holds/) | L269-L269 | proof obligation | formal proof obligation checked | — |
+| `structure` | [GlobalFinitenessStatement](/corpus/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness-statement/) | L285-L294 | type/data schema | type/data schema | `V.C20` |
+| `theorem` | [global_finiteness](/corpus/taulib/docs/book-v-cosmology-global-finiteness/global-finiteness/) | L297-L298 | proof obligation | formal proof obligation checked | — |
+| `def` | [what_chain_does_not_prove](/corpus/taulib/docs/book-v-cosmology-global-finiteness/what-chain-does-not-prove/) | L308-L310 | definition | definition | `V.R237` |
+| `theorem` | [chain_disclaimer_holds](/corpus/taulib/docs/book-v-cosmology-global-finiteness/chain-disclaimer-holds/) | L312-L312 | proof obligation | formal proof obligation checked | — |
+| `def` | [vacuum_motif](/corpus/taulib/docs/book-v-cosmology-global-finiteness/vacuum-motif/) | L319-L326 | definition | definition | — |
+| `def` | [example_absorbing](/corpus/taulib/docs/book-v-cosmology-global-finiteness/example-absorbing/) | L329-L331 | definition | definition | — |
+| `eval` | [#eval L333](/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l333/) | L333-L333 | computed check | computed check | — |
+| `eval` | [#eval L334](/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l334/) | L334-L334 | computed check | computed check | — |
+| `eval` | [#eval L335](/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l335/) | L335-L335 | computed check | computed check | — |
+| `eval` | [#eval L336](/corpus/taulib/docs/book-v-cosmology-global-finiteness/eval-l336/) | L336-L338 | computed check | computed check | — |

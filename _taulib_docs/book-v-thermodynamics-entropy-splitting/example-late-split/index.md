@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example_late_split",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/example-late-split/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/example-late-split/",
   "summary_short": "`def` declaration in `TauLib.BookV.Thermodynamics.EntropySplitting`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.EntropySplitting::example_late_split",
   "declaration_slug": "example-late-split",
   "kind": "def",
   "name": "example_late_split",
   "module_name": "TauLib.BookV.Thermodynamics.EntropySplitting",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/",
   "source_line_start": 308,
   "source_line_end": 314,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L308-L314",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.EntropySplitting",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/)
+- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/)
 - Source path: [`TauLib/BookV/Thermodynamics/EntropySplitting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L308-L314)
 - Source range: L308-L314
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

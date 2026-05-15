@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "full_saturation_check",
-  "permalink": "/verify/taulib/docs/book-iii-mirror-saturation/full-saturation-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-mirror-saturation/full-saturation-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Mirror.Saturation`.",
   "declaration_id": "TauLib.BookIII.Mirror.Saturation::full_saturation_check",
   "declaration_slug": "full-saturation-check",
   "kind": "def",
   "name": "full_saturation_check",
   "module_name": "TauLib.BookIII.Mirror.Saturation",
-  "module_url": "/verify/taulib/docs/book-iii-mirror-saturation/",
+  "module_url": "/corpus/taulib/docs/book-iii-mirror-saturation/",
   "source_line_start": 91,
   "source_line_end": 114,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/Saturation.lean#L91-L114",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Mirror.Saturation",
-        "url": "/verify/taulib/docs/book-iii-mirror-saturation/"
+        "url": "/corpus/taulib/docs/book-iii-mirror-saturation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Mirror.Saturation](/verify/taulib/docs/book-iii-mirror-saturation/)
+- Module: [TauLib.BookIII.Mirror.Saturation](/corpus/taulib/docs/book-iii-mirror-saturation/)
 - Source path: [`TauLib/BookIII/Mirror/Saturation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/Saturation.lean#L91-L114)
 - Source range: L91-L114
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

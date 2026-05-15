@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L153",
-  "permalink": "/verify/taulib/docs/book-i-sets-universe/example-l153/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-universe/example-l153/",
   "summary_short": "`example` declaration in `TauLib.BookI.Sets.Universe`.",
   "declaration_id": "TauLib.BookI.Sets.Universe::#eval:153",
   "declaration_slug": "example-l153",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Sets.Universe",
-  "module_url": "/verify/taulib/docs/book-i-sets-universe/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-universe/",
   "source_line_start": 153,
   "source_line_end": 153,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Universe.lean#L153-L153",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Universe",
-        "url": "/verify/taulib/docs/book-i-sets-universe/"
+        "url": "/corpus/taulib/docs/book-i-sets-universe/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Universe](/verify/taulib/docs/book-i-sets-universe/)
+- Module: [TauLib.BookI.Sets.Universe](/corpus/taulib/docs/book-i-sets-universe/)
 - Source path: [`TauLib/BookI/Sets/Universe.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Universe.lean#L153-L153)
 - Source range: L153-L153
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

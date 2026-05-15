@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "five_sixths_cross_check_yp",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/five-sixths-cross-check-yp/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/five-sixths-cross-check-yp/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.BBNBaryogenesis`.",
   "declaration_id": "TauLib.BookV.Cosmology.BBNBaryogenesis::five_sixths_cross_check_yp",
   "declaration_slug": "five-sixths-cross-check-yp",
   "kind": "theorem",
   "name": "five_sixths_cross_check_yp",
   "module_name": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
   "source_line_start": 448,
   "source_line_end": 449,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L448-L449",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-        "url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
+- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
 - Source path: [`TauLib/BookV/Cosmology/BBNBaryogenesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L448-L449)
 - Source range: L448-L449
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.ConstructiveReals",
-  "permalink": "/verify/taulib/docs/book-i-boundary-constructive-reals/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-constructive-reals/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.ConstructiveReals`.",
   "module_name": "TauLib.BookI.Boundary.ConstructiveReals",
   "module_slug": "book-i-boundary-constructive-reals",
@@ -42,82 +42,100 @@
     {
       "kind": "theorem",
       "name": "taurat_add_assoc",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-add-assoc/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-add-assoc/",
       "source_line_start": 63,
       "source_line_end": 68,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taurat_zero_add",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-add/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-add/",
       "source_line_start": 71,
       "source_line_end": 76,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taurat_negate_add",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-negate-add/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-negate-add/",
       "source_line_start": 79,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taurat_mul_assoc",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-mul-assoc/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-mul-assoc/",
       "source_line_start": 87,
       "source_line_end": 92,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taurat_one_mul",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-one-mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-one-mul/",
       "source_line_start": 95,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taurat_left_distrib",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-left-distrib/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-left-distrib/",
       "source_line_start": 103,
       "source_line_end": 108,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taurat_right_distrib",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-right-distrib/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-right-distrib/",
       "source_line_start": 111,
       "source_line_end": 116,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taurat_zero_mul",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-mul/",
       "source_line_start": 119,
       "source_line_end": 124,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TauReal",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/tau-real/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/tau-real/",
       "source_line_start": 136,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D84"
       ]
@@ -125,82 +143,100 @@
     {
       "kind": "def",
       "name": "TauReal.zero",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/zero/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/zero/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.one",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/one/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/one/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.add",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/add/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/add/",
       "source_line_start": 147,
       "source_line_end": 148,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.mul",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/mul/",
       "source_line_start": 151,
       "source_line_end": 152,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.negate",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/negate/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/negate/",
       "source_line_start": 155,
       "source_line_end": 156,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.sub",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/sub/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/sub/",
       "source_line_start": 159,
       "source_line_end": 160,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.fromTauRat",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat/",
       "source_line_start": 163,
       "source_line_end": 163,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.fromNat",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/from-nat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/from-nat/",
       "source_line_start": 166,
       "source_line_end": 167,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.IsCauchy",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/is-cauchy/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/is-cauchy/",
       "source_line_start": 178,
       "source_line_end": 181,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D111"
       ]
@@ -208,10 +244,12 @@
     {
       "kind": "def",
       "name": "TauReal.equiv",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/equiv/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv/",
       "source_line_start": 199,
       "source_line_end": 202,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D112"
       ]
@@ -219,190 +257,232 @@
     {
       "kind": "theorem",
       "name": "TauReal.equiv_of_pointwise",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-of-pointwise/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-of-pointwise/",
       "source_line_start": 215,
       "source_line_end": 225,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.equiv_refl",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-refl/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-refl/",
       "source_line_start": 232,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.equiv_symm",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-symm/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-symm/",
       "source_line_start": 236,
       "source_line_end": 246,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.equiv_trans",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-trans/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-trans/",
       "source_line_start": 249,
       "source_line_end": 275,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_add_comm",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-comm/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-comm/",
       "source_line_start": 282,
       "source_line_end": 284,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_add_assoc",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-assoc/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-assoc/",
       "source_line_start": 287,
       "source_line_end": 289,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_add_zero",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-zero/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-zero/",
       "source_line_start": 292,
       "source_line_end": 294,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_zero_add",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-add/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-add/",
       "source_line_start": 297,
       "source_line_end": 299,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_add_negate",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-negate/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-negate/",
       "source_line_start": 302,
       "source_line_end": 304,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_negate_add",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-negate-add/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-negate-add/",
       "source_line_start": 307,
       "source_line_end": 309,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_mul_comm",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-comm/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-comm/",
       "source_line_start": 312,
       "source_line_end": 314,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_mul_assoc",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-assoc/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-assoc/",
       "source_line_start": 317,
       "source_line_end": 319,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_mul_one",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-one/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-one/",
       "source_line_start": 322,
       "source_line_end": 324,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_one_mul",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-one-mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-one-mul/",
       "source_line_start": 327,
       "source_line_end": 329,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_left_distrib",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-left-distrib/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-left-distrib/",
       "source_line_start": 332,
       "source_line_end": 334,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_right_distrib",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-right-distrib/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-right-distrib/",
       "source_line_start": 337,
       "source_line_end": 339,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_zero_mul",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-mul/",
       "source_line_start": 342,
       "source_line_end": 344,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_ring_axioms",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-ring-axioms/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-ring-axioms/",
       "source_line_start": 347,
       "source_line_end": 357,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fromTauRat_add",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-add/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-add/",
       "source_line_start": 364,
       "source_line_end": 367,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fromTauRat_mul",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-mul/",
       "source_line_start": 370,
       "source_line_end": 373,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "taureal_archimedean_embedding",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-archimedean-embedding/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-archimedean-embedding/",
       "source_line_start": 387,
       "source_line_end": 411,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T42"
       ]
@@ -410,19 +490,23 @@
     {
       "kind": "def",
       "name": "real_half",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/real-half/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/real-half/",
       "source_line_start": 417,
       "source_line_end": 417,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "real_third",
-      "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/real-third/",
+      "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/real-third/",
       "source_line_start": 418,
       "source_line_end": 428,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     }
   ],
@@ -434,7 +518,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -512,47 +596,47 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [taurat_add_assoc](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-add-assoc/) | L63-L68 | formalized | — |
-| `theorem` | [taurat_zero_add](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-add/) | L71-L76 | formalized | — |
-| `theorem` | [taurat_negate_add](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-negate-add/) | L79-L84 | formalized | — |
-| `theorem` | [taurat_mul_assoc](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-mul-assoc/) | L87-L92 | formalized | — |
-| `theorem` | [taurat_one_mul](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-one-mul/) | L95-L100 | formalized | — |
-| `theorem` | [taurat_left_distrib](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-left-distrib/) | L103-L108 | formalized | — |
-| `theorem` | [taurat_right_distrib](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-right-distrib/) | L111-L116 | formalized | — |
-| `theorem` | [taurat_zero_mul](/verify/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-mul/) | L119-L124 | formalized | — |
-| `structure` | [TauReal](/verify/taulib/docs/book-i-boundary-constructive-reals/tau-real/) | L136-L138 | defined | `I.D84` |
-| `def` | [TauReal.zero](/verify/taulib/docs/book-i-boundary-constructive-reals/zero/) | L141-L141 | defined | — |
-| `def` | [TauReal.one](/verify/taulib/docs/book-i-boundary-constructive-reals/one/) | L144-L144 | defined | — |
-| `def` | [TauReal.add](/verify/taulib/docs/book-i-boundary-constructive-reals/add/) | L147-L148 | defined | — |
-| `def` | [TauReal.mul](/verify/taulib/docs/book-i-boundary-constructive-reals/mul/) | L151-L152 | defined | — |
-| `def` | [TauReal.negate](/verify/taulib/docs/book-i-boundary-constructive-reals/negate/) | L155-L156 | defined | — |
-| `def` | [TauReal.sub](/verify/taulib/docs/book-i-boundary-constructive-reals/sub/) | L159-L160 | defined | — |
-| `def` | [TauReal.fromTauRat](/verify/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat/) | L163-L163 | defined | — |
-| `def` | [TauReal.fromNat](/verify/taulib/docs/book-i-boundary-constructive-reals/from-nat/) | L166-L167 | defined | — |
-| `def` | [TauReal.IsCauchy](/verify/taulib/docs/book-i-boundary-constructive-reals/is-cauchy/) | L178-L181 | defined | `I.D111` |
-| `def` | [TauReal.equiv](/verify/taulib/docs/book-i-boundary-constructive-reals/equiv/) | L199-L202 | defined | `I.D112` |
-| `theorem` | [TauReal.equiv_of_pointwise](/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-of-pointwise/) | L215-L225 | formalized | — |
-| `theorem` | [TauReal.equiv_refl](/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-refl/) | L232-L233 | formalized | — |
-| `theorem` | [TauReal.equiv_symm](/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-symm/) | L236-L246 | formalized | — |
-| `theorem` | [TauReal.equiv_trans](/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-trans/) | L249-L275 | formalized | — |
-| `theorem` | [taureal_add_comm](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-comm/) | L282-L284 | formalized | — |
-| `theorem` | [taureal_add_assoc](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-assoc/) | L287-L289 | formalized | — |
-| `theorem` | [taureal_add_zero](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-zero/) | L292-L294 | formalized | — |
-| `theorem` | [taureal_zero_add](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-add/) | L297-L299 | formalized | — |
-| `theorem` | [taureal_add_negate](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-add-negate/) | L302-L304 | formalized | — |
-| `theorem` | [taureal_negate_add](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-negate-add/) | L307-L309 | formalized | — |
-| `theorem` | [taureal_mul_comm](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-comm/) | L312-L314 | formalized | — |
-| `theorem` | [taureal_mul_assoc](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-assoc/) | L317-L319 | formalized | — |
-| `theorem` | [taureal_mul_one](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-one/) | L322-L324 | formalized | — |
-| `theorem` | [taureal_one_mul](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-one-mul/) | L327-L329 | formalized | — |
-| `theorem` | [taureal_left_distrib](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-left-distrib/) | L332-L334 | formalized | — |
-| `theorem` | [taureal_right_distrib](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-right-distrib/) | L337-L339 | formalized | — |
-| `theorem` | [taureal_zero_mul](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-mul/) | L342-L344 | formalized | — |
-| `theorem` | [taureal_ring_axioms](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-ring-axioms/) | L347-L357 | formalized | — |
-| `theorem` | [fromTauRat_add](/verify/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-add/) | L364-L367 | formalized | — |
-| `theorem` | [fromTauRat_mul](/verify/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-mul/) | L370-L373 | formalized | — |
-| `theorem` | [taureal_archimedean_embedding](/verify/taulib/docs/book-i-boundary-constructive-reals/taureal-archimedean-embedding/) | L387-L411 | formalized | `I.T42` |
-| `def` | [real_half](/verify/taulib/docs/book-i-boundary-constructive-reals/real-half/) | L417-L417 | defined | — |
-| `def` | [real_third](/verify/taulib/docs/book-i-boundary-constructive-reals/real-third/) | L418-L428 | defined | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [taurat_add_assoc](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-add-assoc/) | L63-L68 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taurat_zero_add](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-add/) | L71-L76 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taurat_negate_add](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-negate-add/) | L79-L84 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taurat_mul_assoc](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-mul-assoc/) | L87-L92 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taurat_one_mul](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-one-mul/) | L95-L100 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taurat_left_distrib](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-left-distrib/) | L103-L108 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taurat_right_distrib](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-right-distrib/) | L111-L116 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taurat_zero_mul](/corpus/taulib/docs/book-i-boundary-constructive-reals/taurat-zero-mul/) | L119-L124 | proof obligation | formal proof obligation checked | — |
+| `structure` | [TauReal](/corpus/taulib/docs/book-i-boundary-constructive-reals/tau-real/) | L136-L138 | type/data schema | type/data schema | `I.D84` |
+| `def` | [TauReal.zero](/corpus/taulib/docs/book-i-boundary-constructive-reals/zero/) | L141-L141 | definition | definition | — |
+| `def` | [TauReal.one](/corpus/taulib/docs/book-i-boundary-constructive-reals/one/) | L144-L144 | definition | definition | — |
+| `def` | [TauReal.add](/corpus/taulib/docs/book-i-boundary-constructive-reals/add/) | L147-L148 | definition | definition | — |
+| `def` | [TauReal.mul](/corpus/taulib/docs/book-i-boundary-constructive-reals/mul/) | L151-L152 | definition | definition | — |
+| `def` | [TauReal.negate](/corpus/taulib/docs/book-i-boundary-constructive-reals/negate/) | L155-L156 | definition | definition | — |
+| `def` | [TauReal.sub](/corpus/taulib/docs/book-i-boundary-constructive-reals/sub/) | L159-L160 | definition | definition | — |
+| `def` | [TauReal.fromTauRat](/corpus/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat/) | L163-L163 | definition | definition | — |
+| `def` | [TauReal.fromNat](/corpus/taulib/docs/book-i-boundary-constructive-reals/from-nat/) | L166-L167 | definition | definition | — |
+| `def` | [TauReal.IsCauchy](/corpus/taulib/docs/book-i-boundary-constructive-reals/is-cauchy/) | L178-L181 | definition | definition | `I.D111` |
+| `def` | [TauReal.equiv](/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv/) | L199-L202 | definition | definition | `I.D112` |
+| `theorem` | [TauReal.equiv_of_pointwise](/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-of-pointwise/) | L215-L225 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.equiv_refl](/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-refl/) | L232-L233 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.equiv_symm](/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-symm/) | L236-L246 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.equiv_trans](/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-trans/) | L249-L275 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_add_comm](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-comm/) | L282-L284 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_add_assoc](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-assoc/) | L287-L289 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_add_zero](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-zero/) | L292-L294 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_zero_add](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-add/) | L297-L299 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_add_negate](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-add-negate/) | L302-L304 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_negate_add](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-negate-add/) | L307-L309 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_mul_comm](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-comm/) | L312-L314 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_mul_assoc](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-assoc/) | L317-L319 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_mul_one](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-mul-one/) | L322-L324 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_one_mul](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-one-mul/) | L327-L329 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_left_distrib](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-left-distrib/) | L332-L334 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_right_distrib](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-right-distrib/) | L337-L339 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_zero_mul](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-zero-mul/) | L342-L344 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_ring_axioms](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-ring-axioms/) | L347-L357 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fromTauRat_add](/corpus/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-add/) | L364-L367 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fromTauRat_mul](/corpus/taulib/docs/book-i-boundary-constructive-reals/from-tau-rat-mul/) | L370-L373 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [taureal_archimedean_embedding](/corpus/taulib/docs/book-i-boundary-constructive-reals/taureal-archimedean-embedding/) | L387-L411 | proof obligation | formal proof obligation checked | `I.T42` |
+| `def` | [real_half](/corpus/taulib/docs/book-i-boundary-constructive-reals/real-half/) | L417-L417 | definition | definition | — |
+| `def` | [real_third](/corpus/taulib/docs/book-i-boundary-constructive-reals/real-third/) | L418-L428 | definition | definition | — |

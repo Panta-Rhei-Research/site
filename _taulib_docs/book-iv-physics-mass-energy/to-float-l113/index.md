@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "EnergyIndex.toFloat",
-  "permalink": "/verify/taulib/docs/book-iv-physics-mass-energy/to-float-l113/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-mass-energy/to-float-l113/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.MassEnergy`.",
   "declaration_id": "TauLib.BookIV.Physics.MassEnergy::EnergyIndex.toFloat",
   "declaration_slug": "to-float-l113",
   "kind": "def",
   "name": "EnergyIndex.toFloat",
   "module_name": "TauLib.BookIV.Physics.MassEnergy",
-  "module_url": "/verify/taulib/docs/book-iv-physics-mass-energy/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-mass-energy/",
   "source_line_start": 113,
   "source_line_end": 114,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/MassEnergy.lean#L113-L114",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.MassEnergy",
-        "url": "/verify/taulib/docs/book-iv-physics-mass-energy/"
+        "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.MassEnergy](/verify/taulib/docs/book-iv-physics-mass-energy/)
+- Module: [TauLib.BookIV.Physics.MassEnergy](/corpus/taulib/docs/book-iv-physics-mass-energy/)
 - Source path: [`TauLib/BookIV/Physics/MassEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/MassEnergy.lean#L113-L114)
 - Source range: L113-L114
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

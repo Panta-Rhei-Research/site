@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L201",
-  "permalink": "/verify/taulib/docs/book-i-topos-earned-topos/example-l201/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-earned-topos/example-l201/",
   "summary_short": "`example` declaration in `TauLib.BookI.Topos.EarnedTopos`.",
   "declaration_id": "TauLib.BookI.Topos.EarnedTopos::#eval:201",
   "declaration_slug": "example-l201",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Topos.EarnedTopos",
-  "module_url": "/verify/taulib/docs/book-i-topos-earned-topos/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-earned-topos/",
   "source_line_start": 201,
   "source_line_end": 201,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedTopos.lean#L201-L201",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.EarnedTopos",
-        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
+        "url": "/corpus/taulib/docs/book-i-topos-earned-topos/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.EarnedTopos](/verify/taulib/docs/book-i-topos-earned-topos/)
+- Module: [TauLib.BookI.Topos.EarnedTopos](/corpus/taulib/docs/book-i-topos-earned-topos/)
 - Source path: [`TauLib/BookI/Topos/EarnedTopos.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/EarnedTopos.lean#L201-L201)
 - Source range: L201-L201
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

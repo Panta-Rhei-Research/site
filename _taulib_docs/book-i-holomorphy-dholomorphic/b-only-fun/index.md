@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "b_only_fun",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/b-only-fun/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/b-only-fun/",
   "summary_short": "`def` declaration in `TauLib.BookI.Holomorphy.DHolomorphic`.",
   "declaration_id": "TauLib.BookI.Holomorphy.DHolomorphic::b_only_fun",
   "declaration_slug": "b-only-fun",
   "kind": "def",
   "name": "b_only_fun",
   "module_name": "TauLib.BookI.Holomorphy.DHolomorphic",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/",
   "source_line_start": 140,
   "source_line_end": 140,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DHolomorphic.lean#L140-L140",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.DHolomorphic",
-        "url": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.DHolomorphic](/verify/taulib/docs/book-i-holomorphy-dholomorphic/)
+- Module: [TauLib.BookI.Holomorphy.DHolomorphic](/corpus/taulib/docs/book-i-holomorphy-dholomorphic/)
 - Source path: [`TauLib/BookI/Holomorphy/DHolomorphic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DHolomorphic.lean#L140-L140)
 - Source range: L140-L140
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

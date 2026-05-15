@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mul_injective",
-  "permalink": "/verify/taulib/docs/book-i-orbit-ladder/mul-injective/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-ladder/mul-injective/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.Ladder`.",
   "declaration_id": "TauLib.BookI.Orbit.Ladder::mul_injective",
   "declaration_slug": "mul-injective",
   "kind": "theorem",
   "name": "mul_injective",
   "module_name": "TauLib.BookI.Orbit.Ladder",
-  "module_url": "/verify/taulib/docs/book-i-orbit-ladder/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-ladder/",
   "source_line_start": 85,
   "source_line_end": 103,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Ladder.lean#L85-L103",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Ladder",
-        "url": "/verify/taulib/docs/book-i-orbit-ladder/"
+        "url": "/corpus/taulib/docs/book-i-orbit-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Ladder](/verify/taulib/docs/book-i-orbit-ladder/)
+- Module: [TauLib.BookI.Orbit.Ladder](/corpus/taulib/docs/book-i-orbit-ladder/)
 - Source path: [`TauLib/BookI/Orbit/Ladder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Ladder.lean#L85-L103)
 - Source range: L85-L103
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

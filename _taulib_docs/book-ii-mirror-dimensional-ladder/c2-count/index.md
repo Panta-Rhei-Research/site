@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "c2_count",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/c2-count/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/c2-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Mirror.DimensionalLadder`.",
   "declaration_id": "TauLib.BookII.Mirror.DimensionalLadder::c2_count",
   "declaration_slug": "c2-count",
   "kind": "theorem",
   "name": "c2_count",
   "module_name": "TauLib.BookII.Mirror.DimensionalLadder",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/",
   "source_line_start": 160,
   "source_line_end": 160,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/DimensionalLadder.lean#L160-L160",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.DimensionalLadder",
-        "url": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.DimensionalLadder](/verify/taulib/docs/book-ii-mirror-dimensional-ladder/)
+- Module: [TauLib.BookII.Mirror.DimensionalLadder](/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/)
 - Source path: [`TauLib/BookII/Mirror/DimensionalLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/DimensionalLadder.lean#L160-L160)
 - Source range: L160-L160
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

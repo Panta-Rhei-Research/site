@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "kernel_foundation_synthesis",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/kernel-foundation-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/kernel-foundation-synthesis/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.KernelFoundation.H8KernelSynthesis`.",
   "declaration_id": "TauLib.BookI.KernelFoundation.H8KernelSynthesis::kernel_foundation_synthesis",
   "declaration_slug": "kernel-foundation-synthesis",
   "kind": "theorem",
   "name": "kernel_foundation_synthesis",
   "module_name": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
-  "module_url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/",
   "source_line_start": 186,
   "source_line_end": 201,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/H8KernelSynthesis.lean#L186-L201",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
-        "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/"
+        "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.KernelFoundation.H8KernelSynthesis](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/)
+- Module: [TauLib.BookI.KernelFoundation.H8KernelSynthesis](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/)
 - Source path: [`TauLib/BookI/KernelFoundation/H8KernelSynthesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/H8KernelSynthesis.lean#L186-L201)
 - Source range: L186-L201
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

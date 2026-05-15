@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "duty_typing",
-  "permalink": "/verify/taulib/docs/book-vii-ethics-ciproof/duty-typing-l200/",
+  "permalink": "/corpus/taulib/docs/book-vii-ethics-ciproof/duty-typing-l200/",
   "summary_short": "`theorem` declaration in `TauLib.BookVII.Ethics.CIProof`.",
   "declaration_id": "TauLib.BookVII.Ethics.CIProof::duty_typing",
   "declaration_slug": "duty-typing-l200",
   "kind": "theorem",
   "name": "duty_typing",
   "module_name": "TauLib.BookVII.Ethics.CIProof",
-  "module_url": "/verify/taulib/docs/book-vii-ethics-ciproof/",
+  "module_url": "/corpus/taulib/docs/book-vii-ethics-ciproof/",
   "source_line_start": 200,
   "source_line_end": 206,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L200-L206",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Ethics.CIProof",
-        "url": "/verify/taulib/docs/book-vii-ethics-ciproof/"
+        "url": "/corpus/taulib/docs/book-vii-ethics-ciproof/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Ethics.CIProof](/verify/taulib/docs/book-vii-ethics-ciproof/)
+- Module: [TauLib.BookVII.Ethics.CIProof](/corpus/taulib/docs/book-vii-ethics-ciproof/)
 - Source path: [`TauLib/BookVII/Ethics/CIProof.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L200-L206)
 - Source range: L200-L206
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

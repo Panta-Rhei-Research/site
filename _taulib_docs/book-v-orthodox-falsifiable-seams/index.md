@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Orthodox.FalsifiableSeams",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Orthodox.FalsifiableSeams`.",
   "module_name": "TauLib.BookV.Orthodox.FalsifiableSeams",
   "module_slug": "book-v-orthodox-falsifiable-seams",
@@ -41,28 +41,34 @@
     {
       "kind": "inductive",
       "name": "PredictionStrength",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-strength/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-strength/",
       "source_line_start": 79,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FalsifiablePrediction",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/falsifiable-prediction/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/falsifiable-prediction/",
       "source_line_start": 89,
       "source_line_end": 100,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_singularity_prediction",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularity-prediction/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularity-prediction/",
       "source_line_start": 115,
       "source_line_end": 120,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.T136"
       ]
@@ -70,19 +76,23 @@
     {
       "kind": "theorem",
       "name": "no_singularities_tau",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularities-tau/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularities-tau/",
       "source_line_start": 123,
       "source_line_end": 125,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_uv_prediction",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-prediction/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-prediction/",
       "source_line_start": 138,
       "source_line_end": 143,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.T137"
       ]
@@ -90,19 +100,23 @@
     {
       "kind": "theorem",
       "name": "no_uv_divergences_tau",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-divergences-tau/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-divergences-tau/",
       "source_line_start": 146,
       "source_line_end": 148,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_dark_prediction",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-prediction/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-prediction/",
       "source_line_start": 161,
       "source_line_end": 166,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.T138"
       ]
@@ -110,19 +124,23 @@
     {
       "kind": "theorem",
       "name": "no_dark_sectors",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-sectors/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-sectors/",
       "source_line_start": 169,
       "source_line_end": 171,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "vacuum_zero_prediction",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-zero-prediction/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-zero-prediction/",
       "source_line_start": 186,
       "source_line_end": 191,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.T139"
       ]
@@ -130,19 +148,23 @@
     {
       "kind": "theorem",
       "name": "vacuum_energy_zero",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-energy-zero/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-energy-zero/",
       "source_line_start": 194,
       "source_line_end": 196,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "E1Fullness",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness/",
       "source_line_start": 214,
       "source_line_end": 225,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T140"
       ]
@@ -150,55 +172,67 @@
     {
       "kind": "def",
       "name": "e1_fullness",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness-l228/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness-l228/",
       "source_line_start": 228,
       "source_line_end": 230,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "elayer1_full",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/elayer1-full/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/elayer1-full/",
       "source_line_start": 233,
       "source_line_end": 237,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "prediction_ledger",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-ledger/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-ledger/",
       "source_line_start": 244,
       "source_line_end": 248,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "prediction_count",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-count/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-count/",
       "source_line_start": 251,
       "source_line_end": 252,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "strong_prediction_count",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/strong-prediction-count/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/strong-prediction-count/",
       "source_line_start": 255,
       "source_line_end": 257,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "renorm_correct_unnecessary",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/renorm-correct-unnecessary/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/renorm-correct-unnecessary/",
       "source_line_start": 268,
       "source_line_end": 270,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R291"
       ]
@@ -206,10 +240,12 @@
     {
       "kind": "theorem",
       "name": "the_10_120",
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/the-10-120/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/the-10-120/",
       "source_line_start": 275,
       "source_line_end": 277,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R292"
       ]
@@ -217,10 +253,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l293/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l293/",
       "source_line_start": 293,
       "source_line_end": 293,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R293",
         "V.R294"
@@ -229,37 +267,45 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l294/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l294/",
       "source_line_start": 294,
       "source_line_end": 294,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l295/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l295/",
       "source_line_start": 295,
       "source_line_end": 295,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l296/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l296/",
       "source_line_start": 296,
       "source_line_end": 296,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l297/",
+      "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l297/",
       "source_line_start": 297,
       "source_line_end": 299,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -271,7 +317,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -350,28 +396,28 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [PredictionStrength](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-strength/) | L79-L86 | defined | — |
-| `structure` | [FalsifiablePrediction](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/falsifiable-prediction/) | L89-L100 | defined | — |
-| `def` | [no_singularity_prediction](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularity-prediction/) | L115-L120 | defined | `V.T136` |
-| `theorem` | [no_singularities_tau](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularities-tau/) | L123-L125 | formalized | — |
-| `def` | [no_uv_prediction](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-prediction/) | L138-L143 | defined | `V.T137` |
-| `theorem` | [no_uv_divergences_tau](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-divergences-tau/) | L146-L148 | formalized | — |
-| `def` | [no_dark_prediction](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-prediction/) | L161-L166 | defined | `V.T138` |
-| `theorem` | [no_dark_sectors](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-sectors/) | L169-L171 | formalized | — |
-| `def` | [vacuum_zero_prediction](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-zero-prediction/) | L186-L191 | defined | `V.T139` |
-| `theorem` | [vacuum_energy_zero](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-energy-zero/) | L194-L196 | formalized | — |
-| `structure` | [E1Fullness](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness/) | L214-L225 | defined | `V.T140` |
-| `def` | [e1_fullness](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness-l228/) | L228-L230 | defined | — |
-| `theorem` | [elayer1_full](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/elayer1-full/) | L233-L237 | formalized | — |
-| `def` | [prediction_ledger](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-ledger/) | L244-L248 | defined | — |
-| `theorem` | [prediction_count](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-count/) | L251-L252 | formalized | — |
-| `theorem` | [strong_prediction_count](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/strong-prediction-count/) | L255-L257 | formalized | — |
-| `theorem` | [renorm_correct_unnecessary](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/renorm-correct-unnecessary/) | L268-L270 | formalized | `V.R291` |
-| `theorem` | [the_10_120](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/the-10-120/) | L275-L277 | formalized | `V.R292` |
-| `eval` | [#eval L293](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l293/) | L293-L293 | computed | `V.R293`, `V.R294` |
-| `eval` | [#eval L294](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l294/) | L294-L294 | computed | — |
-| `eval` | [#eval L295](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l295/) | L295-L295 | computed | — |
-| `eval` | [#eval L296](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l296/) | L296-L296 | computed | — |
-| `eval` | [#eval L297](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l297/) | L297-L299 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [PredictionStrength](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-strength/) | L79-L86 | type/data schema | type/data schema | — |
+| `structure` | [FalsifiablePrediction](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/falsifiable-prediction/) | L89-L100 | type/data schema | type/data schema | — |
+| `def` | [no_singularity_prediction](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularity-prediction/) | L115-L120 | definition | definition | `V.T136` |
+| `theorem` | [no_singularities_tau](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-singularities-tau/) | L123-L125 | proof obligation | formal proof obligation checked | — |
+| `def` | [no_uv_prediction](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-prediction/) | L138-L143 | definition | definition | `V.T137` |
+| `theorem` | [no_uv_divergences_tau](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-uv-divergences-tau/) | L146-L148 | proof obligation | formal proof obligation checked | — |
+| `def` | [no_dark_prediction](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-prediction/) | L161-L166 | definition | definition | `V.T138` |
+| `theorem` | [no_dark_sectors](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/no-dark-sectors/) | L169-L171 | proof obligation | formal proof obligation checked | — |
+| `def` | [vacuum_zero_prediction](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-zero-prediction/) | L186-L191 | definition | definition | `V.T139` |
+| `theorem` | [vacuum_energy_zero](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/vacuum-energy-zero/) | L194-L196 | proof obligation | formal proof obligation checked | — |
+| `structure` | [E1Fullness](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness/) | L214-L225 | type/data schema | type/data schema | `V.T140` |
+| `def` | [e1_fullness](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness-l228/) | L228-L230 | definition | definition | — |
+| `theorem` | [elayer1_full](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/elayer1-full/) | L233-L237 | proof obligation | formal proof obligation checked | — |
+| `def` | [prediction_ledger](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-ledger/) | L244-L248 | data/computed value | data/computed value | — |
+| `theorem` | [prediction_count](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/prediction-count/) | L251-L252 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [strong_prediction_count](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/strong-prediction-count/) | L255-L257 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [renorm_correct_unnecessary](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/renorm-correct-unnecessary/) | L268-L270 | proof obligation | formal proof obligation checked | `V.R291` |
+| `theorem` | [the_10_120](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/the-10-120/) | L275-L277 | proof obligation | formal proof obligation checked | `V.R292` |
+| `eval` | [#eval L293](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l293/) | L293-L293 | computed check | computed check | `V.R293`, `V.R294` |
+| `eval` | [#eval L294](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l294/) | L294-L294 | computed check | computed check | — |
+| `eval` | [#eval L295](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l295/) | L295-L295 | computed check | computed check | — |
+| `eval` | [#eval L296](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l296/) | L296-L296 | computed check | computed check | — |
+| `eval` | [#eval L297](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/eval-l297/) | L297-L299 | computed check | computed check | — |

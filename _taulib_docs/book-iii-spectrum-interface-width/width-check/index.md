@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "width_check",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-interface-width/width-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-interface-width/width-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectrum.InterfaceWidth`.",
   "declaration_id": "TauLib.BookIII.Spectrum.InterfaceWidth::width_check",
   "declaration_slug": "width-check",
   "kind": "def",
   "name": "width_check",
   "module_name": "TauLib.BookIII.Spectrum.InterfaceWidth",
-  "module_url": "/verify/taulib/docs/book-iii-spectrum-interface-width/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/",
   "source_line_start": 51,
   "source_line_end": 53,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/InterfaceWidth.lean#L51-L53",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectrum.InterfaceWidth",
-        "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/"
+        "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectrum.InterfaceWidth](/verify/taulib/docs/book-iii-spectrum-interface-width/)
+- Module: [TauLib.BookIII.Spectrum.InterfaceWidth](/corpus/taulib/docs/book-iii-spectrum-interface-width/)
 - Source path: [`TauLib/BookIII/Spectrum/InterfaceWidth.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/InterfaceWidth.lean#L51-L53)
 - Source range: L51-L53
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

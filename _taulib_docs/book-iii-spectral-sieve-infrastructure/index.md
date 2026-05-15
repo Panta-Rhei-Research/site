@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.SieveInfrastructure",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.SieveInfrastructure`.",
   "module_name": "TauLib.BookIII.Spectral.SieveInfrastructure",
   "module_slug": "book-iii-spectral-sieve-infrastructure",
@@ -38,19 +38,23 @@
     {
       "kind": "def",
       "name": "is_prime_sieve",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/is-prime-sieve/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/is-prime-sieve/",
       "source_line_start": 58,
       "source_line_end": 67,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "eratosthenes_sieve",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eratosthenes-sieve/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eratosthenes-sieve/",
       "source_line_start": 74,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D99"
       ]
@@ -58,10 +62,12 @@
     {
       "kind": "def",
       "name": "sieve_primes",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-primes/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-primes/",
       "source_line_start": 78,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D99"
       ]
@@ -69,10 +75,12 @@
     {
       "kind": "def",
       "name": "sieve_prime_count",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-prime-count/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-prime-count/",
       "source_line_start": 94,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D100"
       ]
@@ -80,28 +88,34 @@
     {
       "kind": "def",
       "name": "is_coprime_to_small_primes",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/is-coprime-to-small-primes/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/is-coprime-to-small-primes/",
       "source_line_start": 110,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "divisible_by_small_prime",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/divisible-by-small-prime/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/divisible-by-small-prime/",
       "source_line_start": 124,
       "source_line_end": 134,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "brun_sieve_count",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-count/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-count/",
       "source_line_start": 139,
       "source_line_end": 149,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D101"
       ]
@@ -109,10 +123,12 @@
     {
       "kind": "def",
       "name": "brun_sieve_density",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-density/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-density/",
       "source_line_start": 153,
       "source_line_end": 154,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D101"
       ]
@@ -120,10 +136,12 @@
     {
       "kind": "def",
       "name": "sieve_agrees_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-agrees-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-agrees-check/",
       "source_line_start": 162,
       "source_line_end": 170,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T66"
       ]
@@ -131,10 +149,12 @@
     {
       "kind": "def",
       "name": "sieve_count_known_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known-check/",
       "source_line_start": 173,
       "source_line_end": 178,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T66"
       ]
@@ -142,19 +162,23 @@
     {
       "kind": "def",
       "name": "check_prime_factors_of_primorial",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/check-prime-factors-of-primorial/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/check-prime-factors-of-primorial/",
       "source_line_start": 185,
       "source_line_end": 195,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sieve_tower_compat_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-check/",
       "source_line_start": 201,
       "source_line_end": 213,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T67"
       ]
@@ -162,10 +186,12 @@
     {
       "kind": "def",
       "name": "euler_phi_primorial",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial/",
       "source_line_start": 216,
       "source_line_end": 225,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T67"
       ]
@@ -173,10 +199,12 @@
     {
       "kind": "def",
       "name": "brun_euler_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-check/",
       "source_line_start": 228,
       "source_line_end": 239,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T67"
       ]
@@ -184,10 +212,12 @@
     {
       "kind": "def",
       "name": "sieve_crt_compat_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-check/",
       "source_line_start": 247,
       "source_line_end": 259,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P42"
       ]
@@ -195,10 +225,12 @@
     {
       "kind": "theorem",
       "name": "sieve_correct_50",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-50/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-50/",
       "source_line_start": 266,
       "source_line_end": 267,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T66"
       ]
@@ -206,10 +238,12 @@
     {
       "kind": "theorem",
       "name": "sieve_correct_200",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-200/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-200/",
       "source_line_start": 270,
       "source_line_end": 271,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T66"
       ]
@@ -217,10 +251,12 @@
     {
       "kind": "theorem",
       "name": "sieve_count_known",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known/",
       "source_line_start": 274,
       "source_line_end": 275,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T66"
       ]
@@ -228,10 +264,12 @@
     {
       "kind": "theorem",
       "name": "sieve_tower_compat_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-3/",
       "source_line_start": 278,
       "source_line_end": 279,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T67"
       ]
@@ -239,10 +277,12 @@
     {
       "kind": "theorem",
       "name": "brun_euler_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-4/",
       "source_line_start": 282,
       "source_line_end": 283,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T67"
       ]
@@ -250,10 +290,12 @@
     {
       "kind": "theorem",
       "name": "sieve_crt_compat_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-3/",
       "source_line_start": 286,
       "source_line_end": 287,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P42"
       ]
@@ -261,10 +303,12 @@
     {
       "kind": "theorem",
       "name": "pi_10",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-10/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-10/",
       "source_line_start": 294,
       "source_line_end": 294,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D100"
       ]
@@ -272,10 +316,12 @@
     {
       "kind": "theorem",
       "name": "pi_30",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-30/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-30/",
       "source_line_start": 297,
       "source_line_end": 297,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D100"
       ]
@@ -283,10 +329,12 @@
     {
       "kind": "theorem",
       "name": "pi_100",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-100/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-100/",
       "source_line_start": 300,
       "source_line_end": 300,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D100"
       ]
@@ -294,10 +342,12 @@
     {
       "kind": "theorem",
       "name": "brun_30_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-30-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-30-3/",
       "source_line_start": 304,
       "source_line_end": 304,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D101"
       ]
@@ -305,10 +355,12 @@
     {
       "kind": "theorem",
       "name": "euler_phi_primorial_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-3/",
       "source_line_start": 307,
       "source_line_end": 308,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T67"
       ]
@@ -316,10 +368,12 @@
     {
       "kind": "theorem",
       "name": "euler_phi_primorial_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-4/",
       "source_line_start": 311,
       "source_line_end": 312,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T67"
       ]
@@ -327,91 +381,111 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l318/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l318/",
       "source_line_start": 318,
       "source_line_end": 318,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l319/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l319/",
       "source_line_start": 319,
       "source_line_end": 319,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l320/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l320/",
       "source_line_start": 320,
       "source_line_end": 320,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l321/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l321/",
       "source_line_start": 321,
       "source_line_end": 321,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l322/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l322/",
       "source_line_start": 322,
       "source_line_end": 322,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l323/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l323/",
       "source_line_start": 323,
       "source_line_end": 323,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l324/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l324/",
       "source_line_start": 324,
       "source_line_end": 324,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l325/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l325/",
       "source_line_start": 325,
       "source_line_end": 325,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l326/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l326/",
       "source_line_start": 326,
       "source_line_end": 326,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l327/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l327/",
       "source_line_start": 327,
       "source_line_end": 329,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -423,7 +497,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -499,42 +573,42 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [is_prime_sieve](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/is-prime-sieve/) | L58-L67 | defined | — |
-| `def` | [eratosthenes_sieve](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eratosthenes-sieve/) | L74-L75 | defined | `III.D99` |
-| `def` | [sieve_primes](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-primes/) | L78-L87 | defined | `III.D99` |
-| `def` | [sieve_prime_count](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-prime-count/) | L94-L103 | defined | `III.D100` |
-| `def` | [is_coprime_to_small_primes](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/is-coprime-to-small-primes/) | L110-L121 | defined | — |
-| `def` | [divisible_by_small_prime](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/divisible-by-small-prime/) | L124-L134 | defined | — |
-| `def` | [brun_sieve_count](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-count/) | L139-L149 | defined | `III.D101` |
-| `def` | [brun_sieve_density](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-density/) | L153-L154 | defined | `III.D101` |
-| `def` | [sieve_agrees_check](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-agrees-check/) | L162-L170 | defined | `III.T66` |
-| `def` | [sieve_count_known_check](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known-check/) | L173-L178 | defined | `III.T66` |
-| `def` | [check_prime_factors_of_primorial](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/check-prime-factors-of-primorial/) | L185-L195 | defined | — |
-| `def` | [sieve_tower_compat_check](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-check/) | L201-L213 | defined | `III.T67` |
-| `def` | [euler_phi_primorial](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial/) | L216-L225 | defined | `III.T67` |
-| `def` | [brun_euler_check](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-check/) | L228-L239 | defined | `III.T67` |
-| `def` | [sieve_crt_compat_check](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-check/) | L247-L259 | defined | `III.P42` |
-| `theorem` | [sieve_correct_50](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-50/) | L266-L267 | formalized | `III.T66` |
-| `theorem` | [sieve_correct_200](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-200/) | L270-L271 | formalized | `III.T66` |
-| `theorem` | [sieve_count_known](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known/) | L274-L275 | formalized | `III.T66` |
-| `theorem` | [sieve_tower_compat_3](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-3/) | L278-L279 | formalized | `III.T67` |
-| `theorem` | [brun_euler_4](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-4/) | L282-L283 | formalized | `III.T67` |
-| `theorem` | [sieve_crt_compat_3](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-3/) | L286-L287 | formalized | `III.P42` |
-| `theorem` | [pi_10](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-10/) | L294-L294 | formalized | `III.D100` |
-| `theorem` | [pi_30](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-30/) | L297-L297 | formalized | `III.D100` |
-| `theorem` | [pi_100](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-100/) | L300-L300 | formalized | `III.D100` |
-| `theorem` | [brun_30_3](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-30-3/) | L304-L304 | formalized | `III.D101` |
-| `theorem` | [euler_phi_primorial_3](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-3/) | L307-L308 | formalized | `III.T67` |
-| `theorem` | [euler_phi_primorial_4](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-4/) | L311-L312 | formalized | `III.T67` |
-| `eval` | [#eval L318](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l318/) | L318-L318 | computed | — |
-| `eval` | [#eval L319](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l319/) | L319-L319 | computed | — |
-| `eval` | [#eval L320](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l320/) | L320-L320 | computed | — |
-| `eval` | [#eval L321](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l321/) | L321-L321 | computed | — |
-| `eval` | [#eval L322](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l322/) | L322-L322 | computed | — |
-| `eval` | [#eval L323](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l323/) | L323-L323 | computed | — |
-| `eval` | [#eval L324](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l324/) | L324-L324 | computed | — |
-| `eval` | [#eval L325](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l325/) | L325-L325 | computed | — |
-| `eval` | [#eval L326](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l326/) | L326-L326 | computed | — |
-| `eval` | [#eval L327](/verify/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l327/) | L327-L329 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [is_prime_sieve](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/is-prime-sieve/) | L58-L67 | data/computed value | data/computed value | — |
+| `def` | [eratosthenes_sieve](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eratosthenes-sieve/) | L74-L75 | data/computed value | data/computed value | `III.D99` |
+| `def` | [sieve_primes](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-primes/) | L78-L87 | data/computed value | data/computed value | `III.D99` |
+| `def` | [sieve_prime_count](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-prime-count/) | L94-L103 | data/computed value | data/computed value | `III.D100` |
+| `def` | [is_coprime_to_small_primes](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/is-coprime-to-small-primes/) | L110-L121 | data/computed value | data/computed value | — |
+| `def` | [divisible_by_small_prime](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/divisible-by-small-prime/) | L124-L134 | data/computed value | data/computed value | — |
+| `def` | [brun_sieve_count](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-count/) | L139-L149 | data/computed value | data/computed value | `III.D101` |
+| `def` | [brun_sieve_density](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-sieve-density/) | L153-L154 | data/computed value | data/computed value | `III.D101` |
+| `def` | [sieve_agrees_check](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-agrees-check/) | L162-L170 | data/computed value | data/computed value | `III.T66` |
+| `def` | [sieve_count_known_check](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known-check/) | L173-L178 | data/computed value | data/computed value | `III.T66` |
+| `def` | [check_prime_factors_of_primorial](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/check-prime-factors-of-primorial/) | L185-L195 | data/computed value | data/computed value | — |
+| `def` | [sieve_tower_compat_check](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-check/) | L201-L213 | data/computed value | data/computed value | `III.T67` |
+| `def` | [euler_phi_primorial](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial/) | L216-L225 | data/computed value | data/computed value | `III.T67` |
+| `def` | [brun_euler_check](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-check/) | L228-L239 | data/computed value | data/computed value | `III.T67` |
+| `def` | [sieve_crt_compat_check](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-check/) | L247-L259 | data/computed value | data/computed value | `III.P42` |
+| `theorem` | [sieve_correct_50](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-50/) | L266-L267 | proof obligation | formal proof obligation checked | `III.T66` |
+| `theorem` | [sieve_correct_200](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-correct-200/) | L270-L271 | proof obligation | formal proof obligation checked | `III.T66` |
+| `theorem` | [sieve_count_known](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-count-known/) | L274-L275 | proof obligation | formal proof obligation checked | `III.T66` |
+| `theorem` | [sieve_tower_compat_3](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-tower-compat-3/) | L278-L279 | proof obligation | formal proof obligation checked | `III.T67` |
+| `theorem` | [brun_euler_4](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-euler-4/) | L282-L283 | proof obligation | formal proof obligation checked | `III.T67` |
+| `theorem` | [sieve_crt_compat_3](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/sieve-crt-compat-3/) | L286-L287 | proof obligation | formal proof obligation checked | `III.P42` |
+| `theorem` | [pi_10](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-10/) | L294-L294 | proof obligation | formal proof obligation checked | `III.D100` |
+| `theorem` | [pi_30](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-30/) | L297-L297 | proof obligation | formal proof obligation checked | `III.D100` |
+| `theorem` | [pi_100](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/pi-100/) | L300-L300 | proof obligation | formal proof obligation checked | `III.D100` |
+| `theorem` | [brun_30_3](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/brun-30-3/) | L304-L304 | proof obligation | formal proof obligation checked | `III.D101` |
+| `theorem` | [euler_phi_primorial_3](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-3/) | L307-L308 | proof obligation | formal proof obligation checked | `III.T67` |
+| `theorem` | [euler_phi_primorial_4](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/euler-phi-primorial-4/) | L311-L312 | proof obligation | formal proof obligation checked | `III.T67` |
+| `eval` | [#eval L318](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l318/) | L318-L318 | computed check | computed check | — |
+| `eval` | [#eval L319](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l319/) | L319-L319 | computed check | computed check | — |
+| `eval` | [#eval L320](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l320/) | L320-L320 | computed check | computed check | — |
+| `eval` | [#eval L321](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l321/) | L321-L321 | computed check | computed check | — |
+| `eval` | [#eval L322](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l322/) | L322-L322 | computed check | computed check | — |
+| `eval` | [#eval L323](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l323/) | L323-L323 | computed check | computed check | — |
+| `eval` | [#eval L324](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l324/) | L324-L324 | computed check | computed check | — |
+| `eval` | [#eval L325](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l325/) | L325-L325 | computed check | computed check | — |
+| `eval` | [#eval L326](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l326/) | L326-L326 | computed check | computed check | — |
+| `eval` | [#eval L327](/corpus/taulib/docs/book-iii-spectral-sieve-infrastructure/eval-l327/) | L327-L329 | computed check | computed check | — |

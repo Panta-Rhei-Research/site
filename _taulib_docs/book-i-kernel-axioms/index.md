@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Kernel.Axioms",
-  "permalink": "/verify/taulib/docs/book-i-kernel-axioms/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-axioms/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Kernel.Axioms`.",
   "module_name": "TauLib.BookI.Kernel.Axioms",
   "module_slug": "book-i-kernel-axioms",
@@ -43,28 +43,34 @@
     {
       "kind": "structure",
       "name": "TauObj",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/tau-obj/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/tau-obj/",
       "source_line_start": 49,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauObj.ofGen",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/of-gen/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/of-gen/",
       "source_line_start": 57,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "rho",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/rho/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/rho/",
       "source_line_start": 61,
       "source_line_end": 64,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D02"
       ]
@@ -72,10 +78,12 @@
     {
       "kind": "theorem",
       "name": "K1_strict_order",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/k1-strict-order/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/k1-strict-order/",
       "source_line_start": 75,
       "source_line_end": 80,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.K1"
       ]
@@ -83,10 +91,12 @@
     {
       "kind": "theorem",
       "name": "K2_omega_fixed",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/k2-omega-fixed/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/k2-omega-fixed/",
       "source_line_start": 85,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.K2"
       ]
@@ -94,10 +104,12 @@
     {
       "kind": "def",
       "name": "inOrbitRay",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/in-orbit-ray/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/in-orbit-ray/",
       "source_line_start": 93,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.K3"
       ]
@@ -105,10 +117,12 @@
     {
       "kind": "theorem",
       "name": "K3_orbit_seeded",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/k3-orbit-seeded/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/k3-orbit-seeded/",
       "source_line_start": 97,
       "source_line_end": 99,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.K3"
       ]
@@ -116,10 +130,12 @@
     {
       "kind": "theorem",
       "name": "K4_no_jump",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/k4-no-jump/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/k4-no-jump/",
       "source_line_start": 103,
       "source_line_end": 105,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.K4"
       ]
@@ -127,10 +143,12 @@
     {
       "kind": "theorem",
       "name": "K5_beacon_non_succ",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/k5-beacon-non-succ/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/k5-beacon-non-succ/",
       "source_line_start": 109,
       "source_line_end": 111,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.K5"
       ]
@@ -138,19 +156,23 @@
     {
       "kind": "theorem",
       "name": "K5_omega_unreachable",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/k5-omega-unreachable/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/k5-omega-unreachable/",
       "source_line_start": 115,
       "source_line_end": 121,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "K6_object_closure",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/k6-object-closure/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/k6-object-closure/",
       "source_line_start": 128,
       "source_line_end": 135,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.K6"
       ]
@@ -158,10 +180,12 @@
     {
       "kind": "theorem",
       "name": "gen_distinct",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/gen-distinct/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/gen-distinct/",
       "source_line_start": 142,
       "source_line_end": 146,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P01"
       ]
@@ -169,10 +193,12 @@
     {
       "kind": "theorem",
       "name": "rho_injective",
-      "url": "/verify/taulib/docs/book-i-kernel-axioms/rho-injective/",
+      "url": "/corpus/taulib/docs/book-i-kernel-axioms/rho-injective/",
       "source_line_start": 149,
       "source_line_end": 158,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P02"
       ]
@@ -186,7 +212,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -267,18 +293,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [TauObj](/verify/taulib/docs/book-i-kernel-axioms/tau-obj/) | L49-L54 | defined | — |
-| `def` | [TauObj.ofGen](/verify/taulib/docs/book-i-kernel-axioms/of-gen/) | L57-L57 | defined | — |
-| `def` | [rho](/verify/taulib/docs/book-i-kernel-axioms/rho/) | L61-L64 | defined | `I.D02` |
-| `theorem` | [K1_strict_order](/verify/taulib/docs/book-i-kernel-axioms/k1-strict-order/) | L75-L80 | formalized | `I.K1` |
-| `theorem` | [K2_omega_fixed](/verify/taulib/docs/book-i-kernel-axioms/k2-omega-fixed/) | L85-L87 | formalized | `I.K2` |
-| `def` | [inOrbitRay](/verify/taulib/docs/book-i-kernel-axioms/in-orbit-ray/) | L93-L94 | defined | `I.K3` |
-| `theorem` | [K3_orbit_seeded](/verify/taulib/docs/book-i-kernel-axioms/k3-orbit-seeded/) | L97-L99 | formalized | `I.K3` |
-| `theorem` | [K4_no_jump](/verify/taulib/docs/book-i-kernel-axioms/k4-no-jump/) | L103-L105 | formalized | `I.K4` |
-| `theorem` | [K5_beacon_non_succ](/verify/taulib/docs/book-i-kernel-axioms/k5-beacon-non-succ/) | L109-L111 | formalized | `I.K5` |
-| `theorem` | [K5_omega_unreachable](/verify/taulib/docs/book-i-kernel-axioms/k5-omega-unreachable/) | L115-L121 | formalized | — |
-| `theorem` | [K6_object_closure](/verify/taulib/docs/book-i-kernel-axioms/k6-object-closure/) | L128-L135 | formalized | `I.K6` |
-| `theorem` | [gen_distinct](/verify/taulib/docs/book-i-kernel-axioms/gen-distinct/) | L142-L146 | formalized | `I.P01` |
-| `theorem` | [rho_injective](/verify/taulib/docs/book-i-kernel-axioms/rho-injective/) | L149-L158 | formalized | `I.P02` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [TauObj](/corpus/taulib/docs/book-i-kernel-axioms/tau-obj/) | L49-L54 | type/data schema | type/data schema | — |
+| `def` | [TauObj.ofGen](/corpus/taulib/docs/book-i-kernel-axioms/of-gen/) | L57-L57 | definition | definition | — |
+| `def` | [rho](/corpus/taulib/docs/book-i-kernel-axioms/rho/) | L61-L64 | definition | definition | `I.D02` |
+| `theorem` | [K1_strict_order](/corpus/taulib/docs/book-i-kernel-axioms/k1-strict-order/) | L75-L80 | proof obligation | formal proof obligation checked | `I.K1` |
+| `theorem` | [K2_omega_fixed](/corpus/taulib/docs/book-i-kernel-axioms/k2-omega-fixed/) | L85-L87 | proof obligation | formal proof obligation checked | `I.K2` |
+| `def` | [inOrbitRay](/corpus/taulib/docs/book-i-kernel-axioms/in-orbit-ray/) | L93-L94 | definition | definition | `I.K3` |
+| `theorem` | [K3_orbit_seeded](/corpus/taulib/docs/book-i-kernel-axioms/k3-orbit-seeded/) | L97-L99 | proof obligation | formal proof obligation checked | `I.K3` |
+| `theorem` | [K4_no_jump](/corpus/taulib/docs/book-i-kernel-axioms/k4-no-jump/) | L103-L105 | proof obligation | formal proof obligation checked | `I.K4` |
+| `theorem` | [K5_beacon_non_succ](/corpus/taulib/docs/book-i-kernel-axioms/k5-beacon-non-succ/) | L109-L111 | proof obligation | formal proof obligation checked | `I.K5` |
+| `theorem` | [K5_omega_unreachable](/corpus/taulib/docs/book-i-kernel-axioms/k5-omega-unreachable/) | L115-L121 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [K6_object_closure](/corpus/taulib/docs/book-i-kernel-axioms/k6-object-closure/) | L128-L135 | proof obligation | formal proof obligation checked | `I.K6` |
+| `theorem` | [gen_distinct](/corpus/taulib/docs/book-i-kernel-axioms/gen-distinct/) | L142-L146 | proof obligation | formal proof obligation checked | `I.P01` |
+| `theorem` | [rho_injective](/corpus/taulib/docs/book-i-kernel-axioms/rho-injective/) | L149-L158 | proof obligation | formal proof obligation checked | `I.P02` |

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Consumer.ConsumerMixer",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Consumer.ConsumerMixer`.",
   "module_name": "TauLib.BookVI.Consumer.ConsumerMixer",
   "module_slug": "book-vi-consumer-consumer-mixer",
@@ -37,10 +37,12 @@
     {
       "kind": "structure",
       "name": "ConsumerMixer",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/consumer-mixer/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/consumer-mixer/",
       "source_line_start": 37,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D46"
       ]
@@ -48,37 +50,45 @@
     {
       "kind": "def",
       "name": "canonical_mixer",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/canonical-mixer/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/canonical-mixer/",
       "source_line_start": 52,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "consumer_is_mixed_sector",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/consumer-is-mixed-sector/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/consumer-is-mixed-sector/",
       "source_line_start": 59,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "consumer_generator_match",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/consumer-generator-match/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/consumer-generator-match/",
       "source_line_start": 65,
       "source_line_end": 67,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SignatureRigidity",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity/",
       "source_line_start": 79,
       "source_line_end": 92,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T25"
       ]
@@ -86,28 +96,34 @@
     {
       "kind": "def",
       "name": "sig_rigid",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/sig-rigid/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/sig-rigid/",
       "source_line_start": 94,
       "source_line_end": 97,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "signature_rigidity_uniqueness",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity-uniqueness/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity-uniqueness/",
       "source_line_start": 99,
       "source_line_end": 104,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BridgeHeadE3",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3/",
       "source_line_start": 115,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L07"
       ]
@@ -115,19 +131,23 @@
     {
       "kind": "def",
       "name": "bridge_head",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head/",
       "source_line_start": 126,
       "source_line_end": 128,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bridge_head_e3",
-      "url": "/verify/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3-l130/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3-l130/",
       "source_line_start": 130,
       "source_line_end": 136,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -139,7 +159,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -214,15 +234,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [ConsumerMixer](/verify/taulib/docs/book-vi-consumer-consumer-mixer/consumer-mixer/) | L37-L50 | defined | `VI.D46` |
-| `def` | [canonical_mixer](/verify/taulib/docs/book-vi-consumer-consumer-mixer/canonical-mixer/) | L52-L56 | defined | — |
-| `theorem` | [consumer_is_mixed_sector](/verify/taulib/docs/book-vi-consumer-consumer-mixer/consumer-is-mixed-sector/) | L59-L62 | formalized | — |
-| `theorem` | [consumer_generator_match](/verify/taulib/docs/book-vi-consumer-consumer-mixer/consumer-generator-match/) | L65-L67 | formalized | — |
-| `structure` | [SignatureRigidity](/verify/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity/) | L79-L92 | defined | `VI.T25` |
-| `def` | [sig_rigid](/verify/taulib/docs/book-vi-consumer-consumer-mixer/sig-rigid/) | L94-L97 | defined | — |
-| `theorem` | [signature_rigidity_uniqueness](/verify/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity-uniqueness/) | L99-L104 | formalized | — |
-| `structure` | [BridgeHeadE3](/verify/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3/) | L115-L124 | defined | `VI.L07` |
-| `def` | [bridge_head](/verify/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head/) | L126-L128 | defined | — |
-| `theorem` | [bridge_head_e3](/verify/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3-l130/) | L130-L136 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [ConsumerMixer](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/consumer-mixer/) | L37-L50 | type/data schema | type/data schema | `VI.D46` |
+| `def` | [canonical_mixer](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/canonical-mixer/) | L52-L56 | definition | definition | — |
+| `theorem` | [consumer_is_mixed_sector](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/consumer-is-mixed-sector/) | L59-L62 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [consumer_generator_match](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/consumer-generator-match/) | L65-L67 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SignatureRigidity](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity/) | L79-L92 | type/data schema | type/data schema | `VI.T25` |
+| `def` | [sig_rigid](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/sig-rigid/) | L94-L97 | definition | definition | — |
+| `theorem` | [signature_rigidity_uniqueness](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/signature-rigidity-uniqueness/) | L99-L104 | proof obligation | formal proof obligation checked | — |
+| `structure` | [BridgeHeadE3](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3/) | L115-L124 | type/data schema | type/data schema | `VI.L07` |
+| `def` | [bridge_head](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head/) | L126-L128 | definition | definition | — |
+| `theorem` | [bridge_head_e3](/corpus/taulib/docs/book-vi-consumer-consumer-mixer/bridge-head-e3-l130/) | L130-L136 | proof obligation | formal proof obligation checked | — |

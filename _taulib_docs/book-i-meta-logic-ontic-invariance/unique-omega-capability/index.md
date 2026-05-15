@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "UniqueOmegaCapability",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/unique-omega-capability/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/unique-omega-capability/",
   "summary_short": "`structure` declaration in `TauLib.BookI.MetaLogic.OnticInvariance`.",
   "declaration_id": "TauLib.BookI.MetaLogic.OnticInvariance::UniqueOmegaCapability",
   "declaration_slug": "unique-omega-capability",
   "kind": "structure",
   "name": "UniqueOmegaCapability",
   "module_name": "TauLib.BookI.MetaLogic.OnticInvariance",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/",
   "source_line_start": 137,
   "source_line_end": 140,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/OnticInvariance.lean#L137-L140",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.OnticInvariance",
-        "url": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.OnticInvariance](/verify/taulib/docs/book-i-meta-logic-ontic-invariance/)
+- Module: [TauLib.BookI.MetaLogic.OnticInvariance](/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/)
 - Source path: [`TauLib/BookI/MetaLogic/OnticInvariance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/OnticInvariance.lean#L137-L140)
 - Source range: L137-L140
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

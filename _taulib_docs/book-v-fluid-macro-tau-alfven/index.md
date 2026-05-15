@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.FluidMacro.TauAlfven",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.FluidMacro.TauAlfven`.",
   "module_name": "TauLib.BookV.FluidMacro.TauAlfven",
   "module_slug": "book-v-fluid-macro-tau-alfven",
@@ -43,19 +43,23 @@
     {
       "kind": "inductive",
       "name": "MHDPolarization",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/mhdpolarization/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/mhdpolarization/",
       "source_line_start": 67,
       "source_line_end": 74,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AlfvenWaveMode",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-wave-mode/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-wave-mode/",
       "source_line_start": 82,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D111"
       ]
@@ -63,37 +67,45 @@
     {
       "kind": "def",
       "name": "AlfvenWaveMode.speedFloat",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/speed-float/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/speed-float/",
       "source_line_start": 98,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "shear_is_incompressible",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/shear-is-incompressible/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/shear-is-incompressible/",
       "source_line_start": 102,
       "source_line_end": 105,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AlfvenDispersion",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion/",
       "source_line_start": 115,
       "source_line_end": 126,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alfven_dispersion",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion-l136/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion-l136/",
       "source_line_start": 136,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P52"
       ]
@@ -101,10 +113,12 @@
     {
       "kind": "structure",
       "name": "MagnetoacousticMode",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-mode/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-mode/",
       "source_line_start": 149,
       "source_line_end": 168,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D112"
       ]
@@ -112,28 +126,34 @@
     {
       "kind": "theorem",
       "name": "fast_slow_opposite_phase",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/fast-slow-opposite-phase/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/fast-slow-opposite-phase/",
       "source_line_start": 171,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "AlfvenDampingMechanism",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-mechanism/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-mechanism/",
       "source_line_start": 183,
       "source_line_end": 192,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AlfvenDamping",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping/",
       "source_line_start": 199,
       "source_line_end": 208,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R156"
       ]
@@ -141,19 +161,23 @@
     {
       "kind": "theorem",
       "name": "alfven_damping",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-l211/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-l211/",
       "source_line_start": 211,
       "source_line_end": 212,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MagnetoacousticSynthesis",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis/",
       "source_line_start": 224,
       "source_line_end": 233,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.P53"
       ]
@@ -161,28 +185,34 @@
     {
       "kind": "def",
       "name": "MagnetoacousticSynthesis.totalEnergy",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/total-energy/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/total-energy/",
       "source_line_start": 236,
       "source_line_end": 237,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "magnetoacoustic_synthesis",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis-l240/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis-l240/",
       "source_line_start": 240,
       "source_line_end": 244,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AlfvenDampingRate",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate/",
       "source_line_start": 256,
       "source_line_end": 263,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D312"
       ]
@@ -190,19 +220,23 @@
     {
       "kind": "def",
       "name": "alfven_damping_rate_tau",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate-tau/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate-tau/",
       "source_line_start": 266,
       "source_line_end": 266,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CoronalHeatingFlux",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux/",
       "source_line_start": 279,
       "source_line_end": 288,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D313"
       ]
@@ -210,19 +244,23 @@
     {
       "kind": "def",
       "name": "coronal_heating_flux",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux-l291/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux-l291/",
       "source_line_start": 291,
       "source_line_end": 291,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_alfven_damping_rate",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/tau-alfven-damping-rate/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/tau-alfven-damping-rate/",
       "source_line_start": 303,
       "source_line_end": 306,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T253"
       ]
@@ -230,10 +268,12 @@
     {
       "kind": "structure",
       "name": "CoronalFluxConsistency",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency/",
       "source_line_start": 319,
       "source_line_end": 324,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.P173"
       ]
@@ -241,73 +281,89 @@
     {
       "kind": "def",
       "name": "coronal_flux_consistency",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency-l327/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency-l327/",
       "source_line_start": 327,
       "source_line_end": 327,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_shear_alfven",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/example-shear-alfven/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/example-shear-alfven/",
       "source_line_start": 343,
       "source_line_end": 349,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l351/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l351/",
       "source_line_start": 351,
       "source_line_end": 351,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l352/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l352/",
       "source_line_start": 352,
       "source_line_end": 352,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_fast_mode",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/example-fast-mode/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/example-fast-mode/",
       "source_line_start": 355,
       "source_line_end": 364,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l366/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l366/",
       "source_line_start": 366,
       "source_line_end": 366,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_synthesis",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/example-synthesis/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/example-synthesis/",
       "source_line_start": 369,
       "source_line_end": 372,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l374/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l374/",
       "source_line_start": 374,
       "source_line_end": 376,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -319,7 +375,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -400,33 +456,33 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [MHDPolarization](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/mhdpolarization/) | L67-L74 | defined | — |
-| `structure` | [AlfvenWaveMode](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-wave-mode/) | L82-L95 | defined | `V.D111` |
-| `def` | [AlfvenWaveMode.speedFloat](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/speed-float/) | L98-L99 | defined | — |
-| `theorem` | [shear_is_incompressible](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/shear-is-incompressible/) | L102-L105 | formalized | — |
-| `structure` | [AlfvenDispersion](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion/) | L115-L126 | defined | — |
-| `theorem` | [alfven_dispersion](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion-l136/) | L136-L138 | formalized | `V.P52` |
-| `structure` | [MagnetoacousticMode](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-mode/) | L149-L168 | defined | `V.D112` |
-| `theorem` | [fast_slow_opposite_phase](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/fast-slow-opposite-phase/) | L171-L176 | formalized | — |
-| `inductive` | [AlfvenDampingMechanism](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-mechanism/) | L183-L192 | defined | — |
-| `structure` | [AlfvenDamping](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping/) | L199-L208 | defined | `V.R156` |
-| `theorem` | [alfven_damping](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-l211/) | L211-L212 | formalized | — |
-| `structure` | [MagnetoacousticSynthesis](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis/) | L224-L233 | defined | `V.P53` |
-| `def` | [MagnetoacousticSynthesis.totalEnergy](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/total-energy/) | L236-L237 | defined | — |
-| `theorem` | [magnetoacoustic_synthesis](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis-l240/) | L240-L244 | formalized | — |
-| `structure` | [AlfvenDampingRate](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate/) | L256-L263 | defined | `V.D312` |
-| `def` | [alfven_damping_rate_tau](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate-tau/) | L266-L266 | defined | — |
-| `structure` | [CoronalHeatingFlux](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux/) | L279-L288 | defined | `V.D313` |
-| `def` | [coronal_heating_flux](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux-l291/) | L291-L291 | defined | — |
-| `theorem` | [tau_alfven_damping_rate](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/tau-alfven-damping-rate/) | L303-L306 | formalized | `V.T253` |
-| `structure` | [CoronalFluxConsistency](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency/) | L319-L324 | defined | `V.P173` |
-| `def` | [coronal_flux_consistency](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency-l327/) | L327-L327 | defined | — |
-| `def` | [example_shear_alfven](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/example-shear-alfven/) | L343-L349 | defined | — |
-| `eval` | [#eval L351](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l351/) | L351-L351 | computed | — |
-| `eval` | [#eval L352](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l352/) | L352-L352 | computed | — |
-| `def` | [example_fast_mode](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/example-fast-mode/) | L355-L364 | defined | — |
-| `eval` | [#eval L366](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l366/) | L366-L366 | computed | — |
-| `def` | [example_synthesis](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/example-synthesis/) | L369-L372 | defined | — |
-| `eval` | [#eval L374](/verify/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l374/) | L374-L376 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [MHDPolarization](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/mhdpolarization/) | L67-L74 | type/data schema | type/data schema | — |
+| `structure` | [AlfvenWaveMode](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-wave-mode/) | L82-L95 | type/data schema | type/data schema | `V.D111` |
+| `def` | [AlfvenWaveMode.speedFloat](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/speed-float/) | L98-L99 | data/computed value | data/computed value | — |
+| `theorem` | [shear_is_incompressible](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/shear-is-incompressible/) | L102-L105 | proof obligation | formal proof obligation checked | — |
+| `structure` | [AlfvenDispersion](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion/) | L115-L126 | type/data schema | type/data schema | — |
+| `theorem` | [alfven_dispersion](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-dispersion-l136/) | L136-L138 | proof obligation | formal proof obligation checked | `V.P52` |
+| `structure` | [MagnetoacousticMode](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-mode/) | L149-L168 | type/data schema | type/data schema | `V.D112` |
+| `theorem` | [fast_slow_opposite_phase](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/fast-slow-opposite-phase/) | L171-L176 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [AlfvenDampingMechanism](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-mechanism/) | L183-L192 | type/data schema | type/data schema | — |
+| `structure` | [AlfvenDamping](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping/) | L199-L208 | type/data schema | type/data schema | `V.R156` |
+| `theorem` | [alfven_damping](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-l211/) | L211-L212 | proof obligation | formal proof obligation checked | — |
+| `structure` | [MagnetoacousticSynthesis](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis/) | L224-L233 | type/data schema | type/data schema | `V.P53` |
+| `def` | [MagnetoacousticSynthesis.totalEnergy](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/total-energy/) | L236-L237 | data/computed value | data/computed value | — |
+| `theorem` | [magnetoacoustic_synthesis](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/magnetoacoustic-synthesis-l240/) | L240-L244 | proof obligation | formal proof obligation checked | — |
+| `structure` | [AlfvenDampingRate](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate/) | L256-L263 | type/data schema | type/data schema | `V.D312` |
+| `def` | [alfven_damping_rate_tau](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/alfven-damping-rate-tau/) | L266-L266 | definition | definition | — |
+| `structure` | [CoronalHeatingFlux](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux/) | L279-L288 | type/data schema | type/data schema | `V.D313` |
+| `def` | [coronal_heating_flux](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-heating-flux-l291/) | L291-L291 | definition | definition | — |
+| `theorem` | [tau_alfven_damping_rate](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/tau-alfven-damping-rate/) | L303-L306 | proof obligation | formal proof obligation checked | `V.T253` |
+| `structure` | [CoronalFluxConsistency](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency/) | L319-L324 | type/data schema | type/data schema | `V.P173` |
+| `def` | [coronal_flux_consistency](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/coronal-flux-consistency-l327/) | L327-L327 | definition | definition | — |
+| `def` | [example_shear_alfven](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/example-shear-alfven/) | L343-L349 | definition | definition | — |
+| `eval` | [#eval L351](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l351/) | L351-L351 | computed check | computed check | — |
+| `eval` | [#eval L352](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l352/) | L352-L352 | computed check | computed check | — |
+| `def` | [example_fast_mode](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/example-fast-mode/) | L355-L364 | definition | definition | — |
+| `eval` | [#eval L366](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l366/) | L366-L366 | computed check | computed check | — |
+| `def` | [example_synthesis](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/example-synthesis/) | L369-L372 | definition | definition | — |
+| `eval` | [#eval L374](/corpus/taulib/docs/book-v-fluid-macro-tau-alfven/eval-l374/) | L374-L376 | computed check | computed check | — |

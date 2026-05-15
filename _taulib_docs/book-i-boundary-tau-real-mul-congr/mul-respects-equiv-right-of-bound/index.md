@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.mul_respects_equiv_right_of_bound",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-mul-congr/mul-respects-equiv-right-of-bound/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-mul-congr/mul-respects-equiv-right-of-bound/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealMulCongr`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealMulCongr::TauReal.mul_respects_equiv_right_of_bound",
   "declaration_slug": "mul-respects-equiv-right-of-bound",
   "kind": "theorem",
   "name": "TauReal.mul_respects_equiv_right_of_bound",
   "module_name": "TauLib.BookI.Boundary.TauRealMulCongr",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-mul-congr/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-mul-congr/",
   "source_line_start": 73,
   "source_line_end": 179,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealMulCongr.lean#L73-L179",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealMulCongr",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-mul-congr/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-mul-congr/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealMulCongr](/verify/taulib/docs/book-i-boundary-tau-real-mul-congr/)
+- Module: [TauLib.BookI.Boundary.TauRealMulCongr](/corpus/taulib/docs/book-i-boundary-tau-real-mul-congr/)
 - Source path: [`TauLib/BookI/Boundary/TauRealMulCongr.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealMulCongr.lean#L73-L179)
 - Source range: L73-L179
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

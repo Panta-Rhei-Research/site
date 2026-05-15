@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L237",
-  "permalink": "/verify/taulib/docs/book-i-topos-limits-sites/eval-l237/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-limits-sites/eval-l237/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Topos.LimitsSites`.",
   "declaration_id": "TauLib.BookI.Topos.LimitsSites::#eval:237",
   "declaration_slug": "eval-l237",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Topos.LimitsSites",
-  "module_url": "/verify/taulib/docs/book-i-topos-limits-sites/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-limits-sites/",
   "source_line_start": 237,
   "source_line_end": 239,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L237-L239",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.LimitsSites",
-        "url": "/verify/taulib/docs/book-i-topos-limits-sites/"
+        "url": "/corpus/taulib/docs/book-i-topos-limits-sites/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.LimitsSites](/verify/taulib/docs/book-i-topos-limits-sites/)
+- Module: [TauLib.BookI.Topos.LimitsSites](/corpus/taulib/docs/book-i-topos-limits-sites/)
 - Source path: [`TauLib/BookI/Topos/LimitsSites.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L237-L239)
 - Source range: L237-L239
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

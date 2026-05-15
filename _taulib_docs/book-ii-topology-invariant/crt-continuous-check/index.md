@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "crt_continuous_check",
-  "permalink": "/verify/taulib/docs/book-ii-topology-invariant/crt-continuous-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-invariant/crt-continuous-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.Invariant`.",
   "declaration_id": "TauLib.BookII.Topology.Invariant::crt_continuous_check",
   "declaration_slug": "crt-continuous-check",
   "kind": "def",
   "name": "crt_continuous_check",
   "module_name": "TauLib.BookII.Topology.Invariant",
-  "module_url": "/verify/taulib/docs/book-ii-topology-invariant/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-invariant/",
   "source_line_start": 40,
   "source_line_end": 58,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/Invariant.lean#L40-L58",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.Invariant",
-        "url": "/verify/taulib/docs/book-ii-topology-invariant/"
+        "url": "/corpus/taulib/docs/book-ii-topology-invariant/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.Invariant](/verify/taulib/docs/book-ii-topology-invariant/)
+- Module: [TauLib.BookII.Topology.Invariant](/corpus/taulib/docs/book-ii-topology-invariant/)
 - Source path: [`TauLib/BookII/Topology/Invariant.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/Invariant.lean#L40-L58)
 - Source range: L40-L58
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L360",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/eval-l360/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/eval-l360/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.QuantumMechanics.AddressObstruction`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.AddressObstruction::#eval:360",
   "declaration_slug": "eval-l360",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
   "source_line_start": 360,
   "source_line_end": 360,
   "registry_ids": [
@@ -36,15 +36,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L360-L360",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -61,7 +63,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -82,11 +85,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
+- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/AddressObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L360-L360)
 - Source range: L360-L360
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

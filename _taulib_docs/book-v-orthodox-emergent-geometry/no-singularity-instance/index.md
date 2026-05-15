@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_singularity_instance",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/no-singularity-instance/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/no-singularity-instance/",
   "summary_short": "`def` declaration in `TauLib.BookV.Orthodox.EmergentGeometry`.",
   "declaration_id": "TauLib.BookV.Orthodox.EmergentGeometry::no_singularity_instance",
   "declaration_slug": "no-singularity-instance",
   "kind": "def",
   "name": "no_singularity_instance",
   "module_name": "TauLib.BookV.Orthodox.EmergentGeometry",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/",
   "source_line_start": 167,
   "source_line_end": 170,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/EmergentGeometry.lean#L167-L170",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.EmergentGeometry",
-        "url": "/verify/taulib/docs/book-v-orthodox-emergent-geometry/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-emergent-geometry/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.EmergentGeometry](/verify/taulib/docs/book-v-orthodox-emergent-geometry/)
+- Module: [TauLib.BookV.Orthodox.EmergentGeometry](/corpus/taulib/docs/book-v-orthodox-emergent-geometry/)
 - Source path: [`TauLib/BookV/Orthodox/EmergentGeometry.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/EmergentGeometry.lean#L167-L170)
 - Source range: L167-L170
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

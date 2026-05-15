@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealOrder",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-order/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-order/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealOrder`.",
   "module_name": "TauLib.BookI.Boundary.TauRealOrder",
   "module_slug": "book-i-boundary-tau-real-order",
@@ -38,109 +38,133 @@
     {
       "kind": "def",
       "name": "TauReal.lt",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/lt/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/lt/",
       "source_line_start": 80,
       "source_line_end": 82,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.lt_irrefl",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/lt-irrefl/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-irrefl/",
       "source_line_start": 85,
       "source_line_end": 96,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.le",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/le/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/le/",
       "source_line_start": 105,
       "source_line_end": 107,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.le_refl",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/le-refl/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/le-refl/",
       "source_line_start": 110,
       "source_line_end": 121,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.le_of_lt",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/le-of-lt/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/le-of-lt/",
       "source_line_start": 128,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.le_trans",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/le-trans/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/le-trans/",
       "source_line_start": 161,
       "source_line_end": 181,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.lt_trans",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/lt-trans/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-trans/",
       "source_line_start": 191,
       "source_line_end": 212,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.lt_asymm",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/lt-asymm/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-asymm/",
       "source_line_start": 215,
       "source_line_end": 217,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.lt_of_equiv_left",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-left/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-left/",
       "source_line_start": 224,
       "source_line_end": 257,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.lt_of_equiv_right",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-right/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-right/",
       "source_line_start": 260,
       "source_line_end": 283,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.le_of_equiv_left",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-left/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-left/",
       "source_line_start": 286,
       "source_line_end": 310,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.le_of_equiv_right",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-right/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-right/",
       "source_line_start": 313,
       "source_line_end": 359,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -152,7 +176,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -225,17 +249,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauReal.lt](/verify/taulib/docs/book-i-boundary-tau-real-order/lt/) | L80-L82 | defined | — |
-| `theorem` | [TauReal.lt_irrefl](/verify/taulib/docs/book-i-boundary-tau-real-order/lt-irrefl/) | L85-L96 | formalized | — |
-| `def` | [TauReal.le](/verify/taulib/docs/book-i-boundary-tau-real-order/le/) | L105-L107 | defined | — |
-| `theorem` | [TauReal.le_refl](/verify/taulib/docs/book-i-boundary-tau-real-order/le-refl/) | L110-L121 | formalized | — |
-| `theorem` | [TauReal.le_of_lt](/verify/taulib/docs/book-i-boundary-tau-real-order/le-of-lt/) | L128-L151 | formalized | — |
-| `theorem` | [TauReal.le_trans](/verify/taulib/docs/book-i-boundary-tau-real-order/le-trans/) | L161-L181 | formalized | — |
-| `theorem` | [TauReal.lt_trans](/verify/taulib/docs/book-i-boundary-tau-real-order/lt-trans/) | L191-L212 | formalized | — |
-| `theorem` | [TauReal.lt_asymm](/verify/taulib/docs/book-i-boundary-tau-real-order/lt-asymm/) | L215-L217 | formalized | — |
-| `theorem` | [TauReal.lt_of_equiv_left](/verify/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-left/) | L224-L257 | formalized | — |
-| `theorem` | [TauReal.lt_of_equiv_right](/verify/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-right/) | L260-L283 | formalized | — |
-| `theorem` | [TauReal.le_of_equiv_left](/verify/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-left/) | L286-L310 | formalized | — |
-| `theorem` | [TauReal.le_of_equiv_right](/verify/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-right/) | L313-L359 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauReal.lt](/corpus/taulib/docs/book-i-boundary-tau-real-order/lt/) | L80-L82 | definition | definition | — |
+| `theorem` | [TauReal.lt_irrefl](/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-irrefl/) | L85-L96 | proof obligation | formal proof obligation checked | — |
+| `def` | [TauReal.le](/corpus/taulib/docs/book-i-boundary-tau-real-order/le/) | L105-L107 | definition | definition | — |
+| `theorem` | [TauReal.le_refl](/corpus/taulib/docs/book-i-boundary-tau-real-order/le-refl/) | L110-L121 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.le_of_lt](/corpus/taulib/docs/book-i-boundary-tau-real-order/le-of-lt/) | L128-L151 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.le_trans](/corpus/taulib/docs/book-i-boundary-tau-real-order/le-trans/) | L161-L181 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.lt_trans](/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-trans/) | L191-L212 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.lt_asymm](/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-asymm/) | L215-L217 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.lt_of_equiv_left](/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-left/) | L224-L257 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.lt_of_equiv_right](/corpus/taulib/docs/book-i-boundary-tau-real-order/lt-of-equiv-right/) | L260-L283 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.le_of_equiv_left](/corpus/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-left/) | L286-L310 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.le_of_equiv_right](/corpus/taulib/docs/book-i-boundary-tau-real-order/le-of-equiv-right/) | L313-L359 | proof obligation | formal proof obligation checked | — |

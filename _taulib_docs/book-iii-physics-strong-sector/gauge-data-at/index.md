@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "gauge_data_at",
-  "permalink": "/verify/taulib/docs/book-iii-physics-strong-sector/gauge-data-at/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-strong-sector/gauge-data-at/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Physics.StrongSector`.",
   "declaration_id": "TauLib.BookIII.Physics.StrongSector::gauge_data_at",
   "declaration_slug": "gauge-data-at",
   "kind": "def",
   "name": "gauge_data_at",
   "module_name": "TauLib.BookIII.Physics.StrongSector",
-  "module_url": "/verify/taulib/docs/book-iii-physics-strong-sector/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-strong-sector/",
   "source_line_start": 105,
   "source_line_end": 107,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/StrongSector.lean#L105-L107",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.StrongSector",
-        "url": "/verify/taulib/docs/book-iii-physics-strong-sector/"
+        "url": "/corpus/taulib/docs/book-iii-physics-strong-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.StrongSector](/verify/taulib/docs/book-iii-physics-strong-sector/)
+- Module: [TauLib.BookIII.Physics.StrongSector](/corpus/taulib/docs/book-iii-physics-strong-sector/)
 - Source path: [`TauLib/BookIII/Physics/StrongSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/StrongSector.lean#L105-L107)
 - Source range: L105-L107
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

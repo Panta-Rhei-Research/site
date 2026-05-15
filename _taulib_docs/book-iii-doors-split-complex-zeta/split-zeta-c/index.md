@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "split_zeta_c",
-  "permalink": "/verify/taulib/docs/book-iii-doors-split-complex-zeta/split-zeta-c/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-split-complex-zeta/split-zeta-c/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.SplitComplexZeta`.",
   "declaration_id": "TauLib.BookIII.Doors.SplitComplexZeta::split_zeta_c",
   "declaration_slug": "split-zeta-c",
   "kind": "def",
   "name": "split_zeta_c",
   "module_name": "TauLib.BookIII.Doors.SplitComplexZeta",
-  "module_url": "/verify/taulib/docs/book-iii-doors-split-complex-zeta/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-split-complex-zeta/",
   "source_line_start": 43,
   "source_line_end": 43,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SplitComplexZeta.lean#L43-L43",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.SplitComplexZeta",
-        "url": "/verify/taulib/docs/book-iii-doors-split-complex-zeta/"
+        "url": "/corpus/taulib/docs/book-iii-doors-split-complex-zeta/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.SplitComplexZeta](/verify/taulib/docs/book-iii-doors-split-complex-zeta/)
+- Module: [TauLib.BookIII.Doors.SplitComplexZeta](/corpus/taulib/docs/book-iii-doors-split-complex-zeta/)
 - Source path: [`TauLib/BookIII/Doors/SplitComplexZeta.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SplitComplexZeta.lean#L43-L43)
 - Source range: L43-L43
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

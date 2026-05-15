@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sleep_two_lobes",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-neural/sleep-two-lobes/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-neural/sleep-two-lobes/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Consumer.Neural`.",
   "declaration_id": "TauLib.BookVI.Consumer.Neural::sleep_two_lobes",
   "declaration_slug": "sleep-two-lobes",
   "kind": "theorem",
   "name": "sleep_two_lobes",
   "module_name": "TauLib.BookVI.Consumer.Neural",
-  "module_url": "/verify/taulib/docs/book-vi-consumer-neural/",
+  "module_url": "/corpus/taulib/docs/book-vi-consumer-neural/",
   "source_line_start": 97,
   "source_line_end": 102,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Neural.lean#L97-L102",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Consumer.Neural",
-        "url": "/verify/taulib/docs/book-vi-consumer-neural/"
+        "url": "/corpus/taulib/docs/book-vi-consumer-neural/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Consumer.Neural](/verify/taulib/docs/book-vi-consumer-neural/)
+- Module: [TauLib.BookVI.Consumer.Neural](/corpus/taulib/docs/book-vi-consumer-neural/)
 - Source path: [`TauLib/BookVI/Consumer/Neural.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Neural.lean#L97-L102)
 - Source range: L97-L102
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

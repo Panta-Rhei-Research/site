@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "decompose_functorial_extended",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/decompose-functorial-extended/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/decompose-functorial-extended/",
   "summary_short": "`def` declaration in `TauLib.BookII.Regularity.IdempotentDecomposition`.",
   "declaration_id": "TauLib.BookII.Regularity.IdempotentDecomposition::decompose_functorial_extended",
   "declaration_slug": "decompose-functorial-extended",
   "kind": "def",
   "name": "decompose_functorial_extended",
   "module_name": "TauLib.BookII.Regularity.IdempotentDecomposition",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/",
   "source_line_start": 228,
   "source_line_end": 255,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/IdempotentDecomposition.lean#L228-L255",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.IdempotentDecomposition",
-        "url": "/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.IdempotentDecomposition](/verify/taulib/docs/book-ii-regularity-idempotent-decomposition/)
+- Module: [TauLib.BookII.Regularity.IdempotentDecomposition](/corpus/taulib/docs/book-ii-regularity-idempotent-decomposition/)
 - Source path: [`TauLib/BookII/Regularity/IdempotentDecomposition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/IdempotentDecomposition.lean#L228-L255)
 - Source range: L228-L255
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

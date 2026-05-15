@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "boundary_archetype",
-  "permalink": "/verify/taulib/docs/book-vii-meta-archetypes/boundary-archetype-l269/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-archetypes/boundary-archetype-l269/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Meta.Archetypes`.",
   "declaration_id": "TauLib.BookVII.Meta.Archetypes::boundary_archetype",
   "declaration_slug": "boundary-archetype-l269",
   "kind": "def",
   "name": "boundary_archetype",
   "module_name": "TauLib.BookVII.Meta.Archetypes",
-  "module_url": "/verify/taulib/docs/book-vii-meta-archetypes/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-archetypes/",
   "source_line_start": 269,
   "source_line_end": 269,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Archetypes.lean#L269-L269",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Archetypes",
-        "url": "/verify/taulib/docs/book-vii-meta-archetypes/"
+        "url": "/corpus/taulib/docs/book-vii-meta-archetypes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Archetypes](/verify/taulib/docs/book-vii-meta-archetypes/)
+- Module: [TauLib.BookVII.Meta.Archetypes](/corpus/taulib/docs/book-vii-meta-archetypes/)
 - Source path: [`TauLib/BookVII/Meta/Archetypes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Archetypes.lean#L269-L269)
 - Source range: L269-L269
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

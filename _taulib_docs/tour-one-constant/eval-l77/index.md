@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L77",
-  "permalink": "/verify/taulib/docs/tour-one-constant/eval-l77/",
+  "permalink": "/corpus/taulib/docs/tour-one-constant/eval-l77/",
   "summary_short": "`eval` declaration in `TauLib.Tour.OneConstant`.",
   "declaration_id": "TauLib.Tour.OneConstant::#eval:77",
   "declaration_slug": "eval-l77",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.Tour.OneConstant",
-  "module_url": "/verify/taulib/docs/tour-one-constant/",
+  "module_url": "/corpus/taulib/docs/tour-one-constant/",
   "source_line_start": 77,
   "source_line_end": 90,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/OneConstant.lean#L77-L90",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.Tour.OneConstant",
-        "url": "/verify/taulib/docs/tour-one-constant/"
+        "url": "/corpus/taulib/docs/tour-one-constant/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.Tour.OneConstant](/verify/taulib/docs/tour-one-constant/)
+- Module: [TauLib.Tour.OneConstant](/corpus/taulib/docs/tour-one-constant/)
 - Source path: [`TauLib/Tour/OneConstant.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/OneConstant.lean#L77-L90)
 - Source range: L77-L90
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

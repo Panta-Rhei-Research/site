@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "entropy_quantity",
-  "permalink": "/verify/taulib/docs/book-iv-physics-quantity-framework/entropy-quantity/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-quantity-framework/entropy-quantity/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.QuantityFramework`.",
   "declaration_id": "TauLib.BookIV.Physics.QuantityFramework::entropy_quantity",
   "declaration_slug": "entropy-quantity",
   "kind": "def",
   "name": "entropy_quantity",
   "module_name": "TauLib.BookIV.Physics.QuantityFramework",
-  "module_url": "/verify/taulib/docs/book-iv-physics-quantity-framework/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-quantity-framework/",
   "source_line_start": 148,
   "source_line_end": 154,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/QuantityFramework.lean#L148-L154",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.QuantityFramework",
-        "url": "/verify/taulib/docs/book-iv-physics-quantity-framework/"
+        "url": "/corpus/taulib/docs/book-iv-physics-quantity-framework/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.QuantityFramework](/verify/taulib/docs/book-iv-physics-quantity-framework/)
+- Module: [TauLib.BookIV.Physics.QuantityFramework](/corpus/taulib/docs/book-iv-physics-quantity-framework/)
 - Source path: [`TauLib/BookIV/Physics/QuantityFramework.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/QuantityFramework.lean#L148-L154)
 - Source range: L148-L154
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

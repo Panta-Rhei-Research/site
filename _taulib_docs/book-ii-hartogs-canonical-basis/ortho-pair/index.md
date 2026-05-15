@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ortho_pair",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-canonical-basis/ortho-pair/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-canonical-basis/ortho-pair/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.CanonicalBasis`.",
   "declaration_id": "TauLib.BookII.Hartogs.CanonicalBasis::ortho_pair",
   "declaration_slug": "ortho-pair",
   "kind": "def",
   "name": "ortho_pair",
   "module_name": "TauLib.BookII.Hartogs.CanonicalBasis",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-canonical-basis/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-canonical-basis/",
   "source_line_start": 70,
   "source_line_end": 80,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CanonicalBasis.lean#L70-L80",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CanonicalBasis",
-        "url": "/verify/taulib/docs/book-ii-hartogs-canonical-basis/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-canonical-basis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CanonicalBasis](/verify/taulib/docs/book-ii-hartogs-canonical-basis/)
+- Module: [TauLib.BookII.Hartogs.CanonicalBasis](/corpus/taulib/docs/book-ii-hartogs-canonical-basis/)
 - Source path: [`TauLib/BookII/Hartogs/CanonicalBasis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CanonicalBasis.lean#L70-L80)
 - Source range: L70-L80
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

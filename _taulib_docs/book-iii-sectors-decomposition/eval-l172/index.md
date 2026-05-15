@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L172",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-decomposition/eval-l172/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-decomposition/eval-l172/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Sectors.Decomposition`.",
   "declaration_id": "TauLib.BookIII.Sectors.Decomposition::#eval:172",
   "declaration_slug": "eval-l172",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Sectors.Decomposition",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-decomposition/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-decomposition/",
   "source_line_start": 172,
   "source_line_end": 172,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/Decomposition.lean#L172-L172",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.Decomposition",
-        "url": "/verify/taulib/docs/book-iii-sectors-decomposition/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-decomposition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.Decomposition](/verify/taulib/docs/book-iii-sectors-decomposition/)
+- Module: [TauLib.BookIII.Sectors.Decomposition](/corpus/taulib/docs/book-iii-sectors-decomposition/)
 - Source path: [`TauLib/BookIII/Sectors/Decomposition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/Decomposition.lean#L172-L172)
 - Source range: L172-L172
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

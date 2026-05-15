@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L322",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-inflation-regime/eval-l322/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/eval-l322/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Cosmology.InflationRegime`.",
   "declaration_id": "TauLib.BookV.Cosmology.InflationRegime::#eval:322",
   "declaration_slug": "eval-l322",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Cosmology.InflationRegime",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-inflation-regime/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/",
   "source_line_start": 322,
   "source_line_end": 322,
   "registry_ids": [
@@ -30,15 +30,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/InflationRegime.lean#L322-L322",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.InflationRegime",
-        "url": "/verify/taulib/docs/book-v-cosmology-inflation-regime/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -55,7 +57,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -76,11 +79,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.InflationRegime](/verify/taulib/docs/book-v-cosmology-inflation-regime/)
+- Module: [TauLib.BookV.Cosmology.InflationRegime](/corpus/taulib/docs/book-v-cosmology-inflation-regime/)
 - Source path: [`TauLib/BookV/Cosmology/InflationRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/InflationRegime.lean#L322-L322)
 - Source range: L322-L322
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

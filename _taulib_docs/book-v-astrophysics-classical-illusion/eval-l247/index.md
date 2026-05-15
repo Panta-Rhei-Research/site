@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L247",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/eval-l247/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/eval-l247/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Astrophysics.ClassicalIllusion`.",
   "declaration_id": "TauLib.BookV.Astrophysics.ClassicalIllusion::#eval:247",
   "declaration_slug": "eval-l247",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Astrophysics.ClassicalIllusion",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/",
   "source_line_start": 247,
   "source_line_end": 247,
   "registry_ids": [
@@ -42,15 +42,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/ClassicalIllusion.lean#L247-L247",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.ClassicalIllusion",
-        "url": "/verify/taulib/docs/book-v-astrophysics-classical-illusion/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-classical-illusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -67,7 +69,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -88,11 +91,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.ClassicalIllusion](/verify/taulib/docs/book-v-astrophysics-classical-illusion/)
+- Module: [TauLib.BookV.Astrophysics.ClassicalIllusion](/corpus/taulib/docs/book-v-astrophysics-classical-illusion/)
 - Source path: [`TauLib/BookV/Astrophysics/ClassicalIllusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/ClassicalIllusion.lean#L247-L247)
 - Source range: L247-L247
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

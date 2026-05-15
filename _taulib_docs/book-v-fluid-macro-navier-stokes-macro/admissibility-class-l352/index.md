@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "admissibility_class",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/admissibility-class-l352/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/admissibility-class-l352/",
   "summary_short": "`def` declaration in `TauLib.BookV.FluidMacro.NavierStokesMacro`.",
   "declaration_id": "TauLib.BookV.FluidMacro.NavierStokesMacro::admissibility_class",
   "declaration_slug": "admissibility-class-l352",
   "kind": "def",
   "name": "admissibility_class",
   "module_name": "TauLib.BookV.FluidMacro.NavierStokesMacro",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/",
   "source_line_start": 352,
   "source_line_end": 352,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/NavierStokesMacro.lean#L352-L352",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.NavierStokesMacro",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.NavierStokesMacro](/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/)
+- Module: [TauLib.BookV.FluidMacro.NavierStokesMacro](/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/)
 - Source path: [`TauLib/BookV/FluidMacro/NavierStokesMacro.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/NavierStokesMacro.lean#L352-L352)
 - Source range: L352-L352
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

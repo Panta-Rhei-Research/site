@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Temporal.DistanceLadder",
-  "permalink": "/verify/taulib/docs/book-v-temporal-distance-ladder/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-distance-ladder/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Temporal.DistanceLadder`.",
   "module_name": "TauLib.BookV.Temporal.DistanceLadder",
   "module_slug": "book-v-temporal-distance-ladder",
@@ -42,10 +42,12 @@
     {
       "kind": "structure",
       "name": "DistanceReadout",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/distance-readout/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/distance-readout/",
       "source_line_start": 78,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D32"
       ]
@@ -53,19 +55,23 @@
     {
       "kind": "def",
       "name": "DistanceReadout.toFloat",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/to-float/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/to-float/",
       "source_line_start": 94,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "DistanceLadderRung",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/distance-ladder-rung/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/distance-ladder-rung/",
       "source_line_start": 109,
       "source_line_end": 120,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T17"
       ]
@@ -73,19 +79,23 @@
     {
       "kind": "def",
       "name": "DistanceLadderRung.log10_parsec",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/log10-parsec/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/log10-parsec/",
       "source_line_start": 123,
       "source_line_end": 128,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CepheidCalibrator",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/cepheid-calibrator/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/cepheid-calibrator/",
       "source_line_start": 139,
       "source_line_end": 151,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D33"
       ]
@@ -93,10 +103,12 @@
     {
       "kind": "structure",
       "name": "BAOStandardRuler",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/baostandard-ruler/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/baostandard-ruler/",
       "source_line_start": 164,
       "source_line_end": 175,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D34"
       ]
@@ -104,10 +116,12 @@
     {
       "kind": "structure",
       "name": "ReadoutCurvature",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/readout-curvature/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/readout-curvature/",
       "source_line_start": 188,
       "source_line_end": 201,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D35"
       ]
@@ -115,10 +129,12 @@
     {
       "kind": "theorem",
       "name": "ladder_rung_count",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/ladder-rung-count/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/ladder-rung-count/",
       "source_line_start": 208,
       "source_line_end": 210,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T17"
       ]
@@ -126,10 +142,12 @@
     {
       "kind": "theorem",
       "name": "distance_is_operational",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/distance-is-operational/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/distance-is-operational/",
       "source_line_start": 215,
       "source_line_end": 216,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R40"
       ]
@@ -137,10 +155,12 @@
     {
       "kind": "theorem",
       "name": "gaia_calibrates_nearby",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/gaia-calibrates-nearby/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/gaia-calibrates-nearby/",
       "source_line_start": 220,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R41"
       ]
@@ -148,10 +168,12 @@
     {
       "kind": "theorem",
       "name": "H0_tension_structural",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/h0-tension-structural/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/h0-tension-structural/",
       "source_line_start": 228,
       "source_line_end": 230,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T18"
       ]
@@ -159,10 +181,12 @@
     {
       "kind": "theorem",
       "name": "dark_energy_artifact",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/dark-energy-artifact/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/dark-energy-artifact/",
       "source_line_start": 237,
       "source_line_end": 238,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T19"
       ]
@@ -170,10 +194,12 @@
     {
       "kind": "theorem",
       "name": "dark_energy_scope",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/dark-energy-scope/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/dark-energy-scope/",
       "source_line_start": 242,
       "source_line_end": 243,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R44"
       ]
@@ -181,73 +207,89 @@
     {
       "kind": "theorem",
       "name": "scale_ordering",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/scale-ordering/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/scale-ordering/",
       "source_line_start": 246,
       "source_line_end": 249,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bao_snia_same_scale",
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/bao-snia-same-scale/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/bao-snia-same-scale/",
       "source_line_start": 252,
       "source_line_end": 253,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l260/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l261/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l261/",
       "source_line_start": 261,
       "source_line_end": 261,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l262/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l263/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l263/",
       "source_line_start": 263,
       "source_line_end": 263,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l264/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l267/",
+      "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l267/",
       "source_line_start": 267,
       "source_line_end": 270,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -259,7 +301,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -339,26 +381,26 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [DistanceReadout](/verify/taulib/docs/book-v-temporal-distance-ladder/distance-readout/) | L78-L91 | defined | `V.D32` |
-| `def` | [DistanceReadout.toFloat](/verify/taulib/docs/book-v-temporal-distance-ladder/to-float/) | L94-L95 | defined | — |
-| `inductive` | [DistanceLadderRung](/verify/taulib/docs/book-v-temporal-distance-ladder/distance-ladder-rung/) | L109-L120 | defined | `V.T17` |
-| `def` | [DistanceLadderRung.log10_parsec](/verify/taulib/docs/book-v-temporal-distance-ladder/log10-parsec/) | L123-L128 | defined | — |
-| `structure` | [CepheidCalibrator](/verify/taulib/docs/book-v-temporal-distance-ladder/cepheid-calibrator/) | L139-L151 | defined | `V.D33` |
-| `structure` | [BAOStandardRuler](/verify/taulib/docs/book-v-temporal-distance-ladder/baostandard-ruler/) | L164-L175 | defined | `V.D34` |
-| `structure` | [ReadoutCurvature](/verify/taulib/docs/book-v-temporal-distance-ladder/readout-curvature/) | L188-L201 | defined | `V.D35` |
-| `theorem` | [ladder_rung_count](/verify/taulib/docs/book-v-temporal-distance-ladder/ladder-rung-count/) | L208-L210 | formalized | `V.T17` |
-| `theorem` | [distance_is_operational](/verify/taulib/docs/book-v-temporal-distance-ladder/distance-is-operational/) | L215-L216 | formalized | `V.R40` |
-| `theorem` | [gaia_calibrates_nearby](/verify/taulib/docs/book-v-temporal-distance-ladder/gaia-calibrates-nearby/) | L220-L221 | formalized | `V.R41` |
-| `theorem` | [H0_tension_structural](/verify/taulib/docs/book-v-temporal-distance-ladder/h0-tension-structural/) | L228-L230 | formalized | `V.T18` |
-| `theorem` | [dark_energy_artifact](/verify/taulib/docs/book-v-temporal-distance-ladder/dark-energy-artifact/) | L237-L238 | formalized | `V.T19` |
-| `theorem` | [dark_energy_scope](/verify/taulib/docs/book-v-temporal-distance-ladder/dark-energy-scope/) | L242-L243 | formalized | `V.R44` |
-| `theorem` | [scale_ordering](/verify/taulib/docs/book-v-temporal-distance-ladder/scale-ordering/) | L246-L249 | formalized | — |
-| `theorem` | [bao_snia_same_scale](/verify/taulib/docs/book-v-temporal-distance-ladder/bao-snia-same-scale/) | L252-L253 | formalized | — |
-| `eval` | [#eval L260](/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l260/) | L260-L260 | computed | — |
-| `eval` | [#eval L261](/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l261/) | L261-L261 | computed | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l262/) | L262-L262 | computed | — |
-| `eval` | [#eval L263](/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l263/) | L263-L263 | computed | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l264/) | L264-L264 | computed | — |
-| `eval` | [#eval L267](/verify/taulib/docs/book-v-temporal-distance-ladder/eval-l267/) | L267-L270 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [DistanceReadout](/corpus/taulib/docs/book-v-temporal-distance-ladder/distance-readout/) | L78-L91 | type/data schema | type/data schema | `V.D32` |
+| `def` | [DistanceReadout.toFloat](/corpus/taulib/docs/book-v-temporal-distance-ladder/to-float/) | L94-L95 | data/computed value | data/computed value | — |
+| `inductive` | [DistanceLadderRung](/corpus/taulib/docs/book-v-temporal-distance-ladder/distance-ladder-rung/) | L109-L120 | type/data schema | type/data schema | `V.T17` |
+| `def` | [DistanceLadderRung.log10_parsec](/corpus/taulib/docs/book-v-temporal-distance-ladder/log10-parsec/) | L123-L128 | definition | definition | — |
+| `structure` | [CepheidCalibrator](/corpus/taulib/docs/book-v-temporal-distance-ladder/cepheid-calibrator/) | L139-L151 | type/data schema | type/data schema | `V.D33` |
+| `structure` | [BAOStandardRuler](/corpus/taulib/docs/book-v-temporal-distance-ladder/baostandard-ruler/) | L164-L175 | type/data schema | type/data schema | `V.D34` |
+| `structure` | [ReadoutCurvature](/corpus/taulib/docs/book-v-temporal-distance-ladder/readout-curvature/) | L188-L201 | type/data schema | type/data schema | `V.D35` |
+| `theorem` | [ladder_rung_count](/corpus/taulib/docs/book-v-temporal-distance-ladder/ladder-rung-count/) | L208-L210 | proof obligation | formal proof obligation checked | `V.T17` |
+| `theorem` | [distance_is_operational](/corpus/taulib/docs/book-v-temporal-distance-ladder/distance-is-operational/) | L215-L216 | proof obligation | formal proof obligation checked | `V.R40` |
+| `theorem` | [gaia_calibrates_nearby](/corpus/taulib/docs/book-v-temporal-distance-ladder/gaia-calibrates-nearby/) | L220-L221 | proof obligation | formal proof obligation checked | `V.R41` |
+| `theorem` | [H0_tension_structural](/corpus/taulib/docs/book-v-temporal-distance-ladder/h0-tension-structural/) | L228-L230 | proof obligation | formal proof obligation checked | `V.T18` |
+| `theorem` | [dark_energy_artifact](/corpus/taulib/docs/book-v-temporal-distance-ladder/dark-energy-artifact/) | L237-L238 | proof obligation | formal proof obligation checked | `V.T19` |
+| `theorem` | [dark_energy_scope](/corpus/taulib/docs/book-v-temporal-distance-ladder/dark-energy-scope/) | L242-L243 | proof obligation | formal proof obligation checked | `V.R44` |
+| `theorem` | [scale_ordering](/corpus/taulib/docs/book-v-temporal-distance-ladder/scale-ordering/) | L246-L249 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bao_snia_same_scale](/corpus/taulib/docs/book-v-temporal-distance-ladder/bao-snia-same-scale/) | L252-L253 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L260](/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l260/) | L260-L260 | computed check | computed check | — |
+| `eval` | [#eval L261](/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l261/) | L261-L261 | computed check | computed check | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l262/) | L262-L262 | computed check | computed check | — |
+| `eval` | [#eval L263](/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l263/) | L263-L263 | computed check | computed check | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l264/) | L264-L264 | computed check | computed check | — |
+| `eval` | [#eval L267](/corpus/taulib/docs/book-v-temporal-distance-ladder/eval-l267/) | L267-L270 | computed check | computed check | — |

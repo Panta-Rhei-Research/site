@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cp_asymmetry_polarity",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/cp-asymmetry-polarity/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/cp-asymmetry-polarity/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.BBNBaryogenesis`.",
   "declaration_id": "TauLib.BookV.Cosmology.BBNBaryogenesis::cp_asymmetry_polarity",
   "declaration_slug": "cp-asymmetry-polarity",
   "kind": "def",
   "name": "cp_asymmetry_polarity",
   "module_name": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
   "source_line_start": 486,
   "source_line_end": 486,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L486-L486",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-        "url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
+- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
 - Source path: [`TauLib/BookV/Cosmology/BBNBaryogenesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L486-L486)
 - Source range: L486-L486
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

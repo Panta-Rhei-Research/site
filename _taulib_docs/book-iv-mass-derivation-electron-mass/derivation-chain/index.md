@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "derivation_chain",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-electron-mass/derivation-chain/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/derivation-chain/",
   "summary_short": "`def` declaration in `TauLib.BookIV.MassDerivation.ElectronMass`.",
   "declaration_id": "TauLib.BookIV.MassDerivation.ElectronMass::derivation_chain",
   "declaration_slug": "derivation-chain",
   "kind": "def",
   "name": "derivation_chain",
   "module_name": "TauLib.BookIV.MassDerivation.ElectronMass",
-  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-electron-mass/",
+  "module_url": "/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/",
   "source_line_start": 48,
   "source_line_end": 59,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/ElectronMass.lean#L48-L59",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.MassDerivation.ElectronMass",
-        "url": "/verify/taulib/docs/book-iv-mass-derivation-electron-mass/"
+        "url": "/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.MassDerivation.ElectronMass](/verify/taulib/docs/book-iv-mass-derivation-electron-mass/)
+- Module: [TauLib.BookIV.MassDerivation.ElectronMass](/corpus/taulib/docs/book-iv-mass-derivation-electron-mass/)
 - Source path: [`TauLib/BookIV/MassDerivation/ElectronMass.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/ElectronMass.lean#L48-L59)
 - Source range: L48-L59
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

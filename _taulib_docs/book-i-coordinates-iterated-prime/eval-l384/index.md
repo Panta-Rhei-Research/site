@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L384",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-iterated-prime/eval-l384/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-iterated-prime/eval-l384/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Coordinates.IteratedPrime`.",
   "declaration_id": "TauLib.BookI.Coordinates.IteratedPrime::#eval:384",
   "declaration_slug": "eval-l384",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Coordinates.IteratedPrime",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-iterated-prime/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-iterated-prime/",
   "source_line_start": 384,
   "source_line_end": 384,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/IteratedPrime.lean#L384-L384",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.IteratedPrime",
-        "url": "/verify/taulib/docs/book-i-coordinates-iterated-prime/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-iterated-prime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.IteratedPrime](/verify/taulib/docs/book-i-coordinates-iterated-prime/)
+- Module: [TauLib.BookI.Coordinates.IteratedPrime](/corpus/taulib/docs/book-i-coordinates-iterated-prime/)
 - Source path: [`TauLib/BookI/Coordinates/IteratedPrime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/IteratedPrime.lean#L384-L384)
 - Source range: L384-L384
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

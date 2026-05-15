@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "stage_measure",
-  "permalink": "/verify/taulib/docs/book-i-boundary-measure/stage-measure-l67/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-measure/stage-measure-l67/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Measure`.",
   "declaration_id": "TauLib.BookI.Boundary.Measure::stage_measure",
   "declaration_slug": "stage-measure-l67",
   "kind": "def",
   "name": "stage_measure",
   "module_name": "TauLib.BookI.Boundary.Measure",
-  "module_url": "/verify/taulib/docs/book-i-boundary-measure/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-measure/",
   "source_line_start": 67,
   "source_line_end": 71,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Measure.lean#L67-L71",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Measure",
-        "url": "/verify/taulib/docs/book-i-boundary-measure/"
+        "url": "/corpus/taulib/docs/book-i-boundary-measure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Measure](/verify/taulib/docs/book-i-boundary-measure/)
+- Module: [TauLib.BookI.Boundary.Measure](/corpus/taulib/docs/book-i-boundary-measure/)
 - Source path: [`TauLib/BookI/Boundary/Measure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Measure.lean#L67-L71)
 - Source range: L67-L71
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

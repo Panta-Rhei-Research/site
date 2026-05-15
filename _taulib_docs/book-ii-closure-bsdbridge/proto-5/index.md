@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "proto_5",
-  "permalink": "/verify/taulib/docs/book-ii-closure-bsdbridge/proto-5/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-bsdbridge/proto-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Closure.BSDbridge`.",
   "declaration_id": "TauLib.BookII.Closure.BSDbridge::proto_5",
   "declaration_slug": "proto-5",
   "kind": "theorem",
   "name": "proto_5",
   "module_name": "TauLib.BookII.Closure.BSDbridge",
-  "module_url": "/verify/taulib/docs/book-ii-closure-bsdbridge/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-bsdbridge/",
   "source_line_start": 188,
   "source_line_end": 189,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/BSDbridge.lean#L188-L189",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.BSDbridge",
-        "url": "/verify/taulib/docs/book-ii-closure-bsdbridge/"
+        "url": "/corpus/taulib/docs/book-ii-closure-bsdbridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.BSDbridge](/verify/taulib/docs/book-ii-closure-bsdbridge/)
+- Module: [TauLib.BookII.Closure.BSDbridge](/corpus/taulib/docs/book-ii-closure-bsdbridge/)
 - Source path: [`TauLib/BookII/Closure/BSDbridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/BSDbridge.lean#L188-L189)
 - Source range: L188-L189
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

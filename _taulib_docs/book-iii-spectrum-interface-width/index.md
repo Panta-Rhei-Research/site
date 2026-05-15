@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectrum.InterfaceWidth",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-interface-width/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-interface-width/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectrum.InterfaceWidth`.",
   "module_name": "TauLib.BookIII.Spectrum.InterfaceWidth",
   "module_slug": "book-iii-spectrum-interface-width",
@@ -34,10 +34,12 @@
     {
       "kind": "def",
       "name": "interface_width_at",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/interface-width-at/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/interface-width-at/",
       "source_line_start": 46,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D71"
       ]
@@ -45,19 +47,23 @@
     {
       "kind": "def",
       "name": "width_check",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/width-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/width-check/",
       "source_line_start": 51,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauAdmissible",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/tau-admissible/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/tau-admissible/",
       "source_line_start": 65,
       "source_line_end": 67,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D72"
       ]
@@ -65,19 +71,23 @@
     {
       "kind": "def",
       "name": "TauAdmissibleFull",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/tau-admissible-full/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/tau-admissible-full/",
       "source_line_start": 70,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "width_principle",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/width-principle/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/width-principle/",
       "source_line_start": 87,
       "source_line_end": 89,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T33"
       ]
@@ -85,28 +95,34 @@
     {
       "kind": "theorem",
       "name": "width_principle_c",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/width-principle-c/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/width-principle-c/",
       "source_line_start": 92,
       "source_line_end": 94,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coherent_admissible",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/coherent-admissible/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/coherent-admissible/",
       "source_line_start": 97,
       "source_line_end": 99,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "chi_plus_admissible",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/chi-plus-admissible/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-plus-admissible/",
       "source_line_start": 107,
       "source_line_end": 108,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P30"
       ]
@@ -114,91 +130,111 @@
     {
       "kind": "theorem",
       "name": "chi_minus_admissible",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/chi-minus-admissible/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-minus-admissible/",
       "source_line_start": 111,
       "source_line_end": 112,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "id_admissible",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/id-admissible/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/id-admissible/",
       "source_line_start": 115,
       "source_line_end": 116,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "comp_chi_plus_admissible",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/comp-chi-plus-admissible/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/comp-chi-plus-admissible/",
       "source_line_start": 119,
       "source_line_end": 126,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "chi_plus_crt_complexity",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/chi-plus-crt-complexity/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-plus-crt-complexity/",
       "source_line_start": 134,
       "source_line_end": 136,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "chi_minus_crt_complexity",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/chi-minus-crt-complexity/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-minus-crt-complexity/",
       "source_line_start": 139,
       "source_line_end": 141,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "id_crt_complexity",
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/id-crt-complexity/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/id-crt-complexity/",
       "source_line_start": 144,
       "source_line_end": 146,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l153/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l153/",
       "source_line_start": 153,
       "source_line_end": 153,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l154/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l154/",
       "source_line_start": 154,
       "source_line_end": 154,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l155/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l155/",
       "source_line_start": 155,
       "source_line_end": 155,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l156/",
+      "url": "/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l156/",
       "source_line_start": 156,
       "source_line_end": 158,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -210,7 +246,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -279,23 +315,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [interface_width_at](/verify/taulib/docs/book-iii-spectrum-interface-width/interface-width-at/) | L46-L47 | defined | `I.D71` |
-| `def` | [width_check](/verify/taulib/docs/book-iii-spectrum-interface-width/width-check/) | L51-L53 | defined | — |
-| `def` | [TauAdmissible](/verify/taulib/docs/book-iii-spectrum-interface-width/tau-admissible/) | L65-L67 | defined | `I.D72` |
-| `def` | [TauAdmissibleFull](/verify/taulib/docs/book-iii-spectrum-interface-width/tau-admissible-full/) | L70-L73 | defined | — |
-| `theorem` | [width_principle](/verify/taulib/docs/book-iii-spectrum-interface-width/width-principle/) | L87-L89 | formalized | `I.T33` |
-| `theorem` | [width_principle_c](/verify/taulib/docs/book-iii-spectrum-interface-width/width-principle-c/) | L92-L94 | formalized | — |
-| `theorem` | [coherent_admissible](/verify/taulib/docs/book-iii-spectrum-interface-width/coherent-admissible/) | L97-L99 | formalized | — |
-| `theorem` | [chi_plus_admissible](/verify/taulib/docs/book-iii-spectrum-interface-width/chi-plus-admissible/) | L107-L108 | formalized | `I.P30` |
-| `theorem` | [chi_minus_admissible](/verify/taulib/docs/book-iii-spectrum-interface-width/chi-minus-admissible/) | L111-L112 | formalized | — |
-| `theorem` | [id_admissible](/verify/taulib/docs/book-iii-spectrum-interface-width/id-admissible/) | L115-L116 | formalized | — |
-| `theorem` | [comp_chi_plus_admissible](/verify/taulib/docs/book-iii-spectrum-interface-width/comp-chi-plus-admissible/) | L119-L126 | formalized | — |
-| `theorem` | [chi_plus_crt_complexity](/verify/taulib/docs/book-iii-spectrum-interface-width/chi-plus-crt-complexity/) | L134-L136 | formalized | — |
-| `theorem` | [chi_minus_crt_complexity](/verify/taulib/docs/book-iii-spectrum-interface-width/chi-minus-crt-complexity/) | L139-L141 | formalized | — |
-| `theorem` | [id_crt_complexity](/verify/taulib/docs/book-iii-spectrum-interface-width/id-crt-complexity/) | L144-L146 | formalized | — |
-| `eval` | [#eval L153](/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l153/) | L153-L153 | computed | — |
-| `eval` | [#eval L154](/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l154/) | L154-L154 | computed | — |
-| `eval` | [#eval L155](/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l155/) | L155-L155 | computed | — |
-| `eval` | [#eval L156](/verify/taulib/docs/book-iii-spectrum-interface-width/eval-l156/) | L156-L158 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [interface_width_at](/corpus/taulib/docs/book-iii-spectrum-interface-width/interface-width-at/) | L46-L47 | definition | definition | `I.D71` |
+| `def` | [width_check](/corpus/taulib/docs/book-iii-spectrum-interface-width/width-check/) | L51-L53 | data/computed value | data/computed value | — |
+| `def` | [TauAdmissible](/corpus/taulib/docs/book-iii-spectrum-interface-width/tau-admissible/) | L65-L67 | definition | definition | `I.D72` |
+| `def` | [TauAdmissibleFull](/corpus/taulib/docs/book-iii-spectrum-interface-width/tau-admissible-full/) | L70-L73 | definition | definition | — |
+| `theorem` | [width_principle](/corpus/taulib/docs/book-iii-spectrum-interface-width/width-principle/) | L87-L89 | proof obligation | formal proof obligation checked | `I.T33` |
+| `theorem` | [width_principle_c](/corpus/taulib/docs/book-iii-spectrum-interface-width/width-principle-c/) | L92-L94 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coherent_admissible](/corpus/taulib/docs/book-iii-spectrum-interface-width/coherent-admissible/) | L97-L99 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [chi_plus_admissible](/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-plus-admissible/) | L107-L108 | proof obligation | formal proof obligation checked | `I.P30` |
+| `theorem` | [chi_minus_admissible](/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-minus-admissible/) | L111-L112 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [id_admissible](/corpus/taulib/docs/book-iii-spectrum-interface-width/id-admissible/) | L115-L116 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [comp_chi_plus_admissible](/corpus/taulib/docs/book-iii-spectrum-interface-width/comp-chi-plus-admissible/) | L119-L126 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [chi_plus_crt_complexity](/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-plus-crt-complexity/) | L134-L136 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [chi_minus_crt_complexity](/corpus/taulib/docs/book-iii-spectrum-interface-width/chi-minus-crt-complexity/) | L139-L141 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [id_crt_complexity](/corpus/taulib/docs/book-iii-spectrum-interface-width/id-crt-complexity/) | L144-L146 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L153](/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l153/) | L153-L153 | computed check | computed check | — |
+| `eval` | [#eval L154](/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l154/) | L154-L154 | computed check | computed check | — |
+| `eval` | [#eval L155](/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l155/) | L155-L155 | computed check | computed check | — |
+| `eval` | [#eval L156](/corpus/taulib/docs/book-iii-spectrum-interface-width/eval-l156/) | L156-L158 | computed check | computed check | — |

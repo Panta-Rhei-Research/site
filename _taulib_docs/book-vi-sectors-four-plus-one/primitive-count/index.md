@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primitive_count",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-four-plus-one/primitive-count/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/primitive-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Sectors.FourPlusOne`.",
   "declaration_id": "TauLib.BookVI.Sectors.FourPlusOne::primitive_count",
   "declaration_slug": "primitive-count",
   "kind": "theorem",
   "name": "primitive_count",
   "module_name": "TauLib.BookVI.Sectors.FourPlusOne",
-  "module_url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/",
+  "module_url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/",
   "source_line_start": 66,
   "source_line_end": 66,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/FourPlusOne.lean#L66-L66",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Sectors.FourPlusOne",
-        "url": "/verify/taulib/docs/book-vi-sectors-four-plus-one/"
+        "url": "/corpus/taulib/docs/book-vi-sectors-four-plus-one/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Sectors.FourPlusOne](/verify/taulib/docs/book-vi-sectors-four-plus-one/)
+- Module: [TauLib.BookVI.Sectors.FourPlusOne](/corpus/taulib/docs/book-vi-sectors-four-plus-one/)
 - Source path: [`TauLib/BookVI/Sectors/FourPlusOne.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/FourPlusOne.lean#L66-L66)
 - Source range: L66-L66
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

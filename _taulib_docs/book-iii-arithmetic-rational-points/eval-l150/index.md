@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L150",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-rational-points/eval-l150/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/eval-l150/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Arithmetic.RationalPoints`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.RationalPoints::#eval:150",
   "declaration_slug": "eval-l150",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Arithmetic.RationalPoints",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-rational-points/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/",
   "source_line_start": 150,
   "source_line_end": 150,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/RationalPoints.lean#L150-L150",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.RationalPoints",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-rational-points/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.RationalPoints](/verify/taulib/docs/book-iii-arithmetic-rational-points/)
+- Module: [TauLib.BookIII.Arithmetic.RationalPoints](/corpus/taulib/docs/book-iii-arithmetic-rational-points/)
 - Source path: [`TauLib/BookIII/Arithmetic/RationalPoints.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/RationalPoints.lean#L150-L150)
 - Source range: L150-L150
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

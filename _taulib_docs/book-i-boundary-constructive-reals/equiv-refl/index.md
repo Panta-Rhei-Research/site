@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.equiv_refl",
-  "permalink": "/verify/taulib/docs/book-i-boundary-constructive-reals/equiv-refl/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-constructive-reals/equiv-refl/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.ConstructiveReals`.",
   "declaration_id": "TauLib.BookI.Boundary.ConstructiveReals::TauReal.equiv_refl",
   "declaration_slug": "equiv-refl",
   "kind": "theorem",
   "name": "TauReal.equiv_refl",
   "module_name": "TauLib.BookI.Boundary.ConstructiveReals",
-  "module_url": "/verify/taulib/docs/book-i-boundary-constructive-reals/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/",
   "source_line_start": 232,
   "source_line_end": 233,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ConstructiveReals.lean#L232-L233",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.ConstructiveReals",
-        "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/"
+        "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.ConstructiveReals](/verify/taulib/docs/book-i-boundary-constructive-reals/)
+- Module: [TauLib.BookI.Boundary.ConstructiveReals](/corpus/taulib/docs/book-i-boundary-constructive-reals/)
 - Source path: [`TauLib/BookI/Boundary/ConstructiveReals.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ConstructiveReals.lean#L232-L233)
 - Source range: L232-L233
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

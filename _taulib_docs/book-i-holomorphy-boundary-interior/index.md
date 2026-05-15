@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Holomorphy.BoundaryInterior",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Holomorphy.BoundaryInterior`.",
   "module_name": "TauLib.BookI.Holomorphy.BoundaryInterior",
   "module_slug": "book-i-holomorphy-boundary-interior",
@@ -36,10 +36,12 @@
     {
       "kind": "structure",
       "name": "EarnedInteriorPoint",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-point/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-point/",
       "source_line_start": 57,
       "source_line_end": 63,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D68"
       ]
@@ -47,28 +49,34 @@
     {
       "kind": "def",
       "name": "earned_id",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/earned-id/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/earned-id/",
       "source_line_start": 66,
       "source_line_end": 68,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "earned_interior_reduced",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-reduced/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-reduced/",
       "source_line_start": 71,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "interior_from_boundary",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary/",
       "source_line_start": 82,
       "source_line_end": 86,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.C02"
       ]
@@ -76,19 +84,23 @@
     {
       "kind": "theorem",
       "name": "interior_from_boundary_c",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary-c/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary-c/",
       "source_line_start": 89,
       "source_line_end": 93,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BookIExport",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/book-iexport/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/book-iexport/",
       "source_line_start": 103,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.P29"
       ]
@@ -96,55 +108,67 @@
     {
       "kind": "def",
       "name": "book_i_export",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/book-i-export/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/book-i-export/",
       "source_line_start": 121,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "five_generators",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/five-generators/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/five-generators/",
       "source_line_start": 132,
       "source_line_end": 133,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "monoid_assoc",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/monoid-assoc/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/monoid-assoc/",
       "source_line_start": 136,
       "source_line_end": 140,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "non_boolean",
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/non-boolean/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/non-boolean/",
       "source_line_start": 143,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/eval-l151/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/eval-l151/",
       "source_line_start": 151,
       "source_line_end": 151,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/eval-l152/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/eval-l152/",
       "source_line_start": 152,
       "source_line_end": 157,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -156,7 +180,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -230,17 +254,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [EarnedInteriorPoint](/verify/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-point/) | L57-L63 | defined | `I.D68` |
-| `def` | [earned_id](/verify/taulib/docs/book-i-holomorphy-boundary-interior/earned-id/) | L66-L68 | defined | — |
-| `theorem` | [earned_interior_reduced](/verify/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-reduced/) | L71-L73 | formalized | — |
-| `theorem` | [interior_from_boundary](/verify/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary/) | L82-L86 | formalized | `I.C02` |
-| `theorem` | [interior_from_boundary_c](/verify/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary-c/) | L89-L93 | formalized | — |
-| `structure` | [BookIExport](/verify/taulib/docs/book-i-holomorphy-boundary-interior/book-iexport/) | L103-L118 | defined | `I.P29` |
-| `def` | [book_i_export](/verify/taulib/docs/book-i-holomorphy-boundary-interior/book-i-export/) | L121-L125 | defined | — |
-| `theorem` | [five_generators](/verify/taulib/docs/book-i-holomorphy-boundary-interior/five-generators/) | L132-L133 | formalized | — |
-| `theorem` | [monoid_assoc](/verify/taulib/docs/book-i-holomorphy-boundary-interior/monoid-assoc/) | L136-L140 | formalized | — |
-| `theorem` | [non_boolean](/verify/taulib/docs/book-i-holomorphy-boundary-interior/non-boolean/) | L143-L144 | formalized | — |
-| `eval` | [#eval L151](/verify/taulib/docs/book-i-holomorphy-boundary-interior/eval-l151/) | L151-L151 | computed | — |
-| `eval` | [#eval L152](/verify/taulib/docs/book-i-holomorphy-boundary-interior/eval-l152/) | L152-L157 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [EarnedInteriorPoint](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-point/) | L57-L63 | type/data schema | type/data schema | `I.D68` |
+| `def` | [earned_id](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/earned-id/) | L66-L68 | definition | definition | — |
+| `theorem` | [earned_interior_reduced](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-reduced/) | L71-L73 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [interior_from_boundary](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary/) | L82-L86 | proof obligation | formal proof obligation checked | `I.C02` |
+| `theorem` | [interior_from_boundary_c](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/interior-from-boundary-c/) | L89-L93 | proof obligation | formal proof obligation checked | — |
+| `structure` | [BookIExport](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/book-iexport/) | L103-L118 | type/data schema | type/data schema | `I.P29` |
+| `def` | [book_i_export](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/book-i-export/) | L121-L125 | definition | definition | — |
+| `theorem` | [five_generators](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/five-generators/) | L132-L133 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [monoid_assoc](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/monoid-assoc/) | L136-L140 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [non_boolean](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/non-boolean/) | L143-L144 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L151](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/eval-l151/) | L151-L151 | computed check | computed check | — |
+| `eval` | [#eval L152](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/eval-l152/) | L152-L157 | computed check | computed check | — |

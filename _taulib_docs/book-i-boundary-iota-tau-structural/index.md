@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.IotaTauStructural",
-  "permalink": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.IotaTauStructural`.",
   "module_name": "TauLib.BookI.Boundary.IotaTauStructural",
   "module_slug": "book-i-boundary-iota-tau-structural",
@@ -36,91 +36,111 @@
     {
       "kind": "structure",
       "name": "CrossingPointDefectGerm",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/crossing-point-defect-germ/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/crossing-point-defect-germ/",
       "source_line_start": 96,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "CrossingPointDefectGerm.toTauReal",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/to-tau-real/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/to-tau-real/",
       "source_line_start": 107,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "IsSigmaFixed",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed/",
       "source_line_start": 123,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "CrossingPointDefectGerm.isSigmaFixed",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed-l130/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed-l130/",
       "source_line_start": 130,
       "source_line_end": 132,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "IsCrossingPoint",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/is-crossing-point/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/is-crossing-point/",
       "source_line_start": 146,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "Read",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/read/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/read/",
       "source_line_start": 157,
       "source_line_end": 160,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "iota_tau_read_eq_division",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/iota-tau-read-eq-division/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/iota-tau-read-eq-division/",
       "source_line_start": 176,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coupling_identity_reduces_to_wave4",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-reduces-to-wave4/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-reduces-to-wave4/",
       "source_line_start": 195,
       "source_line_end": 205,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coupling_identity_via_bounded_mul",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-via-bounded-mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-via-bounded-mul/",
       "source_line_start": 219,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coupling_identity",
-      "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity/",
+      "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity/",
       "source_line_start": 246,
       "source_line_end": 252,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -132,7 +152,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -205,15 +225,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [CrossingPointDefectGerm](/verify/taulib/docs/book-i-boundary-iota-tau-structural/crossing-point-defect-germ/) | L96-L103 | defined | — |
-| `def` | [CrossingPointDefectGerm.toTauReal](/verify/taulib/docs/book-i-boundary-iota-tau-structural/to-tau-real/) | L107-L108 | defined | — |
-| `def` | [IsSigmaFixed](/verify/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed/) | L123-L124 | defined | — |
-| `theorem` | [CrossingPointDefectGerm.isSigmaFixed](/verify/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed-l130/) | L130-L132 | formalized | — |
-| `def` | [IsCrossingPoint](/verify/taulib/docs/book-i-boundary-iota-tau-structural/is-crossing-point/) | L146-L147 | defined | — |
-| `def` | [Read](/verify/taulib/docs/book-i-boundary-iota-tau-structural/read/) | L157-L160 | defined | — |
-| `theorem` | [iota_tau_read_eq_division](/verify/taulib/docs/book-i-boundary-iota-tau-structural/iota-tau-read-eq-division/) | L176-L179 | formalized | — |
-| `theorem` | [coupling_identity_reduces_to_wave4](/verify/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-reduces-to-wave4/) | L195-L205 | formalized | — |
-| `theorem` | [coupling_identity_via_bounded_mul](/verify/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-via-bounded-mul/) | L219-L227 | formalized | — |
-| `theorem` | [coupling_identity](/verify/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity/) | L246-L252 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [CrossingPointDefectGerm](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/crossing-point-defect-germ/) | L96-L103 | type/data schema | type/data schema | — |
+| `def` | [CrossingPointDefectGerm.toTauReal](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/to-tau-real/) | L107-L108 | definition | definition | — |
+| `def` | [IsSigmaFixed](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed/) | L123-L124 | definition | definition | — |
+| `theorem` | [CrossingPointDefectGerm.isSigmaFixed](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/is-sigma-fixed-l130/) | L130-L132 | proof obligation | formal proof obligation checked | — |
+| `def` | [IsCrossingPoint](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/is-crossing-point/) | L146-L147 | definition | definition | — |
+| `def` | [Read](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/read/) | L157-L160 | definition | definition | — |
+| `theorem` | [iota_tau_read_eq_division](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/iota-tau-read-eq-division/) | L176-L179 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coupling_identity_reduces_to_wave4](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-reduces-to-wave4/) | L195-L205 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coupling_identity_via_bounded_mul](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity-via-bounded-mul/) | L219-L227 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coupling_identity](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity/) | L246-L252 | proof obligation | formal proof obligation checked | — |
