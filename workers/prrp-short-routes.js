@@ -12,6 +12,7 @@ const ROUTES = new Map([
   ["/wp-observatory", "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"],
   ["/wp005", "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"],
   ["/wp-impact", "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"],
+  ["/30-questions", "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/"],
   ["/anchor-documents", "https://panta-rhei.site/publications/anchor-documents/"]
 ]);
 

@@ -15,6 +15,7 @@ const expectedRoutes = new Map([
   ["https://prrp.site/wp-observatory", "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"],
   ["https://prrp.site/wp005", "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"],
   ["https://prrp.site/wp-impact", "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"],
+  ["https://prrp.site/30-questions", "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/"],
   ["https://prrp.site/anchor-documents", "https://panta-rhei.site/publications/anchor-documents/"]
 ]);
 

@@ -196,6 +196,14 @@ These routes are preserved because they are useful for review, but Wave 3 treats
       </a>
     </article>
   </li>
+  <li>
+    <article>
+      <a class="v2-tile" href="{{ '/publications/research-notes/thirty-open-problems-tau-readout-surfaces/' | relative_url }}">
+        <h3>Thirty Open Problems Probe</h3>
+        <p>An external expressiveness probe: familiar open-problem surfaces read through the existing construction grammar as answer-shapes, not solved results.</p>
+      </a>
+    </article>
+  </li>
 </ul>
 
 ## Current state

@@ -68,6 +68,7 @@ The ten construction steps show how the Corpus is built: not as a timeline or sp
 - [Publications]({{ '/publications/' | relative_url }}) are the citable artifact and release shelf.
 - [Corpus Graph]({{ '/corpus/graph/' | relative_url }}) is the dependency projection.
 - [Bi-Square Motif]({{ '/corpus/bi-square/' | relative_url }}) is the diagrammatic-shape route: tower coherence, spectral naturality, and pasting across the main algebraic, geometric, enriched, and computational lifts.
+- [Thirty Open Problems as τ-Readout Surfaces]({{ '/publications/research-notes/thirty-open-problems-tau-readout-surfaces/' | relative_url }}) is a derived publication projection: an external expressiveness probe that checks whether the construction grammar yields differentiated answer-shapes without claiming solved results.
 
 ## Kernel starting point
 
